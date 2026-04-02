@@ -3,20 +3,22 @@ user-type: administrator
 product-area: system-administration
 keywords: kickstart,kick-start,kickstarts,kick-starts
 navigation-topic: use-kick-starts
-title: Importación de datos en Workfront mediante una plantilla de KickStart
+title: Importar datos en Workfront usando una plantilla de Kick-Start
 description: Los Kick-Starts son libros de Excel con formato especial que se pueden rellenar con los datos que se desean importar a Workfront. Adobe Workfront proporciona una plantilla de Kick-Start que puede utilizar para este propósito, tal como se explica en el importador de datos de Kick-Starts.
 author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 25813946-e338-4dd9-b02c-d20fa18c539c
-source-git-commit: 156341072c291b5c03432da399a509d9772b73ea
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '2828'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
-# Importación de datos en Workfront mediante una plantilla de KickStart
+# Importar datos en Workfront usando una plantilla de Kick-Start
 
 <!--Audited: 12/2023-->
 
@@ -39,7 +41,7 @@ Cada uno de estos procedimientos se describe en el orden adecuado en este artíc
  <col> 
  <tbody> 
   <tr> 
-   <td>paquete de Adobe Workfront</td> 
+   <td>Paquete de Adobe Workfront</td> 
    <td><p>Cualquiera</p></td> 
   </tr> 
   <tr> 
@@ -75,7 +77,8 @@ Para exportar una plantilla de Kick-Start:
 {{step-1-to-setup}}
 
 <!--
-1. Click the **Main Menu** icon ![Main menu icon](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![Gear settings icon](assets/gear-icon-settings.png).  -->
+1. Click the **Main Menu** icon ![Main menu icon](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![Gear settings icon](assets/gear-icon-settings.png).
+-->
 
 1. Haga clic en **Sistema** > **Importar datos (Kick-Starts)**.
 
@@ -100,12 +103,12 @@ Para exportar una plantilla de Kick-Start:
     </thead> 
     <tbody> 
      <tr> 
-      <td scope="col"> <p>Panel de control</p> <p>Todos los tableros del sistema que se comparten públicamente están disponibles para la exportación. Los tableros que no se comparten en todo el sistema no se pueden exportar. Puede seleccionar hasta 100 paneles de control específicos en una sola exportación.</p> </td> 
+      <td scope="col"> <p>Panel de control</p> <p>Todos los paneles de control del sistema compartidos públicamente están disponibles para exportar. Los paneles de control que no se comparten en todo el sistema no se pueden exportar. Puede seleccionar hasta 100 paneles de control específicos en una sola exportación.</p> </td> 
       <td scope="col">Exportar como archivo ZIP</td> 
       <td scope="col"> <p>Parámetro</p> <p>Texto descriptivo</p><p>Opción del parámetro</p> <p>Grupo de parámetros</p> <p>Parámetro de categoría</p> <p>Categoría</p> <p>Informe</p> <p>Sección de la ficha de portal</p> <p>Panel de control</p> <p>Preferencias</p> </td> 
      </tr> 
      <tr> 
-      <td scope="col"> <p>Informe</p> <p>Todos los informes del sistema están disponibles para exportar. Puede seleccionar hasta 100 informes específicos en una sola exportación.</p> <p>Kick-Starts no admite filtros o agrupaciones en modo texto. Para que la exportación se realice correctamente, los filtros y las agrupaciones de informes deben cambiarse al modo Estándar.</p> </td> 
+      <td scope="col"> <p>Informe</p> <p>Todos los informes del sistema están disponibles para exportar. Puede seleccionar hasta 100 informes específicos en una sola exportación.</p> <p>Kick-Start no admite filtros ni agrupaciones en modo Texto. Para que la exportación se realice correctamente, los filtros de creación de informes y las agrupaciones deben cambiarse al modo Estándar.</p> </td> 
       <td scope="col">Exportar como archivo ZIP </td> 
       <td scope="col"> <p scope="col">Parámetro</p> <p scope="col">Texto descriptivo</p> <p scope="col">Opción del parámetro</p> <p scope="col">Grupo de parámetros</p> <p scope="col">Parámetro de categoría</p> <p scope="col">Categoría</p> <p scope="col">Informe</p> <p scope="col">Preferencias</p> </td> 
      </tr> 
@@ -360,7 +363,7 @@ Cada fila de la hoja corresponde a un objeto único.
 
      >[!NOTE]
      >
-     >Utilice únicamente el delimitador &quot;|&quot; para separar los valores de los campos personalizados. No puede usarlo en ninguna de las otras columnas de la hoja de cálculo, entre ellas **setCategoryID**.
+     >Utilice únicamente el delimitador “|” para separar los valores de los campos personalizados. No puede usarlo en ninguna de las otras columnas de la hoja de cálculo, entre ellas **setCategoryID**.
 
 ### Incluir fechas  {#include-dates}
 
@@ -374,11 +377,11 @@ Workfront puede procesar casi todos los formatos de fecha. Sin embargo, debe ase
 
 Workfront también acepta valores de tiempo como parte de la fecha.
 
-Por ejemplo: 10/07/2022 01:30 o 10/07/2022 1:00 PM.
+Por ejemplo: 07/10/2022 01:30 o 07/10/2022 1:00 p. m.
 
 Si se omite una hora en la fecha, Workfront realiza una de las siguientes acciones:
 
-* Asume que la hora es 12:00 a.m. Para ver la fecha que espera, la zona horaria del sistema debe coincidir con la suya.
+* Asume que la hora es 12:00 a. m. Para ver la fecha que espera, la zona horaria del sistema debe coincidir con la suya.
 * Si se encuentra en un objeto asociado a una programación, la hora cambia a la más temprana que la programación permita.
 
 >[!NOTE]
@@ -484,11 +487,11 @@ Para importar los datos de la hoja de cálculo de plantillas en Workfront:
 
 1. Haga clic en **Sistema** > **Importar datos (Kick-Starts)**.
 
-1. En la sección **Cargar datos con hoja de cálculo de KickStart**, haga clic en **Elegir archivo**, busque y seleccione la hoja de cálculo rellenada.
+1. En la sección **Cargar datos con hoja de cálculo de Kick-Start**, haga clic en **Elegir archivo** y luego busque y seleccione la hoja de cálculo rellenada.
 
-   El archivo se carga automáticamente y se muestra una notificación de que la importación se ha realizado correctamente.
+   El archivo se carga de forma automática y se muestra una notificación de que la importación se ha realizado correctamente.
 
    Si el archivo de Excel tarda más de 5 minutos en cargarse en Workfront, la aplicación agota el tiempo de espera y Workfront no puede cargar el archivo. Intente importar los datos en lotes de objetos más pequeños.
 
-1. (Condicional) Si la importación no se realizó correctamente, recibirá un mensaje de error que indica cuál es el problema. Intente identificar el campo, la hoja y el número de fila en los que se encontró el problema y corregir la información en el archivo de Excel. A continuación, intente importar el archivo una vez más.
-1. (Condicional) Si utiliza Workfront Fusion, ahora puede activar los FLO o escenarios cuando se complete la importación.
+1. (Condicional) Si la importación no se ha realizado correctamente, recibirá un mensaje de error en el que se indica cuál es el problema. Intente identificar el campo, la hoja y el número de fila en los que se encontró el problema y corrija la información en el archivo de Excel. A continuación, intente importar el archivo una vez más.
+1. (Condicional) Si utiliza Workfront Fusion, ahora puede activar los FLO o los escenarios cuando se complete la importación.

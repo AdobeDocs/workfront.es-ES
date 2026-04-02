@@ -1,12 +1,14 @@
 ---
 product-area: agile-and-teams;projects;user-management
 navigation-topic: use-kanban-in-an-agile-team
-title: Asignación de Usuarios a un Artículo en el Tablero Kanban
-description: Puede asignar usuarios a artículos directamente en el panel Kanban.
+title: Asignar usuarios a una historia en el Panel Kanban
+description: Puede asignar usuarios a historias directamente en el panel Kanban.
 author: Courtney
 feature: Agile
 exl-id: ed727302-68c7-4e00-b05c-a5ed238bcc2d
-source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '214'
 ht-degree: 79%
@@ -15,7 +17,7 @@ ht-degree: 79%
 
 # Asignar usuarios a una historia en el tablero [!UICONTROL Kanban]
 
-Puede asignar usuarios a artículos directamente en el panel Kanban.
+Puede asignar usuarios a historias directamente en el panel Kanban.
 
 ## Requisitos de acceso
 
@@ -49,7 +51,7 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
 
 1. (Opcional) Haga clic en el icono **[!UICONTROL Cambiar de equipo]** ![icono Cambiar de equipo](assets/switch-team-icon.png) y, a continuación, seleccione un nuevo equipo Kanban en el menú desplegable o busque un equipo en la barra de búsqueda.
 
-1. Ve al tablero [!UICONTROL Kanban] ágil donde deseas asignar usuarios.
+1. Vaya al tablero [!UICONTROL Kanban] de Agile donde desee asignar usuarios.
 1. Vaya al mosaico de la historia del tablero [!UICONTROL Kanban] en el que desea añadir un usuario.
 1. Haga clic en el avatar del equipo en el mosaico de la historia (o en un avatar de usuario si ya se ha asignado uno), empiece a escribir el nombre del usuario que desea asignar a la historia y, a continuación, haga clic en el nombre cuando aparezca. También puede elegir un usuario diferente.
 

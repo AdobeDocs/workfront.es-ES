@@ -8,7 +8,9 @@ feature: Get Started with Workfront
 role: User
 topic: Collaboration
 exl-id: a8271f3c-7a08-4eb3-aaff-deb250f5af73
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '705'
 ht-degree: 92%
@@ -71,7 +73,7 @@ Este artículo describe cómo responder a los comentarios de la mayoría de los 
    <li><p>Solicitud o superior</p></li></ul>
 
 <p>Para todos los demás objetos:</p>
-   <ul><li><p>Claro o superior</p></li>
+   <ul><li><p>Ligero o superior</p></li>
    <li><p>Revisión o superior</p></li></ul>
 
 </td>  
@@ -82,7 +84,7 @@ Este artículo describe cómo responder a los comentarios de la mayoría de los 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Permisos de objeto</strong></td> 
-   <td> <p>Ver permisos para el objeto</p> </td> 
+   <td> <p>Ver permisos del objeto</p> </td> 
   </tr> 
  </tbody> 
    </table>
@@ -91,7 +93,8 @@ Para obtener más información, consulte [Requisitos de acceso para la documenta
 
 +++
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto"> 
  <col> 
  <col> 
@@ -116,7 +119,8 @@ Para obtener más información, consulte [Requisitos de acceso para la documenta
  </tbody> 
 </table>
 
-*To find out what plan, license type, or access you have, contact your Workfront administrator. For more information, see [Access requirements for Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). -->
+*To find out what plan, license type, or access you have, contact your Workfront administrator. For more information, see [Access requirements for Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+-->
 
 ## Responder a una actualización o una respuesta en Workfront
 
@@ -148,7 +152,7 @@ Responder a un comentario en la sección Actualizaciones de un objeto es similar
 
 1. Haga clic en **Enviar** para guardar la respuesta.
 
-1. (Opcional) Haga clic en el menú **Más** ![Más menú](assets/more-menu.png) situado en la esquina superior derecha del comentario al que desea responder para ver más opciones para administrar la respuesta. Para obtener más información, consulte [Trabajo de actualización](../updating-work-items-and-viewing-updates/update-work.md).
+1. (Opcional) Haga clic en el menú **Más** ![Menú más](assets/more-menu.png) en la esquina superior derecha del comentario al que desea responder para obtener más opciones y administrar la respuesta. Para obtener más información, consulte [Trabajo de actualización](../updating-work-items-and-viewing-updates/update-work.md).
 
 <!--
 ### Reply to an update or reply in the legacy Updates section

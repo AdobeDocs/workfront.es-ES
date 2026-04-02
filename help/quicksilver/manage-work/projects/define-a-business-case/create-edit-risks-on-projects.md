@@ -6,7 +6,9 @@ description: Los riesgos son eventos posibles o factores que impiden que un proy
 author: Becky
 feature: Work Management
 exl-id: 6125c477-c0d8-43b4-88d8-35b0c2412468
-source-git-commit: 2e86369ae4c8e9fe2678773c20c02f6dbf8d5247
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1062'
 ht-degree: 47%
@@ -17,9 +19,11 @@ ht-degree: 47%
 
 <!--Audited: 06/2025-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release. </span>   
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release. </span>   
 
-<span class="preview">For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md). </span>-->
+<span class="preview">For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md). </span>
+-->
 
 Los riesgos son eventos posibles o factores que impiden que un proyecto finalice a tiempo o dentro del presupuesto. Puede registrar los riesgos como parte de la creación del caso empresarial de un proyecto o utilizando la pestaña Riesgos.
 
@@ -42,7 +46,7 @@ Los riesgos pueden estar asociados con el coste, pero el coste de riesgos real n
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><p>paquete de Adobe Workfront</p></td> 
+   <td role="rowheader"><p>Paquete de Adobe Workfront</p></td> 
    <ul><li>Cualquier plan para agregar riesgos en el área de Riesgos del proyecto</p></li>
    <li><p>Prime o superior, para agregar riesgos en el caso comercial del proyecto</p></li></ul>
    </td> 

@@ -6,7 +6,9 @@ description: Las fechas se pueden configurar para que se muestren en diversos fo
 author: Courtney
 feature: Reports and Dashboards
 exl-id: ff0686aa-b306-4954-8f9b-3e98bf8cff22
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '198'
 ht-degree: 90%
@@ -35,13 +37,13 @@ valuefield=plannedCompletionDate
 
 Para obtener más información sobre la aplicación de formato condicional en informes y listas de Workfront mediante el modo de texto, consulte [Usar formato condicional en el modo de texto](../../../reports-and-dashboards/reports/text-mode/use-conditional-formatting-text-mode.md).
 
-You can format dates using the following `valueformat` text mode values:
+Puede dar formato a las fechas utilizando los siguientes `valueformat` valores del modo de texto:
 
 | **Formato** | Ejemplo | ***valueformat=*** |
 |---|---|---|
 | MM/DD/AA | 10/11/18 | `atDate` |
-| MM/DD/AA Hora | 10/11/18 12:00pm | `longAtDate` |
+| MM/DD/AA Hora | 11/10/18 12:00pm | `longAtDate` |
 | MM/DD/AA | 10/11/18 | `shortAtDate` |
 | Mes, DD, AÑO | Oct 11, 2018 | `mediumAtDate` |
 | DS, Mes, Día, AÑO | Lun, Octubre 11, 2018 | `partialAtDate` |
-| DS, Mes, Día AÑO Hora | Mon, Oct, 11, 2018 12:00 pm | `fullAtDate` |
+| DS, Mes, Día AÑO Hora | Lun, 11 de octubre de 2018 12:00 pm | `fullAtDate` |

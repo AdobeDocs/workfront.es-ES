@@ -5,7 +5,9 @@ description: Puede ver listas de objetos en  [!DNL Adobe Workfront]  para obtene
 feature: Get Started with Workfront
 author: Courtney
 exl-id: d4262b8e-bbe0-4ac2-8f1f-5d32541311c8
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '2301'
 ht-degree: 72%
@@ -70,7 +72,8 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
 
 +++
 
-<!--Old access: 
+<!--
+Old access: 
 
 You must have the following access to perform the steps in this article:
 
@@ -669,9 +672,11 @@ La tabla siguiente muestra algunas de las diferencias entre las listas estándar
 </table>
 
 <!--
-consider adding things like adding fields on the fly in an enhanced list when we will be able to do this-->
+consider adding things like adding fields on the fly in an enhanced list when we will be able to do this
+-->
 
-<!--old table: 
+<!--
+old table: 
 <table style="table-layout:auto"> 
  <col> 
  <col> 

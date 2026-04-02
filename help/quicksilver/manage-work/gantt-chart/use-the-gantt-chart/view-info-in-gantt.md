@@ -5,7 +5,9 @@ description: Los diagramas de Gantt [!UICONTROL de tareas y proyectos de Adobe W
 author: Alina
 feature: Work Management
 exl-id: e6b55699-0831-40d4-a997-6fe3f8828ee1
-source-git-commit: c8987d036e1c1324618cb53ebcbb8fd7e4bcc6a4
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '882'
 ht-degree: 89%
@@ -50,7 +52,8 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
 
 +++ 
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto"> 
  <col> 
  <col> 
@@ -74,7 +77,8 @@ If you still don't have access, ask your [!DNL Workfront] administrator if they 
    <td> <p>[!UICONTROL View] or higher access to the project</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Busque el [!UICONTROL gráfico Gantt]
 
@@ -131,7 +135,7 @@ Puede ajustar el período de tiempo mostrado en el [!UICONTROL gráfico Gantt] p
 
 ### Cambiar el período de tiempo en un nivel granular {#change-the-time-period-on-a-granular-level}
 
-1. Pase el puntero por encima de la línea de tiempo del [!UICONTROL gráfico Gantt], luego arrastre el indicador de zoom de izquierda a derecha para expandir o contraer la línea de tiempo.\
+1. Pase el puntero por encima de la cronología del [!UICONTROL gráfico Gantt], luego arrastre el indicador de zoom de izquierda a derecha para expandir o contraer la cronología.\
    ![zoom_tool_in_gantt.png](assets/zoom-tool-in-gantt-350x180.png)
 
 ### Ver información por día, semana, mes, trimestre o año {#view-information-by-day-week-month-quarter-or-year}
@@ -151,7 +155,7 @@ Puede ajustar el período de tiempo mostrado en el [!UICONTROL gráfico Gantt] p
    * **[!UICONTROL Día]**
 
 1. (Opcional) Seleccione un marco de tiempo más granular, como [!UICONTROL Semana] o [!UICONTROL Día], y haga clic y arrastre la barra de desplazamiento horizontal en la parte inferior del [!UICONTROL gráfico Gantt] para moverse de izquierda a derecha en la línea de tiempo del proyecto.\
-   Se muestra una captura de la línea de tiempo del [!UICONTROL gráfico Gantt] para mostrar todo el proyecto.
+   Se muestra una captura de la cronología del [!UICONTROL gráfico Gantt] para mostrar todo el proyecto.
 
    >[!TIP]
    >
@@ -169,7 +173,7 @@ El [!UICONTROL gráfico Gantt] es una representación visual de la información 
 
 >[!CAUTION]
 >
->No puede aplicar filtros, vistas y agrupaciones cuando seleccionas [!UICONTROL Guardar manualmente] en [!UICONTROL Planificación de la línea de tiempo] para guardar los cambios en tu lista de tareas. Para obtener información acerca de cómo guardar los cambios realizados en las tareas de una lista, consulte [Editar tareas en una lista](../../../manage-work/tasks/manage-tasks/edit-tasks-in-a-list.md).
+>No puede aplicar filtros, vistas y agrupaciones cuando seleccionas [!UICONTROL Guardar manualmente] en [!UICONTROL Planificación de la cronología] para guardar los cambios en tu lista de tareas. Para obtener información acerca de cómo guardar los cambios realizados en las tareas de una lista, consulte [Editar tareas en una lista](../../../manage-work/tasks/manage-tasks/edit-tasks-in-a-list.md).
 
 Los filtros y agrupaciones que aplicas a la lista se reflejan tanto en los [!UICONTROL gráficos Gantt] de la Lista de proyectos como en la Lista de tareas y también se incluyen cuando se exportan los gráficos Gantt:
 

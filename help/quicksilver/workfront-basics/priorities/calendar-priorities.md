@@ -1,19 +1,21 @@
 ---
 navigation-topic: get-started-with-workfront
-title: Administrar el trabajo en el calendario de prioridades
+title: Administrar el trabajo en el calendario de Prioridades
 description: Realice un seguimiento de su trabajo con un calendario claro y visual.
 author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: d24ad7d1-3a88-479e-beaf-69f8264c9a6b
-source-git-commit: 0940e4c89de6cd3518cd98a1e06dc726f434846b
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '522'
-ht-degree: 13%
+ht-degree: 17%
 
 ---
 
-# Administrar el trabajo en el calendario de prioridades
+# Administrar el trabajo en el calendario de Prioridades
 
 Realice fácilmente un seguimiento de su trabajo con un calendario claro y visual. Con el calendario de Prioridades, puede
 
@@ -37,7 +39,7 @@ Realice fácilmente un seguimiento de su trabajo con un calendario claro y visua
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td role="rowheader">Paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 

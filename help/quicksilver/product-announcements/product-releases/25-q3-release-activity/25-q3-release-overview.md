@@ -5,10 +5,12 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9342f393-a404-44b4-aad6-2c4cf634dfd5
-source-git-commit: e82c1a122f7a11fda2210de75c5f62c5fbaa35f0
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1875'
-ht-degree: 18%
+ht-degree: 41%
 
 ---
 
@@ -19,9 +21,11 @@ Esta página proporciona información sobre la funcionalidad que se incluye en l
 Las mejoras de esta página están disponibles en el entorno de vista previa. Esta página se actualizará con mejoras adicionales a medida que la versión del tercer trimestre de 2025 se aproxime a su versión de producción planificada.
 
 
-<!-- Keep commented until Final Preview release.
+<!--
+ Keep commented until Final Preview release.
 
-The <add release> release webinar will be held on <date>. You can [register for the webinar here <get link from product ops>. -->
+The <add release> release webinar will be held on <date>. You can [register for the webinar here <get link from product ops>.
+-->
 
 >[!IMPORTANT]
 >
@@ -44,10 +48,10 @@ The <add release> release webinar will be held on <date>. You can [register for 
 * [Mejoras en el Inicio](#home-enhancements)
 * [Mejoras en el proyecto](#project-enhancements)
 * [Mejoras en la creación de informes](#reporting-enhancements)
-* [Mejoras de actualizaciones y notificaciones](#update-and-notification-enhancements)
+* [Mejoras en notificaciones y actualizaciones](#update-and-notification-enhancements)
 * [Otras mejoras](#other-enhancements)
 
-### Mejoras de corrección y administración de documentos
+### Mejoras de revisión y administración de documentos
 
 <table style="table-layout:auto">
   <tbody>
@@ -55,7 +59,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td><strong>Función</strong>
         </td>
         <td><strong>Vista previa</strong></td>
-        <td><strong>Liberación rápida</strong></td>
+        <td><strong>Versión rápida</strong></td>
         <td><strong>Trimestralmente</strong></td>
     </tr>
     <tr>
@@ -74,14 +78,14 @@ The <add release> release webinar will be held on <date>. You can [register for 
             <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Actualización del visor de corrección de escritorio</a><p>[!BADGE Off schedule]{type=Neutral}</p>
             <p>El Visor de corrección de escritorio se ha actualizado a la versión 2.1.50. Esta actualización incluye actualizaciones de las herramientas internas y no afecta a la funcionalidad del usuario final.
         </td>
-        <td>martes, 16 de junio de 2025</td>
-        <td>martes, 16 de junio de 2025</td>
-        <td>martes, 16 de junio de 2025</td>
+        <td>16 de junio de 2025</td>
+        <td>16 de junio de 2025</td>
+        <td>16 de junio de 2025</td>
     </tr> 
     <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Nueva revisión e integración de GenStudio for Performance Marketing</a>
-            <p>Nos complace presentar una nueva integración entre Proofing y GenStudio for Performance Marketing. Con esta integración, puede 
+            <p>Nos complace presentar una nueva integración entre Proofing y GenStudio for Performance Marketing. Con esta integración, puede hacer lo siguiente 
             <ul>
             <li>Uso de plantillas de aprobación de Workfront para definir flujos de trabajo de aprobación
             </li>
@@ -112,9 +116,9 @@ The <add release> release webinar will be held on <date>. You can [register for 
             para aplicaciones de terceros que acceden a Google Drive, que requieren que las aplicaciones adopten un modelo de consentimiento por usuario. Como resultado, los recursos individuales deben vincularse de uno en uno para que sean visibles en Workfront. Ver <a href="/help/quicksilver/administration-and-setup/configure-integrations/configure-document-integrations.md">Configurar integraciones de documentos</a>
              para obtener más información. </p>
         </td>
-        <td>25 de mayo de 2023</td>
-        <td>25 de mayo de 2023</td>
-        <td>25 de mayo de 2023</td>
+        <td>8 de mayo de 2024</td>
+        <td>8 de mayo de 2024</td>
+        <td>8 de mayo de 2024</td>
     </tr>  
     <tr>
         <td>
@@ -122,8 +126,8 @@ The <add release> release webinar will be held on <date>. You can [register for 
             <p>Los nuevos botones de decisión de aprobación de documentos ahora aparecen en el visor de pruebas. Ahora, cuando crea una prueba sencilla y luego agrega aprobadores y revisores desde el Resumen del documento, pueden tomar su decisión directamente dentro del visualizador de pruebas.</p>
         </td>
         <td>viernes, 10 de abril de 2025</td>
-        <td>viernes, 17 de abril de 2025</td>
-        <td>viernes, 17 de abril de 2025</td>
+        <td>17 de abril de 2025</td>
+        <td>17 de abril de 2025</td>
     </tr>     
   </tbody>
 </table>
@@ -136,7 +140,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td><strong>Característica</strong>
         </td>
         <td><strong>Vista previa</strong></td>
-        <td><strong>Liberación rápida</strong></td>
+        <td><strong>Versión rápida</strong></td>
         <td><strong>Trimestralmente</strong></td>
     </tr>
        <tr>
@@ -183,7 +187,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td><strong>Característica</strong>
         </td>
         <td><strong>Vista previa</strong></td>
-        <td><strong>Liberación rápida</strong></td>
+        <td><strong>Versión rápida</strong></td>
         <td><strong>Trimestralmente</strong></td>
     </tr>
     <tr>
@@ -252,7 +256,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td><strong>Característica</strong>
         </td>
         <td><strong>Vista previa</strong></td>
-        <td><strong>Liberación rápida</strong></td>
+        <td><strong>Versión rápida</strong></td>
         <td><strong>Trimestralmente</strong></td>
     </tr>
       <tr>
@@ -277,7 +281,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
   </tbody>
 </table>
 
-### Mejoras de actualizaciones y notificaciones
+### Mejoras en notificaciones y actualizaciones
 
 <table style="table-layout:auto">
   <tbody>
@@ -285,7 +289,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td><strong>Función</strong>
         </td>
         <td><strong>Vista previa</strong></td>
-        <td><strong>Liberación rápida</strong></td>
+        <td><strong>Versión rápida</strong></td>
         <td><strong>Trimestralmente</strong></td>
     </tr>
     <tr>
@@ -343,19 +347,19 @@ The <add release> release webinar will be held on <date>. You can [register for 
 
 ## Modernización de interfaces
 
-Estamos actualizando la interfaz a través de Adobe Workfront para mejorar la experiencia del usuario y unificarla con otras aplicaciones de Adobe. Estos cambios se liberan fuera de la programación de versiones estándar. Para obtener una lista de estos cambios, consulte [Modernización de la interfaz](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).
+Estamos actualizando la interfaz a través de Adobe Workfront para mejorar la experiencia del usuario y unificarla con otras aplicaciones de Adobe. Estos cambios se lanzan fuera de la programación de la versión estándar. Para obtener una lista de estos cambios, consulte [Modernización de la interfaz](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).
 
 ## Notas de la versión para otras áreas
 
 ### Mejoras de Workfront Fusion
 
-Las nuevas funciones de Workfront Fusion están disponibles en el entorno de producción en una cadencia fuera de la programación de versiones estándar. Para obtener más información sobre las últimas funciones, consulte [Actividad de la versión de Adobe Workfront Fusion](https://experienceleague.adobe.com/es/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
+Las nuevas funciones de Workfront Fusion están disponibles en el entorno de producción a un ritmo distinto a la de la programación de la versión estándar. Para obtener más información sobre las últimas funciones, consulte [Actividad de la versión de Adobe Workfront Fusion](https://experienceleague.adobe.com/es/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
 
-### Mejoras de Workfront Planning
+### Mejoras en Workfront Planning
 
 Las nuevas funciones de Workfront Planning están disponibles en el entorno de producción. Para obtener más información sobre las últimas funciones, consulte [Actividad de la versión del tercer trimestre de 2025 de Adobe Workfront Planning](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q3.md).
 
-No hay actualizaciones para lo siguiente en este punto de la versión:
+En este punto de la versión, no hay actualizaciones de lo siguiente:
 
 * Planificador de escenarios
 * Revisión
@@ -365,27 +369,27 @@ No hay actualizaciones para lo siguiente en este punto de la versión:
 
 ### Nueva versión de Workfront para Microsoft Teams
 
-A medida que [Microsoft pasa al cliente New Teams](https://learn.microsoft.com/en-us/microsoftteams/teams-classic-client-end-of-availability), el cliente Classic Teams dejará de estar disponible a partir del 1 de julio de 2025. Para seguir utilizando Microsoft Teams y aplicaciones integradas como Workfront, los clientes deben realizar la transición al cliente Nuevo equipo antes de esta fecha.
+A medida que [Microsoft pasa al cliente del nuevo Teams](https://learn.microsoft.com/es-es/microsoftteams/teams-classic-client-end-of-availability), el cliente de Teams clásico dejará de estar disponible a partir del 1 de julio de 2025. Para seguir utilizando Microsoft Teams y aplicaciones integradas como Workfront, los usuarios deben realizar la transición al cliente del nuevo Teams antes de esta fecha.
 
-La integración actualizada de Workfront ya está disponible y es totalmente compatible con la experiencia Nuevos equipos. En la mayoría de los casos, Workfront aparecerá automáticamente una vez que los usuarios hayan realizado la transición. Si no es así, la integración se puede instalar manualmente desde Microsoft Teams App Store. Para instalar o comprobar la integración de Workfront en el cliente New Teams, consulte [Instalar [!DNL Adobe Workfront] para Microsoft Teams](/help/quicksilver/workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md).
+La integración actualizada de Workfront ya está disponible y es totalmente compatible con la experiencia del nuevo Teams. En la mayoría de los casos, Workfront aparecerá automáticamente una vez que los usuarios hayan realizado la transición. Si no es así, se puede instalar la integración manualmente desde la tienda de aplicaciones de Microsoft Teams. Para instalar o comprobar la integración de Workfront en el cliente del nuevo Teams, consulte [Instalar [!DNL Adobe Workfront] en Microsoft Teams](/help/quicksilver/workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md).
 
 ### Workfront para Microsoft Outlook
 
-[Microsoft está deshabilitando la compatibilidad con los tokens en línea heredados de Exchange](https://learn.microsoft.com/en-us/office/dev/add-ins/outlook/faq-nested-app-auth-outlook-legacy-tokens), que el complemento Outlook de Workfront usa actualmente para la autenticación. Este cambio de Microsoft ya ha comenzado a afectar a los clientes y seguirá implementándose por fases hasta octubre de 2025.
+[Microsoft está en proceso de deshabilitar la compatibilidad con los tókenes heredados de Exchange Online](https://learn.microsoft.com/es-es/office/dev/add-ins/outlook/faq-nested-app-auth-outlook-legacy-tokens), que actualmente utilizan el complemento de Workfront Outlook para la autenticación. Este cambio de Microsoft ya ha comenzado a afectar a los clientes y seguirá implementándose por fases hasta octubre de 2025.
 
-* **Después de que Microsoft deshabilite completamente estos tokens, la integración de Workfront para Microsoft Outlook dejará de funcionar.**
+* **Después de que Microsoft deshabilite completamente estos tókenes , la integración de Workfront para Microsoft Outlook dejará de funcionar.**
 
-Como parte de este cambio, Microsoft ha tomado la decisión de cambiar la forma en que se vuelven a habilitar los tokens. Después del **30 de junio de 2025**, los administradores ya no podrán volver a habilitar los tokens, solo el soporte de Microsoft puede conceder excepciones. **El 1 de octubre de 2025, los tokens heredados se desactivarán para todos los inquilinos. No se concederán excepciones.**
+Como parte de este cambio, Microsoft ha tomado la decisión de cambiar la forma en que se vuelven a habilitar los tókenes. Después del **30 de junio de 2025**, los administradores ya no podrán volver a habilitar los tókenes ; solo el soporte de Microsoft podrá realizar excepciones. **El 1 de octubre de 2025, los tókenes heredados se desactivarán para todos los responsables. No se concederán excepciones.**
 
 ### Versión 20 de la API
 
-La versión 20 de la API de Workfront se publicó el 4 de mayo de 2025. Para la versión 20 de la API, hemos modificado algunos recursos y puntos finales. Algunos de los cambios admiten nuevas funciones y otros facilitan el uso de la información disponible a través de la API.
+La versión 20 de la API de Workfront se publicó el lunes, 04 de mayo de 2025. Para la versión 20 de la API, hemos modificado algunos recursos y puntos finales. Algunos de los cambios admiten nuevas funciones y otros facilitan el uso de la información disponible a través de la API.
 
 Para obtener información sobre novedades y actualizaciones, consulte [Novedades de la versión 20 de la API](/help/quicksilver/wf-api/api/new-api-version-19.md).
 
 Para obtener información sobre las versiones de API, consulte [Versiones de API y programación de soporte](/help/quicksilver/wf-api/api/api-version-support-schedule.md).
 
-### Actualizaciones de mantenimiento de Workfront 
+### Actualizaciones de mantenimiento de Workfront
 
 Para obtener información sobre las actualizaciones de mantenimiento realizadas durante la versión del primer trimestre de 2025, consulte [Actualizaciones de mantenimiento de Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=es).
 
@@ -395,7 +399,8 @@ Explore las últimas actualizaciones realizadas en los programas de aprendizaje,
 
 
 
-<!-- HTML you might need
+<!--
+ HTML you might need
 
 New table
 

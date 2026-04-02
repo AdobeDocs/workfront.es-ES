@@ -6,10 +6,12 @@ description: Lea este artículo para aprender a iniciar sesión en Workfront.
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 69297cca-6b28-47d6-a478-8ac2bc29b959
-source-git-commit: c6272c7631941720e3ab1e1c80ed7d304a67d34b
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '885'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -42,7 +44,7 @@ Necesita la siguiente información para iniciar sesión en [!DNL Adobe Workfront
  </col>
  <tbody> 
   <tr> 
-   <td>paquete de Adobe Workfront</td> 
+   <td>Paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
@@ -112,7 +114,8 @@ Para iniciar sesión en [!DNL Workfront] con su nombre de usuario y contraseña 
    >
    >Normalmente, es el nombre de su empresa. Si no está seguro, póngase en contacto con el administrador de [!DNL Workfront].
 
-<!--1. Specify the [!DNL Workfront] URL for your company or the link to your SAML authentication portal.
+<!--
+1. Specify the [!DNL Workfront] URL for your company or the link to your SAML authentication portal.
 
    The [!DNL Workfront] URL should display in the following format:
    **`yourDomain.my.workfront.com`**
@@ -127,7 +130,8 @@ Para iniciar sesión en [!DNL Workfront] con su nombre de usuario y contraseña 
 
 1. Tap **[!UICONTROL Continue in browser]**.
 1. Specify the **[!UICONTROL Username]** of your [!DNL Workfront] account or SAML user.
-1. Specify the **[!UICONTROL Password]** for your [!DNL Workfront] account or SAML user.-->
+1. Specify the **[!UICONTROL Password]** for your [!DNL Workfront] account or SAML user.
+-->
 
 1. (Condicional) Si inicia sesión por primera vez, se mostrará una página que solicita permiso para que la aplicación móvil [!DNL Workfront] acceda a su cuenta. Haga clic en **Permitir acceso** para continuar.
 

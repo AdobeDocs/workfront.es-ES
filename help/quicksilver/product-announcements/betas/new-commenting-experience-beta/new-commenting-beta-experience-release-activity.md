@@ -9,7 +9,9 @@ hide: true
 hidefromtoc: true
 role: User, Admin
 exl-id: 276b28f0-3955-4a0e-aa31-604b291f2f14
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1870'
 ht-degree: 96%
@@ -24,7 +26,8 @@ ht-degree: 96%
 <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers, or in the Production environment for customers who enabled fast releases. </span>  
 * <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)</span>  
 
-<span class="preview">For information about the current release, see [Fourth Quarter 2023 release overview](../../../product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md)</span> -->
+<span class="preview">For information about the current release, see [Fourth Quarter 2023 release overview](../../../product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md)</span>
+-->
 
 
 >[!IMPORTANT]
@@ -317,19 +320,19 @@ Disponible para la experiencia de comentarios beta y para las metas de Workfront
 
 La siguiente actualización de mantenimiento se publicó para los comentarios sobre problemas beta y para las metas:
 
-Editar imágenes adjuntas al editar un comentario. Para obtener más información, consulte la sección &quot;Actualización de mantenimiento el 27 de abril&quot; en el artículo &lt;a href=&quot;https://experienceleague.adobe.com/es/docs/workfront-known-issues/releases/current-updates#updates-in-april-2023%22%3EUpdates&quot; en abril de 2023</a>.
+Editar imágenes adjuntas al editar un comentario. Para obtener más información, consulte la sección &quot;Actualización de mantenimiento el 27 de abril&quot; en el artículo &lt;a href=&quot;https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates#updates-in-april-2023%22%3EUpdates&quot; en abril de 2023</a>.
 
-### 20 de abril de 2023
-
-La siguiente actualización de mantenimiento se publicó para los comentarios sobre problemas beta y para las metas:
-
-Mantener las imágenes como borrador al alejarse de una actualización para ver las metas y los problemas en la experiencia de comentarios beta. Para obtener más información, consulte la sección &quot;Actualización de mantenimiento el 20 de abril&quot; en el artículo &lt;a href=&quot;https://experienceleague.adobe.com/es/docs/workfront-known-issues/releases/current-updates#updates-in-april-2023%22%3EUpdates&quot; de abril de 2023</a>.
-
-### 17 de abril de 2023
+### viernes, 20 de abril de 2023
 
 La siguiente actualización de mantenimiento se publicó para los comentarios sobre problemas beta y para las metas:
 
-Mostrar nuevos comentarios fuera del área de la pantalla visible en la sección Actualizaciones de problemas (nueva experiencia de comentarios beta) y Metas. Para obtener más información, consulte la sección &quot;Actualización de mantenimiento el 17 de abril&quot; en el artículo &lt;a href=&quot;https://experienceleague.adobe.com/es/docs/workfront-known-issues/releases/current-updates#updates-in-april-2023%22%3EUpdates&quot; de abril de 2023</a>.
+Mantener las imágenes como borrador al alejarse de una actualización para ver las metas y los problemas en la experiencia de comentarios beta. Para obtener más información, consulte la sección &quot;Actualización de mantenimiento el 20 de abril&quot; en el artículo &lt;a href=&quot;https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates#updates-in-april-2023%22%3EUpdates&quot; de abril de 2023</a>.
+
+### martes, 17 de abril de 2023
+
+La siguiente actualización de mantenimiento se publicó para los comentarios sobre problemas beta y para las metas:
+
+Mostrar nuevos comentarios fuera del área de la pantalla visible en la sección Actualizaciones de problemas (nueva experiencia de comentarios beta) y Metas. Para obtener más información, consulte la sección &quot;Actualización de mantenimiento el 17 de abril&quot; en el artículo &lt;a href=&quot;https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates#updates-in-april-2023%22%3EUpdates&quot; de abril de 2023</a>.
 
 
 ### Semana del 6 de abril de 2023

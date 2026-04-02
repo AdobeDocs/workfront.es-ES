@@ -5,12 +5,14 @@ product-area: system-administration;timesheets
 keywords: usuario, horario
 navigation-topic: configure-timesheets-and-schedules
 title: Información general sobre los horarios
-description: Puede definir la semana laboral mediante el uso de horarios. Puede asociar un horario a un usuario o proyecto. Esto permite a [!DNL Adobe Workfront]  calcular las líneas de tiempo y la disponibilidad del usuario. Para obtener instrucciones, consulte Crear un horario.
+description: Puede definir la semana laboral mediante el uso de horarios. Puede asociar un horario a un usuario o proyecto. Esto permite a [!DNL Adobe Workfront]  calcular las cronologías y la disponibilidad del usuario. Para obtener instrucciones, consulte Crear un horario.
 author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 02350860-f997-4a76-8aec-c6c813d58e2d
-source-git-commit: 325334010d5f1206931cc9ace67f9511d614ffca
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '761'
 ht-degree: 95%
@@ -21,11 +23,13 @@ ht-degree: 95%
 
 <!-- Audited: 1/2024 -->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
-Puede definir la semana laboral mediante el uso de horarios y asociar un horario a un usuario o proyecto. Esto permite a [!DNL Adobe Workfront] calcular las líneas de tiempo y la disponibilidad del usuario. Para obtener instrucciones, consulte [Crear un horario](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
+Puede definir la semana laboral mediante el uso de horarios y asociar un horario a un usuario o proyecto. Esto permite a [!DNL Adobe Workfront] calcular las cronologías y la disponibilidad del usuario. Para obtener instrucciones, consulte [Crear un horario](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
 
 Tenga en cuenta lo siguiente al trabajar con horarios en Workfront:
 
@@ -45,11 +49,11 @@ Tenga en cuenta lo siguiente al trabajar con horarios en Workfront:
 
   Puede asignar una zona horaria específica para cada horario a fin de asegurarse de que el trabajo se programe correctamente para los usuarios que trabajan en diferentes zonas horarias.
 
-* Cuando los usuarios o proyectos no están asociados a un horario, se usa el horario predeterminado de [!DNL Workfront] en los cálculos de línea de tiempo. 
+* Cuando los usuarios o proyectos no están asociados a un horario, se usa el horario predeterminado de [!DNL Workfront] en los cálculos de cronología. 
 
   El horario predeterminado viene con el sistema de [!DNL Workfront] y no se puede eliminar a menos que se reemplace por uno nuevo que se cree.
 
-* Además de calcular líneas de tiempo, [!DNL Workfront] usa horarios para calcular la disponibilidad del usuario.
+* Además de calcular cronologías, [!DNL Workfront] usa horarios para calcular la disponibilidad del usuario.
 
   >[!IMPORTANT]
   >
@@ -57,7 +61,7 @@ Tenga en cuenta lo siguiente al trabajar con horarios en Workfront:
 
 ## Jerarquía de horarios
 
-Si una tarea se asigna a un usuario asociado a un horario y reside en un proyecto asociado a un segundo horario, tiene al menos dos horarios que podrían aplicarse a los cálculos de línea de tiempo.
+Si una tarea se asigna a un usuario asociado a un horario y reside en un proyecto asociado a un segundo horario, tiene al menos dos horarios que podrían aplicarse a los cálculos de cronología.
 
 >[!IMPORTANT]
 >
@@ -80,8 +84,8 @@ El orden en el que el sistema utiliza los horarios cuando existe más de uno es 
 
      Para obtener más información acerca de las preferencias de proyecto, consulte [Configurar las preferencias de proyecto de todo el sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
-* Si el usuario asignado a la tarea no tiene horario, o si la tarea se ha asignado solo a una función o un equipo, o no se ha asignado, [!DNL Workfront] usa el horario del proyecto para los cálculos de línea de tiempo.
-* Si el usuario asignado a la tarea no tiene horario, o si la tarea se ha asignado solo a un equipo o no se ha asignado, y el proyecto no tiene horario, [!DNL Workfront] usa el horario del sistema designado como horario predeterminado para los cálculos de línea de tiempo.
+* Si el usuario asignado a la tarea no tiene horario, o si la tarea se ha asignado solo a una función o un equipo, o no se ha asignado, [!DNL Workfront] usa el horario del proyecto para los cálculos de cronología.
+* Si el usuario asignado a la tarea no tiene horario, o si la tarea se ha asignado solo a un equipo o no se ha asignado, y el proyecto no tiene horario, [!DNL Workfront] usa el horario del sistema designado como horario predeterminado para los cálculos de cronología.
 
   ![Programación predeterminada](assets/default-schedule.png)
 

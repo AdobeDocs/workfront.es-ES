@@ -7,10 +7,12 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: af1a54ea-1717-45fa-bb94-55774eb28f28
-source-git-commit: 699add479d958b9f3fc01ae30513ddf6689620f1
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '2017'
-ht-degree: 1%
+ht-degree: 14%
 
 ---
 
@@ -28,7 +30,7 @@ Para obtener una lista de todas las características publicadas para Adobe Workf
 >[!NOTE]
 >
 >Vista previa: 15 de enero de 2026
->Versión rápida de producción: 15 de enero de 2026
+>Producción para la versión rápida: 15 de enero de 2026
 >Producción para todos: 15 de enero de 2026
 >[!BADGE Fuera del horario]{type=Neutral}
 
@@ -48,7 +50,7 @@ Para obtener más información, vea [Información general sobre el tipo de regis
 >[!NOTE]
 >
 >Vista previa: 15 de enero de 2026
->Versión rápida de producción: 15 de enero de 2026
+>Producción para la versión rápida: 15 de enero de 2026
 >Producción para todos: 15 de enero de 2026
 >[!BADGE Fuera del horario]{type=Neutral}
 
@@ -60,8 +62,8 @@ Para obtener más información, vea [Información general sobre el tipo de regis
 
 >[!NOTE]
 >
->Vista previa: 23 de diciembre de 2025
->Versión rápida de producción: 14 de enero de 2026
+>Vista previa: miércoles, 23 de diciembre de 2025
+>Producción del lanzamiento rápido: 14 de enero de 2026
 >Producción para todos: 15 de enero de 2026
 
 Ahora puede definir jerarquías flexibles pero estructuradas entre tipos de registros u objetos.
@@ -84,8 +86,8 @@ Para obtener más información, consulte [Información general sobre jerarquía 
 
 >[!NOTE]
 >
->Vista previa: 23 de diciembre de 2025
->Versión rápida de producción: 14 de enero de 2026
+>Vista previa: miércoles, 23 de diciembre de 2025
+>Producción del lanzamiento rápido: 14 de enero de 2026
 >Producción para todos: 15 de enero de 2026
 
 Cuando se crean jerarquías entre tipos de registros, se generan rutas de exploración para los registros que pertenecen a esos tipos de registros.
@@ -101,7 +103,7 @@ Para obtener más información, consulte [Información general sobre jerarquía 
 
 >[!NOTE]
 >
->Vista previa: 19 de diciembre de 2025
+>Vista previa: sábado, 19 de diciembre de 2025
 >Producción rápida: 14 de enero de 2026
 >Producción para todos: 15 de enero de 2026
 
@@ -119,7 +121,7 @@ Para obtener más información, vea [Agregar la página Registros conectados a u
 >[!NOTE]
 >
 >Vista previa: 18 de diciembre de 2025
->Versión rápida de producción: 14 de enero de 2026\
+>Producción del lanzamiento rápido: 14 de enero de 2026\
 >Producción para todos: 15 de enero de 2026
 
 Para que sea más fácil asegurarse de ver la información que necesita, hemos agregado la capacidad de compartir vistas a la página Registros conectados de proyectos. Ahora puede compartir vistas con otros usuarios, equipos o grupos.
@@ -131,12 +133,12 @@ Para obtener más información, vea [Agregar la página Registros conectados a u
 >[!NOTE]
 >
 >Vista previa: 18 de diciembre de 2025
->Versión rápida de producción: 14 de enero de 2026\
+>Producción del lanzamiento rápido: 14 de enero de 2026\
 >Producción para todos: 15 de enero de 2026
 
-Para facilitar el filtrado de las conexiones de proyecto que se le aplican, hemos creado un comodín de usuario actual. Ahora, al filtrar, puede seleccionar &quot;Yo (usuario conectado)&quot;. El filtro se aplica al usuario que está viendo la lista de solicitudes.
+Para facilitar el filtrado de las conexiones de proyecto que se le aplican, hemos creado un comodín de usuario actual. Ahora, al filtrar, puede seleccionar “Yo (usuario con sesión iniciada)”. El filtro se aplica al usuario que está viendo la lista de solicitudes.
 
-Esto puede resultar práctico al agregar un filtro a una vista que utilizarán varios usuarios. Cada usuario verá los resultados de los filtros que se les apliquen.
+Esto puede resultar práctico al añadir un filtro a una vista que utilizarán varios usuarios. Cada usuario verá los resultados de los filtros que se le apliquen.
 
 El comodín está disponible en campos donde el valor es un usuario.
 
@@ -171,7 +173,7 @@ Para obtener más información, consulte [Edición de espacios de trabajo](/help
 >[!NOTE]
 >
 >Vista previa: 11 de diciembre de 2025
->Versión rápida de producción: 11 de diciembre de 2025
+>Versión de producción rápida: 11 de diciembre de 2025
 >Producción para todos: 11 de diciembre de 2025
 >[!BADGE Fuera del horario]{type=Neutral}
 
@@ -188,7 +190,7 @@ Para obtener más información, consulte [Introducción a la integración de Ado
 >[!NOTE]
 >
 >Vista previa: 11 de diciembre de 2025
->Versión rápida de producción: 11 de diciembre de 2025
+>Versión de producción rápida: 11 de diciembre de 2025
 >Producción para todos: 11 de diciembre de 2025
 >[!BADGE Fuera del horario]{type=Neutral}
 
@@ -204,8 +206,8 @@ Para obtener más información, consulte [Introducción a la integración de Ado
 
 >[!NOTE]
 >
->Vista previa: 3 de diciembre de 2025
->Versión rápida de producción: 4 de diciembre de 2025
+>Vista previa: jueves, 03 de diciembre de 2025
+>Versión de producción rápida: viernes, 04 de diciembre de 2025
 >Producción para todos: 15 de enero de 2026
 
 
@@ -219,7 +221,7 @@ Para obtener más información, consulte [Compartir vistas](/help/quicksilver/pl
 >[!NOTE]
 >
 >Vista previa: 13 de noviembre de 2025
->Versión rápida de producción: 13 de noviembre de 2025
+>Producción de lanzamiento rápido: 13 de noviembre de 2025
 >Producción para todos: 13 de noviembre de 2025
 
 Ahora puede conectar tipos de registros de Workfront Planning con marcas de Adobe GenStudio for Performance Marketing. Su organización debe tener Workfront Planning y Adobe GenStudio for Performance Marketing.
@@ -232,7 +234,7 @@ Para obtener más información, consulte [Conectar tipos de registro](/help/quic
 >[!NOTE]
 >
 >Vista previa: 6 de noviembre de 2025
->Versión rápida de producción: 11 de diciembre de 2025
+>Versión de producción rápida: 11 de diciembre de 2025
 >Producción para todos: 15 de enero de 2026
 
 Ahora puede buscar un campo específico al crear un elemento de vista en una vista de tipo de registro. Se han agregado cuadros de búsqueda al crear un filtro, ordenar, agrupar o al configurar los campos o colores de fila. Antes de esta mejora, simplemente podía desplazarse por la lista de campos disponibles.
@@ -246,8 +248,8 @@ Para obtener más información, consulte [Administrar la vista de tabla](/help/q
 
 >[!NOTE]
 >
->Vista previa: 16 de octubre de 2025
->Versión rápida de producción: 13 de noviembre de 2025
+>Vista previa: viernes, 16 de octubre de 2025
+>Producción de lanzamiento rápido: 13 de noviembre de 2025
 >Producción para todos: 15 de enero de 2026
 
 Al implementar Workfront Planning para una organización de varios equipos con flujos de trabajo comunes, es posible que necesite definir una estructura y metadatos coherentes para los tipos de registro clave (como Campañas o Entregables) que se pueden agregar a los espacios de trabajo de cada equipo para capturar y administrar su trabajo.
@@ -270,8 +272,8 @@ Para obtener más información, consulte los siguientes artículos:
 
 >[!NOTE]
 >
->Vista previa: 16 de octubre de 2025
->Versión rápida de producción: 13 de noviembre de 2025
+>Vista previa: viernes, 16 de octubre de 2025
+>Producción de lanzamiento rápido: 13 de noviembre de 2025
 >Producción para todos: 15 de enero de 2026
 
 Hemos introducido un límite de 30 campos de conexión para cada tipo de registro.
@@ -284,8 +286,8 @@ Para obtener más información, vea [Información general sobre los tipos de reg
 
 >[!NOTE]
 >
->Vista previa: 16 de octubre de 2025
->Versión rápida de producción: 13 de noviembre de 2025
+>Vista previa: viernes, 16 de octubre de 2025
+>Producción de lanzamiento rápido: 13 de noviembre de 2025
 >Producción para todos: 15 de enero de 2026
 
 Al agregar opciones de campo a un campo de selección única o múltiple, Workfront ahora asigna valores descriptivos únicos a cada opción. Antes de esta mejora, Workfront generaba un ID alfanumérico difícil de comprender y utilizar en las llamadas a la API y otras integraciones.

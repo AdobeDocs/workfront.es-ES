@@ -6,10 +6,12 @@ description: Un administrador de Workfront o de grupos puede personalizar los no
 author: Alina
 feature: Workfront Goals
 exl-id: a3b3e61e-c385-429b-856b-7579b02c9946
-source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '196'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
@@ -19,13 +21,14 @@ ht-degree: 81%
 
 >[!NOTE]
 >
->Su empresa puede optar por seguir utilizando los objetivos de Adobe Workfront si compró este paquete anteriormente. Debe hablar con el representante de su cuenta para obtener más detalles.
+>Su empresa puede optar por seguir utilizando Adobe Workfront Goals si compró este paquete antes. Debe hablar con su representante de cuentas para obtener más detalles.
 >
 >Adobe Workfront Goals ya no se puede adquirir.
 >
 >Para obtener información adicional sobre el acceso a Workfront Goals, consulte [Requisitos para usar Workfront Goals](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).
 
-<!--Old:
+<!--
+Old:
 
 >[!IMPORTANT]
 >
@@ -42,7 +45,8 @@ ht-degree: 81%
 >
 >Contact your Workfront account manager to learn about a Workfront Goals license.    
 > 
->For additional information about access to Workfront Goals, see [Requirements to use Workfront Goals](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).  -->
+>For additional information about access to Workfront Goals, see [Requirements to use Workfront Goals](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).
+-->
 
 Un administrador de Workfront o de grupos puede personalizar los nombres de los objetos en Workfront Goals para que coincidan mejor con la terminología de su organización.
 

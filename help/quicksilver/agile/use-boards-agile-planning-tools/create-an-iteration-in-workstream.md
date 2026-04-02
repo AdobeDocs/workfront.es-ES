@@ -7,7 +7,9 @@ description: Una iteración es una cantidad de tiempo establecida reservada para
 author: Courtney
 feature: Agile
 exl-id: 37b8810d-8439-4a7a-89d5-7c2560422ace
-source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '399'
 ht-degree: 21%
@@ -52,7 +54,7 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
 
 {{step1-to-boards}}
 
-1. Abra la secuencia de trabajo donde desee agregar la iteración. Para abrir una secuencia de trabajo, haga clic en [!UICONTROL **Ver secuencia de trabajo**].
+1. Abra el flujo de trabajo en el que desee añadir la iteración. Para abrir una secuencia de trabajo, haga clic en [!UICONTROL **Ver secuencia de trabajo**].
 1. Cree una iteración utilizando uno de estos métodos:
 
    * En la ficha Lista de tarjetas, en la vista de iteración, haga clic en [!UICONTROL **Crear iteración**].
@@ -89,8 +91,8 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
 1. Para abrir una secuencia de trabajo, haga clic en [!UICONTROL **Ver secuencia de trabajo**].
 1. Abra la iteración utilizando uno de estos métodos:
 
-   * En la ficha Lista de tarjetas, en la vista iteración, haga clic en el icono [!UICONTROL **Detalles de iteración**] ![Detalles de iteración](assets/iteration-details-button.png).
-   * En el panel de iteración, haga clic en el icono [!UICONTROL **Detalles de iteración**] ![Detalles de iteración](assets/iteration-details-button.png) en el área de métricas de la parte superior derecha.
+   * En la ficha Lista de tarjetas, en la vista de iteración, haga clic en el icono [!UICONTROL **Detalles de iteración**] ![Detalles de iteración](assets/iteration-details-button.png).
+   * En el panel de iteraciones, haga clic en el icono [!UICONTROL **Detalles de iteración**] ![Detalles de iteración](assets/iteration-details-button.png) en el área de métricas de la parte superior derecha.
 
 1. En el panel [!UICONTROL Configuración de iteración], edite la iteración según sea necesario.
 1. Para cambiar el nombre de la iteración, expanda [!UICONTROL **Detalles de iteración**].

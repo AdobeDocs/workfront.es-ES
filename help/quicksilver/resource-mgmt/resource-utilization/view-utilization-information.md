@@ -6,7 +6,9 @@ description: Puede ver la utilización de sus recursos en el informe Utilizació
 author: Lisa
 feature: Resource Management
 exl-id: 785ee3e9-1b2d-4180-bc78-c41e71c5244d
-source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '7099'
 ht-degree: 98%
@@ -52,7 +54,7 @@ Puede ver la utilización de sus recursos en el informe Utilización.
  <tbody> 
   <tr> 
   <tr> 
-   <td>paquete de Adobe Workfront</td> 
+   <td>Paquete de Adobe Workfront</td> 
    <td><p>Cualquiera</p></td>
   </tr> 
   <tr> 
@@ -367,11 +369,13 @@ A diferencia de otras áreas de Workfront, si los ingresos planificados superan 
  </tbody> 
 </table>
 
-<!--Note from the table about Actual revenue: 
+<!--
+Note from the table about Actual revenue: 
      <p>Actual Revenue is displayed in the Utilization report only after the task is marked as Complete or Done (or a status that equates with Complete).</p>
     -->
 
-<!--More notes from the table: 
+<!--
+More notes from the table: 
      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE:&nbsp;the note below is duplicated in this article: /Content/Manage work/Projects/Project Finances/billing-and-revenue-overview.html and in the glossary)</p>
    -->
 
@@ -426,7 +430,8 @@ Si los ingresos reales son iguales a 0, el margen se muestra como 0. </p> </td>
  </tbody> 
 </table>
 
-<!--Note from the table from above "Function" header in the middle of the table; right after the "Planned Revenue"/"Margin" definition: 
+<!--
+Note from the table from above "Function" header in the middle of the table; right after the "Planned Revenue"/"Margin" definition: 
      <p scope="col" data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: This needs to be either split in two tables of formatted differently)</p>
     -->
 

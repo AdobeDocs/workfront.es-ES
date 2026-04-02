@@ -5,7 +5,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 441d84d6-6c40-4a03-967e-836cf78c8fc1
-source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '2799'
 ht-degree: 98%
@@ -435,7 +437,8 @@ El seminario web de la versión 23.3 fue el 29 de junio de 2023. Puede [registra
                         </ul>
                     </td>
                 </tr>                
- <!--               <tr>
+ <!--
+                <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Improved experience when moving a document to a linked folder with drag and drop</a></p> 
                         <p>We've added some transparency to the process of dragging and dropping a document into a linked folder. Now, the document that you moved to a linked folder remains in the document list until it has fully moved. The document options are disabled, but you can still open the document for view while it is moving. When the document has completed the transfer, it disappears from the document list, because it is now fully located in the linked folder. </p>
@@ -450,7 +453,8 @@ El seminario web de la versión 23.3 fue el 29 de junio de 2023. Puede [registra
                             </li>
                         </ul>
                     </td>
-                </tr>-->
+                </tr>
+                -->
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Creación automática de carpetas vinculadas a Adobe Experience Manager Assets al crear un proyecto</a></p>
@@ -766,7 +770,7 @@ Para obtener información sobre novedades y actualizaciones, consulte [Novedades
 
 Para obtener información sobre las versiones de API, consulte [Versiones de la API y programación de soporte](/help/quicksilver/wf-api/api/api-version-support-schedule.md).
 
-### Actualizaciones de mantenimiento de Workfront 
+### Actualizaciones de mantenimiento de Workfront
 
 Para obtener información acerca de las actualizaciones de mantenimiento realizadas durante la versión 22.3, consulte [Actualizaciones de mantenimiento de Workfront](https://experienceleague.adobe.com/es/docs/workfront-known-issues/releases/current-updates).
 
@@ -785,7 +789,8 @@ La aplicación móvil de revisión quedará obsoleta oficialmente con la versió
 Tenga en cuenta que la aplicación móvil de Workfront requiere un inicio de sesión de Workfront. Los usuarios e invitados externos pueden seguir utilizando la aplicación de revisión para trabajos de revisión; sin embargo, ya no será compatible y no estará disponible con la versión de 23.10 (octubre de 2023).
 
 
-<!-- HTML you might need
+<!--
+ HTML you might need
 
 New table
 

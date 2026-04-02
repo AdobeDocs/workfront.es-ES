@@ -6,10 +6,12 @@ description: Las tareas personales son solicitudes de trabajo ad hoc que se env�
 author: Becky
 feature: Get Started with Workfront
 exl-id: b40d6b10-19c7-4e11-a74f-a8af3ebafb65
-source-git-commit: 64b8a835a57be8995c82a0ab15c40f46170c7067
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '655'
-ht-degree: 5%
+ht-degree: 6%
 
 ---
 
@@ -54,7 +56,7 @@ Independientemente de cómo agregue una tarea personal, puede encontrarla en las
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>paquete de Adobe Workfront</strong></td> 
+   <td role="rowheader"><strong>Paquete de Adobe Workfront</strong></td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
@@ -78,7 +80,8 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
 
 +++
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto"> 
  <col> 
  </col> 
@@ -103,7 +106,8 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
   </tr> 
  
  </tbody> 
-</table>-->
+</table>
+-->
 
 
 ## Crear una solicitud de trabajo personal

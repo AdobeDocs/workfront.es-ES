@@ -9,10 +9,12 @@ author: Becky
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: 50aca40a-f971-42f2-b20f-fa4fff22335e
-source-git-commit: 2ca2361ee96c3940f1f4073274386262f76725ff
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1252'
-ht-degree: 69%
+ht-degree: 100%
 
 ---
 
@@ -88,30 +90,30 @@ Entendemos que las integraciones integradas (nativas) disponibles podrían no sa
    <td role="rowheader"> <p>Adobe Express</p> </td> 
    <td> 
     <ul> 
-     <li>Integre la experiencia de revisión con Adobe Express. Con esta integración, puede 
+     <li>Integre la experiencia de revisión con Adobe Express. Con esta integración, puede hacer lo siguiente 
      <ul>
-     <li>Utilice plantillas de aprobación de Workfront para definir los flujos de trabajo de aprobación. </li>
-     <li>Revise el contenido del borrador de Adobe Express en el visor de pruebas. </li>
-     <li>Consulte revisar decisiones en Adobe Express para su aprobación y publicación finales. </li>
+     <li>Utilizar plantillas de aprobación de Workfront para definir los flujos de trabajo de aprobación. </li>
+     <li>Revisar el contenido del borrador de Adobe Express en el visor de pruebas. </li>
+     <li>Ver las decisiones de revisión en Adobe Express para su aprobación final y publicación. </li>
      </ul>
    </ul>
      <p>Para obtener más información, consulte <a href="/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/wf-proof-and-express.md" class="MCXref xref">Introducción a la integración de Adobe Express y Workfront Proof</a>.</p> 
      </td>  <td><ul><li>Debe tener licencias para Workfront y Adobe Express.</li><li>Workfront y Adobe Express deben implementarse en la misma organización de IMS.</li></ul></td> 
-   <td>El equipo de productos de Adobe debe habilitar la integración en sus cuentas. Para obtener más información, consulte <a href="/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/wf-proof-and-express.md" class="MCXref xref">Introducción a la integración de Adobe Express y Workfront Proof</a>.</td> 
+   <td>El equipo de Adobe Product debe habilitar la integración en sus cuentas. Para obtener más información, consulte <a href="/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/wf-proof-and-express.md" class="MCXref xref">Introducción a la integración de Adobe Express y Workfront Proof</a>.</td> 
   </tr>
  <tr> 
    <td role="rowheader"> <p>GenStudio for Performance Marketing </p> </td> 
    <td> 
     <ul> 
-     <li>Integre la experiencia de revisión con Genstudio para marketing de rendimiento. Con esta integración, puede 
+     <li>Integre la experiencia de revisión con GenStudio for Performance Marketing. Con esta integración, puede hacer lo siguiente 
      <ul>
-     <li>Utilice plantillas de aprobación de Workfront para definir los flujos de trabajo de aprobación. </li>
-     <li>Revise el contenido del borrador de GenStudio en el visor de pruebas. </li>
-     <li>Consulte revisar decisiones en GenStudio para su aprobación y publicación finales. </li>
+     <li>Utilizar plantillas de aprobación de Workfront para definir los flujos de trabajo de aprobación. </li>
+     <li>Revise el contenido del borrador de GenStudio en el visor de revisión. </li>
+     <li>Ver las decisiones de revisión en GenStudio para su aprobación final y publicación. </li>
      </ul>
    </ul>
      <p>Para obtener más información, consulte <a href="/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/wf-proof-and-genstudio.md" class="MCXref xref">Introducción a la revisión e integración de GenStudio for Performance Marketing</a>.</p> 
-     </td>  <td><ul><li>Debe tener licencias para Workfront y GenStudio for Performance Marketing.</li><li>La instancia de Workfront debe estar en Adobe Unified Experience.</li><li>Workfront y GenStudio for Performance Marketing deben implementarse en la misma organización de IMS.</li></ul></td> 
+     </td>  <td><ul><li>Debe tener licencias para Workfront y GenStudio for Performance Marketing.</li><li>La instancia de Workfront debe estar en la experiencia unificada de Adobe.</li><li>Workfront y GenStudio for Performance Marketing deben implementarse en la misma organización de IMS.</li></ul></td> 
    <td>La integración se puede activar en el área Configuración de Workfront una vez que se cumplan todos los requisitos. Para obtener más información, consulte <a href="/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/wf-proof-and-genstudio.md" class="MCXref xref">Introducción a la revisión e integración de GenStudio for Performance Marketing</a>. </td> 
   </tr>
   <tr> 
@@ -127,7 +129,7 @@ Entendemos que las integraciones integradas (nativas) disponibles podrían no sa
      <li>Premiere Pro </li>
      <li>After Effects </li>
      </ul>
-     <li><p>Descargar/instalar desde <a href="https://exchange.adobe.com/apps/browse/cc?page=1&product=All&q=workfront&sort=RELEVANCE" class="MCXref xref">Adobe Exchange</a>.</p></li></ul>
+     <li><p>Descargar/instalar desde <a href="https://exchange.adobe.com/apps/browse/cc?page=1&amp;product=All&amp;q=workfront&amp;sort=RELEVANCE" class="MCXref xref">Adobe Exchange</a>.</p></li></ul>
      <p>Para obtener información e instrucciones, consulte <a href="https://experienceleague.adobe.com/es/docs/workfront/using/adobe-workfront-integrations/workfront-for-creative-cloud/install-wf-cc/wf-cc-install-toc" class="MCXref xref">Instalar el complemento [!DNL Adobe Workfront] para [!DNL Creative Cloud] Aplicaciones</a></p> 
      </td>  <td> </td> 
    <td> </td> 
@@ -138,9 +140,9 @@ Entendemos que las integraciones integradas (nativas) disponibles podrían no sa
     <ul> 
      <li>Crear automáticamente carpetas vinculadas entre Workfront y Adobe Experience Manager 
       <li>Sincronizar metadatos de recursos vinculados existentes</p></li>
-      <li>Actualice automáticamente el portafolio, el programa, el proyecto, la tarea, el problema y los documentos metatada cuando se cambie en Workfront.</li>
-      <li>Conecte sin problemas varios repositorios de Experience Manager Assets a un entorno de Workfront o varios entornos de Workfront a un repositorio de Experience Manager Assets en los ID de organización</li></ul>
-     <p>Para obtener información e instrucciones, consulte <a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/aem-asset-integrations.md" class="MCXref xref">Información general sobre las integraciones de Adobe Experience Manager Assets</a></p> 
+      <li>Actualice automáticamente el portafolio, el programa, el proyecto, la tarea, el problema y los metatados del documento cuando se cambien en Workfront.</li>
+      <li>Conecte sin problemas varios repositorios de Experience Manager Assets a un entorno de Workfront o varios entornos de Workfront a un repositorio de Experience Manager Assets en los ID de organización.</li></ul>
+     <p>Para obtener información e instrucciones, consulte <a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/aem-asset-integrations.md" class="MCXref xref">Información general sobre las integraciones de Adobe Experience Manager Assets</a>.</p> 
      </td>
    <td><ul><li>Workfront debe estar en una Admin Console con un ID de organización asignado.</li><li>Workfront y Experience Manager Assets o Assets Essentials deben asignarse como producto al usuario que configura la integración.</li></ul></td>   <td> </td> 
   </tr> 
@@ -171,7 +173,8 @@ Entendemos que las integraciones integradas (nativas) disponibles podrían no sa
    <td> </td> 
    <td> </td> 
   </tr> 
-  <!--<tr> 
+  <!--
+  <tr> 
    <td>[!DNL Microsoft] Calendars ([!DNL Office 365] / [!DNL Outlook Live])</td> 
    <td> 
     <ul> 
@@ -180,7 +183,8 @@ Entendemos que las integraciones integradas (nativas) disponibles podrían no sa
     </ul> <p><b>NOTE</b>: The [!UICONTROL Outlook] calendar configuration is completely separate from the [!DNL Outlook] Add-in ([!DNL Outlook] Integration or [!DNL Workfront for Outlook]). There's no installation required to configure the calendar.</p></td> 
    <td>&nbsp;</td> 
    <td>&nbsp;</td> 
-  </tr> -->
+  </tr>
+  -->
   <tr> 
    <td> <p>[!DNL Microsoft OneDrive]</p> <p> <img src="assets/microsoft-onedrive.png"> </p> </td> 
    <td> 
@@ -190,7 +194,8 @@ Entendemos que las integraciones integradas (nativas) disponibles podrían no sa
    <td> </td> 
    <td> </td> 
   </tr> 
-  <!--<tr> 
+  <!--
+  <tr> 
    <td> <p>[!DNL Microsoft Outlook]</p> <p> <img src="assets/outlook.png" style="max-width: 80px;"> </p> </td> 
    <td> 
     <ul> 
@@ -209,7 +214,8 @@ Entendemos que las integraciones integradas (nativas) disponibles podrían no sa
    <td> 
     <ul> 
      <li>[!DNL Workfront] administrator </li> 
-    </ul> </td>--> 
+    </ul> </td>
+    -->
   </tr> 
   <tr> 
    <td> <p>[!DNL Microsoft Teams]</p> <p> <img src="assets/msteamslogo.png" style="max-width: 80px;"> </p> </td> 
@@ -220,7 +226,7 @@ Entendemos que las integraciones integradas (nativas) disponibles podrían no sa
      <li>Busque proyectos, tareas y problemas de [!DNL Workfront] </li> 
      <li>Crear tareas personales de [!DNL Workfront] </li> 
      <li>Enviar solicitudes de [!DNL Workfront] </li> 
-    </ul> <p>Para obtener más información, consulte <a href="../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/use-workfront-with-ms-teams.md" class="MCXref xref">[!DNL Adobe Workfront for Microsoft Teams]: índice de artículo </a>.</p><p><b>NOTA</b>: A partir del 1 de julio de 2025, Microsoft eliminará la compatibilidad con la aplicación de escritorio Classic Teams. Como resultado, la integración de Workfront con Microsoft Teams no será compatible una vez que la aplicación de escritorio Classic Teams ya no esté disponible. </p></td> 
+    </ul> <p>Para obtener más información, consulte <a href="../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/use-workfront-with-ms-teams.md" class="MCXref xref">[!DNL Adobe Workfront for Microsoft Teams]: índice de artículo </a>.</p><p><b>Nota</b>: A partir del 1 de julio de 2025, Microsoft eliminará la compatibilidad con la aplicación de escritorio Classic Teams. Como resultado, la integración de Workfront con Microsoft Teams no será compatible una vez que la aplicación de escritorio Classic Teams ya no esté disponible. </p></td> 
    <td> 
     <ul> 
      <li>Cada equipo de su organización debe instalar la integración si más de un equipo desea utilizarla</li> 
@@ -284,7 +290,7 @@ Entendemos que las integraciones integradas (nativas) disponibles podrían no sa
 * [!DNL Adobe Experience Manager Assets]
 * [!DNL Anaplan] (Requiere [!DNL Workfront Fusion])
 
-La integración entre Workfront y Experience Manager Assets o Assets Essentials permite a las organizaciones mejorar la velocidad de creación de contenido y el tiempo de comercialización al conectar intrínsecamente el trabajo y la gestión de activos digitales.
+La integración entre Workfront y Experience Manager Assets o Assets Essentials permite a las organizaciones mejorar la velocidad de creación de contenido y el tiempo de comercialización al conectar intrínsecamente el trabajo y la administración de activos digitales.
 
 Para obtener más información, consulte [Información general sobre las integraciones de Adobe Workfront para Experience Manager Assets](../../documents/adobe-workfront-for-experience-manager-assets-essentials/aem-asset-integrations.md).
 

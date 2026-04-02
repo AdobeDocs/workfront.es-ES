@@ -7,7 +7,9 @@ description: Esta agrupación de tareas le permite agrupar tareas por el patroci
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 2d8f85ea-492e-4b08-82f5-726170acc7d5
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '177'
 ht-degree: 72%
@@ -64,7 +66,7 @@ Para aplicar esta agrupación:
 1. En el menú desplegable **Agrupación**, seleccione **Nueva agrupación**.
 
 1. Haga clic en **Cambiar al modo de texto**.
-1. Quite el texto del área que se muestra y sustitúyalo por el código siguiente:
+1. Elimine el texto del área que se muestra y reemplácelo por el siguiente código:
 
    ```
    group.0.name=Project Sponsor
@@ -73,5 +75,5 @@ Para aplicar esta agrupación:
    ```
 
 1. Haga clic en **Listo**.
-1. Actualice el nombre de la agrupación y, a continuación, haga clic en **Guardar agrupación**.
+1. Actualice el nombre de la agrupación y haga clic en **Guardar agrupación**.
 

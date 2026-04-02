@@ -7,7 +7,9 @@ description: La fecha de transferencia es la fecha en la que una tarea se pone d
 author: Alina
 feature: Work Management
 exl-id: caf2dbba-5311-418d-8c82-ddcc256f9926
-source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '723'
 ht-degree: 99%
@@ -59,10 +61,10 @@ Workfront usa las siguientes reglas para calcular la fecha de transferencia de u
 >
 >Si la tarea tuviera una predecesora entre proyectos, la fecha de transferencia de la sucesora se volverá a calcular únicamente cuando se produzca una de las siguientes situaciones:
 >
->* Se puede recalcular manualmente la línea de tiempo del proyecto de la sucesora. Es necesario tener Administrar permisos del proyecto para volver a calcular la línea de tiempo.
->* La línea de tiempo del proyecto de la sucesora se recalcula automáticamente por la noche.
+>* Se puede recalcular manualmente la cronología del proyecto de la sucesora. Es necesario tener Administrar permisos del proyecto para volver a calcular la cronología.
+>* La cronología del proyecto de la sucesora se recalcula automáticamente por la noche.
 >
->Para obtener información sobre cómo recalcular la línea de tiempo del proyecto, consulte [Recalcular las líneas de tiempo del proyecto](../../../manage-work/projects/manage-projects/recalculate-project-timeline.md).
+>Para obtener información sobre cómo recalcular la cronología del proyecto, consulte [Recalcular las cronologías del proyecto](../../../manage-work/projects/manage-projects/recalculate-project-timeline.md).
 
 * **Cuando la tarea tiene una restricción forzada para las fechas planificadas**: la fecha de transferencia variará según el tipo de restricción y si la tarea tuviera o no una fecha real de inicio.\
   A continuación, se indican restricciones forzadas en tareas:
@@ -79,7 +81,8 @@ Workfront usa las siguientes reglas para calcular la fecha de transferencia de u
    * **Si la tarea tiene una delimitación de Debe finalizarse el o No iniciar después del**: si la fecha de restricción de la tarea fuera futura y no hubiera una fecha real de inicio en la tarea (la tarea aún no comenzó), la fecha de transferencia será la fecha de inicio planificada para la tarea.  Si la tarea tiene como fecha real de inicio, la fecha de transferencia será la fecha de inicio del proyecto.
    * **Si la tarea tiene una restricción de fechas fijas**: la fecha de transferencia será la fecha de inicio planificada de la tarea, independientemente de si tuviera una predecesora o no e independientemente de si la predecesora se completó o no.
 
-<!--these are old descriptions, edited by Anna As. on August 25, 2023 in this issue - https://experience.adobe.com/#/@adobeinternalworkfront/so:hub-Hub/workfront/issue/64c0032500018fabd4fc484167eb10dc/updates
+<!--
+these are old descriptions, edited by Anna As. on August 25, 2023 in this issue - https://experience.adobe.com/#/@adobeinternalworkfront/so:hub-Hub/workfront/issue/64c0032500018fabd4fc484167eb10dc/updates
    * When the task has a constraint of Must Start On or Start No Earlier Than, the Handoff Date is the Constraint date, unless there is an Actual Start Date on the task. If there is an Actual Start Date on the task, the Handoff Date is the Actual Completion Date of the predecessor.
    * When the task has a constraint of Must Finish On or Start No Later Than, the Handoff Date is always the Actual Completion Date of the predecessor, regardless of whether there is an Actual Start Date on the task or not. 
    * When the task has a constraint of Fixed Dates, the Handoff Date is the Planned Start Date of the task, regardless of whether it has a predecessor or not and regardless of whether the predecessor is completed or not.

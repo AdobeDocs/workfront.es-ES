@@ -6,7 +6,9 @@ description: Puede ver información de un vistazo acerca de los objetos de  [!DN
 feature: Get Started with Workfront
 author: Courtney
 exl-id: 76e21df0-9272-4bfb-8a97-c16ae5f4b5dc
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '3697'
 ht-degree: 95%
@@ -19,7 +21,7 @@ Puede ver información de un vistazo acerca de los objetos de [!DNL Adobe Workfr
 
 Además del nombre del objeto, el encabezado puede incluir el propietario del objeto, el estado o el porcentaje completado.
 
-[!DNL Workfront] da prioridad al nombre del objeto, asignándole el mayor espacio posible en el encabezado. Cuando el nombre de un objeto es demasiado largo, se trunca. Para mostrar el nombre completo de un objeto, puede pasar el ratón sobre él.
+[!DNL Workfront] da prioridad al nombre del objeto, asignándole el mayor espacio posible en el encabezado. Cuando el nombre de un objeto es demasiado largo, se trunca. Para mostrar el nombre completo de un objeto, puede pasar el puntero por encima de él.
 
 ## Acceso al encabezado de un objeto
 
@@ -32,12 +34,14 @@ Por ejemplo, para acceder al encabezado de un proyecto:
 
    ![](assets/project-header-350x18.png)
 
-<!--## [!UICONTROL Home] header overview 
+<!--
+## [!UICONTROL Home] header overview 
 
 The following headers are available in Home:
 
 * Task: For more information on how you can use this header, see the [Task header overview](#task-header-overview) in this article.
-* Issue: For more information on how you can use this header, see the [Issue header overview](#issue-header-overview) in this article.-->
+* Issue: For more information on how you can use this header, see the [Issue header overview](#issue-header-overview) in this article.
+-->
 
 ## Encabezados personalizables
 
@@ -534,7 +538,8 @@ El encabezado de usuario muestra la siguiente información:
   <tr> 
    <td role="rowheader">Nombre del usuario y título</td> 
    <td> <p> El título del usuario se muestra en mayúsculas encima del nombre. No se puede editar el nombre del usuario en el encabezado.</p> </td> 
-  </tr> <!--
+  </tr>
+  <!--
    <tr> 
     <td role="rowheader">Name of the object type</td> 
     <td> <p>The name of the object type does not display.</p> </td> 
@@ -847,7 +852,7 @@ El encabezado del plan muestra la siguiente información:
   </tr> 
   <tr> 
    <td role="rowheader">Información de [!UICONTROL Shared with]</td> 
-   <td>Los usuarios que tienen acceso para ver o administrar el plan se muestran en la esquina superior derecha del encabezado. Al pasar el ratón por encima de las imágenes de perfil, se muestran sus nombres.</td> 
+   <td>Los usuarios que tienen acceso para ver o administrar el plan se muestran en la esquina superior derecha del encabezado. Al pasar el puntero por encima de las imágenes de perfil, se muestran sus nombres.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Go to Publish]</td> 

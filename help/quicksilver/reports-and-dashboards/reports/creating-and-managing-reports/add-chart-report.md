@@ -6,7 +6,9 @@ description: Puede mejorar los informes agregando un gráfico. Puede agregar gr�
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 9b58d68c-4b7b-4344-bde3-7c65e2e1aac8
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '2739'
 ht-degree: 3%
@@ -19,9 +21,9 @@ ht-degree: 3%
 
 Puede mejorar los informes agregando un gráfico. Puede agregar gráficos a los informes existentes o a los informes que esté creando.
 
-Antes de agregar un gráfico a un informe, debe crear una vista y un agrupamiento para el informe.
+Antes de agregar un gráfico a un informe, debe crear una Vista y una Agrupación para el informe.
 
-No se pueden agregar gráficos a la mayoría de los informes a menos que primero se agrupe la información en el informe. El único gráfico que se puede agregar sin agrupar es un gráfico de medición.
+No puede agregar gráficos a la mayoría de los informes a menos que agrupe primero la información en el informe. El único gráfico que se puede agregar sin agrupar es un gráfico de medición.
 
 Para obtener información acerca de las vistas, consulte [Información general sobre vistas en Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
 
@@ -69,26 +71,26 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
 
 1. Vaya a un informe existente o cree un nuevo informe. Para obtener más información sobre cómo crear un nuevo informe, vea [Crear un informe personalizado](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
-1. (Condicionales) Si ha ido a un informe existente, haga clic en **Acciones de informe** > **Editar**.
+1. (Condicional) Si fue a un informe existente, haga clic en **Acciones de informe** > **Editar**.
 
-1. Asegúrese de que se ha actualizado la ficha **Columnas (Ver)** para mostrar la información que desea mostrar en el informe.
+1. Asegúrese de que la ficha **Columnas (Ver)** se ha actualizado para mostrar la información que desea incluir en el gráfico en el informe.
 
-   Para obtener información sobre cómo crear o modificar la vista del informe, vea [Crear o editar vistas en Adobe Workfront](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md).
+   Para obtener información sobre cómo crear o modificar la vista del informe, consulte [Crear o editar vistas en Adobe Workfront](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md).
 
 1. Haga clic en la ficha **Agrupaciones** y agregue una agrupación.
 
    >[!TIP]
    >
-   >* Sólo se puede agregar un gráfico a un informe cuando se agrupan los resultados del informe.
-   >* Los gráficos no admiten grupos en modo de texto. Para obtener más información sobre las agrupaciones en modo texto, vea [Editar una agrupación utilizando el modo de texto](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-grouping.md).
-   >* Si agrega un único agrupamiento que representa una métrica, todos los gráficos, excepto un gráfico circular, muestran cada resultado en el agrupamiento como el mismo color.
+   >* Solo se puede agregar un gráfico a un informe cuando los resultados del informe están agrupados.
+   >* Los gráficos no admiten agrupaciones en modo de texto. Para obtener más información acerca de las agrupaciones en modo de texto, vea [Editar una agrupación mediante el modo de texto](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-grouping.md).
+   >* Si agrega una sola agrupación que representa una métrica, todos los gráficos, excepto un gráfico circular, muestran cada resultado en la agrupación con el mismo color.
 
-   Para obtener más información sobre cómo crear agrupaciones, vea [Crear agrupaciones en Adobe Workfront](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-groupings.md).
+   Para obtener más información sobre cómo crear agrupaciones, consulte [Crear agrupaciones en Adobe Workfront](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-groupings.md).
 
 1. Seleccione la ficha **Gráfico**.
 
 1. Haga clic en un tipo de gráfico para seleccionarlo.\
-   ![Selección de tipo de gráfico](assets/unshimmed-report-builder-chart.png)
+   ![Selección del tipo de gráfico](assets/unshimmed-report-builder-chart.png)
 
 1. Seleccione entre los siguientes tipos de gráficos:
 
@@ -105,24 +107,24 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
 
 Para agregar un gráfico de **columnas** al informe:
 
-1. Empieza a agregar un gráfico a tu informe, como se describe en [Agregar un gráfico a un informe](#add-a-chart-to-a-report).
+1. Empiece a agregar un gráfico al informe, tal como se describe en [Agregar un gráfico a un informe](#add-a-chart-to-a-report).
 
-1. En el campo **Eje izquierdo (Y)**, seleccione los valores que desea incluir en el eje Y del gráfico y, a continuación, seleccione cómo desea que se resuma la información en el campo **Resumido por**.
+1. En el campo **Eje izquierdo (Y)**, seleccione los valores que desee incluir en el eje Y del gráfico y, a continuación, seleccione cómo desea que se resuma la información en el campo **Resumido por**.
 
-1. (Opcional) Haga clic en **Colores personalizados** para asignar colores favoritos a cada una de las columnas.\
-   Para obtener más información sobre la personalización de los colores del gráfico, vea [Personalizar colores del gráfico](#customize-chart-colors).
+1. (Opcional) Haga clic en **Colores personalizados** para asignar los colores preferidos a cada una de las columnas.\
+   Para obtener más información acerca de cómo personalizar los colores del gráfico, vea [Personalizar colores del gráfico](#customize-chart-colors).
 
-1. En el campo **Eje inferior (X)**, seleccione la agrupación que desea incluir en el gráfico.
+1. En el campo **Eje inferior (X)**, seleccione la agrupación que desee incluir en el gráfico.
 
 1. (Opcional) Haga clic en **Mostrar en 3D** para mostrar el gráfico en una vista tridimensional.
 
 1. (Opcional) **Columnas de grupo**: seleccione esta opción para definir cómo desea que se agrupen las columnas.\
    Seleccione entre las siguientes opciones:
 
-   * Haga clic en una de las siguientes opciones para seleccionar cómo se mostrarán las columnas agrupadas:
+   * Haga clic en una de las siguientes opciones para seleccionar cómo se van a mostrar las columnas agrupadas:
 
       * **Uno al lado del otro**
-      * **Apilado**
+      * **Apiladas**
       * **Apiladas al 100%**
 
    * Seleccione la agrupación que desee incluir en el gráfico en el menú desplegable **Agrupar datos por**.
@@ -130,9 +132,9 @@ Para agregar un gráfico de **columnas** al informe:
      Para obtener más información acerca de cómo personalizar los colores del gráfico, vea [Personalizar colores del gráfico](#customize-chart-colors).
 
 1. (Opcional) Haga clic en **Gráfico combinado** para incluir un valor adicional en el gráfico, así como la forma en que desea que se resuma la información.\
-   Considere las siguientes opciones:
+   Tenga en cuenta las siguientes opciones:
 
-   * **Gráfico en Eje secundario**: Seleccione esta opción para trazar los datos en el lado derecho del gráfico.
+   * **Trazar en el eje secundario**: seleccione esta opción para trazar los datos en el lado derecho del gráfico.
    * **Tipo de gráfico**: seleccione si desea que este valor adicional se muestre como una línea o como una tercera columna.
 
 1. Haga clic en **Guardar + Cerrar** para guardar el gráfico y el informe.
@@ -159,35 +161,35 @@ Para agregar un gráfico de **barras** al informe:
 
       * **Uno al lado del otro**
       * **Apiladas**
-      * **apilado al 100%**
+      * **Apiladas al 100%**
 
-   * Seleccione cómo desea agrupar la información del gráfico en el menú desplegable **Group Data by**.
+   * Seleccione cómo desea agrupar la información del gráfico en el menú desplegable **Agrupar datos por**.
    * (Opcional) Haga clic en **Colores personalizados** para personalizar los colores de las columnas.\
-     Para obtener más información sobre cómo personalizar los colores del gráfico, vea [Personalizar los colores del gráfico](#customize-chart-colors).
+     Para obtener más información acerca de cómo personalizar los colores del gráfico, vea [Personalizar colores del gráfico](#customize-chart-colors).
 
-1. (Opcional) Haga clic en **Gráfico de combinación** para incluir un valor adicional en el gráfico, así como cómo desea que se resuma la información.
+1. (Opcional) Haga clic en **Gráfico combinado** para incluir un valor adicional en el gráfico, así como la forma en que desea que se resuma la información.
 
 1. Haga clic en **Guardar + Cerrar** para guardar el gráfico y el informe.
 
 >[!IMPORTANT]
 >
->Limitar los gráficos de barras a 23 o menos barras, ya que los gráficos de barras que incluyan más de 23 barras no mostrarán correctamente todas las etiquetas de barras.
+>Limite los gráficos de barras a 23 barras o menos, ya que los gráficos de barras que incluyen más de 23 barras no mostrarán correctamente todas las etiquetas de barras.
 
 ### Gráfico circular {#pie-chart}
 
-Para agregar un gráfico **Pie** al informe:
+Para agregar un gráfico **circular** al informe:
 
-1. Comience a agregar un gráfico al informe, como se describe en [Agregar un gráfico a un informe](#add-a-chart-to-a-report).
+1. Empiece a agregar un gráfico al informe, tal como se describe en [Agregar un gráfico a un informe](#add-a-chart-to-a-report).
 
-1. En el campo **Valores**, seleccione los valores que desea que se muestren en el informe y, a continuación, seleccione cómo desea que la información se resuma en el campo **Resumido por**.\
-   En el campo **Bodas**, seleccione el grupo que desea incluir en el gráfico. El Grupo está representado por las cuñas del gráfico.
+1. En el campo **Valores**, seleccione los valores que desea que se muestren en el informe y, a continuación, seleccione cómo desea que se resuma la información en el campo **Resumido por**.\
+   En el campo **Cuñas**, seleccione la Agrupación que desee incluir en el gráfico. La agrupación se representa mediante las cuñas del gráfico.
 
 1. (Opcional) Haga clic en **Colores personalizados** para personalizar los colores de las cuñas del gráfico.\
-   Para obtener más información sobre cómo personalizar los colores del gráfico, vea [Personalizar los colores del gráfico](#customize-chart-colors).
+   Para obtener más información acerca de cómo personalizar los colores del gráfico, vea [Personalizar colores del gráfico](#customize-chart-colors).
 
 1. (Opcional) Haga clic en **Mostrar en 3D** para mostrar el gráfico en una vista tridimensional.
 
-1. En el campo **Mostrar resultados como**, seleccione cómo desea que se muestren los resultados en el gráfico. Considere las siguientes opciones:
+1. En el campo **Mostrar resultados como**, seleccione cómo desea que se muestren los resultados en el gráfico. Tenga en cuenta las siguientes opciones:
 
    * **Porcentaje**: los resultados del gráfico se muestran como un porcentaje.
    * **Números**: los resultados del gráfico se muestran como un número.
@@ -206,10 +208,10 @@ Para agregar un gráfico de **Líneas** al informe:
 
 1. (Opcional) Haga clic en **Líneas de grupo** para seleccionar una agrupación adicional para el gráfico.\
    (Opcional) Haga clic en **Colores personalizados** para personalizar los colores de la nueva agrupación.\
-   Para obtener más información sobre la personalización de los colores del gráfico, vea [Personalizar colores del gráfico](#customize-chart-colors).
+   Para obtener más información acerca de cómo personalizar los colores del gráfico, vea [Personalizar colores del gráfico](#customize-chart-colors).
 
-1. (Opcional) Haga clic en **Gráfico de combinación** para combinar las líneas con un valor adicional.\
-   Tenga en cuenta una de las siguientes opciones:
+1. (Opcional) Haga clic en **Gráfico combinado** para combinar las líneas por un valor adicional.\
+   Considere las siguientes opciones:
 
    * Seleccione el valor que desea incluir en el gráfico, así como la forma en que desea resumir la información.
    * Haga clic en el campo **Trazar en el eje secundario** para trazar los datos en el lado derecho del gráfico.
@@ -218,18 +220,18 @@ Para agregar un gráfico de **Líneas** al informe:
 
 ### Gráfico de medición {#gauge-chart}
 
-Un gráfico de **Medición** muestra el número de registros que cumplen ciertos criterios en un formato de medición. El indicador del indicador señala el número de registros que cumplen los criterios seleccionados en la vista y la agrupación del informe. No se requiere una agrupación de informes para configurar un gráfico de indicadores.
+Un gráfico de **Medición** muestra el número de registros que cumplen ciertos criterios en un formato de medición. El indicador de la medición señala al número de registros que cumplen los criterios seleccionados en la vista y la agrupación del informe. No se requiere una agrupación de informes para configurar un gráfico de medición.
 
-Para agregar un gráfico de **medidor** al informe:
+Para agregar un gráfico de **Medición** a tu informe:
 
-1. Empieza a agregar un gráfico a tu informe, como se describe en [Agregar un gráfico a un informe](#add-a-chart-to-a-report).
+1. Empiece a agregar un gráfico al informe, tal como se describe en [Agregar un gráfico a un informe](#add-a-chart-to-a-report).
 
 1. En el campo **Valores**, seleccione los valores que desea que se muestren en el informe y, a continuación, seleccione cómo desea que se resuma la información en el campo **Resumido por**. Si selecciona **Número de registros**, los valores mostrados son el objeto del informe.
 
 1. En el campo **Indicadores**, seleccione la agrupación que desee incluir en el gráfico. La agrupación se representa mediante la línea indicadora del gráfico.\
    Si tiene una agrupación que contiene dos elementos, en el gráfico se muestran dos indicadores.\
    Por ejemplo, si tiene una Agrupación de estados de proyecto y hay dos estados de proyecto (Actual y En espera), el gráfico Medición contiene dos indicadores. Ellos indicarán el número de proyectos que se encuentran en ese estado.\
-   (Opcional) Seleccione **Total** en el campo **Indicadores** para mostrar el total de los objetos seleccionados en el campo **Valores**.
+   (Opcional) Seleccione **Total** en el campo **Indicadores** para mostrar el total de objetos seleccionados en el campo **Valores**.
 
 1. (Opcional) Haga clic en **Agregar otro intervalo de valores** para agregar un intervalo de valores al gráfico.
 
@@ -254,20 +256,20 @@ Para agregar un gráfico de **burbujas** al informe:
    >Asegúrese de tener al menos una columna resumida para que este campo esté activo.\
    >Para obtener más información sobre cómo resumir la información en una columna de informe, vea [Crear un informe personalizado](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
-1. En el campo **Tamaño de burbuja**, seleccione los valores que desee representar por el tamaño de las burbujas en el gráfico. Los valores provienen de la vista del informe. Especifique cómo desea que se resuma la información.
+1. En el campo **Tamaño de burbuja**, seleccione los valores que desee representar por el tamaño de las burbujas en el gráfico. Los valores provienen de la vista del informe. Especifique cómo desea resumir la información.
 
    >[!NOTE]
    >
-   >Asegúrese de que tiene al menos una columna resumida para que este campo esté activo.\
-   >Para obtener más información sobre cómo resumir la información de una columna de informe, vea [Crear un informe personalizado](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+   >Asegúrese de tener al menos una columna resumida para que este campo esté activo.\
+   >Para obtener más información sobre cómo resumir la información en una columna de informe, vea [Crear un informe personalizado](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
-1. En el campo **Burbujas**, seleccione el grupo que desea incluir en el gráfico. La agrupación está representada por la colocación de las burbujas en la gráfica.
+1. En el campo **Burbujas**, seleccione la agrupación que desee incluir en el gráfico. La agrupación se representa mediante la colocación de las burbujas en el gráfico.
 
-1. En el campo **Color de burbuja**, seleccione el campo que desee representar por los colores de las burbujas.
+1. En el campo **Color de burbuja**, seleccione el campo que desee que se represente con los colores de las burbujas.
 
-   El **Color de burbuja** puede ser un Agrupamiento definido en el informe, pero la opción sólo está disponible si elige un Agrupamiento en el campo **Burbujas** que contiene el **Nombre** de un objeto primario relativo al objeto del informe, como el **Nombre del proyecto** para un informe de tarea o el **Nombre del programa** para un informe de proyecto.
+   El **Color de burbuja** puede ser una Agrupación que usted defina en el informe, pero la opción solo está disponible si elige una Agrupación en el campo **Burbujas** que contenga el **Nombre** de un objeto principal relativo al objeto del informe, como **Nombre del proyecto** para un informe de tareas o **Nombre del programa** para un informe de proyecto.
 
-   Por ejemplo, si ha seleccionado **Nombre de proyecto** en un informe de tarea, puede agregar **Estado de tarea** como campo **Color de burbuja**.
+   Por ejemplo, si seleccionó **Nombre del proyecto** en un informe de tareas, puede agregar **Estado de la tarea** como el campo **Color de burbuja**.
 
    ![Estado de la tarea como color de burbuja](assets/bubbles-field-correct-can-select-bubbles-color-example.png)
 
@@ -306,9 +308,9 @@ Para personalizar los colores del gráfico:
 
    * **Usar un color**: todos los elementos del gráfico se mostrarán en el color seleccionado.
    * **Agregar color**: agregue un color personalizado para un posible valor del campo seleccionado.
-   * **Quitar todo**: seleccione esta opción para quitar todos los valores de campo y colores especificados anteriormente.
-   * **Sin valor**: seleccione este campo y un color personalizado para mostrar la columna del gráfico que agrupa los elementos &quot;sin valor&quot;. Se trata de elementos que no se pueden agrupar por ninguna de las opciones del campo seleccionado en la agrupación.
-   * **Todos los demás valores**: seleccione este campo y un color personalizado para mostrar todos los demás elementos del gráfico cuyas opciones no se hayan definido anteriormente.
+   * **Quitar todos**: seleccione esta opción para quitar todos los valores de campo y colores especificados anteriormente.
+   * **Sin valor**: seleccione este campo y un color personalizado para mostrar la columna del gráfico que agrupa los elementos &quot;sin valor&quot;. Son elementos que no se pueden agrupar por ninguna de las opciones del campo seleccionado en la agrupación.
+   * **Todos los demás valores**: seleccione este campo y un color personalizado para mostrar todos los demás elementos de gráfico cuyas opciones no estén definidas anteriormente.
 
      >[!NOTE]
      >
@@ -319,7 +321,7 @@ Haga clic dentro del selector de color para seleccionar un color.
 O
 Especifique un valor hexadecimal del color.
 
-1. Haga clic fuera del cuadro de diálogo Colores personalizados para cerrarlo. Los colores que ha seleccionado se guardan automáticamente.
+1. Haga clic en cualquier lugar fuera del cuadro de diálogo Colores personalizados para cerrarlo. Los colores que ha seleccionado se guardan automáticamente.
 
 1. Haga clic en **Guardar + Cerrar** para guardar el gráfico y ejecutar el informe.
 

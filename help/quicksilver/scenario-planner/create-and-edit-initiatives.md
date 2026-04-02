@@ -6,7 +6,9 @@ description: Al usar el Planificador de escenarios de Adobe Workfront, es posibl
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: a811bad0-d3c0-4cba-8b78-d9a14ffc8482
-source-git-commit: aa2e9a012a60ab10e2d027dedae520b5e06686c7
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1604'
 ht-degree: 94%
@@ -57,7 +59,8 @@ Para obtener información acerca de los requisitos de acceso de Workfront, consu
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -93,7 +96,8 @@ Para obtener información acerca de los requisitos de acceso de Workfront, consu
    <td> <p>[!UICONTROL Manage] permissions to a plan</p> <p>For information on requesting additional access to a plan, see <a href="../scenario-planner/request-access-to-plan.md" class="MCXref xref">Request access to a plan in the [!DNL Scenario Planner]</a>.</p> </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Requisitos previos
 
@@ -127,12 +131,12 @@ Para crear iniciativas desde cero:
 
 1. Escriba un nombre para la iniciativa en el campo **[!UICONTROL Iniciativa sin título]** y, a continuación, presione Entrar o haga clic en cualquier otro lugar de la página.
 
-   La iniciativa se mostrará en la línea de tiempo del plan como una barra azul. De forma predeterminada, la duración de una iniciativa es de un mes y siempre comienza en el primer mes del plan.
+   La iniciativa se mostrará en la cronología del plan como una barra azul. De forma predeterminada, la duración de una iniciativa es de un mes y siempre comienza en el primer mes del plan.
 
-1. (Opcional) Arrastre la barra de separación que hay entre el panel izquierdo y la línea de tiempo para cambiar el tamaño del panel izquierdo.
+1. (Opcional) Arrastre la barra de separación que hay entre el panel izquierdo y la cronología para cambiar el tamaño del panel izquierdo.
 
 1. (Opcional) Arrastre el final de la barra de iniciativa para ampliar su duración a más de un mes y suéltela donde desee que esté el mes de finalización.
-1. (Opcional y condicional) Si la duración de la iniciativa fuese más corta que la del plan, arrastre y suelte la barra de iniciativa en una posición diferente de la línea de tiempo del plan para moverla a otro lapso de tiempo.
+1. (Opcional y condicional) Si la duración de la iniciativa fuese más corta que la del plan, arrastre y suelte la barra de iniciativa en una posición diferente de la cronología del plan para moverla a otro lapso de tiempo.
 
    ![Mover iniciativa en la cronología](assets/move-initiative-back-and-forth-on-the-timeline-350x71.png)
 
@@ -140,13 +144,13 @@ Para crear iniciativas desde cero:
    >
    >Solo es posible seleccionar la duración en meses. La duración de una iniciativa que cree desde cero nunca podrá superar la duración del plan.
 
-1. (Opcional) En el menú desplegable **[!UICONTROL Mes]**, seleccione una de las siguientes opciones para cambiar la línea de tiempo del plan:
+1. (Opcional) En el menú desplegable **[!UICONTROL Mes]**, seleccione una de las siguientes opciones para cambiar la cronología del plan:
 
    | Opción de menú desplegable | Descripción |
    |---|---|
-   | [!UICONTROL Mes] | Muestra la línea de tiempo por mes. Es la opción predeterminada para un plan de un año. |
-   | [!UICONTROL Trimestre] | Muestra la línea de tiempo por trimestre. Esta opción solo está disponible cuando la [!UICONTROL duración] del plan es de 3 o 5 años. Esta es la opción predeterminada para un plan de tres años. |
-   | [!UICONTROL Año] | Muestra la línea de tiempo por año. Esta opción solo está disponible cuando la [!UICONTROL duración] del plan es de 5 años. Esta es la opción predeterminada para un plan de 5 años. |
+   | [!UICONTROL Mes] | Muestra la cronología por mes. Es la opción predeterminada para un plan de un año. |
+   | [!UICONTROL Trimestre] | Muestra la cronología por trimestre. Esta opción solo está disponible cuando la [!UICONTROL duración] del plan es de 3 o 5 años. Esta es la opción predeterminada para un plan de tres años. |
+   | [!UICONTROL Año] | Muestra la cronología por año. Esta opción solo está disponible cuando la [!UICONTROL duración] del plan es de 5 años. Esta es la opción predeterminada para un plan de 5 años. |
 
 
 1. (Opcional) Desplácese de izquierda a derecha para ver toda la duración de la iniciativa.

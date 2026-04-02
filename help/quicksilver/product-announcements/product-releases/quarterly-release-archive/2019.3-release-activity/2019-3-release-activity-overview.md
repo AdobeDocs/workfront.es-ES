@@ -1,20 +1,22 @@
 ---
 content-type: release-notes
 navigation-topic: 2019-3-release-activity
-title: información general sobre la actividad de la versión 2019.3
-description: Esta página proporciona información sobre la funcionalidad incluida en la versión 2019.3. La funcionalidad de esta página estaba disponible en el entorno de producción la semana del 19 de agosto de 2019. Para ver las fechas y horas específicas que explican cuándo se puso a disposición la versión, consulte el Sitio de confianza de Workfront.
+title: Información general sobre la actividad de la versión 2019.3
+description: Esta página proporciona información sobre la funcionalidad incluida en la versión 2019.3. La funcionalidad de esta página estaba disponible en el entorno de producción la semana del 19 de agosto de 2019. Para ver las fechas y horas específicas que explican cuándo se puso a disposición la versión, consulte el sitio de confianza de Workfront.
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: b2bee19f-32eb-49b9-9497-dea290ce64b2
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
-source-wordcount: '1295'
-ht-degree: 1%
+source-wordcount: '1296'
+ht-degree: 98%
 
 ---
 
-# información general sobre la actividad de la versión 2019.3
+# Información general sobre la actividad de la versión 2019.3
 
 Esta página proporciona información sobre la funcionalidad incluida en la versión 2019.3. La funcionalidad de esta página estaba disponible en el entorno de producción la semana del 19 de agosto de 2019.
 
@@ -22,15 +24,15 @@ Esta página proporciona información sobre la funcionalidad incluida en la vers
 <MadCap:conditionalText data-mc-conditions="OnlineOrPDF.OnlineOnly">  To download this page in PDF&nbsp;format, go  <a href="https://documentation.my.workfront.com/library/a/1c7547fc-9d72-400e-84ed-3382bca498f4" target="_blank">here</a>. </MadCap:conditionalText>
 -->
 
-Para ver una lista de las mejoras publicadas tras la versión 2019.3, consulte [Versiones de productos](../../../../product-announcements/product-releases/product-releases.md).
+Para ver una lista de las mejoras publicadas tras la versión 2019.3, consulte las [Versiones de productos](../../../../product-announcements/product-releases/product-releases.md).
 
 ## Mejoras para todos los usuarios
 
 La versión 2019.3 incluye las siguientes mejoras:
 
-### Mejoras del proyecto
+### Mejoras en el proyecto
 
-* [El filtro Abrir ahora muestra más resultados en una lista de Problemas](../../../../product-announcements/product-releases/quarterly-release-archive/2019.3-release-activity/2019-3-project-enhancements.md#changes)
+* [El filtro Abrir ahora muestra más resultados en una lista de problemas](../../../../product-announcements/product-releases/quarterly-release-archive/2019.3-release-activity/2019-3-project-enhancements.md#changes)
 
   <!--
   <a href="https://experience.workfront.com/s/article/2019-3-Project-enhancements-1332102832" target="_blank" data-mc-conditions="OnlineOrPDF.PrintOnly,QuicksilverOrClassic.Draft mode">The Open filter now shows more results in a list of Issues</a>
@@ -44,15 +46,15 @@ La versión 2019.3 incluye las siguientes mejoras:
 
   Cuando edita en línea información en las nuevas listas, las filas que se han editado se atenúan, pero la información permanece visible.
 
-* [Editar Gantt sin activar un modo especial de edición](../../../../product-announcements/product-releases/quarterly-release-archive/2019.3-release-activity/2019-3-project-enhancements.md#edit)
+* [Editar Gantt sin habilitar un modo de edición especial](../../../../product-announcements/product-releases/quarterly-release-archive/2019.3-release-activity/2019-3-project-enhancements.md#edit)
 
   <!--
   <a href="https://experience.workfront.com/s/article/2019-3-Project-enhancements-1332102832" target="_blank" data-mc-conditions="OnlineOrPDF.PrintOnly,QuicksilverOrClassic.Draft mode">Edit Gantt without Enabling a Special Editing Mode</a>
   -->
 
-  Ahora puede editar el gráfico Gantt de lista de tareas cuando el guardado automático esté habilitado o no.
+  Ahora puede editar el gráfico Gantt de lista de tareas cuando el guardado automático está habilitado o no.
 
-* [Listas actualizadas para las fichas de horas de proyecto, tarea y problemas](../../../../product-announcements/product-releases/quarterly-release-archive/2019.3-release-activity/2019-3-project-enhancements.md#updated2)
+* [Listas actualizadas de las pestañas Horas para proyectos, tareas y problemas](../../../../product-announcements/product-releases/quarterly-release-archive/2019.3-release-activity/2019-3-project-enhancements.md#updated2)
 
   <!--
   <a href="https://experience.workfront.com/s/article/2019-3-Project-enhancements-1332102832" target="_blank" data-mc-conditions="OnlineOrPDF.PrintOnly,QuicksilverOrClassic.Draft mode">Updated Lists for Project and Task Hours Tabs</a>
@@ -60,9 +62,9 @@ La versión 2019.3 incluye las siguientes mejoras:
 
   Las vistas de lista mejoradas ahora están disponibles en las pestañas Horas para Proyectos, Tareas y Problemas.
 
-### Mejoras de planificación de recursos
+### Mejoras en la planificación de recursos
 
-* [Crear un informe para las horas presupuestadas](../../../../product-announcements/product-releases/quarterly-release-archive/2019.3-release-activity/2019-3-resource-planning-enhancements.md#build)
+* [Generar un informe para las horas presupuestadas](../../../../product-announcements/product-releases/quarterly-release-archive/2019.3-release-activity/2019-3-resource-planning-enhancements.md#build)
 
   <!--
   <a href="https://experience.workfront.com/s/article/2019-3-Resource-Planning-enhancements-1778437428" target="_blank" data-mc-conditions="OnlineOrPDF.PrintOnly,QuicksilverOrClassic.Draft mode">Build a report for Budgeted Hours</a>
@@ -76,7 +78,7 @@ La versión 2019.3 incluye las siguientes mejoras:
   <a href="https://experience.workfront.com/s/article/2019-3-Resource-Planning-enhancements-1778437428" target="_blank" data-mc-conditions="OnlineOrPDF.PrintOnly,QuicksilverOrClassic.Draft mode">New settings to hide the Actual Hours column in the Resource Planner</a>
   -->
 
-  Ahora puede mostrar u ocultar la columna Horas reales al ver información por usuario en el Planificador de recursos.
+  Ahora puede mostrar u ocultar la columna Horas reales al ver la información por usuario en el Planificador de recursos.
 
 * [Los conjuntos de recursos son persistentes en el área de Presupuestación de recursos del caso empresarial](../../../../product-announcements/product-releases/quarterly-release-archive/2019.3-release-activity/2019-3-resource-planning-enhancements.md#resource)
 
@@ -84,17 +86,17 @@ La versión 2019.3 incluye las siguientes mejoras:
   <a href="https://experience.workfront.com/s/article/2019-3-Resource-Planning-enhancements-1778437428" target="_blank" data-mc-conditions="OnlineOrPDF.PrintOnly,QuicksilverOrClassic.Draft mode">Resource Pools are persistent in the Resource Budgeting area of the Business Case</a>
   -->
 
-  Ahora, cuando esté presupuestando los recursos en el área de Presupuestación de recursos del caso empresarial, los conjuntos de recursos que ya ha guardado en el proyecto son persistentes cuando se aleja de la página y vuelve.
+  Ahora, cuando esté presupuestando los recursos en el área de Presupuestación de recursos del caso empresarial, los conjuntos de recursos que ya ha guardado en el proyecto permanecerán cuando salga de la página y vuelva a entrar.
 
-* [El acceso a los datos financieros a las tasas de costo afecta a la información en el Planificador de recursos que se muestra por costo](../../../../product-announcements/product-releases/quarterly-release-archive/2019.3-release-activity/2019-3-resource-planning-enhancements.md#financia)
+* [El acceso a los datos financieros a las tasas de coste afecta a la información en el Planificador de recursos que se muestra por coste](../../../../product-announcements/product-releases/quarterly-release-archive/2019.3-release-activity/2019-3-resource-planning-enhancements.md#financia)
 
   <!--
   <a href="https://experience.workfront.com/s/article/2019-3-Resource-Planning-enhancements-1778437428" target="_blank" data-mc-conditions="OnlineOrPDF.PrintOnly,QuicksilverOrClassic.Draft mode">Financial data access to Cost Rates impacts information in the Resource Planner that displays by cost</a>
   -->
 
-  Los administradores de Workfront ahora pueden determinar qué usuarios tienen acceso para ver o editar la información de costo de roles, usuarios o proyectos en el Planificador de recursos.
+  Los administradores de Workfront ahora pueden determinar qué usuarios tienen acceso para ver o editar la información de costes de funciones, usuarios o proyectos en el Planificador de recursos.
 
-### Integración y mejoras móviles
+### Integración y mejoras en la aplicación móvil
 
 * [Compatibilidad con elementos compartidos en la integración de MS OneDrive](../../../../product-announcements/product-releases/quarterly-release-archive/2019.3-release-activity/2019-3-integration-mobile-enhancements.md#support)
 
@@ -104,7 +106,7 @@ La versión 2019.3 incluye las siguientes mejoras:
 
   Ahora puede vincular los archivos y carpetas compartidos de OneDrive a objetos de Workfront.
 
-* [Especificación de dominio necesaria para todos los inicios de sesión de Workfront](../../../../product-announcements/product-releases/quarterly-release-archive/2019.3-release-activity/2019-3-integration-mobile-enhancements.md#domain)
+* [Especificación de dominio necesaria para todos los inicios de sesión en Workfront](../../../../product-announcements/product-releases/quarterly-release-archive/2019.3-release-activity/2019-3-integration-mobile-enhancements.md#domain)
 
   <!--
   <a href="https://experience.workfront.com/s/article/2019-3-Integration-and-mobile-enhancements-1150184880" target="_blank" data-mc-conditions="OnlineOrPDF.PrintOnly,QuicksilverOrClassic.Draft mode">Domain specification required for all Workfront logins</a>
@@ -114,7 +116,7 @@ La versión 2019.3 incluye las siguientes mejoras:
 
 * Aplicación móvil de Workfront disponible para Blackberry Marketplace (próximamente)
 
-  La aplicación móvil de Workfront se lanzará en una versión futura para Blackberry Dynamics for Blackberry Marketplace.
+  La aplicación móvil de Workfront se lanzará en una versión futura para Blackberry Dynamics para Blackberry Marketplace.
 
 * [Conversión de tareas y problemas en proyectos mediante la aplicación móvil en iOS](../../../../product-announcements/product-releases/quarterly-release-archive/2019.3-release-activity/2019-3-integration-mobile-enhancements.md#convert)
 
@@ -150,22 +152,24 @@ La versión 2019.3 incluye las siguientes mejoras:
   [] ](https://experience.workfront.com/s/article/2019-3-Integration-and-mobile-enhancements-1150184880)
   -->
 
-  Para que la aplicación móvil de Workfront sea más segura para usted y para su empresa, la sesión de los usuarios se cerrará automáticamente tras 8 minutos de inactividad.
+  Para que la aplicación móvil de Workfront sea más segura para usted y para su compañía, la sesión de los usuarios se cerrará automáticamente tras ocho minutos de inactividad.
 
 * [Filtrar por proyectos inactivos en la aplicación móvil](../../../../product-announcements/product-releases/quarterly-release-archive/2019.3-release-activity/2019-3-integration-mobile-enhancements.md#filter) [Filtrar por proyectos inactivos en la aplicación móvil](https://experience.workfront.com/s/article/2019-3-Integration-and-mobile-enhancements-1150184880)
 
-  Hemos añadido Proyectos inactivados como opción de filtro en la pestaña Proyectos de la aplicación móvil.
+  Hemos añadido Proyectos inactivos como opción de filtro en la pestaña Proyectos de la aplicación móvil.
 
 * [Eliminar objetos mediante la aplicación móvil en iOS](../../../../product-announcements/product-releases/quarterly-release-archive/2019.3-release-activity/2019-3-integration-mobile-enhancements.md#delete)
 
-  <!-- <MadCap:conditionalText data-mc-conditions="OnlineOrPDF.PrintOnly">  <a href="https://experience.workfront.com/s/article/2019-3-Integration-and-mobile-enhancements-1150184880" target="_blank" data-mc-conditions="QuicksilverOrClassic.Draft mode">Delete objects using the Mobile app on iOS</a> </MadCap:conditionalText>
+  <!--
+    <MadCap:conditionalText data-mc-conditions="OnlineOrPDF.PrintOnly">  <a href="https://experience.workfront.com/s/article/2019-3-Integration-and-mobile-enhancements-1150184880" target="_blank" data-mc-conditions="QuicksilverOrClassic.Draft mode">Delete objects using the Mobile app on iOS</a> </MadCap:conditionalText>
    -->
 
-  Ahora puede eliminar objetos como tareas, problemas y plantillas de horas en la aplicación móvil. Debe tener los permisos correctos en el objeto para eliminarlo.
+  Ahora puede eliminar objetos como tareas, problemas y plantillas de horas en la aplicación móvil. Debe tener los permisos correctos sobre el objeto para eliminarlo.
 
 * [Restablecer la contraseña con la aplicación móvil](../../../../product-announcements/product-releases/quarterly-release-archive/2019.3-release-activity/2019-3-integration-mobile-enhancements.md#reset)
 
-  <!--<MadCap:conditionalText data-mc-conditions="OnlineOrPDF.PrintOnly">  <a href="https://experience.workfront.com/s/article/2019-3-Integration-and-mobile-enhancements-1150184880" target="_blank" data-mc-conditions="QuicksilverOrClassic.Draft mode">Reset your password using the Mobile app</a> </MadCap:conditionalText>
+  <!--
+  <MadCap:conditionalText data-mc-conditions="OnlineOrPDF.PrintOnly">  <a href="https://experience.workfront.com/s/article/2019-3-Integration-and-mobile-enhancements-1150184880" target="_blank" data-mc-conditions="QuicksilverOrClassic.Draft mode">Reset your password using the Mobile app</a> </MadCap:conditionalText>
   -->
 
   Puede usar la aplicación de Workfront Mobile para restablecer la contraseña si la ha olvidado.
@@ -182,9 +186,9 @@ La versión 2019.3 incluye las siguientes mejoras:
 
 Se han añadido varias mejoras de aspecto para mejorar su experiencia en la aplicación móvil de Workfront.
 
-### Mejoras de inicio
+### Mejoras en el Inicio
 
-* [Actualizaciones en la apariencia en Inicio](../../../../product-announcements/product-releases/quarterly-release-archive/2019.3-release-activity/2019-3-home-enhancements.md#new3)
+* [Actualizaciones en la apariencia de Inicio](../../../../product-announcements/product-releases/quarterly-release-archive/2019.3-release-activity/2019-3-home-enhancements.md#new3)
 
   <!--
   <MadCap:conditionalText data-mc-conditions="OnlineOrPDF.PrintOnly,QuicksilverOrClassic.Draft mode">
@@ -198,7 +202,7 @@ Se han añadido varias mejoras de aspecto para mejorar su experiencia en la apli
 
 En esta sección se describen los cambios realizados durante el periodo de tiempo de lanzamiento de 2019.3 que se lanzará al entorno de producción antes de la versión general de 2019.3.
 
-* [Cambiar el tipo de presentación de un campo en un formulario personalizado](../../../../product-announcements/product-releases/quarterly-release-archive/2019.3-release-activity/2019-3-project-enhancements.md#change)
+* [Cambiar el tipo de visualización de un campo en un formulario personalizado](../../../../product-announcements/product-releases/quarterly-release-archive/2019.3-release-activity/2019-3-project-enhancements.md#change)
 
   <!--
   <MadCap:conditionalText data-mc-conditions="OnlineOrPDF.PrintOnly,QuicksilverOrClassic.Draft mode">
@@ -210,7 +214,7 @@ En esta sección se describen los cambios realizados durante el periodo de tiemp
 
   Ahora puede cambiar el tipo de visualización de un campo en un formulario personalizado.
 
-  Por ejemplo, si ha creado un campo Casillas de verificación, puede cambiarlo a un campo Desplegable o a un campo Botones de opción. Estos tres tipos de visualización de campo son intercambiables.
+  Por ejemplo, si ha creado un campo Casillas de verificación, puede cambiarlo por un campo Desplegable o por un campo Botones de opción. Estos tres tipos de visualización de campo son intercambiables.
 
 * [Creación de calendarios e informes de días libres](../../../../product-announcements/product-releases/quarterly-release-archive/2019.3-release-activity/2019-3-project-enhancements.md#create)
 
@@ -222,7 +226,7 @@ En esta sección se describen los cambios realizados durante el periodo de tiemp
   [](https://experience.workfront.com/s/article/2019-3-Project-enhancements-1332102832)
   -->
 
-  Ahora puede ver el tiempo libre del usuario para una mejor planificación y ejecución. También puede agregar nuevos informes y calendarios de días libres a sus paneles para obtener una vista en tiempo real de la disponibilidad del usuario.
+  Ahora puede ver el tiempo libre del usuario para una mejor planificación y ejecución. También puede añadir nuevos informes y calendarios de días libres a sus paneles de control para obtener una vista en tiempo real de la disponibilidad del usuario.
 
 <!--
 * <MadCap:conditionalText data-mc-conditions="OnlineOrPDF.OnlineOnly">  &nbsp; </MadCap:conditionalText> [ <MadCap:conditionalText data-mc-conditions="OnlineOrPDF.PrintOnly">  Updated API&nbsp;Endpoint for Time Off (/reservedtime) </MadCap:conditionalText>](https://experience.workfront.com/s/article/Enhancements-Releasing-Prior-to-the-General-2019-3-Release-1824277975)
@@ -239,7 +243,7 @@ En esta sección se describen los cambios realizados durante el periodo de tiemp
   </MadCap:conditionalText></a>
   -->
 
-Ahora puede decidir si desea permitir el tiempo libre programado de la Persona principal asignada de una tarea para ajustar las fechas planificadas.
+Ahora puede decidir si desea permitir la programación de días libres del usuario asignado principal de una tarea para ajustar las fechas planificadas.
 
 <!--
 
@@ -279,7 +283,7 @@ Ahora puede decidir si desea permitir el tiempo libre programado de la Persona p
   (https://experience.workfront.com/s/article/2019-3-Project-enhancements-1332102832)
   -->
 
-Ahora, al realizar comentarios en un documento, la actualización aparece en la ficha Actualizaciones tanto para el documento como para el objeto donde está adjunto.
+Ahora, al realizar comentarios en un documento, la actualización aparece en la pestaña Actualizaciones tanto para el documento como para el objeto donde está adjunto.
 
 <!--
 
@@ -292,7 +296,7 @@ Ahora, al realizar comentarios en un documento, la actualización aparece en la 
   ](https://experience.workfront.com/s/article/2019-3-Project-enhancements-1332102832)
   -->
 
-Al asignar un usuario a una tarea o un problema, ahora puede ver una advertencia en línea si el usuario seleccionado tiene tiempo libre programado en cualquier momento entre las fechas planificadas de la tarea o el problema.
+Al asignar un usuario a una tarea o un problema, ahora puede ver una advertencia en línea si el usuario seleccionado tiene días libres programados en algún momento entre las fechas planificadas de la tarea o el problema.
 
 <!--
 * <MadCap:conditionalText data-mc-conditions="OnlineOrPDF.OnlineOnly">  <a href="../../../../product-announcements/product-releases/quarterly-release-archive/2019.3-release-activity/2019-3-project-enhancements.md#add" class="MCXref xref" xrefformat="{para}">Add Fields That Represent Objects in Custom Forms</a> </MadCap:conditionalText> [ 
@@ -304,7 +308,7 @@ Al asignar un usuario a una tarea o un problema, ahora puede ver una advertencia
   ](https://experience.workfront.com/s/article/2019-3-Project-enhancements-1332102832)
   -->
 
-Hemos creado un nuevo tipo de campo en el generador de formularios personalizado llamado Escritura anticipada. Este campo permite agregar campos que representan objetos a los formularios personalizados.
+Hemos creado un nuevo tipo de campo en el generador de formularios personalizado llamado Typeahead. Este campo permite añadir campos que representan objetos a los formularios personalizados.
 
 <!--
   * <MadCap:conditionalText data-mc-conditions="OnlineOrPDF.OnlineOnly">  <a href="../../../../product-announcements/product-releases/quarterly-release-archive/2019.3-release-activity/2019-3-integration-mobile-enhancements.md#mobile" class="MCXref xref" xrefformat="{para}">Mobile App Requires Domain When Logging In</a> </MadCap:conditionalText> [ 
@@ -326,7 +330,7 @@ Hemos creado un nuevo tipo de campo en el generador de formularios personalizado
   ](https://experience.workfront.com/s/article/2019-3-Project-enhancements-1332102832) Removed from release
   -->
 
-0### Funcionalidad eliminada
+La funcionalidad 0### se ha eliminado  
 
 <!--
 
@@ -351,31 +355,31 @@ Hemos creado un nuevo tipo de campo en el generador de formularios personalizado
   We are removing the Documents and Issues tabs from the Agile iteration details page.
 -->
 
-## Actualizaciones de mantenimiento de Workfront 
+## Actualizaciones de mantenimiento de Workfront
 
-Para obtener más información sobre las actualizaciones de mantenimiento realizadas durante la versión 2019.3, consulte .
+Para obtener más información sobre las actualizaciones de mantenimiento realizadas durante la versión 2019.3, consulte.
 
 ## Anuncios
 
-* [La nueva versión beta de la experiencia Workfront ya está disponible en versión de vista previa](#the-new-workfront-experience-beta-now-available-in-preview)
+* [La versión beta de la nueva experiencia de Workfront ya está disponible en versión preliminar](#the-new-workfront-experience-beta-now-available-in-preview)
 * [Biblioteca de Workfront ya disponible](#workfront-library-now-available)
-* [Ya no se admite la API versión 3](#api-version-3-no-longer-supported)
+* [Ya no se admite la versión 3 de la API](#api-version-3-no-longer-supported)
 * [Finaliza la compatibilidad con TLS 1.0 y 1.1](#tls-1-0-and-1-1-support-is-ending)
-* [eliminación de aplicación de Flash](#flash-application-removal)
+* [Eliminación de la aplicación de Flash](#flash-application-removal)
 * [Se eliminarán varias opciones de inicio de sesión único](#various-single-sign-on-options-to-be-removed)
-* [Seminario web de roadmap del producto del tercer trimestre](#q3-product-roadmap-webinar)
+* [Seminario web de la hoja de ruta del producto del tercer trimestre](#q3-product-roadmap-webinar)
 
-### La nueva versión beta de Workfront Experience Cloud ya está disponible en Vista previa {#the-new-workfront-experience-beta-now-available-in-preview}
+### La versión beta de la nueva experiencia de Workfront ya está disponible en versión preliminar {#the-new-workfront-experience-beta-now-available-in-preview}
 
 La nueva experiencia de Workfront ofrece un diseño fresco y moderno, además de nuevas funciones.
 
 ### Ya está disponible la biblioteca Workfront {#workfront-library-now-available}
 
-La biblioteca Workfront es un centro de contenido digital empresarial que puede utilizar para administrar todo el ciclo de vida de los recursos digitales de su organización.
+La biblioteca de Workfront es un centro de contenido digital empresarial que puede utilizar para administrar todo el ciclo de vida de los recursos digitales de su organización.
 
-### La versión 3 de la API ya no es compatible {#api-version-3-no-longer-supported}
+### Ya no se admite la API versión 3 {#api-version-3-no-longer-supported}
 
-La compatibilidad con la versión 3 de la API finalizó en noviembre de 2018. Para obtener más información sobre el horario de soporte de las versiones de la API de Workfront, consulte [Versiones de API y horario de soporte](../../../../wf-api/api/api-version-support-schedule.md)
+La compatibilidad con la API versión 3 finalizó en noviembre de 2018. Para obtener más información sobre la programación de soporte de las versiones de la API de Workfront, consulte [Versiones de API y programación de soporte](../../../../wf-api/api/api-version-support-schedule.md)
 
 <!--
 <MadCap:conditionalText data-mc-conditions="OnlineOrPDF.PrintOnly,QuicksilverOrClassic.Draft mode">
@@ -399,9 +403,9 @@ TLS 1.2 to be required in Workfront
 ](https://experience.workfront.com/s/article/TLS-1-2-to-be-required-in-Workfront-1474533813).
 -->
 
-### eliminación de aplicación de Flash {#flash-application-removal}
+### Eliminación de la aplicación de Flash {#flash-application-removal}
 
-Todas las funcionalidades que dependen de la tecnología de Flash se han eliminado de Workfront desde la versión 2018.3 y se han sustituido por una nueva solución.
+Todas las funcionalidades que dependen de la tecnología Flash se han eliminado de Workfront a partir de la versión 2018.3 y se han sustituido por una nueva solución.
 
 Para obtener información detallada sobre las herramientas de Flash heredadas y sus reemplazos, consulte [Reemplazo de herramientas basadas en Flash en Adobe Workfront](../../../../product-announcements/announcements/announcement-archive/replace-flash-tools.md)
 
@@ -431,7 +435,7 @@ Ahora, las siguientes opciones de inicio de sesión único (SSO) solo son compat
 
 * Active Directory
 
-  Para obtener más información acerca del uso de Active Directory con Workfront, vea [Configurar Adobe Workfront con Active Directory](../../../../administration-and-setup/manage-workfront/security/removal-various-sso-options.md)
+  Para obtener más información acerca del uso de Active Directory con Workfront, consulte [Configurar Adobe Workfront con Active Directory](../../../../administration-and-setup/manage-workfront/security/removal-various-sso-options.md)
 
   <!--
   <MadCap:conditionalText data-mc-conditions="OnlineOrPDF.PrintOnly,QuicksilverOrClassic.Draft mode">
@@ -463,8 +467,8 @@ A continuación se muestra la cronología de eliminación de estas opciones de S
 
   No compatible.
 
-* Ya no está disponible en Workfront: agosto de 2019
+* Ya no estará disponible en Workfront: agosto de 2019
 
-### Seminario web de roadmap del producto del tercer trimestre {#q3-product-roadmap-webinar}
+### Seminario web de la hoja de ruta del producto del tercer trimestre {#q3-product-roadmap-webinar}
 
-Obtenga más información sobre lo que vendrá durante el [Seminario web de hoja de ruta T3](https://event.on24.com/eventRegistration/EventLobbyServlet?target=reg20.jsp&partnerref=Product&eventid=2040896&sessionid=1&key=EFBB434E2FDF446E010DA62D1C27E9E5&regTag=&sourcepage=register) el 1 de agosto a las 9:00 a.m. MST.
+Obtenga más información sobre lo que vendrá durante el [seminario web de hoja de ruta T3](https://event.on24.com/eventRegistration/EventLobbyServlet?target=reg20.jsp&partnerref=Product&eventid=2040896&sessionid=1&key=EFBB434E2FDF446E010DA62D1C27E9E5&regTag=&sourcepage=register) el 1 de agosto a las 9:00 a.m. MST.

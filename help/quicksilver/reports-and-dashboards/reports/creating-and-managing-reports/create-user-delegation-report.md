@@ -2,12 +2,14 @@
 product-area: reporting
 keywords: usuario, delegación, informe, delegar, aprobación
 navigation-topic: create-and-manage-reports
-title: Crear un informe de delegación de usuarios
+title: Creación de un informe de delegación de usuario
 description: Crear un informe de delegación de usuarios
 author: Courtney
 feature: Reports and Dashboards
 exl-id: c860574b-0488-499e-8d36-d0f3f85aac2d
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '325'
 ht-degree: 91%
@@ -75,7 +77,7 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
 
 ## Crear un informe de delegación de usuarios
 
-1. Haga clic en el icono **Menú principal** ![icono Menú principal](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront y, a continuación, haga clic en **Informes**.
+1. Haga clic en el icono **Menú principal** ![Menú principal](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront y, a continuación, haga clic en **Informes**.
 
 1. Haga clic en **Nuevo informe** y, a continuación, seleccione **Delegación de usuarios**.
 

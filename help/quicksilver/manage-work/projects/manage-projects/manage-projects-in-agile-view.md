@@ -6,10 +6,12 @@ description: Puede aprovechar la funcionalidad de Agile para su proyecto sin los
 author: Alina, Courtney
 feature: Work Management
 exl-id: fc633fd6-35b4-4949-8045-22c775002436
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '314'
-ht-degree: 19%
+ht-degree: 21%
 
 ---
 
@@ -63,7 +65,8 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
 
 +++
 
-<!--old:
+<!--
+old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -92,7 +95,8 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
    <td> <p>View permissions to the project</p>  </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 
 ## Ver un proyecto en la vista de tablero

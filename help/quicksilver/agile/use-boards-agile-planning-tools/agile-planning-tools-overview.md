@@ -3,11 +3,13 @@ content-type: overview
 product-area: agile-and-teams
 navigation-topic: agile-navigation-topic
 title: 'Información general sobre las herramientas de planificación de Agile: índice del artículo'
-description: A medida que crea una placa utilizando tarjetas ad hoc y conectadas, puede aprovechar las herramientas de planificación ágil adicionales en las placas.
+description: A medida que crea un tablero mediante tarjetas ad hoc y conectadas, puede aprovechar las herramientas de planificación Agile adicionales en los tableros.
 author: Courtney
 feature: Agile
 exl-id: c1d28eeb-e920-4f57-a94b-ffd928b384a4
-source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '193'
 ht-degree: 64%
@@ -18,7 +20,7 @@ ht-degree: 64%
 
 <!-- Audited: 5/2025 -->
 
-A medida que crea una placa utilizando tarjetas ad hoc y conectadas, puede aprovechar las herramientas de planificación ágiles adicionales.
+A medida que crea un tablero utilizando tarjetas ad hoc y conectadas, puede aprovechar las herramientas de planificación Agile adicionales.
 
 Entre las herramientas útiles para Kanban se incluyen:
 
@@ -36,7 +38,7 @@ Entre las herramientas útiles para Scrum se incluyen:
 >
 >Los flujos de trabajo y sus herramientas relacionadas solo están disponibles para un grupo específico de clientes.
 
-Puedes usar cualquiera o todas estas herramientas de una manera que funcione para ti y tu equipo, sin comprometerte con una metodología Agile específica.
+Puede utilizar cualquiera o todas estas herramientas de una manera que funcione para usted y su equipo, sin comprometerse con una metodología Agile específica.
 
 Esta sección contiene los siguientes artículos:
 

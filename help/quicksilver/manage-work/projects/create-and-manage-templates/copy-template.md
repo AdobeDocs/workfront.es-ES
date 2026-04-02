@@ -6,10 +6,12 @@ description: Además de crear una plantilla de proyecto desde cero, también pue
 author: Alina
 feature: Work Management
 exl-id: b2e0878b-8245-4e01-819d-c3746f553d95
-source-git-commit: 76379d5433cc13ee412c8c1045316ef253b3ee7d
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '327'
-ht-degree: 46%
+ht-degree: 47%
 
 ---
 
@@ -30,7 +32,7 @@ Debe tener el siguiente acceso.
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td role="rowheader">Paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera </p> </td> 
   </tr> 
   <tr> 
@@ -53,7 +55,8 @@ Debe tener el siguiente acceso.
 
 +++
 
-<!--Old:
+<!--
+Old:
 
  <col> 
  <col> 
@@ -76,7 +79,8 @@ Debe tener el siguiente acceso.
    <td> <p>View or higher permissions to a template</p>  </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Consideraciones sobre la copia de plantillas
 
@@ -88,7 +92,7 @@ Los siguientes elementos siempre se copian de una plantilla existente a una nuev
 * Riesgos
 * Información de configuración de cola
 * Portafolio y programa
-* Rutas de aprobación
+* Aprobaciones
 * Documentos
 * Los días de las tareas de plantilla originales se transfieren a la nueva plantilla. Debe cambiar el día de inicio o finalización de la plantilla (según su modo de programación) para actualizar los días de las tareas de plantilla, si es necesario.
 

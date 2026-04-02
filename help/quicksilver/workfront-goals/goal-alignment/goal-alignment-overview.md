@@ -7,10 +7,12 @@ description: La alineación de metas garantiza que todos los miembros de la orga
 author: Alina
 feature: Workfront Goals
 exl-id: e073cf10-2333-4095-b932-73d105f0c5a4
-source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '750'
-ht-degree: 88%
+ht-degree: 93%
 
 ---
 
@@ -20,14 +22,15 @@ ht-degree: 88%
 
 >[!IMPORTANT]
 >
->Su empresa puede optar por seguir utilizando los objetivos de Adobe Workfront si compró este paquete anteriormente. Debe hablar con el representante de su cuenta para obtener más detalles.
+>Su empresa puede optar por seguir utilizando Adobe Workfront Goals si compró este paquete antes. Debe hablar con su representante de cuentas para obtener más detalles.
 >
 >Adobe Workfront Goals ya no se puede adquirir.
 > 
 >Para obtener información adicional sobre el acceso a Workfront Goals, consulte [Requisitos para usar Workfront Goals](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).
 
 
-<!--Old:
+<!--
+Old:
 >Your organization must have the following to use the functionality described in this article:
 >
 >* For the new plan and license structure:
@@ -41,7 +44,8 @@ ht-degree: 88%
 >
 >Contact your Workfront account manager to learn about a Workfront Goals license.    
 > 
->For additional information about access to Workfront Goals, see [Requirements to use Workfront Goals](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).-->
+>For additional information about access to Workfront Goals, see [Requirements to use Workfront Goals](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).
+-->
 
 La alineación de las metas es una parte importante de su gestión. Es posible asegurarse de que todos los miembros de la organización estén en sintonía sobre lo que se debe lograr para impulsar la estrategia, alineando las metas entre sí, así como las metas organizativas de los equipos, grupos y la compañía.
 

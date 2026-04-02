@@ -7,7 +7,9 @@ description: Esta vista de horas muestra el nombre de la tarea en la que se regi
 author: Courtney
 feature: Reports and Dashboards
 exl-id: c24555fc-3bae-451b-8a44-28a8158199d1
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '209'
 ht-degree: 72%
@@ -64,7 +66,7 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
 1. En el área **Vista previa de columna**, elimine todas las columnas excepto una.
 1. Haga clic en el encabezado de la columna restante y, a continuación, haga clic en **Cambiar al modo de texto**.
 1. Haga clic en **Editar modo de texto**.
-1. Quite el texto que encuentre en el cuadro **Editar modo de texto** y sustitúyalo por el código siguiente:
+1. Elimine el texto que encuentre en el cuadro **Editar modo de texto** y reemplácelo por el siguiente código:
 
 
 
@@ -124,5 +126,5 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
    column.2.width=150
    ```
 
-1. Haga clic en **Listo** y, a continuación, en **Guardar vista**.
+1. Haga clic en **Listo** y luego en **Guardar vista**.
 

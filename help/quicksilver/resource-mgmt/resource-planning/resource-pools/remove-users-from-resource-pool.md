@@ -6,10 +6,12 @@ description: Aunque no hay límite para la cantidad de usuarios que puede tener 
 author: Lisa
 feature: Resource Management
 exl-id: b888aa95-8d42-4cc3-8a99-6842435c84d2
-source-git-commit: 987b6e9b5f6b1feb323906cf7c24f5024fc84663
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '289'
-ht-degree: 91%
+ht-degree: 92%
 
 ---
 
@@ -30,7 +32,7 @@ Para obtener más información acerca de los conjuntos de recursos, consulte [In
  <col> 
  <tbody> 
   <tr> 
-   <td>paquete de Adobe Workfront</td> 
+   <td>Paquete de Adobe Workfront</td> 
    <td><p>Cualquiera</p></td> 
   </tr> 
   <tr> 
@@ -69,7 +71,9 @@ O\
    ![Eliminar usuarios del conjunto de recursos](assets/remove-users-from-resource-pool.png)
 
 1. Haga clic en el icono X en el nivel de usuario para eliminar un usuario del Conjunto de recursos. Se eliminan de todas las listas en las que aparecen.
-   <!--Or  
-   To remove all users associated with a job role, group, team, or company, click **Remove** at the job role, group, team level, or company level. This removes all the users associated with that job role, group, team, or company from the Resource Pool.-->
+   <!--
+   Or  
+   To remove all users associated with a job role, group, team, or company, click **Remove** at the job role, group, team level, or company level. This removes all the users associated with that job role, group, team, or company from the Resource Pool.
+   -->
 
 1. Haga clic en **Guardar**.

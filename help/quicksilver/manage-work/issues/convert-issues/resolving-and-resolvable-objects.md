@@ -2,19 +2,21 @@
 content-type: reference
 product-area: projects
 navigation-topic: convert-issues
-title: Información general sobre la resolución y los objetos solucionables
+title: Información general sobre la resolución y los objetos que se pueden resolver
 description: Un objeto solucionable es un problema cuya resolución está vinculada a un objeto de resolución. Un objeto de resolución es un proyecto, una tarea u otro problema.
 author: Alina
 feature: Work Management
 exl-id: 2ff034ec-6116-42af-a55f-1fb24fc12b2f
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1760'
 ht-degree: 3%
 
 ---
 
-# Información general sobre la resolución y los objetos solucionables
+# Información general sobre la resolución y los objetos que se pueden resolver
 
 <!-- Audited: 08/2025 -->
 
@@ -38,7 +40,8 @@ Puede seleccionar conservar el objeto solucionable mientras lo está convirtiend
 
 Para obtener información sobre la configuración de preferencias para la administración de objetos solucionables, consulte [Configurar las preferencias de tareas y problemas en todo el sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
 
-<!--WRITER
+<!--
+WRITER
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(Note: drafted and just pointed the user to the article linked above) </p>
 <p>To establish the system default for what happens to the issue as it is being converted to a task or a project:</p>
@@ -88,7 +91,8 @@ Se dan los siguientes escenarios:
 
 Para obtener más información acerca de la conversión de problemas en tareas y proyectos, vea [Información general sobre la conversión de problemas en Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issues.md).
 
-<!--WRITER
+<!--
+WRITER
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
 <h2>Tie the resolution of an issue to a project, task or </h2> 
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: created new article for this section; draft when the article is live and see if you need to make a link from this one to the new article) </p>

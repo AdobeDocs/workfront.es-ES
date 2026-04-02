@@ -6,7 +6,9 @@ description: Puede copiar una tarea de un proyecto a otro o duplicar una tarea d
 author: Alina
 feature: Work Management
 exl-id: daf89062-cf58-4c39-83ff-727d969a9630
-source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1744'
 ht-degree: 90%
@@ -52,7 +54,8 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -80,7 +83,8 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
    <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Consideraciones para copiar tareas
 
@@ -241,7 +245,7 @@ Además de copiar tareas en una lista de tareas, también puede copiar una tarea
 
    La tarea se muestra en la lista.
 
-   ![Seleccione la tarea principal al mover una tarea con la funcionalidad de búsqueda &#x200B;](assets/select-parent-when-moving-tasks-with-search-functionality-nwe-350x110.png)
+   ![Seleccione la tarea principal al mover una tarea con la funcionalidad de búsqueda ](assets/select-parent-when-moving-tasks-with-search-functionality-nwe-350x110.png)
 
 1. Seleccione el botón de opción del elemento principal, una vez encontrado.
 

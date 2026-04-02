@@ -6,10 +6,12 @@ description: Para ver todas las actualizaciones que cualquiera de los usuarios h
 author: Alina
 feature: Get Started with Workfront
 exl-id: fa5b91e4-b88c-42f0-860c-6864105b4652
-source-git-commit: 187505de92f9a912547018865f2742bfecec77ad
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '380'
-ht-degree: 11%
+ht-degree: 15%
 
 ---
 
@@ -66,7 +68,8 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
 
 +++
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto"> 
  <col> 
  </col> 
@@ -96,7 +99,8 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
     <p>Note: If you do not have View permission or higher to an object, information for that object doesn't display in the report.</p>  </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Creación de un informe de notas
 

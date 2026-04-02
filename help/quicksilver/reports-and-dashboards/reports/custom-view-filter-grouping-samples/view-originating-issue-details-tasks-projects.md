@@ -2,12 +2,14 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 'Ver: Detalles del Problema de Origen para Tareas y Proyectos'
+title: 'Ver: detalles del problema original para tareas y proyectos'
 description: Cuando un problema se convierte en una tarea o un proyecto, se establece una relación de objeto de resolución entre la tarea o el proyecto y el problema. Esta vista muestra los campos del problema que se completa automáticamente al finalizar la tarea o el proyecto.
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 5fefb174-3a18-408f-aa12-3f4aff23acfa
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '289'
 ht-degree: 67%
@@ -18,7 +20,7 @@ ht-degree: 67%
 
 <!--Audited: 11/2024-->
 
-Cuando un problema se convierte en una tarea o un proyecto, se establece una relación de objeto de resolución entre la tarea o el proyecto y el problema. Esta vista muestra los siguientes campos del problema que se completa automáticamente cuando finaliza la tarea o el proyecto:
+Cuando un problema se convierte en una tarea o un proyecto, se establece una relación de objeto de resolución entre la tarea o el proyecto y el problema. Esta vista muestra los siguientes campos del problema que se resuelve automáticamente al finalizar la tarea o el proyecto:
 
 * Nombre
 * Fecha de entrada
@@ -30,7 +32,7 @@ Cuando un problema se convierte en una tarea o un proyecto, se establece una rel
 
 ![task_with_resolve_issue_fields.png](assets/task-with-resolving-issue-fields-350x38.png)
 
-Para obtener más información, vea también [Ver: mostrar información de problemas originales en listas de tareas o proyectos](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-original-issue-info-task-project-list.md).
+Para obtener más información, vea [Ver: mostrar información original del problema en listas de tareas o proyectos](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-original-issue-info-task-project-list.md).
 
 ## Requisitos de acceso
 
@@ -71,8 +73,8 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
 1. Vaya a una lista de tareas o a una de proyectos.
 1. En el menú desplegable **Vista**, seleccione **Nueva vista**.
 1. En el área **Vista previa de columnas**, elimine todas las columnas excepto una.
-1. Haga clic en el encabezado de la columna restante y haga clic en **Cambiar a modo de texto** y, a continuación, en **Editar modo de texto**.
-1. Quite el texto que encuentre en el cuadro **Editar modo de texto** y sustitúyalo por el código siguiente:
+1. Haga clic en el encabezado de la columna restante y haga clic en **Cambiar al modo de texto** y, a continuación, en **Editar modo de texto**.
+1. Elimine el texto que encuentre en el cuadro **Editar modo de texto** y reemplácelo por el siguiente código:
 
    ```
    column.0.textmode=false
@@ -141,4 +143,4 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
    column.7.width=150
    ```
 
-1. Haga clic en **Hecho** > **Guardar vista**.
+1. Haga clic en **Listo** > **Guardar vista**.

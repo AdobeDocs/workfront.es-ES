@@ -6,7 +6,9 @@ description: Puede emplear el [!UICONTROL Optimizador de portafolios] para prior
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 25debc5b-5d7d-453f-ab0a-9bf3fba05693
-source-git-commit: d7600a55b3dffb242957234de9d85a0deb1ad2e3
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '468'
 ht-degree: 87%
@@ -53,7 +55,8 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 +++
 
-<!--Old
+<!--
+Old
 <table style="table-layout:auto"> 
  <col> 
  <col> 
@@ -78,7 +81,8 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
     </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Optimización de proyectos en el Optimizador de portafolios
 

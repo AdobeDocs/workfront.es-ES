@@ -7,7 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 1ffba3b5-ab24-4ca2-a1ef-f7e5b77e776c
-source-git-commit: ac24b2486b9fc5a0b8c2944a6ec240140238b908
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '2421'
 ht-degree: 99%
@@ -31,9 +33,11 @@ Un objeto BreadCrumb representa un elemento en la jerarquía principal/secundari
 
 Para obtener más información sobre las rutas de exploración en Workfront, consulte [Información general sobre las rutas de exploración en la nueva experiencia de Adobe Workfront](../../workfront-basics/the-new-workfront-experience/breadcrumb-overview.md)
 
-<table style="table-layout:auto"> <!--
+<table style="table-layout:auto">
+<!--
   <col data-mc-conditions="QuicksilverOrClassic.Draft mode">
- --> <!--
+ -->
+ <!--
   <col data-mc-conditions="QuicksilverOrClassic.Draft mode">
  --> 
  <tbody> 
@@ -53,9 +57,11 @@ Los campos de texto enriquecido están ahora disponibles en más objetos. El obj
 
 Para obtener más información, consulte [Campos de texto enriquecido en la API de Adobe Workfront](../../wf-api/general/rich-text-field-api.md).
 
-<table style="table-layout:auto"> <!--
+<table style="table-layout:auto">
+<!--
   <col data-mc-conditions="QuicksilverOrClassic.Draft mode">
- --> <!--
+ -->
+ <!--
   <col data-mc-conditions="QuicksilverOrClassic.Draft mode">
  --> 
  <tbody> 
@@ -63,14 +69,14 @@ Para obtener más información, consulte [Campos de texto enriquecido en la API 
    <td>Campos directos</td> 
    <td> 
     <ul> 
-     <li style="font-weight: bold;">Identificador</li> 
+     <li style="font-weight: bold;">ID</li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td>Campos principales</td> 
    <td> 
     <ul> 
-     <li style="font-weight: bold;">Identificador</li> 
+     <li style="font-weight: bold;">ID</li> 
      <li style="font-weight: bold;">objCode</li> 
     </ul> </td> 
   </tr> 
@@ -140,22 +146,28 @@ Un objeto AccessLevel está asociado a los usuarios y describe el conjunto de Ac
 
 Para obtener más información sobre los niveles de acceso, consulte [Cómo funcionan los niveles de acceso](../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels.md).
 
-<table style="table-layout:auto"> <!--
+<table style="table-layout:auto">
+<!--
   <col data-mc-conditions="QuicksilverOrClassic.Draft mode">
- --> <!--
+ -->
+ <!--
   <col data-mc-conditions="QuicksilverOrClassic.Draft mode">
  --> 
  <tbody> 
-  <tr> <!--
+  <tr>
+  <!--
     <td data-mc-conditions="QuicksilverOrClassic.Draft mode">Direct Fields</td>
    --> 
    <td> 
     <ul> 
-     <li style="font-weight: bold;"> <!--
+     <li style="font-weight: bold;">
+     <!--
        <p data-mc-conditions="QuicksilverOrClassic.Draft mode">fieldAccessPrivileges</p>
-      --> <!--
+      -->
+      <!--
        <p style="font-weight: normal;" data-mc-conditions="QuicksilverOrClassic.Draft mode">Added the possible value CPJ (Copy). This allows Users with Planner Access Level to copy Projects.</p>
-      --> </li> 
+      -->
+      </li>
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -191,43 +203,61 @@ Un objeto AccessLevelPermissions representa un permiso específico para tener ac
        <li> <p>ADD_TO_CUSTOM_FORMS </p> </li> 
        <li> <p>EDIT_SYSTEMWIDE </p> </li> 
       </ul> </li> 
-    </ul> <!--
+    </ul>
+    <!--
      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">OR</p>
-    --> <!--
+    -->
+    <!--
      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">The following fields added the possible value PLANNED_HOURS_CONTOURING, which allows a user to update planned hours in the Workload Balancer</p>
     --> 
     <ul> 
-     <li> <!--
+     <li>
+     <!--
        <p data-mc-conditions="QuicksilverOrClassic.Draft mode">coreAction</p>
-      --> </li> 
-     <li> <!--
+      -->
+      </li>
+     <li>
+     <!--
        <p data-mc-conditions="QuicksilverOrClassic.Draft mode">forbiddenActions</p>
-      --> </li> 
-     <li> <!--
+      -->
+      </li>
+     <li>
+     <!--
        <p data-mc-conditions="QuicksilverOrClassic.Draft mode">secondaryActions</p>
-      --> </li> 
-    </ul> <!--
+      -->
+      </li>
+    </ul>
+    <!--
      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">The following fields added the possible value ADD_TO_CUSTOM_FORMS, which allows a user to add fields to custom forms.</p>
     --> 
     <ul> 
-     <li> <!--
+     <li>
+     <!--
        <p data-mc-conditions="QuicksilverOrClassic.Draft mode">coreAction</p>
-      --> </li> 
-     <li> <!--
+      -->
+      </li>
+     <li>
+     <!--
        <p data-mc-conditions="QuicksilverOrClassic.Draft mode">forbiddenActions</p>
-      --> </li> 
-     <li> <!--
+      -->
+      </li>
+     <li>
+     <!--
        <p data-mc-conditions="QuicksilverOrClassic.Draft mode">secondaryActions</p>
-      --> </li> 
-    </ul> <!--
+      -->
+      </li>
+    </ul>
+    <!--
      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">The following fields added the possible value EDIT_SYSTEMWIDE, which allows a user to share a custom field system-wide with Delete access. </p>
-    --> <!--
+    -->
+    <!--
      <ul data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
       <li> <p>coreAction</p> </li> 
       <li> <p>forbiddenActions</p> </li> 
       <li> <p>secondaryActions</p> </li> 
      </ul>
-    --> </td> 
+    -->
+    </td>
   </tr> 
  </tbody> 
 </table>
@@ -823,9 +853,11 @@ Un objeto de equipo es una colección de usuarios que se pueden asignar a un ele
    <td role="rowheader">Campos directos</td> 
    <td> <p>Se añadieron los campos siguientes al recurso de equipo:</p> 
     <ul> 
-     <li> <p><strong>completeDaysOnKanbanBoard</strong> </p> <p>Este campo representa el número de días que una tarjeta completada permanece en el tablero Kanban.</p> <!--
+     <li> <p><strong>completeDaysOnKanbanBoard</strong> </p> <p>Este campo representa el número de días que una tarjeta completada permanece en el tablero Kanban.</p>
+     <!--
        <p data-mc-conditions="QuicksilverOrClassic.Draft mode">For more information, see <a href="../../agile/get-started-with-agile-in-workfront/configure-kanban.md" class="MCXref xref">Configure Kanban</a>.</p>
-      --> </li> 
+      -->
+      </li>
      <li> <p><strong>groupID</strong> </p> <p>Este campo asocia un equipo con un grupo. Esto identifica al equipo como parte del grupo y permite al administrador del grupo administrar los equipos.</p> </li> 
      <li> <p><strong>workOnItStatusChange</strong> </p> <p>Es un parámetro booleano que indica si el botón Trabajar en ello del equipo se ha configurado como botón Inicio. Cuando un miembro del equipo hace clic en un botón Iniciar para comenzar a trabajar en un elemento de trabajo, el estado del elemento cambia de Nuevo a un estado configurado en la configuración del equipo.</p> </li> 
      <li> <p>Los campos siguientes permiten especificar estados personalizados para el botón Inicio en los elementos de trabajo individuales.</p> 

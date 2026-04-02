@@ -6,10 +6,12 @@ description: Sin el acceso o los permisos correctos, es posible que no pueda ver
 author: Lisa
 feature: Resource Management
 exl-id: b3da9a62-481e-4503-8f27-136d6513262e
-source-git-commit: 987b6e9b5f6b1feb323906cf7c24f5024fc84663
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '374'
-ht-degree: 67%
+ht-degree: 68%
 
 ---
 
@@ -21,7 +23,8 @@ Sin el acceso o los permisos correctos, es posible que no pueda ver o administra
 
 Debe tener acceso para ver los usuarios cuya carga de trabajo desee ver o administrar en el Equilibrador de carga de trabajo. Además, debe tener el nivel de acceso correcto y los permisos correctos en los proyectos con los que está asociado el trabajo.
 
-<!--## Adobe Workfront package needed to use the Workload Balancer for different areas
+<!--
+## Adobe Workfront package needed to use the Workload Balancer for different areas
 
 The following table illustrates the connection between the Workfront plan your company has and where in the system you can use the Workload Balancer:
 
@@ -52,9 +55,10 @@ The following table illustrates the connection between the Workfront plan your c
  </tbody> 
 </table>
 
-For information about the Workfront plans, see [Our Plans](https://business.adobe.com/es/products/workfront/pricing.html).
+For information about the Workfront plans, see [Our Plans](https://business.adobe.com/products/workfront/pricing.html).
 
-For information about where you can locate the Workload Balancer in Workfront, see [Locate the Workload Balancer](../../resource-mgmt/workload-balancer/locate-workload-balancer.md).-->
+For information about where you can locate the Workload Balancer in Workfront, see [Locate the Workload Balancer](../../resource-mgmt/workload-balancer/locate-workload-balancer.md).
+-->
 
 ## Acceso necesario para ver el Equilibrador de carga de trabajo
 
@@ -65,7 +69,7 @@ Debe tener el siguiente acceso para ver el Equilibrador de carga de trabajo:
  <col> 
  <tbody>
   <tr> 
-   <td>paquete de Adobe Workfront</td> 
+   <td>Paquete de Adobe Workfront</td> 
    <td><p>Cualquiera</p></td>
   </tr>
   <tr> 
@@ -97,7 +101,7 @@ Debe tener el siguiente acceso para administrar el Equilibrador de carga de trab
  <col> 
  <tbody>
   <tr> 
-   <td>paquete de Adobe Workfront</td> 
+   <td>Paquete de Adobe Workfront</td> 
    <td><p>Cualquiera</p></td>
   </tr>
   <tr> 
@@ -120,7 +124,8 @@ Debe tener el siguiente acceso para administrar el Equilibrador de carga de trab
 
 Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-<!--these notes were inside the table: for the Edit access to Res Management
+<!--
+these notes were inside the table: for the Edit access to Res Management
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">View or higher access to Financial Data, if you want to view information by cost (NOTE: this is not possible yet!)</p>    
      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">For information about the Financial Data access level, see the article<a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md" class="MCXref xref">Grant access to financial data</a>. (NOTE: this is not possible yet!)</p>
     -->

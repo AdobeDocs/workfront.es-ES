@@ -6,7 +6,9 @@ description: Si el mismo recurso está asignado a dos tareas diferentes, puede u
 author: Alina
 feature: Work Management
 exl-id: ba96c01d-03b8-4728-b5e3-b10d227f51b0
-source-git-commit: c8987d036e1c1324618cb53ebcbb8fd7e4bcc6a4
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '620'
 ht-degree: 81%
@@ -56,7 +58,8 @@ La redistribución de los recursos en un proyecto tiene dos propósitos:
 Para obtener más información sobre el contenido de esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -81,11 +84,12 @@ If you still don't have access, ask your [!DNL Workfront] administrator if they 
    <td> <p>[!UICONTROL Manage] access to the project</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
-</table> -->
+</table>
+-->
 
 ## Información general sobre la redistribución de recursos
 
-Si el mismo recurso está asignado a dos tareas diferentes, puede utilizar la redistribución de recursos para ajustar la línea de tiempo de las tareas de modo que no se produzcan al mismo tiempo.
+Si el mismo recurso está asignado a dos tareas diferentes, puede utilizar la redistribución de recursos para ajustar la cronología de las tareas de modo que no se produzcan al mismo tiempo.
 
 Tenga en cuenta lo siguiente al redistribuir recursos en un proyecto:
 
@@ -109,7 +113,7 @@ Puede usar la Lista de tareas [!UICONTROL gráfico Gantt] para redistribuir los 
 
    Todos los cambios se guardan automáticamente cuando la opción **[!UICONTROL Guardar automáticamente]** se habilita. Está habilitada de forma predeterminada.
 
-1. (Opcional) Haga clic en el icono del modo **[!UICONTROL Plan]** y seleccione **[!UICONTROL Guardar de forma manual como estándar]** o **[!UICONTROL Planificación de la línea de tiempo]** para guardar los cambios de forma manual.
+1. (Opcional) Haga clic en el icono del modo **[!UICONTROL Plan]** y seleccione **[!UICONTROL Guardar de forma manual como estándar]** o **[!UICONTROL Planificación de la cronología]** para guardar los cambios de forma manual.
 
    >[!TIP]
    >

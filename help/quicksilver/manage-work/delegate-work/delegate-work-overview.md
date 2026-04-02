@@ -7,10 +7,12 @@ description: Cuando planea estar fuera de la oficina por un corto período de ti
 author: Becky
 feature: Work Management
 exl-id: aec2ce78-278f-48d2-af8c-e4e5b31ac856
-source-git-commit: a5f33f914dabaa9368dea919510375bcb6ee03e2
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '904'
-ht-degree: 89%
+ht-degree: 90%
 
 ---
 
@@ -41,7 +43,7 @@ Para obtener información sobre la delegación de aprobaciones de proyectos, tar
 
 Para obtener información acerca de cómo delegar tareas y problemas, vea [Delegar tareas y problemas](../../manage-work/delegate-work/how-to-delegate-work.md).
 
-## Información general sobre tareas y problemas delegados
+## Información general sobre la delegación de tareas y problemas
 
 Tenga en cuenta lo siguiente al delegar tareas y problemas:
 

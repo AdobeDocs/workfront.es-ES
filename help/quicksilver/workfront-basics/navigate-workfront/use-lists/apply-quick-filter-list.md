@@ -5,7 +5,9 @@ description: Puede utilizar el filtro rápido en una lista de objetos para que s
 feature: Get Started with Workfront
 author: Courtney
 exl-id: 363f7ad1-f4f8-4cb1-a631-ee4e5ea28e5a
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '843'
 ht-degree: 89%
@@ -120,7 +122,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
    1. Seleccione todos o varios de los elementos de la lista y, a continuación, haga clic en **[!UICONTROL Editar]** para editar los elementos en lote.
    1. Después de completar las ediciones, haga clic en **[!UICONTROL Guardar cambios]**.
 
-1. (Opcional) Para exportar los elementos encontrados por el filtro rápido, seleccione todos o varios de los elementos de la lista y, a continuación, haga clic en el icono **[!UICONTROL Exportar]** ![Exportar icono](assets/export.png).
+1. (Opcional) Para exportar los elementos encontrados por el filtro rápido, seleccione todos o varios de los elementos de la lista y, a continuación, haga clic en el icono **[!UICONTROL Exportar]** ![Icono Exportar](assets/export.png).
 
    ![select_all_projects_with_highlight__1_.png](assets/select-all-projects-with-highlight--1--350x173.png)
 

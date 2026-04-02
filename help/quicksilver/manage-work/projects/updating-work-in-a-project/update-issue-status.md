@@ -6,10 +6,12 @@ description: Puede actualizar el estado de un problema para informar a otros sob
 author: Alina
 feature: Work Management
 exl-id: 6e09dfcf-dceb-4f33-9592-0769283369c7
-source-git-commit: 885bdb0e28c2807f14cc3919a3057a4a48b2422d
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '640'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
@@ -52,7 +54,8 @@ Puede actualizar el estado de un problema para informar a otros sobre dónde se 
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -78,7 +81,8 @@ Puede actualizar el estado de un problema para informar a otros sobre dónde se 
    <td> <p>Manage permissions to the issue</p> </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Estados de los problemas
 
@@ -140,7 +144,8 @@ Para actualizar de forma manual el estado del problema en el encabezado del mism
 
 
 
-<!--Old instructions, in old commenting: 
+<!--
+Old instructions, in old commenting: 
 
 When you are updating an issue status, you can also add an explanation about the new status and change other issue information such as the commit date.
 

@@ -8,15 +8,17 @@ role: Admin
 recommendations: noDisplay, noCatalog
 hide: true
 hidefromtoc: true
-source-git-commit: 387a84c4bf511424a0c15bd65748987c1611cee5
+exl-id: 850576d3-4edb-4942-9f21-065bf941b01c
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '473'
-ht-degree: 0%
+ht-degree: 5%
 
 ---
 
-
-# Actividad de la versión del primer trimestre de 2026 para funciones de disponibilidad limitada de Adobe Workfront
+# Actividad de la versión del primer trimestre de 2026 para funciones con disponibilidad limitada de Adobe Workfront
 
 Este artículo describe la disponibilidad limitada de las funciones de Workfront que se lanzarán durante el primer trimestre de 2026.
 
@@ -67,13 +69,14 @@ El KPI de horas planificadas en la pantalla Asignaciones avanzadas ya no se pued
 
 El campo **Fecha de tipo de cambio** en el área Detalles del proyecto > Finanzas ahora está oculto cuando la casilla de verificación **Usar tipos de cambio con fecha efectiva del sistema** no está seleccionada. Anteriormente, al editar un proyecto, el campo de fecha se mostraba en los detalles del proyecto incluso cuando no se habilitaban las tasas de cambio efectivas por fecha.
 
-### Actualizaciones de mantenimiento semana del 4 al 10 de enero de 2026
+### Actualizaciones de mantenimiento de la semana del 4 al 10 de enero de 2026
 
 **Las tarifas de rol ahora permiten espacios en las fechas efectivas**
 
 Las fechas efectivas en las tasas de rol ahora permiten lagunas, aunque no se permiten fechas superpuestas. Durante un espacio, se utilizan otras áreas de la jerarquía de tarifas de facturación para determinar la tasa de facturación, según el tipo de ingresos de una tarea.
 
-<!--### Maintenance Updates week of January 11-17, 2026
+<!--
+### Maintenance Updates week of January 11-17, 2026
 
 **Title**
 

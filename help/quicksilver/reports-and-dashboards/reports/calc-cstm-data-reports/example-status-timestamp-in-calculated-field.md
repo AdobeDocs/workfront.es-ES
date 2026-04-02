@@ -7,7 +7,9 @@ description: El siguiente campo calculado muestra la fecha en la que el estado d
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 55817a68-3655-4288-8cc7-48547829c46e
-source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '341'
 ht-degree: 86%
@@ -63,7 +65,7 @@ Para añadir un campo calculado que muestre el historial de edición de un campo
 
 1. Vaya a un formulario personalizado en el que desee añadir el campo.
 1. Haga clic en **Calculado** para añadir un campo personalizado calculado al formulario.
-1. Escriba **Label** para el campo personalizado. Por ejemplo, &quot;Campo personalizado de marca de tiempo de estado&quot;.
+1. Escriba una **Etiqueta** para el campo personalizado. Por ejemplo, &quot;Campo personalizado Marca de tiempo de estado&quot;.
 1. Haga clic en **Guardar + Cerrar**.
 1. Vuelva a abrir el formulario personalizado y, a continuación, seleccione el nuevo **Campo personalizado de marca de tiempo de estado** en el formulario.
 1. En el cuadro **Cálculo**, copie y pegue el siguiente cálculo para el campo personalizado:

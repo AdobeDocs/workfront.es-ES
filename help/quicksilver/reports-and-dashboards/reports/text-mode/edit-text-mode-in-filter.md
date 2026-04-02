@@ -6,7 +6,9 @@ description: Puede editar un filtro en una lista o informe utilizando el modo de
 author: Courtney
 feature: Reports and Dashboards
 exl-id: bfd1d49f-72cd-466d-8b35-8ae9848646be
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1044'
 ht-degree: 12%
@@ -42,7 +44,7 @@ Para obtener más ejemplos en modo de texto al crear un filtro, vea también la 
   </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso</td> 
-   <td> <p>Editar el acceso a filtros, vistas y agrupaciones</p> <p>Editar el acceso a informes, paneles y calendarios para editar elementos de informes en un informe</p></td> 
+   <td> <p>Editar el acceso a filtros, vistas y agrupaciones</p> <p>Editar el acceso a Informes, Paneles y Calendarios para editar los elementos de un informe</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permisos de objeto</td> 
@@ -83,11 +85,11 @@ Para obtener información sobre cómo crear un informe, consulte [Crear un infor
 
    O
 
-   Para tener acceso al filtro desde un informe, vaya al informe y, a continuación, haga clic en **Acciones del informe** > **Editar** > **Filtros**.
+   Para acceder al filtro de un informe, ve a él y haz clic en **Acciones de informe** > **Editar** > pestaña **Filtros**.
 
 1. Realice una de las siguientes acciones:
 
-   Si utiliza el panel lateral **Filtros** de una lista, haga clic en **Modo de texto**.
+   Si está usando el panel lateral **Filtros** en una lista, haga clic en **Modo de texto**.
 
    O
 
@@ -111,7 +113,7 @@ Para obtener información sobre cómo crear un informe, consulte [Crear un infor
    </tr> 
      <tr> 
       <td> <p>Modificador de nombre de campo y equivalente del modificador. Esto indica por qué condiciones debe cumplir el campo por el que está filtrando.</p> <p>Esta línea es obligatoria.</p> </td> 
-      <td> <p><code>&lt;field name in camel case&gt;_Mod=&lt;modifier value&gt;</code> </p> <p>Para indicar que el estado de las tareas por las que filtra debe ser igual a En curso, utilice la siguiente línea además de la anterior:</p> <p><code>status_Mod=in</code> </p> <p>Si el modificador es un intervalo, hay dos líneas que indican el modificador.</p> 
+      <td> <p><code>&lt;field name in camel case&gt;_Mod=&lt;modifier value&gt;</code> </p> <p>Para indicar que el estado de las tareas por las que filtra debe ser igual a En curso, utilice la siguiente línea además de la anterior:</p> <p><code>status_Mod=in</code> </p> <p>Si el modificador es un rango, hay dos líneas para indicar el modificador.</p> 
        <div> <span class="autonumber"><span><b>EJEMPLO </b></span></span> 
         <p>Este es un filtro de modo de texto que busca tareas que están en curso, que tienen una fecha planificada de finalización en el mes actual y que están asignadas a un usuario con un GUID específico:</p> 
         <p><code>assignedToID=580a55a4000701f4b2d7dee1e7a9d427</code> </p> 
@@ -157,7 +159,7 @@ Para obtener información sobre cómo crear un informe, consulte [Crear un infor
 
       `OR:1:status=NEW`
 
-   1. Agregue una segunda línea y escriba OR:1: seguido del objeto, el modificador y el código modificador. Para definir el modificador de la línea de código que hace referencia a todos los estados de tareas excepto New, utilice la siguiente línea de modificador:
+   1. Agregue una segunda línea y escriba OR:1: seguido del objeto, el modificador y el código del modificador. Para definir el modificador de la línea de código que hace referencia a todos los estados de tareas excepto Nuevo, utilice la línea de modificador siguiente:
 
       `OR:1:status_Mod=notin`
 

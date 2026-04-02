@@ -6,7 +6,9 @@ description: No se puede quitar una plantilla de un proyecto. Solo puede quitar 
 author: Alina
 feature: Work Management
 exl-id: a8b6055a-7fac-4f9b-a880-10b2b85299b7
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '395'
 ht-degree: 93%
@@ -49,7 +51,8 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -73,7 +76,8 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
    <td> <p>Manage access to tasks </p> <p>Contribute or higher access to the project </p>  </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Opciones para quitar información de la plantilla de un proyecto
 

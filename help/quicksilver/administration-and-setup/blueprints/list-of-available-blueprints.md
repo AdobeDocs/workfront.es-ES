@@ -8,7 +8,9 @@ author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: a5cdcb89-71c0-43f0-a5cf-dc99fac542ba
-source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '2143'
 ht-degree: 80%
@@ -31,7 +33,7 @@ Este modelo contiene una plantilla que la organización de Professional services
 Este modelo contiene una plantilla que la organización de Professional services de [!DNL Workfront] ha utilizado durante años en los compromisos de implementación con los equipos de finanzas para organizar las actividades relacionadas con la planificación presupuestaria anual. La plantilla ayuda a establecer expectativas con líderes de unidades comerciales y les guía en la solicitud y reserva de presupuestos durante el proceso de planificación anual.
 
 **[!UICONTROL Tablero de línea base]**
-Este modelo contiene un tablero para ayudarle a tomar decisiones de proyecto más inteligentes y rápidas. Las líneas de base le permiten comparar lo que se ha planificado con lo que ha sucedido, lo que le permite identificar las tareas problemáticas, la variación del ámbito y las tendencias del proyecto de un vistazo. El tablero de línea base incluye estos informes: Línea base | Proyectos en curso, línea de base | Proyectos finalizados, línea de base | Tareas en curso y Línea de base | Tareas completadas.
+Este modelo contiene un tablero para ayudarle a tomar decisiones de proyecto más inteligentes y rápidas. Las líneas de base le permiten comparar lo que se ha planificado con lo que ha sucedido, lo que le permite identificar las tareas problemáticas, la variación del ámbito y las tendencias del proyecto de un vistazo. El Panel de línea de base incluye estos informes: Línea de base | Proyectos en curso, Línea de base | Proyectos completados, Línea de base | Tareas en curso y Línea de base | Tareas completadas.
 
 **[!UICONTROL Plan de prestación de servicios contratados]**
 Este modelo contiene una plantilla que organiza el trabajo relacionado con la prestación de servicios orientados al cliente. Su finalidad es crear un enfoque uniforme para la prestación de servicios contratados.
@@ -87,7 +89,7 @@ Este modelo contiene una plantilla que la [!DNL Workfront professional services]
 **[!UICONTROL Nueva preparación para la contratación]**
 Este modelo contiene una plantilla que la organización de servicios profesionales de [!DNL Workfront] ha utilizado durante años durante los acuerdos de implementación con los equipos de Recursos Humanos para solicitar a los especialistas en recursos humanos y a los jefes de contratación que completen las actividades esenciales para el primer día de trabajo de un empleado.
 
-**Descarga | Tablero de usuario saliente**
+**Descarga | Panel de usuario saliente**
 Este modelo contiene un único panel con 13 informes que le ayudarán a buscar, reasignar o, de otro modo, administrar los objetos y asignaciones asociados con la salida de un usuario de Workfront. También puede utilizar estos informes para reasignar el trabajo de un usuario que se traslada a una función o grupo nuevo.
 
 **Habilitación de socio: paquete de GenStudio Foundation**

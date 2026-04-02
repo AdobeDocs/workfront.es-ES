@@ -1,12 +1,14 @@
 ---
 product-area: agile-and-teams
 navigation-topic: use-kanban-in-an-agile-team
-title: Manage the Work in Progress (WIP) Limit on the Kanban Board
+title: Administrar el límite de trabajo en curso (WIP) en el panel Kanban
 description: Puede configurar un límite de trabajo en curso (WIP) para cada columna del tablero Kanban. El límite de trabajo en curso es simplemente una advertencia visual y no impide que su equipo tenga más elementos en cada columna de estado que el límite establecido.
 author: Courtney
 feature: Agile
 exl-id: 540880ad-46af-416b-8e0b-5df869555424
-source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '327'
 ht-degree: 80%
@@ -47,9 +49,9 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
 
 ## Ver el límite de [!UICONTROL Work in Progress] (WIP) en el tablero [!UICONTROL Kanban]
 
-When a WIP limit is configured for your Agile team, it is displayed in the upper-right corner of each column on the Kanban board (except for the [!UICONTROL Complete] column).
+Cuando se configura un límite de trabajo en curso para el equipo Agile, se muestra en la esquina superior derecha de cada columna en el panel Kanban (excepto para la columna [!UICONTROL Completar]).
 
-Any time the limit is exceeded for any column on the [!UICONTROL Kanban] board, the limit is highlighted in red and a message is displayed.
+Cada vez que se supera el límite de cualquier columna en el panel [!UICONTROL Kanban], el límite se resalta en rojo y se muestra un mensaje.
 ![Límite de WIP](assets/kanban-wip.png)
 
 ## Actualizar el límite de [!UICONTROL Work in Progress] (WIP) desde el tablero [!UICONTROL Kanban]

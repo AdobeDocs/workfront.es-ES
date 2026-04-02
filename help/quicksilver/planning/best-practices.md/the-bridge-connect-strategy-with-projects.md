@@ -6,10 +6,12 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 567ab223-b282-4b98-9655-7b9766fba869
-source-git-commit: 7f3ca12d89a2a5fbebc12b3df8a40edbb17d0ead
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1156'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
@@ -103,7 +105,7 @@ Para organizaciones con solicitudes de gran volumen o necesidades de automatizac
 
 Necesitará una licencia para Adobe Workfront Fusion para este enfoque.
 
-Para obtener más información, consulte [Configurar y administrar Workfront Fusion: índice de artículos](https://experienceleague.adobe.com/es/docs/workfront-fusion/using/set-up-and-manage-fusion/set-up-and-manage-workfront-fusion-toc).
+Para obtener más información, consulte [Configurar y administrar Workfront Fusion: índice de artículos](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/set-up-and-manage-fusion/set-up-and-manage-workfront-fusion-toc).
 
 * **Usar déclencheur de envío:** Debido a que los formularios proporcionan un único evento de envío limpio, se pueden usar como déclencheur para las automatizaciones de Fusion. Un escenario de Fusion puede detectar un envío de formulario y generar inmediatamente un proyecto vinculado en Workfront.
 
@@ -145,7 +147,8 @@ Al conectar la intención con la acción, puede responder preguntas comerciales 
 
 * **No salte el puente:** Si el trabajo comienza en el módulo Flujo de trabajo sin un vínculo a Planning, ha creado un &quot;Plan en la sombra&quot; que es invisible para el liderazgo.
 
-<!--original content:
+<!--
+original content:
 
 # The Bridge: Connecting Strategic Intent to Projects 
 

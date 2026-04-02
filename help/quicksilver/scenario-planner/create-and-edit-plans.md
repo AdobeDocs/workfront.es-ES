@@ -6,7 +6,9 @@ description: Puede crear planes como parte del uso de Workfront Scenario Planner
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 15c0e519-0164-449d-84f3-470d0d4eb795
-source-git-commit: aa2e9a012a60ab10e2d027dedae520b5e06686c7
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '2399'
 ht-degree: 91%
@@ -63,7 +65,8 @@ Para obtener información acerca de los requisitos de acceso de Workfront, consu
 
 +++
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto"> 
  <col> 
  <col> 
@@ -98,7 +101,8 @@ Para obtener información acerca de los requisitos de acceso de Workfront, consu
    <td> <p>[!UICONTROL Manage] permissions to a plan</p> <p>For information on requesting additional access to a plan, see <a href="../scenario-planner/request-access-to-plan.md" class="MCXref xref">Request access to a plan in the [!DNL Scenario Planner]</a>.</p> </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Creación o edición de planes
 
@@ -197,19 +201,19 @@ Se muestra una lista de los planes existentes que ha creado en [!DNL Workfront S
 
 1. (Condicional) Haga Clic En **[!UICONTROL Next]**.
 
-   La línea de tiempo del plan se muestra como el **[!UICONTROL Initial scenario]**.
+   La cronología del plan se muestra como el **[!UICONTROL Initial scenario]**.
 
    Para obtener información acerca de cómo crear escenarios adicionales, vea [Crear y comparar escenarios de plan en [!DNL Scenario Planner]](../scenario-planner/create-and-compare-scenarios-for-a-plan.md).
 
-1. (Opcional) En el menú desplegable de la línea de tiempo, seleccione una de las opciones de la siguiente tabla para cambiar la forma en que ve la línea de tiempo del plan.
+1. (Opcional) En el menú desplegable de la cronología, seleccione una de las opciones de la siguiente tabla para cambiar la forma en que ve la cronología del plan.
 
    ![Menú desplegable mes](assets/month-dropdown-with-all-options.png)
 
    | Opción de menú desplegable | Descripción |
    |---|---|
-   | [!UICONTROL Mes] | Muestra la línea de tiempo por mes. Esta es la opción predeterminada y la única para un plan de un año. |
-   | [!UICONTROL Trimestre] | Muestra la línea de tiempo por trimestre. Esta opción solo está disponible cuando la [!UICONTROL duración] del plan es de 3 o 5 años. Esta es la opción predeterminada para un plan de tres años. |
-   | [!UICONTROL Año] | Muestra la línea de tiempo por año. Esta opción solo está disponible cuando la [!UICONTROL duración] del plan es de 5 años. Esta es la opción predeterminada para un plan de 5 años. |
+   | [!UICONTROL Mes] | Muestra la cronología por mes. Esta es la opción predeterminada y la única para un plan de un año. |
+   | [!UICONTROL Trimestre] | Muestra la cronología por trimestre. Esta opción solo está disponible cuando la [!UICONTROL duración] del plan es de 3 o 5 años. Esta es la opción predeterminada para un plan de tres años. |
+   | [!UICONTROL Año] | Muestra la cronología por año. Esta opción solo está disponible cuando la [!UICONTROL duración] del plan es de 5 años. Esta es la opción predeterminada para un plan de 5 años. |
 
 1. (Opcional) Desplácese de izquierda a derecha para ver toda la duración del plan.
 1. (Opcional) Haga clic en la línea del indicador **[!UICONTROL Hoy]** para regresar al día actual.
@@ -253,7 +257,8 @@ Se muestra una lista de los planes existentes que ha creado en [!DNL Workfront S
         <li> <p><strong>[!UICONTROL Total required]</strong> (para horas): el número total de horas necesarias para todos los meses mientras dure el plan.</p> </li> 
         <li> <p><strong>[!UICONTROL Max required]</strong> (para jornadas completas): el número máximo de jornadas completas necesarias para cualquiera de los meses mientras dure el plan. </p> </li> 
        </ul> <p>Sugerencia: Se muestra el número <span>máximo</span> de jornadas completas <span>o el número total de horas</span> necesarias para esa función tras empezar a añadir iniciativas. Para obtener información acerca de cómo añadir iniciativas a un plan, consulte <a href="../scenario-planner/create-and-edit-initiatives.md" class="MCXref xref">Crear y editar iniciativas en el [!DNL Scenario Planner]</a>.</p> </td> 
-     </tr> <!--
+     </tr>
+     <!--
       <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
        <td role="rowheader">[!UICONTROL Avg utilization]</td> 
        <td> <p>(NOTE: this field was removed in 21.2 - May 2021) </p> <p>[!DNL Workfront] calculates the average utilization for each job role using the job role FTEs associated with initiatives (required) and the job role FTEs associated with the plan (available). </p> <p> [!DNL Workfront] calculates the job role utilization percentage for a plan using the following formula: </p> <p><code>Job role utilization percentage = Sum [(Required job roles for each month of the plan *100)/ (Available job roles for each month of the plan)] / Number of months in the Duration of the plan</code> </p> 

@@ -6,10 +6,12 @@ description: Puede copiar un problema o una solicitud y guardarlo en el mismo o 
 author: Alina
 feature: Work Management
 exl-id: a28adc22-825f-401e-9ed2-efddaa297b8d
-source-git-commit: 0542587bb3254dec5664de493c1c321528cf7f3e
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1006'
-ht-degree: 91%
+ht-degree: 92%
 
 ---
 
@@ -39,7 +41,7 @@ Puede copiar problemas de los siguientes objetos:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td role="rowheader">Paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
@@ -66,7 +68,8 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -89,7 +92,8 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
    <td> <p>Manage permissions to the issue</p> <p>Contribute permissions to the item where you are copying the issue to with the ability to Add Issues.</p> <p> For information about granting permissions to issues, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">Share an issue </a></p> <p>For information on requesting additional permissions, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Consideraciones al copiar problemas
 
@@ -101,7 +105,7 @@ Los siguientes elementos se copian en el nuevo problema de forma predeterminada:
 
 * Contacto primario
 * Formularios personalizados. La información de los campos personalizados se copia en el nuevo problema solo cuando se selecciona Datos personalizados en el proceso de copia.
-* Rutas de aprobación
+* Aprobaciones
 * Fechas de inicio planificado y finalización planificada
 
 Los objetos siguientes no se copian en el nuevo problema de forma predeterminada:

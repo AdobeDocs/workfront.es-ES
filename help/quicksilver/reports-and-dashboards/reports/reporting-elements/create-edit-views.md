@@ -6,7 +6,9 @@ description: Puede personalizar el tipo de información que se muestra en la pan
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 8fcd6320-c939-4195-8972-5c31575f78cb
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '893'
 ht-degree: 61%
@@ -168,7 +170,8 @@ Están preconfigurados, pero puede modificar algunos de sus ajustes.
 
 Para obtener más información acerca de las vistas de Agile o Tablero, vea el artículo [Administrar un proyecto Agile en la vista Tablero](../../../manage-work/projects/manage-projects/manage-projects-in-agile-view.md).
 
-<!-- Legacy Agile views were deprecated with 25.3. This is old: 
+<!--
+ Legacy Agile views were deprecated with 25.3. This is old: 
 
 >[!NOTE]
 >

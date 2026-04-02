@@ -6,10 +6,12 @@ description: Navegación dentro de un portafolio
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 6c1795ab-422f-419c-b5e9-1f1323800b39
-source-git-commit: 6948f9462c59bad9e6db67d6169e5f9dec4157fe
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '583'
-ht-degree: 74%
+ht-degree: 76%
 
 ---
 
@@ -23,7 +25,7 @@ ht-degree: 74%
 
 En [!DNL Adobe Workfront], un portafolio es una colección de proyectos que se completan para los mismos recursos, presupuesto, programación y prioridad. El objetivo principal del portafolio es ayudar a los ejecutivos y gestores de proyectos en su selección para trabajar en los proyectos que proporcionen el mayor beneficio a una organización.
 
-Para obtener más información sobre los portafolios, consulte [Comprender la metodología de portafolios](../../../manage-work/portfolios/portfolios-overview/portfolio-overview.md).
+Para obtener más información sobre portafolios, consulte [Comprender la metodología del portafolio](../../../manage-work/portfolios/portfolios-overview/portfolio-overview.md).
 
 ## Requisitos de acceso
 
@@ -58,7 +60,8 @@ Para obtener más información sobre los portafolios, consulte [Comprender la me
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -84,7 +87,8 @@ Para obtener más información sobre los portafolios, consulte [Comprender la me
  </tbody> 
 </table>
 
-*For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).-->
+*For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+-->
 
 ## Navegación dentro de un portafolio
 

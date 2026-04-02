@@ -6,7 +6,9 @@ description: Como administrador de recursos, puede asignar trabajo a los usuario
 author: Lisa
 feature: Resource Management
 exl-id: 9649e482-af24-4516-9a69-ef12b2f1d579
-source-git-commit: 987b6e9b5f6b1feb323906cf7c24f5024fc84663
+last-update: 2026-04-01T18:23:03Z
+git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '2864'
 ht-degree: 92%
@@ -28,7 +30,7 @@ Como administrador de recursos, puede asignar trabajo a los usuarios y administr
  <col> 
  <tbody> 
   <tr> 
-   <td>paquete de Adobe Workfront</td> 
+   <td>Paquete de Adobe Workfront</td> 
    <td><p>Cualquiera</p></td>
   </tr>
   <tr> 
@@ -74,7 +76,8 @@ Las horas planificadas de la tarea se distribuyen equitativamente entre todos lo
 
 >[!CAUTION]
 >
->El Distribuidor de cargas de trabajo solo muestra <!--up to 1000 Planned Hours per work item per user, and--> hasta 1000 días de la duración de un elemento. Las asignaciones del Distribuidor de cargas de trabajo se muestran como cero después de alcanzar el límite de 1000 días. Se recomienda dividir las tareas en subtareas más pequeñas <!--to accommodate a larger number of Planned Hours or--> para duraciones de más de 1000 días.
+>El Distribuidor de cargas de trabajo solo muestra <!--up to 1000 Planned Hours per work item per user, and--> hasta 1000 días de la duración de un elemento. Las asignaciones del Distribuidor de cargas de trabajo se muestran como cero después de alcanzar el límite de 1000 días. Se recomienda dividir las tareas en subtareas más pequeñas para duraciones de más de 1000 días.
+<!--to accommodate a larger number of Planned Hours or-->
 
 Tenga en cuenta lo siguiente a la hora de localizar asignaciones diarias, semanales o mensuales para tareas o problemas en el equilibrador de carga de trabajo:
 
@@ -106,13 +109,13 @@ Tenga en cuenta lo siguiente a la hora de localizar asignaciones diarias, semana
 
 * Dos usuarios en zonas horarias o programaciones diferentes a las de los usuarios asignados pueden hacer que las cantidades asignadas aparezcan de forma diferente para dos usuarios que vean los mismos elementos de trabajo.
 
-* Cuando un usuario tiene días libres programados, el día o la parte del día se muestra en un fondo gris y un icono de avión indica los días libres. Si el administrador de Workfront habilitó la configuración de días libres del usuario en el área de Configuración para tener en cuenta los días libres del usuario, las horas asignadas pasan al siguiente día disponible en la línea de tiempo. Si la configuración está deshabilitada, las horas asignadas permanecen en el día marcado como días libres y el usuario se muestra como sobreasignado. Para obtener más información, consulte [Configurar las preferencias de proyecto de todo el sistema](../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+* Cuando un usuario tiene días libres programados, el día o la parte del día se muestra en un fondo gris y un icono de avión indica los días libres. Si el administrador de Workfront habilitó la configuración de días libres del usuario en el área de Configuración para tener en cuenta los días libres del usuario, las horas asignadas pasan al siguiente día disponible en la cronología. Si la configuración está deshabilitada, las horas asignadas permanecen en el día marcado como días libres y el usuario se muestra como sobreasignado. Para obtener más información, consulte [Configurar las preferencias de proyecto de todo el sistema](../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
   >[!TIP]
   >
-  >Si los días libres se marcaron después de que el usuario se asignara a un elemento de trabajo, debe recalcular la línea de tiempo del proyecto para mostrar la asignación desplazada. Para obtener más información, consulte [Recalcular líneas de tiempo de proyecto](../../manage-work/projects/manage-projects/recalculate-project-timeline.md).
+  >Si los días libres se marcaron después de que el usuario se asignara a un elemento de trabajo, debe recalcular la cronología del proyecto para mostrar la asignación desplazada. Para obtener más información, consulte [Recalcular cronologías de proyecto](../../manage-work/projects/manage-projects/recalculate-project-timeline.md).
 
-   * Cuando se asignan varios usuarios a una tarea y el usuario principal asignado tiene días libres programados, la línea de tiempo se desplaza (si las fechas no son fijas) y las horas planificadas de todos los usuarios asignados se redistribuyen a lo largo de la nueva duración de la tarea. Si la tarea tiene fechas fijas, la línea de tiempo no cambia debido a las horas libres y las horas se reasignan entre los días restantes.
+   * Cuando se asignan varios usuarios a una tarea y el usuario principal asignado tiene días libres programados, la cronología se desplaza (si las fechas no son fijas) y las horas planificadas de todos los usuarios asignados se redistribuyen a lo largo de la nueva duración de la tarea. Si la tarea tiene fechas fijas, la cronología no cambia debido a las horas libres y las horas se reasignan entre los días restantes.
    * Si las asignaciones se realizan manualmente, las horas planificadas no se reasignan después de las horas libres.
 
 * Si hay varios usuarios asignados a la tarea, la cantidad de horas planificadas se distribuye equitativamente a cada usuario, en primer lugar, y luego equitativamente a cada día dentro de la duración de la tarea. Esta distribución se convierte en la asignación de cada usuario a la tarea.
@@ -194,7 +197,7 @@ Como parte de la asignación de trabajo a los usuarios, puede modificar las asig
 1. (Opcional) Haga clic en el icono **Configuración** ![Icono de configuración](assets/gear-icon-settings.png) y seleccione cualquiera de las siguientes opciones:
 
    1. **Incluir las horas de los problemas** Esto le permite administrar las asignaciones de problemas, además de las asignaciones de tareas.
-   1. **Mostrar trabajo completado** Esto muestra los elementos que se han completado y que están programados durante la línea de tiempo para la que administra las asignaciones.
+   1. **Mostrar trabajo completado** Esto muestra los elementos que se han completado y que están programados durante la cronología para la que administra las asignaciones.
    1. **Mostrar tiempo restante**. El número total de horas de cada usuario (en la línea de usuario). Con esta configuración habilitada, el equilibrador de carga de trabajo muestra las horas que cada usuario tiene disponibles para trabajar en lugar del número de horas que se le asignan.
 
       >[!TIP]

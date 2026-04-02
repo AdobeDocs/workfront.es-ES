@@ -1,12 +1,14 @@
 ---
 product-area: agile-and-teams;projects
 navigation-topic: use-kanban-in-an-agile-team
-title: Editar información de artículo
+title: Editar información de la historia
 description: Al ver el mosaico de una historia en el tablero Kanban, determinada información está disponible para editar en línea, directamente desde el mosaico de la historia.
 author: Courtney
 feature: Agile
 exl-id: a22a7b61-b331-4c98-9421-e7fccedcd096
-source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '396'
 ht-degree: 83%
@@ -62,7 +64,7 @@ Al ver el mosaico de una historia en el tablero [!UICONTROL Kanban], está dispo
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td> <p>Cualquier campo adicional (incluidos los campos personalizados) que se pueda haber agregado a la vista ágil modificando la vista ágil, como se describe en "Creación y personalización de una vista ágil" en <a href="../../reports-and-dashboards/reports/reporting-elements/views-overview.md" class="MCXref xref">Introducción a las vistas en [!DNL Adobe Workfront]</a></p> </td> 
+   <td> <p>Cualquier campo adicional (incluidos los campos personalizados) que se pueda haber agregado a la vista de Agile modificando la vista de Agile, tal como se describe en "Creación y personalización de una vista de Agile" en <a href="../../reports-and-dashboards/reports/reporting-elements/views-overview.md" class="MCXref xref">Información general de vistas en [!DNL Adobe Workfront]</a></p> </td> 
    <td>✓</td> 
    <td>✓</td> 
   </tr> 
@@ -104,10 +106,10 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
 1. Vaya al tablero [!UICONTROL Kanban].
 1. Expanda el mosaico de la historia para ver todos los campos asociados al artículo.
 
-   ![Tarjeta de artículo](assets/story-expanded-on-kanban-board-2021-350x405.png)
+   ![Tarjeta de historia](assets/story-expanded-on-kanban-board-2021-350x405.png)
 
-1. (Opcional) Para editar un campo, haga clic en él y, a continuación, realice los cambios que desee.
-Debe tener derechos de [!UICONTROL Editar] para la tarea o problema para poder editar el icono de artículo.
+1. (Opcional) Para editar un campo, haga clic en el campo y realice los cambios necesarios.
+Debe tener [!UICONTROL Editar] derechos sobre la tarea o el problema para editar el mosaico de la historia.
 Para obtener más información sobre cada campo y si se puede editar, consulte [Comprender qué información se puede ver y editar](#understand-what-information-can-be-viewed-and-edited).
 
 >[!NOTE]

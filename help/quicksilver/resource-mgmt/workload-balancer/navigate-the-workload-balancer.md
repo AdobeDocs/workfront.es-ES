@@ -6,7 +6,9 @@ description: Utilice el Distribuidor de cargas de trabajo para comprender la dis
 author: Lisa
 feature: Resource Management
 exl-id: 60dabfc5-6a2e-4368-9dac-db48d0307895
-source-git-commit: e1580f7b9065fce7bb31ab0c7edb00fd2856e1df
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '4334'
 ht-degree: 8%
@@ -21,7 +23,7 @@ Utilice el Distribuidor de cargas de trabajo en Adobe Workfront para asignar tra
 
 El Distribuidor de cargas de trabajo está disponible en varias áreas de Adobe Workfront. La navegación es similar en todas las áreas.
 
-Para obtener más información sobre dónde se encuentra el Distribuidor de cargas de trabajo, consulte [Localizar el Distribuidor de cargas de trabajo](https://experienceleague.adobe.com/es/docs/workfront/using/manage-resources/the-workload-balancer/locate-workload-balancer).
+Para obtener más información sobre dónde se encuentra el Distribuidor de cargas de trabajo, consulte [Localizar el Distribuidor de cargas de trabajo](https://experienceleague.adobe.com/en/docs/workfront/using/manage-resources/the-workload-balancer/locate-workload-balancer).
 
 ## Requisitos de acceso
 
@@ -32,7 +34,7 @@ Para obtener más información sobre dónde se encuentra el Distribuidor de carg
  <col> 
  <tbody> 
   <tr> 
-   <td>paquete de Adobe Workfront</td> 
+   <td>Paquete de Adobe Workfront</td> 
    <td><p>Cualquiera</p></td>
   </tr>
   <tr> 
@@ -98,13 +100,13 @@ Para obtener más información sobre la visualización de información en el Dis
 
 * [Buscar el Distribuidor de cargas de trabajo](../workload-balancer/locate-workload-balancer.md)
 * [Filtrar información en el distribuidor de cargas de trabajo](../workload-balancer/filter-information-workload-balancer.md)
-* [Uso compartido del Distribuidor de cargas de trabajo con un vínculo](../workload-balancer/share-link-for-workload-balancer.md)
+* [Compartir el equilibrador de carga con un vínculo](../workload-balancer/share-link-for-workload-balancer.md)
 * [Actualizar elementos de trabajo en el Distribuidor de cargas de trabajo mediante el resumen](../workload-balancer/update-items-in-summary-panel-in-workload-balancer.md)
 
 Para obtener información sobre la administración de recursos mediante el Distribuidor de cargas de trabajo, consulte también los siguientes artículos:
 
-* [Información general sobre la asignación de trabajo en el Distribuidor de cargas de trabajo](https://experienceleague.adobe.com/es/docs/workfront/using/manage-resources/the-workload-balancer/assign-work-in-workload-balancer)
-* [Administrar asignaciones de usuario en el Distribuidor de cargas de trabajo](https://experienceleague.adobe.com/es/docs/workfront/using/manage-resources/the-workload-balancer/manage-user-allocations-workload-balancer)
+* [Información general sobre la asignación de trabajo en el Distribuidor de cargas de trabajo](https://experienceleague.adobe.com/en/docs/workfront/using/manage-resources/the-workload-balancer/assign-work-in-workload-balancer)
+* [Administrar asignaciones de usuario en el Distribuidor de cargas de trabajo](https://experienceleague.adobe.com/en/docs/workfront/using/manage-resources/the-workload-balancer/manage-user-allocations-workload-balancer)
 
 ## Vaya al Distribuidor de cargas de trabajo para varios proyectos en el área de Recursos
 
@@ -496,7 +498,8 @@ Puede acceder al Distribuidor de cargas de trabajo en su propio perfil de usuari
 1. Continúe navegando por el Distribuidor de cargas de trabajo de un usuario, tal como se describe en la sección [Navegar por el Distribuidor de cargas de trabajo para varios proyectos](#navigate-the-workload-balancer-for-multiple-projects-in-the-resourcing-area) de este artículo.
 
 
-<!--old content below - this used to be a one-large-procedure article - outdated, and rewrote it above with several smaller procedures: 
+<!--
+old content below - this used to be a one-large-procedure article - outdated, and rewrote it above with several smaller procedures: 
 
 # Navigate the Workload Balancer
 

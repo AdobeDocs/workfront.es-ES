@@ -6,7 +6,9 @@ description: Una vez que haya creado metas o las hayan creado otros usuarios, po
 author: Alina
 feature: Workfront Goals
 exl-id: 2a2c1240-f796-4cb8-b8a6-2ad5853916b9
-source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '755'
 ht-degree: 82%
@@ -74,7 +76,8 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
 
 +++
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto">
 <col>
 </col>
@@ -125,7 +128,8 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
 </td>
   </tr>
 </tbody>
-</table>-->
+</table>
+-->
 
 ## Administrar metas en la lista de metas
 
@@ -244,7 +248,8 @@ Para administrar metas en la lista de metas:
 
 1. Haga clic en el icono **Menú principal** ![Icono del menú principal](assets/main-menu-icon.png) en la esquina superior derecha y, a continuación, haga clic en **Metas**.
 
-   <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-review-and-workfront-goals-sections/assets/three-line-main-menu-icon.png) in the upper-left corner)
+   <!--
+    Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-review-and-workfront-goals-sections/assets/three-line-main-menu-icon.png) in the upper-left corner)
    -->
 
    La sección Lista de metas se muestra de forma predeterminada. De forma predeterminada, se pueden ver las metas independientemente de su estado, período o propietario.

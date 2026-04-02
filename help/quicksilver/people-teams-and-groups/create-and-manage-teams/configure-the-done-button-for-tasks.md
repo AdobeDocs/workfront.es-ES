@@ -1,12 +1,14 @@
 ---
 product-area: agile-and-teams;setup
 navigation-topic: create-and-manage-teams
-title: Configurar el botón Listo para tareas
+title: Configuración del botón Listo para tareas
 description: El botón Listo puede establecer automáticamente el estado de una tarea o un problema. De forma predeterminada, Adobe Workfront marca una tarea como Completada cuando un usuario asignado hace clic en Listo en su elemento de trabajo.
 author: Courtney
 feature: People Teams and Groups
 exl-id: 55cc5562-13d5-4089-8937-f33d0cde3cac
-source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '759'
 ht-degree: 92%
@@ -15,15 +17,15 @@ ht-degree: 92%
 
 # Configurar el botón [!UICONTROL Listo] para las tareas
 
-El botón [!UICONTROL Listo] puede establecer automáticamente el estado de una tarea o un problema. De forma predeterminada, [!UICONTROL Adobe Workfront] marca una tarea como [!UICONTROL Completada] cuando un asignado hace clic en Marcar como hecho en el elemento de trabajo.
+El botón [!UICONTROL Listo] puede establecer automáticamente el estado de una tarea o un problema. De manera predeterminada, [!UICONTROL Adobe Workfront] marca una tarea como [!UICONTROL Completada] cuando un usuario asignado hace clic en Marcar como hecho en su elemento de trabajo.
 
 >[!NOTE]
 >
->El botón Listo se muestra como Marcar en todas las áreas de Workfront.
+>El botón Listo aparece como Marcar como listo en todas las áreas de Workfront.
 
 ## Información general
 
-Los usuarios con ciertos permisos pueden configurar el botón [!UICONTROL Listo] para asociarlo con ciertos estados en el sistema. Hay dos maneras diferentes en que el botón [!UICONTROL Listo] funciona para las tareas de [!UICONTROL Workfront]:
+Los usuarios con ciertos permisos pueden configurar el botón [!UICONTROL Listo] para asociarlo con ciertos estados del sistema. Hay dos maneras diferentes en que el botón [!UICONTROL Listo] funciona para las tareas de [!UICONTROL Workfront]:
 
 * Si el usuario tiene un equipo de inicio asignado, un administrador de [!DNL Workfront] o un usuario con una licencia de [!UICONTROL Plan] puede configurar el botón [!UICONTROL Listo] para reflejar ciertos estados para los integrantes del equipo. Consulte [Configurar el botón [!UICONTROL Listo] para un equipo](#configure-the-uicontrol-done-button-for-a-team) en este artículo.
 * Si el usuario no tiene un [!UICONTROL Equipo de inicio], pero tiene [!UICONTROL Otros equipos] en su perfil, Workfront busca la configuración del botón [!UICONTROL Listo] en cualquiera de los equipos asociados con el usuario. La selección es aleatoria y se utiliza el estado asociado con cualquiera de los equipos para la tarea.

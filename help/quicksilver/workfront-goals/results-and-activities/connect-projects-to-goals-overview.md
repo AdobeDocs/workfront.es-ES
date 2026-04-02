@@ -8,7 +8,9 @@ description: Puede conectar proyectos a metas para indicar cómo progresa la met
 author: Alina
 feature: Workfront Goals
 exl-id: 683c9cd9-6c7b-4d50-b326-b4000c9863e8
-source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '878'
 ht-degree: 20%
@@ -81,7 +83,8 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
 
 +++
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto">
 <col>
 </col>
@@ -135,7 +138,8 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
 </td>
   </tr>
 </tbody>
-</table>-->
+</table>
+-->
 
 ## Consideraciones sobre la conexión de proyectos a objetivos
 
@@ -154,7 +158,8 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
 * No se puede actualizar manualmente el progreso de un proyecto desde el objetivo al que está adjunto. En su lugar, Workfront calcula el porcentaje completado del proyecto y Workfront Goals calcula el progreso de la meta usando este porcentaje completado. Esto actualiza el objetivo en tiempo real después de actualizar el porcentaje del proyecto.
 * La duración del proyecto puede estar fuera del período de tiempo de un objetivo. Si un proyecto dura más que la fecha límite de la meta, aún puede cerrar la meta y considerar que se ha completado, pero el porcentaje de objetivo completado no será del 100%. El porcentaje completado del proyecto ya no se actualiza en la meta.
 
-<!--this is no longer visible in the new redesigned interface for goals: logged a bug for this: https://experience.adobe.com/#/@adobeinternalworkfront/so:hub-Hub/workfront/issue/63ceb049000080d30022aab9a359f6f1/updates - but confirmed that this will not be brought back at least for now - Jan 2023. 
+<!--
+this is no longer visible in the new redesigned interface for goals: logged a bug for this: https://experience.adobe.com/#/@adobeinternalworkfront/so:hub-Hub/workfront/issue/63ceb049000080d30022aab9a359f6f1/updates - but confirmed that this will not be brought back at least for now - Jan 2023. 
 
 There is an indication on the goal list that the project no longer updates progress for the goal.
 

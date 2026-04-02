@@ -6,7 +6,9 @@ description: Puede editar los filtros de informe después de aplicarlos a un pan
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 5205c342-7f63-438e-97c8-e74f7dfecfd0
-source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1052'
 ht-degree: 46%
@@ -18,10 +20,10 @@ ht-degree: 46%
 >[!IMPORTANT]
 >
 >Actualmente, la función Paneles de lienzo solo está disponible para los usuarios que participan en la fase beta. Es posible que algunas partes de la función no estén completas o que no funcionen según lo previsto durante esta fase. Envíe cualquier comentario sobre su experiencia siguiendo las instrucciones de la sección [Proporcionar comentarios](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) del artículo Información general sobre la versión beta de los paneles de lienzo.<br>
->Si tiene comentarios sobre un posible fallo o problema técnico, envíe un billete al soporte técnico de Workfront. Para obtener más información, vea [Contactar con el servicio de asistencia al cliente](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>
->Tenga en cuenta que esta beta no está disponible en los siguientes proveedores de servicios cloud:
+>Si tiene comentarios acerca de un posible error o problema técnico, envíe un ticket al equipo de asistencia de Workfront. Para obtener más información, consulte [Póngase en contacto con Atención al cliente](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>
+>Tenga en cuenta que esta versión beta no está disponible en los siguientes proveedores de la nube:
 >
->* Traer su propia clave para los servicios web de Amazon
+>* Traer su propia clave para Amazon Web Service
 >* Azure
 >* Google Cloud Platform
 
@@ -58,7 +60,7 @@ Puede editar los filtros de informe una vez que los haya aplicado a un panel de 
   </tr>  
         <tr> 
    <td role="rowheader"><p>Permisos de objeto</p></td> 
-   <td><p>Administrar permisos para el panel</p>
+   <td><p>Administración de permisos para el tablero</p>
   </td> 
   </tr>
 </tbody> 
@@ -75,18 +77,18 @@ Debe agregar un filtro a un informe para poder editarlo.
 
 >[!NOTE]
 >
->Hay muchas herramientas de configuración disponibles para generar y editar un filtro de informe. Para obtener más información sobre estas herramientas, vea la sección siguiente en este artículo: [Consideraciones al editar un filtro de informe](#considerations-when-editing-a-report-filter).
+>Hay muchas herramientas de configuración disponibles para crear y editar un filtro de informe. Para obtener más información sobre estas herramientas, consulte la siguiente sección en este artículo: [Consideraciones al editar un filtro de informe](#considerations-when-editing-a-report-filter).
 
 
 {{step1-to-dashboards}}
 
 1. En el panel izquierdo, haga clic en **Paneles de control de lienzo**.
 
-1. En la página **Canvas Dashboards**, haga clic en el icono **Más** ![Más icono](assets/more-icon.png) en la esquina superior derecha del informe que contiene el filtro que desea editar y, a continuación, seleccione **Editar**.
+1. En la página **Paneles de lienzo**, haga clic en el icono **Más** ![Más](assets/more-icon.png) en la esquina superior derecha del informe que contiene el filtro que desea editar y, a continuación, seleccione **Editar**.
 
    ![Editar un informe](assets/edit-report-box.png)
 
-1. En el lado izquierdo del cuadro de diálogo **Configurar**, seleccione el panel **Filtros**.
+1. En la parte izquierda del cuadro de diálogo **Configurar**, seleccione el panel **Filtros**.
 
 1. Haga clic en **Editar filtro**.
 
@@ -94,7 +96,7 @@ Debe agregar un filtro a un informe para poder editarlo.
 
    ![Agregar condición](assets/add-condition.png)
 
-1. (Opcional) Haga clic en **Agregar grupo de filtros** para agregar otro conjunto de criterios de filtrado. El operador predeterminado entre los conjuntos es AND. Haga clic en el operador para cambiarlo a OR.
+1. (Opcional) Haga clic en **Agregar grupo de filtros** para agregar otro conjunto de criterios de filtrado. El operador predeterminado entre los conjuntos es Y. Haga clic en el operador para cambiarlo a OR.
 
 1. Haga clic en **Guardar**.
 
@@ -160,7 +162,7 @@ Por ejemplo, el comodín `$$TODAYb+2w` hace referencia a “2 semanas a partir d
 
   ![Atributo de nombre de usuario](assets/user-name-attribute.png)
 
-* Al filtrar en un atributo de grupo `name`, verá las opciones **Mi grupo principal (grupo de usuarios que inició sesión)** y **Mis otros grupos (iniciados en grupos de usuarios)** para usar en una condición de filtro.
+* Al filtrar un atributo del grupo `name`, verá las opciones **Mi grupo de inicio (Grupo de usuarios con sesión iniciada)** y **Mis otros grupos (Grupos de usuarios con sesión iniciada)** que se utilizarán en una condición de filtro.
 
   ![Atributo de nombre de grupo](assets/group-name-attribute.png)
 
@@ -171,13 +173,13 @@ Por ejemplo, el comodín `$$TODAYb+2w` hace referencia a “2 semanas a partir d
 
 ### Referencia a objetos secundarios
 
-Las relaciones disponibles para columnas adicionales, opciones de filtrado y atributos de agrupación se limitan generalmente a objetos superiores en la jerarquía de objetos Workfront o tienen una única selección en el objeto de entidad base del informe. Hay algunas excepciones a esto, que incluyen lo siguiente:
+Las relaciones disponibles para columnas adicionales, opciones de filtro y atributos de agrupación generalmente se limitan a objetos superiores en la jerarquía de objetos de Workfront o tienen una sola selección en el objeto de entidad base del informe. Hay algunas excepciones a este respecto, que incluyen las siguientes:
 
 * Proyecto > Tareas
-* Aprobación de documentos > Fases de aprobación de documentos
-* Fases de aprobación de documentos > Participantes en la fase de aprobación de documentos
+* Aprobación de documento > Fases de aprobación de documento
+* Fases de aprobación de documento > Participantes en la fase de aprobación de documento
 
-Al utilizar cualquiera de las relaciones de padre a hijo enumeradas anteriormente, verá una fila en la tabla para cada registro secundario conectado al objeto primario.
+Al utilizar cualquiera de las relaciones principal-secundario enumeradas anteriormente, verá una fila en la tabla para cada registro secundario conectado al objeto principal.
 
 ### Operadores de campo por tipo de campo
 
@@ -201,11 +203,11 @@ Al utilizar cualquiera de las relaciones de padre a hijo enumeradas anteriorment
             <li>Es nulo</li>
               <li>No es nulo</li>
         </ul></td>
-        <td>Usuario: Nombre
+        <td>Usuario: nombre
         <ul>
         <li>Yo (usuario con sesión iniciada)</li>
         </ul>
-        Grupo: Nombre
+        Grupo: nombre
         <ul>
           <li>Mi grupo de inicio (grupo de usuarios con sesión iniciada)</li>
             <li>Mis otros grupos (grupos de usuarios con sesión iniciada)</li>
@@ -231,7 +233,7 @@ Al utilizar cualquiera de las relaciones de padre a hijo enumeradas anteriorment
         <td></td>
     </tr>
     <tr>
-        <td>Entero / Doble</td>
+        <td>Entero/Doble</td>
              <td>Proyecto: Horas planificadas
         <br>Tarea: Porcentaje completado</td>
               <td><ul>
@@ -248,7 +250,7 @@ Al utilizar cualquiera de las relaciones de padre a hijo enumeradas anteriorment
     </tr>
        <tr>
         <td> Fecha / Fecha y hora </td>
-                    <td>Proyecto: Fecha de inicio planificada
+                    <td>Proyecto: Fecha planificada de inicio
         <br>Hora: Fecha de entrada</td>
               <td><ul>
         <li>Igual (no distingue mayúsculas y minúsculas)</li>

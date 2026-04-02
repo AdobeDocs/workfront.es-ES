@@ -8,7 +8,9 @@ author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: 2ebc3be5-2734-4012-9277-86176c070137
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '808'
 ht-degree: 98%
@@ -236,7 +238,7 @@ Un proyecto que administra se ha retrasado
 
 Esto genera un correo electrónico similar al siguiente:
 
-![El proyecto se retrasó en el correo electrónico](assets/project-became-late-email.png)
+![El proyecto se retrasó al recibir correo electrónico](assets/project-became-late-email.png)
 
 #### Recordatorio de tarea o problema a punto de iniciarse {#task-or-issue-about-to-start-reminder-example}
 

@@ -2,12 +2,14 @@
 filename: boards-emails
 content-type: reference
 navigation-topic: boards
-title: Notificaciones y preferencias de correo electrónico de las placas
+title: Preferencias y notificaciones por correo electrónico de tableros
 description: Tableros de Adobe Workfront le envía un correo electrónico cuando se le ha añadido a un tablero y cuando se le ha asignado una tarjeta.
 author: Courtney
 feature: Agile
 exl-id: 7ec9f9cc-274c-4253-8441-d7ffe9afd78d
-source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '207'
 ht-degree: 97%

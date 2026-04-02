@@ -6,10 +6,12 @@ description: Las actualizaciones son de un objeto que incluye un botón que util
 author: Becky
 feature: Get Started with Workfront
 exl-id: d0c26f90-a01b-4226-b6a0-647808f71e08
-source-git-commit: cf3d5daa739fa6ab413ee82a9f465441ef61ae6d
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '388'
-ht-degree: 13%
+ht-degree: 16%
 
 ---
 
@@ -34,7 +36,7 @@ Puede utilizar el botón Resumir contenido para generar un resumen o introducir 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td role="rowheader">Paquete de Adobe Workfront</td> 
    <td><p>Cualquier paquete de flujo de trabajo</p>
       </td>
   </tr> 
@@ -57,7 +59,8 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
 
 +++
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto"> 
  <col> 
  <col> 
@@ -75,7 +78,8 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
        <p>Current: Not available</p></td>
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Requisitos previos
 

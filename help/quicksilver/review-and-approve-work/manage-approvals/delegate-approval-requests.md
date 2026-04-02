@@ -6,7 +6,9 @@ description: La delegación de solicitudes de aprobación le permite asignar a o
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 01b76dd5-98cb-4f0d-97ff-7e665f843a9c
-source-git-commit: 14360a82b0de65587a9413b58d9c69abb55fa29d
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1193'
 ht-degree: 76%
@@ -44,7 +46,7 @@ No puede delegar aprobaciones de hojas de horas, documentos o pruebas.
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><p>paquete de Adobe Workfront</p></td> 
+   <td role="rowheader"><p>Paquete de Adobe Workfront</p></td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
@@ -154,7 +156,8 @@ Para delegar aprobaciones a otro usuario:
 <!--
    Or
 
-   If your system or group administrator enabled task and issue delegation, click **Edit delegation**, then click **Delegate approvals**.   -->
+   If your system or group administrator enabled task and issue delegation, click **Edit delegation**, then click **Delegate approvals**.
+   -->
 
 1. (Condicional) Realice una de las acciones siguientes:
 

@@ -5,10 +5,12 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: bd73b7df-ad4e-43dc-8ddf-23e0da24ec0f
-source-git-commit: 94e81f50ca38ab8139684887c58e0f00353587d7
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '386'
-ht-degree: 10%
+ht-degree: 17%
 
 ---
 
@@ -22,9 +24,9 @@ Para obtener una lista de todos los cambios disponibles en este punto del ciclo 
 
 >[!NOTE]
 >
->Vista previa: 2 de octubre de 2025
->&#x200B;>Versión rápida de producción: 15 de octubre de 2025
->&#x200B;>Producción para todos: 16 de octubre de 2025
+>Vista previa: viernes, 02 de octubre de 2025
+>Versión rápida de producción: jueves, 15 de octubre de 2025
+>Producción para todos: viernes, 16 de octubre de 2025
 
 Para facilitar la visualización de la información que necesita, hemos añadido la capacidad de crear y guardar vistas en el área de Solicitudes. Ahora puede guardar una vista, incluidos los filtros y las configuraciones de columna, y cambiar entre vistas. Un administrador de Workfront puede agregar la nueva vista a las plantillas de diseño.
 
@@ -32,7 +34,8 @@ Anteriormente, no se podían guardar los filtros y las configuraciones de column
 
 Para obtener información e instrucciones, consulte [Crear vistas en el área de solicitudes](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md).
 
-<!--## New combined Status column in unified Request list 
+<!--
+## New combined Status column in unified Request list 
 
 >[!NOTE]
 >
@@ -45,14 +48,15 @@ To simplify the unified request experience, the Status column now displays both 
 For more information on creating requests see:
 
 * For Workfront: [Create and submit requests](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md)
-* For Workfront Planning: [Submit Adobe Workfront Planning requests to create records](/help/quicksilver/planning/requests/submit-requests.md)-->
+* For Workfront Planning: [Submit Adobe Workfront Planning requests to create records](/help/quicksilver/planning/requests/submit-requests.md)
+-->
 
 ## Actualizaciones en Solicitar experiencia
 
 >[!NOTE]
 >
 >* Vista previa: 21 de agosto de 2025
->* Versión rápida de producción: 11 de septiembre de 2025
+>* Versión rápida de producción: viernes, 11 de septiembre de 2025
 >* Producción para todos los clientes: viernes, 16 de octubre de 2025
 
 Para crear una mejor experiencia de usuario al realizar solicitudes en Workfront y Workfront Planning, hemos actualizado la experiencia de solicitud.

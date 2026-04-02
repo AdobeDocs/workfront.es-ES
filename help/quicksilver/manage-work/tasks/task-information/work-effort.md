@@ -7,10 +7,12 @@ description: Información general de esfuerzo laboral
 author: Alina
 feature: Work Management
 exl-id: 70f51e4b-43cc-427a-99e4-ebb056bb1070
-source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1488'
-ht-degree: 97%
+ht-degree: 96%
 
 ---
 
@@ -38,11 +40,13 @@ Como administrador del proyecto, puede decidir cómo desea calcular la cantidad 
   </tr> 
   <tr> 
    <td role="rowheader">Esfuerzo de trabajo </td> 
-   <td> <p>Una etiqueta manual que define si el esfuerzo diario por parte del usuario será menor, moderado o grande para completar una tarea. <!--
+   <td> <p>Etiqueta manual que define si se necesita un esfuerzo diario pequeño, mediano o grande para completar una tarea.
+   <!--
       <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
        The level of effort is estimated to be a percentage of the daily amount of working time. (NOTE: keep this drafted. Vazgen said it's not needed, but waiting for feedback from users)
       </MadCap:conditionalText>
-     --> </p> <p>Tenga en cuenta lo siguiente sobre el esfuerzo laboral:</p> 
+     -->
+     </p> <p>Tenga en cuenta lo siguiente sobre el esfuerzo laboral:</p>
     <ul> 
      <li>Este campo solo está disponible para tareas con un tipo de duración simple. </li> 
      <li>Puede habilitar el uso de esta etiqueta y definir el porcentaje de tiempo de trabajo asociado a ella en el nivel de proyecto. </li> 
@@ -90,7 +94,8 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -116,7 +121,8 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
    <td> <p>Manage permissions to a project and its tasks</p>  </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Consideraciones sobre el uso de esfuerzo laboral
 

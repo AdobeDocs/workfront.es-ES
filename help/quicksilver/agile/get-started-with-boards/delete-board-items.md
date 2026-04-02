@@ -6,7 +6,9 @@ description: Al eliminar una tarjeta de un tablero, se elimina de forma permanen
 author: Courtney
 feature: Agile
 exl-id: 68b7d2e5-92f0-462d-8122-eaecb1e6b87c
-source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '516'
 ht-degree: 96%
@@ -23,7 +25,7 @@ Cuando elimine una tarjeta conectada de cualquier otro tipo de tablero que tenga
 
 Al archivar una tarjeta se envía al archivo y puede restaurarla en el tablero posteriormente.
 
-Las tarjetas archivadas no se sincronizan con tareas y problemas de Workfront. Si restaura una tarjeta, se volverá a sincronizar.
+Las tarjetas archivadas no se sincronizan con las tareas y problemas de Workfront. Si restaura una tarjeta, se volverá a sincronizar.
 
 ## Requisitos de acceso
 
@@ -56,13 +58,13 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
 {{step1-to-boards}}
 
 1. Acceda a un tablero. Para obtener más información, consulte [Crear o editar un tablero](../../agile/get-started-with-boards/create-edit-board.md).
-1. Haga clic en el menú **[!UICONTROL Más]** ![Más &#x200B;](assets/more-icon-spectrum.png) de la tarjeta y seleccione **[!UICONTROL Eliminar]**.
+1. Haga clic en el menú **[!UICONTROL Más]** ![Más ](assets/more-icon-spectrum.png) de la tarjeta y seleccione **[!UICONTROL Eliminar]**.
 1. Haga clic en **[!UICONTROL Eliminar]** en el mensaje de confirmación.
 
 ## Archivar una tarjeta de un tablero
 
 1. Acceda al tablero.
-1. Haga clic en el menú **[!UICONTROL Más]** ![Más &#x200B;](assets/more-icon-spectrum.png) de la tarjeta y seleccione **[!UICONTROL Archivar]**.
+1. Haga clic en el menú **[!UICONTROL Más]** ![Más ](assets/more-icon-spectrum.png) de la tarjeta y seleccione **[!UICONTROL Archivar]**.
 
    Las tarjetas archivadas se ocultan del tablero a menos que aplique un filtro para mostrarlas. Para obtener más información, consulte [Filtrar un tablero para mostrar tarjetas archivadas](#filter-a-board-to-show-archived-cards) en este artículo.
 

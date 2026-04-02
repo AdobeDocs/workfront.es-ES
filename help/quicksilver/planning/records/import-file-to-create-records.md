@@ -6,7 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 940945df-391c-4672-9d9d-180d5028509b
-source-git-commit: c91622e8155c62ecf7c17eaeb60b2bd4f69aaedf
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '887'
 ht-degree: 7%
@@ -65,7 +67,8 @@ Para obtener más información acerca de los requisitos de acceso de Workfront, 
 +++  
 
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto"> 
 <col> 
 </col> 
@@ -123,7 +126,8 @@ Para obtener más información acerca de los requisitos de acceso de Workfront, 
    </td> 
   </tr> 
 </tbody> 
-</table> -->
+</table>
+-->
 
 
 ## Consideraciones acerca de la importación de registros mediante un archivo CSV o de Excel

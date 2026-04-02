@@ -1,20 +1,22 @@
 ---
 product-area: templates
 navigation-topic: templates-navigation-topic
-title: Crear plantilla a partir de proyecto
+title: Crear una plantilla desde el proyecto
 description: Puede crear plantillas al guardar un proyecto existente como plantilla.
 author: Alina
 feature: Work Management, Projects
 role: User
 exl-id: 923deab4-205b-4312-9ec4-4471fd6cea26
-source-git-commit: 76379d5433cc13ee412c8c1045316ef253b3ee7d
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '470'
-ht-degree: 39%
+ht-degree: 42%
 
 ---
 
-# Crear plantilla a partir de proyecto
+# Crear una plantilla desde el proyecto
 
 <!--Audited: 10/2025-->
 
@@ -41,7 +43,7 @@ Después de guardar un proyecto existente como plantilla, puede utilizar la nuev
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td role="rowheader">Paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
@@ -64,7 +66,8 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
 
 +++
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto"> 
  <col> 
  <col> 
@@ -86,9 +89,10 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
    <td> <p>View or higher permissions to a project </p> <p>You obtain Manage permissions to the template after you create it</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
-## Crear plantilla a partir de proyecto
+## Crear una plantilla desde el proyecto
 
 1. Vaya al proyecto que desee guardar como plantilla.
 1. Haga clic en el menú **Más** ![Icono de más](assets/more-icon.png) y luego en **Guardar como plantilla**.

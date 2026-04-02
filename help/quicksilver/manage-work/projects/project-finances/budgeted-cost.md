@@ -7,7 +7,9 @@ description: Cálculo del Progreso del Proyecto de Seguimiento de Costes Presupu
 author: Lisa
 feature: Work Management
 exl-id: e96fe38f-58c2-4938-9d2d-81d1109123fa
-source-git-commit: 13621c29f32a514af46489fb58397f3e96f640ce
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '394'
 ht-degree: 97%
@@ -75,9 +77,11 @@ El coste presupuestado tal como se refleja en el área de presupuesto de recurso
     </tr> 
     <tr> 
      <td>Costo presupuestado de proyecto</td> 
-     <td> <!--
+     <td>
+     <!--
        <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Resource Estimates report (NOTE: this was removed with flash)</p>
-      --> <p>Informe de proyecto</p> <p>Informe de proyecto (datos financieros)</p> <p>Informe de tarea</p> <p>Informe de problema</p> <p>Informe de horas presupuestadas</p> <p>Para obtener más información acerca de cómo crear un informe, consulte el artículo <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md" class="MCXref xref">Creación de un informe personalizado</a>.</p> </td> 
+      -->
+      <p>Informe de proyecto</p> <p>Informe de proyecto (datos financieros)</p> <p>Informe de tarea</p> <p>Informe de problema</p> <p>Informe de horas presupuestadas</p> <p>Para obtener más información acerca de cómo crear un informe, consulte el artículo <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md" class="MCXref xref">Creación de un informe personalizado</a>.</p> </td>
     </tr> 
    </tbody> 
   </table>

@@ -1,12 +1,14 @@
 ---
 product-area: agile-and-teams
 navigation-topic: get-started-with-boards
-title: Crear o editar un panel
+title: Crear o editar un tablero
 description: En el panel de control [!UICONTROL tableros], puede crear un nuevo tablero o editar uno existente.
 author: Courtney
 feature: Agile
 exl-id: 5f755177-c8ea-4509-a34f-57ffcfd8ba7f
-source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '845'
 ht-degree: 92%
@@ -72,7 +74,7 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
 
       >[!NOTE]
       >
-      >El límite de tarjetas de los tableros dinámicos es de 700 tareas y 700 problemas, lo que hace un total de 1400 tarjetas. Un alto número de tarjetas en la placa puede afectar el rendimiento de la placa. Todas las tarjetas archivadas, tanto ocultas como visibles, cuentan hacia este límite.
+      >El límite de tarjetas de los tableros dinámicos es de 700 tareas y 700 problemas, lo que hace un total de 1400 tarjetas. Un alto número de tarjetas en el tablero puede afectar el rendimiento del tablero. Todas las tarjetas archivadas, tanto ocultas como visibles, se contabilizan en este límite.
 
    1. (Opcional) Seleccione [!UICONTROL **No archivar las tarjetas completadas**] para llevar las tareas y los problemas completados al tablero como tarjetas visibles en la columna Completada. Cuando esta opción no está seleccionada, las tarjetas completadas en el momento de la creación del tablero se incorporan al tablero como tarjetas archivadas.
 
@@ -106,7 +108,7 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
 1. En el panel de control, seleccione el tablero que desea abrir.
 1. Edite el tablero según sea necesario. Puede hacer clic en el nombre del tablero para cambiarle el nombre.
 
-   Para sincronizar las tarjetas conectadas con Workfront y llevar nuevas tareas y problemas a la placa o columna de admisión, haga clic en el menú **[!UICONTROL Más]**![[!UICONTROL Más menú]](assets/more-icon-spectrum.png) junto al nombre de la placa y seleccione **[!UICONTROL Sincronizar elementos conectados]**.
+   Para sincronizar tarjetas conectadas con Workfront e incluir nuevas tareas y problemas en la columna de entrada o tablero, haz clic en el menú **[!UICONTROL Más]** ![[!UICONTROL Menú Más]](assets/more-icon-spectrum.png) que está junto al nombre del tablero y selecciona **[!UICONTROL Sincronizar elementos conectados]**.
 
    Para obtener más información, consulte [Añadir o quitar miembros de un tablero](../../agile/get-started-with-boards/add-members-to-board.md), [Administrar columnas del tablero](../../agile/get-started-with-boards/manage-board-columns.md) y [Añadir una tarjeta a un tablero](../../agile/get-started-with-boards/add-card-to-board.md).
 

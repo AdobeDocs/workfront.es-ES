@@ -6,7 +6,9 @@ description: Puede generalizar un informe utilizando comodines en lugar de infor
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 216e2869-b4f8-4cc7-9497-a12ebe00fe49
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '448'
 ht-degree: 97%
@@ -46,7 +48,7 @@ Puede utilizar comodines basados en usuarios al crear los siguientes elementos d
   </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso</td> 
-   <td> <p>Acceso de edición a filtros, vistas y agrupaciones</p> <p>Editar el acceso a informes, paneles y calendarios para editar los elementos de informes de un informe</p>
+   <td> <p>Acceso de edición a filtros, vistas y agrupaciones</p> <p>Editar el acceso a los informes, paneles y calendarios para editar los elementos de un informe</p>
    </td> 
   </tr> 
   <tr> 

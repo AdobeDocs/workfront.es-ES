@@ -6,7 +6,9 @@ description: La condición de un proyecto es un indicador que se coloca para ind
 author: Alina
 feature: Work Management
 exl-id: 1f46386e-e1ae-4845-8cc4-09dd7d39076f
-source-git-commit: 885bdb0e28c2807f14cc3919a3057a4a48b2422d
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '531'
 ht-degree: 82%
@@ -57,7 +59,8 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -89,7 +92,8 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
      </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Establecer automáticamente la condición
 

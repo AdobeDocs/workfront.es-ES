@@ -2,12 +2,14 @@
 content-type: reference
 product-area: reporting;user-management
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 'Ver: Detalles de usuario ampliados'
+title: 'Ver: Detalles del usuario ampliados'
 description: Esta vista de usuario muestra información sobre los usuarios. Además del nombre, los niveles de acceso y la compañía, también muestra listas de sus grupos, equipos y roles.
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 6a978b43-4718-43fb-80b8-844b35e09d06
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '215'
 ht-degree: 73%
@@ -63,8 +65,8 @@ Para aplicar este vista:
 1. En el menú desplegable **Vista**, seleccione **Nueva vista**.
 
 1. En el área **Vista previa de columnas**, elimine todas las columnas excepto una.
-1. Haga clic en el encabezado de la columna restante y, a continuación, haga clic en **Cambiar a modo de texto** > **Editar modo de texto**.
-1. Quite el texto que encuentre en el cuadro **Editar modo de texto** y sustitúyalo por el código siguiente:
+1. Haga clic en el encabezado de la columna restante y, a continuación, haga clic en **Cambiar al modo de texto** > **Editar modo de texto**.
+1. Elimine el texto que encuentre en el cuadro **Editar modo de texto** y reemplácelo por el siguiente código:
 
    ```
    column.0.descriptionkey=name 
@@ -151,4 +153,4 @@ Para aplicar este vista:
    column.5.width=150
    ```
 
-1. Haga clic en **Hecho** > **Guardar vista**.
+1. Haga clic en **Listo** > **Guardar vista**.

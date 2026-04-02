@@ -6,7 +6,9 @@ description: Los informes de matriz presentan la información de resumen en un f
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 714f2802-089f-4a41-8205-f397cf474a24
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1083'
 ht-degree: 98%
@@ -126,8 +128,9 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
      >   * Los campos de datos personalizados para valores numéricos y de moneda agregan todas las tareas: principales, secundarias, principales de principales y tareas independientes. Si ha creado el informe de matriz para mostrar las horas planificadas o las horas reales en la columna **Valor**, tenga en cuenta que la información de horas o costes de cualquier objeto principal (como las tareas principales) no se muestra en el informe de matriz. Para ver las horas de los objetos principales, debe consultar la pestaña **Detalles**.
      >   
      >   
-     >**Reglas condicionales:** configure cualquier regla de formato para los valores agregados.\
+     >
 
+   **Reglas condicionales:** configure cualquier regla de formato para los valores agregados.\
    Después de añadir una regla, puede definir estilos de campo y de texto para ver cómo se muestran los campos que coinciden con esa regla. Haga clic en **Añadir regla** después de haber terminado de definir la regla y, a continuación, **Listo** para guardarla.
 
 1. Haga clic en la pestaña **Filtros** para definir la información que se mostrará en el informe.

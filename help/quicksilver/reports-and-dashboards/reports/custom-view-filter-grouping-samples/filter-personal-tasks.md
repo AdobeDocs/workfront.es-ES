@@ -2,12 +2,14 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 'Filter: Personal Tasks'
-description: This task filter returns ad hoc work requests sent to a user, or to-do items added by users in their Home area. Personal tasks are not connected to a project but they can be moved to a project, if needed.
+title: 'Filtro: Tareas personales'
+description: Este filtro de tareas devuelve solicitudes de trabajo ad hoc enviadas a un usuario o elementos pendientes agregados por usuarios en su área de Inicio. Las tareas personales no están conectadas a un proyecto, pero se pueden mover a un proyecto si es necesario.
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 204cfae1-7c57-4223-9e00-ac94e1e2ba3a
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '291'
 ht-degree: 23%
@@ -18,13 +20,13 @@ ht-degree: 23%
 
 <!--Audited: 10/2024-->
 
-This task filter returns ad hoc work requests sent to a user, or to-do items added by users in their To-dos widget in the Home area.
+Este filtro de tareas devuelve solicitudes de trabajo ad hoc enviadas a un usuario o elementos pendientes agregados por usuarios en el widget Tareas pendientes en el área de Inicio.
 
-Ad hoc work requests and to-do items are saved in Adobe Workfront as personal tasks.
+Las solicitudes de trabajo ad hoc y los elementos pendientes se guardan en Adobe Workfront como tareas personales.
 
-Personal tasks are not connected to a project but they can be moved to a project, if needed. For information, see [Create personal tasks](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/create-personal-tasks.md).
+Las tareas personales no están conectadas a un proyecto, pero se pueden mover a un proyecto si es necesario. Para obtener más información, consulte [Crear tareas personales](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/create-personal-tasks.md).
 
-![Personal tasks report](assets/personal-tasks-report.png)
+![Informe de tareas personales](assets/personal-tasks-report.png)
 
 ## Requisitos de acceso
 
@@ -41,8 +43,8 @@ Personal tasks are not connected to a project but they can be moved to a project
   <tr> 
    <td role="rowheader">Licencia de Adobe Workfront</td> 
    <td> 
-   <p>Contributor or Request to modify a filter </p>
-   <p>Standard or Plan to modify a report</p>
+   <p>Colaborador o solicitud para modificar un filtro </p>
+   <p>Estándar o Plan para modificar un informe</p>
   </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso</td> 
@@ -59,17 +61,17 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
 
 +++
 
-## Filter personal tasks
+## Filtrar tareas personales
 
-To create this filter:
+Para crear este filtro:
 
-1. Go to a list of tasks or a task report.
-1. From the **Filter** drop-down menu, click **New filter**.
-1. (Conditional) Click **Add a filter rule** of you are accessing the filter from a report, or start selecting your filter criteria in the first field, if you are accessing the filter from a list.
-1. (Conditional) Select the following filtering criteria:
+1. Ir a una lista de tareas o a un informe de tareas.
+1. En el menú desplegable **Filtro**, haga clic en **Nuevo filtro**.
+1. (Condicional) Haga clic en **Agregar una regla de filtro** si está teniendo acceso al filtro desde un informe, o comience a seleccionar los criterios de filtro en el primer campo si está teniendo acceso al filtro desde una lista.
+1. (Condicional) Seleccione los siguientes criterios de filtrado:
 
-   * From a list filter: **Task** > **Personal** **Is true**
-   * From a report filter: **Task** > **Personal** > **Equal (Case sensitive)** > **True**.
-1. Save the filter.
+   * De un filtro de lista: **Tarea** > **Personal** **Es verdadera**
+   * De un filtro de informe: **Tarea** > **Personal** > **Igual (distingue mayúsculas de minúsculas)** > **Verdadero**.
+1. Guarde el filtro.
 
-   The list displays only personal tasks that are not on any projects.
+   La lista muestra únicamente las tareas personales que no están en ningún proyecto.

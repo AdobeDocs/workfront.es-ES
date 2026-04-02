@@ -2,12 +2,14 @@
 user-type: administrator
 product-area: system-administration;workfront-integrations
 navigation-topic: templates-navigation-topic
-title: Examinar el catálogo de los programas y solicitar la instalación de los programas
+title: Examinar el catálogo de modelos y solicitar la instalación de modelos
 description: Los modelos proporcionan componentes básicos que le ayudarán a crear un sistema de administración del trabajo que evolucione con usted. Todos los usuarios de  [!DNL Adobe Workfront]  pueden examinar el catálogo de modelos. Además, puede solicitar que su administrador de  [!DNL Workfront]  le instale un modelo específico, si su administrador ha habilitado las solicitudes de modelos.
 author: Courtney
 feature: System Setup and Administration, Work Management
 exl-id: 932072e4-4d52-4b4b-a045-0cd38cb882d3
-source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
+last-update: 2026-04-01T18:23:03Z
+git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '369'
 ht-degree: 95%
@@ -29,7 +31,7 @@ Solo el administrador del sistema puede instalar modelos. Para obtener más info
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Paquete de Adobe Workfront</td> 
+   <td role="rowheader">Paquete Adobe Workfront</td> 
    <td> <p>Cualquiera </p> </td> 
   </tr> 
   <tr> 
@@ -56,7 +58,7 @@ El catálogo muestra todos los modelos disponibles para su organización. Para o
    * Caso de uso (como [!UICONTROL Recursos humanos] o [!UICONTROL Marketing])
    * Nivel de madurez ([!UICONTROL administrado] o [!UICONTROL integrado])
    * Estado de la instalación ([!UICONTROL instalado] o no [!UICONTROL instalado])
-   * Tipo de modelo (<!--Custom Form, -->[!UICONTROL Panel de control], [!UICONTROL Estructura organizativa], [!UICONTROL Plantilla de proyecto]<!--, Request Queue, Setup Feature-->)
+   * Tipo de modelo ([!UICONTROL Panel de control], [!UICONTROL Estructura organizativa], [!UICONTROL Plantilla de proyecto]<!-- above Custom Form; here, Request Queue, Setup Feature-->)
 
 1. (Opcional) Haga clic en **[!UICONTROL Detalles]** en un modelo para saber cómo funciona.
 

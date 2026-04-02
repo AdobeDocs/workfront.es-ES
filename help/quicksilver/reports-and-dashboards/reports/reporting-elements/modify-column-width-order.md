@@ -6,7 +6,9 @@ description: Lea este artículo para obtener más información sobre las directr
 author: Courtney
 feature: Reports and Dashboards
 exl-id: ece3f908-a0da-45d4-9f4f-0b34c69ce8fa
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1004'
 ht-degree: 97%
@@ -128,7 +130,7 @@ Para obtener más información acerca de cómo exportar datos de listas e inform
 #### Reordene las columnas temporalmente {#reorder-columns-temporarily}
 
 1. Vaya a la lista que desee modificar.
-1. Haga clic y arrastre el encabezado de columna que desea mover a la ubicación deseada.
+1. Haga clic en el encabezado de columna que desee mover a la ubicación deseada y arrástrelo.
 
 >[!TIP]
 >

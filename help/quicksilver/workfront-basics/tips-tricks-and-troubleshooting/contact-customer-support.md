@@ -6,7 +6,9 @@ description: Como cliente de Adobe Workfront, puede ponerse en contacto con el e
 feature: Get Started with Workfront
 author: Becky
 exl-id: fa8e0559-7af6-4049-9c24-76d1bcbebf84
-source-git-commit: 8a4668a568fde2ca7ee26714caae3cd33efe4eda
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '468'
 ht-degree: 79%
@@ -65,7 +67,8 @@ Puede ponerse en contacto con [!DNL Workfront Customer Support] los 7 días de l
 * EMEA: +44 800 169 0454
 * Australia: +61 180 035 8683
 
-<!--Old numbers - before 2/10/2025:
+<!--
+Old numbers - before 2/10/2025:
 
 * US: 844-306-HELP(4357)
 * EMEA: +44 1256 274200
@@ -82,7 +85,7 @@ Puede enviar un ticket de asistencia técnica desde el portal de autoservicio de
 >Solo los contactos de asistencia autorizados (o los usuarios con derechos de asistencia) pueden enviar tickets de asistencia en línea.
 
 
-1. En el sitio web [[!DNL Experience League]](https://experienceleague.adobe.com/es), haga clic en **[!UICONTROL Asistencia técnica]** en la parte superior de la página.
+1. En el sitio web [[!DNL Experience League]](https://experienceleague.adobe.com), haga clic en **[!UICONTROL Asistencia técnica]** en la parte superior de la página.
 
    ![](assets/experience-league-top-navigation-with-support-highlighted.png)
 
@@ -137,7 +140,8 @@ Si tiene alguna pregunta o problema al enviar una solicitud, llame al equipo de 
 1. (Opcional) Para cerrar el caso, haga clic en el botón **[!UICONTROL Cerrar caso]**.
 
 
-<!--drafted: I took the information above from this blog post by Jon Chen (on September 13, 2022): https://experienceleaguecommunities.adobe.com/t5/workfront-blogs/how-to-submit-a-support-ticket-on-experience-league/ba-p/461737?profile.language=es)
+<!--
+drafted: I took the information above from this blog post by Jon Chen (on September 13, 2022): https://experienceleaguecommunities.adobe.com/t5/workfront-blogs/how-to-submit-a-support-ticket-on-experience-league/ba-p/461737)
 
 - this is the information that was there before - pointing to WorkfrontOne: 
 

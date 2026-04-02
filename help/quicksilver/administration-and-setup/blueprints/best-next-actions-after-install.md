@@ -3,13 +3,15 @@ user-type: administrator
 content-type: reference
 product-area: system-administration;workfront-integrations
 navigation-topic: best-practices-catalog
-title: Acciones a tomar después de instalar un plan
+title: Acciones que se deben realizar después de instalar un modelo
 description: Este artículo describe lo que debe hacer después de instalar un modelo en  [!DNL Adobe Workfront]  para implementar completamente el modelo para los usuarios del sistema.
 author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: 6e5da58f-105a-4edf-8fc1-65e8762d43c6
-source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1135'
 ht-degree: 98%
@@ -97,4 +99,4 @@ La introducción de un nuevo panel de control y sus informes puede hacer posible
 
 ### Distribuir datos personalizados a los formularios relevantes
 
-Algunos informes incluidos en un modelo de panel de control tienen campos de datos personalizados en la vista, el filtro o la agrupación del informe. En algunos casos, el modelo también tendrá un formulario al que están asociados estos campos. Sin embargo, en la mayoría de los casos, los campos personalizados no se aplican a un formulario personalizado. Para que las columnas, los filtros o las agrupaciones funcionen correctamente, estos campos deben asociarse a formularios conectados a un usuario, proyecto, tarea u otro registro de objeto. Para obtener información, vea [Crear un formulario personalizado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+Algunos informes incluidos en un modelo de panel de control tienen campos de datos personalizados en la vista, el filtro o la agrupación del informe. En algunos casos, el modelo también tendrá un formulario al que están asociados estos campos. Sin embargo, en la mayoría de los casos, los campos personalizados no se aplican a un formulario personalizado. Para que las columnas, los filtros o las agrupaciones funcionen correctamente, estos campos deben asociarse a formularios conectados a un usuario, proyecto, tarea u otro registro de objeto. Para obtener más información, consulte [Crear un formulario personalizado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).

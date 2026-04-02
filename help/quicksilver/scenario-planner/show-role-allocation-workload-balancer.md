@@ -6,7 +6,9 @@ description: Después de conectar proyectos e iniciativas, puede administrar su 
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: cdc3a1b0-7021-4853-9b51-c3682fd55430
-source-git-commit: aa2e9a012a60ab10e2d027dedae520b5e06686c7
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '800'
 ht-degree: 54%
@@ -61,7 +63,8 @@ Para obtener información acerca de los requisitos de acceso de Workfront, consu
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -97,7 +100,8 @@ Para obtener información acerca de los requisitos de acceso de Workfront, consu
    <td> <p> View or higher permission to a project.</p> </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Mostrar la asignación de roles para proyectos e iniciativas en el [!UICONTROL Distribuidor de cargas de trabajo]
 

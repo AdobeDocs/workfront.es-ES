@@ -2,21 +2,23 @@
 content-type: api
 navigation-topic: api-navigation-topic
 title: Novedades de la versión 13 de la API
-description: Adobe Workfront publicó la versión 13 de la API el 22 de abril de 2021. La versión 13 de la API incorpora los siguientes cambios con respecto a la versión 12.
+description: Adobe Workfront publicó la versión 13 de la API el viernes, 22 de abril de 2021. La versión 13 de la API incorpora los siguientes cambios con respecto a la versión 12.
 author: Becky
 feature: Workfront API
 role: Developer
 exl-id: afbc986e-8b5c-40bc-9120-e8d34e0f7004
-source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1072'
-ht-degree: 2%
+ht-degree: 67%
 
 ---
 
 # Novedades de la versión 13 de la API
 
-Adobe Workfront publicó la versión 13 de la API el 22 de abril de 2021. La versión 13 de la API incorpora los siguientes cambios con respecto a la versión 12.
+Adobe Workfront publicó la versión 13 de la API el viernes, 22 de abril de 2021. La versión 13 de la API incorpora los siguientes cambios con respecto a la versión 12.
 
 ## Recursos añadidos
 
@@ -28,7 +30,7 @@ No se ha eliminado ningún recurso para la versión 13 de la API.
 
 ## Recursos modificados
 
-Se modificaron los siguientes recursos para la versión 13 de la API.
+Se han modificado los siguientes recursos para la versión 13 de la API.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -37,29 +39,29 @@ Se modificaron los siguientes recursos para la versión 13 de la API.
   <tr> 
    <td> 
     <ul> 
-     <li> <p><a href="#accesslevel" class="MCXref xref">NivelDeAcceso</a> </p> </li> 
-     <li> <p><a href="#breadcrumb" class="MCXref xref">RutaPan</a> </p> </li> 
+     <li> <p><a href="#accesslevel" class="MCXref xref">AccessLevel</a> </p> </li> 
+     <li> <p><a href="#breadcrumb" class="MCXref xref">Ruta de exploración</a> </p> </li> 
      <li> <p><a href="#burndownevent" class="MCXref xref">EventoDeEvolución</a> </p> </li> 
-     <li> <p><a href="#customerpreferences" class="MCXref xref">PreferenciasDelCliente</a> </p> </li> 
-     <li> <p><a href="#documentversion" class="MCXref xref">VersiónDocumento</a> </p> </li> 
-     <li> <p><a href="#group" class="MCXref xref">Grupo </a> </p> </li> 
+     <li> <p><a href="#customerpreferences" class="MCXref xref">CustomerPreferences</a> </p> </li> 
+     <li> <p><a href="#documentversion" class="MCXref xref">DocumentVersion</a> </p> </li> 
+     <li> <p><a href="#group" class="MCXref xref">Grupo</a> </p> </li> 
      <li> <p><a href="#journalentry" class="MCXref xref">EntradaDiario</a> </p> </li> 
      <li> <p><a href="#layouttemplate" class="MCXref xref">PlantillaDiseño</a> </p> </li> 
-     <li> <p><a href="#linkedfolder" class="MCXref xref">CarpetaVinculada</a> </p> </li> 
-     <li> <p><a href="#optask" class="MCXref xref">TareaOperación</a> </p> </li> 
+     <li> <p><a href="#linkedfolder" class="MCXref xref">LinkedFolder</a> </p> </li> 
+     <li> <p><a href="#optask" class="MCXref xref">OpTask</a> </p> </li> 
     </ul> </td> 
    <td> 
     <ul> 
      <li> <p><a href="#project" class="MCXref xref">Proyecto</a> </p> </li> 
-     <li> <p><a href="#proofapproval" class="MCXref xref">AprobaciónRevisión</a> </p> </li> 
-     <li> <p><a href="#queuedef" class="MCXref xref">QueueDef</a> </p> </li> 
-     <li> <p><a href="#task" class="MCXref xref">Tarea</a> </p> </li> 
-     <li> <p><a href="#team" class="MCXref xref">Equipo</a> </p> </li> 
-     <li> <p><a href="#timesheet" class="MCXref xref">Hoja de horas</a> </p> </li> 
+     <li> <p><a href="#proofapproval" class="MCXref xref">ProofApproval</a> </p> </li> 
+     <li> <p><a href="#queuedef" class="MCXref xref">Definición de cola</a> </p> </li> 
+     <li> <p><a href="#task" class="MCXref xref">Task</a> </p> </li> 
+     <li> <p><a href="#team" class="MCXref xref">Team</a> </p> </li> 
+     <li> <p><a href="#timesheet" class="MCXref xref">Timesheet</a> </p> </li> 
      <li> <p><a href="#timesheetprofile" class="MCXref xref">Perfil de hoja de horas</a> </p> </li> 
      <li> <p><a href="#uitemplate" class="MCXref xref">UITemplate</a> </p> </li> 
      <li> <p><a href="#userdelegation" class="MCXref xref">Delegación de usuario</a> </p> </li> 
-     <li> <p><a href="#work" class="MCXref xref">Trabajo </a> </p> </li> 
+     <li> <p><a href="#work" class="MCXref xref">Work </a> </p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -69,7 +71,7 @@ Se modificaron los siguientes recursos para la versión 13 de la API.
 
 Un objeto AccessLevel está asociado a los usuarios y describe el conjunto de AccessLevelPermissions que determinan a qué puede tener acceso el usuario.
 
-Para obtener más información sobre los niveles de acceso, vea [Funcionamiento de los niveles de acceso](../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels.md).
+Para obtener más información sobre los niveles de acceso, consulte [Cómo funcionan los niveles de acceso](../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels.md).
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
@@ -79,15 +81,15 @@ Para obtener más información sobre los niveles de acceso, vea [Funcionamiento 
    <td> <p>Campos directos</p> </td> 
    <td> 
     <ul> 
-     <li> <p><b>Descripción</b> </p> <p>Se ha añadido el validador MAX_LENGTH, que especifica que la longitud de la descripción no es superior a 4000 caracteres.</p> </li> 
+     <li> <p><b>Descripción</b> </p> <p>Se ha añadido el validador MAX_LENGTH, que especifica que la longitud de la descripción no debe exceder los 4000 caracteres.</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
 </table>
 
-### RutaPan {#breadcrumb}
+### Ruta de exploración {#breadcrumb}
 
-Un objeto BreadCrumb representa un elemento en la jerarquía principal/secundario de un elemento de trabajo de Workfront. Las rutas de exploración indican cómo encaja un elemento de trabajo en la mayor estructura de Portfolio, Proyectos, Proyectos y Tareas.
+Un objeto BreadCrumb representa un elemento en la jerarquía principal/secundario de un elemento de trabajo de Workfront. Las rutas indican cómo encaja un elemento de trabajo en la mayor estructura de portafolios, proyectos, proyectos y tareas.
 
 Para obtener más información sobre las rutas de exploración, consulte [Información general sobre las rutas de exploración en la nueva experiencia de Adobe Workfront](../../workfront-basics/the-new-workfront-experience/breadcrumb-overview.md)
 
@@ -126,7 +128,7 @@ Para obtener más información sobre la evolución, consulte [Evolución](../../
  </tbody> 
 </table>
 
-### Preferencias del cliente {#customerpreferences}
+### CustomerPreferences {#customerpreferences}
 
 Un objeto CustomerPreferences representa el conjunto de preferencias que un cliente ha establecido para su instancia de Workfront.
 
@@ -138,7 +140,7 @@ Un objeto CustomerPreferences representa el conjunto de preferencias que un clie
    <td>Campos directos</td> 
    <td> 
     <ul> 
-     <li style="font-weight: bold;"> <p>name</p> <p style="font-weight: normal;">Se agregaron valores posibles:</p> 
+     <li style="font-weight: bold;"> <p>name</p> <p style="font-weight: normal;">Se añadieron los valores posibles:</p> 
       <ul> 
        <li style="font-weight: normal;">contraseña:aemAPIKey (config.general.aem.apikey)</li> 
        <li style="font-weight: normal;"> contraseña:aemAADomain (config.general.aem.adomain) </li> 
@@ -166,7 +168,7 @@ Un objeto CustomerPreferences representa el conjunto de preferencias que un clie
 
 Un objeto DocumentVersion representa una versión específica de un archivo (como material escrito, imágenes u otras formas de información).
 
-Para obtener más información acerca de las versiones de documentos, vea [Cargar una nueva versión de un documento](../../documents/managing-documents/upload-new-document-version.md).
+Para obtener más información acerca de las versiones de documentos, consulte [Cargar una nueva versión de un documento](../../documents/managing-documents/upload-new-document-version.md).
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
@@ -176,7 +178,7 @@ Para obtener más información acerca de las versiones de documentos, vea [Carga
    <td> <p>Campos directos</p> </td> 
    <td> 
     <ul> 
-     <li> <p><b>externalIntegrationType</b> </p> <p>Se ha agregado el valor posible:</p> 
+     <li> <p><b>externalIntegrationType</b> </p> <p>Se ha añadido el valor posible:</p> 
       <ul> 
        <li> <p>AEM (Adobe Experience Manager)</p> </li> 
       </ul> </li> 
@@ -210,7 +212,7 @@ Para obtener más información sobre los grupos, consulte [Grupos vs. equipos en
 
 ### JournalEntry {#journalentry}
 
-El objeto JournalEntry se puede configurar para que registre información sobre campos de objeto específicos cada vez que se modifiquen dichos campos. Cuando un campo está configurado para registrarse como parte del objeto Entrada de cuaderno, se creará una Entrada de cuaderno correspondiente cada vez que se modifique ese campo.
+El objeto JournalEntry se puede configurar para que registre información sobre campos de objeto específicos cada vez que se modifiquen dichos campos. Cuando un campo está configurado para registrarse como parte del objeto Entrada de cuaderno, se creará una entrada de cuaderno correspondiente cada vez que se modifique ese campo.
 
 El recurso JournalEntry agregó el indicador REPORTABLE.
 
@@ -251,7 +253,7 @@ Para el objeto que representa las plantillas de diseño en la nueva experiencia 
    <td> <p>Campos directos</p> </td> 
    <td> 
     <ul> 
-     <li> <p><b>Descripción</b> </p> <p>Se ha añadido el validador MAX_LENGTH, que especifica que la longitud de la descripción no es superior a 4000 caracteres.</p> </li> 
+     <li> <p><b>Descripción</b> </p> <p>Se ha añadido el validador MAX_LENGTH, que especifica que la longitud de la descripción no debe exceder los 4000 caracteres.</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -261,7 +263,7 @@ Para el objeto que representa las plantillas de diseño en la nueva experiencia 
 
 Un objeto LinkedFolder representa una carpeta vinculada desde un proveedor de documentos externo, como Google Drive o Dropbox.
 
-Para obtener más información sobre las carpetas vinculadas, consulte [Enlazar documentos desde aplicaciones externas](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
+Para obtener más información sobre las carpetas vinculadas, consulte [Vinculación de documentos desde aplicaciones externas](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
@@ -271,7 +273,7 @@ Para obtener más información sobre las carpetas vinculadas, consulte [Enlazar 
    <td> <p>Campos directos</p> </td> 
    <td> 
     <ul> 
-     <li> <p><b>externalIntegrationType</b> </p> <p>Se ha agregado el valor posible:</p> 
+     <li> <p><b>externalIntegrationType</b> </p> <p>Se ha añadido el valor posible:</p> 
       <ul> 
        <li> <p>AEM (Adobe Experience Manager)</p> </li> 
       </ul> </li> 
@@ -300,7 +302,7 @@ Un objeto OpTask suele conocerse como Problema. Un problema es un elemento de tr
 
 ### Proyecto {#project}
 
-Los proyectos son elementos de trabajo dentro de Workfront y son un bloque de creación principal en la forma en que Workfront ayuda a las personas a realizar su trabajo. Un objeto Project representa un grupo de tareas con un objetivo común y específico.
+Los proyectos son elementos de trabajo dentro de Workfront y son un componente principal en la forma en que Workfront ayuda a las personas a realizar su trabajo. Un objeto Projecto representa un grupo de tareas con un objetivo común y específico.
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
@@ -310,9 +312,11 @@ Los proyectos son elementos de trabajo dentro de Workfront y son un bloque de cr
    <td> <p>Campos directos</p> </td> 
    <td> 
     <ul> 
-     <li> <p><b>convertedOpTaskOriginatorID</b> </p> <!--
+     <li> <p><b>convertedOpTaskOriginatorID</b> </p>
+     <!--
        <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Removed flag NOT&nbsp;FILTERABLE</p>
-      --> </li> 
+      -->
+      </li>
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -340,9 +344,9 @@ Un objeto ProofApproval representa una aprobación que está conectada directame
 
 ### QueueDef {#queuedef}
 
-Un objeto QueueDef representa una cola, que es un proyecto que se ha publicado en el área del servicio de asistencia para permitir a los usuarios enviar problemas al mismo.
+Un objeto QueueDef representa una cola, que es un proyecto que se ha publicado en el área del servicio de asistencia para permitir a los usuarios enviarle problemas.
 
-Para obtener más información sobre las colas de solicitudes, vea [Crear una cola de solicitudes](../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+Para obtener más información sobre las colas de solicitudes, consulte [Crear una cola de solicitudes](../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
 <table style="table-layout:auto"> 
  <col> 
@@ -364,7 +368,7 @@ Para obtener más información sobre las colas de solicitudes, vea [Crear una co
 
 ### Tarea {#task}
 
-Un objeto Task representa un elemento de trabajo que debe realizarse como un paso hacia el logro de un objetivo final (completar un proyecto).
+Un objeto Tarea representa un elemento de trabajo que debe realizarse como un paso hacia la meta de un objetivo final (completar un proyecto).
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
@@ -382,7 +386,7 @@ Un objeto Task representa un elemento de trabajo que debe realizarse como un pas
 
 ### Equipo {#team}
 
-Un objeto Team es una colección de usuarios que se pueden asignar a un elemento de trabajo.
+Un objeto de equipo es una colección de usuarios que se pueden asignar a un elemento de trabajo.
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
@@ -392,7 +396,7 @@ Un objeto Team es una colección de usuarios que se pueden asignar a un elemento
    <td>Campos directos</td> 
    <td> 
     <ul> 
-     <li style="font-weight: bold;"> <p>isActive</p> <p style="font-weight: normal;">Se ha añadido este campo, que es un parámetro booleano con un valor true si un objeto está activo y false si no lo está. Los objetos que se definen como Activos aparecen en menús desplegables y campos de escritura anticipada y pueden adjuntarse a otros objetos. Los objetos no definidos como Activos no son visibles en los menús desplegables ni en los campos de escritura anticipada para adjuntarlos a otros objetos.  </p> </li> 
+     <li style="font-weight: bold;"> <p>isActive</p> <p style="font-weight: normal;">Se ha añadido este campo, que es un parámetro booleano con un valor true si un objeto está activo; de lo contrario es false. Los objetos que se definen como Activos aparecen en menús desplegables y campos de escritura anticipada y pueden adjuntarse a otros objetos. Los objetos no definidos como activos no son visibles en los menús desplegables ni en los campos de escritura anticipada para adjuntarlos a otros objetos.  </p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -405,9 +409,9 @@ Un objeto Team es una colección de usuarios que se pueden asignar a un elemento
  </tbody> 
 </table>
 
-### Hoja de horas {#timesheet}
+### Plantilla de horas {#timesheet}
 
-Un objeto Timesheet representa un parte de horas virtual que permite a los usuarios especificar horas trabajadas reales para tareas, proyectos y tipos de horas generales.
+Un objeto Timesheet representa un parte de horas virtual que permite a los usuarios especificar horas reales trabajadas para tareas, proyectos y tipos de horas extra.
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
@@ -430,9 +434,9 @@ Un objeto Timesheet representa un parte de horas virtual que permite a los usuar
  </tbody> 
 </table>
 
-### Perfil de hoja de horas {#timesheetprofile}
+### TimesheetProfile {#timesheetprofile}
 
-Un objeto Timesheet representa un parte de horas virtual que permite a los usuarios especificar horas trabajadas reales para tareas, proyectos y tipos de horas generales.
+Un objeto Timesheet representa un parte de horas virtual que permite a los usuarios especificar horas reales trabajadas para tareas, proyectos y tipos de horas extra.
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
@@ -503,7 +507,7 @@ El objeto UserDelegation agregó el indicador REPORTABLE.
   </tr> 
   <tr> 
    <td role="rowheader">Campos predeterminados</td> 
-   <td> <p>Se agregaron los campos siguientes:</p> 
+   <td> <p>Se han añadido los campos siguientes:</p> 
     <ul> 
      <li> <p><b>endDate</b> </p> </li> 
      <li> <p><b>startDate</b> </p> </li> 
@@ -514,7 +518,7 @@ El objeto UserDelegation agregó el indicador REPORTABLE.
 
 ### Trabajo  {#work}
 
-Un objeto Work es una interfaz común que heredan Task y OpTask, y comparte código común entre ambos.
+Un objeto de trabajo es una interfaz común que heredan Tarea y OpTask, y que comparte código común entre ambos.
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 

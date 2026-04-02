@@ -6,7 +6,9 @@ description: Encontrará el [!UICONTROL Optimizador de portafolios] al acceder a
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: de9abb4e-0bf2-4673-8be1-3f0f35e17eaf
-source-git-commit: d7600a55b3dffb242957234de9d85a0deb1ad2e3
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '138'
 ht-degree: 85%
@@ -51,7 +53,8 @@ Encontrará el [!UICONTROL Optimizador de portafolios] al acceder a un portafoli
 
 +++
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto"> 
  <col> 
  <col> 
@@ -74,7 +77,8 @@ Encontrará el [!UICONTROL Optimizador de portafolios] al acceder a un portafoli
    <td> <p>[!UICONTROL Manage] permissions to the portfolio</p>  </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Buscar el [!UICONTROL Optimizador de portafolios]
 

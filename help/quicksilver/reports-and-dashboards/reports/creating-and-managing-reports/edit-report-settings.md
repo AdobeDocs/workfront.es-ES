@@ -6,10 +6,12 @@ description: Puede editar la configuración de un informe para definir cómo se 
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 6fbbc557-65da-4ffe-968a-9c8db6a45811
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '612'
-ht-degree: 99%
+ht-degree: 93%
 
 ---
 
@@ -90,11 +92,13 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
      </tr> 
      <tr> 
       <td role="rowheader">Mostrar la vista Cuadrícula de recursos en la ficha Detalles</td> 
-      <td> <p>(Solo informe de usuario) Seleccione esta opción para mostrar la Cuadrícula de recursos en la ficha Detalles del informe.</p> <p>Nota: Al aplicar la vista Cuadrícula de recursos a un informe de usuario, el informe solo muestra los proyectos que se encuentran en el estado Actual. Si desea ver proyectos en cualquier otro estado, puede utilizar la ficha Utilización de usuarios en el área Personas de la Barra de navegación global y aplicar allí la vista Cuadrícula de recursos. <!--
+      <td> <p>(Solo informe de usuario) Seleccione esta opción para mostrar la Cuadrícula de recursos en la ficha Detalles del informe.</p> <p>Nota: Al aplicar la vista Cuadrícula de recursos a un informe de usuario, el informe solo muestra los proyectos que se encuentran en el estado Actual. Si desea ver proyectos en cualquier otro estado, puede utilizar la ficha Utilización de usuarios en el área Personas de la barra de exploración global y aplicar allí la vista Cuadrícula de recursos.
+      <!--
          <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
           For more information about using the Resource Grid, see the article Overview of the Resource Grid . (drafted because this article is drafted also: Article is in draft Feb 1, 2021)
          </MadCap:conditionalText>
-        --></p> </td> 
+        -->
+        </p> </td>
      </tr> 
      <tr> 
       <td role="rowheader">Mostrar una vista especial en la ficha Detalles:</td> 

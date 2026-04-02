@@ -6,7 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 8a3830e8-0d9a-4ede-a1b6-b80dd4686bc6
-source-git-commit: 46faf723ea7a8e9dfa02c0f2bed1f5f450976fc8
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '2900'
 ht-degree: 96%
@@ -38,11 +40,11 @@ La siguiente tabla muestra la cronología de la versión de Workfront Planning:
 
 ## Semana del 25 de diciembre de 2023
 
-### Buscar en la vista de línea de tiempo
+### Buscar en la vista de cronología
 
 Previsualización y producción: 27 de diciembre de 2023
 
-Ahora puede buscar una palabra clave para encontrar rápidamente un registro en la vista de línea de tiempo. Puede utilizar palabras clave y caracteres especiales de cualquier campo visible en la pantalla para buscar un registro. Para obtener más información, consulte [Administrar la vista de línea de tiempo](/help/quicksilver/planning/views/manage-the-timeline-view.md).
+Ahora puede buscar una palabra clave para encontrar rápidamente un registro en la vista de cronología. Puede utilizar palabras clave y caracteres especiales de cualquier campo visible en la pantalla para buscar un registro. Para obtener más información, consulte [Administrar la vista de cronología](/help/quicksilver/planning/views/manage-the-timeline-view.md).
 
 ## Semana del 18 de diciembre de 2023
 
@@ -74,7 +76,7 @@ Producción: 21 de diciembre de 2023
 
 >[!IMPORTANT]
 >
->Su organización debe adquirir Adobe Workfront Fusion para poder crear conexiones con las funciones de Adobe Workfront Planning.
+>Su organización debe comprar Adobe Workfront Fusion para poder crear conexiones con las funciones de Adobe Workfront Planning.
 >
 >Para obtener más información, consulte [Información general de Adobe Workfront Fusion](https://experienceleague.adobe.com/es/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
 
@@ -144,7 +146,8 @@ Después de establecer la conexión, esta actualización incluye la siguiente fu
 
 * Los usuarios de la funcionalidad de planificación pueden ver el nombre de los recursos conectados, así como los valores de los campos conectados, en las funcionalidades de la planificación.
 
-<!--removed per PM, for now: 
+<!--
+removed per PM, for now: 
 * An Experience Manager Assets record type is automatically created in Planning after you establish the connection. Connected assets are visible in the table and timeline views of this new record type.  
 -->
 
@@ -276,9 +279,9 @@ Se han añadido controles de formato de texto enriquecido para los campos de tip
 
 Previsualización y producción: 19 de octubre de 2023
 
-Ahora puede codificar con colores las barras de registro y las agrupaciones en la vista Línea de tiempo.
+Ahora puede codificar con colores las barras de registro y las agrupaciones en la vista Cronología.
 
-Las siguientes son opciones para los colores que puede elegir mostrar para las barras de registros y agrupaciones en la vista Línea de tiempo:
+Las siguientes son opciones para los colores que puede elegir mostrar para las barras de registros y agrupaciones en la vista Cronología:
 
 * Las agrupaciones pueden coincidir con los colores siguientes:
 
@@ -298,7 +301,7 @@ Las siguientes son opciones para los colores que puede elegir mostrar para las b
 
 Al hacer coincidir colores con un campo determinado, solo puede seleccionar campos con opciones codificadas por colores.
 
-Para obtener más información, consulte [Administrar la vista de línea de tiempo](/help/quicksilver/planning/views/manage-the-timeline-view.md).
+Para obtener más información, consulte [Administrar la vista de cronología](/help/quicksilver/planning/views/manage-the-timeline-view.md).
 
 ## Semana del 9 de octubre de 2023
 
@@ -379,18 +382,18 @@ Ya están disponibles las siguientes funcionalidades:
 * Ordenación a nivel de tabla, donde puede ordenar por varios campos al mismo tiempo.
 * Ordenación a nivel de columna o de campo, donde puede ordenar por un campo individual a la vez.
 
-### Mejoras en la vista de la línea de tiempo: nuevo aspecto para las agrupaciones y el conmutador de vista Compacto/Estándar
+### Mejoras en la vista de la cronología: nuevo aspecto para las agrupaciones y el conmutador de vista Compacto/Estándar
 
 Previsualización y producción: 24 de agosto de 2023
 
-Hemos introducido las siguientes mejoras en la vista de línea de tiempo:
+Hemos introducido las siguientes mejoras en la vista de cronología:
 
 * Ahora puede visualizar la vista de línea de tiempo en los modos siguientes:
 
    * Estándar: muestra los registros en líneas independientes.
    * Compacto: muestra los registros cuyas fechas no se cruzan en la misma línea.
 
-* Hemos cambiado el aspecto de las líneas de agrupación en la vista de la línea de tiempo para que se muestren encima de la línea de tiempo de los registros que contienen. Antes de esta mejora, las líneas de agrupación se mostraban en toda la longitud de la línea de tiempo
+* Hemos cambiado el aspecto de las líneas de agrupación en la vista de la cronología para que se muestren encima de la cronología de los registros que contienen. Antes de esta mejora, las líneas de agrupación se mostraban en toda la longitud de la cronología
 
 ## Semana del 14 de agosto de 2023
 
@@ -404,9 +407,9 @@ Ahora puede reordenar las columnas en la vista de tabla. Tenga en cuenta lo sigu
 
 * El campo Nombre está inmovilizado y no forma parte del desplazamiento horizontal
 
-### Desplazamiento horizontal para la vista de línea de tiempo
+### Desplazamiento horizontal para la vista de cronología
 
-Ahora puede desplazarse horizontalmente en la vista de la línea de tiempo de un tipo de registro.
+Ahora puede desplazarse horizontalmente en la vista de la cronología de un tipo de registro.
 
 ## Semana del 7 de agosto de 2023
 

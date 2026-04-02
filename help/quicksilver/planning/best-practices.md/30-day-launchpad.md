@@ -6,10 +6,12 @@ role: Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 90b0e019-1b42-4ab2-8b4c-69f85e4c4d78
-source-git-commit: a5f33f914dabaa9368dea919510375bcb6ee03e2
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1310'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
@@ -74,7 +76,7 @@ Aunque todavía no se requiere una taxonomía compleja para toda la empresa, deb
 * Un **espacio de trabajo de clasificación global** (el concentrador): debe ser la estructura y nomenclatura general del sistema.
 * Un primer **espacio de trabajo del equipo** (radio): debe coincidir con el enfoque de trabajo de un equipo individual.
 
-Para obtener más información, consulte [Crear espacios de trabajo](/help/quicksilver/planning/architecture/create-workspaces.md).
+Para obtener más información, consulte [Creación de espacios de trabajo](/help/quicksilver/planning/architecture/create-workspaces.md).
 
 Con esta arquitectura basada en el equipo, puede:
 

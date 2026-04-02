@@ -6,7 +6,9 @@ description: Puede ejecutar cualquier informe al que tenga acceso de visualizaci
 author: Courtney
 feature: Reports and Dashboards
 exl-id: bd2202a7-040c-4291-ad02-ba8929a37e2b
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '497'
 ht-degree: 84%
@@ -47,7 +49,7 @@ After a report is cached, it is available for the next 12 hours. Any user who ru
   </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso</td> 
-   <td> <p>Ver acceso a informes, paneles, calendarios</p></td> 
+   <td> <p>Ver acceso a informes, tableros y calendarios</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permisos de objeto</td> 
@@ -76,7 +78,7 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
    Para obtener más información sobre las solicitudes, consulte [Añadir una solicitud a un informe](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md).\
    El contenido del informe se muestra con una marca de tiempo en la esquina superior derecha del informe que incluye la fecha, la hora y la zona horaria en que se ejecutó el informe desde el contexto del usuario que lo ejecutó.
 
-1. (Opcional) Haga clic en el **icono Recargar** ![Icono Recargar](assets/unshimmed-report-refresh-icon.png) para actualizar los resultados de un informe si el informe se ha mostrado en el explorador durante un tiempo.
+1. (Opcional) Haga clic en el **icono Recargar** ![Icono Recargar](assets/unshimmed-report-refresh-icon.png) para actualizar los resultados de un informe si este se ha mostrado en el explorador durante un tiempo.
 
 1. (Condicional) Si el informe usa filtros o solicitudes, haga clic en **Mostrar filtros y solicitudes** para mostrar una lista de los filtros y las solicitudes que se están usando en el informe que está viendo. Si el informe solo contiene filtros o solicitudes, **Mostrar filtros** o **Mostrar solicitudes** aparecerán en su lugar.
 
@@ -92,7 +94,7 @@ Es posible que el informe se almacene en caché si se ha mostrado en el explorad
 
 * Edite la configuración del informe y guárdelo.
 * Cambie la vista, el grupo o el filtro.
-* Haga clic en el icono **Recargar** ![Recargar icono](assets/unshimmed-report-refresh-icon.png)
+* Haga clic en el **icono Recargar** ![icono Recargar](assets/unshimmed-report-refresh-icon.png)
 Esta opción está disponible en la esquina superior derecha de la página, dentro del cuadro de mensaje que indica la hora en que se guardó el informe, o bien está disponible en la esquina superior derecha del panel en el que se coloca el informe. Para obtener más información sobre cómo volver a cargar los paneles de control, consulte la sección &quot;Mostrar paneles de control&quot; en el artículo [Introducción a los paneles de control](../../../reports-and-dashboards/dashboards/understanding-dashboards/get-started-dashboards.md).
 
 * Para acceder a cualquier página del informe que no sea la primera página, vaya a las pestañas Resumen, Matriz o Gráfico.

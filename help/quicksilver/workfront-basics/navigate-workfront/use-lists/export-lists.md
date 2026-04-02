@@ -5,7 +5,9 @@ description: Puede exportar una lista de objetos desde Adobe Workfront. Cuando l
 feature: Get Started with Workfront
 author: Courtney
 exl-id: 31159d6d-f03a-4f84-a454-25a232971441
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '336'
 ht-degree: 86%
@@ -87,5 +89,5 @@ Para obtener información sobre filtros, vistas y agrupaciones, consulte [Elemen
 
      Esta opción exporta una copia de la lista a uno de estos formatos y la guarda en el equipo.
 
-1. (Opcional) Abra la lista exportada mediante la aplicación correspondiente.
+1. (Opcional) Abra la lista exportada utilizando la aplicación adecuada.
 Todos los elementos de la lista se muestran en el archivo exportado, independientemente de si se muestran en la pantalla de la aplicación web o no.

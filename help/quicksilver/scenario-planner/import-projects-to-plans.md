@@ -6,7 +6,9 @@ description: Puede importar proyectos existentes en un plan. Los proyectos impor
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 20429bb1-c158-433b-9790-325cd577248e
-source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1677'
 ht-degree: 3%
@@ -63,7 +65,8 @@ Para obtener información acerca de los requisitos de acceso de Workfront, consu
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -101,7 +104,8 @@ Para obtener información acerca de los requisitos de acceso de Workfront, consu
  </tbody> 
 </table>
 
-*For information, see [Access requirements to Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). -->
+*For information, see [Access requirements to Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+-->
 
 ## Consideraciones sobre la importación de proyectos en planes como nuevas iniciativas
 
@@ -160,11 +164,13 @@ Al importar un proyecto en un plan, parte de la información del proyecto tambi�
      <li> <p>[!DNL Workfront] utiliza los roles asignados a tareas y problemas o los roles de trabajo con los que están asociados los usuarios asignados a tareas o problemas en el proyecto y los transfiere a la nueva iniciativa como Roles de Trabajo Necesarios. </p> </li> 
      <li> <p>Cuando el plan está configurado para utilizar FTE, las horas planificadas asociadas con los roles en las tareas y problemas del proyecto se convierten primero a FTE. A continuación, se asigna a este ETC la función de trabajo de la iniciativa. <span>Las horas planificadas se distribuyen equitativamente en [!DNL Workfront]. Si una tarea o un problema abarca varios meses, la cantidad de horas planificadas para cada mes en la duración de la iniciativa se convierte en ETC mensuales y se transfiere a cada mes de la iniciativa.</span></p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Ejemplo: </b></span></span><span>Por ejemplo, si se asigna una tarea a un rol durante 80 horas planificadas en septiembre, el rol importado mostrará 0,5 FTE para la iniciativa en septiembre.</span> </p> </li> 
      <li> <p>[!DNL Workfront] calcula el valor de FTE de los roles de trabajo requeridos asociados a la iniciativa mediante la fórmula siguiente:</p> <p><code>Required Job Role FTE (initiative) = Job Role assignment Planned Hours (</code><code>from tasks and issues on the project)/ 160</code> </p> <p>Sugerencia: [!DNL Scenario Planner] supone que hay 160 horas laborables en un mes.</p> <p>Por ejemplo, si un proyecto tiene una duración de 1200 minutos y un rol en el proyecto está asociado con 600 minutos de horas planificadas, su valor de FTE es 0,5. Al importar el proyecto, el valor de FTE de rol requerido en la iniciativa recién creada es de 0,5 por cada mes de la iniciativa. </p> </li> 
-     <li>Cuando se asigna un rol a una tarea en el proyecto con cero horas planificadas, el valor de FTE requerido para el rol de trabajo de la iniciativa es cero de forma predeterminada. <!--
+     <li>Cuando se asigna un rol a una tarea en el proyecto con cero horas planificadas, el valor de FTE requerido para el rol de trabajo de la iniciativa es cero de forma predeterminada.
+     <!--
        <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
          (NOTE: this used to be 1, not zero in Production) 
        </MadCap:conditionalText>
-      --></li> 
+      -->
+      </li>
      <li>Cuando se asigna un rol a una tarea en el proyecto con una [!UICONTROL Duración] cero, el valor de FTE requerido <span> u horas</span> para el rol de la iniciativa es cero de forma predeterminada, incluso si la tarea tiene horas planificadas. </li> 
     </ul> </td> 
   </tr> 

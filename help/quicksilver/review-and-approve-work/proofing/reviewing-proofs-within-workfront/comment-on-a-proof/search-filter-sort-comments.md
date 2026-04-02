@@ -6,7 +6,9 @@ description: Puede buscar, filtrar y ordenar comentarios de prueba para navegar 
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 03edaa7e-08c3-4ab1-83ab-747694cf1c17
-source-git-commit: fe269b088c82e7045ffbb5155d54432e0b413cbe
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '787'
 ht-degree: 96%
@@ -26,7 +28,7 @@ Puede buscar, filtrar y ordenar comentarios de prueba para navegar fácilmente p
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td role="rowheader">Paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
@@ -89,9 +91,11 @@ Puede filtrar los comentarios que se muestran definiendo parámetros de filtro c
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Acciones</strong> </td> 
-      <td>Muestra solo los comentarios que coinciden con la acción seleccionada: n Sin acción. Las acciones deben estar habilitadas en el sistema. Para obtener más información, consulte.<!--
+      <td>Muestra solo los comentarios que coinciden con la acción seleccionada: n Sin acción. Las acciones deben estar habilitadas en el sistema. Para obtener más información, consulte .
+      <!--
         &nbsp;
-       --></td> 
+       -->
+       </td>
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Opciones generales de filtrado</strong> </td> 
@@ -149,17 +153,17 @@ Al ordenar la lista de comentarios, la opción de ordenación que elija se recor
      </tr> 
      <tr> 
       <td role="rowheader">Página (abajo, arriba)</td> 
-      <td>Muestra los comentarios en orden de aparición en relación con el número de página o la línea de tiempo del vídeo. </td> 
+      <td>Muestra los comentarios en orden de aparición en relación con el número de página o la cronología del vídeo. </td> 
       <td>Disponible solo para pruebas estáticas.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Marca de tiempo (descendente)</td> 
-      <td>Muestra los comentarios en orden de aparición en relación con la línea de tiempo del vídeo. Los comentarios realizados más adelante en la línea de tiempo se muestran primero. </td> 
+      <td>Muestra los comentarios en orden de aparición en relación con la cronología del vídeo. Los comentarios realizados más adelante en la cronología se muestran primero. </td> 
       <td>Disponible solo para pruebas de vídeo.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Marca de tiempo (ascendente)</td> 
-      <td>Muestra los comentarios en orden de aparición en relación con la línea de tiempo del vídeo. Los comentarios realizados anteriormente en la línea de tiempo se muestran primero. </td> 
+      <td>Muestra los comentarios en orden de aparición en relación con la cronología del vídeo. Los comentarios realizados anteriormente en la cronología se muestran primero. </td> 
       <td>Disponible solo para pruebas de vídeo.</td> 
      </tr> 
      <tr> 

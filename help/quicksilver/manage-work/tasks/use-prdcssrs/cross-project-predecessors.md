@@ -6,7 +6,9 @@ description: Una tarea predecesora entre proyectos es una tarea de la que depend
 author: Alina
 feature: Work Management
 exl-id: 7e29e589-e0a5-437e-935d-d5bc1b268594
-source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '741'
 ht-degree: 94%
@@ -29,7 +31,7 @@ Al vincular proyectos mediante predecesoras entre proyectos, las fechas del proy
 
 >[!TIP]
 >
->Debe recalcular las líneas de tiempo de los proyectos para ver las fechas actualizadas del proyecto secundario. Para obtener más información sobre cómo recalcular líneas de tiempo, consulte [Configurar el recálculo de la línea de tiempo para los proyectos](../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-timeline-recalculations-projects.md).
+>Debe recalcular las cronologías de los proyectos para ver las fechas actualizadas del proyecto secundario. Para obtener más información sobre cómo recalcular cronologías, consulte [Configurar el recálculo de la cronología para los proyectos](../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-timeline-recalculations-projects.md).
 
 Para obtener más información acerca de las relaciones de predecesoras, consulte [Información general sobre las predecesoras de tareas](../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md).
 
@@ -42,7 +44,7 @@ Para obtener más información acerca de las relaciones de predecesoras, consult
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td role="rowheader">Paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
@@ -65,7 +67,8 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -91,7 +94,8 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
    <td> <p>Manage permissions to the tasks and the projects</p> </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Crear una predecesora entre proyectos
 

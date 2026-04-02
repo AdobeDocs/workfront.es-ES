@@ -7,10 +7,12 @@ description: Puede integrar [!DNL Adobe Workfront] con aplicaciones de terceros.
 feature: Workfront Integrations and Apps
 author: Becky
 exl-id: ca51cb23-9332-4ce5-aefb-f333455cfc7c
-source-git-commit: 1c11be2d6de471bf456107b5c86a599766583f74
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '433'
-ht-degree: 73%
+ht-degree: 99%
 
 ---
 
@@ -43,7 +45,7 @@ Actualmente, las integraciones integradas disponibles en Workfront son las sigui
      <li>Premiere Pro </li>
      <li>After Effects </li>
      </ul>
-     <li><p>Descargar/instalar desde <a href="https://exchange.adobe.com/apps/browse/cc?page=1&product=All&q=workfront&sort=RELEVANCE" class="MCXref xref">Adobe Exchange</a>.</p></li></ul>
+     <li><p>Descargar/instalar desde <a href="https://exchange.adobe.com/apps/browse/cc?page=1&amp;product=All&amp;q=workfront&amp;sort=RELEVANCE" class="MCXref xref">Adobe Exchange</a>.</p></li></ul>
      <p>Para obtener información e instrucciones, consulte <a href="https://experienceleague.adobe.com/es/docs/workfront/using/adobe-workfront-integrations/workfront-for-creative-cloud/install-wf-cc/wf-cc-install-toc" class="MCXref xref">Instalar el complemento de [!DNL Adobe Workfront] para aplicaciones de [!DNL Creative Cloud]</a>.</p> </td> 
   </tr> 
   <tr> 
@@ -52,9 +54,9 @@ Actualmente, las integraciones integradas disponibles en Workfront son las sigui
     <ul> 
      <li>Crear automáticamente carpetas vinculadas entre Workfront y Adobe Experience Manager 
       <li>Sincronizar metadatos de recursos vinculados existentes</p></li>
-      <li>Actualice automáticamente el portafolio, el programa, el proyecto, la tarea, el problema y los documentos metatada cuando se cambie en Workfront.</li>
-      <li>Conecte sin problemas varios repositorios de Experience Manager Assets a un entorno de Workfront o varios entornos de Workfront a un repositorio de Experience Manager Assets en los ID de organización</li></ul>
-     <p>Para obtener información e instrucciones, consulte <a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/aem-asset-integrations.md" class="MCXref xref">Información general sobre las integraciones de Adobe Experience Manager Assets</a></p> 
+      <li>Actualice automáticamente el portafolio, el programa, el proyecto, la tarea, el problema y los metatados del documento cuando se cambien en Workfront.</li>
+      <li>Conecte sin problemas varios repositorios de Experience Manager Assets a un entorno de Workfront o varios entornos de Workfront a un repositorio de Experience Manager Assets en los ID de organización.</li></ul>
+     <p>Para obtener información e instrucciones, consulte <a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/aem-asset-integrations.md" class="MCXref xref">Información general sobre las integraciones de Adobe Experience Manager Assets</a>.</p> 
      </td>
   </tr> 
   <tr> 
@@ -78,13 +80,15 @@ Actualmente, las integraciones integradas disponibles en Workfront son las sigui
      <li>Vincular documentos y carpetas a [!DNL Workfront]</li> 
     </ul> </td> 
   </tr> 
-  <!--<tr> 
+  <!--
+  <tr> 
    <td role="rowheader">Microsoft Calendars (Office 365 / Outlook Live)</td> 
    <td> 
     <ul> 
      <li> <p>Integrate with a web-based version of Outlook in cloud-hosted Office 365 or Outlook Live. </p>
     </ul> </td> 
-  </tr>-->
+  </tr>
+  -->
   <tr> 
    <td role="rowheader"> <p>Microsoft OneDrive</p> <p> <img src="assets/microsoft-onedrive.png"> </p> </td> 
    <td> 
@@ -92,7 +96,8 @@ Actualmente, las integraciones integradas disponibles en Workfront son las sigui
      <li>Vincular documentos y carpetas a [!DNL Workfront]</li> 
     </ul> </td> 
   </tr> 
-  <!--<tr> 
+  <!--
+  <tr> 
    <td role="rowheader"> <p>Microsoft Outlook</p> <p> <img src="assets/outlook.png" style="max-width: 80px;"> </p> </td> 
    <td> 
     <ul> 
@@ -101,9 +106,10 @@ Actualmente, las integraciones integradas disponibles en Workfront son las sigui
      <li>Create new tasks from an email </li> 
      <li>Comment on [!DNL Workfront] items </li> 
     </ul> </td> 
-  </tr> -->
+  </tr>
+  -->
   <tr> 
-   <td role="rowheader"> <p>Microsoft Teams</p> <p> <img src="assets/msteamslogo.png" style="max-width: 80px;"> </p><b>NOTA</b>: A partir del 1 de julio de 2025, Microsoft eliminará la compatibilidad con la aplicación de escritorio Classic Teams. Como resultado, la integración de Workfront con Microsoft Teams no será compatible una vez que la aplicación de escritorio Classic Teams ya no esté disponible. </p> </td> 
+   <td role="rowheader"> <p>Microsoft Teams</p> <p> <img src="assets/msteamslogo.png" style="max-width: 80px;"> </p><b>Nota</b>: A partir del 1 de julio de 2025, Microsoft eliminará la compatibilidad con la aplicación de escritorio Classic Teams. Como resultado, la integración de Workfront con Microsoft Teams no será compatible una vez que la aplicación de escritorio Classic Teams ya no esté disponible. </p> </td> 
    <td> 
     <ul> 
      <li>Obtener notificaciones de [!DNL Workfront] en [!DNL Microsoft Teams] </li> 

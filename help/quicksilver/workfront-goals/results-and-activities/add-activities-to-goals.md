@@ -7,7 +7,9 @@ description: Las actividades miden el progreso de una meta. Sin resultados asoci
 author: Alina
 feature: Workfront Goals
 exl-id: 4d6ef324-4b5c-402b-b64d-b1a2a7d2ab57
-source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '402'
 ht-degree: 37%
@@ -73,7 +75,8 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
 
 +++
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto">
 <col>
 </col>
@@ -127,7 +130,8 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
 </td>
   </tr>
 </tbody>
-</table>-->
+</table>
+-->
 
 ## Requisitos previos
 

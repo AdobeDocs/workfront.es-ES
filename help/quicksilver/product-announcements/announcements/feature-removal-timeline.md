@@ -7,7 +7,9 @@ description: Se están eliminando varias características del producto Adobe Wor
 author: Luke
 feature: Product Announcements
 exl-id: 119d65c7-2925-4b36-832a-ee06a718ce7e
-source-git-commit: cb38223c4dd8048fd2ab105abce2c9a79b84c43f
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '259'
 ht-degree: 99%
@@ -44,7 +46,7 @@ Se están eliminando varias características del producto Adobe Workfront. A con
    <td> <p>El 9 de noviembre de 2020 deja de ser compatible (con la versión 20.4)</p> <p>—</p> <p>Se eliminó la plataforma de Workfront después del primer semestre de 2022</p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Workfront Fusion heredado</p> <p>Workfront Fusion ofrece una experiencia mejorada en contraste con Workfront Fusion heredado.</p> <p>Para obtener más información sobre Workfront Fusion, consulte <a href="https://experienceleague.adobe.com/es/docs/workfront-fusion/using/home">Adobe Workfront Fusion</a>.</p> </td> 
+   <td> <p>Workfront Fusion heredado</p> <p>Workfront Fusion ofrece una experiencia mejorada en contraste con Workfront Fusion heredado.</p> <p>Para obtener más información sobre Workfront Fusion, consulte <a href="https://experienceleague.adobe.com/en/docs/workfront-fusion/using/home">Adobe Workfront Fusion</a>.</p> </td> 
    <td> </td> 
    <td>Se eliminó de la plataforma de Workfront el 31 de marzo de 2021</td> 
   </tr> 
@@ -52,19 +54,24 @@ Se están eliminando varias características del producto Adobe Workfront. A con
    <td> <p>Flash</p> <p>Ahora existen varias herramientas disponibles en Workfront para reemplazar aquellas herramientas basadas en Flash. Para obtener información más detallada, consulte <a href="../../product-announcements/announcements/announcement-archive/replace-flash-tools.md" class="MCXref xref">Reemplazo de herramientas basadas en Flash en Adobe Workfront</a>.</p> </td> 
    <td> </td> 
    <td> <p> </p> <p>El 19 de noviembre de 2020 se eliminó de la plataforma de Workfront</p> </td> 
-  </tr> <!--
+  </tr>
+  <!--
    <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
     <td> <p>Enhanced Authentication 1.0</p> <p>The method of migrating to the new Enhanced Authentication 2.0 depends on whether you are using Legacy Authentication or Enhanced Authentication 1.0. For more information, see <a href="../../administration-and-setup/manage-workfront/security/get-started-enhanced-authentication.md" class="MCXref xref">Enhanced Authentication overview</a>.</p> </td> 
     <td>&nbsp;</td> 
     <td>2021</td> 
    </tr>
-  --> <!--
+  -->
+  <!--
    <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-    <td> <p>Allowlist updates </p> <!--
+    <td> <p>Allowlist updates </p>
+    <!--
       <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Split</p>
-     --> <!--
+     -->
+     <!--
       <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Email Service updated (MailGun)</p>
-     --> </td>
+     -->
+     </td>
 
 </tr>
 

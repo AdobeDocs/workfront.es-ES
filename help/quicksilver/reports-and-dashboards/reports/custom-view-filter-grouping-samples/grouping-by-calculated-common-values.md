@@ -2,12 +2,14 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 'Agrupación: Organizar resultados de lista por un valor calculado común a todos los objetos de la agrupación'
+title: 'Agrupación: organizar los resultados de la lista por un valor calculado común a todos los objetos de la agrupación'
 description: Es posible que desee ver las tareas agrupadas por porcentaje completado en intervalos de 0-25, 26-50, 51-75, 75-99 y 100. Para ello, puede crear una agrupación mediante el modo de texto.
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 93b743ce-7e54-4a96-933b-912e2107a84f
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '247'
 ht-degree: 82%
@@ -20,7 +22,7 @@ ht-degree: 82%
 
 Es posible que desee ver las tareas agrupadas por porcentaje completado en intervalos de 0-25, 26-50, 51-75, 75-99 y 100. Para ello, puede crear una agrupación mediante el modo de texto.
 
-![Agrupando por valor calculado](assets/grouping-calculated-value-column-to-all-objects.png)
+![Agrupación por valor calculado](assets/grouping-calculated-value-column-to-all-objects.png)
 
 ## Requisitos de acceso
 

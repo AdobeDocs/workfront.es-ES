@@ -6,7 +6,9 @@ description: Puede editar la información de los portafolios que ha creado o que
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 0a2e18c3-1722-4fc6-8442-19e80eca9d47
-source-git-commit: ce986a912c2ee231b9dc2e1c7a3e9587b20aa0ba
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1080'
 ht-degree: 65%
@@ -15,13 +17,15 @@ ht-degree: 65%
 
 # Editar portafolios
 
-<!--<div class="preview"> 
+<!--
+<div class="preview"> 
 
 The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release.      
 
 For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
 
-</div>-->
+</div>
+-->
 
 Puede editar la información de los portafolios que ha creado o que otros usuarios han creado si los han compartido con usted.
 
@@ -46,7 +50,7 @@ Puede editar un portafolio en la página del portafolio o editar portafolios en 
   </tr> 
   <tr> 
    <td role="rowheader">Nivel de acceso</td> 
-   <td> <p>Acceso de [!UICONTROL Edit] a portafolios de </p>  </td> 
+   <td> <p>Acceso de [!UICONTROL Edit] a portafolios de [!UICONTROL]</p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permisos de objeto</td> 
@@ -60,7 +64,8 @@ Puede editar un portafolio en la página del portafolio o editar portafolios en 
 
 +++ 
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -87,7 +92,8 @@ Puede editar un portafolio en la página del portafolio o editar portafolios en 
  </tbody> 
 </table>
 
-*For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).-->
+*For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+-->
 
 ## Editar portafolios
 

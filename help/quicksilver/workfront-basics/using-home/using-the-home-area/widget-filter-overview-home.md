@@ -1,19 +1,21 @@
 ---
 product-area: home
 navigation-topic: new-home
-title: Resumen de filtros de widget de inicio
+title: Información general de filtros de widget en Inicio
 description: Puede elegir entre una serie de widgets para personalizar el contenido que aparece en la página de inicio. Estos widgets se pueden cambiar de tamaño y organizar en la página de inicio.
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 58f79e81-df6b-456f-9e91-4e00a1c2a8a2
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1092'
-ht-degree: 15%
+ht-degree: 16%
 
 ---
 
-# Resumen de filtros de widget de inicio
+# Información general de filtros de widget en Inicio
 
 <span class="preview">La información resaltada en esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa para todos los clientes. Después de las versiones mensuales en Production, las mismas funciones también están disponibles en el entorno Production para los clientes que habilitaron versiones rápidas. </span>
 
@@ -106,10 +108,12 @@ Puede utilizar los siguientes filtros en el widget Mis tareas:
 </ul>
 </td>
   </tr>
-   <!-- <tr>
+   <!--
+    <tr>
     <td>All Unassigned Tasks</td>
     <td></td>
-  </tr> -->
+  </tr>
+  -->
   <tr>
     <td>Tareas de aprobación</td>
     <td>Muestra las tareas en estado Pendiente de aprobación</td>

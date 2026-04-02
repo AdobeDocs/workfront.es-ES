@@ -6,14 +6,16 @@ description: Puede quitar usuarios de un proyecto cuando ya no estén implicados
 author: Alina
 feature: Work Management
 exl-id: 3a75c78d-faed-41cd-a0a4-59504bb981af
-source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '510'
-ht-degree: 12%
+ht-degree: 14%
 
 ---
 
-# Quitar usuarios de proyectos
+# Eliminar usuarios del proyecto
 
 Puede quitar usuarios de un proyecto cuando ya no estén implicados en completar el trabajo del proyecto. La eliminación de usuarios de los proyectos tiene implicaciones en las asignaciones de tareas y problemas, así como en las funciones de proyecto. Los usuarios eliminados dejan de recibir notificaciones destinadas al equipo del proyecto. Para obtener más información sobre las notificaciones para los equipos del proyecto, vea [Tipos de notificación de eventos](../../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md).
 
@@ -28,7 +30,7 @@ Los usuarios asociados a un proyecto se enumeran en el área Personas de un proy
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td role="rowheader">Paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
@@ -51,7 +53,8 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -76,7 +79,8 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
    <td> <p>Manage permissions on the project</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Cómo eliminar un usuario afecta a las tareas, problemas y proyectos existentes
 

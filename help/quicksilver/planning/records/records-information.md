@@ -6,19 +6,23 @@ feature: Workfront Planning
 role: User, Admin
 exl-id: 7f32ebab-b8dd-496d-b510-99055924b0c7
 recommendations: noDisplay, noCatalog
-source-git-commit: 15ffe027c281782bcaa4df229badc134d91195a0
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '175'
-ht-degree: 61%
+ht-degree: 89%
 
 ---
 
 
 # Registros: índice de artículos
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -33,9 +37,9 @@ En los siguientes artículos se describe cómo crear y administrar registros y s
 * [Creación de objetos mediante automatizaciones de registros de Adobe Workfront Planning](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md)
 * [Editar registros](/help/quicksilver/planning/records/edit-records.md)
 * [Eliminar registros](/help/quicksilver/planning/records/delete-records.md)
-* [Restauración de registros eliminados](/help/quicksilver/planning/records/restore-deleted-records.md)
-* [Uso compartido de registros mediante un vínculo](/help/quicksilver/planning/records/share-records.md)
-* [Resumen de registros conectados](/help/quicksilver/planning/records/connected-records-overview.md)
+* [Restaurar registros eliminados](/help/quicksilver/planning/records/restore-deleted-records.md)
+* [Compartir registros usando un vínculo](/help/quicksilver/planning/records/share-records.md)
+* [Información general de registros conectados](/help/quicksilver/planning/records/connected-records-overview.md)
 * [Conectar registros](/help/quicksilver/planning/records/connect-records.md)
 * [Duplicar registros](/help/quicksilver/planning/records/copy-or-duplicate-records.md)
 * [Administrar comentarios de registros](/help/quicksilver/planning/records/manage-record-comments.md)
@@ -43,6 +47,6 @@ En los siguientes artículos se describe cómo crear y administrar registros y s
 * [Añadir una miniatura a un registro](/help/quicksilver/planning/records/add-thumbnails-to-records.md)
 * [Añadir una imagen de portada a un registro](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md)
 * [Administrar el diseño de página de registro](/help/quicksilver/planning/records/manage-the-record-page.md)
-* [Exportación de los detalles de un registro](/help/quicksilver/planning/records/export-the-record-page.md)
+* [Exportar detalles de un registro](/help/quicksilver/planning/records/export-the-record-page.md)
 * [Exportar registros desde la vista de tabla](/help/quicksilver/planning/records/export-records-from-the-table-view.md)
 * [Agregar una página de registro Conectado a un registro](/help/quicksilver/planning/records/add-a-connected-records-page-to-a-record.md)

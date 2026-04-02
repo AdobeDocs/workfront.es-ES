@@ -7,10 +7,12 @@ description: Debe agregar resultados, actividades o metas alineadas a una meta p
 author: Alina
 feature: Workfront Goals
 exl-id: 64fa0aef-cb92-465a-9b74-d863fc232fd1
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '830'
-ht-degree: 15%
+ht-degree: 20%
 
 ---
 
@@ -20,13 +22,14 @@ ht-degree: 15%
 
 >[!NOTE]
 >
->Su empresa puede optar por seguir utilizando los objetivos de Adobe Workfront si compró este paquete anteriormente. Debe hablar con el representante de su cuenta para obtener más detalles.
+>Su empresa puede optar por seguir utilizando Adobe Workfront Goals si compró este paquete antes. Debe hablar con su representante de cuentas para obtener más detalles.
 >
 >Adobe Workfront Goals ya no se puede adquirir.
 >
 >Para obtener información adicional sobre el acceso a Workfront Goals, consulte [Requisitos para usar Workfront Goals](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).
 
-<!--Old:
+<!--
+Old:
 
 >[!IMPORTANT]
 >
@@ -43,7 +46,8 @@ ht-degree: 15%
 >
 >Contact your Workfront account manager to learn about a Workfront Goals license.    
 > 
->For additional information about access to Workfront Goals, see [Requirements to use Workfront Goals](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).   -->
+>For additional information about access to Workfront Goals, see [Requirements to use Workfront Goals](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).
+-->
 
 Cuando se crea una meta, esta tiene el estado Borrador. Para obtener información sobre cómo crear metas, consulte [Crear metas en Adobe Workfront Goals](../../workfront-goals/goal-management/create-goals.md).
 
@@ -86,7 +90,7 @@ Tenga en cuenta lo siguiente al trabajar con resultados:
 
 Para obtener más información acerca de los resultados, vea la lista de similitudes entre los resultados y las actividades en la sección [Similitudes entre los resultados, las actividades y los proyectos](#similarities-between-results-activities-and-projects) de este artículo.
 
-## Resumen de actividades
+## Información general sobre las actividades
 
 <!--
 This will have additional types in the future - add another section for types?
@@ -201,7 +205,7 @@ La siguiente tabla muestra las similitudes y diferencias entre los resultados, l
    <td>✔</td> 
    <td>✔</td> 
   </tr> 
-  <tr> **&#x200B;**
+  <tr> ****
    <td>Ofrecen una serie de valores entre los valores inicial y final que ilustran lo cerca que está de alcanzarlos. La proximidad al valor final calcula un valor de Progreso para el objetivo. </td> 
    <td>✔</td> 
    <td>✔</td> 

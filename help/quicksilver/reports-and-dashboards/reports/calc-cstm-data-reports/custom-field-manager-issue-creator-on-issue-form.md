@@ -7,7 +7,9 @@ description: Con un campo personalizado calculado, puede mostrar el nombre del a
 author: Courtney
 feature: Reports and Dashboards
 exl-id: f501ce1a-7a80-458b-9b30-2292426c9262
-source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '334'
 ht-degree: 98%
@@ -18,7 +20,8 @@ ht-degree: 98%
 
 Con un campo personalizado calculado, puede mostrar el nombre del administrador del creador de un problema en un formulario personalizado adjunto al problema. Con la misma instrucción, puede generar campos calculados similares para proyectos, problemas y otros objetos.
 
-<!--outdated link: 
+<!--
+outdated link: 
 >[!TIP]
 >
 >For information about additional custom text mode examples from other customers, follow the [Text Mode Reporting](https://one.workfront.com/s/topic/0TO0z000000cdHmGAI/text-mode-reporting?tabset-21363=3) topic on our Community site.

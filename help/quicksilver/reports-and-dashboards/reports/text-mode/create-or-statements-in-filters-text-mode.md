@@ -6,7 +6,9 @@ description: Puede incluir varias instrucciones al crear un filtro en listas e i
 author: Courtney
 feature: Reports and Dashboards
 exl-id: be145e22-d66c-4a74-af0e-8bb0598b4d67
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '503'
 ht-degree: 91%
@@ -28,7 +30,7 @@ Para obtener información acerca de los operadores de filtros de Adobe Workfront
 
 Workfront tiene dos operadores de filtro que conectan cada instrucción de filtro:
 
-* **Y**: al unir 2 instrucciones de filtro del operador AND, indica que desea que ambas instrucciones de filtro se cumplan al mismo tiempo.
+* **AND**: cuando se une a 2 instrucciones de filtro del operador AND, se indica que se desea que ambas instrucciones de filtro se cumplan al mismo tiempo.
 
   De forma predeterminada, las instrucciones de un filtro se unen mediante el operador AND.
 

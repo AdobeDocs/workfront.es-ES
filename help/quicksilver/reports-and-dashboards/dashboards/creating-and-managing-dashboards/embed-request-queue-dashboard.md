@@ -6,7 +6,9 @@ description: Puede incrustar una nueva cola de solicitudes en un panel de contro
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 2d129095-c7ee-45b1-94ce-055d1d91e2fe
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1143'
 ht-degree: 98%
@@ -82,7 +84,7 @@ Cuando comparte un vínculo a un tema específico de la cola con otros usuarios,
 
 Los usuarios pueden cambiar el tipo de solicitud o elegir otro tema si lo necesitan. También se muestra la navegación en el área de solicitudes.
 
-1. Haga clic en el **Menú principal** > **Solicitudes** > **Nueva solicitud**.
+1. Haga clic en **Menú principal** > **Solicitudes** > **Nueva solicitud**.
 1. Continúe seleccionando grupos de temas y temas de colas hasta que llegue a la cola que desea compartir en el panel de control, si desea compartir una cola específica. Para obtener información sobre cómo enviar solicitudes, consulte [Crear y enviar solicitudes de Adobe Workfront](../../../manage-work/requests/create-requests/create-submit-requests.md).
 
    >[!TIP]
@@ -93,7 +95,7 @@ Los usuarios pueden cambiar el tipo de solicitud o elegir otro tema si lo necesi
 
    Esto copia el vínculo a la cola de solicitudes o al tema de la cola a medida que se muestra en la pantalla. Los usuarios pueden actualizar el tipo de solicitud o cualquiera de los grupos de temas y los temas de colas disponibles.
 
-   ![Cola de solicitudes con ruta compartida](assets/share-request-queue-with-share-path-link-embedded-in-dashboard-nwe-350x116.png)
+   ![Solicitar cola con ruta compartida](assets/share-request-queue-with-share-path-link-embedded-in-dashboard-nwe-350x116.png)
 
 ### Obtener un vínculo a una cola de solicitudes y poder cambiar el tipo de solicitud {#obtain-a-link-to-a-request-queue-and-ability-to-change-the-request-type}
 
@@ -114,7 +116,7 @@ Cuando comparte un vínculo a un tipo de solicitud, se selecciona el tipo de sol
 
    Los usuarios pueden seleccionar cualquier grupo de temas o tema de cola que necesiten, o bien elegir otro tipo de solicitud.
 
-   ![URL de cola de solicitudes](assets/share-request-queue-with-direct-url-embedded-in-dashboard-nwe-350x118.png)
+   ![Solicitar URL de cola](assets/share-request-queue-with-direct-url-embedded-in-dashboard-nwe-350x118.png)
 
 ### Obtener un vínculo a una cola de solicitudes sin poder cambiar el tipo de solicitud {#obtain-a-link-to-a-request-queue-with-no-ability-to-change-the-request-type}
 
@@ -143,7 +145,7 @@ Al compartir un vínculo a un tipo de solicitud preseleccionado, el tipo de soli
 
    Los usuarios pueden seleccionar cualquier grupo de temas o tema de cola que necesiten para el tipo de solicitud seleccionado. Los usuarios no pueden seleccionar otro tipo de solicitud.
 
-   ![Código de cola de solicitudes](assets/share-request-queue-with-embedded-code-embedded-in-dashboard-nwe-350x210.png)
+   ![Solicitar código de cola](assets/share-request-queue-with-embedded-code-embedded-in-dashboard-nwe-350x210.png)
 
 ## Incrustar una cola de solicitudes en un panel de control
 

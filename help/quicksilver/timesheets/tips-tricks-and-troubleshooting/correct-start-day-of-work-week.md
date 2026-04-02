@@ -7,7 +7,9 @@ description: El día de inicio de semana en mi hoja de horas no coincide con el 
 author: Lisa
 feature: Timesheets
 exl-id: 5c6c100f-2a04-4a6b-9f95-acc8de3a90f1
-source-git-commit: 69cd5fb1d089b81b7a1673609b92537137b6b68e
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '205'
 ht-degree: 5%
@@ -34,7 +36,8 @@ Si la hoja de horas se creó manualmente, el día de inicio de la semana en la h
 Por ejemplo, con la Configuración regional de correo electrónico establecida en Inglés (Estados Unidos), la semana en la plantilla de horas comienza el domingo. Como alternativa, con la Configuración regional de correo electrónico establecida en Inglés (Reino Unido), la semana en la plantilla de horas comienza en lunes.
 
 
-<!--This is the old content for this article but I found this was not working this way at all, so I changed it to what it is today: 
+<!--
+This is the old content for this article but I found this was not working this way at all, so I changed it to what it is today: 
 
 ## Problem
 

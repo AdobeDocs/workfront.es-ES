@@ -2,12 +2,14 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 'Agrupación: Editar el nombre para mostrar en un agrupamiento'
+title: 'Agrupación: editar el nombre para mostrar en una agrupación'
 description: Puede cambiar el nombre de las agrupaciones en listas e informes por otro más familiar para los usuarios.
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 072d3c2b-9ede-4bb9-9a27-dc77ceb732c4
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '351'
 ht-degree: 73%
@@ -44,7 +46,7 @@ Puede modificar esta agrupación mediante el modo de texto para mostrar un nombr
    <td role="rowheader">Licencia de Adobe Workfront</td> 
    <td> 
    <p>Colaborador o solicitud para modificar un filtro </p>
-   <p>Estándar o plan para modificar un informe</p>
+   <p>Estándar o Plan para modificar un informe</p>
   </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso</td> 
@@ -68,7 +70,7 @@ Para cambiar el nombre para mostrar en una agrupación de proyectos, haga lo sig
 1. Ir a una lista de proyectos.
 1. En el menú desplegable **Agrupación**, seleccione **Nueva agrupación**.
 
-1. Haga clic en **Agregar agrupación** y comience a escribir &quot;Nombre de la cartera&quot; en el campo **Grupo por:**, a continuación selecciónelo cuando aparezca en la lista.
+1. Haga clic en **Agregar agrupación** y empiece a escribir &quot;Nombre de Portfolio&quot; en el campo **Agrupar por:**; a continuación, selecciónelo cuando se muestre en la lista.
 
 1. Haga clic en **Cambiar al modo de texto**.
 1. Realice una de las siguientes acciones:
@@ -79,7 +81,7 @@ Para cambiar el nombre para mostrar en una agrupación de proyectos, haga lo sig
      `group.0.displayname=Your Value`
 
 
-     Por ejemplo, agregue el código siguiente para cambiar el nombre de la pantalla a &quot;Portfolio&quot;:
+     Por ejemplo, agregue el siguiente código para cambiar el nombre para mostrar a &quot;Portfolio&quot;:
 
      `group.0.displayname=Portfolio`
 
@@ -87,7 +89,7 @@ Para cambiar el nombre para mostrar en una agrupación de proyectos, haga lo sig
 
      `group.0.name=Your Value`
 
-     Por ejemplo, agregue el código siguiente para cambiar el nombre de la pantalla a &quot;Portfolio&quot;:
+     Por ejemplo, agregue el siguiente código para cambiar el nombre para mostrar a &quot;Portfolio&quot;:
 
      `group.0.name=Portfolio`
 

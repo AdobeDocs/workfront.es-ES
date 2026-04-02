@@ -2,14 +2,16 @@
 product-area: projects
 navigation-topic: use-predecessors
 title: Forzar predecesoras
-description: Las predecesoras son tareas de las que dependen otras tareas para su finalización. Las relaciones de predecesora afectan a las fechas de inicio y finalización de las tareas y, en última instancia, afectan a la línea de tiempo del proyecto.
+description: Las predecesoras son tareas de las que dependen otras tareas para su finalización. Las relaciones de predecesora afectan a las fechas de inicio y finalización de las tareas y, en última instancia, afectan a la cronología del proyecto.
 author: Alina
 feature: Work Management
 exl-id: c3242b92-9036-4770-a073-2a9c393b97fd
-source-git-commit: 4897f165a7316a52b968601b45f95f7045f63840
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '475'
-ht-degree: 94%
+ht-degree: 95%
 
 ---
 
@@ -17,7 +19,7 @@ ht-degree: 94%
 
 <!-- Audited: 11/2025 -->
 
-Las predecesoras son tareas de las que dependen otras tareas para su finalización. Las relaciones de predecesora afectan a las fechas de inicio y finalización de las tareas y, en última instancia, afectan a la línea de tiempo del proyecto.
+Las predecesoras son tareas de las que dependen otras tareas para su finalización. Las relaciones de predecesora afectan a las fechas de inicio y finalización de las tareas y, en última instancia, afectan a la cronología del proyecto.
 
 Para obtener información sobre las predecesoras, consulte [Información general sobre las tareas predecesoras](../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md).
 
@@ -44,7 +46,7 @@ Si se fuerza una predecesora, la tarea sucesora no podrá iniciarse antes de que
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td role="rowheader">Paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
@@ -67,7 +69,8 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -94,7 +97,8 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
    <td><p>Manage permissions to the tasks and the project</p></td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Forzar una predecesora a nivel de tarea
 

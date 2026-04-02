@@ -6,7 +6,9 @@ description: Puede crear una agrupación personalizada desde cero o personalizar
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 64cc52b7-d97b-4b41-9101-530e7db2d26e
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '446'
 ht-degree: 91%
@@ -44,7 +46,7 @@ Puede crear una agrupación personalizada desde cero o personalizar una agrupaci
   </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso</td> 
-   <td> <p>Acceso de edición a filtros, vistas y agrupaciones</p> <p>Editar el acceso a informes, paneles y calendarios para crear una agrupación en un informe</p>
+   <td> <p>Acceso de edición a filtros, vistas y agrupaciones</p> <p>Edite el acceso a Informes, Paneles y Calendarios para crear una agrupación en un informe</p>
    </td> 
   </tr> 
   <tr> 
@@ -69,7 +71,7 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
 1. Haga clic en **+ Nueva agrupación**.
 Generador de interfaces para crear los lanzamientos de agrupación.
 
-1. En el área **Previsualización de agrupación**, haga clic en **Agregar agrupación** para definir cómo desea que se organice la información del informe. A continuación, se muestra una vista previa del aspecto de la agrupación en el informe.
+1. En el área **Vista previa de la agrupación**, haga clic en **Agregar agrupación** para definir cómo desea que se organice la información del informe. A continuación, se muestra una vista previa del aspecto de la agrupación en el informe.
 
 1. Empiece a escribir el nombre del campo que representa la forma en que desea organizar la información en el informe y, a continuación, haga clic en él cuando aparezca en la lista desplegable.
 1. (Opcional y condicional) Cuando genere una agrupación en una lista actualizada, seleccione **Contraer esta agrupación de forma predeterminada** si desea que los resultados de la agrupación se muestren contraídos en lugar de expandidos. Esta configuración está deshabilitada de forma predeterminada y los resultados de la agrupación siempre se muestran en la lista expandida.

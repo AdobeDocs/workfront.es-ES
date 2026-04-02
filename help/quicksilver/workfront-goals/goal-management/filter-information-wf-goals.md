@@ -6,7 +6,9 @@ description: Puede ver las metas que usted o cualquier otro usuario haya añadid
 author: Alina
 feature: Workfront Goals
 exl-id: ec9b6789-fffe-425c-8316-eefe670ad0d6
-source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1317'
 ht-degree: 91%
@@ -72,7 +74,8 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
 
 +++
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto">
 <col>
 </col>
@@ -123,7 +126,8 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
 </td>
   </tr>
 </tbody>
-</table>-->
+</table>
+-->
 
 ## Información general sobre los filtros en Workfront Goals
 
@@ -193,9 +197,11 @@ Puede crear un filtro desde cero o editar uno de los filtros integrados.
       <tbody> 
        <tr> 
         <td>Todas</td> 
-        <td> <p>Todas las metas del sistema, independientemente de quién los haya creado, cuál sea su periodo de vigencia o quién sea su propietario. Este es el filtro predeterminado y no se puede editar. </p> <!--
+        <td> <p>Todas las metas del sistema, independientemente de quién los haya creado, cuál sea su periodo de vigencia o quién sea su propietario. Este es el filtro predeterminado y no se puede editar. </p>
+        <!--
           <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: what the ALL filter displays might change; right now, it displays all, regardless of status, period, owner, etc)</p>
-         --> </td> 
+         -->
+         </td>
        </tr> 
        <tr> 
         <td>Personal</td> 

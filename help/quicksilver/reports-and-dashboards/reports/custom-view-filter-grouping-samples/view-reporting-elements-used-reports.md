@@ -7,7 +7,9 @@ description: Esta vista muestra la vista, el filtro y la agrupación utilizados 
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 67f86523-e136-4768-af93-586a107b106f
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '223'
 ht-degree: 63%
@@ -20,7 +22,7 @@ ht-degree: 63%
 
 Esta vista muestra la vista, el filtro y la agrupación utilizados para generar cada informe en Adobe Workfront cuando se utiliza en una lista de informes.
 
-Puede ver los `valuefields` o `valueexpressions` utilizados en cada elemento del informe.
+Puede ver `valuefields` o `valueexpressions` utilizados en cada elemento del informe.
 
 ![report_with_elements_definitions.png](assets/report-with-elements-definitions-350x130.png)
 
@@ -63,8 +65,8 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
 1. Vaya a una lista de informes.
 1. En el menú desplegable **Vista**, seleccione **Nueva vista**.
 1. En el área **Vista previa de columna**, elimine todas las columnas excepto una.
-1. Haga clic en el encabezado de la columna restante y, a continuación, haga clic en **Cambiar a modo de texto** > **Editar modo de texto**.
-1. Quite el texto que encuentre en el cuadro **Editar modo de texto** y sustitúyalo por el código siguiente:
+1. Haga clic en el encabezado de la columna restante y, a continuación, haga clic en **Cambiar al modo de texto** > **Editar modo de texto**.
+1. Elimine el texto que encuentre en el cuadro **Editar modo de texto** y reemplácelo por el siguiente código:
 
 
    ```
@@ -108,4 +110,4 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
    column.5.valueformat=HTML
    ```
 
-1. Haga clic en **Hecho** > **Guardar vista**.
+1. Haga clic en **Listo** > **Guardar vista**.

@@ -1,12 +1,14 @@
 ---
 product-area: agile-and-teams;setup
 navigation-topic: create-and-manage-teams
-title: Configurar el botón Listo para los problemas
+title: Configurar el botón Listo para problemas
 description: El botón Listo puede establecer automáticamente el estado de una tarea o un problema. De forma predeterminada, Adobe Workfront marca un problema como Resuelto cuando un asignado hace clic en Listo en su elemento de trabajo.
 author: Courtney
 feature: People Teams and Groups
 exl-id: 2e72854a-2d49-4665-b307-b88f660b141e
-source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1167'
 ht-degree: 97%
@@ -19,7 +21,7 @@ El botón [!UICONTROL Listo] puede establecer automáticamente el estado de una 
 
 >[!NOTE]
 >
->El botón Listo se muestra como Marcar en todas las áreas de Workfront.
+>El botón Listo aparece como Marcar como listo en todas las áreas de Workfront.
 
 ## Información general
 

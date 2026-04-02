@@ -6,7 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c4758b87-45dc-4ffd-b086-5e2e907bdf34
-source-git-commit: e25f6ac3fb4ffc114d59bf5cceecfe718ae914ec
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '531'
 ht-degree: 6%
@@ -34,7 +36,8 @@ En este artículo se describen las plantillas de espacio de trabajo disponibles 
 * Cada tipo de registro viene con un conjunto de campos. Algunos de estos campos son conexiones con otros tipos de registros de Workfront Planning.
 * Puede personalizar cualquier plantilla y agregar más tipos de registros y campos a los existentes.
 
-<!-- I modeled this article by the "List of available Blueprints" and that articles does not have an Access area
+<!--
+ I modeled this article by the "List of available Blueprints" and that articles does not have an Access area
 
 ## Access requirements
 
@@ -50,7 +53,8 @@ You must have the following:
    <td role="rowheader"><p>Adobe Workfront plan*</p></td>
    <td>
 <p>Any</p>
-<!--the above is only for closed beta; when going to GA - activate the following plans:    
+<!--
+the above is only for closed beta; when going to GA - activate the following plans:    
 <p>Current plan: Prime and Ultimate</p>
 <p>Legacy plan: Enterprise</p>->
    </td>
