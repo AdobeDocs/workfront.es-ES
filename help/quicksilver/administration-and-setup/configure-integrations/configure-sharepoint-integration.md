@@ -172,7 +172,7 @@ La reconfiguración de la integración heredada de [!DNL SharePoint] permite a l
 
 1. Haga clic en el icono **[!UICONTROL Main Menu]** ![Menú principal](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront o, si está disponible, haga clic en el icono **[!UICONTROL Main Menu]** ![Menú principal](/help/_includes/assets/main-menu-icon-left-nav.png) en la esquina superior izquierda y, a continuación, haga clic en **[!UICONTROL Setup]** ![Icono de Configuración](/help/_includes/assets/gear-icon-setup.png).
 1. Seleccione **[!UICONTROL Documentos]** en el panel de navegación izquierdo y luego seleccione **[!UICONTROL Proveedores de nube]**.
-1. Asegúrese de que la opción **[!DNL SharePoint]** y la opción **[!UICONTROL [!DNL SharePoint](API de gráficos)]** estén habilitadas.
+1. Asegúrese de que la opción **[!DNL SharePoint]** y la opción **[!UICONTROL [!DNL SharePoint] (API de gráficos)]** estén habilitadas.
 1. Haga clic en **[!UICONTROL Guardar]**.
 1. Seleccione **[!UICONTROL Documentos]** en el panel de navegación izquierdo, luego seleccione **[!UICONTROL [!DNL SharePoint]Integración]**.
 1. Seleccione la marca de verificación de la izquierda de la lista para todas las integraciones existentes y luego seleccione **[!UICONTROL Deshabilitar]**.
