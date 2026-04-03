@@ -7,10 +7,10 @@ recommendations: noDisplay, noCatalog
 exl-id: 4bc2fee9-fa86-41c7-80e7-44bf3e8077d8
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 1a37ff7e4e4b60ac23b0edde6b60258ed508e90b
+source-git-commit: 1ef6ead705231a41cbf62b8a8b35f480da004970
 workflow-type: tm+mt
-source-wordcount: '764'
-ht-degree: 12%
+source-wordcount: '872'
+ht-degree: 11%
 
 ---
 
@@ -20,6 +20,29 @@ Esta página describe las mejoras de los informes realizadas con la versión del
 
 Para obtener una lista de todos los cambios disponibles en este punto del ciclo de la versión del segundo trimestre de 2026, consulte [Información general de la versión del segundo trimestre de 2026](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md).
 
+## Campo Versión actual para versiones de documento
+
+>[!NOTE]
+>
+>Vista previa: 2 de abril de 2026
+>Versión rápida de producción: jueves, 15 de abril de 2026
+>Producción para todos: viernes, 16 de abril de 2026
+
+Se ha agregado un campo booleano `currentVersion` al objeto Versión del documento para facilitar la identificación y generación de informes de la última versión de un documento.
+Con esta actualización:
+
+* Puede usar `currentVersion` en filtros, vistas, agrupaciones y gráficos.
+* El campo está disponible en el selector de campos Lienzo de los informes Versión del documento.
+
+* Cuando se carga una nueva versión:
+
+   * La nueva versión está marcada como `TRUE`
+   * Las versiones anteriores están marcadas como `FALSE`
+
+* Los informes pueden identificar de forma consistente las versiones actuales en los paneles de lienzo y los informes heredados
+
+Los filtros existentes para los informes clásicos que usan `isCurrentVersion` o `isDocumentCurrentVersion` siguen funcionando según lo documentado.
+
 ## La Entrega Programada De Informes Ahora Admite Correos Electrónicos Basados En Vínculos
 
 >[!NOTE]
@@ -28,7 +51,7 @@ Para obtener una lista de todos los cambios disponibles en este punto del ciclo 
 >Versión rápida de producción: jueves, 15 de abril de 2026
 >Producción para todos: viernes, 16 de abril de 2026
 
-Workfront ahora incluye un nuevo tipo de envío de vínculo para los informes programados. En lugar de generar y adjuntar un archivo, esta opción envía un correo electrónico con un vínculo directo al informe en Workfront, lo que permite a los destinatarios ver los datos más actuales en la aplicación.
+Workfront ahora incluye un nuevo tipo de envío de vínculo para los informes programados. En lugar de generar y adjuntar un archivo, esta opción envía un mensaje de correo electrónico con un vínculo directo al informe en Workfront, lo que permite a los destinatarios ver {{$include }} los datos más actuales en la aplicación.
 
 La opción Vínculo es ahora el tipo de envío predeterminado para las reglas de envío de informes programados recién creadas, mientras que los formatos basados en archivos existentes (HTML, PDF, Excel y TSV) permanecen disponibles.
 
