@@ -9,7 +9,9 @@ recommendations: noDisplay, noCatalog
 hide: true
 hidefromtoc: true
 exl-id: b5f0150b-40b5-4386-98bc-374e7ca65b74
-source-git-commit: d35e6c33479ed051aaa87b07ddf38811fffc0cc0
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 2b3e2ac00126facab9cc45ba8fb193d8951a37ec
 workflow-type: tm+mt
 source-wordcount: '838'
 ht-degree: 0%
@@ -52,7 +54,7 @@ Con la revisión y las aprobaciones unificadas, puede:
 * Seguimiento del estado de las revisiones y aprobaciones en tiempo real
 * Centralice los comentarios y las aprobaciones en un solo lugar
 * Asegúrese de que todas las partes interesadas tengan acceso a las versiones más recientes de los recursos
-* Utilice los revisores de IA para automatizar las revisiones de cumplimiento de marca
+* Utilice los revisores de contenido para automatizar las revisiones de cumplimiento de marca
 * y más
 
 Para obtener más información, consulte [Aprobaciones de documentos unificados: índice de artículo](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-reviews-and-approvals.md).
