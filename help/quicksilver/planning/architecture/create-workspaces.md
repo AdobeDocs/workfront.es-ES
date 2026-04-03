@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 604b84c1-4ec6-4d4a-b9f4-4223641ff2ea
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 10d2bcf3f2d349418a8a04e96873bc5c2d3af4a1
+source-git-commit: c4716157a6fdf667f7e608d0c37399f57ec1bbfe
 workflow-type: tm+mt
-source-wordcount: '1188'
+source-wordcount: '1199'
 ht-degree: 35%
 
 ---
@@ -150,6 +150,11 @@ Puede crear espacios de trabajo de las siguientes maneras:
 
   Para obtener más información, consulte la sección [Crear varios espacios de trabajo mediante un paquete de plantillas de varios espacios de trabajo de prácticas recomendadas](#create-multiple-workspaces-using-a-best-practice-multi-workspace-template-bundle) en este artículo
 
+  >[!TIP]
+  >
+  >No puede crear varios espacios de trabajo al mismo tiempo a menos que utilice el paquete de plantillas de prácticas recomendadas.
+
+
 </div>
 
 ### Crear un espacio de trabajo desde cero o desde una plantilla
@@ -238,9 +243,10 @@ Las plantillas incluidas en el paquete contienen espacios de trabajo, tipos de r
 
 >[!IMPORTANT]
 >
->Todos los nombres de espacios de trabajo, tipos de registros, campos y registros incluidos en el paquete son ejemplos y no reflejan su propio entorno.
+>Los nombres de los espacios de trabajo y los registros incluidos en el paquete son ejemplos y no reflejan su propio entorno.
 >
->Se recomienda utilizar este paquete de plantillas como ejemplo de una estructura de Planning y continuar creando objetos que reflejen el flujo de trabajo de su organización.
+>Los nombres de los tipos de registros y campos se pueden utilizar en cualquier organización como estándar para la implementación en cualquier sector, según nuestra recomendación.
+>
 
 {{step1-to-planning}}
 

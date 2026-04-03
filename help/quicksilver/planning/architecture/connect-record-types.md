@@ -8,10 +8,10 @@ recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: c4716157a6fdf667f7e608d0c37399f57ec1bbfe
 workflow-type: tm+mt
-source-wordcount: '2982'
-ht-degree: 41%
+source-wordcount: '3044'
+ht-degree: 40%
 
 ---
 
@@ -94,7 +94,7 @@ Para ver un ejemplo de conexión de tipos de registros y registros, consulte [Ej
    <ul><li><p>Licencia de Adobe Experience Manager Assets e integración entre AEM Assets y Workfront para conectar recursos de AEM con tipos de registros de Planning.</p>
    <p>Para obtener más información, consulte <a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md">Adobe Workfront para Experience Manager Assets y Assets Essentials: índice de artículo</a>. </p></li>
    <li><p> Licencia de Adobe GenStudio for Performance Marketing para conectar tipos de registros con marcas de GenStudio</p>
-   <p>Para obtener más información, consulte <a href="https://experienceleague.adobe.com/es/docs/genstudio-for-performance-marketing/user-guide/get-started">Introducción a Adobe GenStudio for Performance Marketing</a>.</p></li></ul>
+   <p>Para obtener más información, consulte <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/get-started">Introducción a Adobe GenStudio for Performance Marketing</a>.</p></li></ul>
    </td> 
   </tr> 
   <tr> 
@@ -275,13 +275,17 @@ Old:
    * **Selección múltiple**: seleccione esta opción para permitir que un registro del tipo de registro actual se conecte con varios registros del tipo de registro de conexión.
    * **Selección única**: seleccione esta opción para permitir que un registro del tipo de registro actual se conecte con un registro del tipo de registro de conexión.
 
-1. Seleccione **Crear campo correspondiente en el tipo de registro vinculado**. Al seleccionarlo, se crea un campo de conexión en el tipo de registro al que está conectado, además del campo de conexión agregado al tipo de registro actual. Esta opción está desactivada de forma predeterminada.
+1. Seleccione **Crear campo correspondiente en el tipo de registro vinculado**. Al seleccionarlo, se crea un campo de conexión en el tipo de registro al que se está conectando, además del campo de conexión agregado al tipo de registro actual. Esta opción está desactivada de forma predeterminada.
 
    >[!TIP]
    >
    >* Además del límite de 30 campos de conexión para un tipo de registro, hay un límite de 500 campos para un tipo de registro. Se recomienda mantener esta configuración desactivada, especialmente para los tipos de registros taxonómicos, para evitar alcanzar este límite.
    >
    >* Seleccionar el **campo correspondiente en el tipo de registro vinculado** es un requisito previo para crear jerarquías.
+   >
+   >* No se crea un campo de registro vinculado para los objetos de otra aplicación en sus respectivas aplicaciones. Por ejemplo, no hay ningún campo creado para objetos de Workfront conectados a registros de Planning.
+   >
+   >   
 
 1. (Condicional) Si habilitó **Crear campo correspondiente en el tipo de registro vinculado**, elija entre las siguientes opciones para indicar cuántos registros se pueden conectar y desde los que se pueden conectar los usuarios:
 
@@ -306,7 +310,7 @@ Old:
 
    >[!NOTE]
    >
-   >El administrador de Workfront puede asignar campos de Workfront Planning a campos de Experience Manager Assets a través de la asignación de metadatos en Workfront. Para obtener más información, consulte [Configuración de la asignación de metadatos de recursos entre Adobe Workfront y Experience Manager Assets](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
+   >El administrador de Workfront puede asignar campos de Workfront Planning a campos de Experience Manager Assets a través de la asignación de metadatos en Workfront. Para obtener más información, consulte [Configuración de la asignación de metadatos de recursos entre Adobe Workfront y Experience Manager Assets](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
 
 
 1. (Condicional) Cuando seleccione conectarse a Experience Manager Assets, a un tipo de registro de Workfront Planning o a una marca de GenStudio, elija una de las siguientes opciones en el área **Apariencia del registro**:
@@ -329,7 +333,14 @@ Old:
 
 1. Seleccione **Seleccionar campos de búsqueda** para agregar campos desde el tipo de registro al que se está conectando. Los campos de búsqueda son campos asociados al tipo de registro u objeto al que se está vinculando. Al vincularlos, se muestra información del registro u objeto con el que se está vinculando en el registro desde el que se está vinculando. Esta opción está seleccionada de forma predeterminada.
 
+   <!--
+    When reference fields are coming, change the first bullet in the TIP below with this: 
+    >* In the Production environment, you cannot add Workfront reference fields (for example, the Project Group or Company from a Workfront Project) as lookup fields in Planning. <span class="preview">You can add Workfront reference fields as lookup fields in the Preview environment.</span>
+    -->
+
    >[!TIP]
+   >
+   >* No se pueden agregar campos de referencia de otra aplicación como campos de búsqueda. Por ejemplo, no se puede agregar Grupo de proyectos o Compañía como campo de búsqueda en Planning cuando se conecta a proyectos de Workfront.
    >
    >* En el entorno de producción, no se pueden agregar campos de usuario de Workfront (incluidos campos como Propietario del proyecto o Patrocinador del proyecto) como campos de búsqueda. <span class="preview">Puede agregar campos de usuario como campos de búsqueda en el entorno de vista previa.</span>
    >
