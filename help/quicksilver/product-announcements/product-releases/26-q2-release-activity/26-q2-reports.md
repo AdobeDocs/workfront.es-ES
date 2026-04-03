@@ -7,7 +7,7 @@ recommendations: noDisplay, noCatalog
 exl-id: 4bc2fee9-fa86-41c7-80e7-44bf3e8077d8
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 64ee7798e79324af0ab48af91f49d04d94ece3a9
+source-git-commit: 1a37ff7e4e4b60ac23b0edde6b60258ed508e90b
 workflow-type: tm+mt
 source-wordcount: '764'
 ht-degree: 12%
@@ -19,6 +19,22 @@ ht-degree: 12%
 Esta página describe las mejoras de los informes realizadas con la versión del segundo trimestre de 2026 en el entorno de vista previa. Estas mejoras estarán disponibles en el entorno de producción, como se ha indicado.
 
 Para obtener una lista de todos los cambios disponibles en este punto del ciclo de la versión del segundo trimestre de 2026, consulte [Información general de la versión del segundo trimestre de 2026](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md).
+
+## La Entrega Programada De Informes Ahora Admite Correos Electrónicos Basados En Vínculos
+
+>[!NOTE]
+>
+>Vista previa: 3 de abril de 2026
+>Versión rápida de producción: jueves, 15 de abril de 2026
+>Producción para todos: viernes, 16 de abril de 2026
+
+Workfront ahora incluye un nuevo tipo de envío de vínculo para los informes programados. En lugar de generar y adjuntar un archivo, esta opción envía un correo electrónico con un vínculo directo al informe en Workfront, lo que permite a los destinatarios ver los datos más actuales en la aplicación.
+
+La opción Vínculo es ahora el tipo de envío predeterminado para las reglas de envío de informes programados recién creadas, mientras que los formatos basados en archivos existentes (HTML, PDF, Excel y TSV) permanecen disponibles.
+
+Con este cambio, también hemos actualizado el aspecto del correo electrónico de envío de informes.
+
+Para obtener más información, consulte [Programar una entrega automática de informes](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/set-up-automatic-report-delivery.md).
 
 ## Ejecutar informes como un usuario específico en paneles de lienzo
 
@@ -35,22 +51,6 @@ Ahora puede configurar informes en paneles de lienzo para que se ejecuten como u
 Esto garantiza datos más coherentes y fiables entre los visualizadores de tableros, incluso cuando el acceso a los espacios de trabajo de Planning, los tipos de registros o la configuración de autorización sea diferente.
 
 Para obtener más información, consulte [Crear un informe KPI en un panel de lienzo](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-kpi-report.md), [Crear un informe de gráfico en un panel de lienzo](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-chart-report.md) o [Crear un informe de tabla en un panel de lienzo](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-table-report.md).
-
-## La Entrega Programada De Informes Ahora Admite Correos Electrónicos Basados En Vínculos
-
->[!NOTE]
->
->Vista previa: 2 de abril de 2026
->Versión rápida de producción: jueves, 15 de abril de 2026
->Producción para todos: viernes, 16 de abril de 2026
-
-Workfront ahora incluye un nuevo tipo de envío de vínculo para los informes programados. En lugar de generar y adjuntar un archivo, esta opción envía un correo electrónico con un vínculo directo al informe en Workfront, lo que permite a los destinatarios ver los datos más actuales en la aplicación.
-
-La opción Vínculo es ahora el tipo de envío predeterminado para las reglas de envío de informes programados recién creadas, mientras que los formatos basados en archivos existentes (HTML, PDF, Excel y TSV) permanecen disponibles.
-
-Con este cambio, también hemos actualizado el aspecto del correo electrónico de envío de informes.
-
-Para obtener más información, consulte [Programar una entrega automática de informes](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/set-up-automatic-report-delivery.md).
 
 ## Nuevas opciones de autenticación para la conexión de Data Connect
 

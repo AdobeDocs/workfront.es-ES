@@ -7,7 +7,7 @@ recommendations: noDisplay, noCatalog
 exl-id: 7e440fc0-45ad-4f73-ae7e-5374e4ae1480
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: b334e8b234c9c87dd1b1ecd26df6645b3381ffb0
+source-git-commit: 1a37ff7e4e4b60ac23b0edde6b60258ed508e90b
 workflow-type: tm+mt
 source-wordcount: '2228'
 ht-degree: 25%
@@ -20,7 +20,7 @@ Esta página proporciona información sobre la funcionalidad que se incluye en l
 
 Las mejoras de esta página están disponibles en el entorno de vista previa. Esta página se actualizará con mejoras adicionales a medida que la versión del segundo trimestre de 2026 se aproxime a su versión de producción planificada.
 
-Se celebran seminarios web en directo para cada versión trimestral, en los que se destacan las nuevas funciones y se proporciona información detallada. Para registrarse, visite la [página de eventos](https://experienceleague.adobe.com/es/events?filters=Workfront) y filtre por Workfront.
+Se celebran seminarios web en directo para cada versión trimestral, en los que se destacan las nuevas funciones y se proporciona información detallada. Para registrarse, visite la [página de eventos](https://experienceleague.adobe.com/en/events?filters=Workfront) y filtre por Workfront.
 
 >[!IMPORTANT]
 >
@@ -252,6 +252,15 @@ Se celebran seminarios web en directo para cada versión trimestral, en los que 
         </tr>
     <tr>
         <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-reports.md" class="MCXref xref" xrefformat="{para}">La Entrega Programada De Informes Ahora Admite Correos Electrónicos Basados En Vínculos</a><p></p>
+            <p>Workfront ahora incluye un nuevo tipo de envío de vínculo para los informes programados. En lugar de generar y adjuntar un archivo, esta opción envía un correo electrónico con un vínculo directo al informe en Workfront, lo que permite a los destinatarios ver los datos más actuales en la aplicación.</p>
+        </td>
+        <td><p>sábado, 03 de abril de 2026</p></td>
+        <td><p>jueves, 15 de abril de 2026</p></td>
+        <td><p>viernes, 16 de abril de 2026</p></td>
+    </tr>
+     <tr>
+        <td>
             <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-reports.md" class="MCXref xref" xrefformat="{para}">Ejecutar informes como un usuario específico en paneles de lienzo</a><p></p>
             <p>Ahora puede configurar informes en paneles de lienzo para que se ejecuten como un usuario específico. Cuando se habilita, el informe muestra datos en función del acceso del usuario seleccionado en lugar de los permisos del visor.</p>
         </td>
@@ -259,16 +268,7 @@ Se celebran seminarios web en directo para cada versión trimestral, en los que 
         <td><p>jueves, 15 de abril de 2026</p></td>
         <td><p>viernes, 16 de abril de 2026</p></td>
     </tr>
-    <tr>
-        <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-reports.md" class="MCXref xref" xrefformat="{para}">La Entrega Programada De Informes Ahora Admite Correos Electrónicos Basados En Vínculos</a><p></p>
-            <p>Workfront ahora incluye un nuevo tipo de envío de vínculo para los informes programados. En lugar de generar y adjuntar un archivo, esta opción envía un correo electrónico con un vínculo directo al informe en Workfront, lo que permite a los destinatarios ver los datos más actuales en la aplicación.</p>
-        </td>
-        <td><p>viernes, 02 de abril de 2026</p></td>
-        <td><p>jueves, 15 de abril de 2026</p></td>
-        <td><p>viernes, 16 de abril de 2026</p></td>
-    </tr>
-    <tr>
+   <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-reports.md" class="MCXref xref" xrefformat="{para}">Nuevas opciones de autenticación para la conexión de conexión de datos</a><p></p>
             <p>Ahora puede autenticarse en Data Connect usando claves RSA o conexiones de Tokens de acceso programático (PAT), lo que agrega alternativas más seguras y flexibles a las credenciales tradicionales de nombre de usuario y contraseña. </p>
