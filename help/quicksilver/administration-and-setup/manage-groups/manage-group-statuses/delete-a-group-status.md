@@ -8,10 +8,10 @@ author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: bfce0325-fe6e-459f-96ca-9a5c94c61ed3
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 6c7dd2504ce20274f8b80a306fc1075ec5761da6
 workflow-type: tm+mt
-source-wordcount: '541'
-ht-degree: 96%
+source-wordcount: '544'
+ht-degree: 91%
 
 ---
 
@@ -37,7 +37,7 @@ Si hay grupos por encima del grupo que administra, sus administradores también 
  <col> 
  <tbody> 
   <tr> 
-   <td>paquete de Adobe Workfront</td> 
+   <td>Paquete de Adobe Workfront</td> 
    <td><p>Cualquiera</p></td> 
   </tr> 
   <tr> 
@@ -63,9 +63,9 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
 1. En el panel izquierdo, haga clic en **Grupos**.
 1. Haga clic en el nombre del grupo de nivel superior.
 1. En el panel izquierdo, haga clic en **Estados**.
-1. En la lista de estados que se muestra, pase el puntero por encima del estado que quiera eliminar y luego haga clic en **Eliminar** cuando aparezca en el extremo derecho.
+1. En la lista de estados que se muestra, haga clic en la casilla de verificación del estado que desea eliminar y, a continuación, haga clic en **Eliminar** en el banner que aparece en la parte inferior de la pantalla.
 
-   ![Eliminar](assets/hover-click-delete.jpg)
+   ![Eliminar](assets/delete-status.png)
 
 1. En el cuadro que aparece, seleccione un estado para designar un estado de sustitución para los objetos (proyectos, tareas, problemas y procesos de aprobación) que estaban utilizando el estado que está eliminando.
 
@@ -84,7 +84,7 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
 
         Para obtener información sobre los estados predeterminados de Workfront, consulte [Obtener acceso a la lista de estados de proyectos del sistema](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/project-statuses.md), [Obtener acceso a la lista de estados de tareas del sistema](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/task-statuses.md) y la información acerca de los cuatro estados de problemas requeridos en [Obtener acceso a la lista de estados de problemas del sistema](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/issue-statuses.md).
 
-1. Haga clic en **Eliminar estado**.
+1. Haga clic **eliminar**.
 
    Si el estado eliminado era el estado predeterminado para ese tipo en el grupo, el estado de sustitución ocupa su lugar.
 

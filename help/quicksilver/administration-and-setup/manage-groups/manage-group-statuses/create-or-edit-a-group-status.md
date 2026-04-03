@@ -8,10 +8,10 @@ author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 75018e0e-ff74-4afb-9a99-34bbb39b6e14
-source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
+source-git-commit: d7e85faa0e6da2218d7e983d00fd992dc858a1d9
 workflow-type: tm+mt
-source-wordcount: '1321'
-ht-degree: 92%
+source-wordcount: '1327'
+ht-degree: 89%
 
 ---
 
@@ -90,11 +90,12 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
 
    O
 
-   Para editar un estado existente, pasa el ratón sobre el estado que desea editar y, a continuación, haga clic en la opción **Editar** que se muestra en el extremo derecho.
+   Si está editando un estado existente, haga clic en la casilla de verificación correspondiente a ese estado y, a continuación, haga clic en **Editar** en el banner que aparece en la parte inferior de la pantalla.
 
-   ![Estados de grupo](assets/group-statuses-edit.jpg)
+   ![Estados de grupo](assets/group-statuses-edit-new.png)
 
    >[!NOTE]
+   >
    >Puede editar un estado para su grupo solo si:
    >      
    >* Administra el grupo para el que se creó el estado
@@ -166,15 +167,16 @@ Si es administrador de grupos (o de Workfront), puede crear un estado personaliz
 
 1. Si es administrador de Workfront, cree un estado desbloqueado en todo el sistema tal como se describe en [Crear o editar un estado](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
 1. En el cuadro de la esquina superior derecha, elimine **Estados del sistema**, empiece a escribir el nombre del grupo donde desea ocultar el estado y, a continuación, haga clic en el nombre cuando aparezca.
-1. Pase el puntero por encima del estado que quiera ocultar al grupo y luego haga clic en **Editar** cuando aparezca.
+1. Haga clic en la casilla de verificación del estado que desee editar y, a continuación, haga clic en **Editar** en el titular de la parte inferior de la pantalla.
 
-   ![Editar estado](assets/hover-click-edit.jpg)
+
+   ![Editar estado](assets/group-statuses-edit-new.png)
 
 1. Habilite la opción **Ocultar estado** que aparece.
 
    ![Ocultar estado](assets/hide-group-status.png)
 
-1. Haga clic en **Guardar**.
+1. Haga clic en **Actualizar**.
 
    El estado aparece atenuado y ya no será visible para todos los usuarios de ese grupo.
 

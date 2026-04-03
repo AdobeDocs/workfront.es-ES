@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 35c804b5-569d-4ba8-84b8-6129f0ffbc7f
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 48745335495433e25ad0a27a6726dda7fe8a97d8
 workflow-type: tm+mt
-source-wordcount: '937'
+source-wordcount: '942'
 ht-degree: 61%
 
 ---
@@ -36,7 +36,7 @@ Como administrador de Adobe Workfront, puede crear estados personalizados para p
  <col> 
  <tbody> 
   <tr> 
-   <td>paquete de Adobe Workfront</td> 
+   <td>Paquete de Adobe Workfront</td> 
    <td><p>Cualquiera</p></td> 
   </tr> 
   <tr> 
@@ -67,13 +67,13 @@ Al crear un estado personalizado para toda la organización, puede configurarlo 
 
 1. (Condicional) Si está creando o editando un estado para utilizarlo en todo el sistema, asegúrese de que **Estados del sistema** está seleccionado en el cuadro de la esquina superior derecha.
 
-   ![Estados del sistema](assets/system-statuses-in-upper-rt-corner-new.jpg)
+   ![Estados del sistema](assets/system-statuses-in-upper-rt-corner-new-png.png)
 
    O
 
    Si el estado es para un grupo o subgrupo, empiece a escribir el nombre del grupo en la esquina superior derecha y, a continuación, selecciónelo cuando aparezca.
 
-   ![Estados del sistema para el grupo](assets/system-statuses-in-upper-rt-corner-group.jpg)
+   ![Estados del sistema para el grupo](assets/system-statuses-in-upper-rt-corner-group-new-png.png)
 
 1. Seleccione la pestaña del tipo de objeto (**Proyecto**, **Tareas** o **Problemas**) que desea asociar con el estado.
 
@@ -81,9 +81,9 @@ Al crear un estado personalizado para toda la organización, puede configurarlo 
 
    O
 
-   Si está editando un estado existente, pase el ratón sobre él y haga clic en el icono **Editar** que se muestra a la derecha.
+   Si está editando un estado existente, haga clic en la casilla de verificación correspondiente a ese estado y, a continuación, haga clic en **Editar** en el banner que aparece en la parte inferior de la pantalla.
 
-   ![Editar estado personalizado](assets/custom-status-edit.png)
+   ![Editar estado personalizado](assets/edit-in-banner.png)
 
 1. Configure el estado con las siguientes opciones:
 
