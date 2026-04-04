@@ -8,14 +8,17 @@ feature: Reports and Dashboards
 exl-id: a7aa8614-6e80-4fc1-88ff-d952d87ddcbc
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 7716fb1c68bee2540556df98c227d8c5bae7b2d8
 workflow-type: tm+mt
-source-wordcount: '1199'
-ht-degree: 14%
+source-wordcount: '1302'
+ht-degree: 13%
 
 ---
 
 # Generar un informe de tabla en un panel de control del lienzo
+
+{{highlighted-preview}}
+
 
 >[!IMPORTANT]
 >
@@ -96,6 +99,14 @@ Hay muchas opciones de configuración disponibles para crear un informe de tabla
    1. Escriba un informe **Nombre**.
 
    1. Escriba un informe **Descripción**.
+
+   1. <span class="preview">(Opcional) En el campo **Ejecutar este informe con los derechos de acceso de**, empiece a escribir el nombre del usuario cuyos permisos desea que utilice el informe y, a continuación, seleccione el usuario cuando aparezca en la lista. Cuando configura un informe para que se ejecute como otro usuario, todos los visualizadores del tablero ven los mismos datos, independientemente de su propio nivel de acceso. Si no selecciona ningún usuario, cada usuario verá los datos en función de sus propios permisos.
+
+      >[!IMPORTANT]
+      >
+      >Si el usuario seleccionado está desactivado o pierde el acceso a los espacios de trabajo o tipos de registro relevantes, el informe puede mostrar datos incompletos o no procesarse.
+
+   </span>
 
 1. Siga los pasos a continuación para configurar la sección **Generar tabla**:
 

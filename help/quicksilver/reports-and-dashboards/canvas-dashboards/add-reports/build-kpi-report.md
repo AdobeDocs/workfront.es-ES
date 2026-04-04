@@ -8,14 +8,16 @@ feature: Reports and Dashboards
 exl-id: e1c68ac3-112e-4f9e-b644-f44bb0778b92
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 7716fb1c68bee2540556df98c227d8c5bae7b2d8
 workflow-type: tm+mt
-source-wordcount: '1260'
-ht-degree: 14%
+source-wordcount: '1363'
+ht-degree: 13%
 
 ---
 
 # Generar un informe de KPI en un panel de control de lienzo
+
+{{highlighted-preview}}
 
 >[!IMPORTANT]
 >
@@ -98,6 +100,14 @@ Hay muchas opciones de configuración disponibles para crear un informe de KPI. 
       >[!NOTE]
       >
       >La descripción se utilizará como pie de ilustración debajo del valor de KPI. Si no introduce una descripción, se generará un pie de ilustración en función del agregador y el tipo de agregación que seleccione en los pasos siguientes.
+
+   1. <span class="preview">(Opcional) En el campo **Ejecutar este informe con los derechos de acceso de**, empiece a escribir el nombre del usuario cuyos permisos desea que utilice el informe y, a continuación, seleccione el usuario cuando aparezca en la lista. Cuando configura un informe para que se ejecute como otro usuario, todos los visualizadores del tablero ven los mismos datos, independientemente de su propio nivel de acceso. Si no selecciona ningún usuario, cada usuario verá los datos en función de sus propios permisos.
+
+      >[!IMPORTANT]
+      >
+      >Si el usuario seleccionado está desactivado o pierde el acceso a los espacios de trabajo o tipos de registro relevantes, el informe puede mostrar datos incompletos o no procesarse.
+
+</span>
 
 1. Siga los pasos a continuación para configurar la sección **Generar KPI**:
 

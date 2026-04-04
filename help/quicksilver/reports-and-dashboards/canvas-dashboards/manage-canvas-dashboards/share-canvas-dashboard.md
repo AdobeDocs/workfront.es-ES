@@ -8,14 +8,16 @@ feature: Reports and Dashboards
 exl-id: 5cb03113-35b0-49aa-86ec-ec800cd3f4dc
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 7716fb1c68bee2540556df98c227d8c5bae7b2d8
 workflow-type: tm+mt
-source-wordcount: '547'
-ht-degree: 12%
+source-wordcount: '607'
+ht-degree: 11%
 
 ---
 
 # Compartir un panel de lienzo
+
+{{highlighted-preview}}
 
 >[!IMPORTANT]
 >
@@ -83,6 +85,8 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
 * Al compartir un tablero, los recursos con los que se comparte heredarán los permisos de los informes que se muestran en el tablero.
 
 * Cuando se distribuye un tablero mediante una plantilla de diseño, se concede un permiso de vista automático para el tablero (y sus informes) a todos los recursos asignados a la plantilla de diseño.
+
+* <span class="preview">Cuando un informe en un panel está configurado con la opción Ejecutar como usuario, todos los visualizadores ven los datos en función de los permisos del usuario seleccionado, no de los suyos propios. Esto significa que los visualizadores pueden ver datos a los que normalmente no tienen acceso. Si algunos informes de un tablero utilizan Ejecutar como usuario y otros no, es posible que los visualizadores vean datos incoherentes en todos los informes.</span>
 
 
 ## Compartir un panel de lienzo

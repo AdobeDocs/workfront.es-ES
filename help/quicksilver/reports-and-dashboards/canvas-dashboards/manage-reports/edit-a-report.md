@@ -8,14 +8,16 @@ feature: Reports and Dashboards
 exl-id: fd659f56-d67f-4a0f-8735-b214934903ac
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 7716fb1c68bee2540556df98c227d8c5bae7b2d8
 workflow-type: tm+mt
-source-wordcount: '528'
-ht-degree: 16%
+source-wordcount: '586'
+ht-degree: 14%
 
 ---
 
 # Edición de un informe en un panel de lienzo
+
+{{highlighted-preview}}
 
 >[!IMPORTANT]
 >
@@ -86,7 +88,13 @@ Para obtener más información, consulte [Crear un panel de lienzo](/help/quicks
 
    ![Editar un informe](assets/edit-report-box.png)
 
-1. En el cuadro de diálogo **Configurar**, edite la información en las secciones que aparecen a la izquierda. Estas secciones variarán según el tipo de informe que esté editando.
+1. <span class="preview">En el cuadro de diálogo **Configurar**, edite la información en las secciones que aparecen a la izquierda. Estas secciones variarán según el tipo de informe que esté editando.
+
+   >[!TIP]
+   >
+   >La sección Detalles para todos los tipos de informe incluye la opción **Ejecutar este informe con los derechos de acceso de**. Use esto para especificar un usuario cuyos permisos se utilicen para procesar los datos del informe, asegurándose de que todos los visualizadores de tableros vean los mismos datos. Para obtener más información, vea [Generar un informe KPI](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-kpi-report.md), [Generar un informe de gráfico](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-chart-report.md) o [Generar un informe de tabla](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-table-report.md).
+
+   </span>
 
 1. (Opcional) Si edita un informe de KPI, edite la información según sea necesario en las siguientes secciones:
 
