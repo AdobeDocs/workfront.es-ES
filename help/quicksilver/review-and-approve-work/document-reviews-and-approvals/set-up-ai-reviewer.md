@@ -1,8 +1,8 @@
 ---
 product-area: documents
 navigation-topic: approvals
-title: Crear revisores de contenido
-description: Una vez que tenga al menos una marca configurada en Workfront, puede crear varios revisores de contenido, que luego puede asignar a plantillas de aprobación y a solicitudes de revisión y aprobación individuales.
+title: Creación de comprobadores por IA
+description: Una vez que tenga al menos una marca configurada en Workfront, puede crear varios revisores de IA, que luego puede asignar a plantillas de aprobación y a solicitudes de revisión y aprobación individuales.
 author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
@@ -11,20 +11,20 @@ hidefromtoc: true
 exl-id: 4673049e-119e-4315-95f0-f10d8b286856
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 2b3e2ac00126facab9cc45ba8fb193d8951a37ec
+source-git-commit: 551f316bcfd5e0a1390e7be4679e06cd6808e969
 workflow-type: tm+mt
 source-wordcount: '288'
-ht-degree: 15%
+ht-degree: 18%
 
 ---
 
-# Crear revisores de contenido
+# Creación de comprobadores por IA
 
 >[!NOTE]
 >
 >Esta función se encuentra actualmente en fase beta.
 
-Una vez que tenga al menos una marca configurada en Workfront, puede crear varios revisores de contenido, que luego puede asignar a plantillas de aprobación y a solicitudes de revisión y aprobación individuales.
+Una vez que tenga al menos una marca configurada en Workfront, puede crear varios revisores de IA, que luego puede asignar a plantillas de aprobación y a solicitudes de revisión y aprobación individuales.
 
 
 ## Requisitos de acceso
@@ -58,26 +58,26 @@ Para obtener más información sobre esta tabla, consulte [Requisitos de acceso 
 
 Antes de empezar, debe configurar las directrices de marca de imagen en Workfront. Para obtener más información, consulte [Crear y administrar marcas para el revisor de contenido](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-a-brand.md).
 
-## Añadir un revisor de contenido
+## Añadir un revisor de IA
 
 >[!NOTE]
 >
->El Revisor de contenido no está diseñado para tomar decisiones en el flujo de trabajo de revisión y aprobación. Solo proporciona una puntuación y recomendaciones para alinear el recurso con los requisitos de marca especificados.
+>El revisor de IA no está diseñado para tomar decisiones en el flujo de trabajo de revisión y aprobación. Solo proporciona una puntuación y recomendaciones para alinear el recurso con los requisitos de marca especificados.
 
 Para agregar un revisor de contenido:
 
 {{step-1-to-setup}}
 
-1. En el panel izquierdo, vaya a **Revisar y aprobar** > **Revisores de contenido**.
+1. En el panel izquierdo, vaya a **Revisión y aprobación** > **Revisores de IA**.
 1. Haga clic en **Agregar nuevo**.
 1. Asigne un nombre al revisor.
 1. Seleccione una **marca**.
 1. Seleccione una de las siguientes opciones en el menú desplegable **Tipo de directriz**:
-   * **Imagen**: el revisor de contenido revisará el recurso en función de las directrices de marca de imagen que configuró en Workfront.
-   * **Voz de marca**: el revisor de contenido revisará el recurso en relación con las directrices de voz de marca que configuró en Workfront.
+   * **Imagen**: el revisor de IA revisará el recurso en relación con las directrices de marca de imagen que configuró en Workfront.
+   * **Voz de marca**: el revisor de IA revisará el recurso en relación con las directrices de voz de marca que configuró en Workfront.
 1. Haga clic en **Crear**.
 
-   Una vez creado el Revisor de contenido, los usuarios pueden agregarlo a plantillas de aprobación o a aprobaciones individuales.
+   Una vez creado el revisor de IA, los usuarios pueden agregarlo a plantillas de aprobación o aprobaciones individuales.
 
    Para obtener más información, consulte
 
