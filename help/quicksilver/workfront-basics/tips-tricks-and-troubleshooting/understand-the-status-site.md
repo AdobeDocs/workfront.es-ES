@@ -31,7 +31,7 @@ Tiene acceso a la siguiente información en el sitio de estado:
 
 Puede ver las actualizaciones de estado en el sitio de estado de [!DNL Adobe].
 
-1. Escriba [status.adobe.com](https://status.adobe.com/) en el explorador para obtener acceso al sitio de estado.
+1. Escriba [status.adobe.com](https://status.adobe.com/es-es/) en el explorador para obtener acceso al sitio de estado.
 
 1. Seleccione **[!UICONTROL Experience Cloud]**.
 1. Desplácese hacia abajo y seleccione **[!UICONTROL Adobe Workfront]** en la lista de soluciones.
@@ -40,7 +40,7 @@ Puede ver las actualizaciones de estado en el sitio de estado de [!DNL Adobe].
 
 Para suscribirse al sitio de estado o administrar su suscripción después de haberse suscrito:
 
-1. Vaya a [status.adobe.com](https://status.adobe.com/).
+1. Vaya a [status.adobe.com](https://status.adobe.com/es-es/).
 1. En la barra de estado, seleccione **[!UICONTROL Administrar suscripciones]**.
    ![](assets/manage-subs.png)
 1. Si ya tiene una cuenta, inicie sesión en ella; de lo contrario, cree una nueva.
@@ -59,7 +59,7 @@ Los investigadores de vulnerabilidades y los creadores de vulnerabilidades asign
 
 ### ¿Cómo puedo ver las vulnerabilidades designadas identificadas por [!DNL Workfront?]? {#how-do-i-view-named-vulnerabilities-identified-by-workfront}
 
-1. Vaya a [status.adobe.com](https://status.adobe.com/) y haga clic en **[!UICONTROL Seguridad]**.
+1. Vaya a [status.adobe.com](https://status.adobe.com/es-es/) y haga clic en **[!UICONTROL Seguridad]**.
 
 ## ¿Por qué es esto importante? {#why-is-this-important}
 
