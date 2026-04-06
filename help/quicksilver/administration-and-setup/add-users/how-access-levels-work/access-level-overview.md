@@ -10,10 +10,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: d297d8a4-5a4e-418f-983a-19545aeb0668
-source-git-commit: 0ccf02a333b41705a582bcb10ab9a90198123997
+source-git-commit: 21c396fc5b52463477d6fedfae8dcd27de989817
 workflow-type: tm+mt
-source-wordcount: '1747'
-ht-degree: 92%
+source-wordcount: '1765'
+ht-degree: 96%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 92%
 
 >[!NOTE]
 >
->La información de este artículo hace referencia a los niveles de acceso actuales. Para obtener información acerca de los niveles de acceso heredados, vea [Información general sobre los niveles de acceso](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
+>La información de este artículo hace referencia a los niveles de acceso actuales. Para obtener información acerca de los niveles de acceso heredados, consulte [Información general sobre los niveles de acceso](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
 
 Como administrador de Adobe Workfront, asigna un nivel de acceso a un usuario para dos fines:
 
@@ -43,7 +43,7 @@ Según el nivel de acceso, hay disponibles hasta 3 permisos para la mayoría de 
 <table style="table-layout:auto">
     <tr>
         <td>Editar</td>
-        <td>Los usuarios pueden crear, editar, eliminar y compartir el objeto de Workfront. </td>
+        <td>Los usuarios pueden crear, editar, eliminar y compartir el objeto de Workfront</td>
     </tr>
     <tr>
         <td>Ver</td>
@@ -77,7 +77,7 @@ Este nivel de acceso, que también se adjunta a la licencia estándar, está dis
 
 * Planifican, crean y llevan el seguimiento de todos los proyectos en un solo lugar
 * Automatizan los procesos rutinarios
-* Administran los recursos
+* Administrar recursos
 * Llevan el seguimiento y colaboran en las solicitudes
 * Llevan el seguimiento y crean informes sobre las finanzas del proyecto
 * Inician las solicitudes de trabajo entrantes
@@ -105,7 +105,7 @@ Las siguientes son las opciones de acceso más altas disponibles para los objeto
 | Plantillas |   |   | ✓ |
 | Datos financieros |   |   | ✓ |
 | Administración de recursos |   |   | ✓ |
-| Planificador de escenarios |   |   | ✓ (La configuración predeterminada es Sin acceso). |
+| Planificador de escenarios |   |   | ✓ (La configuración predeterminada es Sin acceso.) |
 | Metas |   |   | ✓ |
 
 {style="table-layout:auto"}
@@ -126,6 +126,7 @@ Usuarios con el nivel de acceso Light:
 * Puede acceder a solicitudes y documentos en el menú principal.
 * Tienen una capacidad limitada para crear objetos: no pueden crear proyectos, portafolios, programas o informes.
 * Solo puede registrar tiempo en el nivel de proyecto cuando el acceso de edición está habilitado. No pueden crear, editar, eliminar ni compartir proyectos.
+* Puede actualizar formularios personalizados solo en problemas y documentos.
 
 >[!NOTE]
 >
@@ -159,7 +160,7 @@ Los siguientes son los ajustes de acceso más altos disponibles para los objetos
    <td>Tareas</td> 
    <td> </td> 
    <td></td> 
-   <td>✓ (limitada)</td> 
+   <td>✓ (limitado)</td> 
   </tr> 
   <tr> 
    <td>Problemas</td> 
@@ -218,7 +219,7 @@ Los siguientes son los ajustes de acceso más altos disponibles para los objetos
   <tr> 
    <td>Datos financieros</td> 
    <td></td> 
-   <td> <p>✓(el valor predeterminado es Sin acceso)</p> </td> 
+   <td> <p>✓ (La configuración predeterminada es Sin acceso)</p> </td> 
    <td> </td> 
   </tr> 
   <tr> 
@@ -238,7 +239,7 @@ Los siguientes son los ajustes de acceso más altos disponibles para los objetos
    <td>Metas </td> 
    <td> </td> 
    <td> </td> 
-   <td>✓ (el valor predeterminado es Sin acceso)</td> 
+   <td>✓ (La configuración predeterminada es Sin acceso)</td> 
  </tbody> 
 </table>
 
@@ -262,6 +263,7 @@ Los usuarios con este nivel de acceso integrado:
   >Los colaboradores pueden participar en las aprobaciones, pero no pueden acceder a la pestaña Aprobaciones para ver o administrar los procesos de aprobación.
 
 * Puede revisar el estado de los problemas que han enviado
+* Puede actualizar formularios personalizados solo en problemas y documentos.
 * Pueden ser asignados a elementos de trabajo pero no pueden completarlos
 * Solo pueden acceder a las solicitudes desde el menú principal. Para obtener más información acerca de las colas de solicitudes, consulte [Crear una cola de solicitudes](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
@@ -310,7 +312,7 @@ Usuarios con nivel de acceso de usuario externo:
 * Vea los usuarios que comparten documentos e informes de calendario con ellos
 * Aprobar los documentos que se comparten con ellos
 
-No se pueden asignar usuarios externos a elementos de trabajo.
+Los usuarios externos no se pueden asignar a elementos de trabajo.
 
 No es posible modificar este nivel de acceso.
 
@@ -329,9 +331,9 @@ Las siguientes son las opciones de acceso más altas disponibles para los objeto
 | Problema | ✓ |   |   |
 | Portafolios | ✓ |   |   |
 | Programas | ✓ |   |   |
-| Informes (incluidos informes de paneles de control y calendarios) |   | ✓ (solo para informes de calendario; no se pueden compartir informes) |   |
+| Informes (incluidos informes de paneles de control y calendarios) |   | ✓ (Solo para informes de calendario; no se permite compartir informes) |   |
 | Filtros, vistas y agrupaciones | ✓ |   |   |
-| Documento |   | ✓ (no se pueden compartir documentos) |   |
+| Documento |   | ✓ (No es posible compartir documentos) |   |
 | Usuario |   | ✓ |   |
 | Equipos | ✓ |   |   |
 | Plantillas | ✓ |   |   |
