@@ -7,7 +7,7 @@ feature: Get Started with Workfront
 exl-id: 4c25ed54-b147-4fd3-8d00-6f1ba61bbd38
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: f4d7484145226eb85bc547e582438e5202dec023
+source-git-commit: ca8f1375d641531eaf11e3889ccb67a6fbe1788f
 workflow-type: tm+mt
 source-wordcount: '2913'
 ht-degree: 3%
@@ -421,7 +421,7 @@ Las agrupaciones separan los objetos de la lista en áreas basadas en criterios 
 
 Workfront proporciona un número limitado de agrupaciones predefinidas y no puede modificarlas.
 
-1. Haga clic en **Grupo** sobre la lista.
+1. Haga clic en **Agrupación** sobre la lista.
 1. Seleccione una agrupación para organizar la lista.
 
    ![Seleccionar una agrupación](assets/glist-grouping-choose-a-group-by.png)
@@ -431,7 +431,7 @@ Workfront proporciona un número limitado de agrupaciones predefinidas y no pued
 
    ![Agrupación en listas mejoradas](assets/glist-group-by-due-date-priorities.png)
 
-   Aparece un indicador en el botón **Grupo** cuando se aplica una agrupación a la lista.
+   Aparece un indicador en el botón **Agrupación** cuando se aplica una agrupación a la lista.
 
    ![Indicador aplicado de agrupación](assets/glist-grouping-applied-indicator.png)
 
@@ -453,7 +453,7 @@ Para ordenar columnas individuales:
 
    ![Ordenar por una columna](assets/glist-sort-by-column.png)
 
-1. (Opcional) Para ordenar su trabajo dentro de una agrupación, haga clic en **Grupo**, vaya a la línea de la agrupación aplicada, haga clic en el menú desplegable del clasificador y seleccione un orden ascendente o descendente.
+1. (Opcional) Para ordenar su trabajo dentro de una agrupación, haga clic en **Agrupación**, vaya a la línea de la agrupación aplicada, haga clic en el menú desplegable del clasificador y seleccione un orden ascendente o descendente.
 
    ![Ordenar en una agrupación](assets/sort-in-groups.png)
 

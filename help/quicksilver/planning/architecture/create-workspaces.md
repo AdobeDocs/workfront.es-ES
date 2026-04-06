@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 604b84c1-4ec6-4d4a-b9f4-4223641ff2ea
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: c4716157a6fdf667f7e608d0c37399f57ec1bbfe
+source-git-commit: ca8f1375d641531eaf11e3889ccb67a6fbe1788f
 workflow-type: tm+mt
-source-wordcount: '1199'
+source-wordcount: '1200'
 ht-degree: 35%
 
 ---
@@ -152,7 +152,7 @@ Puede crear espacios de trabajo de las siguientes maneras:
 
   >[!TIP]
   >
-  >No puede crear varios espacios de trabajo al mismo tiempo a menos que utilice el paquete de plantillas de prácticas recomendadas.
+  >Solo puede crear varios espacios de trabajo al mismo tiempo si utiliza el paquete de plantillas de prácticas recomendadas.
 
 
 </div>

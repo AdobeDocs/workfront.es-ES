@@ -8,9 +8,9 @@ feature: Work Management
 exl-id: ed066075-6411-4350-8b39-f21dc4fa96c9
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: ff87e425389f30dfaa1a178ea2b548d1c41179bb
+source-git-commit: ca8f1375d641531eaf11e3889ccb67a6fbe1788f
 workflow-type: tm+mt
-source-wordcount: '725'
+source-wordcount: '723'
 ht-degree: 10%
 
 ---
@@ -105,7 +105,12 @@ Puede crear una vista en el área de Solicitudes de Workfront al utilizar la nue
 
 1. En la lista de solicitudes, haga clic en el menú desplegable **Vistas** ![Menú desplegable de vistas](assets/view-icon-requests.png) y luego haga clic en **Nueva vista**.
 
-   ![Nueva vista](assets/create-new-view.png)
+   <!-- 
+   
+   replace the screen shot with release
+   ![New view](assets/create-new-view.png)
+
+   -->
 
 1. Escriba un nombre para la nueva vista y haga clic en **Crear**.
 1. Continuar a [Editar una vista para solicitudes](#edit-a-view-for-requests).

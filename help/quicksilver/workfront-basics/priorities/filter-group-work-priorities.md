@@ -6,10 +6,10 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 8eb9dcaf-bba3-466d-b06d-5383991bc4ea
-source-git-commit: a56441276fbc508a81d5331874580385ceb8812f
+source-git-commit: 02a4269777e18a8c66a245d374565eb61efd39ef
 workflow-type: tm+mt
-source-wordcount: '653'
-ht-degree: 15%
+source-wordcount: '663'
+ht-degree: 14%
 
 ---
 
@@ -155,7 +155,8 @@ Utilice un lenguaje natural para filtrar rápidamente el trabajo.
 
 1. Haga clic en **Grupos** en la parte superior izquierda de la lista de trabajos.
 1. Seleccione un grupo para organizar la lista de trabajo.
-   ![Grupos](assets/groups-new.png)
+
+![Grupos](assets/groups-new.png)
 
 +++Expanda para ver información detallada sobre los grupos disponibles
 
@@ -172,7 +173,7 @@ Utilice un lenguaje natural para filtrar rápidamente el trabajo.
 
 Puede arrastrar y soltar elementos de trabajo individuales entre categorías al agruparlos por Mi prioridad o Estado.
 
-1. Agrupa tu trabajo por **Estado** o **Mi prioridad**.
+1. Agrupa tu trabajo por **Estado** o **Mi enfoque**.
 2. Pase el ratón sobre el elemento de trabajo para hacer clic en el icono **Arrastrar** y moverlo a la categoría que quiera.
    ![icono de arrastrar](assets/drag-and-drop.png)
 
@@ -192,6 +193,6 @@ Para ordenar columnas individuales, vaya a la columna y haga clic en la flecha h
 
 ### Expandir o contraer todas las secciones del grupo
 
-Para expandir o contraer todas las secciones del grupo, abra **Grupo** y haga clic en **Expandir todo** o **Contraer todo**.
+Para expandir o contraer todas las secciones del grupo, abra **Grupo** y haga clic en **Expandir todo** si las agrupaciones están contraídas o **Contraer todo** si las agrupaciones están expandidas.
 
 ![Expandir o contraer grupos](assets/expand-collapse-groups.png)

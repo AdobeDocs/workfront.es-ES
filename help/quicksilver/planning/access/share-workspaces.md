@@ -8,10 +8,10 @@ recommendations: noDisplay, noCatalog
 exl-id: 475a519d-d3bd-4461-8099-0e296d556d34
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 10d2bcf3f2d349418a8a04e96873bc5c2d3af4a1
+source-git-commit: ca8f1375d641531eaf11e3889ccb67a6fbe1788f
 workflow-type: tm+mt
 source-wordcount: '1064'
-ht-degree: 10%
+ht-degree: 11%
 
 ---
 
@@ -160,15 +160,23 @@ Para compartir un espacio de trabajo con otros usuarios:
 
    * Si usted es administrador del sistema, seleccione una de las siguientes opciones:</span>
 
-      * <span class="preview">**Solo las personas invitadas pueden tener acceso**: debe seleccionar entidades en el cuadro para compartir y elegir su acceso al área de trabajo. Esta es la selección predeterminada. </span>
-      * <span class="preview">**Todos los usuarios del sistema pueden ver**: todos los usuarios del sistema con acceso a Planning pueden ver el área de trabajo en su área de **Espacios de trabajo** en Planning.</span>
+     <div class="preview">
+
+      * **Solo las personas invitadas pueden tener acceso**: debe seleccionar entidades en el cuadro para compartir y elegir su acceso al área de trabajo. Esta es la selección predeterminada.
+      * **Todos los usuarios del sistema pueden ver**: todos los usuarios del sistema con acceso a Planning pueden ver el área de trabajo en su área de **Espacios de trabajo** en Planning.
+
+     </div>
 
    * <span class="preview">(Condicional) Si es un administrador de área de trabajo con una licencia estándar, puede ver una de las siguientes selecciones, pero no puede cambiarla:</span>
 
-      * <span class="preview">**Solo las personas invitadas pueden acceder**. Esta es la configuración predeterminada.</span>
-      * <span class="preview">**Todos los usuarios del sistema pueden ver**</span>
+     <div class="preview">
 
-     <span class="preview">Debe pedir a un administrador del sistema que cambie un permiso global para un área de trabajo.</span>
+      * **Solo las personas invitadas pueden acceder**. Esta es la configuración predeterminada.
+      * **Todos los usuarios del sistema pueden ver**
+
+     Debe pedir a un administrador del sistema que cambie un permiso global para un espacio de trabajo.
+
+     </div>
 
 1. En el campo **Conceder acceso a este área de trabajo**, empiece a escribir el nombre de un usuario, grupo, equipo, empresa o rol y, a continuación, haga clic en él cuando se muestre en la lista.
 

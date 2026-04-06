@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: ed1c4954-b338-4865-a7a9-5ba0192e7b37
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: ca8f1375d641531eaf11e3889ccb67a6fbe1788f
 workflow-type: tm+mt
-source-wordcount: '1136'
+source-wordcount: '1228'
 ht-degree: 13%
 
 ---
@@ -22,11 +22,9 @@ ht-degree: 13%
 
 # Crear tipos de registro
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">La información resaltada en esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa para todos los clientes. Después de las versiones mensuales en Production, las mismas funciones también están disponibles en el entorno Production para los clientes que habilitaron versiones rápidas. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+<span class="preview">Para obtener información sobre las versiones rápidas, consulte [Habilitar o deshabilitar las versiones rápidas para su organización](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{planning-important-intro}}
 
@@ -197,6 +195,16 @@ Puede añadir manualmente tipos de registros en las secciones Tipos de registros
    O
 
    Desde un espacio de trabajo, expanda la flecha hacia abajo situada a la derecha del nombre de un espacio de trabajo existente, busque un espacio de trabajo y, a continuación, selecciónelo cuando se muestre en la lista.
+
+   >[!TIP]
+   >
+   ><span class="preview">Puede usar la siguiente combinación de teclas para abrir el cuadro de búsqueda global desde cualquier página de Workfront Planning y buscar espacios de trabajo:</span>
+   >
+   >* <span class="preview">CTRL+K para Windows</span>
+   >* <span class="preview">⌘+K para Mac</span>
+   >
+   >![Cuadro de búsqueda global](assets/global-search-box.png)
+
 1. (Opcional) Haga clic en **Agregar sección** para agregar una nueva sección al área de trabajo.
 1. Haga clic en **Agregar tipo de registro** y luego en **Agregar manualmente**.
 

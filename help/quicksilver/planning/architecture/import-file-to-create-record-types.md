@@ -8,10 +8,10 @@ recommendations: noDisplay, noCatalog
 exl-id: 2afd6d57-d658-4065-86f5-2324d3818d1f
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: ca8f1375d641531eaf11e3889ccb67a6fbe1788f
 workflow-type: tm+mt
-source-wordcount: '862'
-ht-degree: 9%
+source-wordcount: '891'
+ht-degree: 8%
 
 ---
 
@@ -156,6 +156,14 @@ Para importar tipos de registros mediante un archivo CSV o de Excel:
    O
 
    Desde un espacio de trabajo, expanda la flecha hacia abajo situada a la derecha del nombre de un espacio de trabajo existente, busque un espacio de trabajo y, a continuación, selecciónelo cuando se muestre en la lista.
+
+   >[!TIP]
+   >
+   ><span class="preview">Puede usar la siguiente combinación de teclas para abrir el cuadro de búsqueda global desde cualquier página de Workfront Planning y buscar espacios de trabajo:</span>
+   >
+   >* <span class="preview">CTRL+K para Windows</span>
+   >* <span class="preview">⌘+K para Mac</span>
+
 1. Haga clic en **Agregar tipo de registro**.
 1. Haga clic en **Cargar desde el archivo**.
 1. Arrastre y suelte un archivo de Excel o CSV guardado anteriormente en el equipo, o haga clic en **Seleccione un archivo CSV o de Excel** para buscar uno y, a continuación, selecciónelo.

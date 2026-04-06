@@ -10,7 +10,7 @@ role: User
 exl-id: cfa2383a-9594-4867-9b48-11b8ea281486
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: f4d7484145226eb85bc547e582438e5202dec023
+source-git-commit: ca8f1375d641531eaf11e3889ccb67a6fbe1788f
 workflow-type: tm+mt
 source-wordcount: '1441'
 ht-degree: 41%
@@ -131,7 +131,7 @@ Para ver las solicitudes que usted u otros usuarios han enviado en la nueva expe
 
    <div class="preview">
 
-   * Grupo
+   * **Agrupación**
    * Formatear celdas
    * Altura de la fila
 

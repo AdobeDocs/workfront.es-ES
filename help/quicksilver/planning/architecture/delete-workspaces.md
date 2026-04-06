@@ -8,21 +8,20 @@ recommendations: noDisplay, noCatalog
 exl-id: adec4b8e-2964-479b-8cf0-79d3afa27b2a
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: ca8f1375d641531eaf11e3889ccb67a6fbe1788f
 workflow-type: tm+mt
-source-wordcount: '375'
-ht-degree: 44%
+source-wordcount: '463'
+ht-degree: 35%
 
 ---
 
 
 # Eliminar espacios de trabajo
 
-<!--
-<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">La información de esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa para todos los clientes. Después de las versiones mensuales en Production, las mismas funciones también están disponibles en el entorno Production para los clientes que habilitaron versiones rápidas. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+<span class="preview">Para obtener información sobre las versiones rápidas, consulte [Habilitar o deshabilitar las versiones rápidas para su organización](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
 
 {{planning-important-intro}}
 
@@ -152,6 +151,14 @@ Old:
    * Pase el ratón sobre la tarjeta del área de trabajo y luego haga clic en el menú **Más** ![Menú Más](assets/more-menu.png) en la esquina superior derecha de la tarjeta
 O
    * Haga clic en el icono **search** ![icono de búsqueda](assets/search-icon.png) en la esquina superior derecha de la página de Workspaces para buscar un área de trabajo por nombre y haga clic en una tarjeta de área de trabajo para abrir el área de trabajo; a continuación, haga clic en el menú **Más** ![Menú Más](assets/more-menu.png) situado a la derecha del nombre del área de trabajo.
+
+   >[!TIP]
+   >
+   ><span class="preview">Puede usar la siguiente combinación de teclas para abrir el cuadro de búsqueda global desde cualquier página de Workfront Planning y buscar espacios de trabajo:</span>
+   >
+   >* <span class="preview">CTRL+K para Windows</span>
+   >* <span class="preview">⌘+K para Mac</span>
+
 1. Haga clic **eliminar**.
 
    ![Eliminar permanentemente la confirmación del espacio de trabajo](assets/permanently-delete-workspace-confirmation.png)
