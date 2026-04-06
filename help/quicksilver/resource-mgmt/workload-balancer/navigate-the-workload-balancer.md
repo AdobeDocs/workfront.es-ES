@@ -8,9 +8,9 @@ feature: Resource Management
 exl-id: 60dabfc5-6a2e-4368-9dac-db48d0307895
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 900e29200bef2d4f70b17cd810ea0e2b936c8aad
 workflow-type: tm+mt
-source-wordcount: '4334'
+source-wordcount: '4400'
 ht-degree: 8%
 
 ---
@@ -23,7 +23,7 @@ Utilice el Distribuidor de cargas de trabajo en Adobe Workfront para asignar tra
 
 El Distribuidor de cargas de trabajo está disponible en varias áreas de Adobe Workfront. La navegación es similar en todas las áreas.
 
-Para obtener más información sobre dónde se encuentra el Distribuidor de cargas de trabajo, consulte [Localizar el Distribuidor de cargas de trabajo](https://experienceleague.adobe.com/es/docs/workfront/using/manage-resources/the-workload-balancer/locate-workload-balancer).
+Para obtener más información sobre dónde se encuentra el Distribuidor de cargas de trabajo, consulte [Localizar el Distribuidor de cargas de trabajo](https://experienceleague.adobe.com/en/docs/workfront/using/manage-resources/the-workload-balancer/locate-workload-balancer).
 
 ## Requisitos de acceso
 
@@ -105,8 +105,8 @@ Para obtener más información sobre la visualización de información en el Dis
 
 Para obtener información sobre la administración de recursos mediante el Distribuidor de cargas de trabajo, consulte también los siguientes artículos:
 
-* [Información general sobre la asignación de trabajo en el Distribuidor de cargas de trabajo](https://experienceleague.adobe.com/es/docs/workfront/using/manage-resources/the-workload-balancer/assign-work-in-workload-balancer)
-* [Administrar asignaciones de usuario en el Distribuidor de cargas de trabajo](https://experienceleague.adobe.com/es/docs/workfront/using/manage-resources/the-workload-balancer/manage-user-allocations-workload-balancer)
+* [Información general sobre la asignación de trabajo en el Distribuidor de cargas de trabajo](https://experienceleague.adobe.com/en/docs/workfront/using/manage-resources/the-workload-balancer/assign-work-in-workload-balancer)
+* [Administrar asignaciones de usuario en el Distribuidor de cargas de trabajo](https://experienceleague.adobe.com/en/docs/workfront/using/manage-resources/the-workload-balancer/manage-user-allocations-workload-balancer)
 
 ## Vaya al Distribuidor de cargas de trabajo para varios proyectos en el área de Recursos
 
@@ -259,6 +259,11 @@ El área de Trabajo no asignado no muestra ningún elemento de trabajo de forma 
    * **Mostrar trabajo completado**: cuando esté habilitado, las tareas y problemas completados se mostrarán en el área Trabajo asignado. Esta opción está habilitada de forma predeterminada.
 
      Cuando se completan, aparece un icono de marca de verificación verde en la esquina superior derecha de una tarea o barra de problemas. El mismo icono se muestra para un proyecto cuando se completan las tareas o problemas del lapso de tiempo seleccionado.
+
+     >[!NOTE]
+     >
+     >La visibilidad de las tareas en el Distribuidor de cargas de trabajo depende de la finalización en el nivel de tarea, no de la finalización en el nivel de asignación. Si una tarea tiene varios usuarios asignados y uno o más de los usuarios asignados seleccionan &quot;Listo con mi parte&quot; pero el estado general de la tarea no es Completo, la tarea se considera trabajo no completado. Cuando la opción **Mostrar trabajo completado** está desactivada, la tarea se seguiría mostrando porque no está completamente completada.
+
    * **Mostrar tiempo restante**: cuando está habilitada, Workfront muestra la diferencia entre el tiempo diario durante el cual el usuario está disponible para trabajar en función de sus programaciones y las horas para las que está asignado en el área Trabajo asignado para los usuarios. Esta opción está desactivada de forma predeterminada y el tiempo asignado se muestra de forma predeterminada.
    * **Mostrar asignaciones de roles**: cuando esté habilitada, las asignaciones de roles se mostrarán en el área de Trabajo no asignado debajo de los elementos de trabajo asignados. Esta opción está habilitada de forma predeterminada.
 
@@ -475,7 +480,7 @@ La página de su equipo de inicio se muestra de forma predeterminada.
 
 1. Continúe navegando por el Distribuidor de cargas de trabajo de un proyecto como se describe en la sección [Navegar por el Distribuidor de cargas de trabajo para varios proyectos](#navigate-the-workload-balancer-for-multiple-projects-in-the-resourcing-area) de este artículo.
 
-### Navegación por el Distribuidor de cargas de trabajo de un usuario
+## Navegación por el Distribuidor de cargas de trabajo de un usuario
 
 Puede acceder al Distribuidor de cargas de trabajo en su propio perfil de usuario.
 
