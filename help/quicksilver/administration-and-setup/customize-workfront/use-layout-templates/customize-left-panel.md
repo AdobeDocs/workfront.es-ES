@@ -136,12 +136,12 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
      </tr> 
      <tr> 
       <td>[!UICONTROL Projects]</td> 
-      <td>Proyectos <img src="assets/projects-in-main-menu.png"> en el menú principal de [!UICONTROL] <img src="assets/main-menu-icon-left-nav.png"></td> 
+      <td>Proyectos <img src="assets/projects-in-main-menu.png"> en el menú principal de  <img src="assets/main-menu-icon-left-nav.png"></td> 
       <td>[!UICONTROL Projects]</td> 
      </tr> 
      <tr> 
       <td><span class="preview">[!UICONTROL Recursos]</span></td> 
-      <td><span class="preview">[!UICONTROL Recursos] en el menú principal de [!UICONTROL] <img src="assets/main-menu-icon-left-nav.png"></span></td> 
+      <td><span class="preview">[!UICONTROL Recursos] en el menú principal de  <img src="assets/main-menu-icon-left-nav.png"></span></td> 
       <td><span class="preview">[!UICONTROL Planificador] (no se puede ocultar), [!UICONTROL Distribuidor de cargas de trabajo], [!UICONTROL Utilización], [!UICONTROL Conjuntos de recursos]</span></td> 
      </tr> 
      <tr> 
