@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: b100ea35-e045-4021-b5be-2c9071b381da
-source-git-commit: 4ce13e7d46efb026c1d42a61f4fce4bf1a37bb5f
+source-git-commit: f490d72b46073786cc079eec0640a0b535533281
 workflow-type: tm+mt
-source-wordcount: '1228'
+source-wordcount: '1226'
 ht-degree: 45%
 
 ---
@@ -136,12 +136,12 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
      </tr> 
      <tr> 
       <td>[!UICONTROL Projects]</td> 
-      <td>Proyectos <img src="assets/projects-in-main-menu.png"> en el menú principal de  <img src="assets/main-menu-icon-left-nav.png"></td> 
+      <td>Proyectos <img src="assets/projects-in-main-menu.png"> en el menú principal de [!UICONTROL] <img src="assets/main-menu-icon-left-nav.png"></td> 
       <td>[!UICONTROL Projects]</td> 
      </tr> 
      <tr> 
       <td><span class="preview">[!UICONTROL Recursos]</span></td> 
-      <td><span class="preview">[!UICONTROL Recursos] en el menú principal de  <img src="assets/main-menu-icon-left-nav.png"></span></td> 
+      <td><span class="preview">[!UICONTROL Recursos] en el menú principal de [!UICONTROL] <img src="assets/main-menu-icon-left-nav.png"></span></td> 
       <td><span class="preview">[!UICONTROL Planificador] (no se puede ocultar), [!UICONTROL Distribuidor de cargas de trabajo], [!UICONTROL Utilización], [!UICONTROL Conjuntos de recursos]</span></td> 
      </tr> 
      <tr> 
@@ -182,7 +182,7 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
      <tr> 
        <td><span class="preview">[!UICONTROL Tarjeta de velocidad]</span></td> 
        <td><span class="preview">El nombre de una tarjeta de tarifa</span></td> 
-       <td><span class="preview">[!UICONTROL Funciones y tarifas del puesto], [!UICONTROL Detalles de tarjeta de tarifas], [!UICONTROL Tipo de gasto y tarifas]</span></td> 
+       <td><span class="preview">[!UICONTROL Funciones y tarifas del trabajo] (no se puede ocultar), [!UICONTROL Detalles de tarjeta de tarifas]</span></td> 
      </tr>
      <tr> 
        <td><span class="preview">[!UICONTROL Group]</span></td> 
@@ -201,20 +201,6 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
        <td>Timesheets</td> 
        <td>The name of the timesheet</td> 
        <td>My Timesheets, Timesheets I Approve, All Timesheets (cannot be hidden) </td> 
-      </tr>
-     --> 
-     <!--
-      <tr> 
-       <td>Resourcing</td> 
-       <td>The name of the resource</td> 
-       <td>Planner (cannot be hidden), Workload Balancer, Utilization, Resource Pools </td> 
-      </tr>
-     --> 
-     <!--
-      <tr> 
-       <td>User Details</td> 
-       <td>____________</td> 
-       <td>Details (cannot be hidden), Org Chart, Time Off, Custom Forms </td> 
       </tr>
      --> 
     </tbody> 

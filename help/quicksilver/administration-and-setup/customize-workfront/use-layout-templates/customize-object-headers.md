@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: cbeaa0d7-a61a-4806-a871-96663d9ce124
-source-git-commit: 106ff601a4a19dbbf50cb3329675928ad7087b21
+source-git-commit: 3a194bc2b2707c7b7e1cd5edffc3dd5ab43e91b3
 workflow-type: tm+mt
-source-wordcount: '548'
-ht-degree: 47%
+source-wordcount: '547'
+ht-degree: 48%
 
 ---
 
@@ -23,7 +23,7 @@ Como administrador de Adobe Workfront o de un grupo, puede utilizar una plantill
 
 >[!IMPORTANT]
 >
->La personalización de encabezados de objeto está disponible actualmente para proyectos, tareas, problemas, <span class="preview">portafolios, programas, plantillas, registros de facturación, equipos, grupos, usuarios, empresas, grupos y tarjetas de tarifas.</span>
+>La personalización de encabezados de objeto está disponible actualmente para proyectos, tareas, problemas, <span class="preview">portafolios, programas, plantillas, registros de facturación, equipos, usuarios, empresas, grupos y tarjetas de tarifas.</span>
 
 ![Campos de encabezado de objeto](assets/object-header-fields.png)
 

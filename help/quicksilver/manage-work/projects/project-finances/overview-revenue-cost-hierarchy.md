@@ -6,9 +6,10 @@ title: Visión General de Jerarquía de Ingresos y Costes
 description: Este artículo describe el proceso paso a paso para determinar las tarifas de facturación y de costo adecuadas para los roles de trabajo y los usuarios para el tipo de ingresos y de costo por hora de usuario y rol.
 author: Lisa
 feature: Work Management
-source-git-commit: dfc6344303f33a9c3c89837b759235612e54904e
+exl-id: 623828fb-e1ac-4cae-8b9f-567a6f8cb7ae
+source-git-commit: 3a194bc2b2707c7b7e1cd5edffc3dd5ab43e91b3
 workflow-type: tm+mt
-source-wordcount: '3519'
+source-wordcount: '3604'
 ht-degree: 0%
 
 ---
@@ -23,7 +24,17 @@ Para proporcionar cálculos financieros precisos, Workfront utiliza las tarifas 
 
 Las secciones de este artículo describen el proceso paso a paso para determinar las tarifas de facturación y de costo adecuadas para los roles de trabajo y los usuarios para el tipo de ingresos y de costo por hora de usuario y rol.
 
+>[!NOTE]
+>
+>La jerarquía de tasas que se muestra en este artículo se utiliza solamente cuando se aplican los tipos de costo o ingresos por hora de usuario y rol a la tarea.
+
 Para obtener más información sobre tarifas de facturación, tipos de ingresos y cómo se calculan los ingresos, consulte [Información general sobre facturación e ingresos](/help/quicksilver/manage-work/projects/project-finances/billing-and-revenue-overview.md).
+
+## Excepciones para la jerarquía y el tipo de ingresos Usuario y Rol por hora
+
+* Las tarifas de compañía no son compatibles dentro de la jerarquía.
+* Para los cálculos de jerarquía sólo se utiliza la función Principal. No se utilizan otras funciones.
+* Cuando el tipo de ingresos de una tarea es Usuario y Rol por hora, no se puede anular la asignación de una tarea a un usuario que haya registrado horas en ella.
 
 ## Resumen de las fechas de entrada en vigor
 
@@ -232,4 +243,3 @@ Workfront busca en las propiedades de usuario del propietario según esta jerarq
    * A continuación, el sistema busca la tasa de funciones a nivel del sistema, teniendo en cuenta las fechas de entrada en vigor.
 
 1. Si no se encuentra ninguna de estas tarifas, la tarifa de facturación es 0.
-

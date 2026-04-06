@@ -7,13 +7,13 @@ description: Los atributos de tasa amplían la funcionalidad de tarjeta de tasa 
 author: Lisa
 feature: System Setup and Administration
 role: Admin
-source-git-commit: 8e948d1c90a9d528c7ffd4963e14630ae7577e70
+exl-id: d570ef6a-935f-4dd0-9c54-a480163ec9d8
+source-git-commit: 3a194bc2b2707c7b7e1cd5edffc3dd5ab43e91b3
 workflow-type: tm+mt
 source-wordcount: '1378'
 ht-degree: 2%
 
 ---
-
 
 # Definir atributos de tasa
 
@@ -85,16 +85,18 @@ Los atributos de tasa son compatibles con todas las áreas donde existen tasas e
 * Anulaciones a nivel de proyecto: Aplique atributos al anular tasas a nivel de proyecto.
 * Funciones del puesto (en Configuración): establezca las tasas de funciones del puesto por defecto con atributos.
 * Usuarios (perfiles de usuario): asigne atributos nativos a usuarios individuales, de modo que sus asignaciones se resuelvan automáticamente en las tasas correctas.
+
 <!--
-* Staffing plan resources
-* Non-labor resources: Attributes can also be defined on resources such as equipment or services.-->
+BULLET POINT Staffing plan resources
+BULLET POINT Non-labor resources: Attributes can also be defined on resources such as equipment or services.-->
 
 <!--Non-labor resource categories and -->Los roles no admiten atributos de tasa directamente en el nivel de objeto. Están conectados a atributos de tipo de cambio a través de los tipos definidos en ellos.
 
 Cuando puede crear asignaciones de marcador de posición vinculadas a los valores de atributo correctos, las tasas se rellenarán en consecuencia.
 
 * En el caso de los roles, cuando reemplace posteriormente el marcador de posición por un usuario real, el sistema restablece automáticamente los atributos de la asignación a los definidos en el perfil de ese usuario. En este punto, los atributos ya no se pueden editar en el nivel de asignación. Se heredan del usuario para preservar la coherencia y evitar la desalineación entre los atributos del usuario y las tasas aplicadas.
-  <!--* For non-labor resource categories, placeholder assignments can be used similarly: You assign the category through a placeholder that carries the required attributes. Once the actual non-labor resource is substituted, the attributes are automatically pulled from the resource's profile. Just like with users, these attributes cannot be overridden manually at the assignment level, ensuring financial data integrity and preventing accidental mismatches between resources and their designated attributes.-->
+
+<!-- BULLET POINT For non-labor resource categories, placeholder assignments can be used similarly: You assign the category through a placeholder that carries the required attributes. Once the actual non-labor resource is substituted, the attributes are automatically pulled from the resource's profile. Just like with users, these attributes cannot be overridden manually at the assignment level, ensuring financial data integrity and preventing accidental mismatches between resources and their designated attributes.-->
 
 ## Requisitos de acceso
 
@@ -201,5 +203,3 @@ Los filtros siempre deben configurarse en ambas direcciones. Si el atributo A ti
    * (Solo tipo de filtro de atributo) **Campo de referencia**: Campo del atributo al que se hace referencia que debe coincidir, como Id. de agencia.
 
 1. Haga clic en **Guardar** en cada atributo para guardar las propiedades y los filtros.
-
-
