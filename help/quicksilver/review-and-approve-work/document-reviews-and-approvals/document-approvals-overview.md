@@ -9,9 +9,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 32cb95c2-8d12-492b-ad89-b38e2a337fc5
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: c989b5d6a91a4b1f19b044916b4f68a1738f9b16
 workflow-type: tm+mt
-source-wordcount: '3892'
+source-wordcount: '3874'
 ht-degree: 0%
 
 ---
@@ -32,8 +32,6 @@ Los coordinadores de proyectos administran el trabajo en Workfront mientras los 
 * Los usuarios solo pueden pertenecer a una instancia de Workfront dentro de la organización IMS.
 
 * La instancia de Workfront debe habilitarse en la experiencia unificada de Adobe y en el almacenamiento empresarial de Adobe.
-
-* Adobe Professional Services debe configurar la integración.
 
 
 ## Basado en el almacenamiento empresarial de Adobe
@@ -180,8 +178,6 @@ Para utilizar la revisión y aprobación unificadas, se deben cumplir las siguie
 * Los usuarios solo pueden pertenecer a una instancia de Workfront dentro de la organización IMS.
 
 * La instancia de Workfront debe habilitarse en la experiencia unificada de Adobe y en el almacenamiento empresarial de Adobe.
-
-* Adobe Professional Services debe configurar la integración.
 
 * Los clientes de Workfront deben tener un SKU V2 (puede que se requiera un evento de contratación; póngase en contacto con el representante de la cuenta de Adobe).
 
