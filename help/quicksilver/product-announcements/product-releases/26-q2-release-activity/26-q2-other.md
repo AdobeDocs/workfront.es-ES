@@ -5,10 +5,10 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: be95161b-2443-464a-b91c-82a96d5354a2
-source-git-commit: d2fcb0725672f1b8a976e3f55046af99b56a6412
+source-git-commit: b934764d12aa81f836b5d71b624ce9d83aab63b1
 workflow-type: tm+mt
-source-wordcount: '596'
-ht-degree: 30%
+source-wordcount: '602'
+ht-degree: 29%
 
 ---
 
@@ -68,9 +68,7 @@ Para obtener más información, consulte [Crear y administrar vistas en el área
 
 >[!NOTE]
 >
->Vista previa: 2 de abril de 2026
->Versión rápida de producción: 15 de abril de 2026
->Producción para todos: viernes, 16 de abril de 2026
+>Las vistas predefinidas no tendrán una versión de vista previa, y se lanzarán directamente al entorno de producción el 16 de abril.
 
 Para ayudarle a organizar mejor su lista de solicitudes, hemos agregado las siguientes vistas predefinidas a la lista de solicitudes en el área de Solicitudes y al widget Mis solicitudes en Inicio:
 
