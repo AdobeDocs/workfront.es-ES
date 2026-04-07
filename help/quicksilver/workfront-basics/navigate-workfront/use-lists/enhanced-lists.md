@@ -7,9 +7,9 @@ feature: Get Started with Workfront
 exl-id: 4c25ed54-b147-4fd3-8d00-6f1ba61bbd38
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: ca8f1375d641531eaf11e3889ccb67a6fbe1788f
+source-git-commit: 59a9725e7697a81be2a827a902ee3d23085a2ecd
 workflow-type: tm+mt
-source-wordcount: '2913'
+source-wordcount: '2915'
 ht-degree: 3%
 
 ---
@@ -65,7 +65,7 @@ A continuación se muestran algunos tipos de listas de objetos de Workfront que 
 | Lista de solicitudes | <ul><li>Solicitudes (solo nueva experiencia)</li><li>Widget de Mis solicitudes en Inicio</li></ul> |
 | Listas de estados, prioridades, gravedades y tasas de cambio en Configuración | <ul><li>Configuración > Preferencias de proyecto > Estados</li><li>Configuración > Preferencias del proyecto > Prioridades</li><li>Configuración > Preferencias del proyecto > Gravedades</li><li>Configuración > Preferencias del proyecto > Tasas de cambio</li></ul> |
 | <span class="preview">Lista de informes</span> | <span class="preview">Informes (**Usar carpetas compartibles** debe estar activado)</span> |
-| <span class="preview">Lista de roles y tarifas en la instalación</span> | <span class="preview">Configuración > Tarjetas de tarifas > seleccione una tarjeta de tarifas > Funciones del puesto y tarifas</span> |
+| <span class="preview">Lista de roles y tarifas en una tarjeta de tarifas</span> | <span class="preview">Configuración > Tarjetas de tarifas > seleccione una tarjeta de tarifas > Funciones del puesto y tarifas</span> |
 | <span class="preview">Lista de traducciones</span> | <span class="preview">Configuración > Localización</span> |
 | <span class="preview">Lista de instantáneas</span> | <span class="preview">Proyecto > Instantáneas</span> |
 | <span class="preview">Lista de recursos para facturación</span> | <span class="preview">Proyecto > Recurso de facturación</span> |
