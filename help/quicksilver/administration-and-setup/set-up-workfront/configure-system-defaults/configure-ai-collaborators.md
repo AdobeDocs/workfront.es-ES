@@ -8,10 +8,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: c38801ee-9750-4ffb-a912-cdcccfc7c60a
-source-git-commit: 25c4d4435cc3507ab2d163600a8c42be66efd4c2
+source-git-commit: 25d5fef46bc8f02e92d778685c2ad6e93439f9ff
 workflow-type: tm+mt
-source-wordcount: '451'
-ht-degree: 7%
+source-wordcount: '407'
+ht-degree: 8%
 
 ---
 
@@ -25,7 +25,7 @@ Por ejemplo, puede configurar un colaborador de IA de tipo revisor con directric
 
 Los tipos de AI Collaborator disponibles incluyen:
 
-* Revisor: cree un colaborador con marcas o conocimiento de marca y, a continuación, asígnelo como revisor de recursos.
+* Revisor: cree un colaborador con marcas<!-- or Adobe Brand Intelligence--> y, a continuación, asígnelo como revisor en los recursos.
 
   Para obtener más información, consulte [Introducción al Revisor de contenido de Workfront](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md).
 
@@ -85,9 +85,9 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
    >Actualmente, solo está disponible el tipo Revisor. En el futuro habrá más tipos de colaborador de IA disponibles.
 
 1. En el campo Nombre del colaborador, introduzca un nombre para el colaborador. Este es el nombre que aparece en la lista de usuarios asignados disponibles en una tarea.
-1. Seleccione si el colaborador utilizará una marca o un cerebro de marca para sus críticas.
-1. (Condicional) Si el colaborador de IA va a utilizar Brand Brain, seleccione el inquilino que utilizará.
-1. (Condicional) Si AI Collaborator va a utilizar una marca, seleccione la marca y las directrices de marca que utilizará.
+   <!--1. Select whether the collaborator will use a brand or Adobe Brand Intelligence for its reviews.-->
+   <!--1. (Conditional) If the AI Collaborator will use Adobe Brand Intelligence, select the tenant that it will use.-->
+1. <!--(Conditional) If the AI Collaborator will use a Brand,-->Seleccione la marca y la guía de marca que utilizará.
 1. Haga clic en **Guardar**.
 
 ## Administrar colaboradores de IA
