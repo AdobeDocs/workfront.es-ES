@@ -5,10 +5,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 9d12895d-cf7f-41c6-a2ac-bb731770c187
-source-git-commit: 2a83e5a415ff254cf5525d6f44ecb0e447e7e70a
+source-git-commit: 627d59c8c8296e5b6c8b6da53705a1c3d7633751
 workflow-type: tm+mt
-source-wordcount: '807'
-ht-degree: 99%
+source-wordcount: '840'
+ht-degree: 84%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 99%
 
 <!--Linked in several places, do not rename or change URL.-->
 
-Como administrador de Adobe Workfront, puede utilizar un nivel de acceso para otorgar a los usuarios con una licencia de planificación acceso administrativo a determinadas áreas del sistema.
+Como administrador de Adobe Workfront, puede utilizar un nivel de acceso para otorgar a los usuarios con una licencia estándar o de planificación acceso administrativo a determinadas áreas del sistema.
 
 >[!NOTE]
 >
@@ -31,7 +31,7 @@ Como administrador de Adobe Workfront, puede utilizar un nivel de acceso para ot
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td role="rowheader">Paquete de Adobe Workfront</td> 
    <td>Cualquiera</td> 
   </tr> 
   <tr> 
@@ -50,7 +50,7 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
 
 +++
 
-## Conceder a los usuarios del plan acceso administrativo a ciertas áreas de Workfront
+## Conceder a los usuarios de Standard o Plan acceso administrativo a ciertas áreas de Workfront
 
 >[!IMPORTANT]
 >
@@ -96,12 +96,13 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
      </tr> 
      <tr> 
       <td role="rowheader">Roles</td> 
-      <td> <p>Con este acceso, el usuario puede hacer lo siguiente:</p> 
+      <td> <p><span class="preview"><b>NOTA</b>: en el entorno de vista previa, el acceso a los roles se controla como un tipo de objeto en el nivel de acceso. Consulte <a href="/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-access-job-roles.md">Conceder acceso a los roles</a>.</span></p>
+      <p>Con este acceso, el usuario puede hacer lo siguiente:</p> 
        <ul> 
         <li>Ver y editar las funciones existentes</li> 
         <li>Añadir más funciones</li> 
         <li>Editar las tarifas de facturación y de costes de funciones</li> 
-       </ul> <p><b>IMPORTANTE</b>: Si concede a un usuario Planificador acceso administrativo a las funciones, la configuración de acceso a datos financieros Editar tarifas de facturación y de costes de funciones se habilita automáticamente para el usuario. Posteriormente, si deshabilita el acceso administrativo a las funciones para el usuario Planificador, las funciones aún serán visibles para el usuario porque la opción Editar tarifas de facturación y de costes de funciones aún está habilitada. Si esto sucede y necesita eliminar el acceso del usuario para ver las funciones, debe deshabilitar la configuración del permiso del usuario Editar tarifas de facturación y de costo de rol. Para obtener más instrucciones, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md" class="MCXref xref">Conceder acceso a datos financieros</a>.</p> </td> 
+       </ul> <p><b>IMPORTANTE</b>: Si concede a un usuario de Standard o Plan acceso administrativo a los roles de trabajo, la configuración de acceso a datos financieros Editar tarifas de facturación y de costo de rol se habilita automáticamente para el usuario. Más adelante, si desactiva el acceso administrativo a los roles para el usuario Estándar o del Plan, los roles de trabajo siguen siendo visibles para el usuario porque la configuración Editar tarifas de facturación y de coste del rol sigue activada. Si esto sucede y necesita eliminar el acceso del usuario para ver las funciones, debe deshabilitar la configuración del permiso del usuario Editar tarifas de facturación y de costo de rol. Para obtener más instrucciones, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md" class="MCXref xref">Conceder acceso a datos financieros</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Hitos de mi grupo</td> 

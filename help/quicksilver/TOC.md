@@ -3,9 +3,9 @@ user-guide-title: Guía de Workfront
 user-guide-description: Utilice los siguientes documentos, tutoriales y recursos adicionales para aprender a implementar y utilizar Adobe Workfront de forma eficaz en su organización.
 role: User
 feature-set: Workfront
-source-git-commit: 551f316bcfd5e0a1390e7be4679e06cd6808e969
+source-git-commit: 627d59c8c8296e5b6c8b6da53705a1c3d7633751
 workflow-type: tm+mt
-source-wordcount: '13917'
+source-wordcount: '13922'
 ht-degree: 97%
 
 ---
@@ -552,6 +552,7 @@ ht-degree: 97%
          * [Concesión de acceso a problemas](administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md)
          * [Concesión de acceso a documentos](administration-and-setup/add-users/configure-and-grant-access/grant-access-documents.md)
          * [Concesión de acceso a los usuarios](administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md)
+         * [Conceder acceso a las funciones del puesto](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-access-job-roles.md)
          * [Concesión de acceso a los equipos](administration-and-setup/add-users/configure-and-grant-access/grant-access-teams.md)
          * [Concesión de acceso a las plantillas](administration-and-setup/add-users/configure-and-grant-access/grant-access-templates.md)
          * [Concesión de acceso a informes, paneles y calendarios](administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md)

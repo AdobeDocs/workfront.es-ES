@@ -10,9 +10,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: d297d8a4-5a4e-418f-983a-19545aeb0668
-source-git-commit: 21c396fc5b52463477d6fedfae8dcd27de989817
+source-git-commit: 627d59c8c8296e5b6c8b6da53705a1c3d7633751
 workflow-type: tm+mt
-source-wordcount: '1765'
+source-wordcount: '1775'
 ht-degree: 96%
 
 ---
@@ -102,6 +102,8 @@ Las siguientes son las opciones de acceso más altas disponibles para los objeto
 | Filtros, vistas y agrupaciones |   |   | ✓ |
 | Documentos |   |   | ✓ |
 | Usuarios |   |   | ✓ |
+| Roles |   |   | ✓ |
+| Equipos |   |   | ✓ |
 | Plantillas |   |   | ✓ |
 | Datos financieros |   |   | ✓ |
 | Administración de recursos |   |   | ✓ |
@@ -204,7 +206,13 @@ Los siguientes son los ajustes de acceso más altos disponibles para los objetos
    <td>✓</td> 
    <td> </td> 
   </tr> 
-    <tr> 
+  <tr> 
+   <td>Roles</td> 
+   <td> </td> 
+   <td>✓</td> 
+   <td> </td> 
+  </tr> 
+  <tr> 
    <td>Equipos</td> 
    <td> </td> 
    <td>✓</td> 
@@ -285,7 +293,8 @@ A continuación se muestran las opciones de acceso más altas disponibles para l
 | Informes (incluidos informes de paneles de control y calendarios) |   | ✓ (solo la pestaña Detalles) |   |
 | Filtros, vistas y agrupaciones |   |   | ✓ |
 | Documento |   |   | ✓ |
-| Usuario |   | ✓ |   |
+| Usuarios |   | ✓ |   |
+| Roles |   | ✓ |   |
 | Equipos |   | ✓ |   |
 | Plantillas | ✓ |   |   |
 | Datos financieros | ✓ |   |   |
@@ -334,7 +343,8 @@ Las siguientes son las opciones de acceso más altas disponibles para los objeto
 | Informes (incluidos informes de paneles de control y calendarios) |   | ✓ (Solo para informes de calendario; no se permite compartir informes) |   |
 | Filtros, vistas y agrupaciones | ✓ |   |   |
 | Documento |   | ✓ (No es posible compartir documentos) |   |
-| Usuario |   | ✓ |   |
+| Usuarios |   | ✓ |   |
+| Roles | ✓ |   |   |
 | Equipos | ✓ |   |   |
 | Plantillas | ✓ |   |   |
 | Datos financieros | ✓ |   |   |
