@@ -7,9 +7,9 @@ recommendations: noDisplay, noCatalog
 exl-id: ce152c48-ed72-47ed-b1c5-940c93b4a9ec
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 71b3af519d0fac1d15164e5d9f40bda5d76d0f5c
+source-git-commit: 16ca615d8a0432f371debb832236e788ee5beb88
 workflow-type: tm+mt
-source-wordcount: '551'
+source-wordcount: '563'
 ht-degree: 15%
 
 ---
@@ -20,7 +20,7 @@ Esta página describe las mejoras realizadas por el administrador con la versió
 
 Para obtener una lista de todos los cambios disponibles en este punto del ciclo de la versión del segundo trimestre de 2026, consulte [Información general de la versión del segundo trimestre de 2026](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md).
 
-## Colaboradores de IA ya disponibles
+## Ya está disponible el colaborador de IA de revisión de contenido
 
 >[!NOTE]
 >
@@ -28,13 +28,11 @@ Para obtener una lista de todos los cambios disponibles en este punto del ciclo 
 >Versión rápida de producción: jueves, 15 de abril de 2026
 >Producción para todos: viernes, 16 de abril de 2026
 
-Para facilitarle las ventajas de la IA en su trabajo diario, hemos creado AI Collaborators. Los colaboradores de IA son una forma de incorporar agentes de IA en sus proyectos y tareas. Puede configurar un colaborador de IA con directrices de marca y, a continuación, asignarlo a una tarea como lo haría con un usuario.
+Para facilitarle las ventajas de la IA en su trabajo diario, hemos creado Content Review AI Collaborator. Collaborator es una forma de incorporar agentes de IA en sus proyectos y tareas. Puede configurar un colaborador de IA con directrices de marca y, a continuación, asignarlo a una tarea como lo haría con un usuario.
 
-Actualmente, los colaboradores de IA se pueden utilizar para revisar contenido. En el futuro habrá más funciones de AI Collaborator disponibles.
+Actualmente, Revisión de contenido es el único colaborador de IA disponible. En el futuro habrá más funciones de AI Collaborator disponibles.
 
-<!--
-For more information, see [Configure AI Collaborators](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators).
--->
+Para obtener más información, consulte [Configuración de colaboradores de IA](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md).
 
 ## Los trimestres personalizados ahora están disponibles como una página independiente en Configuración
 
