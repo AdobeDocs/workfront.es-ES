@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 664fb2fe-ff7e-4807-9a43-b37e7d5d57eb
-source-git-commit: 3fe3313bd545d51be7aa0fb021dd0bb0f91b4321
+source-git-commit: cada5387ddfb710029d06cd38841ecb9c8a6484b
 workflow-type: tm+mt
-source-wordcount: '1699'
-ht-degree: 33%
+source-wordcount: '1703'
+ht-degree: 32%
 
 ---
 
@@ -69,8 +69,7 @@ Para crear una función:
 {{step-1-to-setup}}
 
 1. En el panel izquierdo, haga clic en **[!UICONTROL Roles]**.
-1. Haga clic en **[!UICONTROL Nuevo rol]**.
-<!-- 1. Click **New Job Role > Create new job role**.  -->
+1. Haga clic en **[!UICONTROL Nuevo rol] <span class="preview">> Crear nuevo rol**.</span>
 1. Introduzca información en los campos siguientes:
 
    * **Nombre**: indique un nombre para el rol. Este es el nombre que se muestra en todas las partes de Workfront donde aparece el campo Rol.
