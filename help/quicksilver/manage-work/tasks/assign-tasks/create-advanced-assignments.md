@@ -9,9 +9,9 @@ role: User
 exl-id: 09780f78-4eb8-404d-859b-d066d462776d
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 196e7963d04ac5927b222e843eb42d4f300a397a
+source-git-commit: 676cd1697ae2f379a699075f4e1ab06886c6837a
 workflow-type: tm+mt
-source-wordcount: '3416'
+source-wordcount: '3415'
 ht-degree: 31%
 
 ---
@@ -44,7 +44,7 @@ Puede ajustar la siguiente información de asignación al realizar asignaciones 
 * Determine qué usuario debe designarse como propietario o principal asignado a la tarea o al problema.
 * Especifique la función que cumple cada usuario al trabajar en la tarea o el problema.
 * <span class="preview">Agregar información de facturación y de tarifa de costo en el nivel de asignación.</span>
-* <span class="preview">Revise los siguientes detalles de cada asignación: horas planificadas basadas en el tiempo, costo total e ingresos totales.</span>
+* <span class="preview">Revise los siguientes detalles de cada asignación: horas planificadas, costo total e ingresos totales.</span>
 
 >[!NOTE]
 >
