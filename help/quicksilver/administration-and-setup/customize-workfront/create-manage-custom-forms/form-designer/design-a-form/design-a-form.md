@@ -10,9 +10,9 @@ role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: b9e0747a58618353caf3ce1c7e8521d22d2b412d
+source-git-commit: 0db6cd1091052af7a71ad3e4fce6a9e3fcbb9f67
 workflow-type: tm+mt
-source-wordcount: '7439'
+source-wordcount: '7436'
 ht-degree: 94%
 
 ---
@@ -302,16 +302,16 @@ Para añadir un campo de texto:
     </tr>
     <tr>
       <td><span class="preview">Tipo de permiso financiero</span></td>
-      <td><p><span class="preview">Seleccione el tipo de permiso financiero que deben tener los usuarios para poder ver o editar este campo personalizado. Se permite cualquier formato para los campos calculados.</span></p>
-      <ul span class="preview">
+      <td><p><span class="preview">Seleccione el tipo de permiso financiero que deben tener los usuarios para poder ver o editar este campo personalizado. Se debe seleccionar Currency format.</span></p>
+      <ul>
       <li><p><strong>No se requieren permisos:</strong> Todos los usuarios pueden ver este campo</p></li>
       <li><p><strong>General:</strong> Los usuarios deben tener permisos para editar o ver Finanzas generales</p></li>
       <li><p><strong>Factura:</strong> Los usuarios deben tener permisos para editar o ver las tarifas de facturación</p></li>
       <li><p><strong>Costo:</strong> Los usuarios deben tener permisos para editar o ver las tasas de costo</p></li>
       </ul>
-      <p><span class="preview">Para obtener más información, consulte <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/restrict-access-to-financial-data.md">Restringir el acceso a datos financieros en campos personalizados</a>.</span></p>
+      <p>Para obtener más información, consulte <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/restrict-access-to-financial-data.md">Restringir el acceso a datos financieros en campos personalizados</a>.</p>
       </td>
-      <td><ul span class="preview">
+      <td><ul>
        <li>Texto de línea única</li>
        <li>Párrafo</li>
        </ul></td>
@@ -458,16 +458,16 @@ Para añadir botones de opción, grupos de casillas de verificación y menús de
     </tr> 
     <tr>
       <td><span class="preview">Tipo de permiso financiero</span></td>
-      <td><p><span class="preview">Seleccione el tipo de permiso financiero que deben tener los usuarios para poder ver o editar este campo personalizado. Se permite cualquier formato para los campos calculados.</span></p>
-      <ul span class="preview">
+      <td><p><span class="preview">Seleccione el tipo de permiso financiero que deben tener los usuarios para poder ver o editar este campo personalizado. Se debe seleccionar Currency format.</span></p>
+      <ul>
       <li><p><strong>No se requieren permisos:</strong> Todos los usuarios pueden ver este campo</p></li>
       <li><p><strong>General:</strong> Los usuarios deben tener permisos para editar o ver Finanzas generales</p></li>
       <li><p><strong>Factura:</strong> Los usuarios deben tener permisos para editar o ver las tarifas de facturación</p></li>
       <li><p><strong>Costo:</strong> Los usuarios deben tener permisos para editar o ver las tasas de costo</p></li>
       </ul>
-      <p><span class="preview">Para obtener más información, consulte <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/restrict-access-to-financial-data.md">Restringir el acceso a datos financieros en campos personalizados</a>.</span></p>
+      <p>Para obtener más información, consulte <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/restrict-access-to-financial-data.md">Restringir el acceso a datos financieros en campos personalizados</a>.</p>
       </td>
-      <td><ul span class="preview">
+      <td><ul>
        <li>Botones de opción</li>
        <li>Grupo de casillas de verificación</li>
        <li>Menú desplegable de selección única</li>
@@ -723,14 +723,14 @@ Para añadir una búsqueda externa, haga lo siguiente:
      </tr> 
      <tr>
       <td><span class="preview">Tipo de permiso financiero</span></td>
-      <td><p><span class="preview">Seleccione el tipo de permiso financiero que deben tener los usuarios para poder ver o editar este campo personalizado. Se permite cualquier formato para los campos calculados.</span></p>
-      <ul span class="preview">
+      <td><p><span class="preview">Seleccione el tipo de permiso financiero que deben tener los usuarios para poder ver o editar este campo personalizado. Se debe seleccionar Currency format.</span></p>
+      <ul>
       <li><p><strong>No se requieren permisos:</strong> Todos los usuarios pueden ver este campo</p></li>
       <li><p><strong>General:</strong> Los usuarios deben tener permisos para editar o ver Finanzas generales</p></li>
       <li><p><strong>Factura:</strong> Los usuarios deben tener permisos para editar o ver las tarifas de facturación</p></li>
       <li><p><strong>Costo:</strong> Los usuarios deben tener permisos para editar o ver las tasas de costo</p></li>
       </ul>
-      <p><span class="preview">Para obtener más información, consulte <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/restrict-access-to-financial-data.md">Restringir el acceso a datos financieros en campos personalizados</a>.</span></p>
+      <p>Para obtener más información, consulte <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/restrict-access-to-financial-data.md">Restringir el acceso a datos financieros en campos personalizados</a>.</p>
       </td>
      </tr>
      <tr> 
@@ -754,12 +754,12 @@ Para añadir una búsqueda externa, haga lo siguiente:
       <td role="rowheader">Ruta JSON</td>
       <td><p>Escriba o pegue la ruta JSON para la API.</p> <p>Esta opción permite extraer datos del JSON devuelto por la URL de la API. Sirve para seleccionar qué valores dentro del JSON aparecerán en las opciones desplegables.</p><p>Por ejemplo, si la dirección URL de la API devuelve JSON en el siguiente formato, puede usar “$.data[*].name” para seleccionar EE. UU. y Canadá como opciones desplegables:</br>
       <pre>
-      &lbrace;
-       data: &lbrace;
+      {
+       data: {
          { name: "USA"},
          { name: "Canada"}
-       &rbrace;
-      &rbrace;
+       }
+      }
       </pre>
       </p>
      <p>Para obtener más información sobre la ruta JSON y cómo asegurarse de que escribe la ruta JSON correcta, consulte <a href="https://jsonpath.com/">https://jsonpath.com/</a>.</p></td>
