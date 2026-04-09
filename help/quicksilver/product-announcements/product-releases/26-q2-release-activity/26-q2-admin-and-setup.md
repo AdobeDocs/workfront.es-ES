@@ -7,9 +7,9 @@ recommendations: noDisplay, noCatalog
 exl-id: ce152c48-ed72-47ed-b1c5-940c93b4a9ec
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 16ca615d8a0432f371debb832236e788ee5beb88
+source-git-commit: 56849377a2c31c9232e0ecd8517046f76c7963df
 workflow-type: tm+mt
-source-wordcount: '563'
+source-wordcount: '562'
 ht-degree: 15%
 
 ---
@@ -63,7 +63,7 @@ De forma predeterminada, todas las secciones de un formulario personalizado se e
 
 Para obtener más información, vea [Organizar y obtener una vista previa de un formulario](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/organize-a-form.md).
 
-## El tipo de campo de texto enriquecido ahora está disponible en formularios personalizados
+## Campo de texto enriquecido que reemplaza el texto por el tipo de campo Formato
 
 >[!NOTE]
 >
