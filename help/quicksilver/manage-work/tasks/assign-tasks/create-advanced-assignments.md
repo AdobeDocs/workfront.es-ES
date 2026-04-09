@@ -9,9 +9,9 @@ role: User
 exl-id: 09780f78-4eb8-404d-859b-d066d462776d
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: b9e0747a58618353caf3ce1c7e8521d22d2b412d
+source-git-commit: 196e7963d04ac5927b222e843eb42d4f300a397a
 workflow-type: tm+mt
-source-wordcount: '3390'
+source-wordcount: '3416'
 ht-degree: 31%
 
 ---
@@ -125,6 +125,10 @@ Este diseño de Asignaciones avanzadas se aplica solo a tareas. Para problemas, 
 1. Revise la información de duración de la tarea según sea necesario. Todos estos campos son de solo lectura desde Asignaciones avanzadas y puede actualizarlos en la tarea.
 
    Para obtener información acerca de la duración de la tarea, los tipos de duración, las unidades de tiempo y las horas planificadas, vea [Información general sobre la duración de la tarea y el tipo de duración](/help/quicksilver/manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
+
+   >[!NOTE]
+   >
+   >Si no se muestra una columna de datos que desee ver, puede agregarla. Consulte [Agregar y eliminar columnas en la lista de asignaciones avanzadas](#add-and-remove-columns-on-the-advanced-assignments-list), a continuación.
 
 1. (Opcional) Seleccione **Horas**, **ETC** o **Porcentaje** para ver las asignaciones.
 
