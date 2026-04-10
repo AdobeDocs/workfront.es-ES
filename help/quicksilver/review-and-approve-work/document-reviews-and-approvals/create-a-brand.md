@@ -9,10 +9,10 @@ recommendations: noDisplay, noCatalog
 exl-id: b2788f3f-43d2-46f3-8502-bb833f8a0970
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 2b3e2ac00126facab9cc45ba8fb193d8951a37ec
+source-git-commit: f89b6edead9dce1b0b4baa5ac792cf5e56fd46c0
 workflow-type: tm+mt
-source-wordcount: '475'
-ht-degree: 9%
+source-wordcount: '581'
+ht-degree: 7%
 
 ---
 
@@ -129,3 +129,12 @@ Para obtener más información sobre la firma del acuerdo, consulte [Firmar el a
 
 
 1. Cuando termine, haga clic en **Publicar** para que la marca esté disponible para el Revisor de contenido.
+
+
+## Prácticas recomendadas para escribir directrices de marca
+
+*  Escriba directrices de marca que describan criterios mensurables. El Revisor de contenido evalúa el contenido literalmente, por lo que las reglas objetivas producen puntuaciones más coherentes que las subjetivas.
+
+* Busque palabras como &quot;evitar&quot;, &quot;mantener&quot; o &quot;asegurarse&quot; en las directrices. Estos suelen indicar una regla que puede ajustar. Reemplace la instrucción vaga por una lista específica de palabras, formatos o límites. Por ejemplo, reemplace &quot;evitar clichés comunes sobre el esquí&quot; por &quot;no use &#39;gnar&#39;, &#39;pow&#39; o &#39;shred&#39;&quot;.
+
+* Si no puedes eliminar la subjetividad, aclítala. Reemplazar los adjetivos generales por restricciones específicas. Por ejemplo, &quot;Directo y orientado a la acción&quot; se convierte en &quot;Directo y orientado a la acción; omita las palabras más completas y el lenguaje de cobertura&quot;.

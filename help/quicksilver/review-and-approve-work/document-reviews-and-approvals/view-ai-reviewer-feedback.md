@@ -7,9 +7,9 @@ author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 838e8f3d-0ea6-4844-a261-ef7b0e78a755
-source-git-commit: 20cbe6b280d2d06543b52e1e50d0b2c5edda6418
+source-git-commit: f89b6edead9dce1b0b4baa5ac792cf5e56fd46c0
 workflow-type: tm+mt
-source-wordcount: '224'
+source-wordcount: '323'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,15 @@ Segundos después de enviar la solicitud de revisión y aprobación, puede ver l
 El Revisor de contenido no está diseñado para tomar decisiones en el flujo de trabajo de revisión y aprobación. Solo proporciona una puntuación y recomendaciones para alinear el recurso con los requisitos de marca especificados.
 
 ![Comentarios del revisor de contenido](assets/ai-reviewer-output.png)
+
+## Comprender cómo se calculan las puntuaciones
+
+El Revisor de contenido calcula las puntuaciones de forma diferente en función del tipo de revisión:
+
+* Revisión de imagen: Esta puntuación refleja la proporción de directrices aprobadas respecto a directrices fallidas.
+* Revisión de copia: Esta puntuación utiliza una ponderación equilibrada de resultados subjetivos y objetivos. Las directrices objetivas (que se muestran en &quot;Corrección&quot;) se ponderan tres veces más que las directrices subjetivas (que se muestran en &quot;Considerar&quot;).
+
+Como las directrices objetivas tienen más peso en las revisiones de textos, recomendamos escribir directrices concretas y mensurables en su marca. Para obtener más información, consulte la sección [Prácticas recomendadas para escribir directrices de marca](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-a-brand.md#best-practices-for-writing-brand-guidelines) en el artículo Crear y administrar marcas para el Revisor de contenido.
 
 ## Ver puntuación y comentarios
 

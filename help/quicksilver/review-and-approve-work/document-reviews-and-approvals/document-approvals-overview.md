@@ -9,7 +9,7 @@ recommendations: noDisplay, noCatalog
 exl-id: 32cb95c2-8d12-492b-ad89-b38e2a337fc5
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: c989b5d6a91a4b1f19b044916b4f68a1738f9b16
+source-git-commit: 735fc46cb982ebd7e28bed486589efe415741683
 workflow-type: tm+mt
 source-wordcount: '3874'
 ht-degree: 0%
@@ -404,7 +404,7 @@ Sí. Dado que la integración utiliza el almacenamiento empresarial de Adobe, se
 
 * Los documentos del mismo proyecto no pueden compartir un nombre.
 
-* Los nombres de programas, portafolios, proyectos, plantillas, tareas, problemas, documentos y carpetas de documentos no pueden contener los siguientes caracteres especiales: `\\ / : \* ? \" \| \< \>` y están limitados a 255 caracteres.
+* Los nombres de programas, portafolios, proyectos, plantillas, tareas, problemas, documentos y carpetas de documentos no pueden contener los siguientes caracteres especiales: `\ / : * ? " | < >` y están limitados a 255 caracteres.
 
 Workfront cambia automáticamente el nombre de los objetos o documentos según sea necesario para evitar conflictos.
 
