@@ -9,9 +9,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 32cb95c2-8d12-492b-ad89-b38e2a337fc5
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 735fc46cb982ebd7e28bed486589efe415741683
+source-git-commit: 93eab1106953bfc7324f4b7cc99d3442364a56cd
 workflow-type: tm+mt
-source-wordcount: '3874'
+source-wordcount: '3865'
 ht-degree: 0%
 
 ---
@@ -102,7 +102,6 @@ Para obtener más información acerca de la administración de proyectos en Work
 
 Debido a que la revisión y la aprobación unificadas se crean mediante el almacenamiento empresarial de Adobe, hay algunas convenciones de estructura y nomenclatura obligatorias que se deben tener en cuenta al administrar proyectos y documentos.
 
-* Los nombres de objeto deben ser únicos y no se pueden duplicar.
 * El almacenamiento empresarial de Adobe requiere nombres únicos para objetos del mismo nivel con el mismo elemento principal en el árbol de jerarquías.
 * Los documentos no pueden tener el mismo nombre si pertenecen al mismo proyecto.
 * Los nombres de objeto no pueden contener ninguno de los siguientes caracteres especiales: \ / : * ? &quot; | &lt; >
