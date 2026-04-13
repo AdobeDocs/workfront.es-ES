@@ -11,10 +11,10 @@ role: Admin
 exl-id: cd09e78c-bd2a-4712-9c35-8acbf1a3729d
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 77970e17611a61308018db82d4b72fb7fe988ac1
 workflow-type: tm+mt
-source-wordcount: '161'
-ht-degree: 94%
+source-wordcount: '117'
+ht-degree: 92%
 
 ---
 
@@ -56,12 +56,6 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
 1. Haga clic en **[!UICONTROL Configuración],** ubicada en la esquina superior derecha de la página.
 
 1. Expanda **[!UICONTROL Sistema],** y luego haga clic en **[!UICONTROL Preferencias].**
-
-1. Seleccione **[!UICONTROL Permitir que los usuarios usen las aplicaciones móviles de Workfront y la configuración del complemento [!DNL Workfront Outlook]]** para permitir que los usuarios utilicen [!DNL Workfront] con la aplicación móvil [!DNL Workfront] o para instalar y utilizar [!DNL Workfront] para Outlook.\
-   Esta opción está habilitada de forma predeterminada.
-
 1. Haga clic en **[!UICONTROL Guardar].**
 
 Para obtener información sobre cómo usar la aplicación móvil [!DNL Workfront] después de haberla habilitado para el sitio, consulte [Usar la aplicación móvil](../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/use-the-mobile-app.md) de  [!DNL Adobe Workfront] .
-
-Para obtener información acerca de cómo usar [!DNL Workfront for Outlook], consulte la sección [Uso de [!DNL Workfront with Outlook]](../../workfront-integrations-and-apps/using-workfront-with-outlook/workfront-for-outlook.md).

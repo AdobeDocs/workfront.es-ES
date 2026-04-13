@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 3ab3ca43-d8e9-4545-a862-e6bf9419ef16
-source-git-commit: c037b4f9e5530d8dd796bed25021f7073f16061f
+source-git-commit: a1bf0e508d11089c0835f17daf6a9e17d1b6b161
 workflow-type: tm+mt
-source-wordcount: '638'
+source-wordcount: '628'
 ht-degree: 91%
 
 ---
@@ -33,7 +33,6 @@ Después de guardar una plantilla de diseño en la que ha cambiado la terminolog
 
 >[!NOTE]
 >
->* El área Complemento de Outlook no muestra las etiquetas personalizadas.
 >* Pueden aparecer problemas gramaticales y de otro tipo al personalizar las etiquetas. Por ejemplo, si cambia “Problema” a “Solicitud”, puede haber lugares en la IU donde vea la frase “Un solicitud”. Para obtener más información, consulte [Implicaciones de la personalización de nombres de objeto](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#implications-of-customizing-object-names) en el artículo [Comprender los objetos en Adobe Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)
 >
 

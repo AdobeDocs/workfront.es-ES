@@ -8,10 +8,10 @@ feature: Get Started with Workfront
 exl-id: fea88410-8f37-49d0-9f5d-9fbac4ab5de6
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: d11066d9aa76077bfaaa2d44f2e29c983dafa96f
 workflow-type: tm+mt
-source-wordcount: '555'
-ht-degree: 98%
+source-wordcount: '539'
+ht-degree: 97%
 
 ---
 
@@ -137,8 +137,6 @@ Cuando reciba una notificación por correo electrónico de Workfront, puede aña
 >[!IMPORTANT]
 >
 >* Debe tener permisos de al menos Vista el objeto que activó la actualización para poder responder a la notificación por correo electrónico.
->
->* Para evitar errores de envío, los usuarios de Outlook deben eliminar el contenido de correo electrónico existente antes de escribir la respuesta.
 
 Para añadir una actualización a un correo electrónico de Workfront, haga lo siguiente:
 

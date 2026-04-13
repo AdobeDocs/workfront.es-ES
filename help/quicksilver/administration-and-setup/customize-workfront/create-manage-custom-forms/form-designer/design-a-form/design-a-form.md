@@ -10,9 +10,9 @@ role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 0db6cd1091052af7a71ad3e4fce6a9e3fcbb9f67
+source-git-commit: a1bf0e508d11089c0835f17daf6a9e17d1b6b161
 workflow-type: tm+mt
-source-wordcount: '7436'
+source-wordcount: '7426'
 ht-degree: 94%
 
 ---
@@ -688,7 +688,6 @@ Para obtener ejemplos sobre el uso del campo de búsqueda externa para llamar a 
 
 >[!NOTE]
 >
->* Los campos de búsqueda externa no son compatibles con el complemento de Outlook.
 >* Los campos de búsqueda externos no están disponibles en las listas cuando el campo tiene una dependencia con otro campo.
 
 Para añadir una búsqueda externa, haga lo siguiente:
@@ -754,12 +753,12 @@ Para añadir una búsqueda externa, haga lo siguiente:
       <td role="rowheader">Ruta JSON</td>
       <td><p>Escriba o pegue la ruta JSON para la API.</p> <p>Esta opción permite extraer datos del JSON devuelto por la URL de la API. Sirve para seleccionar qué valores dentro del JSON aparecerán en las opciones desplegables.</p><p>Por ejemplo, si la dirección URL de la API devuelve JSON en el siguiente formato, puede usar “$.data[*].name” para seleccionar EE. UU. y Canadá como opciones desplegables:</br>
       <pre>
-      &lbrace;
-       data: &lbrace;
+      {
+       data: {
          { name: "USA"},
          { name: "Canada"}
-       &rbrace;
-      &rbrace;
+       }
+      }
       </pre>
       </p>
      <p>Para obtener más información sobre la ruta JSON y cómo asegurarse de que escribe la ruta JSON correcta, consulte <a href="https://jsonpath.com/">https://jsonpath.com/</a>.</p></td>

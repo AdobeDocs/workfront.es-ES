@@ -6,10 +6,10 @@ description: La información que se muestra en  [!DNL Adobe Workfront]  está re
 feature: Get Started with Workfront
 author: Alina
 exl-id: f324f198-5472-4cf2-a46e-7fc24605ca90
-source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
+source-git-commit: d11066d9aa76077bfaaa2d44f2e29c983dafa96f
 workflow-type: tm+mt
-source-wordcount: '2508'
-ht-degree: 95%
+source-wordcount: '2456'
+ht-degree: 94%
 
 ---
 
@@ -25,9 +25,9 @@ La información que se muestra en [!DNL Adobe Workfront] está representada por 
 
 Es importante comprender cómo se definen los objetos en [!DNL Workfront] para que pueda utilizar el objeto correcto para las necesidades de su organización.
 
-Por ejemplo, cuando se planea una gran cantidad de trabajo, es necesario usar el objeto [!UICONTROL Project] para definir ese trabajo. Para dividir este trabajo en incrementos planificados más pequeños, puede utilizarse el objeto [!UICONTROL Task]. Para una menor cantidad de trabajo que no está planificado y que puede ocurrir de forma inesperada, puede utilizar el objeto Issue. Si desea realizar un seguimiento del progreso y del cumplimiento del presupuesto y la línea de tiempo de un grupo de proyectos, puede organizarlos en [!UICONTROL Portafolios] y [!UICONTROL Programas]. Para definir otros elementos que le ayuden a resolver su trabajo, es conveniente utilizar otros objetos que están almacenados en [!UICONTROL Proyectos], [!UICONTROL Tareas], [!UICONTROL Problemas] o [!UICONTROL Portafolios], como [!UICONTROL Documentos], [!UICONTROL Actualizaciones], [!UICONTROL Horas], [!UICONTROL Usuarios] o [!UICONTROL Funciones].
+Por ejemplo, cuando se planea una gran cantidad de trabajo, es necesario usar el objeto [!UICONTROL Project] para definir ese trabajo. Para dividir este trabajo en incrementos planificados más pequeños, puede utilizarse el objeto [!UICONTROL Task]. Para una menor cantidad de trabajo que no está planificado y que puede ocurrir de forma inesperada, puede utilizar el objeto Issue. Si desea realizar un seguimiento del progreso y del cumplimiento del presupuesto y la cronología de un grupo de proyectos, puede organizarlos en [!UICONTROL Portafolios] y [!UICONTROL Programas]. Para definir otros elementos que le ayuden a resolver su trabajo, es conveniente utilizar otros objetos que están almacenados en [!UICONTROL Proyectos], [!UICONTROL Tareas], [!UICONTROL Problemas] o [!UICONTROL Portafolios], como [!UICONTROL Documentos], [!UICONTROL Actualizaciones], [!UICONTROL Horas], [!UICONTROL Usuarios] o [!UICONTROL Funciones].
 
-[!UICONTROL Informes] y [!UICONTROL Paneles] son otro ejemplo de objetos que pueden ayudarle a organizar visualmente la cantidad de datos incluidos en [!DNL Workfront] para que todos los usuarios puedan obtener acceso a ellos fácilmente.
+[!UICONTROL Informes] y [!UICONTROL Paneles de control] son otro ejemplo de objetos que pueden ayudarle a organizar visualmente la cantidad de datos incluidos en [!DNL Workfront] para que todos los usuarios puedan obtener acceso a ellos fácilmente.
 
 Para obtener una lista completa de los objetos de [!DNL Workfront], consulte el [Explorador de API](../../../wf-api/general/api-explorer.md).
 
@@ -44,8 +44,8 @@ A continuación se muestran algunos de los objetos más utilizados en [!DNL Work
 | [!UICONTROL Proyectos] | [!UICONTROL Portafolios], [!UICONTROL Programas] | [!UICONTROL Tareas], [!UICONTROL Problemas], [!UICONTROL Documentos], [!UICONTROL Notas], [!UICONTROL Horas], [!UICONTROL Usuarios] |
 | [!UICONTROL Tareas] | [!UICONTROL Proyectos] | [!UICONTROL Problemas], [!UICONTROL Tareas secundarias], [!UICONTROL Documentos], [!UICONTROL Notas], [!UICONTROL Horas], [!UICONTROL Usuarios] |
 | [!UICONTROL Problemas] | [!UICONTROL Tareas], [!UICONTROL Proyectos] | [!UICONTROL Documentos], [!UICONTROL Notas], [!UICONTROL Horas], [!UICONTROL Usuarios] |
-| [!UICONTROL Paneles] |  | [!UICONTROL Informes], páginas externas |
-| [!UICONTROL Informes] | [!UICONTROL Paneles] |  |
+| [!UICONTROL Paneles de control] |  | [!UICONTROL Informes], páginas externas |
+| [!UICONTROL Informes] | [!UICONTROL Paneles de control] |  |
 | [!UICONTROL Grupos] |  | [!UICONTROL Usuarios] |
 | [!UICONTROL Equipos] |  | [!UICONTROL Usuarios] |
 | [!UICONTROL Usuarios] | [!UICONTROL Grupos], [!UICONTROL Equipos], [!UICONTROL Compañías] | [!UICONTROL Funciones] |
@@ -126,16 +126,6 @@ Las áreas siguientes muestran el nombre actualizado de los objetos:
 * Correos electrónicos
 * Aplicaciones móviles
 
-### Áreas de [!DNL Workfront] que no reflejan los nombres de objeto personalizados
-
-Las áreas siguientes no muestran el nombre actualizado de los objetos:
-
-<!--
-  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"> <p>Referenced Object Type selection for a Typeahead field in a Custom Form </p> <p>(NOTE: drafting this because I don't think this is true)</p> </li>
-  -->
-
-* Complemento de [!DNL Outlook]
-
 ### Implicaciones de la personalización de los nombres de los objetos
 
 Debe tener en cuenta lo siguiente al personalizar los nombres de los objetos en [!DNL Workfront]:
@@ -162,7 +152,7 @@ A continuación se muestra una lista de objetos y sus iconos correspondientes en
 | **Objeto** | **Icono** | **Nombre de objeto personalizable** |
 |---|---|---|
 | [!UICONTROL Compañía] | ![Icono de la compañía](assets/company-icon-nwe.png), ![icono de la compañía azul](assets/nwe-company-icon-54x54.png) |  |
-| [!UICONTROL Panel] | ![Icono de panel](assets/dashboard-icon-nwe.png), ![icono de panel azul](assets/nwe-dashboards-icon.png) |  |
+| [!UICONTROL Panel de control] | ![Icono de panel](assets/dashboard-icon-nwe.png), ![icono de panel azul](assets/nwe-dashboards-icon.png) |  |
 | [!UICONTROL Meta] | ![Icono de meta](assets/nwe-goal-icon.png) | ✔ |
 | [!UICONTROL Grupo] | ![Icono de grupos](assets/groups-icon-nwe.png) , ![Icono de grupos](assets/nwe-group-icon.png) |  |
 | [!UICONTROL Problema] | ![Icono de problema](assets/issue-icon-nwe.png) , ![Icono de problema rosa](assets/nwe-issues-icon.png) | ✔ |
@@ -200,8 +190,8 @@ No se pueden buscar todos los objetos en [!DNL Workfront]. Puede ejecutar búsqu
 | [!UICONTROL Documentos] | ✓ | ✓ |
 | [!UICONTROL Portafolios] | ✓ | ✓ |
 | [!UICONTROL Programas] | ✓ | ✓ |
-| [!UICONTROL Paneles] | ✓ | ✓ |
-| [!UICONTROL Empresas] | ✓ | ✓ |
+| [!UICONTROL Paneles de control] | ✓ | ✓ |
+| [!UICONTROL Compañías] | ✓ | ✓ |
 | [!UICONTROL Notas] (o [!UICONTROL Actualizaciones]) | ✓ |  |
 
 Para obtener más información acerca de cómo ejecutar búsquedas básicas y avanzadas en [!DNL Workfront], consulte [Buscar [!DNL Adobe Workfront]](../../../workfront-basics/navigate-workfront/search/search-workfront.md).
@@ -256,7 +246,7 @@ Puede crear informes sobre los objetos siguientes al usar el generador de inform
 * [!UICONTROL Evento de calendario]
 * [!UICONTROL Compañía]
 * [!UICONTROL Formulario personalizado]
-* [!UICONTROL Panel]
+* [!UICONTROL Panel de control]
 * [!UICONTROL Documento]
 * [!UICONTROL Aprobación de documento]
 * [!UICONTROL Versión del documento]
@@ -268,7 +258,7 @@ Puede crear informes sobre los objetos siguientes al usar el generador de inform
 * [!UICONTROL Favorito]
 * [!UICONTROL Filtro]
 * [!UICONTROL Meta]
-   * Puede generar un informe para metas estratégicas o mostrar información relacionada con las metas en un informe de proyecto cuando los proyectos están asociados con metas como actividades de metas. Puede crear metas estratégicas y conectar proyectos con ellas solo si su organización ha adquirido una licencia de [!DNL Workfront Goals]. Para obtener información acerca de [!DNL Workfront Goals], consulte la información general de [[!DNL Workfront Goals] &#x200B;](../../../workfront-goals/goal-management/wf-goals-overview.md). Para obtener información acerca de cómo conectar proyectos con metas estratégicas, consulte [Añadir proyectos a metas en Adobe Workfront Goals](../../../workfront-goals/results-and-activities/connect-projects-to-goals-overview.md).
+   * Puede generar un informe para metas estratégicas o mostrar información relacionada con las metas en un informe de proyecto cuando los proyectos están asociados con metas como actividades de metas. Puede crear metas estratégicas y conectar proyectos con ellas solo si su organización ha adquirido una licencia de [!DNL Workfront Goals]. Para obtener información acerca de [!DNL Workfront Goals], consulte la información general de [[!DNL Workfront Goals] ](../../../workfront-goals/goal-management/wf-goals-overview.md). Para obtener información acerca de cómo conectar proyectos con metas estratégicas, consulte [Añadir proyectos a metas en Adobe Workfront Goals](../../../workfront-goals/results-and-activities/connect-projects-to-goals-overview.md).
 *No puede informar sobre metas de proyecto que estén asociadas con un [!UICONTROL Caso empresarial]. Para obtener información sobre los objetivos del proyecto frente a los objetivos estratégicos, consulte el [Glosario de [!DNL Adobe Workfront] terminología](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
 
 * [!UICONTROL Grupo]

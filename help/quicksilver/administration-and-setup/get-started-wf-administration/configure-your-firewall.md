@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 264eed40-6d90-498b-83cc-2500c8b19c84
-source-git-commit: 3c680b39685e650dd442adbb49e4091d558d1410
+source-git-commit: a1bf0e508d11089c0835f17daf6a9e17d1b6b161
 workflow-type: tm+mt
-source-wordcount: '1603'
+source-wordcount: '1569'
 ht-degree: 15%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 15%
 >
 >El procedimiento descrito en esta página se aplica solo a las organizaciones que aún no se han incorporado a Admin Console. Si su organización se ha incorporado a Adobe Admin Console, debe llevar a cabo esta acción mediante Adobe Admin Console.
 >
->Para configurar la lista de permitidos si su organización se ha incorporado a Adobe Admin Console, consulte [Dominios permitidos para aplicaciones y servicios de Adobe](https://helpx.adobe.com/es/enterprise/kb/network-endpoints.html).
+>Para configurar la lista de permitidos si su organización se ha incorporado a Adobe Admin Console, consulte [Dominios permitidos para aplicaciones y servicios de Adobe](https://helpx.adobe.com/enterprise/kb/network-endpoints.html).
 >
 >Para obtener una lista de procedimientos que difieren según si su organización se ha incorporado a Adobe Admin Console, consulte [Diferencias de administración basadas en la plataforma (Adobe Workfront/Adobe Business Platform)](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
@@ -69,12 +69,6 @@ Para localizar el clúster de su organización:
 Para obtener más información, consulte la sección [Ver el clúster de su organización y el plan de Workfront](../../administration-and-setup/get-started-wf-administration/firewall-overview.md#view-your-organizations-cluster-and-workfront-plan) en el artículo [Descripción general del firewall](../../administration-and-setup/get-started-wf-administration/firewall-overview.md).
 
 ## Direcciones IP que agregar a la lista de permitidos
-
->[!IMPORTANT]
->
->Algunas integraciones de Workfront no funcionan cuando la lista de permitidos está habilitada porque no se pueden configurar con una dirección IP estática. Para utilizar las siguientes integraciones, debe deshabilitar la lista de permitidos.
->
->* Workfront para Outlook
 
 * [Direcciones IP que permiten los clústeres 1, 2, 3, 5, 7, 8 y 9](#ip-addresses-to-allow-for-clusters-1-2-3-5-7-8-and-9)
 * [Direcciones IP para permitir el clúster 4](#ip-addresses-to-allow-for-cluster-4)
