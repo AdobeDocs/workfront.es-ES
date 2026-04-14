@@ -9,9 +9,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 32cb95c2-8d12-492b-ad89-b38e2a337fc5
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 93eab1106953bfc7324f4b7cc99d3442364a56cd
+source-git-commit: ca06f89747110f1abc4cc6ff46490ac6f7a54e96
 workflow-type: tm+mt
-source-wordcount: '3865'
+source-wordcount: '3876'
 ht-degree: 0%
 
 ---
@@ -102,7 +102,7 @@ Para obtener más información acerca de la administración de proyectos en Work
 
 Debido a que la revisión y la aprobación unificadas se crean mediante el almacenamiento empresarial de Adobe, hay algunas convenciones de estructura y nomenclatura obligatorias que se deben tener en cuenta al administrar proyectos y documentos.
 
-* El almacenamiento empresarial de Adobe requiere nombres únicos para objetos del mismo nivel con el mismo elemento principal en el árbol de jerarquías.
+* Los programas y proyectos no pueden tener el mismo nombre si pertenecen al mismo portafolio.
 * Los documentos no pueden tener el mismo nombre si pertenecen al mismo proyecto.
 * Los nombres de objeto no pueden contener ninguno de los siguientes caracteres especiales: \ / : * ? &quot; | &lt; >
 * Los nombres de objeto están limitados a un máximo de 255 caracteres.
@@ -399,7 +399,9 @@ Entre las ventajas clave del almacenamiento empresarial de Adobe se incluyen:
 
 Sí. Dado que la integración utiliza el almacenamiento empresarial de Adobe, se aplican las siguientes convenciones:
 
-* Los nombres de objeto y documento deben ser únicos dentro del mismo elemento principal en la jerarquía de carpetas.
+* Los programas y proyectos no pueden tener el mismo nombre si pertenecen al mismo portafolio.
+
+* Los nombres de los documentos deben ser únicos dentro del mismo elemento principal en la jerarquía de carpetas.
 
 * Los documentos del mismo proyecto no pueden compartir un nombre.
 
