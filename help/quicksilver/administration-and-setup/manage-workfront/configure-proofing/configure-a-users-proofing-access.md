@@ -8,9 +8,9 @@ author: Courtney
 feature: System Setup and Administration, Digital Content and Documents
 role: Admin
 exl-id: 98c90139-f31a-41bc-af0b-577dd8b254e3
-source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
+source-git-commit: 322a24fabd22ca2b54c020aded33b736a98f4bf5
 workflow-type: tm+mt
-source-wordcount: '1242'
+source-wordcount: '1102'
 ht-degree: 99%
 
 ---
@@ -49,19 +49,6 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 &#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con el administrador de Workfront.
 
 +++
-
-## Habilitar y deshabilitar la revisión para un usuario (solo para planes heredados) {#enable-and-disable-proofing-for-a-user-legacy-plans-only}
-
-Si su organización utiliza un plan Select o Premium Workfront heredado, como administrador de Workfront puede habilitar y deshabilitar la funcionalidad de revisión para el usuario.
-
-Al habilitar la revisión para un usuario, Workfront habilita la opción para que las pruebas del usuario se generen automáticamente.
-
-Aunque puede habilitar a un usuario como usuario de revisión, debe tener permisos de administrador para navegar directamente a la interfaz de Workfront Proof desde el menú principal de Workfront. Para obtener información sobre cómo habilitar esta opción para todos los usuarios de revisión de su sistema Workfront, consulte [Configuración del acceso a Workfront Proof a través del menú principal de Workfront para todos los usuarios](#configure-workfront-proof-access-via-workfront-main-menu-for-all-users).
-
-1. En el **Menú principal**, seleccione **Usuarios**.
-
-1. Seleccione un usuario y luego haga clic en el icono **Editar**.
-1. En la sección **Acceder**, seleccione o anule la selección de **El usuario puede generar pruebas**.
 
 ## Configuración del perfil de permiso de prueba de un usuario
 
@@ -131,7 +118,7 @@ Puede otorgar a todos los usuarios acceso al botón Workfront Proof dentro del m
 
 ## Configuración del acceso de los usuarios al Visor de corrección de escritorio
 
-Si los usuarios de su organización prefieren utilizar el Visor de corrección de escritorio en lugar del Visor de corrección web para revisar el contenido interactivo, puede configurar el Visor de corrección de escritorio para que se inicie automáticamente cuando los usuarios abran pruebas de contenido interactivo. Para obtener información acerca del Visor de corrección de escritorio y en qué se diferencia del Visor de corrección web, consulte [Comprender el Visor de corrección de escritorio](../../../workfront-proof/wp-work-proofsfiles/review-proofs-dpv/destop-proofing-viewer.md) e [Información general sobre las diferencias entre el Visor de corrección web y el Visor de corrección de escritorio](../../../review-and-approve-work/proofing/proofing-overview/understand-differences-between-web-viewer.md).
+Si los usuarios de su organización prefieren utilizar el Visor de corrección de escritorio en lugar del Visor de corrección web para revisar el contenido interactivo, puede configurar el Visor de corrección de escritorio para que se inicie automáticamente cuando los usuarios abran revisiones de contenido interactivo. Para obtener información acerca del Visor de corrección de escritorio y en qué se diferencia del Visor de corrección web, consulte [Comprender el Visor de corrección de escritorio](../../../workfront-proof/wp-work-proofsfiles/review-proofs-dpv/destop-proofing-viewer.md) e [Información general sobre las diferencias entre el Visor de corrección web y el Visor de corrección de escritorio](../../../review-and-approve-work/proofing/proofing-overview/understand-differences-between-web-viewer.md).
 
 1. En Workfront, haga clic en el icono Workfront Proof de la barra de navegación global para acceder a Workfront Proof.
 
@@ -141,7 +128,7 @@ Si los usuarios de su organización prefieren utilizar el Visor de corrección d
 
 1. En **Valores predeterminados de la prueba**, al final de la fila **Visor de corrección de escritorio para revisión interactiva**, haga clic en **Configuración**.
 
-1. Modifique la configuración del Visor de corrección de escritorio, tal como se describe en [Visor de corrección de escritorio](../../../administration-and-setup/manage-workfront/configure-proofing/configure-proofing-organization.md#desktop-proofing-viewer) en el artículo [Configurar las opciones de pruebas para su organización](../../../administration-and-setup/manage-workfront/configure-proofing/configure-proofing-organization.md).
+1. Modifique la configuración del Visor de corrección de escritorio, tal como se describe en [Visor de corrección de escritorio](../../../administration-and-setup/manage-workfront/configure-proofing/configure-proofing-organization.md#desktop-proofing-viewer) en el artículo [Configurar las opciones de revisiones para su organización](../../../administration-and-setup/manage-workfront/configure-proofing/configure-proofing-organization.md).
 
 1. Haga clic en **Guardar**.
 
@@ -152,4 +139,4 @@ Puede añadir cualquier dispositivo personalizado al sistema, lo que permite a l
 Para obtener más información, consulte [Cambiar la resolución de prueba interactiva en el visor de revisión](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/view-interactive-content-as-it-appears-in-device.md).
 
 1. Desde Workfront, acceda a la interfaz de Workfront Proof como se describe en [Acceder a Workfront Proof desde Adobe Workfront](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/access-wf-proof-in-workfront.md).
-1. Modifique la configuración del Visor de corrección de escritorio, tal como se describe en [Configurar dispositivos personalizados para pruebas](../../../administration-and-setup/manage-workfront/configure-proofing/configure-proofing-organization.md#custom-devices-for-proofs) en el artículo [Configurar las opciones de pruebas para su organización](../../../administration-and-setup/manage-workfront/configure-proofing/configure-proofing-organization.md).
+1. Modifique la configuración del Visor de corrección de escritorio, tal como se describe en [Configurar dispositivos personalizados para revisiones](../../../administration-and-setup/manage-workfront/configure-proofing/configure-proofing-organization.md#custom-devices-for-proofs) en el artículo [Configurar las opciones de revisiones para su organización](../../../administration-and-setup/manage-workfront/configure-proofing/configure-proofing-organization.md).
