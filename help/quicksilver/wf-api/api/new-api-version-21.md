@@ -9,10 +9,10 @@ role: Developer
 exl-id: 7fb9131a-b815-4990-acba-cc75a24f389f
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 3106cb32d1f4cb962c1b16238ef17adcaa5766f1
 workflow-type: tm+mt
 source-wordcount: '929'
-ht-degree: 84%
+ht-degree: 83%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 84%
 >
 >Este cambio de versión de API presenta un cambio radical que puede afectar a sus llamadas de API existentes. Esto se debe a que la versión 21 de la API utiliza la versión 2 de Suscripciones a eventos.
 >
-> Para los campos de selección múltiple, la versión 2 de Suscripciones a eventos siempre envía una matriz. La versión 1 enviaba una matriz si se seleccionaba más de un valor. Si solo se seleccionaba un valor, se enviaba una cadena.
+> Para los campos de selección múltiple, la versión 2 de Suscripciones de eventos siempre envía como una matriz. La versión 1 enviaba una matriz si se seleccionaba más de un valor. Si solo se seleccionaba un valor, se enviaba una cadena.
 
 Adobe Workfront publicó la versión 21 de la API el viernes, 23 de octubre de 2025. La versión 21 de la API incorpora los siguientes cambios con respecto a la versión 20.
 
