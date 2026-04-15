@@ -9,9 +9,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 32cb95c2-8d12-492b-ad89-b38e2a337fc5
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: ca06f89747110f1abc4cc6ff46490ac6f7a54e96
+source-git-commit: 453d4862883e299fea46b3dfe94548375bfc4209
 workflow-type: tm+mt
-source-wordcount: '3876'
+source-wordcount: '3846'
 ht-degree: 0%
 
 ---
@@ -27,11 +27,7 @@ Los coordinadores de proyectos administran el trabajo en Workfront mientras los 
 
 ## Requisitos de integración
 
-* Workfront y Frame.io deben implementarse en la misma organización de Identity Management system (IMS).
-
-* Los usuarios solo pueden pertenecer a una instancia de Workfront dentro de la organización IMS.
-
-* La instancia de Workfront debe habilitarse en la experiencia unificada de Adobe y en el almacenamiento empresarial de Adobe.
+* La instancia de Workfront debe estar habilitada en la experiencia unificada de Adobe.
 
 
 ## Basado en el almacenamiento empresarial de Adobe
