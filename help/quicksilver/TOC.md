@@ -3,9 +3,9 @@ user-guide-title: Guía de Workfront
 user-guide-description: Utilice los siguientes documentos, tutoriales y recursos adicionales para aprender a implementar y utilizar Adobe Workfront de forma eficaz en su organización.
 role: User
 feature-set: Workfront
-source-git-commit: 627d59c8c8296e5b6c8b6da53705a1c3d7633751
+source-git-commit: eea05bfe350f7d68ccd08ad16f1bb6716cbec6dc
 workflow-type: tm+mt
-source-wordcount: '13922'
+source-wordcount: '13932'
 ht-degree: 97%
 
 ---
@@ -1189,7 +1189,8 @@ ht-degree: 97%
       * Adobe Workfront para Experience Manager Assets y Assets Essentials {#wf-aem-essentials}
          * [Adobe Workfront para Experience Manager Assets y Assets Essentials: índice de artículos](documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md)
          * [Información general sobre las integraciones de Adobe Experience Manager Assets](documents/adobe-workfront-for-experience-manager-assets-essentials/aem-asset-integrations.md)
-         * [Vincular recursos y carpetas desde Experience Manager Assets Essentials](documents/adobe-workfront-for-experience-manager-assets-essentials/link-to-aem.md)
+         * [Vincular recursos y carpetas con el Asesor de contenido de Experience Manager Assets](documents/adobe-workfront-for-experience-manager-assets-essentials/link-to-aem.md)
+         * [Vincular recursos y carpetas desde Experience Manager Assets Essentials](documents/adobe-workfront-for-experience-manager-assets-essentials/link-to-aem-essentials.md)
          * [Ver metadatos asignados para Experience Manager Assets o Assets Essentials](documents/adobe-workfront-for-experience-manager-assets-essentials/view-asset-metadata.md)
          * [Ver o descargar un recurso vinculado desde Experience Manager Assets o Assets Essentials](documents/adobe-workfront-for-experience-manager-assets-essentials/view-download-asset.md)
          * [Enviar documentos a Experience Manager Assets o Assets Essentials](documents/adobe-workfront-for-experience-manager-assets-essentials/send-to-aem.md)

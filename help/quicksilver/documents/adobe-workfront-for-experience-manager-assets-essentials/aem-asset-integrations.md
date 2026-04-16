@@ -6,10 +6,10 @@ description: La integración entre Workfront y Experience Manager Assets o Asset
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: bdcf315c-5710-41dc-8528-0634e89907df
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: deb38abd0c7b4ba41eb21a6539f00d009158f986
 workflow-type: tm+mt
-source-wordcount: '281'
-ht-degree: 17%
+source-wordcount: '323'
+ht-degree: 34%
 
 ---
 
@@ -23,7 +23,7 @@ La integración entre Workfront y Experience Manager Assets o Assets Essentials 
 >
 >Adobe no admite el uso de los conectores heredados o mejorados y la integración de Experience Manager en paralelo.
 
-## Características principales
+## Funciones principales
 
 Con la integración nativa de Experience Manager, puede
 
@@ -31,7 +31,13 @@ Con la integración nativa de Experience Manager, puede
 * Crear automáticamente carpetas vinculadas entre Workfront y Experience Manager
 * Sincronizar fácilmente metadatos para recursos vinculados existentes
 * Actualizar automáticamente los metadatos de portafolios, programas, proyectos, tareas, problemas y documentos cuando se modifican en Workfront
-* Conecte sin problemas varios repositorios de Experience Manager Assets a un entorno de Workfront o varios entornos de Workfront a un repositorio de Experience Manager Assets en los ID de organización
+* Conecte sin problemas varios repositorios de Experience Manager Assets a un entorno de Workfront o varios entornos de Workfront a un repositorio de Experience Manager Assets en los ID de organización.
+* Utilice la función Asesor de contenido de Experience Manager Assets. Con el Asesor de contenido, puede
+   * Cargar contenido para buscar recursos similares
+   * Ver detalles rápidos sobre un recurso
+   * Acceso a fragmentos de contenido
+   * Explorar colecciones
+   * Y más. Para obtener más información, consulte [Documentación de Experience Manager Assets Content Advisor].
 
 
 ## Requisitos previos
@@ -54,7 +60,7 @@ Con la integración nativa de Experience Manager, puede
 
 ## Introducción
 
-1. [Configure la asignación de metadatos de recursos entre Adobe Workfront y Experience Manager Assets](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
+1. [Configure la asignación de metadatos de recursos entre Adobe Workfront y Experience Manager Assets](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
 1. Configure la integración:
    1. [Configurar la integración de Experience Manager Assets as a Cloud Service](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md)
 O

@@ -8,10 +8,10 @@ author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 recommendations: noDisplay, noCatalog
 exl-id: 8aad1efc-1a91-441a-8bb8-0ce9429492c6
-source-git-commit: 5d818b2e3c3314c6af076df46f7f806214f97bab
+source-git-commit: ac3534cde15da84ae12f577b05eced88f74068e7
 workflow-type: tm+mt
-source-wordcount: '147'
-ht-degree: 87%
+source-wordcount: '155'
+ht-degree: 76%
 
 ---
 
@@ -20,7 +20,8 @@ ht-degree: 87%
 <!-- Audited: 4/2025 -->
 
 * [Información general sobre las integraciones de Adobe Experience Manager Assets](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/aem-asset-integrations.md)
-* [Vincular recursos y carpetas desde Experience Manager Assets o Assets Essentials](../../documents/adobe-workfront-for-experience-manager-assets-essentials/link-to-aem.md)
+* [Vincular recursos y carpetas con el Asesor de contenido de Experience Manager Assets](../../documents/adobe-workfront-for-experience-manager-assets-essentials/link-to-aem.md)
+* [Vincular recursos y carpetas de Experience Manager Assets Essentials](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/link-to-aem-essentials.md)
 * [Ver metadatos asignados para Experience Manager Assets o Assets Essentials](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/view-asset-metadata.md)
 * [Enviar un documento a Experience Manager Assets o a Assets Essentials](../../documents/adobe-workfront-for-experience-manager-assets-essentials/send-to-aem.md)
 * [Probar un recurso vinculado para Experience Manager Assets o Assets Essentials](../../documents/adobe-workfront-for-experience-manager-assets-essentials/proof-linked-asset-aem.md)

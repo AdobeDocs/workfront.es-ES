@@ -1,23 +1,27 @@
 ---
 product-area: documents;workfront-integrations
 navigation-topic: adobe-workfront-for-experince-manager-asset-essentials
-title: Vincular recursos y carpetas desde Experience Manager Assets o Assets Essentials
-description: Puede vincular un recurso o una carpeta desde Experience Manager Assets o Assets Essentials a cualquier objeto de Adobe Workfront que admita documentos. Los recursos enviados desde Assets Essentials no cuentan para el almacenamiento general de documentos en Workfront. Los documentos cargados y enviados desde Workfront a Assets Essentials no se contabilizan en el almacenamiento general.
+title: Vincule contenido y carpetas con el Asesor de contenido con tecnología de Experience Manager Assets
+description: Puede utilizar el Asesor de contenido para vincular contenido o carpetas de Experience Manager Assets a cualquier objeto de Adobe Workfront que admita documentos. El Asesor de contenido lleva la detección inteligente según el contexto directamente a Workfront, lo que le ayuda a encontrar rápidamente contenido relevante y aprobado.
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: dbd19985-88b1-48ca-9cba-b7933ff2c191
-source-git-commit: 430751f0e38c6c45145c965398990ee3652f36fe
+source-git-commit: ab868314aef0924906ca69e82a10ece130484ba7
 workflow-type: tm+mt
-source-wordcount: '639'
-ht-degree: 97%
+source-wordcount: '1226'
+ht-degree: 22%
 
 ---
 
-# Vincular recursos y carpetas desde Experience Manager Assets o Assets Essentials
+# Vinculación de contenido y carpetas con el Asesor de contenido de Experience Manager Assets
 
-Puede vincular un recurso o una carpeta desde Experience Manager Assets o Assets Essentials a cualquier objeto de Adobe Workfront que admita documentos. Los recursos enviados desde Assets Essentials no cuentan para el almacenamiento general de documentos en Workfront. Los documentos cargados y enviados desde Workfront a Assets Essentials no se contabilizan en el almacenamiento general.
+El Asesor de contenido lleva la detección inteligente según el contexto directamente a Workfront, lo que le ayuda a encontrar rápidamente contenido relevante y aprobado según el contexto. Con funciones como sugerencias inteligentes, representaciones de Dynamic Media y metadatos de recursos detallados, le permite evaluar y reutilizar contenido de forma eficaz sin salir de Workfront, lo que acelera la creación de contenido y mantiene la coherencia de la marca.
 
-Los campos de metadatos se asignan por primera vez al enviar un recurso desde Workfront a Experience Manager Assets o a Assets Essentials. Si el administrador de Workfront ha habilitado la sincronización de metadatos de objetos, los campos permanecen actualizados si se modifican en alguna de las aplicaciones.
+Puede utilizar el Asesor de contenido para vincular contenido y carpetas de Experience Manager Assets a Workfront. Una vez enlazado, puede ver y administrar el contenido en Workfront, y los cambios realizados en el contenido en Experience Manager Assets se reflejarán en Workfront.
+
+>[!IMPORTANT]
+>
+>Si su organización rechaza firmar el acuerdo GenAI Rider, puede seguir utilizando el Asesor de contenido para elegir recursos y carpetas en Experience Manager Assets, pero no tendrá acceso a funciones con tecnología de IA, como Búsqueda por IA, sugerencias inteligentes o análisis de informes de campaña.
 
 ## Requisitos de acceso
 
@@ -28,7 +32,7 @@ Los campos de metadatos se asignan por primera vez al enviar un recurso desde Wo
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td role="rowheader">Paquete de Adobe Workfront</td> 
    <td> <p> Cualquiera</p> </td> 
   </tr> 
   <tr> 
@@ -62,52 +66,81 @@ Para obtener más información sobre esta tabla, consulte [Requisitos de acceso 
 
 ## Requisitos previos
 
-Antes de comenzar,
+Antes de empezar:
 
-* El administrador de Workfront debe configurar una integración de Experience Manager. Para obtener más información, consulte [Configuración de la integración de Experience Manager Assets as a Cloud Service](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md) o [Configuración de la integración de Experience Manager Assets Essentials](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md).
+* El administrador de Workfront debe configurar una integración de Experience Manager. Para obtener más información, consulte [Configuración de la integración de Experience Manager Assets as a Cloud Service](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md).
 
-## Vincular un recurso desde Experience Manager Assets o Assets Essentials
+* Para utilizar las sugerencias inteligentes o la funcionalidad de los informes de campaña, debe firmar un GenAI Rider. Para obtener más información, consulte [Usar el Asesor de contenido para obtener acceso al contenido de AEM en las aplicaciones de Adobe](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#content-advisor-ai-search).
 
-Puede vincular un recurso desde Experience Manager Assets o desde Assets Essentials a Workfront. Una vez vinculado el recurso, puede
 
-* [Probar un recurso vinculado para Experience Manager Assets o Assets Essentials](../../documents/adobe-workfront-for-experience-manager-assets-essentials/proof-linked-asset-aem.md)
-* [Cargar una nueva versión de un documento](../../documents/managing-documents/upload-new-document-version.md)
+
+## Vinculación de contenido desde Experience Manager Assets con el Asesor de contenido
+
+Ahora puede utilizar el Asesor de contenido para vincular contenido de Experience Manager Assets directamente en Workfront. El Asesor de contenido no está disponible para Assets Essentials.
+
+Para vincular contenido:
 
 1. Vaya al área de **Documentos** de Workfront donde desea añadir el documento.
 1. Seleccione **Añadir nuevo** y luego, la integración de Experience Manager que configuró el administrador.
 
    >[!NOTE]
    >
-   >El administrador de Workfront puede elegir cualquier nombre para esta integración, por lo que es posible que no mencione específicamente los recursos ni a Assets Essentials.
+   >El administrador de Workfront puede elegir cualquier nombre para esta integración, por lo que es posible que no mencione específicamente Experience Manager Assets.
 
-1. Seleccione los recursos que desee.
+1. Con el Asesor de contenido, puede:
 
-   ![Seleccionar un recurso](assets/select-an-asset.png)
 
-1. Haga clic en **Seleccionar**.
+   <table style="table-layout:auto">
+   <tbody>
+      <tr>
+         <td><strong>Busque recursos mediante la Búsqueda por IA.</strong> Use la búsqueda basada en IA que entienda el significado y la intención detrás de las consultas y que admita varios idiomas, errores tipográficos y sinónimos.</td>
+         <td>Para obtener más información, consulte <a href="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#content-advisor-ai-search">Búsqueda por IA para una detección de recursos más inteligente</a>.</td>
+      </tr>
+      <tr>
+         <td><strong>Ver sugerencias inteligentes basadas en el contexto y la intención.</strong> Descubra recursos que se alinean con sus necesidades de contenido mediante recomendaciones según el contexto desde la aplicación host de Adobe.</td>
+         <td>Para obtener más información, consulte <a href="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#smart-suggestions-content-advisor">Sugerencias inteligentes basadas en el contexto y la intención</a>.</td>
+      </tr>
+      <tr>
+         <td><strong>Cargue un informe de campaña para descubrir los recursos relevantes.</strong> Cargar un documento de resumen de campaña de PDF, DOCX o TXT para que el Asesor de contenido pueda analizarlo y recomendar recursos relevantes.</td>
+         <td>Para obtener más información, consulte <a href="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#campaign-briefs-content-advisor">Informes de Campaign para descubrir recursos relevantes</a>.</td>
+      </tr>
+      <tr>
+         <td><strong>Ver y seleccionar representaciones de recursos de Dynamic Media.</strong> Examine representaciones optimizadas para canales, incluidos ajustes preestablecidos de imagen, recortes inteligentes y tipos de formato, y aplique modificadores de Dynamic Media para obtener una vista previa de los ajustes en tiempo real.</td>
+         <td>Para obtener más información, consulte <a href="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#dynamic-media-renditions-content-advisor">Representaciones de recursos de Dynamic Media disponibles para usar</a>.</td>
+      </tr>
+      <tr>
+         <td><strong>Aplicar modificadores de Dynamic Media a las representaciones.</strong> Agregue modificadores para transformar las representaciones de recursos en tiempo real y previsualice los resultados antes de seleccionar una representación para la aplicación host.</td>
+         <td>Para obtener más información, consulte <a href="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#dynamic-media-renditions-content-advisor">Representaciones de recursos de Dynamic Media disponibles para usar</a>.</td>
+      </tr>
+      <tr>
+         <td><strong>Descubrir y examinar fragmentos de contenido.</strong>: busque a través de fragmentos de contenido, vea vistas previas de miniaturas activas, compruebe el estado (Borrador, Modificado o Publicado) e inspeccione las propiedades, referencias y variaciones detalladas.</td>
+         <td>Para obtener más información, vea <a href="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#content-fragments-discovery-content-advisor">Descubrimiento de fragmentos de contenido</a>.</td>
+      </tr>
+      <tr>
+         <td><strong>Acceder a metadatos de recursos.</strong>: revise las propiedades del recurso, como el título, la descripción, el formato, el tamaño y otras pestañas de metadatos (Producto, Campaña, Etiquetas) compatibles con la vista de Assets.</td>
+         <td>Para obtener más información, consulte <a href="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#asset-metadata-content-advisor">Acceder a metadatos de recursos compatibles con la vista de Assets</a>.</td>
+      </tr>
+      <tr>
+         <td><strong>Filtre recursos mediante filtros predefinidos.</strong> Restringir los resultados de los recursos mediante filtros como Tipo de archivo, Formato de archivo, Estado del recurso, Tamaño de archivo, Anchura de imagen, Altura de imagen, Fecha de modificación y Fecha de creación.</td>
+         <td>Para obtener más información, consulte <a href="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#filters-content-advisor">Filtros de acceso compatibles con la vista de Assets</a>.</td>
+      </tr>
+      <tr>
+         <td><strong>Guardar y reutilizar búsquedas.</strong>: para crear búsquedas guardadas, especifique un término de búsqueda y opciones de filtro y, a continuación, vuelva a utilizarlas en Experience Manager Assets y otras aplicaciones de Adobe.</td>
+         <td>Para obtener más información, consulte <a href="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#saved-searches-content-advisor">Acceder y reutilizar búsquedas recientes y guardadas</a>.</td>
+      </tr>
+      <tr>
+         <td><strong>Busque recursos en las colecciones y entre ellas.</strong>: buscar recursos o colecciones en todas las colecciones, o limitar la búsqueda a una colección específica.</td>
+         <td>Para obtener más información, consulte <a href="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#search-collections-content-advisor">Buscar recursos en las colecciones y entre ellas</a>.</td>
+      </tr>
+   </tbody>
+   </table>
 
-## Vincular una carpeta desde Experience Manager Assets o Assets Essentials
 
-Los permisos para ver recursos individuales dentro de una carpeta dependen de los permisos de Experience Manager Assets o de Assets Essentials.
+### Vincular una nueva versión de Experience Manager Assets con el Asesor de contenido
 
-1. Vaya al área de **Documentos** de Workfront donde desee colocar la carpeta.
-1. Seleccione **Añadir nuevo** y luego seleccione la integración de Experience Manager que configuró el administrador.
+Puede extraer nuevo contenido de Experience Manager Assets o Assets Essentials y añadirlo a un recurso existente como una nueva versión. Si el documento ya está vinculado y se agrega una nueva versión en Experience Manager Assets o Assets Essentials, la nueva versión aparece automáticamente en Workfront.
 
-   >[!NOTE]
-   >
-   >El administrador de Workfront puede elegir cualquier nombre para esta integración, por lo que es posible que no mencione específicamente los recursos ni a Assets Essentials.
-
-1. Seleccione las carpetas que desee.
-
-   ![Seleccionar una carpeta](assets/select-a-folder.png)
-
-1. Haga clic en **Seleccionar**.
-
-## Vincular una nueva versión desde Experience Manager Assets o Assets Essentials
-
-Puede extraer un nuevo recurso de Assets Essentials y añadirlo a un recurso existente como una nueva versión. Si el documento ya está vinculado y se añade una nueva versión en Assets Essentials, la nueva versión aparecerá automáticamente en Workfront.
-
-Para vincular una nueva versión desde Assets Essentials:
+Para vincular una nueva versión:
 
 1. Vaya al área de **Documentos** de Workfront donde desea añadir el documento.
 1. Seleccione el recurso que desea reemplazar con una nueva versión. No puede crear una nueva versión de un recurso en una carpeta vinculada.
@@ -115,14 +148,43 @@ Para vincular una nueva versión desde Assets Essentials:
 
    >[!NOTE]
    >
-   >El administrador de Workfront puede elegir cualquier nombre para esta integración, por lo que es posible que no mencione específicamente los recursos ni a Assets Essentials.
+   >El administrador de Workfront puede elegir cualquier nombre para esta integración, por lo que es posible que no mencione específicamente a Experience Manager Assets.
 
-1. Seleccione el recurso que desee.
+1. Seleccione el contenido que desea vincular:
 
-   ![Seleccionar un recurso](assets/select-an-asset.png)
+   * Seleccione la pestaña Assets para examinar recursos, carpetas o colecciones en Experience Manager Assets o Assets Essentials.
+
+     ![Asesor de contenido](assets/content-advisor-full.png)
+
+   * Los fragmentos de contenido no admiten versiones. Si selecciona un fragmento de contenido, la nueva versión reemplazará el fragmento de contenido existente en lugar de crear una nueva versión.
 
 1. Haga clic en **Seleccionar**.
 
->[!TIP]
->
->Puede ver todas las versiones de un recurso si va a **Detalles del documento**> **Versiones**.
+## Vincular una carpeta desde Experience Manager Assets con el Asesor de contenido
+
+Los permisos para ver recursos individuales dentro de una carpeta dependen de los permisos de Experience Manager Assets.
+
+Para vincular una carpeta:
+
+1. Vaya al área de **Documentos** de Workfront donde desee colocar la carpeta.
+1. Seleccione **Añadir nuevo** y luego seleccione la integración de Experience Manager que configuró el administrador.
+
+   >[!NOTE]
+   >
+   >El administrador de Workfront puede elegir cualquier nombre para esta integración, por lo que es posible que no mencione específicamente a Experience Manager Assets.
+
+1. Haga clic en **Assets** > **Archivos y carpetas**.
+
+1. Haga clic en el icono **Filtrar** y, a continuación, en la sección **Tipo de recurso**, elija **Carpetas**.
+
+1. Seleccione la carpeta que desea vincular.
+
+1. Haga clic en **Seleccionar**.
+
+## Consideraciones
+
+* La funcionalidad de Asesor de contenido no está disponible para objetos que utilicen Adobe Enterprise Storage. Si su organización utiliza Adobe Enterprise Storage, aún puede vincular recursos y carpetas desde Experience Manager Assets o Assets Essentials, pero no tendrá acceso a las funciones del Asesor de contenido, como Búsqueda por IA, sugerencias inteligentes o representaciones de Dynamic Media. Para obtener más información, consulte [Usar Adobe Experience Manager con la integración de Frame.io](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/use-aem-with-frame.md).
+
+* La funcionalidad de Asesor de contenido no está disponible para Assets Essentials. Para vincular recursos y carpetas desde Assets Essentials, consulte [Vincular recursos y carpetas desde Experience Manager Assets Essentials](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/link-to-aem-essentials.md).
+
+* Los campos de metadatos se asignan por primera vez al enviar un recurso de Workfront a Experience Manager Assets. Si el administrador de Workfront ha habilitado la sincronización de metadatos de objetos, los campos permanecen actualizados si se modifican en alguna de las aplicaciones.
