@@ -11,7 +11,7 @@ role: Admin
 exl-id: 53076920-3b13-4b65-85cb-38096cf2d04d
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: b9e0747a58618353caf3ce1c7e8521d22d2b412d
+source-git-commit: dc71072107ce80f6cb9033fcb17fe4ac74d5af18
 workflow-type: tm+mt
 source-wordcount: '507'
 ht-degree: 90%
@@ -26,8 +26,6 @@ ht-degree: 90%
 **DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.
 -->
 
-{{highlighted-preview}}
-
 Como administrador de Adobe Workfront o de un grupo, puede crear y modificar plantillas de diseño para personalizar los siguientes elementos de diseño para los usuarios en Workfront:
 
 * Menú principal
@@ -36,8 +34,8 @@ Como administrador de Adobe Workfront o de un grupo, puede crear y modificar pla
 * Panel de resumen
 * Vistas, filtros y agrupaciones que se utilizan con listas e informes.
 * Terminología en pantalla
-* <span class="preview">Encabezados de objeto</span>
-* <span class="preview">Menú Más (menú de tres puntos) para un objeto</span>
+* Encabezados de objeto
+* Menú Más (menú de tres puntos) para un objeto
 
 Después de crear o modificar una plantilla de diseño, puede asignarla a usuarios individuales, equipos, grupos o funciones de trabajo.
 

@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: d570ef6a-935f-4dd0-9c54-a480163ec9d8
-source-git-commit: 3a194bc2b2707c7b7e1cd5edffc3dd5ab43e91b3
+source-git-commit: c27dd9d972b89af09c0865a0e878f1665416c80e
 workflow-type: tm+mt
 source-wordcount: '1378'
 ht-degree: 2%
@@ -16,8 +16,6 @@ ht-degree: 2%
 ---
 
 # Definir atributos de tasa
-
-{{highlighted-preview-article-level}}
 
 Los atributos de tasa amplían la funcionalidad de tarjeta de tasa y tasas de Adobe Workfront al permitirle añadir dimensiones adicionales a las tasas más allá de la función de trabajo. Esto es crítico para las agencias y empresas donde las tasas varían no solo por rol sino también por factores como agencia, ubicación, marca, centro de costo u otros.
 Al combinar estos atributos, Workfront puede seleccionar automáticamente la tasa correcta para las asignaciones, lo que garantiza la precisión financiera y la coherencia en todos los proyectos.

@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 407aae49-4bc3-4364-a794-7e170a57a6d3
-source-git-commit: 5cdaccd9381b02f183b837208eaac4389b0b7a24
+source-git-commit: e6aa40917f2e4421c84d2cc36e86187328c6f775
 workflow-type: tm+mt
 source-wordcount: '2714'
 ht-degree: 74%
@@ -18,8 +18,6 @@ ht-degree: 74%
 # Añadir campos calculados a un formulario
 
 <!-- Audited: 5/2025 -->
-
-{{highlighted-preview}}
 
 Puede añadir un campo personalizado calculado que utilice datos existentes para generar datos nuevos cuando el formulario personalizado se adjunte a un objeto.
 
@@ -172,26 +170,26 @@ Para reutilizar un campo personalizado calculado existente:
       <td><p>Esta opción está habilitada de forma predeterminada.<p><p>Cuando se establece un campo como Inactivo, se excluye de los informes, los filtros y las vistas y ya no está disponible en la biblioteca de campos de formularios personalizados.</p></td>
      </tr>
      <tr>
-      <td><span class="preview">Permiso automático</span></td>
-      <td><span class="preview"><p>Active esta opción para permitir que los permisos financieros provengan automáticamente de los campos utilizados en la fórmula. Las definiciones de permisos se muestran en el campo Tipo de permiso financiero, a continuación.</p><p>El acceso es obligatorio para todos los campos de la fórmula. Por ejemplo, si se utilizan dos campos en un campo calculado y uno de ellos tiene permiso de facturación aplicado y el segundo tiene permiso de costes aplicado, el usuario debe tener permisos para ver las tarifas de facturación y de coste para ver el valor calculado.</p></span></td>
+      <td>Permiso automático</td>
+      <td><p>Active esta opción para permitir que los permisos financieros provengan automáticamente de los campos utilizados en la fórmula. Las definiciones de permisos se muestran en el campo Tipo de permiso financiero, a continuación.</p><p>El acceso es obligatorio para todos los campos de la fórmula. Por ejemplo, si se utilizan dos campos en un campo calculado y uno de ellos tiene permiso de facturación aplicado y el segundo tiene permiso de costes aplicado, el usuario debe tener permisos para ver las tarifas de facturación y de coste para ver el valor calculado.</p></td>
      </tr>
      <tr>
-      <td><span class="preview">Tipo de permiso financiero</span></td>
-      <td><p><span class="preview">Cuando el campo Automatic permission está desactivado, puede seleccionar el tipo de permiso financiero que deben tener los usuarios para poder ver o editar este campo personalizado. Se permite cualquier formato para los campos calculados. Los campos utilizados en la fórmula determinan si este campo está activo. Si el campo de permiso está en blanco, los campos de la fórmula no admiten los permisos financieros.</span></p>
-      <ul span class="preview">
+      <td>Tipo de permiso financiero</td>
+      <td><p>Cuando el campo Automatic permission está desactivado, puede seleccionar el tipo de permiso financiero que deben tener los usuarios para poder ver o editar este campo personalizado. Se permite cualquier formato para los campos calculados. Los campos utilizados en la fórmula determinan si este campo está activo. Si el campo de permiso está en blanco, los campos de la fórmula no admiten los permisos financieros.</p>
+      <ul>
       <li><p><strong>No se requieren permisos:</strong> Todos los usuarios pueden ver este campo</p></li>
       <li><p><strong>General:</strong> Los usuarios deben tener permisos para editar o ver Finanzas generales</p></li>
       <li><p><strong>Factura:</strong> Los usuarios deben tener permisos para editar o ver las tarifas de facturación</p></li>
       <li><p><strong>Costo:</strong> Los usuarios deben tener permisos para editar o ver las tasas de costo</p></li>
       </ul>
-      <p><span class="preview">Para obtener más información, consulte <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/restrict-access-to-financial-data.md">Restringir el acceso a datos financieros en campos personalizados</a>.</span></p>
+      <p>Para obtener más información, consulte <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/restrict-access-to-financial-data.md">Restringir el acceso a datos financieros en campos personalizados</a>.</p>
       </td>
      </tr>
     </tbody> 
    </table>
 
 1. En el cuadro **Cálculo**, empiece a crear el cálculo:
-   1. Haga clic en **Maximizar** para abrir el Editor de cálculos y generar el cálculo.</p>
+   1. Haga clic en **Maximizar** para abrir el Editor de cálculos y generar el cálculo.
 Un cálculo suele comenzar con una expresión, seguida de paréntesis que contienen los campos a los que se desea hacer referencia cuando se adjunta el formulario personalizado a un objeto.
 
       Cada campo debe estar comprendido entre corchetes. Cuando empiece a escribir el nombre de un campo, el sistema realiza sugerencias y puede seleccionar una para insertarla en el cálculo.

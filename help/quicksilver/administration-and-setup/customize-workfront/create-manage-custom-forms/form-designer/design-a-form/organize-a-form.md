@@ -10,16 +10,14 @@ role: Admin
 exl-id: 08de894a-82f0-4440-a350-680d6648f01e
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 49f26e963647f5015955396489bfe537bbac0918
 workflow-type: tm+mt
-source-wordcount: '1353'
-ht-degree: 10%
+source-wordcount: '1351'
+ht-degree: 9%
 
 ---
 
 # Organización y previsualización de un formulario
-
-{{preview-fast-release-general}}
 
 Puede organizar un formulario personalizado con el diseñador de formularios y obtener una vista previa del mismo para comprobar que está correctamente configurado.
 
@@ -85,8 +83,8 @@ Para obtener información sobre los campos y widgets personalizados en los formu
       <td role="rowheader">Descripción</td> 
       <td>Escriba texto si desea explicar a los usuarios para qué sirve la sección. Esto se muestra debajo de la etiqueta de la sección en el formulario personalizado.</td> 
      </tr> 
-      <td><span class="preview">Contraído de forma predeterminada</span></td>
-      <td><span class="preview">De forma predeterminada, todas las secciones de un formulario personalizado se expanden cuando se expande el propio formulario. Seleccione esta opción para contraer la sección de forma predeterminada cuando un usuario abra el formulario.</span></td>
+      <td>Contraído de forma predeterminada</td>
+      <td>De forma predeterminada, todas las secciones de un formulario personalizado se expanden cuando se expande el propio formulario. Seleccione esta opción para contraer la sección de forma predeterminada cuando un usuario abra el formulario.</td>
      <tr>
      </tr>
      <tr> 
@@ -120,7 +118,7 @@ Para obtener información sobre los campos y widgets personalizados en los formu
      </tr> 
      <tr> 
       <td role="rowheader"><p>Agregar lógica</p></td> 
-      <td><p>Utilice la lógica de visualización para especificar si la sección debe mostrarse en el formulario, en función de las selecciones que realicen los usuarios en los campos personalizados de opción múltiple al rellenar el formulario.</p><p><strong>NOTA:</strong> Si se les ha aplicado lógica de visualización a todos los campos individuales bajo un salto de sección y todos están ocultos como resultado de la lógica, toda la sección estará oculta en el formulario personalizado. Esto sucederá incluso si la lógica de visualización no se aplica al salto de sección.</p><p>Para obtener más información, consulte <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md" class="MCXref xref">Agregar lógica de visualización y omitir lógica con el diseñador de formularios</a>.</p></td> 
+      <td><p>Utilice la lógica de visualización para especificar si la sección debe mostrarse en el formulario, en función de las selecciones que realicen los usuarios en los campos personalizados de opción múltiple al rellenar el formulario.</p><p><strong>NOTA:</strong> Si se les ha aplicado lógica de visualización a todos los campos individuales bajo un salto de sección y todos están ocultos como resultado de la lógica, toda la sección estará oculta en el formulario personalizado. Esto sucederá incluso si la lógica de visualización no se aplica al salto de sección.</p><p>Para obtener más información, consulte <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md" class="MCXref xref">Agregar reglas lógicas a formularios y campos personalizados</a>.</p></td> 
      </tr> 
     </tbody> 
    </table>

@@ -7,7 +7,7 @@ feature: Get Started with Workfront
 exl-id: 4c25ed54-b147-4fd3-8d00-6f1ba61bbd38
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 59a9725e7697a81be2a827a902ee3d23085a2ecd
+source-git-commit: 2131e91f5269ca5b9f062b6bc6b2cb618f9d279a
 workflow-type: tm+mt
 source-wordcount: '2915'
 ht-degree: 3%
@@ -15,8 +15,6 @@ ht-degree: 3%
 ---
 
 # Uso de listas mejoradas
-
-{{preview-fast-release-general}}
 
 Las listas mejoradas están disponibles en algunas áreas de Adobe Workfront. Estas listas utilizan un formato de tabla para mostrar los elementos de la lista, y tienen un aspecto diferente al de las listas estándar. También se mejora la administración de vistas, incluidos el filtrado, la agrupación, la administración de columnas y la búsqueda.
 
@@ -64,13 +62,12 @@ A continuación se muestran algunos tipos de listas de objetos de Workfront que 
 | Prioridades | <ul><li>Inicio > seleccione el icono Prioridades en el menú de la izquierda</li><li>Menú principal > Prioridades</li></ul> |
 | Lista de solicitudes | <ul><li>Solicitudes (solo nueva experiencia)</li><li>Widget de Mis solicitudes en Inicio</li></ul> |
 | Listas de estados, prioridades, gravedades y tasas de cambio en Configuración | <ul><li>Configuración > Preferencias de proyecto > Estados</li><li>Configuración > Preferencias del proyecto > Prioridades</li><li>Configuración > Preferencias del proyecto > Gravedades</li><li>Configuración > Preferencias del proyecto > Tasas de cambio</li></ul> |
-| <span class="preview">Lista de informes</span> | <span class="preview">Informes (**Usar carpetas compartibles** debe estar activado)</span> |
-| <span class="preview">Lista de roles y tarifas en una tarjeta de tarifas</span> | <span class="preview">Configuración > Tarjetas de tarifas > seleccione una tarjeta de tarifas > Funciones del puesto y tarifas</span> |
-| <span class="preview">Lista de traducciones</span> | <span class="preview">Configuración > Localización</span> |
-| <span class="preview">Lista de instantáneas</span> | <span class="preview">Proyecto > Instantáneas</span> |
-| <span class="preview">Lista de recursos para facturación</span> | <span class="preview">Proyecto > Recurso de facturación</span> |
-| <span class="preview">Nuevas asignaciones avanzadas en una tarea</span> | <span class="preview">Tarea > Asignaciones > Avanzadas </span> |
-
+| Lista de informes | Informes (**Use carpetas compartibles** debe estar activado) |
+| Lista de funciones y tarifas del puesto en una tarjeta de tarifas | Configuración > Tarjetas de tarifas > seleccione una tarjeta de tarifas > Funciones del puesto y tarifas |
+| Lista de traducciones | Configuración > Localización |
+| Lista de instantáneas | Proyecto > Instantáneas |
+| Lista de medios para facturación | Proyecto > Recurso de facturación |
+| Nuevas asignaciones avanzadas en una tarea | Tarea > Asignaciones > Avanzadas |
 
 ## Agregar elementos a una lista mejorada
 
@@ -189,8 +186,6 @@ Para agregar y quitar columnas:
 
    La lista actualiza las columnas según las opciones que haya realizado.
 
-<div class="preview">
-
 ### Cambiar el alto de fila en una vista
 
 >[!NOTE]
@@ -204,8 +199,6 @@ Para agregar y quitar columnas:
    * Estándar. Esta es la opción predeterminada.
    * Media
    * Alta
-
-</div>
 
 ## Actualizar elementos de lista mejorados
 
@@ -261,17 +254,15 @@ Para compartir una vista:
 
    * **Vista**: los usuarios pueden aplicar la vista a la lista pero no compartirla.
 
-     <span class="preview">Cuando los usuarios de acceso a Vista actualizan la vista, los cambios se guardan en las preferencias personales del usuario. Un punto azul en el nombre de la vista (en las **vistas compartidas** del usuario) muestra que se han aplicado actualizaciones personales a la vista.</span>
+     Cuando los usuarios de Acceso a la vista actualizan la vista, los cambios se guardan en las preferencias personales del usuario. Un punto azul en el nombre de la vista (en las **vistas compartidas** del usuario) muestra que se han aplicado actualizaciones personales a la vista.
 
    * **Administrar**: los usuarios pueden cambiar el nombre de la vista, compartirla o eliminarla, y editar sus elementos.
 
-     <span class="preview">Cuando los usuarios de Administración de acceso realicen cambios en la vista, todos los usuarios que tengan la vista compartida con ellos verán esas actualizaciones cuando se aplique la vista a la lista.</span>
+     Cuando los usuarios de Administración de acceso realizan cambios en la vista, todos los usuarios que tengan la vista compartida con ellos verán esas actualizaciones cuando la vista se aplique a la lista.
 
 1. Haga clic en **Guardar**.
 
-   <span class="preview">Si comparte una vista con un usuario y luego elimina ese acceso, la vista se eliminará de las **vistas compartidas** del usuario. Si el usuario tenía la vista compartida aplicada a la lista cuando se quitó su acceso, se aplica la vista predeterminada del sistema.</span>
-
-<div class="preview">
+   Si comparte una vista con un usuario y, a continuación, quita ese acceso, la vista se eliminará de las **vistas compartidas** del usuario. Si el usuario tenía la vista compartida aplicada a la lista cuando se elimina su acceso, se aplica la vista predeterminada del sistema.
 
 ### Copiar una vista
 
@@ -291,10 +282,6 @@ Cuando se comparte con usted una vista para la que no tiene permiso de edición,
    >
    >La opción **Copiar con preferencias** solo está disponible si ha realizado cambios en una vista que se compartió con usted.
 
-</div>
-
-<div class="preview">
-
 ### Restablecer una vista
 
 >[!NOTE]
@@ -312,10 +299,6 @@ Cuando se comparte con usted una vista para la que no tiene permiso de edición 
    >La opción **Restablecer al valor predeterminado** solo está disponible si ha realizado cambios en una vista que se compartió con usted.
 
    ![Copiar y restablecer opciones de vista](assets/glist-copy-view-shared-with-you.png)
-
-</div>
-
-<div class="preview">
 
 ### Aplicar formato condicional en una vista
 
@@ -363,8 +346,6 @@ El formato condicional le ayuda a resaltar información importante en la vista e
 El formato se aplica inmediatamente a la vista de lista.
 Hay un punto azul al lado del icono **Formato de celdas** para indicar que la vista tiene un formato especial aplicado.
 
-</div>
-
 ### Filtrar elementos en una lista mejorada
 
 >[!NOTE]
@@ -385,9 +366,7 @@ Los filtros le ayudan a reducir la cantidad de información que se muestra en la
 
    >[!TIP]
    >
-   ><span class="preview">Para aplicar un filtro personalizado, seleccione una de las siguientes opciones para un valor de campo:</span>
-   >
-   ><div class="preview">
+   >Para aplicar un filtro personalizado, seleccione una de las siguientes opciones para un valor de campo:
    >
    >* **Yo (usuario conectado)** para hacer referencia al usuario conectado en los campos que hacen referencia a los usuarios.
    >
@@ -398,8 +377,6 @@ Los filtros le ayudan a reducir la cantidad de información que se muestra en la
    >* **Mi compañía** para hacer referencia a su compañía en campos que hacen referencia a compañías.
    > 
    >* **Mis roles** o **Mi rol principal** para hacer referencia a sus roles en los campos que hacen referencia a los roles.
-   >
-   ></div>
 
 1. Haga clic en **Agregar condición** para agregar otra condición al filtro.
 

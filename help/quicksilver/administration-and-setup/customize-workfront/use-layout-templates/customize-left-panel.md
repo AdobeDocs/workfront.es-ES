@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: b100ea35-e045-4021-b5be-2c9071b381da
-source-git-commit: f490d72b46073786cc079eec0640a0b535533281
+source-git-commit: dc71072107ce80f6cb9033fcb17fe4ac74d5af18
 workflow-type: tm+mt
 source-wordcount: '1226'
 ht-degree: 45%
@@ -16,8 +16,6 @@ ht-degree: 45%
 ---
 
 # Personalizar el panel izquierdo con una plantilla de diseño
-
-{{highlighted-preview}}
 
 <!--Audited: 10/2024-->
 
@@ -136,13 +134,13 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
      </tr> 
      <tr> 
       <td>[!UICONTROL Projects]</td> 
-      <td>Proyectos <img src="assets/projects-in-main-menu.png"> en el menú principal de  <img src="assets/main-menu-icon-left-nav.png"></td> 
+      <td>Proyectos <img src="assets/projects-in-main-menu.png"> en el menú principal de [!UICONTROL] <img src="assets/main-menu-icon-left-nav.png"></td> 
       <td>[!UICONTROL Projects]</td> 
      </tr> 
      <tr> 
-      <td><span class="preview">[!UICONTROL Recursos]</span></td> 
-      <td><span class="preview">[!UICONTROL Recursos] en el menú principal de  <img src="assets/main-menu-icon-left-nav.png"></span></td> 
-      <td><span class="preview">[!UICONTROL Planificador] (no se puede ocultar), [!UICONTROL Distribuidor de cargas de trabajo], [!UICONTROL Utilización], [!UICONTROL Conjuntos de recursos]</span></td> 
+      <td>[!UICONTROL Recursos]</td> 
+      <td>[!UICONTROL Recursos] en el menú principal de [!UICONTROL] <img src="assets/main-menu-icon-left-nav.png"></td> 
+      <td>[!UICONTROL Planificador] (no se puede ocultar), [!UICONTROL Distribuidor de cargas de trabajo], [!UICONTROL Utilización], [!UICONTROL Conjuntos de recursos]</td> 
      </tr> 
      <tr> 
       <td>[!UICONTROL Requests]</td> 
@@ -175,19 +173,19 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
       <td>[!UICONTROL Stories], [!UICONTROL Issues], [!UICONTROL Story Board], [!UICONTROL Overview], [!UICONTROL Custom Forms], [!UICONTROL Updates] </td> 
      </tr> 
      <tr> 
-       <td><span class="preview">[!UICONTROL Detalles del usuario]</span></td> 
-       <td><span class="preview">El nombre de un usuario</span></td> 
-       <td><span class="preview">[!UICONTROL Detalles], [!UICONTROL Organigrama], [!UICONTROL Tiempo de espera], [!UICONTROL Forms personalizado], [!UICONTROL Perfiles de negocio], [!UICONTROL Actualizaciones], [!UICONTROL Distribuidor de cargas de trabajo]</span></td> 
+       <td>[!UICONTROL Detalles del usuario]</td> 
+       <td>El nombre de un usuario</td> 
+       <td>[!UICONTROL Detalles], [!UICONTROL Organigrama], [!UICONTROL Tiempo de espera], [!UICONTROL Forms personalizado], [!UICONTROL Perfiles de negocio], [!UICONTROL Actualizaciones], [!UICONTROL Distribuidor de cargas de trabajo]</td> 
      </tr>
      <tr> 
-       <td><span class="preview">[!UICONTROL Tarjeta de velocidad]</span></td> 
-       <td><span class="preview">El nombre de una tarjeta de tarifa</span></td> 
-       <td><span class="preview">[!UICONTROL Funciones y tarifas del trabajo] (no se puede ocultar), [!UICONTROL Detalles de tarjeta de tarifas]</span></td> 
+       <td>[!UICONTROL Tarjeta de velocidad]</td> 
+       <td>El nombre de una tarjeta de tarifa</td> 
+       <td>[!UICONTROL Funciones y tarifas del trabajo] (no se puede ocultar), [!UICONTROL Detalles de tarjeta de tarifas]</td> 
      </tr>
      <tr> 
-       <td><span class="preview">[!UICONTROL Group]</span></td> 
-       <td><span class="preview">El nombre de un grupo</span></td> 
-       <td><span class="preview">[!UICONTROL Miembros del grupo], [!UICONTROL Miembros del subgrupo], [!UICONTROL Detalles del grupo], [!UICONTROL Preferencias del proyecto], [!UICONTROL Preferencias de tareas y problemas], [!UICONTROL Plantillas de horas y horas], [!UICONTROL Subgrupos], [!UICONTROL Estados], [!UICONTROL Notificaciones de eventos], [!UICONTROL Portafolios], [!UICONTROL Programas], [!UICONTROL Proyectos], [!UICONTROL Plantillas], [!UICONTROL Eliminadas recientemente], [!UICONTROL Restaurados recientemente], [!UICONTROL Aprobaciones], [!UICONTROL Compañías], [!UICONTROL Equipos], [!UICONTROL Programaciones], [!UICONTROL Perfiles de hojas de horas], [!UICONTROL Plantillas de diseño]</span></td> 
+       <td>[!UICONTROL Group]</td> 
+       <td>El nombre de un grupo</td> 
+       <td>[!UICONTROL Miembros del grupo], [!UICONTROL Miembros del subgrupo], [!UICONTROL Detalles del grupo], [!UICONTROL Preferencias del proyecto], [!UICONTROL Preferencias de tareas y problemas], [!UICONTROL Plantillas de horas y horas], [!UICONTROL Subgrupos], [!UICONTROL Estados], [!UICONTROL Notificaciones de eventos], [!UICONTROL Portafolios], [!UICONTROL Programas], [!UICONTROL Proyectos], [!UICONTROL Plantillas], [!UICONTROL Eliminadas recientemente], [!UICONTROL Restaurados recientemente], [!UICONTROL Aprobaciones], [!UICONTROL Compañías], [!UICONTROL Equipos], [!UICONTROL Programaciones], [!UICONTROL Perfiles de hojas de horas], [!UICONTROL Plantillas de diseño]</td> 
      </tr>
      <!--
       <tr> 

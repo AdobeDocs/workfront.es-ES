@@ -6,7 +6,8 @@ title: Definir una proporción de horas extra
 description: Puede definir una proporción de horas extra en una tarea para ajustar el cálculo de ingresos planificados para las asignaciones de tareas.
 author: Lisa
 feature: Work Management
-source-git-commit: bf8dcc9dfa9697c8d212072bb511c57aa01e7529
+exl-id: 832d3aab-3e09-4d83-91a6-be0145ce3554
+source-git-commit: 39630b50384d710dadb1f48342113b74338a9104
 workflow-type: tm+mt
 source-wordcount: '348'
 ht-degree: 15%
@@ -14,8 +15,6 @@ ht-degree: 15%
 ---
 
 # Definir una proporción de horas extra
-
-{{highlighted-preview-article-level}}
 
 Cuando se agrega una proporción de horas extra a una tarea, se aplica a todas las asignaciones de la tarea. Multiplica todas las horas planificadas para esa tarea y afecta los cálculos de ingresos planificados.
 
@@ -87,4 +86,3 @@ El campo **Proporción de horas extra** debe estar habilitado en la plantilla de
 1. Haga clic en **Detalles de tarea** en el panel de la izquierda.
 1. En el área **Finanzas**, escriba el multiplicador de horas extra en el campo **Proporción de horas extra**.
 1. Haga clic en **Guardar cambios**.
-

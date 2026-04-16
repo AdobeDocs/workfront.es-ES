@@ -8,16 +8,14 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: d4f02102-0378-472f-9ebb-753502ec048b
-source-git-commit: 4ce13e7d46efb026c1d42a61f4fce4bf1a37bb5f
+source-git-commit: dc71072107ce80f6cb9033fcb17fe4ac74d5af18
 workflow-type: tm+mt
-source-wordcount: '777'
-ht-degree: 29%
+source-wordcount: '728'
+ht-degree: 31%
 
 ---
 
 # Personalizar el menú principal mediante una plantilla de diseño
-
-{{highlighted-preview}}
 
 <!--Audited: 01/2024-->
 
@@ -124,8 +122,6 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
      >
      > Las aplicaciones personalizadas deben crearse por separado antes de que estén disponibles como opciones del menú principal. Para obtener más información, consulte [Crear una aplicación personalizada para Workfront con Adobe App Builder](/help/quicksilver/app-builder/app-builder.md).
 
-<div class="preview">
-
 En el entorno de vista previa:
 
 1. Realice una de las siguientes acciones para los **elementos nativos**:
@@ -139,17 +135,9 @@ En el entorno de vista previa:
    * Ocultar ![Ocultar icono](assets/remove-icon---x-in-circle.png) elementos que no desee mostrar en el menú principal.
    * Mostrar ![Mostrar icono](assets/add-icon-plus-in-circle.png) elementos que no desea mostrar en el menú principal.
 
-</div>
-
->[!NOTE]
->
-><span class="preview">No puede cambiar el orden de los elementos del sistema. Estos elementos siempre se muestran en la parte inferior del menú principal cuando están activos.</span>
-
-1. En el entorno Producción, realice una de las siguientes acciones:
-
-   * Ocultar ![Ocultar icono](assets/remove-icon---x-in-circle.png) **elementos activos** que no desee mostrar
-   * Mostrar ![icono Mostrar](assets/add-icon-plus-in-circle.png) **elementos disponibles** que no desea mostrar en el menú principal.
-   * Arrastre ![Icono de arrastre](assets/move-icon---dots.png) **Elementos activos** para cambiar el orden de visualización en el menú principal.
+   >[!NOTE]
+   >
+   >No puede cambiar el orden de los elementos del sistema. Estos elementos siempre se muestran en la parte inferior del menú principal cuando están activos.
 
 1. Haga clic en **Listo**.
 

@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 3972f498-c461-4535-82c6-ad1b60d3ed86
-source-git-commit: e5ac8fde409b960aacd3cf7daa0532e9bc3e8121
+source-git-commit: c27dd9d972b89af09c0865a0e878f1665416c80e
 workflow-type: tm+mt
 source-wordcount: '1337'
 ht-degree: 14%
@@ -16,8 +16,6 @@ ht-degree: 14%
 ---
 
 # Administrar tarjetas de tarifas
-
-{{highlighted-preview-article-level}}
 
 Una tarjeta de tarifas representa el acuerdo contractual con su cliente en el que se definen las tarifas por hora para los roles que completarán el trabajo. En una tarjeta de tarifas, puede definir varias tarifas de facturación por rol, según atributos como agencia, ubicación o centro de coste. Los atributos de tarifa únicos se configuran en el área Configuración. Para obtener más información, vea [Definir atributos de tasa](/help/quicksilver/administration-and-setup/manage-enterprise-operations/define-rate-attributes.md).
 

@@ -8,23 +8,25 @@ feature: Work Management
 exl-id: ed066075-6411-4350-8b39-f21dc4fa96c9
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 59a9725e7697a81be2a827a902ee3d23085a2ecd
+source-git-commit: c27dd9d972b89af09c0865a0e878f1665416c80e
 workflow-type: tm+mt
-source-wordcount: '744'
-ht-degree: 9%
+source-wordcount: '663'
+ht-degree: 11%
 
 ---
 
 
 # Creación y administración de vistas en el área de solicitudes
 
-<span class="preview">La información de esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa para todos los clientes. Después de las versiones mensuales en Production, las mismas funciones también están disponibles en el entorno Production para los clientes que habilitaron versiones rápidas. </span>
+<!--
 
-<span class="preview">Para obtener información sobre las versiones rápidas, consulte [Habilitar o deshabilitar las versiones rápidas para su organización](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
-Si utiliza la nueva experiencia de solicitud en Adobe Workfront, puede crear y guardar vistas para el área de solicitudes. Estas vistas incluyen filtros y disposiciones de columna <span class="preview"> y agrupaciones.</span>
+-->
 
+Si utiliza la nueva experiencia de solicitud en Adobe Workfront, puede crear y guardar vistas para el área de solicitudes. Estas vistas incluyen filtros, disposiciones de columna y agrupaciones.
 
 >[!IMPORTANT]
 >
@@ -71,13 +73,7 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
 
 +++
 
-<div class="preview">
-
 ## Vistas del sistema para solicitudes
-
->[!NOTE]
->
->Es posible que las vistas del sistema no estén disponibles en su entorno de vista previa. Estarán disponibles en el entorno de producción para todos los clientes el 16 de abril de 2026.
 
 Además de las vistas que puede crear usted mismo, Workfront ofrece las siguientes vistas del sistema para el área Solicitudes y el widget Mis solicitudes en Inicio:
 
@@ -88,8 +84,6 @@ Además de las vistas que puede crear usted mismo, Workfront ofrece las siguient
 * **Solicitudes abiertas**: Solicitudes que usted o cualquier otra persona ha enviado en colas o para espacios de trabajo para los que tiene permisos de visualización que aún están abiertos. Esto no está disponible para el widget Mis solicitudes.
 
 No puede editar las vistas del sistema. Puede modificar sus elementos y, a continuación, copiar la vista y editar o compartir la copia.
-
-</div>
 
 ## Creación de una vista para solicitudes
 
@@ -128,14 +122,9 @@ Al editar una vista, puede cambiar los siguientes elementos de la vista:
 * Nombre
 * Filtros
 * Columnas
-
-<div class="preview">
-
 * Agrupación
 * Formatear celdas
 * Altura de la fila
-
-</div>
 
 Para obtener más información, consulte [Usar listas mejoradas](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
 
@@ -191,7 +180,7 @@ hide these details - all the information is in "Use enhanced lists" - we need on
 >[!IMPORTANT]
 >
 > * Los cambios en las vistas se guardan automáticamente.
-> * Cualquier persona que utilice la vista <span class="preview">solo podrá ver los cambios realizados en las vistas cuando comparta una copia nueva de la vista después de realizar cambios en ella.</span>
+> * Cualquier persona que utilice la vista sólo podrá ver los cambios realizados en las vistas cuando comparta una copia nueva de la vista después de realizar cambios en ella.
 > * Use el comodín de filtro **Me (usuario conectado)** en cualquier campo que tenga como valor usuarios.
 
 ## Añadir la vista de solicitudes a una plantilla de diseño
@@ -206,9 +195,9 @@ Puede compartir vistas que cree con otros usuarios, equipos, grupos o empresas.
 
 Después de compartir una vista, otros usuarios pueden ver los elementos de vista actualizados que editó para la vista antes de compartirla.
 
-<span class="preview">Si actualizan la vista, sus cambios no serán visibles para otros, a menos que realicen una copia de la misma vista y conserven sus cambios antes de compartir la copia.
+Si actualizan la vista, sus cambios no serán visibles para otros, a menos que realicen una copia de la misma vista y conserven sus cambios antes de compartir la copia.
 
-Para obtener más información, consulte [Usar listas mejoradas](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md). </span>
+Para obtener más información, consulte [Usar listas mejoradas](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
 
 <!--
 Let's just redirect to Use enhanced lists so we avoid duplicating information. 

@@ -5,10 +5,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 5e87cad4-4a5d-4cb2-848f-7c97ff11d0e8
-source-git-commit: d45c34b1f48a7ffcae29556d34558bb4d1d8a016
+source-git-commit: f895803007a8f606169589bc4b17c19711c9e3f8
 workflow-type: tm+mt
-source-wordcount: '738'
-ht-degree: 26%
+source-wordcount: '898'
+ht-degree: 21%
 
 ---
 
@@ -66,15 +66,34 @@ Puede administrar la información que los usuarios pueden ver y editar para otro
 ## Configurar el acceso de los usuarios para editar usuarios con un nivel de acceso personalizado
 
 1. Comience a crear o editar el nivel de acceso, tal como se explica en [Crear o modificar niveles de acceso personalizados](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
-1. Para cambiar la capacidad de los usuarios con una licencia de planificación o de trabajo para ver los perfiles de otros usuarios:
+1. Para cambiar la capacidad de los usuarios con una licencia estándar, de plan o de trabajo de ver información para otros usuarios, haga clic en el icono de engranaje ![Icono de engranaje](assets/gear-icon-settings.png) en el botón **Ver** a la derecha de **Usuarios** y, a continuación, seleccione las opciones de vista que desee conceder en el cuadro **Ajustar la configuración**:
 
-   1. Haga clic en el icono de engranaje ![](assets/gear-icon-settings.png) en el botón **Ver** a la derecha de **Usuarios**.
+   <table style="table-layout:auto"> 
+    <col> 
+    <col> 
+    <tbody> 
+     <tr> 
+      <td role="rowheader"><strong>Ver tarifas de facturación</strong> </td> 
+      <td> Permite a los usuarios ver las tarifas de facturación en los perfiles de usuario.</td>  
+     </tr> 
+     <tr> 
+      <td role="rowheader"><strong>Ver información de contacto</strong> </td> 
+      <td> Permite a los usuarios ver las páginas de detalles de otros usuarios.</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader"><strong>Ver tarifas de costo</strong> </td> 
+      <td> Permite a los usuarios ver las tasas de coste en los perfiles de usuario.</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader"><strong>Ver finanzas generales</strong> </td> 
+      <td> Permite a los usuarios ver los campos financieros generales (no relacionados con la facturación o las tarifas de coste) en los perfiles de usuario.</td>
+     </tr> 
+    </tbody> 
+   </table>
 
-   1. Deshabilite **Ver información de contacto** y, a continuación, haga clic en la X para cerrar el cuadro **Ajustar la configuración**.
+   ![Ajustar la configuración de usuario de vista](assets/fine-tune-view-users.png)
 
-      ![ajustar la configuración de usuario](assets/fine-tune-users.png)
-
-1. Para modificar la capacidad de los usuarios con acceso a una licencia de planificación para editar otros usuarios, haga clic en el icono de engranaje ![](assets/gear-icon-settings.png) en el botón **Editar** a la derecha de **Usuarios** y, a continuación, seleccione las capacidades que desee conceder:
+1. Para modificar la capacidad de los usuarios con acceso de licencia Estándar o Planificar para editar a otros usuarios, haga clic en el icono de engranaje ![Icono de engranaje](assets/gear-icon-settings.png) en el botón **Editar** a la derecha de **Usuarios** y, a continuación, seleccione las opciones de edición que desee conceder en el cuadro **Ajustar la configuración**:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -89,6 +108,18 @@ Puede administrar la información que los usuarios pueden ver y editar para otro
      <tr> 
       <td role="rowheader"><strong>Eliminar</strong> </td> 
       <td> <p> Permite a los usuarios eliminar los usuarios que ellos mismos han creado.<br>Esta opción está deshabilitada de forma predeterminada.</p> <p><b>NOTA</b>: Esto no está disponible si su organización se ha incorporado a Adobe Admin Console. Consulte al administrador de red o de TI si necesita más información.</p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader"><strong>Editar tarifas de facturación</strong> </td> 
+      <td> Permite a los usuarios editar las tarifas de facturación en los perfiles de usuario.</td>  
+     </tr> 
+     <tr> 
+      <td role="rowheader"><strong>Editar tarifas de costo</strong> </td> 
+      <td> Permite a los usuarios editar las tasas de coste en los perfiles de usuario.</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader"><strong>Editar finanzas generales</strong> </td> 
+      <td> Permite a los usuarios editar los campos financieros generales (no relacionados con la facturación o las tarifas de coste) en los perfiles de usuario.</td>
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Administrador de usuarios (todos los usuarios)</strong> </td> 
@@ -108,6 +139,18 @@ Puede administrar la información que los usuarios pueden ver y editar para otro
          <li><p>Restablecer la contraseña del usuario</p><p><b>NOTA</b>: un administrador de grupo no puede iniciar sesión como o restablecer la contraseña de un administrador de Workfront.</p></li>
         </ul><p>Esta opción está desactivada de forma predeterminada.</p></p> </td> 
      </tr> 
+     <tr> 
+      <td role="rowheader"><strong>Ver tarifas de facturación</strong> </td> 
+      <td> Permite a los usuarios ver las tarifas de facturación en los perfiles de usuario.</td>  
+     </tr>
+     <tr> 
+      <td role="rowheader"><strong>Ver tarifas de costo</strong> </td> 
+      <td> Permite a los usuarios ver las tasas de coste en los perfiles de usuario.</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader"><strong>Ver finanzas generales</strong> </td> 
+      <td> Permite a los usuarios ver los campos financieros generales (no relacionados con la facturación o las tarifas de coste) en los perfiles de usuario.</td>
+     </tr>
     </tbody> 
    </table>
 

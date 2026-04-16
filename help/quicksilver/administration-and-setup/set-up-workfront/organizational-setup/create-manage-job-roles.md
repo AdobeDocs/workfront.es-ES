@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 664fb2fe-ff7e-4807-9a43-b37e7d5d57eb
-source-git-commit: cada5387ddfb710029d06cd38841ecb9c8a6484b
+source-git-commit: df1d844346d7ed26dcb004ba1a10ec9e8d07422a
 workflow-type: tm+mt
-source-wordcount: '1703'
-ht-degree: 32%
+source-wordcount: '1219'
+ht-degree: 28%
 
 ---
 
@@ -21,13 +21,11 @@ ht-degree: 32%
 
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.-->
 
-{{highlighted-preview}}
-
 >[!IMPORTANT]
 >
 >Con la versión 25.11, la moneda de anulación para los roles estaba en desuso en Producción. (La obsolescencia tuvo lugar el 30 de octubre en el entorno de vista previa). En lugar de tener una divisa base y divisas de sustitución, ahora hay una divisa disponible para los roles de trabajo y las tarifas de coste y facturación se definen en esa divisa.
 
-Como administrador de [!DNL Adobe Workfront] o usuario con acceso administrativo a los roles, puede crear roles que se puedan asignar a los usuarios y eliminar los roles predeterminados que no sean relevantes para su organización. Para obtener información acerca del acceso administrativo en [!DNL Workfront], consulte [Conceder acceso administrativo a los usuarios a ciertas áreas](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
+Como administrador de [!DNL Adobe Workfront] o usuario estándar con acceso de edición en los roles, puede crear roles que se puedan asignar a los usuarios y eliminar los roles predeterminados que no sean relevantes para su organización. Para obtener información acerca del acceso administrativo en [!DNL Workfront], consulte [Conceder acceso administrativo a los usuarios a ciertas áreas](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
 
 >[!TIP]
 >
@@ -69,7 +67,7 @@ Para crear una función:
 {{step-1-to-setup}}
 
 1. En el panel izquierdo, haga clic en **[!UICONTROL Roles]**.
-1. Haga clic en **[!UICONTROL Nuevo rol] <span class="preview">> Crear nuevo rol**.</span>
+1. Haga clic en **[!UICONTROL Nuevo rol] > Crear nuevo rol**.
 1. Introduzca información en los campos siguientes:
 
    * **Nombre**: indique un nombre para el rol. Este es el nombre que se muestra en todas las partes de Workfront donde aparece el campo Rol.
@@ -83,45 +81,7 @@ Para crear una función:
 
      Para obtener información sobre cómo desactivar roles, consulte [Desactivación de funciones](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/deactivate-job-roles.md).
 
-   * **Moneda**: La moneda base se muestra de manera predeterminada. El administrador de Workfront añade la Moneda base en el área de Configuración. Puede cambiar la selección a otra divisa disponible y cambiar la divisa en intervalos de fechas en vigor.
-
-     >[!TIP]
-     >
-     >En este campo sólo están disponibles las divisas disponibles en el área Tasas de cambio del sistema. Si solo tiene configurada una moneda, solo estará disponible esa moneda.
-
-     Para obtener información sobre cómo configurar la divisa base en Workfront, consulte [Configurar tasas de cambio](/help/quicksilver/administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md).
-
-     Para obtener información acerca de cómo cambiar la moneda de un proyecto, vea [Cambiar la moneda del proyecto](/help/quicksilver/manage-work/projects/project-finances/change-project-currency.md).
-
-   * **Tasa de costo**: Es la tasa de costo por hora del rol. Este valor calcula los costes planificados y reales de las tareas y problemas asociados con la función y, en última instancia, los costes planificados y reales de los proyectos. Introduzca el tipo de cambio utilizando la divisa seleccionada.
-
-     Para ver las tarifas de coste efectivas por fecha, haga clic en **Añadir tarifa**. Introduzca el valor del coste/hora para el período de tiempo y asigne una fecha de inicio y una fecha de finalización según sea necesario. La primera tarifa de coste no tendrá una fecha de inicio y la última tarifa de coste no tendrá una fecha de finalización.
-
-     Algunas fechas se añaden automáticamente. Por ejemplo, si la primera tarifa de coste no tiene una fecha de finalización y añade una segunda tarifa de coste con una fecha de inicio del viernes, 01 de mayo de 2025, se añade una fecha de finalización del jueves, 30 de abril de 2025 a la primera tarifa de coste para que no haya huecos.
-
-     Para obtener información acerca de cómo Workfront calcula los costos, vea [Rastrear costos](/help/quicksilver/manage-work/projects/project-finances/track-costs.md).
-
-     >[!TIP]
-     >
-     >Al editar un rol existente, puede ordenar la lista para ver la fecha de inicio más reciente en la parte superior de la lista de tarifas.
-
-   * **Tarifa de facturación**: Es la tarifa de facturación por hora del rol. Este valor calcula los ingresos planificados y reales de las tareas y los problemas asociados a la función, y, en última instancia, los ingresos planificados y reales de los proyectos. Introduzca el tipo de cambio utilizando la divisa seleccionada.
-
-     Para ver las tarifas de facturación vigentes por fecha, haga clic en **Añadir tarifa**. Introduzca el valor de la facturación/hora para el período de tiempo y asigne una Fecha de inicio y una Fecha de finalización según sea necesario. La primera tarifa de facturación no tendrá fecha de inicio y la última tarifa de facturación no tendrá fecha de finalización.
-
-     Algunas fechas se añaden automáticamente. Por ejemplo, si la primera tarifa de facturación no tiene una fecha de finalización y añade una segunda con una fecha de inicio del viernes, 01 de mayo de 2025, se añade una fecha de finalización del jueves, 30 de abril de 2025 a la primera tarifa de facturación para que no existan huecos.
-
-     Para obtener información sobre cómo Workfront calcula los ingresos, consulte [Información general sobre facturación e ingresos](/help/quicksilver/manage-work/projects/project-finances/billing-and-revenue-overview.md).
-
-     >[!TIP]
-     >
-     >Al editar un rol existente, puede ordenar la lista para ver la fecha de inicio más reciente en la parte superior de la lista de tarifas.
-
-<!-- Remove or hide the billing rate and cost rate bullets on April 16 for GA -->
-
 1. Haga clic en **[!UICONTROL Crear función]**. La función ya está disponible para asignarse a tareas, problemas, aprobaciones o puede compartir plantillas de diseño u otros objetos con ella. Para obtener información acerca de todos los usos de las funciones en [!DNL Workfront], consulte [Información general de la función](../../../administration-and-setup/set-up-workfront/organizational-setup/job-role-overview.md). Para obtener información acerca de cómo eliminar una función, consulte [Eliminar funciones](../../../administration-and-setup/set-up-workfront/organizational-setup/delete-job-roles.md).
-
-<div class="preview">
 
 ## Adición de tasas y atributos a un rol
 
@@ -176,7 +136,9 @@ Para obtener más información, vea [Definir atributos de tasa](/help/quicksilve
 
    Para ver las tarifas de facturación vigentes por fecha, haga clic en **Añadir tarifa**. Introduzca el valor de la facturación/hora para el período de tiempo y asigne una Fecha de inicio y una Fecha de finalización según sea necesario. La primera tarifa de facturación no tendrá fecha de inicio y la última tarifa de facturación no tendrá fecha de finalización.
 
-   Algunas fechas se añaden automáticamente. Por ejemplo, si la primera tarifa de facturación no tiene una fecha de finalización y agrega una segunda con una fecha de inicio del 1 de mayo, se agrega una fecha de finalización del 30 de abril a la primera tarifa de facturación de modo que no existan brechas.
+   <!-- Some dates are added automatically. For example, if the first billing rate does not have an end date, and you add a second with a start date of May 1, an end date of April 30 is added to the first billing rate so that no gaps exist.-->
+
+   Workfront le permite dejar espacios entre intervalos de fechas, pero recibirá una advertencia para confirmar que esto es intencional.
 
    Para obtener información sobre cómo Workfront calcula los ingresos, consulte [Información general sobre facturación e ingresos](/help/quicksilver/manage-work/projects/project-finances/billing-and-revenue-overview.md).
 
@@ -202,8 +164,6 @@ Para obtener más información, vea [Definir atributos de tasa](/help/quicksilve
 
 1. Haga clic en [!UICONTROL **Guardar**].
 
-</div>
-
 <!--
    * **Override Currency Cost Rate**: This is the cost per hour rate of the job role using the selected Override Currency. Workfront uses this value to calculate the planned and the actual costs of tasks and issues associated with the job role.
 
@@ -224,6 +184,45 @@ Para obtener más información, vea [Definir atributos de tasa](/help/quicksilve
      >[!TIP]
      >
      >When updating an existing job role that already has a billing rate associated with it, Workfront calculates the Override Currency rate based on the conversion rate in your system. If you update the Override Currency Billing Rate, the billing rate of the job role also updates automatically.
+
+-->
+
+
+<!--
+
+   * **Currency**: The Base Currency is shown by default. The Workfront administrator adds the Base Currency in the Setup area. You can change the selection to another available currency, and you can change the currency on effective dated time ranges.
+
+      >[!TIP]
+      >
+      >Only currencies available in the Exchange Rates area in your system are available in this field. If you only have one currency set up, only that currency is available.
+
+      For information about setting up the Base Currency in Workfront, see [Set up exchange rates](/help/quicksilver/administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md).
+
+      For information about changing the currency of a project, see [Change the project currency](/help/quicksilver/manage-work/projects/project-finances/change-project-currency.md).
+   
+   * **Cost Rate**: This is the cost per hour rate of the job role. This value calculates the planned and the actual costs of tasks and issues associated with the role, and ultimately the planned and actual costs of the projects. Enter the rate using the selected currency.
+
+      For date effective cost rates, click **Add Rate**. Enter the value of the cost/hour for the time period, and assign a Start Date and End Date as needed. The first cost rate will not have a start date and the last cost rate will not have an end date.
+
+      Some dates are added automatically. For example, if the first cost rate does not have an end date, and you add a second cost rate with a start date of May 1, 2025, an end date of April 30, 2025 is added to the first cost rate so that no gaps exist.
+
+      For information about how Workfront calculates cost, see [Track costs](/help/quicksilver/manage-work/projects/project-finances/track-costs.md).
+
+      >[!TIP]
+      >
+      >When editing an existing job role, you can sort the list to see the most recent start date at the top of the rate list.
+
+   * **Billing Rate**: This is the billing per hour rate of the job role. This value calculates the planned and actual revenues of tasks and issues associated with the role, and ultimately the planned and actual revenues of the projects. Enter the rate using the selected currency.
+
+      For date effective billing rates, click **Add Rate**. Enter the value of the billing/hour for the time period, and assign a Start Date and End Date as needed. The first billing rate will not have a start date and the last billing rate will not have an end date.
+
+      Some dates are added automatically. For example, if the first billing rate does not have an end date, and you add a second with a start date of May 1, 2025, an end date of April 30, 2025 is added to the first billing rate so that no gaps exist.
+
+      For information about how Workfront calculates revenue, see [Overview of Billing and Revenue](/help/quicksilver/manage-work/projects/project-finances/billing-and-revenue-overview.md).
+
+      >[!TIP]
+      >
+      >When editing an existing job role, you can sort the list to see the most recent start date at the top of the rate list.
 
 -->
 

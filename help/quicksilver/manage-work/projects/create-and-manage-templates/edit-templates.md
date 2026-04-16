@@ -8,10 +8,10 @@ feature: Work Management
 exl-id: da0fca31-6a50-4862-ad9a-a453ef968773
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: dc71072107ce80f6cb9033fcb17fe4ac74d5af18
 workflow-type: tm+mt
-source-wordcount: '4971'
-ht-degree: 87%
+source-wordcount: '5076'
+ht-degree: 85%
 
 ---
 
@@ -268,7 +268,7 @@ Old:
 1. Empiece a editar la plantilla tal como se ha descrito anteriormente.
 1. En el cuadro **Editar plantilla**, haga clic en **Finanzas**.
 
-   ![Editar sección de finanzas del cuadro de plantilla](assets/edit-template-box-finance-section.png)
+   ![Editar sección de finanzas del cuadro de plantilla](assets/edit-template-finance-section-040626.png)
 
 1. Actualice los campos siguientes:
 
@@ -276,6 +276,14 @@ Old:
     <col> 
     <col> 
     <tbody> 
+     <tr>
+      <td><strong>Conservar información de tarifas de facturación del proyecto</strong></td>
+      <td><p>Al habilitar esta opción, todas las tarifas de facturación de asignación se congelan permanentemente a la tarifa aplicable más alta de la jerarquía de facturación. Se trata de una selección única y no puede deshabilitar la opción una vez que el proyecto tenga asignaciones u horas. Después de la conservación, las tarifas de facturación de la asignación no se pueden cambiar, editar ni anular en ningún lugar del proyecto.</p></td>
+     </tr>
+     <tr>
+      <td><strong>Usar tipos de cambio de fecha efectiva del sistema</strong></td>
+      <td><p>Cuando se selecciona esta opción, siempre se utilizan las tasas de cambio efectivas por fecha a nivel de sistema y no se permiten las anulaciones de tasas de cambio en el proyecto.</p> <p>También debe seleccionar la <strong>Fecha de tasa de cambio</strong> desde la que se debe comenzar, cuando se seleccione la opción.</p></td> 
+     </tr>
       <tr> 
       <td role="rowheader"><strong>Divisa</strong></td> 
       <td><p>Especifique la moneda para el proyecto futuro, si es diferente a la moneda predeterminada del sistema. Este campo no está visible si solo tiene la moneda predeterminada en el sistema.<br>Para obtener más información sobre la moneda, consulte <a href="../../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md" class="MCXref xref">Configurar tasas de cambio</a>.</p></td> 

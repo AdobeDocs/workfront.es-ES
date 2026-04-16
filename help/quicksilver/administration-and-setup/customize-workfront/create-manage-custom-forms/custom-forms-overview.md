@@ -8,16 +8,14 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: b04ed2e8-c60e-4978-8a9d-b9e087987ef4
-source-git-commit: 34c63e1b7d6323a4cf25514aaff9f923010d8958
+source-git-commit: 39630b50384d710dadb1f48342113b74338a9104
 workflow-type: tm+mt
-source-wordcount: '397'
-ht-degree: 23%
+source-wordcount: '390'
+ht-degree: 24%
 
 ---
 
 # Información general sobre formularios personalizados
-
-{{highlighted-preview}}
 
 <!--Audited: 12/2023-->
 
@@ -33,17 +31,7 @@ El diseñador de formularios tiene un área de trabajo de estilo lienzo que le p
 
 Para obtener más información, consulte [Crear un formulario personalizado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
-<div class="preview">
-
-Imagen de muestra en el entorno de vista previa:
-
 ![Diseñador de formularios de ejemplo](assets/form-designer-example-032526.png)
-
-</div>
-
-Imagen de muestra en el entorno de producción:
-
-![Diseñador de formularios de ejemplo](assets/form-designer-example.png)
 
 ## Campos y widgets personalizados
 
@@ -61,6 +49,7 @@ Puede agregar los siguientes tipos de campos personalizados a un formulario pers
 * Búsqueda externa
 * Referencia de campo nativo
 * Escritura anticipada
+* Conexión de campo de Planning
 * Calculado
 * Fecha
 * Grupo de casillas de verificación
@@ -92,8 +81,11 @@ Los usuarios pueden adjuntar formularios personalizados a los siguientes tipos d
 * Portafolio
 * Gasto
 * Grupo
+* Función
+* Equipo
 * Iteración
 * Registro de facturación
+* Tarjeta de tarifas
 
 Para obtener más información sobre cómo adjuntar formularios personalizados a objetos, vea [Agregar un formulario personalizado a un objeto](../../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md).
 

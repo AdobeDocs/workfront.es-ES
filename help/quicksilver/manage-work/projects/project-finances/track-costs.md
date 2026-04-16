@@ -7,7 +7,7 @@ description: Puede realizar un seguimiento de los costos de los proyectos, las t
 author: Lisa
 feature: Work Management
 exl-id: df3090ae-9721-4e9b-84b4-315890619801
-source-git-commit: cb21414992587c62c37580f156100f2b5b755e9b
+source-git-commit: 39630b50384d710dadb1f48342113b74338a9104
 workflow-type: tm+mt
 source-wordcount: '2755'
 ht-degree: 5%
@@ -18,11 +18,7 @@ ht-degree: 5%
 
 <!-- Audited: 02/2024 -->
 
-{{highlighted-preview}}
-
 Puede realizar un seguimiento de los costos de los proyectos, las tareas y los problemas en Adobe Workfront.
-
-<div class="preview">
 
 ## Cálculo de costes de Workfront: paquete Ultimate de flujo de trabajo
 
@@ -47,8 +43,6 @@ Se dan los siguientes escenarios:
   Para obtener información acerca de la jerarquía de tasas de costo, vea [Información general sobre la jerarquía de ingresos y costos](/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md).
 
 * Workfront calcula solamente el coste real de los problemas y los problemas no tienen un tipo de coste. Para obtener más información, consulte la sección [Cómo Workfront realiza un seguimiento de los costos de los problemas](#how-workfront-tracks-costs-for-issues) en este artículo.
-
-</div>
 
 ## Cómo calcula Workfront los costes: todos los demás paquetes
 
@@ -228,8 +222,8 @@ En la tabla siguiente se describen los tipos de coste de tarea disponibles en Wo
    <td> <p><strong>Costo planificado</strong> se calcula mediante la siguiente fórmula: </p> <p><code style="font-style: normal;">Task Planned Cost = Task Planned Labor Cost+ Task Planned Expense Cost</code> </p> <p>donde el costo de mano de obra planificado para la tarea se calcula mediante:</p> <p><code>Task Planned Labor Cost = Planned Hours * Cost per Hour Rate of the Job Role assigned to the task</code> </p> <p>Nota: Si asigna varios recursos a una tarea, Workfront ajusta los cálculos de las horas planificadas en función del porcentaje de la tarea asignada a cada recurso. Además, la tasa por hora de la fórmula tiene en cuenta cualquier cambio efectivo de fecha de la tasa.</p> <p><strong>Costo real</strong> se calcula mediante la fórmula siguiente: </p> <p><code style="font-style: normal;">Task Actual Cost = Task Actual Labor Cost + Task Actual Expense Cost</code> </p> <p>donde el costo de mano de obra real de la tarea se calcula mediante:</p> <p><code>Task Actual Labor Cost = Actual Hours * Cost per Hour Rate of the Job Role assigned to the task</code> </p> <p>Por ejemplo, una tarea se asigna a un rol o a un usuario con un rol para el cual la tasa de costo por hora es de $20. Cuando un usuario registra 5 horas para una tarea, el costo de mano de obra real es de 100 $ para esa tarea. Si el usuario asignado a la tarea no tiene una función de trabajo asociada a él en la tarea, el coste real se calcula según la tasa de coste por hora de su rol principal. Si no tienen un rol o la tasa de costo por hora de su rol no está definida, el costo real de la tarea es cero. </p> <p>Nota: Las horas reales de una tarea de rol por hora se calculan en función de los roles de los usuarios asociados a la tarea, no en función de los roles asociados al usuario que está registrando la hora. Además, la tasa por hora de coste en la fórmula tiene en cuenta cualquier cambio efectivo de fecha de la tasa.</p> <p>Si el administrador de Workfront habilitó la opción <strong>Asignar roles a las entradas de hora manualmente</strong> en el área Preferencias de horas y hojas de horas en Configuración y el usuario que registra el tiempo en la tarea selecciona una función diferente para asociarla con este tiempo, el costo real de una tarea por hora de función calcula según la función especificada cuando se registraron las horas. Para obtener información sobre la habilitación del tiempo de registro para una función específica, consulte el artículo <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md" class="MCXref xref">Configurar preferencias de plantillas de horas y de horas</a>.</p> </p> </td> 
   </tr>
   <tr> 
-   <td> <p><span class="preview">Usuario y función por hora</span></p> </td> 
-   <td> <p><span class="preview"><strong>Costo planificado</strong> se calcula mediante la siguiente fórmula:</span></p> <p><span class="preview"><code style="font-style: normal;">Task Planned Cost = Task Planned Labor Cost + Task Planned Expense Cost</code> </span></p> <p><span class="preview">donde el costo de mano de obra planificado para la tarea se calcula mediante:</span></p> <p><span class="preview"><code>Planned Labor Cost = Planned Hours * Cost per Hour Rate according to the hierarchy</code> </span></p> <p><span class="preview"><strong>Costo real</strong> se calcula mediante la fórmula siguiente:</span></p> <p><span class="preview"><code style="font-style: normal;">Task Actual Cost = Task Actual Labor Cost + Task Actual Expense Cost</code> </span></p> <p><span class="preview">donde el costo de mano de obra real de la tarea se calcula mediante:</span></p> <p><span class="preview"><code>Task Actual Labor Cost = Actual Hours * Cost per Hour Rate according to the hierarchy</code> </span></p> </td> 
+   <td> <p>&gt;Usuario y rol por hora</p> </td> 
+   <td> <p><strong>Costo planificado</strong> se calcula mediante la siguiente fórmula:</p> <p><code style="font-style: normal;">Task Planned Cost = Task Planned Labor Cost + Task Planned Expense Cost</code></p> <p>donde el costo de mano de obra planificado para la tarea se calcula mediante:</p> <p><code>Planned Labor Cost = Planned Hours * Cost per Hour Rate according to the hierarchy</code></p> <p><strong>Costo real</strong> se calcula mediante la fórmula siguiente:</p> <p><code style="font-style: normal;">Task Actual Cost = Task Actual Labor Cost + Task Actual Expense Cost</code></p> <p>donde el costo de mano de obra real de la tarea se calcula mediante:</p> <p><code>Task Actual Labor Cost = Actual Hours * Cost per Hour Rate according to the hierarchy</code></p> </td> 
   </tr> 
   <tr> 
    <td> <p>Fijo por hora</p> </td> 

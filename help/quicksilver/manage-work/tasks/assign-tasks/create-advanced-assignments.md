@@ -9,7 +9,7 @@ role: User
 exl-id: 09780f78-4eb8-404d-859b-d066d462776d
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 676cd1697ae2f379a699075f4e1ab06886c6837a
+source-git-commit: 49f26e963647f5015955396489bfe537bbac0918
 workflow-type: tm+mt
 source-wordcount: '3415'
 ht-degree: 31%
@@ -17,8 +17,6 @@ ht-degree: 31%
 ---
 
 # Crear asignaciones avanzadas
-
-{{highlighted-preview}}
 
 <!-- Audited: 11/2025-->
 
@@ -43,8 +41,8 @@ Puede ajustar la siguiente información de asignación al realizar asignaciones 
 * Ajuste y redistribuya el número de horas que se asignan a cada usuario asignado.
 * Determine qué usuario debe designarse como propietario o principal asignado a la tarea o al problema.
 * Especifique la función que cumple cada usuario al trabajar en la tarea o el problema.
-* <span class="preview">Agregar información de facturación y de tarifa de costo en el nivel de asignación.</span>
-* <span class="preview">Revise los siguientes detalles de cada asignación: horas planificadas, costo total e ingresos totales.</span>
+* Agregar información de facturación y de tasa de costo al nivel de asignación.
+* Revise los siguientes detalles de cada asignación: horas planificadas, costo total e ingresos totales.
 
 >[!NOTE]
 >
@@ -94,11 +92,17 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
 
 +++
 
-<div class="preview">
-
 ## Crear asignaciones avanzadas: paquete Ultimate de flujo de trabajo
 
 Este diseño de Asignaciones avanzadas se aplica solo a tareas. Para problemas, consulte [Crear asignaciones avanzadas - todos los demás paquetes](#create-advanced-assignments--all-other-packages).
+
+<!--
+
+>[!NOTE]
+>
+>Use the experience switcher to choose between the old and new Advanced Assignments experiences. For information about the old experience, see [Create Advanced Assignments – all other packages](#create-advanced-assignments--all-other-packages), below.
+
+-->
 
 1. Vaya al proyecto donde desea asignar una tarea.
 1. Haga clic en **Tareas** o **Problemas** en el panel izquierdo y, a continuación, haga clic en el nombre de una tarea de la lista.
@@ -313,8 +317,6 @@ Sólo puede ver datos de asignación por fechas para un único usuario o rol.
    ![Ver por ventana de fechas](assets/resource-changes-view-by-dates.png)
 
    Cuando termine de revisar los datos, haga clic en la flecha situada en la parte superior izquierda para volver a la ventana Asignaciones avanzadas.
-
-</div>
 
 ## Crear asignaciones avanzadas: todos los demás paquetes
 

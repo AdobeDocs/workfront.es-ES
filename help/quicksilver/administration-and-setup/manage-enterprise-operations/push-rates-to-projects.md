@@ -7,7 +7,8 @@ description: Una tarjeta de tarifas representa el acuerdo contractual con su cli
 author: Lisa
 feature: System Setup and Administration
 role: Admin
-source-git-commit: 38441ec5ae6fd8cf5c79f939403d5966c5616c98
+exl-id: c38e60dd-7fb2-4afc-976a-b0966398c162
+source-git-commit: c27dd9d972b89af09c0865a0e878f1665416c80e
 workflow-type: tm+mt
 source-wordcount: '274'
 ht-degree: 20%
@@ -15,8 +16,6 @@ ht-degree: 20%
 ---
 
 # Cambios en la tasa push de los proyectos
-
-{{highlighted-preview-article-level}}
 
 Cuando se adjunta una tarjeta de tarifas a un proyecto <!--or a staffing plan-->, las tarifas de la tarjeta de tarifas aún se pueden ajustar. Entonces, opcionalmente puede insertar esas tarifas a los proyectos <!--and staffing plans --> a los que está adjunta la tarjeta de tarifas. Si no inserta las nuevas tarifas, las tarifas originales permanecerán en el proyecto<!-- or staffing plan-->.
 

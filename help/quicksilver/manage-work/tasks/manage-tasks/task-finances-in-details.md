@@ -8,10 +8,10 @@ feature: Work Management
 exl-id: 54ae48e5-bc8c-4e90-8fa1-0015523df4e6
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: b9e0747a58618353caf3ce1c7e8521d22d2b412d
+source-git-commit: 39630b50384d710dadb1f48342113b74338a9104
 workflow-type: tm+mt
 source-wordcount: '987'
-ht-degree: 67%
+ht-degree: 68%
 
 ---
 
@@ -20,8 +20,6 @@ ht-degree: 67%
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: some of the information (fields) in this article is also in the Edit tasks article; if you need to update one field, to it in both articles)</p>
 -->
-
-{{highlighted-preview}}
 
 Puede ver o editar la información financiera de una tarea accediendo al área Información general de la sección Detalles de la tarea. Hay un número limitado de campos que puede ver o editar en esta área.
 
@@ -124,7 +122,7 @@ Old:
         <li> <p>Fijo por hora </p> </li> 
         <li> <p> Usuario por hora </p> </li> 
         <li> <p> Rol por hora</p> </li> 
-        <li> <p> <span class="preview">Usuario y rol por hora</span></p> </li> 
+        <li> <p>Usuario y función por hora</p> </li> 
        </ul> <p>Para obtener más información sobre los costes de seguimiento, consulte <a href="../../../manage-work/projects/project-finances/track-costs.md" class="MCXref xref">Costes de seguimiento</a>. El administrador de Workfront o de un grupo selecciona la configuración predeterminada Tipo de coste para las tareas del sistema o del grupo. Para obtener información sobre cómo establecer los valores predeterminados del proyecto, consulte <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Configurar las preferencias de proyecto de todo el sistema</a>.</p> </td> 
      </tr> 
      <tr> 
@@ -134,14 +132,14 @@ Old:
         <li> <p> No facturable </p> </li> 
         <li> <p>Usuario por hora </p> </li> 
         <li> <p>Rol por hora </p> </li> 
-        <li> <p> <span class="preview">Usuario y rol por hora</span></p> </li>
+        <li> <p>Usuario y función por hora</p> </li>
         <li> <p>Fijo por hora </p> </li> 
         <li> <p>Usuario por hora sin límite </p> </li> 
         <li> <p>Rol por hora con límite </p> </li>
-        <li> <p> <span class="preview">Usuario y rol por hora con tope</span></p> </li> 
+        <li> <p>Usuario y rol por hora con tope</p> </li> 
         <li> <p>Usuario por hora más fijos </p> </li> 
         <li> <p>Rol por hora más fijos </p> </li> 
-        <li> <p> <span class="preview">Usuario y rol por hora más fijos</span></p> </li>
+        <li> <p>Usuario y función por hora más fijos</p> </li>
         <li> <p>Ingresos fijos </p> </li> 
        </ul> <p>Para obtener más información sobre el seguimiento de los ingresos, vea<a href="../../../manage-work/projects/project-finances/billing-and-revenue-overview.md" class="MCXref xref">Información general sobre facturación e ingresos</a> y <a href="/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md">Información general sobre la jerarquía de ingresos y costos</a>. </p> <p>El administrador de Workfront o del grupo selecciona la configuración predeterminada Tipo de ingresos para las tareas del sistema o del grupo. Para obtener información sobre cómo establecer los valores predeterminados del proyecto, consulte <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Configurar las preferencias de proyecto de todo el sistema</a>.</p> </td> 
      </tr> 
@@ -162,13 +160,13 @@ Old:
       <td> <p>Se trata de un cálculo que muestra los ingresos asociados a la tarea en función de las horas reales, el tipo de ingresos y la tarifa por hora de los usuarios o las funciones. Para obtener más información sobre los costes de seguimiento, consulte <a href="../../../manage-work/projects/project-finances/track-costs.md" class="MCXref xref">Costes de seguimiento</a>.</p> </td> 
      </tr> 
      <tr>
-      <td><span class="preview">Proporción de horas extra</span></td> 
-      <td><span class="preview"><p>Introduzca el multiplicador de horas extra para la tarea como, por ejemplo, 1,5 o 2,0. El valor predeterminado es 1,0 (sin multiplicador). Para obtener más información, vea <a href="/help/quicksilver/manage-work/projects/project-finances/define-overtime-ratio.md">Definir una proporción de horas extra</a>.</p><p>Para ver el campo Proporción de horas extra:</p>
+      <td>Proporción de horas extra</td> 
+      <td><p>Introduzca el multiplicador de horas extra para la tarea como, por ejemplo, 1,5 o 2,0. El valor predeterminado es 1,0 (sin multiplicador). Para obtener más información, vea <a href="/help/quicksilver/manage-work/projects/project-finances/define-overtime-ratio.md">Definir una proporción de horas extra</a>.</p><p>Para ver el campo Proporción de horas extra:</p>
        <ul>
        <li>El tipo de ingresos de la tarea debe ser Usuario y Rol por hora. Para obtener más información, consulte <a href="/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md">Información general sobre la jerarquía de ingresos y costos</a>.</li>
        <li>El campo debe estar habilitado en la plantilla de diseño para el área Finanzas en la vista Detalles de la tarea. Para obtener más información, consulte <a href="/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md">Personalizar la vista de detalles con una plantilla de diseño</a>.</li>
        </ul>
-      </span></td>
+      </td>
      </tr>
      <tr> 
       <td role="rowheader">CPI/SPI/CSI</td> 

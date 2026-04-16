@@ -9,9 +9,9 @@ feature: Work Management
 exl-id: 400abcde-e368-4a70-89a9-05027900ab81
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: b9e0747a58618353caf3ce1c7e8521d22d2b412d
+source-git-commit: 39630b50384d710dadb1f48342113b74338a9104
 workflow-type: tm+mt
-source-wordcount: '4542'
+source-wordcount: '4540'
 ht-degree: 73%
 
 ---
@@ -19,8 +19,6 @@ ht-degree: 73%
 # Información general sobre facturación e ingresos
 
 <!-- Audited: 1/2024 -->
-
-{{highlighted-preview}}
 
 Como administrador del proyecto, puede utilizar las tarifas de facturación para capturar los ingresos de sus proyectos.
 
@@ -83,7 +81,7 @@ Puede definir el valor de una tasa de facturación de rol utilizando la divisa b
 
 Para obtener más información sobre cómo crear fuciones, consulte el artículo [Crear y administrar fuciones](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
 
-![Editar costes de función y tarifas de facturación](assets/edit-job-role-multiple-billing-rates-new.png)
+![Editar tarifas de facturación de rol](assets/edit-job-role-multiple-billing-rates-040826.png)
 
 ### Tarifas de facturación fijas para proyectos o tareas {#fixed-billing-rates-for-projects-or-tasks}
 
@@ -93,8 +91,6 @@ Además de las tarifas por hora de usuario y función, también puede tener las 
 * Importe fijo para tipo de ingresos fijos
 
 Para obtener más información sobre cómo se usan las tarifas de facturación fijas para calcular los ingresos, consulte [Información general sobre los tipos de ingresos de tareas](#overview-of-task-revenue-types).
-
-<div class="preview">
 
 ### Anular tarifas de facturación: paquete Ultimate de flujo de trabajo
 
@@ -108,8 +104,6 @@ En el nivel de proyecto, puede:
 * Anule una tarifa de facturación para un usuario específico de ese proyecto.
 
 Las anulaciones de tarifa de facturación no son genéricas. Por ejemplo, no se anularía &quot;Designer&quot; como función. En su lugar, sobrescribiría &quot;Designer - Nueva York - Agencia X&quot; para el periodo de vigencia de la fecha correspondiente. Las anulaciones respetan la jerarquía de tarifas de facturación, por lo que el sistema siempre las aplica en orden de prioridad.
-
-</div>
 
 ### Anular tarifas de facturación - todos los demás paquetes
 
@@ -192,7 +186,7 @@ Para obtener más información acerca de cómo establecer el tipo de ingresos de
 
 >[!NOTE]
 >
-><span class="preview">Debe tener el paquete Workflow Ultimate para que el tipo de ingresos por hora de usuario y rol esté disponible.</span>
+>Debe tener el paquete Workflow Ultimate para tener disponibles el tipo de ingresos por hora Usuario y Rol
 
 Puede aplicar los siguientes tipos de ingresos a sus tareas o proyectos:
 
@@ -223,8 +217,8 @@ Este es el tipo de ingresos predeterminado cuando crea una tarea.</p> </td>
    <td> <p>Este tipo solo se puede utilizar para tareas.</p> <p>Este tipo es similar a Usuario por hora, pero utiliza tarifas de funciones en lugar de tarifas de usuario.</p> <p><strong>NOTA</strong><br> Una función también puede tener múltiples tarifas de facturación con fechas en vigor.</p></td> 
   </tr> 
   <tr> 
-   <td> <p><span class="preview">Usuario y función por hora</span></p> </td> 
-   <td> <p><span class="preview">Este tipo solo se puede utilizar para tareas.</span></p> <p><span class="preview">Este tipo examina la información de usuario y de función para determinar la tasa adecuada.</span></p></td> 
+   <td> <p>Usuario y función por hora</p> </td> 
+   <td> <p>Este tipo solo se puede utilizar para tareas.</p> <p>Este tipo examina la información de usuario y de función para determinar la tasa adecuada.</p></td> 
   </tr>
   <tr> 
    <td> <p>Usuario por hora con límite</p> </td> 
@@ -235,8 +229,8 @@ Este es el tipo de ingresos predeterminado cuando crea una tarea.</p> </td>
    <td> <p>Este tipo solo se puede utilizar para tareas.</p> <p>Este tipo es similar a Usuario por hora con límite, pero utiliza tarifas de funciones en lugar de tarifas de usuario. </p> </td> 
   </tr> 
   <tr> 
-   <td> <p><span class="preview">Usuario y rol por hora con tope</span></p> </td> 
-   <td> <p><span class="preview">Este tipo solo se puede utilizar para tareas.</span></p> <p><span class="preview">Las tareas se facturan por hora como en Usuario y Rol por hora, pero tienen un límite máximo que puede especificar.</span></p></td> 
+   <td> <p>Usuario y rol por hora con tope</p> </td> 
+   <td> <p>Este tipo solo se puede utilizar para tareas.</p> <p>Las tareas se facturan por hora como en Usuario y Rol por hora, pero tienen un límite máximo que puede especificar.</p></td> 
   </tr>
   <tr> 
    <td> <p>Usuario por hora más fijos</p> </td> 
@@ -247,8 +241,8 @@ Este es el tipo de ingresos predeterminado cuando crea una tarea.</p> </td>
    <td> <p>Este tipo solo se puede utilizar para tareas. </p> <p>Las tareas se facturan por hora como en Rol por hora, pero tienen una cantidad fija adicional que puede añadir a la tarifa de función. El importe fijo especificado en la tarea se puede incluir en los registros de facturación del proyecto. El importe fijo no se multiplica por las horas de la tarea. Solo la tarifa de facturación de la función lo hace. </p> </td> 
   </tr> 
   <tr> 
-   <td> <p><span class="preview">Usuario y función por hora más fijos</span></p> </td> 
-   <td> <p><span class="preview">Este tipo solo se puede utilizar para tareas.</span></p> <p><span class="preview">Las tareas se facturan por hora como en Usuario y Rol por hora, pero tienen una cantidad fija adicional que puede agregar a la tasa. El importe fijo especificado en la tarea se puede incluir en los registros de facturación del proyecto. El importe fijo no se multiplica por las horas de la tarea.</span></p></td> 
+   <td> <p>Usuario y función por hora más fijos</p> </td> 
+   <td> <p>Este tipo solo se puede utilizar para tareas.</p> <p>Las tareas se facturan por hora como en Usuario y Rol por hora, pero tienen una cantidad fija adicional que puede agregar a la tasa. El importe fijo especificado en la tarea se puede incluir en los registros de facturación del proyecto. El importe fijo no se multiplica por las horas de la tarea.</p></td> 
   </tr>
   <tr> 
    <td> <p>Fijo por hora</p> </td> 
@@ -295,13 +289,9 @@ El sistema utiliza una jerarquía para determinar qué tasa se utiliza en los c�
 
 Si el administrador de Workfront habilitó la opción **Asignar roles a entradas de horas manualmente** en el área Preferencias de plantillas de horas y horas, y el usuario que registra el tiempo en el proyecto selecciona un rol diferente para asociarlo a esta hora, los ingresos reales de la tarea o proyecto siempre se calculan en función del rol asociado a la entrada de horas. Para obtener información sobre la habilitación del tiempo de registro para una función específica, consulte el artículo [Configurar preferencias de plantillas de horas y de horas](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
 
-<div class="preview">
-
 Para el tipo de ingresos Usuario y Rol por hora, se puede definir un Rol de trabajo para Facturación tanto en el nivel de proyecto como en el de asignación. Si se define en el nivel de proyecto para un usuario específico, esa función se propaga automáticamente a todas las asignaciones de ese usuario durante el período en vigor para el que lo haya solicitado. Puede seguir anulando esta tasa en el nivel de asignación si es necesario. Por ejemplo, la función de trabajo principal de un usuario es Designer, pero usted establece su función de trabajo de facturación en un proyecto como Designer sénior para el mes de agosto. Todas las tareas a las que están asignados en agosto utilizarán automáticamente la tarifa de facturación de Designer sénior.
 
 Sin embargo, en una tarea determinada, puede anular la función sólo para esa asignación, para reflejar el trabajo que se factura. De este modo, el sistema admite la coherencia en todo el proyecto y la flexibilidad en el nivel de asignación. Para obtener más información, vea [Información general sobre la jerarquía de ingresos y costos](/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md) y [Crear asignaciones avanzadas](/help/quicksilver/manage-work/tasks/assign-tasks/create-advanced-assignments.md).
-
-</div>
 
 Se dan los siguientes escenarios al calcular los ingresos de la tarea según el tipo de ingresos y la naturaleza de la asignación de la tarea:
 
@@ -372,16 +362,12 @@ Se dan los siguientes escenarios al calcular los ingresos de la tarea según el 
    </tbody> 
   </table>
 
-<div class="preview">
-
 * **El tipo de ingresos de la tarea es Usuario y Rol por hora**
 
 | Tarifa de facturación por hora | Sin asignación | Asignación de usuarios | Asignación de función |
 | --- | --- | --- | --- |
 | Tarifa de facturación por hora para ingresos planificados | 0,00 $ | Cuando se asigna un usuario, el sistema busca la tasa en un orden especificado, empezando por una tasa de facturación conservada. A continuación se muestra una tasa de tarjeta de tasa bloqueada, una tasa introducida manualmente en la asignación, la función de trabajo para facturación en la asignación, la anulación de tasa de facturación del usuario en el nivel de proyecto, la función de trabajo para facturación en el nivel de proyecto, la tasa del sistema de usuario y la tasa de rol principal del usuario. <p> Para obtener más información, consulte [Información general sobre la jerarquía de ingresos y costos](/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md). | Cuando se asigna una función, el sistema busca primero una tarifa de facturación conservada y, a continuación, una tarifa de tarjeta de tarifa bloqueada para la función en la asignación. A continuación, busca una tasa de rol agregada manualmente en la asignación. Si no encuentra esa tasa, busca una tasa de rol a nivel de proyecto, primero desde una tarjeta de tasas y luego desde la tasa del sistema. <p> Para obtener más información, consulte [Información general sobre la jerarquía de ingresos y costos](/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md). |
 | Tarifa de facturación por hora para ingresos reales | Solo se tienen en cuenta para el cálculo las tarifas asociadas con el registro de tiempo del usuario, incluso cuando se asigna otro usuario a la tarea. <p> El sistema busca la tarifa en un orden especificado, empezando por una tarifa de facturación conservada. A continuación se muestra una tarifa de tarjeta de tarifas bloqueada, una anulación de tarifa de facturación en el proyecto, la función del puesto de facturación, la tarifa a nivel del sistema en el perfil de usuario del propietario y la tarifa de facturación de la función de trabajo principal del propietario. <p> Para obtener más información, consulte [Información general sobre la jerarquía de ingresos y costos](/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md). | Cuando se asigna un usuario, el sistema busca la tasa en un orden especificado, empezando por una tasa de facturación conservada. A continuación se muestra una tasa de tarjeta de tasa bloqueada, una tasa introducida manualmente en la asignación, la función de trabajo para facturación en la asignación, la anulación de tasa de facturación del usuario en el nivel de proyecto, la función de trabajo para facturación en el nivel de proyecto, la tasa del sistema de usuario y la tasa de rol principal del usuario. <p> Para obtener más información, consulte [Información general sobre la jerarquía de ingresos y costos](/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md). | Cuando se asigna una función, el sistema busca primero una tarifa de facturación conservada y, a continuación, una tarifa de tarjeta de tarifa bloqueada para la función en la asignación. A continuación, busca una tasa de rol agregada manualmente en la asignación. Si no encuentra esa tasa, busca una tasa de rol a nivel de proyecto, primero desde una tarjeta de tasas y luego desde la tasa del sistema. Para obtener más información, consulte [Información general sobre la jerarquía de ingresos y costos](/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md). |
-
-</div>
 
 ### Cálculos de ingresos para proyectos
 

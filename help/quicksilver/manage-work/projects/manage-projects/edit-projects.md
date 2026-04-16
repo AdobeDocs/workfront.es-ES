@@ -9,7 +9,7 @@ role: User
 exl-id: a6a1f178-189a-4c41-835b-7726081a2b49
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: b9e0747a58618353caf3ce1c7e8521d22d2b412d
+source-git-commit: dc71072107ce80f6cb9033fcb17fe4ac74d5af18
 workflow-type: tm+mt
 source-wordcount: '7855'
 ht-degree: 92%
@@ -409,9 +409,7 @@ Para editar campos en el área Finanzas:
 1. Empiece a editar el proyecto como se ha descrito anteriormente.
 1. Haga clic en **Finanzas** en el panel izquierdo.
 
-   ![Área de finanzas en el cuadro de edición del proyecto](assets/nwe-finance-in-edit-project-box-350x183.png)
-
-   <!--![Finance area in the project edit box](assets/edit-project-finance-section.png)-->
+   ![Área de finanzas en el cuadro de edición del proyecto](assets/edit-project-finance-section.png)
 
 1. Actualice la siguiente información financiera para el proyecto:
 
@@ -420,12 +418,12 @@ Para editar campos en el área Finanzas:
     <col> 
     <tbody> 
      <tr>
-      <td><strong><span class="preview">Usar tipos de cambio de fecha efectiva del sistema</span></strong></td>
-      <td><p><span class="preview">Cuando se selecciona esta opción, siempre se utilizan las tasas de cambio efectivas por fecha a nivel de sistema y no se permiten las anulaciones de tasas de cambio en el proyecto.</span></p> <p><span class="preview">También debe seleccionar la <strong>Fecha de tasa de cambio</strong> desde la que se debe comenzar, cuando se seleccione la opción.</span></p></td> 
+      <td><strong>Usar tipos de cambio de fecha efectiva del sistema</strong></td>
+      <td><p>Cuando se selecciona esta opción, siempre se utilizan las tasas de cambio efectivas por fecha a nivel de sistema y no se permiten las anulaciones de tasas de cambio en el proyecto.</p> <p>También debe seleccionar la <strong>Fecha de tasa de cambio</strong> desde la que se debe comenzar, cuando se seleccione la opción.</p></td> 
      </tr>
      <tr>
-      <td><strong><span class="preview">Conservar información de tarifas de facturación del proyecto</span></strong></td>
-      <td><p><span class="preview">Al habilitar esta opción, todas las tarifas de facturación de asignación se congelan permanentemente a la tarifa aplicable más alta de la jerarquía de facturación. Se trata de una selección única y no puede deshabilitar la opción una vez que el proyecto tenga asignaciones u horas. Después de la conservación, las tarifas de facturación de la asignación no se pueden cambiar, editar ni anular en ningún lugar del proyecto.</span></p></td>
+      <td><strong>Conservar información de tarifas de facturación del proyecto</strong></td>
+      <td><p>Al habilitar esta opción, todas las tarifas de facturación de asignación se congelan permanentemente a la tarifa aplicable más alta de la jerarquía de facturación. Se trata de una selección única y no puede deshabilitar la opción una vez que el proyecto tenga asignaciones u horas. Después de la conservación, las tarifas de facturación de la asignación no se pueden cambiar, editar ni anular en ningún lugar del proyecto.</p></td>
      </tr>
      <tr data-mc-conditions=""> 
       <td role="rowheader"> <strong>Divisa</strong> </td> 

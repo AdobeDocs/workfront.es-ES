@@ -8,7 +8,7 @@ feature: System Setup and Administration
 role: Admin
 author: Lisa
 exl-id: 149c08de-fd3a-465a-afd1-0b53012d30d8
-source-git-commit: b16523bf6c37747702efe3b5ecfcc33801526af1
+source-git-commit: dc71072107ce80f6cb9033fcb17fe4ac74d5af18
 workflow-type: tm+mt
 source-wordcount: '834'
 ht-degree: 41%
@@ -20,8 +20,6 @@ ht-degree: 41%
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">*** DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. **</p>
 -->
-
-{{highlighted-preview}}
 
 Como administrador de Adobe Workfront, puede configurar tipos de cambio de divisa en Workfront. Esto incluye lo siguiente:
 
@@ -93,8 +91,6 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
 
 1. (Opcional) Para eliminar una moneda, seleccione la casilla de verificación situada junto al nombre de la moneda y seleccione **Eliminar** en la barra de acciones de la parte inferior de la pantalla. No puede eliminar la moneda predeterminada.
 
-<div class="preview">
-
 ## Establecer fechas en vigor para los tipos de cambio de una divisa
 
 Las fechas en vigor para los tipos de cambio de una divisa se configuran de modo que un valor de tipo de cambio termine en una fecha específica y comience otra tasa. El tipo de cambio de la fecha correcta se utiliza en los cálculos financieros.
@@ -116,8 +112,6 @@ Las fechas en vigor para los tipos de cambio de una divisa se configuran de modo
 1. Escriba el nuevo valor **Exchange rate**.
 1. (Opcional) Haga clic en **Agregar fecha efectiva** para agregar más tasas de cambio con fechas efectivas para esta moneda.
 1. Haga clic en **Guardar**.
-
-</div>
 
 ## Permitir que los usuarios modifiquen la moneda predeterminada de un proyecto
 

@@ -7,17 +7,15 @@ description: Al crear un campo personalizado, puede definir configuraciones opci
 author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
-source-git-commit: 5cdaccd9381b02f183b837208eaac4389b0b7a24
+exl-id: 3380cce6-8372-43c0-8520-473442ea0eb4
+source-git-commit: 39630b50384d710dadb1f48342113b74338a9104
 workflow-type: tm+mt
 source-wordcount: '629'
 ht-degree: 9%
 
 ---
 
-
 # Restringir el acceso a datos financieros en campos personalizados
-
-{{highlighted-preview-article-level}}
 
 Al crear un campo personalizado, puede definir configuraciones opcionales para restringir el acceso a los datos financieros. De este modo, los usuarios que tienen determinados permisos configurados en sus niveles de acceso pueden ver los datos y se les impide ver datos financieros a los que no deberían tener acceso.
 
@@ -119,4 +117,3 @@ Cuando el usuario ve los proyectos en una lista o informe:
 La exportación de detalles del proyecto muestra los mismos valores de campo financiero (o campos en blanco) que en la lista.
 
 Al editar ambos proyectos por lotes, los campos facturación y finanzas generales se muestran como de solo lectura, y los campos de coste como N/A.
-

@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: cbeaa0d7-a61a-4806-a871-96663d9ce124
-source-git-commit: 3a194bc2b2707c7b7e1cd5edffc3dd5ab43e91b3
+source-git-commit: dc71072107ce80f6cb9033fcb17fe4ac74d5af18
 workflow-type: tm+mt
 source-wordcount: '547'
 ht-degree: 48%
@@ -17,13 +17,11 @@ ht-degree: 48%
 
 # Personalización de los encabezados de los objetos mediante una plantilla de diseño
 
-{{highlighted-preview}}
-
 Como administrador de Adobe Workfront o de un grupo, puede utilizar una plantilla de diseño para configurar los campos que ven los usuarios en el encabezado del objeto cuando abren la página de un objeto.
 
 >[!IMPORTANT]
 >
->La personalización de encabezados de objeto está disponible actualmente para proyectos, tareas, problemas, <span class="preview">portafolios, programas, plantillas, registros de facturación, equipos, usuarios, empresas, grupos y tarjetas de tarifas.</span>
+>Actualmente, la personalización de encabezados de objeto está disponible para proyectos, tareas, problemas, portafolios, programas, plantillas, registros de facturación, equipos, usuarios, empresas, grupos y tarjetas de tarifas.
 
 ![Campos de encabezado de objeto](assets/object-header-fields.png)
 

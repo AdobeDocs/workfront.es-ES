@@ -8,7 +8,8 @@ description: 'Puede utilizar una plantilla de diseño para determinar las opcion
 author: Lisa
 feature: System Setup and Administration
 role: Admin
-source-git-commit: 2faeea4f8128b7858232048d687c270a1e3709f5
+exl-id: bee0117d-a15b-494a-833a-179a42ae4f74
+source-git-commit: 665b15170805feba2b55850faf1b73cdc0416305
 workflow-type: tm+mt
 source-wordcount: '349'
 ht-degree: 40%
@@ -16,8 +17,6 @@ ht-degree: 40%
 ---
 
 # Personalización del menú Más mediante una plantilla de diseño
-
-{{highlighted-preview-article-level}}
 
 Puede utilizar una plantilla de diseño para determinar las opciones que aparecen cuando un usuario hace clic en el menú Más (el menú de tres puntos) mientras ve los objetos siguientes en Adobe Workfront: proyectos, tareas, problemas, portafolios y programas.
 

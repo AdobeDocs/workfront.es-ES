@@ -5,18 +5,16 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 9d12895d-cf7f-41c6-a2ac-bb731770c187
-source-git-commit: cada5387ddfb710029d06cd38841ecb9c8a6484b
+source-git-commit: 85399542ce8e92de6da5a1de0960194e72958987
 workflow-type: tm+mt
-source-wordcount: '840'
-ht-degree: 84%
+source-wordcount: '686'
+ht-degree: 94%
 
 ---
 
 # Conceder a los usuarios acceso administrativo a determinadas áreas
 
 <!--Linked in several places, do not rename or change URL.-->
-
-{{highlighted-preview}}
 
 Como administrador de Adobe Workfront, puede utilizar un nivel de acceso para otorgar a los usuarios con una licencia estándar o de planificación acceso administrativo a determinadas áreas del sistema.
 
@@ -95,17 +93,7 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
         <li>Sus propios gastos</li>
         <li>Los gastos de sus subordinados</li>
        </ul></td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Roles</td> 
-      <td> <p><span class="preview"><b>NOTA</b>: en el entorno de vista previa, el acceso a los roles se controla como un tipo de objeto en el nivel de acceso. Consulte <a href="/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-access-job-roles.md">Conceder acceso a los roles</a>.</span></p>
-      <p>Con este acceso, el usuario puede hacer lo siguiente:</p> 
-       <ul> 
-        <li>Ver y editar las funciones existentes</li> 
-        <li>Añadir más funciones</li> 
-        <li>Editar las tarifas de facturación y de costes de funciones</li> 
-       </ul> <p><b>IMPORTANTE</b>: Si concede a un usuario de Standard o Plan acceso administrativo a los roles de trabajo, la configuración de acceso a datos financieros Editar tarifas de facturación y de costo de rol se habilita automáticamente para el usuario. Más adelante, si desactiva el acceso administrativo a los roles para el usuario Estándar o del Plan, los roles de trabajo siguen siendo visibles para el usuario porque la configuración Editar tarifas de facturación y de coste del rol sigue activada. Si esto sucede y necesita eliminar el acceso del usuario para ver las funciones, debe deshabilitar la configuración del permiso del usuario Editar tarifas de facturación y de costo de rol. Para obtener más instrucciones, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md" class="MCXref xref">Conceder acceso a datos financieros</a>.</p> </td> 
-     </tr> 
+     </tr>
      <tr> 
       <td role="rowheader">Hitos de mi grupo</td> 
       <td>Vea todas las rutas de hitos del sistema en el menú Rutas de hitos en Configuración. Los usuarios también pueden editar o eliminar cualquier ruta de hitos que pertenezca a cualquiera de sus grupos. Los usuarios no pueden administrar (editar o eliminar) las rutas de hitos que no están asignadas a ninguno de sus grupos.<br><p>Sin este acceso, los usuarios solo pueden ver las rutas de hitos existentes y aplicarlas a los proyectos a los que tienen acceso para administrar.</p></td> 
@@ -133,3 +121,17 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
    >[!NOTE]
    >
    >Puede permitir que los usuarios tengan acceso administrativo a los usuarios. Para obtener más información sobre cómo otorgar a los usuarios acceso administrativo a usuarios para poder administrar cuentas de usuario, consulte [Conceder acceso a usuarios](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
+
+
+<!--     
+     <tr> 
+      <td role="rowheader">Job roles</td> 
+      <td> <p><b>NOTE</b>: In the Preview environment, access to job roles is controlled as an object type in the access level. See <a href="/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-access-job-roles.md">Grant access to job roles</a>.</p>
+      <p>With this access, the user is allowed to do the following:</p> 
+       <ul> 
+        <li>View and edit existing job roles</li> 
+        <li>Add new job roles</li> 
+        <li>Edit role billing and cost rates</li> 
+       </ul> <p><b>IMPORTANT</b>: If you grant a Standard or Plan user administrative access to job roles, the Financial Data access setting Edit Role Billing &amp; Cost Rates is enabled for the user automatically. Later, if you disable administrative access to job roles for the Standard or Plan user, job roles are still visible to the user because the Edit Role Billing &amp; Cost Rates setting is still enabled. If this happens and you need to remove the user's access to view job roles, you need to disable the user's Edit Role Billing &amp; Cost Rates permission setting. For instructions, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md" class="MCXref xref">Grant access to financial data</a>.</p> </td> 
+     </tr>
+-->

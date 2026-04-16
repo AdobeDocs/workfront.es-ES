@@ -7,7 +7,8 @@ description: Puede compartir una tarjeta de tarifas con usuarios, funciones del 
 author: Lisa
 feature: System Setup and Administration
 role: Admin
-source-git-commit: 760fa2a0833367604b23a4617359f2ca6596e15a
+exl-id: 9f2f9fd8-bca8-4a3d-b022-b51c080a78aa
+source-git-commit: c27dd9d972b89af09c0865a0e878f1665416c80e
 workflow-type: tm+mt
 source-wordcount: '228'
 ht-degree: 17%
@@ -15,8 +16,6 @@ ht-degree: 17%
 ---
 
 # Compartir una tarjeta de tarifas
-
-{{highlighted-preview-article-level}}
 
 Puede compartir una tarjeta de tarifas con usuarios, funciones del puesto, grupos, equipos, empresas y perfiles empresariales.
 
@@ -70,4 +69,3 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
 1. Haga clic en [!UICONTROL **Guardar**].
 
    Para obtener más información sobre cómo compartir, vea [Compartir un objeto](/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/share-an-object.md).
-

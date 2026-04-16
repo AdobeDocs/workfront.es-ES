@@ -9,9 +9,9 @@ feature: Work Management
 exl-id: 2df8522e-7eee-4440-be0f-f7483c5acdb0
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 39630b50384d710dadb1f48342113b74338a9104
 workflow-type: tm+mt
-source-wordcount: '2958'
+source-wordcount: '3008'
 ht-degree: 70%
 
 ---
@@ -52,8 +52,9 @@ Puede editar las tareas de plantilla de una en una, o puede editar las tareas de
  <tbody> 
   <tr> 
    <td role="rowheader">Paquete de Adobe Workfront</td> 
-   <td> <p>Cualquiera</p> </td> 
-  </tr> 
+   <td>  <p>Para utilizar los tipos de costes e ingresos por hora de usuario y rol: Ultimate de flujo de trabajo</p>
+      <p>Para editar todas las demás configuraciones y utilizar todos los demás tipos de ingresos y costes: Cualquier paquete de Workfront o flujo de trabajo</p>  </td> 
+  </tr>
   <tr> 
    <td role="rowheader">Licencia de Adobe Workfront</td> 
    <td> <p>Estándar</p>
@@ -439,6 +440,7 @@ Los nombres de los formularios personalizados solo se muestran si hay formulario
         <li> <p style="font-weight: normal;"><span>Fijo por hora</span> </p> </li> 
         <li> <p style="font-weight: normal;"><span>Usuario por hora</span> </p> </li> 
         <li> <p style="font-weight: normal;"><span>Función por hora</span> </p> </li> 
+        <li> <p style="font-weight: normal;">Usuario y función por hora</p> </li>
        </ul> <p>Para obtener más información sobre los costes de seguimiento, consulte <a href="../../../manage-work/projects/project-finances/track-costs.md" class="MCXref xref">Costes de seguimiento</a>.</p> </td> 
      </tr> 
      <tr> 
@@ -448,11 +450,14 @@ Los nombres de los formularios personalizados solo se muestran si hay formulario
         <li> <p style="font-weight: normal;">No facturable</p> </li> 
         <li> <p style="font-weight: normal;">Usuario por hora</p> </li> 
         <li> <p style="font-weight: normal;">Rol por hora</p> </li> 
+        <li> <p style="font-weight: normal;">Usuario y función por hora</p> </li>
         <li> <p style="font-weight: normal;">Fijo por hora</p> </li> 
         <li> <p style="font-weight: normal;">Usuario por hora sin límite</p> </li> 
         <li> <p style="font-weight: normal;">Rol por hora con límite</p> </li> 
+        <li> <p style="font-weight: normal;">Usuario y función por hora con límite</p> </li>
         <li> <p style="font-weight: normal;">Usuario por hora más fijos</p> </li> 
         <li> <p style="font-weight: normal;">Rol por hora más fijos</p> </li> 
+        <li> <p style="font-weight: normal;">Usuario y función por hora más fijos</p> </li>
         <li> <p style="font-weight: normal;">Ingresos fijos</p> </li> 
        </ul> <p>Para obtener más información sobre el seguimiento de los ingresos, consulte <a href="../../../manage-work/projects/project-finances/billing-and-revenue-overview.md" class="MCXref xref">Información general sobre facturación e ingresos</a>.</p> </td> 
      </tr> 

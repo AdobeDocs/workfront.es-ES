@@ -6,7 +6,8 @@ title: Configurar un rol de trabajo para facturación
 description: Workfront le permite facturar a un usuario con una función de trabajo diferente a su función de trabajo principal. Esto resulta útil cuando una persona realiza temporalmente un trabajo que debería facturarse a una tasa diferente.
 author: Lisa
 feature: Work Management
-source-git-commit: d92908d358ca53ae9d443fd76556e3e8b273e3cb
+exl-id: d6e2947d-2f40-4591-b048-9a769caadf43
+source-git-commit: 39630b50384d710dadb1f48342113b74338a9104
 workflow-type: tm+mt
 source-wordcount: '680'
 ht-degree: 6%
@@ -14,8 +15,6 @@ ht-degree: 6%
 ---
 
 # Configurar un rol de trabajo para facturación
-
-{{highlighted-preview-article-level}}
 
 Workfront le permite facturar a un usuario con una función de trabajo diferente a su función de trabajo principal. Esto resulta útil cuando una persona realiza temporalmente un trabajo que debería facturarse a una tasa diferente.
 

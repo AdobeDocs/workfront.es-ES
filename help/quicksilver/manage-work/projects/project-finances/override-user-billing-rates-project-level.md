@@ -6,7 +6,8 @@ title: Anular tarifas de facturación de usuario en el nivel de proyecto
 description: Este artículo describe cómo puede anular las tarifas de facturación del usuario del sistema para un proyecto.
 author: Lisa
 feature: Work Management
-source-git-commit: 8f6f14d4b36a9eee499111b1a37912f641c9f2ba
+exl-id: eb7dbb6f-a31c-4569-be54-9a151dcf4135
+source-git-commit: 39630b50384d710dadb1f48342113b74338a9104
 workflow-type: tm+mt
 source-wordcount: '744'
 ht-degree: 16%
@@ -14,8 +15,6 @@ ht-degree: 16%
 ---
 
 # Anular las tarifas de facturación del usuario en el nivel de proyecto
-
-{{highlighted-preview-article-level}}
 
 Como jefe de proyecto, puede especificar cuál es la tasa de facturación de un usuario en un proyecto específico. Esta tarifa de facturación a nivel de proyecto anula la tarifa de facturación a nivel de sistema para este usuario. Workfront utiliza la tasa de facturación en el nivel de proyecto del usuario para calcular los ingresos, en lugar de utilizar la tasa de facturación en el nivel de sistema.
 

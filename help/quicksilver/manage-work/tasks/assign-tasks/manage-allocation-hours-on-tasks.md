@@ -8,10 +8,10 @@ feature: Work Management
 exl-id: 2c0cd6ef-8719-4680-aa63-5e229de0f819
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 49f26e963647f5015955396489bfe537bbac0918
 workflow-type: tm+mt
-source-wordcount: '574'
-ht-degree: 77%
+source-wordcount: '591'
+ht-degree: 75%
 
 ---
 
@@ -109,6 +109,10 @@ Take this piece out of the table above when we remove the new experience/ after 
 1. Asegúrese de que el **Tipo de duración** de la tarea sea **Simple**.
 1. Modifique el campo **Asignaciones** para cada usuario asignado a la tarea. Son asignaciones generales para cada asignación a esta tarea, para toda la duración de la tarea. Esto también podría actualizar las **horas planificadas** generales de la tarea.
 
+   Puede ver una de estas pantallas en función del paquete de flujo de trabajo o Workfront de su organización.
+
    ![Modificar asignaciones](assets/advanced-assignments-duration-type-allocations.png)
+
+   ![Modificar asignaciones](assets/new-aa-allocation-by-hour.png)
 
 1. Haga clic en **Guardar**.

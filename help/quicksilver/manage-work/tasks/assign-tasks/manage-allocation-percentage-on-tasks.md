@@ -8,10 +8,10 @@ feature: Work Management
 exl-id: 82238dff-b95e-42e4-8e72-6247934b504d
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 49f26e963647f5015955396489bfe537bbac0918
 workflow-type: tm+mt
-source-wordcount: '458'
-ht-degree: 21%
+source-wordcount: '476'
+ht-degree: 20%
 
 ---
 
@@ -111,6 +111,10 @@ Take this piece out of the table above when we remove the new experience/ after 
 
    No se puede modificar el porcentaje de asignación de un equipo asignado a una tarea.
 
+   Puede ver una de estas pantallas en función del paquete de flujo de trabajo o Workfront de su organización.
+
    ![Modificar porcentaje de asignación](assets/advanced-assignments-allocation-percentage.png)
+
+   ![Modificar porcentaje de asignación](assets/new-aa-allocation-by-percentage.png)
 
 1. Haga clic en **Guardar**.
