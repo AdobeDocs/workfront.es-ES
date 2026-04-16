@@ -8,10 +8,10 @@ author: Alina
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 539f87ddeab85eb6e8a028bcb6e394c3cd179c4d
 workflow-type: tm+mt
-source-wordcount: '3499'
-ht-degree: 43%
+source-wordcount: '3558'
+ht-degree: 41%
 
 ---
 
@@ -52,7 +52,7 @@ Puede conectar lo siguiente:
       * Compañías
       * Grupos
 
-   * Adobe Experience Manager Assets
+   * Adobe Experience Manager
 
       * Archivos de imágenes
       * Carpetas
@@ -87,7 +87,7 @@ Puede conectar lo siguiente:
    <ul><li><p>Licencia de Adobe Experience Manager Assets e integración entre AEM Assets y Workfront para conectar recursos de AEM con tipos de Planning.</p>
    <p>Para obtener más información, consulte <a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md">Adobe Workfront para Experience Manager Assets y Assets Essentials: índice de artículo</a>. </p></li>
    <li><p> Licencia de Adobe GenStudio for Performance Marketing para conectar tipos de registros con marcas de GenStudio</p>
-   <p>Para obtener más información, consulte <a href="https://experienceleague.adobe.com/es/docs/genstudio-for-performance-marketing/user-guide/get-started">Introducción a Adobe GenStudio for Performance Marketing</a>.</p></li></ul>
+   <p>Para obtener más información, consulte <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/get-started">Introducción a Adobe GenStudio for Performance Marketing</a>.</p></li></ul>
    </td> 
   </tr>   
 <tr> 
@@ -389,11 +389,11 @@ Después de crear una conexión entre un tipo de registro y un tipo de objeto de
 >
 >Si tiene dudas acerca de la incorporación a Adobe Admin Console, consulte las [Preguntas frecuentes sobre la experiencia unificada de Adobe](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md).
 
-Después de crear una conexión entre un tipo de registro y Adobe Experience Manager Assets, puede conectar registros individuales a recursos de Experience Manager. Los campos de recursos que conectó desde Experience Manager Assets al crear la conexión se rellenan automáticamente en el tipo de registro desde el que se vinculó.
+Después de crear una conexión entre un tipo de registro y Adobe Experience Manager Assets, puede conectar registros individuales a recursos de Experience Manager. Los campos de recurso que conectó desde Experience Manager al crear la conexión se rellenan automáticamente en el tipo de registro vinculado desde.
 
 >[!NOTE]
 >
->Se puede acceder a los registros de planificación y a sus campos desde Experience Manager Assets cuando el administrador de Workfront configura la asignación de metadatos mediante la integración entre Workfront y Adobe Experience Manager Assets. Para obtener más información, consulte [Configuración de la asignación de metadatos de recursos entre Adobe Workfront y Experience Manager Assets](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
+>Se puede acceder a los registros de planificación y a sus campos desde Experience Manager Assets cuando el administrador de Workfront configura la asignación de metadatos mediante la integración entre Workfront y Adobe Experience Manager Assets. Para obtener más información, consulte [Configuración de la asignación de metadatos de recursos entre Adobe Workfront y Experience Manager Assets](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
 
 Para conectar registros con recursos de Experience Manager:
 
@@ -406,17 +406,21 @@ Para conectar registros con recursos de Experience Manager:
 1. Seleccione una vista de **Tabla** del menú desplegable **Vista** en la esquina superior derecha de la página de tipo de registro.
 
 1. (Opcional) Haga clic en **Nuevo registro** para añadir nuevos registros al tipo de registro que seleccionó. Para obtener más información, consulte [Crear registros](/help/quicksilver/planning/records/create-records.md).
-1. (Condicional) Después de conectar el tipo de registro seleccionado con Experience Manager Assets, vaya al campo conectado de un registro y haga clic en el campo o haga clic en **Conectar** para agregar recursos de Experience Manager al registro y, a continuación, haga clic en el icono **+**.
+1. (Condicional) Después de conectar el tipo de registro seleccionado con Experience Manager, vaya al campo conectado de un registro y haga clic en el campo o haga clic en **Conectar** para agregar recursos de Experience Manager al registro y, a continuación, haga clic en el icono **+**.
 
    >[!TIP]
    >
    >  Puede añadir haciendo clic en el icono **+** en el campo de objeto vinculado en la página de registro para conectar recursos al registro.
 
-   Se muestra el cuadro **Seleccionar recursos**. <!--we might change this to Connect assets-->
+   Se muestra el cuadro Asesor de contenido.
 
-   ![Seleccionar cuadro de recursos para conexiones de registros de AEM](assets/select-assets-box-for-aem-record-connections.png)
+   ![Cuadro del Asesor de contenido para conexiones de registros de AEM](assets/content-advisor-assets-nothing-selected.png)
 
-1. Haga clic para seleccionar algunos de los siguientes tipos de recursos:
+   <!-- The **Select Assets** box displays. we might change this to Connect assets.-->
+
+   <!-- ![Select assets box for AEM record connections](assets/select-assets-box-for-aem-record-connections.png)-->
+
+1. Haga clic para seleccionar algunos de los siguientes tipos de recursos del área **Assets**:
 
    * Imágenes
    * Carpetas
@@ -426,8 +430,13 @@ Para conectar registros con recursos de Experience Manager:
    >[!IMPORTANT]
    >
    > Solo puede conectar recursos a los que tenga acceso para verlos en Experience Manager. Una vez conectados, todos los usuarios de Workfront Planning pueden ver los recursos en Workfront Planning, independientemente de su acceso en Experience Manager Assets.
+   > Para obtener más información sobre el Asesor de contenido, consulte [Usar el Asesor de contenido para acceder al contenido de AEM en las aplicaciones de Adobe](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications){target="_blank"}.
 
-1. Haga clic en **Seleccionar**. <!-- we might change this to Connect-->
+1. Haga clic en **Fragmentos de contenido** para seleccionar fragmentos de contenido y agregarlos al campo de registro vinculado.
+
+   Para obtener más información sobre los fragmentos de contenido, consulte [Usar el Asesor de contenido para acceder al contenido de AEM en las aplicaciones de Adobe](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications){target="_blank"}.
+
+1. Cuando termine de elegir recursos o fragmentos de contenido, haga clic en **Seleccionar**. <!-- we might change this to Connect-->
 
    Se añaden los elementos siguientes:
 
@@ -442,7 +451,7 @@ Para conectar registros con recursos de Experience Manager:
      >
      >* No se crea un campo de registro vinculado a los registros vinculados de Workfront Planning para los recursos de Experience Manager vinculados en la aplicación de Experience Manager Assets.
 
-1. (Opcional) Vaya al tipo de registro desde el que vinculó a Experience Manager Assets y haga clic en el nombre de un recurso en el campo de registro vinculado. Los detalles de Experience Manager del recurso se muestran en una ventana emergente.
+1. (Opcional) Vaya al tipo de registro desde el que vinculó a Experience Manager y haga clic en el nombre de un recurso en el campo de registro vinculado. Los detalles de Experience Manager del recurso se muestran en una ventana emergente.
 
    ![Ventana emergente de recursos con detalles y miniatura de AEM](assets/asset-pop-up-window-with-aem-details-and-thumbnail.png)
 
