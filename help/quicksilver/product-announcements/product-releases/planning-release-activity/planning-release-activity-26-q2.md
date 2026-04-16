@@ -9,10 +9,10 @@ recommendations: noDisplay, noCatalog
 exl-id: 79d4ad4a-1dd0-431e-92cd-582b5a1b7ec8
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 64ee7798e79324af0ab48af91f49d04d94ece3a9
+source-git-commit: 62e23ddf3fc90c1e1e993ad4155564964be07b93
 workflow-type: tm+mt
-source-wordcount: '1882'
-ht-degree: 14%
+source-wordcount: '1984'
+ht-degree: 13%
 
 ---
 
@@ -24,6 +24,25 @@ Este artículo describe las funciones que se lanzarán para Workfront Planning d
 
 Para obtener una lista de todas las características publicadas para Adobe Workfront Planning, consulte [Actividad de la versión de Adobe Workfront Planning: índice de artículo](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
 
+
+## El Asesor de contenido ya está disponible en los registros conectados a Adobe Experience Manager
+
+>[!NOTE]
+>
+>Vista previa: 16 de abril de 2026
+>Versión rápida de producción: viernes, 16 de abril de 2026
+>Producción para todos: viernes, 16 de abril de 2026
+
+Ahora puede acceder al Asesor de contenido de Experience Manager en Workfront Planning. El Asesor de contenido le permite:
+
+* Descubra el contenido mediante sugerencias inteligentes o detalles breves de la campaña
+* Evalúe rápidamente la idoneidad del contenido consultando los detalles clave antes de reutilizarlo
+* Descubra y reutilice fragmentos de contenido
+* Explore colecciones para identificar contenido relacionado que no sea de marca
+
+Puede seleccionar recursos o fragmentos de contenido desde el Asesor de contenido para utilizarlos en sus campos conectados en Planning.
+
+Para obtener más información sobre cómo obtener acceso al Asesor de contenido desde Workfront Planning, consulte [Conectar registros](/help/quicksilver/planning/records/connect-records.md).
 
 ## Nueva capacidad para aumentar el alto de fila para la vista de lista
 

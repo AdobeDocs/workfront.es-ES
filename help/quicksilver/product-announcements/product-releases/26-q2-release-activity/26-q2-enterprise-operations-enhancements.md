@@ -5,9 +5,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 72130462-ae78-4b9b-ae18-848602d4a858
-source-git-commit: c0cb423c73a6b0e982081ae67ffef6316b03db7f
+source-git-commit: 855ff527d54fa7212555675bf2d89466384b59ca
 workflow-type: tm+mt
-source-wordcount: '1257'
+source-wordcount: '1366'
 ht-degree: 8%
 
 ---
@@ -192,4 +192,23 @@ Los administradores de Workfront ahora pueden configurar reglas empresariales pa
 Para obtener más información, consulte [Crear y editar reglas empresariales](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/business-rules.md).
 
 [Vea un vídeo de demostración de las mejoras realizadas en las Reglas de negocio.](https://video.tv.adobe.com/v/3483247/){target="_blank"}
+
+
+### Lagunas permitidas en las tasas efectivas por fecha
+
+>[!NOTE]
+>
+>Esta función está disponible para las organizaciones en todos los paquetes de Workfront y de flujo de trabajo.
+>Tenga en cuenta que las tarjetas de tarifas solo están disponibles para organizaciones en el paquete de Ultimate de flujo de trabajo.
+
+Workfront le permite dejar espacios entre intervalos de fechas en la facturación y las tarifas de coste, pero recibirá una advertencia para confirmar que esto es intencional.
+
+Puede haber espacios entre los intervalos de fechas en todos los casos en que existan tasas:
+
+* Tarifas en un rol
+* Tarifas en un perfil de usuario
+* Tarifas en una tarjeta de tarifas
+* Al anular cualquiera de estas tasas en el nivel de proyecto
+
+Para obtener más información, consulte [Crear y administrar roles](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md), [Editar el perfil de un usuario](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md) y [Administrar tarjetas de tarifas](/help/quicksilver/administration-and-setup/manage-enterprise-operations/manage-rate-cards.md).
 

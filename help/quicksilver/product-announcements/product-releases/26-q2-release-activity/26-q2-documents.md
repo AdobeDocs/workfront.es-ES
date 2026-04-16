@@ -5,10 +5,10 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 095aa9fe-600a-48cd-a907-2e8d93939bf0
-source-git-commit: b334e8b234c9c87dd1b1ecd26df6645b3381ffb0
+source-git-commit: 8d7cffd5b629b62ae3fbaf3bfddb86a05875acd9
 workflow-type: tm+mt
-source-wordcount: '713'
-ht-degree: 14%
+source-wordcount: '818'
+ht-degree: 13%
 
 ---
 
@@ -19,6 +19,27 @@ ht-degree: 14%
 Esta página describe las mejoras realizadas en los documentos con la versión del segundo trimestre de 2026 en el entorno de vista previa. Estas mejoras estarán disponibles en el entorno de producción, como se ha indicado.
 
 Para obtener una lista de todos los cambios disponibles en este punto del ciclo de la versión del segundo trimestre de 2026, consulte [Información general de la versión del segundo trimestre de 2026](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md).
+
+## Descubra y reutilice contenido más rápido con el Asesor de contenido para AEM Assets en Workfront
+
+>[!NOTE]
+>
+>Vista previa: 16 de abril de 2026
+>Versión rápida de producción: viernes, 16 de abril de 2026
+>Producción para todos: viernes, 16 de abril de 2026
+
+El Asesor de contenido ya está disponible en Workfront con la integración de Adobe Experience Manager Assets, lo que facilita a los equipos la detección y reutilización de contenido de alto valor existente.
+
+Con el Asesor de contenido, puede:
+
+* Descubra el contenido mediante sugerencias inteligentes o detalles breves de la campaña
+* Evalúe rápidamente la idoneidad del contenido consultando los detalles clave antes de reutilizarlo
+* Descubra y reutilice fragmentos de contenido
+* Explore colecciones para identificar contenido relacionado que no sea de marca
+
+Esta integración ayuda a los equipos a reducir la creación de contenido duplicado, acelerar la ejecución y maximizar el valor de los recursos de AEM existentes, directamente en Workfront.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3483142/)
 
 ## Aprovisionamiento de GenStudio Foundations habilitado para admitir colaboradores de IA
 
