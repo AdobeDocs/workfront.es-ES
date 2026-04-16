@@ -4,16 +4,14 @@ description: Puede compartir un portafolio con otros usuarios si tiene permisos 
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 79643202-2d91-4028-b673-c3443b50d898
-source-git-commit: e974adc053a076a4370aa0c4ec41fea700d836be
+source-git-commit: 28178c3794832e14552d988259c1792a6fed1da1
 workflow-type: tm+mt
-source-wordcount: '914'
+source-wordcount: '892'
 ht-degree: 45%
 
 ---
 
 # Compartir un portafolio
-
-<span class="preview">La información resaltada en esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa de espacio aislado.</span>
 
 El administrador de Adobe Workfront puede concederle acceso para ver o editar portafolios cuando le asigna su nivel de acceso. Debe tener una licencia de Plan para poder acceder y editar un portafolio. Para obtener más información, consulte [Conceder acceso a portafolios](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-portfolios.md).
 
@@ -84,7 +82,7 @@ Para obtener más información sobre la jerarquía de objetos en Workfront, cons
 
    ![Botón Compartir portafolio](assets/share-portfolio-button.png)
 
-1. En el campo **Conceder acceso al portafolio a**, empiece a escribir el nombre del usuario, equipo, rol, grupo, compañía, <span class="preview">o perfil empresarial</span> con el que desea compartir el portafolio y, a continuación, haga clic en el nombre cuando aparezca en la lista desplegable.
+1. En el campo **Conceder acceso al portafolio a**, empiece a escribir el nombre del usuario, equipo, rol, grupo, compañía o perfil empresarial con el que desea compartir el portafolio y, a continuación, haga clic en el nombre cuando aparezca en la lista desplegable.
 
    >[!TIP]
    >
@@ -117,7 +115,7 @@ Para obtener más información sobre la jerarquía de objetos en Workfront, cons
 
    ![Portafolios de uso compartido en lotes](assets/bulk-share-portfolios.png)
 
-1. En el campo **Conceder acceso al portafolio a**, empiece a escribir el nombre del usuario, equipo, rol, grupo, compañía, <span class="preview">o perfil empresarial</span> con el que desea compartir los portafolios y, a continuación, haga clic en el nombre cuando aparezca en la lista desplegable.
+1. En el campo **Conceder acceso al portafolio a**, empiece a escribir el nombre del usuario, equipo, función, grupo, compañía o perfil empresarial con el que desea compartir los portafolios y, a continuación, haga clic en el nombre cuando aparezca en la lista desplegable.
 
    >[!TIP]
    >
@@ -147,24 +145,24 @@ Para obtener más información sobre la jerarquía de objetos en Workfront, cons
 La siguiente tabla muestra qué permisos puede conceder a los usuarios cuando les permite ver o administrar un portafolio:
 
 | **Acciones** | **Administrar** | **Vista** |
-|---|---|---|
-| Editar detalles del portafolio | ✓ |   |
+| --- | --- | --- |
+| Editar detalles del portafolio | ✓ | |
 | Ver un portafolio | ✓ | ✓ |
-| Eliminar un calendario | ✓ |   |
-| Adjuntar un formulario personalizado | ✓ |   |
-| Editar un formulario personalizado | ✓ |   |
-| Añadir o quitar un programa&#42; | ✓ |   |
-| Añadir o quitar un proyecto&#42; | ✓ |   |
-| Aprobar un proyecto | ✓ |   |
-| Optimización del portafolio&#42; | ✓ |   |
+| Eliminar un calendario | ✓ | |
+| Adjuntar un formulario personalizado | ✓ | |
+| Editar un formulario personalizado | ✓ | |
+| Añadir o quitar un programa&#42; | ✓ | |
+| Añadir o quitar un proyecto&#42; | ✓ | |
+| Aprobar un proyecto | ✓ | |
+| Optimización del portafolio&#42; | ✓ | |
 | Añadir una carpeta de documentos&#42; | ✓ | ✓ |
 | Añadir un documento | ✓ | ✓ |
 | Actualizaciones/comentarios | ✓ | ✓ |
 | Compartir | ✓ | ✓ |
-| Compartir en todo el sistema |   | ✓ |
-| Editar tarifas de facturación&#42; | ✓ |   |
-| Editar tasas de costo&#42; | ✓ |   |
-| Editar finanzas generales&#42; | ✓ |   |
+| Compartir en todo el sistema | | ✓ |
+| Editar tarifas de facturación&#42; | ✓ | |
+| Editar tasas de costo&#42; | ✓ | |
+| Editar finanzas generales&#42; | ✓ | |
 | Ver tarifas de facturación&#42; | ✓ | ✓ |
 | Ver tarifas de costo&#42; | ✓ | ✓ |
 | Ver finanzas generales&#42; | ✓ | ✓ |

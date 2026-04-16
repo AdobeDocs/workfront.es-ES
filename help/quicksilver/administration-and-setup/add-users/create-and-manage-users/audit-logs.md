@@ -8,18 +8,16 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 6adb4146-42fd-4eda-b46f-c61d7ff71df6
-source-git-commit: 5f5a32b9a569221acc3d5f38568bb6a1e609070f
+source-git-commit: 28178c3794832e14552d988259c1792a6fed1da1
 workflow-type: tm+mt
-source-wordcount: '1578'
-ht-degree: 7%
+source-wordcount: '1556'
+ht-degree: 6%
 
 ---
 
 # Información general de registros de auditoría
 
 <!--Audited: 08/2025-->
-
-<span class="preview">La información resaltada en esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa de espacio aislado.</span>
 
 Como administrador de Adobe Workfront, puede realizar un seguimiento de los cambios de usuario activados en el sistema durante los últimos 90 días mediante los registros de auditoría que se describen a continuación.
 
@@ -68,7 +66,7 @@ En cada entrada de registro de auditoría se registran los campos siguientes:
 
 * [Nivel de acceso](#access-level)
 * [Perfiles de empresa](#business-profiles)
-* <span class="preview">[Reglas de negocio](#business-rules)</span>
+* [Reglas empresariales](#business-rules)
 * [Compañía](#company)
 * [Condición](#condition)
 * [Campo personalizado](#custom-field)
@@ -102,8 +100,6 @@ El sistema genera una entrada de registro de nivel de acceso cuando un usuario r
      >
      >Por ejemplo, si un usuario cambia el tipo de acceso del Planificador de Ver a Editar, el sistema no muestra la información contenida en el menú desplegable Ajustar la configuración.
 
-<div class="preview">
-
 ### Perfiles de empresa
 
 El sistema genera una entrada de registro de auditoría de perfil empresarial cuando un usuario realiza una de las siguientes acciones:
@@ -111,8 +107,6 @@ El sistema genera una entrada de registro de auditoría de perfil empresarial cu
 * Crea un perfil empresarial
 * Edita un perfil empresarial:
 * Elimina un perfil empresarial
-
-</div>
 
 ### Reglas empresariales
 

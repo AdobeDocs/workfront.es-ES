@@ -11,16 +11,14 @@ role: Admin
 exl-id: 2227cdb7-909c-429d-a078-4f508157a679
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: b9e0747a58618353caf3ce1c7e8521d22d2b412d
+source-git-commit: 2b190de6b6ef9ce53e96475d426a4d39cfbd4df4
 workflow-type: tm+mt
-source-wordcount: '223'
-ht-degree: 28%
+source-wordcount: '200'
+ht-degree: 32%
 
 ---
 
 # Ver y administrar perfiles empresariales
-
-<span class="preview">La información de esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa para clientes específicos.</span>
 
 Para asignar un perfil empresarial a un usuario, debe asignar un grupo y un nivel de acceso asociado.
 

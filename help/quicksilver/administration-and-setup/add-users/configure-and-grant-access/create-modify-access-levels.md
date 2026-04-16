@@ -10,10 +10,10 @@ role: Admin
 exl-id: d2a73d24-51d3-42e2-9c09-7f4bc30b2caa
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: b9e0747a58618353caf3ce1c7e8521d22d2b412d
+source-git-commit: 28178c3794832e14552d988259c1792a6fed1da1
 workflow-type: tm+mt
-source-wordcount: '1612'
-ht-degree: 87%
+source-wordcount: '1590'
+ht-degree: 88%
 
 ---
 
@@ -22,8 +22,6 @@ ht-degree: 87%
 <!--Audited: 12/2023-->
 
 <!--Don't delete, draft, or change the title of this article. The UI links to it via context-sensitive help. -->
-
-<span class="preview">La información resaltada en esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa de espacio aislado.</span>
 
 Como administrador de Adobe Workfront, puede crear niveles de acceso personalizados y aplicarlos a los usuarios. Al trabajar con niveles de acceso, es importante comprender cómo funcionan junto con los permisos de objeto que conceden los usuarios cuando comparten objetos entre sí. Para obtener más información sobre los niveles de acceso, consulte:
 
@@ -203,13 +201,13 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
    </table>
 
 
-1. <span class="preview">(Opcional) Para restringir la visualización de campos específicos de los usuarios con este nivel de acceso, agregue los campos en la sección Agregar campos restringidos.</span>
+1. (Opcional) Para impedir que los usuarios con este nivel de acceso vean campos específicos, agregue los campos en la sección Agregar campos restringidos.</span>
 
-   <span class="preview">Puede buscar campos nativos y personalizados en esta sección. Hay un límite de 20 campos restringidos.</span>
+   Puede buscar campos nativos y personalizados en esta sección. Hay un límite de 20 campos restringidos.
 
-   <span class="preview">Los campos están restringidos cuando el nivel de acceso se asigna a un usuario como su nivel de acceso principal o a través de un perfil empresarial. Para obtener más información sobre los perfiles de negocio, consulte [Descripción general de los perfiles de negocio](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/business-profiles.md).</span>
+   Los campos están restringidos cuando el nivel de acceso se asigna a un usuario como su nivel de acceso principal o a través de un perfil empresarial. Para obtener más información sobre los perfiles de negocio, consulte [Resumen de perfiles de negocio](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/business-profiles.md).
 
-   <span class="preview">Un campo restringido sigue siendo visible para los usuarios del sistema, pero aparece como en blanco o muestra N/D en lugar de datos reales.</span>
+   Un campo restringido sigue siendo visible para los usuarios del sistema, pero aparece en blanco o muestra N/D en lugar de datos reales.
 
 1. (Condicional y opcional) Si el sistema Workfront está configurado para usuarios que pertenecen a varias compañías, limite la visibilidad a otros usuarios en función de la compañía a la que pertenezcan en la sección **Las personas de otras compañías deberán ver solamente a los usuarios de**.
 

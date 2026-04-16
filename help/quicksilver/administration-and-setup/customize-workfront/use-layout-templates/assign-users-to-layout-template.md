@@ -10,16 +10,14 @@ role: Admin
 exl-id: a2915f3a-071f-4e9f-88c9-338bf765f418
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: b9e0747a58618353caf3ce1c7e8521d22d2b412d
+source-git-commit: 28178c3794832e14552d988259c1792a6fed1da1
 workflow-type: tm+mt
-source-wordcount: '960'
-ht-degree: 13%
+source-wordcount: '938'
+ht-degree: 12%
 
 ---
 
 # Asignar usuarios a una plantilla de diseño
-
-<span class="preview">La información resaltada en esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa de espacio aislado.</span>
 
 Puede asignar una plantilla de diseño que haya creado a cualquier usuario, rol, equipo o grupo que necesite utilizarla.
 
@@ -33,7 +31,7 @@ Para obtener más información sobre las plantillas de diseño, consulte [Planti
 
 Para obtener información sobre las plantillas de diseño para grupos, consulte [Creación y modificación de las plantillas de diseño de un grupo](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
 
-<span class="preview">Para obtener información acerca de plantillas de diseño y perfiles empresariales, consulte [Resumen de perfiles de negocio](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/business-profiles.md).</span>
+Para obtener información acerca de plantillas de diseño y perfiles de negocio, vea [Descripción general de perfiles de negocio](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/business-profiles.md).
 
 ## Requisitos de acceso
 
@@ -74,13 +72,13 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
    >Cuando esté satisfecho con la plantilla de diseño, le recomendamos que la pruebe, tal como se describe en [Probar una nueva plantilla de diseño](../../../administration-and-setup/customize-workfront/use-layout-templates/test-a-layout-template.md).
 
 1. Haga clic en **Asignar esto a** en la sección superior de la página.
-1. En el cuadro que aparece, haga clic en **Agregar un usuario, rol, equipo, grupo, <span class="preview">o nivel de acceso</span>**, empiece a escribir el nombre de un usuario, rol, equipo, grupo, <span class="preview">o nivel de acceso</span> y, a continuación, haga clic en el nombre cuando aparezca en la lista desplegable.
+1. En el cuadro que aparece, haga clic en **Agregar un usuario, rol, equipo, grupo o nivel de acceso**, empiece a escribir el nombre de un usuario, rol, equipo, grupo o nivel de acceso y, a continuación, haga clic en el nombre cuando aparezca en la lista desplegable.
 
    Los nombres añadidos recientemente se muestran con un fondo azul. Esto resulta útil cuando está editando una plantilla de diseño existente porque puede distinguir los nombres que acaba de agregar de los que ya estaban en la lista.
 
-   Un icono de información ![Icono de información](assets/info-icon.png) aparece a la derecha del nombre de cualquier usuario, rol, equipo, grupo, <span class="preview">o nivel de acceso</span> que ya esté asignado a otra plantilla de diseño. Puede situarse sobre el icono para ver el nombre de esa plantilla de diseño y decidir si desea anular la asignación existente.
+   Un icono de información ![Icono de información](assets/info-icon.png) aparece a la derecha del nombre de cualquier usuario, rol, equipo, grupo o nivel de acceso que ya esté asignado a otra plantilla de diseño. Puede situarse sobre el icono para ver el nombre de esa plantilla de diseño y decidir si desea anular la asignación existente.
 
-1. Repita los dos pasos anteriores para asignar la plantilla de diseño a otros usuarios, roles, equipos, grupo <span class="preview">o nivel de acceso</span> según sea necesario.
+1. Repita los dos pasos anteriores para asignar la plantilla de diseño a otros usuarios, roles, equipos, grupos o niveles de acceso según sea necesario.
 
    Puede asignar hasta 100 usuarios a la vez.
 
@@ -96,7 +94,7 @@ Usted y otros administradores de Workfront pueden asignar varias plantillas de d
 * A un rol particular que el usuario tiene
 * Para un equipo determinado el usuario está en
 * Para un grupo determinado en el que se encuentra el usuario
-* <span class="preview">A cierto nivel de acceso se asigna al usuario</span>
+* A un determinado nivel de acceso se asigna al usuario
 
 Sin embargo, solo una plantilla de diseño es visible para el usuario en un momento determinado. La plantilla visible viene determinada por la siguiente jerarquía de prioridades:
 
@@ -113,7 +111,7 @@ Sin embargo, solo una plantilla de diseño es visible para el usuario en un mome
 
   El usuario solo puede ver la plantilla asignada al grupo de inicio de un usuario. Las plantillas asignadas a cualquiera de sus otros grupos no son visibles.
 
-* <span class="preview"> Nivel de acceso: si la persona no tiene asignada una plantilla de diseño como usuario individual, como usuario con un rol de trabajo principal, como miembro de un equipo de inicio o como miembro de un grupo de inicio, verá la plantilla asignada a su nivel de acceso.</span>
+* Nivel de acceso: si a la persona no se le asigna una plantilla de diseño como usuario individual, como usuario con una función de trabajo principal, como miembro de un equipo de inicio o como miembro de un grupo de inicio, verá la plantilla asignada a su nivel de acceso.
 
 ## Gran cantidad de usuarios asignados a una plantilla de diseño
 

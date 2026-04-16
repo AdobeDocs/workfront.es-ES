@@ -10,32 +10,19 @@ role: Admin
 exl-id: 780c996c-5cf1-42fe-898d-2cc208bbae7b
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: b9e0747a58618353caf3ce1c7e8521d22d2b412d
+source-git-commit: 2b190de6b6ef9ce53e96475d426a4d39cfbd4df4
 workflow-type: tm+mt
-source-wordcount: '1823'
-ht-degree: 52%
+source-wordcount: '1864'
+ht-degree: 51%
 
 ---
 
 # Crear y editar reglas empresariales
 
-<!--
-
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
-
--->
-
 Una regla empresarial permite aplicar la validación a objetos de Workfront e impedir que los usuarios creen, editen o eliminen un objeto cuando se cumplen determinadas condiciones. La validación de reglas empresariales ayuda a mejorar la calidad de los datos y la eficacia operativa mediante la prevención de acciones que podrían poner en peligro la integridad de los datos.
 
-<!--
+Las organizaciones que tienen el paquete Workflow Ultimate también pueden configurar reglas empresariales para automatizar las acciones del objeto creado, editado o modificado cuando se cumplen determinadas condiciones. Las acciones disponibles incluyen compartir el objeto o adjuntar un formulario personalizado al objeto.
 
-<div class="preview">
-
-Organizations that have the Workflow Ultimate package can also configure business rules to automate actions for the created, edited, or modified object when certain conditions are met. Available actions include sharing the object or attaching a custom form to the object.  
-
-</div>
-
--->
 
 Una sola regla empresarial solo se puede asignar a un objeto. Por ejemplo, si crea una regla empresarial para no editar proyectos en determinadas condiciones, no puede aplicar la misma regla a las tareas. Tendría que crear una regla empresarial independiente con las mismas condiciones para las tareas.
 
@@ -261,7 +248,7 @@ Puede usar caracteres comodín en las acciones de regla de negocio, tal como se 
    * El “objeto” es el tipo de objeto seleccionado al crear la regla empresarial. Se muestra en el encabezado del diálogo.
    * La “acción” es el activador seleccionado para la regla: crear, editar o eliminar el objeto.
    * Como el objeto y la acción ya están definidos, no se incluyen en la fórmula.
-   * El mensaje de error personalizado <span class="preview"> solo se incluye si la regla es para validación y </span> se muestra al usuario cuando almacena en déclencheur la regla de negocio. Debe proporcionar instrucciones claras sobre qué ha fallado y cómo corregir el problema.
+   * El mensaje de error personalizado solo se incluye si la regla es para validación y se muestra al usuario cuando almacena en déclencheur la regla de negocio. Debe proporcionar instrucciones claras sobre qué ha fallado y cómo corregir el problema.
 
      Puede incluir una URL estática en el mensaje de error para vincular a la documentación u otras páginas útiles y guiar al usuario sobre cómo modificar su acción dentro de la restricción de la regla.
 
@@ -283,21 +270,19 @@ Puede usar caracteres comodín en las acciones de regla de negocio, tal como se 
 
    Para otros paquetes, esta opción está preseleccionada.
 
-1. <span class="preview">(Condicional) Para automatizar otra acción, seleccione la acción. </span>
+1. (Condicional) Para automatizar otra acción, seleccione la acción.
 
-   <span class="preview">Para obtener detalles sobre estas acciones, consulte la sección [Opciones de automatización de reglas de negocio](#business-rule-automation-options) en este artículo.</span>
+   Para obtener detalles sobre estas acciones, consulte la sección [Opciones de automatización de reglas de negocio](#business-rule-automation-options) en este artículo.
 
    >[!NOTE]
    >
-   ><span class="preview">Su organización debe estar en el paquete Workflow Ultimate para utilizar acciones además de la validación. Si no ve estas otras opciones, su organización no está en el paquete de flujo de trabajo de Ultimate.</span>
+   >Su organización debe estar en el paquete Workflow Ultimate para utilizar acciones además de la validación. Si no ve estas otras opciones, su organización no está en el paquete de flujo de trabajo de Ultimate.
 
 1. Haga clic en **Guardar** cuando termine de generar la regla empresarial.
 
 >[!NOTE]
 >
 >Después de añadir una regla empresarial, debe probarla añadiendo, editando o eliminando el objeto asociado para asegurarse de que la regla se aplica correctamente.
-
-<div class="preview">
 
 ### Opciones de automatización de reglas empresariales
 
@@ -311,8 +296,6 @@ Puede configurar estas acciones para que se automaticen cuando se active la regl
 |---|---|
 | Adjuntar un formulario personalizado | Seleccione el formulario personalizado que desee agregar |
 | Compartir el objeto | Seleccione las personas, las funciones, los grupos, las empresas o los niveles de acceso con los que desea compartir el objeto. |
-
-</div>
 
 ## Activar una regla empresarial
 
