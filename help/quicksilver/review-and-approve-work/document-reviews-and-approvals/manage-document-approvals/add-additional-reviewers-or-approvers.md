@@ -8,16 +8,14 @@ feature: Work Management, Digital Content and Documents
 exl-id: f3d94dff-a855-44ae-9e85-1dcbc4d417a0
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 99048cf2b9320b7f00e1de3bae3f48bc145af5f0
 workflow-type: tm+mt
-source-wordcount: '837'
-ht-degree: 24%
+source-wordcount: '544'
+ht-degree: 18%
 
 ---
 
 # Agregar aprobadores o revisores adicionales a un flujo de trabajo de aprobación de documentos
-
-<span class="preview">La información resaltada en esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa de espacio aislado.</span>
 
 Puede agregar aprobadores o revisores adicionales a un flujo de trabajo de aprobación de documentos que ya tenga aprobaciones pendientes.
 
@@ -59,31 +57,8 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
 +++
 
 
-## Agregue aprobadores o revisores adicionales desde la página Detalles del documento en su entorno de producción
 
-1. Vaya a la página del documento haciendo clic en el nombre del documento y, a continuación, seleccione la versión del documento a la que desea agregar un aprobador o revisor en el menú desplegable de la versión. La última versión está seleccionada de forma predeterminada.
-
-1. Seleccione **Aprobaciones** en el panel izquierdo. Aquí se enumeran todos los aprobadores y revisores existentes.
-
-1. Para agregar un aprobador, asegúrese de que la casilla de verificación **Aprobador** esté marcada y, a continuación, empiece a escribir en el cuadro de texto **Revisores**. Puede añadir usuarios o equipos de Workfront por el nombre. Si desea añadir un revisor en su lugar, simplemente anule la selección de la casilla de verificación **Aprobador** antes de escribir.
-
-1. Repita el paso anterior para añadir más aprobadores o revisores.
-
-## Agregar aprobadores o revisores adicionales del resumen del documento en el entorno de producción
-
-1. Vaya al proyecto, tarea o problema que contiene el documento y, a continuación, seleccione **Documentos**.
-
-1. Haga clic en el documento que necesita y se abrirá el panel Resumen del documento.
-
-1. Seleccione la versión del documento a la que desea agregar un aprobador o revisor en el menú desplegable Versión. La última versión está seleccionada de forma predeterminada.
-
-1. Desplácese hacia abajo hasta la sección **Aprobaciones** del panel Resumen del documento, donde se enumeran todos los aprobadores y revisores existentes. Para agregar un aprobador, asegúrese de que la casilla de verificación **Aprobador** esté marcada y, a continuación, empiece a escribir en el cuadro de texto **Revisores**. Puede añadir usuarios o equipos de Workfront por el nombre. Si desea añadir un revisor en su lugar, simplemente anule la selección de la casilla de verificación **Aprobador** antes de escribir.
-
-1. Repita el paso anterior para añadir más aprobadores o revisores.
-
-<div class="preview">
-
-## Agregue aprobadores o revisores adicionales del Resumen del documento en el entorno de vista previa del área de documentos heredados
+## Agregar aprobadores o revisores adicionales del Resumen del documento en el área de documentos heredados
 
 Si su organización está en el almacenamiento de Workfront, verá el área de documentos heredados al acceder a documentos en Workfront. Para obtener más información sobre el almacenamiento de Workfront, consulte [Almacenamiento de Workfront frente al almacenamiento empresarial de Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md#workfront-storage-vs-adobe-enterprise-storage).
 
@@ -108,7 +83,6 @@ Para agregar aprobadores o revisores adicionales desde el resumen de documento:
 1. Repita los pasos del 5 al 6 para agregar más aprobadores o revisores.
 Una vez guardado, los participantes añadidos reciben una notificación por correo electrónico que indica que se necesita su aprobación o revisión en el documento.
 
-</div>
 
 
 ## Agregar aprobadores o revisores adicionales del Resumen del documento en el área de nuevos documentos

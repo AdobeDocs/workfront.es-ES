@@ -8,16 +8,14 @@ feature: Work Management, Digital Content and Documents
 exl-id: a02699e1-3557-47f0-89b7-dbecb507a174
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 99048cf2b9320b7f00e1de3bae3f48bc145af5f0
 workflow-type: tm+mt
-source-wordcount: '1002'
-ht-degree: 33%
+source-wordcount: '686'
+ht-degree: 20%
 
 ---
 
 # Crear un flujo de trabajo de aprobación de documentos
-
-<span class="preview">La información resaltada en esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa de espacio aislado.</span>
 
 Puede solicitar la aprobación de otros usuarios o equipos para un documento en Adobe Workfront o solicitar que revisen un documento sin necesidad de aprobarlo.
 
@@ -60,51 +58,7 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
 
 +++
 
-
-## Cree una solicitud de revisión o aprobación de documento desde la página de documento del entorno de producción
-
-1. Pase el puntero por encima del documento y haga clic en Detalles del documento.
-   ![Detalles del documento](assets/doc-details.png)
-
-1. Cerca del nombre del documento, seleccione la versión del documento para la que desea crear una aprobación en la lista desplegable de versión. La última versión está seleccionada de forma predeterminada.
-
-1. Haga clic en **Aprobaciones** en el panel izquierdo.
-
-1. (Opcional) Establezca una fecha límite para la aprobación. Los usuarios y equipos reciben una notificación por correo electrónico 72 horas antes y 24 horas antes del plazo especificado.
-
-1. Para agregar un aprobador, haga clic en **Aprobador** y empiece a escribir el nombre de un usuario o equipo.
-
-1. Para añadir un revisor, haga clic en la casilla de verificación **Revisor** y empiece a escribir el nombre de un usuario o equipo.
-
-   ![Agregar aprobador y fecha límite](assets/add-approver-and-deadline.png)
-
-1. Repita el paso anterior para añadir más aprobadores o revisores.
-
-## Cree una solicitud de revisión o aprobación de documento desde el panel Resumen de documento en su entorno de producción
-
-1. Vaya al proyecto, tarea o problema que contiene el documento y, a continuación, seleccione **Documentos**.
-
-1. Haga clic en el documento que necesite y se abrirá el panel izquierdo Resumen del documento para ese documento.
-
-1. Seleccione la versión del documento para la que desea crear una aprobación en el menú desplegable de versión. La última versión está seleccionada de forma predeterminada.
-
-1. Desplácese hacia abajo hasta la sección **Aprobaciones** del panel Resumen del documento y haga clic en **Añadir**.
-
-![Agregar aprobadores en el resumen del documento](assets/doc-summary-add-approvers.png)
-
-1. (Opcional) Establezca una fecha límite para la aprobación. Los usuarios y equipos reciben una notificación por correo electrónico 72 horas antes y 24 horas antes del plazo especificado.
-
-1. Para agregar un aprobador, haga clic en **Aprobador** y empiece a escribir el nombre de un usuario o equipo.
-
-1. Para añadir un revisor, haga clic en la casilla de verificación **Revisor** y empiece a escribir el nombre de un usuario o equipo.
-
-   ![Agregar aprobador y fecha límite](assets/add-approver-and-deadline.png)
-
-1. Repita el paso anterior para añadir más aprobadores o revisores.
-
-<div class="preview">
-
-## Cree un flujo de trabajo de aprobación desde el panel Resumen en el entorno de vista previa del área de documentos heredados
+## Cree un flujo de trabajo de aprobación desde el panel Resumen en el área de documentos heredados
 
 Si su organización está en el almacenamiento de Workfront, verá el área de documentos heredados al acceder a documentos en Workfront. Para obtener más información sobre el almacenamiento de Workfront, consulte [Almacenamiento de Workfront frente al almacenamiento empresarial de Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md#workfront-storage-vs-adobe-enterprise-storage).
 
@@ -148,7 +102,6 @@ Para crear un flujo de trabajo de aprobación:
 
    ![Detalles del documento](assets/new-stage.png)
 
-</div>
 
 ## Cree un flujo de trabajo de aprobación desde el Panel de resumen en la nueva área de documento
 

@@ -9,7 +9,7 @@ recommendations: noDisplay, noCatalog
 exl-id: 0f4fd3a7-9578-4fda-b10f-9b4be147f1de
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 2b3e2ac00126facab9cc45ba8fb193d8951a37ec
+source-git-commit: 99048cf2b9320b7f00e1de3bae3f48bc145af5f0
 workflow-type: tm+mt
 source-wordcount: '777'
 ht-degree: 1%
@@ -17,8 +17,6 @@ ht-degree: 1%
 ---
 
 # Introducción al Revisor de contenido de Workfront
-
-{{highlighted-preview-article-level}}
 
 El revisor de contenido es un colaborador de IA, un tipo de agente de IA que se puede agregar a sus proyectos, tareas y documentos. Los colaboradores de IA se pueden configurar en el área de Configuración y asignar igual que los usuarios.
 

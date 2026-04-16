@@ -8,16 +8,14 @@ feature: Work Management, Digital Content and Documents
 exl-id: c18d6c6d-1a09-47c5-af4e-027f7cc48cd7
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 99048cf2b9320b7f00e1de3bae3f48bc145af5f0
 workflow-type: tm+mt
-source-wordcount: '448'
-ht-degree: 45%
+source-wordcount: '337'
+ht-degree: 40%
 
 ---
 
 # Creación de una plantilla de flujo de trabajo de aprobación para documentos
-
-<span class="preview">La información resaltada en esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa de espacio aislado.</span>
 
 En el área Configuración de Workfront, los usuarios con una licencia Estándar pueden crear plantillas de aprobación reutilizables. Una vez creadas, las plantillas de aprobación se pueden aplicar a los recursos del área Documentos de un proyecto, tarea o problema.
 
@@ -49,30 +47,9 @@ En el área Configuración de Workfront, los usuarios con una licencia Estándar
 Para obtener más información sobre el contenido de esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
+ß
 
-
-
-
-## Crear una plantilla de aprobación en el entorno de producción
-
-{{step-1-to-setup}}
-
-1. En el panel izquierdo, haga clic en **Revisar y aprobar** > **Plantillas de aprobación**.
-1. Haga clic en **Nueva plantilla** en el lado derecho de la página.
-1. Especifique la siguiente información:
-
-   | Nombre de plantilla | Empiece a escribir un nombre para esta plantilla. |
-   |----------------------------|---|
-   | **Período de tiempo (opcional)** | Introduzca el período de tiempo en días. La fecha límite de aprobación se calcula a partir de este campo una vez que la plantilla se aplica a un recurso. |
-   | **Añadir aprobadores o revisores** | Empiece escribiendo el nombre de los usuarios o equipos y, a continuación, desígnelos como revisores o aprobadores. |
-
-1. Haga clic en **Guardar**.
-
-
-
-<div class="preview">
-
-## Creación de una plantilla de aprobación en el entorno de vista previa
+## Crear una plantilla de aprobación
 
 {{step-1-to-setup}}
 
@@ -116,7 +93,6 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
 
 Una vez creada la plantilla, se puede aplicar a documentos del área Documentos de un proyecto, tarea o problema para iniciar el proceso formal de revisión y aprobación en Workfront.
 
-</div>
 
 
 <!--

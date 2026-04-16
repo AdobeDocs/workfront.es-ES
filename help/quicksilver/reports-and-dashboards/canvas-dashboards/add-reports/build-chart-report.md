@@ -8,7 +8,7 @@ feature: Reports and Dashboards
 exl-id: 4262cae8-602f-416d-94b9-409eb9d6241c
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 7716fb1c68bee2540556df98c227d8c5bae7b2d8
+source-git-commit: 3e76f4a798a55a674a5ada2661c4b6bbb55195f2
 workflow-type: tm+mt
 source-wordcount: '1917'
 ht-degree: 9%
@@ -16,9 +16,6 @@ ht-degree: 9%
 ---
 
 # Creación de un informe de gráfico en un panel de control de lienzo
-
-{{highlighted-preview}}
-
 
 >[!IMPORTANT]
 >
@@ -105,13 +102,12 @@ Hay muchas opciones de configuración disponibles para crear un informe de gráf
       >
       >Hay un número máximo de 60 series que se pueden mostrar en un gráfico. Cuando se marca esta casilla, cualquier serie por encima del límite se consolida en una agrupación **Other** del gráfico.
 
-   1. <span class="preview">(Opcional) En el campo **Ejecutar este informe con los derechos de acceso de**, empiece a escribir el nombre del usuario cuyos permisos desea que utilice el informe y, a continuación, seleccione el usuario cuando aparezca en la lista. Cuando configura un informe para que se ejecute como otro usuario, todos los visualizadores del tablero ven los mismos datos, independientemente de su propio nivel de acceso. Si no selecciona ningún usuario, cada usuario verá los datos en función de sus propios permisos.
+   1. (Opcional) En el campo **Ejecutar este informe con los derechos de acceso de**, empiece a escribir el nombre del usuario cuyos permisos desea que utilice el informe y, a continuación, seleccione el usuario cuando aparezca en la lista. Cuando configura un informe para que se ejecute como otro usuario, todos los visualizadores del tablero ven los mismos datos, independientemente de su propio nivel de acceso. Si no selecciona ningún usuario, cada usuario verá los datos en función de sus propios permisos.
 
       >[!IMPORTANT]
       >
       >Si el usuario seleccionado está desactivado o pierde el acceso a los espacios de trabajo o tipos de registro relevantes, el informe puede mostrar datos incompletos o no procesarse.
 
-   </span>
 
 1. Elija el tipo de gráfico que desea crear:
    * [Gráfico de barras, columnas o líneas](#bar-column-or-line-chart)
@@ -175,7 +171,7 @@ Hay muchas opciones de configuración disponibles para crear un informe de gráf
 
 Siga los pasos a continuación para configurar la sección **Filter**:
 
-1. En el panel izquierdo, haga clic en el icono **Filtro**![&#x200B; Icono de filtro](assets/filter-icon.png).
+1. En el panel izquierdo, haga clic en el icono **Filtro**![ Icono de filtro](assets/filter-icon.png).
 1. Seleccione **Editar filtro**.
 1. Haga clic en **Agregar condición** y, a continuación, especifique el campo por el que desea filtrar y el modificador que define qué tipo de condición debe cumplir el campo.
 1. (Opcional) Haga clic en **Agregar grupo de filtros** para agregar otro conjunto de criterios de filtrado. El operador predeterminado entre los conjuntos es Y. Haga clic en el operador para cambiarlo a OR.
