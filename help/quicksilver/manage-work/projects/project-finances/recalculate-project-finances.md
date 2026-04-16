@@ -6,10 +6,10 @@ description: Las finanzas se calculan en un proyecto a medida que se producen ca
 author: Lisa
 feature: Work Management
 exl-id: 5a90c5a1-8b26-4b6f-b9ec-f446a2e94ff0
-source-git-commit: 8f6f14d4b36a9eee499111b1a37912f641c9f2ba
+source-git-commit: e974adc053a076a4370aa0c4ec41fea700d836be
 workflow-type: tm+mt
-source-wordcount: '1605'
-ht-degree: 88%
+source-wordcount: '1632'
+ht-degree: 78%
 
 ---
 
@@ -41,7 +41,7 @@ Las finanzas se calculan en un proyecto a medida que se producen cambios en las 
   </tr> 
   <tr> 
    <td>Permisos de objeto</td> 
-   <td>Permisos de administración para el proyecto con permisos para administrar finanzas</td> 
+   <td>Administre permisos para el proyecto con permisos para Editar tarifas de costo, Editar tarifas de facturación y Editar finanzas generales</td> 
   </tr> 
  </tbody> 
 </table>
@@ -79,21 +79,24 @@ Cuando se vuelven a calcular los datos financieros de un proyecto, Workfront vue
 
 Las tarifas de ingresos pueden cambiar durante el transcurso de un proyecto.
 
-Para obtener más información sobre las tarifas de facturación y los ingresos, consulte el artículo [Información general sobre facturación e ingresos](../../../manage-work/projects/project-finances/billing-and-revenue-overview.md).
+Para obtener más información sobre las tarifas de facturación y los ingresos, consulte [Información general sobre facturación e ingresos](../../../manage-work/projects/project-finances/billing-and-revenue-overview.md).
 
 Las tarifas de ingresos pueden cambiar en los siguientes niveles:
 
 * El nivel del sistema (para funciones)\
-  Para obtener más información sobre cómo crear funciones con tarifas de facturación en el nivel del sistema, consulte el artículo [Crear y administrar funciones de trabajo](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
+  Para obtener más información sobre cómo crear roles con tarifas de facturación en el nivel de sistema, consulte [Crear y administrar roles](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
 
 * El nivel del usuario\
-  Para obtener más información sobre cómo cambiar la información sobre la tarifa de facturación de los usuarios, consulte el artículo [Editar el perfil de un usuario](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+  Para obtener más información acerca de cómo cambiar la información sobre la tarifa de facturación de los usuarios, consulte [Editar el perfil de un usuario](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
-* El nivel de la compañía (para funciones)\
+* El nivel de compañía (para roles)\
   Para obtener más información, consulte [Anular tarifas de facturación de función laboral a nivel de compañía](../../../administration-and-setup/set-up-workfront/organizational-setup/override-job-role-billing-rates-company-level.md).
 
-* El nivel del proyecto (para funciones)\
-  Para obtener más información acerca de la anulación de tarifas de rol en el nivel de proyecto, vea el artículo [Información general sobre la anulación de tarifas de facturación y el cálculo de ingresos en un proyecto](/help/quicksilver/manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md).
+* El nivel de tarjeta de tarifa
+Para obtener más información sobre las tarjetas de tarifas, consulte [Administrar tarjetas de tarifas](/help/quicksilver/administration-and-setup/manage-enterprise-operations/manage-rate-cards.md).
+
+* El nivel de proyecto (para roles de trabajo, usuarios y tarjetas de tarifas)\
+  Para obtener más información sobre cómo anular las tarifas en el nivel de proyecto, consulte [Información general sobre cómo anular las tarifas de facturación y calcular los ingresos en un proyecto](/help/quicksilver/manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md).
 
 Por ejemplo, la tarifa de facturación de un usuario cambia durante el transcurso de un proyecto de 50 a 75 dólares la hora y desea que todos los datos existentes permanezcan calculados con la tarifa antigua (50 dólares la hora). Sin embargo, cuando se recalculen las finanzas del proyecto, los ingresos de las tareas que ya tengan datos financieros se actualizarán para reflejar la nueva tarifa de facturación (de 75 dólares la hora).
 
@@ -106,13 +109,13 @@ Cuando las tarifas de facturación cambian en cualquier nivel mencionado anterio
 
 Cuando no recalcule las finanzas del proyecto o cuando bloquea las horas registradas en un registro de facturación facturada, las horas registradas después de los cambios de tarifa se calcularán con la nueva tarifa y las horas registradas antes de que cambie la tarifa de coste permanecerán calculadas con la tarifa antigua.
 
-Para obtener más información sobre la creación de registros de facturación, consulte el artículo [Crear registros de facturación](../../../manage-work/projects/project-finances/create-billing-records.md).
+Para obtener más información sobre cómo crear registros de facturación, consulte [Crear registros de facturación](../../../manage-work/projects/project-finances/create-billing-records.md).
 
 #### Conservar ingresos del proyecto mediante el uso de varias anulaciones de la tarifa de facturación {#preserve-project-revenue-by-using-multiple-billing-rate-overrides}
 
 Cuando cambian las tarifas de facturación de funciones en el nivel de proyecto, puede conservar los ingresos existentes que ya se han calculado en el proyecto mediante el uso de varias anulaciones de tarifas de facturación que están bloqueadas dentro de un lapso de tiempo especificado.
 
-Para obtener más información sobre cómo usar varias anulaciones de tarifas de facturación, consulte el artículo [Información general sobre cómo anular las tarifas de facturación y calcular los ingresos en un proyecto](/help/quicksilver/manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md).
+Para obtener más información sobre cómo usar varias anulaciones de tarifas de facturación, consulte [Información general sobre cómo anular tarifas de facturación y calcular ingresos en un proyecto](/help/quicksilver/manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md).
 
 >[!NOTE]
 >
@@ -123,12 +126,15 @@ Para obtener más información sobre cómo usar varias anulaciones de tarifas de
 Las tarifas de coste pueden cambiar en los siguientes niveles:
 
 * Nivel del sistema (para funciones)\
-  Para obtener más información acerca de cómo crear funciones con tarifas de costes en el nivel de sistema, vea el artículo [Crear y administrar funciones](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
+  Para obtener más información acerca de cómo crear roles con tasas de costo en el nivel de sistema, vea [Crear y administrar roles](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
 
 * Nivel de usuario\
-  Para obtener más información acerca de cómo cambiar la información sobre las tarifas de costes de los usuarios, vea el artículo [Editar el perfil de un usuario](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+  Para obtener más información acerca de cómo cambiar la información sobre la tasa de costo de los usuarios, vea [Editar el perfil de un usuario](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
-Cuando las tarifas de facturación cambian en cualquier nivel mencionado anteriormente, puede conservar los costes existentes que ya se han calculado en el proyecto bloqueando el tiempo registrado en el proyecto y calculado usando la tarifa antigua en un registro de facturación con un estado de Facturado. Para obtener más información sobre la creación de registros de facturación, consulte el artículo [Crear registros de facturación](../../../manage-work/projects/project-finances/create-billing-records.md).
+* Nivel de proyecto (para usuarios)
+Para obtener más información sobre cómo anular las tasas de costo de usuario, vea [Anular las tasas de costo de usuario en el nivel de proyecto](/help/quicksilver/manage-work/projects/project-finances/override-user-cost-rates.md).
+
+Cuando las tarifas de facturación cambian en cualquier nivel mencionado anteriormente, puede conservar los costes existentes que ya se han calculado en el proyecto bloqueando el tiempo registrado en el proyecto y calculado usando la tarifa antigua en un registro de facturación con un estado de Facturado. Para obtener más información sobre cómo crear registros de facturación, consulte [Crear registros de facturación](../../../manage-work/projects/project-finances/create-billing-records.md).
 
 También puede evitar utilizar la opción Recalcular finanzas manualmente si no desea crear un registro de facturación, tal como se describe en la sección [Recalcular manualmente las finanzas de un proyecto](#manually-recalculate-finances-for-a-project) en este artículo.
 
@@ -148,13 +154,13 @@ Puede recalcular las finanzas al mismo tiempo que las edita de forma masiva. Par
 
 1. Vaya al proyecto donde desee recalcular las finanzas y haga clic en el icono **Más** ![Menú Más](assets/qs-more-icon-on-an-object.png) a la derecha del nombre del proyecto.
 
-   ![Nivel de proyecto más desplegable](assets/project-level-more-drop-down-expanded-nwe-350x516.png)
+   ![Nivel de proyecto más desplegable](assets/project-level-more-dropdown.png)
 
    O
 
    Vaya a una lista de proyectos o a un informe, seleccione uno o varios proyectos y, a continuación, haga clic en el icono **Más** ![Menú Más](assets/qs-more-icon-on-an-object.png) que se encuentra en la parte superior de la lista.
 
-   ![Recalcular expresiones](assets/recalculate-expressions-timeline-finances-drop-down-in-project-list-nwe.png)
+   ![Recalcular finanzas](assets/recalculate-expressions-timeline-finance.png)
 
    >[!TIP]
    >
@@ -180,7 +186,7 @@ Para volver a calcular manualmente las finanzas de varios proyectos:
 1. Ir a una lista de proyectos.
 1. Seleccione varios proyectos en la lista y, a continuación, haga clic en el icono **Más** ![Menú Más](assets/qs-more-icon-on-an-object.png) en la parte superior de la lista.
 
-   ![Recalcular expresiones](assets/recalculate-expressions-timeline-finances-drop-down-in-project-list-nwe.png)
+   ![Recalcular finanzas](assets/recalculate-expressions-timeline-finance.png)
 
    >[!TIP]
    >

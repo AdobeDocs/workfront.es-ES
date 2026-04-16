@@ -8,16 +8,14 @@ feature: Get Started with Workfront
 exl-id: 0d0e13d9-b234-48d3-a818-5b6fb36a4688
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: b9e0747a58618353caf3ce1c7e8521d22d2b412d
+source-git-commit: e974adc053a076a4370aa0c4ec41fea700d836be
 workflow-type: tm+mt
-source-wordcount: '587'
+source-wordcount: '560'
 ht-degree: 23%
 
 ---
 
 # Compartir permisos financieros en un objeto
-
-{{highlighted-preview}}
 
 El administrador de Adobe Workfront puede otorgarle acceso para ver o editar datos financieros al asignar su nivel de acceso. Para obtener más información, consulte [Concesión de acceso a los datos financieros](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
 
@@ -80,8 +78,7 @@ drafted for P&P:
   </tr> 
   <tr> 
    <td role="rowheader">Permisos de objeto</td> 
-   <td> <p>Ver permisos o superiores de proyectos, tareas y problemas que incluyen al menos Ver permisos de finanzas</p>
-   <p><span class="preview">Ver permisos o superiores en proyectos, tareas y problemas que incluyan al menos Ver tarifas de facturación, Ver tarifas de costo o Ver permisos financieros generales</span></p></td> 
+   <td> Ver permisos o superiores en proyectos, tareas y problemas que incluyen al menos Ver tarifas de facturación, Ver tarifas de costo y Ver permisos financieros generales</td> 
   </tr> 
  </tbody> 
 </table>
@@ -96,6 +93,7 @@ Tenga en cuenta lo siguiente al conceder permisos financieros a objetos:
 
 * Puede conceder permisos financieros a proyectos, tareas y problemas.
 * Los permisos se pueden heredar: si tiene permisos de Ver finanzas generales en un proyecto, hereda automáticamente los permisos de Ver finanzas generales en las tareas y problemas del proyecto.
+* La concesión de permisos para las tarifas de facturación y de costo permite al usuario ver o editar las tarifas de ese objeto. Los permisos para finanzas generales permiten al usuario ver o editar campos financieros generales (no relacionados con la facturación o las tasas de coste) en el objeto.
 
 Para conceder permisos financieros a un objeto:
 
@@ -116,10 +114,8 @@ Para conceder permisos financieros a un objeto:
 
 1. En el mismo menú desplegable, haga clic en el icono de opciones avanzadas situado junto al nivel de permisos y, a continuación, realice una de las siguientes acciones:
 
-   * Si seleccionó una de las tres opciones en el paso anterior, asegúrese de que **Ver finanzas** está seleccionada.
-   * Si seleccionaste **Administrar finanzas** en el paso anterior, asegúrate de que **Administrar finanzas** esté seleccionado.
-   * <span class="preview">Para cualquier nivel de permiso, seleccione **Ver tarifas de facturación**, **Ver tarifas de costo** y **Ver finanzas generales** según sea necesario.</span>
-   * <span class="preview">Solo para permisos de **Administrar**, selecciona **Editar tarifas de facturación**, **Editar tarifas de costo** y **Editar finanzas generales** según sea necesario.</span>
+   * Para cualquier nivel de permiso, seleccione **Ver tarifas de facturación**, **Ver tarifas de costo** y **Ver finanzas generales** según sea necesario.
+   * Solo para **administrar** permisos, seleccione **Editar tarifas de facturación**, **Editar tarifas de costo** y **Editar finanzas generales** según sea necesario.
 
 1. Haga clic en **Guardar**.
 
@@ -148,55 +144,37 @@ En la tabla siguiente se muestran los permisos financieros que obtienen los usua
    <td>  </td> 
   </tr> 
   <tr> 
-   <td>Administrar/ Ver tarifas de facturación y de costo de rol</td> 
-   <td>✓</td> 
-   <td>  </td> 
-   <td>  </td> 
-  </tr> 
-  <tr> 
-   <td>Administrar/ Ver tarifas de facturación y de costo de usuario</td> 
-   <td>✓</td> 
-   <td>  </td> 
-   <td>  </td> 
-  </tr> 
-  <tr> 
-   <td>Ver finanzas</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>  ✓</td> 
-  </tr>
-  <tr> 
-   <td><span class="preview">Editar tarifas de facturación</span></td> 
+   <td>Editar tarifas de facturación</td> 
    <td>✓</td> 
    <td></td> 
    <td>  </td> 
   </tr> 
   <tr> 
-   <td><span class="preview">Editar tarifas de coste</span></td> 
+   <td>Editar tarifas de coste</td> 
    <td>✓</td> 
    <td></td> 
    <td>  </td> 
   </tr>  
   <tr> 
-   <td><span class="preview">Editar finanzas generales</span></td> 
+   <td>Editar finanzas generales</td> 
    <td>✓</td> 
    <td></td> 
    <td>  </td> 
   </tr>
   <tr> 
-   <td><span class="preview">Ver tarifas de facturación</span></td> 
+   <td>Ver tarifas de facturación</td> 
    <td>✓</td> 
    <td>✓</td> 
    <td>  ✓</td> 
   </tr> 
   <tr> 
-   <td><span class="preview">Ver tarifas de coste</span></td> 
+   <td>Ver tarifas de coste</td> 
    <td>✓</td> 
    <td>✓</td> 
    <td>  ✓</td> 
   </tr>  
   <tr> 
-   <td><span class="preview">Ver finanzas generales</span></td> 
+   <td>Ver finanzas generales</td> 
    <td>✓</td> 
    <td>✓</td> 
    <td>  ✓</td> 
@@ -225,3 +203,21 @@ En la tabla siguiente se muestran los permisos financieros que obtienen los usua
 &#42;Requiere acceso adicional a Administración de recursos.
 
 Para obtener información acerca del acceso a Administración de recursos, vea [Conceder acceso a Administración de recursos](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-resource-management.md).
+
+<!--
+These rows removed from last table.
+
+  <tr> 
+   <td>Manage/ View Role Billing and Cost Rates</td> 
+   <td>✓</td> 
+   <td>  </td> 
+   <td>  </td> 
+  </tr> 
+  <tr> 
+   <td>Manage/ View User Billing and Cost Rates</td> 
+   <td>✓</td> 
+   <td>  </td> 
+   <td>  </td> 
+  </tr> 
+
+-->

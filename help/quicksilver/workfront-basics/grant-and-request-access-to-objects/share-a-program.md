@@ -7,10 +7,10 @@ description: El administrador de Adobe Workfront puede otorgarle acceso para ver
 author: Courtney
 feature: Get Started with Workfront
 exl-id: bfa6ce97-24ad-44b3-9c2f-7fac6b748f94
-source-git-commit: ddaecaf65fc7080e27ae67d6c8f4980586f1241e
+source-git-commit: e974adc053a076a4370aa0c4ec41fea700d836be
 workflow-type: tm+mt
-source-wordcount: '918'
-ht-degree: 46%
+source-wordcount: '936'
+ht-degree: 45%
 
 ---
 
@@ -169,6 +169,12 @@ La siguiente tabla muestra qué permisos puede conceder a los usuarios cuando le
 | Añadir actualizaciones/ comentarios | ✓ | ✓ |
 | Compartir | ✓ | ✓ |
 | Compartir en todo el sistema |   | ✓ |
+| Editar tarifas de facturación&#42; | ✓ |   |
+| Editar tasas de costo&#42; | ✓ |   |
+| Editar finanzas generales&#42; | ✓ |   |
+| Ver tarifas de facturación&#42; | ✓ | ✓ |
+| Ver tarifas de costo&#42; | ✓ | ✓ |
+| Ver finanzas generales&#42; | ✓ | ✓ |
 
 *Estos permisos están controlados por el nivel de acceso y los permisos en otros objetos, como proyectos.
 

@@ -6,10 +6,10 @@ description: Puede ver o editar la información financiera de un proyecto accedi
 author: Lisa
 feature: Work Management
 exl-id: 147f5d55-a827-4cca-9ab0-afb03a4bcd5a
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: e974adc053a076a4370aa0c4ec41fea700d836be
 workflow-type: tm+mt
-source-wordcount: '1275'
-ht-degree: 88%
+source-wordcount: '1277'
+ht-degree: 86%
 
 ---
 
@@ -45,7 +45,7 @@ Puede ver o editar la información financiera de un proyecto accediendo al área
   </tr> 
   <tr> 
    <td role="rowheader">Permisos de objeto</td> 
-   <td> <p>Visualice permisos de un proyecto o superior que incluyen permisos de Ver finanzas</p> <p>Administre permisos para el proyecto que incluyan Administrar finanzas para editar la información financiera del proyecto</p> </td> 
+   <td> <p>Ver permisos de un proyecto o superior que incluyan los permisos de Ver finanzas generales</p> <p>Administre permisos en el proyecto que incluyan Editar finanzas generales para editar la información financiera del proyecto</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -128,14 +128,6 @@ Tenga en cuenta lo siguiente cuando visualice o edite información en el área F
      <tr> 
       <td role="rowheader">Ingresos facturados</td> 
       <td> <p>Ingresos facturados a clientes u otras partes recogidas en los registros de facturación. Para obtener más información acerca de los registros de facturación, consulte el artículo <a href="../../../manage-work/projects/project-finances/create-billing-records.md" class="MCXref xref">Creación de registros de facturación</a>. </p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader"> </td> 
-      <td> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader"> </td> 
-      <td> </td> 
      </tr> 
     </tbody> 
    </table>

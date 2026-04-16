@@ -6,16 +6,15 @@ title: Anular tasas de costo de usuario en el nivel de proyecto
 description: Este artículo describe cómo puede anular las tasas de costo de usuario del sistema para un proyecto.
 author: Lisa
 feature: Work Management
-source-git-commit: cb21414992587c62c37580f156100f2b5b755e9b
+exl-id: ff1110fd-2d24-48a7-8000-712e551ca61a
+source-git-commit: e3d4ffe2d42f9de3000df0ba1a924ca36fea9248
 workflow-type: tm+mt
-source-wordcount: '665'
+source-wordcount: '651'
 ht-degree: 13%
 
 ---
 
 # Anular las tasas de costo de usuario en el nivel de proyecto
-
-{{highlighted-preview-article-level}}
 
 Puede especificar la tasa de costo de un usuario en un proyecto específico. Esta tasa de coste a nivel de proyecto anula la tasa de coste a nivel de sistema para este usuario. Workfront utiliza la tasa de coste a nivel de proyecto de la función de trabajo para calcular el coste, en lugar de utilizar la tasa de coste a nivel de sistema.
 
@@ -50,7 +49,7 @@ Para obtener más información sobre el cálculo de costos en el proyecto, vea [
   </tr> 
   <tr> 
    <td>Permisos de objeto</td> 
-   <td>Administrar permisos para el proyecto que incluye Editar datos financieros </td> 
+   <td>Administrar permisos para el proyecto que incluyan Editar tasas de costo </td> 
   </tr> 
  </tbody> 
 </table>
@@ -94,7 +93,7 @@ Para obtener más información, consulte [Editar el perfil de un usuario](/help/
 
    Workfront aplica la tasa de rol de reemplazo a las horas que ocurren durante estos lapsos de tiempo al calcular el costo en el proyecto.
 
-   No debe haber espacios entre los marcos de tiempo de dos tasas de anulación. La **fecha de inicio** de una tasa de invalidación debe ser el día inmediatamente posterior a la **fecha de finalización** de la fecha de invalidación anterior.
+   Workfront le permite dejar espacios entre marcos de tiempo de anulación, pero recibirá una advertencia para confirmar que esto es intencional.
 
    No es necesario especificar una fecha de inicio para la primera tasa de sustitución, ni una fecha de finalización para la última tasa de sustitución.
 
@@ -107,5 +106,3 @@ Para obtener más información, consulte [Editar el perfil de un usuario](/help/
    Si se registra una hora después de la fecha planificada de finalización del proyecto, se utiliza la última tasa de coste.
 
 1. Haga clic en **Guardar**.
-
-

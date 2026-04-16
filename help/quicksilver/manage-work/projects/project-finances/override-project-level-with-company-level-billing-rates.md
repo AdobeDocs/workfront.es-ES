@@ -6,10 +6,10 @@ description: Anular las tarifas de facturación a nivel de proyecto con las tari
 author: Lisa
 feature: Work Management
 exl-id: 02ea4c7c-0473-4cc4-913c-3baa613767b7
-source-git-commit: 23a4d055871c9138818e70fa1cd936581dbd7552
+source-git-commit: f8e869f1ce8127d6ee095a58c84a94915df3acab
 workflow-type: tm+mt
-source-wordcount: '453'
-ht-degree: 91%
+source-wordcount: '457'
+ht-degree: 88%
 
 ---
 
@@ -30,7 +30,7 @@ Puede configurar un proyecto para que utilice tarifas de facturación a nivel de
  <col> 
  <tbody> 
   <tr> 
-   <td>paquete de Adobe Workfront</td> 
+   <td>Paquete de Adobe Workfront</td> 
    <td>Cualquiera</td> 
   </tr> 
   <tr> 
@@ -45,7 +45,7 @@ Puede configurar un proyecto para que utilice tarifas de facturación a nivel de
   </tr> 
   <tr> 
    <td>Permisos de objeto</td> 
-   <td>Permisos de administración para el proyecto con permisos para administrar finanzas</td> 
+   <td>Administre permisos para el proyecto con permisos para Editar tarifas de facturación y Finanzas generales</td> 
   </tr> 
  </tbody> 
 </table>

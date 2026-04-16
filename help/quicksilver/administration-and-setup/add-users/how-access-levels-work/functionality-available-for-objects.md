@@ -10,16 +10,14 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: a419e4fe-7781-48ac-8765-bd605fa44bc9
-source-git-commit: 627d59c8c8296e5b6c8b6da53705a1c3d7633751
+source-git-commit: fbc8024269aa91370f2a93ace6b7f07679c7f37d
 workflow-type: tm+mt
-source-wordcount: '1597'
-ht-degree: 92%
+source-wordcount: '1427'
+ht-degree: 90%
 
 ---
 
 # Funcionalidad disponible para cada tipo de objeto
-
-{{highlighted-preview}}
 
 >[!NOTE]
 >
@@ -32,7 +30,7 @@ También indica qué acciones pueden deshabilitar o habilitar los administradore
 >[!NOTE]
 >
 >* Este artículo describe la funcionalidad disponible para los niveles de acceso en el nuevo modelo de paquete de Workfront. Para ver la funcionalidad disponible en el modelo de paquete actual, consulte [Funcionalidad disponible para cada tipo de objeto para varios niveles de acceso](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md).
->* Para obtener una lista de las funcionalidades disponibles para los diferentes paquetes del modelo más reciente, consulte [Precios y paquetes de Adobe Workfront](https://business.adobe.com/es/products/workfront/pricing.html).
+>* Para obtener una lista de las funcionalidades disponibles para los diferentes paquetes del modelo más reciente, consulte [Precios y paquetes de Adobe Workfront](https://business.adobe.com/products/workfront/pricing.html).
 
 ## Proyectos
 
@@ -59,7 +57,7 @@ También indica qué acciones pueden deshabilitar o habilitar los administradore
 | Administrar riesgos | ✓ |   |   |   |
 | Administrar finanzas | ✓ |   |   |   |
 | Añadir o editar gastos | ✓ |   |   |   |
-| <span class="preview">Adjuntar una tarjeta de tarifa</span> | ✓ |   |   |   |
+| Adjuntar una tarjeta de tarifa | ✓ |   |   |   |
 | Adjuntar plantillas | ✓ |   |   |   |
 | Guardar como plantilla | ✓ |   |   |   |
 | Añadir o editar un caso empresarial | ✓ |   |   |   |
@@ -257,8 +255,6 @@ Los usuarios con una licencia estándar pueden tener acceso completo a los infor
 
 ## Usuarios
 
-<div class="preview">
-
 Estas opciones están disponibles en el entorno de vista previa:
 
 | Acción | Estándar | Ligero | Colaborador | Usuario externo** |
@@ -283,27 +279,6 @@ Estas opciones están disponibles en el entorno de vista previa:
 
 &#42;&#42;Los usuarios externos solamente pueden buscar otros usuarios.
 
-</div>
-
-Estas opciones están disponibles en el entorno Producción:
-
-| Acción | Estándar | Ligero | Colaborador | Usuario externo** |
-|----------------------------------------------------------------------------------------------------|----------|--------|-------------|-----------------|
-| Crear | ✓* |   |   |   |
-| Eliminar | ✓* |   |   |   |
-| Editar, eliminar, desactivar, iniciar sesión como o restablecer la contraseña de cualquier usuario | ✓* |   |   |   |
-| Editar, eliminar, desactivar, iniciar sesión como o restablecer la contraseña de cualquier usuario de un grupo que administre | ✓* |   |   |   |
-| Ver usuarios | ✓ | ✓ | ✓ |   |
-| Ver información de contacto | ✓ | ✓ | ✓ |   |
-
-{style="table-layout:auto"}
-
-&#42; Con un nivel de acceso, los administradores de Workfront pueden deshabilitar o habilitar esta funcionalidad.
-
-&#42;&#42;Los usuarios externos solamente pueden buscar otros usuarios.
-
-<div class="preview">
-
 ## Roles
 
 | Acción | Estándar | Ligero | Colaborador | Usuario externo |
@@ -322,8 +297,6 @@ Estas opciones están disponibles en el entorno Producción:
 {style="table-layout:auto"}
 
 &#42; Con un nivel de acceso, los administradores de Workfront pueden deshabilitar o habilitar esta funcionalidad.
-
-</div>
 
 <!--
 
@@ -394,10 +367,6 @@ Estas opciones están disponibles en el entorno Producción:
 
 Solo los usuarios con una licencia estándar pueden tener acceso completo a los datos financieros.
 
-<div class="preview">
-
-Estas opciones están disponibles en el entorno de vista previa:
-
 | Acción | Estándar | Ligero | Colaborador | Usuario externo |
 |--------------------------------------------------------------|----------|--------|-------------|---------------|
 | Editar tarifas de facturación | ✓&#42; |   |   |   |
@@ -408,29 +377,6 @@ Estas opciones están disponibles en el entorno de vista previa:
 | Ver finanzas generales | ✓&#42; | ✓&#42; |   |   |
 | Administrar registros de facturación | ✓ |   |   |   |
 | Administrar gastos | ✓ |   |   |   |
-| Ver información por coste en las herramientas de planificación de recursos | ✓ |   |   |   |
-| Recursos de presupuesto en las herramientas de planificación de recursos&#42;&#42; | ✓ |   |   |   |
-| Ver asignación de recursos en las herramientas de planificación de recursos&#42; | ✓ | ✓ |   |   |
-| Crear riesgos en los proyectos | ✓ |   |   |   |
-| Ver riesgos en los proyectos | ✓ | ✓ |   |   |
-
-{style="table-layout:auto"}
-
-&#42; Con un nivel de acceso, los administradores de Workfront pueden deshabilitar o habilitar esta funcionalidad.
-
-</div>
-
-Estas opciones están disponibles en el entorno Producción:
-
-| Acción | Estándar | Ligero | Colaborador | Usuario externo |
-|--------------------------------------------------------------|----------|--------|-------------|---------------|
-| Editar las tarifas de facturación y de costes de funciones | ✓&#42; |   |   |   |
-| Editar tarifas de facturación y de coste de usuario | ✓&#42; |   |   |   |
-| Ver tarifas de facturación y de coste de funciones | ✓&#42; |   |   |   |
-| Ver tarifas de facturación y de costes de usuario | ✓&#42; |   |   |   |
-| Administrar registros de facturación | ✓ |   |   |   |
-| Administrar gastos | ✓ |   |   |   |
-| Ver datos financieros | ✓&#42; | ✓&#42; |   |   |
 | Ver información por coste en las herramientas de planificación de recursos | ✓ |   |   |   |
 | Recursos de presupuesto en las herramientas de planificación de recursos&#42;&#42; | ✓ |   |   |   |
 | Ver asignación de recursos en las herramientas de planificación de recursos&#42; | ✓ | ✓ |   |   |
@@ -460,7 +406,7 @@ Solo los usuarios con una licencia estándar pueden tener acceso completo a la a
 
 &#42; Con un nivel de acceso, los administradores de Workfront pueden deshabilitar o habilitar esta funcionalidad.
 
-&#42;&#42;Requiere acceso adicional a los datos financieros y los permisos para las finanzas del proyecto. Si concede acceso de Administración de recursos a un usuario planificador que no tiene acceso a los datos financieros, el usuario puede seguir viendo las asignaciones por hora en el Planificador de recursos, pero no puede cambiar a la vista de coste ni ver el caso empresarial. Para obtener más información, consulte [Conceder acceso a datos financieros](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md) y [Compartir permisos financieros en un objeto](../../../workfront-basics/grant-and-request-access-to-objects/share-financial-permissions-object.md).
+&#42;&#42;Requiere acceso adicional a los datos financieros y los permisos para las finanzas del proyecto. Si concede acceso a Administración de recursos a un usuario estándar que no tiene acceso a Datos financieros, el usuario puede seguir viendo las asignaciones por hora en el Planificador de recursos, pero no puede cambiar a la vista de costo ni ver el caso empresarial. Para obtener más información, consulte [Conceder acceso a datos financieros](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md) y [Compartir permisos financieros en un objeto](../../../workfront-basics/grant-and-request-access-to-objects/share-financial-permissions-object.md).
 
 &#42;&#42;&#42;Requiere permiso para Contribuir en el objeto, con la opción Realizar asignaciones habilitada en Ajustes avanzados. Para obtener más información, consulte la sección [Comprender los permisos heredados y la jerarquía de objetos](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md#sharing-an-object) en el artículo [Información general sobre los permisos de uso compartido en objetos](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
 
@@ -483,8 +429,6 @@ Solo los usuarios con una licencia estándar pueden tener acceso completo a la a
 
 &#42; Para que los usuarios vean los datos financieros en un plan o iniciativa, necesitarán acceso a los datos financieros. Para obtener más información, consulte [Concesión de acceso a los datos financieros](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
 
-<div class="preview">
-
 ## Tarjetas de tarifas
 
 Solo los usuarios con una licencia Standard pueden tener acceso completo a las tarjetas de clasificación.
@@ -500,8 +444,6 @@ Solo los usuarios con una licencia Standard pueden tener acceso completo a las t
 {style="table-layout:auto"}
 
 &#42; Con un nivel de acceso, los administradores de Workfront pueden deshabilitar o habilitar esta funcionalidad.
-
-</div>
 
 ## Área de Workfront Goals
 

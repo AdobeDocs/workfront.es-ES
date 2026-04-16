@@ -8,9 +8,9 @@ feature: Get Started with Workfront
 exl-id: eaeedff8-9114-40d9-8cd4-56996edc7dad
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: b9e0747a58618353caf3ce1c7e8521d22d2b412d
+source-git-commit: e974adc053a076a4370aa0c4ec41fea700d836be
 workflow-type: tm+mt
-source-wordcount: '1600'
+source-wordcount: '1622'
 ht-degree: 60%
 
 ---
@@ -78,7 +78,7 @@ Además de las consideraciones siguientes, consulte [Información general sobre 
 
 * Al compartir un proyecto, todas las tareas, problemas y documentos heredan los mismos permisos, a menos que se especifique lo contrario.
 
-  Para obtener información sobre la administración del acceso a las tareas y problemas del proyecto en función de los permisos de un usuario para el proyecto, consulte la sección [&#128279;](../../manage-work/projects/manage-projects/edit-projects.md#access) en el artículo [Editar proyectos](../../manage-work/projects/manage-projects/edit-projects.md).
+  Para obtener información sobre la administración del acceso a las tareas y problemas del proyecto en función de los permisos de un usuario para el proyecto, consulte la sección [](../../manage-work/projects/manage-projects/edit-projects.md#access) en el artículo [Editar proyectos](../../manage-work/projects/manage-projects/edit-projects.md).
 
   El administrador de Workfront puede especificar si los documentos deben heredar permisos de objetos superiores en el nivel de acceso del usuario. Para obtener más información sobre la restricción de permisos heredados en documentos, consulte [Crear o modificar niveles de acceso personalizados](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
@@ -388,11 +388,23 @@ En la tabla siguiente se enumeran los permisos que los usuarios pueden conceder 
    <td> <p>  </p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Administrar finanzas*</p> </td> 
+   <td> <p>Editar tarifas de facturación*</p> </td> 
    <td> <p>✓</p> </td> 
    <td> <p>  </p> </td> 
    <td> <p>  </p> </td> 
   </tr> 
+  <tr> 
+   <td> <p>Editar tarifas de costo*</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>  </p> </td> 
+   <td> <p>  </p> </td> 
+  </tr>
+  <tr> 
+   <td> <p>Editar finanzas generales*</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>  </p> </td> 
+   <td> <p>  </p> </td> 
+  </tr>
   <tr> 
    <td> <p>Añadir o editar gastos*</p> </td> 
    <td> <p>✓</p> </td> 
@@ -400,7 +412,19 @@ En la tabla siguiente se enumeran los permisos que los usuarios pueden conceder 
    <td> <p>  </p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Ver finanzas*</p> </td> 
+   <td> <p>Ver tarifas de facturación*</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
+  </tr>
+  <tr> 
+   <td> <p>Ver tarifas de costo*</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
+  </tr>
+  <tr> 
+   <td> <p>Ver finanzas generales*</p> </td> 
    <td> <p>✓</p> </td> 
    <td> <p>✓</p> </td> 
    <td> <p>✓</p> </td> 

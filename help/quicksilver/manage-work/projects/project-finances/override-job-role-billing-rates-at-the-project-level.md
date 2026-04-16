@@ -2,22 +2,20 @@
 product-area: projects
 navigation-topic: financials
 title: Anular tarifas de facturación de rol en el nivel de proyecto
-description: Como gerente del proyecto, puede especificar cuál es la tarifa de facturación de una función en un proyecto específico. Esta tarifa de facturación en el nivel de proyecto anula la tarifa de facturación en el nivel de sistema para esta función. Workfront utiliza la tarifa de facturación en el nivel de proyecto de la función de trabajo para calcular los ingresos, en lugar de utilizar la tarifa de facturación en el nivel de sistema.
+description: Este artículo describe cómo puede anular las tarifas de facturación de funciones del sistema para un proyecto.
 author: Lisa
 feature: Work Management
 exl-id: b7a33459-6929-4611-8546-06ca979e5dbe
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: b9e0747a58618353caf3ce1c7e8521d22d2b412d
+source-git-commit: e3d4ffe2d42f9de3000df0ba1a924ca36fea9248
 workflow-type: tm+mt
-source-wordcount: '856'
-ht-degree: 27%
+source-wordcount: '808'
+ht-degree: 21%
 
 ---
 
 # Anular tarifas de facturación de funciones a nivel de proyecto
-
-{{highlighted-preview}}
 
 Como gerente del proyecto, puede especificar cuál es la tarifa de facturación de una función en un proyecto específico. Esta tarifa de facturación en el nivel de proyecto anula la tarifa de facturación en el nivel de sistema para esta función. Workfront utiliza la tarifa de facturación en el nivel de proyecto de la función de trabajo para calcular los ingresos, en lugar de utilizar la tarifa de facturación en el nivel de sistema.
 
@@ -56,7 +54,7 @@ Para obtener más información sobre qué rol se usa para calcular los ingresos 
   </tr> 
   <tr> 
    <td>Permisos de objeto</td> 
-   <td>Administrar permisos para el proyecto que incluye Editar datos financieros </td> 
+   <td>Administre permisos al proyecto que incluya Editar tarifas de facturación </td> 
   </tr> 
  </tbody> 
 </table>
@@ -82,21 +80,17 @@ Para sustituir una tarifa de facturación para un proyecto:
 
    O
 
-   <span class="preview">Haga clic en **Tarifas** en el panel izquierdo y luego haga clic en la ficha **Facturación** si aún no está seleccionada.</span>
+   Haga clic en **Tarifas** en el panel izquierdo y luego haga clic en la ficha **Facturación** si aún no está seleccionada.
 
-1. Haga clic en **Agregar tarifa de facturación** > **Nueva tarifa de facturación**.
-
-   O
-
-   <span class="preview">Haga Clic En **Agregar Tarifa De Facturación > Nueva Tarifa De Facturación De Rol**.</span>
+1. Haga clic en **Agregar tarifa de facturación > Nueva tarifa de facturación del rol**.
 
    Se abre la casilla Nueva tarifa de facturación.
 
 1. En el campo **Rol**, seleccione el rol para el cual desea cambiar la tarifa de facturación.
 
-1. <span class="preview">(Opcional) Seleccione cualquier atributo para la tarifa de facturación, como agencia o ubicación.</span>
+1. (Opcional) Seleccione cualquier atributo para la tasa de facturación, como agencia o ubicación.
 
-   <span class="preview">El administrador del sistema define los atributos de tarifa en el área de instalación.</span>
+   El administrador del sistema define los atributos de tasa en el área de Configuración.
 
 1. Seleccione la **Moneda** para la anulación de tarifa de facturación.
 1. En el campo **Tarifa de facturación**, ingresa la anulación de tarifa de facturación y luego haz clic en **Guardar** para anular la tarifa de facturación una vez

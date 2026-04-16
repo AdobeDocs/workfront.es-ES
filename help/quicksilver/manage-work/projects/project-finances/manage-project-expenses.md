@@ -6,10 +6,10 @@ description: El proceso de creación y administración de gastos es el mismo par
 author: Lisa
 feature: Work Management
 exl-id: 80c41b08-3618-4d6e-8d07-1736b2f824ea
-source-git-commit: 23a4d055871c9138818e70fa1cd936581dbd7552
+source-git-commit: f8e869f1ce8127d6ee095a58c84a94915df3acab
 workflow-type: tm+mt
-source-wordcount: '495'
-ht-degree: 36%
+source-wordcount: '496'
+ht-degree: 37%
 
 ---
 
@@ -30,7 +30,7 @@ La cantidad total de los gastos de todas las tareas y proyectos que contribuye a
  <col> 
  <tbody> 
   <tr> 
-   <td>paquete de Adobe Workfront</td> 
+   <td>Paquete de Adobe Workfront</td> 
    <td>Cualquiera</td> 
   </tr> 
   <tr> 
@@ -45,7 +45,7 @@ La cantidad total de los gastos de todas las tareas y proyectos que contribuye a
   </tr> 
   <tr> 
    <td>Permisos de objeto</td> 
-   <td>Aportar o permisos superiores al proyecto, con permisos para Ver o Administrar finanzas</td> 
+   <td>Aportar o permisos superiores al proyecto, con permisos para Ver o Editar finanzas generales</td> 
   </tr> 
  </tbody> 
 </table>

@@ -5,10 +5,10 @@ description: Además de configurar los ingresos y llevar el seguimiento de los g
 author: Lisa
 feature: Work Management
 exl-id: 6f17a892-7f64-4712-8ee2-7a1940b99be3
-source-git-commit: 8f6f14d4b36a9eee499111b1a37912f641c9f2ba
+source-git-commit: f8e869f1ce8127d6ee095a58c84a94915df3acab
 workflow-type: tm+mt
-source-wordcount: '1633'
-ht-degree: 39%
+source-wordcount: '1637'
+ht-degree: 38%
 
 ---
 
@@ -44,7 +44,7 @@ No puede crear registros de facturación para tareas; sólo puede crear registro
   </tr> 
   <tr> 
    <td>Permisos de objeto</td> 
-   <td>Permisos de administración para el proyecto con permisos para administrar finanzas</td> 
+   <td>Administre permisos para el proyecto con permisos para Editar tarifas de facturación y Finanzas generales</td> 
   </tr> 
  </tbody> 
 </table>

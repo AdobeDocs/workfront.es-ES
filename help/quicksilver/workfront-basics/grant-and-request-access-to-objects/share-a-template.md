@@ -6,10 +6,10 @@ description: Como administrador de Adobe Workfront, puede conceder a los usuario
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 19fb0de5-7db5-42a9-9f33-a4570acfeef8
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: e974adc053a076a4370aa0c4ec41fea700d836be
 workflow-type: tm+mt
-source-wordcount: '584'
-ht-degree: 27%
+source-wordcount: '611'
+ht-degree: 31%
 
 ---
 
@@ -147,6 +147,36 @@ La siguiente tabla muestra qué permisos puede conceder a los usuarios cuando le
    <td>  </td> 
    <td>✓</td> 
   </tr> 
+  <tr> 
+   <td>Ver tarifas de facturación</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+  </tr> 
+  <tr> 
+   <td>Ver tarifas de coste</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+  </tr> 
+  <tr> 
+   <td>Ver finanzas generales</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+  </tr> 
+  <tr> 
+   <td>Editar tarifas de facturación</td> 
+   <td>✓</td> 
+   <td>  </td> 
+  </tr> 
+  <tr> 
+   <td>Editar tarifas de coste</td> 
+   <td>✓</td> 
+   <td>  </td> 
+  </tr>
+  <tr> 
+   <td>Editar finanzas generales</td> 
+   <td>✓</td> 
+   <td>  </td> 
+  </tr>
   <tr data-mc-conditions=""> 
    <td> <p>Agregar documentos</p> <p>Sugerencia: A veces, las personas agregan documentos a una plantilla de proyecto pensando que los están agregando a un proyecto. Puede evitar esto para los destinatarios deshabilitando esta configuración.</p> </td> 
    <td>  </td> 

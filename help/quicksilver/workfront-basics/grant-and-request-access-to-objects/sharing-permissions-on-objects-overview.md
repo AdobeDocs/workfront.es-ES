@@ -6,10 +6,10 @@ description: Es posible compartir o quitar permisos de un objeto que creó o de 
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 7c14702e-ac55-4266-88a7-f31618f84218
-source-git-commit: 97f5adc8811a3be7be23137a82d10d45b76ec605
+source-git-commit: dec69522dd5f233bfabe84a9846b8e1246993a2a
 workflow-type: tm+mt
-source-wordcount: '1332'
-ht-degree: 82%
+source-wordcount: '1353'
+ht-degree: 80%
 
 ---
 
@@ -59,6 +59,8 @@ Es posible compartir los siguientes objetos en Workfront con otros usuarios:
    * [Compartir un informe de calendario](../../reports-and-dashboards/reports/calendars/share-a-calendar-report.md)
 
 * **Filtros, vistas y agrupaciones**: para obtener más información, consulte [Compartir filtros, vistas o agrupaciones](../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md).
+
+* **Tarjetas de tarifa**: Para obtener más información, consulte [Compartir una tarjeta de tarifa](/help/quicksilver/administration-and-setup/manage-enterprise-operations/share-rate-cards.md).
 
 * **Planes**: para obtener más información, consulte [Compartir planes en el Planificador de escenarios](../../scenario-planner/share-a-plan.md).
 
@@ -118,7 +120,7 @@ En la siguiente tabla se muestra el nivel de permisos que se pueden seleccionar 
      <li><p>Ver el objeto</p></li> 
      <li><p>Añadir documentos al objeto</p></li> 
      <li><p>Agregar problemas al objeto (si es una tarea o un proyecto)</p></li> 
-     <li><p>Ver información financiera sobre el objeto</p></li> 
+     <li><p>Ver tarifas de costo, tarifas de facturación o información financiera general sobre el objeto</p></li> 
      <li> <p>Compartir el objeto<br></p> <p>Cuando comparte el objeto, puede conceder a otros usuarios el mismo nivel de permiso que solo tiene en el objeto, no en un nivel superior.</p> </li> 
     </ul> </td> 
   </tr> 
@@ -140,7 +142,7 @@ En la siguiente tabla se muestra el nivel de permisos que se pueden seleccionar 
     <ul> 
      <li>Todas las acciones incluidas con los permisos de visualización y aportación</li> 
      <li>Eliminarlo</li> 
-     <li>Administrar información financiera en él</li> 
+     <li>Administrar las tarifas de costo, las tarifas de facturación o la información general de finanzas en él</li> 
     </ul> </td> 
   </tr> 
   <tr> 

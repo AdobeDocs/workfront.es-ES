@@ -6,9 +6,9 @@ description: El administrador de Adobe Workfront concede a los usuarios acceso p
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 91ee72e0-20a9-4b06-9f80-a343dd4fbe06
-source-git-commit: ddaecaf65fc7080e27ae67d6c8f4980586f1241e
+source-git-commit: e974adc053a076a4370aa0c4ec41fea700d836be
 workflow-type: tm+mt
-source-wordcount: '1263'
+source-wordcount: '1281'
 ht-degree: 25%
 
 ---
@@ -87,7 +87,7 @@ Además de las consideraciones siguientes, consulte [Información general sobre 
    * Especifique los permisos en cualquiera de los objetos principales del problema: proyecto, programa o portafolio. Los problemas heredan los permisos de sus objetos principales. Para obtener información acerca de cómo ver permisos heredados en objetos, consulte [Ver permisos heredados en objetos](../../workfront-basics/grant-and-request-access-to-objects/view-inherited-permissions-on-objects.md).
    * Agregue entidades al Uso compartido de proyectos en una plantilla utilizada para crear el proyecto en el que se encuentra el problema. Para obtener información sobre cómo compartir proyectos desde plantillas, consulte [Compartir una plantilla](../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md).
 
-   * Especifique los permisos sobre todos los problemas de un proyecto al editarlo. Para obtener información sobre cómo administrar el acceso a problemas o solicitudes en el proyecto en función de los permisos de un usuario para el proyecto, consulte la sección [&#128279;](../../manage-work/projects/manage-projects/edit-projects.md#access) en el artículo [Editar proyectos](../../manage-work/projects/manage-projects/edit-projects.md).
+   * Especifique los permisos sobre todos los problemas de un proyecto al editarlo. Para obtener información sobre cómo administrar el acceso a problemas o solicitudes en el proyecto en función de los permisos de un usuario para el proyecto, consulte la sección [](../../manage-work/projects/manage-projects/edit-projects.md#access) en el artículo [Editar proyectos](../../manage-work/projects/manage-projects/edit-projects.md).
 
      >[!TIP]
      >
@@ -346,6 +346,24 @@ En la tabla siguiente se muestran los permisos que puede otorgar a los usuarios 
    <td>  </td> 
    <td>✓</td> 
   </tr> 
+  <tr> 
+   <td> <p>Ver tarifas de facturación*</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
+  </tr>
+  <tr> 
+   <td> <p>Ver tarifas de costo*</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
+  </tr>
+  <tr> 
+   <td> <p>Ver finanzas generales*</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
+  </tr>
  </tbody> 
 </table>
 

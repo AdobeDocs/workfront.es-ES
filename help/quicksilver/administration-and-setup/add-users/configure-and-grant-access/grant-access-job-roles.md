@@ -1,20 +1,18 @@
 ---
 title: Conceder acceso a los roles
 description: Como administrador de Adobe Workfront, puede definir el acceso de un usuario a las funciones del puesto en Workfront a través de su nivel de acceso.
-author: Becky and Lisa
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: a5ba79da-37f3-43f8-a7e2-4ccd75b56fef
-source-git-commit: c0cb423c73a6b0e982081ae67ffef6316b03db7f
+source-git-commit: e3d4ffe2d42f9de3000df0ba1a924ca36fea9248
 workflow-type: tm+mt
-source-wordcount: '343'
-ht-degree: 37%
+source-wordcount: '379'
+ht-degree: 34%
 
 ---
 
 # Conceder acceso a las funciones del puesto
-
-{{highlighted-preview-article-level}}
 
 Como administrador de Adobe Workfront, puede definir el acceso de un usuario a los roles a través del nivel de acceso del usuario, tal como se explica en [Información general sobre los niveles de acceso](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
 
@@ -59,14 +57,20 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
 
    ![Ajustar el acceso al rol](assets/job-role-access-view-fine-tune.png)
 
-   Los usuarios con acceso para **Ver** pueden ver los roles existentes y, opcionalmente, ver las tarifas de facturación de los roles de trabajo, las tarifas de costo y las finanzas generales.
+   Los usuarios con acceso para **Ver** pueden ver los roles existentes y, opcionalmente, hacer lo siguiente:
+
+   * Ver tarifas de facturación en los roles de trabajo
+   * Ver tasas de costo en roles de trabajo
+   * Ver campos de finanzas generales (no relacionados con las tarifas de facturación o de costo) en los roles del puesto
 
    Los usuarios con acceso para **Editar** pueden ver y editar los roles existentes y, opcionalmente, hacer lo siguiente:
 
    * Crear nuevas funciones
    * Eliminar funciones
-   * Ver tarifas de facturación de rol, tarifas de costo y finanzas generales
-   * Editar tarifas de facturación de rol, tarifas de costo y finanzas generales
+   * Editar tarifas de facturación en roles de trabajo
+   * Editar las tasas de coste en los roles
+   * Editar campos de finanzas generales (no relacionados con las tarifas de facturación o de costo) en los roles del puesto
+   * Ver campos de tarifas de facturación de rol, tarifas de costo y finanzas generales
 
 1. (Opcional) Para establecer la configuración de acceso para otros objetos y áreas en el nivel de acceso en el que está trabajando, continúe con uno de los artículos enumerados en [Configurar el acceso a Adobe Workfront](../../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md), como [Conceder acceso a tareas](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md).
 1. Cuando termine, haga clic en **Guardar**.

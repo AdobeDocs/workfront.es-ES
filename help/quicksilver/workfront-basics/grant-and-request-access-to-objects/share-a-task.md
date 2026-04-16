@@ -6,10 +6,10 @@ description: El administrador de Adobe Workfront puede otorgarle acceso para ver
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 45da15cb-8880-41f7-a0de-939882c1f154
-source-git-commit: ddaecaf65fc7080e27ae67d6c8f4980586f1241e
+source-git-commit: e974adc053a076a4370aa0c4ec41fea700d836be
 workflow-type: tm+mt
-source-wordcount: '1222'
-ht-degree: 45%
+source-wordcount: '1244'
+ht-degree: 44%
 
 ---
 
@@ -90,7 +90,7 @@ Puede compartir una tarea de las siguientes maneras:
    * Especifique los permisos en cualquiera de los objetos principales de la tarea: proyecto, programa o portafolio. Las tareas heredan los permisos de sus objetos principales. Para obtener información acerca de cómo ver permisos heredados en objetos, vea [Ver permisos heredados en objetos](../../workfront-basics/grant-and-request-access-to-objects/view-inherited-permissions-on-objects.md).
    * Añada entidades a Uso compartido de proyectos en una plantilla utilizada para crear el proyecto en el que se encuentra la tarea. Para obtener información sobre cómo compartir proyectos desde plantillas, vea [Compartir una plantilla](../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md).
 
-   * Especifique los permisos en todas las tareas de un proyecto cuando edite el proyecto.  Para obtener información sobre cómo administrar el acceso a las tareas del proyecto en función de los permisos de un usuario para el proyecto, consulte la sección [&#128279;](../../manage-work/projects/manage-projects/edit-projects.md#access) en el artículo [Editar proyectos](../../manage-work/projects/manage-projects/edit-projects.md).
+   * Especifique los permisos en todas las tareas de un proyecto cuando edite el proyecto.  Para obtener información sobre cómo administrar el acceso a las tareas del proyecto en función de los permisos de un usuario para el proyecto, consulte la sección [](../../manage-work/projects/manage-projects/edit-projects.md#access) en el artículo [Editar proyectos](../../manage-work/projects/manage-projects/edit-projects.md).
 
   >[!TIP]
   >
@@ -299,11 +299,23 @@ La siguiente tabla muestra qué permisos puede conceder a los usuarios cuando se
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td scope="row">Editar finanzas*</td> 
-   <td>✓</td> 
-   <td>  </td> 
-   <td>  </td> 
+   <td> <p>Editar tarifas de facturación*</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>  </p> </td> 
+   <td> <p>  </p> </td> 
   </tr> 
+  <tr> 
+   <td> <p>Editar tarifas de costo*</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>  </p> </td> 
+   <td> <p>  </p> </td> 
+  </tr>
+  <tr> 
+   <td> <p>Editar finanzas generales*</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>  </p> </td> 
+   <td> <p>  </p> </td> 
+  </tr>
   <tr> 
    <td scope="row">Añadir o editar gastos</td> 
    <td>✓</td> 
@@ -311,10 +323,22 @@ La siguiente tabla muestra qué permisos puede conceder a los usuarios cuando se
    <td>  </td> 
   </tr> 
   <tr> 
-   <td scope="row">Ver finanzas</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td> <p>Ver tarifas de facturación*</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
+  </tr>
+  <tr> 
+   <td> <p>Ver tarifas de costo*</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
+  </tr>
+  <tr> 
+   <td> <p>Ver finanzas generales*</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
   </tr> 
   <tr> 
    <td scope="row">Actualizaciones/comentarios</td> 
