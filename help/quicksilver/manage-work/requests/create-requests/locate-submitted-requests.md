@@ -10,10 +10,10 @@ role: User
 exl-id: cfa2383a-9594-4867-9b48-11b8ea281486
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: ca8f1375d641531eaf11e3889ccb67a6fbe1788f
+source-git-commit: a6c2bc4127a52fad209004995ea2262fa64c240d
 workflow-type: tm+mt
-source-wordcount: '1441'
-ht-degree: 41%
+source-wordcount: '1377'
+ht-degree: 42%
 
 ---
 
@@ -21,11 +21,11 @@ ht-degree: 41%
 
 <!--
 Remove production and preview references at release
+
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 -->
-
-<span class="preview">La información resaltada en esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa para todos los clientes. Después de las versiones mensuales en Production, las mismas funciones también están disponibles en el entorno Production para los clientes que habilitaron versiones rápidas. </span>
-
-<span class="preview">Para obtener información sobre las versiones rápidas, consulte [Habilitar o deshabilitar las versiones rápidas para su organización](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 Puede ver las solicitudes que usted u otra persona ha enviado, o las solicitudes que ha iniciado pero que nunca ha terminado de enviar. Las solicitudes no finalizadas se guardarán como borradores.
 
@@ -112,7 +112,7 @@ Puede ver las solicitudes enviadas en el área de Solicitudes y en el widget Mis
 >
 >* Solicitudes de Planning y Workfront en el campo Asunto.
 >* Registros de Planning creados a partir de solicitudes de Planning en el campo Objeto creado.
->* <span class="preview">Las tareas y problemas de Workfront se convirtieron desde solicitudes de Workfront en el campo Objeto creado, en el entorno de vista previa. </span>
+>* Las tareas y problemas de Workfront se convirtieron desde solicitudes de Workfront en el campo Objeto creado.
 
 Para ver las solicitudes que usted u otros usuarios han enviado en la nueva experiencia de solicitud:
 
@@ -128,14 +128,9 @@ Para ver las solicitudes que usted u otros usuarios han enviado en la nueva expe
    * Ver
    * Filtro
    * Columnas
-
-   <div class="preview">
-
-   * **Agrupación**
+   * Agrupación
    * Formatear celdas
    * Altura de la fila
-
-   </div>
 
    Para obtener más información sobre la administración de información en la lista de solicitudes, vea [Usar listas mejoradas](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
 

@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 1c7e6973-6e9e-4c93-9d3b-89ed90df9d14
 last-update: 2026-04-01T18:23:03Z
 git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
-source-git-commit: f4d7484145226eb85bc547e582438e5202dec023
+source-git-commit: a6c2bc4127a52fad209004995ea2262fa64c240d
 workflow-type: tm+mt
-source-wordcount: '1857'
+source-wordcount: '1791'
 ht-degree: 1%
 
 ---
@@ -22,9 +22,11 @@ ht-degree: 1%
 although list views in Planning are very similar to Workfront enhanced lists, keep this one separate with all the information, because of Planning standalone; some information here is also duplicated in this main Glist article: help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md
 -->
 
-<span class="preview">La información resaltada en esta página hace referencia a funcionalidades que aún no están disponibles de forma general. Solo está disponible en el entorno de vista previa para todos los clientes. Después de las versiones mensuales en Production, las mismas funciones también están disponibles en el entorno Production para los clientes que habilitaron versiones rápidas. </span>
+<!--
+<span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Para obtener información sobre las versiones rápidas, consulte [Habilitar o deshabilitar las versiones rápidas para su organización](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -158,15 +160,13 @@ Removed - more direct steps below:
       >
       >* No puede modificar Vistas del sistema.
       >
-      >* <span class="preview">Puede restablecer una vista que se compartió con usted y para la que sólo tiene permisos de vista, después de modificarla para restaurar sus preferencias originales, o bien puede copiarla con sus cambios y compartir la copia. Para obtener más información, consulte [Usar listas mejoradas](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md). </span>
+      >* Puede restablecer una vista que se haya compartido con usted y para la que solo tenga permisos de Vista, después de modificarla para restaurar sus preferencias originales, o puede copiarla con los cambios y compartir la copia. Para obtener más información, consulte [Usar listas mejoradas](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
 
    1. Haga clic en el icono **Filtro** ![Icono de filtro](assets/filter-icon.png) para agregar un filtro a la vista. Los resultados se filtran inmediatamente en la lista. No puede guardar los filtros de nombre. Los filtros se recuerdan cuando acceda a la página en el futuro y forman parte de vistas compartidas.
 
       >[!TIP]
       >
-      ><span class="preview">Para aplicar un filtro personalizado, seleccione una de las siguientes opciones para un valor de campo:
-      >
-      ><div class="preview">
+      >Para aplicar un filtro personalizado, seleccione una de las siguientes opciones para un valor de campo:
       >
       >* **Yo (usuario conectado)** para hacer referencia al usuario conectado en los campos que hacen referencia a los usuarios.
       >
@@ -177,8 +177,6 @@ Removed - more direct steps below:
       >* **Mi compañía** para hacer referencia a su compañía en campos que hacen referencia a compañías.
       > 
       >* **Mis roles** o **Mi rol principal** para hacer referencia a sus roles en los campos que hacen referencia a los roles.
-      >
-      ></div>
 
    1. Haga clic en el icono **Columnas** ![Icono de columnas](assets/columns-icon.png) para seleccionar qué columnas mostrar u ocultar en la vista.
    1. Pase el ratón sobre el nombre de una columna, haga clic en la flecha hacia abajo situada a la izquierda del nombre de la columna y, a continuación, haga clic en una de las siguientes opciones:
@@ -191,58 +189,54 @@ Removed - more direct steps below:
       Solo se pueden agregar campos existentes a la vista de lista.
 No se puede quitar el campo principal en la vista de lista que aparece en la primera columna.
 
-   1. <span class="preview">Haga clic en el icono **Formato de celdas** ![Formato de celdas](assets/format-cells-icon.png). Se abre el cuadro **Formato**.</span> <!--change the name of the box when they update it-->
-      <span class="preview">Haga lo siguiente: </span>
+   1. Haga clic en el icono **Formato de celdas** ![Formato de celdas](assets/format-cells-icon.png). Se abre el cuadro **Formato**. <!--change the name of the box when they update it-->
+Haga lo siguiente:
 
-      1. <span class="preview">Haga clic en **Agregar condición**.</span>
-      1. <span class="preview">En la línea **If**, seleccione un campo, elija un valor de campo y agregue un modificador. Los modificadores cambian según el tipo de campo elegido. </span>
-
-         >[!TIP]
-         >
-         ><span class="preview">Solo los campos visibles en la vista de lista están disponibles para el formato condicional.</span>
-
-      1. <span class="preview">(Opcional) En lugar de agregar un valor de campo, haga clic en el icono **Comparar con otro campo** ![Comparar con otro campo](assets/compare-to-another-field-icon.png) y elija un campo cuyo valor desee comparar con el valor del campo seleccionado. Por ejemplo, puede comparar los campos Propietario del proyecto y Patrocinador del proyecto. </span>
+      1. Haga clic en **Agregar condición**.
+      1. En la línea **If**, seleccione un campo, elija un valor de campo y agregue un modificador. Los modificadores cambian según el tipo de campo elegido.
 
          >[!TIP]
          >
-         ><span class="preview">Solo los campos visibles en la vista de lista están disponibles para el formato condicional. Los campos que compare deben ser del mismo tipo. </span>
+         >Solo los campos visibles en la vista de lista están disponibles para el formato condicional.
 
-      1. <span class="preview">(Opcional) Haga clic en **Agregar condición** en la línea **If** para agregar más condiciones a la misma regla.</span>
+      1. (Opcional) En lugar de agregar un valor de campo, haga clic en el icono **Comparar con otro campo** ![Comparar con otro campo](assets/compare-to-another-field-icon.png) y elija un campo cuyo valor desee comparar con el valor del campo seleccionado. Por ejemplo, puede comparar los campos Propietario del proyecto y Patrocinador del proyecto.
 
          >[!TIP]
          >
-         ><span class="preview">Puede agregar hasta 10 condiciones en una regla de condicionamiento y hasta 20 reglas para un campo.</span>
+         >Solo los campos visibles en la vista de lista están disponibles para el formato condicional. Los campos que compare deben ser del mismo tipo.
 
-      1. <span class="preview">Haga clic en el conector **Or** entre condiciones para cambiar a **And** e indicar que se deben cumplir varias condiciones al mismo tiempo. **Or** es el conector predeterminado.</span>
-      1. <span class="preview">En la línea **Formato**, seleccione un campo para indicar a qué columna se dará formato.</span> <!--edit this area, if it changes names??-->
-      1. <span class="preview">(Opcional) Haga clic en el icono **círculo de color** ![icono de círculo de color](assets/color-circle.png) junto al campo seleccionado, para expandirlo y elegir otro color en el área **Relleno de celda** para cambiar el color del fondo de una celda o elegir un color del área **Color de texto** para cambiar el color del texto de una celda.</span>
-      1. <span class="preview">Haga clic en el icono **Formato de texto** ![Icono de formato de texto](assets/text-format-icon.png) y seleccione una de las siguientes opciones para dar formato al texto de una celda:</span>
-         * <span class="preview">Negrita</span>
-         * <span class="preview">Cursiva</span>
+      1. (Opcional) Haga clic en **Agregar condición** en la línea **If** para agregar más condiciones a la misma regla.
 
-      1. <span class="preview">Active la opción **Aplicar a la fila** para aplicar el formato a toda la fila del campo que cumpla las condiciones.</span>
-      1. <span class="preview">(Opcional) Haga clic en **Agregar condición** en el cuadro **Formato** para agregar otra regla para otro campo y, a continuación, repita los pasos anteriores.</span>
-      1. <span class="preview">(Opcional) Haga clic en **Borrar todo** para quitar todo el formato.</span>
-      1. <span class="preview">Haga clic fuera del cuadro **Formato** para cerrarlo.</span>
+         >[!TIP]
+         >
+         >Puede agregar hasta 10 condiciones en una regla de condicionamiento y hasta 20 reglas para un campo.
 
-         <span class="preview">Esto le devuelve a la vista de lista.</span>
-         <span class="preview">El formato se aplica inmediatamente a la vista de lista.</span>
-         <span class="preview">Hay un punto azul al lado del icono **Formato de celdas** para indicar que la vista tiene un formato especial aplicado.</span>
+      1. Haga clic en el conector **Or** entre condiciones para cambiar a **And** e indicar que se deben cumplir varias condiciones al mismo tiempo. **Or** es el conector predeterminado.
+      1. En la línea **Format**, seleccione un campo para indicar a qué columna se dará formato. <!--edit this area, if it changes names??-->
+      1. (Opcional) Haga clic en el icono **círculo de color** ![icono de círculo de color](assets/color-circle.png) junto al campo seleccionado, para expandirlo y elegir otro color en el área **Relleno de celda** para cambiar el color del fondo de una celda o elegir un color del área **Color de texto** para cambiar el color del texto de una celda.
+      1. Haga clic en el icono **Formato de texto** ![Icono de formato de texto](assets/text-format-icon.png) y seleccione una de las siguientes opciones para dar formato al texto en una celda:
+         * Negrita
+         * Cursiva
 
-   1. <span class="preview">(Opcional) Haga clic en el icono **Agrupación** ![Icono de agrupación](assets/grouping-icon.png) &lt;!-lo han actualizado a &quot;Agrupación&quot;??-> para agrupar los elementos de la lista por un campo común. Seleccione una de las opciones o utilice la barra de búsqueda para buscar un campo.</span>
+      1. Active la opción **Aplicar a fila** para aplicar el formato a toda la fila del campo que cumpla las condiciones.
+      1. (Opcional) Haga clic en **Agregar condición** en el cuadro **Formato** para agregar otra regla para otro campo y, a continuación, repita los pasos anteriores.
+      1. (Opcional) Haga clic en **Borrar todo** para quitar todo el formato.
+      1. Haga clic fuera del cuadro **Formato** para cerrarlo.
 
-      <span class="preview">El campo debe ser una columna de la lista para poder agruparlo. No se pueden usar todos los tipos de campo para las agrupaciones.</span>
+         Esto le devuelve a la vista de lista.
+El formato se aplica inmediatamente a la vista de lista.
+Hay un punto azul al lado del icono **Formato de celdas** para indicar que la vista tiene un formato especial aplicado.
 
-   1. <span class="preview">Haga clic en el icono **Altura de fila** ![Icono de altura de fila](assets/row-height-icon.png) para actualizar la longitud vertical de una fila. Elija entre las siguientes opciones: </span>
+   1. (Opcional) Haga clic en el icono **Agrupación** ![Icono de agrupación](assets/grouping-icon.png) <!--have they updated this to "Grouping"??--> para agrupar los elementos de la lista por un campo común. Seleccione una de las opciones o utilice la barra de búsqueda para buscar un campo.
 
-      <div class="preview">
+      El campo debe ser una columna de la lista para poder agrupar por él. No todos los tipos de campo se pueden usar para agrupaciones.
+
+   1. Haga clic en el icono **Alto de fila** ![Icono de alto de fila](assets/row-height-icon.png) para actualizar la longitud vertical de una fila. Elija entre las siguientes opciones:
 
       * Baja
       * Estándar. Esta es la opción predeterminada.
       * Media
       * Alta
-
-      </div>
 
    <!--leave these here, although they duplicate for Enhanced lists in Workfront-->
 
