@@ -7,10 +7,10 @@ description: El índice de rendimiento de costes (CPI) describe la relación en 
 author: Lisa
 feature: Work Management
 exl-id: 7f2efe26-7292-482d-986c-2d2077a7ca52
-source-git-commit: f88b6ec019963ff6256e35b9c94eb4d1b7e99730
+source-git-commit: 8cfb8ff3a2af48ea6ef08ce7ad4ef129b4cbac37
 workflow-type: tm+mt
-source-wordcount: '583'
-ht-degree: 88%
+source-wordcount: '584'
+ht-degree: 86%
 
 ---
 
@@ -50,7 +50,7 @@ Solo las organizaciones que requieren la introducción de tiempo pueden utilizar
   </tr> 
   <tr> 
    <td>Permisos de objeto</td> 
-   <td>Permisos de visualización o superiores al proyecto con permisos para Ver finanzas</td> 
+   <td>Ver o permisos superiores del proyecto con permisos para Ver finanzas generales</td> 
   </tr> 
  </tbody> 
 </table>

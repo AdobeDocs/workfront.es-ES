@@ -7,10 +7,10 @@ description: El Índice de rendimiento del horario (SPI) describe la relación e
 author: Lisa
 feature: Work Management
 exl-id: 38259774-f22b-4b69-9e22-5b541118a7de
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: 8cfb8ff3a2af48ea6ef08ce7ad4ef129b4cbac37
 workflow-type: tm+mt
-source-wordcount: '396'
-ht-degree: 21%
+source-wordcount: '397'
+ht-degree: 25%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 21%
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Linked to the product. Do not change link.)</p>
 -->
 
-El Índice de rendimiento del horario (SPI) describe la relación entre la programación planificada y la programación real. Adobe Workfront calcula el SPI en los niveles de proyecto y tarea. Los jefes de proyecto revisan esta métrica para identificar si las tareas o los proyectos están realizando un seguimiento con antelación o retraso respecto a la programación.
+El Índice de rendimiento del horario (SPI) describe la relación entre la programación planificada y la programación real. Adobe Workfront calcula el SPI en los niveles de proyecto y tarea. Los gestores de proyecto revisan esta métrica para identificar si las tareas o los proyectos están realizando un seguimiento con antelación o retraso respecto a la programación.
 
 ## Requisitos de acceso
 
@@ -46,7 +46,7 @@ El Índice de rendimiento del horario (SPI) describe la relación entre la progr
   </tr> 
   <tr> 
    <td>Permisos de objeto</td> 
-   <td>Permisos de visualización o superiores al proyecto con permisos para Ver finanzas</td> 
+   <td>Ver o permisos superiores del proyecto con permisos para Ver finanzas generales</td> 
   </tr> 
  </tbody> 
 </table>

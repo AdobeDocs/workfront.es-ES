@@ -7,10 +7,10 @@ description: Como métrica de rendimiento, Estimar al finalizar (EAC) representa
 author: Lisa
 feature: Work Management
 exl-id: 9061fa56-cff3-4fe2-866e-1fdda9d43efc
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: 8cfb8ff3a2af48ea6ef08ce7ad4ef129b4cbac37
 workflow-type: tm+mt
-source-wordcount: '825'
-ht-degree: 79%
+source-wordcount: '826'
+ht-degree: 77%
 
 ---
 
@@ -48,7 +48,7 @@ Como configuración, le permite definir cómo se debe calcular el valor EAC.
   </tr> 
   <tr> 
    <td>Permisos de objeto</td> 
-   <td>Permisos de visualización o superiores al proyecto con permisos para Ver finanzas</td> 
+   <td>Ver o permisos superiores del proyecto con permisos para Ver finanzas generales</td> 
   </tr> 
  </tbody> 
 </table>

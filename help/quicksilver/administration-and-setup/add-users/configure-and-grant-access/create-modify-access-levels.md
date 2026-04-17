@@ -10,10 +10,10 @@ role: Admin
 exl-id: d2a73d24-51d3-42e2-9c09-7f4bc30b2caa
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 28178c3794832e14552d988259c1792a6fed1da1
+source-git-commit: 8cfb8ff3a2af48ea6ef08ce7ad4ef129b4cbac37
 workflow-type: tm+mt
-source-wordcount: '1590'
-ht-degree: 88%
+source-wordcount: '1423'
+ht-degree: 86%
 
 ---
 
@@ -124,17 +124,6 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
        </ul><p><b>NOTA</b>: Esto no permite al usuario crear nuevos tipos de gastos.</p></td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Roles</td> 
-      <td> Con este acceso, el usuario puede hacer lo siguiente: 
-       <ul> 
-        <li>Ver y editar las funciones existentes</li> 
-        <li>Añadir más funciones</li> 
-        <li>Editar las tarifas de facturación y de costes de funciones</li> 
-       </ul> 
-       <p>Para obtener información importante sobre el acceso a los datos financieros disponibles para un usuario con licencia estándar o de planificador y acceso administrativo a las funciones, consulte <a href="#standard-or-planner-users-with-administrative-access-to-job-roles">Usuarios con licencia estándar o de planificador y acceso administrativo a las funciones</a>.</p>
-      </td> 
-     </tr> 
-     <tr> 
       <td role="rowheader">Hitos de mi grupo</td> 
       <td>Vea todas las rutas de hitos del sistema en el menú Rutas de hitos en Configuración. Los usuarios también pueden editar o eliminar cualquier ruta de hitos que pertenezca a cualquiera de sus grupos. Los usuarios no pueden administrar (editar o eliminar) las rutas de hitos que no estén asignadas a sus grupos.<p>Sin este acceso, los usuarios solo pueden ver las rutas de hitos existentes y aplicarlas a los proyectos a los que tienen acceso para administrar.</p></td> 
      </tr> 
@@ -226,13 +215,29 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
 
    Para obtener información sobre cómo un administrador de Adobe asigna un nivel de acceso de administrador del sistema a un usuario, consulte [Conceder a un usuario acceso administrativo completo](../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md).
 
-## Usuarios Estándar o Planificador con acceso administrativo a las funciones {#planner-users}
+<!--
 
-Si concede a un usuario Estándar o Planificador acceso administrativo a las funciones, la configuración Editar tarifas de facturación y de costes de funciones se habilita automáticamente para el usuario.
+## Standard or Planner users with administrative access to job roles {#planner-users}
 
-Posteriormente, si deshabilita el acceso administrativo a las funciones para el usuario, las funciones aún serán visibles para el usuario porque la opción Editar tarifas de facturación y de costes de funciones aún está habilitada.
+If you grant a Standard or Planner user administrative access to job roles, the Edit Role Billing &amp; Cost Rates setting is automatically enabled for the user automatically.
 
-Si esto sucede y necesita eliminar el acceso del usuario para ver las funciones, debe deshabilitar la configuración del permiso del usuario Editar tarifas de facturación y de costo de rol. Para obtener más instrucciones, consulte [Concesión de acceso a los datos financieros](grant-access-financial.md).
+Later, if you disable administrative access to job roles for the user, job roles are still visible to the user because the Edit Role Billing &amp; Cost Rates setting is still enabled.
 
+If this happens and you need to remove the user's access to view job roles, you need to disable the user's Edit Role Billing &amp; Cost Rates permission setting. For instructions, see [Grant access to financial data](grant-access-financial.md).
+
+
+     <tr> 
+      <td role="rowheader">Job roles</td> 
+      <td> With this access, the user is allowed to do the following: 
+       <ul> 
+        <li>View and edit existing job roles</li> 
+        <li>Add new job roles</li> 
+        <li>Edit role billing and cost rates</li> 
+       </ul> 
+       <p>For important information about access to financial data that is available to a Standard or Planner user with administrative access to job roles, see <a href="#standard-or-planner-users-with-administrative-access-to-job-roles">Standard or Planner users with administrative access to job roles</a>.</p>
+      </td> 
+     </tr> 
+
+-->
 
 
