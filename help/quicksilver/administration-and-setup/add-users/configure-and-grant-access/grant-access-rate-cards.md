@@ -8,7 +8,7 @@ author: Becky and Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: b21e65d3-3c9f-4f3d-95d3-de4c09199622
-source-git-commit: 627d59c8c8296e5b6c8b6da53705a1c3d7633751
+source-git-commit: 85399542ce8e92de6da5a1de0960194e72958987
 workflow-type: tm+mt
 source-wordcount: '376'
 ht-degree: 49%
@@ -16,8 +16,6 @@ ht-degree: 49%
 ---
 
 # Conceder acceso a las tarjetas de tarifa
-
-{{highlighted-preview-article-level}}
 
 Como administrador de Adobe Workfront, puede definir el acceso de un usuario a las tarjetas de tarifa a través del nivel de acceso del usuario, tal como se explica en [Información general sobre los niveles de acceso](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
 
