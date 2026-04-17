@@ -6,10 +6,10 @@ description: Adobe Workfront puede generar una URL única para la vista de usuar
 author: Lisa
 feature: Resource Management
 exl-id: feb2ec26-f1a6-4581-9e1d-be948a2170c3
-source-git-commit: 987b6e9b5f6b1feb323906cf7c24f5024fc84663
+source-git-commit: b78b86806e5c3c1e6d0662fea0e1a11f97ef032e
 workflow-type: tm+mt
-source-wordcount: '637'
-ht-degree: 95%
+source-wordcount: '649'
+ht-degree: 90%
 
 ---
 
@@ -29,7 +29,7 @@ Adobe Workfront puede generar una URL única para la vista de usuario del planif
  <tbody> 
   <tr> 
   <tr> 
-   <td>paquete de Adobe Workfront</td> 
+   <td>Paquete de Adobe Workfront</td> 
    <td><p>Cualquiera</p></td>
   </tr> 
   <tr> 
@@ -39,7 +39,7 @@ Adobe Workfront puede generar una URL única para la vista de usuario del planif
   </tr> 
   <tr> 
    <td>Configuraciones de nivel de acceso</td> 
-   <td> <p>Acceso de visualización o superior a Administración de recursos, Proyectos y Usuarios</p> <p>Ver acceso a datos financieros para ver información de costes</p></td> 
+   <td> <p>Acceso de visualización o superior a Administración de recursos, Proyectos y Usuarios</p> <p>Permite ver el acceso a los datos financieros, que incluye el acceso a Ver tasas de coste y Ver finanzas generales, para ver información de costes</p></td> 
   </tr> 
   <tr> 
    <td>Permisos de objeto</td> 
@@ -55,7 +55,7 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
 Tenga en cuenta lo siguiente al generar la URL única para la vista de usuario del planificador de recursos:
 
 * Solo puede obtener una URL única para la vista de usuario. La opción para generar la dirección URL no existe en las vistas de proyectos o roles.
-* Puede compartir la dirección URL con otros usuarios, incluidos los usuarios con licencia de trabajar y revisar.\
+* Puede compartir la dirección URL con otros usuarios, incluidos los usuarios con licencia de Trabajo, Colaborador y Revisar.\
   Deben tener acceso para ver a otros usuarios con el fin de visualizar la información en el Planificador de Recursos desde la URL que compartas con ellos.
 * La siguiente información se guarda al compartir la dirección URL con otros usuarios:
 

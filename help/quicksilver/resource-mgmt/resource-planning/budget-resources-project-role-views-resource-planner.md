@@ -6,14 +6,14 @@ description: Puede presupuestar recursos en el Planificador de recursos de Adobe
 author: Lisa
 feature: Resource Management
 exl-id: b1b48529-68e7-4aee-aaa1-d78e91fbb39c
-source-git-commit: 987b6e9b5f6b1feb323906cf7c24f5024fc84663
+source-git-commit: b78b86806e5c3c1e6d0662fea0e1a11f97ef032e
 workflow-type: tm+mt
-source-wordcount: '2098'
-ht-degree: 5%
+source-wordcount: '2109'
+ht-degree: 6%
 
 ---
 
-# Presupuestar recursos en el Planificador de recursos utilizando las vistas Proyecto y Rol
+# Recursos de presupuesto en el planificador de recursos usando las vistas de proyecto y función
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: broken off of another larger article (Planning in the RP); reformat, restructure, relink)</p>
@@ -40,7 +40,7 @@ Antes de comenzar a presupuestar información en el Planificador de recursos, co
  <col> 
  <tbody> 
   <tr> 
-   <td>paquete de Adobe Workfront</td> 
+   <td>Paquete de Adobe Workfront</td> 
    <td><p>Cualquiera</p></td>
   </tr> 
   <tr> 
@@ -50,7 +50,7 @@ Antes de comenzar a presupuestar información en el Planificador de recursos, co
   </tr> 
   <tr> 
    <td>Configuraciones de nivel de acceso</td> 
-   <td> <p>Acceso de edición a la administración de recursos que incluye acceso a Editar prioridades y horas presupuestadas en el Planificador de recursos</p> <p>Editar acceso a datos financieros para presupuestar recursos por costo</p> <p>Editar el acceso a Proyectos y Usuarios</p></td> 
+   <td> <p>Acceso de edición a la administración de recursos que incluye acceso a Editar prioridades y horas presupuestadas en el Planificador de recursos</p> <p>Editar acceso a datos financieros que incluye acceso a Editar tasas de costo y Editar finanzas generales, para presupuestar recursos por costo</p> <p>Editar el acceso a Proyectos y Usuarios</p></td> 
   </tr> 
   <tr> 
    <td>Permisos de objeto</td> 
@@ -104,7 +104,7 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
 
    * Haga clic en el menú **Más** del proyecto y, a continuación, haga clic en **Establecer horas planificadas de roles según lo presupuestado**.\
      Las horas presupuestadas de cada rol se calculan con la siguiente fórmula:\
-     &#x200B;*
+     *
 
      `Role Budgeted Hours = Role Planned Hours`
 
@@ -153,7 +153,7 @@ Debe tener acceso de edición a los permisos de administración de recursos y da
 
 Para obtener información sobre el acceso necesario para los recursos de presupuesto, consulte el artículo [Acceso necesario para presupuestar recursos en Adobe Workfront](../../resource-mgmt/resource-planning/access-needed-to-budget-resources.md).
 
-Para presupuestar asignaciones en el Planificador de recursos en la vista **&#x200B;**&#x200B;roles:
+Para presupuestar asignaciones en el Planificador de recursos en la vista **** roles:
 
 1. Haga clic en el icono **Menú principal** ![Icono del menú principal](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront.
 
@@ -174,8 +174,8 @@ Para presupuestar asignaciones en el Planificador de recursos en la vista **&#x2
    * En la columna **BDG**, especifique manualmente un número de horas presupuestadas, ETC o costo para los roles.\
      Esto distribuye las horas presupuestadas de función a las horas presupuestadas de proyecto de los proyectos a los que tiene acceso para administrar.
 
-   * Haga clic en el menú **Más** para el rol y luego haga clic en **Establecer horas planificadas de proyectos según lo presupuestado&quot;.**&#x200B;Las horas presupuestadas de la función se calculan con la siguiente fórmula:\
-     &#x200B;*
+   * Haga clic en el menú **Más** para el rol y luego haga clic en **Establecer horas planificadas de proyectos según lo presupuestado&quot;.**Las horas presupuestadas de la función se calculan con la siguiente fórmula:\
+     *
 
      `Role Budgeted Hours = SUM(Project Budgeted Hours)`
 

@@ -6,10 +6,10 @@ description: Los proyectos se muestran en orden de prioridad en el Planificador 
 author: Lisa
 feature: Resource Management
 exl-id: fe9c8cf9-f1e0-4cd5-9299-0f04893d71a5
-source-git-commit: 8cd6c47acf8de313bab5fe7298125eb63cc10faf
+source-git-commit: b78b86806e5c3c1e6d0662fea0e1a11f97ef032e
 workflow-type: tm+mt
-source-wordcount: '1282'
-ht-degree: 96%
+source-wordcount: '1302'
+ht-degree: 93%
 
 ---
 
@@ -36,11 +36,12 @@ Los proyectos se muestran en orden de prioridad en el Planificador de recursos, 
   </tr> 
   <tr> 
    <td>Configuraciones de nivel de acceso</td> 
-   <td> <p>Acceso de edición a la administración de recursos que incluye acceso a Editar prioridades y horas presupuestadas en el Planificador de recursos</p> <p>Acceso de edición a datos financieros, proyectos y usuarios</p></td> 
+   <td> <p>Acceso de edición a la administración de recursos que incluye acceso a Editar prioridades y horas presupuestadas en el Planificador de recursos</p> <p>Editar acceso a datos financieros que incluye acceso a Editar tasas de coste y Editar finanzas generales</p>
+    <p>Editar el acceso a Proyectos y Usuarios</p></td> 
   </tr> 
   <tr> 
    <td>Permisos de objeto</td> 
-   <td> <p>Permisos de administración a los proyectos para los que desea presupuestar información con capacidad de Administrar finanzas</p></td>
+   <td> <p>Administre permisos a los proyectos para los que desea presupuestar información con la capacidad de Editar tasas de costo y Editar finanzas generales</p></td>
   </tr> 
  </tbody> 
 </table>
@@ -107,7 +108,7 @@ Para editar la prioridad de planificación del proyecto:
 >
 >Su empresa debe tener un paquete de Prime o superior de Workfront para priorizar los proyectos en Portfolio Optimizer.
 >
->Para obtener más información sobre los paquetes de Workfront, consulte [Paquetes y precios de Adobe Workfront](https://business.adobe.com/es/products/workfront/pricing.html).
+>Para obtener más información sobre los paquetes de Workfront, consulte [Paquetes y precios de Adobe Workfront](https://business.adobe.com/products/workfront/pricing.html).
 >
 >Para obtener información sobre cómo priorizar proyectos en Optimizador de portafolios, consulte [Priorizar proyectos en Optimizador de portafolios](../../manage-work/portfolios/portfolio-optimizer/prioritize-projects-in-portfolio-optimizer.md).
 

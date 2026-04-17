@@ -2,19 +2,19 @@
 content-type: reference
 product-area: resource-management
 navigation-topic: resource-planning
-title: Acceso necesario a los recursos del presupuesto en Workfront
+title: Se necesita acceso para presupuestar recursos en Workfront
 description: Consulte y administre información sobre la planificación de recursos de los proyectos a los que tenga acceso para ver si cuenta con determinada configuración de nivel de acceso y los permisos para los elementos de trabajo, usuarios, funciones y equipos.
 author: Lisa
 feature: Resource Management
 exl-id: d2bfc411-188a-4f8b-8180-0e984f01b5ab
-source-git-commit: 987b6e9b5f6b1feb323906cf7c24f5024fc84663
+source-git-commit: b78b86806e5c3c1e6d0662fea0e1a11f97ef032e
 workflow-type: tm+mt
-source-wordcount: '330'
-ht-degree: 63%
+source-wordcount: '350'
+ht-degree: 62%
 
 ---
 
-# Acceso necesario a los recursos del presupuesto en Workfront
+# Se necesita acceso para presupuestar recursos en Workfront
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -37,7 +37,7 @@ Para presupuestar recursos, administrar conjuntos de recursos y ver información
  <col> 
  <tbody> 
   <tr> 
-   <td>paquete de Adobe Workfront</td> 
+   <td>Paquete de Adobe Workfront</td> 
    <td><p>Cualquiera</p></td> 
   </tr> 
   <tr> 
@@ -55,13 +55,13 @@ Para presupuestar recursos, administrar conjuntos de recursos y ver información
        <li> <p>Acceso para administrar conjuntos de recursos, si necesita administrarlos.</p> </li> 
       </ul> <p>Para obtener información acerca del nivel de acceso a la Administración de recursos, consulte el artículo <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-resource-management.md" class="MCXref xref">Conceder acceso a la Administración de recursos</a>.</p> </li> 
      <li> <p>Acceso de edición a Proyectos y Usuarios. </p> </li> 
-     <li> <p> Edite el acceso a los datos financieros en su nivel de acceso, si necesita ver o administrar la información por coste.</p> <p>Para obtener más información acerca del nivel de acceso a datos financieros, consulte el artículo <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md" class="MCXref xref">Concesión de acceso a los datos financieros</a>.</p> </li> 
+     <li> <p> Edite el acceso a los datos financieros en su nivel de acceso, que incluye el acceso a Ver o Editar Tasas de Coste y Ver o Editar Finanzas Generales, si necesita ver o gestionar información por Coste.</p> <p>Para obtener más información acerca del nivel de acceso a datos financieros, consulte el artículo <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md" class="MCXref xref">Concesión de acceso a los datos financieros</a>.</p> </li> 
     </ul> 
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permisos de objeto</td> 
-   <td> <p>Administre los permisos del proyecto que incluyan permisos de administración de finanzas.</p> <p>Para obtener información acerca de los permisos de los proyectos, consulte el artículo <a href="../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">Uso compartido de proyectos en Adobe Workfront</a>.</p> <p>Para obtener información acerca de los permisos financieros de un proyecto, consulte el artículo <a href="../../workfront-basics/grant-and-request-access-to-objects/share-financial-permissions-object.md"><a href="../../workfront-basics/grant-and-request-access-to-objects/share-financial-permissions-object.md" class="MCXref xref">Uso compartido de permisos financieros en un objeto</a></a>.</p>
+   <td> <p>Administre permisos en el proyecto que incluyan los permisos Editar tasas de coste y Editar finanzas generales.</p> <p>Para obtener información acerca de los permisos de los proyectos, consulte el artículo <a href="../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">Uso compartido de proyectos en Adobe Workfront</a>.</p> <p>Para obtener información acerca de los permisos financieros de un proyecto, consulte el artículo <a href="../../workfront-basics/grant-and-request-access-to-objects/share-financial-permissions-object.md"><a href="../../workfront-basics/grant-and-request-access-to-objects/share-financial-permissions-object.md" class="MCXref xref">Uso compartido de permisos financieros en un objeto</a></a>.</p>
 
 <p><b>NOTA:</b> Al presupuestar recursos en la vista de rol, si tiene menos de Permisos de administración para al menos un proyecto enumerado en el rol, no puede presupuestar horas, ETC ni Costo para el rol. Solo será posible presupuestar aquellos proyectos para los que se tengan permisos de administración.</p> </td> 
   </tr> 

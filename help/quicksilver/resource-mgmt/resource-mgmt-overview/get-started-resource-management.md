@@ -7,10 +7,10 @@ description: La administración de recursos le permite configurar el sistema par
 author: Lisa
 feature: Resource Management
 exl-id: b10ef503-60ea-4450-b63e-b2918e9bcc11
-source-git-commit: 86ee649cdf0ac04230035a94a1326c45b67d36d2
+source-git-commit: b78b86806e5c3c1e6d0662fea0e1a11f97ef032e
 workflow-type: tm+mt
-source-wordcount: '1171'
-ht-degree: 96%
+source-wordcount: '1201'
+ht-degree: 91%
 
 ---
 
@@ -119,7 +119,7 @@ El proceso de administración de recursos en Workfront incluye las siguientes et
   Para obtener más información sobre la planificación de recursos y la asignación de trabajo, vea las secciones siguientes:
 
    * [Planificación de recursos: índice de artículos](../../resource-mgmt/resource-planning/resource-planning-overview.md)
-   * [[!DNL Adobe Workfront Scenario Planner]: índice de artículo](../../scenario-planner/scenario-planning.md)
+   * [[!DNL Adobe Workfront Scenario Planner]: índice de artículos](../../scenario-planner/scenario-planning.md)
    * [El Distribuidor de cargas de trabajo: índice de artículos](../../resource-mgmt/workload-balancer/workload-balancer.md)
 
 <!--
@@ -144,8 +144,8 @@ Debe ser uno de los siguientes usuarios y tener el acceso y permisos especificad
   Además de tener una licencia de trabajo o superior (o una licencia estándar), debe tener lo siguiente para utilizar herramientas específicas de administración de recursos:
 
    * Acceso de edición a la administración de recursos (no es necesario para realizar asignaciones en el Distribuidor de cargas de trabajo)
-   * Acceso de edición a datos financieros para mostrar información de costes en el Planificador de recursos
-   * Acceso de visualización a los datos financieros para ver la información de costes e ingresos en el informe Utilización (solo los usuarios con licencia Plan)
+   * Editar acceso a datos financieros que incluye acceso a Ver o Editar Tasas de Costo y Ver o Editar Finanzas Generales, para mostrar información de Costo en el Planificador de Recursos
+   * Permite ver el acceso a los datos financieros, que incluye el acceso a las opciones Ver o Editar Tasas de Coste y Ver Finanzas Generales, para ver la información de Costes e Ingresos en el Informe Utilización (sólo usuarios con licencia de Plan o Estándar)
 
 * Permisos de contribución o superiores que incluyan la realización de asignaciones en los proyectos para los que se desea administrar recursos.
 

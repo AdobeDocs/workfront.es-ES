@@ -9,10 +9,10 @@ role: User
 exl-id: a6a1f178-189a-4c41-835b-7726081a2b49
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: dc71072107ce80f6cb9033fcb17fe4ac74d5af18
+source-git-commit: d8a01839b8f1332741f87be766f3ccb7d08cef96
 workflow-type: tm+mt
-source-wordcount: '7855'
-ht-degree: 92%
+source-wordcount: '7859'
+ht-degree: 91%
 
 ---
 
@@ -396,12 +396,12 @@ Para editar información sobre formularios personalizados al editar un proyecto:
 
 Según el nivel de acceso y los permisos que tenga en el proyecto, se producirán los siguientes escenarios:
 
-* Si tiene acceso de visualización a datos financieros y permisos de visualización de finanzas en el proyecto, solo puede ver los campos en la sección Finanzas. No puede editar los campos de esta sección.
-* Si tiene acceso de edición a los datos financieros y permisos de administración de finanzas en el proyecto, puede actualizar los campos en esta sección.
+* Si tiene acceso de visualización a datos financieros y permisos de visualización de finanzas generales en el proyecto, solo puede ver los campos en la sección Finanzas. No puede editar los campos de esta sección.
+* Si tiene acceso de edición a datos financieros y permisos de edición de finanzas generales en el proyecto, puede actualizar los campos en esta sección.
 
 Al seleccionar más de un proyecto para editarlos de forma masiva y en tiempo real, existen los siguientes escenarios:
 
-* Si selecciona al menos un proyecto en el que tenga permisos de Ver finanzas (en lugar de Administrar finanzas), solo podrá ver los campos de esta sección para todos los proyectos seleccionados. No puede editar los campos de forma masiva en la sección Finanzas.
+* Si selecciona al menos un proyecto para el que tenga permisos de Ver finanzas generales (en lugar de Editar finanzas generales), solo podrá ver los campos de esta sección para todos los proyectos seleccionados. No puede editar los campos de forma masiva en la sección Finanzas.
 * Si selecciona al menos un proyecto en el que no tiene permisos financieros, esta sección no se muestra en absoluto.
 
 Para editar campos en el área Finanzas:

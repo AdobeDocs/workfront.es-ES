@@ -6,10 +6,10 @@ description: Puede presupuestar sus recursos en el Planificador de recursos de A
 author: Lisa
 feature: Resource Management
 exl-id: 2f3ca8c2-51b3-4282-af8b-7f433365d386
-source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
+source-git-commit: b78b86806e5c3c1e6d0662fea0e1a11f97ef032e
 workflow-type: tm+mt
-source-wordcount: '1392'
-ht-degree: 98%
+source-wordcount: '1412'
+ht-degree: 94%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 98%
 
 <!--'(Alina: ***Linked to the Planning in the Resource Planner article, Understanding areas of the Resource Planner. - do not move/ change/ delete.)'-->
 
-Puede presupuestar sus recursos en el Planificador de recursos de Adobe Workfront utilizando valores de Coste, en lugar de valores de Horas o FTE. Los valores de coste no están disponibles para la vista **Ver por usuario** en el Planificador de recursos.
+Puede presupuestar sus recursos en el Planificador de recursos de Adobe Workfront utilizando valores de Coste, en lugar de valores de Horas o FTE. Los valores de costo no están disponibles para la vista **Ver por usuario** en el Planificador de recursos.
 
 >[!IMPORTANT]
 >
@@ -41,7 +41,7 @@ Para obtener más información sobre el funcionamiento del Planificador de recur
  <col> 
  <tbody> 
   <tr> 
-   <td>paquete de Adobe Workfront</td> 
+   <td>Paquete de Adobe Workfront</td> 
    <td><p>Cualquiera</p></td>
   </tr> 
   <tr> 
@@ -51,11 +51,12 @@ Para obtener más información sobre el funcionamiento del Planificador de recur
   </tr> 
   <tr> 
    <td>Configuraciones de nivel de acceso</td> 
-   <td> <p>Acceso de edición a la administración de recursos que incluye acceso a Editar prioridades y horas presupuestadas en el Planificador de recursos</p> <p>Acceso de edición a datos financieros, proyectos y usuarios</p></td> 
+   <td> <p>Acceso de edición a la administración de recursos que incluye acceso a Editar prioridades y horas presupuestadas en el Planificador de recursos</p> <p>Editar acceso a datos financieros que incluye acceso a Editar tasas de coste y Editar finanzas generales</p>
+   <p>Editar el acceso a Proyectos y Usuarios</p></td> 
   </tr> 
   <tr> 
    <td>Permisos de objeto</td> 
-   <td> <p>Permisos de administración a los proyectos para los que desea presupuestar información con capacidad de Administrar finanzas</p></td>
+   <td> <p>Administre permisos a los proyectos para los que desea presupuestar información con la capacidad de Editar tasas de costo y Editar finanzas generales</p></td>
   </tr> 
  </tbody> 
 </table>

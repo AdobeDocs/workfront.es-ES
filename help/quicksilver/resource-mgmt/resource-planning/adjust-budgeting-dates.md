@@ -6,10 +6,10 @@ description: Si observa que hay sobreasignaciones de los recursos después de ha
 author: Lisa
 feature: Resource Management
 exl-id: bc49d45a-73a5-4b02-9054-9c9dbb54224d
-source-git-commit: 987b6e9b5f6b1feb323906cf7c24f5024fc84663
+source-git-commit: b78b86806e5c3c1e6d0662fea0e1a11f97ef032e
 workflow-type: tm+mt
-source-wordcount: '486'
-ht-degree: 97%
+source-wordcount: '506'
+ht-degree: 89%
 
 ---
 
@@ -28,7 +28,7 @@ Las sobreasignaciones pueden aparecer cuando el valor de horas presupuestadas, F
  <col> 
  <tbody> 
   <tr> 
-   <td>paquete de Adobe Workfront</td> 
+   <td>Paquete de Adobe Workfront</td> 
    <td><p>Cualquiera</p></td>
   </tr> 
   <tr> 
@@ -38,11 +38,12 @@ Las sobreasignaciones pueden aparecer cuando el valor de horas presupuestadas, F
   </tr> 
   <tr> 
    <td>Configuraciones de nivel de acceso</td> 
-   <td> <p>Acceso de edición a la administración de recursos que incluye acceso a Editar prioridades y horas presupuestadas en el Planificador de recursos</p> <p>Acceso de edición a datos financieros, proyectos y usuarios</p></td> 
+   <td> <p>Acceso de edición a la administración de recursos que incluye acceso a Editar prioridades y horas presupuestadas en el Planificador de recursos</p> <p>Editar acceso a datos financieros que incluye acceso a Editar tasas de coste y Editar finanzas generales</p>
+   <p>Editar el acceso a Proyectos y Usuarios</p></td> 
   </tr> 
   <tr> 
    <td>Permisos de objeto</td> 
-   <td> <p>Permisos de administración a los proyectos para los que desea presupuestar información con capacidad de Administrar finanzas</p></td> 
+   <td> <p>Administre permisos a los proyectos para los que desea presupuestar información con la capacidad de Editar tasas de costo y Editar finanzas generales</p></td> 
   </tr> 
  </tbody> 
 </table>
