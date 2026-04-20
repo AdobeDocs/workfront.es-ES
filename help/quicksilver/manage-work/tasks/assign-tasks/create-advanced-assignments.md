@@ -9,10 +9,10 @@ role: User
 exl-id: 09780f78-4eb8-404d-859b-d066d462776d
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 49f26e963647f5015955396489bfe537bbac0918
+source-git-commit: daaa13d5a3ebbd249f0093181ee7834f9db43fdb
 workflow-type: tm+mt
-source-wordcount: '3415'
-ht-degree: 31%
+source-wordcount: '3457'
+ht-degree: 30%
 
 ---
 
@@ -96,13 +96,10 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
 
 Este diseño de Asignaciones avanzadas se aplica solo a tareas. Para problemas, consulte [Crear asignaciones avanzadas - todos los demás paquetes](#create-advanced-assignments--all-other-packages).
 
-<!--
-
 >[!NOTE]
 >
->Use the experience switcher to choose between the old and new Advanced Assignments experiences. For information about the old experience, see [Create Advanced Assignments – all other packages](#create-advanced-assignments--all-other-packages), below.
-
--->
+>La experiencia antigua de Asignaciones avanzadas es la predeterminada. Debe activar manualmente la nueva experiencia con el botón en la parte superior derecha de la ventana Asignaciones avanzadas.
+>Para obtener información sobre la experiencia anterior, consulte [Crear asignaciones avanzadas - todos los demás paquetes](#create-advanced-assignments--all-other-packages), más adelante.
 
 1. Vaya al proyecto donde desea asignar una tarea.
 1. Haga clic en **Tareas** o **Problemas** en el panel izquierdo y, a continuación, haga clic en el nombre de una tarea de la lista.
