@@ -9,10 +9,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 3d523584-dcb8-4aa6-8217-611f22dc1450
-source-git-commit: 9e7d20fe165e08997c14e207406fb8bed7597a56
+source-git-commit: d8ccdeac9a658ca7a2862781e98c2c3c6fa0e8a0
 workflow-type: tm+mt
-source-wordcount: '956'
-ht-degree: 92%
+source-wordcount: '586'
+ht-degree: 95%
 
 ---
 
@@ -31,7 +31,7 @@ Mediante el inicio de sesión único (SSO), puede pasar atributos del Active Dir
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td role="rowheader">Paquete de Adobe Workfront</td> 
    <td><p>Cualquiera</p></td> 
   </tr> 
   <tr> 
@@ -60,75 +60,6 @@ Tenga en cuenta lo siguiente al asignar atributos:
   Ejemplo: si asigna “apellidos” y actualiza su nombre en Workfront sin actualizar el valor en su proveedor de identidad, los apellidos se sobrescribirán para que coincidan con el valor del proveedor de identidad la próxima vez que el usuario inicie sesión.
 
 ## Asignar atributos de usuario para su organización
-
-El procedimiento para asignar atributos difiere según si la organización se encuentra en la experiencia unificada de Adobe.
-
-Para determinar si su organización está en Adobe Unified Experience, examine la URL que utiliza para acceder a Workfront.
-
-| URL | Adobe Experience |
-|---|---|
-| (CompanyName).my.workfront.com | Experiencia clásica |
-| experience.adobe.com | Adobe Unified Experience |
-
-* [Asignar atributos de usuario en la experiencia clásica](#map-user-attributes-in-the-classic-experience)
-* [Asignar atributos de usuario en la experiencia unificada de Adobe](#map-user-attributes-in-the-adobe-unified-experience)
-
-### Asignar atributos de usuario en la experiencia clásica
-
-1. Haga clic en el icono **Menú principal** ![Icono del menú principal](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront y, a continuación, haga clic en **Configurar** ![Icono de configuración de engranajes](assets/gear-icon-settings.png).
-
-1. Haga clic en **Sistema** > **Inicio de sesión único (SSO)**.
-
-1. En la lista desplegable **Tipo**, haga clic en **SAML 2.0**.
-
-1. Haga clic en **Asignar atributos de usuario**.
-
-   ![Asignar atributos de usuario](assets/map-user-attributes.png)
-
-1. En la fila de opciones que aparece, asigne los atributos que necesite para los usuarios de Workfront.
-
-   Puede asignar atributos como Dirección, Responsable, Función, Grupo de inicio, etc.
-
-   Las asignaciones de atributos funcionan en una proporción de 1:1. Por ejemplo, no puede establecer todos los grupos a los que pertenece un usuario; solo puede establecer uno por usuario.
-
-   >[!IMPORTANT]
-   >
-   >No se recomienda asignar niveles de acceso en las asignaciones de atributos. Si lo hace, tenga cuidado al configurar el valor predeterminado para asegurarse de que no elimine el acceso de administrador de forma involuntaria.
-
-   En la tabla siguiente se explican los campos que se pueden utilizar para asignar atributos:
-
-   <table style="table-layout:auto"> 
-    <col data-mc-conditions=""> 
-    <col data-mc-conditions=""> 
-    <tbody> 
-     <tr> 
-      <td role="rowheader">Atributo de usuario de Workfront</td> 
-      <td>Elija el nombre del atributo que está asignando</td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Atributo de directorio</td> 
-      <td>Escriba la etiqueta de atributo SSO que desee utilizar.</td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Valor predeterminado</td> 
-      <td> <p>Después de elegir un atributo de usuario de Workfront, si el valor es NULL durante la conexión, este campo se rellena con el valor predeterminado correspondiente en el sistema. Escriba un valor aquí solo si planea aplicar reglas de asignación de atributos (consulte el paso 7). El valor predeterminado actúa como una excepción a esas reglas.</td> 
-     </tr> 
-    </tbody> 
-   </table>
-
-1. (Opcional) Haga clic en **Reglas** para añadir una regla al atributo.
-
-   1. En la lista desplegable, elija el modificador de atributo que desee utilizar.
-   1. En los 2 campos de la derecha, escriba el valor del atributo de directorio y el valor con el que desea reemplazarlo.
-
-      ![Campos de regla](assets/rule-fields.png)
-
-   Puede hacer clic en **Añadir regla** para añadir más reglas al atributo.
-
-1. (Opcional) Para asignar más atributos de usuario, haga clic en **Añadir asignación** y repita los pasos del 6 al 7.
-1. Haga clic en **Guardar**.
-
-### Asignar atributos de usuario en la experiencia unificada de Adobe
 
 1. Haga clic en el icono **Menú principal** ![Icono del menú principal](assets/main-menu-left.png) en la esquina superior izquierda de Adobe Workfront y, a continuación, haga clic en **Configurar** ![Icono de configuración de engranajes](assets/gear-icon-settings.png).
 

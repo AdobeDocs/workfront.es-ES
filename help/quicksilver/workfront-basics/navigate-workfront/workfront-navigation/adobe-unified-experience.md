@@ -6,10 +6,10 @@ description: El acceso a [!DNL Workfront] a través de Adobe Experience Cloud le
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 458631a2-d77d-46d6-8d6b-7008237e5154
-source-git-commit: 5304f25ecb198f45c024b71185747f47fa8307d4
+source-git-commit: d9d6d572840f5691888d0db3242f3908978079b3
 workflow-type: tm+mt
-source-wordcount: '718'
-ht-degree: 64%
+source-wordcount: '688'
+ht-degree: 61%
 
 ---
 
@@ -18,13 +18,6 @@ ht-degree: 64%
 <!--Audited: 10/2024-->
 
 Acceder a [!DNL Workfront] a través de [!DNL Adobe Experience Cloud] le ofrece una experiencia unificada perfecta para administrar todas sus aplicaciones de [!DNL Adobe]. La Identity management única le proporciona un lugar para iniciar sesión, sin varias URL ni ID de inicio de sesión.
-
-Si su organización está en la experiencia unificada de Adobe, la dirección URL que utiliza para acceder a Workfront comienza por `experience.adobe.com`.
-
-| URL | Adobe Experience |
-|------------|------------|
-| (CompanyName).my.workfront.com | Experiencia de Workfront |
-| experience.adobe.com | Adobe Unified Experience |
 
 ## Requisitos de acceso
 
@@ -93,8 +86,8 @@ Una vez que haya iniciado sesión en [!DNL Adobe Experience Cloud], puede ver to
 
 Use el icono [!UICONTROL Menú principal] ![Icono del menú principal](assets/main-menu-icon-left-nav.png) a la izquierda de la barra de navegación de [!DNL Workfront] para navegar a cualquier página a la que tenga acceso. Las opciones disponibles en el [!UICONTROL Menú principal] dependen de lo siguiente:
 
-* **Configuraciones de la plantilla de diseño**: para saber cómo un administrador de [!DNL Workfront] puede modificar el [!UICONTROL menú principal] a partir de una plantilla de diseño, consulte [Personalizar el [!UICONTROL menú principal] mediante una plantilla de diseño](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
-* **Tipo de licencia**: para conocer las configuraciones predeterminadas de diferentes tipos de licencia, consulte [Comprender la navegación de un [!UICONTROL usuario con licencia de revisión]](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/reviewer-global-navigation-bar.md) o [Comprender la navegación de un [!UICONTROL usuario con licencia de trabajo]](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/worker-global-navigation-bar.md).
+* **Configuraciones de la plantilla de diseño**: para saber cómo un administrador de [!DNL Workfront] puede modificar el [!UICONTROL Menú principal] a partir de una plantilla de diseño, consulte [Personalizar el [!UICONTROL Menú principal] con una plantilla de diseño](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
+* **Tipo de licencia**: Para conocer las configuraciones predeterminadas de diferentes tipos de licencia, consulta [Comprender la navegación de un usuario con licencia [!UICONTROL Light]-License](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/reviewer-global-navigation-bar.md) o [Comprender la navegación de un usuario con licencia [!UICONTROL Work]-License](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/worker-global-navigation-bar.md).
 
 ![Menú principal](assets/main-menu-options-left-nav.png)
 
@@ -126,7 +119,7 @@ En caso de que la organización utilice una aplicación independiente para admin
 
 En caso de que [!DNL Adobe] administre la contraseña, cámbiela en la cuenta de Adobe.
 
-[Consulte este artículo para cambiar la contraseña de Adobe.](https://helpx.adobe.com/es/manage-account/using/change-or-reset-password.html){target="_blank"}
+[Consulte este artículo para cambiar la contraseña de Adobe.](https://helpx.adobe.com/manage-account/using/change-or-reset-password.html){target="_blank"}
 
 Para obtener más información sobre cómo cambiar la contraseña, póngase en contacto con el administrador.
 

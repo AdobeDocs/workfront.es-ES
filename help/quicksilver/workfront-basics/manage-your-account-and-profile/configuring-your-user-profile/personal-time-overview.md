@@ -9,10 +9,10 @@ feature: Get Started with Workfront
 exl-id: e7710495-c418-47b1-8598-725580054fc5
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: eb5296348c27f806dd50b997970166ebae4c97f4
 workflow-type: tm+mt
-source-wordcount: '431'
-ht-degree: 75%
+source-wordcount: '425'
+ht-degree: 76%
 
 ---
 
@@ -74,7 +74,7 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
 
 >[!NOTE]
 >
->Si su organización está en la experiencia unificada de Adobe, haga clic en el menú de cuenta de **Adobe** (su imagen de perfil) en la esquina superior derecha del área de navegación superior y, a continuación, haga clic en **Perfil de Workfront**.
+>Para acceder a su perfil de Workfront, haga clic en el menú de cuenta de Adobe (su imagen de perfil) en el área de navegación superior y, a continuación, elija Perfil de Workfront.
 >
 >![perfil de workfront](assets/aue-profile.png)
 

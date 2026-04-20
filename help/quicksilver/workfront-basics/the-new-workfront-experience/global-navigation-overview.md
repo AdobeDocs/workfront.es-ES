@@ -5,10 +5,10 @@ description: La barra de navegación superior, que aparece en la parte superior 
 feature: Get Started with Workfront
 author: Courtney
 exl-id: 6262d0ff-4be0-41ac-b2e7-5eaa6b2795dc
-source-git-commit: 4ad4873f1646a2ff499d03dabd9749d43022f6b1
+source-git-commit: 0a38554b8bbd870b8b9b0e221b25c120cd0f941e
 workflow-type: tm+mt
 source-wordcount: '690'
-ht-degree: 99%
+ht-degree: 95%
 
 ---
 
@@ -22,11 +22,11 @@ La barra de navegación superior, que aparece en la parte superior de la pantall
 
 ## Icono de [!UICONTROL Inicio]
 
-El icono de **[!UICONTROL Inicio]** ![](assets/home-icon.png) le lleva a la página [!UICONTROL Inicio], que es la página de aterrizaje predeterminada.
+El icono de **[!UICONTROL Inicio]**![](assets/home-icon.png) le lleva a la página [!UICONTROL Inicio], que es la página de destino predeterminada.
 
 De forma predeterminada, el icono de Inicio abre el área de Inicio. Para obtener más información sobre Inicio, consulte [Usar el área [!UICONTROL Inicio]](../../workfront-basics/using-home/using-the-home-area/use-the-home-area.md).
 
-El administrador de Workfront puede personalizar el icono de Inicio para abrir una página diferente, creando una plantilla de diseño y asignándosela a usted. Para obtener más información, consulte [Personalizar la página de aterrizaje con una plantilla de diseño](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-landing-page.md).
+El administrador de Workfront puede personalizar el icono de Inicio para abrir una página diferente, creando una plantilla de diseño y asignándosela a usted. Para obtener más información, consulte [Personalizar la página de destino con una plantilla de diseño](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-landing-page.md).
 
 ## Páginas ancladas
 
@@ -84,15 +84,11 @@ Las opciones disponibles en el [!UICONTROL Menú principal] dependen de lo sigui
 
 * **Configuraciones de la plantilla de diseño**: para saber cómo un administrador de [!DNL Workfront] puede modificar el [!UICONTROL Menú principal] a partir de una plantilla de diseño, consulte [Personalizar el [!UICONTROL Menú principal] con una plantilla de diseño](../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
 
-* **Tipo de licencia**: para conocer las configuraciones predeterminadas para diferentes tipos de licencia, consulte [Comprender la navegación de un usuario con licencia de revisión](../../workfront-basics/navigate-workfront/workfront-navigation/reviewer-global-navigation-bar.md) o [Comprender la navegación de un usuario con licencia de [!UICONTROL Trabajo]](../../workfront-basics/navigate-workfront/workfront-navigation/worker-global-navigation-bar.md).
+* **Tipo de licencia**: Para conocer las configuraciones predeterminadas de diferentes tipos de licencia, consulta [Comprender la navegación de un usuario con licencia básica](../../workfront-basics/navigate-workfront/workfront-navigation/reviewer-global-navigation-bar.md) o [Comprender la navegación de un usuario con licencia de [!UICONTROL Trabajo]](../../workfront-basics/navigate-workfront/workfront-navigation/worker-global-navigation-bar.md).
 
 Cada icono le lleva a un área diferente de Workfront.
 
 Para obtener más información sobre cada área, consulte:
-
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Update screenshot and add icons for new products/features.)</p>
--->
 
 <table style="table-layout:auto"> 
  <col> 
@@ -120,7 +116,7 @@ Para obtener más información sobre cada área, consulte:
      <li>[!UICONTROL Templates]: <a href="../../manage-work/projects/create-and-manage-templates/create-manage-templates.md" class="MCXref xref">Crear y administrar plantillas de proyecto: índice de artículos</a></li> 
      <li>[!UICONTROL Goals]: <a href="../../workfront-goals/goal-management/wf-goals-overview.md" class="MCXref xref">[!DNL Adobe Workfront Goals] información general</a></li> 
      <li>[!UICONTROL Scenarios]: <a href="../../scenario-planner/scenario-planner-overview.md" class="MCXref xref">información general sobre el Planificador de escenarios</a></li> 
-     <li>[!UICONTROL Proofing]: <a href="../../workfront-proof/workfront-proof.md" class="MCXref xref">[!DNL Workfront] Prueba: índice de artículos</a></li> 
+     <li>[!UICONTROL Proofing]: <a href="../../workfront-proof/workfront-proof.md" class="MCXref xref">[!DNL Workfront] Revisión: índice de artículos</a></li> 
     </ul> </td> 
   </tr> 
  </tbody> 

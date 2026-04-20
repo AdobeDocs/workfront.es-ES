@@ -6,10 +6,10 @@ description: Como usuario con una licencia de planificación, puede configurar s
 author: Lisa
 feature: Timesheets
 exl-id: 4f801a13-182d-4e06-98ea-f6863f6a8edf
-source-git-commit: b0a3a11a3c04a0969bee99f8e1cea231911f0e6a
+source-git-commit: 58a6b489ca5f1683a5c40c63bb4528b1f49e9324
 workflow-type: tm+mt
-source-wordcount: '457'
-ht-degree: 16%
+source-wordcount: '431'
+ht-degree: 17%
 
 ---
 
@@ -30,7 +30,7 @@ Como usuario con una licencia estándar o de planificación, puede configurar si
  <col>
  <tbody> 
   <tr> 
-   <td>paquete de Adobe Workfront</td> 
+   <td>Paquete de Adobe Workfront</td> 
    <td><p>Cualquiera</p></td> 
   </tr> 
   <tr> 
@@ -52,11 +52,11 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
 
 1. Realice una de las siguientes acciones, según el objetivo y el nivel de acceso del sistema:
 
-   * **Usuario estándar o planificado que configura el registro de tiempo para usted:** Haga clic en el icono de **[!UICONTROL Menú principal]** ![Menú principal](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront y, a continuación, haga clic en el nombre de usuario que aparece junto a la imagen de perfil. O (si está disponible), haz clic en tu imagen de perfil en el área de navegación superior y luego haz clic en **[!UICONTROL Perfil de Workfront]**. A continuación, haga clic en el icono **Más** junto a su nombre y seleccione **Editar**.
+   * **Usuario estándar o planificado que configura el registro de tiempo para usted mismo:** Haga clic en la imagen de perfil en el área de navegación superior y, a continuación, haga clic en **[!UICONTROL Perfil de Workfront]**. A continuación, haga clic en el icono **Más** junto a su nombre y seleccione **Editar**.
 
    * **Administrador del sistema configurando el registro de tiempo para otros:** Empiece a editar una o más cuentas de usuario, tal como se describe en [Editar el perfil de un usuario](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
-1. En el cuadro de diálogo resultante, en la sección **Planificación de recursos**, busque la opción **Registrar tiempo en**.
+1. En el cuadro de diálogo de perfil de usuario, en la sección **Planificación de recursos**, busque la opción **Registrar tiempo en**.
 
    ![Registrar tiempo en opciones](assets/user-profile-log-time-options.png)
 

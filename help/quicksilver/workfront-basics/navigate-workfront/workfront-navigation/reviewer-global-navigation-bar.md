@@ -1,40 +1,40 @@
 ---
 product-area: user-management
 navigation-topic: workfront-navigation
-title: Comprender la navegación para un usuario con licencia de revisión
-description: El menú principal cambia con el nivel de acceso que le asignó su administrador de  [!DNL Adobe Workfront] . De forma predeterminada, solo se le otorga acceso a las áreas que incluyen la funcionalidad permitida por su nivel de acceso.
+title: Comprender la navegación para un usuario con licencia básica
+description: En este artículo se describen los elementos predeterminados del menú principal para un usuario básico en Adobe Workfront.
 author: Lisa and Courtney
 feature: Get Started with Workfront
 exl-id: c646b3d2-2eca-47ef-b181-9358cef03ed7
-source-git-commit: 64b8a835a57be8995c82a0ab15c40f46170c7067
+source-git-commit: 0a38554b8bbd870b8b9b0e221b25c120cd0f941e
 workflow-type: tm+mt
-source-wordcount: '358'
-ht-degree: 34%
+source-wordcount: '364'
+ht-degree: 17%
 
 ---
 
-# Comprenda la navegación de un usuario con licencia de [!UICONTROL Revisión]
+# Comprenda la navegación de un usuario con licencia para [!UICONTROL Light]
 
-El [!UICONTROL Menú principal] cambia con el nivel de acceso que le asignó su administrador [!DNL Adobe Workfront]. De forma predeterminada, solo se le otorga acceso a las áreas que incluyen la funcionalidad permitida por su nivel de acceso. Para comprender los componentes del diseño predeterminado de cada nivel de acceso, consulte [Acerca del diseño predeterminado [!DNL Adobe Workfront] &#x200B;](../../../administration-and-setup/customize-workfront/use-layout-templates/about-the-default-wf-layout.md).
+El [!UICONTROL Menú principal] cambia con el nivel de acceso que le asignó su administrador [!DNL Adobe Workfront]. De forma predeterminada, solo se le otorga acceso a las áreas que incluyen la funcionalidad permitida por su nivel de acceso. Para comprender los componentes del diseño predeterminado de cada nivel de acceso, consulte [Acerca del diseño predeterminado [!DNL Adobe Workfront] ](../../../administration-and-setup/customize-workfront/use-layout-templates/about-the-default-wf-layout.md).
 
-## Comprender el [!UICONTROL menú principal] predeterminado de un [!UICONTROL revisor]
+## Comprenda el [!UICONTROL menú principal] predeterminado de un [!UICONTROL usuario básico]
 
-Como [!UICONTROL revisor], tu responsabilidad principal es revisar, comentar y aprobar el trabajo. Las áreas visibles en el [!UICONTROL Menú principal] le permiten hacerlo.
+Como [!UICONTROL usuario básico], su responsabilidad principal es revisar, comentar y aprobar el trabajo. Las áreas visibles en el [!UICONTROL Menú principal] le permiten hacerlo.
 
-El diseño predeterminado de [!UICONTROL Revisor] incluye las áreas siguientes:
+El diseño predeterminado de [!UICONTROL usuario ligero] incluye las áreas siguientes:
 
-* **[!UICONTROL Mis actualizaciones]**: El área **[!UICONTROL Hogar]**, que está disponible para usuarios de todos los niveles de acceso, se ha reemplazado por **[!UICONTROL Mis actualizaciones]** para usuarios con un tipo de licencia Revisar de forma predeterminada. Como [!UICONTROL revisor], no completa el trabajo. Solo necesita ver información sobre el trabajo que tiene que revisar, comentar o aprobar. El área **[!UICONTROL Mis actualizaciones]** le permite realizar estas acciones. Esta es la zona de aterrizaje predeterminada para los nuevos usuarios de la revisión.
+* **[!UICONTROL Mis actualizaciones]**: El área **[!UICONTROL Hogar]**, que está disponible para usuarios de todos los niveles de acceso, se ha reemplazado por **[!UICONTROL Mis actualizaciones]** para usuarios con un tipo de licencia básica, de manera predeterminada. Como [!UICONTROL usuario básico], no completa el trabajo. Solo necesita ver información sobre el trabajo que tiene que revisar, comentar o aprobar. El área **[!UICONTROL Mis actualizaciones]** le permite realizar estas acciones. Esta es la zona de aterrizaje predeterminada para los nuevos usuarios ligeros.
 
   >[!TIP]
   >
-  >Es posible que el administrador de [!DNL Workfront] o del grupo le asigne una plantilla de diseño que podría cambiar su página de aterrizaje predeterminada. Con una plantilla de diseño, también puede ver el área de [!UICONTROL Inicio] y [!UICONTROL Actualizaciones] como un usuario con licencia de [!UICONTROL revisión].
+  >Es posible que el administrador de [!DNL Workfront] o del grupo le asigne una plantilla de diseño que podría cambiar su página de aterrizaje predeterminada. Con una plantilla de diseño, también puede ver el área de [!UICONTROL Inicio] y [!UICONTROL Actualizaciones] como un usuario con licencia [!UICONTROL Light].
 
 * **[!UICONTROL Solicitudes]**: puede enviar y revisar solicitudes que usted u otros usuarios de su compañía hayan enviado en esta área.
 * **[!UICONTROL Documentos]**: aquí puede cargar o revisar los documentos que se han compartido con usted.
-* **[!UICONTROL Modelos]**: revise los modelos existentes en su sistema y solicite que se instale uno, si el administrador de [!DNL Workfront] configuró la cola de solicitudes para los modelos. Para más información, consulte [Información general sobre modelos](../../../administration-and-setup/blueprints/blueprints-overview.md).
+* **[!UICONTROL Tableros]**: trabaje con flexibilidad y colaboración con los integrantes del equipo mediante tableros compartidos que contienen columnas y tarjetas que reflejan el trabajo que desea realizar. Para obtener más información, consulte [Introducción a los tableros: índice de artículos](../../../agile/get-started-with-boards/get-started-with-boards.md).
+* **[!UICONTROL Prioridades]**: puede administrar y priorizar el trabajo rápidamente. Para obtener más información, consulte [Introducción a Prioridades](/help/quicksilver/workfront-basics/priorities/get-started-with-priorities.md).
 
-
-![Acceder a mis actualizaciones desde el menú principal](assets/access-my-updates-from-main-menu-reviewer-user-nwe-350x294.png)
+![Menú principal predeterminado de usuario ligero](assets/light-user-main-menu.png)
 
 ## Personalizar el [!UICONTROL menú principal] predeterminado
 

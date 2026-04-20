@@ -1,23 +1,19 @@
 ---
 content-type: tips-tricks-troubleshooting
 navigation-topic: tips-tricks-and-troubleshooting-workfront-basics
-title: Varias pestañas del explorador hacen que Workfront cierre la sesión
+title: Tener varias pestañas del explorador abiertas hace que Workfront cierre la sesión
 description: Cuando un usuario tiene varias pestañas del explorador abiertas, es posible que Workfront cierre la sesión automáticamente.
 feature: Get Started with Workfront
 author: Becky
 exl-id: 1cc8bf6c-0eda-41ef-8efd-bba3a5f33b08
-source-git-commit: 883ec4eaa2258de2e464acf14b6b4083db05b99a
+source-git-commit: 440640f5b916b76096c99eed8253236de477a02a
 workflow-type: tm+mt
-source-wordcount: '178'
-ht-degree: 30%
+source-wordcount: '164'
+ht-degree: 42%
 
 ---
 
-# Varias pestañas del explorador hacen que Workfront cierre la sesión
-
->[!IMPORTANT]
->
->Este problema solo está presente para las organizaciones que se han incorporado a Adobe IMS.
+# Tener varias pestañas del explorador abiertas hace que Workfront cierre la sesión
 
 ## Problema
 

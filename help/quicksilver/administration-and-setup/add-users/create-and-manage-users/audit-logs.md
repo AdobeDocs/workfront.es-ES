@@ -8,10 +8,10 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 6adb4146-42fd-4eda-b46f-c61d7ff71df6
-source-git-commit: 28178c3794832e14552d988259c1792a6fed1da1
+source-git-commit: a22bff203680d2b59e14a9d705c963f2a1d3a80b
 workflow-type: tm+mt
-source-wordcount: '1556'
-ht-degree: 6%
+source-wordcount: '1478'
+ht-degree: 5%
 
 ---
 
@@ -263,17 +263,23 @@ Para obtener más información acerca de cómo configurar los roles, consulte [C
 
 ### Intento de inicio de sesión {#login-attempt}
 
-El sistema genera una entrada de registro de auditoría de intento de inicio de sesión cuando un usuario realiza una de las siguientes acciones:
+<!--Delete me October 2026-->
 
-* Inicia sesión, cierra la sesión o falla al intentar iniciar sesión en Workfront (en un explorador y en la aplicación móvil)
-* Inicia sesión, cierra la sesión o falla en un intento de inicio de sesión en cualquier integración de Workfront (como Workfront para Slack)
-* Inicia sesión o cierra sesión en la API de Workfront
+<!--
 
-Inicio de sesión Los registros de intentos no registran cuándo un administrador de Workfront utiliza la función Iniciar sesión como.
+The system generates a Login Attempt audit log entry when a user does one of the following actions:
+
+* Logs in, logs out, or fails a login attempt in Workfront (in a browser and in the mobile app)
+* Logs in, logs out, or fails a login attempt in any Workfront integration (such as Workfront for Slack)
+* Logs in or logs out of the Workfront API
+
+Login Attempt Logs do not record when a Workfront administrator uses the Log In As feature.
+
+-->
 
 >[!NOTE]
 >
->Esto no está disponible si su organización se ha incorporado a Adobe Admin Console. Consulte al administrador de red o de TI si necesita más información.
+>Debido a que todas las organizaciones se han incorporado a Adobe Admin Console, esta función ya no está disponible.Póngase en contacto con el administrador de red o de TI si necesita más información.
 
 ### Prioridad {#priority}
 
@@ -366,7 +372,7 @@ El sistema genera una entrada de registro de auditoría de usuario cuando un usu
 
   >[!NOTE]
   >
-  >Esto no está disponible si su organización se ha incorporado a Adobe Admin Console. Consulte al administrador de red o de TI si necesita más información.
+  >Debido a que todas las organizaciones se han incorporado a Adobe Admin Console, esta función ya no está disponible.Póngase en contacto con el administrador de red o de TI si necesita más información.
 
 * Elimina un usuario
 * Cambia el nivel de acceso, la empresa, el equipo o el grupo de un usuario

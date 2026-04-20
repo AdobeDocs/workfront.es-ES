@@ -11,9 +11,9 @@ role: Admin
 exl-id: 50aca40a-f971-42f2-b20f-fa4fff22335e
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: a1bf0e508d11089c0835f17daf6a9e17d1b6b161
+source-git-commit: d8ccdeac9a658ca7a2862781e98c2c3c6fa0e8a0
 workflow-type: tm+mt
-source-wordcount: '1252'
+source-wordcount: '1242'
 ht-degree: 100%
 
 ---
@@ -113,7 +113,7 @@ Entendemos que las integraciones integradas (nativas) disponibles podrían no sa
      </ul>
    </ul>
      <p>Para obtener más información, consulte <a href="/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/wf-proof-and-genstudio.md" class="MCXref xref">Introducción a la revisión e integración de GenStudio for Performance Marketing</a>.</p> 
-     </td>  <td><ul><li>Debe tener licencias para Workfront y GenStudio for Performance Marketing.</li><li>La instancia de Workfront debe estar en la experiencia unificada de Adobe.</li><li>Workfront y GenStudio for Performance Marketing deben implementarse en la misma organización de IMS.</li></ul></td> 
+     </td>  <td><ul><li>Debe tener licencias para Workfront y GenStudio for Performance Marketing.</li><li>Workfront y GenStudio for Performance Marketing deben implementarse en la misma organización de IMS.</li></ul></td> 
    <td>La integración se puede activar en el área Configuración de Workfront una vez que se cumplan todos los requisitos. Para obtener más información, consulte <a href="/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/wf-proof-and-genstudio.md" class="MCXref xref">Introducción a la revisión e integración de GenStudio for Performance Marketing</a>. </td> 
   </tr>
   <tr> 

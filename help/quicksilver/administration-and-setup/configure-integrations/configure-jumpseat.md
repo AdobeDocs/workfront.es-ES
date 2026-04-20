@@ -10,10 +10,10 @@ author: Courtney, Becky
 exl-id: 23edb48b-8cad-47be-8ace-5238a5869677
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: eb5296348c27f806dd50b997970166ebae4c97f4
 workflow-type: tm+mt
-source-wordcount: '257'
-ht-degree: 92%
+source-wordcount: '249'
+ht-degree: 95%
 
 ---
 
@@ -67,7 +67,7 @@ Antes de empezar, debe
 
 >[!IMPORTANT]
 >
->Si se encuentra en la experiencia unificada de Adobe, debe usar la siguiente URL de la aplicación: `.workfront.adobe.com`.
+>Debe usar la siguiente URL de la aplicación: `.workfront.adobe.com`.
 
 
 
@@ -84,7 +84,7 @@ Para configurar la integración de [!DNL JumpSeat]:
 {{step-1-to-setup}}
 
 1. En el panel izquierdo, haga clic en **[!UICONTROL Sistema]** > Integración de **[!UICONTROL [!DNL JumpSeat]]**.
-1. Introduzca la URL **de**&#x200B;[!DNL JumpSeat], que se encuentra en el icono de extensión en [!DNL JumpSeat].
+1. Introduzca la URL ]**de**[!UICONTROL [!DNL JumpSeat], que se encuentra en el icono de extensión en [!DNL JumpSeat].
 
 >[!BEGINSHADEBOX]
 
@@ -92,11 +92,11 @@ Para configurar la integración de [!DNL JumpSeat]:
 
 https://{mycompanyname}.jumpseat.io
 
-&#x200B;>>
+>>
 
 >[!ENDSHADEBOX]
 
-1. Introducir token **de integración de**&#x200B;[!DNL JumpSeat]. Lo puede encontrar en la página **[!UICONTROL Configuración]** en [!DNL JumpSeat].
+1. Introducir token ]**de integración de**[!UICONTROL [!DNL JumpSeat]. Lo puede encontrar en la página **[!UICONTROL Configuración]** en [!DNL JumpSeat].
 
    **Ejemplo:** $2y$10$BevsKeQ8...OYR.LurSg2U64O
 

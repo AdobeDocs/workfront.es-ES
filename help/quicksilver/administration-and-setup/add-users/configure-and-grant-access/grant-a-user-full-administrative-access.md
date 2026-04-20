@@ -5,10 +5,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 46bcb65a-1cb7-443b-88ba-6d0e516e3050
-source-git-commit: 2a83e5a415ff254cf5525d6f44ecb0e447e7e70a
+source-git-commit: a22bff203680d2b59e14a9d705c963f2a1d3a80b
 workflow-type: tm+mt
-source-wordcount: '1542'
-ht-degree: 94%
+source-wordcount: '1571'
+ht-degree: 91%
 
 ---
 
@@ -16,9 +16,13 @@ ht-degree: 94%
 
 <!--Audited: 12/2024-->
 
+<!--Remove me October 2026-->
+
 >[!IMPORTANT]
 >
->El procedimiento descrito en esta página se aplica solo a las organizaciones que aún no se han incorporado a Admin Console. Si su organización se ha incorporado a Adobe Admin Console, debe llevar a cabo esta acción mediante Adobe Admin Console.
+>El procedimiento descrito en esta página se aplica solo a las organizaciones que aún no se han incorporado a Admin Console. Una vez que su organización se haya incorporado a Adobe Admin Console, debe realizar esta acción a través de Adobe Admin Console.
+>
+>**Debido a que todas las organizaciones se han migrado a Adobe Admin Console, la información de este artículo ya no es relevante y se eliminará en un futuro próximo.**
 >
 >Para obtener instrucciones sobre cómo conceder acceso de administrador completo en Adobe Admin Console, consulte [Administrar usuarios en Adobe Admin Console](../../../administration-and-setup/add-users/create-and-manage-users/admin-console.md).
 >
@@ -43,7 +47,7 @@ Como administrador de Adobe Workfront, puede crear otro administrador de Workfro
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td role="rowheader">Paquete de Adobe Workfront</td> 
    <td>Cualquiera</td> 
   </tr> 
   <tr> 

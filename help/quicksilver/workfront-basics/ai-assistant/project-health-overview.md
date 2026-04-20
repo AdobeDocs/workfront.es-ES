@@ -1,18 +1,18 @@
 ---
-title: Resumen de estado del proyecto
+title: Información general del estado del proyecto
 content-type: reference
 description: La función Project Health utiliza el poder del Asistente de IA para ofrecerle instantáneamente una evaluación del rendimiento de sus proyectos.
 author: Jenny
 feature: Get Started with Workfront
 exl-id: e4d200c6-7f35-4919-96d3-2880a655ed62
-source-git-commit: b95be2e0917b53195ac327880a2ea7399c1485de
+source-git-commit: d9d6d572840f5691888d0db3242f3908978079b3
 workflow-type: tm+mt
 source-wordcount: '2060'
 ht-degree: 4%
 
 ---
 
-# Resumen de estado del proyecto
+# Información general del estado del proyecto
 
 >[!IMPORTANT]
 >
@@ -76,6 +76,8 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
 Su organización debe tener habilitado el Asistente para IA para poder usar Project Health.
 
 Para habilitar el Asistente de IA y el Estado del proyecto para su organización, deben aplicarse todas las siguientes condiciones:
+
+<!--Remove me October 2026-->
 
 * Su organización debe haber migrado al sistema Identity Management de Adobe (IMS).
 * Su organización debe tener un paquete Workfront o Workflow Select, Prime o Ultimate.

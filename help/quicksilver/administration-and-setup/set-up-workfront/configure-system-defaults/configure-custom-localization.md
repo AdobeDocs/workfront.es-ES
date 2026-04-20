@@ -7,16 +7,16 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: bdc6d5ee-2037-4d0b-bf18-3e6cc9cb078e
-source-git-commit: 28178c3794832e14552d988259c1792a6fed1da1
+source-git-commit: aeb471fd63269d30a675e44fe1a47db6141eb9ed
 workflow-type: tm+mt
-source-wordcount: '391'
-ht-degree: 19%
+source-wordcount: '370'
+ht-degree: 20%
 
 ---
 
 # Configuración de la localización personalizada
 
-La localización personalizada le permite definir términos y frases personalizados en diferentes idiomas. A continuación, Workfront muestra estos términos en el idioma establecido en la configuración de Adobe Identity Management (IMS) del usuario. Si el usuario no está en Adobe IMS, los términos se muestran en el idioma establecido en la configuración del explorador del usuario.
+La localización personalizada le permite definir términos y frases personalizados en diferentes idiomas. A continuación, Workfront muestra estos términos en el idioma establecido en la configuración de Adobe Identity Management (IMS) del usuario.
 
 Por ejemplo, puede establecer la etiqueta &quot;Audiencia objetivo&quot; para que se traduzca a la palabra alemana &quot;Zielgruppe&quot;. Cualquier usuario con el alemán seleccionado como idioma principal del navegador ve la palabra &quot;Zielgruppe&quot; como una etiqueta para cualquier campo etiquetado como &quot;Audiencia objetivo&quot; en inglés.
 

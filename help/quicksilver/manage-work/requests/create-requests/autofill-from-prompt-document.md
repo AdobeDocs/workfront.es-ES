@@ -7,10 +7,10 @@ feature: Get Started with Workfront
 exl-id: 4a22f9ea-c9ee-4947-8683-9989c54903b1
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: d8ccdeac9a658ca7a2862781e98c2c3c6fa0e8a0
 workflow-type: tm+mt
-source-wordcount: '1491'
-ht-degree: 14%
+source-wordcount: '1473'
+ht-degree: 13%
 
 ---
 
@@ -61,8 +61,11 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
 
 Para usar el relleno de formulario con tecnología de IA para rellenar una solicitud mediante un aviso o documento, se deben aplicar **todas** las siguientes opciones:
 
-* Su organización debe haber migrado a Adobe IMS (Identity Management System)
-* La experiencia unificada de Adobe debe estar habilitada
+<!--
+Remove me October 2026
+* Your organization must have migrated to Adobe IMS (Identity Management System)
+* The Adobe Unified Experience must be enabled
+-->
 * Su organización debe tener un plan Select, Primer o Ultimate de Workfront
 * Adobe debe tener un acuerdo firmado en el archivo de Adobe Gen AI
 

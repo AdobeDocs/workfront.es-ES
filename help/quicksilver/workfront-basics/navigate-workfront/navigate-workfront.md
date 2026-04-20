@@ -7,10 +7,10 @@ feature: Get Started with Workfront
 author: Courtney
 recommendations: noDisplay, noCatalog
 exl-id: 2ee82e53-1cc3-4438-a325-8c2c4d4ca1fb
-source-git-commit: 64b8a835a57be8995c82a0ab15c40f46170c7067
+source-git-commit: 0a38554b8bbd870b8b9b0e221b25c120cd0f941e
 workflow-type: tm+mt
 source-wordcount: '123'
-ht-degree: 86%
+ht-degree: 91%
 
 ---
 
@@ -35,8 +35,8 @@ Esta sección contiene las siguientes subsecciones y artículos:
 * [Información general sobre encabezados de objetos](../../workfront-basics/the-new-workfront-experience/new-object-headers.md)
 * [Anclar páginas para personalizar el espacio de trabajo](../../workfront-basics/the-new-workfront-experience/pin-pages.md)
 * [Listas en [!DNL Adobe Workfront]](../../workfront-basics/navigate-workfront/use-lists/lists.md)
-* [Agregar un tablero en el panel izquierdo de un objeto o área de Workfront](/help/quicksilver/workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/create-custom-tabs.md)
-* [Acceder a la ayuda de  [!DNL Adobe Workfront] &#x200B;](../../workfront-basics/navigate-workfront/workfront-navigation/access-workfront-help.md)
+* [Añadir un panel en el panel izquierdo de un objeto o área de Workfront](/help/quicksilver/workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/create-custom-tabs.md)
+* [Acceder a la ayuda de  [!DNL Adobe Workfront] ](../../workfront-basics/navigate-workfront/workfront-navigation/access-workfront-help.md)
 * [Información general sobre las fechas del proyecto, la tarea y el problema en  [!DNL Workfront]](../../workfront-basics/navigate-workfront/workfront-navigation/definitions-pti-dates.md)
 * [Comprenda la navegación de un usuario con licencia de [!UICONTROL Trabajo]](../../workfront-basics/navigate-workfront/workfront-navigation/worker-global-navigation-bar.md)
-* [Comprenda la navegación de un usuario con licencia de [!UICONTROL Revisión]](../../workfront-basics/navigate-workfront/workfront-navigation/reviewer-global-navigation-bar.md)
+* [Comprenda la navegación de un usuario con licencia para [!UICONTROL Light]](../../workfront-basics/navigate-workfront/workfront-navigation/reviewer-global-navigation-bar.md)

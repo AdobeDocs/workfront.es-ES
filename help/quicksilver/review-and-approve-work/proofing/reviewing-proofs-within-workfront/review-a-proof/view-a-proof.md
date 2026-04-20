@@ -6,9 +6,9 @@ description: Obtenga información sobre cómo ver contenido en una prueba.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: f44e191c-edce-4387-8ab0-7a014d094a29
-source-git-commit: 385f4a6663cacfdcf519bf5699fc1840c2cb2adc
+source-git-commit: 480f40d77cfc494ac28a2332c0e15bd1f0f00a6b
 workflow-type: tm+mt
-source-wordcount: '827'
+source-wordcount: '818'
 ht-degree: 20%
 
 ---
@@ -19,7 +19,7 @@ Puede utilizar el visor de revisión para ver y marcar archivos en Workfront.
 
 >[!NOTE]
 >
->Si la instancia de Workfront está en la experiencia unificada, el visualizador de pruebas se abrirá en una nueva pestaña.
+>El visor de revisión se abre en una nueva pestaña.
 
 
 ## Requisitos de acceso
@@ -31,7 +31,7 @@ Puede utilizar el visor de revisión para ver y marcar archivos en Workfront.
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td role="rowheader">Paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 

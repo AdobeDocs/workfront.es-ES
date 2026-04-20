@@ -7,18 +7,18 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 8f5b78c9-b84f-4f56-b7cc-ba686fac2da1
-source-git-commit: b9547764abd4f1f61d93da6bc66d9e6776954f4d
+source-git-commit: 480f40d77cfc494ac28a2332c0e15bd1f0f00a6b
 workflow-type: tm+mt
-source-wordcount: '186'
-ht-degree: 95%
+source-wordcount: '163'
+ht-degree: 73%
 
 ---
 
 # Formato de dominio para llamadas a la API de Adobe Workfront
 
-Cuando realiza una llamada de API a la API de Workfront, utiliza el dominio de su organización en la llamada. El formato de esta URL de dominio difiere según si la organización se ha incorporado al Unified Shell de Adobe.
+Cuando realiza una llamada de API a la API de Workfront, utiliza el dominio de su organización en la llamada.
 
-Para saber si su organización está en el Unified Shell de Adobe, examine la dirección URL que se muestra cuando está viendo una página de Workfront.
+La dirección URL que cree para la llamada de API depende de la dirección URL que utilice para conectarse a Workfront.
 
 | La URL de Workfront comienza con: | URL para llamadas API: |
 |---|---|
@@ -33,7 +33,7 @@ Para saber si su organización está en el Unified Shell de Adobe, examine la di
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td role="rowheader">Paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera </p> </td> 
   </tr> 
   <tr> 

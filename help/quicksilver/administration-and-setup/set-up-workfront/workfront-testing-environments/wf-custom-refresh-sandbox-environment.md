@@ -9,10 +9,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: e18c005b-e6ff-4a1e-a589-63132f3a8ad2
-source-git-commit: 5b5f9083ed4b60fa6642100cfb9b0da46799dffa
+source-git-commit: aeb471fd63269d30a675e44fe1a47db6141eb9ed
 workflow-type: tm+mt
-source-wordcount: '1741'
-ht-degree: 91%
+source-wordcount: '1584'
+ht-degree: 90%
 
 ---
 
@@ -189,19 +189,25 @@ Para programar una actualización de la zona protegida de actualización del cli
 >[!NOTE]
 >
 >Las notificaciones push y de envío de informes en la aplicación móvil siempre están desactivadas para el entorno de zona protegida de actualización personalizada. Ni usted ni el administrador de [!DNL Workfront] pueden habilitar la entrega de informes o las notificaciones push para la aplicación móvil al acceder al entorno de zona protegida de actualización personalizada.\
->Para obtener más información sobre los envíos de informes para el entorno de producción, consulte [Resumen de la entrega de informes](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md).
+>Para obtener más información sobre las entregas de informes para el entorno de producción, consulte [Información general sobre la entrega de informes](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md).
 
-## Configuración del inicio de sesión único en la zona protegida de actualización personalizada
+<!--
 
-Si desea configurar la zona protegida de actualización personalizada para que funcione con una solución de inicio de sesión único, puede configurarla por separado desde el entorno de producción. La configuración de SSO de la zona protegida de actualización personalizada es independiente de la configuración de SSO del entorno de producción.\
-Al actualizar la zona protegida de actualización personalizada, la información de SSO no se copia desde el entorno de producción para sobrescribir la configuración de la zona protegida de actualización personalizada.
+Remove me October 2026
 
-Los pasos para configurar el inicio de sesión único en la zona protegida de actualización personalizada son similares a los necesarios para configurarlo en el entorno de producción.\
-Para obtener más información sobre la configuración de [!DNL Workfront] con SSO, consulte [Información general sobre el inicio de sesión único en Adobe Workfront](../../../administration-and-setup/add-users/single-sign-on/sso-in-workfront.md).
+## Configure Single Sign-On in the Custom Refresh Sandbox
+
+If you want to configure your Custom Refresh Sandbox to work with a Single Sign-On solution, you can do so by configuring it separately from your Production environment. The SSO configuration in the Custom Refresh Sandbox is independent from your SSO configuration in the Production environment.\
+When you refresh your Custom Refresh Sandbox, the SSO information is not copied from your Production environment to overwrite the Custom Refresh Sandbox configuration.
+
+The steps for configuring single sign-on in the Custom Refresh Sandbox are similar to those for configuring it in the Production environment.\
+For more information about configuring [!DNL Workfront] with SSO, see [Overview of single sign-on in Adobe Workfront](../../../administration-and-setup/add-users/single-sign-on/sso-in-workfront.md).
 
 >[!NOTE]
 >
->Esto no está disponible si la instancia de [!DNL Workfront] de su organización está habilitada con Adobe IMS. Consulte al administrador de red o de TI si necesita más información.
+>This is not available if your organization's [!DNL Workfront] instance is enabled with Adobe IMS. See your network or IT administrator if you need more information.
+
+-->
 
 ## Recálculo automático de escalas de tiempo de proyectos
 
@@ -211,7 +217,7 @@ Como administrador de Workfront, puede configurar cuándo Workfront recalcula au
 
 Para obtener más información, vea [Configurar cálculos de escala de tiempo para proyectos](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-timeline-recalculations-projects.md).
 
-Para el entorno de espacio aislado de actualización personalizado, el cálculo nocturno está deshabilitado y las escalas de tiempo del proyecto no se recalculan automáticamente. Debe recalcular manualmente la cronología del proyecto para el entorno de espacio aislado de actualización personalizado. Para obtener más información, consulte [Recalcular líneas de tiempo de proyecto](/help/quicksilver/manage-work/projects/manage-projects/recalculate-project-timeline.md).
+Para el entorno de espacio aislado de actualización personalizado, el cálculo nocturno está deshabilitado y las escalas de tiempo del proyecto no se recalculan automáticamente. Debe recalcular manualmente la cronología del proyecto para el entorno de espacio aislado de actualización personalizado. Para obtener más información, consulte [Recalcular cronologías de proyecto](/help/quicksilver/manage-work/projects/manage-projects/recalculate-project-timeline.md).
 
 
 ## Uso y disponibilidad previstos

@@ -7,7 +7,7 @@ description: Adobe  [!DNL Workfront]  se ha asociado con algunas plataformas de 
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 6f989fb8-5e33-4626-92cf-1d3a629698b0
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: aeb471fd63269d30a675e44fe1a47db6141eb9ed
 workflow-type: tm+mt
 source-wordcount: '120'
 ht-degree: 70%
@@ -35,3 +35,5 @@ La aplicación móvil de Workfront ya está disponible en la tienda de aplicacio
 * Android
 
 La instancia de Workfront debe estar en Adobe Identity Management System (IMS).
+
+<!--remove this note October 2026-->

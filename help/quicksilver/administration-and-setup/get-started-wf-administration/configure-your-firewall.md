@@ -8,10 +8,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 264eed40-6d90-498b-83cc-2500c8b19c84
-source-git-commit: a1bf0e508d11089c0835f17daf6a9e17d1b6b161
+source-git-commit: aeb471fd63269d30a675e44fe1a47db6141eb9ed
 workflow-type: tm+mt
-source-wordcount: '1569'
-ht-degree: 15%
+source-wordcount: '1538'
+ht-degree: 14%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 15%
 >
 >El procedimiento descrito en esta página se aplica solo a las organizaciones que aún no se han incorporado a Admin Console. Si su organización se ha incorporado a Adobe Admin Console, debe llevar a cabo esta acción mediante Adobe Admin Console.
 >
->Para configurar la lista de permitidos si su organización se ha incorporado a Adobe Admin Console, consulte [Dominios permitidos para aplicaciones y servicios de Adobe](https://helpx.adobe.com/es/enterprise/kb/network-endpoints.html).
+>Para configurar la lista de permitidos si su organización se ha incorporado a Adobe Admin Console, consulte [Dominios permitidos para aplicaciones y servicios de Adobe](https://helpx.adobe.com/enterprise/kb/network-endpoints.html).
 >
 >Para obtener una lista de procedimientos que difieren según si su organización se ha incorporado a Adobe Admin Console, consulte [Diferencias de administración basadas en la plataforma (Adobe Workfront/Adobe Business Platform)](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
@@ -32,12 +32,6 @@ ht-degree: 15%
 >La forma en que una organización configura su lista de permitidos es única para cada organización. Trabaje con su equipo de TI para identificar el procedimiento de su organización e implementar estas adiciones.
 
 Si el cortafuegos o el servidor de correo están configurados para permitir el acceso solo a determinados proveedores, debe añadir determinadas direcciones IP a su lista de permitidos. Esto abre la comunicación entre su entorno y los servidores de Adobe Workfront y permite los siguientes procesos:
-
-* Envío de mensajes desde la aplicación de Workfront
-
-  >[!NOTE]
-  >
-  >Esto no está disponible si la instancia de Workfront de su organización está habilitada con Adobe IMS. Consulte al administrador de red o de TI si necesita más información.
 
 * Uso de los webhooks de documentos al configurar integraciones de documentos personalizadas
 * Uso de suscripciones a eventos de Workfront
@@ -442,7 +436,7 @@ Si su organización utiliza el filtrado de red saliente, agregue los siguientes 
    * mfe-preview.static.workfront.com
    * mfe-review.static.workfront.com
 
-Si su organización se encuentra en la experiencia unificada de Adobe, utiliza los siguientes dominios. Estos dominios están cubiertos en `*.adobe.com`, pero se pueden agregar si lo desea.
+Como su organización se encuentra en la experiencia unificada de Adobe, utiliza los siguientes dominios. Estos dominios están cubiertos en `*.adobe.com`, pero se pueden agregar si lo desea.
 
 * &lt;su dominio>.my.workfront.adobe.com
 * &lt;su dominio>.preview.workfront.adobe.com
@@ -451,6 +445,8 @@ Si su organización se encuentra en la experiencia unificada de Adobe, utiliza l
 
 
 Para Workfront Fusion, añada los siguientes dominios:
+
+<!--Remove me October 2026-->
 
 * Para las organizaciones que no están en la experiencia unificada de Adobe:
    * app.workfrontfusion.com (US AWS)

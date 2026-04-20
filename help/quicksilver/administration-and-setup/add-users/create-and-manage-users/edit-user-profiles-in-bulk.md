@@ -8,7 +8,7 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: cb709b2f-659e-4110-81ac-a1ef967d534c
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: a22bff203680d2b59e14a9d705c963f2a1d3a80b
 workflow-type: tm+mt
 source-wordcount: '2587'
 ht-degree: 65%
@@ -16,17 +16,6 @@ ht-degree: 65%
 ---
 
 # Editar perfiles de usuario de forma masiva
-
-<!--
-
->[!IMPORTANT]
->
->The procedure described on this page applies only to organizations that have not yet been onboarded to the Admin Console. If your organization has been onboarded to the Adobe Admin Console, you must perform this action through the Adobe Admin Console.
->
->For instructions on editing a user's profile in the Adobe Admin Console, see the section "Edit user details" in the article [Bulk Upload Users](https://helpx.adobe.com/es/enterprise/using/bulk-upload-users.html) or contact your Adobe Admin Console Administrator.
->
->For a list of procedures that differ based on whether your organization has been onboarded to the Adobe Admin Console, see [Platform-based administration differences (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
--->
 
 Puede editar las cuentas de usuario de forma masiva. Al editar usuarios de forma masiva, solo los campos que seleccione específicamente se actualizarán con la misma información para todos los usuarios seleccionados. Todos los demás campos que deje sin seleccionar permanecerán igual para cada usuario individual, aunque sean diferentes para cada usuario.
 
@@ -45,7 +34,7 @@ Puede editar las cuentas de usuario de forma masiva. Al editar usuarios de forma
  <col> 
  <tbody> 
   <tr> 
-   <td>paquete de Adobe Workfront</td> 
+   <td>Paquete de Adobe Workfront</td> 
    <td><p>Cualquiera</p></td> 
   </tr> 
   <tr> 
@@ -197,7 +186,7 @@ Para obtener más información, consulte [Configurar notificaciones de los event
 
   Para obtener información acerca de cómo configurar las preferencias de Administración de recursos, vea [Configurar las preferencias de Administración de recursos](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
 
-* **Programación**: asocie una programación con los usuarios. La programación de los usuarios calcula la línea de tiempo de las tareas que se les asignan.
+* **Programación**: asocie una programación con los usuarios. La programación de los usuarios calcula la cronología de las tareas que se les asignan.
 
   Debe crear una programación para poder asociarla a los usuarios. Para obtener más información acerca de cómo crear programaciones, vea [Crear una programación](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
 

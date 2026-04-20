@@ -8,16 +8,16 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 55cc75c5-8b8c-48e7-b114-b41fe3d545d8
-source-git-commit: c037b4f9e5530d8dd796bed25021f7073f16061f
+source-git-commit: 58a6b489ca5f1683a5c40c63bb4528b1f49e9324
 workflow-type: tm+mt
-source-wordcount: '535'
-ht-degree: 61%
+source-wordcount: '526'
+ht-degree: 62%
 
 ---
 
 # Personalización de las páginas ancladas con una plantilla de diseño
 
-En una plantilla de diseño, puede anclar las páginas que desea que los usuarios tengan siempre disponibles en la parte superior de Adobe Workfront. Se puede acceder a estas páginas a través del ![icono del menú principal](assets/main-menu-icon.png) o del menú principal ![icono del menú principal](assets/main-menu-icon-left-nav.png) cuando está disponible, o a través de los paneles.
+En una plantilla de diseño, puede anclar las páginas que desea que los usuarios tengan siempre disponibles en la parte superior de Adobe Workfront. Pueden ser páginas a las que se accede a través del ![icono del menú principal](assets/main-menu-icon-left-nav.png) o paneles.
 
 Todos los anclajes que los usuarios hayan añadido por su cuenta se mostrarán a la derecha de los anclajes que añada en la plantilla de diseño.
 

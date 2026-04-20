@@ -8,10 +8,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: abe026d0-3584-49f3-a6db-ef88b3aab186
-source-git-commit: f1fe1a2fe6e123d8a039e8d7e3547c0b0a8141df
+source-git-commit: 480f40d77cfc494ac28a2332c0e15bd1f0f00a6b
 workflow-type: tm+mt
-source-wordcount: '365'
-ht-degree: 79%
+source-wordcount: '305'
+ht-degree: 85%
 
 ---
 
@@ -32,7 +32,7 @@ Los usuarios individuales también pueden restablecer su propia configuración d
  <col> 
  <tbody> 
   <tr> 
-   <td>paquete de Adobe Workfront</td> 
+   <td>Paquete de Adobe Workfront</td> 
    <td><p>Cualquiera</p></td> 
   </tr> 
   <tr> 
@@ -120,25 +120,13 @@ Al restablecer las preferencias de usuario, algunas se revierten al valor predet
 1. Seleccione **Iniciar sesión como**.
 1. Empiece a escribir el nombre del usuario cuyas preferencias desee restablecer y, a continuación, haga clic en el nombre cuando aparezca en la lista desplegable.
 1. Seleccione **Iniciar sesión**.
-1. Si su organización no se ha incorporado a la experiencia unificada de Adobe, siga este paso:
+1. En el campo URL en la parte superior del navegador web, agregue y agregue `/resetUser` después de `workfront`.
 
-   * En el campo URL de la parte superior del explorador web, añada `/resetUser` detrás de `workfront.com`.
-
-     >[!NOTE]
-     >
-     >Distingue entre mayúsculas y minúsculas. La U debe escribirse en mayúscula y los caracteres restantes deben escribirse en minúscula. Por ejemplo:
-     >
-     >`https://company_domain.my.workfront.com/resetUser`
-
-1. Si su organización se ha incorporado a la experiencia unificada de Adobe, siga este paso:
-
-   * En el campo URL en la parte superior del navegador web, agregue y agregue `/resetUser` después de `workfront`.
-
-     >[!NOTE]
-     >
-     >Distingue entre mayúsculas y minúsculas. La U debe escribirse en mayúscula y los caracteres restantes deben escribirse en minúscula. Por ejemplo:
-     >
-     >`https://experience.adobe.com/#/@company/so:(domain)-(environment)/workfront/resetUser`
+   >[!NOTE]
+   >
+   >Distingue entre mayúsculas y minúsculas. La U debe escribirse en mayúscula y los caracteres restantes deben escribirse en minúscula. Por ejemplo:
+   >
+   >`https://experience.adobe.com/#/@company/so:(domain)-(environment)/workfront/resetUser`
 
 1. Presione **Intro**.
 
