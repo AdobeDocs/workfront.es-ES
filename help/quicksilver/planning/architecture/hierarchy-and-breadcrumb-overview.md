@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: de066d44-d214-47cc-8483-37c2623585ea
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: a6f2c9eda2045093c8d77243ed6843a1472d36c6
 workflow-type: tm+mt
-source-wordcount: '1096'
+source-wordcount: '1099'
 ht-degree: 0%
 
 ---
@@ -44,7 +44,7 @@ Las siguientes son ventajas de utilizar jerarquías en los espacios de trabajo:
 * No se pueden agregar los siguientes tipos de objeto en una jerarquía:
    * Tipos de registro de otros espacios de trabajo, incluso cuando están configurados como tipos de registro conectables o globales. Puede agregar tipos de registros globales a jerarquías sólo cuando se hayan agregado al espacio de trabajo desde el que está creando la jerarquía.
    * Todos los demás objetos de Workfront.
-   * AEM Assets.
+   * AEM Assets o fragmentos de contenido.
 * Las jerarquías pueden incluir tipos de registros de Planning y proyectos de Workfront al mismo tiempo.
 
   Por ejemplo, puede tener un tipo de registro de campaña con Tácticas de planificación y Proyectos de Workfront como elementos secundarios en la misma jerarquía de espacio de trabajo.

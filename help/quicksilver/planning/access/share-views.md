@@ -8,22 +8,25 @@ recommendations: noDisplay, noCatalog
 exl-id: 673dd888-3135-48b0-8198-c8d6d6706ddf
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 10d2bcf3f2d349418a8a04e96873bc5c2d3af4a1
+source-git-commit: a6f2c9eda2045093c8d77243ed6843a1472d36c6
 workflow-type: tm+mt
-source-wordcount: '2016'
-ht-degree: 42%
+source-wordcount: '2005'
+ht-degree: 39%
 
 ---
 
 
 # Compartir vistas
 
-<!--there are several mentions on how to share public links for global record types in secondary workspaces in this articel; you have to update all of these mentions when something changes-->
+<!--
+there are several mentions on how to share public links for global record types in secondary workspaces in this articel; you have to update all of these mentions when something changes
+-->
 
-<span class="preview">La información resaltada en esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa para todos los clientes. Después de las versiones mensuales en Production, las mismas funciones también están disponibles en el entorno Production para los clientes que habilitaron versiones rápidas. </span>
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Para obtener información sobre las versiones rápidas, consulte [Habilitar o deshabilitar las versiones rápidas para su organización](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
-
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -217,7 +220,7 @@ Puede compartir las vistas que ha creado o las vistas en las que tiene permiso d
    >
    >* Además de los equipos, grupos, empresas y funciones del puesto, solo puede compartir con los usuarios que se han añadido a Adobe Admin Console. No puede agregar usuarios solo de Workfront. Para obtener más información, consulte [Administrar usuarios en Adobe Admin Console](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md).
    >
-   >* Cuando comparte una vista con un usuario, su rol de trabajo principal <span class="preview">y su correo electrónico</span> también se muestran en el campo. Debe tener activada la configuración Ver información de contacto para el objeto Usuarios en su nivel de acceso para poder ver el correo electrónico del usuario.
+   >* Cuando comparte una vista con un usuario, su función de trabajo principal y su correo electrónico también se muestran en el campo. Debe tener activada la configuración Ver información de contacto para el objeto Usuarios en su nivel de acceso para poder ver el correo electrónico del usuario.
 
    * **Todos los usuarios del espacio de trabajo pueden ver**: todos los usuarios que tengan permisos de visualización o superiores en los espacios de trabajo pueden acceder a la vista.
 
@@ -225,7 +228,7 @@ Puede compartir las vistas que ha creado o las vistas en las que tiene permiso d
 
    ![Compartir una vista con grupos](assets/sharing-a-view-ui-with-groups.png)
 
-1. <span class="preview">(Opcional) Cuando comparta con un grupo, equipo, función o empresa, pase el ratón sobre el nombre de la entidad y haga clic en la flecha que señala a la derecha para expandir la lista de usuarios que reciben los permisos. </span>
+1. (Opcional) Cuando comparta con un grupo, equipo, función o empresa, pase el ratón sobre el nombre de la entidad y haga clic en la flecha que señala a la derecha para expandir una lista de usuarios que reciben los permisos.
 
    ![Compartir vista con el equipo](assets/share-view-with-team-expanding-arrow-highlighted.png)
 
@@ -239,15 +242,20 @@ Puede compartir las vistas que ha creado o las vistas en las que tiene permiso d
 
 1. Haga clic en **Guardar**.
 
-   La vista se actualiza con un icono de personas ![Vista compartida con otros iconos](assets/view-shared-with-others-people-icon.png) para indicar que la vista ahora se comparte con otros usuarios.
-
    Los usuarios con los que compartió la vista reciben una notificación dentro de la aplicación y por correo electrónico sobre si tienen permisos para ella.
 
-   >[!TIP]
-   >
-   >Las vistas sin un icono de personas o global son vistas que ha creado y no se comparten con otros. Las vistas no compartidas solo son visibles para usted.
-
 1. Comparta el vínculo copiado con otros usuarios. Los usuarios que reciban el vínculo deben ser usuarios activos e iniciar sesión en Workfront para poder acceder a la página de tipo de registro y mostrarla en la vista seleccionada.
+
+1. (Opcional) Pase el ratón sobre el nombre de una vista para conocer el nombre del propietario de la vista y si esta se comparte de forma privada o pública.
+
+   Existen las siguientes etiquetas:
+
+   * **Público**: la vista se comparte públicamente. Para obtener más información, consulte la sección [Compartir permisos para una vista públicamente](#share-permissions-to-a-view-publicly) en este artículo.
+   * **Propiedad suya**: usted crea la vista.
+   * **Compartida con usted**: la vista la crean otros usuarios y se comparte con usted. También se muestra el nombre del propietario.
+   * **Privado**: usted creó la vista o lo crearon otros, pero no se comparte públicamente.
+
+   ![La vista compartida en privado pasa el ratón sobre la etiqueta](assets/privately-shared-view-hover-over-label.png)
 
 ## Compartir permisos para una vista públicamente
 
@@ -296,22 +304,16 @@ Para compartir una vista públicamente en Workfront Planning:
 
 1. Haga clic en **Guardar**.
 
-   La vista se actualiza con un icono global ![Icono de vista compartida pública resaltado](assets/public-shared-view-icon-highlighted.png) para indicar que la vista se comparte públicamente.
+1. (Opcional) Pase el ratón sobre el nombre de la vista en la lista de vistas y observe que la vista indica que ahora se comparte públicamente.
 
-   >[!TIP]
-   >
-   >Las vistas sin un icono de personas o global son vistas que ha creado y no se comparten con otros. Las vistas no compartidas solo son visibles para usted.
+   ![La vista compartida públicamente pasa el ratón sobre la etiqueta](assets/publicly-shared-view-hover-over-label.png)
 
 1. (Opcional) Pegue el vínculo que ha copiado en un correo electrónico, mensaje de chat, documento o comentario de Workfront para compartirlo con otros usuarios.
 
-   <div class="preview">
-
    Cuando otros usuarios abren una vista pública, ven la siguiente información sobre la vista en el encabezado:
 
-   * Nombre e icono de la vista
+   * El nombre y el icono de la vista. El icono indica el tipo de vista: una tabla, una cronología o un calendario.
    * El nombre del tipo de registro que muestra la vista
-
-   </div>
 
 ## Copia de un vínculo a una vista
 

@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 940945df-391c-4672-9d9d-180d5028509b
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: a6f2c9eda2045093c8d77243ed6843a1472d36c6
 workflow-type: tm+mt
-source-wordcount: '887'
+source-wordcount: '889'
 ht-degree: 7%
 
 ---
@@ -142,8 +142,8 @@ Old:
 * No se admiten hojas vacías.
 * No se admiten los campos de los siguientes tipos y no se pueden asignar a campos de la hoja de importación:
 
-   * Campos de conexión a Workfront y tipos de objeto de AEM Assets. Sólo se pueden asignar campos de conexión a tipos de registro de Planning.
-   * Campos de búsqueda de registros de Planning conectados u objetos de Workfront y AEM Assets
+   * Campos de conexión a tipos de objeto de Workfront y Adobe Experience Manager. Sólo se pueden asignar campos de conexión a tipos de registro de Planning.
+   * Campos de búsqueda de registros de Planning conectados u objetos de Workfront y Adobe Experience Manager
    * Campos de fórmula
    * Fecha de creación, Creado por
    * Fecha de la última modificación, Última modificación por

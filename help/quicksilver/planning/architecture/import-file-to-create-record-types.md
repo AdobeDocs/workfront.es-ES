@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 2afd6d57-d658-4065-86f5-2324d3818d1f
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: ca8f1375d641531eaf11e3889ccb67a6fbe1788f
+source-git-commit: a6f2c9eda2045093c8d77243ed6843a1472d36c6
 workflow-type: tm+mt
-source-wordcount: '891'
+source-wordcount: '894'
 ht-degree: 8%
 
 ---
@@ -138,8 +138,8 @@ Old:
 * No se admiten hojas vacías.
 * No se admiten los campos de los siguientes tipos y no se pueden asignar a campos de la hoja de importación:
 
-   * Campos de conexión a Workfront, tipos de objetos de AEM Assets o GenStudio Brands.
-   * Campos de búsqueda de registros de Planning conectados, Workfront, objetos de AEM Assets o marcas de GenStudio.
+   * Campos de conexión a Workfront, tipos de objetos de Adobe Experience Manager o marcas de GenStudio.
+   * Campos de búsqueda de registros de Planning conectados, Workfront, objetos de Adobe Experience Manager o marcas de GenStudio.
    * Campos de fórmula
    * Fecha de creación, Creado por
    * Fecha de la última modificación, Última modificación por
@@ -203,7 +203,7 @@ Para importar tipos de registros mediante un archivo CSV o de Excel:
 
    >[!TIP]
    >
-   >Solo puede asignar a campos desde registros conectados de Workfront Planning. No se puede asignar a campos desde conexiones de Workfront, AEM Assets o GenStudio Brands. Para obtener más información, vea la sección [Consideraciones acerca de la importación de tipos de registros mediante un archivo CSV o de Excel](#considerations-about-importing-record-types-using-an-excel-or-csv-file) en este artículo.
+   >Solo puede asignar a campos desde registros conectados de Workfront Planning. No puede asignar campos desde conexiones de Workfront, Adobe Experience Manager o GenStudio Brands. Para obtener más información, vea la sección [Consideraciones acerca de la importación de tipos de registros mediante un archivo CSV o de Excel](#considerations-about-importing-record-types-using-an-excel-or-csv-file) en este artículo.
 
 1. (Condicional) Después de actualizar la información del campo, haga clic en **Guardar**.
 
