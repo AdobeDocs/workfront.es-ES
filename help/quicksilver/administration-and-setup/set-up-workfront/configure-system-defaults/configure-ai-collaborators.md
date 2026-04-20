@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: c38801ee-9750-4ffb-a912-cdcccfc7c60a
-source-git-commit: d20215ae2d535ba98ca27ce62aaa28fd372e935a
+source-git-commit: ca0583d7e375e7f17d058d7ca287785d17de35dd
 workflow-type: tm+mt
-source-wordcount: '564'
+source-wordcount: '556'
 ht-degree: 8%
 
 ---
@@ -79,10 +79,6 @@ Los colaboradores de IA del revisor se pueden configurar para que utilicen marca
 
 * **Marcas**: Las marcas se crean en Workfront. Puede crear marcas en Workfront cargando archivos de PDF que contengan las directrices de marca o introduciendo manualmente elementos de marca.
 * <span class="preview">**Adobe Brand Intelligence**: cuando un colaborador de IA revisa un recurso mediante Adobe Brand Intelligence, puede ver los comentarios realizados por el revisor en Frame.io.  </span>
-
->[!NOTE]
->
->El revisor de contenido no está disponible en entornos de espacio aislado.
 
 
 {{step-1-to-setup}}
