@@ -9,9 +9,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 0f4fd3a7-9578-4fda-b10f-9b4be147f1de
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 99048cf2b9320b7f00e1de3bae3f48bc145af5f0
+source-git-commit: 72fa86e6dc653905181603e0111f65eb0ca5965b
 workflow-type: tm+mt
-source-wordcount: '777'
+source-wordcount: '785'
 ht-degree: 1%
 
 ---
@@ -35,6 +35,7 @@ Cualquier usuario puede agregar el Revisor de contenido a una solicitud de revis
    * El Revisor de contenido de Workfront proporciona la funcionalidad disponible en GenStudio Foundation para los flujos de trabajo de revisión y aprobación de recursos. No es necesario que acceda directamente a GenStudio Foundation para completar su trabajo. El acceso a la funcionalidad de GenStudio Foundation a través del Revisor de contenido se encuentra dentro de los términos del contrato de Workfront.
 * Adobe debe tener registrado un acuerdo de Adobe Gen AI.
 Para obtener más información sobre la firma del acuerdo, consulte [Firmar el acuerdo de Adobe Gen AI](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#sign-the-adobe-gen-ai-agreement).
+* El revisor de contenido no está disponible en entornos de espacio aislado.
 
 
 ## Tipos de archivos compatibles {#supported-file-types-ai-reviewer}
