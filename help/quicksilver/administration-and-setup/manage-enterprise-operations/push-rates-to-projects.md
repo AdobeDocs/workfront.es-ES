@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: c38e60dd-7fb2-4afc-976a-b0966398c162
-source-git-commit: c27dd9d972b89af09c0865a0e878f1665416c80e
+source-git-commit: 7686cd33a5c761dc57cb488ea49a4139665949d9
 workflow-type: tm+mt
 source-wordcount: '274'
 ht-degree: 20%
@@ -17,7 +17,9 @@ ht-degree: 20%
 
 # Cambios en la tasa push de los proyectos
 
-Cuando se adjunta una tarjeta de tarifas a un proyecto <!--or a staffing plan-->, las tarifas de la tarjeta de tarifas aún se pueden ajustar. Entonces, opcionalmente puede insertar esas tarifas a los proyectos <!--and staffing plans --> a los que está adjunta la tarjeta de tarifas. Si no inserta las nuevas tarifas, las tarifas originales permanecerán en el proyecto<!-- or staffing plan-->.
+Cuando se adjunta una tarjeta de tarifas a un proyecto <!--or a staffing plan-->, las tarifas de la tarjeta de tarifas aún se pueden ajustar. A continuación, si lo desea, puede insertar esas tasas en los proyectos a los que está adjunta la tarjeta de tasas. Si no inserta las nuevas tasas, las tasas originales permanecerán en el proyecto.
+<!-- and staffing plans -->
+<!-- or staffing plan -->
 
 Para obtener información acerca de cómo adjuntar una tarjeta de tarifa a un proyecto, vea [Adjuntar una tarjeta de tarifa a un proyecto](/help/quicksilver/manage-work/projects/project-finances/attach-rate-card-to-project.md).
 
@@ -60,7 +62,12 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
 1. Haga clic en el nombre de la tarjeta de tarifa en la lista Tarjetas de tarifa.
 1. En la pantalla Tarjeta de tarifas > Funciones del puesto y tarifas, compruebe que las tarifas son correctas y edite las tarifas según sea necesario.
 1. Haga clic en [!UICONTROL **Cambios push**].
-1. En el cuadro de diálogo [!UICONTROL **Aplicar a todos los proyectos**]<!--/staffing plans-->, todos los proyectos <!--and staffing plans -->que usan esta tarjeta de tarifa se seleccionan de manera predeterminada. Si no desea que un proyecto <!--or staffing plan --> aplique los cambios de tarifa, debe deseleccionarlo.
+1. En el cuadro de diálogo [!UICONTROL **Aplicar a todos los proyectos**], todos los proyectos que usan esta tarjeta de tarifa se seleccionan de manera predeterminada. Si no desea que un proyecto aplique los cambios de tasa, debe deseleccionarlo.
+
+   <!--/staffing plans-->
+   <!--and staffing plans -->
+   <!--or staffing plan -->
+
 1. Haga clic en [!UICONTROL **Guardar**].
 
    Las nuevas tarifas ahora se reflejan en los proyectos <!--and staffing plans --> que usan la tarjeta de tarifas.

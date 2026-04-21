@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: d570ef6a-935f-4dd0-9c54-a480163ec9d8
-source-git-commit: c27dd9d972b89af09c0865a0e878f1665416c80e
+source-git-commit: 7686cd33a5c761dc57cb488ea49a4139665949d9
 workflow-type: tm+mt
 source-wordcount: '1378'
 ht-degree: 2%
@@ -86,7 +86,8 @@ Los atributos de tasa son compatibles con todas las áreas donde existen tasas e
 
 <!--
 BULLET POINT Staffing plan resources
-BULLET POINT Non-labor resources: Attributes can also be defined on resources such as equipment or services.-->
+BULLET POINT Non-labor resources: Attributes can also be defined on resources such as equipment or services.
+-->
 
 <!--Non-labor resource categories and -->Los roles no admiten atributos de tasa directamente en el nivel de objeto. Están conectados a atributos de tipo de cambio a través de los tipos definidos en ellos.
 

@@ -8,7 +8,7 @@ author: Alina
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: a6f2c9eda2045093c8d77243ed6843a1472d36c6
+source-git-commit: 7686cd33a5c761dc57cb488ea49a4139665949d9
 workflow-type: tm+mt
 source-wordcount: '3536'
 ht-degree: 36%
@@ -97,7 +97,7 @@ Puede conectar lo siguiente:
    <ul><li><p>Licencia de Adobe Experience Manager e integración entre Adobe Experience Manager y Workfront para conectar recursos de AEM o fragmentos de contenido con tipos de registros de Planning.</p>
    <p>Para obtener más información, consulte <a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md">Adobe Workfront para Experience Manager Assets y Assets Essentials: índice de artículo</a>. </p></li>
    <li><p> Licencia de Adobe GenStudio for Performance Marketing para conectar tipos de registros con marcas de GenStudio</p>
-   <p>Para obtener más información, consulte <a href="https://experienceleague.adobe.com/es/docs/genstudio-for-performance-marketing/user-guide/get-started">Introducción a Adobe GenStudio for Performance Marketing</a>.</p></li></ul>
+   <p>Para obtener más información, consulte <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/get-started">Introducción a Adobe GenStudio for Performance Marketing</a>.</p></li></ul>
    </td> 
   </tr>   
 <tr> 
@@ -403,7 +403,7 @@ Después de crear una conexión entre un tipo de registro y objetos de Adobe Exp
 
 >[!NOTE]
 >
->Se puede acceder a los registros de planificación y a sus campos desde Experience Manager Assets cuando el administrador de Workfront configura la asignación de metadatos mediante la integración entre Workfront y Adobe Experience Manager Assets. Para obtener más información, consulte [Configuración de la asignación de metadatos de recursos entre Adobe Workfront y Experience Manager Assets](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
+>Se puede acceder a los registros de planificación y a sus campos desde Experience Manager Assets cuando el administrador de Workfront configura la asignación de metadatos mediante la integración entre Workfront y Adobe Experience Manager Assets. Para obtener más información, consulte [Configuración de la asignación de metadatos de recursos entre Adobe Workfront y Experience Manager Assets](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
 
 <!--
 not sure if the above 2 paragraphs also apply to fragments; checking with Court and the Andy
@@ -435,7 +435,8 @@ Para conectar registros con objetos de Experience Manager:
     -->
 
    <!--
-    ![Select assets box for AEM record connections](assets/select-assets-box-for-aem-record-connections.png)-->
+    ![Select assets box for AEM record connections](assets/select-assets-box-for-aem-record-connections.png)
+    -->
 
 1. En la ficha **Assets**, haga clic para seleccionar algunos de los siguientes tipos de recursos:
 
@@ -447,11 +448,11 @@ Para conectar registros con objetos de Experience Manager:
    >[!IMPORTANT]
    >
    > Solo puede conectar recursos a los que tenga acceso para verlos en Experience Manager. Una vez conectados, todos los usuarios de Workfront Planning pueden ver los recursos en Workfront Planning, independientemente de su acceso en Experience Manager Assets.
-   > Para obtener más información sobre el Asesor de contenido, consulte [Usar el Asesor de contenido para acceder al contenido de AEM en las aplicaciones de Adobe](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications){target="_blank"}.
+   > Para obtener más información sobre el Asesor de contenido, consulte [Usar el Asesor de contenido para acceder al contenido de AEM en las aplicaciones de Adobe](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications){target="_blank"}.
 
 1. En la pestaña **Fragmentos de contenido**, seleccione los fragmentos de contenido que desee agregar al campo de registro vinculado.
 
-   Para obtener más información sobre los fragmentos de contenido, consulte [Usar el Asesor de contenido para acceder al contenido de AEM en las aplicaciones de Adobe](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications){target="_blank"}.
+   Para obtener más información sobre los fragmentos de contenido, consulte [Usar el Asesor de contenido para acceder al contenido de AEM en las aplicaciones de Adobe](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications){target="_blank"}.
 
 1. Cuando termine de elegir recursos o fragmentos de contenido, haga clic en **Seleccionar**. <!-- we might change this to Connect-->
 

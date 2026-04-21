@@ -10,9 +10,9 @@ role: Admin
 exl-id: 780c996c-5cf1-42fe-898d-2cc208bbae7b
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 2b190de6b6ef9ce53e96475d426a4d39cfbd4df4
+source-git-commit: f9c2c7192254a0d0c04056bc4c193eb35d4116b5
 workflow-type: tm+mt
-source-wordcount: '1864'
+source-wordcount: '1820'
 ht-degree: 51%
 
 ---
@@ -224,14 +224,9 @@ Puede usar caracteres comodín en las acciones de regla de negocio, tal como se 
    * Plan de asignación de personal
    * Plantilla
    * Recurso del plan de asignación de personal
-<!--
+   <!--
    * <span class="preview">Team</span>
--->
-
-1. Escriba **Name** para la regla de negocio en el cuadro de diálogo del generador de reglas.
-1. En el campo **Está activa**, seleccione si la regla debe estar activa al guardarla.
-
-   Si selecciona **No**, la regla se guardará como inactiva y podrá activarla más tarde.
+   -->
 
 1. Seleccione un **activador** para la regla empresarial. Las opciones son los siguientes:
 
@@ -306,4 +301,3 @@ Para activar una regla empresarial:
 1. Seleccione la regla empresarial en la lista de reglas y haga clic en el icono Editar.
 1. Seleccione **Sí** en **Está activa**, en el diálogo de regla empresarial.
 1. Haga clic en **Guardar**.
-

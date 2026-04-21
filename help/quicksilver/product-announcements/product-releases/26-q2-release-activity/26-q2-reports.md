@@ -7,7 +7,7 @@ recommendations: noDisplay, noCatalog
 exl-id: 4bc2fee9-fa86-41c7-80e7-44bf3e8077d8
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 1ef6ead705231a41cbf62b8a8b35f480da004970
+source-git-commit: 7686cd33a5c761dc57cb488ea49a4139665949d9
 workflow-type: tm+mt
 source-wordcount: '872'
 ht-degree: 11%
@@ -51,7 +51,7 @@ Los filtros existentes para los informes clásicos que usan `isCurrentVersion` o
 >Versión rápida de producción: jueves, 15 de abril de 2026
 >Producción para todos: viernes, 16 de abril de 2026
 
-Workfront ahora incluye un nuevo tipo de envío de vínculo para los informes programados. En lugar de generar y adjuntar un archivo, esta opción envía un mensaje de correo electrónico con un vínculo directo al informe en Workfront, lo que permite a los destinatarios ver {{$include }} los datos más actuales en la aplicación.
+Workfront ahora incluye un nuevo tipo de envío de vínculo para los informes programados. En lugar de generar y adjuntar un archivo, esta opción envía un mensaje de correo electrónico con un vínculo directo al informe en Workfront, lo que permite a los destinatarios ver `{{$include }}` los datos más actuales en la aplicación.
 
 La opción Vínculo es ahora el tipo de envío predeterminado para las reglas de envío de informes programados recién creadas, mientras que los formatos basados en archivos existentes (HTML, PDF, Excel y TSV) permanecen disponibles.
 
