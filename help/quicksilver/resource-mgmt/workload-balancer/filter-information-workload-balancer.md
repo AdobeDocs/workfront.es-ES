@@ -6,9 +6,9 @@ description: Para encontrar de forma eficaz los elementos de trabajo y centrarse
 author: Lisa
 feature: Resource Management
 exl-id: f8ffb40e-4e71-45fe-bcae-801d45d75a21
-source-git-commit: 53596271a838733b858c0b14a4e22b07a7cd20f6
+source-git-commit: 8bd433c11334d3ecd12afc98ee2d33fac06826f3
 workflow-type: tm+mt
-source-wordcount: '2437'
+source-wordcount: '2448'
 ht-degree: 50%
 
 ---
@@ -35,6 +35,8 @@ Como administrador de recursos, puede utilizar el Distribuidor de cargas de trab
 Este artículo contiene información sobre los filtros del Distribuidor de cargas de trabajo. Para obtener información sobre los filtros de Workfront, consulte [Información general sobre los filtros](../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
 ## Requisitos de acceso
+
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -71,6 +73,8 @@ Este artículo contiene información sobre los filtros del Distribuidor de carga
 </table>
 
 Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Información general sobre los filtros en el Distribuidor de cargas de trabajo
 
@@ -246,7 +250,7 @@ Puede duplicar y editar un filtro para crear uno nuevo.
 1. En la esquina superior derecha de las áreas **Trabajo sin asignar** o **Trabajo asignado**, haga clic en el icono **Filtro** ![Icono de filtro](assets/filter-icon.png).  El cuadro **Filtros** aparece a la derecha y el nombre del área para la que está duplicando el filtro se muestra en el encabezado.
 
 1. Pase el ratón sobre un filtro existente y luego haga clic en el menú **Más** ![Menú más](assets/more-menu-edit-filter.png).
-1. Haga clic en **Duplicar**.
+1. Haga clic en **Duplicate**.
 
    >[!TIP]
    >
