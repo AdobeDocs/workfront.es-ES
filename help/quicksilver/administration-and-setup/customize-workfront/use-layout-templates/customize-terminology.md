@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 3ab3ca43-d8e9-4545-a862-e6bf9419ef16
-source-git-commit: a1bf0e508d11089c0835f17daf6a9e17d1b6b161
+source-git-commit: 3080fc1ebf33186f3bdf64a960fd1b5572dbfb2f
 workflow-type: tm+mt
-source-wordcount: '628'
-ht-degree: 91%
+source-wordcount: '641'
+ht-degree: 89%
 
 ---
 
@@ -34,9 +34,9 @@ Después de guardar una plantilla de diseño en la que ha cambiado la terminolog
 >[!NOTE]
 >
 >* Pueden aparecer problemas gramaticales y de otro tipo al personalizar las etiquetas. Por ejemplo, si cambia “Problema” a “Solicitud”, puede haber lugares en la IU donde vea la frase “Un solicitud”. Para obtener más información, consulte [Implicaciones de la personalización de nombres de objeto](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#implications-of-customizing-object-names) en el artículo [Comprender los objetos en Adobe Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)
->
+>* Para personalizar las traducciones terminológicas a idiomas distintos del inglés, consulte [Configurar la localización personalizada](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-custom-localization.md).
 
-Para obtener más información sobre las plantillas de diseño, consulte [Crear y administrar plantillas de diseño](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
+Para obtener más información acerca de las plantillas de diseño, vea [Crear y administrar plantillas de diseño](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
 
 Para obtener más información sobre las plantillas de diseño para grupos, consulte [Crear y modificar plantillas de diseño de un grupo](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
 
