@@ -8,10 +8,10 @@ feature: Agile
 exl-id: b4c417a6-64c8-43e0-bace-b73572247b3e
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: b05fcb7bdc1693e9e2384390f2584330b855c39c
 workflow-type: tm+mt
-source-wordcount: '1484'
-ht-degree: 77%
+source-wordcount: '1560'
+ht-degree: 67%
 
 ---
 
@@ -192,6 +192,21 @@ El límite de trabajo en curso es simplemente una advertencia visual y no limita
 
 Puede configurar historias del registro de asuntos pendientes para que se añadan automáticamente a la primera columna del tablero [!UICONTROL Kanban] inmediatamente después de que se mueva un elemento de esa columna.
 
+Debe habilitar la configuración **Mostrar registro de pendientes** en el tablero [!UICONTROL Kanban] para usar esta funcionalidad.
+
+Cada vez que una historia se mueve de la columna [!UICONTROL En curso] a una columna del guion gráfico que representa un estado [!UICONTROL Completo] (o un estado que equivale a [!UICONTROL Completo]), la siguiente historia de la columna Registro de pendientes se mueve automáticamente a la columna [!UICONTROL Nuevo] del [!UICONTROL Panel Kanban].
+
+La historia siguiente es la historia incompleta con el número de orden de trabajo atrasado más bajo que cumple todos los siguientes criterios:
+
+* Se asigna al equipo.
+* No tiene una fecha real de finalización (es decir, aún no está completa).
+* No está ya en un panel Kanban.
+* Pertenece a un proyecto con un estado actual.
+
+El orden de trabajo pendiente no es lo mismo que la prioridad. Puede organizar el orden de los trabajos pendientes arrastrando y soltando historias en la columna Registro de pendientes. La historia en la parte superior del registro de pendientes es la que se arrastra al tablero a continuación.
+
+Para agregar automáticamente historias del registro de pendientes al tablero [!UICONTROL Kanban]:
+
 {{step1-to-team}}
 
 1. Haga clic en el icono **[!UICONTROL Cambiar de equipo]** ![icono Cambiar de equipo](assets/switch-team-icon.png) y, a continuación, seleccione un nuevo equipo en el menú desplegable o busque un equipo en la barra de búsqueda.
@@ -203,10 +218,6 @@ Puede configurar historias del registro de asuntos pendientes para que se añada
 
 1. Seleccione **[!UICONTROL Añadir automáticamente la historia siguiente del registro de asuntos pendientes]** para configurar que el siguiente elemento del registro de asuntos pendientes se añada automáticamente a la columna **[!UICONTROL Nuevo]** cuando se mueva un elemento fuera de la columna **[!UICONTROL En curso]**.
 
-   Los usuarios deben habilitar la configuración **Mostrar registro de asuntos pendientes** en el tablero [!UICONTROL Kanban] para que esta funcionalidad sea efectiva. Cuando los usuarios habilitan la configuración [!UICONTROL Mostrar registro de asuntos pendientes] en el [!UICONTROL tablero Kanban], se lleva a cabo la siguiente funcionalidad:
-
-   Cada vez que una historia se mueve de la columna [!UICONTROL En curso] a una columna del tablero de historias que representa un estado [!UICONTROL Completado] (o un estado que equivale a [!UICONTROL Completado]), una historia de la columna Registro de asuntos pendientes se mueve automáticamente a la columna [!UICONTROL Nuevo] del [!UICONTROL tablero Kanban].
-Cuando se añade desde el registro de asuntos pendientes, la historia con la prioridad más alta se añade al tablero de historias.
 
 1. Haga clic en **[!UICONTROL Guardar cambios]**.
 
