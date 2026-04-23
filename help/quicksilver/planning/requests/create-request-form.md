@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: a6f2c9eda2045093c8d77243ed6843a1472d36c6
+source-git-commit: 31aff197d6af521df2258f3f99fea6fb5785b9e3
 workflow-type: tm+mt
-source-wordcount: '3603'
+source-wordcount: '3185'
 ht-degree: 5%
 
 ---
@@ -21,10 +21,11 @@ ht-degree: 5%
 
 <!--take Preview and Production references at Production time-->
 
-<span class="preview">La información resaltada en esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa para todos los clientes. Después de las versiones mensuales en Production, las mismas funciones también están disponibles en el entorno Production para los clientes que habilitaron versiones rápidas. </span>
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Para obtener información sobre las versiones rápidas, consulte [Habilitar o deshabilitar las versiones rápidas para su organización](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
-
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -83,7 +84,7 @@ Para obtener información sobre cómo enviar solicitudes de Workfront Planning, 
 
       * Creado por, Última modificación por, Aprobado por
       * Fecha de creación, Fecha de la última modificación, Fecha de aprobación
-      * <span class="preview">Id. de registro</span>
+      * ID de registro
       * Campos de búsqueda de objetos Workfront
       * Campos de búsqueda de registros conectados de Workfront Planning
 
@@ -174,11 +175,6 @@ Los detalles del formulario se dividen en pestañas.
 * La pestaña **Formulario** le permite agregar campos y elementos de contenido al formulario
 * La ficha **Configuración** le permite establecer un proceso de aprobación para el formulario y establecer opciones de finalización de solicitudes.
 
-  >[!NOTE]
-  >
-  ><span class="preview">En el entorno de vista previa, la ficha Configuración reemplazó a la ficha Configuración.</span>
-  <!--* <span class="preview">The **Automations** tab allows you to automate what will occur based on features of the request made with the form.</span>-->
-
 #### Configuración de detalles del formulario
 
 1. Comience a crear o editar un formulario de solicitud, tal como se describe en la sección [Comience a crear un formulario de solicitud](#begin-creating-a-request-form).
@@ -203,7 +199,7 @@ Los detalles del formulario se dividen en pestañas.
      >* El campo **Asunto** requiere un valor cuando esté visible en el formulario de solicitud. Sin embargo, puede quitar el campo **Subject** si es necesario, y los solicitantes no lo verán en el formulario cuando envíen la solicitud.
      >* Cuando falta el campo **Subject** en un formulario de solicitud, pero hay un campo Nombre para el nombre del registro futuro, se asigna automáticamente el mismo nombre a la solicitud que al registro creado.
      >* Cuando faltan los campos **Subject** y **Name** en el formulario de solicitud, se asigna un nombre a la solicitud según el siguiente patrón: `< Request form name > < Entry date of the request >`; el registro se denomina **Untitled**.
-     >* <span class="preview">Para ver la información del campo **Asunto** en Workfront Planning, puede agregar el campo de conexión **Solicitud original** al tipo de registro asociado con el formulario de solicitud. Para obtener más información, vea [Conectar tipos de registros](/help/quicksilver/planning/architecture/connect-record-types.md).</span>
+     >* Para ver la información del campo **Subject** en Workfront Planning, puede agregar el campo de conexión **Solicitud original** al tipo de registro asociado con el formulario de solicitud. Para obtener más información, consulte [Conectar tipos de registros](/help/quicksilver/planning/architecture/connect-record-types.md).
 
    * Todos los campos asociados al tipo de registro.
 
@@ -239,49 +235,48 @@ Los detalles del formulario se dividen en pestañas.
 1. (Opcional) Haga clic en **Vista previa** para ver cómo se mostrará el formulario para otros usuarios cuando lo usen para enviar un nuevo registro.
 1. Continúe con una de las siguientes acciones:
 
-   * [Configurar detalles de configuración](#set-up-configuration-details) si desea configurar más detalles para el formulario en el entorno de producción
-   * <span class="preview">[Configurar opciones](#configure-settings) si desea configurar más detalles para el formulario en el entorno de producción</span>
+   <!--
+   * [Set up Configuration details](#set-up-configuration-details) if you want to configure more details for the form in the Production environment
+   -->
+   * [Configurar opciones](#configure-settings) si desea configurar más detalles para el formulario en el entorno de producción
    * [Complete la creación del formulario de solicitud](#complete-request-form-creation) si no desea configurar más opciones.
 
-#### Configurar los detalles de configuración
+<!--
+#### Set up Configuration details
 
 >[!NOTE]
 >
->Esta pestaña solo está disponible en el entorno de producción.
+>This tab is available only in the Production environment.
 
-En la pestaña Configuración, puede establecer el proceso de aprobación y configurar cuándo se marcará como Completada una solicitud creada a partir de este formulario.
+On the Configuration tab, you can set the approval process and configure when a request created from this form will be marked as Completed.
 
-1. Comience a crear o editar un formulario de solicitud, tal como se describe en la sección [Comience a crear un formulario de solicitud](#begin-creating-a-request-form).
+1. Begin creating or editing a request form, as described in the section [Begin creating a request form](#begin-creating-a-request-form).
+   
+    The request form for the selected record type opens in the Form tab. 
+1. (Optional) Set up any form details, as described in [Set up Form details](#set-up-form-details).    
 
-   El formulario de solicitud del tipo de registro seleccionado se abre en la pestaña Formulario.
-1. (Opcional) Configure cualquier detalle del formulario, tal como se describe en [Configurar detalles del formulario](#set-up-form-details).
+1. (Optional) If you want to add approvers, click the **Configuration** tab, then add at least one user or team to the **Approvers** field to approve new requests for this record form. 
 
-1. (Opcional) Si desea agregar aprobadores, haga clic en la ficha **Configuración** y, a continuación, agregue al menos un usuario o equipo al campo **Aprobadores** para aprobar nuevas solicitudes para este formulario de registro.
+   ![Configuration tab](assets/configuration-tab.png)
 
-   ![Ficha de configuración](assets/configuration-tab.png)
+   (******)-below bullet list is duplicated in the Add approval to a request form article(****)
 
-   <!--below bullet list is duplicated in the Add approval to a request form article-->
+   * You can add one or several approvers to a request form.
+   * If at least one approver rejects the request, the request is rejected and the record is not created. The request remains in the Requests area of Workfront.
+   * If you add more than one approver, and the Only one decision is required option is not enabled, all approvers must make a decision before a request is either approved or rejected.
+   * If a team is set as an approver, only one decision is required from the team.
 
-   * Puede agregar uno o varios aprobadores a un formulario de solicitud.
-   * Si al menos un aprobador rechaza la solicitud, esta se rechaza y no se crea el registro. La solicitud permanece en el área de solicitudes de Workfront.
-   * Si añade más de un aprobador y la opción Only one decision is required no está activada, todos los aprobadores deben tomar una decisión antes de aprobar o rechazar una solicitud.
-   * Si un equipo se establece como aprobador, solo se requiere una decisión del equipo.
+   For more information about adding approvals to request forms, see [Add approval to a request form](/help/quicksilver/planning/requests/add-approval-to-request-form.md). 
 
-   Para obtener más información sobre cómo agregar aprobaciones a los formularios de solicitud, consulte [Agregar aprobación a un formulario de solicitud](/help/quicksilver/planning/requests/add-approval-to-request-form.md).
+1. (Conditional) If you want the record to be created after any one of the approvers has approved it, check the **Only one decision is required** checkbox.
 
-1. (Condicional) Si desea que el registro se cree después de que cualquiera de los aprobadores lo haya aprobado, marque la casilla **Solo se requiere una decisión**.
+1. Select whether you want a request created from this form to be marked complete when the requested object is created, or when the requested object is completed.
+1. (Conditional) If you have selected for the request to be marked complete when the requested object is completed, select the field and value that indicate when the object is complete. For example, you could select the field Status and the value Complete to complete the request when the created object's status is set to Complete.
+1. Continue to [Set up Automations details](#set-up-configuration-details) if you want to configure more details for the form, or go to [Complete request form creation](#complete-request-form-creation).
 
-1. Seleccione si desea que una solicitud creada a partir de este formulario se marque como completada cuando se cree el objeto solicitado o cuando se complete el objeto solicitado.
-1. (Condicional) Si ha seleccionado que la solicitud se marque como completada cuando se complete el objeto solicitado, seleccione el campo y el valor que indican cuándo se completa el objeto. Por ejemplo, puede seleccionar el campo Estado y el valor Completar para completar la solicitud cuando el estado del objeto creado se establece en Completar.
-1. Continuar a <!--[Set up Automations details](#set-up-configuration-details) if you want to configure more details for the form, or go to -->[Completar la creación del formulario de solicitud](#complete-request-form-creation).
-
-<div class="preview">
+-->
 
 ### Configurar opciones
-
->[!NOTE]
->
->Esta pestaña solo está disponible en el entorno de vista previa.
 
 En la pestaña Settings, puede establecer reglas de aprobación y configurar cuándo una solicitud creada a partir de este formulario se marcará como Completada.
 
@@ -349,8 +344,6 @@ Las opciones de finalización permiten establecer si una solicitud se marca como
 1. (Condicional) Si ha seleccionado que la solicitud se marque como completada cuando se complete el objeto solicitado, seleccione el campo y el valor que indican cuándo se completa el objeto. Por ejemplo, puede seleccionar el campo Estado y el valor Completar para completar la solicitud cuando el estado del objeto creado se establece en Completar.
 1. Continuar a <!--[Set up Automations details](#set-up-configuration-details) if you want to configure more details for the form, or go to -->[Completar la creación del formulario de solicitud](#complete-request-form-creation).
 
-</div>
-
 <!--
  
 <div class="preview">
@@ -383,23 +376,24 @@ For information on creating automations in other areas of Workfront Planning, se
 ### Completar creación de formulario de solicitud
 
 1. Cree y configure el formulario como se describe en [Comience a crear un formulario de solicitud](#begin-creating-a-request-form) y [configure los detalles del formulario de solicitud](#set-up-details-for-the-request-form).
-1. (Opcional) Haga clic en el menú **Más** ![Menú más](assets/more-menu.png) que se encuentra a la derecha del nombre del formulario en el encabezado y, a continuación, haga clic en **Editar** para actualizar el nombre del formulario.
+1. (Opcional) Haga clic en el menú **Más** ![Menú más](assets/more-menu.png) que se encuentra a la derecha del nombre del formulario en el encabezado, luego haga clic en **Editar** para actualizar el nombre del formulario y su **Descripción**, y después haga clic en **Guardar**.
 
 1. Haga clic en **Publicar** para publicar el formulario y obtener un vínculo único para él.
 
    Ocurren lo siguiente:
 
    * Se ha quitado el botón **Publicar**.
+
+     El formulario está disponible en el área de Solicitudes del menú principal de Workfront.
    * Se agrega el botón **Cancelar publicación** al formulario. Si hace clic en él, se impedirá el acceso al formulario.
    * Se agrega un botón **Compartir** al formulario.
-   * El formulario está disponible en el área de Solicitudes del menú principal de Workfront.
 
 1. Haga clic en **Compartir** para compartir el formulario con otros usuarios.
 
    Para obtener información sobre cómo compartir un formulario de solicitud, consulte la sección [Compartir un formulario de solicitud](#share-a-request-form) en este artículo
 1. Haga clic en la flecha que señala a la izquierda del nombre del formulario en el encabezado para cerrar el formulario.
 
-   Se abre la vista de tabla **Formularios de solicitud** y se agrega el formulario.
+   Se abre la vista de lista **Formularios de solicitud** y se agrega el formulario.
 
 ## Administrar formularios de solicitud existentes
 
@@ -418,13 +412,8 @@ For information on creating automations in other areas of Workfront Planning, se
 1. (Opcional) Actualice los siguientes elementos de vista en la página **Formularios de solicitud** para cambiar el modo en que se muestra la información en la tabla:
 
    * Columnas
-
-   <!--
-   <div class="preview">
-   * Grouping <!-ensure they will change the label by Prod->
-   * Row height
-   </div>
-   -->
+   * Agrupación
+   * Altura de la fila
 
    Para obtener más información, consulte [Administrar la vista de lista](/help/quicksilver/planning/views/manage-the-list-view.md).
 
@@ -435,8 +424,6 @@ For information on creating automations in other areas of Workfront Planning, se
    * **Compartir**: haga clic aquí para modificar quién tiene acceso al formulario.
    * **Copiar vínculo**: haga clic aquí para copiar rápidamente el vínculo del formulario de solicitud sin abrir el formulario.
    * **Eliminar**: haga clic aquí para eliminar el formulario. No se eliminan todas las solicitudes y registros agregados mediante el formulario. El formulario no se puede recuperar.
-
-   <!--update screen shot at preview:-->
 
    ![Menú más en el formulario de solicitud de la lista de formularios de solicitud](assets/more-menu-on-request-form-from-request-forms-list.png)
 

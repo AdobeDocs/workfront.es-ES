@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: d36ab9fb-0275-483d-97be-0a88e170f8e0
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 31aff197d6af521df2258f3f99fea6fb5785b9e3
 workflow-type: tm+mt
-source-wordcount: '1504'
+source-wordcount: '1421'
 ht-degree: 5%
 
 ---
@@ -28,9 +28,11 @@ this article is linked to the UI in the Advanced settings/ Cross-workspace setti
 
 {{planning-important-intro}}
 
-<span class="preview">La información resaltada en esta página hace referencia a funcionalidades que aún no están disponibles de forma general. Solo está disponible en el entorno de vista previa para todos los clientes. Después de las versiones mensuales en Production, las mismas funciones también están disponibles en el entorno Production para los clientes que habilitaron versiones rápidas. </span>
+<!--
+<span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Para obtener información sobre las versiones rápidas, consulte [Habilitar o deshabilitar las versiones rápidas para su organización](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 Puede configurar los tipos de registros para que funcionen en varios espacios de trabajo en Adobe Workfront Planning.
 
@@ -83,22 +85,20 @@ O
   <tr> 
    <td role="rowheader"><p>Licencia de Adobe Workfront</p></td> 
    <td>
-   <p>En el entorno de producción: </p>
-   <p>Para convertir un registro en global:</p>
-   <ul><li>Estándar o superior</li></ul>
-   <p>Para hacer que un registro sea conectable:</p>
-   <ul><li>Administrador del sistema</li></ul>
+   <!--
+   <p>In the Production environment: </p>
+   <p>To make a record global:</p>
+   <ul><li>Standard or higher</li></ul>
+   <p>To make a record connectable:</p>
+   <ul><li>System Administrator</li></ul>
+   -->
 
-<div class="preview">
-
-<p>En el entorno de vista previa:</p>
-   <p>Para convertir un registro en global:</p>
+<p>Para convertir un registro en global:</p>
    <ul><li>Estándar o superior</li></ul>
    <p>Para hacer que un registro sea conectable:</p>
 
 <ul><li>Estándar para poder conectar un registro desde espacios de trabajo específicos</li>
    <li>Para que el administrador del sistema pueda conectar un registro desde todos los espacios de trabajo</li></ul>
-   </div>
 
 
 </td> 
@@ -240,7 +240,7 @@ Para configurar un tipo de registro como global:
 
    Para obtener más información, vea [Agregar tipos de registros existentes desde otro área de trabajo](/help/quicksilver/planning/architecture/add-existing-record-types-from-another-workspace.md).
 
-   El tipo de registro agregado de un tipo de registro global en el área de trabajo secundaria muestra <span class="preview">un icono **tipo de registro global** similar ![icono de tipo de registro global en el área de trabajo secundaria](assets/global-icon-secondary-workspace.png) que incluye una flecha, que indica que el tipo de registro se importó desde otra área de trabajo. Cuando pasa el ratón sobre el icono global del área de trabajo secundaria, aprenderá el nombre del área de trabajo original.</span>
+   El tipo de registro agregado de un tipo de registro global en el área de trabajo secundaria muestra un icono **tipo de registro global** similar ![icono de tipo de registro global en el área de trabajo secundaria](assets/global-icon-secondary-workspace.png) que incluye una flecha, que indica que el tipo de registro se importó desde otra área de trabajo. Cuando pasa el ratón por encima del icono global del espacio de trabajo secundario, puede aprender el nombre del espacio de trabajo original.
 1. (Opcional) Vuelva al espacio de trabajo original donde creó el tipo de registro global y edite el tipo de registro siguiendo los pasos del 1 al 4 anteriores a <!--ensure this stays accurate-->
 1. (Opcional) Revise la lista de espacios de trabajo donde se ha agregado el registro global en la sección **Espacios de trabajo donde se usa este tipo de registro**. El propietario del espacio de trabajo también aparece junto al nombre del espacio de trabajo.
 
@@ -276,9 +276,9 @@ Para configurar un tipo de registro como global:
 
    Cuando está habilitado, el tipo de registro es accesible y se puede conectar a desde otros espacios de trabajo.
 
-1. <span class="preview">(Condicional) Según la licencia que tenga,</span> elija desde qué espacios de trabajo se puede acceder al tipo de registro. Elija entre las siguientes opciones:
+1. (Condicional) Según la licencia que tenga, elija desde qué espacios de trabajo se puede acceder al tipo de registro. Elija entre las siguientes opciones:
 
-   * **Todos los espacios de trabajo**: los usuarios pueden conectarse a este tipo de registro desde todos los espacios de trabajo en los que tengan permisos de administración. <span class="preview">Esta opción está atenuada para los administradores de área de trabajo con una licencia estándar. Solamente los administradores del sistema pueden activar los tipos de registros de conexión de todos los espacios de trabajo.</span>
+   * **Todos los espacios de trabajo**: los usuarios pueden conectarse a este tipo de registro desde todos los espacios de trabajo en los que tengan permisos de administración. Esta opción aparece atenuada para los administradores de espacio de trabajo con una licencia estándar. Solo los administradores del sistema pueden activar la conexión de tipos de registros desde todos los espacios de trabajo.
    * **Espacios de trabajo específicos**: en el menú desplegable, agregue los nombres de los espacios de trabajo donde los administradores de espacios de trabajo pueden conectarse a este tipo de registro.
 
 1. (Condicional) Haga clic en **Guardar** en el cuadro **Editar tipo de registro** o haga clic en la flecha hacia atrás a la izquierda de **Configuración** en el encabezado de la página para guardar los cambios.

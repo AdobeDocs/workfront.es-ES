@@ -7,9 +7,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 7e440fc0-45ad-4f73-ae7e-5374e4ae1480
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 540d56017dccf238d301e81085b62b5163b71103
+source-git-commit: 31aff197d6af521df2258f3f99fea6fb5785b9e3
 workflow-type: tm+mt
-source-wordcount: '2362'
+source-wordcount: '2359'
 ht-degree: 24%
 
 ---
@@ -20,7 +20,7 @@ Esta página proporciona información sobre la funcionalidad que se incluye en l
 
 Las mejoras de esta página están disponibles en el entorno de vista previa. Esta página se actualizará con mejoras adicionales a medida que la versión del segundo trimestre de 2026 se aproxime a su versión de producción planificada.
 
-Se celebran seminarios web en directo para cada versión trimestral, en los que se destacan las nuevas funciones y se proporciona información detallada. Para registrarse, visite la [página de eventos](https://experienceleague.adobe.com/es/events?filters=Workfront) y filtre por Workfront.
+Se celebran seminarios web en directo para cada versión trimestral, en los que se destacan las nuevas funciones y se proporciona información detallada. Para registrarse, visite la [página de eventos](https://experienceleague.adobe.com/en/events?filters=Workfront) y filtre por Workfront.
 
 >[!IMPORTANT]
 >
@@ -394,9 +394,9 @@ Se celebran seminarios web en directo para cada versión trimestral, en los que 
             <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-other.md" class="MCXref xref" xrefformat="{para}">Se agregaron vistas predefinidas a la lista de solicitudes en el área de solicitudes y al widget Mis solicitudes </a><p></p>
             <p>Para ayudarle a organizar mejor su lista de solicitudes, hemos agregado vistas predefinidas a la lista de solicitudes en el área de Solicitudes y al widget Mis solicitudes en Inicio.</p>
         </td>
-           <td><p>N/D</p><p>Las vistas predefinidas no tendrán una versión de vista previa, y se lanzarán directamente al entorno de producción el 16 de abril. </p></td>
-        <td><p>viernes, 16 de abril de 2026</p></td>
-        <td><p>viernes, 16 de abril de 2026</p></td>
+           <td><p>N/D</p><p>Las vistas predefinidas no tendrán una versión de vista previa, y se lanzarán directamente a Producción. </p></td>
+        <td><p>Por determinar</p></td>
+        <td><p>Por determinar</p></td>
  </tr>
     <tr>
         <td>

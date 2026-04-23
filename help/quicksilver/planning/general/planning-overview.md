@@ -8,10 +8,10 @@ recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 31aff197d6af521df2258f3f99fea6fb5785b9e3
 workflow-type: tm+mt
-source-wordcount: '2357'
-ht-degree: 76%
+source-wordcount: '2268'
+ht-degree: 79%
 
 ---
 
@@ -23,9 +23,10 @@ this article is linked to the WF Planning landing page - do not change URL or mo
 
 <!--do not use the snippet for IMPORTANT as it links to this article-->
 
-<span class="preview">La información resaltada en esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa para todos los clientes. Después de las versiones mensuales en Production, las mismas funciones también están disponibles en el entorno Production para los clientes que habilitaron versiones rápidas. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Para obtener información sobre las versiones rápidas, consulte [Habilitar o deshabilitar las versiones rápidas para su organización](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 >[!IMPORTANT]
 >
@@ -291,7 +292,7 @@ Puede crear campos personalizados de los siguientes tipos:
 * Fecha de la última modificación
 * Aprobado por
 * Fecha de aprobación
-* <span class="preview">Id. de registro</span>
+* ID de registro
 
 <!--update the screen shot above-->
 
@@ -333,9 +334,6 @@ Por ejemplo, si conecta un tipo de registro Campaña con un tipo de objeto Proye
 >   * Última modificación realizada por
 >   * Campos de escritura anticipada de Workfront (incluidos campos como Propietario del proyecto o Patrocinador del proyecto)
 >
->* No puede agregar los siguientes tipos de campo como campos de búsqueda desde el registro conectado o el tipo de objeto en Producción, <span class="preview">pero puede agregarlos en el entorno de vista previa:</span>
->
->   * Personas
 
 Para obtener información sobre la conexión de tipos de registros, registros y la creación de campos vinculados, consulte los siguientes artículos:
 

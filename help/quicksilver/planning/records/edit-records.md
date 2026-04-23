@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 442ddab8c7b92d52e0de699bb7acf99a5ca0f215
+source-git-commit: 31aff197d6af521df2258f3f99fea6fb5785b9e3
 workflow-type: tm+mt
-source-wordcount: '2978'
+source-wordcount: '2918'
 ht-degree: 9%
 
 ---
@@ -18,10 +18,11 @@ ht-degree: 9%
 
 # Editar registros
 
-<span class="preview">La información resaltada en esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa para todos los clientes. Después de las versiones mensuales en Production, las mismas funciones también están disponibles en el entorno Production para los clientes que habilitaron versiones rápidas. </span>
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Para obtener información sobre las versiones rápidas, consulte [Habilitar o deshabilitar las versiones rápidas para su organización](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
-
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -143,7 +144,7 @@ Old:
 * Los siguientes tipos de campos se actualizan automáticamente y no se pueden editar sus valores manualmente:
    * Campos vinculados de otros registros
    * Campos de tipo fórmula
-   * Campos del sistema (Creado por, Fecha de creación, Última modificación por, Fecha de última modificación, Fecha de aprobación, Aprobado por , <span class="preview">Id. de registro</span>)
+   * Campos del sistema (Creado por, Fecha de creación, Última modificación por, Fecha de última modificación, Fecha de aprobación, Aprobado por , ID de registro)
 * Si los registros que muestra están vinculados a otros registros, la nueva información de los registros que está modificando se reflejará en los registros vinculados de todos los espacios de trabajo en los que esté vinculado ese registro.
 * No puede editar registros de forma masiva. <!--this will probably change-->
 * Las direcciones URL se reconocen como vínculos en tipos de campo de texto de una sola línea solo cuando comienzan con lo siguiente: http://, https://, ftp:// o www. .
@@ -345,7 +346,7 @@ Para obtener más información, consulte [Crear registros](/help/quicksilver/pla
 
    Cuando la configuración está desactivada, los avatares y los nombres se enumeran en el área del indicador en tiempo real y los campos que se están editando no están resaltados.
 
-   ![Cuadro de vista previa de registro expandido con indicador de tiempo real](assets/real-time-indicator-expanded-record-preview-box.png)
+   ![Cuadro de vista previa de registro expandido de indicador de tiempo real](assets/real-time-indicator-expanded-record-preview-box.png)
 
 1. (Opcional) Haga clic en el icono **Exportar** del menú ![Exportar en la página de detalles del registro](assets/export-icon-in-record-details-page.png) para exportar los detalles del registro. Para obtener más información, vea [Exportar los detalles de un registro](/help/quicksilver/planning/records/export-the-record-page.md).
 

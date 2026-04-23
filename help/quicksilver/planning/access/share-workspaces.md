@@ -8,18 +8,20 @@ recommendations: noDisplay, noCatalog
 exl-id: 475a519d-d3bd-4461-8099-0e296d556d34
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: ca8f1375d641531eaf11e3889ccb67a6fbe1788f
+source-git-commit: 31aff197d6af521df2258f3f99fea6fb5785b9e3
 workflow-type: tm+mt
-source-wordcount: '1064'
+source-wordcount: '1004'
 ht-degree: 11%
 
 ---
 
 # Compartir espacios de trabajo
 
-<span class="preview">La información resaltada en esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa para todos los clientes. Después de las versiones mensuales en Production, las mismas funciones también están disponibles en el entorno Production para los clientes que habilitaron versiones rápidas. </span>
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Para obtener información sobre las versiones rápidas, consulte [Habilitar o deshabilitar las versiones rápidas para su organización](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -156,39 +158,31 @@ Para compartir un espacio de trabajo con otros usuarios:
 
    ![Botón Compartir en la parte superior derecha del espacio de trabajo](assets/share-button-on-workspace-top-right.png)
 
-1. <span class="preview">(Condicional) Según el nivel de acceso que tenga, realice una de las siguientes acciones:
+1. (Condicional) Según el nivel de acceso que tenga, realice una de las siguientes acciones:
 
-   * Si usted es administrador del sistema, seleccione una de las siguientes opciones:</span>
-
-     <div class="preview">
+   * Si es administrador del sistema, seleccione una de las siguientes opciones:
 
       * **Solo las personas invitadas pueden tener acceso**: debe seleccionar entidades en el cuadro para compartir y elegir su acceso al área de trabajo. Esta es la selección predeterminada.
       * **Todos los usuarios del sistema pueden ver**: todos los usuarios del sistema con acceso a Planning pueden ver el área de trabajo en su área de **Espacios de trabajo** en Planning.
 
-     </div>
-
-   * <span class="preview">(Condicional) Si es un administrador de área de trabajo con una licencia estándar, puede ver una de las siguientes selecciones, pero no puede cambiarla:</span>
-
-     <div class="preview">
+   * (Condicional) Si es un administrador del espacio de trabajo con una licencia estándar, puede ver una de las siguientes selecciones, pero no puede cambiarla:
 
       * **Solo las personas invitadas pueden acceder**. Esta es la configuración predeterminada.
       * **Todos los usuarios del sistema pueden ver**
 
      Debe pedir a un administrador del sistema que cambie un permiso global para un espacio de trabajo.
 
-     </div>
-
 1. En el campo **Conceder acceso a este área de trabajo**, empiece a escribir el nombre de un usuario, grupo, equipo, empresa o rol y, a continuación, haga clic en él cuando se muestre en la lista.
 
-   <span class="preview">![IU para compartir con grupos](assets/sharing-ui-with-groups.png)</span>
+   ![IU para compartir con grupos](assets/sharing-ui-with-groups.png)
 
    >[!NOTE]
    >
    >* Además de los equipos, grupos, empresas y funciones del puesto, solo puede compartir con los usuarios que se han añadido a Adobe Admin Console. No puede agregar usuarios solo de Workfront. Para obtener más información, consulte [Administrar usuarios en Adobe Admin Console](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md).
    >
-   >* Cuando comparte un área de trabajo con un usuario, su rol de trabajo principal <span class="preview">y su correo electrónico</span> también se muestran en el campo. Debe tener activada la configuración Ver información de contacto para el objeto Usuarios en su nivel de acceso para poder ver el correo electrónico del usuario.
+   >* Cuando comparte un espacio de trabajo con un usuario, su función de trabajo principal y su correo electrónico también se muestran en el campo. Debe tener activada la configuración Ver información de contacto para el objeto Usuarios en su nivel de acceso para poder ver el correo electrónico del usuario.
 
-1. <span class="preview">(Opcional) Cuando comparta con un grupo, equipo, función o empresa, pase el ratón sobre el nombre de la entidad y haga clic en la flecha que señala a la derecha para expandir la lista de usuarios que reciben los permisos. </span>
+1. (Opcional) Cuando comparta con un grupo, equipo, función o empresa, pase el ratón sobre el nombre de la entidad y haga clic en la flecha que señala a la derecha para expandir una lista de usuarios que reciben los permisos.
 
    ![Compartir espacio de trabajo con un grupo](assets/share-workspace-role-expanding-arrow-highlighted.png)
 

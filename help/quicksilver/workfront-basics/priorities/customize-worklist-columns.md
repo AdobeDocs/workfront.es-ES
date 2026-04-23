@@ -6,18 +6,22 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: e4232fbe-1b5c-4614-8613-3b0e25ffee46
-source-git-commit: 10d2bcf3f2d349418a8a04e96873bc5c2d3af4a1
+source-git-commit: 31aff197d6af521df2258f3f99fea6fb5785b9e3
 workflow-type: tm+mt
-source-wordcount: '301'
-ht-degree: 21%
+source-wordcount: '241'
+ht-degree: 26%
 
 ---
 
 # Personalización de las columnas de lista de trabajo Prioridades
 
-<span class="preview">La información resaltada en esta página hace referencia a funcionalidades que aún no están disponibles de forma general. Solo está disponible en el entorno de vista previa para todos los clientes. Después de las versiones mensuales en Production, las mismas funciones también están disponibles en el entorno Production para los clientes que habilitaron versiones rápidas. </span>
+<!--I think this article can point to the Enhanced lists article for managing the view-->
 
-<span class="preview">Para obtener información sobre las versiones rápidas, consulte [Habilitar o deshabilitar las versiones rápidas para su organización](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<!--
+<span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 
 Puede personalizar las columnas de la lista de trabajos en Prioridades para admitir su forma de trabajar.
@@ -86,8 +90,6 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
 >
 >La columna Nombre es fija y no se puede mover.
 
-<div class="preview">
-
 ### Cambiar el alto de fila en la lista de prioridades
 
 {{step1-to-priorities}}
@@ -102,5 +104,3 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
    * Alta
 
    La lista se actualiza inmediatamente.
-
-</div>

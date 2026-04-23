@@ -8,10 +8,10 @@ recommendations: noDisplay, noCatalog
 exl-id: bf49db73-09f1-417e-836b-16c6062740d4
 last-update: 2026-04-01T18:23:03Z
 git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
-source-git-commit: 10d2bcf3f2d349418a8a04e96873bc5c2d3af4a1
+source-git-commit: 31aff197d6af521df2258f3f99fea6fb5785b9e3
 workflow-type: tm+mt
-source-wordcount: '1586'
-ht-degree: 5%
+source-wordcount: '1526'
+ht-degree: 4%
 
 ---
 
@@ -20,9 +20,11 @@ ht-degree: 5%
 
 # Compartir tipos de registro
 
-<span class="preview">La información resaltada en esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa para todos los clientes. Después de las versiones mensuales en Production, las mismas funciones también están disponibles en el entorno Production para los clientes que habilitaron versiones rápidas. </span>
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Para obtener información sobre las versiones rápidas, consulte [Habilitar o deshabilitar las versiones rápidas para su organización](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -224,7 +226,7 @@ Puede ajustar los permisos a los tipos de registro individuales de un espacio de
       >Los administradores de Workspace siguen teniendo permisos de administración en el tipo de registro.
 
    1. En el campo **Conceder acceso a este tipo de registro**, agregue los usuarios, equipos, grupos, empresas o roles de trabajo a los que desee conceder un nivel de permiso diferente del que tienen para el área de trabajo.
-   1. <span class="preview">(Opcional) Cuando comparta con un grupo, equipo, función o empresa, pase el ratón sobre el nombre de la entidad y haga clic en la flecha que señala a la derecha para expandir la lista de usuarios que reciben los permisos. </span>
+   1. (Opcional) Cuando comparta con un grupo, equipo, función o empresa, pase el ratón sobre el nombre de la entidad y haga clic en la flecha que señala a la derecha para expandir una lista de usuarios que reciben los permisos.
 
       ![Compartir tipo de registro con el grupo](assets/share-record-type-with-group-expanding-arrow-highlighted.png)
 
@@ -237,7 +239,7 @@ Puede ajustar los permisos a los tipos de registro individuales de un espacio de
    >* No puede conceder a los usuarios un permiso inferior al de Administrar a un tipo de registro si tienen permisos de Administración en el espacio de trabajo.
    >* Puede conceder a los usuarios un permiso inferior al tipo de registro si tienen permisos de contribución en el espacio de trabajo.
    > Para obtener más información, consulte [Información general sobre los permisos de uso compartido en Adobe Workfront Planning](/help/quicksilver/planning/access/sharing-permissions-overview.md).
-   >* Cuando comparte un tipo de registro con un usuario, su rol de trabajo principal <span class="preview">y su correo electrónico</span> también se muestran en el campo. Debe tener activada la configuración Ver información de contacto para el objeto Usuarios en su nivel de acceso para poder ver el correo electrónico del usuario.
+   >* Cuando comparte un tipo de registro con un usuario, su función de trabajo principal y su correo electrónico también se muestran en el campo. Debe tener activada la configuración Ver información de contacto para el objeto Usuarios en su nivel de acceso para poder ver el correo electrónico del usuario.
 
 1. Para que los usuarios que no tengan permisos de acceso al área de trabajo puedan ver un tipo de registro, en el campo **Conceder acceso a esta vista**, empiece a escribir el nombre de un usuario, un grupo, un equipo, una empresa o un rol y, a continuación, haga clic en él cuando aparezca en la lista.
 

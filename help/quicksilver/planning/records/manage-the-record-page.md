@@ -8,19 +8,21 @@ recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
 last-update: 2026-04-01T18:23:03Z
 git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 10bdce8dd7656d4313296ce830abe9c7baca1acb
 workflow-type: tm+mt
-source-wordcount: '1648'
-ht-degree: 44%
+source-wordcount: '1641'
+ht-degree: 45%
 
 ---
 
 
 # Administrar el diseño de página de registro
 
-<span class="preview">La información resaltada en esta página hace referencia a funcionalidades que aún no están disponibles de forma general. Solo está disponible en el entorno de vista previa para todos los clientes. Después de las versiones mensuales en Production, las mismas funciones también están disponibles en el entorno Production para los clientes que habilitaron versiones rápidas. </span>
+<!--
+<span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Para obtener información sobre las versiones rápidas, consulte [Habilitar o deshabilitar las versiones rápidas para su organización](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -173,6 +175,7 @@ Old:
 
 Tenga en cuenta lo siguiente al añadir secciones a una página de registro:
 
+* Solo puede agregar secciones cuando muestre todos los campos de un registro. No se pueden agregar secciones cuando se ocultan los campos ocultos en una vista de tabla.
 * No hay límite en cuanto a la cantidad de secciones que puede haber en una página.
 * No puede tener una sección vacía. Debe haber al menos un portafolio en el sistema.
 * Puede arrastrar y soltar campos de una sección a otra. Para obtener más información, consulte la sección [Administrar campos en la vista previa de registros o la página de detalles](#manage-fields-in-the-records-details-tab) en este artículo.
@@ -196,7 +199,7 @@ Para añadir una sección a una vista previa o a una página del registro:
 
    En la vista de tabla, haga clic en el icono **Abrir detalles** ![Abrir detalles en el campo de nombre de tabla](assets/open-details-icon-in-table-name-field.png) de la primera columna.
 
-   <span class="preview">La vista previa del registro se abre en la vista.</span>
+   La vista previa del registro se abrirá en la vista.
 
    ![Cuadro de detalles](assets/details-box.png)
 
@@ -275,32 +278,24 @@ Ocurren lo siguiente:
 
    En la vista de tabla, haga clic en el icono **Abrir detalles** ![Abrir detalles en el campo de nombre de tabla](assets/open-details-icon-in-table-name-field.png) de la primera columna.
 
-   <span class="preview">La vista previa del registro se abre en la vista.</span>
+   La vista previa del registro se abrirá en la vista.
 
    ![Cuadro de detalles](assets/details-box.png)
 
-1. <span class="preview"> (opcional y condicional) Según los campos que desee mostrar en la página Detalles, realice una de las siguientes acciones:</span>
+1. (Opcional y condicional) Según los campos que desee mostrar en la página Detalles, realice una de las siguientes acciones:
 
-   <div class="preview">
 
-   * Seleccione la opción **Mostrar todos los campos** para ver todos los campos de la vista de tabla del registro, incluidos los ocultos.
-   * Anule la selección del ajuste **Mostrar todos los campos** para ver únicamente los campos que no estén ocultos en la vista de tabla del registro. Esta es la configuración predeterminada
+   * Seleccione la configuración **Mostrar todos los campos** para incluir todos los campos del registro en la página **Detalles**. Esta es la configuración predeterminada.
+   * Anule la selección del ajuste **Mostrar todos los campos** para excluir los campos del registro que están ocultos en la vista de tabla del registro de la página **Detalles**.
 
-   </div>
+     >[!TIP]
+     >
+     >* La configuración **Mostrar todos los campos** solo está disponible en el cuadro de vista previa de detalles del registro. No está disponible cuando la página Detalles del registro se abre en una ventana del explorador.
+     >* No se pueden agregar secciones a la página de un registro cuando se excluyen campos ocultos en el cuadro Vista previa de detalles.
 
-   <!--
-      replace with this when they fix the UI text:
-      * Select the **Show all fields** setting to include all the record's fields in the **Details** page. This is the default setting. 
-      * Deselect the **Show all fields** setting to exclude the record's fields that are hidden in the table view of the record from the **Details** page.
-      -->
+1. (Opcional) Si desea desplazarse a un registro conectado, haga clic en el nombre de ese registro en la ruta de exploración situada en la parte superior de la página de detalles.
 
-   >[!TIP]
-   >
-   ><span class="preview">La configuración **Mostrar todos los campos** solo está disponible en el cuadro de vista previa de detalles del registro. No está disponible en la página Detalles del registro.</span>
-
-1. (Opcional) Si desea desplazarse a un registro conectado, haga clic en el nombre de ese registro en la ruta de exploración situada en la parte superior de la página de detalles. <span class="preview">
-
-   Si no puede ver el nombre de un registro en la ruta de exploración, haga clic en **Más**. Esto muestra la ruta de exploración en varias filas. Haga clic en **Menos** para acortar la ruta de exploración y mostrarla en una fila.</span>
+   Si no puede ver el nombre de un registro en la ruta de exploración, haga clic en **Más**. Esto muestra la ruta de exploración en varias filas. Haga clic en **Menos** para acortar la ruta de exploración y mostrarla en una fila.
 
    >[!TIP]
    >
