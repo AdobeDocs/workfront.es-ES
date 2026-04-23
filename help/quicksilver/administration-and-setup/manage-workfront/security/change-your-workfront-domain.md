@@ -8,20 +8,24 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: d817bd2b-1aaa-4dde-8e75-392c1da2943a
-source-git-commit: aeb471fd63269d30a675e44fe1a47db6141eb9ed
+source-git-commit: 51d0989bdbf4ecdc799658f30500c68bf5867e65
 workflow-type: tm+mt
-source-wordcount: '231'
-ht-degree: 38%
+source-wordcount: '241'
+ht-degree: 31%
 
 ---
 
 # Cambiar el dominio de Adobe Workfront
 
+<!--Remove me October 2026-->
+
 >[!IMPORTANT]
 >
->El procedimiento descrito en esta página se aplica solo a las organizaciones que aún no se han incorporado a Admin Console. Si su organización se ha incorporado a Adobe Admin Console, no es posible cambiar el dominio de Workfront.
+>El procedimiento descrito en esta página se aplicaba únicamente a las organizaciones que aún no se habían incorporado a Admin Console. Dado que todas las organizaciones se han incorporado a Adobe Admin Console, **no es posible cambiar el dominio de Workfront**.
 >
 >Para obtener una lista de procedimientos que difieren según si su organización se ha incorporado a Adobe Admin Console, consulte [Diferencias de administración basadas en la plataforma (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+>
+>Este artículo se eliminará en breve.
 
 Como administrador de Adobe Workfront y contacto autorizado de Soporte de Workfront, puede solicitar ayuda al equipo de Soporte de Workfront para cambiar el dominio de Workfront de su organización.
 

@@ -7,10 +7,10 @@ role: Admin
 exl-id: ae657964-d4a5-4c3b-afc6-8dde7695955d
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: a22bff203680d2b59e14a9d705c963f2a1d3a80b
+source-git-commit: 51d0989bdbf4ecdc799658f30500c68bf5867e65
 workflow-type: tm+mt
-source-wordcount: '1624'
-ht-degree: 93%
+source-wordcount: '1573'
+ht-degree: 94%
 
 ---
 
@@ -21,12 +21,6 @@ ht-degree: 93%
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 -->
-
->[!IMPORTANT]
->
->La funcionalidad de este artículo solo está disponible después de que la instancia de Workfront de su organización se haya incorporado a Adobe Business Platform.
->
->Para obtener una lista de procedimientos que difieren según si su organización se ha incorporado a Adobe Business Platform, consulte [Diferencias de administración basadas en la plataforma (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
 Como administrador de Adobe, puede crear administradores del sistema de Adobe Workfront con Adobe Admin Console. La consola es una ubicación central para administrar las autorizaciones de Adobe en toda la organización. Para obtener más información, consulte la [Información general sobre Admin Console](https://helpx.adobe.com/es/enterprise/using/admin-console.html).
 
@@ -250,14 +244,14 @@ Para obtener información sobre la edición masiva de usuarios en Adobe Admin Co
 >* Si un usuario está en un grupo de usuarios de Admin Console y el perfil de producto se ha agregado a uno o más de esos grupos de usuarios, desactivar el usuario de Workfront no los eliminará del producto. El usuario debe eliminarse de los grupos de usuarios en Admin Console.
 >* Al eliminar un usuario de Adobe Admin Console, se desactiva el usuario en Workfront, pero no se elimina de Workfront.
 
-Para obtener instrucciones sobre cómo eliminar usuarios en Adobe Admin Console, consulte [Administrar usuarios de directorio](https://helpx.adobe.com/es/enterprise/using/manage-directory-users.html) en la documentación de Adobe.
+Para obtener instrucciones sobre cómo eliminar usuarios en Adobe Admin Console, consulte [Administrar usuarios de directorio](https://helpx.adobe.com/enterprise/using/manage-directory-users.html) en la documentación de Adobe.
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
 <p>&nbsp;</p>
 <p>&nbsp;</p>
 <p>&nbsp;</p>
-<p>You can create Adobe Workfront users and system administrators with the <a href="https://adminconsole.adobe.com/" alt="Admin Console link">Adobe Admin Console</a>. The console is a central location for managing the Adobe entitlements across your organization. For more information, see the <a href="https://helpx.adobe.com/es/enterprise/using/admin-console.html" alt="Admin Console Overview">Admin Console Overview</a>.</p>
+<p>You can create Adobe Workfront users and system administrators with the <a href="https://adminconsole.adobe.com/" alt="Admin Console link">Adobe Admin Console</a>. The console is a central location for managing the Adobe entitlements across your organization. For more information, see the <a href="https://helpx.adobe.com/enterprise/using/admin-console.html" alt="Admin Console Overview">Admin Console Overview</a>.</p>
 <p>Before using the Admin Console for Workfront, you should receive a receive an email inviting you to the console. Click in the invitation to accept it and create an account. You can also use an existing account, if already available.</p>
 <h2>Create users</h2>
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Create users in WF with the Adobe admin console</p>

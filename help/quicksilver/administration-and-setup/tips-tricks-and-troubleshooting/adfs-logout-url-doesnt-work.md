@@ -9,10 +9,10 @@ author: Becky, Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 4d868625-e976-47b4-9e80-f1eca84a2768
-source-git-commit: fb555df123701c62e9a0f2d451ad6dcd16586595
+source-git-commit: 51d0989bdbf4ecdc799658f30500c68bf5867e65
 workflow-type: tm+mt
-source-wordcount: '217'
-ht-degree: 96%
+source-wordcount: '238'
+ht-degree: 79%
 
 ---
 
@@ -20,9 +20,13 @@ ht-degree: 96%
 
 <!-- Audited: 1/2024 -->
 
+<!--Remove me October 2026-->
+
 >[!IMPORTANT]
 >
->El procedimiento descrito en esta página se aplica solo a las organizaciones que aún no se han incorporado a [!UICONTROL Adobe Admin Console].
+>El procedimiento descrito en esta página se aplicaba únicamente a las organizaciones que aún no se habían incorporado a [!UICONTROL Adobe Admin Console].
+>
+>Dado que todas las organizaciones se han incorporado ahora a Adobe Admin Console, este artículo se eliminará en un futuro próximo.
 >
 >Si su organización se ha incorporado a [!UICONTROL Adobe Admin Console], consulte [Diferencias de administración basadas en la plataforma ([!DNL Adobe Workfront]/[!DNL Adobe Business Platform])](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 

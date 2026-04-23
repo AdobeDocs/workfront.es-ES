@@ -8,10 +8,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 264eed40-6d90-498b-83cc-2500c8b19c84
-source-git-commit: aeb471fd63269d30a675e44fe1a47db6141eb9ed
+source-git-commit: 51d0989bdbf4ecdc799658f30500c68bf5867e65
 workflow-type: tm+mt
-source-wordcount: '1538'
-ht-degree: 14%
+source-wordcount: '1539'
+ht-degree: 11%
 
 ---
 
@@ -19,11 +19,13 @@ ht-degree: 14%
 
 <!-- Audited: 12/2023 -->
 
+<!--Follow up October 2026-->
+
 >[!IMPORTANT]
 >
->El procedimiento descrito en esta página se aplica solo a las organizaciones que aún no se han incorporado a Admin Console. Si su organización se ha incorporado a Adobe Admin Console, debe llevar a cabo esta acción mediante Adobe Admin Console.
+>El procedimiento descrito en esta página se aplicaba únicamente a las organizaciones que aún no se habían incorporado a Admin Console. Dado que todas las organizaciones se han incorporado a Adobe Admin Console, debe realizar esta acción a través de Adobe Admin Console.
 >
->Para configurar la lista de permitidos si su organización se ha incorporado a Adobe Admin Console, consulte [Dominios permitidos para aplicaciones y servicios de Adobe](https://helpx.adobe.com/es/enterprise/kb/network-endpoints.html).
+>Para configurar la lista de permitidos una vez que su organización se haya incorporado a Adobe Admin Console, consulte [Dominios permitidos para aplicaciones y servicios de Adobe](https://helpx.adobe.com/enterprise/kb/network-endpoints.html).
 >
 >Para obtener una lista de procedimientos que difieren según si su organización se ha incorporado a Adobe Admin Console, consulte [Diferencias de administración basadas en la plataforma (Adobe Workfront/Adobe Business Platform)](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 

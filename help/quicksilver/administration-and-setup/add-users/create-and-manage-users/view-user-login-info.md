@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 7b37c34a-d628-4d9b-9688-e4b9f89c666b
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 51d0989bdbf4ecdc799658f30500c68bf5867e65
 workflow-type: tm+mt
-source-wordcount: '555'
+source-wordcount: '529'
 ht-degree: 91%
 
 ---
@@ -28,7 +28,7 @@ Puede ver la frecuencia con la que los usuarios inician sesión en Adobe Workfro
  <col> 
  <tbody> 
   <tr> 
-   <td>paquete de Adobe Workfront</td> 
+   <td>Paquete de Adobe Workfront</td> 
    <td><p>Cualquiera</p></td> 
   </tr> 
   <tr> 
@@ -63,11 +63,6 @@ El inicio de sesión en Workfront de cualquiera de las siguientes maneras cuenta
 * Las aplicaciones móviles de Workfront (dispositivos iOS o Android)
 * Cualquier integración de Workfront admitida con otra aplicación de terceros (como Slack).
 * Cualquier integración personalizada entre Workfront y una aplicación de terceros.
-* La API de Workfront
-
-  >[!NOTE]
-  >
-  >El inicio de sesión en Workfront a través de la API de Workfront solo está disponible para organizaciones que aún no se han incorporado a Adobe Business Platform.
 
 ## Mostrar información de uso en una lista de usuarios o un informe
 

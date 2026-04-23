@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: d8c27915-8e1b-4804-9ef8-3a2efd57caac
-source-git-commit: 319c45bc6617269f358af1e7b5f6132a8694710b
+source-git-commit: 51d0989bdbf4ecdc799658f30500c68bf5867e65
 workflow-type: tm+mt
-source-wordcount: '4396'
+source-wordcount: '4398'
 ht-degree: 98%
 
 ---
@@ -55,7 +55,7 @@ Para obtener una lista de objetos, códigos de objeto válidos y campos de objet
 
 >[!NOTE]
 >
->En el contexto de la API de Workfront, un formulario personalizado es un objeto `Category` y un campo personalizado es un objeto `Parameter`.
+>En el contexto de la API de Workfront, un formulario personalizado es un `Category`objeto y un campo personalizado es un `Parameter`objeto.
 
 ### Operaciones
 
@@ -133,7 +133,7 @@ La API utiliza la misma autenticación basada en cookies que la IU web utiliza e
 
 >[!NOTE]
 >
->El procedimiento descrito en esta sección se aplica solo a las organizaciones que todavía no se han incorporado a Adobe Business Platform. El inicio de sesión en Workfront a través de la API de Workfront no está disponible si su organización se ha incorporado a Adobe Business Platform.
+>El procedimiento descrito en esta sección se aplicaba únicamente a las organizaciones que aún no se habían incorporado a Adobe Business Platform. Dado que todas las organizaciones se han incorporado a Adobe Business Platform, el inicio de sesión en Workfront a través de la API de Workfront ya no está disponible **.**
 >
 >Para obtener una lista de procedimientos que difieren según si su organización se ha incorporado a Adobe Business Platform o no, consulte [Diferencias de administración basadas en la plataforma (Adobe Workfront/Adobe Business Platform)](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
@@ -302,7 +302,7 @@ a continuación, utilice la siguiente llamada de API con sus diferentes instrucc
 
 Un posible inconveniente del uso de parámetros de URL para los filtros de búsqueda es que Workfront analiza ciertos parámetros antes de comprobar si hay diferentes métodos de autenticación (por ejemplo: nombre de usuario, contraseña, apiKey o cookie). Cuando esto suceda, los parámetros no se utilizarán como filtros en la llamada. 
 
-Para evitar este problema, coloque estos valores en parámetros de filtro con formato JSON.  Por ejemplo, si quisiera filtrar por el usuario usuariodeprueba, en lugar de utilizar 
+Para evitar este problema, coloque estos valores en parámetros de filtro con formato JSON. Por ejemplo, si quisiera filtrar por el usuario usuariodeprueba, en lugar de utilizar 
 <pre>/attask/api/v15.0/user/search?username=usuariodeprueba@workfront.com</pre>pase el parámetro de URL en un filtro, tal y como se muestra en el siguiente ejemplo:
 <pre>/attask/api/v15.0/user/search?filters={"username":"usuariodeprueba@workfront.com"}</pre>
 
@@ -331,7 +331,7 @@ Para obtener una lista de posibles referencias de campo, consulte la [API Explor
 Es posible buscar objetos anidados. De forma predeterminada, los objetos anidados solo se devuelven con el nombre y el ID. Por ejemplo, para obtener todos los problemas junto con sus propietarios, utilice la siguiente solicitud:
 <pre>/attask/api/v15.0/issue/search?fields=owner</pre>Si se requiere más información, es posible solicitar un campo anidado mediante la sintaxis de dos puntos. Por ejemplo, la siguiente solicitud busca todos los problemas junto con el nombre, ID, título y número de teléfono del propietario
 <pre>/attask/api/v15.0/issue/search?fields=owner:title,owner:phoneNumber</pre>y devuelve lo siguiente: 
-<pre>&lbrace;{<br>    "name": "an important issue",<br>    "ID": "4c78285f00000908ea8cfd66e084939f",<br>    "owner": {<br>        "title": "Operations Specialist",<br>        "phoneNumber": "555-1234",<br>        "name": "Admin User",<br>        "ID": "4c76ed7a0000054c172b2c2d9f7f81c3" <br>    } <br>}</pre>
+<pre>{<br>    "name": "an important issue",<br>    "ID": "4c78285f00000908ea8cfd66e084939f",<br>    "owner": {<br>        "title": "Operations Specialist",<br>        "phoneNumber": "555-1234",<br>        "name": "Admin User",<br>        "ID": "4c76ed7a0000054c172b2c2d9f7f81c3" <br>    } <br>}</pre>
 
 #### Recuperación de colecciones anidadas
 
@@ -367,7 +367,7 @@ Es posible usar `count` para devolver el número de resultados que coincida con 
 
 Es posible realizar una solicitud de informe donde solo se desee el acumulado de algún campo con una o más agrupaciones. Tal y como se muestra en el ejemplo siguiente, la sintaxis del informe es la misma que la de la API de SOAP:
 <pre>GET /attask/api/v15.0/hour/report?project:name_1_GroupBy=true&amp;hours_AggFunc=sum</pre>que devuelve el siguiente resultado
-<pre>&lbrace;{<br>    "First Project": { <br>        "sum_hours": 15 <br>    }, <br>     "Second Project": { <br>        "sum_hours": 30 <br>    } <br>}</pre>Si se añade el parámetro $$ROLLUP=true, se incluirá un total en cada nivel de agrupación:
+<pre>{<br>    "First Project": { <br>        "sum_hours": 15 <br>    }, <br>     "Second Project": { <br>        "sum_hours": 30 <br>    } <br>}</pre>Si se añade el parámetro $$ROLLUP=true, se incluirá un total en cada nivel de agrupación:
 <pre>{<br>    "First Project": { <br>        "sum_hours": 15 <br>    }, <br>    "Second Project": { <br>        "sum_hours": 30 <br>    }, <br>    "$$ROLLUP": { <br>        "sum_hours": 45 <br>    } <br>}</pre>
 
 ### Ordenar los resultados de consulta en la API
@@ -436,7 +436,7 @@ Para garantizar un rendimiento óptimo, la siguiente tabla muestra las limitacio
 Para anular la limitación de la consulta Número predeterminado de resultados y permitir 200 resultados, incluya el filtro `$$LIMIT=200` en la consulta, tal y como se muestra en el ejemplo siguiente:
 <pre>GET /attask/api/v15.0/project/search?$$LIMIT=200</pre>
 
-Para garantizar la fiabilidad y el rendimiento de otros inquilinos del sistema, el límite máximo de resultados permitidos por consulta es de 2000 objetos. Si se intentase especificar un límite mayor, aparecerá un mensaje de error de `IllegalArgumentException`.
+Para garantizar la fiabilidad y el rendimiento de otros inquilinos del sistema, el límite máximo de resultados permitidos por consulta es de 2000 objetos. Si se intentase especificar un límite mayor, aparecerá un mensaje de error de `IllegalArgumentException`. 
 
 Por lo tanto, se recomienda considerar la posibilidad de utilizar respuestas paginadas para conjuntos de datos grandes. Para especificar qué primer resultado se devolverá, añada el filtro `$$FIRST`. Por ejemplo, la siguiente solicitud devuelve los resultados 201-250 de una consulta:
 <pre>GET /attask/api/v15.0/project/search?$$FIRST=200&amp;$$LIMIT=50</pre>
@@ -504,7 +504,7 @@ Algunos objetos tienen colecciones de propiedad privada que se pueden actualizar
 >Aunque las actualizaciones realizadas en el nivel superior son dispersas, las actualizaciones de una colección o de un objeto anidado reemplazan por completo a la colección existente. Para editar una única asignación en una tarea sin afectar a los objetos, utilice PUT en la asignación en lugar de en la tarea.
 
 El siguiente ejemplo convierte un proyecto en una cola del servicio de asistencia público. Tenga en cuenta que las propiedades de cola existentes se reemplazan.
-<pre>PUT /attask/api/v15.0/project/4c7...?updates= <br>&lbrace; <br>    queueDef: { <br>        isPublic: 1 <br>    } <br></pre>
+<pre>PUT /attask/api/v15.0/project/4c7...?updates= <br>{ <br>    queueDef: { <br>        isPublic: 1 <br>    } <br>}</pre>
 
 ### Uso del parámetro de solicitud de acción
 

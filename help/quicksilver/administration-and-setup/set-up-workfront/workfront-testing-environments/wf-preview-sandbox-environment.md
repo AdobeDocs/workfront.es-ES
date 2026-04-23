@@ -9,10 +9,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: e5c02b8c-854e-4c42-a599-f680443f425d
-source-git-commit: 6aa0aa5b8ffd088e3d79e7d1be66373a7f753f99
+source-git-commit: 51d0989bdbf4ecdc799658f30500c68bf5867e65
 workflow-type: tm+mt
-source-wordcount: '1310'
-ht-degree: 92%
+source-wordcount: '1320'
+ht-degree: 89%
 
 ---
 
@@ -156,9 +156,11 @@ Para obtener más información sobre el inicio de sesión único, consulte [Info
 
 >[!IMPORTANT]
 >
->El procedimiento que se describe en esta página solo se aplica a las organizaciones que aún no se han incorporado a [!DNL Adobe Admin Console]. Si su organización se ha incorporado a [!DNL Adobe Admin Console], no es necesario realizar ninguna acción.
+>El procedimiento descrito en esta sección se aplicó únicamente a las organizaciones que aún no se habían incorporado al [!DNL Adobe Admin Console]. Dado que todas las organizaciones se han incorporado a [!DNL Adobe Admin Console], no es necesario realizar ninguna acción.
 >
 >Para obtener una lista de procedimientos que difieren según si su organización se ha incorporado a [!DNL Adobe Admin Console], consulte [Diferencias de administración basadas en la plataforma ([!UICONTROL Adobe Workfront]/[!UICONTROL Adobe Business Platform])](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+>
+>Esta sección se eliminará en un futuro próximo.
 
 
 Si desea configurar la zona protegida de vista previa para que funcione con una solución de inicio de sesión único, puede configurarla por separado desde el entorno de producción. La configuración de SSO en la zona protegida de vista previa es independiente de la configuración de SSO en el entorno de producción.
@@ -177,7 +179,7 @@ Como administrador de Workfront, puede configurar cuándo Workfront recalcula au
 
 Para obtener más información, vea [Configurar cálculos de escala de tiempo para proyectos](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-timeline-recalculations-projects.md).
 
-Para el entorno de vista previa, el cálculo nocturno está deshabilitado y las escalas de tiempo del proyecto no se recalculan automáticamente. Debe recalcular manualmente la cronología del proyecto para el entorno de vista previa. Para obtener más información, consulte [Recalcular líneas de tiempo de proyecto](/help/quicksilver/manage-work/projects/manage-projects/recalculate-project-timeline.md).
+Para el entorno de vista previa, el cálculo nocturno está deshabilitado y las escalas de tiempo del proyecto no se recalculan automáticamente. Debe recalcular manualmente la cronología del proyecto para el entorno de vista previa. Para obtener más información, consulte [Recalcular cronologías de proyecto](/help/quicksilver/manage-work/projects/manage-projects/recalculate-project-timeline.md).
 
 
 ## Rendimiento y disponibilidad del entorno de vista previa
