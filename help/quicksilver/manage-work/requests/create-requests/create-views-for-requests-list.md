@@ -8,9 +8,9 @@ feature: Work Management
 exl-id: ed066075-6411-4350-8b39-f21dc4fa96c9
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 31aff197d6af521df2258f3f99fea6fb5785b9e3
+source-git-commit: 058abefdf7bcee16b9cee7f28e10337886c7fb05
 workflow-type: tm+mt
-source-wordcount: '683'
+source-wordcount: '689'
 ht-degree: 10%
 
 ---
@@ -189,7 +189,7 @@ hide these details - all the information is in "Use enhanced lists" - we need on
 
 ## Añadir la vista de solicitudes a una plantilla de diseño
 
-Un administrador de Workfront puede agregar una nueva vista a las plantillas de diseño para el área de Solicitudes.
+Un administrador de Workfront puede agregar o quitar una vista nueva o una vista del sistema a las plantillas de diseño del área de Solicitudes.
 
 Para obtener instrucciones, vea [Personalizar filtros, vistas y agrupaciones mediante una plantilla de diseño](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md).
 

@@ -8,10 +8,10 @@ feature: Work Management
 exl-id: 5094ba3f-3cb0-4301-aa7d-88c64d112b78
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 058abefdf7bcee16b9cee7f28e10337886c7fb05
 workflow-type: tm+mt
-source-wordcount: '734'
-ht-degree: 55%
+source-wordcount: '740'
+ht-degree: 54%
 
 ---
 
@@ -126,7 +126,7 @@ Old:
 
    Haga clic en **Nueva tarea de plantilla** para empezar a agregar tareas a su plantilla en el cuadro **Nueva tarea de plantilla**.
 
-   Se abre el cuadro **Crear tarea de plantilla** en la nueva experiencia.
+   El cuadro **Crear tarea de plantilla** se abrirá en la nueva experiencia al hacer clic en **Nueva tarea de plantilla**.
 
    ![Nueva experiencia para nueva tarea de plantilla](assets/new-template-task-box-unshimmed.png)
 
