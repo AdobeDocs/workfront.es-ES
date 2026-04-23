@@ -17,7 +17,7 @@ This page provides information about functionality that is included in the Third
 
 Las mejoras de esta página están disponibles en el entorno de vista previa. This page will be updated with additional enhancements as the Third Quarter 2026 release nears its planned Production release.
 
-Live webinars are held for each quarterly release - these highlight the new features and provide detailed information. To sign up, visit the [events page](https://experienceleague.adobe.com/en/events?filters=Workfront) and filter for Workfront.
+Live webinars are held for each quarterly release - these highlight the new features and provide detailed information. To sign up, visit the [events page](https://experienceleague.adobe.com/es/events?filters=Workfront) and filter for Workfront.
 
 >[!IMPORTANT]
 >
@@ -115,7 +115,7 @@ Para obtener información sobre las versiones de API, consulte [Versiones de API
 
 ### Workfront Maintenance Updates
 
-For information about the maintenance updates made during the Third Quarter 2026 release, see [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
+For information about the maintenance updates made during the Third Quarter 2026 release, see [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=es).
 
 -->
 
