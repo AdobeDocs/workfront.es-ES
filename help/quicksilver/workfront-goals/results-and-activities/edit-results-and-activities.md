@@ -9,7 +9,7 @@ feature: Workfront Goals
 exl-id: 922a05f9-2995-4401-a6d2-e5a331270fd3
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 453dbf1c7598858e99d963f7a3806355a8cc80a9
 workflow-type: tm+mt
 source-wordcount: '726'
 ht-degree: 87%
@@ -47,7 +47,7 @@ Para obtener información sobre la creación de metas, resultados y actividades,
   <td> <p>Paquete de Adobe Workfront</p> </td> 
    <td> 
    <p>Adobe Workfront Ultimate</p><p><b>NOTA</b></p>
-<p>Hable con su representante de Workfront si tiene un paquete de Workfront diferente.</p>
+<p>Speak with your Workfront representative if you have a different Workfront package.</p>
    </td> 
   </tr>
  <tr>
@@ -70,7 +70,7 @@ Para obtener información sobre la creación de metas, resultados y actividades,
  </tr>
 <tr>
    <td role="rowheader"><p>Plantilla de diseño</p></td>
-   <td> <p>A todos los usuarios, incluidos los administradores del sistema, se les debe asignar una plantilla de diseño que incluya el área Objetivos en el menú principal. </p>  
+   <td> <p>All users, including System Administrators,  must be assigned a layout template that includes the Goals area in the Main Menu. </p>  
 </td>
   </tr>
 </tbody>
@@ -191,14 +191,14 @@ Editing results differs depending on which environment you use.
 -->
 
 
-1. Haga clic en el **Menú principal** ![icono del Menú principal](assets/main-menu-icon.png) y luego en **Metas**.
+1. Click the **Main Menu** ![Main Menu icon](assets/lines-main-menu.png), then **Goals**.
 1. En la Lista de metas, haga clic en el nombre de una meta para abrir su página.
 1. Haga clic en **Indicadores de progreso** en el panel de la izquierda.
-1. Seleccione un resultado en la lista Progress indicators y haga clic en el icono **Editar** ![Editar icono](assets/edit-icon.png).
+1. Select a result in the Progress indicators list and click the **Edit** icon ![Edit icon](assets/edit-icon.png).
 
    Se abre el cuadro Editar resultado.
 
-   ![Editar cuadro de resultados](assets/edit-result-box-unshimmed.png)
+   ![Edit Result box](assets/edit-result-box-unshimmed.png)
 
 1. Edite la siguiente información:
    * **Nombre del resultado**: el nombre del resultado. Utilice un nombre descriptivo que ilustre qué resultado debe obtener para completar la meta.
@@ -236,14 +236,14 @@ Editing activities differs depending on which environment you use.
 1. Click **Save**.
 -->
 
-1. Haga clic en el **Menú principal** ![icono del Menú principal](assets/main-menu-icon.png) y luego en **Metas**.
+1. Click the **Main Menu** ![Main Menu icon](assets/lines-main-menu.png), then **Goals**.
 1. En la Lista de metas, haga clic en el nombre de una meta para abrir su página.
 1. Haga clic en **Indicadores de progreso** en el panel de la izquierda.
-1. Seleccione una actividad en la lista Progress indicators y haga clic en el icono **Editar** ![Editar icono](assets/edit-icon.png).
+1. Select an activity in the Progress indicators list and click the **Edit** icon ![Edit icon](assets/edit-icon.png).
 
    Se abre el cuadro Editar actividad.
 
-   ![Editar cuadro de actividades](assets/edit-activity-box-unshimmed.png)
+   ![Edit Activity box](assets/edit-activity-box-unshimmed.png)
 
 1. Edite la siguiente información:
 

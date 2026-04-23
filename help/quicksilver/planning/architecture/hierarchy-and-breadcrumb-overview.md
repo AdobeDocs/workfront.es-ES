@@ -8,18 +8,20 @@ recommendations: noDisplay, noCatalog
 exl-id: de066d44-d214-47cc-8483-37c2623585ea
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: a6f2c9eda2045093c8d77243ed6843a1472d36c6
+source-git-commit: 453dbf1c7598858e99d963f7a3806355a8cc80a9
 workflow-type: tm+mt
-source-wordcount: '1099'
+source-wordcount: '1042'
 ht-degree: 0%
 
 ---
 
 # Información general de jerarquía y ruta
 
-<span class="preview">La información de esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa para todos los clientes. Después de las versiones mensuales en Production, las mismas funciones también están disponibles en el entorno Production para los clientes que habilitaron versiones rápidas. </span>
+<!--
+<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Para obtener información sobre las versiones rápidas, consulte [Habilitar o deshabilitar las versiones rápidas para su organización](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 Como administrador del espacio de trabajo, puede definir jerarquías flexibles pero estructuradas entre tipos de registros conectados y otros tipos de objetos en Adobe Workfront Planning.
 
@@ -44,7 +46,7 @@ Las siguientes son ventajas de utilizar jerarquías en los espacios de trabajo:
 * No se pueden agregar los siguientes tipos de objeto en una jerarquía:
    * Tipos de registro de otros espacios de trabajo, incluso cuando están configurados como tipos de registro conectables o globales. Puede agregar tipos de registros globales a jerarquías sólo cuando se hayan agregado al espacio de trabajo desde el que está creando la jerarquía.
    * Todos los demás objetos de Workfront.
-   * AEM Assets o fragmentos de contenido.
+   * Adobe Experience Manager Assets o fragmentos de contenido.
 * Las jerarquías pueden incluir tipos de registros de Planning y proyectos de Workfront al mismo tiempo.
 
   Por ejemplo, puede tener un tipo de registro de campaña con Tácticas de planificación y Proyectos de Workfront como elementos secundarios en la misma jerarquía de espacio de trabajo.
@@ -80,13 +82,13 @@ Las siguientes son ventajas de utilizar jerarquías en los espacios de trabajo:
 
 Cuando se crean jerarquías entre tipos de registros, se generan rutas de exploración para los registros que pertenecen a esos tipos de registros.
 
-Por ejemplo, si crea una jerarquía y conecta Campañas con Tácticas y, a continuación, con Actividades, cuando navega a un registro de cualquiera de los tipos conectados en la jerarquía, puede ver en qué parte de la jerarquía se coloca el registro. Si el registro se muestra en varios espacios de trabajo, puede ver las rutas de acceso en cada espacio de trabajo <span class="preview">empezando por el nombre del espacio de trabajo en la ruta de exploración.</span>
+Por ejemplo, si crea una jerarquía y conecta Campañas con Tácticas y, a continuación, con Actividades, cuando navega a un registro de cualquiera de los tipos conectados en la jerarquía, puede ver en qué parte de la jerarquía se coloca el registro. Si el registro se muestra en varios espacios de trabajo, puede ver las rutas en cada espacio de trabajo empezando por el nombre del espacio de trabajo en la ruta de exploración.
 
 ![Ruta de exploración](assets/breadcrumbs-on-activities-planning-only.png)
 
 Tenga en cuenta lo siguiente:
 
-* Las rutas de exploración se muestran en el área de vista previa de un registro, así como en la página de detalles de registros.
+* Las rutas de exploración se muestran en el área de vista previa de un registro, así como en la página de detalles de los registros.
 * Si un tipo de registro forma parte de varias jerarquías, puede cambiar entre jerarquías desde la ruta de exploración del registro en la página del registro.
 * Si el tipo de registro de una jerarquía tiene varios registros, puede seleccionar registros de la ruta de exploración.
 * Las rutas de exploración funcionan en Workfront y Planning.

@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 635045c5-17e6-483e-912b-4e9617571137
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: ca8f1375d641531eaf11e3889ccb67a6fbe1788f
+source-git-commit: 453dbf1c7598858e99d963f7a3806355a8cc80a9
 workflow-type: tm+mt
-source-wordcount: '2460'
+source-wordcount: '2342'
 ht-degree: 5%
 
 ---
@@ -18,11 +18,12 @@ ht-degree: 5%
 # Enviar solicitudes de Adobe Workfront Planning para crear registros
 
 <!--update title when there will be more functionality added to the Planning requests, besides creating records-->
-<!--take Preview and Prod references out when releasing to Prod all-->
 
-<span class="preview">La información resaltada en esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa para todos los clientes. Después de las versiones mensuales en Production, las mismas funciones también están disponibles en el entorno Production para los clientes que habilitaron versiones rápidas. </span>
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Para obtener información sobre las versiones rápidas, consulte [Habilitar o deshabilitar las versiones rápidas para su organización](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -96,7 +97,7 @@ Para poder enviar una solicitud a un formulario de solicitud de Workfront Planni
 
      Los usuarios de Workfront también pueden acceder al vínculo compartido con personas externas.
 
-* Si se comparte con un vínculo, el vínculo al formulario no debe caducar.
+* If shared with a link, the link to the form must not be expired.
 
 ## Consideraciones sobre el envío de solicitudes a Workfront Planning
 
@@ -108,17 +109,12 @@ Para poder enviar una solicitud a un formulario de solicitud de Workfront Planni
 * Los registros creados al enviar formularios de solicitud están conectados a la solicitud original. No se puede quitar esta conexión.
 * Puede ver los registros creados y las solicitudes utilizadas para crearlos en las siguientes áreas:
    * Área de solicitudes en Workfront.
-
-  <div class="preview">
-
    * En un campo conectado de una página de tipo registro en Workfront Planning cuando se agrega la solicitud como registro conectado.
    * En un campo conectado del área de Detalles de un registro en Workfront Planning cuando se agrega la solicitud como registro conectado.
 
-  </div>
-
   >[!TIP]
   >
-  ><span class="preview">Puede ver el nombre de la solicitud en el campo Asunto del área Solicitudes de Workfront o en el campo Conexión de la solicitud original de Workfront Planning. </span>
+  >Puede ver el nombre de la solicitud en el campo Asunto del área Solicitudes de Workfront o en el campo Conexión de solicitud original de Workfront Planning.
 
 * Las solicitudes de Planning enviadas solo son visibles en la nueva experiencia de solicitud. No puede ver solicitudes de Planning en la experiencia de solicitudes heredadas.
 
@@ -141,7 +137,6 @@ Al activar esta configuración, los formularios de solicitud de Workfront Planni
 
    >[!TIP]
    >
-   >Esta configuración solo está disponible cuando la instancia de Workfront está integrada en la experiencia unificada de Adobe.
    >
    >Para poder ejecutar solicitudes de Workfront Planning en esta área, debe cumplir las siguientes condiciones:
    >
@@ -174,7 +169,7 @@ Al activar esta configuración, los formularios de solicitud de Workfront Planni
 
    El formulario de solicitud se cerrará y volverá al área **Solicitudes**.
 
-   El formulario se enviará y se producirán los siguientes eventos:
+   Your form is submitted and the following things occur:
 
    * Si el formulario de solicitud no estaba asociado a una aprobación, esta se agrega a la lista Solicitudes del área Solicitudes de Workfront y al widget Mis solicitudes de Inicio, y se agrega un nuevo registro al tipo de registro asociado al formulario.
 
@@ -185,22 +180,18 @@ Al activar esta configuración, los formularios de solicitud de Workfront Planni
       * **Tipo de objeto**: Nombre del área de trabajo y tipo de registro donde se crearon registros a partir de la solicitud en Planning.
       * **Estado**: El estado del objeto de solicitud.
       * **Formulario de solicitud**: Nombre del formulario de solicitud asociado al tipo de registro en Planning.
-      * <span class="preview">**Estado del objeto creado**: El estado del registro creado.</span>
+      * **Estado del objeto creado**: El estado del registro creado.
 
    * Si el formulario de solicitud estaba asociado a una aprobación, esta se agregará a la lista de solicitudes en el área de solicitudes de Workfront y al widget Mis solicitudes con un estado de **Revisión pendiente**. Un nuevo registro se agrega a la página de tipo de registro sólo después de que los aprobadores lo hayan aprobado.
 
      Para obtener más información, vea [Agregar una aprobación a un formulario de solicitud](/help/quicksilver/planning/requests/add-approval-to-request-form.md).
 
-   * <span class="preview">Puede agregar el campo de conexión **Solicitud original** a un tipo de registro en Planning para mostrar el nombre de la solicitud original que creó un registro. Para obtener más información, vea [Conectar tipos de registros](/help/quicksilver/planning/architecture/connect-record-types.md). </span>
+   * Puede agregar el campo de conexión **Solicitud original** a un tipo de registro en Planning para mostrar el nombre de la solicitud original que creó un registro. Para obtener más información, consulte [Conectar tipos de registros](/help/quicksilver/planning/architecture/connect-record-types.md).
    * La solicitud solo es visible para el propietario, el aprobador y las personas que tienen al menos permisos de visualización en el espacio de trabajo. Los administradores de Workfront pueden ver todas las solicitudes enviadas a cualquier espacio de trabajo del sistema.
    * Recibirá una notificación en la aplicación y por correo electrónico que le avisa de que la solicitud se ha enviado correctamente o que se ha enviado para su revisión.
    * Si el formulario de solicitud estaba asociado a una aprobación, los aprobadores reciben una notificación en la aplicación y por correo electrónico para revisar y aprobar la solicitud.
 
-     >[!NOTE]
-     >
-     >El correo electrónico y las notificaciones en la aplicación solo son visibles cuando la instancia de Workfront de su organización está integrada en la experiencia unificada de Adobe.
-     >
-     >Hay un vínculo a la solicitud en la confirmación de correo electrónico o la notificación de aprobación.
+     Hay un vínculo a la solicitud en la confirmación de correo electrónico o la notificación de aprobación.
 
 1. (Opcional) Haga clic en **Ver su solicitud** en el mensaje de confirmación, para abrir la solicitud, o haga clic en el icono **X** para cerrar la confirmación.
 1. (Opcional) Para administrar la forma en que se muestra la información en la lista de solicitudes, actualice los siguientes elementos de vista para la lista:
@@ -208,15 +199,9 @@ Al activar esta configuración, los formularios de solicitud de Workfront Planni
    * Ver
    * Filtro
    * Columnas
-
-   <div class="preview">
-
    * Agrupación
    * Formatear celdas
    * Altura de la fila
-
-   </div>
-
 
    Para obtener más información, consulte [Usar listas mejoradas](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
 
@@ -300,11 +285,7 @@ Las personas externas no pueden acceder a las áreas internas de Workfront, como
    * Recibirá una notificación en la aplicación y por correo electrónico que le avisa de que la solicitud se ha enviado correctamente o que se ha enviado para su revisión.
    * Si el formulario de solicitud estaba asociado a una aprobación, los aprobadores reciben una notificación en la aplicación y por correo electrónico para revisar y aprobar la solicitud.
 
-     >[!NOTE]
-     >
-     >El correo electrónico y las notificaciones en la aplicación solo son visibles cuando la instancia de Workfront de su organización está integrada en la experiencia unificada de Adobe.
-
-   <span class="preview"> Después de aprobar la solicitud y crear el registro, los campos de fecha Aprobado por y Aprobado muestran información sobre la aprobación en el registro.</span>
+     Una vez aprobada la solicitud y creado el registro, los campos de fecha Aprobado por y Aprobado muestran información sobre la aprobación en el registro.
 
 1. (Opcional) Haga clic en **Ver su solicitud** para abrir la solicitud en Workfront.
 

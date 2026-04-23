@@ -8,10 +8,10 @@ recommendations: noDisplay, noCatalog
 exl-id: 53f57953-fb9f-47ef-be18-a7164c844682
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 453dbf1c7598858e99d963f7a3806355a8cc80a9
 workflow-type: tm+mt
-source-wordcount: '797'
-ht-degree: 64%
+source-wordcount: '781'
+ht-degree: 65%
 
 ---
 
@@ -115,9 +115,9 @@ Puede localizar el asistente de IA en las siguientes áreas de Workfront Plannin
 
 ## Acceso al asistente de IA en el área de planificación
 
-1. Inicie sesión en Workfront y, a continuación, haga clic en el icono **Menú principal** ![Menú principal de puntos](assets/dots-main-menu.png) en la esquina superior derecha de la pantalla, o en el icono **Menú principal** ![Menú principal de líneas](assets/lines-main-menu.png) en la esquina superior izquierda, si está disponible.
+1. Inicie sesión en Workfront, luego haga clic en el icono **Menú principal** ![Menú principal de líneas](assets/lines-main-menu.png) en la esquina superior izquierda y, a continuación, haga clic en **Planificación**.
 
-. Haga clic en **Planificación**. Se abre el área de Planning.
+   Se abre el área de Planning.
 
 1. Haga clic en una **tarjeta del espacio de trabajo**.
 

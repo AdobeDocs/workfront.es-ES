@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 453dbf1c7598858e99d963f7a3806355a8cc80a9
 workflow-type: tm+mt
-source-wordcount: '1165'
+source-wordcount: '1151'
 ht-degree: 6%
 
 ---
@@ -50,7 +50,7 @@ Puede compartir manualmente los siguientes objetos en Workfront Planning:
    * Al compartir un espacio de trabajo, también se comparten todos los tipos de registros, registros y campos asociados a los espacios de trabajo.
    * Al compartir un espacio de trabajo, las vistas no se comparten. Las vistas se comparten por separado.
 
-  Para obtener más información, vea [Compartir espacios de trabajo](/help/quicksilver/planning/access/share-workspaces.md)
+  For more information, see [Share workspaces](/help/quicksilver/planning/access/share-workspaces.md)
 
 * Tipos de registro
 
@@ -82,11 +82,11 @@ Puede compartir manualmente los siguientes objetos en Workfront Planning:
 
   >[!IMPORTANT]
   >
-  >Si la instancia de Workfront de su organización se ha incorporado a la experiencia unificada de Adobe, los usuarios con los que desea compartir objetos de Planning deben agregarse a Adobe Admin Console. No puede compartir objetos de Planning con usuarios de Workfront que no se hayan agregado a Adobe Admin Console.
+  >Los usuarios con los que desea compartir objetos de Planning deben agregarse a Adobe Admin Console. You cannot share Planning objects with Workfront users who have not been added to the Adobe Admin Console.
 
-* Puede compartir objetos de Planning de las siguientes maneras:
+* You can share Planning objects in the following ways:
 
-   * Internamente, se puede compartir un espacio de trabajo, una vista o un tipo de registro con las siguientes entidades de Workfront:
+   * Internally, you can share a workspace, a view, or a record type with the following Workfront entities:
 
       * Usuarios
       * Grupos
@@ -114,7 +114,7 @@ Las tablas de las secciones siguientes ilustran el nivel de permisos que puede s
 > 
 >Los usuarios con todos los demás tipos de licencia pueden tener permisos de visualización en espacios de trabajo y vistas.
 >
->Para obtener más información, consulte [Descripción general del tipo de licencia al usar Adobe Workfront Planning](/help/quicksilver/planning/access/license-type-overview.md).
+>For information, see [License type overview when using Adobe Workfront Planning](/help/quicksilver/planning/access/license-type-overview.md).
 
 
 ### Permisos para espacios de trabajo
@@ -162,8 +162,8 @@ Puede conceder a los usuarios permisos inferiores en el tipo de registro que los
 Sin embargo, no puede hacer lo siguiente:
 
 * Conceda permisos superiores al tipo de registro que los usuarios tienen en el espacio de trabajo.
-* Asigne a los administradores de espacio de trabajo permisos inferiores en un tipo de registro.
-* Quite los permisos de Vista en el tipo de registro o en el espacio de trabajo quitando usuarios de los permisos de tipo de registro.
+* Give workspace managers lower permissions on a record type.
+* Remove View permissions to the record type or the workspace by removing users from the record type permissions.
 
 Se dan los siguientes escenarios:
 
@@ -209,7 +209,7 @@ Los siguientes permisos hacen referencia a los propios campos y no a los valores
 
 Debe conceder permisos independientes a las vistas de registros. La concesión de permisos al espacio de trabajo no concede permisos a las vistas de registros del espacio de trabajo.
 
-Debe conceder permiso a los usuarios para que puedan acceder a los siguientes elementos de vista:
+You must give users permission to  views to allow them to have access to the following view elements:
 
 * Filtros
 * Visibilidad de campo
@@ -235,7 +235,7 @@ Los siguientes son los niveles de permisos para vistas y elementos de vista:
 | Ver | ✓ |
 | Aplicar | ✓ |
 
-*Los usuarios deben tener permisos de Vista o superiores en un espacio de trabajo para obtener este acceso de vista.
+*Users must have View or higher permissions to a workspace to gain this view access.
 
 <!--
 old view permissions, before sharing View permissions to a view through a workspace:

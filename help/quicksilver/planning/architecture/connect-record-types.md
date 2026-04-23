@@ -8,17 +8,15 @@ recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: a6c2bc4127a52fad209004995ea2262fa64c240d
+source-git-commit: 453dbf1c7598858e99d963f7a3806355a8cc80a9
 workflow-type: tm+mt
-source-wordcount: '2954'
-ht-degree: 39%
+source-wordcount: '2977'
+ht-degree: 40%
 
 ---
 
 
 <!--keep the 30 fields limit in yellow till Jan 2026; also the global record type cross-workspace capability information-->
-
-<!--take production and preview references out at prod-->
 
 # Conectar tipos de registro
 
@@ -40,15 +38,15 @@ La conexión de tipos de registros es útil cuando tiene varios tipos de objetos
 
 Además, el trabajo de cada campaña puede planificarse en varios proyectos en Workfront. Para indicar esto, puede conectar las campañas a los proyectos relevantes. Esto crea un campo de conexión para los proyectos en el registro de campaña.
 
-Una vez creados los campos de conexión, puede conectar registros individuales entre los dos tipos de registro u objeto.
+After the connection fields are created, you can connect individual records between the two record or object types.
 
 >[!NOTE]
 >
->Puede tener hasta 30 campos de conexión para un tipo de registro.
+>You can have up to 30 connection fields for one record type.
 
-En este artículo se describe cómo conectar dos tipos de registros de Workfront Planning o un tipo de registro de Workfront Planning con un objeto de otra aplicación.
+This article describes how you can connect two Workfront Planning record types, or a Workfront Planning record type with an object from another application.
 
-Después de establecer la conexión entre registros o tipos de objeto, se agrega un campo de conexión a un tipo de registro de Planning. En el campo de conexión, puede conectar registros individuales entre sí y mostrar campos del registro vinculado o tipos de objeto en un registro de Workfront Planning.
+After you establish the connection between records or object types, a connection field is added to a Planning record type. In the connection field, you can connect individual records to one another, and display fields from the linked record or object types on a Workfront Planning record.
 
 Para obtener información general acerca de los tipos de conexión, vea [Información general sobre los tipos de registros conectados](/help/quicksilver/planning/architecture/connect-record-types-overview.md).
 
@@ -75,7 +73,7 @@ Para ver un ejemplo de conexión de tipos de registros y registros, consulte [Ej
 <tr> 
    <td role="rowheader"><p>Paquete de Adobe Workfront</p></td> 
    <td> 
-<p>Para conectar tipos de registros desde el mismo espacio de trabajo: </p>
+<p>To connect record types from the same workspace: </p>
 <ul> 
 <li><p>Cualquier Workfront y cualquier paquete de Planning</p></li>
 <li><p>Cualquier flujo de trabajo y cualquier paquete de Planning</li></ul>
@@ -95,7 +93,7 @@ Para ver un ejemplo de conexión de tipos de registros y registros, consulte [Ej
    <ul><li><p>Licencia de Adobe Experience Manager Assets e integración entre AEM Assets y Workfront para conectar recursos de AEM con tipos de registros de Planning.</p>
    <p>Para obtener más información, consulte <a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md">Adobe Workfront para Experience Manager Assets y Assets Essentials: índice de artículo</a>. </p></li>
    <li><p> Licencia de Adobe GenStudio for Performance Marketing para conectar tipos de registros con marcas de GenStudio</p>
-   <p>Para obtener más información, consulte <a href="https://experienceleague.adobe.com/es/docs/genstudio-for-performance-marketing/user-guide/get-started">Introducción a Adobe GenStudio for Performance Marketing</a>.</p></li></ul>
+   <p>For information, see <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/get-started">Get started with Adobe GenStudio for Performance Marketing</a>.</p></li></ul>
    </td> 
   </tr> 
   <tr> 
@@ -111,7 +109,7 @@ Para ver un ejemplo de conexión de tipos de registros y registros, consulte [Ej
 </tbody> 
 </table>
 
-Para obtener más información acerca de los requisitos de acceso de Workfront, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+For more information about Workfront access requirements, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -201,7 +199,7 @@ Old:
 
    * Un tipo de registro del espacio de trabajo actual
 
-     ![Selector de conexión de selección múltiple para el tipo de registro del mismo espacio de trabajo](assets/multi-select-connection-picker-record-type.png)
+     ![Multi-select connection picker for same-workspace record type](assets/multi-select-connection-picker-record-type.png)
 
      >[!TIP]
      >
@@ -214,7 +212,7 @@ Old:
      >
      >La opción **Permitir la conexión a este tipo de registro en otros espacios de trabajo** debe estar habilitada para un tipo de registro en la ficha **Configuración entre espacios de trabajo** del cuadro **Editar tipo de registro**, para que se pueda obtener acceso a un tipo de registro desde otros espacios de trabajo. Si no hay ningún tipo de registro configurado para conectarse desde otros espacios de trabajo, la sección del espacio de trabajo no se muestra.
      >
-     >Para obtener más información, vea [Configurar las capacidades entre espacios de trabajo para los tipos de registro](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md). <!--update screen shot at production-->
+     >Para obtener más información, vea [Configurar las capacidades entre espacios de trabajo para los tipos de registro](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md).
      >
      >![Ficha Editar configuración de área de trabajo cruzada del cuadro de tipo de registro](assets/edit-record-type-box-advanced-settings-tab.png)
 
@@ -231,8 +229,8 @@ Old:
      >
      >Puede utilizar la siguiente combinación de teclas para abrir el cuadro de búsqueda global desde cualquier página de Workfront Planning y buscar tipos de registros:
      >
-     >* CTRL+K para Windows
-     >* ⌘+K para Mac
+     >* CTRL+K for Windows
+     >* ⌘+K for Mac
      >
      >![Cuadro de búsqueda global](assets/global-search-box.png)
 
@@ -255,13 +253,13 @@ Old:
      ![Selección de conexión de solicitud original](assets/original-request-connection-selection.png)
 
 
-   * **Experience Manager** de la sección **Aplicaciones Adobe**.
+   * **Experience Manager** from the **Adobe Applications** section, to connect to AEM Assets or Content Fragments.
 
-     ![Selección de conexión de AEM Assets](assets/aem-assets-connection-selection-041326.png)
+     ![AEM Assets connection selection](assets/aem-assets-connection-selection-041326.png)
 
-     Se abrirá una ficha Nueva conexión para el tipo de objeto o registro seleccionado.
+     A New connection tab opens for your selected record or object type.
 
-   * Una **marca** de Adobe GenStudio for Performance Marketing de la sección **Adobe GenStudio**
+   * **Marcas** de Adobe GenStudio for Performance Marketing de la sección **Adobe GenStudio**
 
      ![Selección de conexión de marca GenStudio](assets/brand-genstudio-connection-selection.png)
 
@@ -271,8 +269,8 @@ Old:
    >
    >Puede tener varias conexiones al mismo registro o tipo de objeto. Si no se edita el nombre del campo conectado, Workfront añade un número después del nombre del registro conectado para indicar el número de tipos de registros conectados con el mismo nombre.
 
-1. Actualice el campo **Descripción** agregando información sobre el campo de registro conectado. La descripción de un campo se muestra cuando se pasa el puntero por encima de la columna de campo de una tabla.
-1. (Condicional) Cuando conecte tipos de registros de dos espacios de trabajo diferentes, un tipo de registro y un objeto de recurso de Adobe Experience Manager o un tipo de registro y una marca de GenStudio, seleccione **Permitir varios registros**. Al seleccionarlo, indica que permite a los usuarios agregar varios registros cuando el campo de tipo de registro conectado aparece en los registros originales. Esta opción está seleccionada de forma predeterminada.
+1. Update the **Description** field by adding information about the connected record field. La descripción de un campo se muestra cuando se pasa el puntero por encima de la columna de campo de una tabla.
+1. (Conditional) When you connect record types from two different workspaces, a record type and an Adobe Experience Manager asset object, or a record type and a GenStudio Brand, select the **Allow multiple records**. By selecting it, you indicate that you allow users to add multiple records when the connected record type field displays on the original records. Esta opción está seleccionada de forma predeterminada.
 
    ![Nueva conexión con el tipo de registro de otro espacio de trabajo](assets/new-connection-allow-multiple-records-box.png)
 
@@ -293,7 +291,7 @@ Old:
    >
    >   
 
-1. (Condicional) Si habilitó **Crear campo correspondiente en el tipo de registro vinculado**, elija entre las siguientes opciones para indicar cuántos registros se pueden conectar y desde los que se pueden conectar los usuarios:
+1. (Conditional) If you enabled **Create corresponding field on linked record type**, choose from the following options to indicate how many records users can connect to and from:
 
    * Muchos a muchos
    * Uno a muchos
@@ -316,16 +314,16 @@ Old:
 
    >[!NOTE]
    >
-   >El administrador de Workfront puede asignar campos de Workfront Planning a campos de Experience Manager a través de la asignación de metadatos en Workfront. Para obtener más información, consulte [Configurar la asignación de metadatos de recursos entre Adobe Workfront y Experience Manager Assets](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
+   >El administrador de Workfront puede asignar campos de Workfront Planning a campos de Experience Manager Assets a través de la asignación de metadatos en Workfront. Para obtener más información, consulte [Configuración de la asignación de metadatos de recursos entre Adobe Workfront y Experience Manager Assets](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
 
 
 1. (Condicional) Cuando seleccione conectarse a Experience Manager, a un tipo de registro de Workfront Planning o a una marca de GenStudio, elija una de las siguientes opciones en el área **Apariencia del registro**:
 
    * **Nombre e imagen**: tanto el nombre como la miniatura o el icono de los registros conectados se mostrarán en el campo de registro conectado. Esta es la opción predeterminada.
-   * **Nombre**: solo se mostrará el nombre de los registros conectados en el campo de registro conectado.
-   * **Imagen**: solo se mostrará la miniatura o el icono de los registros conectados en el campo de registro conectado.
+   * **Name**: Only the name of the connected records will display in the connected record field.
+   * **Image**: Only the thumbnail or icon of the connected records will display in the connected record field.
 
-   Los registros sin imagen en miniatura muestran el icono de tipo de registro en su lugar. Se mostrará un ejemplo de cómo se mostrarán los registros conectados en el área **Grabar apariencia**.
+   Records without a thumbnail image display the record type icon instead. Se mostrará un ejemplo de cómo se mostrarán los registros conectados en el área **Grabar apariencia**.
 
    >[!NOTE]
    >
@@ -339,22 +337,14 @@ Old:
 
 1. Seleccione **Seleccionar campos de búsqueda** para agregar campos desde el tipo de registro al que se está conectando. Los campos de búsqueda son campos asociados al tipo de registro u objeto al que se está vinculando. Al vincularlos, se muestra información del registro u objeto con el que se está vinculando en el registro desde el que se está vinculando. Esta opción está seleccionada de forma predeterminada.
 
-   <!--
-    When reference fields are coming, change the first bullet in the TIP below with this: 
-    >* In the Production environment, you cannot add Workfront reference fields (for example, the Project Group or Company from a Workfront Project) as lookup fields in Planning. <span class="preview">You can add Workfront reference fields as lookup fields in the Preview environment.</span>
-    -->
-
    >[!TIP]
    >
-   >* No se pueden agregar campos de referencia de otra aplicación como campos de búsqueda. Por ejemplo, no puede agregar Proyecto, Grupo o Empresa como campo de búsqueda en Planning cuando se conecta a proyectos de Workfront.
-   >
-   ><!--* In the Production environment, you cannot add Workfront user fields (including fields like Project Owner, or Project Sponsor) as lookup fields. <span class="preview">You can add user fields as lookup fields in the Preview environment.</span>-->
-   >
+   >* In addition to system fields like Name and Description, you can add the following types of fields as lookup fields from object types from another application:
+   >   * Campos de usuario, como Propietario del proyecto o Patrocinador, de proyectos de Workfront.
+   >   * Campos de referencia, como Grupo de proyectos o Compañía de proyectos de Workfront.
    >* La información del campo de fecha de los objetos de Workfront se muestra en formato de 24 horas en Workfront Planning, independientemente de cómo se muestre en Workfront.
    >
    >   Por ejemplo, si la fecha planificada de inicio de un proyecto se muestra como las 3:00 p.m. en Workfront, se mostrará como 15:00 en Workfront Planning en un campo de búsqueda importado.
-   >
-   ><!--* In the Production environment, you cannot add People fields as lookup fields. <span class="preview">You can add People fields as lookup fields in the Preview environment.</span>-->
 
 1. Haga clic en **Crear**.
 
@@ -374,7 +364,7 @@ Old:
    >
    >    Todas las personas con permisos de visualización o superiores del espacio de trabajo pueden ver la información en los campos vinculados, independientemente de sus permisos o nivel de acceso en la aplicación de los tipos de objetos vinculados.
 
-1. (Opcional) Haga clic en **Omitir** para omitir la adición de campos desde el registro o el tipo de objeto vinculados. El nombre o el campo Principal del registro vinculado es el único campo visible en la vista de tabla del tipo de registro desde el que se conecta.
+1. (Opcional) Haga clic en **Omitir** para omitir la adición de campos desde el registro o el tipo de objeto vinculados. The name or Primary field of the linked record is the only visible field in the table view of the record type you connect from.
 
 1. Elija un agregador para los campos de búsqueda que agregue.
 
@@ -451,8 +441,8 @@ Old:
 
      >[!TIP]
      >
-     > No se crea un campo de registro vinculado para los objetos de otra aplicación en sus respectivas aplicaciones.
-     > Se recomienda no crear vínculos a tipos de registros taxonómicos, ya que hay un límite de 500 campos, además del límite de 30 campos conectados para cada tipo de registro.
+     > A linked record field is not created for objects from another application in their respective applications.
+     > We recommend not creating links to taxonomical record types, as there is a limit of 500 fields, in addition to the limit of 30 connected fields for every record type.
 
 
 1. (Opcional y condicional) Desde el tipo de registro original o la vista de tabla del tipo de registro vinculado, haga clic en la flecha hacia abajo en el encabezado de los campos de registro vinculados y, a continuación, haga clic en una de las siguientes opciones:

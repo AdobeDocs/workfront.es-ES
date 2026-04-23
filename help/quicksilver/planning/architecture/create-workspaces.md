@@ -8,19 +8,21 @@ recommendations: noDisplay, noCatalog
 exl-id: 604b84c1-4ec6-4d4a-b9f4-4223641ff2ea
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: ca8f1375d641531eaf11e3889ccb67a6fbe1788f
+source-git-commit: 453dbf1c7598858e99d963f7a3806355a8cc80a9
 workflow-type: tm+mt
-source-wordcount: '1200'
-ht-degree: 35%
+source-wordcount: '1122'
+ht-degree: 37%
 
 ---
 
 
 # Crear espacios de trabajo
 
-<span class="preview">La información de esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa para todos los clientes. Después de las versiones mensuales en Production, las mismas funciones también están disponibles en el entorno Production para los clientes que habilitaron versiones rápidas. </span>
+<!--
+<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Para obtener información sobre las versiones rápidas, consulte [Habilitar o deshabilitar las versiones rápidas para su organización](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 
 {{planning-important-intro}}
@@ -49,13 +51,13 @@ Para obtener información general acerca de los espacios de trabajo, consulte [I
    <td> 
 <p>Cualquier paquete de flujo de trabajo o Workfront</p> 
 <p>Cualquier paquete de Workfront Planning</p>
-<p>Un paquete de Workfront Planning Prime o superior <span class="preview"> para crear varios espacios de trabajo a la vez</span></p>
+<p>Un paquete de Workfront Planning Prime o superior para crear varios espacios de trabajo a la vez</p>
 <p>Para obtener más información sobre lo que se incluye en cada paquete de Workfront Planning, póngase en contacto con su representante de cuentas de Workfront. </p> 
    </td> 
   <tr> 
    <td role="rowheader"><p>Licencia de Adobe Workfront</p></td> 
    <td><p>Estándar</p>
-   <p><span class="preview">Administrador del sistema para crear varios espacios de trabajo al mismo tiempo mediante el paquete de plantillas de prácticas recomendadas</p>
+   <p>Administrador del sistema para crear varios espacios de trabajo al mismo tiempo mediante el paquete de plantillas de prácticas recomendadas</p>
    </td> 
   </tr> 
   <tr> 
@@ -144,8 +146,6 @@ Puede crear espacios de trabajo de las siguientes maneras:
 
   Para obtener más información, consulte [Introducción a Adobe Workfront Planning Designer](/help/quicksilver/planning/general/planning-ai-designer.md).
 
-<div class="preview">
-
 * Cree varios espacios de trabajo con un paquete de plantillas de varios espacios de trabajo de prácticas recomendadas
 
   Para obtener más información, consulte la sección [Crear varios espacios de trabajo mediante un paquete de plantillas de varios espacios de trabajo de prácticas recomendadas](#create-multiple-workspaces-using-a-best-practice-multi-workspace-template-bundle) en este artículo
@@ -153,9 +153,6 @@ Puede crear espacios de trabajo de las siguientes maneras:
   >[!TIP]
   >
   >Solo puede crear varios espacios de trabajo al mismo tiempo si utiliza el paquete de plantillas de prácticas recomendadas.
-
-
-</div>
 
 ### Crear un espacio de trabajo desde cero o desde una plantilla
 
@@ -220,13 +217,10 @@ Puede crear espacios de trabajo de las siguientes maneras:
 
    El nombre del usuario que creó el espacio de trabajo se guarda en la tarjeta del espacio de trabajo como Propietario.
 
-   >[!NOTE]
+   >[!TIP]
    >
-   >Para los usuarios que están realizando la transición al sistema Identity Management de Adobe (IMS), los espacios de trabajo creados por usuarios solo de Workfront que no son usuarios de IMS se muestran según lo creado por **System**.
+   >Los espacios de trabajo creados por usuarios solo de Workfront que no se hayan agregado a Adobe Admin Console se mostrarán según lo creado por **System**.
    >
-   >Para obtener información sobre IMS, consulte [Experiencia unificada de Adobe para Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
-
-<div class="preview">
 
 ### Cree varios espacios de trabajo con un paquete de plantillas de varios espacios de trabajo de prácticas recomendadas
 
@@ -277,8 +271,6 @@ Las plantillas incluidas en el paquete contienen espacios de trabajo, tipos de r
    Para obtener más información acerca de las prácticas recomendadas para implementar Workfront, vea los artículos de la sección [Prácticas recomendadas de Adobe Workfront Planning: article index](/help/quicksilver/planning/best-practices.md/best-practices-article-index.md).
 
    Para obtener información sobre cómo editar espacios de trabajo, consulte [Editar espacios de trabajo](/help/quicksilver/planning/architecture/edit-workspaces.md).
-
-</div>
 
 
 

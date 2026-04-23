@@ -8,19 +8,20 @@ recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: a6f2c9eda2045093c8d77243ed6843a1472d36c6
+source-git-commit: 453dbf1c7598858e99d963f7a3806355a8cc80a9
 workflow-type: tm+mt
-source-wordcount: '4067'
-ht-degree: 41%
+source-wordcount: '4007'
+ht-degree: 42%
 
 ---
 
 # Administrar la vista de cronología
 
-<span class="preview">La información resaltada en esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa para todos los clientes. Después de las versiones mensuales en Production, las mismas funciones también están disponibles en el entorno Production para los clientes que habilitaron versiones rápidas. </span>
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Para obtener información sobre las versiones rápidas, consulte [Habilitar o deshabilitar las versiones rápidas para su organización](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
-
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -405,22 +406,18 @@ Para añadir una agrupación en la vista de cronología:
 1. Cree una vista de cronología para un tipo de registro, tal y como se describe en el artículo [Administración de vistas de registros](/help/quicksilver/planning/views/manage-record-views.md).
 1. Haga clic en **Agrupación** en la esquina superior derecha de la vista de cronología.
 
-   <span class="preview">![Vista de línea de tiempo de IU de agrupación con campos vinculados](assets/grouping-ui-timeline-view-with-linked-fields.png)</span>
+   ![Vista de línea de tiempo de IU de agrupación con campos vinculados](assets/grouping-ui-timeline-view-with-linked-fields.png)
 
 1. Haga clic en uno de los campos sugeridos o haga clic en **Elija un campo diferente** y busque un campo diferente; a continuación, haga clic en él cuando se muestre en la lista.
 
    La agrupación se aplica automáticamente a la cronología y los registros se muestran dentro del cuadro de agrupación.
-1. <span class="preview"> (opcional y condicional) Según el tipo de campo por el que seleccionó agrupar, seleccione una de las siguientes opciones de ordenación para ordenar las agrupaciones en orden ascendente o descendente: </span>
-
-   <div class="preview">
+1. (Opcional y condicional) Según el tipo de campo por el que haya seleccionado agrupar, seleccione una de las siguientes opciones de clasificación para ordenar las agrupaciones en orden ascendente o descendente:
 
    * **A -> Z** o **Z -> A** para Seleccionar campos, Campos de texto, Campos de párrafo, Registros u objetos conectados, Campos de personas
    * **0 -> 9** o **9 -> 0** para los campos Número, Moneda o Porcentaje.
    * **más antiguo -> más reciente** o **más reciente -> más antiguo** para los campos de fecha
 
-   </div>
-
-   <span class="preview"> Las agrupaciones en la vista de escala de tiempo se ordenan según corresponda. Los registros dentro de las agrupaciones se ordenan en el orden de **fecha de inicio**, que es la ordenación predeterminada. </span>
+   Las agrupaciones de la vista de cronología se ordenan según corresponda. Los registros dentro de las agrupaciones se ordenan en el orden de **fecha de inicio**, que es la ordenación predeterminada.
 
 1. (Opcional) Repita los pasos anteriores para añadir hasta 3 agrupaciones.
 

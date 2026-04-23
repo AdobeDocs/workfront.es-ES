@@ -8,18 +8,20 @@ recommendations: noDisplay, noCatalog
 exl-id: cde20e5a-15a2-413a-8de4-ccf6eeb4395f
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 442ddab8c7b92d52e0de699bb7acf99a5ca0f215
+source-git-commit: 453dbf1c7598858e99d963f7a3806355a8cc80a9
 workflow-type: tm+mt
-source-wordcount: '1790'
+source-wordcount: '1763'
 ht-degree: 5%
 
 ---
 
 # Configuración de automatizaciones de Adobe Workfront Planning
 
-<span class="preview">La información resaltada en esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa para todos los clientes. Después de las versiones mensuales en Production, las mismas funciones también están disponibles en el entorno Production para los clientes que habilitaron versiones rápidas. </span>
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Para obtener información sobre las versiones rápidas, consulte [Habilitar o deshabilitar las versiones rápidas para su organización](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 <!--add screen shots when UI is finalized AND redo all the steps - some things got changed and moved around-->
 
@@ -164,37 +166,33 @@ Se abre la página de detalles de automatización.
    * **Déclencheur**: seleccione una acción que almacenará en déclencheur la automatización:
 
       * Clic en botón
-      * <span class="preview">Cambio de valor de campo</span>
+      * Cambio de valor de campo
 
-   1. (Condicional) Si seleccionó **Clic en el botón**, vaya al paso 9 que describe el área **Acciones**. <!--ensure this number stays accurate-->
+1. (Condicional) Si seleccionó **Clic en el botón**, vaya al paso 9 que describe el área **Acciones**. <!--ensure this number stays accurate-->
 
-   1. <span class="preview">(Condicional) Si seleccionó **Cambio de valor de campo**, haga lo siguiente en la sección **Configuración**: </span>
+1. (Condicional) Si seleccionó **Cambio de valor de campo**, haga lo siguiente en la sección **Configuración**:
 
-      1. <span class="preview">Elija un campo en el menú desplegable. Son campos asociados con el tipo de registro seleccionado.</span>
-      1. <span class="preview">Continúe definiendo condiciones para el campo seleccionado.</span>
-      1. <span class="preview">Haga clic en **Agregar condición** para agregar hasta 5 campos y definir su condición.</span>
+   1. Elija un campo del menú desplegable. Son campos asociados al tipo de registro seleccionado.
+   1. Continúe definiendo las condiciones del campo seleccionado.
+   1. Haga clic en **Agregar condición** para agregar hasta 5 campos y definir su condición.
 
-         <span class="preview">Puede agregar cualquiera de los siguientes tipos de campos:</span>
+      Puede agregar cualquiera de los siguientes tipos de campos:
 
-         <div class="preview">
+      * Selección única
+      * Selección múltiple
+      * Texto de línea única
+      * Párrafo
+      * Número
+      * Casilla de verificación
+      * Fecha
 
-         * Selección única
-         * Selección múltiple
-         * Texto de línea única
-         * Párrafo
-         * Número
-         * Casilla de verificación
-         * Fecha
+      Workfront Planning creará objetos automáticamente cuando se cumplan las condiciones.
 
-         </div>
+      ![déclencheur de cambio de valor de campo seleccionado](assets/field-value-change-trigger-selected.png)
 
-         <span class="preview">Workfront Planning creará objetos automáticamente cuando se cumplan las condiciones. </span>
-
-         ![déclencheur de cambio de valor de campo seleccionado](assets/field-value-change-trigger-selected.png)
-
-         >[!TIP]
-         >
-         ><span class="preview">El modificador de cada condición cambia según el tipo de campos que seleccione.</span>
+      >[!TIP]
+      >
+      >El modificador de cada condición cambia según el tipo de campos seleccionado.
 
 1. Actualice los campos siguientes en la sección **Acciones**: <!--submitted bugs for these fields - see if they need changing here-->
    * **Acciones**: seleccione la acción que desea que realice Workfront al activar la automatización. Este campo es obligatorio.
@@ -218,7 +216,7 @@ Seleccione una de las siguientes acciones:
       * **Campo conectado donde se crea el proyecto**: este es el campo conectado donde se mostrará el nuevo proyecto. Este campo es obligatorio.
       * **Plantilla de proyecto**: seleccione una plantilla de proyecto que Workfront usará para crear el proyecto.
 
-   * Cree varios proyectos:
+   * **Crear varios proyectos**:
       * **Campo conectado donde se crea el proyecto**: este es el campo conectado donde se mostrará el nuevo proyecto. Este campo es obligatorio.
       * **Campo cuyas opciones crearán los registros**: elija un campo de selección múltiple o única del tipo de registro seleccionado. Workfront crea un proyecto para cada opción de campo seleccionada actualmente en el registro desde el que se almacena en déclencheur la automatización.
 
@@ -301,25 +299,28 @@ En el área **Asignar campos**, actualice la siguiente información:
 
    Se abre la lista de automatizaciones disponibles para el tipo de registro seleccionado.
 
-1. (Opcional) Para editar, deshabilitar o eliminar una automatización, realice una de las siguientes acciones:
+1. (Opcional) Para ver, deshabilitar o eliminar una automatización, en una lista de automatizaciones, haga clic en el menú **Más** ![Más menú](assets/more-menu.png) a la derecha del nombre de una automatización y, a continuación, siga uno de estos procedimientos:
 
-   1. En la lista de automatizaciones, pase el ratón sobre el nombre de una automatización guardada y luego haga clic en el menú **Más** ![Menú más](assets/more-menu.png).
+   * Para una automatización de cambio de valor de campo, haga clic en **Ver** para ver la configuración de la automatización.
 
-   1. Haga clic en **Editar** para actualizar la siguiente información:
+     >[!TIP]
+     >
+     >No se puede editar la configuración de una automatización una vez guardada, cuando la automatización se activa por un cambio de valor de campo.
 
-      * Haga clic en el menú **Más** ![Menú más](assets/more-menu.png) que se encuentra a la derecha del nombre de la automatización y, a continuación, haga clic en **Editar** para cambiar el nombre de la automatización.
-      * Cualquier campo en la automatización, excepto el campo **Actions**.
+   * Para una automatización de clic con el botón, haga clic en **Editar** para actualizar la siguiente información:
 
-        >[!TIP]
-        >
-        >No puede cambiar la acción que seleccionó originalmente para una automatización.
+      * El nombre de la automatización, haciendo clic en el menú **Más** ![Más menú](assets/more-menu.png) a la derecha del nombre de la automatización y, a continuación, **Editar**.
+      * Cualquier campo de la automatización, excepto el campo **Actions**.
 
+     >[!TIP]
+     >
+     >No puede cambiar la acción que seleccionó originalmente para una automatización.
 
-   1. Haga clic en **Deshabilitar** para quitar la automatización de la vista de tabla del registro e impedir que los usuarios la usen para crear registros u objetos.
+   * Haga clic en **Deshabilitar** para quitar la automatización de la vista de tabla del registro e impedir que los usuarios la usen para crear registros u objetos.
 
-      Los registros que se han creado con una automatización deshabilitada permanecen conectados al registro seleccionado originalmente.
+     Los registros que se han creado con una automatización deshabilitada permanecen conectados al registro seleccionado originalmente.
 
-      Para que vuelva a estar disponible, vuelve a hacer clic en el menú **Más** ![Menú más](assets/more-menu.png) y, a continuación, haz clic en **Activar**.
-   1. Haga clic en **Eliminar** para eliminar la automatización. Una automatización eliminada no se puede recuperar.
+     Para que vuelva a estar disponible, vuelve a hacer clic en el menú **Más** ![Menú más](assets/more-menu.png) y, a continuación, haz clic en **Activar**.
+   * Haga clic en **Eliminar** para eliminar la automatización. Una automatización eliminada no se puede recuperar.
 
-      Los registros creados con una automatización eliminada permanecen conectados al registro seleccionado originalmente.
+     Los registros creados con una automatización eliminada permanecen conectados al registro seleccionado originalmente.

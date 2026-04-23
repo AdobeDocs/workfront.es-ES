@@ -7,9 +7,9 @@ role: User, Admin
 exl-id: fcad60b2-05e8-4774-8135-129bc1d3f9ce
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: ff87e425389f30dfaa1a178ea2b548d1c41179bb
+source-git-commit: 453dbf1c7598858e99d963f7a3806355a8cc80a9
 workflow-type: tm+mt
-source-wordcount: '2184'
+source-wordcount: '2209'
 ht-degree: 4%
 
 ---
@@ -65,8 +65,6 @@ Su empresa debe cumplir los siguientes requisitos para poder unirse a la versió
 
   La versión de prueba de Workfront Planning no está disponible para los paquetes de Workfront heredados.
 Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
-* Tener acceso a Adobe Admin Console
-* Forma parte del sistema de Identity Management (IMS)
 * Acepte el acuerdo de prueba legal disponible en la instancia de Workfront de su organización entre el 26 de enero y el 1 de abril de 2026 Debe ser administrador de Workfront para aceptar el acuerdo de prueba.
 
 ## Resumen de fechas importantes
@@ -217,10 +215,14 @@ Puede revisar espacios de trabajo de Planning de ejemplo y sus objetos, así com
 1. (Condicional y obligatorio) Como administrador de Workfront, firme el acuerdo de prueba gratuita.
 
    Para obtener más información, consulte la sección [Inscribirse en la prueba gratuita de Adobe Workfront Planning](#enroll-in-the-adobe-workfront-planning-free-trial) en este artículo.
-1. Haga clic en el icono **Menú principal** ![](assets/main-menu-shell.png) y luego haga clic en **Planificación**. El icono muestra una etiqueta **Prueba** junto a él.
+1. (Condicional) Una vez que un administrador de Workfront haya firmado el acuerdo de prueba, haga clic en el icono **Menú principal** ![](assets/main-menu-shell.png) y, a continuación, haga clic en una de las siguientes opciones para obtener acceso al área de **Planning**:
+
+   * **Planificación**. El icono muestra una etiqueta **Prueba** junto a él.
+   * **Proyectos**, **Solicitudes**, **Calendarios** y después haga clic en **Explorar calendarios de campaña**
+   * **Portafolios**, **Programas** o de un portafolio o programa    luego haga clic en **Explorar jerarquías personalizadas**.
 
    El área **Planning** se abre en la ficha **Espacios de trabajo de ejemplo**.
-1. Revise los siguientes espacios de trabajo disponibles en la ficha **Espacios de trabajo de ejemplo**:
+1. Revise los siguientes espacios de trabajo en la ficha **Espacios de trabajo de ejemplo**:
 
    * **Clasificaciones y taxonomías globales**: contiene tipos de objetos de Planning de ejemplo que constituyen la base de un sistema de registro de marketing.
 
