@@ -8,10 +8,10 @@ feature: Work Management, Strategic Planning
 exl-id: 97f36c18-3ac8-45ac-b5bc-dfe8b1363faf
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: fee6b71eeb0ca79703a2a9e29a14040b91cb7387
 workflow-type: tm+mt
-source-wordcount: '416'
-ht-degree: 74%
+source-wordcount: '514'
+ht-degree: 56%
 
 ---
 
@@ -29,8 +29,22 @@ Le recomendamos que cuando inicie proyectos, los añada a un portafolio. Sin emb
 
 Al añadir proyectos a un portafolio, tenga en cuenta lo siguiente:
 
-* Aunque un portafolio puede contener un número ilimitado de proyectos, solamente puede asociar uno con un proyecto.
+* Solo puede asociar un portafolio con un proyecto.
 * Un proyecto permanece en un portafolio hasta que se elimina o se asocia con otro.
+* Un portafolio puede contener un número ilimitado de proyectos.
+
+>[!CAUTION]
+>
+>   Es posible que los permisos heredados no se apliquen correctamente cuando se utilizan en un gran número de objetos secundarios.
+>   
+>   Para evitar problemas de permisos heredados, recomendamos lo siguiente:
+>
+>   * Limite el número de objetos secundarios (proyectos) bajo un solo elemento principal (portafolio o programa). Recomendamos no más de 10.000 proyectos por portafolio o programa.
+>   * Reduzca la profundidad de la herencia al aplicar permisos en un objeto de nivel inferior.
+>
+>     Por ejemplo, aplique los permisos directamente en el nivel de proyecto en lugar de depender de los permisos heredados del portafolio para el programa y, a continuación, para el proyecto.
+>   * Divida los programas para que contengan menos proyectos, lo que reduce la complejidad de los permisos.
+
 
 ## Requisitos de acceso
 
