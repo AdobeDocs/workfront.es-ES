@@ -2,20 +2,20 @@
 user-type: administrator
 product-area: system-administration;setup
 navigation-topic: start-with-workfront-administration
-title: Diferencias de administración basadas en la plataforma (Adobe Workfront/Adobe Business Platform)
+title: Diferencias de administración entre Adobe Workfront y Adobe Business Platform
 description: Si su organización se ha incorporado a Adobe Business Platform, los usuarios utilizan Adobe Business Platform para acceder a Adobe Workfront. Esto significa que la administración de usuarios se realiza en gran medida a través de Adobe Admin Console y que el inicio de sesión único (SSO) se gestiona a través de Adobe Business Platform en lugar de hacerlo a través de Workfront. Como administrador de Adobe Workfront, sus responsabilidades y procedimientos de administración difieren en función de si su organización se ha incorporado a Adobe Business Platform. En este artículo se enumeran los procedimientos que deben gestionarse de forma diferente y los vínculos a las instrucciones tanto para Workfront como para Adobe Admin Console.
 author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: a84a5a8d-7c2a-4b51-a614-91a6dc9aa4ed
-source-git-commit: 51d0989bdbf4ecdc799658f30500c68bf5867e65
+source-git-commit: be11c7417023ce2f310fce3e0cf77724d101b89e
 workflow-type: tm+mt
-source-wordcount: '394'
-ht-degree: 76%
+source-wordcount: '409'
+ht-degree: 66%
 
 ---
 
-# Diferencias de administración basadas en la plataforma (Adobe Workfront/Adobe Business Platform)
+# Diferencias de administración entre Adobe Workfront y Adobe Business Platform
 
 <!--Remove me October 2026-->
 
@@ -31,7 +31,7 @@ Dado que su organización se ha incorporado a Adobe Business Platform, sus usuar
 
 >[!NOTE]
 >
->Recomendamos añadir usuarios que no sean administradores del sistema directamente en Workfront. Es posible añadir usuarios en Adobe Admin Console, pero añadirlos en Workfront le permite establecer su nivel de acceso mientras los crear, lo que le puede ahorrar tiempo.
+>Recomendamos añadir usuarios que no sean administradores del sistema directamente en Workfront. Es posible agregar usuarios en Adobe Admin Console, pero añadirlos en Workfront le permite establecer su nivel de acceso mientras los crea, lo que le puede ahorrar tiempo.
 
 Para obtener instrucciones sobre cómo crear administradores de sistemas de Workfront, consulte [Administrar usuarios en Adobe Admin Console](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md).
 
@@ -56,7 +56,7 @@ Para obtener instrucciones sobre cómo crear administradores de sistemas de Work
      </ul> </td> 
     <td> 
      <ul> 
-      <li> <p>The section "View user list" in <a href="https://helpx.adobe.com/es/enterprise/using/manage-users-individually.html">Manage users individually</a></p> </li> 
+      <li> <p>The section "View user list" in <a href="https://helpx.adobe.com/enterprise/using/manage-users-individually.html">Manage users individually</a></p> </li> 
      </ul> </td> 
    </tr>
   <tr> 
@@ -67,7 +67,7 @@ Para obtener instrucciones sobre cómo crear administradores de sistemas de Work
     </ul> </td> 
    <td> 
     <ul> 
-     <li> <p>The section "Edit user details" in <a href="https://helpx.adobe.com/es/enterprise/using/manage-users-individually.html">Manage users individually</a></p> </li> 
+     <li> <p>The section "Edit user details" in <a href="https://helpx.adobe.com/enterprise/using/manage-users-individually.html">Manage users individually</a></p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -79,7 +79,7 @@ Para obtener instrucciones sobre cómo crear administradores de sistemas de Work
    <td> 
     <ul> 
      <li> <p><a href="../../administration-and-setup/add-users/create-and-manage-users/admin-console.md" class="MCXref xref">Manage users in the Adobe Admin Console</a> </p> </li> 
-     <li> <p>The section "Add users" in in <a href="https://helpx.adobe.com/es/enterprise/using/manage-users-individually.html">Manage users individually</a></p> </li> 
+     <li> <p>The section "Add users" in in <a href="https://helpx.adobe.com/enterprise/using/manage-users-individually.html">Manage users individually</a></p> </li> 
     </ul> </td> 
   </tr> 
    <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
@@ -91,7 +91,7 @@ Para obtener instrucciones sobre cómo crear administradores de sistemas de Work
     <td> 
      <ul> 
       <li> <p><a href="../../administration-and-setup/add-users/create-and-manage-users/admin-console.md" class="MCXref xref">Manage users in the Adobe Admin Console</a> </p> </li> 
-      <li> <p>The section "Add users" in in <a href="https://helpx.adobe.com/es/enterprise/using/manage-users-individually.html">Manage users individually</a></p> </li> 
+      <li> <p>The section "Add users" in in <a href="https://helpx.adobe.com/enterprise/using/manage-users-individually.html">Manage users individually</a></p> </li> 
      </ul> </td> 
    </tr>
   <tr> 
@@ -102,7 +102,7 @@ Para obtener instrucciones sobre cómo crear administradores de sistemas de Work
     </ul> </td> 
    <td> 
     <ul> 
-     <li> <p>The section "Remove users" in in <a href="https://helpx.adobe.com/es/enterprise/using/manage-users-individually.html">Manage users individually</a></p> </li> 
+     <li> <p>The section "Remove users" in in <a href="https://helpx.adobe.com/enterprise/using/manage-users-individually.html">Manage users individually</a></p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -113,7 +113,7 @@ Para obtener instrucciones sobre cómo crear administradores de sistemas de Work
     </ul> </td> 
    <td> 
     <ul> 
-     <li> <p>The section "Permanently delete users" in <a href="https://helpx.adobe.com/es/enterprise/using/manage-directory-users.html">Manage directory users</a>
+     <li> <p>The section "Permanently delete users" in <a href="https://helpx.adobe.com/enterprise/using/manage-directory-users.html">Manage directory users</a>
      </p><p>Note: Deleting a user from the [!DNL Adobe Admin Console] deactivates the user in [!DNL Workfront], but does not delete them from [!DNL Workfront].</p> </li> 
     </ul> </td> 
   </tr> 
@@ -125,7 +125,7 @@ Para obtener instrucciones sobre cómo crear administradores de sistemas de Work
     </ul> </td> 
    <td> 
     <ul> 
-     <li> <p>The section "Edit user details" in in <a href="https://helpx.adobe.com/es/enterprise/using/manage-users-individually.html">Manage users individually</a></p> </li> 
+     <li> <p>The section "Edit user details" in in <a href="https://helpx.adobe.com/enterprise/using/manage-users-individually.html">Manage users individually</a></p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -136,7 +136,7 @@ Para obtener instrucciones sobre cómo crear administradores de sistemas de Work
     </ul> </td> 
    <td> 
     <ul> 
-     <li> <p>The section "Edit user details" in <a href="https://helpx.adobe.com/es/enterprise/using/bulk-upload-users.html">Bulk CSV upload</a></p> </li> 
+     <li> <p>The section "Edit user details" in <a href="https://helpx.adobe.com/enterprise/using/bulk-upload-users.html">Bulk CSV upload</a></p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -147,7 +147,7 @@ Para obtener instrucciones sobre cómo crear administradores de sistemas de Work
     </ul> </td> 
    <td> 
     <ul> 
-     <li> <p>The section "Add users" in <a href="https://helpx.adobe.com/es/enterprise/using/bulk-upload-users.html">Bulk CSV upload</a></p> </li> 
+     <li> <p>The section "Add users" in <a href="https://helpx.adobe.com/enterprise/using/bulk-upload-users.html">Bulk CSV upload</a></p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -163,7 +163,7 @@ Para obtener instrucciones sobre cómo crear administradores de sistemas de Work
 
 ## Renovación del certificado SAML
 
-Para obtener instrucciones sobre la renovación del certificado SAML en Adobe Admin Console, consulte la sección &quot;No se ha validado la firma digital en la respuesta SAML...&quot; en [Solución de problemas de Federated ID](https://helpx.adobe.com/es/enterprise/kb/tshoot-fed-id.html?lang=es)
+Para obtener instrucciones sobre la renovación del certificado SAML en Adobe Admin Console, consulte la sección &quot;La firma digital en la respuesta SAML no validó...&quot; en [Solución de problemas de Federated ID](https://helpx.adobe.com/enterprise/kb/tshoot-fed-id.html?lang=es)
 
 <!--
 
@@ -174,7 +174,7 @@ Para obtener instrucciones sobre la renovación del certificado SAML en Adobe Ad
     </ul> </td> 
    <td> 
     <ul> 
-     <li> <p>The section "The digital signature in the SAML response did not validate..." in <a href="https://helpx.adobe.com/es/enterprise/kb/tshoot-fed-id.html">Troubleshooting Federated ID</a></p> </li> 
+     <li> <p>The section "The digital signature in the SAML response did not validate..." in <a href="https://helpx.adobe.com/enterprise/kb/tshoot-fed-id.html">Troubleshooting Federated ID</a></p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 

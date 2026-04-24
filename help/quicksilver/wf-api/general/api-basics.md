@@ -7,10 +7,10 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: d8c27915-8e1b-4804-9ef8-3a2efd57caac
-source-git-commit: 51d0989bdbf4ecdc799658f30500c68bf5867e65
+source-git-commit: be11c7417023ce2f310fce3e0cf77724d101b89e
 workflow-type: tm+mt
-source-wordcount: '4398'
-ht-degree: 98%
+source-wordcount: '4461'
+ht-degree: 96%
 
 ---
 
@@ -135,7 +135,7 @@ La API utiliza la misma autenticación basada en cookies que la IU web utiliza e
 >
 >El procedimiento descrito en esta sección se aplicaba únicamente a las organizaciones que aún no se habían incorporado a Adobe Business Platform. Dado que todas las organizaciones se han incorporado a Adobe Business Platform, el inicio de sesión en Workfront a través de la API de Workfront ya no está disponible **.**
 >
->Para obtener una lista de procedimientos que difieren según si su organización se ha incorporado a Adobe Business Platform o no, consulte [Diferencias de administración basadas en la plataforma (Adobe Workfront/Adobe Business Platform)](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+>Para obtener una lista de procedimientos que difieren según si su organización se ha incorporado a Adobe Business Platform, consulte [Diferencias de administración entre Adobe Workfront y Adobe Business Platform](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
 Si utiliza un nombre de usuario y una contraseña válidos, puede utilizar la siguiente solicitud para obtener un ID de sesión:
 
@@ -492,24 +492,24 @@ Las actualizaciones de objetos siempre se realizan mediante el ID. utilizando el
 ### Especificación de ediciones JSON
 
 Como se muestra en el ejemplo siguiente, puede utilizar el parámetro de solicitud de actualizaciones para especificar los campos que se actualizarán con la sintaxis JSON:
-<pre>PUT /attask/api/v15.0/project/4c7...?updates= <br>{<br>     name: "New Project Name", <br>     status: "CUR", <br>     ... <br>}</pre>
+<pre>PUT /attask/api/v15.0/project/4c7...?updates= <br>{<br>     nombre: "Nuevo nombre de proyecto", <br>     estado: "CUR", <br>     ... <br></pre>
 
 ### Realización de actualizaciones anidadas
 
 Algunos objetos tienen colecciones de propiedad privada que se pueden actualizar. Por ejemplo, en el siguiente ejemplo se muestra cómo sobrescribir las asignaciones existentes de una tarea determinada:
-<pre>PUT /attask/api/v15.0/task/4c7...?updates= <br>{<br>    assignments: [ <br>        { <br>            assignedToID: "2222...54d0, <br>            assignmentPercent: 50.0 <br>        },{ <br>            roleID: "1111...54d0"<br>        } <br>    ] <br>}</pre>
+<pre>PUT /attask/api/v15.0/task/4c7...?updates= <br>{<br>    asignaciones: [ <br>        { <br>            assignedToID: "2222...54d0, <br>            assignmentPercent: 50,0 <br>        },{ <br>            roleID: "1111...54d0"<br>        } <br>    ] <br></pre>
 
 >[!NOTE]
 >
 >Aunque las actualizaciones realizadas en el nivel superior son dispersas, las actualizaciones de una colección o de un objeto anidado reemplazan por completo a la colección existente. Para editar una única asignación en una tarea sin afectar a los objetos, utilice PUT en la asignación en lugar de en la tarea.
 
 El siguiente ejemplo convierte un proyecto en una cola del servicio de asistencia público. Tenga en cuenta que las propiedades de cola existentes se reemplazan.
-<pre>PUT /attask/api/v15.0/project/4c7...?updates= <br>{ <br>    queueDef: { <br>        isPublic: 1 <br>    } <br>}</pre>
+<pre>PUT /attask/api/v15.0/project/4c7...?updates= <br>{ <br>    queueDef: { <br>        isPublic: 1 <br>    } <br></pre>
 
 ### Uso del parámetro de solicitud de acción
 
 Algunos objetos admiten acciones adicionales que se pueden realizar además de ediciones simples. Puede especificar estas acciones mediante el parámetro de solicitud de acción. Por ejemplo, la siguiente solicitud recalcula la cronología de un proyecto determinado:
-<pre>PUT /attask/api/v15.0/project/4c7...?action=calculateTimeline<br><br>or<br><br>PUT /attask/api/v15.0/project/4c7.../calculateTimeline </pre>
+<pre>PUT /attask/api/v15.0/project/4c7...?action=calculateTimeline<br><br>o<br><br>PUT /attask/api/v15.0/project/4c7.../calculateTimeline </pre>
 
 ### Mover objetos
 
