@@ -492,19 +492,19 @@ Las actualizaciones de objetos siempre se realizan mediante el ID. utilizando el
 ### Especificación de ediciones JSON
 
 Como se muestra en el ejemplo siguiente, puede utilizar el parámetro de solicitud de actualizaciones para especificar los campos que se actualizarán con la sintaxis JSON:
-<pre>PUT /attask/api/v15.0/project/4c7...?updates= <br>{<br>     nombre: "Nuevo nombre de proyecto", <br>     estado: "CUR", <br>     ... <br></pre>
+<pre>PUT /attask/api/v15.0/project/4c7...?updates= <br>&lbrace;<br>     nombre: "Nuevo nombre de proyecto", <br>     estado: "CUR", <br>     ... <br></pre>
 
 ### Realización de actualizaciones anidadas
 
 Algunos objetos tienen colecciones de propiedad privada que se pueden actualizar. Por ejemplo, en el siguiente ejemplo se muestra cómo sobrescribir las asignaciones existentes de una tarea determinada:
-<pre>PUT /attask/api/v15.0/task/4c7...?updates= <br>{<br>    asignaciones: [ <br>        { <br>            assignedToID: "2222...54d0, <br>            assignmentPercent: 50,0 <br>        },{ <br>            roleID: "1111...54d0"<br>        } <br>    ] <br></pre>
+<pre>PUT /attask/api/v15.0/task/4c7...?updates= <br>&lbrace;<br>    asignaciones: [ <br>        { <br>            assignedToID: "2222...54d0, <br>            assignmentPercent: 50,0 <br>        },{ <br>            roleID: "1111...54d0"<br>        } <br>    ] <br></pre>
 
 >[!NOTE]
 >
 >Aunque las actualizaciones realizadas en el nivel superior son dispersas, las actualizaciones de una colección o de un objeto anidado reemplazan por completo a la colección existente. Para editar una única asignación en una tarea sin afectar a los objetos, utilice PUT en la asignación en lugar de en la tarea.
 
 El siguiente ejemplo convierte un proyecto en una cola del servicio de asistencia público. Tenga en cuenta que las propiedades de cola existentes se reemplazan.
-<pre>PUT /attask/api/v15.0/project/4c7...?updates= <br>{ <br>    queueDef: { <br>        isPublic: 1 <br>    } <br></pre>
+<pre>PUT /attask/api/v15.0/project/4c7...?updates= <br>&lbrace; <br>    queueDef: { <br>        isPublic: 1 <br>    } <br></pre>
 
 ### Uso del parámetro de solicitud de acción
 
