@@ -2,22 +2,22 @@
 product-area: documents
 navigation-topic: add-documents-to-workfront
 title: Añadir documentos a Adobe Workfront desde su sistema de archivos
-description: Puede agregar documentos a proyectos, tareas o problemas en varias áreas en Adobe Workfront.
+description: You can add documents to projects, tasks, or issues in multiple areas in Adobe Workfront.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 0a5f82b2-f86e-4ffa-b3a6-18221dd0e158
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 90eb99fa46e706a53427f995d484e2fb42e9c293
 workflow-type: tm+mt
-source-wordcount: '1237'
+source-wordcount: '1271'
 ht-degree: 8%
 
 ---
 
 # Añadir documentos a Adobe Workfront desde su sistema de archivos
 
-Actualmente, Workfront tiene dos versiones del área Documentos: el área de documentos heredados y el área de documentos nuevos. La versión que utilice su organización depende de si su organización utiliza almacenamiento de Workfront heredado o almacenamiento empresarial. Para obtener más información acerca de estos tipos de almacenamiento, vea [Información general sobre el almacenamiento empresarial de Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
+Workfront currently has two versions of the Documents area: the legacy documents area and the new documents area. La versión que utilice su organización depende de si su organización utiliza almacenamiento de Workfront heredado o almacenamiento empresarial. Para obtener más información acerca de estos tipos de almacenamiento, vea [Información general sobre el almacenamiento empresarial de Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 La adición de documentos a Workfront difiere según la versión del área de documentos que utilice su organización.
 
@@ -36,7 +36,8 @@ La adición de documentos a Workfront difiere según la versión del área de do
  <tbody> 
   <tr> 
    <td role="rowheader">Paquete de Adobe Workfront</td> 
-   <td> <p> Cualquiera</p> </td> 
+   <td> <p>Cualquier paquete de Workfront para administrar documentos mediante el almacenamiento heredado de Workfront</p>
+<p>Cualquier paquete de flujo de trabajo para administrar documentos mediante el almacenamiento empresarial de Adobe</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licencias de Adobe Workfront*</td> 
@@ -65,7 +66,7 @@ Puede agregar documentos a proyectos, tareas o problemas en las siguientes área
 
 * El área global Documentos
 * El área Documentos de un objeto Workfront
-* Tarjeta conectada en una placa Workfront
+* A connected card on a Workfront board
 
 También puede cargar nuevas versiones de documentos y agregar vínculos a documentos de proveedores de la nube de terceros, como Google Drive, Dropbox y Microsoft OneDrive. Para obtener información acerca de cómo agregar nuevas versiones de documentos, vea [Cargar una nueva versión de un documento](../../documents/managing-documents/upload-new-document-version.md). Para obtener información sobre cómo agregar documentos de proveedores de la nube de terceros, consulte [Vincular documentos de aplicaciones externas](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
 
@@ -180,10 +181,10 @@ Todos los archivos de menos de 500 MB se analizan cuando se cargan. Los archivos
 
 Debido a que esta integración se crea mediante el almacenamiento empresarial de Adobe, existen algunas convenciones de estructura y nomenclatura obligatorias que se deben tener en cuenta al administrar proyectos y documentos.
 
-* Los nombres de objeto deben ser únicos y no se pueden duplicar
+* Object names must be unique and can&#39;t be duplicated
 * El almacenamiento empresarial de Adobe requiere nombres únicos para objetos del mismo nivel con el mismo elemento principal en el árbol de jerarquías
 * Los documentos no pueden tener el mismo nombre si pertenecen al mismo proyecto
-* Los nombres de documento no pueden contener ninguno de los siguientes caracteres especiales: `\ / : * ? " | < >`
+* Document names can&#39;t contain any of the following special characters: `\ / : * ? " | < >`
 * Los nombres de documento están limitados a un máximo de 255 caracteres
 
 Teniendo en cuenta estas limitaciones, Workfront cambia automáticamente el nombre de los objetos o documentos según sea necesario para evitar conflictos.
@@ -193,7 +194,7 @@ Teniendo en cuenta estas limitaciones, Workfront cambia automáticamente el nomb
 
 El sitio de Workfront evita que virus y otro contenido malicioso entren en el sitio a través de documentos de las siguientes maneras:
 
-**Cómo detecta Workfront los archivos dañados**
+**How Workfront detects corrupted files**
 
 La digitalización de documentos solo está habilitada para su organización si se solicita.
 
@@ -203,6 +204,6 @@ Si Workfront detecta un documento dañado, aparecerá un mensaje que indica que 
 
 Los archivos dañados se eliminan en un plazo de 24 horas tras la detección, a menos que los elimine manualmente. Si elimina un archivo dañado, Workfront realiza el seguimiento de esta acción como una actualización. Si permite que Workfront lo elimine, no se registrará ninguna actualización.
 
-**Restricciones de nombre de archivo**
+**File name restrictions**
 
 Los archivos cargados en Workfront no pueden contener ciertos caracteres en los nombres de archivo. Si un archivo contiene cualquiera de los siguientes caracteres en el nombre de archivo, los caracteres se eliminan del nombre de archivo cuando se carga el archivo: `! # % * \ | ' " / ? < > { } [ ]`.

@@ -8,10 +8,10 @@ feature: Work Management, Digital Content and Documents
 exl-id: c18d6c6d-1a09-47c5-af4e-027f7cc48cd7
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 99048cf2b9320b7f00e1de3bae3f48bc145af5f0
+source-git-commit: 0c4904a380dd62b9ea01dd1030ee02d82a869541
 workflow-type: tm+mt
-source-wordcount: '337'
-ht-degree: 40%
+source-wordcount: '356'
+ht-degree: 37%
 
 ---
 
@@ -33,7 +33,8 @@ En el área Configuración de Workfront, los usuarios con una licencia Estándar
  <tbody> 
   <tr> 
    <td role="rowheader">Paquete de Adobe Workfront</td> 
-   <td> <p>Cualquiera</p> </td> 
+   <td><p>Cualquier paquete de Workfront para administrar aprobaciones mediante el almacenamiento heredado de Workfront.</p>
+<p>Cualquier paquete de flujo de trabajo para administrar aprobaciones mediante el almacenamiento empresarial de Adobe</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licencia de Adobe Workfront</td> 

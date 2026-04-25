@@ -3,10 +3,10 @@ user-guide-title: Guía de Workfront
 user-guide-description: Utilice los siguientes documentos, tutoriales y recursos adicionales para aprender a implementar y utilizar Adobe Workfront de forma eficaz en su organización.
 role: User
 feature-set: Workfront
-source-git-commit: d32fd0ffe1750cb08ec90d0b766034de5ffe6eaf
+source-git-commit: 0c4904a380dd62b9ea01dd1030ee02d82a869541
 workflow-type: tm+mt
-source-wordcount: '13945'
-ht-degree: 97%
+source-wordcount: '14070'
+ht-degree: 96%
 
 ---
 
@@ -1872,7 +1872,7 @@ ht-degree: 97%
    * Aprobaciones de trabajo {#work-approvals}
       * [Aprobaciones de trabajo](review-and-approve-work/manage-approvals/manage-approvals.md)
       * [Información general del proceso de aprobación](review-and-approve-work/manage-approvals/approval-process-in-workfront.md)
-      * [Solicitar aprobaciones de documentos](review-and-approve-work/manage-approvals/request-document-approvals.md)
+      * [Solicitar aprobación de documento heredado](review-and-approve-work/manage-approvals/request-document-approvals.md)
       * [Aprobar el trabajo](review-and-approve-work/manage-approvals/approving-work.md)
       * [Ver aprobaciones](review-and-approve-work/manage-approvals/view-approvals.md)
       * [Recordar a los aprobadores las aprobaciones enviadas](review-and-approve-work/manage-approvals/remind-approvers-submitted-approvals.md)

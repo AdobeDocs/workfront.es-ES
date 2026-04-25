@@ -8,10 +8,10 @@ feature: Work Management, Digital Content and Documents
 exl-id: 0eb8cfba-2317-419c-b28f-da2e7a99401c
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 99048cf2b9320b7f00e1de3bae3f48bc145af5f0
+source-git-commit: 0c4904a380dd62b9ea01dd1030ee02d82a869541
 workflow-type: tm+mt
-source-wordcount: '650'
-ht-degree: 10%
+source-wordcount: '673'
+ht-degree: 9%
 
 ---
 
@@ -37,7 +37,8 @@ Si se elimina la versión más reciente del documento, las versiones anteriores 
  <tbody> 
   <tr> 
    <td role="rowheader">Paquete de Adobe Workfront</td> 
-   <td> <p>Cualquiera</p> </td> 
+   <td> <p>Cualquier paquete de Workfront para administrar aprobaciones mediante el almacenamiento heredado de Workfront.</p>
+<p>Cualquier paquete de flujo de trabajo para administrar aprobaciones mediante el almacenamiento empresarial de Adobe</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licencias de Adobe Workfront</td> 
@@ -74,7 +75,7 @@ Si su organización está en el almacenamiento de Workfront, verá el área de d
 
 Si necesita otra ronda de revisión y aprobación de un documento, puede crear una nueva versión del documento en Workfront.
 
-Puede agregar los participantes anteriores, nuevos participantes o una combinación de ambos. Puede ver información sobre versiones anteriores y participantes en la página Detalles del documento.
+You can add the previous participants, new participants, or a mix of both. Puede ver información sobre versiones anteriores y participantes en la página Detalles del documento.
 
 Para agregar una nueva versión:
 

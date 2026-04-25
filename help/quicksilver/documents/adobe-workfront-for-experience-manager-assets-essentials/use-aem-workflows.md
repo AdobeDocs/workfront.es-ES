@@ -6,22 +6,23 @@ description: Uso de flujos de trabajo en la integración de Experience Manager A
 author: Courtney, Becky
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 4c1e5ec1-3fd1-4527-ba8a-9db1a2350f69
-source-git-commit: 430751f0e38c6c45145c965398990ee3652f36fe
+source-git-commit: 90eb99fa46e706a53427f995d484e2fb42e9c293
 workflow-type: tm+mt
-source-wordcount: '1012'
+source-wordcount: '1023'
 ht-degree: 97%
 
 ---
 
 # Uso de flujos de trabajo en la integración de Experience Manager Assets
 
-Un flujo de trabajo es un conjunto de acciones que conectan Workfront con Adobe Experience Manager as a Cloud Service. Un administrador de Workfront puede configurar flujos de trabajo en Workfront y, a continuación, asignarlos a plantillas de proyecto.
+Un flujo de trabajo es un conjunto de acciones que conectan Workfront con Adobe Experience Manager as a Cloud Service. A Workfront administrator can configure workflows in Workfront, then assign them to Project Templates.
 
 Cuando se crea un proyecto utilizando una plantilla de proyecto a la que se asigna un flujo de trabajo, se activan las acciones definidas en el flujo de trabajo.
 
 >[!NOTE]
 >
->Los flujos de trabajo solo están disponibles en una integración de Adobe Experience Manager as a Cloud Service. No están disponibles en integraciones con Adobe Experience Manager Assets Essentials.
+>Los flujos de trabajo solo están disponibles en una integración de Adobe Experience Manager as a Cloud Service. No están disponibles en integraciones con Adobe Experience Manager Assets Essentials.<br>
+>This functionality is not available in the new documents area.
 
 
 ## Requisitos de acceso
@@ -33,7 +34,7 @@ Cuando se crea un proyecto utilizando una plantilla de proyecto a la que se asig
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td role="rowheader">Paquete de Adobe Workfront</td> 
    <td> <p> Cualquiera</p> </td> 
   </tr> 
   <tr> 
@@ -157,7 +158,7 @@ Para editar el flujo de trabajo de las carpetas vinculadas:
 
    * **Nombre**: escriba un nombre para la carpeta.
 
-   * **Datos de objeto**: seleccione el origen del nombre de la carpeta, como, por ejemplo, el nombre del proyecto.
+   * **Datos de objeto**: seleccione la fuente del nombre de la carpeta, como Nombre del proyecto.
 
    * **Datos de formulario personalizados**: seleccione los datos de formulario personalizados que se utilizarán como nombre de carpeta.
 

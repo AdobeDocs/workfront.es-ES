@@ -5,10 +5,11 @@ title: Vincular recursos y carpetas desde Experience Manager Assets Essentials
 description: Puede vincular un recurso o una carpeta de Experience Manager Assets Essentials a cualquier objeto de Adobe Workfront que admita documentos. Los recursos enviados desde Assets Essentials no cuentan para el almacenamiento general de documentos en Workfront. Los documentos cargados y enviados desde Workfront a Assets Essentials no se contabilizan en el almacenamiento general.
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
-source-git-commit: a9dfc5c7838668bd3007c157a4e1a53ab4bd86f5
+exl-id: 0b93f6f6-cf4b-4077-a464-be7f19f7cd25
+source-git-commit: 90eb99fa46e706a53427f995d484e2fb42e9c293
 workflow-type: tm+mt
-source-wordcount: '612'
-ht-degree: 52%
+source-wordcount: '628'
+ht-degree: 51%
 
 ---
 
@@ -17,6 +18,8 @@ ht-degree: 52%
 Puede vincular un recurso o una carpeta de Experience Manager Assets Essentials a cualquier objeto de Adobe Workfront que admita documentos.
 
 Para vincular recursos y carpetas desde Experience Manager Assets mediante el Asesor de contenido, consulte [Vincular recursos y carpetas con el Asesor de contenido con tecnología Experience Manager Assets](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/link-to-aem.md).
+
+Si está en almacenamiento empresarial, consulte [Usar Adobe Experience Manager con la integración Frame.io](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/use-aem-with-frame.md).
 
 
 ## Requisitos de acceso
@@ -97,7 +100,7 @@ Para vincular una nueva versión:
 
 1. Seleccione el recurso que desea vincular.
 
-1. Haga clic en **Seleccionar**.
+1. Haga clic en **Seleccionar**.
 
 ## Vincular una carpeta desde Experience Manager Assets Essentials
 

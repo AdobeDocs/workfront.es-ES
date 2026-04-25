@@ -10,10 +10,10 @@ recommendations: noDisplay, noCatalog
 exl-id: e8badce6-86f5-416c-a238-f9b7f19cdd2d
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 90eb99fa46e706a53427f995d484e2fb42e9c293
 workflow-type: tm+mt
-source-wordcount: '905'
-ht-degree: 85%
+source-wordcount: '925'
+ht-degree: 77%
 
 ---
 
@@ -32,7 +32,7 @@ Tenga en cuenta lo siguiente al editar formularios personalizados de documentos 
 >[!BEGINSHADEBOX]
 
 **Ejemplo**
-Puede que tenga un campo de casilla de verificación con tres casillas de verificación (Opción 1, Opción 2 y Opción 3): la Opción 1 está desmarcada para todos los documentos seleccionados, y la Opción 2 y la Opción 3 están marcadas para algunos y no están marcadas para otros documentos que haya seleccionado. Si desea comprobar la Opción 1 para todos los documentos, también debe hacer que la Opción 2 y la Opción 3 coincidan con todos los proyectos seleccionados antes de poder guardar los cambios. Por lo tanto, debe seleccionarlas o deseleccionarlas para que puedan coincidir en todos los proyectos seleccionados. Si no cambia ninguna de las opciones, puede guardar el campo tal cual y los documentos mantendrán su selección actual para todas las opciones.
+Puede tener un formulario personalizado con un campo de casilla de verificación con tres casillas de verificación (Opción 1, Opción 2 y Opción 3) y la Opción 1 está desactivada para todos los documentos seleccionados, y las Opciones 2 y 3 están seleccionadas para algunos y no están seleccionadas para otros documentos que ha seleccionado. Si desea comprobar la Opción 1 para todos los documentos, también debe hacer que la Opción 2 y la Opción 3 coincidan con todos los proyectos seleccionados antes de poder guardar los cambios. Por lo tanto, debe seleccionarlas o deseleccionarlas para que puedan coincidir en todos los proyectos seleccionados. Si no cambia ninguna de las opciones, puede guardar el campo tal cual y los documentos mantendrán su selección actual para todas las opciones.
 
 >[!ENDSHADEBOX]
 
@@ -46,7 +46,8 @@ Puede que tenga un campo de casilla de verificación con tres casillas de verifi
  <tbody> 
   <tr> 
    <td role="rowheader">Paquete de Adobe Workfront</td> 
-   <td> <p> Cualquiera</p> </td> 
+   <td> <p>Cualquier paquete de Workfront para administrar documentos mediante el almacenamiento heredado de Workfront</p>
+<p>Cualquier paquete de flujo de trabajo para administrar documentos mediante el almacenamiento empresarial de Adobe</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licencias de Adobe Workfront*</td> 

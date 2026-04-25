@@ -8,10 +8,10 @@ feature: Work Management, Digital Content and Documents
 exl-id: 6877ee90-9a70-4616-98f4-4b0ff932d79a
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 99048cf2b9320b7f00e1de3bae3f48bc145af5f0
+source-git-commit: 0c4904a380dd62b9ea01dd1030ee02d82a869541
 workflow-type: tm+mt
-source-wordcount: '516'
-ht-degree: 34%
+source-wordcount: '538'
+ht-degree: 36%
 
 ---
 
@@ -34,7 +34,8 @@ Puede quitar aprobadores o revisores individuales de un recurso o documento desp
  <tbody> 
   <tr> 
    <td role="rowheader">Paquete de Adobe Workfront</td> 
-   <td> <p>Cualquiera</p> </td> 
+   <td> <p>Cualquier paquete de Workfront para administrar aprobaciones mediante el almacenamiento heredado de Workfront.</p>
+<p>Cualquier paquete de flujo de trabajo para administrar aprobaciones mediante el almacenamiento empresarial de Adobe</p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licencia de Adobe Workfront</td> 
@@ -106,10 +107,10 @@ Para crear un flujo de trabajo de aprobación:
 
    La solicitud de aprobación o revisión se elimina y el aprobador recibe una notificación que le informa de que ya no necesita su aprobación.
 
-1. (Opcional) Para cambiar la función de un aprobador a un revisor o viceversa, haga clic en el menú desplegable situado junto al nombre de usuario y seleccione la nueva función.
+1. (Optional) To change the role of an approver to a reviewer, or vice versa, click the drop-down menu next to the username, and select the new role.
 
 1. Repita el paso anterior para eliminar los aprobadores o revisores adicionales.
 
-   ![quitar participantes de una fase](assets/add-or-remove-participants.png)
+   ![remove participants from a stage](assets/add-or-remove-participants.png)
 
 1. Haga clic en **Guardar**.

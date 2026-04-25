@@ -6,10 +6,10 @@ description: Puede añadir aprobadores adicionales a una aprobación de document
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 2418565a-639c-424e-873a-f6512efc5cb5
-source-git-commit: 628f668f0c5df34eb967729224d91a28cebbb17c
+source-git-commit: 0c4904a380dd62b9ea01dd1030ee02d82a869541
 workflow-type: tm+mt
-source-wordcount: '275'
-ht-degree: 85%
+source-wordcount: '297'
+ht-degree: 81%
 
 ---
 
@@ -26,8 +26,9 @@ Puede añadir aprobadores adicionales a una aprobación de documento directament
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">paquete de Adobe Workfront</td> 
-   <td> <p>Cualquiera</p> </td> 
+   <td role="rowheader">Paquete de Adobe Workfront</td> 
+   <td><p>Cualquier paquete de Workfront para administrar aprobaciones mediante el almacenamiento heredado de Workfront.</p>
+<p>Cualquier paquete de flujo de trabajo para administrar aprobaciones mediante el almacenamiento empresarial de Adobe</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licencia de Adobe Workfront</td> 

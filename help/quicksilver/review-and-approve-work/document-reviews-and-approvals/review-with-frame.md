@@ -9,10 +9,10 @@ recommendations: noDisplay, noCatalog
 exl-id: 3190ad18-180e-42e5-aa10-bdad74303d3d
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 0c4904a380dd62b9ea01dd1030ee02d82a869541
 workflow-type: tm+mt
-source-wordcount: '513'
-ht-degree: 1%
+source-wordcount: '600'
+ht-degree: 8%
 
 ---
 
@@ -25,10 +25,10 @@ La revisión de documentos de Workfront con el visor Frame.io le permite dejar c
 Para obtener más información sobre la integración de Frame.io con Workfront, consulte [Resumen unificado de revisión y aprobación](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md).
 
 
-<!--
-## Access requirements
 
-+++ Expand to view access requirements for the functionality in this article.
+## Requisitos de acceso
+
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -37,29 +37,30 @@ Para obtener más información sobre la integración de Frame.io con Workfront, 
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront package</td> 
-   <td> <p> Any</p> </td> 
+   <td role="rowheader">Paquete de Adobe Workfront</td> 
+   <td> <p>Cualquier paquete de Workfront para administrar aprobaciones mediante el almacenamiento heredado de Workfront.</p>
+<p>Cualquier paquete de flujo de trabajo para administrar aprobaciones mediante el almacenamiento empresarial de Adobe</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront licenses</td> 
-   <td> <p>Request or higher</p>
-   <p>Contributor or higher</p> </td> 
+   <td role="rowheader">Licencias de Adobe Workfront</td> 
+   <td> <p>Solicitud o superior</p>
+   <p>Colaborador o superior</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">Access level configurations</td> 
-   <td> <p>Edit access to Documents</p> </td> 
+   <td role="rowheader">Configuraciones de nivel de acceso</td> 
+   <td> <p>Acceso de edición a documentos</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">Object permissions</td> 
-   <td> <p>Edit access to the object associated with the document</p> </td> 
+   <td role="rowheader">Permisos de objeto</td> 
+   <td> <p>Editar acceso al objeto asociado con el documento</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
--->
+
 
 ## Requisitos previos
 

@@ -9,10 +9,10 @@ feature: Digital Content and Documents
 exl-id: 7a4a4bd3-ad60-4d84-b4b0-332c2a4eb8fb
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 90eb99fa46e706a53427f995d484e2fb42e9c293
 workflow-type: tm+mt
-source-wordcount: '696'
-ht-degree: 42%
+source-wordcount: '719'
+ht-degree: 43%
 
 ---
 
@@ -38,7 +38,8 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  <tbody> 
   <tr> 
    <td role="rowheader">Paquete de Adobe Workfront</td> 
-   <td> <p> Cualquiera</p> </td> 
+   <td> <p>Cualquier paquete de Workfront para administrar documentos mediante el almacenamiento heredado de Workfront</p>
+<p>Cualquier paquete de flujo de trabajo para administrar documentos mediante el almacenamiento empresarial de Adobe</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licencias de Adobe Workfront</td> 
@@ -138,7 +139,7 @@ Utilice la sección Detalles para ver información general de alto nivel e inter
 
 ### Aprobaciones
 
-Utilice la sección Approvals para crear un flujo de trabajo de aprobación. También puede recordar a los participantes acerca de una aprobación o eliminarla. Los aprobadores de documentos pueden acceder al visor Frame.io o utilizar el Resumen para tomar una decisión.
+Use the Approvals section to create an approval workflow. También puede recordar a los participantes acerca de una aprobación o eliminarla. Los aprobadores de documentos pueden acceder al visor Frame.io o utilizar el Resumen para tomar una decisión.
 
 Para obtener más información sobre las aprobaciones y Frame.io, consulte
 

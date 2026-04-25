@@ -8,9 +8,9 @@ feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 97823f70-6544-445a-9a81-abe1e2f3de55
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 90eb99fa46e706a53427f995d484e2fb42e9c293
 workflow-type: tm+mt
-source-wordcount: '2585'
+source-wordcount: '2592'
 ht-degree: 93%
 
 ---
@@ -74,7 +74,7 @@ Puede revisar y aprobar documentos vinculados a un proveedor de servicios en la 
  <tbody> 
   <tr> 
    <td role="rowheader">Paquete de Adobe Workfront</td>
-   <td> <p> Cualquiera</p> </td>
+   <td> <p>Cualquiera</p> </td>
   </tr> 
   <tr> 
    <td role="rowheader">Licencia de Adobe Workfront</td>
@@ -253,7 +253,7 @@ Puede cargar y vincular un documento de Workfront a un proveedor de servicios en
 
 Los usuarios sin acceso a Workfront pueden ver el documento en la aplicación externa si tienen acceso a la aplicación.
 
-1. Seleccione un documento que haya cargado en Workfront. 
+1. Seleccione un documento que haya cargado en Workfront.
 1. Haga clic en **Más** >**Enviar a** y, a continuación, seleccione el proveedor de servicios en la nube que desea que almacene el documento vinculado.
 
    Para ello, también puede usar el menú Más ![Menú Más](assets/more-icon.png) de la página Detalles del documento.

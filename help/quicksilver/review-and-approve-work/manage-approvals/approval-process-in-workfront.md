@@ -2,19 +2,19 @@
 content-type: overview
 product-area: projects
 navigation-topic: approvals
-title: Resumen del proceso de aprobación
+title: Información general del proceso de aprobación
 description: Puede crear un proceso de aprobación y adjuntarlo a un objeto para asegurarse de que los usuarios designados revisen ciertos cambios antes de que el objeto progrese.
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: dd0822b6-80f1-4a2e-bf6a-0c425984f4d0
-source-git-commit: e4de185f172b173dcc3ad966afa69ffb3bc479eb
+source-git-commit: 0c4904a380dd62b9ea01dd1030ee02d82a869541
 workflow-type: tm+mt
-source-wordcount: '1752'
-ht-degree: 0%
+source-wordcount: '1804'
+ht-degree: 97%
 
 ---
 
-# Resumen del proceso de aprobación
+# Información general del proceso de aprobación
 
 <!-- Audited: 12/2023 -->
 
@@ -29,7 +29,7 @@ Esta opción está disponible para los siguientes tipos de objetos en Adobe Work
 Este artículo contiene información general sobre los procesos de aprobación asociados con los elementos de trabajo.
 Para obtener instrucciones sobre cómo crear un proceso de aprobación, vea [Crear un proceso de aprobación para elementos de trabajo](../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
 
-## Tipos de procesos de aprobación para elementos de trabajo
+## Tipos de procesos de aprobación de elementos de trabajo
 
 Si es administrador de Adobe Workfront o un usuario con acceso administrativo a los procesos de aprobación, puede crear los siguientes procesos de aprobación para proyectos, tareas y problemas:
 
@@ -41,7 +41,7 @@ Si es administrador de Adobe Workfront o un usuario con acceso administrativo a 
 
 * **Un proceso de aprobación global de nivel de grupo**: los usuarios pueden adjuntarlos a lo siguiente:
 
-   * Un proyecto, tarea o problema que pertenece al grupo asociado con el proceso de aprobación en la sección Aprobaciones
+   * Un proyecto, una tarea o un problema que pertenece al grupo asociado con el proceso de aprobación en la sección Aprobaciones
    * En el cuadro Editar proyecto, en el área Proceso de aprobación predeterminado de la tarea para un proyecto que pertenece al grupo asociado al proceso de aprobación
    * En las secciones Detalles de cola o Tema de cola de un proyecto en las áreas Proceso de aprobación predeterminado. El proyecto debe estar habilitado como cola de solicitudes y debe pertenecer al grupo asociado al proceso de aprobación.
 
@@ -78,27 +78,29 @@ Para obtener información acerca de cómo crear un proceso de aprobación de niv
      >     Por ejemplo, si tiene una aprobación de tarea asociada al estado En curso, la tarea cambia automáticamente su estado a En curso cuando se concede la aprobación. No puede cambiar automáticamente su estado a Completado ni a ningún otro estado que no esté asociado con la aprobación.
      >   
      >   
-     >* Las entidades asociadas a un proceso de aprobación pueden ser usuarios, funciones del puesto o equipos. En última instancia, los usuarios son los responsables de aceptar o rechazar la aprobación. Puede asignar aprobaciones a los usuarios que cumplan una determinada función en el proyecto. Por ejemplo, puede asignar una aprobación a un propietario del proyecto o patrocinador. Para obtener más información, vea [Crear un proceso de aprobación de elementos de trabajo](../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
+     >
 
-     Existen los siguientes escenarios:
+   * Las entidades asociadas a un proceso de aprobación pueden ser usuarios, funciones del puesto o equipos. En última instancia, los usuarios son los responsables de aceptar o rechazar la aprobación. Puede asignar aprobaciones a los usuarios que cumplan una determinada función en el proyecto. Por ejemplo, puede asignar una aprobación a un propietario del proyecto o patrocinador. Para obtener más información, vea [Crear un proceso de aprobación de elementos de trabajo](../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
 
-      * Cuando asigna una aprobación a los roles, cualquier usuario del equipo del proyecto que esté asociado con el rol puede tomar una decisión sobre la aprobación. La función asociada con la aprobación puede ser la función principal o cualquier otra función.
+     Se dan los siguientes escenarios:
+
+      * Cuando asigna una aprobación a las funciones, cualquier usuario del equipo del proyecto que esté asociado con la función puede tomar una decisión sobre la aprobación. La función asociada con la aprobación puede ser la principal o cualquier otra.
 
         Para obtener información sobre el equipo del proyecto, vea [Información general del equipo del proyecto](../../manage-work/projects/planning-a-project/project-team-overview.md).
 
       * Al asignar una aprobación a un equipo, cualquier miembro de ese equipo puede tomar una decisión sobre la aprobación. El equipo asociado con la aprobación puede ser su equipo de inicio o cualquiera de sus otros equipos.
 
-        Para obtener información acerca de los roles y equipos de un usuario, consulte [Editar el perfil de un usuario](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+        Para obtener información acerca de las funciones y equipos de un usuario, consulte [Editar el perfil de un usuario](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
-* Al crear un elemento de trabajo, no se adjunta automáticamente un proceso de aprobación. Debe adjuntar uno manualmente si desea utilizar uno. Para obtener información acerca de cómo adjuntar un proceso de aprobación a un elemento, vea [Asociar un proceso de aprobación nuevo o existente con el trabajo](../../review-and-approve-work/manage-approvals/associate-approval-with-work.md).
-* El administrador de Workfront o un usuario con acceso administrativo a los procesos de aprobación pueden crear procesos de aprobación globales de nivel de sistema para utilizarlos en todo el sistema. Un administrador de grupo con acceso administrativo a los procesos de aprobación puede crear un proceso de aprobación global de nivel de grupo para que lo utilice únicamente un determinado grupo que administre.
+* Al crear un elemento de trabajo, no se adjunta automáticamente un proceso de aprobación. Debe adjuntar uno manualmente si desea utilizarlo. Para obtener información acerca de cómo adjuntar un proceso de aprobación a un elemento, consulte [Asociar un proceso de aprobación nuevo o existente a un trabajo](../../review-and-approve-work/manage-approvals/associate-approval-with-work.md).
+* El administrador de Workfront o un usuario con acceso administrativo a los procesos de aprobación puede crear procesos de aprobación globales a nivel de sistema para utilizarlos en todo el sistema. Un administrador de grupo con acceso administrativo a los procesos de aprobación puede crear un proceso de aprobación global a nivel de grupo para uso exclusivo de un determinado grupo que gestione.
 * Si no desea utilizar un proceso de aprobación global predefinido de nivel de sistema o de nivel de grupo para un elemento de trabajo, puede crear y adjuntar un proceso de aprobación de un solo uso cuando tenga permisos de administración para el objeto para el que desea adjuntar el proceso de aprobación.
 
   >[!NOTE]
   >
-  >Puede utilizar un proceso de aprobación de un solo uso solo una vez para el elemento específico para el que se creó. Puede asociar estados globales y estados de nivel de grupo para procesos de aprobación de un solo uso para proyectos, tareas, problemas, plantillas y tareas de plantilla.
+  >Puede utilizar un proceso de aprobación de un solo uso solamente una vez para el elemento específico para el que se creó. Puede asociar estados globales y estados de nivel de grupo para procesos de aprobación de un solo uso para proyectos, tareas, problemas, plantillas y tareas de plantilla.
 
-* Al adjuntar un proceso de aprobación de nivel de grupo a un elemento mediante estados personalizados de nivel de grupo, cambiar el grupo del proyecto puede crear un conflicto entre los estados de aprobación del grupo anterior y los existentes en el nivel de sistema. Considere la posibilidad de eliminar los procesos de aprobación de nivel de grupo en el proyecto, o sus tareas o problemas antes de actualizar el grupo. Para obtener información acerca de cómo crear procesos de aprobación de nivel de grupo, vea [Procesos de aprobación de nivel de grupo](../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-groups-approval-processes.md). Para obtener información acerca de cómo crear estados de grupo personalizados, vea [Crear o editar un estado de grupo](../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md). Para obtener información acerca de cómo actualizar el grupo de un proyecto, vea [Editar proyectos](../../manage-work/projects/manage-projects/edit-projects.md).
+* Al adjuntar un proceso de aprobación de nivel de grupo a un elemento mediante estados personalizados de nivel de grupo, el cambio del grupo del proyecto podría crear un conflicto entre los estados de aprobación del grupo anterior y los existentes a nivel de sistema. Considere la posibilidad de eliminar los procesos de aprobación de nivel de grupo en el proyecto, o sus tareas o problemas antes de actualizar el grupo. Para obtener información acerca de cómo crear procesos de aprobación de nivel de grupo, consulte [Procesos de aprobación de nivel de grupo](../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-groups-approval-processes.md). Para obtener información acerca de cómo crear estados de grupo personalizados, consulte [Crear o editar un estado de grupo](../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md). Para obtener información acerca de cómo actualizar el grupo de un proyecto, consulte [Editar proyectos](../../manage-work/projects/manage-projects/edit-projects.md).
 
 ## Flujo de trabajo del proceso de aprobación
 
@@ -111,7 +113,7 @@ En esta sección se explica lo siguiente sobre la aprobación de elementos de tr
 
 Al adjuntar un estado a un proceso de aprobación, se garantiza que el elemento se desplace por los departamentos en el orden correcto.
 
-**Ejemplo:** Puede adjuntar un proceso de aprobación al estado del departamento de marketing que requiere la aprobación del departamento de finanzas. Entonces, cuando alguien cambia el estado de un elemento de trabajo a &quot;Departamento de marketing&quot;, el elemento no puede moverse a ese departamento hasta que el departamento de finanzas lo firme.
+**Ejemplo:** puede adjuntar un proceso de aprobación al estado del departamento de marketing que requiere la aprobación del departamento de finanzas. Entonces, cuando alguien cambia el estado de un elemento de trabajo a &quot;Departamento de marketing&quot;, el elemento no puede pasar a ese departamento hasta que el departamento de finanzas lo apruebe.
 
 Para obtener más información sobre los estados de los elementos de trabajo, consulte los siguientes artículos:
 
@@ -130,32 +132,38 @@ El siguiente escenario ilustra cómo un proceso de aprobación ayuda a los usuar
    >Puede adjuntar procesos de aprobación de proyectos a una plantilla y procesos de aprobación de tareas a una tarea de plantilla. Después de hacer esto, cuando alguien usa la plantilla para crear un proyecto, el proceso de aprobación se convierte en un proceso de aprobación de proyecto o tarea, respectivamente. Un proceso de aprobación de un solo uso adjunto a una plantilla o tarea de plantilla sigue siendo un proceso de aprobación de un solo uso para proyectos y tareas.
 
 1. Un usuario con permiso de administración en el proyecto, tarea o problema adjunta el proceso de aprobación al elemento o crea una aprobación de un solo uso para el elemento.
-1. Un usuario asignado al elemento de trabajo cambia su estado al estado que inicia el proceso de aprobación y este comienza. (La persona que creó el proceso de aprobación definió la relación entre el estado y el proceso de aprobación.)
+1. Un usuario asignado al elemento de trabajo cambia su estado al estado que inicia el proceso de aprobación y este comienza. (La persona que creó el proceso de aprobación definió la relación entre el estado y el proceso de aprobación).
 1. Los aprobadores designados reciben una notificación sobre el proceso de aprobación pendiente y revisan el elemento de trabajo.
 1. El proceso de aprobación finaliza después de que los aprobadores designados aprueben todos los pasos del proceso. O bien, si rechaza un paso, el estado se restablece a un estado predefinido o se crea un problema. (La persona que creó el proceso de aprobación definió cuál de estos pasos automatizados se produce después de un rechazo).
 
-**Ejemplo:** Un equipo de publicidad ha creado un estado denominado Listo para impresión y un proceso de aprobación denominado Designer/ Firma de redactor que se asoció a este estado. Este proceso de aprobación está configurado para:
+**Ejemplo:** un equipo de publicidad ha creado un estado denominado Listo para impresión y un proceso de aprobación denominado Aprobación del diseñador/redactor que ha asociado a este estado. Este proceso de aprobación está configurado para:
 
 * Requerir la aprobación del diseñador y el redactor del equipo
-* Iniciar cada vez que alguien cambie el estado de un elemento de trabajo a Listo para impresión
+* Iniciarse cada vez que alguien cambie el estado de un elemento de trabajo a Listo para impresión
 
-El propietario de un proyecto de folleto adjunta el proceso de aprobación de la firma de Designer/redactor al proyecto de folleto.
+El propietario de un proyecto de folleto adjunta el proceso de aprobación del diseñador/redactor al proyecto de folleto.
 
-Cuando alguien del proyecto cambia el estado a Listo para impresión, el redactor y el diseñador reciben notificaciones que les piden que lo aprueben o lo rechacen. Durante el proceso de aprobación, cuando se delibera sobre si se debe aprobar o no, el estado de los proyectos se muestra como Listo para impresión - Aprobación pendiente.
+Cuando alguien del proyecto cambia el estado a Listo para impresión, el redactor y el diseñador reciben notificaciones pidiéndoles que lo aprueben o lo rechacen. Durante el proceso de aprobación, cuando se delibera sobre si se debe aprobar o no, el estado de los proyectos se muestra como Listo para impresión - Aprobación pendiente.
 
 Una vez que ambos aprueban el folleto en Workfront, el estado del proyecto cambia a Listo para impresión.
 
-## Procesos de aprobación de documentos
+## Procesos de aprobación de documentos heredados
 
-Las aprobaciones de documentos se utilizan para una aprobación más general. Los comentarios se capturan en formato de chat en la pestaña Actualizaciones. Puede utilizar los botones de aprobación para aprobar, rechazar o aprobar con cambios.
 
-Para agregar aprobadores a un documento después de que se haya cargado en Workfront, consulte [Solicitar aprobaciones de documento](../../review-and-approve-work/manage-approvals/request-document-approvals.md).
+Las aprobaciones de documentos heredados se utilizan para una aprobación más general. Los comentarios se capturan en formato de chat en la ficha Actualizaciones. Puede utilizar los botones de aprobación para aprobar, rechazar o aprobar con cambios.
+
+Para agregar aprobadores a un documento después de que se haya cargado en Workfront, consulte [Solicitar la aprobación de un documento heredado](../../review-and-approve-work/manage-approvals/request-document-approvals.md).
+
+>[!NOTE]
+>
+>Actualmente hay varias opciones de aprobación de documentos en Workfront. Para obtener más información, consulte [Funcionalidad disponible para aprobaciones de documentos](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/asset-review-and-approval.md).
+
 
 ## Procesos de aprobación de pruebas
 
-Las aprobaciones de pruebas se utilizan para una revisión más profunda y generalmente incluyen flujos de trabajo más complicados. Los comentarios se capturan con las herramientas de marcado del visor de pruebas. Puede utilizar los botones de aprobación para aprobar, rechazar o aprobar con cambios.
+Las aprobaciones de pruebas se utilizan para una revisión más profunda y generalmente incluyen flujos de trabajo más complicados. Los comentarios se capturan con las herramientas de marcado del visor de revisiones. Puede utilizar los botones de aprobación para aprobar, rechazar o aprobar con cambios.
 
-Para agregar un flujo de trabajo automatizado a una revisión de documento y designar a determinados usuarios en el flujo de trabajo como aprobadores de la revisión, consulte [Crear una revisión avanzada con un flujo de trabajo automatizado](../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-automated-proof-workflow.md).
+Para añadir un flujo de trabajo automatizado a una prueba de documento y designar a determinados usuarios en el flujo de trabajo como aprobadores de la prueba, consulte [Crear una prueba avanzada con un flujo de trabajo automatizado](../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-automated-proof-workflow.md).
 
 ## Configurar los procesos de aprobación de elementos de trabajo
 

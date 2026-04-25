@@ -7,10 +7,10 @@ description: Puede crear una carpeta vinculada a Experience Manager Assets o a A
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: eb2b3b21-bc0b-45d3-85fa-1715cf927cb7
-source-git-commit: 430751f0e38c6c45145c965398990ee3652f36fe
+source-git-commit: 90eb99fa46e706a53427f995d484e2fb42e9c293
 workflow-type: tm+mt
-source-wordcount: '436'
-ht-degree: 87%
+source-wordcount: '488'
+ht-degree: 78%
 
 ---
 
@@ -19,6 +19,11 @@ ht-degree: 87%
 Puede crear una carpeta vinculada a Experience Manager Assets o a Assets Essentials en Workfront. Como la carpeta está vinculada, cualquier recurso añadido a la carpeta se mostrará automáticamente en Workfront y Experience Manager. No es necesario que envíe manualmente el recurso si está en una carpeta vinculada.
 
 Si se elimina o mueve un recurso de una carpeta vinculada dentro de Experience Manager Assets o Assets Essentials, Workfront conserva una copia del recurso en el área Proyecto > Documentos.
+
+>[!NOTE]
+>
+>Esta funcionalidad no está disponible en el área de nuevos documentos.<br>
+>If your organization uses enterprise storage, you will see the new documents area when you access documents in Workfront. Desde allí, puede agregar recursos desde Experience Manager Assets o Assets Essentials, pero no podrá crear una carpeta vinculada.
 
 ## Requisitos de acceso
 

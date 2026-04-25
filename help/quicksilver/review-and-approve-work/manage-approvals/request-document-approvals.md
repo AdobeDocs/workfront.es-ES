@@ -1,21 +1,27 @@
 ---
 product-area: documents
 navigation-topic: approvals
-title: Solicitar aprobaciones de documentos
+title: Request a legacy document approval
 description: Puede solicitar la aprobación de los administradores u otros usuarios de un documento en Adobe Workfront. También puede solicitar aprobaciones de documentos a usuarios sin cuentas de Workfront si el administrador de Workfront ha habilitado esta capacidad, tal como se describe en Configuración de las preferencias de seguridad del sistema.
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: f54a221b-4bf0-414e-b2f3-ace861d85496
-source-git-commit: 2503b6e628e4860a5652c620d8e4d0eea2414443
+source-git-commit: 0c4904a380dd62b9ea01dd1030ee02d82a869541
 workflow-type: tm+mt
-source-wordcount: '515'
-ht-degree: 98%
+source-wordcount: '544'
+ht-degree: 92%
 
 ---
 
-# Solicitar aprobaciones de documentos
+# Request a legacy document approval
 
 Puede solicitar la aprobación de los administradores u otros usuarios de un documento en Adobe Workfront. También puede solicitar aprobaciones de documentos a personas sin cuentas de Workfront si el administrador de Workfront ha habilitado esta capacidad, tal como se describe en [Configurar las preferencias de seguridad del sistema](../../administration-and-setup/manage-workfront/security/configure-security-preferences.md).
+
+>[!NOTE]
+>
+>La información de este artículo hace referencia a las aprobaciones de documentos heredadas. <br>
+>Para obtener información acerca de la nueva revisión y aprobación unificadas, consulte [Revisión unificada y descripción general de la aprobación](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md).
+
 
 ## Requisitos de acceso
 
@@ -27,7 +33,7 @@ Puede solicitar la aprobación de los administradores u otros usuarios de un doc
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td role="rowheader">Paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 

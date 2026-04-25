@@ -8,10 +8,10 @@ feature: Digital Content and Documents
 exl-id: 1e12003d-4ea6-4449-9536-05feca793c44
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 90eb99fa46e706a53427f995d484e2fb42e9c293
 workflow-type: tm+mt
-source-wordcount: '359'
-ht-degree: 40%
+source-wordcount: '378'
+ht-degree: 38%
 
 ---
 
@@ -31,7 +31,8 @@ Puede obtener una vista previa de un documento desde el área Documentos. Esto r
  <tbody> 
   <tr> 
    <td role="rowheader">Paquete de Adobe Workfront</td> 
-   <td> <p> Cualquiera</p> </td> 
+   <td> <p>Cualquier paquete de Workfront para administrar documentos mediante el almacenamiento heredado de Workfront</p>
+<p>Cualquier paquete de flujo de trabajo para administrar documentos mediante el almacenamiento empresarial de Adobe</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licencias de Adobe Workfront</td> 
@@ -126,9 +127,9 @@ Los siguientes formatos de archivo no pueden mostrarse en la ventana de vista pr
 <li>png</li>
 <li>psd</li>
 <li>psdc</li>
-<li>crudo</li>
+<li>raw</li>
 <li>svg</li>
-<li>riña</li>
+<li>tiff</li>
 <li>tif</li>
 <li>webp</li>
 <li>eps</li>
@@ -138,7 +139,7 @@ Los siguientes formatos de archivo no pueden mostrarse en la ventana de vista pr
 <li>avi</li>
 <li>mp4</li>
 <li>mpeg</li>
-<li>mover</li>
+<li>mov</li>
 <li>flv</li>
 <li>m4v</li>
 <li>wmv</li>
@@ -150,10 +151,10 @@ Los siguientes formatos de archivo no pueden mostrarse en la ventana de vista pr
 
 +++  
 
-Vista previa de un documento:
+To preview a document:
 
-1. Vaya al proyecto, tarea o problema que contiene el documento y, a continuación, seleccione **Documentos** en el panel izquierdo.
-1. Busque el documento que necesita y, a continuación, haga clic en el nombre del documento.
-   ![Vista previa del documento](assets/preview-new-doc.png)
+1. Go to the project, task, or issue that contains the document, then select **Documents** in the left panel.
+1. Find the document you need, then click the document name.
+   ![Document preview](assets/preview-new-doc.png)
 
 
