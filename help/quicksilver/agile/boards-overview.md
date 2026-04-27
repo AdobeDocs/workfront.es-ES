@@ -9,10 +9,10 @@ feature: Agile
 exl-id: 7382e338-3e4c-4a93-a0d4-87ef52f69f36
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 73364ecfd52621c9c5a966092bf4b4575b980afc
 workflow-type: tm+mt
-source-wordcount: '222'
-ht-degree: 83%
+source-wordcount: '224'
+ht-degree: 75%
 
 ---
 
@@ -32,7 +32,7 @@ Con los tableros, puede hacer lo siguiente:
 
 Para obtener información acerca de cómo usar las características básicas de tableros, consulte [Introducción a los tableros: índice de artículos](../agile/get-started-with-boards/get-started-with-boards.md). Para obtener información acerca de las herramientas de planificación Agile en los tableros, vea [Información general sobre las herramientas de planificación Agile](/help/quicksilver/agile/use-boards-agile-planning-tools/agile-planning-tools-overview.md).
 
-Para obtener información acerca del uso de un tablero en un proyecto, consulte [Administrar un proyecto en la vista de Agile](/help/quicksilver/manage-work/projects/manage-projects/manage-projects-in-agile-view.md).
+Para obtener información acerca del uso de un tablero en un proyecto, vea [Administrar un proyecto Agile en la vista del tablero](/help/quicksilver/manage-work/projects/manage-projects/manage-projects-in-agile-view.md).
 
 También puede acceder a los tableros desde la aplicación móvil. Para obtener más información, consulte [[!DNL Adobe Workfront] [!UICONTROL Boards] para dispositivos móviles](/help/quicksilver/workfront-basics/mobile-apps/using-the-workfront-mobile-app/mobile-boards.md).
 

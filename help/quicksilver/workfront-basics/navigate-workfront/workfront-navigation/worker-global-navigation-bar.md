@@ -7,16 +7,16 @@ description: El menú principal cambia con el nivel de acceso que le asignó su 
 author: Lisa and Courtney
 feature: Get Started with Workfront
 exl-id: c6e67518-a9e7-4b71-93d2-7a9d36633792
-source-git-commit: 64b8a835a57be8995c82a0ab15c40f46170c7067
+source-git-commit: 1b44fbfc6900efe247db760e958f626d665754c7
 workflow-type: tm+mt
-source-wordcount: '452'
-ht-degree: 93%
+source-wordcount: '466'
+ht-degree: 90%
 
 ---
 
 # Comprender la navegación de un usuario con licencia de [!UICONTROL Trabajo]
 
-El [!UICONTROL Menú principal] cambia con el nivel de acceso que le asignó su administrador de [!DNL Adobe Workfront]. De forma predeterminada, solo se le otorga acceso a las áreas que incluyen la funcionalidad permitida por su nivel de acceso. Para comprender los componentes del diseño predeterminado de cada nivel de acceso, consulte [Acerca del diseño predeterminado [!DNL Adobe Workfront] &#x200B;](../../../administration-and-setup/customize-workfront/use-layout-templates/about-the-default-wf-layout.md).
+El [!UICONTROL Menú principal] cambia con el nivel de acceso que le asignó su administrador de [!DNL Adobe Workfront]. De forma predeterminada, solo se le otorga acceso a las áreas que incluyen la funcionalidad permitida por su nivel de acceso. Para comprender los componentes del diseño predeterminado de cada nivel de acceso, consulte [Acerca del diseño predeterminado [!DNL Adobe Workfront] ](../../../administration-and-setup/customize-workfront/use-layout-templates/about-the-default-wf-layout.md).
 
 ## Comprender el [!UICONTROL menú principal] predeterminado de un trabajador
 
@@ -34,6 +34,8 @@ Las siguientes áreas están incluidas en el diseño predeterminado de un [!UICO
 
 * **[!UICONTROL Calendarios]**: aquí se muestran los calendarios que se han compartido con usted. Para obtener más información, consulte [Calendarios: índice de artículo](../../../reports-and-dashboards/reports/calendars/calendars.md).
 
+* **[!UICONTROL Recursos]**: puede ver la asignación de recursos en las herramientas de planificación de recursos y ver los conjuntos de recursos aquí. Para obtener más información, consulte [Administrar recursos](../../../resource-mgmt/manage-resources.md).
+
 * **[!UICONTROL Equipos]**: las tareas y los problemas asignados a sus equipos se muestran en esta área. Como trabajador, es el único usuario de [!DNL Workfront] que ve el área de [!UICONTROL Equipos] de manera predeterminada.
 
   Para obtener más información, consulte [Crear y administrar equipos](../../../people-teams-and-groups/create-and-manage-teams/create-and-mange-teams.md).
@@ -44,13 +46,13 @@ Las siguientes áreas están incluidas en el diseño predeterminado de un [!UICO
 
 * **[!UICONTROL Documentos]**: aquí puede cargar o revisar los documentos que se han compartido con usted. Para obtener más información, consulte [Documentos](../../../documents/documents-overview.md).
 
-* **[!UICONTROL Recursos]**: puede ver la asignación de recursos en las herramientas de planificación de recursos y ver los conjuntos de recursos aquí. Para obtener más información, consulte [Administrar recursos](../../../resource-mgmt/manage-resources.md).
+* **[!UICONTROL Modelos]**: revise los modelos existentes en su sistema y solicite que se instale uno, si el administrador de [!DNL Workfront] configuró la cola de solicitudes para los modelos. Para más información, consulte [Información general sobre modelos](../../../administration-and-setup/blueprints/blueprints-overview.md).
+
+* **[!UICONTROL Prioridades]**: puede administrar y priorizar el trabajo rápidamente. Para obtener más información, consulte [Introducción a Prioridades](/help/quicksilver/workfront-basics/priorities/get-started-with-priorities.md).
 
 * **[!UICONTROL Tableros]**: trabaje con flexibilidad y colaboración con los integrantes del equipo mediante tableros compartidos que contengan columnas y tarjetas que reflejen el trabajo que desea realizar. Para obtener más información, consulte [Introducción a los tableros: índice de artículos](../../../agile/get-started-with-boards/get-started-with-boards.md).
 
-* **[!UICONTROL Modelos]**: revise los modelos existentes en su sistema y solicite que se instale uno, si el administrador de [!DNL Workfront] configuró la cola de solicitudes para los modelos. Para más información, consulte [Información general sobre modelos](../../../administration-and-setup/blueprints/blueprints-overview.md).
-
-![Menú principal del trabajador](assets/worker-main-menu-350x426.png)
+![Menú principal del trabajador](assets/worker-main-menu-2026.png)
 
 ## Personalizar el [!UICONTROL menú principal] predeterminado
 
