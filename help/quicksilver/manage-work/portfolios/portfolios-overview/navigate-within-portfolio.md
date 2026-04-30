@@ -8,10 +8,10 @@ feature: Work Management, Strategic Planning
 exl-id: 6c1795ab-422f-419c-b5e9-1f1323800b39
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 5c4ffeabf710374b14a2335b47342be4c393a7c8
 workflow-type: tm+mt
-source-wordcount: '583'
-ht-degree: 76%
+source-wordcount: '697'
+ht-degree: 65%
 
 ---
 
@@ -104,7 +104,7 @@ Para obtener más información sobre los permisos para portafolios, vea [Compart
 
      Para añadir nuevos portafolios, consulte [Crear un portafolio](../../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md).
 
-1. Haga clic en el nombre de un portafolio para acceder a él.
+1. Haga clic en el nombre de un portafolio para acceder a este.
 Las siguientes métricas de rendimiento del portafolio se muestran en el área [!UICONTROL Detalles del portafolio] dentro de un portafolio:
 
    * Si el portafolio está [!UICONTROL A tiempo]
@@ -150,6 +150,22 @@ Para obtener información sobre los programas, consulte la sección [Crear y adm
    Para obtener información sobre el uso de Portfolio Optimizer, consulte la sección [Administrar proyectos en Portfolio Optimizer: índice de artículo](../../../manage-work/portfolios/portfolio-optimizer/manage-projects-in-portfolio-optimizer.md).
 
 1. (Opcional) Haga clic en **Documentos**, en el panel izquierdo, para adjuntar documentos al portafolio.
+
+   >[!NOTE]
+   >
+   >La adición de documentos a portafolios difiere según el tipo de almacenamiento que utilice su organización para Workfront.
+   >Es posible que algunos clientes tengan acceso a los dos entornos de almacenamiento de documentos siguientes:
+   >
+   >  * **El almacenamiento heredado de Workfront**: Los portafolios que usan este almacenamiento tienen el icono de almacenamiento heredado ![Icono de almacenamiento heredado](assets/legacy-storage-project-icon.png) junto al nombre.
+   >  * **Almacenamiento empresarial de Adobe**
+   >
+   >El administrador de Workfront decide qué almacenamiento utiliza su compañía o le permite elegir con qué almacenamiento asocia cada portafolio.
+   >Para obtener más información, consulte [Habilitar el almacenamiento empresarial de Adobe para su organización](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md).
+   >
+   >La adición de documentos a portafolios varía en función del tipo de almacenamiento que utilice.
+   >
+   >Para obtener más información, consulte [Agregar documentos a Adobe Workfront desde el sistema de archivos](/help/quicksilver/documents/adding-documents-to-workfront/add-documents-from-file-system.md).
+
 1. (Opcional) Haga clic en **[!UICONTROL Actualizaciones]**, en el panel izquierdo, para añadir comentarios al flujo de actualización del portafolio. Para obtener más información, consulte [Actualizar trabajo](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 1. (Opcional) Haga clic en el menú **[!UICONTROL Más]** ![Menú más](assets/qs-more-icon-on-an-object.png) para realizar una de las siguientes acciones:
 

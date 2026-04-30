@@ -8,10 +8,10 @@ feature: Work Management
 exl-id: ec5d9a07-e45a-4aa2-9f41-9421ca5d5920
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 5c4ffeabf710374b14a2335b47342be4c393a7c8
 workflow-type: tm+mt
-source-wordcount: '1077'
-ht-degree: 5%
+source-wordcount: '1079'
+ht-degree: 8%
 
 ---
 
@@ -124,9 +124,9 @@ Workfront vuelve a calcular las escalas de tiempo a diario solo para los proyect
 Puede configurar la frecuencia con la que se actualiza la cronología del proyecto. Cuando se actualiza la escala de tiempo del proyecto, se vuelve a calcular en función de los cambios realizados en el proyecto.
 
 <!--
-<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
+ 
 or changes made to another project that the timeline is dependent on
-</MadCap:conditionalText>
+ 
 -->
 
 
@@ -167,7 +167,7 @@ Varios cambios de ámbito en la duración de un proyecto recalculan automáticam
 * Actualizar el tipo de duración, la restricción de tarea o el número de personas asignadas en las tareas.
 * Actualizando relaciones de predecesoras de tareas.
 * Agregar una aprobación a una tarea que también agregue tiempo a la Fecha planificada de finalización de la tarea.\
-  Para obtener más información acerca de la configuración de aprobación, vea [Configurar la configuración de aprobación global](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/establish-approval-settings.md).
+  Para obtener más información acerca de la configuración de aprobación, vea [Configuración de la aprobación global](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/establish-approval-settings.md).
 
 ## Recálculo manual {#manual-recalculation}
 
@@ -215,7 +215,7 @@ Puede recalcular manualmente las escalas de tiempo de varios proyectos editándo
 
 ### Volver a calcular las escalas de tiempo de todos los proyectos del sistema (solo administradores de Workfront) {#recalculate-timelines-for-all-projects-in-the-system-workfront-administrators-only}
 
-Los administradores de Workfront pueden ejecutar el diagnóstico Recalcular escala de tiempo para volver a calcular inmediatamente todas las escalas de tiempo en el sistema de Workfront. Esto permite a todos los gestores de proyectos ver la influencia de los cambios externos inmediatamente, tanto en las fechas planificadas como en las proyectadas.
+Los administradores de Workfront pueden ejecutar el diagnóstico Recalcular escala de tiempo para volver a calcular inmediatamente todas las escalas de tiempo en el sistema de Workfront. Esto permite a todos los administradores de proyecto ver la influencia de los cambios externos inmediatamente, tanto en las fechas planificadas como en las proyectadas.
 
 Para obtener más información sobre cómo recalcular las escalas de tiempo para todo el sitio de Workfront, vea la sección Recalcular escalas de tiempo para toda la instancia de Workfront en [Configurar cálculos de escala de tiempo para proyectos](../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-timeline-recalculations-projects.md).
 

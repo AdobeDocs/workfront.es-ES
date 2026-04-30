@@ -8,10 +8,10 @@ feature: Work Management
 exl-id: 622cbfe0-b8c0-4045-bef2-9e21d45bfda0
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 5c4ffeabf710374b14a2335b47342be4c393a7c8
 workflow-type: tm+mt
-source-wordcount: '1150'
-ht-degree: 84%
+source-wordcount: '1388'
+ht-degree: 68%
 
 ---
 
@@ -124,7 +124,7 @@ Puede crear un proyecto desde el área Proyectos del menú principal o desde el 
 
 1. Realice una de las siguientes acciones:
 
-   * Haga clic en el icono **[!UICONTROL Menú principal]** ![Menú principal](/help/_includes/assets/main-menu-icon-left-nav.png) en la esquina superior izquierda, o en el icono **[!UICONTROL Menú principal]** ![Menú principal](/help/_includes/assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront, si está disponible, luego haga clic en **Proyectos** y expanda **Nuevo proyecto**.
+   * Haga clic en el icono **[!UICONTROL Menú principal]** ![Menú principal](/help/_includes/assets/main-menu-icon-left-nav.png) en la esquina superior izquierda, luego haga clic en **Proyectos** y expanda **Nuevo proyecto**.
    * Vaya a un portafolio y expanda **Nuevo proyecto**.
 
      >[!TIP]
@@ -137,7 +137,7 @@ Puede crear un proyecto desde el área Proyectos del menú principal o desde el 
      >
      >Cuando se crea un proyecto con una plantilla desde un programa, el campo Programa de los nuevos proyectos se actualiza para mostrar el Programa desde el que se eligió crear el proyecto. El campo Portafolio de la plantilla se actualiza para mostrar el portafolio del programa desde el que eligió crear el proyecto. Esto sobrescribe los campos Programa y Portafolio de la plantilla, si se especifican.
 
-   * Si es administrador de un grupo, también puede crear un proyecto en la sección Proyectos de un grupo que administre. Para obtener más información, consulte [Crear y modificar proyectos de un grupo](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-projects.md).
+   * Si es administrador de un grupo, también puede crear un proyecto en la sección Proyectos de un grupo que administre. Para obtener más información, vea [Crear y modificar proyectos de un grupo](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-projects.md).
 
      >[!TIP]
      >
@@ -153,15 +153,34 @@ Puede crear un proyecto desde el área Proyectos del menú principal o desde el 
 
    ![Seleccionar una plantilla favorita](assets/new-project-from-template-dropdown-with-template-favorites.png)
 
-   O
-
-   Haga lo siguiente:
+   O haga lo siguiente:
 
    1. Haga clic en **Nuevo proyecto a partir de plantilla**
-   1. En el campo **Buscar plantillas**, empiece a escribir el nombre de una plantilla y haga clic en ella cuando se muestre en la lista.
-   1. Revise los detalles de la plantilla a la derecha.
+   1. (Opcional) En el campo **Buscar plantillas**, empiece a escribir el nombre de una plantilla y haga clic en ella cuando se muestre en la lista.
+   1. Haga clic en el nombre de uno de los siguientes tipos de plantillas para elegirlos:
 
-      Los detalles de la plantilla incluyen lo siguiente:
+      * Una plantilla de almacenamiento de Workfront
+
+        Las plantillas de almacenamiento de Workfront muestran un icono de almacenamiento heredado ![Legacy Storage Icon](assets/legacy-storage-project-icon.png) junto a su nombre.
+
+        Los documentos de la plantilla y de los proyectos futuros se almacenarán en el almacenamiento de Workfront.
+      * Una plantilla de almacenamiento de Adobe
+
+        Los documentos de la plantilla y de los proyectos futuros se almacenarán en el almacenamiento empresarial de Adobe.
+
+      >[!NOTE]
+      >
+      >* El uso de una plantilla de almacenamiento empresarial de Adobe crea un proyecto de almacenamiento empresarial de Adobe.
+      >
+      >* El uso de una plantilla de almacenamiento de Workfront crea un proyecto de almacenamiento de Workfront.
+      >
+      >* Cuando se utiliza una plantilla de almacenamiento empresarial de Adobe de un portafolio o programa de Workfront, el proyecto es un proyecto de almacenamiento empresarial de Adobe y el portafolio o programa también se convierten en objetos de almacenamiento empresarial de Adobe. Todos los demás proyectos de almacenamiento de Workfront del mismo portafolio o programa permanecen inalterados.
+      >
+      > No todos los clientes tienen ambos tipos de almacenamiento de documentos.
+      >
+      >Para obtener más información, vea [Información general sobre la administración de documentos de proyectos y objetos relacionados](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
+
+   1. Revise los siguientes detalles de la plantilla a la derecha:
 
       * Duración de la plantilla
       * Propietario de la plantilla
@@ -207,9 +226,17 @@ Puede crear un proyecto desde el área Proyectos del menú principal o desde el 
 
    Todos los detalles definidos en la plantilla se asocian automáticamente al proyecto recién creado si no los ha cambiado en el paso anterior.
 
+   Se crea automáticamente una carpeta de documentos con el mismo nombre que el proyecto para los proyectos de almacenamiento de Adobe en la sección Documentos del proyecto.
+
 ## Cree un proyecto a partir de una plantilla en el área Plantillas
 
 En lugar de empezar en el área de Proyectos, puede crear un proyecto a partir de una plantilla empezando por la plantilla.
+
+>[!NOTE]
+>
+>Las plantillas asociadas al almacenamiento de documentos de Workfront crean proyectos de almacenamiento de Workfront heredados. Las plantillas asociadas al almacenamiento de documentos empresariales de Adobe crean proyectos de almacenamiento de Adobe. No todos los clientes tienen ambos tipos de almacenamiento.
+>
+>Para obtener más información, vea [Información general sobre la administración de documentos de proyectos y objetos relacionados](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
 
 {{step1-to-templates}}
 
@@ -233,3 +260,5 @@ En lugar de empezar en el área de Proyectos, puede crear un proyecto a partir d
 1. Haga clic en **Crear proyecto**.
 
    Todos los detalles definidos en la plantilla se asocian automáticamente al proyecto recién creado si no los ha cambiado en el paso anterior.
+
+   Se crea automáticamente una carpeta de documentos con el mismo nombre que el proyecto para los proyectos de almacenamiento de Adobe en la sección Documentos del proyecto.

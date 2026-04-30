@@ -1,18 +1,18 @@
 ---
 navigation-topic: business-case-and-scorecards
-title: Presupuestar recursos en el caso empresarial con el Scenario Planner
+title: Recursos de presupuesto en el caso empresarial usando el planificador de escenarios
 description: Como parte de la planificación de recursos, puede utilizar el Planificador de escenarios de Adobe Workfront para presupuestar las funciones de trabajo necesarias para completar el trabajo en un proyecto al crear el caso empresarial.
 author: Becky
 feature: Work Management
 exl-id: d5f3e348-dc7d-4265-a5ce-8eef152db410
-source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
+source-git-commit: 5c4ffeabf710374b14a2335b47342be4c393a7c8
 workflow-type: tm+mt
-source-wordcount: '959'
-ht-degree: 19%
+source-wordcount: '961'
+ht-degree: 21%
 
 ---
 
-# Presupuestar recursos en el caso empresarial con el Scenario Planner
+# Recursos de presupuesto en el caso empresarial usando el planificador de escenarios
 
 <!--Audited: 06/2025-->
 
@@ -22,11 +22,11 @@ Para obtener más información sobre cómo crear un caso empresarial, vea [Crear
 
 >[!TIP]
 >
->La información de función para la iniciativa vinculada al proyecto que introduzca en el planificador de escenarios a nivel de sistema se puede ver en el área de presupuesto de recursos del caso empresarial del proyecto cuando publica la iniciativa. El Planificador de escenarios solo está disponible en la nueva experiencia de Adobe Workfront y requiere una licencia adicional. Para obtener más información sobre el Planificador de escenarios de Workfront, consulte [Información general sobre el Planificador de escenarios](../../../scenario-planner/scenario-planner-overview.md).
+>La información de función para la iniciativa vinculada al proyecto que introduzca en el planificador de escenarios a nivel de sistema se puede ver en el área de presupuesto de recursos del caso empresarial del proyecto cuando publica la iniciativa. El Planificador de escenarios solo está disponible en la nueva experiencia de Adobe Workfront y requiere una licencia adicional. Para obtener información sobre el Planificador de escenarios de Workfront, consulte [Información general sobre el Planificador de escenarios](../../../scenario-planner/scenario-planner-overview.md).
 
 También puede presupuestar recursos en el caso comercial utilizando el Planificador de recursos. Para obtener más información, consulte los artículos:
 
-* [Recursos de presupuesto en el Caso empresarial](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md)
+* [Recursos de presupuesto en el caso comercial](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md)
   <!--* [Budget resources by project in the Resource Planner](../../../resource-mgmt/resource-planning/budget-by-project-resource-planner-d.md)-->
 
 >[!NOTE]
@@ -44,7 +44,7 @@ También puede presupuestar recursos en el caso comercial utilizando el Planific
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><p>paquete de Adobe Workfront</p></td> 
+   <td role="rowheader"><p>Paquete de Adobe Workfront</p></td> 
    <td><p>Prime o superior</p> 
   </tr> 
   <tr> 
@@ -111,9 +111,9 @@ Antes de empezar, debe hacer lo siguiente:
 >Puede presupuestar sus recursos para un período de 15 años. Si se presupuestan recursos para un proyecto con una duración superior a 15 años, es posible que la información de presupuestación no sea precisa.
 
 <!--
-><MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">>
+> >
 >(is this still accurate for the Scenario Planner?)>
-></MadCap:conditionalText>>
+> >
 -->
 
 1. Vaya al proyecto para el que desea presupuestar recursos.

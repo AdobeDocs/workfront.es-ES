@@ -8,10 +8,10 @@ feature: Work Management
 exl-id: a2e09e63-5c88-460c-9996-3a39fbb82150
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 5c4ffeabf710374b14a2335b47342be4c393a7c8
 workflow-type: tm+mt
-source-wordcount: '2090'
-ht-degree: 94%
+source-wordcount: '2234'
+ht-degree: 88%
 
 ---
 
@@ -108,6 +108,10 @@ Tenga en cuenta lo siguiente a la hora de mover tareas de plantilla:
 
    * Hitos.
 
+* No puede copiar ni mover una tarea de plantilla de una plantilla de almacenamiento de Workfront a una plantilla de almacenamiento de Adobe. Lo contrario también es cierto. No todos los clientes tienen ambos tipos de almacenamiento.
+
+  Para obtener más información, vea [Información general sobre la administración de documentos de proyectos y objetos relacionados](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
+
 ## Copiar tareas de plantilla
 
 Puede copiar una sola tarea de plantilla o copiar varias tareas de plantilla por lotes.
@@ -119,7 +123,7 @@ Puede copiar una sola tarea de plantilla o copiar varias tareas de plantilla por
    * Seleccione una o varias tareas de plantilla en la lista.
 1. (Condicional) Haga clic en el menú **Más** ![Icono de más](assets/more-icon.png) en la parte superior de la lista de tareas de plantilla o a la derecha del nombre de la tarea de plantilla si ha abierto la tarea y, a continuación, haga clic en **Copiar en** o **Copiar**, según desde dónde acceda a la opción Copiar.
 Se abre el cuadro Copiar tarea de plantilla.
-   ![Cuadro de tareas de plantilla de CPU](assets/copy-template-task-box-unshimmed.png)
+   ![Copiar cuadro de tareas de plantilla](assets/copy-template-task-box-unshimmed.png)
 1. (Opcional) Cambie el nombre de la tarea de plantilla en el campo **Nombre de tarea de plantilla**.
 
    >[!TIP]
@@ -128,11 +132,18 @@ Se abre el cuadro Copiar tarea de plantilla.
 
 1. Empiece a escribir el nombre de la **Plantilla de destino** en la que desea copiar la tarea de plantilla en el campo **Seleccionar plantilla de destino** y, a continuación, selecciónela cuando se muestre en la lista.
 
+   >[!TIP]
+   >
+   >También puede empezar a escribir el número de referencia o introducir el ID de la plantilla. Esto puede ayudarle a distinguir entre plantillas con nombres idénticos.
+
    El nombre de la plantilla actual se muestra de forma predeterminada. Si desea copiar la tarea de plantilla dentro de la misma plantilla, deje este campo sin cambiar.
 
    >[!TIP]
    >
-   >También puede empezar a escribir el número de referencia o introducir el ID de la plantilla. Esto puede ayudarle a distinguir entre plantillas con nombres idénticos.
+   >Debe elegir una plantilla con un tipo de almacenamiento de documento similar. No puede copiar tareas de plantilla en una plantilla con un tipo de almacenamiento diferente al de la plantilla original. No todos los clientes tienen acceso a varios tipos de almacenamiento de documentos.
+   >
+   >Para obtener más información, vea [Información general sobre la administración de documentos de proyectos y objetos relacionados](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
+
 
 1. (Condicional) Haga clic en **solicitar acceso** para solicitar acceso a la plantilla de destino si no tiene acceso a la plantilla seleccionada.
 1. (Condicional) Continúe copiando la tarea de plantilla en la plantilla de destino seleccionada sin solicitar acceso si tiene acceso para añadir tareas de plantilla a una de las tareas de plantilla de la plantilla de destino.
@@ -254,7 +265,11 @@ Se abre el cuadro Mover tarea de plantilla.
 
    >[!TIP]
    >
-   >También puede empezar a escribir el número de referencia o introducir el ID de la plantilla. Esto puede ayudarle a distinguir entre plantillas con nombres idénticos.
+   >* También puede empezar a escribir el número de referencia o introducir el ID de la plantilla. Esto puede ayudarle a distinguir entre plantillas con nombres idénticos.
+   >
+   >* Debe elegir una plantilla con un tipo de almacenamiento de documento similar. No puede copiar tareas de plantilla en una plantilla con un tipo de almacenamiento diferente al de la plantilla original. No todos los clientes tienen acceso a varios tipos de almacenamiento de documentos.
+   >
+   >Para obtener más información, vea [Información general sobre la administración de documentos de proyectos y objetos relacionados](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
 
 1. (Condicional) Haga clic en **solicitar acceso** para solicitar acceso a la plantilla si no tiene acceso a la plantilla de destino.
 1. (Condicional) Continúe moviendo la tarea de plantilla a la plantilla de destino seleccionada sin solicitar acceso si tiene acceso para añadir tareas de plantilla a una de las tareas de plantilla de la plantilla de destino.
@@ -291,7 +306,6 @@ Se abre el cuadro Mover tarea de plantilla.
       <li> No iniciar antes del</li>
       <li> No iniciar después del</li>
       </ul>
-
 
    </td> 
      </tr> 
@@ -340,7 +354,6 @@ Se abre el cuadro Mover tarea de plantilla.
      </tr>  
     </tbody> 
    </table>
-
 
 1. (Opcional) Haga clic en **Seleccionar principal** en el panel izquierdo y, a continuación, seleccione la tarea de plantilla en la plantilla de destino que desea que sea la plantilla principal de la tarea de plantilla que se ha movido.
 

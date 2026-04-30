@@ -7,10 +7,10 @@ role: User, Admin
 exl-id: fcad60b2-05e8-4774-8135-129bc1d3f9ce
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 453dbf1c7598858e99d963f7a3806355a8cc80a9
+source-git-commit: 5c4ffeabf710374b14a2335b47342be4c393a7c8
 workflow-type: tm+mt
-source-wordcount: '2209'
-ht-degree: 4%
+source-wordcount: '2368'
+ht-degree: 3%
 
 ---
 
@@ -30,7 +30,7 @@ Adobe Workfront Planning proporciona una visibilidad centralizada del ciclo vita
 >
 >* El periodo de registro finalizó el 1 de abril de 2026 y ahora está cerrado.
 >
->* Si ha aceptado el acuerdo de prueba y está inscrito en la prueba, estará disponible entre las siguientes fechas: del 2 de marzo al 1 de mayo de 2026.
+>* Si ha aceptado el acuerdo de prueba y está inscrito en la prueba, estará disponible entre las siguientes fechas: del 2 de marzo al 1 de mayo de 2026. Access permanecerá activo hasta el 15 de mayo de 2026.
 >
 >* Tenga en cuenta que la versión de prueba está disponible durante 60 días desde su lanzamiento y no durante 60 días desde el momento en que se unió a ella.
 >
@@ -98,7 +98,7 @@ Las siguientes son fechas importantes asociadas con la oferta de prueba gratuita
    * Los titulares de prueba de Workfront Planning.
    * La preferencia **Revisar acuerdo de prueba** se ha eliminado del área **Configuración**.
 
-* **1 de mayo de 2026**: La versión de prueba de Workfront Planning se cerrará y se eliminará su acceso a Planning.
+* **1 de mayo de 2026**: La versión de prueba de Workfront Planning se cerrará y se eliminará su acceso a Planning. Access permanecerá activo hasta el 15 de mayo de 2026.
 
   Si ha participado en la versión de prueba, Workfront protege sus datos una vez finalizada la versión de prueba. Sin embargo, ya no tiene acceso a él después de esta fecha.
 
@@ -127,7 +127,7 @@ Todos los usuarios de su organización reciben el siguiente paquete de Workfront
 
 * **Después del 1 de mayo de 2026:**
 
-  Se ha eliminado el acceso de todos los usuarios a Workfront Planning y Workfront protege los datos.
+  El acceso al juicio permanecerá activo hasta el 15 de mayo de 2026. A partir del 15 de mayo, todos los usuarios del sistema verán eliminado su acceso a Workfront Planning y Workfront protegerá sus datos.
 
 ## Información adicional sobre Workfront Planning
 
@@ -174,7 +174,7 @@ El periodo de prueba comenzó y su organización recibió acceso para iniciar el
 
 >[!WARNING]
 >
->El periodo de inclusión finaliza el 1 de abril de 2026. Sin embargo, las funciones de prueba de Planning están disponibles hasta el 1 de mayo de 2026.
+>El periodo de inclusión finaliza el 1 de abril de 2026. Sin embargo, las funciones de prueba de Planning están disponibles hasta el 15 de mayo de 2026.
 
 1. (Condicional) Inicie sesión en Adobe Workfront como administrador del sistema.
 
@@ -188,7 +188,7 @@ El periodo de prueba comenzó y su organización recibió acceso para iniciar el
 1. (Condicional) Si se encuentra en el área **Configuración**, vaya a la sección **Otras preferencias** y, a continuación, haga clic en **Revisar acuerdo de prueba**.
 1. Haga clic en **Aceptar**, después de revisar el acuerdo.
 
-   Su organización ahora está inscrita en la versión de prueba de Workfront Planning hasta el 1 de mayo de 2026.
+   Su organización ahora está inscrita en la versión de prueba de Workfront Planning hasta el 1 de mayo de 2026. Access permanecerá activo hasta el 15 de mayo de 2026.
 
    Después de aceptar el acuerdo de prueba, suceden lo siguiente:
 
@@ -207,6 +207,19 @@ Para obtener más información sobre el uso de Workfront Planning, consulte [Int
 
 Para obtener prácticas recomendadas sobre cómo implementar Workfront Planning, consulte [Prácticas recomendadas de Adobe Workfront Planning: índice de artículos](/help/quicksilver/planning/best-practices.md/best-practices-article-index.md).
 
+## Enviar comentarios sobre Planning
+
+Para enviar comentarios sobre su experiencia con Workfront Planning:
+
+1. Inicie sesión en Workfront y abra cualquier página.
+1. Encuentra la encuesta breve en la esquina inferior derecha de cualquier página de Workfront, responde a las preguntas y luego haz clic en **Siguiente**.
+
+   ![Encuesta de evaluación promocional](assets/promo-trial-survey.png)
+
+1. En la segunda diapositiva, responda las preguntas y haga clic en **Enviar**.
+
+   Sus comentarios se envían a nuestro equipo de gestión de productos.
+
 
 ## Experimente la planificación de Workfront a través de la prueba gratuita
 
@@ -219,7 +232,7 @@ Puede revisar espacios de trabajo de Planning de ejemplo y sus objetos, así com
 
    * **Planificación**. El icono muestra una etiqueta **Prueba** junto a él.
    * **Proyectos**, **Solicitudes**, **Calendarios** y después haga clic en **Explorar calendarios de campaña**
-   * **Portafolios**, **Programas** o de un portafolio o programa    luego haga clic en **Explorar jerarquías personalizadas**.
+   * **Portafolios**, **Programas** o desde un portafolio o programa y luego haga clic en **Explorar jerarquías personalizadas**.
 
    El área **Planning** se abre en la ficha **Espacios de trabajo de ejemplo**.
 1. Revise los siguientes espacios de trabajo en la ficha **Espacios de trabajo de ejemplo**:
@@ -242,7 +255,7 @@ Puede revisar espacios de trabajo de Planning de ejemplo y sus objetos, así com
 
 1. Haga clic en **Crear espacio de trabajo** para crear su propio espacio de trabajo.
 
-   Para obtener más información, consulte [Creación de espacios de trabajo](/help/quicksilver/planning/architecture/create-workspaces.md).
+   Para obtener más información, consulte [Crear espacios de trabajo](/help/quicksilver/planning/architecture/create-workspaces.md).
 
    Como administrador del sistema, los nuevos espacios de trabajo se mostrarán en las fichas **Todos los espacios de trabajo** y **Espacios de trabajo en los que estoy**.
 

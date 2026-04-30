@@ -6,9 +6,9 @@ description: Puede eliminar problemas o solicitudes en Adobe Workfront si dispon
 author: Alina
 feature: Work Management
 exl-id: 31cc802f-7fa6-420c-8494-a45313df1f10
-source-git-commit: 0542587bb3254dec5664de493c1c321528cf7f3e
+source-git-commit: 5c4ffeabf710374b14a2335b47342be4c393a7c8
 workflow-type: tm+mt
-source-wordcount: '757'
+source-wordcount: '759'
 ht-degree: 67%
 
 ---
@@ -34,7 +34,7 @@ Los administradores de Workfront pueden restaurar los problemas eliminados.
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td role="rowheader">Paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
@@ -80,7 +80,7 @@ Los siguientes objetos adjuntos a un problema también se eliminan al eliminarse
   No se puede eliminar un problema que tenga adjunto un documento desprotegido. Para obtener más información acerca de cómo desproteger documentos, vea [Desproteger documentos](../../../documents/managing-documents/check-out-documents.md).
 
 * Notas
-* Rutas de aprobación
+* Aprobaciones
 
 Según la forma en que el administrador de Workfront o de grupos configure las preferencias de eliminación de proyecto, tarea o problema en **Preferencias de hoja de horas y de horas** de la instancia de Workfront, las horas registradas para los problemas se gestionan de una de las siguientes maneras al eliminar un problema:
 
@@ -90,9 +90,9 @@ Según la forma en que el administrador de Workfront o de grupos configure las p
   Esto también se aplica cuando se intenta eliminar proyectos que tienen tareas con horas registradas en ellos.
 
   <!--
-  <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
+   
   <span data-mc-conditions="QuicksilverOrClassic.Quicksilver">(this is not possible in classic)</span>
-  </MadCap:conditionalText>
+   
   -->
 
   Para obtener más información acerca de cómo configurar las preferencias de eliminación para los problemas de horas registradas, consulte [Configurar preferencias de plantilla de horas y de horas](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).

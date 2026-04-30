@@ -8,9 +8,9 @@ feature: Work Management
 exl-id: 42b3112f-4f39-4078-aaa0-623559384a12
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 5c4ffeabf710374b14a2335b47342be4c393a7c8
 workflow-type: tm+mt
-source-wordcount: '1547'
+source-wordcount: '1556'
 ht-degree: 80%
 
 ---
@@ -42,7 +42,7 @@ Para obtener información general sobre la delegación de trabajo, consulte [Inf
 >* Los permisos deben funcionar dentro de sus niveles de acceso y, a veces, sus niveles de acceso pueden ser inferiores a los suyos.
 >
 >   
->   Por ejemplo, si un usuario solo tiene acceso de Ver a las tareas de su nivel de acceso y usted tiene permisos de Administrar en las tareas que le delegue, recibirá permisos de Administrar en las tareas que le delegue. Sin embargo, no podrá realizar las mismas acciones que usted en las tareas delegadas.Para poder actualizar tareas en su ausencia, deben solicitar al administrador del sistema acceso de edición de tareas.
+>   Por ejemplo, si un usuario solo tiene acceso de Ver a las tareas de su nivel de acceso y usted tiene permisos de Administrar en las tareas que le delegue, recibirá permisos de Administrar en las tareas que le delegue. Sin embargo, no podrá realizar las mismas acciones que usted en las tareas delegadas. Para poder actualizar tareas en su ausencia, deben solicitar al administrador del sistema acceso de edición de tareas.
 >
 >   
 >   Para obtener información sobre cómo un administrador del sistema puede modificar su nivel de acceso, consulte [Crear o modificar niveles de acceso personalizados](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
@@ -150,15 +150,15 @@ Delegar sus tareas y problemas en otras personas:
      >   Los elementos de trabajo completados que tienen fechas dentro del lapso de tiempo de la delegación no se delegan.
 
 
-   * Recibirá un mensaje en la parte inferior de la pantalla para confirmar que ha habilitado la delegación de su trabajo a otro usuario.El nombre del usuario delegado se muestra en el mensaje de confirmación.
+   * Recibirá un mensaje en la parte inferior de la pantalla para confirmar que ha habilitado la delegación de su trabajo a otro usuario. El nombre del usuario delegado se muestra en el mensaje de confirmación.
 
    * Se muestra una indicación de que las tareas y los problemas se han delegado a otros usuarios en la mayoría de las áreas donde puede ver asignaciones en [!DNL Workfront]. Para obtener más información sobre las áreas que no incluyen nombres de delegados, consulte [Información general sobre la delegación de trabajo](delegate-work-overview.md).
 
    * El botón [!UICONTROL **Delegar**] del área [!UICONTROL **Inicio**] cambia a [!UICONTROL **Editar delegación**] para indicar que hay una delegación en su lugar.
      <!--
-      <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
+       
       (NOTE: is this shot correct? See UI - this is a mock)
-      </MadCap:conditionalText>
+       
       -->
 
      ![Editar botón de delegación](assets/edit-delegation-button-on-my-work-widget.png)

@@ -8,10 +8,10 @@ feature: Work Management
 exl-id: d4e28fa6-25f9-4765-b051-8960c8873d5a
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 5c4ffeabf710374b14a2335b47342be4c393a7c8
 workflow-type: tm+mt
-source-wordcount: '1295'
-ht-degree: 84%
+source-wordcount: '1614'
+ht-degree: 67%
 
 ---
 
@@ -167,6 +167,17 @@ Tenga en cuenta lo siguiente:
 
      Si está utilizando una plantilla al crear el proyecto mediante la conversión del problema, consulte el segundo escenario anterior para comprender qué grupo y qué estado aplica Workfront al nuevo proyecto.
 
+* El lugar en el que se almacenan los documentos en un proyecto y sus objetos secundarios (tareas y problemas) depende de lo que el administrador de Workfront elija como valor predeterminado para Preferencias de almacenamiento en la sección Preferencias del sistema de Configuración. Según la ubicación en la que almacene documentos en la instancia de Workfront, puede crear los siguientes tipos de proyectos:
+
+   * Proyectos de almacenamiento de Workfront heredados
+   * Proyectos de almacenamiento empresarial de Adobe.
+
+  Para obtener más información, consulte [Habilitar el almacenamiento empresarial de Adobe para su organización](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md).
+
+* Cuando crea un proyecto de almacenamiento empresarial, se crea una carpeta de documentos con el mismo nombre del proyecto para en la sección **Documentos** del proyecto. Después de agregar tareas al proyecto, las carpetas con el nombre de la tarea se agregan a la sección **Documentos** de cada tarea.
+
+Para obtener más información, vea [Información general sobre la administración de documentos de proyectos y objetos relacionados](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
+
 ## Creación de un proyecto desde cero
 
 >[!NOTE]
@@ -175,17 +186,42 @@ Tenga en cuenta lo siguiente:
 
 1. Realice una de las siguientes acciones:
 
-   * Haga clic en el icono **[!UICONTROL Menú principal]** ![Menú principal](/help/_includes/assets/main-menu-icon-left-nav.png) en la esquina superior izquierda, o en el icono **[!UICONTROL Menú principal]** ![Menú principal](/help/_includes/assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront, si está disponible, luego haga clic en **Proyectos** y expanda **Nuevo proyecto**.
+   * Haga clic en el icono **[!UICONTROL Menú principal]** ![Menú principal](/help/_includes/assets/main-menu-icon-left-nav.png) en la esquina superior izquierda, luego haga clic en **Proyectos** y expanda **Nuevo proyecto**.
    * Vaya a un portafolio y expanda **Nuevo proyecto**.
    * Vaya a un programa y expanda **Nuevo proyecto**.
-   * Si es administrador de un grupo, también puede crear un proyecto en la sección Proyectos de un grupo que administre. Para obtener más información, consulte [Crear y modificar proyectos de un grupo](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-projects.md).
+   * Si es administrador de un grupo, también puede crear un proyecto en la sección Proyectos de un grupo que administre. Para obtener más información, vea [Crear y modificar proyectos de un grupo](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-projects.md).
 
-   ![Menú de Nuevo proyecto](assets/new-project-dropdown-nwe-350x358.png)
+   ![Menú de Nuevo proyecto](assets/new-project-drop-down-with-legacy-storage-option.png)
 
-1. Haga clic en **Nuevo proyecto** en el menú para crear un proyecto desde cero.
-1. Escriba un nombre diferente para el proyecto. Pulse Intro para guardar el nombre.
+1. (Condicional) Según el almacenamiento de documentos que utilice su organización, haga clic en una de las siguientes opciones:
 
-   ![Introducir un nombre para el proyecto](assets/rename-untitled-project.png). 
+   * **Nuevo proyecto**, cuando el administrador de Workfront elige **Adobe Enterprise** o **Workfront heredado**, y seleccionó o no la configuración **Permitir al usuario seleccionar el proveedor de almacenamiento**.
+   * **Nuevo proyecto (almacenamiento heredado)**, cuando el administrador de Workfront elige **Adobe Enterprise** o **Workfront heredado**, y también selecciona la configuración **Permitir que el usuario seleccione el proveedor de almacenamiento**.
+
+     Esta opción solo se muestra cuando la opción **Permitir que el usuario seleccione el proveedor de almacenamiento** está seleccionada en el área de configuración.
+
+     Para obtener más información, consulte [Habilitar el almacenamiento empresarial de Adobe para su organización](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md).
+
+     >[!NOTE]
+     >
+     >Al crear un proyecto de almacenamiento empresarial a partir de un portafolio o programa de almacenamiento de Workfront, el portafolio o programa también se convierte en objetos de almacenamiento empresarial. Todos los demás proyectos de almacenamiento de Workfront del mismo portafolio o programa permanecen inalterados.
+
+     Se crea un proyecto y su nombre predeterminado sigue los siguientes patrones, según el almacenamiento que utilice Workfront para los documentos:
+
+      * **Proyecto sin título** para un proyecto de almacenamiento de Workfront.
+
+        Un proyecto de almacenamiento de Workfront muestra un **almacenamiento de Workfront heredado**![icono de proyecto de almacenamiento heredado](assets/legacy-storage-project-icon.png) junto a su nombre.
+
+      * **Proyecto sin título - &lt; Día del mes, año, hora.minuto.segundo >** para un proyecto de almacenamiento de Adobe
+
+        >[!IMPORTANT]
+        >
+        >Los proyectos que utilizan el almacenamiento empresarial de Adobe deben tener nombres únicos.
+
+
+1. En el encabezado del proyecto, actualice el nombre del proyecto. Pulse Intro para guardar el nombre.
+
+   ![Introducir un nombre para el proyecto](assets/rename-untitled-project.png).
 
    El encabezado de la página del proyecto muestra una descripción general rápida del estado y el progreso actuales de un proyecto. La información del encabezado del proyecto cambia a medida que se actualiza la información del proyecto.
 
