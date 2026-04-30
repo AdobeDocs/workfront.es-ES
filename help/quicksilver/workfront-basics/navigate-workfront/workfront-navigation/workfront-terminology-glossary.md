@@ -8,10 +8,10 @@ feature: Get Started with Workfront
 exl-id: 758072b3-775e-4771-9ae9-da0b38580c93
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 058abefdf7bcee16b9cee7f28e10337886c7fb05
+source-git-commit: 89a9e5d0ecf2daa9b423251c5c87a98d967a66a5
 workflow-type: tm+mt
-source-wordcount: '21621'
-ht-degree: 99%
+source-wordcount: '21715'
+ht-degree: 98%
 
 ---
 
@@ -19,6 +19,8 @@ ht-degree: 99%
 # Glosario de terminología de [!DNL Adobe Workfront]
 
 <!--Audited: 12/2023-->
+
+Bob: 4-30
 
 >[!IMPORTANT]
 >
@@ -298,14 +300,15 @@ La siguiente tabla es una lista de los términos más utilizados en Adobe Workfr
   </tr> 
   <tr> 
    <td>[!UICONTROL Budget Status]</td> 
-   <td> <p>Este campo está obsoleto. Cualquier información que pueda mostrar este campo está relacionada con una función que [!DNL Workfront] ha eliminado y el campo no se puede actualizar. </p> <p>Este campo muestra si el proyecto se ha añadido al [!UICONTROL Capacity Planner] y si se ha completado el cálculo del presupuesto para el mismo. El [!UICONTROL Capacity Planner] se ha eliminado de [!DNL Workfront]. </p> 
+   <td> <p>Este campo está obsoleto. Cualquier información que este campo pueda mostrar está relacionada con una característica que [!DNL Workfront] ha quitado y el campo no se puede actualizar. </p> <p>Este campo muestra si el proyecto se ha añadido al [!UICONTROL Capacity Planner] y si se ha completado el cálculo del presupuesto para el mismo. El [!UICONTROL Capacity Planner] se ha eliminado de [!DNL Workfront]. </p> 
     <!--
     <ul>
     <li data-mc-conditions="QuicksilverOrClassic.Draft mode">If the project is  not added to the capacity planner, its value is <i>Not Included</i>.  </li>
     <li data-mc-conditions="QuicksilverOrClassic.Draft mode">If the project is  added to the Capacity Planner but is excluded from the budget calculation,  the value is <i>Included but not Calculated</i>.  </li>
     <li data-mc-conditions="QuicksilverOrClassic.Draft mode"> If the project is  added to the Capacity Planner and included in the budget calculation, the value is <i>Included and Calculated</i>. </li>
     </ul>
-    --> </td> 
+    --> 
+  </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Breakdown]</td> 
@@ -322,8 +325,7 @@ La siguiente tabla es una lista de los términos más utilizados en Adobe Workfr
   </tr> 
   <tr> 
    <td>[!UICONTROL Budgeted Cost]</td>
-
-<td> <p>Es el coste asociado a la presupuestación de recursos para un proyecto. </p>
+   <td> <p>Es el coste asociado a la presupuestación de recursos para un proyecto. </p>
    <p>El campo se muestra en las siguientes áreas de [!DNL Workfront] con los siguientes nombres:</p>
    <ul>
    <li><strong>[!UICONTROL Budgeted Cost]</strong>: en el panel de [!UICONTROL Business Case Summary]</li>
@@ -365,7 +367,7 @@ La siguiente tabla es una lista de los términos más utilizados en Adobe Workfr
        </tr> 
        <tr> 
         <td>[!UICONTROL Bud. Hours]</td> 
-        <td> <p>Informe de [!UICONTROL Budgeted Hour]</p><p>El objeto [!UICONTROL Budgeted Hour] del informe de Hora presupuestada hace referencia a información relacionada con una herramienta de administración de recursos obsoleta. Solo el campo "[!UICONTROL . Hours]" en este informe hace referencia a las horas presupuestadas en el área de [!UICONTROL Resource Planner] o [!UICONTROL Resource Budgeting] del [!UICONTROL Business Case] del proyecto. </p> <p>Para obtener más información acerca de cómo crear un informe, consulte el artículo <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md" class="MCXref xref">Crear un informe personalizado</a>.</p> </td> 
+        <td> <p>Informe de [!UICONTROL Budgeted Hour]</p><p>El objeto [!UICONTROL Budgeted Hour] del informe de Hora presupuestada hace referencia a información relacionada con una herramienta de administración de recursos obsoleta. Solo el campo "[!UICONTROL. Hours]" en este informe hace referencia a las horas presupuestadas en el área de [!UICONTROL Resource Planner] o [!UICONTROL Resource Budgeting] del [!UICONTROL Business Case] del proyecto. </p> <p>Para obtener más información acerca de cómo crear un informe, consulte el artículo <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md" class="MCXref xref">Crear un informe personalizado</a>.</p> </td> 
        </tr> 
        <tr> 
         <td>[!UICONTROL Resource Planner Budgeted Hours] </td> 
@@ -426,7 +428,7 @@ La siguiente tabla es una lista de los términos más utilizados en Adobe Workfr
     <li>Informe de [!UICONTROL Issue]</li>
     <li>Informe de [!UICONTROL Budgeted Hour]</li> 
     </ul>
-    <p>Para obtener más información acerca de la creación de un informe, consulte el artículo <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md" class="MCXref xref">Crear un informe personalizado</a>.</p>
+    <p>Para obtener más información acerca de cómo crear un informe, consulte el artículo <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md" class="MCXref xref">Crear un informe personalizado</a>.</p>
     <!--
           <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Labor costs for hours budgeted in the Legacy Resource Estimates area of a project (or in the Capacity Planner). This was available only in Adobe Workfront Classic. </p>
            <p>Important: This is a deprecated field. Any information that this field might display is related to a feature that Workfront has removed and the field cannot be updated. </p>
@@ -497,37 +499,27 @@ La siguiente tabla es una lista de los términos más utilizados en Adobe Workfr
    <td> <p>Este campo indica si una tarea está lista para iniciarse. Si está lista para iniciarse, el campo [!UICONTROL Can Start] de la tarea se establece en [!UICONTROL True]. </p> <p>Para obtener más información, consulte <a href="../../../manage-work/tasks/task-information/can-start-task-overview.md" class="MCXref xref">Información general sobre “[!UICONTROL Can Start]” para las tareas</a>.</p> 
    <!--
      <p>(NOTE: everything below is drafted because I created a new article linked above with all this information - it was getting kind of too big for just a table cell)</p>
-    -->
-    <!--
      <p>Workfront checks for the following things before it marks a task as True for the Can Start field:<br></p>
-    --> 
-    <!--
      <ul> 
       <li> If the task has a parent, it checks to see if the value of Can Start for the parent it set to True. If the value for the parent is False, then all the subtasks have the value of Can Start set to False, as well.  </li> 
       <li> It also checks to see if the predecessors of the task as well as the predecessors of their parents are complete. If they are complete, the Can Start value for the task is set to True. If any of the task predecessors or their parents' predecessors are not complete, or have a status of Complete-Pending Approval, then the Can Start value for the task is set to False.  </li> 
      </ul>
-    --> 
-    <!--
      <p>For information about task predecessors, see <a href="../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md" class="MCXref xref">Overview of task predecessors</a>.</p>
-    -->
-    <!--
      <p>Tip: If the Dependency Type between a task and its predecessors is Start-Start, the predecessor must start before the predecessor relationship is considered resolved and the successor tasks can start. For information about dependency types, see <a href="../../../manage-work/tasks/use-prdcssrs/task-dependency-types.md" class="MCXref xref">Overview of task dependency types</a>. </p>
-    -->
-    </td>
+   -->
+  </td>
   </tr>
   <!--
    <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
     <td>Capacity</td> 
     <td>The total availability (measure in either hours or FTE) of a designated user, resource pool, team, rob role, or company.</td> 
    </tr>
-  -->
-
-<tr> 
+  --> 
+  <tr> 
    <td> <p>Capacidad</p> </td> 
    <td> <p>Tiempo disponible de un recurso cuando se le puede asignar al trabajo. Consulte “Disponibilidad”. </p></td> 
-  </tr>
-
-<tr> 
+  </tr> 
+  <tr> 
    <td> <p>[!UICONTROL Category]</p> </td> 
    <td> <p>Una categoría es un formulario personalizado. Se pueden generar informes para este objeto y mostrarlos en otros informes de objetos. No todos los objetos pueden tener un formulario o una categoría personalizados. Los siguientes objetos pueden tener un formulario personalizado: <br></p> 
     <ul> 
@@ -652,9 +644,8 @@ La siguiente tabla es una lista de los términos más utilizados en Adobe Workfr
   <tr> 
    <td>[!UICONTROL Condition Update]</td> 
    <td> <p>Este campo muestra la condición actual de tareas, proyectos o problemas. Esta opción muestra las actualizaciones más recientes que los propietarios de tareas, proyectos o problemas han proporcionado en el campo [!UICONTROL Update Status], junto con la nueva condición.</p> <p>Los comentarios realizados en las actualizaciones de condición no se muestran en la columna [!UICONTROL Condition Update]; solo se muestra la actualización principal.</p> </td> 
-  </tr>
-
-<tr> 
+  </tr> 
+  <tr> 
    <td>[!UICONTROL Connected record types]</td> 
    <td> <p>En Workfront Planning, puede crear una conexión entre una de las siguientes opciones: </p>
    <ul>
@@ -665,24 +656,20 @@ La siguiente tabla es una lista de los términos más utilizados en Adobe Workfr
    <p>Para obtener más información, consulte <a href="/help/quicksilver/planning/architecture/connect-record-types-overview.md">Información general sobre tipos de registro</a>.  </p>
   <p>Workfront Planning requiere una licencia adicional. </p>
  </td> 
-  </tr>
-
-<tr> 
+  </tr> 
+  <tr> 
    <td>[!UICONTROL Connected records]</td> 
    <td> <p>En Workfront Planning, después de conectar dos tipos de registros, puede conectar dos registros individuales de dichos tipos entre sí.  </p>
    <p>La conexión de registros permite mostrar información de un registro u objeto de otra aplicación en otro registro.</p>
    <p>Para obtener más información, consulte <a href="/help/quicksilver/planning/records/connected-records-overview.md">Información general de registros conectados</a>. </p>
-
-<p>Workfront Planning requiere una licencia adicional. </p>
- </td> 
-  </tr>
-
-<tr> 
+  <p>Workfront Planning requiere una licencia adicional. </p>
+  </td> 
+  </tr> 
+  <tr> 
    <td>[!UICONTROL Connections]</td> 
    <td> <p>En Workfront Planning, las conexiones pueden hacer referencia a tipos de registros conectados o a registros conectados. Workfront Planning requiere una licencia adicional.</p> </td> 
-  </tr>
-
-<tr> 
+  </tr> 
+  <tr> 
    <td>[!UICONTROL Constraint Date]</td> 
    <td> <p>Si utiliza una [!UICONTROL Task Constraint] vinculada a una fecha específica, como [!UICONTROL Must Start On], esa fecha específica se convierte en la [!UICONTROL Constraint Date] de la tarea.</p> <p>Las siguientes limitaciones de tareas actualizan el campo [!UICONTROL Constraint Date]:</p> 
     <ul> 
@@ -720,28 +707,22 @@ La siguiente tabla es una lista de los términos más utilizados en Adobe Workfr
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL Cost]</td> 
-   <td> <p>La cantidad monetaria que debe gastar al completar un proyecto, tarea o problema. </p> <p>Puede realizar el seguimiento de varios tipos de costes de mano de obra, gastos y riesgos relacionados con el proyecto. Para obtener información sobre el seguimiento de costes en [!DNL Workfront], vea <a href="../../../manage-work/projects/project-finances/track-costs.md">Seguimiento de costes</a>.</p> 
+   <td> <p>La cantidad monetaria que debe gastar al completar un proyecto, tarea o problema. </p> <p>Puede realizar un seguimiento de varios tipos de costos de mano de obra, gastos y riesgos relacionados con el proyecto.Para obtener información sobre el seguimiento de costos en [!DNL Workfront], vea <a href="../../../manage-work/projects/project-finances/track-costs.md">Seguimiento de costos</a>.</p> 
    </td> 
-  </tr>
-
-<tr> 
+  </tr> 
+  <tr> 
    <td>[!UICONTROL Cost Performance Index (CPI)]</td> 
    <td> <p>El [!UICONTROL Cost Performance Index (CPI)] describe la relación a nivel de proyecto o tarea entre el coste planificado y el coste real. Los administradores de proyectos revisan esta métrica para identificar las tareas o los proyectos cuyo seguimiento actual sea inferior o superior al coste en un momento determinado. El coste se puede medir en horas o divisa, en función de su [!UICONTROL Performance Index Method (PIM)].</p> 
-    <p> Para obtener información, consulte <a href="/help/quicksilver/manage-work/projects/project-finances/calculate-cpi.md">Calcular el índice de rendimiento de costes (CPI)</a>.</p>
-
-</td> 
-  </tr>
-
-<tr> 
+    <p> Para obtener información, consulte <a href="/help/quicksilver/manage-work/projects/project-finances/calculate-cpi.md">Calcular el índice de rendimiento de costes (CPI)</a>.</p>  
+   </td> 
+  </tr> 
+  <tr> 
    <td>[!UICONTROL Cost Schedule Performance Index (CSI)]</td> 
    <td> <p>El [!UICONTROL Cost Schedule Performance Index (CSI)] es un cálculo automático que combina el [!UICONTROL Cost Performance Index (CPI)] y el [!UICONTROL Schedule Performance Index (SPI)] en una métrica general que equilibra el coste y la programación. Al multiplicar estos valores juntos, una sola métrica puede explicar una programación prolongada con un presupuesto más bajo o viceversa. Los gestores de proyectos pueden utilizarlo para determinar el estado general de los proyectos o las tareas cuando se sacrifica el coste para impulsar la programación a mitad del proyecto.</p> 
     <p> Para obtener más información, consulte <a href="/help/quicksilver/manage-work/projects/project-finances/calculate-csi.md">Calcular el índice de rendimiento de programación de costes</a>.</p>
     </td> 
-  </tr>
-
-
-
-<tr> 
+  </tr> 
+  <tr> 
    <td>[!UICONTROL Cost Type]</td> 
    <td>Para una tarea, el [!UICONTROL Cost Type] determina cómo acumulará costes la tarea. Algunos ejemplos son [!UICONTROL Fixed Hourly], [!UICONTROL User Hourly] y [!UICONTROL User Hourly plus Fixed]. </td> 
   </tr> 
@@ -851,9 +832,8 @@ La siguiente tabla es una lista de los términos más utilizados en Adobe Workfr
   <tr> 
    <td>[!UICONTROL Document Version]</td> 
    <td> <p>Cada vez que se carga el mismo documento en el mismo objeto, se le asigna un número de versión. Los usuarios pueden ver y cambiar varias opciones de una versión anterior de un documento.</p> <p>Para obtener más información, consulte <a href="../../../documents/managing-documents/manage-document-versions.md" class="MCXref xref">Administrar versiones de documentos</a>.</p> </td> 
-  </tr>
-
-<tr> 
+  </tr> 
+  <tr> 
    <td>[!UICONTROL Due Date]</td> 
    <td> <p>La fecha en la que se debe completar una tarea o un problema. La Fecha de vencimiento de una tarea o problema es la misma fecha que la Fecha planificada de finalización.</p>
     <p>La fecha de vencimiento de la tarea y el problema se puede ver en las listas y en los informes de tareas y problemas.</p> 
@@ -886,7 +866,6 @@ La siguiente tabla es una lista de los términos más utilizados en Adobe Workfr
      <li>[!UICONTROL Effort Driven]</li> 
      <li>[!UICONTROL Simple]</li> 
     </ul> <p>Para obtener más información, consulte <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">Información general sobre la [!UICONTROL Duration] de una tarea y [!UICONTROL Duration Type]</a>.</p> 
-    --&gt;
     </td>
    </tr> 
    <tr> 
@@ -919,23 +898,19 @@ La siguiente tabla es una lista de los términos más utilizados en Adobe Workfr
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Integrated"> 
    <td>[!UICONTROL Enterprise Goals]</td> 
    <td>Metas interdepartamentales que contribuyen a las métricas de los metas de la compañía.</td> 
-  </tr>
-
-<tr> 
+  </tr> 
+  <tr> 
    <td>[!UICONTROL Estimate at Completion]</td> 
    <td><p>Como métrica de rendimiento de proyecto, la Estimación al finalizar (EAC) representa el coste total proyectado del proyecto o la tarea cuando finaliza.</p>
    <p>Como configuración de proyecto, le permite definir cómo se debe calcular el valor EAC.</p>
    <p>Para obtener información, consulte <a href="/help/quicksilver/manage-work/projects/project-finances/calculate-eac.md">Calcular la Estimación al finalizar (EAC)</a>. </p>
    </td> 
-  </tr>
-
-<tr> 
+  </tr> 
+  <tr> 
    <td>[!UICONTROL Estimated Due Date]</td> 
    <td>En los informes de proyecto, tarea y problema, la Fecha de vencimiento estimada es la fecha en la que Workfront calcula que el artículo debe completarse.</td> 
-  </tr>
-
-
-<tr> 
+  </tr> 
+  <tr> 
    <td>[!UICONTROL Event]</td> 
    <td>Cualquier cambio en un proyecto o tarea.</td> 
   </tr> 
@@ -958,27 +933,20 @@ La siguiente tabla es una lista de los términos más utilizados en Adobe Workfr
   <tr> 
    <td>[!UICONTROL External System]</td> 
    <td>Cualquier servicio o software que esté almacenado y regido fuera del sistema de registro designado.</td> 
-  </tr>
-
-<tr> 
+  </tr> 
+  <tr> 
    <td>[!UICONTROL Field]</td> 
    <td><p>Cualquier objeto Workfront o la información asociada con él, tal como aparece en la base de datos. </p>
    <p>Por ejemplo, “proyecto”, “usuario”, “hora” son tanto objetos de Workfront como campos. “Nombre”, “Estado”, “Propietario”, “Fecha de inicio” son campos de Workfront asociados con los objetos anteriores. </p>
-
-<p>Cuando se hace referencia a objetos, los términos “objetos” y “campos” se pueden utilizar indistintamente.</p>
+   <p>Cuando se hace referencia a objetos, los términos “objetos” y “campos” se pueden utilizar indistintamente.</p>
    <p>En el ámbito de la creación de informes, los “campos” hacen referencia a los objetos o a la información sobre el objeto que desea capturar en el informe.</p>
-
-<p><b>NOTA</b></p>
-
-<p>En la creación de informes en modo de texto, los campos hacen referencia a los objetos o a su información tal como aparece en la base de datos.</p>
+   <p><b>NOTA</b></p>
+   <p>En la creación de informes en modo de texto, los campos hacen referencia a los objetos o a su información tal como aparece en la base de datos.</p>
    <p>A veces, el nombre que se ve en la interfaz de usuario es diferente del nombre del campo en la base de datos. Por ejemplo, “issue” es el nombre del objeto en la interfaz de Workfront, pero “opTask” es el nombre del objeto (o el campo) en la base de datos de Workfront. </p> 
    <p> Es importante utilizar el campo tal como aparece en la base de datos al escribir un informe en modo de texto, ver, filtrar o agrupar, o al crear un campo calculado.</p>
-
-<p>Para obtener más información, consulte <a href="../../../wf-api/general/api-explorer.md">Explorador de API</a> e <a href="../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md">Información general sobre el modo de texto</a>.</p>
-
-<p>De forma predeterminada, Workfront incluye un conjunto de campos que definen tanto los objetos como su información. También puede crear campos personalizados para definir objetos, pero no puede crear objetos personalizados.</p>
-
-<p>En Workfront Planning, puede crear campos personalizados para todo tipo de registro. Los tipos de registros de Workfront incluyen un número muy limitado de campos. Debe crear todos los campos desde cero y asociarlos a tipos de registro. Para obtener más información, consulte <a href="/help/quicksilver/planning/fields/fields-overview.md">Información general de campo</a>. </p> <p>Workfront Planning requiere una licencia adicional. </p>   
+   <p>Para obtener más información, consulte <a href="../../../wf-api/general/api-explorer.md">Explorador de API</a> e <a href="../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md">Información general sobre el modo de texto</a>.</p>  
+   <p>De forma predeterminada, Workfront incluye un conjunto de campos que definen tanto los objetos como su información. También puede crear campos personalizados para definir objetos, pero no puede crear objetos personalizados.</p> 
+   <p>En Workfront Planning, puede crear campos personalizados para todo tipo de registro. Los tipos de registros de Workfront incluyen un número muy limitado de campos. Debe crear todos los campos desde cero y asociarlos a tipos de registro. Para obtener más información, consulte <a href="/help/quicksilver/planning/fields/fields-overview.md">Información general de campo</a>. </p> <p>Workfront Planning requiere una licencia adicional. </p>   
   </tr>
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Ad hoc"> 
    <td>[!UICONTROL Filter]</td> 
@@ -1016,23 +984,20 @@ La siguiente tabla es una lista de los términos más utilizados en Adobe Workfr
    <li> [!UICONTROL Resource Planner] </li>
    <li> [!UICONTROL Scenario Planner] (se requiere una licencia adicional para Workfront Scenario Planner) </li>
    <li> Listas de usuarios e informes </li> </ul>
-
-<p>[!UICONTROL FTE] debe ser un número decimal de hasta 1 y no puede ser 0. </p>
+   <p>[!UICONTROL FTE] debe ser un número decimal de hasta 1 y no puede ser 0. </p>
    <p> Un [!UICONTROL FTE] de 1 (que es el valor predeterminado para el campo [!UICONTROL FTE] de un usuario, tal como se define en su perfil) significa que un recurso (usuario o función) funciona todas las horas, según la programación que calcula su disponibilidad. </p>
    <p>El administrador de Workfront decide qué horario utilizar para determinar la disponibilidad del usuario.  </p>
    <ul>
    <li> Cuando se utiliza el horario predeterminado de [!UICONTROL Default Schedule], Workfront utiliza el [!UICONTROL FTE] del usuario que se encuentra en su perfil para calcular la disponibilidad. </li>
    <li> Cuando se usa la programación del usuario, Workfront usa el tiempo libre del usuario, el valor de [!UICONTROL Work Time] y las horas de [!UICONTROL Default Schedule] para calcular el [!UICONTROL FTE] del usuario. </li> </ul>
-
-<p>Para obtener más información, consulte <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md">Configurar las preferencias de Administración de recursos</a>.  </p>
+   <p>Para obtener más información, consulte <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md">Configurar las preferencias de administración de recursos</a>.  </p>
    <p>Para obtener más información acerca de la creación de programaciones en [!DNL Workfront], vea <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md">Crear una programación</a>. </p>
-
-<p><b>NOTA</b></p>
+   <p><b>NOTA</b></p>
    <p>Para todos los cálculos del [!UICONTROL Scenario Planner], Workfront utiliza el siguiente valor: 1 [!UICONTROL FTE] = 8 Horas.</p>
    <p>Para obtener más información, vea <a href="../../../scenario-planner/get-started-with-scenario-planning.md">Introducción al [!UICONTROL Scenario Planner]</a>. </p>
    </td> </tr> 
    </tbody> 
-   </table>
+</table>
 
 <!--
      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Task field used by the planner to set how the work required is allocated to the assignees across the duration.</p>
@@ -1110,33 +1075,24 @@ La siguiente tabla es una lista de los términos más utilizados en Adobe Workfr
   <tr> 
    <td>[!UICONTROL Owner]</td> 
    <td>En un informe de [!UICONTROL Hour], el [!UICONTROL Owner] es el usuario al que se le atribuyen las horas. Es diferente del usuario que realmente registra la hora. Estas dos entidades pueden ser a veces dos usuarios diferentes. <br>Para obtener más información acerca de cómo registrar tiempo para otro usuario, consulte el artículo <a href="../../../timesheets/create-and-manage-timesheets/log-time.md" class="MCXref xref">Registrar tiempo</a>.</td> 
-  </tr>
-
-<tr> 
+  </tr> 
+  <tr> 
    <td>Estado de hora</td> 
-   <td> <p>Atributo establecido por Workfront para las horas reales que los usuarios registran para tareas, problemas o proyectos. </p>
-
-Las entradas de horas pueden tener uno de los siguientes estados en Workfront:
-<ul>
+   <td> <p>Atributo establecido por Workfront para las horas reales que los usuarios registran para tareas, problemas o proyectos. </p>Las entradas de horas pueden tener uno de los siguientes estados en Workfront:
+   <ul>
    <li><b>Enviado</b>: las horas se han registrado en un proyecto, tarea o problema. Forman parte de un registro de facturación o aún no se han añadido a un registro de facturación.</li>
    <li><b>Aprobado</b>: las horas se han registrado y el propietario del proyecto las ha aprobado. Forman parte de un registro de facturación o aún no se han añadido a un registro de facturación.</li> 
    <li><b>No aprobado</b>: el propietario del proyecto ha registrado y rechazado las horas. Forman parte de un registro de facturación o aún no se han añadido a un registro de facturación.</li>
    <li><b>Facturado</b>: las horas se han registrado, se han añadido a un registro de facturación y el estado del registro de facturación se ha marcado como Facturado. No es necesario que el propietario del proyecto las apruebe.</li>
    <li><b>Facturado y aprobado</b>: las horas se han registrado, el propietario del proyecto las ha aprobado y el estado del registro de facturación se ha marcado como Facturado.</li>
-   </ul>
-
-<p>Cuando las horas forman parte de un registro de facturación, el Estado de hora indica si las horas se han aprobado o si se ha facturado el Registro de facturación al que pertenecen. El estado de hora de una entrada de hora solo es visible en una lista de horas o un informe. </p>
-
-<p>Para obtener más información acerca de cómo añadir horas a los registros de facturación, consulte la sección “Añadir horas a los registros de facturación” en el artículo <a href="../../../manage-work/projects/project-finances/create-billing-records.md" >Crear registros de facturación</a>.</p>
-
-<p>Para obtener más información acerca de la hora de aprobación de los proyectos, consulte <a href="../../../manage-work/projects/manage-projects/require-time-approval-for-projects.md" >Requerir tiempo de aprobación de un proyecto</a>.</p>
-
-<p><b>Sugerencia</b></p>
-
-<p>Las horas generales que no se registran directamente en los elementos de trabajo no muestran un estado de hora. </p> </td> 
+   </ul> 
+   <p>Cuando las horas forman parte de un registro de facturación, el Estado de hora indica si las horas se han aprobado o si se ha facturado el Registro de facturación al que pertenecen. El estado de hora de una entrada de hora solo es visible en una lista de horas o un informe. </p>
+   <p>Para obtener más información acerca de cómo añadir horas a los registros de facturación, consulte la sección “Añadir horas a los registros de facturación” en el artículo <a href="../../../manage-work/projects/project-finances/create-billing-records.md" >Crear registros de facturación</a>.</p>
+   <p>Para obtener más información acerca de la hora de aprobación de los proyectos, consulte <a href="../../../manage-work/projects/manage-projects/require-time-approval-for-projects.md" >Requerir tiempo de aprobación de un proyecto</a>.</p>
+   <p><b>Sugerencia</b></p>
+   <p>Las horas generales que no se registran directamente en los elementos de trabajo no muestran un estado de hora. </p> </td> 
   </tr>
-
-<tr> 
+  <tr> 
    <td>[!UICONTROL Hour Type]</td> 
    <td> <p>Atributo que se puede establecer para Horas reales que los usuarios registran para tareas, problemas o proyectos. También es un atributo para las horas registradas que no están directamente vinculadas al trabajo, como [!UICONTROL Vacation] y [!UICONTROL Time Off].</p> <p>Para obtener más información, consulte <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/hour-types.md" class="MCXref xref">Administrar tipos de hora</a>.</p> </td> 
   </tr> 
@@ -1187,7 +1143,7 @@ Las entradas de horas pueden tener uno de los siguientes estados en Workfront:
   <tr data-mc-conditions=""> 
    <td> <p>[!UICONTROL Is Company Goal]</p></td> 
    <td> <p>En [!DNL goal reports], esto muestra un valor “[!UICONTROL True]/[!UICONTROL False]” para cada meta estratégica a fin de indicar si su organización está asignada a la meta como propietario. </p> 
-   <p>Este campo solo está visible si su organización ha adquirido [!DNL Workfront Goals]. Para obtener información sobre la administración de metas estratégicas mediante [!DNL Workfront Goals], consulte Información general de <a href="../../../workfront-goals/goal-management/wf-goals-overview.md">[!DNL Adobe Workfront Goals]</a>.</p>
+   <p>Este campo solo está visible si su organización ha comprado [!DNL Workfront Goals]. Para obtener información acerca de la administración de metas estratégicas mediante [!DNL Workfront Goals], vea <a href="../../../workfront-goals/goal-management/wf-goals-overview.md">[!DNL Adobe Workfront Goals] información general </a>.</p>
   </tr> 
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Ad hoc"> 
    <td>[!UICONTROL Issue]</td> 
@@ -1272,8 +1228,7 @@ Las entradas de horas pueden tener uno de los siguientes estados en Workfront:
    <p>Cuando este campo se agrega a un informe de [!UICONTROL Tarea], las actualizaciones que queden en objetos secundarios, como problemas, subtareas o documentos, de la tarea no se mostrarán en esta columna.</p> 
    <p><b>NOTA</p>
    <p>La última nota agregada a un objeto mediante la API no se muestra en un informe en Workfront. El campo [!DNL Last Note] está vacío si la última actualización de un objeto se agregó mediante la API. </p>
-
-</td> 
+   </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Last Viewed By]</td> 
@@ -1296,8 +1251,6 @@ Las entradas de horas pueden tener uno de los siguientes estados en Workfront:
    <td>Legacy Budgeted Cost</td> 
    <td> <p>This is a deprecated field. Any information that this field might display is related to a feature that Workfront has removed and the field cannot be updated. </p> <p>The field is still visible in some reports and lists, but the information displayed cannot be updated. </p> <p>See <i>Budgeted Cost</i>. </p> </td> 
   </tr>
-  --> 
-  <!--
   <tr data-mc-conditions=""> 
    <td>Legacy Budgeted Hours</td> 
    <td> <p>This is a deprecated field. Any information that this field might display is related to a feature that Workfront has removed and the field cannot be updated. </p> <p>The field is still visible in some reports and lists, but the information displayed cannot be updated. </p> <p>See <i>Budgeted Hours</i>. </p> <p>
@@ -1305,33 +1258,20 @@ Las entradas de horas pueden tener uno de los siguientes estados en Workfront:
         This field shows the number of hours budgeted for the project in the Legacy Resource Estimates area of the Business Case or in the Capacity Planner. 
        <br>If there  are multiple job roles, this is a summary of the budgeted hours for all job roles. The Legacy Budgeted Hours are calculated after you have used the "Set budget to schedule" feature, or after you have defined how many of the Planned Hours should be budgeted, in the Resource Estimates area of the Business Case of the project or in the Capacity Planner.   
      </p> </td> </tr>
-     -->
-  <!--
   <tr data-mc-conditions=""> 
    <td>Legacy Budgeted Labor Cost</td> 
    <td> <p>This is a deprecated field. Any information that this field might display is related to a feature that Workfront has removed. This field cannot be updated. </p> <p>The field is still visible in some reports and lists. </p> <p>See <i>Budgeted Labor Cost</i>. </p> 
      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">In a project report, this field shows the labor cost associated with the project, taking into account the Cost per Hour rate of every job role and the amount of Legacy Budgeted Hours estimated in the Legacy Resource Estimates area of the Business Case that is needed for each role to complete the project.  </p>
-    -->
-    <!--
      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">The Legacy Budgeted Labor Cost in a project report is calculated using the following formula:</p>
-    -->
-    <!--
      <p data-mc-conditions="QuicksilverOrClassic.Draft mode"><code style="font-style: normal;">Legacy Budgeted Labor Cost = SUM(Job Role Cost per Hour * Legacy Budgeted Hours per Job Role)</code> </p>
-    -->
-    <!--
      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">For more information about calculating Legacy Budgeted Labor Cost, see the article <a href="../../../manage-work/projects/project-finances/budgeted-labor-cost.md" class="MCXref xref">Understand Budgeted Labor Cost and Budgeted Hours for projects</a>    </p>
-    -->
-    </td>
-  </tr> 
-  <tr> 
-   <!--
     <td>Legacy Resource Pool</td> 
    <td> <p>This is a deprecated field. Any information that this field might display is related to a feature that Workfront has removed. This field cannot be updated. </p> 
    <p>Although not recommended, you may update the information in this report using the API.</p> 
    <p>See <i>Resource Pools</i> for updated fields. </p> 
    <p>The Legacy Resource Pool is a collection  of job roles associated with a project or a user. The functionality of the Legacy Resource Pools is displayed in the tools available in the Legacy Resource Planning tab of the People area. This is a deprecated field.</p>
-    -->
-    </td>
+  -->
+  </td>
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL Legacy Actual Hours]</td> 
@@ -1360,7 +1300,7 @@ Las entradas de horas pueden tener uno de los siguientes estados en Workfront:
    <td>[!UICONTROL List Controls]</td> 
    <td> <p>Parte de [!UICONTROL Interface Setup] que permite vincular filtros, vistas y agrupaciones personalizados a usuarios individuales o globalmente a todos los usuarios.</p> </td> 
   </tr> 
-<tr> 
+  <tr> 
    <td>[!UICONTROL Lookup fields]</td> 
    <td> <p>En Workfront Planning, después de establecer la conexión entre dos tipos de registro y vincular registros individuales, puede hacer referencia a los campos de los registros vinculados en el registro desde el que se conecta.</p>
    <p>Por ejemplo, si conecta un tipo de registro Campaña con un tipo de objeto Proyecto de Workfront, puede mostrar el campo Presupuesto de los proyectos conectados en los registros de campaña. El campo de proyecto de Presupuesto es un campo de búsqueda de proyectos en una campaña.</p> <p>Los valores de los campos de búsqueda se rellenan automáticamente en los registros desde los que están conectados.</p>
@@ -1437,8 +1377,7 @@ Las entradas de horas pueden tener uno de los siguientes estados en Workfront:
    <td>En un informe de [!UICONTROL Journal Entry], se muestra el valor actualizado de un campo que reemplaza a [!UICONTROL Old Number Value].
    Para obtener más información, consulte “[!UICONTROL Old Number Value]” en este artículo.</td> 
   </tr>
-
-<tr data-mc-conditions=""> 
+  <tr data-mc-conditions=""> 
    <td>[!UICONTROL Non-Billable Expense]</td> 
    <td> <p>Un gasto que no está marcado como facturable al cliente. Puede ser un gasto planificado o un gasto real.</p> <p>Los campos Coste de gastos planificados no facturables y Coste de gastos reales no facturables están disponibles para que los añada a las vistas e informes. No aparecen en las páginas de detalles del proyecto o de la tarea.</p>
    <p>Puede encontrar estos campos en los siguientes tipos de informes:</p>
@@ -1450,8 +1389,7 @@ Las entradas de horas pueden tener uno de los siguientes estados en Workfront:
    <p>Para obtener más información sobre cómo marcar un gasto como facturable, consulte <a href="/help/quicksilver/manage-work/projects/project-finances/manage-project-expenses.md">Administrar gastos del proyecto</a>.</p>
    </td> 
   </tr>
-
-<tr> 
+  <tr> 
    <td>[!UICONTROL Non Work Day]</td> 
    <td>Un día que no está asignado a la finalización de ninguna asignación. Generalmente es un día de vacaciones, un día festivo o un fin de semana. El término se muestra en el explorador de la API. </td> 
   </tr> 
@@ -1462,26 +1400,20 @@ Las entradas de horas pueden tener uno de los siguientes estados en Workfront:
   <tr> 
    <td>[!UICONTROL Note Text]</td> 
    <td> <p>Muestra el texto de una actualización introducida por un usuario en cualquier objeto. </p> </td> 
-  </tr>
-
-<tr data-mc-conditions="">
-
-<td>[!UICONTROL Number of Linked Goals]</td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td>[!UICONTROL Number of Linked Goals]</td> 
    <td> <p>En un informe de [!UICONTROL Project], es el número de objetivos estratégicos asociados al proyecto. Para obtener información acerca de cómo asociar proyectos con metas estratégicas, consulte <a href="../../../workfront-goals/results-and-activities/connect-projects-to-goals-overview.md">Añadir proyectos a metas en [!DNL Adobe Workfront Goals]</a>.</p> 
    <p>Para obtener información acerca de los objetivos estratégicos, consulte también “[!UICONTROL Goal]” en este artículo.</p> 
    <p>Este campo solo está visible si su organización ha comprado [!DNL Workfront Goals]. Para obtener información acerca de cómo administrar metas estratégicas con [!DNL Workfront Goals], consulte <a href="../../../workfront-goals/results-and-activities/connect-projects-to-goals-overview.md">Añadir proyectos a metas en [!UICONTROL Adobe Workfront Goals]</a>. </p> </td> 
-  </tr>
-
-<tr>
-
-<td>[!UICONTROL Número de elementos secundarios]</td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL Número de elementos secundarios]</td> 
    <td> <p>En un informe de [!UICONTROL Project], es el número de tareas secundarias o subtareas que tiene una tarea. 
    <p><b>Sugerencia</b></p>
    Puede agregar el cálculo <code>{numberOfChildren}</code> a un campo personalizado calculado en el formulario personalizado de la tarea para mostrar en un campo personalizado el número de elementos secundarios de la tarea. Para obtener más información, vea <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md">Agregar un campo calculado a un formulario</a>. 
-    </td>
-
-
-</tr> 
+    </td> 
+  </tr> 
   <tr> 
    <td>[!UICONTROL Object]</td> 
    <td> <p>La información que se muestra en [!DNL Adobe Workfront] está representada por objetos almacenados en la base de datos de [!DNL Workfront]. Los objetos son lo que impulsa la información en Workfront. Algunos ejemplos de objetos son los siguientes:</p> 
@@ -1503,12 +1435,10 @@ Las entradas de horas pueden tener uno de los siguientes estados en Workfront:
      <li>[!UICONTROL Hours]</li> 
      <li>[!UICONTROL Billing Rates]</li> 
      <li>[!UICONTROL Templates]</li> 
-     <li>[!UICONTROL Template tasks]</li>
-
-<p><b>NOTA</b></p>
+     <li>[!UICONTROL Template tasks]</li> 
+  <p><b>NOTA</b></p>
   <p>Esta no es una lista exhaustiva. </p>
-
-</ul> <p>Para obtener más información, consulte <a href="../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md" class="MCXref xref">Comprender los objetos en [!UICONTROL Adobe Workfront]</a>.</p> </td> 
+  </ul> <p>Para obtener más información, consulte <a href="../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md" class="MCXref xref">Comprender los objetos en [!UICONTROL Adobe Workfront]</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Object Types]</td> 
@@ -1623,14 +1553,14 @@ Las entradas de horas pueden tener uno de los siguientes estados en Workfront:
    <td>[!UICONTROL Percent Complete]</td> 
    <td> <p>Campo de proyecto, tarea o problema que muestra qué porcentaje del trabajo asociado con la tarea, el proyecto o el problema se ha completado.</p> <p>Puede actualizar este campo manualmente para problemas y tareas de trabajo. </p> <p>Para los proyectos y las tareas principales, este campo es un resumen de todas las tareas de trabajo y no se puede actualizar de forma manual. </p> <p>Para obtener más información, consulte <a href="../../../manage-work/tasks/task-information/project-percent-complete.md" class="MCXref xref">Información general del proyecto [!UICONTROL Percent Complete]</a>.</p> </td> 
   </tr> 
-<tr> 
+  <tr> 
    <td>[!UICONTROL Performance Index Method (PIM)]</td> 
    <td> <p>El [!UICONTROL Performance Index Method (PIM)] del proyecto controla el método que utiliza Adobe Workfront para calcular las métricas de rendimiento del proyecto, como el Índice de rendimiento de costes (CPI), el Índice de rendimiento de programación de costes (CSI), el Índice de rendimiento de la programación (SPI) y la Estimación al finalizar (EAC).</p> 
    <p>Workfront calcula dichos valores mediante horas o coste.</p>
    <p>Para obtener más información, consulte <a href="/help/quicksilver/manage-work/projects/project-finances/set-pim.md">Establecer el método de índice de rendimiento (PIM)</a>.</p>
    </td> 
-  </tr>
- <tr> 
+   </tr>
+   <tr> 
    <td>[!UICONTROL Permission]</td> 
    <td> <p>Derechos que se conceden a un usuario sobre un objeto, normalmente otorgados para que pueda completar el trabajo en el elemento o verlo. Puede conceder permisos a:</p> 
     <ul> 
@@ -1647,14 +1577,14 @@ Las entradas de horas pueden tener uno de los siguientes estados en Workfront:
      <li>[!UICONTROL Filters]</li> 
      <li>[!UICONTROL Groupings]</li> 
     </ul> <p>Para obtener más información, vea <a href="../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md" class="MCXref xref">Información general sobre los permisos de uso compartido en objetos</a>.</p> </td> 
-  </tr> 
-  <tr> 
+   </tr> 
+   <tr> 
    <td>[!UICONTROL Plan]</td> 
    <td> <p>Es un tipo de licencia completa en el sistema [!DNL Workfront]. Los usuarios deben tener esto para tener acceso a todas las características de [!DNL Workfront].</p> <p>Para obtener más información, consulte <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">[!DNL Adobe Workfront]Información general sobre licencias</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Plan] (en [!DNL Scenario Planner])</td> 
-   <td> <p>Un plan es el objeto principal cuando se trabaja con el Planificador de escenarios [!DNL Workfront]. Puede esbozar la estrategia para el futuro a corto y largo plazo de su empresa, identificar cada resultado de alto nivel y agregarlo como plan al Planificador de escenarios [!DNL Workfront]. </p> <p>No puede mostrar [!DNL Scenario Planner] planes en un informe y no puede acceder a ellos a través de la API [!DNL Workfront]. </p> <p>[!DNL Scenario Planner] requiere una licencia adicional. Para obtener información acerca de [!DNL Workfront Scenario Planner], consulte <a href="../../../scenario-planner/scenario-planner-overview.md">La descripción general de [!DNL Scenario Planner]</a>. </p> </td> 
+   <td> <p>Un plan es el objeto principal cuando se trabaja con el Planificador de escenarios [!DNL Workfront]. Puede esbozar la estrategia para el futuro a corto y largo plazo de su empresa, identificar cada resultado de alto nivel y agregarlo como plan al Planificador de escenarios [!DNL Workfront]. </p> <p>No puede mostrar [!DNL Scenario Planner] planes en un informe y no puede acceder a ellos a través de la API [!DNL Workfront]. </p> <p>El [!DNL Scenario Planner] requiere una licencia adicional. Para obtener información acerca del [!DNL Workfront Scenario Planner], consulte <a href="../../../scenario-planner/scenario-planner-overview.md">Información general sobre [!DNL Scenario Planner]</a>. </p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Planned]</td> 
@@ -1684,11 +1614,11 @@ Las entradas de horas pueden tener uno de los siguientes estados en Workfront:
    <td>[!UICONTROL Planned Date Alignment]</td> 
    <td> <p>Este es un indicador automático de que Workfront asigna proyectos, tareas y problemas para mostrar cuándo se completará un elemento en relación con su fecha planificada de finalización. </p>
    <p>Los siguientes son valores posibles para el indicador Alineación de fechas planificada: </p>
-<ul>
-<li>Se terminará en la fecha planificada de finalización</li>
-<li>Se terminará antes de la fecha planificada de finalización</li>
-<li>Se terminará después de la fecha planificada de finalización</li></ul>
-<p>La alineación de fechas planificada es visible en las listas de proyectos, tareas y problemas y en los informes. </p></td> 
+  <ul>
+  <li>Se terminará en la fecha planificada de finalización</li>
+  <li>Se terminará antes de la fecha planificada de finalización</li>
+  <li>Se terminará después de la fecha planificada de finalización</li></ul>
+  <p>La alineación de fechas planificada es visible en las listas de proyectos, tareas y problemas y en los informes. </p></td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Planned Duration]</td> 
@@ -1705,17 +1635,17 @@ Las entradas de horas pueden tener uno de los siguientes estados en Workfront:
    <p>Para un proyecto, [!DNL Workfront] usa la fórmula siguiente para calcular el [!UICONTROL Planned Expense Cost]:</p> <p><code>Project [!UICONTROL Planned Expense Cost] = SUM (All Project [!UICONTROL Planned Expense Costs]) + SUM (All Tasks [!UICONTROL Planned Expense Costs])</code> </p> 
    <!--
      <p>Important: If the value in the Actual Amount field for an expense is negative, Workfront will ignore that expense record. For example, if the value in the Planned Amount field is $200.00 but the value in the Actual Amount field is -$300.00, the system will ignore this entire expense record which means you would not include the $200.00 planned value or the -$300.00 actual value in any calculations for Planned Expense Cost or Actual Expense Cost. (Drafting this because not sure if this is correct anymore)</p>
-    -->
-    </td>
+   -->
+  </td>
   </tr> 
   <tr> 
    <td>[!UICONTROL Planned Hours]</td> 
    <td> <p>Este campo aparece en las áreas de [!UICONTROL projects], [!UICONTROL tasks] y problemas, informes de proyectos, tareas o problemas y herramientas de administración de recursos como [!UICONTROL Resource Planner], [!UICONTROL Workload Balancer] y el informe de [!UICONTROL Utilization]. </p> <p>Muestra el número de horas que el propietario del proyecto estima que cada tarea o problema debería tardar en completarse. En los proyectos, suele ser un resumen de las [!UICONTROL Planned Hours] de las tareas del proyecto. </p> <p>El campo [!UICONTROL Planned Hours] puede mostrar información diferente según el lugar desde el que se vea. Para obtener información sobre las horas planificadas, consulte <a href="../../../manage-work/tasks/task-information/planned-hours.md" class="MCXref xref">Información general de las horas planificadas</a>.</p> <p>Las horas planificadas se almacenan en minutos en la base de datos de [!DNL Workfront]. Cuando escriba cálculos utilizando este campo, asegúrese de que tiene en cuenta el hecho de que las horas se muestran como minutos.<br></p> <p>De forma predeterminada, las horas planificadas se distribuyen de forma equitativa para todos los días dentro de la duración de un elemento de trabajo y también de forma equitativa para todos los recursos asignados a la tarea. Los usuarios pueden actualizar el número diario de horas planificadas para un elemento de trabajo o las horas planificadas individuales para cada asignado.</p> <p>La actualización de este campo es diferente para los proyectos, las tareas y los problemas: </p> 
     <ul> 
-     <li> <p>Para los problemas, puede actualizar manualmente este campo. Las horas planificadas de problemas no se añaden a las horas planificadas de los proyectos. </p> <p><b>Sugerencia</b></p> <p>En un informe de problemas, uno de los campos [!UICONTROL Planned Hours] se reemplaza por el campo [!UICONTROL Work].El campo muestra la cantidad de horas planificadas en el problema. Para obtener más información, consulte los campos "trabajo" o "[!UICONTROL Work]" en esta tabla. </p> </li> 
+     <li> <p>Para los problemas, puede actualizar manualmente este campo. Las horas planificadas de problemas no se añaden a las horas planificadas de los proyectos. </p> <p><b>Sugerencia</b></p> <p>En un informe de problemas, uno de los campos [!UICONTROL Planned Hours] se reemplaza por el campo [!UICONTROL Work]. El campo muestra la cantidad de horas planificadas en el problema. Para obtener más información, consulte los campos "trabajo" o "[!UICONTROL Work]" en esta tabla. </p> </li> 
     </ul> 
     <ul> 
-     <li> <p>Para las tareas, puede actualizar manualmente este campo cuando el [!UICONTROL Duration Type] de la tarea sea [!UICONTROL Calculated Assignment] o [!UICONTROL Simple]. Este campo lo calcula [!DNL Workfront] cuando el [!UICONTROL Duration Type] de la tarea es [!UICONTROL Calculated Work] o [!UICONTROL Effort Driven].<br>Para obtener información sobre la [!UICONTROL Task Duration], consulte el artículo <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">Información general sobre la [!UICONTROL Duration] y el [!UICONTROL Duration Type] de la tarea</a>.</p> </li> 
+     <li> <p>Para las tareas, puede actualizar manualmente este campo cuando el [!UICONTROL Duration Type] de la tarea sea [!UICONTROL Calculated Assignment] o [!UICONTROL Simple]. Este campo lo calcula [!DNL Workfront] cuando el [!UICONTROL Tipo de duración] de la tarea es [!UICONTROL Trabajo calculado] o [!UICONTROL Condicionado por el esfuerzo].<br>Para obtener información sobre [!UICONTROL Duración de la tarea], vea el artículo <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">Información general sobre la tarea [!UICONTROL Duración] y [!UICONTROL Tipo de duración]</a>.</p> </li> 
     </ul> 
     <ul> 
      <li> <p>En los proyectos, [!DNL Workfront] calcula las horas planificadas añadiendo todas las horas planificadas de todas las tareas del proyecto. </p> </li> 
@@ -1935,26 +1865,22 @@ Las entradas de horas pueden tener uno de los siguientes estados en Workfront:
   <tr> 
    <td>[!UICONTROL Ready]</td> 
    <td> <p>Este campo de un informe de tareas indica si una tarea de [!UICONTROL Agile] se ha marcado como [!UICONTROL Ready] en el registro de asuntos pendientes. Este indicador solo se aplica a las tareas de [!UICONTROL Agile], que son las tareas asignadas a un equipo de [!UICONTROL Agile]. </p> </td> 
-  </tr>
-
-<tr> 
+  </tr> 
+  <tr> 
    <td>[!UICONTROL Record]</td> 
    <td> <p>En Workfront Planning, un registro es una instancia única de un tipo de registro.</p>
-<p>Después de añadir un tipo de registro a un espacio de trabajo, podrá empezar a añadir registros de ese tipo a la página del tipo de registro.</p>
-<p>Por ejemplo, “Campaña” podría ser un tipo de registro y “Campaña de verano para EMEA” un registro del tipo de registro Campaña.</p>
-<p>Para obtener información sobre la creación de registros, consulte <a href="/help/quicksilver/planning/records/create-records.md">Crear registros</a>. </p> <p>Workfront Planning requiere una licencia adicional. </p></td> 
-  </tr>
-
-
-<tr> 
+  <p>Después de añadir un tipo de registro a un espacio de trabajo, podrá empezar a añadir registros de ese tipo a la página del tipo de registro.</p>
+  <p>Por ejemplo, “Campaña” podría ser un tipo de registro y “Campaña de verano para EMEA” un registro del tipo de registro Campaña.</p>
+  <p>Para obtener información sobre la creación de registros, consulte <a href="/help/quicksilver/planning/records/create-records.md">Crear registros</a>. </p> <p>Workfront Planning requiere una licencia adicional. </p></td> 
+  </tr> 
+  <tr> 
    <td>[!UICONTROL Record type]</td> 
    <td> <p>El tipo de objeto de Workfront Planning.</p>
-<p>A diferencia de Workfront, donde los tipos de objeto están predefinidos, en Workfront Planning es posible crear tipos de objeto propios. A los tipos de objeto de Workfront Planning se les llama “tipos de registro”.</p>
-<p>Por ejemplo, en Workfront, los tipos de objeto Programa, Portafolios, Proyecto, Tarea o Problema ya están creados.</p>
-<p>En Workfront Planning es posible crear cualquier tipo de registro que cumpla con los flujos de trabajo de la organización. Posteriormente, defina cómo se relacionarán los tipos de registro entre sí o las dependencias de formularios.</p> Para obtener información acerca de cómo crear tipos de registros, consulte <a href="/help/quicksilver/planning/architecture/create-record-types.md">Creación de tipos de registro</a>. </p> <p>Workfront Planning requiere una licencia adicional. </p></td> 
-  </tr>
-
-<tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
+  <p>A diferencia de Workfront, donde los tipos de objeto están predefinidos, en Workfront Planning es posible crear tipos de objeto propios.Los tipos de objetos de Workfront Planning se denominan tipos de registros.</p>
+  <p>Por ejemplo, en Workfront, los tipos de objeto Programa, Portafolios, Proyecto, Tarea o Problema ya están creados.</p>
+  <p>En Workfront Planning es posible crear cualquier tipo de registro que cumpla con los flujos de trabajo de la organización. Posteriormente, defina cómo se relacionarán los tipos de registro entre sí o las dependencias de formularios.</p> Para obtener información acerca de cómo crear tipos de registros, consulte <a href="/help/quicksilver/planning/architecture/create-record-types.md">Creación de tipos de registro</a>. </p> <p>Workfront Planning requiere una licencia adicional. </p></td> 
+  </tr> 
+  <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
    <td>[!UICONTROL Recurrence Frequency]</td> 
    <td> <p>Campo que se muestra en los [!UICONTROL Task Details] o la [!UICONTROL Edit Task] de un principal de tareas recurrentes. Es la frecuencia con la que se producen las tareas en la periodicidad. Para obtener información acerca de la creación de tareas recurrentes, consulte <a href="../../../manage-work/tasks/create-tasks/create-recurring-tasks.md" class="MCXref xref">Crear tareas recurrentes</a>. </p> </td> 
   </tr> 
@@ -1965,23 +1891,20 @@ Las entradas de horas pueden tener uno de los siguientes estados en Workfront:
   <tr> 
    <td>[!UICONTROL Rejection Issue]</td> 
    <td>En un informe de proyecto o de tarea, es la incidencia que se crea cuando se rechaza la aprobación del proyecto o de la tarea. Para obtener información sobre problemas de rechazo, consulte el artículo <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md" class="MCXref xref">Crear un proceso de aprobación para los elementos de trabajo</a>. </td> 
-  </tr>
-
-<tr>
+  </tr> 
+  <tr>
   <td>Tipos de relación</td>
-  <td><p>Los objetos de Workfront siempre están conectados entre sí mediante uno de los siguientes tipos de relación:</p>
-
-<ul><li> <b>Uno a varios</b>: en esta relación, un objeto se puede conectar a varios objetos de otros tipos. Por ejemplo, un proyecto puede tener varias tareas. La relación Proyecto-Tareas es una relación de uno a varios. No se puede mostrar esta relación en un informe mediante la interfaz estándar. Debe utilizar los informes de modo de texto para ver una o varias relaciones.</li>
+  <td><p>Los objetos de Workfront siempre están conectados entre sí mediante uno de los siguientes tipos de relación:</p> 
+  <ul><li> <b>Uno a varios</b>: en esta relación, un objeto se puede conectar a varios objetos de otros tipos. Por ejemplo, un proyecto puede tener varias tareas. La relación Proyecto-Tareas es una relación de uno a varios. No se puede mostrar esta relación en un informe mediante la interfaz estándar. Debe utilizar los informes de modo de texto para ver una o varias relaciones.</li>
   <li><b>Uno a uno</b>: en esta relación, un objeto solo puede conectarse a otro objeto de un tipo diferente. Por ejemplo, un proyecto solo puede tener un grupo. La relación Proyecto-Grupo es una relación uno a uno. En un informe estándar se pueden mostrar relaciones individualizadas entre objetos.</li>
   <li><b>Varios a uno</b>: en esta relación, varios objetos sólo se pueden conectar a otros objetos de otro tipo. Por ejemplo, se pueden conectar varias tareas al mismo proyecto. La relación entre tareas y proyectos es una relación de varios a uno. En un informe estándar se pueden mostrar las relaciones de varios a uno entre los objetos. </li>
   <li><b>Varios a varios</b>: en esta relación, se pueden conectar varios objetos del mismo tipo a varios objetos de un tipo diferente. Por ejemplo, varios usuarios pueden pertenecer a varios otros equipos y los equipos pueden pertenecer a varios usuarios. No se puede mostrar esta relación en un informe mediante la interfaz estándar. Debe utilizar los informes de modo de texto para ver de muchas a muchas relaciones. </li> </ul>
   </td></tr>
-<tr> 
+  <tr> 
    <td>[!UICONTROL Remaining Risk Cost]</td> 
    <td> <p>Campo del proyecto que muestra la diferencia entre el [!UICONTROL Planned Risk Cost] de un proyecto y el total de todos los [!UICONTROL Actual Costs] de todos los riesgos del proyecto. </p> <p>El [!UICONTROL Remaining Risk Cost] de un proyecto se calcula mediante la siguiente fórmula:</p> <p><code>[!UICONTROL Remaining Risk Cost] = Project [!UICONTROL Planned Risk Cost] - SUM([!UICONTROL Actual Cost] for all risks)</code> </p> </td> 
-  </tr>
-
-<tr> 
+  </tr> 
+  <tr> 
    <td>[!UICONTROL Replanning]</td> 
    <td>Cambiar las fechas de un proyecto para reparar o superar problemas. Por ejemplo, un proyecto que ha estado en espera durante varios meses tendría que volver a planificarse para reflejar las fechas precisas. Es una operación manual de ajustar las fechas del proyecto o las de las tareas. </td> 
   </tr> 
@@ -2057,8 +1980,7 @@ Las entradas de horas pueden tener uno de los siguientes estados en Workfront:
   <tr> 
    <td>[!UICONTROL Resource Planner Budgeted Labor Cost]</td> 
    <td> <p>Es el coste asociado con las horas presupuestadas para las funciones del proyecto que se usan en el Planificador de recursos. </p> <p>Consulte también “Coste laboral presupuestado” en este artículo. </p> </td>
-
-</tr> 
+  </tr> 
   <tr> 
    <td>[!UICONTROL Resource Pools]</td> 
    <td> <p>Los conjuntos de recursos son colecciones de usuarios que se pueden asociar a un proyecto. Los usuarios del mismo conjunto de recursos suelen pertenecer al mismo departamento, tener aptitudes similares o complementarias o estar financiados con cargo al mismo presupuesto. Puede asociar varios conjuntos de recursos a un proyecto o a un usuario. Un conjunto de recursos se puede asignar exclusivamente a un proyecto o compartir en varios proyectos.</p> 
@@ -2093,8 +2015,7 @@ Las entradas de horas pueden tener uno de los siguientes estados en Workfront:
      <li> <p>Campo de un proyecto que indica lo riesgoso que puede ser un proyecto. Puede priorizar la ejecución de sus proyectos en función del nivel de riesgo. Los proyectos pueden tener los siguientes niveles de riesgo:</p> <p>- [!UICONTROL Very Low]</p> <p>- [!UICONTROL Low]</p> <p>- [!UICONTROL Medium]</p> <p>- [!UICONTROL High]</p> <p>- [!UICONTROL Very High]</p> <p>Los niveles de riesgo que indique para un proyecto no pueden personalizarse. </p> <p> Para obtener información sobre cómo actualizar el Riesgo de un proyecto, consulte la sección “Configuración del proyecto” del artículo <a href="../../../manage-work/projects/manage-projects/edit-projects.md" class="MCXref xref">Editar proyectos</a>. Puede visualizar el campo de riesgo de un proyecto en los informes. </p> </li> 
      <li> <p>Acontecimiento que puede producirse durante la vida de un proyecto y que identifica un impacto potencial en el coste, el alcance o el calendario del proyecto. Defina los riesgos potenciales para un proyecto y asocie una probabilidad de que se produzcan o un coste a medida que crea el caso comercial del proyecto. Para obtener información sobre cómo añadir riesgos al caso empresarial del proyecto, consulte "Crear y editar riesgos en proyectos". </p> <p>No se pueden mostrar los riesgos definidos en [!UICONTROL Business Case] en los informes. Solamente se pueden mostrar varios tipos de costos de riesgo en informes y listas. </p> </li> 
     </ul> </td>
-
-</tr> 
+  </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL Risk Cost]</td> 
    <td> <p>Coste asociado con los riesgos de un proyecto. A continuación se indican los costes de riesgo asociados a los proyectos que pueden visualizarse en los informes:</p> 
@@ -2103,9 +2024,8 @@ Las entradas de horas pueden tener uno de los siguientes estados en Workfront:
      <li> <p>[!UICONTROL Planned Risk Cost]: campo del proyecto que muestra un total de todos los [!UICONTROL Potential Risk Costs] del proyecto. Consulte también “[!UICONTROL Planned Risk Cost]” en este artículo. </p> <p>Para obtener información acerca del Costo de riesgo potencial, consulte <a href="../../../manage-work/projects/project-finances/potential-risk-cost.md" class="MCXref xref">Calcular el coste potencial de riesgos </a>. </p> </li> 
      <li> <p>[!UICONTROL Remaining Risk Cost]: campo del proyecto que muestra la diferencia entre el total de [!UICONTROL Actual Costs] de todos los riesgos y el [!UICONTROL Planned Risk Cost]. Consulte también “Coste restante de riesgos” en este artículo. </p> </li>
     </ul> </td> 
-  </tr>
-
-<tr data-mc-conditions=""> 
+  </tr> 
+  <tr data-mc-conditions=""> 
    <td>[!UICONTROL Risk Management]</td> 
    <td>Procesos para identificar, mitigar y controlar los riesgos.</td> 
   </tr> 
@@ -2152,12 +2072,11 @@ Las entradas de horas pueden tener uno de los siguientes estados en Workfront:
    <td>[!UICONTROL Schedule]</td> 
    <td>El horario de trabajo semanal, incluidos los tiempos de trabajo, combinado con los días libres (tales como días festivos) y los días de excepción (tales como un día laborable sábado). Puede asociar programaciones con proyectos y usuarios.</td> 
   </tr> 
-<tr> 
+  <tr> 
    <td>[!UICONTROL Schedule Performance Index (SPI)]</td> 
    <td><p>El [!UICONTROL Schedule Performance Index (SPI)] describe la relación entre la programación planificada y la programación real. Adobe Workfront calcula el SPI en los niveles de proyecto y tarea. Los gestores de proyecto revisan esta métrica para identificar si las tareas o los proyectos están realizando un seguimiento con antelación o retraso respecto a la programación.</p>
-  <p>Para obtener información, consulte <a href="/help/quicksilver/manage-work/projects/project-finances/calculate-spi.md">Calcular índice de rendimiento de programación (SPI) </a>.
-
-</td> 
+  <p>Para obtener información, consulte <a href="/help/quicksilver/manage-work/projects/project-finances/calculate-spi.md">Calcular índice de rendimiento de programación (SPI) </a>.   
+  </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Schedule Exemption]</td> 
@@ -2220,9 +2139,8 @@ Las entradas de horas pueden tener uno de los siguientes estados en Workfront:
     <p>Por ejemplo, puede añadir cualquiera de las siguientes opciones a un informe con una columna Source: </p>
     <ul><li>Las columnas Nombre del proyecto, Nombre de tarea o Nombre del problema a un documento o informe de horas.</li>
     <li>Las columnas Nombre del proyecto o Nombre de tarea a un informe de problemas. </li> </ul>
-    Para obtener más información, vea <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/run-deliver-report-access-rights-another-user.md">Ejecutar y enviar un informe con los derechos de acceso de otro usuario</a>
-
-</td> 
+    Para obtener más información, vea <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/run-deliver-report-access-rights-another-user.md">Ejecutar y enviar un informe con los derechos de acceso de otro usuario</a> 
+   </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Start Date]</td> 
@@ -2325,17 +2243,15 @@ Las entradas de horas pueden tener uno de los siguientes estados en Workfront:
    <td>[!UICONTROL Strategic Alignment]</td> 
    <td>Medir y alinear las metas de la compañía en portafolios y programas.</td> 
   </tr>
-
-<tr> 
+  <tr> 
    <td><code>[!UICONTROL stretch]</code></td> 
    <td><p>Se utiliza en las columnas del informe al utilizar la interfaz de modo de texto. </p>
    <p>El <code>[!UICONTROL stretch]</code> se utiliza para identificar qué columnas ocupan espacio extra que no necesita la vista. La anchura de la interfaz de usuario del espacio de trabajo de un usuario típico es de unos 850 píxeles. Esto significa que si tiene una vista con cuatro
-  columnas (150 píxeles cada una) que la vista ocupa 600 de 850 píxeles. Hay 250 píxeles adicionales en la interfaz de usuario que se añadirán a las columnas que tengan un porcentaje de ampliación proporcionado. </p>
+   columnas (150 píxeles cada una) que la vista ocupa 600 de 850 píxeles. Hay 250 píxeles adicionales en la interfaz de usuario que se añadirán a las columnas que tengan un porcentaje de ampliación proporcionado. </p>
    <p>La ampliación de una columna se impone cuando se utiliza la línea de código adicional: <code>[!UICONTROL usewidths=true]</code> para al menos una de las columnas de la vista. 
    </td> 
   </tr>
-
-<tr> 
+  <tr> 
    <td>[!UICONTROL Subscribers]</td> 
    <td> <p>Usuarios que se suscriben a proyectos, tareas o problemas.</p> <p>Cuando se utiliza este campo en un informe, se muestra una lista de suscriptores, cada uno de los cuales está separado por una coma.</p> <p>Para obtener más información, consulte <a href="../../../workfront-basics/using-notifications/subscribe-to-items-in-workfront.md" class="MCXref xref">Suscribirse a elementos en [!DNL Adobe Workfront]</a>.</p> </td> 
   </tr> 
@@ -2357,9 +2273,8 @@ Las entradas de horas pueden tener uno de los siguientes estados en Workfront:
   </tr> 
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Managed"> 
    <td>[!UICONTROL Task]</td> 
-   <td> <p>Una actividad que debe realizarse como paso hacia el logro de un objetivo final (completar el proyecto).</p>
-
-<p>Las tareas son unidades de trabajo más pequeñas que finalmente completan un proyecto, lo que representa una unidad de trabajo más grande.</p>
+   <td> <p>Una actividad que debe realizarse como paso hacia el logro de un objetivo final (completar el proyecto).</p> 
+   <p>Las tareas son unidades de trabajo más pequeñas que finalmente completan un proyecto, lo que representa una unidad de trabajo más grande.</p>
    <p>Las tareas nunca pueden existir de forma independiente. Siempre son parte de un proyecto. </p>
    <p>Para obtener más información sobre tareas, consulte <a href="../../../manage-work/tasks/task-information/tasks-overview.md" class="MCXref xref">Información general sobre tareas</a>.</p> 
    <p>Para obtener información acerca de la creación de tareas, consulte <a href="/help/quicksilver/manage-work/tasks/create-tasks/create-tasks-in-project.md">Creación de tareas en un proyecto</a>.
@@ -2550,19 +2465,14 @@ Las entradas de horas pueden tener uno de los siguientes estados en Workfront:
   <tr> 
    <td>[!UICONTROL Views This Year]</td> 
    <td>En una lista de informes, muestra el número de veces que se ha visto el informe durante este año.<br>Para obtener más información acerca de la información de uso en las listas de informes, consulte el artículo <a href="../../../reports-and-dashboards/reports/report-usage/view-report-usage.md">Ver uso del informe</a>.</td> 
-  </tr>
-
-<tr>
+  </tr> 
+  <tr>
   <td> <code>[!UICONTROL width]</code>
   </td>
-<td> En un informe, cuando se utiliza la interfaz [!UICONTROL Text Mode], la línea de código en la que se puede especificar el ancho de cada columna en píxeles. Workfront proporciona una anchura sugerida para cada campo,
-aunque, según el tipo de campo y el formato, es posible que desee realizar ajustes.
-Debe utilizar la línea de código <code>[!UICONTROL usewidths=true]</code> adicional para aplicar el ancho especificado para la columna. 
+  <td> En un informe, cuando se utiliza la interfaz [!UICONTROL Text Mode], la línea de código en la que se puede especificar el ancho de cada columna en píxeles. Workfront proporciona una anchura sugerida para cada campo, aunque, según el tipo de campo y el formato, es posible que desee realizar ajustes. Debe utilizar la línea de código <code>[!UICONTROL usewidths=true]</code> adicional para aplicar el ancho especificado para la columna. 
   </td>
-
-</tr>
-
-<tr> 
+  </tr>
+  <tr> 
    <td><code>[!UICONTROL work]</code> </td> 
    <td> <p>En un informe de proyecto, tarea o problema, el uso de la siguiente instrucción en modo de texto muestra las horas planificadas del proyecto, tarea o problema:</p>
    <code><p>valuefield=work</p>
@@ -2658,10 +2568,9 @@ Debe utilizar la línea de código <code>[!UICONTROL usewidths=true]</code> adic
    <p>valuefield=workRequiredExpression</p>
    <p>valueformat=HTML</p>
    </code>
-    <p>Para obtener información acerca del uso del modo de texto, consulte <a href="../../../reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md" class="MCXref xref">Información general sobre la sintaxis del modo de texto</a>. </p> </td> 
-  </tr>
-
-<tr> 
+    <p>Para obtener información acerca del uso del modo de texto, consulte <a href="../../../reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md" class="MCXref xref">Información general sobre sintaxis del modo de texto</a>. </p> </td> 
+  </tr> 
+  <tr> 
    <td>[!UICONTROL Workspace] </td> 
    <td> <p>En Workfront Planning, un espacio de trabajo es una colección de tipos de registros que definen el ciclo de vida operativo de una organización determinada. Un espacio de trabajo es el marco de trabajo de una unidad organizativa.</p>
    <p>Workfront Planning requiere una licencia adicional. </p>
@@ -2669,5 +2578,3 @@ Debe utilizar la línea de código <code>[!UICONTROL usewidths=true]</code> adic
   </tr> 
  </tbody> 
 </table>
-
-
