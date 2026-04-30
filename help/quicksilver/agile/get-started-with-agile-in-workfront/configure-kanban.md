@@ -8,9 +8,9 @@ feature: Agile
 exl-id: b4c417a6-64c8-43e0-bace-b73572247b3e
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: b05fcb7bdc1693e9e2384390f2584330b855c39c
+source-git-commit: b271eca3ab0ab09d96f65d2c3c8c400313e57d3d
 workflow-type: tm+mt
-source-wordcount: '1560'
+source-wordcount: '1562'
 ht-degree: 67%
 
 ---
@@ -80,7 +80,7 @@ Para configurar cómo se calculan las historias para su equipo de Agile:
 1. Seleccione el equipo de Agile que desee gestionar.
 1. Haga clic en el menú **[!UICONTROL Más]** ![](assets/more-menu.png) y luego seleccione **[!UICONTROL Editar]**.
 
-   ![Editar equipo](assets/edit-team-settings-350x205.png)
+   ![Editar equipo](assets/edit-team-settings-kanban.png)
 
 1. En la sección **[!UICONTROL Agile]**, en el área **[!UICONTROL Estimar historias en]**, seleccione si desea usar puntos u horas para estimar el tamaño (carga de trabajo) de las historias. Si selecciona Puntos, especifique cuántas horas son iguales a 1 punto. (El valor predeterminado es 1 punto = 8 horas). Número de horas planificadas que se añaden a la historia.
 
@@ -99,10 +99,7 @@ Para definir los estados disponibles para el guion gráfico asociado con el equi
 1. Haga clic en el icono **[!UICONTROL Cambiar de equipo]** ![icono Cambiar de equipo](assets/switch-team-icon.png) y, a continuación, seleccione un nuevo equipo en el menú desplegable o busque un equipo en la barra de búsqueda.
 
 1. Seleccione el equipo de Agile que desee gestionar.
-1. Haga clic en el menú **[!UICONTROL Más]** y luego seleccione **[!UICONTROL Editar]**.
-
-   ![Editar equipo](assets/edit-team-settings-350x205.png)
-
+1. Haga clic en el menú **[!UICONTROL Más]** y, a continuación, seleccione **[!UICONTROL Editar]**.
 1. En la sección **[!UICONTROL Agile]**, busque el área **[!UICONTROL Tablero de historias]**.
 
 1. (Opcional) Haga clic en **[!UICONTROL Añadir columna]** para añadir una columna de estado adicional al tablero de historia.
@@ -147,16 +144,13 @@ Para configurar las tarjetas de historia asignadas al equipo de Agile para que m
 1. Haga clic en el icono **[!UICONTROL Cambiar de equipo]** ![icono Cambiar de equipo](assets/switch-team-icon.png) y, a continuación, seleccione un nuevo equipo en el menú desplegable o busque un equipo en la barra de búsqueda.
 
 1. Seleccione el equipo de Agile que desee gestionar.
-1. Haga clic en el menú **[!UICONTROL Más]** y luego seleccione **[!UICONTROL Editar]**.
-
-   ![Editar equipo](assets/edit-team-settings-350x205.png)
-
+1. Haga clic en el menú **[!UICONTROL Más]** y, a continuación, seleccione **[!UICONTROL Editar]**.
 1. En la sección **[!UICONTROL Agile]**, busque el nombre de un campo para localizarlo.
 
    ![Campos adicionales](assets/agile-additional-fields-kanban.png)
 
 1. Seleccione el nombre del campo que desee añadir.
-1. Escriba **[!UICONTROL Nombre para mostrar]** para que el campo se muestre en la historia o en la tarjeta del problema.
+1. Escriba **[!UICONTROL Nombre para mostrar]** para que el campo se muestre en la historia o en la tarjeta de emisión.
 1. Haga clic en **[!UICONTROL Guardar cambios]**.
 
 ## Configurar el límite de trabajo en curso (WIP)
@@ -173,9 +167,6 @@ Para limitar el trabajo en curso para el equipo Kanban:
 
 1. Seleccione el equipo Kanban que desea gestionar.
 1. Haga clic en el menú **[!UICONTROL Más]** ![](assets/more-menu.png) y luego seleccione **[!UICONTROL Editar]**.
-
-   ![Editar equipo](assets/edit-team-settings-350x205.png)
-
 1. En la sección **[!UICONTROL Agile]**, en el apartado **[!UICONTROL Metodología]**, compruebe que Kanban esté seleccionado.
 
 1. En la sección **[!UICONTROL Panel de historias]**, en el campo **[!UICONTROL Límite de trabajo en curso]**, especifique el número máximo de elementos permitidos en cada columna del [!UICONTROL Panel de historias Agile] de {Kanban}. Puede establecer un límite diferente para cada columna. El límite máximo que puede establecer para cada columna es 100.
@@ -213,9 +204,6 @@ Para agregar automáticamente historias del registro de pendientes al tablero [!
 
 1. Seleccione el equipo Kanban que desea gestionar.
 1. Haga clic en el menú **[!UICONTROL Más]** ![](assets/more-menu.png) y luego seleccione **[!UICONTROL Editar]**.
-
-   ![Editar equipo](assets/edit-team-settings-350x205.png)
-
 1. Seleccione **[!UICONTROL Añadir automáticamente la historia siguiente del registro de asuntos pendientes]** para configurar que el siguiente elemento del registro de asuntos pendientes se añada automáticamente a la columna **[!UICONTROL Nuevo]** cuando se mueva un elemento fuera de la columna **[!UICONTROL En curso]**.
 
 
@@ -230,9 +218,6 @@ Puede elegir cuánto tiempo permanecerán las tarjetas completadas en el tablero
 1. (Opcional) Haga clic en el icono **[!UICONTROL Cambiar de equipo]** ![icono Cambiar de equipo](assets/switch-team-icon.png) y, a continuación, seleccione un nuevo equipo Kanban en el menú desplegable o busque un equipo en la barra de búsqueda.
 1. Seleccione el equipo Kanban.
 1. Haga clic en el menú **[!UICONTROL Más]** ![](assets/more-menu.png) y luego seleccione **[!UICONTROL Editar]**.
-
-   ![Editar equipo](assets/edit-team-settings-350x205.png)
-
 1. En el menú desplegable **[!UICONTROL Número de días que las tarjetas completadas permanecen en el tablero Kanban]**, seleccione un valor.
 
    Puede elegir un número de 1 a 30 días.
