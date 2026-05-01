@@ -9,9 +9,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 32cb95c2-8d12-492b-ad89-b38e2a337fc5
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 453d4862883e299fea46b3dfe94548375bfc4209
+source-git-commit: bf86ab1dd526e2e5f3ef95ce0d6dca7fb6ca6c30
 workflow-type: tm+mt
-source-wordcount: '3846'
+source-wordcount: '3890'
 ht-degree: 0%
 
 ---
@@ -24,11 +24,12 @@ Los coordinadores de proyectos administran el trabajo en Workfront mientras los 
 
 ![Diagrama que muestra el flujo de trabajo unificado de revisión y aprobación, con coordinadores de proyecto que administran el trabajo en Workfront y revisores y aprobadores que proporcionan comentarios y toman decisiones en el visor Frame.io.](assets/Unified-Review-Approvals-Image.png)
 
+<!--
+## Integration requirements
 
-## Requisitos de integración
+* The Workfront instance must be enabled on the Adobe Unified Experience.
 
-* La instancia de Workfront debe estar habilitada en la experiencia unificada de Adobe.
-
+-->
 
 ## Basado en el almacenamiento empresarial de Adobe
 
@@ -134,7 +135,7 @@ En la tabla siguiente se muestra cómo se asignan los permisos de Workfront a lo
 
 ### Administración de documentos en Workfront
 
-Los documentos cargados en Workfront se almacenan en Adobe enterprise storage y se puede acceder a ellos desde Workfront y Frame.io. Al cargar un documento en una tarea o un problema de Workfront, se crea una carpeta generada por el sistema en Adobe Enterprise Storage que hereda los permisos de la tarea o el problema. Todos los documentos cargados en esa tarea o problema se almacenan en esa carpeta y heredan los permisos de ella. Para obtener más información sobre los documentos de Workfront, consulte [Información general sobre el área de nuevos documentos](/help/quicksilver/documents/managing-documents/documents-area.md) y [Permisos de objetos e información general sobre el nivel de acceso para el modelo de almacenamiento empresarial de Adobe](/help/quicksilver/review-and-approve-work/esm-access-permissions.md).
+Los documentos cargados en Workfront se almacenan en Adobe enterprise storage y se puede acceder a ellos desde Workfront y Frame.io. Al cargar un documento en una tarea o un problema de Workfront, se crea una carpeta generada por el sistema en Adobe Enterprise Storage que hereda los permisos de la tarea o el problema. Todos los documentos cargados en esa tarea o problema se almacenan en esa carpeta y heredan los permisos de ella. Para obtener más información acerca de los documentos de Workfront, consulte [Información general sobre el área de documentos](/help/quicksilver/documents/managing-documents/documents-area.md) y [Permisos de objeto e información general sobre el nivel de acceso para el modelo de almacenamiento empresarial de Adobe](/help/quicksilver/review-and-approve-work/esm-access-permissions.md).
 
 ### Documentar las limitaciones de experiencia
 

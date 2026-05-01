@@ -5,10 +5,10 @@ author: Lisa
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: df24d13e-d9ff-4c04-8669-9e0b6e4f6501
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: 9a705b985177489bf13181e8b36a6c52379d1251
 workflow-type: tm+mt
-source-wordcount: '210'
-ht-degree: 99%
+source-wordcount: '208'
+ht-degree: 93%
 
 ---
 
@@ -29,10 +29,9 @@ En esta primera versión, el proceso de aprobación se ha optimizado tanto para 
 * Tomar decisiones de aprobación directamente desde Mis actualizaciones e Inicio
 * Crear aprobaciones para versiones de documento específicas
 
-Para obtener más información sobre el uso de las nuevas aprobaciones de documentos, consulte [Información general sobre nuevas aprobaciones de documentos](https://experienceleague.adobe.com/es/docs/workfront/using/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview).
 
 ## Nuevo botón Compartir
 
 La opción Compartir se ha extraído del menú Más para proyectos, tareas y problemas para que el uso compartido sea más intuitivo. El nuevo botón Compartir se muestra ahora junto al nombre de un objeto, justo antes del menú Más. El uso compartido de documentos, portafolios y programas permanece sin cambios.
 
-Para obtener más información sobre el uso compartido de objetos, consulte [Compartir un objeto](https://experienceleague.adobe.com/es/docs/workfront/using/basics/grant-request-object-permissions/share-an-object).
+Para obtener más información sobre el uso compartido de objetos, consulte [Compartir un objeto](https://experienceleague.adobe.com/en/docs/workfront/using/basics/grant-request-object-permissions/share-an-object).

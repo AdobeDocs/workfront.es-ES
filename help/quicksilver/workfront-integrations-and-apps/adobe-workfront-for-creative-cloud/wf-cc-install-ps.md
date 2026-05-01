@@ -6,10 +6,10 @@ description: Puede instalar el complemento de Adobe Workfront para Photoshop des
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: f5e9f121-a711-4b75-8564-54f29c5cfa48
-source-git-commit: 61e5b763ec527aeb846e975e06842dc2c4c69918
+source-git-commit: bf86ab1dd526e2e5f3ef95ce0d6dca7fb6ca6c30
 workflow-type: tm+mt
-source-wordcount: '581'
-ht-degree: 71%
+source-wordcount: '592'
+ht-degree: 73%
 
 ---
 
@@ -133,9 +133,9 @@ Para solucionar este problema,
 
    >[!TIP]
    >
-   >En un Mac, vaya a Finder y presione **Comando+Mayús+.** para mostrar las carpetas ocultas, vaya a **/Usuarios//Biblioteca/Compatibilidad con la aplicación** y, a continuación, elimine la carpeta **Workfront**.
+   >En un Mac, vaya a Finder y presione **Comando+Mayús+.** para mostrar las carpetas ocultas, vaya a **/Users/Library/Application Support** y, a continuación, elimine la carpeta **Workfront**.
 
 
 1. Vuelva al complemento e introduzca su dominio de Workfront. El dominio debe ser `company-name.my.workfront.com` y no `experience.adobe.com`.
 
-   Para [encontrar tu dominio de Workfront](/help/quicksilver/wf-api/tips-tricks-and-troubleshooting/locate-domain-for-api.md) si estás en la experiencia unificada de Adobe, ve a Configuración, Información del cliente.
+   Para [encontrar tu dominio de Workfront](/help/quicksilver/wf-api/tips-tricks-and-troubleshooting/locate-domain-for-api.md), ve a Configuración, Información del cliente.
