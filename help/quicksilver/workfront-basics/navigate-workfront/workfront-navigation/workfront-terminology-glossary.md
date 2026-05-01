@@ -8,7 +8,7 @@ feature: Get Started with Workfront
 exl-id: 758072b3-775e-4771-9ae9-da0b38580c93
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 5479fcded2dfaf781fa54e046f4fce61e3a9ab7a
+source-git-commit: 18e899b87eb950222b0d22f41a998a458baa6f49
 workflow-type: tm+mt
 source-wordcount: '21715'
 ht-degree: 98%
@@ -312,9 +312,9 @@ La siguiente tabla es una lista de los términos más utilizados en Adobe Workfr
    <p>Para obtener más información, consulte <a href="/help/quicksilver/planning/views/manage-the-timeline-view.md">administrar la vista de cronología</a>. </p>
    </td> 
     </tr> 
-  <tr> 
-   <td>[!UICONTROL Budgeted Completion Date]</td> 
-   <td> <p>Este campo está obsoleto. Cualquier información que pueda mostrar este campo está relacionada con una función que [!DNL Workfront] ha eliminado. Este campo no puede actualizarse. </p>
+   <tr> 
+  <td>[!UICONTROL Budgeted Completion Date]</td> 
+  <td> <p>Este campo está obsoleto. Cualquier información que pueda mostrar este campo está relacionada con una función que [!DNL Workfront] ha eliminado. Este campo no puede actualizarse. </p>
    <p> Este campo sigue siendo visible en los informes y listas del [!UICONTROL project].</p>  </td> 
   </tr> 
   <tr> 
@@ -336,7 +336,7 @@ La siguiente tabla es una lista de los términos más utilizados en Adobe Workfr
     <!-- 
      <p>Hours that were formerly budgeted in the Legacy Resource Estimates area of a project (or in the Capacity Planner)</p>
     <p>Important: This is a deprecated field. Any information that this field might display is related to a feature that Workfront has removed and the field cannot be updated. </p>
-  -->
+    -->
     <p> Para obtener información acerca de cómo presupuestar usuarios en [!DNL Resource Planner], consulte el artículo <a href="../../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md" class="MCXref xref">Presupuestar recursos en el [!DNL Resource Planner] mediante las vistas [!UICONTROL Project] y [!UICONTROL Role] </a>. </p> 
     <p>Las horas presupuestadas en el área de [!UICONTROL Resource Budgeting] del [!UICONTROL Business Case] o del [!UICONTROL Resource Planner] se muestran en las siguientes áreas de [!DNL Workfront] y con los siguientes nombres:</p> 
      <table style="table-layout:auto"> 
@@ -361,7 +361,7 @@ La siguiente tabla es una lista de los términos más utilizados en Adobe Workfr
        </tr> 
        <tr> 
         <td>[!UICONTROL Bud. Hours]</td> 
-        <td> <p>Informe de [!UICONTROL Budgeted Hour]</p><p>El objeto [!UICONTROL Budgeted Hour] del informe de Hora presupuestada hace referencia a información relacionada con una herramienta de administración de recursos obsoleta. Solo el campo "[!UICONTROL . Hours]" en este informe hace referencia a las horas presupuestadas en el área de [!UICONTROL Resource Planner] o [!UICONTROL Resource Budgeting] del [!UICONTROL Business Case] del proyecto. </p> <p>Para obtener más información acerca de cómo crear un informe, consulte el artículo <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md" class="MCXref xref">Crear un informe personalizado</a>.</p> </td> 
+        <td> <p>Informe de [!UICONTROL Budgeted Hour]</p><p>El objeto [!UICONTROL Budgeted Hour] del informe de Hora presupuestada hace referencia a información relacionada con una herramienta de administración de recursos obsoleta. Solo el campo "[!UICONTROL. Hours]" en este informe hace referencia a las horas presupuestadas en el área de [!UICONTROL Resource Planner] o [!UICONTROL Resource Budgeting] del [!UICONTROL Business Case] del proyecto. </p> <p>Para obtener más información acerca de cómo crear un informe, consulte el artículo <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md" class="MCXref xref">Crear un informe personalizado</a>.</p> </td> 
        </tr> 
        <tr> 
         <td>[!UICONTROL Resource Planner Budgeted Hours] </td> 
@@ -387,24 +387,20 @@ La siguiente tabla es una lista de los términos más utilizados en Adobe Workfr
     <li>Budgeted Hour report (the Bud. Hours field refers to hours budgeted for users; the Pln. Bud. Hours field refers to hours budgeted for roles or projects)</li>
     <li>Resource Estimates report (in the Project: Budgeted Hours field) </li>
     </ul>
-    -->
-    <!--
     <p>The fields listed below display in the reports listed and are hours formerly budgeted in the  Capacity Planner or the Legacy Resource Estimates area of the Business Case.</p>
     <p>Important: The Capacity Planner and Legacy  Resource Estimates have been removed from Workfront. You cannot update any information that might display in these fields.</p>
-  -->
-  <!--
- <ul>
-  <li>Capacity Planner</li>
-  <li>Legacy  Resource Estimates area of the Business Case (in the Hours field)</li>
-  <li>Resource Estimates report (in the Bud. Hours field)</li>
-  <li>Budgeted Hour report (in the Budgeted Hours field)</li>
-  <li>Project report (in the Budgeted Hours field)</li>
-  <li>Project (Financial  Data) report</li>
-  <li>Task  report (in the Project: Budgeted Hours field)</li>
-  <li>Issue report (in the Project: Budgeted Hours field)</li>
-  </ul>
-  -->
-    </td> 
+    <ul>
+    <li>Capacity Planner</li>
+    <li>Legacy  Resource Estimates area of the Business Case (in the Hours field)</li>
+    <li>Resource Estimates report (in the Bud. Hours field)</li>
+    <li>Budgeted Hour report (in the Budgeted Hours field)</li>
+    <li>Project report (in the Budgeted Hours field)</li>
+    <li>Project (Financial  Data) report</li>
+    <li>Task  report (in the Project: Budgeted Hours field)</li>
+    <li>Issue report (in the Project: Budgeted Hours field)</li>
+    </ul>
+    -->
+  </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Budgeted Labor Cost]</td> 
@@ -431,8 +427,6 @@ La siguiente tabla es una lista de los términos más utilizados en Adobe Workfr
     <!--
     <p>Labor costs for hours budgeted in the Legacy Resource Estimates area of a project (or in the Capacity Planner). This was available only in Adobe Workfront Classic. </p>
     <p>Important: This is a deprecated field. Any information that this field might display is related to a feature that Workfront has removed and the field cannot be updated. </p>
-    -->
-    <!--
      <p>You can locate the Budgeted Labor Cost field based on the hours budgeted in the Resource Planner in the following areas and reports in  Workfront: </p>
      <ul> 
      <li>Resource Planner Cost view (in the BDG column)</li>
@@ -466,7 +460,7 @@ La siguiente tabla es una lista de los términos más utilizados en Adobe Workfr
   <!--
   <p>This field shows the date when the budgeting of resources starts, as defined in the Legacy Resource Estimates area of the Business Case of a project, or the Capacity Planner.</p>
   -->   
-   </td> 
+  </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Burndown Chart]</td> 
@@ -496,10 +490,8 @@ La siguiente tabla es una lista de los términos más utilizados en Adobe Workfr
   </tr> 
    <tr> 
    <td>[!UICONTROL Can Start]</td> 
-   <td> <p>Este campo indica si una tarea está lista para iniciarse. Si está lista para iniciarse, el campo [!UICONTROL Can Start] de la tarea se establece en [!UICONTROL True]. </p> <p>Para obtener más información, consulte <a href="../../../manage-work/tasks/task-information/can-start-task-overview.md" class="MCXref xref">Información general sobre “[!UICONTROL Can Start]” para las tareas</a>.</p>
-
-
-</td>
+   <td> <p>Este campo indica si una tarea está lista para iniciarse. Si está lista para iniciarse, el campo [!UICONTROL Can Start] de la tarea se establece en [!UICONTROL True]. </p> <p>Para obtener más información, consulte <a href="../../../manage-work/tasks/task-information/can-start-task-overview.md" class="MCXref xref">Información general sobre “[!UICONTROL Can Start]” para las tareas</a>.</p> 
+  </td>
   </tr>
   <!--
   <tr> 
