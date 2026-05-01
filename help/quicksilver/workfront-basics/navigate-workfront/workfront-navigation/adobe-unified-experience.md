@@ -2,14 +2,14 @@
 product-area: workfront-navigation
 navigation-topic: workfront-navigation
 title: Adobe Unified Experience para [!DNL Workfront]
-description: El acceso a [!DNL Workfront] a través de Adobe Experience Cloud le ofrece una experiencia unificada perfecta para administrar todas las aplicaciones de Adobe.
+description: Acceder a  [!DNL Workfront] a través de Adobe CX Enterprise le ofrece una experiencia unificada perfecta para administrar todas sus aplicaciones de Adobe.
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 458631a2-d77d-46d6-8d6b-7008237e5154
-source-git-commit: d9d6d572840f5691888d0db3242f3908978079b3
+source-git-commit: 4dd591c034e1c84ef3bda64d12b6920fbdd33c26
 workflow-type: tm+mt
-source-wordcount: '688'
-ht-degree: 61%
+source-wordcount: '697'
+ht-degree: 57%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 61%
 
 <!--Audited: 10/2024-->
 
-Acceder a [!DNL Workfront] a través de [!DNL Adobe Experience Cloud] le ofrece una experiencia unificada perfecta para administrar todas sus aplicaciones de [!DNL Adobe]. La Identity management única le proporciona un lugar para iniciar sesión, sin varias URL ni ID de inicio de sesión.
+Acceder a [!DNL Workfront] a través de [!DNL Adobe CX Enterprise] le ofrece una experiencia unificada perfecta para administrar todas sus aplicaciones de [!DNL Adobe]. La Identity management única le proporciona un lugar para iniciar sesión, sin varias URL ni ID de inicio de sesión.
 
 ## Requisitos de acceso
 
@@ -53,16 +53,16 @@ Si tiene preguntas acerca de la incorporación a [!DNL Adobe Admin Console], con
 
 Como parte del paso a la experiencia unificada de Adobe, su organización ahora utiliza el sistema Identity Management de Adobe para autenticar a los usuarios. Esto significa que puede iniciar sesión en Workfront a través de Adobe, en lugar de hacerlo directamente en Workfront. Adobe IMS también requiere que los administradores de Workfront gestionen la administración de usuarios en Adobe Admin Console, en lugar de en Workfront.
 
-Para obtener información sobre cómo iniciar sesión en Workfront en Adobe Unified Experience, consulte [Iniciar sesión en Adobe Experience Cloud](#log-in-to-adobe-experience-cloud) en este artículo.
+Para obtener información sobre cómo iniciar sesión en Workfront en Adobe Unified Experience, consulte [Iniciar sesión en Adobe CX Enterprise](#log-in-to-adobe-cx-enterprise) en este artículo.
 
 Para obtener información sobre la administración de usuarios en Adobe Admin Console, consulte el artículo [Administrar usuarios en Adobe Admin Console](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md).
 
-## Inicie sesión en [!DNL Adobe Experience Cloud]
+## Inicie sesión en [!DNL Adobe CX Enterprise]
 
 1. Abra una ventana del explorador y vaya a <https://experience.adobe.com>.
 1. En la pantalla [!UICONTROL **Iniciar sesión**], escriba su dirección de correo electrónico y haga clic en **[!UICONTROL Continuar]**.
 
-   ![Iniciar sesión en [!DNL Adobe Experience Cloud]](assets/aec-login-page.png)
+   ![Iniciar sesión en [!DNL Adobe CX Enterprise]](assets/aec-login-page.png)
 
 >[!NOTE]
 >
@@ -70,17 +70,17 @@ Para obtener información sobre la administración de usuarios en Adobe Admin Co
 
 ## Acceda a [!DNL Workfront]
 
-Una vez que haya iniciado sesión en [!DNL Adobe Experience Cloud], puede ver todas las organizaciones y entornos de [!DNL Workfront] a los que tiene acceso si hace clic en el selector de organización en el área de navegación superior. Seleccione la organización o el entorno de [!DNL Workfront] con el que desea trabajar. Los entornos podrían incluir [!UICONTROL Vista previa] y [!UICONTROL Zona protegida] si su organización los utiliza.
+Una vez que haya iniciado sesión en [!DNL Adobe CX Enterprise], puede ver todas las organizaciones y entornos de [!DNL Workfront] a los que tiene acceso si hace clic en el selector de organización en el área de navegación superior. Seleccione la organización o el entorno de [!DNL Workfront] con el que desea trabajar. Los entornos podrían incluir [!UICONTROL Vista previa] y [!UICONTROL Zona protegida] si su organización los utiliza.
 
-![Ver [!DNL Workfront] organizaciones y entornos](assets/aec-view-all-orgs.png)
+![Ver [!DNL Workfront] organizaciones y entornos](assets/wf-org-instance-switcher-2026.png)
 
 >[!NOTE]
 >
->La primera vez que se inicia sesión en [!DNL Adobe Experience Cloud], la organización toma como valor predeterminado la primera de la lista alfabética. La próxima vez que inicie sesión, la organización toma como valor predeterminado la última que visitó.
+>La primera vez que se inicia sesión en [!DNL Adobe CX Enterprise], la organización toma como valor predeterminado la primera de la lista alfabética. La próxima vez que inicie sesión, la organización toma como valor predeterminado la última que visitó.
 
-[!DNL Workfront] aparece en la lista de [!DNL Adobe Experience Cloud] productos a los cuales tiene acceso. Puede elegir [!DNL Workfront] en el menú de acceso rápido de la página de inicio de [!DNL Experience Cloud] o usar el selector de productos ![Selector de productos](assets/main-menu-icon.png) para cambiar las aplicaciones en cualquier momento.
+[!DNL Workfront] aparece en la lista de [!DNL Adobe CX Enterprise] productos a los cuales tiene acceso. Puede elegir [!DNL Workfront] en el menú de acceso rápido de la página de inicio de [!DNL CX Enterprise] o usar el selector de productos ![Selector de productos](assets/main-menu-icon.png) para cambiar las aplicaciones en cualquier momento.
 
-![Seleccione [!DNL Workfront] para acceder a la aplicación](assets/aec-product-switcher.png)
+![Seleccione [!DNL Workfront] para acceder a la aplicación](assets/cx-enterprise-home-2026.png)
 
 ## Navegar [!DNL Workfront]
 
@@ -95,23 +95,25 @@ Use el icono [!UICONTROL Menú principal] ![Icono del menú principal](assets/ma
 
 Puede acceder a sus opciones de perfil y preferencias haciendo clic en el menú de cuenta de Adobe (su imagen de perfil) en el área de navegación superior.
 
-![Menú del perfil](assets/aec-profile-picture-menu.png)
+![Menú del perfil](assets/unified-shell-profile-menu-2026.png)
 
 Este menú le permite:
 
-* Elegir el formato **[!UICONTROL Tema oscuro]** para [!DNL Adobe Experience Cloud].
-* Establecer **[!UICONTROL preferencias]** para [!DNL Adobe Experience Cloud], incluidas las preferencias de idioma principal y secundario.
+* Elegir el formato **[!UICONTROL Tema oscuro]** para [!DNL Adobe CX Enterprise].
+* Establecer **[!UICONTROL preferencias]** para [!DNL Adobe CX Enterprise], incluidas las preferencias de idioma principal y secundario.
+
   >[!NOTE]
   >
   >La configuración de la fecha se basa en la configuración de idioma principal. Por ejemplo, si selecciona **Inglés (Estados Unidos)**, las fechas se mostrarán en formato MM/DD/AAAA, mientras que si selecciona **Inglés (Reino Unido)**, las fechas se mostrarán en formato DD/MM/AAAA.
+
 * Acceder a su perfil **[!UICONTROL [!DNL Workfront]]**. Una vez que esté en el perfil, haga clic en el menú **[!UICONTROL Más]** ![Menú más](assets/more-icon.png) y seleccione **[!UICONTROL Editar]**. Para obtener más información sobre el perfil, consulte [Configuración de Mis opciones](/help/quicksilver/workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md).
-* **[!UICONTROL Cerrar sesión]** de Adobe Experience Cloud.
+* **[!UICONTROL Cerrar sesión]** de [!DNL Adobe CX Enterprise].
 
 ## Administre la contraseña
 
 >[!NOTE]
 >
->Al cambiar la contraseña, se cambiará en todas las aplicaciones de [!DNL Adobe Experience Cloud].
+>Al cambiar la contraseña, se cambiará en todas las aplicaciones de [!DNL Adobe CX Enterprise].
 
 La contraseña no se administra en [!DNL Workfront].
 
@@ -119,7 +121,7 @@ En caso de que la organización utilice una aplicación independiente para admin
 
 En caso de que [!DNL Adobe] administre la contraseña, cámbiela en la cuenta de Adobe.
 
-[Consulte este artículo para cambiar la contraseña de Adobe.](https://helpx.adobe.com/es/manage-account/using/change-or-reset-password.html){target="_blank"}
+[Consulte este artículo para cambiar la contraseña de Adobe.](https://helpx.adobe.com/account/individual/sign-in-and-security/security-and-recovery/reset-adobe-password.html){target="_blank"}
 
 Para obtener más información sobre cómo cambiar la contraseña, póngase en contacto con el administrador.
 

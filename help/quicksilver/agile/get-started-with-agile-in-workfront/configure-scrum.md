@@ -8,10 +8,10 @@ feature: Agile
 exl-id: 7509608e-96af-4601-80d4-791ee29046da
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: b271eca3ab0ab09d96f65d2c3c8c400313e57d3d
+source-git-commit: 4dd591c034e1c84ef3bda64d12b6920fbdd33c26
 workflow-type: tm+mt
-source-wordcount: '1736'
-ht-degree: 75%
+source-wordcount: '1733'
+ht-degree: 74%
 
 ---
 
@@ -26,7 +26,7 @@ Este artículo describe cómo configurar los ajustes de un equipo de Scrum. Desp
 
 * Si las historias se estiman en puntos o en horas
 * Las columnas de estado del panel de historias de Agile para iteraciones y proyectos
-* Campos adicionales para mostrar en tarjetas de historia en el panel de historia de Agile
+* Campos adicionales para mostrar en las tarjetas del panel de historias de Agile
 * Cómo se utilizan los indicadores de color para las historias en el panel de historias de Agile
 * Aplicación de las fechas al añadir elementos de trabajo a una iteración
 
@@ -87,7 +87,7 @@ Para configurar cómo se calculan las historias para su equipo de Agile:
 
 1. En la sección **[!UICONTROL Agile]**, en el área **[!UICONTROL Estimar historias en]**, seleccione si desea usar puntos u horas para estimar el tamaño (carga de trabajo) de las historias. Si selecciona Puntos, especifique cuántas horas son iguales a 1 punto. (El valor predeterminado es 1 punto = 8 horas). Número de horas planificadas que se añaden a la historia.
 
-   **Ejemplo:** Si ha seleccionado calcular historias en puntos y 1 punto equivale a 8 horas, y una historia se estima en 3 puntos, se agregan 24 horas planificadas a la historia.
+   **Ejemplo:** si ha seleccionado calcular historias en puntos y 1 punto equivale a 8 horas, y una historia se estima en 3 puntos, se añaden 24 horas planificadas a la historia.
 
 1. Haga clic en **[!UICONTROL Guardar cambios]**.
 
@@ -140,7 +140,7 @@ Para obtener información acerca de cómo configurar las columnas de estado de u
 
 Cuando se añaden campos a las tarjetas de historia, los campos son de solo vista y de solo visualización cuando se rellenan.
 
-De forma predeterminada, los siguientes tipos de datos se muestran en la tarjeta de la historia para tareas y problemas:
+De forma predeterminada, los siguientes tipos de datos se muestran en la tarjeta de historia para tareas y problemas:
 
 * Nombre de la historia con un vínculo directamente a la tarea o al problema
 * El nombre del proyecto con un vínculo directamente al proyecto

@@ -8,10 +8,10 @@ feature: Agile
 exl-id: b4c417a6-64c8-43e0-bace-b73572247b3e
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: b271eca3ab0ab09d96f65d2c3c8c400313e57d3d
+source-git-commit: 4dd591c034e1c84ef3bda64d12b6920fbdd33c26
 workflow-type: tm+mt
-source-wordcount: '1562'
-ht-degree: 67%
+source-wordcount: '1561'
+ht-degree: 64%
 
 ---
 
@@ -121,7 +121,7 @@ Para definir los estados disponibles para el guion gráfico asociado con el equi
 
 Cuando se añaden campos a las tarjetas de historia, los campos se muestran cuando se rellena el campo y son de solo lectura.
 
-De forma predeterminada, los siguientes tipos de datos se muestran en la tarjeta de historia para tareas y problemas:
+De forma predeterminada, se muestran los siguientes tipos de datos en la tarjeta de historia para tareas y problemas:
 
 * Nombre de la historia con un vínculo directamente a la tarea o al problema
 * El nombre del proyecto con un vínculo directamente al proyecto
@@ -204,7 +204,7 @@ Para agregar automáticamente historias del registro de pendientes al tablero [!
 
 1. Seleccione el equipo Kanban que desea gestionar.
 1. Haga clic en el menú **[!UICONTROL Más]** ![](assets/more-menu.png) y luego seleccione **[!UICONTROL Editar]**.
-1. Seleccione **[!UICONTROL Añadir automáticamente la historia siguiente del registro de asuntos pendientes]** para configurar que el siguiente elemento del registro de asuntos pendientes se añada automáticamente a la columna **[!UICONTROL Nuevo]** cuando se mueva un elemento fuera de la columna **[!UICONTROL En curso]**.
+1. Seleccione **[!UICONTROL Agregar automáticamente la historia siguiente del registro de pendientes]** para configurar el siguiente elemento del registro de pendientes que se agregará automáticamente a la columna **[!UICONTROL Nuevo]** cuando se mueva un elemento fuera de la columna **[!UICONTROL En curso]**.
 
 
 1. Haga clic en **[!UICONTROL Guardar cambios]**.
