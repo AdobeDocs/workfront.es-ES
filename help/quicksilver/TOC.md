@@ -3,9 +3,9 @@ user-guide-title: Guía de Workfront
 user-guide-description: Utilice los siguientes documentos, tutoriales y recursos adicionales para aprender a implementar y utilizar Adobe Workfront de forma eficaz en su organización.
 role: User
 feature-set: Workfront
-source-git-commit: 0c4904a380dd62b9ea01dd1030ee02d82a869541
+source-git-commit: de64f43d115c3f1c563fde761e5776b7213ae55f
 workflow-type: tm+mt
-source-wordcount: '14070'
+source-wordcount: '14083'
 ht-degree: 96%
 
 ---
@@ -21,6 +21,7 @@ ht-degree: 96%
       * [Prepárese para una versión trimestral de Adobe Workfront](product-announcements/product-releases/release-readiness.md)
       * Versión del tercer trimestre de 2026 {#release-26-q3}
          * [Información general sobre la versión del tercer trimestre de 2026](/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-release-overview.md)
+         * [Mejoras en los documentos del tercer trimestre de 2026](/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-documents.md)
          * [Tercer trimestre de 2026 Solicitud de mejoras](/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-requests.md)
       * Versión del segundo trimestre de 2026 {#release-26-q2}
          * [Información general sobre la versión del segundo trimestre de 2026](/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-release-overview.md)
@@ -1277,6 +1278,7 @@ ht-degree: 96%
          * [Comprender las métricas del proyecto](manage-work/projects/manage-projects/project-metrics.md)
          * [Información general de los límites del proyecto](manage-work/projects/manage-projects/project-maximums.md)
          * [Resumir actualizaciones con el asistente de IA](/help/quicksilver/manage-work/projects/manage-projects/summarize-projects-ai-assistant.md)
+         * [Información general sobre la administración de documentos para proyectos y objetos relacionados](manage-work/projects/manage-projects/manage-documents-on-projects.md)
       * Crear y administrar plantillas de proyecto {#create-and-manage-project-templates}
          * [Crear y administrar plantillas de proyecto: índice de artículos](manage-work/projects/create-and-manage-templates/create-manage-templates.md)
          * [Información general sobre plantillas de proyecto](manage-work/projects/create-and-manage-templates/project-template-overview.md)

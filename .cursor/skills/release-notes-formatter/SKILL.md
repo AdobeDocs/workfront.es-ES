@@ -1,10 +1,10 @@
 ---
 name: release-notes-formatter
 description: Dé formato y valide a las notas de la versión de Workfront para mantener la coherencia, una estructura correcta y una vinculación adecuada. Se utiliza solo para archivos de notas de versiones en directorios de versiones de productos o cuando el usuario menciona notas de versiones, versiones de productos o versiones trimestrales. No lo aplique a artículos de procedimientos o documentación general.
-source-git-commit: ec081e557ec48adcfcb3833bf11dcee91312ef4e
+source-git-commit: 1a498abcf4a9ef8940eb2da09da42636253e557a
 workflow-type: tm+mt
-source-wordcount: '594'
-ht-degree: 3%
+source-wordcount: '824'
+ht-degree: 2%
 
 ---
 
@@ -73,7 +73,7 @@ Reglas:
 >Production for everyone: {Month Day, Year}
 ```
 
-&#x200B;5. **Cuerpo**: Descripción de la función y después vínculo a la documentación de ayuda
+5. **Cuerpo**: Descripción de la función y después vínculo a la documentación de ayuda
 
 #### Páginas de información general
 
@@ -90,10 +90,10 @@ Reglas:
 * [Document enhancements](#document-enhancements)
 ```
 
-&#x200B;5. **H3 por área de producto** con tabla de características de HTML (véase [reference.md](reference.md#overview-feature-table))
+5. **H3 por área de producto** con tabla de características de HTML (véase [reference.md](reference.md#overview-feature-table))
    - Dentro de cada tabla, **las características más recientes primero**, la fila más reciente aparece en la parte superior de la tabla (después de la fila de encabezado)
 
-&#x200B;6. **Secciones finales** (H2): Notas de la versión para otras áreas, Actualizaciones del visor de revisión de escritorio, Anuncios, Versión de API, Actualizaciones de mantenimiento, Actualizaciones de formación
+6. **Secciones finales** (H2): Notas de la versión para otras áreas, Actualizaciones del visor de revisión de escritorio, Anuncios, Versión de API, Actualizaciones de mantenimiento, Actualizaciones de formación
 
 ### Paso 3: Validación de vínculos
 
@@ -115,7 +115,7 @@ Reglas:
 
 Aplique estas correcciones al dar formato:
 
-| Problema | Fix |
+| Problema | Corregir |
 |-------|-----|
 | Trimestre de vínculo de información general incorrecto | Actualizar para que coincida con el trimestre del propio archivo |
 | Falta el bloque de fecha `>[!NOTE]` | Añadir bloque después del encabezado de la función H2 |
@@ -124,6 +124,32 @@ Aplique estas correcciones al dar formato:
 | Espacios adicionales en las líneas de llamada | Recortar espacio final |
 | HTML en páginas de área de producto | Mantener como marcador (HTML solo sirve para tablas de información general) |
 | Falta `exl-id` | Déjelo fuera, no genere uno |
+
+### Paso 6: Actualizar el índice
+
+Siempre que cree una **nueva** página de nota de versión (información general o área de producto), agréguela a `help/quicksilver/TOC.md` con el mismo cambio. Las páginas que no estén en el índice no aparecerán en la navegación publicada, aunque los vínculos de la tabla de resumen apunten a ellas.
+
+Dónde se agrega:
+
+- La TDC tiene una sección por trimestre bajo un encabezado como `* 2026 Q3 Release {#release-26-q3}`. Si el encabezado del trimestre aún no existe (primera página de un nuevo trimestre), agréguelo por encima del trimestre anterior para que el trimestre más reciente aparezca en la parte superior.
+- Bajo ese encabezado de trimestre, enumere las páginas en este orden:
+   1. **Información general** primero (`Third Quarter 2026 release overview`).
+   2. **Páginas de área de producto** alfabéticamente por nombre de área (Administrador, Documentos, Operaciones de empresa, Proyectos, Informes, Solicitud).
+   3. **Otras mejoras** duran (siempre después de las áreas de producto alfabéticas).
+
+Cada entrada del índice es un vínculo de markdown que utiliza el título de página y la ruta absoluta del repositorio:
+
+```markdown
+      * [Third Quarter 2026 Documents enhancements](/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-documents.md)
+```
+
+Hacer coincidir la sangría (seis espacios) con las entradas adyacentes. Use la página H1 literalmente como texto del vínculo, por ejemplo `Documents enhancements`, `Requesting enhancements` (no `Requests`), de modo que las etiquetas de tabla de contenido coincidan con trimestres anteriores.
+
+Errores comunes que se deben evitar:
+
+- Creación de una página de área de producto sin agregarla al índice.
+- Vínculo a una descripción general de trimestre diferente desde la nueva página de área de producto (paso 3).
+- Inserción de páginas de un nuevo trimestre bajo el encabezado del trimestre anterior.
 
 ## Convenciones de nomenclatura de archivos
 
@@ -159,6 +185,7 @@ Cuando revise un archivo de notas de la versión, compruebe:
 - [ ] No hay vínculos internos rotos
 - [ ] vínculos de anclaje en la descripción general coinciden con los ID de sección H3
 - [ Las características de ] se ordenan más recientes (tanto páginas de área de productos como tablas de información general)
+- [ ] Las nuevas páginas de notas de la versión se enumeran en `help/quicksilver/TOC.md` en el trimestre correcto, con la descripción general en primer lugar y las áreas de producto en orden alfabético (el otro en último lugar)
 
 ## Recursos adicionales
 
