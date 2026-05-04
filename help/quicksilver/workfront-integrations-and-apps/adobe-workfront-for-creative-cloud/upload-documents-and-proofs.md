@@ -2,17 +2,16 @@
 content-type: reference
 product-area: workfront-integrations
 navigation-topic: workfront-integrations-navigation-topic
-title: Cargar documentos y pruebas de  [!DNL Adobe Workfront plugin]  en  [!DNL Creative Cloud]
-description: Cargar documentos y pruebas de  [!DNL Adobe Workfront plugin]  en  [!DNL Creative Cloud]
+title: Cargar documentos y pruebas de  [!DNL Adobe Workfront plugin]  a  [!DNL Creative Cloud]
+description: Cargar documentos y pruebas de  [!DNL Adobe Workfront plugin]  a  [!DNL Creative Cloud]
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 hide: true
-hidefromtoc: true
 exl-id: 88870441-8895-477c-9409-f2c33654545a
-source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
+source-git-commit: 18ad93c364daa9225c2b2ba715e45e8644936a0d
 workflow-type: tm+mt
 source-wordcount: '245'
-ht-degree: 13%
+ht-degree: 19%
 
 ---
 
@@ -51,7 +50,7 @@ Para volver a cambiar el modificador a un solo archivo en [!DNL InDesign]:
     <tr>
     <td><strong>PDF y PDF-PRINT</strong>
     </td>
-    <td>Anular la selección de <strong>Crear archivos de PDF independientes</strong>.
+    <td>Anule La Selección De <strong>Crear Archivos PDF Independientes</strong>.
     </td>
     </tr>
     <tr>
@@ -63,7 +62,7 @@ Para volver a cambiar el modificador a un solo archivo en [!DNL InDesign]:
     </td>
     </tr>
     <tr>
-    <td><strong>EPUB y EPUB-FIJO</strong>
+    <td><strong>EPUB y EPUB-FIXED</strong>
     </td>
     <td>No es necesario realizar ajustes.
     </td>
@@ -75,7 +74,7 @@ Para volver a cambiar el modificador a un solo archivo en [!DNL InDesign]:
     </td>
     </tr>
     <tr>
-    <td>JPG <strong></strong>
+    <td><strong>JPG</strong>
     </td>
     <td>Seleccione <strong>Intervalos</strong> y escriba un solo número de página. 
     <p>

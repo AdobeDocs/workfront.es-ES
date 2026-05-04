@@ -2,12 +2,11 @@
 title: Prueba oculta
 description: prueba oculta
 hide: true
-hidefromtoc: true
 exl-id: b6b0f429-b619-4b8e-ab81-ad190dae5a0b
-source-git-commit: 5ab33ae7ee37f4afa2546af32af205ef546bae22
+source-git-commit: 18ad93c364daa9225c2b2ba715e45e8644936a0d
 workflow-type: tm+mt
 source-wordcount: '614'
-ht-degree: 52%
+ht-degree: 54%
 
 ---
 
@@ -38,7 +37,7 @@ Expanda para ver los requisitos de acceso para la funcionalidad en este artícul
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td role="rowheader">Paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera </p> 
    </td> 
   </tr> 
@@ -69,7 +68,7 @@ Expanda para ver los requisitos de acceso para la funcionalidad en este artícul
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td role="rowheader">Paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera </p> </td> 
   </tr> 
   <tr> 
@@ -127,7 +126,7 @@ Expanda para ver los requisitos de acceso para la funcionalidad en este artícul
 
 <table>
   <tr>
-   <td>paquete de Adobe Workfront
+   <td>Paquete de Adobe Workfront
    </td>
    <td> <p>PRIME o ULTIMATE</p>
     <p>Workflow Ultimate</p>
@@ -155,7 +154,7 @@ Expanda para ver los requisitos de acceso para la funcionalidad en este artícul
 
 <table>
   <tr>
-   <td>paquete de Adobe Workfront
+   <td>Paquete de Adobe Workfront
    </td>
    <td> <p>PRIME o ULTIMATE</p>
     <p>Workflow Ultimate</p>

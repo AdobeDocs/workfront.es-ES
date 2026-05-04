@@ -1,13 +1,12 @@
 ---
-title: No se pudo iniciar sesión en  [!DNL Workfront Proof] la aplicación móvil
+title: 'No se pudo iniciar sesión en la aplicación móvil [!DNL Workfront Proof] '
 description: Solucione el inicio de sesión en la aplicación móvil de Workfront Proof.
 hide: true
-hidefromtoc: true
 exl-id: c6c52365-dbfe-481f-953c-6c70af6af46d
-source-git-commit: 6c7d22bea669586c56acfc23d328d7cc815b04be
+source-git-commit: 18ad93c364daa9225c2b2ba715e45e8644936a0d
 workflow-type: tm+mt
-source-wordcount: '152'
-ht-degree: 0%
+source-wordcount: '154'
+ht-degree: 16%
 
 ---
 
@@ -15,7 +14,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Este artículo hace referencia a la funcionalidad del producto independiente [!DNL Workfront Proof]. Para obtener información sobre la revisión dentro de [!DNL Adobe Workfront], vea [Revisión](../../../review-and-approve-work/proofing/proofing.md).
+>Este artículo hace referencia a la funcionalidad del producto independiente [!DNL Workfront Proof]. Para obtener información sobre la revisión dentro de [!DNL Adobe Workfront], consulte [Revisión](../../../review-and-approve-work/proofing/proofing.md).
 
 ## Problema
 

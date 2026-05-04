@@ -7,14 +7,13 @@ description: Para acceder a los datos de Data Connect, primero debe crear una cu
 author: Courtney
 feature: Reports and Dashboards
 hide: true
-hidefromtoc: true
-source-git-commit: a42c13804b0463af27bac6f9166bc6e3c41d3fda
+exl-id: 8ac99353-ebb9-46d9-b1ad-1cdbdc974f49
+source-git-commit: 18ad93c364daa9225c2b2ba715e45e8644936a0d
 workflow-type: tm+mt
-source-wordcount: '160'
+source-wordcount: '156'
 ht-degree: 8%
 
 ---
-
 
 # Prueba
 
@@ -39,9 +38,9 @@ ht-degree: 8%
      <tr>
          <td colspan="4"><strong>Campo de relaciones</strong> <br>
          ACCESSLEVELID (self): Self<br>
-         APPGLOBALID: no es una relación; se usa con fines de aplicación interna<br>
+         APPGLOBALID: no es una relación; se utiliza con fines de aplicación interna<br>
          LASTUPDATEDBYID: USER_CURRENT | ID DE USUARIO<br>
-         LEGACYACCESSLEVELID: no es una relación; se usa con fines de aplicación interna<br>
+         LEGACYACCESSLEVELID: no es una relación; se utiliza con fines de aplicación interna<br>
          OBJID: ID del objeto identificado en el campo OBJCODE <br>
          SYSID: No es una relación; se utiliza para fines de aplicación interna</td>
     </tr>
@@ -70,7 +69,7 @@ ht-degree: 8%
          <ul>
             <li>ACCESSLEVELID (self): Self</li>
             <li>APPGLOBALID: no es una relación; se utiliza con fines de aplicación interna</li>
-            <li>LASTUPDATEDBYID: USER_CURRENT | USERID</li>
+            <li>LASTUPDATEDBYID: USER_CURRENT | ID DE USUARIO</li>
             <li>LEGACYACCESSLEVELID: no es una relación; se utiliza con fines de aplicación interna</li>
             <li>OBJID: ID del objeto identificado en el campo OBJCODE</li>
             <li>SYSID: No es una relación; se utiliza para fines de aplicación interna</li>

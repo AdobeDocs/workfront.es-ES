@@ -7,14 +7,13 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 hide: true
-hidefromtoc: true
-source-git-commit: 7dca87a4f73fed9597f2a623b969569aa03cf5b3
+exl-id: 1f24affa-1d3a-4bbf-a044-f8e5ca98b0e2
+source-git-commit: 18ad93c364daa9225c2b2ba715e45e8644936a0d
 workflow-type: tm+mt
 source-wordcount: '93'
-ht-degree: 1%
+ht-degree: 24%
 
 ---
-
 
 # actividad de la versión de funciones de disponibilidad limitada de Adobe Workfront: índice de artículos
 
@@ -24,7 +23,7 @@ Este artículo contiene una lista de los artículos de actividades de la versió
 
 Para obtener información sobre la actividad actual de la versión de las funciones de disponibilidad limitada de Workfront, consulte el siguiente artículo:
 
-* [Actividad de la versión del segundo trimestre de 2026 para funciones de disponibilidad limitada de Adobe Workfront](/help/quicksilver/product-announcements/product-releases/limited-availability-release-activity/limited-availability-release-activity-26-q2.md)
+* [Actividad de la versión del segundo trimestre de 2026 para funciones con disponibilidad limitada de Adobe Workfront](/help/quicksilver/product-announcements/product-releases/limited-availability-release-activity/limited-availability-release-activity-26-q2.md)
 
 >[!ENDSHADEBOX]
 
@@ -33,6 +32,4 @@ Para obtener información sobre la actividad actual de la versión de las funcio
 Para obtener información acerca de versiones anteriores de funcionalidades, consulte los siguientes artículos:
 
 * 2026
-   * [Actividad de la versión del primer trimestre de 2026 para funciones de disponibilidad limitada de Adobe Workfront](/help/quicksilver/product-announcements/product-releases/limited-availability-release-activity/limited-availability-release-activity-26-q1.md)
-
-
+   * [Actividad de la versión del primer trimestre de 2026 para funciones con disponibilidad limitada de Adobe Workfront](/help/quicksilver/product-announcements/product-releases/limited-availability-release-activity/limited-availability-release-activity-26-q1.md)
