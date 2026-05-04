@@ -9,10 +9,10 @@ feature: Work Management
 exl-id: 2df8522e-7eee-4440-be0f-f7483c5acdb0
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 058abefdf7bcee16b9cee7f28e10337886c7fb05
+source-git-commit: 62d7144f808e7937f11c11ccff64e409c76f2197
 workflow-type: tm+mt
-source-wordcount: '3008'
-ht-degree: 70%
+source-wordcount: '3062'
+ht-degree: 69%
 
 ---
 
@@ -123,13 +123,19 @@ Puede editar una tarea de plantilla mediante las áreas Editar tarea de plantill
 1. Para editar información limitada sobre la tarea de plantilla, haga lo siguiente:
    1. (Opcional) Haga clic en **Actualizaciones** en el panel izquierdo para agregar actualizaciones a la tarea de plantilla. Las actualizaciones de tareas de plantilla no se transfieren a tareas de proyecto cuando la plantilla se utiliza para crear un proyecto.
    1. (Opcional) Haga clic en **Documentos** en el panel izquierdo para agregar documentos a la tarea de plantilla. Los documentos se transferirán a las tareas del proyecto cuando utilice la plantilla para crear el proyecto.
+
+      >[!TIP]
+      >
+      >La adición de documentos a una tarea de plantilla difiere según si la organización utiliza el almacenamiento de Workfront o Adobe para almacenar documentos. Para obtener más información, consulte [Agregar documentos a Adobe Workfront desde el sistema de archivos](/help/quicksilver/documents/adding-documents-to-workfront/add-documents-from-file-system.md).
+
    1. (Condicional) Para editar información limitada sobre una tarea de plantilla, haga clic en **Detalles de la tarea de plantilla** en el panel izquierdo y, a continuación, vaya a las áreas de la sección Detalles para editar la información de cada área.
    1. (Opcional) Realice una de las siguientes acciones:
       * Haga clic en el icono **Contraer todo** ![Contraer todo](assets/collapse-all-icon.png) para contraer todas las áreas.
       * Haga clic en el icono **Editar** ![Editar icono](assets/edit-icon.png) y, a continuación, seleccione una de las áreas siguientes o haga clic en **Editar todo** para editar la información de todas las áreas:
 
+
          * Información general
-         * Forms personalizado
+         * Formularios personalizados
 Los nombres de los formularios personalizados solo se muestran si hay formularios personalizados adjuntos a la tarea de plantilla.
          * Finanzas
 
@@ -208,7 +214,7 @@ Los nombres de los formularios personalizados solo se muestran si hay formulario
         <li> <p> <b>Normal</b></p> </li> 
         <li> <p><b>Alto</b> </p> </li> 
         <li> <p><b>Urgente</b> </p> </li> 
-       </ul> <p>Según las Preferencias del proyecto seleccionadas por el administrador de Workfront, los nombres de las prioridades pueden ser diferentes para usted. Para obtener más información acerca de cómo editar prioridades, consulte <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-priorities.md" class="MCXref xref">Crear y personalizar prioridades</a>.</p> </td> 
+       </ul> <p>Según las Preferencias del proyecto seleccionadas por el administrador de Workfront, los nombres de las prioridades pueden ser diferentes para usted. Para obtener más información sobre cómo editar prioridades, consulte <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-priorities.md" class="MCXref xref">Crear y personalizar prioridades</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Restricción de tarea</strong> </td> 
@@ -380,7 +386,7 @@ Los nombres de los formularios personalizados solo se muestran si hay formulario
 
    <p>El tiempo transcurrido es una unidad de tiempo de la duración de una tarea. Es el tiempo entre la fecha de inicio planificada y la fecha de finalización planificada de una tarea que incluye días festivos, fines de semana y días libres. En otras palabras, el tiempo transcurrido es el paso de los días del calendario.
 
-   El tiempo habitual tiene en cuenta los días festivos, los fines de semana y los días libres, y los excluye de la duración de la tarea. Para obtener más información acerca de la duración de la tarea, consulte <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">Información general sobre la duración de la tarea y el tipo de duración</a>. </p>
+   El tiempo habitual tiene en cuenta los días festivos, los fines de semana y los días libres, y los excluye de la duración de la tarea. Para obtener más información sobre la duración de la tarea, consulte <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">Información general sobre la duración y el tipo de duración de la tarea</a>. </p>
    </div> 
    </div> </td> 
    </tr> 
@@ -483,7 +489,7 @@ También puede agregar formularios personalizados a las tareas futuras de un pro
 
 1. Seleccione el formulario o formularios personalizados que desee asociar a la tarea de plantilla.
 
-   Debe crear los formularios personalizados antes de que estén disponibles para seleccionarlos en este campo.
+   Debe generar los formularios personalizados antes de que estén disponibles para seleccionarlos en este campo.
 En la lista solo se muestran los formularios personalizados activos.
 
    Para obtener más información sobre la creación de formularios personalizados, consulte [Crear un formulario personalizado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
@@ -543,7 +549,7 @@ Los formularios se añaden automáticamente a las tareas creadas a partir de la 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Proceso de aprobación</strong> </td> 
-      <td> <p>Seleccione el proceso de aprobación que desea asociar con la tarea de plantilla. El administrador de Workfront debe definir los procesos de aprobación de tareas en el nivel del sistema para poder asociarlos a tareas de plantilla. <span>Un usuario con acceso administrativo a los procesos de aprobación también puede crear procesos de aprobación específicos del grupo.</span> Para obtener más información acerca de cómo crear procesos de aprobación, consulte <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md" class="MCXref xref">Crear un proceso de aprobación para elementos de trabajo</a>.</p> <p>Tenga en cuenta lo siguiente a la hora de añadir procesos de aprobación: </p> 
+      <td> <p>Seleccione el proceso de aprobación que desea asociar con la tarea de plantilla. El administrador de Workfront debe definir los procesos de aprobación de tareas en el nivel del sistema para poder asociarlos a tareas de plantilla. <span>Un usuario con acceso administrativo a los procesos de aprobación también puede crear procesos de aprobación específicos del grupo.</span> Para obtener más información sobre cómo crear procesos de aprobación, consulte <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md" class="MCXref xref">Crear un proceso de aprobación para elementos de trabajo</a>.</p> <p>Tenga en cuenta lo siguiente a la hora de añadir procesos de aprobación: </p> 
        <ul> 
        <li>En la lista solo se muestran los procesos de aprobación activos. </li> 
        <li> <p>Los procesos de aprobación de todo el sistema y específicos del grupo se muestran en la lista. Los procesos de aprobación asociados a un grupo distinto al de la plantilla no se muestran en la lista.</p> <p>Importante: si el grupo asociado a la plantilla cambia, el proceso de aprobación específico del grupo se convierte en un proceso de aprobación de un solo uso. Para obtener más información acerca de cómo afectan los cambios en el grupo del proyecto o los cambios en el proceso de aprobación a la configuración de aprobación, consulte <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/how-changes-affect-group-approvals.md" class="MCXref xref">Cómo afectan los cambios en el grupo y el proceso de aprobación a los procesos de aprobación asignados</a>. </p> </li> 
@@ -603,6 +609,11 @@ You can edit a template task using the Edit Template Task or Template Task Detai
 1. To edit limited information about the template task, do the following: 
    1. (Optional) Click **Updates** in the left panel to add updates to the template task. Template task updates do not transfer to project tasks when the template is used to create a project.
    1. (Optional) Click **Documents** in the left panel to add documents to the template task. The documents will transfer to the project tasks when you use the template to create the project. 
+
+      >[!TIP]
+      >
+      >Adding documents to a template task differs depending on whether your organization uses Workfront or Adobe storage to store documents. For information, see [Add documents to Adobe Workfront from your file system](/help/quicksilver/documents/adding-documents-to-workfront/add-documents-from-file-system.md). 
+      
    1. (Conditional) To edit limited information about a template task, click **Template Task Details** in the left panel, then go to the areas of the Details section to edit information for each area.
    1. (Optional) Do any of the following: 
       * Click the **Collapse all** icon ![Collapse all icon](assets/collapse-all-icon.png) to collapse all areas. 
