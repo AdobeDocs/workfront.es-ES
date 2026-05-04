@@ -5,11 +5,10 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 hide: true
-hidefromtoc: true
 exl-id: 33fa5a61-5300-402c-9f80-f2701f7999a8
-source-git-commit: df0686038adb1278339e872e122a311884cb6d29
+source-git-commit: 18ad93c364daa9225c2b2ba715e45e8644936a0d
 workflow-type: tm+mt
-source-wordcount: '892'
+source-wordcount: '913'
 ht-degree: 7%
 
 ---
@@ -53,13 +52,13 @@ El campo Horas reales visible en la sección de detalles del proyecto, tareas y 
 
 >[!IMPORTANT]
 >
->Dependiendo de cuándo se registraron las horas, podría haber una discrepancia entre las horas reales y las horas reales heredadas de un proyecto, tarea o problema.<br>
->&#x200B;>Se dan los siguientes escenarios:
+>Según el momento en que se registraron las horas, puede haber una discrepancia entre las horas reales y las horas reales heredadas de un proyecto, una tarea o un problema.<br>
+>Se dan los siguientes escenarios:
 >
 >* Las horas reales representan las horas registradas en los proyectos, las tareas y los problemas desde mayo de 2021.
 >* Las horas reales heredadas representan las horas registradas en los proyectos, tareas y problemas durante la duración del proyecto, la tarea o el problema. Esto incluye las horas registradas antes de mayo de 2021 hasta la hora actual.
->  &#x200B;><br>Es posible que tenga que actualizar los informes para reflejar el nuevo campo y sus valores.
->  &#x200B;><br>Workfront utiliza las horas reales heredadas para calcular los costes laborales reales.
+><br>Es posible que tenga que actualizar los informes para reflejar el nuevo campo y sus valores.
+><br>Workfront utiliza las horas reales heredadas para calcular los costes laborales reales.
 
 Para obtener más información, vea [Ver horas reales](/help/quicksilver/manage-work/tasks/task-information/actual-hours.md).
 

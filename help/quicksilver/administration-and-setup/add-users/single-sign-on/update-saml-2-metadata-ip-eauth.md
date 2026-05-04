@@ -6,12 +6,11 @@ feature: System Setup and Administration
 role: Admin
 exl-id: 55d7d8a8-0dfe-45bc-a23a-47111347e9ca
 hide: true
-hidefromtoc: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 75fea812b4574191522af4721a013b57aa5d609f
+source-git-commit: 18ad93c364daa9225c2b2ba715e45e8644936a0d
 workflow-type: tm+mt
-source-wordcount: '895'
-ht-degree: 98%
+source-wordcount: '903'
+ht-degree: 96%
 
 ---
 
@@ -37,7 +36,7 @@ Para obtener información sobre cómo configurar SAML antes de migrar a la exper
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td role="rowheader">Paquete de Adobe Workfront</td> 
    <td><p>Cualquiera</p></td> 
   </tr> 
   <tr> 

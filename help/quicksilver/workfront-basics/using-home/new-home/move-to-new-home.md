@@ -5,17 +5,16 @@ title: Moverse del inicio heredado al nuevo inicio
 description: La página de inicio heredada se eliminará de Workfront el 17/10 con la versión del cuarto trimestre. Este artículo proporciona información sobre qué funcionalidad estará disponible en el nuevo inicio, así como recomendaciones para mover usuarios a la experiencia Nuevo inicio.
 author: Courtney
 hide: true
-hidefromtoc: true
 feature: Get Started with Workfront
 exl-id: cfb3de96-0710-44e9-a934-05877fa75b51
-source-git-commit: f5ffb83d2a9cab48a4ce623088e11e3e13d8f744
+source-git-commit: 18ad93c364daa9225c2b2ba715e45e8644936a0d
 workflow-type: tm+mt
-source-wordcount: '1632'
+source-wordcount: '1667'
 ht-degree: 32%
 
 ---
 
-# Cambio de una página de inicio heredada a una nueva
+# Cambiar de un Inicio heredado a uno nuevo
 
 La página de inicio heredada se eliminará de Workfront el 17/10 con la versión del cuarto trimestre. Este artículo proporciona información sobre las funcionalidades disponibles en el nuevo inicio, así como recomendaciones para los administradores de Workfront que mueven usuarios a la experiencia Nuevo inicio.
 
@@ -272,7 +271,7 @@ Hacerlo lo antes posible dará a sus usuarios tiempo para adaptarse a la nueva e
 
 **Formación**
 
-* [Quitar, agregar y reorganizar widgets en el tutorial de inicio](https://experienceleague.adobe.com/es/docs/workfront-learn/tutorials-workfront/home/remove-add-and-rearrange-widgets)
+* [Tutorial sobre cómo quitar, añadir y reorganizar widgets en Inicio](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home/remove-add-and-rearrange-widgets)
 * [Aspectos básicos del trabajo en Adobe Workfront](https://adobe-ats.sabacloud.com/Saba/Web_spf/PRODTNT100/app/me/learningeventdetail/cours000000000098821?regId=regdw000000001250612)
 
 >[!IMPORTANT]

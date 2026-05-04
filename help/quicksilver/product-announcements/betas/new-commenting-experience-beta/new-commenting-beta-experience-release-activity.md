@@ -6,15 +6,14 @@ description: Revise la actividad de lanzamiento semanal de la nueva experiencia 
 author: Alina
 feature: Product Announcements
 hide: true
-hidefromtoc: true
 role: User, Admin
 exl-id: 276b28f0-3955-4a0e-aa31-604b291f2f14
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 18ad93c364daa9225c2b2ba715e45e8644936a0d
 workflow-type: tm+mt
-source-wordcount: '1870'
-ht-degree: 96%
+source-wordcount: '2031'
+ht-degree: 94%
 
 ---
 
@@ -94,7 +93,7 @@ Vista previa y producción para todos los clientes: 24 de agosto de 2023
 
 ### Semana del 14 de agosto de 2023
 
-[Vea una demostración en vídeo de todas las funciones publicadas durante la semana del 14 de agosto de 2023](https://video.tv.adobe.com/v/3422912/){target=_blank}
+[Vea una demostración en vídeo de todas las funciones lanzadas durante la semana del 14 de agosto de 2023](https://video.tv.adobe.com/v/3422912/){target=_blank}
 
 #### Nueva experiencia de comentarios para objetos adicionales
 
@@ -320,19 +319,19 @@ Disponible para la experiencia de comentarios beta y para las metas de Workfront
 
 La siguiente actualización de mantenimiento se publicó para los comentarios sobre problemas beta y para las metas:
 
-Editar imágenes adjuntas al editar un comentario. Para obtener más información, consulte la sección &quot;Actualización de mantenimiento el 27 de abril&quot; en el artículo &lt;a href=&quot;https://experienceleague.adobe.com/es/docs/workfront-known-issues/releases/current-updates#updates-in-april-2023%22%3EUpdates&quot; en abril de 2023</a>.
+Editar imágenes adjuntas al editar un comentario. Para obtener más información, consulte la sección &quot;Actualización de mantenimiento el 27 de abril&quot; en el artículo &lt;a href=&quot;https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates#updates-in-april-2023%22%3EUpdates&quot; en abril de 2023</a>.
 
 ### viernes, 20 de abril de 2023
 
 La siguiente actualización de mantenimiento se publicó para los comentarios sobre problemas beta y para las metas:
 
-Mantener las imágenes como borrador al alejarse de una actualización para ver las metas y los problemas en la experiencia de comentarios beta. Para obtener más información, consulte la sección &quot;Actualización de mantenimiento el 20 de abril&quot; en el artículo &lt;a href=&quot;https://experienceleague.adobe.com/es/docs/workfront-known-issues/releases/current-updates#updates-in-april-2023%22%3EUpdates&quot; de abril de 2023</a>.
+Mantener las imágenes como borrador al alejarse de una actualización para ver las metas y los problemas en la experiencia de comentarios beta. Para obtener más información, consulte la sección &quot;Actualización de mantenimiento el 20 de abril&quot; en el artículo &lt;a href=&quot;https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates#updates-in-april-2023%22%3EUpdates&quot; de abril de 2023</a>.
 
 ### martes, 17 de abril de 2023
 
 La siguiente actualización de mantenimiento se publicó para los comentarios sobre problemas beta y para las metas:
 
-Mostrar nuevos comentarios fuera del área de la pantalla visible en la sección Actualizaciones de problemas (nueva experiencia de comentarios beta) y Metas. Para obtener más información, consulte la sección &quot;Actualización de mantenimiento el 17 de abril&quot; en el artículo &lt;a href=&quot;https://experienceleague.adobe.com/es/docs/workfront-known-issues/releases/current-updates#updates-in-april-2023%22%3EUpdates&quot; de abril de 2023</a>.
+Mostrar nuevos comentarios fuera del área de la pantalla visible en la sección Actualizaciones de problemas (nueva experiencia de comentarios beta) y Metas. Para obtener más información, consulte la sección &quot;Actualización de mantenimiento el 17 de abril&quot; en el artículo &lt;a href=&quot;https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates#updates-in-april-2023%22%3EUpdates&quot; de abril de 2023</a>.
 
 
 ### Semana del 6 de abril de 2023

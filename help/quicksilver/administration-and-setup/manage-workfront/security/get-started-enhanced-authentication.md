@@ -1,14 +1,13 @@
 ---
 title: Información general sobre la autenticación mejorada
 description: Oculto de la búsqueda y de la navegación izquierda
-hidefromtoc: true
 hide: true
 feature: System Setup and Administration
 role: Admin
 exl-id: bf3c6c6f-ddd5-42d0-9efe-b5eb94549f85
-source-git-commit: d585b698b6c7900d861a30dc6b5e0bff6bd6d13a
+source-git-commit: 18ad93c364daa9225c2b2ba715e45e8644936a0d
 workflow-type: tm+mt
-source-wordcount: '537'
+source-wordcount: '509'
 ht-degree: 100%
 
 ---
@@ -30,7 +29,7 @@ La siguiente tabla proporciona detalles sobre la funcionalidad actual y futura:
  <col data-mc-conditions=""> 
  <thead> 
   <tr> 
-   <th> <p><strong>Función</strong> </p> </th> 
+   <th> <p><strong>Característica</strong> </p> </th> 
    <th><strong>Autenticación heredada</strong> </th> 
    <th><strong>Autenticación mejorada 1.0</strong> </th> 
    <th> <p>Autenticación mejorada 2.0</p> </th> 
