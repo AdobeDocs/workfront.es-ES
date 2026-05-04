@@ -3,7 +3,7 @@ user-guide-title: Guía de Workfront
 user-guide-description: Utilice los siguientes documentos, tutoriales y recursos adicionales para aprender a implementar y utilizar Adobe Workfront de forma eficaz en su organización.
 role: User
 feature-set: Workfront
-source-git-commit: 18ad93c364daa9225c2b2ba715e45e8644936a0d
+source-git-commit: 1f657dc9041fcfbc8ea5b8ffcbcad0db96860dd2
 workflow-type: tm+mt
 source-wordcount: '14083'
 ht-degree: 95%
@@ -2661,11 +2661,11 @@ ht-degree: 95%
       * [Información general](proofhq-api/general/overview.md)
       * {hide-from-toc}[Muestras de código](proofhq-api/general/code-samples.md)
       * [Preguntas frecuentes sobre las API de SOAP](proofhq-api/general/soap-api-faqs.md)
-* {hide-from-toc}[Documento de prueba oculto](hidden-test.md)
 * App Builder {#app-builder}
    * [App Builder: índice de artículos](/help/quicksilver/app-builder/app-builder-toc.md)
    * [Adquirir e instalar aplicaciones desde Adobe Exchange](/help/quicksilver/app-builder/install-apps-on-exchange.md)
    * [Creación de aplicaciones personalizadas para Workfront con Adobe App Builder](/help/quicksilver/app-builder/app-builder.md)
+* {hide-from-toc}[Documento de prueba oculto](hidden-test.md)
 
 
 
