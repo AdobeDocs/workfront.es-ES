@@ -2,15 +2,18 @@
 title: Prueba oculta
 description: prueba oculta
 hide: true
+hold: true
 exl-id: b6b0f429-b619-4b8e-ab81-ad190dae5a0b
-source-git-commit: 1f657dc9041fcfbc8ea5b8ffcbcad0db96860dd2
+source-git-commit: b5c64bb3d1c4e7a1337a8b5672a5f95dd8d5ef7f
 workflow-type: tm+mt
-source-wordcount: '620'
+source-wordcount: '624'
 ht-degree: 54%
 
 ---
 
 # Prueba oculta
+
+Mantener solo para vista previa
 
 Que la 4ta abeja con U
 
@@ -224,7 +227,7 @@ Expanda para ver los requisitos de acceso para la funcionalidad en este artícul
    <td> 
 <p>Cualquier paquete del flujo de trabajo de Adobe Workfront y cualquier paquete de Adobe Workfront Planning</p> 
    </td> </tr>
-<td role="rowheader"><p>Plataforma de Adobe Workfront (¿**&#x200B;** llamarlo, o simplemente hacer que forme parte del artículo vinculado en la parte inferior???**&#x200B;***)</p></td> 
+<td role="rowheader"><p>Plataforma de Adobe Workfront (¿**** llamarlo, o simplemente hacer que forme parte del artículo vinculado en la parte inferior???*****)</p></td> 
    <td> 
 <p>La instancia de Workfront de su organización debe incorporarse a Adobe Unified Experience para poder acceder a Workfront Planning.</p> 
 <p>Para obtener más información, consulte <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience para Workfront</a>. </p> 
