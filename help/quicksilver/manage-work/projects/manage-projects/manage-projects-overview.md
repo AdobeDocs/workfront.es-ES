@@ -8,10 +8,10 @@ author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: a63ec4e0-ba39-42c1-8061-c29350ef4bbb
-source-git-commit: 66d59467e7e9857ca5573b819d51da839ddbd4f7
+source-git-commit: 5f254f051704e3b986daa5748f2fb198de472059
 workflow-type: tm+mt
-source-wordcount: '131'
-ht-degree: 84%
+source-wordcount: '139'
+ht-degree: 85%
 
 ---
 
@@ -40,3 +40,4 @@ Esta sección contiene los siguientes artículos:
 * [Información general de los límites del proyecto](../../../manage-work/projects/manage-projects/project-maximums.md)
 * [Comprender las métricas del proyecto](../../../manage-work/projects/manage-projects/project-metrics.md)
 * [Resumir actualizaciones con el asistente de IA](/help/quicksilver/manage-work/projects/manage-projects/summarize-projects-ai-assistant.md)
+* [Información general sobre la administración de documentos para proyectos y objetos relacionados](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md)
