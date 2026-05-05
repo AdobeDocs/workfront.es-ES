@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 407aae49-4bc3-4364-a794-7e170a57a6d3
-source-git-commit: e6aa40917f2e4421c84d2cc36e86187328c6f775
+source-git-commit: 2a08a1139664517b9ccf41121e8bb0dc686028ab
 workflow-type: tm+mt
-source-wordcount: '2714'
-ht-degree: 74%
+source-wordcount: '2720'
+ht-degree: 75%
 
 ---
 
@@ -115,11 +115,11 @@ Para reutilizar un campo personalizado calculado existente:
    >
    >Algunos ejemplos de formularios complejos son los formularios con parámetros en cascada, los campos de datos personalizados calculados y varias opciones de valor en un único campo.
 
-1. Para guardar los cambios, haga clic en **Aplicar** y pase a otra sección para seguir creando el formulario.
+1. Para guardar los cambios, haga clic en **Aplicar** y pase a otra sección para seguir generando el formulario.
 
    o
 
-   Haga clic en **Guardar y cerrar**.
+   Haga clic en **Guardar y Cerrar**.
 
 ## Añadir un nuevo campo calculado
 
@@ -171,7 +171,7 @@ Para reutilizar un campo personalizado calculado existente:
      </tr>
      <tr>
       <td>Permiso automático</td>
-      <td><p>Active esta opción para permitir que los permisos financieros provengan automáticamente de los campos utilizados en la fórmula. Las definiciones de permisos se muestran en el campo Tipo de permiso financiero, a continuación.</p><p>El acceso es obligatorio para todos los campos de la fórmula. Por ejemplo, si se utilizan dos campos en un campo calculado y uno de ellos tiene permiso de facturación aplicado y el segundo tiene permiso de costes aplicado, el usuario debe tener permisos para ver las tarifas de facturación y de coste para ver el valor calculado.</p></td>
+      <td><p>Active esta opción para permitir que los permisos financieros provengan automáticamente de los campos utilizados en la fórmula. Las definiciones de permisos se muestran en el campo Tipo de permiso financiero, a continuación.</p><p>El acceso es obligatorio para todos los campos de la fórmula. Por ejemplo, si un campo calculado utiliza dos campos, uno con permisos de facturación y otro con permisos de costes, el usuario debe tener permisos para ver ambos para ver el valor calculado.</p></td>
      </tr>
      <tr>
       <td>Tipo de permiso financiero</td>
@@ -349,4 +349,4 @@ Un cálculo suele comenzar con una expresión, seguida de paréntesis que contie
 
    o
 
-   Haga clic en **Guardar y cerrar**.
+   Haga clic en **Guardar y Cerrar**.
