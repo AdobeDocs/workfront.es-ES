@@ -10,9 +10,9 @@ role: Admin
 exl-id: 48b581c7-a21a-45de-95c5-eafb0713b42e
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: b3c8559ddac934cc41461f88503b2fa71abaf452
 workflow-type: tm+mt
-source-wordcount: '320'
+source-wordcount: '357'
 ht-degree: 11%
 
 ---
@@ -34,8 +34,8 @@ Para obtener más información sobre el almacenamiento empresarial de Adobe, con
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">paquete de Workfront</td> 
-   <td><p>Cualquiera</p></td> 
+   <td role="rowheader">Paquete de Adobe Workfront</td> 
+   <td><p>Cualquier paquete de flujo de trabajo</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licencia de Adobe Workfront</td> 
@@ -75,3 +75,7 @@ Para habilitar el almacenamiento empresarial de Adobe para su organización:
    - **Grupos específicos**: esta opción aplica el proveedor de almacenamiento predeterminado solamente a grupos específicos dentro de su organización. Cada vez que un usuario de los grupos especificados cree un nuevo proyecto, se utilizará el proveedor de almacenamiento predeterminado
 
 1. Haga clic en **Guardar**.
+
+   >[!NOTE]
+   >
+   >Los proyectos existentes mantienen el modelo de almacenamiento con el que se crearon. Por ejemplo, los proyectos que utilizan el almacenamiento empresarial de Adobe siguen utilizando el almacenamiento empresarial de Adobe después de cambiar la preferencia de almacenamiento predeterminada.

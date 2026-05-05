@@ -8,7 +8,7 @@ feature: Digital Content and Documents
 exl-id: 41974d6b-fb00-49b7-9db2-36519994e0fd
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 90eb99fa46e706a53427f995d484e2fb42e9c293
+source-git-commit: b3c8559ddac934cc41461f88503b2fa71abaf452
 workflow-type: tm+mt
 source-wordcount: '806'
 ht-degree: 31%
@@ -17,7 +17,7 @@ ht-degree: 31%
 
 # Crear carpetas de documentos
 
-Los documentos se pueden organizar en carpetas. Actualmente, Workfront tiene dos versiones del área Documentos: el área de documentos heredados y el área de documentos nuevos. La versión que utilice su organización depende de si su organización utiliza almacenamiento de Workfront heredado o almacenamiento empresarial. Para obtener más información acerca de estos tipos de almacenamiento, vea [Información general sobre el almacenamiento empresarial de Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
+Los documentos se pueden organizar en carpetas. Actualmente, Workfront tiene dos versiones del área Documentos: el área de documentos heredados y el área de documentos nueva. La versión que utilice su organización depende de si su organización utiliza almacenamiento de Workfront heredado o almacenamiento empresarial. Para obtener más información acerca de estos tipos de almacenamiento, vea [Información general sobre el almacenamiento empresarial de Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 ## Requisitos de acceso
 
@@ -91,9 +91,9 @@ Con un objeto de Workfront abierto, haga clic en **Documentos** en el panel izqu
 
 Para obtener información acerca de cómo compartir carpetas, consulte [Compartir una carpeta de documentos](../../workfront-basics/grant-and-request-access-to-objects/share-a-document-folder.md).
 
-## Crear carpetas de documentos en el área de documentos nuevos
+## Crear carpetas de documentos en el área de documentos nueva
 
-Si su organización utiliza el almacenamiento empresarial, verá el área de nuevos documentos al acceder a ellos en Workfront. Para obtener más información acerca del almacenamiento empresarial, consulte [Descripción general del almacenamiento empresarial de Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
+Si su organización utiliza el almacenamiento empresarial, verá la nueva área Documentos al acceder a los documentos en Workfront. Para obtener más información acerca del almacenamiento empresarial, consulte [Descripción general del almacenamiento empresarial de Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 ### Carpetas generadas por el sistema
 
@@ -142,7 +142,7 @@ Para mover una carpeta:
 
    ![mover carpeta](assets/rename-folder.png)
 
-<!-- STEPS PLACEHOLDER: Add steps for moving a folder in the new documents area -->
+<!-- STEPS PLACEHOLDER: Add steps for moving a folder in the new Documents area -->
 
 ### Eliminar una carpeta
 

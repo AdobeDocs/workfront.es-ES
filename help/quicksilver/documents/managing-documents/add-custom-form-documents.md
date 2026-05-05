@@ -8,7 +8,7 @@ feature: Digital Content and Documents
 exl-id: 6c974293-1f54-447b-8d42-8d039f7911f1
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 90eb99fa46e706a53427f995d484e2fb42e9c293
+source-git-commit: b3c8559ddac934cc41461f88503b2fa71abaf452
 workflow-type: tm+mt
 source-wordcount: '513'
 ht-degree: 54%
@@ -49,7 +49,7 @@ Puede añadir un formulario personalizado a un documento o a una versión de doc
  </tbody> 
 </table>
 
-Para obtener más información sobre el contenido de esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obtener más información sobre esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -84,9 +84,9 @@ Para añadir un formulario personalizado a un documento:
 
    ![Editar formulario personalizado](assets/edit-custom-form-350x265.png)
 
-## Agregar un formulario personalizado en el área de documento nueva
+## Agregar un formulario personalizado en el área de Documentos nueva
 
-Si su organización utiliza el almacenamiento empresarial, verá el área de nuevos documentos al acceder a ellos en Workfront. Para obtener más información acerca del almacenamiento empresarial, consulte [Descripción general del almacenamiento empresarial de Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
+Si su organización utiliza el almacenamiento empresarial, verá la nueva área Documentos al acceder a los documentos en Workfront. Para obtener más información acerca del almacenamiento empresarial, consulte [Descripción general del almacenamiento empresarial de Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 Para añadir un formulario personalizado a un documento:
 
@@ -98,7 +98,7 @@ Para añadir un formulario personalizado a un documento:
 1. Haga clic en **Guardar**. El formulario personalizado aparece en la sección de detalles.
 
 
-## Editar un formulario personalizado en el área de documento nueva
+## Editar un formulario personalizado en la nueva área de documentos
 
 1. Vaya al proyecto, tarea o problema que contiene el documento y, a continuación, seleccione **Documentos**.
 1. Seleccione el documento que necesite.

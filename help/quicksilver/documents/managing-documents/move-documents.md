@@ -8,7 +8,7 @@ feature: Digital Content and Documents
 exl-id: 46039017-58b3-4e9d-8dcd-6e1f52d98d27
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 90eb99fa46e706a53427f995d484e2fb42e9c293
+source-git-commit: b3c8559ddac934cc41461f88503b2fa71abaf452
 workflow-type: tm+mt
 source-wordcount: '431'
 ht-degree: 61%
@@ -85,9 +85,9 @@ Para mover un documento:
 
 También puede mover un documento desde la página Detalles del documento.
 
-## Mover un documento al área de nuevos documentos
+## Mover un documento al área de Documentos nueva
 
-Si su organización utiliza el almacenamiento empresarial, verá el área de nuevos documentos al acceder a ellos en Workfront. Para obtener más información acerca del almacenamiento empresarial, consulte [Descripción general del almacenamiento empresarial de Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
+Si su organización utiliza el almacenamiento empresarial, verá la nueva área Documentos al acceder a los documentos en Workfront. Para obtener más información acerca del almacenamiento empresarial, consulte [Descripción general del almacenamiento empresarial de Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 Para mover un documento:
 

@@ -6,7 +6,7 @@ description: Conecte su trabajo a su contenido en Experience Manager Assets Esse
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: abaa76e2-bbf1-47d0-8bdc-4e950df4f7ea
-source-git-commit: 90eb99fa46e706a53427f995d484e2fb42e9c293
+source-git-commit: b3c8559ddac934cc41461f88503b2fa71abaf452
 workflow-type: tm+mt
 source-wordcount: '681'
 ht-degree: 92%
@@ -24,7 +24,7 @@ Conecte su trabajo a su contenido en Experience Manager Assets Essentials:
 >[!NOTE]
 >
 >También puede conectar varios repositorios de Experience Manager Assets a un entorno de Workfront o varios entornos de Workfront a un repositorio de Experience Manager Assets en los ID de organización. Siga las instrucciones de configuración de este artículo para cada integración que desee configurar.<br>
->Esta funcionalidad no está disponible en el área de nuevos documentos.
+>Esta funcionalidad no está disponible en la nueva área de Documentos.
 
 ## Requisitos de acceso
 
@@ -65,7 +65,7 @@ Conecte su trabajo a su contenido en Experience Manager Assets Essentials:
   </tr>
 </table>
 
-Para obtener más información sobre el contenido de esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obtener más información sobre esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 
 

@@ -8,7 +8,7 @@ feature: Work Management, Digital Content and Documents
 exl-id: f3d94dff-a855-44ae-9e85-1dcbc4d417a0
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 0c4904a380dd62b9ea01dd1030ee02d82a869541
+source-git-commit: b3c8559ddac934cc41461f88503b2fa71abaf452
 workflow-type: tm+mt
 source-wordcount: '566'
 ht-degree: 17%
@@ -88,10 +88,10 @@ Una vez guardado, los participantes añadidos reciben una notificación por corr
 
 ## Agregar aprobadores o revisores adicionales del Resumen del documento en el área de nuevos documentos
 
-Si su organización utiliza el almacenamiento empresarial, verá el área de nuevos documentos al acceder a ellos en Workfront. Para obtener más información acerca del almacenamiento empresarial, vea [Información general sobre el almacenamiento empresarial](/help/quicksilver/review-and-approve-work/esm-overview.md).
+Si su organización utiliza el almacenamiento empresarial, verá la nueva área Documentos al acceder a los documentos en Workfront. Para obtener más información acerca del almacenamiento empresarial, vea [Información general sobre el almacenamiento empresarial](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 
-1. Go to the project, task, or issue that contains the document, then select **Documents** in the left panel.
+1. Vaya al proyecto, tarea o problema que contiene el documento y, a continuación, seleccione **Documentos** en el panel izquierdo.
 
 1. Haga clic en el documento y luego en el icono **Aprobaciones** que encontrará a la derecha de la página.
 
@@ -102,7 +102,7 @@ Si su organización utiliza el almacenamiento empresarial, verá el área de nue
 
 1. Busque el escenario en el que desea agregar aprobadores o revisores y, a continuación, agregue el nombre del usuario o correo electrónico en el cuadro de texto. También puede agregar todo un equipo si es necesario.
 
-1. Once their name is added, choose if they are an approver or reviewer.
+1. Una vez agregado el nombre, seleccione si es un aprobador o revisor.
 
    ![lista desplegable de aprobadores o revisores](assets/choose-approver-or-reviewer.png)
 

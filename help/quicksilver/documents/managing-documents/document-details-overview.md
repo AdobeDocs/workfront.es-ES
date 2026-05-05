@@ -9,7 +9,7 @@ feature: Digital Content and Documents
 exl-id: 69f0560f-8612-431d-9765-0216bf47d8b0
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: b3c8559ddac934cc41461f88503b2fa71abaf452
 workflow-type: tm+mt
 source-wordcount: '378'
 ht-degree: 29%
@@ -50,7 +50,7 @@ Además, puede usar el icono Más ![menú Más](assets/more-icon.png) junto al n
 Puede realizar las siguientes acciones desde la página de detalles del documento si está en el flujo de trabajo de prueba:
 
 * Ver detalles de Enviado, Abierto, Comentario, Decisión (SOCD)
-* Abrir una prueba 
+* Abrir una prueba
 * Abrir el resumen de impresión
 * Bloquear o desbloquear una prueba
 * Editar campos personalizados de revisión
@@ -68,9 +68,9 @@ Puede realizar las siguientes acciones desde la página de detalles del document
    ![Detalles del documento](assets/doc-details-legacy.png)
 
 
-## Nueva área de documento
+## Área Nuevos documentos
 
-Si su organización utiliza el almacenamiento empresarial, verá el área de nuevos documentos al acceder a ellos en Workfront. Para obtener más información acerca del almacenamiento empresarial, consulte [Descripción general del almacenamiento empresarial de Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
+Si su organización utiliza el almacenamiento empresarial, verá la nueva área Documentos al acceder a los documentos en Workfront. Para obtener más información acerca del almacenamiento empresarial, consulte [Descripción general del almacenamiento empresarial de Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 Puede realizar las siguientes acciones con los documentos desde la página Detalles del documento:
 
@@ -96,7 +96,7 @@ Puede realizar las siguientes acciones con los documentos desde la página Detal
 ![Icono de menú más detalles del documento](assets/more-menu-new-doc.png)
 
 
-### Abra el panel Detalles del documento en el área de nuevos documentos
+### Abra el panel Detalles del documento en el área de documentos nueva
 
 1. Vaya al proyecto, tarea o problema que contiene el documento y, a continuación, seleccione **Documentos** en el panel izquierdo.
 1. Seleccione el documento y haga clic en **Ver detalles**.

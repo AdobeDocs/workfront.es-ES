@@ -6,7 +6,7 @@ description: Puede desvincular o eliminar elementos vinculados a Workfront desde
 author: Becky
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: f082be12-2adc-4234-a01a-7543c032a35a
-source-git-commit: 90eb99fa46e706a53427f995d484e2fb42e9c293
+source-git-commit: b3c8559ddac934cc41461f88503b2fa71abaf452
 workflow-type: tm+mt
 source-wordcount: '256'
 ht-degree: 84%
@@ -19,7 +19,7 @@ Puede desvincular o eliminar elementos vinculados a Workfront desde Adobe Experi
 
 >[!NOTE]
 >
->Esta funcionalidad no está disponible en el área de nuevos documentos.
+>Esta funcionalidad no está disponible en la nueva área de Documentos.
 
 ## Eliminar un documento o una carpeta vinculados en Workfront
 

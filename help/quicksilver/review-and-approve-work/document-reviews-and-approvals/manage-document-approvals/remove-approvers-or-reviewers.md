@@ -8,7 +8,7 @@ feature: Work Management, Digital Content and Documents
 exl-id: 6877ee90-9a70-4616-98f4-4b0ff932d79a
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 0c4904a380dd62b9ea01dd1030ee02d82a869541
+source-git-commit: b3c8559ddac934cc41461f88503b2fa71abaf452
 workflow-type: tm+mt
 source-wordcount: '538'
 ht-degree: 36%
@@ -88,9 +88,9 @@ Para eliminar aprobadores o revisores de un flujo de trabajo de aprobación:
 </div>
 
 
-## Eliminar aprobadores o revisores a un flujo de trabajo de aprobación en la nueva área de documento
+## Eliminar aprobadores o revisores a un flujo de trabajo de aprobación en el área de nuevos documentos
 
-Si su organización utiliza el almacenamiento empresarial, verá el área de nuevos documentos al acceder a ellos en Workfront. Para obtener más información acerca del almacenamiento empresarial, vea [Información general sobre el almacenamiento empresarial](/help/quicksilver/review-and-approve-work/esm-overview.md).
+Si su organización utiliza el almacenamiento empresarial, verá la nueva área Documentos al acceder a los documentos en Workfront. Para obtener más información acerca del almacenamiento empresarial, vea [Información general sobre el almacenamiento empresarial](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 Para crear un flujo de trabajo de aprobación:
 
@@ -107,10 +107,10 @@ Para crear un flujo de trabajo de aprobación:
 
    La solicitud de aprobación o revisión se elimina y el aprobador recibe una notificación que le informa de que ya no necesita su aprobación.
 
-1. (Optional) To change the role of an approver to a reviewer, or vice versa, click the drop-down menu next to the username, and select the new role.
+1. (Opcional) Para cambiar la función de un aprobador a un revisor o viceversa, haga clic en el menú desplegable situado junto al nombre de usuario y seleccione la nueva función.
 
 1. Repita el paso anterior para eliminar los aprobadores o revisores adicionales.
 
-   ![remove participants from a stage](assets/add-or-remove-participants.png)
+   ![quitar participantes de una fase](assets/add-or-remove-participants.png)
 
 1. Haga clic en **Guardar**.
