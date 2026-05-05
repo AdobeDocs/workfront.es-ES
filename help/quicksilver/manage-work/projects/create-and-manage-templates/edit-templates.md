@@ -8,10 +8,10 @@ feature: Work Management
 exl-id: da0fca31-6a50-4862-ad9a-a453ef968773
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: dc71072107ce80f6cb9033fcb17fe4ac74d5af18
+source-git-commit: ada25d0b7c359cfb258dfc4e68a628033e66562d
 workflow-type: tm+mt
-source-wordcount: '5076'
-ht-degree: 85%
+source-wordcount: '5112'
+ht-degree: 83%
 
 ---
 
@@ -285,8 +285,8 @@ Old:
       <td><p>Cuando se selecciona esta opción, siempre se utilizan las tasas de cambio efectivas por fecha a nivel de sistema y no se permiten las anulaciones de tasas de cambio en el proyecto.</p> <p>También debe seleccionar la <strong>Fecha de tasa de cambio</strong> desde la que se debe comenzar, cuando se seleccione la opción.</p></td> 
      </tr>
       <tr> 
-      <td role="rowheader"><strong>Divisa</strong></td> 
-      <td><p>Especifique la moneda para el proyecto futuro, si es diferente a la moneda predeterminada del sistema. Este campo no está visible si solo tiene la moneda predeterminada en el sistema.<br>Para obtener más información sobre la moneda, consulte <a href="../../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md" class="MCXref xref">Configurar tasas de cambio</a>.</p></td> 
+      <td role="rowheader"><strong>Moneda</strong></td> 
+      <td><p>Especifique la moneda para el proyecto futuro, si es diferente a la moneda predeterminada del sistema. Este campo no está visible si solo tiene la moneda predeterminada en el sistema.<br>Para obtener más información acerca de la moneda, consulte <a href="../../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md" class="MCXref xref">Configurar tasas de cambio</a>.</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Presupuesto</strong></td> 
@@ -298,15 +298,15 @@ Old:
      </tr>
      <tr> 
       <td role="rowheader"><strong>Beneficio planificado</strong></td> 
-      <td><p>Especifique el beneficio planificado de los proyectos que se crean a partir de esta plantilla. El beneficio planificado se utiliza en el Caso empresarial del proyecto y en el Optimizador de portafolios. </p><p>Para obtener más información sobre el beneficio planificado de un proyecto, consulte <a href="../../../manage-work/projects/project-finances/project-planned-benefit.md" class="MCXref xref">Información general sobre el beneficio planificado del proyecto</a>. El Beneficio planificado de un proyecto se tiene en cuenta cuando se calcula el valor neto de un proyecto. </p><p>Para obtener más información sobre el uso de Portfolio Optimizer, consulte <a href="../../../manage-work/portfolios/portfolio-optimizer/manage-projects-in-portfolio-optimizer.md" class="MCXref xref">Administrar proyectos en Portfolio Optimizer</a>. </p></td> 
+      <td><p>Especifique el beneficio planificado de los proyectos que se crean a partir de esta plantilla. El beneficio planificado se utiliza en el caso comercial del proyecto y en Portfolio Optimizer. </p><p>Para obtener más información sobre el beneficio planificado de un proyecto, consulte <a href="../../../manage-work/projects/project-finances/project-planned-benefit.md" class="MCXref xref">Información general sobre el beneficio planificado del proyecto</a>. El Beneficio planificado de un proyecto se tiene en cuenta cuando se calcula el valor neto de un proyecto. </p><p>Para obtener más información sobre el uso de Portfolio Optimizer, consulte <a href="../../../manage-work/portfolios/portfolio-optimizer/manage-projects-in-portfolio-optimizer.md" class="MCXref xref">Administrar proyectos en Portfolio Optimizer</a>. </p></td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Coste fijo</strong></td> 
-      <td><p>Especifique el coste fijo de los proyectos creados a partir de esta plantilla. Esto es diferente al coste de mano de obra que proviene de las horas en el proyecto y al coste de gasto que proviene de la cantidad de gastos en el proyecto. El coste fijo de un proyecto se tiene en cuenta al calcular su valor neto y forma parte del coste presupuestado.</p></td> 
+      <td><p>Especifique el Coste fijo para los proyectos creados a partir de esta plantilla. Esto es diferente al coste de mano de obra que proviene de las horas en el proyecto y al coste de gasto que proviene de la cantidad de gastos en el proyecto. El coste fijo de un proyecto se tiene en cuenta al calcular su valor neto y forma parte del coste presupuestado.</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Ingresos fijos</strong></td> 
-      <td><p>Especifique los ingresos fijos de los proyectos creados a partir de esta plantilla.</p></td> 
+      <td><p>Especifique los ingresos fijos para los proyectos creados a partir de esta plantilla.</p></td> 
      </tr>
 
    </tbody> 
@@ -381,7 +381,7 @@ Old:
        <tr> 
        <td role="rowheader"><strong>Tipo de actualización</strong> </td> 
        <td> <p>Controla cuándo se guardan en el proyecto los cambios realizados en la cronología del futuro proyecto. </p> 
-       <b>EJEMPLO </b> 
+       <b>EJEMPLO </b> 
        <p>Los siguientes cambios en el proyecto activan una actualización en la cronología del proyecto:</p> 
        <ul> 
        <li> <p>actualizar las fechas de las tareas</p> </li> 
@@ -391,7 +391,7 @@ Old:
        </ul> 
        </div> <p>Seleccione entre las siguientes opciones:<br></p> 
        <ul> 
-       <li> <p><strong>Automático y al cambiar</strong> (configuración predeterminada): la cronología del proyecto futuro se actualiza cada vez que se produce un cambio en el proyecto o en otro proyecto del que depende la cronología (al cambiar). La cronología del proyecto también se actualiza cada noche (Automática).<br>Esta es la configuración recomendada para este campo porque garantiza que la cronología del proyecto siempre esté actualizada.<br>Cuando realiza una acción en una tarea o proyecto que activa un recálculo de cronología, todas las fechas disponibles se muestran inmediatamente, lo que le permite seguir trabajando. En los proyectos con más de 100 tareas, las fechas que requieran recálculos mayores se muestran brevemente como signo de interrogación (entre 1 y 5 segundos, o hasta un minuto en los proyectos grandes). Esto indica que el recálculo aún no ha finalizado y que las fechas están sujetas a cambios.<br></p> </li> 
+       <li> <p><strong>Automático y al cambiar</strong> (configuración predeterminada): la cronología del proyecto futuro se actualiza cada vez que se produce un cambio en el proyecto o en otro proyecto del que depende la cronología (al cambiar). La escala de tiempo del proyecto también se actualiza cada noche (Automática).<br>Esta es la configuración recomendada para este campo porque garantiza que la escala de tiempo del proyecto siempre esté actualizada.<br>Cuando realiza una acción en una tarea o proyecto que activa un recálculo de cronología, todas las fechas disponibles se muestran inmediatamente, lo que le permite seguir trabajando. En los proyectos con más de 100 tareas, las fechas que requieran recálculos mayores se muestran brevemente como signo de interrogación (entre 1 y 5 segundos, o hasta un minuto en los proyectos grandes). Esto indica que el recálculo aún no ha finalizado y que las fechas están sujetas a cambios.<br></p> </li> 
        </ul> 
        <ul> 
        <li> <p><strong>Solo al cambiar</strong>: la cronología del proyecto se actualiza cada vez que se produce un cambio en el proyecto o en otro proyecto del que depende la cronología. Es posible que desee seleccionar esta opción si los cambios rara vez se producen en el proyecto o en otros proyectos de los que depende la cronología.<br></p> </li> 
@@ -439,13 +439,13 @@ Old:
        <td> <p>Especifique los conjuntos de recursos asociados a la plantilla. Los conjuntos de recursos son colecciones de usuarios que se necesitan al mismo tiempo para completar un proyecto. Para obtener más información sobre los conjuntos de recursos, consulte <a href="../../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md" class="MCXref xref"> Información general sobre los conjuntos de recursos </a>.</p> <p> <p><b>NOTA</b>
 
        Cuando edita plantillas de forma masiva, solo aparecen en este campo los conjuntos de recursos que son comunes a todas las plantillas seleccionadas. Si las plantillas seleccionadas no tienen conjuntos de recursos compartidos, este campo estará vacío. Los conjuntos de recursos que especifique aquí sobrescribirán los conjuntos de recursos individuales de las plantillas.&lt;/p> &lt;/p> &lt;/td>
-       &lt;/tr>
+     &lt;/tr>
    
    <tr> 
       <td role="rowheader"><strong>Requerir tiempo de aprobación de este proyecto</strong></td>
 
    <td><p>Seleccione esta opción para exigir al futuro propietario del proyecto creado a partir de esta plantilla que apruebe el tiempo de inicio de sesión en el proyecto.</p> 
-      <p>Si está utilizando Registros de facturación y selecciona esta opción, solo las horas aprobadas en el proyecto aparecen como horas facturables disponibles para los Registros de facturación. </p>
+      <p>Si utiliza Registros de facturación y selecciona esta opción, solo las horas aprobadas en el proyecto aparecen como horas facturables disponibles para los Registros de facturación. </p>
       <p>La aprobación de las horas en el proyecto es independiente de la aprobación de plantillas de horas. Para obtener más información sobre cómo requerir tiempo para aprobar un proyecto, vea <a href="../../../manage-work/projects/manage-projects/require-time-approval-for-projects.md" class="MCXref xref">Requerir tiempo de aprobación de un proyecto</a>.</p>
       </td> 
       </tr> 
@@ -464,7 +464,7 @@ Old:
       <li>En la lista solo se muestran los procesos de aprobación activos. </li> 
       <li> <p>Los procesos de aprobación de todo el sistema y específicos del grupo se muestran en la lista. Un proceso de aprobación asociado a un grupo que no sea el de la plantilla no se muestra en la lista.</p> <p><b>IMPORTANTE</b>
 
-   Si el grupo asociado a la plantilla cambia, el proceso de aprobación específico del grupo se convertirá en un proceso de aprobación de un solo uso. Para obtener más información sobre cómo los cambios en el grupo del proyecto o los cambios en el proceso de aprobación afectan a la configuración de la aprobación, consulte <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/how-changes-affect-group-approvals.md">Cómo afectan los cambios en el grupo y el proceso de aprobación a los procesos de aprobación asignados</a>. </p> </li>
+   Si el grupo asociado a la plantilla cambia, el proceso de aprobación específico del grupo se convertirá en un proceso de aprobación de un solo uso. Para obtener más información acerca de cómo afectan los cambios en el grupo del proyecto o los cambios en el proceso de aprobación a la configuración de aprobación, consulte <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/how-changes-affect-group-approvals.md">Cómo afectan los cambios en el grupo y el proceso de aprobación a los procesos de aprobación asignados</a>. </p> </li>
    <li> <p>Si ha añadido un proceso de aprobación de un solo uso, se mostrará como “Personalizado” en este campo. Para obtener más información, consulte <a href="../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md" class="MCXref xref">Asociar un proceso de aprobación nuevo o existente con el trabajo</a>. </p> 
       </li> 
       <li> <p>Cuando se editan plantillas de forma masiva, se dan los siguientes escenarios:</p> 
@@ -562,11 +562,11 @@ Al editar la configuración de problemas, puede evitar que los usuarios añadan 
        </tr> 
        <tr> 
          <td role="rowheader"><strong>Conceder también acceso al proyecto</strong> </td> 
-         <td> <p> Seleccione entre el acceso de <strong>Visualización</strong>, <strong>Contribución</strong> o <strong>Administración</strong> al proyecto. Al usuario asignado a una tarea se le concede automáticamente este acceso al proyecto. </p> </td> 
+         <td> <p> Seleccione entre el acceso de <strong>visualización</strong>, <strong>contribución</strong> o <strong>administración</strong> del proyecto. Al usuario asignado a una tarea se le concede automáticamente este acceso al proyecto. </p> </td> 
        </tr> 
        <tr> 
          <td role="rowheader"><strong>Cuando se asigna a una persona a un problema</strong> </td> 
-         <td> <p>Seleccione entre el acceso de <strong>Visualización</strong>, <strong>Contribución</strong> o <strong>Administración</strong> a un problema. Al usuario asignado a un problema se le concede automáticamente este acceso. </p> </td> 
+         <td> <p>Seleccione entre el acceso de <strong>visualización</strong>, <strong>contribución</strong> o <strong>administración</strong> de un problema. Al usuario asignado a un problema se le concede automáticamente este acceso. </p> </td> 
        </tr> 
        <tr> 
          <td role="rowheader"><strong>Conceder también acceso al proyecto</strong> </td> 
@@ -761,6 +761,8 @@ La adición de los siguientes elementos a una plantilla es idéntica a su adici�
 Puede añadir los siguientes elementos a las tareas de la plantilla:
 
 * Documentos
+
+  Para obtener más información, consulte [Editar tareas de plantilla](/help/quicksilver/manage-work/projects/create-and-manage-templates/edit-template-task.md).
 * Gastos
 
   Para obtener más información sobre cómo añadir gastos, consulte [Administrar gastos del proyecto](../../../manage-work/projects/project-finances/manage-project-expenses.md).

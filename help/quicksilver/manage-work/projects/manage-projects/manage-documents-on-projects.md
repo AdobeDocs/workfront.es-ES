@@ -6,9 +6,9 @@ description: Dependiendo de si el administrador de Workfront elige la opción pr
 author: Alina
 feature: Work Management
 exl-id: 5623157e-946e-4475-9df3-b1888a2a0934
-source-git-commit: 5c4ffeabf710374b14a2335b47342be4c393a7c8
+source-git-commit: ada25d0b7c359cfb258dfc4e68a628033e66562d
 workflow-type: tm+mt
-source-wordcount: '1422'
+source-wordcount: '1470'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ Esta preferencia permite almacenar automáticamente los documentos adjuntos a lo
 
 >[!IMPORTANT]
 >
->No todos los clientes tienen acceso tanto a Workfront como al almacenamiento de Adobe. Algunos clientes solo tienen acceso a Workfront, mientras que otros solo tienen acceso a Adobe Enterprise Storage de forma predeterminada. No se necesita ninguna configuración para los clientes que no tienen acceso al almacenamiento de Workfront.
+>Es posible que la instancia de Workfront no tenga acceso tanto a Workfront como al almacenamiento de Adobe. Algunas instancias de Workfront solo tienen acceso a Workfront, mientras que otras solo tienen acceso al almacenamiento de Adobe Enterprise de forma predeterminada. No se necesita ninguna configuración para los clientes con acceso a un solo tipo de almacenamiento.
 
 El administrador de Workfront puede realizar una de las siguientes acciones:
 
@@ -120,7 +120,7 @@ Los clientes pueden tener acceso a una de las siguientes funciones de almacenami
   >* Los programas heredan el tipo de almacenamiento del portafolio.
 
 
-Los documentos almacenados en objetos en el almacenamiento de Workfront se administran de forma diferente a los almacenes en el almacenamiento empresarial de Adobe.
+Los documentos almacenados en objetos en el almacenamiento de Workfront se administran de forma diferente a los almacenados en el almacenamiento empresarial de Adobe.
 
 Para obtener más información, consulte [Información general sobre el almacenamiento empresarial de Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
@@ -179,7 +179,7 @@ Tenga en cuenta lo siguiente al trabajar con plantillas:
 * Cuando se crea una plantilla de almacenamiento empresarial de Adobe, Workfront crea una carpeta en la sección Documentos de la plantilla en la que se guardan los documentos. El nombre de la carpeta es el mismo nombre que el programa. No puede eliminar la carpeta ni cambiarle el nombre manualmente. Si cambia el nombre de la plantilla, se cambiará el nombre de la carpeta para que coincida con el nuevo nombre de la plantilla.
 * Puede utilizar una plantilla de almacenamiento de Workfront para crear proyectos de almacenamiento de Workfront; puede utilizar una plantilla de almacenamiento de Adobe para crear un proyecto de almacenamiento de Adobe.
 * Puede adjuntar una plantilla de almacenamiento de Workfront a un proyecto de almacenamiento de Adobe, lo cual no cambia la ubicación de almacenamiento del proyecto.
-* Puede adjuntar una plantilla de almacenamiento de Adobe a un proyecto de almacenamiento de Workfront, lo cual no cambia la ubicación de almacenamiento del proyecto.
+* Puede adjuntar una plantilla de almacenamiento de Adobe a un proyecto de almacenamiento de Workfront, lo cual no cambia la ubicación de almacenamiento del proyecto. Los documentos de la carpeta de almacenamiento de Adobe para la plantilla se agregan directamente al proyecto, sin la carpeta, mientras que los documentos de las carpetas de tareas de la plantilla se agregan a las carpetas adjuntas a las tareas del proyecto en la sección Documentos de las tareas.
 
 ### Administración de documentos para tareas de plantilla
 

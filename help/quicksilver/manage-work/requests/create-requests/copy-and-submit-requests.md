@@ -8,17 +8,17 @@ topic: Collaboration
 exl-id: 3d7581d0-e99c-4204-b1e5-04fde72251bb
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 442ddab8c7b92d52e0de699bb7acf99a5ca0f215
+source-git-commit: ada25d0b7c359cfb258dfc4e68a628033e66562d
 workflow-type: tm+mt
-source-wordcount: '1615'
-ht-degree: 78%
+source-wordcount: '1734'
+ht-degree: 69%
 
 ---
 
 # Copiar y enviar solicitudes
 
 
-Cuando envía solicitudes similares con frecuencia, puede copiar una solicitud enviada existente. En este caso, puede copiar una solicitud existente, realizar cambios mínimos en ella y volver a enviarla como una solicitud nueva.
+Cuando envía solicitudes similares con frecuencia, puede copiar una solicitud enviada existente. En este caso, puede copiar una solicitud existente, realizar cambios mínimos en ella y volver a enviarla como una solicitud nueva. La solicitud se envía a la misma cola de solicitudes que la solicitud original.
 
 ## Requisitos de acceso
 
@@ -232,16 +232,16 @@ Si su empresa ha adquirido un paquete de Workfront Planning, no puede copiar y e
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader"><span><strong>Asignaciones</strong></span> </td> 
-      <td> <p>Indique el nombre de un usuario, una función o un equipo activo al que se debe asignar la solicitud. </p> <p> Puede especificar más de un usuario, una función o un equipo. </p> <p>Según la configuración de la cola de solicitudes, es posible que solo pueda asignar la solicitud a uno o dos tipos de recursos, en lugar de a los tres. </p> <p>Se recomienda utilizar reglas de enrutamiento para las colas de solicitudes, de modo que se puedan enrutar automáticamente a los recursos adecuados. </p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader" colspan="2"> <p><p style="font-weight: normal;">Según la configuración de la cola de solicitudes, es posible que solo pueda asignar un tipo de recurso a la solicitud (por ejemplo, usuarios). Si una regla de enrutamiento también está asociada a la cola de solicitudes y enruta automáticamente la solicitud a un tipo diferente de recurso (por ejemplo, un equipo), la solicitud se asigna tanto a la entidad que especifique manualmente al enviar la solicitud (usuarios) como al recurso especificado en la regla de enrutamiento (el equipo).</p> <p style="font-weight: normal;">Para obtener más información, consulte los siguientes artículos:</p> 
-        <ul> 
-         <li> <p><a href="../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md" class="MCXref xref">Crear una cola de solicitudes</a> </p> </li> 
-         <li> <p><a href="../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md" class="MCXref xref">Crear reglas de enrutamiento</a> <br> </p> </li> 
-        </ul> </p> </td> 
-     </tr> 
-     <tr> 
+      <td> <p>Indique el nombre de un usuario, una función o un equipo activo al que se debe asignar la solicitud. </p> <p> Puede especificar más de un usuario, una función o un equipo. </p> <p>Según la configuración de la cola de solicitudes, es posible que solo pueda asignar la solicitud a uno o dos tipos de recursos, en lugar de a los tres. </p> <p>Se recomienda utilizar reglas de enrutamiento para las colas de solicitudes, de modo que se puedan enrutar automáticamente a los recursos adecuados. </p>
+      <p><p style="font-weight: normal;">Según la configuración de la cola de solicitudes, es posible que solo pueda asignar un tipo de recurso a la solicitud (por ejemplo, usuarios). Si una regla de enrutamiento también está asociada a la cola de solicitudes y enruta automáticamente la solicitud a un tipo diferente de recurso (por ejemplo, un equipo), la solicitud se asigna tanto a la entidad que especifique manualmente al enviar la solicitud (usuarios) como al recurso especificado en la regla de enrutamiento (el equipo).</p> <p style="font-weight: normal;">Para obtener más información, consulte los siguientes artículos:</p> 
+      <ul> 
+      <li> <p><a href="../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md" class="MCXref xref">Crear una cola de solicitudes</a> </p> </li> 
+      <li> <p><a href="../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md" class="MCXref xref">Crear reglas de enrutamiento</a> <br> </p> </li> 
+      </ul> </p>
+       </td> 
+     </tr>
+
+   <tr> 
       <td role="rowheader"><strong>Horas planificadas</strong> </td> 
       <td> <p>Calcule cuántas horas tardaría esta solicitud en completarse.</p> </td> 
      </tr> 
@@ -261,8 +261,16 @@ Si su empresa ha adquirido un paquete de Workfront Planning, no puede copiar y e
       <td role="rowheader"><strong>Documentos</strong> </td> 
       <td> <p>Añada documentos a su solicitud. Los documentos adjuntos a la solicitud original no se transfieren a la solicitud copiada.</p> <p><b>Sugerencia</b>
 
-   Según la configuración de la cola de solicitudes, la sección Documentos podría mostrarse antes o después de los campos personalizados.</p> <p> </p> </td>
-   </tr> 
+   Según la configuración de la cola de solicitudes, la sección Documentos podría mostrarse antes o después de los campos personalizados.</p> <p> </p>
+   <p>Según el tipo de almacenamiento de documentos que haya seleccionado el administrador de Workfront para su entorno, los documentos adjuntos a las solicitudes se añaden a lo siguiente:</p>
+      <ul><li>Para las solicitudes que utilizan el almacenamiento de Workfront, los documentos se agregan a la sección Documentos de la solicitud recién creada.</li>
+      <li>En el caso de las solicitudes que utilizan el almacenamiento empresarial de Adobe, los documentos se agregan a una carpeta recién creada con el mismo nombre que la solicitud, añadida automáticamente a la solicitud durante el proceso de envío. </li></ul>
+      <p>Es posible que la instancia de Workfront no tenga ambos tipos de almacenamiento de documentos.</p>
+      <p>El tipo de almacenamiento de problema y solicitud se hereda del proyecto. </p>
+      <p>Para obtener más información, vea <a href="/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md">Información general sobre la administración de documentos de proyectos y objetos relacionados</a>.</p>
+
+   </td> 
+     </tr> 
     </tbody> 
    </table>
 

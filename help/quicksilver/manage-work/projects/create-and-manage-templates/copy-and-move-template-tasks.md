@@ -8,9 +8,9 @@ feature: Work Management
 exl-id: a2e09e63-5c88-460c-9996-3a39fbb82150
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 5c4ffeabf710374b14a2335b47342be4c393a7c8
+source-git-commit: ada25d0b7c359cfb258dfc4e68a628033e66562d
 workflow-type: tm+mt
-source-wordcount: '2234'
+source-wordcount: '2239'
 ht-degree: 88%
 
 ---
@@ -108,7 +108,7 @@ Tenga en cuenta lo siguiente a la hora de mover tareas de plantilla:
 
    * Hitos.
 
-* No puede copiar ni mover una tarea de plantilla de una plantilla de almacenamiento de Workfront a una plantilla de almacenamiento de Adobe. Lo contrario también es cierto. No todos los clientes tienen ambos tipos de almacenamiento.
+* No puede copiar ni mover una tarea de plantilla de una plantilla de almacenamiento de Workfront a una plantilla de almacenamiento de Adobe. Lo contrario también es cierto. Es posible que la instancia de Workfront no tenga ambos tipos de almacenamiento de documentos.
 
   Para obtener más información, vea [Información general sobre la administración de documentos de proyectos y objetos relacionados](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
 
@@ -140,7 +140,7 @@ Se abre el cuadro Copiar tarea de plantilla.
 
    >[!TIP]
    >
-   >Debe elegir una plantilla con un tipo de almacenamiento de documento similar. No puede copiar tareas de plantilla en una plantilla con un tipo de almacenamiento diferente al de la plantilla original. No todos los clientes tienen acceso a varios tipos de almacenamiento de documentos.
+   >Debe elegir una plantilla con un tipo de almacenamiento de documento similar. No puede copiar tareas de plantilla en una plantilla con un tipo de almacenamiento diferente al de la plantilla original. Es posible que la instancia de Workfront no tenga ambos tipos de almacenamiento de documentos.
    >
    >Para obtener más información, vea [Información general sobre la administración de documentos de proyectos y objetos relacionados](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
 
@@ -267,7 +267,7 @@ Se abre el cuadro Mover tarea de plantilla.
    >
    >* También puede empezar a escribir el número de referencia o introducir el ID de la plantilla. Esto puede ayudarle a distinguir entre plantillas con nombres idénticos.
    >
-   >* Debe elegir una plantilla con un tipo de almacenamiento de documento similar. No puede copiar tareas de plantilla en una plantilla con un tipo de almacenamiento diferente al de la plantilla original. No todos los clientes tienen acceso a varios tipos de almacenamiento de documentos.
+   >* Debe elegir una plantilla con un tipo de almacenamiento de documento similar. No puede copiar tareas de plantilla en una plantilla con un tipo de almacenamiento diferente al de la plantilla original. Es posible que la instancia de Workfront no tenga ambos tipos de almacenamiento de documentos.
    >
    >Para obtener más información, vea [Información general sobre la administración de documentos de proyectos y objetos relacionados](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
 

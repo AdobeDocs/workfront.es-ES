@@ -2,15 +2,15 @@
 title: Utilice Rellenar formulario con tecnología de IA para rellenar una solicitud mediante mensajes o documentos
 content-type: reference
 description: Puede utilizar IA para rellenar automáticamente los campos de solicitud introduciendo una solicitud o suministrando un documento.
-author: Alina
+author: Alina, Becky
 feature: Get Started with Workfront
 exl-id: 4a22f9ea-c9ee-4947-8683-9989c54903b1
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: d8ccdeac9a658ca7a2862781e98c2c3c6fa0e8a0
+source-git-commit: ada25d0b7c359cfb258dfc4e68a628033e66562d
 workflow-type: tm+mt
-source-wordcount: '1473'
-ht-degree: 13%
+source-wordcount: '1462'
+ht-degree: 11%
 
 ---
 
@@ -93,7 +93,7 @@ Tenga en cuenta lo siguiente al utilizar Rellenar formulario con tecnología de 
 >
 >El relleno de formulario con tecnología IA está habilitado en el nivel de organización y no se puede habilitar ni deshabilitar para usuarios o niveles de acceso específicos.
 
-1. Haga clic en el icono **[!UICONTROL Main Menu]** ![Menú principal](/help/_includes/assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront o, si está disponible, haga clic en el icono **[!UICONTROL Main Menu]** ![Menú principal](/help/_includes/assets/main-menu-icon-left-nav.png) en la esquina superior izquierda y, a continuación, haga clic en **[!UICONTROL Setup]** ![Icono de Configuración](/help/_includes/assets/gear-icon-setup.png).
+1. Haga clic en el icono **[!UICONTROL Menú principal]** ![Menú principal](/help/_includes/assets/main-menu-icon-left-nav.png) en la esquina superior izquierda y, a continuación, haga clic en **[!UICONTROL Configuración]** ![Icono de configuración](/help/_includes/assets/gear-icon-setup.png).
 1. Haga clic en **Sistema** y, a continuación, en Sistema, haga clic en **Preferencias**.
 1. En la sección de preferencias de IA, asegúrese de que la opción **Habilitar IA** esté activada.
 1. Alternar en **Relleno de formulario AI**.
@@ -192,7 +192,7 @@ Estamos planeando una campaña similar a los anuncios sociales de las fiestas qu
 
 ## Obtener sugerencias basadas en un documento que cargue
 
-Form Fill powered by AI puede rellenar una solicitud utilizando peticiones de datos o documentos que pueden sugerir valores de campo basados en un documento que cargue.
+El relleno de formulario con tecnología IA puede rellenar una solicitud mediante indicadores o puede sugerir valores de campo basados en un documento que cargue.
 
 Este tipo de sugerencia también comprueba las solicitudes anteriores para contextos similares. Por ejemplo, si el mensaje indica que la solicitud es para un cliente determinado, Workfront puede localizar e introducir la dirección de facturación de ese cliente automáticamente, en función de solicitudes anteriores.
 
@@ -309,7 +309,7 @@ Puede cargar un documento para aplicarlo a todo el formulario o a una sola secci
    O
 
    Arrastre el documento desde el administrador de archivos hasta el cuadro **Cargar archivos para rellenar automáticamente el formulario de solicitud**.
-1. Haga clic en **Rellenar el formulario** de **Rellenar la sección**.
+1. Haga clic en **Rellenar el formulario** o **Rellenar la sección**.
 
    Workfront genera sugerencias para el formulario.
 1. Para cada sugerencia de campo, seleccione **Aceptar** o **Rechazar** para ese campo.

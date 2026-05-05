@@ -8,10 +8,10 @@ feature: Work Management
 exl-id: d4e28fa6-25f9-4765-b051-8960c8873d5a
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 5c4ffeabf710374b14a2335b47342be4c393a7c8
+source-git-commit: ada25d0b7c359cfb258dfc4e68a628033e66562d
 workflow-type: tm+mt
-source-wordcount: '1614'
-ht-degree: 67%
+source-wordcount: '1629'
+ht-degree: 66%
 
 ---
 
@@ -97,7 +97,7 @@ Puede crear un proyecto en Workfront mediante uno de los métodos siguientes:
 * Cree un proyecto desde cero sin usar una plantilla. Este artículo describe cómo crear un proyecto desde cero.
 
 * Copie un proyecto existente.\
-  Para obtener más información sobre cómo copiar un proyecto, consulte [Copiar un proyecto](../../../manage-work/projects/manage-projects/copy-project.md).
+  Para obtener más información sobre cómo copiar un proyecto, vea [Copiar un proyecto](../../../manage-work/projects/manage-projects/copy-project.md).
 
 * Utlice una plantilla.\
   Para obtener más información sobre cómo usar una plantilla para crear un nuevo proyecto, consulte [Crear un proyecto a partir de una plantilla](../../../manage-work/projects/create-projects/create-project-from-template.md).
@@ -167,14 +167,19 @@ Tenga en cuenta lo siguiente:
 
      Si está utilizando una plantilla al crear el proyecto mediante la conversión del problema, consulte el segundo escenario anterior para comprender qué grupo y qué estado aplica Workfront al nuevo proyecto.
 
-* El lugar en el que se almacenan los documentos en un proyecto y sus objetos secundarios (tareas y problemas) depende de lo que el administrador de Workfront elija como valor predeterminado para Preferencias de almacenamiento en la sección Preferencias del sistema de Configuración. Según la ubicación en la que almacene documentos en la instancia de Workfront, puede crear los siguientes tipos de proyectos:
+* El lugar en el que se almacenan los documentos para un proyecto y para sus objetos secundarios (tareas y problemas) depende de lo que el administrador de Workfront elija como valor predeterminado para Preferencias de almacenamiento en la sección Preferencias del sistema de Configuración. Según la ubicación en la que almacene documentos en la instancia de Workfront, puede crear los siguientes tipos de proyectos:
 
    * Proyectos de almacenamiento de Workfront heredados
    * Proyectos de almacenamiento empresarial de Adobe.
 
   Para obtener más información, consulte [Habilitar el almacenamiento empresarial de Adobe para su organización](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md).
 
-* Cuando crea un proyecto de almacenamiento empresarial, se crea una carpeta de documentos con el mismo nombre del proyecto para en la sección **Documentos** del proyecto. Después de agregar tareas al proyecto, las carpetas con el nombre de la tarea se agregan a la sección **Documentos** de cada tarea.
+  >[!TIP]
+  >
+  > Es posible que la instancia de Workfront no tenga ambos tipos de almacenamiento de documentos.
+
+
+* Cuando crea un proyecto de almacenamiento empresarial, se crea una carpeta de documentos con el mismo nombre del proyecto en la sección **Documentos** del proyecto. Después de agregar tareas al proyecto, las carpetas con el nombre de la tarea se agregan a la sección **Documentos** de cada tarea.
 
 Para obtener más información, vea [Información general sobre la administración de documentos de proyectos y objetos relacionados](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
 
@@ -204,15 +209,16 @@ Para obtener más información, vea [Información general sobre la administraci�
 
      >[!NOTE]
      >
-     >Al crear un proyecto de almacenamiento empresarial a partir de un portafolio o programa de almacenamiento de Workfront, el portafolio o programa también se convierte en objetos de almacenamiento empresarial. Todos los demás proyectos de almacenamiento de Workfront del mismo portafolio o programa permanecen inalterados.
+     >* Al crear un proyecto de almacenamiento empresarial a partir de un portafolio o programa de almacenamiento de Workfront, el portafolio o programa también se convierte en objetos de almacenamiento empresarial. Todos los demás proyectos de almacenamiento de Workfront del mismo portafolio o programa permanecen inalterados.
+     >* Es posible que la instancia de Workfront no tenga ambos tipos de almacenamiento de documentos.
 
      Se crea un proyecto y su nombre predeterminado sigue los siguientes patrones, según el almacenamiento que utilice Workfront para los documentos:
 
-      * **Proyecto sin título** para un proyecto de almacenamiento de Workfront.
+      * `Untitled Project` para un proyecto de almacenamiento de Workfront.
 
         Un proyecto de almacenamiento de Workfront muestra un **almacenamiento de Workfront heredado**![icono de proyecto de almacenamiento heredado](assets/legacy-storage-project-icon.png) junto a su nombre.
 
-      * **Proyecto sin título - &lt; Día del mes, año, hora.minuto.segundo >** para un proyecto de almacenamiento de Adobe
+      * `Untitled Project - < Month day, year hour.minute.second >` para un proyecto de almacenamiento de Adobe
 
         >[!IMPORTANT]
         >
