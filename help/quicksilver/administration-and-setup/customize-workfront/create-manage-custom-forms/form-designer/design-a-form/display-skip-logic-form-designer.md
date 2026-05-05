@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 5f5dbeb5-b974-489c-8f4d-ebaa00f5e5ba
-source-git-commit: e5fb42aa8d9eae17e1bddbd9832bdf064bc4605e
+source-git-commit: f177f0b678c8ac31241cb103d13ecd0f11cabd1e
 workflow-type: tm+mt
 source-wordcount: '3571'
 ht-degree: 28%
@@ -151,9 +151,9 @@ No se aplica ninguna lógica a la sección predeterminada del formulario, por lo
 
 Con la siguiente condición, la sección Recursos necesarios solo se muestra cuando un usuario con la función de administrador de recursos ve el formulario.
 
-```IF($$USER.{roleID}="123abc", true)```
+`IF($$USER.{roleID}="123abc", true)`
 
-Tenga en cuenta que ```123abc``` representa el identificador de rol del Administrador de recursos.
+Tenga en cuenta que `123abc` representa el identificador de rol del Administrador de recursos.
 
 ![Se muestra la sección del formulario para el rol](assets/advanced-display-on-form1.png)
 
@@ -161,7 +161,7 @@ La misma condición con un ID de rol diferente se aplica a la sección de KPI fi
 
 Con la siguiente condición, el campo KPI Vendido solo se vuelve visible cuando se completa el proyecto. Esta lógica se aplica directamente al campo en lugar de a una sección del formulario. No es necesario especificar qué función puede ver el campo, porque eso ya está definido en la sección en la que se encuentra el campo.
 
-```IF({status}="CPL", true)```
+`IF({status}="CPL", true)`
 
 ![El campo está visible en el proyecto completo](assets/advanced-display-on-form2.png)
 
