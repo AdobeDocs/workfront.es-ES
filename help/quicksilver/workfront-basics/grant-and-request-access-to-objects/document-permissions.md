@@ -9,10 +9,10 @@ feature: Get Started with Workfront
 exl-id: c83a3184-4af0-4897-985b-29f7ee3a0b73
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 3bc953ebb6f16d3d4a71fe9764551a8a4cf1087a
+source-git-commit: b3c8559ddac934cc41461f88503b2fa71abaf452
 workflow-type: tm+mt
-source-wordcount: '1443'
-ht-degree: 21%
+source-wordcount: '1416'
+ht-degree: 20%
 
 ---
 
@@ -149,7 +149,7 @@ El usuario que carga un documento en Workfront tiene permisos de administración
 
 ### Permisos de documento en la experiencia de documento heredada
 
-Los permisos son específicos de un elemento en Workfront y definen qué acciones se pueden realizar sobre ese elemento. Para obtener información acerca de los permisos de objetos, vea [Información general sobre los permisos de uso compartido en objetos](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
+Los permisos son específicos de un elemento de Workfront y definen qué acciones se pueden realizar sobre ese elemento. Para obtener información acerca de los permisos de objetos, vea [Información general sobre los permisos de uso compartido en objetos](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
 
 +++ Amplíe para ver una lista detallada de los permisos del documento
 
@@ -311,10 +311,10 @@ La siguiente tabla muestra qué permisos puede conceder a los usuarios cuando le
 
 +++
 
-## Compartir documentos en el área de nuevos documentos
+## Compartir documentos en la nueva área Documentos
 
 
-Workfront está realizando la transición a la solución de almacenamiento empresarial de Adobe para proporcionar una mayor conectividad con los productos de Adobe Creative Cloud. Si su organización utiliza el almacenamiento empresarial, verá el área de nuevos documentos al acceder a ellos en Workfront. Para obtener más información acerca del almacenamiento empresarial, consulte [Descripción general del almacenamiento empresarial de Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
+Workfront está realizando la transición a la solución de almacenamiento empresarial de Adobe para proporcionar una mayor conectividad con los productos de Adobe Creative Cloud. Si su organización utiliza el almacenamiento empresarial, verá la nueva área Documentos al acceder a los documentos en Workfront. Para obtener más información acerca del almacenamiento empresarial, consulte [Descripción general del almacenamiento empresarial de Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 Si la instancia de Workfront utiliza el almacenamiento empresarial de Adobe, no puede compartir documentos individuales directamente. En su lugar, puede administrar el acceso en el proyecto, tarea o problema. Para obtener más información, consulte [Funcionamiento de los permisos de documentos](/help/quicksilver/review-and-approve-work/esm-access-permissions.md#how-document-permissions-work).
 

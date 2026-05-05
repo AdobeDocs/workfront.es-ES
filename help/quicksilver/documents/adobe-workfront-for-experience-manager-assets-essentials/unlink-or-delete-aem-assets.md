@@ -6,7 +6,7 @@ description: Puede desvincular o eliminar elementos vinculados a Workfront desde
 author: Becky
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: f082be12-2adc-4234-a01a-7543c032a35a
-source-git-commit: 90eb99fa46e706a53427f995d484e2fb42e9c293
+source-git-commit: b3c8559ddac934cc41461f88503b2fa71abaf452
 workflow-type: tm+mt
 source-wordcount: '256'
 ht-degree: 84%
@@ -19,7 +19,7 @@ Puede desvincular o eliminar elementos vinculados a Workfront desde Adobe Experi
 
 >[!NOTE]
 >
->Esta funcionalidad no está disponible en el área de nuevos documentos.
+>Esta funcionalidad no está disponible en la nueva área de Documentos.
 
 ## Eliminar un documento o una carpeta vinculados en Workfront
 
@@ -34,8 +34,8 @@ Al eliminar un documento o una carpeta vinculados en Workfront, se desvinculan d
 
 Cuando se elimina un documento o una carpeta vinculados de la aplicación externa, el documento o la carpeta permanece en el sistema de Workfront hasta que también se elimina de Workfront.
 
-* Para eliminar un recurso de Adobe Experience Manager as a Cloud Service, consulte [Eliminar recursos](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets#delete-assets) en la documentación de Adobe Experience Manager as a Cloud Service.
-* Para eliminar un recurso de Adobe Experience Manager Assets Essentials, consulte [Eliminar recursos o carpetas](https://experienceleague.adobe.com/es/docs/experience-manager-assets-essentials/help/add-delete#delete-assets) en la documentación de Adobe Experience Manager Assets Essentials.
+* Para eliminar un recurso de Adobe Experience Manager as a Cloud Service, consulte [Eliminar recursos](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets#delete-assets) en la documentación de Adobe Experience Manager as a Cloud Service.
+* Para eliminar un recurso de Adobe Experience Manager Assets Essentials, consulte [Eliminar recursos o carpetas](https://experienceleague.adobe.com/en/docs/experience-manager-assets-essentials/help/add-delete#delete-assets) en la documentación de Adobe Experience Manager Assets Essentials.
 
 
 

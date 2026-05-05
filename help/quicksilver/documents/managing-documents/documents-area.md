@@ -9,10 +9,10 @@ feature: Digital Content and Documents
 exl-id: 64612345-d1ce-41db-939b-3af30d1c6a51
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: ed7944fe4934ac5ab52b1eed3e144309de9781c4
+source-git-commit: b3c8559ddac934cc41461f88503b2fa71abaf452
 workflow-type: tm+mt
-source-wordcount: '825'
-ht-degree: 40%
+source-wordcount: '819'
+ht-degree: 35%
 
 ---
 
@@ -20,13 +20,13 @@ ht-degree: 40%
 
 En el área Documentos puede organizar, administrar y ver los metadatos de los documentos cargados en Adobe Workfront. También puede ver la decisión de la revisión.
 
-Actualmente, Workfront tiene dos versiones del área Documentos: el área de documentos heredados y el área de documentos nuevos. La versión que utilice su organización depende de si su organización utiliza almacenamiento de Workfront heredado o almacenamiento empresarial. Para obtener más información acerca de estos tipos de almacenamiento, vea [Información general sobre el almacenamiento empresarial de Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
+Actualmente, Workfront tiene dos versiones del área Documentos: el área de documentos heredados y el área de documentos nueva. La versión que utilice su organización depende de si su organización utiliza almacenamiento de Workfront heredado o almacenamiento empresarial. Para obtener más información acerca de estos tipos de almacenamiento, vea [Información general sobre el almacenamiento empresarial de Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 ## Área de documentos heredados
 
 Existen dos tipos de áreas de Documentos. Las funciones y la funcionalidad son las mismas para ambas:
 
-* **Área de documentos de un programa, portafolio, proyecto, tarea o problema:** muestra todos los documentos a los que tiene acceso para un proyecto, tarea o problema en particular. Para acceder a esta área, haga clic en **Documentos** ![Icono de documentos](assets/document-icon-12x14.png) en el panel izquierdo mientras ve un proyecto, tarea o problema.
+* **Área de documentos de un programa, portafolio, plantilla, proyecto, tarea o problema:** Muestra todos los documentos a los que tiene acceso para un proyecto, tarea o problema en particular. Para acceder a esta área, haga clic en **Documentos** ![Icono de documentos](assets/document-icon-12x14.png) en el panel izquierdo mientras ve un proyecto, tarea o problema.
 
 * **Área de documentos globales:** muestra todos los documentos a los que tiene acceso en Workfront. Para obtener acceso a esta área, haga clic en **Documentos** ![Icono de documentos](assets/document-icon.png) en el menú principal ![Icono del menú principal](assets/main-menu-icon.png).
 
@@ -60,7 +60,7 @@ Una vez que se toma una decisión de la revisión, esta aparece en la lista de d
 
 ### Carpetas
 
-En un proyecto, tarea o problema en el que se hayan cargado documentos, puede configurar carpetas para organizar los documentos. Para obtener más información, consulte [Crear carpetas de documentos](../../documents/organizing-documents/create-documents-folder.md).
+Puede configurar carpetas para organizar los documentos. Para obtener más información, consulte [Crear carpetas de documentos](../../documents/organizing-documents/create-documents-folder.md).
 
 En el área de Documentos global, puede configurar dos tipos de carpetas para organizar los documentos a los que tiene acceso:
 
@@ -72,9 +72,9 @@ En el área de Documentos global, puede configurar dos tipos de carpetas para or
 
 La página Detalles del documento ofrece una versión más completa de los Detalles del documento en el Resumen de la derecha.
 
-## Nueva área de documento
+## Área Nuevos documentos
 
-El área de nuevos documentos solo está disponible para si su organización está en el almacenamiento empresarial. Para obtener más información acerca del almacenamiento empresarial, consulte [Descripción general del almacenamiento empresarial de Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
+La nueva área Documentos solo está disponible para si su organización se encuentra en el almacenamiento empresarial. Para obtener más información acerca del almacenamiento empresarial, consulte [Descripción general del almacenamiento empresarial de Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 ### Uso del panel de resumen
 
@@ -82,19 +82,19 @@ Al seleccionar un documento en el área de documentos, puede utilizar el Panel d
 
 #### Revisar y aprobar con Frame.io
 
-Puede revisar y aprobar documentos en el área de nuevos documentos con el visor Frame.io.
+Puede revisar y aprobar documentos en la nueva área Documentos con el visor Frame.io.
 
 Para obtener más información, consulte [Introducción a la revisión y aprobación unificadas](/help/quicksilver/review-and-approve-work/get-started-with-unified-approvals.md).
 
 #### Administrar versiones
 
-Puede cargar nuevas versiones de un documento en el área de nuevos documentos. Al cargar una nueva versión, se conserva la versión anterior y se puede acceder a ella desde el Panel de resumen. Las versiones se nombran automáticamente con la fecha y la hora de la carga, pero se puede cambiar el nombre según sea necesario.
+Puede cargar nuevas versiones de un documento en el área de Documentos nuevos. Al cargar una nueva versión, se conserva la versión anterior y se puede acceder a ella desde el Panel de resumen. Las versiones se nombran automáticamente con la fecha y la hora de la carga, pero se puede cambiar el nombre según sea necesario.
 
 También puede iniciar un nuevo flujo de trabajo de aprobación para una versión específica de un documento.
 
 #### Ver historial de documentos
 
-Puede ver el historial de un documento en el área de documentos nuevos. El historial incluye los siguientes tipos de información:
+Puede ver el historial de un documento en la nueva área Documentos. El historial incluye los siguientes tipos de información:
 
 * Cuando se cargó el documento
 * Cuando se cargaron las nuevas versiones
@@ -103,10 +103,10 @@ Puede ver el historial de un documento en el área de documentos nuevos. El hist
 
 ### Carpetas de nivel de sistema para permisos de documento
 
-Workfront crea automáticamente una carpeta de nivel de sistema cuando se carga el primer documento en una tarea o un problema. Estas carpetas heredan los permisos de la tarea o del problema y son visibles en el área de documentos de nivel de proyecto. Todos los documentos cargados en esa tarea o problema se almacenan en esa carpeta y heredan los permisos de ella. Esta es la forma principal en que se administran los permisos para los documentos en el área de nuevos documentos. Para obtener más información, consulte [Permisos de objeto e información general de nivel de acceso para el modelo de almacenamiento empresarial de Adobe](/help/quicksilver/review-and-approve-work/esm-access-permissions.md#how-document-permissions-work).
+Workfront crea automáticamente una carpeta de nivel de sistema cuando se carga el primer documento en una tarea o un problema. Estas carpetas heredan los permisos de la tarea o del problema y son visibles en el área de documentos de nivel de proyecto. Todos los documentos cargados en esa tarea o problema se almacenan en esa carpeta y heredan los permisos de ella. Esta es la forma principal en que se administran los permisos para los documentos en el área de Documentos nuevos. Para obtener más información, consulte [Permisos de objeto e información general de nivel de acceso para el modelo de almacenamiento empresarial de Adobe](/help/quicksilver/review-and-approve-work/esm-access-permissions.md#how-document-permissions-work).
 
 ## Consideraciones
 
-* La nueva área de documentos está optimizada para pantallas de 1024 píxeles de ancho o más grandes. Si tiene una pantalla más pequeña, es posible que tenga problemas para acceder al Panel de resumen.
+* La nueva área Documentos está optimizada para pantallas de 1024 píxeles de ancho o superior. Si tiene una pantalla más pequeña, es posible que tenga problemas para acceder al Panel de resumen.
 
-* El área de documentos globales no está disponible en la experiencia de área de nuevos documentos. Solo puede acceder a documentos de programas, portafolios, proyectos, tareas o problemas.
+* El área de Documentos global no está disponible en la nueva experiencia del área de Documentos. Solo puede acceder a documentos de programas, portafolios, proyectos, tareas o problemas.

@@ -8,7 +8,7 @@ feature: Digital Content and Documents
 exl-id: 1a4c4849-bca1-4ae3-9111-d0ed4dacca14
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 90eb99fa46e706a53427f995d484e2fb42e9c293
+source-git-commit: b3c8559ddac934cc41461f88503b2fa71abaf452
 workflow-type: tm+mt
 source-wordcount: '353'
 ht-degree: 50%
@@ -55,7 +55,7 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
 
 ## Eliminar un documento en el área de documentos heredados
 
-If your organization is on legacy Workfront storage, you will see the legacy documents area when you access documents in Workfront. Para obtener más información sobre el almacenamiento heredado de Workfront, consulte [Diferencias entre el almacenamiento heredado de Workfront y el almacenamiento empresarial de Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
+Si su organización está en un almacenamiento de Workfront heredado, verá el área de documentos heredados al acceder a documentos en Workfront. Para obtener más información sobre el almacenamiento heredado de Workfront, consulte [Diferencias entre el almacenamiento heredado de Workfront y el almacenamiento empresarial de Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 Para eliminar un documento:
 
@@ -71,9 +71,9 @@ Para eliminar un documento:
    ![eliminar documentos](assets/delete-documents-legacy.png)
 
 
-## Eliminar un documento en el área de nuevos documentos
+## Eliminar un documento en la nueva área Documentos
 
-Si su organización utiliza el almacenamiento empresarial, verá el área de nuevos documentos al acceder a ellos en Workfront. Para obtener más información acerca del almacenamiento empresarial, consulte [Descripción general del almacenamiento empresarial de Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
+Si su organización utiliza el almacenamiento empresarial, verá la nueva área Documentos al acceder a los documentos en Workfront. Para obtener más información acerca del almacenamiento empresarial, consulte [Descripción general del almacenamiento empresarial de Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 Para eliminar un documento:
 

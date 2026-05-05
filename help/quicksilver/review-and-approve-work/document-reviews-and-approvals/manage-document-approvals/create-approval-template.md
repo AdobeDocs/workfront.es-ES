@@ -8,17 +8,16 @@ feature: Work Management, Digital Content and Documents
 exl-id: c18d6c6d-1a09-47c5-af4e-027f7cc48cd7
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 0c4904a380dd62b9ea01dd1030ee02d82a869541
+source-git-commit: 02d2b8fce60b469b8ea16c4302035371bed04175
 workflow-type: tm+mt
-source-wordcount: '356'
-ht-degree: 37%
+source-wordcount: '350'
+ht-degree: 32%
 
 ---
 
 # Creación de una plantilla de flujo de trabajo de aprobación para documentos
 
-En el área Configuración de Workfront, los usuarios con una licencia Estándar pueden crear plantillas de aprobación reutilizables. Una vez creadas, las plantillas de aprobación se pueden aplicar a los recursos del área Documentos de un proyecto, tarea o problema.
-
+En el área Configuración de Workfront, los usuarios con una licencia Estándar pueden crear plantillas de aprobación reutilizables. Una vez creadas, las plantillas de aprobación se pueden aplicar a los recursos del área Documentos de un objeto.
 >[!IMPORTANT]
 >
 >El contenido de este artículo hace referencia a la funcionalidad actualizada de aprobación de documentos que solo está disponible para cuentas específicas. Para obtener información sobre los procesos de aprobación estándar, consulte los artículos enumerados en [Aprobaciones de trabajo](/help/quicksilver/review-and-approve-work/manage-approvals/manage-approvals.md).
@@ -92,7 +91,7 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
 
 1. Haga clic en **Guardar**.
 
-Una vez creada la plantilla, se puede aplicar a documentos del área Documentos de un proyecto, tarea o problema para iniciar el proceso formal de revisión y aprobación en Workfront.
+Una vez creada la plantilla, se puede aplicar a documentos del área Documentos de un objeto para iniciar el proceso formal de revisión y aprobación en Workfront.
 
 
 

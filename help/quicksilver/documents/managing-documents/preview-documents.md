@@ -8,7 +8,7 @@ feature: Digital Content and Documents
 exl-id: 1e12003d-4ea6-4449-9536-05feca793c44
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 90eb99fa46e706a53427f995d484e2fb42e9c293
+source-git-commit: b3c8559ddac934cc41461f88503b2fa71abaf452
 workflow-type: tm+mt
 source-wordcount: '378'
 ht-degree: 38%
@@ -75,9 +75,9 @@ Vista previa de un documento:
    * .plain
    * .pdf
 
-## Vista previa de un documento en el área de nuevos documentos
+## Vista previa de un documento en la nueva área Documentos
 
-Si su organización utiliza el almacenamiento empresarial, verá el área de nuevos documentos al acceder a ellos en Workfront. Para obtener más información acerca del almacenamiento empresarial, consulte [Descripción general del almacenamiento empresarial de Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
+Si su organización utiliza el almacenamiento empresarial, verá la nueva área Documentos al acceder a los documentos en Workfront. Para obtener más información acerca del almacenamiento empresarial, consulte [Descripción general del almacenamiento empresarial de Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 Algunos formatos de archivo no se pueden previsualizar.
 
@@ -127,9 +127,9 @@ Los siguientes formatos de archivo no pueden mostrarse en la ventana de vista pr
 <li>png</li>
 <li>psd</li>
 <li>psdc</li>
-<li>raw</li>
+<li>crudo</li>
 <li>svg</li>
-<li>tiff</li>
+<li>riña</li>
 <li>tif</li>
 <li>webp</li>
 <li>eps</li>
@@ -139,7 +139,7 @@ Los siguientes formatos de archivo no pueden mostrarse en la ventana de vista pr
 <li>avi</li>
 <li>mp4</li>
 <li>mpeg</li>
-<li>mov</li>
+<li>mover</li>
 <li>flv</li>
 <li>m4v</li>
 <li>wmv</li>
@@ -151,10 +151,10 @@ Los siguientes formatos de archivo no pueden mostrarse en la ventana de vista pr
 
 +++  
 
-To preview a document:
+Vista previa de un documento:
 
-1. Go to the project, task, or issue that contains the document, then select **Documents** in the left panel.
-1. Find the document you need, then click the document name.
-   ![Document preview](assets/preview-new-doc.png)
+1. Vaya al proyecto, tarea o problema que contiene el documento y, a continuación, seleccione **Documentos** en el panel izquierdo.
+1. Busque el documento que necesita y, a continuación, haga clic en el nombre del documento.
+   ![Vista previa del documento](assets/preview-new-doc.png)
 
 

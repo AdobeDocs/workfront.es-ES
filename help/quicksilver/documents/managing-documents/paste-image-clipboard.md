@@ -8,10 +8,10 @@ feature: Digital Content and Documents
 exl-id: 5c3f089c-9e66-4294-806a-424a08bbf225
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: b3c8559ddac934cc41461f88503b2fa71abaf452
 workflow-type: tm+mt
-source-wordcount: '362'
-ht-degree: 88%
+source-wordcount: '365'
+ht-degree: 89%
 
 ---
 
@@ -21,8 +21,8 @@ Puede añadir un archivo de imagen a Adobe Workfront copiándolo y pegándolo de
 
 >[!NOTE]
 >
->Esta funcionalidad no está disponible en el área de nuevos documentos.<br>
->Si su organización utiliza el almacenamiento empresarial, verá el área de nuevos documentos al acceder a ellos en Workfront. Para obtener más información acerca del almacenamiento empresarial, consulte [Descripción general del almacenamiento empresarial de Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
+>Esta funcionalidad no está disponible en la nueva área de Documentos.<br>
+>Si su organización utiliza el almacenamiento empresarial, verá la nueva área Documentos al acceder a los documentos en Workfront. Para obtener más información acerca del almacenamiento empresarial, consulte [Descripción general del almacenamiento empresarial de Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 ## Requisitos del explorador para pegar desde el portapapeles
 

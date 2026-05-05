@@ -8,21 +8,21 @@ feature: Digital Content and Documents
 exl-id: 15d9ea43-1cee-4cb1-9365-4374a291c090
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: b3c8559ddac934cc41461f88503b2fa71abaf452
 workflow-type: tm+mt
-source-wordcount: '674'
+source-wordcount: '676'
 ht-degree: 87%
 
 ---
 
 # Extraer documentos
 
-Puede extraer un documento para evitar que otros usuarios lo eliminen o carguen una nueva versión. Solo un usuario puede extraer un documento a la vez. Puede extraer cualquier documento cargado en Adobe Workfront, así como documentos vinculados a proveedores de documentos de terceros (Box, Dropbox, Google Drive, Webdam, Workfront DAM, SharePoint o cualquier otro proveedor personalizado). 
+Puede extraer un documento para evitar que otros usuarios lo eliminen o carguen una nueva versión. Solo un usuario puede extraer un documento a la vez. Puede extraer cualquier documento cargado en Adobe Workfront, así como documentos vinculados a proveedores de documentos de terceros (Box, Dropbox, Google Drive, Webdam, Workfront DAM, SharePoint o cualquier otro proveedor personalizado). 
 
 >[!NOTE]
 >
->Esta funcionalidad no está disponible en el área de nuevos documentos.<br>
->Si su organización utiliza el almacenamiento empresarial, verá el área de nuevos documentos al acceder a ellos en Workfront. Para obtener más información acerca del almacenamiento empresarial, consulte [Descripción general del almacenamiento empresarial de Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
+>Esta funcionalidad no está disponible en la nueva área de Documentos.<br>
+>Si su organización utiliza el almacenamiento empresarial, verá la nueva área Documentos al acceder a los documentos en Workfront. Para obtener más información acerca del almacenamiento empresarial, consulte [Descripción general del almacenamiento empresarial de Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 ## Requisitos de acceso
 
@@ -69,7 +69,7 @@ Los usuarios con acceso de administración al documento pueden hacer lo siguient
 
   >[!TIP]
   >
-  >Aunque un usuario puede descargar un documento cuando lo haya extraído otro usuario, se recomienda que los usuarios esperen hasta que el documento se vuelva a insertar antes de descargarlo. Cuando se ha extraído un documento, a menudo indica que se está trabajando en él. Si se espera hasta que se vuelva a insertar un documento para descargarlo, se garantiza que el usuario tenga la versión más reciente.
+  > Aunque un usuario puede descargar un documento cuando lo haya extraído otro usuario, se recomienda que los usuarios esperen hasta que el documento se vuelva a insertar antes de descargarlo. Cuando se ha extraído un documento, a menudo indica que se está trabajando en él. Si se espera hasta que se vuelva a insertar un documento para descargarlo, se garantiza que el usuario tenga la versión más reciente.
 
 * Aprobar un documento o aplicar una aprobación al documento.
 * Revisar el documento en el visor de corrección

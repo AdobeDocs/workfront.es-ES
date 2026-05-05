@@ -9,7 +9,7 @@ feature: Digital Content and Documents
 exl-id: 7a4a4bd3-ad60-4d84-b4b0-332c2a4eb8fb
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 90eb99fa46e706a53427f995d484e2fb42e9c293
+source-git-commit: b3c8559ddac934cc41461f88503b2fa71abaf452
 workflow-type: tm+mt
 source-wordcount: '719'
 ht-degree: 43%
@@ -129,7 +129,7 @@ Utilice la sección Versiones para ver el número de versiones creadas para un d
 
 ## Resumen de documentos en la experiencia de nuevos documentos
 
-Si su organización utiliza el almacenamiento empresarial, verá el área de nuevos documentos al acceder a ellos en Workfront. Para obtener más información acerca del almacenamiento empresarial, consulte [Descripción general del almacenamiento empresarial de Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
+Si su organización utiliza el almacenamiento empresarial, verá la nueva área Documentos al acceder a los documentos en Workfront. Para obtener más información acerca del almacenamiento empresarial, consulte [Descripción general del almacenamiento empresarial de Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 ### Detalles
 
@@ -139,7 +139,7 @@ Utilice la sección Detalles para ver información general de alto nivel e inter
 
 ### Aprobaciones
 
-Use the Approvals section to create an approval workflow. También puede recordar a los participantes acerca de una aprobación o eliminarla. Los aprobadores de documentos pueden acceder al visor Frame.io o utilizar el Resumen para tomar una decisión.
+Utilice la sección Approvals para crear un flujo de trabajo de aprobación. También puede recordar a los participantes acerca de una aprobación o eliminarla. Los aprobadores de documentos pueden acceder al visor Frame.io o utilizar el Resumen para tomar una decisión.
 
 Para obtener más información sobre las aprobaciones y Frame.io, consulte
 

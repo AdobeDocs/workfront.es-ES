@@ -6,7 +6,7 @@ description: Si está creando un proyecto a través de Workfront Fusion y desea 
 author: Becky
 feature: Digital Content and Documents, Workfront Integrations and Apps, Workfront Fusion
 exl-id: b8132d5e-234d-47f6-a09c-ca46018a2d77
-source-git-commit: 90eb99fa46e706a53427f995d484e2fb42e9c293
+source-git-commit: b3c8559ddac934cc41461f88503b2fa71abaf452
 workflow-type: tm+mt
 source-wordcount: '925'
 ht-degree: 91%
@@ -20,7 +20,7 @@ Si está creando un proyecto a través de Workfront Fusion y desea incluir flujo
 >[!NOTE]
 >
 >Los flujos de trabajo solo están disponibles en una integración de Adobe Experience Manager as a Cloud Service. No están disponibles en integraciones con Adobe Experience Manager Assets Essentials.<br>
->Esta funcionalidad no está disponible en el área de nuevos documentos.
+>Esta funcionalidad no está disponible en la nueva área de Documentos.
 
 
 ## Requisitos de acceso
@@ -83,7 +83,7 @@ En Workfront Fusion, si desea crear un proyecto que incluya flujos de trabajo de
 1. Añada el módulo **Workfront** > **Acciones diversas** a su escenario.
 1. En el campo **Conexión**, seleccione la conexión de Workfront que se conecta a la cuenta que utilizará este módulo.
 
-   Para obtener instrucciones sobre cómo crear una conexión, consulte [Conectar [!DNL Workfront] con [!DNL Workfront Fusion]](https://experienceleague.adobe.com/es/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-modules#connect-workfront-to-workfront-fusion) en el artículo Módulos de Workfront.
+   Para obtener instrucciones sobre cómo crear una conexión, consulte [Conectar [!DNL Workfront] con [!DNL Workfront Fusion]](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-modules#connect-workfront-to-workfront-fusion) en el artículo Módulos de Workfront.
 
    Para obtener instrucciones sobre cómo crear el ID de cliente y el Secreto de cliente, deberá crear una conexión; consulte [Crear una aplicación de OAuth](#create-an-oauth-application) en este artículo.
 
@@ -165,4 +165,4 @@ Debe configurar una aplicación de OAuth en Workfront para la conexión de este 
 
 Utilizará este ID de cliente y este secreto de cliente al configurar la conexión del módulo en Fusion.
 
-Para obtener instrucciones sobre cómo crear una conexión, consulte [Conectar [!DNL Workfront] con [!DNL Workfront Fusion]](https://experienceleague.adobe.com/es/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-modules#connect-workfront-to-workfront-fusion) en el artículo Módulos de Workfront.
+Para obtener instrucciones sobre cómo crear una conexión, consulte [Conectar [!DNL Workfront] con [!DNL Workfront Fusion]](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-modules#connect-workfront-to-workfront-fusion) en el artículo Módulos de Workfront.

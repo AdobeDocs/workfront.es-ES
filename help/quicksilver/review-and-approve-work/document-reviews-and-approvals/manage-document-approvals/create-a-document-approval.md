@@ -8,7 +8,7 @@ feature: Work Management, Digital Content and Documents
 exl-id: a02699e1-3557-47f0-89b7-dbecb507a174
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 0c4904a380dd62b9ea01dd1030ee02d82a869541
+source-git-commit: b3c8559ddac934cc41461f88503b2fa71abaf452
 workflow-type: tm+mt
 source-wordcount: '705'
 ht-degree: 19%
@@ -79,7 +79,7 @@ Para crear un flujo de trabajo de aprobación:
    <table>
    <tr>
    <td><strong>Nombre de la fase</strong></td>
-   <td>Add a stage name. Puede cambiar el nombre por otro más descriptivo, como <em>Revisión inicial</em> o <em>Aprobación final</em>.</td>
+   <td>Añada un nombre de fase. Puede cambiar el nombre por otro más descriptivo, como <em>Revisión inicial</em> o <em>Aprobación final</em>.</td>
    </tr>
    <tr>
    <td><strong>Añadir nombres o correos electrónicos</strong></td>
@@ -91,7 +91,7 @@ Para crear un flujo de trabajo de aprobación:
    </tr>
    <tr>
    <td><strong>Fecha de vencimiento (opcional)</strong></td>
-   <td>Set a due date for the approval. Los usuarios y equipos reciben una notificación por correo electrónico 72 horas y, a continuación, 24 horas antes de la fecha de vencimiento especificada.</td>
+   <td>Establezca una fecha límite para la aprobación. Los usuarios y equipos reciben una notificación por correo electrónico 72 horas y, a continuación, 24 horas antes de la fecha de vencimiento especificada.</td>
    </tr>
    </table>
 
@@ -104,9 +104,9 @@ Para crear un flujo de trabajo de aprobación:
    ![Detalles del documento](assets/new-stage.png)
 
 
-## Cree un flujo de trabajo de aprobación desde el Panel de resumen en la nueva área de documento
+## Cree un flujo de trabajo de aprobación desde el Panel de resumen en el área nueva Documentos
 
-Si su organización utiliza el almacenamiento empresarial, verá el área de nuevos documentos al acceder a ellos en Workfront. Para obtener más información acerca del almacenamiento empresarial, vea [Información general sobre el almacenamiento empresarial](/help/quicksilver/review-and-approve-work/esm-overview.md).
+Si su organización utiliza el almacenamiento empresarial, verá la nueva área Documentos al acceder a los documentos en Workfront. Para obtener más información acerca del almacenamiento empresarial, vea [Información general sobre el almacenamiento empresarial](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 Para crear un flujo de trabajo de aprobación:
 
