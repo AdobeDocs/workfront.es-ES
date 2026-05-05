@@ -9,9 +9,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 16c564a9-abd7-4b07-be3e-9c823f40177d
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: b3c8559ddac934cc41461f88503b2fa71abaf452
+source-git-commit: 94236f836be2d1b8638cf11ddd303641e8c0ef7c
 workflow-type: tm+mt
-source-wordcount: '855'
+source-wordcount: '875'
 ht-degree: 2%
 
 ---
@@ -95,7 +95,9 @@ Estas acciones están disponibles en el menú Más sobre una tarea o un problema
 
 ## Habilitar el almacenamiento empresarial de Adobe
 
-Los clientes existentes pueden habilitar el almacenamiento empresarial de Adobe en su entorno tras la renovación del contrato. Para obtener más información sobre cómo habilitar el almacenamiento empresarial de Adobe, consulte [Habilitar el almacenamiento empresarial de Adobe para su organización](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md).
+El contrato de Workfront debe incluir un SKU de Workfront V2 para utilizar el almacenamiento empresarial de Adobe. Para obtener más información acerca de los requisitos de SKU de Workfront versión 2, consulte las preguntas frecuentes en [Resumen unificado de revisión y aprobación](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md#getting-started-with-unified-review-and-approval).
+
+Para obtener información sobre cómo habilitar el almacenamiento empresarial de Adobe en su entorno, consulte [Habilitar el almacenamiento empresarial de Adobe para su organización](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md).
 
 >[!NOTE]
 >
