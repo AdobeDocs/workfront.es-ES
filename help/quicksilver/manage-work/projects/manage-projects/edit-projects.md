@@ -9,10 +9,10 @@ role: User
 exl-id: a6a1f178-189a-4c41-835b-7726081a2b49
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: d8a01839b8f1332741f87be766f3ccb7d08cef96
+source-git-commit: ada25d0b7c359cfb258dfc4e68a628033e66562d
 workflow-type: tm+mt
-source-wordcount: '7859'
-ht-degree: 91%
+source-wordcount: '8113'
+ht-degree: 88%
 
 ---
 
@@ -282,22 +282,30 @@ Para obtener información sobre cómo crear un proyecto a partir de una plantill
          <td> <p>Especifique la fecha cuando seleccione <strong>Programar a partir de la fecha de finalización</strong>. </p> <p>Este es un campo de solo lectura cuando selecciona <strong>Programar a partir de la fecha de inicio</strong>.<br></p> </td> 
       </tr> 
       <tr> 
-         <td role="rowheader"><strong>Portafolio</strong></td> 
-         <td>Indique el Portafolio al que pertenece el proyecto. Para que un Portafolio aparezca en la lista desplegable, primero debe crearlo. Solo los portafolios activos pueden asociarse a un proyecto. Para obtener más información sobre la creación de portafolios, consulte <a href="../../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md" class="MCXref xref">Crear un portafolio </a>.
-         <p><b>NOTA</b></p>
-         <p>Debe tener permisos de administración en el portafolio para poder añadirlo al proyecto o quitarlo de él.</p>
+      <td role="rowheader"><strong>Portafolio</strong></td> 
+      <td>Indique el Portafolio al que pertenece el proyecto. Para que un Portafolio aparezca en la lista desplegable, primero debe crearlo. Solo los portafolios activos pueden asociarse a un proyecto. Para obtener más información sobre la creación de portafolios, consulte <a href="../../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md" class="MCXref xref">Crear un portafolio </a>.
+      <p><b>NOTAS</b></p>
+      <ul>
+      <li>Debe tener permisos de administración en el portafolio para poder añadirlo al proyecto o quitarlo de él.</li>
+      <li>Si su organización utiliza los tipos de almacenamiento de documentos Workfront y Adobe, no puede asociar un proyecto de almacenamiento de Workfront con un portafolio de almacenamiento de Adobe. Lo contrario también es cierto. Es posible que la instancia de Workfront no tenga ambos tipos de almacenamiento de documentos.</li></ul> 
+      Para obtener más información, vea <a href="/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md">Información general sobre la administración de documentos de proyectos y objetos relacionados</a>. 
       </td> 
       </tr> 
       <tr> 
          <td role="rowheader"><strong>Programa</strong></td> 
-         <td> <p>Si ha seleccionado un Portafolio para el proyecto, especifique un Programa para el proyecto. Es posible que algunos portafolios no tengan programa. Para que un programa aparezca en esta lista desplegable, primero debe crearlo. Solo los programas activos pueden asociarse a un proyecto. </p> <p>Para obtener más información sobre la creación de programas, consulte <a href="../../../manage-work/portfolios/create-and-manage-programs/create-program.md" class="MCXref xref">Crear un programa</a>.</p> 
-      <p><b>NOTA</b></p>
-         <p>Debe tener permisos de administración en el programa para poder añadirlo al proyecto o quitarlo de él.</p>   
-      </td> 
+         <td> <p>Si ha seleccionado un Portafolio para el proyecto, especifique un Programa para el proyecto. Es posible que algunos portafolios no tengan programa. Para que un programa aparezca en esta lista desplegable, primero debe crearlo. Solo los programas activos pueden asociarse a un proyecto. </p> <p>Para obtener más información sobre cómo crear programas, consulte <a href="../../../manage-work/portfolios/create-and-manage-programs/create-program.md" class="MCXref xref">Crear un programa</a>.</p> 
+      <p><b>NOTAS</b></p>
+      <ul>
+      <li>Debe tener permisos de administración en el programa para poder añadirlo al proyecto o quitarlo de él.</li>
+      <li>Si su organización utiliza los tipos de almacenamiento de documentos Workfront y Adobe, no puede asociar un proyecto de almacenamiento de Workfront con un programa de almacenamiento de Adobe. Lo contrario también es cierto. Es posible que la instancia de Workfront no tenga ambos tipos de almacenamiento de documentos. Los programas heredan el tipo de almacenamiento del portafolio al que pertenecen. </li></ul>
+
+   Para obtener más información, vea <a href="/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md">Información general sobre la administración de documentos de proyectos y objetos relacionados</a>.
+
+   </td> 
       </tr> 
       <tr> 
          <td role="rowheader"><strong>Grupo</strong></td> 
-         <td> <p> <p>Especifique el nombre del grupo asociado al proyecto. </p>Este campo es obligatorio. No puede tener un proyecto que no esté asociado a un grupo. </p> <p>Para asegurarse de estar seleccionando el grupo correcto, pase el puntero por encima de él y haga clic en el icono de información <img src="assets/info-icon.png"> que se muestra junto a él. Esta acción muestra la ayuda contextual con información sobre el grupo, como la jerarquía de los grupos que tiene por encima y sus administradores.</p> De forma predeterminada, uno de los siguientes grupos se asociará automáticamente a un proyecto cuando se crea, a menos que se especifique un grupo diferente:</p> 
+         <td> <p> <p>Especifique el nombre del grupo asociado al proyecto. </p>Este campo es obligatorio. No puede tener un proyecto que no esté asociado a un grupo. </p> <p>Para asegurarse de que está seleccionando el grupo correcto, pase el puntero por encima de él y haga clic en el icono de información <img src="assets/info-icon.png"> que se muestra junto a él. Esta acción muestra la ayuda contextual con información sobre el grupo, como la jerarquía de los grupos que tiene por encima y sus administradores.</p> De forma predeterminada, uno de los siguientes grupos se asociará automáticamente a un proyecto cuando se crea, a menos que se especifique un grupo diferente:</p> 
          <ul> 
          <li> <p><span>Cuando se crea el proyecto a partir del área Proyectos, el grupo de inicio del creador del proyecto se asocia al proyecto.</span> </p> <p>Esto también ocurre cuando el proyecto se crea a partir de la sección Proyectos de un portafolio o programa.</p> </li> 
          <li> <p>Cuando el proyecto se crea a partir de la página principal de un grupo en el área de Configuración, ese grupo se asocia al proyecto.</p> </li> 
@@ -426,7 +434,7 @@ Para editar campos en el área Finanzas:
       <td><p>Al habilitar esta opción, todas las tarifas de facturación de asignación se congelan permanentemente a la tarifa aplicable más alta de la jerarquía de facturación. Se trata de una selección única y no puede deshabilitar la opción una vez que el proyecto tenga asignaciones u horas. Después de la conservación, las tarifas de facturación de la asignación no se pueden cambiar, editar ni anular en ningún lugar del proyecto.</p></td>
      </tr>
      <tr data-mc-conditions=""> 
-      <td role="rowheader"> <strong>Divisa</strong> </td> 
+      <td role="rowheader"><strong>Divisa</strong> </td> 
       <td> <p>Especifique la moneda del proyecto si es diferente a la moneda predeterminada del sistema. No se puede cambiar la moneda de un proyecto cuando ya contiene información financiera. Este campo no está visible si solo tiene la moneda predeterminada en el sistema. </p> <p>Para obtener más información sobre la moneda, consulte <a href="../../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md" class="MCXref xref">Configurar tasas de cambio</a>. </p> </td> 
      </tr> 
      <tr> 
@@ -491,7 +499,7 @@ Para editar campos en el área Finanzas:
       <td role="rowheader"><strong>Modo de finalización</strong> </td> 
       <td> <p>Controla la manera en que el proyecto se marca como Completo. Seleccione entre las siguientes opciones: 
        <ul> 
-       <li><p><strong>Automático</strong>: el proyecto se marca como Completado cuando se completan todas las tareas y problemas.</p><p>El Estado del proyecto se cambia automáticamente a Completo solo cuando el estado del proyecto es Actual cuando se han completado las tareas. </p></li> 
+       <li><p><strong>Automático</strong>: el proyecto se marca como completo cuando se completen todas las tareas y problemas.</p><p>El Estado del proyecto se cambia automáticamente a Completo solo cuando el estado del proyecto es Actual cuando se han completado las tareas. </p></li> 
        <li><strong>Manual</strong>: debe seleccionar manualmente el estado Completo del proyecto cuando se hayan completado todas las tareas y problemas.</li> 
        </ul></p> </td> 
        </tr> 
@@ -525,7 +533,7 @@ Para editar campos en el área Finanzas:
        <li>En las tareas con una restricción de Fechas fijas, no cambia la Fecha planificada de inicio ni la Fecha de finalización. </li> 
        </ul><p>La duración de la tarea no cambia al seleccionar esta configuración. Solo cambian las fechas planificadas, dependiendo de la Restricción de tarea. Para obtener información acerca de la restricción de tareas, vea <a href="../../../manage-work/tasks/task-constraints/task-constraint-overview.md" class="MCXref xref">Información general sobre la restricción de tareas</a>. </p><p>- <strong>Ignorar días libres del usuario en las duraciones de las tareas</strong>: al seleccionar esta opción, las fechas planificadas de las tareas en el proyecto permanecen tal como se planeó originalmente, incluso si la Usuario asignado principal de la tarea tiene días libres durante la duración de la tarea. </p><p>Tenga en cuenta lo siguiente al seleccionar opciones para esta configuración:</p> 
        <ul> 
-       <li><p>La opción predeterminada para esta configuración para un nuevo proyecto es la misma que la preferencia de proyecto del sistema. </p><p>Para obtener información acerca de las preferencias del proyecto en el nivel de sistema, consulte <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Configurar las preferencias de proyecto en todo el sistema</a>. </p></li> 
+       <li><p>La opción predeterminada para esta configuración para un nuevo proyecto es la misma que la preferencia de proyecto del sistema. </p><p>Para obtener información acerca de las preferencias del proyecto a nivel del sistema, consulte <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Configurar las preferencias de proyecto de todo el sistema</a>. </p></li> 
        <li>Al adjuntar una plantilla a un proyecto existente, la configuración del proyecto se actualiza para que coincida con la de la plantilla. </li> 
        <li><p>Workfront decide qué fechas de tareas planificadas se ajustan según el valor de Restricción de tarea de la tarea. Dependiendo de cuál sea, tanto la Fecha planificada de inicio como la Fecha planificada de finalización, o ambas, podrían verse afectadas, o incluso permanecer iguales. Por ejemplo, si una tarea tiene una restricción de fechas fijas, las fechas no se ajustan cuando el Usuario asignado principal tiene días libres, incluso cuando <strong>Considerar los días libres del usuario en las duraciones de las tareas</strong> está seleccionado. </p></li> 
        </ul></td> 
@@ -548,7 +556,7 @@ Para editar campos en el área Finanzas:
       </tr> 
       <tr> 
        <td role="rowheader"><strong>Requerir tiempo de aprobación de este proyecto</strong></td> 
-       <td> <p> Seleccione esta opción para solicitar al propietario del proyecto que apruebe el tiempo registrado en el proyecto. Si utiliza Registros de facturación y selecciona esta opción, solo las horas aprobadas en el proyecto aparecen como horas facturables disponibles para los Registros de facturación. La aprobación de las horas en el proyecto es independiente de la aprobación de plantillas de horas. </p> <p>Para obtener más información sobre cómo requerir tiempo para aprobarse en un proyecto, consulte <a href="../../../manage-work/projects/manage-projects/require-time-approval-for-projects.md" class="MCXref xref">Requerir tiempo de aprobación de un proyecto</a>.</p> </td> 
+       <td> <p> Seleccione esta opción para solicitar al propietario del proyecto que apruebe el tiempo registrado en el proyecto. Si utiliza Registros de facturación y selecciona esta opción, solo las horas aprobadas en el proyecto aparecen como horas facturables disponibles para los Registros de facturación. La aprobación de las horas en el proyecto es independiente de la aprobación de plantillas de horas. </p> <p>Para obtener más información sobre cómo requerir tiempo para aprobar un proyecto, vea <a href="../../../manage-work/projects/manage-projects/require-time-approval-for-projects.md" class="MCXref xref">Requerir tiempo de aprobación de un proyecto</a>.</p> </td> 
       </tr> 
       <tr> 
        <td role="rowheader"><strong>Filtrar tipos de horas</strong> y</span> <strong>Tipos de horas</strong></td> 
@@ -568,7 +576,7 @@ Para editar campos en el área Finanzas:
       </tr> 
       <tr data-mc-conditions=""> 
        <td role="rowheader"><strong>Proceso de aprobación</strong></td> 
-       <td> <p>Seleccione el proceso de aprobación que desea asociar al proyecto. El administrador de Workfront debe definir los procesos de aprobación a nivel de sistema para poderlos asociar a proyectos. <span>Un usuario con acceso administrativo a los procesos de aprobación también puede crear procesos de aprobación específicos del grupo.</span> Para obtener más información acerca de cómo crear procesos de aprobación, consulte <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md" class="MCXref xref">Crear un proceso de aprobación para elementos de trabajo</a>.</p> <p>Tenga en cuenta lo siguiente a la hora de añadir procesos de aprobación: </p> 
+       <td> <p>Seleccione el proceso de aprobación que desea asociar al proyecto. El administrador de Workfront debe definir los procesos de aprobación a nivel de sistema para poderlos asociar a proyectos. <span>Un usuario con acceso administrativo a los procesos de aprobación también puede crear procesos de aprobación específicos del grupo.</span> Para obtener más información sobre cómo crear procesos de aprobación, consulte <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md" class="MCXref xref">Crear un proceso de aprobación para elementos de trabajo</a>.</p> <p>Tenga en cuenta lo siguiente a la hora de añadir procesos de aprobación: </p> 
        <ul> 
        <li>En la lista solo se muestran los procesos de aprobación activos. </li> 
        <li> <p>Los procesos de aprobación de todo el sistema y específicos del grupo se muestran en la lista. Un proceso de aprobación asociado a un grupo que no sea el del proyecto no se muestra en la lista.</p> <p>Si el grupo asociado al proyecto cambia, el proceso de aprobación específico del grupo se convertirá en un proceso de aprobación de un solo uso. Para obtener más información sobre cómo los cambios en el grupo del proyecto o los cambios en el proceso de aprobación afectan a la configuración de la aprobación, consulte <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/how-changes-affect-group-approvals.md" class="MCXref xref">Cómo afectan los cambios en el grupo y el proceso de aprobación a los procesos de aprobación asignados</a>. </p> </li> <!--(NOTE: this bullet stays here although the sections it might appear in are QS only, so we can use the snippet for both Qs and classic)-->
@@ -689,11 +697,11 @@ Puede definir los permisos que los usuarios reciben para el proyecto, así como 
     <tbody> 
      <tr data-mc-conditions=""> 
       <td role="rowheader"><strong>Cuando se asigna a una persona una tarea</strong></td> 
-      <td><p>Seleccione entre el acceso de <strong>visualización</strong>, <strong>contribución</strong> o <strong>administración</strong> de una tarea. Al usuario asignado a una tarea se le concede automáticamente este acceso a la tarea.</p></td> 
+      <td><p>Seleccione entre el acceso de <strong>Visualización</strong>, <strong>Contribución</strong> o <strong>Administración</strong> a una tarea. Al usuario asignado a una tarea se le concede automáticamente este acceso a la tarea.</p></td> 
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader"><strong>Conceder también acceso al proyecto</strong></td> 
-      <td><p>Seleccione entre el acceso de <strong>visualización</strong>, <strong>contribución</strong> o <strong>administración</strong> del proyecto. Al usuario asignado a una tarea se le concede automáticamente este acceso al proyecto.<br></p></td> 
+      <td><p>Seleccione entre el acceso de <strong>Visualización</strong>, <strong>Contribución</strong> o <strong>Administración</strong> al proyecto. Al usuario asignado a una tarea se le concede automáticamente este acceso al proyecto.<br></p></td> 
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader"><strong>Cuando se asigna a una persona un problema</strong></td> 
@@ -795,6 +803,10 @@ Tenga en cuenta lo siguiente al editar proyectos de forma masiva:
   >Por ejemplo, puede que tenga un campo de casilla de verificación con tres casillas de verificación (Opción 1, Opción 2 y Opción 3): la Opción 1 está desmarcada para todos los proyectos, y las Opciones 2 y 3 están marcadas para algunos y no están marcadas para otros proyectos que haya seleccionado. Si desea marcar la opción 1 para todos los proyectos, deberá hacer coincidir también las opciones 2 y 3 para todos los proyectos seleccionados antes de guardar los cambios, por lo que deberá seleccionarlas o deseleccionarlas para que puedan coincidir en todos los proyectos seleccionados. Si no cambia ninguna de las opciones, puede guardar el campo tal cual y los proyectos mantendrán su selección actual para todas las opciones.
 
 * Cuando se seleccionan varios proyectos que pertenecen a grupos diferentes, los estados que se muestran en el campo Estado son estados a nivel de sistema y no estados a nivel de grupo.
+
+* Cuando selecciona varios proyectos que tienen diferentes tipos de almacenamiento de documentos y desea actualizar Portfolio o el programa para los proyectos seleccionados, no puede asociar un proyecto de almacenamiento de Workfront con un portafolio de almacenamiento de Adobe. Lo contrario también es cierto. En este caso, asegúrese de seleccionar solo los proyectos que tengan tipos de almacenamiento similares a la vez.
+
+  Es posible que la instancia de Workfront no tenga ambos tipos de almacenamiento de documentos.
 
 Para editar proyectos de forma masiva:
 

@@ -6,10 +6,10 @@ description: Puede eliminar problemas o solicitudes en Adobe Workfront si dispon
 author: Alina
 feature: Work Management
 exl-id: 31cc802f-7fa6-420c-8494-a45313df1f10
-source-git-commit: 5c4ffeabf710374b14a2335b47342be4c393a7c8
+source-git-commit: ada25d0b7c359cfb258dfc4e68a628033e66562d
 workflow-type: tm+mt
-source-wordcount: '759'
-ht-degree: 67%
+source-wordcount: '797'
+ht-degree: 64%
 
 ---
 
@@ -78,6 +78,8 @@ Los siguientes objetos adjuntos a un problema también se eliminan al eliminarse
 * Documentos
 
   No se puede eliminar un problema que tenga adjunto un documento desprotegido. Para obtener más información acerca de cómo desproteger documentos, vea [Desproteger documentos](../../../documents/managing-documents/check-out-documents.md).
+
+  No puede restaurar documentos individuales que se eliminaron cuando se eliminó el problema desde la pestaña Documentos en la papelera de reciclaje. Solo puede restaurar los documentos eliminados cuando se eliminó el problema al restaurar el problema.
 
 * Notas
 * Aprobaciones

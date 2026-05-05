@@ -8,10 +8,10 @@ feature: Work Management
 exl-id: aee5c293-e5fa-413e-9d9b-c62528941be7
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 5c4ffeabf710374b14a2335b47342be4c393a7c8
+source-git-commit: ada25d0b7c359cfb258dfc4e68a628033e66562d
 workflow-type: tm+mt
-source-wordcount: '792'
-ht-degree: 23%
+source-wordcount: '830'
+ht-degree: 22%
 
 ---
 
@@ -110,6 +110,8 @@ Tenga en cuenta lo siguiente:
 
   No se puede eliminar una tarea que tenga un documento desprotegido adjunto. Para obtener más información sobre cómo desproteger documentos, consulte [Desproteger documentos](../../../documents/managing-documents/check-out-documents.md).
 
+  No puede restaurar documentos individuales que se eliminaron cuando la tarea se eliminó de la pestaña Documentos en la papelera de reciclaje. Solo puede restaurar los documentos eliminados cuando se eliminó la tarea al restaurar la tarea.
+
    * Problemas
    * Subtareas
    * Notas
@@ -176,7 +178,7 @@ Tenga en cuenta lo siguiente:
 {{step1-to-projects}}
 
 1. Haga clic en el nombre del proyecto que contiene la tarea que desea eliminar.
-1. Haga clic en **Tareas** en el panel izquierdo.
+1. Haga clic en **Tareas**, en el panel izquierdo.
 1. Haga clic en el nombre de la tarea que desee eliminar.
 1. Haga clic en el icono **Más** ![Menú más](assets/qs-more-menu.png)en la esquina superior derecha.
 

@@ -9,10 +9,10 @@ exl-id: a0e80c4d-29a8-4bf8-aa19-0c2d493236c6
 recommendations: noDisplay, noCatalog
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: ada25d0b7c359cfb258dfc4e68a628033e66562d
 workflow-type: tm+mt
-source-wordcount: '1067'
-ht-degree: 82%
+source-wordcount: '1106'
+ht-degree: 76%
 
 ---
 
@@ -99,7 +99,7 @@ Old:
 
 * Si el proyecto tiene tareas o problemas con las horas registradas, el administrador de grupos o de Workfront debe permitir la eliminación de estas tareas configurando las Preferencias de tareas y problemas en la instancia de Workfront para que pueda eliminar el proyecto que contiene las tareas.
 
-  Para obtener más información sobre cómo habilitar la eliminación de tareas, problemas o proyectos en los que se registran horas, consulte la sección “Eliminación” en [Configurar las preferencias de tareas y problemas en todo el sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
+  Para obtener más información sobre cómo habilitar la eliminación de tareas, problemas o proyectos en los que se registran horas, consulte la sección &quot;Eliminación&quot; en [Configurar las preferencias de tareas y problemas en todo el sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
 
   <!--
   <p data-mc-conditions="QuicksilverOrClassic.Quicksilver,QuicksilverOrClassic.Draft mode">(NOTE: this bullet stays in NWE only forever)</p>
@@ -114,6 +114,8 @@ Old:
    * Documentos
 
      No se puede eliminar un proyecto que tenga un documento adjunto que se haya desprotegido. Para obtener más información sobre cómo desproteger documentos, consulte [Desproteger documentos](../../../documents/managing-documents/check-out-documents.md).
+
+     No puede restaurar documentos individuales que se eliminaron cuando se eliminó el proyecto desde la pestaña Documentos en la papelera de reciclaje. Solo puede restaurar los documentos eliminados cuando se eliminó el proyecto al restaurar el proyecto.
 
    * Tareas
    * Subtareas

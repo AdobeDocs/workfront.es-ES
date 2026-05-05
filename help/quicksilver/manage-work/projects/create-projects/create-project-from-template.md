@@ -8,9 +8,9 @@ feature: Work Management
 exl-id: 622cbfe0-b8c0-4045-bef2-9e21d45bfda0
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 5c4ffeabf710374b14a2335b47342be4c393a7c8
+source-git-commit: ada25d0b7c359cfb258dfc4e68a628033e66562d
 workflow-type: tm+mt
-source-wordcount: '1388'
+source-wordcount: '1393'
 ht-degree: 68%
 
 ---
@@ -176,7 +176,7 @@ Puede crear un proyecto desde el área Proyectos del menú principal o desde el 
       >
       >* Cuando se utiliza una plantilla de almacenamiento empresarial de Adobe de un portafolio o programa de Workfront, el proyecto es un proyecto de almacenamiento empresarial de Adobe y el portafolio o programa también se convierten en objetos de almacenamiento empresarial de Adobe. Todos los demás proyectos de almacenamiento de Workfront del mismo portafolio o programa permanecen inalterados.
       >
-      > No todos los clientes tienen ambos tipos de almacenamiento de documentos.
+      > Es posible que la instancia de Workfront no tenga ambos tipos de almacenamiento de documentos.
       >
       >Para obtener más información, vea [Información general sobre la administración de documentos de proyectos y objetos relacionados](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
 
@@ -234,7 +234,7 @@ En lugar de empezar en el área de Proyectos, puede crear un proyecto a partir d
 
 >[!NOTE]
 >
->Las plantillas asociadas al almacenamiento de documentos de Workfront crean proyectos de almacenamiento de Workfront heredados. Las plantillas asociadas al almacenamiento de documentos empresariales de Adobe crean proyectos de almacenamiento de Adobe. No todos los clientes tienen ambos tipos de almacenamiento.
+>Las plantillas asociadas al almacenamiento de documentos de Workfront crean proyectos de almacenamiento de Workfront heredados. Las plantillas asociadas al almacenamiento de documentos empresariales de Adobe crean proyectos de almacenamiento de Adobe. Es posible que la instancia de Workfront no tenga ambos tipos de almacenamiento de documentos.
 >
 >Para obtener más información, vea [Información general sobre la administración de documentos de proyectos y objetos relacionados](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
 

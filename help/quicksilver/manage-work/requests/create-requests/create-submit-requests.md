@@ -8,10 +8,10 @@ feature: Work Management
 exl-id: 8b023a3d-326d-4d63-9e1e-8171553a9e23
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: ada25d0b7c359cfb258dfc4e68a628033e66562d
 workflow-type: tm+mt
-source-wordcount: '2685'
-ht-degree: 73%
+source-wordcount: '2795'
+ht-degree: 72%
 
 ---
 
@@ -309,7 +309,14 @@ Para crear una solicitud en la aplicación web de Workfront:
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Documentos</strong> </td> 
-      <td> <p>Añada documentos a su solicitud. </p> <p> Según la configuración de la cola de solicitudes, la sección Documentos podría mostrarse antes o después de los campos personalizados. </p> <p>Los documentos que se cargan en Workfront se almacenan durante 24 horas en un borrador de solicitud. Después, debe volver a adjuntarlos cuando vuelva a editar y enviar el borrador. Los documentos vinculados desde otras unidades se guardan en el borrador de forma permanente. </p> </td> 
+      <td> <p>Añada documentos a su solicitud. </p> <p> Según la configuración de la cola de solicitudes, la sección Documentos podría mostrarse antes o después de los campos personalizados. </p> <p>Los documentos que se cargan en Workfront se almacenan durante 24 horas en un borrador de solicitud. Después, debe volver a adjuntarlos cuando vuelva a editar y enviar el borrador. Los documentos vinculados desde otras unidades se guardan en el borrador de forma permanente. </p> 
+      <p>Según el tipo de almacenamiento de documentos que haya seleccionado el administrador de Workfront para su entorno, los documentos adjuntos a las solicitudes se añaden a lo siguiente:</p>
+      <ul><li>Para las solicitudes que utilizan el almacenamiento de Workfront, los documentos se agregan a la sección Documentos de la solicitud recién creada.</li>
+      <li>En el caso de las solicitudes que utilizan el almacenamiento empresarial de Adobe, los documentos se agregan a una carpeta recién creada con el mismo nombre que la solicitud, añadida automáticamente a la solicitud durante el proceso de envío. </li></ul>
+      <p>Es posible que la instancia de Workfront no tenga ambos tipos de almacenamiento de documentos.</p>
+      <p>El tipo de almacenamiento de problema y solicitud se hereda del proyecto. </p>
+      <p>Para obtener más información, vea <a href="/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md">Información general sobre la administración de documentos de proyectos y objetos relacionados</a>.</p> 
+      </td> 
      </tr> 
     </tbody> 
    </table>
