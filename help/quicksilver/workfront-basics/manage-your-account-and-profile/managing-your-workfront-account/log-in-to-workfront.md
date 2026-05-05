@@ -8,10 +8,10 @@ feature: Get Started with Workfront
 exl-id: 69297cca-6b28-47d6-a478-8ac2bc29b959
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 7686cd33a5c761dc57cb488ea49a4139665949d9
+source-git-commit: d6890caed6fea2ed696c0b07674f4014f0e293a4
 workflow-type: tm+mt
-source-wordcount: '54'
-ht-degree: 31%
+source-wordcount: '222'
+ht-degree: 32%
 
 ---
 
@@ -19,11 +19,35 @@ ht-degree: 31%
 
 <!--Audited: 2024-->
 
+Se utiliza un inicio de sesión para Workfront y todas las aplicaciones empresariales de Adobe CX.
+
+Para obtener más información, consulte [Interfaz y administración de CX Enterprise](https://experienceleague.adobe.com/es/docs/core-services/interface/experience-cloud).
+
+## Acceda a [!DNL Workfront]
+
+Una vez que haya iniciado sesión en CX Enterprise, puede ver todas las organizaciones y entornos de [!DNL Workfront] a los que tiene acceso haciendo clic en el conmutador de organización en el área de navegación superior. Seleccione la organización o el entorno de [!DNL Workfront] con el que desea trabajar. Los entornos podrían incluir [!UICONTROL Vista previa] y [!UICONTROL Zona protegida] si su organización los utiliza.
+
+![Ver [!DNL Workfront] organizaciones y entornos](assets/wf-org-instance-switcher-2026.png)
+
+>[!NOTE]
+>
+>La primera vez que inicia sesión en CX Enterprise, la organización toma como valor predeterminado la primera en la lista alfabética. La próxima vez que inicie sesión, la organización toma como valor predeterminado la última que visitó.
+
+[!DNL Workfront] aparece en la lista de productos de CX Enterprise a los que tiene acceso. Puede elegir [!DNL Workfront] en el menú de acceso rápido de la página de inicio de CX Enterprise o usar el conmutador de productos ![Conmutador de productos](assets/main-menu-icon.png) para cambiar las aplicaciones en cualquier momento.
+
+![Seleccione [!DNL Workfront] para acceder a la aplicación](assets/cx-enterprise-home-2026.png)
+
+>[!NOTE]
+>
+>Si caduca una sesión de pestaña del explorador en una página en la que tiene abierto Workfront y tiene una sesión activa de Workfront en otra pestaña del explorador, puede volver a cargar la pestaña caducada para volver a abrir la página de Workfront.
+
+<!--
 >[!IMPORTANT]
 >
->El procedimiento descrito en esta página se ha eliminado porque se aplicaba únicamente a las organizaciones que aún no se habían incorporado a Adobe Admin Console.
+>The procedure described on this page has been removed because it applied only to organizations that were not yet onboarded to the Adobe Admin Console. 
 >
->Todas las organizaciones de Workfront se han incorporado a Adobe Admin Console.
+>All Workfront organizations have now been onboarded to the Adobe Admin Console.
+-->
 
 <!--DELETE ME MARCH 2026-->
 

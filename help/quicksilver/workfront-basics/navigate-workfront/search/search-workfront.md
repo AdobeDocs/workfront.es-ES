@@ -5,10 +5,10 @@ description: Puede localizar fácilmente elementos en  [!DNL Adobe Workfront]  b
 feature: Get Started with Workfront
 author: Courtney
 exl-id: 7c856349-c79f-40d8-9c96-b32bfb6d5417
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: d6890caed6fea2ed696c0b07674f4014f0e293a4
 workflow-type: tm+mt
-source-wordcount: '1570'
-ht-degree: 63%
+source-wordcount: '1518'
+ht-degree: 61%
 
 ---
 
@@ -20,20 +20,20 @@ Puede localizar fácilmente elementos en [!DNL Adobe Workfront] buscándolos cua
 
 Puede ver el cuadro [!UICONTROL Buscar] en la esquina superior derecha de cualquier página dentro de [!DNL Workfront].
 
-![Icono de búsqueda en la barra de navegación](assets/search-globalnavigationbar-350x62.png)
+![Icono de búsqueda en la barra de navegación](assets/search-unified-shell-2026.png)
 
 Debe tener permisos para ver un objeto antes de poder encontrarlo en una búsqueda. Por este motivo, los resultados de la búsqueda varían de un usuario a otro.
 
 ## Requisitos de acceso
 
-+++ Expanda esta sección para ver el acceso necesario para realizar los pasos de este artículo.
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td role="rowheader">Paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
@@ -44,16 +44,16 @@ Debe tener permisos para ver un objeto antes de poder encontrarlo en una búsque
   </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso</td> 
-   <td> <p>Acceso de [!UICONTROL View] al tipo de objeto </p> <p>Nota: Si todavía no tiene acceso, pregunte al administrador de [!DNL Workfront] si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de [!DNL Workfront] puede modificar su nivel de acceso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p></td> 
+   <td>Acceso de [!UICONTROL View] al tipo de objeto/td&gt; 
   </tr> 
   <tr> 
    <td role="rowheader">Permisos de objeto</td> 
-   <td> <p>Debe tener permisos para ver un objeto antes de poder encontrarlo en una búsqueda.</p> <p>Para obtener información sobre cómo solicitar acceso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acceso a los objetos </a>.</p> </td> 
+   <td>Debe tener permisos para ver un objeto antes de poder encontrarlo en una búsqueda.</td> 
   </tr> 
  </tbody> 
 </table>
 
-Para obtener más información sobre el contenido de esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -105,8 +105,9 @@ Tenga en cuenta las siguientes limitaciones al usar [!UICONTROL Search] en [!DNL
 * Las búsquedas no distinguen entre mayúsculas y minúsculas.
 * [!DNL Workfront] no corrige ni comprende errores tipográficos.
 * La búsqueda en [!DNL Workfront] no admite caracteres comodín.
-* La búsqueda de [!DNL Workfront] admite búsquedas parciales de palabras, pero no admite búsquedas de subcadenas.\
-   Por ejemplo, la palabra clave de búsqueda “stand” devolverá resultados que incluyan la palabra “standard”, pero no los resultados que incluyan la palabra “understand”.
+* La búsqueda de [!DNL Workfront] admite búsquedas parciales de palabras, pero no admite búsquedas de subcadenas.
+
+  Por ejemplo, la palabra clave de búsqueda “stand” devolverá resultados que incluyan la palabra “standard”, pero no los resultados que incluyan la palabra “understand”.
 
 ## Buscar varias palabras
 
@@ -190,11 +191,11 @@ Para realizar una búsqueda básica:
 
 1. (Opcional) Para buscar un objeto específico, haga clic en el menú desplegable **[!UICONTROL All]** y seleccione el objeto que desee buscar.
 
-   ![Buscar por tipo de objeto](assets/search-objecttype.png)
+   ![Buscar por tipo de objeto](assets/search-by-object-type-2026.png)
 
 1. En el cuadro **[!UICONTROL Buscar]**, empiece a escribir la información que está buscando.
 Para obtener información sobre los campos que se buscan en [!DNL Workfront], consulte la siguiente sección en este artículo: [Comprender la búsqueda](#understand-search).
-   ![Menú desplegable de búsqueda](assets/qs-search-drop-down-highlighted-350x234.png)
+   ![Menú desplegable de búsqueda](assets/search-dropdown-suggestions-2026.png)
 
    A medida que se empieza a escribir en la barra de búsqueda, [!DNL Workfront] hace recomendaciones basadas en el historial de visualización y resalta en azul la palabra clave que se busca.
 
@@ -208,7 +209,7 @@ Para obtener información sobre los campos que se buscan en [!DNL Workfront], co
 
    >[!NOTE]
    >
-   >A veces, en la lista de elementos encontrados se muestran las variaciones de una palabra.\
+   >A veces, en la lista de elementos encontrados se muestran las variaciones de una palabra.
    >Por ejemplo, si busca “comercialización”, se muestran objetos cuyo nombre contiene “comercialización” o “comercio”.
 
 1. (Opcional) Si la búsqueda generó demasiados resultados, refine la búsqueda como se describe en [Refinar una búsqueda básica](#refine-a-basic-search).
@@ -250,7 +251,8 @@ Para realizar una búsqueda avanzada:
 1. En la esquina superior derecha de cualquier página de [!DNL Workfront], haga clic en el icono **[!UICONTROL Buscar]** ![Icono de búsqueda](assets/search-icon.png). Se muestra el menú **Buscar**.
 
 1. En la parte inferior del menú **Buscar**, haga clic en **[!UICONTROL Búsqueda avanzada]**. La página **Buscar** se abre con la ficha **Búsqueda avanzada** seleccionada de forma predeterminada.
-   ![Búsqueda avanzada](assets/qs-advanced-search-350x224.png)
+
+   ![Búsqueda avanzada](assets/advanced-search-2026.png)
 
 
 1. Seleccione el tipo de objeto que está buscando. **[!UICONTROL Tareas]** está seleccionada de manera predeterminada.
