@@ -8,10 +8,10 @@ recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 453dbf1c7598858e99d963f7a3806355a8cc80a9
+source-git-commit: a9c628670731d20e9429415c8fe961bbb53daff9
 workflow-type: tm+mt
-source-wordcount: '4007'
-ht-degree: 42%
+source-wordcount: '4035'
+ht-degree: 41%
 
 ---
 
@@ -152,7 +152,7 @@ Tenga en cuenta lo siguiente:
    * Registrar fechas
    * Registrar campos generados por el sistema: fecha de creación, fecha de la última modificación
    * Buscar fechas de tipos de objeto o registro conectados (sólo cuando agregó un agregador para ellos cuando conectó los tipos de objeto o registro)
-* Según las fechas asociadas a los registros, es posible que algunos no se muestren en la vista de cronología en los siguientes casos:
+* Según las fechas asociadas con los registros, es posible que algunos registros no se muestren en la vista de escala de tiempo en los siguientes casos:
 
    * Cuando las fechas de inicio y finalización no tienen valores
    * Cuando las fechas de inicio y finalización no tienen valor
@@ -287,7 +287,7 @@ Para agregar un filtro a una vista de cronología:
 1. Seleccione una vista de escala de tiempo y haga clic en **Filtros** en la esquina superior derecha de la tabla.
 1. Haga clic en **Añadir condición** y añada la siguiente información:
 
-   * **Seleccione un campo** para buscar un campo o y selecciónelo en la lista.
+   * **Seleccione un campo** para buscar un campo y selecciónelo en la lista.
 
    * **Seleccione una opción** (o un modificador de filtro) para definir qué tipo de condición debe cumplir el campo.
 
@@ -389,7 +389,7 @@ Tenga en cuenta lo siguiente al trabajar con agrupaciones en la vista de cronolo
 
 * Es posible aplicar agrupaciones tanto en las vistas de tabla como de cronología. Las agrupaciones de la vista de tabla son independientes de las de la vista de cronología del mismo tipo de registro.
 * Se pueden aplicar 3 niveles de agrupación en una vista. Los registros se agrupan en el orden de agrupaciones que se seleccione.
-&lt;!--* Es posible aplicar hasta 4 niveles de agrupación al utilizar la API. --comprobando este ahora-->
+&lt;!—!—* Puede aplicar hasta 4 niveles de agrupación al utilizar la API. --comprobando este ahora-->
 * Las agrupaciones son únicas para la vista que se seleccione. Dos vistas de tabla del mismo tipo de registro pueden tener diferentes agrupaciones aplicadas. Dos usuarios que vean la misma vista de tabla verán la misma agrupación que se aplique en ese momento.
 * No se puede asignar un nombre a las agrupaciones que se generen para una vista de tabla.
 * Al quitar las agrupaciones, se quitarán de cualquier usuario que tenga acceso al mismo tipo de registro y que muestre la misma vista que usted.
@@ -567,8 +567,8 @@ Tenga en cuenta lo siguiente al desglosar la cronología de los registros según
 * Puede mostrar los registros conectados en la vista de la cronología únicamente cuando vea los registros en modo Estándar. No se puede utilizar la opción Desglose en el modo Compacto de la vista de línea de tiempo.
 * Puede mostrar lo siguiente en la vista de cronología mediante la función Desglose:
    * Registros de Workfront Planning conectados al tipo de registro seleccionado.
-   * Tipos de objetos Workfront o recursos Experience Manager conectados al tipo de registro seleccionado.
-   * Registros de Workfront Planning u objetos de otra aplicación conectados a registros conectados al tipo de registro seleccionado.
+   * Tipos de objeto Workfront o Experience Manager conectados al tipo de registro seleccionado.
+   * Registros u objetos de Workfront Planning de otras aplicaciones conectadas a registros conectados al tipo de registro seleccionado.
 
      Por ejemplo, puede conectar campañas a portafolios. Además, puede conectar otro tipo de registro, productos, con proyectos, así como con campañas. Cuando genere la vista de la cronología de la campaña, puede desglosar las campañas por portafolios, productos y proyectos.
 
@@ -619,7 +619,7 @@ Para obtener más información, consulte [Conectar tipos de registros](/help/qui
 
    >[!TIP]
    >
-   >Seleccione **No volver a mostrar esto** en el **Cambiar a la vista estándar?**, antes de cambiar de vista.
+   >Seleccione **No volver a mostrar esto** en el **Cambiar a la vista estándar?** antes de cambiar de vista.
    >
    >Esta preferencia solo se recuerda en el navegador actual. Si cambia de explorador o de equipo, tendrá que volver a seleccionar esta preferencia.
    >

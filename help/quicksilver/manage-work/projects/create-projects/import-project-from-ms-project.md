@@ -8,10 +8,10 @@ feature: Work Management
 exl-id: dcc3c049-245c-4bb7-b819-b75d6d7e5b67
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: da46d6784350c8394330799fe2177e82d3519041
+source-git-commit: a9c628670731d20e9429415c8fe961bbb53daff9
 workflow-type: tm+mt
-source-wordcount: '550'
-ht-degree: 63%
+source-wordcount: '601'
+ht-degree: 58%
 
 ---
 
@@ -120,11 +120,18 @@ Puede crear un proyecto a partir del área de **Proyectos** en el **Menú princi
 1. Haga clic en **Seleccionar archivo** y, a continuación, busque el archivo .xml en el equipo que exportó desde Microsoft Project.
 1. Importe el archivo seleccionado. Workfront inicia el proceso de importación y crea un nuevo proyecto basado en el archivo exportado desde Microsoft Project.
 
-   Una vez completado el proceso de importación, se le dirigirá a la nueva página del proyecto, en la que se muestra la confirmación de que la importación se ha completado correctamente.
-
    >[!NOTE]
    >
    >Workfront tiene una limitación de tiempo de 15 minutos en las cargas de archivos. Si la carga del archivo tarda más, le recomendamos que divida el proyecto en proyectos más pequeños y que los importe por separado. Una vez importados en Workfront, mueva las tareas de un proyecto a otro para combinarlas en un solo proyecto. Para obtener más información sobre cómo mover tareas, vea [Mover tareas](../../../manage-work/tasks/manage-tasks/move-tasks.md).
+
+   Una vez completado el proceso de importación, se le dirigirá a la nueva página del proyecto, en la que se muestra la confirmación de que la importación se ha completado correctamente.
+
+   >[!CAUTION]
+   >
+   >Si la instancia de Workfront tiene acceso al almacenamiento de documentos de Workfront y Adobe, al importar un proyecto desde MS Project se crea un proyecto de almacenamiento de Workfront, incluso cuando el administrador de Workfront haya establecido el almacenamiento de Adobe Enterprise como predeterminado para el sistema.
+   >
+   >Para obtener más información, vea [Información general sobre la administración de documentos de proyectos y objetos relacionados](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
+
 
 1. (Opcional) Continúe editando el proyecto en Workfront. Para obtener información sobre cómo editar proyectos, consulte [Editar proyectos](../../../manage-work/projects/manage-projects/edit-projects.md).
 
