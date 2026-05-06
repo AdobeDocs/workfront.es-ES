@@ -7,20 +7,23 @@ description: El Beneficio planificado es la cantidad de dinero estimada de la qu
 author: Lisa
 feature: Work Management
 exl-id: 1ded9d16-57be-40e0-b083-ee5273fd9b56
-source-git-commit: 8cfb8ff3a2af48ea6ef08ce7ad4ef129b4cbac37
+source-git-commit: a9c628670731d20e9429415c8fe961bbb53daff9
 workflow-type: tm+mt
-source-wordcount: '316'
-ht-degree: 94%
+source-wordcount: '380'
+ht-degree: 68%
 
 ---
 
 # Información general de Beneficio planificado del proyecto
 
+<!--Audited: 05/2026-->
+
 El Beneficio planificado es la cantidad de dinero estimada de la que una organización podría beneficiarse si se completa un proyecto.
 
-Adobe Workfront no calcula el beneficio planificado. Como propietario del proyecto, especifique manualmente el beneficio planificado de un proyecto en el caso empresarial. Recomendamos que cada organización establezca una política sobre cómo se determina este valor.
+Adobe Workfront no calcula el beneficio planificado. Como propietario del proyecto, debe especificar manualmente el beneficio planificado de un proyecto cuando lo edite. Recomendamos que cada organización establezca una política sobre cómo se determina este valor.
 
-El beneficio planificado de un proyecto afecta al valor neto de un proyecto.\
+El beneficio planificado de un proyecto afecta al valor neto de un proyecto.
+
 Para obtener más información acerca del cálculo del valor neto de un proyecto, consulte el artículo [Calcular valor neto](../../../manage-work/projects/project-finances/calculate-net-value.md).
 
 ## Requisitos de acceso
@@ -60,19 +63,18 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
 
 Puede consultar o actualizar el Beneficio planificado de un proyecto en las siguientes áreas de Workfront:
 
-* En el Resumen del caso empresarial.\
-  Para obtener más información sobre el caso empresarial de un proyecto, consulte el artículo [Crear un caso empresarial para un proyecto](../../../manage-work/projects/define-a-business-case/create-business-case.md).
+* En el Resumen del caso empresarial. No puede editar el Beneficio planificado de un proyecto en el Resumen de caso comercial.
+Para obtener más información sobre el caso empresarial de un proyecto, consulte el artículo [Crear un caso empresarial para un proyecto](../../../manage-work/projects/define-a-business-case/create-business-case.md).
 
-* En un informe de proyecto, cuando añada la columna Beneficio planificado a la vista del informe.\
+* En un informe de proyecto, cuando añada la columna Beneficio planificado a la vista del informe. Puede editar el Beneficio planificado de un proyecto en un informe de proyecto.\
   Para obtener más información acerca de cómo generar informes en Workfront, consulte el artículo [Crear un informe personalizado](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
-* En el Optimizador de portafolios.\
+* En el Optimizador de portafolios. No puede editar el beneficio planificado de un proyecto en Portfolio Optimizer.\
   Para obtener más información sobre el Optimizador de portafolios, consulte el artículo [Información general sobre el Optimizador de portafolios](../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md).
 
 ## Actualizar el beneficio planificado de un proyecto
 
 1. Vaya a un proyecto para el cual desee actualizar el beneficio planificado.
-1. Haga clic en **Caso empresarial** en el panel de la izquierda.
-1. Haga clic en **Editar información del proyecto** y especifique la cantidad del beneficio planificado en el campo **Beneficio planificado**.
-
-1. Haga clic en **Guardar**.
+1. Haga clic en **Detalles del proyecto** en el panel izquierdo, o bien haga clic en el icono **Más** ![](assets/qs-more-icon-on-an-object.png) a la derecha del nombre del proyecto, y luego haga clic en **Editar**.
+1. Especifique la cantidad del beneficio planificado en el campo **Beneficio planificado**.
+1. (Condicional) Según el área del proyecto que seleccionó, haga clic en **Guardar cambios** o **Guardar**.
