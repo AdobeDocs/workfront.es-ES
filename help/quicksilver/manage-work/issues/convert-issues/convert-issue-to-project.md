@@ -8,10 +8,10 @@ feature: Work Management
 exl-id: e3ba15a3-6169-466c-9912-32a8afdcc68d
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 2b0fdb3c74882b566a397872e1cc8007728b770c
 workflow-type: tm+mt
-source-wordcount: '2009'
-ht-degree: 86%
+source-wordcount: '2151'
+ht-degree: 79%
 
 ---
 
@@ -94,6 +94,13 @@ Old:
 ## Consideraciones
 
 * Hay un límite de procesamiento de 5 minutos al convertir un problema en un proyecto. Si el problema tiene un gran número de documentos adjuntos y no se convierte, es posible que tenga que eliminar algunos de los documentos e intentarlo de nuevo.
+* Si su organización utiliza el almacenamiento de documentos empresariales heredado de Workfront y Adobe, existen los siguientes escenarios al convertir un problema en un proyecto: <!--this info also duplicated in Document management overview for projects and related objects and Convert a task to a project-->
+   * Un problema de almacenamiento de Workfront crea un proyecto de almacenamiento de Workfront.
+   * Un problema de almacenamiento empresarial de Adobe crea un proyecto de almacenamiento de Adobe.
+   * El uso de una plantilla de almacenamiento de Workfront para convertir un problema de almacenamiento de Adobe crea un proyecto de almacenamiento de Adobe.
+   * El uso de una plantilla de almacenamiento de Adobe para convertir un problema de almacenamiento de Workfront crea un proyecto de almacenamiento de Workfront.
+
+     Para obtener más información, vea [Información general sobre la administración de documentos de proyectos y objetos relacionados](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
 
 ## Convertir un problema en un proyecto
 
@@ -190,7 +197,7 @@ Puede convertir un problema en un proyecto mediante una plantilla.
 
    >[!TIP]
    >
-   >Si ha añadido plantillas a su lista de favoritos, puede pasar el ratón por el menú [!UICONTROL **Plantillas favoritas**] y hacer clic en la plantilla que desee utilizar.
+   >Si agregaste plantillas a tu lista de favoritos, puedes pasar el ratón sobre el menú [!UICONTROL **Plantillas favoritas**] y hacer clic en la plantilla que quieras usar.
 
    Se muestra el cuadro Nuevo proyecto a partir de plantilla.
 
@@ -213,7 +220,7 @@ Puede convertir un problema en un proyecto mediante una plantilla.
    * Número de todas las tareas de la plantilla
    * Nombres de los formularios personalizados de plantilla
 
-1. (Opcional) Pase el cursor sobre el nombre de una plantilla y haga clic en el icono **Favoritos** ![Favoritos](assets/favorites-icon-small.png) para marcarla como favorita para uso futuro.
+1. (Opcional) Pase el ratón sobre el nombre de una plantilla y haga clic en el icono **Favoritos** ![Favoritos](assets/favorites-icon-small.png) para marcarla como favorita para uso futuro.
 
    >[!TIP]
    >
@@ -224,6 +231,14 @@ Puede convertir un problema en un proyecto mediante una plantilla.
    Se abre el cuadro [!UICONTROL Convertir en proyecto].
 
    ![Convertir en proyecto](assets/convert-to-project-from-template-large-project-box-nwe-350x291.png)
+
+   >[!TIP]
+   >
+   >* El uso de una plantilla de almacenamiento de Workfront para convertir un problema de almacenamiento de Adobe crea un proyecto de almacenamiento de Adobe.
+   >* El uso de una plantilla de almacenamiento de Adobe para convertir un problema de almacenamiento de Workfront crea un proyecto de almacenamiento de Workfront.
+   >
+   >Para obtener más información, vea [Información general sobre la administración de documentos de proyectos y objetos relacionados](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
+
 
 1. Si un campo ya se ha rellenado en la plantilla, ya se ha rellenado previamente en el cuadro [!UICONTROL Convertir en proyecto]. Puede editar los valores rellenados previamente para que coincidan mejor con su proyecto. Para obtener más información, consulte [Editar proyectos](../../../manage-work/projects/manage-projects/edit-projects.md).
 
@@ -258,20 +273,20 @@ Puede convertir un problema en un proyecto mediante una plantilla.
      >
      >O, si los grupos de nivel superior de su organización los configuraron por separado, las opciones disponibles aquí dependerán del grupo que haya seleccionado para el nuevo proyecto en el paso 6. Para obtener más información, consulte [Configurar las preferencias de tareas y problemas de un grupo](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md).
 
-   1. Haga clic en [!UICONTROL **Formularios personalizados**] y realice una de las acciones siguientes:
+1. Haga clic en [!UICONTROL **Formularios personalizados**] y realice una de las acciones siguientes:
 
-      * Revise los formularios personalizados adjuntos a la plantilla. Se transferirán al nuevo proyecto.
-      * Revise los formularios personalizados adjuntos al problema. Se transferirán al proyecto si también son formularios de proyecto.
-      * Asegúrese de que todos los campos obligatorios tengan información válida.
-      * Reorganice los formularios personalizados arrastrándolos ![Arrastre el icono](assets/drag-object-icon.png) donde desee.
-      * Haga clic en el icono **x** a la derecha de cualquier formulario que no desee transferir al proyecto.
-      * Si es necesario, transfiera la información del formulario personalizado del problema al proyecto.
+   * Revise los formularios personalizados adjuntos a la plantilla. Se transferirán al nuevo proyecto.
+   * Revise los formularios personalizados adjuntos al problema. Se transferirán al proyecto si también son formularios de proyecto.
+   * Asegúrese de que todos los campos obligatorios tengan información válida.
+   * Reorganice los formularios personalizados arrastrándolos ![Arrastre el icono](assets/drag-object-icon.png) donde desee.
+   * Haga clic en el icono **x** a la derecha de cualquier formulario que no desee transferir al proyecto.
+   * Si es necesario, transfiera la información del formulario personalizado del problema al proyecto.
 
-        >[!TIP]
-        >
-        >* Si un formulario personalizado de varios objetos adjunto al problema está configurado para usarse tanto con problemas como con proyectos, toda la información guardada en el formulario se conservará cuando realice la conversión si los campos existen tanto en el problema como en los formularios personalizados del proyecto.
-        >* Si se adjunta un formulario personalizado de varios objetos con un campo calculado al problema y al proyecto, el problema y el proyecto deben ser compatibles con todos los campos a los que se hace referencia en los campos personalizados calculados del formulario. Si se produce una incompatibilidad, un mensaje le advierte de que realice los ajustes necesarios. Para obtener más información, consulte [Añadir campos calculados a un formulario](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md).
-        >* Si un formulario personalizado adjunto a la plantilla contiene un campo personalizado que también se encuentra en un formulario personalizado adjunto al problema, el valor de campo del problema se utiliza para el nuevo proyecto. Sin embargo, si el campo personalizado está en blanco sobre el problema, se utiliza el valor de la plantilla.
+     >[!TIP]
+     >
+     >* Si un formulario personalizado de varios objetos adjunto al problema está configurado para usarse tanto con problemas como con proyectos, toda la información guardada en el formulario se conservará cuando realice la conversión si los campos existen tanto en el problema como en los formularios personalizados del proyecto.
+     >* Si se adjunta un formulario personalizado de varios objetos con un campo calculado al problema y al proyecto, el problema y el proyecto deben ser compatibles con todos los campos a los que se hace referencia en los campos personalizados calculados del formulario. Si se produce una incompatibilidad, un mensaje le advierte de que realice los ajustes necesarios. Para obtener más información, consulte [Añadir campos calculados a un formulario](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md).
+     >* Si un formulario personalizado adjunto a la plantilla contiene un campo personalizado que también se encuentra en un formulario personalizado adjunto al problema, el valor de campo del problema se utiliza para el nuevo proyecto. Sin embargo, si el campo personalizado está en blanco sobre el problema, se utiliza el valor de la plantilla.
 
 1. (Opcional) Defina cualquier detalle adicional del proyecto (propietario del proyecto, fechas del proyecto) y las tareas según sea necesario.
 

@@ -8,7 +8,7 @@ feature: Digital Content and Documents
 exl-id: 0a5f82b2-f86e-4ffa-b3a6-18221dd0e158
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 62d7144f808e7937f11c11ccff64e409c76f2197
+source-git-commit: 2b0fdb3c74882b566a397872e1cc8007728b770c
 workflow-type: tm+mt
 source-wordcount: '1312'
 ht-degree: 8%
@@ -47,7 +47,7 @@ La adición de documentos a Workfront difiere según la versión del área de do
 <p>Cualquier paquete de flujo de trabajo para administrar documentos mediante el almacenamiento empresarial de Adobe</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licencias de Adobe Workfront*</td> 
+   <td role="rowheader">Licencias de Adobe Workfront</td> 
    <td> 
    <p>Colaborador o superior</p> 
    <p>Solicitud o superior</p> </td> 
