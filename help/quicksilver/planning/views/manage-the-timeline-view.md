@@ -8,10 +8,10 @@ recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: a9c628670731d20e9429415c8fe961bbb53daff9
+source-git-commit: 2b0fdb3c74882b566a397872e1cc8007728b770c
 workflow-type: tm+mt
-source-wordcount: '4035'
-ht-degree: 41%
+source-wordcount: '4068'
+ht-degree: 40%
 
 ---
 
@@ -212,8 +212,14 @@ Para administrar una vista de cronología:
       * **Year**: muestra trimestres y meses con indicación de año.
       * **Trimestre**: muestra meses y semanas con indicación de trimestre.
       * **Mes**: muestra semanas y días.
+
+     >[!TIP]
+     >
+     >La vista de cronología solo muestra las semanas fiscales según los trimestres clásicos. Si el administrador de Workfront activa Trimestres personalizados en el área de Configuración, la información de la semana no se muestra en la vista de cronología.
+
 1. (Opcional) Haga clic en **Cambiar a la vista Compacta** para mostrar los registros cuyas fechas no se cruzan en la misma línea. <!--check to see if they updated the name of the setting here-->
 1. (Condicional) Si cambió el modo a **Compacto**, haga clic en **Cambiar a la vista Estándar** para mostrar los registros en líneas separadas. La opción **Standard** es la predeterminada.  <!--check to see if they updated the name of the setting here-->
+
 
 1. Haga lo siguiente para buscar rápidamente registros que coincidan con una palabra clave:
 

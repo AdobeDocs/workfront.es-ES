@@ -1,15 +1,15 @@
 ---
 navigation-topic: get-started-with-workfront
-title: Use Enhanced Lists
+title: Usar listas mejoradas
 description: Las listas mejoradas utilizan un formato de tabla para mostrar los elementos de la lista y tienen un aspecto diferente al de las listas estándar
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 4c25ed54-b147-4fd3-8d00-6f1ba61bbd38
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 0c4904a380dd62b9ea01dd1030ee02d82a869541
+source-git-commit: 2b0fdb3c74882b566a397872e1cc8007728b770c
 workflow-type: tm+mt
-source-wordcount: '2931'
+source-wordcount: '2933'
 ht-degree: 3%
 
 ---
@@ -68,7 +68,7 @@ A continuación se muestran algunos tipos de listas de objetos de Workfront que 
 | Lista de instantáneas | Proyecto > Instantáneas |
 | Lista de medios para facturación | Proyecto > Recurso de facturación |
 | Nuevas asignaciones avanzadas en una tarea | Tarea > Asignaciones > Avanzadas |
-| Documentos sobre el almacenamiento empresarial de Adobe | Proyecto, tarea, problema, portafolio, plantilla de programa > Documentos |
+| Documentos sobre el almacenamiento empresarial de Adobe | Proyecto, tarea, problema, portafolio, programa, plantilla, tarea de plantilla > Documentos |
 
 ## Agregar elementos a una lista mejorada
 

@@ -9,10 +9,10 @@ role: User
 exl-id: 96f80e7b-6ad5-40ae-861d-8d97c570f2ac
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 2b0fdb3c74882b566a397872e1cc8007728b770c
 workflow-type: tm+mt
-source-wordcount: '1061'
-ht-degree: 53%
+source-wordcount: '1116'
+ht-degree: 51%
 
 ---
 
@@ -167,6 +167,12 @@ Para crear tareas en un proyecto:
 
    1. (Condicional y opcional) Si desea que la tarea sea recurrente, actualice el campo **Frecuencia de periodicidad**. Para obtener más información sobre la creación de tareas recurrentes, consulte [Crear tareas recurrentes](../../../manage-work/tasks/create-tasks/create-recurring-tasks.md).
    1. (Opcional) Haga clic en **Documentos** en el panel izquierdo para adjuntar un documento a la nueva tarea y, a continuación, haga clic en **Agregar o vincular archivos** para agregar un documento a la tarea desde el equipo, otro servicio o para vincular documentos y carpetas desde el equipo u otro servicio.
+
+      >[!TIP]
+      >
+      >Si su organización tiene acceso al almacenamiento de documentos empresarial heredado de Workfront y de Adobe, el área Documentos de las tareas podría mostrarse de forma diferente en función del tipo de almacenamiento que utilice la tarea. Las tareas heredan el tipo de almacenamiento del proyecto.
+      >
+      >Para obtener más información, consulte [Agregar documentos a Adobe Workfront desde el sistema de archivos](/help/quicksilver/documents/adding-documents-to-workfront/add-documents-from-file-system.md).
 
 1. (Condicional) Si ha hecho clic en **Agregar más tareas** en el paso 5, empiece a introducir la información de la tarea mediante la edición en línea y, a continuación, pulse Intro.
 

@@ -6,9 +6,9 @@ description: Dependiendo de si el administrador de Workfront elige la opción pr
 author: Alina
 feature: Work Management
 exl-id: 5623157e-946e-4475-9df3-b1888a2a0934
-source-git-commit: a9c628670731d20e9429415c8fe961bbb53daff9
+source-git-commit: 2b0fdb3c74882b566a397872e1cc8007728b770c
 workflow-type: tm+mt
-source-wordcount: '1631'
+source-wordcount: '1755'
 ht-degree: 0%
 
 ---
@@ -165,6 +165,11 @@ Tenga en cuenta lo siguiente al trabajar con tareas:
 * Puede cambiar el nombre de la carpeta de documentos y eliminarla desde la tarea de almacenamiento empresarial de Adobe, que también elimina los documentos de la carpeta. Después de agregar nuevos documentos a la tarea, la carpeta se vuelve a crear automáticamente. Los documentos eliminados no vuelven a colocarse en la carpeta.
 * En los proyectos de almacenamiento empresarial de Adobe, la carpeta de documentos de una tarea se muestra como una subcarpeta en la carpeta de documentos creada automáticamente para el proyecto.
 * No puede copiar ni mover una tarea de un proyecto de almacenamiento de Workfront a uno de almacenamiento de Adobe. Lo contrario tampoco es posible.
+* Existen los siguientes escenarios al convertir una tarea en un proyecto: <!--this info also duplicated in Convert tasks to projects-->
+   * Una tarea de almacenamiento de Workfront crea un proyecto de almacenamiento de Workfront.
+   * Una tarea de almacenamiento empresarial de Adobe crea un proyecto de almacenamiento de Adobe.
+   * Si se utiliza una plantilla de almacenamiento de Workfront para convertir una tarea de almacenamiento de Adobe, se crea un proyecto de almacenamiento de Adobe.
+   * El uso de una plantilla de almacenamiento de Adobe para convertir una tarea de almacenamiento de Workfront crea un proyecto de almacenamiento de Workfront.
 
 ### Administración de documentos para problemas
 
@@ -176,6 +181,11 @@ Tenga en cuenta lo siguiente al trabajar con problemas:
 * En los proyectos de almacenamiento empresarial de Adobe, la carpeta de documentos de un problema se muestra como una subcarpeta en la carpeta de documentos creada automáticamente para el proyecto.
 * No puede copiar ni mover un problema de un proyecto de almacenamiento de Workfront a uno de almacenamiento de Adobe. Lo contrario tampoco es posible.
 * Cuando se envía una solicitud con un documento adjunto a un proyecto de almacenamiento de Workfront, el área Documentos de la solicitud muestra el documento utilizando el tipo de almacenamiento del proyecto, incluso cuando la preferencia predeterminada de almacenamiento del sistema es Adobe enterprise.
+* Existen los siguientes escenarios al convertir un problema en un proyecto: <!--this info also duplicated in Convert an issue to a project-->
+   * Un problema de almacenamiento de Workfront crea un proyecto de almacenamiento de Workfront.
+   * Un problema de almacenamiento empresarial de Adobe crea un proyecto de almacenamiento de Adobe.
+   * El uso de una plantilla de almacenamiento de Workfront para convertir un problema de almacenamiento de Adobe crea un proyecto de almacenamiento de Adobe.
+   * El uso de una plantilla de almacenamiento de Adobe para convertir un problema de almacenamiento de Workfront crea un proyecto de almacenamiento de Workfront.
 
 ### Administración de documentos para plantillas de proyecto
 
