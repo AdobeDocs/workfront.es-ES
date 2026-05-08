@@ -10,8 +10,8 @@ last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 source-git-commit: b78b86806e5c3c1e6d0662fea0e1a11f97ef032e
 workflow-type: tm+mt
-source-wordcount: '7110'
-ht-degree: 97%
+source-wordcount: '7120'
+ht-degree: 96%
 
 ---
 
@@ -139,7 +139,7 @@ La siguiente información está disponible en el informe Utilización cuando se 
    <td scope="col"><strong>Horas presupuestadas</strong> </td> 
    <td scope="col"> <p>Total de horas presupuestadas en los proyectos incluidos. Puede ver el total de horas presupuestadas para la duración global de los proyectos incluidos, o puede ver el total de horas presupuestadas solo para el intervalo de fecha especificado (puede especificar una semana o mes individual). </p> <p>Las horas presupuestadas se rellenan a partir de la información disponible en el área Presupuestación de recursos del caso empresarial o del Planificador de recursos<em>.</em></p> <p>Las horas presupuestadas aparecen en el informe Utilización en cualquiera de las siguientes filas:</p> 
     <ul> 
-     <li> Las horas presupuestadas se resumen por función y por usuario individual en el informe Utilización, de la siguiente manera:<br><strong>Usuario individual:</strong> las horas presupuestadas se resumen para cada usuario en el informe Utilización. Estas horas presupuestadas están asociadas con las tareas y problemas que se han asignado al usuario en los proyectos incluidos. (Puede expandir la fila de la función correspondiente para ver una lista de usuarios con esa función).<br><strong>Función:</strong> las horas presupuestadas se resumen por función en el informe Utilización.<br>Las horas presupuestadas aparecen en una función en particular como resultado de cualquiera de los siguientes escenarios:
+     <li> Las horas presupuestadas se resumen por función y por usuario individual en el informe Utilización, de la siguiente manera:<br><strong>Usuario individual:</strong> las horas presupuestadas se resumen para cada usuario en el informe Utilización. Estas horas presupuestadas están asociadas con las tareas y problemas que se han asignado al usuario en los proyectos incluidos. (Puede expandir la fila del rol correspondiente para ver una lista de usuarios con ese rol.)<br><strong>Rol:</strong> Las horas presupuestadas se resumen por rol en el informe de utilización.<br>Las horas presupuestadas aparecen en una función en particular como resultado de cualquiera de los siguientes escenarios:
      <ul>
      <li>La función se define como la función principal del usuario asignado a la tarea o al problema con el que están asociadas las horas presupuestadas. </li> 
        <li>Cuando se ve la información de utilización de un solo proyecto, se usa la función del usuario asignado a las horas, tanto si no hay asignación en la tarea o el problema, si se asigna a otro usuario sin ninguna asignación de función, si se asigna a otro usuario con una función diferente o si se asigna otro equipo.</li> 
@@ -218,7 +218,7 @@ Las horas planificadas aparecen en el informe de utilización en cualquiera de l
    <td><strong>Horas reales</strong> </td> 
    <td> <p> Total de horas registradas en las tareas, problemas, <span> y en el proyecto </span> de los proyectos incluidos. Se puede ver el total de horas reales correspondientes a toda la vida de los proyectos incluidos o bien el total de horas reales solo para el intervalo de fecha especificado (se puede especificar una semana o mes individual). </p> <p><strong>Advertencia:</strong> El informe de utilización incluye las horas registradas en el proyecto, las tareas secundarias, los problemas y las tareas principales que tienen al menos una asignación. Sin embargo, no incluye las horas registradas en las tareas principales sin asignaciones. Se recomienda no utilizar tareas principales como tareas de trabajo y asignar solo tareas secundarias a los recursos. </p> <p>Las horas reales aparecen en el informe de utilización en cualquiera de las filas siguientes:</p> 
     <ul> 
-     <li> Las horas reales se resumen por función y por usuario individual en el informe de utilización de un proyecto, de la siguiente manera:<br><strong>Usuario individual:</strong> las horas reales se muestran en el informe de utilización en la fila del usuario que ha registrado las horas. (Puede expandir la fila de la función correspondiente para ver una lista de los usuarios con esa función que han registrado horas).<br><strong>Función:</strong> las horas reales registradas por los usuarios asociados a esas funciones se resumen en el informe de utilización en la fila de la función correspondiente.<br>Las horas reales aparecen en una función en particular como resultado de cualquiera de los siguientes escenarios: 
+     <li> Las horas reales se resumen por función y por usuario individual en el informe de utilización de un proyecto, de la siguiente manera:<br><strong>Usuario individual:</strong> las horas reales se muestran en el informe de utilización en la fila del usuario que ha registrado las horas. (Puede expandir la fila del rol correspondiente para ver una lista de los usuarios con ese rol que han registrado horas.)<br><strong>Rol del trabajo:</strong> Las horas reales registradas por los usuarios asociados con esos roles se resumen en el informe de utilización en la fila del rol correspondiente.<br>Las horas reales aparecen en una función en particular como resultado de cualquiera de los siguientes escenarios: 
       <ul> 
        <li>La función se define como función principal del usuario que ha registrado las horas</li> 
        <li>No hay ninguna asignación en la tarea o problema</li> 
@@ -509,7 +509,7 @@ Al crear un filtro, todos los usuarios de Workfront que tienen acceso al informe
 
 Para crear o modificar un filtro:
 
-1. Abra el informe Utilización.
+1. Abra el informe de utilización.
 
    Consulte [Seguimiento del progreso, los costes y los ingresos con el informe de utilización](#track-progress-cost-and-revenue-with-the-utilization-report) para hacerlo.
 

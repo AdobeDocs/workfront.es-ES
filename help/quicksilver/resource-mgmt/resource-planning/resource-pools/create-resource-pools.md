@@ -8,8 +8,8 @@ feature: Resource Management
 exl-id: 4991634c-e400-466e-bcee-3b461b6662d8
 source-git-commit: 987b6e9b5f6b1feb323906cf7c24f5024fc84663
 workflow-type: tm+mt
-source-wordcount: '546'
-ht-degree: 95%
+source-wordcount: '545'
+ht-degree: 86%
 
 ---
 
@@ -31,7 +31,7 @@ Los conjuntos de recursos son conjuntos de usuarios que ayudan a administrar rec
  <col> 
  <tbody> 
   <tr> 
-   <td>paquete de Adobe Workfront</td> 
+   <td>Paquete de Adobe Workfront</td> 
    <td><p>Cualquiera</p></td> 
   </tr> 
   <tr> 
@@ -86,7 +86,7 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
          <li><strong>Funciones</strong>: todos los usuarios asociados con esa función se añaden al conjunto de recursos.</li>
          <li><strong>Compañías</strong>: todos los usuarios de la compañía se añaden al conjunto de recursos.</li>
         </ul><p>Sugerencia: solo es posible añadir usuarios, equipos, <span>funciones</span> o compañías activos.</p><br>Es posible que tenga que desplazarse hacia abajo en el cuadro de diálogo para ver a todos los usuarios del conjunto de recursos.
-        <p>Nota: si un usuario se convierte en miembro de un grupo, equipo, empresa o estuviera asociado a una función después de que el grupo, equipo, empresa o función se añadieran al conjunto de recursos, el nuevo miembro no se añadirá automáticamente al conjunto de recursos. <br>Si un usuario perteneciera al equipo, grupo, compañía y función que está añadiendo, al mismo tiempo, el usuario se añadirá solo una vez al conjunto de recursos.<br>Los usuarios que se desactivan después de haber sido añadidos al conjunto de recursos aparecen atenuados en la lista de usuarios y se marcan como desactivados.</p></p></td>
+        <p>Nota: si un usuario se convierte en miembro de un grupo, equipo, empresa o estuviera asociado a una función después de que el grupo, equipo, empresa o función se añadieran al conjunto de recursos, el nuevo miembro no se añadirá automáticamente al conjunto de recursos. <br>Si un usuario pertenece al equipo, grupo, compañía y rol que está agregando, al mismo tiempo, el usuario se agrega una sola vez al conjunto de recursos.<br>Los usuarios que se desactivan después de haberse agregado al conjunto de recursos aparecen atenuados en la lista de usuarios y se marcan como desactivados.</p></p></td>
      </tr>
     </tbody>
    </table>
