@@ -6,10 +6,10 @@ description: Puede abrir el panel resumen en el distribuidor de cargas de trabaj
 author: Lisa
 feature: Resource Management
 exl-id: dfc73b58-482e-46c7-a8c2-46070ee617f9
-source-git-commit: 987b6e9b5f6b1feb323906cf7c24f5024fc84663
+source-git-commit: f2a4777dfad827f4fa76f82fce9eece7a59d0278
 workflow-type: tm+mt
-source-wordcount: '389'
-ht-degree: 69%
+source-wordcount: '422'
+ht-degree: 64%
 
 ---
 
@@ -28,7 +28,7 @@ El panel Resumen está disponible para tareas y problemas tanto en las áreas de
  <col> 
  <tbody> 
   <tr> 
-   <td>paquete de Adobe Workfront</td> 
+   <td>Paquete de Adobe Workfront</td> 
    <td><p>Cualquiera</p></td>
   </tr>
   <tr> 
@@ -91,6 +91,12 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
    >Si se desplaza del resumen a la sección subtareas para añadir subtareas, se elimina la tarea original, ya que las tareas principales no se muestran en el distribuidor de cargas de trabajo.
 
    Para obtener más información sobre cómo actualizar información mediante el resumen, consulte [Resumen](../../workfront-basics/the-new-workfront-experience/summary-overview.md).
+
+   >[!NOTE]
+   >
+   >Si su organización utiliza el almacenamiento de documentos empresariales de Adobe, no puede agregar documentos a los elementos de trabajo del almacenamiento de Adobe en el Panel de resumen.
+   >
+   >Para obtener más información, vea [Información general sobre la administración de documentos de proyectos y objetos relacionados](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
 
 1. (Condicional) Si ha abierto alguna de las secciones del elemento de trabajo, haga clic en el botón **Atrás** de su navegador para volver al distribuidor de cargas de trabajo.
 1. Haga clic en el **icono Cerrar** ![Icono Cerrar](assets/close-icon.png) en la esquina superior derecha del Resumen para cerrarlo.

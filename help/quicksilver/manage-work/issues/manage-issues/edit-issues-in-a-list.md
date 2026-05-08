@@ -8,10 +8,10 @@ feature: Work Management
 exl-id: a3276d83-c08f-4480-9092-aa47ba76d794
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: f2a4777dfad827f4fa76f82fce9eece7a59d0278
 workflow-type: tm+mt
-source-wordcount: '875'
-ht-degree: 19%
+source-wordcount: '908'
+ht-degree: 18%
 
 ---
 
@@ -152,10 +152,15 @@ Puede editar un problema de una lista mediante el Panel de resumen.
 
    | Icono | Acción |
    |---|---|
-   | Documentos ![Icono de documentos](assets/documents-icon-in-summary.png) | Haga clic **Haga clic aquí para agregar** para agregar documentos al problema. |
+   | Documentos* ![Icono de documentos](assets/documents-icon-in-summary.png) | Haga clic **Haga clic aquí para agregar** para agregar documentos al problema. |
    | Detalles ![Icono de detalles](assets/details-icon-in-summary.png) | Haga clic en para actualizar la información sobre el problema. |
    | Horas ![Registrar tiempo](assets/log-time-icon-in-summary.png) | Haga clic para registrar horas. |
    | Icono de aprobaciones ![Approvals](assets/approvals-icon-in-summary.png) | Haga clic en para añadir aprobaciones de problema. |
+
+   *Si su organización utiliza el almacenamiento de documentos empresariales de Adobe, no puede agregar documentos a los problemas de almacenamiento de Adobe en el Panel de resumen.
+
+   Para obtener más información, vea [Información general sobre la administración de documentos de proyectos y objetos relacionados](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
+
 
 1. (Opcional) Vuelva a hacer clic en el icono **Abrir resumen** o en el icono **X** en la parte superior derecha del resumen para cerrar el panel y editar el problema en línea.
 

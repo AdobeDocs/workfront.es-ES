@@ -8,10 +8,10 @@ feature: Work Management
 exl-id: 2af81907-3657-459e-b780-65983e224ca8
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: f2a4777dfad827f4fa76f82fce9eece7a59d0278
 workflow-type: tm+mt
-source-wordcount: '2764'
-ht-degree: 63%
+source-wordcount: '2825'
+ht-degree: 62%
 
 ---
 
@@ -328,7 +328,7 @@ Para editar tareas de una lista al seleccionar la opción estándar Guardar de f
      </tr> 
      <tr> 
       <td role="rowheader">Eliminar</td> 
-      <td>Para obtener información acerca de cómo eliminar tareas, consulte <a href="../../../manage-work/tasks/manage-tasks/delete-tasks.md" class="MCXref xref">Eliminar tareas</a>.</td> 
+      <td>Para obtener información sobre cómo eliminar tareas, consulte <a href="../../../manage-work/tasks/manage-tasks/delete-tasks.md" class="MCXref xref">Eliminar tareas</a>.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Sangría</td> 
@@ -436,7 +436,7 @@ Para editar tareas en una lista al utilizar la opción Guardar planificación de
      </tr> 
      <tr> 
       <td role="rowheader">Eliminar</td> 
-      <td>Para obtener información acerca de cómo eliminar tareas, consulte <a href="../../../manage-work/tasks/manage-tasks/delete-tasks.md" class="MCXref xref">Eliminar tareas</a>.</td> 
+      <td>Para obtener información sobre cómo eliminar tareas, consulte <a href="../../../manage-work/tasks/manage-tasks/delete-tasks.md" class="MCXref xref">Eliminar tareas</a>.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Sangría</td> 
@@ -469,29 +469,33 @@ Para editar tareas en una lista al utilizar la opción Guardar planificación de
 1. (Opcional) Escriba una actualización para la tarea en el área **Actualizaciones**.
 1. Haga clic en cualquiera de los siguientes iconos o áreas para ir a la tarea y editar la información en el nivel de tarea:
 
-<table style="table-layout:auto"> 
-    <col> 
-    <col> 
-    <tbody> 
-     <tr> 
-      <td role="rowheader">Documentos</td> 
-      <td>Agregar documentos a la tarea. </td> 
-     </tr> 
-          <tr> 
-      <td role="rowheader">Formularios personalizados</td> 
-      <td>Agregue o quite formularios personalizados o actualice la información de los formularios.</td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Horas</td> 
-      <td>Registrar horas.</td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Aprobaciones</td> 
-      <td>Agregar aprobaciones de tarea.</td> 
-     </tr> 
-     <tr> 
-    </tbody> 
-   </table>
+   <table style="table-layout:auto"> 
+      <col> 
+      <col> 
+      <tbody> 
+      <tr> 
+         <td role="rowheader">Documentos</td> 
+         <td><p>Agregar documentos a la tarea.</p>
+         <p><b>NOTA</b></p>
+         <p>Si su organización utiliza el almacenamiento de documentos empresariales de Adobe, no puede agregar documentos a tareas en el Panel de resumen para tareas de almacenamiento de Adobe.</p>
+         <p>Para obtener más información, vea <a href="/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md">Información general sobre la administración de documentos de proyectos y objetos relacionados</a>.</p>
+      </td> 
+      </tr> 
+            <tr> 
+         <td role="rowheader">Formularios personalizados</td> 
+         <td>Agregue o quite formularios personalizados o actualice la información de los formularios.</td> 
+      </tr> 
+      <tr> 
+         <td role="rowheader">Horas</td> 
+         <td>Registrar horas.</td> 
+      </tr> 
+      <tr> 
+         <td role="rowheader">Aprobaciones</td> 
+         <td>Agregar aprobaciones de tarea.</td> 
+      </tr> 
+      <tr> 
+      </tbody> 
+      </table>
 
 1. Haga clic en **X** en la esquina superior derecha del panel para cerrarlo.
 
