@@ -12,8 +12,8 @@ last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 source-git-commit: a22bff203680d2b59e14a9d705c963f2a1d3a80b
 workflow-type: tm+mt
-source-wordcount: '1133'
-ht-degree: 9%
+source-wordcount: '1135'
+ht-degree: 10%
 
 ---
 
@@ -63,7 +63,7 @@ Puede reactivar un usuario en cualquier momento.
    <td>Configuraciones de nivel de acceso</td> 
    <td> <p>Debe tener uno de los siguientes elementos:</p> 
     <ul> 
-     <li> <p>El nivel de acceso del administrador del sistema. </li> 
+     <li> <p>El nivel de acceso de administrador del sistema. </li> 
      <li> <p>Configuración de <b>usuarios</b> en su nivel de acceso configurado para el acceso de <b>Edición</b>, con <b>Crear</b> y al menos una de las dos opciones de <b>Administrador de usuarios</b> habilitadas en <b>Ajustar la configuración</b> <img src="assets/gear-icon-in-access-levels.png">. </p> <p>De estas dos opciones, si <b>Administrador de usuarios (usuarios de grupo)</b> está habilitado, debe ser administrador de grupo de un grupo al que pertenezca el usuario.</p> </li> 
     </ul> </td> 
   </tr> 

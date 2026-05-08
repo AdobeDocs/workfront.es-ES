@@ -2,23 +2,23 @@
 content-type: overview
 product-area: resource-management
 navigation-topic: the-workload-balancer
-title: Resumen del Distribuidor de cargas
+title: Información general sobre el equilibrador de carga
 description: Una vez que los administradores de proyecto hayan planificado el trabajo en los proyectos creando tareas y después de que los administradores de recursos asignen los recursos de funciones a los proyectos en el Planificador de recursos, los propietarios de proyecto y los jefes de equipo podrán utilizar el Distribuidor de cargas de trabajo para asignar elementos de trabajo a los usuarios.
 author: Lisa
 feature: Resource Management
 exl-id: 9398bd04-9df7-4b77-8361-fdb5bdce6829
 source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
-source-wordcount: '1194'
-ht-degree: 96%
+source-wordcount: '1202'
+ht-degree: 100%
 
 ---
 
-# Información general del Distribuidor de cargas de trabajo {#workload-balancer-overview}
+# Información general sobre el equilibrador de carga {#workload-balancer-overview}
 
 >[!CONTEXTUALHELP]
 >id="wf-resourcing-workload-balancer"
->title="Distribuidor de cargas de trabajo"
+>title="Equilibrador de carga"
 >abstract="Los propietarios de proyectos y los administradores de equipo pueden utilizar el Distribuidor de cargas de trabajo para asignar elementos de trabajo a los usuarios."
 
 <!--
@@ -37,7 +37,7 @@ Este artículo describe el propósito general del Distribuidor de cargas de trab
 
 Para revisar los tutoriales en vídeo del Distribuidor de cargas de trabajo, vaya a la página [Tutorials de Workfront](https://experienceleague.adobe.com/es/docs/workfront-learn/tutorials-workfront/home). En el menú de la izquierda, seleccione **Administrar recursos** > **Distribuidor de cargas de trabajo** y elija un tutorial.
 
-## Buscar el Distribuidor de cargas de trabajo
+## Buscar el equilibrador de carga
 
 <!--
 <p>(NOTE: This will be taken out when all we will have is one tool - should be replaced by a blurb that says you can add this tool anywhere, in any custom tab, etc (long term dev promise)) </p>
@@ -69,7 +69,7 @@ Tenga en cuenta las siguientes ventajas cuando utilice el Distribuidor de cargas
 
 * Los ejecutivos pueden tomar decisiones oportunas sobre la dotación de personal a través de la transparencia en la forma en que se utilizan las personas de su organización.
 * Los integrantes del equipo se benefician de una mejor colaboración, ya que todos pueden ver en qué están trabajando sus compañeros en cualquier momento determinado. Para obtener información sobre el acceso necesario para ver o administrar recursos en el Distribuidor de cargas de trabajo, consulte [Acceso necesario para administrar recursos en el Distribuidor de cargas de trabajo](../../resource-mgmt/workload-balancer/access-needed-manage-resources-balancer.md).
-* Compártalo con cualquier persona que no tenga Recursos en el menú principal incrustando un vínculo en una pestaña personalizada. Para obtener más información, vea [Compartir el Distribuidor de cargas de trabajo con un vínculo](../../resource-mgmt/workload-balancer/share-link-for-workload-balancer.md).
+* Se puede compartir con cualquier persona que no tenga acceso al área Asignando recursos incrustando un vínculo en ella en una pestaña personalizada. Para obtener información, consulte [Compartir el equilibrador de carga mediante un vínculo](../../resource-mgmt/workload-balancer/share-link-for-workload-balancer.md).
 * Visualice y administre las cargas de trabajo y la demanda de las personas en una sola vista a nivel global, de proyecto o de equipo, según su función. Cuando se administran proyectos, esto incluye no solo la asignación de recursos para el proyecto, sino también la visualización de la asignación de recursos desde el Planificador de escenarios de Adobe Workfront. Los administradores de personas utilizan el Planificador de escenarios de Workfront para administrar las habilidades laborales en toda la organización. El Planificador de escenarios solo está disponible en la nueva experiencia de Adobe Workfront.
 
   >[!NOTE]
