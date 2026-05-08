@@ -6,9 +6,9 @@ description: Dependiendo de si el administrador de Workfront elige la opción pr
 author: Alina
 feature: Work Management
 exl-id: 5623157e-946e-4475-9df3-b1888a2a0934
-source-git-commit: 2b0fdb3c74882b566a397872e1cc8007728b770c
+source-git-commit: f2a4777dfad827f4fa76f82fce9eece7a59d0278
 workflow-type: tm+mt
-source-wordcount: '1755'
+source-wordcount: '1779'
 ht-degree: 0%
 
 ---
@@ -170,6 +170,7 @@ Tenga en cuenta lo siguiente al trabajar con tareas:
    * Una tarea de almacenamiento empresarial de Adobe crea un proyecto de almacenamiento de Adobe.
    * Si se utiliza una plantilla de almacenamiento de Workfront para convertir una tarea de almacenamiento de Adobe, se crea un proyecto de almacenamiento de Adobe.
    * El uso de una plantilla de almacenamiento de Adobe para convertir una tarea de almacenamiento de Workfront crea un proyecto de almacenamiento de Workfront.
+* No puede agregar documentos a tareas de almacenamiento de Adobe en el Panel de resumen.
 
 ### Administración de documentos para problemas
 
@@ -186,6 +187,7 @@ Tenga en cuenta lo siguiente al trabajar con problemas:
    * Un problema de almacenamiento empresarial de Adobe crea un proyecto de almacenamiento de Adobe.
    * El uso de una plantilla de almacenamiento de Workfront para convertir un problema de almacenamiento de Adobe crea un proyecto de almacenamiento de Adobe.
    * El uso de una plantilla de almacenamiento de Adobe para convertir un problema de almacenamiento de Workfront crea un proyecto de almacenamiento de Workfront.
+* No puede agregar documentos a problemas de almacenamiento de Adobe en el Panel de resumen.
 
 ### Administración de documentos para plantillas de proyecto
 

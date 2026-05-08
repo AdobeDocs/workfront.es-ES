@@ -9,9 +9,9 @@ role: User
 exl-id: a6a1f178-189a-4c41-835b-7726081a2b49
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: ada25d0b7c359cfb258dfc4e68a628033e66562d
+source-git-commit: f2a4777dfad827f4fa76f82fce9eece7a59d0278
 workflow-type: tm+mt
-source-wordcount: '8113'
+source-wordcount: '8107'
 ht-degree: 88%
 
 ---
@@ -287,7 +287,7 @@ Para obtener información sobre cómo crear un proyecto a partir de una plantill
       <p><b>NOTAS</b></p>
       <ul>
       <li>Debe tener permisos de administración en el portafolio para poder añadirlo al proyecto o quitarlo de él.</li>
-      <li>Si su organización utiliza los tipos de almacenamiento de documentos Workfront y Adobe, no puede asociar un proyecto de almacenamiento de Workfront con un portafolio de almacenamiento de Adobe. Lo contrario también es cierto. Es posible que la instancia de Workfront no tenga ambos tipos de almacenamiento de documentos.</li></ul> 
+      <li>Si su organización utiliza el almacenamiento empresarial heredado de Workfront y Adobe, no puede copiar tareas entre proyectos que utilicen tipos de almacenamiento diferentes. Es posible que la instancia de Workfront no tenga ambos tipos de almacenamiento de documentos.</li></ul> 
       Para obtener más información, vea <a href="/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md">Información general sobre la administración de documentos de proyectos y objetos relacionados</a>. 
       </td> 
       </tr> 

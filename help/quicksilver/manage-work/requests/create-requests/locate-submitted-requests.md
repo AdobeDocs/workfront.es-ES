@@ -10,10 +10,10 @@ role: User
 exl-id: cfa2383a-9594-4867-9b48-11b8ea281486
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: a6c2bc4127a52fad209004995ea2262fa64c240d
+source-git-commit: f2a4777dfad827f4fa76f82fce9eece7a59d0278
 workflow-type: tm+mt
-source-wordcount: '1377'
-ht-degree: 42%
+source-wordcount: '1411'
+ht-degree: 41%
 
 ---
 
@@ -206,11 +206,15 @@ Para ver las solicitudes que usted u otros usuarios han enviado en la experienci
    >
    >Cuando se aleja de la lista de solicitudes enviadas, se conserva la opción de ordenación seleccionada.
 
-1. (Opcional) Seleccione una solicitud en la lista y, a continuación, haga clic en el icono **Abrir resumen** ![Abrir resumen con texto](assets/open-summary-with-text-nwe.png) para abrir el panel Resumen y mostrar información adicional sobre la solicitud, agregar comentarios, documentos o asignarla. Para obtener información sobre el panel Resumen, consulte [Información general del resumen](../../../workfront-basics/the-new-workfront-experience/summary-overview.md).
+1. (Opcional) Seleccione una solicitud en la lista y, a continuación, haga clic en el icono **Abrir resumen** ![Abrir resumen con texto](assets/open-summary-with-text-nwe.png) para abrir el panel Resumen y mostrar información adicional sobre la solicitud, agregar comentarios, documentos o asignarla. Para obtener información sobre el panel Resumen, consulte [Información general sobre el resumen](../../../workfront-basics/the-new-workfront-experience/summary-overview.md).
 
    >[!TIP]
    >
-   >Si el panel Resumen ya está abierto, el icono Abrir resumen cambia a Cerrar resumen.
+   >* Si el panel Resumen ya está abierto, el icono Abrir resumen cambia a Cerrar resumen.
+   >
+   >* Si su organización utiliza el almacenamiento de documentos empresariales de Adobe, no puede agregar documentos a las solicitudes de almacenamiento de Adobe en el Panel de resumen.
+   >
+   >Para obtener más información, vea [Información general sobre la administración de documentos de proyectos y objetos relacionados](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
 
 1. (Opcional y condicional) Haga clic en el icono **X** en la esquina superior derecha o en el icono **Cerrar resumen** ![Cerrar resumen con texto](assets/close-summary-with-text-nwe.png) para cerrar el Panel de resumen.
 
