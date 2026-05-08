@@ -89,7 +89,7 @@ El panel izquierdo está disponible para las siguientes áreas:
 * [Secciones predeterminadas en el área [!UICONTROL Recursos]](#default-sections-in-the-resourcing-area)
 * [Secciones predeterminadas en el área [!UICONTROL Proyectos]](#default-sections-in-the-projects-area)
 * [Secciones predeterminadas en el área [!UICONTROL Plantillas de horas]](#default-sections-in-the-timesheets-area)
-* [Secciones predeterminadas en el área  [!DNL Goals] ](#default-sections-in-the-goals-area)
+* [Secciones predeterminadas en el área  [!DNL Goals] &#x200B;](#default-sections-in-the-goals-area)
 
 ### Secciones predeterminadas en el área [!UICONTROL Paneles de control]
 
