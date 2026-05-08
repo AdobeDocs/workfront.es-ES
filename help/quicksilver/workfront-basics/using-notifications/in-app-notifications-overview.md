@@ -6,9 +6,9 @@ description: 'En este artículo se enumeran las notificaciones en la aplicación
 author: Courtney
 feature: Get Started with Workfront
 exl-id: afc8cfe7-d9a7-458a-b437-bd4c75838cb0
-source-git-commit: 64b8a835a57be8995c82a0ab15c40f46170c7067
+source-git-commit: 45dcff03d71c1a19ed8de8f76fa3d63788e30b44
 workflow-type: tm+mt
-source-wordcount: '826'
+source-wordcount: '837'
 ht-degree: 32%
 
 ---

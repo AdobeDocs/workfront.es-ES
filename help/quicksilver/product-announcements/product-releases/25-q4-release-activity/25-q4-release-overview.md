@@ -7,10 +7,10 @@ recommendations: noDisplay, noCatalog
 exl-id: 298473d4-7d7d-4401-80bf-899a01f570a6
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 45dcff03d71c1a19ed8de8f76fa3d63788e30b44
 workflow-type: tm+mt
-source-wordcount: '2245'
-ht-degree: 39%
+source-wordcount: '2457'
+ht-degree: 44%
 
 ---
 
@@ -34,7 +34,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
 >
 >| Versión mensual | Versión trimestral |
 >|----|----|
->| <ul><li>25.8 (viernes, 14 de agosto de 2025)</li><li>25.9 (11 de septiembre de 2025)</li><li>25.10 (16 de octubre de 2025)</li></ul> | <ul><li>25.10 (16 de octubre de 2025)</li></ul> |
+>| <ul><li>25.8 (14 de agosto de 2025)</li><li>25.9 (11 de septiembre de 2025)</li><li>25.10 (16 de octubre de 2025)</li></ul> | <ul><li>25.10 (16 de octubre de 2025)</li></ul> |
 >
 >Tenga en cuenta que, para la versión final de cada trimestre (25.10 este trimestre), los usuarios con la programación de versiones rápidas recibirán la versión un día antes (15 de octubre de 2025).
 >
@@ -220,7 +220,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
   </tbody>
 </table>
 
-### Mejoras en el proyecto
+### Mejoras en los proyectos
 
 <table style="table-layout:auto">
   <tbody>
@@ -231,15 +231,15 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td><strong>Versión rápida</strong></td>
         <td><strong>Trimestralmente</strong></td>
     </tr>
-      <!--
-      <tr>
-        <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-project.md" class="MCXref xref" xrefformat="{para}">Create project intake forms in Workfront</a>
-            <p>To make it easier to create requested projects without converting from issues, we've created Project intake forms. You can configure these intake forms with specific fields, templates, and custom forms, and set approvers for project creation. Then, when a user uses this form, the project is configured to your specifications and sent for approval.</p>
-        </td>
-        <td>August 21, 2025</td>
-        <td>September 11, 2025</td>
-        <td>October 16, 2025</td>
+    <!--
+    <tr>
+    <td>
+        <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-project.md" class="MCXref xref" xrefformat="{para}">Create project intake forms in Workfront</a>
+        <p>To make it easier to create requested projects without converting from issues, we've created Project intake forms. You can configure these intake forms with specific fields, templates, and custom forms, and set approvers for project creation. Then, when a user uses this form, the project is configured to your specifications and sent for approval.</p>
+    </td>
+    <td>August 21, 2025</td>
+    <td>September 11, 2025</td>
+    <td>October 16, 2025</td>
     </tr>
     -->
     <tr>
@@ -477,7 +477,7 @@ Para obtener información general sobre la automatización e integración de Wor
 
 ### Versión 20 de la API
 
-La versión 20 de la API de Workfront se publicó el lunes, 04 de mayo de 2025. Para la versión 20 de la API, hemos modificado algunos recursos y puntos finales. Algunos de los cambios admiten nuevas funciones y otros facilitan el uso de la información disponible a través de la API.
+La versión 20 de la API de Workfront se publicó el 4 de mayo de 2025. Para la versión 20 de la API, hemos modificado algunos recursos y puntos finales. Algunos de los cambios admiten nuevas funciones y otros facilitan el uso de la información disponible a través de la API.
 
 Para obtener información sobre novedades y actualizaciones, consulte [Novedades de la versión 20 de la API](/help/quicksilver/wf-api/api/new-api-version-19.md).
 
