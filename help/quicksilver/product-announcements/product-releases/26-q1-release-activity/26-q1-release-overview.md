@@ -7,10 +7,10 @@ recommendations: noDisplay, noCatalog
 exl-id: ed348f44-eae1-4478-8425-6114f2b310ad
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 45dcff03d71c1a19ed8de8f76fa3d63788e30b44
 workflow-type: tm+mt
-source-wordcount: '2885'
-ht-degree: 100%
+source-wordcount: '3176'
+ht-degree: 99%
 
 ---
 
@@ -115,23 +115,23 @@ The <add release> release webinar will be held on <date>. You can [register for 
 
 <table style="table-layout:auto">
   <tbody>
-   <tr>
+    <tr>
         <td><strong>Función</strong>
         </td>
         <td><strong>Vista previa</strong></td>
         <td><strong>Versión rápida</strong></td>
         <td><strong>Trimestralmente</strong></td>
-        </tr>
-       <!--
-       <tr>
-        <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-documents-approvals.md" class="MCXref xref" xrefformat="{para}">Set up brands for the AI reviewer in Workfront<p>[!BADGE Off schedule]{type=Neutral}</p> </a>
-            <p>You can now set up brands for the AI reviewer in the Workfront Setup area. This allows you to customize the AI review process based on your organization's branding guidelines.</p>
-            <p>The AI reviewer is currently in beta.</p>
-        </td>
-        <td>January 8, 2026</td>
-        <td>January 8, 2026</td>
-        <td>January 8, 2026</td>
+    </tr>
+    <!--
+    <tr>
+    <td>
+        <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-documents-approvals.md" class="MCXref xref" xrefformat="{para}">Set up brands for the AI reviewer in Workfront<p>[!BADGE Off schedule]{type=Neutral}</p> </a>
+        <p>You can now set up brands for the AI reviewer in the Workfront Setup area. This allows you to customize the AI review process based on your organization's branding guidelines.</p>
+        <p>The AI reviewer is currently in beta.</p>
+    </td>
+    <td>January 8, 2026</td>
+    <td>January 8, 2026</td>
+    <td>January 8, 2026</td>
     </tr>
     -->
     </tr>
@@ -509,7 +509,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
             <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-other.md" class="MCXref xref" xrefformat="{para}">Adobe Unified Experience ya está disponible para más organizaciones de Workfront</a><p></p>
             <p>Para que las organizaciones puedan acceder a las ventajas de Adobe Unified Experience, seguimos poniéndola a disposición de los clientes de Workfront existentes.</p>
         </td>
-        <td><p>viernes, 11 de diciembre de 2025</p></td>
+        <td><p>11 de diciembre de 2025</p></td>
         <td><p>jueves, 11 de febrero de 2026</p></td>
         <td><p>jueves, 11 de febrero de 2026</p></td>
     <tr>
@@ -553,7 +553,7 @@ En este punto de la versión, no hay actualizaciones de lo siguiente:
 
 **Versión de producción para todos los clientes: 11 de diciembre de 2025**
 
-El visor de revisión de escritorio se ha actualizado de la versión 2.1.52 a la versión 2.1.54. Esta actualización incluye actualizaciones de las herramientas internas y no afecta a la funcionalidad para el usuario final.
+El Visor de pruebas de escritorio se ha actualizado a desde la versión 2.1.52 a la versión 2.1.54. Esta actualización incluyó actualizaciones de las herramientas internas y no afectó a la funcionalidad del usuario final.
 
 La versión 2.1.53 también incluye cambios en las herramientas internas.
 

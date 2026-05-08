@@ -6,9 +6,9 @@ description: El panel de navegación izquierdo en  [!DNL Workfront]  facilita la
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 18aae496-b4ec-4056-a7f1-9600b5fb5421
-source-git-commit: 0fbbf7fccee0158cc0630703ed1b663cf42725dd
+source-git-commit: 45dcff03d71c1a19ed8de8f76fa3d63788e30b44
 workflow-type: tm+mt
-source-wordcount: '1370'
+source-wordcount: '1378'
 ht-degree: 83%
 
 ---
@@ -80,7 +80,7 @@ El panel izquierdo está disponible para los siguientes objetos:
 >[!IMPORTANT]
 >
 >Si el panel izquierdo muestra solo una sección de forma predeterminada, como **[!UICONTROL Todos los proyectos]** en el área de **[!UICONTROL Proyectos]**, un administrador de [!DNL Workfront] debe agregar al menos un panel a esta área al crear una plantilla de diseño y asignarle a esa plantilla antes de que el panel izquierdo se muestre en esa área.
->&#x200B;>Para obtener información sobre cómo un administrador de [!DNL Workfront] personaliza el panel izquierdo en una plantilla de diseño, consulte [Personalizar el panel izquierdo mediante una plantilla de diseño](../../administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md).
+>Para obtener información sobre cómo un administrador de [!DNL Workfront] personaliza el panel izquierdo en una plantilla de diseño, consulte [Personalizar el panel izquierdo mediante una plantilla de diseño](../../administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md).
 
 El panel izquierdo está disponible para las siguientes áreas:
 
@@ -89,7 +89,7 @@ El panel izquierdo está disponible para las siguientes áreas:
 * [Secciones predeterminadas en el área [!UICONTROL Recursos]](#default-sections-in-the-resourcing-area)
 * [Secciones predeterminadas en el área [!UICONTROL Proyectos]](#default-sections-in-the-projects-area)
 * [Secciones predeterminadas en el área [!UICONTROL Plantillas de horas]](#default-sections-in-the-timesheets-area)
-* [Secciones predeterminadas en el área  [!DNL Goals] &#x200B;](#default-sections-in-the-goals-area)
+* [Secciones predeterminadas en el área  [!DNL Goals] ](#default-sections-in-the-goals-area)
 
 ### Secciones predeterminadas en el área [!UICONTROL Paneles de control]
 
@@ -236,6 +236,7 @@ Las siguientes secciones se muestran en el panel izquierdo del área **[!UICONTR
     </tr>
 </table>
 -->
+
 Para aprender a usar el panel izquierdo en el área [!UICONTROL Metas], consulte la sección [Usar el panel de navegación izquierdo](#use-the-left-navigation-panel) en este artículo.
 
 ## Usar el panel de navegación izquierdo

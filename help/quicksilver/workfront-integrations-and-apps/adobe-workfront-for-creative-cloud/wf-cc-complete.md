@@ -8,9 +8,9 @@ feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: d94a2b10-51d5-4995-b7b3-793d7911fca9
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 45dcff03d71c1a19ed8de8f76fa3d63788e30b44
 workflow-type: tm+mt
-source-wordcount: '274'
+source-wordcount: '275'
 ht-degree: 97%
 
 ---
@@ -30,7 +30,7 @@ Puede permanecer en las aplicaciones de [!DNL Adobe Creative Cloud] siguientes y
  <col> 
  <tbody> 
   <tr> 
-   <!--
+  <!--
     <td role="rowheader">[!DNL Adobe Workfront] package</td> 
    <td> <p>Any</p> </td> 
   </tr> 
@@ -72,7 +72,7 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
    ![Volver a la lista de trabajos](assets/go-back-to-work-list-350x314.png)
 
 1. En **[!UICONTROL Lista de trabajos]**, seleccione la tarea o el problema que desee marcar como completado.
-1. Haga clic en **[!UICONTROL Aceptar]**. Si es el único usuario asignado a esta tarea o problema, esto marca el elemento [!UICONTROL Completar] o [!UICONTROL Resuelto] en [!DNL Workfront].
+1. Haga clic en **[!UICONTROL Aceptar]**.  Si es el único usuario asignado a esta tarea o problema, esto marca el elemento [!UICONTROL Completar] o [!UICONTROL Resuelto] en [!DNL Workfront].
 1. (Condicional) Si se asignan varios usuarios a esta tarea o problema, al hacer clic en [!UICONTROL Listo] se abrirá un menú desplegable. A continuación, puede hacer lo siguiente:
 
    Haga clic en **[!UICONTROL Terminé mi parte]** si otros usuarios también deben hacer su trabajo para que se complete la tarea o el problema.

@@ -1,20 +1,20 @@
 ---
 content-type: reference
 navigation-topic: get-started-with-workfront
-title: 'Use notifications: índice de artículos'
+title: 'Usar notificaciones: índice de artículos'
 description: Lea estos artículos para aprender a utilizar las notificaciones en Adobe Workfront.
 author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: c609c51d-df67-49bb-8fe3-8962a5270cc9
-source-git-commit: 64b8a835a57be8995c82a0ab15c40f46170c7067
+source-git-commit: 45dcff03d71c1a19ed8de8f76fa3d63788e30b44
 workflow-type: tm+mt
-source-wordcount: '117'
-ht-degree: 50%
+source-wordcount: '120'
+ht-degree: 73%
 
 ---
 
-# Use notifications: índice de artículos
+# Usar notificaciones: índice de artículos
 
 [!DNL Adobe Workfront] envía notificaciones por correo electrónico, notificaciones en la aplicación y notificaciones móviles para avisarle sobre la actividad en [!DNL Workfront].
 
@@ -33,15 +33,15 @@ Esta sección contiene los siguientes artículos:
   <!--
   <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="../../workfront-basics/using-notifications/opt-out-of-email-notifications.md" class="MCXref xref" xrefformat="{para}">Opt out of email notifications</a> </li>
   -->
-* [Notificación de eventos: índice de artículos](/help/quicksilver/workfront-basics/using-notifications/event-notifications-article-index.md)
-* [Notificaciones: acción necesaria](../../workfront-basics/using-notifications/notifications-action-needed.md)
-* [Notificaciones: Información de aprobación](../../workfront-basics/using-notifications/notifications-approval-information.md)
-* [Notificaciones: Comunicación](../../workfront-basics/using-notifications/notifications-communication.md)
+* [Notificación de evento: índice de artículos](/help/quicksilver/workfront-basics/using-notifications/event-notifications-article-index.md)
+* [Notificaciones: acción requerida](../../workfront-basics/using-notifications/notifications-action-needed.md)
+* [Notificaciones: información de aprobación](../../workfront-basics/using-notifications/notifications-approval-information.md)
+* [Notificaciones: comunicación](../../workfront-basics/using-notifications/notifications-communication.md)
 * [Notificaciones: [!DNL Goals]](../../workfront-basics/using-notifications/notifications-goals.md)
 * [Notificaciones: información sobre proyectos de mi propiedad](../../workfront-basics/using-notifications/notifications-information-about-projects-i-own.md)
 * [Notificaciones: información sobre los proyectos que patrocino](../../workfront-basics/using-notifications/notifications-information-about-projects-i-sponsor.md)
-* [Notificaciones: Información sobre proyectos en los que participo](../../workfront-basics/using-notifications/notifications-information-about-projects-im-on.md)
-* [Notificaciones: Información sobre el trabajo asignado a mí](../../workfront-basics/using-notifications/notifications-information-about-work-assigned-to-me.md)
-* [Notificaciones: Información diversa](../../workfront-basics/using-notifications/notifications-misc-information.md)
-* [Notificaciones: Solicitudes que he realizado](../../workfront-basics/using-notifications/notifications-requests-i-have-made.md)
+* [Notificaciones: información sobre proyectos en los que participo](../../workfront-basics/using-notifications/notifications-information-about-projects-im-on.md)
+* [Notificaciones: información sobre el trabajo que se me ha asignado](../../workfront-basics/using-notifications/notifications-information-about-work-assigned-to-me.md)
+* [Notificaciones: información diversa](../../workfront-basics/using-notifications/notifications-misc-information.md)
+* [Notificaciones: solicitudes que he realizado](../../workfront-basics/using-notifications/notifications-requests-i-have-made.md)
 * [Notificaciones: Delegación](../../workfront-basics/using-notifications/notifications-delegation.md)

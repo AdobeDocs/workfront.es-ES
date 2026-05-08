@@ -8,9 +8,9 @@ feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: 710035f7-339c-457c-b9b0-e51bc0e0061d
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 45dcff03d71c1a19ed8de8f76fa3d63788e30b44
 workflow-type: tm+mt
-source-wordcount: '530'
+source-wordcount: '533'
 ht-degree: 40%
 
 ---
@@ -29,7 +29,7 @@ Puede cargar las mesas de trabajo como documentos para revisarlos y aprobarlos r
  <col> 
  <tbody> 
   <tr> 
-   <!--
+  <!--
     <td role="rowheader">[!DNL Adobe Workfront] package</td> 
    <td> <p>Any</p> </td> 
   </tr> 
@@ -67,14 +67,14 @@ Para obtener instrucciones, consulte [Instalar [!DNL Adobe Workfront for XD]](/h
 
 ## Agregar un nuevo documento
 
-1. Haga clic en el icono de **[!UICONTROL Menú]** en la esquina superior derecha y seleccione **[!UICONTROL Lista de trabajos]**. También puede utilizar el menú para desplazarse a los objetos principales.
+1. Haga clic en el icono **[!UICONTROL Menú]** en la esquina superior derecha y seleccione **[!UICONTROL Lista de trabajos]**. También puede utilizar el menú para desplazarse a los objetos principales.
 
    ![Icono de menú](assets/menu-350x440.png)
 
 1. Vaya al elemento de trabajo donde desea cargar un documento.
 1. Haga clic en el icono **[!UICONTROL Documento]** ![Icono del documento](assets/documents.png) en la barra de navegación.
 
-1. Haga clic en **[!UICONTROL Nuevo archivo]** cerca de la parte inferior del complemento.
+1. Haga clic en **[!UICONTROL Nuevo archivo]**, cerca de la parte inferior del complemento.
 1. Seleccione la mesa de trabajo que desee cargar.
 
    >[!TIP]
@@ -115,7 +115,7 @@ Para obtener instrucciones, consulte [Instalar [!DNL Adobe Workfront for XD]](/h
 
 ## Añadir una nueva versión
 
-1. Haga clic en el icono de **[!UICONTROL Menú]** en la esquina superior derecha y seleccione **[!UICONTROL Lista de trabajos]**. También puede utilizar el menú para desplazarse a los objetos principales.
+1. Haga clic en el icono **[!UICONTROL Menú]** en la esquina superior derecha y seleccione **[!UICONTROL Lista de trabajos]**. También puede utilizar el menú para desplazarse a los objetos principales.
 
    ![Icono de menú](assets/menu-350x440.png)
 
@@ -163,4 +163,4 @@ Para obtener instrucciones, consulte [Instalar [!DNL Adobe Workfront for XD]](/h
    </table>
 
 1. Haga clic en **[!UICONTROL Cargar]**\
-   El documento aparece en el área [!UICONTROL Documentos] en el complemento y en la aplicación de escritorio.
+   El documento aparece en el área [!UICONTROL Documentos] del complemento y de la aplicación de escritorio.
