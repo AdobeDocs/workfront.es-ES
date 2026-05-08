@@ -8,7 +8,7 @@ feature: Resource Management
 exl-id: 785ee3e9-1b2d-4180-bc78-c41e71c5244d
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: b78b86806e5c3c1e6d0662fea0e1a11f97ef032e
+source-git-commit: 9e217d36d5aeb36761a9a433b84e73ac2b7a114b
 workflow-type: tm+mt
 source-wordcount: '7120'
 ht-degree: 96%
@@ -561,14 +561,14 @@ El área Utilización se filtra con la información incluida en el filtro.
 ### Aplicar un filtro guardado {#apply-a-saved-filter}
 
 1. Abra el informe de utilización.
-Consulte [Seguimiento del progreso, los costes y los ingresos con el informe de utilización](#track-progress-cost-and-revenue-with-the-utilization-report) para hacerlo.
+Consulte [Realizar un seguimiento del progreso, los costes y los ingresos con el informe de utilización](#track-progress-cost-and-revenue-with-the-utilization-report) para hacerlo.
 
 1. Haga clic en **Filtros guardados** y, a continuación, seleccione el filtro que desee aplicar en la lista desplegable.
 
 ### Duplicar un filtro {#duplicate-a-filter}
 
 1. Abra el informe de utilización.
-Consulte [Seguimiento del progreso, los costes y los ingresos con el informe de utilización](#track-progress-cost-and-revenue-with-the-utilization-report) para hacerlo.
+Consulte [Realizar un seguimiento del progreso, los costes y los ingresos con el informe de utilización](#track-progress-cost-and-revenue-with-the-utilization-report) para hacerlo.
 
 1. Haga clic en **Filtros guardados**, pase el puntero por encima del filtro que quiere duplicar y haga clic en el icono **Duplicar**.
 
@@ -585,7 +585,7 @@ Al cambiar el nombre de un filtro, todos los usuarios de Workfront que tengan ac
 Para cambiar el nombre de un filtro, haga lo siguiente:
 
 1. Abra el informe de utilización.
-Consulte [Seguimiento del progreso, los costes y los ingresos con el informe de utilización](#track-progress-cost-and-revenue-with-the-utilization-report) para hacerlo.
+Consulte [Realizar un seguimiento del progreso, los costes y los ingresos con el informe de utilización](#track-progress-cost-and-revenue-with-the-utilization-report) para hacerlo.
 
 1. Haga clic en **Filtros guardados**, pase el puntero por encima del filtro cuyo nombre desea cambiar y haga clic en el icono **Cambiar nombre**.
 
@@ -602,7 +602,7 @@ Al eliminar un filtro, este se elimina para todos los usuarios de Workfront que 
 Para eliminar un filtro, haga lo siguiente:
 
 1. Abra el informe de utilización.
-Consulte [Seguimiento del progreso, los costes y los ingresos con el informe de utilización](#track-progress-cost-and-revenue-with-the-utilization-report) para hacerlo.
+Consulte [Realizar un seguimiento del progreso, los costes y los ingresos con el informe de utilización](#track-progress-cost-and-revenue-with-the-utilization-report) para hacerlo.
 
 1. Haga clic en **Filtros guardados**, pase el puntero por encima del filtro que quiere eliminar y haga clic en el icono **Eliminar**.
 
