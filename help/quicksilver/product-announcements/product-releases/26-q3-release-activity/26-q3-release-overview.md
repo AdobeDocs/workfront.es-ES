@@ -5,10 +5,10 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8ca50590-ef6a-44b1-a856-9821bdafbc1c
-source-git-commit: 8c5290f5c9724fa1b382b0acf2a541fe7d3d44fa
+source-git-commit: efcb35e0d46670f581bda2943fbf74ab428f98d7
 workflow-type: tm+mt
-source-wordcount: '635'
-ht-degree: 53%
+source-wordcount: '571'
+ht-degree: 43%
 
 ---
 
@@ -123,17 +123,11 @@ Esta actualización es para Mac y Windows.
 
 ## Anuncios
 
-### Versión 21 de la API
+Versión de API 22
 
-La versión 21 de la API de Workfront se publicó el 23 de octubre de 2025. Para la versión 21 de la API, hemos modificado algunos recursos y puntos finales. Algunos de los cambios admiten nuevas funciones y otros facilitan el uso de la información disponible a través de la API.
+La versión 22 de la API de Workfront se publicó el 8 de mayo de 2026. Para la versión 22 de la API, hemos modificado algunos recursos y extremos. Algunos de los cambios admiten nuevas funciones y otros facilitan el uso de la información disponible a través de la API.
 
->[!IMPORTANT]
->
->Este cambio de versión de API presenta un cambio radical que puede afectar a sus llamadas de API existentes. Esto se debe a que la versión 21 de la API utiliza la versión 2 de Suscripciones a eventos.
->
-> Para los campos de selección múltiple, la versión 2 de Suscripciones de eventos siempre envía como una matriz. La versión 1 enviaba una matriz si se seleccionaba más de un valor. Si solo se seleccionaba un valor, se enviaba una cadena.
-
-Para obtener información sobre novedades y actualizaciones, consulte [Novedades de la versión 21 de la API](/help/quicksilver/wf-api/api/new-api-version-21.md).
+Para obtener información sobre novedades y actualizaciones, consulte [Novedades de la versión 22](/help/quicksilver/wf-api/api/new-api-version-22.md) de la API.
 
 Para obtener información sobre las versiones de API, consulte [Versiones de API y programación de soporte](/help/quicksilver/wf-api/api/api-version-support-schedule.md).
 
