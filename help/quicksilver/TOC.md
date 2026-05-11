@@ -3,9 +3,9 @@ user-guide-title: Guía de Workfront
 user-guide-description: Utilice los siguientes documentos, tutoriales y recursos adicionales para aprender a implementar y utilizar Adobe Workfront de forma eficaz en su organización.
 role: User
 feature-set: Workfront
-source-git-commit: 143cb1477bb6e404907e680dfcee98a89177de60
+source-git-commit: 7c4a22a4ecf0b5919e3a4d578c93262a672197a6
 workflow-type: tm+mt
-source-wordcount: '14089'
+source-wordcount: '14106'
 ht-degree: 95%
 
 ---
@@ -1869,6 +1869,7 @@ ht-degree: 95%
    * [Revisar y aprobar el trabajo](review-and-approve-work/review-and-approve-work.md)
    * [Resumen de revisión y aprobación unificadas](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md)
    * [Introducción a la revisión y aprobación unificadas](/help/quicksilver/review-and-approve-work/get-started-with-unified-approvals.md)
+   * [Cambio al almacenamiento empresarial de Workfront en Adobe](/help/quicksilver/review-and-approve-work/workfront-storage.md)
    * [Información general sobre decisiones limitadas de documentos y de la revisión para usuarios que no han pagado](review-and-approve-work/proof-doc-decision-limits.md)
    * {hide-from-toc}[Configurar revisores de IA](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/set-up-ai-reviewer.md)
    * Aprobaciones de trabajo {#work-approvals}
@@ -2029,6 +2030,7 @@ ht-degree: 95%
       * [Usar Adobe Experience Manager con la integración de Frame.io](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/use-aem-with-frame.md)
    * Sugerencias, trucos y solución de problemas para aprobaciones {#ttt-approvals}
       * [Sugerencias, trucos y solución de problemas para aprobaciones: índice de artículos](review-and-approve-work/tips-tricks-troubleshooting-approvals/tips-tricks-troubleshooting-approvals.md)
+      * [Actualización de escenarios de Workfront Fusion para una revisión y aprobación unificadas](/help/quicksilver/review-and-approve-work/tips-tricks-troubleshooting-approvals/fusion-remediation-for-unified-approvals.md)
       * [Ver el número de decisiones de la revisión y el documento para todos los usuarios](review-and-approve-work/tips-tricks-troubleshooting-approvals/view-number-of-decisions-for-users.md)
 * Hojas de horas {#timesheets}
    * [Plantillas de horas: índice de artículos](timesheets/timesheets-all.md)
@@ -2582,7 +2584,7 @@ ht-degree: 95%
       * [Configure y utilice las aplicaciones OAuth 2 personalizadas de la organización mediante el flujo JWT](wf-api/api/oauth-app-jwt-flow.md)
       * [Configure y utilice las aplicaciones OAuth 2 personalizadas de su organización mediante el flujo PKCE](wf-api/api/oauth-app-pkce-flow.md)
       * [Obsolescencia de la API interna](wf-api/api/deprecation-api-internal.md)
-      * [Novedades de la versión 22 de la API](/help/quicksilver/wf-api/api/new-api-version-22.md)
+      * [Novedades de la versión 22](/help/quicksilver/wf-api/api/new-api-version-22.md) de la API
       * [Novedades de la versión 21 de la API](/help/quicksilver/wf-api/api/new-api-version-21.md)
       * [Novedades de la versión 20 de la API](/help/quicksilver/wf-api/api/new-api-version-20.md)
       * [Novedades de la versión 19 de la API](wf-api/api/new-api-version-19.md)
