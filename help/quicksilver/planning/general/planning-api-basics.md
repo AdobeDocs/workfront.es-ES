@@ -6,10 +6,10 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: afb58d04-fa75-4eb7-9c19-2a8c1748fbc2
-source-git-commit: cc5bdfed0b5bdc56d0042436c19abde65eb5f3bc
+source-git-commit: cbee9aabad7300c2a7ff7aa92bc68a6368a1efcd
 workflow-type: tm+mt
-source-wordcount: '1064'
-ht-degree: 87%
+source-wordcount: '1079'
+ht-degree: 86%
 
 ---
 
@@ -34,24 +34,26 @@ Para obtener más información sobre los campos de búsqueda externa, vea [Ejemp
 
 ## Versiones de API de Workfront Planning
 
-* Versión 1.0: lanzada en julio de 2024
+* Versión 1: lanzada en julio de 2024
 
-  Para obtener más información, consulte la sección [API de Workfront Planning versión 1.0](#workfront-planning-api-version-10) en este artículo.
+  Para obtener más información, consulte la sección [API de Workfront Planning versión 1](#workfront-planning-api-version-1) en este artículo.
   <!--
-    Maybe retitle the "Workfront Planning API" section below to "Workfront Planning API Version 1.0" when Version 2 releases
+    Maybe retitle the "Workfront Planning API" section below to "Workfront Planning API Version 1" when Version 2 releases
     -->
 
 <!--
-* Version 2.0 - released in May 2026
+* Version 2 - released in May 2026
 
-    For more information, see the section [Workfront Planning API Version 2.0](#workfront-planning-api-version-20) in this article.
+    For more information, see the section [Workfront Planning API Version 2](#workfront-planning-api-version-2) in this article.
 -->
 
-## API de Workfront Planning versión 1.0
+## API de Workfront Planning versión 1
 
-La versión 1.0 de la API de Workfront Planning se publicó en julio de 2024.
+La versión 1 de la API de Workfront Planning se publicó en julio de 2024.
 
-Las secciones siguientes describen la funcionalidad disponible en la versión 1.0 de la API de Workfront.
+Las secciones siguientes describen la funcionalidad que está disponible en la API de Workfront versión 1.
+
+Todas las versiones futuras de la API contendrán la misma funcionalidad, a menos que se especifique lo contrario.
 
 <!--
 Becky had put the title of this article as"Workfront Planning API URL", but she did not document what that URL is; asking dev and hiding it for now
@@ -397,11 +399,11 @@ Para obtener más información sobre la ordenación, consulte [Ordenar resultado
 
 <!--
 
-## Workfront Planning API Version 2.0
+## Workfront Planning API Version 2
 
-Version 2.0 of the Workfront Planning API was released in May 2026. 
+Version of the Workfront Planning API was released in May 2026. 
 
-In addition to all the information contained in Version 1.0, the following enhancements were added in Version 2.0: 
+In addition to all the information contained in Version 1, the following enhancements were added in Version 2: 
 
 * Search by the user's Workfront ID field instead of the user's IMS ID.
 

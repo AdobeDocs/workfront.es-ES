@@ -7,7 +7,7 @@ role: User, Admin
 exl-id: fcad60b2-05e8-4774-8135-129bc1d3f9ce
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 5c4ffeabf710374b14a2335b47342be4c393a7c8
+source-git-commit: cbee9aabad7300c2a7ff7aa92bc68a6368a1efcd
 workflow-type: tm+mt
 source-wordcount: '2368'
 ht-degree: 3%
@@ -21,6 +21,13 @@ ht-degree: 3%
 
 <!--add screen shots-->
 <!--check the names of areas, buttons, and links: Learn more, Open Planning, Review trial agreement, etc-->
+
+<!--
+and remove the IMPORTANT below - it conflicts with this one: 
+>[!IMPORTANT]
+>
+>The Adobe Workfront Planning trial period concludes on May 15, 2026. This article will remain active for a period of time but will be retired soon. We recommend that you update your bookmarks for the future.
+-->
 
 Adobe Workfront Planning proporciona una visibilidad centralizada del ciclo vital de marketing, lo que permite una mejor colaboración entre equipos, un seguimiento en tiempo real de campañas y flujos de trabajo automatizados. Puede crear espacios de trabajo personalizados y visualizar el trabajo con cronologías y calendarios interactivos.
 
@@ -255,7 +262,7 @@ Puede revisar espacios de trabajo de Planning de ejemplo y sus objetos, así com
 
 1. Haga clic en **Crear espacio de trabajo** para crear su propio espacio de trabajo.
 
-   Para obtener más información, consulte [Crear espacios de trabajo](/help/quicksilver/planning/architecture/create-workspaces.md).
+   Para obtener más información, consulte [Creación de espacios de trabajo](/help/quicksilver/planning/architecture/create-workspaces.md).
 
    Como administrador del sistema, los nuevos espacios de trabajo se mostrarán en las fichas **Todos los espacios de trabajo** y **Espacios de trabajo en los que estoy**.
 
