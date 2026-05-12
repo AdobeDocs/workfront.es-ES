@@ -8,7 +8,7 @@ feature: Work Management
 exl-id: d4e28fa6-25f9-4765-b051-8960c8873d5a
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: ada25d0b7c359cfb258dfc4e68a628033e66562d
+source-git-commit: ccf8af65b9f8ac96a4f9fa2e4dc32a721477375a
 workflow-type: tm+mt
 source-wordcount: '1629'
 ht-degree: 66%
@@ -177,7 +177,6 @@ Tenga en cuenta lo siguiente:
   >[!TIP]
   >
   > Es posible que la instancia de Workfront no tenga ambos tipos de almacenamiento de documentos.
-
 
 * Cuando crea un proyecto de almacenamiento empresarial, se crea una carpeta de documentos con el mismo nombre del proyecto en la sección **Documentos** del proyecto. Después de agregar tareas al proyecto, las carpetas con el nombre de la tarea se agregan a la sección **Documentos** de cada tarea.
 

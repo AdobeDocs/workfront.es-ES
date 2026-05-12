@@ -6,9 +6,9 @@ description: Dependiendo de si el administrador de Workfront elige la opción pr
 author: Alina
 feature: Work Management
 exl-id: 5623157e-946e-4475-9df3-b1888a2a0934
-source-git-commit: f2a4777dfad827f4fa76f82fce9eece7a59d0278
+source-git-commit: ccf8af65b9f8ac96a4f9fa2e4dc32a721477375a
 workflow-type: tm+mt
-source-wordcount: '1779'
+source-wordcount: '1830'
 ht-degree: 0%
 
 ---
@@ -131,7 +131,7 @@ Las siguientes secciones documentan cómo funciona el almacenamiento de document
 Tenga en cuenta lo siguiente al trabajar con proyectos:
 
 * Al crear un proyecto de almacenamiento empresarial de Adobe, Workfront crea una carpeta en la sección Documentos del proyecto donde se guardan los documentos. El nombre de la carpeta es el mismo nombre que el proyecto. No puede eliminar la carpeta ni cambiarle el nombre manualmente. Se cambiará el nombre de la carpeta si cambia el nombre del proyecto para que coincida con el nuevo nombre del proyecto.
-* Al crear o mover un proyecto de almacenamiento empresarial de Adobe a un programa o portafolio de almacenamiento de Workfront heredado, el portafolio o programa se convierte automáticamente en un objeto de almacenamiento empresarial de Adobe.
+* Al crear o mover un proyecto de almacenamiento empresarial de Adobe a un portafolio o programa de almacenamiento de Workfront heredado, el portafolio o programa se convierte automáticamente en un objeto de almacenamiento empresarial de Adobe, si el portafolio o programa no tiene documentos adjuntos antes de que se agregue el proyecto.
 * No puede crear un proyecto de almacenamiento de Workfront para un portafolio o programa de almacenamiento empresarial de Adobe.
 * Al importar un proyecto desde MS Project, Workfront crea un proyecto de almacenamiento de Workfront, incluso cuando el administrador de Workfront ha establecido el almacenamiento empresarial de Adobe como predeterminado para el sistema.
 * Al crear proyectos mediante una automatización de Workfront Planning, Workfront utiliza la preferencia de almacenamiento predeterminada del sistema para el proyecto. Debe adquirir el paquete de Planning para acceder a Workfront Planning.
@@ -141,9 +141,11 @@ Tenga en cuenta lo siguiente al trabajar con proyectos:
 Tenga en cuenta lo siguiente al trabajar con portafolios:
 
 * Al crear un portafolio de almacenamiento empresarial de Adobe, Workfront crea una carpeta en la sección Documentos del portafolio en la que se guardan los documentos. El nombre de la carpeta es el mismo nombre que el portafolio. No puede eliminar la carpeta ni cambiarle el nombre manualmente. Se cambiará el nombre de la carpeta si cambia el nombre del portafolio de modo que coincida con el nuevo nombre del portafolio.
-* Al crear o mover un proyecto de almacenamiento empresarial de Adobe a una cartera de productos de almacenamiento de Workfront heredados, la cartera se convierte automáticamente en un objeto de almacenamiento empresarial de Adobe.
-* Si el portafolio convertido tenía documentos adjuntos anteriormente, estos permanecen almacenados en el almacenamiento de Workfront. Los nuevos documentos también se almacenan en el almacenamiento de Workfront.
-* Si el portafolio convertido no tenía documentos adjuntos en el almacenamiento de Workfront, los nuevos documentos se almacenan en el almacenamiento empresarial de Adobe.
+
+* Cuando se agrega un proyecto de almacenamiento de Adobe a una cartera de almacenamiento de Workfront y esta no tiene documentos adjuntos, la cartera se convierte en una cartera de almacenamiento de Adobe.
+* Cuando se agrega un proyecto de almacenamiento de Adobe a una cartera de almacenamiento de Workfront y esta tiene documentos adjuntos, el almacenamiento de documentos de la cartera permanece en el almacenamiento de Workfront. Sin embargo, el icono de almacenamiento de Workfront heredado del portafolio ![Icono de almacenamiento de portafolio heredado](assets/legacy-storage-project-icon.png) se eliminará del portafolio.
+* No puede agregar un proyecto de almacenamiento de Workfront a una cartera de almacenamiento de Adobe.
+
 * Al crear portafolios mediante una automatización de Workfront Planning, Workfront utiliza la preferencia de almacenamiento predeterminada del sistema para el portafolio. Debe adquirir el paquete de Planning para acceder a Workfront Planning.
 
 ### Administración de documentos para programas
@@ -151,9 +153,11 @@ Tenga en cuenta lo siguiente al trabajar con portafolios:
 Tenga en cuenta lo siguiente al trabajar con programas:
 
 * Al crear un programa de almacenamiento empresarial de Adobe, Workfront crea una carpeta en la sección Documentos del programa en la que se guardan los documentos. El nombre de la carpeta es el mismo que el nombre del programa. No puede eliminar la carpeta ni cambiarle el nombre manualmente. Si cambia el nombre del programa, se cambiará el nombre de la carpeta para que coincida con el nuevo nombre del programa.
-* Al crear o mover un proyecto de almacenamiento empresarial de Adobe a una cartera de productos de almacenamiento de Workfront heredados, la cartera se convierte automáticamente en un objeto de almacenamiento empresarial de Adobe.
-* Si el programa convertido tenía documentos adjuntos anteriormente, estos siguen almacenados en el almacenamiento de Workfront. Los nuevos documentos también se almacenan en el almacenamiento de Workfront.
-* Si el programa convertido no tenía documentos adjuntos en el almacenamiento de Workfront, los nuevos documentos se almacenan en el almacenamiento empresarial de Adobe.
+
+* Cuando se agrega un proyecto de almacenamiento de Adobe a un programa de almacenamiento de Workfront y el programa no tiene documentos adjuntos a él, el programa se convierte en un programa de almacenamiento de Adobe.
+* Cuando se agrega un proyecto de almacenamiento de Adobe a un programa de almacenamiento de Workfront y el programa tiene documentos adjuntos a él, el almacenamiento de documentos del programa permanece en el almacenamiento de Workfront. Sin embargo, el icono de almacenamiento de Workfront heredado del programa ![Icono de almacenamiento de portafolios heredado](assets/legacy-storage-project-icon.png) se eliminará del programa.
+* No puede agregar un proyecto de almacenamiento de Workfront a un programa de almacenamiento de Adobe.
+
 * Al crear programas mediante una automatización de Workfront Planning, Workfront utiliza la preferencia de almacenamiento predeterminada del sistema para el programa. Debe adquirir el paquete de Planning para acceder a Workfront Planning.
 
 ### Administración de documentos para tareas

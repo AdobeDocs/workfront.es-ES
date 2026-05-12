@@ -8,10 +8,10 @@ feature: Work Management
 exl-id: 93295d70-a6cf-46ca-b621-228fa6c983f5
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: ccf8af65b9f8ac96a4f9fa2e4dc32a721477375a
 workflow-type: tm+mt
-source-wordcount: '1377'
-ht-degree: 47%
+source-wordcount: '1417'
+ht-degree: 46%
 
 ---
 
@@ -118,6 +118,10 @@ Tenga en cuenta lo siguiente al mover una tarea:
 * De forma predeterminada, los siguientes elementos no se mueven con la tarea:
 
    * Hitos
+
+* Si su organización utiliza el almacenamiento empresarial heredado de Workfront y Adobe, no puede mover tareas entre proyectos que utilicen diferentes tipos de almacenamiento.
+
+  Para obtener más información, vea [Información general sobre la administración de documentos de proyectos y objetos relacionados](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
 
 ## Mover tareas a una lista
 
@@ -271,7 +275,7 @@ Además de mover tareas de una lista de tareas, puede mover una tarea al nivel d
 
    La tarea se muestra en la lista.
 
-   ![Seleccione la tarea principal al mover una tarea con la funcionalidad de búsqueda &#x200B;](assets/select-parent-when-moving-tasks-with-search-functionality-nwe-350x110.png)
+   ![Seleccione la tarea principal al mover una tarea con la funcionalidad de búsqueda ](assets/select-parent-when-moving-tasks-with-search-functionality-nwe-350x110.png)
 
    >[!NOTE]
    >
