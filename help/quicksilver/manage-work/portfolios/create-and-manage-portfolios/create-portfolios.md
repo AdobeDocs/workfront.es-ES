@@ -8,10 +8,10 @@ feature: Work Management, Strategic Planning
 exl-id: fdaed68d-d9cc-4514-8f80-b169cdd739bd
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: ccf8af65b9f8ac96a4f9fa2e4dc32a721477375a
 workflow-type: tm+mt
-source-wordcount: '667'
-ht-degree: 79%
+source-wordcount: '884'
+ht-degree: 58%
 
 ---
 
@@ -97,13 +97,18 @@ Puede crear portafolios en Workfront mediante uno de los métodos siguientes:
 
   Para obtener información acerca de cómo importar datos mediante kick-starts en Workfront, consulte [Importar datos en Adobe Workfront a través de una plantilla de Kick-Start](/help/quicksilver/administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md).
 
-* Agregue portafolios a medida que los conecte desde un tipo de registro en Workfront Planning.
+* Agregue portafolios de Workfront Planning de las siguientes maneras:
 
-  Debe tener una nueva licencia de Workfront y una licencia adicional de Workfront Planning para Workfront Planning.
-
-  Para obtener información sobre el acceso a Workfront Planning, consulte [Información general sobre el acceso](/help/quicksilver/planning/access/access-overview.md).
+   * Al conectarlos desde un tipo de registro en Workfront Planning.
 
   Para obtener información acerca de cómo crear portafolios agregándolos a registros, vea la sección &quot;Crear registros al conectarlos&quot; en el artículo [Crear registros](/help/quicksilver/planning/records/create-records.md).
+   * Uso de automatizaciones de Workfront Planning.
+
+  Para obtener más información, vea [Crear objetos mediante automatizaciones de registros de Adobe Workfront Planning](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md).
+
+  Debe tener una nueva licencia de Workfront y un paquete de Workfront Planning adicional para Workfront Planning.
+
+  Para obtener información sobre el acceso a Workfront Planning, consulte [Información general sobre el acceso](/help/quicksilver/planning/access/access-overview.md).
 
 
 ## Crear un portafolio
@@ -111,8 +116,35 @@ Puede crear portafolios en Workfront mediante uno de los métodos siguientes:
 {{step1-click-main-menu}}
 
 1. Haga clic en **[!UICONTROL Portafolio]**.
-1. Haga clic en **[!UICONTROL Nuevo portafolio]**.
-1. Reemplace **[!UICONTROL Portafolio sin título]** por el nombre que desee para el portafolio.
+
+1. (Condicional) Según el almacenamiento de documentos que utilice su organización, haga clic en una de las siguientes opciones:
+
+   * **Nuevo portafolio**, cuando el administrador de Workfront elige **Adobe Enterprise** o **Workfront heredado**, y seleccionó o no la configuración **Permitir al usuario seleccionar el proveedor de almacenamiento**.
+   * **Nuevo portafolio (almacenamiento heredado)**, cuando el administrador de Workfront elige **Adobe Enterprise** o **Workfront heredado**, y también seleccionó la configuración **Permitir al usuario seleccionar el proveedor de almacenamiento**.
+
+     Esta opción solo se muestra cuando la opción **Permitir que el usuario seleccione el proveedor de almacenamiento** está seleccionada en el área de configuración.
+
+     Para obtener más información, consulte [Habilitar el almacenamiento empresarial de Adobe para su organización](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md).
+
+     >[!NOTE]
+     >
+     >Es posible que la instancia de Workfront no tenga ambos tipos de almacenamiento de documentos.
+
+     Se crea un portafolio y su nombre predeterminado sigue los siguientes patrones, según el almacenamiento que utilice Workfront para los documentos:
+
+      * `Untitled Portfolio` para un portafolio de almacenamiento de Workfront.
+
+        Un portafolio de almacenamiento de Workfront muestra un icono de **almacenamiento de Workfront heredado** ![almacenamiento heredado](assets/legacy-storage-project-icon.png) junto a su nombre.
+
+      * `Untitled Portfolio - < Month day, year hour.minute.second >` para un portafolio de almacenamiento de Adobe
+
+        >[!IMPORTANT]
+        >
+        >Los portafolios que utilizan el almacenamiento empresarial de Adobe deben tener nombres únicos.
+
+     Para los portafolios de almacenamiento de Adobe, se crea automáticamente una nueva carpeta de documentos con el mismo nombre que el portafolio en el área Documentos.
+
+1. Reemplace el nombre del portafolio por un nuevo nombre en el encabezado del portafolio.
 
    El nombre puede contener hasta 255 caracteres.
 
@@ -135,7 +167,7 @@ Puede crear portafolios en Workfront mediante uno de los métodos siguientes:
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Portfolio Manager]</td> 
-      <td> <p>Comience a escribir el nombre de un usuario que desee indicar como administrador del portafolio y, a continuación, selecciónelo cuando aparezca en la lista. Es igual que el [!UICONTROL Portfolio Owner].  Es la persona que puede supervisar el trabajo definido en los proyectos del portafolio y aprobar el caso empresarial.</p> <p>Importante: Cuando designa a alguien como [!UICONTROL Portfolio Manager], obtiene automáticamente permisos de [!UICONTROL Manage] para el portafolio, los programas y los proyectos del portafolio. </p> <p>Sugerencia: también puede actualizar el [!UICONTROL Portfolio Manager] en el encabezado de la parte superior de la página.</p> </td> 
+      <td> <p>Comience a escribir el nombre de un usuario que desee indicar como administrador del portafolio y, a continuación, selecciónelo cuando aparezca en la lista. Es igual que el [!UICONTROL Portfolio Owner]. Es la persona que puede supervisar el trabajo definido en los proyectos del portafolio y aprobar el caso empresarial.</p> <p>Importante: Cuando designa a alguien como [!UICONTROL Portfolio Manager], obtiene automáticamente permisos de [!UICONTROL Manage] para el portafolio, los programas y los proyectos del portafolio. </p> <p>Sugerencia: también puede actualizar el [!UICONTROL Portfolio Manager] en el encabezado de la parte superior de la página.</p> </td> 
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader">Grupo </td> 
