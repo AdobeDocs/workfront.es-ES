@@ -9,10 +9,10 @@ feature: Get Started with Workfront
 exl-id: 3d1f877e-6bb4-494e-b08e-c18ec87dd001
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: c3d34c4b33164f5fe5b4420f3ddc81f3390abbf1
 workflow-type: tm+mt
-source-wordcount: '631'
-ht-degree: 93%
+source-wordcount: '635'
+ht-degree: 85%
 
 ---
 
@@ -65,9 +65,9 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
 
 {{step1-click-profile-pic}}
 
-1. Haga clic en el icono **[!UICONTROL Más]** ![Más icono](assets/more-icon.png) junto a su nombre y, a continuación, haga clic en **[!UICONTROL Editar]**.
+1. Haga clic en el icono **[!UICONTROL Más]** ![Más icono](assets/more-icon.png) junto a su nombre y, a continuación, haga clic en **[!UICONTROL Editar usuario]**.
 
-1. En el cuadro **[!UICONTROL Editar persona]** que aparece, vaya a la sección **[!UICONTROL Notificaciones]**.
+1. En el cuadro **[!UICONTROL Editar usuario]** que aparece, vaya a la sección **[!UICONTROL Notificaciones]**.
 
 1. Haga clic en una categoría para ver la configuración de notificaciones relacionada con esa categoría.
 
@@ -83,7 +83,8 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
 
    Para la categoría **[!UICONTROL Comunicación]**, puede seleccionar notificaciones individuales solo para envío instantáneo. Para que las notificaciones se envíen en un resumen diario, debe seleccionarlas todas.
 
-   Si se activan todas las notificaciones por correo electrónico de una categoría determinada, la casilla del título de la categoría aparece como seleccionada. Si todas las notificaciones por correo electrónico de una categoría determinada están desactivadas, la casilla no está seleccionada. Si algunas notificaciones están activadas y otras desactivadas, la casilla de verificación de la categoría aparece como una línea recta.\
+   Si se activan todas las notificaciones por correo electrónico de una categoría determinada, la casilla del título de la categoría aparece como seleccionada. Si todas las notificaciones por correo electrónico de una categoría determinada están desactivadas, la casilla no está seleccionada. Si algunas notificaciones están activadas y otras desactivadas, la casilla de verificación de la categoría aparece como una línea recta.
+
    Cuando modifica una configuración de notificación, aparece la etiqueta **[!UICONTROL Editada]** para esa configuración de notificación, para que sepa que esa configuración de notificación se ha modificado.
 
 1. Si seleccionó las notificaciones que se enviarán como un resumen diario, seleccione la hora del día a la que desee recibirlas en la parte superior de la sección **[!UICONTROL Notificaciones]** del menú **[!UICONTROL Resumen diario de correo electrónico después de]**.
@@ -97,4 +98,4 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
 
    ![Recibir correos electrónicos de la zona protegida](assets/receive-emails-from-sandbox-setting-edit-350x223.png)
 
-1. Haga clic en **[!UICONTROL Guardar cambios]**.
+1. Haga clic en **[!UICONTROL Guardar]**.

@@ -9,10 +9,10 @@ feature: Work Management
 exl-id: 2df8522e-7eee-4440-be0f-f7483c5acdb0
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 62d7144f808e7937f11c11ccff64e409c76f2197
+source-git-commit: c3d34c4b33164f5fe5b4420f3ddc81f3390abbf1
 workflow-type: tm+mt
-source-wordcount: '3062'
-ht-degree: 69%
+source-wordcount: '3123'
+ht-degree: 68%
 
 ---
 
@@ -583,6 +583,23 @@ Los formularios se añaden automáticamente a las tareas creadas a partir de la 
 1. Haga clic en **Guardar**.
 
    Cuando usted u otro usuario crea un proyecto a partir de esta plantilla, todos los ajustes aplicados a las tareas de plantilla se convierten en los ajustes de las tareas de proyecto.
+
+
+## Editar tareas de plantilla en una lista
+
+Puede editar la tarea de plantilla en una lista de las siguientes áreas:
+
+* La sección Tareas de plantilla de una plantilla
+* Informe de tarea de plantilla
+
+La edición de tareas de plantilla en una lista es similar a la edición de tareas de proyecto en una lista.
+
+>[!TIP]
+>
+>No hay ningún modo de planificación disponible para las tareas de plantilla.
+
+
+Para obtener más información, consulte [Editar tareas en una lista](/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks-in-a-list.md).
 
 
 <!--
