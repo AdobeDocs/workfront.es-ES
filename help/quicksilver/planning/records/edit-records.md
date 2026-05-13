@@ -8,10 +8,10 @@ recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 31aff197d6af521df2258f3f99fea6fb5785b9e3
+source-git-commit: c3d34c4b33164f5fe5b4420f3ddc81f3390abbf1
 workflow-type: tm+mt
-source-wordcount: '2918'
-ht-degree: 9%
+source-wordcount: '2954'
+ht-degree: 8%
 
 ---
 
@@ -34,7 +34,7 @@ Para obtener más información, consulte [Crear tipos de registros](/help/quicks
 
 Para obtener información sobre la creación de registros, consulte [Crear registros](/help/quicksilver/planning/records/create-records.md).
 
-&lt;!— mencione aquí que los campos de la vista Detalles son los mismos que los de la vista de tabla — este artículo está vinculado desde Administrar vistas de registros a hacer referencia a esta información—>
+&lt;!— mencione aquí que los campos de la vista Detalles son los mismos que los de la vista de tabla — este artículo está vinculado desde la vista Administrar vistas de registros para hacer referencia a esta información—>
 
 ## Requisitos de acceso
 
@@ -319,6 +319,8 @@ Para obtener más información, consulte [Crear registros](/help/quicksilver/pla
 
    En la vista de tabla, haga clic en el icono **Abrir detalles** ![Abrir detalles en el campo de nombre de tabla](assets/open-details-icon-in-table-name-field.png) de la primera columna. La vista previa del registro se abrirá en la vista.
 
+   <!--update screenshot for new details views preview-->
+
    ![Cuadro de detalles](assets/details-box.png)
 
 1. (Opcional) Haga clic en el menú **Más** a la derecha del título del registro y, a continuación, haga clic en **Cambiar nombre**. Se actualiza el campo que se muestra como título del registro.
@@ -373,6 +375,8 @@ Para obtener más información, consulte [Crear registros](/help/quicksilver/pla
      ![Menú contextual para la fila de registros](assets/contextual-menu-for-record-row.png)
 
      Se abre la página de registro.
+
+     <!--update screenshot for new details views preview-->
 
      ![Página de detalles](assets/details-page.png)
 

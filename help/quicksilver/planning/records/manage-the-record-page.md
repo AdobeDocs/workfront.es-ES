@@ -8,7 +8,7 @@ recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
 last-update: 2026-04-01T18:23:03Z
 git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
-source-git-commit: cbee9aabad7300c2a7ff7aa92bc68a6368a1efcd
+source-git-commit: c3d34c4b33164f5fe5b4420f3ddc81f3390abbf1
 workflow-type: tm+mt
 source-wordcount: '1646'
 ht-degree: 46%
@@ -201,11 +201,15 @@ Para añadir una sección a una vista previa o a una página del registro:
 
    La vista previa del registro se abrirá en la vista.
 
+   <!--update screen shot for details views preview-->
+
    ![Cuadro de detalles](assets/details-box.png)
 
 1. (Opcional) Haga clic en el icono **Abrir en ficha nueva** ![Abrir detalles en un icono de ficha nueva](assets/open-details-in-a-new-tab-icon.png) en la esquina superior derecha de la vista previa del registro para abrir la página del registro en una ficha nueva.
 
    Se abre la página de registro. La pestaña Detalles se abre de forma predeterminada.
+
+   <!--update screen shot for details views preview-->
 
    ![Página de detalles](assets/details-page.png)
 
@@ -280,6 +284,8 @@ Ocurren lo siguiente:
 
    La vista previa del registro se abrirá en la vista.
 
+   <!--update screen shot for details views preview-->
+
    ![Cuadro de detalles](assets/details-box.png)
 
 1. (Opcional y condicional) <!--If you are using the Production environment,--> Dependiendo de los campos que desee mostrar en la página Detalles, realice una de las siguientes acciones:
@@ -302,16 +308,21 @@ Ocurren lo siguiente:
    -->
    <!--
    <div class="preview">
+
    In the Preview environment, continue with the following: 
+   
    1. To display all the fields, expand the page view dropdown menu, then select **All fields**.
    1. (Optional) ClicK **New Details** to add a new page and customize it, then do the following:
       1. In the **Create view** box, add a name for the new details page view, then click **Create**. 
-      1. Hover over the fields on the view and click the **Hide and drag field** icon ![Hide and drag field icon](assets/hide-field-in-details-page-icon.png) to the left of the fields, to hide the field or place it in another spot on the page. 
+      1. Hover over the fields on the view and click the **Hide field** icon ![Hide field icon](assets/hide-field-in-details-page-icon.png) to the left of the fields, to hide the field. 
+     
          >[!TIP]
          >
          >* Custom pages are visible by everyone who accesses the record. 
          >* The last page view you choose will be the one that opens by default when you open another record of the same type.
+     
       1. (Optional) Click the **Fields icon** ![Fields icon](assets/fields-icon.png) at the top of the details page, then hide or show fields on the Details page. 
+     
          >[!TIP]
          >
          >The **Fields** icon is not available when you display the details page in the **Selected table view** or the **All fields** views. 
@@ -331,6 +342,8 @@ Ocurren lo siguiente:
 1. (Opcional) Haga clic en el icono **Abrir en ficha nueva** ![Abrir cuadro de detalles en un icono de ficha nueva](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> en la esquina superior derecha de la vista previa del registro para abrir la página del registro en una ficha nueva.
 
    La página de registro **Detalles** se abre en una nueva pestaña.
+
+   <!--update screen shot for details views preview-->
 
    ![Página de detalles](assets/details-page.png)
 

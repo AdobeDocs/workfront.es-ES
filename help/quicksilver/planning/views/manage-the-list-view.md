@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 1c7e6973-6e9e-4c93-9d3b-89ed90df9d14
 last-update: 2026-04-01T18:23:03Z
 git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
-source-git-commit: cbee9aabad7300c2a7ff7aa92bc68a6368a1efcd
+source-git-commit: c3d34c4b33164f5fe5b4420f3ddc81f3390abbf1
 workflow-type: tm+mt
-source-wordcount: '1799'
+source-wordcount: '1803'
 ht-degree: 1%
 
 ---
@@ -32,7 +32,7 @@ although list views in Planning are very similar to Workfront enhanced lists, ke
 
 Puede ver objetos en la vista de lista en las siguientes áreas de Workfront Planning:
 
-* Página de registros conectada para proyectos en el área de detalles de un registro
+* Página de registros conectada para proyectos en el área de detalles de un registro <!--update screen shot for preview May 14 with Grouping icon and add the note at the top in yellow about preview-->
 
   ![Proyectos en la página de registros conectados en la vista de lista](assets/projects-on-connected-records-page-list-view.png)
 
@@ -189,11 +189,6 @@ Removed - more direct steps below:
       Solo se pueden agregar campos existentes a la vista de lista.
 No se puede quitar el campo principal en la vista de lista que aparece en la primera columna.
 
-      <!-- 
-        update indent here: 
-        1. <span class="preview">Click the **Grouping** icon ![Grouping icon](assets/grouping-icon.png) to choose fields to group items by, then sort them in an ascending or descending order. </span>
-        -->
-
    1. Haga clic en el icono **Formato de celdas** ![Formato de celdas](assets/format-cells-icon.png). Se abre el cuadro **Formato**. <!--change the name of the box when they update it-->
 Haga lo siguiente:
 
@@ -232,7 +227,7 @@ Haga lo siguiente:
 El formato se aplica inmediatamente a la vista de lista.
 Hay un punto azul al lado del icono **Formato de celdas** para indicar que la vista tiene un formato especial aplicado.
 
-   1. (Opcional) Haga clic en el icono **Agrupación** ![Icono de agrupación](assets/grouping-icon.png) <!--have they updated this to "Grouping"??--> para agrupar los elementos de la lista por un campo común. Seleccione una de las opciones o utilice la barra de búsqueda para buscar un campo.
+   1. (Opcional) Haga clic en el icono **Agrupación** ![Icono de agrupación](assets/grouping-icon.png) para agrupar los elementos de la lista por un campo común. Seleccione una de las opciones o utilice la barra de búsqueda para buscar un campo.
 
       El campo debe ser una columna de la lista para poder agrupar por él. No todos los tipos de campo se pueden usar para agrupaciones.
 
@@ -243,7 +238,7 @@ Hay un punto azul al lado del icono **Formato de celdas** para indicar que la vi
       * Media
       * Alta
 
-   <!--leave these here, although they duplicate for Enhanced lists in Workfront-->
+      <!--leave these here, although they duplicate for Enhanced lists in Workfront-->
 
 1. (Opcional) Agregue una palabra clave al cuadro de búsqueda en la esquina superior derecha de la lista para buscar un elemento.
 
@@ -253,19 +248,21 @@ Hay un punto azul al lado del icono **Formato de celdas** para indicar que la vi
 
    * Haga clic en **Conectar registros** en la esquina superior derecha de la lista para agregar los elementos existentes.
    * Haga clic en **Nueva fila** al final de la lista para agregar nuevos elementos.
-1. Haga clic en el nombre de un elemento conectado en la lista para abrirlo en otra ficha del explorador.
+1. Haga clic en el nombre de un elemento de la lista para abrirlo en otra pestaña del explorador.
 1. Haga doble clic dentro de una celda de la lista para editar la información de un campo y, a continuación, pulse Intro para guardar los cambios.
 
    Algunos campos son de solo lectura. Por ejemplo, el porcentaje completado de un proyecto es un campo calculado por el sistema y no se puede editar manualmente.
 
-1. Pase el ratón sobre el nombre de un elemento en la lista y haga clic en el menú **Más** [Menú más](assets/more-menu.png) y luego haga clic en **Ver** para abrir el proyecto en otra pestaña
+1. Pase el ratón sobre el nombre de un elemento en la lista y haga clic en el menú **Más** [Menú más](assets/more-menu.png) y luego haga clic en **Ver** para abrir el elemento en otra pestaña
 
    O
 
-   Seleccione uno o varios elementos, observe la barra de acciones situada en la parte inferior de la lista y, a continuación, haga clic en uno de los siguientes, cuando esté disponible. Según el área desde la que acceda a la vista de lista, haga clic en una de las siguientes opciones:
+   Seleccione uno o varios elementos, observe la barra de acciones situada en la parte inferior de la lista y, a continuación, haga clic en uno de los siguientes, cuando esté disponible.
+
+   Según el área desde la que acceda a la vista de lista, haga clic en una de las siguientes opciones:
 
    * **Eliminar** para eliminar el elemento. Al eliminar un proyecto, se desconecta del registro y se mueve a la papelera de reciclaje de Workfront. Los administradores de Workfront pueden recuperar los proyectos eliminados hasta 30 días después de haberlos eliminado. Al eliminar un formulario, no se eliminan las solicitudes ni los registros creados cuando se envió el formulario.
-   * **Desconectar** para desconectar el proyecto del registro. Al desconectar un proyecto, éste y todos los valores de sus campos de búsqueda se eliminan del registro actual.
+   * **Desconectar** en la página de proyectos conectados para desconectar un proyecto del registro. Al desconectar un proyecto, éste y todos los valores de sus campos de búsqueda se eliminan del registro actual.
 
      ![Barra de acciones en la vista Lista de páginas de registros conectados](assets/actions-bar-connected-records-page-list-view.png)
 

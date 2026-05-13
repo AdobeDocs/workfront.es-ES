@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 93c6bc15-d945-4cfc-8e87-f5b4e6fac2f4
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 31aff197d6af521df2258f3f99fea6fb5785b9e3
+source-git-commit: c3d34c4b33164f5fe5b4420f3ddc81f3390abbf1
 workflow-type: tm+mt
-source-wordcount: '676'
+source-wordcount: '679'
 ht-degree: 17%
 
 ---
@@ -178,12 +178,16 @@ Puede personalizar un registro agregando una imagen de portada en la parte super
 
    La vista previa del registro se abrirá en la vista.
 
+   <!--update screen shot for new details views preview-->
+
    ![Cuadro de vista previa de detalles](assets/details-box.png)
 
 
 1. (Opcional) Haga clic en el icono **Abrir en ficha nueva** ![Abrir en icono de ficha nueva](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> en la esquina superior derecha de la vista previa del registro para abrir la página del registro en una ficha nueva.
 
    Se abre la página de registro.
+
+   <!--update screen shot for new details views preview-->
 
    ![Página de detalles](assets/details-page.png)
 
@@ -207,6 +211,8 @@ El cuadro **Cubierta de registro** se abre en la ficha **Cargar**.
 1. Haga clic en **Usar imagen**.
 
    La imagen se carga en la parte superior de la página de vista previa del registro o de detalles y los cambios se guardan automáticamente.
+
+   <!--update screen shot for new details views preview-->
 
    ![Grabar página con imagen de portada](assets/record-page-with-cover-image.png)
 
