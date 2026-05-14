@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: b100ea35-e045-4021-b5be-2c9071b381da
-source-git-commit: dc71072107ce80f6cb9033fcb17fe4ac74d5af18
+source-git-commit: a7f7099f3de147ed166ab19ac44608ba01eb6d31
 workflow-type: tm+mt
-source-wordcount: '1226'
+source-wordcount: '1230'
 ht-degree: 45%
 
 ---
@@ -88,7 +88,7 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
      <tr> 
       <td>[!UICONTROL Project]</td> 
       <td>El nombre de un proyecto</td> 
-      <td>[!UICONTROL Tareas], [!UICONTROL Detalles del proyecto], [!UICONTROL Caso comercial], [!UICONTROL Actualizaciones], [!UICONTROL Documentos], [!UICONTROL Problemas], [!UICONTROL Riesgos], [!UICONTROL Aprobaciones], [!UICONTROL Líneas bases], [!UICONTROL Tasas de facturación], [!UICONTROL Registros de facturación], [!UICONTROL Gastos], [!UICONTROL Horas], [!UICONTROL Distribuidor de cargas de trabajo], [!UICONTROL Personas], [!UICONTROL Utilización], [!UICONTROL Detalles de cola], [!UICONTROL Reglas de enrutamiento], [!UICONTROL Tema de cola], [!UICONTROL Grupo de temas], [!UICONTROL Métricas], [!UICONTROL Planificación]*, [!UICONTROL Aplicación personalizada]**</td> 
+      <td>[!UICONTROL Tareas], [!UICONTROL Detalles del proyecto], [!UICONTROL Caso comercial], [!UICONTROL Actualizaciones], [!UICONTROL Documentos], [!UICONTROL Problemas], [!UICONTROL Riesgos], [!UICONTROL Aprobaciones], [!UICONTROL Líneas bases], [!UICONTROL Tasas de facturación], [!UICONTROL Recurso de facturación], [!UICONTROL Registros de facturación], [!UICONTROL Gastos], [!UICONTROL Horas], [!UICONTROL Distribuidor de cargas], [!UICONTROL [!UICONTROL People], [!UICONTROL Utilización], [!UICONTROL Detalles de cola], [!UICONTROL Reglas de enrutamiento], [!UICONTROL Tema de cola], [!UICONTROL Grupo de temas], [!UICONTROL Métricas], [!UICONTROL Planificación]*, [!UICONTROL Aplicación personalizada]**</td> 
      </tr> 
      <tr> 
       <td>[!UICONTROL Task]</td> 
@@ -134,12 +134,12 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
      </tr> 
      <tr> 
       <td>[!UICONTROL Projects]</td> 
-      <td>Proyectos <img src="assets/projects-in-main-menu.png"> en el menú principal de  <img src="assets/main-menu-icon-left-nav.png"></td> 
+      <td>Proyectos <img src="assets/projects-in-main-menu.png"> en el menú principal de [!UICONTROL] <img src="assets/main-menu-icon-left-nav.png"></td> 
       <td>[!UICONTROL Projects]</td> 
      </tr> 
      <tr> 
       <td>[!UICONTROL Recursos]</td> 
-      <td>[!UICONTROL Recursos] en el menú principal de  <img src="assets/main-menu-icon-left-nav.png"></td> 
+      <td>[!UICONTROL Recursos] en el menú principal de [!UICONTROL] <img src="assets/main-menu-icon-left-nav.png"></td> 
       <td>[!UICONTROL Planificador] (no se puede ocultar), [!UICONTROL Distribuidor de cargas de trabajo], [!UICONTROL Utilización], [!UICONTROL Conjuntos de recursos]</td> 
      </tr> 
      <tr> 
@@ -204,7 +204,7 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
     </tbody> 
    </table>
 
-   *Su empresa debe adquirir una licencia adicional para Workfront Planning a fin de poder agregar esta área al panel izquierdo de proyectos, portafolios y programas. Para obtener más información, consulte [Introducción a Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md)
+   *Su empresa debe adquirir una licencia adicional para Workfront Planning a fin de poder agregar esta área al panel izquierdo de proyectos, portafolios y programas. Para obtener más información, consulte [Introducción a Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
 
    **Las aplicaciones personalizadas deben crearse por separado antes de que estén disponibles como opciones del panel izquierdo. Para obtener más información, consulte [Crear una aplicación personalizada para Workfront con Adobe App Builder](/help/quicksilver/app-builder/app-builder.md).
 
