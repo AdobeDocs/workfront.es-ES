@@ -6,9 +6,9 @@ description: Inventario, clasificación y corrección de escenarios de Workfront
 author: Courtney
 feature: Work Management, Digital Content and Documents
 role: Admin
-source-git-commit: 722ba7f6617e3ccc1a1dcbf51f5d539c550617ab
+source-git-commit: 0a635f80338cef38dec7d32391596ca9ccd2fd6c
 workflow-type: tm+mt
-source-wordcount: '795'
+source-wordcount: '804'
 ht-degree: 1%
 
 ---
@@ -32,9 +32,9 @@ Los escenarios de Fusion existentes creados en Workfront Proof dependen de módu
 
 | Tipo de escenario | Impacto | Ruta hacia adelante |
 |---|---|---|
-| Creación y enrutamiento de pruebas | Pausa | Vuelva a compilar con la API de aprobaciones unificadas |
-| Webhooks del estado de prueba | Pausa | Reconstruir con nuevos déclencheur de evento de aprobación |
-| Déclencheur de carga de documento | Parcial: se requiere una nueva prueba | Auditoría y pruebas después de la migración |
+| Creación y enrutamiento de pruebas | Pausa | Vuelva a compilar con la API de aprobaciones unificadas en el tercer trimestre de 2026 |
+| Webhooks del estado de prueba | Pausa | Vuelva a compilar con nuevos déclencheur de evento de aprobación en el tercer trimestre de 2026 |
+| Déclencheur de carga de documento | Parcial: se requiere una nueva prueba | Auditoría y pruebas posteriores a la migración en el tercer trimestre de 2026 |
 | Notificaciones de recordatorio de aprobación | Pausa | Reemplazar por plazos de la plantilla de aprobación |
 | Enrutamiento de decisión de aprobación | Pausa | Volver a generar con nuevos campos de estado de decisión |
 | Informes de aprobación personalizados | Parcial: los nombres de campo pueden cambiar | Asignar campos heredados al nuevo esquema |
