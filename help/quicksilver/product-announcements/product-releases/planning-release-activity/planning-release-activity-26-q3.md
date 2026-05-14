@@ -6,10 +6,10 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 5416c2d847e9b1023068719602c4d1d4e6219801
+source-git-commit: e40d28599148e22a8553d1ef1e669811e80a59df
 workflow-type: tm+mt
-source-wordcount: '151'
-ht-degree: 4%
+source-wordcount: '332'
+ht-degree: 2%
 
 ---
 
@@ -55,35 +55,32 @@ We recommend to use the Sample workspaces as examples only, and rather use the m
 
 For information, see Workspaces overview (/help/quicksilver/planning/architecture/workspaces-overview.md). 
 
-## Custom views for a record's Details page 
-
->[!NOTE]
->
->Preview: May 14, 2026 
->Production fast release: June 11, 2026 
->Production for everyone: July 16, 2026 
-
-To allow for better flexibility of visualizing your information in a record's details page, we have introduced the ability to create custom views for this page.  
-
-In addition to adding two already-built details page views that contain either all the records fields or just the fields visible in the table view, you can now create custom views for a record's details pages. The views you create are visible to everyone that can access the record.  
-
-This update removes the **Show all fields** setting and replaces it with custom details views.  
-
-For information, see [Manage the record page](/help/quicksilver/planning/records/manage-the-record-page.md).  
-
-## Add groupings to a Projects connected record page
-
->[!NOTE]
->
->Preview: May 14, 2026     
->Production fast: June 11, 2026 
->Production for everyone: July 16, 2026 
-
-You can now group your information in the projects connected records page of a record in Workfront Planning. This capability did not exist in this area prior to this enhancement.  
-
-For information, see [Manage the list view](/help/quicksilver/planning/views/manage-the-list-view.md).
-
 -->
+
+## Vistas personalizadas para la página Detalles de un registro
+
+>[!NOTE]
+>
+>Vista previa: 14 de mayo de 2026>Versión rápida de producción: 11 de junio de 2026>Producción para todos: 16 de julio de 2026
+
+Para permitir una mejor flexibilidad de visualización de la información en la página de detalles de un registro, hemos introducido la capacidad de crear vistas personalizadas para esta página.
+
+Además de agregar dos vistas de página de detalles ya creadas que contienen todos los campos de registros o sólo los campos visibles en la vista de tabla, ahora puede crear vistas personalizadas para las páginas de detalles de un registro. Las vistas que cree serán visibles para todos los usuarios que tengan acceso al registro.
+
+Esta actualización elimina la configuración **Mostrar todos los campos** y la reemplaza por vistas de detalles personalizadas.
+
+Para obtener más información, consulte [Administrar la página de registros](/help/quicksilver/planning/records/manage-the-record-page.md).
+
+## Agregar agrupaciones a una página de registros conectados de proyectos
+
+>[!NOTE]
+>
+>Vista previa: 14 de mayo de 2026\
+>Producción rápida: 11 de junio de 2026>Producción para todos: 16 de julio de 2026
+
+Ahora puede agrupar la información en la página de registros conectados de proyectos de un registro en Workfront Planning. Esta capacidad no existía en esta área antes de esta mejora.
+
+Para obtener más información, consulte [Administrar la vista de lista](/help/quicksilver/planning/views/manage-the-list-view.md).
 
 
 <!--
