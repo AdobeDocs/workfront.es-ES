@@ -8,21 +8,19 @@ recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
 last-update: 2026-04-01T18:23:03Z
 git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
-source-git-commit: c3d34c4b33164f5fe5b4420f3ddc81f3390abbf1
+source-git-commit: e40d28599148e22a8553d1ef1e669811e80a59df
 workflow-type: tm+mt
-source-wordcount: '1646'
-ht-degree: 46%
+source-wordcount: '1989'
+ht-degree: 38%
 
 ---
 
 
 # Administrar el diseño de página de registro
 
-<!--
-<span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">La información resaltada en esta página hace referencia a funcionalidades que aún no están disponibles de forma general. Solo está disponible en el entorno de vista previa para todos los clientes. Después de las versiones mensuales en Production, las mismas funciones también están disponibles en el entorno Production para los clientes que habilitaron versiones rápidas. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+<span class="preview">Para obtener información sobre las versiones rápidas, consulte [Habilitar o deshabilitar las versiones rápidas para su organización](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{planning-important-intro}}
 
@@ -288,7 +286,7 @@ Ocurren lo siguiente:
 
    ![Cuadro de detalles](assets/details-box.png)
 
-1. (Opcional y condicional) <!--If you are using the Production environment,--> Dependiendo de los campos que desee mostrar en la página Detalles, realice una de las siguientes acciones:
+1. (Opcional y condicional) Si utiliza el entorno de producción, según los campos que desee mostrar en la página Detalles, realice una de las siguientes acciones:
 
 
    * Seleccione la configuración **Mostrar todos los campos** para incluir todos los campos del registro en la página **Detalles**. Esta es la configuración predeterminada.
@@ -300,36 +298,37 @@ Ocurren lo siguiente:
      >* No se pueden agregar secciones a la página de un registro cuando se excluyen campos ocultos en el cuadro Vista previa de detalles.
 
 
-   <!--
-   1. <span class="preview">(Optional and conditional) If you are using the Preview environment, the details area opens by default in the **Selected table view fields** view. This displays only the fields that are visible in the table view. </span>
+1. <span class="preview"> (opcional y condicional) Si utiliza el entorno de vista previa, el área de detalles se abrirá de forma predeterminada en la vista **Campos de vista de tabla seleccionados**. Esto muestra únicamente los campos visibles en la vista de tabla. </span>
+
+   >[!TIP]
+   >
+   > <span class="preview">La vista **Campos de vista de tabla seleccionados** solo está disponible cuando se ven registros en la vista de tabla.</span>
+
+<div class="preview">
+
+En el entorno de vista previa, continúe con lo siguiente:
+
+1. Para mostrar todos los campos, expanda el menú desplegable de vista de página y luego seleccione **Todos los campos**.
+1. (Opcional) Haga clic en **Nuevos detalles** para agregar una nueva página y personalizarla. A continuación, haga lo siguiente:
+
+   1. En el cuadro **Crear vista**, agregue un nombre para la nueva vista de página de detalles y haga clic en **Crear**.
+   1. Pase el ratón sobre los campos de la vista y haga clic en el icono **Ocultar campo** ![Ocultar icono de campo](assets/hide-field-in-details-page-icon.png) que se encuentra a la izquierda de los campos para ocultar el campo.
+
       >[!TIP]
       >
-      > <span class="preview">The **Selected table view fields** view is only available when you view records in the table view.</span>
-   -->
-   <!--
-   <div class="preview">
+      >* Las páginas personalizadas son visibles para todos los que acceden al registro.
+      >* La última vista de página que elija será la que se abra de forma predeterminada cuando abra otro registro del mismo tipo.
 
-   In the Preview environment, continue with the following: 
-   
-   1. To display all the fields, expand the page view dropdown menu, then select **All fields**.
-   1. (Optional) ClicK **New Details** to add a new page and customize it, then do the following:
-      1. In the **Create view** box, add a name for the new details page view, then click **Create**. 
-      1. Hover over the fields on the view and click the **Hide field** icon ![Hide field icon](assets/hide-field-in-details-page-icon.png) to the left of the fields, to hide the field. 
-     
-         >[!TIP]
-         >
-         >* Custom pages are visible by everyone who accesses the record. 
-         >* The last page view you choose will be the one that opens by default when you open another record of the same type.
-     
-      1. (Optional) Click the **Fields icon** ![Fields icon](assets/fields-icon.png) at the top of the details page, then hide or show fields on the Details page. 
-     
-         >[!TIP]
-         >
-         >The **Fields** icon is not available when you display the details page in the **Selected table view** or the **All fields** views. 
-      1. (Optional) To edit the name of a custom details page view, hover over the name of the view and click the **More** icon ![More icon](assets/more-menu.png) , then click **Edit**. 
-      1. (Optional) To delete a custom details page view, hover over the name of the view and click the **More** icon ![More icon](assets/more-menu.png), then click **Delete**, then **Delete** to confirm. Deleted details page views cannot be recovered. 
-   </div>
-   -->
+   1. (Opcional) Haga clic en el icono de **Campos** ![Icono de Campos](assets/fields-icon.png) en la parte superior de la página de detalles y, a continuación, oculte o muestre los campos en la página Detalles.
+
+      >[!TIP]
+      >
+      >El icono **Campos** no está disponible cuando muestra la página de detalles en la **vista de tabla seleccionada** o en las vistas **Todos los campos**.
+
+   1. (Opcional) Para editar el nombre de una vista de página de detalles personalizada, pase el ratón sobre el nombre de la vista, haga clic en el icono **Más** ![Icono de más](assets/more-menu.png) y, a continuación, haga clic en **Editar**.
+   1. (Opcional) Para eliminar una vista de página de detalles personalizada, pase el ratón sobre el nombre de la vista, haga clic en el icono **Más** ![Icono de más](assets/more-menu.png), a continuación, haga clic en **Eliminar** y, por último, en **Eliminar** para confirmar. Las vistas de página de detalles eliminadas no se pueden recuperar.
+
+</div>
 
 1. (Opcional) Si desea desplazarse a un registro conectado, haga clic en el nombre de ese registro en la ruta de exploración situada en la parte superior de la página de detalles.
 
