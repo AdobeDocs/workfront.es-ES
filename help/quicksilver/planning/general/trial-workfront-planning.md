@@ -7,9 +7,9 @@ role: User, Admin
 exl-id: fcad60b2-05e8-4774-8135-129bc1d3f9ce
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: c3d34c4b33164f5fe5b4420f3ddc81f3390abbf1
+source-git-commit: 69414cbbee8899bdbf241d57e50e3ef1c10cc162
 workflow-type: tm+mt
-source-wordcount: '2368'
+source-wordcount: '2329'
 ht-degree: 3%
 
 ---
@@ -20,25 +20,26 @@ ht-degree: 3%
 <!--add screen shots-->
 <!--check the names of areas, buttons, and links: Learn more, Open Planning, Review trial agreement, etc-->
 
-<!--
-and this important, and remove the IMPORTANT below - it conflicts with this one: 
 >[!IMPORTANT]
 >
->The Adobe Workfront Planning trial period concludes on May 15, 2026. This article will remain active for a period of time but will be retired soon. We recommend that you update your bookmarks for the future.
--->
+>El periodo de prueba de Adobe Workfront Planning finaliza el 15 de mayo de 2026. Este artículo permanecerá activo durante un período de tiempo, pero se retirará pronto. Le recomendamos que actualice los marcadores para el futuro.
+
+La información de este artículo describe la funcionalidad disponible durante el período de prueba de Workfront Planning.
 
 Adobe Workfront Planning proporciona una visibilidad centralizada del ciclo vital de marketing, lo que permite una mejor colaboración entre equipos, un seguimiento en tiempo real de campañas y flujos de trabajo automatizados. Puede crear espacios de trabajo personalizados y visualizar el trabajo con cronologías y calendarios interactivos.
 
+<!--
 >[!IMPORTANT]
 >
->* Adobe Workfront ofrece una prueba gratuita de 60 días de Adobe Workfront Planning a todos los clientes de Adobe Workfront que no sean también clientes de Workfront Planning.
+>* Adobe Workfront is offering a 60-day free trial of Adobe Workfront Planning to all Adobe Workfront customers who are not also Workfront Planning customers. 
 >
->* El periodo de registro finalizó el 1 de abril de 2026 y ahora está cerrado.
+>* The sign-up period ended on April 1, 2026 and it is now closed. 
 >
->* Si ha aceptado el acuerdo de prueba y está inscrito en la prueba, estará disponible entre las siguientes fechas: del 2 de marzo al 1 de mayo de 2026. Access permanecerá activo hasta el 15 de mayo de 2026.
+>* If you accepted the trial agreement and are enrolled in the trial, it is available between the following dates: March 2 - May 1, 2026. Access will remain active until May 15, 2026.
 >
->* Tenga en cuenta que la versión de prueba está disponible durante 60 días desde su lanzamiento y no durante 60 días desde el momento en que se unió a ella.
+>* Note that the trial is available for 60 days from its launch, and not for 60 days from when you joined it.
 >
+-->
 
 Con esta versión de prueba, verá de primera mano cómo Planning ayuda a alinear el trabajo diario con los objetivos estratégicos, optimiza la ejecución y genera resultados mensurables para su organización.
 

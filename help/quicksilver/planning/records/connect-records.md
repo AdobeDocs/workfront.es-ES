@@ -8,10 +8,10 @@ author: Alina
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 453dbf1c7598858e99d963f7a3806355a8cc80a9
+source-git-commit: 69414cbbee8899bdbf241d57e50e3ef1c10cc162
 workflow-type: tm+mt
-source-wordcount: '3445'
-ht-degree: 36%
+source-wordcount: '3546'
+ht-degree: 35%
 
 ---
 
@@ -264,7 +264,7 @@ Puede conectar registros de Workfront Planning en las siguientes áreas de un re
 
 1. (Opcional) Haga clic en **Ver todo** para mostrar todos los registros.
 
-1. (Condicional) Si hizo clic en **Ver todo** en el paso anterior, se muestra el cuadro **Conectar objetos**.
+1. (Condicional) Si hizo clic en **Ver todo** en el paso anterior, se mostrará el cuadro **Conectar objetos**.
 
    ![Tabla de objetos conectados para registros](assets/connected-objects-table-for-records.png)
 
@@ -473,7 +473,7 @@ Para conectar registros con objetos de Experience Manager:
      >
      >* No se crea un campo de registro vinculado a los registros vinculados de Workfront Planning para los recursos de Experience Manager vinculados en la aplicación de Experience Manager Assets.
 
-1. (Opcional y condicional) Para los recursos, vaya al tipo de registro que vinculó a Experience Manager desde y haga clic en el nombre de un recurso en el campo de registro vinculado. Los detalles del Experience Manager del recurso se muestran en una ventana emergente. <!--not sure if this is also possible for fragments??-->
+1. (Opcional y condicional) Vaya al tipo de registro que vinculó a Experience Manager desde y haga clic en el nombre de un recurso en el campo de registro vinculado. Los detalles de Experience Manager del recurso se muestran en una ventana emergente. <!--not sure if this is also possible for fragments??-->
 
    ![Ventana emergente de recursos con detalles y miniatura de AEM](assets/asset-pop-up-window-with-aem-details-and-thumbnail.png)
 
@@ -489,17 +489,21 @@ Para conectar registros con objetos de Experience Manager:
    * Fecha de creación
    * Fecha de modificación
 
-1. (Opcional y condicional) Para los recursos, para abrir la página de registro de recursos de Experience Manager en Experience Manager, vaya a la página de tipo de registro del registro desde el que está vinculando, haga clic en el nombre de un recurso en el campo de registro vinculado para abrir la ventana emergente y, a continuación, haga clic en el icono **Abrir en AEM** ![Abrir recurso en el icono de AEM](assets/open-asset-icon.png) para abrir el recurso. <!--not sure if this is also possible for fragments??-->
+     >[!TIP]
+     >
+     >La ventana de detalles del objeto de Experience Manager se muestra desde cualquier lugar de Planning donde se muestre el objeto conectado. Por ejemplo, puede abrir las ventanas de detalles de los objetos AEM desde la ventana de tabla o desde el área Detalles de un registro.
+
+1. (Opcional y condicional) Para abrir la página de registro de fragmentos o recursos de Experience Manager en Experience Manager, vaya a la página de tipo de registro del registro desde el que está vinculando, haga clic en el nombre de un recurso en el campo de registro vinculado para abrir la ventana emergente y, a continuación, haga clic en el icono **Abrir en AEM** ![Abrir recurso en el icono de AEM](assets/open-asset-icon.png) para abrir el recurso. <!--not sure if this is also possible for fragments??-->
 
    Se abrirá el recurso del Experience Manager en Adobe Experience Manager Assets.
 
-1. (Opcional y condicional) Para los recursos, desde la vista de tabla del tipo de registro, pase el ratón sobre el encabezado de columna del recurso de Experience Manager vinculado, haga clic en el menú desplegable y, a continuación, haga clic en **Editar campos de búsqueda**. <!--not sure if this is also possible for fragments??-->
+1. (Opcional y condicional) En la vista de tabla del tipo de registro, pase el ratón sobre el encabezado de columna del recurso o fragmento de Experience Manager vinculado, haga clic en el menú desplegable y, a continuación, haga clic en **Editar campos de búsqueda**. <!--not sure if this is also possible for fragments??-->
 
 1. Agregar campos de objeto de Experience Manager Assets desde el área **Campos no seleccionados** <!--not sure if this is also possible for fragments??-->
 
    O
 
-   Quitar campos del objeto Workfront del área **Campos seleccionados**.
+   Quitar campos del objeto de Workfront del área **Campos seleccionados**.
 
    Esto añade o elimina campos vinculados de los registros. La información asociada con los campos eliminados permanece en Adobe Experience Assets.
 
