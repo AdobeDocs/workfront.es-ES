@@ -10,9 +10,9 @@ role: User
 exl-id: cfa2383a-9594-4867-9b48-11b8ea281486
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: f2a4777dfad827f4fa76f82fce9eece7a59d0278
+source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
 workflow-type: tm+mt
-source-wordcount: '1411'
+source-wordcount: '1413'
 ht-degree: 41%
 
 ---
@@ -212,7 +212,7 @@ Para ver las solicitudes que usted u otros usuarios han enviado en la experienci
    >
    >* Si el panel Resumen ya está abierto, el icono Abrir resumen cambia a Cerrar resumen.
    >
-   >* Si su organización utiliza el almacenamiento de documentos empresariales de Adobe, no puede agregar documentos a las solicitudes de almacenamiento de Adobe en el Panel de resumen.
+   >* Si su organización utiliza el almacenamiento en la nube de Adobe para documentos, no puede agregar documentos a las solicitudes de almacenamiento en la nube de Adobe en el Panel de resumen.
    >
    >Para obtener más información, vea [Información general sobre la administración de documentos de proyectos y objetos relacionados](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
 

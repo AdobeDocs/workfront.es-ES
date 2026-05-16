@@ -9,9 +9,9 @@ role: User
 exl-id: a6a1f178-189a-4c41-835b-7726081a2b49
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: f2a4777dfad827f4fa76f82fce9eece7a59d0278
+source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
 workflow-type: tm+mt
-source-wordcount: '8107'
+source-wordcount: '8112'
 ht-degree: 88%
 
 ---
@@ -287,7 +287,7 @@ Para obtener información sobre cómo crear un proyecto a partir de una plantill
       <p><b>NOTAS</b></p>
       <ul>
       <li>Debe tener permisos de administración en el portafolio para poder añadirlo al proyecto o quitarlo de él.</li>
-      <li>Si su organización utiliza el almacenamiento empresarial heredado de Workfront y Adobe, no puede copiar tareas entre proyectos que utilicen tipos de almacenamiento diferentes. Es posible que la instancia de Workfront no tenga ambos tipos de almacenamiento de documentos.</li></ul> 
+      <li>Si su organización utiliza el almacenamiento en la nube heredado de Workfront y Adobe, no puede copiar tareas entre proyectos que utilicen diferentes tipos de almacenamiento. Es posible que la instancia de Workfront no tenga ambos tipos de almacenamiento de documentos.</li></ul> 
       Para obtener más información, vea <a href="/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md">Información general sobre la administración de documentos de proyectos y objetos relacionados</a>. 
       </td> 
       </tr> 
@@ -297,7 +297,7 @@ Para obtener información sobre cómo crear un proyecto a partir de una plantill
       <p><b>NOTAS</b></p>
       <ul>
       <li>Debe tener permisos de administración en el programa para poder añadirlo al proyecto o quitarlo de él.</li>
-      <li>Si su organización utiliza los tipos de almacenamiento de documentos Workfront y Adobe, no puede asociar un proyecto de almacenamiento de Workfront con un programa de almacenamiento de Adobe. Lo contrario también es cierto. Es posible que la instancia de Workfront no tenga ambos tipos de almacenamiento de documentos. Los programas heredan el tipo de almacenamiento del portafolio al que pertenecen. </li></ul>
+      <li>Si su organización utiliza el almacenamiento en la nube de Workfront y Adobe para documentos, no puede asociar un proyecto de almacenamiento de Workfront heredado con un programa de almacenamiento en la nube de Adobe. Lo contrario también es cierto. Es posible que la instancia de Workfront no tenga ambos tipos de almacenamiento de documentos. Los programas heredan el tipo de almacenamiento del portafolio al que pertenecen. </li></ul>
 
    Para obtener más información, vea <a href="/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md">Información general sobre la administración de documentos de proyectos y objetos relacionados</a>.
 
@@ -709,7 +709,7 @@ Puede definir los permisos que los usuarios reciben para el proyecto, así como 
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader"><strong>Conceder también acceso al proyecto</strong></td> 
-      <td><p>Seleccione entre el acceso de <strong>visualización</strong>, <strong>contribución</strong> o <strong>administración</strong> del proyecto. Al usuario asignado a un problema se le concede también automáticamente este acceso al proyecto.<br></p></td> 
+      <td><p>Seleccione entre el acceso de <strong>Visualización</strong>, <strong>Contribución</strong> o <strong>Administración</strong> al proyecto. Al usuario asignado a un problema se le concede también automáticamente este acceso al proyecto.<br></p></td> 
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader"><strong>Cuando una persona envía una solicitud: concederle acceso</strong></td> 
@@ -804,7 +804,7 @@ Tenga en cuenta lo siguiente al editar proyectos de forma masiva:
 
 * Cuando se seleccionan varios proyectos que pertenecen a grupos diferentes, los estados que se muestran en el campo Estado son estados a nivel de sistema y no estados a nivel de grupo.
 
-* Cuando selecciona varios proyectos que tienen diferentes tipos de almacenamiento de documentos y desea actualizar Portfolio o el programa para los proyectos seleccionados, no puede asociar un proyecto de almacenamiento de Workfront con un portafolio de almacenamiento de Adobe. Lo contrario también es cierto. En este caso, asegúrese de seleccionar solo los proyectos que tengan tipos de almacenamiento similares a la vez.
+* Cuando selecciona varios proyectos que tienen diferentes tipos de almacenamiento de documentos y desea actualizar Portfolio o el programa para los proyectos seleccionados, no puede asociar un proyecto de almacenamiento de Workfront heredado con un portafolio de almacenamiento en la nube de Adobe. Lo contrario también es cierto. En este caso, asegúrese de seleccionar solo los proyectos que tengan tipos de almacenamiento similares a la vez.
 
   Es posible que la instancia de Workfront no tenga ambos tipos de almacenamiento de documentos.
 

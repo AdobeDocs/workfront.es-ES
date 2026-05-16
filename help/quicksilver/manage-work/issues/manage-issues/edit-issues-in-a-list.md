@@ -8,9 +8,9 @@ feature: Work Management
 exl-id: a3276d83-c08f-4480-9092-aa47ba76d794
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: f2a4777dfad827f4fa76f82fce9eece7a59d0278
+source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
 workflow-type: tm+mt
-source-wordcount: '908'
+source-wordcount: '910'
 ht-degree: 18%
 
 ---
@@ -157,7 +157,7 @@ Puede editar un problema de una lista mediante el Panel de resumen.
    | Horas ![Registrar tiempo](assets/log-time-icon-in-summary.png) | Haga clic para registrar horas. |
    | Icono de aprobaciones ![Approvals](assets/approvals-icon-in-summary.png) | Haga clic en para añadir aprobaciones de problema. |
 
-   *Si su organización utiliza el almacenamiento de documentos empresariales de Adobe, no puede agregar documentos a los problemas de almacenamiento de Adobe en el Panel de resumen.
+   * Si su organización utiliza el almacenamiento en la nube de Adobe para documentos, no puede agregar documentos a los problemas de almacenamiento en la nube de Adobe en el Panel de resumen.
 
    Para obtener más información, vea [Información general sobre la administración de documentos de proyectos y objetos relacionados](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
 

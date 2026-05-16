@@ -6,9 +6,9 @@ description: Puede vincular un recurso o una carpeta de Experience Manager Asset
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 0b93f6f6-cf4b-4077-a464-be7f19f7cd25
-source-git-commit: 90eb99fa46e706a53427f995d484e2fb42e9c293
+source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
 workflow-type: tm+mt
-source-wordcount: '628'
+source-wordcount: '629'
 ht-degree: 51%
 
 ---
@@ -19,7 +19,7 @@ Puede vincular un recurso o una carpeta de Experience Manager Assets Essentials 
 
 Para vincular recursos y carpetas desde Experience Manager Assets mediante el Asesor de contenido, consulte [Vincular recursos y carpetas con el Asesor de contenido con tecnología Experience Manager Assets](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/link-to-aem.md).
 
-Si está en almacenamiento empresarial, consulte [Usar Adobe Experience Manager con la integración Frame.io](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/use-aem-with-frame.md).
+Si está en el almacenamiento en la nube de Adobe, consulte [Usar Adobe Experience Manager con la integración de Frame.io](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/use-aem-with-frame.md).
 
 
 ## Requisitos de acceso
@@ -72,7 +72,7 @@ Antes de empezar:
 ## Vinculación de un recurso desde Experience Manager Assets Essentials
 
 1. Vaya al área de **Documentos** de Workfront donde desea añadir el documento.
-1. Seleccione **Añadir nuevo** y luego, la integración de Experience Manager que configuró el administrador.
+1. Seleccione **Añadir nuevo** y luego seleccione la integración de Experience Manager que configuró el administrador.
 
    >[!NOTE]
    >

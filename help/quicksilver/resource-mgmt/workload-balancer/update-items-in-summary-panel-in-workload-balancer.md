@@ -6,9 +6,9 @@ description: Puede abrir el panel resumen en el distribuidor de cargas de trabaj
 author: Lisa
 feature: Resource Management
 exl-id: dfc73b58-482e-46c7-a8c2-46070ee617f9
-source-git-commit: f2a4777dfad827f4fa76f82fce9eece7a59d0278
+source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
 workflow-type: tm+mt
-source-wordcount: '422'
+source-wordcount: '424'
 ht-degree: 64%
 
 ---
@@ -94,7 +94,7 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
 
    >[!NOTE]
    >
-   >Si su organización utiliza el almacenamiento de documentos empresariales de Adobe, no puede agregar documentos a los elementos de trabajo del almacenamiento de Adobe en el Panel de resumen.
+   >Si su organización utiliza el almacenamiento en la nube de Adobe para documentos, no puede agregar documentos a los elementos de trabajo del almacenamiento en la nube de Adobe en el Panel de resumen.
    >
    >Para obtener más información, vea [Información general sobre la administración de documentos de proyectos y objetos relacionados](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
 

@@ -8,9 +8,9 @@ feature: Work Management
 exl-id: 8ab9be3e-0412-43d9-ad1e-75c43613fa82
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: ada25d0b7c359cfb258dfc4e68a628033e66562d
+source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
 workflow-type: tm+mt
-source-wordcount: '927'
+source-wordcount: '929'
 ht-degree: 82%
 
 ---
@@ -112,7 +112,7 @@ Tenga en cuenta lo siguiente al mover problemas que contienen documentos o está
 * **Cuando un problema está asociado con una cola de solicitudes:** cuando mueve un problema a otro objeto y el problema está asociado con una cola de solicitudes, el problema movido ya no se asocia con la cola original desde la que se originó el primer problema.
 * **Cuando se adjunta un documento al problema:** cuando se mueve un problema a otro objeto y el problema tiene un documento adjunto, el documento, sus versiones y revisiones también se mueven al nuevo problema. Las aprobaciones asociadas con el documento no se mueven.
 * **Cuando un problema está vinculado a un documento o a una carpeta:** cuando mueve un problema que tiene documentos o carpetas vinculados a un servicio de terceros como Google Drive, los vínculos a los documentos se mueven con el problema.
-* **Cuando se mueven problemas entre proyectos con diferentes tipos de almacenamiento**: no se puede copiar un problema de un proyecto de Workfront a un proyecto de Adobe Storage. Lo contrario también es cierto. Es posible que la instancia de Workfront no tenga ambos tipos de almacenamiento de documentos.
+* **Cuando mueve problemas entre proyectos con diferentes tipos de almacenamiento**: no puede copiar un problema de un proyecto de almacenamiento de Workfront heredado a un proyecto de almacenamiento de nube de Adobe. Lo contrario también es cierto. Es posible que la instancia de Workfront no tenga ambos tipos de almacenamiento de documentos.
 
   Para obtener más información, vea [Información general sobre la administración de documentos de proyectos y objetos relacionados](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
 

@@ -8,10 +8,10 @@ feature: Work Management
 exl-id: 622cbfe0-b8c0-4045-bef2-9e21d45bfda0
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: ada25d0b7c359cfb258dfc4e68a628033e66562d
+source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
 workflow-type: tm+mt
-source-wordcount: '1393'
-ht-degree: 68%
+source-wordcount: '1404'
+ht-degree: 67%
 
 ---
 
@@ -159,22 +159,22 @@ Puede crear un proyecto desde el área Proyectos del menú principal o desde el 
    1. (Opcional) En el campo **Buscar plantillas**, empiece a escribir el nombre de una plantilla y haga clic en ella cuando se muestre en la lista.
    1. Haga clic en el nombre de uno de los siguientes tipos de plantillas para elegirlos:
 
-      * Una plantilla de almacenamiento de Workfront
+      * Una plantilla de almacenamiento heredada de Workfront
 
-        Las plantillas de almacenamiento de Workfront muestran un icono de almacenamiento heredado ![Legacy Storage Icon](assets/legacy-storage-project-icon.png) junto a su nombre.
+        las plantillas de almacenamiento de Workfront heredadas muestran un icono de almacenamiento heredado ![Legacy Storage Icon](assets/legacy-storage-project-icon.png) junto a su nombre.
 
         Los documentos de la plantilla y de los proyectos futuros se almacenarán en el almacenamiento de Workfront.
-      * Una plantilla de almacenamiento de Adobe
+      * Una plantilla de almacenamiento en la nube de Adobe
 
-        Los documentos de la plantilla y de los proyectos futuros se almacenarán en el almacenamiento empresarial de Adobe.
+        Los documentos de la plantilla y de los proyectos futuros se almacenarán en el almacenamiento en la nube de Adobe.
 
       >[!NOTE]
       >
-      >* El uso de una plantilla de almacenamiento empresarial de Adobe crea un proyecto de almacenamiento empresarial de Adobe.
+      >* Al usar una plantilla de almacenamiento en la nube de Adobe, se crea un proyecto de almacenamiento en la nube de Adobe.
       >
-      >* El uso de una plantilla de almacenamiento de Workfront crea un proyecto de almacenamiento de Workfront.
+      >* El uso de una plantilla de almacenamiento de Workfront heredada crea un proyecto de almacenamiento de Workfront heredado.
       >
-      >* Cuando se utiliza una plantilla de almacenamiento empresarial de Adobe de un portafolio o programa de Workfront, el proyecto es un proyecto de almacenamiento empresarial de Adobe y el portafolio o programa también se convierten en objetos de almacenamiento empresarial de Adobe. Todos los demás proyectos de almacenamiento de Workfront del mismo portafolio o programa permanecen inalterados.
+      >* Cuando se utiliza una plantilla de almacenamiento en la nube de Adobe de un portafolio o programa de almacenamiento de Workfront heredado, el proyecto es un proyecto de almacenamiento en la nube de Adobe y el portafolio o programa también se convierten en objetos de almacenamiento en la nube de Adobe. Todos los demás proyectos de almacenamiento de Workfront heredados del mismo portafolio o programa permanecen inalterados.
       >
       > Es posible que la instancia de Workfront no tenga ambos tipos de almacenamiento de documentos.
       >
@@ -226,7 +226,7 @@ Puede crear un proyecto desde el área Proyectos del menú principal o desde el 
 
    Todos los detalles definidos en la plantilla se asocian automáticamente al proyecto recién creado si no los ha cambiado en el paso anterior.
 
-   Se crea automáticamente una carpeta de documentos con el mismo nombre que el proyecto para los proyectos de almacenamiento de Adobe en la sección Documentos del proyecto.
+   Se crea automáticamente una carpeta de documentos con el mismo nombre que el proyecto para los proyectos de almacenamiento en la nube de Adobe en la sección Documentos del proyecto.
 
 ## Cree un proyecto a partir de una plantilla en el área Plantillas
 
@@ -234,7 +234,7 @@ En lugar de empezar en el área de Proyectos, puede crear un proyecto a partir d
 
 >[!NOTE]
 >
->Las plantillas asociadas al almacenamiento de documentos de Workfront crean proyectos de almacenamiento de Workfront heredados. Las plantillas asociadas al almacenamiento de documentos empresariales de Adobe crean proyectos de almacenamiento de Adobe. Es posible que la instancia de Workfront no tenga ambos tipos de almacenamiento de documentos.
+>Las plantillas asociadas al almacenamiento de documentos de Workfront crean proyectos de almacenamiento de Workfront heredados. Las plantillas asociadas con el almacenamiento en la nube de Adobe para documentos crean proyectos de almacenamiento en la nube de Adobe. Es posible que la instancia de Workfront no tenga ambos tipos de almacenamiento de documentos.
 >
 >Para obtener más información, vea [Información general sobre la administración de documentos de proyectos y objetos relacionados](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
 
@@ -261,4 +261,4 @@ En lugar de empezar en el área de Proyectos, puede crear un proyecto a partir d
 
    Todos los detalles definidos en la plantilla se asocian automáticamente al proyecto recién creado si no los ha cambiado en el paso anterior.
 
-   Se crea automáticamente una carpeta de documentos con el mismo nombre que el proyecto para los proyectos de almacenamiento de Adobe en la sección Documentos del proyecto.
+   Se crea automáticamente una carpeta de documentos con el mismo nombre que el proyecto para los proyectos de almacenamiento en la nube de Adobe en la sección Documentos del proyecto.

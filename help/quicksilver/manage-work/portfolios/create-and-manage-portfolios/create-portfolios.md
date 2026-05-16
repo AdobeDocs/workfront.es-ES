@@ -8,9 +8,9 @@ feature: Work Management, Strategic Planning
 exl-id: fdaed68d-d9cc-4514-8f80-b169cdd739bd
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: ccf8af65b9f8ac96a4f9fa2e4dc32a721477375a
+source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
 workflow-type: tm+mt
-source-wordcount: '884'
+source-wordcount: '890'
 ht-degree: 58%
 
 ---
@@ -119,12 +119,12 @@ Puede crear portafolios en Workfront mediante uno de los métodos siguientes:
 
 1. (Condicional) Según el almacenamiento de documentos que utilice su organización, haga clic en una de las siguientes opciones:
 
-   * **Nuevo portafolio**, cuando el administrador de Workfront elige **Adobe Enterprise** o **Workfront heredado**, y seleccionó o no la configuración **Permitir al usuario seleccionar el proveedor de almacenamiento**.
-   * **Nuevo portafolio (almacenamiento heredado)**, cuando el administrador de Workfront elige **Adobe Enterprise** o **Workfront heredado**, y también seleccionó la configuración **Permitir al usuario seleccionar el proveedor de almacenamiento**.
+   * **Nuevo portafolio**, cuando el administrador de Workfront elige **Adobe cloud storage** o **Workfront heredado**, y seleccionó o no la configuración **Permitir al usuario seleccionar el proveedor de almacenamiento**.
+   * **Nuevo portafolio (almacenamiento heredado)**, cuando el administrador de Workfront elige **almacenamiento en la nube de Adobe** o **Workfront heredado**, y también selecciona la configuración **Permitir que el usuario seleccione el proveedor de almacenamiento**.
 
      Esta opción solo se muestra cuando la opción **Permitir que el usuario seleccione el proveedor de almacenamiento** está seleccionada en el área de configuración.
 
-     Para obtener más información, consulte [Habilitar el almacenamiento empresarial de Adobe para su organización](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md).
+     Para obtener más información, consulte [Habilitar el almacenamiento en la nube de Adobe para su organización](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md).
 
      >[!NOTE]
      >
@@ -132,17 +132,17 @@ Puede crear portafolios en Workfront mediante uno de los métodos siguientes:
 
      Se crea un portafolio y su nombre predeterminado sigue los siguientes patrones, según el almacenamiento que utilice Workfront para los documentos:
 
-      * `Untitled Portfolio` para un portafolio de almacenamiento de Workfront.
+      * `Untitled Portfolio` para un portafolio de almacenamiento de Workfront heredado.
 
-        Un portafolio de almacenamiento de Workfront muestra un icono de **almacenamiento de Workfront heredado** ![almacenamiento heredado](assets/legacy-storage-project-icon.png) junto a su nombre.
+        Un portafolio de almacenamiento heredado de Workfront muestra un **almacenamiento heredado de Workfront** icono ![icono del portafolio de almacenamiento heredado](assets/legacy-storage-project-icon.png) junto a su nombre.
 
-      * `Untitled Portfolio - < Month day, year hour.minute.second >` para un portafolio de almacenamiento de Adobe
+      * `Untitled Portfolio - < Month day, year hour.minute.second >` para un portafolio de almacenamiento en la nube de Adobe
 
         >[!IMPORTANT]
         >
-        >Los portafolios que utilizan el almacenamiento empresarial de Adobe deben tener nombres únicos.
+        >Los portafolios que utilizan el almacenamiento en la nube de Adobe deben tener nombres únicos.
 
-     Para los portafolios de almacenamiento de Adobe, se crea automáticamente una nueva carpeta de documentos con el mismo nombre que el portafolio en el área Documentos.
+     Para los portafolios de almacenamiento en la nube de Adobe, se crea automáticamente una nueva carpeta de documentos con el mismo nombre que el portafolio en el área Documentos.
 
 1. Reemplace el nombre del portafolio por un nuevo nombre en el encabezado del portafolio.
 

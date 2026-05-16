@@ -8,9 +8,9 @@ feature: Work Management
 exl-id: 556775e8-7ac9-482d-8c1c-863678584aa4
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: a9c628670731d20e9429415c8fe961bbb53daff9
+source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
 workflow-type: tm+mt
-source-wordcount: '840'
+source-wordcount: '841'
 ht-degree: 83%
 
 ---
@@ -123,7 +123,7 @@ Cuando un usuario de Workfront envía un correo electrónico a Workfront, sucede
   >
   >* Los archivos MSG no son compatibles y no se adjuntarán al problema en Workfront.
   >
-  >* Si su entorno tiene acceso al almacenamiento de documentos empresarial heredado de Workfront y Adobe, las solicitudes heredan su tipo de almacenamiento de documentos del proyecto, independientemente de lo que haya seleccionado el administrador de Workfront para sus preferencias de almacenamiento predeterminado en el área de Configuración. Para obtener más información, vea [Información general sobre la administración de documentos de proyectos y objetos relacionados](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
+  >* Si su entorno tiene acceso al almacenamiento en la nube heredado de Workfront y Adobe para los documentos, las solicitudes heredan su tipo de almacenamiento de documentos del proyecto, independientemente de lo que haya seleccionado el administrador de Workfront para sus preferencias de almacenamiento predeterminado en el área de Configuración. Para obtener más información, vea [Información general sobre la administración de documentos de proyectos y objetos relacionados](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
 
 * El usuario que envía el correo electrónico se convierte en el compañía primaria del nuevo problema en Workfront.
 * El cuerpo del correo electrónico no puede exceder los 4.000 caracteres.

@@ -8,9 +8,9 @@ feature: Work Management
 exl-id: 5094ba3f-3cb0-4301-aa7d-88c64d112b78
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: d1173e35a2455610474664f93159b97a54957488
+source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
 workflow-type: tm+mt
-source-wordcount: '901'
+source-wordcount: '905'
 ht-degree: 44%
 
 ---
@@ -116,20 +116,20 @@ Old:
 
 1. (Condicional) Según el almacenamiento de documentos que utilice su organización, haga clic en una de las siguientes opciones:
 
-   * **Nueva plantilla**, cuando el administrador de Workfront elige **Adobe Enterprise** o **Workfront heredado**, y seleccionó o no la configuración **Permitir que el usuario seleccione el proveedor de almacenamiento**.
-   * **Nueva plantilla (almacenamiento heredado)**, cuando el administrador de Workfront elige **Adobe Enterprise** o **Workfront heredado**, y también seleccionó la configuración **Permitir al usuario seleccionar el proveedor de almacenamiento**.
+   * **Nueva plantilla**, cuando el administrador de Workfront elige **Adobe cloud storage** o **Workfront heredado**, y seleccionó o no la configuración **Permitir que el usuario seleccione el proveedor de almacenamiento**.
+   * **Nueva plantilla (almacenamiento heredado)**, cuando el administrador de Workfront elige **almacenamiento en la nube de Adobe** o **Workfront heredado**, y también selecciona la configuración **Permitir que el usuario seleccione el proveedor de almacenamiento**.
 
      Esta opción solo se muestra cuando la opción **Permitir que el usuario seleccione el proveedor de almacenamiento** está seleccionada en el área de configuración.
 
-     Para obtener más información, consulte [Habilitar el almacenamiento empresarial de Adobe para su organización](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md).
+     Para obtener más información, consulte [Habilitar el almacenamiento en la nube de Adobe para su organización](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md).
 
      Se crea una plantilla y su nombre predeterminado sigue los siguientes patrones, según el almacenamiento que utilice Workfront para los documentos:
 
       * **Plantilla sin título** para una plantilla de almacenamiento de Workfront.
 
-        Una plantilla de almacenamiento de Workfront muestra el icono **Almacenamiento de Workfront heredado** ![Proyecto de almacenamiento heredado](assets/legacy-storage-project-icon.png) junto a su nombre.
+        Una plantilla de almacenamiento heredada de Workfront muestra un **almacenamiento heredado de Workfront** icono ![icono de proyecto de almacenamiento heredado](assets/legacy-storage-project-icon.png) junto a su nombre.
 
-      * **Plantilla sin título: &lt; día del mes, año, hora.minuto.segundo >** para una plantilla de almacenamiento de Adobe
+      * **Plantilla sin título: &lt; día del mes, año, hora.minuto.segundo >** para una plantilla de almacenamiento en la nube de Adobe
 
         >[!IMPORTANT]
         >

@@ -9,10 +9,10 @@ recommendations: noDisplay, noCatalog
 exl-id: 04d0f295-5206-4c5d-8003-bdf333150903
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
 workflow-type: tm+mt
-source-wordcount: '1431'
-ht-degree: 79%
+source-wordcount: '1468'
+ht-degree: 81%
 
 ---
 
@@ -88,7 +88,7 @@ Para obtener más información sobre esta tabla, consulte [Requisitos de acceso 
 Antes de comenzar,
 
 * Debe tener [!DNL Workfront] y [!DNL Adobe Experience Manager Assets] asociados con un identificador de organización en [!DNL Adobe Admin Console]. Para obtener más información, consulte [Diferencias de administración basadas en la plataforma ([!DNL Adobe Workfront]/[!DNL Adobe Business Platform])](/help/quicksilver/administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
-* La instancia de Workfront debe utilizar Adobe Enterprise Storage.
+* La instancia de Workfront debe utilizar Adobe Cloud Storage.
 
 
 ## Configuración de la información de integración
@@ -221,7 +221,7 @@ Cuando esta opción está habilitada, cualquier recurso que se haya insertado en
 
 ## Enviar documentos a Experience Manager Assets o Assets Essentials
 
-Es posible enviar documentos desde Workfront a Experience Manager Assets o Assets Essentials. Los documentos cargados y enviados desde Workfront a Assets Essentials siguen contando para el almacenamiento general de documentos.
+Es posible enviar documentos desde Workfront a Experience Manager Assets o Assets Essentials. Los documentos cargados y enviados desde Workfront a Assets Essentials siguen contando en el almacenamiento general de documentos.
 
 Assets enviado a Experience Manager mediante esta integración tiene un límite de tamaño de **5o TB**.
 
@@ -237,7 +237,7 @@ Los campos de metadatos se asignan por primera vez al enviar un recurso desde Wo
 
 ### Enviar documentos desde Workfront
 
-Cuando un usuario envía un documento desde Workfront a Experience Manager Assets o a Assets Essentials, los metadatos asignados se transfieren a lo largo del documento. Una vez enviado el documento, los cambios realizados en los metadatos del documento en Workfront no se reflejarán en Assets ni en Assets Essentials. Si se cambia un campo asignado en Workfront, se debe enviar una nueva versión del documento con los metadatos actualizados a Assets o Assets Essentials.
+Cuando un usuario envía un documento desde Workfront a Experience Manager Assets o a Assets Essentials, los metadatos asignados se transfieren a lo largo del documento. Una vez enviado el documento, los cambios realizados en los metadatos del documento en Workfront no se reflejarán en Assets ni en Assets Essentials. Al cambiar campos asignados en Workfront, es necesario enviar una nueva versión del documento con los metadatos actualizados a Assets o a Assets Essentials.
 
 Para enviar documentos:
 

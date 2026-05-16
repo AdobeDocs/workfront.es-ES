@@ -8,7 +8,7 @@ feature: Work Management
 exl-id: daf89062-cf58-4c39-83ff-727d969a9630
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: f2a4777dfad827f4fa76f82fce9eece7a59d0278
+source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
 workflow-type: tm+mt
 source-wordcount: '1781'
 ht-degree: 86%
@@ -103,7 +103,7 @@ Al copiar una tarea, tenga en cuenta lo siguiente:
 
 * Puede copiar una tarea a la vez, o puede copiar varias tareas a la vez cuando edita tareas en una lista.
 
-* Si su organización utiliza el almacenamiento empresarial heredado de Workfront y Adobe, no puede copiar tareas entre proyectos que utilicen tipos de almacenamiento diferentes.
+* Si su organización utiliza el almacenamiento en la nube heredado de Workfront y Adobe, no puede copiar tareas entre proyectos que utilicen diferentes tipos de almacenamiento.
 
   Para obtener más información, vea [Información general sobre la administración de documentos de proyectos y objetos relacionados](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
 

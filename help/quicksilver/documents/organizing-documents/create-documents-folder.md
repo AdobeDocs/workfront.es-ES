@@ -8,16 +8,16 @@ feature: Digital Content and Documents
 exl-id: 41974d6b-fb00-49b7-9db2-36519994e0fd
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: b3c8559ddac934cc41461f88503b2fa71abaf452
+source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
 workflow-type: tm+mt
-source-wordcount: '806'
-ht-degree: 31%
+source-wordcount: '811'
+ht-degree: 30%
 
 ---
 
 # Crear carpetas de documentos
 
-Los documentos se pueden organizar en carpetas. Actualmente, Workfront tiene dos versiones del área Documentos: el área de documentos heredados y el área de documentos nueva. La versión que utilice su organización depende de si su organización utiliza almacenamiento de Workfront heredado o almacenamiento empresarial. Para obtener más información acerca de estos tipos de almacenamiento, vea [Información general sobre el almacenamiento empresarial de Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
+Los documentos se pueden organizar en carpetas. Actualmente, Workfront tiene dos versiones del área Documentos: el área de documentos heredados y el área de documentos nueva. La versión que utilice su organización depende de si su organización utiliza almacenamiento de Workfront heredado o almacenamiento en la nube de Adobe. Para obtener más información acerca de estos tipos de almacenamiento, vea [Información general sobre el almacenamiento en la nube de Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 ## Requisitos de acceso
 
@@ -30,7 +30,7 @@ Los documentos se pueden organizar en carpetas. Actualmente, Workfront tiene dos
   <tr> 
    <td role="rowheader">Paquete de Adobe Workfront</td> 
    <td> <p>Cualquier paquete de Workfront para administrar documentos mediante el almacenamiento heredado de Workfront</p>
-<p>Cualquier paquete de flujo de trabajo para administrar documentos mediante el almacenamiento empresarial de Adobe</p> </td> 
+<p>Cualquier paquete de flujo de trabajo para administrar documentos mediante Adobe Cloud Storage.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licencia de Adobe Workfront</td> 
@@ -51,7 +51,7 @@ Para obtener más información sobre esta tabla, consulte [Requisitos de acceso 
 
 ## Crear carpetas de documentos en el área de documentos heredados
 
-Si su organización está en un almacenamiento de Workfront heredado, verá el área de documentos heredados al acceder a documentos en Workfront. Para obtener más información sobre el almacenamiento heredado de Workfront, consulte [Diferencias entre el almacenamiento empresarial de Adobe y el almacenamiento heredado de Workfront](/help/quicksilver/review-and-approve-work/esm-overview.md#differences-between-adobe-enterprise-storage-and-legacy-workfront-storage).
+Si su organización está en un almacenamiento de Workfront heredado, verá el área de documentos heredados al acceder a documentos en Workfront. Para obtener más información sobre el almacenamiento heredado de Workfront, consulte [Diferencias entre el almacenamiento en la nube de Adobe y el almacenamiento heredado de Workfront](/help/quicksilver/review-and-approve-work/esm-overview.md#differences-between-adobe-cloud-storage-and-legacy-workfront-storage).
 
 >[!NOTE]
 >
@@ -93,7 +93,7 @@ Para obtener información acerca de cómo compartir carpetas, consulte [Comparti
 
 ## Crear carpetas de documentos en el área de documentos nueva
 
-Si su organización utiliza el almacenamiento empresarial, verá la nueva área Documentos al acceder a los documentos en Workfront. Para obtener más información acerca del almacenamiento empresarial, consulte [Descripción general del almacenamiento empresarial de Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
+Si su organización utiliza el almacenamiento en la nube de Adobe, verá la nueva área Documentos al acceder a documentos en Workfront. Para obtener más información sobre el almacenamiento en la nube de Adobe, consulte [Información general sobre el almacenamiento en la nube de Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 ### Carpetas generadas por el sistema
 
@@ -130,7 +130,7 @@ Las carpetas generadas por el sistema se pueden mover a otro proyecto, tarea o p
 
 >[!NOTE]
 >
->En el cuadro de diálogo Mover solo están disponibles los proyectos, las tareas y los problemas que utilizan el mismo tipo de almacenamiento. Por ejemplo, si mueve una carpeta en un proyecto de almacenamiento empresarial, solo los proyectos, las tareas y los problemas que utilizan el almacenamiento empresarial están disponibles para su traslado a.
+>En el cuadro de diálogo Mover solo están disponibles los proyectos, las tareas y los problemas que utilizan el mismo tipo de almacenamiento. Por ejemplo, si mueve una carpeta en un proyecto de almacenamiento en la nube de Adobe, solo los proyectos, las tareas y los problemas que utilizan el almacenamiento en la nube de Adobe están disponibles para su traslado a.
 
 
 Para mover una carpeta:

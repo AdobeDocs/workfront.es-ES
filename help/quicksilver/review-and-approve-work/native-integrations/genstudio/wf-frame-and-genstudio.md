@@ -11,7 +11,7 @@ hide: true
 exl-id: 4d0c0542-3383-4907-b573-e2ef56117681
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18ad93c364daa9225c2b2ba715e45e8644936a0d
+source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
 workflow-type: tm+mt
 source-wordcount: '469'
 ht-degree: 8%
@@ -70,7 +70,7 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
 
 * Workfront y GenStudio for Performance Marketing deben implementarse en la misma organización de Identity Management system (IMS).
 
-* La instancia de Workfront debe tener habilitado Adobe Enterprise Storage. Para obtener más información, consulte [Habilitar el almacenamiento empresarial de Adobe](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md).
+* La instancia de Workfront debe tener habilitado Adobe Cloud Storage. Para obtener más información, consulte [Habilitar el almacenamiento en la nube de Adobe](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md).
 
 
 ## Uso de plantillas de aprobación unificadas de Workfront para definir flujos de trabajo de aprobación

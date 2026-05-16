@@ -7,9 +7,9 @@ description: Puede crear una carpeta vinculada a Experience Manager Assets o a A
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: eb2b3b21-bc0b-45d3-85fa-1715cf927cb7
-source-git-commit: b3c8559ddac934cc41461f88503b2fa71abaf452
+source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
 workflow-type: tm+mt
-source-wordcount: '488'
+source-wordcount: '489'
 ht-degree: 78%
 
 ---
@@ -23,7 +23,7 @@ Si se elimina o mueve un recurso de una carpeta vinculada dentro de Experience M
 >[!NOTE]
 >
 >Esta funcionalidad no está disponible en la nueva área de Documentos.<br>
->Si su organización utiliza el almacenamiento empresarial, verá la nueva área Documentos al acceder a los documentos en Workfront. Desde allí, puede agregar recursos desde Experience Manager Assets o Assets Essentials, pero no podrá crear una carpeta vinculada.
+>Si su organización utiliza el almacenamiento en la nube de Adobe, verá la nueva área Documentos al acceder a documentos en Workfront. Desde allí, puede agregar recursos desde Experience Manager Assets o Assets Essentials, pero no podrá crear una carpeta vinculada.
 
 ## Requisitos de acceso
 

@@ -8,7 +8,7 @@ topic: Collaboration
 exl-id: 3d7581d0-e99c-4204-b1e5-04fde72251bb
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: ada25d0b7c359cfb258dfc4e68a628033e66562d
+source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
 workflow-type: tm+mt
 source-wordcount: '1734'
 ht-degree: 69%
@@ -194,7 +194,7 @@ Si su empresa ha adquirido un paquete de Workfront Planning, no puede copiar y e
     <tbody> 
      <tr> 
       <td role="rowheader"><strong>Asunto</strong> </td> 
-      <td>Muestra el nombre de la solicitud original. Actualícelo si es necesario. De lo contrario, Workfront asigna un nombre a la solicitud copiada <b>Copia de &lt;Name of original request&gt;</b>. Este campo es obligatorio.</td> 
+      <td>Muestra el nombre de la solicitud original. Actualícelo si es necesario. De lo contrario, Workfront nombra la solicitud copiada <b>Copia de &lt;Nombre de la solicitud original&gt;</b>. Este campo es obligatorio.</td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Descripción</strong> </td> 
@@ -264,7 +264,7 @@ Si su empresa ha adquirido un paquete de Workfront Planning, no puede copiar y e
    Según la configuración de la cola de solicitudes, la sección Documentos podría mostrarse antes o después de los campos personalizados.</p> <p> </p>
    <p>Según el tipo de almacenamiento de documentos que haya seleccionado el administrador de Workfront para su entorno, los documentos adjuntos a las solicitudes se añaden a lo siguiente:</p>
       <ul><li>Para las solicitudes que utilizan el almacenamiento de Workfront, los documentos se agregan a la sección Documentos de la solicitud recién creada.</li>
-      <li>En el caso de las solicitudes que utilizan el almacenamiento empresarial de Adobe, los documentos se agregan a una carpeta recién creada con el mismo nombre que la solicitud, añadida automáticamente a la solicitud durante el proceso de envío. </li></ul>
+      <li>Para las solicitudes que utilizan el almacenamiento en la nube de Adobe, los documentos se agregan a una carpeta recién creada con el mismo nombre que la solicitud, añadida automáticamente a la solicitud durante el proceso de envío. </li></ul>
       <p>Es posible que la instancia de Workfront no tenga ambos tipos de almacenamiento de documentos.</p>
       <p>El tipo de almacenamiento de problema y solicitud se hereda del proyecto. </p>
       <p>Para obtener más información, vea <a href="/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md">Información general sobre la administración de documentos de proyectos y objetos relacionados</a>.</p>

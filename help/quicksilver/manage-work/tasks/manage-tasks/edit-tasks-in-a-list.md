@@ -8,9 +8,9 @@ feature: Work Management
 exl-id: 2af81907-3657-459e-b780-65983e224ca8
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: c3d34c4b33164f5fe5b4420f3ddc81f3390abbf1
+source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
 workflow-type: tm+mt
-source-wordcount: '2859'
+source-wordcount: '2861'
 ht-degree: 61%
 
 ---
@@ -481,7 +481,7 @@ Para editar tareas en una lista al utilizar la opción Guardar planificación de
          <td role="rowheader">Documentos</td> 
          <td><p>Agregar documentos a la tarea.</p>
          <p><b>NOTA</b></p>
-         <p>Si su organización utiliza el almacenamiento de documentos empresariales de Adobe, no puede agregar documentos a tareas en el Panel de resumen para tareas de almacenamiento de Adobe.</p>
+         <p>Si su organización utiliza el almacenamiento en la nube de Adobe para documentos, no puede agregar documentos a tareas en el Panel de resumen para tareas de almacenamiento en la nube de Adobe.</p>
          <p>Para obtener más información, vea <a href="/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md">Información general sobre la administración de documentos de proyectos y objetos relacionados</a>.</p>
       </td> 
       </tr> 

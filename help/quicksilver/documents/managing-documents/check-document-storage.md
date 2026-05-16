@@ -2,16 +2,16 @@
 product-area: documents
 navigation-topic: manage-documents
 title: Comprobar límites de almacenamiento de documentos
-description: Como administrador de Adobe Workfront, puede ver el uso y la cuota de almacenamiento de documentos en la página Información del cliente. La forma en que aparece el almacenamiento depende de si su organización utiliza el almacenamiento heredado de Workfront o el almacenamiento empresarial de Adobe.
+description: Como administrador de Adobe Workfront, puede ver el uso y la cuota de almacenamiento de documentos en la página Información del cliente. La forma en que aparece el almacenamiento depende de si su organización utiliza el almacenamiento heredado de Workfront o el almacenamiento en la nube de Adobe.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: f5d1963e-b205-44b9-b2b6-b7de465c6977
 last-update: 2026-04-29T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 7b6d24d6a5b7fd052a3e7c97034e920e771022a6
+source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
 workflow-type: tm+mt
-source-wordcount: '436'
-ht-degree: 19%
+source-wordcount: '491'
+ht-degree: 17%
 
 ---
 
@@ -21,12 +21,12 @@ ht-degree: 19%
 
 Aunque no hay restricciones en los tipos y tamaños de archivos individuales que los usuarios pueden cargar en la instancia de Workfront, su plan de Workfront incluye una cuota de almacenamiento total. Como administrador de Workfront, supervisa el uso y la cuota desde el área de Configuración en la página Información del cliente.
 
-La forma en que aparece el almacenamiento depende de si su organización utiliza el almacenamiento heredado de Workfront o el almacenamiento empresarial de Adobe:
+La forma en que aparece el almacenamiento depende de si su organización utiliza el almacenamiento heredado de Workfront o el almacenamiento en la nube de Adobe:
 
 * Si usa almacenamiento heredado de Workfront, consulte [Almacenamiento heredado de Workfront](#legacy-workfront-storage) en este artículo.
-* Si usa el almacenamiento empresarial de Adobe, consulte [almacenamiento empresarial de Adobe](#adobe-enterprise-storage) en este artículo.
+* Si usa el almacenamiento en la nube de Adobe, consulte [Adobe Cloud Storage](#adobe-cloud-storage) en este artículo.
 
-  Para obtener más información acerca del almacenamiento empresarial, consulte [Descripción general del almacenamiento empresarial de Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
+  Para obtener más información sobre el almacenamiento en la nube de Adobe, consulte [Información general sobre el almacenamiento en la nube de Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 ## Requisitos de acceso
 
@@ -40,7 +40,7 @@ La forma en que aparece el almacenamiento depende de si su organización utiliza
   <tr data-mc-conditions=""> 
    <td role="rowheader">Plan de Workfront</td> 
    <td> <p>Cualquier paquete de Workfront para administrar documentos mediante el almacenamiento heredado</p>
-      <p>Cualquier paquete de flujo de trabajo para administrar documentos mediante el almacenamiento empresarial de Adobe</p> </td> 
+      <p>Cualquier paquete de flujo de trabajo para administrar documentos mediante Adobe Cloud Storage.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licencia de Adobe Workfront</td> 
@@ -72,18 +72,14 @@ La cuota de almacenamiento se actualiza diariamente para mostrar el recuento má
 
 <div class="preview">
 
-## almacenamiento empresarial de Adobe
+## almacenamiento en la nube de Adobe
 
-<!--
-If your organization uses Adobe enterprise storage, your storage quota is reported as a single pooled allocation that combines storage provisioned through your V2 Workfront SKU and any storage provisioned through a Frame.io Enterprise SKU or add-on. There's no hard cap on storage usage; users can continue uploading documents even when usage exceeds your quota.
 
-Beginning with the May 2026 release, you can view your pooled storage quota and a usage breakdown on the Customer Info page.
-
--->
+Si su organización utiliza el almacenamiento en la nube de Adobe, la cuota de almacenamiento se registra como una asignación agrupada única que combina el almacenamiento aprovisionado mediante la licencia de Workfront y cualquier almacenamiento aprovisionado mediante un complemento Frame.io Enterprise. No hay un límite estricto en el uso del almacenamiento; los usuarios pueden seguir cargando documentos incluso cuando el uso supera su cuota.
 
 ### Ver el uso del almacenamiento en Información del cliente
 
-Para comprobar el almacenamiento de documentos empresariales de Adobe:
+Para buscar documentos en el almacenamiento en la nube de Adobe:
 
 {{step-1-to-setup}}
 
@@ -91,11 +87,11 @@ Para comprobar el almacenamiento de documentos empresariales de Adobe:
 1. Vaya a la sección **Información general sobre almacenamiento**.
 1. Revise su uso. La Información general de almacenamiento muestra la cuota de almacenamiento agrupada y desglosa el uso en:
 
-   * Los proyectos heredados de Workfront y los proyectos de Adobe enterprise storage se muestran en la barra azul.
+   * Los proyectos heredados de Workfront y los proyectos de almacenamiento en la nube de Adobe se muestran en la barra azul.
    * Los proyectos independientes de marco se muestran en la barra verde. Estos proyectos son independientes de Workfront y solo están disponibles si tiene una licencia de Frame.io Enterprise.
 
 
-![Uso de almacenamiento empresarial de Adobe en la información del cliente](assets/storage-usage.png)
+![Uso del almacenamiento en la nube de Adobe en la información del cliente](assets/storage-usage.png)
 
 Las cifras de uso se actualizan regularmente para que vea un recuento actualizado.
 

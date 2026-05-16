@@ -8,9 +8,9 @@ feature: Work Management, Digital Content and Documents
 exl-id: 10962d59-284e-4c41-8523-18ea4ed78362
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 94236f836be2d1b8638cf11ddd303641e8c0ef7c
+source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
 workflow-type: tm+mt
-source-wordcount: '977'
+source-wordcount: '975'
 ht-degree: 4%
 
 ---
@@ -29,18 +29,18 @@ Para obtener más información sobre Frame.io, consulte [Introducción a Frame.i
 
 ## Requisitos de acceso
 
-* El contrato de Workfront debe incluir un SKU Workfront V2 para utilizar el visor Frame.io y el almacenamiento empresarial de Adobe. Para obtener más información, consulte las preguntas frecuentes en [Resumen unificado de revisión y aprobación](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md#getting-started-with-unified-review-and-approval).
+* Debe contar con una versión de Workfront que admita el almacenamiento en la nube de Adobe. Si su organización aún no tiene una versión compatible, póngase en contacto con el representante de cuentas de Adobe.
 
 ## Inicio y planificación del trabajo en Workfront
 
-Los coordinadores de proyectos pueden crear proyectos y planificar el trabajo en Workfront. Los proyectos creados en una instancia con la integración de Frame.io habilitada utilizan el almacenamiento empresarial de Adobe, que permite almacenar y administrar los recursos dentro del ecosistema de Adobe.
+Los coordinadores de proyectos pueden crear proyectos y planificar el trabajo en Workfront. Los proyectos creados en una instancia con la integración de Frame.io habilitada utilizan el almacenamiento en la nube de Adobe, que permite almacenar y administrar los recursos dentro del ecosistema de Adobe.
 
 Si su organización tiene una licencia de Frame.io Enterprise, los proyectos creados en Workfront también son visibles en Frame.io, lo que permite a los usuarios interactuar y cargar recursos en cualquier producto.
 
-Para obtener información sobre el almacenamiento empresarial o los proyectos de Adobe en Frame.io, consulte
+Para obtener información sobre el almacenamiento en la nube de Adobe o los proyectos en Frame.io, consulte
 
 * [Información general de Workspace: Proyectos](https://help.frame.io/en/articles/9101001-workspace-overview#h_d9f8654895)
-* [Información general sobre el almacenamiento empresarial de Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md)
+* [información general sobre el almacenamiento en nube Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md)
 
 ## Revisión y aprobación de recursos
 
