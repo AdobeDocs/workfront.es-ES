@@ -9,10 +9,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: e5c02b8c-854e-4c42-a599-f680443f425d
-source-git-commit: 51d0989bdbf4ecdc799658f30500c68bf5867e65
+source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
 workflow-type: tm+mt
-source-wordcount: '1320'
-ht-degree: 89%
+source-wordcount: '1374'
+ht-degree: 86%
 
 ---
 
@@ -195,3 +195,5 @@ Para el entorno de vista previa, el cálculo nocturno está deshabilitado y las 
 * Cualquier interrupción en un entorno de vista previa de [!DNL Workfront] los fines de semana (sábados y domingos) se solucionará para que el entorno funcione durante el horario laboral los lunes.
 
 * La revisión no está disponible en el entorno de vista previa.
+
+* El visor Frame.io no está disponible en el entorno de vista previa. El almacenamiento en la nube de Adobe está disponible para que pueda probarlo en la zona protegida, pero la experiencia completa de revisión y aprobación unificadas deben validarse en producción. Para obtener más información, consulte [Información general sobre el almacenamiento en la nube de Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).

@@ -6,7 +6,7 @@ description: Puede añadir aprobadores adicionales a una aprobación de document
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 2418565a-639c-424e-873a-f6512efc5cb5
-source-git-commit: 0c4904a380dd62b9ea01dd1030ee02d82a869541
+source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
 workflow-type: tm+mt
 source-wordcount: '297'
 ht-degree: 81%
@@ -28,7 +28,7 @@ Puede añadir aprobadores adicionales a una aprobación de documento directament
   <tr> 
    <td role="rowheader">Paquete de Adobe Workfront</td> 
    <td><p>Cualquier paquete de Workfront para administrar aprobaciones mediante el almacenamiento heredado de Workfront.</p>
-<p>Cualquier paquete de flujo de trabajo para administrar aprobaciones mediante el almacenamiento empresarial de Adobe</p> </td> 
+<p>Cualquier paquete de flujo de trabajo para administrar aprobaciones mediante el almacenamiento en la nube de Adobe</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licencia de Adobe Workfront</td> 
@@ -62,7 +62,7 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
    >* Sustitúyalo por una imagen personalizada para ilustrar su organización. En este caso, el icono tendrá un aspecto diferente al que se muestra en este artículo.
    >* Reemplace la página vinculada por una página diferente. En este caso, haga clic en el **icono del menú principal** ![Menú principal](assets/main-menu-icon.png) en la esquina superior derecha de la página y, a continuación, haga clic en **Inicio**.
 
-1. En el área de **Lista de trabajos**, vaya a la agrupación **Aprobaciones enviadas**.
+1. En el área **Lista de trabajos**, vaya a la agrupación **Aprobaciones que he enviado**.
 
 1. Seleccione una aprobación de **Documento**.
 

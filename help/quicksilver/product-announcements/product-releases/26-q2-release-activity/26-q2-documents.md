@@ -5,10 +5,10 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 095aa9fe-600a-48cd-a907-2e8d93939bf0
-source-git-commit: 540d56017dccf238d301e81085b62b5163b71103
+source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
 workflow-type: tm+mt
-source-wordcount: '818'
-ht-degree: 13%
+source-wordcount: '870'
+ht-degree: 7%
 
 ---
 
@@ -24,9 +24,7 @@ Para obtener una lista de todos los cambios disponibles en este punto del ciclo 
 
 >[!NOTE]
 >
->Vista previa: 16 de abril de 2026
->Versión rápida de producción: viernes, 16 de abril de 2026
->Producción para todos: viernes, 16 de abril de 2026
+>Vista previa: 16 de abril de 2026>Versión rápida de producción: 16 de abril de 2026>Producción para todos: 16 de abril de 2026
 
 El Asesor de contenido ya está disponible en Workfront con la integración de Adobe Experience Manager Assets, lo que facilita a los equipos la detección y reutilización de contenido de alto valor existente.
 
@@ -45,9 +43,7 @@ Esta integración ayuda a los equipos a reducir la creación de contenido duplic
 
 >[!NOTE]
 >
->Vista previa: 31 de marzo de 2026
->Versión rápida de producción: miércoles, 31 de marzo de 2026
->Producción para todos: miércoles, 31 de marzo de 2026
+>Vista previa: 31 de marzo de 2026>Versión rápida de producción: 31 de marzo de 2026>Producción para todos: 31 de marzo de 2026
 
 El 31 de marzo de 2026, todos los clientes de Workfront se aprovisionaron para GenStudio Foundation y los administradores del sistema de Admin Console habrán recibido un correo electrónico que les informará de esta adición. Este producto se proporciona únicamente para que los clientes de Workfront puedan proporcionar a las marcas acceso a los clientes de Workfront según sea necesario para el lanzamiento de los colaboradores de IA. El producto en sí es solo un mecanismo de acceso para marcas y no hay ninguna funcionalidad adicional disponible en el producto GenStudio Foundation.
 
@@ -57,9 +53,7 @@ No se cobrará a los clientes por este nuevo producto.
 
 >[!NOTE]
 >
->Vista previa: 2 de abril de 2026
->Versión rápida de producción: jueves, 15 de abril de 2026
->Producción para todos: viernes, 16 de abril de 2026
+>Vista previa: 2 de abril de 2026>Versión rápida de producción: 15 de abril de 2026>Producción para todos: 16 de abril de 2026
 
 Hemos añadido las siguientes mejoras al widget Mis aprobaciones en Inicio:
 
@@ -76,9 +70,7 @@ Para obtener más información, consulte [Administrar las aprobaciones con el wi
 
 >[!NOTE]
 >
->Vista previa: 12 de marzo de 2026
->Versión rápida de producción: jueves, 15 de abril de 2026
->Producción para todos: viernes, 16 de abril de 2026
+>Vista previa: 12 de marzo de 2026>Versión rápida de producción: 15 de abril de 2026>Producción para todos: 16 de abril de 2026
 
 
 Nos complace presentar Unified Review &amp; Approval con tecnología Workfront y Frame.io, una experiencia optimizada de revisión y aprobación.
@@ -101,21 +93,19 @@ Revise y apruebe contenido directamente en el visor Frame.io y elimine la necesi
 
 Envíe recursos aprobados sin problemas directamente a Adobe Experience Manager. Esta integración acelera la activación de contenido conectando los flujos de trabajo de revisión y aprobación con la administración de contenido descendente. Para obtener más información, consulte [Usar Adobe Experience Manager con la integración de Frame.io](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/use-aem-with-frame.md).
 
-#### Acceso al almacenamiento empresarial de Adobe
+#### Acceso al almacenamiento en la nube de Adobe
 
-El almacenamiento empresarial de Adobe es una solución de almacenamiento basada en la nube que sirve como repositorio central para los recursos de los productos empresariales de Adobe. La integración de Workfront y Frame.io se basa en el almacenamiento empresarial de Adobe, lo que permite una colaboración y administración de recursos sin problemas entre estas plataformas.
+El almacenamiento en la nube de Adobe es una solución de almacenamiento basada en la nube que sirve como repositorio central para los recursos de los productos empresariales de Adobe. La integración de Workfront y Frame.io se basa en el almacenamiento en la nube de Adobe, lo que permite una colaboración y administración de recursos fluidas entre estas plataformas.
 
-El acceso al almacenamiento empresarial de Adobe también allana el camino para futuras integraciones de administración de recursos con otros productos de Adobe, como Adobe Creative Cloud.
+El acceso al almacenamiento en la nube de Adobe también allana el camino para futuras integraciones de administración de recursos con otros productos de Adobe, como Adobe Creative Cloud.
 
-Para obtener más información, consulte [Información general sobre el almacenamiento empresarial de Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
+Para obtener más información, consulte [Información general sobre el almacenamiento en la nube de Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 ## Flujos de trabajo de aprobación de varias fases disponibles para aprobaciones unificadas
 
 >[!NOTE]
 >
->Vista previa: 12 de marzo de 2026
->Versión rápida de producción: jueves, 15 de abril de 2026
->Producción para todos: viernes, 16 de abril de 2026
+>Vista previa: 12 de marzo de 2026>Versión rápida de producción: 15 de abril de 2026>Producción para todos: 16 de abril de 2026
 
 Los flujos de trabajo de aprobación de varias fases ya están disponibles en las aprobaciones unificadas, lo que ayuda a las organizaciones a aplicar procesos de aprobación estructurados y repetibles que reflejan cómo se revisa el trabajo en el mundo real. Con las aprobaciones en varias fases, puede:
 
@@ -131,9 +121,7 @@ Para obtener más información, consulte [Crear un flujo de trabajo de aprobaci�
 
 >[!NOTE]
 >
->Vista previa: 12 de marzo de 2026
->Versión rápida de producción: jueves, 15 de abril de 2026
->Producción para todos: viernes, 16 de abril de 2026
+>Vista previa: 12 de marzo de 2026>Versión rápida de producción: 15 de abril de 2026>Producción para todos: 16 de abril de 2026
 
 Ahora puede configurar y reutilizar plantillas de flujo de trabajo de aprobación de varias etapas, lo que facilita la aplicación de un control coherente en todos los flujos de trabajo de aprobación repetibles.
 

@@ -9,10 +9,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: e18c005b-e6ff-4a1e-a589-63132f3a8ad2
-source-git-commit: aeb471fd63269d30a675e44fe1a47db6141eb9ed
+source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
 workflow-type: tm+mt
-source-wordcount: '1584'
-ht-degree: 90%
+source-wordcount: '1683'
+ht-degree: 85%
 
 ---
 
@@ -81,6 +81,12 @@ La zona protegida de actualización personalizada contiene los datos de producci
 If you are a Workfront Goals customer, Workfront Goals data does not transfer to the Custom Refresh Sandbox when you schedule a refresh. The ability to sync this data from your production environment to your Custom Refresh Sandbox will be available after September 2020.
 </note>
 -->
+
+## Almacenamiento en la nube de Adobe en la zona protegida de actualización personalizada
+
+El almacenamiento en la nube de Adobe está disponible en la zona protegida de actualización personalizada para que pueda probarlo antes de habilitarlo en producción. Sin embargo, el visor Frame.io no está disponible en entornos de zona protegida, por lo que la experiencia completa de revisión y aprobación unificadas debe validarse en producción.
+
+Después de actualizar a una versión de Workfront que admita el almacenamiento en la nube de Adobe, debe actualizar la zona protegida de actualización personalizada para acceder a la funcionalidad de almacenamiento en la nube de Adobe en la zona protegida. Una vez completada la actualización, puede empezar a probar el almacenamiento en la nube de Adobe. Para obtener más información, consulte [Habilitar el almacenamiento en la nube de Adobe para su organización](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md).
 
 ## Acceder a la zona protegida de actualización personalizada desde el entorno de producción {#access-the-custom-refresh-sandbox-from-your-production-environment}
 

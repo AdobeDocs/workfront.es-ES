@@ -8,10 +8,10 @@ feature: Work Management
 exl-id: a45f0af4-1768-4f20-80d4-912e6fe0fc03
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 2b0fdb3c74882b566a397872e1cc8007728b770c
+source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
 workflow-type: tm+mt
-source-wordcount: '1259'
-ht-degree: 74%
+source-wordcount: '1269'
+ht-degree: 73%
 
 ---
 
@@ -95,11 +95,11 @@ Old:
 * Todas las subtareas, problemas y notas se transfieren al nuevo proyecto.
 * Los documentos, las versiones de los documentos y las pruebas se mueven al nuevo proyecto.
 * Al convertir una tarea en un proyecto, existe un límite de procesamiento de 5 minutos. Si la tarea tiene un gran número de documentos adjuntos y no se puede convertir, es posible que tenga que eliminar algunos de los documentos e intentarlo de nuevo.
-* Si su organización utiliza el almacenamiento de documentos empresariales heredado de Workfront y Adobe, se producirán los siguientes escenarios al convertir una tarea en un proyecto: <!--this info also duplicated in Document management overview for projects and related objects and Convert an issue to a project-->
-   * Una tarea de almacenamiento de Workfront crea un proyecto de almacenamiento de Workfront.
-   * Una tarea de almacenamiento empresarial de Adobe crea un proyecto de almacenamiento de Adobe.
-   * Si se utiliza una plantilla de almacenamiento de Workfront para convertir una tarea de almacenamiento de Adobe, se crea un proyecto de almacenamiento de Adobe.
-   * El uso de una plantilla de almacenamiento de Adobe para convertir una tarea de almacenamiento de Workfront crea un proyecto de almacenamiento de Workfront.
+* Si su organización utiliza el almacenamiento en la nube heredado de Workfront y Adobe para los documentos, existen los siguientes escenarios al convertir una tarea en un proyecto: <!--this info also duplicated in Document management overview for projects and related objects and Convert an issue to a project-->
+   * Una tarea de almacenamiento de Workfront heredado crea un proyecto de almacenamiento de Workfront heredado.
+   * Una tarea de almacenamiento en la nube de Adobe crea un proyecto de almacenamiento en la nube de Adobe.
+   * Al usar una plantilla de almacenamiento de Workfront heredada para convertir una tarea de almacenamiento de nube de Adobe, se crea un proyecto de almacenamiento de nube de Adobe.
+   * El uso de una plantilla de almacenamiento en la nube de Adobe para convertir una tarea de almacenamiento de Workfront heredada crea un proyecto de almacenamiento de Workfront heredado.
 
      Para obtener más información, vea [Información general sobre la administración de documentos de proyectos y objetos relacionados](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
 

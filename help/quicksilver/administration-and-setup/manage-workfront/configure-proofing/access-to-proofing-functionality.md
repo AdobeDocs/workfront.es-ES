@@ -9,9 +9,9 @@ author: Courtney
 feature: System Setup and Administration, Digital Content and Documents
 role: Admin
 exl-id: 30a41ae9-9755-4c7b-9e3b-d4a8b0ad7ee8
-source-git-commit: 882c3e58e0e47c549be70dff3f5ac410b34a090f
+source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
 workflow-type: tm+mt
-source-wordcount: '397'
+source-wordcount: '398'
 ht-degree: 87%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 87%
 
 La revisión se incluye automáticamente para todas las licencias de Workfront. Las licencias determinan lo que los usuarios pueden hacer.
 
-<!--Workfront instances using enterprise storage do not have access to proofing functionality. Instead, they use the native integration with Frame.io. For more information, see -->
+<!--Workfront instances using Adobe cloud storage do not have access to proofing functionality. Instead, they use the native integration with Frame.io. For more information, see -->
 
 Los paquetes de Workfront heredados de 2017 incluyen pruebas automáticas para licencias de trabajo y plan si tiene los planes profesionales, empresariales o de Workfront empresariales. Estos planes se están eliminando gradualmente.
 

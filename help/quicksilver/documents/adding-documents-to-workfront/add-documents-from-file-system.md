@@ -8,9 +8,9 @@ feature: Digital Content and Documents
 exl-id: 0a5f82b2-f86e-4ffa-b3a6-18221dd0e158
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 2b0fdb3c74882b566a397872e1cc8007728b770c
+source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
 workflow-type: tm+mt
-source-wordcount: '1312'
+source-wordcount: '1317'
 ht-degree: 8%
 
 ---
@@ -20,9 +20,9 @@ ht-degree: 8%
 Adobe Workfront tiene actualmente los dos tipos siguientes de almacenamiento de documentos:
 
 * Almacenamiento de Workfront heredado
-* almacenamiento empresarial de Adobe
+* almacenamiento en la nube de Adobe
 
-Para obtener más información acerca de estos tipos de almacenamiento, vea [Información general sobre el almacenamiento empresarial de Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
+Para obtener más información acerca de estos tipos de almacenamiento, vea [Información general sobre el almacenamiento en la nube de Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 >[!NOTE]
 >
@@ -44,7 +44,7 @@ La adición de documentos a Workfront difiere según la versión del área de do
   <tr> 
    <td role="rowheader">Paquete de Adobe Workfront</td> 
    <td> <p>Cualquier paquete de Workfront para administrar documentos mediante el almacenamiento heredado de Workfront</p>
-<p>Cualquier paquete de flujo de trabajo para administrar documentos mediante el almacenamiento empresarial de Adobe</p></td> 
+<p>Cualquier paquete de flujo de trabajo para administrar documentos mediante Adobe Cloud Storage.</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licencias de Adobe Workfront</td> 
@@ -55,7 +55,7 @@ La adición de documentos a Workfront difiere según la versión del área de do
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso</td> 
    <td> <p>Almacenamiento de Workfront heredado: Editar acceso a documentos</p> 
-   <p>Almacenamiento empresarial: el acceso de edición a documentos está habilitado de forma predeterminada y no se puede cambiar</p>
+   <p>Almacenamiento en la nube de Adobe: Editar acceso a documentos está habilitado de forma predeterminada y no se puede cambiar</p>
    </td> 
   </tr> 
  </tbody> 
@@ -69,7 +69,7 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
 
 Si su organización utiliza almacenamiento heredado de Workfront, verá el área Documentos heredados al acceder a documentos en Workfront.
 
-Para obtener más información sobre el almacenamiento de Workfront, consulte [Diferencias entre el almacenamiento empresarial de Adobe y el almacenamiento de Workfront heredado](/help/quicksilver/review-and-approve-work/esm-overview.md#differences-between-adobe-enterprise-storage-and-legacy-workfront-storage).
+Para obtener más información sobre el almacenamiento de Workfront, consulte [Diferencias entre el almacenamiento en la nube de Adobe y el almacenamiento de Workfront heredado](/help/quicksilver/review-and-approve-work/esm-overview.md#differences-between-adobe-cloud-storage-and-legacy-workfront-storage).
 
 Puede agregar documentos a las siguientes áreas de Workfront:
 
@@ -146,7 +146,7 @@ Para agregar un documento:
 
 ## Agregar documentos a Workfront en el área de nuevos documentos
 
-Puede agregar documentos a objetos mediante el modelo de almacenamiento empresarial de Adobe. Para obtener más información acerca del almacenamiento empresarial, consulte [Descripción general del almacenamiento empresarial de Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
+Puede agregar documentos a objetos mediante el modelo de almacenamiento en la nube de Adobe. Para obtener más información sobre el almacenamiento en la nube de Adobe, consulte [Información general sobre el almacenamiento en la nube de Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 Funcionalidad no admitida actualmente en el área de nuevos documentos:
 
@@ -160,7 +160,7 @@ Funcionalidad no admitida actualmente en el área de nuevos documentos:
 
 ### Agregar documentos a Workfront en el área de nuevos documentos
 
-Si su organización utiliza el almacenamiento empresarial, verá la nueva área Documentos al acceder a los documentos en Workfront. Para obtener más información acerca del almacenamiento empresarial, consulte [Descripción general del almacenamiento empresarial de Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
+Si su organización utiliza el almacenamiento en la nube de Adobe, verá la nueva área Documentos al acceder a documentos en Workfront. Para obtener más información sobre el almacenamiento en la nube de Adobe, consulte [Información general sobre el almacenamiento en la nube de Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 Para agregar un documento:
 
@@ -174,22 +174,22 @@ Si necesita información sobre cómo cargar nuevas versiones de un documento en 
 
 En la sección Documentos se crea automáticamente una carpeta con el mismo nombre que el objeto en el que está cargando el documento y el documento se agrega a la carpeta.
 
-## Seguridad de documentos para almacenamiento empresarial
+## Seguridad de documentos para el almacenamiento en la nube de Adobe
 
 Workfront evita que virus y otro contenido malicioso entren en el sitio a través de documentos de las siguientes maneras:
 
 **Cómo detecta Workfront los archivos dañados**
 
-La digitalización de documentos se habilita automáticamente para los objetos que utilizan el modelo de almacenamiento empresarial de Adobe.
+La digitalización de documentos se habilita automáticamente para los objetos que utilizan el modelo de almacenamiento en la nube de Adobe.
 
 Todos los archivos de menos de 500 MB se analizan cuando se cargan. Los archivos de más de 500 MB no se analizan. Si Workfront detecta un documento dañado, se eliminará automáticamente.
 
 **Restricciones de nombre de archivo**
 
-Debido a que esta integración se crea mediante el almacenamiento empresarial de Adobe, existen algunas convenciones de estructura y nomenclatura obligatorias que se deben tener en cuenta al administrar proyectos y documentos.
+Dado que esta integración se crea mediante el almacenamiento en la nube de Adobe, existen algunas convenciones de estructura y nomenclatura obligatorias que se deben tener en cuenta al administrar proyectos y documentos.
 
 * Los nombres de objeto deben ser únicos y no se pueden duplicar
-* El almacenamiento empresarial de Adobe requiere nombres únicos para objetos del mismo nivel con el mismo elemento principal en el árbol de jerarquías
+* El almacenamiento en la nube de Adobe requiere nombres únicos para objetos de igual a igual con el mismo elemento principal en el árbol de jerarquías
 * Los documentos no pueden tener el mismo nombre si pertenecen al mismo proyecto
 * Los nombres de documento no pueden contener ninguno de los siguientes caracteres especiales: `\ / : * ? " | < >`
 * Los nombres de documento están limitados a un máximo de 255 caracteres
