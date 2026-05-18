@@ -8,9 +8,9 @@ feature: Agile
 exl-id: 26abce82-dcd9-4865-96f4-c710f7f0a0d8
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: ad56d95f676a2c499ca21fc480cb7de0773f29d4
 workflow-type: tm+mt
-source-wordcount: '675'
+source-wordcount: '668'
 ht-degree: 99%
 
 ---
@@ -56,7 +56,7 @@ Cuando se aplican filtros, se muestra un indicador en el tablero ![Filtro aplica
  </tbody> 
 </table>
 
-Para obtener más información sobre el contenido de esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -99,7 +99,7 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
 De forma predeterminada, solo se muestran las tarjetas activas de un tablero. Puede filtrar el tablero para que también muestre las tarjetas archivadas.
 
 1. Acceda al tablero.
-1. Haga clic en [!UICONTROL **Configure**] a la derecha del tablero para abrir el panel Configurar.
+1. Haga clic en [!UICONTROL **Configurar**], a la derecha del tablero, para abrir el panel Configurar.
 1. Expanda [!UICONTROL **Cards**].
 1. Active [!UICONTROL **Mostrar tarjetas archivadas en el tablero**].
 1. Haga clic en [!UICONTROL **Filtro**], expanda la sección [!UICONTROL Tarjetas archivadas] y seleccione **[!UICONTROL Tarjetas archivadas]** para mostrar cualquier tarjeta archivada.

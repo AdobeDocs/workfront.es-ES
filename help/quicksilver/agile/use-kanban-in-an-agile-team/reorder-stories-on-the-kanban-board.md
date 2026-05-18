@@ -8,10 +8,10 @@ feature: Agile
 exl-id: 7d6142d2-4e6e-4f9f-81a8-bcc666757bad
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: ad56d95f676a2c499ca21fc480cb7de0773f29d4
 workflow-type: tm+mt
-source-wordcount: '253'
-ht-degree: 31%
+source-wordcount: '247'
+ht-degree: 34%
 
 ---
 
@@ -23,7 +23,7 @@ Es posible que desee cambiar el orden en que se muestran los artículos dentro d
 >
 >No puede cambiar el orden en que se muestran las historias en el registro de pendientes de un equipo [!UICONTROL Kanban].
 
-El orden en que aparecen las historias en el tablero [!UICONTROL Kanban] no indica la prioridad. Sin embargo, puede afectar a la prioridad percibida al hacer que las historias sean más visibles.
+El orden en que aparecen las historias en el tablero [!UICONTROL Kanban] no indica la prioridad. Sin embargo, esto puede afectar a la prioridad percibida al hacer que las historias sean más visibles.
 
 De manera predeterminada, las historias se muestran en orden alfabético dentro de cada columna de estado en el tablero [!UICONTROL Kanban].
 
@@ -51,7 +51,7 @@ Cuando reordena columnas en el tablero [!DNL Kanban], se guardan los cambios que
  </tbody> 
 </table>
 
-Para obtener más información sobre el contenido de esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

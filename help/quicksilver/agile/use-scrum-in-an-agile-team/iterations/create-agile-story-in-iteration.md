@@ -8,10 +8,10 @@ feature: Agile
 exl-id: 9712e065-5fbf-4deb-a39f-36e0e918ed12
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: ad56d95f676a2c499ca21fc480cb7de0773f29d4
 workflow-type: tm+mt
-source-wordcount: '509'
-ht-degree: 26%
+source-wordcount: '503'
+ht-degree: 25%
 
 ---
 
@@ -41,7 +41,7 @@ Este artículo describe cómo crear una nueva historia de Agile cuando ya está 
  </tbody> 
 </table>
 
-Para obtener más información sobre el contenido de esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -51,7 +51,7 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
 
    {{step1-to-team}}
 
-   1. (Opcional) Haga clic en el icono **[!UICONTROL Cambiar de equipo]** ![icono Cambiar de equipo](assets/switch-team-icon.png) y, a continuación, seleccione un nuevo equipo de Scrum en el menú desplegable o busque un equipo en la barra de búsqueda.
+   1. Haga clic en el icono **[!UICONTROL Cambiar equipo]** ![icono Cambiar equipo](assets/switch-team-icon.png) y, a continuación, seleccione un nuevo equipo de Scrum en el menú desplegable o busque un equipo en la barra de búsqueda.
 
    1. En el panel izquierdo, seleccione **[!UICONTROL Iterations]**.
    1. Haga clic en el nombre de la iteración específica en la que desea crear un artículo.
@@ -74,7 +74,7 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
      </tr>
      <tr>
       <td role="rowheader"><strong>[!UICONTROL Ready]</strong></td>
-      <td>Seleccione esta opción si el artículo está listo para añadirse a una iteración. Cuando se selecciona esta opción, se indica a los usuarios qué historias del registro de pendientes están listas para agregarse a una iteración.<br>Se puede agregar una historia a una iteración independientemente de si está marcada o no <strong>[!UICONTROL Ready].</strong></td>
+      <td>Seleccione esta opción si el artículo está listo para añadirse a una iteración. Cuando se selecciona esta opción, se indica a los usuarios qué historias del registro de pendientes están listas para agregarse a una iteración.<br>Se puede agregar una historia a una iteración independientemente de si está marcada <strong>[!UICONTROL Ready] o no.</strong></td>
      </tr>
      <tr>
       <td role="rowheader"><strong>[!UICONTROL Estimar] (puntos)</strong></td>
@@ -86,7 +86,7 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
      </tr>
      <tr>
       <td role="rowheader"><strong>[!UICONTROL Parent Task]</strong></td>
-      <td>Después de elegir un proyecto principal, tiene la opción de elegir una tarea principal. Al seleccionar una tarea principal, el artículo se crea como una subtarea de la tarea principal en el proyecto seleccionado.<br>Empiece a escribir el nombre de la tarea principal de la historia y, a continuación, haga clic en ella cuando aparezca en la lista desplegable.</td>
+      <td>Después de elegir un proyecto principal, tiene la opción de elegir una tarea principal. Cuando selecciona una tarea principal, el artículo se crea como una subtarea de la tarea principal en el proyecto que seleccionó.<br>Empiece a escribir el nombre de la tarea principal para el artículo y, a continuación, haga clic en él cuando aparezca en la lista desplegable.</td>
      </tr>
      <tr>
       <td role="rowheader"><strong>[!UICONTROL Custom Forms]</strong></td>

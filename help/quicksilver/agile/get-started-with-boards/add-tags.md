@@ -8,9 +8,9 @@ feature: Agile
 exl-id: 0071fa0d-8164-42d2-bbc6-bd60f8e0c052
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: ad56d95f676a2c499ca21fc480cb7de0773f29d4
 workflow-type: tm+mt
-source-wordcount: '543'
+source-wordcount: '541'
 ht-degree: 100%
 
 ---
@@ -45,7 +45,7 @@ Puede añadir etiquetas a las tarjetas para mostrar visualmente que son similare
  </tbody> 
 </table>
 
-Para obtener más información sobre el contenido de esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -121,7 +121,7 @@ Las etiquetas de una secuencia de trabajo están disponibles para todos los tabl
 
    O
 
-   Haga clic en el menú **[!UICONTROL Más]** ![[!UICONTROL menú Más]](assets/more-icon-spectrum.png) de la tarjeta y seleccione **[!UICONTROL Editar]**.
+   Haga clic en el menú **[!UICONTROL Más]** ![[!UICONTROL menú Más ]](assets/more-icon-spectrum.png) de la tarjeta y seleccione **[!UICONTROL Editar]**.
 
 1. Busque la etiqueta que quiera eliminar de la tarjeta y luego haga clic en el icono **[!UICONTROL Quitar]** ![Quitar etiqueta](assets/copy-of-boards-remove-30x23.png).
 1. Haga clic en **[!UICONTROL Cerrar]**.
@@ -131,7 +131,7 @@ Las etiquetas de una secuencia de trabajo están disponibles para todos los tabl
 1. Acceda a un tablero.
 1. Haga clic en el menú **[!UICONTROL Más]** ![[!UICONTROL menú Más]](assets/more-icon-spectrum.png) junto al nombre del tablero y, a continuación, elija **[!UICONTROL Administrador de etiquetas]**.
 
-   ![Seleccione el Administrador de etiquetas](assets/boards-tagmanager-350x189.png)
+   ![Seleccionar el Administrador de etiquetas](assets/boards-tagmanager-350x189.png)
 
 1. Busque la etiqueta que quiera eliminar y luego haga clic en el icono **[!UICONTROL Eliminar]** ![Eliminar etiqueta](assets/copy-of-boards-delete-30x27.png).
 1. Haga clic en **[!UICONTROL Listo]**.

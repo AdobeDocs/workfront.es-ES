@@ -8,9 +8,9 @@ feature: Agile
 exl-id: 166a84d3-18ea-4a58-b0e8-f09df2a63caa
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: ad56d95f676a2c499ca21fc480cb7de0773f29d4
 workflow-type: tm+mt
-source-wordcount: '373'
+source-wordcount: '368'
 ht-degree: 98%
 
 ---
@@ -43,7 +43,7 @@ Las subtareas solo están disponibles en tarjetas conectadas, pero no en problem
  </tbody> 
 </table>
 
-Para obtener más información sobre el contenido de esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -56,7 +56,7 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
 
    O
 
-   Haga clic en el menú **[!UICONTROL More]** ![More menu](assets/more-icon-spectrum.png) de la tarjeta y seleccione **[!UICONTROL Edit]**.
+   Haga clic en el menú **[!UICONTROL Más]** ![menú Más](assets/more-icon-spectrum.png) de la tarjeta y seleccione **[!UICONTROL Editar]**.
 
    Cualquier subtarea existente para esta tarea aparecerá en la tarjeta de la sección Subtarea, encima de los elementos de la lista de comprobación. Haga clic en el icono [!UICONTROL **Search**] para buscar una subtarea.
 

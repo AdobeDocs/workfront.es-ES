@@ -8,9 +8,9 @@ feature: Agile
 exl-id: c6610616-80e5-4ded-9d23-63f15536e45c
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: ad56d95f676a2c499ca21fc480cb7de0773f29d4
 workflow-type: tm+mt
-source-wordcount: '312'
+source-wordcount: '305'
 ht-degree: 92%
 
 ---
@@ -26,8 +26,8 @@ Al crear subtareas para historias existentes, tenga en cuenta lo siguiente:
 
 **Cuando la configuración del [!UICONTROL Modo de finalización de resumen] del proyecto está establecida en [!UICONTROL Automático]:**
 
-* No se puede mover la historia principal por el tablero. Para actualizar el [!UICONTROL Porcentaje completado] de la historia, debe actualizar el [!UICONTROL Porcentaje completado] para cualquier subtarea. El [!UICONTROL Porcentaje completado] de la historia se calcula en función del [!UICONTROL Porcentaje completado] de todas las subtareas.
-* Al mover una historia principal con subtareas a [!UICONTROL Completado], se actualiza la historia principal al 100 % y el [!UICONTROL Estado] a [!UICONTROL Completado]. Las subtareas también se actualizan al 100 % y el [!UICONTROL Estado] se actualiza a [!UICONTROL Completado].
+* No se puede mover la historia principal por el tablero. Para actualizar el [!UICONTROL Porcentaje completado] de la historia, debe actualizar el [!UICONTROL Porcentaje completado] para cualquier subtarea. El [!UICONTROL porcentaje completado] para la historia se calcula en función del [!UICONTROL porcentaje completado] de todas las subtareas.
+* Al mover una historia principal con subtareas a [!UICONTROL Completado], se actualiza la historia principal al 100 % y el [!UICONTROL Estado] a [!UICONTROL Completado]. Las subtareas también se actualizan al 100 % y [!UICONTROL Estado] se actualiza a [!UICONTROL Completado].
 
 ## Requisitos de acceso
 
@@ -55,7 +55,7 @@ Al crear subtareas para historias existentes, tenga en cuenta lo siguiente:
  </tbody> 
 </table>
 
-Para obtener más información sobre el contenido de esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
