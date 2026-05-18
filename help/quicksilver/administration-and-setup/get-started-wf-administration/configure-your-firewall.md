@@ -8,10 +8,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 264eed40-6d90-498b-83cc-2500c8b19c84
-source-git-commit: be11c7417023ce2f310fce3e0cf77724d101b89e
+source-git-commit: 9527a0597f90e20cd611d9f64056b8f7e1116be1
 workflow-type: tm+mt
-source-wordcount: '1583'
-ht-degree: 15%
+source-wordcount: '1482'
+ht-degree: 13%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 15%
 >
 >El procedimiento descrito en esta página se aplicaba únicamente a las organizaciones que aún no se habían incorporado a Admin Console. Dado que todas las organizaciones se han incorporado a Adobe Admin Console, debe realizar esta acción a través de Adobe Admin Console.
 >
->Para configurar la lista de permitidos una vez que su organización se haya incorporado a Adobe Admin Console, consulte [Dominios permitidos para aplicaciones y servicios de Adobe](https://helpx.adobe.com/es/enterprise/kb/network-endpoints.html).
+>Para configurar la lista de permitidos una vez que su organización se haya incorporado a Adobe Admin Console, consulte [Dominios permitidos para aplicaciones y servicios de Adobe](https://helpx.adobe.com/enterprise/kb/network-endpoints.html).
 >
 >Para obtener una lista de procedimientos que difieren según si su organización se ha incorporado a Adobe Admin Console, consulte [Diferencias de administración entre Adobe Workfront y Adobe Business Platform](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
@@ -76,62 +76,69 @@ Para obtener más información, consulte la sección [Ver el clúster de su orga
 * [Direcciones IP que agregar para usar Workfront para Jira](#ip-addresses-to-add-for-using-workfront-for-jira)
 * [Direcciones URL que se agregarán para todos los clústeres en Workfront](#urls-to-add-for-all-clusters-workfront)
 
-### Direcciones IP para permitir los clústeres 1, 2, 3, 5, 7, 8 y 9 {#ip-addresses-to-allow-for-clusters-1-2-3-5-7-8-and-9}
+### Para recibir correo electrónico desde la aplicación de Workfront
 
-Si el entorno de producción está en el clúster 1, 2, 3, 5, 7, 8 o 9, debe permitir las siguientes direcciones IP.
+Si el cortafuegos o el servidor de correo están configurados para permitir el acceso solo a determinados proveedores, debe añadir las siguientes direcciones IP a la lista de permitidos para recibir correo electrónico de la aplicación de Workfront.
 
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">Para SSO, webhooks de documentos u otras funciones</td> 
-   <td> 
-    <ul> 
-     <li>35.160.0.242</li> 
-     <li>34.213.36.118</li> 
-     <li>3.209.27.146</li> 
-     <li>18.205.251.4</li> 
-     <li>34.211.224.9</li> 
-     <li>54.218.48.56</li> 
-     <li>52.36.154.34</li> 
-     <li>54.244.142.219</li> 
-     <li>52.39.217.230</li> 
-     <li>44.241.82.96</li> 
-     <li>54.203.255.135/32</li> 
-     <li>35.155.2.51/32</li> 
-     <li>52.34.192.77/32</li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Para recibir correo electrónico desde la aplicación de Workfront</td> 
-   <td> 
-    <ul> 
-     <li>54.240.60.174</li> 
-     <li>54.240.60.175</li> 
-     <li>13.58.86.183</li> 
-     <li>34.209.181.84</li> 
-     <li>35.161.82.137</li> 
-     <li>52.14.70.114</li> 
-     <li>52.15.230.220</li> 
-     <li>54.71.252.65</li>
-     <li>23.251.237.107</li> 
-     <li>23.251.237.108</li> 
-     <li>23.251.237.109</li> 
-     <li>23.251.237.106</li> 
-     <li>206.55.149.212</li>
-     <li>206.55.149.214</li>
-     <li>206.55.149.215</li>
-     <li>206.55.149.213</li>
-     <li>206.55.149.211</li>
-    </ul> </td> 
-  </tr> 
- </tbody> 
-</table>
+#### Regiones de EE. UU.: clústeres 1, 2, 3, 5, 6, 7, 8, 9 y 10
 
-### Direcciones IP para permitir el clúster 4 {#ip-addresses-to-allow-for-cluster-4}
+* 206.55.149.211
+* 206.55.149.212
+* 206.55.149.213
+* 206.55.149.214
+* 206.55.149.215
+* 23.251.237.106
+* 23.251.237.107
+* 23.251.237.108
+* 23.251.237.109
+* 54.240.119.54
+* 54.240.119.55
+* 54.240.60.174
+* 54.240.60.175
+* 54.240.61.222
+* 54.240.61.223
 
-Si su entorno de producción está en el clúster 4, agregue las siguientes direcciones IP para SSO, documentar las integraciones de ganchos web y recibir correo electrónico de la aplicación de Workfront:
+#### Regiones de la UE: clústeres 4, 11, 12 y 13
+
+* 23.251.239.98
+* 23.251.239.99
+* 24.110.76.223
+* 24.110.76.224
+* 69.169.230.231
+* 69.169.230.232
+
+
+### SSO, integraciones de ganchos web de documentos y otras funcionalidades
+
+#### Regiones de EE. UU.: clústeres 1, 2, 3, 5, 6, 7, 8, 9 y 10
+
+**Clústeres 1, 2, 3, 5, 6, 7, 8, 9**
+
+
+* 35.160.0.242
+* 34.213.36.118
+* 3.209.27.146
+* 18.205.251.4
+* 34.211.224.9
+* 54.218.48.56
+* 52.36.154.34
+* 54.244.142.219
+* 52.39.217.230
+* 44.241.82.96
+* 54.203.255.135/32
+* 35.155.2.51/32
+* 52.34.192.77/32
+
+**Clúster 10**
+
+* 20.36.133.48/28
+* 20.81.156.240/28
+* 172.172.84.48/28
+
+#### Regiones de la UE: agrupaciones 4 y 11
+
+
+**Custer 4**
 
 * 52.31.132.175
 * 52.19.188.226
@@ -139,8 +146,6 @@ Si su entorno de producción está en el clúster 4, agregue las siguientes dire
 * 52.29.41.175
 * 52.29.197.69
 * 52.48.124.108
-* 69.169.230.231
-* 69.169. 230,232
 * 3.121.91.129
 * 3.122.11.35
 * 34.246.27.40
@@ -154,76 +159,7 @@ Si su entorno de producción está en el clúster 4, agregue las siguientes dire
 * 34.242.62.80/32
 * 46.51.194.192/32
 * 54.229.129.66/32
-* 23.251.239.98
-* 23.251.239.99
-* 24.110.76.224
-* 24.110.76.223
 
-### Direcciones IP para permitir el clúster 6 {#ip-addresses-to-allow-for-cluster-6}
-
-Si el entorno de producción está en el clúster 6, agregue las siguientes direcciones IP.
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">Para recibir correo electrónico desde la aplicación de Workfront</td> 
-   <td> 
-    <ul> 
-     <li>34.94.227.64</li> 
-     <li>34.94.227.65</li> 
-     <li>34.94.227.66</li> 
-     <li>34.94.227.67</li> 
-     <li>34.66.82.64</li> 
-     <li>34.66.82.65</li> 
-     <li>34.66.82.66</li> 
-     <li>34.66.82.67</li> 
-    <li>206.55.149.212</li>
-   <li>206.55.149.214</li>
-   <li>206.55.149.215</li>
-   <li>206.55.149.213</li>
-   <li>206.55.149.211</li>
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Para utilizar el servicio de correo electrónico</td> 
-   <td> 
-    <ul> 
-     <li>54.240.60.174</li> 
-     <li>54.240.60.175</li> 
-     <li>13.58.86.183</li> 
-     <li>34.209.181.84</li> 
-     <li>35.161.82.137</li> 
-     <li>52.14.70.114</li> 
-     <li>52.15.230.220</li> 
-     <li>54.71.252.65 </li> 
-    </ul> </td> 
-  </tr> 
-    <tr> 
-   <td role="rowheader">Para utilizar el servicio de correo electrónico Mailgun</td> 
-   <td> 
-    <ul> 
-     <li>143.55.228.56 </li> 
-     <li>209.61.151.229</li> 
-     <li>69.72.43.7</li> 
-    </ul> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-### Direcciones IP para permitir el clúster 10
-
-* 20.36.133.48/28
-* 20.81.156.240/28
-* 172.172.84.48/28
-
-### Direcciones IP para permitir el clúster 11
-
-Para recibir correo electrónico de la aplicación de Workfront en el clúster 11, agregue las siguientes direcciones IP:
-
-* 24.110.76.224
-* 24.110.76.223
 
 ### Direcciones IP para permitir una unidad de prueba
 
@@ -554,32 +490,8 @@ Debe añadir las siguientes direcciones IP a la lista de permitidos para utiliza
 
 ### Para correo electrónico saliente {#for-outgoing-email}
 
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader"> <p>Prod-US (clústeres 1, 2, 3, 5 y 7)</p> </td> 
-   <td> 
-    <ul> 
-     <li> 23.251.237.106</li> 
-     <li>23.251.237.107</li> 
-     <li>23.251.237.108</li> 
-     <li>54.240.60.174</li> 
-     <li>54.240.60.175</li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Prod-EU (grupo 4)</td> 
-   <td> 
-    <ul> 
-     <li>23.251.239.98</li> 
-     <li>69.169.230.231</li> 
-     <li>69.169.230.232</li> 
-    </ul> </td> 
-  </tr> 
- </tbody> 
-</table>
+Consulte [Para recibir correo electrónico desde la aplicación Workfront](#to-receive-email-from-the-workfront-application) sección anterior.
+
 
 ## Puertos para abrir y obtener el mejor rendimiento de Workfront Proof
 
