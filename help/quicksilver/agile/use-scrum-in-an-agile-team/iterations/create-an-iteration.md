@@ -2,16 +2,16 @@
 product-area: agile-and-teams
 navigation-topic: iterations
 title: Crear una iteración
-description: Las iteraciones son un componente clave para los equipos de Scrum Agile a la hora de planificar la capacidad de trabajo. [!DNL Adobe Workfront] permite que los equipos de Scrum Agile administren su trabajo creando múltiples iteraciones para satisfacer las necesidades del equipo.
+description: Las iteraciones son un componente clave para que los equipos de Scrum Agile planifiquen la capacidad de trabajo. [!DNL Adobe Workfront] permite que los equipos de Scrum Agile administren su trabajo creando varias iteraciones para satisfacer las necesidades del equipo.
 author: Courtney
 feature: Agile
 exl-id: a25cdd4a-f2e3-4b8a-a7f4-3757940b635e
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: ad56d95f676a2c499ca21fc480cb7de0773f29d4
 workflow-type: tm+mt
-source-wordcount: '1022'
-ht-degree: 68%
+source-wordcount: '1025'
+ht-degree: 55%
 
 ---
 
@@ -41,7 +41,7 @@ Las iteraciones son un componente clave para los equipos de Scrum Agile a la hor
  </tbody> 
 </table>
 
-Para obtener más información sobre el contenido de esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -81,11 +81,11 @@ Puede agregar una iteración en la lista para crear rápidamente una iteración 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL Capacity]</strong></td> 
-      <td> Especifique la capacidad de la iteración. Es el número de puntos u horas que su equipo puede lograr en la iteración. El número que introduzca debe ser igual o mayor que el número de puntos u horas de la suma de todos las historias de la iteración.<br>[!DNL Workfront] rellena previamente este campo con 50 de capacidad de forma predeterminada. </td> 
+      <td> Especifique la capacidad de la iteración. Es el número de puntos u horas que su equipo puede lograr en la iteración. El número que escriba debe ser igual o mayor que el número de puntos u horas de la suma de todas las historias de la iteración.<br>[!DNL Workfront] rellena previamente este campo con 50 capacidades de forma predeterminada. </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL Focus]</strong></td> 
-      <td>Especifique el porcentaje de enfoque del equipo. Si todos los integrantes del equipo se centran completamente en esta iteración, el enfoque sería del 100 %.<br>[!DNL Workfront] rellena previamente este campo con el 100 % de forma predeterminada. </td> 
+      <td>Especifique el porcentaje de enfoque del equipo. Si todos los miembros del equipo se centran completamente en esta iteración, el enfoque sería del 100 %.<br>[!DNL Workfront] rellena previamente este campo con el 100 % de forma predeterminada. </td> 
      </tr> 
     </tbody> 
    </table>
@@ -125,15 +125,15 @@ Utilice la función [!UICONTROL Planificar iteración] para crear una iteración
      </tr> 
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL End Date]</strong> </td> 
-      <td><p>Especifique la fecha de finalización de la iteración. [!DNL Workfront] recomienda establecer una fecha de finalización no superior a 4 semanas desde la fecha de inicio.</p><p>Sugerencia: asegúrese de elegir un día laborable como fecha de finalización. El gráfico de evolución solo utiliza días laborables en sus cálculos.<br>De manera predeterminada, el gráfico de evolución utiliza el horario predeterminado para definir los días laborables (tal como se describe en <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref">Crear programación</a>). O bien, para incorporar días no laborables específicos del equipo, los equipos de Agile pueden elegir usar un horario alternativo (como se describe en <a href="../../../agile/use-scrum-in-an-agile-team/burndown/use-alt-team-schedule-burndown-charts.md" class="MCXref xref">Usar un horario de equipo alternativo para los gráficos de evolución</a>).</p></td> 
+      <td><p>Especifique la fecha de finalización de la iteración. [!DNL Workfront] recomienda establecer una fecha de finalización que no sea superior a 4 semanas desde la fecha de inicio.</p><p>Sugerencia: asegúrese de elegir un día laborable como fecha de finalización. El gráfico de evolución solo utiliza días laborables en sus cálculos.<br>De manera predeterminada, el gráfico de evolución utiliza el horario predeterminado para definir los días laborables (tal como se describe en <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref">Crear programación</a>). O bien, para incorporar días no laborables específicos del equipo, los equipos de Agile pueden elegir usar un horario alternativo (como se describe en <a href="../../../agile/use-scrum-in-an-agile-team/burndown/use-alt-team-schedule-burndown-charts.md" class="MCXref xref">Usar un horario de equipo alternativo para los gráficos de evolución</a>).</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL Focus]</strong></td> 
-      <td>Especifique el porcentaje de enfoque del equipo. Si todos los integrantes del equipo se centran completamente en esta iteración, el enfoque sería del 100 %.<br>[!DNL Workfront] rellena previamente este campo con el valor de promedio de las iteraciones anteriores del equipo. Si esta es la primera iteración del equipo, este valor de campo es 0 de forma predeterminada.</td> 
+      <td>Especifique el porcentaje de enfoque del equipo. Si todos los miembros del equipo se centran completamente en esta iteración, el enfoque sería del 100 %.<br>[!DNL Workfront] rellena previamente este campo con el valor promedio de las iteraciones anteriores del equipo. Si esta es la primera iteración del equipo, este valor de campo es 0 de forma predeterminada.</td> 
      </tr> 
      <tr> 
       <td role="rowheader"><br><strong>[!UICONTROL Capacity]</strong></td> 
-      <td> Especifique la capacidad de la iteración. Es el número de puntos u horas que su equipo puede lograr en la iteración. El número que introduzca debe ser igual o mayor que el número de puntos u horas de la suma de todos las historias de la iteración.<br>[!DNL Workfront] rellena previamente este campo con el valor de promedio de las iteraciones anteriores del equipo. Si esta es la primera iteración del equipo, este valor de campo es 0 de forma predeterminada.</td> 
+      <td> Especifique la capacidad de la iteración. Es el número de puntos u horas que su equipo puede lograr en la iteración. El número que escriba debe ser igual o mayor que el número de puntos u horas de la suma de todas las historias de la iteración.<br>[!DNL Workfront] rellena previamente este campo con el valor promedio de las iteraciones anteriores del equipo. Si esta es la primera iteración del equipo, este valor de campo es 0 de forma predeterminada.</td> 
      </tr> 
      <tr> 
       <td role="rowheader"><br><strong>[!UICONTROL Goal]</strong></td> 
@@ -142,7 +142,7 @@ Utilice la función [!UICONTROL Planificar iteración] para crear una iteración
     </tbody> 
    </table>
 
-1. Haga clic en **[!UICONTROL Guardar].**: se crea la iteración.
+1. Haga clic en **[!UICONTROL Guardar].** Se crea la iteración.
 
 ## Agregar tareas o problemas a una iteración existente en la ficha Registro de pendientes
 

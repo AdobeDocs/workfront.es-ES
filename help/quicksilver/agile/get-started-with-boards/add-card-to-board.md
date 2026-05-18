@@ -8,10 +8,10 @@ feature: Agile
 exl-id: 9bc1f92a-85b0-44fd-b5de-09a69af6def5
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: ad56d95f676a2c499ca21fc480cb7de0773f29d4
 workflow-type: tm+mt
-source-wordcount: '879'
-ht-degree: 37%
+source-wordcount: '873'
+ht-degree: 42%
 
 ---
 
@@ -45,7 +45,7 @@ Puede añadir rápidamente una tarjeta a un tablero y asignarla a un miembro del
  </tbody> 
 </table>
 
-Para obtener más información sobre el contenido de esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -76,7 +76,7 @@ Una tarjeta ad hoc no está conectada a un elemento de trabajo en [!DNL Adobe Wo
      </tr> 
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL Descripción]</strong> </td> 
-      <td>Una descripción de la tarjeta. Puede añadir direcciones URL en la descripción, que se convertirán en vínculos en los que se puede hacer clic cuando se guarde la tarjeta.</td>
+      <td>Descripción de la tarjeta. Puede añadir direcciones URL en la descripción, que se convertirán en vínculos en los que se puede hacer clic cuando se guarde la tarjeta.</td>
      </tr>
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL Columna]</strong> </td> 
@@ -149,7 +149,7 @@ Puede añadir tarjetas ad hoc con un solo título para rellenar rápidamente el 
 
    O
 
-   Haga clic en el menú **[!UICONTROL Más]** ![[!UICONTROL menú Más &#x200B;]](assets/more-icon-spectrum.png) de la tarjeta y seleccione **[!UICONTROL Editar]**.
+   Haga clic en el menú **[!UICONTROL Más]** ![[!UICONTROL menú Más ]](assets/more-icon-spectrum.png) de la tarjeta y seleccione **[!UICONTROL Editar]**.
 
 1. En el cuadro [!UICONTROL Detalles de la tarjeta], actualice la información según sea necesario y haga clic en **[!UICONTROL Cerrar]** para volver al tablero.
 

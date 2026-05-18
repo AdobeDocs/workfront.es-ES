@@ -8,9 +8,9 @@ feature: Agile
 exl-id: a736cdfe-5ddc-4bf4-82a1-a78d16c0d70b
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: ad56d95f676a2c499ca21fc480cb7de0773f29d4
 workflow-type: tm+mt
-source-wordcount: '1081'
+source-wordcount: '1075'
 ht-degree: 96%
 
 ---
@@ -49,7 +49,7 @@ Para obtener más información sobre cómo ordenar las tarjetas en columnas, vea
  </tbody> 
 </table>
 
-Para obtener más información sobre el contenido de esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -101,7 +101,7 @@ Puede utilizar un ajuste de configuración para mostrar el número de tarjetas e
 Si utiliza el límite de trabajo en curso en una columna, no se añade un contador de tarjetas independiente. Para obtener más información sobre los límites de WIP, consulte [Administrar el límite de [!UICONTROL Trabajo en curso] (WIP) en un tablero](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-wip-limit-on-board.md).
 
 1. Acceda al tablero.
-1. Haga clic en **[!UICONTROL Configurar]** a la derecha del tablero para abrir el panel Configurar.
+1. Haga clic en **[!UICONTROL Configure]** a la derecha del tablero para abrir el panel Configurar.
 1. Expanda **[!UICONTROL Columna]**.
 1. Active **[!UICONTROL Mostrar un recuento de tarjetas de columna]**.
 

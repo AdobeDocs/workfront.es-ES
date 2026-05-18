@@ -9,9 +9,9 @@ feature: Agile
 exl-id: c46c42e8-e14d-414d-b883-c4d885338e42
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: ad56d95f676a2c499ca21fc480cb7de0773f29d4
 workflow-type: tm+mt
-source-wordcount: '934'
+source-wordcount: '929'
 ht-degree: 99%
 
 ---
@@ -50,7 +50,7 @@ Los flujos de trabajo aparecen en el panel de control junto a tableros individua
  </tbody> 
 </table>
 
-Para obtener más información sobre el contenido de esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -74,7 +74,7 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
 | Tablero básico | Se proporcionan tres columnas predeterminadas en el tablero. Puede añadir nuevas columnas y cambiar el nombre de las columnas predeterminadas o eliminarlas. <p>No se aplican políticas de columna. |
 | Tablero Kanban | Se proporcionan las siguientes columnas en el tablero: Registro de pendientes, Nuevo, En curso, Completado y En espera. Puede añadir nuevas columnas y cambiar el nombre de las columnas predeterminadas o eliminarlas.<p>Para utilizar el registro de pendientes, debe configurar filtros para la columna de entrada. Para obtener más información, consulte [Añadir una columna de entrada a un tablero](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md). <p>Para revisar las políticas predeterminadas de cada columna, haga clic en el menú [!UICONTROL **Más**] de una columna y seleccione [!UICONTROL **Editar**]. Puede cambiar cualquiera de estas políticas preconfiguradas. Para obtener más información, consulte [Administrar columnas de tablero](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md). |
 | Tablero retrospectivo | En el tablero se proporcionan las siguientes columnas: ¿Qué ha ido bien? ¿Qué se podría mejorar? ¿A quién debemos felicitar? ¿Qué podemos hacer para avanzar más rápido? Puede añadir nuevas columnas y cambiar el nombre de las columnas predeterminadas o eliminarlas. <p>No se aplican políticas de columna. |
-| Proceso de iteración | Este es el tablero utilizado para definir y ejecutar una iteración. <p>Se proporcionan las siguientes columnas en el tablero: Registro de pendientes, Nuevo, En curso, Completado y En espera. No puede añadir ninguna columna al tablero. <p>Para revisar las políticas predeterminadas de cada columna, haga clic en el menú [!UICONTROL **Más**] de una columna y seleccione [!UICONTROL **Editar**]. Puede cambiar cualquiera de estas políticas preconfiguradas. Para obtener más información, consulte [Administrar columnas del tablero](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md). |
+| Proceso de iteración | Este es el tablero utilizado para definir y ejecutar una iteración. <p>Se proporcionan las siguientes columnas en el tablero: Registro de pendientes, Nuevo, En curso, Completado y En espera. No puede añadir ninguna columna al tablero. <p>Para revisar las políticas predeterminadas de cada columna, haga clic en el menú [!UICONTROL **Más**] de una columna y seleccione [!UICONTROL **Editar**]. Puede cambiar cualquiera de estas políticas preconfiguradas. Para obtener más información, consulte [Administrar columnas de tablero](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md). |
 
 Para obtener más información sobre la configuración del tablero, consulte [Crear o editar un tablero](/help/quicksilver/agile/get-started-with-boards/create-edit-board.md).
 

@@ -8,9 +8,9 @@ feature: Agile
 exl-id: 68b7d2e5-92f0-462d-8122-eaecb1e6b87c
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: ad56d95f676a2c499ca21fc480cb7de0773f29d4
 workflow-type: tm+mt
-source-wordcount: '516'
+source-wordcount: '509'
 ht-degree: 96%
 
 ---
@@ -49,7 +49,7 @@ Las tarjetas archivadas no se sincronizan con las tareas y problemas de Workfron
  </tbody> 
 </table>
 
-Para obtener más información sobre el contenido de esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -58,13 +58,13 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
 {{step1-to-boards}}
 
 1. Acceda a un tablero. Para obtener más información, consulte [Crear o editar un tablero](../../agile/get-started-with-boards/create-edit-board.md).
-1. Haga clic en el menú **[!UICONTROL Más]** ![Más &#x200B;](assets/more-icon-spectrum.png) de la tarjeta y seleccione **[!UICONTROL Eliminar]**.
+1. Haga clic en el menú **[!UICONTROL Más]** ![Más ](assets/more-icon-spectrum.png) de la tarjeta y seleccione **[!UICONTROL Eliminar]**.
 1. Haga clic en **[!UICONTROL Eliminar]** en el mensaje de confirmación.
 
 ## Archivar una tarjeta de un tablero
 
 1. Acceda al tablero.
-1. Haga clic en el menú **[!UICONTROL Más]** ![Más &#x200B;](assets/more-icon-spectrum.png) de la tarjeta y seleccione **[!UICONTROL Archivar]**.
+1. Haga clic en el menú **[!UICONTROL Más]** ![Más ](assets/more-icon-spectrum.png) de la tarjeta y seleccione **[!UICONTROL Archivar]**.
 
    Las tarjetas archivadas se ocultan del tablero a menos que aplique un filtro para mostrarlas. Para obtener más información, consulte [Filtrar un tablero para mostrar tarjetas archivadas](#filter-a-board-to-show-archived-cards) en este artículo.
 
@@ -77,7 +77,7 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
 De forma predeterminada, solo se muestran las tarjetas activas de un tablero. Puede filtrar el tablero para que también muestre las tarjetas archivadas.
 
 1. Acceda al tablero.
-1. Haga clic en [!UICONTROL **Configure**] a la derecha del tablero para abrir el panel Configurar.
+1. Haga clic en [!UICONTROL **Configurar**], a la derecha del tablero, para abrir el panel Configurar.
 1. Expanda [!UICONTROL **Cards**].
 1. Active [!UICONTROL **Mostrar tarjetas archivadas en el tablero**].
 1. Haga clic en [!UICONTROL **Filtro**], expanda la sección [!UICONTROL Tarjetas archivadas] y seleccione **[!UICONTROL Tarjetas archivadas]** para mostrar cualquier tarjeta archivada.

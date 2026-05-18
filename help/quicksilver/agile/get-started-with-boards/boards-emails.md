@@ -9,9 +9,9 @@ feature: Agile
 exl-id: 7ec9f9cc-274c-4253-8441-d7ffe9afd78d
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 3e76f4a798a55a674a5ada2661c4b6bbb55195f2
+source-git-commit: ad56d95f676a2c499ca21fc480cb7de0773f29d4
 workflow-type: tm+mt
-source-wordcount: '207'
+source-wordcount: '200'
 ht-degree: 97%
 
 ---
@@ -44,7 +44,7 @@ Según la configuración de las notificaciones por correo electrónico, también
  </tbody> 
 </table>
 
-Para obtener más información sobre el contenido de esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

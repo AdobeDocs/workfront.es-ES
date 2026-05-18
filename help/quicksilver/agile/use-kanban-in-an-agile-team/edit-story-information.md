@@ -8,10 +8,10 @@ feature: Agile
 exl-id: a22a7b61-b331-4c98-9421-e7fccedcd096
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: ad56d95f676a2c499ca21fc480cb7de0773f29d4
 workflow-type: tm+mt
-source-wordcount: '396'
-ht-degree: 83%
+source-wordcount: '378'
+ht-degree: 78%
 
 ---
 
@@ -49,7 +49,7 @@ Al ver el mosaico de una historia en el tablero [!UICONTROL Kanban], está dispo
    <td> </td> 
   </tr> 
   <tr> 
-   <td> <p>El [!UICONTROL Percent Complete] de cada historia y problema.<br>El [!UICONTROL The Percent Complete] de la iteración se calcula según el [!UICONTROL Percent Complete] de cada artículo.<br></p> <p>Al actualizar el [!UICONTROL Percent Complete] de una historia o un problema, puede elegir cualquier número entre 0 y 100.</p> </td> 
+   <td> <p>El [!UICONTROL Porcentaje completado] de cada artículo y problema.<br>[!UICONTROL El porcentaje completado] de la iteración se calcula según el [!UICONTROL Porcentaje completado] de cada artículo.<br></p> <p>Al actualizar el [!UICONTROL Percent Complete] de una historia o un problema, puede elegir cualquier número entre 0 y 100.</p> </td> 
    <td>✓</td> 
    <td>✓</td> 
   </tr> 
@@ -93,7 +93,7 @@ Al ver el mosaico de una historia en el tablero [!UICONTROL Kanban], está dispo
  </tbody> 
 </table>
 
-Para obtener más información sobre el contenido de esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

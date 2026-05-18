@@ -8,9 +8,9 @@ feature: Agile
 exl-id: d4eec3c5-8cea-467f-b1b4-3f9fab57b10f
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: ad56d95f676a2c499ca21fc480cb7de0773f29d4
 workflow-type: tm+mt
-source-wordcount: '421'
+source-wordcount: '416'
 ht-degree: 98%
 
 ---
@@ -21,7 +21,7 @@ Puede crear rápidamente una nueva historia o problema directamente desde el tab
 
 >[!NOTE]
 >
->Los elementos de trabajo [!UICONTROL Fecha de inicio planificada] y [!UICONTROL Fecha de finalización planificada] se ven afectados por un ajuste de la página [!UICONTROL Editar equipo]. Para obtener más información, consulte la sección [[!UICONTROL Configurar] acerca de cómo se aplican las fechas al añadir elementos de trabajo a una iteración](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configur5) en el artículo [Configurar Scrum](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md).
+>Los elementos de trabajo [!UICONTROL Fecha de inicio planificada] y [!UICONTROL Fecha de finalización planificada] se ven afectados por un ajuste de la página [!UICONTROL Editar equipo]. Para obtener más información, consulte la sección [[!UICONTROL Configurar] cómo se aplican las fechas al añadir elementos de trabajo a una iteración](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configur5) en el artículo [Configurar Scrum](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md).
 
 ## Requisitos de acceso
 
@@ -48,7 +48,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  </tbody> 
 </table>
 
-Para obtener más información sobre el contenido de esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -56,7 +56,7 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
 
 {{step1-to-team}}
 
-1. (Opcional) Haga clic en el icono de **[!UICONTROL Cambiar equipo]** ![icono de Cambiar equipo](assets/switch-team-icon.png) y, a continuación, seleccione un nuevo equipo de Scrum en el menú desplegable o busque un equipo en la barra de búsqueda.
+1. Haga clic en el icono **[!UICONTROL Cambiar equipo]** ![icono Cambiar equipo](assets/switch-team-icon.png) y, a continuación, seleccione un nuevo equipo de Scrum en el menú desplegable o busque un equipo en la barra de búsqueda.
 1. En el panel izquierdo, seleccione **[!UICONTROL Iteraciones]** para elegir una iteración específica o seleccione **[!UICONTROL Iteración actual]**.
 1. Haga clic en **[!UICONTROL Añadir]** en el lado derecho del tablero de Scrum y seleccione **[!UICONTROL Nueva historia]** o **[!UICONTROL Nuevo problema]**.
 1. En el cuadro de diálogo **[!UICONTROL Nuevo]**, añada la siguiente información:
@@ -86,7 +86,7 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
 
 {{step1-to-team}}
 
-1. (Opcional) Haga clic en el icono de **[!UICONTROL Cambiar equipo]** ![icono de Cambiar equipo](assets/switch-team-icon.png) y, a continuación, seleccione un nuevo equipo de Scrum en el menú desplegable o busque un equipo en la barra de búsqueda.
+1. Haga clic en el icono **[!UICONTROL Cambiar equipo]** ![icono Cambiar equipo](assets/switch-team-icon.png) y, a continuación, seleccione un nuevo equipo de Scrum en el menú desplegable o busque un equipo en la barra de búsqueda.
 1. En el panel izquierdo, seleccione **[!UICONTROL Iteraciones]** para elegir una iteración específica o seleccione **[!UICONTROL Iteración actual]**.
 1. Haga clic en **[!UICONTROL Agregar]** en el lado derecho del tablero de Scrum y seleccione **[!UICONTROL Historia existente]** o **[!UICONTROL Problema existente]**.
 1. En el cuadro de diálogo **[!UICONTROL Añadir existente desde el registro de asuntos pendientes]**, empiece a escribir el nombre de una historia o problema y, a continuación, selecciónelo cuando se muestre en la lista.

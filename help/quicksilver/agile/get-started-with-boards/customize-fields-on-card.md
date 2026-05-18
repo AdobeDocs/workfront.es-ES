@@ -8,9 +8,9 @@ feature: Agile
 exl-id: 28fa6455-04dd-4115-9ead-cb3e7c26289e
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: ad56d95f676a2c499ca21fc480cb7de0773f29d4
 workflow-type: tm+mt
-source-wordcount: '654'
+source-wordcount: '647'
 ht-degree: 98%
 
 ---
@@ -54,7 +54,7 @@ También es posible mostrar campos personalizados creados anteriormente. No se p
  </tbody> 
 </table>
 
-Para obtener más información sobre el contenido de esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -64,7 +64,7 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
 
 1. Acceda a un tablero. Para obtener más información, consulte [Crear o editar un tablero](../../agile/get-started-with-boards/create-edit-board.md).
 1. Haga clic en [!UICONTROL **Configurar**], a la derecha del tablero, para abrir el panel Configurar.
-1. Expanda las [!UICONTROL **tarjetas**].
+1. Expanda [!UICONTROL **Cards**].
 
    La mayoría de los campos y secciones están habilitados de forma predeterminada.
 
@@ -110,7 +110,7 @@ Es posible editar los datos de los campos personalizados en la tarjeta, aunque a
 Debe activar un ajuste de configuración para mostrar las tarjetas archivadas en un tablero.
 
 1. Acceda a un tablero y haga clic en [!UICONTROL **Configurar**] para abrir el panel Configurar.
-1. Expanda [!UICONTROL **Tarjetas**].
+1. Expanda [!UICONTROL **Cards**].
 1. Active [!UICONTROL **Mostrar tarjetas archivadas en el tablero**].
 
    Ahora, puede filtrar el tablero para mostrar cualquier tarjeta que se haya archivado. Para obtener más información, consulte [Filtrar y buscar en un tablero](/help/quicksilver/agile/get-started-with-boards/filter-search-in-board.md).
