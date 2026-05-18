@@ -3,9 +3,9 @@ user-guide-title: Guía de Workfront
 user-guide-description: Utilice los siguientes documentos, tutoriales y recursos adicionales para aprender a implementar y utilizar Adobe Workfront de forma eficaz en su organización.
 role: User
 feature-set: Workfront
-source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
+source-git-commit: 5539dea2754b38ba7a00b90b1d1ff10ff6309991
 workflow-type: tm+mt
-source-wordcount: '14119'
+source-wordcount: '14144'
 ht-degree: 95%
 
 ---
@@ -940,6 +940,11 @@ ht-degree: 95%
       * [Habilitar o deshabilitar el asistente de IA](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md)
       * [Rellenar automáticamente una solicitud mediante IA](/help/quicksilver/workfront-basics/ai-assistant/autofill-request-with-ai.md)
       * [Información general del estado del proyecto](/help/quicksilver/workfront-basics/ai-assistant/project-health-overview.md)
+   * {hide-from-toc} servidor MCP de Workfront {#workfront-mcp-server}
+      * {hide-from-toc}[Servidor MCP de Workfront: índice de artículos](/help/quicksilver/workfront-basics/workfront-mcp-server/workfront-mcp-server.md)
+      * {hide-from-toc}[Descripción general del servidor MCP de Adobe Workfront](/help/quicksilver/workfront-basics/workfront-mcp-server/workfront-mcp-server-overview.md)
+      * {hide-from-toc}[Configurar el servidor MCP de Adobe Workfront](/help/quicksilver/workfront-basics/workfront-mcp-server/configure-workfront-mcp-server.md)
+      * {hide-from-toc}[Usar el servidor MCP de Adobe Workfront](/help/quicksilver/workfront-basics/workfront-mcp-server/use-workfront-mcp-server.md)
    * Actualizar elementos de trabajo y ver actualizaciones {#update-work-items-view-updates}
       * [Actualizar elementos de trabajo y ver actualizaciones: índice de artículos](workfront-basics/updating-work-items-and-viewing-updates/update-work-items-and-view-updates.md)
       * [Información general sobre la sección Actualizaciones](workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md)
