@@ -99,7 +99,7 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
 
    O
 
-   Haga clic en el menú **[!UICONTROL Más]** ![menú Más ](assets/more-icon-spectrum.png) de la tarjeta y seleccione **[!UICONTROL Editar]**.
+   Haga clic en el menú **[!UICONTROL Más]** ![menú Más &#x200B;](assets/more-icon-spectrum.png) de la tarjeta y seleccione **[!UICONTROL Editar]**.
 
 1. En el cuadro **[!UICONTROL Detalles de la tarjeta]**, añada o actualice la siguiente información:
 
