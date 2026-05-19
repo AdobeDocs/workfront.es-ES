@@ -8,10 +8,10 @@ recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
 last-update: 2026-04-01T18:23:03Z
 git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
-source-git-commit: e40d28599148e22a8553d1ef1e669811e80a59df
+source-git-commit: b014a06cd4c3305967fcd2edfe893a024051fa9c
 workflow-type: tm+mt
-source-wordcount: '1989'
-ht-degree: 38%
+source-wordcount: '2022'
+ht-degree: 36%
 
 ---
 
@@ -197,17 +197,13 @@ Para añadir una sección a una vista previa o a una página del registro:
 
    En la vista de tabla, haga clic en el icono **Abrir detalles** ![Abrir detalles en el campo de nombre de tabla](assets/open-details-icon-in-table-name-field.png) de la primera columna.
 
-   La vista previa del registro se abrirá en la vista.
-
-   <!--update screen shot for details views preview-->
+   <span class="preview">La vista previa del registro se abre en la vista.</span>
 
    ![Cuadro de detalles](assets/details-box.png)
 
 1. (Opcional) Haga clic en el icono **Abrir en ficha nueva** ![Abrir detalles en un icono de ficha nueva](assets/open-details-in-a-new-tab-icon.png) en la esquina superior derecha de la vista previa del registro para abrir la página del registro en una ficha nueva.
 
-   Se abre la página de registro. La pestaña Detalles se abre de forma predeterminada.
-
-   <!--update screen shot for details views preview-->
+   <span class="preview">: se abre la página de registro. La ficha Detalles se abre de forma predeterminada.</span>
 
    ![Página de detalles](assets/details-page.png)
 
@@ -280,9 +276,7 @@ Ocurren lo siguiente:
 
    En la vista de tabla, haga clic en el icono **Abrir detalles** ![Abrir detalles en el campo de nombre de tabla](assets/open-details-icon-in-table-name-field.png) de la primera columna.
 
-   La vista previa del registro se abrirá en la vista.
-
-   <!--update screen shot for details views preview-->
+   <span class="preview">La vista previa del registro se abre en la vista.</span>
 
    ![Cuadro de detalles](assets/details-box.png)
 
@@ -302,33 +296,34 @@ Ocurren lo siguiente:
 
    >[!TIP]
    >
-   > <span class="preview">La vista **Campos de vista de tabla seleccionados** solo está disponible cuando se ven registros en la vista de tabla.</span>
+   > <span class="preview">La vista **Campos de vista de tabla seleccionados** solo está disponible cuando se ven registros en la vista de tabla de la página de vista previa de detalles del registro.
+   >Los **campos de vista de tabla seleccionados** no están disponibles para ninguna otra vista de tipo de registro ni para la página de detalles del registro que se abre en una ventana del explorador. </span>
 
-<div class="preview">
+1. <span class="preview">(condicional) En el entorno de vista previa, continúe con lo siguiente:</span>
 
-En el entorno de vista previa, continúe con lo siguiente:
+   <div class="preview">
 
-1. Para mostrar todos los campos, expanda el menú desplegable de vista de página y luego seleccione **Todos los campos**.
-1. (Opcional) Haga clic en **Nuevos detalles** para agregar una nueva página y personalizarla. A continuación, haga lo siguiente:
+   1. Para mostrar todos los campos, expanda el menú desplegable de vista de página y luego seleccione **Todos los campos**.
+   1. (Opcional) Haga clic en **Nuevos detalles** para agregar una nueva página y personalizarla. A continuación, haga lo siguiente:
 
-   1. En el cuadro **Crear vista**, agregue un nombre para la nueva vista de página de detalles y haga clic en **Crear**.
-   1. Pase el ratón sobre los campos de la vista y haga clic en el icono **Ocultar campo** ![Ocultar icono de campo](assets/hide-field-in-details-page-icon.png) que se encuentra a la izquierda de los campos para ocultar el campo.
+      1. En el cuadro **Crear vista**, agregue un nombre para la nueva vista de página de detalles y haga clic en **Crear**.
+      1. Pase el ratón sobre los campos de la vista y haga clic en el icono **Ocultar campo** ![Ocultar icono de campo](assets/hide-field-in-details-page-icon.png) que se encuentra a la izquierda de los campos para ocultar el campo.
 
-      >[!TIP]
-      >
-      >* Las páginas personalizadas son visibles para todos los que acceden al registro.
-      >* La última vista de página que elija será la que se abra de forma predeterminada cuando abra otro registro del mismo tipo.
+         >[!TIP]
+         >
+         >* Las páginas personalizadas son visibles para todos los que acceden al registro.
+         >* La última vista de página que elija será la que se abra de forma predeterminada cuando abra otro registro del mismo tipo.
 
-   1. (Opcional) Haga clic en el icono de **Campos** ![Icono de Campos](assets/fields-icon.png) en la parte superior de la página de detalles y, a continuación, oculte o muestre los campos en la página Detalles.
+      1. (Opcional) Haga clic en el icono de **Campos** ![Icono de Campos](assets/fields-icon.png) en la parte superior de la página de detalles y, a continuación, oculte o muestre los campos en la página Detalles.
 
-      >[!TIP]
-      >
-      >El icono **Campos** no está disponible cuando muestra la página de detalles en la **vista de tabla seleccionada** o en las vistas **Todos los campos**.
+         >[!TIP]
+         >
+         >El icono **Campos** no está disponible cuando muestra la página de detalles en la **vista de tabla seleccionada** o en las vistas **Todos los campos**.
 
-   1. (Opcional) Para editar el nombre de una vista de página de detalles personalizada, pase el ratón sobre el nombre de la vista, haga clic en el icono **Más** ![Icono de más](assets/more-menu.png) y, a continuación, haga clic en **Editar**.
-   1. (Opcional) Para eliminar una vista de página de detalles personalizada, pase el ratón sobre el nombre de la vista, haga clic en el icono **Más** ![Icono de más](assets/more-menu.png), a continuación, haga clic en **Eliminar** y, por último, en **Eliminar** para confirmar. Las vistas de página de detalles eliminadas no se pueden recuperar.
+      1. (Opcional) Para editar el nombre de una vista de página de detalles personalizada, pase el ratón sobre el nombre de la vista, haga clic en el icono **Más** ![Icono de más](assets/more-menu.png) y, a continuación, haga clic en **Editar**.
+      1. (Opcional) Para eliminar una vista de página de detalles personalizada, pase el ratón sobre el nombre de la vista, haga clic en el icono **Más** ![Icono de más](assets/more-menu.png), a continuación, haga clic en **Eliminar** y, por último, en **Eliminar** para confirmar. Las vistas de página de detalles eliminadas no se pueden recuperar.
 
-</div>
+   </div>
 
 1. (Opcional) Si desea desplazarse a un registro conectado, haga clic en el nombre de ese registro en la ruta de exploración situada en la parte superior de la página de detalles.
 
@@ -340,9 +335,7 @@ En el entorno de vista previa, continúe con lo siguiente:
 
 1. (Opcional) Haga clic en el icono **Abrir en ficha nueva** ![Abrir cuadro de detalles en un icono de ficha nueva](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> en la esquina superior derecha de la vista previa del registro para abrir la página del registro en una ficha nueva.
 
-   La página de registro **Detalles** se abre en una nueva pestaña.
-
-   <!--update screen shot for details views preview-->
+   <span class="preview">La página de registro **Detalles** se abre en una nueva pestaña.</span>
 
    ![Página de detalles](assets/details-page.png)
 
