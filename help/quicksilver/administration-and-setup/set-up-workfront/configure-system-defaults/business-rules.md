@@ -12,7 +12,7 @@ last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 source-git-commit: 8ee1cda376b51a5f5b7b4af44e6d34bf70ee9600
 workflow-type: tm+mt
-source-wordcount: '1803'
+source-wordcount: '1808'
 ht-degree: 50%
 
 ---
@@ -242,7 +242,7 @@ Puede usar caracteres comodín en las acciones de regla de negocio, tal como se 
 
      Puede incluir una URL estática en el mensaje de error para vincular a la documentación u otras páginas útiles y guiar al usuario sobre cómo modificar su acción dentro de la restricción de la regla.
 
-     En este ejemplo, &quot;Más información&quot; se vincula a la dirección URL. `"You are not allowed to add a new project in November.[Learn more](http://url)"`: la dirección URL debe estar entre paréntesis, pero no se requiere el texto entre corchetes para los vínculos. Puede mostrar la dirección URL completa, que será un vínculo en el que puede hacer clic.
+     En este ejemplo, &quot;Más información&quot; se vinculará a la dirección URL. `"You are not allowed to add a new project in November.[Learn more](http://url)"` La dirección URL debe ir entre paréntesis, pero no es necesario incluir el texto del vínculo entre corchetes. Puede mostrar la dirección URL completa, que será un vínculo en el que puede hacer clic.
 
    ![Add business rule dialog](assets/add-business-rule-new.png)
 

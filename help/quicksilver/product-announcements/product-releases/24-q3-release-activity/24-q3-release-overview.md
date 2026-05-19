@@ -9,7 +9,7 @@ last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
-source-wordcount: '1831'
+source-wordcount: '1948'
 ht-degree: 98%
 
 ---
@@ -39,7 +39,7 @@ El seminario web de la versión 24.7 se canceló, pero es posible [ver aquí una
 * [Mejoras en el administrador](#administrator-enhancements)
 * [Mejoras de administración financiera](#financial-management-enhancements)
 * [Mejoras en la integración](#integration-enhancements)
-* [Mejoras en el proyecto](#project-enhancements)
+* [Mejoras en los proyectos](#project-enhancements)
 * [Mejoras de revisión](#proofing-enhancements)
 * [Mejoras en la administración de recursos](#resource-management-enhancements)
 * [Otras mejoras](#other-enhancements)
@@ -52,7 +52,7 @@ El seminario web de la versión 24.7 se canceló, pero es posible [ver aquí una
             <tbody>
                 <tr>
                     <td>
-                        <p><span class="bold">Función</span>
+                        <p><span class="bold">Característica</span>
                         </p>
                     </td>
                     <td>
@@ -173,7 +173,7 @@ El seminario web de la versión 24.7 se canceló, pero es posible [ver aquí una
             <tbody>
                 <tr>
                     <td>
-                        <p><span class="bold">Función</span>
+                        <p><span class="bold">Característica</span>
                         </p>
                     </td>
                     <td>
@@ -366,7 +366,7 @@ El seminario web de la versión 24.7 se canceló, pero es posible [ver aquí una
             <tbody>
                 <tr>
                     <td>
-                        <p><span class="bold">Función</span>
+                        <p><span class="bold">Característica</span>
                         </p>
                     </td>
                     <td>
@@ -521,7 +521,7 @@ Para la versión 18 de la API, hemos modificado algunos recursos y puntos finale
 
 Para obtener más información sobre novedades y actualizaciones, consulte [Novedades de la versión 18 de la API](/help/quicksilver/wf-api/api/new-api-version-18.md).
 
-Para obtener más información sobre las versiones de la API, consulte [Versiones de la API y programación de soporte](/help/quicksilver/wf-api/api/api-version-support-schedule.md).
+Para obtener información sobre las versiones de API, consulte [Versiones de API y programación de soporte](/help/quicksilver/wf-api/api/api-version-support-schedule.md).
 
 ### Actualizaciones de mantenimiento de Workfront
 
