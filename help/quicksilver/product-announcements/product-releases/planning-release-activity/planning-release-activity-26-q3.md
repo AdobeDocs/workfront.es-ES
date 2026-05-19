@@ -6,10 +6,10 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: e40d28599148e22a8553d1ef1e669811e80a59df
+source-git-commit: b014a06cd4c3305967fcd2edfe893a024051fa9c
 workflow-type: tm+mt
-source-wordcount: '332'
-ht-degree: 2%
+source-wordcount: '406'
+ht-degree: 4%
 
 ---
 
@@ -27,7 +27,7 @@ Este artículo describe las funciones que se lanzarán para Workfront Planning d
 
 Para obtener una lista de todas las características publicadas para Adobe Workfront Planning, consulte [Actividad de la versión de Adobe Workfront Planning: índice de artículo](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
 
-## Nueva ventana de vista previa para fragmentos de contenido en la vista de tabla
+## Nueva ventana de vista previa para fragmentos de contenido de AEM
 
 >[!NOTE]
 >
@@ -38,6 +38,23 @@ Para obtener una mejor visibilidad al trabajar con fragmentos de contenido de AE
 Esta funcionalidad estaba disponible anteriormente para los recursos de AEM y ahora se ha añadido a los fragmentos de contenido.
 
 Para obtener más información, consulte [Conectar registros](/help/quicksilver/planning/records/connect-records.md).
+
+## Los campos de búsqueda ya están disponibles para los fragmentos de contenido de AEM en Workfront Planning
+
+>[!NOTE]
+>
+>Vista previa: 14 de mayo de 2026>Versión rápida de producción: 14 de mayo de 2026>Producción para todos: 14 de mayo de 2026>[!BADGE Fuera del horario]{type=Neutral}
+
+Ahora puede agregar los siguientes campos de búsqueda al conectar un tipo de registro de Planning a un fragmento de contenido de AEM:
+
+* Creado por
+* Creado el
+* Modificado por
+* Modificado el
+
+Antes de esta mejora, los campos de búsqueda solo estaban disponibles para carpetas y recursos de AEM.
+
+Para obtener más información, consulte [Conectar tipos de registros](/help/quicksilver/planning/architecture/connect-record-types.md).
 
 <!--
 
