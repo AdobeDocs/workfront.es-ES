@@ -9,8 +9,8 @@ feature: Reports and Dashboards
 exl-id: 57985404-554e-4289-b871-b02d3427aa5c
 source-git-commit: c669086f5954f9e2cf850887f4100e53c0c3e716
 workflow-type: tm+mt
-source-wordcount: '8904'
-ht-degree: 9%
+source-wordcount: '8722'
+ht-degree: 10%
 
 ---
 
@@ -109,7 +109,7 @@ La siguiente tabla correlaciona los nombres de objeto en Workfront (así como su
 
 >[!NOTE]
 >
->Se pueden añadir nuevos campos a las vistas de objetos sin previo aviso para satisfacer las cambiantes necesidades de datos de la aplicación de Workfront. Advertimos que no se deben utilizar consultas &quot;SELECT&quot; en las que el destinatario de datos descendente no esté preparado para gestionar columnas adicionales a medida que se agregan.<br>
+>Se pueden añadir nuevos campos a las vistas de objetos sin previo aviso para satisfacer las cambiantes necesidades de datos de la aplicación de Workfront. Advertimos que no se deben utilizar consultas &quot;SELECT&quot; en las que el destinatario de datos descendentes no esté preparado para gestionar columnas adicionales a medida que se agregan.<br>
 >Si es necesario cambiar el nombre de una columna o eliminarla, notificaremos estos cambios con antelación.
 
 ### Nivel de acceso
@@ -1708,15 +1708,15 @@ La siguiente tabla correlaciona los nombres de objeto en Workfront (así como su
 >
 >El tipo de registro se identifica mediante la propiedad `enumClass`. Los siguientes son los tipos esperados: <br>
 ><ul><li>CONDITION_OPTASK</li>
->&gt;<li>CONDITION_PROJ</li>
->&gt;<li>CONDITION_TASK</li>
->&gt;<li>PRIORITY_OPTASK</li>
->&gt;<li>PRIORITY_PROJ</li>
->&gt;<li>PRIORITY_TASK</li>
->&gt;<li>SEVERITY_OPTASK</li>
->&gt;<li>STATUS_OPTASK</li>
->&gt;<li>STATUS_PROJ</li>
->&gt;<li>STATUS_TASK</li></ul>
+&gt;<li>CONDITION_PROJ</li>
+&gt;<li>CONDITION_TASK</li>
+&gt;<li>PRIORITY_OPTASK</li>
+&gt;<li>PRIORITY_PROJ</li>
+&gt;<li>PRIORITY_TASK</li>
+&gt;<li>SEVERITY_OPTASK</li>
+&gt;<li>STATUS_OPTASK</li>
+&gt;<li>STATUS_PROJ</li>
+&gt;<li>STATUS_TASK</li></ul>
 
 
 ### Documento
@@ -2465,7 +2465,7 @@ Disponibilidad limitada del cliente
       <tbody>
         <tr>
             <td>Versión de documento</td>
-            <td>Versión de documento</td>
+            <td>Versión del documento</td>
             <td>DOCV</td>
             <td>Versión de documento</td>
             <td>DOCUMENTVERSIONS_CURRENT<br>DOCUMENTVERSIONS_DAILY_HISTORY<br>DOCUMENTVERSIONS_EVENT</td>
@@ -6173,7 +6173,7 @@ Disponibilidad limitada del cliente
         <tr>
             <td>Recurso del plan de asignación de personal</td>
             <td>Recurso del plan de asignación de personal</td>
-            <td>PERSONAL</td>
+            <td>STAFFR</td>
             <td>Recurso del plan de asignación de personal</td>
             <td>STAFFING_PLAN_RESOURCE_CURRENT<br>STAFFING_PLAN_RESOURCE_DAILY_HISTORY<br>STAFFING_PLAN_RESOURCE_EVENT</td>
         </tr>
@@ -7426,7 +7426,7 @@ Disponibilidad limitada del cliente
         <tr>
              <td>SCHEMAID</td>
              <td>FK</td>
-             <td>No se ha proporcionado la tabla SCHEMA; el valor de esta tabla se proporciona en la columna SCHEMANAME. SCHEMANAME identifica el KPI (por ejemplo, plannedRevenueRate, plannedCostRate, actualRevenue, etc.) al que está conectado el registro.</td>
+             <td>No se ha proporcionado la tabla SCHEMA; el valor de esta tabla se proporciona en la columna SCHEMANAME. SCHEMANAME identifica el KPI (por ejemplo, plannedRevenueRate, plannedCostRate, actualRevenue, etc.) a la que está conectado el registro.</td>
              <td>SCHEMAID</td>
         </tr>
         <tr>
