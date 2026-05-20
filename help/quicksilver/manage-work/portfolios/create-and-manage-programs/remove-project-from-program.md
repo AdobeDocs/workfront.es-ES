@@ -8,9 +8,9 @@ feature: Work Management, Strategic Planning
 exl-id: 3dfd10e6-bcd0-48fb-b6aa-6e08cc52b230
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 9a35246858141a3b69ec85be3372c7a8d9497d6e
 workflow-type: tm+mt
-source-wordcount: '228'
+source-wordcount: '255'
 ht-degree: 22%
 
 ---
@@ -99,4 +99,6 @@ Old:
 
    Haga clic en **[!UICONTROL Quitar]** **[!UICONTROL del programa]** para quitarlo del programa seleccionado.
 
-   Si hizo clic en [!UICONTROL Quitar del programa], el proyecto ya no estará asociado al programa seleccionado.
+   Si hizo clic en [!UICONTROL **Quitar del programa**], el proyecto ya no estará asociado al programa seleccionado.
+
+   Si hizo clic en [!UICONTROL **Eliminar**], el proyecto se eliminará de Workfront y un administrador de Workfront podrá recuperarlo durante un máximo de 30 días de la papelera de reciclaje.

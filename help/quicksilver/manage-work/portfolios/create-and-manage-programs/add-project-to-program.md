@@ -2,22 +2,22 @@
 product-area: programs;projects
 navigation-topic: create and manage programs
 title: Agregar un proyecto a un programa
-description: Puede organizar los proyectos añadiéndolos a programas dentro de portafolios. Puede tener varios proyectos dentro de un programa, pero sólo puede asociar un programa a un proyecto. Al agregar un proyecto a un programa, se agrega automáticamente al portafolio del programa al mismo tiempo.
+description: Puede organizar los proyectos añadiéndolos a programas dentro de portafolios. Puede tener varios proyectos dentro de un programa, pero solo puede asociar un programa a un proyecto. Al agregar un proyecto a un programa, se agrega automáticamente al portafolio del programa al mismo tiempo.
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 1fecc4d1-4c24-495c-98f5-824e13967369
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 9a35246858141a3b69ec85be3372c7a8d9497d6e
 workflow-type: tm+mt
-source-wordcount: '479'
-ht-degree: 63%
+source-wordcount: '676'
+ht-degree: 47%
 
 ---
 
 # Añadir un proyecto a un programa
 
-<!--Audited: 08/2025-->
+<!--Audited: 05/2026-->
 
 <!--
 <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release. </span>   
@@ -63,7 +63,7 @@ Para obtener información sobre cómo crear programas, consulte [Crear un progra
  </tbody> 
 </table>
 
-*Para obtener información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -114,31 +114,39 @@ old:
    <table style="table-layout:auto"> 
     <col> 
     <col> 
-    <tbody> 
-     <tr> 
-      <td role="rowheader">[!UICONTROL Existing Project]</td> 
-      <td> <p>Añada un proyecto que ya se haya creado.</p> </td> 
-     </tr> 
-     <tr> 
+    <tbody>
+
+   <tr> 
       <td role="rowheader">[!UICONTROL New Project]</td> 
       <td> <p>Añada un nuevo proyecto desde cero. </p> <p>Para obtener más información sobre cómo crear un proyecto desde cero, consulte <a href="../../../manage-work/projects/create-projects/create-project.md" class="MCXref xref">Crear un proyecto</a>. </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL Import a Project from [!DNL MS Project]] </td> 
+      <td role="rowheader">[!UICONTROL Nuevo proyecto (almacenamiento heredado)]</td> 
+      <td> <p>Añada un nuevo proyecto de almacenamiento de Workfront. </p>
+      <p>La opción solo se muestra cuando su organización utiliza el almacenamiento de documentos en la nube de Workfront y Adobe. Es posible que la instancia de Workfront no tenga ambos tipos de almacenamiento.</p>
+      <p>Para obtener más información sobre cómo crear un proyecto, vea <a href="../../../manage-work/projects/create-projects/create-project.md" class="MCXref xref">Crear un proyecto</a>. </p> </td> 
+      </tr> 
+      <tr> 
+      <td role="rowheader">[!UICONTROL Nuevo proyecto a partir de plantilla]</td> 
+      <td> <p>Añada un nuevo proyecto con una plantilla existente. </p> <p>Para obtener más información sobre la creación de un proyecto a partir de una plantilla, consulte <a href="../../../manage-work/projects/create-projects/create-project-from-template.md" class="MCXref xref">Crear un proyecto mediante una plantilla</a>.</p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">[!UICONTROL Importar [!DNL MS Project]] </td> 
       <td> <p>Añada un proyecto que previamente exportó desde [!DNL MS Project] y que ha guardado en su equipo. </p> <p>Para obtener más información sobre la creación de un nuevo proyecto importándolo desde [!DNL Microsoft Project], consulte <a href="../../../manage-work/projects/create-projects/import-project-from-ms-project.md" class="MCXref xref">Importar un proyecto desde [!DNL Microsoft Project]</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Request Project]</td> 
       <td> <p>Solicite la aprobación del nuevo proyecto para poder empezar a trabajar en él.</p> <p>Para obtener información sobre cómo solicitar proyectos, vea <a href="../../../manage-work/projects/create-projects/request-project.md">Solicitud de un proyecto</a>. </p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">[!UICONTROL New from Template]</td> 
-      <td> <p>Añada un nuevo proyecto con una plantilla existente. </p> <p>Para obtener más información sobre la creación de un proyecto a partir de una plantilla, consulte <a href="../../../manage-work/projects/create-projects/create-project-from-template.md" class="MCXref xref">Crear un proyecto mediante una plantilla</a>.</p> </td> 
+     </tr>
+
+   <tr> 
+      <td role="rowheader">[!UICONTROL Existing Project]</td> 
+      <td> <p>Añada un proyecto que ya se haya creado.</p> </td> 
      </tr> 
     </tbody> 
    </table>
 
-1. (Condicional) Si seleccionó **[!UICONTROL Proyecto existente]**, se abrirá la casilla **Agregar proyectos**. <!--check at unshimming-->
+1. (Condicional) Si seleccionó **[!UICONTROL Proyecto existente]**, se abrirá el cuadro **Agregar proyectos**. <!--check at unshimming-->
 
    ![Agregar proyectos existentes al cuadro de programa](assets/add-projects-to-programs-box.png)<!--check at unshimming-->
 
@@ -147,8 +155,22 @@ old:
    1. En el cuadro **[!UICONTROL Agregar proyectos]**, escriba el nombre de un proyecto en el campo **Agregar proyectos a este programa** y, a continuación, selecciónelo cuando se muestre en la lista. <!--check casing on links and buttons-->
 
       Puede agregar más de un proyecto.
+
+      >[!NOTE]
+      >
+      >Cuando su organización utiliza el almacenamiento en la nube heredado de Workfront y Adobe para documentos, existen los siguientes escenarios:
+      >
+      >
+      >* Cuando se agrega un proyecto de almacenamiento en la nube de Adobe a un programa de almacenamiento de Workfront heredado y el programa no tiene documentos adjuntos a él, el programa y su catálogo de productos se convierten en un objeto de almacenamiento en la nube de Adobe.
+      >* Cuando agrega un proyecto de almacenamiento en la nube de Adobe a un programa de almacenamiento de Workfront heredado y el programa o el portafolio tienen documentos adjuntos a él, el programa o el portafolio de documentos de almacenamiento permanece en el almacenamiento de Workfront. Sin embargo, el icono de almacenamiento heredado de Workfront ![Icono de almacenamiento heredado de Workfront](assets/legacy-storage-project-icon.png) se eliminará del programa o del portafolio (el que tenga documentos adjuntos antes de mover el proyecto).
+      >* No puede agregar un proyecto de almacenamiento de Workfront heredado a un programa de almacenamiento en la nube de Adobe.
+      >
+      >Para obtener más información, vea [Información general sobre la administración de documentos de proyectos y objetos relacionados](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
+      >
+      >No todas las instancias de Workfront tienen ambos tipos de almacenamiento de documentos.
+
    1. (Opcional) Haga clic en el icono **Eliminar** ![Eliminar icono](assets/delete-icon.png) junto al nombre de un proyecto si decide no agregarlo al programa.
 
    1. Haga clic en **[!UICONTROL Agregar proyectos]**. <!--check at unshimming-->
 
-      El proyecto aparece en la ficha **[!UICONTROL Proyectos]** del programa y ahora está asociado con el programa y el portafolio respectivo del programa.
+      El proyecto se muestra en la ficha **[!UICONTROL Proyectos]** del programa y ahora está asociado con el programa y el portafolio respectivo del programa.

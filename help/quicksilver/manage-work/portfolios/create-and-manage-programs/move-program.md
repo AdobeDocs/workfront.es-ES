@@ -8,16 +8,16 @@ feature: Work Management, Strategic Planning
 exl-id: 73dbe277-12d2-4041-8a02-91ccf5f8b465
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 9a35246858141a3b69ec85be3372c7a8d9497d6e
 workflow-type: tm+mt
-source-wordcount: '245'
-ht-degree: 57%
+source-wordcount: '382'
+ht-degree: 36%
 
 ---
 
 # Añadir un programa existente a un portafolio
 
-<!--Audited: 10/2025-->
+<!--Audited: 05/2026-->
 
 <!--
 <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release. </span>   
@@ -87,6 +87,21 @@ Old:
 
 ## Añadir un programa existente a un portafolio
 
+>[!NOTE]
+>
+>Cuando su organización utiliza el almacenamiento en la nube heredado de Workfront y Adobe para documentos, existen los siguientes escenarios:
+>
+>
+>* Cuando agrega un programa de almacenamiento en la nube de Adobe a una cartera de productos de almacenamiento de Workfront heredados y esta no tiene documentos adjuntos, la cartera se convierte a un almacenamiento en la nube de Adobe.
+>* Cuando agrega un programa de almacenamiento en la nube de Adobe a una cartera de productos de almacenamiento de Workfront heredados y la cartera tiene documentos adjuntos a él, el almacenamiento de documentos de la cartera permanece en el almacenamiento de Workfront. Sin embargo, el icono de almacenamiento heredado de Workfront ![Icono de almacenamiento heredado de Workfront](assets/legacy-storage-project-icon.png) se eliminará del portafolio.
+>* No puede agregar un programa de almacenamiento de Workfront heredado a una cartera de productos de almacenamiento de Adobe en la nube.
+>
+>Para obtener más información, vea [Información general sobre la administración de documentos de proyectos y objetos relacionados](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
+>
+>No todas las instancias de Workfront tienen ambos tipos de almacenamiento de documentos.
+
+Para agregar un programa existente a otro portafolio:
+
 1. Vaya a un portafolio y, a continuación, haga clic en **[!UICONTROL Programas]** en el panel izquierdo.
 1. Haga clic en **[!UICONTROL Nuevo programa]**.
 1. Haga clic en **[!UICONTROL Existing Program]**.
@@ -108,3 +123,4 @@ Old:
 1. Haga clic en **[!UICONTROL Agregar programas]**.
 
    El programa se muestra en la ficha **[!UICONTROL Programas]** del portafolio que seleccionó.
+

@@ -8,10 +8,10 @@ feature: Work Management
 exl-id: bce9af59-5467-4458-b923-01bfa469e2d8
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 45dcff03d71c1a19ed8de8f76fa3d63788e30b44
+source-git-commit: 9a35246858141a3b69ec85be3372c7a8d9497d6e
 workflow-type: tm+mt
-source-wordcount: '1130'
-ht-degree: 43%
+source-wordcount: '1179'
+ht-degree: 41%
 
 ---
 
@@ -114,6 +114,12 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
 ## Adjuntar una plantilla a un proyecto existente {#attach-a-template-to-an-existing-project}
 
 Puede adjuntar una plantilla a un proyecto desde la página del proyecto o desde una lista de proyectos o un informe.
+
+>[!NOTE]
+>
+>Cuando su organización utiliza el almacenamiento de documentos heredado de Workfront y de la nube de Adobe, puede adjuntar una plantilla con un tipo de almacenamiento diferente al del proyecto. Esto no cambia el almacenamiento de documentos del proyecto.
+>
+>Para obtener más información, vea [Información general sobre la administración de documentos de proyectos y objetos relacionados](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
 
 {{step1-to-projects}}
 
