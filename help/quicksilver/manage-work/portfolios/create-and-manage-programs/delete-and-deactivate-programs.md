@@ -5,9 +5,10 @@ title: Eliminar y desactivar programas
 description: Un programa representa una colección de proyectos que comparten una estrategia, objetivo o meta común que trasciende los límites de los proyectos. Los programas son una subdivisión de portafolios y no pueden existir fuera de un portafolio. Los programas suelen compartir los mismos recursos que otros programas dentro del mismo portafolio. Puede eliminar o desactivar un programa cuando resulte irrelevante.
 author: Alina
 feature: Work Management, Strategic Planning
-source-git-commit: 85ccee879fd4ba5a80b6e885458839901f83d26e
+exl-id: 605d1ec5-ca2e-4ff0-87e1-fa53d8ac4a95
+source-git-commit: 9a35246858141a3b69ec85be3372c7a8d9497d6e
 workflow-type: tm+mt
-source-wordcount: '430'
+source-wordcount: '464'
 ht-degree: 34%
 
 ---
@@ -73,7 +74,14 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
 {{step1-to-programs}}
 
 1. Haga clic en el nombre de un programa para abrirlo.
-1. Haga clic en el menú **Más** a la derecha del nombre del programa y, a continuación, haga clic en **Desactivar programa**.
+1. Realice una de las siguientes acciones:
+
+   * Haga clic en el menú **Más** a la derecha del nombre del programa y, a continuación, haga clic en **Desactivar programa**.
+   * Haga clic en el menú **Más** que se encuentra a la derecha del programa y, a continuación, haga clic en **Editar**
+
+     O
+
+     Haga clic en la sección **Detalles del programa** en el panel izquierdo y desmarque la casilla **Está activo**.
 
    El programa se desactiva inmediatamente y ocurren las siguientes cosas:
 
