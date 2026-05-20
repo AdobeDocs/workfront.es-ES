@@ -9,10 +9,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: e18c005b-e6ff-4a1e-a589-63132f3a8ad2
-source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
+source-git-commit: ca9663abd511508a327d074c54bde53450af08d5
 workflow-type: tm+mt
-source-wordcount: '1683'
-ht-degree: 85%
+source-wordcount: '1792'
+ht-degree: 80%
 
 ---
 
@@ -240,3 +240,12 @@ Para el entorno de espacio aislado de actualización personalizado, el cálculo 
 
    * Notificaciones de recordatorio
    * Notificaciones automáticas de recordatorio tardías o tempranas
+
+### Nota sobre las reglas de negocio
+
+Las reglas de negocio se excluyen intencionadamente de la vista previa de Workfront y de las actualizaciones del entorno de espacio aislado. A diferencia de la mayoría de los datos, las reglas empresariales se tratan como configuraciones específicas del entorno, de forma similar a los usuarios. Cada entorno puede mantener un conjunto distinto de reglas adaptadas a su propósito (por ejemplo, pruebas, desarrollo o producción).
+
+Si se incluyen reglas de negocio en una actualización, se sobrescribirían estas configuraciones, lo que podría interrumpir las reglas que los administradores han configurado intencionadamente en entornos que no son de producción.
+
+Si necesita mover reglas de negocio entre entornos, utilice Promoción de entornos, que le permite transferir selectivamente objetos de configuración con control sobre el tiempo y el ámbito. Para obtener más información, consulte [Información general sobre cómo mover objetos entre entornos de Workfront](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md).
+

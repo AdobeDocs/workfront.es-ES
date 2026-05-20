@@ -6,9 +6,9 @@ description: Planifique el despliegue de Workfront en el almacenamiento en la nu
 author: Courtney
 feature: System Setup and Administration, Work Management, Digital Content and Documents
 role: Admin
-source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
+source-git-commit: 12242501adb13cd349a2282996c7186e90d6c94d
 workflow-type: tm+mt
-source-wordcount: '2359'
+source-wordcount: '2375'
 ht-degree: 0%
 
 ---
@@ -50,7 +50,7 @@ La siguiente tabla resume las principales diferencias al cambiar al almacenamien
 | [El área de documentos nuevos](#the-new-documents-area) | Un área de Documentos unificada y rediseñada reemplaza al área de Documentos heredada. | No hay área de documentos global. Acceder a documentos desde un programa, portafolio, proyecto, tarea o problema. |
 | [Permisos de documentos](#document-permissions) | Los documentos heredan los permisos del proyecto, la tarea o el problema al que están vinculados. | No puede compartir ni establecer permisos en documentos individuales. Puede administrar todo el acceso a través del modal de uso compartido de objetos en Workfront, que se coloca en cascada en las carpetas de documentos generadas por el sistema. |
 | [Asignación de permisos de objeto](#object-permissions-mapping) | Los permisos Administrar y Contribuir de Workfront se asignan a Editar y compartir en Frame.io. Ver asignaciones de Solo comentario. | Los permisos se administran en Workfront. Tanto los usuarios de Administrar como los de Contribute obtienen la capacidad de compartir contenido externo en Frame.io. |
-| [Visor de revisión y aprobación](#review-and-approval-viewer) | El visor Frame.io reemplaza al visor de revisión de Workfront. | Incluido para todos los usuarios de Workfront con una licencia de pago. Admite marcado, comentarios con marca de tiempo, historial de versiones, móvil, más de 40 formatos, archivos de hasta 500 GB. |
+| [Visor de revisión y aprobación](#review-and-approval-viewer) | El visor Frame.io reemplaza al visor de revisión de Workfront. | Incluido para todos los usuarios de Workfront, incluidos los usuarios externos asignados a una revisión o aprobación. Admite marcado, comentarios con marca de tiempo, historial de versiones, móvil, más de 40 formatos, archivos de hasta 500 GB. |
 | [Reglas de nomenclatura de objetos](#object-naming-rules) | Se aplican reglas de nomenclatura estrictas: nombres únicos dentro de un portafolio o proyecto, sin caracteres especiales, sin punto final ni espacio, límite de 255 caracteres. | Workfront cambia automáticamente el nombre de los objetos cuando surgen conflictos. Plantillas de auditoría que generan nuevos nombres y estructura de proyecto. |
 | [Portabilidad del objeto](#object-portability) | Solo puede mover, copiar y convertir objetos entre modelos de almacenamiento similares. | Los objetos de almacenamiento en la nube de Adobe no se pueden mover a proyectos heredados o a la inversa. Al mover un proyecto de almacenamiento en la nube de Adobe a un portafolio o programa heredado, el principal se convierte en almacenamiento en la nube de Adobe. |
 | [Funciones no disponibles](#capabilities-not-available-on-adobe-cloud-storage-objects) | Workfront Proof, el visualizador de documentos de Workfront, los documentos favoritos y los documentos de solicitud no forman parte de la experiencia. | Los objetos heredados conservan estas funciones. Workfront Proof no recibirá nuevas inversiones y se retirará en una versión futura. |
@@ -102,7 +102,7 @@ Para obtener más información, consulte [Permisos de objeto e información gene
 
 ### Visor de revisión y aprobación
 
-En los objetos de almacenamiento en la nube de Adobe, el visor Frame.io es la superficie de revisión y aprobación en lugar de Workfront Proof. El visor Frame.io se incluye para todos los usuarios de Workfront con una licencia de pago.
+En los objetos de almacenamiento en la nube de Adobe, el visor Frame.io es la superficie de revisión y aprobación en lugar de Workfront Proof. El visor Frame.io se incluye para todos los usuarios de Workfront sin coste adicional, incluidos los usuarios externos asignados a una revisión o aprobación.
 
 El visor Frame.io proporciona lo siguiente:
 
