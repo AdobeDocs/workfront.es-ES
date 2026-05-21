@@ -9,9 +9,9 @@ feature: Work Management
 exl-id: dd733e9f-8045-4b65-828b-fe6aa40d973f
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 35cf3692f0fd93b8835755c316e14efc99af3fb8
 workflow-type: tm+mt
-source-wordcount: '275'
+source-wordcount: '285'
 ht-degree: 27%
 
 ---
@@ -22,7 +22,7 @@ Puede eliminar una plantilla en tareas que ya no la necesite. Las tareas de proy
 
 >[!NOTE]
 >
->Las tareas de plantilla eliminadas no se pueden recuperar. Puede recuperar una plantilla que también recupere todas las tareas de la plantilla. Si elimina las tareas de plantilla (y no la plantilla), no podrá recuperarlas nunca.
+>Las tareas de plantilla eliminadas y su información adicional (asignaciones, documentos, aprobaciones) no se pueden recuperar. Puede recuperar una plantilla que también recupere todas las tareas de la plantilla. Si elimina las tareas de plantilla (y no la plantilla), no podrá recuperarlas nunca.
 
 
 ## Requisitos de acceso
