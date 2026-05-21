@@ -3,9 +3,9 @@ user-guide-title: Guía de Workfront
 user-guide-description: Utilice los siguientes documentos, tutoriales y recursos adicionales para aprender a implementar y utilizar Adobe Workfront de forma eficaz en su organización.
 role: User
 feature-set: Workfront
-source-git-commit: 1cb6aa0a302d5aac5b44b214d2415271287bf38b
+source-git-commit: e9e00f99ec75156b20407cba7914e746123ec010
 workflow-type: tm+mt
-source-wordcount: '14150'
+source-wordcount: '14155'
 ht-degree: 94%
 
 ---
@@ -946,6 +946,7 @@ ht-degree: 94%
       * {hide-from-toc}[Descripción general del servidor MCP de Adobe Workfront](/help/quicksilver/workfront-basics/workfront-mcp-server/workfront-mcp-server-overview.md)
       * {hide-from-toc}[Configurar el servidor MCP de Adobe Workfront](/help/quicksilver/workfront-basics/workfront-mcp-server/configure-workfront-mcp-server.md)
       * {hide-from-toc}[Usar el servidor MCP de Adobe Workfront](/help/quicksilver/workfront-basics/workfront-mcp-server/use-workfront-mcp-server.md)
+      * {hide-from-toc}[Herramientas de servidor MCP de Adobe Workfront](/help/quicksilver/workfront-basics/workfront-mcp-server/workfront-mcp-server-tools.md)
    * Actualizar elementos de trabajo y ver actualizaciones {#update-work-items-view-updates}
       * [Actualizar elementos de trabajo y ver actualizaciones: índice de artículos](workfront-basics/updating-work-items-and-viewing-updates/update-work-items-and-view-updates.md)
       * [Información general sobre la sección Actualizaciones](workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md)
@@ -2592,7 +2593,7 @@ ht-degree: 94%
       * [Configure y utilice las aplicaciones OAuth 2 personalizadas de la organización mediante el flujo JWT](wf-api/api/oauth-app-jwt-flow.md)
       * [Configure y utilice las aplicaciones OAuth 2 personalizadas de su organización mediante el flujo PKCE](wf-api/api/oauth-app-pkce-flow.md)
       * [Obsolescencia de la API interna](wf-api/api/deprecation-api-internal.md)
-      * [Novedades de la versión 22 de la API](/help/quicksilver/wf-api/api/new-api-version-22.md)
+      * [Novedades de la versión 22](/help/quicksilver/wf-api/api/new-api-version-22.md) de la API
       * [Novedades de la versión 21 de la API](/help/quicksilver/wf-api/api/new-api-version-21.md)
       * [Novedades de la versión 20 de la API](/help/quicksilver/wf-api/api/new-api-version-20.md)
       * [Novedades de la versión 19 de la API](wf-api/api/new-api-version-19.md)
