@@ -5,10 +5,10 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8ca50590-ef6a-44b1-a856-9821bdafbc1c
-source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
+source-git-commit: 5160a8bf1eadef19f1a041080670e1efe3777d2f
 workflow-type: tm+mt
-source-wordcount: '705'
-ht-degree: 36%
+source-wordcount: '785'
+ht-degree: 35%
 
 ---
 
@@ -18,7 +18,7 @@ Esta página proporciona información sobre la funcionalidad que se incluye en l
 
 Las mejoras de esta página están disponibles en el entorno de vista previa. Esta página se actualizará con mejoras adicionales a medida que la versión del tercer trimestre de 2026 se aproxime a su versión de producción planificada.
 
-Se celebran seminarios web en directo para cada versión trimestral, en los que se destacan las nuevas funciones y se proporciona información detallada. Para registrarse, visite la [página de eventos](https://experienceleague.adobe.com/es/events?filters=Workfront) y filtre por Workfront.
+Se celebran seminarios web en directo para cada versión trimestral, en los que se destacan las nuevas funciones y se proporciona información detallada. Para registrarse, visite la [página de eventos](https://experienceleague.adobe.com/en/events?filters=Workfront) y filtre por Workfront.
 
 >[!IMPORTANT]
 >
@@ -36,6 +36,7 @@ Se celebran seminarios web en directo para cada versión trimestral, en los que 
 ## Mejoras de Adobe Workfront
 
 * [Mejoras de documentos](#documents-enhancements)
+* [Mejoras de administración financiera](#financial-management-enhancements)
 * [Mejoras en la creación de informes](#reporting-enhancements)
 * [Solicitudes de mejoras](#requesting-enhancements)
 
@@ -68,6 +69,30 @@ Se celebran seminarios web en directo para cada versión trimestral, en los que 
             <td><p>30 de abril de 2026</p></td>
             <td><p>14 de mayo de 2026</p></td>
             <td><p>16 de julio de 2026</p></td>
+        </tr>
+    </tbody>
+</table>
+
+### Mejoras de administración financiera
+
+<table>
+    <col style="width: 50%;" />
+    <col style="width: 25%;" />
+    <tbody>
+        <tr>
+            <td><strong>Característica</strong>
+            </td>
+            <td><strong>Vista previa</strong></td>
+            <td><strong>Versión rápida</strong></td>
+            <td><strong>Trimestralmente</strong></td>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-financial-management-enhancements.md" class="MCXref xref" xrefformat="{para}">Los atributos de tarifa no se pueden editar una vez que se usan en las tarifas</a><p>[!BADGE Off schedule]{type=Neutral}</p><p>[!BADGE Workflow Ultimate]{type=Informative}</p>
+                <p>Una vez que se añade un atributo a una tasa en Workfront, ya no se puede editar ese atributo y sus filtros en el área de Configuración. Esto preserva la integridad de los datos y evita que las tasas se cambien accidentalmente cuando se actualizan los atributos.</p>
+            </td>
+            <td><p>21 de mayo de 2026</p></td>
+            <td><p>21 de mayo de 2026</p></td>
+            <td><p>21 de mayo de 2026</p></td>
         </tr>
     </tbody>
 </table>
@@ -193,7 +218,7 @@ Para obtener más información, consulte [Introducción a la versión de prueba 
 
 ### Workfront Maintenance Updates
 
-For information about the maintenance updates made during the Third Quarter 2026 release, see [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=es).
+For information about the maintenance updates made during the Third Quarter 2026 release, see [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 -->
 
