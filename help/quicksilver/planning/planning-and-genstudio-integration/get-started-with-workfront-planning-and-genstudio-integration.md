@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 3b2fc764-f384-41bb-9d88-b2b88434ffc6
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 38bd7ce267efba60652825dd6185f8aa72023d79
+source-git-commit: 35cf3692f0fd93b8835755c316e14efc99af3fb8
 workflow-type: tm+mt
-source-wordcount: '2194'
+source-wordcount: '2222'
 ht-degree: 3%
 
 ---
@@ -376,13 +376,15 @@ Tenga en cuenta lo siguiente sobre los campos de tipo de registro de GenStudio:
 
 Puede crear conexiones entre tipos de registros en espacios de trabajo de GenStudio en los que tenga permisos de administración.
 
+<!--When AEM object types are connected to GenStudio record types, AEM object metadata reflects on Planning records-->
+
 Puede realizar las siguientes conexiones entre los tipos de registros de GenStudio y otros tipos de registros u objetos en Workfront Planning:
 
 * Dos tipos de registros GenStudio
 * Un tipo de registro GenStudio y un tipo de registro Planning del mismo espacio de trabajo
 * Un tipo de registro GenStudio y un tipo de registro Planning de otro espacio de trabajo, si los tipos de registro están configurados para conectarse desde otro espacio de trabajo.
 * Un tipo de registro GenStudio y un tipo de objeto Workfront (proyectos, portafolios, programas, empresas, grupos)
-* Un tipo de registro GenStudio y un tipo de objeto AEM.
+* Un tipo de registro GenStudio y un tipo de objeto AEM. Debe tener una licencia para que Adobe Experience Manager acceda a los objetos de AEM, además de una licencia para Workfront Planning y para Adobe GenStudio for Performance Marketing.
 * Tipos de registros de GenStudio y marcas de GenStudio. La conexión Marcas se agrega de forma predeterminada a los tipos de registro Productos y Personas.
 
 ### Solicitar formularios y automatizaciones en el tipo de registro de GenStudio

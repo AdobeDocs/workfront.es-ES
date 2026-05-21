@@ -6,10 +6,10 @@ description: Puede utilizar plantillas de proyecto para capturar la mayoría de 
 author: Alina
 feature: Work Management
 exl-id: cac7662f-f2ae-44f0-a0bb-1569c03d172e
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: 35cf3692f0fd93b8835755c316e14efc99af3fb8
 workflow-type: tm+mt
-source-wordcount: '613'
-ht-degree: 96%
+source-wordcount: '702'
+ht-degree: 84%
 
 ---
 
@@ -34,7 +34,7 @@ A continuación, se indican algunas de las ventajas del uso de plantillas para c
 
    * Tareas
    * Documentos
-   * Rutas de aprobación
+   * Aprobaciones
    * Detalles de la cola
    * Temas de la cola
    * Grupos de temas
@@ -70,6 +70,20 @@ Es necesario tener en cuenta lo siguiente al crear plantillas:
   Para obtener información sobre la creación de aprobaciones, consulte [Creación de procesos de aprobación para elementos de trabajo](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
 
   Para obtener información acerca de cómo asociar un proceso de aprobación a un elemento de trabajo, consulte [Asociación de procesos de aprobación nuevos o existentes con trabajos](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md).
+
+* Decida qué almacenamiento de documentos desea utilizar para sus futuros proyectos. Algunas organizaciones tienen acceso a los siguientes tipos de almacenamiento de documentos:
+
+   * Almacenamiento de Workfront heredado
+   * almacenamiento en la nube de Adobe
+
+  La adición de documentos varía en función del tipo de almacenamiento que elija. El tipo de almacenamiento que elija para las plantillas afectará al tipo de almacenamiento que heredarán los proyectos futuros.
+
+  Añadir plantillas a proyectos existentes no afectará al tipo de almacenamiento del proyecto.
+
+  Para obtener más información, consulte:
+
+   * [Crear una plantilla de proyecto](/help/quicksilver/manage-work/projects/create-and-manage-templates/create-template.md)
+   * [Información general sobre la administración de documentos para proyectos y objetos relacionados](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md)
 
 ## Formas de crear plantillas
 
