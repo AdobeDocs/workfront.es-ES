@@ -5,12 +5,12 @@ content-type: reference
 product-area: system-administration;projects
 navigation-topic: customize-workfront
 description: Puede crear un proceso de aprobación que los usuarios puedan adjuntar a un elemento de trabajo, documento o prueba. También puede crear rutas de hitos que se puedan aplicar a cualquier proyecto del sistema.
-author: Alina
+author: Courtney, Alina
 feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 5719f8ce-0b30-42a1-9b88-1466630401f2
-source-git-commit: 87a64e84c36d99cbafde4f40725467219db8e79b
+source-git-commit: 0fc7a16640d134b6f524a30929ed6f3041f12e31
 workflow-type: tm+mt
 source-wordcount: '82'
 ht-degree: 17%

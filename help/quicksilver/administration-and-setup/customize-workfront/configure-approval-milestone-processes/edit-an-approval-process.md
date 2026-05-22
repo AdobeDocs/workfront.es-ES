@@ -4,13 +4,13 @@ product-area: system-administration;projects
 navigation-topic: configure-approval-and-milestone-processes
 title: Editar un proceso de aprobación
 description: Si es administrador de Adobe Workfront o tiene acceso administrativo a los procesos de aprobación, puede ver y editar todos los procesos de aprobación en el sistema.
-author: Alina
+author: Courtney
 feature: System Setup and Administration, Approvals
 role: Admin
 exl-id: 62aa8ac0-7e8a-4df6-b5d4-a32fa86a4597
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 2e87fd9a7b85261656c3d3e388937bb5f34a8e02
+source-git-commit: 0fc7a16640d134b6f524a30929ed6f3041f12e31
 workflow-type: tm+mt
 source-wordcount: '2004'
 ht-degree: 94%

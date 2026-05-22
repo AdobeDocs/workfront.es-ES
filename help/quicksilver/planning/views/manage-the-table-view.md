@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 453dbf1c7598858e99d963f7a3806355a8cc80a9
+source-git-commit: 0fc7a16640d134b6f524a30929ed6f3041f12e31
 workflow-type: tm+mt
-source-wordcount: '3503'
+source-wordcount: '3551'
 ht-degree: 67%
 
 ---
@@ -38,7 +38,7 @@ Para obtener información acerca de cómo exportar la vista de tabla a un archiv
 
 ## Requisitos de acceso
 
-+++ Expand to view the access requirements for the functionality in this article. 
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo. 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -52,20 +52,20 @@ Para obtener información acerca de cómo exportar la vista de tabla a un archiv
 <tr> 
    <td role="rowheader"><p>Paquete de Adobe Workfront</p></td> 
    <td> 
-<p>Any Workfront and any Planning package</p>
+<p>Cualquier Workfront y cualquier paquete de Planning</p>
 <p>Cualquier flujo de trabajo y cualquier paquete de Planning</p>
 <p>Para obtener más información sobre lo que se incluye en cada paquete de Workfront Planning, póngase en contacto con su representante de cuentas de Workfront. </p> 
    </td> 
   <tr> 
    <td role="rowheader"><p>Licencia de Adobe Workfront</p></td> 
    <td><p> Estándar para crear y eliminar vistas</p>
-   <p>Contributor or higher to update view elements</p>
+   <p>Colaborador o superior para actualizar los elementos de vista</p>
   </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>Permisos de objeto</p></td> 
    <td>   <p>Permisos de administración de una vista</p>  
-   <p>View permissions to a view to temporarily change the view settings or to duplicate it</p> </td> 
+   <p>Ver permisos en una vista para cambiar temporalmente la configuración de la vista o para duplicarla</p> </td> 
   </tr> 
 <tr>
    <td role="rowheader"><p>Plantilla de diseño</p></td>
@@ -180,7 +180,7 @@ Para administrar una vista de tabla:
 
 ### Añadir columnas (o campos) {#add-columns}
 
-Los encabezados de columna de una vista de tabla muestran los campos asociados a los registros de la vista. Fields displayed in the table view also display in the Details section of a record.
+Los encabezados de columna de una vista de tabla muestran los campos asociados a los registros de la vista. Los campos mostrados en la vista de tabla también se muestran en la sección Detalles de un registro.
 
 Para obtener más información, consulte [Editar registros](/help/quicksilver/planning/records/edit-records.md).
 
@@ -196,7 +196,7 @@ Puede añadir hasta 500 campos (o columnas) en una vista de tabla.
 
    Las columnas que añada serán visibles para todos los usuarios que tengan acceso al tipo de registro y se añadirán como campos nuevos en la página del registro.
 
-1. (Optional) Click the **Fields** icon ![Fields icon](assets/fields-icon.png) in the toolbar, search for a field, then unselect the toggle to the right of the field name to hide the field.
+1. (Opcional) Haga clic en el icono **Campos** ![Icono de Campos](assets/fields-icon.png) en la barra de herramientas, busque un campo y, a continuación, anule la selección del botón de alternancia a la derecha del nombre del campo para ocultar el campo.
 
 1. Realice una de las siguientes acciones para reordenar las columnas de la tabla:
 
@@ -242,7 +242,7 @@ Puede añadir hasta 500 campos (o columnas) en una vista de tabla.
    >
    >El número de campos ocultos se muestra a la izquierda del icono Campos de la barra de herramientas.
    >
-   >By default, hidden fields do not display in the record&#39;s **Details** preview box. All fields display in the record&#39;s Details page. For information, see [Manage the record page layout](/help/quicksilver/planning/records/manage-the-record-page.md).
+   >De manera predeterminada, los campos ocultos no se muestran en el cuadro de vista previa **Detalles** del registro. Todos los campos se muestran en la página Detalles del registro. Para obtener más información, vea [Administrar el diseño de la página de registros](/help/quicksilver/planning/records/manage-the-record-page.md).
 
 
 1. Haga clic en el icono **Campos** y habilite la opción asociada a los campos que desea mostrar en las columnas de la tabla. Todos los campos se mostrarán de forma predeterminada.
@@ -318,7 +318,7 @@ Para añadir un filtro a una vista de tabla:
 1. Seleccione una vista de tabla y luego haga clic en **Filtros** en la esquina superior derecha de la tabla.
 1. Haga clic en **Añadir condición** y añada la siguiente información:
 
-   * Search for a field and select it when it disaplays in the list when.
+   * Busque un campo y selecciónelo cuando se muestre en la lista cuando.
 
    * **Seleccione una opción** (o un modificador de filtro) para definir qué tipo de condición debe cumplir el campo
 
@@ -395,8 +395,8 @@ Para añadir un filtro a una vista de tabla:
 1. (Opcional) Haga clic en **Añadir condición** para añadir otra opción de filtrado y repita los pasos anteriores. El número de filtros aplicados se muestra a la izquierda del icono Filtros.
 1. Haga clic en los siguientes operadores para indicar cómo se unen y deberían aplicarse las condiciones de filtro:
 
-   * **AND**: All specified conditions must be met.
-   * **OR**: Any of the specified conditions must be met. Esta es la opción predeterminada.
+   * **AND**: se deben cumplir todas las condiciones especificadas.
+   * **OR**: se debe cumplir cualquiera de las condiciones especificadas. Esta es la opción predeterminada.
 
    1. (Opcional) Agregue operadores **AND** o **OR** adicionales entre varias agrupaciones de condiciones.
 
@@ -480,7 +480,7 @@ Tenga en cuenta lo siguiente:
 
 * Es posible aplicar agrupaciones tanto en las vistas de tabla como de cronología. Las agrupaciones de la vista de tabla son independientes de las de la vista de cronología del mismo tipo de registro.
 * Se pueden aplicar 3 niveles de agrupación en una vista. Los registros se agrupan en el orden de agrupaciones que se seleccione.
-&lt;!--* Es posible aplicar hasta 4 niveles de agrupación al utilizar la API. --comprobando este ahora-->
+&lt;!—!—* Puede aplicar hasta 4 niveles de agrupación al utilizar la API. --comprobando este ahora-->
 * Las agrupaciones son únicas para la vista que se seleccione. Dos vistas de tabla del mismo tipo de registro pueden tener diferentes agrupaciones aplicadas. Dos usuarios que vean la misma vista de tabla verán la misma agrupación que se aplique en ese momento.
 * No se puede asignar un nombre a las agrupaciones que se generen para una vista de tabla.
 * Al quitar las agrupaciones, se quitarán de cualquier usuario que tenga acceso al mismo tipo de registro y que muestre la misma vista que usted.
@@ -518,9 +518,9 @@ para añadir una agrupación:
 1. Haga clic fuera del cuadro **Agrupar registros por** para cerrarlo.
 1. (Opcional) Haga clic en **+ Nuevo registro** al final de cualquier agrupación para añadir nuevos registros y, a continuación, actualice la página para añadir el nuevo registro a la agrupación adecuada. <!--this might need to be changed when they add the Refresh button on the toolbar of the table view-->
 
-1. To expand or collapse groupings, do one of the following:
+1. Para expandir o contraer agrupaciones, siga uno de estos procedimientos:
 
-   1. Click the **Grouping** icon, then **Expand all**, or **Collapse all**. Esto expande todas las agrupaciones y subagrupaciones de la vista de tabla.
+   1. Haga clic en el icono **Agrupación**, luego en **Expandir todo** o **Contraer todo**. Esto expande todas las agrupaciones y subagrupaciones de la vista de tabla.
 
       ![Expandir y contraer todos los botones de la vista de tabla del cuadro de agrupación](assets/expand-collapse-all-buttons-on-grouping-box-table-view.png)
 
@@ -550,15 +550,15 @@ To sort grouped records:
 
 1. Haga clic en **Agregar color**, luego busque un campo y selecciónelo cuando se muestre en la lista. Este es el campo cuyo valor desea determinar el color de una fila.
 
-   For example, to display campaigns with a status of Active in green, select **Status**, then choose a modifier and a value for the field.
+   Por ejemplo, para mostrar campañas con el estado Activo en verde, seleccione **Estado** y, a continuación, elija un modificador y un valor para el campo.
 
-   ![Row colors box with Active status selected and default color choice](assets/row-colors-box-with-active-status-selected-default-color-choice.png)
+   ![Cuadro de colores de fila con estado Activo seleccionado y opción de color predeterminada](assets/row-colors-box-with-active-status-selected-default-color-choice.png)
 
-1. Click the drop-down menu for the color picker in the upper-left corner of the condition you selected, to pick the color for the condition, then click outside the color picker box to close it.
+1. Haga clic en el menú desplegable del selector de color en la esquina superior izquierda de la condición seleccionada, para elegir el color de la condición y, a continuación, haga clic fuera del cuadro selector de color para cerrarlo.
 
-   ![Drop-down color picker menu in Row colors box highlighted](assets/drop-down-color-picker-menu-in-row-colors-box-highlighted.png)
+   ![Menú desplegable del selector de color en el cuadro Colores de fila resaltado](assets/drop-down-color-picker-menu-in-row-colors-box-highlighted.png)
 
-1. (Optional) Click **Add condition** to add more fields and values to the first set of conditions
+1. (Opcional) Haga clic en **Agregar condición** para agregar más campos y valores al primer conjunto de condiciones
 
    O
 
@@ -574,13 +574,13 @@ To sort grouped records:
    >
    >* Si la configuración Aplicar a toda la fila está desactivada, solo el lado izquierdo del campo Principal muestra un indicador de color estrecho con el color seleccionado. La configuración está desactivada de forma predeterminada.
    >
-   >* No se pueden aplicar colores de fila a toda una fila si se ha seleccionado al menos una agrupación en la vista de tabla.
+   >* No se pueden aplicar colores de fila a toda una fila si se ha seleccionado al menos una agrupación en la vista de tabla. El color de función solo se aplica a la izquierda de la celda del campo principal cuando se aplican agrupaciones a la tabla.
 
 1. Haga clic fuera del cuadro **Colores de fila** para cerrarlo. Los colores se aplican automáticamente.
 
-### Enable the real-time presence indicator
+### Habilitar el indicador de presencia en tiempo real
 
-The avatars of other users who are editing record information at the same time as you display in the upper-right corner of all record views, by default.
+De forma predeterminada, los avatares de otros usuarios que están editando información de registro al mismo tiempo que se muestran en la esquina superior derecha de todas las vistas de registros.
 
 Al mostrar la vista de tabla, también puede ver qué campo está editando otro usuario en el momento en que está viendo el registro.
 
@@ -592,11 +592,11 @@ Al mostrar la vista de tabla, también puede ver qué campo está editando otro 
 
    >[!TIP]
    >
-   >You can select the **Show collaborators** toggle from any view. The field currently edited by others is outlined only in the table view.
+   >Puede seleccionar la opción **Mostrar colaboradores** de cualquier vista. El campo editado actualmente por otros usuarios sólo se describe en la vista de tabla.
 
-1. (Conditional) Open a table view, and the field which another person is actively editing is highlighted in the color corresponding to the outline of their avatar in the table view.
+1. (Condicional) Abra una vista de tabla y el campo que otra persona está editando activamente se resaltará en el color correspondiente al contorno de su avatar en la vista de tabla.
 
-   If the highlight color of the avatar is gray, the user stopped actively editing the record more than 30 seconds ago.
+   Si el color de resaltado del avatar es gris, el usuario dejó de editar activamente el registro hace más de 30 segundos.
 
    ![Campo de tabla de indicadores en tiempo real y conexión de avatar](assets/real-time-indicator-table-field-and-avatar-connection.png)
 
