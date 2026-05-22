@@ -8,10 +8,10 @@ feature: Get Started with Workfront
 exl-id: 758072b3-775e-4771-9ae9-da0b38580c93
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: ee971729c414018a04b1d1fc2a59760e9ea0a59a
+source-git-commit: dbed69be1a57571e6c0701b7370e20be323037fe
 workflow-type: tm+mt
-source-wordcount: '21833'
-ht-degree: 98%
+source-wordcount: '21953'
+ht-degree: 97%
 
 ---
 
@@ -361,7 +361,7 @@ La siguiente tabla es una lista de los términos más utilizados en Adobe Workfr
        </tr> 
        <tr> 
         <td>[!UICONTROL Bud. Hours]</td> 
-        <td> <p>Informe de [!UICONTROL Budgeted Hour]</p><p>El objeto [!UICONTROL Budgeted Hour] del informe de Hora presupuestada hace referencia a información relacionada con una herramienta de administración de recursos obsoleta. Solo el campo "[!UICONTROL . Hours]" en este informe hace referencia a las horas presupuestadas en el área de [!UICONTROL Resource Planner] o [!UICONTROL Resource Budgeting] del [!UICONTROL Business Case] del proyecto. </p> <p>Para obtener más información acerca de cómo crear un informe, consulte el artículo <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md" class="MCXref xref">Crear un informe personalizado</a>.</p> </td> 
+        <td> <p>Informe de [!UICONTROL Budgeted Hour]</p><p>El objeto [!UICONTROL Budgeted Hour] del informe de Hora presupuestada hace referencia a información relacionada con una herramienta de administración de recursos obsoleta. Solo el campo "[!UICONTROL. Hours]" en este informe hace referencia a las horas presupuestadas en el área de [!UICONTROL Resource Planner] o [!UICONTROL Resource Budgeting] del [!UICONTROL Business Case] del proyecto. </p> <p>Para obtener más información acerca de cómo crear un informe, consulte el artículo <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md" class="MCXref xref">Crear un informe personalizado</a>.</p> </td> 
        </tr> 
        <tr> 
         <td>[!UICONTROL Resource Planner Budgeted Hours] </td> 
@@ -684,6 +684,10 @@ La siguiente tabla es una lista de los términos más utilizados en Adobe Workfr
   <tr> 
    <td>[!UICONTROL Contextual Menu]</td> 
    <td>Menú situado en la parte izquierda de la pantalla en el que los elementos cambian para correlacionarse con el contenido activo. Por ejemplo, cuando un usuario está viendo un proyecto, el [!UICONTROL Contextual Menu] mostrará vínculos a información y herramientas relacionadas con el proyecto.</td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL Contributor]</td> 
+   <td><p>Normalmente es un tipo de licencia. Un usuario con una licencia de [!UICONTROL Contributor] puede enviar solicitudes para que se produzcan nuevos trabajos en el sistema.</p> <p>Para obtener más información, consulte <a href="/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md" class="MCXref xref">Información general sobre los niveles de acceso</a>.</p></td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Converted Issue Originator]</td> 
@@ -1276,6 +1280,10 @@ The designated full time equivalency for users. A full-time user should have 100
   <tr> 
    <td>[!UICONTROL License Limit Work]</td> 
    <td> <p>En una vista o informe de [!UICONTROL Group], este campo muestra el número máximo de licencias de [!UICONTROL Work] que se pueden asignar a usuarios que tienen el grupo respectivo designado como su [!UICONTROL Home Group].</p> </td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL Luz]</td> 
+   <td><p>Normalmente es un tipo de licencia. Un usuario con una licencia de [!UICONTROL Light] tiene la capacidad de revisar y aprobar elementos de trabajo en el sistema.</p> <p>Para obtener más información, consulte <a href="/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md" class="MCXref xref">Información general sobre los niveles de acceso</a>.</p></td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Limited User]</td> 
@@ -2147,7 +2155,11 @@ The designated full time equivalency for users. A full-time user should have 100
     <li>Las columnas Nombre del proyecto o Nombre de tarea a un informe de problemas. </li> </ul>
     Para obtener más información, vea <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/run-deliver-report-access-rights-another-user.md">Ejecutar y enviar un informe con los derechos de acceso de otro usuario</a> 
    </td> 
-  </tr> 
+  </tr>
+  <tr>
+   <td>[!UICONTROL Standard]</td> 
+   <td> <p>Es un tipo de licencia completa en el sistema [!DNL Workfront]. Los usuarios deben tener esto para tener acceso a todas las características de [!DNL Workfront].</p><p>Para las licencias de este modelo, no hay equivalente de Trabajo. Los usuarios que anteriormente tenían una licencia de trabajo se convierten en usuarios estándar con todas las funcionalidades de esa licencia.</p> <p>Para obtener más información, consulte <a href="/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md" class="MCXref xref">Información general sobre los niveles de acceso</a>.</p> </td> 
+  </tr>  
   <tr> 
    <td>[!UICONTROL Start Date]</td> 
    <td> <p>La fecha en la que está establecido el inicio del trabajo en un elemento. Hay varias fechas de inicio en [!DNL Workfront]: </p> 
@@ -2584,3 +2596,4 @@ The designated full time equivalency for users. A full-time user should have 100
   </tr> 
  </tbody> 
 </table>
+
