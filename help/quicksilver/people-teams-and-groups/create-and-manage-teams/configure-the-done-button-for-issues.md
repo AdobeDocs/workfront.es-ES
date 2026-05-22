@@ -8,10 +8,10 @@ feature: People Teams and Groups
 exl-id: 2e72854a-2d49-4665-b307-b88f660b141e
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 14b3bfaf16a4ab8749538b32100ce6363a3a9335
 workflow-type: tm+mt
-source-wordcount: '1167'
-ht-degree: 97%
+source-wordcount: '1181'
+ht-degree: 94%
 
 ---
 
@@ -27,7 +27,7 @@ El botón [!UICONTROL Listo] puede establecer automáticamente el estado de una 
 
 Los usuarios con determinados permisos pueden configurar el botón [!UICONTROL Listo] para reflejar determinados estados en el sistema. Hay tres maneras diferentes de funcionamiento del botón [!UICONTROL Listo] para los problemas en [!DNL Workfront]:
 
-* Si el usuario tiene un [!UICONTROL Equipo de inicio] asignado, un administrador de [!DNL Workfront] o un usuario con una licencia de [!UICONTROL Plan] puede configurar el botón [!UICONTROL Listo] para reflejar determinados estados para los integrantes del equipo. Consulte [Configurar el botón [!UICONTROL Listo] para un equipo](#configure-the-uicontrol-done-button-for-a-team) en este artículo.
+* Si el usuario tiene un [!UICONTROL Equipo de inicio] asignado, un administrador de [!DNL Workfront] o un usuario con licencia de [!UICONTROL Estándar] o [!UICONTROL Plan] puede configurar el botón [!UICONTROL Listo] para reflejar ciertos estados para los integrantes del equipo. Consulte [Configurar el botón [!UICONTROL Listo] para un equipo](#configure-the-uicontrol-done-button-for-a-team) en este artículo.
 * Si el usuario no tiene un [!UICONTROL equipo de inicio], pero tiene [!UICONTROL otros equipos] en su perfil, Workfront busca la configuración del botón [!UICONTROL Listo] en cualquiera de los equipos asociados al usuario. La selección es aleatoria y el estado asociado a cualquiera de los equipos se utiliza para el problema.
 * Si el usuario no tiene un [!UICONTROL Equipo de inicio] asignado, el botón [!UICONTROL Listo] para los problemas está vinculado a un estado [!UICONTROL Resuelto] generado por el sistema que tiene el código de tres letras [!UICONTROL RLV]. No hay opciones de configuración disponibles en este escenario. El botón [!UICONTROL Listo] adopta automáticamente este estado como valor predeterminado.
 * Si se elimina el estado [!UICONTROL Resuelto] ([!UICONTROL RLV]) y el usuario que marca el problema como [!UICONTROL Listo] no tiene ningún [!UICONTROL Equipo de inicio], el estado predeterminado del problema estará vinculado al que esté establecido como predeterminado para [!UICONTROL Cerrado] para el grupo asignado al proyecto al que pertenece el problema. El administrador de Workfront puede establecer una configuración predeterminada en todo el sistema para el grupo. Consulte [Configurar el botón [!UICONTROL Listo] cuando el estado [!UICONTROL Resuelto] se haya eliminado](#configure-the-uicontrol-done-button-when-the-uicontrol-resolved-status-has-been-deleted) en este artículo.
@@ -125,7 +125,7 @@ Cuando un usuario crea un proyecto, su grupo de inicio se asigna automáticament
 
 Para buscar el grupo asociado al proyecto:
 
-1. Vaya a un proyecto. 
+1. Vaya a un proyecto.
 1. En el lado izquierdo de la página, haga clic en **[!UICONTROL Detalles del proyecto]**.
 1. Busque la sección **[!UICONTROL Asociación del proyecto]** y, a continuación, busque **[!UICONTROL Grupo]**.\
    Es el nombre del grupo que debe utilizar para comprobar el estado en el área de Configuración. Consulte la siguiente sección para obtener instrucciones sobre cómo actualizar el estado predeterminado de un grupo específico.

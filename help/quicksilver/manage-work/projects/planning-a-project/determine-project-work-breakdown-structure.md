@@ -6,10 +6,10 @@ description: La definición de una estructura de desglose de trabajo (EDT) para 
 author: Alina
 feature: Work Management
 exl-id: a76c468d-6373-4dab-93ff-a0b3734f368c
-source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
+source-git-commit: 14b3bfaf16a4ab8749538b32100ce6363a3a9335
 workflow-type: tm+mt
-source-wordcount: '1750'
-ht-degree: 99%
+source-wordcount: '1755'
+ht-degree: 97%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 99%
 
 La definición de una estructura de desglose de trabajo (EDT) para un proyecto es un conjunto de actividades que, en última instancia, describe el plan del proyecto. La EDT divide el resultado del proyecto en elementos de trabajo manejables, que se pueden utilizar para definir hitos y organizar asignaciones de trabajo.
 
-Debe tener una licencia de planificación con acceso de edición a Proyectos para crear la estructura de desglose de trabajo de un proyecto. Es posible que se necesite un acceso adicional a otras áreas de Adobe Workfront, en función de cuántas actividades realice al crear la EDT.
+Debe tener una licencia estándar o de planificación con acceso de edición en Proyectos para crear la estructura de desglose de trabajo de un proyecto. Es posible que se necesite un acceso adicional a otras áreas de Adobe Workfront, en función de cuántas actividades realice al crear la EDT.
 
 Se recomienda mantener el proyecto en estado de Planificación mientras se realizan cambios en la estructura de desglose de trabajo para evitar que se notifiquen activadores a los usuarios del equipo del proyecto.
 
@@ -80,14 +80,14 @@ Tenga en cuenta lo siguiente:
 
   Como la duración es una estimación, asegúrese de establecer valores de tiempo optimistas para tener en cuenta los factores que podrían afectar a la tarea, como el tiempo meteorológico, los cortes de electricidad, las dificultades de los proveedores u otros imprevistos. Además, asegúrese de tener en cuenta si hay alguna tarea predecesora o de dependencia asociada y cómo pueden imponer restricciones al trabajo y afectar a la finalización de la tarea.
 
-  Según el tipo de duración de la tarea, puede modificar la duración de una tarea mientras dure un proyecto, pero esto también afectará a la línea de tiempo del proyecto. Para obtener información sobre la duración de una tarea, consulte el artículo [Información general sobre la duración y el tipo de duración de las tareas](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
+  Según el tipo de duración de la tarea, puede modificar la duración de una tarea mientras dure un proyecto, pero esto también afectará a la cronología del proyecto. Para obtener información sobre la duración de una tarea, consulte el artículo [Información general sobre la duración y el tipo de duración de las tareas](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
 
 ## Asignar tareas
 
 Después de definir la duración y las restricciones de cada tarea, puede determinar quién tiene el tiempo y las habilidades para realizar el trabajo. En Workfront, puede asignar tareas a las siguientes entidades:
 
 * Usuarios\
-  Solo los usuarios con un nivel de acceso de planificador o trabajador pueden asignarse a tareas. Aunque se puede asignar tareas a los solicitantes y a los revisores, no pueden completarlas. Por este motivo, no se recomienda asignarles tareas.
+  Solo los usuarios con un nivel de acceso Estándar, Planificador o Trabajador pueden asignarse a tareas. Aunque se puede asignar tareas a los solicitantes y a los revisores, no pueden completarlas. Por este motivo, no se recomienda asignarles tareas.
 
   Para obtener información sobre los niveles de acceso y cómo definen lo que los usuarios pueden hacer con los objetos de Workfront, consulte [Información general de los niveles de acceso](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
 
@@ -126,7 +126,7 @@ Para obtener información sobre las aprobaciones, consulte el artículo [Crear u
 
 Para comprender la EDT de un proyecto, conviene ver los siguientes elementos de tarea:
 
-* Secuencia de tareas y línea de tiempo (fechas planificadas de inicio y finalización y duración de las tareas)
+* Secuencia de tareas y cronología (fechas planificadas de inicio y finalización y duración de las tareas)
 * Dependencias de predecesoras
 * Relación principal y secundaria
 * Asignaciones

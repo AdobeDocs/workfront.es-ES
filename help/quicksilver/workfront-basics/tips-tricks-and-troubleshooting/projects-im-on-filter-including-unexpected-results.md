@@ -6,10 +6,10 @@ description: Lea este artículo para solucionar los problemas del filtro Proyect
 feature: Get Started with Workfront
 author: Alina
 exl-id: 4701464a-4cf5-4be1-bcc0-0892019986ec
-source-git-commit: 883ec4eaa2258de2e464acf14b6b4083db05b99a
+source-git-commit: 14b3bfaf16a4ab8749538b32100ce6363a3a9335
 workflow-type: tm+mt
-source-wordcount: '184'
-ht-degree: 25%
+source-wordcount: '180'
+ht-degree: 26%
 
 ---
 
@@ -21,11 +21,9 @@ ht-degree: 25%
 
 <table>
   <tr>
-   <td>paquete de Adobe Workfront
+   <td>Paquete de Adobe Workfront
    </td>
-   <td> <p>PRIME o ULTIMATE</p>
-    <p>Workflow Ultimate</p>
-   </td>
+   <td>Cualquiera</td>
   </tr>
   <tr>
    <td>Licencias de Adobe Workfront

@@ -8,10 +8,10 @@ feature: People Teams and Groups
 exl-id: 55cc5562-13d5-4089-8937-f33d0cde3cac
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 14b3bfaf16a4ab8749538b32100ce6363a3a9335
 workflow-type: tm+mt
-source-wordcount: '759'
-ht-degree: 92%
+source-wordcount: '767'
+ht-degree: 88%
 
 ---
 
@@ -27,7 +27,7 @@ El botón [!UICONTROL Listo] puede establecer automáticamente el estado de una 
 
 Los usuarios con ciertos permisos pueden configurar el botón [!UICONTROL Listo] para asociarlo con ciertos estados del sistema. Hay dos maneras diferentes en que el botón [!UICONTROL Listo] funciona para las tareas de [!UICONTROL Workfront]:
 
-* Si el usuario tiene un equipo de inicio asignado, un administrador de [!DNL Workfront] o un usuario con una licencia de [!UICONTROL Plan] puede configurar el botón [!UICONTROL Listo] para reflejar ciertos estados para los integrantes del equipo. Consulte [Configurar el botón [!UICONTROL Listo] para un equipo](#configure-the-uicontrol-done-button-for-a-team) en este artículo.
+* Si el usuario tiene asignado un equipo de inicio, un administrador de [!DNL Workfront] o un usuario con licencia de [!UICONTROL Estándar] o [!UICONTROL Plan] pueden configurar el botón [!UICONTROL Listo] para reflejar ciertos estados para los integrantes del equipo. Consulte [Configurar el botón [!UICONTROL Listo] para un equipo](#configure-the-uicontrol-done-button-for-a-team) en este artículo.
 * Si el usuario no tiene un [!UICONTROL Equipo de inicio], pero tiene [!UICONTROL Otros equipos] en su perfil, Workfront busca la configuración del botón [!UICONTROL Listo] en cualquiera de los equipos asociados con el usuario. La selección es aleatoria y se utiliza el estado asociado con cualquiera de los equipos para la tarea.
 * Si el usuario no tiene un equipo de inicio asignado, el botón [!UICONTROL Listo] de las tareas estará vinculado a un estado completo. No hay opciones de configuración disponibles en este escenario. El botón [!UICONTROL Listo] toma automáticamente este estado como valor predeterminado.
 

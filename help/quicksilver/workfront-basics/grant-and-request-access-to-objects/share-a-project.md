@@ -8,10 +8,10 @@ feature: Get Started with Workfront
 exl-id: eaeedff8-9114-40d9-8cd4-56996edc7dad
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 3bc953ebb6f16d3d4a71fe9764551a8a4cf1087a
+source-git-commit: 14b3bfaf16a4ab8749538b32100ce6363a3a9335
 workflow-type: tm+mt
-source-wordcount: '1600'
-ht-degree: 60%
+source-wordcount: '1545'
+ht-degree: 57%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 60%
 
 El administrador de Adobe Workfront puede otorgarle acceso para ver o editar proyectos al asignarle su nivel de acceso. Para obtener más información, consulte [Conceder acceso a proyectos](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md).
 
-Junto con el nivel de acceso que concede a los usuarios, también puede concederles permisos para Ver, Aportar o Administrar proyectos específicos a los que tenga acceso para compartir. 
+Junto con el nivel de acceso que concede a los usuarios, también puede concederles permisos para Ver, Aportar o Administrar proyectos específicos a los que tenga acceso para compartir.
 
 Los permisos son específicos de un elemento de Workfront y definen qué acciones se pueden realizar sobre ese elemento.
 
@@ -65,7 +65,7 @@ Además de las consideraciones siguientes, consulte [Información general sobre 
 
 * De forma predeterminada, el creador de un proyecto tiene permisos para administrar el proyecto y también se designa como Propietario del proyecto. Si el proyecto se asigna a otro propietario, ese usuario también tiene permisos para administrar el proyecto. Cuando el creador (o propietario) del proyecto comparte el proyecto con otros usuarios, les concede determinados permisos para controlar lo que pueden hacer mientras trabajan en el proyecto.
 
-  Sin embargo, si el propietario de un proyecto no tiene una licencia estándar o de planificación, no tiene acceso completo para administrar el proyecto. Solo los usuarios con licencia de planificación o estándar pueden tener permisos para administrar un proyecto. Para obtener más información, consulte [Funcionamiento conjunto de los niveles de acceso y los permisos](../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md).
+  Sin embargo, si el propietario de un proyecto no tiene una licencia de planificación o estándar, no tiene acceso completo para administrar el proyecto. Solo los usuarios con una licencia estándar o de planificación pueden tener permisos para administrar un proyecto. Para obtener más información, consulte [Funcionamiento conjunto de los niveles de acceso y los permisos](../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md).
 
 * Puede compartir proyectos individualmente o puede compartir varios a la vez. Compartir proyectos es idéntico a compartir otros objetos. Para obtener más información sobre cómo compartir elementos en Workfront, consulte [Buscar un objeto](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md).
 * Puede conceder los siguientes permisos a un proyecto:
@@ -76,7 +76,7 @@ Además de las consideraciones siguientes, consulte [Información general sobre 
 
 * Al compartir un proyecto, todas las tareas, problemas y documentos heredan los mismos permisos, a menos que se especifique lo contrario.
 
-  Para obtener información sobre la administración del acceso a las tareas y problemas del proyecto en función de los permisos de un usuario para el proyecto, consulte la sección [&#128279;](../../manage-work/projects/manage-projects/edit-projects.md#access) en el artículo [Editar proyectos](../../manage-work/projects/manage-projects/edit-projects.md).
+  Para obtener información sobre la administración del acceso a las tareas y problemas del proyecto en función de los permisos de un usuario para el proyecto, consulte la sección [](../../manage-work/projects/manage-projects/edit-projects.md#access) en el artículo [Editar proyectos](../../manage-work/projects/manage-projects/edit-projects.md).
 
   El administrador de Workfront puede especificar si los documentos deben heredar permisos de objetos superiores en el nivel de acceso del usuario. Para obtener más información sobre la restricción de permisos heredados en documentos, consulte [Crear o modificar niveles de acceso personalizados](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
@@ -85,7 +85,7 @@ Además de las consideraciones siguientes, consulte [Información general sobre 
 ## Limitaciones para diferentes tipos de licencias
 
 * Los usuarios con una licencia de trabajo no tienen permisos para administrar proyectos. Para los trabajadores, el permiso de uso compartido más alto es de aportación.
-* Los usuarios con una licencia Request pueden ver la información del proyecto, pero tienen acceso limitado al mismo.
+* Los usuarios con licencia de colaborador o de solicitud pueden ver información del proyecto, pero tienen acceso limitado a él.
 * Se produce una excepción respecto al cambio de estado de un proyecto cuando un usuario con permisos de visualización o aportación también está incluido en un proceso de aprobación. Pueden aprobar el proyecto, que cambia su estado, pero el estado es el predefinido para su aprobación o rechazo.
 * Para poder copiar un proyecto, un usuario también debe tener acceso para crear proyectos en su nivel de acceso.
 

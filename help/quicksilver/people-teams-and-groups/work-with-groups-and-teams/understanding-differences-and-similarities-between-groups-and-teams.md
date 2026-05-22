@@ -9,10 +9,10 @@ feature: People Teams and Groups
 exl-id: 28eb1967-390b-4500-abfc-8ed68ff14a16
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 14b3bfaf16a4ab8749538b32100ce6363a3a9335
 workflow-type: tm+mt
-source-wordcount: '373'
-ht-degree: 81%
+source-wordcount: '381'
+ht-degree: 75%
 
 ---
 
@@ -48,7 +48,7 @@ En la siguiente tabla se muestran las diferencias y similitudes entre grupos y e
 
 | **Funcionalidad** | **Grupo** | **Equipo** |
 |---|---|---|
-| Un planificador puede crear |  | ✓ |
+| Un usuario de licencia estándar o de planificación puede crear |  | ✓ |
 | Solo un administrador de Workfront puede crear | ✓ |  |
 | Compartir objetos | ✓ | ✓ |
 | Asignar una tarea |  | ✓ |
@@ -67,7 +67,7 @@ En la siguiente tabla se muestran las diferencias y similitudes entre grupos y e
 | Visibilidad de horarios | ✓ |  |
 | Asignar perfiles de plantilla de horas | ✓ | ✓ |
 | Editar plantillas de diseño | ✓ | ✓ |
-| Cualquier usuario con una licencia Plan puede asignarla a otro usuario |  | ✓ |
+| Cualquier usuario con una licencia estándar o de planificación puede asignarla a otro usuario |  | ✓ |
 | Personalizar estados | ✓ |  |
 | Personalizar el botón [!UICONTROL Listo] |  | ✓ |
 | Seguimiento de licencias | ✓ |  |

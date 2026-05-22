@@ -6,10 +6,10 @@ description: Lea este artículo para solucionar problemas con los botones de fil
 feature: Get Started with Workfront
 author: Courtney
 exl-id: 327564ed-60df-441a-a38b-a17a8c57adb0
-source-git-commit: 883ec4eaa2258de2e464acf14b6b4083db05b99a
+source-git-commit: 14b3bfaf16a4ab8749538b32100ce6363a3a9335
 workflow-type: tm+mt
-source-wordcount: '291'
-ht-degree: 97%
+source-wordcount: '287'
+ht-degree: 100%
 
 ---
 
@@ -21,11 +21,9 @@ ht-degree: 97%
 
 <table>
   <tr>
-   <td>paquete de Adobe Workfront
+   <td>Paquete de Adobe Workfront
    </td>
-   <td> <p>PRIME o ULTIMATE</p>
-    <p>Workflow Ultimate</p>
-   </td>
+   <td>Cualquiera</td>
   </tr>
   <tr>
    <td>Licencias de Adobe Workfront
@@ -79,7 +77,7 @@ Los siguientes botones de filtro no se muestran en sus áreas respectivas:
 
 ## Solución
 
-Los botones de filtro del área [!UICONTROL Proyectos y plantillas de horas] no se muestran porque los filtros correspondientes no están incluidos en la plantilla de diseño aplicada al usuario. El administrador de [!DNL Workfront] debe asignar una plantilla de diseño que incluya los filtros. 
+Los botones de filtro del área [!UICONTROL Proyectos y plantillas de horas] no se muestran porque los filtros correspondientes no están incluidos en la plantilla de diseño aplicada al usuario. El administrador de [!DNL Workfront] debe asignar una plantilla de diseño que incluya los filtros.
 
 >[!NOTE]
 >

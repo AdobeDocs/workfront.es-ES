@@ -9,10 +9,10 @@ feature: Reports and Dashboards
 exl-id: 5e267d45-7922-4c0f-8530-59a8c152f625
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 14b3bfaf16a4ab8749538b32100ce6363a3a9335
 workflow-type: tm+mt
-source-wordcount: '1500'
-ht-degree: 86%
+source-wordcount: '1508'
+ht-degree: 82%
 
 ---
 
@@ -125,7 +125,7 @@ Para obtener una lista completa de la información general sobre las variables d
 
 Esto puede ocurrir en la mayoría de los casos si tiene un acceso limitado que le impide ver los elementos del sistema. Además, no se ha compartido el uso de los elementos que desea ver.
 
-El creador del informe puede editarlo para ejecutarlo con los derechos de acceso de un usuario con rol de administrador del sistema o cualquier usuario con Plan que tenga acceso para ver los datos.
+El creador del informe puede editarlo para ejecutarlo con los derechos de acceso de un administrador del sistema o cualquier usuario de Standard o Plan que tenga acceso para ver los datos.
 
 Para obtener más información, consulte [Ejecutar y enviar un informe con los derechos de acceso de otro usuario](../../../reports-and-dashboards/reports/creating-and-managing-reports/run-deliver-report-access-rights-another-user.md).
 
@@ -188,7 +188,7 @@ Para obtener más información acerca de la actualización de un panel de contro
 
 No se puede cambiar el propietario de un informe. Sin embargo, el usuario que ha creado el informe puede permitir que otros usuarios lo editen. La forma de permitir que los usuarios editen un informe depende del tipo de usuario.
 
-* Los administradores del sistema pueden permitir que los usuarios con licencia Plan editen los informes configurando la opción Editar en la fila Informes para incluir el acceso a Crear un informe.\
+* Los administradores del sistema pueden permitir que los usuarios con una licencia estándar o de planificación editen informes configurando la opción Editar en la fila Informes para incluir el acceso a Crear un informe.\
   Para obtener más información, consulte [Conceder acceso a informes, paneles de control y calendarios](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md).
 
 * Cualquier usuario final con acceso para crear y compartir informes puede permitir que otros editen informes individuales compartiéndolos y concediendo a otros usuarios permisos de administración.\

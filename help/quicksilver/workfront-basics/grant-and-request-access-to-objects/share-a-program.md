@@ -7,17 +7,17 @@ description: El administrador de Adobe Workfront puede otorgarle acceso para ver
 author: Courtney
 feature: Get Started with Workfront
 exl-id: bfa6ce97-24ad-44b3-9c2f-7fac6b748f94
-source-git-commit: 3bc953ebb6f16d3d4a71fe9764551a8a4cf1087a
+source-git-commit: 14b3bfaf16a4ab8749538b32100ce6363a3a9335
 workflow-type: tm+mt
-source-wordcount: '914'
-ht-degree: 45%
+source-wordcount: '925'
+ht-degree: 43%
 
 ---
 
 # Compartir un programa
 
 
-El administrador de Adobe Workfront puede otorgarle acceso para ver o editar programas al asignar su nivel de acceso. Debe tener una licencia de Planificación para tener acceso a la edición de un programa. Para obtener más información, consulte [Conceder acceso a los programas](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-programs.md).
+El administrador de Adobe Workfront puede otorgarle acceso para ver o editar programas al asignar su nivel de acceso. Debe tener una licencia estándar o de planificación para tener acceso a la edición de un programa. Para obtener más información, consulte [Conceder acceso a los programas](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-programs.md).
 
 Junto con el nivel de acceso que se le ha otorgado, también puede recibir permisos para ver o administrar programas específicos de usuarios que pueden compartirlos con usted. Para obtener más información sobre los niveles de acceso y los permisos, consulte [Cómo funcionan juntos los niveles de acceso y los permisos](../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md).
 
@@ -77,7 +77,7 @@ Además de las consideraciones siguientes, consulte [Información general sobre 
 
   Para obtener más información sobre la jerarquía de objetos en Workfront, consulte [Comprender los objetos en Adobe Workfront](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
 
-* Puede quitar los permisos heredados del programa. Para obtener más información sobre cómo quitar permisos a los objetos, consulte   [Quitar permisos de objetos](../../workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md).
+* Puede quitar los permisos heredados del programa. Para obtener más información acerca de cómo quitar permisos de los objetos, vea [Quitar permisos de los objetos](../../workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md).
 
 ## Compartir un programa
 

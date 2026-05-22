@@ -9,10 +9,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 26c6fa2c-5c3a-4f53-bd7e-e49a623ff60d
-source-git-commit: c389b4829f16bf82a5851a597f5dd358d9c96999
+source-git-commit: 2e87fd9a7b85261656c3d3e388937bb5f34a8e02
 workflow-type: tm+mt
-source-wordcount: '247'
-ht-degree: 0%
+source-wordcount: '249'
+ht-degree: 3%
 
 ---
 
@@ -35,7 +35,7 @@ Escenario: si desea que se activen recordatorios en todas las tareas y problemas
 
 Las siguientes características son específicas de las notificaciones de recordatorio:
 
-* Puede crearlo un administrador o cualquier usuario con una licencia de planificación y acceso administrativo a las notificaciones de recordatorio
+* Puede crearlo un administrador o cualquier usuario con una licencia Estándar de planificación y acceso administrativo a las Notificaciones de recordatorio
 * Solo se puede asociar manualmente a un objeto
 * Solo puede notificar con respecto al objeto adjunto
 * Se puede enviar a varias partes interesadas del objeto, como propietario, creador, aprobador o usuario asignado

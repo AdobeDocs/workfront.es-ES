@@ -8,10 +8,10 @@ author: Courtney
 exl-id: 76e21df0-9272-4bfb-8a97-c16ae5f4b5dc
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 14b3bfaf16a4ab8749538b32100ce6363a3a9335
 workflow-type: tm+mt
-source-wordcount: '3697'
-ht-degree: 95%
+source-wordcount: '3702'
+ht-degree: 93%
 
 ---
 
@@ -29,7 +29,7 @@ El acceso al encabezado de un objeto de [!DNL Workfront] es idéntico para todos
 
 Por ejemplo, para acceder al encabezado de un proyecto:
 
-1. Vaya a un proyecto. \
+1. Vaya a un proyecto.\
    El encabezado se muestra en la parte superior de la página y contiene el nombre del proyecto.
 
    ![](assets/project-header-350x18.png)
@@ -236,7 +236,7 @@ El encabezado de problema incluye la siguiente información de forma predetermin
   </tr> 
   <tr> 
    <td role="rowheader">El área de [!UICONTROL Approvals]</td> 
-   <td> <p>Cuando sea uno de los aprobadores, utilice los iconos siguientes para administrar las aprobaciones del problema:</p> <p> <img src="assets/nwe-approvals-approve-16x18.png" style="width: 16;height: 18;"> [!UICONTROL Approve]</p> <p> <img src="assets/nwe-approvals-reject-16x19.png" style="width: 16;height: 19;"> [!UICONTROL Reject]</p> <p> <img src="assets/nwe-approvals-recall-16x16.png" style="width: 16;height: 16;"> [!UICONTROL Recall]</p> <p>Si no es aprobador, haga clic en el icono [!UICONTROL More] <img src="assets/more-icon-for-approvals-area.png"> para ver información sobre el paso de aprobación actual.</p> <p>Para obtener más información sobre las aprobaciones, consulte <a href="../../review-and-approve-work/manage-approvals/approval-process-in-workfront.md" class="MCXref xref">Resumen del proceso de aprobación</a>.</p> </td> 
+   <td> <p>Cuando sea uno de los aprobadores, utilice los iconos siguientes para administrar las aprobaciones del problema:</p> <p> <img src="assets/nwe-approvals-approve-16x18.png" style="width: 16;height: 18;"> [!UICONTROL Approve]</p> <p> <img src="assets/nwe-approvals-reject-16x19.png" style="width: 16;height: 19;"> [!UICONTROL Reject]</p> <p> <img src="assets/nwe-approvals-recall-16x16.png" style="width: 16;height: 16;"> [!UICONTROL Recall]</p> <p>Si no es un aprobador, haga clic en el icono [!UICONTROL More] <img src="assets/more-icon-for-approvals-area.png"> para ver información sobre el paso de aprobación actual.</p> <p>Para obtener más información sobre las aprobaciones, consulte <a href="../../review-and-approve-work/manage-approvals/approval-process-in-workfront.md" class="MCXref xref">Resumen del proceso de aprobación</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -700,7 +700,7 @@ El encabezado de grupo muestra la siguiente información:
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Licenses in use] </td> 
-   <td> <p>El cuadro [!UICONTROL Licenses in use] muestra el número de usuarios con licencias de [!UICONTROL Plan] y [!UICONTROL Work] del grupo y sus subgrupos. Puede hacer clic en los números para ver esta información para los 5 tipos de licencia.</p> <p>Para obtener más información, consulte <a href="../../administration-and-setup/manage-groups/create-and-manage-groups/view-number-licenses-allocated-used-group.md" class="MCXref xref">Ver el número de licencias asignadas y utilizadas en un grupo en la nueva [!DNL Adobe Workfront]experiencia</a>.</p> </td> 
+   <td> <p>El cuadro [!UICONTROL Licencias en uso] muestra el número de usuarios con licencias de [!UICONTROL Standard] o [!UICONTROL Plan] y [!UICONTROL Work] del grupo y sus subgrupos. Puede hacer clic en los números para ver esta información para todos los tipos de licencia.</p> <p>Para obtener más información, consulte <a href="../../administration-and-setup/manage-groups/create-and-manage-groups/view-number-licenses-allocated-used-group.md" class="MCXref xref">Ver el número de licencias asignadas y utilizadas en un grupo</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Group Administrators]</td> 
@@ -747,7 +747,7 @@ El encabezado del documento muestra la siguiente información:
   </tr> 
   <tr> 
    <td role="rowheader">El área de aprobación [!UICONTROL Decision]</td> 
-   <td> El área [!UICONTROL Decisions] se muestra en la esquina superior derecha del encabezado del documento. Esta área difiere según la fase de aprobación y si es aprobador, revisor o ninguno de los dos. <ul><li> <p>Si es aprobador, puede utilizar los iconos siguientes para administrar las aprobaciones del documento:</p> <p> <img src="assets/nwe-approvals-approve-16x18.png" style="width: 16;height: 18;"> [!UICONTROL Approve]</p> <p> <img src="assets/nwe-approvals-recall-16x16.png" style="width: 16;height: 16;"> [!UICONTROL Recall]</p> <p> <img src="assets/nwe-approvals-reject-16x19.png" style="width: 16;height: 19;"> [!UICONTROL Reject]</p> <p>Para obtener más información sobre las decisiones de aprobación, consulte <a href="../../review-and-approve-work/manage-approvals/approving-work.md" class="MCXref xref">Aprobación del trabajo</a>.</li><li><p>Si es revisor, puede hacer clic en el botón Completar mi revisión para indicar que ha revisado el documento.</p><p>Para obtener más información sobre la revisión de un documento, consulte <a href="../../review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-a-document.md" class="MCXref xref">Revisar un documento</a>.</p></li><li>De lo contrario, esta área muestra el estado actual de revisión y aprobación del documento.</li><ul></p> </td> 
+   <td> El área de [!UICONTROL Decisions] se muestra en la esquina superior derecha del encabezado del documento.Esta área difiere según la fase de aprobación y si es aprobador, revisor o ninguno de los dos. <ul><li> <p>Si es aprobador, puede utilizar los iconos siguientes para administrar las aprobaciones del documento:</p> <p> <img src="assets/nwe-approvals-approve-16x18.png" style="width: 16;height: 18;"> [!UICONTROL Approve]</p> <p> <img src="assets/nwe-approvals-recall-16x16.png" style="width: 16;height: 16;"> [!UICONTROL Recall]</p> <p> <img src="assets/nwe-approvals-reject-16x19.png" style="width: 16;height: 19;"> [!UICONTROL Reject]</p> <p>Para obtener más información sobre las decisiones de aprobación, consulte <a href="../../review-and-approve-work/manage-approvals/approving-work.md" class="MCXref xref">Aprobación del trabajo</a>.</li><li><p>Si es revisor, puede hacer clic en el botón Completar mi revisión para indicar que ha revisado el documento.</p><p>Para obtener más información sobre la revisión de un documento, consulte <a href="../../review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-a-document.md" class="MCXref xref">Revisar un documento</a>.</p></li><li>De lo contrario, esta área muestra el estado actual de revisión y aprobación del documento.</li><ul></p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -6,16 +6,16 @@ description: Como administrador de Adobe Workfront, puede conceder a los usuario
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 19fb0de5-7db5-42a9-9f33-a4570acfeef8
-source-git-commit: e974adc053a076a4370aa0c4ec41fea700d836be
+source-git-commit: 14b3bfaf16a4ab8749538b32100ce6363a3a9335
 workflow-type: tm+mt
-source-wordcount: '611'
-ht-degree: 31%
+source-wordcount: '596'
+ht-degree: 26%
 
 ---
 
 # Compartir una plantilla
 
-Como administrador de Adobe Workfront, puede conceder a los usuarios acceso para ver o editar plantillas al asignarles su nivel de acceso. Un usuario debe tener una licencia Plan para tener acceso a la edición de plantillas.
+Como administrador de Adobe Workfront, puede conceder a los usuarios acceso para ver o editar plantillas al asignarles su nivel de acceso. Un usuario debe tener una licencia estándar o de planificación para tener acceso a Editar plantillas.
 
 Para obtener más información acerca de cómo conceder acceso a las plantillas, vea [Conceder acceso a las plantillas](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-templates.md).
 
@@ -48,7 +48,7 @@ Los permisos son específicos de un elemento de Workfront y definen qué accione
 
 * Cuando comparte una plantilla o un proyecto creado a partir de la plantilla, los usuarios heredan los mismos permisos para todos los objetos secundarios asociados con la plantilla o el proyecto de forma predeterminada.
 
-  Para obtener más información sobre la jerarquía de objetos en Workfront, consulte   [Comprender los objetos de Adobe Workfront](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
+  Para obtener más información acerca de la jerarquía de objetos en Workfront, vea [Explicación de los objetos en Adobe Workfront](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
 
 * Cuando comparte una plantilla, todas las tareas y documentos de plantilla, así como los problemas en el futuro proyecto creado a partir de la plantilla, heredan los mismos permisos, a menos que se especifique lo contrario.
 

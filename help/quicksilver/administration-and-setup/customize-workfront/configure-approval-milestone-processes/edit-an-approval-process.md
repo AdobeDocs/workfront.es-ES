@@ -10,10 +10,10 @@ role: Admin
 exl-id: 62aa8ac0-7e8a-4df6-b5d4-a32fa86a4597
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 2e87fd9a7b85261656c3d3e388937bb5f34a8e02
 workflow-type: tm+mt
-source-wordcount: '1994'
-ht-degree: 95%
+source-wordcount: '2004'
+ht-degree: 94%
 
 ---
 
@@ -46,7 +46,7 @@ Para obtener información acerca de cómo crear procesos de aprobación, consult
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Paquete Adobe Workfront*</td> 
+   <td role="rowheader">Paquete de Adobe Workfront</td> 
    <td><p>Para el proceso de aprobación de un solo uso o de nivel de sistema:</p><ul><li><p>Cualquier paquete</p></li></ul>
    <p>Para el proceso de aprobación a nivel de grupo:</p>
    <ul><li><p>Flujo de trabajo de Prime o Ultimate</p></li>
@@ -68,7 +68,7 @@ Para obtener información acerca de cómo crear procesos de aprobación, consult
  </tbody> 
 </table>
 
-*Para obtener más información sobre esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -164,7 +164,7 @@ For this article, the old access was:
       <p>Este campo es obligatorio.</p>
       <p>No se puede seleccionar el mismo estado para varias rutas de proceso de aprobación.</p> <p>Los estados disponibles se basan en lo que se selecciona bajo la opción <b>Este proceso de aprobación puede ser utilizado por </b> (explicado en la tabla anterior):</p> 
       <ul> 
-      <li> Si se selecciona <b>Todos los grupos</b>, solo están disponibles los estados bloqueados a nivel del sistema. <!--Remove "locked" when story about using an unlocked status in approval processes goes to preview-->
+      <li> Si se selecciona <b>Todos los grupos</b>, solo estarán disponibles los estados bloqueados en todo el sistema. <!--Remove "locked" when story about using an unlocked status in approval processes goes to preview-->
       </li> 
       <li> <p>Si se selecciona un grupo específico, solo están disponibles los estados disponibles para ese grupo</p> </li> 
       </ul> <p>Para obtener información sobre cómo los procesos de aprobación funcionan con los estados, consulte la sección <a href="../../../review-and-approve-work/manage-approvals/approval-process-in-workfront.md#how2" class="MCXref xref">Cómo dependen los procesos de aprobación de los estados</a> en el artículo <a href="../../../review-and-approve-work/manage-approvals/approval-process-in-workfront.md" class="MCXref xref">Información general del proceso de aprobación</a>.</p> </td> 
