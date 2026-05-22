@@ -10,10 +10,10 @@ role: User, Admin
 exl-id: 385420aa-0962-4b67-9d0d-b153dcf302cf
 last-update: 2026-04-01T18:23:03Z
 git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 14b3bfaf16a4ab8749538b32100ce6363a3a9335
 workflow-type: tm+mt
-source-wordcount: '2843'
-ht-degree: 65%
+source-wordcount: '2867'
+ht-degree: 63%
 
 ---
 
@@ -357,7 +357,7 @@ Para crear una cola de solicitudes, haga lo siguiente:
    * **Publicar como cola de solicitud de ayuda**: seleccione esta opción para identificar este proyecto como cola de solicitud. Todos los problemas entrantes se consideran solicitudes.\
      Cuando esta opción no está seleccionada, el proyecto se comporta como un proyecto estándar en Workfront y todos los problemas entrantes son problemas.
 
-   * **¿Quién puede agregar solicitudes a esta cola?**: seleccione qué usuarios tienen acceso para agregar solicitudes a esta cola. Puede permitir que los siguientes grupos de personas vean la cola de solicitudes en su área de solicitudes de la barra de navegación global cuando añaden una nueva solicitud:
+   * **¿Quién puede agregar solicitudes a esta cola?**: Seleccione qué usuarios tienen acceso para agregar solicitudes a esta cola. Puede permitir que los siguientes grupos de personas vean la cola de solicitudes en su área de solicitudes de la barra de navegación global cuando añaden una nueva solicitud:
 
      | Quién puede introducir solicitudes | Descripción |
      |---|---|
@@ -521,8 +521,8 @@ Para obtener más información acerca de cómo configurar el sistema Horas habit
 
      | Qué usuarios pueden ver todos los campos del formulario de solicitud | Descripción |
      |---|---|
-     | Todos los usuarios (Licencias Plan) | Todos los usuarios que tengan una licencia Plan pueden ver los campos seleccionados y los no seleccionados. |
-     | Personas con acceso de visualización en este proyecto (licencia de planificación) | Los usuarios con una licencia Plan que también tengan derechos de visualización sobre este proyecto pueden ver los campos seleccionados y los no seleccionados. El resto de los usuarios que pueden enviar solicitudes a este proyecto solo pueden ver los campos seleccionados. |
+     | Todos los usuarios (Licencias Plan) | Todos los usuarios que tengan una licencia de planificación o estándar pueden ver los campos seleccionados y los no seleccionados. |
+     | Personas con acceso de visualización en este proyecto (licencia de planificación) | Los usuarios con una licencia de planificación o estándar que también tengan derechos de visualización sobre este proyecto pueden ver los campos seleccionados y los no seleccionados. El resto de los usuarios que pueden enviar solicitudes a este proyecto solo pueden ver los campos seleccionados. |
      | Ningún usuario | Ningún usuario puede ver los campos no seleccionados. Todos los usuarios que pueden enviar solicitudes a este proyecto solo pueden ver los campos seleccionados. Esta es la selección predeterminada. |
 
    * **Forms personalizado**: seleccione un formulario personalizado para asociarlo a la cola de solicitudes en el menú desplegable. Puede seleccionar varios formularios y, a continuación, arrastrarlos y soltarlos en el orden en que desee que se muestren en el formulario de solicitud.

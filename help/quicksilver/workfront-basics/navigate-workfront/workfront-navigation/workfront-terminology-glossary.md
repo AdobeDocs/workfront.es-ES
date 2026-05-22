@@ -8,9 +8,9 @@ feature: Get Started with Workfront
 exl-id: 758072b3-775e-4771-9ae9-da0b38580c93
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 9a35246858141a3b69ec85be3372c7a8d9497d6e
+source-git-commit: ee971729c414018a04b1d1fc2a59760e9ea0a59a
 workflow-type: tm+mt
-source-wordcount: '21830'
+source-wordcount: '21833'
 ht-degree: 98%
 
 ---
@@ -408,7 +408,7 @@ La siguiente tabla es una lista de los términos más utilizados en Adobe Workfr
     <ul> 
      <li> <p>Costes de mano de obra mostrados en el área de [!UICONTROL Resource Budgeting] del [!UICONTROL Business Case] o en el [!UICONTROL Resource Planner] que están asociados con el coste de las funciones de un proyecto. Para obtener información acerca del cálculo de [!UICONTROL Budgeted Labor Cost], consulte el artículo <a href="../../../manage-work/projects/project-finances/budgeted-labor-cost.md" class="MCXref xref">[!UICONTROL Understand Budgeted Labor Cost] y [!UICONTROL Budgeted Hours] para los proyectos</a></p> </li> 
      <li data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <p>Costes de mano de obra mostrados en el área de [!UICONTROL Resource Budgeting] del [!UICONTROL Business Case] que reflejan los [!UICONTROL People Costs] estimados en una iniciativa vinculada al proyecto del [!DNL Scenario Planner] cuando se usa el Planificador de escenarios para presupuestar los recursos del proyecto. Para obtener información acerca de las iniciativas, consulte <a href="../../../scenario-planner/initiatives-overview.md" class="MCXref xref">Información general sobre iniciativas en el Planificador de escenarios</a>. </p> 
-     <p>El [!DNL Scenario Planner] requiere una licencia adicional. Para obtener información acerca del [!DNL Workfront Scenario Planner], consulte <a href="../../../scenario-planner/scenario-planner-overview.md" class="MCXref xref">Información general sobre [!DNL Scenario Planner]</a>. </p> </li> 
+     <p>El [!DNL Scenario Planner] requiere una licencia adicional. Para obtener información acerca de [!DNL Workfront Scenario Planner], consulte <a href="../../../scenario-planner/scenario-planner-overview.md" class="MCXref xref">La descripción general de [!DNL Scenario Planner]</a>. </p> </li> 
      <p>Se muestra en las siguientes áreas debajo los nombres siguientes:</p>
    <ul>
    <li><strong>[!UICONTROL Budgeted Labor Cost]</strong>: en el área de [!UICONTROL Resource Budgeting] del [!UICONTROL Business Case].
@@ -1098,19 +1098,19 @@ The designated full time equivalency for users. A full-time user should have 100
   </tr> 
   <tr> 
    <td>[!UICONTROL Initiative]</td> 
-   <td> <p>En [!DNL Workfront Scenario Planner], puede dividir un plan en varias iniciativas para facilitar su administración. <span>Puede generar un informe de [!UICONTROL Initiative] y tener acceso a la información de [!UICONTROL Initiative] en un informe de [!UICONTROL Project].</span></p> <p>El [!DNL Scenario Planner] requiere una licencia adicional. Para obtener información acerca del [!DNL Workfront Scenario Planner], consulte <a href="../../../scenario-planner/scenario-planner-overview.md" class="MCXref xref">Información general sobre [!DNL Scenario Planner]</a>. </p> <p>El informe [!DNL Initiative] no está visible en su instancia de [!DNL Workfront] a menos que su compañía haya adquirido una licencia del [!DNL Workfront Scenario Planner]. No puede tener acceso a [!UICONTROL Initiatives] mediante la API.</p> </td> 
+   <td> <p>En [!DNL Workfront Scenario Planner], puede dividir un plan en varias iniciativas para facilitar su administración. <span>Puede generar un informe de [!UICONTROL Initiative] y tener acceso a la información de [!UICONTROL Initiative] en un informe de [!UICONTROL Project].</span></p> <p>El [!DNL Scenario Planner] requiere una licencia adicional. Para obtener información acerca de [!DNL Workfront Scenario Planner], consulte <a href="../../../scenario-planner/scenario-planner-overview.md" class="MCXref xref">La descripción general de [!DNL Scenario Planner]</a>. </p> <p>El informe [!DNL Initiative] no está visible en su instancia de [!DNL Workfront] a menos que su compañía haya adquirido una licencia del [!DNL Workfront Scenario Planner]. No puede tener acceso a [!UICONTROL Initiatives] mediante la API.</p> </td> 
   </tr> 
   <tr> 
    <td><span>[!UICONTROL Initiative Job Role]</span> </td> 
-   <td> <p><span>El tipo de informe de [!UICONTROL Initiative Job Role] muestra información sobre las funciones asociadas con una iniciativa de plan en el [!DNL Workfront Scenario Planner].</span> </p> <p>El [!DNL Scenario Planner] requiere una licencia adicional. Para obtener información acerca del [!DNL Workfront Scenario Planner], consulte <a href="../../../scenario-planner/scenario-planner-overview.md">Información general sobre [!DNL Scenario Planner]</a>. </p> <p><span>Este tipo de informe no es visible en su instancia de [!DNL Workfront] a menos que su compañía haya adquirido una licencia del [!DNL Workfront Scenario Planner].</p> </td> 
+   <td> <p><span>El tipo de informe de [!UICONTROL Initiative Job Role] muestra información sobre las funciones asociadas con una iniciativa de plan en el [!DNL Workfront Scenario Planner].</span> </p> <p>El [!DNL Scenario Planner] requiere una licencia adicional. Para obtener información acerca de [!DNL Workfront Scenario Planner], consulte <a href="../../../scenario-planner/scenario-planner-overview.md">La descripción general de [!DNL Scenario Planner]</a>. </p> <p><span>Este tipo de informe no es visible en su instancia de [!DNL Workfront] a menos que su compañía haya adquirido una licencia del [!DNL Workfront Scenario Planner].</p> </td> 
   </tr> 
   <tr> 
    <td><span>[!UICONTROL Initiative Job Role Hours]</span> </td> 
-   <td> <p><span> En un informe de [!UICONTROL Initiative Job Role], se muestra el número de horas asociadas con una función en una iniciativa.</span> </p> <p>El [!DNL Scenario Planner] requiere una licencia adicional. Para obtener información acerca del [!DNL Workfront Scenario Planner], consulte <a href="../../../scenario-planner/scenario-planner-overview.md">Información general sobre [!DNL Scenario Planner]</a>. </p> <p>Este tipo de informe y el tipo de informe del [!UICONTROL Initiative Job Role] no es visible en su instancia de [!DNL Workfront] a menos que su compañía haya adquirido una licencia del [!DNL Workfront Scenario Planner].</p> </td> 
+   <td> <p><span> En un informe de [!UICONTROL Initiative Job Role], se muestra el número de horas asociadas con una función en una iniciativa.</span> </p> <p>El [!DNL Scenario Planner] requiere una licencia adicional. Para obtener información acerca de [!DNL Workfront Scenario Planner], consulte <a href="../../../scenario-planner/scenario-planner-overview.md">La descripción general de [!DNL Scenario Planner]</a>. </p> <p>Este tipo de informe y el tipo de informe del [!UICONTROL Initiative Job Role] no es visible en su instancia de [!DNL Workfront] a menos que su compañía haya adquirido una licencia del [!DNL Workfront Scenario Planner].</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Initiative Job Role Count]</td> 
-   <td> <p>En un informe de [!UICONTROL Initiative Job Role], se muestra el número de funciones específicas asociadas a una iniciativa.</p> <p>El [!DNL Scenario Planner] requiere una licencia adicional. Para obtener información acerca del [!DNL Workfront Scenario Planner], consulte <a href="../../../scenario-planner/scenario-planner-overview.md">Información general sobre [!DNL Scenario Planner]</a>. </p> <p>Este tipo de informe y el tipo de informe del [!UICONTROL Initiative Job Role] no es visible en su instancia de [!DNL Workfront] a menos que su compañía haya adquirido una licencia del [!DNL Workfront Scenario Planner].</p> </td> 
+   <td> <p>En un informe de [!UICONTROL Initiative Job Role], se muestra el número de funciones específicas asociadas a una iniciativa.</p> <p>El [!DNL Scenario Planner] requiere una licencia adicional. Para obtener información acerca de [!DNL Workfront Scenario Planner], consulte <a href="../../../scenario-planner/scenario-planner-overview.md">La descripción general de [!DNL Scenario Planner]</a>. </p> <p>Este tipo de informe y el tipo de informe del [!UICONTROL Initiative Job Role] no es visible en su instancia de [!DNL Workfront] a menos que su compañía haya adquirido una licencia del [!DNL Workfront Scenario Planner].</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Initiative Last Published Date]</td> 
@@ -1271,7 +1271,7 @@ The designated full time equivalency for users. A full-time user should have 100
   </tr> 
   <tr> 
    <td>[!UICONTROL License Limit Plan]</td> 
-   <td> <p>En una vista o informe de [!UICONTROL Group], este campo muestra el número máximo de licencias de [!UICONTROL Plan] que se pueden asignar a usuarios que tienen el grupo respectivo designado como su [!UICONTROL Home Group].</p> </td> 
+   <td> <p>En una vista o informe de [!UICONTROL Group], este campo muestra el número máximo de licencias de [!UICONTROL Standard] o [!UICONTROL Plan] que se pueden asignar a usuarios que tienen el grupo respectivo designado como su [!UICONTROL Home Group].</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL License Limit Work]</td> 

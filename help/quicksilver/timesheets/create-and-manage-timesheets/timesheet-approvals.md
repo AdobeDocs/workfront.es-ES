@@ -6,10 +6,10 @@ description: El proceso de aprobación de plantillas de horas proporciona a los 
 author: Lisa
 feature: Timesheets
 exl-id: b27b3307-f61b-456d-8076-590d1c391b4b
-source-git-commit: 69cd5fb1d089b81b7a1673609b92537137b6b68e
+source-git-commit: 14b3bfaf16a4ab8749538b32100ce6363a3a9335
 workflow-type: tm+mt
-source-wordcount: '672'
-ht-degree: 60%
+source-wordcount: '678'
+ht-degree: 59%
 
 ---
 
@@ -32,7 +32,7 @@ Para obtener información sobre cómo enviar una plantilla de horas, consulte [E
  <col>
  <tbody> 
   <tr> 
-   <td>paquete de Adobe Workfront</td> 
+   <td>Paquete de Adobe Workfront</td> 
    <td><p>Cualquiera</p></td> 
   </tr> 
   <tr> 
@@ -56,7 +56,7 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
 
 Normalmente, los administradores funcionales o el personal de recursos humanos aprueban las plantillas de horas. Los administradores del proyecto no suelen aprobar las plantillas de horas. Los administradores del proyecto pueden aprobar los proyectos con registro de tiempo, aunque son los administradores de equipo o de Recursos Humanos los que deben aprobar las plantillas de horas.
 
-Se define un aprobador de plantilla de horas al crear el perfil de plantilla de horas. Debe contar con una licencia de planificación para ser designado como aprobador.
+Se define un aprobador de plantilla de horas al crear el perfil de plantilla de horas. Debe tener una licencia estándar o de planificación para ser designado como aprobador.
 
 Para obtener más información sobre cómo designar aprobadores de plantillas de horas, consulte la sección [Crear o editar un perfil de plantilla de horas](../../timesheets/create-and-manage-timesheets/create-timesheet-profiles.md#create) en el artículo [Crear, editar y asignar perfiles de plantilla de horas](../../timesheets/create-and-manage-timesheets/create-timesheet-profiles.md).
 

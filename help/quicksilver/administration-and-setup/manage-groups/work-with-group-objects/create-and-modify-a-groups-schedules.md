@@ -8,10 +8,10 @@ author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: a2a39746-331b-41d6-8c3c-e6a1eb68b43a
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 2e87fd9a7b85261656c3d3e388937bb5f34a8e02
 workflow-type: tm+mt
-source-wordcount: '310'
-ht-degree: 92%
+source-wordcount: '314'
+ht-degree: 82%
 
 ---
 
@@ -25,9 +25,9 @@ Para obtener información general acerca de cómo crear y editar una programaci�
 
 >[!NOTE]
 >
->Los administradores de grupos y los usuarios con una licencia de planificación que puedan editar a otros usuarios pueden añadir una programación de nivel de sistema o de grupo a otro usuario cuando estén editando el perfil de ese usuario.
+>Los administradores de grupos y los usuarios con una licencia de planificación o estándar que puedan editar a otros usuarios pueden añadir una programación de nivel de sistema o de grupo a otro usuario cuando estén editando el perfil de dicho usuario.
 
-Para obtener información acerca de cómo se usan las programaciones en la planificación de recursos, consulte [Información general sobre las programaciones](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/schedules-overview.md) e [Información general del Planificador de recursos](/help/quicksilver/resource-mgmt/resource-planning/get-started-resource-planner.md).
+Para obtener información acerca de cómo se usan los horarios en la planificación de recursos, consulte [Información general sobre los horarios](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/schedules-overview.md) e [Información general sobre el Planificador de recursos](/help/quicksilver/resource-mgmt/resource-planning/get-started-resource-planner.md).
 
 ## Requisitos de acceso
 
@@ -38,7 +38,7 @@ Para obtener información acerca de cómo se usan las programaciones en la plani
  <col> 
  <tbody> 
   <tr> 
-   <td>paquete de Adobe Workfront</td> 
+   <td>Paquete de Adobe Workfront</td> 
    <td><p>Cualquiera</p></td> 
   </tr> 
   <tr> 

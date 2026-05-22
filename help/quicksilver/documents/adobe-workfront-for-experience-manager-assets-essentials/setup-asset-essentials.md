@@ -6,10 +6,10 @@ description: Conecte su trabajo a su contenido en Experience Manager Assets Esse
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: abaa76e2-bbf1-47d0-8bdc-4e950df4f7ea
-source-git-commit: b3c8559ddac934cc41461f88503b2fa71abaf452
+source-git-commit: 14b3bfaf16a4ab8749538b32100ce6363a3a9335
 workflow-type: tm+mt
-source-wordcount: '681'
-ht-degree: 92%
+source-wordcount: '683'
+ht-degree: 90%
 
 ---
 
@@ -60,7 +60,7 @@ Conecte su trabajo a su contenido en Experience Manager Assets Essentials:
   <tr>
    <td><strong>Configuraciones de nivel de acceso</strong>
    </td>
-   <td>Debe ser administrador de Workfront para configurar una integración de Experience Manager. Una vez configurada, los usuarios con una licencia de Plan pueden configurar carpetas vinculadas en proyectos individuales.
+   <td>Debe ser administrador de Workfront para configurar una integración de Experience Manager. Una vez configurada, los usuarios con una licencia de planificación o estándar pueden configurar carpetas vinculadas en proyectos individuales.
    </td>
   </tr>
 </table>

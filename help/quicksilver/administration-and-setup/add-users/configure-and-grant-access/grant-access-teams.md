@@ -5,10 +5,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 915d1520-f5c4-4e33-b645-cb219289383c
-source-git-commit: 627d59c8c8296e5b6c8b6da53705a1c3d7633751
+source-git-commit: 14b3bfaf16a4ab8749538b32100ce6363a3a9335
 workflow-type: tm+mt
-source-wordcount: '663'
-ht-degree: 93%
+source-wordcount: '677'
+ht-degree: 79%
 
 ---
 
@@ -71,7 +71,7 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
        </tbody>
       </table>
 
-   * **Editar**: si está configurando cómo los usuarios con una licencia de planificación y una licencia de trabajo pueden administrar equipos, cambie cualquiera de las siguientes opciones:
+   * **Editar**: Si está configurando la forma en que los usuarios con una licencia estándar, de plan o de trabajo pueden administrar equipos, cambie cualquiera de las siguientes opciones:
 
      <table style="table-layout:auto">
        <col>
@@ -79,19 +79,19 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
        <tbody>
         <tr>
          <td role="rowheader">Crear</td>
-         <td><p>Permite a los usuarios con una licencia de planificación o de trabajo crear equipos.</p><p>Esta opción está habilitada de forma predeterminada.</p></td>
+         <td><p>Permite a los usuarios con una licencia estándar, de planificación o de trabajo crear equipos.</p><p>Esta opción está habilitada de forma predeterminada.</p></td>
         </tr>
         <tr>
          <td role="rowheader">Eliminar</td>
-         <td><p> Permite a los usuarios con una licencia de planificación eliminar los equipos a los que tienen acceso de edición (no disponible para los usuarios con una licencia de trabajo).</p><p>Esta opción está habilitada de forma predeterminada.</p></td>
+         <td><p> Permite a los usuarios con una licencia estándar o de planificación eliminar los equipos a los que tienen acceso para editar (no disponible para los usuarios con una licencia de trabajo).</p><p>Esta opción está habilitada de forma predeterminada.</p></td>
         </tr>
         <tr>
          <td role="rowheader">Editar los equipos de los grupos que administro (solo para Administradores de grupos)</td>
-         <td><p>Permite a los usuarios con una licencia de planificación designados como administradores de grupos editar los equipos asociados con los grupos que administran.</p><p>Esta opción está habilitada de forma predeterminada.</p></td>
+         <td><p>Permite a los usuarios con licencia estándar o de planificación designados como administradores de grupos editar los equipos asociados con los grupos que administran.</p><p>Esta opción está habilitada de forma predeterminada.</p></td>
         </tr>
         <tr>
          <td role="rowheader">Editar los equipos en los que estoy</td>
-         <td><p>Permite a los usuarios con una licencia de planificación o una licencia de trabajo editar equipos de los que son integrantes.</p><p>Esta opción está desactivada de forma predeterminada.</p></td>
+         <td><p>Permite a los usuarios con una licencia estándar, de planificación o de trabajo editar equipos de los que son miembros.</p><p>Esta opción está desactivada de forma predeterminada.</p></td>
         </tr>
         <tr>
          <td role="rowheader">Ver equipos asociados con mis grupos</td>
@@ -109,7 +109,7 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
 
 
 
-1. Haga clic en la X para cerrar el cuadro **Ajuste la configuración**.
+1. Haga clic en la X para cerrar el cuadro **Ajustar la configuración**.
 1. (Opcional) Para establecer la configuración de acceso para otros objetos y áreas en el nivel de acceso en el que está trabajando, continúe con uno de los artículos enumerados en [Configurar el acceso a Adobe Workfront](../../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md), como [Conceder acceso a las tareas](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md) y [Conceder acceso a los datos financieros](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
 1. Cuando termine, haga clic en **Guardar**.
 
@@ -125,4 +125,4 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
 
 ## Acceso a equipos por tipo de licencia
 
-Para obtener información acerca de lo que los usuarios de cada nivel de acceso pueden hacer con los equipos, vea la sección [Equipos](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md#teams) en el artículo [Funcionalidad disponible para cada tipo de objeto](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md).
+Para obtener información acerca de lo que los usuarios de cada nivel de acceso pueden hacer con los equipos, vea la sección [Equipos](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/functionality-available-for-objects.md#teams) en el artículo [Funcionalidad disponible para cada tipo de objeto](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/functionality-available-for-objects.md).

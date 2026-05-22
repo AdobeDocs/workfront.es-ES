@@ -5,13 +5,13 @@ title: Cómo compartir objetos sin generar notificaciones
 description: Descubra cómo puede compartir objetos y evitar que se envíen notificaciones sobre este cambio. Esto resulta especialmente útil cuando se comparten objetos de forma masiva.
 author: Alina
 feature: Get Started with Workfront
-source-git-commit: b14dd633edec3e9746f7f1412445b74bcd37a676
+exl-id: 02106282-addb-4bdd-82d2-9da5a5f6a687
+source-git-commit: 14b3bfaf16a4ab8749538b32100ce6363a3a9335
 workflow-type: tm+mt
-source-wordcount: '590'
-ht-degree: 22%
+source-wordcount: '577'
+ht-degree: 21%
 
 ---
-
 
 # Cómo compartir objetos sin generar notificaciones
 
@@ -38,8 +38,6 @@ Si necesita compartir varios objetos con varias personas (de forma masiva), pero
 
 +++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
-Se necesita tener lo siguiente para compartir objetos:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
@@ -49,10 +47,9 @@ Se necesita tener lo siguiente para compartir objetos:
    <td> <p>Cualquiera </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licencia de Adobe Workfront*</td> 
-   <td> <p>Nueva licencia: estándar</p> 
-   O
-   <p>Licencia actual: plan</p>
+   <td role="rowheader">Licencia de Adobe Workfront</td> 
+   <td> <p>Estándar</p>
+   <p>Plan</p>
    </td> 
   </tr> 
   <tr> 
@@ -70,7 +67,7 @@ Se necesita tener lo siguiente para compartir objetos:
  </tbody> 
 </table>
 
-*Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -110,9 +107,3 @@ Se necesita tener lo siguiente para compartir objetos:
 1. Haga clic en **Guardar cambios**.
 
    Los objetos se compartieron con los usuarios seleccionados y ninguno de ellos recibió notificaciones por correo electrónico sobre este cambio.
-
-
-
-
-
-

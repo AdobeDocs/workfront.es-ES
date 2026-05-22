@@ -10,9 +10,9 @@ role: User
 exl-id: cfda6702-1a9a-4645-b031-8b2f201ac0af
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 14b3bfaf16a4ab8749538b32100ce6363a3a9335
 workflow-type: tm+mt
-source-wordcount: '776'
+source-wordcount: '774'
 ht-degree: 65%
 
 ---
@@ -25,7 +25,7 @@ Con el botón contextual para aceptar o completar elementos de trabajo, puede pe
 
 Los botones Trabajar en ello y Listo están visibles para los usuarios que tienen:
 
-* Una licencia estándar (nueva) o una licencia de planificación o de trabajo (actual)
+* Licencia estándar, licencia de planificación o licencia de trabajo
 * Acceso de edición limitado o superior en la tarea o el problema
 
 >[!NOTE]

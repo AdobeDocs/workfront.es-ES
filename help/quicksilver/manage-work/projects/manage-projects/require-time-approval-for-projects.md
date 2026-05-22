@@ -8,9 +8,9 @@ feature: Work Management
 exl-id: e4a27640-9f5c-4a9f-82cc-3384694594af
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 14b3bfaf16a4ab8749538b32100ce6363a3a9335
 workflow-type: tm+mt
-source-wordcount: '790'
+source-wordcount: '792'
 ht-degree: 79%
 
 ---
@@ -66,7 +66,7 @@ Para obtener más información sobre los registros de facturación, consulte el 
        <li>Si tiene permisos de administración en el proyecto, puede aprobar o rechazar las horas registradas en el proyecto por cualquier otro usuario.</li>
        <li> Si tiene acceso de aportación o visualización en el proyecto, solo podrá aprobar o rechazar las horas registradas por usted o por cualquier otro usuario que le informe de ello.<br></li>
       </ul></li> 
-     <li>Tiene una licencia de planificación con acceso administrativo a hojas de horas y horas. En este caso:
+     <li>Tiene una licencia estándar o de planificación con acceso administrativo a hojas de horas y horas. En este caso:
       <ul>
        <li>Puede aprobar o rechazar cualquier hora de los proyectos para los que tenga al menos permisos de visualización. </li>
       </ul></li> 
@@ -150,7 +150,7 @@ Si configura un proyecto para que requiera la aprobación de las horas registrad
 
 Para aprobar o rechazar las horas de un proyecto:
 
-1. Vaya al proyecto. 
+1. Vaya al proyecto.
 1. Haga clic en el área de **Horas** en el panel izquierdo.
 
 1. Se muestran las horas registradas para problemas, tareas y el proyecto, y deben tener un estado de **Enviado**.\

@@ -8,10 +8,10 @@ author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 51967cd7-962e-4354-a04b-6df4e31e70c6
-source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
+source-git-commit: 2e87fd9a7b85261656c3d3e388937bb5f34a8e02
 workflow-type: tm+mt
-source-wordcount: '989'
-ht-degree: 87%
+source-wordcount: '992'
+ht-degree: 85%
 
 ---
 
@@ -21,7 +21,7 @@ Cuando visualiza un grupo que administre en el área de Grupos, puede visualizar
 
 Si hay grupos por encima del suyo, sus administradores también pueden hacer estas cosas por su grupo. Lo mismo ocurre con los administradores de Workfront (para cualquier grupo).
 
-Para obtener información sobre cómo los usuarios con una licencia de Plan pueden crear un equipo, consulte [Crear un equipo](../../../people-teams-and-groups/create-and-manage-teams/create-a-team.md).
+Para obtener información sobre cómo los usuarios con una licencia Standard o Plan pueden crear un equipo, consulte [Crear un equipo](../../../people-teams-and-groups/create-and-manage-teams/create-a-team.md).
 
 Para obtener información sobre cómo un administrador de Workfront puede crear un equipo, consulte [Crear un equipo desde el área de configuración](../../../administration-and-setup/add-users/create-and-manage-teams/create-a-team-from-setup.md).
 

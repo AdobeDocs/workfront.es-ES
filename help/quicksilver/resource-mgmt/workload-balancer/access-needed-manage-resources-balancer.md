@@ -8,16 +8,14 @@ feature: Resource Management
 exl-id: b3da9a62-481e-4503-8f27-136d6513262e
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 14b3bfaf16a4ab8749538b32100ce6363a3a9335
 workflow-type: tm+mt
-source-wordcount: '374'
+source-wordcount: '375'
 ht-degree: 68%
 
 ---
 
 # Acceso necesario para administrar los recursos en el Equilibrador de carga de trabajo
-
-{{preview-fast-release-general}}
 
 Sin el acceso o los permisos correctos, es posible que no pueda ver o administrar sus asignaciones de trabajo en el Equilibrador de carga de trabajo.
 
@@ -90,7 +88,7 @@ Debe tener el siguiente acceso para ver el Equilibrador de carga de trabajo:
 
 Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-<span class="preview">Todos los usuarios tienen acceso para ver el Distribuidor de cargas de trabajo en sus propios perfiles. Esto no está restringido por licencia o nivel de acceso. Tenga en cuenta que el Distribuidor de cargas de trabajo de un perfil de usuario es de solo lectura y las asignaciones y asignaciones no se pueden cambiar.</span>
+Todos los usuarios tienen acceso para ver el Distribuidor de cargas de trabajo en sus propios perfiles. Esto no está restringido por licencia o nivel de acceso. Tenga en cuenta que el Distribuidor de cargas de trabajo de un perfil de usuario es de solo lectura, y las asignaciones y asignaciones no se pueden cambiar.
 
 ## Acceso necesario para administrar asignaciones en el Equilibrador de carga de trabajo
 
@@ -117,15 +115,11 @@ Debe tener el siguiente acceso para administrar el Equilibrador de carga de trab
   </tr> 
   <tr> 
    <td>Permisos de objeto</td> 
-   <td> <p> Permisos de contribución o superiores sobre el proyecto cuyas asignaciones desea administrar, lo que incluye permisos para realizar asignaciones. </p> <p>Para obtener información acerca de los permisos del proyecto, consulte el artículo <a href="../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md">Compartir un proyecto en Adobe Workfront</a>.</p></td>
+   <td> <p> Permisos de contribución o superiores sobre el proyecto cuyas asignaciones desea administrar, lo que incluye permisos para realizar asignaciones. </p> <p>Para obtener información acerca de los permisos de los proyectos, consulte el artículo <a href="../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md">Uso compartido de proyectos en Adobe Workfront</a>.</p></td>
   </tr> 
  </tbody>
 </table>
 
 Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-<!--
-these notes were inside the table: for the Edit access to Res Management
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">View or higher access to Financial Data, if you want to view information by cost (NOTE: this is not possible yet!)</p>    
-     <p data-mc-conditions="QuicksilverOrClassic.Draft mode">For information about the Financial Data access level, see the article<a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md" class="MCXref xref">Grant access to financial data</a>. (NOTE: this is not possible yet!)</p>
-    -->
+

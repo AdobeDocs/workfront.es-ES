@@ -7,10 +7,10 @@ description: Puede crear una carpeta vinculada a Experience Manager Assets o a A
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: eb2b3b21-bc0b-45d3-85fa-1715cf927cb7
-source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
+source-git-commit: 14b3bfaf16a4ab8749538b32100ce6363a3a9335
 workflow-type: tm+mt
-source-wordcount: '489'
-ht-degree: 78%
+source-wordcount: '491'
+ht-degree: 74%
 
 ---
 
@@ -59,7 +59,7 @@ Si se elimina o mueve un recurso de una carpeta vinculada dentro de Experience M
   <tr>
    <td><strong>Configuraciones de nivel de acceso</strong>
    </td>
-   <td>Debe ser administrador de Workfront para configurar una integración de Experience Manager. Una vez configurada, los usuarios con una licencia de Plan pueden configurar carpetas vinculadas en proyectos individuales.
+   <td>Debe ser administrador de Workfront para configurar una integración de Experience Manager. Una vez configurada, los usuarios con una licencia de planificación o estándar pueden configurar carpetas vinculadas en proyectos individuales.
    </td>
   </tr>
 </table>
