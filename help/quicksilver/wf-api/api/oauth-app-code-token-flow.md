@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: a1ab60c4-4255-4d80-87f1-f36d325254c2
-source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
+source-git-commit: 947a12504623e31a28d660675b12fb90522a56f4
 workflow-type: tm+mt
-source-wordcount: '726'
+source-wordcount: '730'
 ht-degree: 8%
 
 ---
@@ -157,7 +157,7 @@ Para iniciar sesión con OAuth2, siga este proceso:
    }
    ```
 
-   El token de acceso es el mismo que ```sessionID``` y caduca de la misma manera que el ```sessionID``` normal
+   El token de acceso es el mismo que `sessionID` y caduca de la misma manera que el `sessionID` normal
 
    >[!IMPORTANT]
    >
@@ -174,7 +174,7 @@ Para iniciar sesión con OAuth2, siga este proceso:
 
 ![Actualizar flujo de token de acceso](assets/refresh-access-token-flow-350x142.png)
 
-Para actualizar el access_token de nuevo necesitamos hacer una llamada de &quot;POST&quot; al punto final del token. Esta vez, se envía un formulario de datos diferente de la siguiente manera:
+Para actualizar el access_token de nuevo necesitamos hacer una llamada &#39;POST&#39; al punto final del token. Esta vez, se envía un formulario de datos diferente de la siguiente manera:
 
 ```
 curl --location --request POST '<workfront host>/integrations/oauth2/api/v1/token' \
