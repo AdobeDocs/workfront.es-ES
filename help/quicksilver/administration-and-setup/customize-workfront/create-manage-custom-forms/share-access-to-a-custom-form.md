@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: a264512f-54ab-426e-8dd7-5602ece81c57
-source-git-commit: a8e2558469d3abc355eb58f81658db3d1cfc7315
+source-git-commit: 3e6ae76eea2e12fc7fc3a45dad753261a7bad628
 workflow-type: tm+mt
 source-wordcount: '980'
 ht-degree: 51%
@@ -17,7 +17,7 @@ ht-degree: 51%
 
 # Compartir un formulario personalizado
 
-{#preview-fast-release-general}
+{{preview-fast-release-general}}
 
 Puede configurar el acceso para un formulario personalizado con el fin de controlar quién (persona, función, grupo, equipo, empresa, perfil empresarial) puede verlo, compartirlo y editarlo.
 
@@ -190,6 +190,4 @@ En lugar de dejar un formulario personalizado en el estado de uso compartido pre
 1. En el cuadro para compartir, haga clic en el menú desplegable situado a la derecha del nombre del usuario, equipo, función, grupo, empresa o perfil empresarial que ya no desee que tenga acceso especial al formulario y seleccione **Quitar**.
 1. (Opcional) Repita el paso anterior para los demás nombres que desee eliminar.
 1. Haga clic en **Guardar**.
-
-
 

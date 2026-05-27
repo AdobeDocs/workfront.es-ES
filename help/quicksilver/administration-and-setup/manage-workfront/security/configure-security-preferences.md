@@ -10,14 +10,16 @@ role: Admin
 exl-id: f92ceed7-b191-425b-9fff-1b0947f32db8
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
+source-git-commit: ade3f6eef4252c123b41b7bbc4871cf01708f485
 workflow-type: tm+mt
-source-wordcount: '773'
-ht-degree: 72%
+source-wordcount: '863'
+ht-degree: 65%
 
 ---
 
 # Configurar preferencias del sistema
+
+{{preview-fast-release-general}}
 
 <!--
 DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.</p>
@@ -127,7 +129,11 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
       <td role="rowheader">Habilitar la lista de trabajo Prioridades </td> 
       <td>Permite habilitar o deshabilitar la experiencia de lista de trabajo Prioridades para los usuarios. Los usuarios seguirán viendo los iconos de Prioridades en Workfront, pero no tendrán acceso a la funcionalidad. Para obtener más información acerca de Prioridades, vea <a href="/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md">Introducción a Prioridades</a>.</td> 
      </tr>
-      <tr> 
+     <tr>
+      <td><span class="preview">Aplicar siempre los campos obligatorios en la edición por lotes</span></td>
+      <td><span class="preview"><p>Permite elegir si se fuerza a los usuarios a introducir información en los campos obligatorios al editar objetos por lotes.</p> <p>Si se selecciona esta opción, los campos obligatorios deben tener valores antes de guardarlos en el modo de edición por lotes. Si en el campo obligatorio falta un valor para al menos un objeto seleccionado en bloque, no se permite guardar.</p> <p>Cuando esta opción no está seleccionada, los campos obligatorios solo se aplican cuando un usuario modifica el campo. Si un campo no se modifica, se trata como opcional y no se valida.</p></span></td>
+     </tr>
+     <tr> 
       <td role="rowheader">Habilitar el almacenamiento en la nube de Adobe </td> 
       <td>Permite habilitar o deshabilitar el almacenamiento en la nube de Adobe para toda la organización o para grupos específicos. Para obtener más información sobre el almacenamiento en la nube de Adobe, consulte <a href="/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md">Habilitar el almacenamiento en la nube de Adobe para su organización</a>.</td> 
      </tr>
@@ -141,7 +147,7 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
      </tr>
      <tr> 
       <td role="rowheader">Inclusión a las betas de IA </td> 
-      <td>&gt;Permite habilitar las funciones de IA que se encuentran actualmente en Beta. Si activa esta opción, puede seleccionar qué funciones de AI Beta desea habilitar. Para obtener más información acerca de cada función de AI Beta, haga clic en el icono de información situado junto a ella.</td> 
+      <td>Permite habilitar las funciones de IA que se encuentran actualmente en Beta. Si activa esta opción, puede seleccionar qué funciones de AI Beta desea habilitar. Para obtener más información acerca de cada función de AI Beta, haga clic en el icono de información situado junto a ella.</td> 
      </tr>
      <tr> 
       <td role="rowheader">Entornos de prueba</td> 
