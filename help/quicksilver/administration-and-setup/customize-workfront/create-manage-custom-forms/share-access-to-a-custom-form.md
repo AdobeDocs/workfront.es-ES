@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: a264512f-54ab-426e-8dd7-5602ece81c57
-source-git-commit: bb5e1d1df73ecb4ae9749c5e0960b824bf2e6eda
+source-git-commit: a8e2558469d3abc355eb58f81658db3d1cfc7315
 workflow-type: tm+mt
 source-wordcount: '980'
 ht-degree: 51%
@@ -190,4 +190,6 @@ En lugar de dejar un formulario personalizado en el estado de uso compartido pre
 1. En el cuadro para compartir, haga clic en el menú desplegable situado a la derecha del nombre del usuario, equipo, función, grupo, empresa o perfil empresarial que ya no desee que tenga acceso especial al formulario y seleccione **Quitar**.
 1. (Opcional) Repita el paso anterior para los demás nombres que desee eliminar.
 1. Haga clic en **Guardar**.
+
+
 
