@@ -10,10 +10,10 @@ role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 15592c8dee4bae503382205b38b5daaef5cc74dd
+source-git-commit: b4a3a64abb1c5e6395ff91dc8c145135926a5cf6
 workflow-type: tm+mt
-source-wordcount: '7329'
-ht-degree: 94%
+source-wordcount: '7447'
+ht-degree: 92%
 
 ---
 
@@ -698,7 +698,7 @@ Para añadir una búsqueda externa, haga lo siguiente:
       <td role="rowheader">Formato</td>
       <td><p>Seleccione el tipo de datos que se capturarán en el campo personalizado.</p>
       <p><strong>Nota:</strong></p>
-      <ul><li>Puede cambiar el tipo de formato después de guardar el formulario, con una limitación: todos los valores existentes en los objetos deben poder convertirse al nuevo tipo. (Por ejemplo, si el tipo de formato es Texto y un objeto almacena el valor “abc”, no se puede convertir el campo y aparecerá un error que indica que el sistema no puede convertir “abc” en número/moneda.) Si tiene intención de utilizar el campo en cálculos matemáticos, asegúrese de seleccionar un formato de Número o de Moneda.</li>
+      <ul><li>Puede cambiar el tipo de formato después de guardar el formulario, con una limitación: todos los valores existentes en los objetos deben poder convertirse al nuevo tipo. (Por ejemplo, si el tipo de formato es Texto y un objeto almacena el valor "abc", no se puede convertir el campo y aparecerá un error que indica que el sistema no puede convertir "abc" en número/moneda.) Si tiene intención de utilizar el campo en cálculos matemáticos, asegúrese de seleccionar un formato de Número o de Moneda.</li>
       <li>Al seleccionar Número o Moneda, el sistema trunca automáticamente los números que comienzan por 0.</li>
       <li>El límite de caracteres para los campos Número es de 16. También puede utilizar un campo Texto para introducir números y evitar el límite.</li>
       </ul></td>
@@ -725,7 +725,7 @@ Para añadir una búsqueda externa, haga lo siguiente:
       <p><strong>Nota:</strong> Si no usa $$QUERY y el usuario escribe texto en el cuadro de búsqueda, reducirá las opciones que ya tiene. Sin embargo, si utiliza $$QUERY y el usuario escribe cualquier cosa, se realiza una nueva llamada de red a la API. Por lo tanto, si tiene más de 2000 valores en la API y esta admite consultas, puede utilizar $$QUERY no solo para buscar entre los 2000 valores existentes, sino también desde la API original con las opciones reducidas.</p></li>
       <li><p>{fieldName}: donde fieldName es cualquier campo personalizado o nativo en Workfront. De este modo, puede implementar filtros de opciones desplegables en cascada cuando pase el valor de un campo ya seleccionado al campo Búsqueda externa para filtrar las opciones. (Por ejemplo, el campo Región ya existe en el formulario y está restringiendo una lista de países de la API a los que están en una región específica).</p>
       <p>En el caso de un campo de búsqueda externo que dependa de otros campos (con la sintaxis {fieldName}), las opciones devueltas por la API se limitan a las que coinciden con cualquier cadena o valor introducido en los demás campos. (Esta funcionalidad no es compatible con listas e informes).</p></li>
-      <li>{referenceObject}.{fieldName}: donde el campo forma parte de un objeto. Esta sintaxis es similar a las expresiones personalizadas. (Por ejemplo, portfolioID={project}.{portfolioID})</li></ul>
+      <li>{referenceObject}.{fieldName}: el campo forma parte de un objeto. Esta sintaxis es similar a las expresiones personalizadas. (Por ejemplo, portfolioID={project}.{portfolioID})</li></ul>
       <p><strong>Sugerencia:</strong> Revise la documentación de la API con la que está trabajando para ver las consultas específicas que puede definir.</p></td>
      </tr>
      <tr> 
@@ -734,14 +734,14 @@ Para añadir una búsqueda externa, haga lo siguiente:
      </tr>
      <tr> 
       <td role="rowheader">Ruta JSON</td>
-      <td><p>Escriba o pegue la ruta JSON para la API.</p> <p>Esta opción permite extraer datos del JSON devuelto por la URL de la API. Sirve para seleccionar qué valores dentro del JSON aparecerán en las opciones desplegables.</p><p>Por ejemplo, si la dirección URL de la API devuelve JSON en el siguiente formato, puede usar “$.data[*].name” para seleccionar EE. UU. y Canadá como opciones desplegables:</br>
+      <td><p>Escriba o pegue la ruta JSON para la API.</p> <p>Esta opción permite extraer datos del JSON devuelto por la URL de la API. Sirve para seleccionar qué valores dentro del JSON aparecerán en las opciones desplegables.</p><p>Por ejemplo, si la URL de la API devuelve JSON en el siguiente formato, puede utilizar "$.data[*].name" para seleccionar EE. UU. y Canadá como opciones desplegables:</br>
       <pre>
-      &lbrace;
-       data: &lbrace;
+      {
+       datos: {
          { name: "USA"},
          { name: "Canada"}
-       &rbrace;
-      &rbrace;
+       }
+      }
       </pre>
       </p>
      <p>Para obtener más información sobre la ruta JSON y cómo asegurarse de que escribe la ruta JSON correcta, consulte <a href="https://jsonpath.com/">https://jsonpath.com/</a>.</p></td>
@@ -769,7 +769,7 @@ Para añadir una búsqueda externa, haga lo siguiente:
 
    O
 
-   Haga clic en **Guardar y cerrar**.
+   Haga clic en **Guardar y Cerrar**.
 
 >[!NOTE]
 >
@@ -900,24 +900,32 @@ Esta tabla enumera los campos nativos disponibles para objetos de Workfront espe
 
 | Nombre de campo | Proyecto | Tarea | Problema | Plantilla | Tarea de plantilla | Portafolio | Programa | Grupo |
 |--------------------------- |-------- |------- |------- |--------- |-------------- | --------- |-------- |------ |
+| <span class="preview"> beneficio real </span> | <span class="preview">✓ </span> |   |   |   |   |   |   |   |
 | Fecha real de finalización | ✓ | ✓ | ✓ |   |   |   |   |   |
 | Duración real | ✓ |   |   |   |   |   |   |   |
 | Horas reales | ✓ |   | ✓ |   |   |   |   |   |
 | Fecha real de inicio | ✓ | ✓ | ✓ |   |   |   |   |   |
+| <span class="preview"> presupuesto </span> | <span class="preview">✓ </span> |   |   | <span class="preview"> ✓ </span> |   | <span class="preview"> ✓ </span> |   |   |
 | Compañía | ✓ |   |   | ✓ |   |   |   |   |
 | Condición | ✓ | ✓ | ✓ |   |   |   |   |   |
 | Tipo de condición | ✓ |   |   | ✓ |   |   |   |   |
+| <span class="preview"> divisa </span> | <span class="preview"> ✓ </span> |   |   | <span class="preview"> ✓ </span> |   |   |   |   |
 | Descripción | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
 | Duración |   | ✓ |   |   | ✓ |   |   |   |
 | Tipo de duración |   | ✓ |   |   | ✓ |   |   |   |
 | Unidad de duración |   | ✓ |   |   | ✓ |   |   |   |
 | Introducido por | ✓ | ✓ | ✓ | ✓ | ✓ |   |   | ✓ |
 | Fecha de entrada | ✓ | ✓ | ✓ | ✓ | ✓ |   |   | ✓ |
+| <span class="preview"> Fecha de tipo de cambio </span> | <span class="preview"> ✓ </span> |   |   |   |   |   |   |   |
+| <span class="preview"> costo fijo </span> | <span class="preview"> ✓ </span> |   |   | <span class="preview"> ✓ </span> |   |   |   |   |
+| <span class="preview"> ingresos fijos </span> | <span class="preview"> ✓ </span> |   |   | <span class="preview"> ✓ </span> |   |   |   |   |
 | Grupo | ✓ |   |   | ✓ |   | ✓ | ✓ |   |
 | Última actualización por | ✓ | ✓ | ✓ | ✓ | ✓ |   |   |   |
 | Fecha de última actualización | ✓ | ✓ | ✓ | ✓ | ✓ |   |   |   |
 | Nombre | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
 | Propietario | ✓ |   |   | ✓ |   | ✓ | ✓ |   |
+| Método </span> del índice de rendimiento de <span class="preview"> | <span class="preview"> ✓ </span> |   |   | <span class="preview"> ✓ </span> |   |   |   |   |
+| <span class="preview"> beneficio planificado </span> | <span class="preview"> ✓ </span> |   |   | <span class="preview"> ✓ </span> |   |   |   |   |
 | Fecha planificada de finalización | ✓ | ✓ | ✓ |   |   |   |   |   |
 | Duración planificada | ✓ |   |   | ✓ |   |   |   |   |
 | Horas planificadas | ✓ | ✓ | ✓ |   | ✓ |   |   |   |
@@ -935,9 +943,29 @@ Esta tabla enumera los campos nativos disponibles para objetos de Workfront espe
 | Estado | ✓ | ✓ |   |   |   |   |   |   |
 | Puntos de la historia |   | ✓ |   |   |   |   |   |   |
 | Plantilla | ✓ |   |   |   |   |   |   |   |
+| <span class="preview"> Costo total estimado </span> | <span class="preview"> ✓ </span> |   |   | <span class="preview"> ✓ </span> |   |   |   |   |
+| <span class="preview"> ingresos totales estimados </span> | <span class="preview"> ✓ </span> |   |   | <span class="preview"> ✓ </span> |   |   |   |   |
 | URL | ✓ | ✓ |   | ✓ | ✓ |   |   |   |
 
 {style="table-layout:auto"}
+
+<div class="preview">
+
+Estos tipos de objetos de formulario personalizados adicionales también admiten referencias de campo nativas.
+
+* Registro de facturación: campo Ingresos fijos
+* Documento: campos Nombre y Descripción
+* Empresa: nombre, campos de grupo
+* Tarjeta de tarifas: campos Nombre, Descripción, Empresa, Grupo
+* Función del puesto: campos Nombre, Descripción
+
+</div>
+
+<!--
+Non-Labor Resource: Name, Description, Home Group, Non-labor Category, Non-labor Group, Unique Identifier fields
+Staffing Plan: Name, Description, Owner, Group, Company, Currency, Schedule, Start Date, End Date, Available Estimated Hours, Total Estimated Hours, Reference Number, Entered By, Entry Date, Last Updated By, Last Updated Date, Total Estimated Cost, Total Estimated Revenue fields
+Staffing Plan Resource: Total Estimated Cost, Total Estimated Revenue fields
+-->
 
 +++
 
@@ -1117,7 +1145,7 @@ Para añadir un campo de conexión de Planning, haga lo siguiente:
       <td><p>(Obligatorio) Seleccione un tipo de objeto de Workfront conectado a un tipo de registro en Workfront Planning.</p>
       Puede seleccionar entre los siguientes tipos de objetos:
       <ul><li> Proyecto</li>
-      <li> Portafolio</li><li> Programa</li><li> Compañía</li><li> Grupo</li></ul>
+      <li> Portafolio</li><li> Programar</li><li> Compañía</li><li> Grupo</li></ul>
        <p>Solo están disponibles los tipos de objetos de Workfront para los tipos de objetos del formulario.</p> <p> Por ejemplo, si la lista Tipos de objetos situada en la parte superior del diseñador de formularios muestra Proyecto, solo podrá seleccionar Proyecto en este campo y no Portafolio, aunque los portafolios también se pueden conectar a tipos de registros.</p>
       </td>
      </tr>
@@ -1174,6 +1202,4 @@ Una aplicación se puede incrustar en un formulario personalizado de Workfront c
 ## Organizar y obtener una vista previa de un formulario con el diseñador de formularios
 
 Para obtener información sobre cómo organizar un formulario personalizado con saltos de sección y ver una previsualización del formulario, consulte [Organizar y previsualizar un formulario con el diseñador de formularios](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/organize-a-form.md).
-
-
 
