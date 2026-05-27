@@ -1,20 +1,22 @@
 ---
 navigation-topic: get-started-with-workfront
 title: Usar listas mejoradas
-description: Las listas mejoradas utilizan un formato de tabla para mostrar los elementos de la lista y tienen un aspecto diferente al de las listas estándar
+description: Las listas mejoradas utilizan un formato de tabla para mostrar los elementos de la lista y tienen un aspecto diferente al de las listas estándar.
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 4c25ed54-b147-4fd3-8d00-6f1ba61bbd38
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 0c6d2d36be8de5e4950642910577ed8a59e667da
+source-git-commit: 80ca77043b0feac9579a4c41298c05afa8af1756
 workflow-type: tm+mt
-source-wordcount: '2939'
-ht-degree: 3%
+source-wordcount: '3153'
+ht-degree: 2%
 
 ---
 
 # Uso de listas mejoradas
+
+{{preview-fast-release-general}}
 
 Las listas mejoradas están disponibles en algunas áreas de Adobe Workfront. Estas listas utilizan un formato de tabla para mostrar los elementos de la lista, y tienen un aspecto diferente al de las listas estándar. También se mejora la administración de vistas, incluidos el filtrado, la agrupación, la administración de columnas y la búsqueda.
 
@@ -83,20 +85,32 @@ En función de la lista mejorada que esté viendo, realice una de las siguientes
 
    Las listas mejoradas admiten estos tipos de campos:
 
-   * Texto
-   * Número
-   * Divisa
-   * Fecha
-   * Fecha y hora
-   * Lista desplegable de selección única/múltiple
-   * Escritura anticipada
-   * Párrafo
-   * Usuario asignado (uno o varios)
-   * Selector de color
+   * Texto de una sola línea: puede introducir información alfanumérica limitada.
+   * Número: Debe introducir la información en formato de número.
+   * Divisa: Debe introducir la información en formato numérico precedido de un símbolo de divisa.
+   * Fecha: utilice el calendario para seleccionar una fecha.
+   * Fecha y hora: utilice el calendario para seleccionar una fecha y una hora.
+   * Lista desplegable de selección única o múltiple: seleccione una o varias opciones en un menú desplegable. <span class="preview">Si se admite en una lista, puede crear nuevas opciones directamente desde la lista desplegable cuando no se encuentren resultados.</span>
+   * Escriba el nombre de un objeto existente (por ejemplo, el nombre de un grupo o proyecto) y elija el nombre de la lista de sugerencias.
+   * Párrafo: puede introducir varias líneas de información alfanumérica.
+   * Usuario asignado (uno o varios): seleccione uno o varios usuarios como el usuario asignado para el elemento de la lista.
+   * Selector de color: elija un color en el selector o escriba un código como Hex o RGB.
+
+   <div class="preview">
+
+   Los campos desplegables Usuario asignado, Selección única y Selección múltiple admiten los siguientes comandos de teclado:
+
+   * Utilice las flechas arriba y abajo del teclado para desplazarse por la lista de elementos.
+   * Pulse la barra espaciadora para seleccionar un elemento.
+   * Presione la tecla Supr para quitar un elemento seleccionado.
+
+   </div>
 
    >[!NOTE]
    >
    >Cada tipo de campo tiene sus propias opciones de edición. Algunos campos pueden ser de solo lectura.
+   >
+   >Tenga en cuenta que no todas las listas admiten todos los tipos de campos.
 
 ![Ejemplo de lista mejorada](assets/glist-exchange-rates.png)
 
@@ -153,6 +167,8 @@ En función de los objetos que visualice en una lista mejorada, puede ocultar, m
    Aparece un indicador en el botón **Columnas** cuando las columnas están ocultas. El indicador no aparece cuando se reordenan las columnas.
 
    ![Indicador de columnas ocultas](assets/glist-columns-hidden-indicator.png)
+
+   Algunas listas también permiten arrastrar y soltar las columnas en el orden preferido.
 
 ### Cambiar nombre de columnas
 
@@ -453,6 +469,5 @@ Para ordenar columnas individuales:
    >[!NOTE]
    >
    >La búsqueda busca en todas las columnas de todos los elementos de la lista. Si la lista es larga, la búsqueda incluye elementos que es posible que tenga que desplazarse para ver. Cuando se filtra la lista, la búsqueda solo observa lo que se muestra actualmente.
-
 
 
