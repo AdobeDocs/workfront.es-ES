@@ -5,7 +5,7 @@ title: Configuración del servidor MCP de Adobe Workfront
 description: Configure su instancia de Workfront y su plataforma agéntica de IA para poder trabajar con Workfront a través de una conversación en lenguaje natural.
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: 46cc21fb1b7bb66b34dac5e7aa53c096c46e5b29
+source-git-commit: f96afd17e9f4e726ac545a9cb0c54ace5a4fcffe
 workflow-type: tm+mt
 source-wordcount: '1207'
 ht-degree: 0%
@@ -16,7 +16,6 @@ ht-degree: 0%
 # Configuración del servidor MCP de Adobe Workfront
 
 {{highlighted-preview-article-level}}
-
 
 El servidor MCP [!DNL Adobe Workfront] le permite trabajar con sus datos de Workfront a través de una conversación en lenguaje natural en una plataforma independiente compatible.
 
@@ -223,9 +222,6 @@ Para obtener información sobre la solución de problemas diaria después de con
 
 +++
 
-
-
-
 ## Preguntas frecuentes sobre la configuración
 
 +++ Amplíe para ver las preguntas más frecuentes sobre la configuración del servidor MCP de Workfront.
@@ -239,4 +235,3 @@ No. Cada conexión vincula una plataforma auténtica de IA a una sola instancia 
 Tanto el administrador de Workfront como el administrador de la plataforma agéntica de IA. El administrador de Workfront habilita el acceso al servidor MCP en el lado de Workfront. El administrador de la plataforma agéntica de IA habilita el acceso de Workfront del lado de la plataforma. Para [!DNL Claude], el administrador empresarial de [!DNL Claude] habilita el conector [!DNL Adobe Workfront].
 
 +++
-
