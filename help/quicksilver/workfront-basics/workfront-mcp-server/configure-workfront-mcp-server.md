@@ -5,9 +5,9 @@ title: Configuración del servidor MCP de Adobe Workfront
 description: Configure su instancia de Workfront y su plataforma agéntica de IA para poder trabajar con Workfront a través de una conversación en lenguaje natural.
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: f4f73cf44107850573e1a6966568645b9537b757
+source-git-commit: 46cc21fb1b7bb66b34dac5e7aa53c096c46e5b29
 workflow-type: tm+mt
-source-wordcount: '1109'
+source-wordcount: '1207'
 ht-degree: 0%
 
 ---
@@ -224,21 +224,19 @@ Para obtener información sobre la solución de problemas diaria después de con
 +++
 
 
-<!--
+
+
+## Preguntas frecuentes sobre la configuración
+
++++ Amplíe para ver las preguntas más frecuentes sobre la configuración del servidor MCP de Workfront.
+
+### ¿Puedo conectarme a varias instancias de Workfront a la vez?
+
+No. Cada conexión vincula una plataforma auténtica de IA a una sola instancia de Workfront. Para cambiar, desconectar y volver a conectar, autenticándose en la nueva instancia.
+
+### ¿Qué administrador habilita esto?
+
+Tanto el administrador de Workfront como el administrador de la plataforma agéntica de IA. El administrador de Workfront habilita el acceso al servidor MCP en el lado de Workfront. El administrador de la plataforma agéntica de IA habilita el acceso de Workfront del lado de la plataforma. Para [!DNL Claude], el administrador empresarial de [!DNL Claude] habilita el conector [!DNL Adobe Workfront].
+
 +++
 
-## Frequently asked questions about setup
-
-+++ Expand to view frequently asked questions about setting up the Workfront MCP server.
-
-### Can I connect to multiple Workfront instances at once?
-
-No. Each connection ties an AI agentic platform to a single Workfront instance. To switch, disconnect and reconnect, authenticating to the new instance.
-
-### Which administrator enables this?
-
-Both your Workfront administrator and the administrator for your AI agentic platform. Your Workfront administrator enables MCP server access on the Workfront side. The administrator for your AI agentic platform enables Workfront access on that platform's side. For [!DNL Claude], the [!DNL Claude] Enterprise administrator enables the [!DNL Adobe Workfront] connector.
-
-+++
-
--->
