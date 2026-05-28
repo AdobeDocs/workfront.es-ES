@@ -8,10 +8,10 @@ author: Alina
 exl-id: ec48db42-2395-4439-97ae-e4f5242170b7
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 38f3e460e2d3c4840c12dda82859d46828349a80
 workflow-type: tm+mt
-source-wordcount: '584'
-ht-degree: 37%
+source-wordcount: '733'
+ht-degree: 31%
 
 ---
 
@@ -19,11 +19,10 @@ ht-degree: 37%
 
 # Eliminación de campos
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">La información resaltada en esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa para todos los clientes. Después de las versiones mensuales en Production, las mismas funciones también están disponibles en el entorno Production para los clientes que habilitaron versiones rápidas. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+<span class="preview">Para obtener información sobre las versiones rápidas, consulte [Habilitar o deshabilitar las versiones rápidas para su organización](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
 
 {{planning-important-intro}}
 
@@ -181,7 +180,14 @@ Old:
 
    <!--insert screen shot when finalized-->
 
-1. Haga clic en **Eliminar** para confirmar.
+1. <span class="preview">(Condicional) Si el campo que está eliminando forma parte de un formulario de solicitud, se muestra el cuadro **Eliminar campo** para indicar los formularios a los que afectarán los cambios. Realice una de las siguientes acciones:</span>
+
+   <div class="preview">
+
+   * Haga clic en la flecha que señala a la derecha para mostrar los formularios afectados por el cambio y, a continuación, haga clic en el nombre del formulario para abrir el formulario en una nueva pestaña y decidir si desea mantener el campo en el formulario o realizar cambios adicionales en el formulario.
+   * Haga clic en **Eliminar**, lo que eliminará el campo de todas las áreas donde se muestre.
+
+   </div>
 
    Los campos eliminados no se pueden recuperar.
 
