@@ -10,7 +10,7 @@ role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 63fc3b2c3ce58501333cad6155243a9fbed1f00b
+source-git-commit: af0475ae27fe92937b803083ef4577e7bc0283a9
 workflow-type: tm+mt
 source-wordcount: '7342'
 ht-degree: 91%
@@ -736,12 +736,12 @@ Para añadir una búsqueda externa, haga lo siguiente:
       <td role="rowheader">Ruta JSON</td>
       <td><p>Escriba o pegue la ruta JSON para la API.</p> <p>Esta opción permite extraer datos del JSON devuelto por la URL de la API. Sirve para seleccionar qué valores dentro del JSON aparecerán en las opciones desplegables.</p><p>Por ejemplo, si la dirección URL de la API devuelve JSON en el siguiente formato, puede usar “$.data[*].name” para seleccionar EE. UU. y Canadá como opciones desplegables:</br>
       <pre>
-      &lbrace;
-       data: &lbrace;
+      {
+       data: {
          { name: "USA"},
          { name: "Canada"}
-       &rbrace;
-      &rbrace;
+       }
+      }
       </pre>
       </p>
      <p>Para obtener más información sobre la ruta JSON y cómo asegurarse de que escribe la ruta JSON correcta, consulte <a href="https://jsonpath.com/">https://jsonpath.com/</a>.</p></td>
@@ -1202,6 +1202,3 @@ Una aplicación se puede incrustar en un formulario personalizado de Workfront c
 ## Organizar y obtener una vista previa de un formulario con el diseñador de formularios
 
 Para obtener información sobre cómo organizar un formulario personalizado con saltos de sección y ver una previsualización del formulario, consulte [Organizar y previsualizar un formulario con el diseñador de formularios](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/organize-a-form.md).
-
-
-
