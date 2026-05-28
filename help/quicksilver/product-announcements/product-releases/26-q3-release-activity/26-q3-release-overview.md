@@ -5,7 +5,7 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8ca50590-ef6a-44b1-a856-9821bdafbc1c
-source-git-commit: fb0698cc00e2bd12c613a63bb407615c439d2198
+source-git-commit: a88a468901cc7a28139315ab820fc612f1c31736
 workflow-type: tm+mt
 source-wordcount: '1374'
 ht-degree: 21%
@@ -18,7 +18,7 @@ Esta página proporciona información sobre la funcionalidad que se incluye en l
 
 Las mejoras de esta página están disponibles en el entorno de vista previa. Esta página se actualizará con mejoras adicionales a medida que la versión del tercer trimestre de 2026 se aproxime a su versión de producción planificada.
 
-Se celebran seminarios web en directo para cada versión trimestral, en los que se destacan las nuevas funciones y se proporciona información detallada. Para registrarse, visite la [página de eventos](https://experienceleague.adobe.com/es/events?filters=Workfront) y filtre por Workfront.
+Se celebran seminarios web en directo para cada versión trimestral, en los que se destacan las nuevas funciones y se proporciona información detallada. Para registrarse, visite la [página de eventos](https://experienceleague.adobe.com/en/events?filters=Workfront) y filtre por Workfront.
 
 >[!IMPORTANT]
 >
@@ -341,7 +341,7 @@ Para obtener más información, consulte [Introducción a la versión de prueba 
 
 ### Workfront Maintenance Updates
 
-For information about the maintenance updates made during the Third Quarter 2026 release, see [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=es).
+For information about the maintenance updates made during the Third Quarter 2026 release, see [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 -->
 
@@ -349,3 +349,4 @@ For information about the maintenance updates made during the Third Quarter 2026
 ### Actualizaciones de aprendizaje
 
 Explore las últimas actualizaciones realizadas en los programas de aprendizaje, rutas de aprendizaje, vídeos y guías de cada versión del producto de Adobe Workfront. Para obtener más información, consulte la sección “Novedades” de la [página de tutoriales de Workfront](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html?lang=es).
+

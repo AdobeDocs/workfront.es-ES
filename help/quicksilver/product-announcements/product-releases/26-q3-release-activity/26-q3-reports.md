@@ -4,7 +4,7 @@ description: Mejoras en los informes del tercer trimestre de 2026
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: a177e2887c2b8b281b19cda45ce59c6f8149cefb
+source-git-commit: a88a468901cc7a28139315ab820fc612f1c31736
 workflow-type: tm+mt
 source-wordcount: '289'
 ht-degree: 4%
@@ -42,3 +42,4 @@ Los paneles de lienzo ahora estructuran las consultas de informes para evitar fi
 Anteriormente, una unión entre registros relacionados podía repetir los registros principales una vez para cada registro relacionado. Por ejemplo, en un informe de proyecto filtrado a tareas asignadas a un usuario específico, cada proyecto se repite una vez por cada tarea coincidente. Un KPI que sumara el presupuesto del proyecto podría mostrar 6000 $ en lugar de los 1250 $ correctos.
 
 No hay cambios en la interfaz del panel Lienzo. Los informes existentes devuelven automáticamente datos precisos después de esta versión.
+
