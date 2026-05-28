@@ -9,15 +9,17 @@ recommendations: noDisplay, noCatalog
 exl-id: 32cb95c2-8d12-492b-ad89-b38e2a337fc5
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 12242501adb13cd349a2282996c7186e90d6c94d
+source-git-commit: 90a15077a38f4740bc52835f2aab361535832df0
 workflow-type: tm+mt
-source-wordcount: '3928'
+source-wordcount: '4002'
 ht-degree: 0%
 
 ---
 
 
 # Resumen de revisión y aprobación unificadas
+
+{{highlighted-preview}}
 
 La revisión y la aprobación unificadas reúnen Adobe Workfront y Adobe Frame.io en una única experiencia profundamente conectada: se eliminan las diferencias entre la administración de marketing, la revisión creativa y la entrega de contenido.
 Los coordinadores de proyectos administran el trabajo en Workfront mientras los creativos, los especialistas en marketing y las partes interesadas revisan y aprueban los recursos en el visor Frame.io de nivel profesional, todo sin mover archivos entre herramientas desconectadas.
@@ -303,7 +305,9 @@ Actualmente, las plantillas de aprobación admiten usuarios y equipos individual
 
 Sí. Los aprobadores y revisores reciben notificaciones por correo electrónico cuando se les asigna una revisión o aprobación. Los correos electrónicos de recordatorio automatizados también se envían 72 horas antes del plazo, 24 horas antes y dentro del propio plazo.
 
-Actualmente, la capacidad de personalizar los mensajes de notificación por correo electrónico no está disponible, pero está en la hoja de ruta del producto.
+En Producción, la capacidad de personalizar los mensajes de notificación por correo electrónico no está disponible actualmente, pero está en la hoja de ruta del producto.
+
+<span class="preview">En la vista previa, puede agregar un mensaje personalizado a cada fase de un flujo de trabajo de aprobación. El mensaje aparece en la notificación de correo electrónico de aprobación y en la pestaña Aprobaciones de Workfront. Puede utilizar el mismo mensaje para cada fase o un mensaje diferente por fase, y el mensaje puede incluir hasta 500 caracteres. Si edita un mensaje personalizado después de crear el flujo de trabajo de aprobación, se envía una notificación por correo electrónico actualizada a todos los participantes existentes. Si agrega un participante más adelante, el mensaje personalizado se incluye en su notificación por correo electrónico. Para obtener más información, vea [Crear un flujo de trabajo de aprobación de documentos](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md).</span>
 
 <!--
 **Can I change the notification frequency for a unified approver or reviewer (for example, all comments, replies to my comments, or daily summaries)?**
