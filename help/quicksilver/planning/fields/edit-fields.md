@@ -8,10 +8,10 @@ recommendations: noDisplay, noCatalog
 exl-id: 6c35c313-d6ed-428b-b70d-2ea242da4e8f
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 38f3e460e2d3c4840c12dda82859d46828349a80
 workflow-type: tm+mt
-source-wordcount: '919'
-ht-degree: 49%
+source-wordcount: '1087'
+ht-degree: 43%
 
 ---
 
@@ -20,11 +20,10 @@ ht-degree: 49%
 
 <!--leave the choice value information in yellow till January 2026-->
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+<span class="preview">La información resaltada en esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa para todos los clientes. Después de las versiones mensuales en Production, las mismas funciones también están disponibles en el entorno Production para los clientes que habilitaron versiones rápidas. </span>
+
+<span class="preview">Para obtener información sobre las versiones rápidas, consulte [Habilitar o deshabilitar las versiones rápidas para su organización](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{planning-important-intro}}
 
@@ -196,6 +195,15 @@ this is not yet true, but it might come later:
    >* Una vez guardado el campo, no puede actualizar el tipo de campo.
    >
    >* Al modificar las configuraciones de campo (opciones de campo o expresiones de fórmula), los registros que ya contienen información en los campos modificados actualizarán sus valores en tiempo real. No se muestran advertencias ni registros de auditoría para los cambios de valor activados por los cambios en la configuración del campo. Todos los usuarios que vean los campos verán inmediatamente los nuevos valores con las modificaciones.
+
+1. <span class="preview">(Condicional) Si el campo que está actualizando forma parte de un formulario de solicitud, se muestra el cuadro **Revisar cambios del campo** para indicar los formularios que se verán afectados por los cambios. Realice una de las siguientes acciones:</span>
+
+   <div class="preview">
+
+   * Haga clic en la flecha que señala a la derecha para mostrar los formularios afectados por el cambio y, a continuación, haga clic en el nombre del formulario para abrir el formulario en una nueva pestaña y decidir si desea mantener el campo en el formulario o realizar cambios adicionales en el formulario.
+   * Haga clic en **Conservar cambios** para actualizar el campo en todas las áreas donde se muestre.
+
+   </div>
 
    La información de campo se actualiza para todos los que tengan acceso a la vista del espacio de trabajo.
 

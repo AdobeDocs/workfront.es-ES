@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 635045c5-17e6-483e-912b-4e9617571137
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 453dbf1c7598858e99d963f7a3806355a8cc80a9
+source-git-commit: 38f3e460e2d3c4840c12dda82859d46828349a80
 workflow-type: tm+mt
-source-wordcount: '2342'
+source-wordcount: '2582'
 ht-degree: 5%
 
 ---
@@ -19,11 +19,11 @@ ht-degree: 5%
 
 <!--update title when there will be more functionality added to the Planning requests, besides creating records-->
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+<span class="preview">La información resaltada en esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa para todos los clientes. Después de las versiones mensuales en Production, las mismas funciones también están disponibles en el entorno Production para los clientes que habilitaron versiones rápidas. </span>
+
+<span class="preview">Para obtener información sobre las versiones rápidas, consulte [Habilitar o deshabilitar las versiones rápidas para su organización](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
 
 {{planning-important-intro}}
 
@@ -97,11 +97,13 @@ Para poder enviar una solicitud a un formulario de solicitud de Workfront Planni
 
      Los usuarios de Workfront también pueden acceder al vínculo compartido con personas externas.
 
-* If shared with a link, the link to the form must not be expired.
+* Si se comparte con un vínculo, el vínculo al formulario no debe caducar.
 
 ## Consideraciones sobre el envío de solicitudes a Workfront Planning
 
-* Una solicitud no se puede editar en Workfront una vez que se ha enviado.
+* En el entorno de producción, no se puede editar una solicitud en Workfront después de enviarla.
+
+  <span class="preview">En el entorno de vista previa, solamente puede editar una solicitud enviada antes de que se cree un registro a partir de ella. Una vez creado el registro, ya no puede editar la solicitud enviada. </span>
 * Cada solicitud enviada crea un registro para el tipo de registro asociado al formulario que utiliza, si el formulario no está asociado a una aprobación o si la aprobación ha sido concedida por todos los aprobadores.
 * Los registros creados al enviar formularios de solicitud son idénticos a los registros agregados mediante cualquier otro método en Workfront Planning.
 
@@ -133,7 +135,7 @@ Not sure how to change the request status, but dev also said: Changing the names
 {{step1-to-requests}}
 
 1. Activar la configuración **Usar nueva experiencia**, en la esquina superior derecha de la pantalla.
-Al activar esta configuración, los formularios de solicitud de Workfront Planning estarán disponibles en el área **Solicitudes** de Workfront.
+Si activa esta configuración, los formularios de solicitud de Workfront Planning estarán disponibles en el área de **Solicitudes** de Workfront.
 
    >[!TIP]
    >
@@ -169,7 +171,7 @@ Al activar esta configuración, los formularios de solicitud de Workfront Planni
 
    El formulario de solicitud se cerrará y volverá al área **Solicitudes**.
 
-   Your form is submitted and the following things occur:
+   El formulario se enviará y se producirán los siguientes eventos:
 
    * Si el formulario de solicitud no estaba asociado a una aprobación, esta se agrega a la lista Solicitudes del área Solicitudes de Workfront y al widget Mis solicitudes de Inicio, y se agrega un nuevo registro al tipo de registro asociado al formulario.
 
@@ -193,7 +195,7 @@ Al activar esta configuración, los formularios de solicitud de Workfront Planni
 
      Hay un vínculo a la solicitud en la confirmación de correo electrónico o la notificación de aprobación.
 
-1. (Opcional) Haga clic en **Ver su solicitud** en el mensaje de confirmación, para abrir la solicitud, o haga clic en el icono **X** para cerrar la confirmación.
+1. (Opcional) Haga clic en **Ver su solicitud** en el mensaje de confirmación o en el nombre de la solicitud en la lista para abrir la solicitud, o haga clic en el icono **X** para cerrar la confirmación.
 1. (Opcional) Para administrar la forma en que se muestra la información en la lista de solicitudes, actualice los siguientes elementos de vista para la lista:
 
    * Ver
@@ -234,6 +236,17 @@ Al activar esta configuración, los formularios de solicitud de Workfront Planni
    ![Solicitar página con comentario](assets/new-request-page-with-comment.png)
 
 1. (Opcional) Escriba un comentario en el área **Comentarios**.
+1. <span class="preview">(Opcional y condicional) Si la solicitud está esperando aprobación y la ha abierto, haga clic en el icono **Más** ![Menú más](assets/more-menu.png) a la derecha del nombre de la solicitud y, a continuación, haga clic en **Editar** o haga doble clic en los campos de la solicitud para editarlos. </span>
+
+   >[!NOTE]
+   >
+   >  <div class="preview">
+   >
+   >   * La edición de una solicitud solo es posible cuando aún no se ha creado un registro y la solicitud está pendiente de aprobación.
+   >   * Algunos campos son de solo lectura y no se pueden editar.
+   >  * Ya no puede editar una solicitud después de crear un registro a partir de ella.
+   >
+   >  </div>
 1. (Condicional) Si el formulario de solicitud no está asociado a una aprobación, o si la solicitud se ha aprobado, haga clic en el nombre de la solicitud y, a continuación, haga clic en el nombre del registro en el campo **Objeto creado**.
 
    La página del registro se abre en Workfront Planning.
@@ -340,9 +353,17 @@ Al eliminar una solicitud de Planning, se producen los siguientes problemas:
 * El registro creado a partir de la solicitud no se elimina.
 * Los borradores eliminados no se pueden recuperar. No hay registros asociados a borradores.
 
-Eliminar solicitudes de Planning es similar a eliminar solicitudes de Workfront.
+Eliminar solicitudes de Planning de una lista es similar a eliminar solicitudes de Workfront.
 
 Para obtener más información, consulte [Eliminar una solicitud enviada o un borrador de solicitud](/help/quicksilver/manage-work/requests/create-requests/delete-request-draft.md).
+
+Para suprimir una solicitud de Planning después de abrirla:
+
+1. Abra una solicitud de Planning haciendo clic en su nombre en la lista Solicitudes.
+1. Haga clic en el icono **Más** ![Menú más](assets/more-menu.png) a la derecha del nombre de la solicitud y, a continuación, haga clic en **Eliminar**.
+1. Haga clic en D **e** escríbalo en el cuadro **Eliminar permanentemente** para confirmar.
+
+   La solicitud se elimina y no se puede recuperar.
 
 
 
