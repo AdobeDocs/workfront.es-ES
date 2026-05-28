@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: ed1c4954-b338-4865-a7a9-5ba0192e7b37
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 31aff197d6af521df2258f3f99fea6fb5785b9e3
+source-git-commit: 12552dfefc58a664c278598496097f1b30d3cf0e
 workflow-type: tm+mt
-source-wordcount: '1168'
+source-wordcount: '1179'
 ht-degree: 12%
 
 ---
@@ -155,7 +155,7 @@ Old:
 
       * Al importarlos mediante un archivo CSV o de Excel.
 
-        Para obtener más información, vea [Crear tipos de registros importando información desde un archivo CSV o de Excel](/help/quicksilver/planning/architecture/import-file-to-create-record-types.md).
+        Para obtener más información, vea la sección [Crear tipos de registro mediante la importación de información desde un archivo CSV o de Excel](#create-record-types-by-importing-information-from-a-csv-or-excel-file) en este artículo.
 
      >[!TIP]
      >
@@ -168,7 +168,7 @@ Old:
         Este artículo describe cómo crear tipos de registros desde cero.
 
       * Añadiéndolos desde otro espacio de trabajo
-Para obtener más información, vea [Agregar tipos de registros existentes desde otro área de trabajo](/help/quicksilver/planning/architecture/add-existing-record-types-from-another-workspace.md).
+Para obtener más información, consulte la sección [Crear tipos de registros agregando los existentes de otro área de trabajo](#create-record-types-by-adding-existing-ones-from-another-workspace) en este artículo.
 
 
 * Puede mover tipos de registros dentro de una sección y de una sección de un espacio de trabajo a otra. No se pueden mover tipos de registros de un espacio de trabajo a otro.

@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: d6140b05-26c3-4298-a2f9-53695aa021cb
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 058abefdf7bcee16b9cee7f28e10337886c7fb05
+source-git-commit: 12552dfefc58a664c278598496097f1b30d3cf0e
 workflow-type: tm+mt
-source-wordcount: '1474'
+source-wordcount: '1769'
 ht-degree: 5%
 
 ---
@@ -49,7 +49,7 @@ Para obtener información general acerca de la integración de GenStudio con Wor
 >[!IMPORTANT]
 >
 >Los pasos descritos en este artículo ilustran cómo se puede actualizar el espacio de trabajo de GenStudio desde Workfront Planning cuando se tiene permisos de administración.
-> No todas las funciones están disponibles si tiene permisos de contribución en el espacio de trabajo de GenStudio.
+> No todas las funciones están disponibles si tiene permisos de contribución en el área de trabajo de GenStudio.
 >
 >Si su empresa tiene varias instancias de Workfront, todos los usuarios obtienen permisos de contribución en el espacio de trabajo de GenStudio en Workfront Planning.
 
@@ -377,17 +377,34 @@ Para obtener más información, vea [Exportar registros desde la vista de tabla]
 
      Los campos creados desde GenStudio Workspace están visibles en las siguientes áreas:
 
-      * Vistas de Workfront Planning
-      * Detalles del registro de Workfront Planning
-      * Detalles de registro de GenStudio
+      * Vistas de Workfront Planning en Workfront Planning
+      * Detalles del registro de Workfront Planning en Workfront Planning
+      * Detalles de registro de GenStudio en GenStudio for Performance Marketing
 
      >[!NOTE]
      >
-     >* Solo puede agregar más campos si tiene permisos de administración en GenStudio.
+     >* Solo puede agregar campos cuando tenga permisos de administración en GenStudio.
      >* Los campos creados en Workfront Planning no son visibles en la vista de lista de GenStudio.
      >
      >* Puede conectar cualquier tipo de registro de GenStudio al tipo de registro de GenStudio de marcas.
      >  Los productos y las personas están conectados a las marcas de forma predeterminada.
+     >
+     >* Puede conectar tipos de registros de GenStudio en Planning con AEM Assets o fragmentos de contenido en Adobe Experience Manager. Debe tener una licencia de AEM para poder conectarse a objetos de AEM.
+     >
+
+1. (Condicional) Si ha conectado tipos de registros de GenStudio desde el espacio de trabajo de GenStudio en Planning con recursos o fragmentos de contenido de AEM, haga lo siguiente para desplazarse a AEM y ver la información de registros de GenStudio:
+
+   1. (Condicional) En un recurso de AEM conectado en GenStudio Workspace, haga clic en el nombre del recurso y, a continuación, haga clic en el icono **Abrir en AEM** ![Abrir en AEM](assets/open-in-aem-icon.png) para abrir el recurso en AEM.
+   1. Haga clic para seleccionar la pestaña **Campaign** en el panel derecho.
+
+      El nombre de la campaña conectada al recurso se muestra en el campo **Campaign**. Este es un campo de solo lectura.
+Si el recurso también está conectado a **Region**, **Persona**, **Product** o **Channel** en el área de trabajo de GenStudio en Planning, los campos respectivos de estos tipos de registros muestran sus nombres en la pestaña **Campaign** del recurso en modo de solo lectura.
+   1. (Condicional) En un fragmento de contenido de AEM conectado en el espacio de trabajo de GenStudio en Planning, haga clic en el nombre del fragmento de contenido y, a continuación, haga clic en el icono **Abrir en AEM** ![Abrir en AEM](assets/open-in-aem-icon.png) para abrir el fragmento de contenido en AEM.
+   1. Haga clic en el icono **Inicio** ![Icono de inicio en AEM](assets/home-icon-in-aem.png) para ir a una lista de fragmentos de contenido y, a continuación, haga clic en el icono **información** ![Icono de información en AEM](assets/info-icon-in-aem.png) a la derecha del nombre del fragmento de contenido.
+   1. Haga clic en la ficha **Metadatos** en el panel derecho.
+
+      El nombre de la campaña conectada al fragmento de contenido se muestra en el campo **xdm: campaignName**. Este campo es de solo lectura. <!--tried to log a bug to rename this field-->
+Si el recurso también está conectado a **Region**, **Persona**, **Product** o **Channel** en el área de trabajo de GenStudio en Planning, los campos respectivos de estos tipos de registros muestran sus nombres en la pestaña **Metadatos** del fragmento de contenido en modo de solo lectura.
 
 1. Pase el ratón sobre un campo de la vista de tabla y, a continuación, haga clic en el menú desplegable para realizar una de las siguientes acciones:
 

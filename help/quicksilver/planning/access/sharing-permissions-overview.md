@@ -8,10 +8,10 @@ recommendations: noDisplay, noCatalog
 exl-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: fe952ab2c08d2fd45381614618686da201decd0e
+source-git-commit: 12552dfefc58a664c278598496097f1b30d3cf0e
 workflow-type: tm+mt
-source-wordcount: '1114'
-ht-degree: 6%
+source-wordcount: '1372'
+ht-degree: 7%
 
 ---
 
@@ -22,13 +22,9 @@ ht-degree: 6%
 
 # Información general sobre los permisos de uso compartido en Adobe Workfront Planning
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">La información resaltada en esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa para todos los clientes. Después de las versiones mensuales en Production, las mismas funciones también están disponibles en el entorno Production para los clientes que habilitaron versiones rápidas. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
-
-
+<span class="preview">Para obtener información sobre las versiones rápidas, consulte [Habilitar o deshabilitar las versiones rápidas para su organización](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{planning-important-intro}}
 
@@ -60,20 +56,17 @@ Puede compartir manualmente los siguientes objetos en Workfront Planning:
 
   Para obtener más información, vea [Compartir tipos de registros](/help/quicksilver/planning/access/share-record-types.md).
 
-<!--
 <div class="preview">
 
-* Records
-    
-    * You can share records with people inside your organization.
-    * Users inherit permissions from the workspace and the record type by default. 
-    * You cannot share a record with a higher or lower permission level than the user has on the record type. 
+* Registros
 
-    For more information, see [Share records](/help/quicksilver/planning/access/share-records.md).
+   * Puede compartir registros con personas de su organización.
+   * Los usuarios heredan los permisos del espacio de trabajo y del tipo de registro de forma predeterminada.
+   * No se puede compartir un registro con un nivel de permisos superior o inferior al que el usuario tiene en el tipo de registro.
+
+  Para obtener más información, consulte [Compartir registros](/help/quicksilver/planning/access/share-records.md).
 
 </div>
-
--->
 
 * Vistas
 
@@ -190,11 +183,9 @@ Se dan los siguientes escenarios:
 
 ### Permisos para registros
 
-Los permisos de registro se heredan del tipo de registro, cuando se conceden permisos al espacio de trabajo y al tipo de registro.
+Los permisos de registro se heredan del tipo de registro, cuando se conceden permisos al espacio de trabajo y al tipo de registro, de forma predeterminada.
 
-<!--In the Production environment, -->
-
-A continuación se indican los niveles de permisos para los registros:
+En el entorno Producción, los siguientes son los niveles de permisos para registros:
 
 
 |        | Administrar | Aportar | Ver |
@@ -204,41 +195,36 @@ A continuación se indican los niveles de permisos para los registros:
 | Editar | ✓ | ✓ |       |
 | Ver | ✓ | ✓ | ✓ |
 
-<!--
-
 <div class="preview">
 
-In the Preview environment, the following are the levels of permissions for records: 
+En el entorno de vista previa, los siguientes son los niveles de permisos para registros:
 
-|        | Manage |  View  |
+|        | Administrar | Ver |
 |--------|--------|-------|
-| Create | ✓      |       |
-| Delete | ✓      |       |
-| Edit   | ✓      |       |
-| View   | ✓      | ✓     |
+| Crear | ✓ |       |
+| Eliminar | ✓ |       |
+| Editar | ✓ |       |
+| Ver | ✓ | ✓ |
 
+Los permisos de registro siempre se heredan cuando se conceden permisos al espacio de trabajo y al tipo de registro.
 
+Puede quitar los permisos heredados del registro recibidos del tipo de registro. Los administradores de Workspace y los creadores de registros conservan los permisos de administración del registro.
 
-Record permissions are always inherited when you grant permissions to the workspace and the record type.
+No puede conceder a los usuarios permisos inferiores o superiores en el registro a los que tienen en el tipo de registro.
 
-You can remove the record's inherited permissions received from the record type. Workspace managers and record creators retain Manage permissions to the record. 
+Se dan los siguientes escenarios:
 
-You cannot give users lower or higher permissions on the record than they have on the record type. 
-
-The following scenarios exist: 
-
-|   Workspace and record type permissions     | Automatic inherited permissions for a Record |Possible Record permissions when Inherited permissions are turned off (granted manually)|
+| Permisos de tipo de registro y Workspace | Permisos heredados automáticos para un registro | Posibles permisos de Registro cuando los permisos heredados están desactivados (se conceden manualmente) |
 |--------|--------|-------------|
-| Manage |   Manage    |   Manage, Remove permissions*           |
-| Contribute |     Manage |  Manage, Remove permissions*        |
-| View   |  View     |      View, Remove permissions*        |
+| Administrar | Administrar | Administración, eliminación de permisos* |
+| Aportar | Administrar | Administración, eliminación de permisos* |
+| Ver | Ver | Ver, quitar permisos* |
 
 >[!NOTE]
 >
->*When you remove permissions from a record, users still retain View permissions to the workspace and the record type, unless you remove their permissions from the workspace. 
+>*Cuando se quitan permisos de un registro, los usuarios conservan los permisos de Vista en el espacio de trabajo y el tipo de registro, a menos que se quiten sus permisos del espacio de trabajo.
 
 </div>
--->
 
 ### Permisos para registrar campos
 
@@ -284,7 +270,10 @@ Los siguientes son los niveles de permisos para vistas y elementos de vista:
 | Ver | ✓ |
 | Aplicar | ✓ |
 
-*Los usuarios deben tener permisos de Vista o superiores en un espacio de trabajo para obtener este acceso de vista.
+>[!NOTE]
+>
+>*Los usuarios deben tener permisos de Vista o superiores en un espacio de trabajo para obtener este acceso de vista.
+
 
 <!--
 old view permissions, before sharing View permissions to a view through a workspace:

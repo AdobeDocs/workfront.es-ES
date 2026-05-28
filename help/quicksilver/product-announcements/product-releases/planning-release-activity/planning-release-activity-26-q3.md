@@ -6,10 +6,10 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: fe952ab2c08d2fd45381614618686da201decd0e
+source-git-commit: 12552dfefc58a664c278598496097f1b30d3cf0e
 workflow-type: tm+mt
-source-wordcount: '910'
-ht-degree: 3%
+source-wordcount: '1448'
+ht-degree: 2%
 
 ---
 
@@ -40,7 +40,6 @@ Para obtener una lista de todas las características publicadas para Adobe Workf
 >Production for everyone: July 16, 2026 
 >[!BADGE In Beta]{type=Neutral}
 
-
 You can now use the Adobe Planning Designer powered by AI to configure your workspaces and data structures with ease. The Planning Designer supports everything from creating and configuring workspaces to defining fields and formulas, managing records, reviewing change history and building custom views.  
 
 Whether used directly or through the AI Assistant, the Planning Designer provides a flexible, powerful environment for building and maintaining structured, connected information. 
@@ -48,64 +47,6 @@ Whether used directly or through the AI Assistant, the Planning Designer provide
 A Workfront administrator can manage the availability of the Planning Designer from the System Preferences area in Setup.   
 
 For information, see [Get started with the Adobe Workfront Planning Designer](/help/quicksilver/planning/general/planning-ai-designer.md).
-
-## Synchronize Metadata from Planning to AEM Content Fragments  
-
->[!NOTE]
->
->Preview: May 28 , 2026
->Production fast release: May 28, 2026
->Production for everyone: May 28, 2026
->[!BADGE Off schedule]{type=Neutral}
-
-***************TO ADD MORE INFO AFTER TALKING WITH SYUZANNA**********
-
-To improve data integrity, we've released seamless metadata synchronization between Planning record types in the GenStudio workspace and AEM Content Fragments when Content Fragments are linked to GenStudio campaigns.  
-
-GenStudio campaign information now displays in the Metadata tab of a Content Fragment in AEM.  
-
-With this release key metadata is consistent across both platforms and reflects updates in near real-time, reducing manual reconciliation. 
-
-For information, see [Get Started with Adobe Workfront Planning and GenStudio for Performance Marketing integration](/help/quicksilver/planning/planning-and-genstudio-integration/get-started-with-workfront-planning-and-genstudio-integration.md).  
-
-## Synchronize Metadata from Planning to AEM Assets (title)
- 
->[!NOTE]
->
->Preview: May 28 , 2026
->Production fast release: May 28, 2026
->Production for everyone: May 28, 2026
->[!BADGE Off schedule]{type=Neutral} 
-
-To improve data integrity, we've released seamless metadata synchronization between  GenStudio record types and AEM Assets when AEM Assets are linked to GenStudio record types in Workfront Planning. The following GenStudio for Performance Marketing record types can be connected to AEM Assets: Campaign, Product, Persona, Region, and Channel. 
-
-Information added to a GenStudio record type in Workfront Planning displays in a separate Campaign tab of an AEM Asset in AEM. 
-
-For information, see [Get Started with Adobe Workfront Planning and GenStudio for Performance Marketing integration](/help/quicksilver/planning/planning-and-genstudio-integration/get-started-with-workfront-planning-and-genstudio-integration.md).
-
-## Grant permissions to records
-
->[!NOTE]
->
->Preview: May 28, 2026
->Production fast release: June 11, 2026
->Production for everyone: July 16, 2026
-
-You can now adjust individual record permissions to control who can manage them within a record type. 
-
-Users inherit record permissions from the workspace and record type by default. To give only select users with record type permissions Manage permissions to only certain records, you can disable inherited permissions on select records and grant only those users Manage access to those records. You can adjust permissions for one record, or for multiple records at the same time, in bulk.
-
-You can give users the following permissions levels: 
-
-* View 
-* Manage 
-
->[!NOTE]
->
->* A user's record-level permissions cannot exceed their record type permissions. For example, a user with View access to a record type cannot be granted Manage access to individual records of that type.
->* You cannot remove a user's permissions from a record at this time. Any user with at least View access to the record type can view all records of that type.
-
-For information, see [Share records](/help/quicksilver/planning/access/share-records.md).
 
 ## New Sample workspaces tab added to the Planning landing page
 
@@ -125,38 +66,99 @@ For information, see Workspaces overview (/help/quicksilver/planning/architectur
 
 -->
 
-<!--
-
-API new version delayed till May 21, 2026
-
-## Workfront Planning API version 2 
+## API de Workfront Planning versión 2
 
 >[!NOTE]
 >
->Available for all customers: May 28, 2026
+>Disponible para todos los clientes: 28 de mayo de 2026>[!BADGE horario inadecuado]{type=Neutral}
 
-Version 2 of Workfront Planning API is now available and it significantly expands the capabilities of Version 1.  
+La versión 2 de la API de Workfront Planning ya está disponible y amplía considerablemente las capacidades de la versión 1.
 
-The following enhancements are included in Version 2: 
+En la versión 2 de se incluyen las siguientes mejoras:
 
-* Create, update, and delete workspaces, record types, and fields programmatically. 
+* Cree, actualice y elimine espacios de trabajo, tipos de registro y campos mediante programación.
 
-* Fully manage records. 
-* Improvements to URL structure, error handling, pagination, filtering, and permissions. 
-* Includes partial updates via PATCH 
-* Includes bulk record operations. 
+* Administrar registros por completo.
+* Mejoras en la estructura de la URL, control de errores, paginación, filtrado y permisos.
+* Incluye actualizaciones parciales mediante PATCH
+* Incluye operaciones de registro en masa.
 
-Version 1 remains available, although we recommend that you switch to using Version 2.  
+La versión 1 sigue disponible, aunque le recomendamos que cambie a la versión 2.
 
 >[!NOTE]
 >
->The Workfront Planning connector for Fusion has not been updated to API Version 2 and it will continue to use Version 1 until further notice.   
+>El conector de Workfront Planning para Fusion no se ha actualizado a la versión 2 de la API y seguirá utilizando la versión 1 hasta nuevo aviso.
 
-For information, see [Adobe Workfront Planning API basics](/help/quicksilver/planning/general/planning-api-basics.md).  
+Para obtener más información, consulte [Conceptos básicos de la API de Adobe Workfront Planning](/help/quicksilver/planning/general/planning-api-basics.md).
 
-For Workfront Planning API specifications, see the [Workfront Planning API](https://developer.adobe.com/wf-planning/) developer documentation. 
+Para ver las especificaciones de la API de Workfront Planning, consulte la [documentación para desarrolladores de la API de Workfront Planning](https://developer.adobe.com/wf-planning/).
 
--->
+## Conceder permisos a registros
+
+>[!NOTE]
+>
+>Vista previa: 28 de mayo de 2026>Versión rápida de producción: 11 de junio de 2026>Producción para todos: 16 de julio de 2026
+
+Ahora puede ajustar permisos de registro individuales para controlar quién puede administrarlos dentro de un tipo de registro.
+
+Los usuarios heredan los permisos de registro del espacio de trabajo y el tipo de registro de forma predeterminada. Para conceder sólo a usuarios seleccionados con permisos de tipo de registro y permisos de administración sólo a determinados registros, puede deshabilitar los permisos heredados en registros seleccionados y conceder sólo a esos usuarios acceso de administración a esos registros. Puede ajustar los permisos para un registro o para varios registros al mismo tiempo, de forma masiva.
+
+Puede otorgar a los usuarios los siguientes niveles de permisos:
+
+* Ver
+* Administrar
+
+>[!NOTE]
+>
+>* Los permisos de nivel de registro de un usuario no pueden superar sus permisos de tipo de registro. Por ejemplo, a un usuario con acceso de Vista a un tipo de registro no se le puede otorgar acceso de Administración a registros individuales de ese tipo.
+>* En este momento no se pueden quitar los permisos de un usuario de un registro. Cualquier usuario con al menos acceso de Vista al tipo de registro puede ver todos los registros de ese tipo.
+
+Para obtener más información, consulte [Compartir registros](/help/quicksilver/planning/access/share-records.md).
+
+## Adición optimizada del tipo de registro global
+
+>[!NOTE]
+>
+>Vista previa: 28 de mayo de 2026>Versión rápida de producción: 11 de junio de 2026>Producción para todos: 16 de julio de 2026
+
+Para reducir los clics y ayudarle a encontrar rápidamente los tipos de registros que necesita, hemos mejorado la experiencia de agregar registros para que sea más rápido e intuitivo al agregar tipos de registros globales a otro espacio de trabajo.
+
+Cuando decida agregar un registro de tipos de registros existentes, ahora verá inmediatamente una lista de todos los tipos de registros globales disponibles.
+
+Puede seleccionar y agregar uno o varios tipos de registros globales al mismo tiempo directamente desde esta pantalla.
+
+Para obtener más información, vea [Agregar tipos de registros existentes desde otro área de trabajo](/help/quicksilver/planning/architecture/add-existing-record-types-from-another-workspace.md).
+
+
+## Sincronización de metadatos de Planning a AEM Assets
+
+>[!NOTE]
+>
+>Vista previa: 28 de mayo de 2026>Versión rápida de la producción: 28 de mayo de 2026>Producción para todos: 28 de mayo de 2026>[!BADGE Fuera de horario]{type=Neutral}
+
+Para mejorar la integridad de los datos, hemos lanzado una sincronización de metadatos fluida entre los tipos de registros de GenStudio for Performance Marketing y los AEM Assets cuando los AEM Assets están vinculados a tipos de registros de GenStudio en Workfront Planning.
+
+Se pueden conectar los siguientes tipos de registros de GenStudio for Performance Marketing a los AEM Assets: Campaign, Product, Persona, Region y Channel.
+
+La información agregada a un tipo de registro de GenStudio en Workfront Planning se muestra en una pestaña de Campaign independiente de un recurso de AEM en AEM. La información sobre el producto, el persona, la región y el canal de esa campaña también se muestra en esa pestaña en modo de solo lectura.
+
+Con esta versión, los metadatos clave son coherentes en ambas plataformas y reflejan las actualizaciones en tiempo casi real, lo que reduce la reconciliación manual.
+
+Para obtener más información, consulte [Administrar el espacio de trabajo de GenStudio en Adobe Workfront Planning](/help/quicksilver/planning/planning-and-genstudio-integration/manage-gen-studio-workspace-in-planning.md).
+
+## Sincronizar metadatos de Planning a fragmentos de contenido de AEM
+
+>[!NOTE]
+>
+>Vista previa: 28 de mayo de 2026>Versión rápida de la producción: 28 de mayo de 2026>Producción para todos: 28 de mayo de 2026>[!BADGE Fuera de horario]{type=Neutral}
+
+Para mejorar la integridad de los datos, hemos lanzado una sincronización de metadatos fluida entre los tipos de registros de Planning en el espacio de trabajo de GenStudio y los fragmentos de contenido de AEM cuando los fragmentos de contenido están vinculados a campañas de GenStudio for Performance Marketing.
+
+La información de la campaña de GenStudio ahora se muestra en la pestaña Metadatos de un fragmento de contenido en AEM.  La información sobre el producto, el persona, la región y el canal de esa campaña también se muestra en esa pestaña en modo de solo lectura.
+
+Con esta versión, los metadatos clave son coherentes en ambas plataformas y reflejan las actualizaciones en tiempo casi real, lo que reduce la reconciliación manual.
+
+Para obtener más información, consulte [Administrar el espacio de trabajo de GenStudio en Adobe Workfront Planning](/help/quicksilver/planning/planning-and-genstudio-integration/manage-gen-studio-workspace-in-planning.md).
 
 
 ## Actualizaciones de vista de lista
@@ -242,7 +244,7 @@ Para obtener más información, consulte [Enviar solicitudes de Adobe Workfront 
 
 >[!NOTE]
 >
->Vista previa: 14 de mayo de 2026>Versión rápida de producción: 14 de mayo de 2026>Producción para todos: 14 de mayo de 2026>[!BADGE Fuera del horario]{type=Neutral}
+>Vista previa: 14 de mayo de 2026>Versión rápida de producción: 14 de mayo de 2026>Producción para todos: 14 de mayo de 2026>[!BADGE Fuera de horario]{type=Neutral}
 
 Para obtener una mejor visibilidad al trabajar con fragmentos de contenido de AEM conectados a registros de Workfront Planning, se ha agregado una ventana de vista previa que muestra información sobre los fragmentos en Workfront Planning.
 
@@ -254,7 +256,7 @@ Para obtener más información, consulte [Conectar registros](/help/quicksilver/
 
 >[!NOTE]
 >
->Vista previa: 14 de mayo de 2026>Versión rápida de producción: 14 de mayo de 2026>Producción para todos: 14 de mayo de 2026>[!BADGE Fuera del horario]{type=Neutral}
+>Vista previa: 14 de mayo de 2026>Versión rápida de producción: 14 de mayo de 2026>Producción para todos: 14 de mayo de 2026>[!BADGE Fuera de horario]{type=Neutral}
 
 Ahora puede agregar los siguientes campos de búsqueda al conectar un tipo de registro de Planning a un fragmento de contenido de AEM:
 
