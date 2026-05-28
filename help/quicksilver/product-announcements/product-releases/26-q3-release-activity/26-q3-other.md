@@ -4,7 +4,7 @@ description: Otras mejoras durante el periodo de tiempo de lanzamiento del terce
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: ec0c6db3ed0ff470af64fa28ca3e69f0f0bf840a
+source-git-commit: eb59acc816f0fd82330b60ddc9cd2f3aad851198
 workflow-type: tm+mt
 source-wordcount: '473'
 ht-degree: 2%
@@ -61,4 +61,3 @@ Los campos de referencia, como los campos de escritura anticipada y búsqueda ex
 Además, se ha mejorado visualmente la experiencia de arrastrar y soltar columnas (en listas donde está disponible arrastrar y soltar).
 
 Para obtener más información, consulte [Usar listas mejoradas](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
-
