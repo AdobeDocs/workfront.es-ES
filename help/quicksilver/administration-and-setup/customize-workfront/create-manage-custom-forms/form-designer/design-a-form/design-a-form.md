@@ -10,10 +10,10 @@ role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: b4a3a64abb1c5e6395ff91dc8c145135926a5cf6
+source-git-commit: 7457f6888a0e79d499c4cca47bd4b4b5ac55a52b
 workflow-type: tm+mt
-source-wordcount: '7447'
-ht-degree: 92%
+source-wordcount: '7342'
+ht-degree: 91%
 
 ---
 
@@ -65,29 +65,29 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
 
    ![Elegir tipos de objetos](assets/new-custom-form-select-objects-032526.png)
 
-+++ Expanda para ver la lista de objetos que admiten formularios personalizados.
+   +++ Expanda para ver la lista de objetos que admiten formularios personalizados.
 
-* Proyecto
-* Tarea
-* Problema/Solicitud
-* Portafolio
-* Documento
-* Programa
-* Gasto
-* Usuario
-* Compañía
-* Iteración
-* Registro de facturación
-* Grupo
-* Equipo
+   * Proyecto
+   * Tarea
+   * Problema/Solicitud
+   * Portafolio
+   * Documento
+   * Programa
+   * Gasto
+   * Usuario
+   * Compañía
+   * Iteración
+   * Registro de facturación
+   * Grupo
+   * Equipo
 
-Si se encuentra en el paquete Workflow Ultimate, también puede crear formularios personalizados para estos objetos:
+   Si se encuentra en el paquete Workflow Ultimate, también puede crear formularios personalizados para estos objetos:
 
-* Función
-* Tarjeta de tarifas
-* Asignación
+   * Función
+   * Tarjeta de tarifas
+   * Asignación
 
-+++
+   +++
 
 1. En el área **Añadir un nombre de formulario**, escriba el título del formulario personalizado.
 1. (Opcional) Si desea agregar más tipos de objetos al formulario para que se pueda adjuntar a más objetos, haga clic en **Tipos de objetos** en el encabezado del diseñador de formularios. Seleccione los tipos de objeto que desea añadir y anule la selección de los tipos de objeto que desee eliminar del formulario.
@@ -156,7 +156,7 @@ Cada nombre de campo personalizado debe ser único en la instancia de Workfront 
 >[!NOTE]
 >
 >Aunque es posible hacerlo, le recomendamos que no cambie este nombre después de que usted u otros usuarios empiecen a utilizar el formulario personalizado en Workfront. Si lo hace, el sistema ya no reconocerá el campo personalizado, donde ahora se podría hacer referencia a él en otras áreas de Workfront.
->Por ejemplo, si añade el campo personalizado a un informe y posteriormente cambia su nombre, Workfront no lo reconocerá en el informe y dejará de funcionar correctamente allí a menos que lo vuelva a añadir al informe con el nuevo nombre.
+>Por ejemplo, si agrega el campo personalizado a un informe y posteriormente cambia su nombre, Workfront no lo reconocerá en el informe y dejará de funcionar correctamente allí a menos que lo vuelva a agregar al informe con el nuevo nombre.
 >
 >Se recomienda no escribir un nombre que ya se utilice en los campos integrados de Workfront.
 >
@@ -260,7 +260,7 @@ Para añadir un campo de texto:
     </tr>
     <tr>
     <td>Instrucciones</td>
-    <td>Escriba cualquier información adicional sobre el campo. Cuando los usuarios rellenan el formulario personalizado, pueden pasar el puntero por encima del icono del signo de interrogación para ver una ayuda contextual que contiene la información que escriba aquí.
+    <td>Escriba cualquier información adicional sobre el campo. Cuando los usuarios rellenan el formulario personalizado, pueden situarse sobre el icono del signo de interrogación para ver una información de objeto que contenga la información que escriba aquí.
     <img src="assets/instructions-form-designer.png">
     </td>
     <td><ul>
@@ -734,10 +734,10 @@ Para añadir una búsqueda externa, haga lo siguiente:
      </tr>
      <tr> 
       <td role="rowheader">Ruta JSON</td>
-      <td><p>Escriba o pegue la ruta JSON para la API.</p> <p>Esta opción permite extraer datos del JSON devuelto por la URL de la API. Sirve para seleccionar qué valores dentro del JSON aparecerán en las opciones desplegables.</p><p>Por ejemplo, si la URL de la API devuelve JSON en el siguiente formato, puede utilizar "$.data[*].name" para seleccionar EE. UU. y Canadá como opciones desplegables:</br>
+      <td><p>Escriba o pegue la ruta JSON para la API.</p> <p>Esta opción permite extraer datos del JSON devuelto por la URL de la API. Sirve para seleccionar qué valores dentro del JSON aparecerán en las opciones desplegables.</p><p>Por ejemplo, si la dirección URL de la API devuelve JSON en el siguiente formato, puede usar “$.data[*].name” para seleccionar EE. UU. y Canadá como opciones desplegables:</br>
       <pre>
       &lbrace;
-       datos: &lbrace;
+       data: &lbrace;
          { name: "USA"},
          { name: "Canada"}
        &rbrace;
@@ -769,7 +769,7 @@ Para añadir una búsqueda externa, haga lo siguiente:
 
    O
 
-   Haga clic en **Guardar y Cerrar**.
+   Haga clic en **Guardar y cerrar**.
 
 >[!NOTE]
 >
@@ -921,7 +921,7 @@ Esta tabla enumera los campos nativos disponibles para objetos de Workfront espe
 | <span class="preview"> ingresos fijos </span> | <span class="preview"> ✓ </span> |   |   | <span class="preview"> ✓ </span> |   |   |   |   |
 | Grupo | ✓ |   |   | ✓ |   | ✓ | ✓ |   |
 | Última actualización por | ✓ | ✓ | ✓ | ✓ | ✓ |   |   |   |
-| Fecha de última actualización | ✓ | ✓ | ✓ | ✓ | ✓ |   |   |   |
+| Fecha de la última actualización | ✓ | ✓ | ✓ | ✓ | ✓ |   |   |   |
 | Nombre | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
 | Propietario | ✓ |   |   | ✓ |   | ✓ | ✓ |   |
 | Método </span> del índice de rendimiento de <span class="preview"> | <span class="preview"> ✓ </span> |   |   | <span class="preview"> ✓ </span> |   |   |   |   |
@@ -932,7 +932,7 @@ Esta tabla enumera los campos nativos disponibles para objetos de Workfront espe
 | Fecha de inicio planificada | ✓ |   |   |   |   |   |   |   |
 | Portafolio | ✓ |   |   | ✓ |   |   | ✓ |   |
 | Prioridad | ✓ | ✓ | ✓ | ✓ | ✓ |   |   |   |
-| Programa | ✓ |   |   | ✓ |   |   |   |   |
+| Programar | ✓ |   |   | ✓ |   |   |   |   |
 | Fecha proyectada de finalización | ✓ | ✓ |   |   |   |   |   |   |
 | Minutos de duración proyectada |   | ✓ |   |   |   |   |   |   |
 | Fecha proyectada de inicio | ✓ | ✓ |   |   |   |   |   |   |
@@ -1063,7 +1063,7 @@ Para añadir un archivo Adobe XD:
      <tr> 
       <td role="rowheader">URL</td> 
       <td> <p>(Obligatorio) Escriba o pegue un vínculo válido de prototipo de XD.</p> 
-      <p><b>Nota</b>: La configuración de Acceso al vínculo de la pestaña Compartir de Adobe XD debe establecerse en Cualquiera con el vínculo. De lo contrario, los usuarios no podrán ver el prototipo. 
+      <p><b>Nota</b>: la configuración de Acceso a vínculos en la ficha Compartir de Adobe XD debe establecerse en Cualquiera que tenga el vínculo. De lo contrario, los usuarios no podrán ver el prototipo. 
    </td> 
      </tr> 
      <tr> 
