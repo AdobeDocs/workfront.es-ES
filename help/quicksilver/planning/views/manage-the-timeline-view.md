@@ -8,20 +8,20 @@ recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 2b0fdb3c74882b566a397872e1cc8007728b770c
+source-git-commit: fe952ab2c08d2fd45381614618686da201decd0e
 workflow-type: tm+mt
-source-wordcount: '4068'
-ht-degree: 40%
+source-wordcount: '4251'
+ht-degree: 39%
 
 ---
 
 # Administrar la vista de cronología
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+<span class="preview">La información resaltada en esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa para todos los clientes. Después de las versiones mensuales en Production, las mismas funciones también están disponibles en el entorno Production para los clientes que habilitaron versiones rápidas. </span>
+
+<span class="preview">Para obtener información sobre las versiones rápidas, consulte [Habilitar o deshabilitar las versiones rápidas para su organización](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
 
 {{planning-important-intro}}
 
@@ -286,11 +286,13 @@ Tenga en cuenta lo siguiente al trabajar con filtros en la vista de cronología:
 
 * Puede filtrar por campos de registro conectados o por campos de búsqueda.
 * Puede filtrar por campos de búsqueda que muestren varios valores.
+* <span class>Puede filtrar por los tipos de registro de la vista de escala de tiempo o por cualquier tipo de registro conectado que forme parte de la estructura de desglose de la vista. </span>
 
 Para agregar un filtro a una vista de cronología:
 
 1. Cree una vista de escala de tiempo para una página de tipo de registro, tal como se describe en el artículo [Administrar vistas de registros](/help/quicksilver/planning/views/manage-record-views.md).
-1. Seleccione una vista de escala de tiempo y haga clic en **Filtros** en la esquina superior derecha de la tabla.
+1. Seleccione una vista de escala de tiempo y haga clic en **Filtros** en la esquina superior izquierda de la tabla.
+1. <span class>(Condicional) Si agregó una estructura de desglose a la vista de cronología, expanda el tipo de registro en la primera lista desplegable del cuadro de filtro. Es el tipo de registro cuya vista de escala de tiempo se está mostrando. </span>
 1. Haga clic en **Añadir condición** y añada la siguiente información:
 
    * **Seleccione un campo** para buscar un campo y selecciónelo en la lista.
@@ -374,14 +376,19 @@ Para agregar un filtro a una vista de cronología:
    * **OR**: se debe cumplir cualquiera de las condiciones especificadas.
 Esta es la opción predeterminada.
 
-   1. (Opcional) Agregue agrupaciones de filtros adicionales y únase a ellas con los operadores **AND** o **OR**.
-
-      ![Filtros de varios niveles en las vistas](assets/multi-tiered-filters-in-views.png)
+1. (Opcional) Agregue agrupaciones de filtros adicionales y únase a ellas con los operadores **AND** o **OR**.
 
    La lista de registros se filtra automáticamente según los criterios de filtro.  <!--at this time, you can't name and save the filter - but will this change?!-->
    <!-- asked on the task for the simple filters whether there is a limitation for how many statements a filter can have?!-->
 
 1. (Opcional) Haga clic en el icono **x** para quitar una condición de filtro.
+1. <span class="preview"> (opcional y condicional) Si agregó una estructura de desglose a la vista de cronología, expanda el tipo de registro en el siguiente menú desplegable y repita los mismos pasos que se describen arriba para agregar un filtro para un tipo de registro incluido en el desglose. </span>
+
+   <span class="preview"> Repetir para cada tipo de registro en el desglose.</span>
+
+   ![Filtro de varios niveles con desglose para la vista de escala de tiempo](assets/multi-tiered-filters-with-breakdown-for-timeline-view.png)
+
+   <span class="preview">Solo puede filtrar tipos de registros de desglose desde la vista de escala de tiempo.</span>
 1. (Opcional) Haga clic en **Filtros** o en cualquier otra parte de la página para cerrar el cuadro de filtros. <!--right now you cannot "clear all" for filters, but this might come later-->
 
 
