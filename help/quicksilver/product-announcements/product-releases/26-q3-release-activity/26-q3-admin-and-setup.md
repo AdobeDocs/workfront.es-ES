@@ -4,7 +4,7 @@ description: Mejoras del administrador en el tercer trimestre de 2026
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: a88a468901cc7a28139315ab820fc612f1c31736
+source-git-commit: eb59acc816f0fd82330b60ddc9cd2f3aad851198
 workflow-type: tm+mt
 source-wordcount: '438'
 ht-degree: 4%
@@ -66,4 +66,3 @@ Para obtener más información, consulte [Compartir un formulario personalizado]
 Actualmente, cuando se editan objetos por lotes, los campos obligatorios solo se aplican cuando un usuario modifica el campo. Si un campo no se modifica, se trata como opcional y no se valida.
 
 Una nueva preferencia del sistema ahora le permite aplicar los campos obligatorios en la edición masiva. Para no permitir que se guarden objetos editados en lotes a menos que todos los campos obligatorios tengan valores, seleccione la opción **Aplicar siempre los campos obligatorios en la edición en lotes** en la página Configuración > Sistema > Preferencias.
-
