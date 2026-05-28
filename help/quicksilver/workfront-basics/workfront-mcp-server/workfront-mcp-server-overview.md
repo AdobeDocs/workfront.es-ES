@@ -5,10 +5,9 @@ title: Información general del servidor MCP de Adobe Workfront
 description: Descubra qué hace el servidor MCP de Adobe Workfront y cómo le permite trabajar con Workfront a través de una conversación en lenguaje natural en una plataforma independiente de IA.
 author: Courtney
 feature: Get Started with Workfront
-hide: true
-source-git-commit: 14b3f452ebd127eebba8195f1e23e1093382d049
+source-git-commit: e7dadae62ea2f5e9772705cafdc5e067cec1ae08
 workflow-type: tm+mt
-source-wordcount: '221'
+source-wordcount: '329'
 ht-degree: 0%
 
 ---
@@ -16,23 +15,40 @@ ht-degree: 0%
 
 # Información general del servidor MCP de Adobe Workfront
 
-El servidor [!DNL Adobe Workfront] MCP (Model Context Protocol) le permite trabajar con sus datos de Workfront a través de una conversación en lenguaje natural en una plataforma independiente compatible. En lugar de hacer clic en Workfront para encontrar un proyecto, actualizar una tarea o comprobar una aprobación, le solicita a la plataforma agéntica de IA en inglés claro y esta hace el trabajo por usted.
-
-No necesita saber la API de Workfront ni nada sobre MCP para utilizar el servidor MCP de Workfront. Configure la plataforma agéntica de IA para hablar con Workfront una vez y, a continuación, comience a preguntar.
-
-<!-- NEEDS DECISION: Keep "V1" / "initial release" framing in this section, or describe current capabilities as the product without versioning language? -->
-
-## Plataformas agénticas de IA compatibles
-
-Actualmente, el servidor MCP de Workfront admite las siguientes plataformas agénticas de IA:
-
-* [!DNL Claude]
-
-<!-- NEEDS DETAIL: Update this list as Adobe adds support for additional AI agentic platforms (for example, [!DNL ChatGPT], [!DNL Gemini], or [!DNL Microsoft Copilot]). -->
+{{highlighted-preview-article-level}}
 
 
-## Configuración y uso del servidor MCP de Workfront
+El servidor MCP de [!DNL Adobe Workfront] conecta su instancia de Workfront con una plataforma independiente de IA, como [!DNL Claude] o [!DNL ChatGPT]. Desde la plataforma agéntica de IA, puede encontrar, crear, actualizar y administrar elementos de Workfront realizando solicitudes en lenguaje natural.
 
-Antes de poder usar el servidor MCP de Workfront, un administrador de Workfront debe habilitar el acceso al servidor MCP en Workfront y debe conectar su plataforma independiente de IA a Workfront. Para obtener más información, consulte [Configuración del servidor MCP de Adobe Workfront](/help/quicksilver/workfront-basics/workfront-mcp-server/configure-workfront-mcp-server.md).
+Por ejemplo, puede preguntar:
 
-Después de la configuración, puede solicitar a la plataforma agéntica de IA que busque, cree, actualice y administre elementos de Workfront. Para obtener más información acerca de las acciones disponibles, las solicitudes de ejemplo y la administración de datos, vea [Usar el servidor MCP de Adobe Workfront](/help/quicksilver/workfront-basics/workfront-mcp-server/use-workfront-mcp-server.md).
+* *Mostrarme todos los proyectos activos del equipo de marketing de marca.*
+* *Actualice la tarea &quot;Revisión de diseño&quot; para que finalice el 18 de abril.*
+* *Envíe un recordatorio a los aprobadores del recurso &quot;Vídeo de campaña de primavera&quot; que no hayan respondido.*
+
+No necesita saber la API de Workfront ni cómo funcionan los servidores MCP para utilizar el servidor MCP de Workfront.
+
+>[!IMPORTANT]
+>
+>Actualmente, el servidor MCP de Workfront solo está disponible para clientes de la región de EE. UU. que utilizan AWS.
+
+## Qué es un servidor MCP
+
+Un servidor MCP es un punto de conexión que permite que una plataforma auténtica de IA funcione con otro sistema. El servidor MCP de Workfront es a lo que se conecta su plataforma agéntica de IA para que pueda leer y actuar en sus datos de Workfront en su nombre.
+
+MCP significa Protocolo de contexto de modelo. Este es el estándar que define cómo las plataformas agénticas de IA y los sistemas externos se comunican entre sí.
+
+## Configuración de la conexión
+
+El servidor MCP de Workfront funciona con cualquier plataforma independiente de IA compatible con MCP, como [!DNL Claude] o [!DNL ChatGPT]. Antes de poder usarlo, debe ocurrir lo siguiente:
+
+* Un administrador de Workfront debe habilitar el acceso al servidor MCP en la instancia de Workfront.
+* Usted (o su administrador) debe conectar su plataforma agéntica de IA a Workfront.
+
+Para obtener más información, consulte [Configuración del servidor MCP de Adobe Workfront](/help/quicksilver/workfront-basics/workfront-mcp-server/configure-workfront-mcp-server.md).
+
+## Empezar a utilizar el servidor MCP de Workfront
+
+Después de la configuración, puede pedir a su plataforma agéntica de IA que busque, cree, actualice y administre elementos de Workfront en lenguaje natural.
+
+Para obtener más información, incluidas solicitudes de ejemplo, aspectos que se deben tener en cuenta e información sobre datos y seguridad, vea [Usar el servidor MCP de Adobe Workfront](/help/quicksilver/workfront-basics/workfront-mcp-server/use-workfront-mcp-server.md).

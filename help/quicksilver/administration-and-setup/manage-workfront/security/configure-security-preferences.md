@@ -10,10 +10,10 @@ role: Admin
 exl-id: f92ceed7-b191-425b-9fff-1b0947f32db8
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: ade3f6eef4252c123b41b7bbc4871cf01708f485
+source-git-commit: e3c540cde02d64e8a141828cc34641429da05d4b
 workflow-type: tm+mt
-source-wordcount: '863'
-ht-degree: 65%
+source-wordcount: '933'
+ht-degree: 58%
 
 ---
 
@@ -148,6 +148,14 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
      <tr> 
       <td role="rowheader">Inclusión a las betas de IA </td> 
       <td>Permite habilitar las funciones de IA que se encuentran actualmente en Beta. Si activa esta opción, puede seleccionar qué funciones de AI Beta desea habilitar. Para obtener más información acerca de cada función de AI Beta, haga clic en el icono de información situado junto a ella.</td> 
+     </tr>
+     <tr> 
+      <td role="rowheader"><span class="preview">Herramientas MCP de solo lectura</span></td> 
+      <td><span class="preview">Permite que el servidor MCP de Workfront realice acciones de lectura en los datos de Workfront como, por ejemplo, buscar o enumerar proyectos, tareas u otros elementos. Esta opción está habilitada de forma predeterminada.<p>Para obtener más información sobre el servidor MCP de Workfront, consulte <a href="/help/quicksilver/workfront-basics/workfront-mcp-server/configure-workfront-mcp-server.md">Configuración del servidor MCP de Adobe Workfront</a>.</p></span></td> 
+     </tr>
+     <tr> 
+      <td role="rowheader"><span class="preview">Escribir herramientas de MCP</span></td> 
+      <td><span class="preview">Permite que el servidor MCP de Workfront realice acciones de creación, actualización y eliminación en los datos de Workfront. Esta opción está desactivada de forma predeterminada.<p>Para obtener más información sobre el servidor MCP de Workfront, consulte <a href="/help/quicksilver/workfront-basics/workfront-mcp-server/configure-workfront-mcp-server.md">Configuración del servidor MCP de Adobe Workfront</a>.</p></span></td> 
      </tr>
      <tr> 
       <td role="rowheader">Entornos de prueba</td> 
