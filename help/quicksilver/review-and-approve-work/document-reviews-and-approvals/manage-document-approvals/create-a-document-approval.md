@@ -8,14 +8,16 @@ feature: Work Management, Digital Content and Documents
 exl-id: a02699e1-3557-47f0-89b7-dbecb507a174
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
+source-git-commit: 315ec33fdcb79c6ba739a40de92be92e829a96d5
 workflow-type: tm+mt
-source-wordcount: '711'
-ht-degree: 19%
+source-wordcount: '1473'
+ht-degree: 10%
 
 ---
 
 # Crear un flujo de trabajo de aprobación de documentos
+
+{{highlighted-preview}}
 
 Puede solicitar la aprobación de otros usuarios o equipos para un documento en Adobe Workfront o solicitar que revisen un documento sin necesidad de aprobarlo.
 
@@ -59,7 +61,7 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
 
 +++
 
-## Cree un flujo de trabajo de aprobación desde el panel Resumen en el área de documentos heredados
+## Cree un flujo de trabajo de aprobación desde el panel de resumen en el área de documentos heredados de Producción
 
 Si su organización está en el almacenamiento de Workfront, verá el área de documentos heredados al acceder a documentos en Workfront. Para obtener más información sobre el almacenamiento de Workfront, consulte [Diferencias entre el almacenamiento en la nube de Adobe y el almacenamiento de Workfront heredado](/help/quicksilver/review-and-approve-work/esm-overview.md#differences-between-adobe-cloud-storage-and-legacy-workfront-storage).
 
@@ -104,7 +106,61 @@ Para crear un flujo de trabajo de aprobación:
    ![Detalles del documento](assets/new-stage.png)
 
 
-## Cree un flujo de trabajo de aprobación desde el Panel de resumen en el área nueva Documentos
+<div class="preview">
+
+## Cree un flujo de trabajo de aprobación desde el Panel de resumen en el área de documentos heredados en Vista previa
+
+Si su organización está en el almacenamiento de Workfront, verá el área de documentos heredados al acceder a documentos en Workfront. Para obtener más información sobre el almacenamiento de Workfront, consulte [Diferencias entre el almacenamiento en la nube de Adobe y el almacenamiento de Workfront heredado](/help/quicksilver/review-and-approve-work/esm-overview.md#differences-between-adobe-cloud-storage-and-legacy-workfront-storage).
+
+Para crear un flujo de trabajo de aprobación:
+
+1. Vaya al proyecto, tarea o problema que contiene el documento y, a continuación, seleccione **Documentos** en el panel izquierdo.
+
+1. Haga clic en el documento que necesita y se abrirá el panel Resumen del documento para ese documento.
+
+1. Seleccione la versión del documento para la que desea crear una aprobación en el menú desplegable de versión. La última versión está seleccionada de forma predeterminada.
+
+1. Desplácese hacia abajo hasta la sección **Aprobaciones** y haga clic en **Crear flujo de trabajo**.
+
+1. Complete los siguientes detalles:
+
+   <table>
+   <tr>
+   <td><strong>Nombre de la fase</strong></td>
+   <td>Añada un nombre de fase. Puede cambiar el nombre por otro más descriptivo, como <em>Revisión inicial</em> o <em>Aprobación final</em>.</td>
+   </tr>
+   <tr>
+   <td><strong>Añadir nombres o correos electrónicos</strong></td>
+   <td>Empiece a escribir el nombre de un usuario o equipo que desee agregar como aprobador o revisor. Si solo tiene revisores, se les notificará y tendrán la opción de completar la revisión, pero no se requerirá ni se adoptará ninguna decisión.</td>
+   </tr>
+   <tr>
+   <td><strong>Solo se requiere una decisión (opcional)</strong></td>
+   <td>La primera persona que toma una decisión completa la etapa.</td>
+   </tr>
+   <tr>
+   <td><strong>Vence el (opcional)</strong></td>
+   <td>Establezca una fecha límite para la aprobación. Los usuarios y equipos reciben una notificación por correo electrónico 72 horas y, a continuación, 24 horas antes de la fecha de vencimiento especificada.</td>
+   </tr>
+   <tr>
+   <td><strong>Añadir mensaje personalizado (opcional)</strong></td>
+   <td>Escriba un mensaje en el cuadro de texto <strong>Agregar mensaje personalizado</strong>. El mensaje aparece en la notificación de correo electrónico de aprobación y en la pestaña Aprobaciones de Workfront.
+   <p>Al agregar una segunda etapa, <strong>Mostrar este mensaje en todas las etapas</strong> está seleccionado de manera predeterminada. Deje seleccionado para utilizar el mismo mensaje en cada fase. Para usar un mensaje diferente para cada fase, desactive <strong>Mostrar este mensaje en todas las fases</strong> y, a continuación, escriba el mensaje específico de cada fase en el cuadro de texto <strong>Agregar mensaje personalizado</strong> de cada fase según sea necesario.</p></td>
+   </tr>
+   </table>
+
+1. (Opcional) Repita el paso anterior para agregar etapas adicionales según sea necesario.
+
+   >[!NOTE]
+   >
+   >* Si agrega varias fases, el flujo de trabajo de aprobación se ejecuta en el orden en que se enumeran las fases. Cuando se toman todas las decisiones necesarias, comienza la siguiente etapa y se bloquea la anterior.
+   >* Si edita un mensaje personalizado después de crear el flujo de trabajo de aprobación, se envía una notificación por correo electrónico actualizada a todos los participantes existentes. Si agrega un participante más adelante, el mensaje personalizado se incluye en su notificación por correo electrónico.
+
+   ![Agregar mensaje personalizado a una fase](assets/add-custom-message.jpeg)
+
+</div>
+
+
+## Cree un flujo de trabajo de aprobación desde el panel Resumen en el nuevo área Documentos de Producción
 
 Si su organización utiliza el almacenamiento en la nube de Adobe, verá la nueva área Documentos al acceder a documentos en Workfront. Para obtener más información sobre el almacenamiento en la nube de Adobe, consulte [Información general sobre el almacenamiento en la nube de Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
@@ -112,7 +168,7 @@ Para crear un flujo de trabajo de aprobación:
 
 1. Vaya al proyecto, tarea o problema que contiene el documento y, a continuación, seleccione **Documentos** en el panel izquierdo.
 
-1. Haga clic en el documento y, a continuación, en el icono Approvals situado en la parte derecha de la página.
+1. Haga clic en el documento y luego en el icono **Aprobaciones** que encontrará a la derecha de la página.
 
    ![Agregar aprobadores en el resumen del documento](assets/approvals-icon-new.png)
 
@@ -144,6 +200,58 @@ Para crear un flujo de trabajo de aprobación:
    >Si agrega varias fases, el flujo de trabajo de aprobación se ejecuta en el orden en que se enumeran las fases. Cuando se toman todas las decisiones necesarias, comienza la siguiente etapa y se bloquea la anterior.
 
    ![Detalles del documento](assets/new-stage.png)
+
+
+<div class="preview">
+
+## Cree un flujo de trabajo de aprobación desde el panel Resumen en el nuevo área Documentos de la vista previa
+
+Si su organización utiliza el almacenamiento en la nube de Adobe, verá la nueva área Documentos al acceder a documentos en Workfront. Para obtener más información sobre el almacenamiento en la nube de Adobe, consulte [Información general sobre el almacenamiento en la nube de Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
+
+Para crear un flujo de trabajo de aprobación:
+
+1. Vaya al proyecto, tarea o problema que contiene el documento y, a continuación, seleccione **Documentos** en el panel izquierdo.
+
+1. Haga clic en el documento y luego en el icono **Aprobaciones** que encontrará a la derecha de la página.
+
+   ![Agregar aprobadores en el resumen del documento](assets/approvals-icon-new.png)
+
+1. Haga clic en **Crear flujo de trabajo** y rellene los siguientes detalles:
+
+   <table>
+   <tr>
+   <td><strong>Nombre de la fase</strong></td>
+   <td>Añada un nombre de fase. Puede cambiar el nombre por otro más descriptivo, como <em>Revisión inicial</em> o <em>Aprobación final</em>.</td>
+   </tr>
+   <tr>
+   <td><strong>Añadir nombres o correos electrónicos</strong></td>
+   <td>Empiece a escribir el nombre de un usuario o equipo que desee agregar como aprobador o revisor. Si solo tiene revisores, se les notificará y tendrán la opción de completar la revisión, pero no se requerirá ni se adoptará ninguna decisión.</td>
+   </tr>
+   <tr>
+   <td><strong>Solo se requiere una decisión (opcional)</strong></td>
+   <td>La primera persona que toma una decisión completa la etapa.</td>
+   </tr>
+   <tr>
+   <td><strong>Vence el (opcional)</strong></td>
+   <td>Establezca una fecha límite para la aprobación. Los usuarios y equipos reciben una notificación por correo electrónico 72 horas y, a continuación, 24 horas antes de la fecha de vencimiento especificada.</td>
+   </tr>
+   <tr>
+   <td><strong>Añadir mensaje personalizado (opcional)</strong></td>
+   <td>Escriba un mensaje en el cuadro de texto <strong>Agregar mensaje personalizado</strong>. El mensaje aparece en la notificación de correo electrónico de aprobación y en la pestaña Aprobaciones de Workfront.
+   <p>Al agregar una segunda etapa, <strong>Mostrar este mensaje en todas las etapas</strong> está seleccionado de manera predeterminada. Deje seleccionado para utilizar el mismo mensaje en cada fase. Para usar un mensaje diferente para cada fase, desactive <strong>Mostrar este mensaje en todas las fases</strong> y, a continuación, escriba el mensaje específico de la fase en el cuadro de texto <strong>Agregar mensaje personalizado</strong> de cada fase.</p></td>
+   </tr>
+   </table>
+
+1. (Opcional) Repita el paso anterior para agregar etapas adicionales según sea necesario.
+
+   >[!NOTE]
+   >
+   >* Si agrega varias fases, el flujo de trabajo de aprobación se ejecuta en el orden en que se enumeran las fases. Cuando se toman todas las decisiones necesarias, comienza la siguiente etapa y se bloquea la anterior.
+   >* Si edita un mensaje personalizado después de crear el flujo de trabajo de aprobación, se envía una notificación por correo electrónico actualizada a todos los participantes existentes. Si agrega un participante más adelante, el mensaje personalizado se incluye en su notificación por correo electrónico.
+
+   ![Agregar mensaje personalizado a una fase](assets/add-custom-message.jpeg)
+
+</div>
 
 
 
