@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 453dbf1c7598858e99d963f7a3806355a8cc80a9
+source-git-commit: fe952ab2c08d2fd45381614618686da201decd0e
 workflow-type: tm+mt
-source-wordcount: '1151'
+source-wordcount: '1114'
 ht-degree: 6%
 
 ---
@@ -50,7 +50,7 @@ Puede compartir manualmente los siguientes objetos en Workfront Planning:
    * Al compartir un espacio de trabajo, también se comparten todos los tipos de registros, registros y campos asociados a los espacios de trabajo.
    * Al compartir un espacio de trabajo, las vistas no se comparten. Las vistas se comparten por separado.
 
-  For more information, see [Share workspaces](/help/quicksilver/planning/access/share-workspaces.md)
+  Para obtener más información, vea [Compartir espacios de trabajo](/help/quicksilver/planning/access/share-workspaces.md)
 
 * Tipos de registro
 
@@ -60,15 +60,30 @@ Puede compartir manualmente los siguientes objetos en Workfront Planning:
 
   Para obtener más información, vea [Compartir tipos de registros](/help/quicksilver/planning/access/share-record-types.md).
 
+<!--
+<div class="preview">
+
+* Records
+    
+    * You can share records with people inside your organization.
+    * Users inherit permissions from the workspace and the record type by default. 
+    * You cannot share a record with a higher or lower permission level than the user has on the record type. 
+
+    For more information, see [Share records](/help/quicksilver/planning/access/share-records.md).
+
+</div>
+
+-->
 
 * Vistas
 
    * Debe conceder a los usuarios, incluidos los administradores del sistema, permisos para acceder a las vistas por separado de sus permisos para acceder a espacios de trabajo.
    * Al compartir una vista, se comparten todos los elementos de la vista, incluidos los filtros, la agrupación, el orden o la configuración.
    * Al compartir una vista, los registros visibles en la vista no se comparten. Los registros deben compartirse compartiendo espacios de trabajo.
-   * Puede compartir una vista públicamente, con personas fuera de su organización cuando genere un vínculo público para una vista.Las personas que accedan a la página de registro desde un vínculo público pueden ver todos los registros y sus campos, incluidos los registros y campos conectados.
+   * Puede compartir una vista públicamente, con personas fuera de su organización, cuando genere un vínculo público para una vista.Las personas que acceden a la página de registros desde un vínculo público pueden ver todos los registros y sus campos, incluidos los registros y campos conectados.
 
   Para obtener más información, consulte [Compartir vistas](/help/quicksilver/planning/access/share-views.md).
+
 
 ## Consideraciones sobre el uso compartido de objetos en Adobe Workfront Planning
 
@@ -78,15 +93,11 @@ Puede compartir manualmente los siguientes objetos en Workfront Planning:
 * Los administradores del sistema pueden administrar todos los espacios de trabajo del sistema, incluidos los que no crearon.
 * Otros usuarios, incluidos los administradores del sistema, solo pueden acceder a las vistas que han creado o que se han compartido con ellos. A los administradores del sistema solo se les pueden otorgar permisos para administrar una vista.
 
-* Cuando comparte espacios de trabajo y tipos de registros con otros usuarios, el nivel de permiso del tipo de registro se hereda automáticamente a los registros y campos asociados a ellos.
+* Cuando comparte espacios de trabajo y tipos de registros con otros usuarios, el nivel de permiso del tipo de registro se hereda automáticamente a los registros y campos asociados a ellos de forma predeterminada.
 
-  >[!IMPORTANT]
-  >
-  >Los usuarios con los que desea compartir objetos de Planning deben agregarse a Adobe Admin Console. You cannot share Planning objects with Workfront users who have not been added to the Adobe Admin Console.
+* Puede compartir objetos de Planning de las siguientes maneras:
 
-* You can share Planning objects in the following ways:
-
-   * Internally, you can share a workspace, a view, or a record type with the following Workfront entities:
+   * Internamente, puede compartir objetos de Workfront Planning con las siguientes entidades de Workfront:
 
       * Usuarios
       * Grupos
@@ -114,7 +125,7 @@ Las tablas de las secciones siguientes ilustran el nivel de permisos que puede s
 > 
 >Los usuarios con todos los demás tipos de licencia pueden tener permisos de visualización en espacios de trabajo y vistas.
 >
->For information, see [License type overview when using Adobe Workfront Planning](/help/quicksilver/planning/access/license-type-overview.md).
+>Para obtener más información, consulte [Descripción general del tipo de licencia al usar Adobe Workfront Planning](/help/quicksilver/planning/access/license-type-overview.md).
 
 
 ### Permisos para espacios de trabajo
@@ -162,8 +173,8 @@ Puede conceder a los usuarios permisos inferiores en el tipo de registro que los
 Sin embargo, no puede hacer lo siguiente:
 
 * Conceda permisos superiores al tipo de registro que los usuarios tienen en el espacio de trabajo.
-* Give workspace managers lower permissions on a record type.
-* Remove View permissions to the record type or the workspace by removing users from the record type permissions.
+* Asigne a los administradores de espacio de trabajo permisos inferiores en un tipo de registro.
+* Quite los permisos de Vista en el tipo de registro o en el espacio de trabajo quitando usuarios de los permisos de tipo de registro.
 
 Se dan los siguientes escenarios:
 
@@ -181,6 +192,8 @@ Se dan los siguientes escenarios:
 
 Los permisos de registro se heredan del tipo de registro, cuando se conceden permisos al espacio de trabajo y al tipo de registro.
 
+<!--In the Production environment, -->
+
 A continuación se indican los niveles de permisos para los registros:
 
 
@@ -190,6 +203,42 @@ A continuación se indican los niveles de permisos para los registros:
 | Eliminar | ✓ | ✓ |       |
 | Editar | ✓ | ✓ |       |
 | Ver | ✓ | ✓ | ✓ |
+
+<!--
+
+<div class="preview">
+
+In the Preview environment, the following are the levels of permissions for records: 
+
+|        | Manage |  View  |
+|--------|--------|-------|
+| Create | ✓      |       |
+| Delete | ✓      |       |
+| Edit   | ✓      |       |
+| View   | ✓      | ✓     |
+
+
+
+Record permissions are always inherited when you grant permissions to the workspace and the record type.
+
+You can remove the record's inherited permissions received from the record type. Workspace managers and record creators retain Manage permissions to the record. 
+
+You cannot give users lower or higher permissions on the record than they have on the record type. 
+
+The following scenarios exist: 
+
+|   Workspace and record type permissions     | Automatic inherited permissions for a Record |Possible Record permissions when Inherited permissions are turned off (granted manually)|
+|--------|--------|-------------|
+| Manage |   Manage    |   Manage, Remove permissions*           |
+| Contribute |     Manage |  Manage, Remove permissions*        |
+| View   |  View     |      View, Remove permissions*        |
+
+>[!NOTE]
+>
+>*When you remove permissions from a record, users still retain View permissions to the workspace and the record type, unless you remove their permissions from the workspace. 
+
+</div>
+-->
 
 ### Permisos para registrar campos
 
@@ -209,7 +258,7 @@ Los siguientes permisos hacen referencia a los propios campos y no a los valores
 
 Debe conceder permisos independientes a las vistas de registros. La concesión de permisos al espacio de trabajo no concede permisos a las vistas de registros del espacio de trabajo.
 
-You must give users permission to  views to allow them to have access to the following view elements:
+Debe conceder permiso a los usuarios para que puedan acceder a los siguientes elementos de vista:
 
 * Filtros
 * Visibilidad de campo
@@ -235,7 +284,7 @@ Los siguientes son los niveles de permisos para vistas y elementos de vista:
 | Ver | ✓ |
 | Aplicar | ✓ |
 
-*Users must have View or higher permissions to a workspace to gain this view access.
+*Los usuarios deben tener permisos de Vista o superiores en un espacio de trabajo para obtener este acceso de vista.
 
 <!--
 old view permissions, before sharing View permissions to a view through a workspace:

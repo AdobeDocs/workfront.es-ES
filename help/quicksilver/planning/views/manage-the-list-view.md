@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 1c7e6973-6e9e-4c93-9d3b-89ed90df9d14
 last-update: 2026-04-01T18:23:03Z
 git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
-source-git-commit: c3d34c4b33164f5fe5b4420f3ddc81f3390abbf1
+source-git-commit: fe952ab2c08d2fd45381614618686da201decd0e
 workflow-type: tm+mt
-source-wordcount: '1803'
+source-wordcount: '1948'
 ht-degree: 1%
 
 ---
@@ -22,11 +22,11 @@ ht-degree: 1%
 although list views in Planning are very similar to Workfront enhanced lists, keep this one separate with all the information, because of Planning standalone; some information here is also duplicated in this main Glist article: help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md
 -->
 
-<!--
-<span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+<span class="preview">La información resaltada en esta página hace referencia a funcionalidades que aún no están disponibles de forma general. Solo está disponible en el entorno de vista previa para todos los clientes. Después de las versiones mensuales en Production, las mismas funciones también están disponibles en el entorno Production para los clientes que habilitaron versiones rápidas. </span>
+
+<span class="preview">Para obtener información sobre las versiones rápidas, consulte [Habilitar o deshabilitar las versiones rápidas para su organización](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
 
 {{planning-important-intro}}
 
@@ -182,6 +182,9 @@ Removed - more direct steps below:
    1. Pase el ratón sobre el nombre de una columna, haga clic en la flecha hacia abajo situada a la izquierda del nombre de la columna y, a continuación, haga clic en una de las siguientes opciones:
       * **Cambiar nombre**, para agregar una **etiqueta personalizada** para la columna. El nombre del campo original en Workfront no cambia.
       * **Ordenar**, para ordenar la lista por el campo seleccionado. Se agrega un icono de ordenación que indica la dirección de la ordenación al encabezado de la columna.
+   1. Haga clic en el encabezado de una columna y, a continuación, arrástrela y suéltela en otra posición de la lista.
+
+      No puede mover la primera columna.
    1. Haga clic en el icono **+** en la esquina superior derecha de la lista para agregar o quitar columnas y, a continuación, haga clic en **Guardar**.
 
       Se abre **Administrador de columnas**.
@@ -252,6 +255,12 @@ Hay un punto azul al lado del icono **Formato de celdas** para indicar que la vi
 1. Haga doble clic dentro de una celda de la lista para editar la información de un campo y, a continuación, pulse Intro para guardar los cambios.
 
    Algunos campos son de solo lectura. Por ejemplo, el porcentaje completado de un proyecto es un campo calculado por el sistema y no se puede editar manualmente.
+
+1. (Condicional) Para los campos de tipo seleccionados, utilice las flechas del teclado para navegar por la lista de opciones y, a continuación, pulse la barra espaciadora para seleccionar la opción correcta.
+
+   <span class="preview">Use la línea **Buscar** en determinados tipos de campo para encontrar la opción correcta.</span>
+
+   <span class="preview">Puede agregar nuevas opciones directamente desde la celda de campo cuando no se encuentren resultados. Esta característica puede no estar disponible en todas las listas.</span>
 
 1. Pase el ratón sobre el nombre de un elemento en la lista y haga clic en el menú **Más** [Menú más](assets/more-menu.png) y luego haga clic en **Ver** para abrir el elemento en otra pestaña
 
