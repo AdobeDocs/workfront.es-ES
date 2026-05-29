@@ -5,10 +5,10 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8ca50590-ef6a-44b1-a856-9821bdafbc1c
-source-git-commit: eb59acc816f0fd82330b60ddc9cd2f3aad851198
+source-git-commit: c90d91ab7b901d20d639d2507297f147821db8b2
 workflow-type: tm+mt
-source-wordcount: '1374'
-ht-degree: 21%
+source-wordcount: '1443'
+ht-degree: 20%
 
 ---
 
@@ -248,6 +248,15 @@ Se celebran seminarios web en directo para cada versión trimestral, en los que 
             <td><strong>Vista previa</strong></td>
             <td><strong>Versión rápida</strong></td>
             <td><strong>Trimestralmente</strong></td>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-other.md" class="MCXref xref" xrefformat="{para}">Se ha actualizado la apariencia de los correos electrónicos de notificación de comentarios</a><p>[!BADGE Off schedule]{type=Neutral}</p>
+                <p>Las notificaciones por correo electrónico de los comentarios en el área de Actualizaciones tienen una nueva apariencia que se alinea con el diseño de correo electrónico de Adobe más amplio. El hilo de los comentarios anteriores ya no se incluye en el cuerpo del correo electrónico.</p>
+            </td>
+            <td><p>Despliegue gradual, fecha de inicio por anunciar</p></td>
+            <td><p>Despliegue gradual, fecha de inicio por anunciar</p></td>
+            <td><p>Despliegue gradual, fecha de inicio por anunciar</p></td>
+        </tr>
         <tr>
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-other.md" class="MCXref xref" xrefformat="{para}">Conecte su plataforma de IA a Workfront con el servidor MCP de Workfront</a>

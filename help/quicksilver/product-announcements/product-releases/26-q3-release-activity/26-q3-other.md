@@ -4,10 +4,10 @@ description: Otras mejoras durante el periodo de tiempo de lanzamiento del terce
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: eb59acc816f0fd82330b60ddc9cd2f3aad851198
+source-git-commit: c90d91ab7b901d20d639d2507297f147821db8b2
 workflow-type: tm+mt
-source-wordcount: '473'
-ht-degree: 2%
+source-wordcount: '606'
+ht-degree: 1%
 
 ---
 
@@ -17,6 +17,26 @@ Esta página describe las mejoras realizadas con la versión del tercer trimestr
 
 Para obtener una lista de todos los cambios disponibles en este punto del ciclo de la versión del tercer trimestre de 2026, consulte [Información general de la versión del tercer trimestre de 2026](/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-release-overview.md).
 
+
+## Apariencia actualizada para los correos electrónicos de notificación de comentarios
+
+>[!NOTE]
+>
+>Lanzamiento de la producción para los clientes: lanzamiento gradual, fecha de inicio por anunciar
+
+Las notificaciones por correo electrónico de los comentarios en el área de Actualizaciones tienen una nueva apariencia que se alinea con el diseño de correo electrónico de Adobe más amplio.
+
+El formato de correo electrónico actualizado incluye:
+
+* Un nuevo encabezado de Adobe Workfront que reemplaza la marca anterior de Workfront.
+* Un diseño optimizado que se centra en el comentario más reciente.
+* Un botón **Ver en Workfront** principal para abrir el elemento directamente.
+
+El hilo de los comentarios anteriores ya no se incluye en el cuerpo del correo electrónico. Para ver los comentarios anteriores sobre el elemento, usa **Verlo en Workfront** para abrir la conversación en Workfront.
+
+Este cambio se está implementando para los clientes por fases. Esta página se actualizará cuando se confirme la programación de despliegue.
+
+![correo electrónico de notificación de comentarios actualizado.png](assets/email-look-and-feel-update.png)
 
 ## Conecte Workfront a las herramientas de IA con el servidor MCP de Workfront
 
