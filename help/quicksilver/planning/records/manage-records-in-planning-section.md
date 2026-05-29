@@ -8,10 +8,10 @@ recommendations: noDisplay, noCatalog
 exl-id: d86cf3f9-cacc-4457-acb3-a5122ae91be8
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: a9f14c6726bcec0cc9b040dde9b6bf90a5868edc
 workflow-type: tm+mt
-source-wordcount: '1767'
-ht-degree: 4%
+source-wordcount: '1789'
+ht-degree: 6%
 
 ---
 
@@ -20,11 +20,10 @@ ht-degree: 4%
 
 # Administrar conexiones de registro desde objetos de Workfront
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">La información resaltada en esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa para todos los clientes. Después de las versiones mensuales en Production, las mismas funciones también están disponibles en el entorno Production para los clientes que habilitaron versiones rápidas. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
--->
+<span class="preview">Para obtener información acerca de las versiones rápidas, consulte [Habilitar o deshabilitar las versiones rápidas para su organización](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+
 
 {{planning-important-intro}}
 
@@ -71,7 +70,7 @@ Puede mostrar registros de Workfront Planning en Workfront en las siguientes ár
    <p>En Workfront Planning:</p>
    <ul><li>Ver permisos de un espacio de trabajo y tipo de registro para ver los registros conectados </li>
    O
-   <li> Permisos de contribución o superiores a un espacio de trabajo y tipo de registro para conectar o desconectar registros</a></li></ul> 
+   <li> Permisos de contribución o superior para un espacio de trabajo y tipo de registro y <span class="preview">Administrar permisos para un registro</span> para conectar o desconectar registros</a></li></ul> 
    <p>Los administradores del sistema tienen permisos para todos los espacios de trabajo de Workfront Planning, incluidos los que no crearon</p> 
   </td>
   </tr>   
@@ -263,7 +262,7 @@ Tenga en cuenta lo siguiente cuando vea los registros de Workfront Planning desd
 * Sólo puede asociar un tipo de registro con un campo de conexión de Planning. No hay límite en cuanto a la cantidad de campos de conexión de Planning que tiene en un formulario.
 * Debe tener el acceso y los permisos correctos para el objeto, el registro y Workfront Planning para adjuntar un formulario personalizado con un campo personalizado de conexión de Planning a un objeto de Workfront.
 * Debe tener permisos de contribución para un espacio de trabajo en Workfront Planning para poder conectar o desconectar registros del campo de conexión de Planning de un objeto de Workfront.
-* Los tipos de registros de Workfront Planning deben conectarse primero a los tipos de objetos de Workfront. Para obtener más información, consulte [Conectar tipos de registros](/help/quicksilver/planning/architecture/connect-record-types.md). Esto hace que los registros de Workfront Planning sean accesibles desde Workfront.
+* Los tipos de registros de Workfront Planning deben conectarse primero a los tipos de objetos de Workfront. Para obtener más información, consulte [Conectar tipos de registros](/help/quicksilver/planning/architecture/connect-record-types.md).Esto hace que los registros de Workfront Planning sean accesibles desde Workfront.
 * Puede conectar o desconectar registros del campo de conexión de Planning de un objeto de Workfront sólo para objetos que puedan tener conexiones de Workfront Planning.
 
   Por ejemplo, puede adjuntar un formulario personalizado con un campo de conexión de Planning a las tareas, pero no puede conectar objetos de Workfront Planning a las tareas.

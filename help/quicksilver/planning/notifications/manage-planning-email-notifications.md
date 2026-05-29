@@ -8,10 +8,10 @@ recommendations: noDisplay, noCatalog
 exl-id: 3c505b3a-cda7-4e7b-b497-28b820e9bb8f
 last-update: 2026-04-01T18:23:03Z
 git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: a9f14c6726bcec0cc9b040dde9b6bf90a5868edc
 workflow-type: tm+mt
-source-wordcount: '657'
-ht-degree: 18%
+source-wordcount: '641'
+ht-degree: 17%
 
 ---
 
@@ -164,7 +164,7 @@ La página **Notificaciones** se abre en Adobe Experience Cloud. Se muestran tod
 
 ## Administrar notificaciones por correo electrónico al solicitar y conceder permisos
 
-1. (Condicional y opcional) Después de que alguien solicite o le conceda permisos para acceder a un tipo de objeto de Planning, vaya al mensaje de correo electrónico que le informa de la solicitud de permiso. El remitente del correo electrónico es Adobe Experience Cloud.
+1. (Condicional y opcional) Después de que alguien solicite o le conceda permisos para acceder a un objeto de Planning, vaya al mensaje de correo electrónico que le informa de la solicitud de permiso. El remitente del correo electrónico es Adobe Experience Cloud.
 
 1. (Opcional) Haga clic en el mensaje en el cuadro **Workfront** dentro del correo electrónico.
 
@@ -180,8 +180,7 @@ Para obtener información sobre cómo administrar las notificaciones de Workfron
 
 ## Administrar notificaciones por correo electrónico sobre el envío, la aprobación o el rechazo de solicitudes de Workfront Planning
 
-1. (Opcional) Vaya al correo electrónico que le envía Workfront
-después de enviar una solicitud, o después de que una solicitud enviada se haya aprobado o rechazado. El remitente del correo electrónico es Adobe Workfront.
+1. (Opcional) Vaya al correo electrónico que Workfront le envía después de enviar una solicitud, o después de que una solicitud enviada se haya aprobado o rechazado. El remitente del correo electrónico es Adobe Workfront.
 
 1. (Opcional) Haga clic en **Abrir solicitud**. Esto abre la solicitud en Workfront Planning.
 

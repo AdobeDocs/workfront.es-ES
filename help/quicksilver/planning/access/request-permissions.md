@@ -8,20 +8,20 @@ recommendations: noDisplay, noCatalog
 exl-id: 94dfa36a-801a-4eef-bcf5-4a3fecc5a3d0
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 45dcff03d71c1a19ed8de8f76fa3d63788e30b44
+source-git-commit: a9f14c6726bcec0cc9b040dde9b6bf90a5868edc
 workflow-type: tm+mt
-source-wordcount: '493'
+source-wordcount: '597'
 ht-degree: 10%
 
 ---
 
 # Solicitar permisos para una vista o un espacio de trabajo
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+<span class="preview">La información resaltada en esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa para todos los clientes. Después de las versiones mensuales en Production, las mismas funciones también están disponibles en el entorno Production para los clientes que habilitaron versiones rápidas. </span>
+
+<span class="preview">Para obtener información sobre las versiones rápidas, consulte [Habilitar o deshabilitar las versiones rápidas para su organización](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
 
 <!-- 
 no longer needed: 
@@ -77,7 +77,10 @@ O
    <td role="rowheader"><p>Permisos de objeto</p></td> 
    <td>  <p>Una vez concedida la solicitud de permiso, puede obtener los siguientes permisos:</p>
    <ul><li><p>Ver o administrar para una vista</p></li>
-   <li><p>Ver, contribuir o administrar para un espacio de trabajo</p></li></ul>  
+   <li><p>Ver, contribuir o administrar para un espacio de trabajo</p></li>
+   <li><p>Ver, contribuir o administrar para un tipo de registro</p></li>
+   <li><p><span class="preview">Ver o administrar un registro</span></p></li>
+   </ul>  
    <p>Solo los usuarios con permisos de Administración de un espacio de trabajo y una vista pueden compartir una vista públicamente.</p></td> 
   </tr> 
 <tr>
@@ -168,17 +171,22 @@ Para obtener más información acerca de los requisitos de acceso de Workfront, 
 -->
 
 
-## Solicitar permisos para una vista o espacio de trabajo
+## Solicitar permisos
 
-Solicitar permisos a una vista es similar a solicitar permisos a un espacio de trabajo.
+Solicitar permisos para una vista es similar a solicitar permisos para un área de trabajo, un tipo de registro o <span class="preview">un registro</span>.
 
-Cuando alguien comparte con usted un vínculo a un espacio de trabajo o una vista a los que no tiene acceso:
+Cuando alguien comparte con usted un vínculo a un área de trabajo, tipo de registro, <span class="preview">registro</span> o una vista a la que no tiene acceso:
 
 1. Haga clic en el vínculo compartido con usted para la vista o el espacio de trabajo.
 
    Se muestra una página **No tiene acceso** para informarle de que no tiene acceso a la vista ni al área de trabajo.
 
    ![Solicitar acceso a la vista](assets/request-access-to-view.png)
+
+   >[!NOTE]
+   >
+   >Si no tiene acceso a un tipo de registro o a <span class="preview">registro</span>, la página No tiene acceso a muestra que debe tener acceso al área de trabajo.
+
 
 1. (Condicional) Si el vínculo compartido es para una vista de un área de trabajo a la que tiene acceso, haga clic en **Abrir con vista existente**. Si tiene permisos para acceder al espacio de trabajo, la página de tipo de registro se abrirá en la vista predeterminada.
 

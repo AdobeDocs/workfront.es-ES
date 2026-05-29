@@ -8,10 +8,10 @@ role: User, Admin
 exl-id: 99fac041-a235-4991-b826-d19944164bc9
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 45dcff03d71c1a19ed8de8f76fa3d63788e30b44
+source-git-commit: a9f14c6726bcec0cc9b040dde9b6bf90a5868edc
 workflow-type: tm+mt
-source-wordcount: '699'
-ht-degree: 28%
+source-wordcount: '759'
+ht-degree: 29%
 
 ---
 
@@ -20,11 +20,11 @@ ht-degree: 28%
 
 <!--do not use the snippet for IMPORTANT , as it links to this article-->
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+<span class="preview">La información resaltada en esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa para todos los clientes. Después de las versiones mensuales en Production, las mismas funciones también están disponibles en el entorno Production para los clientes que habilitaron versiones rápidas. </span>
+
+<span class="preview">Para obtener información sobre las versiones rápidas, consulte [Habilitar o deshabilitar las versiones rápidas para su organización](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
 
 >[!IMPORTANT]
 >
@@ -96,12 +96,13 @@ Debe tener el siguiente acceso para utilizar Workfront Planning:
    <td>
    <ul>
    <li><p>Ver o permisos superiores a espacios de trabajo, tipos de registros y vistas que no se han creado para acceder a ellos y a sus objetos.</p></li>
-   <li><p>Conceder permisos de contribución o superiores a espacios de trabajo y tipos de registros que no haya creado para editarlos y crear, editar o eliminar tipos de registros y registros.</p></li>
+   <li><p>Conceder permisos de contribución o superiores a espacios de trabajo y tipos de registros que no haya creado para editarlos y crear, editar o eliminar tipos de registros.</p></li>
+   <li><p><span class="preview">Administrar permisos a registros para editarlos, compartirlos o eliminarlos.</p>
    <li><p>Permisos de contribución o superiores para vistas que no haya creado, para editarlas, eliminarlas y compartirlas</p>
    </li>
     <li><p>Los administradores del sistema pueden administrar los espacios de trabajo que no hayan creado. </p></li>
     <li><p>Los administradores del sistema no pueden acceder a las vistas que no han creado. </p></li></ul>
-   <p>Para obtener información acerca de los permisos de uso compartido para objetos de Workfront Planning, consulte  
+   <p>Para obtener información acerca de los permisos de uso compartido para objetos de Workfront Planning, consulte 
    <a href="/help/quicksilver/planning/access/sharing-permissions-overview.md">Información general sobre los permisos de uso compartido en Adobe Workfront Planning</a> 
    </td>
    </tr>

@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 635045c5-17e6-483e-912b-4e9617571137
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: fdbe3945f59306fc26424d7e88b799d9dcaea4da
+source-git-commit: a9f14c6726bcec0cc9b040dde9b6bf90a5868edc
 workflow-type: tm+mt
-source-wordcount: '2582'
+source-wordcount: '2592'
 ht-degree: 5%
 
 ---
@@ -179,7 +179,7 @@ Si activa esta configuración, los formularios de solicitud de Workfront Plannin
       * **Asunto**: El nombre de la solicitud original tal como se agregó en el área de solicitudes. No puede ocultar ni quitar el campo **Asunto** de la lista de solicitudes. El nombre tiene un vínculo que abre la página de solicitud en Planning.
       * **Objeto creado**: El nombre del registro que se creó a partir de la solicitud tal como se muestra en Planning. El nombre del objeto Creado tiene un vínculo que abre el registro creado a partir de la solicitud.
       * **Tipo de objeto**: Nombre del área de trabajo y tipo de registro donde se crearon registros a partir de la solicitud en Planning.
-      * **Estado**: El estado del objeto de solicitud.
+      * **Estado**: El estado del objeto de solicitud. Para obtener más información sobre los estados de solicitudes, consulte [Ver solicitudes enviadas](/help/quicksilver/manage-work/requests/create-requests/locate-submitted-requests.md).
       * **Formulario de solicitud**: Nombre del formulario de solicitud asociado al tipo de registro en Planning.
       * **Estado del objeto creado**: El estado del registro creado.
 
