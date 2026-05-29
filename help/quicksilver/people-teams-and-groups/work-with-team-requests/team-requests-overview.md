@@ -9,10 +9,10 @@ feature: People Teams and Groups
 exl-id: c131c021-8bc0-4a48-a873-9ee0e189bcab
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: ab336c13968f1420ec08eb7ae965b697a862bfb4
 workflow-type: tm+mt
-source-wordcount: '469'
-ht-degree: 99%
+source-wordcount: '486'
+ht-degree: 96%
 
 ---
 
@@ -26,7 +26,7 @@ Las solicitudes de equipo se encuentran en el área [!UICONTROL Teams] del [!UIC
 >
 >Los equipos de Agile no tienen solicitudes de equipo.
 
-La pestaña [!UICONTROL Team Requests] muestra las solicitudes que hay en espera de asignación para el equipo seleccionado actualmente en la lista desplegable. El número entre paréntesis indica cuántos elementos están listos para trabajar.
+La pestaña [!UICONTROL Team Requests] muestra las solicitudes que hay en espera de asignación para el equipo seleccionado actualmente en la lista desplegable. El número entre paréntesis indica cuántos elementos están listos para trabajar. La ficha [!UICONTROL Solicitudes de equipo] puede mostrar hasta 2000 solicitudes de un equipo.
 
 Una solicitud de equipo representa un elemento de trabajo pendiente que no está asignado a un usuario específico. En lugar de ello, se le asigna a un equipo y cualquier miembro de ese equipo puede ofrecerse como voluntario para aceptar la responsabilidad por el elemento. Si un usuario se ofrece voluntario para trabajar en una solicitud del equipo, el usuario acepta la asignación de trabajo como propia. La tarea se asigna al usuario individual además del equipo.
 
