@@ -1,15 +1,15 @@
 ---
 product-area: projects;agile-and-teams
 navigation-topic: use-the-home-area
-title: Administrar solicitudes de trabajo y equipo en el área de Inicio
+title: Administrar solicitudes de trabajo y equipo en el área Inicio
 description: Cuando se le asignan tareas de trabajo y problemas, aparecen enumerados en los widgets Mi trabajo, Mis tareas y Mis problemas.  Puede ver, trabajar o quitar elementos de trabajo y solicitudes.
 author: Courtney
 feature: Get Started with Workfront, Work Management
 exl-id: 79826743-eeb9-4849-b46f-cc3f086e3194
-source-git-commit: 53596271a838733b858c0b14a4e22b07a7cd20f6
+source-git-commit: f1ab7f32131f997f65fb56834fa683ed6a020b0a
 workflow-type: tm+mt
-source-wordcount: '790'
-ht-degree: 13%
+source-wordcount: '808'
+ht-degree: 14%
 
 ---
 
@@ -85,7 +85,9 @@ Para ver un elemento de trabajo en el widget Mi trabajo:
 
 ## Acceder a una solicitud de equipo en el widget de solicitud de equipo
 
-Puede acceder a una solicitud asignada a su equipo directamente desde el widget Solicitudes de equipo en el área [!UICONTROL Inicio]. Para obtener más información sobre las solicitudes de equipo, consulte [Resumen de las solicitudes de equipo](../../../people-teams-and-groups/work-with-team-requests/team-requests-overview.md).
+Puede acceder a una solicitud asignada a su equipo directamente desde el widget Solicitudes de equipo en el área [!UICONTROL Inicio]. El widget [!UICONTROL Solicitudes de equipo] puede mostrar hasta 2000 solicitudes de un equipo.
+
+Para obtener más información sobre las solicitudes de equipo, consulte [Resumen de las solicitudes de equipo](../../../people-teams-and-groups/work-with-team-requests/team-requests-overview.md).
 
 Para acceder a una solicitud de equipo:
 
