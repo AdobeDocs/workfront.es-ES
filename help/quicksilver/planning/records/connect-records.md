@@ -8,21 +8,21 @@ author: Alina
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 12552dfefc58a664c278598496097f1b30d3cf0e
+source-git-commit: a9f14c6726bcec0cc9b040dde9b6bf90a5868edc
 workflow-type: tm+mt
-source-wordcount: '3585'
-ht-degree: 33%
+source-wordcount: '3665'
+ht-degree: 32%
 
 ---
 
 
 # Conectar registros
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+<span class="preview">La información resaltada en esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa para todos los clientes. Después de las versiones mensuales en Production, las mismas funciones también están disponibles en el entorno Production para los clientes que habilitaron versiones rápidas. </span>
+
+<span class="preview">Para obtener información sobre las versiones rápidas, consulte [Habilitar o deshabilitar las versiones rápidas para su organización](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
 
 {{planning-important-intro}}
 
@@ -114,7 +114,9 @@ Puede conectar lo siguiente:
   </tr>
   <tr> 
    <td role="rowheader"><p>Permisos de objeto</p></td> 
-   <td>   <p>Permisos de contribución o superiores a un espacio de trabajo y tipo de registro para conectar registros. </p>  
+   <td>   <p>Permisos de contribución o superiores a un espacio de trabajo y tipo de registro para conectar registros.</p>
+   <p><span class="preview">Administrar permisos para el registro desde el que se conecta</span></p>
+   <p><span class="preview">Ver o permisos superiores al registro al que se está conectando</span></p>
    <p>Permite ver o aumentar los permisos de un espacio de trabajo y tipo de registro para ver todas las conexiones a objetos y campos desde otras aplicaciones, independientemente del acceso que tenga en la otra aplicación. </p>
    <p>Permisos de visualización superiores a los objetos que desea vincular desde Workfront o Experience Manager Assets. </p>
    <p>Los administradores del sistema tienen permisos para todos los espacios de trabajo, incluidos los que no crearon.</p> </td> 

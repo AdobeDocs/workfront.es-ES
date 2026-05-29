@@ -8,10 +8,10 @@ recommendations: noDisplay, noCatalog
 exl-id: a6eb8c7c-a34d-4c84-a45c-7e7f050a4302
 last-update: 2026-04-01T18:23:03Z
 git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: a9f14c6726bcec0cc9b040dde9b6bf90a5868edc
 workflow-type: tm+mt
-source-wordcount: '416'
-ht-degree: 15%
+source-wordcount: '396'
+ht-degree: 14%
 
 ---
 
@@ -54,14 +54,8 @@ Puede recibir notificaciones en la aplicación desde Workfront Planning cuando e
   </tr> 
   <tr> 
    <td role="rowheader"><p>Permisos de objeto</p></td> 
-   <td>   <p>Permisos de vista o superiores a un espacio de trabajo</a> </p>  
+   <td>   <p>Ver permisos superiores a un espacio de trabajo </p>  
    <p>Los administradores del sistema tienen permisos para todos los espacios de trabajo, incluidos los que no crearon</p> </td> 
-  </tr> 
-<tr>
-   <td role="rowheader"><p>Plantilla de diseño</p></td>
-   <td> A los usuarios con una licencia Light o Contributor se les debe asignar una plantilla de diseño que incluya Planning.
-   <p>Los usuarios estándar y los administradores del sistema tienen las áreas de Planning habilitadas de forma predeterminada.</p></div></li></ul>
-</td>
   </tr> 
 </tbody> 
 </table>

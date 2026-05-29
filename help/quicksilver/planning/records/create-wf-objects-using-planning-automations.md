@@ -8,10 +8,10 @@ recommendations: noDisplay, noCatalog
 exl-id: c669217a-40e2-471f-951d-93157a34f1ee
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: a9f14c6726bcec0cc9b040dde9b6bf90a5868edc
 workflow-type: tm+mt
-source-wordcount: '724'
-ht-degree: 3%
+source-wordcount: '797'
+ht-degree: 4%
 
 ---
 
@@ -20,11 +20,11 @@ ht-degree: 3%
 
 <!--you might need to add something about notifications and emails?!-->
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+<span class="preview">La información resaltada en esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa para todos los clientes. Después de las versiones mensuales en Production, las mismas funciones también están disponibles en el entorno Production para los clientes que habilitaron versiones rápidas. </span>
+
+<span class="preview">Para obtener información sobre las versiones rápidas, consulte [Habilitar o deshabilitar las versiones rápidas para su organización](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
 
 Después de configurar y activar las automatizaciones en Adobe Workfront Planning, puede utilizarlas para crear objetos en Adobe Workfront o registros en Adobe Workfront Planning.
 
@@ -79,6 +79,7 @@ Puede crear los siguientes artículos utilizando automatizaciones en Workfront P
 <tr> 
    <td role="rowheader"><p>Permisos de objeto</p></td> 
    <td> <p>Los permisos de Contribute o superior para el espacio de trabajo y para el tipo de registro en el que desea crear objetos mediante automatizaciones existentes. </p>  
+   <p><span class="preview">Administre permisos para el registro para el que está ejecutando la automatización.</span></p>
    <p>Administre permisos a objetos Workfront (portafolios) para agregar objetos secundarios (programas o proyectos).</p>
    <p>Los administradores del sistema tienen permisos de administración en todos los espacios de trabajo, incluidos los que no han creado</p>
    </td> 

@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 7c3db950-4cd9-424c-a7a7-4fa7dfa995f6
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: a9f14c6726bcec0cc9b040dde9b6bf90a5868edc
 workflow-type: tm+mt
-source-wordcount: '1257'
+source-wordcount: '1330'
 ht-degree: 7%
 
 ---
@@ -21,11 +21,11 @@ ht-degree: 7%
 
 <!-- remove preview and production at release time-->
 
-<!--
-<span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+<span class="preview">La información resaltada en esta página hace referencia a funcionalidades que aún no están disponibles de forma general. Solo está disponible en el entorno de vista previa para todos los clientes. Después de las versiones mensuales en Production, las mismas funciones también están disponibles en el entorno Production para los clientes que habilitaron versiones rápidas. </span>
+
+<span class="preview">Para obtener información sobre las versiones rápidas, consulte [Habilitar o deshabilitar las versiones rápidas para su organización](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
 
 {{planning-important-intro}}
 
@@ -108,6 +108,7 @@ Para obtener información acerca de cómo conectar registros de Planning con obj
 <tr> 
    <td role="rowheader"><p>Permisos de objeto</p></td> 
    <td> <p>Conceda permisos de contribución o superiores al espacio de trabajo y tipo de registro donde desee agregar registros. </p>  
+   <p><span class="preview">Administre permisos al registro desde el que está creando el objeto Workfront.</span></p>
    <p>Los administradores del sistema tienen permisos para todos los espacios de trabajo, incluidos los que no crearon</p>
    <p>Administre permisos a objetos Workfront (portafolios) para agregar objetos secundarios (proyectos).</p>
    </td> 
@@ -208,7 +209,7 @@ Para crear proyectos al conectarlos desde otros registros:
 
 1. (Condicional) Haga clic en **Agregar proyecto**
 O
-Empiece a escribir el nombre de un proyecto y haga clic en **Agregar proyecto** si no lo encuentra. El botón Agregar va seguido del nombre del proyecto que ha escrito.
+Empiece a escribir el nombre de un proyecto y, a continuación, haga clic en **Agregar proyecto** si no lo encuentra. El botón Agregar va seguido del nombre del proyecto que ha escrito.
 
    ![Agregar proyecto al conectarlo desde un campo de conexión](assets/add-project-when-connecting-it-from-connection-field.png)
 

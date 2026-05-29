@@ -10,10 +10,10 @@ role: User
 exl-id: cfa2383a-9594-4867-9b48-11b8ea281486
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
+source-git-commit: a9f14c6726bcec0cc9b040dde9b6bf90a5868edc
 workflow-type: tm+mt
-source-wordcount: '1413'
-ht-degree: 41%
+source-wordcount: '1561'
+ht-degree: 38%
 
 ---
 
@@ -21,11 +21,13 @@ ht-degree: 41%
 
 <!--
 Remove production and preview references at release
-
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
-
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 -->
+
+
+<span class="preview">La información resaltada en esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa para todos los clientes. Después de las versiones mensuales en Production, las mismas funciones también están disponibles en el entorno Production para los clientes que habilitaron versiones rápidas. </span>
+
+<span class="preview">Para obtener información sobre las versiones rápidas, consulte [Habilitar o deshabilitar las versiones rápidas para su organización](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
 
 Puede ver las solicitudes que usted u otra persona ha enviado, o las solicitudes que ha iniciado pero que nunca ha terminado de enviar. Las solicitudes no finalizadas se guardarán como borradores.
 
@@ -101,7 +103,9 @@ La visualización de las solicitudes enviadas difiere en función de si utiliza 
 
 >[!NOTE]
 >
->* Si tiene Workfront Planning, las solicitudes de Workfront y Planning aparecen en la misma lista. Las solicitudes Workfront muestran el valor `Issue` en la columna **Tipo de objeto**.
+>* Si tiene Workfront Planning, las solicitudes de Workfront y Planning aparecen en la misma lista.
+>     El **tipo de objeto** de una solicitud de Planning recibe el nombre siguiendo este patrón: `< Name of workspace > > < Name of record type >`. Por ejemplo, el tipo de objeto de una solicitud de Planning podría llamarse `Marketing workspace > Campaigns`.\
+>     El **tipo de objeto** de una solicitud de Workfront es `Issue`.
 >* De forma predeterminada, se muestran hasta 50 solicitudes en la lista del área Solicitudes. Para ver más solicitudes, desplácese hasta la parte inferior de la lista.
 
 Puede ver las solicitudes enviadas en el área de Solicitudes y en el widget Mis solicitudes de Inicio.
@@ -134,18 +138,27 @@ Para ver las solicitudes que usted u otros usuarios han enviado en la nueva expe
 
    Para obtener más información sobre la administración de información en la lista de solicitudes, vea [Usar listas mejoradas](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
 
-1. (Opcional) Compruebe el estado de una solicitud comprobando la columna **Estado**. Los siguientes estados están disponibles en la nueva experiencia solicitante:
+1. (Opcional) Compruebe el estado de una solicitud comprobando la columna **Estado**.
 
-   * **Borrador**: esta solicitud aún no se ha enviado.
-   * **Revisión pendiente**: (Solo en Planning) Esta solicitud tiene aprobadores y ninguno de ellos ha abierto la solicitud.
-   * **En revisión**: (solo en planeación) Esta solicitud tiene aprobadores y al menos un aprobador ha abierto la solicitud, pero no se ha tomado ninguna decisión.
-   * **Rechazada**: (Solo en Planning) Esta solicitud tiene aprobadores y ha sido rechazada. Esta solicitud no creará un registro.
+   >[!IMPORTANT]
+   >
+   >El administrador de Workfront puede configurar algunos estados de solicitudes de Workfront en el área **Configuración**. Para obtener más información, consulte [Crear o editar un estado](/help/quicksilver/administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
+   >
+   >Workfront codifica algunos estados de solicitudes de Workfront y todos los estados de solicitudes de Planning. No puede personalizarlos, cambiarles el nombre ni agregar más del mismo tipo.
+
+   Los siguientes estados están disponibles en la nueva experiencia solicitante:
+
+   * <span class="preview">**Nuevo**: la solicitud es nueva y nadie ha comenzado a trabajar en ella. </span>
+   * **Borrador**: esta solicitud aún no se ha enviado. Este estado está codificado.
+   * **Revisión pendiente**: (Solo en Planning) Esta solicitud tiene aprobadores y ninguno de ellos ha abierto la solicitud. Este estado está codificado.
+   * **En revisión**: (solo en planeación) Esta solicitud tiene aprobadores y al menos un aprobador ha abierto la solicitud, pero no se ha tomado ninguna decisión. Este estado está codificado.
+   * **Rechazada**: (Solo en Planning) Esta solicitud tiene aprobadores y ha sido rechazada. Esta solicitud no creará un registro. Este estado está codificado.
    * **En curso**:
       * Solicitudes Workfront: la solicitud se ha convertido y el trabajo está en curso.
       * Solicitudes de Workfront Planning: la finalización de la solicitud se asigna a un campo de Planning específico y el valor del campo aún no coincide con el valor de finalización.
-
-        Para obtener más información, consulte [Configurar detalles de configuración](/help/quicksilver/planning/requests/create-request-form.md#set-up-configuration-details) en el artículo Crear y administrar un formulario de solicitud en Adobe Workfront Planning.
-   * **Completar**: la solicitud se completó.
+   * **En espera**: esto está disponible para solicitudes de Workfront y lo establecen manualmente los usuarios.
+   * <span class="preview">**Cancelado**: esto es para solicitudes de Workfront.</span> <!--checking with Khach)-->
+   * <span class="preview">**Completar**: se ha creado el registro de Planning que completa la solicitud. (Solo en Planning)</span>
 
 ### Ver las solicitudes enviadas en la experiencia de solicitud heredada
 
