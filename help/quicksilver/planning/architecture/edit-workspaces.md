@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 374b6d9c-69a9-4a73-8708-51c14a78c7c9
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 31aff197d6af521df2258f3f99fea6fb5785b9e3
+source-git-commit: 4692dc6f7ab840bb43f3788126471425e9f8a396
 workflow-type: tm+mt
-source-wordcount: '752'
+source-wordcount: '759'
 ht-degree: 10%
 
 ---
@@ -151,6 +151,12 @@ Old:
 
    * **Espacios de trabajo en los que participo** para acceder a los espacios de trabajo que ha creado
    * **Todos los espacios de trabajo** para tener acceso a los espacios de trabajo compartidos con usted o creados
+
+   <!--
+   >[!NOTE]
+   >
+   ><span class="preview">You cannot edit the workspaces on the **Sample workspaces** tab. We recommend using the multi-workspace template bundle to create workspaces similar to those on the Sample workspace tab and edit your own. For information, see [Create workspaces](/help/quicksilver/planning/architecture/create-workspaces.md).</span> 
+   -->
 
 1. (Opcional) Haga clic en **Mostrar todo** para mostrar espacios de trabajo adicionales. El vínculo **Mostrar todo** solo se muestra cuando tiene más de dos filas de tarjetas de área de trabajo.
 1. (Opcional) Haga clic en **Mostrar menos** para limitar el número de espacios de trabajo que se muestran en la pantalla.

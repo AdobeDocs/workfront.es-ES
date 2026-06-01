@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: b80d5ccf-4d22-49f2-89b6-bb9678a353c2
-source-git-commit: 5416c2d847e9b1023068719602c4d1d4e6219801
+source-git-commit: 4692dc6f7ab840bb43f3788126471425e9f8a396
 workflow-type: tm+mt
 source-wordcount: '390'
 ht-degree: 90%
@@ -53,17 +53,27 @@ Un espacio de trabajo es un conjunto de tipos de registros que utiliza una unida
       * **Otros espacios de trabajo**: muestra todos los demás espacios de trabajo del sistema.
 
      <!--
-      * <span class="preview">**Sample workspaces**: Displays built-in examples of best-practice workspaces. You cannot edit the workspaces or the record types, but you can add records and edit them. You can share the workspaces with Standard-license users.</span>
+      * <span class="preview">**Sample workspaces**: Displays built-in examples of best-practice workspaces. You cannot edit the workspaces, record types, or add records, but you can add, edit, and share views with others.</span> (************TEST THIS WITH SYSTEM ADMINS AND STANDARD USERS**********)
       -->
 
-     <!--      
-        >[!NOTE]
-        >
-        ><span class="preview">We recommend not editing the sample workspaces, but instead using them as a reference to create your own.</span> 
-        -->
-
    * Para el resto de los usuarios, los espacios de trabajo que han creado otros y los que otros han compartido con ellos se muestran en el área Espacios de trabajo.
-  <!--* <span class="preview">**Sample workspaces**: Displays for Standard-license users when a Workfront administrator shared the workspaces on the tab with them. The tab displays built-in examples of best-practice workspaces. You cannot edit the workspaces or the record types, but you can add records and edit them. You can share the workspaces with Standard-license users.</span> -->
+
+  <!--
+
+    ******************* If Standard users can see the Sample workspaces, then replace the last bullet with this: 
+
+   * For all other users:
+
+        * (****************what is the name of this tab????*******) Workspaces they created and workspaces others shared with them display in the Workspaces area. 
+        * <span class="preview">**Sample workspaces**: Displays built-in examples of best-practice workspaces. You cannot edit the workspaces, record types, or add records, but you can add, edit, and share views with others.</span>
+    
+    -->
+
+  <!--      
+    >[!NOTE]
+    >
+    ><span class="preview">We recommend to not edit the sample workspaces, but instead to use them as a reference to create your own. Use the multi-workspace template bundle to create workspaces identical to the ones listed in the Sample workspaces tab. For information, see the section "Create multiple workspaces using a best-practice multi-workspace template bundle" in the article [Create workspaces](/help/quicksilver/planning/architecture/create-workspaces.md). </span> 
+    -->
 
 * Los tipos de registro que contiene un espacio de trabajo deben reflejar el ciclo de vida laboral y los conceptos de una unidad organizativa.
 
