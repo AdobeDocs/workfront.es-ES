@@ -8,10 +8,10 @@ recommendations: noDisplay, noCatalog
 exl-id: 604b84c1-4ec6-4d4a-b9f4-4223641ff2ea
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 453dbf1c7598858e99d963f7a3806355a8cc80a9
+source-git-commit: 4692dc6f7ab840bb43f3788126471425e9f8a396
 workflow-type: tm+mt
-source-wordcount: '1122'
-ht-degree: 37%
+source-wordcount: '1146'
+ht-degree: 36%
 
 ---
 
@@ -133,7 +133,7 @@ Old:
 
 ## Crear un espacio de trabajo
 
-Puede crear un espacio de trabajo y agregarle tipos de registro para organizar los objetos en Workfront Planning.
+Puede crear un espacio de trabajo y añadirle tipos de registro para organizar los objetos en Workfront Planning.
 
 Para obtener más información acerca de cómo editar un área de trabajo, vea [Editar áreas de trabajo](/help/quicksilver/planning/architecture/edit-workspaces.md).
 
@@ -164,6 +164,8 @@ Puede crear espacios de trabajo de las siguientes maneras:
 
 1. (Opcional y condicional) Haga clic en **Vista previa** dentro de cualquiera de las siguientes plantillas de área de trabajo predefinidas:
 
+   * Operations Initiative Studio
+   * Estudio de planificación de comunicaciones
    * Básico: administración de marketing
    * Administración avanzada de marketing
    * Empresa: administración de marketing
@@ -172,7 +174,7 @@ Puede crear espacios de trabajo de las siguientes maneras:
 
    Se abrirá el cuadro de vista previa de plantilla.
 
-   Existe una indicación de qué tipos de registros operativos, taxonomías y cuántos campos están asociados a cada plantilla.
+   Existe una indicación de qué tipos de registro, secciones y cuántos campos están asociados a cada plantilla.
 
    ![Vista previa de una plantilla de área de trabajo](assets/previewing-a-workspace-template.png)
 
@@ -262,7 +264,7 @@ Las plantillas incluidas en el paquete contienen espacios de trabajo, tipos de r
    * 5.Eventos globales de Fréscopa
    * 6.Fréscopa Executive Liderazgo de la empresa
 
-1. Después de abrir el cuadro **Vista previa** para cada plantilla de área de trabajo, haga clic en Atrás para volver al cuadro **Crear área de trabajo** o haga clic en Usar plantillas para usar las plantillas, incluso en el paquete y crear áreas de trabajo.
+1. Después de abrir el cuadro **Vista previa** para cada plantilla de área de trabajo, haga clic en **Atrás** para volver al cuadro **Crear área de trabajo** o haga clic en **Usar plantillas** para usar las plantillas, incluidas las del paquete, y crear áreas de trabajo.
 
    Los espacios de trabajo se crean y se muestran en las fichas **Espacios de trabajo en los que estoy** y **Todos los espacios de trabajo** para los administradores del sistema. Todos los usuarios con licencia estándar verán los espacios de trabajo en su área de espacios de trabajo después de que un administrador del sistema los cree y comparta los nuevos espacios de trabajo con ellos.
 

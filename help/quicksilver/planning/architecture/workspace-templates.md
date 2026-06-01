@@ -8,10 +8,10 @@ recommendations: noDisplay, noCatalog
 exl-id: c4758b87-45dc-4ffd-b086-5e2e907bdf34
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 4692dc6f7ab840bb43f3788126471425e9f8a396
 workflow-type: tm+mt
-source-wordcount: '531'
-ht-degree: 6%
+source-wordcount: '958'
+ht-degree: 9%
 
 ---
 
@@ -28,13 +28,19 @@ En este artículo se describen las plantillas de espacio de trabajo disponibles 
 
 ## Consideraciones sobre las plantillas de Adobe Workfront Planning
 
-* Cada plantilla viene con un conjunto de tipos de registros. Para obtener más información, vea [Información general sobre los tipos de registro](/help/quicksilver/planning/architecture/overview-of-record-types.md).
-* Los tipos de registros de cada plantilla están organizados en las siguientes secciones:
+* Según el número de espacios de trabajo que cree al utilizar una plantilla de espacio de trabajo de Planning, puede utilizar los siguientes tipos de plantillas:
 
-   * Tipos de registros operativos
-   * Taxonomías
+   * Plantillas únicas: una plantilla crea un espacio de trabajo.
+   * Paquete de plantillas de varios espacios de trabajo: el paquete de plantillas crea 6 espacios de trabajo interconectados.
+* Cada plantilla viene con un conjunto de tipos de registros.
+
+  Para obtener más información, vea [Información general sobre los tipos de registro](/help/quicksilver/planning/architecture/overview-of-record-types.md).
+* Los tipos de registro de cada plantilla son secciones organizadas.
 * Cada tipo de registro viene con un conjunto de campos. Algunos de estos campos son conexiones con otros tipos de registros de Workfront Planning.
-* Puede personalizar cualquier plantilla y agregar más tipos de registros y campos a los existentes.
+* Puede utilizar las plantillas para crear espacios de trabajo y, una vez creados, puede personalizarlos y empezar a agregar tipos de registros, campos, registros y vistas, para luego compartirlos con otros.
+* Los tipos de registro de cada plantilla contienen registros de ejemplo. Puede eliminarlos después de crear espacios de trabajo a partir de la plantilla.
+* Una vez creados los espacios de trabajo a partir de plantillas, los administradores de espacios de trabajo pueden eliminar tipos de registros, campos, vistas y registros.
+
 
 <!--
  I modeled this article by the "List of available Blueprints" and that articles does not have an Access area
@@ -89,85 +95,159 @@ the above is only for closed beta; when going to GA - activate the following pla
 
 -->
 
-## Plantillas de espacio de trabajo de Workfront Planning
+## Plantillas de espacio de trabajo de Workfront Planning únicas
 
-A continuación, se muestran las plantillas de espacio de trabajo de Workfront Planning y el número de campos que incluyen:
+Las siguientes son plantillas de espacio de trabajo en Workfront Planning y los tipos de registro que contienen:
+
+* **Operations Initiative Studio**: Un modelo de iniciativa de Operaciones completo y listo para explorar que muestra cómo planificar y entregar una iniciativa de integración (vinculación SOL automatizada en Workfront). Incluye un desglose de iniciativa a flujo de trabajo, riesgos conectados, problemas y decisiones, listas de referencia de soporte (equipos y sistemas), así como vistas de cronología, tabla y calendario y una fórmula de esfuerzo simple para que los equipos puedan aprender rápidamente las funciones de Planning.
+
+  La plantilla de Operations Initiative Studio incluye los siguientes tipos de registros y sus campos:
+
+   * Iniciativas
+   * Secuencias de trabajo
+   * Riesgos y problemas
+   * Decisiones
+   * Sistemas
+   * Equipos
+* **Estudio de planificación de comunicaciones**: idea de configurar un centro de planificación de comunicaciones rápidamente. Comience duplicando el registro de plantilla de plan de comunicaciones largas o cortas y, a continuación, genere el despliegue añadiendo tácticas y rastreando puntos de comprobación de aprobación. Haga referencia a Audiencias, Mercados y Canales para generar informes, filtrar y reutilizar de forma coherente. Incluye registros de muestra y vistas de tabla, escala de tiempo y calendario listas para usar para que los equipos puedan explorar las características de Planning inmediatamente.
+
+  La plantilla de Communications Planning Studio incluye los siguientes tipos de registros y sus campos:
+
+   * Comunicaciones
+   * Públicos
+   * Tácticas
+   * Puntos de comprobación de aprobación
+   * Canales
+   * Mercados
+   * Funciones de partes interesadas
 
 * **Básico: Administración de marketing**: ideal para organizaciones que establecen la base de un sistema de marketing básico. La plantilla incluye los siguientes tipos de registro y número de campos, incluidos los campos conectados a otros tipos de registro:
 
-   * Tipos de registros operativos:
-
-      * **Campaign**: 15 campos
-   * Taxonomías:
-
-      * **Personas**: 7 campos
-      * **Marcas**: 6 campos
-      * **Productos**: 5 campos
+   * Campaign
+   * Personas
+   * Marcas
+   * Productos
 
 * **Avanzado: Administración de marketing**: apropiado para equipos listos para explorar estrategias de marketing más matizadas. La plantilla incluye los siguientes tipos de registro y número de campos, incluidos los campos conectados a otros tipos de registro:
 
-   * Tipos de registros operativos:
-
-      * **Campañas**: 14 campos
-      * **Programas**: 23 campos
-
-   * Taxonomías:
-      * **Regiones**: 1 campo
-      * **Fases de Recorrido del cliente**: 4 campos
-      * **Audiencias**: 8 campos
-      * **Entregables**: 12 campos
-      * **Marcas**: 6 campos
+   * Campañas
+   * Programas
+   * Regiones
+   * Fases de Recorrido del cliente
+   * Públicos
+   * Envíos específicos
+   * Marcas
 
 * **Empresa: administración de mercadotecnia**: diseñado para organizaciones grandes o maduras con sistemas de mercadotecnia complejos. La plantilla incluye los siguientes tipos de registro y número de campos, incluidos los campos conectados a otros tipos de registro:
 
-   * Tipos de registros operativos:
+   * Campañas
+   * Programas
+   * Tácticas
+   * Actividades
+   * Productos
+   * Envíos específicos
+   * Audiencias de Target
+   * Regiones
+   * Subregiones
+   * Socios
+   * Casos de uso
+   * Fases de Recorrido del cliente
 
-      * **Campañas**: 15 campos
-      * **Programas**: 15 campos
-      * **Tácticas**: 11 campos
-      * **Actividades**: 18 campos
+* Gestión de ventas: puede crear un sistema de ventas completo que optimice su proceso de ventas y mejore la eficiencia. La plantilla incluye los siguientes tipos de registro y número de campos, incluidos los campos conectados a otros tipos de registro:
 
-   * Taxonomías:
+   * Oportunidad
+   * Actividad
+   * Campaign
+   * Cuenta
+   * Posible cliente
+   * Contacto
+   * Región
+   * Industria
+   * Centro de compras
+   * Producto/ servicio
+   * Competencia
 
-      * **Productos**: 10 campos
-      * **Entregables**: 18 campos
-      * **Audiencias de destino**: 8 campos
-      * **Regiones**: 8 campos
-      * **Subregiones**: 7 campos
-      * **Socios**: 7 campos
-      * **Casos de uso**: 7 campos
-      * **Fases de Recorrido del cliente**: 3 campos
 
-* **Administración de ventas**: puede crear un sistema de ventas completo que optimice su proceso de ventas y mejore la eficiencia. La plantilla incluye los siguientes tipos de registro y número de campos, incluidos los campos conectados a otros tipos de registro:
+* Administración de productos: puede crear un proceso de administración de productos eficiente y estructurado mediante esta plantilla. La plantilla incluye los siguientes tipos de registro y número de campos, incluidos los campos conectados a otros tipos de registro:
 
-   * Tipos de registros operativos:
+   * Tema
+   * Iniciativa
+   * Épico
+   * Historia del usuario
+   * Cliente
+   * Sprint
+   * Equipo de productos
+   * Solicitudes de función
+   * Industria
 
-      * **Oportunidad**: 11 campos
-      * **Actividad**: 9 campos
-      * **Campaign**: 8 campos
-   * Taxonomías:
-      * **Cuenta**: 7 campos
-      * **Posible cliente**: 14 campos
-      * **Contacto**: 12 campos
-      * **Región**: 3 campos
-      * **Sector**: campo 2
-      * **Centro de compras**: 1 campo
-      * **Producto/ Servicio**: 1 campo
-      * **Competencia**: 1 campo
+## Plantillas de espacio de trabajo de Planning de Workfront de varios espacios de trabajo
 
-* **Administración de productos**: puede crear un proceso de administración de productos eficiente y estructurado mediante esta plantilla. La plantilla incluye los siguientes tipos de registro y número de campos, incluidos los campos conectados a otros tipos de registro:
+Puede utilizar el paquete de plantillas de varios espacios de trabajo de prácticas recomendadas para crear 6 espacios de trabajo al mismo tiempo.
 
-   * Tipos de registros operativos:
+Tenga en cuenta lo siguiente:
 
-      * **Tema**: 10 campos
-      * **Iniciativa**: 10 campos
-      * **Épica**: 12 campos
-      * **Historia de usuario**: 11 campos
+* No puede elegir solo una plantilla en este paquete.
+* Debe crear los 6 espacios de trabajo al mismo tiempo y luego puede eliminar los que no utilice.
 
-   * Taxonomías:
+El paquete de plantillas de varios espacios de trabajo contiene las siguientes plantillas con sus respectivos tipos de registros:
 
-      * **Cliente**: 8 campos
-      * **Sprint**: 9 campos
-      * **Equipo de producto**: 4 campos
-      * **Solicitudes de características**: 9 campos
-      * **Sector**: 2 campos
+* 1.**Clasificaciones y taxonomías globales**: El centro para el control empresarial de los registros y taxonomías compartidos principales de Fréscopa. Garantiza la coherencia, la alineación y la estandarización en todos los sistemas y equipos.
+
+  >[!NOTE]
+  >
+  >Utilizamos el nombre &quot;Fréscopa&quot; solo como ejemplo general de una empresa.
+
+
+   * Recorridos del cliente
+   * Países
+   * Canales
+   * Regiones
+   * Estados, provincias o prefecturas
+   * Idiomas
+   * Plataformas
+   * Tipos de experiencia
+   * Años
+   * Trimestres
+   * Estrategias de mensajería
+   * Audiencias de Target
+   * Personas
+   * Productos
+   * Marcas
+   * Categorías de productos
+   * Valores
+   * Visión y misión
+   * Pilares
+   * Indicadores clave de rendimiento
+
+* **2.Fréscopa Global Marketing**: Espacio de trabajo centralizado para administrar la estrategia y ejecución de marketing empresarial de Fréscopa. Agrupa campañas, contenido y métricas para impulsar el impacto de la marca.
+
+   * Campañas
+   * Tácticas de canal
+   * Experiencias
+   * Eventos
+
+* **3.Marketing social de Fréscopa**: El espacio de trabajo dedicado para administrar la presencia y las campañas de medios sociales de Fréscopa. Centraliza la planificación, la publicación y el seguimiento del rendimiento en todas las plataformas sociales.
+
+   * Influenciadores
+
+* **4.Fréscopa Media &amp; PR**: Donde los equipos de Medios y PR coordinan actividades para apoyar los objetivos globales de Marketing.
+
+   * Reporteros
+   * Medios de comunicación
+   * Interacciones con medios
+
+* **5.Eventos globales de Fréscopa**: Un lugar centralizado para planificar y rastrear eventos de Fréscopa en todas las regiones, países y unidades de negocio.
+
+   * Tipos de eventos
+   * Tipos de flujo de trabajo
+   * Altavoces
+   * Ubicaciones de eventos
+   * Tipo de audiencia de evento
+
+* **6.Fréscopa Executive Company Leadership**: Espacio de trabajo centralizado para líderes estratégicos que interactúen con datos procesables como Objetivos y metas empresariales.
+
+   * Objetivos empresariales
+   * Objetivos del departamento
+   * Objetivos del equipo
+   * Resultados clave
+
