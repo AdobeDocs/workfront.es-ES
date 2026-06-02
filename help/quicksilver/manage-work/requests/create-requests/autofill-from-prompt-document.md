@@ -5,11 +5,16 @@ description: Puede utilizar IA para rellenar automáticamente los campos de soli
 author: Alina, Becky
 feature: Get Started with Workfront
 exl-id: 4a22f9ea-c9ee-4947-8683-9989c54903b1
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 83adea16ed7d66cec9ec2ce5b385b5ac4a7fdbac
+TQID: https://experienceleague.adobe.com/Z2t6RQBsQZK6MNRd3w2gWEY8k9YU48Jsco7pev7papM
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 9053a824ecec4feb35a612b26aebb91904ef2546
 workflow-type: tm+mt
-source-wordcount: '1499'
+source-wordcount: 1503
 ht-degree: 10%
 
 ---
@@ -22,7 +27,7 @@ ht-degree: 10%
 
 Rellenar formularios de IA puede ayudarle a rellenar automáticamente los campos de solicitud en función de una solicitud que haya introducido. También puede rellenar campos basados en texto como correos electrónicos o documentos cargados. Puede aprobar o rechazar estas sugerencias antes de enviar la solicitud.
 
-Esta funcionalidad está disponible al crear una solicitud en el área Solicitudes de Workfront y en Workfront Planning.
+Esta funcionalidad está disponible al crear una solicitud en el área Solicitudes de Workfront, tanto para solicitudes de Workfront como de Workfront Planning.
 
 ## Requisitos de acceso
 
@@ -86,7 +91,6 @@ Tenga en cuenta lo siguiente al utilizar Rellenar formulario con tecnología de 
 * All files uploaded to Azure are currently stored in US Azure clusters for the 24 hour storage window. 
 -->
 
-
 ## Habilite el rellenado de formularios con tecnología de IA para su organización
 
 >[!NOTE]
@@ -95,8 +99,8 @@ Tenga en cuenta lo siguiente al utilizar Rellenar formulario con tecnología de 
 
 1. Haga clic en el icono **[!UICONTROL Menú principal]** ![Menú principal](/help/_includes/assets/main-menu-icon-left-nav.png) en la esquina superior izquierda y, a continuación, haga clic en **[!UICONTROL Configuración]** ![Icono de configuración](/help/_includes/assets/gear-icon-setup.png).
 1. Haga clic en **Sistema** y, a continuación, en Sistema, haga clic en **Preferencias**.
-1. En la sección de preferencias de IA, asegúrese de que la opción **Habilitar IA** esté activada.
-1. Alternar en **Relleno de formulario AI**.
+1. En la sección de preferencias de IA, active la configuración **Habilitar IA**.
+1. Active la configuración **Rellenar formulario AI**.
 1. Para deshabilitar el relleno de formulario con tecnología de IA, desactive **Relleno de formulario de IA**.
 
 ## Obtener sugerencias de un mensaje de texto
