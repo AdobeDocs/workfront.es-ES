@@ -6,11 +6,22 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 3b2fc764-f384-41bb-9d88-b2b88434ffc6
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 12552dfefc58a664c278598496097f1b30d3cf0e
+TQID: https://experienceleague.adobe.com/Dzo6SD-mf-89koGS55sYT8gSk7z1U7aEyrg1MzSEHGY
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2:
+  - id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: 9053a824ecec4feb35a612b26aebb91904ef2546
 workflow-type: tm+mt
-source-wordcount: '2351'
+source-wordcount: 2355
 ht-degree: 3%
 
 ---
@@ -375,14 +386,14 @@ Tenga en cuenta lo siguiente sobre los campos de tipo de registro de GenStudio:
 
 ### Registrar conexiones en GenStudio Workspace
 
-Puede crear conexiones entre tipos de registros en espacios de trabajo de GenStudio en los que tenga permisos de administración.
+Puede crear conexiones entre tipos de registros en GenStudio Workspace cuando tenga permisos de administración en el área de trabajo.
 
 Puede realizar las siguientes conexiones entre los tipos de registros de GenStudio y otros tipos de registros u objetos en Workfront Planning:
 
 * Dos tipos de registros GenStudio
 * Un tipo de registro GenStudio y un tipo de registro Planning del mismo espacio de trabajo
 * Un tipo de registro GenStudio y un tipo de registro Planning de otro espacio de trabajo, si los tipos de registro están configurados para conectarse desde otro espacio de trabajo.
-* Un tipo de registro GenStudio y un tipo de objeto Workfront (proyectos, portafolios, programas, empresas, grupos)
+* Un tipo de registro GenStudio y un tipo de objeto Workfront (proyectos, portafolios, programas, empresas, grupos).
 * Un tipo de registro GenStudio y un tipo de objeto AEM (Assets o fragmentos de contenido). Debe tener una licencia para que Adobe Experience Manager acceda a los objetos de AEM, además de una licencia para Workfront Planning y una licencia para Adobe GenStudio for Performance Marketing.
 * Un tipo de registro GenStudio y marcas GenStudio. La conexión Marcas se agrega de forma predeterminada a los tipos de registro Productos y Personas.
 

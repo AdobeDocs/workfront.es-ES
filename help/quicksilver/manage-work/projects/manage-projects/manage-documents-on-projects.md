@@ -6,9 +6,9 @@ description: Dependiendo de si el administrador de Workfront elige la opción pr
 author: Alina
 feature: Work Management
 exl-id: 5623157e-946e-4475-9df3-b1888a2a0934
-source-git-commit: 9a35246858141a3b69ec85be3372c7a8d9497d6e
+source-git-commit: 9053a824ecec4feb35a612b26aebb91904ef2546
 workflow-type: tm+mt
-source-wordcount: '1920'
+source-wordcount: '1961'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ El administrador de Adobe Workfront puede definir el valor predeterminado de las
 El administrador de Workfront puede elegir una de las siguientes opciones:
 
 * almacenamiento de Workfront
-* almacenamiento en la nube de Adobe
+* Almacenamiento en la nube de Adobe
 
 Esta preferencia permite almacenar automáticamente los documentos adjuntos a los objetos de Workfront en una de las ubicaciones de almacenamiento disponibles.
 
@@ -187,13 +187,17 @@ Tenga en cuenta lo siguiente al trabajar con problemas:
 * Puede cambiar el nombre de la carpeta de documentos y eliminarla del problema de almacenamiento en la nube de Adobe, que también elimina los documentos de la carpeta. Después de agregar nuevos documentos al problema, la carpeta se vuelve a crear automáticamente. Los documentos eliminados no vuelven a colocarse en la carpeta.
 * En los proyectos de almacenamiento en la nube de Adobe, la carpeta de documentos de un problema se muestra como una subcarpeta en la carpeta de documentos creada automáticamente para el proyecto.
 * No puede copiar ni mover un problema de un proyecto de almacenamiento de Workfront heredado a uno de Adobe Cloud Storage. Lo contrario tampoco es posible.
-* Cuando se envía una solicitud con un documento adjunto a un proyecto de almacenamiento de Workfront heredado, el área Documentos de la solicitud muestra el documento con el tipo de almacenamiento del proyecto, incluso cuando la preferencia predeterminada de almacenamiento del sistema es Adobe Cloud Storage.
 * Existen los siguientes escenarios al convertir un problema en un proyecto: <!--this info also duplicated in Convert an issue to a project-->
    * Un problema de almacenamiento de Workfront heredado crea un proyecto de almacenamiento de Workfront heredado.
    * Un problema de almacenamiento en la nube de Adobe crea un proyecto de almacenamiento en la nube de Adobe.
    * El uso de una plantilla de almacenamiento de Workfront heredada para convertir un problema de almacenamiento en la nube de Adobe crea un proyecto de almacenamiento en la nube de Adobe.
    * El uso de una plantilla de almacenamiento en la nube de Adobe para convertir un problema de almacenamiento de Workfront heredado crea un proyecto de almacenamiento de Workfront heredado.
 * No puede agregar documentos a problemas de almacenamiento en la nube de Adobe en el Panel de resumen.
+
+### Administración de documentos para solicitudes de
+
+* Cuando envía una solicitud de Workfront que tiene un documento adjunto a un proyecto de almacenamiento de Workfront heredado que funciona como cola de solicitudes, el área Documentos de la solicitud muestra el documento utilizando el tipo de almacenamiento del proyecto, incluso cuando la preferencia predeterminada de almacenamiento del sistema es el almacenamiento en la nube de Adobe.
+* Cuando adjunta un documento a un problema enviado a una cola de solicitudes asociada al almacenamiento de Adobe, se crea una carpeta para cada problema enviado en el que se almacenan los documentos. La carpeta también se agrega como subcarpeta a la carpeta de proyecto creada automáticamente en el proyecto de cola de solicitudes.
 
 ### Administración de documentos para plantillas de proyecto
 
@@ -203,6 +207,8 @@ Tenga en cuenta lo siguiente al trabajar con plantillas:
 * Puede utilizar una plantilla de almacenamiento de Workfront heredada para crear proyectos de almacenamiento de Workfront heredados; puede utilizar una plantilla de almacenamiento de nube de Adobe para crear un proyecto de almacenamiento de nube de Adobe.
 * Puede adjuntar una plantilla de almacenamiento de Workfront heredada a un proyecto de almacenamiento en la nube de Adobe, lo cual no cambia la ubicación de almacenamiento de los documentos del proyecto.
 * Puede adjuntar una plantilla de almacenamiento en la nube de Adobe a un proyecto de almacenamiento de Workfront heredado, lo que no cambia la ubicación de almacenamiento de los documentos del proyecto. Los documentos de la carpeta de almacenamiento en la nube de Adobe para la plantilla se agregan directamente al proyecto, sin la carpeta, mientras que los documentos de las carpetas de tareas de plantilla se agregan a carpetas adjuntas a las tareas del proyecto en la sección Documentos de las tareas.
+* Al guardar un proyecto como plantilla, el tipo de almacenamiento del proyecto se transfiere a la plantilla, independientemente de lo que haya configurado el administrador de Workfront para las preferencias de almacenamiento del sistema.
+
 
 ### Administración de documentos para tareas de plantilla
 
@@ -213,4 +219,4 @@ Tenga en cuenta lo siguiente al trabajar con tareas de plantilla:
 * Puede cambiar el nombre de la carpeta de documentos y eliminarla desde la tarea de plantilla de Adobe Cloud Storage, que también elimina los documentos de la carpeta. Después de agregar nuevos documentos a la tarea de plantilla, la carpeta se vuelve a crear automáticamente. Los documentos eliminados no vuelven a colocarse en la carpeta.
 * Para las plantillas de almacenamiento en la nube de Adobe, la carpeta de documentos de una tarea de plantilla se muestra como una subcarpeta en la carpeta de documentos creada automáticamente para la plantilla.
 * No puede copiar ni mover una tarea de plantilla de una plantilla de almacenamiento de Workfront heredada a una plantilla de almacenamiento en la nube de Adobe. Lo contrario tampoco es posible.
-* Cuando adjunta un documento a un problema enviado a una cola de solicitudes asociada al almacenamiento de Adobe, se crea una carpeta para cada problema enviado en el que se almacenan los documentos. La carpeta también se agrega como subcarpeta a la carpeta de proyecto creada automáticamente en la cola de solicitudes.
+

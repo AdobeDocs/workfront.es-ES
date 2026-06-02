@@ -6,24 +6,33 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 604b84c1-4ec6-4d4a-b9f4-4223641ff2ea
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 4692dc6f7ab840bb43f3788126471425e9f8a396
+TQID: https://experienceleague.adobe.com/LtHxTws4o0FI964-qOtFE-sbKaLGRQroBQvMD5fOUvY
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 9053a824ecec4feb35a612b26aebb91904ef2546
 workflow-type: tm+mt
-source-wordcount: '1146'
-ht-degree: 36%
+source-wordcount: 1311
+ht-degree: 32%
 
 ---
 
-
 # Crear espacios de trabajo
 
-<!--
-<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">La información de esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa para todos los clientes. Después de las versiones mensuales en Production, las mismas funciones también están disponibles en el entorno Production para los clientes que habilitaron versiones rápidas. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
-
+<span class="preview">Para obtener información sobre las versiones rápidas, consulte [Habilitar o deshabilitar las versiones rápidas para su organización](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{planning-important-intro}}
 
@@ -230,12 +239,12 @@ Puede crear espacios de trabajo de las siguientes maneras:
 >
 >La creación de varios espacios de trabajo a la vez mediante el paquete de plantillas de prácticas recomendadas solo está disponible cuando se cumplen los siguientes requisitos previos:
 >
->* Su organización ha adquirido un paquete de Workfront Planning Prime o Ultimate.
+>* Su organización ha adquirido un paquete de Workfront o Workflow Planning Prime o Ultimate.
 >* Usted es administrador de sistemas
 
-Puede utilizar un paquete de plantillas de varios espacios de trabajo para crear 6 espacios de trabajo con un solo clic.
+Puede utilizar el paquete de plantillas de varios espacios de trabajo para crear 6 espacios de trabajo con un solo clic.
 
-Las plantillas incluidas en el paquete contienen espacios de trabajo, tipos de registros, registros, vistas y campos para ayudarle a empezar con la implementación de Planning.
+Las plantillas incluidas en el paquete contienen espacios de trabajo, tipos de registros, registros, vistas y campos para ayudarle a empezar con la implementación de Planning. Para obtener más información, consulte [Lista de plantillas de área de trabajo](/help/quicksilver/planning/architecture/workspace-templates.md).
 
 >[!IMPORTANT]
 >
@@ -246,27 +255,44 @@ Las plantillas incluidas en el paquete contienen espacios de trabajo, tipos de r
 
 {{step1-to-planning}}
 
-1. Haga clic en **Crear espacio de trabajo**
+1. Realice una de las siguientes acciones:
 
-   Se muestra el cuadro Crear espacio de trabajo. Puede crear un espacio de trabajo desde cero o crearlo con una de las plantillas disponibles.
+   * Haga clic en **Crear espacio de trabajo** y, a continuación, siga estos pasos:
 
-1. Haga clic en **Revisar configuración del área de trabajo** en el área **Comenzar aquí (recomendado)**.
-1. (Opcional) Haga clic en **Vista previa** dentro de cualquiera de las siguientes plantillas de área de trabajo predefinidas para abrir el cuadro Vista previa de cada plantilla:
+      1. Se muestra el cuadro Crear espacio de trabajo. Puede crear un espacio de trabajo desde cero o crearlo con una de las plantillas disponibles.
 
-   * 1.Clasificaciones globales y taxonomías
+      1. Haga clic en **Revisar configuración del área de trabajo** en el área **Comenzar aquí (recomendado)**.
+      1. (Opcional) Haga clic en **Vista previa** dentro de cualquiera de las siguientes plantillas de área de trabajo predefinidas para abrir el cuadro Vista previa de cada plantilla:
 
-     La plantilla Clasificaciones globales y taxonomías incluye todos los tipos de registros y campos que le recomendamos que cree en su entorno para una implementación correcta de Workfront Planning.
+         * 1.Clasificaciones globales y taxonomías
 
-     Posteriormente, puede vincular o importar los tipos de registros de esta plantilla en otros espacios de trabajo que cree.
-   * 2.Fréscopa Marketing global
-   * 3.Fréscopa Social Marketing
-   * 4.Fréscopa Media &amp; PR
-   * 5.Eventos globales de Fréscopa
-   * 6.Fréscopa Executive Liderazgo de la empresa
+           La plantilla Clasificaciones globales y taxonomías incluye todos los tipos de registros y campos que le recomendamos que cree en su entorno para una implementación correcta de Workfront Planning.
 
-1. Después de abrir el cuadro **Vista previa** para cada plantilla de área de trabajo, haga clic en **Atrás** para volver al cuadro **Crear área de trabajo** o haga clic en **Usar plantillas** para usar las plantillas, incluidas las del paquete, y crear áreas de trabajo.
+           Posteriormente, puede vincular o importar los tipos de registros de esta plantilla en otros espacios de trabajo que cree.
+         * 2.Fréscopa Marketing global
+         * 3.Fréscopa Social Marketing
+         * 4.Fréscopa Media &amp; PR
+         * 5.Eventos globales de Fréscopa
+         * 6.Fréscopa Executive Liderazgo de la empresa
 
-   Los espacios de trabajo se crean y se muestran en las fichas **Espacios de trabajo en los que estoy** y **Todos los espacios de trabajo** para los administradores del sistema. Todos los usuarios con licencia estándar verán los espacios de trabajo en su área de espacios de trabajo después de que un administrador del sistema los cree y comparta los nuevos espacios de trabajo con ellos.
+      1. Después de abrir el cuadro **Vista previa** para cada plantilla de área de trabajo, haga clic en **Atrás** para volver al cuadro **Crear área de trabajo** o haga clic en **Usar plantillas** para usar las plantillas, incluidas las del paquete, y crear áreas de trabajo.
+
+   <div class="preview">
+
+   * Haga clic en la ficha **Espacios de trabajo de ejemplo** y, a continuación, siga estos pasos:
+
+      1. Haga clic en una de las plantillas del espacio de trabajo de la pestaña para revisar los tipos de registro y los campos de cada plantilla. Las plantillas de la ficha **Espacios de trabajo de ejemplo** son de solo lectura.
+      1. Haga clic en **Crear a partir de plantillas** en la esquina superior derecha de una plantilla.
+      1. (Opcional) Haga clic en **Vista previa** en cualquiera de las plantillas para ver los tipos de registros y sus campos.
+
+         >[!TIP]
+         >
+         >Al hacer clic en una tarjeta de tipo de registro de una plantilla, se muestran los campos del tipo de registro en el panel derecho.
+      1. Haga clic en **Usar plantillas**.
+
+   </div>
+
+   Los 6 espacios de trabajo se crean y se muestran en las fichas **Espacios de trabajo en los que estoy** y **Todos los espacios de trabajo** para los administradores del sistema. Todos los usuarios con licencia estándar verán los espacios de trabajo en su área de espacios de trabajo después de que un administrador del sistema los cree y comparta los nuevos espacios de trabajo con ellos.
 
 1. Comience a editar los espacios de trabajo que ha creado y a añadir tipos de registros, registros, vistas y campos que sean pertinentes para su organización.
 
