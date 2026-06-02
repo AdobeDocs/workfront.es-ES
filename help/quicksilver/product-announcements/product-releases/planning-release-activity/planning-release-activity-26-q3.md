@@ -6,9 +6,9 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 4eeb229206421d737b9543613608935eacb058f9
+source-git-commit: bd1c8dfc4b03b4b8d9948da278406addf801d226
 workflow-type: tm+mt
-source-wordcount: '1559'
+source-wordcount: '1665'
 ht-degree: 2%
 
 ---
@@ -50,6 +50,18 @@ Workspace managers can modify views in sample workspaces.
 For information, see Workspaces overview (/help/quicksilver/planning/architecture/workspaces-overview.md). 
 
 -->
+
+## Nueva pestaña Espacios de trabajo de muestra agregada a la página de aterrizaje de Planning
+
+>[!NOTE]
+>
+>Vista previa: 1 de junio de 2026>Versión rápida de producción: 11 de junio de 2026>Producción para todos: 16 de julio de 2026
+
+Se ha añadido la pestaña Espacios de trabajo de muestra en el área de aterrizaje de Planning, donde puede ver un ejemplo de espacios de trabajo de prácticas recomendadas. Los espacios de trabajo no se pueden editar. Los administradores de Workspace pueden modificar las vistas en espacios de trabajo de ejemplo. La pestaña está visible para los usuarios de Standard y de System Administrator.
+
+Se recomienda ver los espacios de trabajo de ejemplo como ejemplos y utilizar el paquete de plantillas de varios espacios de trabajo para crear, editar y compartir espacios de trabajo resultantes como uso de esa plantilla.  El paquete de plantilla contiene los mismos espacios de trabajo que la pestaña Espacios de trabajo de ejemplo.
+
+Para obtener más información, vea [Información general sobre espacios de trabajo](/help/quicksilver/planning/architecture/workspaces-overview.md).
 
 ## API de Workfront Planning versión 2
 
