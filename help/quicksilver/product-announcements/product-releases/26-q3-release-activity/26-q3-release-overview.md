@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8ca50590-ef6a-44b1-a856-9821bdafbc1c
-source-git-commit: c90d91ab7b901d20d639d2507297f147821db8b2
+source-git-commit: 3bd72ca7e9a55dded97fa65d403d661f3ca95d3e
 workflow-type: tm+mt
-source-wordcount: '1443'
+source-wordcount: '1493'
 ht-degree: 20%
 
 ---
@@ -18,7 +18,7 @@ Esta página proporciona información sobre la funcionalidad que se incluye en l
 
 Las mejoras de esta página están disponibles en el entorno de vista previa. Esta página se actualizará con mejoras adicionales a medida que la versión del tercer trimestre de 2026 se aproxime a su versión de producción planificada.
 
-Se celebran seminarios web en directo para cada versión trimestral, en los que se destacan las nuevas funciones y se proporciona información detallada. Para registrarse, visite la [página de eventos](https://experienceleague.adobe.com/es/events?filters=Workfront) y filtre por Workfront.
+Se celebran seminarios web en directo para cada versión trimestral, en los que se destacan las nuevas funciones y se proporciona información detallada. Para registrarse, visite la [página de eventos](https://experienceleague.adobe.com/en/events?filters=Workfront) y filtre por Workfront.
 
 >[!IMPORTANT]
 >
@@ -105,17 +105,15 @@ Se celebran seminarios web en directo para cada versión trimestral, en los que 
             <td><strong>Vista previa</strong></td>
             <td><strong>Versión rápida</strong></td>
             <td><strong>Trimestralmente</strong></td>
-        <!--
         <tr>
             <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-documents.md" class="MCXref xref" xrefformat="{para}">Print summary for documents in the new Documents area</a>
-                <p>You can now open a printable summary of a document's approval directly from the new Documents area. This feature is available to organizations using Adobe cloud storage.</p>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-documents.md" class="MCXref xref" xrefformat="{para}">Imprimir resumen de documentos en el área de documentos nuevos</a><p>[!BADGE Off schedule]{type=Neutral}</p>
+                <p>Ahora puede abrir un resumen imprimible de la aprobación de un documento directamente desde el área de Documentos nueva. Esta función está disponible para las organizaciones que utilizan el almacenamiento en la nube de Adobe.</p>
             </td>
-            <td><p>TBD</p></td>
-            <td><p>TBD</p></td>
-            <td><p>TBD</p></td>
+            <td><p>2 de junio de 2026</p></td>
+            <td><p>11 de junio de 2026</p></td>
+            <td><p>16 de julio de 2026</p></td>
         </tr>
-        -->
         <tr>
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-documents.md" class="MCXref xref" xrefformat="{para}">Agregar un mensaje personalizado a una fase del flujo de trabajo de aprobación de documento</a>
@@ -350,7 +348,7 @@ Para obtener más información, consulte [Introducción a la versión de prueba 
 
 ### Workfront Maintenance Updates
 
-For information about the maintenance updates made during the Third Quarter 2026 release, see [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=es).
+For information about the maintenance updates made during the Third Quarter 2026 release, see [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 -->
 
