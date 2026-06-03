@@ -18,9 +18,9 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 9053a824ecec4feb35a612b26aebb91904ef2546
+source-git-commit: 03ecdc53f80c25a77136d1735266bfdbcbe2a8f9
 workflow-type: tm+mt
-source-wordcount: 1503
+source-wordcount: 1537
 ht-degree: 10%
 
 ---
@@ -91,6 +91,7 @@ Tenga en cuenta lo siguiente al utilizar Rellenar formulario con tecnología de 
 
 * El relleno de formulario de IA no sobrescribe los campos que ya haya rellenado.
 * Los usuarios no reciben sugerencias de datos a los que no tienen acceso de otro modo.
+* No se admiten campos que dependan de datos calculados. Por ejemplo, si el campo A es un campo calculado y las opciones del campo B se derivan del campo A, el relleno de formulario no puede rellenar automáticamente el campo B.
 
 <!--
 * Files that you use in Form Fill powered by AI are uploaded to Azure storage for 24 hours. This is necessary for document processing. 
