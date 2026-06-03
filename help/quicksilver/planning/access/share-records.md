@@ -6,11 +6,23 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 9ffad1aa-3c96-40fa-9c62-7a3e00699f18
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: fdbe3945f59306fc26424d7e88b799d9dcaea4da
+TQID: https://experienceleague.adobe.com/NTytTWD-zq3PVhXn4n-GHinvQxna1wfnAXjaeYBgTEY
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: c33c023ab33a3b0c8369e6fae091d0ec877aa4e2
 workflow-type: tm+mt
-source-wordcount: '1700'
+source-wordcount: 1720
 ht-degree: 7%
 
 ---
@@ -125,6 +137,8 @@ maybe use the Share record types as example here and touch on the same points: h
 Cuando los usuarios tienen permisos de contribución para un espacio de trabajo o tipo de registro, reciben permisos de administración para los registros de ese tipo de registro.
 * Cuando se quita una entidad de un espacio de trabajo, todos los permisos de uso compartido se quitan de los tipos de registro y de todos los registros que contiene.
 * No se puede compartir un registro con un usuario que no tenga permisos para el área de trabajo o el tipo de registro.
+
+  Si comparte un registro con alguien que no está en el área de trabajo, se agregará automáticamente al área de trabajo.
 * El acceso de un usuario al registro se determina mediante la combinación de las tres opciones siguientes:
 
    * Sus permisos se heredan del tipo de registro y del espacio de trabajo
@@ -149,7 +163,7 @@ Cuando los usuarios tienen permisos de contribución para un espacio de trabajo 
 
 * Puede deshabilitar los permisos heredados para un único registro, en cuyo caso puede conceder a determinados usuarios permisos para registros individuales o pueden obtener permisos si pertenecen al área de trabajo, debido a la opción **Todos los usuarios del área de trabajo pueden ver**.
 
-* Si se aplican varios permisos de uso compartido para el mismo usuario, recibe el permiso más alto de esos permisos.
+* Si se aplican varios permisos de uso compartido para el mismo usuario, recibirá el nivel más alto de esos permisos.
 
   Por ejemplo, si un registro se comparte con un usuario con permisos de visualización y su grupo con acceso de administración, recibirá permisos de administración en el registro.
 
