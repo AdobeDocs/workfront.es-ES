@@ -8,8 +8,10 @@ author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 212d465c-5605-4bb9-af5a-cea377619cfe
 TQID: https://experienceleague.adobe.com/2ikEopwBMpVFPsAtqzg9SsKkmJjxIbI4bY5QxD-87kU
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 503
@@ -31,7 +33,7 @@ Se puede acceder directamente al resumen de comentarios desde las siguientes ár
 
 * [El Visualizador de pruebas](#the-proof-viewer)
 * [La página Detalles de prueba](#the-proof-details-page)
-* [El menú Acciones de  [!DNL Proof] ](#the-proof-actions-menu)
+* [El menú Acciones de  [!DNL Proof] &#x200B;](#the-proof-actions-menu)
 
 ### El Visualizador de pruebas {#the-proof-viewer}
 

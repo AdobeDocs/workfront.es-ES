@@ -8,8 +8,10 @@ author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 56556d16-9aab-4b0e-b08c-ac5f1703e082
 TQID: https://experienceleague.adobe.com/cEwm8LT22jENgN3OFGgqzGoMfrz8JSqIyHQGdYpiV04
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 1544
@@ -200,4 +202,4 @@ Si tiene los derechos de edición para hacerlo, puede mover pruebas, archivos y 
 1. Realice una de las siguientes acciones:
 
    * Para mover un elemento, haga clic en él y manténgalo pulsado, arrastrándolo y soltándolo en la carpeta en la que desea colocarlo.
-   * Para mover varios elementos al mismo tiempo, puede seleccionar las casillas de verificación a la izquierda de los elementos, hacer clic en **[!UICONTROL Mover a]**encima de la lista y, a continuación, seleccione la carpeta donde desee colocarlos o crear una nueva carpeta para ellos.
+   * Para mover varios elementos al mismo tiempo, puede seleccionar las casillas de verificación a la izquierda de los elementos, hacer clic en **[!UICONTROL Mover a]**&#x200B;encima de la lista y, a continuación, seleccione la carpeta donde desee colocarlos o crear una nueva carpeta para ellos.
