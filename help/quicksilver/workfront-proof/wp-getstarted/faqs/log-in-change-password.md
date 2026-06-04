@@ -8,9 +8,14 @@ description: 'El administrador de Workfront Proof puede configurar una marca per
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: c67d411e-1cea-4a89-94a3-7503c4ce2eb7
-source-git-commit: e842e6714d6fa9c3944f03723f95029af1a85379
+TQID: https://experienceleague.adobe.com/VegCU8Bt-m-loHvC41n5njkRi5TpqbJBLZlemtAaOnI
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '546'
+source-wordcount: 550
 ht-degree: 98%
 
 ---
@@ -33,15 +38,15 @@ ht-degree: 98%
 1. Si desea mantener la sesión iniciada (sin que se agote el tiempo de espera de la sesión tras 30 minutos de inactividad), seleccione **[!UICONTROL Mantenerme conectado]**.
 1. Haga clic en **[!UICONTROL Inicio de sesión]**.
 
-El administrador de [!DNL Workfront Proof] puede configurar una marca personalizada para la página de [!UICONTROL inicio de sesión]. Consulte [Crear una marca en el sitio de  [!DNL Workfront Proof] &#x200B;](../../../workfront-proof/wp-acct-admin/branding/brand-wp-site.md). O si usa un plan de edición [!UICONTROL Enterprise] o [!UICONTROL Unlimited], consulte [Crear una marca en el sitio de  [!DNL Workfront Proof] : avanzado](../../../workfront-proof/wp-acct-admin/branding/brand-wp-site-advanced.md).
+El administrador de [!DNL Workfront Proof] puede configurar una marca personalizada para la página de [!UICONTROL inicio de sesión]. Consulte [Crear una marca en el sitio de  [!DNL Workfront Proof] ](../../../workfront-proof/wp-acct-admin/branding/brand-wp-site.md). O si usa un plan de edición [!UICONTROL Enterprise] o [!UICONTROL Unlimited], consulte [Crear una marca en el sitio de  [!DNL Workfront Proof] : avanzado](../../../workfront-proof/wp-acct-admin/branding/brand-wp-site-advanced.md).
 
-Para los planes [!UICONTROL Enterprise] y [!UICONTROL Unlimited], ofrecemos la función de inicio de sesión único (SSO), que permite a sus usuarios iniciar sesión en [!DNL Workfront Proof] con su nombre de usuario y contraseña para su organización. Consulte [Configuración del inicio de sesión único para usuarios de  [!DNL Workfront Proof] &#x200B;](../../../workfront-proof/wp-acct-admin/account-settings/configure-sso-for-wp-users.md), para obtener más información.
+Para los planes [!UICONTROL Enterprise] y [!UICONTROL Unlimited], ofrecemos la función de inicio de sesión único (SSO), que permite a sus usuarios iniciar sesión en [!DNL Workfront Proof] con su nombre de usuario y contraseña para su organización. Consulte [Configuración del inicio de sesión único para usuarios de  [!DNL Workfront Proof] ](../../../workfront-proof/wp-acct-admin/account-settings/configure-sso-for-wp-users.md), para obtener más información.
 
 ## Cierre de sesión
 
 1. Haga clic en **[!UICONTROL Cierre de sesión]** en la esquina superior derecha de Workfront Proof.\
    Aparece un mensaje para confirmar que ha cerrado la sesión. Puede hacer clic en **[!UICONTROL Volver a la página de inicio de sesión]** para iniciar sesión de nuevo si lo desea.\
-   El administrador de [!DNL Workfront Proof] puede configurar la marca personalizada para este mensaje. Consulte [Crear una marca en el sitio de  [!DNL Workfront Proof] &#x200B;](../../../workfront-proof/wp-acct-admin/branding/brand-wp-site.md). O bien, si está usando un plan de edición [!UICONTROL Enterprise] o [!UICONTROL Unlimited], consulte [Crear una marca en el sitio de  [!DNL Workfront Proof] : avanzado](../../../workfront-proof/wp-acct-admin/branding/brand-wp-site-advanced.md).
+   El administrador de [!DNL Workfront Proof] puede configurar la marca personalizada para este mensaje. Consulte [Crear una marca en el sitio de  [!DNL Workfront Proof] ](../../../workfront-proof/wp-acct-admin/branding/brand-wp-site.md). O bien, si está usando un plan de edición [!UICONTROL Enterprise] o [!UICONTROL Unlimited], consulte [Crear una marca en el sitio de  [!DNL Workfront Proof] : avanzado](../../../workfront-proof/wp-acct-admin/branding/brand-wp-site-advanced.md).
 
 ## Si olvida su contraseña {#when-you-forget-your-password}
 

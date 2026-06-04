@@ -7,12 +7,17 @@ description: 'Informe: Hora presupuestada'
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 2c0b60a6-fae4-4b29-8243-2a7f7d1f574b
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/pNgl5pELeORB8eiEJLKNKIAOY3hf-rOtrzlTWHmTM5M
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '656'
-ht-degree: 72%
+source-wordcount: 659
+ht-degree: 71%
 
 ---
 
@@ -115,15 +120,15 @@ La siguiente información está disponible en el informe Hora presupuestada de f
    <td>Nombre del usuario asociado a Hora presupuestada.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Fecha de asig</td> 
+   <td role="rowheader">Asignar. Fecha</td> 
    <td> <p>Esta es la fecha de asignación. Es el primer día (un domingo) de la semana para el que presupuestó las horas.</p> <p>Sugerencia:  <p>Si una semana abarca dos meses, esto genera dos filas en el informe: una correspondiente al primer día de la semana (el domingo de la semana que es durante el primer mes) y una segunda correspondiente al primer día del segundo mes (y que podría ser cualquier día de la semana).</p> <p>Por ejemplo, si asigna un presupuesto de 8 horas a un usuario para la semana del 30 de junio (domingo) al 6 de julio (sábado), las dos filas muestran una Fecha de asignación del 30 de junio y del 1 de julio.</p> </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Horas presup.</td> 
+   <td role="rowheader">Bud. Horas</td> 
    <td>Horas presupuestadas asignadas al usuario en el Planificador de recursos.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Pln. Horas presup.</td> 
+   <td role="rowheader">Pln. Bud. Horas</td> 
    <td>Son las horas presupuestadas asignadas a la función o al proyecto en el Planificador de recursos.</td> 
   </tr> 
  </tbody> 

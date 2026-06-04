@@ -6,10 +6,14 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4bd041a5-a6e3-4fe3-ae23-45980701e904
-source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
+TQID: https://experienceleague.adobe.com/owoXC1kzVMTER0p-z1l3nKfa1d0z8JHMzZTsP26QLkc
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '889'
-ht-degree: 98%
+source-wordcount: 899
+ht-degree: 94%
 
 ---
 
@@ -43,7 +47,7 @@ La fecha de vencimiento en las tarjetas conectadas y en las tarjetas ad hoc ahor
 
 Para obtener más información, consulte [Usar tarjetas conectadas en los tableros](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
 
-[Ver una demostración en vídeo de esta característica](https://video.tv.adobe.com/v/3411952/){target=_blank}
+[Vea un vídeo de demostración de esta función](https://video.tv.adobe.com/v/3411952/){target=_blank}
 
 ## Los elementos de la lista de comprobación de tableros y las subtareas de Workfront ahora están vinculados
 
@@ -57,7 +61,7 @@ Anteriormente, los elementos de la lista de comprobación y las subtareas no est
 
 Para obtener más información, consulte [Usar tarjetas conectadas en los tableros](/help/quicksilver/agile/get-started-with-boards/connected-cards.md) y [Administrar elementos de listas de comprobación en tarjetas](/help/quicksilver/agile/get-started-with-boards/manage-checklist-items.md).
 
-[Ver una demostración en vídeo de esta característica](https://video.tv.adobe.com/v/3411951/){target=_blank}
+[Vea un vídeo de demostración de esta función](https://video.tv.adobe.com/v/3411951/){target=_blank}
 
 ## Contador de tarjetas en las columnas del tablero
 
@@ -89,7 +93,7 @@ Si se asigna un estado a una tarjeta de un tablero, el estado se muestra ahora e
 
 Para obtener más información, consulte [Usar tarjetas conectadas en los tableros](/help/quicksilver/agile/get-started-with-boards/connected-cards.md) y [Administrar elementos de listas de comprobación en tarjetas](/help/quicksilver/agile/get-started-with-boards/add-card-to-board.md).
 
-Estado de ![&#x200B; en la tarjeta](/help/quicksilver/product-announcements/product-releases/assets/boards-connected-card-details-110922.png)
+Estado de ![ en la tarjeta](/help/quicksilver/product-announcements/product-releases/assets/boards-connected-card-details-110922.png)
 
 ## Tarjetas enlazables ahora disponibles en tableros
 
@@ -121,7 +125,7 @@ La lista de filtros de un panel ahora incluye la opción de filtrar por conexió
 
 Para obtener más información, consulte [Filtrar y buscar en un panel](/help/quicksilver/agile/get-started-with-boards/filter-search-in-board.md).
 
-[Ver una demostración en vídeo de esta característica](https://video.tv.adobe.com/v/3412381/){target=_blank}
+[Vea un vídeo de demostración de esta función](https://video.tv.adobe.com/v/3412381/){target=_blank}
 
 ## Archivar tarjetas de un panel en una programación
 
@@ -135,4 +139,4 @@ Si desea volver a mostrar las tarjetas después de que se caigan del panel, pued
 
 Para obtener más información, consulte [Configurar la caída de la tarjeta](/help/quicksilver/agile/use-boards-agile-planning-tools/configure-card-falloff.md).
 
-[Ver una demostración en vídeo de esta característica](https://video.tv.adobe.com/v/3412323/){target=_blank}
+[Vea un vídeo de demostración de esta función](https://video.tv.adobe.com/v/3412323/){target=_blank}

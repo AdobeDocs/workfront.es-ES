@@ -6,11 +6,15 @@ description: Los modificadores de filtro y condición permiten crear filtros y e
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 13e9d926-8a89-490e-aa7a-e6e8baf2a36b
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/-zma9k-MyCFD5wrcn9ggAoPnKjwAmunEVgl33yhH-Mk
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1593'
+source-wordcount: 1600
 ht-degree: 95%
 
 ---
@@ -87,7 +91,7 @@ Puede utilizar los siguientes modificadores de condición en filtros e instrucci
   <tr valign="top"> 
    <td> </td> 
    <td> <p><strong>contains</strong> </p> </td> 
-   <td> <p> Busca el texto especificado <i>con distinción de mayúsculas y minúsculas</i> en toda una cadena de texto.</p> <p>Por ejemplo, al utilizar <code>contains Inf</code> se captura todo lo que contenga <code>Inf</code>, como, por ejemplo, la palabra <code>Infinity.</code></p> <p>Este modificador solo se puede utilizar en filtros de modo de texto. Para obtener más información sobre el modo de texto en los filtros, consulte <a href="../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md" class="MCXref xref">Editar un filtro mediante el modo de texto</a>.</p> </td> 
+   <td> <p> Busca el texto especificado <i>con distinción de mayúsculas y minúsculas</i> en toda una cadena de texto.</p> <p>Por ejemplo, al utilizar <code>contains Inf</code> se captura todo lo que contenga <code>Inf</code>, como, por ejemplo, la palabra <code>Infinity.</code></p> <p>Este modificador solo se puede utilizar en filtros de modo de texto.Para obtener más información sobre el modo de texto en los filtros, consulte <a href="../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md" class="MCXref xref">Editar un filtro mediante el modo de texto</a>.</p> </td> 
   <tr valign="top"> 
    <td> <p> </p> </td> 
    <td> <p><strong>notcontains</strong> </p> </td> 
@@ -136,7 +140,7 @@ Puede utilizar los siguientes modificadores de condición en filtros e instrucci
   <tr valign="top"> 
    <td> <p> </p> </td> 
    <td> <p><strong>like</strong> </p> </td> 
-   <td> <p>Este modificador busca partes de una cadena de texto <i>con distinción de mayúsculas y minúsculas</i> de manera similar a <strong>contains</strong>. Sin embargo, <strong>like</strong> permite insertar caracteres comodín para dividir el texto.</p> <p>Por ejemplo, al buscar notas, mediante <code>like %Current% %Dead%</code> se devuelven aquellas que contengan la frase “actual a inactivo". No incluye ninguna nota que contenga “inactivo a actual”. Los valores se buscan en el orden en que aparecen en la lista. % representa un carácter comodín que reemplaza caracteres o segmentos de texto. También se puede utilizar un guion bajo para un único carácter comodín, como en <code>like Project_</code>, que devuelve “proyecto” y “proyectos”. Si tiene intención de usar un modificador <strong>like</strong> o <strong>clike</strong> en el filtro, se recomienda evitar los caracteres % o _ en nombres de campos de datos personalizados, valores de opciones de parámetros u otros nombres de objetos.</p><p>Este modificador solo se puede utilizar en filtros de modo de texto. Para obtener más información acerca del modo de texto en los filtros, consulte <a href="../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md" class="MCXref xref">Editar un filtro mediante el modo de texto</a>.</p> </td> 
+   <td> <p>Este modificador busca partes de una cadena de texto <i>con distinción de mayúsculas y minúsculas</i> de manera similar a <strong>contains</strong>. Sin embargo, <strong>like</strong> permite insertar caracteres comodín para dividir el texto.</p> <p>Por ejemplo, al buscar notas, mediante <code>like %Current% %Dead%</code> se devuelven aquellas que contengan la frase “actual a inactivo". No incluye ninguna nota que contenga “inactivo a actual”. Los valores se buscan en el orden en que aparecen en la lista. % representa un carácter comodín que reemplaza caracteres o segmentos de texto. También se puede utilizar un guion bajo para un único carácter comodín, como en <code>like Project_</code>, que devuelve “proyecto” y “proyectos”. Si tiene intención de usar un modificador <strong>like</strong> o <strong>clike</strong> en el filtro, se recomienda evitar los caracteres % o _ en nombres de campos de datos personalizados, valores de opciones de parámetros u otros nombres de objetos.</p><p>Este modificador solo se puede utilizar en filtros de modo de texto. Para obtener más información sobre el modo de texto en los filtros, consulte <a href="../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md" class="MCXref xref">Editar un filtro mediante el modo de texto</a>.</p> </td> 
   </tr>  
   <tr valign="top"> 
    <td> <p> </p> </td> 

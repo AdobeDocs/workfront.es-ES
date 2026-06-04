@@ -7,14 +7,20 @@ description: La administración de recursos le permite configurar el sistema par
 author: Lisa
 feature: Resource Management
 exl-id: b10ef503-60ea-4450-b63e-b2918e9bcc11
-source-git-commit: b78b86806e5c3c1e6d0662fea0e1a11f97ef032e
+TQID: https://experienceleague.adobe.com/0-mIGjSaSi9gxuJ0tIYCmmGbBrgXWESmG3OtYoLnsfw
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2: id: c33d85a1-be85-4290-854c-87408c10aa80id: ce22a157-dd2c-405f-b740-c2f204bb4c1aid: d1573eb8-a2e8-4a06-9526-9c3410bf4914id: d3382524-5489-431b-bde9-271ab257bc37id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1201'
+source-wordcount: 1204
 ht-degree: 91%
 
 ---
 
-# Introducción a la Administración de recursos 
+# Introducción a la Administración de recursos
 
 <!-- Audited: 12/2023 -->
 
@@ -119,7 +125,7 @@ El proceso de administración de recursos en Workfront incluye las siguientes et
   Para obtener más información sobre la planificación de recursos y la asignación de trabajo, vea las secciones siguientes:
 
    * [Planificación de recursos: índice de artículos](../../resource-mgmt/resource-planning/resource-planning-overview.md)
-   * [[!DNL Adobe Workfront Scenario Planner]: índice de artículos](../../scenario-planner/scenario-planning.md)
+   * [[!DNL Adobe Workfront Scenario Planner]: índice del artículo](../../scenario-planner/scenario-planning.md)
    * [El Distribuidor de cargas de trabajo: índice de artículos](../../resource-mgmt/workload-balancer/workload-balancer.md)
 
 <!--

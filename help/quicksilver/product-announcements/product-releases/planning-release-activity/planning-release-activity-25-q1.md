@@ -7,10 +7,16 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: ef0b719c-6d2e-4d3e-9522-da6dbd71c248
-source-git-commit: a6104204cae2a2d8fb021da254437008d55a43b6
+TQID: https://experienceleague.adobe.com/q4CqQk3-DtWDhTSkfMdu4Ut3wmX5s787Fib8BFslHDQ
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87effid: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '2112'
-ht-degree: 4%
+source-wordcount: 2204
+ht-degree: 5%
 
 ---
 
@@ -28,7 +34,7 @@ Para obtener una lista de todas las características publicadas para Adobe Workf
 >
 >Versión preliminar: sábado, 20 de diciembre de 2024; versión de producción para todos los clientes: viernes, 16 de enero de 2025
 
-AEM Ahora puede agregar campos de conexión con recursos de la a un formulario de solicitud de tipo de registro en Workfront Planning.
+Ahora puede agregar campos de conexión con recursos de AEM a un formulario de solicitud de tipo de registro en Workfront Planning.
 
 Antes de esta mejora, estos tipos de campos no se podían agregar a los formularios de solicitud.
 
@@ -65,7 +71,7 @@ Ahora recibirá una notificación en la aplicación y por correo electrónico de
 
 Para obtener información sobre el envío o la aprobación de solicitudes, consulte los siguientes artículos:
 
-* [Envío de solicitudes de Adobe Workfront Planning para crear registros](/help/quicksilver/planning/requests/submit-requests.md)
+* [Enviar solicitudes de Adobe Workfront Planning para crear registros](/help/quicksilver/planning/requests/submit-requests.md)
 
 * [Aprobar una solicitud en Adobe Workfront Planning](/help/quicksilver/planning/requests/approve-request.md).
 
@@ -201,7 +207,7 @@ Ahora puede mostrar los registros en la vista de calendario por semana. Antes de
 
 Para obtener más información, vea [Administrar la vista de calendario](/help/quicksilver/planning/views/manage-the-calendar-view.md).
 
-## Restauración de registros eliminados
+## Restaurar registros eliminados
 
 >[!NOTE]
 >
@@ -215,13 +221,13 @@ Antes de esta mejora, los registros eliminados no se podían restaurar.
 
 Para obtener más información, vea [Restaurar registros eliminados](/help/quicksilver/planning/records/records-information.md).
 
-## Asistente de IA de Adobe disponible en las áreas de detalles de registro
+## El Asistente de Adobe AI está disponible en las áreas de detalles de registro
 
 >[!NOTE]
 >
 >Versión de vista previa: 21 de noviembre de 2024; producción para versión rápida: con la versión 24.12 (12 de diciembre de 2024); producción para versión trimestral: con la versión 25.1 (enero de 2025)
 
-Para facilitar la realización de su trabajo, hemos agregado el Asistente de IA de Adobe a la vista previa de detalles de un registro o a la página del registro. Puede utilizar el Asistente de IA dentro de una página de registro para actualizar la información sobre el registro.
+Para facilitar la realización de su trabajo, hemos agregado el Ayudante de Adobe AI a la vista previa de detalles de un registro o a la página del registro. Puede utilizar el Asistente de IA dentro de una página de registro para actualizar la información sobre el registro.
 
 Para obtener más información, consulte [Descripción general del Asistente de IA de Adobe Workfront Planning](/help/quicksilver/planning/general/planning-ai-assistant-overview.md).
 
@@ -302,10 +308,10 @@ Para continuar vinculando objetos de Workfront a registros de Workfront Planning
 
 * Conecte y desconecte los registros de Workfront Planning de un objeto Workfront.
 
-Puede agregar el nuevo campo a los formularios para todos los tipos de objetos. Sin embargo, sólo puede editar la información del campo desde formularios adjuntos a los siguientes objetos de Workfront que se pueden conectar desde los tipos de registro de Workfront Planning: Portfolio, Programa, Proyecto, Empresa, Grupo.
+Puede agregar el nuevo campo a los formularios para todos los tipos de objetos. Sin embargo, solo puede editar la información del campo desde los formularios adjuntos a los siguientes objetos de Workfront que se pueden conectar desde los tipos de registro de Workfront Planning: Portfolio, Programa, Proyecto, Empresa, Grupo.
 
 Aún no está disponible la edición masiva de los campos de conexión de Planning para objetos de Workfront.
 
 Para obtener más información, consulte [Crear un formulario personalizado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
-[Ver una demostración en vídeo de esta característica](https://video.tv.adobe.com/v/3435633/){target=_blank}
+[Vea un vídeo de demostración de esta función](https://video.tv.adobe.com/v/3435633/){target=_blank}

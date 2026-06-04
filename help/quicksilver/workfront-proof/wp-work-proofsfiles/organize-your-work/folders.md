@@ -8,10 +8,13 @@ description: Las carpetas son la mejor manera de organizar el trabajo en su cuen
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 2969d8f8-387f-403c-87e7-a1ff041f5089
-source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
+TQID: https://experienceleague.adobe.com/SwRT0YaqVLihsuxAVQuNJ5Hds4QToUz3-rfYLKszBKU
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '375'
-ht-degree: 0%
+source-wordcount: 375
+ht-degree: 100%
 
 ---
 
@@ -19,20 +22,20 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Este artículo hace referencia a la funcionalidad del producto independiente [!DNL Workfront Proof]. Para obtener información sobre la revisión dentro de [!DNL Adobe Workfront], vea [Revisión](../../../review-and-approve-work/proofing/proofing.md).
+>Este artículo hace referencia a la funcionalidad del producto independiente [!DNL Workfront Proof]. Para obtener información sobre la revisión dentro de [!DNL Adobe Workfront], consulte [Revisión](../../../review-and-approve-work/proofing/proofing.md).
 
 Las carpetas son la mejor manera de organizar el trabajo en su cuenta de [!DNL Workfront Proof]. Puede crear una estructura de carpetas para reflejar la forma en que se organizan las carpetas en el equipo, con estructuras de carpetas independientes para cada cliente, trabajo o campaña.
 
-![carpetas.png](assets/folders-350x425.png)
+![folders.png](assets/folders-350x425.png)
 
 Entre las ventajas de utilizar carpetas se incluyen las siguientes:
 
-* **Limitación del acceso a los datos confidenciales del cliente**: Si no desea que algunos de los usuarios vean algunas de las pruebas, puede convertir en privadas las carpetas donde se almacenan. Para obtener más información, consulte [Explicación de los permisos de carpeta en [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/folder-permissions.md).
+* **Limitación del acceso a los datos confidenciales del cliente**: si no desea que algunos de los usuarios vean algunas de las pruebas, puede convertir en privadas las carpetas donde se almacenan. Para obtener más información, consulte [Comprender los permisos de carpeta en  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/folder-permissions.md).
 
-* **Realización de acciones masivas en pruebas y archivos**: puede administrar convenientemente pruebas y archivos agrupados en carpetas, realizando acciones masivas en ellas. Por ejemplo, puede compartir varios elementos en una acción. Para obtener más información, vea [Administrar carpetas y su contenido en [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders-and-contents.md).
+* **Realización de acciones masivas en pruebas y archivos**: puede administrar cómodamente pruebas y archivos agrupados en carpetas, realizando acciones masivas sobre ellos. Por ejemplo, puede compartir varios elementos en una acción. Para obtener más información, consulte [Administrar carpetas y su contenido en  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders-and-contents.md).
 
-* **Compartir carpetas con otros usuarios de Workfront Proof**: cuando comparte una carpeta, aparece en la barra lateral del otro usuario y tienen acceso de solo lectura a todos los elementos de la carpeta. Si está cooperando estrechamente con otra cuenta de Workfront Proof, puede ser una buena idea configurar una relación de socio entre sus cuentas de Workfront Proof. De este modo, puede compartir sus carpetas con toda la compañía de una sola vez, lo que significa que las carpetas se compartirán automáticamente con los nuevos usuarios desde la cuenta de Partner. Para obtener más información, vea [Compartir carpetas en [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/share-folders.md).
+* **Compartir carpetas con otros usuarios de Workfront Proof**: cuando comparte una carpeta, aparece en la barra lateral del otro usuario y este tiene acceso de solo lectura a todos los elementos de la carpeta. Si está cooperando estrechamente con otra cuenta de Workfront Proof, puede ser una buena idea configurar una relación de socio entre sus cuentas de Workfront Proof. De este modo, puede compartir sus carpetas con toda la compañía de una sola vez, lo que significa que las carpetas se compartirán automáticamente con los nuevos usuarios desde la cuenta de socio. Para obtener más información, consulte [Compartir carpetas en  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/share-folders.md).
 
-* **Agrupar pruebas en las que desee trabajar juntos o en las que desee que trabajen juntos los revisores**: cuando usted u otro revisor abra una de las pruebas, iniciando el visor de pruebas, todas las pruebas de la carpeta también estarán disponibles allí. Sin salir del visor de pruebas, puede ver las otras pruebas, ordenarlas y buscarlas, y compararlas entre sí. Para obtener más información, consulte &quot;Uso de varias pruebas en el visualizador de pruebas&quot;.
+* **Agrupar revisiones en las que desee trabajar juntos o en las que desee que trabajen juntos los revisores**: cuando usted u otro revisor abre una de las revisiones e iniciar el visor de corrección, todas las revisiones de la carpeta también estarán disponibles allí. Sin salir del visor de revisiones, puede ver las otras revisiones, ordenarlas y buscarlas, y compararlas entre sí. Para obtener más información, consulte “Uso de varias revisiones en el visor de corrección”.
 
-Puede crear sus carpetas una por una. Para obtener más información, vea [Crear carpetas en [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/create-folders.md).
+Puede crear sus carpetas una por una. Para obtener más información, consulte [Crear carpetas en [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/create-folders.md).

@@ -5,10 +5,14 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 357b5a80-424a-475c-9163-82cffbbd253e
-source-git-commit: e08ac842214a9bcff0acba3f34316bb5cfa4c4aa
+TQID: https://experienceleague.adobe.com/0abYVe3tHVDckYTIqVMlT-5i3tM5mp5KF-UOUe5P8fM
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '470'
-ht-degree: 24%
+source-wordcount: 492
+ht-degree: 30%
 
 ---
 
@@ -24,8 +28,7 @@ Para obtener una lista de todos los cambios disponibles en este punto del ciclo 
 >
 >* Vista previa: 13 de octubre de 2025
 >* Versión rápida de producción: 13 de octubre de 2025
->* Producción para todos los clientes: martes, 13 de octubre de 2025
->[!BADGE Fuera del horario]{type=Neutral}
+>* Producción para todos los clientes: 13 de octubre de 2025>[!BADGE Fuera del horario]{type=Neutral}
 
 La pestaña Resumen de un informe se ha actualizado con las siguientes mejoras:
 
@@ -54,10 +57,10 @@ La pestaña Resumen de un informe se ha actualizado con las siguientes mejoras:
 >
 >| Previsualizar versión | Versión de producción |
 >|---|---|
->| 24 de septiembre de 2024 | 16 de octubre de 2025 (con la versión 25.10) |
+>| 19 de septiembre de 2023 | 16 de octubre de 2025 (con la versión 25.10) |
 >| viernes, 11 de diciembre de 2025 | 15 de enero de 2026 (con la versión 26.1) |
 
-Para permitir que las organizaciones accedan a las ventajas de la experiencia unificada de Adobe, seguimos poniéndola a disposición de los clientes de Workfront existentes.
+Para que las organizaciones puedan acceder a las ventajas de Adobe Unified Experience, seguimos poniéndola a disposición de los clientes de Workfront existentes.
 
 La experiencia unificada de Adobe incluye lo siguiente:
 
@@ -69,7 +72,7 @@ El administrador de Workfront recibirá un mensaje del Centro de anuncios con re
 
 Para obtener más información, consulte [Adobe Unified Experience para Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
 
-[Ver una demostración en vídeo de esta característica.](https://video.tv.adobe.com/v/3412388/){target=_blank}
+[Vea un vídeo de demostración de esta función.](https://video.tv.adobe.com/v/3412388/){target=_blank}
 
 ## Actualizaciones en listas mejoradas
 

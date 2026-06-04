@@ -6,13 +6,17 @@ title: Tableau Desktop no puede establecer una conexión
 description: Cuando intenta conectar Tableau Desktop a Data Connect, aparece un error.
 author: Courtney
 feature: Reports and Dashboards
-source-git-commit: e8b1d553ac4761e2b6eae79ae384956105939d90
+exl-id: 2a25d99a-a05e-4f60-ae1a-51ee137ad5f3
+TQID: https://experienceleague.adobe.com/-V1TT-X0FjMm2PIKDy0JVFkvt-A-a7f8fRbVzGzy1jg
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c1579802-ddd4-4214-8a91-97b2066abe11id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '252'
-ht-degree: 1%
+source-wordcount: 253
+ht-degree: 5%
 
 ---
-
 
 # Tableau Desktop no puede establecer una conexión
 
@@ -39,4 +43,3 @@ Puede intentar lo siguiente para resolver este problema:
 * **Comprobar la configuración del servidor de seguridad y del proxy**: Compruebe si alguna configuración de servidor de seguridad o proxy de la red está bloqueando el acceso a los extremos de Snowflake. Es posible que deba ponerse en contacto con el administrador de red para agregar los puertos y las direcciones IP de Snowflake necesarios a la lista de permitidos de su empresa.
 
 * **Opción de solución alternativa**: cree un extracto desde la pantalla de una hoja de cálculo en lugar del panel Data Source en Tableau. La conexión no se pierde y el proceso de extracción se completa.
-

@@ -1,22 +1,25 @@
 ---
-title: 23.3 Mejoras de Mobile
-description: 23.3 Mejoras de Mobile
+title: Mejoras de la versión 23.3 en aplicaciones móviles
+description: Mejoras de la versión 23.3 en aplicaciones móviles
 author: Lisa
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: bc38191c-3cde-4be4-b6b4-43d3fbd58828
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+TQID: https://experienceleague.adobe.com/QuHQ6SOkpiZm3YOJlHNKfVWj--JWLE0W-fk3jYbih5g
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '179'
-ht-degree: 0%
+source-wordcount: 181
+ht-degree: 25%
 
 ---
 
-# 23.3 Mejoras de Mobile
+# Mejoras de la versión 23.3 en aplicaciones móviles
 
-Esta página describe todas las mejoras realizadas en Mobile con la versión 23.3. Estas mejoras estaban disponibles en el entorno de producción con la versión 23.3 del 20 y 21 de julio de 2023.
+Esta página describe todas las mejoras realizadas en Mobile con la versión 23.3. Estas mejoras estaban disponibles en el entorno de producción con la versión 23.3 de 20 y 21 de julio de 2023.
 
-Para obtener una lista de todos los cambios disponibles en este punto del ciclo de la versión 23.3, consulte [Descripción general de la versión 23.3](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md).
+Para obtener una lista de todos los cambios disponibles en este punto del ciclo de lanzamiento 23.3, consulte [Información general de la versión 23.3](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md).
 
 ## Nueva funcionalidad de prueba en la aplicación móvil de Workfront
 
