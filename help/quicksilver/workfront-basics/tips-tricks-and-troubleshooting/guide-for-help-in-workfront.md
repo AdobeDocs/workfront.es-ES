@@ -9,11 +9,20 @@ exl-id: 3cdbf342-4809-44e3-ad9b-b5841950a1e4
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/iBp-i2UxWo1qoDv6z-dWI8gF5ILCBRPWbYlQVWtkHpo
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
-subfeature_v2: id: a29813d3-f0cc-4b60-9396-13b558370803
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 970
@@ -68,7 +77,7 @@ Para obtener más información sobre [!DNL Workfront], puede hacer lo siguiente:
   </tr> 
   <tr> 
    <td><strong>[!UICONTROL Connect with peers]</strong> </td> 
-   <td>[!UICONTROL [!DNL Workfront] Community] le ofrece una red de profesionales que dominan el trabajo moderno y que comparten activamente sus conocimientos y experiencia. Para obtener más información, consulte <a href="../../workfront-basics/tips-tricks-and-troubleshooting/workfront-community.md" class="MCXref xref" xrefformat="{para}">La comunidad de [!DNL Adobe Workfront]</a>.</td> 
+   <td>[!UICONTROL [!DNL Workfront] Community] le ofrece una red de profesionales que dominan el trabajo moderno y que comparten activamente sus conocimientos y experiencia. Para obtener más información, consulte <a href="../../workfront-basics/tips-tricks-and-troubleshooting/workfront-community.md" class="MCXref xref" xrefformat="{para}">La comunidad de [!DNL Adobe Workfront]</a>.</td> 
   </tr> 
   <tr> 
    <td><strong>Consulte las novedades de cualquiera de los productos de </strong>[!DNL Workfront]<strong></strong></td> 
@@ -149,9 +158,9 @@ Para obtener más información, consulte el artículo [El Laboratorio de innovac
 
 Los siguientes recursos pueden ayudarle a obtener más información sobre la API de [!DNL Workfront] y otras integraciones:
 
-| Integraciones de [[!DNL Adobe Workfront] ](../../administration-and-setup/configure-integrations/workfront-integrations-1.md) | Puede integrar [!DNL Workfront] con aplicaciones de terceros. Las integraciones pueden ampliar la utilidad de [!DNL Workfront] y adaptarla a las necesidades de su organización. Este artículo de la Base de conocimiento cubre las opciones de integración y le señala los siguientes pasos. |
+| Integraciones de [[!DNL Adobe Workfront] &#x200B;](../../administration-and-setup/configure-integrations/workfront-integrations-1.md) | Puede integrar [!DNL Workfront] con aplicaciones de terceros. Las integraciones pueden ampliar la utilidad de [!DNL Workfront] y adaptarla a las necesidades de su organización. Este artículo de la Base de conocimiento cubre las opciones de integración y le señala los siguientes pasos. |
 |---|---|
-| Integraciones integradas de [[!DNL Workfront] ](https://business.adobe.com/products/workfront/integrations.html) | Las integraciones integradas gratuitas de Workfront le permiten a usted y a su equipo lograr una transición fluida a la plataforma Workfront manteniendo los mismos flujos de trabajo y procesos. |
+| Integraciones integradas de [[!DNL Workfront] &#x200B;](https://business.adobe.com/products/workfront/integrations.html) | Las integraciones integradas gratuitas de Workfront le permiten a usted y a su equipo lograr una transición fluida a la plataforma Workfront manteniendo los mismos flujos de trabajo y procesos. |
 | [[!DNL Adobe Workfront Fusion]](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/home) | Conecta [!DNL Workfront] a más de 100 aplicaciones, lo que facilita la automatización de los procesos esenciales para la empresa sin necesidad de código. |
 
 {style="table-layout:auto"}
@@ -160,7 +169,7 @@ Los siguientes recursos pueden ayudarle a obtener más información sobre la API
 
 Suscríbase a [status.adobe.com](https://status.adobe.com/es/) para mantenerse al día de los mantenimientos programados y los problemas de interrupción del servicio.
 
-Para obtener más información sobre el sitio de estado de [!DNL Workfront], consulte [el sitio de estado de  [!DNL Adobe Workfront] ](../../workfront-basics/tips-tricks-and-troubleshooting/understand-the-status-site.md).
+Para obtener más información sobre el sitio de estado de [!DNL Workfront], consulte [el sitio de estado de  [!DNL Adobe Workfront] &#x200B;](../../workfront-basics/tips-tricks-and-troubleshooting/understand-the-status-site.md).
 
 Para saber qué se ha corregido en una actualización de mantenimiento semanal, consulte [Actualizaciones de mantenimiento](https://experienceleague.adobe.com/es/docs/workfront-known-issues/releases/current-updates).
 

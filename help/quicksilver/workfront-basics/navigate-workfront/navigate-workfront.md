@@ -8,8 +8,10 @@ author: Courtney
 recommendations: noDisplay, noCatalog
 exl-id: 2ee82e53-1cc3-4438-a325-8c2c4d4ca1fb
 TQID: https://experienceleague.adobe.com/NdEAmkWrFDjyyP1XQ9mTwR9WRKvTKF3wMONn7Zynu1U
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 121
@@ -39,7 +41,7 @@ Esta sección contiene las siguientes subsecciones y artículos:
 * [Anclar páginas para personalizar el espacio de trabajo](../../workfront-basics/the-new-workfront-experience/pin-pages.md)
 * [Listas en [!DNL Adobe Workfront]](../../workfront-basics/navigate-workfront/use-lists/lists.md)
 * [Añadir un panel en el panel izquierdo de un objeto o área de Workfront](/help/quicksilver/workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/create-custom-tabs.md)
-* [Acceder a la ayuda de  [!DNL Adobe Workfront] ](../../workfront-basics/navigate-workfront/workfront-navigation/access-workfront-help.md)
+* [Acceder a la ayuda de  [!DNL Adobe Workfront] &#x200B;](../../workfront-basics/navigate-workfront/workfront-navigation/access-workfront-help.md)
 * [Información general sobre las fechas del proyecto, la tarea y el problema en  [!DNL Workfront]](../../workfront-basics/navigate-workfront/workfront-navigation/definitions-pti-dates.md)
 * [Comprenda la navegación de un usuario con licencia de [!UICONTROL Trabajo]](../../workfront-basics/navigate-workfront/workfront-navigation/worker-global-navigation-bar.md)
 * [Comprenda la navegación de un usuario con licencia para [!UICONTROL Light]](../../workfront-basics/navigate-workfront/workfront-navigation/reviewer-global-navigation-bar.md)

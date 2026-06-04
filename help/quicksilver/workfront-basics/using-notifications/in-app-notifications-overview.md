@@ -7,8 +7,10 @@ author: Courtney
 feature: Get Started with Workfront
 exl-id: afc8cfe7-d9a7-458a-b437-bd4c75838cb0
 TQID: https://experienceleague.adobe.com/uR2GdykN4aZ6H0hV-4-nXD7Iv5oEF9XKdbGa1i9Oa2s
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 837
@@ -38,7 +40,7 @@ Notificación de ![[!UICONTROL anuncio]](assets/notification-list-announcement-3
 
 Para obtener información sobre la página [!UICONTROL Anuncios], consulte [Visualización y administración de notificaciones en la aplicación](../../workfront-basics/using-notifications/view-and-manage-in-app-notifications.md).
 
-## Notificaciones del [!UICONTROL  elemento de trabajo]
+## Notificaciones del [!UICONTROL &#x200B; elemento de trabajo]
 
 Al hacer clic en el icono numerado ![Icono de notificaciones](assets/notifications-icon-jewel.jpg) en la esquina superior derecha de [!DNL Workfront] para abrir la lista de notificaciones, se muestra la línea de asunto del mensaje del elemento de trabajo con un icono y una breve descripción para identificar de qué se trata. A continuación se enumeran los tipos de icono y descripción.
 
@@ -46,7 +48,7 @@ Al hacer clic en el icono numerado ![Icono de notificaciones](assets/notificatio
 
 >[!NOTE]
 >
->Las notificaciones dentro de la aplicación para actividades laborales no están vinculadas a las notificaciones por correo electrónico en [!DNL Workfront]. Para obtener más información, consulte notificaciones de [[!DNL Adobe Workfront] ](../../workfront-basics/using-notifications/wf-notifications.md).
+>Las notificaciones dentro de la aplicación para actividades laborales no están vinculadas a las notificaciones por correo electrónico en [!DNL Workfront]. Para obtener más información, consulte notificaciones de [[!DNL Adobe Workfront] &#x200B;](../../workfront-basics/using-notifications/wf-notifications.md).
 
 * [[!UICONTROL Rutas de aprobación]](#approvals)
 * [[!UICONTROL Solicitudes]](#requests)

@@ -8,11 +8,18 @@ author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: dd0822b6-80f1-4a2e-bf6a-0c425984f4d0
 TQID: https://experienceleague.adobe.com/zuT3F839KAE1NOQvnSEXjARik9fVfWJYg74lNQhr31Y
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87effid: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 1789
@@ -84,9 +91,7 @@ Para obtener información acerca de cómo crear un proceso de aprobación de niv
      >     Por ejemplo, si tiene una aprobación de tarea asociada al estado En curso, la tarea cambia automáticamente su estado a En curso cuando se concede la aprobación. No puede cambiar automáticamente su estado a Completado ni a ningún otro estado que no esté asociado con la aprobación.
      >   
      >   
-     >
-
-   * Las entidades asociadas a un proceso de aprobación pueden ser usuarios, funciones del puesto o equipos. En última instancia, los usuarios son los responsables de aceptar o rechazar la aprobación. Puede asignar aprobaciones a los usuarios que cumplan una determinada función en el proyecto. Por ejemplo, puede asignar una aprobación a un propietario del proyecto o patrocinador. Para obtener más información, vea [Crear un proceso de aprobación de elementos de trabajo](../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
+     >* Las entidades asociadas a un proceso de aprobación pueden ser usuarios, funciones del puesto o equipos. En última instancia, los usuarios son los responsables de aceptar o rechazar la aprobación. Puede asignar aprobaciones a los usuarios que cumplan una determinada función en el proyecto. Por ejemplo, puede asignar una aprobación a un propietario del proyecto o patrocinador. Para obtener más información, vea [Crear un proceso de aprobación de elementos de trabajo](../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
 
      Se dan los siguientes escenarios:
 
