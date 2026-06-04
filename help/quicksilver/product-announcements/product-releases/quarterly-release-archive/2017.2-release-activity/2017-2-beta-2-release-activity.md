@@ -8,10 +8,14 @@ feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 0aa8d61e-cf8c-46a7-b093-a0dbc90d37fd
 TQID: https://experienceleague.adobe.com/DMqQO0ANmU91bTeg5IYpb0XnfhmcpaqSWFc9b3jcdpM
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 746
@@ -64,7 +68,7 @@ Para obtener más información sobre cómo darse de baja de los correos electró
 
 ## Configuración de la vista de los hitos en el gráfico Gantt {#configure-how-milestones-are-displayed-on-the-gantt-chart}
 
-***CORRECCIÓN **: esta característica no se encuentra actualmente en el entorno de vista previa de zona protegida. Su lanzamiento está previsto para una fecha posterior, durante el mes de junio de 2017.*
+***CORRECCIÓN &#x200B;**: esta característica no se encuentra actualmente en el entorno de vista previa de zona protegida. Su lanzamiento está previsto para una fecha posterior, durante el mes de junio de 2017.*
 
 Ahora dispone de dos opciones para ver la información de los hitos en un gráfico Gantt. Puede configurar uno de los siguientes indicadores de hito o ambos:
 

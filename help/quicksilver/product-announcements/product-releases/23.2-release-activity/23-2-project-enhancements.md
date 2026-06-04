@@ -7,10 +7,14 @@ feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 02eb390b-b733-4080-86cb-ed28c99cf2b4
 TQID: https://experienceleague.adobe.com/NoBV-XCdKn6K1YNWOMBCSj7ANhisRxiA8Z1n-rjz-p8
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 515
@@ -50,7 +54,7 @@ Para obtener más información, consulte [Editar proyectos](/help/quicksilver/ma
 
 ## La experiencia mejorada del filtro suele estar disponible en Adobe Workfront
 
-En agosto de 2022 se publicó en una versión beta pública una actualización de la experiencia de filtros para las listas de proyectos, tareas y problemas. La mayoría de listas ahora ofrecen estos filtros mejorados. (Para revisar todas estas listas, consulte la [nota de la versión de actualizaciones de aspecto y presentación de ](/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-look-and-feel-updates.md).) La experiencia de filtro mejorada estará disponible de manera generalizada y se convertirá en el generador de filtros estándar en Vista previa el 2 de marzo de 2023. El 2 de marzo también se iniciará un despliegue gradual en el entorno de producción, que estará disponible para todos los clientes en la versión 23.2.
+En agosto de 2022 se publicó en una versión beta pública una actualización de la experiencia de filtros para las listas de proyectos, tareas y problemas. La mayoría de listas ahora ofrecen estos filtros mejorados. (Para revisar todas estas listas, consulte la [nota de la versión de actualizaciones de aspecto y presentación de &#x200B;](/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-look-and-feel-updates.md).) La experiencia de filtro mejorada estará disponible de manera generalizada y se convertirá en el generador de filtros estándar en Vista previa el 2 de marzo de 2023. El 2 de marzo también se iniciará un despliegue gradual en el entorno de producción, que estará disponible para todos los clientes en la versión 23.2.
 
 Se puede seguir accediendo a los filtros heredados en las listas habilitándolos en el panel de filtros. En el futuro, los filtros heredados quedarán obsoletos en las listas, pero permanecerán disponibles en los informes porque el generador de filtros estándar no está disponible en estos.
 
