@@ -329,7 +329,7 @@ This section will be updated with more information prior to the 20.4 release bei
 </MadCap:conditionalText>
 -->
 
-Para obtener más información sobre novedades y actualizaciones, consulte [Novedades de la versión 12 de la API](https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-api/api-notes/new-api-version-12).
+Para obtener más información sobre novedades y actualizaciones, consulte [Novedades de la versión 12 de la API](https://experienceleague.adobe.com/es/docs/workfront/using/adobe-workfront-api/api-notes/new-api-version-12).
 
 Para obtener más información sobre las versiones de API, consulte [Versiones de API y programación de soporte](../../../wf-api/api/api-version-support-schedule.md)
 
@@ -382,4 +382,4 @@ Para obtener más información, consulte [Configurar la lista de permitidos del 
 
 Con Workfront One, descubrirá el contenido, los recursos y las noticias más importantes de Workfront: todo en un solo lugar, con un solo inicio de sesión. Hemos unificado los sitios de experiencia, comunidad y formación, para que le resulte más fácil encontrar lo que busca.
 
-[Más información sobre Workfront One](https://business.adobe.com/products/workfront.html).
+[Más información sobre Workfront One](https://business.adobe.com/es/products/workfront.html).
