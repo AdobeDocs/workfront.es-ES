@@ -9,11 +9,17 @@ exl-id: 7dcdfc5a-3fc1-48a8-ae28-a6a0a458732e
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/qSEkxIz67R1PRsCZCNu0oDYS6pLSJi3OaAULifx9xbo
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2: id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
 workflow-type: tm+mt
 source-wordcount: 1160
@@ -159,7 +165,7 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Group]</td> 
-      <td> <p>Añada el nombre de un solo grupo si este está asociado al programa o si tiene la responsabilidad de completarlo. </p> <p><b>Sugerencia</b></p>  <p>Al acceder al campo [!UICONTROL Group] desde la página Detalles del programa [!UICONTROL], haga lo siguiente para asegurarse de que está seleccionando el grupo correcto: </p> <p>Pase el ratón sobre el nombre del grupo y haga clic en el icono de [!UICONTROL information] <img src="assets/info-icon.png"> que hay junto a él. Esta acción muestra la ayuda contextual con información sobre el grupo, como la jerarquía de los grupos que tiene por encima y sus administradores.</p> <p> <img src="assets/group-details-widget-programs-350x268.png" style="width: 350;height: 268;"> </p> <p>Esta opción no está disponible en el cuadro [!UICONTROL Edit Program]. </p> </p> </td> 
+      <td> <p>Añada el nombre de un solo grupo si este está asociado al programa o si tiene la responsabilidad de completarlo. </p> <p><b>Sugerencia</b></p>  <p>Al acceder al campo [!UICONTROL Group] desde la página Detalles del programa , haga lo siguiente para asegurarse de que está seleccionando el grupo correcto: </p> <p>Pase el ratón sobre el nombre del grupo y haga clic en el icono de [!UICONTROL information] <img src="assets/info-icon.png"> que hay junto a él. Esta acción muestra la ayuda contextual con información sobre el grupo, como la jerarquía de los grupos que tiene por encima y sus administradores.</p> <p> <img src="assets/group-details-widget-programs-350x268.png" style="width: 350;height: 268;"> </p> <p>Esta opción no está disponible en el cuadro [!UICONTROL Edit Program]. </p> </p> </td> 
      </tr>
 
    <tr> 

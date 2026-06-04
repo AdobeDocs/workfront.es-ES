@@ -7,11 +7,17 @@ author: Lisa
 feature: Work Management
 exl-id: 63ba6758-ba62-48b4-89f4-d784e32a1bfa
 TQID: https://experienceleague.adobe.com/R4sO92imTe1YBO0YGJIsuD5OOlhfbhlN-0qvyYU48t0
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2: id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 4595
@@ -340,7 +346,7 @@ Tenga en cuenta lo siguiente al calcular los ingresos planificados para usuarios
 
 * Las **Horas planificadas** se distribuyen de manera uniforme en la **Duración** de la tarea.
 
-* La **duración** es el período de tiempo entre la **Fecha planificada de inicio** **** y la **Fecha planificada de finalización** de la tarea. Dado que la **Fecha de inicio planificada** y la **Fecha de finalización planificada** de las tareas pueden diferir según las zonas horarias de los usuarios que ven la tarea, la cantidad de horas planificadas por día puede ser diferente para dos usuarios en dos zonas horarias diferentes.
+* La **duración** es el período de tiempo entre la **Fecha planificada de inicio** **&#x200B;**&#x200B;y la **Fecha planificada de finalización** de la tarea. Dado que la **Fecha de inicio planificada** y la **Fecha de finalización planificada** de las tareas pueden diferir según las zonas horarias de los usuarios que ven la tarea, la cantidad de horas planificadas por día puede ser diferente para dos usuarios en dos zonas horarias diferentes.
 
 * La cantidad de horas planificadas por día no cambia los ingresos planificados de un proyecto si la tarifa de facturación de la función no cambia, o cuando solo hay una anulación de tarifa de facturación. En este caso, incluso si dos usuarios de dos zonas horarias diferentes ven diferentes horas planificadas por día, los ingresos planificados generales del proyecto son idénticos entre los dos usuarios.
 
