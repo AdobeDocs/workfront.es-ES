@@ -2,16 +2,23 @@
 content-type: reference;overview
 product-area: resource-management
 navigation-topic: resource-management-navigation-topic
-title: "Planificación de recursos: índice de artículos"
+title: 'Planificación de recursos: índice de artículos'
 description: Los artículos de esta sección contienen información sobre la funcionalidad de las secciones Planificador y Conjuntos de recursos del área de Recursos de Adobe Workfront.
 author: Lisa
 feature: Resource Management
 recommendations: noDisplay, noCatalog
 exl-id: 21ffaa14-435d-46f3-bfdd-823fa616df5a
-source-git-commit: a9d507bfcc0a602e71bcdd3142d63cc40175ebf4
+TQID: https://experienceleague.adobe.com/cb6LwMjZZtsTQHV68s3iuhld-GK4uWv06KzRLcOwGp0
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '207'
-ht-degree: 0%
+source-wordcount: 207
+ht-degree: 100%
 
 ---
 
@@ -23,24 +30,24 @@ Los artículos de esta sección contienen información sobre la funcionalidad de
 
 Esta sección contiene los siguientes artículos:
 
-* [Introducción a la planificación de recursos](../../resource-mgmt/resource-planning/get-started-resource-planning.md)
+* [Empezar con la planificación de recursos](../../resource-mgmt/resource-planning/get-started-resource-planning.md)
 * [Acceso necesario para presupuestar recursos en Adobe Workfront](../../resource-mgmt/resource-planning/access-needed-to-budget-resources.md)
 * [Conjuntos de recursos](../../resource-mgmt/resource-planning/resource-pools/resource-pools.md)
-* [Resumen del Planificador de recursos](../../resource-mgmt/resource-planning/get-started-resource-planner.md)
-* [Localizar el Planificador de recursos](../../resource-mgmt/resource-planning/locate-resource-planner.md)
-* [Resumen de navegación del Planificador de recursos](../../resource-mgmt/resource-planning/resource-planner-navigation.md)
-* [Revisar la disponibilidad y asignación de recursos mediante el Planificador de recursos de Adobe Workfront](../../resource-mgmt/resource-planning/resource-availability-allocation-resource-planner.md)
-* [Información general sobre horas, ETC e información de costos en las vistas Proyecto y Rol del Planificador de recursos](../../resource-mgmt/resource-planning/overview-of-planner-hour-fte-cost-information-in-role-project-views.md)
-* [Recursos de presupuesto en el Planificador de recursos usando las vistas de proyecto y rol](../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md)
-* [Ajustar fechas de presupuesto en el Planificador de recursos](../../resource-mgmt/resource-planning/adjust-budgeting-dates.md)
+* [Información general del planificador de recursos](../../resource-mgmt/resource-planning/get-started-resource-planner.md)
+* [Localizar el planificador de recursos](../../resource-mgmt/resource-planning/locate-resource-planner.md)
+* [Información general de navegación del planificador de recursos](../../resource-mgmt/resource-planning/resource-planner-navigation.md)
+* [Revisar la disponibilidad y asignación de recursos mediante el planificador de recursos de Adobe Workfront](../../resource-mgmt/resource-planning/resource-availability-allocation-resource-planner.md)
+* [Información general sobre horas, FTE e información de costes en las vistas Proyecto y Función del planificador de recursos](../../resource-mgmt/resource-planning/overview-of-planner-hour-fte-cost-information-in-role-project-views.md)
+* [Recursos de presupuesto en el planificador de recursos usando las vistas de proyecto y función](../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md)
+* [Ajustar fechas de presupuesto en el planificador de recursos](../../resource-mgmt/resource-planning/adjust-budgeting-dates.md)
 * [Ver horas disponibles, planificadas y reales o FTE en el Planificador de recursos al usar la vista de usuario](../../resource-mgmt/resource-planning/view-hours-fte-user-view-resource-planner.md)
-* [Información general sobre el cálculo de horas y FTE para usuarios y roles en el Planificador de recursos](../../resource-mgmt/resource-planning/calculate-hours-fte-for-users-roles-resource-planner.md)
-* [Calcular costos en el Planificador de recursos](../../resource-mgmt/resource-planning/calculate-costs-resource-planner.md)
-* [Priorizar proyectos en el Planificador de recursos](../../resource-mgmt/resource-planning/prioritize-projects-resource-planner.md)
-* [Compartir la vista de usuario del Planificador de recursos con un vínculo](../../resource-mgmt/resource-planning/share-resource-planner-with-link.md)
-* [Filtrar información en el Planificador de recursos](../../resource-mgmt/resource-planning/filter-resource-planner.md)
-* [Exportar información del Planificador de recursos](../../resource-mgmt/resource-planning/export-resource-planner.md)
-* [Informe sobre horas presupuestadas del Planificador de recursos](../../resource-mgmt/resource-planning/report-on-budgeted-hours.md)
+* [Información general sobre el cálculo de horas y FTE para usuarios y funciones en el planificador de recursos](../../resource-mgmt/resource-planning/calculate-hours-fte-for-users-roles-resource-planner.md)
+* [Calcular costes en el planificador de recursos](../../resource-mgmt/resource-planning/calculate-costs-resource-planner.md)
+* [Priorizar proyectos en el planificador de recursos](../../resource-mgmt/resource-planning/prioritize-projects-resource-planner.md)
+* [Compartir la vista de usuario del planificador de recursos con un vínculo](../../resource-mgmt/resource-planning/share-resource-planner-with-link.md)
+* [Filtrar información en el planificador de recursos](../../resource-mgmt/resource-planning/filter-resource-planner.md)
+* [Exportar información del planificador de recursos](../../resource-mgmt/resource-planning/export-resource-planner.md)
+* [Informe sobre horas presupuestadas del planificador de recursos](../../resource-mgmt/resource-planning/report-on-budgeted-hours.md)
 * [Limitaciones de visualización del Planificador de recursos](../../resource-mgmt/resource-planning/resource-planner-display-limitations.md)
 
   <!--

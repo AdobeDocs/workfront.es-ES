@@ -5,12 +5,33 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 6c14bd61-60b1-49aa-84bd-d494a226d70e
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/JhnaFQbcX6-s-AsTT8icddervRkfGPi-MN0hU0gwBLA
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+  - id: b91c0848-76c4-4da4-8b81-3aade0518dd0
+  - id: c10f2e93-7a58-4212-aa24-684c265ebe76
+  - id: c3a155b4-a54b-4a82-a3d2-c8f0f971673e
+  - id: d3382524-5489-431b-bde9-271ab257bc37
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+  - id: fceb5125-bb41-419a-b0db-31958cb42f6c
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '2773'
-ht-degree: 66%
+source-wordcount: 2909
+ht-degree: 71%
 
 ---
 
@@ -66,7 +87,7 @@ Las <span class="preview">funciones fuera de ciclo que se enviaron a producción
             <tbody>
                 <tr>
                     <td>
-                        <p><span class="bold">Función</span>
+                        <p><span class="bold">Característica</span>
                         </p>
                     </td>
                     <td>
@@ -326,7 +347,7 @@ Las <span class="preview">funciones fuera de ciclo que se enviaron a producción
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-home-enhancements.md" class="MCXref xref" xrefformat="{para}">Nuevo widget de tableros para la nueva página de inicio</a> </p><p>[!BADGE In production &#x200B;]{type=Informative}</p>
-                        <p>En una nueva adición importante a las opciones de administración de trabajo disponibles en Nueva página de inicio, ahora puede mostrar un tablero en su página de inicio.</p>
+                        <p>En una nueva adición importante a las opciones de administración de trabajo disponibles en el nuevo inicio, ahora puede mostrar un tablero en su página de inicio.</p>
                     </td>
                     <td><p><b>Disponible en estas fechas:</b></p>
                         <ul>
@@ -345,7 +366,7 @@ Las <span class="preview">funciones fuera de ciclo que se enviaron a producción
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-home-enhancements.md" class="MCXref xref" xrefformat="{para}">Nueva página de aterrizaje predeterminada de colaborador: Nueva página de inicio</a>  </p><p>[!BADGE In production &#x200B;]{type=Informative}</p>
-                        <p>La nueva página de inicio es ahora la página de destino predeterminada para las cuentas de colaborador/solicitante. Esta nueva página de inicio predeterminada incluye una serie de widgets seleccionados específicamente para permitir a los colaboradores administrar mejor su trabajo de inmediato.</p>
+                        <p>La nueva página de inicio es ahora la página de destino predeterminada para las cuentas de colaborador/solicitante. Esta nueva página de inicio predeterminada incluye una serie de widgets seleccionados específicamente para que los colaboradores puedan administrar mejor su trabajo de inmediato.</p>
                     </td>
                     <td><p><b>Disponible en estas fechas:</b></p>
                         <ul>
@@ -365,7 +386,7 @@ Las <span class="preview">funciones fuera de ciclo que se enviaron a producción
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-home-enhancements.md" class="MCXref xref" xrefformat="{para}">Cambios en el seguimiento de trabajo en la nueva página de inicio </a> </p>
                         <p>[!BADGE In production &#x200B;]{type=Informative}</p>
-                        <p>En función de los comentarios de los usuarios, hemos eliminado el filtro de intervalo de tiempo de toda la página y la barra de resumen que contabilizaba las tareas pendientes y completadas. Los widgets Proyecto, Tarea y Problema tienen funciones de filtrado integradas que le permiten personalizar su ámbito de manera individual.</p>
+                        <p>En función de los comentarios de los usuarios, hemos eliminado el filtro de intervalo de tiempo de toda la página y la barra de resumen que contabilizaba las tareas pendientes y completadas. Los widgets Proyecto, Tarea y Problema tienen cada uno de ellos funciones de filtrado integradas que le permiten personalizar su ámbito de manera individual.</p>
                     </td>
                     <td><p><b>Disponible en estas fechas:</b></p>
                         <ul>
@@ -385,7 +406,7 @@ Las <span class="preview">funciones fuera de ciclo que se enviaron a producción
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-home-enhancements.md" class="MCXref xref" xrefformat="{para}">Nuevos botones de acción rápida para el widget Mi trabajo</a> </p>
                         <p>[!BADGE In production &#x200B;]{type=Informative}</p>
-                        <p>Para ampliar aún más su capacidad de administrar el trabajo directamente desde la nueva página de inicio, se han agregado nuevos botones de acción rápida al widget Mi trabajo.</p>
+                        <p>Para ampliar aún más la capacidad de administrar el trabajo directamente desde la nueva página de inicio, se han añadido nuevos botones de acción rápida al widget Mi trabajo.</p>
                     </td>
                     <td><p><b>Disponible en estas fechas:</b></p>
                         <ul>
@@ -548,7 +569,7 @@ Las <span class="preview">funciones fuera de ciclo que se enviaron a producción
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Nuevas aprobaciones de documentos</a> </p><p>[!BADGE In production &#x200B;]{type=Informative}</p>
-                        <p>En esta versión, el proceso de aprobación se ha optimizado tanto para la creación de aprobaciones como para la aprobación/revisión de documentos, además de las nuevas funcionalidades.</p>
+                        <p>En esta versión, el proceso de aprobación se ha optimizado tanto para la creación de aprobaciones como para la aprobación/revisión de documentos, además de que se ha incorporado nueva funcionalidad.</p>
                     </td>
                     <td><p><b>Disponible en estas fechas:</b></p>
                         <ul>
@@ -785,7 +806,7 @@ Tenga en cuenta que la aplicación móvil de Workfront requiere un inicio de ses
 
 #### Flujos de trabajo eliminados para las cuentas que no los utilizan
 
-En el caso de las cuentas que nunca han creado un flujo de trabajo en los paneles de Adobe Workfront, el área Flujos de trabajo se ha eliminado del panel Tableros al 11 de octubre de 2023. Las cuentas que sí utilizan flujos de trabajo siguen teniendo acceso a ellas. En futuras versiones se abordará la funcionalidad mejorada de depuración.
+En el caso de las cuentas que nunca han creado un flujo de trabajo en los paneles de Adobe Workfront, el área Flujos de trabajo se ha eliminado del panel Tableros al 11 de octubre de 2023. Las cuentas que sí utilizan secuencias de trabajo siguen teniendo acceso a ellas. En futuras versiones se abordará la funcionalidad mejorada de depuración.
 
 <!--
  HTML you might need

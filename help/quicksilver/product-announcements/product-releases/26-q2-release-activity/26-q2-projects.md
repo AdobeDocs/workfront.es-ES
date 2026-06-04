@@ -4,10 +4,16 @@ description: Mejoras del proyecto del segundo trimestre de 2026
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: c4ec10bde03404befd75464841f8d3c90421dde8
+exl-id: def76c9c-d808-489b-82c7-b1f44c241116
+TQID: https://experienceleague.adobe.com/4aDDK3EIDecA-DcuB7wb3e6-NV5IvIUF7mKl-lhnY8I
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '272'
-ht-degree: 21%
+source-wordcount: 262
+ht-degree: 17%
 
 ---
 
@@ -21,8 +27,7 @@ Para obtener una lista de todos los cambios disponibles en este punto del ciclo 
 
 >[!NOTE]
 >
->Vista previa: 5 de febrero de 2026
->Producción: a partir del 5 de febrero de 2026\
+>Vista previa: 5 de febrero de 2026>Producción: a partir del 5 de febrero de 2026\
 >[!BADGE Fuera del horario]{type=Neutral}
 
 Hemos actualizado la sección Asignaciones en el cuadro Editar tareas de plantilla al editar tareas de plantilla únicas o editarlas por lotes.  
@@ -42,8 +47,7 @@ Para obtener más información, consulte [Editar tareas de plantilla](/help/quic
 
 >[!NOTE]
 >
->Vista previa: 26 de enero de 2026
->Producción: a partir del 5 de febrero de 2026
+>Vista previa: 26 de enero de 2026>Producción: a partir del 5 de febrero de 2026
 
 Hemos actualizado la sección Asignaciones en el cuadro Editar tareas al editar tareas únicas o editarlas por lotes.
 
@@ -60,6 +64,3 @@ En esta actualización se incluyen los siguientes cambios:
 * Se ha eliminado la opción &quot;Volver a la experiencia anterior&quot;.
 
 Para obtener más información, consulte [Editar tareas](/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md).
-
-
-

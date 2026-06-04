@@ -5,12 +5,24 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: ce152c48-ed72-47ed-b1c5-940c93b4a9ec
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 56849377a2c31c9232e0ecd8517046f76c7963df
+TQID: https://experienceleague.adobe.com/EqRUPqeqy6fSLryuWDtQGaypBlXmSJiaErDZymB95is
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '562'
-ht-degree: 15%
+source-wordcount: 512
+ht-degree: 11%
 
 ---
 
@@ -24,9 +36,7 @@ Para obtener una lista de todos los cambios disponibles en este punto del ciclo 
 
 >[!NOTE]
 >
->Vista previa: 2 de abril de 2026
->Versión rápida de producción: jueves, 15 de abril de 2026
->Producción para todos: viernes, 16 de abril de 2026
+>Vista previa: 2 de abril de 2026>Versión rápida de producción: 15 de abril de 2026>Producción para todos: 16 de abril de 2026
 
 Para facilitarle las ventajas de la IA en su trabajo diario, hemos creado Content Review AI Collaborator. Collaborator es una forma de incorporar agentes de IA en sus proyectos y tareas. Puede configurar un colaborador de IA con directrices de marca y, a continuación, asignarlo a una tarea como lo haría con un usuario.
 
@@ -38,9 +48,7 @@ Para obtener más información, consulte [Configuración de colaboradores de IA]
 
 >[!NOTE]
 >
->Vista previa: 5 de marzo de 2026
->Versión rápida de producción: jueves, 15 de abril de 2026
->Producción para todos: viernes, 16 de abril de 2026
+>Vista previa: 5 de marzo de 2026>Versión rápida de producción: 15 de abril de 2026>Producción para todos: 16 de abril de 2026
 
 Hemos movido el área Trimestre personalizado de la sección Preferencias de proyecto. Ahora es una sección independiente en Configuración. 
 Esta actualización incluye lo siguiente:
@@ -55,9 +63,7 @@ Para obtener más información, consulte [Habilitar trimestres personalizados](/
 
 >[!NOTE]
 >
->Vista previa: 26 de febrero de 2026
->Versión rápida de producción: viernes, 12 de marzo de 2026
->Producción para todos: viernes, 16 de abril de 2026
+>Vista previa: 26 de febrero de 2026>Versión rápida de producción: 12 de marzo de 2026>Producción para todos: 16 de abril de 2026
 
 De forma predeterminada, todas las secciones de un formulario personalizado se expanden cuando se expande el propio formulario. Una nueva opción del diseñador de formularios personalizado permite marcar una sección para que se contraiga de forma predeterminada cuando un usuario abre el formulario. Esta opción se aplica en el nivel de sección, no en los campos.
 
@@ -67,9 +73,7 @@ Para obtener más información, vea [Organizar y obtener una vista previa de un 
 
 >[!NOTE]
 >
->Vista previa: 29 de enero de 2026
->Versión rápida de producción: viernes, 12 de febrero de 2026
->Producción para todos: por determinar
+>Vista previa: 29 de enero de 2026>Versión rápida de producción: 12 de febrero de 2026>Producción para todos: por determinar
 >
 >Esta función se eliminó temporalmente del entorno de producción el 13 de febrero de 2026.
 

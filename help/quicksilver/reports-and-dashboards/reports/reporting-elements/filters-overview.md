@@ -7,9 +7,24 @@ description: Puede utilizar los filtros en Adobe Workfront para reducir la canti
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 3daacfba-9da7-4c04-be98-ec5f953c3c34
-source-git-commit: 577761ff5d1fb59db104df5995af953a0b5e6c0c
+TQID: https://experienceleague.adobe.com/TQ8-NjL4FZ-bn9x1nh21irMvSwjgJttA6J5i6AjLheI
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: d3382524-5489-431b-bde9-271ab257bc37
+  - id: e147ce9d-7675-49bd-8a32-44f27d865560
+  - id: fceb5125-bb41-419a-b0db-31958cb42f6c
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1811'
+source-wordcount: 1794
 ht-degree: 99%
 
 ---
@@ -223,7 +238,7 @@ Puede utilizar modificadores de filtro para indicar el tipo de información con 
 >[!INFO]
 >
 >**Ejemplo:**
->&#x200B;>Puede filtrar por proyectos que tengan un porcentaje completado del 100 %. En este caso, puede utilizar el modificador “equal” en la siguiente instrucción de filtro:
+>Puede filtrar por proyectos que tengan un porcentaje completado del 100%. En este caso, puede utilizar el modificador &quot;equal&quot; en la siguiente instrucción de filtro:
 >
 >`Project: Percent Complete Equal(Case Sensitive) 100`
 

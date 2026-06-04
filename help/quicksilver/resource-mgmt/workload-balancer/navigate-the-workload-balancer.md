@@ -6,11 +6,24 @@ description: Utilice el Distribuidor de cargas de trabajo para comprender la dis
 author: Lisa
 feature: Resource Management
 exl-id: 60dabfc5-6a2e-4368-9dac-db48d0307895
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 900e29200bef2d4f70b17cd810ea0e2b936c8aad
+TQID: https://experienceleague.adobe.com/8bwTS-3UaNbMLtyx8yEmH7zF5vMYaWP1nedWaGP4UJE
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2:
+  - id: c33d85a1-be85-4290-854c-87408c10aa80
+  - id: d3382524-5489-431b-bde9-271ab257bc37
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '4400'
+source-wordcount: 4433
 ht-degree: 8%
 
 ---
@@ -105,8 +118,8 @@ Para obtener más información sobre la visualización de información en el Dis
 
 Para obtener información sobre la administración de recursos mediante el Distribuidor de cargas de trabajo, consulte también los siguientes artículos:
 
-* [Información general sobre la asignación de trabajo en el Distribuidor de cargas de trabajo](https://experienceleague.adobe.com/es/docs/workfront/using/manage-resources/the-workload-balancer/assign-work-in-workload-balancer)
-* [Administrar asignaciones de usuario en el Distribuidor de cargas de trabajo](https://experienceleague.adobe.com/es/docs/workfront/using/manage-resources/the-workload-balancer/manage-user-allocations-workload-balancer)
+* [Información general sobre la asignación de trabajo en el equilibrador de carga](https://experienceleague.adobe.com/es/docs/workfront/using/manage-resources/the-workload-balancer/assign-work-in-workload-balancer)
+* [Administrar asignaciones de usuario en el equilibrador de carga](https://experienceleague.adobe.com/es/docs/workfront/using/manage-resources/the-workload-balancer/manage-user-allocations-workload-balancer)
 
 ## Vaya al Distribuidor de cargas de trabajo para varios proyectos en el área de Recursos
 

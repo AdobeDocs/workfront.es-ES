@@ -7,10 +7,15 @@ description: Esta página describe todas las mejoras realizadas con la versión 
 author: Courtney
 feature: Product Announcements, Workfront Goals
 exl-id: 30a8d125-f84c-4e1a-8e4c-d76da326c2ef
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+TQID: https://experienceleague.adobe.com/-ilB35Fvr1FF937vPOfsw0UHkAVu98-VU39sX5W47iQ
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '372'
-ht-degree: 54%
+source-wordcount: 327
+ht-degree: 53%
 
 ---
 
@@ -28,13 +33,13 @@ Para obtener una lista de todos los cambios disponibles en todas las áreas de W
 
 Para crear una experiencia más coherente con el resto de Workfront, así como para que sea más fácil ver sus metas y trabajar con ellas, hemos actualizado Workfront Goals. La apariencia de Workfront Goals ahora es más similar a otras áreas de Workfront.
 
-En la actualidad, áreas como el encabezado, las listas y las tarjetas de detalles le resultarán familiares y coherentes con su experiencia en Workfront.
-Las metas individuales se abren en su propia página y se han añadido las siguientes secciones en el panel izquierdo para facilitar la navegación y la actualización:
+Ahora, áreas como el encabezado, las listas y las tarjetas de detalles le resultarán familiares y coherentes con su experiencia en Workfront.
+Los objetivos individuales se abren en su propia página y se han añadido las siguientes secciones en el panel izquierdo para facilitar la navegación y la actualización:
 
 * **Detalles de la meta**: Detalles de la meta: vea información como la descripción de la meta, el progreso, las fechas y la información del objetivo principal. Para obtener más información, consulte [Editar metas en Adobe Workfront Goals](/help/quicksilver/workfront-goals/goal-management/edit-goals.md).
 * **Indicadores de progreso**: vea los indicadores de progreso en una lista. Puede editar estos indicadores en línea, abrir ventanas de edición o eliminar los indicadores de esta área. Para obtener más información, consulte [Editar resultados y actividades en Adobe Workfront Goals](/help/quicksilver/workfront-goals/results-and-activities/edit-results-and-activities.md).
-* **Actualizaciones**: hemos introducido una nueva experiencia de comentarios en la sección Actualizaciones de un objetivo que ahora muestra los comentarios del usuario y las notas de la actividad del sistema en dos pestañas independientes. Para obtener más información, consulte [Administrar comentarios sobre metas en Adobe Workfront Goals](/help/quicksilver/workfront-goals/goal-management/manage-goal-comments.md).
-Compartir, editar, eliminar o copiar una meta es similar a la forma en que se realizan estas acciones para otros objetos en Workfront.
+* **Actualizaciones**: hemos introducido una nueva experiencia de comentarios en la sección Actualizaciones de un objetivo que ahora muestra los comentarios del usuario y las notas de la actividad del sistema en dos pestañas independientes. Para obtener más información, consulte [Administrar comentarios sobre las metas en Adobe Workfront Goals](/help/quicksilver/workfront-goals/goal-management/manage-goal-comments.md).
+Compartir, editar, eliminar o copiar un objetivo es similar a la forma en que se realizan estas acciones para otros objetos en Workfront.
 
 >[!IMPORTANT]
 >
@@ -42,4 +47,4 @@ Compartir, editar, eliminar o copiar una meta es similar a la forma en que se re
 
 Para obtener más información sobre Workfront Goals, consulte los artículos disponibles en el área [Adobe Workfront Goals: article index](/help/quicksilver/workfront-goals/workfront-goals.md) de la documentación de Workfront.
 
-[Ver una demostración en vídeo de esta característica](https://video.tv.adobe.com/v/3413327/){target=_blank}
+[Vea un vídeo de demostración de esta función](https://video.tv.adobe.com/v/3413327/){target=_blank}

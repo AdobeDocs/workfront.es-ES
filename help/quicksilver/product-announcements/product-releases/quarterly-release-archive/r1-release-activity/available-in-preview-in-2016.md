@@ -7,10 +7,23 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 08e0bd72-5979-449e-9fb2-c4d45f51119e
-source-git-commit: f5044d457ebf203269e8007075e98ba4c136660f
+TQID: https://experienceleague.adobe.com/GyC2n9wRlsbHDp79Z-Bj-hrF-Q1Qfd252LH9aG6T3r0
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+  - id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '709'
-ht-degree: 100%
+source-wordcount: 712
+ht-degree: 97%
 
 ---
 
@@ -28,11 +41,11 @@ Ahora puede ver todas las tareas de los proyectos de los que es administrador de
 
 Para obtener información general sobre las herramientas disponibles para programar recursos, consulte “Introducción a la programación de recursos”.
 
-Para ajustar la información que se muestra en la línea de tiempo de programación, cree un filtro, tal como se describe en “Filtrar información en el área de programación”.
+Para ajustar la información que se muestra en la cronología de programación, cree un filtro, tal como se describe en “Filtrar información en el área de programación”.
 
-Además de ver las tareas de los proyectos de los que es responsable, puede utilizar la línea de tiempo de programación para realizar cambios en las asignaciones de recursos. Para obtener información sobre cómo administrar las asignaciones de usuarios en la línea de tiempo de programación, consulte “Asignar manualmente tareas y problemas no asignados en las áreas de programación”.
+Además de ver las tareas de los proyectos de los que es responsable, puede utilizar la cronología de programación para realizar cambios en las asignaciones de recursos. Para obtener información sobre cómo administrar las asignaciones de usuarios en la cronología de programación, consulte “Asignar manualmente tareas y problemas no asignados en las áreas de programación”.
 
-## Administrar asignaciones de usuarios en la línea de tiempo de programación
+## Administrar asignaciones de usuarios en la cronología de programación
 
 Ahora, al programar recursos con las nuevas herramientas de programación de recursos, puede determinar cómo se asignan las horas planificadas para una tarea o un problema a los usuarios. Puede dividir las horas entre días en la duración de la tarea y entre los usuarios asignados.
 
@@ -40,12 +53,12 @@ Para obtener más información, consulte “Administrar asignaciones de usuarios
 
 ## Las asignaciones de usuarios están deshabilitadas de forma predeterminada
 
-Ahora el sombreado de asignación de usuarios en la línea de tiempo de programación cuando se programan recursos está deshabilitado de forma predeterminada.
+Ahora el sombreado de asignación de usuarios en la cronología de programación cuando se programan recursos está deshabilitado de forma predeterminada.
 
 Anteriormente, el sombreado de asignación se mostraba de forma predeterminada y no se podía deshabilitar.
 
 Para obtener más información sobre cómo habilitar las opciones de asignación de usuarios, consulte
-“Administrar asignaciones de usuarios en las áreas de Programación”.
+&quot;Administrar asignaciones de usuarios en las áreas de Programación&quot;.
 
 ## La plantilla de diseño determina si el calendario nuevo o heredado se muestra en el área Mi trabajo
 

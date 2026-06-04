@@ -2,25 +2,30 @@
 product-previous: workfront-goals
 content-type: release-notes
 navigation-topic: goals-release-activity
-title: "Actividad de la versión de Adobe Workfront Goals 21.2: semana del 15 de febrero de 2021"
-description: Esta página describe todas las mejoras realizadas con la versión 21.2 para Adobe Workfront Goals en el entorno de vista previa del 15 de febrero de 2021. Estas mejoras estarán disponibles en el entorno de producción en el primer trimestre de 21.2.
+title: 'Actividad de la versión de Adobe Workfront Goals 21.2: semana del martes, 15 de febrero de 2021'
+description: Esta página describe todas las mejoras realizadas con la versión 21.2 para Adobe Workfront Goals en el entorno de vista previa para la semana del martes, 15 de febrero de 2021. Estas mejoras estarán disponibles en el entorno de producción del primer trimestre de 21.2.
 author: Luke
 feature: Product Announcements, Workfront Goals
 exl-id: 013a69c1-6fbd-4283-9e4d-fb461fe48936
-source-git-commit: be4904f0b37870c1bfc8ec345e468d5fc283aa36
+TQID: https://experienceleague.adobe.com/jUg7ikVp1zgZJWzhFmk17Ka2S7icxAFrefFkM98a2-0
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '233'
-ht-degree: 0%
+source-wordcount: 241
+ht-degree: 63%
 
 ---
 
-# Actividad de la versión de Adobe Workfront Goals 21.2: semana del 15 de febrero de 2021
+# Actividad de la versión de Adobe Workfront Goals 21.2: semana del martes, 15 de febrero de 2021
 
-Esta página describe todas las mejoras realizadas con la versión 21.2 para Adobe Workfront Goals en el entorno de vista previa del 15 de febrero de 2021. Estas mejoras estarán disponibles en el entorno de producción en el primer trimestre de 21.2.
+Esta página describe todas las mejoras realizadas con la versión 21.2 para Adobe Workfront Goals en el entorno de vista previa para la semana del martes, 15 de febrero de 2021. Estas mejoras estarán disponibles en el entorno de producción del primer trimestre de 21.2.
 
 Para obtener una lista de todos los cambios disponibles para Workfront Goals en este punto del ciclo de la versión 21.2, consulte [Adobe Workfront Goals con la versión 21.2](../../../../product-announcements/product-releases/goals-release-activity/goals-21.2-release/goals-release-21-2.md).
 
-Para obtener una lista de todos los cambios disponibles en todas las áreas de Workfront en este punto del ciclo de la versión 21.2, consulte [Descripción general de la versión 21.2](../../../../product-announcements/product-releases/21.2-release-activity/21-2-release-overview.md).
+Para obtener una lista de todos los cambios disponibles en todas las áreas de Workfront en este punto del ciclo de la versión 21.2, consulte [Información general de la versión 21.2](../../../../product-announcements/product-releases/21.2-release-activity/21-2-release-overview.md).
 
 ## Mostrar temporalmente las metas filtradas en el gráfico de alineación
 

@@ -7,10 +7,22 @@ description: Con el Planificador de recursos de Adobe Workfront puede comprender
 author: Lisa
 feature: Resource Management
 exl-id: 5a1be723-e3ac-443a-9c09-85e8839fcbef
-source-git-commit: af7789f3a4c7443854639fd60bcf0661217b37ae
+TQID: https://experienceleague.adobe.com/aDlEs3QYjcq5ycrGOI5X-T0GGvBngLiw1b-7i-WSeU4
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2:
+  - id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '2424'
-ht-degree: 6%
+source-wordcount: 2411
+ht-degree: 7%
 
 ---
 
@@ -215,7 +227,7 @@ Puede ver los siguientes proyectos en el Planificador de recursos:
 
 ## Prioridad de planificación del proyecto {#project-planning-priority}
 
-Los proyectos se enumeran en orden de prioridad en el Planificador de recursos, con el proyecto más importante en la parte superior. La prioridad se indica con un número delante del nombre del proyecto.
+Los proyectos se muestran en orden de prioridad en el Planificador de recursos, con el proyecto más importante en la parte superior. La prioridad se indica con un número delante del nombre del proyecto.
 
 ![Prioridad de planificación del proyecto](assets/project-ranking.png)
 

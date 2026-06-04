@@ -6,11 +6,22 @@ description: Colecciones de referencia en un informe
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 18ba3f4b-ae03-4694-a2fe-fdbeeb576ea9
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/HPw9hvYELkeZOzP2OpoJcpicXdEP76nmeEwdn3uWojY
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '2615'
+source-wordcount: 2624
 ht-degree: 5%
 
 ---
@@ -268,7 +279,7 @@ Las líneas de una vista de modo de texto de una colección se describen en la s
   </tr> 
   <tr> 
    <td><code>listdelimiter=&lt;p&gt;</code> </td> 
-   <td> <p>Este es el delimitador que se utiliza para separar los valores de la lista.<br>Recomendamos usar <code>&lt;p&gt;</code>, que agrega un salto de línea entre los valores.</p> <p>También puede utilizar lo siguiente:</p> <p><code>&zwj;</code> (carpintero de anchura cero). Los valores de la colección no tienen separación entre ellos.<br><strong>,</strong> =separador de comas. Los valores de la colección están separados por una coma seguidos de sin espacio.<br><strong>/</strong> = separador de barras. Los valores de la colección están separados por una barra diagonal.<br><strong>-</strong> = separador de guiones. Los valores de la colección están separados por un guión.<br>Si deja vacía esta línea, se agrega una coma seguida de un espacio entre los valores de la colección, de manera predeterminada.</p> </td> 
+   <td> <p>Este es el delimitador que se utiliza para separar los valores de la lista.<br>Recomendamos usar <code>&lt;p&gt;</code>, que agrega un salto de línea entre los valores.</p> <p>También puede utilizar lo siguiente:</p> <p><code>&zwj;</code> (carpintero de anchura cero). Los valores de la colección no tienen separación entre ellos.<br><strong>,</strong> =separador de comas. Los valores de la colección están separados por una coma sin espacio.<br><strong>/</strong> = separador de barras. Los valores de la colección están separados por una barra diagonal.<br><strong>-</strong> = separador de guiones. Los valores de la colección están separados por un guión.<br>Si deja vacía esta línea, se agrega una coma seguida de un espacio entre los valores de la colección, de manera predeterminada.</p> </td> 
   </tr> 
   <tr> 
    <td><code>displayname=</code><em>Nombre de columna</em> </td> 
@@ -280,7 +291,7 @@ Las líneas de una vista de modo de texto de una colección se describen en la s
   </tr> 
   <tr> 
    <td><code>valuefield=collection object field</code> </td> 
-   <td> <p>Esta línea define a qué campo se hace referencia desde el objeto de colección.</p> <p>Reemplace <strong>campo de objeto de colección</strong> por el nombre del campo del objeto al que hace referencia en su colección, tal como aparece en el <a href="../../../wf-api/general/api-explorer.md" class="MCXref xref">Explorador de API</a>.</p> <p>Puede reemplazar esta línea por:</p> <p><strong>valueexpression</strong>=campo/ campos de objeto de colección calculada</p> <p>Con <strong>valueexpression</strong>, puede  mostrar una expresión personalizada calculada en la columna.</p> <p>Para obtener más información sobre cómo dar formato a <strong>valueexpression</strong> líneas, vea <a href="../../../reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md" class="MCXref xref">Información general sobre la sintaxis en modo texto</a>.</p> </td> 
+   <td> <p>Esta línea define a qué campo se hace referencia desde el objeto de colección.</p> <p>Reemplace <strong>campo de objeto de colección</strong> por el nombre del campo del objeto al que hace referencia en su colección, tal como aparece en el <a href="../../../wf-api/general/api-explorer.md" class="MCXref xref">Explorador de API</a>.</p> <p>Puede reemplazar esta línea por:</p> <p><strong>valueexpression</strong>=campo/ campos de objeto de colección calculada</p> <p>Con <strong>valueexpression</strong>, puede mostrar una expresión personalizada calculada en la columna.</p> <p>Para obtener más información sobre cómo dar formato a <strong>valueexpression</strong> líneas, vea <a href="../../../reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md" class="MCXref xref">Información general sobre la sintaxis en modo texto</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>

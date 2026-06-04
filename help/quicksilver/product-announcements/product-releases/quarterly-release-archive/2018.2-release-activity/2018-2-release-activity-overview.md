@@ -7,10 +7,23 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 91e79c87-9c70-4050-9a3f-236eff0be41d
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+TQID: https://experienceleague.adobe.com/BpvPAawc1yatEYsfS9YYjjz-6lOzw5-3cgD68D2dQhs
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2:
+  - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1132'
-ht-degree: 99%
+source-wordcount: 1158
+ht-degree: 97%
 
 ---
 
@@ -81,7 +94,7 @@ La versión 2018.2 contiene mejoras para administradores y otros usuarios de Wor
 * [Mejoras en el límite de trabajo en curso (WIP) en el tablero Kanban](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-4-release-activity.md#wip-limit-enhancements-on-the-kanban-board)
 * [Interfaz mejorada para configurar los estados de un equipo ágil](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-4-release-activity.md#improved-interface-for-configuring-statuses-for-an-agile-team)
 
-* [Definir indicadores para historias en el tablero Kanban](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-3-release-activity.md#set-flags-for-stories-on-the-kanban-board) 
+* [Definir indicadores para historias en el tablero Kanban](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-3-release-activity.md#set-flags-for-stories-on-the-kanban-board) 
 * [Editar campos directamente en una tarjeta de historias de Agile](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-3-release-activity.md#edit-fields-directly-on-an-agile-story-card) 
 
 ### Mejoras en la creación de informes
@@ -92,8 +105,8 @@ La versión 2018.2 contiene mejoras para administradores y otros usuarios de Wor
 
 * Novedad: [Mejoras de Mobile](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-final-release-activity.md#mobile-improvements) (en Beta final)
 
-* [Mejoras en la aplicación móvil Beta de Android](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-5-release-activity.md#mobile-improvements-in-the-android-beta-mobile-app)
-* [Nuevo entorno Beta para Android junto con nuevas funciones](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-4-release-activity.md#launching-the-beta-environment-for-android-along-with-new-features) 
+* [Mejoras en la aplicación móvil Beta de Android](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-5-release-activity.md#mobile-improvements-in-the-android-beta-mobile-app) 
+* [Nuevo entorno Beta para Android junto con nuevas funciones](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-4-release-activity.md#launching-the-beta-environment-for-android-along-with-new-features) 
 
 ### Mejoras en la integración
 
@@ -107,13 +120,13 @@ La versión 2018.2 contiene mejoras para administradores y otros usuarios de Wor
 
 ### Mejoras en el visor de corrección
 
-* [Añadir usuarios a una prueba directamente desde el visor de corrección](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-5-release-activity.md#add-users-to-a-proof) 
+* [Añadir usuarios a una revisión directamente desde el visor de corrección](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-5-release-activity.md#add-users-to-a-proof) 
 * [Mostrar todas las herramientas de marcado en el visor de corrección](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-5-release-activity.md#display-all-markup-tools) 
 * [Configurar opciones de ordenación predeterminadas en el visualizador de corrección](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-5-release-activity.md#configure-default-sorting-options)
 * [Ver aprobaciones de documentos de Workfront en el visualizador de corrección de escritorio](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-5-release-activity.md#view-workfront-document-approvals-for-specific-versions-in-the-proofing-viewer)
-* [Configurar vínculos que abren nuevas pestañas y ventanas para abrirlas en el visor de corrección de escritorio](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-5-release-activity.md#configure-links-that-open-new-tabs-and-windows-to-open-within-the-dekstop-proofing-viewer) 
+* [Configurar vínculos que abren nuevas pestañas y ventanas para abrirlas en el visualizador de corrección de escritorio](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-5-release-activity.md#configure-links-that-open-new-tabs-and-windows-to-open-within-the-dekstop-proofing-viewer) 
 * [Indicador de presencia en el visualizador de corrección](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-5-release-activity.md#presence-indicator-in-the-proofing-viewer)
-* [Filtrar comentarios para mostrar una sola página para pruebas de URL interactivas en el visualizador de corrección de escritorio](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-5-release-activity.md#filter-comments-to-display-a-single-page-for-interactive-url-proofs)
+* [Filtrar comentarios para mostrar una sola página para revisiones de URL interactivas en el visualizador de corrección de escritorio](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-5-release-activity.md#filter-comments-to-display-a-single-page-for-interactive-url-proofs)
 * [Visualizador de corrección de escritorio para contenido estático y de vídeo](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-5-release-activity.md#desktop-proofing-viewer-for-static-and-video-content)
 * [Añadir dispositivos personalizados al sistema](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-5-release-activity.md#add-custom-devices-to-your-system) 
 * [Nuevo visor de corrección de escritorio para revisar contenido interactivo (medios enriquecidos)](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-4-release-activity.md#new-desktop-proofing-viewer-for-proofing-interactive-content) 
@@ -127,8 +140,8 @@ La versión 2018.2 contiene mejoras para administradores y otros usuarios de Wor
 
 ### Mejoras de revisión en Workfront Proof
 
-* [Crear una nueva versión de una prueba directamente desde el visor de corrección (Workfront Proof)](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-5-release-activity.md#create-a-new-version-of-a-proof-directly-from-the-proofing-viewer)
-* [Vínculo de detalles de nueva prueba en el visor de corrección y en el visor de corrección de escritorio (Workfront Proof)](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-5-release-activity.md#new-proof-details-link-in-the-proofing-viewer) 
+* [Crear una nueva versión de una revisión directamente desde el visor de corrección (Workfront Proof)](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-5-release-activity.md#create-a-new-version-of-a-proof-directly-from-the-proofing-viewer)
+* [Vínculo de detalles de nueva revisión en el visor de corrección y en el visor de corrección de escritorio (Workfront Proof)](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-5-release-activity.md#new-proof-details-link-in-the-proofing-viewer) 
 
 ### Otras mejoras
 
@@ -198,12 +211,12 @@ Esta funcionalidad incluye:
 
 * El Visualizador de revisión heredado se reemplazará con el nuevo Visualizador de revisión web y el Visualizador de revisión de escritorio.
 
-  En la versión 2018.2, el visualizador de pruebas heredado ya no es el visualizador predeterminado.
+  En la versión 2018.2, el visualizador de revisiones heredado ya no es el visualizador predeterminado.
 
   Para obtener más información, consulte los recursos siguientes:
 
-   * [Revisión de pruebas en el visualizador de revisión web](https://support.workfront.com/hc/en-us/sections/115000275214)
-   * [Revisión de pruebas en el visualizador de revisión de escritorio](https://support.workfront.com/hc/es-es/sections/360000686434)
+   * [Revisión de pruebas en el visor de revisión web](https://support.workfront.com/hc/en-us/sections/115000275214)
+   * [Revisión de pruebas en el Visor de pruebas de escritorio](https://support.workfront.com/hc/es-es/sections/360000686434)
 
 ### Finaliza la compatibilidad con complementos de Microsoft Outlook {#microsoft-outlook-add-in-support-is-ending}
 

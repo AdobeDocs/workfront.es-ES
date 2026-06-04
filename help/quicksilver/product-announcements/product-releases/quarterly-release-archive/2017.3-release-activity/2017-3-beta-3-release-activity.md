@@ -1,28 +1,38 @@
 ---
 content-type: release-notes
 navigation-topic: product-releases-archive
-title: Actividad de la versión 2017.3 de Beta 3
+title: Actividad de la versión Beta 3 2017.3
 description: La versión 2017.3 estará disponible en el entorno de producción a principios de noviembre de 2017.
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: dc0cada8-4b9e-40cb-89a5-16f15268b513
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+TQID: https://experienceleague.adobe.com/12nUGoSnwlcVACSTf-b-Fks7QRuCCl9HBujkDNG5ubU
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '572'
-ht-degree: 6%
+source-wordcount: 572
+ht-degree: 17%
 
 ---
 
-# Actividad de la versión 2017.3 de Beta 3
+# Actividad de la versión Beta 3 2017.3
 
 La versión 2017.3 estará disponible en el entorno de producción a principios de noviembre de 2017.
 
 >[!IMPORTANT]
 >
-> La funcionalidad descrita en esta página está sujeta a cambios antes de su disponibilidad en el entorno de producción de.
+> La funcionalidad descrita en esta página está sujeta a cambios antes de su disponibilidad en el entorno de producción.
 
-Para ver una lista de todos los cambios realizados en 2017.3, consulte  [Resumen de la actividad de la versión 2017.3](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-release-activity-overview.md).
+Para ver una lista de todos los cambios realizados en 2017.3, consulte [Información general de la actividad de la versión 2017.3](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-release-activity-overview.md).
 
 La versión 2017.3 de Beta 3 contiene mejoras para todos los usuarios:
 
@@ -62,7 +72,7 @@ Con la nueva funcionalidad, se han eliminado las opciones anteriores y se han a�
 * Borrar permisos
 * Seleccionar todo
 
-Para obtener más información sobre la nueva funcionalidad relacionada con la copia de proyectos, consulte la sección &quot;Copia de un proyecto en el entorno de vista previa&quot; en   [Copiar un proyecto](../../../../manage-work/projects/manage-projects/copy-project.md).
+Para obtener más información sobre la nueva funcionalidad de copiar proyectos, vea la sección &quot;Copiar un proyecto en el entorno de vista previa&quot; en [Copiar un proyecto](../../../../manage-work/projects/manage-projects/copy-project.md).
 
 ## Mejora del Planificador de recursos: Filtros {#resource-planner-improvement-filters}
 
@@ -76,13 +86,13 @@ Ahora puede filtrar la información que ve en el Planificador de recursos por lo
 
 También puede agregar un filtro personalizado basado en estos objetos.
 
-Para obtener más información sobre el uso del Planificador de recursos, consulte [Resumen del Planificador de recursos](../../../../resource-mgmt/resource-planning/get-started-resource-planner.md). 
+Para obtener más información sobre el uso del filtro del Planificador de recursos, consulte [Información general de navegación del planificador de recursos](../../../../resource-mgmt/resource-planning/get-started-resource-planner.md). 
 
 ## Mejora del Planificador de recursos: mostrar las horas del problema en el área de &quot;Configuración&quot; {#resource-planner-improvement-show-issue-hours-in-the-settings-area}
 
 Hay una nueva área de Configuración en el Planificador de recursos que muestra varias opciones para personalizar el Planificador de recursos. Con esta versión, hemos añadido la primera opción, incluir las horas planificadas de los problemas en las columnas Horas planificadas del Planificador de recursos.
 
-Para obtener más información sobre el uso del Planificador de recursos, consulte [Resumen del Planificador de recursos](../../../../resource-mgmt/resource-planning/get-started-resource-planner.md).
+Para obtener más información sobre el uso del Planificador de recursos, consulte [Información general de navegación del planificador de recursos](../../../../resource-mgmt/resource-planning/get-started-resource-planner.md).
 
 ## La información de SSO para las zonas protegidas de actualización y vista previa personalizadas no se actualiza {#sso-information-for-the-custom-refresh-and-preview-sandboxes-do-not-refresh}
 

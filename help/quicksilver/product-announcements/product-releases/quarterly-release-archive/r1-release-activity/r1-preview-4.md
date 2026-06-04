@@ -1,22 +1,33 @@
 ---
 content-type: release-notes
 navigation-topic: product-releases-archive
-title: Vista previa de R1 4
-description: Esta página describe todos los cambios disponibles en el entorno de vista previa con la versión R1.4. La funcionalidad de esta página estaba disponible en el entorno de vista previa el 15 de febrero de 2017.
+title: Vista previa 4 R1
+description: Esta página describe todos los cambios disponibles en el entorno de vista previa con la versión R1.4. La funcionalidad de esta página estaba disponible en el entorno de vista previa el jueves, 15 de febrero de 2017.
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 2945e058-74dd-4cc3-9d6c-e5618ee7041c
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+TQID: https://experienceleague.adobe.com/ISgHqMUiVKrpOFD68eLx7YInjxlNnCKjYOZzBUlpOQs
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '849'
-ht-degree: 0%
+source-wordcount: 836
+ht-degree: 15%
 
 ---
 
-# Vista previa de R1 4
+# Vista previa 4 R1
 
-Esta página describe todos los cambios disponibles en el entorno de vista previa con la versión R1.4. La funcionalidad de esta página estaba disponible en el entorno de vista previa el 15 de febrero de 2017.
+Esta página describe todos los cambios disponibles en el entorno de vista previa con la versión R1.4. La funcionalidad de esta página estaba disponible en el entorno de vista previa el jueves, 15 de febrero de 2017.
 
 Para obtener una lista de todos los cambios realizados en R1, consulte [Versión de Workfront R1](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/workfront-r1-release.md).
 
@@ -36,7 +47,7 @@ Al crear procesos de aprobación para aprobaciones de proyectos, tareas y proble
 
 * Aspecto y presentación actualizados.
 
-Para obtener más información acerca de cómo crear procesos de aprobación, vea [Crear un proceso de aprobación para elementos de trabajo](../../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
+Para obtener más información sobre cómo crear procesos de aprobación, consulte [Crear un proceso de aprobación para elementos de trabajo](../../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
 
 Al asociar un proceso de aprobación con un proyecto, tarea o problema, ya están disponibles las siguientes mejoras y cambios:
 
@@ -69,20 +80,20 @@ La opción de envío Resumen diario ya está disponible en el área &quot;Acció
 
 Para obtener más información, consulte [Modificar sus propias notificaciones por correo electrónico](../../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
-Recuerde actualizar la dirección de correo electrónico asociada a su cuenta para poder probar esta funcionalidad. Esto es necesario porque la Vista previa de espacio aislado borra las direcciones de correo electrónico de todos los usuarios.
+Recuerde actualizar la dirección de correo electrónico asociada a su cuenta para poder probar esta funcionalidad. Esto es necesario porque la zona protegida de previsualización borra las direcciones de correo electrónico de todos los usuarios.
 
-## Mejora de la papelera de reciclaje: Registrado en el flujo de actualización y recibido notificaciones por correo electrónico
+## Mejora de la papelera de reciclaje: registro en el flujo de actualización y recibir notificaciones por correo electrónico
 
 Se agregaron las siguientes mejoras al restaurar los proyectos, tareas y problemas eliminados:
 
 * Ahora recibe una notificación por correo electrónico después de restaurar un objeto.\
   Como administrador de Workfront, ahora recibirá una notificación por correo electrónico después de restaurar un proyecto, tarea o problema que se haya eliminado anteriormente. La notificación por correo electrónico le informa sobre el estado del proceso de restauración.\
-  Para obtener más información acerca de cómo restaurar objetos en Workfront, vea [Restaurar elementos eliminados](../../../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md).
+  Para obtener más información sobre cómo restaurar objetos en Workfront, consulte [Restaurar elementos eliminados](../../../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md).
 
 * Cuando se restaura el objeto, la eliminación y restauración del objeto se registra ahora en el flujo de actualización del propio objeto y en el flujo de actualización del objeto principal.\
   Anteriormente, solo la eliminación se registraba en el flujo de actualización del objeto principal.\
   Por ejemplo, cuando se restaura la tarea, se agrega un mensaje a la secuencia de actualización del proyecto y de la propia tarea, que indica que la tarea se restauró. (Las eliminaciones y restauraciones no se registran en las subtareas. La información relativa a las eliminaciones y restauraciones de subtareas sólo está disponible en las tareas principales.)\
-  Para obtener más información, vea [Restaurar elementos eliminados](../../../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md).
+  Para obtener más información, consulte [Restaurar elementos eliminados](../../../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md).
 
  
 

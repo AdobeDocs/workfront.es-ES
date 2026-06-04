@@ -7,9 +7,23 @@ description: Información general sobre horas, EJC y costes en las vistas Proyec
 author: Lisa
 feature: Resource Management
 exl-id: 76de1945-3f19-4c91-801c-07dc79e646ad
-source-git-commit: c9e77e11fafbf224639289977783e95ccb45a9e2
+TQID: https://experienceleague.adobe.com/xi553ymGC9ZqiMp5wueog3-wIqu072uVXeuXpsQbvIo
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2:
+  - id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '3086'
+source-wordcount: 3089
 ht-degree: 94%
 
 ---
@@ -40,7 +54,7 @@ Tenga en cuenta lo siguiente al presupuestar recursos mediante el Planificador d
   >
   >Puede presupuestar sus recursos para un período de 15 años. Si se presupuestan recursos para un proyecto con una duración superior a 15 años, es posible que la información de presupuestación no sea precisa.
 
-* Puede presupuestar las horas, los jornadas completas o el coste de los recursos para cualquier lapso de tiempo mostrado en el Planificador de recursos, independientemente de la duración del proyecto. Por ejemplo, si desea indicar que los recursos podrían no estar disponibles durante la duración del proyecto (cuando estén asociados con Horas planificadas), pero podrían estar disponibles durante otro período, puede presupuestarlos para períodos de tiempo en los que las horas planificadas sean cero, si es entonces cuando estarán disponibles para trabajar. Después de hacer esto, puede cambiar manualmente la línea de tiempo del proyecto para que coincida con la disponibilidad de los recursos.
+* Puede presupuestar las horas, los jornadas completas o el coste de los recursos para cualquier lapso de tiempo mostrado en el Planificador de recursos, independientemente de la duración del proyecto. Por ejemplo, si desea indicar que los recursos podrían no estar disponibles durante la duración del proyecto (cuando estén asociados con Horas planificadas), pero podrían estar disponibles durante otro período, puede presupuestarlos para períodos de tiempo en los que las horas planificadas sean cero, si es entonces cuando estarán disponibles para trabajar. Después de hacer esto, puede cambiar manualmente la cronología del proyecto para que coincida con la disponibilidad de los recursos.
 
   >[!NOTE]
   >
@@ -96,7 +110,7 @@ En las tablas siguientes se muestra la información de asignación y disponibili
 * [La columna VAR (varianza)](#the-var-variance-column)
 * [La columna NET](#the-net-column)
 
-### AVL La columna (Disponible {#the-avl-available-column}
+### La columna AVL (disponible) {#the-avl-available-column}
 
 <table style="table-layout:auto"> 
  <col> 

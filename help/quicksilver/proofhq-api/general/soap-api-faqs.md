@@ -6,10 +6,15 @@ draft: Probably
 feature: Workfront API, Workfront Proof
 role: Developer
 exl-id: fcf89bd6-0e07-42a7-9ae3-9a1309e51946
-source-git-commit: 729c8512f7aa239f0858e18295a0c77e6b7e3328
+TQID: https://experienceleague.adobe.com/IDspEIEFUjP23bvjd8BWJRdSzBCOFe5TLEJG7sguU5M
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '776'
-ht-degree: 100%
+source-wordcount: 792
+ht-degree: 96%
 
 ---
 
@@ -33,7 +38,7 @@ Realice estos dos sencillos pasos:
 
 **Paso 1**: Si aún no tiene un ID de sesión, consiga uno mediante los métodos doLogin() o getSessionID(). Utilice el primero para “iniciar sesión” con la dirección de correo electrónico y la contraseña de un usuario o el segundo método si tiene la dirección de correo electrónico y el token de autenticación del usuario.
 
-**Paso 2:** Ahora es el momento de crear su prueba. Utilice el método createProof() y envíenos al menos los campos obligatorios (actualmente solo hay 5). Asegúrese de establecer el parámetro Hash en “web” y el parámetro SourceName como URL de la página web que desea capturar.
+**Paso 2:** Ahora es el momento de crear su revisión. Utilice el método createProof() y envíenos al menos los campos obligatorios (actualmente solo hay 5). Asegúrese de establecer el parámetro Hash en “web” y el parámetro SourceName como URL de la página web que desea capturar.
 
 Si ahora inicia sesión en su cuenta, verá la prueba.
 
@@ -67,6 +72,6 @@ La revisión mínima le permite incrustar la herramienta de revisión en su prop
 
 Por ejemplo, la URL de prueba mínima
 `https://app.proofhq.com/viewer/proofingcode?referer=closingurl.com&customparam1=somevalue&customparam2=` debe codificarse como 
-`https://app.proofhq.com/viewer/proofingcode?referer=closingurl.com%26customparam1=somevalue%26customparam2=` para que los parámetros personalizados se transmitan.
+`https://app.proofhq.com/viewer/proofingcode?referer=closingurl.com%26customparam1=somevalue%26customparam2=` para que se pasen los parámetros personalizados.
 
 

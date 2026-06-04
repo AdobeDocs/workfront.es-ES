@@ -1,20 +1,31 @@
 ---
-title: Mejoras del administrador del cuarto trimestre de 2024
-description: Mejoras del administrador del cuarto trimestre de 2024
+title: Mejoras del administrador en el cuarto trimestre de 2024
+description: Mejoras del administrador en el cuarto trimestre de 2024
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4f4694dd-a6cb-46b7-b2cf-fe24ed9419f5
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+TQID: https://experienceleague.adobe.com/8LLDPoqTld6CKGylVcw7B7PAvLUqHj0fjzl5cw382-M
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '564'
-ht-degree: 0%
+source-wordcount: 585
+ht-degree: 19%
 
 ---
 
-# Mejoras del administrador del cuarto trimestre de 2024
+# Mejoras del administrador en el cuarto trimestre de 2024
 
-Esta página describe todas las mejoras de administrador realizadas con la versión del cuarto trimestre de 2024 en el entorno de vista previa. Estas mejoras estarán disponibles en el entorno de producción, como se ha indicado.
+En esta página se describen todas las mejoras en el administrador realizadas con la versión del cuarto trimestre de 2024 en el entorno de vista previa. Estas mejoras estarán disponibles en el entorno de producción, como se ha indicado.
 
 Para obtener una lista de todos los cambios disponibles en este punto del ciclo de la versión del cuarto trimestre de 2024, consulte [Información general de la versión del cuarto trimestre de 2024](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-release-overview.md).
 
@@ -46,7 +57,7 @@ Para obtener más información, consulte [Crear un formulario personalizado](/he
 
 >[!NOTE]
 >
->Versión de vista previa: 29 de agosto de 2024; versión de producción para todos los clientes: 29 de agosto de 2024
+>Versión preliminar: viernes, 29 de agosto de 2024; versión de producción para todos los clientes: viernes, 29 de agosto de 2024
 
 Para ayudarle a mostrar y ocultar más fácilmente los campos con las plantillas de diseño, se ha agregado la casilla de verificación **Seleccionar todo** a las áreas Información general y Finanzas de la vista Detalles en una plantilla de diseño. Esta opción está disponible si ha seleccionado Proyecto, Tarea, Problema, Portfolio o Programa en **Personalizar lo que ven los usuarios**. Tenga en cuenta que no todos los objetos muestran el área Finanzas y que los campos de cada área son diferentes en función del objeto.
 
@@ -56,7 +67,7 @@ Para obtener más información, consulte [Personalizar la vista de detalles con 
 
 >[!NOTE]
 >
->Versión de vista previa: 29 de agosto de 2024; producción para versión rápida: con la versión 24.9 (12 de septiembre de 2024); producción para versión trimestral: con la versión 24.10 (17 de octubre de 2024)
+>Versión preliminar: viernes, 29 de agosto de 2024; producción para la versión rápida: con la versión 24.9 (viernes, 12 de septiembre de 2024); producción para versión trimestral: con la versión 24.10 (viernes, 17 de octubre de 2024)
 
 Para que la promoción del entorno sea más flexible y fácil de usar, hemos habilitado la funcionalidad de reversión. Ahora, puede revertir paquetes en un plazo de 24 horas, lo que le permite restaurar más fácilmente las configuraciones anteriores que se han visto afectadas por un paquete de promoción de entorno.
 
@@ -64,7 +75,7 @@ Anteriormente, las configuraciones se restauraban manualmente o mediante otro pa
 
 Para obtener más información sobre cómo revertir un paquete de promoción de entorno, consulte [Revertir un paquete de promoción de entorno](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-rollback.md).
 
-[Ver una demostración en vídeo de esta característica.](https://video.tv.adobe.com/v/3434025/){target=_blank}
+[Vea un vídeo de demostración de esta función.](https://video.tv.adobe.com/v/3434025/){target=_blank}
 
 ## El botón Diseño del diseñador de formularios personalizados permite dos o tres columnas
 

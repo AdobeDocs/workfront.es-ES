@@ -6,12 +6,26 @@ description: Puede añadir el campo Iconos de estado integrado como una columna 
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 7831d5c1-e982-4780-a5a8-54dc6decb3a1
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/Gz5HtN-3IW6wMRnib0YbBC3O-QycDwwzXG1cXQjnkh0
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+  - id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1205'
-ht-degree: 98%
+source-wordcount: 1199
+ht-degree: 95%
 
 ---
 
@@ -145,7 +159,7 @@ Debe tener como mínimo permisos de visualización de los objetos para poder hac
  <tbody> 
   <tr> 
    <td> <img src="assets/condition-update-icon-on-target-29x34.png" alt="condition_update_icon_on_target.png" style="width: 29;height: 34;">o <img src="assets/screen-shot-2018-08-17-at-9.49.36-am-29x37.png" alt="Screen_Shot_2018-08-17_at_9.49.36_AM.png" style="width: 29;height: 37;"><br><img src="assets/condition-update-icon--in-trouble-29x26.png" alt="condition_update_icon__in_trouble.png" style="width: 29;height: 26;"> o <img src="assets/screen-shot-2018-08-17-at-9.49.23-am-29x26.png" style="width: 29;height: 26;"><br><img src="assets/condition-update-at-risk-27x28.png" alt="condition_update_at_risk.png" style="width: 27;height: 28;"> o <img src="assets/screen-shot-2018-08-17-at-9.49.23-am-33x34.png" alt="Screen_Shot_2018-08-17_at_9.49.23_AM.png" style="width: 33;height: 34;"></td> 
-   <td>Indica que la condición del proyecto es En el destino (verde), Con problemas (rojo) o En riesgo (amarillo).<br>Para obtener información acerca de la condición del proyecto, consulte <a href="../../../manage-work/projects/manage-projects/project-condition-and-condition-type.md" class="MCXref xref">Información general sobre la condición del proyecto y el tipo de condición</a>.</td> 
+   <td>Indica que la condición del proyecto es En destino (verde), Con problemas (rojo) o En riesgo (amarillo).<br>Para obtener información acerca de la condición del proyecto, vea <a href="../../../manage-work/projects/manage-projects/project-condition-and-condition-type.md" class="MCXref xref">Información general sobre la condición del proyecto y el tipo de condición</a>.</td> 
    <td>Proyectos</td> 
    <td>Haga clic en para abrir la lista de tareas del proyecto. </td> 
    <td> </td> 
@@ -284,14 +298,14 @@ Debe tener como mínimo permisos de visualización de los objetos para poder hac
   </tr> 
   <tr> 
    <td> <img src="assets/expense-reimbursable-icon-44x45.png" alt="expense_reimbursable_icon.png" style="width: 44;height: 45;"> </td> 
-   <td> Indica que un gasto es reembolsable.<br>Para obtener información sobre los gastos, consulte <a href="../../../manage-work/projects/project-finances/manage-project-expenses.md" class="MCXref xref">Administrar gastos del proyecto</a>.</td> 
+   <td> Indica que un gasto es reembolsable.<br>Para obtener información sobre los gastos, consulte <a href="../../../manage-work/projects/project-finances/manage-project-expenses.md" class="MCXref xref">Administrar gastos de proyecto </a>.</td> 
    <td>Gastos</td> 
    <td>No disponible</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> <img src="assets/reimbursed-expense-icon-44x43.png" alt="reimbursed_expense_icon.png" style="width: 44;height: 43;"></td> 
-   <td> Indica que se ha reembolsado un gasto.<br>Para obtener información sobre los gastos, consulte <a href="../../../manage-work/projects/project-finances/manage-project-expenses.md" class="MCXref xref">Administrar gastos de un proyecto </a>.</td> 
+   <td> Indica que se ha reembolsado un gasto.<br>Para obtener información sobre los gastos, consulte <a href="../../../manage-work/projects/project-finances/manage-project-expenses.md" class="MCXref xref">Administrar gastos de proyecto </a>.</td> 
    <td>Gastos</td> 
    <td>No disponible</td> 
    <td> </td> 

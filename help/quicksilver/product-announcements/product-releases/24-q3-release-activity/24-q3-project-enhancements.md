@@ -5,10 +5,15 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 27d479d1-338a-429c-9703-8e72ed8d5c95
-source-git-commit: e620074ab0509e3052678e8c7e46e9629f3b34f2
+TQID: https://experienceleague.adobe.com/cE9falXH8dG-XSkNTfbJVxBtup8AUliJAJchYhwstDE
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '483'
-ht-degree: 90%
+source-wordcount: 497
+ht-degree: 87%
 
 ---
 
@@ -32,7 +37,7 @@ Para obtener información sobre la actualización de la fecha de confirmación y
 * [Actualizar la condición para tareas y problemas](/help/quicksilver/manage-work/projects/updating-work-in-a-project/update-condition-for-tasks-and-issues.md).
 * [Actualizar la fecha de confirmación en tareas y problemas](/help/quicksilver/manage-work/projects/updating-work-in-a-project/update-commit-date-on-tasks-and-issues.md).
 
-[Ver una demostración en vídeo de esta característica.](https://video.tv.adobe.com/v/3429471/){target=_blank}
+[Vea un vídeo de demostración de esta función.](https://video.tv.adobe.com/v/3429471/){target=_blank}
 
 ## Se han añadido asignaciones más relevantes al flujo de trabajo Nueva tarea
 
@@ -70,7 +75,7 @@ Si el nuevo algoritmo no encuentra ninguna coincidencia, se aplican los criterio
 
 Considere también lo siguiente:
 
-* La lista de tareas inteligentes en una lista de tareas pasó de llamarse “Aquí hay algunas sugerencias” a llamarse “Asignaciones sugeridas”. 
+* La lista de tareas inteligentes en una lista de tareas pasó de llamarse “Aquí hay algunas sugerencias” a llamarse “Asignaciones sugeridas”.
 
 * No hay cambios en la forma en que se calculan las asignaciones inteligentes para los problemas. El nombre de la lista de asignaciones inteligentes en una lista de problemas es “Estas son algunas recomendaciones”.
 

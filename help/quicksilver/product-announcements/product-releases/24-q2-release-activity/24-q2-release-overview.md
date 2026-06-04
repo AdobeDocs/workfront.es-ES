@@ -5,9 +5,26 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: bdcfed70-1999-4c40-a38f-12c762c8c1c4
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+TQID: https://experienceleague.adobe.com/re1xelgCEmdKbtnBBlusotpu2H9lS65ZILW-J-v8oOk
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+  - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+  - id: d3382524-5489-431b-bde9-271ab257bc37
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+  - id: fceb5125-bb41-419a-b0db-31958cb42f6c
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '2247'
+source-wordcount: 2417
 ht-degree: 62%
 
 ---
@@ -57,7 +74,7 @@ También puede [ver un archivo PDF](https://acrobat.adobe.com/id/urn:aaid:sc:US:
             <tbody>
                 <tr>
                     <td>
-                        <p><span class="bold">Función</span>
+                        <p><span class="bold">Característica</span>
                         </p>
                     </td>
                     <td>
@@ -212,7 +229,7 @@ También puede [ver un archivo PDF](https://acrobat.adobe.com/id/urn:aaid:sc:US:
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Crear y usar plantillas de aprobación</a></p><p>[!BADGE In production &#x200B;]{type=Informative}</p>
-                        <p>Ahora puede crear plantillas de aprobación en el área de configuración para optimizar el proceso de revisión y aprobación. Las plantillas de aprobación permiten que el proceso de revisión y aprobación sea más repetible al
+                        <p>Ahora puede crear plantillas de aprobación en el área de configuración para optimizar el proceso de revisión y aprobación. Las plantillas de aprobación permiten que el proceso de revisión y aprobación sea más repetible por
                         <ul>
                             <li>
                                 <p>Añadir revisores y aprobadores</p>
@@ -452,7 +469,7 @@ También puede [ver un archivo PDF](https://acrobat.adobe.com/id/urn:aaid:sc:US:
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">Nuevas experiencias de comentarios agregadas a iteraciones</a></p><p>[!BADGE In production &#x200B;]{type=Informative}</p>
-                        <p>Para ofrecerle una experiencia coherente en toda la aplicación, hemos añadido la nueva experiencia de comentario a las iteraciones. </p>
+                        <p>Para ofrecerle una experiencia coherente en toda la aplicación, hemos añadido la nueva experiencia de comentarios a las iteraciones. </p>
                     </td>
                     <td><p><b>Disponible en estas fechas:</b></p>
                         <ul>
@@ -658,9 +675,9 @@ Para la versión 18 de la API, hemos modificado algunos recursos y puntos finale
 
 Para obtener más información sobre novedades y actualizaciones, consulte [Novedades de la versión 18 de la API](/help/quicksilver/wf-api/api/new-api-version-18.md).
 
-Para obtener más información sobre las versiones de la API, consulte [Versiones de la API y programación de soporte](/help/quicksilver/wf-api/api/api-version-support-schedule.md).
+Para obtener información sobre las versiones de API, consulte [Versiones de API y programación de soporte](/help/quicksilver/wf-api/api/api-version-support-schedule.md).
 
-### Actualizaciones de mantenimiento de Workfront 
+### Actualizaciones de mantenimiento de Workfront
 
 Para obtener información sobre las actualizaciones de mantenimiento realizadas durante la versión del segundo trimestre de 2024, consulte [Actualizaciones de mantenimiento de Workfront](https://experienceleague.adobe.com/es/docs/workfront-known-issues/releases/current-updates).
 

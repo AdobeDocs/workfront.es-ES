@@ -5,10 +5,20 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 6e9b5c5c-562d-4591-a2ab-c8fd9da353fd
-source-git-commit: 0a01acd56b3ea10d1cccc31a21e434da55b1ec13
+TQID: https://experienceleague.adobe.com/sFFPaLlk7W3PNY3sOS-yBP7ou7LXmD3iej4lEQqJ-ac
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '212'
-ht-degree: 0%
+source-wordcount: 215
+ht-degree: 100%
 
 ---
 
@@ -26,12 +36,12 @@ Para obtener una lista de todos los cambios disponibles en este punto del ciclo 
 
 Para garantizar que las carpetas de Adobe Experience Manager reflejen sus necesidades con mayor precisión, hemos realizado algunas actualizaciones en el flujo de trabajo de carpetas vinculadas de Adobe Experience Manager.
 
-Ahora puede:
+Ahora puede hacer lo siguiente:
 
 * Cree árboles de carpetas anidados y luego indique qué carpetas del árbol deben estar disponibles en Workfront.
 * Cree varios árboles de carpetas y, a continuación, establezca uno como predeterminado para la integración.
-* Configure filtros basados en datos de campos de formulario personalizados, de modo que se cree un árbol de carpetas en Adobe Experience Manager.
+* Configure filtros basados en los datos de campos de formulario personalizados, de modo que se cree un árbol de carpetas específico en Adobe Experience Manager.
 
-Para obtener información sobre la configuración de carpetas vinculadas en los flujos de trabajo de Adobe Experience Manager, consulte [Crear carpetas vinculadas de Adobe Experience Manager](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md#create-adobe-experience-manager-linked-folders).
+Para obtener información sobre cómo configurar carpetas vinculadas en los flujos de trabajo de Adobe Experience Manager, consulte [Crear carpetas vinculadas de Adobe Experience Manager](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md#create-adobe-experience-manager-linked-folders).
 
 Para obtener información sobre el uso de los flujos de trabajo de Adobe Experience Manager en proyectos o plantillas de proyecto, consulte[Uso de flujos de trabajo en la integración de Experience Manager Assets](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/use-aem-workflows.md).

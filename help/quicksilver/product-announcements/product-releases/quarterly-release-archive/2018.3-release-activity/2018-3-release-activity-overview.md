@@ -7,10 +7,29 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 55787c1e-45af-4b9f-bdbc-10cfacb326e6
-source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
+TQID: https://experienceleague.adobe.com/A8tWEEc2s9q0bcSRx3o4JPJ1qBn27iEf6sl-stLtrW0
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+  - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+  - id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
+  - id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1126'
-ht-degree: 94%
+source-wordcount: 1115
+ht-degree: 93%
 
 ---
 
@@ -57,7 +76,7 @@ La versión 2018.3 contiene mejoras para los administradores de Workfront y otro
 * [URL única para la vista de usuario del Planificador de recursos](../../../../product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-beta-3-release-activity.md#unique-url-for-the-resource-planner-user-view)
 * [Exportación de datos de un período determinado en el Planificador de recursos](../../../../product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-beta-2-release-activity.md#export-data-for-a-given-period-in-the-resource-planner)
 * [Los totales diarios ahora se muestran en rojo cuando el usuario tiene asignaciones excesivas](../../../../product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-beta-2-release-activity.md#daily-totals-now-display-in-red-when-the-user-is-overallocated)
-* [Las tareas y los problemas se ocultan en la línea de tiempo de programación al minimizarse](../../../../product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-beta-2-release-activity.md#tasks-and-issues-are-hidden-on-the-scheduling-timeline-when-minimized)
+* [Las tareas y los problemas se ocultan en la cronología de programación al minimizarse](../../../../product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-beta-2-release-activity.md#tasks-and-issues-are-hidden-on-the-scheduling-timeline-when-minimized)
 * [Se implementaron mejoras en la exportación de funciones y las vistas del proyecto del Planificador de recursos](../../../../product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-beta-1-release-activity.md#improvements-when-exporting-the-role-and-project-views-of-the-resource-planner)
 * [Informe de utilización: se rellenan las horas presupuestadas desde la nueva área de presupuesto de recursos](../../../../product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-beta-5-release-activity.md#utilization-report-populates-budgeted-hours)
 * [Informe de utilización: visualización de las horas presupuestadas por usuario en un proyecto](../../../../product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-beta-5-release-activity.md#utilization-view-budgeted-hours-by-user)
@@ -79,11 +98,11 @@ La versión 2018.3 contiene mejoras para los administradores de Workfront y otro
 * [Es más rápido acceder a las acciones en la lista de comentarios del visualizador de revisión](../../../../product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-beta-5-release-activity.md#actions-more-quickly-accessible-in-the-comment-list-in-the-proofing-viewer) 
 * [Se mejoró el uso compartido de pruebas del visualizador de revisión](../../../../product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-beta-5-release-activity.md#proof-sharing-improvements-in-the-proofing-viewer)
 * [Se mejoró la lista de comentarios del visor de revisión](../../../../product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-beta-5-release-activity.md#comments-list-enhancements-in-the-proofing-viewer) 
-* [Zoom y desplazamiento en pruebas de vídeo en el visor de corrección](../../../../product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-beta-5-release-activity.md#zoom-and-pan-proofs-in-the-proofing-viewer) 
+* [Zoom y desplazamiento en revisiones de vídeo en el visor de corrección](../../../../product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-beta-5-release-activity.md#zoom-and-pan-proofs-in-the-proofing-viewer) 
 * [Fondo más claro en el visor de corrección](../../../../product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-beta-5-release-activity.md#lighter-background-in-the-proofing-viewer) 
 * [Mejor visibilidad cuando se ha editado un comentario en el visor de corrección](../../../../product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-beta-5-release-activity.md#better-visibility-when-a-comment-has-been-edited-in-the-proofing-viewer) 
 * [Ver el número de comentarios asociados a una acción en la lista de comentarios del visor de corrección](../../../../product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-beta-5-release-activity.md#view-the-number-of-comments-associated-with-an-action-in-the-comment-list-in-the-proofing-viewer) 
-* [Especificar la fase al añadir usuarios a una prueba en el visor de corrección](../../../../product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-beta-5-release-activity.md#share-specific-stages-when-sharing-a-proof-from-the-proofing-viewer)
+* [Especificar la fase al añadir usuarios a una revisión en el visor de corrección](../../../../product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-beta-5-release-activity.md#share-specific-stages-when-sharing-a-proof-from-the-proofing-viewer)
 * [Abrir el sitio web asociado desde una prueba de sitio web interactiva o estática](../../../../product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-beta-5-release-activity.md#opening-the-associated-website-from-an-interactive-or-static-website-proof)
 * [Mejoras en el resumen de impresión](../../../../product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-beta-4-release-activity.md#print-summary-enhancements) 
 * [Mejoras en el resumen de impresión](../../../../product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-beta-5-release-activity.md#print-summary-enhancements)
@@ -92,13 +111,13 @@ La versión 2018.3 contiene mejoras para los administradores de Workfront y otro
 * [Filtrar comentarios y respuestas por usuario en el visor de corrección](../../../../product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-beta-2-release-activity.md#filter-comments-and-replies-by-user-in-the-proofing-viewer)
 * [Comentario sobre un rango de material de archivo en una prueba de vídeo](../../../../product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-beta-2-release-activity.md#comment-on-a-range-of-footage-in-a-video-proof)
 * [Nueva herramienta Polilínea para marcado de comentarios en el visor de corrección](../../../../product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-beta-2-release-activity.md#new-polyline-tool-for-comment-markup-in-the-proofing-viewer)
-* [Acceso a varias pruebas directamente desde el visor de corrección (Workfront Proof)](../../../../product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-beta-1-release-activity.md#access-multiple-proofs-directly-from-the-proofing-viewer)
+* [Acceso a varias revisiones directamente desde el visor de corrección (Workfront Proof)](../../../../product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-beta-1-release-activity.md#access-multiple-proofs-directly-from-the-proofing-viewer)
 * [Pruebas abiertas en una nueva pestaña](../../../../product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-beta-4-release-activity.md#proofs-open-in-a-new-tab) 
 
 ### Mejoras en la aplicación móvil
 
 * [Mejoras en la aplicación móvil de Workfront](../../../../product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-beta-final.md#workfront-mobile-app-improvements) 
-* [Nueva apariencia de la pestaña Atualizaciones en la aplicación móvil de Workfront](../../../../product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-beta-5-release-activity.md#new-look-and-feel-of-the-updates-tab-in-the-workfront-mobile-app)
+* [Nueva apariencia de la pestaña Actualizaciones en la aplicación móvil de Workfront](../../../../product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-beta-5-release-activity.md#new-look-and-feel-of-the-updates-tab-in-the-workfront-mobile-app)
 * [Cargar imagen del perfil en la aplicación móvil de Workfront](../../../../product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-beta-3-release-activity.md#upload-profile-picture-in-the-android-mobile-app)
 * [Mejora del formulario personalizado en la aplicación móvil de Workfront](../../../../product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-beta-3-release-activity.md#custom-form-improvement-in-the-workfront-mobile-app)
 * [Registrar tiempo en la aplicación móvil de Workfront con orientación horizontal](../../../../product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-beta-3-release-activity.md#log-time-in-the-workfront-mobile-app-in-landscape-orientation)
@@ -107,8 +126,8 @@ La versión 2018.3 contiene mejoras para los administradores de Workfront y otro
 
 ### Otras mejoras
 
-* [Integración de documentos de Microsoft OneDrive](../../../../product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-beta-final.md#document-integration-with-microsoft-onedrive)
-* [Integración de Workfront para Microsoft Teams](../../../../product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-beta-final.md#workfront-for-microsoft-teams-integration)
+* [Integración de documentos de Microsoft OneDrive](../../../../product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-beta-final.md#document-integration-with-microsoft-onedrive) 
+* [Integración de Workfront para Microsoft Teams](../../../../product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-beta-final.md#workfront-for-microsoft-teams-integration) 
 * [Se ha actualizado Workfront para la integración con Adobe Creative Cloud](../../../../product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-beta-final.md#updated-workfront-for-adobe-cc-integration) 
 * [Eliminación de Flash para compartir informes, calendarios y documentos](../../../../product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-beta-2-release-activity.md#flash-removal-for-report-calendar-and-document-sharing)
 
@@ -124,7 +143,7 @@ La versión 2018.3 contiene mejoras para los administradores de Workfront y otro
 
 ### La versión 10 de la API ya está disponible en vista previa {#api-version-10-now-available-in-preview}
 
-La versión 10 de la API ya está disponible en el entorno de vista previa. Estará disponible en el entorno de producción con la versión 18.3. Para obtener más información, consulte [Novedades de la versión 10 de la API](../../../../wf-api/api/new-api-version-10.md). 
+La versión 10 de la API ya está disponible en el entorno de vista previa. Estará disponible en el entorno de producción con la versión 18.3. Para obtener más información, consulte [Novedades de la versión 10](../../../../wf-api/api/new-api-version-10.md) de la API. 
 
 ### Ya no se admite la API versión 3 {#api-version-3-no-longer-supported}
 

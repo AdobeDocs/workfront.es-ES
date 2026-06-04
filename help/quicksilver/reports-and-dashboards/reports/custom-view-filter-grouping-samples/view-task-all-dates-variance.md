@@ -7,11 +7,21 @@ description: Esta vista de tareas es similar a la vista "Todas las fechas" propo
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 20df7cd8-113e-4c0d-b3f5-1def7db968a5
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/U30RkUB3sKKPc-NHovLd-PFsfR8eTUBWOOf0vQuO-s8
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '314'
+source-wordcount: 314
 ht-degree: 30%
 
 ---
@@ -29,7 +39,7 @@ Esta vista de tareas es similar a la vista &quot;Todas las fechas&quot; proporci
 
 Esta vista representa un ejemplo de columnas calculadas, en el que puede tomar los valores de dos columnas diferentes y conectarlos mediante un cálculo para obtener un tercer valor. En este caso, se resta la fecha 1 de la fecha 2.
 
-Para obtener más información acerca del uso de cálculos en una vista, vea la sección [Información general sobre usos comunes del modo de texto](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md) en  [Información general sobre usos comunes del modo de texto](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md).
+Para obtener más información acerca del uso de cálculos en una vista, vea la sección [Información general sobre usos comunes del modo de texto](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md) en [Información general sobre usos comunes del modo de texto](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md).
 
 ![Ver tarea con todas las fechas](assets/view-task-with-all-dates-variance.png)
 

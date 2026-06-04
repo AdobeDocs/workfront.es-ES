@@ -5,12 +5,30 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 441d84d6-6c40-4a03-967e-836cf78c8fc1
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/N2DV4OpcwawQInVKDxPgOgg-Rf6Vk9fSxLqmCyXhGuI
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+  - id: d3382524-5489-431b-bde9-271ab257bc37
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+  - id: fceb5125-bb41-419a-b0db-31958cb42f6c
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '2799'
-ht-degree: 98%
+source-wordcount: 2948
+ht-degree: 97%
 
 ---
 
@@ -58,7 +76,7 @@ El seminario web de la versión 23.3 fue el 29 de junio de 2023. Puede [registra
             <tbody>
                 <tr>
                     <td>
-                        <p><span class="bold">Función</span>
+                        <p><span class="bold">Característica</span>
                         </p>
                     </td>
                     <td>
@@ -125,7 +143,7 @@ El seminario web de la versión 23.3 fue el 29 de junio de 2023. Puede [registra
             <tbody>
                 <tr>
                     <td>
-                        <p><span class="bold">Función</span>
+                        <p><span class="bold">Característica</span>
                         </p>
                     </td>
                     <td>
@@ -364,8 +382,8 @@ El seminario web de la versión 23.3 fue el 29 de junio de 2023. Puede [registra
                             </li>
                             <li>
                                 <p>Versión de producción para los clientes de la versión rápida: Se anunciará después la versión de producción 23.3</p>
-                                <p>Versión de producción para todos los clientes: por anunciar<br>
-                                La función de anulación de la tasa de asignación se desactivó temporalmente en Vista preliminar del 30 de junio al 13 de julio de 2023.</p>
+                                <p>Lanzamiento de producción para todos los clientes: por anunciar<br>
+                                La función de anulación de la tasa de asignación se desactivó temporalmente en Vista previa del 30 de junio al 13 de julio de 2023.</p>
                             </li>
                         </ul>
                     </td>
@@ -709,7 +727,7 @@ El seminario web de la versión 23.3 fue el 29 de junio de 2023. Puede [registra
                  <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-release-activity.md" class="MCXref xref" xrefformat="{para}">Nuevas mejoras en la experiencia del panel de control de lienzo</a></p>
-                        <p>Las mejoras del Panel de control de lienzo están disponibles dentro del periodo de tiempo de la versión 23.3. Estas mejoras estarán disponibles en el entorno de producción con la versión 23.3, a menos que se especifique lo contrario. 
+                        <p>Las mejoras del Panel de lienzo están disponibles dentro del periodo de tiempo de la versión 23.3. Estas mejoras estarán disponibles en el entorno de producción con la versión 23.3, a menos que se especifique lo contrario. 
  </p>
                     </td>
                     <td><p><b>Disponible en estas fechas:</b></p>

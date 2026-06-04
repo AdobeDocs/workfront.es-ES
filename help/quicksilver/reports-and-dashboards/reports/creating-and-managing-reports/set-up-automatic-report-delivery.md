@@ -6,12 +6,23 @@ description: Programar una entrega automática de informes
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 5b8e382c-bfe8-43aa-aa09-a2aa0c4d56cc
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/m1XNhxMM29x1vAL-RESTCCF6fK1KIWA1g7ckfA6cyWQ
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1293'
-ht-degree: 65%
+source-wordcount: 1298
+ht-degree: 64%
 
 ---
 
@@ -111,7 +122,7 @@ Para programar un informe para su envío automático:&#x200B;
      </tr> 
      <tr> 
       <td role="rowheader"> <p>Entregar este informe con los derechos de acceso de</p> </td> 
-      <td> <p>Empiece escribiendo el nombre de un usuario que tenga acceso al informe y haga clic sobre el nombre cuando aparezca en la lista desplegable. A los usuarios que reciban el informe se les otorgará el mismo nivel de acceso que al usuario que especifique aquí.<br> Para obtener más información, consulte <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/run-deliver-report-access-rights-another-user.md" class="MCXref xref">Ejecutar y entregar un informe con los derechos de acceso de otro usuario</a>.</p> <p>Nota: Este campo no admite caracteres comodín. Por ejemplo, al usar el comodín <em>$$User.ID</em>, no se ejecuta el informe con los derechos de acceso del usuario que recibe el informe.</p> </td> 
+      <td> <p>Empiece escribiendo el nombre de un usuario que tenga acceso al informe y haga clic sobre el nombre cuando aparezca en la lista desplegable. A los usuarios que reciban el informe se les otorgará el mismo nivel de acceso al informe que al usuario especificado aquí.<br> Para obtener más información, consulte <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/run-deliver-report-access-rights-another-user.md" class="MCXref xref">Ejecutar y enviar un informe con los derechos de acceso de otro usuario</a>.</p> <p>Nota: Este campo no admite caracteres comodín. Por ejemplo, al usar el comodín <em>$$User.ID</em>, no se ejecuta el informe con los derechos de acceso del usuario que recibe el informe.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>Formato</p> </td> 

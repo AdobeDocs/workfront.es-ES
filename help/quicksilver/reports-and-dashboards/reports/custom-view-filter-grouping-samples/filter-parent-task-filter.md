@@ -7,12 +7,22 @@ description: Puede aplicar los filtros de tareas siguientes para mostrar las tar
 author: Lisa and Courtney
 feature: Reports and Dashboards
 exl-id: 4c3956e1-59e0-4bf2-8739-8064271d6281
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/1hGzzefwLdDl3rU0A-O3JZVHOdhO8nmHxd38Fs0o6Yg
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '827'
-ht-degree: 63%
+source-wordcount: 819
+ht-degree: 57%
 
 ---
 
@@ -24,7 +34,7 @@ Puede aplicar los filtros de tareas siguientes para mostrar las tareas de trabaj
 
 >[!TIP]
 >
->* Si tiene en cuenta la posibilidad de añadir más de un filtro a un informe, le recomendamos que añada todos los filtros mediante la interfaz de Report Builder y que haga clic en Cambiar al modo de texto después de haber añadido todas las demás reglas de filtro. A continuación, puede añadir el código para el filtro de tarea principal tal como se indica más arriba. 
+>* Si tiene en cuenta la posibilidad de agregar más de un filtro a un informe, le recomendamos que agregue todos los filtros mediante la interfaz de Report Builder y que haga clic en Cambiar a modo de texto después de haber agregado todas las demás reglas de filtro. A continuación, puede agregar el código para el filtro de tarea principal como se indica más arriba. 
 >* También se recomienda añadir una agrupación para Nombre del proyecto para facilitar la lectura del informe. Para obtener más información sobre cómo añadir agrupaciones a los informes, consulte el artículo [Información general sobre agrupaciones en Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
 >
 

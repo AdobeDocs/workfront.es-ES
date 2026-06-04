@@ -5,12 +5,19 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: bd73b7df-ad4e-43dc-8ddf-23e0da24ec0f
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/uax0SXlgrYrYkzCwQ8E25jA3mtYS59XrNjMUkw7G0Sg
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '386'
-ht-degree: 17%
+source-wordcount: 387
+ht-degree: 14%
 
 ---
 
@@ -24,9 +31,7 @@ Para obtener una lista de todos los cambios disponibles en este punto del ciclo 
 
 >[!NOTE]
 >
->Vista previa: viernes, 02 de octubre de 2025
->Versión rápida de producción: jueves, 15 de octubre de 2025
->Producción para todos: viernes, 16 de octubre de 2025
+>Vista previa: 2 de octubre de 2025>Versión rápida de producción: 15 de octubre de 2025>Producción para todos: 16 de octubre de 2025
 
 Para facilitar la visualización de la información que necesita, hemos añadido la capacidad de crear y guardar vistas en el área de Solicitudes. Ahora puede guardar una vista, incluidos los filtros y las configuraciones de columna, y cambiar entre vistas. Un administrador de Workfront puede agregar la nueva vista a las plantillas de diseño.
 
@@ -56,7 +61,7 @@ For more information on creating requests see:
 >[!NOTE]
 >
 >* Vista previa: 21 de agosto de 2025
->* Versión rápida de producción: viernes, 11 de septiembre de 2025
+>* Versión rápida de producción: 11 de septiembre de 2025
 >* Producción para todos los clientes: viernes, 16 de octubre de 2025
 
 Para crear una mejor experiencia de usuario al realizar solicitudes en Workfront y Workfront Planning, hemos actualizado la experiencia de solicitud.

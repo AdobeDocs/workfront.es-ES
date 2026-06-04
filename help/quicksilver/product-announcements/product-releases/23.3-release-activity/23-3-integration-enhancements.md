@@ -5,24 +5,37 @@ author: Lisa
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: d24ddc8a-fe96-4e9b-8186-0b54ab9ab213
-source-git-commit: 84444753db0e5c496f013e0245988e62fddad585
+TQID: https://experienceleague.adobe.com/dbwl44iOJoBWysGDsJYaFmjdMqoo-wL5sHiRxNqc4qQ
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2:
+  - id: bbf3fe51-0066-4980-9062-f8005585ee10
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '740'
-ht-degree: 0%
+source-wordcount: 700
+ht-degree: 42%
 
 ---
 
 # 23.3 Mejoras en la integración
 
-Esta página describe todas las mejoras realizadas en la integración con la versión 23.3 de. Estas mejoras estaban disponibles en el entorno de producción con la versión 23.3 del 20 y 21 de julio de 2023.
+Esta página describe todas las mejoras realizadas en la integración con la versión 23.3 de. Estas mejoras estaban disponibles en el entorno de producción con la versión 23.3 de 20 y 21 de julio de 2023.
 
-Para obtener una lista de todos los cambios disponibles en este punto del ciclo de la versión 23.3, consulte [Descripción general de la versión 23.3](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md).
+Para obtener una lista de todos los cambios disponibles en este punto del ciclo de lanzamiento 23.3, consulte [Información general de la versión 23.3](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md).
 
 ## Ya está disponible la nueva integración de Google Workspace
 
 Una nueva integración de Google Workspace ya está disponible en Google Marketplace. La nueva integración se autentica con OAuth2 y reemplaza la integración anterior.
 
-La integración anterior de Google Workspace ya no se utiliza, y se desinstalará automáticamente.
+La integración anterior de Google Workspace ya no se utiliza y se desinstalará automáticamente.
 
 Para obtener instrucciones sobre cómo instalar la nueva integración, consulte [Instalar [!DNL Adobe Workfront for Google Workspace]](/help/quicksilver/workfront-integrations-and-apps/workfront-for-g-suite/install-workfront-for-gsuite.md).
 
@@ -66,7 +79,7 @@ For more information, see [Link documents from external applications](/help/quic
 
 ## Crear automáticamente carpetas vinculadas a Adobe Experience Manager Assets al crear un proyecto
 
-Con el nuevo flujo de trabajo Crear carpeta vinculada para la integración de Adobe Experience Manager, puede configurar la integración con una ruta a una carpeta de Adobe Experience Manager Assets. Cuando se agrega la integración a una plantilla de proyecto, los proyectos creados a partir de la plantilla crearán automáticamente una subcarpeta vinculada en Experience Manager Assets en la carpeta especificada.
+Con el nuevo flujo de trabajo Crear carpeta vinculada para la integración de Adobe Experience Manager, puede configurar la integración con una ruta a una carpeta de Adobe Experience Manager Assets. Cuando se añade la integración a una plantilla de proyectos, los proyectos creados a partir de la plantilla crearán automáticamente una subcarpeta vinculada en Experience Manager Assets en la carpeta especificada.
 
 Anteriormente, la creación de carpetas vinculadas requería una acción por parte del usuario.
 
@@ -80,26 +93,26 @@ Ahora puede categorizar y encontrar recursos rápidamente en función de los dat
 
 Anteriormente, la asignación de datos de Workfront a etiquetas de Experience Manager Assets no estaba disponible.
 
-Para obtener más información sobre esta funcionalidad en el as a Cloud Service de Experience Manager Assets, consulte [Configuración de la integración de [!UICONTROL Experience Manager Assets as a Cloud Service]](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md).
+Para obtener más información sobre esta funcionalidad en Experience Manager Assets as a Cloud Service, consulte [Configuración de la integración de [!UICONTROL Experience Manager Assets as a Cloud Service]](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md).
 Para obtener más información sobre esta funcionalidad en Experience Manager Assets Essentials, consulte [Configuración de la integración con Experience Manager Assets Essentials](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md).
 
 ## Asignar campos de Workfront a campos de metadatos de Experience Manager Assets personalizados
 
 Con la integración nativa, ahora puede asignar campos nativos e integrados de Workfront a campos de esquema de metadatos personalizados en Experience Manager Assets as a Cloud Service.
 
-Para obtener más información sobre esta funcionalidad en el as a Cloud Service de Experience Manager Assets, consulte [Configuración de la integración de [!UICONTROL Experience Manager Assets as a Cloud Service]](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md).
+Para obtener más información sobre esta funcionalidad en Experience Manager Assets as a Cloud Service, consulte [Configuración de la integración de [!UICONTROL Experience Manager Assets as a Cloud Service]](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md).
 Para obtener más información sobre esta funcionalidad en Experience Manager Assets Essentials, consulte [Configuración de la integración con Experience Manager Assets Essentials](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md).
 
-## Ajuste la configuración de la plantilla de flujo de trabajo de revisión automatizada con Adobe Workfront for Creative Cloud
+## Ajuste de la configuración de plantillas de flujo de trabajo de revisión automatizada con Adobe Workfront para Creative Cloud
 
-Ahora puede ajustar la configuración existente de la plantilla de flujo de trabajo automatizado directamente en el Creative Cloud. Una vez que haya elegido una plantilla de flujo de trabajo automatizada existente, podrá:
+Ahora puede ajustar la configuración existente de la plantilla de flujo de trabajo automatizada directamente en Creative Cloud. Una vez que haya elegido una plantilla de flujo de trabajo automatizada existente, podrá:
 
 * Deshabilitar fases
 * Adición de destinatarios adicionales
 * Cambiar funciones de revisión
 * Ajuste de la fecha límite
 * Actualizar notificaciones por correo electrónico
-* ¡Y más!
+* y mucho más.
 
 Para obtener más información, consulte [Cargar documentos y pruebas con el complemento  [!DNL Adobe Workfront] para [!DNL Creative Cloud] Aplicaciones](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-docs-proofs-toc.md).
 

@@ -2,15 +2,25 @@
 product-area: reporting
 navigation-topic: create-and-manage-reports
 title: Enviar un informe en el entorno de zona protegida de vista previa
-description: 'La información de esta página hace referencia a una funcionalidad que solo está disponible en los entornos de zona protegida de vista previa y de actualización personalizada. Esta funcionalidad no está disponible en el entorno de producción. '
+description: La información de esta página hace referencia a una funcionalidad que solo está disponible en los entornos de zona protegida de vista previa y de actualización personalizada. Esta funcionalidad no está disponible en el entorno de producción.
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 568360df-bec9-4767-8b5a-32a294d05d47
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/aikRhNKy6A6Rjhw9dYWJrMuZyjKJjLvNYOkxI2-jR70
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '617'
+source-wordcount: 617
 ht-degree: 98%
 
 ---
@@ -19,7 +29,7 @@ ht-degree: 98%
 
 <!-- Audited: 11/2024 -->
 
-La información de esta página hace referencia a una funcionalidad que solo está disponible en los entornos de zona protegida de vista previa y de actualización personalizada. Esta funcionalidad no está disponible en el entorno de producción. 
+La información de esta página hace referencia a una funcionalidad que solo está disponible en los entornos de zona protegida de vista previa y de actualización personalizada. Esta funcionalidad no está disponible en el entorno de producción.
 
 Puede configurar las opciones de Envío de informes en cualquier entorno de prueba de Adobe Workfront.
 

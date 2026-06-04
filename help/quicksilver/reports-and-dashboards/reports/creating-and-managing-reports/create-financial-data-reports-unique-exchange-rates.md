@@ -6,11 +6,23 @@ description: Si se configuraron varios tipos de cambio en Adobe Workfront, es po
 author: Courtney
 feature: Reports and Dashboards
 exl-id: a0837c70-8330-4c38-98dc-8cf2e7e2e4bd
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/xOIYtXRmtpQ71FSdR4ltwkmT0qLpBX0tldlUEbXks9s
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '976'
+source-wordcount: 981
 ht-degree: 98%
 
 ---
@@ -111,7 +123,7 @@ Para mostrar dos proyectos con monedas personalizadas en un informe:
 
 1. Crear dos proyectos con diferentes monedas aplicadas.
 
-    ![Divisa](assets/qs-currency-350x217.png)
+   ![Divisa](assets/qs-currency-350x217.png)
 
 1. Registro de horas en ambos proyectos.
 
@@ -172,7 +184,7 @@ Para editar en línea un campo financiero en un informe:
    >Si la moneda predeterminada no se muestra para una lista en ninguna otra área, puede editar la vista para mostrar la moneda predeterminada.\
    >Para obtener información sobre cómo cambiar la moneda en una vista, consulte la sección de este artículo [Aplicar valores financieros a un informe](#apply-financial-values-to-a-report).
 
-1. Haga clic en **Acciones de informe** y seleccione **Editar**. 
+1. Haga clic en **Acciones de informe** y seleccione **Editar**.
 1. Haga clic en **Configuración del informe**.
 1. Haga clic en el menú desplegable **Moneda predeterminada** y, a continuación, seleccione **Moneda original del proyecto**.
 

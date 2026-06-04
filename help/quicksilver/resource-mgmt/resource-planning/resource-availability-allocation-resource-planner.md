@@ -6,10 +6,23 @@ description: Puede consultar la disponibilidad de los recursos y la cantidad de 
 author: Lisa
 feature: Resource Management
 exl-id: 5b3e52a6-af9b-4e68-8d6e-43a5151a2a2c
-source-git-commit: 987b6e9b5f6b1feb323906cf7c24f5024fc84663
+TQID: https://experienceleague.adobe.com/DNuM9v5xgKJAH1NeafW8RcU4eq6ZFcpC1TaaYycGN0E
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2:
+  - id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1199'
-ht-degree: 98%
+source-wordcount: 1200
+ht-degree: 94%
 
 ---
 
@@ -26,7 +39,7 @@ Puede consultar la disponibilidad de los recursos y la cantidad de trabajo plani
  <col> 
  <tbody> 
   <tr>
-   <td>paquete de Adobe Workfront</td> 
+   <td>Paquete de Adobe Workfront</td> 
    <td><p>Cualquiera</p></td>
   </tr> 
   <tr> 
@@ -57,7 +70,7 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
 
 ## Requisitos previos
 
-Debe cumplir todos los requisitos previos necesarios para trabajar con el Planificador de recursos.Para más información, consulte [Información general del Planificador de recursos](../../resource-mgmt/resource-planning/get-started-resource-planner.md).
+Debe cumplir todos los requisitos previos necesarios para trabajar con el Planificador de recursos. Para más información, consulte [Información general del Planificador de recursos](../../resource-mgmt/resource-planning/get-started-resource-planner.md).
 
 >[!IMPORTANT]
 >
@@ -132,7 +145,7 @@ Tenga en cuenta lo siguiente al cambiar la vista al Planificador de recursos:
       <td role="rowheader">Coste</td> 
       <td> <p>Muestra la información de disponibilidad y asignación por Coste, si está viendo el Planificador de recursos en las vistas Proyecto o Función. La información muestra los valores en la moneda del sistema. El administrador de Workfront define la moneda del sistema. Para obtener más información sobre cómo configurar la moneda del sistema en Workfront, consulte <a href="../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md" class="MCXref xref">Configurar tipos de cambio</a>.</p> <p><b>NOTA</b>
 
-   Debe asociar usuarios y funciones con las tarifas de Coste por hora para mostrar la información de coste en el Planificador de recursos.<br style="font-style: italic;">Para obtener más información sobre cómo asociar las tarifas de Coste por hora con las funciones de trabajo, consulte <a href="../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md" class="MCXref xref">Crear y administrar funciones</a>.<br style="font-style: italic;">Para obtener más información sobre cómo asociar las tarifas de Coste por hora con los usuarios, consulte <a href="../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref">Editar el perfil de un usuario</a>.<br style="font-style: italic;">Para obtener más información sobre cómo se calcula el coste en el Planificador de recursos, consulte <a href="../../resource-mgmt/resource-planning/calculate-costs-resource-planner.md" class="MCXref xref">Calcular costes en el Planificador de recursos </a>.</p> </td>
+   Debe asociar usuarios y roles de trabajo con tasas de costo por hora para mostrar la información de costo en el Planificador de recursos.<br style="font-style: italic;">Para obtener más información sobre cómo asociar tasas de costo por hora con roles de trabajo, vea <a href="../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md" class="MCXref xref">Crear y administrar roles</a>.<br style="font-style: italic;">Para obtener más información sobre cómo asociar las tarifas de Coste por hora con los usuarios, consulte <a href="../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref">Editar el perfil de un usuario</a>.<br style="font-style: italic;">Para obtener más información sobre cómo se calcula el coste en el Planificador de recursos, consulte <a href="../../resource-mgmt/resource-planning/calculate-costs-resource-planner.md" class="MCXref xref">Calcular costes en el Planificador de recursos </a>.</p> </td>
    </tr> 
      <tr> 
       <td role="rowheader">Personalizar</td> 

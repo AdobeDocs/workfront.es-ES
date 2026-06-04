@@ -7,12 +7,22 @@ description: Puede mostrar un vínculo a una URL personalizada interna utilizand
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 5e402fed-71ce-438a-8da9-8f8d37550ea8
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/o1MwE7-uZY4Rw-78m1dMRiGSyPJ4IFNjZsytqSf3NVE
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '526'
-ht-degree: 81%
+source-wordcount: 535
+ht-degree: 77%
 
 ---
 
@@ -137,6 +147,6 @@ Para personalizar esta vista:
    column.2.width=150
    ```
 
-   En este ejemplo, &#39;column.1.&#39;  Las líneas muestran el valor del campo &quot;URL personalizada&quot; como un vínculo a la sección **Información general** de la tarea; &quot;columna.2.&quot; muestra el valor almacenado en el **campo URL** de la tarea.
+   En este ejemplo, las líneas &quot;column.1.&quot; muestran el valor del campo &quot;URL personalizada&quot; como un vínculo a la sección **Información general** de la tarea; &quot;column.2.&quot; muestra el valor almacenado en el **Campo URL** de la tarea.
 
 1. Haga clic en **Listo** > **Guardar vista**.

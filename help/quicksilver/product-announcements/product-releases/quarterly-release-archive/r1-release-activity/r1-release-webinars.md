@@ -7,10 +7,15 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 5656710c-873b-4f8c-822f-49858f149892
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+TQID: https://experienceleague.adobe.com/l83QAxJpcxJjhoNruRz62063hIOKhZVSbV6w3hCPG-U
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '316'
-ht-degree: 2%
+source-wordcount: 320
+ht-degree: 41%
 
 ---
 
@@ -22,7 +27,7 @@ La versión de R1 está disponible actualmente para probarse en la versión de v
 
 Para ver información más detallada acerca de la funcionalidad cubierta en los seminarios web, consulte la página [Resumen de la actividad de la versión R1](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-release-activity-overview.md).
 
-Las siguientes grabaciones de seminarios web están disponibles:
+Están disponibles las siguientes grabaciones de seminarios web:
 
 ## Seminario web sobre la versión R1 (29 de marzo de 2017)
 
@@ -49,7 +54,7 @@ Esta parte del seminario web contiene los siguientes temas:
 * Diagrama de aprobación
 * Aprobaciones de proyectos, tareas y problemas actualizadas
 * Modificar un proceso de aprobación global existente
-* Configurar objetos que se van a actualizar y que tengan aprobación pendiente
+* Configurar objetos para actualizar que están pendientes de aprobación
 * Editar tareas o problemas con aprobación pendiente
 * Cambiar el estado de un proyecto
 * Método mejorado para vincular archivos
@@ -61,13 +66,13 @@ Esta parte del seminario web contiene los siguientes temas:
 Esta parte del seminario web contiene los siguientes temas:
 
 * Rediseño de la interfaz de usuario del grupo
-* Convertir un grupo en público
+* Hacer público un grupo
 * Adjuntar una plantilla de diseño a un grupo
 * Programar usuarios para desactivación
 * Calendario actualizado de &quot;Trabajando en&quot;
 * Asignaciones de usuarios en la cronología de programación
-* Mejoras en Resource Scheduling
-* Mejoras de corrección
+* Mejoras en el horario de los recursos
+* Mejoras de revisión
 
 ### Configuración {#configuration}
 
@@ -79,12 +84,12 @@ Esta parte del seminario web contiene los siguientes temas:
 * Exclusión de las notificaciones instantáneas
 * Edición masiva de notificaciones de usuario
 * Reorganizado donde residen ciertas notificaciones
-* Se han actualizado las agrupaciones de notificación de eventos en el área de configuración de correo electrónico
-* Aspecto actualizado de varias páginas de configuración del sistema
+* Se han actualizado las agrupaciones de notificación de eventos en el área Configuración de correo electrónico
+* Apariencia actualizada de varias páginas de configuración del sistema
 
 ### Mobile y Outlook {#mobile-and-outlook}
 
 Esta parte del seminario web contiene los siguientes temas:
 
-* Mejoras de Mobile
+* Mejoras en la aplicación móvil
 * Outlook para Office 365

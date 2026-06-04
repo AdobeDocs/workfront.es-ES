@@ -6,15 +6,26 @@ description: Puede ejecutar cualquier informe al que tenga acceso de visualizaci
 author: Courtney
 feature: Reports and Dashboards
 exl-id: bd2202a7-040c-4291-ad02-ba8929a37e2b
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/zxwMrDMGuAfJXaPCdulM6NK8BP26hFmDOqD0x6H-5FY
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '497'
-ht-degree: 84%
+source-wordcount: 503
+ht-degree: 83%
 
 ---
-
 
 # Ejecutar un informe
 
@@ -94,7 +105,7 @@ Es posible que el informe se almacene en caché si se ha mostrado en el explorad
 
 * Edite la configuración del informe y guárdelo.
 * Cambie la vista, el grupo o el filtro.
-* Haga clic en el **icono Recargar** ![icono Recargar](assets/unshimmed-report-refresh-icon.png)
+* Haga clic en el icono **Recargar** ![Icono Recargar](assets/unshimmed-report-refresh-icon.png)
 Esta opción está disponible en la esquina superior derecha de la página, dentro del cuadro de mensaje que indica la hora en que se guardó el informe, o bien está disponible en la esquina superior derecha del panel en el que se coloca el informe. Para obtener más información sobre cómo volver a cargar los paneles de control, consulte la sección &quot;Mostrar paneles de control&quot; en el artículo [Introducción a los paneles de control](../../../reports-and-dashboards/dashboards/understanding-dashboards/get-started-dashboards.md).
 
 * Para acceder a cualquier página del informe que no sea la primera página, vaya a las pestañas Resumen, Matriz o Gráfico.

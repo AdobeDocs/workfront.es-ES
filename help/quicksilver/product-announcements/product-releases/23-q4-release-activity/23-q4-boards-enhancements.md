@@ -5,20 +5,25 @@ author: Lisa
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4a527328-df5d-446a-899c-a613131c7001
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+TQID: https://experienceleague.adobe.com/mv5U1jTFgfL7MpI6sOL6SLT5psOP2hQ-mIFnUb-dC4E
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '528'
-ht-degree: 0%
+source-wordcount: 530
+ht-degree: 17%
 
 ---
 
 # Mejoras en los tableros del cuarto trimestre de 2023
 
-Esta página describe todas las mejoras de tableros realizadas con la versión del cuarto trimestre de 2023 en el entorno de vista previa. Estas mejoras estaban disponibles en el entorno de producción con la versión 23.10 de.
+Esta página describe todas las mejoras de tableros realizadas con la versión del cuarto trimestre de 2023 en el entorno de vista previa. Estas mejoras estaban disponibles en el entorno de producción con la versión 23.10.
 
-Para obtener una lista de todos los cambios disponibles en este punto del ciclo de la versión del cuarto trimestre de 2023, consulte [Información general de la versión del cuarto trimestre de 2023](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md).
+Para obtener una lista de todos los cambios disponibles en este punto del ciclo de lanzamiento del cuarto trimestre de 2023, consulte [Información general de la versión del cuarto trimestre de 2023](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md).
 
-Para obtener más información sobre cómo adherirse a las nuevas funciones de los tableros antes de la versión trimestral, consulte [Inclusión anticipada de funciones en los tableros de Adobe Workfront](/help/quicksilver/agile/get-started-with-boards/boards-early-feature-opt-in.md).
+Para obtener más información sobre cómo adherirse a las nuevas funciones de los tableros antes de la versión trimestral, consulte [Inclusión anticipada de funciones para tableros de Adobe Workfront](/help/quicksilver/agile/get-started-with-boards/boards-early-feature-opt-in.md).
 
 ## Subtareas ahora disponibles en los tableros de Adobe Workfront
 
@@ -30,7 +35,7 @@ En este momento, las subtareas no están visibles en el tablero como tarjetas in
 
 Para obtener más información, consulte [Administrar subtareas en tableros](/help/quicksilver/agile/get-started-with-boards/manage-subtasks-on-boards.md).
 
-[Ver una demostración en vídeo de esta característica.](https://video.tv.adobe.com/v/3424860/){target=_blank}
+[Vea un vídeo de demostración de esta función.](https://video.tv.adobe.com/v/3424860/){target=_blank}
 
 ## Agregar documentos en tarjetas conectadas
 
@@ -40,7 +45,7 @@ En este momento, no puede eliminar documentos de la tarjeta, pero puede eliminar
 
 Para obtener más información, consulte [Agregar documentos en tarjetas](/help/quicksilver/agile/get-started-with-boards/add-documents-on-cards.md).
 
-[Ver una demostración en vídeo de esta característica.](https://video.tv.adobe.com/v/3423070/){target=_blank}
+[Vea un vídeo de demostración de esta función.](https://video.tv.adobe.com/v/3423070/){target=_blank}
 
 ## Mejoras en las asignaciones de usuarios a tableros y tarjetas
 
@@ -50,9 +55,9 @@ Las siguientes mejoras ya están disponibles cuando se añaden usuarios a tabler
 * Al agregar un usuario como usuario asignado a una tarjeta, ya no se agrega automáticamente ese usuario como miembro del tablero.
 * Al eliminar un usuario de un tablero, ya no se eliminará ese usuario de todas las asignaciones de tarjetas del tablero.
 
-Para obtener más información, vea [Agregar o quitar miembros de un tablero](/help/quicksilver/agile/get-started-with-boards/add-members-to-board.md).
+Para obtener más información, vea [Añadir o quitar miembros de un tablero](/help/quicksilver/agile/get-started-with-boards/add-members-to-board.md).
 
-[Ver una demostración en vídeo de esta característica](https://video.tv.adobe.com/v/3423222/){target=_blank}
+[Vea un vídeo de demostración de esta función](https://video.tv.adobe.com/v/3423222/){target=_blank}
 
 ## Documentos disponibles en tarjetas conectadas como de solo lectura
 
@@ -60,7 +65,7 @@ Para las tarjetas conectadas en los paneles de Adobe Workfront, ahora puede ver 
 
 En este momento, se debe cargar un documento en la tarea de Workfront para que esté disponible en la tarjeta conectada.
 
-Para obtener más información, consulte [Usar tarjetas conectadas en tableros](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
+Para obtener más información, consulte [Usar tarjetas conectadas en los tableros](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
 
 ## La vista de tablero de un proyecto ya está disponible para los problemas
 
@@ -70,4 +75,4 @@ Ahora puede acceder a la vista del tablero de una lista de problemas del proyect
 >
 >La vista de tablero solo existe en un único proyecto porque es una vista alternativa del proyecto y no se puede acceder a ella desde otras áreas de Workfront, como el tablero de tableros.
 
-Para obtener más información, vea [Administrar un proyecto en la vista de Agile](/help/quicksilver/manage-work/projects/manage-projects/manage-projects-in-agile-view.md).
+Para obtener más información, consulte [Administrar un proyecto en la vista de Agile](/help/quicksilver/manage-work/projects/manage-projects/manage-projects-in-agile-view.md).
