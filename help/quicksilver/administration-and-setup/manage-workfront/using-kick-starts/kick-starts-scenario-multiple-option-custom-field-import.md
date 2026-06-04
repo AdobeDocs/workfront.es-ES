@@ -10,11 +10,17 @@ feature: System Setup and Administration
 role: Admin
 exl-id: 70f3dac7-f449-4dc8-9d7d-a5284b37f9ec
 TQID: https://experienceleague.adobe.com/VN48OQlXHrmfEYUZ2hOusWN-LE-U6BhXBvqprFOsczY
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2: id: a91f865d-c69e-423f-aeff-28a3d6e8554did: d87de1f9-8e24-4c4d-aa4c-a403075091a1
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: a91f865d-c69e-423f-aeff-28a3d6e8554d
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 2136
@@ -224,7 +230,7 @@ Para rellenar la hoja de cálculo de Excel con información para los nuevos camp
      >
      >Solo puede tener una opción predeterminada para cada campo.
 
-   * **`setParameterID`** = las opciones correspondientes al campo personalizado _Marca_ tienen un **`setParameterID`** de 1, y las opciones correspondientes a _Medios_ tienen un **`setParameterID`**de 2. Las hojas `PARAM` y `POPT` se hacen referencia entre sí para indicar qué opciones pertenecen a cada campo personalizado.
+   * **`setParameterID`** = las opciones correspondientes al campo personalizado _Marca_ tienen un **`setParameterID`** de 1, y las opciones correspondientes a _Medios_ tienen un **`setParameterID`**&#x200B;de 2. Las hojas `PARAM` y `POPT` se hacen referencia entre sí para indicar qué opciones pertenecen a cada campo personalizado.
    * **`setDisplayOrder`**= la columna de orden de visualización indica el orden en que se mostrarán las opciones en el campo personalizado. Puede empezar por 1 y continuar en orden ascendente para todas las opciones, independientemente de los campos a los que pertenezcan. Lo importante aquí es tener números únicos para cada opción.
    * Las columnas **`setLabel`** y `**setValue`** suelen contener la misma información y deben reflejar los nombres deseados en la interfaz de usuario de Workfront. El valor de una opción es el nombre que se muestra en los informes, por ejemplo, mientras que la etiqueta se muestra en los formularios personalizados cuando se adjunta a un objeto. Para obtener más información, consulte [Crear un formulario personalizado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
    * **`setIsHidden`** = introduzca `TRUE` si desea que cualquiera de las opciones esté oculta.

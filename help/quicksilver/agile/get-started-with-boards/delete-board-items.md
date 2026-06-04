@@ -9,10 +9,14 @@ exl-id: 68b7d2e5-92f0-462d-8122-eaecb1e6b87c
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/5uEY9N--HRfhh1Z2ULg-HA7b8Y0A-nKL9yI0hB6Fz6c
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
 workflow-type: tm+mt
 source-wordcount: 509
@@ -63,13 +67,13 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
 {{step1-to-boards}}
 
 1. Acceda a un tablero. Para obtener más información, consulte [Crear o editar un tablero](../../agile/get-started-with-boards/create-edit-board.md).
-1. Haga clic en el menú **[!UICONTROL Más]** ![Más ](assets/more-icon-spectrum.png) de la tarjeta y seleccione **[!UICONTROL Eliminar]**.
+1. Haga clic en el menú **[!UICONTROL Más]** ![Más &#x200B;](assets/more-icon-spectrum.png) de la tarjeta y seleccione **[!UICONTROL Eliminar]**.
 1. Haga clic en **[!UICONTROL Eliminar]** en el mensaje de confirmación.
 
 ## Archivar una tarjeta de un tablero
 
 1. Acceda al tablero.
-1. Haga clic en el menú **[!UICONTROL Más]** ![Más ](assets/more-icon-spectrum.png) de la tarjeta y seleccione **[!UICONTROL Archivar]**.
+1. Haga clic en el menú **[!UICONTROL Más]** ![Más &#x200B;](assets/more-icon-spectrum.png) de la tarjeta y seleccione **[!UICONTROL Archivar]**.
 
    Las tarjetas archivadas se ocultan del tablero a menos que aplique un filtro para mostrarlas. Para obtener más información, consulte [Filtrar un tablero para mostrar tarjetas archivadas](#filter-a-board-to-show-archived-cards) en este artículo.
 
