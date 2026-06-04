@@ -9,28 +9,19 @@ exl-id: 17767006-2329-43b7-b4b3-0ca323cc41e0
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/pZbr-zFYyGsswScJTb80R679wGRmKJUaXexO8G4XRoo
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
-subfeature_v2:
-  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87effid: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: bd7ae926356225423e6f986bef0b216b2a04584c
 workflow-type: tm+mt
 source-wordcount: 1021
-ht-degree: 9%
+ht-degree: 10%
 
 ---
 
 # Introducción a [!DNL Priorities]
-
-{{preview-fast-release-general}}
 
 Prioridades es una experiencia intuitiva y optimizada, adaptada a los propietarios de tareas. Las prioridades se implementarán por fases, empezando por la lista de trabajo.
 
@@ -42,7 +33,7 @@ Con Prioridades, puede disfrutar de
 
 La Lista de trabajos de prioridades y el Calendario muestran los elementos de trabajo que tiene asignados. No puede ver los elementos de trabajo asignados a su equipo.
 
-<span class="preview">Un administrador de Workfront puede habilitar las prioridades para el usuario en la plantilla de diseño. Para obtener más información, vea [Personalizar el menú principal mediante una plantilla de diseño](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).</span>
+Un administrador de Workfront puede habilitar las prioridades del usuario en la plantilla de diseño. Para obtener más información, consulte [Personalizar el menú principal con una plantilla de diseño](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
 
 ## Encuentre y organice su trabajo
 
