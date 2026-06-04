@@ -15,14 +15,16 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 1880d4370059ad654f91c6f40a0a787c51c1e54e
 workflow-type: tm+mt
-source-wordcount: 234
-ht-degree: 27%
+source-wordcount: 437
+ht-degree: 14%
 
 ---
 
 # Personalización de las columnas de lista de trabajo Prioridades
+
+{{preview-fast-release-general}}
 
 <!--I think this article can point to the Enhanced lists article for managing the view-->
 
@@ -37,9 +39,11 @@ Puede personalizar las columnas de la lista de trabajos en Prioridades para admi
 
 Prioridades muestra los elementos de trabajo que tiene asignados. No puede ver los elementos de trabajo asignados a su equipo.
 
+<!--
 >[!NOTE]
 >
->En este momento no se pueden agregar datos personalizados a las columnas.
+>You cannot add custom data to columns at this time.
+-->
 
 ## Requisitos de acceso
 
@@ -84,8 +88,14 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
 {{step1-to-priorities}}
 
 1. Haga clic en **Columnas** en la parte izquierda de la pantalla.
+
+   <span class="preview">Imagen de muestra en el entorno de vista previa:</span>
+   ![Columnas](assets/columns-new-060226.png)
+
+   Imagen de muestra en el entorno de producción:
    ![Columnas](assets/columns-new.png)
-1. Utilice las teclas de alternancia para activar o desactivar columnas en la lista de trabajos.
+
+1. Utilice las teclas de alternancia para mostrar u ocultar columnas en la lista de trabajos.
 
 ### Reordenar las columnas
 
@@ -98,6 +108,23 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
 >[!NOTE]
 >
 >La columna Nombre es fija y no se puede mover.
+
+<div class="preview">
+
+### Agregar y quitar columnas con el Administrador de columnas
+
+{{step1-to-priorities}}
+
+1. Haga clic en el icono + en la esquina superior derecha de la lista para abrir el cuadro **Administrador de columnas**.
+1. Agregue o quite columnas y después haga clic en **Guardar**.
+
+   >[!NOTE]
+   >
+   >Solo se pueden agregar campos existentes a la vista de lista. Tanto los campos nativos como los personalizados para tareas y problemas están disponibles para agregarlos como columnas.
+
+Para obtener más información sobre el administrador de columnas, vea la sección [Agregar y quitar columnas con el administrador de columnas](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md#add-and-remove-columns-with-the-column-manager) en el artículo [Usar listas mejoradas](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
+
+</div>
 
 ### Cambiar el alto de fila en la lista de prioridades
 
@@ -113,3 +140,22 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
    * Alta
 
    La lista se actualiza inmediatamente.
+
+<div class="preview">
+
+## Administrar vistas para la lista de prioridades
+
+Una vista define las columnas, los filtros y las agrupaciones de la lista con ajustes preestablecidos.
+
+Se asigna una vista predeterminada a la lista de prioridades. También puede crear y compartir sus propias vistas.
+
+{{step1-to-priorities}}
+
+1. Expanda el menú de vistas desplegables en la esquina superior izquierda de la lista para seleccionar otra vista, o haga clic en **Nueva vista** para crear otra.
+1. Actualice las columnas, filtros y agrupaciones que desee incluir en la vista.
+
+   Los cambios en las vistas se guardan automáticamente. La próxima vez que aplique esta vista, la configuración de columna y filtro seguirá siendo la misma que la establecida.
+
+Para obtener más información sobre las vistas, consulte la sección [Actualizar elementos de lista mejorados](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md#update-enhanced-list-elements) en el artículo [Usar listas mejoradas](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
+
+</div>

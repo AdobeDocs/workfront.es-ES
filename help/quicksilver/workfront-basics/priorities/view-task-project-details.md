@@ -15,7 +15,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: bd7ae926356225423e6f986bef0b216b2a04584c
 workflow-type: tm+mt
 source-wordcount: 409
 ht-degree: 19%
@@ -76,7 +76,7 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
 {{step1-to-priorities}}
 
 1. En la lista de trabajo, pase el ratón sobre el nombre del elemento de trabajo y haga clic en **Icono de resumen** ![icono de resumen abierto](assets/summary-icon.png).
-1. Haga clic en **Proyecto** en la parte superior del panel Resumen. Aquí puede
+1. Haga clic en **Proyecto** en la parte superior del panel Resumen. Aquí puede:
    * Ver y editar los detalles y la descripción del proyecto
    * Ver y agregar comentarios en el proyecto
    * Hora de registro
@@ -90,7 +90,7 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
 {{step1-to-priorities}}
 
 1. En la lista de trabajo, pase el ratón sobre el nombre del trabajo y haga clic en **Icono de resumen** ![icono de resumen abierto](assets/summary-icon.png).
-1. La tarea está seleccionada de forma predeterminada. Aquí puede
+1. La tarea está seleccionada de forma predeterminada. Aquí puede:
    * Ver y editar los detalles y la descripción del proyecto y la tarea
    * Ver y agregar comentarios en el proyecto
    * Ver y agregar documentos
@@ -127,7 +127,7 @@ Puede ver actualizaciones en tiempo real en la página Detalles de una tarea o u
 
 {{step1-to-priorities}}
 
-1. En la lista de trabajos, haga clic en el nombre del elemento de trabajo. En la página Detalles, puede
+1. En la lista de trabajos, haga clic en el nombre del elemento de trabajo. En la página Detalles, puede:
 
 * Ver y editar los detalles y la descripción del proyecto
 * Ver y agregar comentarios en el proyecto
