@@ -7,10 +7,16 @@ description: Comprender el coste presupuestado de la mano de obra y las horas pr
 author: Lisa
 feature: Work Management
 exl-id: 01020bbb-7cf9-4461-b0b6-dcbbc537c616
-source-git-commit: b983a780198743a2b87b4b48cf4d6afdf1cee437
+TQID: https://experienceleague.adobe.com/bIS8VOfmyYX32cnh3oL7DgHYfx3Jmal6exqdWe96DAw
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aadid: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2: id: d1573eb8-a2e8-4a06-9526-9c3410bf4914id: d3382524-5489-431b-bde9-271ab257bc37id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1140'
-ht-degree: 98%
+source-wordcount: 1140
+ht-degree: 97%
 
 ---
 
@@ -70,7 +76,7 @@ Los campos utilizados en el cálculo anterior hacen referencia a lo siguiente:
 > 
 >El total de todos los costes de mano de obra de todos los usuarios puede ser igual o no al coste de mano de obra presupuestado del planificador de recursos de las funciones del puesto asociadas a los usuarios.
 >
->Si estima las horas presupuestadas de los usuarios en el Planificador de recursos, los costes asociados a ellas son los de las funciones del puesto asociadas a los usuarios.No son costes asociados a los usuarios ni a sus tarifas.
+>Si estima las horas presupuestadas de los usuarios en el Planificador de recursos, los costes asociados a ellas son los de las funciones del puesto asociadas a los usuarios. No son costes asociados a los usuarios ni a sus tarifas.
 
 Si los usuarios están asociados a las funciones del puesto del proyecto y sus horas están presupuestadas en el Planificador de recursos, el costo de mano de obra presupuestado se muestra con los siguientes nombres, según el lugar donde los vea en Workfront:
 
@@ -150,12 +156,12 @@ Puede ver las horas presupuestadas en Workfront en los campos enumerados en la t
 Las horas presupuestadas en el área de Presupuestación de recursos del caso comercial o del planificador de recursos se muestran en las siguientes áreas de Workfront y con los siguientes nombres:
 
 * **Horas**: área de Presupuestación de recursos del caso empresarial
-* **BDG**: planificador de recursos visualizado por horas
+* **BDG**:Resource Planificador visto por horas
 * **Horas presupuestadas**: vista de horas del informe de utilización
-Para obtener más información, consulte [Ver información sobre la utilización de recursos](../../../resource-mgmt/resource-utilization/view-utilization-information.md).
-* **Horas  presup.**: informe de las horas presupuestadas
+Para obtener más información, vea [Ver información de utilización de recursos](../../../resource-mgmt/resource-utilization/view-utilization-information.md).
+* **Horas presup.**: informe de las horas presupuestadas
 
-  El objeto Hora presupuestada del informe Hora presupuestada hace referencia a información relacionada con una herramienta de administración de recursos obsoleta. Solo el campo &quot;Horas  presup.&quot; en este informe hace referencia a las horas presupuestadas en el Planificador de recursos o en el área de Presupuestación de recursos del caso comercial del proyecto.
+  El objeto Hora presupuestada del informe Hora presupuestada hace referencia a información relacionada con una herramienta de administración de recursos obsoleta. Solo el campo &quot;Horas presup.&quot; en este informe hace referencia a las horas presupuestadas en el Planificador de recursos o en el área de Presupuestación de recursos del caso comercial del proyecto.
 
   Para obtener más información sobre la creación de un informe, consulte el artículo **Crear un informe personalizado**.
 * **Horas presupuestadas del planificador de recursos**: en los siguientes informes:

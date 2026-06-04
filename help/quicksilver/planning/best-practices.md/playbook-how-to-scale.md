@@ -6,11 +6,15 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 54df36b3-01a3-4fd3-b2d3-64ffb2fe5918
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/9T0iHPXONMWUcVb03kMr-rmQ1hAvTxtLoDzlucqaK6A
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c1579802-ddd4-4214-8a91-97b2066abe11id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: f8667931-f646-4dd3-af2a-b9d0cb8098ad
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '2574'
+source-wordcount: 2611
 ht-degree: 1%
 
 ---
@@ -44,7 +48,7 @@ A veces puede parecer que la fase más peligrosa de la adopción de Workfront Pl
 
 * **Gobernanza cero**: Permite que cada equipo cree sus propios campos y tipos de registros, recreando la expansión descontrolada de metadatos fragmentada que se encuentra en entornos heredados.
 
-## &#x200B;2. La filosofía básica: Workfront Planning como motor de reconciliación
+## &#x200B;2. La filosofía central: Workfront Planning como motor de reconciliación
 
 En lugar de intentar evitar que los equipos sean diferentes, posicionamos Workfront Planning como el lugar donde se hacen visibles esas diferencias para que se puedan reconciliar.
 
@@ -69,7 +73,7 @@ Para apoyar este esfuerzo, tenga en cuenta lo siguiente:
 
 * **Administre la deuda, no la oculte**: Es natural preocuparse por el esfuerzo necesario para limpiar las taxonomías divergentes más adelante. Sin embargo, la alternativa —imponer estándares estrictos demasiado pronto— a menudo lleva a los equipos de vuelta a hojas de cálculo donde sus procesos (y su deuda) permanecen ocultos. Al permitir que los equipos comiencen en Workfront Planning con sus clasificaciones actuales, está trasladando esa deuda a un entorno visible y controlado. Esto hace que la reconciliación final sea una tarea iterativa en lugar de un único y abrumador proyecto de migración.
 
-## &#x200B;3. El modelo de gobernanza de la autonomía guiada
+## &#x200B;3. El modelo de gobernanza de autonomía guiada
 
 Usted define los carriles en la carretera y las áreas de juego locales (o los valores predeterminados y las plantillas gobernados), mientras que permite a los equipos la flexibilidad de elegir su propia ruta dentro de ellos.
 
@@ -202,7 +206,7 @@ Para evitar que Planning se desorden, haga lo siguiente:
 
 * **Lograr la consolidación primero**: Si un equipo desea un nuevo campo de metadatos, invítelo a comprobar primero la taxonomía global. Esto requiere que se conceda a los posibles clientes acceso de solo lectura al espacio de trabajo de Taxonomía global (consulte la sección 7). Al asignar sus necesidades tácticas a un campo estratégico existente, puede evitar duplicaciones innecesarias y mantener la integridad de la creación de informes.
 
-## &#x200B;7. Modelo de visibilidad de acceso de solo lectura
+## &#x200B;7. El modelo de visibilidad de acceso de solo lectura
 
 Puede resolver la sensación de silo sin el ruido del trabajo en silo, permitiendo a los equipos acceso de solo lectura al espacio de trabajo de Taxonomía global para ver qué conceptos podrían aplicarse a sus propios flujos de trabajo.
 
@@ -216,7 +220,7 @@ Tenga en cuenta lo siguiente:
 
 * **El resultado**: los equipos pueden ver el contexto empresarial más amplio para inspirarse y alinearse, pero su espacio de trabajo local permanece limpio y centrado en sus tareas específicas.
 
-## &#x200B;8. Gestión del crecimiento mediante talleres
+## &#x200B;8. Gestión del crecimiento a través de talleres
 
 Escalar Workfront Planning es un desafío cultural tanto como técnico. Utilice talleres específicos para reducir la brecha de gobernanza.
 
@@ -267,7 +271,7 @@ Las siguientes son ideas para talleres que puede tener:
 
 * **Resultado**: mayor confianza del usuario, resolución más rápida de la fricción técnica e identificación de nuevos patrones que podrían justificar la estandarización global.
 
-## &#x200B;9. Plantilla para escalas: funciones y responsabilidades
+## &#x200B;9. Personal para escalas: funciones y responsabilidades
 
 El éxito en un modelo de escalado administrado requiere algo más que la configuración de la herramienta. Requiere una clara distribución de funciones entre los equipos Global y Spoke.
 

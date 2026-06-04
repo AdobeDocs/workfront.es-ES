@@ -7,12 +7,18 @@ author: Alina
 feature: Work Management, Projects
 role: User
 exl-id: a6a1f178-189a-4c41-835b-7726081a2b49
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 9a35246858141a3b69ec85be3372c7a8d9497d6e
+TQID: https://experienceleague.adobe.com/MnBBlX0pGftQLRqy6tLxUpIezwXo9zPczxo65FpxneI
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87effid: ce22a157-dd2c-405f-b740-c2f204bb4c1aid: d87de1f9-8e24-4c4d-aa4c-a403075091a1id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
 workflow-type: tm+mt
-source-wordcount: '8112'
-ht-degree: 88%
+source-wordcount: 7941
+ht-degree: 87%
 
 ---
 
@@ -283,7 +289,7 @@ Para obtener información sobre cómo crear un proyecto a partir de una plantill
       </tr> 
       <tr> 
       <td role="rowheader"><strong>Portafolio</strong></td> 
-      <td>Indique el Portafolio al que pertenece el proyecto. Para que un Portafolio aparezca en la lista desplegable, primero debe crearlo. Solo los portafolios activos pueden asociarse a un proyecto. Para obtener más información sobre la creación de portafolios, consulte <a href="../../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md" class="MCXref xref">Crear un portafolio </a>.
+      <td>Indique una Portfolio a la que pertenezca el proyecto. Primero debe crear una Portfolio, antes de que aparezca en la lista desplegable. Solo los portafolios activos pueden asociarse a un proyecto. Para obtener más información acerca de la creación de portafolios, vea <a href="../../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md" class="MCXref xref">Crear un portafolio </a>.
       <p><b>NOTAS</b></p>
       <ul>
       <li>Debe tener permisos de administración en el portafolio para poder añadirlo al proyecto o quitarlo de él.</li>
@@ -513,7 +519,7 @@ Para editar campos en el área Finanzas:
        </tr> 
        <tr> 
        <td role="rowheader"><strong>Tipo de actualización</strong></td> 
-       <td> <p>Controla cuándo se guardan los cambios realizados en la cronología del proyecto en el proyecto o en las tareas principales. Por ejemplo, los siguientes cambios en el activador del proyecto pueden actualizar la cronología del proyecto: 
+       <td> <p>Controla cuándo se guardan los cambios realizados en la escala de tiempo del proyecto en el proyecto o en las tareas principales. Por ejemplo, los siguientes cambios en el déclencheur del proyecto pueden actualizar la cronología del proyecto: 
        <ul> 
        <li>Actualizar las fechas de las tareas</li> 
        <li>Cambiar relaciones de predecesoras de tareas</li> 
@@ -697,11 +703,11 @@ Puede definir los permisos que los usuarios reciben para el proyecto, así como 
     <tbody> 
      <tr data-mc-conditions=""> 
       <td role="rowheader"><strong>Cuando se asigna a una persona una tarea</strong></td> 
-      <td><p>Seleccione entre el acceso de <strong>Visualización</strong>, <strong>Contribución</strong> o <strong>Administración</strong> a una tarea. Al usuario asignado a una tarea se le concede automáticamente este acceso a la tarea.</p></td> 
+      <td><p>Seleccione entre el acceso de <strong>visualización</strong>, <strong>contribución</strong> o <strong>administración</strong> de una tarea. Al usuario asignado a una tarea se le concede automáticamente este acceso a la tarea.</p></td> 
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader"><strong>Conceder también acceso al proyecto</strong></td> 
-      <td><p>Seleccione entre el acceso de <strong>Visualización</strong>, <strong>Contribución</strong> o <strong>Administración</strong> al proyecto. Al usuario asignado a una tarea se le concede automáticamente este acceso al proyecto.<br></p></td> 
+      <td><p>Seleccione entre el acceso de <strong>visualización</strong>, <strong>contribución</strong> o <strong>administración</strong> del proyecto. Al usuario asignado a una tarea se le concede automáticamente este acceso al proyecto.<br></p></td> 
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader"><strong>Cuando se asigna a una persona un problema</strong></td> 
@@ -709,7 +715,7 @@ Puede definir los permisos que los usuarios reciben para el proyecto, así como 
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader"><strong>Conceder también acceso al proyecto</strong></td> 
-      <td><p>Seleccione entre el acceso de <strong>Visualización</strong>, <strong>Contribución</strong> o <strong>Administración</strong> al proyecto. Al usuario asignado a un problema se le concede también automáticamente este acceso al proyecto.<br></p></td> 
+      <td><p>Seleccione entre el acceso de <strong>visualización</strong>, <strong>contribución</strong> o <strong>administración</strong> del proyecto. Al usuario asignado a un problema se le concede también automáticamente este acceso al proyecto.<br></p></td> 
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader"><strong>Cuando una persona envía una solicitud: concederle acceso</strong></td> 
@@ -814,7 +820,7 @@ Para editar proyectos de forma masiva:
 
 1. Seleccione varios proyectos en la lista.
 1. Haga clic en el icono **Editar** ![Editar icono](assets/edit-icon.png) en la parte superior de la lista.
-Se abrirá el cuadro de diálogo **Editar proyectos**.
+Se abre el cuadro de diálogo **Editar proyectos**.
 
    ![Editar proyectos en modal en lotes](assets/edit-projects-in-bulk-modal-unshimmed.png)
 
@@ -860,13 +866,13 @@ Según la forma en que el administrador de Workfront o el de grupos hayan modifi
 1. Haga clic en **Finanzas** para editar la información financiera de todos los proyectos seleccionados.
 Para obtener más información acerca de cómo editar el área de Finanzas, consulte la sección [Finanzas](#finance) en este artículo.
 1. Haga clic en **Configuración del proyecto** para editar la configuración de todos los proyectos seleccionados.
-Para obtener más información acerca de cómo editar el área de Configuración del proyecto, vea la sección [Configuración del proyecto](#project-settings) en este artículo.
+Para obtener más información sobre cómo editar el área de Configuración del proyecto, consulte la sección [Configuración del proyecto](#project-settings) en este artículo.
 1. Haga clic en **Configuración de tarea** para editar la configuración de tarea para todos los proyectos seleccionados.
 Para obtener más información acerca de cómo editar el área Configuración de tarea, consulte la sección [Configuración de tarea](#task-settings) en este artículo.
-1. Haga clic en **Configuración de problema** para editar la configuración del problema de todos los proyectos seleccionados.
-Para obtener más información acerca de cómo editar el área Configuración del problema, consulte la sección [Configuración del problema](#issue-settings) en este artículo.
+1. Haga clic en **Configuración de problema** para editar la configuración de problema de todos los proyectos seleccionados.
+Para obtener más información acerca de cómo editar el área Configuración de problema, consulte la sección [Configuración de problema](#issue-settings) en este artículo.
 1. Haga clic en **Acceso** para editar la configuración de acceso de todos los proyectos seleccionados.
-Para obtener más información acerca de cómo editar el área de acceso, vea la sección [Acceso](#access) en este artículo.
+Para obtener más información acerca de cómo editar el área de acceso, consulte la sección [Acceso](#access) en este artículo.
 1. Haga clic en **Comentario** y, a continuación, agregue un comentario en el espacio proporcionado. Workfront agrega el comentario en el área **Actualizaciones** de cada proyecto. Para obtener información sobre cómo actualizar el trabajo, vea [Actualizar trabajo](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 1. (Opcional) Para eliminar cualquier información que haya añadido en el cuadro Editar proyectos, pase el puntero por encima de un campo editado y, a continuación, haga clic en el icono de descartar **x** que hay en la parte superior derecha del campo.
 

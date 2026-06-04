@@ -7,10 +7,16 @@ description: También conocido como Valor planificado, el Coste presupuestado de
 author: Lisa
 feature: Work Management
 exl-id: b9a36333-9430-42bd-99dd-3ad82803b633
-source-git-commit: 23a4d055871c9138818e70fa1cd936581dbd7552
+TQID: https://experienceleague.adobe.com/Nt0HZv7YfcMsAXZr3xRlkGXtCrQPJeJd4IQB0BuhbVM
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '598'
-ht-degree: 98%
+source-wordcount: 600
+ht-degree: 99%
 
 ---
 
@@ -43,7 +49,7 @@ Tenga en cuenta lo siguiente cuando revise los valores del CPTP en una tarea o p
  <col> 
  <tbody> 
   <tr> 
-   <td>paquete de Adobe Workfront</td> 
+   <td>Paquete de Adobe Workfront</td> 
    <td>Cualquiera</td> 
   </tr> 
   <tr> 

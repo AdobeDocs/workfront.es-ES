@@ -3,11 +3,14 @@ title: Promocionar un espacio de trabajo de Workfront Planning en GenStudio
 description: El espacio de trabajo de GenStudio for Performance Marketing está disponible en Adobe Workfront Planning cuando su empresa ha adquirido ambos productos y su instancia de Workfront está integrada con la instancia de GenStudio de su empresa. Puede promocionar un espacio de trabajo de Workfront Planning a GenStudio y hacer que su información sea visible y actualizada desde ambos sistemas.
 hide: true
 exl-id: 0747fb80-496f-41c0-b469-1203e1605f05
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18ad93c364daa9225c2b2ba715e45e8644936a0d
+TQID: https://experienceleague.adobe.com/wHSc0Neshdl-Owh1siw72wdO-H1hnEPy-dAk91tDOrI
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '116'
+source-wordcount: 116
 ht-degree: 12%
 
 ---

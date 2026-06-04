@@ -3,14 +3,19 @@ content-type: overview
 product-area: projects
 navigation-topic: plan-a-project
 title: Resumen del estado del progreso del proyecto
-description: Adobe Workfront determina el estado de progreso de un proyecto mirando la progresión del proyecto en su línea de tiempo. Puede configurar Workfront para determinar la condición de un proyecto en función del valor de estado de progreso de las tareas. Obtenga más información acerca del estado del progreso del proyecto en este artículo.
+description: Adobe Workfront determina el estado de progreso de un proyecto mirando la progresión del proyecto en su cronología. Puede configurar Workfront para determinar la condición de un proyecto en función del valor de estado de progreso de las tareas. Obtenga más información acerca del estado del progreso del proyecto en este artículo.
 author: Alina
 feature: Work Management
 exl-id: 922ca4cf-c526-4704-9966-de67b0c36a2a
-source-git-commit: 883ec4eaa2258de2e464acf14b6b4083db05b99a
+TQID: https://experienceleague.adobe.com/V9eyzkoYIREb4zUuDxmyDhnQa54YQaYTv2woNTOhq24
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+subfeature_v2: id: b91c0848-76c4-4da4-8b81-3aade0518dd0id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '390'
-ht-degree: 81%
+source-wordcount: 375
+ht-degree: 80%
 
 ---
 
@@ -18,7 +23,7 @@ ht-degree: 81%
 
 <!--Audited: 12/2023-->
 
-Adobe Workfront determina el estado de progreso de un proyecto mirando la progresión del proyecto en su línea de tiempo. Puede configurar Workfront para determinar la condición de un proyecto en función del valor de estado de progreso de las tareas. Para obtener más información acerca de cómo configurar la condición del proyecto, consulte el artículo [Información general sobre la condición del proyecto y el tipo de condición](../../../manage-work/projects/manage-projects/project-condition-and-condition-type.md).
+Adobe Workfront determina el estado de progreso de un proyecto mirando la progresión del proyecto en su cronología. Puede configurar Workfront para determinar la condición de un proyecto en función del valor de estado de progreso de las tareas. Para obtener más información acerca de cómo configurar la condición del proyecto, consulte el artículo [Información general sobre la condición del proyecto y el tipo de condición](../../../manage-work/projects/manage-projects/project-condition-and-condition-type.md).
 
 A continuación se muestran los estados de progreso de los proyectos en Workfront:
 

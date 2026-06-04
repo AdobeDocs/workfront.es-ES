@@ -6,9 +6,15 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: bfc7ce9e-b715-47b7-bab7-2e3540d0da3e
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+TQID: https://experienceleague.adobe.com/yhdEiiC-0I-M1m8xTKfqQa1BSsyf-kZOGDWtCKMhTyA
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: e14a7f57-c82c-4874-a495-5d036cbbdc3did: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87effid: b18b693b-6d59-4359-95fd-a386b7a615feid: ce22a157-dd2c-405f-b740-c2f204bb4c1aid: d1573eb8-a2e8-4a06-9526-9c3410bf4914id: d1807669-3cb9-4c7d-8433-600aa390c92fid: d3382524-5489-431b-bde9-271ab257bc37id: d87de1f9-8e24-4c4d-aa4c-a403075091a1id: fceb5125-bb41-419a-b0db-31958cb42f6c
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '3221'
+source-wordcount: 3364
 ht-degree: 99%
 
 ---
@@ -98,7 +104,7 @@ Estas mejoras se incorporaron en el entorno de producción la semana del 11 de j
   </tr>
   <tr data-mc-conditions=""> 
    <td> <p><a href="../../../product-announcements/product-releases/22.3-release-activity/22-3-admin-enhancements.md" class="MCXref xref" xrefformat="{para}">El editor de cálculo de campos de formulario personalizados muestra información de error
-</a><span style="color: #ff0000; font-weight: bold;"> (no disponible temporalmente)</span></p></p> <p>Editar cálculos para campos personalizados ahora es más fácil con información de error útil indicada directamente en el cálculo. Mientras crea un campo calculado en un formulario personalizado, los errores se resaltan en rosa. Cuando pasa el puntero encima de la parte resaltada, se muestra información del objeto para describir el problema.</p>
+</a><span style="color: #ff0000; font-weight: bold;"> (no disponible temporalmente)</span></p></p> <p>Editar cálculos para campos personalizados ahora es más fácil con información de error útil indicada directamente en el cálculo. Mientras crea un campo calculado en un formulario personalizado, los errores se resaltan en rosa. Cuando pasa el puntero por encima de la parte resaltada, se muestra información del objeto para describir el problema.</p>
     </td> 
     <td> <p><b>Disponible en estas fechas:</b> </p> 
     <ul> 
@@ -255,7 +261,7 @@ Estas mejoras se incorporaron en el entorno de producción la semana del 11 de j
     </ul> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/22.1-release-activity/22-1-project-enhancements.md#convert" class="MCXref xref" xrefformat="{para}">Convertir problemas a proyectos mediante una plantilla de listas, informes y tableros</a> </p> <p>Para aumentar la eficacia de su trabajo y facilitarle la conversión de problemas en un entorno acelerado, hemos añadido la posibilidad de convertir un problema en un proyecto utilizando una plantilla de una lista, un informe o un panel.</p> <p>Antes de esta mejora, esta funcionalidad solo existía cuando convertía el problema desde la página de problemas.</p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/22.1-release-activity/22-1-project-enhancements.md#convert" class="MCXref xref" xrefformat="{para}">Convertir problemas a proyectos mediante una plantilla de listas, informes y tableros</a> </p> <p>Para aumentar la eficacia de su trabajo y facilitarle la conversión de problemas en un entorno acelerado, hemos añadido la posibilidad de convertir un problema en un proyecto utilizando una plantilla de una lista, un informe o un panel de control.</p> <p>Antes de esta mejora, esta funcionalidad solo existía cuando convertía el problema desde la página de problemas.</p> </td> 
    <td><strong>Disponible en estas fechas:</strong> 
     <ul> 
      <li> <p>Versión de vista previa: 8 de diciembre de 2021<br></p> </li> 
@@ -290,7 +296,7 @@ Estas mejoras se incorporaron en el entorno de producción la semana del 11 de j
     </ul> <p><strong>Disponible en estos entornos:</strong> </p> 
     <ul> 
      <li> <p>La nueva experiencia de Adobe Workfront </p> </li> 
-     <li> <p>Adobe Workfront Classic (<a href="https://experienceleague.adobe.com/es/docs/workfront/using/home" target="_blank">Workfront Classic dejará de usarse en marzo de 2022</a>, seguido poco después por la fecha de finalización de la vida útil de Workfront Classic en julio de 2022).</p> </li> 
+     <li> <p>Adobe Workfront Classic (<a href="https://experienceleague.adobe.com/es/docs/workfront/using/home" target="_blank">Workfront Classic dejará de usarse en marzo de 2022</a> y, poco después, finalizará la vida útil de Workfront Classic en julio de 2022).</p> </li> 
     </ul> </td> 
   </tr> 
   <tr>
@@ -298,7 +304,7 @@ Estas mejoras se incorporaron en el entorno de producción la semana del 11 de j
                         <a href="/help/quicksilver/product-announcements/product-releases/22.3-release-activity/22-3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Campañas de Workfront (Beta)</a> </p>
                         <p>Presentamos un nuevo objeto en Adobe Workfront que tiene el potencial de cambiar la forma en que administra el trabajo. </p>
                         <p>Workfront Campaigns permite organizar proyectos de diferentes portafolios y programas en un nuevo contenedor de trabajo.
-Las campañas se lanzaron a la versión beta en vista previa con la versión 22.3 en julio de 2022. Para más información, consulte <a href="../../../product-announcements/product-releases/22.3-release-activity/22-3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Mejoras de proyecto en 22.3</a> </p>
+Las campañas se lanzaron a la versión preliminar beta con la versión 22.3 en julio de 2022. Para obtener más información, vea <a href="../../../product-announcements/product-releases/22.3-release-activity/22-3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">22.3 Mejoras en el proyecto</a> </p>
 <p>Este nuevo contenedor evolucionará en futuras versiones para conectar objetos de trabajo que actualmente se administran en silos independientes.</p>
 
 </td>
@@ -421,7 +427,7 @@ Las campañas se lanzaron a la versión beta en vista previa con la versión 22.
  <col> 
  <tbody> 
   <tr> 
-   <td> <p><strong>Característica</strong> </p> </td> 
+   <td> <p><strong>Función</strong> </p> </td> 
    <td> <p><strong>Entornos y fechas de lanzamiento</strong> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -532,7 +538,7 @@ Para obtener información sobre novedades y actualizaciones, consulte [Novedades
 
 Para obtener información sobre las versiones de API, consulte [Versiones de API y programación de soporte](../../../wf-api/api/api-version-support-schedule.md).
 
-## Actualizaciones de mantenimiento de Workfront 
+## Actualizaciones de mantenimiento de Workfront
 
 Para obtener información acerca de las actualizaciones de mantenimiento realizadas durante la versión 22.3, consulte [Actualizaciones de mantenimiento de Workfront](https://experienceleague.adobe.com/es/docs/workfront-known-issues/releases/current-updates).
 

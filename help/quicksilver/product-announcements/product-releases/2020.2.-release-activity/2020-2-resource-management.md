@@ -1,16 +1,22 @@
 ---
 content-type: release-notes
 navigation-topic: 2020-2-release-activity
-title: 'Mejoras en la administración de recursos de 2020.2: Distribuidor de cargas de trabajo'
+title: 'Mejoras en la administración de recursos de la versión 2020.2: equilibrador de carga'
 description: Esta página describe todas las mejoras de Administración de recursos realizadas con la versión 2020.2 en el entorno de producción. Estas mejoras estaban disponibles en el entorno de producción en la semana del 11 de mayo de 2020.
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 00cc1205-5d58-485b-8076-e177f1d931f9
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+TQID: https://experienceleague.adobe.com/QAgsK1-saTn4aaPn81bazNS4J2eyvAGP8C6ndMGLY7A
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87effid: c33d85a1-be85-4290-854c-87408c10aa80
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1741'
-ht-degree: 42%
+source-wordcount: 1814
+ht-degree: 45%
 
 ---
 
@@ -97,7 +103,7 @@ Para obtener información sobre cómo ver la información en el Distribuidor de 
 * Adobe Workfront Classic
 * La nueva experiencia de Adobe Workfront
 
-## Uso compartido del Distribuidor de cargas de trabajo con un vínculo
+## Compartir el equilibrador de carga con un vínculo
 
 Ahora puede compartir la carga de trabajo de sus empleados con los ejecutivos para que puedan tener contexto sobre sus necesidades de personal. Para ello, ahora puede compartir el Distribuidor de cargas de trabajo compartiendo una URL única del Distribuidor de cargas de trabajo con cualquier otra persona.
 
@@ -121,7 +127,7 @@ Para obtener información sobre cómo navegar por el Distribuidor de cargas de t
 * Adobe Workfront Classic
 * La nueva experiencia de Adobe Workfront (disponible anteriormente)
 
-## Mover y copiar tareas a otro proyecto, mantiene la restricción de tareas cuando estas pueden ajustarse a la línea de tiempo del proyecto
+## Mover y copiar tareas a otro proyecto, mantiene la restricción de tareas cuando estas pueden ajustarse a la cronología del proyecto
 
 Hemos mejorado la forma en que Workfront gestiona la restricción de fecha específica de una tarea al copiarla o moverla a otro proyecto. Algunos ejemplos de restricciones de tareas específicas de fecha son Debe iniciarse el, Debe finalizarse el, Fechas fijas, No iniciar después del, etc.
 
@@ -142,7 +148,7 @@ Para obtener una descripción general de todas las restricciones de tarea, consu
 
 ## Prevención de la pérdida de datos al realizar cambios en la pestaña Detalles o en una lista de tareas
 
-Para evitar la pérdida de datos al actualizar la información en la página Detalles de un objeto o las tareas de una lista de tareas en el nivel de proyecto cuando se guardan los cambios manualmente, ahora se muestra un mensaje de advertencia para avisarle de que tiene cambios sin guardar antes de intentar editar la información del encabezado. Las únicas acciones permitidas antes de guardar los cambios son la suscripción o la adición del objeto a los favoritos.
+Para evitar la pérdida de datos al actualizar la información en la página Detalles de un objeto o las tareas de una lista de tareas en el nivel de proyecto cuando se guardan los cambios manualmente, ahora se muestra un mensaje de advertencia para avisarle de que tiene cambios no guardados antes de intentar editar la información del encabezado. Las únicas acciones permitidas antes de guardar los cambios son la suscripción o la adición del objeto a los favoritos.
 
 Para obtener información sobre la edición de tareas en una lista, consulte [Editar tareas en una lista](../../../manage-work/tasks/manage-tasks/edit-tasks-in-a-list.md)
 

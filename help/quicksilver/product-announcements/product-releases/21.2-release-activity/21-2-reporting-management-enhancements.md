@@ -2,20 +2,26 @@
 content-type: release-notes
 keywords: notas,trimestral,actualizar,versión
 navigation-topic: 2021-2-release-activity
-title: 21. 2 Mejoras en los informes
+title: ​21. 2 Mejoras en los informes
 description: Esta página describe todas las mejoras de creación de informes realizadas con la versión 21.2 en el entorno de vista previa. Estas mejoras estarán disponibles en el entorno de producción la semana del 10 de mayo de 2021. Para obtener una lista de todos los cambios disponibles con la versión 21.2, consulte Información general sobre la versión 21.2.
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 1d5f76ef-bea7-4630-8051-454b0d109341
-source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
+TQID: https://experienceleague.adobe.com/-fD0kFEB6ka8-DojDCkBnveHBncaLh3ppK0DIe9-vus
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2: id: ce22a157-dd2c-405f-b740-c2f204bb4c1aid: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '551'
-ht-degree: 94%
+source-wordcount: 560
+ht-degree: 95%
 
 ---
 
-# 21. 2 Mejoras en los informes
+# &#x200B;21. 2 Mejoras en los informes
 
 Esta página describe todas las mejoras de creación de informes realizadas con la versión 21.2 en el entorno de vista previa. Estas mejoras estarán disponibles en el entorno de producción la semana del 10 de mayo de 2021. Para obtener una lista de todos los cambios disponibles con la versión 21.2, consulte [Información general sobre la versión 21.2](../../../product-announcements/product-releases/21.2-release-activity/21-2-release-overview.md).
 

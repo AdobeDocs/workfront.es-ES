@@ -6,9 +6,12 @@ description: Con la versión 20.3 (prevista para agosto de 2020), Adobe Workfron
 author: Luke
 feature: Product Announcements
 exl-id: 73abd185-81c6-43fc-b8b0-cad14d15b348
-source-git-commit: 31e5f5e039e25fa25f3038c23ee579ba1f830bb7
+TQID: https://experienceleague.adobe.com/q3IdES8LZlJDDBjUqTkHmWqjtVdMV-w80o7wC-uRSXg
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '300'
+source-wordcount: 306
 ht-degree: 92%
 
 ---
@@ -29,4 +32,4 @@ La opción resaltada en esta captura de pantalla cambiará automáticamente para
 
 Si tiene configurado un servidor SMTP de correo electrónico personalizado, **le recomendamos encarecidamente que se ponga en contacto con su equipo de TI** para asegurarse de que los correos electrónicos de notifications@my.workfront.com no son bloqueados al entrar en su sistema. También puede consultar Configurar el cortafuegos para obtener más información sobre las direcciones IP de las que proceden nuestro tráfico y correo electrónico.
 
-Si tiene alguna pregunta o inquietud, contacte con el [Equipo de Soporte de Workfront](https://experienceleague.adobe.com/es?support-tab=home&lang=es#support).
+Si tiene alguna pregunta o inquietud, contacte con el [Equipo de Soporte de Workfront](https://experienceleague.adobe.com/?support-tab=home&lang=es#support).

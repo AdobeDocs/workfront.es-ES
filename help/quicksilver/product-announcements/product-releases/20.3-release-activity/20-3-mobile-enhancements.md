@@ -7,10 +7,15 @@ author: Luke
 feature: Product Announcements, Workfront Integrations and Apps
 recommendations: noDisplay, noCatalog
 exl-id: 891be3ab-ba65-406e-a90c-d7a9db8310e3
-source-git-commit: cb38223c4dd8048fd2ab105abce2c9a79b84c43f
+TQID: https://experienceleague.adobe.com/tV8tsEkumdgpfAcO-UWwOd8BkSf9LZDqmKq44fL3WsA
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: c18d9e03-ac7d-4811-9c92-3e92ddc70ade
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '310'
-ht-degree: 99%
+source-wordcount: 329
+ht-degree: 85%
 
 ---
 
@@ -24,9 +29,9 @@ Para obtener una lista de todos los cambios disponibles con la versión 20.3, co
 
 Workfront ha adquirido recientemente tecnología para una generación completamente nueva de Workfront Fusion, la potente plataforma de integración que permite que el trabajo fluya libremente a través de prácticamente cualquier aplicación basada en web.
 
-Los clientes anteriores de Workfront Fusion pueden esperar una mayor potencia, velocidad, facilidad de uso y previsibilidad en Workfront Fusion 2.0. Estamos en proceso de migrar los clientes actuales de Workfront Fusion a Workfront Fusion 2.0. Póngase en contacto con su administrador de cuentas para obtener más detalles.
+Los clientes anteriores de Workfront Fusion pueden esperar una mayor potencia, velocidad, facilidad de uso y previsibilidad en Workfront Fusion 2.0. Estamos migrando a los clientes actuales de Workfront Fusion a Workfront Fusion 2.0. Póngase en contacto con su administrador de cuentas para obtener más información.
 
-Para obtener más información, consulte [Adobe Workfront Fusion](https://experienceleague.adobe.com/es/docs/workfront-fusion/using/home).
+Para obtener más información, consulte [Adobe Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/home).
 
 ## Presentación de Workfront para MobileIron
 

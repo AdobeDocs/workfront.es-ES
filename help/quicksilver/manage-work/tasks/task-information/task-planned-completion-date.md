@@ -7,9 +7,15 @@ description: La fecha planificada de finalización de una tarea es la fecha en l
 author: Alina
 feature: Work Management
 exl-id: b0522db5-9c68-4b1a-82c8-5a9e613eb2ff
-source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
+TQID: https://experienceleague.adobe.com/wzIsNsuGQcxPO78TcEzCz8juaIeUp7MNbjIMG7-5e8w
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87effid: b91c0848-76c4-4da4-8b81-3aade0518dd0id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '786'
+source-wordcount: 789
 ht-degree: 73%
 
 ---
@@ -31,7 +37,7 @@ Las Fechas planificadas de finalización de las tareas de un proyecto determinan
 >   * [Información general sobre la fecha de confirmación](../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md)
 >   * [Interacciones entre la fecha de confirmación y la fecha planificada de finalización](../../../manage-work/projects/updating-work-in-a-project/interactions-between-commit-and-planned-completion-dates.md).
 >
->* La fecha proyectada de finalización es una fecha calculada por Workfront que tiene en cuenta los retrasos de las tareas, las líneas de tiempo de la tarea o de sus predecesoras y otros factores para determinar una fecha real en la que se pueda completar la tarea de forma realista. Para obtener más información, consulte [Información general sobre la fecha proyectada de finalización para proyectos, tareas y problemas](../../../manage-work/projects/planning-a-project/project-projected-completion-date.md).
+>* La fecha proyectada de finalización es una fecha calculada por Workfront que tiene en cuenta los retrasos de las tareas, las cronologías de la tarea o de sus predecesoras y otros factores para determinar una fecha real en la que se pueda completar la tarea de forma realista. Para obtener más información, consulte [Información general sobre la fecha proyectada de finalización para proyectos, tareas y problemas](../../../manage-work/projects/planning-a-project/project-projected-completion-date.md).
 >
 
 ## No se puede cambiar establecer la fecha planificada de finalización de una tarea

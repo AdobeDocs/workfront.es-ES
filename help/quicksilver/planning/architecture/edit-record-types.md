@@ -6,15 +6,20 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7d6de742-9657-4286-968c-1fc78ebbb94e
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 31aff197d6af521df2258f3f99fea6fb5785b9e3
+TQID: https://experienceleague.adobe.com/PNC5GvQItDhcmQ0TSup8vbJJ3uWn2k-v-lKBZJBhakw
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '604'
-ht-degree: 31%
+source-wordcount: 611
+ht-degree: 32%
 
 ---
-
 
 # Editar tipos de registro
 
@@ -150,7 +155,7 @@ Old:
    Se abre la página del espacio de trabajo y se muestran los tipos de registro.
 1. Realice una de las siguientes acciones:
 
-   * Pase el ratón sobre la tarjeta de un tipo de registro y haga clic en el menú **Más** ![Menú más](assets/more-menu.png) en la esquina superior derecha de la tarjeta de tipo de registro; a continuación, haga clic en **Editar** o en **Configuración**
+   * Pase el ratón sobre la tarjeta de un tipo de registro y haga clic en el menú **Más** ![Menú más](assets/more-menu.png) en la esquina superior derecha de la tarjeta de tipo de registro; a continuación, haga clic en **Editar** o **Configuración**
 O
    * Haga clic en una tarjeta de tipo de registro para abrir la página de tipo de registro, haga clic en el menú **Más** ![Menú más](assets/more-menu.png) a la derecha del nombre del tipo de registro y, a continuación, haga clic en **Editar** o en **Configuración**.
 
@@ -158,14 +163,14 @@ O
 
 1. En el cuadro **Editar tipo de registro**, la ficha **Apariencia** se abre de forma predeterminada.
 
-   ![Editar ficha de apariencia del cuadro de tipo de registro &#x200B;](assets/edit-record-type-box-appearance-tab.png)
+   ![Editar ficha de apariencia del cuadro de tipo de registro ](assets/edit-record-type-box-appearance-tab.png)
 
    Actualice la siguiente información en la ficha **Apariencia**:
 
    * Edite el nombre del tipo de registro, si es necesario. <!--did they add a field label for this?-->
    * **Descripción**: edite o añada una descripción para el tipo de registro con más información al respecto.
    * Edite el color y la forma del icono asociado al tipo de registro. Haga lo siguiente:
-      * Seleccione un color para identificar el tipo de registro. Es el color del icono de tipo de registro.
+      * Seleccione un color para identificar el tipo de registro. Este es el color del icono de tipo de registro.
       * Seleccione un icono de la lista o empiece a escribir el nombre de un icono para describir lo que representa y, a continuación, selecciónelo cuando se muestre. Este es el icono del tipo de registro. De forma predeterminada, se selecciona un icono de archivo.
 
 1. (Opcional y condicional) Si es administrador del sistema, haga clic en la ficha **Configuración del área de trabajo cruzada** y actualice la información sobre las capacidades del área de trabajo cruzada del tipo de registro.

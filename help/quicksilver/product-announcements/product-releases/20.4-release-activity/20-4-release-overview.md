@@ -7,9 +7,15 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7cf7f6ed-fe85-4c86-bb4b-dd93197338cf
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+TQID: https://experienceleague.adobe.com/da7NZ9tWFrk32NgR4lTjS0LAVpzf1qGoJza4AEnaOSk
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2: id: b18b693b-6d59-4359-95fd-a386b7a615feid: c33d85a1-be85-4290-854c-87408c10aa80id: d3382524-5489-431b-bde9-271ab257bc37id: d87de1f9-8e24-4c4d-aa4c-a403075091a1id: fceb5125-bb41-419a-b0db-31958cb42f6c
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c18d9e03-ac7d-4811-9c92-3e92ddc70adeid: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '3695'
+source-wordcount: 3852
 ht-degree: 99%
 
 ---
@@ -220,7 +226,7 @@ Esta página proporciona información sobre la funcionalidad tanto para Adobe Wo
    <td> <p><strong>Entornos y fechas de lanzamiento</strong> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/20.4-release-activity/20-4-proof-enhancements.md#carry" class="MCXref xref" xrefformat="{para}">Arrastre el flujo de trabajo de prueba existente al generar una nueva versión</a> </p> <p>Ahora, el flujo de trabajo de revisión existente se transfiere a cualquier versión nueva que cree, independientemente del método en el que se genere.</p> <p>Anteriormente, había una ligera diferencia en la forma en que se transfería el flujo de trabajo de la revisión según el lugar donde se generaba en Workfront.</p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/20.4-release-activity/20-4-proof-enhancements.md#carry" class="MCXref xref" xrefformat="{para}">Arrastre el flujo de trabajo de revisión existente al generar una nueva versión</a> </p> <p>Ahora, el flujo de trabajo de revisión existente se transfiere a cualquier versión nueva que cree, independientemente del método en el que se genere.</p> <p>Anteriormente, había una ligera diferencia en la forma en que se transfería el flujo de trabajo de la revisión según el lugar donde se generaba en Workfront.</p> </td> 
    <td><strong>Disponible en estas fechas:</strong> <p>Versión preliminar beta: 8 de octubre de 2020</p> <p>Versión de producción: con la versión de 20.4 <span class="uitext" style="color: #dc143c;">(pospuesta a marzo de 2021)</span></p> <p><strong>Disponible en estos entornos:</strong> </p> <p>La nueva experiencia de Adobe Workfront </p> <p>Adobe Workfront Classic </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -310,7 +316,7 @@ This section will be updated with more information prior to the 20.4 release bei
 </MadCap:conditionalText>
 -->
 
-Para obtener más información sobre novedades y actualizaciones, consulte [Novedades de la versión 12 de la API](https://experienceleague.adobe.com/es/docs/workfront/using/adobe-workfront-api/api-notes/new-api-version-12).
+Para obtener más información sobre novedades y actualizaciones, consulte [Novedades de la versión 12 de la API](https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-api/api-notes/new-api-version-12).
 
 Para obtener más información sobre las versiones de API, consulte [Versiones de API y programación de soporte](../../../wf-api/api/api-version-support-schedule.md)
 
@@ -320,7 +326,7 @@ Para obtener más información sobre las versiones de API, consulte [Versiones d
 
 .
 
-## Actualizaciones de mantenimiento de Workfront 
+## Actualizaciones de mantenimiento de Workfront
 
 Para obtener más información acerca de las actualizaciones de mantenimiento realizadas durante la versión 20.3, consulte [Actualizaciones de mantenimiento de Workfront](https://experience.workfront.com/s/article/Workfront-Maintenance-Updates-1882317350).
 
@@ -342,7 +348,7 @@ Todas las herramientas basadas en Flash se eliminarán de todos los productos el
 
 ### Seminario web sobre la versión 20.4 {#20-4-release-webinar}
 
-El seminario web sobre la versión 20.4 de Workfront se presentará el miércoles, 28 de octubre de 2020 a las 11:00 h EDT. Regístrese al seminario web [aquí](https://webinars.on24.com/workfront/204release?partnerref=CXnewsletter).
+El seminario web sobre la versión de Workfront 20.4 se presentará el miércoles 28 de octubre de 2020 a las 11:00 AM EDT. Regístrese al seminario web [aquí](https://webinars.on24.com/workfront/204release?partnerref=CXnewsletter).
 
 ### Cambio en la cadencia de la versión de vista previa {#change-in-preview-release-cadence}
 
@@ -363,4 +369,4 @@ Para obtener más información, consulte [Configurar la lista de permitidos del 
 
 Con Workfront One, descubrirá el contenido, los recursos y las noticias más importantes de Workfront: todo en un solo lugar, con un solo inicio de sesión. Hemos unificado los sitios de experiencia, comunidad y formación, para que le resulte más fácil encontrar lo que busca.
 
-[Más información sobre Workfront One](https://business.adobe.com/es/products/workfront.html).
+[Más información sobre Workfront One](https://business.adobe.com/products/workfront.html).

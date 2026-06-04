@@ -8,10 +8,14 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: af9c801f-ae40-439a-8749-ae8d178040ae
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+TQID: https://experienceleague.adobe.com/75UJsTlD3ZTmZV3owwnoIuPTP89VkL-zN2YRm2Vjq1U
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1053'
-ht-degree: 63%
+source-wordcount: 1131
+ht-degree: 66%
 
 ---
 
@@ -42,7 +46,7 @@ Para obtener más información, consulte los siguientes artículos:
 >
 >Disponible solo en la nueva experiencia de Adobe Workfront.
 
-A medida que incorporamos sus comentarios sobre la creación de solicitudes en la nueva experiencia de Workfront, hemos realizado varias mejoras en el nuevo flujo de trabajo de solicitudes. Estos incluyen:
+A medida que incorporamos sus comentarios sobre la creación de solicitudes en la nueva experiencia de Workfront, hemos realizado varias mejoras en el nuevo flujo de trabajo de solicitudes. Se incluyen:
 
 * Indique claramente con un icono Mostrar opciones que los campos para tipos de solicitud, grupos de temas y temas de colas son listas desplegables desde las que puede elegir una opción definida anteriormente.
 * Indique claramente con un icono &quot;x&quot; que una opción para Tipo de solicitud, Grupo de temas o Tema de cola se puede eliminar una vez seleccionada.
@@ -114,7 +118,7 @@ Esta característica ahora se incluye en [Aspectos básicos de colaborador para 
 
 Ahora, es posible compartir un vínculo a una cola de solicitudes, a un grupo de temas o a un tema de la cola cuando se crea una solicitud.
 
-Antes de enviar una nueva solicitud, puede copiar un vínculo a la cola de solicitudes, al grupo de temas o al tema de la cola de la solicitud y compartirlo con otros usuarios, o incrustarlo en un panel.
+Antes de enviar una nueva solicitud, puede copiar un vínculo a la cola de solicitudes, al grupo de temas o al tema de la cola de la solicitud y compartirlo con otros usuarios, o incrustarlo en un panel de control.
 
 Para obtener información sobre cómo compartir un vínculo a una cola de solicitudes al enviar una solicitud, consulte [Compartir un vínculo a una cola de solicitudes](../../../manage-work/requests/create-requests/share-link-to-request-queue.md).
 

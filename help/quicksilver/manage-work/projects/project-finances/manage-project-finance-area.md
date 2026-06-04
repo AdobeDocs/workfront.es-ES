@@ -6,10 +6,16 @@ description: Puede ver o editar la información financiera de un proyecto accedi
 author: Lisa
 feature: Work Management
 exl-id: 147f5d55-a827-4cca-9ab0-afb03a4bcd5a
-source-git-commit: e974adc053a076a4370aa0c4ec41fea700d836be
+TQID: https://experienceleague.adobe.com/ax957eBrqej3uH8M4mZkSuY-heCNGWTiiwbBZTcH7VE
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1277'
-ht-degree: 86%
+source-wordcount: 1282
+ht-degree: 82%
 
 ---
 
@@ -64,7 +70,7 @@ Tenga en cuenta lo siguiente cuando visualice o edite información en el área F
 
 ## Ver información financiera de un proyecto
 
-1. Vaya a un proyecto. 
+1. Vaya a un proyecto.
 1. Haga clic en **Detalles del proyecto** en el panel izquierdo.
 1. Haga clic en el icono **Editar** ![Editar icono](assets/edit-icon.png) en la esquina superior derecha de la sección Detalles y, a continuación, haga clic en **Finanzas**.
 
@@ -86,7 +92,7 @@ Tenga en cuenta lo siguiente cuando visualice o edite información en el área F
      </tr> 
      <tr> 
       <td role="rowheader">CPI/SPI/CSI</td> 
-      <td> <p>Son métricas de rendimiento del proyecto que muestran el rendimiento del proyecto en un momento determinado. Sus valores se calculan según el método de índice de rendimiento.<br>Para obtener más información, consulte los artículos siguientes: </p> 
+      <td> <p>Son métricas de rendimiento del proyecto que muestran el rendimiento del proyecto en un momento determinado. Sus valores se calculan según el método de índice de rendimiento.<br>Para obtener más información, vea los siguientes artículos: </p> 
        <ul> 
         <li> <p><a href="../../../manage-work/projects/project-finances/calculate-cpi.md" class="MCXref xref">Calcular el índice de rendimiento de costes (CPI)</a> </p> </li> 
         <li> <p><a href="../../../manage-work/projects/project-finances/calculate-spi.md" class="MCXref xref">Calcular índice de rendimiento de programación (SPI) </a> </p> </li> 
@@ -95,7 +101,7 @@ Tenga en cuenta lo siguiente cuando visualice o edite información en el área F
      </tr> 
      <tr> 
       <td role="rowheader">Estimar al finalizar</td> 
-      <td> Coste total proyectado del proyecto, representado en horas si el método de índice de rendimiento (PIM) se basa en horas y se representa en un valor de moneda, si el método de índice de rendimiento (PIM) se basa en costes.<br>Para obtener más información acerca del cálculo de la estimación al finalizar, consulte el artículo <a href="../../../manage-work/projects/project-finances/calculate-eac.md" class="MCXref xref">Calcular estimación al finalizar (EAC)</a></td> 
+      <td> Costo total proyectado del proyecto, representado en horas si el método de índice de rendimiento (PIM) se basa en horas y se representa en un valor de moneda, si el método de índice de rendimiento (PIM) se basa en costos.<br>Para obtener más información acerca de cómo calcular la estimación al finalizar, vea el artículo <a href="../../../manage-work/projects/project-finances/calculate-eac.md" class="MCXref xref">Calcular estimación al finalizar (EAC)</a></td> 
      </tr> 
      <tr> 
       <td role="rowheader">Presupuesto</td> 

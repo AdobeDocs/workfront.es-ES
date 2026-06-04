@@ -8,9 +8,15 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 1affe1ae-571e-4026-8ba7-8ce7104e1b89
-source-git-commit: 552e97c427e618f299b55a2eab5868c7b90a4156
+TQID: https://experienceleague.adobe.com/R3wSSgj2kfPhGFa2qga9vWBdk0HKouiIDjXP7QzeLUc
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: e14a7f57-c82c-4874-a495-5d036cbbdc3did: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2: id: b91c0848-76c4-4da4-8b81-3aade0518dd0id: c10f2e93-7a58-4212-aa24-684c265ebe76id: c33d85a1-be85-4290-854c-87408c10aa80id: c3a155b4-a54b-4a82-a3d2-c8f0f971673eid: d1573eb8-a2e8-4a06-9526-9c3410bf4914id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '5545'
+source-wordcount: 5714
 ht-degree: 99%
 
 ---
@@ -244,7 +250,7 @@ For specific release dates and times for each cluster, see the
    <td><strong>Disponible en estas fechas:</strong> <p>Versión preliminar beta: 13 de enero de 2021 </p> <p>Versión de producción: con la versión de 21.2 <span class="uitext" style="color: #dc143c;"> (originalmente planeada para la versión de 21.1, pero trasladada a 21.2)</span></p> <p><strong>Disponible en estos entornos:</strong> </p> <p>La nueva experiencia de Adobe Workfront </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/21.2-release-activity/21-2-requests-enhancements.md#share" class="MCXref xref" xrefformat="{para}">Compartir un vínculo a una cola de solicitudes al enviar una solicitud</a> </p> <p>Ahora, es posible compartir un vínculo a una cola de solicitudes, a un grupo de temas o a un tema de la cola cuando se crea una solicitud.</p> <p>Antes de enviar una nueva solicitud, puede copiar un vínculo a la cola de solicitudes, al grupo de temas o al tema de la cola de la solicitud y compartirlo con otros usuarios, o incrustarlo en un panel.</p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/21.2-release-activity/21-2-requests-enhancements.md#share" class="MCXref xref" xrefformat="{para}">Compartir un vínculo a una cola de solicitudes al enviar una solicitud</a> </p> <p>Ahora, es posible compartir un vínculo a una cola de solicitudes, a un grupo de temas o a un tema de la cola cuando se crea una solicitud.</p> <p>Antes de enviar una nueva solicitud, puede copiar un vínculo a la cola de solicitudes, al grupo de temas o al tema de la cola de la solicitud y compartirlo con otros usuarios, o incrustarlo en un panel de control.</p> </td> 
    <td><strong>Disponible en estas fechas:</strong> <p>Versión preliminar beta: 13 de enero de 2021</p> <p>Versión de producción: con la versión de 21.2 <span class="uitext" style="color: #dc143c;"> (originalmente planeada para la versión de 21.1, pero trasladada a 21.2)</span></p> <p><strong>Disponible en estos entornos:</strong> </p> <p>La nueva experiencia de Adobe Workfront </p> </td> 
   </tr> 
  </tbody> 
@@ -408,7 +414,7 @@ For specific release dates and times for each cluster, see the
  <col> 
  <tbody> 
   <tr> 
-   <td> <p><strong>Característica</strong> </p> </td> 
+   <td> <p><strong>Función</strong> </p> </td> 
    <td> <p><strong>Entornos y fechas de lanzamiento</strong> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -460,7 +466,7 @@ El 11 de marzo de 2021, Workfront lanzó un cambio en los flujos de trabajo de r
 
 En la nueva experiencia de Workfront después de eliminar este cambio, las pruebas creadas con la selección de prueba simple no incluirán ninguna configuración de revisión preestablecida y las nuevas versiones no transferirán los flujos de trabajo o la configuración de revisión existentes. Un usuario puede ajustar la configuración después de generar la prueba.
 
-En Workfront Classic, una vez eliminado este cambio, la opción para generar una prueba no incluirá ninguna configuración de revisión preestablecida y las nuevas versiones no transferirán los flujos de trabajo ni la configuración de revisión existentes.  Un usuario puede ajustar la configuración después de generar la prueba.
+En Workfront Classic, una vez eliminado este cambio, la opción para generar una prueba no incluirá ninguna configuración de revisión preestablecida y las nuevas versiones no transferirán los flujos de trabajo ni la configuración de revisión existentes. Un usuario puede ajustar la configuración después de generar la prueba.
 
 En el futuro, se podría añadir una funcionalidad similar para copiar fácilmente los flujos de trabajo existentes a Producción.
 

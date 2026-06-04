@@ -8,11 +8,17 @@ feature: Work Management
 topic: Collaboration
 role: User
 exl-id: 1449374a-ab0d-4c98-83cd-4e511467633a
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/0tSNZpFA8qe7ppqE-TX6ap9VosvRGGYRSrTif7K8H-k
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87effid: d87de1f9-8e24-4c4d-aa4c-a403075091a1id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '2532'
+source-wordcount: 2549
 ht-degree: 26%
 
 ---
@@ -66,7 +72,7 @@ Puede editar un solo problema o editar problemas de una lista. Para obtener info
    <li>Estado</li>
    <li>Gravedad</li>
    </ul>
-   <p>Administre los permisos de un problema para editar todos los campos del área de Detalles o del cuadro Editar problema</p> <p> Para obtener información sobre la concesión de permisos a los problemas, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">Compartir un problema </a></p> <p>Para obtener información sobre cómo solicitar permisos adicionales, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acceso a objetos </a>.</p> </td> 
+   <p>Administre los permisos de un problema para editar todos los campos del área de Detalles o del cuadro Editar problema</p> <p> Para obtener información sobre la concesión de permisos a los problemas, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">Compartir un problema </a></p> <p>Para obtener información sobre cómo solicitar permisos adicionales, vea <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acceso a los objetos </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -268,7 +274,7 @@ Puede editar un problema mediante las áreas Editar problema o Detalles del prob
      </tr> 
      <tr> 
       <td role="rowheader">Contacto primario</td> 
-      <td>De forma predeterminada, el autor del problema es el contacto principal. Para modificar esto, empiece a escribir el nombre de cualquier usuario activo en Workfront y, a continuación, selecciónelo en la lista. Un problema solo puede tener un contacto principal.<br> Si cambia el Contacto principal, el contacto principal original seguirá teniendo acceso de administración al problema. Cuando comparta un problema, debe quitar manualmente este acceso del cuadro Acceso a problemas.
+      <td>De forma predeterminada, el autor del problema es el contacto principal. Para modificar esto, empiece a escribir el nombre de cualquier usuario activo en Workfront y, a continuación, selecciónelo en la lista. Un problema solo puede tener un contacto principal.<br> Si cambia el contacto principal, el contacto principal original seguirá teniendo acceso de administración al problema. Cuando comparta un problema, debe quitar manualmente este acceso del cuadro Acceso a problemas.
 
    <b>SUGERENCIA</b>
 
@@ -428,7 +434,7 @@ Puede editar un problema mediante las áreas Editar problema o Detalles del prob
       <td role="rowheader">Proceso de aprobación</td> 
       <td> 
        <div> 
-       <p>Seleccione un proceso de aprobación que desee asociar con el problema. El administrador de Workfront debe definir los procesos de aprobación en el nivel de sistema para poder asociarlos a problemas. Los usuarios con acceso administrativo a los procesos de aprobación <span> también pueden crear procesos de aprobación específicos del grupo.</span>Para obtener más información acerca de cómo crear procesos de aprobación, vea <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md" class="MCXref xref">Crear un proceso de aprobación para elementos de trabajo</a>. </p> 
+       <p>Seleccione un proceso de aprobación que desee asociar con el problema. El administrador de Workfront debe definir los procesos de aprobación en el nivel de sistema para poder asociarlos a problemas. Los usuarios con acceso administrativo a los procesos de aprobación <span> también pueden crear procesos de aprobación específicos del grupo.</span>Para obtener más información sobre cómo crear procesos de aprobación, consulte <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md" class="MCXref xref">Crear un proceso de aprobación para elementos de trabajo</a>. </p> 
        <p>Tenga en cuenta lo siguiente a la hora de añadir procesos de aprobación: </p> 
        <ul> 
        <li>En la lista solo se muestran los procesos de aprobación activos. </li> 

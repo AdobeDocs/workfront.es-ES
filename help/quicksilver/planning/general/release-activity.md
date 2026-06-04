@@ -6,13 +6,18 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 96028446d76f32daf512adf77d3b1c53021821ec
+TQID: https://experienceleague.adobe.com/WBBBWQN-XQSWhJMNOqhp2v7Ne2TlEQYXng6WiXbvlDg
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: d87de1f9-8e24-4c4d-aa4c-a403075091a1id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '7392'
-ht-degree: 9%
+source-wordcount: 7679
+ht-degree: 10%
 
 ---
-
 
 # Actividad de la versión de Adobe Workfront Planning para 2024
 
@@ -188,7 +193,7 @@ Para obtener más información sobre el Asistente de IA de Workfront Planning, c
 
 Vista previa y producción: jueves, 28 de agosto de 2024
 
-Ahora puede ver la información de Workfront Planning en un informe mediante el panel de lienzo de Workfront. Para obtener más información, consulte [Información general sobre paneles de lienzo](/help/quicksilver/reports-and-dashboards/canvas-dashboards/canvas-dashboards-overview.md).
+Ahora puede ver la información de Workfront Planning en un informe mediante el panel de lienzo de Workfront. Para obtener más información, consulte [Información general sobre los paneles de lienzo](/help/quicksilver/reports-and-dashboards/canvas-dashboards/canvas-dashboards-overview.md).
 
 ## Semana del martes, 19 de agosto de 2024
 
@@ -238,7 +243,7 @@ No es una jerarquía real (ningún objeto es superior a otro). Es una jerarquía
 
 Puede mostrar hasta 5 niveles de tipos de registros en la misma escala de tiempo para un registro.
 
-Para obtener más información, consulte [Administrar la vista de línea de tiempo](/help/quicksilver/planning/views/manage-the-timeline-view.md).
+Para obtener más información, consulte [Administrar la vista de cronología](/help/quicksilver/planning/views/manage-the-timeline-view.md).
 
 ### Nueva pestaña Conexiones en el área de detalles del registro
 
@@ -324,7 +329,7 @@ Vista previa: por determinar
 
 Ahora, cuando abre una vista de escala de tiempo y se desplaza a una fecha del pasado o del futuro, la fecha que seleccione se conserva después de actualizar la página. Antes de esta mejora, la página mostraba la fecha de hoy.
 
-Para obtener más información, consulte [Administrar la vista de línea de tiempo](/help/quicksilver/planning/views/manage-the-timeline-view.md).
+Para obtener más información, consulte [Administrar la vista de cronología](/help/quicksilver/planning/views/manage-the-timeline-view.md).
 
 ## Semana del martes, 29 de julio de 2024
 
@@ -800,7 +805,7 @@ Producción: jueves, 08 de mayo de 2024
 
 Vista previa: pendiente de determinación
 
-Si es cliente de Adobe Unified Experience y alguien le agrega a un comentario en la página de registro, recibirá una notificación sobre el comentario en la aplicación y por correo electrónico. Puede administrar las preferencias de notificación en el área Preferencias del perfil de Adobe Experience Cloud. Para obtener más información, consulte [Preferencias y notificaciones de la cuenta](https://experienceleague.adobe.com/es/docs/core-services/interface/features/account-preferences).
+Si es cliente de Adobe Unified Experience y alguien le agrega a un comentario en la página de registro, recibirá una notificación sobre el comentario en la aplicación y por correo electrónico. Puede administrar sus preferencias de notificación en el área Preferencias del perfil de Adobe Experience Cloud. Para obtener más información, consulte [Preferencias y notificaciones de la cuenta](https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences).
 
 Para obtener más información acerca de las notificaciones de planificación de Workfront, vea [Notificaciones de planificación de Adobe Workfront: Índice de artículos](/help/quicksilver/planning/notifications/notifications-information.md).
 

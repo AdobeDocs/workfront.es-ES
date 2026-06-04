@@ -6,11 +6,17 @@ description: Puede editar la información de los portafolios que ha creado o que
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 0a2e18c3-1722-4fc6-8442-19e80eca9d47
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/A59Xi2g75iLxj93L3xk4saeZn1C6TlbFj5q-9n0RSc4
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: d87de1f9-8e24-4c4d-aa4c-a403075091a1id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1080'
+source-wordcount: 1084
 ht-degree: 65%
 
 ---
@@ -50,7 +56,7 @@ Puede editar un portafolio en la página del portafolio o editar portafolios en 
   </tr> 
   <tr> 
    <td role="rowheader">Nivel de acceso</td> 
-   <td> <p>Acceso de [!UICONTROL Edit] a portafolios de </p>  </td> 
+   <td> <p>Acceso de [!UICONTROL Edit] a portafolios de [!UICONTROL]</p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permisos de objeto</td> 
@@ -193,7 +199,7 @@ Old:
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Portfolio Manager]</td> 
-      <td> <p>Comience a escribir el nombre de un usuario que desee indicar como administrador del portafolio y, a continuación, selecciónelo cuando aparezca en la lista. Es igual que el [!UICONTROL Portfolio Owner].  Es la persona que puede supervisar el trabajo definido en los proyectos del portafolio y aprobar el caso empresarial.</p> <p>Importante: cuando se designa a alguien como administrador del portafolio, obtiene automáticamente permisos de [!UICONTROL Manage] para el portafolio, los programas y los proyectos del portafolio. </p> <p>Sugerencia: puede actualizar rápidamente el administrador del portafolio en el encabezado del portafolio. </p> </td> 
+      <td> <p>Comience a escribir el nombre de un usuario que desee indicar como administrador del portafolio y, a continuación, selecciónelo cuando aparezca en la lista. Es igual que el [!UICONTROL Portfolio Owner]. Es la persona que puede supervisar el trabajo definido en los proyectos del portafolio y aprobar el caso empresarial.</p> <p>Importante: cuando se designa a alguien como administrador del portafolio, obtiene automáticamente permisos de [!UICONTROL Manage] para el portafolio, los programas y los proyectos del portafolio. </p> <p>Sugerencia: puede actualizar rápidamente el administrador del portafolio en el encabezado del portafolio. </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Group]</td> 

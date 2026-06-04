@@ -7,9 +7,15 @@ description: Puede encontrar la puntuación de Portfolio Optimizer en Portfolio 
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 4451b1a3-57ae-4c66-a6a1-a85bd51a1648
-source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
+TQID: https://experienceleague.adobe.com/-DZAndwU0-o1YameaYjT9Bbv3AKkTHtffvdYvjtJwLs
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+subfeature_v2: id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '737'
+source-wordcount: 737
 ht-degree: 8%
 
 ---
@@ -24,7 +30,7 @@ Para obtener información sobre cómo encontrar [!UICONTROL Portfolio Optimizer]
 
 Para obtener información sobre cómo [!DNL Adobe Workfront] usa la puntuación del proyecto y otra información del proyecto para optimizar proyectos en [!UICONTROL Portfolio Optimizer], consulte [Optimizar proyectos en Portfolio Optimizer](../../../manage-work/portfolios/portfolio-optimizer/optimize-projects-in-portfolio-optimizer.md).
 
-## Diferencia entre la puntuación de alineación [!UICONTROL 1&rbrace; y la puntuación de Portfolio Optimizer [!UICONTROL 3&rbrace;]]
+## Diferencia entre la puntuación de alineación [!UICONTROL 1} y la puntuación de Portfolio Optimizer [!UICONTROL 3}]]
 
 Hay una diferencia entre la puntuación de alineación y la puntuación del Optimizador de portafolios de un proyecto.
 

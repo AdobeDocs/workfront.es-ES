@@ -7,10 +7,16 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 88a97b1e-4052-485e-8566-963c6ba640b9
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+TQID: https://experienceleague.adobe.com/MlMOUocVtOKfZ2QF2LS3MbdihhOHIs-TErVOoeP-jeg
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2: id: c33d85a1-be85-4290-854c-87408c10aa80
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '2544'
-ht-degree: 51%
+source-wordcount: 2706
+ht-degree: 54%
 
 ---
 
@@ -205,7 +211,7 @@ Presentamos una experiencia de programación reinventada que le permite visualiz
  <col> 
  <tbody> 
   <tr> 
-   <td> <p><strong>Característica</strong> </p> </td> 
+   <td> <p><strong>Función</strong> </p> </td> 
    <td> <p><strong>Entornos y fechas de lanzamiento</strong> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -238,7 +244,7 @@ Presentamos una experiencia de programación reinventada que le permite visualiz
    <td> <p><strong>Disponible en estas fechas:</strong> </p> <p>Versión preliminar beta: 8 de abril de 2021</p> <p>Versión de producción: con la versión 2020.2</p> <p><strong>Disponible en estos entornos:</strong> </p> <p>La nueva experiencia de Adobe Workfront </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/2020.2.-release-activity/2020-2-other-enhancements.md#updates" class="MCXref xref" xrefformat="{para}">Actualizaciones de suscripciones a eventos</a> </p> <p>Para permitir que los usuarios clasifiquen, resuelvan problemas y resuelvan problemas mejor, hemos modificado el comportamiento y añadido más datos a la API de suscripciones a eventos. </p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/2020.2.-release-activity/2020-2-other-enhancements.md#updates" class="MCXref xref" xrefformat="{para}">Actualizaciones de suscripciones a eventos</a> </p> <p>Para que los usuarios puedan clasificar, solucionar y resolver mejor los problemas, hemos modificado el comportamiento y hemos añadido más datos a la API de suscripciones a eventos. </p> </td> 
    <td> <p><strong>Disponible en estas fechas:</strong> </p> <p>Versión de vista previa beta: sábado, 01 de mayo de 2020</p> <p>Versión de producción: sábado, 08 de mayo de 2020 </p> <p><strong>Disponible en estos entornos:</strong> </p> <p>La nueva experiencia de Adobe Workfront </p> <p>Adobe Workfront Classic </p> </td> 
   </tr> 
  </tbody> 
@@ -250,7 +256,7 @@ Versión 11 de la API incluida en la versión 2020.1. Para obtener información 
 
 Para obtener más información sobre las versiones de API, consulte [Versión de API y programación de soporte](../../../wf-api/api/api-version-support-schedule.md) [Versión de API y programación de soporte](https://experience.workfront.com/s/article/API-Version-Release-and-Support-Schedule-272875487?language=en_US&r=13&ui-comm-runtime-components-aura-components-siteforce-qb.Quarterback.validateRoute=1&ui-communities-components-aura-components-forceCommunity-breadcrumbs.Breadcrumbs.getAncestors=1&ui-communities-components-aura-components-forceCommunity-seoAssistant.SeoAssistant.getSeoData=1&ui-force-components-controllers-recordGlobalValueProvider.RecordGvp.getRecord=1&ui-self-service-components-controller.ArticleTopicList.getTopics=1&ui-self-service-components-controller.ArticleView.getArticleHeaderDetail=1).
 
-## Actualizaciones de mantenimiento de Workfront 
+## Actualizaciones de mantenimiento de Workfront
 
 Para obtener información sobre las actualizaciones de mantenimiento realizadas durante la versión 2020.1, consulte [Actualizaciones de mantenimiento de Workfront](https://experience.workfront.com/s/article/Workfront-Maintenance-Updates-1882317350).
 
@@ -282,7 +288,7 @@ Para obtener más información, consulte la sección [Configuración de la lista
 
 Con Workfront One, descubrirá el contenido, los recursos y las noticias más importantes de Workfront: todo en un solo lugar, con un solo inicio de sesión. Hemos unificado los sitios de experiencia, comunidad y formación, para que le resulte más fácil encontrar lo que busca.
 
-[Más información sobre Workfront One](https://business.adobe.com/es/products/workfront.html).
+[Más información sobre Workfront One](https://business.adobe.com/products/workfront.html).
 
 ### Seminario web sobre la versión 2020.1 {#2020-1-release-webinar}
 

@@ -7,10 +7,15 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 150bc838-d6a5-445a-af77-62c4ed74dd1b
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+TQID: https://experienceleague.adobe.com/eHXlWWa5b-t-g1m0E896PAbRA13VRZo12XPlccEaGgM
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '798'
-ht-degree: 99%
+source-wordcount: 837
+ht-degree: 100%
 
 ---
 
@@ -60,7 +65,7 @@ Anteriormente, después de que un usuario aplicaba un filtro, una vista o una ag
 * La nueva experiencia de Adobe Workfront
 * Adobe Workfront Classic
 
-## Mover y copiar tareas a otro proyecto, mantiene la restricción de tareas cuando estas pueden ajustarse a la línea de tiempo del proyecto
+## Mover y copiar tareas a otro proyecto, mantiene la restricción de tareas cuando estas pueden ajustarse a la cronología del proyecto
 
 Hemos mejorado la forma en que Workfront gestiona la restricción de fecha específica de una tarea al copiarla o moverla a otro proyecto. Algunos ejemplos de restricciones de tareas específicas de fecha son Debe iniciarse el, Debe finalizarse el, Fechas fijas, No iniciar después del, etc.
 
@@ -81,7 +86,7 @@ Para obtener una descripción general de todas las restricciones de tarea, consu
 
 ## Prevención de la pérdida de datos al realizar cambios en la pestaña Detalles o en una lista de tareas
 
-Para evitar la pérdida de datos al actualizar la información en la página Detalles de un objeto o las tareas de una lista de tareas en el nivel de proyecto cuando se guardan los cambios manualmente, ahora se muestra un mensaje de advertencia para avisarle de que tiene cambios sin guardar antes de intentar editar la información del encabezado. Las únicas acciones permitidas antes de guardar los cambios son la suscripción o la adición del objeto a los favoritos.
+Para evitar la pérdida de datos al actualizar la información en la página Detalles de un objeto o las tareas de una lista de tareas en el nivel de proyecto cuando se guardan los cambios manualmente, ahora se muestra un mensaje de advertencia para avisarle de que tiene cambios no guardados antes de intentar editar la información del encabezado. Las únicas acciones permitidas antes de guardar los cambios son la suscripción o la adición del objeto a los favoritos.
 
 Para obtener información sobre la edición de tareas en una lista, consulte [Editar tareas en una lista](../../../manage-work/tasks/manage-tasks/edit-tasks-in-a-list.md)
 

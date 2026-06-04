@@ -6,11 +6,17 @@ description: Puede editar las plantillas de proyecto para reflejar los cambios e
 author: Alina
 feature: Work Management
 exl-id: da0fca31-6a50-4862-ad9a-a453ef968773
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: ada25d0b7c359cfb258dfc4e68a628033e66562d
+TQID: https://experienceleague.adobe.com/36z25D3UWtmRwiOqdPOc3DCFXQcvSJHK2RvtuqFOvVU
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87effid: b91c0848-76c4-4da4-8b81-3aade0518dd0id: ce22a157-dd2c-405f-b740-c2f204bb4c1aid: d87de1f9-8e24-4c4d-aa4c-a403075091a1id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '5112'
+source-wordcount: 5111
 ht-degree: 83%
 
 ---
@@ -374,14 +380,14 @@ Old:
        <td role="rowheader"><strong>Modo de finalización de resumen</strong> </td> 
        <td> <p>Controla la manera en que las tareas principales del futuro proyecto se marcan como completas. <br>Seleccione entre las siguientes opciones:</p> 
        <ul> 
-       <li> <p><strong>Automático</strong>: las tareas principales se marcan como Completas y actualizan su porcentaje completado automáticamente, a medida que se completan las tareas secundarias y se actualiza el porcentaje completado de las tareas secundarias. </p> </li> 
+       <li> <p><strong>Automático</strong>: Las tareas principales se marcan como Completadas y actualizan su porcentaje completado automáticamente, a medida que se completan las tareas secundarias y se actualiza el porcentaje completado de las tareas secundarias. </p> </li> 
        <li> <p><strong>Manual</strong>: debe actualizar manualmente el porcentaje completado y el estado de las tareas principales, independientemente de los cambios que se realicen en las tareas secundarias. </p> </li> 
        </ul> </td> 
        </tr> 
        <tr> 
        <td role="rowheader"><strong>Tipo de actualización</strong> </td> 
        <td> <p>Controla cuándo se guardan en el proyecto los cambios realizados en la cronología del futuro proyecto. </p> 
-       <b>EJEMPLO </b> 
+       <b>EJEMPLO </b> 
        <p>Los siguientes cambios en el proyecto activan una actualización en la cronología del proyecto:</p> 
        <ul> 
        <li> <p>actualizar las fechas de las tareas</p> </li> 
@@ -464,7 +470,7 @@ Old:
       <li>En la lista solo se muestran los procesos de aprobación activos. </li> 
       <li> <p>Los procesos de aprobación de todo el sistema y específicos del grupo se muestran en la lista. Un proceso de aprobación asociado a un grupo que no sea el de la plantilla no se muestra en la lista.</p> <p><b>IMPORTANTE</b>
 
-   Si el grupo asociado a la plantilla cambia, el proceso de aprobación específico del grupo se convertirá en un proceso de aprobación de un solo uso. Para obtener más información acerca de cómo afectan los cambios en el grupo del proyecto o los cambios en el proceso de aprobación a la configuración de aprobación, consulte <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/how-changes-affect-group-approvals.md">Cómo afectan los cambios en el grupo y el proceso de aprobación a los procesos de aprobación asignados</a>. </p> </li>
+   Si el grupo asociado a la plantilla cambia, el proceso de aprobación específico del grupo se convertirá en un proceso de aprobación de un solo uso. Para obtener más información sobre cómo los cambios en el grupo del proyecto o los cambios en el proceso de aprobación afectan a la configuración de la aprobación, consulte <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/how-changes-affect-group-approvals.md">Cómo afectan los cambios en el grupo y el proceso de aprobación a los procesos de aprobación asignados</a>. </p> </li>
    <li> <p>Si ha añadido un proceso de aprobación de un solo uso, se mostrará como “Personalizado” en este campo. Para obtener más información, consulte <a href="../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md" class="MCXref xref">Asociar un proceso de aprobación nuevo o existente con el trabajo</a>. </p> 
       </li> 
       <li> <p>Cuando se editan plantillas de forma masiva, se dan los siguientes escenarios:</p> 

@@ -8,11 +8,17 @@ author: Alina
 feature: Work Management, Projects
 role: User
 exl-id: 6113bc62-18f2-4558-bc2f-986b1e7d1a83
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/VlZaPAR4m-l8J06i7vGB99HbRIJNTN2nBFhCvFy2aD0
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: d3382524-5489-431b-bde9-271ab257bc37id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1404'
+source-wordcount: 1382
 ht-degree: 82%
 
 ---
@@ -228,7 +234,7 @@ Old:
      </tr>
      <tr> 
       <td role="rowheader"><span>Duración de la iniciativa</span> </td> 
-      <td><span>La duración de la iniciativa correspondiente cuando el proyecto se vincula a una iniciativa. Este campo no se puede editar.</span> </td> 
+      <td><span>Duración de la iniciativa correspondiente cuando el proyecto está vinculado a una iniciativa. Este campo no se puede editar.</span> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><span>Última fecha de publicación</span> </td> 
@@ -236,7 +242,7 @@ Old:
      </tr> 
      <tr> 
       <td role="rowheader"><span>Fecha de inicio de la iniciativa</span> </td> 
-      <td><span>Primer día del mes de inicio de la iniciativa, cuando el proyecto se vincula a una iniciativa.</span> </td> 
+      <td><span>Primer día del mes de inicio de la iniciativa, cuando el proyecto está vinculado a una iniciativa.</span> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><span>Fecha de finalización de la iniciativa</span> </td> 

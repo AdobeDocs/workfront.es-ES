@@ -6,14 +6,20 @@ description: Este artículo describe las áreas del caso empresarial de un proye
 author: Becky
 feature: Work Management
 exl-id: 0646e4f0-e8fb-48f2-b533-358229543081
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+TQID: https://experienceleague.adobe.com/wDvyk7L1ZYyD2c9NmzlkpEYDUAJdXQpFzywSSgtdoEM
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: d3382524-5489-431b-bde9-271ab257bc37id: d87de1f9-8e24-4c4d-aa4c-a403075091a1id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3id: fceb5125-bb41-419a-b0db-31958cb42f6c
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1553'
-ht-degree: 43%
+source-wordcount: 1560
+ht-degree: 44%
 
 ---
 
-# Resumen de áreas de caso comercial
+# Información general de áreas de caso empresarial
 
 <!-- Audited: 4/2025 -->
 
@@ -86,7 +92,7 @@ Para obtener más información, consulte [Crear metas de caso empresarial](../..
 
 ## Gastos
 
-Los gastos representan los costos no laborales en los que se podría incurrir durante la duración de un proyecto. Esta área está habilitada de forma predeterminada en el caso empresarial, pero el administrador de Workfront puede optar por no mostrarla.
+Los gastos representan los costes que no son de mano de obra en los que se puede incurrir durante la vida de un proyecto. Esta área está habilitada de forma predeterminada en el caso empresarial, pero el administrador de Workfront puede optar por no mostrarla.
 
 Los gastos que especifique en el caso comercial también se especifican como Gastos planificados en la pestaña Gastos del proyecto.
 

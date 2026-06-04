@@ -7,12 +7,18 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: 572c6008-3a67-47ae-8f5d-6b871ef1f37b
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 39630b50384d710dadb1f48342113b74338a9104
+TQID: https://experienceleague.adobe.com/roM7lCswSeuhxKXc2Bf8S1wXr1thGzcQjFkqU5lCQCA
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87effid: b91c0848-76c4-4da4-8b81-3aade0518dd0id: d87de1f9-8e24-4c4d-aa4c-a403075091a1id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '4076'
-ht-degree: 85%
+source-wordcount: 4067
+ht-degree: 84%
 
 ---
 
@@ -41,7 +47,7 @@ For more information, see [Second Quarter 2026 release overview](/help/quicksilv
 -->
 
 
-Puede editar información sobre las tareas que ha creado o para las que tiene permisos de aportación o de administración. 
+Puede editar información sobre las tareas que ha creado o para las que tiene permisos de aportación o de administración.
 
 ## Requisitos de acceso
 
@@ -293,7 +299,7 @@ Puede editar una tarea mediante las áreas Editar tarea o Detalles de la tarea. 
       <li> <p>Normal </p> </li> 
       <li> <p>Alto </p> </li> 
       <li> <p> Urgente </p> </li> 
-       </ul> <p>Según las Preferencias del proyecto seleccionadas por el administrador de Workfront, los nombres de las prioridades pueden ser diferentes para usted. Para obtener información acerca de las prioridades de las tareas, consulte <a href="../../../manage-work/tasks/task-information/task-priority.md" class="MCXref xref">Actualizar la prioridad de las tareas</a>. </p> </td> 
+       </ul> <p>Según las Preferencias del proyecto seleccionadas por el administrador de Workfront, los nombres de las prioridades pueden ser diferentes para usted. Para obtener información sobre las prioridades de las tareas, consulte <a href="../../../manage-work/tasks/task-information/task-priority.md" class="MCXref xref">Actualizar la prioridad de las tareas</a>. </p> </td> 
      </tr> 
      <tr> 
       <td colspan="2" role="rowheader"><span style="font-weight: bold;">Sección de restricciones y fechas de la tarea</span> </td> 
@@ -303,7 +309,7 @@ Puede editar una tarea mediante las áreas Editar tarea o Detalles de la tarea. 
       <td> <p>Decida cuándo debe completarse la tarea especificando una restricción de tarea. </p> <p>Seleccione entre las siguientes opciones: </p> 
        <ul> 
       <li> <p><span>Fechas fijas</span> </p> <p>Especifique una fecha de <strong>inicio planificado</strong> y una <strong>fecha planificada de finalización</strong>. </p> </li> 
-      <li> <p><span>Debe iniciarse el</span> </p> <p>Especifique una <strong>Fecha de inicio planificada</strong>. </p> </li> 
+      <li> <p><span>Debe iniciarse el</span> </p> <p>Especifique una <strong>fecha de inicio planificada</strong>. </p> </li> 
       <li> <p><span>Debe finalizarse el</span> </p> <p>Especifique una <strong>Fecha planificada de finalización</strong>. </p> </li> 
        </ul> 
        <ul> 
@@ -313,7 +319,7 @@ Puede editar una tarea mediante las áreas Editar tarea o Detalles de la tarea. 
       <li> <p> <span>La última hora disponible</span></p> </li> 
       <li> <p><span>No iniciar después del</span> </p> </li> 
       <li> <p>Especificar una fecha de inicio planificada</p> </li> 
-      <li> <p><span>No iniciar antes del</span> </p> <p>Especifique una <strong>Fecha de inicio planificada</strong>. </p> </li> 
+      <li> <p><span>No iniciar antes del</span> </p> <p>Especifique una <strong>fecha de inicio planificada</strong>. </p> </li> 
       <li> <p> No terminar <span>después de</span></p> <p>Especifique una <strong>Fecha planificada de finalización</strong>. </p> </li> 
       <li> <p> No <span>terminar antes de</span></p> <p>Especificar una <strong>fecha planificada de finalización</strong></p> </li> 
        </ul> <p>Para obtener más información sobre la restricción de tarea, consulte <a href="../../../manage-work/tasks/task-constraints/task-constraint-overview.md" class="MCXref xref">Información general sobre la restricción de tarea</a>.</p> </td> 
@@ -504,7 +510,7 @@ Puede editar una tarea mediante las áreas Editar tarea o Detalles de la tarea. 
 
    <p>El tiempo transcurrido es una unidad de tiempo de la duración de una tarea. Es el tiempo entre la fecha de inicio planificada y la fecha de finalización planificada de una tarea que incluye días festivos, fines de semana y días libres. En otras palabras, el tiempo transcurrido es el paso de los días del calendario.
 
-   El tiempo habitual tiene en cuenta los días festivos, los fines de semana y los días libres, y los excluye de la duración de la tarea. Para obtener más información acerca de la duración de la tarea, consulte <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">Información general sobre la duración de la tarea y el tipo de duración</a>. </p>
+   El tiempo habitual tiene en cuenta los días festivos, los fines de semana y los días libres, y los excluye de la duración de la tarea. Para obtener más información sobre la duración de la tarea, consulte <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">Información general sobre la duración y el tipo de duración de la tarea</a>. </p>
    </div> 
       </div> </td> 
       </tr> 
@@ -513,7 +519,7 @@ Puede editar una tarea mediante las áreas Editar tarea o Detalles de la tarea. 
       <td> <p>Especifique el número de horas planificadas para la tarea, en horas. Esta es la cantidad de tiempo real que tardarían los usuarios asignados a la tarea en completarla. Solamente puede especificar el número de horas planificadas para una tarea cuando el tipo de duración está establecido en Asignación calculada. Para obtener más información sobre los tipos de duración, consulte <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">Información general de la duración de la tarea y tipos de duración</a>.</p> 
       <b>NOTA</b>
       <p>
-      Al crear tareas recurrentes, las horas planificadas son las de cada ocurrencia. Las horas planificadas de las tareas principales son el total de todas las horas planificadas de todas las ocurrencias. Para obtener información acerca de la creación de tareas recurrentes, consulte <a href="../../../manage-work/tasks/create-tasks/create-recurring-tasks.md" class="MCXref xref">Crear tareas recurrentes</a>.
+      Al crear tareas recurrentes, las horas planificadas son las de cada ocurrencia. Las horas planificadas de las tareas principales son el total de todas las horas planificadas de todas las ocurrencias. Para obtener información acerca de la creación de tareas recurrentes, vea <a href="../../../manage-work/tasks/create-tasks/create-recurring-tasks.md" class="MCXref xref">Crear tareas recurrentes</a>.
       </p>
 
    </td> 
@@ -549,7 +555,7 @@ Puede definir formularios personalizados predeterminados que se adjuntarán auto
 
 1. Haga clic en **Añadir formulario personalizado** y seleccione el formulario o formularios personalizados que desee asociar con la tarea. Debe generar los formularios personalizados antes de que estén disponibles para seleccionarlos en este campo. En la lista solo se muestran los formularios personalizados activos.
 
-   Para obtener más información sobre cómo crear formularios personalizados, consulte [Crear un formulario personalizado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).Puede agregar hasta diez formularios personalizados a una tarea
+   Para obtener más información sobre la creación de formularios personalizados, consulte [Crear un formulario personalizado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).Puede agregar hasta diez formularios personalizados a una tarea
 
 1. (Condicional) Si adjuntó un formulario personalizado a la tarea, edite los campos del formulario. Debe especificar todos los campos obligatorios antes de guardar la tarea.
 

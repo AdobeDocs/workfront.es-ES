@@ -7,12 +7,18 @@ description: La determinación de la ruta crítica de un proyecto es una forma a
 author: Alina
 feature: Work Management
 exl-id: 9cbc84bf-d02b-4bb7-8d5d-922554d1262e
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/5ng4Rg7k0qQYBU5dWT-dxSqaOJRGs4-hP5j9-k3EDkk
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b91c0848-76c4-4da4-8b81-3aade0518dd0id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '689'
-ht-degree: 6%
+source-wordcount: 696
+ht-degree: 8%
 
 ---
 
@@ -40,7 +46,7 @@ Las siguientes funciones pueden afectar a la ruta crítica de un proyecto:
      >Cuando la fecha sucesora de una tarea no afecta directamente a la fecha de sus tareas dependientes o a las fechas del proyecto, la tarea sucesora no se encuentra en la ruta crítica.
      >
      >
-     >![El sucesor no se encuentra en la ruta crítica](assets/successor-not-on-critical-path-350x150.png)     >
+     >![El sucesor no está en la ruta crítica](assets/successor-not-on-critical-path-350x150.png) >
      >
 
    * Cuando una subtarea se identifica como una tarea de ruta crítica, la tarea principal también se identifica como una tarea de ruta crítica si la fecha de inicio proyectada y la hora de la tarea principal son las mismas que la de la subtarea.

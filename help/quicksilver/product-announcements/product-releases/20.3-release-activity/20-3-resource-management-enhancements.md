@@ -1,28 +1,34 @@
 ---
 content-type: release-notes
 navigation-topic: 2020-3-release-activity
-title: 20.3 Mejoras en la gestión de recursos
+title: 20.3 Mejoras en la administración de recursos
 description: Esta página describe todas las mejoras de Administración de recursos realizadas con la versión 20.3 en el entorno de producción. Estas mejoras estuvieron disponibles en el entorno de producción la semana del 10 de agosto de 2020.
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: a2c34117-e03c-4394-9b81-7c18433531d1
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+TQID: https://experienceleague.adobe.com/HZe1tQDIY0YAxuaNp2M6j-6chmnj20eun4sMRRmB9f4
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2: id: c33d85a1-be85-4290-854c-87408c10aa80
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '837'
-ht-degree: 0%
+source-wordcount: 845
+ht-degree: 38%
 
 ---
 
-# 20.3 Mejoras en la gestión de recursos
+# 20.3 Mejoras en la administración de recursos
 
 Esta página describe todas las mejoras de Administración de recursos realizadas con la versión 20.3 en el entorno de producción. Estas mejoras estuvieron disponibles en el entorno de producción la semana del 10 de agosto de 2020.
 
-Para obtener una lista de todos los cambios disponibles con la versión 20.3, consulte [Descripción general de la versión 20.3](../../../product-announcements/product-releases/20.3-release-activity/20-3-release-overview.md).
+Para obtener una lista de todos los cambios disponibles con la versión 20.3, consulte [Información general de la versión 20.3](../../../product-announcements/product-releases/20.3-release-activity/20-3-release-overview.md).
 
 ## Incluir horas de problemas en el área de Trabajo asignado del Distribuidor de cargas de trabajo
 
-Para permitirle ver una imagen completa de todas las cargas de trabajo de sus recursos, hemos introducido una configuración que le permite incluir horas de problemas en el área de Trabajo asignado del Distribuidor de cargas de trabajo.
+Para que pueda ver una imagen completa de todas las cargas de trabajo de sus recursos, hemos introducido una configuración que le permite incluir horas de problemas en el área de trabajo asignado del Distribuidor de cargas de trabajo.
 
 Para obtener información acerca de cómo trabajar en el Distribuidor de cargas de trabajo, vea [Desplazarse por el Distribuidor de cargas de trabajo](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
 
@@ -48,13 +54,13 @@ Para obtener información sobre cómo aplicar filtros al Distribuidor de cargas 
 
 ## Nueva ordenación de proyectos en el Distribuidor de cargas de trabajo
 
-El Distribuidor de cargas de trabajo ahora ordena los proyectos en función de la primera fecha planificada de inicio y, en segundo lugar, la última fecha planificada de finalización de las tareas del proyecto que se producen durante el periodo de tiempo que el usuario muestra en la pantalla. Esto le permite organizar el trabajo en una jerarquía en forma de árbol, lo que le ayuda a identificar más fácilmente el trabajo de un día.
+El Distribuidor de cargas de trabajo ahora ordena los proyectos en función de la primera fecha de inicio planificada y, en segundo lugar, la última fecha de finalización planificada de las tareas del proyecto que se producen durante el periodo de tiempo que el usuario muestra en la pantalla. Esto le permite organizar el trabajo en una jerarquía en forma de árbol, lo que le ayuda a identificar más fácilmente el trabajo de un día.
 
 Para obtener información acerca de cómo ver proyectos y elementos de trabajo en el Distribuidor de cargas de trabajo, vea [Desplazarse por el Distribuidor de cargas de trabajo](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
 
 ## Mostrar el progreso de trabajo real en el Distribuidor de cargas de trabajo
 
-Para ofrecerle una perspectiva precisa del progreso de su carga de trabajo, hemos introducido una nueva configuración en el Distribuidor de cargas de trabajo que muestra la cronología de las tareas y los problemas según sus fechas proyectadas. Puede activar la configuración Mostrar fechas proyectadas para ver la escala de tiempo proyectada del elemento de trabajo además de la escala de tiempo planificada.
+Para ofrecerle una perspectiva precisa del progreso de su carga de trabajo, hemos introducido una nueva configuración en el Distribuidor de cargas de trabajo que muestra la cronología de las tareas y los problemas según sus fechas proyectadas. Puede habilitar la configuración Mostrar fechas proyectadas para ver la cronología proyectada del elemento de trabajo, además de la cronología planificada.
 
 Además, con esta mejora, si una tarea o un problema se finalizan antes de la fecha planificada de finalización, las horas asignadas de los días restantes se tachan para indicar que no se contabilizan en la asignación general del usuario.
 
