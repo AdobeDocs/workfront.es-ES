@@ -1,48 +1,51 @@
 ---
 content-type: release-notes
 navigation-topic: product-releases-archive
-title: Actividad de la versión 2018.1 de Beta 1
-description: Esta página describe todos los cambios disponibles más recientemente en el entorno de vista previa con la versión Beta 1 2018.1. La funcionalidad de esta página estaba disponible en el entorno de vista previa el 1 de diciembre de 2017. Estará disponible en el entorno de producción en marzo de 2018.
+title: Actividad de la versión 2018.1 beta 1
+description: En esta página se describen todos los cambios disponibles más recientemente en el entorno de vista previa con la versión 2018.1 beta 1. La funcionalidad de esta página estaba disponible en el entorno de vista previa el 1 de diciembre de 2017. Estará disponible en el entorno de producción en marzo de 2018.
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: efcc2217-ab69-4ac4-8e9a-f811eba77d49
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+TQID: https://experienceleague.adobe.com/-BFykQtqXROGYgeh8eOtpfqQsMIAn0yfQIAy-1KflGw
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1065'
-ht-degree: 0%
+source-wordcount: 1055
+ht-degree: 98%
 
 ---
 
-# Actividad de la versión 2018.1 de Beta 1
+# Actividad de la versión 2018.1 beta 1
 
-Esta página describe todos los cambios disponibles más recientemente en el entorno de vista previa con la versión Beta 1 2018.1. La funcionalidad de esta página estaba disponible en el entorno de vista previa el 1 de diciembre de 2017. Estará disponible en el entorno de producción en marzo de 2018.
+En esta página se describen todos los cambios disponibles más recientemente en el entorno de vista previa con la versión 2018.1 beta 1. La funcionalidad de esta página estaba disponible en el entorno de vista previa el 1 de diciembre de 2017. Estará disponible en el entorno de producción en marzo de 2018.
 
 >[!IMPORTANT]
 >
-> La funcionalidad descrita en esta página está sujeta a cambios antes de su disponibilidad en el entorno de producción de.
+> La funcionalidad descrita en esta página está sujeta a cambios antes de su disponibilidad en el entorno de producción.
 
-Para ver una lista de todos los cambios realizados en 2018.1, consulte  [resumen de la actividad de la versión 2018.1](../../../../product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018-1-release-activity-overview.md).
+Para ver una lista de todos los cambios realizados en 2018.1, consulte [Información general sobre la actividad de la versión 2018.1](../../../../product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018-1-release-activity-overview.md).
 
-La versión 2018.1 de Beta 1 contiene mejoras para administradores de Workfront y otros usuarios de:
+La versión 2018.1 beta 1 contiene mejoras para administradores de Workfront y otros usuarios:
 
-**Para Administradores**
+**Para los administradores**
 
-* [Plantilla de diseño actualizada para admitir el área de inicio](#updated-layout-template-to-support-the-home-area)
-* [Deshabilitar notificaciones de correo electrónico de revisión enviadas desde Workfront](#disable-proofing-email-notifications-sent-from-workfront)
+* [Plantilla de diseño actualizada para ser compatible con el área Inicio](#updated-layout-template-to-support-the-home-area)
+* [Deshabilitar notificaciones por correo electrónico de revisión enviadas desde Workfront](#disable-proofing-email-notifications-sent-from-workfront)
 * [Nuevos recursos añadidos a suscripciones a eventos](#new-resources-added-to-event-subscriptions)
 
-**Para Todos Los Usuarios**
+**Para todos los usuarios**
 
 * [Área de inicio (se ha actualizado mi área de trabajo)](#home-area-updated-my-work-area)
-* [Mostrar datos del Planificador de recursos en el caso comercial y el resumen actualizado del caso comercial](#display-resource-planner-data-under-the-business-case-and-updated-business-case-summary)
+* [Mostrar datos del Planificador de recursos en el caso empresarial y el resumen actualizado del caso empresarial](#display-resource-planner-data-under-the-business-case-and-updated-business-case-summary)
 * [Mostrar el porcentaje de asignación de horas planificada en el Planificador de recursos](#display-the-percentage-of-planned-hour-allocation-in-the-resource-planner)
-* [El Déclencheur de tipos de actualización &quot;Automático y al cambiar&quot; y &quot;Solo cambiar&quot; actualiza los objetos principales al mismo tiempo que se actualizan las tareas](#the-automatic-and-on-change-and-change-only-update-types-trigger-updates-to-the-parent-objects-at-the-same-time-as-tasks-are-updated)
+* [Los tipos de actualización “Automático y al cambiar” y “Solo cambiar” activan las actualizaciones de los objetos principales al mismo tiempo que se actualizan las tareas](#the-automatic-and-on-change-and-change-only-update-types-trigger-updates-to-the-parent-objects-at-the-same-time-as-tasks-are-updated).
 * [Instantánea de cronología disponible en el gráfico Gantt](#timeline-snapshot-available-in-the-gantt-chart)
 
 ## Área de inicio (se ha actualizado mi área de trabajo) {#home-area-updated-my-work-area}
 
-El nuevo área de Inicio proporciona una vista alternativa y mejorada de los mismos datos que están disponibles actualmente en el área de Mi trabajo. El área de Inicio proporciona los siguientes beneficios sobre el área de Mi trabajo:
+La nueva área de Inicio proporciona una vista alternativa y mejorada de los mismos datos que están disponibles actualmente en el área de Mi trabajo. El área de Inicio proporciona los siguientes beneficios sobre el área Mi trabajo:
 
 * Una interfaz más ágil e intuitiva
 * Rendimiento mejorado
@@ -52,9 +55,9 @@ El nuevo área de Inicio proporciona una vista alternativa y mejorada de los mis
 
 Como administrador de Workfront, puede determinar si los usuarios de su organización tienen acceso al área de Inicio configurando la plantilla de diseño a la que están asignados. Los usuarios que no tengan asignada una plantilla de diseño siempre pueden acceder al área de Inicio.
 
-Para obtener más información, consulte &quot;Creación y administración de plantillas de diseño&quot;.
+Para obtener más información, consulte “Creación y administración de plantillas de diseño”.
 
-## Deshabilitar la corrección de notificaciones por correo electrónico enviadas desde Workfront {#disable-proofing-email-notifications-sent-from-workfront}
+## Deshabilitar las notificaciones por correo electrónico de revisión enviadas desde Workfront {#disable-proofing-email-notifications-sent-from-workfront}
 
 Ahora puede configurar si los usuarios de la instancia de Workfront recibirán notificaciones por correo electrónico de Workfront cuando se realice un comentario en una prueba.
 
@@ -62,29 +65,29 @@ Anteriormente, los correos electrónicos de prueba siempre se enviaban desde Wor
 
 Para los clientes de Workfront existentes, Workfront está configurado de forma predeterminada para enviar correos electrónicos cuando se realiza un comentario sobre una prueba.
 
-Para obtener información sobre cómo deshabilitar las notificaciones por correo electrónico para pruebas en Workfront de modo que los correos electrónicos de prueba se envíen únicamente desde Workfront Proof, consulte  
+Para obtener información sobre cómo deshabilitar las notificaciones por correo electrónico de revisión en Workfront de modo que los correos electrónicos de prueba se envíen únicamente desde Workfront Proof, consulte.  
 
-## Mostrar datos del Planificador de recursos bajo el Caso comercial y el Resumen de caso comercial actualizado {#display-resource-planner-data-under-the-business-case-and-updated-business-case-summary}
+## Mostrar los datos del Planificador de recursos bajo el caso empresarial y el resumen actualizado del caso empresarial {#display-resource-planner-data-under-the-business-case-and-updated-business-case-summary}
 
-El área de Presupuestación de recursos ahora está disponible en el caso comercial de un proyecto. En esta área, puede revisar las horas presupuestadas estimadas de sus recursos en el Planificador de recursos y el costo de mano de obra presupuestado asociado con ellos.
+El área de Presupuestación de recursos ahora está disponible en el caso empresarial de un proyecto. En esta área puede revisar las horas presupuestadas estimadas para sus recursos en el Planificador de recursos y el coste de mano de obra presupuestado asociado con ellas.
 
-Se ha cambiado el nombre del área Estimaciones de recursos del caso empresarial a Estimaciones de recursos de legado.
+El área de Estimaciones de recursos del caso empresarial ha pasado a denominarse Estimaciones de recursos heredados.
 
-Como parte de este cambio, el Resumen de caso comercial ahora incluye información financiera basada en las Estimaciones de recursos y el Presupuesto de recursos.
+Como parte de este cambio, el Resumen del caso empresarial ahora incluye información financiera basada en las Estimaciones de recursos y el Presupuesto de recursos.
 
-Antes de este cambio, no podía ver la información del Planificador de recursos en el Caso comercial del proyecto. Solo podía ver la información de Estimaciones de recursos que se especifica en el Planificador de capacidades de los conjuntos de recursos de legado.
+Antes de este cambio, no podía ver la información del Planificador de recursos en el caso empresarial del proyecto. Solo podía ver la información de Estimaciones de recursos que se especifica en el Planificador de capacidades de los conjuntos de recursos heredados.
 
-Para obtener más información sobre cómo crear un caso empresarial, vea [Crear un caso empresarial para un proyecto](../../../../manage-work/projects/define-a-business-case/create-business-case.md).
+Para obtener información sobre cómo crear un caso empresarial, consulte [Creación de un caso empresarial para un proyecto](../../../../manage-work/projects/define-a-business-case/create-business-case.md).
 
-## Mostrar el porcentaje de asignación de horas planificada en el planificador de recursos {#display-the-percentage-of-planned-hour-allocation-in-the-resource-planner}
+## Mostrar el porcentaje de asignación de horas planificada en el Planificador de recursos {#display-the-percentage-of-planned-hour-allocation-in-the-resource-planner}
 
-La Vista de usuario del Planificador de recursos ahora incluye una nueva columna que le permite ver la Asignación de horas planificada como un porcentaje del total de horas disponibles para el usuario y el rol.
+La Vista de usuario del Planificador de recursos incluye ahora una nueva columna que permite ver la Asignación de horas planificada como porcentaje del total de horas disponibles para el usuario y la función.
 
-Antes de este cambio, podía ver el total de horas planificadas y disponibles para los usuarios y los roles de trabajo solo en columnas independientes.
+Antes de este cambio, se podía ver el total de horas planificadas y disponibles para los usuarios y las funciones solo en columnas independientes.
 
-Para obtener más información acerca de la columna Porcentaje de asignación de horas planificadas, vea la sección &quot;Visualización de la diferencia entre las horas disponibles y planificadas o FTE en el Planificador de recursos&quot; en [Información general del Planificador de recursos](../../../../resource-mgmt/resource-planning/get-started-resource-planner.md).
+Para obtener más información acerca de la columna Porcentaje de asignación de horas planificadas, consulte la sección &quot;Visualización de la diferencia entre las horas disponibles y planificadas o FTE en el Planificador de recursos&quot; en [Información general del Planificador de recursos](../../../../resource-mgmt/resource-planning/get-started-resource-planner.md).
 
-## El Déclencheur de actualización &quot;Automático y al cambiar&quot; y &quot;Solo cambiar&quot; actualiza los objetos principales al mismo tiempo que se actualizan las tareas {#the-automatic-and-on-change-and-change-only-update-types-trigger-updates-to-the-parent-objects-at-the-same-time-as-tasks-are-updated}
+## El activador de los tipos de actualización &quot;Automático y al cambiar&quot; y &quot;Solo al cambiar&quot; actualiza los objetos principales al mismo tiempo que se actualizan las tareas {#the-automatic-and-on-change-and-change-only-update-types-trigger-updates-to-the-parent-objects-at-the-same-time-as-tasks-are-updated}
 
 Hemos cambiado la forma en que se actualizan las tareas principales y el proyecto cuando se actualiza un objeto de nivel inferior en un proyecto. La hora a la que se actualiza un objeto principal viene determinada por el campo Tipo de actualización de un proyecto. Puede seleccionar entre los siguientes tipos de actualización:
 
@@ -93,7 +96,7 @@ Hemos cambiado la forma en que se actualizan las tareas principales y el proyect
 * Solo automático
 * Solo manual
 
-Ahora, al seleccionar los tipos de actualización &quot;Automático y al cambiar&quot; o &quot;Solo cambiar&quot;, los cambios que aplique a las tareas individuales también se aplican a la tarea principal y al proyecto inmediatamente.
+Ahora, al seleccionar los tipos de actualización &quot;Automático y al cambiar&quot; o &quot;Solo al cambiar&quot;, los cambios que aplique a las tareas individuales también se aplican a la tarea principal y al proyecto inmediatamente.
 
 Antes de este cambio, tenía que actualizar la página para asegurarse de que los objetos principales y la cronología del proyecto también se actualizaran.
 
@@ -101,20 +104,20 @@ Para obtener más información sobre el tipo de actualización de un proyecto, v
 
 ## Instantánea de cronología disponible en el gráfico Gantt {#timeline-snapshot-available-in-the-gantt-chart}
 
-Ahora puede desplazarse rápidamente a un determinado punto de la duración de un proyecto utilizando la nueva instantánea de escala de tiempo del gráfico Gantt.
+Ahora puede desplazarse rápidamente a un determinado punto de la duración de un proyecto utilizando la nueva instantánea de cronología del gráfico Gantt.
 
 Al seleccionar un lapso de tiempo más granular para el gráfico Gantt mientras ve una tarea o una lista de proyectos, se muestra una barra de desplazamiento horizontal en la parte inferior del gráfico Gantt. Al hacer clic en la barra de desplazamiento, puede ver toda la cronología del proyecto en una instantánea. Puede hacer clic en cualquier lugar dentro de la instantánea del gráfico Gantt para desplazarse a un punto específico de la duración del proyecto.
 
-Antes de este cambio, tenía que desplazarse horizontalmente por todo el diagrama de Gantt para encontrar un determinado punto en el tiempo o tenía que alejarse de la vista granular.
+Antes de este cambio, tenía que desplazarse horizontalmente por todo el diagrama Gantt para encontrar un determinado punto en el tiempo, o tenía que alejarse de la vista granular.
 
 Para obtener más información sobre cómo se muestra la información en el gráfico Gantt, vea [Configurar cómo se muestra la información en el gráfico Gantt](../../../../manage-work/gantt-chart/use-the-gantt-chart/configure-info-on-gantt-chart.md).
 
 ## Nuevos recursos añadidos a suscripciones a eventos {#new-resources-added-to-event-subscriptions}
 
-Ahora puede crear suscripciones de eventos para los siguientes recursos:
+Ahora puede crear suscripciones a eventos para los siguientes recursos:
 
-* **Gasto:** Le notifica cuando se agrega o modifica un gasto.
+* **Gasto:** le notifica cuando se agrega o modifica un gasto.
 * **Asignación:** le avisa cuando se agrega o modifica una asignación en una tarea o problema de un usuario, rol o equipo.
-* **Hoja de horas:** Le notifica cuando se envía, rechaza o aprueba una hoja de horas.
+* **Plantilla de horas:** le notifica cuando se envía, rechaza o aprueba una plantilla de horas.
 
 Para obtener más información acerca de las suscripciones a eventos, consulte [API de suscripción a eventos](../../../../wf-api/general/event-subs-api.md).

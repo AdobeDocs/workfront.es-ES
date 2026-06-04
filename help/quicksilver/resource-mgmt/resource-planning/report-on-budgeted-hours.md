@@ -2,22 +2,28 @@
 product-area: resource-management;reporting
 navigation-topic: resource-planning
 title: Informe sobre horas presupuestadas del planificador de recursos
-description: Puede presupuestar recursos en sus proyectos mediante el Planificador de recursos. Para obtener información sobre cómo presupuestar los recursos mediante el Planificador de recursos de Adobe Workfront, vea el artículo Presupuestar recursos en el Planificador de recursos mediante las vistas Proyecto y Rol.
+description: Puede presupuestar recursos en sus proyectos mediante el planificador de recursos. Para obtener información sobre cómo presupuestar los recursos mediante el planificador de recursos de Adobe Workfront, consulte el artículo Presupuestar recursos en el planificador de recursos mediante las vistas de proyecto y función.
 author: Lisa
 feature: Resource Management
 exl-id: 6adf11a4-3c33-484f-80cc-c5d96a7c7112
-source-git-commit: 3c3175c347431b10aed1a6034df6c756056399b3
+TQID: https://experienceleague.adobe.com/y1caRsSZ8l1TlfT0LuypUAmWjv2YIWRoDkEg-b8R3OQ
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2: id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '155'
-ht-degree: 0%
+source-wordcount: 155
+ht-degree: 100%
 
 ---
 
 # Informe sobre horas presupuestadas del planificador de recursos
 
-Puede presupuestar recursos en sus proyectos mediante el Planificador de recursos. Para obtener información sobre cómo presupuestar los recursos mediante el Planificador de recursos de Adobe Workfront, consulte el artículo [Presupuesto de recursos en el Planificador de recursos mediante las vistas de proyecto y función](../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md).
+Puede presupuestar recursos en sus proyectos mediante el planificador de recursos. Para obtener información sobre cómo presupuestar los recursos mediante el Planificador de recursos de Adobe Workfront, consulte el artículo [Presupuesto de recursos en el planificador de recursos mediante las vistas de proyecto y función](../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md).
 
-Presupuestar recursos significa definir (o presupuestar) un determinado número de horas que los recursos de un proyecto necesitan para completar su trabajo en el proyecto. Para compartir la información de horas presupuestadas que especifica en el Planificador de recursos con otros usuarios que podrían no tener acceso al Planificador de recursos, puede generar un informe de horas presupuestadas. Para obtener más información, consulte [Informe: hora presupuestada](../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/report-budgeted-hour.md).
+Presupuestar recursos significa definir (o presupuestar) un determinado número de horas que los recursos de un proyecto necesitan para completar su trabajo en el mismo. Para compartir la información de horas presupuestadas que especifica en el planificador de recursos con otros usuarios que no tengan acceso al planificador de recursos, puede generar un informe de horas presupuestadas. Para obtener más información, consulte [Informe: hora presupuestada](../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/report-budgeted-hour.md).
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this is all drafted - below - same content as the one in the standalone Report: Budgeted Hour article - consider deleting that and just keeping the infomation here?!)</p>

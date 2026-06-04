@@ -4,32 +4,36 @@ description: Mejoras en las solicitudes del primer trimestre de 2026
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: d8f563bdbde76ae86b5e130a07d2dc66c8d2e034
+exl-id: 8ea2668c-cab9-4ee3-95c9-44996e951c29
+TQID: https://experienceleague.adobe.com/GGNj0hO47cAaCpN-sqHzdtPaL9BWcMdJIo7P3brSR8Y
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '900'
-ht-degree: 4%
+source-wordcount: 900
+ht-degree: 95%
 
 ---
 
 # Mejoras en las solicitudes del primer trimestre de 2026
 
-Esta página describe las mejoras de solicitudes realizadas con la versión del primer trimestre de 2026 en el entorno de vista previa. Estas mejoras estarán disponibles en el entorno de producción, como se ha indicado.
+Esta página describe las mejoras de solicitudes con la versión del primer trimestre de 2026 en el entorno de previsualización. Estas mejoras estarán disponibles en el entorno de producción, como se ha indicado.
 
-Para obtener una lista de todos los cambios disponibles en este punto del ciclo de la versión del primer trimestre de 2026, consulte [Información general de la versión del primer trimestre de 2026](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md).
+Para obtener una lista de todos los cambios disponibles en este punto del ciclo de lanzamiento del primer trimestre de 2026, consulte [Información general de la versión del primer trimestre de 2026](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md).
 
-## Los vínculos de objeto creados ahora están disponibles en el área de Solicitudes y en el widget Mis solicitudes
+## Los vínculos de objetos creados ya están disponibles en el área Solicitudes y en el widget Mis solicitudes
 
 >[!NOTE]
 >
->Vista previa: 18 de diciembre de 2025
->Versión rápida de producción: 14 de enero de 2026\
+>Vista previa: 18 de diciembre de 2025>Versión rápida de producción: 14 de enero de 2026\
 >Producción para todos: 15 de enero de 2026
 
 Para facilitar la visita al objeto creado por una solicitud específica, se han añadido vínculos a la columna Objeto creado. Ahora puede hacer clic en el enlace de esta columna para llevarlo directamente a la página del objeto creado.
 
-Este vínculo solo está disponible para solicitudes de Planning, en casos en los que la propia solicitud ha creado un objeto. Si una solicitud de Workfront se convierte en un proyecto u otro objeto, un vínculo a ese objeto convertido no estará disponible en la lista de solicitudes de la nueva experiencia de solicitud.
+Este vínculo solo está disponible para solicitudes de Planning, en casos en que la propia solicitud ha creado un objeto. Si una solicitud de Workfront se convierte en un proyecto u otro objeto, un vínculo a ese objeto convertido no estará disponible en la lista de solicitudes de la nueva experiencia de solicitud.
 
-Anteriormente, esta columna solo contenía el nombre del objeto y no su vínculo.
+Antes, esta columna solo contenía el nombre del objeto y no su vínculo.
 
 Para obtener información sobre cómo localizar estos vínculos, consulte:
 
@@ -52,114 +56,100 @@ For more information on creating views for the Request list and My Requests widg
 
 -->
 
-## Comparta vistas en el área de Solicitudes y en el widget Mis solicitudes
+## Comparta vistas en el área Solicitudes y en el widget Mis solicitudes
 
 >[!NOTE]
 >
->Vista previa: 18 de diciembre de 2025
->Versión rápida de producción: 14 de enero de 2026\
+>Vista previa: 18 de diciembre de 2025>Versión rápida de producción: 14 de enero de 2026\
 >Producción para todos: 15 de enero de 2026
 
 Para facilitarle la tarea de ver la información que necesita, hemos añadido la capacidad de compartir vistas a la nueva experiencia de solicitud. Ahora puede compartir vistas con otros usuarios, equipos o grupos.
 
-Para obtener información sobre las vistas de solicitudes, incluido el uso compartido, consulte [Crear y administrar vistas en el área de solicitudes](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md).
+Para obtener información sobre las vistas de solicitudes, incluido el uso compartido, consulte [Crear y administrar vistas en el área Solicitudes](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md).
 
-## Añadir campos personalizados a la lista de solicitudes y al widget Mis solicitudes
+## Añadir campos personalizados a la lista Solicitudes y al widget Mis solicitudes
 
 >[!NOTE]
 >
->Vista previa: 18 de diciembre de 2025
->Versión rápida de producción: 14 de enero de 2026\
+>Vista previa: 18 de diciembre de 2025>Versión rápida de producción: 14 de enero de 2026\
 >Producción para todos: 15 de enero de 2026
 
-Para facilitarle la visualización de la información que necesita, hemos añadido la capacidad de añadir campos personalizados como columnas a la lista de solicitudes y al widget Mis solicitudes en Inicio. Ahora puede agregar campos de formularios personalizados como una columna, y las solicitudes que tengan información en ese campo mostrarán esa información en la lista o widget.
+Para facilitarle la visualización de la información que necesita, hemos añadido la capacidad de añadir campos personalizados como columnas a la lista de solicitudes y al widget Mis solicitudes en Inicio. Ahora puede añadir campos de formularios personalizados como una columna, y las solicitudes que tengan información en ese campo mostrarán esa información en la lista o widget.
 
-Esta funcionalidad solo está disponible en la nueva experiencia Solicitudes.
+Esta funcionalidad solo está disponible en la nueva experiencia de Solicitudes.
 
-Anteriormente, los campos personalizados no estaban disponibles en la lista de solicitudes ni en el widget Mis solicitudes.
+Antes, los campos personalizados no estaban disponibles en la lista Solicitudes ni en el widget Mis solicitudes.
 
-Para obtener instrucciones sobre cómo añadir columnas, consulte:
+Para obtener instrucciones sobre cómo añadir columnas, consulte lo siguiente:
 
-* [Cree o edite vistas en el área de solicitudes](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md)
+* [Crear y editar vistas en el área Solicitudes](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md)
 * [Uso del widget Mis solicitudes](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md)
 
 ## El comodín de usuario actual ya está disponible en el filtro Solicitudes
 
 >[!NOTE]
 >
->Vista previa: 18 de diciembre de 2025
->Versión rápida de producción: 14 de enero de 2026\
+>Vista previa: 18 de diciembre de 2025>Versión rápida de producción: 14 de enero de 2026\
 >Producción para todos: 15 de enero de 2026
 
-Para facilitar el filtrado de las solicitudes que se le aplican, hemos creado un comodín de usuario actual. Ahora, al filtrar, puede seleccionar &quot;Yo (usuario conectado)&quot;. El filtro se aplica al usuario que está viendo la lista de solicitudes.
+Para facilitar el filtrado de las solicitudes que se le aplican, hemos creado un comodín de usuario actual. Ahora, al filtrar, puede seleccionar “Yo (usuario con sesión iniciada)”. El filtro se aplica al usuario que está viendo la lista de solicitudes.
 
-Esto puede resultar práctico al agregar un filtro a una vista que utilizarán varios usuarios. Cada usuario verá los resultados de los filtros que se les apliquen.
+Esto puede resultar práctico al añadir un filtro a una vista que utilizarán varios usuarios. Cada usuario verá los resultados de los filtros que se le apliquen.
 
 El comodín está disponible en campos donde el valor es un usuario.
 
-Para obtener más información sobre cómo configurar vistas en la lista de solicitudes, incluidos los filtros, consulte [Crear o editar vistas en el área de solicitudes](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md).
+Para obtener más información sobre cómo configurar vistas en la lista Solicitudes, incluidos los filtros, consulte [Crear y editar vistas en el área Solicitudes](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md).
 
-## Relleno de formularios con tecnología de IA ahora disponible para solicitudes de
+## Cumplimentación de formularios con tecnología de IA ahora disponible para las solicitudes
 
 >[!NOTE]
 >
->Vista previa: 11 de diciembre de 2025
->Versión rápida de producción: 11 de diciembre de 2025\
+>Vista previa: 11 de diciembre de 2025>Versión rápida de producción: 11 de diciembre de 2025\
 >Producción para todos: 11 de diciembre de 2025
 
-Para facilitar la creación de solicitudes, se ha creado el relleno de formulario con tecnología de IA. Ahora, puede pegar un mensaje o cargar un documento en un formulario de solicitud, y AI extraerá la información relevante y rellenará el formulario.
+Para facilitar la creación de solicitudes, se ha creado el relleno de formulario con tecnología de IA. Ahora, puede pegar una indicación o cargar un documento en un formulario de solicitud, y la AI extraerá la información relevante y rellenará el formulario.
 
-Su organización debe tener IA habilitada para acceder a esta funcionalidad.
+Su organización debe tener la IA habilitada para acceder a esta funcionalidad.
 
-Para obtener más información sobre el rellenado de formularios con tecnología de IA, incluido lo que se necesita para habilitar la IA en su organización, consulte [Usar el rellenado de formularios con tecnología de IA para rellenar una solicitud mediante peticiones de datos o documentos](/help/quicksilver/manage-work/requests/create-requests/autofill-from-prompt-document.md).
+Para obtener más información sobre la Cumplimentación de formularios con tecnología de IA, incluido lo que se necesita para habilitar la IA en su organización, consulte [Usar la Cumplimentación de formularios con tecnología de IA para rellenar una solicitud mediante indicaciones o documentos](/help/quicksilver/manage-work/requests/create-requests/autofill-from-prompt-document.md).
 
 
 ## Guardar borradores de solicitudes en la nueva experiencia de solicitud
 
 >[!NOTE]
 >
->Vista previa: 20 de noviembre de 2025
->Versión rápida de producción: 14 de enero de 2026\
+>Vista previa: 20 de noviembre de 2025>Versión rápida de producción: 14 de enero de 2026\
 >Producción para todos: 15 de enero de 2026
 
-Para facilitar la creación y el envío de solicitudes, se ha añadido la capacidad de guardar borradores a la nueva experiencia de solicitud. Ahora, cuando empiece a rellenar una solicitud y la cierre, esta se guarda en estado de borrador y se puede encontrar en el formulario de solicitud utilizado para crear el borrador. A continuación, puede volver a abrir, actualizar y enviar el borrador según le convenga.
+Para facilitar la creación y el envío de solicitudes, se ha añadido la capacidad de guardar borradores a la nueva experiencia de solicitud. Ahora, cuando empiece a rellenar una solicitud y la cierre, esta se guarda en estado Borrador y se puede encontrar en el formulario de solicitud utilizado para crear el borrador. A continuación, puede volver a abrir, actualizar y enviar el borrador según le convenga.
 
-Anteriormente, esta función no estaba disponible en la nueva experiencia de solicitud.
+Antes, esta función no estaba disponible en la nueva experiencia de solicitud.
 
 Para obtener más información sobre los borradores de solicitudes, consulte [Crear solicitudes a partir de borradores](/help/quicksilver/manage-work/requests/create-requests/create-requests-from-drafts.md).
 
-## Eliminar solicitudes enviadas en la nueva experiencia solicitante
+## Eliminar solicitudes enviadas en la nueva experiencia de solicitud
 
 >[!NOTE]
 >
->Vista previa: 20 de noviembre de 2025
->Versión rápida de producción: 14 de enero de 2026\
+>Vista previa: 20 de noviembre de 2025>Versión rápida de producción: 14 de enero de 2026\
 >Producción para todos: 15 de enero de 2026
 
-Para facilitar la organización y el desorden de sus solicitudes, hemos añadido la capacidad de eliminar solicitudes a la nueva experiencia de solicitud. Ahora puede eliminar las solicitudes que haya enviado. Los administradores de Workfront y de Workfront Planning Workspace también pueden eliminar solicitudes.
+Para facilitar la organización y el desorden de sus solicitudes, hemos añadido la capacidad de eliminar solicitudes a la nueva experiencia de creación de solicitudes. Ahora puede eliminar las solicitudes que haya enviado. Los administradores de Workfront y de Workfront Planning Workspace también pueden eliminar solicitudes.
 
-Anteriormente, esta función no estaba disponible en la nueva experiencia de solicitud.
+Antes, esta función no estaba disponible en la nueva experiencia de solicitud.
 
 Para obtener información e instrucciones, consulte [Eliminar una solicitud enviada o un borrador de solicitud](/help/quicksilver/manage-work/requests/create-requests/delete-request-draft.md).
 
 
-## Crear nuevas solicitudes copiando las solicitudes enviadas anteriormente en la nueva experiencia de solicitud
+## Crear nuevas solicitudes copiando las solicitudes enviadas antes en la nueva experiencia de solicitud
 
 >[!NOTE]
 >
->Vista previa: 20 de noviembre de 2025
->Versión rápida de producción: 11 de diciembre de 2025\
+>Vista previa: 20 de noviembre de 2025>Versión rápida de producción: 11 de diciembre de 2025\
 >Producción para todos: 15 de enero de 2026
 
 Para facilitar el envío de solicitudes, se ha añadido la capacidad de copiar solicitudes a la nueva experiencia de solicitud. Ahora puede copiar una solicitud, editar cualquier campo y enviarla como una solicitud nueva.
 
-Anteriormente, esta funcionalidad no estaba disponible en la nueva experiencia de solicitud.
+Antes, esta funcionalidad no estaba disponible en la nueva experiencia de solicitud.
 
 Para obtener información sobre cómo copiar y enviar una solicitud, consulte [Copiar y enviar solicitudes](/help/quicksilver/manage-work/requests/create-requests/copy-and-submit-requests.md).
-
-
-
-
-
-
-

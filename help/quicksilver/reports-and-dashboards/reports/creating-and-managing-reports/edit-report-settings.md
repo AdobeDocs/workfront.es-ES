@@ -6,12 +6,18 @@ description: Puede editar la configuración de un informe para definir cómo se 
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 6fbbc557-65da-4ffe-968a-9c8db6a45811
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/GqhjJ-aQZfDJq4RYEtJoleC41CQtEJ-38aiSI43FHLE
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '612'
-ht-degree: 93%
+source-wordcount: 582
+ht-degree: 95%
 
 ---
 
@@ -72,7 +78,7 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
     <tbody> 
      <tr> 
       <td role="rowheader">Título del informe</td> 
-      <td>Especifique un título para el informe. </td> 
+      <td>Especifique un título para el informe.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Descripción</td> 
@@ -92,7 +98,7 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
      </tr> 
      <tr> 
       <td role="rowheader">Mostrar la vista Cuadrícula de recursos en la ficha Detalles</td> 
-      <td> <p>(Solo informe de usuario) Seleccione esta opción para mostrar la Cuadrícula de recursos en la ficha Detalles del informe.</p> <p>Nota: Al aplicar la vista Cuadrícula de recursos a un informe de usuario, el informe solo muestra los proyectos que se encuentran en el estado Actual. Si desea ver proyectos en cualquier otro estado, puede utilizar la ficha Utilización de usuarios en el área Personas de la barra de exploración global y aplicar allí la vista Cuadrícula de recursos.
+      <td> <p>(Solo informe de usuario) Seleccione esta opción para mostrar la Cuadrícula de recursos en la ficha Detalles del informe.</p> <p>Nota: Al aplicar la vista Cuadrícula de recursos a un informe de usuario, el informe sólo muestra los proyectos que se encuentran en el estado Actual. Si desea ver proyectos en cualquier otro estado, puede utilizar la ficha Utilización de usuarios en el área Personas de la barra de exploración global y aplicar allí la vista Cuadrícula de recursos.
       <!--
          <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
           For more information about using the Resource Grid, see the article Overview of the Resource Grid . (drafted because this article is drafted also: Article is in draft Feb 1, 2021)

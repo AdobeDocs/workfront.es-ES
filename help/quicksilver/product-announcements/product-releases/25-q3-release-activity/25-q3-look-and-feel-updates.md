@@ -5,10 +5,13 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 1a98053a-7f0d-4c87-a9eb-f081dade872c
-source-git-commit: 20e4c8619bd59ec8686da74582dbc2f25b9a79c7
+TQID: https://experienceleague.adobe.com/LOmNicwrY2J1WApASNS8-UJPbEldlePVaJS4jrLeEbU
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '144'
-ht-degree: 52%
+source-wordcount: 158
+ht-degree: 77%
 
 ---
 
@@ -30,4 +33,4 @@ Los mensajes del Centro de anuncios ahora coinciden con el estilo de las notific
 
 ## Modernización de interfaces
 
-Estamos actualizando la interfaz a través de Adobe Workfront para mejorar la experiencia del usuario y unificarla con otras aplicaciones de Adobe. Estos cambios se liberan fuera de la programación de versiones estándar. Para obtener una lista de estos cambios, consulte [Modernización de la interfaz](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).
+Estamos actualizando la interfaz a través de Adobe Workfront para mejorar la experiencia del usuario y unificarla con otras aplicaciones de Adobe. Estos cambios se lanzan fuera de la programación de la versión estándar. Para obtener una lista de estos cambios, consulte [Modernización de la interfaz](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).

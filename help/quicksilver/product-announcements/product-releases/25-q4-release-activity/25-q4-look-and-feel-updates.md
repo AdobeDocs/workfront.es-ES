@@ -5,10 +5,13 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 1acb64b8-b215-408e-93b0-6301b63d7880
-source-git-commit: e62d4cc5f5b00bbf4e99986c52e49d0c6465dca7
+TQID: https://experienceleague.adobe.com/sSpBQ-B-wyf-JM49O00vZz06fGi4slLe0vkrpLFMMHU
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '188'
-ht-degree: 40%
+source-wordcount: 202
+ht-degree: 60%
 
 ---
 
@@ -36,4 +39,4 @@ Este cambio es el resultado de una corrección del problema relacionado con el b
 
 ## Modernización de interfaces
 
-Estamos actualizando la interfaz a través de Adobe Workfront para mejorar la experiencia del usuario y unificarla con otras aplicaciones de Adobe. Estos cambios se liberan fuera de la programación de versiones estándar. Para obtener una lista de estos cambios, consulte [Modernización de la interfaz](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).
+Estamos actualizando la interfaz a través de Adobe Workfront para mejorar la experiencia del usuario y unificarla con otras aplicaciones de Adobe. Estos cambios se lanzan fuera de la programación de la versión estándar. Para obtener una lista de estos cambios, consulte [Modernización de la interfaz](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).

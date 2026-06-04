@@ -5,9 +5,12 @@ author: Lisa
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: df24d13e-d9ff-4c04-8669-9e0b6e4f6501
-source-git-commit: 9a705b985177489bf13181e8b36a6c52379d1251
+TQID: https://experienceleague.adobe.com/ulNcq0pM3iF92IAHGiB0-zpPYiRoUkyG2idj-rtJoRg
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '208'
+source-wordcount: 208
 ht-degree: 93%
 
 ---
@@ -34,4 +37,4 @@ En esta primera versión, el proceso de aprobación se ha optimizado tanto para 
 
 La opción Compartir se ha extraído del menú Más para proyectos, tareas y problemas para que el uso compartido sea más intuitivo. El nuevo botón Compartir se muestra ahora junto al nombre de un objeto, justo antes del menú Más. El uso compartido de documentos, portafolios y programas permanece sin cambios.
 
-Para obtener más información sobre el uso compartido de objetos, consulte [Compartir un objeto](https://experienceleague.adobe.com/es/docs/workfront/using/basics/grant-request-object-permissions/share-an-object).
+Para obtener más información sobre el uso compartido de objetos, consulte [Compartir un objeto](https://experienceleague.adobe.com/en/docs/workfront/using/basics/grant-request-object-permissions/share-an-object).

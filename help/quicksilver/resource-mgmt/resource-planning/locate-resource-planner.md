@@ -6,9 +6,15 @@ description: Puede utilizar el Planificador de recursos para administrar la asig
 author: Lisa
 feature: Resource Management
 exl-id: 0de749df-5af9-4124-8539-06b82dca2ec4
-source-git-commit: 987b6e9b5f6b1feb323906cf7c24f5024fc84663
+TQID: https://experienceleague.adobe.com/-p17GWsoDlmbZtZW3T47YGxOmgSOsMddnFfFXpW36C4
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2: id: d1573eb8-a2e8-4a06-9526-9c3410bf4914id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '471'
+source-wordcount: 461
 ht-degree: 92%
 
 ---
@@ -30,7 +36,7 @@ Puede utilizar el Planificador de recursos para administrar la asignación de su
  <col> 
  <tbody> 
   <tr> 
-   <td>paquete de Adobe Workfront</td> 
+   <td>Paquete de Adobe Workfront</td> 
    <td><p>Cualquiera</p></td>
   </tr> 
   <tr> 
@@ -79,7 +85,7 @@ Se muestra el Planificador de forma predeterminada.  Para obtener información s
 ![Planificador de recursos predeterminado](assets/qs-resource-management-area-with-planner-as-default-350x152.png)
 
 1. Haga clic en **Conjuntos de recursos** en el panel izquierdo.
-Para obtener información sobre la creación de conjuntos de recursos, consulte [Crear conjuntos de recursos](../../resource-mgmt/resource-planning/resource-pools/create-resource-pools.md).
+Para obtener información sobre cómo crear conjuntos de recursos, consulte [Crear conjuntos de recursos](../../resource-mgmt/resource-planning/resource-pools/create-resource-pools.md).
 
 ### Utilizar el Planificador de recursos para un proyecto {#use-the-resource-planner-for-one-project}
 

@@ -7,12 +7,18 @@ description: Los informes proporcionan visibilidad acerca de lo que sucede con u
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 478512af-a47c-4488-878a-581e238e0064
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/36hlWb4SKgHqZCt70lm6rt7l2V-qzpisXj6HJJUf9XQ
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: d87de1f9-8e24-4c4d-aa4c-a403075091a1id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '3292'
-ht-degree: 95%
+source-wordcount: 3259
+ht-degree: 93%
 
 ---
 
@@ -264,7 +270,7 @@ Para obtener información acerca de cómo crear y usar calendarios, consulte [In
 ## Uso de informes
 
 Después de crear informes y compartirlos con otros usuarios, puede realizar un seguimiento de la frecuencia con la que los usan.
-Para obtener información sobre el uso de los informes, incluida la frecuencia con la que se visualizan, el usuario que los consulta y los paneles de control en los que se muestran, consulte el artículo [Información general del uso de los informes](../../../reports-and-dashboards/reports/report-usage/report-usage-overview.md).
+Para obtener información sobre el uso de los informes, incluida la frecuencia con la que se visualizan, el usuario y los paneles en los que se muestran, consulte el artículo [Resumen del uso de los informes](../../../reports-and-dashboards/reports/report-usage/report-usage-overview.md).
 
 ## Términos comunes utilizados en referencia a los informes
 
@@ -364,7 +370,7 @@ Los siguientes términos se utilizan en referencia a los informes de Workfront:
      <li>En la pestaña Filtro</li> 
      <li>La pantalla Opciones avanzadas de la columna de la pestaña Columnas (Ver). Definir un calificador le permite comparar el Nombre de campo con otro campo o valor.</li> 
      <li> En una indicación personalizada<br><p>Para obtener información sobre las indicaciones, consulte <a href="/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md" class="MCXref xref">Añadir una indicación a un informe</a>.</p>.</li> 
-    </ul> <p>Por ejemplo, al generar un filtro para tareas cuya Fecha planificada de finalización es Hoy, debe seleccionar <strong>Igual</strong> en el campo Calificador y la fecha de hoy en el campo Fecha:</p> <p><em>Tarea &gt; Fecha planificada de finalización &gt; Igual &gt; (fecha de hoy)</em> </p> <p>En este escenario, el calificador es <strong>Igual</strong>.<br>Para obtener más información sobre los calificadores, consulte el artículo <a href="../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md" class="MCXref xref">Modificadores de filtro y condición</a>.</p> </td> 
+    </ul> <p>Por ejemplo, al generar un filtro para tareas cuya Fecha planificada de finalización es Hoy, debe seleccionar <strong>Igual</strong> en el campo Calificador y la fecha de hoy en el campo Fecha:</p> <p><em>Tarea &gt; Fecha planificada de finalización &gt; Igual &gt; (fecha de hoy)</em> </p> <p>En este escenario, el calificador es <strong>Igual</strong>.<br>Para obtener más información acerca de los calificadores, consulte el artículo <a href="../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md" class="MCXref xref">Modificadores de filtro y condición</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>Informe </td> 

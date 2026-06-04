@@ -7,9 +7,15 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 26bbc4a0-e5ed-4b5f-bfc2-f888362c1d22
-source-git-commit: 66d59467e7e9857ca5573b819d51da839ddbd4f7
+TQID: https://experienceleague.adobe.com/O9xy5YXPnfSooL6rSHuODkP2Bn-1wyC1569ZbsTfiYA
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87effid: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1850'
+source-wordcount: 1857
 ht-degree: 88%
 
 ---
@@ -20,7 +26,7 @@ Esta página describe todos los cambios disponibles más recientemente en el ent
 
 >[!IMPORTANT]
 >
->La funcionalidad descrita en esta página está sujeta a cambios antes de su disponibilidad en el entorno de producción.
+> La funcionalidad descrita en esta página está sujeta a cambios antes de su disponibilidad en el entorno de producción.
 
 Para ver una lista de todos los cambios realizados en 2018.1, consulte [Información general sobre la actividad de la versión 2018.1](../../../../product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018-1-release-activity-overview.md).
 
@@ -188,7 +194,7 @@ Los problemas ahora se incluyen de forma predeterminada en el registro de asunto
 
 Antes de este cambio, solo se podían agregar tareas al registro de pendientes. Si desea agregar un problema, primero tenía que convertirlo en una tarea antes de que se pudiera agregar.
 
-Para obtener información sobre el uso de los problemas en el registro de pendientes, consulte  [Administrar el registro de pendientes de Agile](../../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md).
+Para obtener información acerca de los problemas de uso en el registro de pendientes, consulte [Administrar el registro de pendientes de Agile](../../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md).
 
 ### Aplicar agrupaciones y filtros al registro de pendientes para un equipo ágil {#apply-groupings-and-filters-to-the-backlog-for-an-agile-team}
 
@@ -196,7 +202,7 @@ Las opciones de Agrupación y Filtro ahora están disponibles en el registro de 
 
 Antes de este cambio, podía aplicar en las vistas al registro de asuntos pendientes de Agile.
 
-Para obtener más información, consulte  [Administrar el registro de pendientes de Agile](../../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md) en  [Administrar el registro de pendientes de Agile](../../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md).
+Para obtener más información, consulte [Administrar el registro de pendientes de Agile](../../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md) en [Administrar el registro de pendientes de Agile](../../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md).
 
 ### Crear una iteración en blanco y actualizarla más tarde {#create-a-blank-iteration-and-update-it-later}
 

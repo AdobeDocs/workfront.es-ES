@@ -6,12 +6,17 @@ description: Puede filtrar un informe por el periodo de tiempo de una fecha que 
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 7dea484c-d38e-4786-85d0-f4c106cfa46f
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/6D9KNoW0cNsODeSbO-Oqi99xcggMKdnKnfJDCZAfLjg
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '947'
-ht-degree: 33%
+source-wordcount: 954
+ht-degree: 67%
 
 ---
 
@@ -92,22 +97,22 @@ Para obtener más información sobre la creación de informes, consulte [Crear u
 
    <tr> 
       <td role="rowheader">Menor que</td> 
-      <td>Después de seleccionar este modificador, especifique una fecha antes de la cual se ingresaron las horas. El informe muestra las horas ingresadas antes de la fecha especificada, sin incluir la fecha especificada.</td> 
+      <td>Después de seleccionar este modificador, especifique una fecha antes de la cual se introdujeron las horas. El informe muestra las horas ingresadas antes de la fecha especificada, sin incluir la fecha especificada.</td> 
      </tr>
 
    <tr> 
       <td role="rowheader">Menor o igual a</td> 
-      <td>Después de seleccionar este modificador, especifique una fecha antes de la cual se ingresaron las horas. El informe muestra las horas introducidas antes de la fecha especificada, incluida la fecha especificada.</td> 
+      <td>Después de seleccionar este modificador, especifique una fecha antes de la cual se introdujeron las horas. El informe muestra las horas introducidas antes de la fecha especificada, incluida la fecha especificada.</td> 
      </tr>
 
    <tr> 
       <td role="rowheader">Mayor que</td> 
-      <td>Después de seleccionar este modificador, especifique una fecha después de la cual se ingresaron las horas. El informe muestra las horas ingresadas después de la fecha especificada, sin incluir la fecha especificada.</td> 
+      <td>Después de seleccionar este modificador, especifique una fecha después de la cual se introdujeron las horas. El informe muestra las horas ingresadas después de la fecha especificada, sin incluir la fecha especificada.</td> 
      </tr>
 
    <tr> 
       <td role="rowheader">Mayor o igual a</td> 
-      <td> Después de seleccionar este modificador, especifique una fecha después de la cual se ingresaron las horas. El informe muestra las horas ingresadas después de la fecha especificada, incluida la fecha especificada. </td> 
+      <td> Después de seleccionar este modificador, especifique una fecha después de la cual se introdujeron las horas. El informe muestra las horas introducidas después de la fecha especificada, incluida la fecha especificada. </td> 
      </tr>
 
    <tr> 
@@ -117,12 +122,12 @@ Para obtener más información sobre la creación de informes, consulte [Crear u
 
    <tr> 
       <td role="rowheader">Nulo</td> 
-      <td>Seleccione este modificador para mostrar sólo las horas en las que falta la fecha de entrada.</td> 
+      <td>Seleccione este modificador para mostrar solo las horas en las que falta la fecha de entrada.</td> 
      </tr>
 
    <tr> 
       <td role="rowheader">No es nulo</td> 
-      <td>Seleccione este modificador para mostrar sólo las horas en las que la fecha de entrada tiene un valor.</td> 
+      <td>Seleccione este modificador para mostrar solo las horas en las que la fecha de entrada tiene un valor.</td> 
      </tr>
 
    </tbody> 
@@ -184,7 +189,7 @@ Por ejemplo, si está generando un informe de horas y desea mostrar las horas in
   </tr> 
   <tr> 
    <td role="rowheader">Último trimestre</td> 
-   <td> <p>Muestra las horas en las que la fecha de entrada es una fecha del trimestre anterior al trimestre actual, donde los trimestres se han definido anteriormente.</p> <p><b>NOTA</b></p>  Si el administrador de Workfront ha habilitado y definido trimestres personalizados para su sistema, los filtros integrados para trimestres se sustituyen por la información de trimestre personalizada. Para obtener más información acerca de cómo habilitar trimestres personalizados, vea <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md" class="MCXref xref">Habilitar trimestres personalizados</a>.</p> </td> 
+   <td> <p>Muestra las horas en las que la fecha de entrada es una fecha del trimestre anterior al actual, donde los trimestres se han definido anteriormente.</p> <p><b>NOTA</b></p>  Si el administrador de Workfront ha habilitado y definido trimestres personalizados para su sistema, los filtros integrados para trimestres se sustituyen por la información de trimestre personalizada. Para obtener más información acerca de cómo habilitar trimestres personalizados, vea <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md" class="MCXref xref">Habilitar trimestres personalizados</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Este año</td> 
@@ -196,7 +201,7 @@ Por ejemplo, si está generando un informe de horas y desea mostrar las horas in
   </tr> 
   <tr> 
    <td role="rowheader">Año pasado</td> 
-   <td> <p>Muestra las horas en las que la fecha de entrada es una fecha del último año, donde el último año comienza el 1 de enero y finaliza el 31 de diciembre del año anterior al año actual.</p> <p>Nota: No hay ningún período de tiempo integrado para el año fiscal. Puede crear un informe y filtrar la información por fecha utilizando un modificador personalizado para el intervalo de fechas del año fiscal, tal como está definido en su organización. Si desea elegir un periodo de tiempo para un año fiscal en el momento, debe utilizar un mensaje en lugar de un filtro. </p> </td> 
+   <td> <p>Muestra las horas en las que la fecha de entrada es una fecha del último año, donde el último año comienza el 1 de enero y finaliza el 31 de diciembre del año anterior al año actual.</p> <p>Nota: No hay ningún período de tiempo integrado para el año fiscal. Puede crear un informe y filtrar la información por fecha utilizando un modificador personalizado para el intervalo de fecha del año fiscal, tal como está definido en su organización. Si desea elegir un periodo de tiempo para un año fiscal en el momento, debe utilizar un mensaje en lugar de un filtro. </p> </td> 
   </tr> 
  </tbody> 
 </table>

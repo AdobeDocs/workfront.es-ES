@@ -1,20 +1,23 @@
 ---
-title: Mejoras en los proyectos del primer trimestre de 2025
-description: Mejoras en los proyectos del primer trimestre de 2025
+title: Mejoras del proyecto del primer trimestre de 2025
+description: Mejoras del proyecto del primer trimestre de 2025
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 998f3508-623e-471b-9ab7-bded5add6b5b
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/0Tc9nulw4JfEm-tIqCZ8IH-1AQdCyvEAAXiYaGCyhAs
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '181'
-ht-degree: 31%
+source-wordcount: 185
+ht-degree: 22%
 
 ---
 
-# Mejoras en los proyectos del primer trimestre de 2025
+# Mejoras del proyecto del primer trimestre de 2025
 
 Esta página describe todas las mejoras de proyecto realizadas con la versión del primer trimestre de 2025 en el entorno de vista previa. Estas mejoras estarán disponibles en el entorno de producción, como se ha indicado.
 

@@ -2,19 +2,23 @@
 content-type: overview;reference
 product-area: reports and dashboards
 navigation-topic: data connect
-title: Sugerencias, trucos y solución de problemas para la conexión de datos
+title: Consejos, trucos y solución de problemas para Data Connect
 description: Solución de problemas de Workfront Data Connect
 author: Courtney
 feature: Reports and Dashboards
-source-git-commit: f67f32cad9e5812838f3b204225a93455f4e56d7
+exl-id: 339897a4-ed81-45db-b431-7cab329af02d
+TQID: https://experienceleague.adobe.com/HEFk1KzwXLwtdinQMY8OYm9a7A9PiKpUKMUY142C6aE
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '32'
-ht-degree: 0%
+source-wordcount: 32
+ht-degree: 87%
 
 ---
 
-
-# Sugerencias, trucos y solución de problemas para la conexión de datos
+# Consejos, trucos y solución de problemas para Data Connect
 
 * [Tableau Desktop no puede establecer una conexión](/help/quicksilver/reports-and-dashboards/data-lake/tips-tricks-troubleshooting/cannot-load-data.md)
 * [La herramienta Power BI no se puede conectar con la contraseña proporcionada](/help/quicksilver/reports-and-dashboards/data-lake/tips-tricks-troubleshooting/cannot-connect-with-provided-password.md)

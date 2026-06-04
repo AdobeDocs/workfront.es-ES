@@ -6,10 +6,16 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: b0e2ce08-d9f7-4fb5-b35c-ba979ab9d03e
-source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
+TQID: https://experienceleague.adobe.com/7jiKsgfucD4HWoEz0nAKOGB4y2R0rpzAsq4vrNiyM3E
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: e14a7f57-c82c-4874-a495-5d036cbbdc3did: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2: id: b18b693b-6d59-4359-95fd-a386b7a615feid: d1573eb8-a2e8-4a06-9526-9c3410bf4914
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '2770'
-ht-degree: 99%
+source-wordcount: 2914
+ht-degree: 97%
 
 ---
 
@@ -47,7 +53,7 @@ En lugar de un seminario web sobre la versión, le invitamos a registrarse para 
             <tbody>
                 <tr>
                     <td>
-                        <p><span class="bold">Función</span>
+                        <p><span class="bold">Característica</span>
                         </p>
                     </td>
                     <td>
@@ -58,7 +64,7 @@ En lugar de un seminario web sobre la versión, le invitamos a registrarse para 
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-admin-enhancements.md" class="MCXref xref" xrefformat="{para}">Asignar valores de campo de Workfront a etiquetas en Experience Manager Assets</a>
-                        <p>Ahora puede categorizar y encontrar recursos rápidamente en función de los datos de Workfront. Puede asignar estos datos como parte de la configuración de metadatos en la integración de Workfront para Experience Manager Assets.</p>
+                        <p>Ahora puede categorizar y encontrar recursos rápidamente en función de los datos de Workfront.  Puede asignar estos datos como parte de la configuración de metadatos en la integración de Workfront para Experience Manager Assets.</p>
                     </td>
                     <td><p><b>Disponible en estas fechas:</b></p>
                         <ul>
@@ -90,7 +96,7 @@ En lugar de un seminario web sobre la versión, le invitamos a registrarse para 
                             </li>
                             <li>
                                  <p>Versión de producción: con la versión 23.2<br />
-                                 <span style="color: #ff0000;">La versión beta del diseñador de formularios se deshabilitó temporalmente en la versión preliminar y de producción del 24 de mayo al 21 de julio de 2023.</span></p>
+                                 <span style="color: #ff0000;">La versión beta del diseñador de formularios se deshabilitó temporalmente en Vista previa y producción del 24 de mayo al 21 de julio de 2023.</span></p>
                             </li>
                         </ul>
                     </td>
@@ -122,7 +128,7 @@ En lugar de un seminario web sobre la versión, le invitamos a registrarse para 
             <tbody>
                 <tr>
                     <td>
-                        <p><span class="bold">Función</span>
+                        <p><span class="bold">Característica</span>
                         </p>
                     </td>
                     <td>
@@ -270,7 +276,7 @@ En lugar de un seminario web sobre la versión, le invitamos a registrarse para 
                  <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Las colecciones ahora están disponibles en los tableros de Adobe Workfront</a></p>
-                        <p>Ahora puede crear colecciones en el panel de control de tableros. Una colección es un grupo de tableros para colaborar en un trabajo. Una vez que haya asignado un nombre a la colección, puede añadir tableros a la colección utilizando un conjunto de plantillas que ofrecen configuraciones predefinidas, como nombres de columnas. </p>
+                        <p>Ahora puede crear colecciones en el panel de control de tableros. Una colección es un grupo de tableros para colaborar en un trabajo. Una vez que haya asignado un nombre a la colección, puede añadir tableros a la colección utilizando un conjunto de plantillas que ofrecen configuraciones predefinidas, como nombres de columnas.</p>
                     </td>
                     <td><p><b>Disponible en estas fechas:</b></p>
                         <ul>
@@ -651,7 +657,7 @@ Para obtener información sobre novedades y actualizaciones, consulte [Novedades
 
 Para obtener información sobre las versiones de API, consulte [Versiones de la API y programación de soporte](/help/quicksilver/wf-api/api/api-version-support-schedule.md).
 
-### Actualizaciones de mantenimiento de Workfront 
+### Actualizaciones de mantenimiento de Workfront
 
 Para obtener información acerca de las actualizaciones de mantenimiento realizadas durante la versión 23.2, consulte [Actualizaciones de mantenimiento de Workfront](https://experienceleague.adobe.com/es/docs/workfront-known-issues/releases/current-updates).
 

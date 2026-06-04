@@ -5,12 +5,18 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 6c14bd61-60b1-49aa-84bd-d494a226d70e
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/JhnaFQbcX6-s-AsTT8icddervRkfGPi-MN0hU0gwBLA
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aadid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87effid: b91c0848-76c4-4da4-8b81-3aade0518dd0id: c10f2e93-7a58-4212-aa24-684c265ebe76id: c3a155b4-a54b-4a82-a3d2-c8f0f971673eid: d3382524-5489-431b-bde9-271ab257bc37id: d87de1f9-8e24-4c4d-aa4c-a403075091a1id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3id: fceb5125-bb41-419a-b0db-31958cb42f6c
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '2773'
-ht-degree: 66%
+source-wordcount: 2909
+ht-degree: 71%
 
 ---
 
@@ -66,7 +72,7 @@ Las <span class="preview">funciones fuera de ciclo que se enviaron a producción
             <tbody>
                 <tr>
                     <td>
-                        <p><span class="bold">Función</span>
+                        <p><span class="bold">Característica</span>
                         </p>
                     </td>
                     <td>
@@ -76,7 +82,7 @@ Las <span class="preview">funciones fuera de ciclo que se enviaron a producción
                  </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-admin-enhancements.md" class="MCXref xref" xrefformat="{para}">Decisiones de pruebas y documentos disponibles para los clientes del modelo de licencia heredado</a></p><p>[!BADGE In production &#x200B;]{type=Informative}</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-admin-enhancements.md" class="MCXref xref" xrefformat="{para}">Decisiones de pruebas y documentos disponibles para los clientes del modelo de licencia heredado</a></p><p>[!BADGE In production ]{type=Informative}</p>
                         <p>Los clientes heredados que aún no han realizado la transición al nuevo modelo de licencia de Adobe Workfront ahora pueden ver en un solo informe los datos con el número de decisiones de prueba/documento por usuario al mes. Estos datos están disponibles cuando se ejecuta un informe de Decisiones de usuarios.</p>
                     </td>
                     <td><p><b>Disponible en estas fechas:</b></p>
@@ -92,7 +98,7 @@ Las <span class="preview">funciones fuera de ciclo que se enviaron a producción
                 </tr>            
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-admin-enhancements.md" class="MCXref xref" xrefformat="{para}">Los campos calculados en los formularios personalizados ahora pueden utilizar el comodín $$USER</a></p><p>[!BADGE In production &#x200B;]{type=Informative}</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-admin-enhancements.md" class="MCXref xref" xrefformat="{para}">Los campos calculados en los formularios personalizados ahora pueden utilizar el comodín $$USER</a></p><p>[!BADGE In production ]{type=Informative}</p>
                         <p>El comodín $$USER ya está disponible en los campos personalizados calculados y en los campos de búsqueda externos del nuevo diseñador de formularios.</p>
                     </td>
                     <td><p><b>Disponible en estas fechas:</b></p>
@@ -112,7 +118,7 @@ Las <span class="preview">funciones fuera de ciclo que se enviaron a producción
                  <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-admin-enhancements.md" class="MCXref xref" xrefformat="{para}">Agregar opciones de valor de una API externa a un formulario personalizado</a></p>
-                        <p>[!BADGE In production &#x200B;]{type=Informative}</p>
+                        <p>[!BADGE In production ]{type=Informative}</p>
                         <p>Ahora hay disponible un nuevo tipo de campo, <strong>Búsqueda externa</strong>, en el diseñador de formularios personalizados. Cuando los datos están almacenados en un sistema externo, este tipo de campo le permite cargar opciones desde una API externa y filtrar según otros valores de campo del formulario personalizado.</p>
                     </td>
                     <td><p><b>Disponible en estas fechas:</b></p>
@@ -150,7 +156,7 @@ Las <span class="preview">funciones fuera de ciclo que se enviaron a producción
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-boards-enhancements.md" class="MCXref xref" xrefformat="{para}">Subtareas ahora disponibles en los paneles de Adobe Workfront</a></p><p>[!BADGE In production &#x200B;]{type=Informative}</p><p>Cuando se agrega una tarjeta conectada a un tablero para una tarea de Workfront, las subtareas existentes se importan en la tarjeta. Además, cuando se crea una subtarea en una tarjeta conectada, se agrega una subtarea a la tarea de Workfront.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-boards-enhancements.md" class="MCXref xref" xrefformat="{para}">Subtareas ahora disponibles en los paneles de Adobe Workfront</a></p><p>[!BADGE In production ]{type=Informative}</p><p>Cuando se agrega una tarjeta conectada a un tablero para una tarea de Workfront, las subtareas existentes se importan en la tarjeta. Además, cuando se crea una subtarea en una tarjeta conectada, se agrega una subtarea a la tarea de Workfront.</p>
                     </td>
                     <td><p><b>Disponible en estas fechas:</b></p>
                         <ul>
@@ -171,7 +177,7 @@ Las <span class="preview">funciones fuera de ciclo que se enviaron a producción
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-boards-enhancements.md" class="MCXref xref" xrefformat="{para}">Mejoras en las asignaciones de usuarios en tableros y tarjetas</a></p><p>[!BADGE In production &#x200B;]{type=Informative}</p><p>Ya hay disponibles mejoras que añaden flexibilidad al añadir usuarios a tableros y tarjetas en los tableros de Adobe Workfront.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-boards-enhancements.md" class="MCXref xref" xrefformat="{para}">Mejoras en las asignaciones de usuarios en tableros y tarjetas</a></p><p>[!BADGE In production ]{type=Informative}</p><p>Ya hay disponibles mejoras que añaden flexibilidad al añadir usuarios a tableros y tarjetas en los tableros de Adobe Workfront.</p>
                     </td>
                     <td><p><b>Disponible en estas fechas:</b></p>
                         <ul>
@@ -186,7 +192,7 @@ Las <span class="preview">funciones fuera de ciclo que se enviaron a producción
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-boards-enhancements.md" class="MCXref xref" xrefformat="{para}">Agregar documentos en tarjetas conectadas</a></p><p>[!BADGE In production &#x200B;]{type=Informative}</p><p>Ahora puede adjuntar documentos en tarjetas conectadas en los paneles de Adobe Workfront. Cualquier documento que agregue a la tarjeta estará disponible en la ficha Documentos de la tarea o el problema conectado y se admitirán los mismos tipos de archivo en ambas áreas.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-boards-enhancements.md" class="MCXref xref" xrefformat="{para}">Agregar documentos en tarjetas conectadas</a></p><p>[!BADGE In production ]{type=Informative}</p><p>Ahora puede adjuntar documentos en tarjetas conectadas en los paneles de Adobe Workfront. Cualquier documento que agregue a la tarjeta estará disponible en la ficha Documentos de la tarea o el problema conectado y se admitirán los mismos tipos de archivo en ambas áreas.</p>
                     </td>
                     <td><p><b>Disponible en estas fechas:</b></p>
                         <ul>
@@ -207,7 +213,7 @@ Las <span class="preview">funciones fuera de ciclo que se enviaron a producción
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-boards-enhancements.md" class="MCXref xref" xrefformat="{para}">Documentos disponibles en tarjetas conectadas como de solo lectura</a></p><p>[!BADGE In production &#x200B;]{type=Informative}</p><p>Para las tarjetas conectadas en los paneles de Adobe Workfront, ahora puede ver documentos como imágenes y PDF. Puede obtener una vista previa de un documento en el explorador o descargarlo en el equipo. </p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-boards-enhancements.md" class="MCXref xref" xrefformat="{para}">Documentos disponibles en tarjetas conectadas como de solo lectura</a></p><p>[!BADGE In production ]{type=Informative}</p><p>Para las tarjetas conectadas en los paneles de Adobe Workfront, ahora puede ver documentos como imágenes y PDF. Puede obtener una vista previa de un documento en el explorador o descargarlo en el equipo. </p>
                     </td>
                     <td><p><b>Disponible en estas fechas:</b></p>
                         <ul>
@@ -228,7 +234,7 @@ Las <span class="preview">funciones fuera de ciclo que se enviaron a producción
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-boards-enhancements.md" class="MCXref xref" xrefformat="{para}">Ya está disponible la vista de tablero de un proyecto para los problemas</a></p><p>[!BADGE In production &#x200B;]{type=Informative}</p><p>Ahora puede acceder a la vista del tablero de una lista de problemas del proyecto. El panel Kanban puede ayudarle a realizar un seguimiento del progreso de los problemas de una manera más visual que verlos en la lista. </p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-boards-enhancements.md" class="MCXref xref" xrefformat="{para}">Ya está disponible la vista de tablero de un proyecto para los problemas</a></p><p>[!BADGE In production ]{type=Informative}</p><p>Ahora puede acceder a la vista del tablero de una lista de problemas del proyecto. El panel Kanban puede ayudarle a realizar un seguimiento del progreso de los problemas de una manera más visual que verlos en la lista. </p>
                     </td>
                     <td><p><b>Disponible en estas fechas:</b></p>
                         <ul>
@@ -268,7 +274,7 @@ Las <span class="preview">funciones fuera de ciclo que se enviaron a producción
                  </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-financial-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Tarifas de facturación y de coste efectivas por fecha</a></p><p>[!BADGE In production &#x200B;]{type=Informative}</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-financial-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Tarifas de facturación y de coste efectivas por fecha</a></p><p>[!BADGE In production ]{type=Informative}</p>
                         <p>Ya están disponibles ahora el coste efectivo por fecha y las tarifas de facturación en los objetos de compañía, usuario y función de Workfront. Cuando se aplican tasas efectivas por fecha a un proyecto y las horas se registran en las tareas del proyecto, los costes e ingresos se calculan usando las tasas especificadas para cada período de tiempo.</p>
                     </td>
                     <td><p><b>Disponible en estas fechas:</b></p>
@@ -306,7 +312,7 @@ Las <span class="preview">funciones fuera de ciclo que se enviaron a producción
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-home-enhancements.md" class="MCXref xref" xrefformat="{para}">Botón de delegar trabajo para widgets de proyecto, tarea y problema</a> </p><p>[!BADGE In production &#x200B;]{type=Informative}</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-home-enhancements.md" class="MCXref xref" xrefformat="{para}">Botón de delegar trabajo para widgets de proyecto, tarea y problema</a> </p><p>[!BADGE In production ]{type=Informative}</p>
                         <p>Es una característica que se solicita con frecuencia en la página de inicio antigua. Ahora hemos añadido un botón Delegar a los widgets Mi trabajo, Mis tareas y Mis problemas para que pueda delegar fácilmente el trabajo cuando esté fuera de la oficina. Tenga en cuenta que la delegación de trabajo debe estar habilitada en el entorno de Workfront para que aparezca el botón.</p>
                     </td>
                     <td><p><b>Disponible en estas fechas:</b></p>
@@ -325,8 +331,8 @@ Las <span class="preview">funciones fuera de ciclo que se enviaron a producción
                 </tr>                
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-home-enhancements.md" class="MCXref xref" xrefformat="{para}">Nuevo widget de tableros para la nueva página de inicio</a> </p><p>[!BADGE In production &#x200B;]{type=Informative}</p>
-                        <p>En una nueva adición importante a las opciones de administración de trabajo disponibles en Nueva página de inicio, ahora puede mostrar un tablero en su página de inicio.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-home-enhancements.md" class="MCXref xref" xrefformat="{para}">Nuevo widget de tableros para la nueva página de inicio</a> </p><p>[!BADGE In production ]{type=Informative}</p>
+                        <p>En una nueva adición importante a las opciones de administración de trabajo disponibles en el nuevo inicio, ahora puede mostrar un tablero en su página de inicio.</p>
                     </td>
                     <td><p><b>Disponible en estas fechas:</b></p>
                         <ul>
@@ -344,8 +350,8 @@ Las <span class="preview">funciones fuera de ciclo que se enviaron a producción
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-home-enhancements.md" class="MCXref xref" xrefformat="{para}">Nueva página de aterrizaje predeterminada de colaborador: Nueva página de inicio</a>  </p><p>[!BADGE In production &#x200B;]{type=Informative}</p>
-                        <p>La nueva página de inicio es ahora la página de destino predeterminada para las cuentas de colaborador/solicitante. Esta nueva página de inicio predeterminada incluye una serie de widgets seleccionados específicamente para permitir a los colaboradores administrar mejor su trabajo de inmediato.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-home-enhancements.md" class="MCXref xref" xrefformat="{para}">Nueva página de aterrizaje predeterminada de colaborador: Nueva página de inicio</a>  </p><p>[!BADGE In production ]{type=Informative}</p>
+                        <p>La nueva página de inicio es ahora la página de destino predeterminada para las cuentas de colaborador/solicitante. Esta nueva página de inicio predeterminada incluye una serie de widgets seleccionados específicamente para que los colaboradores puedan administrar mejor su trabajo de inmediato.</p>
                     </td>
                     <td><p><b>Disponible en estas fechas:</b></p>
                         <ul>
@@ -364,8 +370,8 @@ Las <span class="preview">funciones fuera de ciclo que se enviaron a producción
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-home-enhancements.md" class="MCXref xref" xrefformat="{para}">Cambios en el seguimiento de trabajo en la nueva página de inicio </a> </p>
-                        <p>[!BADGE In production &#x200B;]{type=Informative}</p>
-                        <p>En función de los comentarios de los usuarios, hemos eliminado el filtro de intervalo de tiempo de toda la página y la barra de resumen que contabilizaba las tareas pendientes y completadas. Los widgets Proyecto, Tarea y Problema tienen funciones de filtrado integradas que le permiten personalizar su ámbito de manera individual.</p>
+                        <p>[!BADGE In production ]{type=Informative}</p>
+                        <p>En función de los comentarios de los usuarios, hemos eliminado el filtro de intervalo de tiempo de toda la página y la barra de resumen que contabilizaba las tareas pendientes y completadas. Los widgets Proyecto, Tarea y Problema tienen cada uno de ellos funciones de filtrado integradas que le permiten personalizar su ámbito de manera individual.</p>
                     </td>
                     <td><p><b>Disponible en estas fechas:</b></p>
                         <ul>
@@ -384,8 +390,8 @@ Las <span class="preview">funciones fuera de ciclo que se enviaron a producción
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-home-enhancements.md" class="MCXref xref" xrefformat="{para}">Nuevos botones de acción rápida para el widget Mi trabajo</a> </p>
-                        <p>[!BADGE In production &#x200B;]{type=Informative}</p>
-                        <p>Para ampliar aún más su capacidad de administrar el trabajo directamente desde la nueva página de inicio, se han agregado nuevos botones de acción rápida al widget Mi trabajo.</p>
+                        <p>[!BADGE In production ]{type=Informative}</p>
+                        <p>Para ampliar aún más la capacidad de administrar el trabajo directamente desde la nueva página de inicio, se han añadido nuevos botones de acción rápida al widget Mi trabajo.</p>
                     </td>
                     <td><p><b>Disponible en estas fechas:</b></p>
                         <ul>
@@ -404,7 +410,7 @@ Las <span class="preview">funciones fuera de ciclo que se enviaron a producción
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-home-enhancements.md" class="MCXref xref" xrefformat="{para}">Nuevas opciones de filtro para la nueva página de inicio</a> </p>
-                        <p>[!BADGE In production &#x200B;]{type=Informative}</p>
+                        <p>[!BADGE In production ]{type=Informative}</p>
                         <p>Ahora hay nuevas opciones de filtro disponibles para el widget Mi trabajo en la nueva página de inicio. Las opciones incluyen filtros para tipos de objeto (tareas, problemas y solicitudes) y estados (no listo, listo para comenzar, trabajando en ello y completado).</p>
                     </td>
                     <td><p><b>Disponible en estas fechas:</b></p>
@@ -423,7 +429,7 @@ Las <span class="preview">funciones fuera de ciclo que se enviaron a producción
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-home-enhancements.md" class="MCXref xref" xrefformat="{para}">Compatibilidad con terminología personalizada para la nueva página de inicio</a> </p><p>[!BADGE In production &#x200B;]{type=Informative}</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-home-enhancements.md" class="MCXref xref" xrefformat="{para}">Compatibilidad con terminología personalizada para la nueva página de inicio</a> </p><p>[!BADGE In production ]{type=Informative}</p>
                         <p>Para satisfacer mejor las necesidades únicas de las organizaciones, la nueva página de inicio ahora utiliza terminología personalizada para los objetos tal como se definen en las plantillas de diseño de una instancia. Por ejemplo, si los objetos "Proyecto" se han vuelto a etiquetar como "Campañas" en la instancia de Workfront, el widget Mis proyectos se mostrará como Mis campañas en la nueva página de inicio.</p>
                     </td>
                     <td><p><b>Disponible en estas fechas:</b></p>
@@ -440,7 +446,7 @@ Las <span class="preview">funciones fuera de ciclo que se enviaron a producción
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-home-enhancements.md" class="MCXref xref" xrefformat="{para}">Se ha eliminado el botón Probar nueva página de inicio en las cuentas que tienen deshabilitada la nueva página de inicio</a> </p>
-                        <p>[!BADGE In production &#x200B;]{type=Informative}</p>
+                        <p>[!BADGE In production ]{type=Informative}</p>
                         <p>El botón Pruebe el nuevo Inicio ya no está presente en las cuentas en las que se ha deshabilitado el nuevo Inicio. El administrador del sistema debe volver a habilitar el nuevo Inicio para que los usuarios individuales puedan utilizar el botón para probar el nuevo Inicio.</p>
                     </td>
                     <td><p><b>Disponible en estas fechas:</b></p>
@@ -460,7 +466,7 @@ Las <span class="preview">funciones fuera de ciclo que se enviaron a producción
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-home-enhancements.md" class="MCXref xref" xrefformat="{para}">Cambiar al nuevo conjunto de widgets predeterminado de inicio</a> </p>
-                        <p>[!BADGE In production &#x200B;]{type=Informative}</p>
+                        <p>[!BADGE In production ]{type=Informative}</p>
                         <p>El widget Tareas pendientes, que requiere permiso para crear tareas, ahora solo está presente en el conjunto de widgets predeterminado para usuarios con los tipos de licencia Standard, Plan o Work. Además, el widget se ha eliminado automáticamente de las páginas de inicio de los usuarios con todos los demás tipos de licencias.</p>
                     </td>
                     <td><p><b>Disponible en estas fechas:</b></p>
@@ -498,7 +504,7 @@ Las <span class="preview">funciones fuera de ciclo que se enviaron a producción
                  </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Mejoras en la experiencia al enviar documentos a SharePoint (GraphAPI)</a></p><p>[!BADGE In production &#x200B;]{type=Informative}</p><p>Se han realizado algunos cambios para facilitar la localización de carpetas al enviar documentos a las carpetas de SharePoint (GraphAPI)</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Mejoras en la experiencia al enviar documentos a SharePoint (GraphAPI)</a></p><p>[!BADGE In production ]{type=Informative}</p><p>Se han realizado algunos cambios para facilitar la localización de carpetas al enviar documentos a las carpetas de SharePoint (GraphAPI)</p>
                     </td>
                     <td><p><b>Disponible en estas fechas:</b></p>
                         <ul>
@@ -513,7 +519,7 @@ Las <span class="preview">funciones fuera de ciclo que se enviaron a producción
                 </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Actualizaciones a arrastrar y soltar para integraciones de documentos</a></p><p>[!BADGE In production &#x200B;]{type=Informative}</p><p>Se han realizado algunas mejoras para aclarar y eliminar los errores de usuario al arrastrar y soltar un archivo en una carpeta vinculada.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Actualizaciones a arrastrar y soltar para integraciones de documentos</a></p><p>[!BADGE In production ]{type=Informative}</p><p>Se han realizado algunas mejoras para aclarar y eliminar los errores de usuario al arrastrar y soltar un archivo en una carpeta vinculada.</p>
                     </td>
                     <td><p><b>Disponible en estas fechas:</b></p>
                         <ul>
@@ -547,8 +553,8 @@ Las <span class="preview">funciones fuera de ciclo que se enviaron a producción
                  </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Nuevas aprobaciones de documentos</a> </p><p>[!BADGE In production &#x200B;]{type=Informative}</p>
-                        <p>En esta versión, el proceso de aprobación se ha optimizado tanto para la creación de aprobaciones como para la aprobación/revisión de documentos, además de las nuevas funcionalidades.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Nuevas aprobaciones de documentos</a> </p><p>[!BADGE In production ]{type=Informative}</p>
+                        <p>En esta versión, el proceso de aprobación se ha optimizado tanto para la creación de aprobaciones como para la aprobación/revisión de documentos, además de que se ha incorporado nueva funcionalidad.</p>
                     </td>
                     <td><p><b>Disponible en estas fechas:</b></p>
                         <ul>
@@ -585,7 +591,7 @@ Las <span class="preview">funciones fuera de ciclo que se enviaron a producción
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Diseño actualizado al agregar un problema nuevo a un proyecto</a> </p>
-                        <p>[!BADGE In production &#x200B;]{type=Informative}</p>
+                        <p>[!BADGE In production ]{type=Informative}</p>
                         <p>Esta actualización se ha anunciado con la versión 23.3.</p>
                         <p>Hemos actualizado el cuadro Nuevo problema que se muestra al enviar un problema nuevo a un proyecto. Ahora, la interfaz coincide con el cuadro Nueva solicitud que se muestra al enviar una nueva solicitud a una cola de solicitudes.</p>
                     </td>
@@ -606,7 +612,7 @@ Las <span class="preview">funciones fuera de ciclo que se enviaron a producción
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Nuevo cálculo dinámico de campos calculados en formularios</a></p>
-                        <p>[!BADGE In production &#x200B;]{type=Informative}</p>
+                        <p>[!BADGE In production ]{type=Informative}</p>
                         <p>Los campos calculados de un formulario adjunto a un objeto ahora se vuelven a calcular dinámicamente en tiempo real cuando se modifican los valores dependientes de cualquier formulario de la página. Esto permite ver los resultados actualizados sin guardar el formulario.</p>
                     </td>
                     <td><p><b>Disponible en estas fechas:</b></p>
@@ -626,7 +632,7 @@ Las <span class="preview">funciones fuera de ciclo que se enviaron a producción
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Establecer horas planificadas en tareas secundarias recurrentes con tipo de duración simple sin asignaciones</a></p>
-                        <p>[!BADGE In production &#x200B;]{type=Informative}</p>
+                        <p>[!BADGE In production ]{type=Informative}</p>
                         <p>Hemos realizado un cambio en la forma en que se asignan las horas planificadas a tareas recurrentes sin asignaciones y con un tipo de duración sencillo. Ahora, cuando establece horas planificadas en una nueva tarea recurrente con un tipo de duración sencillo y sin asignaciones, las horas también se asignan a la periodicidad individual. Antes de este cambio, las horas no se guardaban como periodicidad individual cuando se quitaba la asignación de las tareas principales.</p>
                     </td>
                     <td><p><b>Disponible en estas fechas:</b></p>
@@ -664,7 +670,7 @@ Las <span class="preview">funciones fuera de ciclo que se enviaron a producción
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Cambios en el menú principal del colaborador</a> </p><p>[!BADGE In production &#x200B;]{type=Informative}</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Cambios en el menú principal del colaborador</a> </p><p>[!BADGE In production ]{type=Informative}</p>
                         <p>Para informar mejor a los colaboradores/solicitantes de las funciones disponibles con un tipo de licencia de Workfront de pago, ahora pueden ver todas las opciones disponibles en el menú principal.</p>
                     </td>
                     <td><p><b>Disponible en estas fechas:</b></p>
@@ -684,7 +690,7 @@ Las <span class="preview">funciones fuera de ciclo que se enviaron a producción
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md" class="MCXref xref" xrefformat="{para}">Nuevas mejoras de la versión beta de comentarios</a> </p>
-                        <p>[!BADGE In production &#x200B;]{type=Informative}</p>
+                        <p>[!BADGE In production ]{type=Informative}</p>
                         <p>Las mejoras de la sección Actualizaciones se están poniendo a disposición de los usuarios dentro del periodo de tiempo de la versión del cuarto trimestre de 2023 para la experiencia de comentarios beta. Estas mejoras estarán disponibles en el entorno de producción para todos los clientes con la versión del cuarto trimestre de 2023 (octubre de 2023).</p>
                     </td>
                     <td><p><b>Disponible en estas fechas:</b></p>
@@ -704,7 +710,7 @@ Las <span class="preview">funciones fuera de ciclo que se enviaron a producción
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-release-activity.md" class="MCXref xref" xrefformat="{para}">Nuevas mejoras en la versión beta de paneles de lienzo</a> </p>
-                        <p>[!BADGE In production &#x200B;]{type=Informative}</p>
+                        <p>[!BADGE In production ]{type=Informative}</p>
                         <p>Las mejoras en los paneles de lienzo están disponibles dentro del periodo de tiempo de la versión del cuarto trimestre de 2023 como parte de la versión beta en curso. Estas mejoras estarán disponibles en el entorno de producción para todos los clientes con la versión del cuarto trimestre de 2023 (octubre de 2023).</p>
                     </td>
                     <td><p><b>Disponible en estas fechas:</b></p>
@@ -723,7 +729,7 @@ Las <span class="preview">funciones fuera de ciclo que se enviaron a producción
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-look-and-feel-updates.md" class="MCXref xref" xrefformat="{para}">Actualizaciones de aspecto durante el cuarto trimestre de 2023</a></p><p>[!BADGE In production &#x200B;]{type=Informative}</p><p>En el cuarto trimestre de 2023 se realizarán actualizaciones menores del aspecto de varias áreas de la aplicación Adobe Workfront. Revise las notas de la versión individuales para ver fechas de lanzamiento específicas.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-look-and-feel-updates.md" class="MCXref xref" xrefformat="{para}">Actualizaciones de aspecto durante el cuarto trimestre de 2023</a></p><p>[!BADGE In production ]{type=Informative}</p><p>En el cuarto trimestre de 2023 se realizarán actualizaciones menores del aspecto de varias áreas de la aplicación Adobe Workfront. Revise las notas de la versión individuales para ver fechas de lanzamiento específicas.</p>
                     </td>
                     <td><p><b>Disponible en estas fechas:</b></p>
                         <ul>
@@ -785,7 +791,7 @@ Tenga en cuenta que la aplicación móvil de Workfront requiere un inicio de ses
 
 #### Flujos de trabajo eliminados para las cuentas que no los utilizan
 
-En el caso de las cuentas que nunca han creado un flujo de trabajo en los paneles de Adobe Workfront, el área Flujos de trabajo se ha eliminado del panel Tableros al 11 de octubre de 2023. Las cuentas que sí utilizan flujos de trabajo siguen teniendo acceso a ellas. En futuras versiones se abordará la funcionalidad mejorada de depuración.
+En el caso de las cuentas que nunca han creado un flujo de trabajo en los paneles de Adobe Workfront, el área Flujos de trabajo se ha eliminado del panel Tableros al 11 de octubre de 2023. Las cuentas que sí utilizan secuencias de trabajo siguen teniendo acceso a ellas. En futuras versiones se abordará la funcionalidad mejorada de depuración.
 
 <!--
  HTML you might need

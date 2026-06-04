@@ -6,10 +6,16 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: e86524d3-5f57-45b6-8582-102d2de92be4
-source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
+TQID: https://experienceleague.adobe.com/Ncl4u9f8zfI-DC671HutyHlrb0MAb0djOoUiYe90Vf8
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: e14a7f57-c82c-4874-a495-5d036cbbdc3did: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2: id: b18b693b-6d59-4359-95fd-a386b7a615feid: c33d85a1-be85-4290-854c-87408c10aa80id: d1807669-3cb9-4c7d-8433-600aa390c92fid: d3382524-5489-431b-bde9-271ab257bc37id: fceb5125-bb41-419a-b0db-31958cb42f6c
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '2462'
-ht-degree: 99%
+source-wordcount: 2558
+ht-degree: 98%
 
 ---
 
@@ -112,7 +118,7 @@ El seminario web de la versión 23.1 tuvo lugar el martes 10 de enero de 2023. P
             <tbody>
                 <tr>
                     <td>
-                        <p><span class="bold">Función</span>
+                        <p><span class="bold">Característica</span>
                         </p>
                     </td>
                     <td>
@@ -123,7 +129,7 @@ El seminario web de la versión 23.1 tuvo lugar el martes 10 de enero de 2023. P
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Planificación de Scrum para tableros de Workfront</a><span style="color: #ff0000;"> Muy pronto</span></p>
-                        <p>Las nuevas funciones de planificación de Scrum en los tableros de Adobe Workfront ofrecen opciones flexibles para administrar los procesos de Agile. Con estas herramientas, puede hacer lo siguiente:
+                        <p>Las nuevas funciones de planificación de Scrum en los tableros de Adobe Workfront ofrecen opciones flexibles para administrar los procesos de Agile. Con estas herramientas, puede:
                         <ul>
                         <li>Realizar un seguimiento del trabajo en iteraciones o sprints</li>
                         <li>Usar la velocidad para guiar los compromisos del equipo</li>
@@ -148,7 +154,7 @@ El seminario web de la versión 23.1 tuvo lugar el martes 10 de enero de 2023. P
                  <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Las fechas de vencimiento en las tarjetas se asignan a la fecha planificada de finalización en el objeto Workfront</a></p>
-                        <p>Las fechas de vencimiento de las tarjetas conectadas en los paneles de Workfront ahora se asignan a la fecha planificada de finalización del objeto de Workfront asociado. Si actualiza la fecha de vencimiento en una tarjeta, la fecha planificada de finalización se actualiza en la tarea o problema. Al cambiar la fecha planificada de finalización, también se modifica la fecha de vencimiento de la tarjeta. </p>
+                        <p>Las fechas de vencimiento de las tarjetas conectadas en los paneles de Workfront ahora se asignan a la fecha planificada de finalización del objeto de Workfront asociado. Si actualiza la fecha de vencimiento en una tarjeta, la fecha planificada de finalización se actualiza en la tarea o problema. Al cambiar la fecha planificada de finalización, también se modifica la fecha de vencimiento de la tarjeta.</p>
                     </td>
                     <td><p><b>Disponible en estas fechas:</b></p>
                      <p>
@@ -398,7 +404,7 @@ El seminario web de la versión 23.1 tuvo lugar el martes 10 de enero de 2023. P
                  <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Nueva funcionalidad de control de lista en las páginas Filtros, Vistas y Agrupaciones del área de configuración.</a></p>
-                        <p>Se ha añadido la funcionalidad de control de lista a las páginas Filtros, Vistas y Agrupaciones del área de configuración. Aquí puede habilitar o deshabilitar filtros, vistas y agrupaciones para la plantilla de diseño.
+                        <p>Se ha agregado funcionalidad de control de lista a las páginas Filtros, Vistas y Agrupaciones del área de Configuración. Aquí puede habilitar o deshabilitar filtros, vistas y agrupaciones para la plantilla de diseño.
 </p>
                     </td>
                     <td><p><b>Disponible en estas fechas:</b></p>
@@ -519,7 +525,7 @@ Para obtener información sobre novedades y actualizaciones, consulte [Novedades
 
 Para obtener información sobre las versiones de la API, consulte [Versiones de API y programación de soporte](/help/quicksilver/wf-api/api/api-version-support-schedule.md).
 
-### Actualizaciones de mantenimiento de Workfront 
+### Actualizaciones de mantenimiento de Workfront
 
 Para obtener información acerca de las actualizaciones de mantenimiento realizadas durante la versión 22.3, consulte [Actualizaciones de mantenimiento de Workfront](https://experienceleague.adobe.com/es/docs/workfront-known-issues/releases/current-updates).
 

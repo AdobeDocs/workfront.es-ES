@@ -6,12 +6,17 @@ description: Es posible copiar un tablero y todo su contenido (informes, calenda
 author: Courtney
 feature: Reports and Dashboards
 exl-id: a88cc171-2bb1-40f0-a778-8dac7eecb718
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/35bVtVoOhwfK6dOYTHvBJpOVpwYySAf-XboXmvRGXvA
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '889'
-ht-degree: 98%
+source-wordcount: 891
+ht-degree: 91%
 
 ---
 
@@ -77,7 +82,7 @@ Para obtener información sobre cómo crear tableros, consulte [Creación de tab
 
    * **Hacer una copia:** El elemento se copia desde el tablero original y se muestra una nueva versión de ese elemento en el tablero nuevo. Los cambios realizados en el elemento del nuevo tablero no se reflejan en el elemento del tablero original. Del mismo modo, los cambios realizados en el elemento del tablero original no se reflejarán en el elemento del nuevo tablero.\
      Use esta opción cuando quiera modificar el informe original del tablero original.\
-     Por ejemplo: se copia un tablero llamado “Equipo B” y se le cambia el nombre a “Equipo A”. En el tablero “Equipo B” hay un informe llamado “Informe del equipo B”. Como este informe contiene datos específicos del Equipo B, selecciona la opción para realizar una copia de este informe, de modo que pueda personalizarlo para el Equipo A y cambiarle el nombre más adelante a “Informe del Equipo A”.\
+     Por ejemplo, se copia un tablero llamado &quot;Equipo B&quot; y se le cambia el nombre a &quot;Equipo A&quot;. En el tablero &quot;Equipo B&quot; hay un informe llamado &quot;Informe de equipo B&quot;. Dado que este informe contiene datos específicos del Equipo B, seleccione la opción para realizar una copia de este informe de modo que pueda personalizarlo para el Equipo A y cambiarle el nombre más adelante a &quot;Informe del Equipo A&quot;.\
      Con esta opción, se quitan los permisos de uso compartido del informe original del informe copiado. La opción Ejecutar este informe con los derechos de acceso a la información permanecerá intacta en el informe copiado.
 
    * **Usar original:** Muestra el elemento original en el nuevo tablero. Los cambios realizados en el elemento del nuevo tablero también se reflejarán en el elemento del tablero original. Del mismo modo, los cambios realizados en el elemento del tablero original se reflejarán en el elemento del nuevo tablero.\

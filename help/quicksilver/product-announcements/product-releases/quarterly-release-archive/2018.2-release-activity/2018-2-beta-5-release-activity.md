@@ -7,20 +7,26 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 0a8602aa-34c8-44d0-a102-9497d106f806
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+TQID: https://experienceleague.adobe.com/0JlkGC-ZucJr8R-AIrVZULqKmRWNL1ZnTohl50PWMLs
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87effid: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '3158'
-ht-degree: 100%
+source-wordcount: 3190
+ht-degree: 99%
 
 ---
 
 # Actividad de la versión 2018.2 de Beta 5
 
-Esta página describe todos los cambios más recientes disponibles en el entorno de vista previa con la versión 2018.2 de Beta 5.La funcionalidad está disponible en el entorno de vista previa desde el 1 de junio de 2018. Las mejoras de revisión incluidas en Beta 5 estarán disponibles en el entorno de vista previa el lunes, 4 de junio. Estará disponible en el entorno de producción en julio de 2018.
+Esta página describe todos los cambios más recientes disponibles en el entorno de vista previa con la versión 2018.2 de Beta 5. La funcionalidad está disponible en el entorno de vista previa desde el 1 de junio de 2018. Las mejoras de revisión incluidas en Beta 5 estarán disponibles en el entorno de vista previa el lunes, 4 de junio. Estará disponible en el entorno de producción en julio de 2018.
 
 >[!IMPORTANT]
 >
->La funcionalidad descrita en esta página está sujeta a cambios antes de su disponibilidad en el entorno de producción.
+> La funcionalidad descrita en esta página está sujeta a cambios antes de su disponibilidad en el entorno de producción.
 
 Para ver una lista de todos los cambios realizados en la versión 2018.2, consulte  [Información general de actividades de la versión 2018.2](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-release-activity-overview.md).
 
@@ -155,7 +161,7 @@ Antes de esta mejora, se cambiaba proporcionalmente el tamaño de la columna con
 
 Para obtener información sobre cómo cambiar el tamaño de las columnas que se están reorganizando en las listas, consulte [Modificar el ancho y el orden de las columnas](../../../../reports-and-dashboards/reports/reporting-elements/modify-column-width-order.md).
 
-Para participar en nuestro programa de pruebas beta de las mejoras actuales de la lista, consulte [Nuevo estudio de listas.](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront?profile.language=es) (se requiere inicio de sesión)
+Para participar en nuestro programa de pruebas beta para las mejoras de la lista actual, vea [Nuevo estudio de listas.](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront) (Se requiere inicio de sesión)
 
 ## Icono de compatibilidad con las nuevas listas de proyectos {#icon-support-for-the-new-project-lists}
 
@@ -256,7 +262,7 @@ Las siguientes mejoras estarán disponibles en la versión Beta de Android de la
    * Mi trabajo e Inicio
    * Notificaciones
    * Contactos
-   * Rutas de aprobación
+   * Aprobaciones
 
 * Nueva apariencia al ver la pestaña Detalles de un elemento
 
@@ -273,13 +279,13 @@ Para obtener más información sobre cómo registrarse para probar la versión b
 ## Mejoras en el visor de corrección (Workfront y Workfront Proof) {#proofing-viewer-enhancements-workfront-and-workfront-proof}
 
 * [Página de resumen de impresión actualizada](#updated-print-summary-page)
-* [Añadir usuarios a una prueba directamente desde el visor de corrección](#add-users-to-a-proof-directly-from-the-proofing-viewer)
+* [Añadir usuarios a una revisión directamente desde el visor de corrección](#add-users-to-a-proof-directly-from-the-proofing-viewer)
 * [Mostrar todas las herramientas de marcado en el visualizador de corrección](#display-all-markup-tools-in-the-proofing-viewer)
 * [Configurar opciones de ordenación predeterminadas en el visualizador de corrección](#configure-default-sorting-options-in-the-proofing-viewer)
 * [Ver aprobaciones de documentos de Workfront en el visualizador de corrección de escritorio](#view-workfront-document-approvals-in-the-desktop-proofing-viewer)
 * [Configurar vínculos que abren nuevas pestañas y ventanas para abrirlas en el visualizador de corrección de escritorio](#configure-links-that-open-new-tabs-and-windows-to-open-within-the-desktop-proofing-viewer)
 * [Indicador de presencia en el visualizador de corrección](#presence-indicator-in-the-proofing-viewer)
-* [Filtrar comentarios para mostrar una sola página para pruebas de URL interactivas en el visualizador de corrección de escritorio](#filter-comments-to-display-a-single-page-for-interactive-url-proofs-in-the-desktop-proofing-viewer)
+* [Filtrar comentarios para mostrar una sola página para revisiones de URL interactivas en el visualizador de corrección de escritorio](#filter-comments-to-display-a-single-page-for-interactive-url-proofs-in-the-desktop-proofing-viewer)
 * [Visualizador de corrección de escritorio para contenido estático y de vídeo](#desktop-proofing-viewer-for-static-and-video-content)
 * [Añadir dispositivos personalizados al sistema](#add-custom-devices-to-your-system)
 
@@ -289,13 +295,13 @@ La página Resumen de impresión se ha actualizado con una nueva apariencia y un
 
 Para obtener más información, consulte [Imprimir un resumen de prueba en Adobe Workfront](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/print-proof-summary-in-wf.md).
 
-### Añadir usuarios a una prueba directamente desde el visualizador de corrección {#add-users-to-a-proof-directly-from-the-proofing-viewer}
+### Añadir usuarios a una revisión directamente desde el visualizador de corrección {#add-users-to-a-proof-directly-from-the-proofing-viewer}
 
-Ahora puede añadir usuarios a una prueba directamente desde el visualizador de corrección web y el de escritorio. 
+Ahora puede añadir usuarios a una revisión directamente desde el visualizador de corrección web y el de escritorio. 
 
 Anteriormente, no se podía añadir usuarios individuales a una prueba. En su lugar, solo puede copiar la URL pública o el código incrustado.
 
-Para obtener más información, consulte [Compartir una prueba añadiendo usuarios](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/share-a-proof-in-proofing-viewer.md#sharing-with-individual-users) en el artículo  [Compartir una prueba del visualizador de corrección](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/share-a-proof-in-proofing-viewer.md).
+Para obtener más información, consulte [Compartir una revisión añadiendo usuarios](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/share-a-proof-in-proofing-viewer.md#sharing-with-individual-users) en el artículo  [Compartir una revisión del visualizador de corrección](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/share-a-proof-in-proofing-viewer.md).
 
 ### Mostrar todas las herramientas de marcado en el visor de corrección {#display-all-markup-tools-in-the-proofing-viewer}
 
@@ -309,7 +315,7 @@ Para obtener más información sobre el uso de opciones de marcado al revisar un
 
 ### Configurar las opciones de ordenación predeterminadas en el visor de corrección. {#configure-default-sorting-options-in-the-proofing-viewer}
 
-Ahora, cuando cambia la opción de ordenación dentro de la lista de comentarios en una prueba, esa opción se convierte en la opción de ordenación predeterminada la próxima vez que abra cualquier prueba dentro del visor de corrección web o del de escritorio. 
+Ahora, cuando cambia la opción de ordenación dentro de la lista de comentarios en una revisión, esa opción se convierte en la opción de ordenación predeterminada la próxima vez que abra cualquier revisión dentro del visor de corrección web o del de escritorio. 
 
 Para obtener más información, consulte el artículo.
 
@@ -319,7 +325,7 @@ Ahora puede tomar una decisión de aprobación de documento de Workfront en el v
 
 Anteriormente, solo el visor de corrección web le permitía tomar una decisión de aprobación del documento de Workfront. 
 
-Para obtener más información, consulte [Tomar una decisión sobre una prueba en el visor de corrección](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decisions-on-proof.md) del artículo [Tomar una decisión sobre una prueba en el visor de corrección](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decisions-on-proof.md).
+Para obtener más información, consulte [Tomar una decisión sobre una revisión en el visor de corrección](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decisions-on-proof.md) del artículo [Tomar una decisión sobre una revisión en el visor de corrección](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decisions-on-proof.md).
 
 ### Configurar vínculos que abren nuevas pestañas y ventanas para abrirlas en el visor de corrección de escritorio {#configure-links-that-open-new-tabs-and-windows-to-open-within-the-desktop-proofing-viewer}
 
@@ -335,9 +341,9 @@ Ahora, al revisar una prueba en el visor de corrección web o en el visor de cor
 
 Para obtener más información, consulte [Revisar una prueba simultáneamente con varios revisores](../../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/review-proof-with-multiple-reviewers.md).
 
-### Filtrar comentarios para mostrar una sola página para las pruebas de URL interactivas en el visor de corrección de escritorio {#filter-comments-to-display-a-single-page-for-interactive-url-proofs-in-the-desktop-proofing-viewer}
+### Filtrar comentarios para mostrar una sola página para las revisiones de URL interactivas en el visor de corrección de escritorio {#filter-comments-to-display-a-single-page-for-interactive-url-proofs-in-the-desktop-proofing-viewer}
 
-Al revisar una URL en una prueba interactiva en el visor de corrección de escritorio, ahora puede filtrar los comentarios para mostrar los comentarios realizados únicamente en la página actual. 
+Al revisar una URL en una revisión interactiva en el visor de corrección de escritorio, ahora puede filtrar los comentarios para mostrar los comentarios realizados únicamente en la página actual. 
 
 Antes de este cambio, esta opción solo estaba disponible para pruebas estáticas.
 
@@ -349,19 +355,19 @@ El visor de corrección de escritorio ahora admite contenido estático y de víd
 
 Anteriormente, solo admitía contenido interactivo.
 
-Para obtener información acerca de cómo configurar pruebas estáticas y de vídeo para que se abran en el visor de corrección de escritorio, consulte [Configurar ajustes del visor de corrección](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/configure-proofing-viewer-settings.md).
+Para obtener información acerca de cómo configurar revisiones estáticas y de vídeo para que se abran en el visor de corrección de escritorio, consulte [Configurar ajustes del visor de corrección](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/configure-proofing-viewer-settings.md).
 
 Para obtener más información acerca del visor de corrección de escritorio, consulte [Revisión de pruebas en el visor de corrección de escritorio.](https://support.workfront.com/hc/es-es/sections/360000686434)
 
 ### Añadir dispositivos personalizados al sistema {#add-custom-devices-to-your-system}
 
-Ahora puede añadir cualquier dispositivo personalizado al sistema, lo que permite a los usuarios revisar el contenido interactivo y simular cómo aparece en un dispositivo específico al revisar una prueba en el visor de corrección de escritorio.
+Ahora puede añadir cualquier dispositivo personalizado al sistema, lo que permite a los usuarios revisar el contenido interactivo y simular cómo aparece en un dispositivo específico al revisar una revisión en el visor de corrección de escritorio.
 
 Antes de este cambio, los usuarios solo podían elegir entre una lista de dispositivos estándar preconfigurados.
 
 Para obtener información sobre cómo añadir dispositivos personalizados, consulte
 
-Para obtener información sobre cómo los usuarios pueden seleccionar dispositivos al revisar el contenido interactivo, consulte [Cambiar la resolución de la prueba interactiva en el visor de corrección](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/view-interactive-content-as-it-appears-in-device.md).
+Para obtener información sobre cómo los usuarios pueden seleccionar dispositivos al revisar el contenido interactivo, consulte [Cambiar la resolución de la revisión interactiva en el visor de corrección](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/view-interactive-content-as-it-appears-in-device.md).
 
 ## Mejoras de revisión en Workfront {#proofing-enhancements-in-workfront}
 
@@ -420,9 +426,9 @@ Para obtener más información, consulte  [Glosario de terminología de Adobe W
 * [Crear una nueva versión de una prueba directamente desde el visor de revisión (Workfront Proof)](#create-a-new-version-of-a-proof-directly-from-the-proofing-viewer-workfront-proof)
 * [Nuevo vínculo de detalles de prueba en el visor de revisión y en el Visor de revisión de escritorio (Workfront Proof)](#new-proof-details-link-in-the-proofing-viewer-and-desktop-proofing-viewer-workfront-proof)
 
-### Crear una nueva versión de una prueba directamente desde el visor de pruebas (Workfront Proof) {#create-a-new-version-of-a-proof-directly-from-the-proofing-viewer-workfront-proof}
+### Crear una nueva versión de una revisión directamente desde el visor de revisiones (Workfront Proof) {#create-a-new-version-of-a-proof-directly-from-the-proofing-viewer-workfront-proof}
 
-Ahora puede crear una nueva versión de una prueba directamente desde el nuevo visor de pruebas y el Visor de pruebas de escritorio al realizar pruebas en Workfront Proof.
+Ahora puede crear una nueva versión de una revisión directamente desde el nuevo visor de revisiones y el Visor de revisiones de escritorio al realizar revisiones en Workfront Proof.
 
 Anteriormente, esta opción solo estaba disponible en el Visualizador flash heredado.
 
@@ -430,6 +436,6 @@ Para obtener más información, consulte [Copia de pruebas en Workfront Proof](.
 
 ### Nuevo vínculo de detalles de prueba en el visor de revisión y en el Visor de revisión de escritorio (Workfront Proof) {#new-proof-details-link-in-the-proofing-viewer-and-desktop-proofing-viewer-workfront-proof}
 
-Al ver una prueba en el visor de pruebas, los usuarios de Workfront Proof ahora pueden ir rápidamente a la página de detalles de prueba en Workfront Proof.
+Al ver una revisión en el visor de revisiones, los usuarios de Workfront Proof ahora pueden ir rápidamente a la página de detalles de revisión en Workfront Proof.
 
 Para obtener más información, consulte &quot;Visualización de detalles de prueba&quot;.

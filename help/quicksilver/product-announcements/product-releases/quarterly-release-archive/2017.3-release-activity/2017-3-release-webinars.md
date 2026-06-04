@@ -7,10 +7,15 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 3fb7498a-585d-4692-9217-434eef38ad40
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+TQID: https://experienceleague.adobe.com/FGBvFp-OolkU5IdUW2Xog2RmQyht1s41mta19WNx4bE
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: e14a7f57-c82c-4874-a495-5d036cbbdc3did: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '236'
-ht-degree: 0%
+source-wordcount: 241
+ht-degree: 90%
 
 ---
 
@@ -18,16 +23,16 @@ ht-degree: 0%
 
 Estos seminarios web se centraron en la funcionalidad incluida en la versión 2017.3. 
 
-La versión 2017.3 está disponible actualmente para probarla en la versión de vista previa; la versión 2017.3 estará disponible en el entorno de producción en noviembre de 2017.
+La versión 2017.3 está disponible actualmente para probarla en la versión de vista previa; la versión 2017.3 está disponible en el entorno de producción desde noviembre de 2017.
 
-Para ver información más detallada sobre la funcionalidad que se cubre en los seminarios web, consulte la página de [descripción general de la actividad de la versión 2017.3](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-release-activity-overview.md).
+Para ver información más detallada sobre la funcionalidad que se trata en los seminarios web, consulte la página de [Información general de la actividad de la versión 2017.3](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-release-activity-overview.md).
 
-Las siguientes grabaciones de seminarios web están disponibles:
+Están disponibles las siguientes grabaciones de seminarios web:
 
 * [Seminario web sobre la versión 2017.3](#2017-3-release-webinar)
-* [Versiones de vista previa de septiembre de Workfront 2017.3](#workfront-2017-3-september-preview-releases)
-* [Seminario web de Workfront 2017.3 Beta 1 y Beta 2](#workfront-2017-3-beta-1-and-beta-2-webinar)
-* [Seminario web de lanzamiento de agosto](#august-mobile-release-webinar)
+* [Versiones preliminares de septiembre de Workfront 2017.3](#workfront-2017-3-september-preview-releases)
+* [Seminario web sobre Workfront 2017.3 Beta 1 y Beta 2](#workfront-2017-3-beta-1-and-beta-2-webinar)
+* [Seminario web de la versión Mobile de agosto](#august-mobile-release-webinar)
 
 ## Seminario web sobre la versión 2017.3 {#2017-3-release-webinar}
 
@@ -37,20 +42,20 @@ Para su comodidad, el seminario web se divide en los siguientes temas:
 
 * [Introducción](#introduction)
 * [Mejoras en el proyecto](#project-enhancements)
-* [Mejoras en los informes](#reporting-enhancements)
+* [Mejoras en la creación de informes](#reporting-enhancements)
 * [Mejoras de Agile](#agile-enhancements)
 * [Mejoras en la administración de recursos](#resource-management-enhancements)
 * [Aplicaciones e integraciones](#apps-and-integrations)
-* [Mejoras de revisión](#proofing-enhancements)
+* [Mejoras en la revisión](#proofing-enhancements)
 * [Mejoras en la API](#api-enhancements)
 * [Conclusión](#conclusion)
 
-## Versiones de vista previa de septiembre de Workfront 2017.3 {#workfront-2017-3-september-preview-releases}
+## Versiones preliminares de septiembre de Workfront 2017.3 {#workfront-2017-3-september-preview-releases}
 
-El seminario web de versiones de vista previa de septiembre de 2017.3 de Workfront fue presentado por el equipo de preparación para la versión de Workfront el 26 de septiembre de 2017 a las 9:00 a. m. MT. Este seminario web se centra en la nueva funcionalidad que está disponible en Vista previa durante septiembre.
+El 26 de septiembre de 2017, el equipo de preparación para la versión de Workfront presentó el seminario web de versiones de vista previa de Workfront 2017.3 a las 9:00 AM MT. Este seminario web se centra en la nueva funcionalidad disponible en la vista previa durante septiembre.
 
 ## Seminario web de Workfront 2017.3 Beta 1 y Beta 2 {#workfront-2017-3-beta-1-and-beta-2-webinar}
 
-El seminario web de la versión 2017.3 de Beta 1 y Beta 2 fue presentado por el equipo de preparación para la versión de Workfront el 23 de agosto de 2017. Este seminario web se centra en la nueva funcionalidad que está disponible en Vista previa durante agosto.
+El 23 de agosto de 2017, el equipo de preparación presentó el seminario web de la versión 2017.3 de Beta 1 y Beta 2 para la versión de Workfront. Este seminario web se centra en la nueva funcionalidad disponible en la vista previa durante agosto.
 
-## Seminario web de lanzamiento de agosto {#august-mobile-release-webinar}
+## Seminario web de la versión Mobile de agosto {#august-mobile-release-webinar}

@@ -5,12 +5,16 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 29d8b581-27c9-4215-8147-8044b3e2bc5e
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/BH2uI58dlJweV-8QT9wqb2z4Bcqorzko78NE3beuqWA
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '700'
-ht-degree: 96%
+source-wordcount: 741
+ht-degree: 95%
 
 ---
 
@@ -60,7 +64,7 @@ Hemos realizado las siguientes mejoras en la nueva experiencia de comentarios:
 
 Para obtener más información, consulte [Actualizar un trabajo](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
-[Ver una demostración en vídeo de esta característica.](https://video.tv.adobe.com/v/3427992/){target=_blank} (la discusión de esta característica específica comienza a las 2:47)
+[Ver una demostración en vídeo de esta característica.](https://video.tv.adobe.com/v/3427992/){target=_blank} (La discusión de esta característica específica comienza a las 2:47)
 
 ## La pestaña Actividad del sistema de la nueva experiencia de comentarios admite comentarios de solo lectura
 
@@ -72,7 +76,7 @@ Los comentarios realizados en los registros de actividad del sistema de la exper
 
 Para más información, consulte [Información general de la sección de actualizaciones](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
-[Ver una demostración en vídeo de esta característica.](https://video.tv.adobe.com/v/3427992/){target=_blank} (la discusión de esta característica específica comienza a las 2:00)
+[Ver una demostración en vídeo de esta característica.](https://video.tv.adobe.com/v/3427992/){target=_blank} (La discusión de esta característica específica comienza a las 2:00)
 
 ## Nueva pestaña de flujo de actualizaciones para capturar tanto los comentarios como las entradas de actividad del sistema
 
@@ -86,7 +90,7 @@ La pestaña Todos es de solo lectura. No es posible responder a comentarios ni e
 
 Para obtener más información, consulte [Información general de la sección de actualizaciones](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
-[Ver una demostración en vídeo de esta característica.](https://video.tv.adobe.com/v/3427992/){target=_blank} (la discusión de esta característica específica comienza a las 0:31)
+[Ver una demostración en vídeo de esta característica.](https://video.tv.adobe.com/v/3427992/){target=_blank} (La discusión de esta característica específica comienza en 0:31)
 
 ## Nuevo flujo de comentarios ahora disponible en el panel Resumen
 
@@ -98,4 +102,4 @@ Hemos añadido la nueva funcionalidad de comentarios al panel Resumen de las lis
 
 Para obtener más información, consulte [Información general sobre el resumen](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md).
 
-[Ver una demostración en vídeo de esta característica.](https://video.tv.adobe.com/v/3427991/){target=_blank}
+[Vea un vídeo de demostración de esta función.](https://video.tv.adobe.com/v/3427991/){target=_blank}

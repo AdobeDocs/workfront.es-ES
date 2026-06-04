@@ -1,18 +1,21 @@
 ---
-title: Otras mejoras durante el periodo de tiempo de la versión del segundo trimestre de 2026
+title: Otras mejoras durante el segundo trimestre de 2026
 description: Otras mejoras durante el periodo de lanzamiento de segundo trimestre de 2026
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: be95161b-2443-464a-b91c-82a96d5354a2
-source-git-commit: 7a2ca1b61b2e8069445b1be162422660e3b4e100
+TQID: https://experienceleague.adobe.com/5Ny1A3FP4VF8la2a4wSpNlTSPGc-b5HtvozqPHNVmIU
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '596'
-ht-degree: 29%
+source-wordcount: 566
+ht-degree: 21%
 
 ---
 
-# Otras mejoras durante el periodo de tiempo de la versión del segundo trimestre de 2026
+# Otras mejoras durante el segundo trimestre de 2026
 
 Esta página describe las mejoras realizadas con la versión del segundo trimestre de 2026 en el entorno de vista previa. Estas mejoras estarán disponibles en el entorno de producción, como se ha indicado.
 
@@ -22,9 +25,7 @@ Para obtener una lista de todos los cambios disponibles en este punto del ciclo 
 
 >[!NOTE]
 >
->Vista previa: 2 de abril de 2026
->Versión rápida de producción: 15 de abril de 2026
->Producción para todos: viernes, 16 de abril de 2026
+>Vista previa: 2 de abril de 2026>Versión rápida de producción: 15 de abril de 2026>Producción para todos: 16 de abril de 2026
 
 Se ha añadido una nueva configuración para ajustar el alto de la fila en las listas mejoradas.
 
@@ -34,9 +35,7 @@ Para obtener más información, consulte [Usar listas mejoradas](/help/quicksilv
 
 >[!NOTE]
 >
->Vista previa: 2 de abril de 2026
->Versión rápida de producción: 15 de abril de 2026
->Producción para todos: viernes, 16 de abril de 2026
+>Vista previa: 2 de abril de 2026>Versión rápida de producción: 15 de abril de 2026>Producción para todos: 16 de abril de 2026
 
 Se han agregado los siguientes nombres personalizados para un equipo, grupo, compañía y filtro de rol en las listas mejoradas:
 
@@ -56,9 +55,7 @@ Para obtener más información, consulte [Usar listas mejoradas](/help/quicksilv
 
 >[!NOTE]
 >
->Vista previa: 2 de abril de 2026
->Versión rápida de producción: jueves, 15 de abril de 2026
->Producción para todos: viernes, 16 de abril de 2026
+>Vista previa: 2 de abril de 2026>Versión rápida de producción: 15 de abril de 2026>Producción para todos: 16 de abril de 2026
 
 Ahora puede aplicar formato condicional a las listas de solicitudes en el área Solicitudes y al widget Mis solicitudes en Inicio. Esta funcionalidad no existía en la vista de lista antes de esta mejora.
 
@@ -85,9 +82,7 @@ Para obtener más información, consulte [Crear y administrar vistas en el área
 
 >[!NOTE]
 >
->Vista previa: 2 de abril de 2026
->Versión rápida de producción: 15 de abril de 2026
->Producción para todos: viernes, 16 de abril de 2026
+>Vista previa: 2 de abril de 2026>Versión rápida de producción: 15 de abril de 2026>Producción para todos: 16 de abril de 2026
 
 Para facilitarle la búsqueda de las solicitudes que necesita, hemos agregado agrupaciones a la lista de solicitudes y al widget Mis solicitudes. Ahora puede agrupar las solicitudes por cualquier columna de la lista. Estas agrupaciones pasan a formar parte de la vista que está utilizando al crear la agrupación.
 
@@ -97,9 +92,8 @@ Para obtener más información sobre la creación de vistas para la lista de sol
 
 >[!NOTE]
 >
->Vista previa: 11 de diciembre de 2025
->Versión rápida de producción: jueves, 11 de febrero de 2026\
->Producción para todos: jueves, 11 de febrero de 2026
+>Vista previa: 11 de diciembre de 2025>Versión rápida de producción: 11 de febrero de 2026\
+>Producción para todos: 11 de febrero de 2026
 
 Para que las organizaciones puedan acceder a las ventajas de Adobe Unified Experience, seguimos poniéndola a disposición de los clientes de Workfront existentes.
 
@@ -113,4 +107,4 @@ El administrador de Workfront recibirá un mensaje del Centro de anuncios con re
 
 Para obtener más información, consulte [Adobe Unified Experience para Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
 
-[Ver una demostración en vídeo de esta característica.](https://video.tv.adobe.com/v/3412388/){target=_blank}
+[Vea un vídeo de demostración de esta función.](https://video.tv.adobe.com/v/3412388/){target=_blank}

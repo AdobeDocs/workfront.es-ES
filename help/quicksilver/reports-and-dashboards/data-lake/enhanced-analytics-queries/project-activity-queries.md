@@ -3,15 +3,19 @@ content-type: overview;reference
 product-area: reports and dashboards
 navigation-topic: data connect
 title: Consultas de actividad de proyecto
-description: Consultas mejoradas de Analytics
+description: Consultas de análisis mejorado
 author: Courtney
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: b7155160-4537-4919-bebf-72056b181bb6
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+TQID: https://experienceleague.adobe.com/rrgq-KAzkoN7rxIA-enWUgH7bl0xe39PBt4VQzbr4PQ
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '178'
-ht-degree: 3%
+source-wordcount: 178
+ht-degree: 13%
 
 ---
 
@@ -30,7 +34,7 @@ Antes de empezar, debe
 
 1. Establezca una conexión con la herramienta Business Intelligence (BI):
    1. [Crear una cuenta de lector o una conexión para Snowflake](/help/quicksilver/reports-and-dashboards/data-lake/create-a-reader-account.md)
-   1. [Establezca una conexión con Workfront Data Connect](/help/quicksilver/reports-and-dashboards/data-lake/share-data-externally.md)
+   1. [Establecimiento de una conexión con Workfront Data Conect](/help/quicksilver/reports-and-dashboards/data-lake/share-data-externally.md)
 
 Una vez establecida una conexión, puede utilizar las consultas de este artículo para extraer y visualizar datos.
 

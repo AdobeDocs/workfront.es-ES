@@ -6,12 +6,17 @@ description: Cuando compartas tus informes con otros usuarios en Adobe Workfront
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 0ea65b3f-fbcf-40f4-a4d1-4dd91619c349
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/cMNwyF5C2ms3E-934ybXnVsq8SsoZGoHdlSsiDh8FCY
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1146'
-ht-degree: 96%
+source-wordcount: 1148
+ht-degree: 94%
 
 ---
 
@@ -157,7 +162,7 @@ Para obtener información sobre cómo crear un informe, consulte [Crear un infor
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Mostrar texto</strong></td> 
-      <td> <p>Selecciona esta opción para mostrar una etiqueta personalizada para esta columna, en lugar de su valor real. Especifique el texto que se va a mostrar en lugar del valor en el campo proporcionado.</p> <p><b>IMPORTANTE</b></p> <p>Seleccionar <strong>Mostrar texto</strong> desactiva la capacidad de editar el texto en línea en esta columna.<br>Tampoco puede cambiar el valor de una columna Predecesora porque contiene lógica integrada.</p> </td> 
+      <td> <p>Selecciona esta opción para mostrar una etiqueta personalizada para esta columna, en lugar de su valor real. Especifique el texto que se va a mostrar en lugar del valor en el campo proporcionado.</p> <p><b>IMPORTANTE</b></p> <p>Si se selecciona <strong>Mostrar texto</strong>, se deshabilita la capacidad de editar en línea el texto de esta columna.<br>Además, no se puede cambiar el valor de una columna Predecesora porque contiene lógica integrada.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Aplicar a toda la fila</strong></td> 

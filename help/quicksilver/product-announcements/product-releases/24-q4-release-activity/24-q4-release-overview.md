@@ -5,12 +5,18 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 6cc67488-1ba9-4455-9152-366aaabf0939
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/9hpQYI71fmR-r3Wr6FaWpJlf2Dd2PcKlEl8rXiQ33cE
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87effid: d3382524-5489-431b-bde9-271ab257bc37id: d87de1f9-8e24-4c4d-aa4c-a403075091a1id: fceb5125-bb41-419a-b0db-31958cb42f6c
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '2194'
-ht-degree: 50%
+source-wordcount: 2308
+ht-degree: 48%
 
 ---
 
@@ -28,7 +34,7 @@ Las <span class="preview">funciones fuera de ciclo que se enviaron a producción
 >
 >| Versión mensual | Versión trimestral |
 >|----|----|
->| <ul><li>24.8 (viernes, 15 de agosto de 2024)</li><li>24.9 (12 de septiembre de 2024)</li><li>24.10 (17 de octubre de 2024)</li></ul> | <ul><li>24.10 (17 de octubre de 2024)</li></ul> |
+>| <ul><li>24.8 (15 de agosto de 2024)</li><li>24.9 (12 de septiembre de 2024)</li><li>24.10 (17 de octubre de 2024)</li></ul> | <ul><li>24.10 (17 de octubre de 2024)</li></ul> |
 >
 >Tenga en cuenta que, para la versión final de cada trimestre (24.10 este trimestre), los usuarios de la programación de versiones rápidas recibirán la versión un día antes.
 >
@@ -54,7 +60,7 @@ Las <span class="preview">funciones fuera de ciclo que se enviaron a producción
         <tbody>
             <tr>
                 <td>
-                    <p><span class="bold">Función</span>
+                    <p><span class="bold">Característica</span>
                     </p>
                 </td>
                 <td>
@@ -65,7 +71,7 @@ Las <span class="preview">funciones fuera de ciclo que se enviaron a producción
             <tr>
                 <td>
                     <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">Nivel de acceso ahora disponible en la promoción del entorno</a></p>
-                    [!BADGE In production &#x200B;]{type=Informative}
+                    [!BADGE In production ]{type=Informative}
                     <p>Para ampliar las capacidades de la funcionalidad de promoción del entorno, se ha añadido la capacidad de incluir niveles de acceso. Ahora puede configurar un nivel de acceso en un entorno de espacio aislado y luego promocionar ese nivel de acceso al entorno de producción.</p>
                 </td>
                 <td><p><b>Disponible en estas fechas:</b></p>
@@ -74,7 +80,7 @@ Las <span class="preview">funciones fuera de ciclo que se enviaron a producción
                             <p>Versión preliminar: viernes, 17 de octubre de 2024</p>
                         </li>
                         <li>
-                            <p>Versión de producción para todos los clientes: con la versión 24.10 (viernes, 17 de octubre de 2024)</p>
+                            <p>Versión de producción para todos los clientes: con la versión de 24.10 (17 de octubre de 2024)</p>
                         </li>
                     </ul>
                 </td>
@@ -82,7 +88,7 @@ Las <span class="preview">funciones fuera de ciclo que se enviaron a producción
             <tr>
                 <td>
                     <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">Un contador de formularios personalizados muestra el número de campos</a></p>
-                    [!BADGE In production &#x200B;]{type=Informative}
+                    [!BADGE In production ]{type=Informative}
                     <p>Los formularios personalizados están limitados a 500 campos. En un formulario largo, puede resultar difícil saber cuántos campos hay en el formulario y si se está acercando al límite. Se ha agregado un contador a los formularios personalizados en la parte inferior izquierda. El contador muestra cuántos campos se utilizan en el formulario y siempre está visible a medida que se desplaza por el diseñador de formularios.</p>
                 </td>
                 <td><p><b>Disponible en estas fechas:</b></p>
@@ -91,7 +97,7 @@ Las <span class="preview">funciones fuera de ciclo que se enviaron a producción
                             <p>Versión preliminar: miércoles, 01 de octubre de 2024</p>
                         </li>
                         <li>
-                            <p>Versión de producción para todos los clientes: con la versión 24.10 (viernes, 17 de octubre de 2024)</p>
+                            <p>Versión de producción para todos los clientes: con la versión de 24.10 (17 de octubre de 2024)</p>
                         </li>
                     </ul>
                 </td>
@@ -99,7 +105,7 @@ Las <span class="preview">funciones fuera de ciclo que se enviaron a producción
             <tr>
                 <td>
                     <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">Ahora hay disponible una opción "Seleccionar todo" en las plantillas de diseño</a></p>
-                    [!BADGE In production &#x200B;]{type=Informative}
+                    [!BADGE In production ]{type=Informative}
                     <p>Para ayudarle a mostrar y ocultar más fácilmente los campos con las plantillas de diseño, se ha agregado la casilla de verificación "Seleccionar todo" a las áreas Información general y Finanzas de la vista Detalles en una plantilla de diseño. Esta opción está disponible cuando ha seleccionado Proyecto, Tarea, Problema, Portfolio o Programa en "Personalizar lo que ven los usuarios".</p>
                 </td>
                 <td><p><b>Disponible en estas fechas:</b></p>
@@ -116,7 +122,7 @@ Las <span class="preview">funciones fuera de ciclo que se enviaron a producción
             <tr>
                 <td>
                     <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">Revertir paquetes de promoción de entorno</a></p>
-                    [!BADGE In production &#x200B;]{type=Informative}
+                    [!BADGE In production ]{type=Informative}
                     <p>Para que la promoción del entorno sea más flexible y fácil de usar, hemos habilitado la funcionalidad de reversión. Ahora, puede revertir paquetes en un plazo de 24 horas, lo que le permite restaurar más fácilmente las configuraciones anteriores que se han visto afectadas por un paquete de promoción de entorno.</p>
                 </td>
                 <td><p><b>Disponible en estas fechas:</b></p>
@@ -128,7 +134,7 @@ Las <span class="preview">funciones fuera de ciclo que se enviaron a producción
                             <p>Producción para la versión rápida: con la versión 24.9 (12 de septiembre de 2024)</p>
                         </li>
                         <li>
-                            <p>Versión de producción para todos los clientes: con la versión 24.10 (viernes, 17 de octubre de 2024)</p>
+                            <p>Versión de producción para todos los clientes: con la versión de 24.10 (17 de octubre de 2024)</p>
                         </li>
                     </ul>
                 </td>
@@ -187,7 +193,7 @@ Las <span class="preview">funciones fuera de ciclo que se enviaron a producción
                             <p><s>Versión preliminar: viernes, 03 de octubre de 2024</s></p>
                         </li>
                         <li>
-                            <p>Versión de producción para todos los clientes: con la versión 24.10 (viernes, 17 de octubre de 2024)</p>
+                            <p>Versión de producción para todos los clientes: con la versión de 24.10 (17 de octubre de 2024)</p>
                         </li>
                     </ul>
                 </td>
@@ -195,7 +201,7 @@ Las <span class="preview">funciones fuera de ciclo que se enviaron a producción
             <tr>
                 <td>
                     <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-document-mgmt-enhancements.md">Agregue rápidamente revisores y aprobadores anteriores a las nuevas versiones del documento</a></p>
-                    [!BADGE In production &#x200B;]{type=Informative}
+                    [!BADGE In production ]{type=Informative}
                     <p>Ahora puede agregar rápidamente revisores y aprobadores de versiones de documentos anteriores.</p>
                 </td>
                 <td><p><b>Disponible en estas fechas:</b></p>
@@ -204,7 +210,7 @@ Las <span class="preview">funciones fuera de ciclo que se enviaron a producción
                             <p>Versión preliminar: viernes, 03 de octubre de 2024</p>
                         </li>
                         <li>
-                            <p>Versión de producción para todos los clientes: con la versión 24.10 (viernes, 17 de octubre de 2024)</p>
+                            <p>Versión de producción para todos los clientes: con la versión de 24.10 (17 de octubre de 2024)</p>
                         </li>
                     </ul>
                 </td>
@@ -231,7 +237,7 @@ Las <span class="preview">funciones fuera de ciclo que se enviaron a producción
             <tr>
                 <td>
                     <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-home-enhancements.md">Actualizaciones del widget Esperando mi aprobación en la nueva página de inicio</a></p>
-                    [!BADGE In production &#x200B;]{type=Informative}
+                    [!BADGE In production ]{type=Informative}
                     <p>Hemos realizado los siguientes cambios en el widget Esperando mi aprobación:</p>
                         <ul>
                             <li>Se ha cambiado el nombre del widget: El nombre de este widget ahora es Mis aprobaciones.</li>
@@ -253,7 +259,7 @@ Las <span class="preview">funciones fuera de ciclo que se enviaron a producción
             <tr>
                 <td>
                     <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-home-enhancements.md">Introducción a Prioridades: una experiencia de Workfront más sencilla, ágil e intuitiva para los propietarios de tareas</a></p>
-                    [!BADGE In production &#x200B;]{type=Informative}
+                    [!BADGE In production ]{type=Informative}
                     <p>Las prioridades mejoran el enfoque y la productividad para ayudar a los clientes a lograr más en menos tiempo.</p>
                     <p>Con Prioridades, puede disfrutar de:</p>
                         <ul>
@@ -268,7 +274,7 @@ Las <span class="preview">funciones fuera de ciclo que se enviaron a producción
                             <p>Versión preliminar: viernes, 03 de octubre de 2024</p>
                         </li>
                         <li>
-                            <p>Versión de producción para todos los clientes: con la versión 24.10 (viernes, 17 de octubre de 2024)</p>
+                            <p>Versión de producción para todos los clientes: con la versión de 24.10 (17 de octubre de 2024)</p>
                         </li>
                     </ul>
                 </td>
@@ -295,7 +301,7 @@ Las <span class="preview">funciones fuera de ciclo que se enviaron a producción
             <tr>
                 <td>
                     <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Mejoras en la experiencia de inicio de sesión de integración con Outlook</a></p>
-                    [!BADGE In production &#x200B;]{type=Informative}
+                    [!BADGE In production ]{type=Informative}
                     <p>La experiencia de inicio de sesión para la integración con Outlook se ha optimizado para que todos los clientes vean el mismo botón para iniciar sesión en Workfront, independientemente de si están habilitados para IMS o no. Los pasos de inicio de sesión siguientes siguen siendo diferentes para las instancias de IMS y no de IMS, pero la página inicial es la misma para todos los usuarios.</p>
                 </td>
                 <td><p><b>Disponible en estas fechas:</b></p>
@@ -331,7 +337,7 @@ Las <span class="preview">funciones fuera de ciclo que se enviaron a producción
             <tr>
                 <td>
                     <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Se han añadido asignaciones más relevantes al flujo de trabajo Nueva tarea</a></p>
-                    [!BADGE In production for Fast Release &#x200B;]{type=Positive}
+                    [!BADGE In production for Fast Release ]{type=Positive}
                     <p>Hemos añadido la misma funcionalidad para asignaciones inteligentes más relevantes al campo Asignaciones en el cuadro Nueva tarea al añadir una tarea a un proyecto y en una lista de tareas de proyecto.</p>
                 </td>
                 <td><p><b>Disponible en estas fechas:</b></p>
@@ -349,7 +355,7 @@ Las <span class="preview">funciones fuera de ciclo que se enviaron a producción
             <tr>
                 <td>
                     <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Asignaciones inteligentes más relevantes</a></p>
-                    [!BADGE In production for Fast Release &#x200B;]{type=Positive}
+                    [!BADGE In production for Fast Release ]{type=Positive}
                     <p>Se ha modificado el algoritmo que utiliza Workfront para calcular y sugerir asignaciones inteligentes para las tareas. El nuevo algoritmo se aplica en las siguientes áreas de Workfront donde asigna una tarea: listas de tareas, el área Asignaciones en el encabezado de la tarea, Inicio y el panel Resumen.</p>
                 </td>
                 <td><p><b>Disponible en estas fechas:</b></p>
@@ -386,7 +392,7 @@ Las <span class="preview">funciones fuera de ciclo que se enviaron a producción
             <tr>
                 <td>
                     <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-proofing-enhancements.md" class="MCXref xref" xrefformat="{para}">Copiar/pegar corrección de problemas para el Visor de revisiones de escritorio</a></p>
-                    [!BADGE In production &#x200B;]{type=Informative}
+                    [!BADGE In production ]{type=Informative}
                     <p>Se ha corregido un problema por el cual el contenido se pegaba incorrectamente en la sección Actualizaciones del Visor de corrección de escritorio.</p>
                     <p>Nueva versión: 2.1.39</p>
                 </td>
@@ -404,7 +410,7 @@ Las <span class="preview">funciones fuera de ciclo que se enviaron a producción
             <tr>
                 <td>
                     <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-proofing-enhancements.md" class="MCXref xref" xrefformat="{para}">Corrección de pantalla en blanco para usuarios de Windows del Visor de corrección de escritorio</a></p>
-                    [!BADGE In production &#x200B;]{type=Informative}
+                    [!BADGE In production ]{type=Informative}
                     <p>Se ha corregido un problema con la nueva versión 2.1.36 del Visor de pruebas de escritorio que provocaba que algunos usuarios de Windows vieran una pantalla en blanco después de abrir el visor. </p>
                     <p>Nueva versión para usuarios de Windows: 2.1.37</p>
                 </td>
@@ -422,7 +428,7 @@ Las <span class="preview">funciones fuera de ciclo que se enviaron a producción
             <tr>
                 <td>
                     <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-proofing-enhancements.md" class="MCXref xref" xrefformat="{para}">Actualización de Chromium para el Visor de revisión de escritorio</a></p>
-                    [!BADGE In production &#x200B;]{type=Informative}
+                    [!BADGE In production ]{type=Informative}
                     <p>Estamos actualizando el Visor de pruebas de escritorio para que admita Chromium 126.0.6478.127, que solucionará los problemas con los elementos de la interfaz de usuario en las pruebas interactivas.</p>
                 </td>
                 <td><p><b>Disponible en estas fechas:</b></p>
@@ -458,13 +464,13 @@ Las <span class="preview">funciones fuera de ciclo que se enviaron a producción
             <tr>
                 <td>
                     <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-report-and-dashboard-enhancements.md" class="MCXref xref" xrefformat="{para}">Workfront Data Connect está disponible para los nuevos planes</a></p>
-                    [!BADGE In production &#x200B;]{type=Informative}
+                    [!BADGE In production ]{type=Informative}
                     <p>Workfront Data Connect estará disponible para las organizaciones que tengan uno de los nuevos planes de Workfront. Data Connect permite a las organizaciones acceder a sus datos como un lago de datos seguro y escalable, que se puede analizar y visualizar mediante herramientas de inteligencia empresarial o almacenarse de forma externa. Además, las organizaciones pueden utilizar la conexión de datos para ver análisis de datos que anteriormente no estaban disponibles, como el análisis de tendencias basado en el tiempo, la asignación de variables y el análisis de datos de sistemas externos en combinación con datos de Workfront.</p>
                 </td>
                 <td><p><b>Disponible en estas fechas:</b></p>
                     <ul>
                         <li>
-                            <p>Versión de producción para todos los clientes: con la versión 24.10 (viernes, 17 de octubre de 2024)</p>
+                            <p>Versión de producción para todos los clientes: con la versión de 24.10 (17 de octubre de 2024)</p>
                         </li>
                     </ul>
                     <p><i>Solo disponible para organizaciones con uno de los nuevos planes de Adobe Workfront. Data Connect está incluido en el plan de Ultimate y estará disponible para su compra como complemento de los planes Prime y Select en el primer semestre de 2025.</i></p>
@@ -482,7 +488,7 @@ Las <span class="preview">funciones fuera de ciclo que se enviaron a producción
             <tr>
                 <td>
                     <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Resumir proyectos o actualizaciones con un solo clic</a></p>
-                    [!BADGE In production &#x200B;]{type=Informative}
+                    [!BADGE In production ]{type=Informative}
                     <p>Para facilitar la visualización rápida de los aspectos destacados de un proyecto o de un flujo de actualización, hemos añadido botones de Resumen a esas áreas de Workfront. Ahora puede hacer clic en el botón para generar un resumen en el asistente de IA.</p><p>Anteriormente, los usuarios podían abrir el Ayudante de IA y escribir un mensaje para crear un resumen del proyecto o actualizar el flujo.</p>
                 </td>
                 <td><p><b>Disponible en estas fechas:</b></p>
@@ -491,7 +497,7 @@ Las <span class="preview">funciones fuera de ciclo que se enviaron a producción
                             <p>Versión preliminar: viernes, 03 de octubre de 2024</p>
                         </li>
                         <li>
-                            <p>Versión de producción para todos los clientes: con la versión 24.10 (viernes, 17 de octubre de 2024)</p>
+                            <p>Versión de producción para todos los clientes: con la versión de 24.10 (17 de octubre de 2024)</p>
                         </li>
                     </ul>
                 </td>
@@ -499,7 +505,7 @@ Las <span class="preview">funciones fuera de ciclo que se enviaron a producción
             <tr>
                 <td>
                     <a href="/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-24-q4.md" class="MCXref xref" xrefformat="{para}">Disponibilidad general de Adobe Workfront Planning</a></p>
-                    [!BADGE In production &#x200B;]{type=Informative}
+                    [!BADGE In production ]{type=Informative}
                     <p>Workfront Planning está disponible para todos los clientes que adquirieron una licencia de Workfront Planning, además de su licencia de Workfront. Póngase en contacto con el representante de cuentas para obtener más información acerca de Workfront Planning.</p>
                     <p>Para obtener la información más reciente sobre la versión de Workfront Planning cada trimestre, consulte la sección <a href="#workfront-planning-enhancements">Mejoras de Workfront Planning</a> a continuación.</p>
                 </td>
@@ -514,7 +520,7 @@ Las <span class="preview">funciones fuera de ciclo que se enviaron a producción
             <tr>
                 <td>
                     <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Asistente de Adobe AI disponible en Workfront</a></p>
-                    [!BADGE In production &#x200B;]{type=Informative}
+                    [!BADGE In production ]{type=Informative}
                     <p>Para facilitarle la realización de su trabajo, hemos agregado el asistente de IA de Adobe a Workfront. El asistente de IA puede ayudarle con lo siguiente:</p>
                     <ul>
                         <li>Resumir elementos y documentos de trabajo le permite obtener rápidamente una comprensión general de las tareas, los proyectos y los recursos.</li>

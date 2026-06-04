@@ -5,10 +5,13 @@ author: Lisa
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: a47d2592-0f00-4bcd-bc8e-75f8e707a573
-source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
+TQID: https://experienceleague.adobe.com/MuQQDV7Uvjj7qcG3nwa4Ec7lhAig2o4FiuifiR4Fz9I
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1315'
-ht-degree: 91%
+source-wordcount: 1323
+ht-degree: 87%
 
 ---
 
@@ -32,7 +35,7 @@ Mientras está en el tablero, puede optar por cambiar a la vista de Agile hereda
 
 Para obtener más información, consulte [Administrar un proyecto en la vista de Agile](/help/quicksilver/manage-work/projects/manage-projects/manage-projects-in-agile-view.md).
 
-[Ver una demostración en vídeo de esta característica.](https://video.tv.adobe.com/v/3421283/){target=_blank}
+[Vea un vídeo de demostración de esta función.](https://video.tv.adobe.com/v/3421283/){target=_blank}
 
 ## Ordenar por columnas del tablero
 
@@ -44,7 +47,7 @@ La opción “orden del usuario” devuelve las tarjetas en el orden en que se e
 
 Para obtener más información, consulte [Filtrar y buscar en un tablero](/help/quicksilver/agile/get-started-with-boards/filter-search-in-board.md).
 
-[Ver una demostración en vídeo de esta característica.](https://video.tv.adobe.com/v/3420932/){target=_blank}
+[Vea un vídeo de demostración de esta función.](https://video.tv.adobe.com/v/3420932/){target=_blank}
 
 ## El modo oscuro ya está disponible en los tableros de Adobe Workfront
 
@@ -74,7 +77,7 @@ Ahora puede añadir comentarios a tarjetas ad hoc y conectadas en tableros y eti
 
 Para obtener más información, consulte [Añadir una tarjeta ad hoc a un tablero](/help/quicksilver/agile/get-started-with-boards/add-card-to-board.md) y [Usar tarjetas conectadas en tableros](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
 
-[Vea una demostración en vídeo de esta función](https://video.tv.adobe.com/v/3420832/){target=_blank}
+[Vea un vídeo de demostración de esta función](https://video.tv.adobe.com/v/3420832/){target=_blank}
 
 ## Mejoras en el administrador de etiquetas de tableros
 
@@ -92,7 +95,7 @@ Se han añadido filtros simplificados a la configuración de la columna de entra
 
 Para obtener más información, consulte [Añadir una columna de entrada a un tablero](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md).
 
-[Vea una demostración en vídeo de esta función](https://video.tv.adobe.com/v/3419420/){target=_blank}
+[Vea un vídeo de demostración de esta función](https://video.tv.adobe.com/v/3419420/){target=_blank}
 
 ## Filtros simples añadidos a la plantilla de tablero dinámico
 
@@ -116,7 +119,7 @@ El tablero dinámico le permite rellenar automáticamente un tablero con tarjeta
 
 Para obtener más información, consulte [Crear o editar un tablero](/help/quicksilver/agile/get-started-with-boards/create-edit-board.md).
 
-[Ver una demostración en vídeo de esta característica](https://video.tv.adobe.com/v/3418600/){target=_blank}
+[Vea un vídeo de demostración de esta función](https://video.tv.adobe.com/v/3418600/){target=_blank}
 
 ## Migración de tarjetas Agile Team Kanban a tableros
 
@@ -128,7 +131,7 @@ Las tarjetas no se eliminan del panel Kanban del equipo Agile y los cambios de e
 
 Para obtener más información, consulte [Migrar tarjetas Kanban de equipo Agile a tableros de Workfront](/help/quicksilver/agile/use-boards-agile-planning-tools/migrate-kanban-cards-to-boards.md).
 
-[Vea una demostración en vídeo de esta función](https://video.tv.adobe.com/v/3420425/){target=_blank}
+[Vea un vídeo de demostración de esta función](https://video.tv.adobe.com/v/3420425/){target=_blank}
 
 ## Se ha añadido la navegación izquierda a los detalles de la tarjeta en los tableros
 
@@ -142,7 +145,7 @@ Además, ahora puede añadir direcciones URL en el campo Descripción y se convi
 
 Para obtener más información, consulte [Añadir una tarjeta ad hoc a un tablero](/help/quicksilver/agile/get-started-with-boards/add-card-to-board.md) y [Usar tarjetas conectadas en tableros](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
 
-[Vea una demostración en vídeo de esta función.](https://video.tv.adobe.com/v/3418598/){target=_blank}
+[Vea un vídeo de demostración de esta función.](https://video.tv.adobe.com/v/3418598/){target=_blank}
 
 ## Notificaciones por correo electrónico sobre preferencias de tableros
 
@@ -154,4 +157,4 @@ Las notificaciones por correo electrónico ya están disponibles para los tabler
 
 Para obtener más información, consulte [Notificaciones por correo electrónico sobre preferencias de tableros](/help/quicksilver/agile/get-started-with-boards/boards-emails.md).
 
-[Vea una demostración en vídeo de esta función](https://video.tv.adobe.com/v/3418597/){target=_blank}
+[Vea un vídeo de demostración de esta función](https://video.tv.adobe.com/v/3418597/){target=_blank}

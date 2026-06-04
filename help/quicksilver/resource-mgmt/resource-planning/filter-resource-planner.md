@@ -6,10 +6,16 @@ description: Mediante los filtros, puede modificar la información que se muestr
 author: Lisa
 feature: Resource Management
 exl-id: 7186cae5-1e16-421e-b26d-afb50aa7f6eb
-source-git-commit: 987b6e9b5f6b1feb323906cf7c24f5024fc84663
+TQID: https://experienceleague.adobe.com/VA0bJYfRCQrZECzbiBOMjDD9Rpzf4ePG4EwQlowlhyI
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2: id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '2361'
-ht-degree: 96%
+source-wordcount: 2369
+ht-degree: 97%
 
 ---
 
@@ -31,7 +37,7 @@ Mediante los filtros, puede modificar la información que se muestra en el Plani
  <tbody> 
   <tr> 
   <tr> 
-   <td>paquete de Adobe Workfront</td> 
+   <td>Paquete de Adobe Workfront</td> 
    <td><p>Cualquiera</p></td>
   </tr> 
   <tr> 
@@ -222,7 +228,7 @@ Puede cambiar la información que incluye en un filtro sin cambiar su nombre. Le
 
 1. Vaya al Planificador de recursos y expanda el menú desplegable **Filtro** en la esquina superior izquierda.
 1. Seleccione un filtro existente que desee editar.
-1. Haga clic en el icono de **Filtro**. \
+1. Haga clic en el icono de **Filtro**.\
    ![filter_icon.png](assets/filter-icon.png)
 
 1. Añada nuevos campos al filtro.\
