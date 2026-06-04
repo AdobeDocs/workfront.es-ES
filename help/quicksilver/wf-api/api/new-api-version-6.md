@@ -7,10 +7,13 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: e671a881-b8c2-4234-a3a0-76b1fbfafd32
-source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
+TQID: https://experienceleague.adobe.com/ZXBvvhz5ObfHlwX2BBBs2-F2DbSmgY4lj8TwWnMCzBM
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '538'
-ht-degree: 34%
+source-wordcount: 513
+ht-degree: 100%
 
 ---
 
@@ -22,7 +25,7 @@ ht-degree: 34%
 
 | Campos | Referencias | Colecciones | Buscar | Acciones | Consultas | Operaciones |
 |---|---|---|---|---|---|---|
-| Identificador | cliente |   |   |   |   | Agregar |
+| ID | cliente |   |   |   |   | Agregar |
 | customerID | proyecto |   |   |   |   | Cuenta |
 | projectID | resourceManager |   |   |   |   | Eliminar |
 | resourceManagerID | plantilla |   |   |   |   | Obtener |
@@ -34,8 +37,8 @@ ht-degree: 34%
 
 | Campos | Referencias | Colecciones | Buscar | Acciones | Consultas | Operaciones |
 |---|---|---|---|---|---|---|
-| fileName |   |   |   |   | cargar |   |
-| manipular |   |   |   |   |   |   |
+| fileName |   |   |   |   | upload |   |
+| control |   |   |   |   |   |   |
 | objCode |   |   |   |   |   |   |
 
 
@@ -43,7 +46,7 @@ ht-degree: 34%
 
 | Campos | Referencias | Colecciones | Buscar | Acciones | Consultas | Operaciones |
 |---|---|---|---|---|---|---|
-| Identificador |   |   |   | checkDelete | customLabels | Agregar |
+| ID |   |   |   | checkDelete | customLabels | Agregar |
 |   |   |   |   | inUseByOtherLayoutTemplate | userCustomLabels | Cuenta |
 |   |   |   |   | removeCustomLabel |   | Eliminar |
 |   |   |   |   |   |   | Obtener |
@@ -53,7 +56,7 @@ ht-degree: 34%
 
 ## Objetos actualizados
 
-Cambios en objetos existentes: las adiciones se enumeran simplemente, las eliminaciones tienen tachado, los cambios en los objetos existentes tienen una nota adjunta después de la tabla
+Cambios en objetos existentes: las adiciones se enumeran simplemente, las eliminaciones tienen el texto tachado, los cambios en los objetos existentes se adjuntan en una nota después de la tabla.
 
 ### Actualizar
 
@@ -66,9 +69,9 @@ Cambios en objetos existentes: las adiciones se enumeran simplemente, las elimin
 
 {style="table-layout:auto"}
 
-<sup>1</sup> cambios en valores posibles
+<sup>1</sup> Cambios en valores posibles
 
-<sup>2</sup> ha cambiado el atributo hasFilters a true
+<sup>2</sup> el atributo hasFilters ha cambiado a true
 
  
 
@@ -84,9 +87,9 @@ Cambios en objetos existentes: las adiciones se enumeran simplemente, las elimin
 
 {style="table-layout:auto"}
 
-Se agregó la validación de fecha <sup>1</sup>
+<sup>1</sup> Se añadió la validación de fecha
 
-Se agregó el indicador <sup>2</sup> NOT_FILTERABLE
+<sup>2</sup> Se añadió el indicador NOT_FILTERABLE
 
  
 
@@ -110,7 +113,7 @@ Se agregó el indicador <sup>2</sup> NOT_FILTERABLE
 
 {style="table-layout:auto"}
 
-<sup>1</sup> cambios en valores posibles
+<sup>1</sup> Cambios en los valores posibles
 
  
 
@@ -131,9 +134,9 @@ Se agregó el indicador <sup>2</sup> NOT_FILTERABLE
 
 {style="table-layout:auto"}
 
-Se cambió <sup>1</sup> a Informable
+<sup>1</sup> Se cambió a Notificable
 
-Se agregó el validador de longitud máxima de <sup>2</sup>
+<sup>2</sup>Se añadió el validador de longitud máxima
 
  
 
@@ -146,9 +149,9 @@ Se agregó el validador de longitud máxima de <sup>2</sup>
 
 {style="table-layout:auto"}
 
-Se agregó la validación de fecha <sup>1</sup>
+<sup>1</sup>Se añadió la validación de fecha
 
-Se agregó el marcador <sup>2</sup> Not_Filterable
+<sup>2</sup> Se añadió el indicador Not_Filterable
 
  
 
@@ -164,7 +167,7 @@ Se agregó el marcador <sup>2</sup> Not_Filterable
 
  
 
-### Línea base 
+### Línea de base 
 
 | Campos | Referencias | Colecciones | Buscar | Acciones | Consultas | Operaciones |
 |---|---|---|---|---|---|---|
@@ -172,7 +175,7 @@ Se agregó el marcador <sup>2</sup> Not_Filterable
 
 {style="table-layout:auto"}
 
-Se agregó el marcador <sup>1</sup> Not_Filterable
+<sup>1</sup> Se añadió el indicador Not_Filterable
 
  
 
@@ -184,7 +187,7 @@ Se agregó el marcador <sup>1</sup> Not_Filterable
 
 {style="table-layout:auto"}
 
-Se agregó el marcador <sup>1</sup> Not_Filterable
+<sup>1</sup> Se añadió el indicador Not_Filterable
 
  
 
@@ -196,7 +199,7 @@ Se agregó el marcador <sup>1</sup> Not_Filterable
 
 {style="table-layout:auto"}
 
-<sup>1</sup> agregó el indicador de campo NO_TIME
+<sup>1</sup> añadió el indicador de campo NO_TIME
 
 ### Evento de evolución 
 
@@ -224,9 +227,9 @@ Enumeración personalizada 
 
 | Campos | Referencias | Colecciones | Buscar | Acciones | Consultas | Operaciones |
 |---|---|---|---|---|---|---|
-|   |   |   |   | getGroupDefaultProjectStatus | opTaskGroupStatus |   |
-|   |   |   |   | isPossibleToUnlockStatus | projectGroupStatus |   |
-|   |   |   |   |   | taskGroupStatus |   |
+|   |   |   |   | getGroupDefaultProjectStatus | opTaskGroupStatuses |   |
+|   |   |   |   | isPossibleToUnlockStatus | projectGroupStatuses |   |
+|   |   |   |   |   | taskGroupStatuses |   |
 
 {style="table-layout:auto"}
 
@@ -243,7 +246,7 @@ Documento 
 
  
 
-Tipo de cambio 
+Tarifa de cambio 
 
 | Campos | Referencias | Colecciones | Buscar | Acciones | Consultas | Operaciones |
 |---|---|---|---|---|---|---|
@@ -273,7 +276,7 @@ Tipo de cambio 
 
 {style="table-layout:auto"}
 
-<sup>1</sup> cambios en valores posibles
+<sup>1</sup> Cambios en los valores posibles
 
  
 
@@ -285,9 +288,9 @@ Tipo de cambio 
 
 {style="table-layout:auto"}
 
-<sup>1</sup> marcado como RESTAURABLE
+<sup>1</sup> Marcado como RESTORABLE
 
-Se agregó el marcador <sup>2</sup> Not_Filterable
+Se añadió el indicador <sup>2</sup> Not_Filterable
 
  
 
@@ -299,14 +302,14 @@ Se agregó el marcador <sup>2</sup> Not_Filterable
 | isOriginalPlannedHoursSet |   | resourceManagers | resourceManagerIDs  |   |   |   |
 | originalWorkRequired |   |   | `work` |   |   |   |
 | syncBurndownDate |   |   |   |   |   |   |
-| trabajar |   |   |   |   |   |   |
+| trabajo |   |   |   |   |   |   |
 | workRequired |   |   |   |   |   |   |
 
 {style="table-layout:auto"}
 
-<sup>1</sup> marcado como RESTAURABLE y RESOURCE_MANAGEABLE
+<sup>1</sup> Marcado como RESTORABLE y RESOURCE_MANAGEABLE
 
-Se agregó el marcador <sup>2</sup> Not_Filterable
+Se añadió el indicador <sup>2</sup> Not_Filterable
 
  
 
@@ -319,11 +322,11 @@ Se agregó el marcador <sup>2</sup> Not_Filterable
 
 {style="table-layout:auto"}
 
-<sup>1</sup> marcado como RESTAURABLE
+<sup>1</sup> Marcado como RESTORABLE
 
-Se agregó el validador <sup>2</sup> AT_DATE_YEAR_BEFORE
+<sup>2</sup>Se añadió el validador AT_DATE_YEAR_BEFORE
 
-Se agregó el marcador <sup>3</sup> Not_Filterable
+<sup>3</sup> Se añadió el indicador Not_Filterable
 
  
 
@@ -346,7 +349,7 @@ Se agregó el marcador <sup>3</sup> Not_Filterable
 
 {style="table-layout:auto"}
 
-<sup>1</sup> marcado como RESTAURABLE y RESOURCE_MANAGEABLE
+<sup>1</sup> Marcado como RESTORABLE y RESOURCE_MANAGEABLE
 
 ### Tarea de plantilla<sup>1</sup> 
 
@@ -356,9 +359,9 @@ Se agregó el marcador <sup>3</sup> Not_Filterable
 
 {style="table-layout:auto"}
 
-<sup>1</sup> marcado como RESTAURABLE
+<sup>1</sup> Marcado como RESTORABLE
 
-Se agregó el marcador <sup>2</sup> Not_Filterable
+Se añadió el indicador <sup>2</sup> Not_Filterable
 
  
 
@@ -382,7 +385,7 @@ Se agregó el marcador <sup>2</sup> Not_Filterable
 
 {style="table-layout:auto"}
 
-<sup>1</sup> valores posibles cambiados
+<sup>1</sup> Valores posibles modificados
 
 <sup>2</sup> ha cambiado los filtros a `[true]`
 

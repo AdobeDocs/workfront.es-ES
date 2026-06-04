@@ -2,13 +2,18 @@
 product-area: documents;setup
 navigation-topic: create-proofs-within-workfront
 title: Creación de una prueba avanzada con un flujo de trabajo básico
-description: Con un flujo de trabajo básico, puede asignar varios revisores a una prueba, pero no están organizados en fases. Todos los revisores que agregue podrán acceder a la prueba inmediatamente después de crearla.
+description: Con un flujo de trabajo básico, puede asignar varios revisores a una prueba, pero no están organizados en fases. Todos los revisores que añada podrán acceder a la prueba inmediatamente después de crearla.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 4f5d0c0e-e070-4f32-89c4-3b511a3b7fdc
-source-git-commit: ac714bd5a5259d6f995ac445efbd0125e07022cb
+TQID: https://experienceleague.adobe.com/xv-t9JjvYQvYv15ZV8wYPzBHFybKGU8J572demN1EPg
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1793'
+source-wordcount: 1725
 ht-degree: 72%
 
 ---
@@ -17,7 +22,7 @@ ht-degree: 72%
 
 <!-- Audited: 1/2024 -->
 
-Con un flujo de trabajo básico, puede asignar varios revisores a una prueba, pero no están organizados en fases. Todos los revisores que agregue podrán acceder a la prueba inmediatamente después de crearla.
+Con un flujo de trabajo básico, puede asignar varios revisores a una prueba, pero no están organizados en fases. Todos los revisores que añada podrán acceder a la prueba inmediatamente después de crearla.
 
 ## Requisitos de acceso
 
@@ -28,7 +33,7 @@ Con un flujo de trabajo básico, puede asignar varios revisores a una prueba, pe
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td role="rowheader">Paquete de Adobe Workfront</td> 
    <td>
    <p>Cualquiera</p>
     </td> 
@@ -240,7 +245,7 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
      </tr> 
      <tr> 
       <td role="rowheader">Respuestas a mis comentarios</td> 
-      <td>Se envía un correo electrónico al revisor únicamente si una persona responde explícitamente a su comentario (esto excluye sus propias respuestas a sus propios comentarios). Esto significa que si una persona en la prueba hace un nuevo comentario, no se le notifica al revisor.<p>Se recomienda esta configuración para los clientes de la prueba, para que no se les notifique ningún otro comentario en la prueba y solo se les notifique las respuestas a sus propios comentarios.</p><p>Aunque no se notifica a los revisores con esta configuración de alerta por correo electrónico de otros comentarios nuevos, pueden seguir viendo todos los comentarios de la prueba en el visor de corrección.</p><p>Para obtener información acerca de los comentarios, consulte <a href="../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/view-proof-comments.md" class="MCXref xref">Ver y responder a los comentarios de revisión</a>.</p></td> 
+      <td>Se envía un correo electrónico al revisor únicamente si una persona responde explícitamente a su comentario (esto excluye sus propias respuestas a sus propios comentarios). Esto significa que si una persona en la prueba hace un nuevo comentario, no se le notifica al revisor.<p>Se recomienda esta configuración para los clientes de la prueba, para que no se les notifique ningún otro comentario en la prueba y solo se les notifique las respuestas a sus propios comentarios.</p><p>Aunque no se notifica a los revisores con esta configuración de alerta por correo electrónico de otros comentarios nuevos, pueden seguir viendo todos los comentarios de la revisión en el visor de corrección.</p><p>Para obtener información acerca de los comentarios, consulte <a href="../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/view-proof-comments.md" class="MCXref xref">Ver y responder a los comentarios de revisión</a>.</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader">Decisiones</td> 
@@ -297,7 +302,7 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
     <tbody> 
      <tr> 
       <td role="rowheader">Inicio de sesión obligatorio: la prueba solo se puede compartir con otros usuarios</td> 
-      <td>Cuando esta opción está deshabilitada (predeterminada), cualquier persona con la URL puede ver la prueba. <br>Cuando se selecciona esta opción:
+      <td>Cuando esta opción está deshabilitada (predeterminada), cualquier persona con la URL puede ver la revisión. <br>Cuando se selecciona esta opción:
        <ul>
         <li>Solo los usuarios de Workfront Proof pueden ver la revisión.</li>
         <li>Los usuarios no pueden iniciar sesión en la prueba a menos que se les haya añadido a la prueba.</li>
@@ -333,14 +338,14 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
        </ul><p>
         <ul>
          <li><strong>Se requiere acceso a la prueba mediante un vínculo de correo electrónico para:</strong> Configure si el suscriptor recibe un correo electrónico con un vínculo a la prueba. Puede seleccionar <strong>Sin correo electrónico</strong> (el vínculo de correo electrónico no es necesario para acceder a la prueba), <strong>Solo correo electrónico de notificación de prueba</strong> (el suscriptor recibe un vínculo a la prueba por correo electrónico sin ninguna verificación) o <strong>Correos electrónicos de notificación de validación y prueba</strong> (el suscriptor recibe un vínculo a la prueba por correo electrónico y debe hacer clic en el vínculo para acceder a una prueba, el propósito de esta opción es garantizar que la persona haya escrito una dirección de correo electrónico correcta a la que tenga acceso).</li>
-        </ul><p>Nota:  Si las pruebas tienen un flujo de trabajo automatizado adjunto, todas las suscripciones generarán correos electrónicos de confirmación a los propietarios de la prueba para que puedan decidir a qué fase se debe agregar a la persona.<br></p></p></td> 
+        </ul><p>Nota: Si las pruebas tienen un flujo de trabajo automatizado adjunto, todas las suscripciones generarán correos electrónicos de confirmación a los propietarios de la prueba para que puedan decidir a qué fase se debe agregar a la persona.<br></p></p></td> 
      </tr> 
     </tbody> 
    </table>
 
 1. Haga clic en **Crear prueba**.
 
-   Workfront comienza a generar una prueba de los documentos o sitios web seleccionados. Según el tamaño y el tipo de archivo, el tiempo de posposición de la carga de un documento puede variar. Tenga en cuenta que los archivos grandes tardan más en generarse. Puede salir de la página y Workfront seguirá generando el archivo. El tamaño máximo de carga de archivo es de 4 GB.
+   Workfront comienza a generar una prueba de los documentos o sitios web seleccionados. Según el tamaño y el tipo de archivo, el tiempo de retraso de la carga de un documento puede variar. Tenga en cuenta que los archivos grandes tardan más en generarse. Puede salir de la página y Workfront seguirá generando el archivo. El tamaño máximo de carga del archivo es de 4 GB.
 
 1. Una vez generada la revisión, haga clic en **Abrir revisión** para iniciar el visor de revisiones.
 

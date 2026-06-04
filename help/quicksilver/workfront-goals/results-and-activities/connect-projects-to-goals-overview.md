@@ -8,12 +8,18 @@ description: Puede conectar proyectos a metas para indicar cómo progresa la met
 author: Alina
 feature: Workfront Goals
 exl-id: 683c9cd9-6c7b-4d50-b326-b4000c9863e8
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 453dbf1c7598858e99d963f7a3806355a8cc80a9
+TQID: https://experienceleague.adobe.com/FCwnCN4o8MRZU9-F2ZYNFzCxS-js-St8ykkdbft1Bb8
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: fceb5125-bb41-419a-b0db-31958cb42f6c
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '859'
-ht-degree: 20%
+source-wordcount: 843
+ht-degree: 21%
 
 ---
 
@@ -231,5 +237,5 @@ La siguiente información de objetivos es visible en una lista de proyectos o un
 | Información del objetivo | Descripción |
 |---|---|
 | Metas | Una lista de todas las metas que tienen un proyecto asociado. |
-| Jerarquía de metas | La jerarquía a la que pertenece un objetivo. En este campo solo se muestran los elementos principales de la meta y la meta. Las metas secundarias no se muestran. |
+| Jerarquía de la meta | La jerarquía a la que pertenece un objetivo. En este campo solo se muestran los elementos principales de la meta y la meta. Las metas secundarias no se muestran. |
 | Número de metas vinculadas | Número de metas vinculadas a un proyecto. |

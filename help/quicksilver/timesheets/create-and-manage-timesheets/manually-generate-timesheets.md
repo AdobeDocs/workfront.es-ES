@@ -1,19 +1,25 @@
 ---
 product-area: timesheets
 navigation-topic: create-and-manage-timesheets
-title: Generar manualmente hojas de horas
+title: Generar plantillas de horas manualmente
 description: Para permitir que los cambios realizados en los perfiles de plantilla de horas se reflejen en las plantillas de horas actuales, primero debe eliminar las plantillas de horas existentes y luego generar manualmente las nuevas. Puede generar manualmente plantillas de horas desde el área Plantillas de horas o el área Diagnóstico en Configuración, tal como se explica en este artículo.
 author: Lisa
 feature: Timesheets
 exl-id: 316c270a-c64e-4d83-a035-4128abe33f87
-source-git-commit: 69cd5fb1d089b81b7a1673609b92537137b6b68e
+TQID: https://experienceleague.adobe.com/0hU3VlHM8l5TXee6K3lJaV9-W3ZKujDYf9-f1NXH-Nc
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '430'
-ht-degree: 16%
+source-wordcount: 437
+ht-degree: 18%
 
 ---
 
-# Generar manualmente hojas de horas
+# Generar plantillas de horas manualmente
 
 Para permitir que los cambios realizados en los perfiles de plantilla de horas se reflejen en las plantillas de horas actuales, primero debe eliminar las plantillas de horas existentes y luego generar manualmente las nuevas. Puede generar manualmente plantillas de horas desde el área Plantillas de horas o el área Diagnóstico en Configuración, tal como se explica en este artículo.
 
@@ -28,7 +34,7 @@ Para obtener instrucciones sobre cómo eliminar hojas de horas, consulte [Elimin
  <col>
  <tbody> 
   <tr> 
-   <td>paquete de Adobe Workfront</td> 
+   <td>Paquete de Adobe Workfront</td> 
    <td><p>Cualquiera</p></td> 
   </tr> 
   <tr> 

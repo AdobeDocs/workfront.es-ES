@@ -7,10 +7,14 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 8c575251-677b-474d-84aa-02b637ef7760
-source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
+TQID: https://experienceleague.adobe.com/16roY0csrhwq92dDL9hI0NNGj3LcbUw9FGSJMyxbKMA
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '498'
-ht-degree: 43%
+source-wordcount: 488
+ht-degree: 100%
 
 ---
 
@@ -18,11 +22,11 @@ ht-degree: 43%
 
 ## Nuevos objetos
 
-### Proof Bean
+### Bean de revisión
 
 | Campos | Referencias | Colecciones | Buscar | Acciones | Consultas | Operaciones |
 |---|---|---|---|---|---|---|
-| Identificador |   |   |   |   |   | Buscar |
+| ID |   |   |   |   |   | Buscar |
 | deadLine |   |   |   |   |   |   |
 | name |   |   |   |   |   |   |
 
@@ -51,7 +55,7 @@ ht-degree: 43%
  </thead> 
  <tbody> 
   <tr> 
-   <td>Identificador</td> 
+   <td>ID</td> 
    <td> </td> 
    <td> </td> 
    <td> </td> 
@@ -66,7 +70,7 @@ ht-degree: 43%
    <td> </td> 
    <td> </td> 
    <td> </td> 
-   <td>Recuento </td> 
+   <td>Cuenta </td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -111,7 +115,7 @@ ht-degree: 43%
 
 | Campos | Referencias | Colecciones | Buscar | Acciones | Consultas | Operaciones |
 |---|---|---|---|---|---|---|
-| Identificador |   |   |   |   |   | Agregar |
+| ID |   |   |   |   |   | Agregar |
 |   |   |   |   |   |   | Cuenta |
 |   |   |   |   |   |   | Eliminar |
 |   |   |   |   |   |   | Obtener |
@@ -124,7 +128,7 @@ ht-degree: 43%
 
 | Campos | Referencias | Colecciones | Buscar | Acciones | Consultas | Operaciones |
 |---|---|---|---|---|---|---|
-| Identificador |   |   |   |   |   | Cuenta |
+| ID |   |   |   |   |   | Cuenta |
 |   |   |   |   |   |   | Obtener |
 |   |   |   |   |   |   | Informe |
 |   |   |   |   |   |   | Buscar |
@@ -137,7 +141,7 @@ ht-degree: 43%
 
 | Campos | Referencias | Colecciones | Buscar | Acciones | Consultas | Operaciones |
 |---|---|---|---|---|---|---|
-| Identificador |   |   |   |   |   | Agregar |
+| ID |   |   |   |   |   | Agregar |
 |   |   |   |   |   |   | Cuenta |
 |   |   |   |   |   |   | Eliminar |
 |   |   |   |   |   |   | Editar |
@@ -161,11 +165,11 @@ ht-degree: 43%
 
  
 
-### Perfil de hoja de horas
+### TimesheetProfile
 
 | Campos | Referencias | Colecciones | Buscar | Acciones | Consultas | Operaciones |
 |---|---|---|---|---|---|---|
-| Identificador |   |  hourTypes |   |   |   | Agregar |
+| ID |   |  hourTypes |   |   |   | Agregar |
 | name |   |   |   |   |   | Copiar |
 |   |   |   |   |   |   | Cuenta |
 |   |   |   |   |   |   | Eliminar |
@@ -183,7 +187,7 @@ ht-degree: 43%
 
 | Campos | Referencias | Colecciones | Buscar | Acciones | Consultas | Operaciones |
 |---|---|---|---|---|---|---|
-| Identificador | cliente | usuarios |   |   |   | Agregar |
+| ID | cliente | usuarios |   |   |   | Agregar |
 | customerID  | enteredBy  |   |   |   |   | Cuenta |
 | description  | lastUpdatedBy  |   |   |   |   | Eliminar |
 | enteredByID  |   |   |   |   |   | Editar |
@@ -201,7 +205,7 @@ ht-degree: 43%
 
 | Campos | Referencias | Colecciones | Buscar | Acciones | Consultas | Operaciones |
 |---|---|---|---|---|---|---|
-| Identificador |   |   |   |   |   | Cuenta |
+| ID |   |   |   |   |   | Cuenta |
 | articleName  |   |   |   |   |   | Obtener |
 | pageID  |   |   |   |   |   | Informe |
 | url  |   |   |   |   |   | Buscar |
@@ -216,7 +220,7 @@ ht-degree: 43%
 
 ## Objetos actualizados
 
-Cambios en objetos existentes: las adiciones se enumeran simplemente, las eliminaciones tienen tachado, los cambios en los objetos existentes tienen una nota adjunta después de la tabla
+Cambios en objetos existentes: las adiciones se enumeran simplemente, las supresiones se tachan, los cambios en los objetos existentes tienen una nota adjunta después de la tabla
 
 ### UpdateBean
 
@@ -226,7 +230,7 @@ Cambios en objetos existentes: las adiciones se enumeran simplemente, las elimin
 
 {style="table-layout:auto"}
 
-<sup>1</sup> cambios en valores posibles 
+<sup>1</sup> Cambios en valores posibles 
 
  
 
@@ -242,9 +246,9 @@ Cambios en objetos existentes: las adiciones se enumeran simplemente, las elimin
 
  
 
-### Regla de acceso<sup>1</sup>
+### AccessRule<sup>1</sup>
 
-<sup>1</sup> marcado como reportable
+<sup>1</sup> Marcado como notificable
 
  
 
@@ -268,7 +272,7 @@ Cambios en objetos existentes: las adiciones se enumeran simplemente, las elimin
 
 {style="table-layout:auto"}
 
-Se Quitó El Indicador <sup>1</sup>
+<sup>1</sup> Indicador notificable suprimido
 
  
 
@@ -282,9 +286,9 @@ Se Quitó El Indicador <sup>1</sup>
 
 {style="table-layout:auto"}
 
-Se agregó la validación de fecha <sup>1</sup>
+<sup>1</sup>Se añadió la validación de fecha
 
-Se agregó el marcador <sup>2</sup> Not_Filterable
+<sup>2</sup> Se añadió el indicador Not_Filterable
 
  
 
@@ -298,7 +302,7 @@ Se agregó el marcador <sup>2</sup> Not_Filterable
 
 {style="table-layout:auto"}
 
-<sup>1</sup> Se agregó el campo includeIssues
+<sup>1</sup> Se ha añadido el campo includeIssues
 
  
 
@@ -310,7 +314,7 @@ Se agregó el marcador <sup>2</sup> Not_Filterable
 
 {style="table-layout:auto"}
 
-<sup>1</sup> cambios en valores posibles 
+<sup>1</sup> Cambios en valores posibles 
 
  
 
@@ -379,11 +383,11 @@ Se agregó el marcador <sup>2</sup> Not_Filterable
 
 {style="table-layout:auto"}
 
-<sup>1</sup> cambios en valores posibles
+<sup>1</sup> Cambios en los valores posibles
 
  
 
-### Optask (Problema)
+### Optask (problema)
 
 | Campos | Referencias | Colecciones | Buscar | Acciones | Consultas | Operaciones |
 |---|---|---|---|---|---|---|
@@ -459,7 +463,7 @@ Se agregó el marcador <sup>2</sup> Not_Filterable
 
 {style="table-layout:auto"}
 
-Se cambió el tipo <sup>1</sup> de Int a Double 
+<sup>1</sup> El tipo ha cambiado de entero a doble 
 
  
 
@@ -548,7 +552,7 @@ Se cambió el tipo <sup>1</sup> de Int a Double 
 
 | Campos | Referencias | Colecciones | Buscar | Acciones | Consultas | Operaciones |
 |---|---|---|---|---|---|---|
-| `acknowledgedmentIDs` |   |   |   |  unackknowMany |   |   |
+| `acknowledgedmentIDs` |   |   |   |  unackknowledgeMany |   |   |
 | ackDate |   |   |   |   |   |   |
 | ackType |   |   |   |   |   |   |
 
@@ -566,4 +570,4 @@ Se cambió el tipo <sup>1</sup> de Int a Double 
 
 {style="table-layout:auto"}
 
-<sup>1</sup> cambios en valores posibles
+<sup>1</sup> Cambios en valores posibles

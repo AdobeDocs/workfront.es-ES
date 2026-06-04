@@ -1,16 +1,20 @@
 ---
 content-type: api
 navigation-topic: api-navigation-topic
-title: Especificar una versión de API en las integraciones
-description: Especificar una versión de API en las integraciones
+title: Especifique una versión de API en sus integraciones
+description: Especifique una versión de API en sus integraciones
 author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 2971749d-1d34-42a4-9eda-411aa8c3a2ab
-source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
+TQID: https://experienceleague.adobe.com/GWA77t-kaVNG7tfSsg5Fe5kLtR3Ibo0YbW7Gp7wBQ0U
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: b58ad82f-df6b-4b01-81a3-3a02ab9567a0id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '437'
-ht-degree: 0%
+source-wordcount: 438
+ht-degree: 19%
 
 ---
 
@@ -32,7 +36,7 @@ Para obtener más información sobre la cadencia de lanzamiento y la programaci�
 >
 >* La versión predeterminada de la API es la más reciente. Cualquier llamada de API sin la versión especificada utilizará la versión predeterminada. Cada vez que Workfront publica una nueva versión de la API, la versión predeterminada se actualiza a la más reciente. **Por lo tanto, después de que se publique una nueva versión de la API de Workfront, cualquier llamada de API que utilice la versión predeterminada debe comprobarse para asegurarse de que la funcionalidad sigue siendo compatible.**
 >
->* Si su organización utiliza actualmente la API predeterminada, su administrador de Workfront ha recibido un mensaje del Centro de anuncios con más instrucciones sobre la API predeterminada.
+>* Si su organización utiliza actualmente la API predeterminada, su administrador de Workfront habrá recibido un mensaje del Centro de anuncios con instrucciones adicionales sobre la API predeterminada.
 >
 >Para ver la versión más reciente de la API, consulte [Versiones de API y programación de soporte](../../wf-api/api/api-version-support-schedule.md).
 

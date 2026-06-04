@@ -5,10 +5,15 @@ description: Puede resumir rápidamente elementos de trabajo y documentos median
 author: Becky
 feature: Get Started with Workfront
 exl-id: c7460e8f-a7ae-415a-8db0-29736e8be0f8
-source-git-commit: e9a9e45720c8b9ad25e3fa9340c813a73989fb4a
+TQID: https://experienceleague.adobe.com/sVulqIEiWIz7ItrQgGV-79JI-Sng-7oM9mmoK-I6Olk
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '278'
-ht-degree: 85%
+source-wordcount: 279
+ht-degree: 86%
 
 ---
 
@@ -28,7 +33,7 @@ Por ejemplo, si pregunta al Asistente de IA “Cómo se crea una cola de solicit
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td role="rowheader">Paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera </p> </td> 
   </tr> 
   <tr> 

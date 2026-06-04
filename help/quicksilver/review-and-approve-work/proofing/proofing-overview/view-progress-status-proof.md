@@ -6,10 +6,14 @@ description: En el área Documentos puede consultar información sobre el progre
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 78e81070-ff82-4d82-90a3-6e0cd176b290
-source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
+TQID: https://experienceleague.adobe.com/iYtVPQnpcuPSr7i615HgHzSX43yWqMRhEmzk-2nQoPw
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '376'
-ht-degree: 97%
+source-wordcount: 320
+ht-degree: 93%
 
 ---
 
@@ -93,7 +97,7 @@ Los iconos de progreso pueden aparecer en los siguientes colores para indicar ci
 
 ## Información general sobre el estado de la revisión
 
-El estado de la revisión muestra el estado de las decisiones que se requieren para la revisión. El estado de la prueba lo determina el participante “en el peor de los casos”. Por ejemplo, supongamos que hay tres decisiones sobre la revisión: dos tienen el estado **Aceptado** y una tiene el estado **Rechazado**. La decisión “en el peor de los casos” de **Rechazada** prevalece sobre las demás decisiones y el estado general de la revisión se muestra como **Rechazada**. 
+El estado de la prueba muestra el estado de las decisiones que se requieren para la prueba. El estado de la prueba lo determina el participante &quot;en el peor de los casos&quot;. Por ejemplo, supongamos que hay tres decisiones sobre la prueba: dos tienen el estado **Aceptado** y una tiene el estado **Rechazado**. La decisión &quot;en el peor de los casos&quot; de **Rechazado** invalida las demás decisiones y el estado general de la prueba se muestra como **Rechazado**. 
 
 ![Progreso existente de edición de revisión](assets/proof-edit-existing-progress-350x62.png)
 

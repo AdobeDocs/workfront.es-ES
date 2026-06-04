@@ -7,10 +7,15 @@ description: De manera predeterminada, la lista de proyectos mostrados en la vis
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 76db4ed0-a411-49aa-8acd-f149df1f38a4
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+TQID: https://experienceleague.adobe.com/sSql-PZInJUueNE7QBQFX2z7QyaaPhjZILcrS0en8mI
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '360'
-ht-degree: 98%
+source-wordcount: 359
+ht-degree: 95%
 
 ---
 
@@ -59,8 +64,8 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
    * **[!UICONTROL Portafolio]**
    * **[!UICONTROL Progreso]**
    * **[!UICONTROL Estado]**
-   * **[!UICONTROL Patrocinador]**
-Los proyectos aparecen ahora agrupados por los posibles valores de estos campos.\
+   * **[!UICONTROL patrocinador]**
+Los proyectos ahora se enumeran agrupados por los valores posibles de estos campos.\
       Puede agrupar los proyectos según un criterio a la vez. Los criterios se cargan previamente en la aplicación, en los gráficos de la parte superior de la lista de proyectos y no se pueden modificar.
 
 ## Ver detalles del proyecto

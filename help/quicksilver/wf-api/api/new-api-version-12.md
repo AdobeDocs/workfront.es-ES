@@ -2,23 +2,29 @@
 content-type: api
 navigation-topic: api-navigation-topic
 title: Novedades de la versión 12 de la API
-description: ' El 12 de noviembre de 2020, Workfront publicó la versión 12 de la API. La versión 12 de la API incorpora los siguientes cambios con respecto a la versión 11'
+description: El 12 de noviembre de 2020, Workfront publicó la versión 12 de la API. La versión 12 de la API incorpora los siguientes cambios con respecto a la versión 11
 author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 1ffba3b5-ab24-4ca2-a1ef-f7e5b77e776c
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/C-szKJpMnZfQW5TR-nujo3eIuQ2OToLyGcJS7-r65Vg
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: ce22a157-dd2c-405f-b740-c2f204bb4c1aid: d3382524-5489-431b-bde9-271ab257bc37id: d87de1f9-8e24-4c4d-aa4c-a403075091a1id: fceb5125-bb41-419a-b0db-31958cb42f6c
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '2421'
+source-wordcount: 2427
 ht-degree: 99%
 
 ---
 
 # Novedades de la versión 12 de la API
 
- El 12 de noviembre de 2020, Workfront publicó la versión 12 de la API. La versión 12 de la API incorpora los siguientes cambios con respecto a la versión 11
+El 12 de noviembre de 2020, Workfront publicó la versión 12 de la API. La versión 12 de la API incorpora los siguientes cambios con respecto a la versión 11
 
 ## Recursos añadidos
 
@@ -107,8 +113,8 @@ Se han modificado los siguientes recursos para la versión 12 de la API de Workf
      <li> <p><a href="#announcementattachment" class="MCXref xref">AnnouncementAttachment</a> </p> </li> 
      <li> <p><a href="#approval" class="MCXref xref">Aprobación</a> </p> </li> 
      <li> <p><a href="#calendarsection" class="MCXref xref">CalendarSection</a> </p> </li> 
-     <li> <p><a href="#company" class="MCXref xref">Compañía</a> </p> </li> 
-     <li> <p><a href="#customer" class="MCXref xref">Cliente</a> </p> </li> 
+     <li> <p><a href="#company" class="MCXref xref">Empresa</a> </p> </li> 
+     <li> <p><a href="#customer" class="MCXref xref">Customer</a> </p> </li> 
     </ul> </td> 
    <td> 
     <ul> 
@@ -124,14 +130,14 @@ Se han modificado los siguientes recursos para la versión 12 de la API de Workf
     </ul> </td> 
    <td> 
     <ul> 
-     <li> <p><a href="#queuedef" class="MCXref xref">QueueDef</a> </p> </li> 
+     <li> <p><a href="#queuedef" class="MCXref xref">Definición de cola</a> </p> </li> 
      <li> <p><a href="#scheduledreport" class="MCXref xref">ScheduledReport</a> </p> </li> 
      <li> <p><a href="#scorecardquestion" class="MCXref xref">ScoreCardQuestion</a> </p> </li> 
-     <li> <p><a href="#task" class="MCXref xref">Task</a> </p> </li> 
-     <li> <p><a href="#team" class="MCXref xref">Team</a> </p> </li> 
+     <li> <p><a href="#task" class="MCXref xref">Tarea</a> </p> </li> 
+     <li> <p><a href="#team" class="MCXref xref">Equipo</a> </p> </li> 
      <li> <p><a href="#templatetask" class="MCXref xref">TemplateTask</a> </p> </li> 
-     <li> <p><a href="#timesheet" class="MCXref xref">Timesheet</a> </p> </li> 
-     <li> <p><a href="#user" class="MCXref xref">User</a> </p> </li> 
+     <li> <p><a href="#timesheet" class="MCXref xref">Plantilla de horas</a> </p> </li> 
+     <li> <p><a href="#user" class="MCXref xref">Usuario</a> </p> </li> 
      <li> <p><a href="#work" class="MCXref xref">Work </a> </p> </li> 
     </ul> </td> 
   </tr> 

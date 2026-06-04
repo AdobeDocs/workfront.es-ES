@@ -2,21 +2,27 @@
 content-type: api
 navigation-topic: api-navigation-topic
 title: Novedades de la versión 14 de la API
-description: Adobe Workfront lanzó la versión 14 de la API el 9 de septiembre de 2021. La versión 14 de la API incorpora los siguientes cambios con respecto a la versión 14.
+description: Adobe Workfront publicó la versión 14 de la API el viernes, 09 de septiembre de 2021. La versión 14 de la API incorpora los siguientes cambios con respecto a la versión 14.
 author: Becky
 feature: Workfront API
 role: Developer
 exl-id: eca5d1cc-6348-445c-be84-c0a29f15980d
-source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
+TQID: https://experienceleague.adobe.com/gRCMOHLFlV01R9aOqqFuDzTVjGbxjvU2NVIVmPiTE5E
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87effid: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '891'
-ht-degree: 0%
+source-wordcount: 897
+ht-degree: 55%
 
 ---
 
 # Novedades de la versión 14 de la API
 
-Adobe Workfront lanzó la versión 14 de la API el 9 de septiembre de 2021. La versión 14 de la API incorpora los siguientes cambios con respecto a la versión 14.
+Adobe Workfront publicó la versión 14 de la API el viernes, 09 de septiembre de 2021. La versión 14 de la API incorpora los siguientes cambios con respecto a la versión 14.
 
 ## Recursos añadidos
 
@@ -28,7 +34,7 @@ No se ha eliminado ningún recurso para la versión 14 de la API.
 
 ## Recursos modificados
 
-Se modificaron los siguientes recursos para la versión 14 de la API.
+Se han modificado los siguientes recursos para la versión 14 de la API.
 
 * [Registro de facturación (FACTURA)](#billingrecord-bill)
 * [Categoría (CTGY)](#category-ctgy)
@@ -43,11 +49,11 @@ Se modificaron los siguientes recursos para la versión 14 de la API.
 * [Asignación de recursos (RSALLO)](#resource-allocation-rsallo)
 * [Rol (ROL)](#role-role)
 * [Plantilla (TMPL)](#template-tmpl)
-* [Hoja de horas (TSHET)](#timesheet-tshet)
+* [Plantilla de horas (TSHET)](#timesheet-tshet)
 
-### Registro de facturación (FACTURA) {#billingrecord-bill}
+### BillingRecord (BILL) {#billingrecord-bill}
 
-Un objeto BillingRecord registra los ingresos, horas o gastos que se pueden facturar. Esta información se puede utilizar para crear facturas en un sistema de contabilidad externo.
+Un objeto BillingRecord registra los ingresos, horas o gastos que se pueden facturar. Esta información puede utilizarse para crear facturas en un sistema contable externo.
 
 Para obtener más información sobre los registros de facturación, consulte [Crear registros de facturación](../../manage-work/projects/project-finances/create-billing-records.md).
 
@@ -90,7 +96,7 @@ El objeto BillingRecord agregó el indicador **DATA_EXTENDIBLE**.
 
 ### Categoría (CTGY) {#category-ctgy}
 
-Un objeto Category es un formulario personalizado.
+Un objeto de categoría es un formulario personalizado.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -100,7 +106,7 @@ Un objeto Category es un formulario personalizado.
    <td role="rowheader">Campos directos</td> 
    <td> 
     <ul> 
-     <li> <p><b>catObjCode</b> </p> <p>Se ha agregado el valor posible:</p> 
+     <li> <p><b>catObjCode</b> </p> <p>Se ha añadido el valor posible:</p> 
       <ul> 
        <li> <p> FACTURA (Registro de facturación)</p> </li> 
       </ul> <p>Este valor se agregó para admitir la posibilidad de agregar formularios personalizados a objetos BillingRecord.</p> </li> 
@@ -128,7 +134,7 @@ El objeto CustomEnum ayuda a convertir los códigos de estado en texto legible e
    <td role="rowheader">Consultas</td> 
    <td> 
     <ul> 
-     <li> <p><b>getGroupStatus</b> </p> <p>Añadido. Esta consulta admite la capacidad de crear y administrar estados para grupos y subgrupos. </p> <p>Para obtener más información, consulte <a href="../../administration-and-setup/manage-groups/manage-group-statuses/manage-group-statuses.md" class="MCXref xref">Administrar estados de grupo</a>.</p> </li> 
+     <li> <p><b>getGroupStatus</b> </p> <p>Añadido. Esta consulta admite la capacidad de crear y administrar estados para grupos y subgrupos. </p> <p>Para obtener más información, consulte <a href="../../administration-and-setup/manage-groups/manage-group-statuses/manage-group-statuses.md" class="MCXref xref">Administrar los estados de un grupo</a>.</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -136,11 +142,11 @@ El objeto CustomEnum ayuda a convertir los códigos de estado en texto legible e
 
 ### Cliente (CUST) {#customer-cust}
 
-Un objeto Customer representa una organización que utiliza una instancia de Workfront.
+Un objeto de cliente representa a una organización que utiliza una instancia de Workfront.
 
 Este es un objeto interno.
 
-### Preferencias del cliente (CUSTPR) {#customerpreferences-custpr}
+### CustomerPreferences (CUSTPR) {#customerpreferences-custpr}
 
 Un objeto CustomerPreferences representa el conjunto de preferencias que un cliente ha establecido para su instancia de Workfront.
 
@@ -152,7 +158,7 @@ Un objeto CustomerPreferences representa el conjunto de preferencias que un clie
    <td role="rowheader">Campos directos</td> 
    <td> 
     <ul> 
-     <li> <p><b>nombre</b> </p> <p>Se ha agregado el valor posible:</p> 
+     <li> <p><b>name</b> </p> <p>Se ha añadido el valor posible:</p> 
       <ul> 
        <li> <p>Permitir que los usuarios agreguen imágenes en las actualizaciones (actualizaciones:images.toggle)</p> </li> 
       </ul> <p>Este parámetro admite la capacidad de agregar imágenes a las actualizaciones de elementos de trabajo. </p> <p>Para obtener más información, consulte <a href="../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md" class="MCXref xref">Trabajo de actualización</a>.</p> </li> 
@@ -165,7 +171,7 @@ Un objeto CustomerPreferences representa el conjunto de preferencias que un clie
 
 Un objeto DocumentVersion representa una versión específica de un archivo (como material escrito, imágenes u otras formas de información).
 
-Para obtener más información acerca de las versiones de documentos, vea [Cargar una nueva versión de un documento](../../documents/managing-documents/upload-new-document-version.md).
+Para obtener más información acerca de las versiones de documentos, consulte [Cargar una nueva versión de un documento](../../documents/managing-documents/upload-new-document-version.md).
 
 <table style="table-layout:auto"> 
  <col> 
@@ -215,10 +221,10 @@ Para obtener más información sobre el etiquetado en las actualizaciones, consu
    <td role="rowheader">Operaciones</td> 
    <td> <p>Se agregaron las operaciones siguientes al objeto NoteTag:</p> 
     <ul> 
-     <li> <p><b>RECUENTO</b> </p> </li> 
+     <li> <p><b>COUNT</b> </p> </li> 
      <li> <p><b>GET</b> </p> </li> 
-     <li> <p><b>INFORME</b> </p> </li> 
-     <li> <p><b>BUSCAR</b> </p> </li> 
+     <li> <p><b>REPORT</b> </p> </li> 
+     <li> <p><b>SEARCH</b> </p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -226,7 +232,7 @@ Para obtener más información sobre el etiquetado en las actualizaciones, consu
 
 ### Proyecto (PROJ) {#project-proj}
 
-Los proyectos son elementos de trabajo dentro de Workfront y son un bloque de creación principal en la forma en que Workfront ayuda a las personas a realizar su trabajo. Un objeto Project representa un grupo de tareas con un objetivo común y específico.
+Los proyectos son elementos de trabajo dentro de Workfront y son un componente principal en la forma en que Workfront ayuda a las personas a realizar su trabajo. Un objeto Projecto representa un grupo de tareas con un objetivo común y específico.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -244,9 +250,9 @@ Los proyectos son elementos de trabajo dentro de Workfront y son un bloque de cr
 
 ### QueueDef (QUED) {#queuedef-qued}
 
-Un objeto QueueDef representa una cola, que es un proyecto que se ha publicado en el área del servicio de asistencia para permitir a los usuarios enviar problemas al mismo.
+Un objeto QueueDef representa una cola, que es un proyecto que se ha publicado en el área del servicio de asistencia para permitir a los usuarios enviarle problemas.
 
-Para obtener más información sobre las colas de solicitudes, vea [Crear una cola de solicitudes](../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+Para obtener más información sobre las colas de solicitudes, consulte [Creación de colas de solicitudes](../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
 <table style="table-layout:auto"> 
  <col> 
@@ -268,9 +274,9 @@ Un objeto Resource Allocation representa la estimación de los recursos necesari
 
 El objeto de asignación de recursos quitó el indicador **REPORTABLE**.
 
-### Rol (ROLE) {#role-role}
+### Función (ROLE) {#role-role}
 
-Un objeto Role (función del puesto) representa una capacidad funcional o un conjunto de aptitudes que un usuario podría completar, como Designer o Product Manager.
+Un objeto Role (función) representa una capacidad funcional o un conjunto de aptitudes que un usuario podría completar, como un diseñador o un gestor de productos.
 
 Para obtener información sobre los roles, consulte [Resumen del rol](../../administration-and-setup/set-up-workfront/organizational-setup/job-role-overview.md).
 
@@ -282,7 +288,7 @@ Para obtener información sobre los roles, consulte [Resumen del rol](../../admi
    <td role="rowheader">Campos directos</td> 
    <td> 
     <ul> 
-     <li style="font-weight: bold;"> <p>isActive</p> <p style="font-weight: normal;">Añadido. Es un parámetro booleano con un valor true si un objeto está activo y false si no lo está. Los objetos que se definen como Activos aparecen en menús desplegables y campos de escritura anticipada y pueden adjuntarse a otros objetos.</p> </li> 
+     <li style="font-weight: bold;"> <p>isActive</p> <p style="font-weight: normal;">Añadido. Este es un parámetro booleano con un valor de verdadero si un objeto está activo y falso si no lo está. Los objetos que se definen como Activos aparecen en menús desplegables y campos de escritura anticipada y pueden adjuntarse a otros objetos.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -295,9 +301,9 @@ Para obtener información sobre los roles, consulte [Resumen del rol](../../admi
  </tbody> 
 </table>
 
-### Plantilla (TMPL) {#template-tmpl}
+### Template (TMPL) {#template-tmpl}
 
-Un objeto Template representa un patrón para un proyecto. Los proyectos se pueden crear a partir de plantillas para ahorrar tiempo. Una plantilla contiene un equipo y tareas, que se copiarán en cualquier proyecto creado a partir de la plantilla.
+Un objeto de plantilla representa un patrón para un proyecto. Los proyectos se pueden crear a partir de plantillas para ahorrar tiempo. Una plantilla contiene un equipo y tareas, que se copiarán en cualquier proyecto creado a partir de la plantilla.
 
 <table style="table-layout:auto"> 
  <col> 

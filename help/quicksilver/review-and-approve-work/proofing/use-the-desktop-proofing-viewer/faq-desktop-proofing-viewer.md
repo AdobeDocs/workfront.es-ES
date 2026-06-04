@@ -2,19 +2,22 @@
 content-type: faq
 product-area: documents
 navigation-topic: use-the-desktop-proofing-viewer
-title: 'Preguntas frecuentes: Visualizador de prueba de escritorio'
+title: 'Preguntas frecuentes: Visualizador de revisión de escritorio'
 description: No. El Visor de corrección de escritorio está diseñado específicamente para revisar sitios web en tiempo real y contenido web interactivo, como anuncios de banners.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: e5c9f039-2a6e-47be-a125-f0ce23cfaeaa
-source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
+TQID: https://experienceleague.adobe.com/1gc-y9JRhPoWI2jpVRsQoe05Vi9mzHYVu5Bo7pydfbw
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '441'
-ht-degree: 99%
+source-wordcount: 417
+ht-degree: 96%
 
 ---
 
-# Preguntas frecuentes: Visualizador de prueba de escritorio
+# Preguntas frecuentes: Visualizador de revisión de escritorio
 
 ## Mi organización no revisa el contenido interactivo. ¿Tengo que instalar el Visor de corrección de escritorio de todas formas?
 
@@ -48,10 +51,10 @@ No. Las actualizaciones del Visualizador de prueba de escritorio están automati
 
 Solo si envía una prueba interactiva o un sitio web en tiempo real a la parte interesada externa. Si necesita cargar el Visor de corrección de escritorio localmente para ver un fragmento de contenido, cualquier otro usuario (interno o externo) debe hacer lo mismo para poder verlo.
 
-## ¿Cuál es el estado del visor de corrección heredado que mi organización ha utilizado para las pruebas interactivas?
+## ¿Cuál es el estado del visor de corrección heredado que mi organización ha utilizado para las revisiones interactivas?
 
-Antes de la versión 2018.3, se admitía el visor de corrección heredado. Con la versión 2018.3 (en noviembre de 2018), el visor de corrección heredado y todas las demás aplicaciones que dependen de Flash se han eliminado y ya no están disponibles. 
+Antes de la versión 2018.3, se admitía el visualizador de pruebas de Heredado. Con la versión 2018.3 (en noviembre de 2018), el visualizador de pruebas heredado y todas las demás aplicaciones que dependen de Flash se han eliminado y ya no están disponibles. 
 
-Para las pruebas estáticas y de vídeo, el nuevo Visor de corrección web es el visor predeterminado. Para las pruebas interactivas, el visor de corrección de escritorio es el predeterminado.
+Para las revisiones estáticas y de vídeo, el nuevo Visor de corrección web es el visor predeterminado. Para las revisiones interactivas, el visor de corrección de escritorio es el predeterminado.
 
 <!--For more information, see [Legacy proofing viewer removed in 2018.3](../../../workfront-proof/wp-work-proofsfiles/review-proofs-lpv/lpv-removed-2018.md)-->

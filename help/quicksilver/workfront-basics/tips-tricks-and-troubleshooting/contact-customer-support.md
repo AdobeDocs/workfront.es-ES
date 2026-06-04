@@ -6,12 +6,17 @@ description: Como cliente de Adobe Workfront, puede ponerse en contacto con el e
 feature: Get Started with Workfront
 author: Becky
 exl-id: fa8e0559-7af6-4049-9c24-76d1bcbebf84
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/x2Xcq-cSCBA-SjFQ-DBp4v3RIPJorZs8oBdSOTdTKFs
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '468'
-ht-degree: 79%
+source-wordcount: 455
+ht-degree: 77%
 
 ---
 
@@ -85,7 +90,7 @@ Puede enviar un ticket de asistencia técnica desde el portal de autoservicio de
 >Solo los contactos de asistencia autorizados (o los usuarios con derechos de asistencia) pueden enviar tickets de asistencia en línea.
 
 
-1. En el sitio web [[!DNL Experience League]](https://experienceleague.adobe.com/es), haga clic en **[!UICONTROL Asistencia técnica]** en la parte superior de la página.
+1. En el sitio web [[!DNL Experience League]](https://experienceleague.adobe.com), haga clic en **[!UICONTROL Asistencia técnica]** en la parte superior de la página.
 
    ![](assets/experience-league-top-navigation-with-support-highlighted.png)
 
@@ -98,7 +103,7 @@ Puede enviar un ticket de asistencia técnica desde el portal de autoservicio de
 <!--1. To submit a case, select the option **[!UICONTROL Open a support case]**, then click **[!UICONTROL Sign] In**.-->
 
 1. Haga clic en **[!UICONTROL Abrir vale]** en la barra lateral izquierda.
-Se abre la página de [!UICONTROL creación de caso], en la que puede escribir el nombre del producto ([!DNL Adobe Workfront], [!DNL Adobe Workfront Fusion], etc.), el título del caso y la descripción del caso.
+Se abre la página [!UICONTROL creación de caso] en la que puede escribir el nombre del producto ([!DNL Adobe Workfront], [!DNL Adobe Workfront Fusion], etc.), el título del caso y la descripción del caso.
 
    >[!TIP]
    >
@@ -141,7 +146,7 @@ Si tiene alguna pregunta o problema al enviar una solicitud, llame al equipo de 
 
 
 <!--
-drafted: I took the information above from this blog post by Jon Chen (on September 13, 2022): https://experienceleaguecommunities.adobe.com/t5/workfront-blogs/how-to-submit-a-support-ticket-on-experience-league/ba-p/461737?profile.language=es)
+drafted: I took the information above from this blog post by Jon Chen (on September 13, 2022): https://experienceleaguecommunities.adobe.com/t5/workfront-blogs/how-to-submit-a-support-ticket-on-experience-league/ba-p/461737)
 
 - this is the information that was there before - pointing to WorkfrontOne: 
 

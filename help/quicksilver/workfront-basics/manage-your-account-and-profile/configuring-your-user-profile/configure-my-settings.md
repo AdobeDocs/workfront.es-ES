@@ -6,11 +6,17 @@ description: Tu perfil  [!DNL Adobe Workfront] contiene información sobre ti mi
 author: Becky
 feature: Get Started with Workfront
 exl-id: 0199bf74-0611-48f0-9c05-da6afac85033
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 5c4ffeabf710374b14a2335b47342be4c393a7c8
+TQID: https://experienceleague.adobe.com/uMoFyTHnX4zHo01va9DpMnTp030Wyh0YdIVH18Saxq4
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2: id: b18b693b-6d59-4359-95fd-a386b7a615feid: ce22a157-dd2c-405f-b740-c2f204bb4c1aid: d1573eb8-a2e8-4a06-9526-9c3410bf4914id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '3383'
+source-wordcount: 3261
 ht-degree: 5%
 
 ---
@@ -342,14 +348,14 @@ Puede cambiar cualquiera de las siguientes opciones en esta subsección:
   <tr> 
    <td role="rowheader"><strong>[!UICONTROL Email Locale]</strong> </td> 
    <td><p>Especifique su idioma preferido aquí. Controla el idioma, la fecha y el formato de número utilizado en los mensajes de correo electrónico salientes.</p>
-   <p><strong>NOTA:</strong> Cuando su organización se encuentra en la experiencia unificada de Adobe, las preferencias de idioma se almacenan en su perfil de Adobe y no se utiliza la configuración regional de correo electrónico. Para obtener más información, consulte <a href="/help/quicksilver/workfront-basics/supported-languages-in-workfront.md#change-the-adobe-experience-cloud-language">Cambiar el idioma de Adobe Experience Cloud</a> en el artículo <a href="/help/quicksilver/workfront-basics/supported-languages-in-workfront.md">Idiomas compatibles en Adobe Workfront</a>.</p></td> 
+   <p><strong>NOTA:</strong> Cuando su organización se encuentra en la experiencia unificada de Adobe, las preferencias de idioma se almacenan en su perfil de Adobe y no se utiliza la configuración regional de correo electrónico. Para obtener más información, consulte <a href="/help/quicksilver/workfront-basics/supported-languages-in-workfront.md#change-the-adobe-experience-cloud-language">Cambiar el idioma de Adobe Experience Cloud</a> en el artículo <a href="/help/quicksilver/workfront-basics/supported-languages-in-workfront.md">Idiomas admitidos en Adobe Workfront</a>.</p></td> 
   </tr>
   <tr><td><strong>[!UICONTROL Establece automáticamente el estado de la tarea a En curso cuando las tareas se asignan automáticamente]</strong> </td>
   <td>Seleccione esta opción si desea que el estado del trabajo que se asigna a sí mismo se establezca automáticamente como En curso en lugar de Nuevo.</td>
   </tr>
   <tr> 
    <td role="rowheader"><strong>(Condicional) Generar automáticamente pruebas al cargar documentos</strong></td> 
-   <td>Seleccione este campo para comenzar a generar una revisión inmediatamente después de cargar el documento en [!DNL Workfront]. Este campo está desactivado de forma predeterminada y solo lo puede actualizar un administrador de Workfront.<br>Este campo solo está disponible si su empresa ha adquirido el componente Workfront Proof para Workfront y si está habilitado como usuario de prueba. Para obtener más información sobre Workfront Proof, consulte <a href="../../../review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proofs-in-wf.md" class="MCXref xref">Administrar pruebas en Adobe Workfront</a>.
+   <td>Seleccione este campo para comenzar a generar una revisión inmediatamente después de cargar el documento en [!DNL Workfront]. Este campo está deshabilitado de manera predeterminada y solamente lo puede actualizar un administrador de Workfront.<br>Este campo solo está disponible si su compañía ha adquirido el componente Workfront Proof para Workfront y si está habilitado como usuario de prueba. Para obtener más información sobre Workfront Proof, consulte <a href="../../../review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proofs-in-wf.md" class="MCXref xref">Administrar pruebas en Adobe Workfront</a>.
    <p><b>Nota:</b> Los documentos cargados a una solicitud no generan automáticamente una revisión. </p></td> 
   </tr> 
  </tbody> 
@@ -377,7 +383,7 @@ Puede cambiar cualquiera de las siguientes opciones en esta subsección:
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!UICONTROL Nivel de acceso]</strong> </td> 
-   <td>Este campo es visible para los usuarios con un nivel de acceso de [!UICONTROL Standard], [!UICONTROL Plan] o [!UICONTROL Workfront administrator] y sólo se puede editar para los administradores de [!DNL Workfront]. Si usted es administrador de [!DNL Workfront], tenga en cuenta no cambiar el nivel de acceso a algo inferior al modificar este campo. </td> 
+   <td>Este campo es visible para los usuarios con un nivel de acceso de [!UICONTROL Standard], [!UICONTROL Plan] o [!UICONTROL Workfront administrator] y sólo se puede editar para los administradores de [!DNL Workfront]. Si es administrador de [!DNL Workfront], tenga en cuenta no cambiar el nivel de acceso a algo inferior al modificar este campo. </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!UICONTROL Plantilla de diseño]</strong> </td> 
@@ -501,7 +507,7 @@ Utilice cualquiera de las siguientes opciones en esta sección:
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!UICONTROL FTE]</strong> </td> 
-   <td> <p>El número que especifique aquí se tiene en cuenta para calcular su disponibilidad según el horario predeterminado sólo cuando las [!UICONTROL Preferencias de administración de recursos] en el nivel del sistema están establecidas en <strong>[!UICONTROL Horario predeterminado]</strong>.</p> <p>Por ejemplo, si el valor de FTE es 0,5 y el horario predeterminado de  es 40 horas, puede trabajar durante 20 horas a la semana.</p> <p>Si las [!UICONTROL Preferencias de administración de recursos] en el nivel del sistema están establecidas en <strong>[!UICONTROL Horario del usuario]</strong>, el valor que especifique aquí se omitirá y podrá trabajar según lo especificado en su horario. En este caso, el valor de FTE para [!UICONTROL Resource Planner] se calcula mediante la fórmula siguiente: </p> <p><code style="font-style: normal;">[!UICONTROL User Available FTE] = [!UICONTROL Hours from the Schedule of the User/ Default Schedule Hours]</code> </p> <p>Para obtener más información sobre el cálculo de FTE de usuario, vea <a href="../../../resource-mgmt/resource-planning/calculate-hours-fte-for-users-roles-resource-planner.md" class="MCXref xref">Información general sobre el cálculo de horas y FTE para usuarios y roles en el Planificador de recursos</a>.</p> <p>Para obtener más información acerca de la creación de programaciones en [!DNL Workfront], vea <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref">Crear una programación</a>.</p> <p>Para obtener más información acerca de cómo configurar las preferencias de administración de recursos, vea <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md" class="MCXref xref">Configurar las preferencias de administración de recursos</a>.</p> </td> 
+   <td> <p>El número que especifique aquí se tiene en cuenta para calcular su disponibilidad según el horario predeterminado sólo cuando las [!UICONTROL Preferencias de administración de recursos] en el nivel del sistema están establecidas en <strong>[!UICONTROL Horario predeterminado]</strong>.</p> <p>Por ejemplo, si el valor de FTE es 0,5 y el horario predeterminado de [!UICONTROL] es 40 horas, puede trabajar durante 20 horas a la semana.</p> <p>Si las [!UICONTROL Preferencias de administración de recursos] en el nivel del sistema están establecidas en <strong>[!UICONTROL Horario del usuario]</strong>, el valor que especifique aquí se omitirá y podrá trabajar según lo especificado en su horario. En este caso, el valor de FTE para [!UICONTROL Resource Planner] se calcula mediante la fórmula siguiente: </p> <p><code style="font-style: normal;">[!UICONTROL User Available FTE] = [!UICONTROL Hours from the Schedule of the User/ Default Schedule Hours]</code> </p> <p>Para obtener más información sobre el cálculo de FTE de usuario, vea <a href="../../../resource-mgmt/resource-planning/calculate-hours-fte-for-users-roles-resource-planner.md" class="MCXref xref">Información general sobre el cálculo de horas y FTE para usuarios y roles en el Planificador de recursos</a>.</p> <p>Para obtener más información acerca de la creación de programaciones en [!DNL Workfront], vea <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref">Crear una programación</a>.</p> <p>Para obtener más información acerca de cómo configurar las preferencias de administración de recursos, vea <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md" class="MCXref xref">Configurar las preferencias de administración de recursos</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!UICONTROL Costo por hora]</strong> </td> 

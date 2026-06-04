@@ -1,20 +1,24 @@
 ---
 content-type: api
 navigation-topic: api-navigation-topic
-title: Reintentos de suscripción de evento
-description: Reintentos de suscripción de evento
+title: Reintentos de suscripción a eventos
+description: Reintentos de suscripción a eventos
 author: Becky
 feature: Workfront API
 role: Developer
 exl-id: b698cb60-4cff-4ccc-87d7-74afb5badc49
-source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
+TQID: https://experienceleague.adobe.com/DPlqoTaQc-eQo-QUmCMXzUOiKFZtNQOMhRUCr13BufE
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '394'
-ht-degree: 0%
+source-wordcount: 397
+ht-degree: 2%
 
 ---
 
-# Reintentos de suscripción de evento
+# Reintentos de suscripción a eventos
 
 Al implementar un sistema de entrega de mensajes, hay que tener en cuenta algunas advertencias para garantizar la estabilidad, la coherencia y la buena experiencia del usuario. Una de las deficiencias de un sistema de entrega de mensajes es garantizar que los mensajes lleguen a su destino correctamente y saber qué hacer cuando los mensajes no llegan.
 

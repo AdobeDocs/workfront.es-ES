@@ -6,10 +6,16 @@ description: Puede cargar ajustes preestablecidos de documento fotográfico como
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: cbb12ee7-949e-44a1-9340-3ef93c003b21
-source-git-commit: a65a4568c6428768ee6bc60a59a8499efdbec9f8
+TQID: https://experienceleague.adobe.com/gV7TwIUpXsu4wBBb31QE2ADnvZ6vWXtwQBvFGPYt73Y
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '648'
-ht-degree: 70%
+source-wordcount: 625
+ht-degree: 69%
 
 ---
 
@@ -19,7 +25,7 @@ Puede cargar ciertos tipos de ajustes preestablecidos de documentos de Photoshop
 
 >[!IMPORTANT]
 >
->El archivo debe ser un ajuste preestablecido de documento fotográfico como se describe en [Plantillas y ajustes preestablecidos en Photoshop](https://helpx.adobe.com/es/photoshop/using/create-documents.html).
+>El archivo debe ser un ajuste preestablecido de documento fotográfico como se describe en [Plantillas y ajustes preestablecidos en Photoshop](https://helpx.adobe.com/photoshop/using/create-documents.html).
 
 
 
@@ -120,7 +126,7 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
 
 1. Elija el **[!UICONTROL Tipo de recurso]** en el menú desplegable.
 1. (Opcional) Seleccione **[!UICONTROL Añadir archivo externo]** para añadir un archivo desde el equipo.
-1. Haga clic en **[!UICONTROL Cargar]** y, a continuación, configure las opciones de exportación que desee en función del tipo de recurso elegido antes.
+1. Haga clic en **[!UICONTROL Cargar]** y, a continuación, configure las opciones de exportación que desee en función del tipo de recurso elegido anteriormente.
 El documento aparece en el área [!UICONTROL Documentos] del panel [!DNL Workfront] en [!DNL Photoshop] y en la aplicación de escritorio [!DNL Workfront].
 
 ## Carga de una nueva versión de prueba
@@ -137,11 +143,11 @@ Puede cargar una nueva versión de una prueba. El complemento recuerda el flujo 
 1. Haga clic en **[!UICONTROL Nueva versión]** cerca de la parte inferior del panel [!DNL Workfront].
 1. Habilite el conmutador **[!UICONTROL Crear una revisión]**.
 
-1. En la sección *[!UICONTROL *Aprobaciones de revisión]&#x200B;**, elija &#x200B;** [!UICONTROL Básico] **&#x200B; o &#x200B;** [!UICONTROL Automatizado]**.
+1. En la sección *[!UICONTROL *Aprobaciones de revisión]**, elija **[!UICONTROL Básico]** o **[!UICONTROL Automatizado]**.
 
 1. Añada **[!UICONTROL Revisores]** o una **[!UICONTROL Plantilla de flujo de trabajo]** según el tipo de aprobación que seleccionó en el paso 7.
 
 1. (Opcional) Escriba un comentario en el área **[!UICONTROL Actualizaciones]**.
 1. Elija el **[!UICONTROL Tipo de recurso]** en el menú desplegable.
-1. Haga clic en **[!UICONTROL Cargar]** y, a continuación, configure las opciones de exportación que desee en función del tipo de recurso elegido antes.
+1. Haga clic en **[!UICONTROL Cargar]** y, a continuación, configure las opciones de exportación que desee en función del tipo de recurso elegido anteriormente.
 El documento aparece en el área [!UICONTROL Documentos] del panel [!DNL Workfront] en [!DNL Photoshop] y en la aplicación de escritorio [!DNL Workfront].

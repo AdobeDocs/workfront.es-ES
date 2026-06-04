@@ -6,10 +6,15 @@ description: Puede ver y responder a los comentarios sobre una prueba realizados
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 32a068ab-0d99-4ab5-a98d-dc3abd953948
-source-git-commit: fe269b088c82e7045ffbb5155d54432e0b413cbe
+TQID: https://experienceleague.adobe.com/g39tYqY-reCdFYxQsJMEH-Yuj0yZ0T4ZltEbTFo-q0Q
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '607'
-ht-degree: 95%
+source-wordcount: 612
+ht-degree: 96%
 
 ---
 
@@ -28,7 +33,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td role="rowheader">Paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
@@ -70,7 +75,7 @@ Para ver los comentarios en el visor de revisión:
 
 1. (Condicional) Si el área de comentarios no está abierta, haga clic en **Ver comentarios** en la esquina superior derecha.
 1. Haga clic en cualquier comentario para ver las marcas de comentario de la prueba.
-1. O
+1.  O
 1.  En una prueba de vídeo, pase el puntero por encima del punto de la cronología en el que se realizó un comentario y, a continuación, haga clic en el globo numerado que aparece.
 1. ![proof_comment_video.png](assets/proof-comment-video-350x190.png)
 
@@ -98,7 +103,7 @@ Como revisor de una prueba, puede marcar rápidamente todos los comentarios como
 
 1. ![Marcar todos como leídos](assets/mceclip8-350x173.png)
 
-## Responder a los comentarios de la prueba del visor de corrección
+## Responder a los comentarios de la revisión del visor de corrección
 
 1. Vaya al proyecto, tarea o problema que contiene el documento y, a continuación, seleccione **Documentos**.
 1. Busque la revisión que necesita y haga clic en **Abrir revisión**.

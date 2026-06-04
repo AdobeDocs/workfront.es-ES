@@ -6,10 +6,15 @@ description: Puede editar la configuración de una prueba en cualquier momento d
 author: Courtney
 feature: Digital Content and Documents
 exl-id: ee30ce2c-e3dc-4863-a69b-cbc1b8747362
-source-git-commit: ac714bd5a5259d6f995ac445efbd0125e07022cb
+TQID: https://experienceleague.adobe.com/8ZOLF6hwAvWlLyMPtt1Ad8ZAfHCjKg-annlGGv5Qz3g
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '533'
-ht-degree: 98%
+source-wordcount: 532
+ht-degree: 97%
 
 ---
 
@@ -26,7 +31,7 @@ Puede editar la configuración de una prueba en cualquier momento después de cr
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td role="rowheader">Paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
@@ -69,7 +74,7 @@ Algunas configuraciones pueden bloquearse si el administrador de Workfront las d
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">Se requiere el inicio de sesión. Esta revisión no se puede compartir con usuarios invitados</td> 
+      <td role="rowheader">Requerir inicio de sesión. Esta revisión no se puede compartir con usuarios invitados</td> 
       <td> <p>Si necesita niveles más altos de seguridad para el proceso de revisión y aprobación, puede requerir el inicio de sesión en la revisión. Esto significa que solo se pueden añadir usuarios de Workfront a la revisión. Deben introducir su correo electrónico y contraseña antes de poder acceder.</p> <p>Nota: <em style="font-style: normal;">Si se ha habilitado que el inicio de sesión sea necesario, las suscripciones no se pueden habilitar.</em> </p> </td> 
      </tr> 
      <tr> 

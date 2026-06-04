@@ -1,19 +1,22 @@
 ---
 product-area: documents
 navigation-topic: review-a-proof
-title: Métodos abreviados de teclado en el visor de pruebas
+title: Métodos abreviados de teclado en el visor de revisiones
 description: Los métodos abreviados de teclado que se describen en este artículo están disponibles tanto en el Visor de revisión web como en el Visor de revisión de escritorio.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 5a408439-9767-4d68-be04-034f0bce275a
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+TQID: https://experienceleague.adobe.com/KaPjGHbES--UPqcVBW9yiZsne-MTeA6Ykcs--UnozWw
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '339'
-ht-degree: 1%
+source-wordcount: 348
+ht-degree: 100%
 
 ---
 
-# Métodos abreviados de teclado en el visor de pruebas
+# Métodos abreviados de teclado en el visor de revisiones
 
 Los métodos abreviados de teclado que se describen en este artículo están disponibles tanto en el Visor de revisión web como en el Visor de revisión de escritorio. 
 
@@ -63,7 +66,7 @@ Los métodos abreviados de teclado que se describen en este artículo están dis
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Mantenga pulsada la tecla Mayús y luego presione &lt;</p> </td> 
+   <td> <p>Mantenga pulsada la tecla Mayús y luego pulse &lt;</p> </td> 
    <td> <p>Reproducir vídeo más despacio</p> </td> 
    <td> <p> </p> </td> 
   </tr> 
@@ -78,12 +81,12 @@ Los métodos abreviados de teclado que se describen en este artículo están dis
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Flecha hacia abajo</p> </td> 
+   <td> <p>Flecha abajo</p> </td> 
    <td> <p>Siguiente comentario</p> </td> 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Flecha arriba</p> </td> 
+   <td> <p>Flecha hacia arriba</p> </td> 
    <td> <p>Comentario anterior</p> </td> 
    <td> <p> </p> </td> 
   </tr> 
@@ -93,8 +96,8 @@ Los métodos abreviados de teclado que se describen en este artículo están dis
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
-   <td> <p>0 (cero)<br>O<br> fn+flecha izquierda<br> O<br> clave de inicio</p> </td> 
-   <td> <p>Reinicie el vídeo</p> </td> 
+   <td> <p>0 (cero)<br>O<br> fn+flecha izquierda<br> O<br> Tecla Inicio</p> </td> 
+   <td> <p>Reiniciar el vídeo</p> </td> 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
@@ -104,31 +107,31 @@ Los métodos abreviados de teclado que se describen en este artículo están dis
   </tr> 
   <tr> 
    <td> <p>M (mayúsculas o minúsculas)</p> </td> 
-   <td> <p>Silenciar y reactivar vídeo</p> </td> 
+   <td> <p>Silenciar y reactivar audio del vídeo</p> </td> 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Desplazamiento y desplazamiento</p> </td> 
+   <td> <p>Maýus y desplazamiento</p> </td> 
    <td> <p> Ampliar o reducir</p> </td> 
    <td> <p>Ampliar o reducir</p> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>Mac:</strong> ctrl+0</p> <p><strong>Windows:</strong> Ctrl+0</p> </td> 
+   <td> <p><strong>Mac:</strong> ctrl+0</p> <p><strong>Windows:</strong> Ctrl+0</p> </td> 
    <td> <p> Ajustar a página</p> </td> 
    <td> <p>Ajustar a página</p> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>Mac:</strong> ctrl+1</p> <p><strong>Windows:</strong> Ctrl+1</p> </td> 
+   <td> <p><strong>Mac:</strong> ctrl+1</p> <p><strong>Windows:</strong> Ctrl+1</p> </td> 
    <td> <p> </p> </td> 
-   <td> <p>Zoom de 100% </p> </td> 
+   <td> <p>Zoom al 100 % </p> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>Mac:</strong> ctrl+2</p> <p><strong>Windows:</strong> Ctrl+2</p> </td> 
+   <td> <p><strong>Mac:</strong> ctrl+2</p> <p><strong>Windows:</strong> Ctrl+2</p> </td> 
    <td> <p> </p> </td> 
    <td> <p>Ajustar a anchura </p> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>Mac:</strong> ctrl+3</p> <p><strong>Windows:</strong> Ctrl+3 </p> </td> 
+   <td> <p><strong>Mac:</strong> ctrl+3</p> <p><strong>Windows:</strong> Ctrl+3 </p> </td> 
    <td> <p> </p> </td> 
    <td> <p>Ajustar a altura </p> </td> 
   </tr> 
@@ -139,11 +142,11 @@ Los métodos abreviados de teclado que se describen en este artículo están dis
   </tr> 
   <tr> 
    <td> <p><strong>Mac:</strong> cmd+- <br>O <br>cmd+mayús+desplazar hacia abajo</p> <p><strong>Windows:</strong> Ctrl+-</p> </td> 
-   <td> <p>Alejar </p> </td> 
-   <td> <p>Alejar</p> </td> 
+   <td> <p>Reducir </p> </td> 
+   <td> <p>Reducir</p> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>Ventanas:</strong> Mantenga presionada la barra espaciadora mientras arrastra la imagen</p> </td> 
+   <td> <p><strong>Windows:</strong> Mantener presionada la barra espaciadora mientras se arrastra la imagen</p> </td> 
    <td> <p> Panorámica</p> </td> 
    <td> <p> Panorámica</p> </td> 
   </tr> 
@@ -153,12 +156,12 @@ Los métodos abreviados de teclado que se describen en este artículo están dis
    <td> <p>Buscar documento</p> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>Mac:</strong> cmd+g</p> <p><strong>Windows:</strong> Ctrl+G</p> <p><strong>Mac y Windows:</strong> Presione la tecla Intro en el campo Buscar.</p> </td> 
+   <td> <p><strong>Mac:</strong> cmd+g</p> <p><strong>Windows:</strong> Ctrl+g</p> <p><strong>Mac y Windows:</strong> pulse la tecla Intro en el campo de búsqueda.</p> </td> 
    <td> <p> </p> </td> 
    <td> <p>Siguiente resultado de búsqueda</p> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>Mac:</strong> cmd+Mayús+g</p> <p><strong>Windows:</strong> Ctrl+Mayús+g</p> <p><strong>Mac y Windows:</strong> Presione Mayús+Entrar en el campo Buscar.</p> </td> 
+   <td> <p><strong>Mac:</strong> cmd+Mayús+g</p> <p><strong>Windows:</strong> Ctrl+Mayús+g</p> <p><strong>Mac y Windows:</strong> pulse Mayús+Entrar en el campo Buscar.</p> </td> 
    <td> <p> </p> </td> 
    <td> <p>Resultado de la búsqueda anterior</p> </td> 
   </tr> 

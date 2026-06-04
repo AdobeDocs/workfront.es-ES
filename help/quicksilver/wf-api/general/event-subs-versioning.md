@@ -7,23 +7,27 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 151b9d0d-0dd6-4ece-9601-dda04356b436
-source-git-commit: f34f48d974db200d9ce1815c805885707ab27f6d
+TQID: https://experienceleague.adobe.com/cJnPxNppHK0lh8A6GQKNoUCCBrRUKdMvU3ym6zdHCXo
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1288'
-ht-degree: 1%
+source-wordcount: 1055
+ht-degree: 17%
 
 ---
 
-# Versiones de suscripción de evento
+# Versiones de la suscripción a eventos
 
 Workfront tiene dos versiones de suscripciones a eventos. Este artículo describe las diferencias entre ellos.
 
-La nueva versión no es un cambio en la API de Workfront, sino un cambio en la funcionalidad de suscripción de evento.
+La nueva versión no es un cambio en la API de Workfront, sino un cambio en la funcionalidad de suscripción a eventos.
 
-La capacidad de actualizar o reducir las suscripciones a eventos garantiza que, cuando se realicen cambios en la estructura de los eventos, las suscripciones existentes no se rompan, lo que le permite probar y actualizar a la nueva versión sin interrupciones en la suscripción de evento.
+La capacidad de actualizar o de bajar de categoría las suscripciones a eventos garantiza que, cuando se realicen cambios en la estructura de los eventos, las suscripciones existentes no se rompan, lo que le permite probar y actualizar a la nueva versión sin interrupciones en la suscripción al evento.
 
 
-Al actualizar o reducir la suscripción de evento a otra versión, se reciben eventos duplicados para cada entrega de evento durante un periodo de cinco minutos después del cambio de versión. Los duplicados incluyen una de cada versión de suscripción de evento 1 y una versión 2. Esto garantiza que no se pierda ningún evento debido al cambio de la versión de suscripción del evento.
+Al actualizar o bajar de categoría la suscripción a evento a otra versión, recibe eventos duplicados para cada entrega de evento durante un período de cinco minutos después del cambio de versión. Los duplicados incluyen una suscripción a evento versión 1 y otra, versión 2. Esto garantiza que no pierda ningún evento debido al cambio de la versión de suscripción al evento.
 
 Para obtener información sobre los extremos utilizados para actualizar o degradar suscripciones de evento, consulte [Control de versiones de suscripciones de evento](/help/quicksilver/wf-api/general/event-subs-api.md#event-subscription-versioning) en el artículo API de suscripción de evento.
 
@@ -101,7 +105,7 @@ Se han realizado los siguientes cambios para las suscripciones de evento Versió
    </td> 
    <td>Cuando se actualizó este objeto, el evento <code>UPDATE</code> a veces mostraba incorrectamente el cambio de los campos afectados de <code>null</code> a <code>ID value</code>.</td> 
    <td>Todos los eventos <code>UPDATE</code> muestran el valor correcto para los campos afectados.</td> 
-   <td>Ninguno. Si tiene un filtro en los campos afectados, recibirá un evento <code>UPDATE</code> solo si estos campos han cambiado realmente, no si ha cambiado algún otro valor.
+   <td>Ninguna. Si tiene un filtro en los campos afectados, recibirá un evento <code>UPDATE</code> solo si estos campos han cambiado realmente, no si ha cambiado algún otro valor.
    </td> 
   </tr> 
   <tr> 
@@ -113,7 +117,7 @@ Se han realizado los siguientes cambios para las suscripciones de evento Versió
    </td> 
    <td>Cuando se actualizaba cualquier valor de parámetro en este objeto, el evento <code>UPDATE</code> mostraba incorrectamente el cambio de campo afectado de <code>null</code> a <code>object id</code>. </td> 
    <td>Todos los eventos <code>UPDATE</code> muestran el valor correcto para los campos afectados.</td> 
-   <td>Ninguno. Si tiene un filtro en los campos afectados, recibirá un evento <code>UPDATE</code> solo si estos campos han cambiado realmente, no si ha cambiado algún otro valor.
+   <td>Ninguna. Si tiene un filtro en los campos afectados, recibirá un evento <code>UPDATE</code> solo si estos campos han cambiado realmente, no si ha cambiado algún otro valor.
   </tr> 
   <tr> 
   <td>
@@ -123,7 +127,7 @@ Se han realizado los siguientes cambios para las suscripciones de evento Versió
    </td> 
    <td>Cuando se eliminaba un documento, el evento <code>DELETE</code> mostraba incorrectamente el campo afectado como una matriz vacía en el estado antes.    </td> 
    <td>El evento <code>DELETE</code> muestra correctamente el campo afectado en el estado antes.</td> 
-   <td>Ninguno. El evento <code>DELETE</code> se enviará, pero ahora mostrará los datos correctos para el campo afectado. 
+   <td>Ninguna. El evento <code>DELETE</code> se enviará, pero ahora mostrará los datos correctos para el campo afectado. 
 </td> 
   </tr> 
   <tr> 
@@ -137,7 +141,7 @@ Se han realizado los siguientes cambios para las suscripciones de evento Versió
    </td> 
    <td>Cuando se actualizara este objeto, se enviarían dos eventos <code>UPDATE</code>. El primero no incluyó los campos afectados, mientras que el segundo sí lo hizo.</td> 
    <td>Todas las actualizaciones de campo, incluidos los campos afectados, están presentes en un único evento <code>UPDATE</code> y no se envía un segundo evento innecesario.     </td> 
-   <td>Ninguno. Si tiene un filtro en los campos afectados, los eventos se entregan en el primer evento. 
+   <td>Ninguna. Si tiene un filtro en los campos afectados, los eventos se entregan en el primer evento. 
 </td> 
   </tr> 
   <tr> 
@@ -150,7 +154,7 @@ Se han realizado los siguientes cambios para las suscripciones de evento Versió
    </td> 
    <td>Cuando se actualizaba cualquier valor de parámetro en un Expense, el evento <code>UPDATE</code> mostraba incorrectamente el cambio topReferenceObjCode de <code>EXPNS</code> a <code>PROJ</code> y el cambio de <code>referenceObjectName</code> de <code>null</code> a <code>string value of project name</code>.      </td> 
    <td>Todos los eventos <code>UPDATE</code> muestran el valor correcto para los campos afectados.</td> 
-   <td>Ninguno. Si tiene un filtro en los campos afectados, recibirá un evento <code>UPDATE</code> solo si estos campos han cambiado realmente, no si ha cambiado algún otro valor.
+   <td>Ninguna. Si tiene un filtro en los campos afectados, recibirá un evento <code>UPDATE</code> solo si estos campos han cambiado realmente, no si ha cambiado algún otro valor.
   </tr> 
   <tr> 
   <td>
@@ -192,7 +196,7 @@ Se han realizado los siguientes cambios para las suscripciones de evento Versió
    </td> 
    <td>Cuando se actualizaba cualquier valor de parámetro en este objeto, el evento <code>UPDATE</code> mostraba incorrectamente el cambio de campo afectado de <code>null</code> a <code>ID value</code>. </td> 
    <td>Todos los eventos <code>UPDATE</code> muestran el valor correcto para el campo afectado.</td> 
-   <td>Ninguno. Si tiene un filtro en el campo afectado, recibirá un evento <code>UPDATE</code> solo si ese campo ha cambiado realmente, no si ha cambiado algún otro valor de parámetro.
+   <td>Ninguna. Si tiene un filtro en el campo afectado, recibirá un evento <code>UPDATE</code> solo si ese campo ha cambiado realmente, no si ha cambiado algún otro valor de parámetro.
 </td> 
   </tr> 
   <tr> 
@@ -215,7 +219,7 @@ Se han realizado los siguientes cambios para las suscripciones de evento Versió
     </ul> 
    <td>Cuando se actualizaba cualquier valor de parámetro en este objeto, el evento <code>UPDATE</code> mostraba incorrectamente el cambio de campo afectado de <code>null</code> a <code>ID value</code>. </td> 
    <td>Todos los eventos <code>UPDATE</code> muestran el valor correcto para el campo afectado.</td> 
-   <td>Ninguno. Si tiene un filtro en el campo afectado, recibirá un evento <code>UPDATE</code> solo si ese campo ha cambiado realmente, no si ha cambiado algún otro valor de parámetro.
+   <td>Ninguna. Si tiene un filtro en el campo afectado, recibirá un evento <code>UPDATE</code> solo si ese campo ha cambiado realmente, no si ha cambiado algún otro valor de parámetro.
   </tr> 
   <tr> 
   <td>
@@ -225,7 +229,7 @@ Se han realizado los siguientes cambios para las suscripciones de evento Versió
    </td> 
    <td>Cuando se actualizó este objeto, el evento <code>UPDATE</code> a veces mostraba incorrectamente el cambio de los campos afectados de <code>null</code> a <code>ID value</code>.</td> 
    <td>Todos los eventos <code>UPDATE</code> muestran el valor correcto para el campo afectado.</td> 
-   <td>Ninguno. Si tiene un filtro en el campo afectado, recibirá un evento <code>UPDATE</code> solo si ese campo ha cambiado realmente, no si ha cambiado algún otro valor de parámetro.
+   <td>Ninguna. Si tiene un filtro en el campo afectado, recibirá un evento <code>UPDATE</code> solo si ese campo ha cambiado realmente, no si ha cambiado algún otro valor de parámetro.
   </tr> 
   <tr> 
    <th rowspan="2">TASK</th> 
@@ -236,7 +240,7 @@ Se han realizado los siguientes cambios para las suscripciones de evento Versió
    </td> 
    <td>Cuando se actualizaba cualquier valor de parámetro en este objeto, el evento <code>UPDATE</code> mostraba incorrectamente el cambio de campo afectado de <code>null</code> a <code>ID value</code>. </td> 
    <td>Todos los eventos <code>UPDATE</code> muestran el valor correcto para el campo afectado.</td> 
-   <td>Ninguno. Si tiene un filtro en el campo afectado, recibirá un evento <code>UPDATE</code> solo si ese campo ha cambiado realmente, no si ha cambiado algún otro valor de parámetro.
+   <td>Ninguna. Si tiene un filtro en el campo afectado, recibirá un evento <code>UPDATE</code> solo si ese campo ha cambiado realmente, no si ha cambiado algún otro valor de parámetro.
   </tr> 
   <tr> 
   <td>
@@ -246,7 +250,7 @@ Se han realizado los siguientes cambios para las suscripciones de evento Versió
    </td> 
    <td>Cuando se actualizó este objeto, el evento <code>UPDATE</code> a veces mostraba incorrectamente el cambio de los campos afectados de <code>null</code> a <code>ID value</code>.</td> 
    <td>Todos los eventos <code>UPDATE</code> muestran el valor correcto para el campo afectado.</td> 
-   <td>Ninguno. Si tiene un filtro en el campo afectado, recibirá un evento <code>UPDATE</code> solo si ese campo ha cambiado realmente, no si ha cambiado algún otro valor de parámetro.
+   <td>Ninguna. Si tiene un filtro en el campo afectado, recibirá un evento <code>UPDATE</code> solo si ese campo ha cambiado realmente, no si ha cambiado algún otro valor de parámetro.
  </tbody> 
 </table>
 
@@ -255,6 +259,6 @@ Se han realizado los siguientes cambios para las suscripciones de evento Versió
 
 Workfront Fusion utiliza suscripciones de eventos para inspeccionar los cambios en Workfront en los escenarios de déclencheur. Puede actualizar la versión de suscripción de evento que Fusion utiliza directamente en un escenario mediante el módulo Workfront > Actualizar versión de carga útil de eventos.
 
-Para obtener instrucciones sobre el uso de este módulo, consulte [Módulos de Workfront](https://experienceleague.adobe.com/es/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-modules) en la documentación de Workfront Fusion.
+Para obtener instrucciones sobre el uso de este módulo, consulte [Módulos de Workfront](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-modules) en la documentación de Workfront Fusion.
 
-Para obtener recursos sobre cómo preservar los escenarios de Workfront Fusion durante la actualización de la suscripción al evento, incluida una grabación del seminario web, consulte [Conservación de los escenarios de Fusion durante la actualización de las suscripciones a eventos V2](https://experienceleaguecommunities.adobe.com/t5/workfront-discussions/event-follow-up-preserving-your-fusion-scenarios-during-the/td-p/754182?profile.language=es).
+Para obtener recursos sobre cómo preservar los escenarios de Workfront Fusion durante la actualización de la suscripción al evento, incluida una grabación del seminario web, consulte [Conservación de los escenarios de Fusion durante la actualización versión 2.0 de las suscripciones a eventos](https://experienceleaguecommunities.adobe.com/t5/workfront-discussions/event-follow-up-preserving-your-fusion-scenarios-during-the/td-p/754182).

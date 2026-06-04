@@ -7,11 +7,17 @@ description: Puede compartir un plan que haya creado en el Planificador de escen
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: b8bbb533-4384-414c-8574-4e137962b8ca
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/7SsWqw2hJVOdLeYYPBHtvkpLjH64uXfxYG5hAxSNguI
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: d3382524-5489-431b-bde9-271ab257bc37
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '882'
+source-wordcount: 874
 ht-degree: 86%
 
 ---
@@ -120,7 +126,7 @@ Para obtener más información sobre el acceso a [!DNL Scenario Planner] para va
 * Todos los usuarios, incluidos los administradores del sistema, solo tienen acceso a los planes que han creado.
 * Puede compartir un solo plan o varios planes en lote.
 * No puede ver los planes que no ha creado o que no se han compartido con usted.
-* Solo puede compartir un plan con otros usuarios. No puede compartir las metas con grupos, equipos o compañías. 
+* Solo puede compartir un plan con otros usuarios. No puede compartir las metas con grupos, equipos o compañías.
 * Debe guardar el plan para poder compartirlo.
 * Puede compartir una dirección URL de un plan con otro usuario. Si el usuario no tiene permisos para ver al menos el plan, puede solicitar acceso al plan a otro usuario cuando reciba la dirección URL. Para obtener información sobre cómo solicitar acceso a un plan, consulte [Solicitar permisos para un plan en [!DNL Scenario Planner]](../scenario-planner/request-access-to-plan.md).
 * Cuando comparte varios planes que ya se han compartido con otros, los usuarios con los que comparte no sustituyen a los existentes, sino que se añaden a ellos en cada plan seleccionado.

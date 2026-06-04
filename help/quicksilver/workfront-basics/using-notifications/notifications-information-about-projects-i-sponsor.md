@@ -6,9 +6,12 @@ description: Las siguientes notificaciones le avisan sobre las actividades que s
 author: Courtney
 feature: Get Started with Workfront
 exl-id: b4c7c046-f15f-4e6e-9332-5232c7b7080b
-source-git-commit: 64b8a835a57be8995c82a0ab15c40f46170c7067
+TQID: https://experienceleague.adobe.com/J3pTBQe0mePli1bPtY3pdXm0iPhAKlSLqzlYeABiplU
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1314'
+source-wordcount: 1254
 ht-degree: 100%
 
 ---
@@ -74,7 +77,7 @@ Consulte también [Notificaciones de eventos](../../workfront-basics/using-notif
    <td><strong>Diariamente</strong> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>Se me ha asignado como patrocinador de un proyecto</strong> </p> <p>El patrocinador del proyecto recibe una notificación por correo electrónico cuando se le asigna el patrocinio de un proyecto.<br></p> <p>El asunto del correo electrónico de notificación instantánea es: <em>[!UICONTROL Project Sponsor]: &lt;Nombre del proyecto&gt;</em></p> <p>El siguiente texto se incluye en el cuerpo de la notificación por correo electrónico:</p> <p><em>[!UICONTROL Hi] &lt;Su nombre&gt;,</em> </p> <p><em>&lt;Nombre del usuario que le asignó como patrocinador del proyecto&gt; [!UICONTROL made you the sponsor of] &lt;Nombre del proyecto&gt;. [!UICONTROL As the Project Sponsor, you might receive additional email notifications about project activity or be involved in approving work related to the project.  Enjoy.]</em> </p> <p>El asunto de la notificación del resumen diario es: <em>Resumen de los proyectos que patrocina &lt;Fecha del resumen diario&gt;</em></p> </td> 
+   <td> <p><strong>Se me ha asignado como patrocinador de un proyecto</strong> </p> <p>El patrocinador del proyecto recibe una notificación por correo electrónico cuando se le asigna el patrocinio de un proyecto.<br></p> <p>El asunto del correo electrónico de notificación instantánea es: <em>[!UICONTROL Project Sponsor]: &lt;Nombre del proyecto&gt;</em></p> <p>El siguiente texto se incluye en el cuerpo de la notificación por correo electrónico:</p> <p><em>[!UICONTROL Hi] &lt;Su nombre&gt;,</em> </p> <p><em>&lt;Nombre del usuario que le asignó como patrocinador del proyecto&gt; [!UICONTROL made you the sponsor of] &lt;Nombre del proyecto&gt;. [!UICONTROL As the Project Sponsor, you might receive additional email notifications about project activity or be involved in approving work related to the project. Enjoy.]</em> </p> <p>El asunto de la notificación del resumen diario es: <em>Resumen de los proyectos que patrocina &lt;Fecha del resumen diario&gt;</em></p> </td> 
    <td> <p>Nombre del proyecto<br>Nombre del portafolio<br>Número de referencia del proyecto<br>Fecha planificada de finalización del proyecto<br>*Nombre del proyecto<br>*Número de referencia del proyecto<br>*Fecha del resumen diario</p> </td> 
    <td><strong>Instantáneo</strong> </td> 
   </tr> 

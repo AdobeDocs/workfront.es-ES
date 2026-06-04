@@ -7,13 +7,15 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 1b621b35-6c8b-4f6a-bcba-ed6cbfe83a8c
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+TQID: https://experienceleague.adobe.com/rft0idTJddZkXvAcOymqXarAs1zTf77HttI6vuwCTlw
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '268'
-ht-degree: 96%
+source-wordcount: 275
+ht-degree: 79%
 
 ---
-
 
 # Requisitos para el envío de suscripciones a eventos
 
@@ -29,7 +31,7 @@ Los puntos finales de servicio que consumen mensajes de suscripción de evento d
 
 * Si no se devuelve un estado de nivel 200, el sistema de suscripción de eventos supone que el mensaje no se entregó correctamente y comienza a aplicar la directiva de reintentos adecuada. Para obtener más información sobre la directiva de reintentos de Workfront, consulte [Reintentos de suscripción a eventos](../../wf-api/api/event-sub-retries.md).
 
-* Junto con devolver un estado de nivel 200 como estado de respuesta, la respuesta HTTP debe recibirse en un plazo de cinco segundos después de iniciarse el intento de envío. Esta restricción garantiza que los procesos empresariales del consumidor o las limitaciones de infraestructura no retrasen el envío de otros mensajes pendientes de envío.
+* Junto con devolver un estado de 200 niveles como estado de respuesta, la respuesta HTTP debe recibirse en los cinco segundos siguientes al inicio del intento de envío.Esta restricción garantiza que los procesos empresariales del consumidor o las limitaciones de infraestructura no retrasen la entrega de otros mensajes pendientes de entrega.
 
 * Si un proceso empresarial de larga duración se desencadena desde un mensaje de suscripción de evento, Workfront recomienda que
 

@@ -7,18 +7,22 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 0af97c16-e6a7-4796-92e0-4c2d9751c845
-source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
+TQID: https://experienceleague.adobe.com/-NMFJ6yPuuzTjxTzsl0OdTLp7HbkR2dKG0-fT6hfjtQ
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '153'
-ht-degree: 24%
+source-wordcount: 153
+ht-degree: 100%
 
 ---
 
 # Novedades de la versión 9 de la API (continuación)
 
-Esta lista es la segunda mitad de una lista más grande. La primera mitad se encuentra en [Novedades de la versión 9](../../wf-api/api/new-api-version-9.md) de la API. Encontrará la lista de actualizaciones a la versión 9 en [Actualizaciones a la versión 9](../../wf-api/api/new-api-version-9-updates.md) de la API.
+Esta lista es la segunda mitad de una lista más grande. La primera mitad se encuentra en [Novedades de la versión 9 de la API](../../wf-api/api/new-api-version-9.md). Encontrará la lista de actualizaciones a la versión 9 en [Actualizaciones a la versión 9 de la API](../../wf-api/api/new-api-version-9-updates.md).
 
-## SecciónPortal
+## PortalSection
 
 | Campos | Referencias | Colecciones | Buscar | Acciones | Consultas | Operaciones |
 |---|---|---|---|---|---|---|
@@ -147,7 +151,7 @@ Esta lista es la segunda mitad de una lista más grande. La primera mitad se enc
 | `customerID` | `externalSection`  |   |   |   |   |   |
 | `displayOrder` | `internalSection`  |   |   |   |   |   |
 | `externalSectionID` | `portalTab` |   |   |   |   |   |
-| Identificador |   |   |   |   |   |   |
+| ID |   |   |   |   |   |   |
 | `internalSectionID` |   |   |   |   |   |   |
 | `portalSectionObjCode`  |   |   |   |   |   |   |
 | `portalSectionObjID`  |   |   |   |   |   |   |
@@ -165,7 +169,7 @@ Esta lista es la segunda mitad de una lista más grande. La primera mitad se enc
 
 {style="table-layout:auto"}
 
-## Programar informe
+## ScheduleReport
 
 | Campos | Referencias | Colecciones | Buscar | Acciones | Consultas | Operaciones |
 |---|---|---|---|---|---|---|

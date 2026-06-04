@@ -2,17 +2,23 @@
 product-area: timesheets
 navigation-topic: create-and-manage-timesheets
 title: Hora de registro
-description: Puede registrar el tiempo de los elementos de trabajo in&nbsp;Adobe Workfront para indicar la cantidad de horas que dedica a trabajar en ellos. También puede registrar el tiempo que no esté relacionado con el trabajo, como vacaciones, tiempo por enfermedad o tiempo que pasa en reuniones. El tiempo que registre se mostrará en la plantilla de horas.
+description: Puede registrar el tiempo de los elementos de trabajo en&nbsp;Adobe Workfront para indicar la cantidad de horas que dedica a trabajar en ellos. También puede registrar el tiempo que no esté relacionado con el trabajo, como vacaciones, tiempo por enfermedad o tiempo que pasa en reuniones. El tiempo que registre se mostrará en la plantilla de horas.
 author: Lisa
 feature: Timesheets
 role: User
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/9X3rS1inVMen909T07aYLhn3tD1HiwKvzx-uSu8FVN4
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '4139'
-ht-degree: 85%
+source-wordcount: 4087
+ht-degree: 84%
 
 ---
 
@@ -113,7 +119,7 @@ Para registrar el tiempo en una plantilla de horas:
 
 {{step1-click-main-menu}}
 
-1. Haga clic en [!UICONTROL **Plantillas de horas**]. La plantilla de horas actual se muestra de forma predeterminada.
+1. Haga clic en [!UICONTROL **Plantillas de horas**]. La hoja de horas actual se muestra de forma predeterminada.
    ![Plantilla de horas](assets/timesheet-redesigned-nwe.png)
 
 
@@ -142,9 +148,9 @@ Para registrar el tiempo en una plantilla de horas:
 
 1. (Condicional) Si añade 50 elementos o más al mismo tiempo, se mostrará un mensaje de confirmación con el número de elementos añadidos a la plantilla de horas.
 
-   Haga clic en **Añadir todo** para añadir todos los elementos
-o
-haga clic en **Cancelar** para detener la adición de los elementos seleccionados y, a continuación, en **Cancelar** para cerrar la lista de elementos.
+   Haga clic en **Agregar todo** para agregar todos los elementos
+O
+Haga clic en **Cancelar** para detener la adición de los elementos seleccionados y, a continuación, en **Cancelar** para cerrar la lista de elementos.
 
    Las tareas y los problemas se enumeran con el nombre del proyecto.
 
@@ -305,9 +311,9 @@ Puede quitar una entrada de horas o un elemento (proyecto, tarea o problema) de 
 Para quitar una entrada de horas de una plantilla de horas:
 
 1. Vaya a la plantilla de horas y busque la entrada de horas que desea quitar.
-1. Reemplace las horas entradas por 0
+1. Reemplazar las horas ingresadas por 0
 O
-Quite las horas y sustitúyalas por 0; a continuación, pulse Entrar.
+Elimine las horas y sustitúyalas por 0; a continuación, pulse Intro.
 
    Se quitarán las horas y la plantilla de horas se guardará automáticamente.
 
@@ -475,7 +481,7 @@ Para registrar el tiempo en la sección Horas de un proyecto, tarea o problema:
 ### Panel de resumen
 
 Puede registrar tiempo para tareas y problemas en el Panel de resumen.
-Para más información, consulte [Información general del resumen](../../workfront-basics/the-new-workfront-experience/summary-overview.md).
+Para obtener más información, consulte [Resumen](../../workfront-basics/the-new-workfront-experience/summary-overview.md).
 
 ![](assets/summary-hour-log.png)
 

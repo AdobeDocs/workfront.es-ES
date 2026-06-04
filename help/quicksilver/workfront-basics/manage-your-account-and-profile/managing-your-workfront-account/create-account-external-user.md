@@ -6,10 +6,13 @@ description: Se le puede solicitar que realice tareas en Workfront aunque no sea
 author: Becky
 feature: Get Started with Workfront
 exl-id: cfe6d7ab-e4c5-41e6-aa93-23133ac543a0
-source-git-commit: 0a01acd56b3ea10d1cccc31a21e434da55b1ec13
+TQID: https://experienceleague.adobe.com/l-Wr6y6FlFicTPpyCeXmitf9p9oyi6TOnKkVSBQUS44
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '396'
-ht-degree: 0%
+source-wordcount: 395
+ht-degree: 100%
 
 ---
 
@@ -17,7 +20,7 @@ ht-degree: 0%
 
 Se le puede invitar a ver o aprobar elementos en [!DNL Workfront] aunque no sea miembro de una organización de [!DNL Workfront]. Por ejemplo, se le puede solicitar que revise o apruebe documentos. Puede ver o aprobar estos elementos con mayor facilidad si crea una cuenta en [!DNL Workfront].
 
-Cuando un usuario de [!DNL Workfront] le solicita que revise o apruebe un documento, <!--or shares a Workfront object such as a report or Board with you, -->recibe un mensaje de correo electrónico. Al hacer clic en el vínculo del correo electrónico, se le redirige directamente al elemento que se ha compartido con usted.
+Cuando un usuario de [!DNL Workfront] le solicita que revise o apruebe un documento, <!--or shares a Workfront object such as a report or Board with you, -->usted recibe un mensaje de correo electrónico. Al hacer clic en el vínculo del correo electrónico, se le redirige directamente al elemento que se ha compartido con usted.
 
 Si crea una cuenta en [!DNL Workfront], podrá ver todos los elementos que se compartieron con usted o que se le solicitaron. Sin una cuenta, solo puede acceder a estos elementos a través de los vínculos de correo electrónico individuales.
 
@@ -57,9 +60,9 @@ Las contraseñas deben tener al menos 8 caracteres e incluir dos o más de los s
 
 ### Perfil
 
-La creación de un perfil es opcional, pero se recomienda. Su nombre e imagen facilitan a otros usuarios la tarea de comprobar, por ejemplo, que usted ha asignado la aprobación de un documento determinado o que le encuentra en una lista al asignar revisores.
+La creación de un perfil es opcional, pero se recomienda. Su nombre e imagen facilitan que otros usuarios puedan, por ejemplo, ver que es usted quien tiene asignado aprobar un determinado documento, o encontrarle en una lista a la hora de asignar revisores.
 
-## Iniciar sesión en Workfront
+## Inicie sesión en Workfront.
 
 Una vez creada la cuenta, puede iniciar sesión en Workfront para ver los elementos que se han compartido con usted o que se le han asignado.
 

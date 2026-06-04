@@ -1,19 +1,24 @@
 ---
 product-area: documents
 navigation-topic: manage-proofs-within-workfront
-title: Visualización de las fases activas en una prueba
+title: Ver etapas activas en una prueba
 description: Puede ver las fases activas actuales en una prueba que contenga un flujo de trabajo automatizado.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: db32ca28-d475-4050-b04f-c7c82f79918a
-source-git-commit: ac714bd5a5259d6f995ac445efbd0125e07022cb
+TQID: https://experienceleague.adobe.com/CPM7iF7dLA-x7yMYJ4XxkLFuAOLUdKq5eMxMjASwj0I
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '114'
-ht-degree: 34%
+source-wordcount: 114
+ht-degree: 52%
 
 ---
 
-# Visualización de las fases activas en una prueba
+# Ver etapas activas en una prueba
 
 Puede ver las fases activas actuales en una prueba que contenga un flujo de trabajo automatizado.
 
@@ -26,7 +31,7 @@ Puede ver las fases activas actuales en una prueba que contenga un flujo de trab
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td role="rowheader">Paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
@@ -51,6 +56,6 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
 
 +++
 
-## Visualización de las fases activas en una prueba
+## Ver etapas activas en una prueba
 
 1. Pase el ratón sobre el documento que contiene la revisión que quiere ver y, a continuación, seleccione **Flujo de trabajo de revisión** para ver las fases de la revisión.

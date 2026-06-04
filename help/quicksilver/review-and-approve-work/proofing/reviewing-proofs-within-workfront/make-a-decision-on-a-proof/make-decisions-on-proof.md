@@ -1,21 +1,26 @@
 ---
 product-area: documents
 navigation-topic: review-proofs-within-workfront
-title: Tome una decisión sobre una prueba en el visor de corrección
-description: Puede tomar una decisión sobre una prueba directamente en el visor de corrección.
+title: Tome una decisión sobre una revisión en el visor de corrección
+description: Puede tomar una decisión sobre una revisión directamente en el visor de corrección.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: cf74ac54-b8c1-4404-b35f-2aa94831ecad
-source-git-commit: fe269b088c82e7045ffbb5155d54432e0b413cbe
+TQID: https://experienceleague.adobe.com/Qnt76jLepqi5CO0Ws7mi-jiyilJdIs2bGEjINaf1img
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '325'
-ht-degree: 99%
+source-wordcount: 326
+ht-degree: 100%
 
 ---
 
-# Tome una decisión sobre una prueba en el visor de corrección
+# Tome una decisión sobre una revisión en el visor de corrección
 
-Puede tomar una decisión sobre una prueba directamente en el visor de corrección.
+Puede tomar una decisión sobre una revisión directamente en el visor de corrección.
 
 ## Requisitos de acceso
 
@@ -26,7 +31,7 @@ Puede tomar una decisión sobre una prueba directamente en el visor de correcci�
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td role="rowheader">Paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
@@ -52,7 +57,7 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
 
 +++
 
-## Tome una decisión sobre una prueba en el visor de corrección
+## Tome una decisión sobre una revisión en el visor de corrección
 
 1. Vaya al proyecto, tarea o problema que contiene el documento y, a continuación, seleccione **Documentos**.
 1. Busque la revisión que necesita y haga clic en **Abrir revisión**.

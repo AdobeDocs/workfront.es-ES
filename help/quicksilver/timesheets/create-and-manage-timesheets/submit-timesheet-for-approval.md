@@ -6,14 +6,20 @@ description: Enviar su hoja de horas para su aprobación le da a su gerente visi
 author: Lisa
 feature: Timesheets
 exl-id: 253e20c8-58f8-4b23-a769-b0e36557066a
-source-git-commit: 69cd5fb1d089b81b7a1673609b92537137b6b68e
+TQID: https://experienceleague.adobe.com/uxfkWowkcyC9zeX1vNaZaY-i3AFCHMngvflZ8-REnac
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87effid: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '839'
-ht-degree: 33%
+source-wordcount: 845
+ht-degree: 37%
 
 ---
 
-# Enviar hoja de horas para su aprobación
+# Enviar plantilla de horas para su aprobación
 
 <!--Audited: 8/2024-->
 
@@ -28,7 +34,7 @@ Enviar su hoja de horas para su aprobación le da a su gerente visibilidad de su
  <col> 
  <tbody> 
   <tr> 
-   <td>paquete de Adobe Workfront</td> 
+   <td>Paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
@@ -51,12 +57,12 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
 
 +++
 
-## Enviar hoja de horas para su aprobación
+## Enviar plantilla de horas para su aprobación
 
 * [Enviar plantilla de horas para su aprobación](#submit-a-timesheet-for-approval)
 * [Ver el estado de una hoja de horas enviada](#view-the-status-of-a-submitted-timesheet)
 
-### Enviar hoja de horas para su aprobación
+### Enviar plantilla de horas para su aprobación
 
 Después de establecer un aprobador de hoja de horas (como se describe en la sección [Designar aprobadores de hoja de horas](../../timesheets/create-and-manage-timesheets/timesheet-approvals.md#designating-a-timesheet-approver) del artículo [Aprobar una hoja de horas](../../timesheets/create-and-manage-timesheets/timesheet-approvals.md)), el botón **Cerrar** de la parte inferior de la hoja de horas cambia a un botón **Enviar para aprobación**.
 
@@ -155,7 +161,7 @@ Para recuperar una hoja de horas:
 
 1. Haga clic en el icono **Menú principal** ![](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront.
 
-1. Haga clic en **Plantillas de horas**.
+1. Haga clic en **Plantilla de horas**.
 1. Haga clic en **Mis hojas de horas** en la esquina superior derecha de la pantalla o seleccione **Mis hojas de horas** del menú desplegable **Filtrar** ![](assets/filter-nwepng.png).
 1. Haga clic en el lapso de tiempo de una hoja de horas con un estado de **Enviado**.
 1. Haga clic en **Recuperar**.

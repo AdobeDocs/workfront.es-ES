@@ -6,13 +6,15 @@ description: Puede elegir entre una serie de widgets para personalizar el conten
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 81f32dfe-cde0-4e61-a542-9b99a18a3953
-source-git-commit: e153ccb40112688769a3c6b706a2b23f1f084021
+TQID: https://experienceleague.adobe.com/L9mVwCYmv2KOs2OKFlubf3MxjeRdthyE6prepRWebGc
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1111'
-ht-degree: 38%
+source-wordcount: 1123
+ht-degree: 42%
 
 ---
-
 
 # Agregar, editar o quitar widgets en Inicio
 
@@ -119,7 +121,7 @@ Para agregar un widget:
        Muestra todas las solicitudes pendientes de los equipos en los que se encuentra, ordenadas por equipos, así como botones para asignar directamente una solicitud a alguien o para trabajar en ella usted mismo.
 
    * **Mis aprobaciones**\
-       Muestra todas las aprobaciones asignadas o delegadas pendientes, un botón para delegar aprobaciones y botones para tomar decisiones de aprobación directamente dentro del widget. Las aprobaciones se ordenan de la siguiente manera:
+       Muestra todas las aprobaciones pendientes asignadas o delegadas, un botón para delegar aprobaciones y botones para tomar decisiones de aprobación directamente dentro del widget. Las aprobaciones se ordenan de la siguiente manera:
       * Plazos de vencimiento
       * Próximos plazos
       * Elementos sin fecha límite

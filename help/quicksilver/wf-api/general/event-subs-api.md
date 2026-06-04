@@ -7,15 +7,18 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: c3646a5d-42f4-4af8-9dd0-e84977506b79
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/ZIuaLr4-N-g2ciqjiOtzrTpjz0GFpxcpb-KqdXc-Th0
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '3190'
-ht-degree: 97%
+source-wordcount: 3146
+ht-degree: 95%
 
 ---
-
 
 # API de suscripción a eventos
 
@@ -155,7 +158,7 @@ El recurso de suscripción contiene los campos siguientes.
         <td scope="col">DOCU </td> 
        </tr> 
        <tr> 
-        <td scope="col"><p>Versión del documento</p></td> 
+        <td scope="col"><p>Versión de documento</p></td> 
         <td scope="col">DOCV </td> 
        </tr> 
        <tr> 
@@ -852,13 +855,13 @@ Este filtro permite que los mensajes se transmitan solo si el campo especificado
 
 #### state
 
-Este conector hace que el filtro se aplique al nuevo estado o al antiguo estado del objeto que se creó o actualizó. Esto resulta útil si desea saber dónde se realizó un cambio de alguna cosa a otra.
+Este conector hace que el filtro se aplique al nuevo estado o al antiguo estado del objeto que se creó o actualizó. Esto resulta útil cuando desea saber dónde se realizó un cambio de algo a otro.
 `oldState` no es posible en CREATE `eventTypes`.
 
 >[!NOTE]
 >
->La suscripción siguiente con el filtro especificado solo devolverá mensajes donde el nombre de la tarea contenga `again` en `oldState`, tal como sucedía antes de que se realizara una actualización en la tarea.
->Un caso de uso para esto sería encontrar los mensajes de objCode que han cambiado de una manera a otra. Por ejemplo, para averiguar todas las tareas que cambiaron de &quot;Investigar Algún nombre&quot; a &quot;Investigar TeamName Algún nombre&quot;
+>La suscripción siguiente con el filtro dado solo devolverá mensajes donde el nombre de la tarea contenga `again` en el `oldState`, lo que era antes de que se realizara una actualización en la tarea.
+>Un caso de uso para esto sería encontrar los mensajes objCode que han cambiado de una cosa a otra. Por ejemplo, para averiguar todas las tareas que cambiaron de &quot;Buscar un nombre&quot; a &quot;Buscar un nombre de equipo&quot;
 
 ```
 {

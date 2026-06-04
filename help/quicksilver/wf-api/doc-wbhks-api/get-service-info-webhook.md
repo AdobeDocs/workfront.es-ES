@@ -8,13 +8,16 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: a3a423ff-29a6-466e-a568-f64e02dcb484
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+TQID: https://experienceleague.adobe.com/PIZ-dlAj-cj41-DJ9roBu1GXYsEOule5Jhgh6-jR6hc
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '266'
-ht-degree: 80%
+source-wordcount: 266
+ht-degree: 87%
 
 ---
-
 
 # Obtener información sobre el servicio (aún no implementado)
 
@@ -43,29 +46,29 @@ JSON que contiene información sobre este servicio
  <thead> 
   <tr> 
    <th>Nombre</th> 
-   <th>Tipo</th> 
+   <th>Tipo </th> 
    <th>Descripción</th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
    <td>webhookVersion </td> 
-   <td>Cadena</td> 
+   <td>Cadena </td> 
    <td>La versión del webhook implementada por este servicio. Es el número de versión que aparece en la parte superior de esta especificación.</td> 
   </tr> 
   <tr> 
-   <td>version</td> 
-   <td>Cadena</td> 
+   <td>version </td> 
+   <td>Cadena </td> 
    <td>Número de versión interno de este servicio. Este número está determinado por el proveedor de servicios de webhook y solo se utiliza con fines informativos.<br><br></td> 
   </tr> 
   <tr> 
-   <td>publisher</td> 
-   <td>Cadena</td> 
+   <td>publisher </td> 
+   <td>Cadena </td> 
    <td>El nombre de la compañía que proporciona la implementación del webhook.</td> 
   </tr> 
   <tr> 
    <td>availableEndpoints</td> 
-   <td>Cadena</td> 
+   <td>Cadena </td> 
    <td>Lista que contiene los puntos finales de la API implementados por este servicio. Se puede utilizar para garantizar que la interfaz de usuario de Workfront refleje las funciones que ofrece el proveedor del webhook. Cada elemento de la lista debe incluir el nombre del punto final (como "búsqueda").</td> 
   </tr> 
   <tr> 

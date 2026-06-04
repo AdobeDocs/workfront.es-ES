@@ -6,10 +6,15 @@ description: El Visor de corrección de escritorio, diseñado principalmente par
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 4441cf7f-13c7-4bd5-a971-2c9c0302d309
-source-git-commit: 385f4a6663cacfdcf519bf5699fc1840c2cb2adc
+TQID: https://experienceleague.adobe.com/PDjYArZxxpPs5nMfep6p6F4IO4cF-z4X3HYMvExK1oo
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '550'
-ht-degree: 98%
+source-wordcount: 579
+ht-degree: 95%
 
 ---
 
@@ -38,7 +43,7 @@ Esta aplicación es compatible con los siguientes sistemas operativos:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td role="rowheader">Paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p></td> 
   </tr> 
   <tr> 
@@ -56,7 +61,7 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
 
 ## Instalación del Visor de corrección de escritorio en Mac
 
-Si el administrador de Adobe Workfront o de Workfront Proof ha descargado la aplicación en la estación de trabajo y ha configurado el Visor de corrección de escritorio como el visor predeterminado para las pruebas interactivas, puede finalizar la instalación simplemente abriendo una prueba interactiva desde el área Documentos.
+Si el administrador de Adobe Workfront o de Workfront Proof ha descargado la aplicación en la estación de trabajo y ha configurado el Visor de corrección de escritorio como el visor predeterminado para las revisiones interactivas, puede finalizar la instalación simplemente abriendo una revisión interactiva desde el área Documentos.
 
 Si no es así, puede seguir los pasos siguientes.
 
@@ -74,11 +79,11 @@ Si no es así, puede seguir los pasos siguientes.
 
 >[!NOTE]
 >
->Si el Visor de corrección de escritorio no se inicia al abrir una prueba interactiva, probablemente signifique que el administrador de Workfront o Workfront Proof tenga que configurarlo como el visor predeterminado para las pruebas interactivas, tal como se describe en [Configuración de usuario para abrir pruebas no interactivas en el Visor de corrección de escritorio](../../../workfront-proof/wp-work-proofsfiles/review-proofs-dpv/destop-proofing-viewer.md#user-setting-for-opening-non-interactive-proofs-in-the-desktop-proofing-viewer).
+>Si el Visor de corrección de escritorio no se inicia al abrir una revisión interactiva, probablemente signifique que el administrador de Workfront o Workfront Proof tenga que configurarlo como el visor predeterminado para las revisiones interactivas, tal como se describe en [Configuración de usuario para abrir revisiones no interactivas en el Visor de corrección de escritorio](../../../workfront-proof/wp-work-proofsfiles/review-proofs-dpv/destop-proofing-viewer.md#user-setting-for-opening-non-interactive-proofs-in-the-desktop-proofing-viewer).
 
 ## Instalación del Visor de corrección de escritorio en Windows
 
-Si el administrador de Workfront o Workfront Proof ha descargado la aplicación en la estación de trabajo y ha configurado el Visor de corrección de escritorio como el visor predeterminado para las pruebas interactivas, puede finalizar la instalación simplemente abriendo una prueba interactiva desde el área Documentos.
+Si el administrador de Workfront o Workfront Proof ha descargado la aplicación en la estación de trabajo y ha configurado el Visor de corrección de escritorio como el visor predeterminado para las revisiones interactivas, puede finalizar la instalación simplemente abriendo una revisión interactiva desde el área Documentos.
 
 >[!TIP]
 >
@@ -98,4 +103,4 @@ Si el administrador de Workfront o Workfront Proof ha descargado la aplicación 
 1. (Condicional) Si instala la aplicación mediante Internet Explorer, actualice la página de inicio en el explorador después de que se instale la aplicación.
 1. Abra una prueba interactiva desde el área Documentos.
 
-Una vez instalado el Visor de corrección de escritorio, todas las pruebas interactivas se abrirán aquí. Si el Visor de corrección de escritorio no se inicia al abrir una prueba interactiva, probablemente signifique que el administrador de Workfront o Workfront Proof tenga que configurarlo como el visor predeterminado para las pruebas interactivas, tal como se describe en [Configuración de usuario para abrir pruebas no interactivas en el Visor de corrección de escritorio](../../../workfront-proof/wp-work-proofsfiles/review-proofs-dpv/destop-proofing-viewer.md#user-setting-for-launching-non-interactive-proofs).
+Una vez instalado el Visor de corrección de escritorio, todas las revisiones interactivas se abrirán aquí. Si el Visor de corrección de escritorio no se inicia al abrir una revisión interactiva, probablemente signifique que el administrador de Workfront o Workfront Proof tenga que configurarlo como el visor predeterminado para las revisiones interactivas, tal como se describe en [Configuración de usuario para abrir revisiones no interactivas en el Visor de corrección de escritorio](../../../workfront-proof/wp-work-proofsfiles/review-proofs-dpv/destop-proofing-viewer.md#user-setting-for-launching-non-interactive-proofs).

@@ -6,12 +6,17 @@ description: Puede permanecer en las aplicaciones de Adobe Creative Cloud y comp
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: d94a2b10-51d5-4995-b7b3-793d7911fca9
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 45dcff03d71c1a19ed8de8f76fa3d63788e30b44
+TQID: https://experienceleague.adobe.com/ZNcKhUpW6KoynPoCZ4UoV9780zHYsGKvtzmi4FbI6Qc
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '275'
-ht-degree: 97%
+source-wordcount: 265
+ht-degree: 90%
 
 ---
 
@@ -83,7 +88,7 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
 
    >[!NOTE]
    >
-   >Si el elemento de trabajo tiene predecesoras, el botón Listo aparece en gris hasta que dichas predecesoras se marquen como completadas. Para ver las predecesoras dentro de [!DNL Workfront], haga clic en el nombre de la tarea.
+   >Si el elemento de trabajo tiene predecesoras, el botón Listo aparece en gris hasta que dichas predecesoras se marquen como completadas. Para ver las tareas predecesoras dentro de [!DNL Workfront], haga clic en el nombre de la tarea.
    >![Navegar a Workfront](assets/navigate-to-workfront.png)
 
 <!-- I dont think we need this one ![Complete work](assets/complete-work-350x529.png) -->

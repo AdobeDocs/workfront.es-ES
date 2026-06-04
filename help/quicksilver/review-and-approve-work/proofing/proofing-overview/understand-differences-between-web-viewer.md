@@ -2,37 +2,42 @@
 content-type: reference
 product-area: documents
 navigation-topic: proofing-overview
-title: Diferencias entre el Visor de revisión web y el Visor de revisión de escritorio
-description: Conozca las diferencias entre los visores de escritorio y los de prueba web.
+title: Diferencias entre el visor de corrección web y el visor de corrección de escritorio
+description: Conozca las diferencias entre los visores de corrección web y de escritorio.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 72ce147b-29c9-4c3b-a03c-2da0758bc178
-source-git-commit: ae80999fc7ea7e35097560aa99baa435bcd31b74
+TQID: https://experienceleague.adobe.com/5wUR3OHvmgjQmRtvt85iax2gbY0rC0yWsLzuLULia3M
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '993'
-ht-degree: 0%
+source-wordcount: 872
+ht-degree: 94%
 
 ---
 
-# Diferencias entre el Visor de revisión web y el Visor de revisión de escritorio
+# Diferencias entre el visor de corrección web y el visor de corrección de escritorio
 
-Adobe Workfront proporciona dos visores de revisión diferentes:
+Adobe Workfront ofrece dos visores de corrección diferentes:
 
-* **Visor de revisión web:** Diseñado principalmente para revisar archivos estáticos y de vídeo. Se ejecuta en Google Chrome, Firefox o Safari.
-* **Visor de corrección de escritorio:** diseñado para revisar archivos interactivos, así como archivos estáticos y de vídeo. Se ejecuta como una aplicación independiente en la estación de trabajo. Para obtener más información, vea [Comprender el Visor de corrección de escritorio](../../../workfront-proof/wp-work-proofsfiles/review-proofs-dpv/destop-proofing-viewer.md)
+* **Visor de corrección web:** diseñado principalmente para revisar archivos estáticos y de vídeo. Se ejecuta en Google Chrome, Firefox o Safari.
+* **Visor de corrección de escritorio:** diseñado para revisar archivos interactivos, así como archivos estáticos y de vídeo. Se ejecuta como una aplicación independiente en la estación de trabajo. Para obtener más información, consulte [Explicación del visor de corrección de escritorio](../../../workfront-proof/wp-work-proofsfiles/review-proofs-dpv/destop-proofing-viewer.md).
 
-* Si su organización no puede utilizar la aplicación Desktop Proofing Viewer por motivos de seguridad, su administrador de Workfront puede configurar el sistema para que pueda revisar el contenido interactivo, incluido en un archivo ZIP, en el Visor de pruebas web. Para obtener más información, consulte  [Configurar la revisión de contenido interactivo en el Visor de revisión de Web](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/interactive-content-in-web-viewer.md).
+* Si su organización no puede utilizar la aplicación del visor de corrección de escritorio por motivos de seguridad, su administrador de Workfront puede configurar el sistema para que pueda revisar el contenido interactivo, incluido en un archivo ZIP, en el visor de corrección web. Para obtener más información, consulte [Configurar la revisión de contenido interactivo en el visor de corrección web](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/interactive-content-in-web-viewer.md).
 
-La siguiente lista puede ayudarle a comprender qué visualizador de pruebas puede utilizar para revisar ciertos tipos de contenido:
+La siguiente lista puede ayudarle a comprender qué visor de corrección puede utilizar para revisar ciertos tipos de contenido:
 
-* **Contenido web interactivo - URL**: si crea una prueba para el contenido web mediante una URL y desea probar el contenido de forma interactiva, debe usar el Visor de pruebas de escritorio.
-* **Contenido web interactivo - Archivo ZIP**: Si crea una prueba para contenido web con un archivo ZIP, puede usar el Visor de revisión web (con algunas limitaciones) o el Visor de revisión de escritorio. Para obtener información acerca de las limitaciones que implica el uso del Visor de revisión web para el contenido interactivo, vea [Configurar la revisión de contenido interactivo en el Visor de revisión web](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/interactive-content-in-web-viewer.md).
+* **Contenido web interactivo, URL**: si crea una revisión para el contenido web mediante una URL y desea revisar el contenido de forma interactiva, debe usar el visor de corrección de escritorio.
+* **Contenido web interactivo, archivo ZIP**: si crea una revisión para contenido web con un archivo ZIP, puede usar el visor de corrección web (con algunas limitaciones) o el visor de corrección de escritorio. Para obtener información acerca de las limitaciones que implica el uso del visor de corrección web para el contenido interactivo, consulte [Configurar la revisión de contenido interactivo en el visor de corrección web](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/interactive-content-in-web-viewer.md).
 
-* **Contenido estático y de vídeo**: si crea una prueba que contiene contenido estático, puede usar el Visor de revisión web o el Visor de revisión de escritorio.
+* **Contenido estático y de vídeo**: si crea una revisión que contiene contenido estático, puede usar el visor de corrección web o el visor de corrección de escritorio.
 
 ## Pruebas estáticas
 
-| **Característica** | **Visor de revisión web** | **Visor de corrección de escritorio** |
+| **Característica** | **Visor de corrección web** | **Visor de corrección de escritorio** |
 |---|---|---|
 | Abrir pruebas estáticas | ✓ | ✓&#42; |
 | Vistas únicas, de revista y continuas | ✓ | ✓&#42; |
@@ -40,19 +45,19 @@ La siguiente lista puede ayudarle a comprender qué visualizador de pruebas pued
 | Ampliación | ✓ | ✓&#42; |
 | Rotar | ✓ | ✓&#42; |
 | Herramienta de medición | ✓ (establecer un área de tamaño personalizado) | ✓&#42; |
-| Vista de miniaturas | ✓ | ✓&#42; |
+| Vista en miniatura | ✓ | ✓&#42; |
 | Navegador de prueba estático | ✓ | ✓&#42; |
 | Búsqueda de documentos | ✓ | ✓&#42; |
-| Comentario de Post en varias páginas | ✓ (disponible en todas las vistas) | ✓&#42; (disponible en todas las vistas) |
-| Métodos abreviados de prueba estáticos avanzados | ✓ (para obtener más información, consulte [Métodos abreviados de teclado en el visor de revisión](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/keyboard-shortcuts-proof.md)) | ✓ &#42;(para obtener más información, consulte [Métodos abreviados de teclado en el visor de revisión](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/keyboard-shortcuts-proof.md)) |
+| Publicar comentario en varias páginas | ✓ (disponible en todas las vistas) | ✓&#42; (disponible en todas las vistas) |
+| Métodos abreviados de prueba estáticos avanzados | ✓ (para obtener más información, vea [Métodos abreviados de teclado en el visor de revisión](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/keyboard-shortcuts-proof.md)) | ✓&#42;(para obtener más información, consulte [Métodos abreviados de teclado en el visor de revisión](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/keyboard-shortcuts-proof.md)) |
 
 {style="table-layout:auto"}
 
-&#42; Esta funcionalidad solo funciona si el administrador de Workfront ha configurado el Visor de corrección de escritorio como el visor predeterminado para todas las pruebas.
+&#42; Esta funcionalidad solo funciona si el administrador de Workfront ha configurado el Visor de corrección de escritorio como el visor predeterminado para todas las revisiones.
 
 ## Pruebas de vídeo
 
-| **Característica**  | **Visor de revisión web** | **Visor de corrección de escritorio** |
+| **Característica**  | **Visor de corrección web** | **Visor de revisiones de escritorio** |
 |---|---|---|
 | Abrir pruebas de vídeo | ✓ | ✓&#42; |
 | Almacenamiento en búfer | ✓ | ✓&#42; |
@@ -60,25 +65,25 @@ La siguiente lista puede ayudarle a comprender qué visualizador de pruebas pued
 | Revisar mediante fotogramas o códigos de tiempo | ✓ | ✓&#42; |
 | Revisar más o menos rápido | ✓ | ✓&#42; |
 | Regulación de volumen | ✓ | ✓&#42;  |
-| modo de pantalla completa | ✓ | ✓&#42;  |
+| Modo de pantalla completa | ✓ | ✓&#42;  |
 | Comentarios del intervalo | ✓ | ✓&#42;  |
 | Realizar pruebas de vídeo en bucle (los vídeos finalizan y comienzan automáticamente) | ✓ | ✓&#42;  |
-| Métodos abreviados de vídeo avanzados | ✓ (para obtener más información, consulte [Métodos abreviados de teclado en el visor de revisión](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/keyboard-shortcuts-proof.md)) | ✓&#42;  |
+| Métodos abreviados de vídeo avanzados | ✓ (para obtener más información, vea [Métodos abreviados de teclado en el visor de revisión](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/keyboard-shortcuts-proof.md)) | ✓&#42;  |
 
 {style="table-layout:auto"}
 
-&#42; Esta funcionalidad solo funciona si el Visor de corrección de escritorio está configurado como el visor predeterminado para todas las pruebas.
+&#42; Esta funcionalidad solo funciona si el Visor de corrección de escritorio está configurado como el visor predeterminado para todas las revisiones.
 
 ## Pruebas interactivas
 
-| **Característica**  | **Visor de revisión web** | **Visor de corrección de escritorio** |
+| **Característica**  | **Visor de corrección web** | **Visor de corrección de escritorio** |
 |---|---|---|
 | Abra pruebas interactivas creadas a partir de contenido empaquetado en un archivo ZIP | ✓ | ✓ (recomendado) |
 | Abra una prueba interactiva creada a partir de una dirección URL | No compatible | ✓ |
 | Ver pruebas interactivas (creadas a partir de contenido empaquetado en un archivo ZIP) en varios tamaños de pantalla | ✓ | ✓ |
 | Ver pruebas interactivas (creadas a partir de contenido empaquetado en un archivo ZIP) para varios dispositivos | No compatible | ✓ |
 | Revisar sitios no seguros (HTTP) | No compatible | ✓ |
-| Revisar sitios protegidos por iFrame (sitios protegidos contra la visualización dentro de un iFrame) | No compatible | ✓ |
+| Revisar sitios protegidos por iframe (sitios protegidos contra la visualización dentro de un iFrame) | No compatible | ✓ |
 
 {style="table-layout:auto"}
 
@@ -97,12 +102,12 @@ La siguiente lista puede ayudarle a comprender qué visualizador de pruebas pued
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>Agregar, eliminar y editar comentarios</p> </td> 
+   <td> <p>Añadir, eliminar y editar comentarios</p> </td> 
    <td>✓</td> 
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td> <p>Agregar y eliminar respuestas</p> </td> 
+   <td> <p>Añadir y eliminar respuestas</p> </td> 
    <td>✓</td> 
    <td>✓</td> 
   </tr> 
@@ -112,7 +117,7 @@ La siguiente lista puede ayudarle a comprender qué visualizador de pruebas pued
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td> <p>Herramienta Polilínea</p> </td> 
+   <td> <p>Herramienta de polilínea</p> </td> 
    <td>✓</td> 
    <td>✓</td> 
   </tr> 
@@ -182,7 +187,7 @@ La siguiente lista puede ayudarle a comprender qué visualizador de pruebas pued
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td> <p>Reanudar comentarios</p> </td> 
+   <td> <p>Habilitar comentarios</p> </td> 
    <td>✓</td> 
    <td>✓</td> 
   </tr> 
@@ -248,7 +253,7 @@ La siguiente lista puede ayudarle a comprender qué visualizador de pruebas pued
  </thead> 
  <tbody> 
   <tr> 
-   <td>Comparar distintas versiones de pruebas</td> 
+   <td>Comparar diferentes versiones de pruebas</td> 
    <td>✓</td> 
    <td>✓<br></td> 
   </tr> 
@@ -280,12 +285,12 @@ La siguiente lista puede ayudarle a comprender qué visualizador de pruebas pued
    <td> ✓ </td> 
   </tr> 
   <tr> 
-   <td>Crear una nueva versión</td> 
+   <td>Crea una nueva versión</td> 
    <td> <p>Disponible solo en Workfront Proof (previsto para el futuro al revisar en Workfront)<br></p> </td> 
    <td>Disponible solo en Workfront Proof (previsto para el futuro al revisar en Workfront)</td> 
   </tr> 
   <tr> 
-   <td>Revisar detalles de revisión </td> 
+   <td>Revisar detalles de la prueba </td> 
    <td>✓</td> 
    <td>✓</td> 
   </tr> 
@@ -310,7 +315,7 @@ La siguiente lista puede ayudarle a comprender qué visualizador de pruebas pued
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td>Cambiar notificaciones por correo electrónico</td> 
+   <td>Cambiar las notificaciones por correo electrónico</td> 
    <td>✓ </td> 
    <td>✓</td> 
   </tr> 
@@ -325,7 +330,7 @@ La siguiente lista puede ayudarle a comprender qué visualizador de pruebas pued
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td>Imprimir resumen de revisión</td> 
+   <td>Imprimir resumen de la prueba</td> 
    <td>✓</td> 
    <td>✓</td> 
   </tr> 
@@ -335,14 +340,14 @@ La siguiente lista puede ayudarle a comprender qué visualizador de pruebas pued
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td>Administrar pruebas desde la misma carpeta</td> 
+   <td>Administrar las pruebas desde la misma carpeta</td> 
    <td><strong>Solo disponible en Workfront Proof</strong> </td> 
    <td><strong>Solo disponible en Workfront Proof</strong> </td> 
   </tr> 
   <tr> 
    <td>Personalización de marca (logotipos personalizados)</td> 
    <td>✓</td> 
-   <td> ✓<br>(Logotipo de Workfront en la página de lanzamiento) </td> 
+   <td> ✓<br>(Logotipo de Workfront en la página de inicio) </td> 
   </tr> 
   <tr> 
    <td>Vínculos personalizados (solo Workfront Proof)</td> 
@@ -360,7 +365,7 @@ La siguiente lista puede ayudarle a comprender qué visualizador de pruebas pued
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td>Actualizaciones automáticas de prueba (cambios de permisos y nuevas versiones)</td> 
+   <td>Actualizaciones automáticas de la prueba (cambios de permisos y nuevas versiones)</td> 
    <td>✓</td> 
    <td>✓ </td> 
   </tr> 
@@ -369,7 +374,7 @@ La siguiente lista puede ayudarle a comprender qué visualizador de pruebas pued
 
 ## Minivisor
 
-| **Característica**  | **Visor de revisión web**  | **Visor de corrección de escritorio** |
+| **Característica**  | **Visor de corrección web**  | **Visor de corrección de escritorio** |
 |---|---|---|
 | Código incrustado | Planificado para futuras pruebas de vídeo estáticas y nativas | No compatible  |
 
@@ -384,7 +389,7 @@ La siguiente lista puede ayudarle a comprender qué visualizador de pruebas pued
  <thead> 
   <tr> 
    <th><strong>Característica</strong> </th> 
-   <th><strong>Visor de revisión web</strong> </th> 
+   <th><strong>Visor de corrección web</strong> </th> 
    <th><strong>Visor de corrección de escritorio</strong> </th> 
   </tr> 
  </thead> 

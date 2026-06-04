@@ -7,16 +7,21 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: addcf5bc-a101-4bb0-93a6-46b4af67c848
-source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
+TQID: https://experienceleague.adobe.com/-yUOhE9OsdK5SHaObgFhMgGt7Ih-FY7XqdEJn6QI4hk
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '255'
-ht-degree: 0%
+source-wordcount: 254
+ht-degree: 95%
 
 ---
 
 # Formato de mensaje saliente para suscripciones a eventos
 
-Con el lanzamiento de Adobe Workfront 2017.3, el formato de los mensajes salientes para las suscripciones a eventos cambiará para permitir un rendimiento mejorado y un mejor uso de las suscripciones a eventos para sus integraciones.
+Con la versión de Adobe Workfront 2017.3, el formato de los mensajes salientes para las suscripciones a eventos cambiará para permitir un rendimiento mejorado y un mejor uso de las suscripciones a eventos para sus integraciones.
 
 ## Actualizaciones del formato de mensajes salientes
 
@@ -26,11 +31,11 @@ Se realizarán los siguientes cambios en el formato del mensaje saliente:
 
   Estos valores muestran los cambios realizados en un objeto como resultado de un evento en Workfront.
 
-* El campo de metadatos eventTime se agrega a todos los mensajes salientes.
+* El campo de metadatos eventTime se añade a todos los mensajes salientes.
 
   Este campo indicará, en Nanosegundos y EpochSeconds, la hora en que se produjo un evento. Utilice eventTime para ordenar eventos procesados por la integración.
 
-* Se eliminará el campo de referencia owner:companyID en el recurso NOTE.
+* Se eliminará el campo de referencia propietario:companyID en el recurso NOTE.
 * Se quitará el objeto currentVersion al que se hace referencia en el recurso DOCU (documento).
 
 Si actualmente utiliza suscripciones a eventos de Workfront, deberá actualizar las integraciones de Workfront antes de la versión 2017.3 para tener en cuenta estos cambios.
@@ -39,7 +44,7 @@ Para obtener más información acerca de las suscripciones a eventos, consulte [
 
 ## Ejemplos de formatos de mensajes antiguos y nuevos
 
-El siguiente mensaje CREATE de formato antiguo ya no se utilizará después del lanzamiento de 2017.3:
+El siguiente mensaje CREATE de formato antiguo ya no se utilizará después de la versión 2017.3:
 
 ```
 {
@@ -111,7 +116,7 @@ El siguiente mensaje CREATE de formato nuevo se utilizará después de la versi�
    "oldState": {}
 ```
 
-El siguiente mensaje UPDATE de formato antiguo ya no se utilizará después del lanzamiento de 2017.3:
+El siguiente mensaje UPDATE de formato antiguo ya no se utilizará después de la versión 2017.3:
 
 ```
 {

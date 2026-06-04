@@ -2,16 +2,19 @@
 content-type: reference
 product-area: projects
 navigation-topic: get-started-with-workfront
-title: "Actualizar elementos de trabajo y ver actualizaciones: índice de artículos"
+title: 'Actualizar elementos de trabajo y ver actualizaciones: índice de artículos'
 description: Puede utilizar la sección Actualizaciones de la mayoría de los objetos para agregar comentarios y respuestas, o para seguir las actualizaciones del sistema sobre los cambios que tienen lugar en el objeto.
 author: Alina
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: ef3440fd-92b7-4760-9f53-1b0e736d3a0f
-source-git-commit: 11e7a376719e52db3f5e98afff44cb4b4d07db01
+TQID: https://experienceleague.adobe.com/fzDoXrXB2daswcxxmcBjquMbFXRT8QrBtUw-2ZY1pQA
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '115'
-ht-degree: 0%
+source-wordcount: 117
+ht-degree: 34%
 
 ---
 
@@ -24,7 +27,7 @@ Puede utilizar la sección Actualizaciones de la mayoría de los objetos para ag
 Esta sección contiene los siguientes artículos:
 
 * [Actualizaciones de información general de sección](../../workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md)
-* [Trabajo de actualización](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md)
+* [Actualizar trabajo](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md)
 * [Límites de caracteres en campos](../../workfront-basics/updating-work-items-and-viewing-updates/character-limits-in-fields.md)
 * [Responder a las actualizaciones](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md)
 * [Responder a las notificaciones por correo electrónico](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-email-notifications.md)

@@ -2,21 +2,24 @@
 content-type: reference
 product-area: documents
 navigation-topic: review-proofs-within-workfront
-title: "Tomar una decisión sobre una prueba: índice de artículos"
+title: 'Tomar una decisión sobre una revisión: índice de artículos'
 description: Aprobar una prueba
 author: Courtney
 feature: Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 471768fd-cf52-4a3f-b6b3-14a35f4c7a4b
-source-git-commit: ed708a98662c198e52b417ae53e165f3d5e9a524
+TQID: https://experienceleague.adobe.com/eZO4xo8YViqFB-GO0-20sii4GwTQ5zwb26WNFscnSGo
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '39'
-ht-degree: 0%
+source-wordcount: 39
+ht-degree: 100%
 
 ---
 
-# Tomar una decisión sobre una prueba: índice de artículos
+# Tomar una decisión sobre una revisión: índice de artículos
 
-* [Aprobar una revisión](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/approve-proof.md)
-* [Tome una decisión sobre una prueba en el visor de pruebas](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decisions-on-proof.md)
+* [Aprobar una prueba](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/approve-proof.md)
+* [Tomar una decisión sobre una revisión en el visor de corrección](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decisions-on-proof.md)
 * [Cambiar una decisión existente en una prueba](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/change-existing-decision.md)

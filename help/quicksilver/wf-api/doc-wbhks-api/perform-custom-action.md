@@ -8,21 +8,24 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: a18b6b97-ee1e-4ad2-a4e1-00a644a0f4f2
-source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
+TQID: https://experienceleague.adobe.com/y9RxzhalPQGx0BEMOtLVOAxwyh-OhQcxuARtBrJd8Yg
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '191'
-ht-degree: 2%
+source-wordcount: 191
+ht-degree: 100%
 
 ---
 
+# Realizar una acción personalizada (aún no se ha implementado)
 
-# Realizar una acción personalizada (aún no implementada)
+Este punto final permite a un usuario de Adobe Workfront (o un evento de flujo de trabajo automatizado) realizar una acción en el sistema externo. El punto final /customAction acepta un parámetro “name”, que permite al proveedor de webhook implementar varias operaciones personalizadas.
 
-Este punto de conexión permite a un usuario de Adobe Workfront (o un evento de flujo de trabajo automatizado) realizar una acción en el sistema externo. El extremo /customAction acepta un parámetro &quot;name&quot;, que permite al proveedor de ganchos web implementar varias operaciones personalizadas.
+El proveedor de webhook registra las acciones personalizadas con Workfront al incluir las acciones en la respuesta /serviceInfo en customActions. Workfront carga esta lista al configurar o actualizar el proveedor de webhook en Configuración > Documentos > Integraciones personalizadas.
 
-El proveedor de ganchos web registra las acciones personalizadas con Workfront al incluir las acciones en la respuesta /serviceInfo en customActions. Workfront carga esta lista al configurar o actualizar el proveedor de ganchos web en Configuración > Documentos > Integraciones personalizadas.
-
-Los usuarios pueden almacenar en déclencheur la acción personalizada seleccionando la sección en &quot;Acciones de documento&quot;
+Los usuarios pueden activar la acción personalizada seleccionando la sección en “Acciones de documento”
 
 **URL**
 
@@ -42,7 +45,7 @@ GET /customAction
  <tbody> 
   <tr> 
    <td> <p>name</p> </td> 
-   <td> <p>Identificador que especifica el tipo de acción que se va a realizar. Este valor corresponde a uno de los valores customAction que devuelve el extremo /serviceInfo.</p> </td> 
+   <td> <p>Identificador que especifica el tipo de acción que se va a realizar. Este valor corresponde a uno de los valores customAction que devuelve el punto final /serviceInfo.</p> </td> 
   </tr> 
   <tr> 
    <td>documentId </td> 
@@ -59,7 +62,7 @@ GET /customAction
 
 ## Respuesta
 
-Una cadena JSON que indica éxito o error, como se especifica en la sección Gestión de errores a continuación. En caso de error (es decir, estado = &quot;error&quot;), Workfront mostrará el mensaje de error proporcionado al usuario.
+Una cadena JSON que indica éxito o error, tal como se especifica en la sección Gestión de errores que viene a continuación. En caso de error (es decir, estado = &quot;error&quot;), Workfront mostrará el mensaje de error proporcionado al usuario.
 
 **Ejemplo:**
 

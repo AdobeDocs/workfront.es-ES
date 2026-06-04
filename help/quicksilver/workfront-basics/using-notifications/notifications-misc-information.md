@@ -6,10 +6,13 @@ description: Las siguientes notificaciones le avisan sobre las actividades que s
 author: Courtney
 feature: Get Started with Workfront
 exl-id: fd93a48b-ef09-4489-b93d-5328240ffed6
-source-git-commit: 64b8a835a57be8995c82a0ab15c40f46170c7067
+TQID: https://experienceleague.adobe.com/hJWb3tzQP-84n8GB0I34kETVKlf-zKUVn2Hxa4pWKC0
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '971'
-ht-degree: 100%
+source-wordcount: 917
+ht-degree: 98%
 
 ---
 
@@ -38,7 +41,7 @@ Consulte también [Notificaciones de eventos](../../workfront-basics/using-notif
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p><strong>Se envía un mensaje al [!UICONTROL Announcement Center]</strong> </p> <p>Recibirá una notificación por correo electrónico cuando se envíe un nuevo mensaje al [!UICONTROL Announcement Center]. </p> <p>El asunto del correo electrónico de notificación instantánea es: <em>[!UICONTROL [!DNL Adobe Workfront] Announcement]: &lt;Asunto del anuncio&gt;</em></p> </td> 
+   <td> <p><strong>Se envía un mensaje al [!UICONTROL Announcement Center]</strong> </p> <p>Recibirá una notificación por correo electrónico cuando se envíe un nuevo mensaje al [!UICONTROL Announcement Center]. </p> <p>El asunto del correo electrónico de notificación instantánea es: <em>[!UICONTROL [!DNL Adobe Workfront] Announcement]: &lt;Asunto del anuncio&gt;</em></p> </td> 
    <td> Asunto del anuncio<br>Texto del mensaje incluido en el anuncio<br>Documento(s) adjunto(s)<br>Nombre del usuario que envió el anuncio<br>Fecha y hora en que se envió el anuncio </td> 
    <td><strong>Instantáneo</strong> </td> 
   </tr> 
@@ -63,7 +66,7 @@ Consulte también [Notificaciones de eventos](../../workfront-basics/using-notif
    <td><strong>Instantáneo</strong> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>Se añade a una persona de mi equipo a un proyecto</strong> </p> <p>Un administrador recibe una notificación por correo electrónico cuando se añade uno de sus usuarios a un proyecto. Esta notificación se envía independientemente del estado del proyecto. </p> <p>Los usuarios con una licencia de [!UICONTROL Review] no reciben ninguna notificación.</p> <p>El asunto del correo electrónico es: <em>Asignación de proyecto: &lt;Nombre de usuario&gt;[&lt;Project GUID&gt;_ &lt;User GUID&gt;]</em></p> </td> 
+   <td> <p><strong>Se añade a una persona de mi equipo a un proyecto</strong> </p> <p>Un administrador recibe una notificación por correo electrónico cuando se agrega uno de sus usuarios a un proyecto. Esta notificación se envía independientemente del estado del proyecto. </p> <p>Los usuarios con una licencia de [!UICONTROL Review] no reciben ninguna notificación.</p> <p>El asunto del correo electrónico es: <em>Asignación de proyecto: &lt;Nombre de usuario&gt;[&lt;Project GUID&gt;_ &lt;User GUID&gt;]</em></p> </td> 
    <td> <p>Nombre del proyecto<br>Nombre del portafolio<br>Número de referencia del proyecto<br>Nombre del usuario que añadió a la persona al proyecto<br>Nombre del usuario que se añadió al proyecto<br>[!UICONTROL Planned Start Date] del proyecto<br>[!UICONTROL Planned Completion Date] del proyecto<br>Porcentaje completado del proyecto<br>Nombres de otros en el proyecto<br>Estado del proyecto<br>Propietario del proyecto<br><strong>Botón [!UICONTROL See More Details]</strong><br><br><br></p> </td> 
    <td><strong>Instantáneo</strong> </td> 
   </tr> 

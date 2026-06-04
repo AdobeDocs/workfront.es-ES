@@ -7,12 +7,18 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: afbc986e-8b5c-40bc-9120-e8d34e0f7004
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/XXp8JlFaapCUpB-TEmKCtBA-6ms-vWN0-xR8DiQdTpY
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1072'
-ht-degree: 67%
+source-wordcount: 1032
+ht-degree: 63%
 
 ---
 
@@ -55,9 +61,9 @@ Se han modificado los siguientes recursos para la versión 13 de la API.
      <li> <p><a href="#project" class="MCXref xref">Proyecto</a> </p> </li> 
      <li> <p><a href="#proofapproval" class="MCXref xref">ProofApproval</a> </p> </li> 
      <li> <p><a href="#queuedef" class="MCXref xref">Definición de cola</a> </p> </li> 
-     <li> <p><a href="#task" class="MCXref xref">Task</a> </p> </li> 
-     <li> <p><a href="#team" class="MCXref xref">Team</a> </p> </li> 
-     <li> <p><a href="#timesheet" class="MCXref xref">Timesheet</a> </p> </li> 
+     <li> <p><a href="#task" class="MCXref xref">Tarea</a> </p> </li> 
+     <li> <p><a href="#team" class="MCXref xref">Equipo</a> </p> </li> 
+     <li> <p><a href="#timesheet" class="MCXref xref">Plantilla de horas</a> </p> </li> 
      <li> <p><a href="#timesheetprofile" class="MCXref xref">Perfil de hoja de horas</a> </p> </li> 
      <li> <p><a href="#uitemplate" class="MCXref xref">UITemplate</a> </p> </li> 
      <li> <p><a href="#userdelegation" class="MCXref xref">Delegación de usuario</a> </p> </li> 
@@ -396,7 +402,7 @@ Un objeto de equipo es una colección de usuarios que se pueden asignar a un ele
    <td>Campos directos</td> 
    <td> 
     <ul> 
-     <li style="font-weight: bold;"> <p>isActive</p> <p style="font-weight: normal;">Se ha añadido este campo, que es un parámetro booleano con un valor true si un objeto está activo; de lo contrario es false. Los objetos que se definen como Activos aparecen en menús desplegables y campos de escritura anticipada y pueden adjuntarse a otros objetos. Los objetos no definidos como activos no son visibles en los menús desplegables ni en los campos de escritura anticipada para adjuntarlos a otros objetos.  </p> </li> 
+     <li style="font-weight: bold;"> <p>isActive</p> <p style="font-weight: normal;">Se ha añadido este campo, que es un parámetro booleano con un valor true si un objeto está activo y false si no lo está. Los objetos que se definen como Activos aparecen en menús desplegables y campos de escritura anticipada y pueden adjuntarse a otros objetos. Los objetos no definidos como Activos no son visibles en los menús desplegables ni en los campos de escritura anticipada para adjuntarlos a otros objetos.  </p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 

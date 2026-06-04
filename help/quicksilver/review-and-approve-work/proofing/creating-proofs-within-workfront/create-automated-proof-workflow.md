@@ -6,10 +6,16 @@ description: Un flujo de trabajo automatizado facilita la administración del pr
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 977fe1bc-458f-4301-8056-dc51c61edb6c
-source-git-commit: ac714bd5a5259d6f995ac445efbd0125e07022cb
+TQID: https://experienceleague.adobe.com/JCDEDcmb2GOWTW-GqUTHdQKp7O6FC2ACvj0HsIXaaRs
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1783'
-ht-degree: 99%
+source-wordcount: 1760
+ht-degree: 97%
 
 ---
 
@@ -28,7 +34,7 @@ Un flujo de trabajo automatizado facilita la administración del proceso de revi
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td role="rowheader">Paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
@@ -182,7 +188,7 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
     <tbody> 
      <tr> 
       <td role="rowheader">Inicio de sesión obligatorio: la prueba solo se puede compartir con otros usuarios</td> 
-      <td>Cuando esta opción está deshabilitada (predeterminada), cualquier persona con la URL puede ver la prueba. <br>Cuando se selecciona esta opción:
+      <td>Cuando esta opción está deshabilitada (predeterminada), cualquier persona con la URL puede ver la revisión. <br>Cuando se selecciona esta opción:
        <ul>
         <li>Solo los usuarios de Workfront Proof pueden ver la prueba.</li>
         <li>Los usuarios no pueden iniciar sesión en la prueba a menos que se les haya añadido a la prueba.</li>
@@ -227,7 +233,7 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
 
    Workfront comienza a generar una prueba de los documentos o sitios web seleccionados. Según el tamaño y el tipo de archivo, el tiempo de retraso de la carga de un documento puede variar. Tenga en cuenta que los archivos grandes tardan más en generarse. Puede salir de la página y Workfront seguirá generando el archivo. El tamaño máximo de carga del archivo es de 4 GB.
 
-1. Una vez generada la prueba, haga clic en **Abrir prueba** para iniciar el visor de corrección.
+1. Una vez generada la revisión, haga clic en **Abrir revisión** para iniciar el visor de corrección.
 
    ![Abrir revisión](assets/open-proof-350x132.png)
 
