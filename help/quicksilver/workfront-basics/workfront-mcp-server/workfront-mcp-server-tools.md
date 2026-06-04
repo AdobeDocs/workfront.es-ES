@@ -5,10 +5,10 @@ title: Herramientas del servidor MCP de Adobe Workfront
 description: Lista de referencia de las herramientas disponibles a través del servidor MCP de Adobe Workfront, agrupadas por área de Workfront.
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: 6301888b4d758fbf8a60c2698f800395618bb527
+source-git-commit: d942af03d03f3e22b7fea0aa3782520d3dcb7f54
 workflow-type: tm+mt
-source-wordcount: '1582'
-ht-degree: 8%
+source-wordcount: '1559'
+ht-degree: 9%
 
 ---
 
@@ -67,8 +67,11 @@ Si la plataforma agéntica de IA puede encontrar elementos de Workfront pero no 
 | Obtener información del flujo de trabajo de aprobación | `approvals_get_approval_info` | Devuelve el flujo de trabajo de aprobación actual (fases, participantes, estado) de una versión de documento. | Leer |
 | Crear o actualizar flujo de trabajo de aprobación | `approvals_create_or_update_approval_workflow` | Crea o actualiza las fases del flujo de trabajo de aprobación para una versión de documento. Admite dependencias de escenario lineales y paralelas (gráfico). | Escritura |
 | Crear aprobación a partir de plantilla | `approvals_create_approval_from_template` | Crea un flujo de trabajo de aprobación en un documento utilizando una plantilla existente. | Escritura |
-| Solicitar aprobación del documento | `approvals_request_document_approval` | Abre un formulario guiado para solicitar la aprobación de una versión de documento (título, aprobadores/revisores, fecha de vencimiento opcional y mensaje). | Escritura |
 | Eliminar fase de aprobación | `approvals_delete_approval_stage` | Elimina una sola etapa de un flujo de trabajo de aprobación por nombre o posición. Solo se pueden eliminar las fases no iniciadas. | Escritura |
+
+<!--
+| Request document approval | `approvals_request_document_approval` | Opens a guided form for requesting approval on a document version (title, approvers/reviewers, optional due date and message). | Write |
+-->
 
 ### Recordatorios
 
