@@ -3,10 +3,13 @@ title: Aplicación móvil de Workfront Proof para tabletas
 description: La aplicación para tabletas  [!DNL Workfront Proof]  le permite revisar y aprobar sus pruebas cómodamente desde cualquier lugar. La aplicación está disponible para su descarga para todo el mundo, no es necesario ser usuario de  [!DNL Workfront Proof]  para poder revisar las pruebas en su tableta o teléfono.
 hide: true
 exl-id: 7a3f1d96-103d-41cf-8470-3fc69e4bd507
-source-git-commit: 18ad93c364daa9225c2b2ba715e45e8644936a0d
+TQID: https://experienceleague.adobe.com/Unk0yRCZtepX7LK-J7Y8JnUtcbUdMRzWo3XmMQuBXQM
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1997'
-ht-degree: 98%
+source-wordcount: 1981
+ht-degree: 97%
 
 ---
 
@@ -94,8 +97,8 @@ Otra vista que puede resultarle útil es la vista Reciente: muestra las pruebas 
 
    O
 
-   Para abrir una prueba a partir de una notificación enviada por correo electrónico, los revisores pueden hacer clic en el vínculo **[!UICONTROL Ir a la prueba]** de la notificación.
-Si tiene una cuenta de [!DNL Workfront Proof], puede iniciar sesión y acceder a la prueba desde el panel de control.
+   Para abrir una revisión a partir de una notificación enviada por correo electrónico, los revisores pueden hacer clic en el vínculo **[!UICONTROL Ir a la revisión]** de la notificación.
+Si tiene una cuenta de [!DNL Workfront Proof], puede iniciar sesión y acceder a la revisión desde el panel.
 
    >[!NOTE]
    >

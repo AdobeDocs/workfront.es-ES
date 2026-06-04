@@ -2,15 +2,18 @@
 product-previous: workfront-proof
 product-area: documents
 navigation-topic: share-proofs-and-files
-title: Compartir una revisión en Workfront Proof
+title: Compartir una prueba en Workfront Proof
 description: Si tiene derechos de edición sobre una prueba, puede compartirla fácilmente con otros revisores. Se puede agregar a cualquier persona a una revisión, ya que no necesita tener una cuenta  [!DNL Workfront Proof] para revisar las revisiones.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: bc145c50-9ab5-4ee8-9ed7-d307da6b0e8f
-source-git-commit: ddaee5b339982c826c14b67775d81f3a2bd7bc37
+TQID: https://experienceleague.adobe.com/wL1b-NeZg34ePbcEXn3wO3YzbdztS19SRZ7GinuuQ88
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '528'
-ht-degree: 7%
+source-wordcount: 527
+ht-degree: 8%
 
 ---
 

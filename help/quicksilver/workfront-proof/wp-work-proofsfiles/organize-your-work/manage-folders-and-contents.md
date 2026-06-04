@@ -7,10 +7,13 @@ description: Una de las ventajas de organizar sus proyectos y pruebas en carpeta
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: cec385de-f1b9-4e28-8493-987536c04905
-source-git-commit: ddaee5b339982c826c14b67775d81f3a2bd7bc37
+TQID: https://experienceleague.adobe.com/vCYBMO0HLxXG73qV-3g6I8OHTX32ELjZbIIOO2rtidU
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1237'
-ht-degree: 4%
+source-wordcount: 1260
+ht-degree: 5%
 
 ---
 
@@ -24,7 +27,7 @@ Una de las ventajas de organizar sus proyectos y pruebas en carpetas es la capac
 
 ## Agrupar Elementos Para Que Los Revisores Puedan Trabajar En Ellos Juntos
 
-Puede utilizar carpetas para agrupar las pruebas en las que desea que trabajen los revisores juntos. Cuando un revisor abre una de las pruebas de la carpeta para iniciar el visor de pruebas, todas las demás pruebas de la carpeta están disponibles; el revisor puede trabajar en cualquier prueba de la carpeta sin salir del visor de pruebas. Para obtener más información, consulte [Trabajar con varias pruebas en el visor de corrección](../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/work-with-multiple-proofs.md).
+Puede utilizar carpetas para agrupar las pruebas en las que desea que trabajen los revisores juntos. Cuando un revisor abre una de las pruebas de la carpeta para iniciar el visor de pruebas, todas las demás pruebas de la carpeta están disponibles; el revisor puede trabajar en cualquier prueba de la carpeta sin salir del visor de pruebas. Para obtener más información, consulte [Trabajar con varias revisiones en el visor de corrección](../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/work-with-multiple-proofs.md).
 
 ## Agregar elementos nuevos a una carpeta
 

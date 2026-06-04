@@ -7,10 +7,13 @@ description: La página de detalles de Prueba permite administrar una prueba exi
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: e9530c2f-03ff-42f5-acbf-afe303e234e3
-source-git-commit: ddaee5b339982c826c14b67775d81f3a2bd7bc37
+TQID: https://experienceleague.adobe.com/XtCGq47fdKxfK-yF2LbH94Fq4AP46ENnEroJEGbuEhM
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1189'
-ht-degree: 5%
+source-wordcount: 1198
+ht-degree: 6%
 
 ---
 
@@ -46,7 +49,7 @@ Para saber cómo administrar las pruebas de Flujo de trabajo automatizado, consu
 
 ## Información y opciones de la página Detalles de revisión
 
-Puede encontrar la siguiente información en la página de detalles de la prueba. Si tiene derechos de edición sobre la prueba, puede editar algunos de estos detalles. [!DNL Workfront Proof] guarda los cambios automáticamente. Para obtener más información, consulte [Perfiles de permisos de revisión en [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md) y [Administrar roles de revisión en [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md).
+Puede encontrar la siguiente información en la página de detalles de la prueba. Si tiene derechos de edición sobre la prueba, puede editar algunos de estos detalles. [!DNL Workfront Proof] guarda los cambios automáticamente. Para obtener más información, consulte [Perfiles de permisos de prueba en [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md) y [Administrar funciones de prueba en [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md).
 
 >[!NOTE]
 >

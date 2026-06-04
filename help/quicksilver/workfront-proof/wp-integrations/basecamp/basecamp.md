@@ -9,10 +9,14 @@ author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: ba0819cf-debd-47eb-ab9d-a326b84aa1e8
-source-git-commit: c3e15a052533d43065b50a9f56169b82f8dc3765
+TQID: https://experienceleague.adobe.com/GDuzyFsqRy847OXQyedhSZSqR34Rc-9RO9b-aFrGKcc
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '46'
-ht-degree: 0%
+source-wordcount: 43
+ht-degree: 100%
 
 ---
 
@@ -20,11 +24,11 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Este artículo hace referencia a la funcionalidad del producto independiente [!DNL Workfront Proof]. Para obtener información sobre la revisión dentro de [!DNL Adobe Workfront], vea [Revisión](../../../review-and-approve-work/proofing/proofing.md).
+>Este artículo hace referencia a la funcionalidad del producto independiente [!DNL Workfront Proof]. Para obtener información sobre la revisión dentro de [!DNL Adobe Workfront], consulte [Revisión](../../../review-and-approve-work/proofing/proofing.md).
 
 Esta sección contiene los siguientes artículos:
 
-* [Agregar una revisión a  [!DNL Basecamp] proyecto](../../../workfront-proof/wp-integrations/basecamp/add-proof-to-basecamp-project.md)
-* [Integrar [!DNL Workfront Proof] con [!DNL Basecamp]](../../../workfront-proof/wp-integrations/basecamp/integrate-workfront-proof-with-basecamp.md)
-* [Revisar una revisión en  [!DNL Basecamp]](../../../workfront-proof/wp-integrations/basecamp/review-proof-basecamp.md)
-* [Comprender la  [!DNL Basecamp] integración con [!DNL Workfront Proof]](../../../workfront-proof/wp-integrations/basecamp/basecamp-integration-overview.md)
+* [Añadir una prueba a un proyecto de [!DNL Basecamp] ](../../../workfront-proof/wp-integrations/basecamp/add-proof-to-basecamp-project.md)
+* [Integrar  [!DNL Workfront Proof]  con  [!DNL Basecamp]](../../../workfront-proof/wp-integrations/basecamp/integrate-workfront-proof-with-basecamp.md)
+* [Revisión de una prueba en  [!DNL Basecamp]](../../../workfront-proof/wp-integrations/basecamp/review-proof-basecamp.md)
+* [Explicación de la integración de  [!DNL Basecamp] con [!DNL Workfront Proof]](../../../workfront-proof/wp-integrations/basecamp/basecamp-integration-overview.md)

@@ -3,14 +3,17 @@ product-previous: workfront-proof
 product-area: documents
 navigation-topic: review-proofs-workfront-proofing-viewer
 title: Métodos abreviados de teclado en el visor de  [!DNL Workfront Proof] revisión
-description: La información descrita en esta sección está disponible tanto en el Visor de revisión web como en el Visor de revisión de escritorio.
+description: La información descrita en esta sección está disponible tanto en el visor de revisión web como en el visor de revisión de escritorio.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: e134ac7a-7a9d-4923-8622-b602856e4925
-source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
+TQID: https://experienceleague.adobe.com/HTk9kA-ajjmSM55jlzkZMfjcK2k8AUJ0naYwZXvXXgc
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '324'
-ht-degree: 1%
+source-wordcount: 333
+ht-degree: 100%
 
 ---
 
@@ -18,9 +21,9 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >
->Este artículo hace referencia a la funcionalidad del producto independiente [!DNL Workfront Proof]. Para obtener información sobre la revisión dentro de [!DNL Adobe Workfront], vea [Revisión](../../../review-and-approve-work/proofing/proofing.md).
+>Este artículo hace referencia a la funcionalidad del producto independiente [!DNL Workfront Proof]. Para obtener información sobre la revisión dentro de [!DNL Adobe Workfront], consulte [Revisión](../../../review-and-approve-work/proofing/proofing.md).
 
-La información descrita en esta sección está disponible tanto en el Visor de revisión web como en el Visor de revisión de escritorio.
+La información descrita en esta sección está disponible tanto en el visor de revisión web como en el visor de revisión de escritorio.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -68,7 +71,7 @@ La información descrita en esta sección está disponible tanto en el Visor de 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Mantenga pulsada la tecla Mayús y luego presione &lt;</p> </td> 
+   <td> <p>Mantenga pulsada la tecla Mayús y luego pulse &lt;</p> </td> 
    <td> <p>Reproducir vídeo más despacio</p> </td> 
    <td> <p> </p> </td> 
   </tr> 
@@ -78,17 +81,17 @@ La información descrita en esta sección está disponible tanto en el Visor de 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>[!DNL Mac]:</strong> Ctrl+Intro </p> <p><strong>[!DNL Windows]:</strong> cmd+return</p> </td> 
+   <td> <p><strong>[!DNL Mac]</strong> Ctrl + Intro </p> <p><strong>[!DNL Windows]:</strong> cmd + retorno</p> </td> 
    <td> <p>Guardar comentario</p> </td> 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Flecha hacia abajo</p> </td> 
+   <td> <p>Flecha abajo</p> </td> 
    <td> <p>Siguiente comentario</p> </td> 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Flecha arriba</p> </td> 
+   <td> <p>Flecha hacia arriba</p> </td> 
    <td> <p>Comentario anterior</p> </td> 
    <td> <p> </p> </td> 
   </tr> 
@@ -98,8 +101,8 @@ La información descrita en esta sección está disponible tanto en el Visor de 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
-   <td> <p>0 (cero)<br>O<br> fn+flecha izquierda<br> O<br> clave de inicio</p> </td> 
-   <td> <p>Reinicie el vídeo</p> </td> 
+   <td> <p>0 (cero)<br>O<br> fn+flecha izquierda<br> O<br> Tecla Inicio</p> </td> 
+   <td> <p>Reiniciar el vídeo</p> </td> 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
@@ -109,11 +112,11 @@ La información descrita en esta sección está disponible tanto en el Visor de 
   </tr> 
   <tr> 
    <td> <p>M (mayúsculas o minúsculas)</p> </td> 
-   <td> <p>Silenciar y reactivar vídeo</p> </td> 
+   <td> <p>Silenciar y reactivar audio del vídeo</p> </td> 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Desplazamiento y desplazamiento</p> </td> 
+   <td> <p>Maýus y desplazamiento</p> </td> 
    <td> <p> Ampliar o reducir</p> </td> 
    <td> <p>Ampliar o reducir</p> </td> 
   </tr> 
@@ -125,7 +128,7 @@ La información descrita en esta sección está disponible tanto en el Visor de 
   <tr> 
    <td> <p><strong>[!DNL Mac]:</strong> ctrl+1</p> <p><strong>[!DNL Windows]:</strong> Ctrl+1</p> </td> 
    <td> <p> </p> </td> 
-   <td> <p>Zoom de 100% </p> </td> 
+   <td> <p>Zoom al 100 % </p> </td> 
   </tr> 
   <tr> 
    <td> <p><strong>[!DNL Mac]:</strong> ctrl+2</p> <p><strong>[!DNL Windows]:</strong> Ctrl+2</p> </td> 
@@ -138,27 +141,27 @@ La información descrita en esta sección está disponible tanto en el Visor de 
    <td> <p>Ajustar a altura </p> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>[!DNL Mac]:</strong> cmd++ <br>o <br>cmd+mayús+desplazar hacia arriba</p> <p><strong>[!DNL Windows]:</strong> Ctrl++</p> </td> 
+   <td> <p><strong>[!DNL Mac]:</strong> cmd++ <br>O <br>cmd+mayús+desplazar hacia arriba</p> <p><strong>[!DNL Windows]:</strong> Ctrl++</p> </td> 
    <td> <p> Ampliar</p> </td> 
    <td> <p>Ampliar </p> </td> 
   </tr> 
   <tr> 
    <td> <p><strong>[!DNL Mac]:</strong> cmd+- <br>O <br>cmd+mayús+desplazar hacia abajo</p> <p><strong>[!DNL Windows]:</strong> Ctrl+-</p> </td> 
-   <td> <p>Alejar </p> </td> 
-   <td> <p>Alejar</p> </td> 
+   <td> <p>Reducir </p> </td> 
+   <td> <p>Reducir</p> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>[!DNL Windows]:</strong> Mantenga presionada la barra espaciadora mientras arrastra la imagen</p> </td> 
+   <td> <p><strong>[!DNL Windows]:</strong> Mantenga pulsada la barra espaciadora mientras arrastra la imagen</p> </td> 
    <td> <p> Panorámica</p> </td> 
    <td> <p> Panorámica</p> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>[!DNL Mac]:</strong> cmd+f</p> <p><strong>[!DNL Windows]</strong>: Ctrl + f</p> </td> 
+   <td> <p><strong>[!DNL Mac]:</strong> cmd+f</p> <p><strong>[!DNL Windows]</strong>: Ctrl+f</p> </td> 
    <td> <p> </p> </td> 
    <td> <p>Buscar documento</p> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>[!DNL Mac]:</strong> cmd+g</p> <p><strong>[!DNL Windows]:</strong> Ctrl+g</p> <p><strong>[!DNL Mac] y [!DNL Windows]:</strong> Pulse la tecla Intro en el campo Buscar.</p> </td> 
+   <td> <p><strong>[!DNL Mac]:</strong> cmd+g</p> <p><strong>[!DNL Windows]:</strong> Ctrl+g</p> <p><strong>[!DNL Mac] y [!DNL Windows]:</strong> pulse la tecla Intro en el campo Buscar.</p> </td> 
    <td> <p> </p> </td> 
    <td> <p>Siguiente resultado de búsqueda</p> </td> 
   </tr> 

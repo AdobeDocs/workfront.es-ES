@@ -2,15 +2,18 @@
 product-previous: workfront-proof
 product-area: documents
 navigation-topic: share-proofs-and-files
-title: Crear una revisión mínima en  [!DNL Workfront Proof]
+title: Crear una prueba mínima en  [!DNL Workfront Proof]
 description: Miniproof es un widget que permite incrustar una prueba en una página web, un blog o una wiki.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 6603c361-4c1c-4092-ae70-aae92866ec7d
-source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
+TQID: https://experienceleague.adobe.com/H6gYtRF8Yoal2mZr7nVq-IS1xxV3inU9ZfOrbYhyVgY
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '206'
-ht-degree: 0%
+source-wordcount: 207
+ht-degree: 47%
 
 ---
 
@@ -18,17 +21,17 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Este artículo hace referencia a la funcionalidad del producto independiente [!DNL Workfront Proof]. Para obtener información sobre la revisión dentro de [!DNL Adobe Workfront], vea [Revisión](../../../review-and-approve-work/proofing/proofing.md).
+>Este artículo hace referencia a la funcionalidad del producto independiente [!DNL Workfront Proof]. Para obtener información sobre la revisión dentro de [!DNL Adobe Workfront], consulte [Revisión](../../../review-and-approve-work/proofing/proofing.md).
 
 Miniproof es un widget que permite incrustar una prueba en una página web, un blog o una wiki.
 
-La opción Miniproof muestra la prueba y todos los comentarios y marcas existentes. Puede trabajar en la revisión como si estuviera en [!DNL Workfront Proof].
+Miniproof le muestra la prueba junto con todos los comentarios y marcas existentes. Puede trabajar en la revisión como si estuviera en [!DNL Workfront Proof].
 
-A continuación, se muestra un ejemplo de una prueba mínima incrustada en un proyecto de BaseCamp:
+A continuación, se muestra un ejemplo de un Miniproof incrustado en un proyecto de BaseCamp:
 
 * Nombre de la prueba (1)
 * Pantalla completa (2): abre la prueba en el visualizador de pruebas (fuera del entorno en el que se incrustó la prueba mínima)
-* Enlaces de ayuda (3)
+* Vínculos de ayuda (3)
 * Menú Acciones (4)
 * Ver comentarios en la barra lateral (5)
 

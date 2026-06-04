@@ -7,9 +7,12 @@ description: Puede ver comparaciones en paralelo de dos pruebas. Pueden ser dos 
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: d4ec0c53-1451-4475-aa38-2319c6432936
-source-git-commit: ddaee5b339982c826c14b67775d81f3a2bd7bc37
+TQID: https://experienceleague.adobe.com/WqMIoCFL-uqoaiZN59IyGljdSPb1sn0Py3RaVgjuuKM
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '949'
+source-wordcount: 964
 ht-degree: 99%
 
 ---
@@ -25,7 +28,7 @@ Puede ver comparaciones en paralelo de dos pruebas. Pueden ser dos versiones de 
 ## Comparar versiones de prueba {#compare-proof-versions}
 
 1. Abra la prueba con varias versiones que quiere comparar.
-1. En la esquina superior izquierda del visor de corrección que se muestra, haga clic en el nombre de la prueba. A continuación, en la lista de versiones que aparece, haga clic en el icono **Comparar** situado junto a la versión que desee abrir y comparar.
+1. En la esquina superior izquierda del visor de corrección que se muestra, haga clic en el nombre de la revisión. A continuación, en la lista de versiones que aparece, haga clic en el icono **Comparar** situado junto a la versión que desee abrir y comparar.
 
    ![Comparar pruebas y elegir versión](assets/compare-proofs-choose-version-350x115.jpg)
 
@@ -56,13 +59,13 @@ Para obtener información sobre cómo comparar pruebas independientes de la list
 
 >[!NOTE]
 >
->Las pruebas que compare deben estar en la misma carpeta y en el mismo nivel de jerarquía dentro de la estructura de carpetas. Para obtener más información acerca del uso de carpetas para agrupar las pruebas que desea comparar, consulte [Trabajar con varias pruebas en el Visor de corrección](../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/work-with-multiple-proofs.md)
+>Las pruebas que compare deben estar en la misma carpeta y en el mismo nivel de jerarquía dentro de la estructura de carpetas. Para obtener más información acerca del uso de carpetas para agrupar las revisiones que desea comparar, consulte [Trabajar con varias revisiones en el Visor de corrección](../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/work-with-multiple-proofs.md)
 
-1. Abra una de las pruebas que desee comparar en el Visor de corrección.
+1. Abra una de las revisiones que desee comparar en el Visor de corrección.
 1. Haga clic en el icono **[!UICONTROL Modo de comparación]**.
 
    ![proof_compare_icon.png](assets/proof-compare-icon.png)\
-   El área de visualización se divide por la mitad y la prueba se muestra a la izquierda y a la derecha del Visor de corrección.
+   El área de visualización se divide por la mitad y la revisión se muestra a la izquierda y a la derecha del Visor de corrección.
 
    ![Compare_proofs-versions.png](assets/compare-proofs-versions-350x180.png)
 
@@ -70,7 +73,7 @@ Para obtener información sobre cómo comparar pruebas independientes de la list
 
    ![Folder_icons_when_comparing_in_proofing_viewer.png](assets/folder-icons-when-comparing-in-proofing-viewer-350x121.png)
 
-1. En la lista, haga clic en el nombre de la prueba que desea comparar con la prueba abierta actualmente en el visor de corrección.
+1. En la lista, haga clic en el nombre de la revisión que desea comparar con la revisión abierta actualmente en el visor de corrección.
 
    ![Comparing_proofs-list_of_proofs_in_folder.png](assets/comparing-proofs-list-of-proofs-in-folder-350x89.png)
 
@@ -80,7 +83,7 @@ Para obtener información sobre cómo comparar pruebas independientes de la list
 
 ## Usar las herramientas de comparación {#use-the-compare-tools}
 
-El visor de corrección proporciona varias herramientas para comparar pruebas de forma eficaz y eficiente.
+El visor de corrección proporciona varias herramientas para comparar revisiones de forma eficaz y eficiente.
 
 * [Comparar pruebas automáticamente](#auto-compare-proofs)
 * [Comparar pruebas en una superposición](#compare-proofs-in-an-overlay)
@@ -99,7 +102,7 @@ Para comparar automáticamente dos pruebas:
    * Comparar dos versiones de la misma prueba (consulte [Comparar versiones de prueba](#compare-proof-versions) en este artículo).
    * Comparar dos pruebas independientes (consulte [Comparar pruebas independientes](#compare-separate-proofs) en este artículo).
 
-1. Haga clic en el icono **[!UICONTROL Comparar automáticamente]**. 
+1. Haga clic en el icono **[!UICONTROL Comparar automáticamente]**.
 
    ![proof_autocompare_icon.png](assets/proof-autocompare-icon-31x32.png)
 
@@ -168,4 +171,4 @@ Para habilitar la navegación simultánea si aún no está habilitada:
 
    ![proof_compare_exit.png](assets/proof-compare-exit-350x163.png)
 
-   La prueba que no cierre permanecerá abierta en el visor de corrección.
+   La revisión que no cierre permanecerá abierta en el visor de corrección.

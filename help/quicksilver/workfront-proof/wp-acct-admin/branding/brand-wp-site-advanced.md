@@ -2,51 +2,56 @@
 product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: branding-workfront-proof
-title: Marcar el  [!DNL Workfront] sitio de revisión - avanzado
-description: La promoción de marca avanzada está disponible en los planes Select y Premium y está incluida en el costo del plan.
+title: 'Personalización de la marca en el sitio de revisión [!DNL Workfront] : avanzado'
+description: La personalización de marca avanzada está disponible en los planes Select y Premium y está incluida en el coste del plan.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: fd9e01ae-71c5-45fe-a874-4ee359fbe057
-source-git-commit: a6cd3fe793c197308105da27369191d84cb59377
+TQID: https://experienceleague.adobe.com/D1jNALj0-WWhVocGr56-zhxe4zKvDlOI2-tJMA65XlY
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '773'
-ht-degree: 1%
+source-wordcount: 754
+ht-degree: 80%
 
 ---
 
-# Marcar el sitio [!DNL Workfront Proof] - avanzado
+# Personalización de la marca en el sitio [!DNL Workfront Proof]: avanzado
 
 >[!IMPORTANT]
 >
->Este artículo hace referencia a la funcionalidad del producto independiente [!DNL Workfront Proof]. Para obtener información sobre la revisión dentro de [!DNL Adobe Workfront], vea [Revisión](../../../review-and-approve-work/proofing/proofing.md).
+>Este artículo hace referencia a la funcionalidad del producto independiente [!DNL Workfront Proof]. Para obtener información sobre la revisión dentro de [!DNL Adobe Workfront], consulte [Revisión](../../../review-and-approve-work/proofing/proofing.md).
 
-La promoción de marca avanzada está disponible en los planes Select y Premium y está incluida en el costo del plan.
+La personalización de marca avanzada está disponible en los planes Select y Premium y está incluida en el coste del plan.
 
-Para obtener información sobre la promoción de la marca básica, que incluye la página de inicio de sesión, las notificaciones por correo electrónico y las pruebas, consulta [Marcar el [!DNL Workfront Proof] sitio](../../../workfront-proof/wp-acct-admin/branding/brand-wp-site.md).
+Para obtener información sobre la personalización básica de la marca, que incluye la página de inicio de sesión, las notificaciones por correo electrónico y las revisiones, consulte [Personalización de marca en el [!DNL Workfront Proof] sitio](../../../workfront-proof/wp-acct-admin/branding/brand-wp-site.md).
 
-Las opciones avanzadas de promoción de la marca incluyen la personalización de las siguientes áreas:
+Las opciones avanzadas de personalización de marca incluyen la personalización de las siguientes áreas:
 
-* Color de encabezado y texto
-* Encabezado de aplicación web
+* Color del encabezado y el texto
+* Encabezado de una aplicación web
 * Barra de menús y color del texto
-* Cuadro de bienvenida y cuadro de inicio rápido del panel
+* Cuadro de bienvenida y cuadro de inicio rápido del panel de control
 * Texto del pie
 * Favicon
 * Título de página
 * Vínculos de ayuda
 
-Las siguientes secciones describen la promoción avanzada de la marca con más detalle:
+En las siguientes secciones se describe la personalización avanzada de marca con más detalle:
 
-## Información general de promoción de marca avanzada
+## Información general sobre la personalización de marca avanzada
 
 Encontrarás la sección [!UICONTROL Configuración de marca] en la pestaña de tu página [Configuración de la cuenta](https://support.workfront.com/hc/en-us/sections/115000912147-Account-Settings). Para aplicar los cambios a su cuenta, asegúrese de que la opción de promoción de la marca está establecida en [!UICONTROL Habilitado] (1).
 ![Promoción avanzada de marca.png](assets/advanced-branding-350x618.png)
 
-Consulte la sección siguiente para obtener información más detallada sobre cómo configurar las opciones de promoción de la marca avanzada (2-14).
+Consulte la sección siguiente para obtener información más detallada sobre cómo configurar las opciones avanzadas de personalización de marca (2-14).
 
-## Configuración avanzada de marca
+## Configuración avanzada de la personalización de marca
 
-Puede marcar las siguientes áreas de [!DNL Workfront Proof]:
+Puede poner la marca en las siguientes áreas de [!DNL Workfront Proof]:
 
 * [Aplicación web](#web-application)
 * [Encabezado](#header)
@@ -57,29 +62,29 @@ Puede marcar las siguientes áreas de [!DNL Workfront Proof]:
 
 ### Aplicación web {#web-application}
 
-![Imagen_marca_web.png](assets/web-branding-image-350x181.png)
+![Web_branding_image.png](assets/web-branding-image-350x181.png)
 
-Puede elegir entre tres opciones de promoción de la marca para el encabezado de la aplicación web (2):
+Puede elegir entre tres opciones de personalización de marca para el encabezado de una aplicación web (2):
 
-* Imagen de marca en el encabezado
+* Imagen de promoción de la marca en el encabezado
 * Su nombre de cuenta en el encabezado
 * Si deshabilita la marca, el logotipo [!DNL Workfront Proof] permanecerá en el encabezado de la aplicación web
 
-Imagen de marca: cambia de tamaño hasta un tamaño máximo de 550 x 90 px. Puede utilizar JPG, GIF o PNG de, y se admiten los fondos transparentes.
+Imagen de personalización de marca: cambia de tamaño hasta un máximo de 550 x 90 px. Puede utilizar JPG, GIF o PNG, y se admiten los fondos transparentes.
 
-Nombre de la cuenta: se toma de los detalles de la cuenta y se muestra con una fuente en blanco. El nombre de tu cuenta puede tener hasta 60 caracteres (incluyendo espacios y signos de puntuación).
+Nombre de la cuenta: se toma de los detalles de la cuenta y se muestra con una fuente en blanco. El nombre de la cuenta puede tener hasta 60 caracteres (incluyendo espacios y signos de puntuación).
 
 ### Encabezado {#header}
 
 En este campo (3) puede establecer el fondo del encabezado y puede elegir un color sólido o una imagen de fondo.
 
-Color: aquí, como en todos los demás campos de personalización de marca de la configuración de combinación de colores, puede introducir un valor de color hexadecimal de su elección o utilizar un práctico selector de color (al hacer clic en el campo de texto se abre la ventana emergente). El color de fondo de encabezado predeterminado es #232d2e.
+Color: aquí, como en todos los demás campos de personalización de marca de los ajustes de combinación de colores, puede introducir un valor de color hexadecimal de su elección o utilizar un práctico selector de color (al hacer clic en el campo de texto se abre la ventana emergente). El color de fondo de encabezado predeterminado es #232d2e.
 
-![Marca_-_color_picker.png](assets/branding---color-picker-350x131.png)
+![Branding_-_color_picker.png](assets/branding---color-picker-350x131.png)
 
-Imagen de fondo: se puede combinar con la imagen de marca.
+Imagen de fondo: puede combinarse con la imagen de personalización de marca.
 
-* Puede utilizar JPG, GIF o PNGs para los archivos con transparencia se muestra un color de fondo blanco.
+* Puede utilizar JPG, GIF o PNG; para los archivos con transparencia se muestra un color de fondo blanco.
 * La altura del encabezado es de 96 píxeles y no se cambiará el tamaño de la imagen cargada para la opción [!UICONTROL No repetir].
 * La imagen de fondo se coloca en la parte superior izquierda.
 
@@ -92,7 +97,7 @@ En este campo (4) puede modificar el color del nombre de usuario y el color de l
 
 Elija colores para la barra de menús (5) y la fuente del menú (6) para personalizar la barra lateral
 
-![Barra_de_menú.png](assets/menu-bar-350x490.png)
+![Menu_bar.png](assets/menu-bar-350x490.png)
 
 >[!NOTE]
 >
@@ -108,16 +113,16 @@ En este campo (7) puede establecer el color del cuadro de bienvenida que se mues
 ### Encabezados de sección {#section-headers}
 
 Estos campos le permiten personalizar el fondo (8) y el color de fuente (9) de los encabezados de sección en las páginas de [[!UICONTROL Configuración de la cuenta]](https://support.workfront.com/hc/en-us/sections/115000912147-Account-Settings).
-![Encabezados_de_sección.png](assets/section-headers-350x138.png)
+![Encabezados de sección.png](assets/section-headers-350x138.png)
 
 **Pie de página**
 
-En este campo (10) de la configuración de promoción de la marca puede crear un pie de página que se mostrará en la parte inferior de todas las páginas de la cuenta. Puede utilizar el editor WYSIWYG integrado o simplemente puede pegar su propio diseño.
+En este campo (10) de la configuración de promoción de la marca puede crear un pie de página que se mostrará en la parte inferior de todas las páginas de la cuenta. Puede utilizar el editor integrado de WYSIWYG o simplemente pegar su propio diseño.
 ![Pie de página.png](assets/footer-350x157.png)
 
 >[!NOTE]
 >
->No puede editar el HTML en el editor de texto del pie de página, pero puede pegar un diseño copiado (incluidos todos los vínculos e imágenes).
+>No es posible editar el HTML en el editor de texto del pie de página, pero puede pegar un diseño copiado (incluidos todos los vínculos e imágenes).
 
 **Favicon y título de página**
 
@@ -126,24 +131,24 @@ Puede personalizar la forma en que se presentan las páginas de [!DNL Workfront 
 
 >[!NOTE]
 >
->Su icono de favoritos también se mostrará en los encabezados de las ventanas del visor [!DNL Workfront Proof] para todas las pruebas creadas en su cuenta.
+>Su favicon también se mostrará en los encabezados de las ventanas del visor de [!DNL Workfront Proof] para todas las pruebas creadas en su cuenta.
 
 **Vínculos de ayuda**
 
-Puede personalizar sus propios vínculos de ayuda para dirigir a los usuarios y revisores a su propio contenido. Para activar esto, establezca la opción [!UICONTROL Vínculos de ayuda] (13) en Habilitado y agregue los vínculos en los campos siguientes (14). Puede configurar hasta cuatro vínculos, que estarán disponibles:
+Puede personalizar sus propios vínculos de ayuda para dirigir a los usuarios y revisores a su propio contenido. Para activar esto, establezca la opción [!UICONTROL Vínculos de ayuda] (13) en Habilitado y añada los vínculos en los campos siguientes (14). Puede configurar hasta cuatro vínculos, que estarán disponibles:
 
 * en el menú [!UICONTROL Encabezado] bajo el vínculo [!UICONTROL Ayuda]
-  ![vínculos_de_ayuda1.png](assets/help-links1-350x170.png)
+  ![Help_links1.png](assets/help-links1-350x170.png)
 
 * en el panel [!UICONTROL Ayuda] de la barra lateral [!DNL Workfront Proof] [!UICONTROL Visor]
-  ![vínculos_de_ayuda2.png](assets/help-links2-350x532.png)
+  ![Help_links2.png](assets/help-links2-350x532.png)
 
-Por un cargo adicional, los clientes con planes de empresa también tienen la opción de personalizar completamente lo siguiente:
+Por un coste adicional, los clientes con planes de empresa también tienen la opción de personalizar completamente lo siguiente:
 
-* Personalizar completamente las páginas de aterrizaje (por ejemplo, páginas de inicio y cierre de sesión, página de contraseña olvidada)
+* Personalizar completamente las páginas de destino (por ejemplo, las páginas de inicio y cierre de sesión, la página de contraseña olvidada)
 * Personalización total del dominio
 
-Póngase en contacto con nosotros en sales.team@workfront.com para obtener más información sobre las opciones de marca adicionales.
+Póngase en contacto con nosotros en sales.team@workfront.com para obtener más información sobre las opciones de personalización de marca adicionales.
 
 <!--
 <h2 data-mc-conditions="QuicksilverOrClassic.Draft mode">Custom Domains</h2>

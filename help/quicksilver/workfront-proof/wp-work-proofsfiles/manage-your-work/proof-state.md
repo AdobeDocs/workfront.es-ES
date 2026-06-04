@@ -7,9 +7,12 @@ description: En [!DNL Workfront Proof], las pruebas existen en diferentes estado
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: cd120e53-d6c2-4929-904f-a9f72903f074
-source-git-commit: ddaee5b339982c826c14b67775d81f3a2bd7bc37
+TQID: https://experienceleague.adobe.com/hfrduMjWqBcyeqrHM5PTmCYY6jzwBCQwgQWzCqGDlls
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '435'
+source-wordcount: 435
 ht-degree: 98%
 
 ---
@@ -37,7 +40,7 @@ Las pruebas que se cargan en [!DNL Workfront Proof] a través de la página Nuev
 
 >[!NOTE]
 >
->Las pruebas que se cargan a través de la Dropzone aparecen como Activas solo si la opción Activar prueba al enviar está activada. Si la opción no está activada, debe activar manualmente la prueba.
+>Las pruebas que se cargan a través de la Dropzone aparecen como Activas solo si la opción Activar prueba al enviar está habilitada. Si la opción no está habilitada, debe habilitar manualmente la prueba.
 
 Para obtener más información acerca de la configuración de Dropzone, consulte [Configurar la Dropzone en [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/configure-dropzone-in-wp.md).
 
@@ -65,11 +68,11 @@ Una vez que el administrador activa un borrador, la prueba se muestra como Envia
 
 Para obtener información sobre cómo ver una lista de todas las pruebas en un estado específico, como ver todas las pruebas activas o bloqueadas, consulte [Administrar elementos en la página de vistas en [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-items-on-views-page.md) en el artículo [Administrar elementos en la página de vistas en [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-items-on-views-page.md).
 
-1. Acceda a su panel [!DNL Workfront Proof].
+1. Acceda a su panel de control [!DNL Workfront Proof].
 
    Para obtener más información, consulte [Acceso [!DNL Workfront Proof] desde Adobe Workfront](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/access-wf-proof-in-workfront.md).
 
-1. En el **[!UICONTROL Panel]**, haga clic en la flecha de **[!UICONTROL Expandir]** que se encuentra junto a la prueba cuyo estado desea ver o modificar.
+1. En el **[!UICONTROL Panel de control]**, haga clic en la flecha de **[!UICONTROL Expandir]** que se encuentra junto a la prueba cuyo estado desea ver o modificar.
 
    ![Expandir](assets/screen-shot-2018-05-02-at-11.31.29-am-350x85.png)
 

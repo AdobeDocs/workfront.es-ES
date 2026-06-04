@@ -7,10 +7,15 @@ description: Configuración de la información de usuario mediante  [!DNL Workfr
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: ae8d3a96-ebf1-48ee-a7b7-50d69bffbd36
-source-git-commit: 45dcff03d71c1a19ed8de8f76fa3d63788e30b44
+TQID: https://experienceleague.adobe.com/1K7jdfa8Eccib8MbsUrrPwfL8MrhCkhA1y2ojYjVNV8
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '565'
-ht-degree: 100%
+source-wordcount: 533
+ht-degree: 96%
 
 ---
 
@@ -56,8 +61,8 @@ ht-degree: 100%
 
       * **Suscripción. Las personas pueden registrarse para obtener la prueba a través de la dirección URL pública o el código incrustado:** permite que los revisores externos a la organización se registren para obtener la prueba a través de la dirección URL pública o el código incrustado.
 
-        Cuando se selecciona esta opción, **el suscriptor debe hacer clic en un vínculo de un mensaje de correo electrónico para acceder a una prueba** que también está disponible. Seleccione esta opción para solicitar al revisor externo que haga clic en un vínculo del correo electrónico para acceder a la prueba.
-Esta opción está habilitada de manera predeterminada si se selecciona la opción **Uso compartido público**.
+        Cuando se selecciona esta opción, **el suscriptor debe hacer clic en un vínculo de un mensaje de correo electrónico para acceder a una revisión** que también está disponible. Seleccione esta opción para solicitar al revisor externo que haga clic en un vínculo del correo electrónico para acceder a la prueba.
+Esta opción está habilitada de manera predeterminada si se selecciona la opción **Compartir en público**.
 
       * **Función predeterminada para los nuevos revisores invitados:** seleccione una función de prueba predeterminada para los revisores invitados. Las opciones son las mismas que las de **Función de prueba predeterminada**, excepto Moderador y Autor.
 

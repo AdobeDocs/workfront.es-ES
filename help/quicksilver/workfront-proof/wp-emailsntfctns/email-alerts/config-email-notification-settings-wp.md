@@ -7,9 +7,14 @@ description: Las notificaciones por correo electrónico generadas desde Workfron
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: eb82c075-e275-46b7-ac2c-ed50367f53a7
-source-git-commit: ddaee5b339982c826c14b67775d81f3a2bd7bc37
+TQID: https://experienceleague.adobe.com/BGkemxbMeYw-pkWCR1NRMbuVbLZzYoB-m91cOLAwqwc
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '2065'
+source-wordcount: 2072
 ht-degree: 98%
 
 ---
@@ -96,7 +101,7 @@ Puede configurar las opciones de prueba para las pruebas que cree.
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Replies to my comments]</td> 
-      <td>Se envía un correo electrónico al revisor únicamente si una persona responde explícitamente a su comentario (esto excluye sus propias respuestas a sus propios comentarios). Esto significa que si una persona en la prueba hace un nuevo comentario, no se le notifica al revisor.<p>Se recomienda esta configuración para los clientes de la prueba, para que no se les notifique ningún otro comentario en la prueba y solo se les notifique las respuestas a sus propios comentarios.</p><p>Aunque no se notifica a los revisores con esta configuración de alerta por correo electrónico de otros comentarios nuevos, pueden seguir viendo todos los comentarios de la prueba en el visor de corrección.</p><p>Para obtener información acerca de los comentarios, consulte <a href="../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/view-proof-comments.md" class="MCXref xref">Ver y responder a los comentarios de la prueba</a>.</p></td> 
+      <td>Se envía un correo electrónico al revisor únicamente si una persona responde explícitamente a su comentario (esto excluye sus propias respuestas a sus propios comentarios). Esto significa que si una persona en la prueba hace un nuevo comentario, no se le notifica al revisor.<p>Se recomienda esta configuración para los clientes de la prueba, para que no se les notifique ningún otro comentario en la prueba y solo se les notifique las respuestas a sus propios comentarios.</p><p>Aunque no se notifica a los revisores con esta configuración de alerta por correo electrónico de otros comentarios nuevos, pueden seguir viendo todos los comentarios de la revisión en el visor de corrección.</p><p>Para obtener información acerca de los comentarios, consulte <a href="../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/view-proof-comments.md" class="MCXref xref">Ver y responder a los comentarios de la prueba</a>.</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Decisions]</td> 
@@ -116,7 +121,7 @@ Puede configurar las opciones de prueba para las pruebas que cree.
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader">[!UICONTROL No email]</td> 
-      <td>[!DNL Workfront] no envía ninguna alerta por correo electrónico.<br>Esto es útil para una persona que se agrega a una prueba solamente con fines de referencia y no necesita ser notificada de ningún cambio.<p>El valor predeterminado del sistema es [!UICONTROL Daily summary] (también se ve como [!UICONTROL Not Set]).  Si usted o los revisores no realizan ningún otro cambio, todas las pruebas tienen esta configuración.</p></td> 
+      <td>[!DNL Workfront] no envía ninguna alerta por correo electrónico.<br>Esto es útil para una persona que se agrega a una prueba solamente con fines de referencia y no necesita ser notificada de ningún cambio.<p>El valor predeterminado del sistema es [!UICONTROL Daily summary] (también se ve como [!UICONTROL Not Set]). Si usted o los revisores no realizan ningún otro cambio, todas las pruebas tienen esta configuración.</p></td> 
      </tr> 
     </tbody> 
    </table>
@@ -190,7 +195,7 @@ Si es administrador de [!DNL Workfront Proof], puede establecer valores predeter
      </tr>
      <tr>
       <td role="rowheader">[!UICONTROL Replies to my comments]</td>
-      <td>Se envía un correo electrónico al revisor únicamente si una persona responde explícitamente a su comentario (esto excluye sus propias respuestas a sus propios comentarios). Esto significa que si una persona en la prueba hace un nuevo comentario, no se le notifica al revisor.<p>Se recomienda esta configuración para los clientes de la prueba, para que no se les notifique ningún otro comentario en la prueba y solo se les notifique las respuestas a sus propios comentarios.</p><p>Aunque no se notifica a los revisores con esta configuración de alerta por correo electrónico de otros comentarios nuevos, pueden seguir viendo todos los comentarios de la prueba en el visor de corrección.</p><p>Para obtener información acerca de los comentarios, consulte <a href="../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/view-proof-comments.md" class="MCXref xref">Ver y responder a los comentarios de la prueba</a>.</p></td>
+      <td>Se envía un correo electrónico al revisor únicamente si una persona responde explícitamente a su comentario (esto excluye sus propias respuestas a sus propios comentarios). Esto significa que si una persona en la prueba hace un nuevo comentario, no se le notifica al revisor.<p>Se recomienda esta configuración para los clientes de la prueba, para que no se les notifique ningún otro comentario en la prueba y solo se les notifique las respuestas a sus propios comentarios.</p><p>Aunque no se notifica a los revisores con esta configuración de alerta por correo electrónico de otros comentarios nuevos, pueden seguir viendo todos los comentarios de la revisión en el visor de corrección.</p><p>Para obtener información acerca de los comentarios, consulte <a href="../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/view-proof-comments.md" class="MCXref xref">Ver y responder a los comentarios de la prueba</a>.</p></td>
      </tr>
      <tr>
       <td role="rowheader">[!UICONTROL Decisions]</td>
@@ -210,7 +215,7 @@ Si es administrador de [!DNL Workfront Proof], puede establecer valores predeter
      </tr>
      <tr data-mc-conditions="">
       <td role="rowheader">[!UICONTROL No email]</td>
-      <td>[!DNL Workfront] no envía ninguna alerta por correo electrónico.<br>Esto es útil para una persona que se agrega a una prueba solamente con fines de referencia y no necesita ser notificada de ningún cambio.<p>El valor predeterminado del sistema es [!UICONTROL Daily summary] (también se ve como [!UICONTROL Not Set]).  Si usted o los revisores no realizan ningún otro cambio, todas las pruebas tienen esta configuración.</p></td>
+      <td>[!DNL Workfront] no envía ninguna alerta por correo electrónico.<br>Esto es útil para una persona que se agrega a una prueba solamente con fines de referencia y no necesita ser notificada de ningún cambio.<p>El valor predeterminado del sistema es [!UICONTROL Daily summary] (también se ve como [!UICONTROL Not Set]). Si usted o los revisores no realizan ningún otro cambio, todas las pruebas tienen esta configuración.</p></td>
      </tr>
     </tbody>
    </table>

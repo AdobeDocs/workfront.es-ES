@@ -8,10 +8,16 @@ description: Para abrir una cuenta nueva, vaya a la página de suscripción de p
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 47092717-3895-40a3-9db1-0009638e2544
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+TQID: https://experienceleague.adobe.com/tbPBGXTzfjmKuYgp32iFR6NsQCNf8sHZj4IH0zUXwt4
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '869'
-ht-degree: 99%
+source-wordcount: 875
+ht-degree: 94%
 
 ---
 
@@ -23,13 +29,13 @@ ht-degree: 99%
 
 ## ¿Cómo abro una nueva cuenta de [!DNL Workfront Proof]?
 
-Para abrir una cuenta nueva, vaya a la [página de registro de prueba](https://business.adobe.com/es/products/workfront/proofing-approvals.html) y abra una cuenta de prueba. Un miembro de nuestro equipo se pondrá en contacto con usted para ayudarle a empezar con [!DNL Workfront Proof].
+Para abrir una cuenta nueva, vaya a la [página de registro de prueba](https://business.adobe.com/products/workfront/proofing-approvals.html) y abra una cuenta de prueba. Un miembro de nuestro equipo se pondrá en contacto con usted para ayudarle a empezar con [!DNL Workfront Proof].
 
 Si ya conoce el sistema y desea suscribirse a un plan de pago, vaya a *[!UICONTROL Configuración]* *>* *[!UICONTROL Facturación]* y actualice su cuenta a uno de nuestros planes de pago.
 
 ## ¿Cómo puedo añadir personas a mi cuenta?
 
-Los administradores y los administradores de facturación pueden agregar usuarios a una cuenta. Los usuarios tienen sus propios paneles que les ayudan a administrar su trabajo y pueden crear pruebas y archivos en la cuenta.
+Los administradores y los administradores de facturación pueden agregar usuarios a una cuenta. Los usuarios tienen sus propios paneles de control que les ayudan a administrar su trabajo y pueden crear pruebas y archivos en la cuenta.
 
 Eche un vistazo a [Crear usuarios con [!DNL Workfront Proof]](../../../workfront-proof/wp-mnguserscontacts/users/create-users.md) para averiguar cómo añadir usuarios a una cuenta.
 
@@ -57,11 +63,11 @@ Por ejemplo, puede crear carpetas independientes para cada cliente y, a continua
 
 Las *etiquetas* son otra forma de organizar pruebas y archivos en su cuenta. Puede aplicar varias etiquetas a las pruebas y los archivos, de modo que pueda utilizarlas para nombres de proyecto, tipos de contenido, nombres de clientes, etc. Puede buscar en la cuenta mediante etiquetas y, a continuación, realizar diferentes acciones en los resultados de la búsqueda. También puede utilizarlas en sus Vistas personalizadas. Consulte el artículo [[!UICONTROL Crear y administrar etiquetas] en [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/create-and-manage-tags.md) para obtener más información sobre las etiquetas.
 
-## ¿Cómo puedo dar un panel a mis clientes?
+## ¿Cómo puedo dar un panel de control a mis clientes?
 
 Puede configurar una cuenta de satélite para ellos. Las satélites son cuentas independientes que se administran desde la cuenta central. Puede tener varias satélites conectados a la misma cuenta central.
 
-Esta configuración le permite ofrecer a sus clientes un panel sin tener que añadirlos a su propia cuenta. Es una excelente manera de asegurar que sus clientes solo vean la información que están destinados a ver: los usuarios de cuentas satélites no ven ningún detalle de la cuenta central (o de ningún otro satélite conectado al mismo hub). Las cuentas satélite se explican con más detalle en [Cuentas satélite en [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/satellite-accounts/sat-accts-in-wp.md).
+Esta configuración le permite ofrecer a sus clientes un panel de control sin tener que añadirlos a su propia cuenta. Es una excelente manera de asegurar que sus clientes solo vean la información que están destinados a ver: los usuarios de cuentas satélites no ven ningún detalle de la cuenta central (o de ningún otro satélite conectado al mismo hub). Las cuentas satélite se explican con más detalle en [Cuentas satélite en [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/satellite-accounts/sat-accts-in-wp.md).
 
 ## ¿Puedo crear informes utilizando [!DNL Workfront Proof]?
 

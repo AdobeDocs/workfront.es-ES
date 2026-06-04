@@ -7,10 +7,13 @@ description: Puede descargar los archivos originales de las pruebas activas, blo
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: daf44b00-0c55-470e-a52b-2bb21a961699
-source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
+TQID: https://experienceleague.adobe.com/CpaeZRKMyMlBYasqoepthgAFTZQJ4gQlzfX-ou6E3k0
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '401'
-ht-degree: 0%
+source-wordcount: 402
+ht-degree: 5%
 
 ---
 
@@ -18,7 +21,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Este artículo hace referencia a la funcionalidad del producto independiente [!DNL Workfront] Proof. Para obtener información sobre la revisión dentro de [!DNL Adobe Workfront], vea [Revisión](../../../review-and-approve-work/proofing/proofing.md).
+>Este artículo hace referencia a la funcionalidad del producto independiente [!DNL Workfront] Proof. Para obtener información sobre la revisión dentro de [!DNL Adobe Workfront], consulte [Revisión](../../../review-and-approve-work/proofing/proofing.md).
 
 Puede descargar los archivos originales de las pruebas activas, bloqueadas y archivadas en el equipo local. A continuación, puede imprimirlos y abrirlos en la aplicación de software utilizada para crearlos (si tiene la aplicación ). Puede descargar archivos originales desde una sola prueba o desde varias pruebas.
 
@@ -29,7 +32,7 @@ Puede descargar los archivos originales de las pruebas activas, bloqueadas y arc
 ## Descarga de archivos desde una sola prueba
 
 1. En el diseño Lista o Lista en miniatura, haga clic en el botón **[!UICONTROL Más]** al final de la fila donde se muestra la revisión.
-1. ![Más_botón_pequeño.png](assets/more-button-small.png)
+1. ![More_button_small.png](assets/more-button-small.png)
 
 1. Si necesita más información sobre estos diseños, consulte [Diseño de página en la ficha Vistas en [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/basic-features/page-layout-view.md).
 1. Haga clic en **[!UICONTROL Descargar original]** en el menú que aparece.\

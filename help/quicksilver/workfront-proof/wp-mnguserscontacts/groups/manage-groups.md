@@ -7,10 +7,15 @@ description: Como administrador de  [!DNL Workfront Proof] , puede administrar s
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: bb4cfe03-d2c8-47f5-8c5c-de5218935ab5
-source-git-commit: ddaee5b339982c826c14b67775d81f3a2bd7bc37
+TQID: https://experienceleague.adobe.com/LIZUQVXJnYbKZtmgZ6IhMJTv6Wo2AnFh8Y1M5bo6EfY
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '587'
-ht-degree: 98%
+source-wordcount: 556
+ht-degree: 84%
 
 ---
 
@@ -25,7 +30,7 @@ Como administrador de [!DNL Workfront Proof], puede administrar sus grupos públ
 ## Abrir la página de grupos
 
 1. Haga clic en **[!UICONTROL Grupos]** en la barra lateral de navegación izquierda.
-En la página [!UICONTROL Grupos], puede hacer lo siguiente:
+En la página [!UICONTROL Grupos], puede:
 
    * Ver todos sus grupos públicos y privados.
    * Crear un nuevo grupo. Para obtener más información, consulte [Crear grupos de revisión mediante  [!DNL Workfront Proof]](../../../workfront-proof/wp-mnguserscontacts/groups/create-proofing-groups.md).
@@ -35,7 +40,7 @@ En la página [!UICONTROL Grupos], puede hacer lo siguiente:
 
       * Añadir personas a los grupos seleccionados.
 
-         ![Groups_page-add_people_btn.png](assets/groups-page-add-people-btn-30x29.png)
+        ![Groups_page-add_people_btn.png](assets/groups-page-add-people-btn-30x29.png)
 
       * Convertir los grupos seleccionados en privados o públicos, tal como se describe en [Convertir en privados los grupos mediante [!DNL Workfront Proof]](../../../workfront-proof/wp-mnguserscontacts/groups/make-groups-private.md)
       * Los grupos privados solo son visibles para sus creadores.
@@ -58,11 +63,11 @@ En la página [!UICONTROL Grupos], puede hacer lo siguiente:
 
 Puede ordenar los grupos por nombre de grupo, estado de privacidad y descripción.
 
-1. Haga clic en el encabezado de columna por el que desea ordenar.
+1. Haga clic en el encabezado de columna por el que desee ordenar.
 O
 Seleccione una opción de ordenación en el menú Ordenar.
-   ![Groups_page-Sort_menu.png](assets/groups-page-sort-menu-350x80.png)
-El triángulo en un encabezado de columna indica el orden de clasificación. Si apunta hacia arriba, indica que el orden es ascendente; si apunta hacia abajo indica que el orden es descendente.
+   ![Menú_Ordenar_páginas_grupos.png](assets/groups-page-sort-menu-350x80.png)
+El triángulo de un encabezado de columna indica el orden de clasificación. Si apunta hacia arriba, indica que el orden es ascendente; si apunta hacia abajo indica que el orden es descendente.
 
 ## Filtrado de grupos
 
@@ -89,7 +94,7 @@ En la página que aparece, puede ver todas las personas que hay actualmente en e
 
    * Haga clic en **[!UICONTROL Eliminar grupo]** en la esquina superior derecha para eliminar el grupo.\
 
-      ![Trash_button.png](assets/trash-button.png)
+     ![Trash_button.png](assets/trash-button.png)
 
    * Haga clic en la casilla de verificación situada al principio de la fila de un miembro del grupo y utilice cualquiera de las opciones que aparecen justo encima de la lista.
    * Haga clic en el icono **[!UICONTROL Más]** al final de la fila de un miembro del grupo y utilice cualquiera de las opciones del menú desplegable.

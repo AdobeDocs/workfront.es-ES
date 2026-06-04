@@ -2,15 +2,20 @@
 product-previous: workfront-proof
 product-area: documents;system-administration;user-management
 navigation-topic: users-workfront-proof
-title: Crear y administrar perfiles personalizados con  [!DNL Workfront Proof]
+title: Crear y administrar perfiles personalizados mediante [!DNL Workfront Proof]
 description: Los administradores y administradores de facturación pueden crear y administrar perfiles personalizados para especificar qué pueden hacer los usuarios en la cuenta de su organización y en Configuración de cuenta.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 26e76fb7-4a2d-4ae1-b9cb-293c074151da
-source-git-commit: 1a85f2a214036b62d13cb01f0b7a77392648a5fd
+TQID: https://experienceleague.adobe.com/O8MYCpzLUHxiOhoFs1GUiVogqziOwIBjMapChrEd5hs
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '986'
-ht-degree: 0%
+source-wordcount: 994
+ht-degree: 11%
 
 ---
 
@@ -18,7 +23,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Este artículo hace referencia a la funcionalidad del producto independiente [!DNL Workfront Proof]. Para obtener información sobre la revisión dentro de [!DNL Adobe Workfront], vea [Revisión](../../../review-and-approve-work/proofing/proofing.md).
+>Este artículo hace referencia a la funcionalidad del producto independiente [!DNL Workfront Proof]. Para obtener información sobre la revisión dentro de [!DNL Adobe Workfront], consulte [Revisión](../../../review-and-approve-work/proofing/proofing.md).
 
 Los administradores y administradores de facturación pueden crear y administrar perfiles personalizados para especificar qué pueden hacer los usuarios en la cuenta de su organización y en Configuración de cuenta.
 
@@ -41,10 +46,10 @@ Para obtener más información, consulte [Generar pruebas en [!DNL Workfront Pro
 Para obtener más información, consulte [Cargar archivos y contenido web a [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/upload-files-web-content.md).
 
 * Carpetas públicas
-Para obtener más información, consulte [Explicación de los permisos de carpeta en [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/folder-permissions.md).
+Para obtener más información, consulte [Comprender los permisos de carpeta en  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/folder-permissions.md).
 
 * Carpetas privadas
-Para obtener más información, consulte [Explicación de los permisos de carpeta en [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/folder-permissions.md).
+Para obtener más información, consulte [Comprender los permisos de carpeta en  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/folder-permissions.md).
 
 * Contactos
 Para obtener más información, consulte [Contactos](https://support.workfront.com/hc/en-us/sections/115000920808-Contacts).
@@ -53,7 +58,7 @@ Para obtener más información, consulte [Contactos](https://support.workfront.c
 Para obtener más información, consulte [Grupos](https://support.workfront.com/hc/en-us/sections/115000920828-Groups).
 
 * Etiquetas
-Para obtener más información, consulte [Crear y administrar etiquetas en [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/create-and-manage-tags.md).
+Para obtener más información, consulte [Crear y gestionar etiquetas en [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/create-and-manage-tags.md).
 
 * Vistas personalizadas
 Para obtener más información, consulte [Crear y administrar vistas personalizadas en [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/create-and-manage-custom-views.md).
@@ -79,7 +84,7 @@ Para obtener más información, consulte [Tomar una decisión sobre una prueba e
 Para obtener más información, consulte [Socios](https://support.workfront.com/hc/en-us/sections/115000912107-Partner-accounts).
 
 * Administrar aplicaciones
-Para obtener más información, consulte [Integraciones](https://support.workfront.com/hc/en-us/categories/115000588707-Integrations).
+Para obtener más información, consulte [Integraciones](https://support.workfront.com/hc/es-es/categories/115000588707-Integrations).
 
 * Administrar campos personalizados
 Para obtener más información, vea [Crear y administrar campos personalizados en [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/create-and-manage-custom-fields.md).
@@ -136,7 +141,7 @@ Para obtener más información, consulte [Perfiles de permisos de revisión en [
    Para obtener más información, consulte [Permisos administrativos](#administrative-permissions).
 
 1. Haga clic en **[!UICONTROL Crear]**.
-El nuevo perfil ya está disponible en la ficha **[!UICONTROL Usuarios]**.
+El nuevo perfil está ahora disponible en la ficha **[!UICONTROL Usuarios]**.
 
 1. (Opcional) Asigne el perfil nuevo a las cuentas de usuario nuevas y existentes.
 Para obtener más información, consulte [Perfiles de permisos de revisión en [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md).

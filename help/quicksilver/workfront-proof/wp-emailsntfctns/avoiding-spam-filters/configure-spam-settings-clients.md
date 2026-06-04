@@ -2,23 +2,28 @@
 product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: avoiding-spam-filters
-title: Configuración de correo no deseado para clientes de correo electrónico comunes
+title: Configuración de spam para clientes de correo electrónico habituales
 description: Puede configurar su cliente de correo electrónico para asegurarse de que  [!DNL Workfront Proof] correos electrónicos no se envíen a la carpeta de correo no deseado.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 41517540-c5a8-4bf5-997b-e7a605337e73
-source-git-commit: c989687e9adaf12a31a920921bf8fb69425ca1c5
+TQID: https://experienceleague.adobe.com/RllFMQS1iV3kuBc1IaSutqyd9HkWr-7P9NYC-jxlq7k
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1480'
-ht-degree: 0%
+source-wordcount: 1499
+ht-degree: 2%
 
 ---
 
-# Configuración de correo no deseado para clientes de correo electrónico comunes
+# Configuración de spam para clientes de correo electrónico habituales
 
 >[!IMPORTANT]
 >
->Este artículo hace referencia a la funcionalidad del producto independiente [!DNL Workfront Proof]. Para obtener información sobre la revisión dentro de [!DNL Adobe Workfront], vea [Revisión](../../../review-and-approve-work/proofing/proofing.md).
+>Este artículo hace referencia a la funcionalidad del producto independiente [!DNL Workfront Proof]. Para obtener información sobre la revisión dentro de [!DNL Adobe Workfront], consulte [Revisión](../../../review-and-approve-work/proofing/proofing.md).
 
 Puede configurar su cliente de correo electrónico para asegurarse de que [!DNL Workfront Proof] correos electrónicos no se envíen a la carpeta de correo no deseado.
 
@@ -95,7 +100,7 @@ Para agregar las dos direcciones &quot;[!UICONTROL from]&quot; de [!DNL Workfron
 1. Haga clic en **[!UICONTROL Agregar]** en la ficha **[!UICONTROL Remitentes seguros]**.
 
 1. Copie y pegue la primera dirección &quot;[!UICONTROL from]&quot; o solo el nombre de dominio (el resto del nombre después del signo @) en el cuadro **[!UICONTROL Agregar dirección o dominio]**.
-1. Haga clic en **[!UICONTROL Aceptar]**. La dirección se agrega a la lista.
+1. Haga clic en **[!UICONTROL OK]**. La dirección se agrega a la lista.
 1. Para la segunda dirección &quot;[!UICONTROL from]&quot;, repita los pasos del 3 al 5.
 
 ### Para [!DNL Workfront Proof] correos electrónicos existentes

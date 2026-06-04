@@ -7,9 +7,13 @@ description: Puede configurar una prueba que esté creando o editando en pruebas
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: ca379054-4737-4796-a812-f2ec38b437ba
-source-git-commit: 5635906462cf838c3ca162cb47b16f157e6a66f6
+TQID: https://experienceleague.adobe.com/TmIsFRFe5aBI4M9Qv430PwZSpNNPvqojV-S4OVG0ZyI
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1055'
+source-wordcount: 1055
 ht-degree: 94%
 
 ---
@@ -38,7 +42,7 @@ Puede establecer que un estado de revisión se bloquee cuando el aprobador final
    O\
    Para una prueba existente, en **[!UICONTROL Configuración]**, seleccione **[!UICONTROL Bloquear la prueba cuando se tomen todas las decisiones]**.
 
-Para obtener información acerca de las decisiones, consulte [Tomar una decisión sobre una prueba en el visor de pruebas](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decisions-on-proof.md).
+Para obtener información acerca de las decisiones, consulte [Tomar una decisión sobre una revisión en el visor de revisiones](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decisions-on-proof.md).
 
 ## Requerir inicio de sesión para todos los usuarios que revisan la prueba
 
@@ -75,7 +79,7 @@ Incluso si asigna la función de aprobador o revisor y aprobador a varias person
    O\
    Para una prueba existente, en **[!UICONTROL Configuración]**, seleccione **[!UICONTROL Solo se requiere una decisión]**.
 
-Para obtener información acerca de las decisiones, consulte [Tomar una decisión sobre una prueba en el visor de pruebas](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decisions-on-proof.md#making-a-decision-on-a-proof).
+Para obtener información acerca de las decisiones, consulte [Tomar una decisión sobre una revisión en el visor de revisiones](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decisions-on-proof.md#making-a-decision-on-a-proof).
 
 ## Requerir que las decisiones se firmen electrónicamente
 

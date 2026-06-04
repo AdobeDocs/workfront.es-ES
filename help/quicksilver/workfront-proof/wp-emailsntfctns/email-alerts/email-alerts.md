@@ -9,10 +9,15 @@ author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: eacd6ff8-49f3-46d5-89e0-1bb44554cce7
-source-git-commit: ae80999fc7ea7e35097560aa99baa435bcd31b74
+TQID: https://experienceleague.adobe.com/NtMEBtkB-QBDFeD9MQAmTcII2rWBtKSW4-szUYtuS-w
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '48'
-ht-degree: 0%
+source-wordcount: 48
+ht-degree: 81%
 
 ---
 
@@ -20,9 +25,9 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Este artículo hace referencia a la funcionalidad del producto independiente [!DNL Workfront Proof]. Para obtener información sobre la revisión dentro de [!DNL Adobe Workfront], vea [Revisión](../../../review-and-approve-work/proofing/proofing.md).
+>Este artículo hace referencia a la funcionalidad del producto independiente [!DNL Workfront Proof]. Para obtener información sobre la revisión dentro de [!DNL Adobe Workfront], consulte [Revisión](../../../review-and-approve-work/proofing/proofing.md).
 
 Esta sección contiene los siguientes artículos:
 
-* [Configurar las notificaciones por correo electrónico en  [!DNL Workfront Proof]](../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md)
-* [Cambiar la configuración de alertas de correo electrónico para una revisión en  [!DNL Workfront Proof]](../../../workfront-proof/wp-emailsntfctns/email-alerts/change-email-alert-settings-wp.md)
+* [Configurar las opciones de notificación por correo electrónico en  [!DNL Workfront Proof]](../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md)
+* [Cambiar la configuración de alertas por correo electrónico para una revisión en [!DNL Workfront Proof]](../../../workfront-proof/wp-emailsntfctns/email-alerts/change-email-alert-settings-wp.md)

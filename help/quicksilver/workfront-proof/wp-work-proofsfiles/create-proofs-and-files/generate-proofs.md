@@ -7,10 +7,14 @@ description: Workfront Proof le permite crear pruebas a partir de documentos o s
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 49657851-2948-4d3b-b2ce-c8359eeb315b
-source-git-commit: de23513976d7bc4fe34cbf7b007a41c3b9797347
+TQID: https://experienceleague.adobe.com/iBlyGnTO5o6I5gtqDsguJIijR--fvcdo1lWspoqHouk
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1889'
-ht-degree: 53%
+source-wordcount: 1895
+ht-degree: 54%
 
 ---
 
@@ -181,7 +185,7 @@ Puede generar una prueba estática mediante la dirección URL de un sitio web.
      </tr> 
      <tr> 
       <td role="rowheader">Interactiva</td> 
-      <td> <p>Crea una prueba que permite a los revisores navegar por el sitio, ver imágenes de HTML5, elementos de Flash, etc.</p> <p>Para crear una prueba interactiva, el sitio web debe alojarse con un protocolo seguro (https). Además, los sitios web que no se pueden incrustar en un iframe no se pueden generar como una prueba interactiva (las restricciones de incrustación de iframes las controla el sitio web que intenta incrustar).</p> <p>Una vez creada la prueba inicial, esta configuración no se puede cambiar al crear versiones posteriores.</p> <p>Para obtener más información acerca de las pruebas interactivas, consulte <a href="#generate-a-proof-for-interactive-content" class="MCXref xref">Generar una prueba para contenido interactivo</a>.</p> </td> 
+      <td> <p>Crea una prueba que permite a los revisores navegar por el sitio, ver imágenes de HTML5, elementos de Flash, etc.</p> <p>Para crear una prueba interactiva, el sitio web debe alojarse con un protocolo seguro (https). Además, los sitios web que no se pueden incrustar en un iframe no se pueden generar como una prueba interactiva (las restricciones de incrustación de iframes las controla el sitio web que intenta incrustar).</p> <p>Una vez creada la prueba inicial, esta configuración no se puede cambiar al crear versiones posteriores.</p> <p>Para obtener más información acerca de las revisiones interactivas, consulte <a href="#generate-a-proof-for-interactive-content" class="MCXref xref">Generar una revisión para contenido interactivo</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Resolución de captura de pantalla</td> 
@@ -194,7 +198,7 @@ Puede generar una prueba estática mediante la dirección URL de un sitio web.
     </tbody> 
    </table>
 
-1. (Opcional) Configure cualquier opción de prueba avanzada, como compartir la prueba, añadir un flujo de trabajo automatizado o configurar el acceso y la suscripción. Para obtener más información sobre estas opciones, consulte los siguientes artículos:
+1. (Opcional) Configure cualquier opción de revisión avanzada, como compartir la revisión, añadir un flujo de trabajo automatizado o configurar el acceso y la suscripción. Para obtener más información sobre estas opciones, consulte los siguientes artículos:
 
    * [Compartir una prueba en  [!DNL Adobe Workfront]](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md)
    * [Configurar una prueba con un flujo de trabajo automatizado en  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/automated-workflow/set-up-proof-auto-workflow.md)
@@ -230,7 +234,7 @@ Para obtener información sobre cómo agregar una revisión de URL interactiva, 
 
 1. En la página **[!UICONTROL Nueva prueba]**, arrastre y suelte el paquete .zip interactivo en el área **[!UICONTROL Agregar archivos]**.
 
-1. (Opcional) Configure cualquier opción de prueba avanzada, como compartir la prueba, añadir un flujo de trabajo automatizado o configurar el acceso y la suscripción. Para obtener más información sobre estas opciones, consulte los siguientes artículos:
+1. (Opcional) Configure cualquier opción de revisión avanzada, como compartir la revisión, añadir un flujo de trabajo automatizado o configurar el acceso y la suscripción. Para obtener más información sobre estas opciones, consulte los siguientes artículos:
 
    * [Compartir una prueba en  [!DNL Adobe Workfront]](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md)
    * [Configuración de acceso y suscripción para una prueba](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/configure-access-subscription-settings-proof.md)

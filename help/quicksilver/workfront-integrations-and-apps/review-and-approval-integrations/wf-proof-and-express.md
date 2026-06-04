@@ -2,16 +2,22 @@
 content-type: reference
 product-area: workfront-integrations
 navigation-topic: workfront-integrations-navigation-topic
-title: Introducción a las pruebas y Creative Cloud Express
-description: Introducción a las pruebas y Creative Cloud Express
+title: Introducción a las revisión y Creative Cloud Express
+description: Introducción a las revisión y Creative Cloud Express
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 2eef36a6-8c61-4e7e-9760-23114f942250
-source-git-commit: 53aca72d33236e8680a8fd1c538f86ce14ac05a8
+TQID: https://experienceleague.adobe.com/BCihPeFt421LF8Fa0-XRsAmxSMv-T7kqGEZQ3XeZ-EQ
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: e4bd5f48-22a4-465d-a046-5ffb52e27856id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '494'
-ht-degree: 5%
+source-wordcount: 520
+ht-degree: 11%
 
 ---
 
@@ -83,7 +89,7 @@ Cuando se remezcla una plantilla Express, se requiere una aprobación antes de l
 
 Los usuarios deben tener una licencia de Workfront estándar para solicitar la aprobación de Adobe Express.
 
-Aprenda a [obtener aprobación de diseños](https://helpx.adobe.com/es/express/web/share-and-publish/share-and-collaborate/request-approval.html).
+Aprenda a [obtener aprobación de diseños](https://helpx.adobe.com/express/web/share-and-publish/share-and-collaborate/request-approval.html).
 
 
 ## Combinar plantillas rápidas y enviar para su revisión y aprobación
@@ -99,11 +105,11 @@ A lo largo del proceso de producción, revisión y aprobación de contenido, los
 
 ### Elegir un proyecto de Workfront al solicitar aprobación
 
-Al solicitar la aprobación de una plantilla Express remezclada, los usuarios pueden elegir un proyecto de Workfront al que enviar la prueba. Esto ayuda a mantener todos los recursos y pruebas relacionados organizados dentro del mismo proyecto.
+Al solicitar la aprobación de una plantilla Express remezclada, los usuarios pueden elegir un proyecto de Workfront al que enviar la prueba. Esto mantiene todos los recursos y pruebas relevantes organizados dentro del mismo proyecto.
 
 Si no se selecciona ningún proyecto, la prueba se convertirá de forma predeterminada en un proyecto específico de Express.
 
-Para obtener más información, consulte [Enviar plantillas para su revisión y aprobación](https://helpx.adobe.com/es/express/web/invite-collaborate/request-approval.html).
+Para obtener más información, consulte [Enviar plantillas para su revisión y aprobación](https://helpx.adobe.com/express/web/invite-collaborate/request-approval.html).
 
 ## Revisar y aprobar el archivo Express remezclado
 
