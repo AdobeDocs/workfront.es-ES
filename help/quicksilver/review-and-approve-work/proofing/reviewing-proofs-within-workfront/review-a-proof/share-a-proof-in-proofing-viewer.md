@@ -1,21 +1,33 @@
 ---
 product-area: documents
 navigation-topic: review-proofs-within-workfront
-title: Compartir una prueba desde el visor de corrección
-description: Puede compartir una prueba desde el visor de corrección si el propietario o el creador de la prueba habilita el uso compartido.
+title: Compartir una revisión desde el visor de corrección
+description: Puede compartir una revisión desde el visor de corrección si el propietario o el creador de la revisión habilita el uso compartido.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 20bd2d94-1401-4a38-9042-335d0cb32a3d
-source-git-commit: 385f4a6663cacfdcf519bf5699fc1840c2cb2adc
+TQID: https://experienceleague.adobe.com/-EUf54B-yS68PPW4BmPmQWN4aIi7KgyU2567zbrD3ag
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1441'
+source-wordcount: 1446
 ht-degree: 98%
 
 ---
 
-# Compartir una prueba desde el visor de corrección
+# Compartir una revisión desde el visor de corrección
 
-Puede compartir una prueba desde el visor de corrección si el propietario o el creador de la prueba habilita el uso compartido.
+Puede compartir una revisión desde el visor de corrección si el propietario o el creador de la revisión habilita el uso compartido.
 
 >[!IMPORTANT]
 >
@@ -30,7 +42,7 @@ Puede compartir una prueba desde el visor de corrección si el propietario o el 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td role="rowheader">Paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
@@ -70,7 +82,7 @@ Puede compartir una prueba a través de una URL si el propietario ha configurado
 
 1. En las opciones de **Compartir prueba** que aparecen, asegúrese de que **Obtener vínculo para compartir** esté seleccionado.
 
-1. Realice una de las siguientes acciones:
+1.  Realice una de las siguientes acciones:
 
    * Para copiar el vínculo en el portapapeles, haga clic en **Copiar vínculo**.
 
@@ -92,7 +104,7 @@ Puede compartir una prueba a través de una URL si el propietario ha configurado
           <tbody>
            <tr>
             <td role="rowheader">Enviar vínculo público</td>
-            <td><p>Incluye un botón en la notificación por correo electrónico que dirige a los usuarios a la prueba dentro del visor de corrección que están utilizando y concede acceso de visualización.</p><p>Si la opción <strong>Suscribirse a la prueba mediante una dirección URL pública o código incrustado</strong> está desactivada para la prueba, los usuarios podrán iniciar sesión con sus credenciales de inicio de sesión de Workfront para añadir comentarios a ella. Si está activada, cualquier persona que facilite su dirección de correo electrónico y nombre (no se necesita contraseña) puede firmar y añadir comentarios a la prueba.</p></td>
+            <td><p>Incluye un botón en la notificación por correo electrónico que dirige a los usuarios a la revisión dentro del visor de corrección que están utilizando y concede acceso de visualización.</p><p>Si la opción <strong>Suscribirse a la prueba mediante una dirección URL pública o código incrustado</strong> está desactivada para la prueba, los usuarios podrán iniciar sesión con sus credenciales de inicio de sesión de Workfront para añadir comentarios a ella. Si está activada, cualquier persona que facilite su dirección de correo electrónico y nombre (no se necesita contraseña) puede firmar y añadir comentarios a la prueba.</p></td>
            </tr>
            <tr>
             <td role="rowheader">Enviar vínculo de descarga</td>
@@ -167,7 +179,7 @@ Para compartir una prueba con usuarios individuales:
        </tr> 
        <tr> 
         <td role="rowheader">Respuestas a mis comentarios</td> 
-        <td>Se envía un correo electrónico al revisor únicamente si una persona responde explícitamente a su comentario (esto excluye sus propias respuestas a sus propios comentarios). Esto significa que si una persona en la prueba hace un nuevo comentario, no se le notifica al revisor.<p>Se recomienda esta configuración para los clientes de la prueba, para que no se les notifique ningún otro comentario en la prueba y solo se les notifique las respuestas a sus propios comentarios.</p><p>Aunque no se notifica a los revisores con esta configuración de alerta por correo electrónico de otros comentarios nuevos, pueden seguir viendo todos los comentarios de la prueba en el visor de corrección.</p><p>Para obtener información acerca de los comentarios, consulte <a href="../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/view-proof-comments.md" class="MCXref xref">Ver y responder a los comentarios de revisión</a>.</p></td> 
+        <td>Se envía un correo electrónico al revisor únicamente si una persona responde explícitamente a su comentario (esto excluye sus propias respuestas a sus propios comentarios). Esto significa que si una persona en la prueba hace un nuevo comentario, no se le notifica al revisor.<p>Se recomienda esta configuración para los clientes de la prueba, para que no se les notifique ningún otro comentario en la prueba y solo se les notifique las respuestas a sus propios comentarios.</p><p>Aunque no se notifica a los revisores con esta configuración de alerta por correo electrónico de otros comentarios nuevos, pueden seguir viendo todos los comentarios de la revisión en el visor de corrección.</p><p>Para obtener información acerca de los comentarios, consulte <a href="../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/view-proof-comments.md" class="MCXref xref">Ver y responder a los comentarios de revisión</a>.</p></td> 
        </tr> 
        <tr> 
         <td role="rowheader">Decisiones</td> 

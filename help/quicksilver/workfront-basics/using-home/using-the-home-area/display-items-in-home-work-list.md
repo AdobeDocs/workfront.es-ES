@@ -6,9 +6,23 @@ description: Cada widget contiene su propia lista de trabajos. Las listas de tra
 author: Courtney
 feature: Get Started with Workfront, Work Management
 exl-id: eac2e065-9e32-43c1-90ff-0f841b508c35
-source-git-commit: 41f58261d4f2e6075187886b371a23eb5e97d823
+TQID: https://experienceleague.adobe.com/fITdY6-HlQ-4527-RiI9m52-Kg3nRUxsk32vjpw-A-g
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '994'
+source-wordcount: 990
 ht-degree: 7%
 
 ---
@@ -117,7 +131,7 @@ Para filtrar su trabajo:
 
 1. Haga clic en el icono **Filtro** ![Icono de filtro](assets/filter-nwepng.png) en la esquina superior derecha de la lista de trabajo del widget.
 1. Elija un filtro **Sugerido** o un filtro que haya creado.
-Para obtener información detallada sobre los filtros sugeridos, consulte [Resumen de los filtros de los widgets de inicio](/help/quicksilver/workfront-basics/using-home/using-the-home-area/widget-filter-overview-home.md).
+Para obtener información detallada sobre los filtros sugeridos, consulte [Resumen de los filtros del widget de inicio](/help/quicksilver/workfront-basics/using-home/using-the-home-area/widget-filter-overview-home.md).
 1. (Opcional) Active **Apilar filtros** para seleccionar varias opciones de filtro.
 
    ![Mi filtro de tareas abierto](assets/my-task-filter-open.png)

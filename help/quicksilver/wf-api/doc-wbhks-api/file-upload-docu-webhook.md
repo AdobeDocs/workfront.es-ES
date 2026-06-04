@@ -8,13 +8,20 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 2c5727ee-bf8f-4664-a9b1-c5da356d94f5
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+TQID: https://experienceleague.adobe.com/qLRbcWkbOxvBp5Xw1aCLjGZXHMtu2k70NgOonZsZ0lk
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '264'
+source-wordcount: 266
 ht-degree: 100%
 
 ---
-
 
 # Carga de archivos mediante webhooks de documentos
 
@@ -37,7 +44,7 @@ POST /uploadInit
  <col> 
  <thead> 
   <tr> 
-   <th>Nombre</th> 
+   <th>Nombre </th> 
    <th>Descripción</th> 
   </tr> 
  </thead> 
@@ -47,7 +54,7 @@ POST /uploadInit
    <td>ID de la carpeta principal, según la referencia del proveedor de webhooks.</td> 
   </tr> 
   <tr> 
-   <td>filename</td> 
+   <td>filename </td> 
    <td>El nombre del documento</td> 
   </tr> 
   <tr> 
@@ -75,15 +82,15 @@ https://www.acme.com/api/uploadInit?parentId=12345&filename=new-file.png&documen
 
 Carga los bytes de un documento en el proveedor de webhooks.
 
- **URL**
+**URL**
 
 PUT /upload
 
 ## Parámetros de consulta
 
-| Nombre | Descripción |
+| Nombre  | Descripción |
 |---|---|
-| id | El identificador documento, que se acaba de crear. |
+| id  |  El identificador documento, que se acaba de crear. |
 
 
 **Cuerpo de solicitud**

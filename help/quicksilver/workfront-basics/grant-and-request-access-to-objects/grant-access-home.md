@@ -6,10 +6,21 @@ description: Los usuarios pueden solicitar acceso a los objetos dentro de Adobe 
 author: Courtney
 feature: Get Started with Workfront
 exl-id: e0a69ed5-57c3-47ac-bb7a-65495f93b3e3
-source-git-commit: 883ec4eaa2258de2e464acf14b6b4083db05b99a
+TQID: https://experienceleague.adobe.com/XBAiNe19HTNr8Zq0QUGg3S3CQhrlCa0hDPQ2hIYoK9U
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '479'
-ht-degree: 60%
+source-wordcount: 486
+ht-degree: 62%
 
 ---
 
@@ -17,7 +28,7 @@ ht-degree: 60%
 
 <!--Audited: 10/2024-->
 
-Los usuarios pueden solicitar acceso a objetos dentro de Adobe Workfront.
+Los usuarios pueden solicitar acceso a los objetos dentro de Adobe Workfront.
 
 Para obtener más información acerca de cómo solicitar acceso, vea [Solicitar acceso a objetos](../../workfront-basics/grant-and-request-access-to-objects/request-access.md).
 
@@ -32,7 +43,7 @@ Si es el propietario de un objeto, puede conceder o denegar el acceso a los elem
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td role="rowheader">Paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera </p> </td> 
   </tr> 
   <tr> 
@@ -88,7 +99,7 @@ Puede configurar si desea recibir notificaciones por correo electrónico para la
 1. Para ir al perfil de usuario, siga uno de estos procedimientos:
 
    * Haga clic en el **menú principal** ![](assets/dots-main-menu.png) en la esquina superior derecha de la pantalla y, a continuación, haga clic en su nombre.
-   * Haga clic en el **icono de perfil** del ![menú principal](assets/adobe-blue-main-menu.png) de Adobe en la esquina superior derecha, si está disponible, y luego haga clic en **Perfil de Workfront**.
+   * Haga clic en el **icono de perfil![&#128279;](assets/adobe-blue-main-menu.png) del menú principal** de Adobe en la esquina superior derecha, si está disponible, y luego haga clic en **Perfil de Workfront**.
 
 1. Haga clic en el icono **Más** del menú ![más](assets/more-icon.png) a la derecha de su nombre en el encabezado y, a continuación, haga clic en **Editar**.
 1. Haga clic en **Notificaciones** y seleccione o anule la selección de **Alguien me solicita acceso** en la sección **Acción necesaria**, dependiendo de si desea recibir notificaciones por correo electrónico cuando otro usuario solicite o no acceso.

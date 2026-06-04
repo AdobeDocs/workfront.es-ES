@@ -2,15 +2,22 @@
 content-type: api
 navigation-topic: api-navigation-topic
 title: Novedades de la versión 9 de la API
-description: Esta es una lista de recursos que son nuevos en la versión 9 de la API. Para ver una lista de las actualizaciones que se han realizado sobre los recursos de la versión 9, visite Actualizaciones de la versión 9 de la API
+description: Esta es una lista de recursos que son nuevos en la versión 9 de la API. Para ver una lista de las actualizaciones que se han realizado en los recursos de la versión 9, visite Actualizaciones de la versión 9 de la API
 author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 29d922f4-f4c6-45e5-b9fa-43e2068ec66d
-source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
+TQID: https://experienceleague.adobe.com/bhSRoKwkhcVC0E-d-fiNzoWaefME6ta2176gnF-Ts1M
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '179'
-ht-degree: 19%
+source-wordcount: 179
+ht-degree: 100%
 
 ---
 
@@ -93,7 +100,7 @@ Esta es una lista de recursos que son nuevos en la versión 9 de la API. Para ve
 
 {style="table-layout:auto"}
 
-### SecciónCalendario
+### CalendarSection
 
 | Campos | Referencias | Colecciones | Buscar | Acciones | Consultas | Operaciones |
 |---|---|---|---|---|---|---|

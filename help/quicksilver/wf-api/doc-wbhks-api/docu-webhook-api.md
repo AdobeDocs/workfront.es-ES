@@ -8,13 +8,25 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 7ac2c6c8-1cb8-49df-8d63-a6b47ad02a13
-source-git-commit: 48de4553478fc42d88d81ea953440337f6684e50
+TQID: https://experienceleague.adobe.com/NK0eGTvWNVbv2KsNm1eBbSqAPmN6O4RdNTN1hY-cIVI
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: b58ad82f-df6b-4b01-81a3-3a02ab9567a0
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2:
+  - id: d6f15301-a604-47ff-897b-83a19659dedf
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '3649'
+source-wordcount: 3699
 ht-degree: 74%
 
 ---
-
 
 # API de webhooks de documentos
 
@@ -62,7 +74,7 @@ Al añadir una integración, el administrador introduce valores para los campos 
   </tr> 
   <tr> 
    <td>Parámetros de solicitud</td> 
-   <td> <p>Valores opciones que se agregarán a querystring en cada llamada API. Por ejemplo: access_type</p> </td> 
+   <td> <p>Valores opcionales que se anexan a la cadena de consulta de cada llamada API. Por ejemplo, access_type=offline.</p> </td> 
   </tr> 
   <tr> 
    <td>Tipo de autenticación</td> 
@@ -77,7 +89,7 @@ Al añadir una integración, el administrador introduce valores para los campos 
    <td> <p>(Solo para OAuth2) URL de API completa que sirve para recuperar tókenes de OAuth2. Esto lo aloja el proveedor de ganchos web o el proveedor de documentos externo.</p> </td> 
   </tr> 
   <tr> 
-   <td>Id. de cliente</td> 
+   <td>ID de cliente</td> 
    <td>(Solo OAuth2) El ID de cliente de OAuth2 para esta integración.</td> 
   </tr> 
   <tr> 
@@ -146,7 +158,7 @@ Por ejemplo, esto se puede utilizar para la autenticación básica. Para ello, l
 
    Authorization Basic QWxhZGRpbjpvcGVuIHNlc2FtZQ==
 
-en que QWxhZGRpbjpvcGVuIHNlc2FtZQ== es una cadena codificada en base 64 de “username:password”. Consulte Autenticación básica. Siempre que se agregue, Workfront pasará esto en el encabezado de solicitud HTTP además de otros encabezados de solicitud:
+donde QWxhZGRpbjpvcGVuIHNlc2FtZQ== es una cadena codificada en base 64 de &quot;username:password&quot;. Consulte Autenticación básica. Siempre que se agregue, Workfront pasará esto en el encabezado de solicitud HTTP además de otros encabezados de solicitud:
 
 ```
 ­­­­­­­­­­­­­­­­­­­­­­­­­­-------------------------------
@@ -225,7 +237,7 @@ La dirección URL es configurable y corresponde al valor URL del punto final de 
  <thead> 
   <tr> 
    <th>Nombre</th> 
-   <th>Tipo</th> 
+   <th>Tipo </th> 
    <th>Descripción</th> 
   </tr> 
  </thead> 
@@ -286,7 +298,7 @@ GET /metadata?id=[ID de documento o carpeta]
  <col> 
  <thead> 
   <tr> 
-   <th>Nombre</th> 
+   <th>Nombre </th> 
    <th>Descripción</th> 
   </tr> 
  </thead> 
@@ -308,45 +320,45 @@ GET /metadata?id=[ID de documento o carpeta]
  <col> 
  <thead> 
   <tr> 
-   <th>Nombre</th> 
-   <th>Tipo</th> 
+   <th>Nombre </th> 
+   <th>Tipo </th> 
    <th>Descripción</th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
    <td>title </td> 
-   <td>Cadena</td> 
+   <td>Cadena </td> 
    <td>Nombre del documento o carpeta.</td> 
   </tr> 
   <tr> 
    <td>kind </td> 
-   <td>Cadena</td> 
+   <td>Cadena </td> 
    <td>Especifica si este elemento es un archivo o una carpeta ("archivo" o "carpeta").</td> 
   </tr> 
   <tr> 
    <td>id</td> 
-   <td>Cadena</td> 
+   <td>Cadena </td> 
    <td>El ID del archivo o carpeta.</td> 
   </tr> 
   <tr> 
    <td>viewLink</td> 
-   <td>Cadena</td> 
+   <td>Cadena </td> 
    <td> <p>La ruta URL utilizada por un usuario para ver el documento en una ventana del explorador. La URL puede alojarla el proveedor de documentos o el proveedor de almacenamiento externo nativo.</p> </td> 
   </tr> 
   <tr> 
    <td>downloadLink</td> 
-   <td>Cadena</td> 
+   <td>Cadena </td> 
    <td> <p>La ruta de URL utilizada por un usuario para descargar el documento en una ventana del explorador. La URL puede alojarla el proveedor de documentos o el proveedor de almacenamiento externo nativo.</p> </td> 
   </tr> 
   <tr> 
    <td>mimeType</td> 
-   <td>Cadena</td> 
+   <td>Cadena </td> 
    <td>(Opcional) Tipo MIME del archivo.</td> 
   </tr> 
   <tr> 
    <td>dateModified</td> 
-   <td>Cadena</td> 
+   <td>Cadena </td> 
    <td>Última vez que se modificó este archivo (marca de tiempo RFC 3339 con formato).</td> 
   </tr> 
   <tr> 
@@ -362,7 +374,7 @@ GET /metadata?id=[ID de documento o carpeta]
  </tbody> 
 </table>
 
-**Ejemplo**`https://www.acme.com/api/metadata?id=12345`
+**Ejemplo:** `https://www.acme.com/api/metadata?id=12345`
 
 **Respuesta**
 
@@ -393,7 +405,7 @@ GET /files
 
 **Parámetros de consulta**
 
-| Nombre | Descripción |
+| Nombre  | Descripción |
 |---|---|
 | parentId  | El ID de la carpeta. Para obtener los metadatos del directorio raíz, utilice el valor &quot;/&quot;. |
 
@@ -449,7 +461,7 @@ GET /search
  <col> 
  <thead> 
   <tr> 
-   <th>Nombre</th> 
+   <th>Nombre </th> 
    <th>Descripción</th> 
   </tr> 
  </thead> 
@@ -499,14 +511,14 @@ GET /download
  <col> 
  <thead> 
   <tr> 
-   <th>Nombre</th> 
+   <th>Nombre </th> 
    <th>Descripción</th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
    <td> <p>id</p> </td> 
-   <td>El identificador del documento.</td> 
+   <td> El identificador del documento.</td> 
   </tr> 
  </tbody> 
 </table>
@@ -529,10 +541,10 @@ GET /thumbnail
 
 **Parámetros de consulta**
 
-| Nombre | Descripción |
+| Nombre  | Descripción |
 |---|---|
-| id | El identificador del documento. |
-| size | Ancho de la miniatura. |
+| id  | El identificador del documento. |
+| size  | La anchura de la miniatura. |
 
 {style="table-layout:auto"}
 
@@ -561,7 +573,7 @@ POST /uploadInit
  <col> 
  <thead> 
   <tr> 
-   <th>Nombre</th> 
+   <th>Nombre </th> 
    <th>Descripción</th> 
   </tr> 
  </thead> 
@@ -571,7 +583,7 @@ POST /uploadInit
    <td>ID de la carpeta principal, según la referencia del proveedor de webhooks.</td> 
   </tr> 
   <tr> 
-   <td>filename</td> 
+   <td>filename </td> 
    <td>Nombre del documento.</td> 
   </tr> 
   <tr> 
@@ -601,15 +613,15 @@ Los metadatos del archivo, tal como se definen en el punto final /metadata.
 
 Carga los bytes de un documento en el proveedor de webhooks.
 
- **URL**
+**URL**
 
 PUT /upload
 
 **Parámetros de consulta**
 
-| Nombre | Descripción |
+| Nombre  | Descripción |
 |---|---|
-| id | El identificador documento, que se acaba de crear. |
+| id  |  El identificador documento, que se acaba de crear. |
 
 
  
@@ -667,29 +679,29 @@ JSON que contiene información sobre este servicio.
  <thead> 
   <tr> 
    <th>Nombre</th> 
-   <th>Tipo</th> 
+   <th>Tipo </th> 
    <th>Descripción</th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
    <td>webhookVersion </td> 
-   <td>Cadena</td> 
+   <td>Cadena </td> 
    <td>La versión del webhook implementada por este servicio. Es el número de versión que aparece en la parte superior de esta especificación.</td> 
   </tr> 
   <tr> 
-   <td>version</td> 
-   <td>Cadena</td> 
+   <td>version </td> 
+   <td>Cadena </td> 
    <td>Número de versión interno de este servicio. Este número está determinado por el proveedor de servicios de webhook y solo se utiliza con fines informativos.<br><br></td> 
   </tr> 
   <tr> 
-   <td>publisher</td> 
-   <td>Cadena</td> 
+   <td>publisher </td> 
+   <td>Cadena </td> 
    <td>El nombre de la compañía que proporciona la implementación del webhook.</td> 
   </tr> 
   <tr> 
    <td>availableEndpoints</td> 
-   <td>Cadena</td> 
+   <td>Cadena </td> 
    <td>Lista que contiene los puntos finales de la API implementados por este servicio. Se puede utilizar para garantizar que la interfaz de usuario de Workfront refleje las funciones que ofrece el proveedor del webhook. Cada elemento de la lista debe incluir el nombre del punto final (como "búsqueda").</td> 
   </tr> 
   <tr> 
@@ -724,10 +736,10 @@ POST /createFolder
 
 **Parámetros de consulta**
 
-| Nombre | Descripción |
+| Nombre  | Descripción |
 |---|---|
 | parentId  | ID de la carpeta en la que se debe crear la carpeta. |
-| name | Nombre de la nueva carpeta. |
+| name  | Nombre de la nueva carpeta. |
 
 {style="table-layout:auto"}
 
@@ -772,7 +784,7 @@ PUT /delete
 
 **Parámetros de consulta**
 
-| Nombre | Descripción |
+| Nombre  | Descripción |
 |---|---|
 | documentId  | Identificador de documento que se va a eliminar. |
 | folderId  | Identificador de carpeta que se va a eliminar. |
@@ -810,10 +822,10 @@ PUT /rename
 
 **Parámetros de consulta**
 
-| Nombre | Descripción |
+| Nombre  | Descripción |
 |---|---|
 | id | Identificador de documento o carpeta cuyo nombre se va a cambiar. |
-| name | El nuevo nombre del documento o la carpeta. |
+| name  | El nuevo nombre del documento o la carpeta. |
 
 {style="table-layout:auto"}
 
@@ -867,7 +879,7 @@ GET /customAction
  <col>
  <thead>
   <tr>
-   <th>Nombre</th>
+   <th>Nombre </th>
    <th>Descripción</th>
   </tr>
  </thead>

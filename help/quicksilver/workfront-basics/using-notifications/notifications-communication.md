@@ -6,9 +6,16 @@ description: Las siguientes notificaciones le avisan sobre la comunicación, com
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 473e1760-f85a-4622-beff-9431046d655e
-source-git-commit: 64b8a835a57be8995c82a0ab15c40f46170c7067
+TQID: https://experienceleague.adobe.com/u5d9-5-2VWQLfRUKea2ca86vgMbFcVkZkbGqiaA-keA
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1530'
+source-wordcount: 1492
 ht-degree: 100%
 
 ---
@@ -38,7 +45,7 @@ Consulte también [Notificaciones de eventos](../../workfront-basics/using-notif
   <tr> 
    <td> <p><strong>Alguien me incluye en una actualización dirigida</strong> </p> <p>Una actualización dirigida es cuando un usuario incluye específicamente a otro usuario en una actualización, tal como se describe en <a href="../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md" class="MCXref xref">[!UICONTROL Tag others on] actualizaciones</a>.</p> <p>En este caso, el usuario que se incluye en la actualización dirigida recibe una notificación por correo electrónico sobre la actualización.</p> <p>La notificación por correo electrónico solo se envía si el usuario tiene derechos de acceso al objeto.</p> <p>El asunto del correo electrónico de notificación instantánea es: <em>&lt;Nombre del usuario que le incluyó en la actualización&gt; [!UICONTROL wanted you to know]</em></p> <p>El asunto de la notificación de resumen diario es: <em>[!UICONTROL Digest of Communication] &lt;Fecha del resumen diario&gt;</em></p> </td> 
    <td> Nombre del objeto donde se realizó la actualización<br>Nombre del objeto principal<br>Número de referencia del objeto<br>Nombres de todos los usuarios y equipos incluidos en la actualización dirigida<br>Fecha y hora en que se realizó la actualización<br>Texto de la actualización dirigida<br><strong>[!UICONTROL Comment]</strong> botón<br>*Número total de comentarios recibidos<br>*Número de comentarios recibidos para cada objeto<br>*<strong>[!UICONTROL See All Notifications]</strong> botón<br>*Fecha del resumen diario<br></td> 
-   <td> <p><strong>Instantáneo</strong> </p> <p><strong>y diarios</strong> </p> </td> 
+   <td> <p><strong>Instantáneo</strong> </p> <p><strong>y diario</strong> </p> </td> 
   </tr> 
   <tr> 
    <td> <p><strong>Alguien responde a mi solicitud</strong> </p> <p>Una vez que un usuario envía una solicitud de trabajo y otro usuario responde a esa solicitud de trabajo, el usuario que la envió recibe una notificación por correo electrónico.</p> <p>No se envía una notificación por correo electrónico si:</p> 
@@ -52,12 +59,12 @@ Consulte también [Notificaciones de eventos](../../workfront-basics/using-notif
   <tr> 
    <td> <p><strong>Se publica un comentario en mi solicitud</strong> </p> <p>El contacto principal de un problema recibe una notificación por correo electrónico cuando se publica un comentario en una solicitud de [!UICONTROL Help Desk], a menos que el usuario que publicó el comentario también sea el contacto principal del problema.</p> <p>Los usuarios que estén directamente incluidos en el comentario también recibirán una notificación por correo electrónico.</p> <p>Solo se envía una notificación si el estado del proyecto es [!UICONTROL Current].</p> <p>El asunto del correo electrónico de notificación instantánea es: <em>[!UICONTROL Comment on] &lt;Nombre de solicitud&gt; en &lt;Nombre de proyecto&gt; (ref# &lt;Número de referencia de solicitud&gt;)</em></p> <p>El asunto de la notificación de resumen diario es:<em> [!UICONTROL Digest of Communication] &lt;Fecha del resumen diario&gt;</em></p> </td> 
    <td> Nombre de solicitud<br>Nombre del proyecto<br>Número de referencia<br>Nombre del usuario que respondió a su solicitud<br>Fecha y hora en que se hizo el comentario<br>Texto del comentario realizado en su solicitud<br>*Número total de comentarios recibidos<br>*Número de comentarios recibidos para cada solicitud<br>*Nombre del proyecto<br>*<strong>[!UICONTROL See All Notifications]</strong> botón<br>*Fecha del resumen diario<br></td> 
-   <td> <p><strong>Instante</strong> </p> <p><strong>y diarios</strong> </p> </td> 
+   <td> <p><strong>Instante</strong> </p> <p><strong>y diario</strong> </p> </td> 
   </tr> 
   <tr> 
    <td> <p><strong>Se añadió un comentario en mi documento</strong> </p> <p>El propietario de un documento de [!DNL Adobe Workfront] recibe una notificación por correo electrónico cuando se publica un comentario en el documento, a menos que el usuario que publicó el comentario también sea el propietario del documento.</p> <p>Los usuarios que estén directamente incluidos en el comentario también recibirán una notificación por correo electrónico.</p> <p>Solo se envía una notificación si el estado del proyecto es [!UICONTROL Current]. </p> <p>El asunto del correo electrónico de notificación instantánea es: <em>[!UICONTROL Comment on] &lt;Nombre de solicitud&gt; en &lt;Nombre de proyecto&gt; (ref# &lt;Número de referencia de solicitud&gt;)</em></p> <p> El asunto de la notificación de resumen diario es:<em> [!UICONTROL Digest of Communication] &lt;Fecha del resumen diario&gt;</em></p> </td> 
    <td>Nombre de documento<br>Nombre de proyecto, tarea o problema<br>Número de referencia<br>Nombre del usuario que respondió a su solicitud<br>Fecha y hora en que se hizo el comentario<br>Texto del comentario hecho en el documento</td> 
-   <td> <p><strong>Instante</strong> </p> <p><strong>y diarios</strong> </p> <p><strong></strong> </p> </td> 
+   <td> <p><strong>Instante</strong> </p> <p><strong>y diario</strong> </p> <p><strong></strong> </p> </td> 
   </tr> 
   <tr> 
    <td> <p><strong>Alguien añade un comentario a un hilo en el cual participo</strong> </p> <p>Los participantes del hilo y los usuarios incluidos en un mensaje directo reciben una notificación por correo electrónico cuando un usuario hace un comentario en el hilo.</p> <p>Los usuarios deben tener acceso a [!UICONTROL View] para recibir una notificación.</p> <p>Los siguientes usuarios no reciben una notificación:</p> 

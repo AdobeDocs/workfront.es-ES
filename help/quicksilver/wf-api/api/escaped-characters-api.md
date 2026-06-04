@@ -1,22 +1,27 @@
 ---
 content-type: api
 navigation-topic: api-navigation-topic
-title: Caracteres escapados en las respuestas de API
-description: Caracteres escapados en las respuestas de API
+title: Caracteres de escape en las respuestas de la API
+description: Caracteres de escape en las respuestas de la API
 author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 1477b98e-1cdc-4661-b3ee-0b6ab1e8c3ee
-source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
+TQID: https://experienceleague.adobe.com/Cqu86di2VR3q4MpLYnUFwm0D4YyTxWqLXaGqJdtU-UE
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '212'
-ht-degree: 5%
+source-wordcount: 209
+ht-degree: 100%
 
 ---
 
-# Caracteres escapados en las respuestas de API
+# Caracteres de escape en las respuestas de la API
 
-La sintaxis de algunas respuestas API puede contener el carácter de escape `\` (barra invertida). Un carácter de escape indica que el carácter o cadena de caracteres que siguen inmediatamente al carácter de escape tiene un valor especial. Por ejemplo, `\t` indica al dispositivo de lectura que `t` debe interpretarse como `tab` y no como la letra &quot;t&quot;. Una cadena de uno o más caracteres después de la barra invertida se denomina secuencia de escape.
+La sintaxis de algunas respuestas de la API puede contener el carácter de escape, `\` (barra invertida). Un carácter de escape indica que el carácter o la cadena de caracteres que siguen inmediatamente al carácter de escape tiene un valor especial. Por ejemplo, `\t` indica al dispositivo de lectura que `t` debe interpretarse como `tab` y no como la letra &quot;t&quot;. Una cadena de uno o más caracteres después de la barra invertida se denomina secuencia de escape.
 
 Las secuencias de escape hexadecimales requieren el uso de dígitos hexadecimales válidos. En la tabla siguiente se enumeran las secuencias de escape codificadas en las respuestas de la API de Adobe Workfront:
 
@@ -68,8 +73,8 @@ Las secuencias de escape hexadecimales requieren el uso de dígitos hexadecimale
    <td>Retorno de carro</td> 
   </tr> 
   <tr> 
-   <td> <p>\u00<em>xx</em></p> <p><em>Donde, xx es el código hexadecimal de  números del 14 al 31</em> </p> </td> 
-   <td>De 14 a 31</td> 
+   <td> <p>\u00<em>xx</em></p> <p><em>Donde, xx es el código hexadecimal de los números 14 a 31</em> </p> </td> 
+   <td>14 - 31</td> 
    <td>Caracteres Unicode representados por los puntos de código 14 a 31</td> 
   </tr> 
   <tr> 

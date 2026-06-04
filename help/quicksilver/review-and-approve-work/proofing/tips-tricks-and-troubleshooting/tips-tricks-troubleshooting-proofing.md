@@ -6,10 +6,17 @@ draft: Probably
 feature: Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 83e2f884-b396-444e-9533-864fd78880f2
-source-git-commit: 5c97fc71eb9516407cf57517d9e817abf4335343
+TQID: https://experienceleague.adobe.com/mSirQEhhr-s9uGwZCL80dxPLpuBTkigfmPnCMba1lEs
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '106'
-ht-degree: 83%
+source-wordcount: 106
+ht-degree: 100%
 
 ---
 
@@ -23,4 +30,4 @@ Esta sección contiene los siguientes artículos:
 * [Preguntas frecuentes: revisión en la migración de Adobe Workfront de los EE. UU. a EMEA.](../../../review-and-approve-work/proofing/tips-tricks-and-troubleshooting/faq-proofing-in-wf-us-to-emea-migration.md)
 * [El nombre del documento ha cambiado después de la carga y contiene un carácter no válido](/help/quicksilver/review-and-approve-work/proofing/tips-tricks-and-troubleshooting/document-to-proof-name.md)
 * [Revisar un PowerPoint con un vídeo incrustado](/help/quicksilver/review-and-approve-work/proofing/tips-tricks-and-troubleshooting/powerpoint-with-video.md)
-* [Las versiones de prueba no se pueden descargar ni previsualizar cuando se agrega una prueba interactiva como una nueva versión](/help/quicksilver/review-and-approve-work/proofing/tips-tricks-and-troubleshooting/static-and-web-proof-downloads.md)
+* [Las versiones de prueba no se pueden descargar ni previsualizar cuando se añade una prueba interactiva como una nueva versión](/help/quicksilver/review-and-approve-work/proofing/tips-tricks-and-troubleshooting/static-and-web-proof-downloads.md)

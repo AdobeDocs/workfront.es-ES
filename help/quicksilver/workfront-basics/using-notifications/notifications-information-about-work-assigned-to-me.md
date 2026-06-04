@@ -1,19 +1,26 @@
 ---
 content-type: reference
 navigation-topic: notifications
-title: 'Notificaciones: Información sobre el trabajo asignado a mí'
+title: 'Notificaciones: información sobre el trabajo que se me ha asignado'
 description: Las siguientes notificaciones le avisan sobre las actividades que se producen en un elemento de trabajo asignado a usted.
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 5d7fdee8-cb5c-4ab8-bec3-beff9851b8f6
-source-git-commit: 64b8a835a57be8995c82a0ab15c40f46170c7067
+TQID: https://experienceleague.adobe.com/OcJcSh-I9--ZGuigzsTnIOh5r9U55JRlLcj7gymp7wA
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '2088'
-ht-degree: 16%
+source-wordcount: 2016
+ht-degree: 18%
 
 ---
 
-# Notificaciones: Información sobre el trabajo asignado a mí
+# Notificaciones: información sobre el trabajo que se me ha asignado
 
 Las siguientes notificaciones le avisan sobre las actividades que se producen en un elemento de trabajo asignado a usted.
 
@@ -56,7 +63,7 @@ Consulte también [Notificaciones de eventos](../../workfront-basics/using-notif
    <td><strong>Diariamente</strong> </td> 
   </tr> 
   <tr> 
-   <td> <p id="a-task-i-m-assigned-to-is-completed"><strong>Se completó una tarea a la que estoy asignado</strong> </p> <p>El usuario asignado de la tarea recibe una notificación por correo electrónico cuando se completa la tarea.</p> <p>Solo se envía una notificación si el estado del proyecto es [!UICONTROL Current].</p> <p>Los usuarios con una licencia de [!UICONTROL Review] o [!UICONTROL Requestor] no reciben ninguna notificación.</p> <p>El asunto del correo electrónico de notificación instantánea es: <em>[!UICONTROL completo]: &lt;Nombre de tarea&gt; en &lt;Nombre de proyecto&gt;</em></p> <p> <p>Nota: Si se cambia el estado de la tarea a [!UICONTROL Complete], el asunto del correo electrónico seguirá indicando "Complete".</p> </p> <p> El asunto de la notificación de resumen diario es: <em> [!UICONTROL Resumen del trabajo asignado a usted] &lt;Fecha del resumen diario&gt; </em></p> </td> 
+   <td> <p id="a-task-i-m-assigned-to-is-completed"><strong>Se completó una tarea a la que estoy asignado</strong> </p> <p>El usuario a quien le han asignado la tarea recibe una notificación por correo electrónico cuando se completa la tarea.</p> <p>Solo se envía una notificación si el estado del proyecto es [!UICONTROL Current].</p> <p>Los usuarios con una licencia de [!UICONTROL Review] o [!UICONTROL Requestor] no reciben ninguna notificación.</p> <p>El asunto del correo electrónico de notificación instantánea es: <em>[!UICONTROL completo]: &lt;Nombre de tarea&gt; en &lt;Nombre de proyecto&gt;</em></p> <p> <p>Nota: Si se cambia el estado de la tarea a [!UICONTROL Complete], el asunto del correo electrónico seguirá indicando "Complete".</p> </p> <p> El asunto de la notificación de resumen diario es: <em> [!UICONTROL Resumen del trabajo asignado a usted] &lt;Fecha del resumen diario&gt; </em></p> </td> 
    <td> <p>Nombre de tarea<br>Nombre de proyecto<br>Número de referencia de tarea<br>Nombre del usuario que completó la tarea<br>Fecha y hora en que se completó la tarea<br>Estado de la tarea anterior<br><strong>[!UICONTROL Ver más detalles]</strong> botón<br>*Nombre del proyecto<br>*Número de referencia del proyecto<br>*Número total de tareas completadas<br>*Nombre de tarea<br>*Nombre del usuario que completó la tarea<br>*Fecha del resumen diario<br></p> </td> 
    <td><strong>Diariamente</strong> </td> 
   </tr>

@@ -7,16 +7,23 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 08e90754-5505-424c-ae67-015cc987b5df
-source-git-commit: 842b26177a11225049ef42f779ca77dd81926b74
+TQID: https://experienceleague.adobe.com/6cMTHhlWM6xf4Y7w4HRIdqV-w0aOOj0cq21fp1fDa2s
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1353'
-ht-degree: 1%
+source-wordcount: 1358
+ht-degree: 99%
 
 ---
 
 # Novedades de la versión 17 de la API
 
-Adobe Workfront lanzó la versión 17 de la API el 12 de octubre de 2023. La versión 17 de la API incorpora los siguientes cambios con respecto a la versión 16.
+Adobe Workfront publicó la versión 17 de la API el 12 de octubre de 2023. La versión 17 de la API incorpora los siguientes cambios con respecto a la versión 16.
 
 ## Recursos añadidos
 
@@ -26,9 +33,9 @@ Adobe Workfront lanzó la versión 17 de la API el 12 de octubre de 2023. La ver
 
 -->
 
-### Documento externo (EXTDOC)
+### ExternalDocument (EXTDOC)
 
-Un objeto ExternalDocument es un documento u otro recurso digital que se encuentra en un proveedor de almacenamiento de documentos externo a Workfront. Estos recursos se pueden vincular desde y hacia Workfront.
+El objeto Documento externo es un documento u otro recurso digital que se encuentra en un proveedor de almacenamiento de documentos externo a Workfront. Estos recursos se pueden vincular a y desde Workfront.
 
 <table>
   <col/>
@@ -39,17 +46,17 @@ Un objeto ExternalDocument es un documento u otro recurso digital que se encuent
       <td>
         <ul>
           <li><p><b>dateModified</b></p></li>
-          <li><p><b>description</b></p></li>
+          <li><p><b>descripción</b></p></li>
           <li><p><b>documentProviderID</b></p></li>
           <li><p><b>ext.</b></p></li>
           <li><p><b>fileType</b></p></li>
           <li><p><b>iconURL</b></p></li>
-          <li><p><b>Identificador</b></p></li>
+          <li><p><b>ID</b></p></li>
           <li><p><b>name</b></p></li>
-          <li><p><b>ruta</b></p></li>
+          <li><p><b>path</b></p></li>
           <li><p><b>providerType</b></p></li>
           <li><p><b>readOnly</b></p></li>
-          <li><p><b>talla</b></p></li>
+          <li><p><b>size</b></p></li>
           <li><p><b>thumbnailURL</b></p></li>
         </ul>
       </td>
@@ -59,22 +66,22 @@ Un objeto ExternalDocument es un documento u otro recurso digital que se encuent
       <td>
         <ul>
           <li><p><b>dateModified</b></p></li>
-          <li><p><b>description</b></p></li>
+          <li><p><b>descripción</b></p></li>
           <li><p><b>documentProviderID</b></p></li>
           <li><p><b>ext.</b></p></li>
           <li><p><b>fileType</b></p></li>
           <li><p><b>iconURL</b></p></li>
-          <li><p><b>Identificador</b></p></li>
+          <li><p><b>ID</b></p></li>
           <li><p><b>isGoogleRootItem</b></p></li>
           <li><p><b>isTeamDriveItem</b></p></li>
           <li><p><b>name</b></p></li>
           <li><p><b>objCode</b></p></li>
-          <li><p><b>ruta</b></p></li>
+          <li><p><b>path</b></p></li>
           <li><p><b>providerType</b></p></li>
           <li><p><b>readOnly</b></p></li>
-          <li><p><b>talla</b></p></li>
+          <li><p><b>size</b></p></li>
           <li><p><b>thumbnailURL</b></p></li>
-          <li><p><b>valor</b></p></li>
+          <li><p><b>value</b></p></li>
         </ul>
       </td>
     </tr>
@@ -82,7 +89,7 @@ Un objeto ExternalDocument es un documento u otro recurso digital que se encuent
       <td role="rowheader">Campos predeterminados</td>
       <td>
         <ul>
-          <li><p><b>Identificador</b></p></li>
+          <li><p><b>ID</b></p></li>
           <li><p><b>name</b></p></li>
           <li><p><b>objCode</b></p></li>
         </ul>
@@ -149,7 +156,7 @@ Un objeto ExternalDocument es un documento u otro recurso digital que se encuent
           <li><p><b>classifierID</b></p></li>
           <li><p><b>customerID</b></p></li>
           <li><p><b>endDate</b></p></li>
-          <li><p><b>Identificador</b></p></li>
+          <li><p><b>ID</b></p></li>
           <li><p><b>isCurrent</b></p></li>
           <li><p><b>startDate</b></p></li>
           <li><p><b>userID</b></p></li>
@@ -169,7 +176,7 @@ Un objeto ExternalDocument es un documento u otro recurso digital que se encuent
       <td role="rowheader">Campos principales</td>
       <td>
         <ul>
-          <li><p><b>Identificador</b></p></li>
+          <li><p><b>ID</b></p></li>
           <li><p><b>objCode</b></p></li>
         </ul>
       </td>
@@ -183,7 +190,7 @@ No se han eliminado recursos para la versión 17 de la API
 
 ## Recursos modificados
 
-Se modificaron los siguientes recursos para la versión 17 de la API.
+Se han modificado los siguientes recursos para la versión 17 de la API.
 
 <!--
 
@@ -201,17 +208,17 @@ An AccessRule object represents a rule set in custom access levels that determin
 
 -->
 
-### Línea base (BLIN)
+### Baseline (BLIN)
 
-Las líneas de base son instantáneas del aspecto que tuvo el rendimiento de un proyecto en un momento determinado. Almacenan información clave sobre el proyecto, como fechas clave, progreso, valores de costes e ingresos.
+Las líneas de base son instantáneas del aspecto que ha tenido el rendimiento de un proyecto en un momento determinado. Almacenan información clave sobre el proyecto, como fechas clave, progreso, valores de costes e ingresos.
 
-El objeto Baseline quitó el indicador **INLINE_EDITABLE**.
+El objeto Baseline eliminó el indicador **INLINE_EDITABLE**.
 
-### Registro de facturación (FACTURA)
+### BillingRecord (BILL)
 
-Un objeto BillingRecord registra los ingresos, horas o gastos que se pueden facturar. Esta información se puede utilizar para crear facturas en un sistema de contabilidad externo.
+Un objeto BillingRecord registra los ingresos, horas o gastos que se pueden facturar. Esta información puede utilizarse para crear facturas en un sistema contable externo.
 
-El objeto BillingRecord quitó el indicador **INLINE_EDITABLE**.
+El objeto BillingRecord eliminó el indicador **INLINE_EDITABLE**.
 
 <!--
 
@@ -221,9 +228,9 @@ A Category object is a custom form.
 
 -->
 
-### Empresa (CMPY)
+### Compañía (CMPY)
 
-Un objeto Company representa una organización formada por una colección de personas.
+Un objeto de compañía representa a una organización formada por una colección de personas.
 
 <table>
   <col/>
@@ -244,7 +251,7 @@ Un objeto Company representa una organización formada por una colección de per
  </tbody>
 </table>
 
-### Preferencias del cliente (CUSTPR)
+### CustomerPreferences (CUSTPR)
 
 Un objeto CustomerPreferences representa el conjunto de preferencias que un cliente ha establecido para su instancia de Workfront.
 
@@ -257,9 +264,9 @@ Un objeto CustomerPreferences representa el conjunto de preferencias que un clie
       <td>
         <ul>
           <li>
-            <p><b>nombre</b>
+            <p><b>name</b>
             </p>
-            <p>Se ha agregado el posible valor "config.defaultToNewHomeDescription" (customer:config.defaultToNewHome)&gt;/p?<p>Esto permite a una organización hacer que la nueva experiencia de Inicio sea la predeterminada para sus usuarios.</p>
+            <p>Se ha añadido el valor posible “config.defaultToNewHomeDescription” (customer:config.defaultToNewHome)&gt;/p?<p>Esto permite que una organización haga de la nueva experiencia de Inicio la predeterminada para sus usuarios.</p>
           </li>
         </ul>
       </td>
@@ -282,12 +289,12 @@ Un objeto DocumentVersion representa una versión específica de un archivo (com
           <li>
             <p><b>externalIntegrationType</b>
             </p>
-            <p>Se ha añadido el valor posible "Frame.io" (FRAMEIO)</p>
+            <p>Se ha añadido el valor posible “Frame.io” (FRAMEIO)</p>
           </li>
           <li>
-            <p><b>tipoDeArchivo</b>
+            <p><b>fileType</b>
             </p>
-            <p>Se ha agregado el posible valor "enum.filetype.site" (site)</p>
+            <p>Se ha añadido el valor posible “enum.filetype.site” (site)</p>
           </li>
         </ul>
       </td>
@@ -295,7 +302,7 @@ Un objeto DocumentVersion representa una versión específica de un archivo (com
  </tbody>
 </table>
 
-### Tipo de cambio (EXRATE)
+### ExchangeRate (EXRATE)
 
 Un objeto ExchangeRate representa un tipo de cambio de divisa configurado en Workfront. Los objetos ExchangeRate no son dinámicos.
 
@@ -305,7 +312,7 @@ Un objeto ExchangeRate representa un tipo de cambio de divisa configurado en Wor
   <tbody>
     <tr>
       <td role="rowheader">Campos directos</td>
-      <td>Se agregaron los campos siguientes:
+      <td>Se han añadido los campos siguientes:
         <ul>
           <li><p><b>endDate</b></p></li>
           <li><p><b>startDate</b></p></li>
@@ -324,11 +331,11 @@ Un objeto ExchangeRate representa un tipo de cambio de divisa configurado en Wor
  </tbody>
 </table>
 
-### Gasto (EXPNS)
+### Expense (EXPNS)
 
-Los gastos representan los costos no laborales en los que se podría incurrir durante la duración de un proyecto.
+Los gastos representan los costes que no son de mano de obra en los que se puede incurrir durante la vida de un proyecto.
 
-El objeto Expense eliminó el marcador **INLINE_EDITABLE**.
+El objeto Expense eliminó el indicador **INLINE_EDITABLE**.
 
 ### Grupo (GROUP)
 
@@ -357,18 +364,18 @@ Un objeto Group representa un conjunto de usuarios y equipos. Los grupos a menud
 
 Un objeto Hour representa una hora registrada por un usuario en una plantilla de horas.
 
-El objeto Hour quitó el indicador **INLINE_EDITABLE**.
+El objeto Hour eliminó el indicador **INLINE_EDITABLE**.
 
-### Iteración (ITRN)
+### Iteration (ITRN)
 
-Un objeto Iteration representa una sola iteración Agile. Las iteraciones son períodos de tiempo discretos que se utilizan para planificar y completar historias de Agile.
+Un objeto de iteración representa una sola iteración Agile. Las iteraciones son períodos de tiempo discretos que se utilizan para planificar y completar historias de Agile.
 
-El objeto Iteration quitó el marcador **INLINE_EDITABLE**.
+El objeto Iteration eliminó el indicador **INLINE_EDITABLE**.
 
 
-### Entrada de diario (JRNLE)
+### JournalEntry (JRNLE)
 
-El objeto JournalEntry se puede configurar para que registre información sobre campos de objeto específicos cada vez que se modifiquen dichos campos. Cuando un campo está configurado para registrarse como parte del objeto Entrada de cuaderno, se creará una Entrada de cuaderno correspondiente cada vez que se modifique ese campo.
+El objeto JournalEntry se puede configurar para que registre información sobre campos de objeto específicos cada vez que se modifiquen dichos campos. Cuando un campo está configurado para registrarse como parte del objeto Entrada de cuaderno, se creará una entrada de cuaderno correspondiente cada vez que se modifique ese campo.
 
 <table>
   <col/>
@@ -381,10 +388,10 @@ El objeto JournalEntry se puede configurar para que registre información sobre 
           <li>
             <p><b>changeType</b>
             </p>
-            <p>Se agregaron los siguientes valores posibles:</p>
+            <p>Se añadieron los siguientes valores posibles:</p>
             <ul>
-              <li>Aprobador agregado (AAA)</li>
-              <li>Se ha agregado un revisor (AAR)</li>
+              <li>Aprobador añadido (AAA)</li>
+              <li>Revisor añadido (AAR)</li>
               <li>Revisor eliminado (ARR)</li>
               <li>Aprobador eliminado (ARA)</li>
               <li>Decisión aprobada (ADA)</li>
@@ -404,11 +411,11 @@ El objeto JournalEntry se puede configurar para que registre información sobre 
  </tbody>
 </table>
 
-### Panel Kanban (KNBNBD)
+### Tablero Kanban (KNBNBD)
 
-Se utiliza un panel Kanban para realizar el seguimiento de tareas en un entorno Agile.
+Se utiliza un tablero Kanban para realizar el seguimiento de tareas en un entorno Agile.
 
-El objeto Panel Kanban eliminó el indicador **INLINE_EDITABLE**.
+El objeto Tablero Kanban ha eliminado el indicador **INLINE_EDITABLE**.
 
 
 ### LinkedFolder (LNKFDR)
@@ -426,7 +433,7 @@ Un objeto LinkedFolder representa una carpeta vinculada desde un proveedor de do
           <li>
             <p><b>externalIntegrationType</b>
             </p>
-            <p>Se ha agregado el valor posible "Frame.io (FRAMEIO)</p>
+            <p>Se añadió el valor posible “Frame.io (FRAMEIO)</p>
           </li>
         </ul>
       </td>
@@ -442,13 +449,13 @@ El objeto Issue eliminó el indicador **INLINE_EDITABLE**.
 
 ### Proyecto (PROJ)
 
-Los proyectos son elementos de trabajo dentro de Workfront y son un bloque de creación principal en la forma en que Workfront ayuda a las personas a realizar su trabajo. Un objeto Project representa un grupo de tareas con un objetivo común y específico.
+Los proyectos son elementos de trabajo dentro de Workfront y son un componente principal en la forma en que Workfront ayuda a las personas a realizar su trabajo. Un objeto Projecto representa un grupo de tareas con un objetivo común y específico.
 
 El objeto Project quitó el marcador **INLINE_EDITABLE**.
 
-### Usuario de proyecto (PRTU)
+### ProjectUser (PRTU)
 
-Un objeto ProjectUser representa un usuario asociado a un proyecto específico.
+Un objeto ProjectUser representa un usuario asociado con un proyecto específico.
 
 <table>
   <col/>
@@ -459,7 +466,7 @@ Un objeto ProjectUser representa un usuario asociado a un proyecto específico.
       <td>
         <ul>
           <li>
-            <p><b>ID</b>
+            <p><b>Identificador</b>
             </p>
             <p>Añadido.</p>
           </li>
@@ -471,7 +478,7 @@ Un objeto ProjectUser representa un usuario asociado a un proyecto específico.
       <td>
         <ul>
           <li>
-            <p><b>ID</b>
+            <p><b>Identificador</b>
             </p>
             <p>Añadido.</p>
           </li>
@@ -489,11 +496,11 @@ A QueueDef object represents a Queue, which is a project that has been published
 
 -->
 
-### Tasa (TASA)
+### Tasa (RATE)
 
 Un objeto Rate representa una tarifa de facturación en Workfront.
 
-El objeto Rate quitó el marcador **INLINE_EDITABLE**.
+El objeto Rate ha eliminado el indicador **INLINE_EDITABLE**.
 
 <table>
   <col/>
@@ -501,14 +508,14 @@ El objeto Rate quitó el marcador **INLINE_EDITABLE**.
   <tbody>
     <tr>
       <td role="rowheader">Acciones</td>
-      <td>Se han agregado las siguientes acciones para admitir la funcionalidad Tarjeta de tarifa:
+      <td>Se han añadido las siguientes acciones para admitir la funcionalidad Tarjeta de tarifas:
         <ul>
           <li><p><b>deleteRateForRole</b></p></li>
           <li><p><b>editRatesForRole</b></p></li>
           <li><p><b>getUsedClassifierIds</b></p></li>
           <li><p><b>setRatesFromRateCard</b></p></li>
         </ul>
-        <p>La acción <b>setRatesForRole</b> se ha modificado para agregar los campos siguientes:
+        <p>La acción <b>setRatesForRole</b> se ha modificado para añadir los campos siguientes:
         <ul>
         <li>classifierID</li>
         <li>currencyCode</li>
@@ -519,15 +526,15 @@ El objeto Rate quitó el marcador **INLINE_EDITABLE**.
  </tbody>
 </table>
 
-### Riesgo (RIESGO)
+### Risk (RISK)
 
-Un objeto Risk representa un posible evento que puede impedir que un proyecto finalice a tiempo o dentro del presupuesto. Se añaden riesgos a los proyectos en la fase de planificación para identificar posibles obstáculos antes de la aprobación de cualquier trabajo.
+Un objeto Riesgo representa un posible evento que puede impedir que un proyecto finalice a tiempo o dentro del presupuesto. Se añaden riesgos a los proyectos en la fase de planificación para identificar posibles obstáculos antes de la aprobación de cualquier trabajo.
 
-El objeto Risk quitó el marcador **INLINE_EDITABLE**.
+El objeto Risk ha eliminado el indicador **INLINE_EDITABLE**.
 
-### Rol / Rol (ROLE)
+### Rol / Función (ROLE)
 
-Un objeto Role (función del puesto) representa una capacidad funcional o un conjunto de aptitudes que un usuario podría completar, como Designer o Product Manager.
+Un objeto Role (función) representa una capacidad funcional o un conjunto de aptitudes que un usuario podría completar, como un diseñador o un gestor de productos.
 
 <table>
   <col/>
@@ -550,13 +557,13 @@ Un objeto Role (función del puesto) representa una capacidad funcional o un con
 
 ### Tarea (TAREA)
 
-Un objeto Task representa un elemento de trabajo que debe realizarse como un paso hacia el logro de un objetivo final (completar un proyecto).
+Un objeto Tarea representa un elemento de trabajo que debe realizarse como un paso hacia la meta de un objetivo final (completar un proyecto).
 
-El objeto Task quitó el marcador **INLINE_EDITABLE**.
+El objeto Task ha eliminado el indicador **INLINE_EDITABLE**.
 
-### Equipo (TEAMOB)
+### Team (TEAMOB)
 
-Un objeto Team es una colección de usuarios que se pueden asignar a un elemento de trabajo.
+Un objeto de equipo es una colección de usuarios que se pueden asignar a un elemento de trabajo.
 
 <table>
   <col/>
@@ -577,7 +584,7 @@ Un objeto Team es una colección de usuarios que se pueden asignar a un elemento
  </tbody>
 </table>
 
-### Miembro del equipo (TEAMMB)
+### TeamMember (TEAMMB)
 
 Un objeto TeamMember es un usuario asociado a un equipo específico.
 
@@ -590,7 +597,7 @@ Un objeto TeamMember es un usuario asociado a un equipo específico.
       <td>
         <ul>
           <li>
-            <p><b>ID</b>
+            <p><b>Identificador</b>
             </p>
             <p>Añadido.</p>
           </li>
@@ -602,7 +609,7 @@ Un objeto TeamMember es un usuario asociado a un equipo específico.
       <td>
         <ul>
           <li>
-            <p><b>ID</b>
+            <p><b>Identificador</b>
             </p>
             <p>Añadido.</p>
           </li>
@@ -612,7 +619,7 @@ Un objeto TeamMember es un usuario asociado a un equipo específico.
  </tbody>
 </table>
 
-### Usuario de plantilla (TMTU)
+### TemplateUser (TMTU)
 
 <table>
   <col/>
@@ -623,7 +630,7 @@ Un objeto TeamMember es un usuario asociado a un equipo específico.
       <td>
         <ul>
           <li>
-            <p><b>ID</b>
+            <p><b>Identificador</b>
             </p>
             <p>Añadido.</p>
           </li>
@@ -635,7 +642,7 @@ Un objeto TeamMember es un usuario asociado a un equipo específico.
       <td>
         <ul>
           <li>
-            <p><b>ID</b>
+            <p><b>Identificador</b>
             </p>
             <p>Añadido.</p>
           </li>
@@ -645,7 +652,7 @@ Un objeto TeamMember es un usuario asociado a un equipo específico.
  </tbody>
 </table>
 
-### Hoja de horas (TSHET)
+### Plantilla de horas (TSHET)
 
 Un objeto Timesheet representa un parte de horas virtual que permite a los usuarios especificar horas trabajadas reales para tareas, proyectos y tipos de horas generales.
 
@@ -670,7 +677,7 @@ Un objeto Timesheet representa un parte de horas virtual que permite a los usuar
 
 ### Actualizar (UPDATE)
 
-Los elementos de trabajo de Workfront se pueden actualizar para mantener a los usuarios informados del estado actual. Un objeto Update representa una de estas actualizaciones. Los usuarios pueden introducir actualizaciones o el sistema de Workfront puede crearlas.
+Los elementos de trabajo de Workfront se pueden actualizar para mantener a los usuarios informados del estado actual. Un objeto de actualización representa una de estas actualizaciones. Los usuarios pueden introducir actualizaciones o el sistema de Workfront puede crearlas.
 
 <table>
   <col/>
@@ -683,22 +690,22 @@ Los elementos de trabajo de Workfront se pueden actualizar para mantener a los u
           <li>
             <p><b>changeType</b>
             </p>
-            <p>Se agregaron los siguientes valores:</p>
+            <p>Se han añadido los siguientes valores:</p>
             <ul>
-              <li>Aprobador agregado (assetapprovalAddApprover)</li>
-              <li>Se ha agregado un revisor (assetapprovalAddReviewer)</li>
+              <li>Aprobador añadido (assetapprovalAddApprover)</li>
+              <li>Revisor añadido (assetapprovalAddReviewer)</li>
               <li>Aprobador eliminado (assetapprovalRemoveApprover)</li>
               <li>Revisor eliminado (assetapprovalRemoveReviewer)</li>
               <li>Decisión aprobada (assetapprovalDecisionApproved)</li>
               <li>La decisión necesita trabajo (assetapprovalDecisionNeedsWork)</li>
               <li>Decisión aprobada con cambios (assetapprovalDecisionApprovedChanges)</li>
               <li>Decisión revocada (assetapprovalDecisionRevked)</li>
-              <li>Aprobador modificado (assetapprovalApproverChanged)</li>
-              <li>Revisor modificado (assetapprovalReviewerChanged)</li>
+              <li>Aprobador cambiado (assetapprovalApproverChanged)</li>
+              <li>Revisor cambiado (assetapprovalReviewerChanged)</li>
               <li>Revisión completa (assetapprovalReviewerDecisionComplete)</li>
               <li>Revisión revocada (assetapprovalReviewerDecisionRevked)</li>
               <li>Error de envío de documento externo (externalDocumentSendError)</li>
-              <li>Versión de documento publicada (documentVersionPublish)</li>
+              <li>Versión del documento publicada (documentVersionPublish)</li>
               <li>Flujo de trabajo de carpeta vinculada (linkedFolderWorkflow)</li>
             </ul>
           </li>
@@ -712,7 +719,7 @@ Los elementos de trabajo de Workfront se pueden actualizar para mantener a los u
 
 Un objeto User representa a una persona con una cuenta en Workfront que puede iniciar sesión e interactuar con el sistema.
 
-El objeto User quitó el marcador **INLINE_EDITABLE**.
+El objeto User eliminó el indicador **INLINE_EDITABLE**.
 
 <table>
   <col/>
@@ -723,9 +730,9 @@ El objeto User quitó el marcador **INLINE_EDITABLE**.
       <td>
         <ul>
           <li>
-            <p><b>tiempoDeTrabajo</b>
+            <p><b>workTime</b>
             </p>
-            <p>Este campo se ha agregado y es un número entre 0 y 1 que representa el porcentaje de tiempo que un usuario puede dedicar al trabajo del proyecto (trabajo no general) cada día. El valor 1 significa que el usuario puede dedicar el 100% de su tiempo al trabajo del proyecto.</p>
+            <p>Este campo se ha añadido y es un número entre 0 y 1 que representa el porcentaje de tiempo que un usuario puede dedicar al trabajo de proyecto (sin sobrecarga) cada día. El valor 1 significa que el usuario puede dedicar el 100 % de su tiempo al trabajo de proyecto.</p>
           </li>
         </ul>
       </td>
@@ -744,7 +751,7 @@ El objeto User quitó el marcador **INLINE_EDITABLE**.
  </tbody>
 </table>
 
-### Grupos de usuarios (USRGPS)
+### UserGroups (USRGPS)
 
 <table>
   <col/>
@@ -755,7 +762,7 @@ El objeto User quitó el marcador **INLINE_EDITABLE**.
       <td>
         <ul>
           <li>
-            <p><b>ID</b>
+            <p><b>Identificador</b>
             </p>
             <p>Añadido.</p>
           </li>
@@ -767,7 +774,7 @@ El objeto User quitó el marcador **INLINE_EDITABLE**.
       <td>
         <ul>
           <li>
-            <p><b>ID</b>
+            <p><b>Identificador</b>
             </p>
             <p>Añadido.</p>
           </li>
@@ -792,27 +799,27 @@ Un objeto UserNote es una notificación.
           <li>
             <p><b>changeType</b>
             </p>
-            <p>Se agregaron los siguientes valores:</p>
+            <p>Se han añadido los siguientes valores:</p>
             <ul>
               <li>El documento necesita su aprobación (AAA)</li>
               <li>El documento necesita su revisión (AAR)</li>
               <li>El documento ya no necesita su aprobación (ARA)</li>
               <li>El documento ya no necesita su revisión (ARR)</li>
-              <li>El documento necesita la aprobación (ATA) del usuario</li>
-              <li>Documento necesita revisión (ATR) del usuario</li>
-              <li>El documento ya no necesita la aprobación de (usuario) (RTA)</li>
-              <li>El documento ya no necesita revisión (RTR) del usuario</li>
+              <li>El documento necesita la aprobación del usuario (ATA)</li>
+              <li>El documento necesita la revisión del usuario (ATR)</li>
+              <li>El documento ya no necesita la aprobación del usuario (RTA)</li>
+              <li>El documento ya no necesita la revisión del usuario (RTR)</li>
               <li>Documento aprobado (ADA)</li>
               <li>Documento aprobado con cambios (ADC)</li>
-              <li>El documento necesita trabajo (AND)</li>
-              <li>(Usuario) ha marcado (documento) como aprobado. Ya no necesita su aprobación. (AAN)</li>
-              <li>(Usuario) ha marcado (documento) como aprobado con cambios. Ya no necesita su aprobación. (ACN)</li>
-              <li>(Usuario) ha marcado (documento) como necesita trabajar. Ya no necesita su aprobación. (AWN)</li>
-              <li>El documento necesita su revisión ahora, no su aprobación (AAC)</li>
-              <li>El documento necesita su aprobación ahora, en lugar de una revisión (Y)</li>
+              <li>El documento necesita trabajo (ADN)</li>
+              <li>(Usuario) ha marcado (documento) como aprobado. Su aprobación ya no es necesaria. (AAN)</li>
+              <li>(Usuario) ha marcado (documento) como aprobado con cambios. Su aprobación ya no es necesaria. (ACN)</li>
+              <li>(Usuario) ha marcado (documento) como necesita trabajo. Su aprobación ya no es necesaria. (AWN)</li>
+              <li>El documento necesita su revisión ahora en lugar de la aprobación (AAC)</li>
+              <li>El documento necesita su aprobación ahora en lugar de la revisión (ADN)</li>
               <li>Documento revisado (RDC)</li>
               <li>Documento revisado (TRC)</li>
-              <li>(Usuario) ha revisado (documento) como completado. Ya no necesita su revisión. (TRN)</li>
+              <li>(Usuario) ha revisado (documento) como completado. Tu revisión ya no es necesaria (TRN)</li>
             </ul>
           </li>
         </ul>
@@ -821,7 +828,7 @@ Un objeto UserNote es una notificación.
  </tbody>
 </table>
 
-### UserRole (USROL)
+### UserRole (USRROL)
 
 <table>
   <col/>
@@ -832,7 +839,7 @@ Un objeto UserNote es una notificación.
       <td>
         <ul>
           <li>
-            <p><b>ID</b>
+            <p><b>Identificador</b>
             </p>
             <p>Añadido.</p>
           </li>
@@ -844,7 +851,7 @@ Un objeto UserNote es una notificación.
       <td>
         <ul>
           <li>
-            <p><b>ID</b>
+            <p><b>Identificador</b>
             </p>
             <p>Añadido.</p>
           </li>

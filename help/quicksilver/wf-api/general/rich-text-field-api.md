@@ -7,13 +7,17 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 67fc34dc-0722-4419-8254-0371ad5abfc3
-source-git-commit: f9a154fa92217810b762ac48169512bc0bca7305
+TQID: https://experienceleague.adobe.com/mbMDFBRO9-bIJdlxbJjy2nqsvkjnppOJsMqTltjQ2qM
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '765'
-ht-degree: 33%
+source-wordcount: 769
+ht-degree: 32%
 
 ---
-
 
 # Campos de texto enriquecido en la API de Adobe Workfront
 
@@ -98,7 +102,7 @@ Ejemplo: Este es el aspecto que podría tener el JS:
 
 Para guardar los siguientes valores de un campo de texto enriquecido mediante la API de Workfront:
 <pre>
-        Hola <strong>a todos</strong>.
+        Hola <strong>Mundo</strong>!!!
         Este es mi primer <strong>texto enriquecido</strong></pre>
 
 1. Construya un JSON que represente el valor del campo de texto enriquecido que está intentando capturar organizando cada línea de texto en un elemento de bloque en los bloques de la matriz.

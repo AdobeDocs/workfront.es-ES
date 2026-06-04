@@ -4,11 +4,25 @@ description: Workfront Goals le ayuda a definir, comunicar y lograr resultados e
 author: Alina
 feature: Workfront Goals
 exl-id: 9daa074e-94ce-4825-a058-722e53dbce51
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/pCSacmcYWNxn2nMKQU5vynPFk35nc4UCy-inrjoPwuA
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: e147ce9d-7675-49bd-8a32-44f27d865560
+  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+  - id: fceb5125-bb41-419a-b0db-31958cb42f6c
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1349'
+source-wordcount: 1351
 ht-degree: 96%
 
 ---
@@ -92,7 +106,7 @@ Para obtener información sobre cómo crear metas y añadir resultados, consulte
 Establezca una cascada de metas de alto nivel. Sobre la base de los pilares estratégicos esbozados en primer lugar, la dirección de nivel medio superior establece metas que proporcionan una orientación segmentada de los resultados determinantes necesarios para cumplir la visión. Para ello, le recomendamos que haga lo siguiente:
 
 * Analice y colabore con sus equipos e informes directos.
-* Establezca una cascada de metas de alto nivel. 
+* Establezca una cascada de metas de alto nivel.
 
 Tenga en cuenta las siguientes directrices al crear y alinear metas:
 
@@ -144,7 +158,7 @@ Siga estas directrices para asegurarse de que la configuración sea correcta par
 
 >[!NOTE]
 >
->Al identificar a los principales responsables, hay que tener en cuenta que se están estableciendo metas estratégicas para los resultados empresariales, no de desarrollo personal. 
+>Al identificar a los principales responsables, hay que tener en cuenta que se están estableciendo metas estratégicas para los resultados empresariales, no de desarrollo personal.
 
 Para obtener información sobre cómo configurar el acceso a Workfront Goals, consulte [Requisitos de uso de Workfront Goals](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
 

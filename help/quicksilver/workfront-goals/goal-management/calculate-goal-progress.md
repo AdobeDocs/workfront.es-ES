@@ -6,12 +6,19 @@ description: El progreso de los objetivos está impulsado por indicadores de pro
 author: Alina
 feature: Workfront Goals
 exl-id: 3050f7ff-a579-4fb8-82fd-bef850f27c20
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/HQ4-iyp5Tky-LQIhkjhXUJR9v-tZHA7PEmZvPGOYuPQ
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '795'
-ht-degree: 13%
+source-wordcount: 795
+ht-degree: 14%
 
 ---
 
@@ -152,21 +159,21 @@ En la tabla siguiente se enumeran las etiquetas de condición de objetivo y los 
   <tr> 
    <td> <p><span>Bien encaminado</span> </p> </td> 
    <td>El objetivo está funcionando según lo esperado y hay una gran probabilidad de que se complete a tiempo. </td> 
-   <td>90-100 %</td> 
+   <td>90-100%</td> 
    <td>Verde</td> 
     <td><img src="assets/on-target-icon-condition.png" alt="on_target_icon_condition.png"></td>
   </tr> 
   <tr> 
    <td> <p><span>En riesgo</span> </p> </td> 
    <td>El objetivo está rezagado, pero es posible que aún sea posible completarlo a tiempo. </td> 
-   <td>70-89,99 %</td> 
+   <td>70-89.99%</td> 
    <td>Amarillo</td>
    <td><img src="assets/at-risk-icon-condition.png" alt="at_risk_icon_condition.png"></td> 
   </tr> 
   <tr> 
    <td> <p><span>Con problemas</span> </p> </td> 
    <td> <p>Es muy probable que el objetivo no se complete a tiempo. </p> </td> 
-   <td>0-69,99 %</td> 
+   <td>0-69.99%</td> 
    <td>Rojo</td> 
    <td><img src="assets/in-trouble-icon-condition.png" alt="in_trouge_icon_condition.png"></td> 
   </tr> 

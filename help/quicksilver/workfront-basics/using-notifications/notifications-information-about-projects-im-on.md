@@ -6,9 +6,16 @@ description: Las siguientes notificaciones le avisan sobre las actividades que t
 author: Courtney
 feature: Get Started with Workfront
 exl-id: c4cf84eb-8911-4bff-a548-7f0e6d8aa7b5
-source-git-commit: 64b8a835a57be8995c82a0ab15c40f46170c7067
+TQID: https://experienceleague.adobe.com/RLrCDv5K-2Qf2VfoSGJ1NGxyFuhc03bS-U5QKKtL4ws
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1586'
+source-wordcount: 1516
 ht-degree: 100%
 
 ---
@@ -64,9 +71,9 @@ Consulte también [Notificaciones de eventos](../../workfront-basics/using-notif
    <td><strong>Diariamente</strong> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>Se añade un problema a un proyecto en el que participo</strong> </p> <p>Los miembros de un equipo del proyecto reciben una notificación por correo electrónico cuando se añade un problema al proyecto.</p> <p>Se envía una notificación solo si el estado del proyecto es Actual.</p> <p>El asunto del correo electrónico de notificación instantánea es: <em>[!UICONTROL Issue added to] &lt;Nombre del proyecto&gt;</em></p> <p> </p> <p> El asunto de la notificación de resumen diario es <em> [!UICONTROL Digest of Projects You're On] &lt;Fecha del resumen diario&gt;</em></p> </td> 
+   <td> <p><strong>Se añade un problema a un proyecto en el que participo</strong> </p> <p>Los miembros de un equipo del proyecto reciben una notificación por correo electrónico cuando se añade un problema al proyecto.</p> <p>Se envía una notificación solo si el estado del proyecto es Actual.</p> <p>El asunto del correo electrónico de notificación instantánea es: <em>[!UICONTROL Issue added to] &lt;Nombre del proyecto&gt;</em></p> <p> </p> <p> El asunto de la notificación de resumen diario es <em> [!UICONTROL Digest of Projects You're On] &lt;Date of daily digest&gt; </em></p> </td> 
    <td> Nombre del proyecto<br>Nombre del portafolio<br>Número de referencia del problema<br>Nombre del usuario que ha añadido el problema<br>Nombre del problema<br>Tipo de problema<br>Fecha de entrada<br>Prioridad del problema<br>Asignado al nombre <br>Estado del problema<br>Contacto principal<br>*Nombre del proyecto<br>*Número de referencia del proyecto<br>*Número total de problemas añadidos al proyecto<br>*Nombre del problema<br>*Nombre del usuario asignado al problema<br>*Fecha del resumen diario </td> 
-   <td> <p><strong>Instantáneo</strong> </p> <p><strong>y diariamente</strong> </p> </td> 
+   <td> <p><strong>Instantáneo</strong> </p> <p><strong>y diario</strong> </p> </td> 
   </tr> 
   <tr> 
    <td> <p><strong>Se resuelve un problema en un proyecto en el que participo</strong> </p> <p>Los miembros de un equipo de proyectos reciben una notificación por correo electrónico cuando se resuelve un problema en su proyecto.<br>Para obtener más información sobre el equipo del proyecto, consulte <a href="../../manage-work/projects/planning-a-project/project-team-overview.md" class="MCXref xref">Información general del equipo del proyecto</a>.</p> <p>Solo se envía una notificación si el estado del proyecto es [!UICONTROL Current] o [!UICONTROL Planning].</p> <p>El asunto del correo electrónico de notificación instantánea es <em>[!UICONTROL Complete]: &lt;Nombre del problema&gt; en &lt;Nombre del proyecto&gt;</em></p> <p> El asunto de la notificación de resumen diario es <em> [!UICONTROL Digest of Projects You're On] &lt;Fecha del resumen diario&gt;</em></p> </td> 
@@ -76,7 +83,7 @@ Consulte también [Notificaciones de eventos](../../workfront-basics/using-notif
   <tr> 
    <td> <p><strong>Se añade un problema no asignado a un proyecto en el que participo</strong> </p> <p>Los miembros de un equipo de proyecto reciben una notificación por correo electrónico cuando se añade un problema no asignado al proyecto.</p> <p>Solo se envía una notificación si el estado del proyecto es [!UICONTROL Current].</p> <p>El asunto del correo electrónico de notificación instantánea es: <em>¿[!UICONTROL Who should be assigned to this new issue on] &lt;Nombre de proyecto&gt;?</em></p> <p> El asunto de la notificación de resumen diario es <em> [!UICONTROL Digest of Projects You're On] &lt;Fecha del resumen diario&gt;</em></p> </td> 
    <td> Nombre del proyecto<br>Nombre del portafolio<br>Número de referencia del problema<br>Nombre del usuario que ha añadido el problema<br>Nombre del problema<br>Tipo de problema<br>Fecha de entrada<br>Prioridad del problema<br>Asignado al nombre (vacío) <br>Estado del problema<br>Contacto principal<br>*Nombre del proyecto<br>*Número de referencia del proyecto<br>*Número total de problemas añadidos<br>*Nombre del problema<br>*Nombre del usuario que ha añadido el problema<br>*Fecha del resumen diario<br></td> 
-   <td> <p><strong>Instantáneo</strong> </p> <p><strong>y diariamente</strong> </p> </td> 
+   <td> <p><strong>Instantáneo</strong> </p> <p><strong>y diario</strong> </p> </td> 
   </tr> 
   <tr> 
    <td> <p><strong>Se me añade a un proyecto</strong> </p> <p>El usuario que se ha añadido al proyecto recibe una notificación por correo electrónico cuando se añade, a menos que el usuario se haya añadido a sí mismo al proyecto.</p> <p>Solo se envía una notificación si el estado del proyecto es [!UICONTROL Current].</p> <p>El asunto del correo electrónico de notificación instantánea es <em>[!UICONTROL You've been added to the project] &lt;Nombre del proyecto&gt;</em></p> <p> El asunto de la notificación de resumen diario es <em> [!UICONTROL Digest of Projects You're On] &lt;Fecha del resumen diario&gt;</em></p> </td> 

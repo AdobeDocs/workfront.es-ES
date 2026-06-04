@@ -6,10 +6,20 @@ description: Puede configurar ciertos ajustes de acceso y suscripción para prue
 author: Courtney
 feature: Digital Content and Documents
 exl-id: f242887b-d768-4d56-b530-a1ac6294b2d4
-source-git-commit: ac714bd5a5259d6f995ac445efbd0125e07022cb
+TQID: https://experienceleague.adobe.com/lcalyeMjj8Vj7hcdgwQx03101gSgocB82uWXHaZCacQ
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '860'
-ht-degree: 42%
+source-wordcount: 823
+ht-degree: 36%
 
 ---
 
@@ -26,7 +36,7 @@ Puede configurar ciertos ajustes de acceso y suscripción para pruebas individua
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td role="rowheader">Paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
@@ -59,7 +69,7 @@ Para configurar los ajustes de acceso y suscripción de una prueba mientras la e
 1. Haga clic en **Agregar nuevo** en el área superior derecha.
 1. Desplácese a la sección **Configuración de prueba** en la esquina inferior derecha de la página **Nueva prueba**.
 
-1. Configure las siguientes opciones:
+1. Configure los siguientes ajustes:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -78,7 +88,7 @@ Para configurar los ajustes de acceso y suscripción de una prueba mientras la e
        </ul><p>
         <ul>
          <li><strong>Se requiere acceso a la prueba mediante un vínculo de correo electrónico para:</strong> Configure si el suscriptor recibe un correo electrónico con un vínculo a la prueba. Puede seleccionar <strong>Sin correo electrónico</strong> (el vínculo de correo electrónico no es necesario para acceder a la prueba), <strong>Solo correo electrónico de notificación de prueba</strong> (el suscriptor recibe un vínculo a la prueba por correo electrónico sin ninguna verificación) o <strong>Correos electrónicos de notificación de validación y prueba</strong> (el suscriptor recibe un vínculo a la prueba por correo electrónico y debe hacer clic en el vínculo para acceder a una prueba, el propósito de esta opción es garantizar que la persona haya escrito una dirección de correo electrónico correcta a la que tenga acceso).</li>
-        </ul><p>Nota:  Si las pruebas tienen un flujo de trabajo automatizado adjunto, todas las suscripciones generarán correos electrónicos de confirmación a los propietarios de la prueba para que puedan decidir a qué fase se debe agregar a la persona.<br></p></p></td> 
+        </ul><p>Nota: Si las pruebas tienen un flujo de trabajo automatizado adjunto, todas las suscripciones generarán correos electrónicos de confirmación a los propietarios de la prueba para que puedan decidir a qué fase se debe agregar a la persona.<br></p></p></td> 
      </tr> 
     </tbody> 
    </table>
@@ -91,7 +101,7 @@ Para configurar los ajustes de acceso y suscripción de una revisión que ya exi
 
 1. En el área Documentos, seleccione el documento que contiene la revisión para la que desea establecer la configuración y haga clic en **Detalles del documento**.
 1. En el panel izquierdo, haga clic en **Configuración del visor de corrección**.
-1. Configure las siguientes opciones:
+1. Configure los siguientes ajustes:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -110,7 +120,7 @@ Para configurar los ajustes de acceso y suscripción de una revisión que ya exi
        </ul><p>
         <ul>
          <li><strong>Se requiere acceso a la prueba mediante un vínculo de correo electrónico para:</strong> Configure si el suscriptor recibe un correo electrónico con un vínculo a la prueba. Puede seleccionar <strong>Sin correo electrónico</strong> (el vínculo de correo electrónico no es necesario para acceder a la prueba), <strong>Solo correo electrónico de notificación de prueba</strong> (el suscriptor recibe un vínculo a la prueba por correo electrónico sin ninguna verificación) o <strong>Correos electrónicos de notificación de validación y prueba</strong> (el suscriptor recibe un vínculo a la prueba por correo electrónico y debe hacer clic en el vínculo para acceder a una prueba, el propósito de esta opción es garantizar que la persona haya escrito una dirección de correo electrónico correcta a la que tenga acceso).</li>
-        </ul><p>Nota:  Si las pruebas tienen un flujo de trabajo automatizado adjunto, todas las suscripciones generarán correos electrónicos de confirmación a los propietarios de la prueba para que puedan decidir a qué fase se debe agregar a la persona.<br></p></p></td> 
+        </ul><p>Nota: Si las pruebas tienen un flujo de trabajo automatizado adjunto, todas las suscripciones generarán correos electrónicos de confirmación a los propietarios de la prueba para que puedan decidir a qué fase se debe agregar a la persona.<br></p></p></td> 
      </tr> 
     </tbody> 
    </table>

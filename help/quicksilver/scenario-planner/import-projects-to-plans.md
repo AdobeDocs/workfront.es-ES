@@ -6,12 +6,24 @@ description: Puede importar proyectos existentes en un plan. Los proyectos impor
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 20429bb1-c158-433b-9790-325cd577248e
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/yZ3-dqcetTEtRr3-SBAMrsmEE0JcW-DhOOhO9dPsakM
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: d3382524-5489-431b-bde9-271ab257bc37
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1677'
-ht-degree: 3%
+source-wordcount: 1679
+ht-degree: 4%
 
 ---
 
@@ -185,7 +197,7 @@ Al importar un proyecto en un plan, parte de la información del proyecto tambi�
 >
 >Ocurren lo siguiente:
 >
->* Los cambios en el proyecto nunca afectan a la iniciativa después de importar el proyecto al plan. Estos cambios incluyen cambios en las asignaciones de roles.
+>* Los cambios en el proyecto nunca afectan a la iniciativa después de importar el proyecto en el plan.Estos cambios incluyen cambios en las asignaciones de funciones del puesto.
 >* Los cambios que se realicen en la iniciativa afectan a la información del área [!DNL Scenario Planner] del proyecto únicamente cuando se publica la iniciativa en el proyecto correspondiente. De lo contrario, no afectarán la información de [!UICONTROL Horas planificadas] para las tareas y problemas del proyecto.
 >
 >  Para obtener información acerca de cómo la publicación de iniciativas afecta a los proyectos vinculados, vea [Actualizar o crear proyectos mediante la publicación de iniciativas en el Scenario Planner](../scenario-planner/publish-scenarios-update-projects.md).

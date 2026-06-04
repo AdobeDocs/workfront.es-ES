@@ -6,9 +6,21 @@ description: Comparta documentos revisados en Adobe Workfront mediante el uso co
 author: Courtney
 feature: Digital Content and Documents
 exl-id: a5438db3-6507-4ebc-a27c-65f02c45783e
-source-git-commit: ac714bd5a5259d6f995ac445efbd0125e07022cb
+TQID: https://experienceleague.adobe.com/2fQRZtOWmMXOPEq-NDvyHTVsM6SQuOj-V8UtrAys6y8
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1157'
+source-wordcount: 1164
 ht-degree: 94%
 
 ---
@@ -32,7 +44,7 @@ Como se explica en este artículo, al compartir la prueba el destinatario tendr�
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td role="rowheader">Paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
@@ -95,7 +107,7 @@ Al compartir un vínculo de prueba, los usuarios de Workfront podrán ver el acc
           <tbody>
            <tr>
             <td role="rowheader">Enviar vínculo público</td>
-            <td><p>Incluye un botón en la notificación por correo electrónico que dirige a los usuarios a la prueba dentro del visor de corrección que están utilizando y concede acceso de visualización.</p><p>Si la opción <strong>Suscribirse a la prueba mediante una dirección URL pública o código incrustado</strong> está desactivada para la prueba, los usuarios podrán iniciar sesión con sus credenciales de inicio de sesión de Workfront para añadir comentarios a ella. Si está activada, cualquier persona que facilite su dirección de correo electrónico y nombre (no se necesita contraseña) puede firmar y añadir comentarios a la prueba.</p></td>
+            <td><p>Incluye un botón en la notificación por correo electrónico que dirige a los usuarios a la revisión dentro del visor de corrección que están utilizando y concede acceso de visualización.</p><p>Si la opción <strong>Suscribirse a la prueba mediante una dirección URL pública o código incrustado</strong> está desactivada para la prueba, los usuarios podrán iniciar sesión con sus credenciales de inicio de sesión de Workfront para añadir comentarios a ella. Si está activada, cualquier persona que facilite su dirección de correo electrónico y nombre (no se necesita contraseña) puede firmar y añadir comentarios a la prueba.</p></td>
            </tr>
            <tr>
             <td role="rowheader">Enviar vínculo de descarga</td>
@@ -127,7 +139,7 @@ Añada a cualquier usuario de Workfront a la prueba en caso de disponer de derec
 
 >[!NOTE]
 >
->Tenga en cuenta lo siguiente al usar un plan de Workfront heredado en el que las pruebas se puedan habilitar y deshabilitar para un usuario:
+>Tenga en cuenta lo siguiente al usar un plan de Workfront heredado en el que las revisiones se puedan habilitar y deshabilitar para un usuario:
 >
 >* Los destinatarios no necesitan tener la revisión habilitada para poder revisar pruebas.
 >* Cuando el flujo de trabajo automatizado está habilitado y añade un usuario a la prueba que no tiene la revisión habilitada en Workfront, se crea una nueva fase dentro del flujo de trabajo automatizado. El usuario que está añadiendo se añade automáticamente a esta nueva fase cuando ve la prueba por primera vez. (Para obtener más información, consulte [Información general sobre flujos de trabajo automatizados](../../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md)).
@@ -154,7 +166,7 @@ Añada a cualquier usuario de Workfront a la prueba en caso de disponer de derec
 
 Es posible añadir usuarios a pruebas mientras se revisan en el Visualizador de revisión web y en el Visualizador de revisión de escritorio.
 
-Para obtener más información, consulte [Compartir una prueba añadiéndole usuarios](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/share-a-proof-in-proofing-viewer.md#sharing-with-individual-users) en el artículo [Compartir una prueba desde el visualizador de pruebas](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/share-a-proof-in-proofing-viewer.md)
+Para obtener más información, consulte [Compartir una revisión añadiéndole usuarios](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/share-a-proof-in-proofing-viewer.md#sharing-with-individual-users) en el artículo [Compartir una revisión desde el visualizador de revisiones](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/share-a-proof-in-proofing-viewer.md)
 
 ## Informar sobre aprobaciones de revisión
 

@@ -2,19 +2,26 @@
 content-type: tips-tricks-troubleshooting
 product-area: documents
 navigation-topic: tips-tricks-and-troubleshooting-proofing-within-workfront
-title: Probar un PowerPoint con un vídeo incrustado
+title: Revisar un PowerPoint con un vídeo incrustado
 description: Puede revisar una prueba para un PowerPoint con un vídeo incrustado mediante el Visor de pruebas de escritorio.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: b648e273-8062-492d-91b0-2333da095fc5
-source-git-commit: c1ff2136b6f1d4425ef3380615c7da0e0150834c
+TQID: https://experienceleague.adobe.com/tbmiQV-6iEX6qTPjoypoZG-Yo-tNoDWtCkHM7FR-xco
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '181'
-ht-degree: 0%
+source-wordcount: 181
+ht-degree: 7%
 
 ---
 
-# Probar un PowerPoint con un vídeo incrustado
+# Revisar un PowerPoint con un vídeo incrustado
 
 Puede revisar una prueba para un PowerPoint con un vídeo incrustado mediante el Visor de pruebas de escritorio.
 

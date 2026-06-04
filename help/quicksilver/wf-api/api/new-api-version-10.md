@@ -7,10 +7,17 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 8ac384ae-5d65-4c0e-98c1-cf38cfbff460
-source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
+TQID: https://experienceleague.adobe.com/7paMh3l4zsoBaafv6U6pp1M-SQjk-kdmSho9GYa15SU
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '487'
-ht-degree: 39%
+source-wordcount: 484
+ht-degree: 100%
 
 ---
 
@@ -26,8 +33,8 @@ ht-degree: 39%
 
 | Campos | Referencias | Colecciones | Buscar | Acciones | Consultas | Operaciones |
 |---|---|---|---|---|---|---|
-|   |   |   |   |   |   | AÑADIR |
-|   |   |   |   |   |   | RECUENTO |
+|   |   |   |   |   |   | ADD |
+|   |   |   |   |   |   | COUNT |
 |   |   |   |   |   |   | GET |
 |   |   |   |   |   |   | SEARCH |
 
@@ -37,12 +44,12 @@ ht-degree: 39%
 
 | Campos | Referencias | Colecciones | Buscar | Acciones | Consultas | Operaciones |
 |---|---|---|---|---|---|---|
-| Identificador |   |   |   |   |   | AÑADIR |
-|   |   |   |   |   |   | RECUENTO  |
-|   |   |   |   |   |   | DELETE  |
+| ID |   |   |   |   |   | ADD |
+|   |   |   |   |   |   | COUNT  |
+|   |   |   |   |   |   | ELIMINAR  |
 |   |   |   |   |   |   | EDITAR  |
 |   |   |   |   |   |   | GET  |
-|   |   |   |   |   |   | INFORME  |
+|   |   |   |   |   |   | REPORT  |
 |   |   |   |   |   |   | SEARCH |
 
 {style="table-layout:auto"}
@@ -51,10 +58,10 @@ ht-degree: 39%
 
 | Campos | Referencias | Colecciones | Buscar | Acciones | Consultas | Operaciones |
 |---|---|---|---|---|---|---|
-| Identificador |   |   |   |   |   | RECUENTO |
+| ID |   |   |   |   |   | COUNT |
 |   |   |   |   |   |   | GET  |
-|   |   |   |   |   |   | INFORME  |
-|   |   |   |   |   |   | BUSCAR  |
+|   |   |   |   |   |   | REPORT  |
+|   |   |   |   |   |   | SEARCH  |
 
 {style="table-layout:auto"}
 
@@ -62,13 +69,13 @@ ht-degree: 39%
 
 | Campos | Referencias | Colecciones | Buscar | Acciones | Consultas | Operaciones |
 |---|---|---|---|---|---|---|
-| Identificador |   |   |   |   |   | AÑADIR |
-|   |   |   |   |   |   | RECUENTO |
-|   |   |   |   |   |   | DELETE  |
+| ID |   |   |   |   |   | ADD |
+|   |   |   |   |   |   | COUNT |
+|   |   |   |   |   |   | ELIMINAR  |
 |   |   |   |   |   |   | EDITAR  |
 |   |   |   |   |   |   | GET  |
-|   |   |   |   |   |   | INFORME  |
-|   |   |   |   |   |   | BUSCAR  |
+|   |   |   |   |   |   | REPORT  |
+|   |   |   |   |   |   | SEARCH  |
 
 {style="table-layout:auto"}
 
@@ -79,8 +86,8 @@ ht-degree: 39%
 | customerID | cliente |   |   |   |   |   |
 | groupID | grupo |   |   |   |   |   |
 | planLimit |   |   |   |   |   |   |
-| usedLicense |   |   |   |   |   |   |
-| límite de trabajo |   |   |   |   |   |   |
+| usedLicenses |   |   |   |   |   |   |
+| worklimit |   |   |   |   |   |   |
 |   |   |   |   |   |   |   |
 |   |   |   |   |   |   |   |
 
@@ -90,12 +97,12 @@ ht-degree: 39%
 
 | Campos | Referencias | Colecciones | Buscar | Acciones | Consultas | Operaciones |
 |---|---|---|---|---|---|---|
-| customerID | cliente |   |   |   |   | AÑADIR |
-| edTime | usuario |   |   |   |   | RECUENTO |
+| customerID | cliente |   |   |   |   | ADD |
+| edTime | usuario |   |   |   |   | COUNT |
 | firstDayOfWeek |   |   |   |   |   | ELIMINAR |
-| Identificador |   |   |   |   |   | EDITAR |
+| ID |   |   |   |   |   | EDIT |
 | showPTO |   |   |   |   |   | GET |
-| startTime |   |   |   |   |   | INFORME |
+| startTime |   |   |   |   |   | REPORT |
 | userID |   |   |   |   |   | SEARCH |
 | workDate |   |   |   |   |   |   |
 
@@ -107,7 +114,7 @@ Los siguientes recursos existentes se han actualizado con esta versión de la AP
 
 * Las adiciones se enumeran simplemente
 * Las eliminaciones se indican con texto tachado
-* Los cambios se enumeran en la nota después de la tabla
+* Los cambios se enumeran en la nota de después de la tabla
 
 ### Aprobación
 
@@ -134,19 +141,19 @@ Los siguientes recursos existentes se han actualizado con esta versión de la AP
 
 {style="table-layout:auto"}
 
-`<sup>1</sup>`se agregó el validador LESS_THAN_EQUAL
+`<sup>1</sup>`Se ha añadido el validador LESS_THAN_EQUAL
 
 ### BudgetedHour
 
 | Campos | Referencias | Colecciones | Buscar | Acciones | Consultas | Operaciones |
 |---|---|---|---|---|---|---|
-| Identificador |   |   |   |   |   |   |
+| ID |   |   |   |   |   |   |
 
 {style="table-layout:auto"}
 
  
 
-### Preferencias del cliente
+### CustomerPreferences
 
 | Campos | Referencias | Colecciones | Buscar | Acciones | Consultas | Operaciones |
 |---|---|---|---|---|---|---|
@@ -154,7 +161,7 @@ Los siguientes recursos existentes se han actualizado con esta versión de la AP
 
 {style="table-layout:auto"}
 
-<sup>1</sup> cambios en possibleValues
+<sup>1</sup> Cambios en possibleValues
 
 ### DocMetadataLinkGroup
 
@@ -218,7 +225,7 @@ Gasto
 
 {style="table-layout:auto"}
 
-<sup>1</sup> cambios en possibleValues
+<sup>1</sup> Cambia a possibleValues
 
 ### OpTask
 
@@ -228,9 +235,9 @@ Gasto
 
 {style="table-layout:auto"}
 
-El tipo <sup>1</sup> cambió de nulo a booleano
+<sup>1</sup> El tipo ha cambiado de nulo a booleano
 
-### SecciónPortal
+### PortalSection
 
 | Campos | Referencias | Colecciones | Buscar | Acciones | Consultas | Operaciones |
 |---|---|---|---|---|---|---|
@@ -274,7 +281,7 @@ El tipo <sup>1</sup> cambió de nulo a booleano
 
 {style="table-layout:auto"}
 
-<sup>1</sup>AGREGÓ MONEDA DE validador
+<sup>1</sup>añadido validador CURRENCY
 
 ### Tarea
 
@@ -296,17 +303,9 @@ El tipo <sup>1</sup> cambió de nulo a booleano
 
 {style="table-layout:auto"}
 
-<sup>1</sup> agregó el validador LESS_THAN
+<sup>1</sup> Se ha añadido el validador LESS_THAN
 
-### AsignaciónEquipo
-
-| Campos | Referencias | Colecciones | Buscar | Acciones | Consultas | Operaciones |
-|---|---|---|---|---|---|---|
-| `masterTaskID` |   |   |   |   |   |   |
-
-{style="table-layout:auto"}
-
-### TareaEquipo
+### TeamAssignment
 
 | Campos | Referencias | Colecciones | Buscar | Acciones | Consultas | Operaciones |
 |---|---|---|---|---|---|---|
@@ -314,7 +313,15 @@ El tipo <sup>1</sup> cambió de nulo a booleano
 
 {style="table-layout:auto"}
 
-### Hoja de horas
+### TeamTask
+
+| Campos | Referencias | Colecciones | Buscar | Acciones | Consultas | Operaciones |
+|---|---|---|---|---|---|---|
+| `masterTaskID` |   |   |   |   |   |   |
+
+{style="table-layout:auto"}
+
+### Plantilla de horas
 
 | Campos | Referencias | Colecciones | Buscar | Acciones | Consultas | Operaciones |
 |---|---|---|---|---|---|---|
@@ -330,7 +337,7 @@ El tipo <sup>1</sup> cambió de nulo a booleano
 
 {style="table-layout:auto"}
 
-<sup>1</sup> cambios en possibleValues
+<sup>1</sup> cambia a possibleValues
 
 ### Usuario
 
@@ -348,7 +355,7 @@ El tipo <sup>1</sup> cambió de nulo a booleano
 
 {style="table-layout:auto"}
 
-<sup>1</sup> cambios en possibleValues
+<sup>1</sup> cambia a possibleValues
 
 ### Trabajo
 
@@ -360,7 +367,7 @@ El tipo <sup>1</sup> cambió de nulo a booleano
 
 {style="table-layout:auto"}
 
-El tipo <sup>1</sup> cambió de nulo a booleano
+<sup>1</sup> El tipo ha cambiado de nulo a booleano
 
 ## Recursos eliminados {#removed-resources}
 
@@ -368,12 +375,12 @@ El tipo <sup>1</sup> cambió de nulo a booleano
 
 | Campos | Referencias | Colecciones | Buscar | Acciones | Consultas | Operaciones |
 |---|---|---|---|---|---|---|
-| allocationDate |   |   |   |   |   | AÑADIR  |
-| budgetHours |   |   |   |   |   | RECUENTO  |
-| Identificador |   |   |   |   |   | DELETE  |
-| plannedBudgetedHours |   |   |   |   |   | EDITAR  |
+| allocationDate |   |   |   |   |   | ADD  |
+| Horas presupuestadas |   |   |   |   |   | COUNT  |
+| ID |   |   |   |   |   | DELETE  |
+| plannedBudgetedHours |   |   |   |   |   | EDIT  |
 | projectID |   |   |   |   |   | GET  |
-| roleID |   |   |   |   |   | INFORME  |
+| roleID |   |   |   |   |   | REPORT  |
 | userID |   |   |   |   |   | SEARCH |
 
 {style="table-layout:auto"}

@@ -6,10 +6,19 @@ description: Es posible quitar los permisos de otros usuarios en los objetos a l
 author: Alina
 feature: Get Started with Workfront
 exl-id: 8e191b5e-31df-4291-8b9d-9ca69be27561
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+TQID: https://experienceleague.adobe.com/IJ79CqrncfDUAsrRiOqnoCIWMHgyotIEP5-kJO8h5pE
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '767'
-ht-degree: 78%
+source-wordcount: 738
+ht-degree: 77%
 
 ---
 
@@ -82,7 +91,7 @@ Es posible quitar entidades (usuarios, funciones, equipos, grupos y empresas) de
       ![compartir](assets/new-share-button.png)
    1. Busque el usuario, la función, el equipo, el grupo o la compañía que quiera quitar del objeto.
    1. Haga clic en **Quitar**.
-En el menú desplegable **Quitar &lt; User Name > de**, seleccione si desea que su acceso se elimine solo del objeto seleccionado o de todos los objetos secundarios asociados a él.
+En el menú desplegable **Quitar &lt; Nombre de usuario > de**, seleccione si desea que su acceso se elimine sólo del objeto que ha seleccionado, o de todos los objetos secundarios asociados a él.
 
       ![quitar](assets/remove-permissions-on-project-nwe-350x479.png)
 

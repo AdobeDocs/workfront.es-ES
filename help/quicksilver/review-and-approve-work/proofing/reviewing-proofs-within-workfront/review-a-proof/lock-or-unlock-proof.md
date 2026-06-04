@@ -6,9 +6,18 @@ description: Durante el proceso de revisión, se puede bloquear y desbloquear ma
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 39dc8c17-b087-4c7c-be19-3bbe93577966
-source-git-commit: 385f4a6663cacfdcf519bf5699fc1840c2cb2adc
+TQID: https://experienceleague.adobe.com/7G9-SDd45bYCFByK64Ro7cIgItOQdbVWwDve-2-4IGs
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '330'
+source-wordcount: 330
 ht-degree: 63%
 
 ---
@@ -26,7 +35,7 @@ Durante el proceso de revisión, se puede bloquear y desbloquear manualmente una
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td role="rowheader">Paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
@@ -69,7 +78,7 @@ Para bloquear una prueba:
 
 ## Desbloquear una prueba
 
-Desbloquear una prueba resulta útil cuando se necesita que los revisores añadan comentarios a la versión anterior de una prueba. (Una versión anterior siempre está bloqueada hasta que el propietario de la prueba la desbloquea manualmente). Cuando los revisores hayan terminado de agregar comentarios a la versión anterior, puede volver a bloquearla. Para obtener más información sobre cómo ver la versión anterior de una prueba, consulte [Ver versiones de prueba anteriores en el Visor de corrección web](../../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/view-previous-proof-versions.md).
+Desbloquear una prueba resulta útil cuando se necesita que los revisores añadan comentarios a la versión anterior de una prueba. (Una versión anterior siempre está bloqueada hasta que el propietario de la prueba la desbloquea manualmente). Cuando los revisores hayan terminado de agregar comentarios a la versión anterior, puede volver a bloquearla. Para obtener más información sobre cómo ver la versión anterior de una revisión, consulte [Ver versiones de revisión anteriores en el Visor de corrección web](../../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/view-previous-proof-versions.md).
 
 Para desbloquear una prueba:
 

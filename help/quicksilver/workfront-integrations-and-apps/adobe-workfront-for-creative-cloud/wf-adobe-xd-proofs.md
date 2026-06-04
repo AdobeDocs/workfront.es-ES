@@ -6,9 +6,22 @@ description: Puede cargar las mesas de trabajo como pruebas directamente en Adob
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: d6699fd7-f130-4231-8713-0cfa8dc3c910
-source-git-commit: a65a4568c6428768ee6bc60a59a8499efdbec9f8
+TQID: https://experienceleague.adobe.com/5hqDm2la-PWL4l7MghSST8VhSx0eeQoJt5eVClY5yrw
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1000'
+source-wordcount: 1014
 ht-degree: 93%
 
 ---
@@ -97,7 +110,7 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
       <td role="rowheader">[!UICONTROL Automated]</td> 
       <td> <p>Los administradores generan previamente los procesos de aprobación automatizados, que incluyen revisores y fases específicos. Para más información, consulte <a href="../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md" class="MCXref xref">Información general sobre el flujo de trabajo automatizado</a>.</p> 
        <ul> 
-        <li> <p>Elija una [!UICONTROL Workflow Template] en el menú desplegable.</p> </li> 
+        <li> <p>Elija una [!UICONTROL Plantilla de flujo de trabajo] en el menú desplegable.</p> </li> 
        </ul> </td> 
      </tr> 
     </tbody> 
@@ -173,7 +186,7 @@ Puede crear una prueba interactiva para las mesas de trabajo con el complemento 
       <td role="rowheader">[!UICONTROL Automated]</td> 
       <td> <p>Los administradores generan previamente los procesos de aprobación automatizados, que incluyen revisores y fases específicos. Para más información, consulte <a href="../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md" class="MCXref xref">Información general sobre el flujo de trabajo automatizado</a>.</p> 
        <ul> 
-        <li> <p>Elija una [!UICONTROL Workflow Template] en el menú desplegable.</p> </li> 
+        <li> <p>Elija una [!UICONTROL Plantilla de flujo de trabajo] en el menú desplegable.</p> </li> 
        </ul> </td> 
      </tr> 
     </tbody> 
@@ -194,7 +207,7 @@ Puede crear una prueba interactiva para las mesas de trabajo con el complemento 
 
    >[!IMPORTANT]
    >
-   >Los usuarios deben tener acceso al [!UICONTROL Visor de corrección de escritorio] para revisar y aprobar las pruebas interactivas. Para obtener más información, consulte [Instalación del [!UICONTROL visor de corrección de escritorio]](../../review-and-approve-work/proofing/use-the-desktop-proofing-viewer/installing-desktop-proofing-viewer.md).
+   >Los usuarios deben tener acceso al [!UICONTROL Visor de corrección de escritorio] para revisar y aprobar las revisiones interactivas. Para obtener más información, consulte [Instalación del [!UICONTROL visor de corrección de escritorio]](../../review-and-approve-work/proofing/use-the-desktop-proofing-viewer/installing-desktop-proofing-viewer.md).
 
 ## Carga de una nueva versión de prueba
 
@@ -232,7 +245,7 @@ Puede cargar una nueva versión de una prueba. El complemento recuerda el flujo 
       <td role="rowheader">[!UICONTROL Automated]</td> 
       <td> <p>Los administradores generan previamente los procesos de aprobación automatizados, que incluyen revisores y fases específicos. Para más información, consulte <a href="../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md" class="MCXref xref">Información general sobre el flujo de trabajo automatizado</a>.</p> 
        <ul> 
-        <li> <p>Elija una [!UICONTROL Workflow Template] en el menú desplegable.</p> </li> 
+        <li> <p>Elija una [!UICONTROL Plantilla de flujo de trabajo] en el menú desplegable.</p> </li> 
        </ul> </td> 
      </tr> 
     </tbody> 
@@ -255,4 +268,4 @@ Puede cargar una nueva versión de una prueba. El complemento recuerda el flujo 
    Opciones de PDF
 
 1. Haga clic en **[!UICONTROL Cargar]**\
-   El documento aparece en el área [!UICONTROL Documentos] en el complemento y en la aplicación de escritorio.
+   El documento aparece en el área [!UICONTROL Documentos] del complemento y de la aplicación de escritorio.

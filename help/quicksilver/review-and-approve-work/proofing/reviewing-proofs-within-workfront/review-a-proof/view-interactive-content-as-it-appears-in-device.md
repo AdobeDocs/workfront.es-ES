@@ -6,10 +6,19 @@ description: Puede obtener una vista previa del aspecto de una revisión interac
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 99165790-0c34-4540-92d9-956ae178a874
-source-git-commit: 385f4a6663cacfdcf519bf5699fc1840c2cb2adc
+TQID: https://experienceleague.adobe.com/hIjZkmGSimSsJQBcnzDK2xcuDVMq7X3-y692PchHklk
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '517'
-ht-degree: 98%
+source-wordcount: 522
+ht-degree: 99%
 
 ---
 
@@ -26,7 +35,7 @@ Puede obtener una vista previa del aspecto de una revisión interactiva en vario
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td role="rowheader">Paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
@@ -89,7 +98,7 @@ El administrador de Adobe Workfront ha configurado el sistema para que revise el
 1. Haga clic en **Adaptable** en la parte inferior central del visor de corrección.
 1. Escriba una resolución **adaptable** personalizada.
 
-    ![Type_a_custom_resolution_DPV.png](assets/type-a-custom-resolution-dpv.png)
+   ![Type_a_custom_resolution_DPV.png](assets/type-a-custom-resolution-dpv.png)
 
    O
 

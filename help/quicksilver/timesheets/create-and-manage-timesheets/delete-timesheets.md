@@ -1,19 +1,32 @@
 ---
 product-area: timesheets
 navigation-topic: create-and-manage-timesheets
-title: Eliminación de plantillas de horas en Adobe Workfront
+title: Eliminar plantillas de horas en Adobe Workfront
 description: Los cambios que realice en un perfil de plantilla de horas no entrarán en vigor de inmediato en las plantillas existentes, como se explica en Crear, editar y asignar perfiles de plantilla de horas. Para que los cambios sean visibles en las plantillas de horas existentes, debe eliminar las que se hayan generado y generar nuevas. Esto solo se aplica a las hojas de horas que se han generado al asociar perfiles de hojas de horas con usuarios.
 author: Alina
 feature: Timesheets
 exl-id: c6a86c1b-8580-4896-8933-d4e2818e98ed
-source-git-commit: 69cd5fb1d089b81b7a1673609b92537137b6b68e
+TQID: https://experienceleague.adobe.com/kgFaOSFwNQIjArobJBWf5kT19pS8k0an1O05IIYxg9E
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '751'
-ht-degree: 40%
+source-wordcount: 755
+ht-degree: 42%
 
 ---
 
-# Eliminación de plantillas de horas en Adobe Workfront
+# Eliminar plantillas de horas en Adobe Workfront
 
 Los cambios que realice en un perfil de hoja de horas no entrarán en vigor de inmediato en las hojas de horas existentes, como se explica en [Crear, editar y asignar perfiles de hoja de horas](../../timesheets/create-and-manage-timesheets/create-timesheet-profiles.md). Para que los cambios sean visibles en las plantillas de horas existentes, debe eliminar las que se hayan generado y generar nuevas. Esto solo se aplica a las hojas de horas que se han generado al asociar perfiles de hojas de horas con usuarios.
 
@@ -23,7 +36,7 @@ Los cambios que realice en un perfil de hoja de horas no entrarán en vigor de i
 
 Los administradores de Adobe Workfront o de grupos pueden generar plantillas de horas para todos los miembros del sistema. Para obtener más información sobre la generación manual de plantillas de horas, consulte:
 
-* [Generar manualmente hojas de horas](../../timesheets/create-and-manage-timesheets/manually-generate-timesheets.md)
+* [Generar plantillas de horas manualmente](../../timesheets/create-and-manage-timesheets/manually-generate-timesheets.md)
 * [Crear y administrar los perfiles de plantillas de horas de un grupo](../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-timesheet-profiles.md)
 
 >[!IMPORTANT]
@@ -42,7 +55,7 @@ Los administradores de Adobe Workfront o de grupos pueden generar plantillas de 
  <col>
  <tbody> 
   <tr> 
-   <td>paquete de Adobe Workfront</td> 
+   <td>Paquete de Adobe Workfront</td> 
    <td><p>Cualquiera</p></td> 
   </tr> 
   <tr> 
@@ -86,7 +99,7 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
 
    >[!NOTE]
    >
-   >Las opciones Mis aprobaciones de plantillas de horas y Mis plantillas de horas no se muestran en la parte superior de la lista de plantillas de horas ni en la lista de filtros si el administrador de Workfront o de un grupo ha eliminado estos filtros de los Controles de lista en el área Configuración o de la Plantilla de diseño.Para obtener más información, consulte los siguientes artículos:
+   >Las opciones Mis aprobaciones de plantillas de horas y Mis plantillas de horas no se muestran en la parte superior de la lista de plantillas de horas ni en la lista de filtros si el administrador de Workfront o de un grupo ha eliminado estos filtros de los Controles de lista en el área Configuración o de la Plantilla de diseño. Para obtener más información, consulte los siguientes artículos:
    >
    >   
    >   

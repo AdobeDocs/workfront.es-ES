@@ -3,16 +3,27 @@ product-area: projects;user-management
 keywords: editar,formularios,enriquecido,texto,especial,formato,campos,personalizado,información,personalizar,objetos
 navigation-topic: work-with-custom-forms
 title: Editar información en campos de formularios personalizados
-description: Puede editar la información de un formulario personalizado después de adjuntar el formulario a un objeto. Para obtener información sobre cómo agregar formularios personalizados a objetos, consulte Agregar un formulario personalizado a un objeto.
+description: Puede editar información sobre un formulario personalizado después de adjuntarlo a un objeto. Para obtener información sobre cómo agregar formularios personalizados a objetos, consulte Agregar un formulario personalizado a un objeto.
 author: Alina
 feature: Get Started with Workfront
 exl-id: c2b6afde-91a8-4e17-8e1a-3428b48e500a
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/JfnVyJAxwaCJ8BeCOo3gP783O8L8GtAegswSceEhYfo
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1222'
-ht-degree: 12%
+source-wordcount: 1231
+ht-degree: 14%
 
 ---
 
@@ -20,7 +31,7 @@ ht-degree: 12%
 
 <!--Audited: 10/2025-->
 
-Puede editar la información de un formulario personalizado después de adjuntar el formulario a un objeto. Para obtener información acerca de cómo agregar formularios personalizados a objetos, vea [Agregar un formulario personalizado a un objeto](../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md).
+Puede editar información sobre un formulario personalizado después de adjuntarlo a un objeto. Para obtener información acerca de cómo agregar formularios personalizados a objetos, vea [Agregar un formulario personalizado a un objeto](../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md).
 
 ## Requisitos de acceso
 
@@ -145,7 +156,7 @@ Para obtener información sobre qué objetos pueden tener un formulario personal
 1. (Condicional) Para actualizar los campos personalizados de un formulario personalizado de iteración, siga estos pasos:
 
    1. Vaya a una iteración.
-   1. Haga clic en **Formularios personalizados** en el panel izquierdo. 
+   1. Haga clic en **Formularios personalizados** en el panel izquierdo.
    1. Para agregar formularios personalizados, empiece a escribir el nombre de un formulario en el campo **Agregar formulario personalizado** en la esquina superior derecha de la página
 
       O

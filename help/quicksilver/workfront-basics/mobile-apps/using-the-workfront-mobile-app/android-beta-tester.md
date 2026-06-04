@@ -6,10 +6,15 @@ description: Revise este artículo para ser un probador beta de Android para la 
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 84188dec-301b-40f6-a2a3-5e7befae1dc9
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+TQID: https://experienceleague.adobe.com/arOfto6GhoowpA9jfSqDUMyT-sPqyKYYOAFltwDwBFY
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '323'
-ht-degree: 98%
+source-wordcount: 311
+ht-degree: 94%
 
 ---
 
@@ -25,7 +30,7 @@ Puede usar [!DNL Google Play Store] para buscar y descargar la aplicación:
 
 1. Acceda a la aplicación de [!DNL Play Store] en su dispositivo.
 1. Busque [!DNL Workfront] y, a continuación, puntee en él cuando aparezca en la lista.
-Debe instalar la aplicación de [!DNL Workfront] antes de unirse a la versión beta.
+Debe instalar la aplicación [!DNL Workfront] antes de unirse a la versión beta.
 1. Instale y abra la aplicación de [!DNL Workfront] si aún no lo ha hecho.
 1. Desplácese hacia la mitad de la página y pulse **[!UICONTROL Unirse ahora]** en la sección **[!UICONTROL Convertirse en probador beta]**.
 

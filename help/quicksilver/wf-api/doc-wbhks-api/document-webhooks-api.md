@@ -3,21 +3,28 @@ filename: document-webhooks-api
 content-type: api
 product-area: documents
 navigation-topic: workfront-api
-title: 'API de Document Webhooks: índice de artículos'
+title: 'API de webhooks de documentos: índice de artículos'
 description: Temas de la API de webhooks de documentos
 author: Becky
 feature: Workfront API
 role: Developer
 recommendations: noDisplay, noCatalog
 exl-id: e946c988-6a97-4ef1-a381-4b3bd10ced99
-source-git-commit: 48de4553478fc42d88d81ea953440337f6684e50
+TQID: https://experienceleague.adobe.com/WeGN2l38bnmcv-9mzj7vEQoWgQl8Y7sRiE2Q9ftaMCE
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '113'
-ht-degree: 84%
+source-wordcount: 113
+ht-degree: 92%
 
 ---
 
-# API de Document Webhooks: índice de artículos
+# API de webhooks de documentos: índice de artículos
 
 <!-- Audited: 5/2025 -->
 

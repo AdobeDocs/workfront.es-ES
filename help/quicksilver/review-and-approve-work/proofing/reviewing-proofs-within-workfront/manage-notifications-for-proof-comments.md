@@ -6,10 +6,20 @@ description: Al trabajar en una prueba, tanto si es un usuario de Adobe Workfron
 author: Courtney
 feature: Digital Content and Documents
 exl-id: c38e005c-8984-4e99-9527-94a0a6b1071d
-source-git-commit: 385f4a6663cacfdcf519bf5699fc1840c2cb2adc
+TQID: https://experienceleague.adobe.com/2zcWEp77u5Eds1eB9r5UDdIAtNxSv9DdxGDIAd8b4Yw
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '730'
-ht-degree: 20%
+source-wordcount: 731
+ht-degree: 28%
 
 ---
 
@@ -32,7 +42,7 @@ Al trabajar en una prueba, tanto si es un usuario de Adobe Workfront como si es 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td role="rowheader">Paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
@@ -88,11 +98,11 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
      </tr> 
      <tr> 
       <td role="rowheader">Decisión final</td> 
-      <td>Se envía un correo electrónico cuando se toma la decisión final sobre la prueba.<br><p>El diseñador suele utilizar esta alerta porque no es necesario que participe en la discusión de revisión real. Cuando se toma la decisión final, se notifica al diseñador y luego se puede tomar medidas sobre los cambios necesarios.<br></p></td> 
+      <td>Se envía un correo electrónico cuando se toma la decisión final sobre la prueba.<br><p>El diseñador suele utilizar esta alerta porque no es necesario que participe en la discusión de revisión real. Cuando se toma la decisión final, se notifica al diseñador y, a continuación se pueden tomar medidas sobre los cambios necesarios.<br></p></td> 
      </tr> 
      <tr> 
       <td role="rowheader">Resumen por horas</td> 
-      <td>Se envía un correo electrónico al revisor cada hora con un resumen de todos los comentarios, respuestas y decisiones que se han producido en la última hora.<br><p>El correo electrónico se envía únicamente cuando se produce una actividad distinta de la suya en las últimas horas. Si no hay actividad de otros usuarios, no se envía ningún correo electrónico.<br></p><p>Esta alerta es una buena manera de ver una descripción general del proyecto a medida que avanza.</p></td> 
+      <td>Se envía un correo electrónico al revisor cada hora con un resumen de todos los comentarios, respuestas y decisiones que se han producido en la última hora.<br><p>El correo electrónico se envía únicamente cuando se produce una actividad distinta de la suya en la última hora. Si no hay actividad de otros usuarios, no se envía ningún correo electrónico.<br></p><p>Esta alerta es una buena manera de ver una descripción general del proyecto a medida que avanza.</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader">Resumen diario</td> 

@@ -7,10 +7,15 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: d0675dc1-b2d9-4d80-8c12-f26284cfb4cf
-source-git-commit: 842b26177a11225049ef42f779ca77dd81926b74
+TQID: https://experienceleague.adobe.com/FEwGBTsppCVzahbxXInxmIc9nSJ0WjGekoDzZP6YovY
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1141'
-ht-degree: 0%
+source-wordcount: 1140
+ht-degree: 99%
 
 ---
 
@@ -43,10 +48,10 @@ Un objeto AccessLevelPermissions representa un permiso específico para tener ac
           <li>
             <p><b>coreAction</b>
             </p>
-            <p>Se agregaron los siguientes valores posibles:</p>
+            <p>Se añadieron los siguientes valores posibles:</p>
              <ul>
               <li>
-                <p><code>VIEW_COST_RATES</code> (Ver tasas de costo)</p>
+                <p><code>VIEW_COST_RATES</code> (Ver tarifas de coste)</p>
               </li>
               <li>
                 <p><code>VIEW_BILLING_RATES</code> (Ver tarifas de facturación)</p>
@@ -55,7 +60,7 @@ Un objeto AccessLevelPermissions representa un permiso específico para tener ac
                 <p><code>VIEW_GENERAL_FINANCE</code> (Ver finanzas generales)</p>
               </li>
               <li>
-                <p><code>EDIT_COST_RATES</code> (Editar tarifas de costo)</p>
+                <p><code>EDIT_COST_RATES</code> (Editar tarifas de coste)</p>
               </li>
               <li>
                 <p><code>EDIT_BILLING_RATES</code> (Editar tarifas de facturación)</p>
@@ -66,12 +71,12 @@ Un objeto AccessLevelPermissions representa un permiso específico para tener ac
             </ul>
           </li>
           <li>
-            <p><b>acciones prohibidas</b>
+            <p><b>forbiddenActions</b>
             </p>
-            <p>Se agregaron los siguientes valores posibles:</p>
+            <p>Se añadieron los siguientes valores posibles:</p>
             <ul>
               <li>
-                <p><code>VIEW_COST_RATES</code> (Ver tasas de costo)</p>
+                <p><code>VIEW_COST_RATES</code> (Ver tarifas de coste)</p>
               </li>
               <li>
                 <p><code>VIEW_BILLING_RATES</code> (Ver tarifas de facturación)</p>
@@ -80,7 +85,7 @@ Un objeto AccessLevelPermissions representa un permiso específico para tener ac
                 <p><code>VIEW_GENERAL_FINANCE</code> (Ver finanzas generales)</p>
               </li>
               <li>
-                <p><code>EDIT_COST_RATES</code> (Editar tarifas de costo)</p>
+                <p><code>EDIT_COST_RATES</code> (Editar tarifas de coste)</p>
               </li>
               <li>
                 <p><code>EDIT_BILLING_RATES</code> (Editar tarifas de facturación)</p>
@@ -93,10 +98,10 @@ Un objeto AccessLevelPermissions representa un permiso específico para tener ac
           <li>
             <p><b>secondaryActions</b>
             </p>
-            <p>Se agregaron los siguientes valores posibles:</p>
+            <p>Se añadieron los siguientes valores posibles:</p>
             <ul>
               <li>
-                <p><code>VIEW_COST_RATES</code> (Ver tasas de costo)</p>
+                <p><code>VIEW_COST_RATES</code> (Ver tarifas de coste)</p>
               </li>
               <li>
                 <p><code>VIEW_BILLING_RATES</code> (Ver tarifas de facturación)</p>
@@ -105,7 +110,7 @@ Un objeto AccessLevelPermissions representa un permiso específico para tener ac
                 <p><code>VIEW_GENERAL_FINANCE</code> (Ver finanzas generales)</p>
               </li>
               <li>
-                <p><code>EDIT_COST_RATES</code> (Editar tarifas de costo)</p>
+                <p><code>EDIT_COST_RATES</code> (Editar tarifas de coste)</p>
               </li>
               <li>
                 <p><code>EDIT_BILLING_RATES</code> (Editar tarifas de facturación)</p>
@@ -123,7 +128,7 @@ Un objeto AccessLevelPermissions representa un permiso específico para tener ac
 
 ### AccessRequest (ACSREQ)
 
-Si un usuario no tiene acceso a un objeto de Workfront que necesite, puede solicitar acceso a ese objeto. El objeto AccessRequest representa esta solicitud.
+Si un usuario no tiene acceso a un objeto en Workfront que necesita, puede solicitar acceso a ese objeto. El objeto AccessRequest representa esta solicitud.
 
 <table>
   <col/>
@@ -134,12 +139,12 @@ Si un usuario no tiene acceso a un objeto de Workfront que necesite, puede solic
       <td>
         <ul>
           <li>
-            <p><b>acción</b>
+            <p><b>action</b>
             </p>
-            <p>Se agregaron los siguientes valores posibles:</p>
+            <p>Se añadieron los siguientes valores posibles:</p>
             <ul>
               <li>
-                <p><code>VIEW_COST_RATES</code> (Ver tasas de costo)</p>
+                <p><code>VIEW_COST_RATES</code> (Ver tarifas de coste)</p>
               </li>
               <li>
                 <p><code>VIEW_BILLING_RATES</code> (Ver tarifas de facturación)</p>
@@ -148,7 +153,7 @@ Si un usuario no tiene acceso a un objeto de Workfront que necesite, puede solic
                 <p><code>VIEW_GENERAL_FINANCE</code> (Ver finanzas generales)</p>
               </li>
               <li>
-                <p><code>EDIT_COST_RATES</code> (Editar tarifas de costo)</p>
+                <p><code>EDIT_COST_RATES</code> (Editar tarifas de coste)</p>
               </li>
               <li>
                 <p><code>EDIT_BILLING_RATES</code> (Editar tarifas de facturación)</p>
@@ -166,7 +171,7 @@ Si un usuario no tiene acceso a un objeto de Workfront que necesite, puede solic
 
 ### AccessRule (ACSRUL)
 
-Un objeto AccessRule representa un conjunto de reglas en niveles de acceso personalizados que determina cómo los usuarios pueden compartir los proyectos que crean.
+Un objeto AccessRule representa un conjunto de reglas en los niveles de acceso personalizados que determina cómo los usuarios pueden compartir los proyectos que crean.
 
 <table>
   <col/>
@@ -179,10 +184,10 @@ Un objeto AccessRule representa un conjunto de reglas en niveles de acceso perso
           <li>
             <p><b>coreAction</b>
             </p>
-            <p>Se agregaron los siguientes valores posibles:</p>
+            <p>Se añadieron los siguientes valores posibles:</p>
              <ul>
               <li>
-                <p><code>VIEW_COST_RATES</code> (Ver tasas de costo)</p>
+                <p><code>VIEW_COST_RATES</code> (Ver tarifas de coste)</p>
               </li>
               <li>
                 <p><code>VIEW_BILLING_RATES</code> (Ver tarifas de facturación)</p>
@@ -191,7 +196,7 @@ Un objeto AccessRule representa un conjunto de reglas en niveles de acceso perso
                 <p><code>VIEW_GENERAL_FINANCE</code> (Ver finanzas generales)</p>
               </li>
               <li>
-                <p><code>EDIT_COST_RATES</code> (Editar tarifas de costo)</p>
+                <p><code>EDIT_COST_RATES</code> (Editar tarifas de coste)</p>
               </li>
               <li>
                 <p><code>EDIT_BILLING_RATES</code> (Editar tarifas de facturación)</p>
@@ -202,12 +207,12 @@ Un objeto AccessRule representa un conjunto de reglas en niveles de acceso perso
             </ul>
           </li>
           <li>
-            <p><b>acciones prohibidas</b>
+            <p><b>forbiddenActions</b>
             </p>
-            <p>Se agregaron los siguientes valores posibles:</p>
+            <p>Se añadieron los siguientes valores posibles:</p>
             <ul>
               <li>
-                <p><code>VIEW_COST_RATES</code> (Ver tasas de costo)</p>
+                <p><code>VIEW_COST_RATES</code> (Ver tarifas de coste)</p>
               </li>
               <li>
                 <p><code>VIEW_BILLING_RATES</code> (Ver tarifas de facturación)</p>
@@ -216,7 +221,7 @@ Un objeto AccessRule representa un conjunto de reglas en niveles de acceso perso
                 <p><code>VIEW_GENERAL_FINANCE</code> (Ver finanzas generales)</p>
               </li>
               <li>
-                <p><code>EDIT_COST_RATES</code> (Editar tarifas de costo)</p>
+                <p><code>EDIT_COST_RATES</code> (Editar tarifas de coste)</p>
               </li>
               <li>
                 <p><code>EDIT_BILLING_RATES</code> (Editar tarifas de facturación)</p>
@@ -229,10 +234,10 @@ Un objeto AccessRule representa un conjunto de reglas en niveles de acceso perso
           <li>
             <p><b>secondaryActions</b>
             </p>
-            <p>Se agregaron los siguientes valores posibles:</p>
+            <p>Se añadieron los siguientes valores posibles:</p>
             <ul>
               <li>
-                <p><code>VIEW_COST_RATES</code> (Ver tasas de costo)</p>
+                <p><code>VIEW_COST_RATES</code> (Ver tarifas de coste)</p>
               </li>
               <li>
                 <p><code>VIEW_BILLING_RATES</code> (Ver tarifas de facturación)</p>
@@ -241,7 +246,7 @@ Un objeto AccessRule representa un conjunto de reglas en niveles de acceso perso
                 <p><code>VIEW_GENERAL_FINANCE</code> (Ver finanzas generales)</p>
               </li>
               <li>
-                <p><code>EDIT_COST_RATES</code> (Editar tarifas de costo)</p>
+                <p><code>EDIT_COST_RATES</code> (Editar tarifas de coste)</p>
               </li>
               <li>
                 <p><code>EDIT_BILLING_RATES</code> (Editar tarifas de facturación)</p>
@@ -259,7 +264,7 @@ Un objeto AccessRule representa un conjunto de reglas en niveles de acceso perso
 
 ### Aprobación (APPROVAL)
 
-Un elemento de trabajo determinado, como una tarea, un documento o una plantilla de horas, puede requerir que un supervisor u otro usuario firme el elemento de trabajo. Un objeto Approval representa la acción de cerrar sesión en un elemento de trabajo.
+Un elemento de trabajo determinado, como una tarea, un documento o una plantilla de horas, puede requerir que un supervisor u otro usuario firme el elemento de trabajo. Un objeto de aprobación representa la acción de cerrar sesión en un elemento de trabajo.
 
 <table>
   <col/>
@@ -270,7 +275,7 @@ Un elemento de trabajo determinado, como una tarea, un documento o una plantilla
       <td>
         <ul>
           <li>
-            <p>Se agregaron los campos siguientes:
+            <p>Se han añadido los campos siguientes:
             </p>
             <ul>
               <li>
@@ -297,7 +302,7 @@ Un elemento de trabajo determinado, como una tarea, un documento o una plantilla
   </tbody>
 </table>
 
-### Esperando aprobación (AWAPVL)
+### AwaitingApproval (AWAPVL)
 
 <table>
   <tbody>
@@ -306,11 +311,11 @@ Un elemento de trabajo determinado, como una tarea, un documento o una plantilla
       <td>
         <ul>
           <li>
-            <p>Se agregaron las siguientes operaciones:
+            <p>Se han añadido las siguientes operaciones:
             </p>
             <ul>
               <li>
-                <p><b>AGREGAR</b>
+                <p><b>ADD</b>
                 </p>
               </li>
               <li>
@@ -325,9 +330,9 @@ Un elemento de trabajo determinado, como una tarea, un documento o una plantilla
   </tbody>
 </table>
 
-### Línea base (BLIN)
+### Baseline (BLIN)
 
-Las líneas de base son instantáneas del aspecto que tuvo el rendimiento de un proyecto en un momento determinado. Almacenan información clave sobre el proyecto, como fechas clave, progreso, valores de costes e ingresos.
+Las líneas de base son instantáneas del aspecto que ha tenido el rendimiento de un proyecto en un momento determinado. Almacenan información clave sobre el proyecto, como fechas clave, progreso, valores de costes e ingresos.
 
 <table>
   <col/>
@@ -338,7 +343,7 @@ Las líneas de base son instantáneas del aspecto que tuvo el rendimiento de un 
       <td>
         <ul>
           <li>
-            <p>Se agregaron los campos siguientes:
+            <p>Se han añadido los campos siguientes:
             </p>
             <ul>
               <li>
@@ -365,9 +370,9 @@ Las líneas de base son instantáneas del aspecto que tuvo el rendimiento de un 
   </tbody>
 </table>
 
-### Tarea de línea base (BSTSK)
+### BaselineTask (BSTSK)
 
-Las líneas de base son instantáneas del aspecto que tuvo el rendimiento de un proyecto en un momento determinado. Almacenan información clave sobre el proyecto, como fechas clave, progreso, valores de costes e ingresos. Cuando se crea una línea de base, la información de la tarea también se captura en las tareas de línea de base de esa línea de base.
+Las líneas de base son instantáneas del aspecto que ha tenido el rendimiento de un proyecto en un momento determinado. Almacenan información clave sobre el proyecto, como fechas clave, progreso, valores de costes e ingresos. Cuando se crea una línea de base, la información de la tarea también se captura en las tareas de línea de base de esa línea de base.
 
 <table>
   <col/>
@@ -378,7 +383,7 @@ Las líneas de base son instantáneas del aspecto que tuvo el rendimiento de un 
       <td>
         <ul>
           <li>
-            <p>Se agregaron los campos siguientes:
+            <p>Se han añadido los campos siguientes:
             </p>
             <ul>
               <li>
@@ -407,7 +412,7 @@ Las líneas de base son instantáneas del aspecto que tuvo el rendimiento de un 
 
 ### Categoría (CTGY)
 
-Un objeto Category es un formulario personalizado.
+Un objeto de categoría es un formulario personalizado.
 
 <table>
   <col/>
@@ -420,18 +425,18 @@ Un objeto Category es un formulario personalizado.
           <li>
             <p><b>catObjCode</b>:
             </p>
-            <p>Se agregaron los siguientes valores posibles:
+            <p>Se añadieron los siguientes valores posibles:
             <ul>
               <li>
-                <p><code>NLBRCY</code> (Categoría de recursos no laborales)
+                <p><code>NLBRCY</code> (Categoría de recurso no laboral)
                 </p>
               </li>
               <li>
-                <p><code>HOUR</code> (hora)
+                <p><code>HOUR</code> (Hora)
                 </p>
               </li>
               <li>
-                <p><code>RTCRD</code> (Tarjeta de tarifa)
+                <p><code>RTCRD</code> (Tarjeta de tarifas)
                 </p>
               </li>
              </ul>
@@ -440,18 +445,18 @@ Un objeto Category es un formulario personalizado.
           <li>
             <p><b>objTypes</b>:
             </p>
-            <p>Se agregaron los siguientes valores posibles:
+            <p>Se añadieron los siguientes valores posibles:
             <ul>
               <li>
-                <p><code>NLBRCY</code> (Categoría de recursos no laborales)
+                <p><code>NLBRCY</code> (Categoría de recurso no laboral)
                 </p>
               </li>
               <li>
-                <p><code>HOUR</code> (hora)
+                <p><code>HOUR</code> (Hora)
                 </p>
               </li>
               <li>
-                <p><code>RTCRD</code> (Tarjeta de tarifa)
+                <p><code>RTCRD</code> (Tarjeta de tarifas)
                 </p>
               </li>
              </ul>
@@ -463,9 +468,9 @@ Un objeto Category es un formulario personalizado.
   </tbody>
 </table>
 
-### Documento (DOCU)
+### Document (DOCU)
 
-Un objeto Document representa un archivo (como material escrito, imágenes u otras formas de información).
+Un objeto de documento representa un archivo (como material escrito, imágenes u otras formas de información).
 
 <table>
   <col/>
@@ -513,7 +518,7 @@ Un objeto Document representa un archivo (como material escrito, imágenes u otr
   </tbody>
 </table>
 
-### Datos financieros (FINDAT)
+### FinancialData (FINDAT)
 
 <table>
   <col/>
@@ -524,7 +529,7 @@ Un objeto Document representa un archivo (como material escrito, imágenes u otr
       <td>
         <ul>
           <li>
-            <p>Se agregaron los campos siguientes:
+            <p>Se han añadido los campos siguientes:
             </p>
             <ul>
               <li>
@@ -553,7 +558,7 @@ Un objeto Document representa un archivo (como material escrito, imágenes u otr
       <td>
         <ul>
           <li>
-            <p>Se agregaron los campos siguientes:
+            <p>Se han añadido los campos siguientes:
             </p>
             <ul>
               <li>
@@ -580,9 +585,9 @@ Un objeto Document representa un archivo (como material escrito, imágenes u otr
   </tbody>
 </table>
 
-### Entrada de diario (JRNLE)
+### JournalEntry (JRNLE)
 
-El objeto JournalEntry se puede configurar para que registre información sobre campos de objeto específicos cada vez que se modifiquen dichos campos. Cuando un campo está configurado para registrarse como parte del objeto Entrada de cuaderno, se creará una Entrada de cuaderno correspondiente cada vez que se modifique ese campo.
+El objeto JournalEntry se puede configurar para que registre información sobre campos de objeto específicos cada vez que se modifiquen dichos campos. Cuando un campo está configurado para registrarse como parte del objeto Entrada de cuaderno, se creará una entrada de cuaderno correspondiente cada vez que se modifique ese campo.
 
 <table>
   <col/>
@@ -595,7 +600,7 @@ El objeto JournalEntry se puede configurar para que registre información sobre 
           <li>
             <p><b>changeType</b>
             </p>
-            <p>Se agregaron los siguientes valores posibles:</p>
+            <p>Se añadieron los siguientes valores posibles:</p>
             <ul>
               <li>
                 <p><code>AAO</code> (enum.actiontypeenum.assetapproval.opened)</p>
@@ -632,7 +637,7 @@ Un objeto OpTask suele conocerse como Problema. Un problema es un elemento de tr
           <li>
             <p><b>convertToProject</b>:
             </p>
-            <p>Se agregaron los campos siguientes:
+            <p>Se han añadido los campos siguientes:
             <ul>
               <li>
                 <code>copyCategories</code></li><li><code>copyNativeFields</code>
@@ -644,7 +649,7 @@ Un objeto OpTask suele conocerse como Problema. Un problema es un elemento de tr
           <li>
             <p><b>convertToTask</b>:
             </p>
-            <p>Se agregaron los campos siguientes:
+            <p>Se han añadido los campos siguientes:
             <ul>
               <li>
                 <code>copyCategories</code></li><li><code>copyNativeFields</code>
@@ -661,7 +666,7 @@ Un objeto OpTask suele conocerse como Problema. Un problema es un elemento de tr
 
 ### Proyecto (PROJ)
 
-Los proyectos son elementos de trabajo dentro de Workfront y son un bloque de creación principal en la forma en que Workfront ayuda a las personas a realizar su trabajo. Un objeto Project representa un grupo de tareas con un objetivo común y específico.
+Los proyectos son elementos de trabajo dentro de Workfront y son un componente principal en la forma en que Workfront ayuda a las personas a realizar su trabajo. Un objeto Projecto representa un grupo de tareas con un objetivo común y específico.
 
 <table>
   <col/>
@@ -672,7 +677,7 @@ Los proyectos son elementos de trabajo dentro de Workfront y son un bloque de cr
       <td>
         <ul>
           <li>
-            <p>Se agregaron los campos siguientes:
+            <p>Se han añadido los campos siguientes:
             </p>
             <ul>
               <li>
@@ -713,7 +718,7 @@ Los proyectos son elementos de trabajo dentro de Workfront y son un bloque de cr
 </table>
 
 
-### FunciónUsuarioProyecto (PTEAM)
+### ProjectUserRole (PTEAM)
 
 <table>
   <tbody>
@@ -756,7 +761,7 @@ Los proyectos son elementos de trabajo dentro de Workfront y son un bloque de cr
 
 ### QueueDef (QUED)
 
-Un objeto QueueDef representa una cola, que es un proyecto que se ha publicado en el área del servicio de asistencia para permitir a los usuarios enviar problemas al mismo.
+Un objeto QueueDef representa una cola, que es un proyecto que se ha publicado en el área del servicio de asistencia para permitir a los usuarios enviarle problemas.
 
 <table>
   <col/>
@@ -769,10 +774,10 @@ Un objeto QueueDef representa una cola, que es un proyecto que se ha publicado e
           <li>
             <p><b>requestorCoreAction</b>
             </p>
-            <p>Se agregaron los siguientes valores posibles:</p>
+            <p>Se añadieron los siguientes valores posibles:</p>
              <ul>
               <li>
-                <p><code>VIEW_COST_RATES</code> (Ver tasas de costo)</p>
+                <p><code>VIEW_COST_RATES</code> (Ver tarifas de coste)</p>
               </li>
               <li>
                 <p><code>VIEW_BILLING_RATES</code> (Ver tarifas de facturación)</p>
@@ -781,7 +786,7 @@ Un objeto QueueDef representa una cola, que es un proyecto que se ha publicado e
                 <p><code>VIEW_GENERAL_FINANCE</code> (Ver finanzas generales)</p>
               </li>
               <li>
-                <p><code>EDIT_COST_RATES</code> (Editar tarifas de costo)</p>
+                <p><code>EDIT_COST_RATES</code> (Editar tarifas de coste)</p>
               </li>
               <li>
                 <p><code>EDIT_BILLING_RATES</code> (Editar tarifas de facturación)</p>
@@ -794,10 +799,10 @@ Un objeto QueueDef representa una cola, que es un proyecto que se ha publicado e
           <li>
             <p><b>requestorForbiddenActions</b>
             </p>
-            <p>Se agregaron los siguientes valores posibles:</p>
+            <p>Se añadieron los siguientes valores posibles:</p>
             <ul>
               <li>
-                <p><code>VIEW_COST_RATES</code> (Ver tasas de costo)</p>
+                <p><code>VIEW_COST_RATES</code> (Ver tarifas de coste)</p>
               </li>
               <li>
                 <p><code>VIEW_BILLING_RATES</code> (Ver tarifas de facturación)</p>
@@ -806,7 +811,7 @@ Un objeto QueueDef representa una cola, que es un proyecto que se ha publicado e
                 <p><code>VIEW_GENERAL_FINANCE</code> (Ver finanzas generales)</p>
               </li>
               <li>
-                <p><code>EDIT_COST_RATES</code> (Editar tarifas de costo)</p>
+                <p><code>EDIT_COST_RATES</code> (Editar tarifas de coste)</p>
               </li>
               <li>
                 <p><code>EDIT_BILLING_RATES</code> (Editar tarifas de facturación)</p>
@@ -822,7 +827,7 @@ Un objeto QueueDef representa una cola, que es un proyecto que se ha publicado e
   </tbody>
 </table>
 
-### Tasa (TASA)
+### Rate (RATE)
 
 Un objeto Rate representa una tarifa de facturación en Workfront.
 
@@ -833,7 +838,7 @@ Un objeto Rate representa una tarifa de facturación en Workfront.
       <td>
         <ul>
           <li>
-            <p><b>companyID</b></p><p>Se agregaron los siguientes indicadores:
+            <p><b>companyID</b></p><p>Se han añadido los siguientes indicadores:
             </p>
             <ul>
               <li>
@@ -841,7 +846,7 @@ Un objeto Rate representa una tarifa de facturación en Workfront.
                 </p>
               </li>
               <li>
-                <p>DINÁMICO
+                <p>DYNAMIC
                 </p>
               </li>
              </ul>
@@ -866,9 +871,9 @@ Un objeto Rate representa una tarifa de facturación en Workfront.
 </table>
 
 
-### Tarea (TAREA)
+### Task (TASK)
 
-Un objeto Task representa un elemento de trabajo que debe realizarse como un paso hacia el logro de un objetivo final (completar un proyecto).
+Un objeto Tarea representa un elemento de trabajo que debe realizarse como un paso hacia la meta de un objetivo final (completar un proyecto).
 
 <table>
   <col/>
@@ -879,7 +884,7 @@ Un objeto Task representa un elemento de trabajo que debe realizarse como un pas
       <td>
         <ul>
           <li>
-            <p>Se agregaron los campos siguientes:
+            <p>Se han añadido los campos siguientes:
             </p>
             <ul>
               <li>
@@ -920,9 +925,9 @@ Un objeto Task representa un elemento de trabajo que debe realizarse como un pas
   </tbody>
 </table>
 
-### Plantilla (TMPL)
+### Template (TMPL)
 
-Un objeto Template representa un patrón para un proyecto. Los proyectos se pueden crear a partir de plantillas para ahorrar tiempo. Una plantilla contiene un equipo y tareas, que se copiarán en cualquier proyecto creado a partir de la plantilla.
+Un objeto de plantilla representa un patrón para un proyecto. Los proyectos se pueden crear a partir de plantillas para ahorrar tiempo. Una plantilla contiene un equipo y tareas, que se copiarán en cualquier proyecto creado a partir de la plantilla.
 
 <table>
   <col/>
@@ -933,7 +938,7 @@ Un objeto Template representa un patrón para un proyecto. Los proyectos se pued
       <td>
         <ul>
           <li>
-            <p>Se agregaron los campos siguientes:
+            <p>Se han añadido los campos siguientes:
             </p>
             <ul>
               <li>
@@ -955,7 +960,7 @@ Un objeto Template representa un patrón para un proyecto. Los proyectos se pued
 
 ### TemplateTask (TTSK)
 
-Un objeto TemplateTask representa un objeto Task que forma parte de un objeto Template. Las Tareas de plantilla pasan a ser Tareas en el Proyecto en el que se utiliza la Plantilla.<table>
+Un objeto TemplateTask representa un objeto Tarea que forma parte de un objeto Plantilla. Las tareas de plantilla pasan a ser tareas en el proyecto en el que se utiliza la Plantilla.<table>
 <col/>
   <col/>
   <tbody>
@@ -964,7 +969,7 @@ Un objeto TemplateTask representa un objeto Task que forma parte de un objeto Te
       <td>
         <ul>
           <li>
-            <p>Se agregaron los campos siguientes:
+            <p>Se han añadido los campos siguientes:
             </p>
             <ul>
               <li>
@@ -983,7 +988,7 @@ Un objeto TemplateTask representa un objeto Task que forma parte de un objeto Te
   </tbody>
 </table>
 
-### TemplateUserRole (TEAM)
+### TemplateUserRole (TTEAM)
 
 <table>
   <tbody>
@@ -1024,7 +1029,7 @@ Un objeto TemplateTask representa un objeto Task que forma parte de un objeto Te
   </tbody>
 </table>
 
-### Hoja de horas (TSHET)
+### Plantilla de horas (TSHET)
 
 Un objeto Timesheet representa un parte de horas virtual que permite a los usuarios especificar horas trabajadas reales para tareas, proyectos y tipos de horas generales.
 
@@ -1035,7 +1040,7 @@ Un objeto Timesheet representa un parte de horas virtual que permite a los usuar
       <td>
         <ul>
           <li>
-            <p>Se ha eliminado el siguiente campo:
+            <p>Se ha eliminado el campo siguiente:
             </p>
             <ul>
               <li>
@@ -1052,7 +1057,7 @@ Un objeto Timesheet representa un parte de horas virtual que permite a los usuar
 
 ### Actualizar (UPDATE)
 
-Los elementos de trabajo de Workfront se pueden actualizar para mantener a los usuarios informados del estado actual. Un objeto Update representa una de estas actualizaciones. Los usuarios pueden introducir actualizaciones o el sistema de Workfront puede crearlas.
+Los elementos de trabajo de Workfront se pueden actualizar para mantener a los usuarios informados del estado actual. Un objeto de actualización representa una de estas actualizaciones. Los usuarios pueden introducir actualizaciones o el sistema de Workfront puede crearlas.
 
 <table>
   <col/>
@@ -1065,7 +1070,7 @@ Los elementos de trabajo de Workfront se pueden actualizar para mantener a los u
           <li>
             <p><b>updateType</b>
             </p>
-            <p>Se agregaron los siguientes valores posibles:</p>
+            <p>Se añadieron los siguientes valores posibles:</p>
              <ul>
               <li>
                 <p><code>assetapprovalsLockedAllDecisionsMade</code></p>
@@ -1101,7 +1106,7 @@ Los elementos de trabajo de Workfront se pueden actualizar para mantener a los u
 
 ### UserPrefValue (USERPF)
 
-Un objeto UserPrefValue representa una preferencia de usuario.
+Un objeto UserPrefValue representa una preferencia del usuario.
 
 <table>
   <col/>
@@ -1120,9 +1125,9 @@ Un objeto UserPrefValue representa una preferencia de usuario.
   </tbody>
 </table>
 
-### Trabajo (TRABAJO)
+### Work (WORK)
 
-Un objeto Work es una interfaz común que heredan Task y OpTask, y comparte código común entre ambos.
+Un objeto de trabajo es una interfaz común que heredan Tarea y OpTask, y que comparte código común entre ambos.
 
 <table>
   <col/>
@@ -1133,7 +1138,7 @@ Un objeto Work es una interfaz común que heredan Task y OpTask, y comparte cód
       <td>
         <ul>
           <li>
-            <p>Se agregaron los campos siguientes:
+            <p>Se han añadido los campos siguientes:
             </p>
             <ul>
               <li>

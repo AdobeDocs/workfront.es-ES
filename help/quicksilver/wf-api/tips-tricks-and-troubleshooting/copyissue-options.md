@@ -7,21 +7,30 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: a2b8ef01-1c14-47a5-8b0a-550b17b526ff
-source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
+TQID: https://experienceleague.adobe.com/9cDJFoKl6zqpaAvqzpGqzflcbGZNrAWvEnUAFuqD-Rc
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: b58ad82f-df6b-4b01-81a3-3a02ab9567a0
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '122'
-ht-degree: 4%
+source-wordcount: 122
+ht-degree: 100%
 
 ---
 
 # Configuración de opciones para OPTASK copyIssue
 
 
-Una de las propiedades de una llamada API copyIssue es un campo denominado `options`. Este campo espera un entero.
+Una de las propiedades de una llamada API copyIssue es un campo denominado `options`. Este campo espera un número entero.
 
-Para incluir una de las siguientes opciones, introduzca el entero coincidente. Para incluir más de una opción, introduzca la suma de los enteros coincidentes.
+Para incluir una de las siguientes opciones, introduzca el número entero correspondiente. Para incluir más de una opción, introduzca la suma de los números enteros correspondientes.
 
-| opción | valor* |
+| Opción | valor * |
 |---|---|
 | Borrar asignaciones | 2 |
 | Borrar progreso | 4 |
@@ -34,9 +43,9 @@ Para incluir una de las siguientes opciones, introduzca el entero coincidente. P
 
 Ejemplos:
 
-* Para borrar el progreso al copiar el problema, ingrese un valor `options` de `4`.
+* Para borrar el progreso al copiar el problema, introduzca un valor `options` de `4`.
 
-* Para borrar tanto el progreso como los documentos, ingrese un valor `options` de `132`.
+* Para borrar tanto el progreso como los documentos, introduzca un valor `options` de `132`.
 
   Borrar progreso = 4
 

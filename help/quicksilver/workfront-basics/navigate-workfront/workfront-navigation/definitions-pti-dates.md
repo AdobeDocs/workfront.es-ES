@@ -6,9 +6,16 @@ description: Este artículo proporciona definiciones de las fechas más comunes 
 feature: Get Started with Workfront
 author: Alina
 exl-id: 3808200f-a573-4c39-8965-b254f69c893c
-source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
+TQID: https://experienceleague.adobe.com/cubl7FHYyEeWbxpkMggRQOXPhHCnFWmn8Picjk77-hA
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '2357'
+source-wordcount: 2359
 ht-degree: 97%
 
 ---
@@ -39,13 +46,13 @@ Puede indicar de forma manual cuándo comenzó el trabajo en una tarea o un prob
 
 >[!TIP]
 >
->Es posible que la [!UICONTROL fecha real de inicio] no coincida con la [!UICONTROL fecha planificada de inicio] de un proyecto, una tarea o un problema, ya que el usuario puede comenzar a trabajar más tarde o antes de la fecha planificada.
+>Es posible que la [!UICONTROL fecha real de inicio] no coincida con la [!UICONTROL fecha de inicio planificada] de un proyecto, una tarea o un problema, ya que el usuario puede comenzar a trabajar más tarde o antes de la fecha planificada.
 
 Para obtener más información, consulte [Información general sobre el proyecto [!UICONTROL Fecha real de inicio]](../../../manage-work/projects/planning-a-project/project-actual-start-date.md).
 
 >[!NOTE]
 >
->La tarea [!UICONTROL Debe comenzar el] o las restricciones de fechas fijas afectan a la [!UICONTROL fecha planificada de inicio] de una tarea, no a la [!UICONTROL fecha real de inicio]. Esto actualiza la [!UICONTROL Fecha planificada de inicio] a la fecha que especifique. La [!UICONTROL fecha real de inicio] se actualiza independientemente de la [!UICONTROL fecha planificada de inicio], tal como se ha descrito antes.
+>La tarea [!UICONTROL Debe comenzar el] o las restricciones de fechas fijas afectan a la [!UICONTROL fecha de inicio planificada] de una tarea, no a la [!UICONTROL fecha real de inicio]. Esto actualiza la [!UICONTROL Fecha de inicio planificada] a la fecha que especifique. La [!UICONTROL fecha real de inicio] se actualiza independientemente de la [!UICONTROL fecha de inicio planificada], tal como se ha descrito antes.
 
 ![Fecha real de inicio en la tarea de edición](assets/actual-start-date-on-edit-task-highlighted-nwe-350x251.png)
 
@@ -269,13 +276,13 @@ Los siguientes son valores posibles para el indicador Alineación de fechas plan
 
 La alineación de fechas planificada es visible en las listas de proyectos, tareas y problemas y en los informes.
 
-## [!UICONTROL Fecha planificada de inicio]
+## [!UICONTROL Fecha de inicio planificada]
 
-La [!UICONTROL Fecha planificada de inicio] es la fecha en la que se planea iniciar un proyecto, tarea o problema.
+La [!UICONTROL Fecha de inicio planificada] es la fecha en la que se planea iniciar un proyecto, tarea o problema.
 
-Según la [!UICONTROL Restricción de tarea], es posible que no pueda editar la [!UICONTROL Fecha planificada de inicio] de una tarea. Según el [!UICONTROL Modo de programación] del proyecto, es posible que no pueda editar la [!UICONTROL Fecha planificada de inicio] de un proyecto.
+Según la [!UICONTROL Restricción de tarea], es posible que no pueda editar la [!UICONTROL Fecha de inicio planificada] de una tarea. Según el [!UICONTROL Modo de programación] del proyecto, es posible que no pueda editar la [!UICONTROL Fecha de inicio planificada] de un proyecto.
 
-Para obtener más información, consulte [Información general sobre el proyecto [!UICONTROL Fecha planificada de inicio]](../../../manage-work/projects/planning-a-project/project-planned-start-date.md).
+Para obtener más información, consulte [Información general sobre el proyecto [!UICONTROL Fecha de inicio planificada]](../../../manage-work/projects/planning-a-project/project-planned-start-date.md).
 
 ![Fecha planificada de inicio en la tarea de edición](assets/planned-start-date-on-edit-task-highlighted-nwe.png)
 
@@ -295,7 +302,7 @@ Para obtener más información, consulte [Información general sobre la [!UICONT
 
 La [!UICONTROL Fecha proyectada de inicio] es una fecha en tiempo real de cuando comienza el proyecto, tarea o problema, y tiene en cuenta todos los retrasos. Esta es una fecha de inicio del proyecto, tarea o problema más precisa que la [!UICONTROL Fecha de inicio planificada]. La [!UICONTROL Fecha de inicio planificada] no tiene en cuenta los retrasos ni las fechas pasadas.
 
-Cuando planifica un proyecto por primera vez, la [!UICONTROL Fecha de inicio planificada] y la [!UICONTROL Fecha proyectada de inicio] de las tareas y del proyecto son idénticas. Como pueden producirse retrasos o puede que las tareas se completen antes, la [!UICONTROL Fecha proyectada de inicio] puede diferir de la [!UICONTROL Fecha planificada de inicio].
+Cuando planifica un proyecto por primera vez, la [!UICONTROL Fecha de inicio planificada] y la [!UICONTROL Fecha proyectada de inicio] de las tareas y del proyecto son idénticas. Como pueden producirse retrasos o puede que las tareas se completen antes, la [!UICONTROL Fecha proyectada de inicio] puede diferir de la [!UICONTROL Fecha de inicio planificada].
 
 Para una tarea, una [!UICONTROL Fecha proyectada de inicio] también puede diferir de su [!UICONTROL Fecha de inicio planificada] cuando una de sus predecesoras va con retraso respecto a la programación.
 

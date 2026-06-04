@@ -6,14 +6,25 @@ description: Puede realizar comentarios en las plantillas de horas, los elemento
 author: Lisa
 feature: Timesheets
 exl-id: 6260d176-3cfb-4bc2-93cb-00687e030248
-source-git-commit: 18c39c5b1959c31b6fd0018476b48643b4b15021
+TQID: https://experienceleague.adobe.com/Lx-CI6hjj-YXrxIus0Kicsa7Gx84xjiuKDUJWPpUVqc
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '889'
-ht-degree: 15%
+source-wordcount: 873
+ht-degree: 17%
 
 ---
 
-# Ver y administrar comentarios en una hoja de horas
+# Ver y administrar comentarios en una plantilla de horas
 
 <!-- Audited: April, 2024-->
 
@@ -34,7 +45,7 @@ Puede mostrar las actualizaciones desde una plantilla de horas o desde entradas 
  <col> 
  <tbody> 
   <tr> 
-   <td>paquete de Adobe Workfront</td> 
+   <td>Paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
@@ -59,7 +70,7 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
 
 ## Ver comentarios de entradas de horas en una plantilla de horas {#view-hour-entry-comments-on-a-timesheet}
 
-Puede configurar los comentarios realizados en entradas de hora individuales para que se muestren en la plantilla de horas. La opción de mostrar y ocultar comentarios no afecta a los comentarios realizados en la plantilla de horas general ni a los comentarios realizados en elementos individuales. Para obtener más información, consulte  [Realizar comentarios en una hoja de horas](#make-comments-on-a-timesheet).
+Puede configurar los comentarios realizados en entradas de hora individuales para que se muestren en la plantilla de horas. La opción de mostrar y ocultar comentarios no afecta a los comentarios realizados en la plantilla de horas general ni a los comentarios realizados en elementos individuales. Para obtener más información, consulte [Realizar comentarios en una hoja de horas](#make-comments-on-a-timesheet).
 
 De forma predeterminada, los comentarios se ocultan la primera vez que se accede a una plantilla de horas.
 
@@ -88,7 +99,7 @@ Puede realizar comentarios generales sobre la plantilla de horas. Comentar la pl
 
 1. Haga clic en el icono **Menú principal** ![Icono del menú principal](assets/main-menu-icon.png) en la esquina superior derecha, o en el icono **Menú principal** ![Menú principal de líneas](assets/lines-main-menu.png) en la esquina superior izquierda o Workfront, si están disponibles.
 
-1. Haga clic en **Plantillas de horas**.
+1. Haga clic en **Plantilla de horas**.
 1. Vaya a la plantilla de horas en la que desea realizar un comentario.
 1. Haga clic en **Actualizaciones** en el panel izquierdo y, a continuación, haga clic en la ficha **Comentarios**.
 1. Empiece a agregar nuevos comentarios o responda a los existentes, tal como se describe en [Trabajo de actualización](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
@@ -120,7 +131,7 @@ Puede realizar comentarios generales sobre la plantilla de horas. Comentar la pl
 
 1. Haga clic en el icono **Menú principal** ![Icono del menú principal](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront.
 
-1. Haga clic en **Plantillas de horas**.
+1. Haga clic en **Plantilla de horas**.
 1. Vaya a la hoja de horas donde quiera hacer un comentario y haga clic en **Hoja de horas** en el panel izquierdo.
 1. Haga clic en el campo de entrada de hora donde desee hacer un comentario y haga clic en **Comentario** para agregar un comentario para la entrada de hora.
 
@@ -158,7 +169,7 @@ Puede realizar comentarios generales sobre la plantilla de horas. Comentar la pl
 Solo puede realizar comentarios sobre las tareas y los problemas de una plantilla de horas. No puede realizar comentarios sobre proyectos ni sobre el tiempo general.
 
 1. Haga clic en el icono [!UICONTROL **Menú principal**] ![Icono del menú principal](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront.
-1. Haga clic en [!UICONTROL **Plantillas de horas**].
+1. Haga clic en [!UICONTROL **Plantilla de horas**].
 1. Vaya a la hoja de horas donde quiera hacer un comentario y haga clic en [!UICONTROL **Hoja de horas**] en el panel izquierdo.
 1. Haga clic en la fila de una tarea o un problema y, a continuación, haga clic en [!UICONTROL **Abrir resumen**].
 1. Empiece a escribir una actualización en el área [!UICONTROL **Actualizaciones**] del Panel de resumen y, a continuación, haga clic en [!UICONTROL **Enviar**].

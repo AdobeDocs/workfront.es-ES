@@ -3,20 +3,24 @@ content-type: reference
 product-previous: workfront-goals
 navigation-topic: workfront-goals-navigation-topic
 title: Resultados y actividades en Adobe Workfront Goals
-description: Los resultados y las actividades son indicadores de progreso para una meta en Adobe Workfront Goals.  Consulte los siguientes artículos para obtener más información sobre los resultados y las actividades.
+description: Los resultados y las actividades son indicadores de progreso para una meta en Adobe Workfront Goals. Consulte los siguientes artículos para obtener más información sobre los resultados y las actividades.
 author: Alina
 feature: Workfront Goals
 recommendations: noDisplay, noCatalog
 exl-id: d166674a-a158-4467-bedf-fa5c997c18ec
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/249lgJI2p4M9fN3kFhSYnKq4DAYbJ4ulNerebqsBbPM
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '180'
+source-wordcount: 180
 ht-degree: 100%
 
 ---
-
 
 # Resultados y actividades en Adobe Workfront Goals
 

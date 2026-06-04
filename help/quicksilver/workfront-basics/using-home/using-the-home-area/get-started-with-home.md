@@ -6,12 +6,17 @@ description: El Hogar te ayuda a administrar tu trabajo. Puede personalizar este
 author: Courtney
 feature: Get Started with Workfront
 exl-id: eddb2db0-88c5-40f9-ba05-14839a3dfc7f
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/QenYRRNaW0mkZ4oszgmrvs2XBRx7RQ1rKkuJffP2qV0
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '992'
-ht-degree: 75%
+source-wordcount: 1003
+ht-degree: 76%
 
 ---
 
@@ -74,7 +79,7 @@ A continuación se muestran los 11 widgets disponibles actualmente para elegir, 
         Muestra dos gráficos con información sobre el tiempo promedio de aprobación de documentos y las decisiones, así como vistas de lista de aprobaciones pendientes y vencidas. Debe tener [Aprobaciones unificadas](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md) habilitadas para usar este widget.
 
 * **Menciones**\
-        Muestra los comentarios recientes que ha realizado o los comentarios que otros usuarios le han etiquetado y que se han añadido en las últimas 2 semanas. Puede utilizar el botón de respuesta para crear una respuesta dentro del widget.
+        Muestra los comentarios recientes que ha realizado o los comentarios que otros usuarios le han etiquetado y que se han añadido en las últimas 2 semanas. Puede utilizar el botón de respuesta para redactar una respuesta en del widget.
 
   <!--old: In the Production environment, it displays recent comment threads from across Workfront, similar to the My Updates page. You can use the reply button to compose a reply within the widget. This widget also shows comments made on tasks and issues that you are assigned to, that you assigned to another user, that you own, that you are primary contact on, or that you created—as long as the task or issue has been updated in the last 30 days.-->
 

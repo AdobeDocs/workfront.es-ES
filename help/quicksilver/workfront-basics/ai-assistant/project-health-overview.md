@@ -5,9 +5,19 @@ description: La función Project Health utiliza el poder del Asistente de IA par
 author: Jenny
 feature: Get Started with Workfront
 exl-id: e4d200c6-7f35-4919-96d3-2880a655ed62
-source-git-commit: d9d6d572840f5691888d0db3242f3908978079b3
+TQID: https://experienceleague.adobe.com/JKswbVxwKRxGdUpn7GlLRNwu7lDLxGOL3l-ZD4SffKE
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '2060'
+source-wordcount: 2065
 ht-degree: 4%
 
 ---
@@ -246,7 +256,7 @@ Puede tener varias configuraciones de estado del proyecto en el sistema.
 1. En la sección **Qué factores desea incluir en el estado del proyecto**, anule la selección de cualquier factor que no desee incluir al determinar los criterios de estado del proyecto:
    * **Cambio de ámbito**: Cuánto se ha ampliado el ámbito del proyecto desde que se inició.
 
-   * **Campos obligatorios**: Si faltan campos obligatorios (por ejemplo, descripción del proyecto). Estos campos obligatorios determinan la finalización del proyecto y se especifican en el **¿Qué campos desea comprobar para ver si están completos?** sección de configuración a continuación.
+   * **Campos obligatorios**: Si faltan campos obligatorios (por ejemplo, descripción del proyecto). Estos campos obligatorios determinan la finalización del proyecto y se especifican en **¿Qué campos desea comprobar para ver si están completos?** sección de configuración a continuación.
 
 
    * **Cambios de horario**: Cuántos cambios de horario se han producido desde que se inició el proyecto.
@@ -259,11 +269,11 @@ Puede tener varias configuraciones de estado del proyecto en el sistema.
 
    * **Costo**: Si el proyecto está actualmente por encima del presupuesto.
 
-1. En **¿Cuándo comienza oficialmente su proyecto?**, seleccione el evento que indica el comienzo del proyecto en la lista desplegable.
+1. En **¿Cuándo comienza oficialmente su proyecto?** , seleccione el evento que indica el comienzo del proyecto en la lista desplegable.
 
-1. En **¿Cómo calcula el ámbito de trabajo de un proyecto?**, seleccione qué factor de proyecto aumentará a medida que aumente el ámbito del proyecto.
+1. En **¿Cómo calcula el ámbito de trabajo de un proyecto?** , seleccione qué factor del proyecto aumentará a medida que aumente el ámbito del proyecto.
 
-1. En **¿Qué campos obligatorios desea comprobar?**, seleccione uno o varios campos que deben contener un valor para el proyecto.
+1. En el **¿Qué campos obligatorios desea comprobar?** , seleccione uno o varios campos que deben contener un valor para el proyecto.
 
    ![Campos requeridos del proyecto para el estado del proyecto](assets/project-completeness-fields.png)
 
@@ -318,7 +328,7 @@ Para generar una evaluación de estado del proyecto para un proyecto o programa:
 
    >[!NOTE]
    >
-   >Si accede al Asistente de IA desde una página diferente en Workfront, escriba *¿Cuál es el estado del proyecto [NOMBRE DEL PROYECTO]?* o *Cuál es el estado del programa [NOMBRE DEL PROGRAMA]?* <br>
+   >Si está accediendo al Asistente de IA desde una página diferente de Workfront, puede escribir *¿Cuál es el estado del proyecto [NOMBRE DEL PROYECTO]?* o *¿Cuál es el estado del programa [NOMBRE DEL PROGRAMA]?* <br>
    >Para obtener una lista completa de los mensajes actuales que puede escribir, consulte la sección [Lista de mensajes del Asistente de IA](#ai-assistant-prompts-list) en este artículo.
 
 1. Haga clic en el icono **Enviar** ![Enviar icono](assets/send-icon.png). La evaluación del estado del proyecto se genera y se muestra en el panel. Se muestra un distintivo en la parte superior de cada evaluación de estado del proyecto, que refleja la condición actual del proyecto.

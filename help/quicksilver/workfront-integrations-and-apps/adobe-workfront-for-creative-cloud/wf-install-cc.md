@@ -6,12 +6,24 @@ description: Puede instalar [!DNL Adobe Workfront for design and video] desde Ad
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: f4fbae93-b54b-4d08-82c3-72a9a760c317
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: eb5296348c27f806dd50b997970166ebae4c97f4
+TQID: https://experienceleague.adobe.com/f7UgSYwHUcG04fHSiY9O3LrT-0IE2-FafeqVve81Q24
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: b58ad82f-df6b-4b01-81a3-3a02ab9567a0
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '577'
-ht-degree: 77%
+source-wordcount: 594
+ht-degree: 78%
 
 ---
 
@@ -163,7 +175,7 @@ Para solucionar este problema,
 
    >[!TIP]
    >
-   >En un Mac, vaya a Finder, presione **Comando+Mayús+G** y navegue hasta  `~/Library/Application Support/Workfront` y luego elimine la carpeta **Workfront**.
+   >En un Mac, ve a Finder, presiona **Comando+Mayús+G**, navega a `~/Library/Application Support/Workfront` y, a continuación, elimina la carpeta **Workfront**.
 
 
 1. Vuelva al complemento e introduzca su dominio de Workfront. El dominio debe ser `company-name.my.workfront.com` y no `experience.adobe.com`.

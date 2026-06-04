@@ -5,10 +5,17 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 89a1ac84-123b-487e-8c91-615a36e246c3
-source-git-commit: a9dbfe21337be9cd9929f4e982e4979265ca14e1
+TQID: https://experienceleague.adobe.com/sXCgHiht9i9Xf9SAJzX-yhV1DdbyKW-pDI8d1R9W7O8
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '107'
-ht-degree: 43%
+source-wordcount: 105
+ht-degree: 57%
 
 ---
 
@@ -28,5 +35,5 @@ Consulte los siguientes artículos para obtener sugerencias y respuestas para la
 * [Los botones de filtro no se muestran en los encabezados de página](../../workfront-basics/tips-tricks-and-troubleshooting/filter-buttons-do-not-display-in-page-headers.md)
 * [Cambiar el formato de las fechas en  [!DNL Adobe Workfront]](../tips-tricks-and-troubleshooting/change-date-format-chrome.md)
 * [El filtro proyectos en los que estoy incluye resultados inesperados](../tips-tricks-and-troubleshooting/projects-im-on-filter-including-unexpected-results.md)
-* [Varias pestañas del explorador hacen que Workfront cierre la sesión](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/multiple-browser-tabs-cause-logout.md)
+* [Tener varias pestañas del explorador abiertas hace que Workfront cierre la sesión](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/multiple-browser-tabs-cause-logout.md)
 * [Cómo compartir objetos sin generar notificaciones](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/how-to-share-objects-without-sending-out-notifications.md)

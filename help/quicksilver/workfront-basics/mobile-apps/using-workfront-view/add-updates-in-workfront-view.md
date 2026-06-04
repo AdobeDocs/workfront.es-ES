@@ -7,10 +7,20 @@ description: Puede revisar y añadir actualizaciones a los proyectos que está r
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 5d0260ad-7049-42c6-a8a0-9b53fb115ec6
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+TQID: https://experienceleague.adobe.com/0GQZ8P7-FIJJsjd3TOoE8euy7QD0v2iiqVL-aAeBqOM
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '182'
-ht-degree: 94%
+source-wordcount: 181
+ht-degree: 97%
 
 ---
 
@@ -31,7 +41,7 @@ No puede añadir actualizaciones a tareas o problemas en [!DNL Workfront View].
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>paquete de Adobe Workfront</strong></td> 
+   <td role="rowheader"><strong>Paquete de Adobe Workfront</strong></td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 

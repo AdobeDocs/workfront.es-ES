@@ -1,20 +1,25 @@
 ---
 content-type: api
 navigation-topic: api-navigation-topic
-title: Actualizaciones a la versión 9 de la API
+title: Actualizaciones de la versión 9 de la API
 description: Recursos actualizados
 author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 51892846-d93f-4363-8416-4118fb2ef84d
-source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
+TQID: https://experienceleague.adobe.com/JAoiJn1kNmwFsYKeuSU67f43wBsgMXCgnMDbcOM-5Kg
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '257'
-ht-degree: 39%
+source-wordcount: 257
+ht-degree: 84%
 
 ---
 
-# Actualizaciones a la versión 9 de la API
+# Actualizaciones de la versión 9 de la API
 
 ## Recursos actualizados
 
@@ -22,7 +27,7 @@ Los siguientes recursos existentes se han actualizado con esta versión de la AP
 
 * Las adiciones se enumeran simplemente
 * Las eliminaciones se indican con texto tachado
-* Los cambios se registran en la nota después de la tabla
+* Los cambios se indican en la nota de después de la tabla
 
 ### AgileWork
 
@@ -33,7 +38,7 @@ Los siguientes recursos existentes se han actualizado con esta versión de la AP
 
 {style="table-layout:auto"}
 
-<sup>1</sup> Indicador eliminado: NOTIFICABLE\
+<sup>1</sup> Indicador eliminado: REPORTABLE\
 Se quitó el marcador <sup>2</sup>: NOT_GROUPABLE
 
 ### Aprobación
@@ -57,7 +62,7 @@ Asignación
 
 <sup>1</sup> Campo agregado: lockToRole
 
-### Preferencias del cliente
+### CustomerPreferences
 
 | Campos | Referencias | Colecciones | Buscar | Acciones | Consultas | Operaciones |
 |---|---|---|---|---|---|---|
@@ -65,7 +70,7 @@ Asignación
 
 {style="table-layout:auto"}
 
-<sup>1</sup> cambios en possibleValues
+<sup>1</sup> Cambios en possibleValues
 
 ### Hora
 
@@ -121,7 +126,7 @@ Asignación
 
 {style="table-layout:auto"}
 
-<sup>1</sup> Indicador eliminado: NOTIFICABLE
+<sup>1</sup> Indicador eliminado: REPORTABLE
 
 ### Programación
 
@@ -149,7 +154,7 @@ Asignación
 
 {style="table-layout:auto"}
 
-### Perfil de hoja de horas
+### TimesheetProfile
 
 | Campos | Referencias | Colecciones | Buscar | Acciones | Consultas | Operaciones |
 |---|---|---|---|---|---|---|

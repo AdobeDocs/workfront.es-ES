@@ -7,10 +7,17 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 90fefaa6-d387-4cdb-8aea-9a939fe2ac26
-source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
+TQID: https://experienceleague.adobe.com/bKFAN--rVO1yxgFLiyhXolgUBajVGYQxM7pBUuqy3v8
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '269'
-ht-degree: 29%
+source-wordcount: 269
+ht-degree: 100%
 
 ---
 
@@ -24,12 +31,12 @@ Esta es una lista de recursos que son nuevos en la versión 9 de la API. Para ob
 
 | Campos | Referencias | Colecciones | Buscar | Acciones | Consultas | Operaciones |
 |---|---|---|---|---|---|---|
-| backlogOrder | cliente |   |   | bulkCopy  |   | COPIAR |
-| color | iteración  |   |   |   |   | RECUENTO |
+| backlogOrder | cliente |   |   | bulkCopy  |   | COPY |
+| color | iteración  |   |   |   |   | COUNT |
 | customerID | lastUpdatedBy |   |   |   |   | ELIMINAR |
-| tasar | opTask |   |   |   |   | EDITAR |
-| Identificador | proyecto |   |   |   |   | GET  |
-| isReady | storyboardParent |   |   |   |   | INFORME |
+| estimación | opTask |   |   |   |   | EDIT |
+| ID | proyecto |   |   |   |   | GET  |
+| isReady | storyboardParent |   |   |   |   | REPORT |
 | iterationID | tarea |   |   |   |   | SEARCH |
 | lastUpdateDate | equipo |   |   |   |   |   |
 | lastUpdatedByID |   |   |   |   |   |   |
@@ -51,23 +58,23 @@ Esta es una lista de recursos que son nuevos en la versión 9 de la API. Para ob
 
 | Campos | Referencias | Colecciones | Buscar | Acciones | Consultas | Operaciones |
 |---|---|---|---|---|---|---|
-| deprecationRelease |   |   |   |   |   | RECUENTO  |
+| deprecationRelease |   |   |   |   |   | COUNT  |
 | removeRelease |   |   |   |   |   | GET |
-| versionName |   |   |   |   |   | INFORME |
+| versionName |   |   |   |   |   | REPORT |
 |   |   |   |   |   |   | SEARCH |
 
 {style="table-layout:auto"}
 
-**Panel Kanban**
+**KanbanBoard**
 
 | Campos | Referencias | Colecciones | Buscar | Acciones | Consultas | Operaciones |
 |---|---|---|---|---|---|---|
-| Identificador |   |   |   |   |   | AÑADIR |
-| name |   |   |   |   |   | RECUENTO |
+| ID |   |   |   |   |   | ADD |
+| name |   |   |   |   |   | COUNT |
 |   |   |   |   |   |   | ELIMINAR |
 |   |   |   |   |   |   | EDITAR |
 |   |   |   |   |   |   | GET |
-|   |   |   |   |   |   | INFORME |
+|   |   |   |   |   |   | REPORT |
 |   |   |   |   |   |   | SEARCH |
 
 {style="table-layout:auto"}
@@ -76,34 +83,34 @@ Esta es una lista de recursos que son nuevos en la versión 9 de la API. Para ob
 
 | Campos | Referencias | Colecciones | Buscar | Acciones | Consultas | Operaciones |
 |---|---|---|---|---|---|---|
-| Identificador |   |   |   |   |   |   |
+| ID |   |   |   |   |   |   |
 | proofApprovalStatusID |   |   |   |   |   |   |
 | proofApprovalStatusLabel |   |   |   |   |   |   |
 
 {style="table-layout:auto"}
 
-**MetadatosDeArchivoDeRevisión**
+**ProofFileMetadata**
 
 | Campos | Referencias | Colecciones | Buscar | Acciones | Consultas | Operaciones |
 |---|---|---|---|---|---|---|
 | documentVersionID | documentVersion |   |   |   |   |   |
 | fileIndex |   |   |   |   |   |   |
 | fileName |   |   |   |   |   |   |
-| Identificador |   |   |   |   |   |   |
+| ID |   |   |   |   |   |   |
 | isURL |   |   |   |   |   |   |
 
 {style="table-layout:auto"}
 
-**HoraPresupuestadaDeRecursos**
+**ResourceBudgetedHour**
 
 | Campos | Referencias | Colecciones | Buscar | Acciones | Consultas | Operaciones |
 |---|---|---|---|---|---|---|
-| allocationDate |   |   |   |   |   | AÑADIR |
-| budgetHours |   |   |   |   |   | RECUENTO |
+| allocationDate |   |   |   |   |   | ADD |
+| budgetedHours |   |   |   |   |   | COUNT |
 | plannedBudgetedHours |   |   |   |   |   | ELIMINAR |
-| projectID |   |   |   |   |   | EDITAR |
+| projectID |   |   |   |   |   | EDIT |
 | roleID |   |   |   |   |   | GET |
-| userID |   |   |   |   |   | INFORME |
+| userID |   |   |   |   |   | REPORT |
 |   |   |   |   |   |   | SEARCH |
 
 {style="table-layout:auto"}
@@ -112,12 +119,12 @@ Esta es una lista de recursos que son nuevos en la versión 9 de la API. Para ob
 
 | Campos | Referencias | Colecciones | Buscar | Acciones | Consultas | Operaciones |
 |---|---|---|---|---|---|---|
-| Identificador |   |   |   |   |   | AÑADIR |
-| name |   |   |   |   |   | RECUENTO |
+| ID |   |   |   |   |   | ADD |
+| name |   |   |   |   |   | COUNT |
 |   |   |   |   |   |   | ELIMINAR |
 |   |   |   |   |   |   | EDITAR |
 |   |   |   |   |   |   | GET |
-|   |   |   |   |   |   | INFORME |
+|   |   |   |   |   |   | REPORT |
 |   |   |   |   |   |   | SEARCH |
 
 {style="table-layout:auto"}
@@ -126,9 +133,9 @@ Esta es una lista de recursos que son nuevos en la versión 9 de la API. Para ob
 
 | Campos | Referencias | Colecciones | Buscar | Acciones | Consultas | Operaciones |
 |---|---|---|---|---|---|---|
-| Identificador |   |   |   |   |   | RECUENTO |
+| ID |   |   |   |   |   | COUNT |
 |   |   |   |   |   |   | GET |
-|   |   |   |   |   |   | INFORME |
+|   |   |   |   |   |   | REPORT |
 |   |   |   |   |   |   | SEARCH |
 
 {style="table-layout:auto"}
@@ -137,11 +144,11 @@ Esta es una lista de recursos que son nuevos en la versión 9 de la API. Para ob
 
 | Campos | Referencias | Colecciones | Buscar | Acciones | Consultas | Operaciones |
 |---|---|---|---|---|---|---|
-|  ID |   |   |   | addSubscribers | suscriptores | AÑADIR |
-|   |   |   |   | removeSubscribers |   | RECUENTO  |
-|   |   |   |   | suscribe |   | ELIMINAR |
-|   |   |   |   | cancela la suscripción |   | GET |
-|   |   |   |   |   |   | INFORME |
+|  ID |   |   |   | addSubscribers | subscribers | ADD |
+|   |   |   |   | removeSubscribers |   | COUNT  |
+|   |   |   |   | subscribes |   | ELIMINAR |
+|   |   |   |   | unsubscribes |   | GET |
+|   |   |   |   |   |   | REPORT |
 |   |   |   |   |   |   | SEARCH |
 
 {style="table-layout:auto"}

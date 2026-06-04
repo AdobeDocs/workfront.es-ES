@@ -7,13 +7,28 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: d8c27915-8e1b-4804-9ef8-3a2efd57caac
-source-git-commit: be11c7417023ce2f310fce3e0cf77724d101b89e
+TQID: https://experienceleague.adobe.com/ns4wVw0qHcgzPPrvLx--lnEAaXg2rcoNOBPMZpMth9M
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: b58ad82f-df6b-4b01-81a3-3a02ab9567a0
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2:
+  - id: bb1dd007-4a34-496d-9d3b-2278fdaadac1
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '4461'
-ht-degree: 96%
+source-wordcount: 4436
+ht-degree: 95%
 
 ---
-
 
 # Conceptos básicos de API
 
@@ -300,7 +315,7 @@ a continuación, utilice la siguiente llamada de API con sus diferentes instrucc
 
 #### Uso de parámetros de filtro
 
-Un posible inconveniente del uso de parámetros de URL para los filtros de búsqueda es que Workfront analiza ciertos parámetros antes de comprobar si hay diferentes métodos de autenticación (por ejemplo: nombre de usuario, contraseña, apiKey o cookie). Cuando esto suceda, los parámetros no se utilizarán como filtros en la llamada. 
+Un posible inconveniente del uso de parámetros de URL para los filtros de búsqueda es que Workfront analiza ciertos parámetros antes de comprobar si hay diferentes métodos de autenticación (por ejemplo, nombre de usuario, contraseña, apiKey, cookie). Cuando esto sucede, los parámetros no se utilizan como filtros en la llamada de. 
 
 Para evitar este problema, coloque estos valores en parámetros de filtro con formato JSON. Por ejemplo, si quisiera filtrar por el usuario usuariodeprueba, en lugar de utilizar 
 <pre>/attask/api/v15.0/user/search?username=usuariodeprueba@workfront.com</pre>pase el parámetro de URL en un filtro, tal y como se muestra en el siguiente ejemplo:
@@ -436,7 +451,7 @@ Para garantizar un rendimiento óptimo, la siguiente tabla muestra las limitacio
 Para anular la limitación de la consulta Número predeterminado de resultados y permitir 200 resultados, incluya el filtro `$$LIMIT=200` en la consulta, tal y como se muestra en el ejemplo siguiente:
 <pre>GET /attask/api/v15.0/project/search?$$LIMIT=200</pre>
 
-Para garantizar la fiabilidad y el rendimiento de otros inquilinos del sistema, el límite máximo de resultados permitidos por consulta es de 2000 objetos. Si se intentase especificar un límite mayor, aparecerá un mensaje de error de `IllegalArgumentException`. 
+Para garantizar la fiabilidad y el rendimiento de otros inquilinos del sistema, el límite máximo de resultados permitidos por consulta es de 2000 objetos. Si se intenta especificar un límite mayor, aparecerá un mensaje de error de `IllegalArgumentException`. 
 
 Por lo tanto, se recomienda considerar la posibilidad de utilizar respuestas paginadas para conjuntos de datos grandes. Para especificar qué primer resultado se devolverá, añada el filtro `$$FIRST`. Por ejemplo, la siguiente solicitud devuelve los resultados 201-250 de una consulta:
 <pre>GET /attask/api/v15.0/project/search?$$FIRST=200&amp;$$LIMIT=50</pre>
@@ -492,19 +507,19 @@ Las actualizaciones de objetos siempre se realizan mediante el ID. utilizando el
 ### Especificación de ediciones JSON
 
 Como se muestra en el ejemplo siguiente, puede utilizar el parámetro de solicitud de actualizaciones para especificar los campos que se actualizarán con la sintaxis JSON:
-<pre>PUT /attask/api/v15.0/project/4c7...?updates= <br>&lbrace;<br>     nombre: "Nuevo nombre de proyecto", <br>     estado: "CUR", <br>     ... <br></pre>
+<pre>PUT /attask/api/v15.0/project/4c7...?updates= <br>{<br> name: "Nuevo nombre de proyecto", <br> status: "CUR", <br> ... <br>}</pre>
 
 ### Realización de actualizaciones anidadas
 
 Algunos objetos tienen colecciones de propiedad privada que se pueden actualizar. Por ejemplo, en el siguiente ejemplo se muestra cómo sobrescribir las asignaciones existentes de una tarea determinada:
-<pre>PUT /attask/api/v15.0/task/4c7...?updates= <br>&lbrace;<br>    asignaciones: [ <br>        { <br>            assignedToID: "2222...54d0, <br>            assignmentPercent: 50,0 <br>        },{ <br>            roleID: "1111...54d0"<br>        } <br>    ] <br></pre>
+<pre>PUT /attask/api/v15.0/task/4c7...?updates= <br>&lbrace;<br> asignaciones: [ <br> { <br> assignedToID: "2222...54d0, <br> assignmentPercent: 50.0 <br> },{ <br> roleID: "1111...54d0"<br> } <br> ] <br></pre>
 
 >[!NOTE]
 >
 >Aunque las actualizaciones realizadas en el nivel superior son dispersas, las actualizaciones de una colección o de un objeto anidado reemplazan por completo a la colección existente. Para editar una única asignación en una tarea sin afectar a los objetos, utilice PUT en la asignación en lugar de en la tarea.
 
 El siguiente ejemplo convierte un proyecto en una cola del servicio de asistencia público. Tenga en cuenta que las propiedades de cola existentes se reemplazan.
-<pre>PUT /attask/api/v15.0/project/4c7...?updates= <br>&lbrace; <br>    queueDef: { <br>        isPublic: 1 <br>    } <br></pre>
+<pre>PUT /attask/api/v15.0/project/4c7...?updates= <br>{ <br> queueDef: { <br> isPublic: 1 <br> } <br>}</pre>
 
 ### Uso del parámetro de solicitud de acción
 

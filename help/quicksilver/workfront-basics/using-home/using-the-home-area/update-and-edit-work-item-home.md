@@ -6,12 +6,26 @@ description: Puede ver y añadir actualizaciones a un elemento de trabajo dentro
 author: Courtney
 feature: Get Started with Workfront, Work Management
 exl-id: db643781-4f52-4a8c-8c13-0bbc4c7056fd
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/stUm9llYC3331mkk1MJkQTpOtucveUyjTeXBlxDfSgA
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+  - id: c10f2e93-7a58-4212-aa24-684c265ebe76
+  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '837'
-ht-degree: 26%
+source-wordcount: 826
+ht-degree: 27%
 
 ---
 
@@ -120,7 +134,7 @@ Puede proporcionar actualizaciones sobre cualquier elemento de trabajo en el wid
 
    >[!IMPORTANT]
    >
-   >Solo puede editar su comentario en los 15 minutos siguientes al envío. Para editar un comentario, haga clic en el menú **Más** en la esquina superior derecha del comentario y luego haga clic en **Editar**.
+   >Solo podrá editar un comentario en los 15 minutos posteriores a su envío. Para editar un comentario, haga clic en el menú **Más** en la esquina superior derecha del comentario y luego haga clic en **Editar**.
 
    Para obtener información más detallada sobre cómo agregar actualizaciones, consulte [Trabajo de actualización](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
@@ -142,7 +156,7 @@ Puede proporcionar actualizaciones sobre cualquier elemento de trabajo en el wid
 
    >[!IMPORTANT]
    >
-   >Solo puede editar su comentario en los 15 minutos siguientes al envío. Para editar un comentario, haga clic en el menú **Más** en la esquina superior derecha del comentario y luego haga clic en **Editar**.
+   >Solo podrá editar un comentario en los 15 minutos posteriores a su envío. Para editar un comentario, haga clic en el menú **Más** en la esquina superior derecha del comentario y luego haga clic en **Editar**.
 
    Para obtener información más detallada sobre cómo agregar actualizaciones, consulte [Trabajo de actualización](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
@@ -157,6 +171,6 @@ Puede editar cualquier campo de cualquier elemento de trabajo al que tenga acces
    ![Abrir resumen](assets/open-summary-new-home.png)
 
 1. En el panel Resumen, pase el ratón sobre el campo que desee editar.
-Si tiene derechos para editar el campo, este se resalta al pasar el puntero por encima.
+Si tiene derechos para editar el campo, este se resalta al pasar el ratón por encima.
 1. Haga clic en el campo que desee editar y, a continuación, realice la actualización deseada.
 1. Haga clic fuera del campo para guardar los cambios.

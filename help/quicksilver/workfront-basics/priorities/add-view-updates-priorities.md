@@ -6,10 +6,19 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: a7237746-0a18-408b-b932-8a608fd72eee
-source-git-commit: 985f1aa11ad1d5efc8d043907d60ad5f5c1bba13
+TQID: https://experienceleague.adobe.com/ST7uHa2yW7WjnUz9PwgKctI9jaBbp6maSuw6bTByGp0
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '529'
-ht-degree: 9%
+source-wordcount: 527
+ht-degree: 14%
 
 ---
 
@@ -30,7 +39,7 @@ Prioridades muestra los elementos de trabajo que tiene asignados. No puede ver l
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>paquete de Adobe Workfront</strong></td> 
+   <td role="rowheader"><strong>Paquete de Adobe Workfront</strong></td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
@@ -73,7 +82,7 @@ Puede añadir un comentario desde la lista de trabajo:
 
    >[!IMPORTANT]
    >
-   >Solo puede editar su comentario en los 15 minutos siguientes al envío. Para editar un comentario, haga clic en el menú **Más** en la esquina superior derecha del comentario y luego haga clic en **Editar**.
+   >Solo podrá editar un comentario en los 15 minutos posteriores a su envío. Para editar un comentario, haga clic en el menú **Más** en la esquina superior derecha del comentario y luego haga clic en **Editar**.
 
 Para obtener información más detallada sobre cómo agregar actualizaciones, consulte [Agregar una actualización a un elemento de trabajo](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
@@ -105,6 +114,6 @@ Puede responder a un comentario de un elemento de trabajo:
 
    >[!IMPORTANT]
    >
-   >Solo puede editar su comentario en los 15 minutos siguientes al envío. Para editar un comentario, haga clic en el menú **Más** en la esquina superior derecha del comentario y luego haga clic en **Editar**.
+   >Solo podrá editar un comentario en los 15 minutos posteriores a su envío. Para editar un comentario, haga clic en el menú **Más** en la esquina superior derecha del comentario y luego haga clic en **Editar**.
 
    ![Responder al comentario](assets/reply-to-comment.png)

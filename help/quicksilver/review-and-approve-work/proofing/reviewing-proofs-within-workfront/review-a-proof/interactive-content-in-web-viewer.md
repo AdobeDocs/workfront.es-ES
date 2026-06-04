@@ -6,9 +6,14 @@ description: Le recomendamos que revise todo el contenido interactivo con el Vis
 author: Courtney
 feature: Digital Content and Documents
 exl-id: daddc225-62df-4e1a-98fd-8bb7c7c5553b
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+TQID: https://experienceleague.adobe.com/ICuW3kxD5GmRC4k2wDaxgqnDFva6iOnP5FRo-dBAVOw
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '402'
+source-wordcount: 412
 ht-degree: 93%
 
 ---

@@ -6,9 +6,14 @@ description: Puede realizar un práctico seguimiento del progreso de una revisi�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 71df1445-c64c-4de2-a9b8-23bd47898b6d
-source-git-commit: ac714bd5a5259d6f995ac445efbd0125e07022cb
+TQID: https://experienceleague.adobe.com/eIoOAdfvVqxgP-ez66L21LuuBp3l-2ssg5wGG1cHM9E
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '486'
+source-wordcount: 490
 ht-degree: 79%
 
 ---
@@ -28,7 +33,7 @@ Para obtener información sobre cómo añadir fases y usuarios a una revisión c
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td role="rowheader">Paquete de Adobe Workfront</td> 
    <td>
    <p>Cualquiera</p>
    </td> 
@@ -72,7 +77,7 @@ Para obtener información sobre cómo añadir fases y usuarios a una revisión c
 
    Las líneas entre las fases representan las dependencias entre las fases. Las líneas que conducen a fases inactivas aparecen punteadas hasta que se activa la etapa.
 
-   Puede pasar el puntero por encima de una fase del diagrama para mostrar su progreso. Si la fase no está activa y tiene derechos de edición en la fase, puede hacer clic en el botón Activar fase ![Activar fase](assets/activate-stage-btn.png) para iniciar la fase. Si la fase está activa y tiene derechos de edición en la fase, puede bloquearla. ![Bloquear fase](assets/lock-stage-btn.png) Para obtener más información sobre la barra de progreso (S, O, C, D) , consulte  [Ver el progreso y el estado de una revisión en Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/view-progress-and-status-of-proof.md).
+   Puede pasar el puntero por encima de una fase del diagrama para mostrar su progreso. Si la fase no está activa y tiene derechos de edición en la fase, puede hacer clic en el botón Activar fase ![Activar fase](assets/activate-stage-btn.png) para iniciar la fase. Si la fase está activa y tiene derechos de edición en la fase, puede bloquearla. ![Bloquear fase](assets/lock-stage-btn.png) Para obtener más información sobre la barra de progreso (S, O, C, D) , consulte [Ver el progreso y el estado de una prueba en Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/view-progress-and-status-of-proof.md).
 
 ## Ver una fase
 

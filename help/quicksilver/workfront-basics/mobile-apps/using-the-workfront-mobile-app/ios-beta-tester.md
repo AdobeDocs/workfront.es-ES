@@ -6,10 +6,15 @@ description: Lea este artículo para ser probador beta de iOS de la aplicación 
 author: Lisa
 feature: Get Started with Workfront
 exl-id: b02119ab-f4ea-4249-8d2c-b26df47e770d
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+TQID: https://experienceleague.adobe.com/HUw6I8SHhD7iM9l4l0XIBDeG6g26cNy54-3BKQL9mHw
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '443'
-ht-degree: 99%
+source-wordcount: 442
+ht-degree: 97%
 
 ---
 
@@ -27,7 +32,7 @@ Puede usar [!DNL Apple App Store] para buscar y descargar la aplicación.
 >
 >Después de instalar la aplicación [!DNL TestFlight] y convertirse en probador beta en su dispositivo [!DNL iOS], debe descargar versiones actualizadas de [!DNL Workfront] mediante la aplicación [!DNL TestFlight], en lugar de [!DNL Apple Store]. Si no es probador beta de [!DNL iOS], puede seguir actualizando su aplicación móvil desde la [!DNL Apple Store].
 
-#### &#x200B;1. Instale la aplicación [!DNL TestFlight]
+#### &#x200B;1. Instalar la aplicación [!DNL TestFlight]
 
 Para instalar la versión beta de la aplicación de [!DNL Workfront], es necesario tener instalada la aplicación [!DNL TestFlight] en su dispositivo. Después de instalar [!DNL TestFlight], debe instalar la aplicación de [!DNL Workfront].
 
@@ -41,7 +46,7 @@ Para instalar la versión beta de la aplicación de [!DNL Workfront], es necesar
 1. Pulse **[!UICONTROL Aceptar]** para aceptar los términos y condiciones de la aplicación [!DNL TestFlight].\
    La aplicación [!DNL TestFlight] está instalada en su dispositivo. Continúe con la sección siguiente.
 
-#### &#x200B;2. Instale la aplicación Beta de [!DNL Workfront] en [!DNL TestFlight]
+#### &#x200B;2. Instalar la aplicación Beta [!DNL Workfront] en [!DNL TestFlight]
 
 Debe tener la aplicación de [!DNL Workfront] y [!DNL TestFlight] instaladas en su dispositivo iOS para poder probar la versión beta en un dispositivo iOS.
 

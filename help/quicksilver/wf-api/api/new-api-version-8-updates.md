@@ -1,28 +1,33 @@
 ---
 content-type: api
 navigation-topic: api-navigation-topic
-title: Actualizaciones de la versión 8 de API
+title: Actualizaciones de la versión 8 de la API
 description: Vea las actualizaciones de la versión 8 de la API.
 author: Becky
 feature: Workfront API
 role: Developer
 exl-id: c6d7d2d2-cd21-4ca8-a5a0-afe3669dc959
-source-git-commit: ae80999fc7ea7e35097560aa99baa435bcd31b74
+TQID: https://experienceleague.adobe.com/Vlqf19ewhFl6znlfdKapHUmpLWm0gyXDh7eTH1PrMRo
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '537'
-ht-degree: 31%
+source-wordcount: 492
+ht-degree: 100%
 
 ---
 
-# Actualizaciones de la versión 8 de API
+# Actualizaciones de la versión 8 de la API
 
 ## Recursos actualizados
 
-Los siguientes recursos existentes se han actualizado con esta versión de la API de Adobe Workfront. Para ver los recursos nuevos de las versiones 8, [Novedades de la versión 8 de la API](../../wf-api/api/new-api-version-8.md). Los cambios realizados en un recurso se indican de la siguiente manera:
+Los siguientes recursos existentes se han actualizado con esta versión de la API de Adobe Workfront. Para ver los recursos nuevos de las versiones 8, consulte [Novedades de la versión 8 de la API](../../wf-api/api/new-api-version-8.md). Los cambios realizados en un recurso se indican de la siguiente manera:
 
 * Las adiciones se enumeran simplemente
 * Las eliminaciones se indican con texto tachado
-* Los cambios se registran en la nota después de la tabla
+* Los cambios se indican en la nota de después de la tabla
 
 ### AccessRequest
 
@@ -32,9 +37,9 @@ Los siguientes recursos existentes se han actualizado con esta versión de la AP
 
 {style="table-layout:auto"}
 
-<sup>1</sup> cambios en valores posibles
+<sup>1</sup> Cambios en valores posibles
 
-### Regla de acceso<sup>1</sup> 
+### AccessRule<sup>1</sup> 
 
 | Campos | Referencias | Colecciones | Buscar | Acciones | Consultas | Operaciones |
 |---|---|---|---|---|---|---|
@@ -44,8 +49,8 @@ Los siguientes recursos existentes se han actualizado con esta versión de la AP
 
 {style="table-layout:auto"}
 
-<sup>1</sup> Indicador eliminado: NOTIFICABLE\
-<sup>2</sup> cambios en valores posibles
+<sup>1</sup> Indicador eliminado: REPORTABLE\
+<sup>2</sup> Cambia a valores posibles
 
 ### Aprobación
 
@@ -58,8 +63,8 @@ Los siguientes recursos existentes se han actualizado con esta versión de la AP
 
 {style="table-layout:auto"}
 
-<sup>1</sup>Cambios en valores posibles\
-<sup>2</sup>Indicadores agregados: DYNAMIC, LAZY_READ y NOT_GROUPABLE
+<sup>1</sup>Cambia a valores posibles\
+<sup>2</sup>Indicadores añadidos: DYNAMIC, LAZY_READ y NOT_GROUPABLE
 
 ### Asignación
 
@@ -82,7 +87,7 @@ Los siguientes recursos existentes se han actualizado con esta versión de la AP
 
 <sup>1</sup>Cambios en valores posibles
 
-### Preferencias del cliente
+### CustomerPreferences
 
 | Campos | Referencias | Colecciones | Buscar | Acciones | Consultas | Operaciones |
 |---|---|---|---|---|---|---|
@@ -100,7 +105,7 @@ Los siguientes recursos existentes se han actualizado con esta versión de la AP
 
 {style="table-layout:auto"}
 
-<sup>1</sup>Indicador agregado: NOT_FILTERABLE
+<sup>1</sup>Indicador añadido: NOT_FILTERABLE
 
 ### DocumentVersion
 
@@ -126,7 +131,7 @@ Los siguientes recursos existentes se han actualizado con esta versión de la AP
 
 {style="table-layout:auto"}
 
-<sup>1</sup>Indicador agregado: NOT_FILTERABLE
+<sup>1</sup>Indicador añadido: NOT_FILTERABLE
 
 ### Iteración
 
@@ -136,7 +141,7 @@ Los siguientes recursos existentes se han actualizado con esta versión de la AP
 
 {style="table-layout:auto"}
 
-### Me gusta
+### Igual
 
 | Campos | Referencias | Colecciones | Buscar | Acciones | Consultas | Operaciones |
 |---|---|---|---|---|---|---|
@@ -161,12 +166,12 @@ Los siguientes recursos existentes se han actualizado con esta versión de la AP
 | auditTypes<sup>1</sup> | agileWork  |   |   |   | defaultShownTimesheetIssues  |   |
 | backlogOrder | iteración |   |   |   |   |   |
 | backlogParent |   |   |   |   |   |   |
-| tasar |   |   |   |   |   |   |
+| estimación |   |   |   |   |   |   |
 | iterationID |   |   |   |   |   |   |
 
 {style="table-layout:auto"}
 
-<sup>1</sup>Cambios en valores posibles
+<sup>1</sup>Cambia a valores posibles
 
 ### Portafolio
 
@@ -176,9 +181,9 @@ Los siguientes recursos existentes se han actualizado con esta versión de la AP
 
 {style="table-layout:auto"}
 
-<sup>1</sup>Cambios en valores posibles
+<sup>1</sup>Cambia a valores posibles
 
-### Programar
+### Programa
 
 | Campos | Referencias | Colecciones | Buscar | Acciones | Consultas | Operaciones |
 |---|---|---|---|---|---|---|
@@ -209,7 +214,7 @@ Los siguientes recursos existentes se han actualizado con esta versión de la AP
 
 {style="table-layout:auto"}
 
-<sup>1</sup>Indicador agregado: NOT_FILTERABLE
+<sup>1</sup>Indicador añadido: NOT_FILTERABLE
 
 ### QueueDef
 
@@ -232,7 +237,7 @@ Los siguientes recursos existentes se han actualizado con esta versión de la AP
 
 {style="table-layout:auto"}
 
-### TiempoReservado
+### ReservedTime
 
 | Campos | Referencias | Colecciones | Buscar | Acciones | Consultas | Operaciones |
 |---|---|---|---|---|---|---|
@@ -258,7 +263,7 @@ Los siguientes recursos existentes se han actualizado con esta versión de la AP
 
 {style="table-layout:auto"}
 
-<sup>1</sup>Cambios en valores posibles
+<sup>1</sup>Cambia a valores posibles
 
 ### Equipo
 
@@ -333,5 +338,5 @@ Actualizar
 
 {style="table-layout:auto"}
 
-<sup>1</sup>Cambios en valores posibles\
-<sup>2</sup>Indicadores agregados: DYNAMIC, LAZY_READ y NOT_GROUPABLE
+<sup>1</sup>Cambia a valores posibles\
+<sup>2</sup>Indicadores añadidos: DYNAMIC, LAZY_READ y NOT_GROUPABLE

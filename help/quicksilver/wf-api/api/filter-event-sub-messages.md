@@ -2,20 +2,27 @@
 filename: filter-event-sub-messages
 content-type: api
 navigation-topic: api-navigation-topic
-title: Filtrado de mensajes de suscripción de eventos
-description: Filtrado de mensajes de suscripción de eventos
+title: Filtrado de mensajes de suscripción a eventos
+description: Filtrado de mensajes de suscripción a eventos
 author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 8364c4b9-5604-47ab-8b4b-db6836dcd8ca
-source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
+TQID: https://experienceleague.adobe.com/BJyCmAyuNBT-b8wscY66X9w4g6tq0TYh3NshJZjNy6o
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1767'
+source-wordcount: 1843
 ht-degree: 0%
 
 ---
 
-# Filtrado de mensajes de suscripción de eventos
+# Filtrado de mensajes de suscripción a eventos
 
 Puede crear componentes de procesamiento intermedios que le ayuden a filtrar y procesar únicamente los mensajes de suscripción de evento que su empresa necesita.
 
@@ -25,7 +32,7 @@ Para obtener más información sobre las suscripciones a eventos, consulte [API 
 
 Esta sección contiene fragmentos de código de filtrado que puede implementar para reducir la carga de los mensajes de suscripción de eventos.  Para ayudar a mostrar las diferencias en la sintaxis de varios lenguajes, estos fragmentos ilustran el mismo conjunto de filtros escritos en los siguientes lenguajes:
 
-Puede ver ejemplos del filtrado en [https://github.com/workfront/workfront-event-subscription-filter-examples](https://github.com/workfront/workfront-event-subscription-filter-examples), donde puede ver las diferencias en la sintaxis de cada idioma y los medios de interacción con el SDK de AWS. Estos ejemplos se escriben como Lambdas de AWS, que es un método común para emplear componentes de filtrado y procesamiento intermedios.
+Puede ver ejemplos del filtrado en [https://github.com/workfront/workfront-event-subscription-filter-examples](https://github.com/workfront/workfront-event-subscription-filter-examples), donde puede ver las diferencias en la sintaxis de cada idioma y los medios de interacción con AWS SDK. Estos ejemplos se escriben como lambdas de AWS, que es un método común para emplear componentes de filtrado y procesamiento intermedios.
 
 Los siguientes fragmentos de código están casi listos para la implementación y pueden utilizarse como punto de partida para ayudarle a escribir sus propios filtros y componentes de procesamiento más complejos.
 
@@ -107,7 +114,7 @@ El siguiente ejemplo en Java muestra cómo filtrar las cargas útiles del proyec
    }
    ```
 
-   El SDK de AWS se utiliza para invocar otro Lambda, que es responsable de enviar el mensaje filtrado al punto de conexión deseado.
+   El SDK de AWS se utiliza para invocar otro Lambda, el cual es responsable de enviar el mensaje filtrado al punto de conexión deseado.
 
    El objetivo de transferir la responsabilidad de enviar el mensaje a otro Lambda es evitar que se agote el tiempo de espera de la solicitud de envío procedente del servicio de suscripción a evento. Actualmente, el tiempo de espera permitido para la entrega se establece en cinco segundos. Si el filtro tarda más de lo permitido por la configuración, puede procesar la solicitud, pero el servicio Suscripción de evento agotará el tiempo de espera y entrará en un bucle de reintentos hasta que reciba una respuesta de 200 niveles dentro del período de tiempo de espera.
 
@@ -179,7 +186,7 @@ El siguiente ejemplo en Python muestra cómo filtrar las cargas útiles del proy
       )
    ```
 
-   El SDK de AWS se utiliza para invocar otro Lambda, que es responsable de enviar el mensaje filtrado al punto de conexión deseado.
+   El SDK de AWS se utiliza para invocar otro Lambda, el cual es responsable de enviar el mensaje filtrado al punto de conexión deseado.
 
    El objetivo de transferir la responsabilidad de enviar el mensaje a otro Lambda es evitar que se agote el tiempo de espera de la solicitud de envío procedente del servicio de suscripción a evento. Actualmente, el tiempo de espera de la entrega es de cinco segundos. Si el filtro tarda más de lo permitido por la configuración, puede procesar la solicitud, pero el servicio Suscripción de evento agotará el tiempo de espera y entrará en un bucle de reintentos hasta que reciba una respuesta de 200 niveles dentro del período de tiempo de espera.
 
@@ -259,7 +266,7 @@ El siguiente ejemplo de Node.js muestra cómo filtrar las cargas útiles del pro
    }
    ```
 
-   El SDK de AWS se utiliza para invocar otro Lambda, que es responsable de enviar el mensaje filtrado al punto de conexión deseado.\
+   El SDK de AWS se utiliza para invocar otro Lambda, el cual es responsable de enviar el mensaje filtrado al punto de conexión deseado.\
    El objetivo de transferir la responsabilidad de enviar el mensaje a otro Lambda es evitar que se agote el tiempo de espera de la solicitud de envío procedente del servicio de suscripción a evento. Actualmente, el tiempo de espera de la entrega es de cinco segundos. Si el filtro tarda más de lo permitido por la configuración, puede procesar la solicitud, pero el servicio Suscripción de evento agotará el tiempo de espera y entrará en un bucle de reintentos hasta que reciba una respuesta de 200 niveles dentro del período de tiempo de espera.\
    Para obtener más información sobre la administración de la entrega de mensajes, consulte [Mejora de la entrega de mensajes al aceptar los tiempos de espera](#improving-message-delivery-while-accommodating-timeouts).
 
@@ -332,4 +339,4 @@ Al consultar los recursos, se asegura de que los sistemas integrados tengan la v
 
 Todos los ejemplos de la sección [Filtrado de mensajes de eventos](#filtering-event-messages) pasan la responsabilidad de enviar mensajes filtrados a otro AWS Lambda. Esto se hace para evitar superar el tiempo de espera de cinco segundos en la solicitud de envío, que aplica el servicio de suscripción de evento que emite la solicitud.
 
-En una arquitectura sin nubes, es posible que deba implementar un mecanismo de procesamiento asincrónico similar a cómo el SDK de AWS permite las llamadas asincrónicas a otras Lambdas de AWS. La mayoría de los lenguajes de programación modernos tienen bibliotecas de terceros o principales que administran el procesamiento asincrónico, lo que le permite aprovechar el estilo asincrónico de procesamiento implementado en nuestros ejemplos.
+En una arquitectura sin nubes, es posible que tenga que implementar un mecanismo de procesamiento asincrónico similar a cómo AWS SDK permite las llamadas asincrónicas a otras Lambdas de AWS. La mayoría de los lenguajes de programación modernos tienen bibliotecas de terceros o principales que administran el procesamiento asincrónico, lo que le permite aprovechar el estilo asincrónico de procesamiento implementado en nuestros ejemplos.
