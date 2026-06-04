@@ -9,9 +9,21 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 6b8dd52b-1696-4e5d-bcbb-5b6d3b736df0
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+TQID: https://experienceleague.adobe.com/UFCo9Uq4G5kh9C35EH9OzpCe3Ra75gzC-B7Eytt-rX0
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1607'
+source-wordcount: 1615
 ht-degree: 99%
 
 ---
@@ -46,7 +58,7 @@ Workfront proporciona los siguientes estados de proyecto con la instancia de Ado
   <tr> 
    <td>Planificación (estado requerido)</td> 
    <td> <p>El administrador del proyecto está planificando la cronología del proyecto, la asignación de las tareas y las aprobaciones. El jefe de proyecto establece manualmente este estado en un proyecto.</p> <p><b>Sugerencia</p> <p> Le recomendamos que establezca el estado predeterminado de los nuevos proyectos en Workfront en Planificar. Como administrador de Workfront, puede cambiar el estado predeterminado de todos sus nuevos proyectos en el área de Proyectos de Preferencias de proyecto.</p> <p>Para obtener más información, consulte <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md">Configurar las preferencias de proyecto de todo el sistema</a>.</p></td> 
-   <td> <p>Los usuarios del equipo del proyecto pueden ver el proyecto en sus listas de proyectos de forma predeterminada (sin un filtro personalizado), en el área de Proyectos de Workfront. Las tareas y problemas que se les asignan en el proyecto no completan su Lista de trabajo. En la Lista de trabajos en Inicio solo se muestran las aprobaciones y los elementos de trabajo aceptados.</p> <p>No se envían notificaciones mientras un proyecto tenga este estado.</p> <p>Le recomendamos que realice todos los cambios que puedan activar una actualización de la escala de tiempo del proyecto o cualquier cambio en las tareas y asignaciones de problemas mientras el proyecto se encuentra en estado de Planificación. Esto minimiza la cantidad de notificaciones que reciben los usuarios.</p> <p>El sistema no calcula automáticamente la línea de tiempo del proyecto.</p> </td> 
+   <td> <p>Los usuarios del equipo del proyecto pueden ver el proyecto en sus listas de proyectos de forma predeterminada (sin un filtro personalizado), en el área de Proyectos de Workfront. Las tareas y problemas que se les asignan en el proyecto no completan su Lista de trabajo. En la Lista de trabajos en Inicio solo se muestran las aprobaciones y los elementos de trabajo aceptados.</p> <p>No se envían notificaciones mientras un proyecto tenga este estado.</p> <p>Le recomendamos que realice todos los cambios que puedan activar una actualización de la escala de tiempo del proyecto o cualquier cambio en las tareas y asignaciones de problemas mientras el proyecto se encuentra en estado de Planificación. Esto minimiza la cantidad de notificaciones que reciben los usuarios.</p> <p>El sistema no calcula automáticamente la cronología del proyecto.</p> </td> 
   </tr> 
   <tr> 
    <td>Actual (estado obligatorio)</td> 
@@ -65,39 +77,39 @@ Workfront proporciona los siguientes estados de proyecto con la instancia de Ado
    <td>
     <p>Los usuarios del equipo del proyecto no pueden ver el proyecto en sus listas de proyectos de forma predeterminada (sin un filtro personalizado), en el área de Proyectos de Workfront. Las tareas y problemas que se les asignan en el proyecto no rellenan sus solicitudes de trabajo ni sus listas de trabajo en curso. </p>
     <p>Todas las notificaciones relacionadas con el proyecto, excepto una notificación de cambio de estado, dejan de enviarse a los usuarios del equipo del proyecto.</p>
-    <p>El sistema ya no calcula la línea de tiempo del proyecto. </p>
+    <p>El sistema ya no calcula la cronología del proyecto. </p>
     <p>No se puede copiar el proyecto.</p>
     <p>Puede impedir que los usuarios realicen acciones adicionales cuando un proyecto se marque como completado. </p><p>Para obtener más información acerca de cómo restringir acciones en proyectos que se han marcado como completados, consulte <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Configurar las preferencias de proyecto de todo el sistema</a>.</p></td> 
   </tr> 
   <tr> 
    <td>Inactivo</td> 
    <td>El proyecto aún no ha finalizado, pero debido a obstáculos o cambios de ámbito, no se puede seguir trabajando en él y se ha abandonado. El gerente del proyecto cambia el estado a Inactivo para avisar a los usuarios del equipo del proyecto de que este proyecto nunca terminará y de que ya no deben trabajar en él.</td> 
-   <td> <p>Los usuarios del equipo del proyecto no pueden ver el proyecto en sus listas de proyectos de forma predeterminada (sin un filtro personalizado), en el área de Proyectos de Workfront. Las tareas y problemas que se les han asignado en el proyecto desaparecen de su Lista de trabajos.</p> <p>Las decisiones de aprobación no se pueden conceder a tareas o problemas.</p> <p>Las notificaciones sobre cambios de línea de tiempo, asignaciones, acciones necesarias y aprobaciones no se envían a los usuarios del equipo del proyecto.</p> <p>El sistema no calcula automáticamente la línea de tiempo del proyecto, ya que el proyecto se percibe como finalizado.</p> <p>Puede impedir que los usuarios realicen determinadas acciones cuando un proyecto se marque como Inactivo. Para obtener más información sobre cómo restringir acciones en proyectos inactivados, consulte <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Configurar las preferencias de proyecto de todo el sistema</a>.</p> </td> 
+   <td> <p>Los usuarios del equipo del proyecto no pueden ver el proyecto en sus listas de proyectos de forma predeterminada (sin un filtro personalizado), en el área de Proyectos de Workfront. Las tareas y problemas que se les han asignado en el proyecto desaparecen de su Lista de trabajos.</p> <p>Las decisiones de aprobación no se pueden conceder a tareas o problemas.</p> <p>Las notificaciones sobre cambios de cronología, asignaciones, acciones necesarias y aprobaciones no se envían a los usuarios del equipo del proyecto.</p> <p>El sistema no calcula automáticamente la cronología del proyecto, ya que el proyecto se percibe como finalizado.</p> <p>Puede impedir que los usuarios realicen determinadas acciones cuando un proyecto se marque como Inactivo. Para obtener más información sobre cómo restringir acciones en proyectos inactivados, consulte <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Configurar las preferencias de proyecto de todo el sistema</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>En espera</td> 
    <td>El proyecto aún no ha terminado, pero debido a algunos retrasos, el proyecto necesita ser suspendido temporalmente. El gerente del proyecto decide utilizar este estado para avisar a los usuarios del equipo del proyecto de que dejen de trabajar en el proyecto en este momento.</td> 
-   <td> <p>Los usuarios del equipo del proyecto no pueden ver el proyecto en sus listas de proyectos de forma predeterminada (sin un filtro personalizado), en el área de Proyectos de Workfront. Las tareas y problemas que se les han asignado en el proyecto desaparecen de su Lista de trabajos. </p> <p>Las decisiones de aprobación no se pueden conceder a tareas o problemas.</p> <p>Las notificaciones sobre cambios de línea de tiempo, asignaciones, acciones necesarias y aprobaciones no se envían a los usuarios del equipo del proyecto.</p> <p> <p><b>NOTA</b></p>  <p>Cuando se coloca un proyecto en espera, la línea de tiempo del proyecto no se detiene. El proyecto aún puede mostrarse como En riesgo o Con problemas aunque nadie esté trabajando activamente en él. Es posible que se necesiten algunos ajustes manuales de las fechas de las tareas abiertas restantes al volver a poner el proyecto en Al día, de modo que el proyecto pueda mostrar el progreso actualizado.</p> </p> </td> 
+   <td> <p>Los usuarios del equipo del proyecto no pueden ver el proyecto en sus listas de proyectos de forma predeterminada (sin un filtro personalizado), en el área de Proyectos de Workfront. Las tareas y problemas que se les han asignado en el proyecto desaparecen de su Lista de trabajos. </p> <p>Las decisiones de aprobación no se pueden conceder a tareas o problemas.</p> <p>Las notificaciones sobre cambios de cronología, asignaciones, acciones necesarias y aprobaciones no se envían a los usuarios del equipo del proyecto.</p> <p> <p><b>NOTA</b></p>  <p>Cuando se coloca un proyecto en espera, la cronología del proyecto no se detiene. El proyecto aún puede mostrarse como En riesgo o Con problemas aunque nadie esté trabajando activamente en él. Es posible que se necesiten algunos ajustes manuales de las fechas de las tareas abiertas restantes al volver a poner el proyecto en Al día, de modo que el proyecto pueda mostrar el progreso actualizado.</p> </p> </td> 
   </tr> 
   <tr> 
    <td>Solicitud</td> 
    <td>El estado del proyecto se marca automáticamente como Solicitado por el sistema, cuando el caso empresarial de una solicitud de proyecto se ha completado y enviado para su aprobación. Para obtener más información sobre cómo solicitar un proyecto mediante un caso empresarial, consulte <a href="../../../manage-work/portfolios/create-and-manage-portfolios/review-requested-projects.md" class="MCXref xref">Revisar proyectos solicitados</a>.</td> 
-   <td> <p>Los usuarios del equipo del proyecto no pueden ver el proyecto en sus listas de proyectos de forma predeterminada (sin un filtro personalizado), en el área de Proyectos de Workfront. Las tareas y los problemas del proyecto que se les han asignado no rellenan su Lista de trabajos.</p> <p>Todas las notificaciones relacionadas con el proyecto, excepto una notificación de cambio de estado, no se envían a ningún usuario.</p> <p>El sistema no calcula automáticamente la línea de tiempo del proyecto.</p> </td> 
+   <td> <p>Los usuarios del equipo del proyecto no pueden ver el proyecto en sus listas de proyectos de forma predeterminada (sin un filtro personalizado), en el área de Proyectos de Workfront. Las tareas y los problemas del proyecto que se les han asignado no rellenan su Lista de trabajos.</p> <p>Todas las notificaciones relacionadas con el proyecto, excepto una notificación de cambio de estado, no se envían a ningún usuario.</p> <p>El sistema no calcula automáticamente la cronología del proyecto.</p> </td> 
   </tr> 
   <tr> 
    <td>Aprobado</td> 
    <td>El estado del proyecto se marca automáticamente como Aprobado cuando se aprueba el caso empresarial de una solicitud de proyecto. Para obtener más información sobre cómo solicitar un proyecto mediante un caso empresarial, consulte <a href="../../../manage-work/portfolios/create-and-manage-portfolios/review-requested-projects.md" class="MCXref xref">Revisar proyectos solicitados</a>.</td> 
-   <td> <p>Los usuarios del equipo del proyecto pueden ver el proyecto en sus listas de proyectos de forma predeterminada (sin un filtro personalizado), en el área de Proyectos de Workfront. Las tareas y problemas que se les asignan en el proyecto no completan su Lista de trabajo.</p> <p>Todas las notificaciones relacionadas con el proyecto, excepto una notificación de cambio de estado, no se envían a ningún usuario.</p> <p>El sistema no calcula automáticamente la línea de tiempo del proyecto. </p> </td> 
+   <td> <p>Los usuarios del equipo del proyecto pueden ver el proyecto en sus listas de proyectos de forma predeterminada (sin un filtro personalizado), en el área de Proyectos de Workfront. Las tareas y problemas que se les asignan en el proyecto no completan su Lista de trabajo.</p> <p>Todas las notificaciones relacionadas con el proyecto, excepto una notificación de cambio de estado, no se envían a ningún usuario.</p> <p>El sistema no calcula automáticamente la cronología del proyecto. </p> </td> 
   </tr> 
   <tr> 
    <td>Rechazado</td> 
    <td>El estado del proyecto se marca automáticamente como Rechazado cuando se ha rechazado el caso empresarial de una solicitud de proyecto. Para obtener más información sobre cómo solicitar un proyecto mediante un caso empresarial, consulte <a href="../../../manage-work/portfolios/create-and-manage-portfolios/review-requested-projects.md" class="MCXref xref">Revisar proyectos solicitados</a>.</td> 
-   <td> <p>Los usuarios del equipo del proyecto no pueden ver el proyecto en sus listas de proyectos de forma predeterminada (sin un filtro personalizado), en el área de Proyectos de Workfront. Las tareas y problemas que se les asignan en el proyecto no completan su Lista de trabajo.</p> <p>Todas las notificaciones relacionadas con el proyecto, excepto una notificación de cambio de estado, no se envían a ningún usuario.</p> <p>El sistema no calcula automáticamente la línea de tiempo del proyecto.</p> </td> 
+   <td> <p>Los usuarios del equipo del proyecto no pueden ver el proyecto en sus listas de proyectos de forma predeterminada (sin un filtro personalizado), en el área de Proyectos de Workfront. Las tareas y problemas que se les asignan en el proyecto no completan su Lista de trabajo.</p> <p>Todas las notificaciones relacionadas con el proyecto, excepto una notificación de cambio de estado, no se envían a ningún usuario.</p> <p>El sistema no calcula automáticamente la cronología del proyecto.</p> </td> 
   </tr> 
   <tr> 
    <td>Idea</td> 
    <td>El estado del proyecto se marca automáticamente como Idea cuando envía una solicitud de proyecto, antes de completar el caso empresarial. Para obtener más información sobre cómo solicitar un proyecto mediante un caso empresarial, consulte <a href="../../../manage-work/portfolios/create-and-manage-portfolios/review-requested-projects.md" class="MCXref xref">Revisar proyectos solicitados</a>.</td> 
-   <td> <p>Los usuarios del equipo del proyecto no pueden ver el proyecto en sus listas de proyectos de forma predeterminada (sin un filtro personalizado), en el área de Proyectos de Workfront. Las tareas y problemas que se les asignan en el proyecto no completan su Lista de trabajo.</p> <p>Todas las notificaciones relacionadas con el proyecto, excepto una notificación de cambio de estado, no se envían a ningún usuario.</p> <p>El sistema no calcula automáticamente la línea de tiempo del proyecto.</p> </td> 
+   <td> <p>Los usuarios del equipo del proyecto no pueden ver el proyecto en sus listas de proyectos de forma predeterminada (sin un filtro personalizado), en el área de Proyectos de Workfront. Las tareas y problemas que se les asignan en el proyecto no completan su Lista de trabajo.</p> <p>Todas las notificaciones relacionadas con el proyecto, excepto una notificación de cambio de estado, no se envían a ningún usuario.</p> <p>El sistema no calcula automáticamente la cronología del proyecto.</p> </td> 
   </tr> 
  </tbody> 
 </table>

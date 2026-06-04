@@ -8,11 +8,23 @@ author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: de7a995d-ff1e-4631-91f7-4dc895a87c94
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/iWtyeGsk7xGf1Z9KE7Q2GrAbyCREAJYHZVT8GUboMW0
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '5237'
+source-wordcount: 5242
 ht-degree: 99%
 
 ---
@@ -88,7 +100,7 @@ Consulte también [Notificaciones: Se requiere una acción](../../../workfront-b
    <td> <p>Problema</p> </td> 
    <td> <p>Problema con aprobación pendiente</p> </td> 
    <td> <p>Aprobadores</p> </td> 
-   <td> <p>Necesito aprobar un problema.</p> <p>Los usuarios recibirán una notificación por correo electrónico para este evento dependiendo de si la opción “Cuando un proceso de aprobación incluye un rol, se requiere un aprobador en el equipo del proyecto” está habilitada, tal como se describe en <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/establish-approval-settings.md" class="MCXref xref">Configuración de la aprobación global</a>. </p> <p>Si esta opción está habilitada</strong>, se enviará una notificación por correo electrónico a todos los usuarios del sistema con el rol de “aprobador”.</p> <p>Si esta opción está deshabilitada</strong>, únicamente los miembros del equipo del proyecto con el rol de “aprobador” recibirán una notificación por correo electrónico.</p> <p>Se envía una notificación si el proyecto se encuentra en estado de Planificación o Actual. </p> </td> 
+   <td> <p>Necesito aprobar un problema.</p> <p>Los usuarios recibirán una notificación por correo electrónico para este evento dependiendo de si la opción “Cuando un proceso de aprobación incluye un rol, se requiere un aprobador en el equipo del proyecto” está habilitada, tal como se describe en <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/establish-approval-settings.md" class="MCXref xref">Configuración de la aprobación global</a>. </p> <p>Si esta opción está habilitada</strong>, se enviará una notificación por correo electrónico a todos los usuarios del sistema con la función de “aprobador”.</p> <p>Si esta opción está deshabilitada</strong>, únicamente los miembros del equipo del proyecto con el rol de “aprobador” recibirán una notificación por correo electrónico.</p> <p>Se envía una notificación si el proyecto se encuentra en estado de Planificación o Actual. </p> </td> 
    <td> <p>Inactivo</p> </td> 
   </tr> 
   <tr> 
@@ -123,7 +135,7 @@ Consulte también [Notificaciones: Se requiere una acción](../../../workfront-b
    <td> <p>Tarea</p> </td> 
    <td> <p>Tarea con aprobación pendiente</p> </td> 
    <td> <p>Aprobadores</p> </td> 
-   <td> <p>Necesito aprobar una tarea</p> <p>Los usuarios que recibirán una notificación por correo electrónico para este evento dependen de si la opción “Aprobador no debe estar en el equipo del proyecto (para procesos de aprobación que incluyen una función)” está habilitada (tal como se describe en <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/establish-approval-settings.md" class="MCXref xref">Configurar las preferencias de aprobación global</a>). </p> <p>Si esta opción está habilitada</strong>, se enviará una notificación por correo electrónico a todos los usuarios del sistema con el rol de “aprobador”.</p> <p>Si esta opción está deshabilitada</strong>, solamente los miembros del equipo del proyecto con la función de trabajo de “Aprobador” recibirán una notificación por correo electrónico.</p> <p>Solo se envía una notificación si el estado del proyecto es Actual en el momento de la solicitud.</p> </td> 
+   <td> <p>Necesito aprobar una tarea</p> <p>Los usuarios que recibirán una notificación por correo electrónico para este evento dependen de si la opción “Aprobador no debe estar en el equipo del proyecto (para procesos de aprobación que incluyen una función)” está habilitada (tal como se describe en <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/establish-approval-settings.md" class="MCXref xref">Configurar las preferencias de aprobación global</a>). </p> <p>Si esta opción está habilitada</strong>, se enviará una notificación por correo electrónico a todos los usuarios del sistema con la función de “aprobador”.</p> <p>Si esta opción está deshabilitada</strong>, solamente los miembros del equipo del proyecto con la función de trabajo de “Aprobador” recibirán una notificación por correo electrónico.</p> <p>Solo se envía una notificación si el estado del proyecto es Actual en el momento de la solicitud.</p> </td> 
    <td> <p>Inactivo</p> </td> 
   </tr> 
   <tr> 

@@ -6,10 +6,21 @@ description: Conecte su trabajo a su contenido en Experience Manager Assets Esse
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: abaa76e2-bbf1-47d0-8bdc-4e950df4f7ea
-source-git-commit: 14b3bfaf16a4ab8749538b32100ce6363a3a9335
+TQID: https://experienceleague.adobe.com/4ZNz4MKc5hvipk8bFpnPZIuWMrDLHjH-UdNiaJuY5WA
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
 workflow-type: tm+mt
-source-wordcount: '683'
-ht-degree: 90%
+source-wordcount: 620
+ht-degree: 86%
 
 ---
 
@@ -24,7 +35,7 @@ Conecte su trabajo a su contenido en Experience Manager Assets Essentials:
 >[!NOTE]
 >
 >También puede conectar varios repositorios de Experience Manager Assets a un entorno de Workfront o varios entornos de Workfront a un repositorio de Experience Manager Assets en los ID de organización. Siga las instrucciones de configuración de este artículo para cada integración que desee configurar.<br>
->Esta funcionalidad no está disponible en la nueva área de Documentos.
+>Esta funcionalidad no está disponible en el área de Documentos nuevos.
 
 ## Requisitos de acceso
 
@@ -89,7 +100,7 @@ Para obtener más información sobre esta tabla, consulte [Requisitos de acceso 
    <tr>
       <td><strong>URL de navegación</strong>
       </td>
-      <td>El sistema rellena automáticamente la URL de navegación. Esta URL se utiliza para establecer el vínculo a la instancia de Assets Essentials de su organización desde el menú principal para un acceso rápido.
+      <td>El sistema rellena automáticamente la URL de navegación. Esta URL se utiliza para vincular a la instancia de Assets Essentials de su organización desde el menú principal para acceder rápidamente.
       </td>
    </tr>
    <tr>

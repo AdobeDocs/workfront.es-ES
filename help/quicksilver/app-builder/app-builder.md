@@ -4,16 +4,28 @@ description: Las extensiones de la interfaz de usuario de Workfront, con tecnolo
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 2ed75053-8199-474c-afb4-fa9bbd3750f8
-source-git-commit: 53596271a838733b858c0b14a4e22b07a7cd20f6
+TQID: https://experienceleague.adobe.com/k2cF0H-CM1DhlRvIl7zPyz-G30wi-Q4c16ClcB-vpCs
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '2269'
-ht-degree: 1%
+source-wordcount: 2329
+ht-degree: 3%
 
 ---
 
 # Creación de aplicaciones personalizadas para Workfront con Adobe App Builder
 
-Las extensiones de la interfaz de usuario de Workfront, con tecnología Adobe App Builder, permiten a los clientes y socios crear experiencias de usuario personalizadas. Estas herramientas mejoran la eficiencia, ofrecen experiencias conectadas y sin problemas, y mejoran significativamente la satisfacción del usuario, y ayudan a las empresas a realizar su visión única.
+Las extensiones de la interfaz de usuario de Workfront, con tecnología de Adobe App Builder, permiten a los clientes y partners crear experiencias de usuario personalizadas. Estas herramientas mejoran la eficiencia, ofrecen experiencias conectadas y sin problemas, y mejoran significativamente la satisfacción del usuario, y ayudan a las empresas a realizar su visión única.
 
 Por ejemplo, sin las extensiones de la interfaz de usuario de Workfront, es posible que un administrador de proyectos tenga que cambiar entre Workfront y un sistema de seguimiento de tiempo independiente para registrar horas. Con las extensiones de la interfaz de usuario, el seguimiento del tiempo se puede integrar directamente en la experiencia de Workfront, lo que optimiza el flujo de trabajo y ahorra tiempo. Además, puede agregar componentes personalizados para mejorar la facilidad de uso, automatizar tareas repetitivas y mejorar la administración de contenido con funciones como etiquetado de metadatos y previsualizaciones de contenido. Adobe App Builder también ofrece escalabilidad y una sólida administración de identidades (IMS), lo que garantiza una personalización segura y eficaz a cualquier escala.
 

@@ -8,16 +8,27 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 2d4d104a-1465-43e2-8184-83dd63d9681c
-source-git-commit: dc4b6dc284c59281206a457395765e634067ba91
+TQID: https://experienceleague.adobe.com/qreUbwUFma8OVt5z0Nyiex3c-MWoiN5jPRM-Bgl7ev8
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '387'
+source-wordcount: 388
 ht-degree: 97%
 
 ---
 
 # Transferir datos de formulario personalizados al convertir un objeto
 
-Según las necesidades comerciales de su organización, el trabajo definido en una tarea o un problema puede llegar a ser demasiado grande para administrarlo dentro de la tarea o el problema. En este caso, puede convertirlo en un elemento de trabajo más grande:
+Según las necesidades empresariales de su organización, el trabajo definido en una tarea o un problema puede llegar a ser demasiado grande para administrarlo dentro de la tarea o el problema. En este caso, puede convertirlo en un elemento de trabajo más grande:
 
 * Puede convertir problemas en tareas o en proyectos
 * Puede convertir tareas en proyectos
@@ -35,7 +46,7 @@ Para obtener más información, consulte [Información general sobre la conversi
  <col> 
  <tbody> 
   <tr> 
-   <td>paquete de Adobe Workfront</td> 
+   <td>Paquete de Adobe Workfront</td> 
    <td><p>Cualquiera</p></td> 
   </tr> 
   <tr> 

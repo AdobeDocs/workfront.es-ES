@@ -3,16 +3,21 @@ content-type: overview
 product-area: agile-and-teams
 navigation-topic: agile-navigation-topic
 title: Información general de Agile
-description: Agile es una metodología de trabajo que permite a los equipos completar cantidades pequeñas y manejables de trabajo a una cadencia coherente. En Agile, los equipos administran las historias en un registro de pendientes o tablero de historias y no las tareas de un proyecto. [!DNL Adobe Workfront] proporciona herramientas que ayudan a los equipos a trabajar de forma ágil.
+description: Agile es una metodología de trabajo que permite a los equipos completar cantidades pequeñas y manejables de trabajo a una cadencia coherente. En Agile, los equipos administran las historias en un registro de pendientes o tablero de historias y no las tareas de un proyecto. [!DNL Adobe Workfront] proporciona herramientas que ayudan a los equipos a trabajar de forma Agile.
 author: Courtney
 feature: Agile
 exl-id: 35b329e5-f360-416c-adbb-ec39ab7a50cc
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/AVFfEFh0oIM6Pd7BMCYw7As75M00qbzP37burvpCI4U
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '325'
-ht-degree: 44%
+source-wordcount: 324
+ht-degree: 39%
 
 ---
 

@@ -9,12 +9,25 @@ author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 6889b94a-1be6-4be9-8397-c38f890f9103
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/MZdPcSLClVIK2mJS9ssxz3NZ3DvztgHfJxHdvmtS1KY
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '2166'
-ht-degree: 85%
+source-wordcount: 2177
+ht-degree: 84%
 
 ---
 
@@ -177,7 +190,7 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
         <p>Tenga en cuenta lo siguiente:</p> 
         <ul> 
          <li> <p>Cuando se selecciona, recibe una advertencia informativa cuando elimina una tarea o un problema. La advertencia le recuerda que si la tarea o el problema han registrado horas, se moverán al proyecto o se eliminarán. Puede configurar si las horas se eliminan o se mueven al proyecto en el área Preferencias de horas y plantillas de horas de Configuración. Después de confirmar que ha visto la advertencia, la tarea o el problema se eliminan. Para obtener más información sobre cómo configurar las preferencias de horas y plantillas de horas, consulte <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md" class="MCXref xref">Configurar las preferencias de horas y plantillas de horas</a>. </p> <p>Sugerencia: <span>Cuando se elimina un proyecto con tareas y problemas que han registrado horas, estas se eliminan o se conservan de acuerdo con la configuración del área Preferencias de horas y plantillas de horas de Configuración</span>. </p> </li> 
-         <li><span>Cuando anula la selección de esta opción, recibe una advertencia de prohibición al eliminar una tarea o un problema con horas registradas, o al eliminar un proyecto con horas registradas para sus tareas o problemas</span> <span>.</span> La advertencia especifica que la persona con la función de administrador no permite que se eliminen tareas o problemas con horas registradas. No se pueden eliminar las tareas, problemas<span> o proyectos que tienen horas registradas para tareas y problemas</span>. </li> 
+         <li><span>Cuando anula la selección de esta opción, recibe una advertencia prohibitiva cuando elimina una tarea o un problema con horas registradas, o cuando elimina un proyecto con horas registradas para sus tareas o problemas</span> <span>.</span> La advertencia especifica que el administrador no permite que se eliminen tareas o problemas con horas registradas. No se pueden eliminar las tareas, problemas<span> o proyectos que tienen horas registradas para tareas y problemas</span>. </li> 
         </ul> 
        </div> </td> 
      </tr> 

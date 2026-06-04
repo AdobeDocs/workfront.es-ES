@@ -8,10 +8,23 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 664fb2fe-ff7e-4807-9a43-b37e7d5d57eb
-source-git-commit: d8a01839b8f1332741f87be766f3ccb7d08cef96
+TQID: https://experienceleague.adobe.com/WbKK8Dt8LSyGVCHLzHXHsM-3DORpJXgzKzqf7Jos3Hw
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+  - id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1219'
-ht-degree: 28%
+source-wordcount: 1220
+ht-degree: 26%
 
 ---
 
@@ -130,7 +143,7 @@ Para obtener más información, vea [Definir atributos de tasa](/help/quicksilve
 
 1. (Condicional) Para una tarifa de facturación, ingrese **Tarifa de facturación** para este rol.
 
-   Esta es la tarifa de facturación por hora de la función. Este valor calcula los ingresos planificados y reales de las tareas y los problemas asociados a la función, y, en última instancia, los ingresos planificados y reales de los proyectos. Introduzca el tipo de cambio utilizando la divisa seleccionada.
+   tarifa de facturación por hora de la función del puesto. Este valor calcula los ingresos planificados y reales de las tareas y los problemas asociados a la función, y, en última instancia, los ingresos planificados y reales de los proyectos. Introduzca el tipo de cambio utilizando la divisa seleccionada.
 
    Si utiliza atributos, los atributos y la función se combinan para definir una tasa única. Por ejemplo, una función de Designer en Nueva York para la Agencia A puede tener una tasa separada de una función de Designer en París para la Agencia B.
 
@@ -148,7 +161,7 @@ Para obtener más información, vea [Definir atributos de tasa](/help/quicksilve
 
 1. (Condicional) Para una tasa de costo, escriba la **tasa de costo** para este rol.
 
-   Esta es la tarifa de coste por hora de la función. Este valor calcula los costes planificados y reales de las tareas y problemas asociados con la función y, en última instancia, los costes planificados y reales de los proyectos. Introduzca el tipo de cambio utilizando la divisa seleccionada.
+   tarifa de coste por hora del rol. Este valor calcula los costes planificados y reales de las tareas y problemas asociados con la función y, en última instancia, los costes planificados y reales de los proyectos. Introduzca el tipo de cambio utilizando la divisa seleccionada.
 
    Si utiliza atributos, los atributos y la función se combinan para definir una tasa única. Por ejemplo, una función de Designer en Nueva York para la Agencia A puede tener una tasa separada de una función de Designer en París para la Agencia B.
 

@@ -8,9 +8,23 @@ author: Courtney
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: 024b8606-a9b7-413a-b393-8e5cdff37dd4
-source-git-commit: 8233bcad8409b6f293d365fe871338e643a410dc
+TQID: https://experienceleague.adobe.com/8Q6Zl8hZ-1xapGhFs9niCKnpeq-o4kgIta4tu8ObBYs
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d8302c96-f652-4d09-896b-19a70bab02a5
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: da3860b0-d637-47df-bef0-273751180266
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1855'
+source-wordcount: 1869
 ht-degree: 70%
 
 ---
@@ -27,7 +41,7 @@ Como administrador de [!DNL Adobe Workfront] puede integrar [!DNL Workfront] con
 
 <table>
   <tr>
-   <td>paquete de Adobe Workfront
+   <td>Paquete de Adobe Workfront
    </td>
    <td> <p>PRIME o ULTIMATE</p>
     <p>Workflow Ultimate</p>
@@ -228,7 +242,7 @@ El [!UICONTROL AEM Externalizer] permite que AEM pase direcciones URL en un form
 
 1. Haga clic en **[!UICONTROL OSGI]** y, a continuación, haga clic en **[!UICONTROL Configuración]** en el menú desplegable.
 
-1. En la lista de configuración, seleccione&#x200B;**[!UICONTROL Externalizador de vínculos CQ por día].**: se muestra la página **[!UICONTROL Externalizador]**.
+1. En la lista de configuración, seleccione&#x200B;**[!UICONTROL Externalizador de vínculos CQ por día].** Se muestra la página **[!UICONTROL Externalizer]**.
 
 1. En la sección **[!UICONTROL Dominios]**, asegúrese de que el dominio que aparece en el campo **[!UICONTROL Autor]** sea el nombre de dominio al que los usuarios de AEM pueden acceder externamente.
 

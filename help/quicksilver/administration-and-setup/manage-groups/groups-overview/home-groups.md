@@ -8,10 +8,21 @@ author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 89adb9ea-bfde-4c0d-9fec-b1f97e925340
-source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
+TQID: https://experienceleague.adobe.com/S44kvUMrEV6C3K2BcqJZnKVqTRfT16xxhyDmG-P2J0c
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: d83a421c-ecb9-4757-b609-c531392f90eb
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '333'
-ht-degree: 92%
+source-wordcount: 333
+ht-degree: 94%
 
 ---
 
@@ -19,7 +30,7 @@ ht-degree: 92%
 
 Un grupo de inicio se asigna en el perfil del usuario. Todos los usuarios deben tener un grupo de inicio. Un usuario puede pertenecer a más de un grupo, pero solo puede tener un grupo de inicio. Para obtener más información sobre los grupos, consulte [Información general sobre los grupos](../../../administration-and-setup/manage-groups/groups-overview/groups.md).
 
-Aunque cualquier grupo existente en el sistema puede ser asignado como grupo de inicio de un usuario, se recomienda crear y asignar nuevos grupos que representen unidades organizativas más grandes. 
+Aunque cualquier grupo existente en el sistema puede ser asignado como grupo de inicio de un usuario, se recomienda crear y asignar nuevos grupos que representen unidades organizativas más grandes.
 
 Al establecer grupos de inicio, tenga en cuenta cómo divide su organización a los usuarios de Adobe Workfront. A continuación se ofrecen algunas sugerencias para determinar qué tipo de grupos se deben utilizar como grupo de inicio:
 

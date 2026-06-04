@@ -8,9 +8,16 @@ feature: Work Management, Digital Content and Documents
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 74e0a85b-a8aa-4e39-9c2e-0f09957ebafa
-source-git-commit: 18ad93c364daa9225c2b2ba715e45e8644936a0d
+TQID: https://experienceleague.adobe.com/1-ENH--c89-U-8b7vPhZyjolMwzAKLeQA9uxMGLB8U8
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1477'
+source-wordcount: 1453
 ht-degree: 1%
 
 ---
@@ -357,7 +364,7 @@ Para tener una aplicación de invitado cargada en Workfront, la aplicación debe
 
 1. Como administrador del sistema, vaya a [https://stage.exchange.adobe.com/](https://stage.exchange.adobe.com/) o [https://exchange.adobe.com/](https://exchange.adobe.com/).
 
-1. Haga clic en **Administrar** > **Aplicaciones Experience Cloud**. Debería ver las aplicaciones enviadas con opciones para aprobar o rechazar.
+1. Haga clic en **Administrar** > **Aplicaciones de Experience Cloud**. Debería ver las aplicaciones enviadas con opciones para aprobar o rechazar.
 Una vez aprobadas, las extensiones de aplicación publicadas deben cargarse automáticamente en el entorno de Workfront.
 
    ![Envío aprobado](assets/approve-submission.png)

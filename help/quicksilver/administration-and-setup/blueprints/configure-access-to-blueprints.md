@@ -8,12 +8,22 @@ author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: d85f363f-2ab4-45cb-b851-a7f33e1ca905
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/ssQ-zj5Hn4ZalKVm1ERlR3NIpqNJlwJjDqQoSFzJHMw
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '512'
-ht-degree: 99%
+source-wordcount: 512
+ht-degree: 95%
 
 ---
 
@@ -66,7 +76,7 @@ Para obtener más información sobre esta tabla, consulte [Requisitos de acceso 
 ## Requisitos previos {#prerequisites}
 
 * Debe utilizar una cola de solicitudes existente para almacenar las solicitudes de modelo. El proyecto debe guardarse como una cola de solicitudes y debe estar en el estado [!UICONTROL Actual].
-* La cola de solicitudes debe ser pública. En los detalles de la cola de solicitudes, &quot;[!UICONTROL ¿Quién puede añadir solicitudes a esta cola?]&quot; debe establecerse en **[!UICONTROL Cualquiera]**.
+* La cola de solicitudes debe ser pública. En los detalles de la cola de solicitudes, &quot;[!UICONTROL ¿Quién puede agregar solicitudes a esta cola?]&quot; debe establecerse en **[!UICONTROL Cualquiera]**.
 
 >[!TIP]
 >

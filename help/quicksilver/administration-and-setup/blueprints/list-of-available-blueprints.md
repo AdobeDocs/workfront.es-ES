@@ -8,12 +8,27 @@ author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: a5cdcb89-71c0-43f0-a5cf-dc99fac542ba
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/s0pYi7Ri2GeRmhJv7joFqKnSM5hjzKEIuWL4gtdHQ9M
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '2143'
-ht-degree: 80%
+source-wordcount: 2153
+ht-degree: 44%
 
 ---
 
@@ -26,68 +41,68 @@ Los administradores del sistema tienen disponibles los siguientes [!DNL Adobe Wo
 **[!UICONTROL Informes de análisis de usuarios activos]**
 Este modelo contiene un tablero para ayudar a los administradores a validar la configuración del usuario, identificar desajustes y garantizar que las configuraciones admitan el uso previsto de la aplicación&#x200B;
 
-**[!UICONTROL Añadir lista de comprobación de TI para empleados nuevos]**
-Este modelo contiene una plantilla que la organización de Professional services de [!DNL Workfront] ha utilizado durante años en los compromisos de implementación con los equipos de TI corporativa para organizar las actividades de incorporación de nuevos empleados. El uso de esta plantilla permite a los equipos de TI operar de forma eficiente, lo que conduce a una experiencia positiva para los nuevos empleados y a un camino más rápido hacia la productividad.
+**[!UICONTROL Agregar nueva lista de comprobación de TI de empleado]**
+Este modelo contiene una plantilla que la organización de servicios profesionales de [!DNL Workfront] ha utilizado durante años durante los compromisos de implementación con los equipos de TI corporativos para organizar las actividades de incorporación de nuevos empleados. El uso de esta plantilla permite a los equipos de TI operar de forma eficiente, lo que conduce a una experiencia positiva para los nuevos empleados y a un camino más rápido hacia la productividad.
 
 **[!UICONTROL Planificación presupuestaria anual]**
-Este modelo contiene una plantilla que la organización de Professional services de [!DNL Workfront] ha utilizado durante años en los compromisos de implementación con los equipos de finanzas para organizar las actividades relacionadas con la planificación presupuestaria anual. La plantilla ayuda a establecer expectativas con líderes de unidades comerciales y les guía en la solicitud y reserva de presupuestos durante el proceso de planificación anual.
+Este modelo contiene una plantilla que la organización de servicios profesionales [!DNL Workfront] ha utilizado durante años durante los compromisos de implementación con los equipos de finanzas para organizar las actividades relacionadas con la planificación presupuestaria anual. La plantilla ayuda a establecer expectativas con líderes de unidades comerciales y les guía en la solicitud y reserva de presupuestos durante el proceso de planificación anual.
 
 **[!UICONTROL Tablero de línea base]**
-Este modelo contiene un tablero para ayudarle a tomar decisiones de proyecto más inteligentes y rápidas. Las líneas de base le permiten comparar lo que se ha planificado con lo que ha sucedido, lo que le permite identificar las tareas problemáticas, la variación del ámbito y las tendencias del proyecto de un vistazo. El Panel de línea de base incluye estos informes: Línea de base | Proyectos en curso, Línea de base | Proyectos completados, Línea de base | Tareas en curso y Línea de base | Tareas completadas.
+Este modelo contiene un tablero para ayudarle a tomar decisiones de proyecto más inteligentes y rápidas. Las líneas de base le permiten comparar lo que se ha planificado con lo que ha sucedido, lo que le permite identificar las tareas problemáticas, la variación del ámbito y las tendencias del proyecto de un vistazo. El tablero de línea base incluye estos informes: Línea base | Proyectos en curso, línea de base | Proyectos finalizados, línea de base | Tareas en curso y línea de base | Tareas completadas.
 
-**[!UICONTROL Plan de prestación de servicios contratados]**
-Este modelo contiene una plantilla que organiza el trabajo relacionado con la prestación de servicios orientados al cliente. Su finalidad es crear un enfoque uniforme para la prestación de servicios contratados.
+**[!UICONTROL Plan de entrega de servicios contratados]**
+Este modelo contiene una plantilla que organiza el trabajo relacionado con la prestación de servicios de cara al cliente. Su finalidad es crear un enfoque uniforme para la prestación de servicios contratados.
 
 **[!UICONTROL Plan de eventos corporativos]**
-Este modelo contiene una plantilla que la organización de Professional services de [!DNL Workfront] ha utilizado durante años en los compromisos de implementación con los equipos de recursos humanos para apoyar las actividades de retención de empleados, concretamente eventos corporativos y fiestas.
+Este modelo contiene una plantilla que la organización de servicios profesionales de [!DNL Workfront] ha utilizado durante años durante los compromisos de implementación con los equipos de recursos humanos para apoyar las actividades de retención de empleados, específicamente eventos corporativos y fiestas.
 
-**[!UICONTROL Desactivar lista de comprobación de TI para empleados despedidos]**
-Este modelo contiene una plantilla que la organización de Professional services de [!DNL Workfront] ha utilizado durante años en los compromisos de implementación con equipos de TI corporativa para administrar las distintas actividades que deben realizarse cuando se despide a un empleado. Es esencial desactivar el acceso de los empleados y realizar otros cambios en los sistemas para reducir la exposición al riesgo y garantizar que otros integrantes del equipo puedan seguir siendo productivos en ausencia del empleado que abandona.
+**[!UICONTROL Desactivar lista de comprobación de TI de empleado finalizado]**
+Este modelo contiene una plantilla que la organización de servicios profesionales de [!DNL Workfront] ha utilizado durante años durante las contrataciones de implementación con equipos de TI corporativos para administrar las distintas actividades que deben llevarse a cabo cuando un empleado finaliza su empleo. Es esencial desactivar el acceso de los empleados y realizar otros cambios en los sistemas para reducir la exposición al riesgo y garantizar que otros integrantes del equipo puedan seguir siendo productivos en ausencia del empleado que abandona.
 
 **[!UICONTROL Producción de recursos digitales] (integrada)**
-El modelo de [!UICONTROL Producción de recursos digitales] para procesos integrados contiene una plantilla que organiza el trabajo para un proceso de producción digital estándar. La plantilla proporciona un proceso eficiente para la creación de recursos digitales originales para un equipo que se basa en procedimientos operativos estándar para definir cómo realizar el trabajo y utiliza el proyecto únicamente para priorizar el trabajo y realizar un seguimiento del progreso.
+El modelo [!UICONTROL Producción de recursos digitales] para procesos integrados contiene una plantilla que organiza el trabajo para un proceso de producción digital estándar. La plantilla proporciona un proceso eficiente para la creación de recursos digitales originales para un equipo que se basa en procedimientos operativos estándar para definir cómo realizar el trabajo y utiliza el proyecto únicamente para priorizar el trabajo y realizar un seguimiento del progreso.
 
-**[!UICONTROL Producción de recursos digitales] (administrada)**
+**[!UICONTROL Producción de recursos digitales] (administrados)**
 El paquete [!UICONTROL Producción de recursos digitales] contiene una plantilla que organiza el trabajo para un proceso de producción digital estándar. Está diseñado como punto de entrada para administrar la creación de recursos digitales en Workfront. Utilice este paquete para crear una base para la creación de contenido digital y, a continuación, personalícelo para satisfacer las necesidades de otros procesos creativos para materiales digitales.
 
 **[!UICONTROL Revisión de recursos digitales] (integrada)**
-El modelo de [!UICONTROL Revisión de recursos digitales] para un proceso integrado contiene una única plantilla para organizar el proceso de trabajo asociado a la revisión de un recurso existente. La plantilla proporciona un proceso eficiente para un equipo que se basa en procedimientos operativos estándar para definir cómo realizar el trabajo y utiliza el proyecto únicamente para priorizar el trabajo y realizar un seguimiento del progreso.
+El modelo de [!UICONTROL Revisión de recursos digitales] para un proceso integrado contiene una sola plantilla para organizar el proceso de trabajo asociado con la revisión de un recurso existente. La plantilla proporciona un proceso eficiente para un equipo que se basa en procedimientos operativos estándar para definir cómo realizar el trabajo y utiliza el proyecto únicamente para priorizar el trabajo y realizar un seguimiento del progreso.
 
-**[!UICONTROL Revisión de recursos digitales] (administrada)**
-El paquete [!UICONTROL Revisión de recursos digitales] contiene una única plantilla para organizar el trabajo asociado a una revisión de un recurso existente. La plantilla proporciona un proceso optimizado para una revisión de recursos mientras crea una experiencia coherente en comparación con un nuevo proyecto de producción de recursos.
+**[!UICONTROL Revisión de recursos digitales] (administrados)**
+El paquete [!UICONTROL Revisión de recursos digitales] contiene una sola plantilla para organizar el trabajo asociado con una revisión de un recurso existente. La plantilla proporciona un proceso optimizado para una revisión de recursos mientras crea una experiencia coherente en comparación con un nuevo proyecto de producción de recursos.
 
-**[!UICONTROL Editar lista de comprobación de TI para empleados transferidos]**
-Este modelo contiene una plantilla que la organización de Professional services de [!DNL Workfront] ha utilizado durante años en los compromisos de implementación con equipos de TI corporativa para administrar las distintas actividades que deben realizarse cuando se transfiere a un empleado a una nueva función. Esta plantilla reduce los riesgos de seguridad que existen cuando se completa la transferencia de un empleado sin supervisión de TI. También elimina horas perdidas de tiempo improductivo cuando no se concede acceso a los sistemas para cumplir con las obligaciones del nuevo rol del empleado.
+**[!UICONTROL Editar lista de comprobación de TI de empleado de transferencia]**
+Este modelo contiene una plantilla que la organización de servicios profesionales de [!DNL Workfront] ha utilizado durante años durante las contrataciones de implementación con equipos de TI corporativos para administrar las distintas actividades que deben llevarse a cabo cuando un empleado cambia a un nuevo rol. Esta plantilla reduce los riesgos de seguridad que existen cuando se completa la transferencia de un empleado sin supervisión de TI. También elimina horas perdidas de tiempo improductivo cuando no se concede acceso a los sistemas para cumplir con las obligaciones del nuevo rol del empleado.
 
 **[!UICONTROL Cierre operativo de fin de mes]**
 Este modelo contiene una plantilla que la organización de servicios profesionales [!DNL Workfront] ha utilizado durante años durante los compromisos de implementación con los equipos de finanzas para organizar el cierre de los libros a fin de mes. La plantilla proporciona una lista de comprobación de actividades comunes que deben completarse cada mes para informar con precisión sobre el estado de la empresa y promoverlo.
 
-**[!UICONTROL Configuración de la organización de finanzas]**
-Este modelo contiene la configuración de estructuras organizativas para la expansión a un departamento de finanzas.
+**[!UICONTROL Configuración de organización de finanzas]**
+Este modelo contiene la configuración de estructuras organizativas para expandirlas a un departamento de finanzas.
 
 **[!UICONTROL Iniciativa estratégica interna general]**
-El modelo de la [!UICONTROL Iniciativa estratégica interna general] contiene una plantilla de proyecto para la ejecución de este en cualquier optimización interna, despliegue de procesos u otra inversión estratégica. Su finalidad es tener un carácter lo suficientemente general como para trabajar para todas las organizaciones del negocio.
+El modelo de la [!UICONTROL Iniciativa estratégica interna general] contiene una plantilla de proyecto para ejecutar un proyecto en cualquier optimización interna, implementación de procesos u otra inversión estratégica. Su finalidad es tener un carácter lo suficientemente general como para trabajar para todas las organizaciones del negocio.
 
 **[!UICONTROL Configuración de la organización de recursos humanos]**
-Este modelo contiene la configuración de estructuras organizativas para la expansión a un departamento de recursos humanos.
+Este modelo contiene la configuración de estructuras organizativas para ampliarlas a un departamento de recursos humanos.
 
-**[!UICONTROL Configuración de la organización de tecnología de la información]**
-Este modelo contiene la configuración de estructuras organizativas para la expansión a un caso de uso de tecnología de la información.
+**[!UICONTROL Configuración de organización de tecnología de información]**
+Este modelo contiene la configuración de estructuras organizativas para ampliarlas a un caso de uso de tecnología de la información.
 
 **[!UICONTROL Conceptos básicos de instancias heredadas | Lista de comprobación]**
-Este modelo contiene una plantilla de proyecto (o lista de comprobación) que puede revisar con una breve lista de preguntas, recursos y vínculos para comprender claramente el modo en que se ha configurado la instancia de Workfront. Utilícelo cuando haya heredado recientemente una instancia de Workfront y necesite instrucciones sobre por dónde debe comenzar.
+Este modelo contiene una plantilla de proyecto (o lista de comprobación) que puede revisar con una breve lista de preguntas, recursos y vínculos para comprender claramente cómo se ha configurado la instancia de Workfront. Utilícelo cuando haya heredado recientemente una instancia de Workfront y necesite instrucciones sobre por dónde debe comenzar.
 
 **[!UICONTROL Ejecución de campaña integrada]**
-El modelo de la [!UICONTROL Ejecución de campaña integrada] contiene una única plantilla de proyecto que organiza el trabajo distribuido en varios equipos para ejecutar una campaña multicanal.
+El modelo [!UICONTROL Ejecución de campañas integrada] contiene una sola plantilla de proyecto que organiza el trabajo distribuido en varios equipos para ejecutar una campaña multicanal.
 
-**[!UICONTROL Configuración de la organización de marketing]**
-Este modelo contiene la configuración de estructuras organizativas para la expansión a un departamento de marketing.
+**[!UICONTROL Configuración de organización de marketing]**
+Este modelo contiene la configuración de estructuras organizativas para expandirlas a un departamento de marketing.
 
-**[!UICONTROL Plan de incorporación de nuevos empleados]**
-Este modelo contiene una plantilla que la [!DNL Workfront professional services] organización ha utilizado durante años en los compromisos de implementación con los equipos de recursos humanos para ayudar a los nuevos empleados a realizar un seguimiento de sus actividades de incorporación.
+**[!UICONTROL Nuevo plan de incorporación del empleado]**
+Este modelo contiene una plantilla que la organización [!DNL Workfront professional services] ha utilizado durante años durante los compromisos de implementación con los equipos de Recursos humanos para ayudar a los nuevos empleados a realizar un seguimiento de sus actividades de incorporación.
 
 **[!UICONTROL Nueva preparación para la contratación]**
-Este modelo contiene una plantilla que la organización de servicios profesionales de [!DNL Workfront] ha utilizado durante años durante los acuerdos de implementación con los equipos de Recursos Humanos para solicitar a los especialistas en recursos humanos y a los jefes de contratación que completen las actividades esenciales para el primer día de trabajo de un empleado.
+Este modelo contiene una plantilla que la organización de servicios profesionales [!DNL Workfront] ha utilizado durante años durante las contrataciones de implementación con los equipos de Recursos Humanos para solicitar a los especialistas en recursos humanos y a los jefes de contratación que completen las actividades esenciales para el primer día de trabajo de un empleado.
 
 **Descarga | Panel de usuario saliente**
 Este modelo contiene un único panel con 13 informes que le ayudarán a buscar, reasignar o, de otro modo, administrar los objetos y asignaciones asociados con la salida de un usuario de Workfront. También puede utilizar estos informes para reasignar el trabajo de un usuario que se traslada a una función o grupo nuevo.
@@ -95,50 +110,50 @@ Este modelo contiene un único panel con 13 informes que le ayudarán a buscar, 
 **Habilitación de socio: paquete de GenStudio Foundation**
 El paquete Partner Enablement: GenStudio Foundation está diseñado para facilitar la promoción perfecta del entorno de base de GenStudio. Incluye todos los componentes necesarios para ejecutar el bootcamp de manera efectiva.
 
-**Tablero del administrador de personas**
+**Tablero del gerente de personas**
 Este modelo contiene un solo tablero con 12 informes para dar a los administradores de personas visibilidad del trabajo de sus informes directos.
 
-**[!UICONTROL Posterior a la implementación: despliegue de nuevo caso de uso]**
-Este modelo contiene una única plantilla que organiza el trabajo que un [!DNL Workfront] cliente deberá completar para administrar la expansión a los siguientes procesos tras su implementación inicial.
+**[!UICONTROL Implementación Posterior: Nuevo Despliegue De Caso De Uso]**
+Este modelo contiene una sola plantilla que organiza el trabajo que un cliente de [!DNL Workfront] deberá completar para administrar la expansión a los siguientes procesos después de su implementación inicial.
 
 **[!UICONTROL Producción de recursos de impresión] (integrada)**
-El paquete [!UICONTROL Producción de recursos de impresión] contiene una plantilla que organiza el trabajo para un proceso de producción de impresión estándar. La plantilla proporciona un proceso eficiente para la creación de recursos de impresión originales para un equipo que se basa en procedimientos operativos estándar para definir cómo realizar el trabajo y que utiliza el proyecto únicamente para priorizar el trabajo y realizar un seguimiento del progreso.
+El paquete [!UICONTROL Print Asset Production] contiene una plantilla que organiza el trabajo para un proceso de producción de impresión estándar. La plantilla proporciona un proceso eficiente para la creación de recursos de impresión originales para un equipo que se basa en procedimientos operativos estándar para definir cómo realizar el trabajo y que utiliza el proyecto únicamente para priorizar el trabajo y realizar un seguimiento del progreso.
 
-**[!UICONTROL Producción de recursos de impresión] (administrada)**
-El paquete [!UICONTROL Producción de recursos de impresión] contiene una plantilla que organiza el trabajo para un proceso de producción de impresión estándar. Este paquete está diseñado como punto de entrada para administrar la creación de recursos de impresión en Workfront. Utilice este paquete para crear una base para la creación de contenido impreso y, a continuación, personalizarlo para satisfacer las necesidades de otros procesos creativos para materiales impresos.
+**[!UICONTROL Producción de recursos de impresión] (administrados)**
+El paquete [!UICONTROL Print Asset Production] contiene una plantilla que organiza el trabajo para un proceso de producción de impresión estándar. Este paquete está diseñado como punto de entrada para administrar la creación de recursos de impresión en Workfront. Utilice este paquete para crear una base para la creación de contenido impreso y, a continuación, personalizarlo para satisfacer las necesidades de otros procesos creativos para materiales impresos.
 
 **[!UICONTROL Imprimir: producción de recursos de correo directo]**
-El modelo [!UICONTROL Imprimir: producción de recursos de correo postal] organiza el trabajo para un proceso de producción de material promocional impreso. Este modelo está diseñado como punto de entrada para la administración de material impreso, específicamente correo directo, en Workfront.
+El modelo [!UICONTROL Imprimir: producción de recursos de correo directo] organiza el trabajo para un proceso de producción de material promocional impreso. Este modelo está diseñado como punto de entrada para la administración de material impreso, específicamente correo directo, en Workfront.
 
 **[!UICONTROL Imprimir: Creación de contenido de correo directo y ejecución de campañas]**
 El modelo [!UICONTROL Imprimir: Creación y ejecución de contenido de correo directo] organiza el trabajo para un proceso de producción de material promocional impreso. Este modelo está diseñado como punto de entrada para la administración de material impreso, específicamente correo directo, en Workfront. Esta plantilla es única porque también contiene tareas para imprimir el recurso y ejecutar la campaña de correo directo, independientemente de otras actividades de campaña.
 
-**[!UICONTROL Configuración de la organización de Professional Services]**
+Configuración de organización de **[!UICONTROL Professional Services]**
 Este modelo contiene la configuración de estructuras organizativas para ampliarlas a un caso de uso de Professional Services.
 
 **[!UICONTROL Seguimiento del proceso de contratación]**
-Este modelo define una lista de comprobación para los recursos de contratación interna que se utilizarán para ayudar a las partes interesadas del negocio a realizar un seguimiento del progreso de las solicitudes de personal. Está diseñado para admitir un nivel de madurez gestionado.
+Este modelo define una lista de comprobación para los recursos de contratación interna que se utilizarán para ayudar a las partes interesadas empresariales a realizar un seguimiento del progreso de las solicitudes de plantilla. Está diseñado para admitir un nivel de madurez gestionado.
 
 **Preparación de administración de recursos**
 Utilice este modelo para asegurarse de que tiene la configuración y la información correctas necesarias para generar datos precisos de Administración de recursos.
 
 **[!UICONTROL Autoevaluación de control de riesgos: planificación clave de la mitigación de riesgos]**
-La [!UICONTROL Autoevaluación del control de riesgos] (RSCA) define un proceso para identificar los riesgos y medir los controles de que dispone para mitigarlos. Esta plantilla formaliza el proceso para que evalúe nuevos riesgos, para asegurarse de que se establecen los controles adecuados y para asegurarse de que sabe cómo medir y documentar la eficacia del control.
+La [!UICONTROL Autoevaluación del control de riesgos] (RSCA) define un proceso para identificar riesgos y medir los controles que tiene para mitigarlos. Esta plantilla formaliza el proceso para que evalúe nuevos riesgos, para asegurarse de que se establecen los controles adecuados y para asegurarse de que sabe cómo medir y documentar la eficacia del control.
 
 **[!UICONTROL Autoevaluación de control de riesgos: atestación trimestral]**
-La [!UICONTROL autoevaluación del control de riesgos] (RSCA) define un proceso para identificar los riesgos y medir los controles de que dispone para mitigarlos. Esta plantilla proporciona una estructura para ayudarle a crear un registro de riesgos inicial, establecer un plan para mitigar cada riesgo y proporcionar documentación para mostrar el funcionamiento de los controles.
+La [!UICONTROL Autoevaluación del control de riesgos] (RSCA) define un proceso para identificar riesgos y medir los controles que su organización tiene para mitigarlos. Esta plantilla proporciona una estructura para ayudarle a crear un registro de riesgos inicial, establecer un plan para mitigar cada riesgo y proporcionar documentación para mostrar el funcionamiento de los controles.
 
-**[!UICONTROL Social Asset Production] (integrado)**
-El paquete [!UICONTROL Social Asset Production] contiene una plantilla que organiza el trabajo para crear un artefacto social. La plantilla proporciona un proceso eficiente para la creación original de recursos sociales para un equipo que se basa en procedimientos operativos estándar para definir cómo realizar el trabajo y utiliza el proyecto únicamente para priorizar el trabajo y rastrear el progreso.
+**[!UICONTROL Producción de recursos sociales] (integrada)**
+El paquete [!UICONTROL Producción de recursos sociales] contiene una plantilla que organiza el trabajo para crear un artefacto social. La plantilla proporciona un proceso eficiente para la creación original de recursos sociales para un equipo que se basa en procedimientos operativos estándar para definir cómo realizar el trabajo y utiliza el proyecto únicamente para priorizar el trabajo y rastrear el progreso.
 
-**[!UICONTROL Social Asset Production] (administrado)**
-El paquete [!UICONTROL Social Asset Production] contiene una plantilla que organiza el trabajo para crear un artefacto social. Está diseñado como punto de entrada para administrar la creación de recursos sociales en Workfront. Utilice este paquete para crear una base para todos los procesos de creación de contenido social personalizándola para satisfacer las necesidades de otros procesos creativos de contenido social.
+**[!UICONTROL Producción de recursos sociales] (administrados)**
+El paquete [!UICONTROL Producción de recursos sociales] contiene una plantilla que organiza el trabajo para crear un artefacto social. Está diseñado como punto de entrada para administrar la creación de recursos sociales en Workfront. Utilice este paquete para crear una base para todos los procesos de creación de contenido social personalizándola para satisfacer las necesidades de otros procesos creativos de contenido social.
 
 **[!UICONTROL Implementaciones de software/Desarrollo de aplicaciones]**
 Este modelo contiene una plantilla que la organización de servicios profesionales de [!DNL Workfront] ha utilizado durante años durante los compromisos de implementación con los equipos de TI para organizar el trabajo al instalar soluciones de terceros o para crear aplicaciones y utilidades internas.
 
-**[!UICONTROL Panel de control de mantenimiento del administrador del sistema]**
-Este modelo contiene un solo panel de control para ayudar a los administradores del sistema a mantener y limpiar el sistema periódicamente de desorden diverso que pueda acumularse con el tiempo.
+**[!UICONTROL Panel de mantenimiento del administrador del sistema]**
+Este modelo contiene un solo tablero para ayudar a los administradores del sistema a mantener y limpiar el sistema periódicamente de otros desorden que puedan acumularse con el tiempo.
 
 **Realización del valor | Panel de control de valores básicos**
 
@@ -160,8 +175,8 @@ Este modelo contiene un solo panel de control con 7 informes que le ayudarán a 
 
 El paquete [!UICONTROL Video Asset Production] contiene una plantilla que organiza el proceso de trabajo para un proceso de producción de vídeo estándar. La plantilla proporciona un proceso eficiente para la creación de recursos de vídeo originales para un equipo que se basa en procedimientos operativos estándar para definir cómo realizar el trabajo y utiliza el proyecto únicamente para priorizar el trabajo y rastrear el progreso.
 
-**[!UICONTROL Video Asset Production] (administrado)**
-El paquete [!UICONTROL Video Asset Production] contiene una plantilla que organiza el trabajo para un proceso de producción de vídeo estándar. Este paquete está diseñado como punto de entrada para administrar la creación de recursos de vídeo en Workfront. Utilice este paquete para crear una base para la creación de contenido de vídeo y, a continuación, personalizarla para satisfacer las necesidades de otros procesos creativos para tipos especializados de materiales de vídeo.
+**[!UICONTROL Producción de recursos de vídeo] (administrados)**
+El paquete [!UICONTROL Producción de recursos de vídeo] contiene una plantilla que organiza el trabajo para un proceso de producción de vídeo estándar. Este paquete está diseñado como punto de entrada para administrar la creación de recursos de vídeo en Workfront. Utilice este paquete para crear una base para la creación de contenido de vídeo y, a continuación, personalizarla para satisfacer las necesidades de otros procesos creativos para tipos especializados de materiales de vídeo.
 
 **[!UICONTROL [!DNL Workfront]Comunicación y plantilla de inicio]**
 

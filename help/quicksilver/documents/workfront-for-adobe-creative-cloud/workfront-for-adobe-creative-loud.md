@@ -2,20 +2,29 @@
 content-type: reference
 product-area: documents;workfront-integrations
 navigation-topic: documents-navigation-topic
-title: Extensión de Workfront para Illustrator y InDesign
-description: La extensión de Workfront es una extensión de Adobe diseñada para permitirle guardar y exportar recursos que crea en Illustrator o InDesign para Workfront, lo que acelera el proceso de aprobación y revisión.
+title: Extensión de Workfront para Illustrator e InDesign
+description: La extensión de Workfront es una extensión de Adobe diseñada para permitirle guardar y exportar recursos que crea en Illustrator o InDesign a Workfront, lo que acelera el proceso de aprobación y revisión.
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: d9a02d4b-94ae-4150-a932-fd88d131892f
-source-git-commit: 752caa1d94a09871b97a11400d83f28853118d33
+TQID: https://experienceleague.adobe.com/I2HS3Fp7cTE13xMr7Jl2F8dQL3HAz0AB3ruWhihRFvU
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '90'
-ht-degree: 0%
+source-wordcount: 90
+ht-degree: 28%
 
 ---
 
-# Extensión de Workfront para Illustrator y InDesign
+# Extensión de Workfront para Illustrator e InDesign
 
 <!--
 >[!IMPORTANT]
@@ -23,8 +32,8 @@ ht-degree: 0%
 >We are removing the Workfront extension for Illustrator and InDesign from the Creative Cloud exchange in mid-November.
 -->
 
-La extensión de Workfront es una extensión de Adobe diseñada para permitirle guardar y exportar recursos que crea en Illustrator o InDesign para Workfront, lo que acelera el proceso de aprobación y revisión.
+La extensión de Workfront es una extensión de Adobe diseñada para permitirle guardar y exportar recursos que crea en Illustrator o InDesign a Workfront, lo que acelera el proceso de aprobación y revisión.
 
 Esta sección contiene los siguientes artículos:
 
-* [Uso de la extensión de Workfront para Illustrator y InDesign](../../documents/workfront-for-adobe-creative-cloud/use-wf-adobe-cc.md)
+* [Uso de la extensión de Workfront para Illustrator e InDesign](../../documents/workfront-for-adobe-creative-cloud/use-wf-adobe-cc.md)

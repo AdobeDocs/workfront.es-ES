@@ -8,10 +8,22 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 13880fcb-8523-45d2-9ac6-38453e8e2391
-source-git-commit: f01ce9bcbb795097d39e276a734300f5059e35c4
+TQID: https://experienceleague.adobe.com/y3cDoyu3OELK9IQjRPrN4-n8kVdOLQlIHhI7yS6p6OU
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1462'
-ht-degree: 75%
+source-wordcount: 1359
+ht-degree: 69%
 
 ---
 
@@ -166,7 +178,7 @@ Este ejemplo muestra cómo llamar a una API de países (como <https://api.first.
    * Puede añadir $$QUERY para implementar el filtrado de consultas para los usuarios finales.
 
    **Ejemplos**
-Enumera todos los países: <https://api.first.org/data/v1/countries>
+Lista todos los países: <https://api.first.org/data/v1/countries>
 
    Permite que el usuario busque cualquier país en el campo desplegable: <https://api.first.org/data/v1/countries?q=$$QUERY>
 
@@ -214,18 +226,18 @@ Enumera todos los países: <https://api.first.org/data/v1/countries>
 
 Existen muchos otros casos de uso para crear una búsqueda externa.
 
-**Caso de uso:** reemplace los campos de escritura anticipada, ya que pueden causar problemas con la creación de informes.
-**Solución:** use una llamada de API a los objetos existentes en el sistema.
+**Caso de uso:** Reemplace los campos de escritura anticipada, ya que pueden causar problemas con los informes.
+**Solución:** Use una llamada API a los objetos existentes en el sistema.
 
 Ejemplo de URL de API base para plantillas, para reemplazar un campo de escritura anticipada:
 `$$HOST/attask/api/v17.0/tmpl/search?isActive=true&name_Sort=asc`
 
-**Caso de uso:** cree campos desplegables con más funciones (por ejemplo, hay salto de línea en el campo Búsqueda externa).
-**Solución:** use una llamada de API a los objetos existentes del sistema o cree un nuevo objeto y use una llamada de API a este objeto.
+**Caso de uso:** Cree campos desplegables con más características (por ejemplo, hay ajuste de línea en el campo de búsqueda externa).
+**Solución:** Use una llamada API a los objetos existentes del sistema o cree un nuevo objeto y use una llamada API a este objeto.
 
-**Caso de uso:** defina una forma para que los usuarios mantengan sus propios campos fuera del área de formularios personalizados. Configure el campo Búsqueda externa y puede proporcionar usuarios a los objetos que componen el campo. Esta opción es adecuada para campos y equipos de alto mantenimiento.
-**Solución:** cree un nuevo objeto y use una llamada de API a este objeto.
+**Caso de uso:** defina una forma para que los usuarios mantengan sus propios campos fuera del área de formularios personalizados. Configure el campo Búsqueda externa y puede proporcionar usuarios a los objetos que componen el campo. Esta opción es adecuada para equipos y campos de alto mantenimiento.
+**Solución:** Cree un nuevo objeto y use una llamada API a este objeto.
 
-**Caso de uso:** integración con objetos fuera de Workfront. Por ejemplo, acceder a otro sistema para obtener el nombre de cada usuario, en lugar de estar restringido en un campo de escritura anticipada.
-**Solución:** automatización de webhook/Fusion para conectarse a otros sistemas.
+**Caso de uso:** Integración con objetos fuera de Workfront. Por ejemplo, acceder a otro sistema para obtener el nombre de cada usuario, en lugar de estar restringido en un campo de escritura anticipada.
+**Solución:** Automatización Webhook/Fusion para conectarse a otros sistemas.
 

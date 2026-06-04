@@ -9,10 +9,22 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 70f3dac7-f449-4dc8-9d7d-a5284b37f9ec
-source-git-commit: 156341072c291b5c03432da399a509d9772b73ea
+TQID: https://experienceleague.adobe.com/VN48OQlXHrmfEYUZ2hOusWN-LE-U6BhXBvqprFOsczY
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: a91f865d-c69e-423f-aeff-28a3d6e8554d
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '2139'
-ht-degree: 88%
+source-wordcount: 2136
+ht-degree: 89%
 
 ---
 
@@ -47,7 +59,7 @@ Estos campos a veces pueden tener muchas (a veces cientos) de opciones. Importar
  <col> 
  <tbody> 
   <tr> 
-   <td>paquete de Adobe Workfront</td> 
+   <td>Paquete de Adobe Workfront</td> 
    <td><p>Cualquiera</p></td> 
   </tr> 
   <tr> 
@@ -212,7 +224,7 @@ Para rellenar la hoja de cálculo de Excel con información para los nuevos camp
      >    Si una línea representa una opción existente, debe escribir **`isNew`** = **`FALSE`**.
 
    * **`ID`** = debe ser un número único para cada línea que represente una nueva opción. Puede utilizar cualquier número que empiece por 1, siempre que cada nueva opción tenga un número único.
-   * **`setIsDefault`** = introduzca `TRUE` para las opciones que desee mostrar de forma predeterminada y `FALSE` para todas las demás opciones, para cada campo. Por ejemplo, queremos que _Nike_ sea la opción predeterminada para _Marca_ y _Imprimir_ sea la opción predeterminada para _Medios_.
+   * **`setIsDefault`** = introduzca `TRUE` para las opciones que desee mostrar de forma predeterminada y `FALSE` para todas las demás opciones, para cada campo.  Por ejemplo, queremos que _Nike_ sea la opción predeterminada para _Marca_ y _Imprimir_ sea la opción predeterminada para _Medios_.
 
      >[!TIP]
      >
@@ -269,7 +281,7 @@ Después de realizar los pasos descritos en las secciones anteriores, continúe 
 
 1. Busque la hoja de cálculo de Excel que ha preparado en el equipo y selecciónela cuando la encuentre.
 
-   El archivo se carga automáticamente y se muestra una notificación de que la importación se ha realizado correctamente. En función de la cantidad de información que esté importando, este paso puede tardar entre unos segundos y un minuto.
+   El archivo se carga de forma automática y se muestra una notificación de que la importación se ha realizado correctamente. En función de la cantidad de información que esté importando, este paso puede tardar entre unos segundos y un minuto.
 
    Los nuevos campos y formularios personalizados ya están en el sistema de Workfront. Puede encontrarlos en el área de formularios personalizados de la Configuración.
 
@@ -279,10 +291,10 @@ Después de realizar los pasos descritos en las secciones anteriores, continúe 
 
    Para obtener información sobre cómo agregar campos a formularios personalizados, consulte [Crear un formulario personalizado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
-1. (Condicional) Si la importación no se realizó correctamente, recibirá un mensaje de error que indica cuál es el problema. Intente identificar el campo, la hoja y el número de fila en los que se encontró el problema y corregir la información en el archivo de Excel. A continuación, intente importar el archivo una vez más.
+1. (Condicional) Si la importación no se ha realizado correctamente, recibirá un mensaje de error en el que se indica cuál es el problema. Intente identificar el campo, la hoja y el número de fila en los que se encontró el problema y corrija la información en el archivo de Excel. A continuación, intente importar el archivo una vez más.
 
 1. (Condicional) Dependiendo de cuál sea el problema, tal y como se indica en el mensaje de error, es posible que parte de la información ya se haya importado. Debe realizar una de las siguientes acciones antes de volver a importar la hoja:
 
    * Elimine la información que se importó correctamente desde Workfront desde el área de formularios personalizados y, a continuación, realice la corrección que indica el mensaje de error.
    * Indique que un campo o formulario ya está en el sistema para los campos o formularios que ya se han importado y, a continuación, realice la corrección.
-Para indicar que un campo o un formulario personalizado ya se encuentra en Workfront, debe asegurarse de que el campo `inNew` esté marcado como `FALSE` en las hojas que contienen información sobre el formulario (`CTGY`) o el campo (`PARAM`) en la hoja de importación de puesta en marcha.
+Para indicar que un campo o un formulario personalizado ya se encuentra en Workfront, debe asegurarse de que el campo `inNew` esté marcado como `FALSE` en las hojas que contienen información sobre el formulario (`CTGY`) o el campo (`PARAM`) en la hoja de importación de inicio.

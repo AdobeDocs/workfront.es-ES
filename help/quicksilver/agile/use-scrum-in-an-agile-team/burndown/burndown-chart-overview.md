@@ -7,11 +7,23 @@ description: El gráfico de evolución proporciona una representación visual de
 author: Courtney
 feature: Agile
 exl-id: 414e3315-35ed-4aa4-a2d8-be42ec585f29
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/8OZS7tJxkbVtVbH41oKsUmL2dwJdkOCTJFXcuxXtWFQ
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '970'
+source-wordcount: 976
 ht-degree: 0%
 
 ---
@@ -73,7 +85,7 @@ El gráfico de evolución contiene los siguientes indicadores visuales:
 
 ## Cómo afectan los días libres al gráfico de evolución {#how-days-off-affect-the-burndown-chart}
 
-La programación predeterminada definida en [!DNL Workfront] afecta el gráfico de evolución al excluir los días libres (fines de semana y festivos) de la evolución. El gráfico de evolución utiliza el horario predeterminado para definir los días laborables (tal y como se describe en  [Crear una programación](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)).
+La programación predeterminada definida en [!DNL Workfront] afecta el gráfico de evolución al excluir los días libres (fines de semana y festivos) de la evolución. El gráfico de evolución usa el horario predeterminado para definir los días laborables (como se describe en [Crear un horario](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)).
 
 Los equipos de Agile pueden incorporar días no laborables específicos del equipo definiendo un horario alternativo (como se describe en el artículo [Usar un horario de equipo alternativo para los gráficos de evolución](../../../agile/use-scrum-in-an-agile-team/burndown/use-alt-team-schedule-burndown-charts.md)). Esta programación alternativa se refleja en el gráfico de evolución de cualquier iteración asignada al equipo. La programación alternativa solo afecta al gráfico de evolución.
 

@@ -3,20 +3,29 @@ content-type: overview
 product-area: documents;workfront-integrations
 navigation-topic: workfront-for-experience-manager-enhanced-connector
 title: Información general sobre los metadatos de conectores mejorados de Workfront para Experience Manager
-description: El conector mejorado de Workfront para Experience Manager puede capturar los metadatos de la ideación a la entrega automáticamente. Aumente la velocidad del contenido mejorando la capacidad de búsqueda dentro del repositorio de recursos. Los usuarios pueden encontrar fácilmente todos los recursos asociados a un proyecto de Workfront en particular buscando el título del proyecto, el número de referencia, la fecha o cualquier otra propiedad de metadatos asociada.
+description: El conector mejorado de Workfront para Experience Manager puede capturar los metadatos desde la ideación hasta la entrega automáticamente. Aumente la velocidad del contenido mejorando la capacidad de búsqueda dentro del repositorio de recursos. Los usuarios pueden encontrar fácilmente todos los recursos asociados a un proyecto de Workfront en particular, buscando el título, el número de referencia, la fecha del proyecto o cualquier otra propiedad de metadatos asociada.
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 0b05e766-6b07-451a-9f43-7f1a980e1a9d
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+TQID: https://experienceleague.adobe.com/IVhhrxU5f-M2mHGuCLkq4wxSqoI7qvKB3E3exfiU6xw
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '221'
-ht-degree: 6%
+source-wordcount: 221
+ht-degree: 100%
 
 ---
 
 # Información general sobre los metadatos de conectores mejorados de Workfront para Experience Manager
 
-El conector mejorado de Workfront para Experience Manager puede capturar los metadatos de la ideación a la entrega automáticamente. Aumente la velocidad del contenido mejorando la capacidad de búsqueda dentro del repositorio de recursos. Los usuarios pueden encontrar fácilmente todos los recursos asociados a un proyecto de Workfront en particular buscando el título del proyecto, el número de referencia, la fecha o cualquier otra propiedad de metadatos asociada.
+El conector mejorado de Workfront para Experience Manager puede capturar los metadatos desde la ideación hasta la entrega automáticamente. Aumente la velocidad del contenido mejorando la capacidad de búsqueda dentro del repositorio de recursos. Los usuarios pueden encontrar fácilmente todos los recursos asociados a un proyecto de Workfront en particular, buscando el título, el número de referencia, la fecha del proyecto o cualquier otra propiedad de metadatos asociada.
 
 ## Prácticas recomendadas de metadatos
 
@@ -24,30 +33,30 @@ El conector mejorado de Workfront para Experience Manager puede asignar todos lo
 
 * Detalles del proyecto
 
-   * Nombre de proyecto
-   * ID del proyecto o número de referencia
+   * Nombre del proyecto
+   * ID o número de referencia del proyecto
    * Descripción del proyecto
-   * Fecha de inicio y finalización del proyecto
-   * Parte interesada
+   * Fecha de inicio y de finalización del proyecto
+   * Responsable de departamento
    * Departamento de patrocinio
 
 * Detalles del documento
 
    * Nombre de documento
-   * ID de documento o número de referencia
+   * ID o número de referencia del documento
    * Descripción del documento
 
 * Detalles de tarea
 
    * Nombre de la tarea
-   * ID de tarea o número de referencia
-   * Descripción de tarea
+   * ID de tarea o número de referencia de la tarea
+   * Descripción de la tarea
    * Asignado
    * Total de horas registradas
 
-* Detalles del problema
+* Detalles de problema
 
    * Nombre del problema
-   * Identificador de problema o número de referencia
+   * ID o número de referencia del problema
    * Descripción del problema
    * Asignado

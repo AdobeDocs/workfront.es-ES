@@ -8,10 +8,20 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 76b6acc4-c432-47b4-90bf-6e37e970625f
-source-git-commit: 15ea03bf586054f7ef421f8cacede6f42835a6e4
+TQID: https://experienceleague.adobe.com/a8hcTFpx3LmuGpQM8Wk8BpLDCFUVJWLAcP-YV5ogK0U
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '399'
-ht-degree: 99%
+source-wordcount: 403
+ht-degree: 94%
 
 ---
 
@@ -30,8 +40,8 @@ Esto resulta útil si la directiva de seguridad de su organización impide que l
 >
 >Todo el correo electrónico de Workfront se envía desde esa dirección para aumentar el éxito de la entrega de correo electrónico y para eliminar la suplantación de correos electrónicos. Esto incluye tanto alertas automatizadas como la comunicación de usuario a usuario.
 >
->Por ejemplo, la línea “De” en un correo electrónico de Workfront que recibe de un usuario llamado Joan Harris tendría este aspecto:
->&#x200B;>`Joan Harris <notifications@my.workfront.com>`
+>Por ejemplo, la línea De de un correo electrónico de Workfront que recibe de un usuario llamado Joan Harris tendría este aspecto:
+>`Joan Harris <notifications@my.workfront.com>`
 
 Para obtener información sobre la configuración del cortafuegos de su organización para abrir la comunicación entre su entorno y los servidores de Adobe Workfront, consulte [Configurar la lista de permitidos del cortafuegos](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
 
