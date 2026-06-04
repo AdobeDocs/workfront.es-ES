@@ -8,11 +8,17 @@ author: Courtney
 feature: System Setup and Administration, Approvals
 role: Admin
 exl-id: 1709e285-51a5-49a1-a03a-743a334fbe4d
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 0fc7a16640d134b6f524a30929ed6f3041f12e31
+TQID: https://experienceleague.adobe.com/OtDxOGVVcWVb8PK1Ef6EW7VhuOxN2WulMGrJao8hXOc
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
 workflow-type: tm+mt
-source-wordcount: '2231'
+source-wordcount: 2231
 ht-degree: 92%
 
 ---
@@ -204,7 +210,7 @@ For more detail about the information in this table, see [Access requirements in
        <li> <p>Cuando se asigne una aprobación a una función y la opción <b>No se requiere que el aprobador esté en el equipo del proyecto (para los procesos de aprobación que incluyan una función)</b> esté deshabilitada, pero no haya funciones en el equipo del proyecto que coincidan con la función en la aprobación, esta última se reasignará al propietario del proyecto. Para obtener información sobre la configuración de aprobaciones, consulte <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/establish-approval-settings.md" class="MCXref xref">Configuración de la aprobación global</a>.</p> </li> 
        </ul> 
        <ul> 
-       <li> <p>Cuando asigna una aprobación al Propietario del Proyecto y no se designa a nadie como propietario de un proyecto, la aprobación se reasigna al administrador principal de Workfront, tal como se indica en la sección de Información del Cliente en el área de Configuración. Para obtener más información, consulte <a href="../../../administration-and-setup/get-started-wf-administration/configure-basic-info.md" class="MCXref xref">Configurar información básica para el sistema</a>.  </p> </li> 
+       <li> <p>Cuando asigna una aprobación al Propietario del Proyecto y no se designa a nadie como propietario de un proyecto, la aprobación se reasigna al administrador principal de Workfront, tal como se indica en la sección de Información del Cliente en el área de Configuración. Para obtener información, consulte <a href="../../../administration-and-setup/get-started-wf-administration/configure-basic-info.md" class="MCXref xref">Configurar información básica para el sistema</a>.  </p> </li> 
        </ul> <p> <img src="assets/approval-create-add-users-nwe-350x304.png" style="width: 350;height: 304;"> </p> </p> <p>Puede repetir este proceso para añadir varios aprobadores a la fase. Una sola fase puede incluir una combinación de usuarios, equipos y funciones como aprobadores. No hay límite en el número de aprobadores que puede añadir a una fase.</p> <p><b>IMPORTANTE</b></p> <p>Cuando asigna funciones laborales como aprobadores, todos los usuarios asociados con esa función que también formen parte del equipo del proyecto pueden tomar una decisión sobre la aprobación. </p> <p>Cuando asigna un equipo como aprobador, cualquier usuario de ese equipo puede tomar una decisión sobre la aprobación. </p> <p>Para obtener más información sobre el equipo del proyecto, consulte <a href="../../../manage-work/projects/planning-a-project/project-team-overview.md" class="MCXref xref">Descripción general del equipo del proyecto</a>. Para obtener más información sobre la aprobación de trabajo, consulte <a href="../../../review-and-approve-work/manage-approvals/approving-work.md" class="MCXref xref">Aprobación del trabajo </a>.</p> </p> </td> 
      </tr> 
      <tr> 
@@ -212,7 +218,7 @@ For more detail about the information in this table, see [Access requirements in
       <td> <p>Seleccione esta opción si alguno de los aprobadores de la fase puede aprobar o rechazar el elemento de trabajo durante esta fase. Esta acción permite que el elemento de trabajo abandone el escenario. </p> <p>Cuando esta opción no está seleccionada, todos los aprobadores identificados deben aprobar o rechazar la fase (en cualquier orden) antes de que el elemento abandone la fase. Si cualquiera de los aprobadores rechaza la etapa, el proceso se interrumpe y comienza de nuevo para que se puedan realizar los cambios necesarios. A continuación, los aprobadores pueden aprobar o rechazar la fase una vez más.</p> <p>Cuando se designa un equipo como aprobador, cualquier miembro del equipo puede conceder o rechazar una etapa.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"> <p role="rowheader">Añadir fase</p> </td> 
+      <td role="rowheader"> <p role="rowheader">Agregar fase</p> </td> 
       <td><p>(Opcional) Añada otra etapa al camino, usando las opciones explicadas en las tres filas anteriores. Puede añadir tantas fases a la ruta como necesite.</p></td> 
      </tr> 
      <tr> 

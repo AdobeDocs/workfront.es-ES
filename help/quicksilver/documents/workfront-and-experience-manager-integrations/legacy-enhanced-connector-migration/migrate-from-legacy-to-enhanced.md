@@ -6,10 +6,15 @@ description: El siguiente proceso describe las prácticas recomendadas para pasa
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 4a8d1e2b-9744-4f72-a337-5057448db4fb
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+TQID: https://experienceleague.adobe.com/px8ysyDqpwzajmCfRPJLclKOUSuIFacl99Uf6sRCKFQ
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '329'
-ht-degree: 99%
+source-wordcount: 356
+ht-degree: 92%
 
 ---
 
@@ -30,9 +35,9 @@ Para los clientes con Adobe Experience Manager Assets as a Cloud Service, la rut
 >
 >Se necesita un partner certificado o servicios de Adobe Consulting para implementar el conector mejorado.
 >
-> Para los partners que deseen certificar el conector mejorado, consulte el siguiente artículo: [Workfront para Experience Manager con conector mejorado Expert Series](https://experienceleague.adobe.com/es/docs/experience-manager-learn/assets/workfront/enhanced-connector/aem-experts-series/overview).
+> Para los partners que deseen certificar el conector mejorado, consulte el siguiente artículo: [Workfront para Experience Manager con conector mejorado Expert Series](https://experienceleague.adobe.com/en/docs/experience-manager-learn/assets/workfront/enhanced-connector/aem-experts-series/overview).
 
-Para implementar el conector mejorado, consulte [Configuración de Workfront para el conector mejorado de Experience Manager](https://experienceleague.adobe.com/es/docs/experience-manager-65/content/assets/integrations/workfront-connector-configure).
+Para implementar el conector mejorado, consulte [Configuración de Workfront para el conector mejorado de Experience Manager](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/integrations/workfront-connector-configure).
 
 
 ## Mover recursos existentes

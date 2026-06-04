@@ -9,10 +9,15 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: b83e2e35-dd9d-4d98-b8d4-2f8718b3c6c1
-source-git-commit: 156341072c291b5c03432da399a509d9772b73ea
+TQID: https://experienceleague.adobe.com/wgUZVPkh6AWQtmafLAcRFq0-P7lHtKuELUlOcCqpG0k
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1193'
-ht-degree: 52%
+source-wordcount: 1214
+ht-degree: 53%
 
 ---
 
@@ -29,7 +34,7 @@ Cuando comience a implementar Adobe Workfront, en lugar de introducir datos manu
  <col> 
  <tbody> 
   <tr> 
-   <td>paquete de Adobe Workfront</td> 
+   <td>Paquete de Adobe Workfront</td> 
    <td><p>Cualquiera</p></td> 
   </tr> 
   <tr> 
@@ -274,7 +279,7 @@ En las tablas siguientes se muestran los usuarios que se van a importar y varios
 
 1. Introduzca los detalles del grupo de inicio del usuario.
 
-   Según el escenario, Chris Manning pertenece al grupo de marketing. En la hoja **Grupo de grupo**, busque el identificador del grupo de marketing, cópielo y en la hoja **Usuario** péguelo en la columna **setHomeGroupID** de la fila del usuario. palo de golfRepita este paso para cada asignación de usuario y grupo.
+   Según el escenario, Chris Manning pertenece al grupo de marketing. En la hoja **Grupo de grupo**, busque el identificador del grupo de marketing, cópielo y en la hoja **Usuario** péguelo en la columna **setHomeGroupID** de la fila del usuario. &#x200B;Repita este paso para cada asignación de usuario y grupo.
 
    ![Copiar ID de grupo](assets/copygroupid-1-350x133.png) ![Pegar ID de grupo](assets/pastegroupid-350x59.png)
 
@@ -288,7 +293,7 @@ En las tablas siguientes se muestran los usuarios que se van a importar y varios
 
 1. Introduzca los detalles de la función del usuario.
 
-   Según el escenario, Chris Manning tendrá la función de Analista empresarial. En la hoja **Rol**, busque el identificador de la función Analista de negocios, cópielo y, en la hoja **Usuario**, péguelo en la columna **setRoleID** de la fila del usuario. palo de golfRepita este paso para cada asignación de usuario y grupo.
+   Según el escenario, Chris Manning tendrá la función de Analista empresarial. En la hoja **Rol**, busque el identificador de la función Analista de negocios, cópielo y, en la hoja **Usuario**, péguelo en la columna **setRoleID** de la fila del usuario. &#x200B;Repita este paso para cada asignación de usuario y grupo.
 
    ![Copiar id. de rol](assets/copyroleid-350x149.png) ![Pegar id. de rol](assets/pasteroleid-350x95.png)
 
@@ -303,4 +308,4 @@ En las tablas siguientes se muestran los usuarios que se van a importar y varios
 > 
 >Si su organización se ha migrado a Adobe Admin Console y un usuario no abandona el estado Desactivado y Pendiente de aprobación en unos minutos, puede añadir el lote de usuarios directamente a Adobe Admin Console.
 >
->Para obtener instrucciones, consulte [Administrar varios usuarios | Carga masiva de CSV](https://helpx.adobe.com/es/enterprise/using/bulk-upload-users.html) en la documentación de Adobe.
+>Para obtener instrucciones, consulte [Administrar varios usuarios | Carga masiva de CSV](https://helpx.adobe.com/enterprise/using/bulk-upload-users.html) en la documentación de Adobe.

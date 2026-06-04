@@ -9,10 +9,15 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 0ac8c7df-2d38-4291-861e-52fb5e748537
-source-git-commit: 7ca27795ec115a112acb55113bfade4a5fee15ad
+TQID: https://experienceleague.adobe.com/wEVyLIZPMoEV-I4LDF6eqHbiFC-dr7bZouMPN4j-Jgw
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '792'
-ht-degree: 71%
+source-wordcount: 775
+ht-degree: 74%
 
 ---
 
@@ -30,7 +35,7 @@ Debe tener lo siguiente:
 
 <table>
   <tr>
-   <td>paquete de Adobe Workfront
+   <td>Paquete de Adobe Workfront
    </td>
    <td> <p>PRIME o ULTIMATE</p>
    </td>
@@ -60,7 +65,7 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
 
    Se abre la página Nuevo paquete de promociones.
 
-1. En el campo **Nombre**, introduzca un nombre para el paquete. 
+1. En el campo **Nombre**, introduzca un nombre para el paquete.
 1. En el campo **Descripción**, escriba una descripción para este paquete.
 1. Para añadir un objeto al paquete, en el panel de navegación izquierdo, seleccione el tipo de objeto que desea añadir.
 1. Seleccione uno o varios objetos de la lista que aparece, o escriba el nombre en la barra de búsqueda y seleccione el objeto cuando aparezca en la lista. Puede seleccionar más de un objeto en la lista.

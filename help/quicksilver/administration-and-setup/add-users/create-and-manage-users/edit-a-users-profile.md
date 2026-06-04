@@ -8,9 +8,15 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 0343fe74-1be4-43e2-9e3d-8aa1f7ea26fa
-source-git-commit: 579b550fef222922de1ed5fe2c9928a92b3fb7f2
+TQID: https://experienceleague.adobe.com/BK1OTfwr8q8XTrCeQh50s-wXtnCKzv2Bbn-PzDes4hc
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2: id: ce22a157-dd2c-405f-b740-c2f204bb4c1aid: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '3425'
+source-wordcount: 3451
 ht-degree: 65%
 
 ---
@@ -42,7 +48,7 @@ Para obtener información acerca de los usuarios que actualizan sus propios perf
    <td>Configuraciones de nivel de acceso</td> 
    <td> <p>Debe tener uno de los siguientes elementos:</p> 
     <ul> 
-     <li> <p>El nivel de acceso del administrador del sistema. </li> 
+     <li> <p>El nivel de acceso de administrador del sistema. </li> 
      <li> <p>Configuración de <b>usuarios</b> en su nivel de acceso configurado para el acceso de <b>Edición</b>, con <b>Crear</b> y al menos una de las dos opciones de <b>Administrador de usuarios</b> habilitadas en <b>Ajustar la configuración</b> <img src="assets/gear-icon-in-access-levels.png">. </p> <p>De estas dos opciones, si <b>Administrador de usuarios (usuarios de grupo)</b> está habilitado, debe ser administrador de grupo de un grupo al que pertenezca el usuario.</p> </li> 
     </ul>
     <p>Para editar las tarifas de facturación y de costo de un usuario, también debe tener activadas las opciones de ajuste Editar tarifas de facturación y Editar tarifas de costo.</p> </td> 
@@ -113,7 +119,7 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
   La imagen de perfil se convierte en el avatar del usuario y es visible en todo el sistema Workfront, independientemente de dónde se muestre el nombre del usuario.
 
 * **Información del trabajo**: Información sobre el trabajo, como el cargo (en el campo **Título**) y de qué área de experiencia es responsable el usuario (en el campo **Háblame de**).
-* **Información de contacto**: Número de teléfono del usuario (en el **Número de teléfono**, **Ext.** y **campos Número móvil**) y dirección (en los campos **Dirección**, **Ciudad**, **Estado**, **Código postal** y **País**).
+* **Información de contacto**: El número de teléfono del usuario (en los campos **Número de teléfono**, **Ext.** y **Número móvil**) y la dirección (en los campos **Dirección**, **Ciudad**, **Estado**, **Código postal** y **País**).
 
   El campo **País** de la sección Información de contacto solo acepta valores de código de país (por ejemplo, EE. UU., GB, IN).
 
@@ -151,7 +157,7 @@ Para obtener más información, consulte [Configurar notificaciones de eventos p
 
 ### Acceso
 
-* **El usuario está activo**: Habilite esta opción para indicar que el usuario está activo.  Los usuarios activos utilizan una licencia de Workfront. Al deshabilitar el campo, se desactiva el usuario y se impide que inicie sesión en Workfront.
+* **El usuario está activo**: Habilite esta opción para indicar que el usuario está activo. Los usuarios activos utilizan una licencia de Workfront. Al deshabilitar el campo, se desactiva el usuario y se impide que inicie sesión en Workfront.
 
 * **Nivel de acceso**: seleccione el nivel de acceso que desea asignar a este usuario.
 

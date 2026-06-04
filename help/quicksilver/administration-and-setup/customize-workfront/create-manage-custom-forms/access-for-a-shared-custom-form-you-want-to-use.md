@@ -1,26 +1,32 @@
 ---
 user-type: administrator
 product-area: system-administration
-keywords: acceso,compartido,personalizado,formulario
+keywords: acceso,formulario,personalizado,compartido
 navigation-topic: create-and-manage-custom-forms
 title: Acceso a un campo personalizado compartido
-description: Cuando alguien comparte un campo personalizado con acceso de Ver o Administrar, puede configurar otras opciones para definir aún más ese acceso. Si es destinatario del campo, esa configuración afecta a lo que puede hacer con el campo. Puede ver lo siguiente al ver el campo.
+description: Cuando alguien comparte un campo personalizado con acceso para Ver o Administrar, puede configurar otras opciones para definir aún más ese acceso. Si es destinatario del campo, esa configuración afecta a lo que puede hacer con el campo. Puede ver lo siguiente cuando ve el campo.
 author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 36172f4c-fe10-49d2-b10b-abb0cfce62c1
-source-git-commit: c1bc2832d1c52885e737056172e7aec93a951e6c
+TQID: https://experienceleague.adobe.com/GKSI-cFL-oRs-49nKvl42Fc-LbC12j4pP0OHGW383HA
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '395'
-ht-degree: 1%
+source-wordcount: 402
+ht-degree: 98%
 
 ---
 
 # Acceso a un campo personalizado compartido
 
-Cuando alguien comparte un campo personalizado con acceso de Ver o Administrar, puede configurar otras opciones para definir aún más ese acceso. Si es destinatario del campo, esa configuración afecta a lo que puede hacer con el campo. Puede ver lo siguiente al ver el campo.
+Cuando alguien comparte un campo personalizado con acceso para Ver o Administrar, puede configurar otras opciones para definir aún más ese acceso. Si es destinatario del campo, esa configuración afecta a lo que puede hacer con el campo. Puede ver lo siguiente cuando ve el campo.
 
-Para obtener más información acerca de cómo configuran los usuarios la configuración para compartir al compartir un formulario personalizado, vea [Configurar el uso compartido de campos y widgets personalizados en un formulario](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/manage-a-form/share-custom-fields.md).
+Para obtener más información sobre cómo los usuarios configuran el uso compartido cuando comparten un formulario personalizado, consulte [Configuración de uso compartido de campos personalizados y widgets en un formulario](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/manage-a-form/share-custom-fields.md).
 
 <table style="table-layout:auto"> 
  <col> 
@@ -36,20 +42,20 @@ Para obtener más información acerca de cómo configuran los usuarios la config
    <td> 
     <ul> 
      <li>Ver</li> 
-     <li>Añadir a Forms personalizado: no seleccionado</li> 
+     <li>Añadir a formularios personalizados: no seleccionado</li> 
     </ul> </td> 
-   <td> <p>Si está viendo la pestaña Campos en la página principal de Custom Forms, puede ver el campo, pero el botón Editar no está disponible en la barra de herramientas al seleccionar el campo.</p> </td> 
+   <td> <p>Si está viendo la pestaña Campos en la página principal de Formularios personalizados, puede ver el campo, pero el botón Editar no está disponible en la barra de herramientas al seleccionar el campo.</p> </td> 
   </tr> 
   <tr> 
    <td> 
     <ul> 
      <li>Ver</li> 
-     <li>Agregar a Forms personalizado: seleccionado</li> 
+     <li>Añadir a formularios personalizados: seleccionado</li> 
     </ul> </td> 
-   <td> <p>Si agrega el campo a un formulario personalizado:</p> 
+   <td> <p>Si añade el campo a un formulario personalizado:</p> 
     <ul> 
-     <li>Puede editar la configuración relacionada con el formulario para el campo, como su lógica de visualización, su orden entre otros campos del formulario, si es un campo obligatorio en el formulario y la capacidad de quitarlo del formulario.</li> 
-     <li>No se puede editar la configuración relacionada con el campo para el campo, como la etiqueta, el nombre y el tipo.</li> 
+     <li>Puede editar la configuración relacionada con el formulario para el campo, como su lógica de visualización, su orden, entre otros campos del formulario, si es un campo obligatorio y la capacidad de quitarlo del formulario.</li> 
+     <li>No se puede editar la configuración relacionada con el campo del campo, como etiqueta, nombre y tipo.</li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -58,14 +64,14 @@ Para obtener más información acerca de cómo configuran los usuarios la config
      <li>Administrar</li> 
      <li>Editable en todo el sistema</li> 
     </ul> </td> 
-   <td>Puede agregar el campo a los formularios personalizados y editar cualquier configuración relacionada con el campo para él, como la etiqueta, el nombre y el tipo.</td> 
+   <td>Puede añadir el campo a los formularios personalizados y editar cualquier configuración relacionada con el campo, como etiqueta, nombre y tipo.</td> 
   </tr> 
   <tr> 
    <td> 
     <ul> 
      <li>Administrar</li> 
     </ul> </td> 
-   <td> <p>Si está viendo la pestaña Campos en la página principal de Custom Forms, el botón Editar está disponible en la barra de herramientas al seleccionar el campo.</p> </td> 
+   <td> <p>Si está viendo la pestaña Campos en la página principal de Formularios personalizados, el botón Editar está disponible en la barra de herramientas al seleccionar el campo.</p> </td> 
   </tr> 
   <tr> 
    <td> 
@@ -73,7 +79,7 @@ Para obtener más información acerca de cómo configuran los usuarios la config
      <li>Ver o administrar</li> 
      <li>Compartir: no seleccionado</li> 
     </ul> </td> 
-   <td> <p>La configuración de uso compartido no está visible cuando se ve el campo al crear o editar un formulario personalizado.</p> <p>Si está viendo la pestaña Campos en la página principal de Custom Forms, el botón Compartir de la barra de herramientas no está disponible en la barra de herramientas al seleccionar el campo.</p> </td> 
+   <td> <p>La configuración de uso compartido no está visible cuando ve el campo al crear o editar un formulario personalizado.</p> <p>Si está viendo la pestaña Campos en la página principal de Formularios personalizados, el botón Compartir no está disponible en la barra de herramientas al seleccionar el campo.</p> </td> 
   </tr> 
   <tr> 
    <td> 
@@ -81,7 +87,7 @@ Para obtener más información acerca de cómo configuran los usuarios la config
      <li>Ver o administrar</li> 
      <li>Eliminar: no seleccionado</li> 
     </ul> </td> 
-   <td> <p>Si está viendo la pestaña Campos en la página principal de Custom Forms, el botón Eliminar no está disponible en la barra de herramientas al seleccionar el campo.</p> </td> 
+   <td> <p>Si está viendo la pestaña Campos en la página principal de Formularios personalizados, el botón Eliminar no está disponible en la barra de herramientas al seleccionar el campo.</p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -6,12 +6,17 @@ description: Puede añadir o responder a las actualizaciones de un documento par
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 8ecf8281-7fbd-446e-80e4-f9f0a864ad65
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
+TQID: https://experienceleague.adobe.com/-m3fnVyG4oH9lW-EB-97HFa2amVE1HQu8bHCXF3dR7U
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
 workflow-type: tm+mt
-source-wordcount: '524'
-ht-degree: 66%
+source-wordcount: 513
+ht-degree: 62%
 
 ---
 
@@ -67,8 +72,8 @@ Si su organización está en un almacenamiento de Workfront heredado, verá el �
 1. Busque el documento que necesita y realice una de las siguientes acciones:
 
    * Haga clic en el documento de la lista, haga clic en el icono **Abrir resumen** ![Abrir icono de resumen](assets/qs-summary-in-new-toolbar-small.png) en la esquina superior derecha y, a continuación, agregue un nuevo comentario, o haga clic en **Responder** para agregar una respuesta a un comentario existente. Para obtener información sobre el resumen, consulte [Resumen de la información general de documentos](../../documents/managing-documents/summary-for-documents.md).
-   * Pase el puntero por encima del documento, haga clic en **Detalles del documento** y, a continuación, en **Actualizaciones** en el panel izquierdo.
-Para obtener más información sobre cómo añadir actualizaciones a objetos, consulte [Actualizar trabajo](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+   * Pase el ratón sobre el documento, haga clic en **Detalles del documento** y luego en **Actualizaciones** en el panel izquierdo.
+Para obtener más información sobre cómo agregar actualizaciones a objetos, consulte [Trabajo de actualización](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
    Las actualizaciones y respuestas se añaden al documento y a los objetos mejor situados. Para obtener más información, consulte [Información general sobre la sección Actualizar](../../workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
 

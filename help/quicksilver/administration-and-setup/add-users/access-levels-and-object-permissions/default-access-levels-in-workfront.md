@@ -10,10 +10,16 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 5cb42dd8-1557-4fa4-ab3d-8278ce9afd96
-source-git-commit: 0ccf02a333b41705a582bcb10ab9a90198123997
+TQID: https://experienceleague.adobe.com/DPZYagVdnJmk541crPr4k5Lgxh-pyY60E2phgZz1z2k
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87effid: ce22a157-dd2c-405f-b740-c2f204bb4c1aid: d3382524-5489-431b-bde9-271ab257bc37id: d87de1f9-8e24-4c4d-aa4c-a403075091a1id: fceb5125-bb41-419a-b0db-31958cb42f6c
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1656'
-ht-degree: 84%
+source-wordcount: 1663
+ht-degree: 89%
 
 ---
 
@@ -23,7 +29,7 @@ ht-degree: 84%
 
 >[!NOTE]
 >
->La información de este artículo hace referencia a los niveles de acceso heredados. Para obtener información acerca de los niveles de acceso actuales, vea [Información general sobre los nuevos niveles de acceso](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md).
+>La información de este artículo hace referencia a los niveles de acceso heredados. Para obtener información acerca de los niveles de acceso actuales, consulte [Información general sobre los nuevos niveles de acceso](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md).
 
 
 Cada uno de los seis niveles de acceso integrados actuales está diseñado para un tipo particular de usuario. Estos niveles de acceso le permiten controlar lo que los usuarios pueden editar y ver en el sistema.
@@ -42,7 +48,7 @@ Según el nivel de acceso, hay disponibles hasta tres configuraciones para la ma
 <table style="table-layout:auto">
     <tr>
         <td>Editar</td>
-        <td>Los usuarios pueden crear, editar, eliminar y compartir el objeto de Workfront. </td>
+        <td>Los usuarios pueden crear, editar, eliminar y compartir el objeto de Workfront</td>
     </tr>
     <tr>
         <td>Ver</td>
@@ -107,8 +113,8 @@ A continuación, se muestran las opciones de acceso más altas disponibles para 
 | Plantillas |   |   | ✓ |
 | Datos financieros |   |   | ✓ |
 | Administración de recursos |   |   | ✓ |
-| Planificador de escenarios |   |   | ✓ (La configuración predeterminada es Sin acceso). |
-| Workfront Goals |   |   | ✓ (La configuración predeterminada es Sin acceso). |
+| Planificador de escenarios |   |   | ✓ (La configuración predeterminada es Sin acceso.) |
+| Workfront Goals |   |   | ✓ (La configuración predeterminada es Sin acceso.) |
 
 {style="table-layout:auto"}
 
@@ -134,8 +140,8 @@ A continuación se muestran las opciones de acceso más altas disponibles para l
 | Proyectos |   |   | ✓ (Limitado: los usuarios solo pueden compartir el proyecto, crear tareas y problemas en él y editar datos en formularios personalizados que ya estén adjuntos a él). |
 | Tareas |   |   | ✓ |
 | Problemas |   |   | ✓ |
-| Portafolios |   | ✓ (La configuración predeterminada es Sin acceso). |   |
-| Programas |   | ✓ (La configuración predeterminada es Sin acceso). |   |
+| Portafolios |   | ✓ (La configuración predeterminada es Sin acceso.) |   |
+| Programas |   | ✓ (La configuración predeterminada es Sin acceso.) |   |
 | Informes, paneles de control y calendarios |   | ✓ |   |
 | Filtros, vistas y agrupaciones |   |   | ✓ |
 | Documentos |   |   | ✓ |
@@ -144,8 +150,8 @@ A continuación se muestran las opciones de acceso más altas disponibles para l
 | Plantillas | ✓ |   |   |
 | Datos financieros |   | ✓ (La configuración predeterminada es Sin acceso. La configuración Ver permite al usuario ver solo el área de Finanzas en Detalles del proyecto). |   |
 | Administración de recursos |   | ✓ |   |
-| Planificador de escenarios |   |   | ✓ (La configuración predeterminada es Sin acceso). |
-| Workfront Goals |   |   | ✓ (La configuración predeterminada es Sin acceso). |
+| Planificador de escenarios |   |   | ✓ (La configuración predeterminada es Sin acceso.) |
+| Workfront Goals |   |   | ✓ (La configuración predeterminada es Sin acceso.) |
 
 {style="table-layout:auto"}
 
@@ -275,7 +281,7 @@ Más limitada para los proyectos y tareas que el nivel de acceso de trabajador, 
 
 ## Nivel de acceso de solicitante
 
-Adjuntado a la licencia de solicitud, el nivel de acceso de solicitante está diseñado para los usuarios que realizan y reciben solicitudes de trabajo sencillas en Workfront.  De forma predeterminada, se limitan al área de Solicitudes.
+Adjuntado a la licencia de solicitud, el nivel de acceso de solicitante está diseñado para los usuarios que realizan y reciben solicitudes de trabajo sencillas en Workfront. De forma predeterminada, se limitan al área de Solicitudes.
 
 Por ejemplo, un usuario puede registrar problemas en la cola de solicitudes del servicio de asistencia de su organización.
 
@@ -307,7 +313,7 @@ Las siguientes son las opciones de acceso más altas disponibles para los objeto
 | Datos financieros | ✓ |   |   |
 | Administración de recursos | ✓ |   |   |
 | Planificador de escenarios | ✓ |   |   |
-| Workfront Goals |   |   | ✓ (La configuración predeterminada es Sin acceso). |
+| Workfront Goals |   |   | ✓ (La configuración predeterminada es Sin acceso.) |
 
 {style="table-layout:auto"}
 
@@ -338,7 +344,7 @@ Aunque esta configuración no está visible en el área de Niveles de acceso par
 | Problema | ✓ |   |   |
 | Portafolios | ✓ |   |   |
 | Programas | ✓ |   |   |
-| Informes, paneles de control y calendarios |   | ✓ (solo para informes de calendario; no se pueden compartir informes) |   |
+| Informes, paneles de control y calendarios |   | ✓ (Solo para informes de calendario; no se permite compartir informes) |   |
 | Filtros, vistas y agrupaciones | ✓ |   |   |
 | Documentos |   | ✓ (sin la capacidad de compartir documentos) |   |
 | Usuarios |   | ✓ |   |

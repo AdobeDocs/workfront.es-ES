@@ -6,10 +6,16 @@ description: Se puede utilizar la extensión de Workfront para exportar a Workfr
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: 40945eac-e8de-42af-b6ba-f3082c208e02
-source-git-commit: 3f9a824780f2ded914d461a473aef3b6ecfa8701
+TQID: https://experienceleague.adobe.com/JIa4ccrHG-8ocEpy5T5ueD483gMqw5keW9X-SW47sS8
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2: id: b8ea32d4-f1fe-4c71-8871-afe5a702a009
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '3069'
-ht-degree: 98%
+source-wordcount: 3090
+ht-degree: 100%
 
 ---
 
@@ -42,7 +48,7 @@ La extensión de Workfront es compatible con Adobe Creative Cloud 2017 y version
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td role="rowheader">Paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p>
  </td> 
   </tr> 
@@ -64,7 +70,7 @@ La extensión de Workfront es compatible con Adobe Creative Cloud 2017 y version
  </tbody> 
 </table>
 
-Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obtener más información, consulte los [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -92,14 +98,14 @@ Cuando se inicia sesión en Workfront desde una de las aplicaciones de Adobe com
 
 ## Carga de un archivo a un proyecto, tarea o problema de Workfront {#upload-a-file-to-a-workfront-project-task-or-issue}
 
-Puede cargar un archivo desde el sistema de archivos de su equipo o exportar un archivo que tenga abierto en esos momentos en una aplicación de Adobe Creative Cloud a un proyecto, tarea o problema de Workfront. 
+Puede cargar un archivo desde el sistema de archivos de su equipo o exportar un archivo que tenga abierto en esos momentos en una aplicación de Adobe Creative Cloud a un proyecto, tarea o problema de Workfront. 
 
 Tenga en cuenta lo siguiente al cargar o exportar un archivo desde Adobe Creative Cloud:
 
 * Su nivel de acceso debe permitirle la carga de documentos en Workfront. Para obtener más información, consulte [Conceder acceso a documentos](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-documents.md).
 * Se deben tener permisos para cargar documentos en el elemento en el que desee cargarlos. Para obtener más información, consulte [Información general sobre los permisos de uso compartido en objetos](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
 * El archivo se carga en el área Documentos del objeto de Workfront que se seleccione.
-* No se puede exportar un documento al área Documentos del menú principal ![icono del menú principal](assets/main-menu-icon.png) desde una aplicación de Adobe Creative Cloud.
+* No se puede exportar un documento al área Documentos del menú principal desde ![el icono Menú principal](assets/main-menu-icon.png) desde las aplicaciones de Adobe Creative Cloud.
 
 Las siguientes secciones explican lo siguiente:
 
@@ -133,7 +139,7 @@ Es posible cargar los archivos en un proyecto, tarea o problema sin salir de la 
 
 1. (Opcional) Escriba un nuevo nombre para el archivo.
 
-   ![Cambiar nombre de archivo](assets/rename-file-uploading.png)
+   ![Cambiar el nombre del archivo](assets/rename-file-uploading.png)
 
 1. Haga clic en **Cargar**.
 
@@ -274,7 +280,7 @@ Para solicitar aprobaciones de documentos desde solicitudes de Adobe:
 
    * Escriba el nombre de un aprobador y selecciónelo cuando aparezca en la lista.
 
-     ![Agregar aprobador de documento](assets/adobe-cc-adding-a-doc-approver-350x189.png)
+     ![Añada un aprobador al documento](assets/adobe-cc-adding-a-doc-approver-350x189.png)
 
    * Escriba la dirección de correo electrónico de un usuario externo.
 
@@ -342,13 +348,13 @@ Si su organización utiliza plantillas de flujo de trabajo automatizado, genere 
 
 1. Haga clic en **Crear nueva versión de prueba**.
 
-   Puede ver el progreso del proceso de creación de la prueba. Aparece una alerta cuando se ha terminado de generar. Puede abrir la tarea en la que creó la prueba y que aparece en la lista.
+   Es posible visualizar el progreso del proceso de creación de la prueba. Aparece una alerta cuando se ha terminado de generar. Puede abrir la tarea en la que creó la prueba y que aparece en la lista.
 
 ## Cierre de la sesión de la extensión de Workfront
 
 1. En la aplicación de Adobe, haga clic en **Ventana** > **Extensiones** > **Workfront**.
 
-1. Haga clic en el menú **Más** ![Menú más](assets/more-menu.png) en la esquina superior derecha del panel.
+1. Haga clic en el menú **Más** ![menú Más](assets/more-menu.png) en la esquina superior derecha del panel.
 
 1. (Opcional) Haga clic en **Comentarios** para abrir una encuesta breve y enviar a Workfront sus comentarios sobre Workfront para Adobe Creative Cloud.
 1. Haga clic en **Cerrar sesión**.\
@@ -363,7 +369,7 @@ Si su organización utiliza plantillas de flujo de trabajo automatizado, genere 
 
 Workfront admite los siguientes formatos de archivo al exportar un archivo de InDesign a Workfront:
 
-* EPS: Encapsulated PostScript
+* EPS: PostScript encapsulado
 * EPUB: publicación electrónica de diseño fijo
 * EPUB: publicación electrónica de diseño ajustable &#42;
 * HTML: lenguaje de marcado de hipertexto

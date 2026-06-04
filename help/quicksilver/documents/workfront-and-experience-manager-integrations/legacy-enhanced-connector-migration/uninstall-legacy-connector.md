@@ -6,10 +6,15 @@ description: texto
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 4b3834bf-2e6d-4588-8d77-671e14390115
-source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
+TQID: https://experienceleague.adobe.com/vA8FflK8mA9a002-Mf8WKzECsEhOaIlvnd0kG958ySE
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '425'
-ht-degree: 100%
+source-wordcount: 397
+ht-degree: 98%
 
 ---
 
@@ -25,8 +30,8 @@ Debe desinstalar el conector heredado de Workfront con Adobe Experience Manager 
 
    ![cancelar la suscripción a Workfront](assets/unsubscribe-from-workfront.png)
 
-1. Deshabilite la sincronización de documentos, comentarios y metadatos. La etiqueta debe estar deshabilitada de día.
-Esto eliminará las suscripciones en Workfront y permitirá al usuario crear una nueva suscripción con la misma URL definida en el Externalizador de vínculo CQ de día.
+1. Deshabilitar sincronización de documentos, comentarios y metadatos. La etiqueta debe estar deshabilitada durante el día.
+Esto eliminará las suscripciones en Workfront y permitirá al usuario crear una nueva suscripción con la misma URL definida en Day CQ Link Externalizer.
 
 ## Eliminar la configuración de integración de Workfront
 
@@ -60,7 +65,7 @@ Si no necesita el Externalizador de vínculo CQ por día, puede revertirlo a `lo
 
 >[!NOTE]
 >
->Si utiliza Adobe Experience Manager as a Cloud Service, Esto se puede cambiar si busca en su proyecto el archivo _com.day.cq.commons.impl.ExternalizerImpl.xml_ en _ui.apps/src/main/content/jcr_root/apps/mysite/config_.
+>Si utiliza Adobe Experience Manager as a Cloud Service, Esto se puede cambiar si busca en su proyecto el archivo _com.day.cq.commons.impl.ExternalizerImpl.xml_ en _ui.apps/src/main/content/jcr_ root/apps/mysite/config_.
 
 ![Externalizador de vínculo CQ por día](assets/Day-CQ-Link-Externalizer.png)
 

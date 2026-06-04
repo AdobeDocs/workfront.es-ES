@@ -9,9 +9,15 @@ author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 1ee9343e-9452-4e41-a9ff-a6c865d4813b
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+TQID: https://experienceleague.adobe.com/HI9qlIldQ6WFaHJZeoOOJTUK89MaLcxi3TPWKcYc4XE
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1336'
+source-wordcount: 1347
 ht-degree: 97%
 
 ---
@@ -34,7 +40,7 @@ Para obtener información sobre cómo los administradores de Workfront desbloque
 
 >[!TIP]
 >
->La configuración a nivel de grupo también es posible para las preferencias de proyecto y para las preferencias de tarea y problema.  Para obtener información, consulte [Configurar las preferencias del proyecto de un grupo](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-project-preferences-group.md) y [Configurar las preferencias de tareas y problemas para un grupo](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md).
+>La configuración a nivel de grupo también es posible para las preferencias de proyecto y para las preferencias de tarea y problema. Para obtener información, consulte [Configurar las preferencias del proyecto de un grupo](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-project-preferences-group.md) y [Configurar las preferencias de tareas y problemas para un grupo](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md).
 
 ## Requisitos de acceso
 
@@ -45,7 +51,7 @@ Para obtener información sobre cómo los administradores de Workfront desbloque
  <col> 
  <tbody> 
   <tr> 
-   <td>paquete de Adobe Workfront</td> 
+   <td>Paquete de Adobe Workfront</td> 
    <td><p>Cualquiera</p></td> 
   </tr> 
   <tr> 

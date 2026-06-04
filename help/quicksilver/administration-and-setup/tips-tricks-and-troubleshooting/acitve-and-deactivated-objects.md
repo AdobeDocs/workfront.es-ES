@@ -9,9 +9,15 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: a0617270-e233-4ebe-a5ee-8df7a8a85823
-source-git-commit: be11c7417023ce2f310fce3e0cf77724d101b89e
+TQID: https://experienceleague.adobe.com/JRpv3D6jvXaCCi3GZJ--rGphpZ13AjMIDSP1jJL4UUs
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87effid: ce22a157-dd2c-405f-b740-c2f204bb4c1aid: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '760'
+source-wordcount: 760
 ht-degree: 90%
 
 ---
@@ -104,7 +110,7 @@ Para obtener información sobre cómo desactivar usuarios, consulte [Desactivar 
 >
 >Una vez que su organización se haya incorporado a [!DNL Adobe Business Platform], debe desactivar usuarios a través de [!UICONTROL Adobe Admin Console].
 >
->Para obtener instrucciones sobre cómo desactivar un usuario en [!UICONTROL Adobe Admin Console], consulta la sección “Eliminar usuarios” en el artículo [Administración de usuarios individualmente](https://helpx.adobe.com/es/enterprise/using/manage-users-individually.html?lang=es) o póngase en contacto con su administrador de [!UICONTROL Adobe Admin Console].
+>Para obtener instrucciones sobre cómo desactivar un usuario en [!UICONTROL Adobe Admin Console], consulta la sección “Eliminar usuarios” en el artículo [Administración de usuarios individualmente](https://helpx.adobe.com/enterprise/using/manage-users-individually.html?lang=es) o póngase en contacto con su administrador de [!UICONTROL Adobe Admin Console].
 >
 >Para obtener una lista de procedimientos que difieren según si su organización se ha incorporado a [!DNL Adobe Business Platform], vea [Diferencias de administración entre Adobe Workfront y Adobe Business Platform](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 

@@ -9,10 +9,16 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 7f56b63e-a674-43e4-bef6-d276898e2074
-source-git-commit: 156341072c291b5c03432da399a509d9772b73ea
+TQID: https://experienceleague.adobe.com/n-fUDmSaLJtcjRr-VGoHW1w5c1Yd60iD-1Eb-Nle7-A
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: a91f865d-c69e-423f-aeff-28a3d6e8554d
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1019'
-ht-degree: 89%
+source-wordcount: 980
+ht-degree: 91%
 
 ---
 
@@ -37,7 +43,7 @@ La exportación de datos mediante Kick-Starts también es útil para comprender 
  <col> 
  <tbody> 
   <tr> 
-   <td>paquete de Adobe Workfront</td> 
+   <td>Paquete de Adobe Workfront</td> 
    <td><p>Cualquiera</p></td> 
   </tr> 
   <tr> 
@@ -123,22 +129,22 @@ Existen las siguientes limitaciones al exportar datos mediante kick-starts (los 
      <tr> 
       <td scope="col" valign="top"> <p>Panel de control</p> <p> </p> <p> </p> </td> 
       <td scope="col" valign="top"> <p>Parámetro<br>Opción de parámetro<br>Grupo de parámetros<br>Parámetro de categoría<br>Categoría<br>Informe<br>Sección de pestaña de portal<br>Panel<br>Preferencias</p> </td> 
-      <td scope="col" valign="top">ZIP</td> 
+      <td scope="col" valign="top"> ZIP</td> 
      </tr> 
      <tr> 
       <td scope="col" valign="top"> <p>Informe</p> <p> </p> <p> </p> </td> 
       <td scope="col" valign="top">Parámetro<br>Opción de parámetro<br>Grupo de parámetros<br>Parámetro de categoría<br>Categoría<br>Informe<br>Preferencias</td> 
-      <td scope="col" valign="top">ZIP </td> 
+      <td scope="col" valign="top"> ZIP </td> 
      </tr> 
      <tr> 
       <td scope="col" valign="top"> <p>Aprobación</p> </td> 
       <td scope="col" valign="top"> <p>Aprobador de paso<br>Paso de aprobación<br>Aprobación<br>Proceso de aprobación<br>Preferencias</p> </td> 
-      <td scope="col" valign="top"> <p>Excel</p> </td> 
+      <td scope="col" valign="top"> <p> Excel</p> </td> 
      </tr> 
      <tr> 
       <td scope="col" valign="top"> <p>Datos personalizados</p> </td> 
       <td scope="col" valign="top"> <p>Parámetro<br>Opción de parámetro<br>Grupo de parámetros<br>Parámetro de categoría<br>Categoría<br>Preferencias</p> </td> 
-      <td scope="col" valign="top"> <p>Excel</p> </td> 
+      <td scope="col" valign="top"> <p> Excel</p> </td> 
      </tr> 
      <tr> 
       <td scope="col" valign="top"> <p>Tipo de gasto</p> </td> 
@@ -153,12 +159,12 @@ Existen las siguientes limitaciones al exportar datos mediante kick-starts (los 
      <tr> 
       <td valign="top"> <p>Equipo</p> </td> 
       <td valign="top"> Miembro del equipo<br>Equipo<br>Preferencias </td> 
-      <td scope="col" valign="top"> <p>Excel</p> </td> 
+      <td scope="col" valign="top"> <p> Excel</p> </td> 
      </tr> 
      <tr> 
       <td valign="top"> <p>Usuario</p> </td> 
       <td valign="top"> <p>Usuario<br>Preferencias</p> </td> 
-      <td valign="top"> <p>Excel</p> </td> 
+      <td valign="top"> <p> Excel</p> </td> 
      </tr> 
     </tbody> 
    </table>
@@ -210,7 +216,7 @@ Existen las siguientes limitaciones al exportar datos mediante kick-starts (los 
      <tr> 
       <td scope="col" valign="top">Gasto</td> 
       <td valign="top"> Gasto<br>Preferencias </td> 
-      <td scope="col" valign="top">Excel</td> 
+      <td scope="col" valign="top"> Excel</td> 
      </tr> 
      <tr> 
       <td valign="top">Página externa</td> 
@@ -333,7 +339,7 @@ Existen las siguientes limitaciones al exportar datos mediante kick-starts (los 
 
    No se pueden exportar los informes de matriz. Para obtener más información acerca de los informes de matriz, consulte [Crear un informe de matriz](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-matrix-report.md).
 
-   Kick-Starts no admite filtros o agrupaciones en modo texto. Para que la exportación se realice correctamente, los filtros y las agrupaciones de informes deben cambiarse al modo Estándar.
+   Kick-Start no admite filtros ni agrupaciones en modo Texto. Para que la exportación se realice correctamente, los filtros de creación de informes y las agrupaciones deben cambiarse al modo Estándar.
 
    Puede seleccionar hasta 100 paneles y 100 informes en una sola exportación.
 

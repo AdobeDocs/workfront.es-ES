@@ -9,10 +9,15 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 43668525-5572-4d82-8eed-0e320249f296
-source-git-commit: 8b93842d7ce61c7c84b07639b6329bedf4254ffd
+TQID: https://experienceleague.adobe.com/wC8C4dOSgFU3-7lqmI3CKrlDJv4u0TTIvyLGnuBF-2s
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1345'
-ht-degree: 90%
+source-wordcount: 1324
+ht-degree: 88%
 
 ---
 
@@ -33,7 +38,7 @@ Al menos dos formularios personalizados que contienen el campo personalizado cal
 **Ejemplo:** Los formularios personalizados A y B se adjuntan a la misma tarea. Ambos formularios contienen un campo personalizado calculado llamado Beneficio. El error se produce al intentar editar el cálculo en el campo Beneficio en el formulario personalizado A.
 
 No se puede cambiar el cálculo del campo personalizado en uno de los formularios porque eso entraría en conflicto con la fórmula del mismo campo del otro formulario.
-Para resolver este conflicto, debe encontrar el objeto donde se adjuntan varios formularios con el mismo campo personalizado calculado y, a continuación, realice una de las siguientes acciones:
+Para resolver este conflicto, debe encontrar el objeto donde se adjuntan varios formularios con el mismo campo personalizado calculado y, a continuación, realizar una de las siguientes acciones:
 
 * Quite uno de los formularios del objeto.
 * Cambie el cálculo según sea necesario, pero hágalo en todos los formularios personalizados adjuntos al objeto.

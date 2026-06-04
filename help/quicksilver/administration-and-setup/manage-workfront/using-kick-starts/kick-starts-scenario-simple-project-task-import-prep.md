@@ -9,10 +9,15 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: c095ce9d-b189-449b-bd13-2633837697ed
-source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
+TQID: https://experienceleague.adobe.com/--8-vO2RCBBbSZ2gfFl5RurpGviyK7sW6NauyoHKFhE
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1493'
-ht-degree: 94%
+source-wordcount: 1402
+ht-degree: 79%
 
 ---
 
@@ -35,7 +40,7 @@ En este escenario se supone que ya se han importado los usuarios a Adobe Workfro
 
 1. Implemente Workfront.
 
-   | Fecha planificada de inicio | Hoy |
+   | Fecha de inicio planificada | Hoy |
    |---|---|
    | Gerente del proyecto | Jennifer Campbell |
    | Patrocinador de proyecto | Marc Lewis |
@@ -46,7 +51,7 @@ En este escenario se supone que ya se han importado los usuarios a Adobe Workfro
 
 1. Implemente el sistema de RR. HH.
 
-   | Fecha planificada de inicio | 14 de julio de 20XX |
+   | Fecha de inicio planificada | 14 de julio de 20XX |
    |---|---|
    | Gerente del proyecto | Pam Reynolds |
    | Patrocinador de proyecto | Marc Lewis |
@@ -57,7 +62,7 @@ En este escenario se supone que ya se han importado los usuarios a Adobe Workfro
 
 1. Implemente el sistema de gestión de documentos.
 
-   | Fecha planificada de inicio | 22 de agosto de 20XX |
+   | Fecha de inicio planificada | 22 de agosto de 20XX |
    |---|---|
    | Gerente del proyecto | Jennifer Campbell |
    | Patrocinador de proyecto | Ray Andrews |
@@ -68,7 +73,7 @@ En este escenario se supone que ya se han importado los usuarios a Adobe Workfro
 
 1. Implementar el nuevo sistema de calendario.
 
-   | Fecha planificada de inicio | 6 de septiembre de 20XX |
+   | Fecha de inicio planificada | 6 de septiembre de 20XX |
    |---|---|
    | Gerente del proyecto | Pam Reynolds |
    | Patrocinador de proyecto | Ray Andrews |
@@ -287,8 +292,8 @@ Establezca los valores de los siguientes campos de proyecto:
 * **Establecer columna isNew**
 Introduzca TRUE en las filas 3 a 6 de la columna isNew.
 * **Establecer ID únicos**
-Introduzca un ID único en cada fila para la columna de ID: normalmente, los números enteros que comienzan por 1 funcionan bien al crear nuevos registros.
-* **Establecer nombres del proyecto**
+Introduzca un ID único en cada fila para la columna de ID: normalmente, los enteros que comienzan en 1 funcionan bien al crear nuevos registros.
+* **Definir nombres de proyecto**
 Escriba los nombres de cada proyecto en la columna setName.
 * **Establecer programación de proyecto**
 
@@ -300,10 +305,10 @@ Escriba los nombres de cada proyecto en la columna setName.
 
 * **Establecer números de tarea**
 Introduzca valores en la columna setTaskNumber para controlar el orden en que aparecerán las tareas en el plan del proyecto.
-* **Proporcione fechas del proyecto.**
-Introduzca la fecha de inicio planificada de cada proyecto en la columna setPlannedStartDate.
+* **Proporcionar fechas del proyecto.**
+Introduzca la fecha planificada de inicio de cada proyecto en la columna setPlannedStartDate.
 * **Establecer otros detalles necesarios.**
-Complete otros detalles, como una descripción o el estado actual, según sea necesario. Busque los ID de grupo de cada proyecto en la hoja Grupo GROUP y escríbalos en la columna setGroupID de los proyectos respectivos. Busque el ID de compañía de los proyectos en la hoja Compañía CMPY y escríbalo en la columna setCompanyID. Busque el ID de usuario de cada propietario de proyecto en la hoja usuario USER y escríbalo en la columna setOwnerID. Busque el ID de usuario para cada patrocinador del proyecto en la hoja de usuario USER y escríbalo en la columna setSponsorID.
+Complete otros detalles, como una descripción o el estado actual, según sea necesario. Busque los ID de grupo de cada proyecto en la hoja Grupo de grupo y escríbalos en la columna setGroupID de los proyectos respectivos. Busque el ID de compañía de los proyectos en la hoja Compañía de CMPY y escríbalo en la columna setCompanyID. Busque el ID de usuario de cada propietario de proyecto en la hoja de usuario USUARIO y escríbalo en la columna setOwnerID. Busque el ID de usuario para cada patrocinador del proyecto en la hoja de usuario USUARIO y escríbalo en la columna setSponsorID.
 
 ![Establecer valores](assets/im9.png)
 
@@ -329,14 +334,14 @@ La forma más sencilla de asignar tareas es un proyecto a la vez (especialmente 
 
 Establezca los valores de los siguientes campos de tarea:
 
-* **Establecer ID**
+* **Set IDs**
 Introduzca un ID único en cada fila para la columna de ID.
-* **Establecer nombres**
+* **Definir nombres**
 Introduzca los nombres de las tareas en la columna setName.
 * **Confirmar ID de proyecto**
 Introduzca el ID que ha definido para el proyecto Implementar Workfront; revise la hoja del proyecto PROJ para asegurarse de que es el ID correcto.
-* **Establecer usuarios**
-Vaya a la hoja Usuario USER para buscar el ID del usuario asignado a cada tarea e introduzca estos valores en las celdas respectivas de la columna setAssignedToID.
+* **Definir usuarios**
+Vaya a la hoja USER User para buscar el ID del usuario asignado a cada tarea e introduzca estos valores en las celdas respectivas de la columna setAssignedToID.
 * **Identificar relaciones de tareas**
 Para las tareas 2 a 5, escriba un 1 en la columna setParentID. Para la tarea 9, escriba un 8 en la columna setParentID. En la columna setPredecessorString, escriba el número de tareas para cada tarea predecesora. En los casos en los que una tarea tiene varias predecesoras, como la tarea 8 en esta situación, deberá utilizar una coma para separar cada identificador de tarea predecesora. Las predecesoras se pueden definir con retardos en las relaciones que no son de tipo Iniciar-Finalizar mediante el método abreviado descrito en el artículo Crear relaciones de predecesoras.
 * **Establecer duración**
@@ -366,7 +371,7 @@ Establezca la duración de cada tarea introduciendo el número de horas, días, 
 
   ![Agregar detalles](assets/im5.png)
 
-* Las columnas setPlannedStartDate y setTaskConstraint no se utilizan para crear la línea de tiempo de este proyecto porque se basan en relaciones de predecesoras. En su lugar, puede introducir una fecha para cada tarea. En este caso, asegúrese de proporcionar también una restricción de tarea válida en la columna setTaskConstraint. Revise la restricción de tarea y los artículos relacionados para obtener información sobre los valores válidos para este campo.
+* Las columnas setPlannedStartDate y setTaskConstraint no se utilizan para crear la cronología de este proyecto porque se basan en relaciones de predecesoras. En su lugar, puede introducir una fecha para cada tarea. En este caso, asegúrese de proporcionar también una restricción de tarea válida en la columna setTaskConstraint. Revise la restricción de tarea y los artículos relacionados para obtener información sobre los valores válidos para este campo.
 
   En este caso, la forma más sencilla de crear las tareas para los demás proyectos que está importando es copiar las tareas que acaba de definir y pegarlas a continuación, a partir de la fila 12. A continuación, hará lo siguiente:
 

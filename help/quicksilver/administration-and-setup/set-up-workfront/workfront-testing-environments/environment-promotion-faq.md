@@ -9,10 +9,15 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: e9794262-80cc-4641-a5c6-7130cf008ba2
-source-git-commit: aeb471fd63269d30a675e44fe1a47db6141eb9ed
+TQID: https://experienceleague.adobe.com/f8iQHTrVCbtK-tIFlCmojM-FQfV0JLCMa6hVfWCEzXY
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '270'
-ht-degree: 83%
+source-wordcount: 265
+ht-degree: 80%
 
 ---
 
@@ -33,8 +38,8 @@ Actualmente no se admite la promoción de entornos entre dominios. Debe promocio
 * Un administrador de Workfront puede localizar la licencia de su organización.
 
    1. Haga clic en el icono **[!UICONTROL Menú principal]** ![Menú principal](/help/_includes/assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront o (si está disponible), haga clic en el icono **[!UICONTROL Menú principal]** ![Menú principal](/help/_includes/assets/main-menu-icon-left-nav.png) en la esquina superior izquierda y, a continuación, haga clic en **[!UICONTROL Configurar]** ![Icono de configuración](/help/_includes/assets/gear-icon-setup.png).
-   1. Haga clic en **Sistema** en el panel izquierdo. 
-   1. Para ver su plan de Workfront, seleccione **Licencias**.
+   1. Haga clic en **Sistema** en el panel izquierdo.
+   1. Para ver tu plan de Workfront, selecciona **Licencias**.
 El plan se muestra cerca de la esquina superior derecha de la página.
       ![Buscar plan](assets/locate-plan.png)
 

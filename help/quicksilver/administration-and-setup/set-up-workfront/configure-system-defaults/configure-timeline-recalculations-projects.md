@@ -8,10 +8,15 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 67028988-6ac3-48d4-957e-1b5202d33c48
-source-git-commit: 20ebcb74c79aea67ea7cb1ba083dfea623fe7c16
+TQID: https://experienceleague.adobe.com/knyphSiLwqiL0f6swxeDmx7SI6KMqb3GqYbxE8fQbgI
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '446'
-ht-degree: 91%
+source-wordcount: 435
+ht-degree: 85%
 
 ---
 
@@ -67,8 +72,8 @@ Como administrador de [!DNL Adobe Workfront], puede configurar cuándo [!DNL Wor
 
    * **Cuando cambia el ámbito de un proyecto**: para obtener información sobre lo que constituye un cambio de ámbito del proyecto, consulte [Recalcular la cronología de los proyectos](../../../manage-work/projects/manage-projects/recalculate-project-timeline.md).
 
-     En este caso, [!DNL Workfront] recalcula la cronología de todos los proyectos que tienen el Tipo de actualización definido como [!UICONTROL Automático y al cambiar] o [!UICONTROL Solo al cambiar].
-Para obtener información sobre los tipos de actualización del proyecto, consulte [Información general sobre el tipo de actualización del proyecto](../../../manage-work/projects/planning-a-project/project-update-type-overview.md).
+     En este caso, [!DNL Workfront] vuelve a calcular la escala de tiempo de todos los proyectos que tienen un tipo de actualización de [!UICONTROL Automático y al cambiar] o [!UICONTROL Solo al cambiar].
+Para obtener información acerca de los tipos de actualización del proyecto, vea [Información general sobre el tipo de actualización del proyecto](../../../manage-work/projects/planning-a-project/project-update-type-overview.md).
 
 1. Haga clic en **[!UICONTROL Guardar]**.
 
@@ -76,7 +81,7 @@ Para obtener información sobre los tipos de actualización del proyecto, consul
 
 >[!IMPORTANT]
 >
->Para los entornos de vista previa y espacio aislado de actualización personalizado, el recálculo por la noche está deshabilitado y las escalas de tiempo del proyecto no se recalculan automáticamente. Debe recalcular manualmente la cronología del proyecto para los entornos de Vista previa y de la Zona protegida de actualización personalizada. Para obtener más información, consulte [Recalcular líneas de tiempo de proyecto](/help/quicksilver/manage-work/projects/manage-projects/recalculate-project-timeline.md).
+>Para los entornos de vista previa y espacio aislado de actualización personalizado, el recálculo por la noche está deshabilitado y las escalas de tiempo del proyecto no se recalculan automáticamente. Debe recalcular manualmente la cronología del proyecto para los entornos de Vista previa y de la Zona protegida de actualización personalizada. Para obtener más información, consulte [Recalcular cronologías de proyecto](/help/quicksilver/manage-work/projects/manage-projects/recalculate-project-timeline.md).
 
 
 ## Recalcular cronologías para toda la instancia de [!DNL Workfront]

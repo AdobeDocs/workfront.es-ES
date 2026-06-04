@@ -9,10 +9,16 @@ author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 589cf9fb-f195-4b69-a240-3f73e6ca623e
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+TQID: https://experienceleague.adobe.com/Ne32ZVtfFZjrw4kw-c-Tl-j7uEIVz-uBnb7-vxcVcjA
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87effid: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1047'
-ht-degree: 16%
+source-wordcount: 1037
+ht-degree: 19%
 
 ---
 
@@ -49,7 +55,7 @@ Si es administrador de Workfront, le recomendamos que haga lo siguiente antes de
 
    * Plantillas de diseño
    * Horarios
-   * Perfiles de hoja de horas
+   * Perfiles de plantillas de horas
 
 ## Acceso necesario para los administradores del grupo {#access-needed-for-group-administrators}
 
@@ -66,7 +72,7 @@ Se recomienda que los administradores de grupo tengan acceso de edición a los u
 >[!IMPORTANT]
 >
 >Los administradores de grupo deben tener un acceso mayor que los que administran; de lo contrario, no podrán ver ni modificar niveles de acceso menores.
->&#x200B;>Para obtener instrucciones sobre cómo conceder este acceso, vea [Crear o modificar niveles de acceso personalizados](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+>Para obtener instrucciones sobre cómo conceder este acceso, consulte [Crear o modificar niveles de acceso personalizados](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
 Para un administrador de grupo que necesite asignar perfiles de plantilla de horas a usuarios de sus grupos y subgrupos, también recomendamos acceso administrativo a las plantillas de horas y a las horas. Para obtener instrucciones sobre cómo conceder este acceso, consulte [Conceder acceso administrativo a usuarios en ciertas áreas](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
 
@@ -79,11 +85,11 @@ Como administrador de grupos, puede llevar a cabo las tareas descritas a continu
 >En el nuevo modelo de asignación de precios y empaquetado, debe tener un plan Prime o superior para realizar las siguientes acciones:
 >
 > * Crear notificaciones de eventos de grupo
-> * Configurar las preferencias del proyecto de grupo
-> * Configurar las preferencias de tareas de grupo y problemas
-> * Desbloquear la configuración de las preferencias del subgrupo
+> * Configurar preferencias de proyecto de grupo
+> * Configurar preferencias de tareas y problemas de grupo
+> * Desbloquear configuración de las preferencias del subgrupo
 > * Plantilla de horas y preferencia de horas del grupo
-> * Desbloquear hoja de horas y preferencia de horas
+> * Configurar preferencias de horas y plantilla de horas
 
 ### Administrar miembros del grupo {#manage-group-members}
 

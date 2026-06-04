@@ -9,9 +9,14 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 14124911-e5e1-4a4f-9b25-8b4fab0329e1
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+TQID: https://experienceleague.adobe.com/rC6FrOsS-RttMBDmncvjSbt-n7X9--DblMlHM3sq2Jk
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c1579802-ddd4-4214-8a91-97b2066abe11id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '448'
+source-wordcount: 456
 ht-degree: 94%
 
 ---
@@ -48,7 +53,7 @@ Dado que los nombres de usuario GUID pueden ser difíciles de utilizar, se recom
  <col> 
  <tbody> 
   <tr> 
-   <td>paquete de Adobe Workfront</td> 
+   <td>Paquete de Adobe Workfront</td> 
    <td><p>Cualquiera</p></td> 
   </tr> 
   <tr> 
@@ -71,7 +76,7 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
 
 1. Determine el nombre de usuario GUID de un usuario pasando una solicitud de API, como se muestra en el siguiente ejemplo:
 
-   https://`<domain>`.my.workfront.com/attask/api/v14.0/USER/search?fields=username&amp;ID=`<ID of User>` donde *`<domain>`* es el dominio de su compañía y *`<ID of User>`* es el ID de Workfront del usuario.
+   https://`<domain>`.my.workfront.com/attask/api/v14.0/USER/search?fields=username&ID=`<ID of User>` donde *`<domain>`* es el dominio de su compañía y *`<ID of User>`* es el ID de Workfront del usuario.
 
    Recibirá una respuesta similar a la siguiente:
 

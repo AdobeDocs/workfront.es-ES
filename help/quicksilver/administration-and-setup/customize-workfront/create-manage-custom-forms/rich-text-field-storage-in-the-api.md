@@ -8,10 +8,16 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 2e4b18be-14bb-4d47-8e63-e2f4a5dc376f
-source-git-commit: 3f7f4557c18bbb91ece850f910350d926a9e84bf
+TQID: https://experienceleague.adobe.com/lLZZugNI5odziqyz7uBMnkiVoOdGcT-jKb90j9TUG1Q
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '174'
-ht-degree: 0%
+source-wordcount: 174
+ht-degree: 95%
 
 ---
 
@@ -21,11 +27,11 @@ Si un objeto, como un proyecto, un problema o una tarea, contiene texto enriquec
 
 La solicitud de información de texto de un objeto de proyecto que contiene texto enriquecido se puede realizar utilizando el campo **parameterValues**.
 
-Por ejemplo, una solicitud HTTP simple podría parecerse a lo siguiente:
+Por ejemplo, una petición HTTP simple podría parecerse a la siguiente:
 
 `https://your-company.workfront.com/attask/api/v11.0/project?ID=your-project-ID&fields=parameterValues:*`
 
-Si este proyecto de ejemplo contenía un formulario personalizado con 3 campos personalizados: campo de cálculo, texto de párrafo y 1 enriquecido. Entonces la solicitud anterior devolverá una respuesta similar a la siguiente, donde el campo &quot;rich 1&quot; es un campo de parámetro de texto enriquecido y el valor de texto es &quot;**Hello** *World!*&quot;:
+Si este proyecto de ejemplo contenía un formulario personalizado con 3 campos personalizados: campo de cálculo, texto de párrafo y 1 enriquecido. ¡Entonces la petición anterior devolvería una respuesta parecida a la siguiente, donde el campo &quot;rich 1&quot; es un campo de parámetro de texto enriquecido y el valor de texto es “**¡Hola,** *mundo!*”:
 
 ```
 {

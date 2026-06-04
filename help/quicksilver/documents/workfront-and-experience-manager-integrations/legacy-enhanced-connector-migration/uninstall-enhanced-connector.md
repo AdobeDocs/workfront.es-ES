@@ -6,10 +6,14 @@ description: Debe desinstalar el conector mejorado de Workfront con Adobe Experi
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: c6203c71-a4c4-41ee-ac4e-57137661e5b3
-source-git-commit: 9673009f12509b5e7051ee91e142d311f333f215
+TQID: https://experienceleague.adobe.com/CeCyF8zbwp4tVcxQebq0EdaJqagDyppVuCL6ilqEvJA
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '261'
-ht-degree: 0%
+source-wordcount: 260
+ht-degree: 92%
 
 ---
 
@@ -19,7 +23,7 @@ Debe desinstalar el conector mejorado de Workfront con Adobe Experience Manager 
 
 ## Requisitos previos
 
-* (Opcional) Si es necesario, revierta los cambios realizados en la configuración del cortafuegos de Workfront AEM y en la configuración de Dispatcher de la.
+* (Opcional) Si es necesario, revierta los cambios realizados en la configuración del cortafuegos de Workfront y en la configuración de Dispatcher de AEM.
 
 ## Desinstalar el conector mejorado
 
@@ -63,7 +67,7 @@ Debe desinstalar el conector mejorado de Workfront con Adobe Experience Manager 
    </embedded>
    ```
 
-1. Elimine lo siguiente incrustado del archivo pom.xml del submódulo del proyecto denominado todo.
+1. Elimine lo siguiente incrustado del archivo pom.xml del submódulo del proyecto denominado &quot;all&quot;.
 
    ```
    <!-- Workfront Tools -->
@@ -86,7 +90,7 @@ Debe desinstalar el conector mejorado de Workfront con Adobe Experience Manager 
    </repository>
    ```
 
-1. (Condicional) Quite la configuración del servidor del archivo settings.xml, presente en la siguiente ruta/cloudmanager/maven/settings.xml en la raíz del proyecto.&#39;
+1. (Condicional) Quite la configuración del servidor del archivo settings.xml, presente en la siguiente ruta ./cloudmanager/maven/settings.xml en la raíz del proyecto.&#39;
 
    ```
            <server>
@@ -104,4 +108,4 @@ Debe desinstalar el conector mejorado de Workfront con Adobe Experience Manager 
 
 1. Confirme los cambios y envíe el código al repositorio de Cloud Manager
 
-1. Ejecute la canalización de Cloud Manager para implementar los cambios en la instancia de Cloud Service
+1. Ejecute la canalización de Cloud Manager para implementar los cambios en la instancia de Cloud Services

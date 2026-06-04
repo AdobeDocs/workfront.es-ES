@@ -8,12 +8,17 @@ author: Becky
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: e13c7dda-8945-47ad-b6d3-4d6a62b368f5
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/wMgemSCv9tLMKy9AdIW5HDpGFbYKNmrnV07PsjwA6-4
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1960'
-ht-degree: 98%
+source-wordcount: 1959
+ht-degree: 96%
 
 ---
 
@@ -128,7 +133,7 @@ Al crear una aplicación OAuth2, elija el tipo de aplicación que mejor se adapt
 {{step-1-to-setup}}
 
 1. En el panel de navegación izquierdo, haga clic en **[!UICONTROL Sistema]** y seleccione **[!UICONTROL Aplicaciones OAuth2]**.
-1. Haga clic en **[!UICONTROL Crear integración de aplicaciones]**.
+1. Haga clic en **[!UICONTROL Crear integración de aplicación]**.
 Se muestra el cuadro **Nueva aplicación OAuth2**.
 1. En el cuadro **Nueva aplicación OAuth2**, seleccione **[!UICONTROL Aplicación de equipo a equipo]**.
 1. Escriba un nombre para la nueva aplicación, como “[!DNL Workfront] para ClientApp”.
@@ -217,7 +222,7 @@ Para obtener instrucciones sobre cómo configurar y utilizar la aplicación OAut
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader">[!UICONTROL Refresh token rotation]</td> 
-      <td>Habilite esta opción para emitir un nuevo token de actualización cada vez que se use el token. Su aplicación debe almacenar el nuevo token de actualización después de cada actualización.</td> 
+      <td>Habilite esta opción para emitir un nuevo token de actualización cada vez que se use el token. La aplicación debe almacenar el nuevo token después de cada actualización.</td> 
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader">[!UICONTROL Absolute refresh token expiration]</td> 
@@ -277,7 +282,7 @@ Para obtener instrucciones sobre cómo configurar y utilizar la aplicación OAut
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader">[!UICONTROL Rotate refresh token every time it is used]</td> 
-      <td>Habilite esta opción para emitir un nuevo token de actualización cada vez que se use el token. Su aplicación debe almacenar el nuevo token de actualización después de cada actualización.</td> 
+      <td>Habilite esta opción para emitir un nuevo token de actualización cada vez que se use el token. La aplicación debe almacenar el nuevo token después de cada actualización.</td> 
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader">[!UICONTROL Absolute expiration]</td> 
