@@ -2,15 +2,24 @@
 product-previous: workfront-proof
 product-area: documents;system-administration;user-management
 navigation-topic: users-workfront-proof
-title: Mover usuarios entre cuentas usando  [!DNL Workfront Proof]
+title: Mover usuarios entre cuentas mediante [!DNL Workfront Proof]
 description: Si eres administrador de  [!DNL Workfront Proof] y tienes una o más cuentas satélite conectadas a tu cuenta principal, puedes mover a los usuarios entre todas estas cuentas.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: a7cf8086-8291-4a27-abd1-afd8217f1fcc
-source-git-commit: 1a85f2a214036b62d13cb01f0b7a77392648a5fd
+TQID: https://experienceleague.adobe.com/WnZLS4iV-4W05UukPr7-uKYGbtoj49ol-W0kJSWy9R4
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '773'
-ht-degree: 0%
+source-wordcount: 767
+ht-degree: 5%
 
 ---
 
@@ -18,7 +27,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Este artículo hace referencia a la funcionalidad del producto independiente [!DNL Workfront Proof]. Para obtener información sobre la revisión dentro de [!DNL Adobe Workfront], vea [Revisión](../../../review-and-approve-work/proofing/proofing.md).
+>Este artículo hace referencia a la funcionalidad del producto independiente [!DNL Workfront Proof]. Para obtener información sobre la revisión dentro de [!DNL Adobe Workfront], consulte [Revisión](../../../review-and-approve-work/proofing/proofing.md).
 
 Si es administrador de [!DNL Workfront] Proof y tiene una o más cuentas satélite conectadas a su cuenta principal, puede mover los usuarios entre todas estas cuentas.
 
@@ -26,14 +35,14 @@ Si es administrador de [!DNL Workfront] Proof y tiene una o más cuentas satéli
 
 1. Haga clic en **[!UICONTROL Configuración]** > **[!UICONTROL Configuración de la cuenta]**.
 
-1. Abra la ficha **[!UICONTROL Usuarios]**.
+1. Abra la pestaña **[!UICONTROL Usuarios]**.
 1. Haga clic en el icono **[!UICONTROL Mover usuario]** (1). ![Mover_usuario2.png](assets/move-user2-350x95.png)
 
 1. En el cuadro Mover usuario que aparece, confirme el usuario que desea mover (1).
 1. Seleccione una cuenta de destino de la lista cuentas conectadas (2).
 1. Asigne el permiso de perfil (3) que este usuario debe tener en la nueva cuenta.
 1. Seleccione un usuario (4) que sea propietario de los elementos que no se moverán.
-Esto incluye los elementos que decidirá dejar en la cuenta antigua y los elementos que no se pueden mover (consulte [Elementos que no se pueden mover](https://support.workfront.com/knowledge/articles/115004087708/en-us?brand_id=662728&return_to=%2Fhc%2Fen-us%2Farticles%2F115004087708#Items-that-can&#39;t-be-moved) a continuación).
+Esto incluye los elementos que decidirá dejar en la cuenta antigua y los elementos que no se pueden mover (consulte [Elementos que no se pueden mover](https://support.workfront.com/knowledge/articles/115004087708/en-us?brand_id=662728&return_to=%2Fhc%2Fen-us%2Farticles%2F115004087708#Items-that-can't-be-moved) a continuación).
 
 1. Marque las casillas de verificación si desea mover las pruebas (5) y los archivos (6) junto con el usuario.
 1. Cree un nombre para la carpeta (7) en la que se colocarán todos los elementos movidos en la nueva cuenta.
@@ -76,7 +85,7 @@ Si una prueba tiene algunas versiones y cada una de ellas es propiedad de un usu
 
 ### Grupos
 
-El usuario que se haya movido tendrá que volver a crear los grupos en su nueva cuenta. Para obtener más información, consulte [Crear grupos de revisión con [!DNL Workfront Proof]](../../../workfront-proof/wp-mnguserscontacts/groups/create-proofing-groups.md).
+El usuario que se haya movido tendrá que volver a crear los grupos en su nueva cuenta. Para obtener más información, consulte [Crear grupos de revisión mediante  [!DNL Workfront Proof]](../../../workfront-proof/wp-mnguserscontacts/groups/create-proofing-groups.md).
 
 ### Vistas personalizadas
 

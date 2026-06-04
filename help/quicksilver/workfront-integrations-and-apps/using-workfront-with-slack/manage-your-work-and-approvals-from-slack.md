@@ -6,11 +6,24 @@ description: Puede acceder a su Lista de trabajos en Inicio, revisar y aceptar t
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 802a2f16-d827-455e-9e49-f58f4c5fc482
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/VS7dMEKNRvRY7myBMTfkFVRtbvYqggxvACNSrmQBNKQ
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+  - id: e4fedd42-4a54-4109-859f-13c7f0366a72
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '937'
+source-wordcount: 932
 ht-degree: 96%
 
 ---
@@ -162,7 +175,7 @@ Para poder administrar su trabajo y las aprobaciones desde [!DNL Slack], debe
 
 Las aprobaciones hacen referencia a aprobaciones de documentos heredadas. En este momento no se admiten las aprobaciones de documentos unificados en [!DNL Microsoft Teams]. Para obtener más información acerca de los diferentes sistemas de aprobación de Workfront, consulte [Funcionalidad disponible para aprobaciones de documentos](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/asset-review-and-approval.md).
 
-1. Inicie sesión en su instancia de [!DNL Slack] e inicie sesión en [!DNL Workfront] desde [!DNL Slack].\
+1. Inicie sesión en la instancia de [!DNL Slack] e inicie sesión en [!DNL Workfront] desde [!DNL Slack].\
    Para obtener más información sobre el inicio de sesión en [!DNL Workfront] desde [!DNL Slack], consulte la sección “Inicio de sesión en [!DNL Workfront] desde [!DNL Slack]” en [Acceder a [!DNL Adobe Workfront] desde [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md).
 
 1. Desde cualquier canal, empiece a escribir cualquiera de los siguientes comandos en el campo de mensaje:

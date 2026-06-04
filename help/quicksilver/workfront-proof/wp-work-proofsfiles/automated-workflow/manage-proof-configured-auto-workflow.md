@@ -2,15 +2,22 @@
 product-previous: workfront-proof
 product-area: documents
 navigation-topic: automated-workflow-workfront-proof
-title: Administrar una revisión configurada con un flujo de trabajo automatizado en  [!DNL Workfront Proof]
+title: Administrar una prueba configurada con un flujo de trabajo automatizado en  [!DNL Workfront Proof]
 description: Puede realizar un seguimiento práctico del progreso de las pruebas de Flujo de trabajo automatizado en la sección Flujo de trabajo de la página Detalles de la prueba. Puede ver el trabajo realizado en cada etapa y modificar, agregar, iniciar y bloquear las etapas en la prueba.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 1d0ad905-f3fb-471a-8766-096b978cdf4e
-source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
+TQID: https://experienceleague.adobe.com/3leSASgnGumvy-osh9SgS57U6czt2CRQDYEe44pTlIU
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '680'
-ht-degree: 0%
+source-wordcount: 688
+ht-degree: 14%
 
 ---
 
@@ -18,7 +25,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Este artículo hace referencia a la funcionalidad del producto independiente [!DNL Workfront Proof]. Para obtener información sobre la revisión dentro de [!DNL Adobe Workfront], vea [Revisión](../../../review-and-approve-work/proofing/proofing.md).
+>Este artículo hace referencia a la funcionalidad del producto independiente [!DNL Workfront Proof]. Para obtener información sobre la revisión dentro de [!DNL Adobe Workfront], consulte [Revisión](../../../review-and-approve-work/proofing/proofing.md).
 
 Puede seguir de cerca el progreso de sus revisiones de Flujo de trabajo automatizado en la sección Flujo de trabajo de la página [!UICONTROL Detalles de la revisión]. Puede ver el trabajo realizado en cada etapa y modificar, agregar, iniciar y bloquear las etapas en la prueba.
 
@@ -42,7 +49,7 @@ Puede ver el flujo de trabajo automatizado de tres formas principales:
 
 ### Ver todas las fases {#view-all-stages}
 
-Para ver todas las fases en un flujo de trabajo automatizado:
+Para ver todas las fases de un flujo de trabajo automatizado:
 
 1. Haga clic en el botón en la parte superior de la página (3).
 
@@ -79,15 +86,15 @@ Las fases del diagrama se marcan de la siguiente manera:
 ![dot.png](assets/dot.png): una fase activa
 
 ![gray_dot.png](assets/grey-dot.png): una fase inactiva\
-![sbw-key-icon.png](assets/sbw-key-icon.png)  - un escenario privado
+![sbw-key-icon.png](assets/sbw-key-icon.png): un escenario privado
 
-![sbw-padlock-icon.png](assets/sbw-padlock-icon.png)  - un escenario bloqueado
+![sbw-padlock-icon.png](assets/sbw-padlock-icon.png): una fase bloqueada
 
-Las líneas entre las fases muestran las dependencias entre las fases. Las líneas que conducen a etapas inactivas se puntean hasta que se activa la etapa.
+Las líneas entre las fases representan las dependencias entre las fases. Las líneas que conducen a fases inactivas aparecen punteadas hasta que se activa la etapa.
 
 Al pasar el ratón por encima de una fase del diagrama, se mostrará el progreso de la fase. Si la fase no está activa y tiene derechos de edición en la fase, podrá iniciarla desde la ventana emergente con el botón [!UICONTROL Iniciar fase]. Del mismo modo, se mostrará la opción Bloquear una fase activa.
 
-Para obtener más información sobre la barra de progreso, consulte  [Ver el progreso y el estado de una revisión en [!DNL Workfront] Revisión](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/view-progress-and-status-of-proof.md).
+Para obtener más información sobre la barra de progreso, consulte [Ver el progreso y el estado de una prueba en [!DNL Workfront] Prueba](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/view-progress-and-status-of-proof.md).
 
 ![Diagrama_-_stage_summary.png](assets/diagram---stage-summary-350x214.png)
 

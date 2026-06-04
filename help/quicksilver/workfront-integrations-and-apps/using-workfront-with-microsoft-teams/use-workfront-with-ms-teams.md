@@ -7,20 +7,30 @@ description: Adobe Workfront ofrece una integración con Microsoft Teams. Este a
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: b8b9d216-b529-4ff0-9259-b37724675d6a
-source-git-commit: 940cbfb34f12eacd5ba698f60fb7a3e67eb62b22
+TQID: https://experienceleague.adobe.com/1elmmFSSPWtzkFCSPP48dAdyi-OaKQyeY4HsEyMa58c
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2:
+  - id: a7ef0b24-c866-4849-a368-53678af2dfe5
+  - id: c4a58f26-aa43-4761-aafe-56f1e034d7d5
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '189'
-ht-degree: 1%
+source-wordcount: 198
+ht-degree: 60%
 
 ---
 
-# [!DNL Adobe Workfront for Microsoft Teams]: índice de artículo
+# [!DNL Adobe Workfront for Microsoft Teams]: índice del artículo
 
 >[!IMPORTANT]
 >
->A medida que [Microsoft pasa al cliente New Teams](https://learn.microsoft.com/en-us/microsoftteams/teams-classic-client-end-of-availability), el cliente Classic Teams dejará de estar disponible a partir del 1 de julio de 2025. Para seguir utilizando Microsoft Teams y aplicaciones integradas como Workfront, los clientes deben realizar la transición al cliente Nuevo equipo antes de esta fecha.
+>A medida que [Microsoft pasa al cliente del nuevo Teams](https://learn.microsoft.com/es-es/microsoftteams/teams-classic-client-end-of-availability), el cliente de Teams clásico dejará de estar disponible a partir del 1 de julio de 2025. Para seguir utilizando Microsoft Teams y aplicaciones integradas como Workfront, los usuarios deben realizar la transición al cliente del nuevo Teams antes de esta fecha.
 >
->La integración actualizada de Workfront ya está disponible y es totalmente compatible con la experiencia Nuevos equipos. En la mayoría de los casos, Workfront aparecerá automáticamente una vez que los usuarios hayan realizado la transición. Si no es así, la integración se puede instalar manualmente desde Microsoft Teams App Store. Para instalar o comprobar la integración de Workfront en el cliente New Teams, consulte [Instalar [!DNL Adobe Workfront] para Microsoft Teams](/help/quicksilver/workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md).
+>La integración actualizada de Workfront ya está disponible y es totalmente compatible con la experiencia del nuevo Teams. En la mayoría de los casos, Workfront aparecerá automáticamente una vez que los usuarios hayan realizado la transición. Si no es así, se puede instalar la integración manualmente desde la tienda de aplicaciones de Microsoft Teams. Para instalar o comprobar la integración de Workfront en el cliente del nuevo Teams, consulte [Instalar [!DNL Adobe Workfront] en Microsoft Teams](/help/quicksilver/workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md).
 
 Adobe Workfront ofrece una integración con Microsoft Teams. Este artículo contiene vínculos a instrucciones para instalar y configurar esta integración, así como a cómo utilizarla en su trabajo diario.
 

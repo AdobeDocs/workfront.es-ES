@@ -2,23 +2,32 @@
 product-previous: workfront-proof
 product-area: documents;workfront-integrations
 navigation-topic: create-proofs-and-files
-title: La Dropzone
+title: Dropzone
 description: Si tiene el plan Enterprise, puede utilizar Dropzone para enviar nuevas pruebas y nuevas versiones de pruebas a su cuenta sin tener que iniciar sesión en su cuenta.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: e66142fa-3b0d-4821-9aa5-040c62f00d62
-source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
+TQID: https://experienceleague.adobe.com/BHaoBaXJte-ssHEPefYCEqjs3zTSJ9MDcOw8G7YsHUs
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '951'
-ht-degree: 0%
+source-wordcount: 952
+ht-degree: 2%
 
 ---
 
-# La Dropzone
+# Dropzone
 
 >[!IMPORTANT]
 >
->Este artículo hace referencia a la funcionalidad del producto independiente [!DNL Workfront Proof]. Para obtener información sobre la revisión dentro de [!DNL Adobe Workfront], vea [Revisión](../../../review-and-approve-work/proofing/proofing.md).
+>Este artículo hace referencia a la funcionalidad del producto independiente [!DNL Workfront Proof]. Para obtener información sobre la revisión dentro de [!DNL Adobe Workfront], consulte [Revisión](../../../review-and-approve-work/proofing/proofing.md).
 
 Si tiene el plan Enterprise, puede utilizar Dropzone para enviar nuevas pruebas y nuevas versiones de pruebas a su cuenta sin tener que iniciar sesión en su cuenta.
 
@@ -104,7 +113,7 @@ Para activar la revisión:
    * El estado de la prueba cambia a Activo.
    * Todas las personas que se agregaron a la prueba recibirán un correo electrónico de notificación para informar que tienen una nueva prueba que revisar. (No se envía ningún correo electrónico hasta que se activa/desbloquea la prueba).
    * La prueba se puede trabajar con normalidad
-   * Si el remitente también se agrega explícitamente a la prueba, no recibirá un correo electrónico de nueva prueba. Para obtener más información, consulte [Nuevo correo electrónico de revisión](../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/new-proof-email.md).
+   * Si el remitente también se agrega explícitamente a la prueba, no recibirá un correo electrónico de nueva prueba. Para obtener más información, consulte [Nuevo correo electrónico de la prueba](../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/new-proof-email.md).
 
 ## Administración de la Dropzone
 

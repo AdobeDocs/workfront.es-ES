@@ -7,10 +7,17 @@ description: Workfront Proof le permite ver informes para poder realizar un segu
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 342f9282-b6f5-425e-a7ef-e23bd011d284
-source-git-commit: a0d76692f9e9d12ed0d538c1344638dbc208d625
+TQID: https://experienceleague.adobe.com/85Z2YFfmz4zUV2oIkQFUDFOYVtLFgiGh44KEm6pAlr4
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '691'
-ht-degree: 0%
+source-wordcount: 694
+ht-degree: 5%
 
 ---
 
@@ -21,7 +28,7 @@ ht-degree: 0%
 >
 >* La funcionalidad de creación de informes <span class="previe">ya no está disponible en [!DNL Workfront Proof]. La ficha de informes aún se muestra, pero los datos no son precisos.</span>
 > 
->* Este artículo hace referencia a la funcionalidad del producto independiente [!DNL Workfront Proof]. Para obtener información sobre la revisión dentro de [!DNL Adobe Workfront], vea [Revisión](../../../review-and-approve-work/proofing/proofing.md).
+>* Este artículo hace referencia a la funcionalidad del producto independiente [!DNL Workfront Proof]. Para obtener información sobre la revisión dentro de [!DNL Adobe Workfront], consulte [Revisión](../../../review-and-approve-work/proofing/proofing.md).
 
 Workfront Proof le permite ver informes para poder realizar un seguimiento del progreso del trabajo y de la eficacia de sus equipos.
 
@@ -103,4 +110,4 @@ Para filtrar la información de informes:
    ![proof_reports_print.png](assets/proof-reports-print-350x191.png)
 
 1. Seleccione entre las distintas opciones de impresión disponibles.\
-   Las opciones de impresión varían según la versión del explorador y del explorador que utilice.
+   Las opciones de impresión varían según la versión del explorador y del navegador que utilice.

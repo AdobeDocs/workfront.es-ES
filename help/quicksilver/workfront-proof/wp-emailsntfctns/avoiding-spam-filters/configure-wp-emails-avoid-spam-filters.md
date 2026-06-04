@@ -2,15 +2,24 @@
 product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: avoiding-spam-filters
-title: Configurar  [!DNL Workfront Proof] correos electrónicos para evitar filtros de spam
-description: '"El filtro de spam de su cliente de correo electrónico tiene un propósito importante: protegerle de correos electrónicos spam molestos y posiblemente maliciosos. Sin embargo, si no tiene la configuración correcta en el filtro de correo no deseado, no podrá ver los siguientes  [!DNL Workfront Proof] correos electrónicos importantes: notificaciones de prueba por correo electrónico, boletines informativos y comunicaciones especiales".'
+title: Configuración de correos electrónicos de  [!DNL Workfront Proof]  para evitar filtros de spam
+description: 'El filtro de correo no deseado de su cliente de correo electrónico tiene un propósito importante: protegerle de mensajes de correo electrónico no deseado molestos y posiblemente malintencionados. Sin embargo, si no tiene la configuración correcta en el filtro de correo no deseado, no podrá ver los siguientes  [!DNL Workfront Proof] correos electrónicos importantes: notificaciones de prueba por correo electrónico, boletines y comunicaciones especiales.'
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 1fce3d83-fdce-4ded-8e78-3468243a59e1
-source-git-commit: c989687e9adaf12a31a920921bf8fb69425ca1c5
+TQID: https://experienceleague.adobe.com/QMtIDexmxDDuKqTg-Z47-lMnQ27zDEdMtwg-8OUe3Uw
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '493'
-ht-degree: 0%
+source-wordcount: 497
+ht-degree: 4%
 
 ---
 
@@ -18,7 +27,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Este artículo hace referencia a la funcionalidad del producto independiente [!DNL Workfront Proof]. Para obtener información sobre la revisión dentro de [!DNL Adobe Workfront], vea [Revisión](../../../review-and-approve-work/proofing/proofing.md).
+>Este artículo hace referencia a la funcionalidad del producto independiente [!DNL Workfront Proof]. Para obtener información sobre la revisión dentro de [!DNL Adobe Workfront], consulte [Revisión](../../../review-and-approve-work/proofing/proofing.md).
 
 El filtro de correo no deseado de su cliente de correo electrónico tiene un propósito importante: protegerle de mensajes de correo electrónico no deseado molestos y posiblemente malintencionados. Sin embargo, si no tiene la configuración correcta en el filtro de correo no deseado, puede impedir que vea los siguientes [!DNL Workfront Proof] correos electrónicos importantes: notificaciones de prueba por correo electrónico, boletines informativos y comunicaciones especiales.
 

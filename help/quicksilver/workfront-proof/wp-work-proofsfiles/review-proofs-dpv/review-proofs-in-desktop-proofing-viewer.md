@@ -3,26 +3,31 @@ content-type: reference
 product-previous: workfront-proof
 product-area: documents
 navigation-topic: work-with-proofs-and-files
-title: Revisar pruebas en el Visor de revisiones de escritorio
-description: Revise las pruebas en el Visor de pruebas de escritorio.
+title: Revisión de pruebas en el visor de corrección de escritorio
+description: Revisión de pruebas en el visor de corrección de escritorio.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 26637f09-3513-48d9-9a35-7b94bf0d1581
-source-git-commit: c3e15a052533d43065b50a9f56169b82f8dc3765
+TQID: https://experienceleague.adobe.com/2k3NxQmLfD66Ui-vP-P-yzoXWyZkwvVhYxGGwZr-Xgg
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '57'
-ht-degree: 0%
+source-wordcount: 57
+ht-degree: 100%
 
 ---
 
-# Revisar pruebas en el Visor de revisiones de escritorio
+# Revisión de pruebas en el visor de corrección de escritorio
 
 >[!IMPORTANT]
 >
->Este artículo hace referencia a la funcionalidad del producto independiente [!DNL Workfront Proof]. Para obtener información sobre la revisión dentro de [!DNL Adobe Workfront], vea [Revisión](../../../review-and-approve-work/proofing/proofing.md).
+>Este artículo hace referencia a la funcionalidad del producto independiente [!DNL Workfront Proof]. Para obtener información sobre la revisión dentro de [!DNL Adobe Workfront], consulte [Revisión](../../../review-and-approve-work/proofing/proofing.md).
 
 Esta sección contiene los siguientes artículos:
 
-* [Comprender el Visor de corrección de escritorio](../../../workfront-proof/wp-work-proofsfiles/review-proofs-dpv/destop-proofing-viewer.md)
-* [Configurar cómo se abren los hipervínculos en el Visor de corrección de escritorio](../../../workfront-proof/wp-work-proofsfiles/review-proofs-dpv/configure-how-hyperlinks-open.md)
+* [Información sobre el visor de corrección de escritorio](../../../workfront-proof/wp-work-proofsfiles/review-proofs-dpv/destop-proofing-viewer.md)
+* [Configuración de apertura de hipervínculos en el Visor de corrección de escritorio](../../../workfront-proof/wp-work-proofsfiles/review-proofs-dpv/configure-how-hyperlinks-open.md)

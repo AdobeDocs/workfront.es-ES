@@ -6,10 +6,22 @@ description: Una vez que hayas instalado y configurado  [!DNL Adobe Workfront] p
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 4bf62192-66fe-42a7-b8c0-23b7bdef45e8
-source-git-commit: 6178cabbf021fbf92bd8795c5c2bd0346801d64d
+TQID: https://experienceleague.adobe.com/Fqy-Tqgyza2C4STR6qD78-HsyKDiydUM1NTnzLY1-FE
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2:
+  - id: e4fedd42-4a54-4109-859f-13c7f0366a72
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '326'
-ht-degree: 39%
+source-wordcount: 323
+ht-degree: 40%
 
 ---
 
@@ -28,7 +40,7 @@ Para obtener más información sobre la configuración de [!DNL Workfront with S
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td role="rowheader">Paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
@@ -76,7 +88,7 @@ Para poder tener acceso a sus favoritos y a los elementos recientes de [!DNL Sla
    >
    >Los comandos distinguen entre mayúsculas y minúsculas. Puede comenzar el comando con `/wf` en lugar de `/workfront`.
 
-   Se muestra una lista de los elementos recientes, en el orden en que se accedió en último lugar, con los más recientes en la parte superior. Los elementos se enumeran de tres en tres y se agrupan por tipo de objeto.\
+   Se muestra una lista de los elementos recientes, en el orden en que se accedió en último lugar, con los más recientes en la parte superior. Los elementos se enumeran tres a la vez y se agrupan por tipo de objeto.\
 
 1. (Opcional) Haga clic en **[!UICONTROL Mostrar más]** para enumerar elementos más recientes.
 1. (Opcional) Haga clic en el nombre de un elemento al que haya tenido acceso recientemente para abrirlo en [!DNL Workfront] en una nueva pestaña del explorador.

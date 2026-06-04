@@ -7,10 +7,21 @@ description: Si es administrador del servidor de AD, puede instalar y configurar
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 670422e9-5db8-4f06-baf8-1f9ce83873fe
-source-git-commit: 690b0817dfe4ff200982ffe8d67ad93e563e30ac
+TQID: https://experienceleague.adobe.com/SsCChdvLwy-i48BkLL8xbm7e0gUOVUStR-0XxcT3uXs
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '928'
-ht-degree: 98%
+source-wordcount: 769
+ht-degree: 86%
 
 ---
 
@@ -30,15 +41,15 @@ Si es administrador del servidor de AD, puede instalar y configurar AD FS.
 1. Si no desea exponer IIS en el servidor de AD a Internet (puertos 80 y 443 para HTTP y HTTPS), primero puede configurar un servidor de federación detrás del cortafuegos, a continuación, crear un segundo proxy de servidor de federación que pase solicitudes a través del cortafuegos al servidor de federación.
 1. Una vez completada la configuración de AD FS, seleccione **[!UICONTROL Iniciar el complemento Administración de AD FS 2.0]** y, a continuación, haga clic en **[!UICONTROL Finalizar]**. Una vez finalizado, la ventana Administración de AD FS 2.0 debería abrirse de inmediato. Si no, puede abrirlo desde **[!UICONTROL Inicio]** > **[!UICONTROL Herramientas administrativas]** > **[!UICONTROL Administración de AD FS 2.0]**. Esta es la aplicación de control principal de AD FS.
 
-1. Para comenzar, haga clic en Asistente de configuración del servidor de federación de AD FS 2.0.
+1. Para comenzar, haga clic en Asistente para configuración del servidor de federación de AD FS 2.0.
 Esto le ayudará a configurar AD FS y conectarlo a Internet a través de IIS y a AD.
 1. Si está configurando un nuevo servidor de AD FS, seleccione **[!UICONTROL Crear un nuevo Servicio de federación]**.
 1. Seleccione **[!UICONTROL Servidor de federación independiente]** (con fines de prueba y evaluación).
 
 1. Para obtener una alta disponibilidad y equilibrio de carga, haga clic en Nueva granja de servidores de federación.
 1. Especifique el nombre del Servicio de federación.
-De forma predeterminada, el asistente de configuración recupera el certificado SSL enlazado al sitio web predeterminado en IIS y utilizará el nombre de sujeto especificado allí. Si usa un certificado comodín, tendrá que introducir el nombre del Servicio de federación.
-Si no hay ningún certificado SSL configurado en IIS, el asistente para configuración buscará certificados válidos en el almacén de certificados del equipo local. Estos se muestran en la lista desplegable Certificado SSL. Si no se encuentran certificados, puede utilizar el Generador de certificados de servidor en IIS para crear uno.
+De forma predeterminada, el asistente de configuración recupera el certificado SSL enlazado al sitio web predeterminado en IIS y utilizará el nombre de sujeto especificado allí. Si usa un certificado comodín, tendrá que escribir el nombre del Servicio de federación.
+Si no hay ningún certificado SSL configurado en IIS, el asistente para configuración buscará certificados válidos en el almacén de certificados del equipo local. Se muestran en la lista desplegable Certificado SSL. Si no se encuentran certificados, puede utilizar el Generador de certificados de servidor en IIS para crear uno.
 
 1. Continúe con la configuración y haga clic en **[!UICONTROL Cerrar]** una vez que se haya completado.
 
@@ -51,17 +62,17 @@ Si es administrador de [!DNL Workfront Proof], puede configurar el inicio de ses
 1. En el cuadro **URL de SSO**, pegue su ID de entidad.
 El siguiente es un ejemplo de ID de entidad:
 http://*&lt;adfs.your-company.com>*/adfs/services/trust
-Su ID de entidad se encuentra en el archivo XML de metadatos de federación.
+El ID de entidad se encuentra en el archivo XML de metadatos de federación.
    ![ProofHQ_configuration_02.png](assets/proofhq-configuration-02-350x80.png)
 
-1. Los metadatos de federación se encuentran en la carpeta Complemento AD FS 2.0 > Servicio > Puntos finales. En la sección Metadatos, busque el que tenga el tipo Metadatos de federación. Para ver los metadatos, pegue este punto final en el explorador. También puede ir directamente a este vínculo: https://*&lt;adfs.your-company.com>*/FederationMetadata/2007-06/FederationMetadata.xml después de reemplazar {adfs.your-company.com} por sus propios datos.
+1. Los metadatos de federación se encuentran en la carpeta Complemento AD FS 2.0 > Servicio > Puntos finales. En la sección Metadatos, busque el que tenga el tipo Metadatos de federación. Para ver los metadatos, pegue este punto final en el explorador. También puede ir directamente a este vínculo: https://*&lt;adfs.your-company.com>*/FederationMetadata/2007-06/FederationMetadata.xml después de reemplazar {adfs.your-company.com} por sus propios detalles.
 1. En el cuadro **[!UICONTROL URL de inicio de sesión]**, pegue su inicio de sesión SSO.
 1. El siguiente es un ejemplo de inicio de sesión SSO:
-1. http://*&lt;adfs.your-company.com>*/adfs/ls.
+1. http://*<adfs.your-company.com>*/adfs/ls.
 1. Este vínculo se encuentra en el archivo XML de metadatos de federación.
    ![ProofHQ_configuration_03.png](assets/proofhq-configuration-03-350x90.png)
 
-1. En el cuadro **[!UICONTROL URL de cierre de sesión]**, introduzca el vínculo y guarde.
+1. En el cuadro **[!UICONTROL URL de cierre de sesión]**, escriba el vínculo y guarde.
 El siguiente es un ejemplo de URL de cierre de sesión:
 https://*&lt;adfs.your-company.com>*/adfs/ls/?wa=wsignout1.0
 
@@ -89,12 +100,12 @@ Una vez completada la configuración, debe trabajar en la sección Confianza de 
 1. Seleccione la fuente de datos.
 Todos los metadatos de su cuenta de [!DNL ProofHQ] se encuentran en un vínculo como este:
 https://`<yoursubdomain*>`.proofhq.com/saml/module.php/saml/sp/metadata.php/phq
-Esto configurará la mayor parte de la confianza del usuarios de confianza.
+Esto configurará la mayor parte de la confianza del usuario autenticado.
 
    >[!NOTE]
    >
    >* Si tiene problemas para establecer la conexión desde la URL, guarde los metadatos como un archivo y elija importar los datos de un archivo.
-   >* Cuando tenga un dominio personalizado completo (por ejemplo, www.your-proofing.com) configurado en su cuenta de [!DNL ProofHQ], reemplace toda la parte &quot;{yoursubdomain}.proofhq.com&quot; por su propio dominio para crear el vínculo de metadatos [!DNL ProofHQ].
+   >* Cuando tenga un dominio personalizado completo (por ejemplo, www.your-proofing.com) configurado en su cuenta de [!DNL ProofHQ], reemplace toda la parte &quot;{yoursubdomain}.proofhq.com&quot; por su propio dominio para crear el vínculo de metadatos de [!DNL ProofHQ].
 
 
 ## Configurar reglas de notificación
