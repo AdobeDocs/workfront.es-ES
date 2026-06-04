@@ -8,10 +8,19 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 95e75a28-5ac2-4d1d-acc3-dbc0b295b28f
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+TQID: https://experienceleague.adobe.com/jOE1oLgVpzfmYDzfK4rCJTbjD-dl1RGcn9suthS5N-E
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '956'
-ht-degree: 99%
+source-wordcount: 998
+ht-degree: 100%
 
 ---
 
@@ -33,7 +42,7 @@ Esta característica ahora se incluye en la ruta de aprendizaje [Aspectos básic
 
 Hemos actualizado el modo en que funciona el porcentaje completado de los problemas para los problemas que se han convertido en proyectos o tareas. Con la nueva funcionalidad, cuando un problema se convierte en una tarea o un proyecto, el porcentaje completado del problema se actualiza de forma sincronizada con el porcentaje completado de la tarea o el proyecto de resolución cuando la configuración “Actualizar automáticamente el estado del problema solucionable cuando cambie el estado del objeto de resolución” está habilitada desde la configuración.
 
-Para obtener información acerca de la conversión de problemas, consulte [Información general sobre los objetos de resolución y los objetos solucionables](../../../manage-work/issues/convert-issues/resolving-and-resolvable-objects.md). 
+Para obtener información acerca de la conversión de problemas, consulte [Información general sobre los objetos de resolución y los objetos solucionables](../../../manage-work/issues/convert-issues/resolving-and-resolvable-objects.md).
 
 ## Nueva lista de solicitudes enviadas
 
@@ -57,7 +66,7 @@ Los siguientes Campos de nuevos problemas solo se muestran al crear un problema 
 
 * Gravedad
 * Horas planificadas
-* Fecha planificada de inicio
+* Fecha de inicio planificada
 * URL
 * Asignado a
 * Función
@@ -91,13 +100,13 @@ Para obtener información sobre cómo enviar solicitudes, consulte [Crear y envi
 
 Ahora, es posible compartir un vínculo a una cola de solicitudes, a un grupo de temas o a un tema de la cola cuando se crea una solicitud.
 
-Antes de enviar una nueva solicitud, puede copiar un vínculo a la cola de solicitudes, al grupo de temas o al tema de la cola de la solicitud y compartirlo con otros usuarios, o incrustarlo en un panel.
+Antes de enviar una nueva solicitud, puede copiar un vínculo a la cola de solicitudes, al grupo de temas o al tema de la cola de la solicitud y compartirlo con otros usuarios, o incrustarlo en un panel de control.
 
 Para obtener información sobre cómo compartir un vínculo a una cola de solicitudes al enviar una solicitud, consulte [Compartir un vínculo a una cola de solicitudes](../../../manage-work/requests/create-requests/share-link-to-request-queue.md).
 
 ## Busque un grupo que desee asignar a un proyecto y vea sus detalles
 
-Ahora es más fácil asegurarse de identificar el grupo correcto al asignar un grupo a un proyecto. Pase el ratón sobre el nombre de un grupo que encuentre en el cuadro Grupo y, a continuación, haga clic en el icono de información que aparece junto al nombre para ver la información sobre el grupo.
+Ahora es más fácil asegurarse de identificar el grupo correcto al asignar un grupo a un proyecto. Pase el puntero por encima del nombre de un grupo que encuentre en el cuadro Grupo y, a continuación, haga clic en el icono de información que aparece junto al nombre para ver la información sobre el grupo.
 
 Esta información sobre herramientas incluye la jerarquía de grupos por encima del grupo, si los hay, y los administradores del grupo.
 

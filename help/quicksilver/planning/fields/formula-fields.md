@@ -6,12 +6,20 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 5027d611-916e-492d-9a44-841bdde11c94
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/bXHqOBB2iT-YWoWM7CSnOTl8EzFfJJH9PLrRIzwaKNw
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '779'
-ht-degree: 35%
+source-wordcount: 784
+ht-degree: 31%
 
 ---
 
@@ -249,11 +257,11 @@ Además, se admiten las siguientes expresiones para los campos de fórmula de Wo
 
 <tr> 
    <td><strong>WEEKOFYEAR</strong> </td> 
-   <td> <p>Devuelve el número de la semana en un año. De forma opcional, puede indicar en qué día comienza la semana (utilice 1 para el domingo o 2 para el lunes). Si se omite, las semanas comienzan de forma predeterminada en domingo.</p> <p>La expresión tiene el siguiente formato:
+   <td> <p>Devuelve el número de semana de un año. De forma opcional, puede indicar en qué día comienza la semana (utilice 1 para el domingo o 2 para el lunes). Si se omite, las semanas comienzan el domingo de forma predeterminada.</p> <p>La expresión tiene el siguiente formato:
 
 <code>WEEKOFYEAR(date,2)</code>
 o
-<code>WEEKOFYEAR(date)</code>
+<code>WEEKOFYEAR(fecha)</code>
 </p>
    </td></tr>
 

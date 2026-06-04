@@ -6,9 +6,23 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: e490a955-b2cb-4b9b-9794-12ff2a2c2338
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+TQID: https://experienceleague.adobe.com/hWQHCGyvb-N-utvgquxUHOUd9WfC9YNQpr5w-I4E-YE
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2:
+  - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+  - id: c33d85a1-be85-4290-854c-87408c10aa80
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '3974'
+source-wordcount: 4155
 ht-degree: 98%
 
 ---
@@ -245,7 +259,7 @@ the week of April 4, 2022, unless otherwise specified. For specific release date
     </ul> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/22.1-release-activity/22-1-project-enhancements.md#convert" class="MCXref xref" xrefformat="{para}">Convertir problemas a proyectos mediante una plantilla de listas, informes y tableros</a> </p> <p>Para aumentar la eficacia de su trabajo y facilitarle la conversión de problemas en un entorno acelerado, hemos añadido la posibilidad de convertir un problema en un proyecto utilizando una plantilla de una lista, un informe o un panel.</p> <p>Antes de esta mejora, esta funcionalidad solo existía cuando convertía el problema desde la página de problemas.</p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/22.1-release-activity/22-1-project-enhancements.md#convert" class="MCXref xref" xrefformat="{para}">Convertir problemas a proyectos mediante una plantilla de listas, informes y tableros</a> </p> <p>Para aumentar la eficacia de su trabajo y facilitarle la conversión de problemas en un entorno acelerado, hemos añadido la posibilidad de convertir un problema en un proyecto utilizando una plantilla de una lista, un informe o un panel de control.</p> <p>Antes de esta mejora, esta funcionalidad solo existía cuando convertía el problema desde la página de problemas.</p> </td> 
    <td><strong>Disponible en estas fechas:</strong> 
     <ul> 
      <li> <p>Versión de vista previa: 8 de diciembre de 2021<br></p> </li> 
@@ -267,7 +281,7 @@ the week of April 4, 2022, unless otherwise specified. For specific release date
     </ul> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/22.2-release-activity/22-2-project-enhancements.md#keep" class="MCXref xref" xrefformat="{para}">Mantenga a los usuarios en el tablero, lista o informe después de convertir el problema en proyecto</a> </p> <p>Para aumentar la eficacia y eliminar el número de clics, se publicó una mejora al convertir problemas en proyectos desde una lista, informe o panel.</p> <p>Los usuarios permanecen en la lista, informe o panel después de convertir un problema en un proyecto en lugar de ser redirigidos a la página del proyecto. Una vez completada la conversión, se mostrará una notificación de confirmación de éxito con el vínculo al proyecto para permitirle navegar fácilmente al proyecto, si fuera necesario. </p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/22.2-release-activity/22-2-project-enhancements.md#keep" class="MCXref xref" xrefformat="{para}">Mantenga a los usuarios en el tablero, lista o informe después de convertir el problema en proyecto</a> </p> <p>Para aumentar la eficacia y eliminar el número de clics, se publicó una mejora al convertir problemas en proyectos desde una lista, informe o panel de control.</p> <p>Los usuarios permanecen en la lista, informe o panel de control después de convertir un problema en un proyecto en lugar de ser redirigidos a la página del proyecto. Una vez completada la conversión, se mostrará una notificación de confirmación de éxito con el vínculo al proyecto para permitirle navegar fácilmente al proyecto, si fuera necesario. </p> </td> 
    <td><strong>Disponible en estas fechas:</strong> 
     <ul> 
      <li> <p>Versión de vista previa: 10 de febrero de 2022<br></p> </li> 
@@ -394,7 +408,7 @@ the week of April 4, 2022, unless otherwise specified. For specific release date
  <col> 
  <tbody> 
   <tr> 
-   <td> <p><strong>Característica</strong> </p> </td> 
+   <td> <p><strong>Función</strong> </p> </td> 
    <td> <p><strong>Entornos y fechas de lanzamiento</strong> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -618,13 +632,13 @@ Para obtener información sobre novedades y actualizaciones, consulte [Novedades
 
 Para obtener información sobre las versiones de API, consulte [Versiones de API y programación de soporte](../../../wf-api/api/api-version-support-schedule.md).
 
-## Actualizaciones de mantenimiento de Workfront 
+## Actualizaciones de mantenimiento de Workfront
 
 Para obtener información acerca de las actualizaciones de mantenimiento realizadas durante la versión 22.2, consulte [Actualizaciones de mantenimiento de Workfront](https://experienceleague.adobe.com/es/docs/workfront-known-issues/releases/current-updates).
 
 ## Seminario web sobre la versión 22.2
 
-El seminario web sobre la versión 22.2 de Workfront se presentará el 24 de marzo de 2022 a las 8:00 a. m. MST. Puede registrarse para el evento en la [página Eventos de Workfront One](https://webinars.on24.com/adobe_workfront/WF22point2?partnerref=WFOne).
+El seminario web de la versión 22.2 de Workfront se presentará el 24 de marzo de 2022 a las 8:00 a. m. MST. Puede registrarse para el evento en la [página Eventos de Workfront One](https://webinars.on24.com/adobe_workfront/WF22point2?partnerref=WFOne).
 
 <!--
 <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">

@@ -6,13 +6,18 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 0da08e30-51a8-4163-ae1e-821a099fac3b
-source-git-commit: 9a7ab1928bfd25c197fca65eddfba1bc01977ea7
+TQID: https://experienceleague.adobe.com/EQBOcWZ90EDMHab3XDXJDwNN97-b019ciwr2srvCvrQ
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '233'
-ht-degree: 78%
+source-wordcount: 235
+ht-degree: 95%
 
 ---
-
 
 # Arquitectura: índice de artículos
 
@@ -39,9 +44,9 @@ Los artículos de las secciones siguientes describen cómo se pueden configurar 
 * [Eliminar espacios de trabajo](/help/quicksilver/planning/architecture/delete-workspaces.md)
 * [Editar espacios de trabajo](/help/quicksilver/planning/architecture/edit-workspaces.md)
 * [Eliminar tipos de registro](/help/quicksilver/planning/architecture/delete-record-types.md)
-* [Información general sobre tipos de registros entre espacios de trabajo](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md)
-* [Configuración de funciones entre espacios de trabajo para tipos de registros](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md)
+* [Información general de tipos de registro entre espacios de trabajo](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md)
+* [Configuración de capacidades entre espacios de trabajo para tipos de registros](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md)
 * [Agregar tipos de registros existentes desde otro espacio de trabajo](/help/quicksilver/planning/architecture/add-existing-record-types-from-another-workspace.md)
 * [Configuración del área Configuración de un tipo de registro](/help/quicksilver/planning/architecture/configure-record-type-settings.md)
 * [Información general de jerarquía y ruta](/help/quicksilver/planning/architecture/hierarchy-and-breadcrumb-overview.md)
-* [Crear jerarquías de Workspace](/help/quicksilver/planning/architecture/create-workspace-hierarchies.md)
+* [Crear jerarquías de espacio de trabajo](/help/quicksilver/planning/architecture/create-workspace-hierarchies.md)

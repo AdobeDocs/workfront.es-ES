@@ -7,9 +7,20 @@ description: El [!UICONTROL Optimizador de portafolios] es la herramienta que se
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 1e48a24c-65de-49c2-85a8-dc931ac40c52
-source-git-commit: c53e7d2229032c59710a8f955de53cfbd7fc6df4
+TQID: https://experienceleague.adobe.com/rboyRUa-HquCIv42DGtpGjwFa-eLptIWOnAb8Lo4W28
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+subfeature_v2:
+  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1647'
+source-wordcount: 1648
 ht-degree: 96%
 
 ---
@@ -53,7 +64,7 @@ Puede ver información financiera en las siguientes áreas del [!UICONTROL Optim
 * **[!UICONTROL Finanzas del portafolio para proyectos seleccionados]**: esta área muestra información financiera recopilada de los proyectos seleccionados en el [!UICONTROL Optimizador de portafolios]. Puede añadir o quitar proyectos y comprender el efecto que tendrá en las finanzas del portafolio al consultar la información de esta área.
 * **[!UICONTROL Finanzas de los proyectos]**: esta área muestra la información financiera de cada proyecto enumerado en el [!UICONTROL Optimizador de portafolios].
 
-### Campos financieros del [!UICONTROL Optimizador de portafolios] {#the-financial-fields-in-the-portfolio-optimizer}
+### Campos financieros del [!UICONTROL Optimizador de portafolios]  {#the-financial-fields-in-the-portfolio-optimizer}
 
 En el [!UICONTROL Optimizador de portafolios] se muestran los siguientes campos:
 

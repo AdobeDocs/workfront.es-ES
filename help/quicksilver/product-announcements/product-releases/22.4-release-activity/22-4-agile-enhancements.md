@@ -6,10 +6,17 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 5d954537-5ee4-43b5-b1ab-d62433496e35
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+TQID: https://experienceleague.adobe.com/aT7LstXDYaNh1acR5Zwzj4eNFiqKwDSL7iEWJaKGoDs
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '741'
-ht-degree: 100%
+source-wordcount: 750
+ht-degree: 94%
 
 ---
 
@@ -29,9 +36,9 @@ La columna de entrada puede servir de registro de asuntos pendientes para un equ
 
 Solo se permite una columna de entrada en un tablero.
 
-Para obtener más información, vea [Añadir una columna de entrada a un tablero](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md)
+Para obtener más información, consulte [Añadir una columna de entrada a un tablero](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md)
 
-[Ver una demostración en vídeo de esta característica](https://video.tv.adobe.com/v/3412867/){target=_blank}
+[Vea un vídeo de demostración de esta función](https://video.tv.adobe.com/v/3412867/){target=_blank}
 
 ## Se ha actualizado el panel de filtros en los tableros
 
@@ -39,9 +46,9 @@ NOTA: Esta función solo está disponible mediante la inclusión de funciones an
 
 Los iconos de filtro y búsqueda de un tablero se han movido a la izquierda de la pantalla. Al hacer clic en el icono de filtro, se abre un panel a la izquierda para mostrar todas las opciones de filtro. Anteriormente, los filtros se mostraban en la lista desplegable al derecho del tablero.
 
-Para obtener más información, vea [Filtrar y buscar en un tablero](/help/quicksilver/agile/get-started-with-boards/filter-search-in-board.md).
+Para obtener más información, consulte [Filtrar y buscar en un tablero](/help/quicksilver/agile/get-started-with-boards/filter-search-in-board.md).
 
-[Vea una demostración en vídeo de esta función](https://video.tv.adobe.com/v/3412868/){target=_blank}
+[Vea un vídeo de demostración de esta función](https://video.tv.adobe.com/v/3412868/){target=_blank}
 
 ## Usar grupos en un tablero para crear diagramas de flujos
 
@@ -53,7 +60,7 @@ Las tarjetas de la columna de entrada no se incluyen en un grupo.
 
 Para obtener más información, consulte [Usar grupos en un tablero](/help/quicksilver/agile/use-boards-agile-planning-tools/group-cards-on-board.md).
 
-[Ver una demostración en vídeo de esta característica.](https://video.tv.adobe.com/v/3412869/){target=_blank}
+[Vea un vídeo de demostración de esta función.](https://video.tv.adobe.com/v/3412869/){target=_blank}
 
 ## Mejoras en los elementos de listas de comprobación de los tableros
 
@@ -77,7 +84,7 @@ Después de añadir el equipo al tablero, puede asignarlo a las tarjetas. En las
 
 Para obtener más información, vea [Añadir o quitar miembros de un tablero](/help/quicksilver/agile/get-started-with-boards/add-members-to-board.md).
 
-[Vea una demostración en vídeo de esta función.](https://video.tv.adobe.com/v/3412870/){target=_blank}
+[Vea un vídeo de demostración de esta función.](https://video.tv.adobe.com/v/3412870/){target=_blank}
 
 ## El límite de Trabajo en curso ya está disponible en las columnas de tablero
 
@@ -89,7 +96,7 @@ Ahora puede establecer un límite de trabajo en curso (WIP) para cualquier colum
 
 Para obtener más información, consulte [Administrar columnas de tablero](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md).
 
-[Vea una demostración en vídeo de esta función.](https://video.tv.adobe.com/v/3412871/){target=_blank}
+[Vea un vídeo de demostración de esta función.](https://video.tv.adobe.com/v/3412871/){target=_blank}
 
 ## Campo de estimación añadido a las tarjetas
 
@@ -99,4 +106,4 @@ Para obtener más información, consulte [Administrar columnas de tablero](/help
 
 El nuevo campo Estimación en las tarjetas Ad hoc y conectadas le permite introducir el número estimado de horas que la tarjeta tardará en completarse. Esta es una entrada manual, no un valor calculado, y no puede ser superior a 99. La estimación se muestra en la tarjeta del tablero, así como en los detalles de la tarjeta.
 
-[Ver una demostración en vídeo de esta característica.](https://video.tv.adobe.com/v/3412872/){target=_blank}
+[Vea un vídeo de demostración de esta función.](https://video.tv.adobe.com/v/3412872/){target=_blank}

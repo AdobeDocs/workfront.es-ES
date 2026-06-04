@@ -7,9 +7,21 @@ description: Este artículo proporciona un ejemplo de cálculo de la estimación
 author: Lisa
 feature: Work Management
 exl-id: ff88b7e3-2a5b-464f-bed1-6848067840b8
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+TQID: https://experienceleague.adobe.com/6I01QrqZfJ-rE0nqDlSBxr0HfPSgFpBVvtQT5Q1cQQ0
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+subfeature_v2:
+  - id: b91c0848-76c4-4da4-8b81-3aade0518dd0
+  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '2213'
+source-wordcount: 2306
 ht-degree: 81%
 
 ---
@@ -256,7 +268,7 @@ Método EAC = Calcular a nivel de proyecto
    <th> <br> <p><strong>Coste plan man obr</strong> </p> </th> 
    <th> <br> <p><strong>Hs reales</strong> </p> </th> 
    <th> <br> <p><strong>Coste plan man obr real</strong> </p> </th> 
-   <th> <p><strong>% finalizado</strong> </p> </th> 
+   <th> <p><strong>% completado</strong> </p> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -423,7 +435,7 @@ Método EAC = Calcular a nivel de proyecto
 
    ELSE CPI_Labor = 1\
    **Trabajo CPI** **para la tarea 1** = 100/2500\
-   **Mano de obra CPI** **para la tarea 1** = .04&#x200B;**&#x200B;**&#x200B;**Mano de obra EAC &#x200B;**&#x200B;**para la tarea 1**=* IF *CPI_Labor &lt;> 0* ENTONCES *Mano de obra EAC = Costo de mano de obra planificado/CPI_Labor
+   **Mano de obra CPI** **para la tarea 1** = .04 **&#x200B;**&#x200B;**Mano de obra EAC**&#x200B;**para la tarea 1**= *IF* CPI_Labor &lt;> 0 *ENTONCES* Mano de obra EAC = Costo de mano de obra planificado/CPI_Labor
    * ELSE* EAC Mano de Obra = Coste Laboral Planificado + Coste Laboral Real\
      **Mano de obra EAC**&#x200B;**&#x200B; de la tarea 1** = 500,00/0,04\
      **Mano de obra EAC**&#x200B;**&#x200B; de la tarea 1** = 12 500,00 $\
@@ -439,7 +451,7 @@ Método EAC = Calcular a nivel de proyecto
    Tarea 3 = 0,44 / 6.950,00 $
 
 1. **CPI del proyecto** = 0,32 calculado de la siguiente manera:\
-   **CPI**&#x200B;**para el proyecto** = *IF* Costo de mano de obra real + IncurredActualExpenseCost &lt;> 0 *THEN*
+   **CPI**&#x200B;**&#x200B; para el proyecto &#x200B;** = *IF* Costo de mano de obra real + IncurredActualExpenseCost &lt;> 0 *THEN*
 
    ```
    CPI = (TotalBudgetedCostWorkPerformed + IncurredPlannedExpenseCost)/ActualLaborCost + IncurredActualExpenseCost)
@@ -462,7 +474,7 @@ Método EAC = Calcular a nivel de proyecto
    **Trabajo de CPI**&#x200B;**para el proyecto** = .13333\
    **Trabajo de CPI**&#x200B;**para el proyecto** = .13
 
-   **Trabajo EAC**&#x200B;**para el proyecto** = *IF* CPI_Labor &lt;> 0 *THEN*
+   **Trabajo EAC**&#x200B;**&#x200B; para el proyecto &#x200B;** = *IF* CPI_Labor &lt;> 0 *THEN*
 
    ```
    EAC Labor = Planned Labor Cost/CPI_Labor
@@ -520,7 +532,7 @@ Método EAC = Calcular a nivel de proyecto
    <th> <br> <p><strong>Coste plan man obr</strong> </p> </th> 
    <th> <br> <p><strong>Hs reales</strong> </p> </th> 
    <th> <br> <p><strong>Coste plan man obr real</strong> </p> </th> 
-   <th> <p><strong>% finalizado</strong> </p> </th> 
+   <th> <p><strong>% completado</strong> </p> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -823,7 +835,7 @@ Método EAC = Calcular a nivel de proyecto
    **Trabajo IRC**&#x200B;**Tarea 2** = 100/1000\
    **Trabajo IRC**&#x200B;**Tarea 2** = 0,1
 
-   **Trabajo EAC**&#x200B;**Tarea 2** = *IF* CPI_Labor &lt;> 0 *THEN*
+   **Trabajo EAC**&#x200B;**&#x200B; Tarea 2 &#x200B;** = *IF* CPI_Labor &lt;> 0 *THEN*
 
    ```
    EAC Labor = Planned Labor Cost/CPI_Labor
@@ -831,7 +843,7 @@ Método EAC = Calcular a nivel de proyecto
 
    * ELSE* EAC Mano de Obra = Coste Laboral Planificado + Coste Laboral Real\
      **Trabajo EAC**&#x200B;**Tarea 2** = 500,00/0,1\
-     **Trabajo EAC**&#x200B;**Tarea 2** = 5000,00 $**&#x200B;**&#x200B;**&#x200B; Gasto EAC &#x200B;**&#x200B;**Tarea 2 &#x200B;**= IncurredActualExpenseCost + NotIncurredPlannedExpense\
+     **Trabajo EAC**&#x200B;**Tarea 2** = 5000,00 $**&#x200B;**&#x200B;**Gasto EAC &#x200B;**&#x200B;**Tarea 2** = IncurredActualExpenseCost + NotIncurredPlannedExpense\
      **Gasto EAC &#x200B;**&#x200B;**Tarea 2** = 1300,00 $ + -400,00 $\
      **Gasto EAC**&#x200B;**Tarea 2** = 900,00 $
 
@@ -845,7 +857,7 @@ Método EAC = Calcular a nivel de proyecto
    Tarea 6: 1,06 / 2366,67 $
 
 1. IRC para la tarea 3 = 0,31 calculado de la siguiente manera:\
-   **CPI**&#x200B;**Tarea 3** = *IF* Costo de mano de obra real + IncurredActualExpenseCost &lt;> 0 *THEN*
+   **CPI**&#x200B;**&#x200B; Tarea 3 &#x200B;** = *IF* Costo de mano de obra real + IncurredActualExpenseCost &lt;> 0 *THEN*
 
    ```
    CPI = (TotalBudgetedCostWorkPerformed + IncurredPlannedExpenseCost)/(ActualLaborCost + IncurredActualExpenseCost)
@@ -854,7 +866,7 @@ Método EAC = Calcular a nivel de proyecto
    * ELSE* IPC = CPI_Labor\
      **IRC**&#x200B;**Tarea 3** = (1.150 + 500) / (3000 + 2400)\
      **IRC**&#x200B;**Tarea 3** = 1650 / 5400\
-     **CPI**&#x200B;**Tarea 3** = .31 **&#x200B;**&#x200B;**&#x200B; EAC para la Tarea 3 &#x200B;**= $9,521.74 calculado de la siguiente manera:\
+     **CPI**&#x200B;**Tarea 3** = .31 **&#x200B;**&#x200B;**EAC para la Tarea 3** = $9,521.74 calculado de la siguiente manera:\
      **Trabajo IRC &#x200B;**&#x200B;**Tarea 3** = IF Coste real de la mano de obra &lt;> 0 THEN
 
    ```
@@ -866,7 +878,7 @@ Método EAC = Calcular a nivel de proyecto
    **Trabajo IRC**&#x200B;**Tarea 3** = 0,383333\
    **Trabajo IRC**&#x200B;**Tarea 3** = 0,38
 
-   **Trabajo EAC**&#x200B;**Tarea 3** = *IF* CPI_Labor &lt;> 0 *THEN*
+   **Trabajo EAC**&#x200B;**&#x200B; Tarea 3 &#x200B;** = *IF* CPI_Labor &lt;> 0 *THEN*
 
    ```
    EAC Labor = Planned Labor Cost / CPI_Labor
@@ -885,7 +897,7 @@ Método EAC = Calcular a nivel de proyecto
    **EAC**&#x200B;**Tarea 3** = 9.521,74 $
 
 1. CPI para la Tarea 1 = 0,16 calculado de la siguiente manera:\
-   **CPI**&#x200B;**Tarea 1** = *IF* Costo de mano de obra real + IncurredActualExpenseCost &lt;> 0 *THEN*
+   **CPI**&#x200B;**&#x200B; Tarea 1 &#x200B;** = *IF* Costo de mano de obra real + IncurredActualExpenseCost &lt;> 0 *THEN*
 
    ```
    CPI = (TotalBudgetedCostWorkPerformed + IncurredPlannedExpenseCost) / (ActualLaborCost + IncurredActualExpenseCost)
@@ -907,7 +919,7 @@ Método EAC = Calcular a nivel de proyecto
    **Mano de obra de CPI**&#x200B;**Tarea 1** = 1250/5000\
    **Mano de obra de CPI**&#x200B;**Tarea 1** = 0,25
 
-   **Mano de obra de EAC**&#x200B;**Tarea 1** = *IF* CPI_Mano de obra &lt;> 0 *THEN* Mano de obra de EAC = Coste planificado de mano de obra / CPI_Mano de obra
+   **Mano de obra de EAC**&#x200B;**&#x200B; Tarea 1 &#x200B;** = *IF* CPI_Mano de obra &lt;> 0 *THEN* Mano de obra de EAC = Coste planificado de mano de obra / CPI_Mano de obra
    * ELSE* EAC Mano de Obra = Coste Laboral Planificado + Coste Laboral Real\
      **Mano de obra de EAC**&#x200B;**Tarea 1** = 3000,00/0,25\
      **Mano de obra de EAC**&#x200B;**Tarea 1** = 12 000,00 $
@@ -921,7 +933,7 @@ Método EAC = Calcular a nivel de proyecto
    **EAC**&#x200B;**Tarea 1** = 17.100,00 $
 
 1. El CPI para el proyecto es de 0,25\
-   **CPI**&#x200B;**para el proyecto** = *IF* Costo de mano de obra real + IncurredActualExpenseCost &lt;> 0 *THEN*
+   **CPI**&#x200B;**&#x200B; para el proyecto &#x200B;** = *IF* Costo de mano de obra real + IncurredActualExpenseCost &lt;> 0 *THEN*
 
    ```
    CPI = (TotalBudgetedCostWorkPerformed + IncurredPlannedExpenseCost)/(ActualLaborCost + IncurredActualExpenseCost)
@@ -930,7 +942,7 @@ Método EAC = Calcular a nivel de proyecto
    * ELSE* IPC = CPI_Labor
 
    **CPI**&#x200B;**para el proyecto** = (2450 + 1900) / (11 000 + 6700)\
-   **IRC**&#x200B;**para el proyecto** =   4350 / 17700\
+   **CPI**&#x200B;**para el proyecto** = 4350 / 17700\
    **CPI**&#x200B;**para el proyecto** = 0,25
 
 1. **EAC para el proyecto** = 32 248,98 $ calculado de la siguiente manera:\
@@ -945,7 +957,7 @@ Método EAC = Calcular a nivel de proyecto
    **Mano de obra de CPI**&#x200B;**para el proyecto** = 0,22272\
    **Mano de obra de CPI**&#x200B;**para el proyecto** = 0,22
 
-   **Mano de obra de EAC**&#x200B;**para el proyecto** = *IF* CPI_Mano de obra &lt;> 0 *THEN*
+   **Mano de obra de EAC**&#x200B;**&#x200B; para el proyecto &#x200B;** = *IF* CPI_Mano de obra &lt;> 0 *THEN*
 
    ```
    EAC Labor = Planned Labor Cost / CPI_Labor

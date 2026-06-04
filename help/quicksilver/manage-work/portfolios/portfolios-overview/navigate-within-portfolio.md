@@ -6,12 +6,26 @@ description: Navegación dentro de un portafolio
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 6c1795ab-422f-419c-b5e9-1f1323800b39
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
+TQID: https://experienceleague.adobe.com/tPholEwp3lv7fadB0JvoUARL6G1xn19GpghaAb8LDHQ
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
 workflow-type: tm+mt
-source-wordcount: '697'
-ht-degree: 65%
+source-wordcount: 660
+ht-degree: 62%
 
 ---
 
@@ -100,12 +114,12 @@ Old:
    * **[!UICONTROL Todos]**: incluye todos los portafolios para los que al menos tiene acceso a Ver.
 
      Para obtener más información sobre el acceso a los portafolios, consulte [Información general sobre los niveles de acceso](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
-Para obtener más información sobre los permisos para portafolios, vea [Compartir un portafolio](../../../workfront-basics/grant-and-request-access-to-objects/share-a-portfolio.md).
+Para obtener más información sobre los permisos para portafolios, consulte [Compartir un portafolio](../../../workfront-basics/grant-and-request-access-to-objects/share-a-portfolio.md).
 
      Para añadir nuevos portafolios, consulte [Crear un portafolio](../../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md).
 
-1. Haga clic en el nombre de un portafolio para acceder a este.
-Las siguientes métricas de rendimiento del portafolio se muestran en el área [!UICONTROL Detalles del portafolio] dentro de un portafolio:
+1. Haga clic en el nombre de un portafolio para acceder a él.
+Las siguientes métricas de rendimiento del portafolio se muestran en el área [!UICONTROL Detalles de Portfolio] dentro de un portafolio:
 
    * Si el portafolio está [!UICONTROL A tiempo]
    * Si el portafolio está [!UICONTROL On Budget]

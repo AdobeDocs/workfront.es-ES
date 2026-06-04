@@ -6,9 +6,16 @@ draft: Probably
 feature: Product Announcements, Workfront Proof, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: c76c2dba-1497-414a-8979-712f093efd73
-source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
+TQID: https://experienceleague.adobe.com/zM-lC-wY-TUSdOq2IHypo6UuqHoInWaruiM8dWACReo
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '372'
+source-wordcount: 375
 ht-degree: 94%
 
 ---
@@ -31,10 +38,10 @@ Para obtener una lista de todos los cambios disponibles con la versión 22.1, co
 
 >[!NOTE]
 >
->Publicado para clientes de EMEA con pruebas integradas creadas solo antes del 6 de julio de 2021. Esta funcionalidad se presenta a Vista previa en un despliegue gradual que comienza el 13 y finaliza el 17 de enero para los siguientes clientes:
+>Publicado para clientes de EMEA con revisiones integradas creadas solo antes del 6 de julio de 2021. Esta funcionalidad se presenta a Vista previa en un despliegue gradual que comienza el 13 y finaliza el 17 de enero para los siguientes clientes:
 >
->* Clientes de EMEA con pruebas integradas e independientes
->* Clientes de EMEA con pruebas integradas creadas después del 6 de julio de 2021
+>* Clientes de EMEA con revisiones integradas e independientes
+>* Clientes de EMEA con revisiones integradas creadas después del 6 de julio de 2021
 >* Todos los clientes de Estados Unidos
 
 Para ofrecer una experiencia más integrada entre Workfront y Proof, hemos realizado varias mejoras en las capacidades de revisión para revisores y solicitantes:
@@ -67,6 +74,6 @@ Hemos actualizado el Visor de revisión de escritorio para que admita hasta la v
 
 >[!IMPORTANT]
 >
->Los usuarios de Windows deben reinstalar manualmente el visor de escritorio para actualizar a la versión más reciente. Después, las futuras actualizaciones del Visor de pruebas de escritorio se realizarán automáticamente. Para obtener ayuda sobre la reinstalación, consulte [Instalación del visor de revisión de escritorio](../../../review-and-approve-work/proofing/use-the-desktop-proofing-viewer/installing-desktop-proofing-viewer.md).
+>Los usuarios de Windows deben reinstalar manualmente el visor de escritorio para actualizar a la versión más reciente. Después, las futuras actualizaciones del Visor de revisiones de escritorio se realizarán automáticamente. Para obtener ayuda sobre la reinstalación, consulte [Instalación del visor de revisión de escritorio](../../../review-and-approve-work/proofing/use-the-desktop-proofing-viewer/installing-desktop-proofing-viewer.md).
 
 Los usuarios de Mac se actualizarán automáticamente a la última versión.

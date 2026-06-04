@@ -8,9 +8,28 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 3affee76-347e-4610-b255-4b1bb4414c5d
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+TQID: https://experienceleague.adobe.com/MKm0PiSRhZmTgQEGSv7BnoZZKsEyxDoajFr3JHMEV14
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+  - id: c33d85a1-be85-4290-854c-87408c10aa80
+  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+  - id: d3382524-5489-431b-bde9-271ab257bc37
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+  - id: fceb5125-bb41-419a-b0db-31958cb42f6c
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '3659'
+source-wordcount: 3831
 ht-degree: 99%
 
 ---
@@ -117,7 +136,7 @@ For specific release dates and times for each cluster, see the
    <td><strong>Disponible en estas fechas:</strong> <p>Versión preliminar beta: 20 de noviembre de 2020</p> <p>Versión de producción: con la versión 21.1</p> <p><strong>Disponible en estos entornos:</strong> </p> <p>La nueva experiencia de Adobe Workfront </p> <p>Adobe Workfront Classic </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/21.1-release-activity/21-1-admin-enhancements.md#work" class="MCXref xref" xrefformat="{para}">Trabajar con proyectos y procesos de aprobación de grupo en el área de grupos</a> </p> <p>Si es administrador de grupos, es fácil ver y trabajar con los proyectos y procesos de aprobación de su grupo ahora que están enumerados en el área de grupos.  </p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/21.1-release-activity/21-1-admin-enhancements.md#work" class="MCXref xref" xrefformat="{para}">Trabajar con proyectos y procesos de aprobación de grupo en el área de grupos</a> </p> <p>Si es administrador de grupos, es fácil ver y trabajar con los proyectos y procesos de aprobación de su grupo ahora que están enumerados en el área de Grupos. </p> </td> 
    <td><strong>Disponible en estas fechas:</strong> <p>Versión preliminar beta: 20 de noviembre de 2020</p> <p>Versión de producción: con la versión 21.1</p> <p><strong>Disponible en estos entornos:</strong> </p> <p>La nueva experiencia de Adobe Workfront </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -179,7 +198,7 @@ For specific release dates and times for each cluster, see the
    <td><strong>Disponible en estas fechas:</strong> <p>Versión preliminar beta: 13 de enero de 2021</p> <p>Versión de producción: con la versión de 21.1 <span style="color: #dc143c; font-weight: bold;">(se eliminó de la versión; permanecerá en la vista previa y se lanzará a producción con 21.2)</span></p> <p><strong>Disponible en estos entornos:</strong> </p> <p>La nueva experiencia de Adobe Workfront </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/21.1-release-activity/21-1-project-mgt-enhancements.md#share" class="MCXref xref" xrefformat="{para}">Compartir un vínculo a una cola de solicitudes al enviar una solicitud</a> </p> <p>Ahora, es posible compartir un vínculo a una cola de solicitudes, a un grupo de temas o a un tema de la cola cuando se crea una solicitud.</p> <p>Antes de enviar una nueva solicitud, puede copiar un vínculo a la cola de solicitudes, al grupo de temas o al tema de la cola de la solicitud y compartirlo con otros usuarios, o incrustarlo en un panel.</p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/21.1-release-activity/21-1-project-mgt-enhancements.md#share" class="MCXref xref" xrefformat="{para}">Compartir un vínculo a una cola de solicitudes al enviar una solicitud</a> </p> <p>Ahora, es posible compartir un vínculo a una cola de solicitudes, a un grupo de temas o a un tema de la cola cuando se crea una solicitud.</p> <p>Antes de enviar una nueva solicitud, puede copiar un vínculo a la cola de solicitudes, al grupo de temas o al tema de la cola de la solicitud y compartirlo con otros usuarios, o incrustarlo en un panel de control.</p> </td> 
    <td><strong>Disponible en estas fechas:</strong> <p>Versión preliminar beta: 13 de enero de 2021</p> <p>Versión de producción: con la versión de 21.1 <span style="color: #dc143c; font-weight: bold;">(se eliminó de la versión; permanecerá en la vista previa y se lanzará a producción con 21.2)</span></p> <p><strong>Disponible en estos entornos:</strong> </p> <p>La nueva experiencia de Adobe Workfront </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -187,7 +206,7 @@ For specific release dates and times for each cluster, see the
    <td><strong>Disponible en estas fechas:</strong> <p>Versión preliminar beta: 2 de diciembre de 2020</p> <p>Versión de producción: con la versión 21.1</p> <p><strong>Disponible en estos entornos:</strong> </p> <p>La nueva experiencia de Adobe Workfront </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/21.1-release-activity/21-1-project-mgt-enhancements.md#search" class="MCXref xref" xrefformat="{para}">Busque un grupo que desee asignar a un proyecto y vea sus detalles</a> </p> <p>Ahora es más fácil asegurarse de identificar el grupo correcto al asignar un grupo a un proyecto. Pase el ratón sobre el nombre de un grupo que encuentre en el cuadro Grupo y, a continuación, haga clic en el icono de información que aparece junto al nombre para ver la información sobre el grupo.</p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/21.1-release-activity/21-1-project-mgt-enhancements.md#search" class="MCXref xref" xrefformat="{para}">Busque un grupo que desee asignar a un proyecto y vea sus detalles</a> </p> <p>Ahora es más fácil asegurarse de identificar el grupo correcto al asignar un grupo a un proyecto. Pase el puntero por encima del nombre de un grupo que encuentre en el cuadro Grupo y, a continuación, haga clic en el icono de información que aparece junto al nombre para ver la información sobre el grupo.</p> </td> 
    <td><strong>Disponible en estas fechas:</strong> <p>Versión de vista previa beta: 17 de diciembre de 2020</p> <p>Versión de producción: con la versión 21.1</p> <p><strong>Disponible en estos entornos:</strong> </p> <p>La nueva experiencia de Adobe Workfront </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -251,7 +270,7 @@ For specific release dates and times for each cluster, see the
  <col> 
  <tbody> 
   <tr> 
-   <td> <p><strong>Característica</strong> </p> </td> 
+   <td> <p><strong>Función</strong> </p> </td> 
    <td> <p><strong>Entornos y fechas de lanzamiento</strong> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -347,7 +366,7 @@ Para obtener más información sobre las versiones de API, consulte [Versiones d
 
 .
 
-## Actualizaciones de mantenimiento de Workfront 
+## Actualizaciones de mantenimiento de Workfront
 
 Para obtener información acerca de las actualizaciones de mantenimiento realizadas durante la versión 21.1, consulte [Actualizaciones de mantenimiento de Workfront](https://experience.workfront.com/s/article/Workfront-Maintenance-Updates-1882317350).
 
@@ -392,7 +411,7 @@ Obtenga más información sobre soluciones de reemplazo para cada herramienta es
 
 ### Seminario web sobre la versión 21.1 {#21-1-release-webinar}
 
-El seminario web sobre la versión 21.1 de Workfront se presentará el 3 de febrero a las 11:00 h EDT/16:00 h BST. Regístrese para el seminario web [aquí](https://event.on24.com/eventRegistration/EventLobbyServlet?target=reg20.jsp&partnerref=ac&eventid=2934272&sessionid=1&key=5C231B3385686D1E224A49EBE0BF0E37&regTag=&V2=false&sourcepage=register).
+El seminario web sobre la versión 21.1 de Workfront se presentará el 3 de febrero a las 11:00 am EDT / 4:00 pm BST. Regístrese al seminario web [aquí](https://event.on24.com/eventRegistration/EventLobbyServlet?target=reg20.jsp&partnerref=ac&eventid=2934272&sessionid=1&key=5C231B3385686D1E224A49EBE0BF0E37&regTag=&V2=false&sourcepage=register).
 
 ### Cambio en la cadencia de la versión de vista previa {#change-in-preview-release-cadence}
 

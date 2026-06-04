@@ -6,10 +6,23 @@ description: La subpestaña Caso comercial incluye los campos financieros del pr
 author: Becky
 feature: Work Management
 exl-id: d420fc3e-e98d-47a0-a456-b2df17d72f34
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+TQID: https://experienceleague.adobe.com/rtNmXiZoe-NqCa8neuASw1BDMl8OBBbsN6Jm0a6Z-90
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '745'
-ht-degree: 82%
+source-wordcount: 746
+ht-degree: 80%
 
 ---
 
@@ -35,7 +48,7 @@ Se muestran los siguientes campos financieros del proyecto en el caso comercial:
   </tr> 
   <tr> 
    <td>Costo presupuestado</td> 
-   <td> <p>El coste total estimado que se asociará al proyecto cuando se inicia.</p> <p>El coste presupuestado del proyecto se calcula mediante la siguiente fórmula:<br></p> <p><code>Budgeted Cost = Budgeted Expense Cost + Budgeted Labor Cost </code> <br> </p> <p>Adobe Workfront utiliza las horas presupuestadas del planificador de recursos para calcular el costo de mano de obra presupuestado.<br>Para obtener más información sobre el cálculo del costo presupuestado, consulte <a href="../../../manage-work/projects/project-finances/budgeted-cost.md" class="MCXref xref">Calcular costo presupuestado</a>. </p> <p>Este campo se muestra en el área Resumen de caso empresarial.</p> </td> 
+   <td> <p>El coste total estimado que se asociará al proyecto cuando se inicia.</p> <p>El coste presupuestado del proyecto se calcula mediante la siguiente fórmula:<br></p> <p><code>Budgeted Cost = Budgeted Expense Cost + Budgeted Labor Cost </code> <br> </p> <p>Adobe Workfront usa las horas presupuestadas del Planificador de recursos para calcular el costo de mano de obra presupuestado.<br>Para obtener más información sobre el cálculo del costo presupuestado, vea <a href="../../../manage-work/projects/project-finances/budgeted-cost.md" class="MCXref xref">Calcular el costo presupuestado</a>. </p> <p>Este campo se muestra en el área Resumen de caso empresarial.</p> </td> 
   </tr> 
   <tr> 
    <td>Costo de gasto presupuestado</td> 
@@ -43,7 +56,7 @@ Se muestran los siguientes campos financieros del proyecto en el caso comercial:
   </tr> 
   <tr> 
    <td>Costo de mano de obra presupuestado</td> 
-   <td> <p>Coste asociado a los recursos asignados para completar el trabajo en el proyecto.</p> <p>El coste de mano de obra presupuestado para el proyecto se calcula mediante la siguiente fórmula:<br></p> <p><code>Budgeted Labor Cost = SUM(Estimated/ Budgeted hours for each job role on the project * Cost per Hour rate of each job role on the project) </code><br></p> <p>Workfront utiliza las horas presupuestadas del planificador de recursos para calcular el costo de mano de obra presupuestado.<br>Para obtener más información sobre el cálculo del coste de mano de obra presupuestado, consulte <a href="../../../manage-work/projects/project-finances/budgeted-labor-cost.md" class="MCXref xref">Comprender el coste de mano de obra presupuestado y las horas presupuestadas para los proyectos</a>.</p> <p>Este campo se muestra en el área de Presupuestación de recursos del caso empresarial. </p> </td> 
+   <td> <p>Coste asociado a los recursos asignados para completar el trabajo en el proyecto.</p> <p>El coste de mano de obra presupuestado para el proyecto se calcula mediante la siguiente fórmula:<br></p> <p><code>Budgeted Labor Cost = SUM(Estimated/ Budgeted hours for each job role on the project * Cost per Hour rate of each job role on the project) </code><br></p> <p>Workfront usa las horas presupuestadas del Planificador de recursos para calcular el costo de mano de obra presupuestado.<br>Para obtener más información sobre el cálculo del costo de mano de obra presupuestado, vea <a href="../../../manage-work/projects/project-finances/budgeted-labor-cost.md" class="MCXref xref">Comprender el costo de mano de obra presupuestado y las horas presupuestadas de los proyectos</a>.</p> <p>Este campo se muestra en el área de Presupuestación de recursos del caso empresarial. </p> </td> 
   </tr> 
   <tr> 
    <td>Coste planificado de gastos</td> 

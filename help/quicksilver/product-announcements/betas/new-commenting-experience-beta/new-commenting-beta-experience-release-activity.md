@@ -8,12 +8,18 @@ feature: Product Announcements
 hide: true
 role: User, Admin
 exl-id: 276b28f0-3955-4a0e-aa31-604b291f2f14
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18ad93c364daa9225c2b2ba715e45e8644936a0d
+TQID: https://experienceleague.adobe.com/vQxq09j6G2hcey1yZqWXV4V2t-2ko76Bu4WnFAAGUQc
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '2031'
-ht-degree: 94%
+source-wordcount: 1988
+ht-degree: 92%
 
 ---
 
@@ -35,8 +41,8 @@ ht-degree: 94%
 >
 >El programa Beta de la nueva experiencia de comentarios comenzó en abril de 2023 y finalizó en octubre, con la versión de ese mes.
 > 
->Todas las funciones incluidas en la nueva experiencia de comentarios están disponibles para todos los clientes en el entorno de producción desde el 11 de abril de 2024.
->Para obtener más información, consulte [Nueva experiencia de comentarios](../../betas/new-commenting-experience-beta/unified-commenting-experience.md).
+>Todas las funciones incluidas en la nueva experiencia de comentarios han estado disponibles para todos los clientes en el entorno de producción desde el 11 de abril de 2024.
+>Para obtener más información, consulte [Nueva experiencia para comentar](../../betas/new-commenting-experience-beta/unified-commenting-experience.md).
 >
 
 ## Ubicación y cronología de lanzamiento de la nueva experiencia de comentarios
@@ -337,4 +343,4 @@ Mostrar nuevos comentarios fuera del área de la pantalla visible en la sección
 ### Semana del 6 de abril de 2023
 
 La nueva experiencia de comentarios beta lanzada para problemas.
-Las mismas funciones que se lanzan para la versión beta de comentarios para los objetos de Workfront se lanzan al mismo tiempo para las metas de todos los usuarios que tienen acceso a Workfront Goals. Para obtener más información, consulte [Información general de la versión 23.2](../../product-releases/23.2-release-activity/23-2-release-overview.md).
+Las mismas funciones que se lanzan para la versión beta de comentarios para los objetos de Workfront se lanzan al mismo tiempo para los objetivos de para todos los usuarios que tienen acceso a los objetivos de Workfront. Para obtener más información, consulte [Descripción general de la versión de 23.2](../../product-releases/23.2-release-activity/23-2-release-overview.md).

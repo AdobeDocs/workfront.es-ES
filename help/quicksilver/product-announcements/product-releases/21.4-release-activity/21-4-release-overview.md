@@ -2,20 +2,34 @@
 content-type: release-notes
 keywords: notas,trimestral,actualizar
 navigation-topic: 2021-4-release-activity
-title: 21.4 Información general de la versión
-description: Esta página ofrece información sobre la funcionalidad tanto para Adobe Workfront Classic como para la nueva experiencia de Adobe Workfront que se incluye en la versión 21.4. para ayudarle a desbloquear la productividad y la colaboración.[Marketing one-liner for the release]
+title: Información general sobre la versión 21.4
+description: Esta página proporciona información sobre la funcionalidad tanto para Adobe Workfront Classic como para la nueva experiencia de Adobe Workfront que se incluye en la versión 21.4. para ayudarle a desbloquear la productividad y la colaboración.[Marketing one-liner for the release]
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 0897b269-c6f3-4b63-8956-b7f9fbe0a553
-source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
+TQID: https://experienceleague.adobe.com/vwgAQJSe18Esj-O1VLnjZf6jCuJSXk4O-WVjCoDRHuI
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2:
+  - id: c33d85a1-be85-4290-854c-87408c10aa80
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '4718'
-ht-degree: 77%
+source-wordcount: 4862
+ht-degree: 76%
 
 ---
 
-# 21.4 Información general de la versión
+# Información general sobre la versión 21.4
 
 Esta página proporciona información sobre la funcionalidad tanto para Adobe Workfront Classic como para la nueva experiencia de Adobe Workfront que se incluye en la versión 21.4.
 
@@ -132,7 +146,7 @@ For specific release dates and times for each cluster, see the [Adobe Workfront 
    <td><strong>Disponible en estas fechas:</strong> <p>Versión de vista previa: 22 de julio de 2021<br></p> <p>Versión de producción: con la versión 21.4</p> <p><strong>Disponible en estos entornos:</strong> </p> <p>La nueva experiencia de Adobe Workfront </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/21.4-release-activity/21-4-admin-enhancements.md#new9" class="MCXref xref" xrefformat="{para}">Nuevo para administradores de grupos: crear y administrar estados para un grupo en cualquier nivel</a> </p> <p>Para facilitar a todos los niveles de una organización la administración y el control de sus flujos de trabajo de forma independiente, hemos introducido la capacidad de crear y administrar estados para subgrupos.  </p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/21.4-release-activity/21-4-admin-enhancements.md#new9" class="MCXref xref" xrefformat="{para}">Nuevo para administradores de grupos: crear y administrar estados para un grupo en cualquier nivel</a> </p> <p>Para facilitar a todos los niveles de una organización la administración y el control de sus flujos de trabajo de forma independiente, hemos introducido la capacidad de crear y administrar estados para subgrupos. </p> </td> 
    <td><strong>Disponible en estas fechas:</strong> <p>Versión de vista previa: 3 de junio de 2021 (durante el ciclo de versión 21.3)<br></p> <p>Versión de producción: viernes, 22 de julio de 2021</p> <p><strong>Disponible en estos entornos:</strong> </p> <p>La nueva experiencia de Adobe Workfront </p> <p>Adobe Workfront Classic </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -347,7 +361,7 @@ For specific release dates and times for each cluster, see the [Adobe Workfront 
    <td> <p><b>Disponible en estas fechas:</b> </p> <p>Versión de vista previa: N/D<br></p> <p>Versión de producción: con la versión 21.4</p> <p><strong>Disponible en estos entornos:</strong> </p> <p>La nueva experiencia de Adobe Workfront </p> <p>Adobe Workfront Classic </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/21.4-release-activity/21-4-integration-enhancements.md#updates" class="MCXref xref" xrefformat="{para}">Actualizaciones en Workfront para Slack</a> </p> <p>Las siguientes actualizaciones ya están visibles en la integración de Workfront para Slack:</p> <p>La integración de Workfront para Slack ahora tiene una nueva apariencia. Además, ahora recibe las notificaciones de Workfront para Slack en tiempo real. </p> <p>Por ejemplo, si se le asigna una tarea, recibirá esa notificación en cuanto se le asigne. </p> <p>Anteriormente, podía haber un retraso antes de que la notificación apareciera en Slack.</p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/21.4-release-activity/21-4-integration-enhancements.md#updates" class="MCXref xref" xrefformat="{para}">Actualizaciones en Workfront para Slack</a> </p> <p>Las siguientes actualizaciones ya están visibles en la integración de Workfront para Slack:</p> <p>La integración de Workfront para Slack ahora tiene una nueva apariencia. Además, ahora recibe las notificaciones de Workfront para Slack en tiempo real. </p> <p>Por ejemplo, si se le asignase una tarea, recibirá esa notificación en cuanto se le asigne. </p> <p>Anteriormente, podía haber un retraso antes de que la notificación apareciera en Slack.</p> </td> 
    <td><strong>Disponible en estas fechas:</strong> <p>Versión de vista previa: 29 de julio de 2021<br></p> <p>Versión de producción: viernes, 29 de julio de 2021</p> <p><strong>Disponible en estos entornos:</strong> </p> <p>La nueva experiencia de Adobe Workfront </p> <p>Adobe Workfront Classic </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -368,7 +382,7 @@ For specific release dates and times for each cluster, see the [Adobe Workfront 
  <col> 
  <tbody> 
   <tr> 
-   <td> <p><strong>Característica</strong> </p> </td> 
+   <td> <p><strong>Función</strong> </p> </td> 
    <td> <p><strong>Entornos y fechas de lanzamiento</strong> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 

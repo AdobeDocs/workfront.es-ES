@@ -6,20 +6,29 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4be185e7-12b1-49af-973e-c6eb3e134d38
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+TQID: https://experienceleague.adobe.com/IHZ39Hb4PRkmFaEKXV6eN6pS6h4KTUW3kULolvfu3CU
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '176'
-ht-degree: 0%
+source-wordcount: 180
+ht-degree: 40%
 
 ---
 
-# 22.3 Mejoras en la gestión de recursos
+# 22.3 Mejoras en la administración de recursos
 
-Esta página describe todas las mejoras de Administración de recursos realizadas con la versión 22.3 en el entorno de vista previa. Estas mejoras estuvieron disponibles en el entorno de producción la semana del 11 de julio de 2022. Para obtener una lista de todos los cambios disponibles con la versión 22.3, consulte [Información general sobre la versión 22.3](../../../product-announcements/product-releases/22.3-release-activity/22-3-release-overview.md).
+Esta página describe todas las mejoras de Administración de recursos realizadas con la versión 22.3 en el entorno de vista previa. Estas mejoras se incorporaron en el entorno de producción la semana del 11 de julio de 2022. Para obtener una lista de todos los cambios disponibles con la versión 22.3, consulte [Información general sobre la versión 22.3](../../../product-announcements/product-releases/22.3-release-activity/22-3-release-overview.md).
 
 ## Preferencias de ordenación y mejoras de uso en el Distribuidor de cargas de trabajo
 
-Para mejorar su experiencia al utilizar el Distribuidor de cargas de trabajo, hemos introducido las siguientes mejoras:
+Para mejorar la experiencia al utilizar el Distribuidor de cargas de trabajo, se introdujeron las siguientes mejoras:
 
 * Se ha mejorado la ordenación en las secciones Sin asignar y Asignado.
 
@@ -32,5 +41,5 @@ Para mejorar su experiencia al utilizar el Distribuidor de cargas de trabajo, he
 * Un diseño actualizado y fácil de leer para las fechas proyectadas.
 
 
-Para obtener más información, consulte [Desplazarse por el Distribuidor de cargas de trabajo](/help/quicksilver/resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
+Para obtener más información, consulte [Navegar por el Distribuidor de cargas de trabajo](/help/quicksilver/resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
 

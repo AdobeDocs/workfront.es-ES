@@ -7,10 +7,19 @@ description: El índice de rendimiento de programación de costes (CSI) es un c�
 author: Lisa
 feature: Work Management
 exl-id: 38a8c5e0-b812-499d-8fe7-a71ddccb3aad
-source-git-commit: abf5f21281b05dedfecbe71c6ffbf54ee69e2460
+TQID: https://experienceleague.adobe.com/USODdaQOyE-D76BVmLLVUS1WxUMrK6Q05xZU1Xg9Gjc
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+subfeature_v2:
+  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '331'
-ht-degree: 65%
+source-wordcount: 332
+ht-degree: 71%
 
 ---
 
@@ -24,7 +33,7 @@ ht-degree: 65%
 
 ## Información general sobre el índice de rendimiento de programación de costes (CSI)
 
-El índice de rendimiento de programación de costes (CSI) es un cálculo automático que combina el índice de rendimiento de costes (CPI) y el índice de rendimiento de programación (SPI) en una métrica general que equilibra el coste y la programación. Al multiplicar estos valores juntos, una sola métrica puede explicar una programación prolongada con un presupuesto más bajo o viceversa. Los jefes de proyecto pueden utilizarlo para determinar el estado general de las tareas o los proyectos cuando el coste se sacrifica para dirigir la programación a mitad del proyecto.
+El índice de rendimiento de programación de costes (CSI) es un cálculo automático que combina el índice de rendimiento de costes (CPI) y el índice de rendimiento de programación (SPI) en una métrica general que equilibra el coste y la programación. Al multiplicar estos valores juntos, una sola métrica puede explicar una programación prolongada con un presupuesto más bajo o viceversa. Los gestores de proyectos pueden utilizarlo para determinar el estado general de los proyectos o las tareas cuando se sacrifica el coste para impulsar la programación a mitad del proyecto.
 
 >[!TIP]
 >

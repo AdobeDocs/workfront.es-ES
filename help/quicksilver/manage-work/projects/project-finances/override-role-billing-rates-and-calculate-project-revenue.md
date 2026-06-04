@@ -2,13 +2,25 @@
 product-area: projects
 navigation-topic: financials
 title: Visión General de Sustitución de Tarifas de Facturación y Cálculo de Ingresos en un Proyecto
-description: Puede usar tarifas de facturación para calcular los ingresos de sus proyectos cuando los multiplique por las horas invertidas en el proyecto.
+description: Puede utilizar tarifas de facturación para calcular los ingresos de sus proyectos cuando los multiplique por las horas invertidas en el proyecto.
 author: Lisa
 feature: Work Management
 exl-id: 63ba6758-ba62-48b4-89f4-d784e32a1bfa
-source-git-commit: 39630b50384d710dadb1f48342113b74338a9104
+TQID: https://experienceleague.adobe.com/R4sO92imTe1YBO0YGJIsuD5OOlhfbhlN-0qvyYU48t0
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '4653'
+source-wordcount: 4595
 ht-degree: 76%
 
 ---
@@ -144,7 +156,7 @@ Si tiene varias tarifas de facturación de anulación para un rol específico, s
 >[!NOTE]
 >
 >Cuando **Fecha de inicio** o **Fecha de finalización** están en blanco para una tarifa con fecha en vigor, Workfront supone que la primera tarifa de invalidación se aplica a todas las horas con una fecha anterior a la **Fecha de finalización** de la primera invalidación, y la última tarifa de invalidación se aplica a todas las horas con una fecha posterior a la **Fecha de inicio** de la última invalidación.
->Si se registra una hora antes de la Fecha de inicio planificada del proyecto, se usa la primera tarifa de facturación.\
+>Si se registra una hora antes de la fecha planificada de inicio del proyecto, se usa la primera tarifa de facturación.\
 >Si se registra una hora después de la Fecha planificada de finalización del proyecto, se usa la última tarifa de facturación.
 
 ## Visión general de la sección Tasas de facturación de un proyecto: todos los demás paquetes de Workfront y Flujo de trabajo
@@ -161,7 +173,7 @@ Tenga en cuenta la siguiente información de la lista de **Tarifas de facturaci�
 
 ### Agrupación de funciones {#job-role-grouping}
 
-Las tarifas de facturación se agrupan en el área **Tarifas de facturación** según sus respectivos roles de trabajo.
+Las tarifas de facturación se agrupan en el área **Tarifas de facturación** según sus respectivas funciones.
 
 ### Valor de tarifa de facturación del proyecto {#project-billing-rate-value}
 
@@ -185,7 +197,7 @@ En la línea de agrupación de una función, tenga en cuenta la tarifa de factur
 
 ### Varios valores de tarifa de facturación y periodos de tiempo {#multiple-billing-rate-values-and-timeframes}
 
-Si tiene varias anulaciones de tarifas de facturación para una función específica, se enumeran en la agrupación de esa función. Con la edición en línea, puede cambiar las tarifas de anulación y las **fechas de inicio**, **fecha** y **fecha de finalización** de las tarifas de facturación de anulación en esta pestaña. O bien, seleccione una tarifa y haga clic en el icono **Editar** para establecer tasas de anulación con efecto de fecha.
+Si tiene varias anulaciones de tarifas de facturación para una función específica, se enumeran en la agrupación de esa función. Con la edición en línea, puede cambiar la anulación de tarifas y la **Fecha** **de inicio** y la **Fecha de finalización** de la anulación de las tarifas de facturación en esta pestaña. O bien, seleccione una tarifa y haga clic en el icono **Editar** para establecer tasas de anulación con efecto de fecha.
 
 >[!NOTE]
 >
@@ -365,8 +377,8 @@ Para obtener más información sobre cómo volver a calcular las las finanzas de
 
 ## Añadir una nueva tarifa de facturación usando la API
 
-Para añadir una nueva tarifa de facturación para una función mediante la API, debe realizar una acción *setRatesForRole* para el objeto **Rate** mediante el *método PUT*.
+Para agregar una nueva tarifa de facturación para un rol mediante la API, debe realizar una acción *setRatesForRole* para el objeto **Rate** mediante el método *PUT*.
 La acción y los campos de fecha del objeto **Rate** están disponibles en la versión 8.0 de la API.
-Si ya tiene varias tarifas de facturación definidas para una función en un proyecto y desea añadirle una nueva tarifa de factura con un nuevo intervalo de fechas, debe incluir tanto la tarifa existente como la tarifa que se añadirá en la misma llamada de API. Es similar a cómo se actualizan las colecciones en los objetos.
+Si ya tiene varias tarifas de facturación definidas para un rol en un proyecto y desea agregar una nueva tarifa de facturación para él con un nuevo intervalo de fechas, debe incluir tanto la tarifa existente como la tarifa que se agregará en la misma llamada de API. Esto es similar a cómo se actualizan las colecciones en los objetos.
 
 La siguiente llamada de API es un ejemplo en el que **attachableID** es el **ID de proyecto** del proyecto donde está añadiendo la tarifa y **RoleID** es el **ID de función** para el cual está añadiendo la nueva tarifa de facturación.<pre>{</pre><pre>&quot;attachableID&quot;:&quot;593f01500000557d75fdd4fdfcc624f2&quot;,</pre><pre>&quot;attachableObjCode&quot;:&quot;PROJ&quot;,</pre><pre>&quot;roleID&quot;:&quot;544820df000014148cda5136d4b79d09&quot;, </pre><pre>&quot;rates&quot;:[</pre><pre>         {&quot;rateValue&quot;:&quot;0.00&quot;,&quot;startDate&quot;:null,&quot;endDate&quot;:&quot;2017-06-11&quot;},</pre><pre>         {&quot;rateValue&quot;:&quot;45.00&quot;,&quot;startDate&quot;:&quot;2017-06-12&quot;,&quot;endDate&quot;:&quot;2017-06-17&quot;},</pre><pre>         {&quot;rateValue&quot;:&quot;95.00&quot;,&quot;startDate&quot;:&quot;2017-06-21&quot;,&quot;endDate&quot;:null}</pre><pre>]</pre><pre>}</pre>Para obtener más información sobre el uso de la API de Workfront, consulte el artículo [Conceptos básicos de la API](https://experience.workfront.com/s/article/API-Basics-638808549).

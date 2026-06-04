@@ -1,18 +1,33 @@
 ---
 navigation-topic: business-case-and-scorecards
-title: Presupuestar recursos en el caso comercial utilizando el Planificador de recursos
+title: Recursos de presupuesto en el caso empresarial usando el Planificador de recursos
 description: Como parte de la planificación de recursos, puede utilizar el Planificador de recursos en el nivel de proyecto para presupuestar los roles de trabajo necesarios para completar el trabajo en un proyecto al crear el caso empresarial.
 author: Becky
 feature: Work Management
 exl-id: 51ebb940-111c-442f-a8a6-287a04d2db68
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+TQID: https://experienceleague.adobe.com/qCdK5wvSZkx4ROkfy21JK7P5v7YY1hKkJwwIUDKXvNI
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2:
+  - id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
+  - id: d3382524-5489-431b-bde9-271ab257bc37
+  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1206'
-ht-degree: 15%
+source-wordcount: 1212
+ht-degree: 16%
 
 ---
 
-# Presupuestar recursos en el caso comercial utilizando el Planificador de recursos
+# Recursos de presupuesto en el caso empresarial usando el Planificador de recursos
 
 <!--Audited: 06/2025-->
 

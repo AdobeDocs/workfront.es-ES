@@ -8,15 +8,32 @@ feature: Work Management, Requests
 topic: Collaboration
 role: User, Admin
 exl-id: 385420aa-0962-4b67-9d0d-b153dcf302cf
-last-update: 2026-04-01T18:23:03Z
+last-update: 2026-04-01T18:23:03.000Z
 git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
-source-git-commit: 14b3bfaf16a4ab8749538b32100ce6363a3a9335
+TQID: https://experienceleague.adobe.com/GtWgf0gZVuIE2xM6lkZlOyzmV9D7xg0myc2otxYFakU
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+  - id: c10f2e93-7a58-4212-aa24-684c265ebe76
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
 workflow-type: tm+mt
-source-wordcount: '2867'
-ht-degree: 63%
+source-wordcount: 2632
+ht-degree: 66%
 
 ---
-
 
 # Creación de colas de solicitudes
 
@@ -456,11 +473,11 @@ Para crear una cola de solicitudes, haga lo siguiente:
       * Semanas
 
    La duración predeterminada es el tiempo que se tarda normalmente en completar un problema enviado a esta cola de solicitudes. Esto se convierte en el valor predeterminado para todos los problemas entrantes y se puede modificar manualmente.
-La duración predeterminada de un problema es la misma que las horas planificadas para dicho problema. La fecha planificada de finalización del problema se calcula según este campo.\
+La duración predeterminada de un problema es la misma que las horas planificadas para el mismo. La fecha planificada de finalización del problema se calcula según este campo.\
    Si se deja sin cambios, el valor predeterminado de la duración del problema es de 1 día u 8 horas.
 Si el administrador de Workfront establece las horas típicas por día laborable en menos de 8 horas en el área de configuración, la duración predeterminada de los problemas sigue siendo de 8 horas.
 Por ejemplo, si el valor de Horas típicas por día laborable se establece en 7 horas en el área de Configuración de Workfront, la duración predeterminada de los problemas es de 1,14 días u 8 horas.
-Para obtener más información acerca de cómo configurar el sistema Horas habituales por día laborable, consulte la sección “Cálculos de cronología” del artículo [Configurar las preferencias de proyecto de todo el sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+Para obtener más información acerca de cómo configurar el sistema Horas típicas por día laborable, vea la sección &quot;Cálculos de escala de tiempo&quot; en el artículo [Configurar las preferencias de proyecto en todo el sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
    * **Las personas de la misma compañía heredarán los mismos permisos para todas las solicitudes.**: cuando se seleccionan, todas las solicitudes enviadas a la cola son visibles para los usuarios de la misma compañía. Los usuarios pueden ver estas solicitudes en la sección Todas las solicitudes, ubicada dentro del área Solicitudes. En el momento en que esta opción se habilita o deshabilita, afecta a todas las solicitudes futuras; no afecta de forma retroactiva a la información.
    * **Cuando alguien realiza una solicitud, conceder automáticamente...:** Cuando un usuario realiza una solicitud a la cola de solicitudes, se concede automáticamente al usuario el nivel de permiso que usted elija para esa solicitud. Haga clic en el botón Acceso para seleccionar entre los siguientes niveles de permisos:
@@ -527,9 +544,9 @@ Para obtener más información acerca de cómo configurar el sistema Horas habit
 
    * **Forms personalizado**: seleccione un formulario personalizado para asociarlo a la cola de solicitudes en el menú desplegable. Puede seleccionar varios formularios y, a continuación, arrastrarlos y soltarlos en el orden en que desee que se muestren en el formulario de solicitud.
 En este menú desplegable solo se pueden seleccionar formularios personalizados de problemas. Todos los problemas enviados a esta cola de solicitudes, agregados al proyecto o a sus tareas, tendrán los formularios seleccionados asociados a ellos.
-Debe crear formularios personalizados de problemas para poderlos ver en la sección Detalles de la cola.
+Debe crear formularios personalizados de problema antes de poder verlos mostrados en la sección Detalles de la cola.
 Si tiene varios temas de la cola asociados a una cola de solicitudes, le recomendamos que asocie formularios personalizados a los temas de la cola.
-Para obtener más información, consulte [Crear temas de la cola](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
+Para obtener más información, consulte [Crear temas de colas](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
 
      ![Cuadro de formularios personalizados en los detalles de la cola](assets/custom-forms-box-on-queue-details.png)
 

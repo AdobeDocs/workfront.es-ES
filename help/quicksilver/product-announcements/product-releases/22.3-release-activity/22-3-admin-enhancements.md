@@ -2,14 +2,27 @@
 title: 22.3 Mejoras del administrador
 description: 22.3 Mejoras del administrador
 author: Luke
-draft: false
+draft: No
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4607703a-d70e-432c-9fa2-bd43af5a870e
-source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
+TQID: https://experienceleague.adobe.com/WCt-16lnZP57hwfKa2ejmA8-QyjQoFOEldI4TtjIdJk
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '770'
-ht-degree: 95%
+source-wordcount: 781
+ht-degree: 96%
 
 ---
 
@@ -37,7 +50,7 @@ Para obtener más información, consulte [Configuración de valores predetermina
 
 **Nota:** Se ha eliminado de la versión de producción 22.3. Está previsto que esta función se publique en Producción el 15 de septiembre de 2022.
 
-Para darle más control sobre los procesos y estados de aprobación de su sistema, hemos creado un proceso de aprobación basado en un estado del sistema desbloqueado. Además, ahora puede desbloquear cualquier estado que ya se haya utilizado en un proceso de aprobación. 
+Para darle más control sobre los procesos y estados de aprobación de su sistema, hemos creado un proceso de aprobación basado en un estado del sistema desbloqueado. Además, ahora puede desbloquear cualquier estado que ya se haya utilizado en un proceso de aprobación.
 
 Anteriormente, un estado del sistema utilizado en un proceso de aprobación tenía que estar bloqueado. De este modo, estaba disponible para todos los grupos, sin la posibilidad de eliminarlo o cambiarle el nombre, por lo que los administradores de grupos no podían optimizar la lista de estados de su grupo para adaptarla a sus necesidades específicas.
 

@@ -7,9 +7,21 @@ description: Este artículo proporciona un ejemplo de cálculo de la estimación
 author: Lisa
 feature: Work Management
 exl-id: 68b582c9-f72a-4000-9d28-f7dafa23541f
-source-git-commit: 53596271a838733b858c0b14a4e22b07a7cd20f6
+TQID: https://experienceleague.adobe.com/O-A-9mMVMuqsnHXpph-J5Qwh6Qj5r46zxj7VG85rX04
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+subfeature_v2:
+  - id: b91c0848-76c4-4da4-8b81-3aade0518dd0
+  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1122'
+source-wordcount: 1155
 ht-degree: 88%
 
 ---
@@ -287,7 +299,7 @@ Método EAC: resumen a partir de tareas/subtareas
       <th> <br> <p><strong>Coste plan man obr</strong> </p> </th> 
       <th> <br> <p><strong>Hs reales</strong> </p> </th> 
       <th> <br> <p><strong>Coste plan man obr real</strong> </p> </th> 
-      <th> <p><strong>% finalizado</strong> </p> </th> 
+      <th> <p><strong>% completado</strong> </p> </th> 
    </tr> 
    </thead> 
    <tbody> 
@@ -433,7 +445,7 @@ Método EAC: resumen a partir de tareas/subtareas
 
 1. En Acciones de proyecto, ejecute Recalcular finanzas
 1. **IRC**&#x200B;**&#x200B; de la tarea 1** = 0,14 calculado de la siguiente manera:\
-   **CPI**&#x200B;**para la tarea 1** = *IF* Costo de mano de obra real + IncurredActualExpenseCost &lt;> 0 *THEN*
+   **CPI**&#x200B;**&#x200B; para la tarea 1 &#x200B;** = *IF* Costo de mano de obra real + IncurredActualExpenseCost &lt;> 0 *THEN*
 
    ```
    CPI = (TotalBudgetedCostWorkPerformed + IncurredPlannedExpenseCost) / (ActualLaborCost + IncurredActualExpenseCost)
@@ -455,7 +467,7 @@ Método EAC: resumen a partir de tareas/subtareas
    **Mano de obra de IRC***de la tarea 1** = 100/2500\
    **Mano de obra de IRC***de la tarea 1** = 0,04
 
-   **Mano de obra de EAC**&#x200B;**de la tarea 1** = *IF* CPI_Labor &lt;> 0 *THEN*
+   **Mano de obra de EAC**&#x200B;**&#x200B; de la tarea 1 &#x200B;** = *IF* CPI_Labor &lt;> 0 *THEN*
 
    ```
    EAC Labor = Planned Labor Cost / CPI_Labor
@@ -478,7 +490,7 @@ Método EAC: resumen a partir de tareas/subtareas
    Tarea 3 = 0,44 / 6 950,00 $**&#x200B;**
 
 1. IRC del proyecto = 0,32\
-   **CPI**&#x200B;**para el proyecto** = *IF* Costo de mano de obra real + IncurredActualExpenseCost &lt;> 0 *THEN*
+   **CPI**&#x200B;**&#x200B; para el proyecto &#x200B;** = *IF* Costo de mano de obra real + IncurredActualExpenseCost &lt;> 0 *THEN*
 
    ```
    CPI = (TotalBudgetedCostWorkPerformed + IncurredPlannedExpenseCost)/(ActualLaborCost + IncurredActualExpenseCost)

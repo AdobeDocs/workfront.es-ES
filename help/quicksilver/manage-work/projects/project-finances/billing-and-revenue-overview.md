@@ -7,11 +7,25 @@ description: Como administrador del proyecto, puede utilizar las tarifas de fact
 author: Lisa
 feature: Work Management
 exl-id: 400abcde-e368-4a70-89a9-05027900ab81
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 39630b50384d710dadb1f48342113b74338a9104
+TQID: https://experienceleague.adobe.com/yyAlbvsYdc94k3yDGUB5fi6-ZMM9zfG04dlRzHhuBsk
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '4540'
+source-wordcount: 4494
 ht-degree: 73%
 
 ---
@@ -261,7 +275,7 @@ Si cambia una tarea independiente con información de facturación en ella a una
 
 Los ingresos planificados de las tareas secundarias también se resumen en la tarea principal.
 
-## Información general sobre los ingresos de problemas 
+## Información general sobre los ingresos de problemas
 
 Los problemas no tienen importes de ingresos planificados o reales, pero pueden tener un coste real.
 
@@ -318,7 +332,7 @@ Se dan los siguientes escenarios al calcular los ingresos de la tarea según el 
     <tr> 
      <td role="rowheader">Tarifa de facturación por hora para ingresos reales</td> 
      <td>Si el usuario que registra las horas tiene una tasa de facturación en su perfil, se utiliza esa tasa.
-     <br>De lo contrario, se utiliza la tarifa de facturación de su función principal. Si no hay ninguna tarifa de facturación asociada con el usuario o su función principal, los ingresos reales son de 0,00 USD. <br><p><b>NOTA</b>
+     <br>De lo contrario, se usa la tarifa de facturación de su rol principal. Si no hay ninguna tasa de facturación asociada con el usuario o su función principal, los ingresos reales son de 0,00 $. <br><p><b>NOTA</b>
 
   Solo se tienen en cuenta para el cálculo las tarifas asociadas con el registro de tiempo del usuario, incluso cuando se asigna otro usuario a la tarea.</p></td>
 

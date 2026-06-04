@@ -7,10 +7,31 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9d25fda7-8116-42ba-961b-12aed4678614
-source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
+TQID: https://experienceleague.adobe.com/VfnZ55ge62fYOUITajcdR8S4pqHyPzri5QoUDEZUv2s
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+  - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+  - id: c33d85a1-be85-4290-854c-87408c10aa80
+  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+  - id: d3382524-5489-431b-bde9-271ab257bc37
+  - id: d83a421c-ecb9-4757-b609-c531392f90eb
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+  - id: fceb5125-bb41-419a-b0db-31958cb42f6c
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c18d9e03-ac7d-4811-9c92-3e92ddc70ade
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '3829'
-ht-degree: 98%
+source-wordcount: 3985
+ht-degree: 97%
 
 ---
 
@@ -46,7 +67,7 @@ For specific release dates and times for each cluster, see the
    <td> <p><strong>Entornos y fechas de lanzamiento</strong> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/20.3-release-activity/20-3-mobile-enhancements.md#workfron" class="MCXref xref">¡Workfront Fusion 2.0 ya está aquí!</a> </p> <p>Workfront ha adquirido recientemente tecnología para una generación completamente nueva de Workfront Fusion, la potente plataforma de integración que permite que el trabajo fluya libremente a través de prácticamente cualquier aplicación basada en web.</p> <p>Los clientes anteriores de Workfront Fusion pueden esperar una mayor potencia, velocidad, facilidad de uso y previsibilidad en Workfront Fusion 2.0. Estamos en proceso de migrar los clientes actuales de Workfront Fusion a Workfront Fusion 2.0. Póngase en contacto con su administrador de cuentas para obtener más detalles.</p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/20.3-release-activity/20-3-mobile-enhancements.md#workfron" class="MCXref xref">¡Workfront Fusion 2.0 ya está aquí!</a> </p> <p>Workfront ha adquirido recientemente tecnología para una generación completamente nueva de Workfront Fusion, la potente plataforma de integración que permite que el trabajo fluya libremente a través de prácticamente cualquier aplicación basada en web.</p> <p>Los clientes anteriores de Workfront Fusion pueden esperar una mayor potencia, velocidad, facilidad de uso y previsibilidad en Workfront Fusion 2.0. Estamos migrando a los clientes actuales de Workfront Fusion a Workfront Fusion 2.0. Póngase en contacto con su administrador de cuentas para obtener más información.</p> </td> 
    <td> <p><strong>Disponible en estas fechas:</strong> </p> <p>Versión preliminar beta: N/D</p> <p>Versión de producción: 1 de julio de 2020</p> <p><strong>Disponible en estos entornos:</strong> </p> <p>La nueva experiencia de Adobe Workfront </p> <p>Adobe Workfront Classic </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -164,7 +185,7 @@ La versión 2020.3 contiene las siguientes mejoras para todos los usuarios:
 >&gt;  </tr> 
 >&gt;  <tr> 
 >&gt;   <td role="rowheader">Producto</td> 
->&gt;   <td>Planificador de escenarios de Workfront <p>Para obtener información sobre el planificador de escenarios de Workfront, consulte <a href="../../../scenario-planner/scenario-planner-overview.md" class="MCXref xref">Información general sobre el planificador de escenarios</a>.</p> </td> 
+>&gt;   <td>Planificador de escenarios de Workfront <p>Para obtener información sobre el Planificador de escenarios de Workfront, consulte <a href="../../../scenario-planner/scenario-planner-overview.md" class="MCXref xref">Información general sobre el Planificador de escenarios</a>.</p> </td> 
 >&gt;  </tr> 
 >&gt;  <tr data-mc-conditions=""> 
 >&gt;   <td role="rowheader"><strong>Nivel de acceso*</strong> </td> 
@@ -311,7 +332,7 @@ La versión 2020.3 contiene las siguientes mejoras para todos los usuarios:
  <tbody> 
   <tr> 
    <td> <p><strong>Característica</strong> </p> </td> 
-   <td> <p><strong>Entornos y fechas de versión</strong> </p> </td> 
+   <td> <p><strong>Entornos y fechas de lanzamiento</strong> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><a href="../../../product-announcements/product-releases/20.3-release-activity/20-3-proof-enhancements.md#improved" class="MCXref xref">Se ha mejorado la visibilidad entre la pestaña Actualizaciones y los comentarios de prueba</a> </p> <p>Hay varias mejoras disponibles en el área de documentos, una de las cuales es que cuando se muestra un comentario de revisión en la pestaña Actualizar aparece un nuevo botón Responder en revisión que permite entrar en el visor de corrección para responder. </p> <p>Además, cuando se etiqueta un comentario de revisión con una acción dentro del visor de corrección, la acción se muestra en la pestaña Actualizar. </p> </td> 
@@ -420,7 +441,7 @@ Para obtener más información sobre las versiones de API, consulte [Versiones d
 
 .
 
-## Actualizaciones de mantenimiento de Workfront 
+## Actualizaciones de mantenimiento de Workfront
 
 Para obtener más información acerca de las actualizaciones de mantenimiento realizadas durante la versión 20.3, consulte [Actualizaciones de mantenimiento de Workfront](https://experience.workfront.com/s/article/Workfront-Maintenance-Updates-1882317350).
 

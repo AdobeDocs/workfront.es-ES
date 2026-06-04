@@ -6,10 +6,24 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 04b09d8f-71bf-4c5b-b2f3-09c714740969
-source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
+TQID: https://experienceleague.adobe.com/4KaZmtnTFIfSPZ6QmETm-Q0L7Ih0zHYxoP6BfQGm2kg
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2:
+  - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+  - id: c33d85a1-be85-4290-854c-87408c10aa80
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '3232'
-ht-degree: 99%
+source-wordcount: 3298
+ht-degree: 97%
 
 ---
 
@@ -41,7 +55,7 @@ Estas mejoras estaban disponibles en el entorno de producción con la versión 2
 </tr>
                 <tr>
                     <td>
-                        <p><span class="bold">Función</span>
+                        <p><span class="bold">Característica</span>
                         </p>
                     </td>
                     <td>
@@ -298,9 +312,9 @@ Nota: Actualmente, esta funcionalidad no está disponible en el equilibrador de 
 
 </p>
 <ol>
-<li>Añada un archivo Adobe XD para que un formulario personalizado sea más visual e informativo. Cuando el formulario se adjunta a un objeto, los usuarios que trabajan con el objeto pueden ver el archivo XD e interactuar con él desde el formulario.
+<li>Agregue un archivo Adobe XD para que un formulario personalizado sea más visual e informativo. Cuando el formulario está adjunto a un objeto, los usuarios que trabajen con el objeto pueden ver e interactuar con el archivo XD desde el formulario.
 </li>
-<li>Utilice el Filtro rápido para localizar fácilmente elementos en la lista de campos y formularios personalizados modernizados. Disfrute también de un aspecto mejorado al administrar sus formularios y campos.
+<li>Utilice el Filtro rápido para localizar fácilmente elementos en la lista de campos y formularios personalizados modernizados. Además, disfrute de una apariencia mejorada al administrar los formularios y campos.
 </li>
 </ol>
                     </td>
@@ -328,7 +342,7 @@ Nota: Actualmente, esta funcionalidad no está disponible en el equilibrador de 
             <tbody>
                 <tr>
                     <td>
-                        <p><span class="bold">Función</span>
+                        <p><span class="bold">Característica</span>
                         </p>
                     </td>
                     <td>
@@ -418,7 +432,7 @@ Nota: Actualmente, esta funcionalidad no está disponible en el equilibrador de 
                     <td>
                         <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Añadir un equipo a un tablero o una tarjeta</a> </p>
                         <p>Ahora puede añadir un equipo como miembro del tablero. Los integrantes individuales del equipo ya no se añaden cuando se añade un equipo al tablero, aunque todos los integrantes del equipo tengan acceso al tablero.</p>
-                        <p>Después de añadir el equipo al tablero, puede asignarlo a las tarjetas. En las tarjetas conectadas, solo se permite la asignación de un equipo. En las tarjetas Ad Hoc, puede asignar más de un equipo.
+                        <p>Después de agregar el equipo al tablero, puede asignarlo a las tarjetas. En las tarjetas conectadas, solo se permite una asignación de equipo. En las tarjetas Ad Hoc, puede asignar más de un equipo.
                         </p>
                     </td>
                     <td><p><b>Disponible en estas fechas:</b></p>
@@ -659,7 +673,7 @@ Nota: Actualmente, esta funcionalidad no está disponible en el equilibrador de 
                         <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Campañas de Workfront (Beta)</a> </p>
                         <p>Presentamos un nuevo objeto en Adobe Workfront que tiene el potencial de cambiar la forma en que administra el trabajo. </p>
                         <p>Workfront Campaigns permite organizar proyectos de diferentes portafolios y programas en un nuevo contenedor de trabajo.
-Las campañas se lanzaron a la versión beta en vista previa con la versión 22.3 en julio de 2022.</p>
+Las campañas se lanzaron a la versión preliminar beta con la versión 22.3 en julio de 2022.</p>
 <p>Este nuevo contenedor evolucionará en futuras versiones para conectar objetos de trabajo que actualmente se administran en silos independientes.</p>
                     </td>
                     <td><p><b>Disponible en estas fechas:</b></p>
@@ -731,7 +745,7 @@ Para obtener información sobre novedades y actualizaciones, consulte [Novedades
 
 Para obtener información sobre las versiones de API, consulte [Versiones de API y programación de soporte](/help/quicksilver/wf-api/api/api-version-support-schedule.md).
 
-### Actualizaciones de mantenimiento de Workfront 
+### Actualizaciones de mantenimiento de Workfront
 
 Para obtener información acerca de las actualizaciones de mantenimiento realizadas durante la versión 22.3, consulte [Actualizaciones de mantenimiento de Workfront](https://experienceleague.adobe.com/es/docs/workfront-known-issues/releases/current-updates).
 

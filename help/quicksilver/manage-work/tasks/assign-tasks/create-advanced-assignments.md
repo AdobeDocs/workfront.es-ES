@@ -7,12 +7,27 @@ author: Lisa
 feature: Work Management, Resource Management
 role: User
 exl-id: 09780f78-4eb8-404d-859b-d066d462776d
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: daaa13d5a3ebbd249f0093181ee7834f9db43fdb
+TQID: https://experienceleague.adobe.com/zWSZMjnN-WSef9q6W6s9mIcO2DakU0f886IcxD15tzg
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2:
+  - id: b91c0848-76c4-4da4-8b81-3aade0518dd0
+  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '3457'
-ht-degree: 30%
+source-wordcount: 3340
+ht-degree: 31%
 
 ---
 
@@ -99,14 +114,14 @@ Este diseño de Asignaciones avanzadas se aplica solo a tareas. Para problemas, 
 >[!NOTE]
 >
 >La experiencia antigua de Asignaciones avanzadas es la predeterminada. Debe activar manualmente la nueva experiencia con el botón en la parte superior derecha de la ventana Asignaciones avanzadas.
->Para obtener información sobre la experiencia anterior, consulte [Crear asignaciones avanzadas - todos los demás paquetes](#create-advanced-assignments--all-other-packages), más adelante.
+>Para obtener información sobre la experiencia antigua, consulte [Crear asignaciones avanzadas - todos los demás paquetes](#create-advanced-assignments--all-other-packages), más adelante.
 
 1. Vaya al proyecto donde desea asignar una tarea.
 1. Haga clic en **Tareas** o **Problemas** en el panel izquierdo y, a continuación, haga clic en el nombre de una tarea de la lista.
 
    >[!TIP]
    >
-   >Puede realizar asignaciones avanzadas directamente en la lista de tareas. Haga clic dentro del campo **Asignaciones** en la misma línea que la tarea y, a continuación, haga clic en **Avanzadas** en la parte inferior de la lista o en el **icono Personas** en la esquina superior derecha del cuadro de asignaciones para abrir la ventana Asignaciones avanzadas. Vaya al paso 5 para continuar creando asignaciones avanzadas.
+   >Puede realizar asignaciones avanzadas directamente en la lista de tareas. Haga clic dentro del campo **Asignaciones** en la misma línea que la tarea y, a continuación, haga clic en **Avanzadas** en la parte inferior de la lista o en el **icono Personas** en la esquina superior derecha del cuadro de asignaciones para abrir la ventana Asignaciones avanzadas. Pase al paso 5 para continuar creando asignaciones avanzadas.
    >![Haga clic en Avanzadas o en el icono Personas](assets/access-aa-from-lists.png)
 
 1. Haga clic en **Asignar a** en el campo **Asignaciones** del encabezado de la tarea
@@ -169,7 +184,7 @@ Este diseño de Asignaciones avanzadas se aplica solo a tareas. Para problemas, 
 
    >[!TIP]
    >
-   >* Puede asignar varios usuarios, funciones o equipos. Solo puede asignar usuarios activos, roles y equipos. Se permite un máximo de 200 usuarios asignados por tarea.
+   >* Puede asignar varios usuarios, funciones o equipos. Solo puede asignar usuarios, funciones y equipos activos. Se permite un máximo de 200 usuarios asignados por tarea.
    >
    >
    >* Al añadir una asignación de usuario, observe el avatar, la función principal del usuario o su dirección de correo electrónico para distinguir entre usuarios con nombres idénticos.
@@ -324,7 +339,7 @@ Este diseño de Asignaciones avanzadas se aplica tanto a tareas como a problemas
 
    >[!TIP]
    >
-   >Puede realizar asignaciones avanzadas directamente en la lista de tareas o problemas. Haga clic dentro del campo **Asignaciones** en la misma línea que la tarea o el problema y, a continuación, haga clic en **Avanzadas** en la parte inferior de la lista o en el **icono Personas** en la esquina superior derecha del cuadro de asignaciones para abrir la ventana Asignaciones avanzadas. Vaya al paso 5 para continuar creando asignaciones avanzadas.
+   >Puede realizar asignaciones avanzadas directamente en la lista de tareas o problemas. Haga clic dentro del campo **Asignaciones** en la misma línea que la tarea o el problema y, a continuación, haga clic en **Avanzadas** en la parte inferior de la lista o en el **icono Personas** en la esquina superior derecha del cuadro de asignaciones para abrir la ventana Asignaciones avanzadas. Pase al paso 5 para continuar creando asignaciones avanzadas.
    >![Haga clic en Avanzadas o en el icono Personas](assets/access-aa-from-lists.png)
 
 1. Haga clic en **Asignar a** en el campo **Asignaciones** del encabezado de la tarea o el problema

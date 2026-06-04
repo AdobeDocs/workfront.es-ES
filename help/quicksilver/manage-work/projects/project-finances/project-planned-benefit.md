@@ -7,10 +7,23 @@ description: El Beneficio planificado es la cantidad de dinero estimada de la qu
 author: Lisa
 feature: Work Management
 exl-id: 1ded9d16-57be-40e0-b083-ee5273fd9b56
-source-git-commit: a9c628670731d20e9429415c8fe961bbb53daff9
+TQID: https://experienceleague.adobe.com/Ea-5yCjQl18RdG9IKH4jaO5-BClLtOeEHjqyasPM6uk
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '380'
-ht-degree: 68%
+source-wordcount: 346
+ht-degree: 67%
 
 ---
 
@@ -64,7 +77,7 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
 Puede consultar o actualizar el Beneficio planificado de un proyecto en las siguientes áreas de Workfront:
 
 * En el Resumen del caso empresarial. No puede editar el Beneficio planificado de un proyecto en el Resumen de caso comercial.
-Para obtener más información sobre el caso empresarial de un proyecto, consulte el artículo [Crear un caso empresarial para un proyecto](../../../manage-work/projects/define-a-business-case/create-business-case.md).
+Para obtener más información sobre el caso comercial de un proyecto, vea el artículo [Crear un caso comercial para un proyecto](../../../manage-work/projects/define-a-business-case/create-business-case.md).
 
 * En un informe de proyecto, cuando añada la columna Beneficio planificado a la vista del informe. Puede editar el Beneficio planificado de un proyecto en un informe de proyecto.\
   Para obtener más información acerca de cómo generar informes en Workfront, consulte el artículo [Crear un informe personalizado](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).

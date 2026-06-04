@@ -6,10 +6,20 @@ description: Para mejorar nuestra infraestructura principal, pronto migraremos l
 author: Luke
 feature: Product Announcements
 exl-id: 77d43206-1db7-4075-a063-043f8c9f75ed
-source-git-commit: 1bc7334423c567ef5f7fd9bcbc28de267e035c0a
+TQID: https://experienceleague.adobe.com/I6EiM5bD37m-gC5wyB3DBaOscSTMX-18BpjogM1LcgU
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '317'
-ht-degree: 0%
+source-wordcount: 303
+ht-degree: 20%
 
 ---
 
@@ -21,31 +31,31 @@ Como parte de este cambio, debe agregar las siguientes IP a los bloques de IP de
 
 Para SSO y POP:
 
-* 34 215 145 168
+* 34.215.145.168
 * 54.69.155.48
 * 35.160.44.226
-* 34 213 96 218
+* 34.213.96.218
 * 3.16.210.22
 * 3.16.229.153
-* 18 224 117 99
-* 18.123.153
-* 3 211 159 196
+* 18.224.117.99
+* 3.18.123.153
+* 3.211.159.196
 * 3.85.255.45
 * 3.210.78.197
-* 3 211 23 183
+* 3.211.23.183
 
 Para correo electrónico:
 
-* 54 240 60 174
-* 54 240 60 175
+* 54.240.60.174
+* 54.240.60.175
 
-Asegúrese de que los bloques de IP de lista de permitidos estén actualizados antes del 13 de mayo de 2019. Para obtener más información, consulte [Configuración de la lista de permitidos del firewall](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
+Asegúrese de que los bloques de IP de lista de permitidos estén actualizados antes del 13 de mayo de 2019. Para obtener más información, consulte [Configurar la lista de permitidos del cortafuegos](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
 
 Gracias por su continuo apoyo a Workfront, ya que trabajamos para crear una experiencia más fiable y sólida para nuestros clientes.
 
 Si tiene alguna pregunta adicional, póngase en contacto con nuestro equipo de asistencia visitando experience.workfront.com o llamando al 844.306.4357 (EE. UU.) o al +44.1256.274200 (EMEA).
 
-## FAQ
+## Preguntas frecuentes
 
 ### ¿Por qué Workfront está realizando este cambio?
 
@@ -55,6 +65,6 @@ En un esfuerzo por proporcionar a nuestros clientes el mejor servicio posible de
 
 Póngase en contacto con su departamento interno de TI o de seguridad para obtener ayuda con la revisión de los bloques de IP de lista de permitidos y la adición de las IP enumeradas anteriormente.
 
-### ¿Qué puede esperar mi organización si no realizamos este cambio?
+### ¿Qué puede esperar mi organización si no se lleva a cabo este cambio?
 
 No podrá acceder a los servicios de Workfront a medida que migremos los servicios a las nuevas IP.

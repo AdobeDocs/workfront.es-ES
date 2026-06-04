@@ -5,9 +5,21 @@ author: Lisa
 feature: Work Management
 role: User
 exl-id: 97c33c5a-e42d-4015-841f-69dc44a0599d
-source-git-commit: c27dd9d972b89af09c0865a0e878f1665416c80e
+TQID: https://experienceleague.adobe.com/waVWQfq2YqgDXZx3wl0ahzuQx7UJ78S1kYY8xBgi5OQ
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '566'
+source-wordcount: 566
 ht-degree: 23%
 
 ---
@@ -59,7 +71,7 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
 
 ## Adjuntar una tarjeta de tarifas a un proyecto
 
-1. Vaya al proyecto. 
+1. Vaya al proyecto.
 1. Haga clic en **Tarifas** en el panel izquierdo y luego seleccione **Facturación**.
 1. Haga clic en **Añadir tarifa de facturación > Adjuntar una tarjeta de tarifas**.
 
@@ -85,7 +97,7 @@ Al eliminar una tarjeta de tarifas de un proyecto, se eliminan todas sus tarifas
 
 Las anulaciones de tarifas de facturación para usuarios o roles de trabajo que se agregaron directamente al proyecto se pueden eliminar sin eliminar toda la tarjeta de tarifas.
 
-1. Vaya al proyecto. 
+1. Vaya al proyecto.
 1. Haga clic en **Tarifas** en el panel izquierdo y luego seleccione **Facturación**.
 1. Haga clic en el icono **Quitar** ![Quitar icono](assets/remove-icon.png).
 1. Haz clic en **Confirmar** en el mensaje de confirmación para eliminar la tarjeta de tarifas.

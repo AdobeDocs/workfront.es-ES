@@ -7,11 +7,23 @@ description: La fecha de transferencia es la fecha en la que una tarea se pone d
 author: Alina
 feature: Work Management
 exl-id: caf2dbba-5311-418d-8c82-ddcc256f9926
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/56lnSl470ICfCvl-m0ZfyTNoj71NMShHD4xJcjsdWNg
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+subfeature_v2:
+  - id: b91c0848-76c4-4da4-8b81-3aade0518dd0
+  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '723'
+source-wordcount: 730
 ht-degree: 99%
 
 ---
@@ -78,7 +90,7 @@ Workfront usa las siguientes reglas para calcular la fecha de transferencia de u
   Se dan los siguientes escenarios:
 
    * **Cuando la tarea tiene una restricción Debe iniciarse el o No iniciar antes del**: si la fecha de restricción de la tarea fuera anterior y no hubiera una fecha real de inicio en la tarea (la tarea aún no comenzó), la fecha de transferencia será la fecha más cercana posible en la que se pueda comenzar a trabajar en la tarea. Si la tarea se inició, la fecha de transferencia será igual a la fecha de inicio del proyecto.
-   * **Si la tarea tiene una delimitación de Debe finalizarse el o No iniciar después del**: si la fecha de restricción de la tarea fuera futura y no hubiera una fecha real de inicio en la tarea (la tarea aún no comenzó), la fecha de transferencia será la fecha de inicio planificada para la tarea.  Si la tarea tiene como fecha real de inicio, la fecha de transferencia será la fecha de inicio del proyecto.
+   * **Si la tarea tiene una delimitación de Debe finalizarse el o No iniciar después del**: si la fecha de restricción de la tarea fuera futura y no hubiera una fecha real de inicio en la tarea (la tarea aún no comenzó), la fecha de transferencia será la fecha de inicio planificada para la tarea. Si la tarea tiene como fecha real de inicio, la fecha de transferencia será la fecha de inicio del proyecto.
    * **Si la tarea tiene una restricción de fechas fijas**: la fecha de transferencia será la fecha de inicio planificada de la tarea, independientemente de si tuviera una predecesora o no e independientemente de si la predecesora se completó o no.
 
 <!--

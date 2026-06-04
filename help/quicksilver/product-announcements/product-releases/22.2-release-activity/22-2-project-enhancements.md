@@ -6,9 +6,16 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 43ea91db-d6f2-4218-9261-580a7e5b31d0
-source-git-commit: 0542587bb3254dec5664de493c1c321528cf7f3e
+TQID: https://experienceleague.adobe.com/hREqbBqRZmf8J3FS6PUwtgkfb3ZTyfcdeWZCZUvBRyY
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1090'
+source-wordcount: 1099
 ht-degree: 62%
 
 ---
@@ -111,7 +118,7 @@ Se añadió un nuevo menú Más en las listas de proyectos e informes para poder
 
 Para obtener más información, consulte los siguientes artículos:
 
-* [Recalcular las líneas de tiempo del proyecto](../../../manage-work/projects/manage-projects/recalculate-project-timeline.md)
+* [Recalcular las cronologías del proyecto](../../../manage-work/projects/manage-projects/recalculate-project-timeline.md)
 * [Recalcular finanzas del proyecto](../../../manage-work/projects/project-finances/recalculate-project-finances.md)
 * [Editar información en campos de formularios personalizados](../../../workfront-basics/work-with-custom-forms/edit-custom-forms.md)
 * [Adjuntar una plantilla a un proyecto](../../../manage-work/projects/create-and-manage-templates/attach-template-to-project.md)
