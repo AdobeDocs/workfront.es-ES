@@ -282,7 +282,7 @@ Hacerlo lo antes posible dará a sus usuarios tiempo para adaptarse a la nueva e
 
 **Formación**
 
-* [Tutorial sobre cómo quitar, añadir y reorganizar widgets en Inicio](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home/remove-add-and-rearrange-widgets)
+* [Tutorial sobre cómo quitar, añadir y reorganizar widgets en Inicio](https://experienceleague.adobe.com/es/docs/workfront-learn/tutorials-workfront/home/remove-add-and-rearrange-widgets)
 * [Aspectos básicos del trabajo en Adobe Workfront](https://adobe-ats.sabacloud.com/Saba/Web_spf/PRODTNT100/app/me/learningeventdetail/cours000000000098821?regId=regdw000000001250612)
 
 >[!IMPORTANT]
