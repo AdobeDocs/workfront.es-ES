@@ -9,21 +9,15 @@ exl-id: 673dd888-3135-48b0-8198-c8d6d6706ddf
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/PTCSU18oqb-nFiNWaJB57FgtBkNOpeN5yuLP3Rrp-08
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: a93c6c9faf26d5eab1c223bd4a2646af896bf97d
 workflow-type: tm+mt
-source-wordcount: 2020
-ht-degree: 38%
+source-wordcount: 1990
+ht-degree: 39%
 
 ---
 
@@ -92,13 +86,6 @@ O
    <td>  <p>Permisos de administración de una vista</p> 
    <p><b>IMPORTANTE</b></p> 
    <p>Solo los usuarios con permisos de Administración para un espacio de trabajo pueden compartir una vista públicamente.</p></td> 
-  </tr> 
-<tr>
-   <td role="rowheader"><p>Plantilla de diseño</p></td>
-   <td> A los usuarios con una licencia Light o Contributor se les debe asignar una plantilla de diseño que incluya Planning.
-   <p>Los usuarios estándar y los administradores del sistema tienen las áreas de Planning habilitadas de forma predeterminada.</p></div></li></ul>
-
-</td>
   </tr>
 
 </tbody> 

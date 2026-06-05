@@ -9,19 +9,14 @@ exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/oajBrzqCNgufbSJPP0Wx8aI14d8VM7IFr-Hn1ed7Wks
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: a93c6c9faf26d5eab1c223bd4a2646af896bf97d
 workflow-type: tm+mt
-source-wordcount: 3520
+source-wordcount: 3489
 ht-degree: 67%
 
 ---
@@ -77,12 +72,6 @@ Para obtener información acerca de cómo exportar la vista de tabla a un archiv
    <td role="rowheader"><p>Permisos de objeto</p></td> 
    <td>   <p>Permisos de administración de una vista</p>  
    <p>Ver permisos en una vista para cambiar temporalmente la configuración de la vista o para duplicarla</p> </td> 
-  </tr> 
-<tr>
-   <td role="rowheader"><p>Plantilla de diseño</p></td>
-   <td> A los usuarios con una licencia Light o Contributor se les debe asignar una plantilla de diseño que incluya Planning.
-   <p>Los usuarios estándar y los administradores del sistema tienen las áreas de Planning habilitadas de forma predeterminada.</p></div></li></ul>
-</td>
   </tr> 
 </tbody> 
 </table>
@@ -158,11 +147,24 @@ Old:
 
 ## Editar registros mediante la vista de tabla
 
-La información de los registros solo se puede editar en la vista de tabla.
+Puede editar la información de los registros en la vista de tabla.
 
 Para obtener más información sobre la edición de registros en la vista de tabla, consulte [Editar registros](/help/quicksilver/planning/records/edit-records.md).
 
 ## Administrar una vista de tabla {#manage-a-table-view}
+
+<!--
+Depending on what environment you access record types from, the record type page displays using two different views: 
+
+* Table view, in the Production environment
+* <span class="preview">List view, in the Preview environment</span>
+
+OR: 
+
+If the List view in Project connected pages and request forms stays the same after GTable rolls out - keep that list as the List view and change the Table view in this article to "Table redesigned view" for now; keep it "the table view" here for the future; for the time being, just say "Updating the view in Prod and Preview is different and make the separate sections for Preview and Prod below with the different steps.
+
+### Manage the table view in the Production environment
+-->
 
 Al crear una vista de tabla, todos los registros del tipo seleccionado se muestran en una tabla. Cada fila es un registro único y cada columna es un campo de registro. Todos los campos y todos los registros se muestran de forma predeterminada.
 
@@ -619,6 +621,17 @@ Al mostrar la vista de tabla, también puede ver qué campo está editando otro 
 >
 >Los indicadores de presencia en tiempo real muestran a los usuarios que están editando un campo en cualquier lugar de Workfront Planning. Esto incluye la vista de tabla o el área de detalles del registro.
 
+<!--
+<div class="preview">
+
+### Manage the list view in the Production environment
+
+In the Preview environment, the table view has been replaced with the list view. 
+
+*******************IF THEY REPLACE THE LIST VIEW (IN PROJECTS AND FORMS) WITH THE NEW LIST, THEN JUST UPDATE THAT ARTICLE - "MANAGE THE LIST VIEW" - AND ADD A LINK TO IT HERE; IF NOT, THEN ADD THE SPECIFICS OF THE VIEW HERE**************
+
+</div>
+-->
 
 
 
