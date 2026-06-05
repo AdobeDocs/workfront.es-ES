@@ -4,10 +4,10 @@ description: Mejoras en los informes del tercer trimestre de 2026
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: eb59acc816f0fd82330b60ddc9cd2f3aad851198
+source-git-commit: b9c63e1ca4b2b301ee104ee84151a2d0148a8cea
 workflow-type: tm+mt
-source-wordcount: '289'
-ht-degree: 4%
+source-wordcount: '399'
+ht-degree: 3%
 
 ---
 
@@ -16,6 +16,22 @@ ht-degree: 4%
 Esta página describe las mejoras de los informes realizadas con la versión del tercer trimestre de 2026 en el entorno de vista previa. Estas mejoras estarán disponibles en el entorno de producción, como se ha indicado.
 
 Para obtener una lista de todos los cambios disponibles en este punto del ciclo de la versión del tercer trimestre de 2026, consulte [Información general de la versión del tercer trimestre de 2026](/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-release-overview.md).
+
+## Cambios en las horas reales en fórmulas personalizadas
+
+>[!NOTE]
+>
+>Vista previa: 1 de junio de 2026>Versión rápida de producción: 1 de junio de 2026>Producción para todos: 1 de junio de 2026
+
+En 2025, se agregó un nuevo campo Horas reales a la base de datos de Workfront como `actualWorkRequiredDouble`, y el campo Horas reales existente (`actualWorkRequired` en la base de datos) cambió el nombre de Horas reales heredadas. Consulte la [nota de la versión](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-project-enhancements.md) para obtener más información.
+
+En junio de 2026, las fórmulas personalizadas existentes que usaban `actualWorkRequired` (Horas reales heredadas) se migraron para usar `actualWorkRequiredDouble` (Horas reales) en su lugar. `actualWorkRequired` ya no se puede usar en cálculos y fórmulas.
+
+Además, se recomienda encarecidamente usar `actualWorkRequiredDouble` en todos los informes.
+
+Al reemplazar el campo, tenga en cuenta que `actualWorkRequired` almacena valores en minutos, mientras que `actualWorkRequiredDouble` almacena valores en horas con precisión decimal.
+
+Para obtener más información sobre las horas reales, vea [Ver horas reales](/help/quicksilver/manage-work/tasks/task-information/actual-hours.md).
 
 ## Campos de datos de moneda personalizados en informes de Panel de lienzo
 
