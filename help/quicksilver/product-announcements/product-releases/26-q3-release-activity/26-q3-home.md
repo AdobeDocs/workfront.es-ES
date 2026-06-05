@@ -4,7 +4,7 @@ description: Mejoras en el inicio durante el periodo de lanzamiento del tercer t
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 1fe4b945d6f346f1cfa06bda0a7ddc8b6ca92cfd
+source-git-commit: ca4b2ee8375442afa19bf0d3af2915d3aab20779
 workflow-type: tm+mt
 source-wordcount: '155'
 ht-degree: 7%
@@ -28,4 +28,5 @@ Prioridades ahora admite el uso de datos personalizados en las columnas. Abra el
 También puede crear y compartir vistas para la lista de trabajo de prioridades.
 
 Para obtener información sobre las prioridades, consulte [Personalizar las columnas de la lista de trabajo de prioridades](/help/quicksilver/workfront-basics/priorities/customize-worklist-columns.md). Para obtener información sobre cómo crear vistas y usar el Administrador de columnas, vea [Usar listas mejoradas](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
+
 
