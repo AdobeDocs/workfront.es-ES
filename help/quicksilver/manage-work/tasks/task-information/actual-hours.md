@@ -10,27 +10,15 @@ exl-id: c4b0e431-1765-416d-89f5-6ac663ac1d4f
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/iOGP-byuQ0X7Sd-DhKYw7aHJe3Q8n2blSj-rrlnfK9k
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
-subfeature_v2:
-  - id: b91c0848-76c4-4da4-8b81-3aade0518dd0
-  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
-  - id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
-  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aadid: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2: id: b91c0848-76c4-4da4-8b81-3aade0518dd0id: ce22a157-dd2c-405f-b740-c2f204bb4c1aid: d1573eb8-a2e8-4a06-9526-9c3410bf4914id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c1579802-ddd4-4214-8a91-97b2066abe11id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 5606ecce47d871bfaaa7d0c7e305651e6eb9c15b
 workflow-type: tm+mt
-source-wordcount: 1273
-ht-degree: 28%
+source-wordcount: 1377
+ht-degree: 26%
 
 ---
 
@@ -133,7 +121,9 @@ Según el área de Workfront desde la que acceda a las horas reales, podrían ha
 
 >[!NOTE]
 >
->Se recomienda utilizar el campo Horas reales siempre que sea posible, ya que el campo Horas reales heredadas podría mostrar horas imprecisas debido a la forma en que se redondean los incrementos cuando las horas se almacenan en minutos.
+>Se recomienda encarecidamente utilizar el campo Horas reales siempre que sea posible, ya que el campo Horas reales heredadas podría mostrar horas imprecisas debido a la forma en que se redondean los incrementos cuando las horas se almacenan en minutos. Además, las horas reales heredadas no se muestran correctamente en los gráficos de los informes.
+> 
+>Se han migrado a Horas reales todas las fórmulas personalizadas que utilizan Horas reales heredadas. Las horas reales heredadas ya no se pueden usar en cálculos y fórmulas.
 
 ## Horas reales en tareas y problemas frente a horas reales en proyectos
 
@@ -185,7 +175,13 @@ Para localizar las horas reales en la sección Horas de una tarea:
 
 Al generar informes sobre tareas, problemas o proyectos, puede mostrar en el informe los valores de Horas reales y Horas reales heredadas para cada tarea, problema o proyecto.
 
-Para obtener información sobre la diferencia entre las horas reales y las horas reales heredadas, consulte la sección [Horas reales vs. horas reales heredadas](#actual-hours-vs-legacy-actual-hours) en este artículo.
+Para obtener información acerca de la diferencia entre las horas reales y las horas reales heredadas, vea la sección [Horas reales vs. horas reales heredadas](#actual-hours-vs-legacy-actual-hours) en este artículo.
+
+>[!NOTE]
+>
+>Se recomienda encarecidamente utilizar el campo Horas reales en todos los informes. Las horas reales heredadas no se muestran correctamente en los gráficos de los informes.
+> 
+>Al reemplazar el campo, tenga en cuenta que Horas reales heredadas almacena valores en minutos, mientras que Horas reales almacena valores en horas con precisión decimal.
 
 Para mostrar las horas reales y las horas reales heredadas en un informe de tareas:
 
@@ -205,7 +201,8 @@ Para mostrar las horas reales y las horas reales heredadas en un informe de tare
 
 Si desea ver el progreso del trabajo que los usuarios están realizando en las tareas y problemas que se les han asignado, puede consultarlo en las siguientes herramientas de Administración de recursos:
 
-* El Informe De Utilización.\
+* El Informe De Utilización.
+
   Para obtener más información, consulte [Información general sobre el informe de utilización de recursos](../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md).
 
 * El Planificador de recursos.
@@ -219,7 +216,7 @@ Si desea ver el progreso del trabajo que los usuarios están realizando en las t
 
 La mayoría de los campos de Workfront que almacenan horas se guardan en la base de datos de Workfront en minutos. Por ejemplo, el nombre del campo Horas planificadas de una tarea es `workRequired` en la base de datos de Workfront y se almacena en minutos.
 
-Debe tener en cuenta la conversión de minutos a horas al acceder a estos campos en llamadas API o en campos o columnas personalizados calculados.
+Debe tener en cuenta la conversión de minutos a horas al acceder a estos campos en llamadas API.<!-- or in calculated custom fields or columns.-->
 
 Las horas reales registradas para proyectos, tareas o problemas se almacenan actualmente en la base de datos de Workfront como minutos y su valor es `actualWorkRequired`.
 
@@ -229,6 +226,10 @@ Desde octubre de 2025, con la versión 21 de la API, las horas reales se almacen
 
 * **Horas reales**: Horas registradas para el proyecto, las tareas o los problemas después de mayo de 2021. Se almacenan en la base de datos de Workfront en horas y su campo de valor es `actualWorkRequiredDouble`.
 * **Horas reales heredadas**: Horas registradas para proyectos, tareas o problemas en cualquier momento, incluso antes de mayo de 2021. Se almacenan en la base de datos de Workfront en minutos y su valor es `actualWorkRequired`.
+
+>[!NOTE]
+>
+>Se han migrado a Horas reales todas las fórmulas personalizadas que utilizan Horas reales heredadas. Ya no se pueden usar horas reales heredadas o `actualWorkRequired` en cálculos y fórmulas.
 
 Para obtener información sobre las versiones de API, consulte [Versiones de API y programación de soporte](/help/quicksilver/wf-api/api/api-version-support-schedule.md).
 
