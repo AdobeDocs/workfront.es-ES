@@ -22,10 +22,10 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+source-git-commit: 5606ecce47d871bfaaa7d0c7e305651e6eb9c15b
 workflow-type: tm+mt
 source-wordcount: 1508
-ht-degree: 82%
+ht-degree: 81%
 
 ---
 
@@ -95,13 +95,19 @@ Las horas planificadas se almacenan en minutos.
 
 En función del campo Horas reales que desee utilizar para el cálculo, las fórmulas correctas son:
 
-* Para las horas reales heredadas que se almacenan en minutos:
+* Para las horas reales, que se almacenan en horas con precisión decimal:
+
+  `valueexpression=SUB(workRequired/60,actualWorkRequiredDouble)`
+
+* Para las horas reales heredadas, que se almacenan en minutos:
 
   `valueexpression=SUB(workRequired,actualWorkRequired)/60`
 
-* Para las horas reales que se almacenan en horas:
-
-  `valueexpression=SUB(workRequired/60,actualWorkRequiredDouble)`
+>[!NOTE]
+>
+>Se recomienda usar `actualWorkRequiredDouble` en todos los informes.
+>
+>`actualWorkRequired` no se muestra correctamente en gráficos de informes.
 
 Para obtener más información, consulte [Ver horas reales](/help/quicksilver/manage-work/tasks/task-information/actual-hours.md).
 
