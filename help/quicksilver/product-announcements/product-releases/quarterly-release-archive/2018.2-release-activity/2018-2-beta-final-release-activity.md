@@ -60,7 +60,7 @@ Para obtener más información sobre el servicio de correo predeterminado, consu
 
 Ahora recibe una notificación por correo electrónico cuando alguien comenta un documento de su propiedad. Esta opción está habilitada de forma predeterminada. Puede utilizar la configuración de notificación &quot;Se añade un comentario en mi documento&quot; para deshabilitar la opción de notificación por correo electrónico.
 
-|Antes de este cambio, no recibía notificaciones cuando alguien comentaba un documento de su propiedad. 
+Antes de este cambio, no recibía notificaciones cuando alguien comentaba un documento de su propiedad. 
 
 Para obtener más información, consulte [Modificar sus propias notificaciones por correo electrónico](../../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
