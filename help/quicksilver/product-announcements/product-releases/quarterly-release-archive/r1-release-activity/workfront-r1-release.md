@@ -7,10 +7,23 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 587d1dff-6ef1-4f97-84b9-32a073481d37
-source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
+TQID: https://experienceleague.adobe.com/ZcKZdtN2ajH8PdnIbKQxQHSvYKSftlugJczL0nPOgWs
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+subfeature_v2:
+  - id: b91c0848-76c4-4da4-8b81-3aade0518dd0
+  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '670'
-ht-degree: 78%
+source-wordcount: 657
+ht-degree: 36%
 
 ---
 
@@ -29,25 +42,25 @@ Workfront lanza nuevas funciones de producto a todas las líneas de productos tr
 ## MEJORAS DE WORKFRONT {#workfront-enhancements}
 
 ![Outlook_365_Integration_1.png](assets/outlook-365-integration-1-350x212.png)\
-**Administre el trabajo directamente desde su correo electrónico**
-La integración directa en Outlook 365 le permitirá acabar con el trabajo duplicado al actualizar Workfront directamente desde Outlook 365. Convierta correos electrónicos en tareas, envíe conversaciones por correo electrónico y archivos adjuntos como actualizaciones y responda a comentarios sin salir de Outlook.
+**Administrar el trabajo directamente desde el correo electrónico**
+La integración directa en Outlook 365 le permitirá eliminar el trabajo duplicado al actualizar Workfront directamente desde Outlook 365. Convierta correos electrónicos en tareas, envíe conversaciones por correo electrónico y archivos adjuntos como actualizaciones y responda a comentarios sin salir de Outlook.
 
 Para obtener más información, consulte:  [Funcionalidad disponible en la versión preliminar en 2016](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/available-in-preview-in-2016.md)
 
 ![Administrar trabajo desde el correo electrónico](assets/mceclip0-350x218.png)\
-**Haga seguimiento de proyectos y presupuestos**
-Administre sus recursos y su utilización, haciendo seguimiento de proyectos y de presupuestos, mediante el nuevo Informe de utilización. Vea las horas planificadas en comparación con las reales por proyecto y función, y compare los recursos y departamentos de forma regular.
+**Mantener los proyectos dentro del seguimiento y del presupuesto**
+Administre sus recursos y su utilización, manteniendo los proyectos en seguimiento y dentro del presupuesto, mediante el nuevo Informe de utilización. Vea las horas planificadas en comparación con las reales por proyecto y función, y compare los recursos y departamentos de forma regular.
 
 Para obtener más información, consulte: [Vista previa 3 de R1](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-preview-3.md)
 
 ![Mantener los proyectos en seguimiento](assets/mceclip1-350x169.png)\
 **Personalización de terminología y notificaciones**
-Haga que Workfront tenga más importancia para su equipo al aprovechar la función de terminología personalizada para cambiar términos como &quot;portafolio&quot; o &quot;proyecto&quot; para adaptarlos a su jerga preferida, independientemente del sector. Además, cada usuario puede ahora personalizar los tipos de notificaciones que recibe regulando su frecuencia de resumen.
+Aumente la relevancia de Workfront para su equipo mediante la función de terminología personalizada para cambiar términos como &quot;Portfolio&quot; o &quot;Proyecto&quot; y adaptarlos a su idioma preferido, independientemente del sector. Además, cada usuario puede ahora personalizar los tipos de notificaciones que recibe regulando su frecuencia de resumen.
 
 Para obtener más información, consulte: [Vista previa 3 de R1](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-preview-3.md)
 
 **Vista de hito**
-Los nuevos iconos de estado de progreso le permiten aprovechar al máximo sus informes de hito. Además, ahora puede editar el porcentaje completado directamente desde la vista de hito.
+Los nuevos iconos de estado de progreso le permiten aprovechar al máximo sus informes de Milestone. Además, ahora puede editar el porcentaje completado directamente desde la vista de hito.
 
 Para obtener más información, consulte: [Vista previa 5 de R1](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-preview-5.md)
 
@@ -61,7 +74,7 @@ Para obtener más información, consulte: [Vista previa 1 y 2 de R1](../../../..
 ### MEJORAS DE PROOFHQ {#proofhq-enhancements}
 
 ![Mejoras de ProofHQ](assets/mceclip4-350x201.png)\
-**Buscar y encontrar durante la revisión**
+**Búsqueda y búsqueda de revisión**
 La nueva funcionalidad de búsqueda en ProofHQ le permite buscar y encontrar rápida y fácilmente todas las instancias de una palabra o frase directamente en las pruebas mientras revisa. Esto se aplica a todos los documentos basados en texto, incluidos los PDF y los archivos de Microsoft Word.
 
 Para obtener más información, consulte: [R1 Final](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-final.md)
@@ -84,7 +97,7 @@ Para los equipos de marketing que necesitan una forma mejor de administrar, publ
 **Campos de metadatos requeridos por DAM**
 Mejore la categorización de recursos digitales con los campos de metadatos requeridos, lo que permite un mayor control del uso compartido de recursos.
 
-**Logre el compromiso y la eficiencia de todos con Workfront.**
+**Mantenga a todos comprometidos y eficientes con Workfront.**
 Workfront es una solución de administración de trabajo empresarial que permite a los trabajadores y ejecutivos del conocimiento moderno:
 
 * Adaptar el trabajo para adaptarse a las preferencias individuales y organizativas y aumentar la adopción

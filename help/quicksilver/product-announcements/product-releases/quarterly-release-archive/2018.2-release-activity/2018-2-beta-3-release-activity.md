@@ -7,20 +7,29 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 239a4e7e-e9db-4cf0-a703-8888e00f0d83
-source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
+TQID: https://experienceleague.adobe.com/496MnQ2HZg6qwvdMzXQ7vQBtD2msLKmcDvDizeljurY
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '523'
-ht-degree: 95%
+source-wordcount: 482
+ht-degree: 92%
 
 ---
 
 # Actividad en la versión 2018.2 Beta 3
 
-En esta página se describen todos los cambios más recientes en el entorno de vista previa disponibles con la versión 2018.2 Beta 3.Esta funcionalidad se publicó en el entorno de vista previa el 19 de abril de 2018. Estará disponible en el entorno de producción en junio de 2018.
+En esta página se describen todos los cambios más recientes en el entorno de vista previa disponibles con la versión 2018.2 Beta 3. Esta funcionalidad se publicó en el entorno de vista previa el 19 de abril de 2018. Estará disponible en el entorno de producción en junio de 2018.
 
 >[!IMPORTANT]
 >
->La funcionalidad descrita en esta página está sujeta a cambios antes de su disponibilidad en el entorno de producción.
+> La funcionalidad descrita en esta página está sujeta a cambios antes de su disponibilidad en el entorno de producción.
 
 Para ver una lista de todos los cambios realizados en la versión 2018.2, consulte  [Información general de actividades de la versión 2018.2](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-release-activity-overview.md).
 
@@ -47,7 +56,7 @@ Los indicadores proporcionan una indicación visual de cuándo una historia est�
 
 Para obtener información sobre el uso de indicadores en el tablero Kanban, consulte “Uso de indicadores en historias” en el artículo.
 
-Para obtener más información acerca de cómo incluir indicadores en los informes de tareas, consulte [Glosario de terminología de Adobe Workfront](../../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
+Para obtener más información acerca de cómo incluir indicadores en los informes de tareas, consulte [Glosario de terminología de Adobe Workfront](../../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).  
 
 ## Editar campos directamente en una tarjeta de historias de Agile {#edit-fields-directly-on-an-agile-story-card}
 
@@ -62,7 +71,7 @@ Para obtener más información, consulte las siguientes secciones:
 
 ## Se ha mejorado la relevancia de la búsqueda para varias palabras {#improved-search-relevancy-for-multiple-words}
 
-Hemos introducido un cambio en la forma en que se realizan las búsquedas al utilizar varias palabras clave. Con esta nueva actualización, al buscar varias palabras, se buscan elementos que contengan todas las palabras especificadas. Si desea buscar cualquiera de las palabras de las palabras clave, debe insertar “OR” (sin comillas) entre los términos de búsqueda. 
+Hemos introducido un cambio en la forma en que se realizan las búsquedas al utilizar varias palabras clave. Con la nueva actualización, al buscar varias palabras, se buscan elementos que contengan todas las palabras especificadas. Si desea buscar cualquiera de las palabras de las palabras clave, debe insertar &quot;OR&quot; (sin comillas) entre los términos de búsqueda. 
 
 Antes de este cambio, al buscar varias palabras a la vez, encontraría elementos que contenían alguna o todas las palabras de la frase. 
 

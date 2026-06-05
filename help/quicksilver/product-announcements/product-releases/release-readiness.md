@@ -7,10 +7,19 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 411ad0b1-efb2-40e9-a04c-d06840b9cdce
-source-git-commit: 436eb2ef32363aa28593e74f7464dcd6837b2095
+TQID: https://experienceleague.adobe.com/uC23s3GzNOgYxXOFwnaqXxlSbj7aIYYIXyC1RgU0dRE
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1233'
-ht-degree: 0%
+source-wordcount: 1233
+ht-degree: 2%
 
 ---
 
@@ -18,7 +27,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Workfront ofrece dos modelos para la publicación de nuevas funciones y actualizaciones. Su organización puede elegir si desea recibir nuevas funciones trimestralmente o con una programación de versiones más rápida. El proceso de preparación para una versión es similar, independientemente del modelo que utilice su organización.
+>Workfront ofrece dos modelos para la publicación de nuevas funciones y actualizaciones. Su organización puede elegir si desea recibir nuevas funcionalidades de manera trimestral o en un calendario de publicación más rápido. El proceso de preparación para una versión es similar, independientemente del modelo que utilice su organización.
 >
 >Para obtener una explicación detallada de los dos modelos de versión, consulte [Habilitar o deshabilitar las versiones rápidas para su organización](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).
 
@@ -85,7 +94,7 @@ Como administrador de [!DNL Workfront], recibirá un mensaje del Centro de anunc
 
 ### Explorar el entorno de [!UICONTROL vista previa de espacio aislado]
 
-El entorno [!UICONTROL Vista previa de espacio aislado], también conocido como el entorno [!UICONTROL Vista previa], sirve como un entorno en el que los usuarios de su organización pueden probar y trabajar con seguridad con una copia independiente de los datos del entorno Producción. [!UICONTROL Workfront] suele publicar nuevas características y funcionalidades en el entorno de vista previa al menos dos semanas     antes de lanzarse al entorno de producción. Tiene la oportunidad de familiarizarse con estas funciones antes de que se publiquen en los flujos de trabajo diarios de los usuarios. A continuación, si los usuarios tienen dificultades para aprovechar las nuevas funciones, podrán ayudarles a adaptarse con mayor facilidad.
+El entorno [!UICONTROL Vista previa de espacio aislado], también conocido como el entorno [!UICONTROL Vista previa], sirve como un entorno en el que los usuarios de su organización pueden probar y trabajar con seguridad con una copia independiente de los datos del entorno Producción. [!UICONTROL Workfront] suele publicar nuevas características y funcionalidades en el entorno de vista previa al menos dos semanas antes de que se publiquen en el entorno de producción. Tiene la oportunidad de familiarizarse con estas funciones antes de que se publiquen en los flujos de trabajo diarios de los usuarios. A continuación, si los usuarios tienen dificultades para aprovechar las nuevas funciones, podrán ayudarles a adaptarse con mayor facilidad.
 
 >[!TIP]
 >

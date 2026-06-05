@@ -1,18 +1,28 @@
 ---
-title: Mejoras de documentos y pruebas del cuarto trimestre de 2025
-description: Mejoras de documentos y pruebas del cuarto trimestre de 2025
+title: Mejoras en documentos y revisión del cuarto trimestre de 2025
+description: Mejoras en documentos y revisión del cuarto trimestre de 2025
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: f4615994-8a56-482c-b033-62e719be152e
-source-git-commit: f4493666ce8053f98490b87a6cfd76d759393d8c
+TQID: https://experienceleague.adobe.com/VN4tRX-3cRp4tw2AGMalQndJtum3FJStsuV6oT-CxGk
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: e4bd5f48-22a4-465d-a046-5ffb52e27856
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '394'
-ht-degree: 8%
+source-wordcount: 401
+ht-degree: 18%
 
 ---
 
-# Mejoras de documentos y pruebas del cuarto trimestre de 2025
+# Mejoras en documentos y revisión del cuarto trimestre de 2025
 
 Esta página describe las mejoras realizadas en los documentos y pruebas con la versión del cuarto trimestre de 2025 en el entorno de vista previa. Estas mejoras estarán disponibles en el entorno de producción, como se ha indicado.
 
@@ -63,7 +73,7 @@ Esta función se encuentra actualmente en fase beta.
 
 Estamos encantados de anunciar una nueva integración entre Adobe Express y Workfront Proof.
 
-Con esta integración, puede
+Con esta integración, puede hacer lo siguiente
 
 * Optimice la colaboración entre equipos creativos, legales y de cumplimiento para reducir el tiempo de publicación y, al mismo tiempo, mantener la supervisión
 

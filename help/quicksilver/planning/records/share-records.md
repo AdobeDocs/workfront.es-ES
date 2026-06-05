@@ -19,10 +19,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+source-git-commit: a93c6c9faf26d5eab1c223bd4a2646af896bf97d
 workflow-type: tm+mt
-source-wordcount: 751
-ht-degree: 42%
+source-wordcount: 721
+ht-degree: 43%
 
 ---
 
@@ -100,13 +100,7 @@ En este artículo se describe cómo copiar un vínculo a la página de un regist
    <td role="rowheader"><p>Permisos de objeto</p></td> 
    <td>  <p>Ver permisos superiores a un espacio de trabajo y tipo de registro para compartir un registro mediante un vínculo</p>
    <p>Los administradores del sistema tienen permisos para todos los espacios de trabajo, incluidos los que no crearon</p>  </td> 
-  </tr> 
-<tr>
-   <td role="rowheader"><p>Plantilla de diseño</p></td>
-   <td> A los usuarios con una licencia Light o Contributor se les debe asignar una plantilla de diseño que incluya Planning.
-   <p>Los usuarios estándar y los administradores del sistema tienen las áreas de Planning habilitadas de forma predeterminada.</p></div></li></ul>
-</td>
-  </tr> 
+  </tr>  
 </tbody> 
 </table>
 

@@ -18,10 +18,10 @@ role_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+source-git-commit: a93c6c9faf26d5eab1c223bd4a2646af896bf97d
 workflow-type: tm+mt
-source-wordcount: 471
-ht-degree: 21%
+source-wordcount: 441
+ht-degree: 22%
 
 ---
 
@@ -63,13 +63,8 @@ Para colaborar de forma más eficaz con otras personas que no tengan una cuenta 
    <td>   <p>Ver permisos superiores a un área de trabajo, tipo de registro y <span class="preview">registro</span> </p>  
    <p>Los administradores del sistema tienen permisos para todos los espacios de trabajo, incluidos los que no crearon</p> </td> 
   </tr> 
-  </tr> 
-  <tr>
-   <td role="rowheader"><p>Plantilla de diseño</p></td>
-   <td> A los usuarios con una licencia Light o Contributor se les debe asignar una plantilla de diseño que incluya Planning.
-   <p>Los usuarios estándar y los administradores del sistema tienen las áreas de Planning habilitadas de forma predeterminada.</p></div></li></ul>
-</td>
-  </tr>  
+  </tr>
+
 </tbody> 
 </table>
 

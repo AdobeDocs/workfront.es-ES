@@ -6,12 +6,23 @@ description: Puede incrustar una página web externa en un panel de control para
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 04b623b5-38b0-4c32-b54e-204f1d422e45
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/G45Rx-nLjiBMHF--VNCwEjUqHZwLk3qjEP9WifRC29A
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1017'
-ht-degree: 87%
+source-wordcount: 989
+ht-degree: 81%
 
 ---
 
@@ -30,8 +41,8 @@ Por ejemplo, si su organización tiene un repositorio de documentos basado en we
 >Para permitir la incrustación en un sitio web de su propiedad, trabaje con el administrador web para configurar **X-Frame-Options**. Para obtener más información, consulte [X-Frame-Options](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Frame-Options).
 >
 >
->* Las páginas de panel de control ya no se admiten como páginas externas incrustadas en los paneles de control. Aunque los tableros existentes no se modificarán automáticamente para eliminar estas páginas externas, cualquier modificación en un panel de control que incluya una referencia de este tipo no podrá guardarse hasta que se elimine o cambie la referencia.
-> En concreto, los subdominios Workfront.com que ya no se admiten son los siguientes:
+>* Las páginas de panel ya no se admiten como páginas externas incrustadas en los paneles. Aunque los tableros existentes no se modificarán automáticamente para eliminar estas páginas externas, cualquier modificación en un tablero que incluya una referencia de este tipo no podrá guardarse hasta que se elimine o cambie la referencia.
+> Específicamente, ya no se admiten los siguientes subdominios Workfront.com:
 >
 >     * /dashboards
 >     * /dashboard/:ID&#x200B;
@@ -106,7 +117,7 @@ Para obtener más información sobre cómo crear paneles de control, consulte [C
 
 {{step1-to-dashboards}}
 
-1. Para editar un panel de control existente, seleccione el panel en el que desea incrustar la página del sitio web, haga clic en **Acciones de panel de control** y, a continuación, haga clic en **Editar**
+1. Para editar un tablero existente, seleccione el tablero en el que desea incrustar la página del sitio web, haga clic en **Acciones de tablero** y, a continuación, haga clic en **Editar**
 O\
    Para crear un nuevo panel de control, haga clic en **Nuevo panel de control**.\
    Para obtener más información sobre cómo crear un panel de control, consulte [Crear un panel de control](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md).
@@ -131,7 +142,7 @@ O\
 
       * Una URL de plantilla que contiene información de la sesión de un sitio web específico.\
         Por ejemplo: *https://localhost/?session={!$$SESSION}*
-Debe haber iniciado sesión en el sitio web especificado para visualizar la página externa.\
+Debe haber iniciado sesión en el sitio web especificado para mostrar la página externa.\
         Para obtener información sobre cómo obtener un SessionID de Workfront, consulte [Conceptos básicos sobre las API](../../../wf-api/general/api-basics.md).\
         El administrador de Workfront puede configurar las preferencias del sistema de forma que no permita el uso de información de sesión en las páginas externas por motivos de seguridad. En este caso, la página externa no se carga en el panel de control.\
         Para obtener más información acerca de las preferencias de seguridad del sistema, consulte [Configurar las preferencias de seguridad del sistema](../../../administration-and-setup/manage-workfront/security/configure-security-preferences.md).\

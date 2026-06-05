@@ -7,20 +7,32 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4b54b9e6-d1bf-4802-9d6c-9c3d3b6a6583
-source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
+TQID: https://experienceleague.adobe.com/gzQylGFyFhi6rQjzFHVOYuGU4nMqADtJ0vZ48L6NOmE
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1705'
-ht-degree: 99%
+source-wordcount: 1700
+ht-degree: 98%
 
 ---
 
 # Actividad de la versión Beta 4 2018.2
 
-Esta página describe todos los cambios disponibles más recientemente en el entorno de vista previa con la versión Beta 4 2018.2.La funcionalidad estará disponible en el entorno de vista previa el 17 de mayo de 2018. Estará disponible en el entorno de producción en julio de 2018.
+Esta página describe todos los cambios disponibles más recientemente en el entorno de vista previa con la versión Beta 4 2018.2. La funcionalidad estará disponible en el entorno de vista previa el 17 de mayo de 2018. Estará disponible en el entorno de producción en julio de 2018.
 
 >[!IMPORTANT]
 >
->La funcionalidad descrita en esta página está sujeta a cambios antes de su disponibilidad en el entorno de producción.
+> La funcionalidad descrita en esta página está sujeta a cambios antes de su disponibilidad en el entorno de producción.
 
 Para ver una lista de todos los cambios realizados en la versión 2018.2, consulte  [Información general de actividades de la versión 2018.2](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-release-activity-overview.md).
 
@@ -35,7 +47,7 @@ La versión 2018.2 de Beta 4 contiene las siguientes mejoras para administradore
 * [Mejoras de límite de trabajo en curso (WIP) en el tablero Kanban](#work-in-progress-wip-limit-enhancements-on-the-kanban-board)
 * [Interfaz mejorada para configurar los estados de un equipo ágil](#improved-interface-for-configuring-statuses-for-an-agile-team)
 * [Lista de trabajos actualizada (panel izquierdo) en el área de inicio](#updated-work-list-left-panel-in-the-home-area)
-* [Nuevo Visor de corrección de escritorio para revisar contenido interactivo (medios enriquecidos)](#new-desktop-proofing-viewer-for-proofing-interactive-rich-media-content)
+* [Nuevo Visor de corrección de escritorio para revisar contenido interactivo (medios enriquecidos)](#new-desktop-proofing-viewer-for-proofing-interactive-rich-media-content) 
 * [Exportar la vista de usuario en el Planificador de recursos](#export-the-user-view-in-the-resource-planner)
 * [Soporte para Google Team Drives](#support-for-google-team-drives)
 * [Nuevo límite de exportación para el gráfico Gantt](#new-export-limit-for-the-gantt-chart)

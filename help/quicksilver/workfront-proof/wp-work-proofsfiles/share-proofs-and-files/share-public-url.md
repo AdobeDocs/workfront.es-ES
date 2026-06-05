@@ -7,10 +7,15 @@ description: Puede compartir una prueba proporcionando el destinatario deseado c
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: b5fceaf9-f812-4368-8a13-d7fadebb7d28
-source-git-commit: 178fcf680fbf97e3fa634182f161ba3c73439fe5
+TQID: https://experienceleague.adobe.com/Sfs5JDtvASnydNXgW1QZhtsyLnFJ4BYXX-ueo27Fr-k
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '458'
-ht-degree: 0%
+source-wordcount: 460
+ht-degree: 8%
 
 ---
 
@@ -18,7 +23,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Este artículo hace referencia a la funcionalidad del producto independiente [!DNL Workfront Proof]. Para obtener información sobre la revisión dentro de [!DNL Adobe Workfront], vea [Revisión](../../../review-and-approve-work/proofing/proofing.md).
+>Este artículo hace referencia a la funcionalidad del producto independiente [!DNL Workfront Proof]. Para obtener información sobre la revisión dentro de [!DNL Adobe Workfront], consulte [Revisión](../../../review-and-approve-work/proofing/proofing.md).
 
 Puede compartir una prueba proporcionando el destinatario deseado con la URL de prueba pública.
 

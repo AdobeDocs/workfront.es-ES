@@ -7,12 +7,22 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 6761f5af-2501-4487-8114-2751f1e4fe69
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/R45hY-jNAlCSwIy-070BRL78-altmrnFIL1yNxxPrz8
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '2267'
-ht-degree: 10%
+source-wordcount: 2290
+ht-degree: 6%
 
 ---
 
@@ -28,9 +38,7 @@ Para obtener una lista de todas las características publicadas para Adobe Workf
 
 >[!NOTE]
 >
->Vista previa: 10 de julio de 2025
->Producción para todos: viernes, 10 de julio de 2025
->[!BADGE Fuera del horario]{type=Neutral}
+>Vista previa: 10 de julio de 2025>Producción para todos: 10 de julio de 2025>[!BADGE Fuera del horario]{type=Neutral}
 
 
 Hemos actualizado la pestaña Configuración avanzada al crear o editar un tipo de registro.
@@ -46,9 +54,7 @@ Para obtener más información, vea [Crear tipos de registros](/help/quicksilver
 
 >[!NOTE]
 >
->Vista previa: 10 de julio de 2025
->Producción para todos: viernes, 10 de julio de 2025
->[!BADGE Fuera del horario]{type=Neutral}
+>Vista previa: 10 de julio de 2025>Producción para todos: 10 de julio de 2025>[!BADGE Fuera del horario]{type=Neutral}
 
 Ahora, cuando agregue un equipo a un comentario de registro en Workfront Planning, todos los miembros del equipo recibirán una notificación sobre el comentario tanto en la aplicación como por correo electrónico. Antes de esta mejora, solo se notificaba a los usuarios añadidos a los comentarios individualmente
 
@@ -58,9 +64,7 @@ Para obtener más información, vea Administrar comentarios de registro [Adminis
 
 >[!NOTE]
 >
->Vista previa: 10 de julio de 2025
->Versión rápida de producción: viernes, 14 de agosto de 2025
->Producción para todos: viernes, 16 de octubre de 2025
+>Vista previa: 10 de julio de 2025>Versión rápida de producción: 14 de agosto de 2025>Producción para todos: 16 de octubre de 2025
 
 
 Ahora, cuando tenga agrupaciones aplicadas a una vista de tabla, al agregar un registro a la tabla se rellenarán automáticamente los campos asociados con las agrupaciones a las que agregue el registro.
@@ -75,8 +79,7 @@ Para obtener más información, consulte [Crear registros](/help/quicksilver/pla
 
 >[!NOTE]
 >
->Vista previa: 9 de julio de 2025
->Producción para todos: viernes, 17 de julio de 2025
+>Vista previa: 9 de julio de 2025>Producción para todos: 17 de julio de 2025
 
 Ahora puede compartir una vista y un tipo de registro desde el mismo botón de la página del tipo de registro. Antes de esta mejora, solo se podía compartir el tipo de registro desde el botón Compartir de la página de tipo de registro y una vista desde la pestaña de la vista.
 
@@ -106,7 +109,7 @@ For more information, see [Add an approval to a request form in Adobe Workfront 
 >[!NOTE]
 >
 >* Vista previa: 9 de julio de 2025
->* Producción para todos: viernes, 17 de julio de 2025
+>* Producción para todos: 17 de julio de 2025
 
 Para que la experiencia al compartir un formulario de solicitud en Workfront Planning sea más segura y sencilla, hemos realizado los siguientes cambios:
 
@@ -131,7 +134,7 @@ Para obtener más información, consulte [Crear y administrar un formulario de s
 >[!NOTE]
 >
 >* Vista previa: viernes, 26 de junio de 2025
->* Producción para todos: viernes, 17 de julio de 2025
+>* Producción para todos: 17 de julio de 2025
 
 Ahora puede contraer y expandir las agrupaciones en una vista de tabla mediante las áreas siguientes:
 
@@ -150,8 +153,7 @@ Para obtener más información, consulte [Administrar la vista de tabla](/help/q
 >[!NOTE]
 >
 >* Vista previa: viernes, 26 de junio de 2025
->* Producción para todos: viernes, 26 de junio de 2025
->[!BADGE Fuera del horario]{type=Neutral}
+>* Producción para todos: 26 de junio de 2025>[!BADGE Fuera del horario]{type=Neutral}
 
 Ahora, al conectar tipos de registros e incluir un campo de fórmula como búsqueda, puede aplicar las funciones de agregado (SUM, AVERAGE, MIN, MAX, etc.) según el formato del campo de fórmula. Por ejemplo, si el campo de fórmula es numérico, puede utilizar funciones como SUMA o PROMEDIO; si el campo de fórmula tiene formato de texto, no se aplicarán funciones de agregado como SUMA.
 
@@ -164,7 +166,7 @@ Para obtener más información, consulte [Descripción general del campo de fór
 >[!NOTE]
 >
 >* Vista previa: viernes, 12 de junio de 2025
->* Versión rápida de producción: viernes, 17 de julio de 2025
+>* Versión rápida de producción: 17 de julio de 2025
 >* Producción para todos los clientes: 17 de julio de 2025
 
 Con esta actualización, al configurar trimestres personalizados en el área Preferencias de proyecto de Configuración, los trimestres personalizados están disponibles para la vista Cronología en Workfront Planning.
@@ -186,8 +188,7 @@ Para obtener más información, consulte [Habilitar trimestres personalizados pa
 >[!NOTE]
 >
 >* Vista previa: viernes, 12 de junio de 2025
->* Producción para todos: viernes, 12 de junio de 2025
->[!BADGE Fuera del horario]{type=Neutral}
+>* Producción para todos: 12 de junio de 2025>[!BADGE Fuera del horario]{type=Neutral}
 
 Hemos introducido una mejora que actualiza todos los campos de fórmula dependientes entre sí al mismo tiempo después de que un campo al que se hace referencia se actualice manualmente. Los campos de fórmula que están a 2, 3 o 4 campos del campo cuyo valor se cambia manualmente y que se hacen referencia entre sí ahora se actualizarán automáticamente al mismo tiempo.
 
@@ -200,8 +201,7 @@ Para obtener más información, vea [Información general sobre los campos de f�
 >[!NOTE]
 >
 >* Vista previa: sábado, 06 de junio de 2025
->* Producción para todos los clientes: 6 de junio de 2025
->[!BADGE Fuera del horario]{type=Neutral}
+>* Producción para todos los clientes: 6 de junio de 2025>[!BADGE Fuera del horario]{type=Neutral}
 
 Se han agregado las siguientes expresiones a los campos de fórmula:
 
@@ -220,7 +220,7 @@ Para obtener más información, vea [Información general sobre los campos de f�
 >[!NOTE]
 >
 >* Vista previa: viernes, 29 de mayo de 2025
->* Versión rápida de producción: viernes, 12 de junio de 2025
+>* Versión rápida de producción: 12 de junio de 2025
 >* Producción para todos los clientes: 17 de julio de 2025
 
 Hemos agregado la siguiente funcionalidad a una lista de solicitudes en la pestaña Planificación del área Solicitudes:
@@ -244,8 +244,8 @@ Para obtener más información, consulte [Enviar solicitudes de Adobe Workfront 
 >[!NOTE]
 >
 >* Vista previa: viernes, 22 de mayo de 2025
->* Versión rápida de producción: viernes, 12 de junio de 2025
->* Producción para todos: viernes, 17 de julio de 2025
+>* Versión rápida de producción: 12 de junio de 2025
+>* Producción para todos: 17 de julio de 2025
 
 Hemos cambiado la experiencia al desglosar registros en la vista de cronología y se le ha aplicado la vista Compacta.
 Con la nueva actualización, cuando se definen los objetos de desglose mientras se muestra la línea de tiempo en el modo Compacto, se le pedirá que cambie la vista a Estándar una vez que haya terminado de configurar las condiciones de desglose.
@@ -261,8 +261,8 @@ Para obtener más información, consulte [Administrar la vista de cronología](/
 >[!NOTE]
 >
 >* Vista previa: viernes, 15 de mayo de 2025
->* Versión rápida de producción: viernes, 12 de junio de 2025
->* Producción para todos: viernes, 17 de julio de 2025
+>* Versión rápida de producción: 12 de junio de 2025
+>* Producción para todos: 17 de julio de 2025
 
 Ahora puede dar formato al aspecto de las barras de registro en la vista de escala de tiempo para los registros del desglose. Puede actualizar la siguiente configuración para las barras de estos registros:
 
@@ -278,8 +278,8 @@ Para obtener más información, vea [Administrar la vista de escala de tiempo](/
 >[!NOTE]
 >
 >* Vista previa: viernes, 15 de mayo de 2025
->* Versión rápida de producción: viernes, 12 de junio de 2025
->* Producción para todos: viernes, 17 de julio de 2025
+>* Versión rápida de producción: 12 de junio de 2025
+>* Producción para todos: 17 de julio de 2025
 
 Se ha añadido una nueva funcionalidad a Workfront Planning, donde puede exportar información visible en la vista de tabla a un archivo CSV o de Excel.  
 
@@ -289,15 +289,15 @@ Tenga en cuenta lo siguiente al exportar información desde la vista de tabla: �
 * El archivo exportado no admite miniaturas ni colores de fila personalizados.  
 * Solo se exportan los campos que se hacen visibles en la interfaz de Workfront. Los campos ocultos no se exportan.  
 
-Para obtener más información, vea [Administrar la vista de tabla](/help/quicksilver/planning/views/manage-the-table-view.md). 
+Para obtener más información, consulte [Administrar la vista de tabla](/help/quicksilver/planning/views/manage-the-table-view.md). 
 
 ## Los campos conectados de Workfront Planning ahora se admiten al importar registros mediante un archivo CSV o de Excel
 
 >[!NOTE]
 >
 >* Vista previa: viernes, 15 de mayo de 2025
->* Versión rápida de producción: viernes, 12 de junio de 2025
->* Producción para todos: viernes, 17 de julio de 2025
+>* Versión rápida de producción: 12 de junio de 2025
+>* Producción para todos: 17 de julio de 2025
 
 Ahora puede rellenar los valores de los campos conectados al agregar registros a un tipo de registro mediante un archivo CSV o de Excel.  Solo se admiten los campos de registro de Planning conectados. No se admiten campos que muestren conexiones con otras aplicaciones.
 
@@ -316,8 +316,8 @@ Para obtener más información, consulte los siguientes artículos:
 >[!NOTE]
 >
 >* Vista previa: 30 de abril de 2025
->* Versión rápida de producción: viernes, 15 de mayo de 2025
->* Producción para todos: viernes, 17 de julio de 2025
+>* Versión rápida de producción: 15 de mayo de 2025
+>* Producción para todos: 17 de julio de 2025
 
 Ahora puede editar registros en la página Registros conectados de un registro. Con esta actualización, hemos introducido lo siguiente:
 
@@ -333,8 +333,8 @@ Para obtener más información, vea [Administrar el diseño de la página de reg
 >[!NOTE]
 >
 >* Vista previa: 30 de abril de 2025
->* Versión rápida de producción: viernes, 15 de mayo de 2025
->* Producción para todos: viernes, 17 de julio de 2025
+>* Versión rápida de producción: 15 de mayo de 2025
+>* Producción para todos: 17 de julio de 2025
 
 Los usuarios de Standard y System Administrator ahora pueden encontrar el área de Planning en el menú principal de forma predeterminada, sin que se les asigne una plantilla de diseño que la incluya. Todos los demás usuarios deben tener una plantilla de diseño que incluya el área de Planning asignada para acceder a ella.
 
@@ -352,8 +352,8 @@ Para obtener más información, consulte [Descripción general de Adobe Workfron
 >[!NOTE]
 >
 >* Vista previa: 30 de abril de 2025
->* Versión rápida de producción: viernes, 15 de mayo de 2025
->* Producción para todos: viernes, 17 de julio de 2025
+>* Versión rápida de producción: 15 de mayo de 2025
+>* Producción para todos: 17 de julio de 2025
 
 Para obtener una mejor visibilidad de la información importante de sus registros, hemos introducido el formato de color de nivel de fila para la vista de tabla. Ahora puede elegir un color para cada fila después de definir las condiciones para cada opción.  Esta es una nueva capacidad que no existía antes de esta actualización.
 
@@ -364,8 +364,8 @@ Para obtener más información, consulte [Administrar la vista de tabla](/help/q
 >[!NOTE]
 >
 >* Vista previa: 23 de abril de 2025
->* Versión rápida de producción: viernes, 15 de mayo de 2025
->* Producción para todos: viernes, 17 de julio de 2025
+>* Versión rápida de producción: 15 de mayo de 2025
+>* Producción para todos: 17 de julio de 2025
 
 Ahora puede habilitar una configuración en la ficha Estilo de barra del cuadro Configuración de una vista de escala de tiempo para truncar nombres de registro más largos al mostrarlos en la vista Estándar. La configuración está deshabilitada de forma predeterminada y solo se puede habilitar cuando se muestra la vista de cronología en el modo Estándar. Como esta opción está deshabilitada, la información de las barras de registros se muestra expandida de forma predeterminada. Antes de esta mejora, la información de las barras de registro se truncaba de forma predeterminada.
 
@@ -376,8 +376,8 @@ Para obtener más información, consulte [Administrar la vista de cronología](/
 >[!NOTE]
 >
 >* Vista previa: 17 de abril de 2025
->* Versión rápida de producción: viernes, 17 de julio de 2025
->* Producción para todos: viernes, 17 de julio de 2025
+>* Versión rápida de producción: 17 de julio de 2025
+>* Producción para todos: 17 de julio de 2025
 
 Para controlar mejor quién puede ver o administrar registros en cada tipo de registro y garantizar que solo las personas autorizadas puedan administrar la información de cada tipo de registro en función de sus funciones y responsabilidades, hemos introducido permisos en el nivel de tipo de registro.
 

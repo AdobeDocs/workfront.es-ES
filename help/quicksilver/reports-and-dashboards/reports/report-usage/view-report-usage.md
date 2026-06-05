@@ -6,12 +6,22 @@ description: Ver uso del informe
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 51d9067c-8c55-433e-b560-7da241ef33ae
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/ww8outnwul3nadY343i2Z2vPqTuSFUzf1yNscwP-7zk
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '960'
-ht-degree: 19%
+source-wordcount: 968
+ht-degree: 21%
 
 ---
 
@@ -123,7 +133,7 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
 1. Haga clic en **Guardar filtro**.\
    Muestra una lista de informes que cumplen con la información de uso definida.\
    También puede crear un informe para el objeto de informe y utilizar este filtro en el informe.\
-   Para obtener más información sobre cómo generar un informe, consulte el artículo [Crear un informe personalizado](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md). Debe tener acceso de edición a los informes en su nivel de acceso para crear un informe.\
+   Para obtener más información sobre cómo generar un informe, consulte el artículo [Creación de un informe personalizado](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md). Debe tener acceso de edición a los informes en su nivel de acceso para crear un informe.\
    Para obtener más información acerca del acceso a los informes, consulte el artículo [Conceder acceso a informes, paneles de control y calendarios](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md).
 
 ## Excepciones al ver la información de uso del informe

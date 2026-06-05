@@ -5,10 +5,15 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: fc1c4466-edc3-4ff0-91bc-40c0e3af5eee
-source-git-commit: e620074ab0509e3052678e8c7e46e9629f3b34f2
+TQID: https://experienceleague.adobe.com/5w5U9xfVLMPOZxP0ZP-FUE5KAZbFAIbEnXiLEAZFojQ
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '329'
-ht-degree: 86%
+source-wordcount: 337
+ht-degree: 83%
 
 ---
 
@@ -54,7 +59,7 @@ Si el nuevo algoritmo no encuentra ninguna coincidencia, se aplican los criterio
 
 Considere también lo siguiente:
 
-* La lista de tareas inteligentes en una lista de tareas pasó de llamarse “Aquí hay algunas sugerencias” a llamarse “Asignaciones sugeridas”. 
+* La lista de tareas inteligentes en una lista de tareas pasó de llamarse “Aquí hay algunas sugerencias” a llamarse “Asignaciones sugeridas”.
 
 * No hay cambios en la forma en que se calculan las asignaciones inteligentes para los problemas. El nombre de la lista de asignaciones inteligentes en una lista de problemas es “Estas son algunas recomendaciones”.
 

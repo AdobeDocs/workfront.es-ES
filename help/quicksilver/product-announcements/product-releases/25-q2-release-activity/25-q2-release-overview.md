@@ -5,11 +5,29 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9b78a58e-7ced-4b13-8108-40bd36339667
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/n5lx62Rt8OEspaQx3l6gvV63JUnOVJ7GYqH1-lbIi88
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: b58ad82f-df6b-4b01-81a3-3a02ab9567a0
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+  - id: d3382524-5489-431b-bde9-271ab257bc37
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+  - id: fceb5125-bb41-419a-b0db-31958cb42f6c
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1653'
+source-wordcount: 1684
 ht-degree: 33%
 
 ---
@@ -117,7 +135,7 @@ Las versiones mensuales y trimestrales están planificadas para estar disponible
             <p><b>Disponible en estas fechas:</b></p>
             <ul>
                 <li>Versión preliminar: viernes, 20 de marzo de 2025</li>
-                <span class="preview"><li>Lanzamiento de producción para todos los clientes: viernes, 20 de marzo de 2025</li></span>
+                <span class="preview"><li>Versión de producción para todos los clientes: 20 de marzo de 2025</li></span>
             </ul>
         </td>
     </tr>                          
@@ -131,7 +149,7 @@ Las versiones mensuales y trimestrales están planificadas para estar disponible
             <p><b>Disponible en estas fechas:</b></p>
             <ul>
                 <li>Versión de vista previa: viernes, 06 de febrero de 2025</li>
-                <span class="preview"><li>Lanzamiento de producción para todos los clientes: viernes, 13 de marzo de 2025</li></span>
+                <span class="preview"><li>Versión de producción para todos los clientes: 13 de marzo de 2025</li></span>
             </ul>
         </td>
     </tr>                          
@@ -159,7 +177,7 @@ Las versiones mensuales y trimestrales están planificadas para estar disponible
             <p><b>Disponible en estas fechas:</b></p>
             <ul>
                 <li>Versión preliminar: N/D</li>
-                <span class="preview"><li>Lanzamiento de producción para todos los clientes: jueves, 12 de marzo de 2025</li> 
+                <span class="preview"><li>Versión de producción para todos los clientes: 12 de marzo de 2025</li> 
             </ul>
             <p><b>Disponible en estos entornos:</b></p>
             <ul>
@@ -210,7 +228,7 @@ Las versiones mensuales y trimestrales están planificadas para estar disponible
             <p><b>Disponible en estas fechas:</b></p>
             <ul>
                 <li>Versión preliminar: miércoles, 25 de marzo de 2025</li>
-                <li>Lanzamiento de producción para todos los clientes: miércoles, 25 de marzo de 2025</li>
+                <li>Versión de producción para todos los clientes: 25 de marzo de 2025</li>
             </ul>
         </td>
     </tr>                          
@@ -252,7 +270,7 @@ Las versiones mensuales y trimestrales están planificadas para estar disponible
         <td>
             <p><b>Disponible en estas fechas:</b></p>
             <ul>
-                <span class="preview"><li>Lanzamiento de producción para todos los clientes: viernes, 06 de marzo de 2025</li></span>
+                <span class="preview"><li>Versión de producción para todos los clientes: 6 de marzo de 2025</li></span>
             </ul>
         </td>
     </tr>

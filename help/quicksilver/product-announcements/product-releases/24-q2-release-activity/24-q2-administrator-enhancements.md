@@ -5,10 +5,22 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: a297ee8d-d949-45ab-a219-437316fa8fa3
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+TQID: https://experienceleague.adobe.com/xcYDVGJSTKtR0dRM3EhQf62WokddEzsudevZ6Ur6Wn0
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2:
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '791'
-ht-degree: 0%
+source-wordcount: 827
+ht-degree: 96%
 
 ---
 
@@ -24,9 +36,9 @@ Para obtener una lista de todos los cambios disponibles en este punto del ciclo 
 >
 >Versión de vista previa: 28 de marzo de 2024; producción para todos los clientes: 24.4 (11 de abril de 2024)
 
-El diseñador de formularios personalizado beta ahora le permite probar la lógica de visualización y omitir la lógica en el modo de vista previa. Anteriormente, todos los campos se mostraban en la vista previa incluso cuando se aplicaba la lógica.
+El diseñador de formularios personalizado de la versión beta ahora le permite probar la lógica de visualización y omitir la lógica en el modo de vista previa. Anteriormente, todos los campos se mostraban en la vista previa incluso cuando se aplicaba la lógica.
 
-Para obtener más información sobre la vista previa de un formulario personalizado en el diseñador de formularios, vea [Organizar y obtener una vista previa de un formulario con el diseñador de formularios](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/organize-a-form.md).
+Para obtener más información sobre la vista previa de un formulario personalizado en el diseñador de formularios, consulte [Organizar y obtener una vista previa de un formulario con el diseñador de formularios](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/organize-a-form.md).
 
 ## Las empresas y los usuarios ahora admiten campos de formulario personalizados avanzados
 
@@ -48,25 +60,25 @@ La integración existente de JumpSeat ya está disponible para las cuentas que u
 
 Para obtener más información sobre la integración de JumpSeat, consulte [Configurar la integración de JumpSeat](/help/quicksilver/administration-and-setup/configure-integrations/configure-jumpseat.md).
 
-## Los campos nativos de Workfront están disponibles en la versión beta de Forms Designer
+## Los campos nativos de Workfront están disponibles en la versión beta del diseñador de formularios
 
 >[!NOTE]
 >
 >Versión preliminar: 29 de febrero de 2024; producción para versión rápida: con la versión 24.3 (14 de marzo de 2024); producción para todos los clientes: 24.4 (11 de abril de 2024)
 
-Los campos nativos de Workfront ya están disponibles para que los agregue a sus formularios personalizados. Este nuevo tipo de campo le permite organizar y presentar datos a los usuarios de una manera lógica, sin tener que volver a crear los datos existentes en los campos personalizados.
+Los campos nativos de Workfront ya están disponibles para que los añada a sus formularios personalizados. Este nuevo tipo de campo le permite organizar y presentar datos a los usuarios de una manera lógica, sin tener que volver a crear los datos existentes en los campos personalizados.
 
-Después de seleccionar Campo nativo en la lista de campos de formulario personalizados para agregar el campo al diseñador de formularios, puede seleccionar cualquier campo nativo para los objetos del formulario. Por ejemplo, si la lista Tipos de objetos de la parte superior del diseñador de formularios muestra Proyecto, podrá seleccionar campos nativos para proyectos, pero no campos específicos de tareas.
+Después de seleccionar Campo nativo en la lista de campos de formulario personalizados para añadir el campo al diseñador de formularios, puede seleccionar cualquier campo nativo para los objetos del formulario. Por ejemplo, si la lista Tipos de objetos de la parte superior del diseñador de formularios muestra Proyecto, podrá seleccionar campos nativos para proyectos, pero no campos específicos de tareas.
 
-Cuando el formulario personalizado se adjunta a un objeto, el campo se rellena a partir de los datos del objeto. Por ejemplo, el campo Descripción de un formulario personalizado adjunto a un proyecto extraerá la descripción del proyecto. (El campo puede mostrar &quot;N/D&quot; si no hay datos disponibles).
+Cuando el formulario personalizado se adjunta a un objeto, el campo se rellena a partir de los datos del objeto. Por ejemplo, el campo Descripción de un formulario personalizado adjunto a un proyecto extraerá la descripción del proyecto. (Puede que el campo muestre &quot;N/D&quot; si no hay datos disponibles).
 
-Los campos nativos utilizados en los formularios personalizados están disponibles en la biblioteca de campos del diseñador para su reutilización. También están visibles en el área Configuración > Forms personalizado > Campos para que pueda ver en qué formularios se utilizan.
+Los campos nativos utilizados en los formularios personalizados están disponibles en la biblioteca de campos del diseñador para su reutilización. También están visibles en el área Configuración > Formularios personalizados > Campos para que pueda ver en qué formularios se utilizan.
 
-Esta función solo está disponible en la versión beta de Forms Designer, no en el generador de formularios heredado.
+Esta función solo está disponible en la versión beta del diseñador de formularios, no en el generador de formularios heredado.
 
 Para obtener más información, consulte [Crear un formulario personalizado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
-[Ver una demostración en vídeo de esta característica.](https://video.tv.adobe.com/v/3427702/){target=_blank}
+[Vea un vídeo de demostración de esta función.](https://video.tv.adobe.com/v/3427702/){target=_blank}
 
 ## La asignación de atributos ya está disponible para las organizaciones que han migrado a Adobe IMS
 
@@ -80,13 +92,13 @@ Anteriormente, esta funcionalidad solo estaba disponible para organizaciones que
 
 Para obtener instrucciones sobre cómo configurar la asignación de atributos, consulte [Asignar atributos de usuario en la experiencia unificada de Adobe](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/map-user-attributes.md#map-user-attributes-in-the-adobe-unified-experience) en el artículo **Asignar atributos de usuario y aprovisionar automáticamente nuevos usuarios**.
 
-## La lógica de omisión y la lógica de visualización ya están disponibles en la versión beta de Forms Designer
+## La lógica de omisión y la lógica de visualización ya están disponibles en la versión beta del diseñador de formularios
 
 >[!NOTE]
 >
 >Versión preliminar: 8 de febrero de 2024; producción para versión rápida: con la versión 24.2 (15 de febrero de 2024); producción para todos los clientes: 24.4 (11 de abril de 2024)
 
-Ahora puede editar la visualización existente y la lógica de omisión y agregar nueva lógica a los formularios personalizados en la versión beta de Forms Designer. Un generador de lógica fácil de usar le ayuda a definir qué campos mostrar u omitir en función de las selecciones en el formulario.
+Ahora puede editar la visualización existente y la lógica de omisión, y añadir una nueva lógica a los formularios personalizados en la versión beta del diseñador de formularios. Un generador de lógica fácil de usar le ayuda a definir qué campos mostrar u omitir en función de las selecciones en el formulario.
 
 Los iconos de un campo en el lienzo del diseñador de formularios indican que la lógica está configurada en ese campo o que el campo se utiliza en reglas lógicas configuradas en otros campos.
 

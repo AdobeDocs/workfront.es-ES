@@ -7,12 +7,22 @@ description: Puede tener un estado de tarea asignado al grupo A denominado Nuevo
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 8ddcd8b1-44a9-4341-80c7-76ba70d2953b
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/qOu5WArxekdKKXAswMAtapaOHX36J9vGMpUom614lvE
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '472'
-ht-degree: 64%
+source-wordcount: 479
+ht-degree: 60%
 
 ---
 
@@ -20,7 +30,7 @@ ht-degree: 64%
 
 <!--Audited: 10/2024-->
 
-Puede asignarse un estado de tarea al grupo A denominado *Nuevo estado* con la clave de tres letras *NST*. Es posible que tenga otro estado de tarea asignado al grupo B también denominado *Nuevo estado* con la clave de tres letras *NES.* Aunque los nombres de los dos estados pueden ser idénticos, el código de tres letras siempre es único.
+Puede asignarse un estado de tarea al grupo A denominado *Nuevo estado* con la clave de tres letras *NST*. Es posible que tenga otro estado de tarea asignado al Grupo B también denominado *Nuevo estado* con la clave de 3 letras *NES.* Aunque los nombres de los dos estados pueden ser idénticos, el código de tres letras siempre es único.
 
 Para obtener más información acerca de los estados de grupo, vea [Crear o editar un estado de grupo](../../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md).
 
