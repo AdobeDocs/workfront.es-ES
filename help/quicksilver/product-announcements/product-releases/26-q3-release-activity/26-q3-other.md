@@ -4,9 +4,9 @@ description: Otras mejoras durante el periodo de tiempo de lanzamiento del terce
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: d5136ed606ab50c403552a4be9ee5dc845b27eaa
+source-git-commit: a207fe30b02ed006d37bd07a72274e085db68e60
 workflow-type: tm+mt
-source-wordcount: '606'
+source-wordcount: '605'
 ht-degree: 1%
 
 ---
@@ -22,7 +22,7 @@ Para obtener una lista de todos los cambios disponibles en este punto del ciclo 
 
 >[!NOTE]
 >
->Lanzamiento de la producción para los clientes: lanzamiento gradual, fecha de inicio por anunciar
+>Versión de producción para clientes: Despliegue gradual a partir del 16 de julio de 2026
 
 Las notificaciones por correo electrónico de los comentarios en el área de Actualizaciones tienen una nueva apariencia que se alinea con el diseño de correo electrónico de Adobe más amplio.
 
