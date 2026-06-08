@@ -9,21 +9,15 @@ exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/yrm4kF5GdUGyOaR1AraNwLk3HHpEm1lEkT6r9HQsd4Q
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
-subfeature_v2:
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 18ed9f36e497b0e419e3e119da50c85920e226df
 workflow-type: tm+mt
-source-wordcount: 3019
-ht-degree: 9%
+source-wordcount: 3129
+ht-degree: 8%
 
 ---
 
@@ -212,7 +206,7 @@ Para obtener más información, consulte [Crear registros](/help/quicksilver/pla
    >
    >  No puede editar la información de los siguientes campos, ya que son de solo lectura y Workfront los actualiza automáticamente:
    >  
-   >  * Campos vinculados que se crean conectando tipos de registro. Para obtener más información, consulte [Conectar tipos de registro](/help/quicksilver/planning/architecture/connect-record-types.md).
+   >  * Campos de búsqueda de conexión que se crean conectando tipos de registros y campos de búsqueda agregados. Para obtener más información, consulte [Conectar tipos de registro](/help/quicksilver/planning/architecture/connect-record-types.md).
    >  * Campos de los siguientes tipos: Creado por, Fecha de creación, Última modificación por, Fecha de última modificación, Campos de fórmula.
 
 1. (Opcional y condicional) Cuando edite un campo de tipo Párrafo, utilice las siguientes opciones de formato de **Texto enriquecido**:
@@ -229,22 +223,24 @@ Para obtener más información, consulte [Crear registros](/help/quicksilver/pla
 1. (Opcional) Haga doble clic en un campo de registro conectado para agregar registros u objetos conectados a otro registro. Para obtener más información, consulte [Conectar registros](/help/quicksilver/planning/records/connect-records.md).
 1. Presione **Enter** en el teclado o haga clic fuera de una fila para guardar los cambios. Los cambios se guardan automáticamente. Un indicador **Guardado** aparece brevemente en la esquina superior derecha de la vista de tabla para mostrar que los cambios se han guardado.
 
-
 1. (Opcional) Para copiar y pegar información de un campo a otro, siga uno de estos procedimientos:
 
    * Copie uno o varios valores existentes de un campo y péguelos en un campo del mismo tipo en otro registro
    * Haga clic en el encabezado de una columna para seleccionarla y copiarla. A continuación, haga clic en el encabezado de otra columna y pegue el contenido de la columna copiada. Las columnas deben contener tipos de campo similares.
-   * Con la tecla Mayús pulsada, haga clic en para seleccionar varias filas de una tabla, copie la información de las filas seleccionadas y, a continuación, haga clic en una fila diferente y pegue la información seleccionada en la nueva fila y en las filas siguientes.
+   * Con la tecla Mayús pulsada, haga clic en para seleccionar varias filas de una tabla, copie la información de las filas seleccionadas y, a continuación, haga clic en una fila diferente y pegue la información seleccionada en la nueva fila y en las filas siguientes. <!--<span class="preview">This is not possible in the Preview environment.</span>-->
    * Copie la información de una celda, seleccione varias celdas y pegue la misma información en varias celdas. Puede seleccionar varias celdas y pegar la misma información en varias celdas de filas y columnas adyacentes.
    * Seleccione la esquina inferior derecha de una celda existente que contiene la información que desea copiar y, a continuación, arrástrela y suéltela sobre las celdas adyacentes en las que desee pegar la misma información. Todas las celdas deben contener el mismo tipo de información.
 
      ![Esquina inferior derecha arrastrable para copiar y pegar en la vista de tabla](assets/dragable-lower-right-corner-for-copy-paste-in-table-view.png)
 
-
    * Copie una o varias celdas de un origen externo (por ejemplo, un archivo de Excel) y péguelas en uno de los siguientes tipos de campos:
 
-      * Campos de conexión de Workfront Planning.
+      * Campos de conexión de Workfront Planning.\
+        <!--<span class="preview">This is not possible in the Preview environment.</span>-->
       * Campos de personas. Solo se admiten campos con un valor.
+      * Campos de texto.
+      * Seleccione campos.
+      * Campos de número, porcentaje y moneda.
 
      No puede copiar información de un origen externo y pegarla en ningún otro tipo de campo, incluidos los campos de conexión de Workfront u otras aplicaciones.
 
@@ -256,11 +252,12 @@ Para obtener más información, consulte [Crear registros](/help/quicksilver/pla
    >   * Copiar: CTRL + C (⌘ + C para Mac)
    >   * Pegar: CTRL + V (⌘ + V para Mac)
    >
-   >* No se pueden copiar y pegar valores de campo en la página de registro. Esta funcionalidad solo se admite en la vista de tabla de un tipo de registro.
+   >* No puede copiar y pegar valores de campo en la página de detalles del registro. Esta funcionalidad solo se admite en la vista de tabla de un tipo de registro.
    >* No puede copiar y pegar valores de campo para los siguientes tipos de campo:
    >
    >    * Campos de búsqueda que se crean al conectar tipos de registros. Puede copiar y pegar campos de registro vinculados. Para obtener más información, consulte [Conectar tipos de registro](/help/quicksilver/planning/architecture/connect-record-types.md).
    >    * Campos de los siguientes tipos: Creado por, Fecha de creación, Última modificación por, Fecha de última modificación
+   >* Al copiar y pegar campos de conexión o seleccionar valores de campo, los valores que copie deben existir primero en Workfront Planning.
 
 1. (Opcional) Utilice los siguientes métodos abreviados del teclado para deshacer o rehacer la edición o copiar y pegar la información de los registros:
 
@@ -269,9 +266,17 @@ Para obtener más información, consulte [Crear registros](/help/quicksilver/pla
 
    >[!TIP]
    >
-   >    Puede utilizar los métodos abreviados de teclado varias veces seguidas para deshacer varios cambios.
+   >Puede utilizar los métodos abreviados de teclado varias veces seguidas para deshacer varios cambios.
 
-1. (Opcional) Agregue una miniatura a un registro. Para obtener más información, consulte [Añadir una miniatura a un registro](/help/quicksilver/planning/records/add-thumbnails-to-records.md).
+1. (Opcional) Haga clic en el menú **Más** ![Más menú](assets/more-menu.png) que se encuentra a la derecha del nombre del registro y elija entre las siguientes opciones:
+
+   * **Vista** <!--or <span class="preview"Open in new tab</span>-->: Se abre la página de registro.
+   * **Copiar vínculo**: para copiar un vínculo en la página del registro.
+   * **Editar miniatura**: Para agregar una miniatura a un registro.
+Para obtener más información, consulte [Agregar una miniatura a un registro](/help/quicksilver/planning/records/add-thumbnails-to-records.md).
+   * **Duplicado**: Esto crea un duplicado idéntico del registro.
+   * **Insertar registro arriba/ Insertar registro abajo**: Agrega una fila nueva para que pueda agregar un registro nuevo. <!--<span class="preview">This is not possible in the Preview environment.</span>-->
+   * **Eliminar**: Para eliminar el registro. Los registros eliminados se guardan en el cuadro Eliminados recientemente durante un máximo de 30 días.
 
 
 ### Editar un registro en la vista de cronología de un tipo de registro
