@@ -21,7 +21,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+source-git-commit: 18ed9f36e497b0e419e3e119da50c85920e226df
 workflow-type: tm+mt
 source-wordcount: 1404
 ht-degree: 67%
@@ -174,7 +174,7 @@ Puede crear un proyecto desde el área Proyectos del menú principal o desde el 
 
       * Una plantilla de almacenamiento heredada de Workfront
 
-        las plantillas de almacenamiento de Workfront heredadas muestran un icono de almacenamiento heredado ![Legacy Storage Icon](assets/legacy-storage-project-icon.png) junto a su nombre.
+        Las plantillas de almacenamiento de Workfront heredadas muestran un icono de almacenamiento heredado ![Legacy Storage Icon](assets/legacy-storage-project-icon.png) junto a su nombre.
 
         Los documentos de la plantilla y de los proyectos futuros se almacenarán en el almacenamiento de Workfront.
       * Una plantilla de almacenamiento en la nube de Adobe
