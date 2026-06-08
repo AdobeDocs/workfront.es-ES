@@ -5,10 +5,10 @@ title: Herramientas del servidor MCP de Adobe Workfront
 description: Lista de referencia de las herramientas disponibles a través del servidor MCP de Adobe Workfront, agrupadas por área de Workfront.
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: a2b2da49e9aba808dc7567bd5a7f29adeb381c1d
+source-git-commit: 648342f0002046febba1b8e751bc1cffec2c1346
 workflow-type: tm+mt
-source-wordcount: '1559'
-ht-degree: 9%
+source-wordcount: '1578'
+ht-degree: 8%
 
 ---
 
@@ -43,7 +43,7 @@ Si la plataforma agéntica de IA puede encontrar elementos de Workfront pero no 
 ### Documentos
 
 | Título | Nombre de herramienta | Qué hace | Acción |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Buscar versión del documento por nombre | `approvals_find_document_version_by_name` | Busca el identificador de la versión actual de un documento por nombre de archivo. Admite coincidencias parciales. | Leer |
 | Obtener documento por ID de versión | `approvals_get_document_by_version_id` | Obtiene detalles del documento (nombre, tamaño, fecha de carga, cargador) para un ID de versión de documento conocido. | Leer |
 | Obtener documentos por proyecto | `approvals_get_documents_by_project` | Enumera los documentos de un proyecto de Workfront, con el ID de versión actual de cada documento. | Leer |
@@ -63,7 +63,7 @@ Si la plataforma agéntica de IA puede encontrar elementos de Workfront pero no 
 ### Flujos de trabajo de aprobación
 
 | Título | Nombre de herramienta | Qué hace | Acción |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Obtener información del flujo de trabajo de aprobación | `approvals_get_approval_info` | Devuelve el flujo de trabajo de aprobación actual (fases, participantes, estado) de una versión de documento. | Leer |
 | Crear o actualizar flujo de trabajo de aprobación | `approvals_create_or_update_approval_workflow` | Crea o actualiza las fases del flujo de trabajo de aprobación para una versión de documento. Admite dependencias de escenario lineales y paralelas (gráfico). | Escritura |
 | Crear aprobación a partir de plantilla | `approvals_create_approval_from_template` | Crea un flujo de trabajo de aprobación en un documento utilizando una plantilla existente. | Escritura |
@@ -76,14 +76,14 @@ Si la plataforma agéntica de IA puede encontrar elementos de Workfront pero no 
 ### Recordatorios
 
 | Título | Nombre de herramienta | Qué hace | Acción |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Enviar recordatorio a los participantes | `approvals_send_reminder_to_participants` | Envía correos electrónicos de recordatorio a participantes específicos en una fase de aprobación. Solo funciona para fases iniciadas, no completadas y no bloqueadas. | Escritura |
 | Enviar recordatorio a los participantes indecisos | `approvals_send_reminder_to_undecided` | Envía correos electrónicos de recordatorio a todos los participantes indecisos (notificados, abiertos o comentados) en una fase de aprobación. | Escritura |
 
 ### Plantillas de aprobación
 
 | Título | Nombre de herramienta | Qué hace | Acción |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Enumerar plantillas de aprobación | `approvals_list_templates` | Muestra las plantillas de aprobación disponibles en esta instancia de Workfront. Admite el filtrado por creador, participante y la ordenación por uso. | Leer |
 | Buscar plantilla por nombre | `approvals_search_template_by_name` | Busca plantillas de aprobación por nombre (coincidencia parcial sin distinción de mayúsculas y minúsculas). | Leer |
 | Crear plantilla de aprobación | `approvals_create_template` | Crea una nueva plantilla de aprobación con dependencias de fase lineales o basadas en gráficos. | Escritura |
@@ -92,7 +92,7 @@ Si la plataforma agéntica de IA puede encontrar elementos de Workfront pero no 
 ### Búsquedas y usuarios
 
 | Título | Nombre de herramienta | Qué hace | Acción |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Obtener usuario actual | `approvals_get_current_user` | Devuelve la identidad de Workfront del usuario que realiza la llamada, incluidos el nombre, el ID de usuario, el nombre del equipo de inicio y el ID del equipo de inicio. | Leer |
 | Buscar usuario por nombre | `approvals_find_user_by_name` | Busca el ID de un usuario de Workfront por nombre (coincidencia parcial o parcial). Devuelve el nombre, el ID, el correo electrónico, el título y la dirección URL del avatar. | Leer |
 | Buscar equipo por nombre | `approvals_find_team_by_name` | Busca el ID de un equipo de Workfront por nombre (coincidencia parcial o parcial). | Leer |
@@ -102,10 +102,14 @@ Si la plataforma agéntica de IA puede encontrar elementos de Workfront pero no 
 
 ## Herramientas de planificación
 
+>[!IMPORTANT]
+>
+>* Para utilizar MCP con Workfront Planning, su organización debe estar en un paquete de Workfront que incluya Adobe Workfront Planning.
+
 ### Espacios de trabajo
 
 | Título | Nombre de herramienta | Qué hace | Acción |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Obtener espacio de trabajo | `planning_get_workspace` | Recupera todos los detalles de un espacio de trabajo por ID o alias. | Leer |
 | Obtener lista de Workspace | `planning_get_workspace_list` | Enumera todos los espacios de trabajo disponibles con paginación basada en cursor. | Leer |
 | Crear espacio de trabajo | `planning_create_workspace` | Crea un nuevo espacio de trabajo vacío para organizar los tipos de registro, los campos y los datos. | Escritura |
@@ -119,7 +123,7 @@ Si la plataforma agéntica de IA puede encontrar elementos de Workfront pero no 
 ### Tipos de registro
 
 | Título | Nombre de herramienta | Qué hace | Acción |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Obtener tipo de registro | `planning_get_record_type` | Obtiene todos los detalles de un tipo de registro, incluidos sus campos y vistas. | Leer |
 | Crear tipos de registro | `planning_create_record_types` | Crea uno o varios tipos de registros en una sección de Workspace. | Escritura |
 | Actualizar tipo de registro | `planning_update_record_type` | Actualiza parcialmente el nombre, la descripción, el icono o el color de un tipo de registro. | Escritura |
@@ -135,7 +139,7 @@ Si la plataforma agéntica de IA puede encontrar elementos de Workfront pero no 
 ### Registros
 
 | Título | Nombre de herramienta | Qué hace | Acción |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Obtener registro | `planning_get_record` | Recupera todos los detalles de un único registro por ID. | Leer |
 | Búsqueda de registros | `planning_search_records` | Busca y filtra registros dentro de un tipo de registro. | Leer |
 | Acciones de registro masivo | `planning_bulk_record_actions` | Crea, actualiza, elimina o restaura varios registros en una sola solicitud. | Escritura |
@@ -148,7 +152,7 @@ Si la plataforma agéntica de IA puede encontrar elementos de Workfront pero no 
 ### Campos
 
 | Título | Nombre de herramienta | Qué hace | Acción |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Obtener campo | `planning_get_field` | Recupera los detalles completos y el esquema de valores de un campo por ID. | Leer |
 | Crear campos | `planning_create_fields` | Agrega uno o más campos (columnas) a un tipo de registro. | Escritura |
 | Actualizar campo | `planning_update_field` | Actualiza parcialmente el nombre, descripción, opciones o configuración de un campo. | Escritura |
@@ -157,7 +161,7 @@ Si la plataforma agéntica de IA puede encontrar elementos de Workfront pero no 
 ### Vistas
 
 | Título | Nombre de herramienta | Qué hace | Acción |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Obtener vista | `planning_get_view` | Devuelve los detalles completos de una vista por ID. | Leer |
 | Crear vista | `planning_create_view` | Crea una nueva vista de tabla, cronología o calendario para un tipo de registro. | Escritura |
 | Actualizar vista | `planning_update_view` | Actualiza parcialmente la configuración, los filtros o la ordenación de una vista existente. | Escritura |
@@ -168,14 +172,14 @@ Si la plataforma agéntica de IA puede encontrar elementos de Workfront pero no 
 ### Plantillas
 
 | Título | Nombre de herramienta | Qué hace | Acción |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Obtener lista de plantillas | `planning_get_template_list` | Muestra todas las plantillas de Workspace disponibles con información de resumen. | Leer |
 | Obtener plantilla | `planning_get_template` | Recupera todos los detalles de una plantilla específica por ID. | Leer |
 
 ### Búsqueda y utilidades
 
 | Título | Nombre de herramienta | Qué hace | Acción |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Búsqueda de recursos | `planning_search_resources` | Busca por nombre en espacios de trabajo, tipos de registro y vistas. | Leer |
 | Buscar datos compartidos | `planning_search_sharing_data` | Busca usuarios, grupos, equipos, funciones y empresas por nombre para compartir y permisos. | Leer |
 | Buscar usuarios | `planning_search_users` | Busca usuarios compatibles con la paginación. | Leer |
@@ -185,7 +189,7 @@ Si la plataforma agéntica de IA puede encontrar elementos de Workfront pero no 
 Las herramientas de flujo de trabajo son las acciones de uso general que utiliza la plataforma agéntica de IA para trabajar con cualquier objeto de Workfront: proyectos, tareas, problemas, horas, asignaciones, programas, portafolios, etc.
 
 | Título | Nombre de herramienta | Qué hace | Acción |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Buscar objetos | `workflow_search_any_object` | Busca objetos de Workfront con parámetros de filtro, orden y paginación flexibles. | Leer |
 | Crear objeto | `workflow_create_any_object` | Crea un nuevo objeto de Workfront, como un proyecto, una tarea, un problema, una hora, una asignación, un programa o un portafolio. | Escritura |
 | Actualizar objeto | `workflow_update_any_object` | Actualiza los campos de un objeto de Workfront existente. | Escritura |
