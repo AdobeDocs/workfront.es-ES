@@ -5,9 +5,9 @@ title: Configuración del servidor MCP de Adobe Workfront
 description: Configure su instancia de Workfront y su plataforma agéntica de IA para poder trabajar con Workfront a través de una conversación en lenguaje natural.
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: 7d961bca74884baa869f92a24a3f586500b824a5
+source-git-commit: 648342f0002046febba1b8e751bc1cffec2c1346
 workflow-type: tm+mt
-source-wordcount: '1272'
+source-wordcount: '1291'
 ht-degree: 0%
 
 ---
@@ -44,6 +44,8 @@ Para poder conectar Workfront a una plataforma independiente de IA, debe:
 * Tener una cuenta activa de [!DNL Adobe Workfront] con permiso para tener acceso a los datos con los que desea trabajar
 * Tener acceso a una plataforma agéntica de IA como [!DNL Claude]
 * La instancia de Workfront debe estar habilitada en Adobe Identity Management System (IMS).
+* Para utilizar MCP con Workfront Planning, su organización debe estar en un paquete de Workfront que incluya Adobe Workfront Planning.
+
 
 ### Requisitos previos de administración
 
@@ -210,7 +212,7 @@ What happens next
 +++ Amplíe para ver sugerencias de solución de problemas para la configuración y autenticación del servidor MCP de Workfront.
 
 | Problema | Causa probable | Corregir |
-|---|---|---|
+| --- | --- | --- |
 | No se encuentra el conector [!DNL Adobe Workfront] en [!DNL Claude]. | El administrador de [!DNL Claude] no lo ha habilitado. | Póngase en contacto con el administrador de [!DNL Claude] (no con el administrador de Workfront) y pídale que habilite el conector [!DNL Adobe Workfront]. |
 | Se ha conectado, pero no puede ver los datos. | Se ha autenticado en la instancia incorrecta de Workfront. | Desconecte el conector, vuelva a conectarse y autentique en la instancia correcta. |
 | Error de autenticación o la conexión dejó de funcionar. | La sesión de autenticación ha caducado o hay un error de conexión. | Desconecte y vuelva a conectar el conector. |
@@ -239,4 +241,4 @@ Tanto el administrador de Workfront como el administrador de la plataforma agén
 
 No. La instancia de Workfront debe estar habilitada en Adobe Identity Management System (IMS) para utilizar el servidor MCP de Workfront. Si no está seguro de si la instancia está habilitada en IMS, póngase en contacto con el administrador de Workfront.
 
-+++
++++ 
