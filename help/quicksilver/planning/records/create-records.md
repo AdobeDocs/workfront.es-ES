@@ -20,7 +20,7 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 3e6eb56cfb0713c19326fbf7914688007195fd1b
 workflow-type: tm+mt
 source-wordcount: 3224
 ht-degree: 20%
@@ -282,8 +282,8 @@ Los registros del tipo seleccionado se muestran en la vista.
      >
      >Cuando se agrega un nuevo registro después del último registro de una agrupación o subagrupación, Workfront rellena automáticamente los campos incluidos en las agrupaciones. Puede editar manualmente estos campos, si es necesario, y los registros pueden eliminarse de la agrupación.
 
-   * Haga clic en **Mayús + Intro** en el teclado desde cualquier columna o fila de la tabla. Esto añade una fila vacía debajo del registro desde el que comienza.
-   * Pase el ratón sobre el campo principal de un registro, haga clic en el menú **Más** ![Menú más](assets/more-menu.png), a la derecha del campo, y luego haga clic en **Insertar registro arriba** o **Insertar registro abajo**.
+   * Haga clic en **Mayús + Intro** en el teclado desde cualquier columna o fila de la tabla. Esto agrega una fila vacía debajo del registro desde el que comienza. <!--<span class="preview"> This is not possible in the Preview environment</span>-->
+   * Pase el ratón sobre el campo principal de un registro, haga clic en el menú **Más** ![Menú más](assets/more-menu.png), a la derecha del campo, y luego haga clic en **Insertar registro arriba** o **Insertar registro abajo**. <!--<span class="preview"> This is not possible in the Preview environment</span>-->
 
    ![Agregando una nueva campaña en la fila de la tabla](assets/adding-a-new-campaign-in-table-row.png)
 
