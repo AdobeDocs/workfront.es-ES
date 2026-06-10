@@ -10,18 +10,14 @@ exl-id: 64612345-d1ce-41db-939b-3af30d1c6a51
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/IdrQfkprrzF-Jt-ZwlnVfvIO07B2ejvbOLhbAhPh8Lc
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: ea4de44f0669ca78eabe9f35f94f49fee2e5d016
 workflow-type: tm+mt
-source-wordcount: 822
-ht-degree: 35%
+source-wordcount: 850
+ht-degree: 34%
 
 ---
 
@@ -85,9 +81,13 @@ La página Detalles del documento ofrece una versión más completa de los Detal
 
 El nuevo área Documentos solo está disponible para si su organización se encuentra en el almacenamiento en la nube de Adobe. Para obtener más información sobre el almacenamiento en la nube de Adobe, consulte [Información general sobre el almacenamiento en la nube de Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
+![área de documentos nuevos](assets/new-doc-area.png)
+
 ### Uso del panel de resumen
 
 Al seleccionar un documento en el área de documentos, puede utilizar el Panel de resumen de la derecha para ver los detalles del documento, agregar y editar formularios personalizados adjuntos, crear y administrar flujos de trabajo de aprobación, ver versiones del documento y más.
+
+![Panel de resumen con detalles del documento abierto](assets/new-doc-details.png)
 
 #### Revisar y aprobar con Frame.io
 
@@ -95,11 +95,15 @@ Puede revisar y aprobar documentos en la nueva área Documentos con el visor Fra
 
 Para obtener más información, consulte [Introducción a la revisión y aprobación unificadas](/help/quicksilver/review-and-approve-work/get-started-with-unified-approvals.md).
 
+![panel de resumen abierto para revisión y aprobaciones](assets/new-doc-approvals.png)
+
 #### Administrar versiones
 
 Puede cargar nuevas versiones de un documento en el área de Documentos nuevos. Al cargar una nueva versión, se conserva la versión anterior y se puede acceder a ella desde el Panel de resumen. Las versiones se nombran automáticamente con la fecha y la hora de la carga, pero se puede cambiar el nombre según sea necesario.
 
 También puede iniciar un nuevo flujo de trabajo de aprobación para una versión específica de un documento.
+
+![panel de resumen abierto a la ficha de versiones](assets/new-doc-versions.png)
 
 #### Ver historial de documentos
 
@@ -109,6 +113,8 @@ Puede ver el historial de un documento en la nueva área Documentos. El historia
 * Cuando se cargaron las nuevas versiones
 * Cuando se iniciaron los flujos de trabajo de aprobación para el documento
 * Y más
+
+![panel de resumen abierto a la ficha de historial](assets/new-doc-history.png)
 
 ### Carpetas de nivel de sistema para permisos de documento
 
