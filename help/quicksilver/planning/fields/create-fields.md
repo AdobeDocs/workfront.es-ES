@@ -9,19 +9,12 @@ exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
 last-update: 2026-04-01T18:23:03.000Z
 git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
 TQID: https://experienceleague.adobe.com/S5Cb-wdfeCKuogJgIlfVZ-J3rUn0ca0NG1-SSD2SPJA
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
-subfeature_v2:
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 3e6eb56cfb0713c19326fbf7914688007195fd1b
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: c6b02fbaf2ee03728543c9d34068e4dd353ac441
 workflow-type: tm+mt
 source-wordcount: 5239
 ht-degree: 51%
@@ -29,7 +22,7 @@ ht-degree: 51%
 ---
 
 <!--
-Should the structure of this article be like this other one: https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/customize/custom-forms/custom-form-builder/use-the-custom-form-builder/add-a-custom-field-to-a-custom-form.html?lang=es ??
+Should the structure of this article be like this other one: https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/customize/custom-forms/custom-form-builder/use-the-custom-form-builder/add-a-custom-field-to-a-custom-form.html?lang=en ??
 -->
 
 <!--
@@ -355,6 +348,9 @@ Puede utilizar un campo de selección múltiple para capturar información adici
 
    Haga clic en **Personalizado** para seleccionar un color personalizado mediante un selector de color o un código hexadecimal.
 1. Haga clic fuera del cuadro de color para cerrarlo.
+   <!--
+    1. <span class="preview">In the **Default choices** field, select the choices that you want to display in this field by default. You can choose more than one choice. Users can remove the default choices as they update this field. (********** and update all screen shots on this page ******) </span>
+    -->
 1. Haga clic en **Crear**.
 
    El nuevo campo de selección múltiple se añadirá en forma de columna al tipo de registro y sus valores se podrán asociar a registros.
@@ -401,7 +397,9 @@ Los campos de selección única capturan información adicional en cualquier for
    O
 
    Haga clic en **Personalizado** para seleccionar un color personalizado mediante un selector de color o un código hexadecimal.
-
+<!--
+    1. <span class="preview">In the **Default choice** field, select the choice that you want to display in this field by default. You can choose only one choice. Users can remove the default choice as they update this field. (********** and update all screen shots on this page ******) </span>
+    -->
 1. Haga clic fuera del cuadro de color para cerrarlo.
 1. Haga clic en **Crear**.
 
@@ -482,7 +480,7 @@ Puede utilizar un campo de fecha para capturar información adicional en formato
         
             * **24hr**: For example: 18:00
             * **12hr**: For example: 6:00 PM
-        * **Use the same timezone for all collaborators**, then select a **Timezone ** (************** might change the UI option here, to define 'collaborators' and to spell Time zone ****************): Select this if you want to show the same time stamp for all people viewing the field, regardless of their user's time zone. 
+        * **Use the same timezone for all collaborators**, then select a **Timezone ** (************** logged bug to change this to "Show the same time zone to all users" ****************): Select this if you want to show the same time stamp for all people viewing the field, regardless of their user's time zone. The time zone selected is added to the column header for this field. 
 
         </div>
         -->
@@ -645,7 +643,7 @@ Para obtener más información, consulte [Información general sobre campos de f
    >
    >* Puede hacer referencia a un campo que esté hasta 4 campos (y objetos) fuera del tipo de registro actual. Por ejemplo, si está creando un campo de fórmula para un tipo de registro Actividad (1) y la actividad está conectada al tipo de registro Campaña (2) que está conectado a un proyecto Workfront (3), puede hacer referencia al campo Presupuesto del proyecto (4) en la fórmula que está creando para el tipo de registro Actividad.
    >
-   >![Se quitaron cuatro campos del presupuesto del proyecto de ejemplo de fórmula &#x200B;](assets/formula-example-project-budget-four-fields-removed.png)
+   >![Se quitaron cuatro campos del presupuesto del proyecto de ejemplo de fórmula ](assets/formula-example-project-budget-four-fields-removed.png)
    >
 
 1. (Opcional) Haga clic en **Maximizar** para abrir el cuadro Fórmula en un área más grande.
@@ -705,6 +703,10 @@ Puede utilizar el tipo de campo Personas para agregar un usuario a un registro. 
    >[!NOTE]
    >
    >    Si selecciona Permitir varios valores y se almacenan varios usuarios en los registros a los que se adjunta el campo, ya no podrá anular la selección de la configuración en el futuro al editar este campo.
+
+   <!--
+    1. <span class="preview">In the **Default user** or **Default users** field, select the users that you want to display in this field by default. You can choose more than one user if you also selected the **Allow multiple values** setting. Users can remove the default choices as they update this field. (********** and update all screen shots on this page ******) </span>
+    -->
 
 1. Haga clic en **Crear**.
 
