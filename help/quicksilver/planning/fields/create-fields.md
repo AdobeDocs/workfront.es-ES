@@ -21,7 +21,7 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 3e6eb56cfb0713c19326fbf7914688007195fd1b
+source-git-commit: c6b02fbaf2ee03728543c9d34068e4dd353ac441
 workflow-type: tm+mt
 source-wordcount: 5239
 ht-degree: 51%
@@ -355,6 +355,9 @@ Puede utilizar un campo de selección múltiple para capturar información adici
 
    Haga clic en **Personalizado** para seleccionar un color personalizado mediante un selector de color o un código hexadecimal.
 1. Haga clic fuera del cuadro de color para cerrarlo.
+   <!--
+    1. <span class="preview">In the **Default choices** field, select the choices that you want to display in this field by default. You can choose more than one choice. Users can remove the default choices as they update this field. (********** and update all screen shots on this page ******) </span>
+    -->
 1. Haga clic en **Crear**.
 
    El nuevo campo de selección múltiple se añadirá en forma de columna al tipo de registro y sus valores se podrán asociar a registros.
@@ -401,7 +404,9 @@ Los campos de selección única capturan información adicional en cualquier for
    O
 
    Haga clic en **Personalizado** para seleccionar un color personalizado mediante un selector de color o un código hexadecimal.
-
+<!--
+    1. <span class="preview">In the **Default choice** field, select the choice that you want to display in this field by default. You can choose only one choice. Users can remove the default choice as they update this field. (********** and update all screen shots on this page ******) </span>
+    -->
 1. Haga clic fuera del cuadro de color para cerrarlo.
 1. Haga clic en **Crear**.
 
@@ -482,7 +487,7 @@ Puede utilizar un campo de fecha para capturar información adicional en formato
         
             * **24hr**: For example: 18:00
             * **12hr**: For example: 6:00 PM
-        * **Use the same timezone for all collaborators**, then select a **Timezone ** (************** might change the UI option here, to define 'collaborators' and to spell Time zone ****************): Select this if you want to show the same time stamp for all people viewing the field, regardless of their user's time zone. 
+        * **Use the same timezone for all collaborators**, then select a **Timezone ** (************** logged bug to change this to "Show the same time zone to all users" ****************): Select this if you want to show the same time stamp for all people viewing the field, regardless of their user's time zone. The time zone selected is added to the column header for this field. 
 
         </div>
         -->
@@ -705,6 +710,10 @@ Puede utilizar el tipo de campo Personas para agregar un usuario a un registro. 
    >[!NOTE]
    >
    >    Si selecciona Permitir varios valores y se almacenan varios usuarios en los registros a los que se adjunta el campo, ya no podrá anular la selección de la configuración en el futuro al editar este campo.
+
+   <!--
+    1. <span class="preview">In the **Default user** or **Default users** field, select the users that you want to display in this field by default. You can choose more than one user if you also selected the **Allow multiple values** setting. Users can remove the default choices as they update this field. (********** and update all screen shots on this page ******) </span>
+    -->
 
 1. Haga clic en **Crear**.
 

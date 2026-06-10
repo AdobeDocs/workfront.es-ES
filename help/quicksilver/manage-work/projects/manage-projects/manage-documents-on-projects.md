@@ -6,9 +6,9 @@ description: Dependiendo de si el administrador de Workfront elige la opción pr
 author: Alina
 feature: Work Management
 exl-id: 5623157e-946e-4475-9df3-b1888a2a0934
-source-git-commit: 9053a824ecec4feb35a612b26aebb91904ef2546
+source-git-commit: acd6989db41fad0a24015aac641c9821db1811f1
 workflow-type: tm+mt
-source-wordcount: '1961'
+source-wordcount: '1976'
 ht-degree: 0%
 
 ---
@@ -136,6 +136,8 @@ Tenga en cuenta lo siguiente al trabajar con proyectos:
 * Al importar un proyecto desde MS Project, Workfront crea un proyecto de almacenamiento de Workfront heredado, incluso cuando el administrador de Workfront establece el almacenamiento en la nube de Adobe como predeterminado para el sistema.
 * Al crear proyectos mediante una automatización de Workfront Planning, Workfront utiliza la preferencia de almacenamiento predeterminada del sistema para el proyecto. Debe adquirir el paquete de Planning para acceder a Workfront Planning.
 
+Para obtener más información, consulte también la sección [Administración de documentos para plantillas de proyecto](#document-management-for-project-templates) en este artículo.
+
 ### Administración de documentos para portafolios
 
 Tenga en cuenta lo siguiente al trabajar con portafolios:
@@ -147,6 +149,13 @@ Tenga en cuenta lo siguiente al trabajar con portafolios:
 * No puede agregar un proyecto de almacenamiento de Workfront heredado a un catálogo de productos de Adobe Cloud Storage.
 
 * Al crear portafolios mediante una automatización de Workfront Planning, Workfront utiliza la preferencia de almacenamiento predeterminada del sistema para el portafolio. Debe adquirir el paquete de Planning para acceder a Workfront Planning.
+
+<!--
+For preview/ Prod release: the third bullet above will need replacing with this:
+* You cannot add an Adobe cloud storage project to a Legacy storage portfolio or a Legacy storage project to an Adobe storage portfolio. 
+* Your administrator can convert a Legacy storage portfolio to Adobe cloud storage in the System Preferences area of Setup. All children objects (programs, projects, and documents) remain on Legacy storage. New projects will use Adobe cloud storage. New documents added to the portfolio will continue to be stored in Legacy storage.
+  For information, see [Configure system preferences](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md).
+-->
 
 ### Administración de documentos para programas
 
@@ -161,6 +170,17 @@ Tenga en cuenta lo siguiente al trabajar con programas:
 * No puede agregar un proyecto de almacenamiento de Workfront heredado a un programa de almacenamiento en la nube de Adobe.
 
 * Al crear programas mediante una automatización de Workfront Planning, Workfront utiliza la preferencia de almacenamiento predeterminada del sistema para el programa. Debe adquirir el paquete de Planning para acceder a Workfront Planning.
+
+<!--
+For preview/Prod release - check for duplicates below with the bullets you want to keep above (??):
+
+* You cannot add an Adobe cloud storage program to a Legacy storage portfolio, or a Legacy program to an Adobe cloud storage portfolio.
+* You cannot add an Adobe cloud storage project to a Legacy storage program in a Legacy storage portfolio. (******* also take out bullet 2 above and maybe 3 too?? **********)
+* When you add an Adobe cloud storage project to a Legacy storage program, the program is converted to Adobe storage. Existing Legacy storage documents remain in the Legacy storage.
+* You cannot add a Legacy storage project to an Adobe cloud storage program, or an Adobe cloud storage project to a Legacy storage program. 
+* You cannot create a project from an Adobe cloud storage template in a Legacy storage program. 
+* You can create a project from a Legacy storage template in an Adobe cloud storage program, but the documents and folders on the template are not added to the new project. The project receives Adobe cloud storage.
+-->
 
 ### Administración de documentos para tareas
 
@@ -205,6 +225,13 @@ Tenga en cuenta lo siguiente al trabajar con plantillas:
 
 * Cuando crea una plantilla de almacenamiento en la nube de Adobe, Workfront crea una carpeta en la sección Documentos de la plantilla en la que se guardan los documentos. El nombre de la carpeta es el mismo nombre que el programa. No puede eliminar la carpeta ni cambiarle el nombre manualmente. Si cambia el nombre de la plantilla, se cambiará el nombre de la carpeta para que coincida con el nuevo nombre de la plantilla.
 * Puede utilizar una plantilla de almacenamiento de Workfront heredada para crear proyectos de almacenamiento de Workfront heredados; puede utilizar una plantilla de almacenamiento de nube de Adobe para crear un proyecto de almacenamiento de nube de Adobe.
+
+<!--
+for preview/prod release: 
+* When creating projects using templates from a portfolio or program, the following scenarios exist: 
+  * You cannot use an Adobe cloud storage template from a legacy Workfront storage portfolio or program to create a project.
+  * You can create an Adobe cloud storage project for an Adobe storage portfolio or program using a Legacy storage template. Any template documents and folders are not attached to the new project. 
+-->
 * Puede adjuntar una plantilla de almacenamiento de Workfront heredada a un proyecto de almacenamiento en la nube de Adobe, lo cual no cambia la ubicación de almacenamiento de los documentos del proyecto.
 * Puede adjuntar una plantilla de almacenamiento en la nube de Adobe a un proyecto de almacenamiento de Workfront heredado, lo que no cambia la ubicación de almacenamiento de los documentos del proyecto. Los documentos de la carpeta de almacenamiento en la nube de Adobe para la plantilla se agregan directamente al proyecto, sin la carpeta, mientras que los documentos de las carpetas de tareas de plantilla se agregan a carpetas adjuntas a las tareas del proyecto en la sección Documentos de las tareas.
 * Al guardar un proyecto como plantilla, el tipo de almacenamiento del proyecto se transfiere a la plantilla, independientemente de lo que haya configurado el administrador de Workfront para las preferencias de almacenamiento del sistema.

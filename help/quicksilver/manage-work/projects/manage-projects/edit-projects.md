@@ -25,10 +25,10 @@ role_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+source-git-commit: c6b02fbaf2ee03728543c9d34068e4dd353ac441
 workflow-type: tm+mt
-source-wordcount: 7941
-ht-degree: 87%
+source-wordcount: 7980
+ht-degree: 86%
 
 ---
 
@@ -303,7 +303,9 @@ Para obtener información sobre cómo crear un proyecto a partir de una plantill
       <p><b>NOTAS</b></p>
       <ul>
       <li>Debe tener permisos de administración en el portafolio para poder añadirlo al proyecto o quitarlo de él.</li>
-      <li>Cuando su organización utiliza el almacenamiento en la nube heredado de Workfront y Adobe, no puede copiar tareas entre proyectos que utilizan diferentes tipos de almacenamiento. Es posible que la instancia de Workfront no tenga ambos tipos de almacenamiento de documentos.</li></ul> 
+      <li>Cuando su organización utiliza el almacenamiento en la nube heredado de Workfront y Adobe, no puede copiar tareas entre proyectos que utilizan diferentes tipos de almacenamiento. </li>
+      <li>No puede mover un proyecto de almacenamiento heredado a un portafolio o programa de almacenamiento en la nube de Adobe, ni un proyecto de almacenamiento en la nube de Adobe a un portafolio o programa heredado.</li>
+      </ul> <p>Es posible que la instancia de Workfront no tenga ambos tipos de almacenamiento de documentos.</p>
       Para obtener más información, vea <a href="/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md">Información general sobre la administración de documentos de proyectos y objetos relacionados</a>. 
       </td> 
       </tr> 

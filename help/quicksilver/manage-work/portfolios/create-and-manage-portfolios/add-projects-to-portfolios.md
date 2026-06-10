@@ -21,7 +21,7 @@ role_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+source-git-commit: c6b02fbaf2ee03728543c9d34068e4dd353ac441
 workflow-type: tm+mt
 source-wordcount: 689
 ht-degree: 42%
@@ -196,6 +196,13 @@ Old:
    >Para obtener más información, vea [Información general sobre la administración de documentos de proyectos y objetos relacionados](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
    >
    >No todas las instancias de Workfront tienen ambos tipos de almacenamiento de documentos.
+
+   <!--
+    For preview/ prod release: replace all bullets (i think!!) in the Note with this:
+    * You cannot add a Legacy storage project to an Adobe cloud storage portfolio, or an Adobe cloud storage project to a Legacy storage portfolio. 
+    * You cannot create a project from an Adobe cloud storage template in a Legacy storage portfolio. 
+    * You can create a project from a Legacy storage template in an Adobe cloud storage portfolio, but the documents and folders on the template are not added to the new project. The project receives Adobe cloud storage.
+    -->
 
 1. (Opcional) Si decide no agregarlo al portafolio, haga clic en el icono **X** que aparece a la derecha del nombre del proyecto para quitarlo de la lista.
 
