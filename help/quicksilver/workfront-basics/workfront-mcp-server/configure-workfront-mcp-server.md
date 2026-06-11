@@ -5,10 +5,10 @@ title: Configuración del servidor MCP de Adobe Workfront
 description: Configure su instancia de Workfront y su plataforma agéntica de IA para poder trabajar con Workfront a través de una conversación en lenguaje natural.
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: 648342f0002046febba1b8e751bc1cffec2c1346
+source-git-commit: fd2f78e3dbeb29885f9c3045af9cb6f3278cd314
 workflow-type: tm+mt
-source-wordcount: '1291'
-ht-degree: 0%
+source-wordcount: '1690'
+ht-degree: 1%
 
 ---
 
@@ -34,8 +34,12 @@ Este artículo explica los pasos de conexión para:
 * [!DNL Claude]
 * [!DNL ChatGPT]
 
-Si utiliza una plataforma agéntica de IA compatible con MCP diferente (por ejemplo, [!DNL Gemini] o [!DNL Microsoft Copilot]), siga los pasos de la documentación de dicha plataforma para agregar un servidor MCP personalizado. Cuando se le pida la URL del servidor MCP, escriba: `https://mcp.workfront.adobe.com/mcp/v1/workfront`
+Si utiliza una plataforma agéntica de IA compatible con MCP diferente (por ejemplo, [!DNL Gemini] o [!DNL Microsoft Copilot]), siga los pasos de la documentación de dicha plataforma para agregar un servidor MCP personalizado. Cuando se le pida la URL del servidor MCP, introduzca la URL de su región:
 
+| Región | URL |
+| --- | --- |
+| EE. UU. | `https://mcp.workfront.adobe.com/mcp/v1/workfront` |
+| UE | `https://mcp-eu.workfront.adobe.com/mcp/v1/workfront` |
 
 ## Requisitos previos
 
@@ -66,38 +70,36 @@ Se conecta a Workfront una vez por cuenta de [!DNL Claude]. La conexión le aute
 
 ### Conéctese al escritorio Claude desde el directorio de conectores
 
-Muy pronto.
+>[!IMPORTANT]
+>
+>Actualmente, Claude Connector solo admite la conexión al servidor MCP de Workfront en la región de Estados Unidos.  Para conectarse a una instancia de Workfront en la región de la UE, consulte [Conectarse al escritorio de Claude con una URL](#connect-to-claude-desktop-with-a-url) en este artículo.
 
-<!--
++++ Amplíe para ver instrucciones paso a paso para conectar Workfront a [!DNL Claude].
 
-+++ Expand to view step-by-step instructions for connecting Workfront to [!DNL Claude].
+Para conectar Workfront a [!DNL Claude]:
 
-To connect Workfront to [!DNL Claude]:
+1. Abra [!DNL Claude].
 
-1. Open [!DNL Claude].
-
-1. Navigate to the connectors area.
-
-
-
-1. Find **[!DNL Adobe Workfront]** in the connector list.
-
-   If you don't see it, see [Admin prerequisites](#admin-prerequisites) in this article.
-
-1. Click **Connect**.
+1. Vaya al área de conectores.
 
 
 
-1. When prompted, log in to your Workfront instance.
+1. Busque **[!DNL Adobe Workfront]** en la lista de conectores.
+
+   Si no lo ve, vea [Requisitos previos de administración](#admin-prerequisites) en este artículo.
+
+1. Haga clic en **Conectar**.
 
 
-1. After authentication completes, you're connected.
+
+1. Cuando se le solicite, inicie sesión en la instancia de Workfront.
+
+
+1. Una vez finalizada la autenticación, estará conectado.
 
 
 
 +++
-
--->
 
 ### Conectarse a Claude Desktop con una dirección URL
 
@@ -109,9 +111,22 @@ Para conectar Workfront a [!DNL Claude] con una dirección URL:
 1. En el menú de la izquierda, seleccione el icono **Personalizar**.
 1. Seleccione **Conectores** y, a continuación, seleccione el icono **+** para agregar un conector.
 1. Seleccione el botón **Crear aplicación**.
-1. Asigne al conector un nombre deseado (como &quot;Workfront&quot;) e introduzca la URL del servidor MCP deseada: `https://mcp.workfront.adobe.com/mcp/v1/workfront`
+1. Asigne al conector el nombre deseado (como &quot;Workfront&quot;) e introduzca la URL del servidor MCP deseada:
+
+   | Región | URL |
+   | --- | --- |
+   | EE. UU. | `https://mcp.workfront.adobe.com/mcp/v1/workfront` |
+   | UE | `https://mcp-eu.workfront.adobe.com/mcp/v1/workfront` |
 
 1. Una vez creado el conector, aparece una ventana de inicio de sesión. Autentique con sus credenciales de Adobe ID. Asegúrese de seleccionar la instancia de Workfront que desee si pertenece a más de una.
+
+   >NOTA:
+   >
+   >La instancia de Workfront debe conectarse con el servidor MCP de la región de dicha instancia. Por ejemplo, una instancia de la UE debe conectarse al servidor MCP de la UE.
+   >
+   >Al seleccionar una instancia, las instancias que no son compatibles con la región del servidor MCP aparecen atenuadas y no se puede conectar a ellas.
+   >
+   >Para conectarse a una instancia que no sea compatible con la región del servidor MCP, configure una nueva conexión MCP con la dirección URL correcta para esa región.
 
 +++
 
@@ -127,9 +142,24 @@ Para obtener más información acerca de las habilidades de [!DNL Claude], consu
 1. En la esquina inferior izquierda, seleccione **su nombre** → **Configuración**.
 1. Seleccione **Aplicaciones** y, a continuación, habilite **Modo de desarrollador**.
 1. Seleccione el botón **Crear aplicación**.
-1. Asigne a la aplicación un nombre (como &quot;Workfront&quot;) e introduzca la URL del servidor MCP que desee: `https://mcp.workfront.adobe.com/mcp/v1/workfront`
+1. Asigne a la aplicación un nombre (como &quot;Workfront&quot;) e introduzca la URL del servidor MCP que desee:
+
+   | Región | URL |
+   | --- | --- |
+   | EE. UU. | `https://mcp.workfront.adobe.com/mcp/v1/workfront` |
+   | UE | `https://mcp-eu.workfront.adobe.com/mcp/v1/workfront` |
+
 1. Asegúrese de que Autenticación está establecida en **OAuth** (establecida de forma predeterminada) y active la casilla de verificación de aceptación para continuar.
 1. Una vez creada la aplicación, aparece una ventana de inicio de sesión. Autentique con sus credenciales de Adobe ID. Asegúrese de seleccionar la instancia de Workfront que desee si pertenece a más de una.
+
+   >NOTA:
+   >
+   >La instancia de Workfront debe conectarse con el servidor MCP de la región de dicha instancia. Por ejemplo, una instancia de la UE debe conectarse al servidor MCP de la UE.
+   >
+   >Al seleccionar una instancia, las instancias que no son compatibles con la región del servidor MCP aparecen atenuadas y no se puede conectar a ellas.
+   >
+   >Para conectarse a una instancia que no sea compatible con la región del servidor MCP, configure una nueva conexión MCP con la dirección URL correcta para esa región.
+
 
 ### Personalización del comportamiento de ChatGPT con GPT personalizados
 
@@ -162,7 +192,14 @@ Para conectarse a una instancia de Workfront diferente:
 
 >[!NOTE]
 >
->Cerrar sesión por sí solo no cambia la instancia de Workfront. Debe desconectar y volver a conectar el conector.
+>* Cerrar sesión por sí solo no cambia la instancia de Workfront. Debe desconectar y volver a conectar el conector.
+>
+>* La instancia de Workfront debe conectarse con el servidor MCP de la región de dicha instancia. Por ejemplo, una instancia de la UE debe conectarse al servidor MCP de la UE.
+>
+>   Al seleccionar una instancia, las instancias que no son compatibles con la región del servidor MCP aparecen atenuadas y no se puede conectar a ellas.
+>
+>   Para conectarse a una instancia que no sea compatible con la región del servidor MCP, configure una nueva conexión MCP con la dirección URL correcta para esa región.
+
 
 <!--
 
@@ -175,7 +212,13 @@ Para conectarse a una instancia de Workfront diferente:
 
 To set up the connection between Gemini and the Workfront MCP server, follow the instructions provided by Google for [connecting Gemini to external tools using MCP](https://docs.cloud.google.com/gemini/enterprise/docs/connectors/custom-mcp-server/set-up-custom-mcp-server). 
 
-When prompted for the MCP Server URL, enter the following URL for your Workfront MCP server: `https://mcp.workfront.adobe.com/mcp/v1/workfront`
+When prompted for the MCP Server URL, enter the following URL for your Workfront MCP server:  
+
+   | Region | URL |
+   | --- | --- |
+   | US | `https://mcp.workfront.adobe.com/mcp/v1/workfront` |
+   | EU | `https://mcp-eu.workfront.adobe.com/mcp/v1/workfront` |
+   
 -->
 
 <!--
@@ -218,6 +261,7 @@ What happens next
 | Error de autenticación o la conexión dejó de funcionar. | La sesión de autenticación ha caducado o hay un error de conexión. | Desconecte y vuelva a conectar el conector. |
 | Desea cambiar a una instancia de Workfront diferente. | Una sola conexión lo vincula a una instancia. | Desconectar, volver a conectar y autenticar en la nueva instancia. |
 | No puede conectarse a Workfront o verá un mensaje que indica que el acceso al servidor MCP está deshabilitado. | El administrador de Workfront ha desactivado el acceso al servidor MCP para su instancia. | Póngase en contacto con el administrador de Workfront y pídale que habilite el acceso al servidor MCP en Preferencias del sistema. |
+| La instancia de Workfront a la que desea conectarse aparece atenuada y aparece un mensaje que indica que no está disponible para conectarse en su región | El servidor MCP está configurado para una región (UE o EE. UU.) diferente a la de su instancia. | Configure el servidor MCP con la dirección URL de la región a la que está asignada la instancia de Workfront. |
 | La plataforma agéntica de IA puede encontrar sus elementos de Workfront, pero no puede crearlos, actualizarlos o eliminarlos. | El administrador de Workfront ha deshabilitado las acciones de escritura para el servidor MCP de Workfront. | Póngase en contacto con el administrador de Workfront y pídale que habilite acciones de escritura en Preferencias del sistema. |
 
 Para obtener información sobre la solución de problemas diaria después de conectarse (por ejemplo, si se trata de resultados antiguos o de un comportamiento inesperado), consulte [Usar el servidor MCP de Adobe Workfront](/help/quicksilver/workfront-basics/workfront-mcp-server/use-workfront-mcp-server.md).
@@ -229,7 +273,7 @@ Para obtener información sobre la solución de problemas diaria después de con
 
 +++ Amplíe para ver las preguntas más frecuentes sobre la configuración del servidor MCP de Workfront.
 
-### ¿Puedo conectarme a varias instancias de Workfront a la vez?
+### ¿Puedo conectarme a varias instancias de Workfront al mismo tiempo?
 
 No. Cada conexión vincula una plataforma auténtica de IA a una sola instancia de Workfront. Para cambiar, desconectar y volver a conectar, autenticándose en la nueva instancia.
 
