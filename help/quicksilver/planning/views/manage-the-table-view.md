@@ -9,17 +9,12 @@ exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/oajBrzqCNgufbSJPP0Wx8aI14d8VM7IFr-Hn1ed7Wks
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 95a7c37830873c89189b8dae2dc3e8fd1b62f15f
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b4a1643db287af5c9f641caf26ab9a8214adcb44
 workflow-type: tm+mt
 source-wordcount: 6148
 ht-degree: 60%
@@ -658,7 +653,7 @@ Para administrar una vista de tabla:
    * [Indicador de presencia en tiempo real](#enable-the-real-time-presence-indicator)
 
 
-### Añadir columnas (o campos) {#add-columns}
+### Añadir columnas (o campos) {#add-columns-1}
 
 Los encabezados de columna de una vista de tabla muestran los campos asociados a los registros de la vista. Los campos mostrados en la vista de tabla también se muestran en la sección Detalles de un registro.
 
@@ -756,7 +751,7 @@ Puede añadir hasta 500 campos (o columnas) en una vista de tabla.
     The aggregator row in the column is frozen and is part of the view settings. The aggregator you choose will be shared with the view when you share the view with others. 
 -->
 
-### Añadir filas (o registros) {#add-rows}
+### Añadir filas (o registros) {#add-rows-1}
 
 Las filas de una vista de tabla muestran registros individuales del tipo de registro seleccionado.
 
@@ -790,7 +785,7 @@ Puede tener hasta 50 000 registros (o filas) para un tipo de registro.
 ******************** NOT POSSIBLE ABOVE **************
 -->
 
-### Añadir filtros {#add-filters}
+### Añadir filtros {#add-filters-1}
 
 Los filtros le ayudan a reducir la cantidad de información que se muestra en la pantalla.
 
@@ -801,7 +796,7 @@ Para obtener más información, consulte la sección [Agregar filtros](#add-filt
 
 <!--***************** at production, paste here the information from the Production section above *******************-->
 
-### Añadir una ordenación {#sort-information}
+### Añadir una ordenación {#sort-information-1}
 
 Al aplicar una ordenación, puede organizar la información en un orden determinado.
 
@@ -878,7 +873,7 @@ Para ordenar los registros, haga lo siguiente:
 
    Los campos seleccionados para la ordenación muestran un icono de ordenación seguido de un número que indica el orden de aplicación de la ordenación.
 
-### Añadir agrupaciones {#add-groupings}
+### Añadir agrupaciones {#add-groupings-1}
 
 <!--
 ***********************this section exists in the timeline view too, but the display is slightly different, so I kept both procedures; consider updating both sections if any updates to groupings are introduced***************
@@ -890,7 +885,7 @@ Tenga en cuenta lo siguiente:
 
 * Es posible aplicar agrupaciones tanto en las vistas de tabla como de cronología. Las agrupaciones de la vista de tabla son independientes de las de la vista de cronología del mismo tipo de registro.
 * Se pueden aplicar 3 niveles de agrupación en una vista. Los registros se agrupan en el orden de agrupaciones que seleccione.
-&lt;!—**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;*** * Puede aplicar hasta 4 niveles de agrupación al utilizar la API. —comprobando este por ahora &#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**—>
+&lt;!—*************** * Puede aplicar hasta 4 niveles de agrupación al utilizar la API. —comprobando este por ahora ******************—>
 * Las agrupaciones son únicas para la vista que se seleccione. Dos vistas de tabla del mismo tipo de registro pueden tener diferentes agrupaciones aplicadas. Dos usuarios que vean la misma vista de tabla verán la misma agrupación que se aplique en ese momento.
 * No se puede asignar un nombre a las agrupaciones que se generen para una vista de tabla.
 * Al quitar las agrupaciones, se quitarán de cualquier usuario que tenga acceso al mismo tipo de registro y que muestre la misma vista que usted.
