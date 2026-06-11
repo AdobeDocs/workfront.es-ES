@@ -21,9 +21,9 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+source-git-commit: b4a1643db287af5c9f641caf26ab9a8214adcb44
 workflow-type: tm+mt
-source-wordcount: 2592
+source-wordcount: 2603
 ht-degree: 5%
 
 ---
@@ -254,11 +254,12 @@ Si activa esta configuración, los formularios de solicitud de Workfront Plannin
    >
    >  <div class="preview">
    >
-   >   * La edición de una solicitud solo es posible cuando aún no se ha creado un registro y la solicitud está pendiente de aprobación.
-   >   * Algunos campos son de solo lectura y no se pueden editar.
-   >  * Ya no puede editar una solicitud después de crear un registro a partir de ella.
+   >* La edición de una solicitud solo es posible cuando aún no se ha creado un registro y la solicitud está pendiente de aprobación.
+   >* Algunos campos son de solo lectura y no se pueden editar.
+   >* Ya no puede editar una solicitud después de crear un registro a partir de ella.
    >
    >  </div>
+1. <span class="preview">(Opcional) Después de editar la solicitud, haga clic en **Enviar cambios**.</span>
 1. (Condicional) Si el formulario de solicitud no está asociado a una aprobación, o si la solicitud se ha aprobado, haga clic en el nombre de la solicitud y, a continuación, haga clic en el nombre del registro en el campo **Objeto creado**.
 
    La página del registro se abre en Workfront Planning.
@@ -268,6 +269,7 @@ Si activa esta configuración, los formularios de solicitud de Workfront Plannin
    >* Si el campo principal del registro no se actualizó en el formulario de solicitud, el nombre del registro en el campo Registro de la solicitud se mostrará como **Sin título**.
    >
    >* Si el formulario de solicitud está asociado a una aprobación, esta debe concederse antes de que pueda acceder al registro desde la página de solicitud. El registro no se crea hasta que se concede la aprobación.
+   >  Para obtener información acerca de cómo aprobar solicitudes, vea [Aprobar una solicitud en Adobe Workfront Planning](/help/quicksilver/planning/requests/approve-request.md).
 
 1. (Opcional) Haga clic en el nombre de **Tipo de registro**.
 

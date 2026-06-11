@@ -5,10 +5,10 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8ca50590-ef6a-44b1-a856-9821bdafbc1c
-source-git-commit: b9c63e1ca4b2b301ee104ee84151a2d0148a8cea
+source-git-commit: 58777d63eff116855191281d09c6c2d19f1aa2ee
 workflow-type: tm+mt
-source-wordcount: '1588'
-ht-degree: 20%
+source-wordcount: '1848'
+ht-degree: 18%
 
 ---
 
@@ -39,6 +39,7 @@ Se celebran seminarios web en directo para cada versión trimestral, en los que 
 * [Mejoras de documentos](#documents-enhancements)
 * [Mejoras de administración financiera](#financial-management-enhancements)
 * [Mejoras en el Inicio](#home-enhancements)
+* [Mejoras en el proyecto](#project-enhancements)
 * [Mejoras en la creación de informes](#reporting-enhancements)
 * [Solicitudes de mejoras](#requesting-enhancements)
 * [Otras mejoras](#other-enhancements)
@@ -55,6 +56,26 @@ Se celebran seminarios web en directo para cada versión trimestral, en los que 
             <td><strong>Vista previa</strong></td>
             <td><strong>Versión rápida</strong></td>
             <td><strong>Trimestralmente</strong></td>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Ver historial de cambios para objetos de Workfront</a><p>[!BADGE Off schedule]{type=Neutral}</p>
+                <p>Para facilitarle la visualización de los cambios que se han producido en una lista central, hemos creado la lista Historial de cambios. Esta lista muestra información como el objeto, la operación y el origen del cambio (como un usuario o el sistema de Workfront).</p>
+            </td>
+            <td><p>11 de junio de 2026</p></td>
+            <td><p>11 de junio de 2026</p></td>
+            <td><p>16 de julio de 2026</p></td>
+        </tr>
+        <!--
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">New system preference to convert legacy storage portfolios to Adobe cloud storage</a><p>[!BADGE Off schedule]{type=Neutral}</p>
+                <p>Workfront administrators can now convert legacy storage portfolios to Adobe cloud storage directly from System Preferences. To convert portfolios, select them in the new Select portfolios to convert to enterprise storage field and save the page.</p>
+            </td>
+            <td><p>June 11, 2026</p></td>
+            <td><p>June 11, 2026</p></td>
+            <td><p>June 11, 2026</p></td>
+        </tr>
+        -->
         <tr>
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Texto enriquecido que reemplaza el texto por el tipo de campo de formato</a>
@@ -193,6 +214,43 @@ Se celebran seminarios web en directo para cada versión trimestral, en los que 
     </tbody>
 </table>
 
+<!--
+
+### Project enhancements
+
+<table>
+    <col style="width: 50%;" />
+    <col style="width: 25%;" />
+    <tbody>
+        <tr>
+            <td><strong>Feature</strong>
+            </td>
+            <td><strong>Preview</strong></td>
+            <td><strong>Fast release</strong></td>
+            <td><strong>Quarterly</strong></td>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-projects.md" class="MCXref xref" xrefformat="{para}">Convert a legacy storage task to an Adobe cloud storage project</a><p><p>[!BADGE Off schedule]{type=Neutral}</p></p>
+                <p>If your organization uses both legacy Workfront storage and Adobe cloud storage, you can now convert a legacy storage task to an Adobe cloud storage project.</p>
+            </td>
+            <td><p>June 11, 2026</p></td>
+            <td><p>June 12, 2026</p></td>
+            <td><p>June 12, 2026</p></td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-projects.md" class="MCXref xref" xrefformat="{para}">Use a legacy storage template to create an Adobe cloud storage project</a><p><p>[!BADGE Off schedule]{type=Neutral}</p></p>
+                <p>If your organization uses both legacy Workfront storage and Adobe cloud storage, you can now use a legacy storage template to create an Adobe cloud storage project in some scenarios.</p>
+            </td>
+            <td><p>June 11, 2026</p></td>
+            <td><p>June 11, 2026</p></td>
+            <td><p>June 11, 2026</p></td>
+        </tr>
+    </tbody>
+</table>
+
+-->
+
 ### Mejoras en la creación de informes
 
 <table>
@@ -205,6 +263,24 @@ Se celebran seminarios web en directo para cada versión trimestral, en los que 
             <td><strong>Vista previa</strong></td>
             <td><strong>Versión rápida</strong></td>
             <td><strong>Trimestralmente</strong></td>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-reports.md" class="MCXref xref" xrefformat="{para}">Agregar varios intervalos de direcciones IP de Power BI a la lista de permitidos de Data Connect a la vez</a> <p>[!BADGE Off schedule]{type=Neutral}
+                <p>Los administradores de Workfront que conectan Microsoft Power BI a Workfront Data Connect ahora pueden añadir un conjunto completo de intervalos de direcciones IP de Azure a la lista de permitidos en un solo paso.</p>
+            </td>
+            <td><p>N/D</p></td>
+            <td><p>11 de junio de 2026</p></td>
+            <td><p>11 de junio de 2026</p></td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-reports.md" class="MCXref xref" xrefformat="{para}">Ordenar la lista de paneles de lienzo</a> 
+                <p>Ahora puede ordenar la lista Paneles de lienzo por las columnas Nombre, Descripción, Creado por o Crear fecha. Haga clic en un encabezado de columna para ordenar la lista por esa columna y, a continuación, haga clic de nuevo en el mismo encabezado para invertir la dirección de ordenación. De forma predeterminada, la lista se ordena por Nombre de la A a la Z. El criterio de ordenación se conserva al cambiar entre pestañas en la lista Paneles de lienzo.</p>
+            </td>
+            <td><p>11 de junio de 2026</p></td>
+            <td><p>15 de julio de 2026</p></td>
+            <td><p>16 de julio de 2026</p></td>
+        </tr>
         <tr>
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-reports.md" class="MCXref xref" xrefformat="{para}">Cambios en las horas reales en fórmulas personalizadas</a> <p>[!BADGE Off schedule]{type=Neutral}</p>
@@ -280,6 +356,15 @@ Se celebran seminarios web en directo para cada versión trimestral, en los que 
             <td><strong>Vista previa</strong></td>
             <td><strong>Versión rápida</strong></td>
             <td><strong>Trimestralmente</strong></td>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-other.md" class="MCXref xref" xrefformat="{para}">Actualizaciones en el conector MCP de Workfront</a><p>[!BADGE Off schedule]{type=Neutral}</p>
+                <p>Hemos actualizado el conector MCP de Workfront:<ul><li>Claude ahora se puede conectar al conector MCP.</li><li>Ahora puede utilizar el conector MCP desde instancias de la UE o desde instancias que no utilizan AWS.</p>
+            </td>
+            <td><p>11 de junio de 2026</p></td>
+            <td><p>11 de junio de 2026</p></td>
+            <td><p>11 de junio de 2026</p></td>
+        </tr>
         <tr>
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-other.md" class="MCXref xref" xrefformat="{para}">Se ha actualizado la apariencia de los correos electrónicos de notificación de comentarios</a><p>[!BADGE Off schedule]{type=Neutral}</p>

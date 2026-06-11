@@ -21,7 +21,7 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+source-git-commit: b4a1643db287af5c9f641caf26ab9a8214adcb44
 workflow-type: tm+mt
 source-wordcount: 1087
 ht-degree: 43%
@@ -244,8 +244,12 @@ Puede tener un campo de selección único llamado Estado que tiene las opciones 
 Para agregar una nueva opción a un campo de selección existente al editar un registro:
 
 1. Vaya a una página de tipo de registro y abra la vista de tabla.
-1. Agregue el campo de selección única o múltiple al que desee agregar una opción en la vista de tabla como una nueva columna. Para obtener más información, consulte [Crear campos](/help/quicksilver/planning/fields/create-fields.md).
+1. Agregue el campo de selección única o múltiple al que desee agregar una opción en la vista de tabla como una nueva columna.
+
+   Para obtener más información, consulte [Crear campos](/help/quicksilver/planning/fields/create-fields.md).
+
 1. Comience a editar el campo en línea haciendo doble clic en la celda del campo.
+
 1. Escriba el nombre de la opción que desea agregar y haga clic en **Agregar opción**.
 
    ![Agregar opción en un campo de selección única en la vista de tabla](assets/add-choice-in-table-view-for-single-select-field.png)

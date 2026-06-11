@@ -20,9 +20,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 18ed9f36e497b0e419e3e119da50c85920e226df
+source-git-commit: b4a1643db287af5c9f641caf26ab9a8214adcb44
 workflow-type: tm+mt
-source-wordcount: 3129
+source-wordcount: 3158
 ht-degree: 8%
 
 ---
@@ -233,7 +233,7 @@ Para obtener más información, consulte [Crear registros](/help/quicksilver/pla
 
    * Copie uno o varios valores existentes de un campo y péguelos en un campo del mismo tipo en otro registro
    * Haga clic en el encabezado de una columna para seleccionarla y copiarla. A continuación, haga clic en el encabezado de otra columna y pegue el contenido de la columna copiada. Las columnas deben contener tipos de campo similares.
-   * Con la tecla Mayús pulsada, haga clic en para seleccionar varias filas de una tabla, copie la información de las filas seleccionadas y, a continuación, haga clic en una fila diferente y pegue la información seleccionada en la nueva fila y en las filas siguientes. <!--<span class="preview">This is not possible in the Preview environment.</span>-->
+   * Con la tecla Mayús pulsada, haga clic en para seleccionar varias filas de una tabla, copie la información de las filas seleccionadas y, a continuación, haga clic en una fila diferente y pegue la información seleccionada en la nueva fila y en las filas siguientes. <span class="preview">Esto no es posible en el entorno de vista previa.</span>
    * Copie la información de una celda, seleccione varias celdas y pegue la misma información en varias celdas. Puede seleccionar varias celdas y pegar la misma información en varias celdas de filas y columnas adyacentes.
    * Seleccione la esquina inferior derecha de una celda existente que contiene la información que desea copiar y, a continuación, arrástrela y suéltela sobre las celdas adyacentes en las que desee pegar la misma información. Todas las celdas deben contener el mismo tipo de información.
 
@@ -241,8 +241,9 @@ Para obtener más información, consulte [Crear registros](/help/quicksilver/pla
 
    * Copie una o varias celdas de un origen externo (por ejemplo, un archivo de Excel) y péguelas en uno de los siguientes tipos de campos:
 
-      * Campos de conexión de Workfront Planning.\
-        <!--<span class="preview">This is not possible in the Preview environment.</span>-->
+      * Campos de conexión de Workfront Planning.
+
+        <span class="preview">Esto no es posible en el entorno de vista previa.</span>
       * Campos de personas. Solo se admiten campos con un valor.
       * Campos de texto.
       * Seleccione campos.
@@ -276,12 +277,12 @@ Para obtener más información, consulte [Crear registros](/help/quicksilver/pla
 
 1. (Opcional) Haga clic en el menú **Más** ![Más menú](assets/more-menu.png) que se encuentra a la derecha del nombre del registro y elija entre las siguientes opciones:
 
-   * **Vista** <!--or <span class="preview"Open in new tab</span>-->: Se abre la página de registro.
+   * **Ver** o <span class="preview">**Abrir en ficha nueva**</span>: Se abre la página de registro.
    * **Copiar vínculo**: para copiar un vínculo en la página del registro.
    * **Editar miniatura**: Para agregar una miniatura a un registro.
 Para obtener más información, consulte [Agregar una miniatura a un registro](/help/quicksilver/planning/records/add-thumbnails-to-records.md).
    * **Duplicado**: Esto crea un duplicado idéntico del registro.
-   * **Insertar registro arriba/ Insertar registro abajo**: Agrega una fila nueva para que pueda agregar un registro nuevo. <!--<span class="preview">This is not possible in the Preview environment.</span>-->
+   * **Insertar registro arriba/ Insertar registro abajo**: Agrega una fila nueva para que pueda agregar un registro nuevo. <span class="preview">Esto no es posible en el entorno de vista previa.</span>
    * **Eliminar**: Para eliminar el registro. Los registros eliminados se guardan en el cuadro Eliminados recientemente durante un máximo de 30 días.
 
 
@@ -475,4 +476,5 @@ Para agregar una nueva opción a un campo de selección existente al editar un r
    La nueva opción se agrega inmediatamente al campo de selección única.
 
    También se agrega un nuevo valor de opción a cada opción. Puede utilizar los valores de opción en llamadas a la API u otras integraciones. Para obtener más información, consulte [Crear campos](/help/quicksilver/planning/fields/create-fields.md).
+
 
