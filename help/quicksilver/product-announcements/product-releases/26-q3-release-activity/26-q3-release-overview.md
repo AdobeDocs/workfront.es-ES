@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8ca50590-ef6a-44b1-a856-9821bdafbc1c
-source-git-commit: 6aae88e6030fea5c3a9ea6dd05e666de6af9f59f
+source-git-commit: ea8b2a57504ffdbedcfeb56c47b9907647db6787
 workflow-type: tm+mt
-source-wordcount: '1903'
+source-wordcount: '1902'
 ht-degree: 18%
 
 ---
@@ -18,7 +18,7 @@ Esta página proporciona información sobre la funcionalidad que se incluye en l
 
 Las mejoras de esta página están disponibles en el entorno de vista previa. Esta página se actualizará con mejoras adicionales a medida que la versión del tercer trimestre de 2026 se aproxime a su versión de producción planificada.
 
-Se celebran seminarios web en directo para cada versión trimestral, en los que se destacan las nuevas funciones y se proporciona información detallada. Para registrarse, visite la [página de eventos](https://experienceleague.adobe.com/es/events?filters=Workfront) y filtre por Workfront.
+Se celebran seminarios web en directo para cada versión trimestral, en los que se destacan las nuevas funciones y se proporciona información detallada. Para registrarse, visite la [página de eventos](https://experienceleague.adobe.com/en/events?filters=Workfront) y filtre por Workfront.
 
 >[!IMPORTANT]
 >
@@ -357,7 +357,7 @@ Se celebran seminarios web en directo para cada versión trimestral, en los que 
         <tr>
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-other.md" class="MCXref xref" xrefformat="{para}">Actualizaciones en el conector MCP de Workfront</a><p>[!BADGE Off schedule]{type=Neutral}</p>
-                <p>Hemos actualizado el conector MCP de Workfront:<ul><li>Claude ahora se puede conectar al conector MCP.</li><li>Ahora puede usar el conector MCP de instancias de la UE o <!-- from instances that do not use AWS-->.</p>
+                <p>Hemos actualizado el conector MCP de Workfront:<ul><li>Claude ahora se puede conectar al conector MCP.</li><li>Ahora puede utilizar el conector MCP de instancias de la UE <!--or from instances that do not use AWS-->.</p>
             </td>
             <td><p>11 de junio de 2026</p></td>
             <td><p>11 de junio de 2026</p></td>
@@ -465,7 +465,7 @@ Para obtener más información, consulte [Introducción a la versión de prueba 
 
 ### Workfront Maintenance Updates
 
-For information about the maintenance updates made during the Third Quarter 2026 release, see [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=es).
+For information about the maintenance updates made during the Third Quarter 2026 release, see [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 -->
 
