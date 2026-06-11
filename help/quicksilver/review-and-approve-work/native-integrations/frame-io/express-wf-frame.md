@@ -83,7 +83,7 @@ Los usuarios deben tener una licencia de Workfront estándar para solicitar la a
 [Se necesita vínculo al artículo de ayuda Express sobre la solicitud de aprobación]
 
 <!--
-Learn how to [get approval on designs](https://helpx.adobe.com/express/web/share-and-publish/share-and-collaborate/request-approval.html).   
+Learn how to [get approval on designs](https://helpx.adobe.com/es/express/web/share-and-publish/share-and-collaborate/request-approval.html).   
 -->
 
 ## Combinar plantillas rápidas y enviar para su revisión y aprobación
@@ -106,7 +106,7 @@ Si no se selecciona ningún proyecto, el recurso se convertirá de forma predete
 [Se necesita vínculo al artículo de ayuda Express sobre la solicitud de aprobación]
 
 <!--
-For more information, see [Send templates for review and approval](https://helpx.adobe.com/express/web/invite-collaborate/request-approval.html).
+For more information, see [Send templates for review and approval](https://helpx.adobe.com/es/express/web/invite-collaborate/request-approval.html).
 -->
 
 ## Revisar y aprobar archivos Express remezclados con Frame.io
