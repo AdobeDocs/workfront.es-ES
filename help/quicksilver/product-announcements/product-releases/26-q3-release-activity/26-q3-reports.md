@@ -4,10 +4,10 @@ description: Mejoras en los informes del tercer trimestre de 2026
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: b9c63e1ca4b2b301ee104ee84151a2d0148a8cea
+source-git-commit: a678a987703240680368b34c4095637b59a8bb60
 workflow-type: tm+mt
-source-wordcount: '399'
-ht-degree: 3%
+source-wordcount: '623'
+ht-degree: 1%
 
 ---
 
@@ -16,6 +16,31 @@ ht-degree: 3%
 Esta página describe las mejoras de los informes realizadas con la versión del tercer trimestre de 2026 en el entorno de vista previa. Estas mejoras estarán disponibles en el entorno de producción, como se ha indicado.
 
 Para obtener una lista de todos los cambios disponibles en este punto del ciclo de la versión del tercer trimestre de 2026, consulte [Información general de la versión del tercer trimestre de 2026](/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-release-overview.md).
+
+## Añadir varios intervalos de direcciones IP de Power BI a la lista de permitidos de Data Connect a la vez
+
+>[!NOTE]
+>
+>Vista previa: N/D>Versión rápida de producción: 11 de junio de 2026>Producción para todos: 16 de julio de 2026
+
+Los administradores de Workfront que conectan Microsoft Power BI a Workfront Data Connect ahora pueden añadir un conjunto completo de intervalos de direcciones IP de Azure a la lista de permitidos en un solo paso. En la ficha **Lista de permitidos IP** de **Conexión de datos**, el botón **Nueva dirección IP** incluye ahora una opción **Agregar bloques de direcciones IP de Power BI** que abre un cuadro de diálogo en el que puede pegar las entradas de la etiqueta de servicio Power BI desde el archivo JSON de intervalos de IP de Azure y etiquetas de servicio de Microsoft publicado.
+
+Esto reemplaza el flujo de trabajo anterior de agregar cada bloque CIDR de Power BI de uno en uno, lo que resultaba lento para las regiones que publican decenas de prefijos de dirección.
+
+Para obtener más información, consulte [Establecer una conexión con Workfront Data Connect](/help/quicksilver/reports-and-dashboards/data-lake/share-data-externally.md).
+
+
+## Ordenar la lista de paneles de lienzo
+
+>[!NOTE]
+>
+>Vista previa: 11 de junio de 2026>Versión rápida de producción: 15 de julio de 2026>Producción para todos: 16 de julio de 2026
+>
+>Paneles de lienzo se encuentra en la versión beta.
+
+Ahora puede ordenar la lista Paneles de lienzo por cualquiera de las siguientes columnas: **Nombre**, **Descripción**, **Creado por** o **Fecha de creación**. Haga clic en un encabezado de columna para ordenar la lista por esa columna y, a continuación, haga clic de nuevo en el mismo encabezado para invertir la dirección de ordenación. De manera predeterminada, la lista está ordenada por **Nombre** de la A a la Z. El criterio de ordenación se conserva al cambiar entre pestañas en la lista Paneles de lienzo.
+
+Para obtener más información, consulte [Usar paneles de lienzo](/help/quicksilver/reports-and-dashboards/canvas-dashboards/use-canvas-dashboards.md).
 
 ## Cambios en las horas reales en fórmulas personalizadas
 

@@ -3,9 +3,9 @@ user-guide-title: Guía de Workfront
 user-guide-description: Utilice los siguientes documentos, tutoriales y recursos adicionales para aprender a implementar y utilizar Adobe Workfront de forma eficaz en su organización.
 role: User
 feature-set: Workfront
-source-git-commit: 298865bbcdab40cda887d939529561e13a9ed093
+source-git-commit: 433e908e6234490cb098b69916fe2b766729a27b
 workflow-type: tm+mt
-source-wordcount: '14175'
+source-wordcount: '14180'
 ht-degree: 94%
 
 ---
@@ -25,6 +25,7 @@ ht-degree: 94%
          * [Mejoras en los documentos del tercer trimestre de 2026](/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-documents.md)
          * [Mejoras de Financial Management del tercer trimestre de 2026](/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-financial-management-enhancements.md)
          * [Mejoras en el hogar del tercer trimestre de 2026](/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-home.md)
+         * [Mejoras del proyecto del tercer trimestre de 2026](/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-projects.md)
          * [Mejoras en los informes del tercer trimestre de 2026](/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-reports.md)
          * [Tercer trimestre de 2026 Solicitud de mejoras](/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-requests.md)
          * [Tercer trimestre de 2026 Otras mejoras](/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-other.md)
@@ -2597,7 +2598,7 @@ ht-degree: 94%
       * [Configure y utilice las aplicaciones OAuth 2 personalizadas de la organización mediante el flujo JWT](wf-api/api/oauth-app-jwt-flow.md)
       * [Configure y utilice las aplicaciones OAuth 2 personalizadas de su organización mediante el flujo PKCE](wf-api/api/oauth-app-pkce-flow.md)
       * [Obsolescencia de la API interna](wf-api/api/deprecation-api-internal.md)
-      * [Novedades de la versión 22 de la API](/help/quicksilver/wf-api/api/new-api-version-22.md)
+      * [Novedades de la versión 22](/help/quicksilver/wf-api/api/new-api-version-22.md) de la API
       * [Novedades de la versión 21 de la API](/help/quicksilver/wf-api/api/new-api-version-21.md)
       * [Novedades de la versión 20 de la API](/help/quicksilver/wf-api/api/new-api-version-20.md)
       * [Novedades de la versión 19 de la API](wf-api/api/new-api-version-19.md)
