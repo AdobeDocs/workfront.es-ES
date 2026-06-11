@@ -9,10 +9,11 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 38441ec5ae6fd8cf5c79f939403d5966c5616c98
+exl-id: aadfd91d-19e5-4124-bbc4-70f5fbfa9ce6
+source-git-commit: 298865bbcdab40cda887d939529561e13a9ed093
 workflow-type: tm+mt
-source-wordcount: '94'
-ht-degree: 18%
+source-wordcount: '99'
+ht-degree: 17%
 
 ---
 
@@ -29,5 +30,4 @@ Esta sección contiene los siguientes artículos:
 * [Importar tarjetas de tarifas desde una plantilla](/help/quicksilver/administration-and-setup/manage-enterprise-operations/import-rate-cards.md)
 * [Cambios en la tasa push de los proyectos](/help/quicksilver/administration-and-setup/manage-enterprise-operations/push-rates-to-projects.md)
 * [Compartir una tarjeta de tarifas](/help/quicksilver/administration-and-setup/manage-enterprise-operations/share-rate-cards.md)
-
-
+* [Ver y administrar el historial de cambios](/help/quicksilver/administration-and-setup/manage-enterprise-operations/view-and-manage-change-history.md)
