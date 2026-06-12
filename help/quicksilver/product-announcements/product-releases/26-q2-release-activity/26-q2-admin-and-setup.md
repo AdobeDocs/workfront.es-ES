@@ -8,21 +8,15 @@ exl-id: ce152c48-ed72-47ed-b1c5-940c93b4a9ec
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/EqRUPqeqy6fSLryuWDtQGaypBlXmSJiaErDZymB95is
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
-  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87effid: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: a76f87dd9d37d4221c9f441da362dfc48b4960fb
 workflow-type: tm+mt
-source-wordcount: 512
-ht-degree: 11%
+source-wordcount: 573
+ht-degree: 10%
 
 ---
 
@@ -43,6 +37,18 @@ Para facilitarle las ventajas de la IA en su trabajo diario, hemos creado Conten
 Actualmente, Revisión de contenido es el único colaborador de IA disponible. En el futuro habrá más funciones de AI Collaborator disponibles.
 
 Para obtener más información, consulte [Configuración de colaboradores de IA](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md).
+
+## Nombres de zona horaria actualizados
+
+>[!NOTE]
+>
+>Vista previa: 27 de marzo de 2026>Versión rápida de producción: 27 de marzo de 2026>Producción para todos: 27 de marzo de 2026
+
+Hemos actualizado los husos horarios disponibles en Workfront para seguir los estándares de IANA. Esto garantiza la compatibilidad con otros sistemas y la precisión en el tiempo.
+
+Como parte de este cambio, algunas zonas horarias disponibles anteriormente en Workfront se han sustituido por zonas horarias estándar de IANA.
+
+Para obtener una lista de esos cambios, vea [Nombres de zona horaria actualizados](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/deprecated-time-zone-names.md).
 
 ## Los trimestres personalizados ahora están disponibles como una página independiente en Configuración
 
