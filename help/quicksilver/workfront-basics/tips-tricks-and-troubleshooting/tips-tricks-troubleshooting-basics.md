@@ -12,10 +12,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 5fc376d5e3fe8ab6e137d87f3ad0f57c06874d3d
 workflow-type: tm+mt
-source-wordcount: 105
-ht-degree: 57%
+source-wordcount: 109
+ht-degree: 55%
 
 ---
 
@@ -37,3 +37,4 @@ Consulte los siguientes artículos para obtener sugerencias y respuestas para la
 * [El filtro proyectos en los que estoy incluye resultados inesperados](../tips-tricks-and-troubleshooting/projects-im-on-filter-including-unexpected-results.md)
 * [Tener varias pestañas del explorador abiertas hace que Workfront cierre la sesión](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/multiple-browser-tabs-cause-logout.md)
 * [Cómo compartir objetos sin generar notificaciones](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/how-to-share-objects-without-sending-out-notifications.md)
+* [Nombres de zona horaria actualizados](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/deprecated-time-zone-names.md)
