@@ -1,7 +1,7 @@
 ---
-source-git-commit: be11c7417023ce2f310fce3e0cf77724d101b89e
+source-git-commit: 95859f692efbd6ce12238cc03e23e1cecbd99956
 workflow-type: tm+mt
-source-wordcount: '2317'
+source-wordcount: '2236'
 ht-degree: 24%
 
 ---
@@ -290,13 +290,6 @@ Debe instalar el complemento correcto para la aplicación de Adobe Creative Clou
 1. Haga clic en el icono **[!UICONTROL Menú principal]** ![Menú principal](/help/_includes/assets/main-menu-icon-left-nav.png) en la esquina superior izquierda de Adobe Workfront y, a continuación, haga clic en **[!UICONTROL Planificación]**.
 
    Se abre la página de aterrizaje de Workfront Planning.
-
-1. (Opcional y condicional) Si es administrador de Workfront, haga clic en una de las siguientes pestañas:
-
-   * **Mis espacios de trabajo**: muestra los espacios de trabajo que creó.
-   * **Otros espacios de trabajo**: muestra todos los espacios de trabajo en Workfront Planning, incluidos los compartidos con usted.
-
-   Para el resto de los usuarios, todos los espacios de trabajo que haya creado o que se hayan compartido con usted se mostrarán en el área **Espacios de trabajo**.
 
 ## Introducción importante a Workfront Planning: {#planning-important-intro}
 

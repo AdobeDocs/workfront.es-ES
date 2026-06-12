@@ -20,9 +20,9 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a93c6c9faf26d5eab1c223bd4a2646af896bf97d
+source-git-commit: 95859f692efbd6ce12238cc03e23e1cecbd99956
 workflow-type: tm+mt
-source-wordcount: 1690
+source-wordcount: 1713
 ht-degree: 7%
 
 ---
@@ -120,6 +120,10 @@ maybe use the Share record types as example here and touch on the same points: h
 <!--checking on the below with Lilit-->
 
 * Puede compartir registros con las siguientes entidades: personas, grupos, equipos, empresas o roles.
+* Existen las siguientes limitaciones:
+
+   * No puede compartir más de 100 registros a la vez.
+   * No se pueden compartir registros con más de 100 entidades.
 * Si restringe los permisos a un registro, los usuarios ya no verán ese registro y los valores de sus campos de búsqueda en ningún lugar del sistema donde se muestre ese registro.
 * Workfront comprueba los permisos de registro en conexiones de hasta 5 registros de profundidad, lo que garantiza que los usuarios solo vean los registros compartidos con ellos.
 * Puede conceder los siguientes niveles de permisos a un registro:

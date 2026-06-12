@@ -21,10 +21,10 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: fa50195be08ea164ab88ca30bd20ba8b021e7ecb
+source-git-commit: 95859f692efbd6ce12238cc03e23e1cecbd99956
 workflow-type: tm+mt
-source-wordcount: 5409
-ht-degree: 49%
+source-wordcount: 5339
+ht-degree: 50%
 
 ---
 
@@ -440,20 +440,6 @@ Puede utilizar un campo de fecha para capturar información adicional en formato
    * **Nombre**: Nombre del campo tal como aparecerá en una tabla o en la página de registro. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
    * **Descripción**: información adicional sobre el campo. La descripción de un campo se muestra al pasar el ratón por encima de la columna del campo en una tabla o al hacer clic en el icono de información situado junto al nombre del campo en la página de detalles del registro.
    * **Formato de fecha**: el tipo de formato de fecha que desea mostrar en este campo. <!--update this casing - submitted bug for it-->
-
-     Seleccione entre los siguientes formatos:
-      * **Configuración regional**: coincide con la configuración regional del explorador.
-      * **Estándar**: 16/5/2023
-      * **Largo**: 16 de mayo de 2023
-      * **Europeo**: 16/5/2023
-      * **ISO**: 16-5-2023
-   * **Incluir hora**: seleccione esta opción si desea incluir una marca de tiempo. De forma predeterminada, esta opción no está seleccionada. No se puede incluir un tiempo después de guardar el campo.
-
-     Seleccione entre las siguientes opciones:
-
-      * **24hr**: Por ejemplo: 18:00
-      * **12hr**: Por ejemplo: 6:00 PM
-
 
      Según el entorno en el que acceda a los campos, haga lo siguiente:
 
