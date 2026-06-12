@@ -21,7 +21,7 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b4a1643db287af5c9f641caf26ab9a8214adcb44
+source-git-commit: fa50195be08ea164ab88ca30bd20ba8b021e7ecb
 workflow-type: tm+mt
 source-wordcount: 5409
 ht-degree: 49%
@@ -900,6 +900,7 @@ No se puede modificar manualmente el valor de un campo de Id. de registro.
 1. Haga clic en **Crear**.
 
    El nuevo campo de tipo Record ID se agrega como una columna al tipo de registro y sus valores se rellenan previamente con un valor alfanumérico.
+
 
 
 <!--
