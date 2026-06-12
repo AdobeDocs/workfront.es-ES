@@ -10,20 +10,19 @@ exl-id: 25f045d9-a291-423d-81ee-6fbd2fb12607
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/iUA66WzGxCmngVNSHJ1hcm6o-5lyfKDk6gQK3AdXBG0
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 889f77efd9472cd2da5de1e5ec602aea63b2ce0b
 workflow-type: tm+mt
-source-wordcount: 480
-ht-degree: 7%
+source-wordcount: 572
+ht-degree: 8%
 
 ---
 
 # Usar paneles de lienzo
+
+{{highlighted-preview}}
 
 >[!IMPORTANT]
 >
@@ -48,6 +47,33 @@ Para acceder a los paneles del lienzo, vaya a la sección Paneles en Adobe Workf
 1. En el panel izquierdo, haga clic en **Paneles de control de lienzo**.
 1. Haga clic en el nombre de un tablero existente para abrirlo.
    ![Abrir un tablero](assets/open-dashboard.png)
+
+<div class="preview">
+
+## Ordenar la lista de paneles de lienzo en Vista previa
+
+Puede ordenar la lista Paneles de lienzo por cualquiera de las siguientes columnas:
+
+* Nombre
+* Descripción
+* Creado por
+* Crear fecha
+
+Para ordenar la lista:
+
+1. En el panel izquierdo, haga clic en **Paneles de control de lienzo**.
+1. Haga clic en un encabezado de columna para ordenar la lista por esa columna. Vuelva a hacer clic en el mismo encabezado para invertir la dirección de ordenación.
+
+   De manera predeterminada, la lista está ordenada por la columna **Name** de la A a la Z.
+
+   ![Ordenar la lista de paneles de lienzo](assets/sort-canvas-dashboards-list.png)
+
+>[!NOTE]
+>
+>* El criterio de ordenación se conserva al cambiar entre pestañas en la lista Paneles de lienzo.
+
+
+</div>
 
 <!--
 ## Navigating the Dashboard
