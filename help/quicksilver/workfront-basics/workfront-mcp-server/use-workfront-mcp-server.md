@@ -5,17 +5,15 @@ title: Uso del servidor MCP de Adobe Workfront
 description: Utilice el servidor MCP de Adobe Workfront para buscar, crear, actualizar y administrar elementos de Workfront a través de una conversación en lenguaje natural en una plataforma agéntica de IA.
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: 648342f0002046febba1b8e751bc1cffec2c1346
+source-git-commit: b63c45eaf380137f2ebfc5cb99e503085f878389
 workflow-type: tm+mt
-source-wordcount: '1793'
+source-wordcount: '1807'
 ht-degree: 0%
 
 ---
 
 
 # Uso del servidor MCP de Adobe Workfront
-
-{{highlighted-preview-article-level}}
 
 El servidor MCP [!DNL Adobe Workfront] le permite buscar, crear, actualizar y administrar elementos de Workfront solicitando una plataforma auténtica de IA en lenguaje natural. La plataforma decide qué acciones de Workfront llamar y gestiona la conversación con Workfront por usted.
 
@@ -97,6 +95,7 @@ Para administrar las aprobaciones de documentos y recursos, haga lo siguiente:
 * *Agregue a Sarah Chen y Miguel Álvarez como aprobadores en el documento actual.*
 * *Envíe un recordatorio a los aprobadores del recurso &quot;Vídeo de campaña de primavera&quot; que no hayan respondido.*
 * *Aplique la plantilla de aprobación &quot;Lanzamiento de marketing&quot; al recurso &quot;Vídeo de campaña de primavera&quot;.*
+* *Quitar a Anna Jones de todas las aprobaciones de este proyecto y reemplazarla por Sione Carter.*
 
 
 ### Trabajo con registros de Planning
