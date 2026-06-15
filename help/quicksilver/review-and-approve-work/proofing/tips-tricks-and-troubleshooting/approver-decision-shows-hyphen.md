@@ -5,8 +5,10 @@ navigation-topic: tips-tricks-and-troubleshooting-proofing-within-workfront
 title: La decisión del aprobador muestra un guion en el informe de aprobación de la prueba
 description: Un guion en el campo Decisión del aprobador del informe Aprobación de la prueba indica que un destinatario ya no está en la función de toma de decisiones de la prueba.
 author: Courtney
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
 source-git-commit: 9c6e8d04c1faa2902cab870a03a68f0cb14da3aa
 workflow-type: tm+mt
 source-wordcount: 287
