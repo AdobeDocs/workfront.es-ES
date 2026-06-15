@@ -1,9 +1,9 @@
 ---
 name: update-for-release
 description: ""
-source-git-commit: be4cbcd40353960ea65a1ca38a8b6b1e21fd2ad4
+source-git-commit: 744be221844b2e24fb738cab5403f581a83b6c16
 workflow-type: tm+mt
-source-wordcount: '1267'
+source-wordcount: '1443'
 ht-degree: 0%
 
 ---
@@ -55,7 +55,7 @@ Presentar la lista de candidatos al usuario. Pregunte qué actualizar y qué omi
 Lea `help/_includes/snippets.md` y elija según disponibilidad:
 
 | Disponibilidad | Fragmento |
-|---|---|
+| --- | --- |
 | Solo vista previa: el contenido resaltado es nuevo en un artículo de, de lo contrario, GA | `{{highlighted-preview}}` |
 | Solo vista previa: todo el artículo es nuevo. | `{{highlighted-preview-article-level}}` |
 | Vista previa + clientes de versión rápida, general | `{{preview-fast-release-general}}` |
@@ -104,6 +104,38 @@ Para cada artículo de la lista confirmada por el usuario:
 ### &#x200B;5. Después de cada artículo
 
 Pregunte si desea pasar al siguiente artículo, detener, omitir o volver a visitar el actual.
+
+### &#x200B;6. Fin de la sesión: copiar/pegar la nota de la versión
+
+Cuando el usuario finalice la sesión (diga &quot;listo&quot;, &quot;ya está&quot;, &quot;detener&quot; o rechace continuar con el siguiente artículo), pregunte:
+
+> &quot;¿Desea copiar/pegar una entrada de nota de versión para la página de mejora?&quot;
+
+Si es así, genere una entrada de borrador utilizando el contexto de función del paso 1 y el artículo de ayuda principal actualizado en esta sesión. **No lo escriba en ningún archivo**; proporciónelo como texto de copiar/pegar solamente.
+
+Dé formato a la entrada para que coincida con la estructura de página del área de producto de la aptitud de **formateador de notas de la versión**:
+
+```markdown
+## {Feature name}
+
+>[!NOTE]
+>
+>Preview: {date or TBD}
+>Production fast release: {date or TBD}
+>Production for everyone: {date or TBD}
+
+{1–3 sentences describing what changed and why it helps users. Lead with the benefit, not the UI action.}
+
+For more information, see [{Primary article title}](/help/quicksilver/{path-to-article}.md).
+```
+
+Reglas:
+
+- Use `TBD` para cualquier fecha aún no conocida; pregunte al usuario si tiene las fechas.
+- El nombre de la función es mayúsculas y minúsculas (ponga en mayúsculas solo la primera palabra y los sustantivos propios).
+- La descripción debe centrarse en lo que los usuarios ahora pueden hacer, no en los detalles de la implementación.
+- Vínculo al artículo de procedimientos más específico actualizado, no a una página de información general.
+- No incluya un bloque de fecha `>[!NOTE]` si todas las fechas son desconocidas y el usuario no desea marcadores de posición; omita este bloque y tenga en cuenta que debe agregarse más adelante.
 
 ## Reglas de contenido
 
