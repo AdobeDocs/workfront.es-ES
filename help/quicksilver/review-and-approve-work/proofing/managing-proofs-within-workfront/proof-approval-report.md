@@ -15,10 +15,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: a2241fa21f51f8146c1f3725d2ba2235f8458ab4
 workflow-type: tm+mt
-source-wordcount: 249
-ht-degree: 96%
+source-wordcount: 310
+ht-degree: 77%
 
 ---
 
@@ -85,5 +85,9 @@ Puede añadir los siguientes campos al informe de aprobación de revisión:
    * La prueba está pendiente de aprobación
 
 * **Fecha límite de la revisión**: muestra la fecha límite de la revisión. Cada etapa debe tener una fecha límite asignada para que se rellene este campo. El campo muestra la fecha límite de la etapa activada más recientemente.
+
+## Acerca del campo Decisión del aprobador
+
+El campo Decisión del aprobador muestra la decisión que un destinatario tomó sobre la prueba. En algunos casos, este campo muestra un guion (-) en lugar de un valor de decisión, lo que indica que el destinatario ya no está en una función de toma de decisiones en la prueba. Para obtener más información, consulte [Decisión del aprobador muestra un guion en el informe de aprobación de pruebas](../tips-tricks-and-troubleshooting/approver-decision-shows-hyphen.md).
 
  
