@@ -5,9 +5,9 @@ title: Configuración del servidor MCP de Adobe Workfront
 description: Configure su instancia de Workfront y su plataforma agéntica de IA para poder trabajar con Workfront a través de una conversación en lenguaje natural.
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: b63c45eaf380137f2ebfc5cb99e503085f878389
+source-git-commit: 0445376ea187b589040c8fdc56ea0d11f44b0b37
 workflow-type: tm+mt
-source-wordcount: '1701'
+source-wordcount: '1748'
 ht-degree: 1%
 
 ---
@@ -99,9 +99,15 @@ Para conectar Workfront a [!DNL Claude]:
 
 +++
 
-### Conectarse a Claude Desktop con una dirección URL
+### Conectarse a Claude con una URL
 
 +++ Amplíe para ver instrucciones paso a paso para conectar Workfront a [!DNL Claude] con una dirección URL.
+
+>[!NOTE]
+>
+>Debe ser el propietario de un entorno de Claude empresarial para realizar este procedimiento.
+>
+>Para obtener la declaración de Claude sobre el requisito de propietario, consulte [Agregar un conector personalizado](https://support.claude.com/en/articles/11175166-get-started-with-custom-connectors-using-remote-mcp#:~:text=Note%3A%20While,has%20access%20to) en la documentación de Claude.
 
 Para conectar Workfront a [!DNL Claude] con una dirección URL:
 
@@ -118,7 +124,7 @@ Para conectar Workfront a [!DNL Claude] con una dirección URL:
 
 1. Una vez creado el conector, aparece una ventana de inicio de sesión. Autentique con sus credenciales de Adobe ID. Asegúrese de seleccionar la instancia de Workfront que desee si pertenece a más de una.
 
-   >NOTA:
+   >[!NOTE]
    >
    >La instancia de Workfront debe conectarse con el servidor MCP de la región de dicha instancia. Por ejemplo, una instancia de la UE debe conectarse al servidor MCP de la UE.
    >
@@ -150,7 +156,7 @@ Para obtener más información acerca de las habilidades de [!DNL Claude], consu
 1. Asegúrese de que Autenticación está establecida en **OAuth** (establecida de forma predeterminada) y active la casilla de verificación de aceptación para continuar.
 1. Una vez creada la aplicación, aparece una ventana de inicio de sesión. Autentique con sus credenciales de Adobe ID. Asegúrese de seleccionar la instancia de Workfront que desee si pertenece a más de una.
 
-   >NOTA:
+   >[!NOTE]
    >
    >La instancia de Workfront debe conectarse con el servidor MCP de la región de dicha instancia. Por ejemplo, una instancia de la UE debe conectarse al servidor MCP de la UE.
    >
