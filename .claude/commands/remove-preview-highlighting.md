@@ -1,9 +1,9 @@
 ---
 name: remove-preview-highlighting
 description: ""
-source-git-commit: 5d515c5ae4c79a4183f3c583bc267fea6e398644
+source-git-commit: 08e47dac1dcd856a2e74e2368e71d57eef8a8278
 workflow-type: tm+mt
-source-wordcount: '917'
+source-wordcount: '1087'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Se aplican solo cuando **all** son verdaderos:
 1. El usuario invocó este flujo de trabajo (por ejemplo, dice **&quot;quitar resaltado de vista previa&quot;** o claramente la misma intención).
 2. La ruta del archivo Markdown **no contiene** **`product-announcements`** (excluya todo el árbol de carpetas, por ejemplo, notas de la versión, beta y anuncios en `help/quicksilver/product-announcements/`).
 3. El archivo Markdown **no es** enumerado en **[Rutas excluidas](#excluded-paths)** a continuación.
-4. El contenido preliminar del archivo Markdown incluye **`Courtney`** en la línea `author:` (autor único o coautor).
+4. El archivo Markdown aparece en `git log` como con contenido de vista previa **agregado o modificado** por el usuario de Git actual dentro del intervalo de fechas especificado por el usuario (consulte el paso Inventario).
 5. El artículo tiene **al menos uno** de:
    - Vista previa del entorno **idioma en los párrafos del fragmento de cuerpo o en prosa real** (patrones típicos: &quot;información resaltada&quot;, &quot;entorno de vista previa&quot;, &quot;aún no disponible de forma general&quot;, notas de versión rápida)—**no** una coincidencia de **solo texto de vínculo** en una página de índice/índice (ver a continuación); o
    - Cualquier elemento de HTML con **`class="preview"`** (por ejemplo, `<span class="preview">`, `<div class="preview">`); o
@@ -40,7 +40,33 @@ Nunca agregue estos elementos al inventario ni los edite en este flujo de trabaj
 **no** edita el repositorio de forma masiva sin aprobación.
 
 1. **Inventario**\
-   Cree una lista ordenada de rutas que cumplan las reglas de ámbito anteriores (busque en el repositorio; prefiera `help/` árboles). **Omitir** cualquier ruta de acceso en **`product-announcements`**, cualquier ruta de acceso en **[Rutas excluidas](#excluded-paths)** y cualquier página de **índice/índice** que coincida con **páginas de índice/índice** en el ámbito. Si el usuario dice que un archivo de la lista no tiene resaltado de previsualización, elimínelo de la ejecución y apriete los criterios en lugar de forzar las ediciones.
+   a. **Pregunte al usuario para qué versión trimestral** está eliminando el resaltado de vista previa (por ejemplo, &quot;T3 2026&quot; o &quot;2026.07&quot;).\
+   b. **Recupere el calendario de versiones** de `https://wiki.corp.adobe.com/spaces/AWF/pages/3631617814/2026+Monthly+Release+Calendar` mediante la herramienta MCP de adobe-wiki. Buscar:
+   - La **fecha de lanzamiento de producción** de la **versión trimestral anterior** → `--since`.
+   - La **fecha de lanzamiento de producción** del **destino** → trimestral `--until`.
+   - Las versiones trimestrales se identifican con la columna &quot;Nombre de versión trimestral&quot; (por ejemplo, 2026.01, 2026.04, 2026.07, 2026.10).
+   - **Si la fecha actual se encuentra en el cuarto trimestre (octubre a diciembre):** después de recuperar el calendario del año actual, pídale al usuario que proporcione la dirección URL para el calendario de versiones del año próximo y, a continuación, recupere también esa dirección para que todas las fechas de producción trimestrales necesarias estén disponibles.
+c. Determine el usuario de Git actual y, a continuación, ejecute lo siguiente utilizando las fechas de lanzamiento de producción del paso b:
+
+   ```bash
+   GIT_USER=$(git config user.name)
+   git log --since="YYYY-MM-DD" --until="YYYY-MM-DD" \
+     --author="$GIT_USER" --name-only --pretty=format: \
+     -- "help/quicksilver/**/*.md" | sort -u | grep -v '^$'
+   ```
+
+   d. De esos resultados, **filtre a los archivos donde las confirmaciones del usuario actual en el intervalo de fechas agregaron o modificaron realmente el contenido de vista previa**. Para cada archivo candidato, compruebe si las confirmaciones del usuario introdujeron los marcadores de previsualización:
+
+   ```bash
+   git log --since="YYYY-MM-DD" --until="YYYY-MM-DD" \
+     --author="$GIT_USER" -p -- "<file>" | \
+   grep -q '^\+.*class="preview"\|^\+.*{{highlighted-preview\|^\+.*highlighted information\|^\+.*not yet generally available'
+   ```
+
+   Incluya el archivo solo si este grep coincide (código de salida 0). Esto evita los falsos positivos cuando un usuario realiza una edición no relacionada con un archivo cuyo resaltado de vista previa ha sido agregado por otra persona.
+
+   e. **Omitir** cualquier ruta de acceso en **`product-announcements`**, cualquier **[ruta de acceso excluida](#excluded-paths)** y cualquier página de **índice/índice** según la regla de índice anterior.\
+   f. Presente la lista ordenada resultante. Si el usuario dice que un archivo de la lista no tiene resaltado de previsualización, elimínelo de la ejecución y apriete los criterios en lugar de forzar las ediciones.
 
 2. **Start**\
    Pregunte si desea comenzar con el artículo **first** de la lista (o una ruta en los nombres de usuario).
