@@ -5,7 +5,7 @@ title: Configuración del servidor MCP de Adobe Workfront
 description: Configure su instancia de Workfront y su plataforma agéntica de IA para poder trabajar con Workfront a través de una conversación en lenguaje natural.
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: 0445376ea187b589040c8fdc56ea0d11f44b0b37
+source-git-commit: f47b9ade625541cd095ee4fd7abb14b9295c4a9c
 workflow-type: tm+mt
 source-wordcount: '1748'
 ht-degree: 1%
@@ -290,3 +290,6 @@ Tanto el administrador de Workfront como el administrador de la plataforma agén
 No. La instancia de Workfront debe estar habilitada en Adobe Identity Management System (IMS) para utilizar el servidor MCP de Workfront. Si no está seguro de si la instancia está habilitada en IMS, póngase en contacto con el administrador de Workfront.
 
 +++ 
+
+
+
