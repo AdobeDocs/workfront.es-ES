@@ -19,10 +19,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+source-git-commit: 9d28f52ace4d443bdffc475baf79d482152d4157
 workflow-type: tm+mt
-source-wordcount: 958
-ht-degree: 0%
+source-wordcount: 1004
+ht-degree: 1%
 
 ---
 
@@ -99,9 +99,17 @@ Los objetos de Workfront incluyen portafolios, programas, proyectos, plantillas,
 
 ### Mover, copiar y convertir objetos
 
-Puede mover, copiar y convertir objetos de Workfront entre modelos de almacenamiento similares. Por ejemplo, puede mover una tarea de un proyecto de almacenamiento en la nube de Adobe a otro proyecto de almacenamiento en la nube Adobe. No puede mover una tarea de un proyecto de almacenamiento en la nube de Adobe a un proyecto de almacenamiento de Workfront heredado.
+En la mayoría de los casos, puede mover, copiar y convertir objetos de Workfront entre modelos de almacenamiento similares. Por ejemplo, puede mover una tarea de un proyecto de almacenamiento en la nube de Adobe a otro proyecto de almacenamiento en la nube Adobe.
 
-Estas acciones están disponibles en el menú Más sobre una tarea o un problema. Cada acción respeta la integridad del documento, la herencia de permisos y las reglas de almacenamiento en la nube de Adobe.
+En tres casos específicos, puede convertir un objeto de almacenamiento de Workfront heredado al almacenamiento en la nube de Adobe:
+
+* Convierta una tarea de almacenamiento de Workfront heredada en un proyecto de almacenamiento en la nube de Adobe.
+* Convierta una cartera de productos de almacenamiento de Workfront heredados en una cartera de productos de almacenamiento en la nube de Adobe.
+* Cree un proyecto de almacenamiento en la nube de Adobe a partir de una plantilla de almacenamiento de Workfront heredada.
+
+Los documentos y las carpetas de documentos no se mueven del almacenamiento heredado de Workfront al almacenamiento en la nube de Adobe durante ninguna de estas conversiones.
+
+Para obtener más información, consulte [Portabilidad de objetos](/help/quicksilver/review-and-approve-work/workfront-storage.md#object-portability) en [Mover a Workfront en el almacenamiento en la nube de Adobe](/help/quicksilver/review-and-approve-work/workfront-storage.md).
 
 ## Habilitar el almacenamiento en la nube de Adobe
 

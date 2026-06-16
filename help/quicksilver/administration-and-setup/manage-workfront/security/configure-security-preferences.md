@@ -26,10 +26,10 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+source-git-commit: 9d28f52ace4d443bdffc475baf79d482152d4157
 workflow-type: tm+mt
-source-wordcount: 933
-ht-degree: 59%
+source-wordcount: 964
+ht-degree: 57%
 
 ---
 
@@ -152,6 +152,10 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
      <tr> 
       <td role="rowheader">Habilitar el almacenamiento en la nube de Adobe </td> 
       <td>Permite habilitar o deshabilitar el almacenamiento en la nube de Adobe para toda la organización o para grupos específicos. Para obtener más información sobre el almacenamiento en la nube de Adobe, consulte <a href="/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md">Habilitar el almacenamiento en la nube de Adobe para su organización</a>.</td> 
+     </tr>
+     <tr> 
+      <td role="rowheader">Seleccione portafolios para convertirlos en almacenamiento en la nube de Adobe </td> 
+      <td>Permite convertir portafolios de almacenamiento de Workfront heredados existentes al almacenamiento en la nube de Adobe. Para obtener más información, consulte <a href="/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/convert-portfolios-to-acs.md">Convertir portafolios heredados al almacenamiento en la nube de Adobe</a>.</td> 
      </tr>
      <tr> 
       <td role="rowheader">Habilitar IA </td> 
