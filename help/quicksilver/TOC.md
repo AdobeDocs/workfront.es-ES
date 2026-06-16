@@ -3,9 +3,9 @@ user-guide-title: Guía de Workfront
 user-guide-description: Utilice los siguientes documentos, tutoriales y recursos adicionales para aprender a implementar y utilizar Adobe Workfront de forma eficaz en su organización.
 role: User
 feature-set: Workfront
-source-git-commit: 7f03904aef23f47b84d085877ffa9153c1d69786
+source-git-commit: 1fa2eeee7a4acba12ca57781023878dee50f7035
 workflow-type: tm+mt
-source-wordcount: '14194'
+source-wordcount: '14192'
 ht-degree: 94%
 
 ---
@@ -2600,7 +2600,7 @@ ht-degree: 94%
       * [Configure y utilice las aplicaciones OAuth 2 personalizadas de la organización mediante el flujo JWT](wf-api/api/oauth-app-jwt-flow.md)
       * [Configure y utilice las aplicaciones OAuth 2 personalizadas de su organización mediante el flujo PKCE](wf-api/api/oauth-app-pkce-flow.md)
       * [Obsolescencia de la API interna](wf-api/api/deprecation-api-internal.md)
-      * [Novedades de la versión 22 de la API](/help/quicksilver/wf-api/api/new-api-version-22.md)
+      * [Novedades de la versión 22](/help/quicksilver/wf-api/api/new-api-version-22.md) de la API
       * [Novedades de la versión 21 de la API](/help/quicksilver/wf-api/api/new-api-version-21.md)
       * [Novedades de la versión 20 de la API](/help/quicksilver/wf-api/api/new-api-version-20.md)
       * [Novedades de la versión 19 de la API](wf-api/api/new-api-version-19.md)
@@ -2685,6 +2685,7 @@ ht-degree: 94%
    * [Adquirir e instalar aplicaciones desde Adobe Exchange](/help/quicksilver/app-builder/install-apps-on-exchange.md)
    * [Creación de aplicaciones personalizadas para Workfront con Adobe App Builder](/help/quicksilver/app-builder/app-builder.md)
 * {hide-from-toc}[Documento de prueba oculto](hidden-test.md)
+* {hide-from-toc}[Ocultar 2](hidden-test-2.md)
 
 
 <!--
