@@ -9,22 +9,15 @@ exl-id: 97f36c18-3ac8-45ac-b5bc-dfe8b1363faf
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/UkUQdW12tLqRjh5zmbwtjNfRxFwc-Uhj2gGwjmDyKb8
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: c6b02fbaf2ee03728543c9d34068e4dd353ac441
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 397e5e36632872bb7be3f4e219b36e33b44136e9
 workflow-type: tm+mt
-source-wordcount: 689
-ht-degree: 42%
+source-wordcount: 674
+ht-degree: 43%
 
 ---
 
@@ -189,20 +182,14 @@ Old:
    >Cuando su organización utiliza el almacenamiento en la nube heredado de Workfront y Adobe para documentos, existen los siguientes escenarios:
    >
    >
-   >* Cuando agrega un proyecto de almacenamiento en la nube de Adobe a una cartera de productos de almacenamiento de Workfront heredados y esta no tiene documentos adjuntos, la cartera se convierte en una cartera de productos de almacenamiento en la nube de Adobe.
-   >* Cuando agrega un proyecto de almacenamiento en la nube de Adobe a una cartera de productos de almacenamiento de Workfront heredados y esta tiene documentos adjuntos a él, el almacenamiento de documentos de la cartera permanece en el almacenamiento de Workfront. Sin embargo, el icono de almacenamiento heredado de Workfront ![Icono de almacenamiento heredado de Workfront](assets/legacy-storage-project-icon.png) se eliminará del portafolio.
-   >* No puede agregar un proyecto de almacenamiento de Workfront heredado a un catálogo de productos de Adobe Cloud Storage.
+   >* No puede agregar un proyecto de almacenamiento heredado a un portafolio de almacenamiento en la nube de Adobe ni un proyecto de almacenamiento en la nube de Adobe a un portafolio de almacenamiento heredado.
+   >* No puede crear un proyecto a partir de una plantilla de almacenamiento en la nube de Adobe en una cartera de almacenamiento heredado.
+   >* Puede crear un proyecto a partir de una plantilla de almacenamiento heredada en un portafolio de almacenamiento de nube de Adobe, pero los documentos y las carpetas de la plantilla no se agregan al nuevo proyecto. El proyecto recibe almacenamiento en la nube de Adobe.
    >
    >Para obtener más información, vea [Información general sobre la administración de documentos de proyectos y objetos relacionados](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
    >
    >No todas las instancias de Workfront tienen ambos tipos de almacenamiento de documentos.
 
-   <!--
-    For preview/ prod release: replace all bullets (i think!!) in the Note with this:
-    * You cannot add a Legacy storage project to an Adobe cloud storage portfolio, or an Adobe cloud storage project to a Legacy storage portfolio. 
-    * You cannot create a project from an Adobe cloud storage template in a Legacy storage portfolio. 
-    * You can create a project from a Legacy storage template in an Adobe cloud storage portfolio, but the documents and folders on the template are not added to the new project. The project receives Adobe cloud storage.
-    -->
 
 1. (Opcional) Si decide no agregarlo al portafolio, haga clic en el icono **X** que aparece a la derecha del nombre del proyecto para quitarlo de la lista.
 
