@@ -18,10 +18,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: c6b02fbaf2ee03728543c9d34068e4dd353ac441
+source-git-commit: 397e5e36632872bb7be3f4e219b36e33b44136e9
 workflow-type: tm+mt
-source-wordcount: 382
-ht-degree: 36%
+source-wordcount: 289
+ht-degree: 48%
 
 ---
 
@@ -99,21 +99,10 @@ Old:
 
 >[!NOTE]
 >
->Cuando su organización utiliza el almacenamiento en la nube heredado de Workfront y Adobe para documentos, existen los siguientes escenarios:
+>Cuando su organización utiliza el almacenamiento en la nube heredado de Workfront y Adobe para documentos, no puede agregar un programa de almacenamiento en la nube de Adobe a un portafolio de almacenamiento heredado ni un programa heredado a un portafolio de almacenamiento en la nube de Adobe.
+>Es posible que la instancia de Workfront no tenga ambos tipos de almacenamiento de documentos.
+>Para obtener más información, consulte [Resumen de administración de documentos para proyectos y objetos relacionados](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
 >
->
->* Cuando agrega un programa de almacenamiento en la nube de Adobe a una cartera de productos de almacenamiento de Workfront heredados y esta no tiene documentos adjuntos, la cartera se convierte a un almacenamiento en la nube de Adobe.
->* Cuando agrega un programa de almacenamiento en la nube de Adobe a una cartera de productos de almacenamiento de Workfront heredados y la cartera tiene documentos adjuntos a él, el almacenamiento de documentos de la cartera permanece en el almacenamiento de Workfront. Sin embargo, el icono de almacenamiento heredado de Workfront ![Icono de almacenamiento heredado de Workfront](assets/legacy-storage-project-icon.png) se eliminará del portafolio.
->* No puede agregar un programa de almacenamiento de Workfront heredado a una cartera de productos de almacenamiento de Adobe en la nube.
->
->Para obtener más información, vea [Información general sobre la administración de documentos de proyectos y objetos relacionados](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
->
->No todas las instancias de Workfront tienen ambos tipos de almacenamiento de documentos.
-
-<!--
-For preview/ Prod. release, rewrite the bullets above:
-* You cannot add an Adobe cloud storage program to a Legacy storage portfolio, or a Legacy program to an Adobe cloud storage portfolio.
--->
 
 Para agregar un programa existente a otro portafolio:
 

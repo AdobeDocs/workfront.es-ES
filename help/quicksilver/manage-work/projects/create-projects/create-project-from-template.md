@@ -21,10 +21,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: c6b02fbaf2ee03728543c9d34068e4dd353ac441
+source-git-commit: 397e5e36632872bb7be3f4e219b36e33b44136e9
 workflow-type: tm+mt
-source-wordcount: 1484
-ht-degree: 64%
+source-wordcount: 1419
+ht-degree: 66%
 
 ---
 
@@ -187,18 +187,14 @@ Puede crear un proyecto desde el área Proyectos del menú principal o desde el 
       >
       >* El uso de una plantilla de almacenamiento de Workfront heredada crea un proyecto de almacenamiento de Workfront heredado.
       >
-      >* Cuando se utiliza una plantilla de almacenamiento en la nube de Adobe de un portafolio o programa de almacenamiento de Workfront heredado, el proyecto es un proyecto de almacenamiento en la nube de Adobe y el portafolio o programa también se convierten en objetos de almacenamiento en la nube de Adobe. Todos los demás proyectos de almacenamiento de Workfront heredados del mismo portafolio o programa permanecen inalterados.
+      >* Al crear proyectos utilizando plantillas de un portafolio o programa, existen los siguientes escenarios:
+      >     * No puede utilizar una plantilla de almacenamiento en la nube de Adobe de un portafolio o programa de almacenamiento de Workfront heredado para crear un proyecto.
+      >     * Puede crear un proyecto de almacenamiento en la nube de Adobe para un portafolio o programa de almacenamiento de Adobe mediante una plantilla de almacenamiento heredada. Los documentos de plantilla y las carpetas no se adjuntan al nuevo proyecto.
       >
       > Es posible que la instancia de Workfront no tenga ambos tipos de almacenamiento de documentos.
       >
       >Para obtener más información, vea [Información general sobre la administración de documentos de proyectos y objetos relacionados](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
 
-
-      Para la versión de previsualización/producción: será necesario volver a escribir la tercera viñeta de la NOTA anterior:
-
-      >* Al crear proyectos utilizando plantillas de un portafolio o programa, existen los siguientes escenarios:
-      >  * No puede utilizar una plantilla de almacenamiento en la nube de Adobe de un portafolio o programa de almacenamiento de Workfront heredado para crear un proyecto.
-      >  * Puede crear un proyecto de almacenamiento en la nube de Adobe para un portafolio o programa de almacenamiento de Adobe mediante una plantilla de almacenamiento heredada. Los documentos de plantilla y las carpetas no se adjuntan al nuevo proyecto.
 
    1. Revise los siguientes detalles de la plantilla a la derecha:
 

@@ -6,9 +6,9 @@ description: Dependiendo de si el administrador de Workfront elige la opción pr
 author: Alina
 feature: Work Management
 exl-id: 5623157e-946e-4475-9df3-b1888a2a0934
-source-git-commit: acd6989db41fad0a24015aac641c9821db1811f1
+source-git-commit: 397e5e36632872bb7be3f4e219b36e33b44136e9
 workflow-type: tm+mt
-source-wordcount: '1976'
+source-wordcount: '2037'
 ht-degree: 0%
 
 ---
@@ -146,16 +146,12 @@ Tenga en cuenta lo siguiente al trabajar con portafolios:
 
 * Cuando agrega un proyecto de almacenamiento en la nube de Adobe a una cartera de productos de almacenamiento de Workfront heredados y esta no tiene documentos adjuntos, la cartera se convierte en una cartera de productos de almacenamiento en la nube de Adobe.
 * Cuando agrega un proyecto de almacenamiento en la nube de Adobe a una cartera de productos de almacenamiento de Workfront heredados y esta tiene documentos adjuntos a él, el almacenamiento de documentos de la cartera permanece en el almacenamiento de Workfront. Sin embargo, el icono de almacenamiento de Workfront heredado del portafolio ![Icono de almacenamiento de portafolio heredado](assets/legacy-storage-project-icon.png) se eliminará del portafolio.
-* No puede agregar un proyecto de almacenamiento de Workfront heredado a un catálogo de productos de Adobe Cloud Storage.
+* No puede agregar un proyecto de almacenamiento en la nube de Adobe a una cartera de productos de almacenamiento heredados ni a un proyecto de almacenamiento heredado a una cartera de productos de Adobe.
+* El administrador puede convertir un catálogo de productos de almacenamiento heredado al almacenamiento en la nube de Adobe en el área Preferencias del sistema de Configuración. Todos los objetos secundarios (programas, proyectos y documentos) permanecen en el almacenamiento heredado. Los nuevos proyectos utilizarán el almacenamiento en la nube de Adobe. Los nuevos documentos añadidos al portafolio se seguirán almacenando en el almacenamiento heredado.
+Para obtener más información, consulte [Configurar las preferencias del sistema](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md).
 
 * Al crear portafolios mediante una automatización de Workfront Planning, Workfront utiliza la preferencia de almacenamiento predeterminada del sistema para el portafolio. Debe adquirir el paquete de Planning para acceder a Workfront Planning.
 
-<!--
-For preview/ Prod release: the third bullet above will need replacing with this:
-* You cannot add an Adobe cloud storage project to a Legacy storage portfolio or a Legacy storage project to an Adobe storage portfolio. 
-* Your administrator can convert a Legacy storage portfolio to Adobe cloud storage in the System Preferences area of Setup. All children objects (programs, projects, and documents) remain on Legacy storage. New projects will use Adobe cloud storage. New documents added to the portfolio will continue to be stored in Legacy storage.
-  For information, see [Configure system preferences](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md).
--->
 
 ### Administración de documentos para programas
 
@@ -163,24 +159,12 @@ Tenga en cuenta lo siguiente al trabajar con programas:
 
 * Cuando crea un programa de almacenamiento en la nube de Adobe, Workfront crea una carpeta en la sección Documentos del programa en la que se guardan los documentos. El nombre de la carpeta es el mismo que el nombre del programa. No puede eliminar la carpeta ni cambiarle el nombre manualmente. Si cambia el nombre del programa, se cambiará el nombre de la carpeta para que coincida con el nuevo nombre del programa.
 
-* Cuando se agrega un proyecto de almacenamiento en la nube de Adobe a un programa de almacenamiento heredado de Workfront y el programa no tiene documentos adjuntos a él, el programa se convierte en un programa de almacenamiento en la nube de Adobe. La cartera del programa también se convierte.
-* Cuando se agrega un proyecto de almacenamiento en la nube de Adobe a un programa de almacenamiento de Workfront heredado y el programa tiene documentos adjuntos a él, el almacenamiento de documentos del programa permanece en el almacenamiento de Workfront. Si el portafolio también tiene documentos, su almacenamiento de documentos también permanece en el almacenamiento de Workfront; de lo contrario, el portafolio se convierte al almacenamiento en la nube de Adobe.
-
-  El icono de almacenamiento de Workfront heredado del programa ![Icono de almacenamiento de portafolios heredado](assets/legacy-storage-project-icon.png) se ha eliminado del programa.
 * No puede agregar un proyecto de almacenamiento de Workfront heredado a un programa de almacenamiento en la nube de Adobe.
 
+* No puede agregar un programa de almacenamiento en la nube de Adobe a una cartera de productos de almacenamiento heredados ni un programa heredado a una cartera de productos de almacenamiento en la nube de Adobe.
+* No puede crear un proyecto a partir de una plantilla de almacenamiento en la nube de Adobe en un programa de almacenamiento heredado.
+* Puede crear un proyecto a partir de una plantilla de almacenamiento heredada en un programa de almacenamiento en la nube de Adobe, pero los documentos y las carpetas de la plantilla no se agregan al nuevo proyecto. El proyecto recibe almacenamiento en la nube de Adobe.
 * Al crear programas mediante una automatización de Workfront Planning, Workfront utiliza la preferencia de almacenamiento predeterminada del sistema para el programa. Debe adquirir el paquete de Planning para acceder a Workfront Planning.
-
-<!--
-For preview/Prod release - check for duplicates below with the bullets you want to keep above (??):
-
-* You cannot add an Adobe cloud storage program to a Legacy storage portfolio, or a Legacy program to an Adobe cloud storage portfolio.
-* You cannot add an Adobe cloud storage project to a Legacy storage program in a Legacy storage portfolio. (******* also take out bullet 2 above and maybe 3 too?? **********)
-* When you add an Adobe cloud storage project to a Legacy storage program, the program is converted to Adobe storage. Existing Legacy storage documents remain in the Legacy storage.
-* You cannot add a Legacy storage project to an Adobe cloud storage program, or an Adobe cloud storage project to a Legacy storage program. 
-* You cannot create a project from an Adobe cloud storage template in a Legacy storage program. 
-* You can create a project from a Legacy storage template in an Adobe cloud storage program, but the documents and folders on the template are not added to the new project. The project receives Adobe cloud storage.
--->
 
 ### Administración de documentos para tareas
 
@@ -226,12 +210,10 @@ Tenga en cuenta lo siguiente al trabajar con plantillas:
 * Cuando crea una plantilla de almacenamiento en la nube de Adobe, Workfront crea una carpeta en la sección Documentos de la plantilla en la que se guardan los documentos. El nombre de la carpeta es el mismo nombre que el programa. No puede eliminar la carpeta ni cambiarle el nombre manualmente. Si cambia el nombre de la plantilla, se cambiará el nombre de la carpeta para que coincida con el nuevo nombre de la plantilla.
 * Puede utilizar una plantilla de almacenamiento de Workfront heredada para crear proyectos de almacenamiento de Workfront heredados; puede utilizar una plantilla de almacenamiento de nube de Adobe para crear un proyecto de almacenamiento de nube de Adobe.
 
-<!--
-for preview/prod release: 
-* When creating projects using templates from a portfolio or program, the following scenarios exist: 
-  * You cannot use an Adobe cloud storage template from a legacy Workfront storage portfolio or program to create a project.
-  * You can create an Adobe cloud storage project for an Adobe storage portfolio or program using a Legacy storage template. Any template documents and folders are not attached to the new project. 
--->
+* Al crear proyectos utilizando plantillas de un portafolio o programa, existen los siguientes escenarios:
+   * No puede utilizar una plantilla de almacenamiento en la nube de Adobe de un portafolio o programa de almacenamiento de Workfront heredado para crear un proyecto.
+   * Puede crear un proyecto de almacenamiento en la nube de Adobe para un portafolio o programa de almacenamiento de Adobe mediante una plantilla de almacenamiento heredada. Los documentos de plantilla y las carpetas no se adjuntan al nuevo proyecto.
+
 * Puede adjuntar una plantilla de almacenamiento de Workfront heredada a un proyecto de almacenamiento en la nube de Adobe, lo cual no cambia la ubicación de almacenamiento de los documentos del proyecto.
 * Puede adjuntar una plantilla de almacenamiento en la nube de Adobe a un proyecto de almacenamiento de Workfront heredado, lo que no cambia la ubicación de almacenamiento de los documentos del proyecto. Los documentos de la carpeta de almacenamiento en la nube de Adobe para la plantilla se agregan directamente al proyecto, sin la carpeta, mientras que los documentos de las carpetas de tareas de plantilla se agregan a carpetas adjuntas a las tareas del proyecto en la sección Documentos de las tareas.
 * Al guardar un proyecto como plantilla, el tipo de almacenamiento del proyecto se transfiere a la plantilla, independientemente de lo que haya configurado el administrador de Workfront para las preferencias de almacenamiento del sistema.
