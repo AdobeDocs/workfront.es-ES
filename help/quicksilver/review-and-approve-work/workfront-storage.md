@@ -6,9 +6,9 @@ description: Planifique el despliegue de Workfront en el almacenamiento en la nu
 author: Courtney
 feature: System Setup and Administration, Work Management, Digital Content and Documents
 role: Admin
-source-git-commit: 12242501adb13cd349a2282996c7186e90d6c94d
+source-git-commit: 4821a7db4014b2a73c0466726ba3d239c318d5f0
 workflow-type: tm+mt
-source-wordcount: '2375'
+source-wordcount: '2702'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ Una vez actualizado el contrato para incluir la nueva experiencia de revisión y
 
 |  | Objeto en el almacenamiento heredado de Workfront | Objeto en el almacenamiento en la nube de Adobe |
 |---|---|---|
-| Servidor de almacenamiento | Solo Workfront | almacenamiento en la nube de Adobe |
+| Servidor de almacenamiento | Solo Workfront | Almacenamiento en la nube de Adobe |
 | Visibilidad entre productos | Solo Workfront | Workfront, Frame.io y Creative Cloud |
 | Funcionalidad | Funcionalidad heredada | Nueva funcionalidad |
 
@@ -52,7 +52,7 @@ La siguiente tabla resume las principales diferencias al cambiar al almacenamien
 | [Asignación de permisos de objeto](#object-permissions-mapping) | Los permisos Administrar y Contribuir de Workfront se asignan a Editar y compartir en Frame.io. Ver asignaciones de Solo comentario. | Los permisos se administran en Workfront. Tanto los usuarios de Administrar como los de Contribute obtienen la capacidad de compartir contenido externo en Frame.io. |
 | [Visor de revisión y aprobación](#review-and-approval-viewer) | El visor Frame.io reemplaza al visor de revisión de Workfront. | Incluido para todos los usuarios de Workfront, incluidos los usuarios externos asignados a una revisión o aprobación. Admite marcado, comentarios con marca de tiempo, historial de versiones, móvil, más de 40 formatos, archivos de hasta 500 GB. |
 | [Reglas de nomenclatura de objetos](#object-naming-rules) | Se aplican reglas de nomenclatura estrictas: nombres únicos dentro de un portafolio o proyecto, sin caracteres especiales, sin punto final ni espacio, límite de 255 caracteres. | Workfront cambia automáticamente el nombre de los objetos cuando surgen conflictos. Plantillas de auditoría que generan nuevos nombres y estructura de proyecto. |
-| [Portabilidad del objeto](#object-portability) | Solo puede mover, copiar y convertir objetos entre modelos de almacenamiento similares. | Los objetos de almacenamiento en la nube de Adobe no se pueden mover a proyectos heredados o a la inversa. Al mover un proyecto de almacenamiento en la nube de Adobe a un portafolio o programa heredado, el principal se convierte en almacenamiento en la nube de Adobe. |
+| [Portabilidad del objeto](#object-portability) | En la mayoría de los casos, solo se pueden mover, copiar y convertir objetos entre modelos de almacenamiento similares. | Puede convertir un objeto heredado al almacenamiento en la nube de Adobe en tres casos específicos. Los documentos y las carpetas de documentos no se mueven del almacenamiento heredado durante la conversión. |
 | [Funciones no disponibles](#capabilities-not-available-on-adobe-cloud-storage-objects) | Workfront Proof, el visualizador de documentos de Workfront, los documentos favoritos y los documentos de solicitud no forman parte de la experiencia. | Los objetos heredados conservan estas funciones. Workfront Proof no recibirá nuevas inversiones y se retirará en una versión futura. |
 | [Cuota de almacenamiento](#storage-quota) | El almacenamiento se agrupa para proyectos de Workfront heredados y proyectos de Adobe Cloud Storage. 60 GB por usuario con licencia. Sin tapa dura. | Los administradores del sistema pueden ver el uso del almacenamiento en la página Información del cliente en Configuración. |
 | [Límite anual de revisión de vídeo](#annual-video-review-cap) | Límite de nivel organizativo en solicitudes de revisión de vídeo al 10% de las licencias de usuario pagadas de Workfront (estándar y básica). | Una vez alcanzado, no hay nuevas revisiones de vídeo hasta el siguiente período anual. Notificaciones en la aplicación al 80 % y al 100 %. No se aplica a los clientes de Frame.io Enterprise. |
@@ -136,9 +136,54 @@ Si un nombre entra en conflicto con estas reglas, Workfront cambia automáticame
 
 ### Portabilidad de objetos
 
-Puede mover, copiar y convertir objetos de Workfront entre modelos de almacenamiento similares. Por ejemplo, puede mover una tarea de un proyecto de almacenamiento en la nube de Adobe a otro proyecto de almacenamiento en la nube Adobe. No puede mover ni copiar una tarea o un problema de un proyecto de almacenamiento en la nube de Adobe en un proyecto heredado o al revés.
+En la mayoría de los casos, puede mover, copiar y convertir objetos de Workfront entre modelos de almacenamiento similares. Por ejemplo, puede mover una tarea de un proyecto de almacenamiento en la nube de Adobe a otro proyecto de almacenamiento en la nube Adobe. En tres casos específicos, puede convertir un objeto de almacenamiento de Workfront heredado al almacenamiento en la nube de Adobe:
 
-Hoy en día, cuando crea o mueve un proyecto de almacenamiento en la nube de Adobe a un portafolio o programa heredado, el portafolio o programa se convierte automáticamente en un objeto de almacenamiento en la nube de Adobe. Una versión futura proporcionará a los administradores del sistema más control sobre qué objetos se convierten automáticamente.
+* Convertir una tarea de almacenamiento de Workfront heredada en un proyecto de almacenamiento en la nube de Adobe
+* Conversión de una cartera de productos de almacenamiento de Workfront heredados en una cartera de productos de almacenamiento en la nube de Adobe
+* Crear un proyecto de almacenamiento en la nube de Adobe a partir de una plantilla de almacenamiento de Workfront heredada
+
+>[!NOTE]
+>
+>En los tres casos de conversión, los documentos y las carpetas de documentos no se mueven del almacenamiento heredado de Workfront al almacenamiento en la nube de Adobe. Los documentos que existen en el objeto heredado antes de la conversión permanecen en el almacenamiento heredado.
+
+#### Convertir una tarea heredada en un proyecto de almacenamiento en la nube de Adobe
+
+Para convertir una tarea de almacenamiento de Workfront heredada en un proyecto de almacenamiento en la nube de Adobe, utilice el flujo de conversión a proyecto existente en la tarea. Durante la conversión:
+
+* Las subtareas y los problemas se mueven al nuevo proyecto.
+* Los documentos adjuntos a la tarea y sus flujos de trabajo de aprobación permanecen en el proyecto original.
+* Se eliminan las aprobaciones de trabajo y los enlaces de objetos de resolución.
+* Se elimina la tarea original.
+
+<!--
+For more information, see [Convert a task to a project](/help/quicksilver/manage-work/tasks/convert-tasks/convert-task-to-project.md).
+-->
+
+#### Conversión de una cartera heredada en una cartera de almacenamiento en la nube de Adobe
+
+Un administrador de Workfront puede convertir una cartera de productos de almacenamiento de Workfront heredados en una cartera de productos de almacenamiento de nube de Adobe desde el área de Configuración. Después de la conversión:
+
+* Ya no puede mover proyectos de almacenamiento de Workfront heredados al portafolio.
+* Todos los proyectos nuevos creados en la cartera utilizan el almacenamiento en la nube de Adobe.
+* Frame.io es el visor de documentos en los proyectos de almacenamiento en la nube de Adobe del portafolio.
+* Los proyectos secundarios que utilizan almacenamiento de Workfront heredado permanecen en el almacenamiento heredado.
+* Los programas secundarios permanecen en el almacenamiento heredado.
+
+  >[!NOTE]
+  >
+  >Un programa secundario heredado se convierte automáticamente en almacenamiento en la nube de Adobe solo cuando alguien le agrega manualmente un proyecto de almacenamiento en la nube de Adobe.
+
+Para obtener más información, consulte [Convertir portafolios heredados al almacenamiento en la nube de Adobe](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/convert-portfolios-to-acs.md).
+
+#### Crear un proyecto de almacenamiento en la nube de Adobe a partir de una plantilla heredada
+
+Cuando crea un proyecto a partir de una plantilla de almacenamiento de Workfront heredada, la casilla de verificación **Crear este proyecto en Adobe Cloud Storage** del cuadro de diálogo de creación de proyectos determina el tipo de almacenamiento del nuevo proyecto. El comportamiento de la casilla de verificación depende de dónde cree el proyecto:
+
+* **Fuera de un portafolio**: la casilla de verificación está disponible y desactivada de forma predeterminada. Selecciónelo para crear el nuevo proyecto en el almacenamiento en la nube de Adobe.
+* **Dentro de un portafolio de almacenamiento en la nube de Adobe**: La casilla de verificación está seleccionada y bloqueada. El nuevo proyecto debe coincidir con el tipo de almacenamiento del portafolio.
+* **Dentro de un portafolio de almacenamiento de Workfront heredado**: La casilla de verificación no está disponible. El nuevo proyecto utiliza el almacenamiento heredado de Workfront.
+
+Para obtener más información, consulte [Crear proyectos](/help/quicksilver/manage-work/projects/create-projects/create-project.md).
 
 ### Funciones no disponibles en los objetos de almacenamiento en la nube de Adobe
 
