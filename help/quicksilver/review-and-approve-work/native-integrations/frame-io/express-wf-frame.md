@@ -7,9 +7,9 @@ description: Introducción a la integración de Adobe Express y Frame.io
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 recommendations: noDisplay, noCatalog
-source-git-commit: 0545810c13045444e7ac38eeda4ed439d74e405b
+source-git-commit: 3b94bbc6141556e081cb6057c49375b21bd61b53
 workflow-type: tm+mt
-source-wordcount: '504'
+source-wordcount: '523'
 ht-degree: 8%
 
 ---
@@ -80,11 +80,8 @@ Cuando se remezcla una plantilla Express, se requiere una aprobación antes de l
 
 Los usuarios deben tener una licencia de Workfront estándar para solicitar la aprobación de Adobe Express.
 
-[Se necesita vínculo al artículo de ayuda Express sobre la solicitud de aprobación]
+Aprenda a [obtener aprobación de diseños](https://helpx.adobe.com/express/web/share-and-publish/share-and-collaborate/request-approval.html).
 
-<!--
-Learn how to [get approval on designs](https://helpx.adobe.com/es/express/web/share-and-publish/share-and-collaborate/request-approval.html).   
--->
 
 ## Combinar plantillas rápidas y enviar para su revisión y aprobación
 
@@ -103,11 +100,8 @@ Al solicitar la aprobación de una plantilla Express remezclada, los usuarios pu
 
 Si no se selecciona ningún proyecto, el recurso se convertirá de forma predeterminada en un proyecto específico de Express.
 
-[Se necesita vínculo al artículo de ayuda Express sobre la solicitud de aprobación]
+Para obtener más información, consulte [Enviar plantillas para su revisión y aprobación](https://helpx.adobe.com/express/web/invite-collaborate/request-approval.html).
 
-<!--
-For more information, see [Send templates for review and approval](https://helpx.adobe.com/es/express/web/invite-collaborate/request-approval.html).
--->
 
 ## Revisar y aprobar archivos Express remezclados con Frame.io
 

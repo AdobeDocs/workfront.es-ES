@@ -5,10 +5,10 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 39111c76-ae29-4034-8277-ca293138911f
-source-git-commit: 3bd72ca7e9a55dded97fa65d403d661f3ca95d3e
+source-git-commit: 6490feeb9f07234609bd31cb9ab81a7787dc72d0
 workflow-type: tm+mt
-source-wordcount: '450'
-ht-degree: 2%
+source-wordcount: '624'
+ht-degree: 1%
 
 ---
 
@@ -18,6 +18,24 @@ Esta página describe las mejoras realizadas en los documentos con la versión d
 
 Para obtener una lista de todos los cambios disponibles en este punto del ciclo de la versión del tercer trimestre de 2026, consulte [Información general de la versión del tercer trimestre de 2026](/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-release-overview.md).
 
+## Solicitar aprobación de plantillas de Adobe Express con Workfront y Frame.io
+
+>[!NOTE]
+>
+>Vista previa: N/D>Versión rápida de producción: 15 de junio de 2026>Producción para todos: 15 de junio de 2026>[!BADGE Fuera de horario]{type=Neutral}
+
+La integración de Adobe Express y Workfront con Frame.io ofrece una revisión estructurada y una aprobación del contenido creado en Adobe Express. Los diseñadores pueden asignar una plantilla de flujo de trabajo de aprobación de Workfront a una plantilla Express para que, cuando se vuelva a mezclar la plantilla, se requiera una aprobación automáticamente antes de publicar el recurso, enrutándolo a través del flujo de trabajo de Workfront preconfigurado y del visualizador Frame.io.
+
+Con esta integración, puede:
+
+* Optimice la colaboración entre equipos creativos, legales y de cumplimiento para reducir el tiempo de publicación y, al mismo tiempo, mantener la supervisión
+* Realice revisiones profundas mediante marcas de dibujo, anotaciones y comentarios en el visor de Frame.io
+* Cumplir las normas de conformidad empresarial con firmas electrónicas y registros de auditoría completos.
+* Requerir aprobación en cualquier archivo remezclado de una plantilla con marca Express
+* Asigne una plantilla rápida a un flujo de trabajo de revisión y aprobación de varias fases con plantillas de aprobación unificadas en Workfront
+* Elija un proyecto de Workfront al solicitar la aprobación para que los recursos y las pruebas relacionados se mantengan organizados
+
+Para obtener más información, consulte [Introducción a Adobe Express y Workfront con la integración de Frame.io](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/express-wf-frame.md).
 
 ## Imprimir un resumen de los documentos del área Documentos nueva
 
