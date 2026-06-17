@@ -23,10 +23,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: c6b02fbaf2ee03728543c9d34068e4dd353ac441
+source-git-commit: 54590f8d98a26bf3a7ee7e5becb3c21a24ffeab5
 workflow-type: tm+mt
-source-wordcount: 1257
-ht-degree: 72%
+source-wordcount: 1266
+ht-degree: 71%
 
 ---
 
@@ -114,7 +114,7 @@ Old:
    * Una tarea de almacenamiento de Workfront heredado crea un proyecto de almacenamiento de Workfront heredado.
    * Una tarea de almacenamiento en la nube de Adobe crea un proyecto de almacenamiento en la nube de Adobe.
    * Al usar una plantilla de almacenamiento de Workfront heredada para convertir una tarea de almacenamiento de nube de Adobe, se crea un proyecto de almacenamiento de nube de Adobe.
-   * El uso de una plantilla de almacenamiento en la nube de Adobe para convertir una tarea de almacenamiento de Workfront heredada crea un proyecto de almacenamiento de Workfront heredado.
+   * El uso de una plantilla de almacenamiento en la nube de Adobe para convertir una tarea de almacenamiento de Workfront heredada crea un proyecto de almacenamiento en la nube de Adobe. Los documentos y sus aprobaciones permanecen en el proyecto actual.
 
      Para obtener más información, vea [Información general sobre la administración de documentos de proyectos y objetos relacionados](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
 
@@ -122,10 +122,7 @@ Old:
      >
      >Es posible que la instancia de Workfront no tenga acceso a ambos tipos de almacenamiento de documentos.
 
-     <!--
-     For preview/ prod - rewrite the last bullet in the note: 
-     * Using an Adobe cloud storage template to convert a legacy Workfront storage task creates an Adobe cloud storage project. Documents and their approvals remain on the current project. 
-     -->
+
 * Se conservan el estado y el porcentaje completado de todas las subtareas y problemas.
 * Los usuarios asignados a la tarea y el usuario que convierte la tarea en el proyecto se convierten en usuarios compartidos en el proyecto.
 * La fecha de inicio del proyecto se establece en la fecha de inicio de la tarea.
