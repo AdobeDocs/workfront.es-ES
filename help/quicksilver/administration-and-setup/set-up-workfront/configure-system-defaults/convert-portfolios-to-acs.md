@@ -7,7 +7,7 @@ description: Convierta los portafolios de almacenamiento de Workfront heredados 
 author: Courtney
 feature: System Setup and Administration
 role: Admin
-source-git-commit: 9d28f52ace4d443bdffc475baf79d482152d4157
+source-git-commit: 1e6380b0422efdd98449ab1e74cadb4f330917f1
 workflow-type: tm+mt
 source-wordcount: '358'
 ht-degree: 11%
@@ -52,6 +52,7 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
 Antes de convertir una cartera de soluciones de almacenamiento de Workfront heredadas, tenga en cuenta lo siguiente:
 
 * La conversión solo afecta al propio portafolio. Los proyectos y programas secundarios que utilizan el almacenamiento heredado de Workfront permanecen en el almacenamiento heredado.
+
   >[!NOTE]
   >
   >Un programa secundario heredado se convierte automáticamente en almacenamiento en la nube de Adobe solo cuando alguien le agrega manualmente un proyecto de almacenamiento en la nube de Adobe.

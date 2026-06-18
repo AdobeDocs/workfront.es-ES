@@ -23,10 +23,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+source-git-commit: 1e6380b0422efdd98449ab1e74cadb4f330917f1
 workflow-type: tm+mt
-source-wordcount: 905
-ht-degree: 44%
+source-wordcount: 790
+ht-degree: 48%
 
 ---
 
@@ -160,11 +160,11 @@ Old:
 
    Haga clic en **Nueva tarea de plantilla** para empezar a agregar tareas a su plantilla en el cuadro **Nueva tarea de plantilla**.
 
-   El cuadro **Crear tarea de plantilla** se abrirá en la nueva experiencia al hacer clic en **Nueva tarea de plantilla**.
+   El cuadro **Crear tarea de plantilla** se abre al hacer clic en **Nueva tarea de plantilla**.
 
    ![Nueva experiencia para nueva tarea de plantilla](assets/new-template-task-box-unshimmed.png)
 
-1. (Condicional) Con la nueva experiencia, actualice la información en las siguientes áreas del cuadro **Crear tarea de plantilla**:
+1. (Condicional) Actualice la información en las áreas siguientes del cuadro **Crear tarea de plantilla**:
 
    * Nombre de tarea de plantilla
    * Información general
@@ -174,53 +174,29 @@ Old:
    * Documentos
    * Configuración
 
-1. Haga clic en **Crear tarea de plantilla**
+   Actualizar la información de una tarea de plantilla es similar a editar tareas de plantilla.
 
-   O
-
-   Haga clic en **Volver a la experiencia anterior** en la parte inferior del cuadro **Crear tarea de plantilla**.
-
-   La **nueva tarea de plantilla** se abre en la experiencia antigua.
-
-   ![Nueva tarea de plantilla](assets/new-template-task-box.png)
-
-   >[!TIP]
-   >
-   >En Producción, la experiencia antigua se abre de forma predeterminada.
-
-1. Actualice la información en las áreas siguientes del cuadro **Nueva tarea de plantilla**:
-
-   * Información general
-   * Finanzas
-   * Configuración
-   * Asignaciones
-   * Formularios personalizados
-   * Adjuntar documento
-
-     Actualizar la información de una tarea de plantilla es similar a editar tareas de un proyecto. Para obtener más información, consulte [Editar tareas](/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md). <!--should this be relinked at preview/ prod release to say it's the same as Edit template tasks??-->
+   Para obtener más información, consulte [Editar tareas de plantilla](/help/quicksilver/manage-work/projects/create-and-manage-templates/edit-template-task.md).
 
    >[!NOTE]
    >
    >No puede añadir tareas recurrentes a una plantilla.
 
-1. Haga clic en una de las siguientes opciones:
+1. Haga clic en **Crear tarea de plantilla**.
 
-   * **Guardar tarea de plantilla** para guardar la tarea de plantilla actual y cierra el cuadro Nueva tarea de plantilla.
-   * **Guardar tarea de plantilla e iniciar otra** para guardar la tarea de plantilla actual y abrir otro cuadro **Nueva tarea de plantilla** para agregar otra tarea.
-   * **Cancelar** para cerrar el cuadro sin guardar la tarea de plantilla.
-1. (Opcional) Después de agregar las tareas de plantilla, en la sección Tareas de plantilla, haga clic en el icono **Diagrama de Gantt** en la esquina superior derecha de la Lista de tareas para ver una representación visual de la lista de tareas de la plantilla.
+1. (Opcional) Después de agregar las tareas de plantilla, en la sección **Tareas de plantilla**, haga clic en el icono de **gráfico Gantt** ![icono Gantt](assets/gantt-icon.png) en la esquina superior derecha de la lista de tareas para ver una representación visual de la lista de tareas de la plantilla.
 
    >[!TIP]
    >
-   >No puede editar tareas directamente desde este gráfico Gantt.
+   >No puede editar tareas directamente desde un diagrama de Gantt de tarea de plantilla.
 
-1. Para agregar información a la nueva plantilla, haga clic en el **icono Más** del menú ![Más](assets/more-icon.png) a la izquierda del nombre de la plantilla en el encabezado y, a continuación, haga clic en **Editar**.
+1. Para agregar información a tu nueva plantilla, haz clic en el **icono Más** del menú ![Más](assets/more-icon.png) a la derecha del nombre de la plantilla en el encabezado y luego haz clic en **Editar**.
 
    Para obtener información sobre cómo editar una plantilla, consulte [Editar plantillas de proyecto](../../../manage-work/projects/create-and-manage-templates/edit-templates.md).
 
    >[!NOTE]
    >
-   >   La asociación de una plantilla de proyecto con un grupo (o la falta de un grupo) afecta a la forma en que las preferencias de proyecto, tarea y problema determinan ciertas configuraciones en la plantilla.
+   >La asociación de una plantilla de proyecto con un grupo (o la falta de un grupo) afecta a la forma en que las preferencias de proyecto, tarea y problema determinan ciertas configuraciones en la plantilla.
    >
    >Para obtener más información, vea la sección &quot;Cómo se aplican las preferencias a las plantillas y tareas de plantilla&quot; en el artículo [Crear y modificar las plantillas de proyecto de un grupo](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-templates.md).
 

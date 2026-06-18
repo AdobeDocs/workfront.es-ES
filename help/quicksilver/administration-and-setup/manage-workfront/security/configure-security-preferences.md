@@ -26,10 +26,10 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 9d28f52ace4d443bdffc475baf79d482152d4157
+source-git-commit: 1e6380b0422efdd98449ab1e74cadb4f330917f1
 workflow-type: tm+mt
-source-wordcount: 964
-ht-degree: 57%
+source-wordcount: 1155
+ht-degree: 47%
 
 ---
 
@@ -121,7 +121,7 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
         <li>Solicitud de documento<br></li>
         <li>Aprobación de documento</li>
         <li>Calendario</li>
-       </ul><p>Esta opción está habilitada de forma predeterminada.</p> <p><b>Importante</b>: el nivel de acceso de usuario externo no está disponible en la instancia de Workfront si esta opción está deshabilitada. Para obtener más información, consulte <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/default-access-levels-in-workfront.md" class="MCXref xref">Niveles de acceso integrados</a>.</p> </td> 
+       </ul><p>Esta opción está habilitada de forma predeterminada.</p> <p><b>IMPORTANTE</b>: el nivel de acceso de usuario externo no está disponible en la instancia de Workfront si esta opción está deshabilitada. Para obtener más información, consulte <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/default-access-levels-in-workfront.md" class="MCXref xref">Niveles de acceso integrados</a>.</p> </td> 
      </tr> 
      <!--
      <tr> 
@@ -141,6 +141,10 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
       <td role="rowheader">URL de ayuda personalizada</td> 
       <td>Permite definir un sitio de ayuda personalizado interno al que se dirigirá el icono de ayuda del menú principal. Para obtener más información, consulte <a href="/help/quicksilver/administration-and-setup/customize-workfront/brand-workfront/configure-custom-help-url.md">Configurar una dirección URL de ayuda personalizada</a>.</p></td> 
      </tr>
+    <tr> 
+      <td role="rowheader">Deshabilitar las actualizaciones automáticas en los niveles de acceso</td> 
+      <td>Puede deshabilitar el proceso de actualización automática para los niveles de acceso de los colaboradores. Cuando se activa esta opción, el administrador debe otorgar manualmente una nueva licencia a los usuarios con licencia de colaborador que hayan superado su límite de decisiones de aprobación.</p></td> 
+     </tr>
      <tr> 
       <td role="rowheader">Habilitar la lista de trabajo Prioridades </td> 
       <td>Permite habilitar o deshabilitar la experiencia de lista de trabajo Prioridades para los usuarios. Los usuarios seguirán viendo los iconos de Prioridades en Workfront, pero no tendrán acceso a la funcionalidad. Para obtener más información acerca de Prioridades, vea <a href="/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md">Introducción a Prioridades</a>.</td> 
@@ -150,20 +154,33 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
       <td><span class="preview"><p>Permite elegir si se fuerza a los usuarios a introducir información en los campos obligatorios al editar objetos por lotes.</p> <p>Si se selecciona esta opción, los campos obligatorios deben tener valores antes de guardarlos en el modo de edición por lotes. Si en el campo obligatorio falta un valor para al menos un objeto seleccionado en bloque, no se permite guardar.</p> <p>Cuando esta opción no está seleccionada, los campos obligatorios solo se aplican cuando un usuario modifica el campo. Si un campo no se modifica, se trata como opcional y no se valida.</p></span></td>
      </tr>
      <tr> 
-      <td role="rowheader">Habilitar el almacenamiento en la nube de Adobe </td> 
-      <td>Permite habilitar o deshabilitar el almacenamiento en la nube de Adobe para toda la organización o para grupos específicos. Para obtener más información sobre el almacenamiento en la nube de Adobe, consulte <a href="/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md">Habilitar el almacenamiento en la nube de Adobe para su organización</a>.</td> 
-     </tr>
-     <tr> 
+      <td role="rowheader">Preferencias de almacenamiento </td> 
+      <td>En esta sección puede habilitar las preferencias de nube de Adobe. Permite habilitar o deshabilitar el almacenamiento en la nube de Adobe para toda la organización o para grupos específicos. 
+      <p>Actualice la siguiente información:</p>
+      <ul><li><b>Predeterminado</b>: elige almacenamiento heredado de Workfront o almacenamiento en la nube de Adobe</li>
+      <li><b>Permitir que los usuarios seleccionen el proveedor de almacenamiento</b>: Esto permite a los usuarios elegir entre los dos tipos de almacenamiento al crear objetos de Workfront.</li>
+      <li><b>Se aplica a</b>: elija si la configuración predeterminada se aplica a toda la organización o a grupos específicos</li>
+      <li><b>Seleccionar portafolios para convertirlos al almacenamiento en la nube de Adobe</b>: seleccione portafolios que desee convertir automáticamente del almacenamiento heredado de Workfront al almacenamiento en la nube de Adobe. Los portafolios se convierten al guardar las Preferencias del sistema.</li></ul>     
+    Para obtener más información sobre el almacenamiento en la nube de Adobe, consulte <a href="/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md">Habilitar el almacenamiento en la nube de Adobe para su organización</a>.</td></tr>
+    <tr> 
       <td role="rowheader">Seleccione portafolios para convertirlos en almacenamiento en la nube de Adobe </td> 
       <td>Permite convertir portafolios de almacenamiento de Workfront heredados existentes al almacenamiento en la nube de Adobe. Para obtener más información, consulte <a href="/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/convert-portfolios-to-acs.md">Convertir portafolios heredados al almacenamiento en la nube de Adobe</a>.</td> 
      </tr>
      <tr> 
       <td role="rowheader">Habilitar IA </td> 
-      <td>Permite habilitar la IA, incluido el Asistente de IA. <p><b>Nota</b>: su organización debe cumplir con los requisitos específicos para habilitar IA. Para obtener más información acerca de la IA, incluidos los requisitos, consulte <a href="/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md">Descripción general del Asistente para IA</a>.</p></td> 
+      <td>Al activar la configuración en el área de preferencias de IA, puede habilitar IA, incluido el Asistente de IA. <p><b>NOTA</b>: su organización debe cumplir con requisitos específicos para habilitar IA. Para obtener más información acerca de la IA, incluidos los requisitos, consulte <a href="/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md">Descripción general del Asistente para IA</a>.</p></td> 
+     </tr>
+    <tr> 
+      <td role="rowheader">Relleno de formulario con IA </td> 
+      <td>Permitir que los usuarios utilicen el rellenado de formularios con IA para rellenar automáticamente un formulario de solicitud. Para obtener más información, consulte <a href="/help/quicksilver/manage-work/requests/create-requests/autofill-from-prompt-document.md">Usar el rellenado de formulario con tecnología de IA para rellenar una solicitud mediante avisos o documentos</a>.</p></td> 
      </tr>
      <tr> 
-      <td role="rowheader">Completar automáticamente el formulario </td> 
+      <td role="rowheader">Completado automático inteligente en formularios de solicitud </td> 
       <td>Permite habilitar la capacidad de rellenar automáticamente formularios de solicitud basados en datos de solicitudes anteriores. Para obtener más información acerca de la cumplimentación automática de formularios, vea <a href="/help/quicksilver/manage-work/requests/create-requests/autofill-suggestions-from-previous.md">Rellenar automáticamente una solicitud de datos anteriores</a>.</td> 
+     </tr>
+    <tr> 
+      <td role="rowheader">Diseñador de Planificación</td> 
+      <td>Esto solo está disponible para los clientes que han adquirido un paquete de Workfront Planning. Activar esta configuración permite a los usuarios crear y editar espacios de trabajo con Planning Designer. Para obtener más información, consulte <a href="/help/quicksilver/planning/general/planning-ai-designer.md">Introducción a Adobe Workfront Planning Designer</a>.</td> 
      </tr>
      <tr> 
       <td role="rowheader">Inclusión a las betas de IA </td> 
