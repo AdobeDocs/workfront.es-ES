@@ -11,9 +11,9 @@ role: Admin
 exl-id: 7f62de33-e544-4be9-8dcf-03a2e09e8a05
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 2b190de6b6ef9ce53e96475d426a4d39cfbd4df4
+source-git-commit: d348f7a97f4e47fab9083d6bb7a7e6e8f6eb351b
 workflow-type: tm+mt
-source-wordcount: '1443'
+source-wordcount: '1458'
 ht-degree: 1%
 
 ---
@@ -37,7 +37,7 @@ Cualquier usuario que tenga acceso para compartir objetos puede compartirlos con
 
 >[!BEGINSHADEBOX]
 
-Sam necesita un acceso diferente a los proyectos para la Agencia A y la Agencia B. Ambas agencias se configuran como grupos en Workfront. (Para obtener información sobre los grupos, consulte Información general de grupos.)
+Sam necesita un acceso diferente a los proyectos para la Agencia A y la Agencia B. Ambas agencias se configuran como grupos en Workfront. (Para obtener información sobre los grupos, consulte [Información general de grupos](/help/quicksilver/administration-and-setup/manage-groups/groups-overview/groups-overview.md).)
 
 Para la Agencia A, Sam actúa como controlador financiero y necesita acceso para ver todos los campos financieros de sus proyectos. Para la Agencia B, Sam actúa como gestor de proyectos y debe gestionar las tareas y los problemas, pero no debe poder ver la información financiera.
 
@@ -111,6 +111,7 @@ Para obtener información acerca de cómo funcionan juntos los niveles de acceso
 
 ## Consideraciones sobre los perfiles empresariales
 
+* Los perfiles de negocio solo están disponibles para las organizaciones que tienen un plan de flujo de trabajo de Ultimate.
 * Un usuario no tiene que ser miembro de un grupo para que se le asigne un perfil empresarial para ese grupo.
 * El nivel de acceso en el perfil empresarial solo puede actualizar el nivel de acceso &quot;base&quot; de un usuario. El perfil empresarial no puede eliminar los permisos de nivel de acceso base.
 * En las listas de objetos y los informes, el usuario tiene todos los permisos que están disponibles para él en todos sus perfiles empresariales asignados en los grupos combinados con su nivel de acceso base. En otras páginas, el usuario tiene los permisos de nivel de acceso base.
