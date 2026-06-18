@@ -11,7 +11,7 @@ role: Admin
 exl-id: 7f62de33-e544-4be9-8dcf-03a2e09e8a05
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: d348f7a97f4e47fab9083d6bb7a7e6e8f6eb351b
+source-git-commit: b6c2f0b8138948be7a6f9565503d05738c456857
 workflow-type: tm+mt
 source-wordcount: '1458'
 ht-degree: 1%
@@ -111,7 +111,7 @@ Para obtener información acerca de cómo funcionan juntos los niveles de acceso
 
 ## Consideraciones sobre los perfiles empresariales
 
-* Los perfiles de negocio solo están disponibles para las organizaciones que tienen un plan de flujo de trabajo de Ultimate.
+* Los perfiles de negocio solo están disponibles para las organizaciones que tienen un paquete de Workflow Ultimate.
 * Un usuario no tiene que ser miembro de un grupo para que se le asigne un perfil empresarial para ese grupo.
 * El nivel de acceso en el perfil empresarial solo puede actualizar el nivel de acceso &quot;base&quot; de un usuario. El perfil empresarial no puede eliminar los permisos de nivel de acceso base.
 * En las listas de objetos y los informes, el usuario tiene todos los permisos que están disponibles para él en todos sus perfiles empresariales asignados en los grupos combinados con su nivel de acceso base. En otras páginas, el usuario tiene los permisos de nivel de acceso base.
