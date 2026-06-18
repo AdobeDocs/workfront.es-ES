@@ -10,24 +10,14 @@ exl-id: a6a1f178-189a-4c41-835b-7726081a2b49
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/MnBBlX0pGftQLRqy6tLxUpIezwXo9zPczxo65FpxneI
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
-  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
-  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
-  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: c6b02fbaf2ee03728543c9d34068e4dd353ac441
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87effid: ce22a157-dd2c-405f-b740-c2f204bb4c1aid: d87de1f9-8e24-4c4d-aa4c-a403075091a1id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: a3db8ef0f43743232324a55f3e6968a26ce61404
 workflow-type: tm+mt
-source-wordcount: 7980
+source-wordcount: 7995
 ht-degree: 86%
 
 ---
@@ -169,11 +159,12 @@ Para obtener información sobre cómo crear un proyecto a partir de una plantill
    >
    >Según la forma en que el administrador de Workfront o el de grupos hayan modificado la plantilla de diseño, los campos del área Detalles del proyecto podrían volver a organizarse o no mostrarse. Para obtener más información, consulte [Personalizar la vista de detalles con una plantilla de diseño](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md).
 
-   Para editar la información de la sección Detalles, haga lo siguiente:
+   Para editar información en la sección **Detalles**, haga lo siguiente:
 
    1. (Opcional) Haga clic en el icono **Contraer todo** ![Contraer todo el icono](assets/collapse-icon.png) en la esquina superior derecha para contraer todas las áreas.
-   1. (Opcional y condicional) Cuando un área esté contraída, haga clic en la **flecha hacia la derecha** ![flecha hacia la derecha](assets/right-pointing-arrow.png) junto a cada área para expandir el área que desea editar.
-   1. Para obtener más información sobre cómo editar la información de la pestaña Detalles del proyecto, consulte los siguientes artículos:
+   1. (Opcional y condicional) Cuando un área esté contraída, haga clic en la **flecha hacia la derecha** ![flecha hacia la derecha](assets/right-pointing-arrow.png) junto a cada área para expandir el área que desea editar. O bien, haga clic en la **flecha hacia la derecha** en la esquina superior derecha para expandir todas las áreas.
+
+      Para obtener más información sobre cómo editar la información de la pestaña Detalles del proyecto, consulte los siguientes artículos:
 
       * [Administrar información en el área Información general del proyecto](../../../manage-work/projects/manage-projects/understand-project-overview-area.md)
       * [Administrar información en el área Finanzas del proyecto](../../../manage-work/projects/project-finances/manage-project-finance-area.md)
