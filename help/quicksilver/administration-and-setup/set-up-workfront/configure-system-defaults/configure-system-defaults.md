@@ -13,19 +13,14 @@ exl-id: 0ea1722b-fbcf-4e13-b206-f954877076cf
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/o9gRMospXiFWe4RC3eaMMIHvHuxJGU1-xFvtxocWt-E
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 9d28f52ace4d443bdffc475baf79d482152d4157
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 1e6380b0422efdd98449ab1e74cadb4f330917f1
 workflow-type: tm+mt
-source-wordcount: 127
-ht-degree: 57%
+source-wordcount: 134
+ht-degree: 54%
 
 ---
 
@@ -39,7 +34,7 @@ Esta sección contiene los siguientes artículos:
 * [Configurar tipos de solicitud](../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-request-types.md)
 * [Personalizar los tipos de problemas predeterminados](../../../administration-and-setup/set-up-workfront/configure-system-defaults/customize-default-issue-types.md)
 * [Crear, editar y compartir filtros, vistas y agrupaciones de todo el sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/create-and-share-default-fvgs.md)
-* [Configuración de las preferencias de administración de recursos de &#x200B;](../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md)
+* [Configuración de las preferencias de administración de recursos de ](../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md)
 * [Editar y crear tipos de riesgo](../../../administration-and-setup/set-up-workfront/configure-system-defaults/edit-create-risk-types.md)
 * [Crear tipos de gastos personalizados](../../../administration-and-setup/set-up-workfront/configure-system-defaults/create-custom-expense-types.md)
 * [Crear cuadro de resultados](../../../administration-and-setup/set-up-workfront/configure-system-defaults/create-scorecard.md)
@@ -50,3 +45,4 @@ Esta sección contiene los siguientes artículos:
 * [Habilitar el almacenamiento en la nube de Adobe para su organización](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md)
 * [Conversión de portafolios heredados al almacenamiento en la nube de Adobe](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/convert-portfolios-to-acs.md)
 * [Configuración de colaboradores de IA](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md)
+* [Conversión de portafolios heredados al almacenamiento en la nube de Adobe](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/convert-portfolios-to-acs.md)

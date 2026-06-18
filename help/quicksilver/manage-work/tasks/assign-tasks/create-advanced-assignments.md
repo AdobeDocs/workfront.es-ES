@@ -9,24 +9,16 @@ role: User
 exl-id: 09780f78-4eb8-404d-859b-d066d462776d
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/zWSZMjnN-WSef9q6W6s9mIcO2DakU0f886IcxD15tzg
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
-subfeature_v2:
-  - id: b91c0848-76c4-4da4-8b81-3aade0518dd0
-  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
-  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+autotag-review: '2026-06-18T17:43:58.800Z'
+TQID: 'https://experienceleague.adobe.com/qZvXwTMlCd5p08duYVqbyHpkML4oXtbijHuCzlukywg'
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aadid: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2: id: b91c0848-76c4-4da4-8b81-3aade0518dd0id: ce22a157-dd2c-405f-b740-c2f204bb4c1aid: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 1e6380b0422efdd98449ab1e74cadb4f330917f1
 workflow-type: tm+mt
-source-wordcount: 3340
+source-wordcount: 3361
 ht-degree: 31%
 
 ---
@@ -63,17 +55,6 @@ Puede ajustar la siguiente información de asignación al realizar asignaciones 
 >
 >Al asignar usuarios para trabajar, su disponibilidad según sus programaciones afecta a las fechas planificadas y proyectadas de las tareas y problemas. Para obtener información acerca de las programaciones, consulte [Crear una programación](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
 
-## Áreas de Adobe Workfront donde puede realizar asignaciones avanzadas
-
-Este artículo describe cómo acceder a las asignaciones avanzadas en el encabezado de la tarea o del problema.
-
-Además, puede realizar asignaciones avanzadas en las siguientes áreas de Workfront:
-
-* En listas e informes cuando el campo Asignaciones aparece en la vista.
-* En la sección Asignaciones al editar una tarea. Para obtener más información, consulte [Editar tareas](../../../manage-work/tasks/manage-tasks/edit-tasks.md). <!--When we remove the old/ new experience: take this bullet out completely; in the new Edit Task experience, this is no longer possible-->
-* En el encabezado de la tarea o del problema, en el área Asignaciones.
-* En el Distribuidor de cargas de trabajo. Para obtener más información, consulte [Asignar trabajo manualmente mediante el Distribuidor de cargas de trabajo](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer-manually.md).
-
 ## Requisitos de acceso
 
 +++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
@@ -107,14 +88,27 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
 
 +++
 
-## Crear asignaciones avanzadas: paquete Ultimate de flujo de trabajo
+## Áreas de Adobe Workfront donde puede realizar asignaciones avanzadas
 
-Este diseño de Asignaciones avanzadas se aplica solo a tareas. Para problemas, consulte [Crear asignaciones avanzadas - todos los demás paquetes](#create-advanced-assignments--all-other-packages).
+Este artículo describe cómo acceder a las asignaciones avanzadas en el encabezado de la tarea o del problema.
+
+Además, puede realizar asignaciones avanzadas en las siguientes áreas de Workfront:
+
+* En listas e informes cuando el campo Asignaciones aparece en la vista.
+* En la sección Asignaciones al editar una tarea. Para obtener más información, consulte [Editar tareas](../../../manage-work/tasks/manage-tasks/edit-tasks.md). <!--When we remove the old/ new experience: take this bullet out completely; in the new Edit Task experience, this is no longer possible-->
+* En el encabezado de la tarea o del problema, en el área Asignaciones.
+* En el Distribuidor de cargas de trabajo. Para obtener más información, consulte [Asignar trabajo manualmente mediante el Distribuidor de cargas de trabajo](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer-manually.md).
+
+La creación de asignaciones avanzadas difiere según el paquete de Workfront que haya adquirido su organización.
+
+## Crear asignaciones avanzadas para paquetes de Ultimate de flujo de trabajo
+
+Este diseño de Asignaciones avanzadas se aplica solo a tareas. Para problemas, consulte la sección [Crear asignaciones avanzadas para todos los demás paquetes](#create-advanced-assignments-for-all-other-packages) en este artículo.
 
 >[!NOTE]
 >
 >La experiencia antigua de Asignaciones avanzadas es la predeterminada. Debe activar manualmente la nueva experiencia con el botón en la parte superior derecha de la ventana Asignaciones avanzadas.
->Para obtener información sobre la experiencia antigua, consulte [Crear asignaciones avanzadas - todos los demás paquetes](#create-advanced-assignments--all-other-packages), más adelante.
+>Para obtener información sobre la experiencia anterior, consulte la sección [Crear asignaciones avanzadas para todos los demás paquetes](#create-advanced-assignments-for-all-other-packages) en este artículo.
 
 1. Vaya al proyecto donde desea asignar una tarea.
 1. Haga clic en **Tareas** o **Problemas** en el panel izquierdo y, a continuación, haga clic en el nombre de una tarea de la lista.
@@ -134,7 +128,7 @@ Este diseño de Asignaciones avanzadas se aplica solo a tareas. Para problemas, 
 
    ![Haga clic en Avanzadas](assets/assignments-from-task-header-0825.png)
 
-   Aparecerá la ventana Asignaciones Avanzadas.
+   Se abre la ventana Asignaciones avanzadas.
 
    ![Ventana de asignaciones avanzadas](assets/advanced-assignments-031826.png)
 
@@ -330,7 +324,7 @@ Sólo puede ver datos de asignación por fechas para un único usuario o rol.
 
    Cuando termine de revisar los datos, haga clic en la flecha situada en la parte superior izquierda para volver a la ventana Asignaciones avanzadas.
 
-## Crear asignaciones avanzadas: todos los demás paquetes
+## Crear asignaciones avanzadas para todos los demás paquetes
 
 Este diseño de Asignaciones avanzadas se aplica tanto a tareas como a problemas.
 
