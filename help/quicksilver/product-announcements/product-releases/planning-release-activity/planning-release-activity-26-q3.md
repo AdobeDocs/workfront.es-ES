@@ -6,9 +6,9 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: eea70c6013d3f43f78b679bf08f21bb40467940b
+source-git-commit: 6503adcc34ba4ff2c9c6ec56ab786db7f412ff3f
 workflow-type: tm+mt
-source-wordcount: '1919'
+source-wordcount: '2001'
 ht-degree: 2%
 
 ---
@@ -29,6 +29,17 @@ Este artículo describe las funciones que se lanzarán para Workfront Planning d
 
 Para obtener una lista de todas las características publicadas para Adobe Workfront Planning, consulte [Actividad de la versión de Adobe Workfront Planning: índice de artículo](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
 
+## Agregar opciones predeterminadas para los campos de tipo Seleccionar y Personas
+
+>[!NOTE]
+>
+>Vista previa: 18 de junio de 2026>Versión rápida de producción: 15 de julio de 2026>Producción para todos: 16 de julio de 2026
+
+Al crear un campo de selección única o múltiple o un campo de tipo Personas, ahora puede indicar un valor predeterminado para estos campos. Los valores predeterminados siempre se aplican cuando el campo es visible en un registro.
+
+Puede cambiar la configuración predeterminada del campo una vez guardado. Puede reemplazar los valores predeterminados de los campos al trabajar con registros.
+
+Para obtener más información, consulte [Crear campos](/help/quicksilver/planning/fields/create-fields.md).
 
 ## Mejoras en la interfaz de la vista de tabla
 
