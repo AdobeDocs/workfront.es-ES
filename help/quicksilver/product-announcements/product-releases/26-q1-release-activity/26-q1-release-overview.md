@@ -24,7 +24,7 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 705031456bf63cdc25a56bd7faaf95b2501d63bb
 workflow-type: tm+mt
 source-wordcount: 3163
 ht-degree: 98%
@@ -596,7 +596,7 @@ La versión 21 de la API de Workfront se publicó el 23 de octubre de 2025. Para
 >
 >Este cambio de versión de API presenta un cambio radical que puede afectar a sus llamadas de API existentes. Esto se debe a que la versión 21 de la API utiliza la versión 2 de Suscripciones a eventos.
 >
-> Para los campos de selección múltiple, la versión 2 de Suscripciones a eventos siempre envía una matriz. La versión 1 enviaba una matriz si se seleccionaba más de un valor. Si solo se seleccionaba un valor, se enviaba una cadena.
+> Para los campos de selección múltiple, la versión 2 de Suscripciones de eventos siempre envía como una matriz. La versión 1 enviaba una matriz si se seleccionaba más de un valor. Si solo se seleccionaba un valor, se enviaba una cadena.
 
 Para obtener información sobre novedades y actualizaciones, consulte [Novedades de la versión 21 de la API](/help/quicksilver/wf-api/api/new-api-version-21.md).
 
