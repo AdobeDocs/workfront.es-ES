@@ -6,9 +6,9 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 1e6380b0422efdd98449ab1e74cadb4f330917f1
+source-git-commit: a10385c56bcf1cdf942ab742e2884d1b5f381352
 workflow-type: tm+mt
-source-wordcount: '2001'
+source-wordcount: '1976'
 ht-degree: 2%
 
 ---
@@ -130,14 +130,21 @@ Para ver las especificaciones de la API de Workfront Planning, consulte la [docu
 >
 >Vista previa: 28 de mayo de 2026>Versión rápida de producción: 11 de junio de 2026>Producción para todos: 16 de julio de 2026
 
+
 Ahora puede ajustar permisos de registro individuales para controlar quién puede administrarlos dentro de un tipo de registro.
 
-Los usuarios heredan los permisos de registro del espacio de trabajo y el tipo de registro de forma predeterminada. Para conceder sólo a usuarios seleccionados con permisos de tipo de registro y permisos de administración sólo a determinados registros, puede deshabilitar los permisos heredados en registros seleccionados y conceder sólo a esos usuarios acceso de administración a esos registros. Puede ajustar los permisos para un registro o para varios registros al mismo tiempo, de forma masiva.
+De forma predeterminada, los usuarios heredan los permisos de registro del espacio de trabajo y el tipo de registro. Ahora puede anular los permisos heredados en registros específicos para conceder acceso de Ver o Administrar a un subconjunto de usuarios. Las invalidaciones de permisos se pueden aplicar a registros individuales o actualizar de forma masiva en varios registros.
 
-Puede otorgar a los usuarios los siguientes niveles de permisos:
+<!-- 
+Laurel asked for this to be replaced with the above: 
 
-* Ver
-* Administrar
+Users inherit record permissions from the workspace and record type by default. To give only select users with record type permissions Manage permissions to only certain records, you can disable inherited permissions on select records and grant only those users Manage access to those records. You can adjust permissions for one record, or for multiple records at the same time, in bulk.
+
+You can give users the following permissions levels: 
+
+* View 
+* Manage 
+-->
 
 >[!NOTE]
 >
