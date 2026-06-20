@@ -6,9 +6,9 @@ description: Haga un inventario, clasifique y corrija los escenarios de Workfron
 author: Courtney
 feature: Work Management, Digital Content and Documents
 role: Admin
-source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
+source-git-commit: a3ef3b4ea00298e23ebc8b6196c951417e75eebe
 workflow-type: tm+mt
-source-wordcount: '804'
+source-wordcount: '802'
 ht-degree: 1%
 
 ---
@@ -19,9 +19,13 @@ Los escenarios de Workfront Fusion creados en Workfront Proofing heredados no fu
 
 Los escenarios con ámbitos de proyectos de Workfront heredados siguen funcionando como hoy en día. El trabajo de corrección descrito en este artículo se aplica a los escenarios que tiene intención de ejecutar con proyectos de almacenamiento en la nube de Adobe.
 
-Se espera que los conectores Fusion con compatibilidad nativa para la revisión y aprobación unificadas estén disponibles en el tercer trimestre de 2026. Planifique la reconstrucción ahora, pero le recomendamos que espere a que se creen los nuevos conectores antes de compilarlos. Los escenarios serán más sencillos y fiables de lo que sustituyen.
+>[!IMPORTANT]
+>
+>El conector Unified Review and Approvals de Adobe Workfront ya está disponible en Workfront Fusion. Se recomienda utilizar este conector para situaciones más sencillas y fiables al utilizar Fusion con el almacenamiento en la nube de Adobe.
+>
+>Para obtener información e instrucciones, consulte [Módulos unificados de revisión y aprobaciones de Adobe Workfront](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-review-and-approvals-modules) en la documentación de Workfront Fusion.
 
-Las directrices de automatización detalladas se publicarán junto con la versión del conector Fusion del tercer trimestre de 2026. Utilice este artículo para realizar un inventario y clasificar escenarios ahora, de modo que esté listo para actuar una vez que las directrices estén disponibles.
+Utilice este artículo para realizar un inventario y clasificar escenarios y comprender la mejor manera de actualizar los escenarios de Fusion para tener en cuenta el almacenamiento en la nube de Adobe.
 
 Para obtener un resumen de alto nivel de los cambios que se producen cuando su organización se traslada a Workfront en el almacenamiento en la nube de Adobe, consulte [Traslado a Workfront en el almacenamiento en la nube de Adobe](/help/quicksilver/review-and-approve-work/workfront-storage.md).
 
@@ -58,7 +62,7 @@ Utilice el siguiente método para planificar y ejecutar la remediación de Fusio
 1. **Clasifique cada escenario** como Editar, Reconstruir o Retirar según los criterios de la sección anterior.
 1. **Pause los escenarios que dependen de la revisión** antes de traer equipos que dependan de ellos al programa piloto de almacenamiento en la nube de Adobe. La ejecución de automatizaciones basadas en pruebas anticuadas en el nuevo modelo puede producir errores silenciosos o acciones duplicadas.
 1. **Use plantillas de aprobación para reemplazar la lógica de enrutamiento simple.** Las plantillas de aprobación nativas de varias fases con automatización de plazos pueden gestionar muchos casos de uso que anteriormente requerían Fusion. Para obtener más información, consulte [Crear una plantilla de aprobación para recursos y documentos](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md).
-1. **Espere a que se actualicen los conectores Fusion en el tercer trimestre de 2026 antes de volver a compilarlos.** Los conectores actualizados exponen módulos creados específicamente para la revisión y aprobación unificadas y hacen que las reconstrucciones sean considerablemente más sencillas y fiables. No recomendamos la reconstrucción con la versión 22 de la API de Workfront de antemano. Si continúa con un escenario en el que el tiempo es esencial, planifique volver a visitar ese trabajo una vez que se publiquen los nuevos conectores.
+1. **Use el conector de revisión y aprobaciones unificadas de Adobe Workfront al reconstruir.** Los conectores actualizados exponen módulos creados específicamente para la revisión y aprobación unificadas y hacen que las reconstrucciones sean considerablemente más sencillas y fiables. No recomendamos la reconstrucción con la versión 22 de la API de Workfront de antemano.
 1. **Pruebe escenarios reconstruidos de extremo a extremo en una instancia de zona protegida** antes de habilitarlos en la producción. Preste especial atención a las cargas útiles de suscripción de evento: los nombres de campo y el esquema difieren de los eventos de prueba heredados.
 
 >[!TIP]
