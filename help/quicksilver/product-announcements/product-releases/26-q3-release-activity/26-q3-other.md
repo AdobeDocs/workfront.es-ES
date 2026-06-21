@@ -4,10 +4,10 @@ description: Otras mejoras durante el periodo de tiempo de lanzamiento del terce
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: f4ec604a43b2bc3b50b256081e45c4eb253dd2ad
+source-git-commit: b05cd2638ac0d35a0debb862d73dc8bee0cdb794
 workflow-type: tm+mt
-source-wordcount: '679'
-ht-degree: 1%
+source-wordcount: '386'
+ht-degree: 3%
 
 ---
 
@@ -16,14 +16,6 @@ ht-degree: 1%
 Esta página describe las mejoras realizadas con la versión del tercer trimestre de 2026 en el entorno de vista previa. Estas mejoras estarán disponibles en el entorno de producción, como se ha indicado.
 
 Para obtener una lista de todos los cambios disponibles en este punto del ciclo de la versión del tercer trimestre de 2026, consulte [Información general de la versión del tercer trimestre de 2026](/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-release-overview.md).
-
-## Actualizaciones del conector MCP de Workfront
-
-Hemos realizado la siguiente actualización del conector MCP de Workfront:
-* Hemos ampliado el servidor MCP para que funcione con instancias de la EU<!-- and US instances that are not on AWS. Each MCP server can only connect to one instance, but are no longer limited to US instances on AWS-->.
-* Para ampliar la flexibilidad del conector Workfront MCP, hemos añadido la capacidad de conectar Claude. Ahora, puede encontrar Workfront en la lista de conectores en Claude o conectarse directamente mediante una dirección URL.
-
-Para obtener más información e instrucciones, consulte [Configuración del servidor MCP de Adobe Workfront](/help/quicksilver/workfront-basics/workfront-mcp-server/configure-workfront-mcp-server.md).
 
 
 ## Apariencia actualizada para los correos electrónicos de notificación de comentarios
@@ -45,26 +37,6 @@ El hilo de los comentarios anteriores ya no se incluye en el cuerpo del correo e
 Este cambio se está implementando para los clientes por fases. Esta página se actualizará cuando se confirme la programación de despliegue.
 
 ![correo electrónico de notificación de comentarios actualizado.png](assets/email-look-and-feel-update.png)
-
-## Conecte Workfront a las herramientas de IA con el servidor MCP de Workfront
-
->[!NOTE]
->
->Vista previa: 28 de mayo de 2026>Versión rápida de producción: 11 de junio de 2026>Producción para todos: 16 de julio de 2026
-
-El contexto operativo de su equipo se encuentra en Workfront. Ahora, con el servidor MCP de Workfront, ese contexto se puede procesar desde las herramientas de IA que ya utiliza su equipo.
-
-Conecte Workfront a cualquier plataforma de IA compatible con MCP, incluidas Claude, ChatGPT, Copilot, Gemini y más, y use el lenguaje natural para buscar, crear, actualizar y administrar elementos de Workfront sin dejar la herramienta de IA que elija. Pida sus tareas vencidas, indique la fecha de fin de un proyecto, envíe un recordatorio a los aprobadores, actualice un presupuesto de campaña y su plataforma de IA hará el trabajo por usted en Workfront.
-
-Y con las habilidades de IA y las tareas programadas de Claude, puede ir aún más lejos, automatizando los flujos de trabajo recurrentes que se ejecutan de forma proactiva con datos de Workfront en directo. Por ejemplo, una sesión informativa sobre el proyecto el lunes por la mañana, un informe semanal de capacidad, una comprobación mensual del estado de la campaña: establézcala una vez y la IA la gestiona automáticamente, basándose en el contexto completo de la operación.
-
-Esta es la base de un sistema de administración de trabajo auténtico, donde la IA se basa en sus datos operativos más completos y los humanos y la IA colaboran para mantener el trabajo en movimiento a toda velocidad.
-
->[!IMPORTANT]
->
->Actualmente, el servidor MCP de Workfront solo está disponible para clientes de la región de EE. UU. que utilizan AWS.
-
-Para obtener más información, consulte [Descripción general del servidor MCP de Adobe Workfront](/help/quicksilver/workfront-basics/workfront-mcp-server/workfront-mcp-server-overview.md).
 
 ## Actualizaciones de lista mejoradas
 
