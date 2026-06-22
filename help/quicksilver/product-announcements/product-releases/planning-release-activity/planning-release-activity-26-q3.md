@@ -6,9 +6,9 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: a10385c56bcf1cdf942ab742e2884d1b5f381352
+source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
 workflow-type: tm+mt
-source-wordcount: '1976'
+source-wordcount: '2005'
 ht-degree: 2%
 
 ---
@@ -54,6 +54,8 @@ Hemos actualizado el aspecto de la vista de tabla para las siguientes áreas en 
 * Todas las páginas de tipo de registro conectadas, excepto Proyectos
 
 Además de algunos cambios de navegación y mejoras de diseño, algunas mejoras en esta actualización incluyen las siguientes:
+
+* Suma de una fila de agregación situada en la parte inferior de la tabla que resume los campos de número, moneda, porcentaje y algunas fórmulas mediante los siguientes acumuladores: SUM, AVG, MAX, MIN.
 
 * Un formato de fecha más sencillo con menos tipos de formato al agregar un campo Fecha.
 

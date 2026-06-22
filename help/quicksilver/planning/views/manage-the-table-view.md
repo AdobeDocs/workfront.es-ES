@@ -9,27 +9,22 @@ exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/oajBrzqCNgufbSJPP0Wx8aI14d8VM7IFr-Hn1ed7Wks
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b4a1643db287af5c9f641caf26ab9a8214adcb44
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
 workflow-type: tm+mt
-source-wordcount: 6148
-ht-degree: 60%
+source-wordcount: 6307
+ht-degree: 59%
 
 ---
 
 # Administrar la vista de tabla
 
 
-<span class="preview">La información resaltada en esta página hace referencia a funcionalidades que aún no están disponibles de forma general. Solo está disponible en el entorno de vista previa para todos los clientes. Después de las versiones mensuales en Production, las mismas funciones también están disponibles en el entorno Production para los clientes que habilitaron versiones rápidas. </span>
+<span class="preview">La información resaltada en esta página hace referencia a funcionalidades que aún no están disponibles de forma general. Solo está disponible en el entorno de vista previa para todos los clientes. Después del lanzamiento en Vista previa, las mismas funciones también están disponibles mensualmente en el entorno de producción para los clientes que habilitaron lanzamientos rápidos. </span>
 
 <span class="preview">Para obtener información sobre las versiones rápidas, consulte [Habilitar o deshabilitar las versiones rápidas para su organización](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
@@ -745,16 +740,20 @@ Puede añadir hasta 500 campos (o columnas) en una vista de tabla.
    1. (Opcional) Si hay más de una coincidencia, haga clic en las flechas arriba y abajo situadas a la derecha de la palabra clave de búsqueda para encontrar todas las coincidencias de la tabla.
 
    1. Haga clic en el icono **x** en el cuadro de búsqueda para borrar la palabra clave de búsqueda.
-<!--    
-1. For number, currency, percentage, and formula fields that are formatted as any of these field types, expand the aggregator dropdown menu at the bottom of the columns, and select from the following options:
 
-    * **SUM**: Displays the total of all cells in the column. This is the default selection. 
-    * **MIN**: Displays the lowest value from all the cells in the column. 
-    * **MAX**: Displays the highest value from all the cells in the column. 
-    * **AVG**: Displays the average value of all the cells in the column. 
+1. Para los campos de número, moneda, porcentaje y fórmula con el formato de cualquiera de estos tipos de campo, expanda el menú desplegable de agregador en la parte inferior de las columnas y seleccione una de las siguientes opciones:
 
-    The aggregator row in the column is frozen and is part of the view settings. The aggregator you choose will be shared with the view when you share the view with others. 
--->
+   * **SUM**: muestra el total de todas las celdas de la columna. Esta es la selección predeterminada.
+   * **MIN**: muestra el valor más bajo de todas las celdas de la columna.
+   * **MAX**: muestra el valor más alto de todas las celdas de la columna.
+   * **AVG**: Muestra el valor promedio de todas las celdas de la columna.
+
+   Tenga en cuenta lo siguiente al trabajar con agregadores:
+
+   * La fila del agregador de la columna está inmovilizada y forma parte de la configuración de vista.
+   * Como Administrador de vistas, puede elegir el agregador, que se compartirá con la vista cuando comparta la vista con otros usuarios.
+   * Como visor, puede modificar el agregador, pero no se guarda con la vista.
+   * Las vistas compartidas públicas se comparten con los acumuladores guardados, los cuales no se pueden modificar.
 
 ### Añadir filas (o registros) {#add-rows-1}
 
@@ -890,7 +889,7 @@ Tenga en cuenta lo siguiente:
 
 * Es posible aplicar agrupaciones tanto en las vistas de tabla como de cronología. Las agrupaciones de la vista de tabla son independientes de las de la vista de cronología del mismo tipo de registro.
 * Se pueden aplicar 3 niveles de agrupación en una vista. Los registros se agrupan en el orden de agrupaciones que seleccione.
-&lt;!—**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;*** * Puede aplicar hasta 4 niveles de agrupación al utilizar la API. —comprobando este por ahora &#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**—>
+&lt;!—*************** * Puede aplicar hasta 4 niveles de agrupación al utilizar la API. —comprobando este por ahora ******************—>
 * Las agrupaciones son únicas para la vista que se seleccione. Dos vistas de tabla del mismo tipo de registro pueden tener diferentes agrupaciones aplicadas. Dos usuarios que vean la misma vista de tabla verán la misma agrupación que se aplique en ese momento.
 * No se puede asignar un nombre a las agrupaciones que se generen para una vista de tabla.
 * Al quitar las agrupaciones, se quitarán de cualquier usuario que tenga acceso al mismo tipo de registro y que muestre la misma vista que usted.
