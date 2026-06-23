@@ -5,13 +5,13 @@ title: Uso de campos de moneda en paneles de lienzo
 description: Puede utilizar los campos de moneda en un panel de lienzo.
 author: Courtney
 feature: Reports and Dashboards
-source-git-commit: 3e4ab2dfc66efd262c0c2ad30a9c62758084f8ce
+exl-id: 207c24d3-2b69-4ea3-88d7-716a3cf33dd1
+source-git-commit: 8b161669c427c316ba28b814dfa7a6d095cd4309
 workflow-type: tm+mt
-source-wordcount: '622'
-ht-degree: 10%
+source-wordcount: '551'
+ht-degree: 12%
 
 ---
-
 
 # Uso de campos de moneda en paneles de lienzo
 
@@ -24,6 +24,12 @@ ht-degree: 10%
 >* Traer su propia clave para Amazon Web Service
 >* Azure
 >* Google Cloud Platform
+
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 ## Requisitos de acceso
 
@@ -125,7 +131,7 @@ Para cambiar el tipo de moneda del tablero,
 
 ## Limitaciones
 
-En la tabla siguiente se describen las limitaciones cuando se definen monedas en el área Tasas de cambio en Configuración.
+En la tabla siguiente se describen las limitaciones cuando se definen monedas en el área Tipos de cambio en Configuración.
 
 <table> 
 <tr>
@@ -146,7 +152,7 @@ En la tabla siguiente se describen las limitaciones cuando se definen monedas en
 <li>Asigne una moneda predeterminada al tablero (al crearlo o al editarlo)</li>
 <li>Consulte y utilice la opción de moneda de nivel de panel</li>
 <li>Bloquear una moneda específica para verla en un gráfico de lienzo, KPI o informe de tabla</li>
-<li>Usar campos monetarios de Planning en un gráfico de lienzo, KPI e informes de tabla</li>
+<li>Usar campos monetarios de Planning en un gráfico de lienzo, KPI e informes de tabla <!--<span class="preview"> in the Production environment. This is available in the Preview environment.</span>--></li>
 </ul>
 </td> 
 </tr>
@@ -164,12 +170,7 @@ En la tabla siguiente se describen las limitaciones cuando se definen monedas en
 </td>
 <td><ul>
   <li>Usar campos de moneda de datos personalizados en informes de lienzo, KPI y tabla</li>
-  <li>Usar campos monetarios de Planning en un gráfico de lienzo, KPI e informes de tabla</li>
+  <li>Usar campos monetarios de Planning en un gráfico de lienzo, KPI e informes de tabla <!--<span class="preview"> in the Production environment. This is available in the Preview environment.</span>--></li>
 </ul>
 </td>
 </tr></table>
-
-
-
-
-

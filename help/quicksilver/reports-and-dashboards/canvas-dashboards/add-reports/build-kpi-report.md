@@ -9,20 +9,14 @@ exl-id: e1c68ac3-112e-4f9e-b644-f44bb0778b92
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/5tFfjJfCZzD-xA4YgFpz9V3jIVG2etiYJ-KAwPLI-Sk
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 8b161669c427c316ba28b814dfa7a6d095cd4309
 workflow-type: tm+mt
-source-wordcount: 1301
+source-wordcount: 1299
 ht-degree: 14%
 
 ---
@@ -221,8 +215,8 @@ Se trata de un límite conocido y tenemos previsto abordarlo lo antes posible.
 
 La lista desplegable **Secciones** de la sección **Generar KPI** se ha diseñado para reducir las opciones de un selector de campo y facilitar la búsqueda de un objeto al crear un informe de tabla. Para empezar, debe seleccionar un objeto de entidad base.
 
-* **Todas las secciones**: Todos los tipos de objetos en Workfront Workflow y Workfront Planning.
-* **Objetos Workfront**: objetos nativos de flujo de trabajo de Workfront.
+* **Todas las secciones**: Todos los tipos de objetos en Workfront y Workfront Planning.
+* **Objetos Workfront**: objetos Workfront nativos.
 * **Tipos de registros de planificación**: tipos de registros personalizados definidos en Workfront Planning.
 
 ![Lista desplegable de secciones](assets/sections-dropdown.png)

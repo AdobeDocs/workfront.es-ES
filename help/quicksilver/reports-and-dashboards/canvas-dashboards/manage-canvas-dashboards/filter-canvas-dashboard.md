@@ -9,18 +9,13 @@ exl-id: 156e9d3f-49f6-4372-9749-c7124ff5baee
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/SRUCt-lfcaIOPghpl2PfbbSMO4oMy4E1hfS7NensXL8
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 8b161669c427c316ba28b814dfa7a6d095cd4309
 workflow-type: tm+mt
-source-wordcount: 803
+source-wordcount: 807
 ht-degree: 13%
 
 ---
@@ -36,6 +31,12 @@ ht-degree: 13%
 >* Traer su propia clave para Amazon Web Service
 >* Azure
 >* Google Cloud Platform
+
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 
 Puede aplicar un filtro a un panel de lienzo que contenga mensajes. Una solicitud funciona como un modificador de filtro que aplica criterios de filtrado adicionales para que pueda reducir aún más los resultados. Estos indicadores se pueden modificar cada vez que se aplica el filtro, lo que permite ajustar los resultados mostrados sin necesidad de editar los criterios de filtro principales del panel o de cada informe individual.
@@ -117,7 +118,7 @@ Con un filtro de panel, puede aplicar un filtro común a todos los informes disp
 
 1. En la esquina superior izquierda de la página de detalles del panel, haga clic en **Filtros**. Se abrirá el panel lateral de filtros.
 
-1. Seleccione **Editar filtros**. Se abre el cuadro de diálogo **Filtros del panel**.
+1. Haga clic <!--<span class="preview">the **More** menu ![More menu](assets/more-icon.png), then click</span>--> **Editar filtros**. Se abre el cuadro de diálogo **Filtros del panel**.
 
 1. (Opcional) Para agregar una regla, siga los pasos a continuación:
 
@@ -126,7 +127,7 @@ Con un filtro de panel, puede aplicar un filtro común a todos los informes disp
       ![Editar icono](assets/edit-icon.png)
 
    1. Haga clic en **Agregar condición** y, a continuación, agregue la siguiente información:
-      * Seleccione un campo por el que desee filtrar.
+      * Haga clic en **Seleccionar campo** para seleccionar un campo por el que desee filtrar.
       * Seleccione una opción (o modificador de filtro) para definir qué tipo de condición debe cumplir el campo.
 
    1. (Opcional) Haga clic en **Añadir grupo de filtros** para añadir otro conjunto de criterios de filtrado. El operador predeterminado entre los conjuntos es Y. Haga clic en el operador para cambiarlo a OR.
@@ -144,7 +145,7 @@ Una solicitud de panel ofrece a los usuarios la opción de aplicar filtros perso
 
 1. Para agregar una solicitud, siga los pasos a continuación:
 
-   1. Seleccione **Agregar solicitud**. Los nuevos campos aparecen en la parte derecha de la pantalla.
+   1. Haga clic en **Agregar solicitud**. Los nuevos campos aparecen en la parte derecha de la pantalla.
 
    1. Escriba una etiqueta en el campo **Personalizar etiqueta**.
 
@@ -170,6 +171,19 @@ Una solicitud de panel ofrece a los usuarios la opción de aplicar filtros perso
    1. (Opcional) Haga clic en **Añadir grupo de filtros** para añadir otro conjunto de criterios de filtrado. El operador predeterminado entre los conjuntos es Y. Haga clic en el operador para cambiarlo a OR.
 
 1. Haga clic en **Guardar** para aplicar el filtro al tablero.
+
+   <!--
+    1.<span class="preview">To save prompts as default filters, do the following, after you saved the prompt: </span>
+        <div class="preview">
+        1. (Optional) Click the **More** menu ![More menu](assets/more-icon.png), then click **Save as default filter**. 
+            The filter is applied every time the dashboard loads for anyone with View or higher permissions to it. 
+        1. (Conditional) If you access a dashboard with a default filter applied, you can modify the filter and your modifications are saved as a personal preference. The following scenarios exist:
+            * If you have Manage permissions to the dashboard, click **Save as default filter** to save your modifications as a default filter. This replaces the original defaults.
+            * If you have View permissions to the dashboard, your modifications display only for you. Refreshing the page preserves your settings. 
+        1. (Conditional) If you modified the settings of the default filter, click the **More** menu ![More menu](assets/more-icon.png), then **Apply dashboard defaults** to return to the default filter results. 
+        1. (Optional) Click **Reset defaults** to replace the original default settings with your modifications. This option is only available for dashboard managers. 
+        </div> 
+    -->
 
 1. Continúe con [Parte 3: Aplicar una solicitud de panel](#step-3-apply-a-dashboard-prompt).
 
