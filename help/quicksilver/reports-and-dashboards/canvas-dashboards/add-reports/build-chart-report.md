@@ -18,9 +18,9 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 8b161669c427c316ba28b814dfa7a6d095cd4309
 workflow-type: tm+mt
-source-wordcount: 1866
+source-wordcount: 1864
 ht-degree: 10%
 
 ---
@@ -316,8 +316,8 @@ Se trata de un límite conocido y tenemos previsto abordarlo lo antes posible.
 
 La lista desplegable **Secciones** de la sección **Crear gráfico** está diseñada para reducir las opciones de un selector de campo y facilitar la búsqueda de un objeto al crear un informe de tabla. Para empezar, debe seleccionar un objeto de entidad base.
 
-* **Todas las secciones**: Todos los tipos de objetos en Workfront Workflow y Workfront Planning.
-* **Objetos Workfront**: objetos nativos de flujo de trabajo de Workfront.
+* **Todas las secciones**: Todos los tipos de objetos en Workfront y Workfront Planning.
+* **Objetos Workfront**: objetos Workfront nativos.
 * **Tipos de registros de planificación**: tipos de registros personalizados definidos en Workfront Planning.
 
 ![Lista desplegable de secciones](assets/sections-dropdown.png)

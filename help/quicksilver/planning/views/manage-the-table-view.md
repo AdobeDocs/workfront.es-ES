@@ -19,10 +19,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+source-git-commit: 1002d0ce293d00b70821e13da280c6f817c8eb9d
 workflow-type: tm+mt
-source-wordcount: 6307
-ht-degree: 59%
+source-wordcount: 6353
+ht-degree: 58%
 
 ---
 
@@ -622,7 +622,7 @@ Al mostrar la vista de tabla, también puede ver qué campo está editando otro 
 
 <div class="preview">
 
-## Administrar la vista de lista en el entorno de vista previa
+## Administrar la vista de tabla en el entorno de vista previa
 
 <!--********** MAYBE THIS IS VALID ONLY WHEN WE REPLACE THE NAVIGATION ?????????*********-->
 
@@ -946,17 +946,15 @@ para añadir una agrupación:
 
 ### Agregar colores de fila
 
-1. (Opcional) Haga clic en **Colores de fila** para definir condiciones y elegir configurar colores diferentes para las filas de la tabla.
+1. (Opcional) Haga clic en **Colores de fila** para definir condiciones y configurar colores diferentes para las filas de la tabla.
 
-1. Haga clic en **Agregar color**, luego busque un campo y selecciónelo cuando se muestre en la lista. Este es el campo cuyo valor desea definir el color de una fila.
+1. Haga clic en **Agregar color**, luego busque un campo y selecciónelo cuando se muestre en la lista. Este es el campo cuyo valor desea definir el color de una fila o el campo Primary.
 
    Por ejemplo, para mostrar campañas con el estado Activo en verde, seleccione **Estado** y, a continuación, elija un modificador y un valor para el campo.
 
-   ![Cuadro de colores de fila con estado Activo seleccionado y opción de color predeterminada](assets/row-colors-box-with-active-status-selected-default-color-choice.png)
-
 1. Haga clic en el menú desplegable del selector de color en la esquina superior izquierda de la condición seleccionada, para elegir el color de la condición y, a continuación, haga clic fuera del cuadro selector de color para cerrarlo.
 
-   ![Menú desplegable del selector de color en el cuadro Colores de fila resaltado](assets/drop-down-color-picker-menu-in-row-colors-box-highlighted.png)
+   ![Cuadro de colores de fila con estado Activo seleccionado y opción de color predeterminada](assets/row-colors-box-with-active-status-selected-default-color-choice-gtable.png)
 
 1. (Opcional) Haga clic en **Agregar condición** para agregar más campos y valores al primer conjunto de condiciones
 
@@ -966,16 +964,27 @@ para añadir una agrupación:
 
    Por ejemplo, puede mostrar las campañas en un estado de Planning en amarillo definiendo un nuevo conjunto de condiciones.
 
-   ![Cuadro de colores de fila con colores personalizados de estado Activo y Planificación](assets/row-colors-box-with-active-and-planning-status-custom-colors.png)
+   ![Cuadro de colores de fila con colores personalizados de estado Activo y Planificación](assets/row-colors-box-with-active-and-planning-status-custom-colors-gtable.png)
+
+   >[!TIP]
+   >
+   >Cuando se seleccionan dos campos diferentes, la última regla se aplica primero a los colores que se aplicarán a las filas.
+
 
 1. (Opcional) Active la opción **Aplicar a toda la fila** en la esquina superior derecha del cuadro **Colores de fila**. Toda la fila donde se cumple la condición se muestra automáticamente en el color seleccionado.
 
    >[!NOTE]
    >
-   >Si la opción **Aplicar a toda la fila** está desactivada, solo se muestra el fondo de la celda del campo principal en el color seleccionado. La configuración está desactivada de forma predeterminada.
+   >* Si la opción **Aplicar a toda la fila** está desactivada, solo se muestra el fondo de la celda del campo principal en el color seleccionado. La configuración está desactivada de forma predeterminada.
    >
+   >* La configuración Aplicar a toda la fila se atenúa cuando se aplican agrupaciones a la tabla.
 
 1. Haga clic fuera del cuadro **Colores de fila** para cerrarlo. Los colores se aplican automáticamente.
+
+   >[!TIP]
+   >
+   >Si elige aplicar color solo a una celda, solo se resaltará el campo Principal.
+
 
 ### Habilitar el indicador de presencia en tiempo real
 

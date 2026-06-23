@@ -6,9 +6,9 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+source-git-commit: 1002d0ce293d00b70821e13da280c6f817c8eb9d
 workflow-type: tm+mt
-source-wordcount: '2005'
+source-wordcount: '2038'
 ht-degree: 2%
 
 ---
@@ -28,6 +28,16 @@ There are no features released during the Third Quarter Release for 2026. When f
 Este artículo describe las funciones que se lanzarán para Workfront Planning durante la versión del tercer trimestre de 2026.
 
 Para obtener una lista de todas las características publicadas para Adobe Workfront Planning, consulte [Actividad de la versión de Adobe Workfront Planning: índice de artículo](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
+
+## Mejora de la interfaz de controles de color de fila
+
+>[!NOTE]
+>
+>Vista previa: 22 de junio de 2026>Versión rápida de producción: 15 de julio de 2026>Producción para todos: 16 de julio de 2026
+
+Hemos actualizado el aspecto del control Colores de fila en la vista de tabla.
+
+Para obtener más información, consulte [Administrar la vista de tabla](/help/quicksilver/planning/views/manage-the-table-view.md).
 
 ## Agregar opciones predeterminadas para los campos de tipo Seleccionar y Personas
 
