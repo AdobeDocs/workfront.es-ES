@@ -22,10 +22,10 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 9be1c13e172fd0f7ba4ea41a0b0b6d45868ee946
 workflow-type: tm+mt
-source-wordcount: 481
-ht-degree: 95%
+source-wordcount: 440
+ht-degree: 99%
 
 ---
 
@@ -75,6 +75,4 @@ Puede utilizar las funciones para los siguientes fines:
   >Si se asigna a los usuarios una plantilla de diseño en su perfil de usuario, esa plantilla tiene prioridad sobre la asignada a su función principal. Para obtener más información, consulte [Asignar usuarios a una plantilla de diseño](../../../administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md).
 
 * Puede asignar funciones a planes e iniciativas para administrar la disponibilidad de los recursos al usar [!DNL Adobe Workfront Scenario Planner]. Esto requiere una licencia adicional para [!DNL Scenario Planner]. Para obtener más información, consulte [Introducción a [!DNL Scenario Planner]](../../../scenario-planner/get-started-with-scenario-planning.md).
-* Puede cambiar la divisa en las tasas de rol con fecha en vigor cuando trabaje con recursos de distintos países. Esto le permite obtener importes de costes e ingresos más precisos para los elementos de trabajo.
 
-  Para obtener más información, consulte [Crear y administrar funciones](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).

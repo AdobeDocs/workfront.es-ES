@@ -6,7 +6,7 @@ description: Puede utilizar los campos de moneda en un panel de lienzo.
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 207c24d3-2b69-4ea3-88d7-716a3cf33dd1
-source-git-commit: 8b161669c427c316ba28b814dfa7a6d095cd4309
+source-git-commit: 1c9433c854fe481060358caf3d280492ee71aeb6
 workflow-type: tm+mt
 source-wordcount: '551'
 ht-degree: 12%
@@ -154,6 +154,11 @@ En la tabla siguiente se describen las limitaciones cuando se definen monedas en
 <li>Bloquear una moneda específica para verla en un gráfico de lienzo, KPI o informe de tabla</li>
 <li>Usar campos monetarios de Planning en un gráfico de lienzo, KPI e informes de tabla <!--<span class="preview"> in the Production environment. This is available in the Preview environment.</span>--></li>
 </ul>
+
+<!--
+<p><b>NOTE</b></p>
+<span class="preview">If a Planning currency field uses a currency without a defined exchange rate, Canvas Dashboard might display an error message when.</span>
+-->
 </td> 
 </tr>
 </td> 
@@ -172,5 +177,10 @@ En la tabla siguiente se describen las limitaciones cuando se definen monedas en
   <li>Usar campos de moneda de datos personalizados en informes de lienzo, KPI y tabla</li>
   <li>Usar campos monetarios de Planning en un gráfico de lienzo, KPI e informes de tabla <!--<span class="preview"> in the Production environment. This is available in the Preview environment.</span>--></li>
 </ul>
+
+<!--
+<p><b>NOTE</b></p>
+<span class="preview">If a Planning currency field uses a currency without a defined exchange rate, Canvas Dashboard might display an error message when.</span>
+-->
 </td>
 </tr></table>
