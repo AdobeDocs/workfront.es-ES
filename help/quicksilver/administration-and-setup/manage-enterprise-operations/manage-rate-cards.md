@@ -8,14 +8,16 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 3972f498-c461-4535-82c6-ad1b60d3ed86
-source-git-commit: c27dd9d972b89af09c0865a0e878f1665416c80e
+source-git-commit: 3d4ba795c0f6098e71ee5510680d4d20ca2c9e1d
 workflow-type: tm+mt
-source-wordcount: '1337'
-ht-degree: 14%
+source-wordcount: '1434'
+ht-degree: 12%
 
 ---
 
 # Administrar tarjetas de tarifas
+
+{{highlighted-preview}}
 
 Una tarjeta de tarifas representa el acuerdo contractual con su cliente en el que se definen las tarifas por hora para los roles que completarán el trabajo. En una tarjeta de tarifas, puede definir varias tarifas de facturación por rol, según atributos como agencia, ubicación o centro de coste. Los atributos de tarifa únicos se configuran en el área Configuración. Para obtener más información, vea [Definir atributos de tasa](/help/quicksilver/administration-and-setup/manage-enterprise-operations/define-rate-attributes.md).
 
@@ -139,6 +141,14 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
    >[!NOTE]
    >
    >Dado que cada tasa está asociada a la combinación de la función y los atributos para crear una tasa única, la función y los atributos no se pueden cambiar al editar una tasa.
+
+<div class="preview">
+
+1. Para agregar una tarifa en un lugar específico de la lista de tarifas con fecha efectiva, pase el ratón sobre la tarifa y seleccione el menú **Más** a la derecha del nombre de la tarifa. A continuación, elija **Insertar fila arriba** o **Insertar fila debajo**.
+
+   Aparecerá el cuadro Editar tarifa de facturación, con la línea de la nueva tarifa de facturación agregada donde la colocó. La velocidad seleccionada para agregar una fila por encima o por debajo se resaltará con una línea azul. Agregue la nueva tarifa de facturación, ajuste las fechas efectivas en las tarifas de facturación existentes según sea necesario y haga clic en **Guardar**.
+
+</div>
 
 1. Para eliminar una tarifa de facturación de la tarjeta de tarifas, selecciona la casilla junto a la tarifa y haz clic en [!UICONTROL **Eliminar**] en la barra de acciones.
 1. Para bloquear una tarifa, selecciona la casilla de verificación situada junto a la tarifa y haz clic en [!UICONTROL **Bloquear**] en la barra de acciones.
