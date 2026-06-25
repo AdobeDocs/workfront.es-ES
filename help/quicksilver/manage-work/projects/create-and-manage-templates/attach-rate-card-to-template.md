@@ -6,7 +6,7 @@ title: Adjuntar una tarjeta de tarifa a una plantilla
 description: Al asignar una tarjeta de tasa a una plantilla, la tarjeta de tasa se adjunta a todos los proyectos creados a partir de la plantilla.
 author: Lisa
 feature: Work Management
-source-git-commit: 28a1c1cf30c2b4addbcc1b40f5fd65f99685c75c
+source-git-commit: ab0a089ddf33cc4c5342b11a54ab3af40641a50d
 workflow-type: tm+mt
 source-wordcount: '628'
 ht-degree: 10%
@@ -117,7 +117,6 @@ Puede empezar a escribir el nombre de una tarjeta de tasa para reducir la lista 
 
    En la sección Opciones del cuadro Guardar como plantilla, puede seleccionar el elemento **Tarjeta de tarifa** para agregar la tarjeta de tarifa a la plantilla. Desactive la casilla de verificación para excluir la transferencia de la tarjeta de tarifa a la plantilla.
 
-   Para obtener más información, vea [Guardar un proyecto como plantilla](/help/quicksilver/manage-work/projects/manage-projects/save-project-as-template.md)
-
+   Para obtener más información, vea [Guardar un proyecto como plantilla](/help/quicksilver/manage-work/projects/manage-projects/save-project-as-template.md).
 
 
