@@ -6,7 +6,7 @@ description: Puede utilizar los campos de moneda en un panel de lienzo.
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 207c24d3-2b69-4ea3-88d7-716a3cf33dd1
-source-git-commit: 5610385a6bbbf02965d7ab4a3fecee8e6de5ad91
+source-git-commit: 2b7812d275fd2c5bf0fff8bcd60ca89bafa22def
 workflow-type: tm+mt
 source-wordcount: '677'
 ht-degree: 12%
@@ -177,7 +177,8 @@ En la tabla siguiente se describen las limitaciones cuando se definen monedas en
 
 
 <p><b>NOTA</b></p>
-<span class="preview">Si un campo de divisa de Planning utiliza una divisa sin un tipo de cambio definido, el panel de lienzo podría mostrar un mensaje de error al.</span>
+
+<p><span class="preview">Si un campo de divisa de Planning utiliza una divisa sin un tipo de cambio definido, el panel de lienzo puede mostrar un mensaje de error al.</span></p>
 
 </td>
 </tr></table>
