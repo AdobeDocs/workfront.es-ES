@@ -18,10 +18,10 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 8b161669c427c316ba28b814dfa7a6d095cd4309
+source-git-commit: 5610385a6bbbf02965d7ab4a3fecee8e6de5ad91
 workflow-type: tm+mt
-source-wordcount: 807
-ht-degree: 13%
+source-wordcount: 1057
+ht-degree: 12%
 
 ---
 
@@ -38,11 +38,12 @@ ht-degree: 13%
 >* Google Cloud Platform
 
 <!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
-
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+take Preview and production mentions out at release
 -->
 
+<span class="preview">La información resaltada en esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa para todos los clientes. Después del lanzamiento en Vista previa, las mismas funciones también están disponibles mensualmente en el entorno de producción para los clientes que habilitaron lanzamientos rápidos. </span>
+
+<span class="preview">Para obtener información sobre las versiones rápidas, consulte [Habilitar o deshabilitar las versiones rápidas para su organización](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 Puede aplicar un filtro a un panel de lienzo que contenga mensajes. Una solicitud funciona como un modificador de filtro que aplica criterios de filtrado adicionales para que pueda reducir aún más los resultados. Estos indicadores se pueden modificar cada vez que se aplica el filtro, lo que permite ajustar los resultados mostrados sin necesidad de editar los criterios de filtro principales del panel o de cada informe individual.
 
@@ -123,7 +124,7 @@ Con un filtro de panel, puede aplicar un filtro común a todos los informes disp
 
 1. En la esquina superior izquierda de la página de detalles del panel, haga clic en **Filtros**. Se abrirá el panel lateral de filtros.
 
-1. Haga clic <!--<span class="preview">the **More** menu ![More menu](assets/more-icon.png), then click</span>--> **Editar filtros**. Se abre el cuadro de diálogo **Filtros del panel**.
+1. (Conditionalt) En el entorno Producción, haga clic en **Editar filtros** o en <span class="preview">en el entorno Vista previa, haga clic en el menú **Más** ![Menú Más](assets/more-icon.png) y, a continuación, haga clic en</span> **Editar filtros**. Se abre el cuadro de diálogo **Filtros del panel**.
 
 1. (Opcional) Para agregar una regla, siga los pasos a continuación:
 
@@ -177,18 +178,24 @@ Una solicitud de panel ofrece a los usuarios la opción de aplicar filtros perso
 
 1. Haga clic en **Guardar** para aplicar el filtro al tablero.
 
-   <!--
-    1.<span class="preview">To save prompts as default filters, do the following, after you saved the prompt: </span>
-        <div class="preview">
-        1. (Optional) Click the **More** menu ![More menu](assets/more-icon.png), then click **Save as default filter**. 
-            The filter is applied every time the dashboard loads for anyone with View or higher permissions to it. 
-        1. (Conditional) If you access a dashboard with a default filter applied, you can modify the filter and your modifications are saved as a personal preference. The following scenarios exist:
-            * If you have Manage permissions to the dashboard, click **Save as default filter** to save your modifications as a default filter. This replaces the original defaults.
-            * If you have View permissions to the dashboard, your modifications display only for you. Refreshing the page preserves your settings. 
-        1. (Conditional) If you modified the settings of the default filter, click the **More** menu ![More menu](assets/more-icon.png), then **Apply dashboard defaults** to return to the default filter results. 
-        1. (Optional) Click **Reset defaults** to replace the original default settings with your modifications. This option is only available for dashboard managers. 
-        </div> 
-    -->
+
+1. <span class="preview">Para guardar las peticiones de datos como predeterminadas, haga lo siguiente después de guardar la petición de datos: </span>
+
+   <div class="preview">
+
+   1. (Opcional) Haga clic en el menú **Más** ![Menú más](assets/more-icon.png) y, a continuación, haga clic en **Guardar como mensajes predeterminados**.
+
+      El filtro del mensaje se aplica cada vez que se carga el panel para cualquier persona con permisos de Vista o superiores.
+   1. (Condicional) Si accede a un panel con una solicitud predeterminada aplicada, puede modificar el filtro y las modificaciones se guardan como preferencia personal. Se dan los siguientes escenarios:
+
+      * Si tiene permisos de administración en el tablero, haga clic en **Guardar como mensajes predeterminados** para guardar las modificaciones como filtro predeterminado. Esto reemplaza los valores predeterminados originales.
+      * Si tiene permisos de visualización en el panel, las modificaciones solo se mostrarán por usted. Al actualizar la página, se conserva la configuración.
+
+   1. (Condicional) Si ha modificado la configuración de la petición de datos predeterminada, haga clic en el menú **Más** ![Menú más](assets/more-icon.png) y, a continuación, haga clic en **Aplicar valores predeterminados del tablero** para volver a los resultados de filtro predeterminados.
+   1. (Opcional) Haga clic en **Restablecer valores predeterminados** para reemplazar la configuración predeterminada original con las modificaciones. Esta opción solo está disponible para los administradores de tableros.
+
+   </div>
+
 
 1. Continúe con [Parte 3: Aplicar una solicitud de panel](#step-3-apply-a-dashboard-prompt).
 
@@ -204,7 +211,7 @@ Todos los usuarios con acceso a un tablero pueden aplicar una solicitud de table
 
 1. En la esquina superior izquierda de la página de detalles del panel, haga clic en **Filtros**. Se abrirá el panel lateral de filtros.
 
-1. En la sección **Mostrar registros donde...**, elija una condición para uno o todos los mensajes mostrados. Se aplica la solicitud y aparece la etiqueta **Filtros del panel aplicados** en la esquina del widget de informe.
+1. En la sección **Mostrar registros donde...**, elija una condición para uno o todos los mensajes mostrados. Se aplica la solicitud y aparece la etiqueta **Solicitudes del panel aplicadas** en la esquina del widget de informe.
    ![Seleccionar condición](assets/prompts-list.png)
 
 1. Haga clic en el icono **Cerrar** ![Cerrar icono](assets/close-icon.png) en la esquina superior derecha para ocultar el panel.

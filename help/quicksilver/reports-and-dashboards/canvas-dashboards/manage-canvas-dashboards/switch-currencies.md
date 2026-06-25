@@ -6,9 +6,9 @@ description: Puede utilizar los campos de moneda en un panel de lienzo.
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 207c24d3-2b69-4ea3-88d7-716a3cf33dd1
-source-git-commit: 1c9433c854fe481060358caf3d280492ee71aeb6
+source-git-commit: 5610385a6bbbf02965d7ab4a3fecee8e6de5ad91
 workflow-type: tm+mt
-source-wordcount: '551'
+source-wordcount: '677'
 ht-degree: 12%
 
 ---
@@ -25,11 +25,9 @@ ht-degree: 12%
 >* Azure
 >* Google Cloud Platform
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">La información resaltada en esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa para todos los clientes. Después del lanzamiento en Vista previa, las mismas funciones también están disponibles mensualmente en el entorno de producción para los clientes que habilitaron lanzamientos rápidos. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+<span class="preview">Para obtener información sobre las versiones rápidas, consulte [Habilitar o deshabilitar las versiones rápidas para su organización](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 ## Requisitos de acceso
 
@@ -152,13 +150,12 @@ En la tabla siguiente se describen las limitaciones cuando se definen monedas en
 <li>Asigne una moneda predeterminada al tablero (al crearlo o al editarlo)</li>
 <li>Consulte y utilice la opción de moneda de nivel de panel</li>
 <li>Bloquear una moneda específica para verla en un gráfico de lienzo, KPI o informe de tabla</li>
-<li>Usar campos monetarios de Planning en un gráfico de lienzo, KPI e informes de tabla <!--<span class="preview"> in the Production environment. This is available in the Preview environment.</span>--></li>
+<li>Utilice los campos monetarios de Planning en un gráfico de lienzo, KPI e informes de tabla <span class="preview"> en el entorno de producción. Está disponible en el entorno de vista previa.</span></li>
 </ul>
 
-<!--
-<p><b>NOTE</b></p>
-<span class="preview">If a Planning currency field uses a currency without a defined exchange rate, Canvas Dashboard might display an error message when.</span>
--->
+<p><b>NOTA</b></p>
+<span class="preview">Si un campo de divisa de Planning utiliza una divisa sin un tipo de cambio definido, el panel de lienzo podría mostrar un mensaje de error al.</span>
+
 </td> 
 </tr>
 </td> 
@@ -175,12 +172,12 @@ En la tabla siguiente se describen las limitaciones cuando se definen monedas en
 </td>
 <td><ul>
   <li>Usar campos de moneda de datos personalizados en informes de lienzo, KPI y tabla</li>
-  <li>Usar campos monetarios de Planning en un gráfico de lienzo, KPI e informes de tabla <!--<span class="preview"> in the Production environment. This is available in the Preview environment.</span>--></li>
+  <li>Utilice los campos monetarios de Planning en un gráfico de lienzo, KPI e informes de tabla <span class="preview"> en el entorno de producción. Está disponible en el entorno de vista previa.</span></li>
 </ul>
 
-<!--
-<p><b>NOTE</b></p>
-<span class="preview">If a Planning currency field uses a currency without a defined exchange rate, Canvas Dashboard might display an error message when.</span>
--->
+
+<p><b>NOTA</b></p>
+<span class="preview">Si un campo de divisa de Planning utiliza una divisa sin un tipo de cambio definido, el panel de lienzo podría mostrar un mensaje de error al.</span>
+
 </td>
 </tr></table>
