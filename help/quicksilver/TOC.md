@@ -3,9 +3,9 @@ user-guide-title: Guía de Workfront
 user-guide-description: Utilice los siguientes documentos, tutoriales y recursos adicionales para aprender a implementar y utilizar Adobe Workfront de forma eficaz en su organización.
 role: User
 feature-set: Workfront
-source-git-commit: 1c9433c854fe481060358caf3d280492ee71aeb6
+source-git-commit: 5f122486d3d448cfcee066b18fce73c914e47f56
 workflow-type: tm+mt
-source-wordcount: '14214'
+source-wordcount: '14221'
 ht-degree: 94%
 
 ---
@@ -1312,6 +1312,7 @@ ht-degree: 94%
          * [Compartir plantillas de proyecto](manage-work/projects/create-and-manage-templates/share-project-template.md)
          * [Eliminar plantillas de proyecto](manage-work/projects/create-and-manage-templates/delete-templates.md)
          * [Eliminación de información de plantilla de un proyecto](manage-work/projects/create-and-manage-templates/remove-template-from-project.md)
+         * [Adjuntar una tarjeta de tarifa a una plantilla](/help/quicksilver/manage-work/projects/create-and-manage-templates/attach-rate-card-to-template.md)
          * [Información general sobre los días de inicio y finalización de una plantilla](manage-work/projects/create-and-manage-templates/overview-of-start-completion-day-on-template.md)
          * [Información general sobre cómo adjuntar una plantilla a un proyecto](manage-work/projects/create-and-manage-templates/attach-template-to-project-overview.md)
       * Definición de un caso empresarial {#define-business-case}
@@ -2603,7 +2604,7 @@ ht-degree: 94%
       * [Configure y utilice las aplicaciones OAuth 2 personalizadas de la organización mediante el flujo JWT](wf-api/api/oauth-app-jwt-flow.md)
       * [Configure y utilice las aplicaciones OAuth 2 personalizadas de su organización mediante el flujo PKCE](wf-api/api/oauth-app-pkce-flow.md)
       * [Obsolescencia de la API interna](wf-api/api/deprecation-api-internal.md)
-      * [Novedades de la versión 22 de la API](/help/quicksilver/wf-api/api/new-api-version-22.md)
+      * [Novedades de la versión 22](/help/quicksilver/wf-api/api/new-api-version-22.md) de la API
       * [Novedades de la versión 21 de la API](/help/quicksilver/wf-api/api/new-api-version-21.md)
       * [Novedades de la versión 20 de la API](/help/quicksilver/wf-api/api/new-api-version-20.md)
       * [Novedades de la versión 19 de la API](wf-api/api/new-api-version-19.md)
