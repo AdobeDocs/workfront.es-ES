@@ -5,10 +5,10 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8ca50590-ef6a-44b1-a856-9821bdafbc1c
-source-git-commit: b05cd2638ac0d35a0debb862d73dc8bee0cdb794
+source-git-commit: 864c3858a7cbfcc09268b8f0fa10b99509aebb08
 workflow-type: tm+mt
-source-wordcount: '2104'
-ht-degree: 17%
+source-wordcount: '2312'
+ht-degree: 16%
 
 ---
 
@@ -18,7 +18,7 @@ Esta página proporciona información sobre la funcionalidad que se incluye en l
 
 Las mejoras de esta página están disponibles en el entorno de vista previa. Esta página se actualizará con mejoras adicionales a medida que la versión del tercer trimestre de 2026 se aproxime a su versión de producción planificada.
 
-Se celebran seminarios web en directo para cada versión trimestral, en los que se destacan las nuevas funciones y se proporciona información detallada. Para registrarse, visite la [página de eventos](https://experienceleague.adobe.com/es/events?filters=Workfront) y filtre por Workfront.
+Se celebran seminarios web en directo para cada versión trimestral, en los que se destacan las nuevas funciones y se proporciona información detallada. Para registrarse, visite la [página de eventos](https://experienceleague.adobe.com/en/events?filters=Workfront) y filtre por Workfront.
 
 >[!IMPORTANT]
 >
@@ -29,9 +29,10 @@ Se celebran seminarios web en directo para cada versión trimestral, en los que 
 >|----|----|
 >| <ul><li>26.5 (14 de mayo de 2026)</li><li>26.6 (11 de junio de 2026)</li><li>26.7 (15 de julio de 2026)</li></ul> | <ul><li>26.7 (16 de julio de 2026)</li></ul> |
 >
->Tenga en cuenta que, para la versión final de cada trimestre (26,7 este trimestre), los usuarios con la programación de versiones rápidas recibirán la versión un día antes (15 de julio de 2026).
+>* Tenga en cuenta que, para la versión final de cada trimestre (26,7 este trimestre), los usuarios con la programación de versiones rápidas recibirán la versión un día antes (15 de julio de 2026).
 >
->Para obtener más información sobre el proceso de versiones rápidas, consulte [Habilitar o deshabilitar el proceso de versiones rápidas](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).
+>   Para obtener más información sobre el proceso de versiones rápidas, consulte [Habilitar o deshabilitar el proceso de versiones rápidas](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).
+>* En la versión 26.7 (julio de 2026), la última fecha en que las funciones pueden aparecer en el entorno de vista previa es el 7 de julio.
 
 ## Mejoras de Adobe Workfront
 
@@ -48,8 +49,6 @@ Se celebran seminarios web en directo para cada versión trimestral, en los que 
 ### Mejoras de IA
 
 <table>
-    <col style="width: 50%;" />
-    <col style="width: 25%;" />
     <tbody>
         <tr>
             <td><strong>Característica</strong>
@@ -82,8 +81,6 @@ Se celebran seminarios web en directo para cada versión trimestral, en los que 
 ### Mejoras en el administrador
 
 <table>
-    <col style="width: 50%;" />
-    <col style="width: 25%;" />
     <tbody>
         <tr>
             <td><strong>Característica</strong>
@@ -151,8 +148,6 @@ Se celebran seminarios web en directo para cada versión trimestral, en los que 
 ### Mejoras de documentos
 
 <table>
-    <col style="width: 50%;" />
-    <col style="width: 25%;" />
     <tbody>
         <tr>
             <td><strong>Característica</strong>
@@ -160,6 +155,17 @@ Se celebran seminarios web en directo para cada versión trimestral, en los que 
             <td><strong>Vista previa</strong></td>
             <td><strong>Versión rápida</strong></td>
             <td><strong>Trimestralmente</strong></td>
+        <!--
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-documents.md" class="MCXref xref" xrefformat="{para}">Adobe Cloud Drive</a><p>[!BADGE Off schedule]{type=Neutral}</p><p>[!BADGE Workflow Ultimate]{type=Informative}</p>
+                <p>Adobe Cloud Drive is a desktop application that mounts your Adobe cloud storage projects as a drive on your Mac or Windows computer, so you can open, edit, and save files in any application directly from Finder or File Explorer.</p>
+            </td>
+            <td><p>N/A</p></td>
+            <td><p>June 26, 2026</p></td>
+            <td><p>June 26, 2026</p></td>
+        </tr>
+        -->
         <tr>
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-documents.md" class="MCXref xref" xrefformat="{para}">Solicitar aprobación en plantillas de Adobe Express con Workfront y Frame.io</a><p>[!BADGE Off schedule]{type=Neutral}</p>
@@ -211,8 +217,6 @@ Se celebran seminarios web en directo para cada versión trimestral, en los que 
 ### Mejoras de administración financiera
 
 <table>
-    <col style="width: 50%;" />
-    <col style="width: 25%;" />
     <tbody>
         <tr>
             <td><strong>Característica</strong>
@@ -220,6 +224,24 @@ Se celebran seminarios web en directo para cada versión trimestral, en los que 
             <td><strong>Vista previa</strong></td>
             <td><strong>Versión rápida</strong></td>
             <td><strong>Trimestralmente</strong></td>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-financial-management-enhancements.md" class="MCXref xref" xrefformat="{para}">Agregar una tarjeta de tarifa a una plantilla</a><p>[!BADGE Workflow Ultimate]{type=Informative}</p>
+                <p>Ahora puede seleccionar una tarjeta de tasa para agregarla a una plantilla, que luego se adjuntará automáticamente a todos los proyectos creados a partir de la plantilla. La tarjeta de tarifa se convierte en la predeterminada en el proyecto, pero se puede anular si es necesario.</p>
+            </td>
+            <td><p>25 de junio de 2026</p></td>
+            <td><p>15 de julio de 2026</p></td>
+            <td><p>16 de julio de 2026</p></td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-financial-management-enhancements.md" class="MCXref xref" xrefformat="{para}">Agregar tarifas de facturación entre las tarifas existentes en una tarjeta de tarifas</a><p>[!BADGE Workflow Ultimate]{type=Informative}</p>
+                <p>Ahora puede ajustar la lista de tarifas de facturación con fecha efectiva en una tarjeta de tarifas más rápidamente, agregando una nueva tarifa en un lugar específico de la lista. Seleccione el menú <b>Más</b> junto a una tarifa existente para insertar una fila por encima o por debajo de esa tarifa.</p>
+            </td>
+            <td><p>25 de junio de 2026</p></td>
+            <td><p>15 de julio de 2026</p></td>
+            <td><p>16 de julio de 2026</p></td>
+        </tr>
         <tr>
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-financial-management-enhancements.md" class="MCXref xref" xrefformat="{para}">Los atributos de tarifa no se pueden editar una vez que se usan en las tarifas</a><p>[!BADGE Off schedule]{type=Neutral}</p><p>[!BADGE Workflow Ultimate]{type=Informative}</p>
@@ -235,8 +257,6 @@ Se celebran seminarios web en directo para cada versión trimestral, en los que 
 ### Mejoras en el Inicio
 
 <table>
-    <col style="width: 50%;" />
-    <col style="width: 25%;" />
     <tbody>
         <tr>
             <td><strong>Característica</strong>
@@ -261,8 +281,6 @@ Se celebran seminarios web en directo para cada versión trimestral, en los que 
 ### Mejoras en el proyecto
 
 <table>
-    <col style="width: 50%;" />
-    <col style="width: 25%;" />
     <tbody>
         <tr>
             <td><strong>Característica</strong>
@@ -295,8 +313,6 @@ Se celebran seminarios web en directo para cada versión trimestral, en los que 
 ### Mejoras en la creación de informes
 
 <table>
-    <col style="width: 50%;" />
-    <col style="width: 25%;" />
     <tbody>
         <tr>
             <td><strong>Característica</strong>
@@ -304,6 +320,15 @@ Se celebran seminarios web en directo para cada versión trimestral, en los que 
             <td><strong>Vista previa</strong></td>
             <td><strong>Versión rápida</strong></td>
             <td><strong>Trimestralmente</strong></td>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-reports.md" class="MCXref xref" xrefformat="{para}">Valores predeterminados de solicitud del panel de lienzo y persistencia de preferencias de usuario</a>
+                <p>Los administradores de paneles ahora pueden definir valores de solicitud predeterminados para los paneles de lienzo, aplicados automáticamente a todos los visualizadores. Cuando un usuario actualiza las solicitudes, sus selecciones se guardan y se restauran al actualizar, volver a abrir o después de navegar a un registro y volver.</p>
+            </td>
+            <td><p>25 de junio de 2026</p></td>
+            <td><p>15 de julio de 2026</p></td>
+            <td><p>16 de julio de 2026</p></td>
+        </tr>
         <tr>
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-reports.md" class="MCXref xref" xrefformat="{para}">Agregar varios intervalos de direcciones IP de Power BI a la lista de permitidos de Data Connect a la vez</a> <p>[!BADGE Off schedule]{type=Neutral}
@@ -355,8 +380,6 @@ Se celebran seminarios web en directo para cada versión trimestral, en los que 
 ### Solicitudes de mejoras
 
 <table>
-    <col style="width: 50%;" />
-    <col style="width: 25%;" />
     <tbody>
         <tr>
             <td><strong>Característica</strong>
@@ -388,8 +411,6 @@ Se celebran seminarios web en directo para cada versión trimestral, en los que 
 ### Otras mejoras
 
 <table>
-    <col style="width: 50%;" />
-    <col style="width: 25%;" />
     <tbody>
         <tr>
             <td><strong>Característica</strong>
@@ -491,7 +512,7 @@ Para obtener más información, consulte [Introducción a la versión de prueba 
 
 ### Workfront Maintenance Updates
 
-For information about the maintenance updates made during the Third Quarter 2026 release, see [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=es).
+For information about the maintenance updates made during the Third Quarter 2026 release, see [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 -->
 

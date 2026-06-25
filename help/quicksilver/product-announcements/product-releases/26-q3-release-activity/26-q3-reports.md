@@ -4,9 +4,9 @@ description: Mejoras en los informes del tercer trimestre de 2026
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: a678a987703240680368b34c4095637b59a8bb60
+source-git-commit: c1ffa06ddca88f8679cf3886ce5c90f69984f30b
 workflow-type: tm+mt
-source-wordcount: '623'
+source-wordcount: '743'
 ht-degree: 1%
 
 ---
@@ -16,6 +16,22 @@ ht-degree: 1%
 Esta página describe las mejoras de los informes realizadas con la versión del tercer trimestre de 2026 en el entorno de vista previa. Estas mejoras estarán disponibles en el entorno de producción, como se ha indicado.
 
 Para obtener una lista de todos los cambios disponibles en este punto del ciclo de la versión del tercer trimestre de 2026, consulte [Información general de la versión del tercer trimestre de 2026](/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-release-overview.md).
+
+## Valores predeterminados de solicitud de panel de lienzo y persistencia de preferencias de usuario
+
+>[!NOTE]
+>
+>Vista previa: 25 de junio de 2026>Versión rápida de producción: 15 de julio de 2026>Producción para todos: 16 de julio de 2026
+
+Para mejorar la eficacia de los usuarios que se desplazan entre paneles y registros preservando su estado de filtro de trabajo, los administradores de paneles ahora pueden definir valores de solicitud predeterminados para los paneles de lienzo. Estos valores predeterminados se aplican automáticamente a todos los visualizadores de tableros.
+
+Cuando un usuario actualiza las solicitudes, sus selecciones se guardan y se restauran al actualizar, volver a abrir o después de navegar a un registro y volver.
+
+Los administradores pueden restablecer el estado predeterminado del tablero en cualquier momento. Los usuarios también pueden volver rápidamente a los valores predeterminados mediante el menú de tres puntos.
+
+Antes de esta mejora, las solicitudes del panel no tenían una preferencia de usuario predeterminada configurable o guardada para el estado de la solicitud.
+
+Para obtener más información, consulte [Filtrar un panel de lienzo](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/filter-canvas-dashboard.md).
 
 ## Añadir varios intervalos de direcciones IP de Power BI a la lista de permitidos de Data Connect a la vez
 
