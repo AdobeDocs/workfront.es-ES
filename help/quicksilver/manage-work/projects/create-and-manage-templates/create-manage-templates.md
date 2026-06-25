@@ -17,9 +17,9 @@ subfeature_v2:
   - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 0ae6286f0c76f638358839603fba1301d5557d83
 workflow-type: tm+mt
-source-wordcount: 126
+source-wordcount: 133
 ht-degree: 42%
 
 ---
@@ -43,4 +43,5 @@ Puede utilizar plantillas de proyecto para capturar la mayoría de los procesos,
 * [Compartir plantillas de proyecto](../../../manage-work/projects/create-and-manage-templates/share-project-template.md)
 * [Quitar información de plantilla de un proyecto](../../../manage-work/projects/create-and-manage-templates/remove-template-from-project.md)
 * [Eliminar plantillas de proyecto](../../../manage-work/projects/create-and-manage-templates/delete-templates.md)
+* [Adjuntar una tarjeta de tarifa a una plantilla](/help/quicksilver/manage-work/projects/create-and-manage-templates/attach-rate-card-to-template.md)
 * [Información general sobre los días de inicio y finalización de una plantilla](../../../manage-work/projects/create-and-manage-templates/overview-of-start-completion-day-on-template.md)
