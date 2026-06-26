@@ -9,18 +9,13 @@ exl-id: 156e9d3f-49f6-4372-9749-c7124ff5baee
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/SRUCt-lfcaIOPghpl2PfbbSMO4oMy4E1hfS7NensXL8
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: f465ac03e0ff91216d1ef934a1696127796645ba
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 871bb92456f95b7f70072a072971b5114ad02890
 workflow-type: tm+mt
-source-wordcount: 1057
+source-wordcount: 1194
 ht-degree: 12%
 
 ---
@@ -29,9 +24,7 @@ ht-degree: 12%
 
 >[!IMPORTANT]
 >
->Actualmente, la función Paneles de lienzo solo está disponible para los usuarios que participan en la fase beta. Es posible que algunas partes de la función no estén completas o que no funcionen según lo previsto durante esta fase. Envíe cualquier comentario sobre su experiencia siguiendo las instrucciones de la sección [Proporcionar comentarios](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) del artículo Información general sobre la versión beta de los paneles de lienzo.<br>
->Si tiene comentarios acerca de un posible error o problema técnico, envíe un ticket al equipo de asistencia de Workfront. Para obtener más información, consulte [Póngase en contacto con Atención al cliente](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>
->Tenga en cuenta que esta versión beta no está disponible en los siguientes proveedores de la nube:
+>Actualmente, la función Paneles de lienzo solo está disponible para los usuarios que participan en la fase beta. Es posible que algunas partes de la función no estén completas o que no funcionen según lo previsto durante esta fase. Envíe cualquier comentario sobre su experiencia siguiendo las instrucciones de la sección [Proporcionar comentarios](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) del artículo Información general sobre la versión beta de los paneles de lienzo.Si tiene comentarios acerca de un posible error o problema técnico, envíe un ticket al equipo de asistencia de Workfront. Para obtener más información, consulte [Contacto con el servicio de asistencia al cliente](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).Tenga en cuenta que esta versión beta no está disponible en los siguientes proveedores de la nube:
 >
 >* Traer su propia clave para Amazon Web Service
 >* Azure
@@ -186,6 +179,11 @@ Una solicitud de panel ofrece a los usuarios la opción de aplicar filtros perso
    1. (Opcional) Haga clic en el menú **Más** ![Menú más](assets/more-icon.png) y, a continuación, haga clic en **Guardar como mensajes predeterminados**.
 
       El filtro del mensaje se aplica cada vez que se carga el panel para cualquier persona con permisos de Vista o superiores.
+
+      >[!TIP]
+      >
+      >Si no ha creado el mensaje y no tiene acceso a sus campos, no se mostrarán los nombres de campo. Modifique el indicador para rellenar el informe.
+
    1. (Condicional) Si accede a un panel con una solicitud predeterminada aplicada, puede modificar el filtro y las modificaciones se guardan como preferencia personal. Se dan los siguientes escenarios:
 
       * Si tiene permisos de administración en el tablero, haga clic en **Guardar como mensajes predeterminados** para guardar las modificaciones como filtro predeterminado. Esto reemplaza los valores predeterminados originales.
@@ -211,8 +209,7 @@ Todos los usuarios con acceso a un tablero pueden aplicar una solicitud de table
 
 1. En la esquina superior izquierda de la página de detalles del panel, haga clic en **Filtros**. Se abrirá el panel lateral de filtros.
 
-1. En la sección **Mostrar registros donde...**, elija una condición para uno o todos los mensajes mostrados. Se aplica la solicitud y aparece la etiqueta **Solicitudes del panel aplicadas** en la esquina del widget de informe.
-   ![Seleccionar condición](assets/prompts-list.png)
+1. En la sección **Mostrar registros donde...**, elija una condición para uno o todos los mensajes mostrados. Se aplica la solicitud y aparece la etiqueta **Solicitudes del panel aplicadas** en la esquina del widget de informe.   ![Seleccionar condición](assets/prompts-list.png)
 
 1. Haga clic en el icono **Cerrar** ![Cerrar icono](assets/close-icon.png) en la esquina superior derecha para ocultar el panel.
 
