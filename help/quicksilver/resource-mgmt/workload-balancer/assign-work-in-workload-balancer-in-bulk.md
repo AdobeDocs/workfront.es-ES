@@ -7,22 +7,15 @@ author: Lisa
 feature: Resource Management
 exl-id: fb0f80d3-7da4-4f5f-857d-3fb518ba12e2
 TQID: https://experienceleague.adobe.com/6QlIfRh94tpLTZF6x5LU2BueTjShzNsaKxb45CEylqA
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
-subfeature_v2:
-  - id: c33d85a1-be85-4290-854c-87408c10aa80
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2: id: c33d85a1-be85-4290-854c-87408c10aa80
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 85a374c5168c613625ce154a486aa655c367dfea
 workflow-type: tm+mt
-source-wordcount: 1536
-ht-degree: 94%
+source-wordcount: 1242
+ht-degree: 65%
 
 ---
 
@@ -75,17 +68,16 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
 
 ## Consideraciones a la hora de realizar asignaciones masivas en el Distribuidor de cargas de trabajo
 
-* Puede administrar rápidamente las asignaciones de usuarios para varias tareas y problemas en uno o varios proyectos. Los cambios en las asignaciones se pueden ver inmediatamente en el Distribuidor de cargas de trabajo.
+* Puede administrar rápidamente asignaciones de recursos para varias tareas y problemas en uno o varios proyectos. Los cambios en las asignaciones se pueden ver inmediatamente en el Distribuidor de cargas de trabajo.
 * No puede asignar recursos a elementos de trabajo que se hayan completado ni a elementos que se encuentren en un proyecto completado.
-* Al asignar usuarios de forma masiva, puede hacer lo siguiente:
+* Al asignar roles de trabajo y usuarios de forma masiva, puede hacer lo siguiente:
 
-   * Asignar un usuario a todos los elementos de trabajo asignados actualmente a una función.
-   * Reemplazar asignaciones de usuarios entre usuarios.
+   * Reemplace las asignaciones entre usuarios y funciones en todas las combinaciones válidas.
    * Anular la asignación de un usuario a todos sus elementos de trabajo.
 
 **EJEMPLOS**
 
-* La realización de asignaciones de usuarios en varios proyectos nuevos es responsabilidad suya. Los proyectos se han creado originalmente a partir de plantillas y las funciones ya están asignadas a las distintas tareas de los proyectos. Por ejemplo, desea asignar una usuaria específica, María López, a todas las tareas actualmente asignadas a una función. Puede utilizar la función Asignar para asignar estas tareas a María López.
+* La realización de asignaciones de usuarios en varios proyectos nuevos es responsabilidad suya. Los proyectos se han creado originalmente a partir de plantillas y las funciones ya están asignadas a las distintas tareas de los proyectos. Por ejemplo, desea asignar una usuaria específica, María López, a todas las tareas actualmente asignadas a una función. Puede utilizar la función Reemplazar para asignar estas tareas a Jackie Simms.
 * Se asignan 45 tareas de 3 proyectos diferentes a María López. María deja la organización y ahora debe reasignar sus tareas a otro usuario. Puede utilizar la función Reemplazar para asignar estas tareas a la nueva persona.
 * Se asignan 10 tareas de 2 proyectos diferentes a otro usuario, Juan García. Advierte que a Juan se le asignaron estas tareas por error, pero no tiene la certidumbre de a quién deben asignarse en este momento. Tiene que anular la asignación de Juan a todas las tareas al mismo tiempo. Puede utilizar la función Anular asignación para quitar a Juan de estas tareas.
 
@@ -108,7 +100,7 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
    >
    >El nombre del proyecto está seleccionado de forma predeterminada al acceder al Distribuidor de cargas de trabajo de un proyecto.
 
-   ![Nombre de proyecto en asignaciones masivas](assets/project-name-status-dropdown-bulk-assignments-wb-nwe-350x133.png)
+   ![Nombre de proyecto en asignaciones masivas](assets/project-name-status-dropdown-bulk-assignments-wb.png)
 
 1. (Opcional) Haga clic en **Seleccionar tareas de proyecto** para seleccionar la tarea o tareas para las que desea realizar asignaciones y, a continuación, en el menú desplegable **Tarea: Nombre**, seleccione tareas por Nombre (esta es la opción predeterminada) o Estado y utilice los modificadores de filtro para buscar tareas específicas.
 
@@ -118,7 +110,7 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
    >
    >No puede seleccionar tareas en estado Completo.
 
-   ![Estado de la tarea en asignaciones masivas](assets/task-name-status-dropdown-bulk-assignments-wb-nwe-350x102.png)
+   ![Estado de la tarea en asignaciones masivas](assets/task-name-status-dropdown-bulk-assignments-wb.png)
 
    >[!TIP]
    >
@@ -132,94 +124,101 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
 
 1. Seleccione una de las siguientes opciones y continúe con los pasos que se describen a continuación:
 
-   * [Asignar usuario](#assign-user)
-   * [Reemplazar usuario](#replace-user)
-   * [Quitar asignación de usuario](#unassign-user)
+   * [Reemplazar recurso](#replace-user)
+   * [Anular asignación del recurso](#unassign-user)
 
    >[!TIP]
    >
    >Si ningún elemento coincide con los filtros seleccionados, estas opciones aparecen atenuadas.
 
-### Asignar usuario {#assign-user}
+<!--
 
-Cuando asigna un usuario mediante Asignaciones masivas en el Distribuidor de cargas de trabajo, sucede lo siguiente:
+### Assign user {#assign-user}
 
-* Un usuario está asignado a todos los elementos de trabajo asignados actualmente a una función especificada dentro de los proyectos seleccionados.
-* El usuario no está asignado a los siguientes tipos de elementos de trabajo:
+When you assign a user using Bulk Assignments in the Workload Balancer, the following things occur:
 
-   * Elementos que ya se han asignado a un usuario.
-   * Elementos completados.
+* A user is assigned to all work items currently assigned to a specified role within the selected projects.
+* The user is not assigned to the following types of work items:
 
-* Si el usuario seleccionado no está asociado con la función especificada, la función será reemplazada por el usuario en la Función principal del usuario.
+   * Items that are already assigned to a user.
+   * Completed items.
 
-Para asignar un usuario a elementos de trabajo previamente asignados a funciones:
+* If the user you selected is not associated with the specified role, the role is replaced by the user in the user's Primary Role.
 
-1. Comience a asignar elementos de trabajo mediante asignaciones masivas en el Distribuidor de cargas de trabajo como se ha descrito anteriormente y seleccione **Asignar**.
+To assign a user to work items previously assigned to job roles:
 
-1. En el campo **Asignación de funciones**, haga clic en la flecha desplegable para elegir entre una lista de funciones. Solo se muestran las funciones asignadas actualmente en los proyectos especificados. Este campo es obligatorio.
+1. Start assigning work items using Bulk Assignments in the Workload Balancer as described above and select **Assign**. 
 
-   ![Asignación de funciones](assets/bulk-assignments-workload-balancer-assign-selected.png)
+1. In the **Role assignment** field, click the drop-down arrow to choose from a list of roles. Only roles currently assigned within the specified projects are displayed. This is a required field. 
 
-1. En el campo **Usuario para asignar**, haga clic en la flecha desplegable para elegir de una lista de usuarios sugeridos o para escribir el nombre de otro usuario.
+   ![Role assignment](assets/bulk-assignments-workload-balancer-assign-selected.png)
 
-   Seleccione los usuarios de las siguientes áreas:
+1. In the **User to assign** field, click the drop-down arrow to choose from a list of suggested users or to type another user's name.
 
-   * **Asignaciones sugeridas**: usuarios que pueden cumplir la función seleccionada y que coinciden con los criterios de Asignaciones inteligentes. Para más información, consulte [Información general de las asignaciones inteligentes](../../manage-work/tasks/assign-tasks/smart-assignments.md).
-   * **Otras asignaciones**: todos los usuarios del sistema que pueden cumplir la función seleccionada.
+   Select users from the following areas:
 
-     >[!TIP]
-     >
-     >Solo los 50 primeros usuarios aparecen en el área Otras asignaciones.
+   * **Suggested Assignments**: Users who can fulfill the selected role and who match the criteria for Smart Assignments. For more information, see [Smart assignments overview](../../manage-work/tasks/assign-tasks/smart-assignments.md).
+   * **Other Assignments**: All users in the system who can fulfill the selected role. 
+   
+      >[!TIP]
+      >
+      >Only the first 50 users are listed in the Other Assignments area.
 
 
-   Después de seleccionar un usuario, Workfront muestra una nota sobre el número de elementos donde se asignará al usuario especificado y la función que reemplazará.
+   After selecting a user, Workfront displays a note about the number of items where the user you specified will be assigned and what job role they will replace.
 
    >[!TIP]
    >
-   >Todos los roles del usuario se muestran en la lista, bajo el nombre del usuario.
+   >All the roles of the user display in the list, under the user's name.
 
 
-1. Haga clic en **Asignar**.
+1. Click **Assign**.
 
-   Las funciones especificadas se reemplazarán por los usuarios seleccionados.
+   The specified roles are replaced with the users that you selected.
 
-   Recibirá una confirmación sobre cuántos elementos de trabajo han reemplazado la función seleccionada con el usuario seleccionado.
+   You receive a confirmation about how many work items have had the selected role replaced with the selected user.
 
-   ![Confirmación de asignación masiva](assets/bulk-assign-user-confirmation-before-assigning-nwe-350x83.png)
+   ![Bulk assignment confirmation](assets/bulk-assign-user-confirmation-before-assigning-nwe-350x83.png)
 
-### Reemplazar usuario {#replace-user}
+-->
 
-Puede reemplazar a un usuario que ya esté asignado a elementos de trabajo con otro usuario en los proyectos seleccionados.
+### Reemplazar recurso {#replace-user}
 
-Cuando reemplaza un usuario por otro con Asignaciones masivas en el Distribuidor de cargas de trabajo, sucede lo siguiente:
+Puede reemplazar un recurso que ya esté asignado a elementos de trabajo con otro recurso en los proyectos seleccionados.
 
-* El usuario de reemplazo se asigna a todos los elementos de trabajo que estén asignados a un usuario original dentro de los proyectos seleccionados.
+La sustitución de recursos puede ser:
 
-* El nuevo usuario no está asignado a ningún elemento de trabajo que ya esté marcado como Completado.
-* Si la función asociada al primer usuario no coincide con ninguna de las funciones del segundo usuario, se asigna al segundo usuario en su función principal.
+* Rol con rol
+* Usuario con usuario
+* Usuario con rol
+* Función con el usuario
 
-Para reemplazar a un usuario por otro:
+Cuando reemplaza un recurso por otro mediante Asignaciones masivas en el Distribuidor de cargas de trabajo, se producen los siguientes problemas:
 
-1. Empiece a asignar elementos de trabajo en el Distribuidor de cargas de trabajo como se describe más arriba y seleccione **Reemplazar**.
-1. En el campo **Usuario asignado actualmente**, haga clic en la flecha desplegable para elegir uno de una lista de usuarios. Solo se muestran los usuarios asignados actualmente a elementos de trabajo incompletos dentro de los proyectos especificados. Este campo es obligatorio.
+* El recurso de reemplazo se asigna a todos los elementos de trabajo asignados actualmente al recurso original dentro de los proyectos seleccionados.
+* El nuevo recurso no está asignado a ningún elemento de trabajo que ya esté marcado como Completado.
+* Para el reemplazo de usuario a usuario, si la función asociada con el primer usuario no coincide con ninguna de las funciones del segundo usuario, el segundo usuario se asigna en su función principal.
 
-   ![Reemplazar usuario](assets/bulk-assignments-workload-balancer-replace-selected-350x345.png)
+Para reemplazar un recurso por otro:
 
-1. En el campo **Usuario para asignar**, haga clic en la flecha desplegable para elegir uno de una lista de usuarios sugeridos o para escribir otro nombre de usuario. Los usuarios enumerados en la lista coinciden de forma predeterminada con los criterios de Asignaciones inteligentes. Para obtener más información, consulte [Información general sobre las asignaciones inteligentes](../../manage-work/tasks/assign-tasks/smart-assignments.md).
+1. Seleccione elementos de trabajo en el área Asignaciones masivas del Distribuidor de cargas de trabajo como se ha descrito anteriormente y seleccione **Reemplazar recurso**.
+1. En el campo **Recurso asignado actualmente**, haga clic en la flecha desplegable para elegir de una lista de recursos. Solo se muestran los recursos asignados actualmente a elementos de trabajo incompletos dentro de los proyectos especificados. Este campo es obligatorio.
 
-   Workfront muestra una nota sobre el número de elementos en los que el usuario asignado actualmente reemplazará al segundo usuario y las funciones a las que reemplazará.
+   ![Reemplazar recurso](assets/bulk-assignments-workload-balancer-replace-selected.png)
 
-   ![Confirmación de usuario de reemplazo masivo](assets/bulk-replace-user-confirmation-before-replacing-nwe-350x49.png)
+1. En el campo **Recurso que asignar**, haga clic en la flecha desplegable para elegir entre una lista de recursos sugeridos o para escribir otro rol o nombre de usuario. Los recursos que aparecen primero de forma predeterminada coinciden con los criterios de Asignaciones inteligentes. Para obtener más información, consulte [Información general sobre las asignaciones inteligentes](../../manage-work/tasks/assign-tasks/smart-assignments.md).
+
+   Workfront muestra una nota sobre el número de elementos donde el recurso asignado actualmente reemplazará al segundo recurso.
 
 1. Haga clic en **Reemplazar**.
 
-   El primer usuario seleccionado se reemplaza por el segundo usuario en todos los elementos de trabajo del proyecto seleccionado.
+   El primer recurso se reemplaza por el segundo recurso en todos los elementos de trabajo del proyecto o tarea seleccionados.
 
-   Recibirá una confirmación de cuántos elementos de trabajo se han reemplazado en la asignación de usuario original por el segundo usuario seleccionado.
+   Recibirá una confirmación de cuántos elementos de trabajo se han reemplazado la asignación original por el segundo recurso seleccionado.
 
-### Quitar asignación de usuario {#unassign-user}
+### Anular asignación del recurso {#unassign-user}
 
-Se puede anular la asignación de un usuario a todos los elementos de trabajo a los que esté asignado en los proyectos seleccionados.
+Puede anular la asignación de un recurso de todos los elementos de trabajo a los que esté asignado en los proyectos seleccionados.
 
 Cuando se anula la asignación de un usuario a todas sus asignaciones mediante asignaciones masivas en el Distribuidor de cargas de trabajo, se producen los siguientes problemas:
 
@@ -232,15 +231,13 @@ Para obtener más información sobre las asignaciones y funciones de usuarios, c
 
 Para anular la asignación de un usuario a elementos de trabajo en los proyectos seleccionados o a tareas o problemas seleccionados donde se hayan asignado:
 
-1. Empiece a asignar elementos de trabajo en el Distribuidor de cargas de trabajo como se ha descrito anteriormente y seleccione **Anular asignación**.
+1. Seleccione elementos de trabajo en el área Asignaciones masivas del Distribuidor de cargas de trabajo como se ha descrito anteriormente y seleccione **Anular asignación de recursos**.
 
 1. En el campo **Usuario para anular la asignación**, haga clic en la flecha desplegable para elegir uno de una lista de usuarios. Solo se muestran los usuarios asignados actualmente a elementos de trabajo incompletos dentro de los proyectos especificados. Este campo es obligatorio.
 
-   ![Quitar la asignación del usuario](assets/bulk-assignments-workload-balancer-unassign-selected-350x318.png)
+   ![Quitar la asignación del usuario](assets/bulk-assignments-workload-balancer-unassign-selected.png)
 
    Workfront muestra una nota sobre el número de elementos para los que se anulará la asignación del usuario asignado actualmente.
-
-   ![Confirmación de anulación de asignación masiva](assets/bulk-unassign-user-confirmation-before-assigning-nwe-350x45.png)
 
 1. Haga clic en **Anular asignación**.\
    Recibirá una confirmación sobre el número de elementos de trabajo para los que se eliminó el usuario especificado.
