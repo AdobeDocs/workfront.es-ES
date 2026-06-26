@@ -6,7 +6,7 @@ description: Puede utilizar los campos de moneda en un panel de lienzo.
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 207c24d3-2b69-4ea3-88d7-716a3cf33dd1
-source-git-commit: 2b7812d275fd2c5bf0fff8bcd60ca89bafa22def
+source-git-commit: f465ac03e0ff91216d1ef934a1696127796645ba
 workflow-type: tm+mt
 source-wordcount: '677'
 ht-degree: 12%
@@ -182,3 +182,4 @@ En la tabla siguiente se describen las limitaciones cuando se definen monedas en
 
 </td>
 </tr></table>
+

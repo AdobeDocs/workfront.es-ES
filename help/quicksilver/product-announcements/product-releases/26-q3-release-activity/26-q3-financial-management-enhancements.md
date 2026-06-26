@@ -4,7 +4,7 @@ description: Mejoras de Financial Management del tercer trimestre de 2026
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: e1a56c9dee403c1f0c28d2bf49d4becbaad5d085
+source-git-commit: f465ac03e0ff91216d1ef934a1696127796645ba
 workflow-type: tm+mt
 source-wordcount: '272'
 ht-degree: 4%
@@ -48,3 +48,4 @@ Para obtener más información, consulte [Administrar tarjetas de tarifas](/help
 Una vez que se añade un atributo a una tasa en Workfront, ya no se puede editar ese atributo y sus filtros en el área de Configuración. Esto preserva la integridad de los datos y evita que las tasas se cambien accidentalmente cuando se actualizan los atributos.
 
 Para obtener más información, vea [Definir atributos de tasa](/help/quicksilver/administration-and-setup/manage-enterprise-operations/define-rate-attributes.md).
+
