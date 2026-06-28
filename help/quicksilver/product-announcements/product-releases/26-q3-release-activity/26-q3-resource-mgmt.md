@@ -21,7 +21,7 @@ Para obtener una lista de todos los cambios disponibles en este punto del ciclo 
 
 >[!NOTE]
 >
->Vista previa: 19 de junio de 2026Versión rápida de producción: 19 de junio de 2026Producción para todos: 19 de junio de 2026Fuera del horario]{type=Neutral}
+>Vista previa: 19 de junio de 2026Versión rápida de producción: 19 de junio de 2026Producción para todos: 19 de junio de 2026Fuera del horario&rbrack;{type=Neutral}
 
 Las asignaciones masivas se han optimizado en el Distribuidor de cargas de trabajo, con las acciones de asignar usuarios y reemplazar usuarios combinadas en la acción **Reemplazar recurso**.
 
