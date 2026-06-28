@@ -4,7 +4,7 @@ description: Mejoras en la administración de recursos del tercer trimestre de 2
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 4008f50a332371ac468cc8abb79b4e7a24541067
+source-git-commit: 73c78912e15a03bfd09c127e39d94bf5af42b8e2
 workflow-type: tm+mt
 source-wordcount: '151'
 ht-degree: 10%
@@ -21,7 +21,7 @@ Para obtener una lista de todos los cambios disponibles en este punto del ciclo 
 
 >[!NOTE]
 >
->Vista previa: 19 de junio de 2026Versión rápida de producción: 19 de junio de 2026Producción para todos: 19 de junio de 2026Fuera del horario&rbrack;{type=Neutral}
+>Vista previa: 19 de junio de 2026Versión rápida de producción: 19 de junio de 2026Producción para todos: 19 de junio de 2026Fuera del horario]{type=Neutral}
 
 Las asignaciones masivas se han optimizado en el Distribuidor de cargas de trabajo, con las acciones de asignar usuarios y reemplazar usuarios combinadas en la acción **Reemplazar recurso**.
 
@@ -33,5 +33,6 @@ Con **Reemplazar recurso**, puede reemplazar:
 * Función con el usuario
 
 Para obtener más información, consulte [Asignar trabajo de forma masiva mediante el Distribuidor de cargas de trabajo](/help/quicksilver/resource-mgmt/workload-balancer/assign-work-in-workload-balancer-in-bulk.md).
+
 
 

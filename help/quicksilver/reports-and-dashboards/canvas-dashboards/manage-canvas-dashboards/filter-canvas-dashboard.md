@@ -9,16 +9,11 @@ exl-id: 156e9d3f-49f6-4372-9749-c7124ff5baee
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/SRUCt-lfcaIOPghpl2PfbbSMO4oMy4E1hfS7NensXL8
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 871bb92456f95b7f70072a072971b5114ad02890
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 73c78912e15a03bfd09c127e39d94bf5af42b8e2
 workflow-type: tm+mt
 source-wordcount: 1194
 ht-degree: 12%
@@ -217,6 +212,7 @@ Todos los usuarios con acceso a un tablero pueden aplicar una solicitud de table
 1. En la sección **Mostrar registros donde...**, elija una condición para uno o todos los mensajes mostrados. Se aplica la solicitud y aparece la etiqueta **Solicitudes del panel aplicadas** en la esquina del widget de informe.   ![Seleccionar condición](assets/prompts-list.png)
 
 1. Haga clic en el icono **Cerrar** ![Cerrar icono](assets/close-icon.png) en la esquina superior derecha para ocultar el panel.
+
 
 
 
