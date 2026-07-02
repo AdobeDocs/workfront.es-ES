@@ -2,19 +2,19 @@
 content-type: overview
 product-area: documents
 navigation-topic: proofing-overview
-title: Resumen de fases del flujo de trabajo automatizado
+title: Información general sobre las fases del flujo de trabajo automatizado
 description: Las fases de prueba son segmentos de tiempo en los que diferentes usuarios revisan una prueba. A medida que la prueba pasa de un paso al siguiente, Adobe Workfront notifica a los revisores que les indiquen cuándo es el momento de trabajar en ella.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: a03d2cf2-edb3-43b7-a739-32600f2ae2a0
 source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
 workflow-type: tm+mt
-source-wordcount: '403'
-ht-degree: 0%
+source-wordcount: '404'
+ht-degree: 1%
 
 ---
 
-# Resumen de fases del flujo de trabajo automatizado
+# Información general sobre las fases del flujo de trabajo automatizado
 
 Las fases de prueba son segmentos de tiempo en los que diferentes usuarios revisan una prueba. A medida que la prueba pasa de un paso al siguiente, Adobe Workfront notifica a los revisores que les indiquen cuándo es el momento de trabajar en ella.
 
@@ -49,8 +49,8 @@ Al asignar diferentes fechas límites de revisión a los revisores en una prueba
 
 **Ejemplo:** Por ejemplo, si crea una prueba con cuatro revisores:
 
-* Para los revisores Olivia y Tony, especifique un plazo para las 14:00 en unos días a partir de ahora.
-* Para Aaron y Amy, especifique un plazo para las 17:00 unos días después.
+* Para los revisores Olivia y Tony, debe especificar un plazo de 14:00 en unos días a partir de ahora.
+* Para Aaron y Amy, se especifica un plazo para 17:00 unos días después.
 * No especificas una fecha límite para ti mismo.
 
 El sistema crea una fase para cada uno de estos tres &quot;grupos&quot; de revisores:
