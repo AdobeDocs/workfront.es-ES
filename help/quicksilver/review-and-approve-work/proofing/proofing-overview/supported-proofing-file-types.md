@@ -9,8 +9,8 @@ feature: Digital Content and Documents
 exl-id: 647edda3-de52-4bb9-b202-36c5cf832fb0
 source-git-commit: e9fd96e32cabb1a99bb2170261577ec05c35ff6f
 workflow-type: tm+mt
-source-wordcount: '1102'
-ht-degree: 94%
+source-wordcount: '1138'
+ht-degree: 100%
 
 ---
 
@@ -49,7 +49,7 @@ Workfront tiene los límites siguientes:
 > * PPSX: presentación de diapositivas de Microsoft PowerPoint
 > * XLT: plantilla de Microsoft Excel
 > * XLTX: plantilla de Microsoft Excel
-> * EPS: Encapsulated PostScript
+> * EPS: PostScript encapsulado
 
 * ABC: LEAD Advanced Bitonal Compression
 * ABIC: Adaptive Bi-level Image Compression
@@ -111,7 +111,7 @@ Workfront tiene los límites siguientes:
 * MAC - MacPaint
 * MIF - MapInfo Interchange
 * MNG - Multiple Network Graphic
-* MO:DCA - Objeto mixto: arquitectura de contenido de documento
+* MO:DCA (Mixed Object): arquitectura del contenido documental
 * MSP - Microsoft Paint
 * MRC: LEAD Mixed Raster Content
 * MRC - T.44 Mixed Raster Content
@@ -133,13 +133,13 @@ Workfront tiene los límites siguientes:
 * PNM: Portable Bitmap Utilities
 * PPM: Portable Bitmap Utilities
 * PPT: PowerPoint Presentation
-* PPTX - Presentación de PowerPoint 2007
+* PPTX: presentación de PowerPoint 2007
 
   >[!NOTE]
   >
-  >Hay un problema conocido con los archivos de presentación de PowerPoint que no se pueden cargar en este momento. Si experimenta este problema, convierta el archivo a PDF y cargue el PDF en su lugar. Para obtener más información, consulte [Pruebas: no se puede generar una prueba a partir de un archivo de PowerPoint](https://experienceleague.adobe.com/es/docs/workfront-known-issues/issues/new-workfront-experience/wf-current/wf-proofs-cannot-generate-from-pptx).
+  >Hay un problema conocido con los archivos de la presentación de PowerPoint, no se pueden cargar en este momento. Si está teniendo este problema, convierta el archivo a PDF y cargue este en su lugar. Para obtener más información, consulte [Pruebas: no se puede generar una prueba a partir de un archivo de PowerPoint](https://experienceleague.adobe.com/es/docs/workfront-known-issues/issues/new-workfront-experience/wf-current/wf-proofs-cannot-generate-from-pptx).
 
-* PS - Archivo de PostScript
+* PS: archivo PostScript
 * PSD: Photoshop
 * PSP: Paint Shop Pro
 * PTK: PTOCA
