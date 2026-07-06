@@ -21,9 +21,9 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: c091cec41c202b4684d243014bd0a8ef08a92836
 workflow-type: tm+mt
-source-wordcount: 1135
+source-wordcount: 1090
 ht-degree: 10%
 
 ---
@@ -132,17 +132,15 @@ Para programar la desactivación de un usuario:
 1. En el panel izquierdo del cuadro **Editar usuario**, haga clic en **Planificación de recursos**.
 1. Haga clic en **Establecer fecha de desactivación**.
 
-1. Seleccione la fecha y la hora de la **fecha de desactivación**.
+1. Seleccione la fecha para la **fecha de desactivación**.
 
    >[!NOTE]
    >
-   >* En el cuadro Tiempo, solo puede seleccionar incrementos de hora completas, no minutos.
-   >* Si selecciona una hora para el día actual que ha pasado, Workfront programará la desactivación para el día siguiente a las 12:00 a. m.
-   >* La hora seleccionada coincide con la zona horaria del equipo del usuario que está programando la desactivación.
+   >* La fecha seleccionada coincide con la zona horaria del equipo del usuario que está programando la desactivación.
 
 1. Haga clic en **Guardar**.
 
-El usuario se desactiva en el día seleccionado en algún momento después de la hora seleccionada. Si ha seleccionado varios usuarios para desactivarlos de forma masiva, todos los usuarios seleccionados se desactivarán el día seleccionado en algún momento después de la hora seleccionada.
+El usuario se desactivará a las 12:00 a.m. en la fecha seleccionada. Si seleccionó varios usuarios para desactivarlos por lotes, todos los usuarios seleccionados se desactivarán a las 12:00 a. m. en la fecha seleccionada.
 
 Le recomendamos que genere un informe para los usuarios que ha programado para su desactivación a fin de mantenerse informados sobre los usuarios que se aproximan a la desactivación. No hay confirmación de que la desactivación se haya producido después de desactivar los usuarios.
 
