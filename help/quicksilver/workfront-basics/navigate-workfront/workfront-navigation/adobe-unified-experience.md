@@ -15,7 +15,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: c58c4365016f8fe855003cdbbd457f95483d08bc
+source-git-commit: 2c815aa5a4873d2b6af79cee2183c502f05108b6
 workflow-type: tm+mt
 source-wordcount: 711
 ht-degree: 56%
@@ -139,5 +139,3 @@ En caso de que [!DNL Adobe] administre la contraseña, cámbiela en la cuenta de
 [Consulte este artículo para cambiar la contraseña de Adobe.](https://helpx.adobe.com/es/account/individual/sign-in-and-security/security-and-recovery/reset-adobe-password.html){target="_blank"}
 
 Para obtener más información sobre cómo cambiar la contraseña, póngase en contacto con el administrador.
-
-
