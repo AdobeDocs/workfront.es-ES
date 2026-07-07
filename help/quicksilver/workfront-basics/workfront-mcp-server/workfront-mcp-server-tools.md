@@ -5,9 +5,9 @@ title: Herramientas del servidor MCP de Adobe Workfront
 description: Lista de referencia de las herramientas disponibles a través del servidor MCP de Adobe Workfront, agrupadas por área de Workfront.
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: f465ac03e0ff91216d1ef934a1696127796645ba
+source-git-commit: 3a0b283d72b290ceab0801a569a8f38a7437ae5d
 workflow-type: tm+mt
-source-wordcount: '1578'
+source-wordcount: '1666'
 ht-degree: 8%
 
 ---
@@ -92,6 +92,9 @@ Si la plataforma agéntica de IA puede encontrar elementos de Workfront pero no 
 | Buscar plantilla por nombre | `approvals_search_template_by_name` | Busca plantillas de aprobación por nombre (coincidencia parcial sin distinción de mayúsculas y minúsculas). | Leer |
 | Crear plantilla de aprobación | `approvals_create_template` | Crea una nueva plantilla de aprobación con dependencias de fase lineales o basadas en gráficos. | Escritura |
 | Actualizar plantilla de aprobación | `approvals_update_template` | Actualiza una plantilla existente con modificaciones estructuradas (añadir o quitar participantes, cambiar el nombre de las fases, establecer plazos, etc.). | Escritura |
+| Recordar a las partes interesadas las aprobaciones por lotes | `approvals_send_approval_reminder` | Envíe correos electrónicos de recordatorio de aprobación a todos los aprobadores pendientes de todo un proyecto, carpeta, campaña o ventana de fecha de vencimiento. | Escritura |
+| Actualización de plantillas de aprobación por lotes | `approvals_update_template` | Realice actualizaciones de plantillas en varias plantillas, como aplicar plantillas a recursos, crear nuevas plantillas desde cero o desde flujos de aprobación existentes, editar plantillas y realizar operaciones por lotes en plantillas y recursos. | Escritura |
+| Agregar o quitar participantes de aprobación de forma masiva. | `approvals_update_approval_participants` y `approvals__submit_update_approval_participants` | Agregar, quitar o reemplazar participantes en todo un portafolio, programa o ámbito de proyecto en una operación. | Escritura |
 
 ### Búsquedas y usuarios
 
