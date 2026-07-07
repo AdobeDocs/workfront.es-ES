@@ -5,10 +5,10 @@ author: Alina
 feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 8b161669c427c316ba28b814dfa7a6d095cd4309
+source-git-commit: 4bce43b6edd473f55b323e1d878b6e131213e179
 workflow-type: tm+mt
-source-wordcount: '206'
-ht-degree: 35%
+source-wordcount: '256'
+ht-degree: 31%
 
 ---
 
@@ -19,12 +19,11 @@ Puede ver la información de Adobe Workfront Planning en los informes al utiliza
 
 >[!IMPORTANT]
 >
->Actualmente, la función Paneles de lienzo solo está disponible para los usuarios que participan en la fase beta. Es posible que algunas partes de la función no estén completas o que no funcionen según lo previsto durante esta fase.
->La versión beta no está disponible en los siguientes proveedores de la nube:
+>Actualmente, la función Paneles de lienzo solo está disponible para los usuarios que participan en la fase beta. Es posible que algunas partes de la función no estén completas o que no funcionen según lo previsto durante esta fase.La versión beta no está disponible en los siguientes proveedores de la nube:
 >
 >* Traer su propia clave para Amazon Web Service
 >* Azure
->* Google Cloud Platform> Para obtener más información, consulte [Administrar paneles de lienzo: índice de artículo](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/manage-canvas-dashboards.md).
+>* Google Cloud PlatformPara obtener más información, consulte [Administrar paneles de lienzo: índice de artículo](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/manage-canvas-dashboards.md).
 
 ## Requisitos de acceso
 
@@ -73,6 +72,7 @@ Si participa en la versión beta del panel de lienzo, puede generar informes que
 
 Para obtener más información, consulte los siguientes artículos:
 
+* [Información general sobre paneles de control de lienzo](/help/quicksilver/reports-and-dashboards/canvas-dashboards/canvas-dashboards-overview.md)
 * [Generar un informe de tabla en un panel de control del lienzo](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-table-report.md)
 * [Generar un informe de KPI en un panel de control de lienzo](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-kpi-report.md)
 * [Generar un informe de KPI en un panel de control de lienzo](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-kpi-report.md)

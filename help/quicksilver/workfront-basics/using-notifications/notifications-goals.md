@@ -20,10 +20,10 @@ role_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 4bce43b6edd473f55b323e1d878b6e131213e179
 workflow-type: tm+mt
-source-wordcount: 388
-ht-degree: 94%
+source-wordcount: 425
+ht-degree: 85%
 
 ---
 
@@ -81,7 +81,8 @@ Las notificaciones enumeradas en la siguiente tabla le avisan de los eventos que
 
 >[!NOTE]
 >
->Las notificaciones instantáneas de [!DNL Goals] están deshabilitadas de manera predeterminada. No puede habilitar o deshabilitar las notificaciones diarias y no recibe correos electrónicos de resumen diario para los eventos de esta categoría. Puede habilitar o deshabilitar notificaciones instantáneas individuales para la categoría [!DNL Goals].
+>* Las notificaciones instantáneas de [!DNL Goals] están deshabilitadas de manera predeterminada. No puede habilitar o deshabilitar las notificaciones diarias y no recibe correos electrónicos de resumen diario para los eventos de esta categoría. Puede habilitar o deshabilitar notificaciones instantáneas individuales para la categoría [!DNL Goals].
+>* Aún puede recibir correos electrónicos sobre actualizaciones de objetivos, incluso cuando no tenga acceso a Objetivos en su nivel de acceso, pero alguien le asigne una meta, un resultado o una actividad, o comentarios sobre una meta asignada a usted.
 
 Consulte también [Notificaciones de eventos](../../workfront-basics/using-notifications/event-notifications.md).
 
