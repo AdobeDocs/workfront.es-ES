@@ -8,8 +8,8 @@ feature: Get Started with Workfront, Work Management
 exl-id: 247085a7-bb9e-4468-b496-d81e02f2de00
 source-git-commit: 29c82cd8265f3d05f4ae241c5c723a4ab09a6504
 workflow-type: tm+mt
-source-wordcount: '368'
-ht-degree: 13%
+source-wordcount: '394'
+ht-degree: 14%
 
 ---
 
@@ -64,8 +64,7 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
 1. Escriba el nombre del elemento personal y haga clic en Entrar.
 1. (Opcional) Haga clic en el icono **Fecha** ![](assets/date-icon.png) para agregar una fecha límite para el elemento.
    ![](assets/my-work-to-dos.png)
-1. (Opcional) Cree un informe de tareas personales o un filtro. Para obtener información acerca de cómo crear un filtro de tareas personales, vea [Filtro: tarea personal](/help/quicksilver/reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-personal-tasks.md).
-Puede ver los elementos pendientes, así como los elementos pendientes de otros usuarios, en el informe de tareas personales.
+1. (Opcional) Cree un informe de tareas personales o un filtro. Para obtener información acerca de cómo crear un filtro de tareas personales, vea [Filtro: tarea personal](/help/quicksilver/reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-personal-tasks.md).Puede ver los elementos pendientes, así como los elementos pendientes de otros usuarios, en el informe de tareas personales.
 
 
 ## Administrar elementos pendientes
