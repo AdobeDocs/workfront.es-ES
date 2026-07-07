@@ -24,10 +24,10 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+source-git-commit: 61d733a9808850e780bfd74dbf3dcfb9d9d86282
 workflow-type: tm+mt
-source-wordcount: 7342
-ht-degree: 91%
+source-wordcount: 8296
+ht-degree: 86%
 
 ---
 
@@ -155,40 +155,41 @@ Los formularios personalizados están limitados a 500 campos. Un contador situad
 
    Haga clic en **Guardar y Cerrar**.
 
-### Notas sobre nombres de campo y etiquetas {#notes-on-field-names-and-labels}
+### Notas sobre los nombres y etiquetas de las API de campo {#notes-on-field-names-and-labels}
 
-La etiqueta está disponible para la mayoría de los campos. Es una etiqueta descriptiva que aparece encima del campo o widget en el formulario personalizado. Puede cambiar la etiqueta en cualquier momento.
+* La etiqueta está disponible para la mayoría de los campos. Es una etiqueta descriptiva que aparece encima del campo o widget en el formulario personalizado. Puede cambiar la etiqueta en cualquier momento.
 
->[!NOTE]
->
->Evite utilizar caracteres especiales en esta etiqueta, ya que no se muestran correctamente en los informes.
+  >[!NOTE]
+  >
+  >Evite utilizar caracteres especiales en esta etiqueta, ya que no se muestran correctamente en los informes.
 
-Es obligatorio un nombre para cada campo. Este nombre es el modo en que el sistema identifica el campo personalizado cuando se agrega a varias áreas a través de Workfront, como informes, Página de inicio e interacciones de API. Cuando configure el campo o widget por primera vez y escriba la etiqueta, el campo Nombre se rellenará automáticamente para que coincida. Los campos Etiqueta y Nombre no están sincronizados. Esto le proporciona la opción de cambiar la etiqueta que ven los usuarios sin tener que cambiar el nombre que ve el sistema.
+* Se requiere un nombre de API para cada campo. Este nombre es el modo en que el sistema identifica el campo personalizado cuando se agrega a varias áreas a través de Workfront, como informes, Página de inicio e interacciones de API. Cuando configura el campo o widget por primera vez y escribe la etiqueta, el campo Nombre / <span class="preview">campo Nombre de API</span> se rellena automáticamente para que coincida. Los campos Etiqueta y Nombre / <span class="preview">Nombre de API</span> no están sincronizados. Esto le proporciona la opción de cambiar la etiqueta que ven los usuarios sin tener que cambiar el nombre que ve el sistema.
 
-Cada nombre de campo personalizado debe ser único en la instancia de Workfront de su organización. De este modo, puede reutilizar uno que ya se haya creado para otro formulario personalizado.
+* Cada nombre de API de campo personalizado debe ser único en la instancia de Workfront de su organización. De este modo, puede reutilizar uno que ya se haya creado para otro formulario personalizado.
 
->[!NOTE]
->
->Aunque es posible hacerlo, le recomendamos que no cambie este nombre después de que usted u otros usuarios empiecen a utilizar el formulario personalizado en Workfront. Si lo hace, el sistema ya no reconocerá el campo personalizado, donde ahora se podría hacer referencia a él en otras áreas de Workfront.
->Por ejemplo, si agrega el campo personalizado a un informe y posteriormente cambia su nombre, Workfront no lo reconocerá en el informe y dejará de funcionar correctamente allí a menos que lo vuelva a agregar al informe con el nuevo nombre.
->
->Se recomienda no escribir un nombre que ya se utilice en los campos integrados de Workfront.
->
->Se recomienda no utilizar el carácter del punto en el nombre del campo personalizado para evitar errores al usar el campo en diferentes áreas de Workfront.
+* Aunque es posible hacerlo, le recomendamos que no cambie este nombre de API después de que usted u otros usuarios empiecen a utilizar el formulario personalizado en Workfront. Si lo hace, el sistema ya no reconocerá el campo personalizado, donde ahora se podría hacer referencia a él en otras áreas de Workfront.
 
-Los nombres y etiquetas de campos personalizados no admiten los siguientes caracteres especiales.
+  Por ejemplo, si agrega el campo personalizado a un informe y posteriormente cambia el nombre de su API, Workfront no lo reconocerá en el informe y dejará de funcionar correctamente allí a menos que lo vuelva a agregar al informe con el nuevo nombre.
 
-* \t
-* \n
-* \r
-* \f
-* `[`
-* `]`
-* (
-* )
-* :
-* `{`
-* `}`
+* <span class="preview">Los nombres de API son de solo lectura de forma predeterminada. Para poder editar el nombre de la API, haz clic en el icono **Editar** junto al **Nombre de la API**. A continuación, escriba **confirmar** en el cuadro de confirmación y haga clic en **Cambiar nombre de campo**. </span>
+
+* Se recomienda no escribir un nombre de API que ya se utilice en los campos integrados de Workfront.
+
+* Se recomienda no utilizar el carácter punto/punto en el nombre de la API del campo personalizado para evitar errores al utilizar el campo en diferentes áreas de Workfront.
+
+* Los siguientes caracteres especiales no son compatibles con las etiquetas de campos personalizados y los nombres de API.
+
+   * \t
+   * \n
+   * \r
+   * \f
+   * `[`
+   * `]`
+   * (
+   * )
+   * :
+   * `{`
+   * `}`
 
 ### Añadir campos de búsqueda
 
@@ -274,9 +275,7 @@ Para añadir un campo de texto:
     </tr>
     <tr>
     <td>Instrucciones</td>
-    <td>Escriba cualquier información adicional sobre el campo. Cuando los usuarios rellenan el formulario personalizado, pueden situarse sobre el icono del signo de interrogación para ver una información de objeto que contenga la información que escriba aquí.
-    <img src="assets/instructions-form-designer.png">
-    </td>
+    <td>Escriba cualquier información adicional sobre el campo. Cuando los usuarios rellenan el formulario personalizado, pueden pasar el puntero por encima del icono del signo de interrogación para ver una ayuda contextual que contiene la información que escriba aquí.</td>
     <td><ul>
     <li>Texto de línea única</li>
     <li>Párrafo</li>
@@ -638,7 +637,8 @@ Para añadir los campos de fecha y escritura anticipada:
        <ul> 
         <li>Si está editando un formulario personalizado existente, al añadir un filtro a un campo de escritura anticipada, no se elimina ningún objeto (fuera del ámbito del filtro) que los usuarios ya hayan añadido mediante el campo.</li> 
         <li>Este filtro no está disponible en los dispositivos móviles. Si utiliza el filtro para un campo de escritura anticipada, el campo aparecerá en los dispositivos móviles de los usuarios no afectados por el filtro.</li> 
-        </ul></p></td> 
+        </ul></p>
+      </td>  
       <td>
        <ul>
        <li>Escritura anticipada</li>
@@ -702,7 +702,7 @@ Para añadir una búsqueda externa, haga lo siguiente:
      </tr> 
      <tr> 
       <td role="rowheader">Nombre</td> 
-      <td> <p>(Obligatorio) Este nombre es con el que el sistema identifica el campo. Cuando configure el widget por primera vez y escriba la etiqueta, el campo Nombre se rellenará automáticamente para que coincida. Sin embargo, los campos Etiqueta y Nombre no están sincronizados, lo que le da la opción de cambiar la etiqueta que ven los usuarios sin tener que cambiar el nombre que ve el sistema.</p>
+      <td> <p>(Obligatorio) Este nombre es con el que el sistema identifica el campo. Cuando configure el campo por primera vez y escriba la etiqueta, el campo Nombre se rellenará automáticamente para que coincida. Sin embargo, los campos Etiqueta y Nombre no están sincronizados, lo que le da la opción de cambiar la etiqueta que ven los usuarios sin tener que cambiar el nombre que ve el sistema.</p>
       <p>Para obtener más información, consulte <a href="design-a-form.md#notes-on-field-names-and-labels">Notas sobre nombres de campo y etiquetas</a>.</p> </td>
      </tr> 
       <td role="rowheader">Instrucciones</td> 
@@ -748,15 +748,14 @@ Para añadir una búsqueda externa, haga lo siguiente:
      </tr>
      <tr> 
       <td role="rowheader">Ruta JSON</td>
-      <td><p>Escriba o pegue la ruta JSON para la API.</p> <p>Esta opción permite extraer datos del JSON devuelto por la URL de la API. Sirve para seleccionar qué valores dentro del JSON aparecerán en las opciones desplegables.</p><p>Por ejemplo, si la dirección URL de la API devuelve JSON en el siguiente formato, puede usar “$.data[*].name” para seleccionar EE. UU. y Canadá como opciones desplegables:</br>
+      <td><p>Escriba o pegue la ruta JSON para la API.</p> <p>Esta opción permite extraer datos del JSON devuelto por la URL de la API. Sirve para seleccionar qué valores dentro del JSON aparecerán en las opciones desplegables.</p><p>Por ejemplo, si la URL de la API devuelve JSON en el siguiente formato, puede utilizar "$.data[*].name" para seleccionar EE. UU. y Canadá como opciones desplegables:
       <pre>
       &lbrace;
-       data: &lbrace;
+       datos: &lbrace;
          { name: "USA"},
          { name: "Canada"}
        &rbrace;
-      &rbrace;
-      </pre>
+      &rbrace;</pre>
       </p>
      <p>Para obtener más información sobre la ruta JSON y cómo asegurarse de que escribe la ruta JSON correcta, consulte <a href="https://jsonpath.com/">https://jsonpath.com/</a>.</p></td>
      </tr>
@@ -794,6 +793,95 @@ Para añadir una búsqueda externa, haga lo siguiente:
 >* Número de reintentos: 3
 >* Duración de espera entre reintentos: 500 ms
 >* Estados de respuesta esperados: 2xx
+
+<div class="preview">
+
+### Adición de campos de búsqueda interna
+
+Un campo de búsqueda interna permite a los usuarios escribir el nombre de un objeto que existe en Workfront. Aparece una lista de sugerencias cuando el usuario empieza a escribir. Por ejemplo, si el usuario está escribiendo un nombre de usuario, aparecerá una lista de nombres coincidentes. El tipo de campo de búsqueda interna es compatible con los siguientes objetos:
+
+* Usuario
+* Grupo
+* Función
+* Portafolio
+* Programa
+* Proyecto
+* Equipo
+* Plantilla
+* Compañía
+* Tarea
+* Problema
+* Documento
+* Ubicación
+
+Para agregar una búsqueda interna:
+
+1. En la ficha **Nuevo campo** de la parte izquierda de la pantalla, busque **Búsqueda interna** o **Búsqueda interna de selección múltiple** y arrástrela a una sección del lienzo.
+1. En el lado derecho de la pantalla, configure las opciones para el campo personalizado:
+
+   <table style="table-layout:auto"> 
+    <col> 
+    <col> 
+    <tbody> 
+     <tr> 
+      <td role="rowheader">Etiqueta</td> 
+      <td> <p>(Obligatorio) Escriba una etiqueta descriptiva para mostrar encima del campo personalizado. Puede cambiar la etiqueta en cualquier momento.</p> <p><b>Importante</b>: evite usar caracteres especiales en esta etiqueta, ya que no se muestran correctamente en los informes. Para obtener más información, consulte <a href="design-a-form.md#notes-on-field-names-and-labels">Notas sobre nombres de campo y etiquetas</a>.</p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Nombre</td> 
+      <td> <p>(Obligatorio) Este nombre es con el que el sistema identifica el campo. Cuando configure el campo por primera vez y escriba la etiqueta, el campo Nombre se rellenará automáticamente para que coincida. Sin embargo, los campos Etiqueta y Nombre no están sincronizados, lo que le da la opción de cambiar la etiqueta que ven los usuarios sin tener que cambiar el nombre que ve el sistema.</p>
+      <p>Para obtener más información, consulte <a href="design-a-form.md#notes-on-field-names-and-labels">Notas sobre nombres de campo y etiquetas</a>.</p> </td>
+     </tr> 
+      <td role="rowheader">Instrucciones</td> 
+      <td> <p>Escriba cualquier información adicional sobre el campo personalizado. Cuando los usuarios rellenan el formulario personalizado, pueden pasar el puntero por encima del icono del signo de interrogación para ver una ayuda contextual que contiene la información que escriba aquí.</p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Tipo de objeto referenciado</td>
+      <td><p>Seleccione el tipo de objeto que desea asociar al campo.</p> <p>Una vez que haya hecho clic en <strong>Aplicar</strong> o en <strong>Guardar y cerrar</strong>, no puede cambiar el tipo de objeto del campo.</p>
+      <p><strong>Nota:</strong></p>
+      <ul><li>Si el administrador de Workfront personalizó el nombre para Portafolios, Programas o Proyectos en la interfaz de usuario de Workfront, será el nombre de Workfront predeterminado para el objeto el que aparezca en esta lista desplegable, no el nombre personalizado. Póngase en contacto con el administrador de Workfront si necesita ayuda sobre esto.</li>
+      <li>Los siguientes tipos de objetos son compatibles con las aplicaciones móviles de Workfront para iOS y Android: usuario, compañía, grupo, función de trabajo, portafolio, programa, proyecto y plantilla.</li>
+      </ul></td>
+     </tr> 
+     <tr>
+      <td>Añadir filtro</td>
+      <td><p>Añada un filtro para un tipo de objeto y limitar los objetos que los usuarios pueden elegir cuando utilizan el campo. </p> <p>Por ejemplo, puede limitar un campo para que los nombres de usuario solo se puedan seleccionar si cumplen los siguientes criterios:</p> 
+       <ul> 
+        <li>Pertenecen a uno o varios grupos especificados.</li> 
+        <li>Están asociados a una función o un título de trabajo especificados.</li> 
+        <li>Pertenecen al mismo grupo que la persona que utiliza el campo.</li> 
+       </ul>
+       <p>Debe definir el filtro para el tipo de objeto que haya seleccionado mediante la sintaxis de modo de texto. Para obtener información acerca de cómo crear un filtro mediante el modo de texto, consulte <a href="/help/quicksilver/reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md">Editar un filtro mediante el modo de texto</a>.</p>
+       <p><b>Sugerencia:</b> Puede crear un informe para probar el filtro antes de agregar el filtro directamente al campo de búsqueda interna. Esto le ayudará a comprobar que el filtro devuelve los objetos correctos. A continuación, puede cambiar al modo de texto en el informe, copiar la instrucción de modo de texto y agregarla al filtro de búsqueda interno.</p>
+       <p><b>Nota</b>:
+       <ul> 
+        <li>Si está editando un formulario personalizado existente, al agregar un filtro a un campo de búsqueda interna no se quita ningún objeto (fuera del ámbito del filtro) que los usuarios ya hayan agregado mediante el campo.</li> 
+        <li>Este filtro no está disponible en los dispositivos móviles. Si utiliza el filtro para un campo de búsqueda interna, el campo aparecerá en los dispositivos móviles de los usuarios no afectados por el filtro.</li> 
+        </ul></p>
+      </td>  
+     </tr>
+     <tr> 
+      <td role="rowheader">Menú desplegable de selección múltiple</td>
+      <td><p>Seleccione esta opción para permitir que el usuario seleccione más de un valor en la lista desplegable.</p></td>
+     </tr>
+     <tr>
+      <td>Activo</td>
+      <td><p>Esta opción está habilitada de forma predeterminada.<p><p>Cuando se establece un campo como Inactivo, se excluye de los informes, los filtros y las vistas y ya no está disponible en la biblioteca de campos de formularios personalizados.</p></td>
+     </tr>
+     <tr> 
+      <td role="rowheader">Cambiar un campo a obligatorio</td>
+      <td><p>Seleccione esta opción si desea que el campo sea obligatorio para que el usuario complete el formulario personalizado.</p></td>
+     </tr>       
+    </tbody>
+   </table>
+
+1. Para guardar los cambios, haga clic en **Aplicar** y pase a otra sección para seguir generando el formulario.
+
+   O
+
+   Haga clic en **Guardar y Cerrar**.
+
+</div>
 
 ### Añadir imágenes, PDF y vídeos
 
@@ -1019,7 +1107,9 @@ Staffing Plan Resource: Total Estimated Cost, Total Estimated Revenue fields
         <li>Están asociados a una función o un título de trabajo especificados.</li> 
         <li>Pertenecen al mismo grupo que la persona que utiliza el campo.</li> 
        </ul>
+       <p><span class="preview">Cuando existe un filtro del sistema en el campo, se aplica de forma predeterminada si no agrega un filtro personalizado. Un filtro personalizado anula el filtro del sistema.</span></p>
        <p>Debe definir el filtro para el campo de referencia que haya seleccionado mediante la sintaxis de modo de texto. Para obtener más información, vea <a href="/help/quicksilver/reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md">Editar un filtro mediante el modo de texto</a>.</p>
+       <p><span class="preview">Utilice la sintaxis de filtro dinámico para reducir la lista de elementos de este campo en función del valor de otro campo. Por ejemplo, cuando se usa <code>?portfolioID={portfolio}.{ID}</code> en un filtro de campo de proyecto y un campo nativo de Portfolio está en el formulario personalizado, el campo Proyecto muestra únicamente los proyectos que se encuentran en el portafolio seleccionado. Si el campo Portfolio se deja en blanco, todos los proyectos estarán disponibles en el campo Proyecto.</span></p>
        <p><b>Nota</b>:
        <ul> 
         <li>La opción de filtro solo está disponible cuando se hace referencia a un campo de escritura anticipada nativo, como Portafolio, Compañía o Propietario.</li>
@@ -1077,8 +1167,7 @@ Para añadir un archivo Adobe XD:
      <tr> 
       <td role="rowheader">URL</td> 
       <td> <p>(Obligatorio) Escriba o pegue un vínculo válido de prototipo de XD.</p> 
-      <p><b>Nota</b>: la configuración de Acceso a vínculos en la ficha Compartir de Adobe XD debe establecerse en Cualquiera que tenga el vínculo. De lo contrario, los usuarios no podrán ver el prototipo. 
-   </td> 
+      <p><b>Nota</b>: La configuración de Acceso al vínculo de la pestaña Compartir de Adobe XD debe establecerse en Cualquiera con el vínculo. De lo contrario, los usuarios no podrán ver el prototipo. </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Instrucciones</td> 
