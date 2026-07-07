@@ -4,9 +4,9 @@ description: Mejoras en los informes del tercer trimestre de 2026
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: f465ac03e0ff91216d1ef934a1696127796645ba
+source-git-commit: 0c7265c477030137d14e95f42eaf67580589d70b
 workflow-type: tm+mt
-source-wordcount: '743'
+source-wordcount: '1047'
 ht-degree: 1%
 
 ---
@@ -17,11 +17,38 @@ Esta página describe las mejoras de los informes realizadas con la versión del
 
 Para obtener una lista de todos los cambios disponibles en este punto del ciclo de la versión del tercer trimestre de 2026, consulte [Información general de la versión del tercer trimestre de 2026](/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-release-overview.md).
 
+## Control de acceso automatizado para Workfront Planning en Snowflake
+
+>[!NOTE]
+>
+>Vista previa y producción para todos los clientes: 16 de julio de 2026Fuera del horario]{type=Neutral}
+
+Esta versión incluye la administración de acceso automatizada y basada en derechos para los datos de Workfront Planning en Snowflake como parte de Workfront Data Connect.
+Comienza ampliando la generación de vistas seguras a las tablas de Planning, estableciendo la base necesaria para el control de acceso descendente y haciendo posibles las concesiones basadas en derechos.Basándose en esto, el aprovisionamiento de cuentas de Reader ahora comprueba los derechos de TMS en el momento de la creación y aplica o retiene automáticamente las subvenciones a la base de datos de Planning, lo que garantiza que sean correctas.
+Antes de esta mejora, solo estaba disponible para Workfront.
+La actualización incluye las siguientes capacidades: 
+
+* Un trabajo diario automatizado detecta los cambios de derechos de los clientes existentes
+* El nuevo trabajo concede, revoca o conserva el acceso en función de los derechos
+* Cobertura completa del ciclo vital mediante el aprovisionamiento, la creación de cuentas y los cambios continuos de autorizaciones.
+
+El artículo de [Workfront Data Connect](/help/quicksilver/reports-and-dashboards/data-lake/data-dictionary.md) se actualizará después de la fecha de lanzamiento.
+
+## Agregar compatibilidad con datos personalizados para nuevos objetos
+
+>[!NOTE]
+>
+>Vista previa y producción para todos los clientes: 7 de julio de 2026Fuera del horario]{type=Neutral}
+
+Durante el segundo trimestre de 2026, agregamos nuevos objetos para admitir las mejoras de operaciones empresariales en Workfront.Con la versión actual, también se añade compatibilidad con datos personalizados para varios objetos nuevos en el panel de lienzo.
+
+Para obtener más información, vea [Información general sobre paneles de lienzo](/help/quicksilver/reports-and-dashboards/canvas-dashboards/canvas-dashboards-overview.md).
+
 ## Valores predeterminados de solicitud de panel de lienzo y persistencia de preferencias de usuario
 
 >[!NOTE]
 >
->Vista previa: 25 de junio de 2026>Versión rápida de producción: 15 de julio de 2026>Producción para todos: 16 de julio de 2026
+>Vista previa: 25 de junio de 2026Versión rápida de producción: 15 de julio de 2026Producción para todos: 16 de julio de 2026
 
 Para mejorar la eficacia de los usuarios que se desplazan entre paneles y registros preservando su estado de filtro de trabajo, los administradores de paneles ahora pueden definir valores de solicitud predeterminados para los paneles de lienzo. Estos valores predeterminados se aplican automáticamente a todos los visualizadores de tableros.
 
@@ -37,7 +64,7 @@ Para obtener más información, consulte [Filtrar un panel de lienzo](/help/quic
 
 >[!NOTE]
 >
->Vista previa: N/D>Versión rápida de producción: 11 de junio de 2026>Producción para todos: 16 de julio de 2026
+>Vista previa: N/DVersión rápida de producción: 11 de junio de 2026Producción para todos: 16 de julio de 2026
 
 Los administradores de Workfront que conectan Microsoft Power BI a Workfront Data Connect ahora pueden añadir un conjunto completo de intervalos de direcciones IP de Azure a la lista de permitidos en un solo paso. En la ficha **Lista de permitidos IP** de **Conexión de datos**, el botón **Nueva dirección IP** incluye ahora una opción **Agregar bloques de direcciones IP de Power BI** que abre un cuadro de diálogo en el que puede pegar las entradas de la etiqueta de servicio Power BI desde el archivo JSON de intervalos de IP de Azure y etiquetas de servicio de Microsoft publicado.
 
@@ -50,7 +77,7 @@ Para obtener más información, consulte [Establecer una conexión con Workfront
 
 >[!NOTE]
 >
->Vista previa: 11 de junio de 2026>Versión rápida de producción: 15 de julio de 2026>Producción para todos: 16 de julio de 2026
+>Vista previa: 11 de junio de 2026Versión rápida de producción: 15 de julio de 2026Producción para todos: 16 de julio de 2026
 >
 >Paneles de lienzo se encuentra en la versión beta.
 
@@ -62,7 +89,7 @@ Para obtener más información, consulte [Usar paneles de lienzo](/help/quicksil
 
 >[!NOTE]
 >
->Vista previa: 1 de junio de 2026>Versión rápida de producción: 1 de junio de 2026>Producción para todos: 1 de junio de 2026
+>Vista previa: 1 de junio de 2026Versión rápida de producción: 1 de junio de 2026Producción para todos: 1 de junio de 2026
 
 En 2025, se agregó un nuevo campo Horas reales a la base de datos de Workfront como `actualWorkRequiredDouble`, y el campo Horas reales existente (`actualWorkRequired` en la base de datos) cambió el nombre de Horas reales heredadas. Consulte la [nota de la versión](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-project-enhancements.md) para obtener más información.
 
@@ -78,7 +105,7 @@ Para obtener más información sobre las horas reales, vea [Ver horas reales](/h
 
 >[!NOTE]
 >
->Vista previa: 28 de mayo de 2026>Versión rápida de producción: 11 de junio de 2026>Producción para todos: 16 de julio de 2026
+>Vista previa: 28 de mayo de 2026Versión rápida de producción: 11 de junio de 2026Producción para todos: 16 de julio de 2026
 
 Los informes del panel de lienzo ahora admiten campos de datos de moneda personalizados como columnas, filtros, agrupaciones y agregaciones, incluso cuando se configuran varias tasas de cambio en Configuración del sistema. Cuando un campo de datos de moneda personalizado se muestra como una columna o agregación, los valores se convierten a la moneda seleccionada en la opción de tasa de cambio del panel, a menos que el campo esté bloqueado en el nivel de informe.
 
@@ -90,7 +117,7 @@ Para obtener más información, consulte [Usar campos monetarios en paneles de l
 
 >[!NOTE]
 >
->Vista previa: 14 de mayo de 2026>Versión rápida de producción: 11 de junio de 2026>Producción para todos: 16 de julio de 2026
+>Vista previa: 14 de mayo de 2026Versión rápida de producción: 11 de junio de 2026Producción para todos: 16 de julio de 2026
 >
 >Paneles de lienzo se encuentra en la versión beta.
 

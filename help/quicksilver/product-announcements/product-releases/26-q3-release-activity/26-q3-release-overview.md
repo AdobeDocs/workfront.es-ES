@@ -5,10 +5,10 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8ca50590-ef6a-44b1-a856-9821bdafbc1c
-source-git-commit: 73c78912e15a03bfd09c127e39d94bf5af42b8e2
+source-git-commit: 0c7265c477030137d14e95f42eaf67580589d70b
 workflow-type: tm+mt
-source-wordcount: '2369'
-ht-degree: 18%
+source-wordcount: '2620'
+ht-degree: 17%
 
 ---
 
@@ -18,7 +18,7 @@ Esta página proporciona información sobre la funcionalidad que se incluye en l
 
 Las mejoras de esta página están disponibles en el entorno de vista previa. Esta página se actualizará con mejoras adicionales a medida que la versión del tercer trimestre de 2026 se aproxime a su versión de producción planificada.
 
-Se celebran seminarios web en directo para cada versión trimestral, en los que se destacan las nuevas funciones y se proporciona información detallada. Para registrarse, visite la [página de eventos](https://experienceleague.adobe.com/es/events?filters=Workfront) y filtre por Workfront.
+Se celebran seminarios web en directo para cada versión trimestral, en los que se destacan las nuevas funciones y se proporciona información detallada. Para registrarse, visite la [página de eventos](https://experienceleague.adobe.com/en/events?filters=Workfront) y filtre por Workfront.
 
 >[!IMPORTANT]
 >
@@ -60,6 +60,15 @@ Se celebran seminarios web en directo para cada versión trimestral, en los que 
         </tr>
         <tr>
             <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-ai.md" class="MCXref xref" xrefformat="{para}">Nuevas herramientas disponibles en el conector MCP de Workfront</a>
+                <p>Para ampliar las capacidades del conector MCP de Workfront, hemos añadido ocho herramientas nuevas y hemos desaprobado las herramientas Buscar objetos y Resolver nombres de campo.</p>
+            </td>
+            <td><p>7 de julio de 2026</p></td>
+            <td><p>15 de julio de 2026</p></td>
+            <td><p>16 de julio de 2026</p></td>
+        </tr>
+        <tr>
+            <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-ai.md" class="MCXref xref" xrefformat="{para}">Actualizaciones en el conector MCP de Workfront</a><p>[!BADGE Off schedule]{type=Neutral}</p>
                 <p>Hemos actualizado el conector MCP de Workfront:<ul><li>Claude ahora se puede conectar al conector MCP.</li><li>Ahora puede utilizar el conector MCP de instancias de la UE <!--or from instances that do not use AWS-->.</p>
             </td>
@@ -89,6 +98,54 @@ Se celebran seminarios web en directo para cada versión trimestral, en los que 
             <td><strong>Vista previa</strong></td>
             <td><strong>Versión rápida</strong></td>
             <td><strong>Trimestralmente</strong></td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Seguimiento de cambios para revisión y aprobación unificadas</a>
+                <p>La página Historial de Cambios ahora captura la actividad en los flujos de trabajo de revisión y aprobación unificados, lo que proporciona a los administradores un registro de control completo para las acciones de aprobación, fase y participante.</p>
+            </td>
+            <td><p>7 de julio de 2026</p></td>
+            <td><p>15 de julio de 2026</p></td>
+            <td><p>16 de julio de 2026</p></td>
+        </tr>
+        <!--
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Internal lookup field replacing Typeahead field type</a>
+                <p>The new Internal lookup field type in custom forms provides dynamic filtering, multi-select support, and improved performance for large datasets. It is replacing the Typeahead field type.</p>
+            </td>
+            <td><p>July 7, 2026</p></td>
+            <td><p>July 15, 2026</p></td>
+            <td><p>July 16, 2026</p></td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Default value logic supported on native reference fields</a><p>[!BADGE Workflow Prime]{type=Informative}</p>
+                <p>In custom forms, native reference fields now allow you to add default value logic. This logic type is available only in the user interface and not in the Workfront API.</p>
+            </td>
+            <td><p>July 7, 2026</p></td>
+            <td><p>July 15, 2026</p></td>
+            <td><p>July 16, 2026</p></td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Updates to native field filtering in custom forms</a>
+                <p>System filters on native fields are now visible to administrators in custom forms, and dynamic filtering is now available on native reference fields.</p>
+            </td>
+            <td><p>July 7, 2026</p></td>
+            <td><p>July 15, 2026</p></td>
+            <td><p>July 16, 2026</p></td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Protect field names from accidental renaming</a>
+                <p>Field names in the custom form field settings panel are now read-only by default, requiring an explicit confirmation step to rename. The Name field has been updated to API Name.</p>
+            </td>
+            <td><p>July 7, 2026</p></td>
+            <td><p>July 15, 2026</p></td>
+            <td><p>July 16, 2026</p></td>
+        </tr>
+        -->
         <tr>
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Ver historial de cambios para objetos de Workfront</a><p>[!BADGE Off schedule]{type=Neutral}</p>
@@ -156,6 +213,15 @@ Se celebran seminarios web en directo para cada versión trimestral, en los que 
             <td><strong>Vista previa</strong></td>
             <td><strong>Versión rápida</strong></td>
             <td><strong>Trimestralmente</strong></td>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-documents.md" class="MCXref xref" xrefformat="{para}">Ahora hay disponibles rutas de aprobación paralelas para las aprobaciones unificadas</a>
+                <p>Los flujos de trabajo de aprobación de documentos ahora admiten rutas paralelas, lo que permite a los equipos ejecutar hasta 30 pistas de revisión independientes con hasta 100 fases en una sola aprobación.</p>
+            </td>
+            <td><p>7 de julio de 2026</p></td>
+            <td><p>15 de julio de 2026</p></td>
+            <td><p>16 de julio de 2026</p></td>
+        </tr>
         <!--
         <tr>
             <td>
@@ -163,8 +229,8 @@ Se celebran seminarios web en directo para cada versión trimestral, en los que 
                 <p>Adobe Cloud Drive is a desktop application that mounts your Adobe cloud storage projects as a drive on your Mac or Windows computer, so you can open, edit, and save files in any application directly from Finder or File Explorer.</p>
             </td>
             <td><p>N/A</p></td>
-            <td><p>June 26, 2026</p></td>
-            <td><p>June 26, 2026</p></td>
+            <td><p>July 7, 2026</p></td>
+            <td><p>July 7, 2026</p></td>
         </tr>
         -->
         <tr>
@@ -323,6 +389,24 @@ Se celebran seminarios web en directo para cada versión trimestral, en los que 
             <td><strong>Trimestralmente</strong></td>
         <tr>
             <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-reports.md" class="MCXref xref" xrefformat="{para}">Control de acceso automatizado para Workfront Planning en Snowflake</a><p>[!BADGE Off schedule]{type=Neutral}</p>
+                <p>Esta versión incluye la administración de acceso automatizada y basada en derechos para los datos de Workfront Planning en Snowflake como parte de Workfront Data Connect.  </p>
+            </td>
+            <td><p>16 de julio de 2026</p></td>
+            <td><p>16 de julio de 2026</p></td>
+            <td><p>16 de julio de 2026</p></td>
+            <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-reports.md" class="MCXref xref" xrefformat="{para}">Agregar compatibilidad con datos personalizados para objetos nuevos</a><p>[!BADGE Off schedule]{type=Neutral}</p>
+                <p>Durante el segundo trimestre de 2026, agregamos nuevos objetos para admitir las mejoras de operaciones empresariales en Workfront.</p>
+            </td>
+            <td><p>7 de julio de 2026</p></td>
+            <td><p>7 de julio de 2026</p></td>
+            <td><p>7 de julio de 2026</p></td>
+        </tr>
+        </tr>
+        <tr>
+            <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-reports.md" class="MCXref xref" xrefformat="{para}">Valores predeterminados de solicitud del panel de lienzo y persistencia de preferencias de usuario</a>
                 <p>Los administradores de paneles ahora pueden definir valores de solicitud predeterminados para los paneles de lienzo, aplicados automáticamente a todos los visualizadores. Cuando un usuario actualiza las solicitudes, sus selecciones se guardan y se restauran al actualizar, volver a abrir o después de navegar a un registro y volver.</p>
             </td>
@@ -444,6 +528,15 @@ Se celebran seminarios web en directo para cada versión trimestral, en los que 
         </tr>
         <tr>
             <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-other.md" class="MCXref xref" xrefformat="{para}">Actualización de la interfaz para los iconos de navegación global</a>
+                <p>Hemos actualizado el aspecto de los iconos generales de navegación en Workfront, incluidos los iconos del menú principal y de la barra de navegación, para proporcionar un diseño moderno coherente con otras aplicaciones de Adobe.</p>
+            </td>
+            <td><p>7 de julio de 2026</p></td>
+            <td><p>15 de julio de 2026</p></td>
+            <td><p>16 de julio de 2026</p></td>
+        </tr>
+        <tr>
+            <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-other.md" class="MCXref xref" xrefformat="{para}">Se ha actualizado la apariencia de los correos electrónicos de notificación de comentarios</a><p>[!BADGE Off schedule]{type=Neutral}</p>
                 <p>Las notificaciones por correo electrónico de los comentarios en el área de Actualizaciones tienen una nueva apariencia que se alinea con el diseño de correo electrónico de Adobe más amplio. El hilo de los comentarios anteriores ya no se incluye en el cuerpo del correo electrónico.</p>
             </td>
@@ -535,7 +628,7 @@ Para obtener más información, consulte [Introducción a la versión de prueba 
 
 ### Workfront Maintenance Updates
 
-For information about the maintenance updates made during the Third Quarter 2026 release, see [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=es).
+For information about the maintenance updates made during the Third Quarter 2026 release, see [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 -->
 

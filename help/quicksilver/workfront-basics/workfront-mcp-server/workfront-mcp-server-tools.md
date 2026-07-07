@@ -5,7 +5,7 @@ title: Herramientas del servidor MCP de Adobe Workfront
 description: Lista de referencia de las herramientas disponibles a través del servidor MCP de Adobe Workfront, agrupadas por área de Workfront.
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: 3a0b283d72b290ceab0801a569a8f38a7437ae5d
+source-git-commit: 67b774fd8f88c244fa6c1287d2dd8bb0c47f20a3
 workflow-type: tm+mt
 source-wordcount: '1666'
 ht-degree: 8%
@@ -95,6 +95,7 @@ Si la plataforma agéntica de IA puede encontrar elementos de Workfront pero no 
 | Recordar a las partes interesadas las aprobaciones por lotes | `approvals_send_approval_reminder` | Envíe correos electrónicos de recordatorio de aprobación a todos los aprobadores pendientes de todo un proyecto, carpeta, campaña o ventana de fecha de vencimiento. | Escritura |
 | Actualización de plantillas de aprobación por lotes | `approvals_update_template` | Realice actualizaciones de plantillas en varias plantillas, como aplicar plantillas a recursos, crear nuevas plantillas desde cero o desde flujos de aprobación existentes, editar plantillas y realizar operaciones por lotes en plantillas y recursos. | Escritura |
 | Agregar o quitar participantes de aprobación de forma masiva. | `approvals_update_approval_participants` y `approvals__submit_update_approval_participants` | Agregar, quitar o reemplazar participantes en todo un portafolio, programa o ámbito de proyecto en una operación. | Escritura |
+
 
 ### Búsquedas y usuarios
 
