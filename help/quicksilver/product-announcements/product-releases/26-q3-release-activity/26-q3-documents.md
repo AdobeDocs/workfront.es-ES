@@ -5,10 +5,10 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 39111c76-ae29-4034-8277-ca293138911f
-source-git-commit: f465ac03e0ff91216d1ef934a1696127796645ba
+source-git-commit: 6e0b4b17c927accc45846dc0affbf7a9425cca80
 workflow-type: tm+mt
-source-wordcount: '624'
-ht-degree: 1%
+source-wordcount: '813'
+ht-degree: 3%
 
 ---
 
@@ -18,14 +18,30 @@ Esta página describe las mejoras realizadas en los documentos con la versión d
 
 Para obtener una lista de todos los cambios disponibles en este punto del ciclo de la versión del tercer trimestre de 2026, consulte [Información general de la versión del tercer trimestre de 2026](/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-release-overview.md).
 
+## Rutas de aprobación paralelas ahora disponibles para aprobaciones unificadas
+
+>[!NOTE]
+>
+>Vista previa: 7 de julio de 2026Versión rápida de producción: 15 de julio de 2026Producción para todos: 16 de julio de 2026
+
+Los flujos de trabajo de aprobación de documentos ahora admiten rutas paralelas, lo que ayuda a los equipos a ejecutar varios seguimientos de revisión independientes al mismo tiempo. Con las rutas paralelas, puede:
+
+* Configuración de hasta 30 rutas paralelas y 100 etapas en una sola aprobación
+* Ejecutar pistas de revisión de forma independiente y en paralelo, con fases secuenciales dentro de cada ruta
+* Cambie entre un modo Básico simplificado para aprobaciones de una sola etapa y un modo Avanzado para flujos de trabajo de varias etapas y rutas
+* Aplique la misma configuración de ruta paralela a las plantillas de aprobación reutilizables desde la configuración de Workfront
+
+Para obtener más información, vea [Crear un flujo de trabajo de aprobación de documentos](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md) y [Crear una plantilla de flujo de trabajo de aprobación para documentos](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md).
+
 <!--
+
 ## Adobe Cloud Drive
 
 >[!NOTE]
 >
 >Preview: N/A
->Production fast release: June 26, 2026
->Production for everyone: June 26, 2026
+>Production fast release: July 7, 2026
+>Production for everyone: July 7, 2026
 >This feature is only available to organizations on the Workflow Ultimate package, with Adobe cloud storage enabled.
 
 Adobe Cloud Drive is now available to organizations that are on a version of Workfront that supports Adobe cloud storage. Adobe Cloud Drive is a desktop application that mounts your Adobe cloud storage projects as a drive on your Mac or Windows computer, so you can open, edit, and save files in any application directly from Finder or File Explorer. Your changes sync automatically to Adobe cloud storage and are available to your team in Workfront and Frame.io.
@@ -33,13 +49,14 @@ Adobe Cloud Drive is now available to organizations that are on a version of Wor
 For more information, see [Adobe Cloud Drive overview](/help/quicksilver/documents/adobe-cloud-drive/adobe-cloud-drive-overview.md).
 
 [View a video demonstration of this feature.](https://video.tv.adobe.com/v/3492492){target="_blank"}
+
 -->
 
 ## Solicitar aprobación de plantillas de Adobe Express con Workfront y Frame.io
 
 >[!NOTE]
 >
->Vista previa: N/D>Versión rápida de producción: 15 de junio de 2026>Producción para todos: 15 de junio de 2026>[!BADGE Fuera de horario]{type=Neutral}
+>Vista previa: N/DVersión rápida de producción: 15 de junio de 2026Producción para todos: 15 de junio de 2026Fuera del horario&rbrack;{type=Neutral}
 
 La integración de Adobe Express y Workfront con Frame.io ofrece una revisión estructurada y una aprobación del contenido creado en Adobe Express. Los diseñadores pueden asignar una plantilla de flujo de trabajo de aprobación de Workfront a una plantilla Express para que, cuando se vuelva a mezclar la plantilla, se requiera una aprobación automáticamente antes de publicar el recurso, enrutándolo a través del flujo de trabajo de Workfront preconfigurado y del visualizador Frame.io.
 
@@ -54,11 +71,11 @@ Con esta integración, puede:
 
 Para obtener más información, consulte [Introducción a Adobe Express y Workfront con la integración de Frame.io](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/express-wf-frame.md).
 
-## Imprimir un resumen de los documentos del área Documentos nueva
+## Imprimir un resumen de documentos en la área Documentos
 
 >[!NOTE]
 >
->Vista previa: 2 de junio de 2026>Versión rápida de producción: 11 de junio de 2026>Producción para todos: 16 de julio de 2026
+>Vista previa: 2 de junio de 2026Versión rápida de producción: 11 de junio de 2026Producción para todos: 16 de julio de 2026
 
 Ahora puede abrir un resumen imprimible de la aprobación de un documento directamente desde el área de Documentos nueva. Esta función está disponible para las organizaciones que utilizan el almacenamiento en la nube de Adobe.
 
@@ -71,7 +88,7 @@ Para obtener más información, vea [Información general sobre los detalles del
 
 >[!NOTE]
 >
->Vista previa: 28 de mayo de 2026>Versión rápida de producción: 11 de junio de 2026>Producción para todos: 16 de julio de 2026
+>Vista previa: 28 de mayo de 2026Versión rápida de producción: 11 de junio de 2026Producción para todos: 16 de julio de 2026
 
 Ahora puede agregar un mensaje personalizado a cada fase de un flujo de trabajo de aprobación de documentos. El mensaje aparece en la notificación de correo electrónico de aprobación y en la pestaña Aprobaciones de Workfront.
 
@@ -87,7 +104,7 @@ Para obtener más información, consulte [Crear un flujo de trabajo de aprobaci�
 
 >[!NOTE]
 >
->Vista previa: 14 de mayo de 2026>Versión rápida de producción: 14 de mayo de 2026>Producción para todos: 16 de julio de 2026
+>Vista previa: 14 de mayo de 2026Versión rápida de producción: 14 de mayo de 2026Producción para todos: 16 de julio de 2026
 
 Los recursos vinculados del área Documentos ahora muestran distintivos de estado que proporcionan a los equipos visibilidad instantánea de la posición de cada recurso sin salir de Workfront. Assets puede mostrar:
 
@@ -102,7 +119,7 @@ Para obtener más información sobre los estados de aprobación, consulte [Intro
 
 >[!NOTE]
 >
->Vista previa: 30 de abril de 2026>Versión rápida de producción: 14 de mayo de 2026>Producción para todos: 16 de julio de 2026
+>Vista previa: 30 de abril de 2026Versión rápida de producción: 14 de mayo de 2026Producción para todos: 16 de julio de 2026
 
 La página Información del cliente en la Configuración ahora incluye una nueva sección Información general sobre el almacenamiento con medidores de uso para el almacenamiento en la nube de Adobe.
 

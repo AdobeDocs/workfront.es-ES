@@ -4,10 +4,10 @@ description: Otras mejoras durante el periodo de tiempo de lanzamiento del terce
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: b05cd2638ac0d35a0debb862d73dc8bee0cdb794
+source-git-commit: 69e4091dcb139d4a11dad768fe78cb8e75721f3f
 workflow-type: tm+mt
-source-wordcount: '386'
-ht-degree: 3%
+source-wordcount: '481'
+ht-degree: 2%
 
 ---
 
@@ -17,6 +17,15 @@ Esta página describe las mejoras realizadas con la versión del tercer trimestr
 
 Para obtener una lista de todos los cambios disponibles en este punto del ciclo de la versión del tercer trimestre de 2026, consulte [Información general de la versión del tercer trimestre de 2026](/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-release-overview.md).
 
+## Actualización de la interfaz para los iconos de navegación global
+
+>[!NOTE]
+>
+>Vista previa: 7 de julio de 2026Versión rápida de producción: 15 de julio de 2026Producción para todos: 16 de julio de 2026
+
+Hemos actualizado el aspecto de los iconos generales de navegación en Workfront, incluidos los iconos del menú principal y de la barra de navegación, para proporcionar un diseño moderno y una experiencia coherente con otras aplicaciones de Adobe. Además, la experiencia de añadir y eliminar páginas ancladas se ha optimizado para requerir menos clics.
+
+Para obtener más información, consulte [Información general sobre la barra de navegación superior](/help/quicksilver/workfront-basics/the-new-workfront-experience/global-navigation-overview.md) y [Páginas de anclaje](/help/quicksilver/workfront-basics/the-new-workfront-experience/pin-pages.md).
 
 ## Apariencia actualizada para los correos electrónicos de notificación de comentarios
 
@@ -42,7 +51,7 @@ Este cambio se está implementando para los clientes por fases. Esta página se 
 
 >[!NOTE]
 >
->Vista previa: 28 de mayo de 2026>Versión rápida de producción: 11 de junio de 2026>Producción para todos: 16 de julio de 2026
+>Vista previa: 28 de mayo de 2026Versión rápida de producción: 11 de junio de 2026Producción para todos: 16 de julio de 2026
 
 Se han actualizado varios tipos de campo en listas mejoradas para incluir la navegación mediante el teclado y otras mejoras.
 
