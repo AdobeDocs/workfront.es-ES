@@ -5,10 +5,10 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8ca50590-ef6a-44b1-a856-9821bdafbc1c
-source-git-commit: 0c7265c477030137d14e95f42eaf67580589d70b
+source-git-commit: 9cdb31404a92171c8972520eb54a9b5b0c729514
 workflow-type: tm+mt
-source-wordcount: '2620'
-ht-degree: 17%
+source-wordcount: '2761'
+ht-degree: 16%
 
 ---
 
@@ -99,53 +99,53 @@ Se celebran seminarios web en directo para cada versión trimestral, en los que 
             <td><strong>Versión rápida</strong></td>
             <td><strong>Trimestralmente</strong></td>
         </tr>
-        <tr>
-            <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Seguimiento de cambios para revisión y aprobación unificadas</a>
-                <p>La página Historial de Cambios ahora captura la actividad en los flujos de trabajo de revisión y aprobación unificados, lo que proporciona a los administradores un registro de control completo para las acciones de aprobación, fase y participante.</p>
-            </td>
-            <td><p>7 de julio de 2026</p></td>
-            <td><p>15 de julio de 2026</p></td>
-            <td><p>16 de julio de 2026</p></td>
-        </tr>
         <!--
         <tr>
             <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Internal lookup field replacing Typeahead field type</a>
-                <p>The new Internal lookup field type in custom forms provides dynamic filtering, multi-select support, and improved performance for large datasets. It is replacing the Typeahead field type.</p>
-            </td>
-            <td><p>July 7, 2026</p></td>
-            <td><p>July 15, 2026</p></td>
-            <td><p>July 16, 2026</p></td>
-        </tr>
-        <tr>
-            <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Default value logic supported on native reference fields</a><p>[!BADGE Workflow Prime]{type=Informative}</p>
-                <p>In custom forms, native reference fields now allow you to add default value logic. This logic type is available only in the user interface and not in the Workfront API.</p>
-            </td>
-            <td><p>July 7, 2026</p></td>
-            <td><p>July 15, 2026</p></td>
-            <td><p>July 16, 2026</p></td>
-        </tr>
-        <tr>
-            <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Updates to native field filtering in custom forms</a>
-                <p>System filters on native fields are now visible to administrators in custom forms, and dynamic filtering is now available on native reference fields.</p>
-            </td>
-            <td><p>July 7, 2026</p></td>
-            <td><p>July 15, 2026</p></td>
-            <td><p>July 16, 2026</p></td>
-        </tr>
-        <tr>
-            <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Protect field names from accidental renaming</a>
-                <p>Field names in the custom form field settings panel are now read-only by default, requiring an explicit confirmation step to rename. The Name field has been updated to API Name.</p>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Change tracking for unified review and approval</a>
+                <p>The Change History page now captures activity across unified review and approval workflows, giving administrators a complete governance trail for approval, stage, and participant actions.</p>
             </td>
             <td><p>July 7, 2026</p></td>
             <td><p>July 15, 2026</p></td>
             <td><p>July 16, 2026</p></td>
         </tr>
         -->
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">El campo de búsqueda interna reemplaza el tipo de campo de escritura anticipada</a>
+                <p>El nuevo tipo de campo de búsqueda interna en los formularios personalizados proporciona filtrado dinámico, compatibilidad con selecciones múltiples y un rendimiento mejorado para conjuntos de datos grandes. Está reemplazando el tipo de campo Escritura anticipada.</p>
+            </td>
+            <td><p>7 de julio de 2026</p></td>
+            <td><p>15 de julio de 2026</p></td>
+            <td><p>16 de julio de 2026</p></td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Se admite la lógica de valor predeterminada en los campos de referencia nativos</a><p>[!BADGE Workflow Prime]{type=Informative}</p>
+                <p>En los formularios personalizados, los campos de referencia nativos ahora permiten agregar una lógica de valor predeterminada. Este tipo de lógica solo está disponible en la interfaz de usuario y no en la API de Workfront.</p>
+            </td>
+            <td><p>7 de julio de 2026</p></td>
+            <td><p>15 de julio de 2026</p></td>
+            <td><p>16 de julio de 2026</p></td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Actualizaciones del filtrado de campos nativos en formularios personalizados</a>
+                <p>Los filtros del sistema en los campos nativos ahora son visibles para los administradores en los formularios personalizados, y el filtrado dinámico ya está disponible en los campos de referencia nativos.</p>
+            </td>
+            <td><p>7 de julio de 2026</p></td>
+            <td><p>15 de julio de 2026</p></td>
+            <td><p>16 de julio de 2026</p></td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Proteger los nombres de campo del cambio de nombre accidental</a>
+                <p>Los nombres de los campos del panel de configuración de campos de formulario personalizados ahora son de solo lectura de forma predeterminada, lo que requiere un paso de confirmación explícito para cambiar el nombre. El campo Nombre se ha actualizado a Nombre de API.</p>
+            </td>
+            <td><p>7 de julio de 2026</p></td>
+            <td><p>15 de julio de 2026</p></td>
+            <td><p>16 de julio de 2026</p></td>
+        </tr>
         <tr>
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Ver historial de cambios para objetos de Workfront</a><p>[!BADGE Off schedule]{type=Neutral}</p>
