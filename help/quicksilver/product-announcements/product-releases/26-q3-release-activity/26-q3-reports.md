@@ -21,7 +21,7 @@ Para obtener una lista de todos los cambios disponibles en este punto del ciclo 
 
 >[!NOTE]
 >
->Vista previa y producción para todos los clientes: 16 de julio de 2026Fuera del horario]{type=Neutral}
+>Vista previa y producción para todos los clientes: 16 de julio de 2026Fuera del horario&rbrack;{type=Neutral}
 
 Esta versión incluye la administración de acceso automatizada y basada en derechos para los datos de Workfront Planning en Snowflake como parte de Workfront Data Connect.
 Comienza ampliando la generación de vistas seguras a las tablas de Planning, estableciendo la base necesaria para el control de acceso descendente y haciendo posibles las concesiones basadas en derechos.Basándose en esto, el aprovisionamiento de cuentas de Reader ahora comprueba los derechos de TMS en el momento de la creación y aplica o retiene automáticamente las subvenciones a la base de datos de Planning, lo que garantiza que sean correctas.
@@ -38,7 +38,7 @@ El artículo de [Workfront Data Connect](/help/quicksilver/reports-and-dashboard
 
 >[!NOTE]
 >
->Vista previa y producción para todos los clientes: 7 de julio de 2026Fuera del horario]{type=Neutral}
+>Vista previa y producción para todos los clientes: 7 de julio de 2026Fuera del horario&rbrack;{type=Neutral}
 
 Durante el segundo trimestre de 2026, agregamos nuevos objetos para admitir las mejoras de operaciones empresariales en Workfront.Con la versión actual, también se añade compatibilidad con datos personalizados para varios objetos nuevos en el panel de lienzo.
 
