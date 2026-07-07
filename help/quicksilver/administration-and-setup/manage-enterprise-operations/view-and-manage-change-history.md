@@ -3,14 +3,14 @@ user-type: administrator
 product-area: system-administration;setup
 navigation-topic: configure-locations
 title: Historial de cambios
-description: El historial de cambios permite ver un registro de los cambios realizados en los objetos Workfront
-author: Becky
+description: El historial de cambios permite ver un registro de los cambios realizados en los objetos de Workfront.
+author: Lisa and Becky
 feature: System Setup and Administration
 role: Admin
-source-git-commit: 44292bc9cf8654d1ecfb398b0f118a6c001f544f
+source-git-commit: c58c4365016f8fe855003cdbbd457f95483d08bc
 workflow-type: tm+mt
-source-wordcount: '403'
-ht-degree: 8%
+source-wordcount: '445'
+ht-degree: 7%
 
 ---
 
@@ -18,10 +18,8 @@ ht-degree: 8%
 
 Puede ver el historial de cambios, incluidos los registros de auditoría, en el área Seguimiento de cambios de Configuración.
 
-* **Registros de auditoría** son cambios activados por los usuarios.
-Para obtener más información sobre los registros de auditoría y el área de registros de auditoría, consulte [Resumen de los registros de auditoría](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/audit-logs.md)
-* **Configuración** muestra qué campo se está rastreando para la lista Historial de cambios.
-Actualmente, la configuración solo está disponible como información y no se puede cambiar. La capacidad de cambiar los campos de los que se realiza un seguimiento estará disponible en un futuro próximo.
+* **Registros de auditoría** son cambios activados por los usuarios.Para obtener más información sobre los registros de auditoría y el área de registros de auditoría, vea [Resumen de los registros de auditoría](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/audit-logs.md)
+* **Configuración** muestra qué campo se está rastreando para la lista Historial de cambios.Actualmente, la configuración solo está disponible como información y no se puede cambiar. La capacidad de cambiar los campos de los que se realiza un seguimiento estará disponible en un futuro próximo.
 * La lista Historial de cambios permite ver un registro de los cambios realizados en los objetos de Workfront, incluidos atributos como:
 
    * Objeto
@@ -39,7 +37,7 @@ Actualmente, la configuración solo está disponible como información y no se p
  <tbody> 
   <tr> 
    <td>[!DNL Adobe Workfront] paquete</td> 
-   <td>Workflow Ultimate</td> 
+   <td>Cualquiera</td> 
   </tr> 
   <tr> 
    <td>[!DNL Adobe Workfront] licencia</td> 

@@ -7,21 +7,25 @@ exl-id: c4103f8e-4c3f-4d4d-a0eb-628c60735ab7
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/VryLEVTqJFgAxlm-al5y0hqxVQ71zFPi8YG1oAlox8k
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: c58c4365016f8fe855003cdbbd457f95483d08bc
 workflow-type: tm+mt
-source-wordcount: 291
+source-wordcount: 362
 ht-degree: 1%
 
 ---
 
 # Información general sobre las rutas de exploración
 
+{{highlighted-preview}}
+
 Las rutas de exploración muestran la jerarquía de exploración completa para todos los tipos de objetos. Cada objeto de la ruta de exploración tiene una etiqueta que muestra el tipo de objeto. La página en la que se encuentra actualmente se muestra en cursiva tanto en el encabezado de página como al final de la ruta de la ruta de exploración. En el ejemplo siguiente, esta es la tarea &quot;[!UICONTROL Compartir con el equipo de marca]&quot;.
 
+<span class="preview">Imagen de muestra en el entorno de vista previa:</span>
+![Ruta de exploración contraída](assets/collapsed-breadcrumb-2026.png)
+
+Imagen de muestra en el entorno de producción:
 ![Ruta de exploración contraída](assets/NWE-collapsed-breadcrumb.png)
 
 Cuando hay demasiados objetos en la ruta de exploración o el ancho de pantalla prohíbe que se muestre la jerarquía de exploración completa, la ruta contrae algunas de las rutas de exploración y agrupa estos objetos al principio de la ruta de exploración. Tanto el proyecto como la página del objeto actual siempre están visibles en la ruta de exploración.
@@ -30,6 +34,10 @@ Por ejemplo, &quot;3 más&quot; en la imagen anterior indica que no se muestran 
 
 Si hace clic en &quot;[!UICONTROL más]&quot; podrá expandir la jerarquía completa. Puede hacer clic en &quot;[!UICONTROL Menos]&quot; para contraer de nuevo la ruta de exploración.
 
+<span class="preview">Imagen de muestra en el entorno de vista previa:</span>
+![Ruta de exploración contraída](assets/expanded-breadcrumb-2026.png)
+
+Imagen de muestra en el entorno de producción:
 ![Ruta de exploración expandida](assets/NWE-expanded-breadcrumb.png)
 
 También puede utilizar las siguientes teclas para desplazarse por las rutas de exploración:
@@ -82,3 +90,5 @@ Para obtener información acerca de los objetos principales de [!DNL Workfront],
 1. Haga clic en cualquier objeto de la ruta de exploración para acceder a ese objeto.
 
    Se abre la página del objeto.
+
+   Si está viendo un proyecto que está conectado a un objeto en Workfront Planning (por ejemplo, una campaña), puede cambiar entre los tipos de objeto de Planning y Workfront desde la ruta de exploración. Para obtener más información, consulte [Información general sobre jerarquía y ruta de exploración](/help/quicksilver/planning/architecture/hierarchy-and-breadcrumb-overview.md).

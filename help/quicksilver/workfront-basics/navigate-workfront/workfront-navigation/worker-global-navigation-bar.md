@@ -8,29 +8,23 @@ author: Lisa and Courtney
 feature: Get Started with Workfront
 exl-id: c6e67518-a9e7-4b71-93d2-7a9d36633792
 TQID: https://experienceleague.adobe.com/3VM5YoTkx242vVP-xMPVF06pBnnlJ843fXLQv8zW13c
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: c549503a-6440-4802-9525-ceb73a00feff
-  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: c549503a-6440-4802-9525-ceb73a00feffid: ce22a157-dd2c-405f-b740-c2f204bb4c1aid: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: c58c4365016f8fe855003cdbbd457f95483d08bc
 workflow-type: tm+mt
-source-wordcount: 466
-ht-degree: 90%
+source-wordcount: 481
+ht-degree: 87%
 
 ---
 
 # Comprender la navegación de un usuario con licencia de [!UICONTROL Trabajo]
 
-El [!UICONTROL Menú principal] cambia con el nivel de acceso que le asignó su administrador de [!DNL Adobe Workfront]. De forma predeterminada, solo se le otorga acceso a las áreas que incluyen la funcionalidad permitida por su nivel de acceso. Para comprender los componentes del diseño predeterminado de cada nivel de acceso, consulte [Acerca del diseño predeterminado [!DNL Adobe Workfront] &#x200B;](../../../administration-and-setup/customize-workfront/use-layout-templates/about-the-default-wf-layout.md).
+{{highlighted-preview}}
+
+El [!UICONTROL Menú principal] cambia con el nivel de acceso que le asignó su administrador de [!DNL Adobe Workfront]. De forma predeterminada, solo se le otorga acceso a las áreas que incluyen la funcionalidad permitida por su nivel de acceso. Para comprender los componentes del diseño predeterminado de cada nivel de acceso, consulte [Acerca del diseño predeterminado [!DNL Adobe Workfront] ](../../../administration-and-setup/customize-workfront/use-layout-templates/about-the-default-wf-layout.md).
 
 ## Comprender el [!UICONTROL menú principal] predeterminado de un trabajador
 
@@ -66,6 +60,10 @@ Las siguientes áreas están incluidas en el diseño predeterminado de un [!UICO
 
 * **[!UICONTROL Tableros]**: trabaje con flexibilidad y colaboración con los integrantes del equipo mediante tableros compartidos que contengan columnas y tarjetas que reflejen el trabajo que desea realizar. Para obtener más información, consulte [Introducción a los tableros: índice de artículos](../../../agile/get-started-with-boards/get-started-with-boards.md).
 
+<span class="preview">Imagen de muestra en el entorno de vista previa:</span>
+![Menú principal del trabajador](assets/worker-main-menu-070626.png)
+
+Imagen de muestra en el entorno de producción:
 ![Menú principal del trabajador](assets/worker-main-menu-2026.png)
 
 ## Personalizar el [!UICONTROL menú principal] predeterminado
