@@ -9,25 +9,21 @@ feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 5f5dbeb5-b974-489c-8f4d-ebaa00f5e5ba
 TQID: https://experienceleague.adobe.com/nQQNC-imexdKyKEfrUI3zNVEx5-wS7O8Lq0wbRSpG2g
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: e3c91351ad38d0585747df4adfd8818dfcea3530
 workflow-type: tm+mt
-source-wordcount: 3556
-ht-degree: 27%
+source-wordcount: 3610
+ht-degree: 28%
 
 ---
 
 # Añadir reglas lógicas a formularios y campos personalizados
+
+{{highlighted-preview}}
 
 Las reglas lógicas permiten personalizar aún más los campos del formulario.
 
@@ -95,8 +91,7 @@ Solo para lógica de visualización y de omisión, seleccione un campo para most
 
 ## Consideraciones para utilizar la lógica de visualización y la lógica de omisión
 
-* Para agregar lógica de visualización en un campo personalizado, widget o salto de sección, debe colocarse al menos un campo de opción múltiple (botones de opción, listas desplegables o casillas de verificación) antes de él en el formulario.
-Para obtener información sobre los campos y widgets personalizados en los formularios personalizados, consulte [Crear un formulario personalizado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+* Para agregar lógica de visualización en un campo personalizado, widget o salto de sección, debe colocarse al menos un campo de opción múltiple (botones de opción, listas desplegables o casillas de verificación) antes de él en el formulario.Para obtener información sobre los campos y widgets personalizados en los formularios personalizados, consulte [Crear un formulario personalizado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 * No se puede añadir lógica de omisión a un widget o salto de sección. Solo puede añadirlo a un campo de opción múltiple (botones de opción, listas desplegables o casillas de verificación).
 * No se puede aplicar la lógica de visualización u omisión para mostrar u ocultar las opciones de un campo de varias opciones. Por ejemplo, no puede restringir las opciones que se muestran para un campo Desplegable, un grupo de casillas de verificación o un campo de botón de opción en función de la lógica de visualización u omisión de otro campo.
 * Puede añadir lógica de visualización y lógica de omisión a un campo personalizado si se cumplen todas las condiciones siguientes en relación con el campo personalizado:
@@ -238,7 +233,7 @@ La lógica de omisión define campos de formulario personalizados que se omiten 
 
 La lógica de valores predeterminada permite configurar los valores predeterminados de los campos de formulario personalizados mediante fórmulas. El valor predeterminado se muestra cuando se cumplen las condiciones definidas. Un valor predeterminado puede ser un valor estático o dinámico que haga referencia a otros campos dentro del objeto. Aunque el valor predeterminado puede hacer referencia a otros campos, no cambiará a medida que cambien otros campos del formulario.
 
-Puede aplicar lógica de valor predeterminada avanzada a los siguientes tipos de campo: texto de una línea, párrafo, lista desplegable de selección única, lista desplegable de selección múltiple, búsqueda externa, búsqueda externa de selección múltiple. referencia de campo nativo, escritura anticipada, grupo de casillas de verificación y botones de opción.
+Puede aplicar lógica de valor predeterminada avanzada a los siguientes tipos de campo: texto de una línea, párrafo, lista desplegable de selección única, lista desplegable de selección múltiple, búsqueda externa, búsqueda externa de selección múltiple, <span class="preview">referencia de campo nativo</span>, escritura anticipada, grupo de casillas de verificación y botones de opción.
 
 >[!TIP]
 >
@@ -247,6 +242,8 @@ Puede aplicar lógica de valor predeterminada avanzada a los siguientes tipos de
 >[!NOTE]
 >
 >La lógica de valor predeterminada estándar del diseñador de formularios sigue existiendo. Si ambos tipos se aplican en el mismo campo, la lógica avanzada tiene prioridad. Para obtener información sobre la lógica de valor predeterminada estándar, consulte [Agregar botones de opción, grupos de casillas de verificación y listas desplegables](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md#add-radio-buttons-checkbox-groups-and-drop-downs) en [Crear un formulario personalizado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+>
+><span class="preview">Para los campos de referencia nativos, la lógica de valor predeterminada solo está disponible en la interfaz de usuario y no en la API de Workfront.</span>
 
 ### Ejemplo
 
