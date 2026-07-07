@@ -19,10 +19,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+source-git-commit: a76a39fde984bece43cda9812c436d81f41eb989
 workflow-type: tm+mt
-source-wordcount: 4179
-ht-degree: 39%
+source-wordcount: 4341
+ht-degree: 38%
 
 ---
 
@@ -268,7 +268,7 @@ Para administrar una vista de cronología:
 1. Actualice los siguientes elementos de vista como se describe en las subsecciones siguientes:
    * [Filtros](#add-filters)
    * [Agrupación](#add-grouping)
-   * [Configuración](#edit-the-timeline-view-settings)
+   * &lbrack;Configuración
      <!--* [Sort](#add-sort) not yet in timeline; also check the anchor and make sure it's correct-->
 
 ### Añadir filtros
@@ -378,12 +378,11 @@ Para agregar un filtro a una vista de cronología:
 1. Haga clic en los siguientes operadores a la izquierda para indicar cómo se unen y deben aplicarse las condiciones de filtro:
 
    * **AND**: se deben cumplir todas las condiciones especificadas.
-   * **OR**: se debe cumplir cualquiera de las condiciones especificadas.
-Esta es la opción predeterminada.
+   * **OR**: se debe cumplir cualquiera de las condiciones especificadas.Esta es la opción predeterminada.
 
 1. (Opcional) Agregue agrupaciones de filtros adicionales y únase a ellas con los operadores **AND** o **OR**.
 
-   La lista de registros se filtra automáticamente según los criterios de filtro.  <!--at this time, you can't name and save the filter - but will this change?!-->
+   La lista de registros se filtra automáticamente según los criterios de filtro.  
    <!-- asked on the task for the simple filters whether there is a limitation for how many statements a filter can have?!-->
 
 1. (Opcional) Haga clic en el icono **x** para quitar una condición de filtro.
@@ -406,8 +405,7 @@ Es posible agrupar registros por información similar al aplicar una agrupación
 Tenga en cuenta lo siguiente al trabajar con agrupaciones en la vista de cronología:
 
 * Es posible aplicar agrupaciones tanto en las vistas de tabla como de cronología. Las agrupaciones de la vista de tabla son independientes de las de la vista de cronología del mismo tipo de registro.
-* Se pueden aplicar 3 niveles de agrupación en una vista. Los registros se agrupan en el orden de agrupaciones que seleccione.
-&lt;!—* Puede aplicar hasta 4 niveles de agrupación al utilizar la API. —comprobando este por ahora—>
+* Se pueden aplicar 3 niveles de agrupación en una vista. Los registros se agrupan en el orden de agrupaciones que se seleccione.&lt;!—!—* Puede aplicar hasta 4 niveles de agrupación al utilizar la API. --comprobando este ahora-->
 * Las agrupaciones son únicas para la vista que se seleccione. Dos vistas de tabla del mismo tipo de registro pueden tener diferentes agrupaciones aplicadas. Dos usuarios que vean la misma vista de tabla verán la misma agrupación que se aplique en ese momento.
 * No se puede asignar un nombre a las agrupaciones que se generen para una vista de tabla.
 * Al quitar las agrupaciones, se quitarán de cualquier usuario que tenga acceso al mismo tipo de registro y que muestre la misma vista que usted.
@@ -445,6 +443,17 @@ Para añadir una agrupación en la vista de cronología:
 
 1. En el cuadro **Agrupar registros por**, arrastre y suelte las agrupaciones en el orden correcto.
 
+1. <span class="preview"> En el área **Diseño** del cuadro **Agrupar registros por**, seleccione una de las siguientes opciones:</span>
+
+   <div class="preview">
+
+   * **Apiladas**: las agrupaciones se muestran sin una columna izquierda inmovilizada y se ajustan al ancho de las escalas de tiempo de sus elementos.
+
+     ![Agrupación apilada en la vista de escala de tiempo](assets/stacked-grouping-in-timeline-view.png)
+   * **Carretera de la piscina**: las agrupaciones se muestran con una columna de encabezado izquierdo congelada que enumera los elementos agrupados y las agrupaciones se ajustan a la anchura de la vista de escala de tiempo.
+
+     ![Agrupación de calles en la vista de cronología](assets/swimlane-grouping-in-timeline-view.png)
+
 1. (Opcional) Dentro del cuadro **Agrupar registros por**, haga clic en el icono **x** a la derecha de un campo seleccionado para la agrupación para quitar la agrupación
 
    O
@@ -452,6 +461,11 @@ Para añadir una agrupación en la vista de cronología:
    Haga clic en **Borrar todo** para quitar todos los campos.
 
 1. Haga clic fuera del cuadro **Agrupar registros por** para cerrarlo.
+1. (Opcional) Arrastre y suelte elementos en la vista de cronología para ajustar sus fechas.
+
+   >[!TIP]
+   >
+   >Cuando arrastra y suelta registros de una agrupación a otra, los campos seleccionados en la agrupación actualizan automáticamente los valores de los registros movidos.
 1. (Opcional) Haga clic en **Configuración** y, a continuación, en **Color** para añadir agrupaciones con códigos de color. Para obtener más información, consulte la sección [Editar la configuración de la vista de cronología](#edit-the-timeline-view-settings) en este artículo.
 
 <!-- 
@@ -595,8 +609,7 @@ Tenga en cuenta lo siguiente al desglosar la cronología de los registros según
   Por ejemplo, las tareas están conectadas a proyectos en Workfront. Con la función Desglose, puede mostrar los proyectos que están conectados a campañas en Planning, pero no las tareas conectadas a proyectos en Workfront.
 
   Si desea mostrar tanto los portafolios como los proyectos en la vista de escala de tiempo de un tipo de registro de Workfront Planning, tanto los portafolios como los proyectos deben estar conectados al registro de Planning o a un registro conectado al registro de Planning cuya vista de escala de tiempo esté administrando.
-* No se pueden mostrar marcas de Adobe GenStudio conectadas a tipos de registros de Planning.
-Para obtener más información, vea [Conectar tipos de registros](/help/quicksilver/planning/architecture/connect-record-types.md).
+* No se pueden mostrar marcas de Adobe GenStudio conectadas a tipos de registros de Planning.Para obtener más información, consulte [Conectar tipos de registros](/help/quicksilver/planning/architecture/connect-record-types.md).
 * Solo puede mostrar tipos de registro asociados con al menos dos campos de fecha.
 * Los campos de fecha para los tipos de registro que desea mostrar en la vista de escala de tiempo deben estar visibles en la vista de tabla del tipo de registro seleccionado, como campos de búsqueda.
 * Las fechas de inicio y finalización de los tipos de registro que desea mostrar en la vista de escala de tiempo deben estar en orden cronológico. Por ejemplo, si un registro tiene una fecha de inicio del 31 de enero y una fecha de finalización del 1 de enero, no se muestra en la vista de escala de tiempo. Para obtener más información, consulte la sección [Administrar una vista de escala de tiempo](#manage-a-timeline-view) en este artículo.
