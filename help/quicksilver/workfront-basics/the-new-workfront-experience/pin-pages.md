@@ -14,14 +14,16 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 0115873e8dc3f17ae11fe137bfb57f12e6b514db
 workflow-type: tm+mt
-source-wordcount: 401
-ht-degree: 63%
+source-wordcount: 531
+ht-degree: 48%
 
 ---
 
 # Anclar páginas para personalizar el espacio de trabajo
+
+{{highlighted-preview}}
 
 <!-- Audited: 4/2025 -->
 
@@ -62,6 +64,10 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
 
 1. En la esquina superior izquierda de la página, haga clic en **[!UICONTROL Anclar página actual]**. Ahora se podrá acceder a la página anclada desde la parte superior de cualquier página de [!DNL Workfront].
 
+   <span class="preview">Imagen de muestra en el entorno de vista previa:
+   ![Anclar página actual](assets/pin-current-page-button-2026.png)
+
+   Imagen de muestra en el entorno de producción:
    ![Anclar página actual](assets/pin-current-page-button.png)
 
 ## Acceder a una página anclada
@@ -76,9 +82,32 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
 
    Si tiene muchas páginas ancladas, haga clic en el icono **[!UICONTROL Más]** ![Haga clic en el icono Más](assets/more-icon.png) para ver otras páginas ancladas.
 
+   <span class="preview">Imagen de muestra en el entorno de vista previa:
+   ![Anclar página actual](assets/display-pinned-pages-2026.png)
+
+   Imagen de muestra en el entorno de producción:
    ![Ver páginas ancladas adicionales](assets/display-pinned-pages.png)
 
    Se mostrará la página anclada.
+
+<div class="preview">
+
+## Administrar anclajes
+
+Puede cambiar el nombre, reordenar y quitar páginas ancladas en un solo lugar.
+
+1. Haga clic en el icono **[!UICONTROL Más]** ![Haga clic en el icono Más](assets/more-icon.png) en la fila de anclajes y seleccione **Administrar anclajes**.
+1. En el cuadro **Administrar anclajes**, realice una o más de las siguientes acciones:
+
+   * Haga clic en el icono **Editar** para cambiar el nombre de una página anclada. Escriba el nuevo nombre y haga clic en el icono de marca de verificación para confirmar.
+   * Arrastre y suelte las páginas ancladas en el orden en que desee que aparezcan.
+   * Haga clic en el icono **Eliminar** para eliminar una página anclada de la lista.
+
+   ![Administrar cuadro de anclajes](assets/manage-pins.png)
+
+1. Haga clic en **Cerrar** cuando haya terminado de editar anclajes.
+
+</div>
 
 ## Cambiar el nombre de una página anclada
 
@@ -90,7 +119,6 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
 1. Escriba el nuevo nombre de anclaje y haga clic en **Guardar**.
 
    ![Click the check mark to rename pin](assets/rename-pin-dialog-box.png)
-
 
 ## Reordenar páginas ancladas
 

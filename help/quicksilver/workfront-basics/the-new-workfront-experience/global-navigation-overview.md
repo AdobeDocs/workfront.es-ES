@@ -5,19 +5,25 @@ description: La barra de navegación superior, que aparece en la parte superior 
 feature: Get Started with Workfront
 author: Courtney
 exl-id: 6262d0ff-4be0-41ac-b2e7-5eaa6b2795dc
-source-git-commit: 201a4430cfaa10bb99ef63ec96ecdccd3b07b0f1
+source-git-commit: c58c4365016f8fe855003cdbbd457f95483d08bc
 workflow-type: tm+mt
-source-wordcount: '673'
-ht-degree: 93%
+source-wordcount: '687'
+ht-degree: 88%
 
 ---
 
 # Información general sobre la barra de navegación superior
 
+{{highlighted-preview}}
+
 <!--Audited: 01/2024-->
 
 La barra de navegación superior, que aparece en la parte superior de la pantalla en [!DNL Adobe Workfront], le permite buscar y desplazarse fácilmente a otras áreas de la plataforma.
 
+<span class="preview">Imagen de muestra en el entorno de vista previa:</span>
+![Barra de navegación superior](assets/wf-top-navigation-070626.png)
+
+Imagen de muestra en el entorno de producción:
 ![Barra de navegación superior](assets/wf-top-navigation-2026.png)
 
 ## Icono de [!UICONTROL Inicio]
@@ -30,7 +36,7 @@ El administrador de Workfront puede personalizar el icono de Inicio para abrir u
 
 ## [!UICONTROL Menú principal]
 
-El icono de **[!UICONTROL Menú principal]** ![](assets/main-menu-icon-left-nav.png) abre el [!UICONTROL Menú principal], desde donde puede desplazarse a otra área de Workfront.
+El icono **[!UICONTROL Menú principal]** ![Menú principal](assets/main-menu-icon-left-nav.png) abre el [!UICONTROL Menú principal], donde puede desplazarse a otra área de Workfront.
 
 Las opciones disponibles en el [!UICONTROL Menú principal] dependen de lo siguiente:
 
