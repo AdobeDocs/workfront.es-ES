@@ -10,17 +10,13 @@ exl-id: 32cb95c2-8d12-492b-ad89-b38e2a337fc5
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/P-naBIVBoFQcBaL4Zgo0cEOTQ8eErxqr0MBmHTbec9E
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 82530b9b87f6865ec294adcdc601443ee48dcbcf
 workflow-type: tm+mt
-source-wordcount: 4002
+source-wordcount: 4114
 ht-degree: 0%
 
 ---
@@ -29,8 +25,7 @@ ht-degree: 0%
 
 {{highlighted-preview}}
 
-La revisión y la aprobación unificadas reúnen Adobe Workfront y Adobe Frame.io en una única experiencia profundamente conectada: se eliminan las diferencias entre la administración de marketing, la revisión creativa y la entrega de contenido.
-Los coordinadores de proyectos administran el trabajo en Workfront mientras los creativos, los especialistas en marketing y las partes interesadas revisan y aprueban los recursos en el visor Frame.io de nivel profesional, todo sin mover archivos entre herramientas desconectadas.
+La revisión y la aprobación unificadas reúnen Adobe Workfront y Adobe Frame.io en una única experiencia profundamente conectada: se eliminan las diferencias entre la administración de marketing, la revisión creativa y la entrega de contenido.Los coordinadores de proyectos administran el trabajo en Workfront mientras los creativos, los especialistas en marketing y las partes interesadas revisan y aprueban los recursos en el visor Frame.io de nivel profesional, todo sin mover archivos entre herramientas desconectadas.
 
 ![Diagrama que muestra el flujo de trabajo unificado de revisión y aprobación, con coordinadores de proyecto que administran el trabajo en Workfront y revisores y aprobadores que proporcionan comentarios y toman decisiones en el visor Frame.io.](assets/Unified-Review-Approvals-Image.png)
 
@@ -286,6 +281,14 @@ Sí. Se puede asignar a un usuario varias fases dentro del mismo flujo de trabaj
 **¿Puedo agregar etapas para crear un flujo de trabajo de aprobación de varias etapas?**
 
 Sí. Se admiten flujos de trabajo de aprobación de varias etapas, lo que le permite enrutar los recursos a través de rondas secuenciales de revisión y aprobación con diferentes participantes en cada etapa.
+
+<div class="preview">
+
+**¿Puedo configurar rutas de revisión paralelas en un flujo de trabajo de aprobación?**
+
+Sí. En la vista previa, los flujos de trabajo de aprobación admiten rutas paralelas además de etapas secuenciales. Cada ruta se ejecuta de forma independiente y contiene una o más etapas secuenciales, por lo que las revisiones de diferentes rutas pueden producirse al mismo tiempo. Puede configurar hasta 30 rutas y 100 etapas en una sola aprobación. Las mismas opciones están disponibles en las plantillas de aprobación. Para obtener más información, vea [Crear un flujo de trabajo de aprobación de documentos](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md) y [Crear una plantilla de flujo de trabajo de aprobación para documentos](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md).
+
+</div>
 
 <!--
 **Can I modify the trigger for a later stage---for example, based on all approved versus the due date ending?**

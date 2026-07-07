@@ -8,15 +8,16 @@ feature: Work Management, Digital Content and Documents
 exl-id: 10962d59-284e-4c41-8523-18ea4ed78362
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 34861693e7671c3e485668ab7887a4cd05ae6e99
+source-git-commit: 82530b9b87f6865ec294adcdc601443ee48dcbcf
 workflow-type: tm+mt
-source-wordcount: '1020'
+source-wordcount: '1062'
 ht-degree: 4%
 
 ---
 
 # Introducción a la revisión y aprobación unificadas
 
+{{highlighted-preview}}
 
 La revisión y la aprobación unificadas reúnen Adobe Workfront y Adobe Frame.io en una única experiencia profundamente conectada, lo que reduce las diferencias entre la administración de marketing, la revisión creativa y la entrega de contenido. Los coordinadores de proyectos administran el trabajo en Workfront mientras los creativos, los especialistas en marketing y las partes interesadas revisan y aprueban los recursos en el visor Frame.io de nivel profesional, todo sin mover archivos entre herramientas desconectadas.
 
@@ -63,11 +64,11 @@ Los coordinadores de proyecto pueden crear aprobaciones y revisiones únicas o p
 
 Los revisores y aprobadores se pueden añadir a un flujo de trabajo de aprobación de un solo uso o a una plantilla de aprobación reutilizable:
 
-* **Aprobaciones de un solo uso**: en el proyecto o tarea donde reside el recurso, el coordinador del proyecto puede asignar revisores y aprobadores y establecer un límite de finalización. Se recuerda a los revisores y aprobadores por correo electrónico 72 horas antes del plazo, 24 horas antes del plazo y, a continuación, en el propio plazo.
+* **Aprobaciones de un solo uso**: en el proyecto o tarea donde reside el recurso, el coordinador del proyecto puede asignar revisores y aprobadores y establecer un límite de finalización. Se recuerda a los revisores y aprobadores por correo electrónico 72 horas antes del plazo, 24 horas antes del plazo y, a continuación, en el propio plazo. <span class="preview">En Vista previa, también puede configurar aprobaciones de varias etapas y rutas paralelas para que se ejecuten varios seguimientos de revisión al mismo tiempo.</span>
 
   Para obtener más información, consulte [Crear un flujo de trabajo de aprobación de documentos](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md#create-an-approval-workflow-from-the-summary-panel-in-the-new-document-area).
 
-* **Plantillas de aprobación**: en el área Configuración de Workfront, los coordinadores de proyecto pueden crear plantillas de aprobación reutilizables. En una plantilla, los usuarios pueden agregar revisores y aprobadores, y especificar un periodo de finalización. Cuando la plantilla de aprobación se aplica a un recurso, la fecha límite se calcula a partir del periodo de tiempo especificado.
+* **Plantillas de aprobación**: en el área Configuración de Workfront, los coordinadores de proyecto pueden crear plantillas de aprobación reutilizables. En una plantilla, los usuarios pueden agregar revisores y aprobadores, y especificar un periodo de finalización. Cuando la plantilla de aprobación se aplica a un recurso, la fecha límite se calcula a partir del periodo de tiempo especificado. <span class="preview">En la vista previa, las plantillas de aprobación admiten aprobaciones de varias etapas y rutas paralelas, que coinciden con las opciones de configuración disponibles en las aprobaciones de un solo uso.</span>
 
   Una vez creada una plantilla, se puede aplicar a un recurso para iniciar el proceso formal de revisión y aprobación en Workfront.
 
