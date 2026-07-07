@@ -21,10 +21,10 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 63f9627ccda9080a9ce505963f9ee495ccfbd8f3
 workflow-type: tm+mt
-source-wordcount: 536
-ht-degree: 29%
+source-wordcount: 566
+ht-degree: 27%
 
 ---
 
@@ -108,7 +108,7 @@ A continuación se ofrece una lista de los tipos de informes que admite actualme
 * Informes de Workfront Planning
 * Y/O filtrado
 * Formato condicional de columnas y filas de la tabla
-* Configuración de desglose para informes de gráficos y KPI
+* Configuración detallada para informes de gráficos y KPI
 * Resultados de tabla de agrupación
 * Filtros de nivel de panel y filtros de superposición aplicados por el usuario
 * Ejecutar como Configuración de usuario para informes
@@ -116,12 +116,16 @@ A continuación se ofrece una lista de los tipos de informes que admite actualme
 
 ### Características en desarrollo
 
+Actualmente, las siguientes funciones están disponibles en el panel de lienzo de forma iterativa:
+
 * Tipos de objetos adicionales de Workfront
 * Mejoras de uso
 * Incluir vistas de Workfront Planning como bloque de informe en un tablero
 * Uso de un tablero como vista de planificación de Workfront
 * Compatibilidad ampliada para clientes de Azure y GCP
 * Optimización del rendimiento
+
+Para obtener información sobre las características que se agregan al panel de lienzo, consulte [Versiones de productos](/help/quicksilver/product-announcements/product-releases/product-releases.md).
 
 ### Futuras funciones de hoja de ruta
 

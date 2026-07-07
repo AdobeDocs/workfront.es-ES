@@ -20,10 +20,10 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 63f9627ccda9080a9ce505963f9ee495ccfbd8f3
 workflow-type: tm+mt
-source-wordcount: 1355
-ht-degree: 80%
+source-wordcount: 1382
+ht-degree: 78%
 
 ---
 
@@ -165,7 +165,7 @@ En la siguiente tabla se muestra el nivel de permisos que se pueden seleccionar 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Convertirlo en visible en todo el sistema.</strong></td> 
-   <td> <p>El objeto se puede encontrar en búsquedas y ser visto por usuarios con una cuenta de Workfront.</p><p><b>Nota</b>: los usuarios con licencias de colaborador o solicitante no pueden ver proyectos, aunque esta configuración esté habilitada. </td> 
+   <td> <p>El objeto se puede encontrar en búsquedas y ser visto por usuarios con una cuenta de Workfront.</p><p><b>NOTA</b>: los usuarios con licencias de colaborador o solicitante no pueden ver proyectos, filtros, vistas, agrupaciones ni ningún objeto compartido en todo el sistema, aunque esta configuración esté habilitada. Puede compartir estos objetos con los colaboradores o solicitantes de forma individual para que puedan verlos. </td> 
   </tr> 
  </tbody> 
 </table>

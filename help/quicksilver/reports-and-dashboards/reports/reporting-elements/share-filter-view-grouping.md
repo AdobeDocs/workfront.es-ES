@@ -18,10 +18,10 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 63f9627ccda9080a9ce505963f9ee495ccfbd8f3
 workflow-type: tm+mt
-source-wordcount: 1182
-ht-degree: 96%
+source-wordcount: 1245
+ht-degree: 91%
 
 ---
 
@@ -123,7 +123,12 @@ Compartir un filtro mediante la interfaz del generador estándar:
    </tr>
    <tr>
    <td role="rowheader"><strong>Compartido conmigo</strong></td>
-   <td>Filtros que otros han creado y compartido con usted o que se comparten en todo el sistema.</td>
+   <td>Filtros que otros han creado y compartido con usted o que se comparten en todo el sistema.
+   <p><b>NOTA</b></p>
+   <p>Los usuarios con una licencia de colaborador, solicitante o externa no pueden ver los filtros, vistas o agrupaciones que se comparten en todo el sistema. Para que uno esté disponible para estos usuarios, compártalo con ellos directamente (a través de su usuario, función de trabajo, equipo, grupo o compañía) en lugar de depender de la visibilidad de todo el sistema. Esto se aplica incluso cuando el filtro, la vista o la agrupación se incluyen en su plantilla de diseño.</p>
+
+
+   </td>
    </tr>
    </tbody>
    </table>

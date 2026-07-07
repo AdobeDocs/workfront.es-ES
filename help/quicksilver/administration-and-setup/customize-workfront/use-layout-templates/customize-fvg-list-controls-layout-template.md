@@ -19,9 +19,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 63f9627ccda9080a9ce505963f9ee495ccfbd8f3
 workflow-type: tm+mt
-source-wordcount: 766
+source-wordcount: 822
 ht-degree: 18%
 
 ---
@@ -69,6 +69,13 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
 +++
 
 ## Personalizar controles de lista de filtro, vista y agrupación
+
+
+>[!NOTE]
+>
+>Agregar una vista, un filtro o una agrupación a una plantilla de diseño sólo controla el diseño; no concede acceso. Los usuarios aún necesitan acceso de visualización para cada elemento.
+>
+>Los usuarios colaboradores, solicitantes y usuarios de licencias externas no pueden ver los elementos compartidos en todo el sistema, por lo que las vistas destinadas a ellos deben compartirse explícitamente. Para obtener más información, consulte [Compartir un filtro, una vista o una agrupación](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md).
 
 1. Empiece a trabajar en una plantilla de diseño, tal como se describe en [Crear y administrar plantillas de diseño](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
 1. Haga clic en la flecha abajo ![Flecha abajo](assets/down-arrow-blue.png) bajo **Personalizar lo que ven los usuarios** y, a continuación, haga clic en **Listas** en el menú desplegable que se muestra.
