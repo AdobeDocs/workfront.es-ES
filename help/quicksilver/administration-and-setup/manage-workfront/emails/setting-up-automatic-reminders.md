@@ -11,18 +11,14 @@ exl-id: 37ad04a1-d3c8-48b2-aed8-fe40456196ec
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/sxv8RUKwTr-SABLfOrmTa0J9ToM62-1tF5rFEnu41UI
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: f283a5f64062e5878373527de46b0d993b545ba7
 workflow-type: tm+mt
-source-wordcount: 627
-ht-degree: 89%
+source-wordcount: 836
+ht-degree: 63%
 
 ---
 
@@ -30,9 +26,11 @@ ht-degree: 89%
 
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.-->
 
-Como administrador de Adobe Workfront, puede configurar recordatorios automáticos para activar las notificaciones por correo electrónico cuando todas las tareas o problemas venzan, se retrasen o estén cerca de la fecha planificada de finalización. Después de establecer esta configuración, los usuarios no pueden deshabilitar los avisos automáticos.
+Como administrador de Adobe Workfront, puede configurar recordatorios automáticos para almacenar en déclencheur las notificaciones por correo electrónico cuando todas las tareas, problemas u otros elementos de trabajo asignados estén vencidos, retrasados o cerca de la fecha planificada de finalización.
 
-Para las notificaciones tardías, el correo electrónico se envía todas las noches hasta que se complete la tarea o el problema.
+Después de establecer esta configuración, los usuarios no pueden deshabilitar los avisos automáticos. Los recordatorios automáticos se enviarán independientemente de la configuración de notificaciones del usuario en el área Mi configuración.
+
+Para las notificaciones tardías, el correo electrónico se envía todas las noches hasta que se complete la tarea o el problema. Esto significa que el usuario recibirá una notificación cada día mientras la tarea o el problema no se hayan completado.
 
 Se puede enviar un recordatorio automático a una o varias de las siguientes personas:
 
@@ -72,6 +70,25 @@ Se puede enviar un recordatorio automático a una o varias de las siguientes per
 Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
+
+## Detalles de la funcionalidad de recordatorio automático
+
+### Distinción de otros tipos de recordatorios
+
+Los avisos automáticos son la función de aviso en el nivel de instalación para tareas y problemas de Workfront, y son independientes de la función de aviso en el nivel de objeto. Para obtener información sobre la diferencia entre los recordatorios automáticos y las notificaciones de recordatorio, consulte [Recordatorios automáticos frente a notificaciones de recordatorio](/help/quicksilver/administration-and-setup/tips-tricks-and-troubleshooting/auto-reminders-vs-reminder-notifications.md).
+
+Las decisiones de revisión y revisión tampoco se gestionan mediante recordatorios automáticos y siguen un proceso de recordatorio independiente. Para obtener más información sobre los recordatorios de revisión y decisión de prueba, consulte los artículos en [Notificaciones de prueba y recordatorios](/help/quicksilver/workfront-proof/wp-emailsntfctns/wp-emails-and-notifications.md).
+
+## Consideraciones al utilizar recordatorios automáticos
+
+Tenga en cuenta lo siguiente al utilizar recordatorios automáticos:
+
+* Los correos electrónicos vencidos se envían como un correo electrónico de resumen por destinatario y día, no como correos electrónicos independientes por elemento.
+* La activación de los recordatorios automáticos puede provocar problemas o tareas que ya han vencido y que aparecerán en el siguiente correo electrónico de resumen vencido, independientemente del tiempo que haya pasado el elemento.
+* Los recordatorios solo se aplican a los proyectos en estado Actual/Activo.
+* &quot;Días&quot; en la configuración automática de recordatorios se refiere a días laborables según la programación, no a días transcurridos ni a tiempo de calendario.
+
+
 
 ## Configurar recordatorios automáticos
 
