@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 39111c76-ae29-4034-8277-ca293138911f
-source-git-commit: c2e1da665d483552b2b91c74768ce3b77457d268
+source-git-commit: a9688886f32cd41dd7d53dbf0a918f25fdd04a0b
 workflow-type: tm+mt
-source-wordcount: '941'
+source-wordcount: '932'
 ht-degree: 2%
 
 ---
@@ -37,7 +37,7 @@ Para obtener más información, vea [Crear un flujo de trabajo de aprobación de
 
 >[!NOTE]
 >
->Vista previa: N/DVersión rápida de producción: 8 de julio de 2026Producción para todos: 8 de julio de 2026Esta función solo está disponible para organizaciones en el paquete Workflow Ultimate, con el almacenamiento en la nube de Adobe habilitado.
+>Vista previa: N/DVersión rápida de producción: 8 de julio de 2026Producción para todos: 8 de julio de 2026Fuera del horarioEsta función solo está disponible para organizaciones en el paquete Workflow Ultimate, con el almacenamiento en la nube de Adobe habilitado.
 
 Adobe Cloud Drive ya está disponible para las organizaciones que cuentan con una versión de Workfront compatible con el almacenamiento en la nube de Adobe. Adobe Cloud Drive es una aplicación de escritorio que monta sus proyectos de almacenamiento en la nube de Adobe como una unidad en su equipo Mac o Windows, por lo que puede abrir, editar y guardar archivos en cualquier aplicación directamente desde Finder o el Explorador de archivos. Los cambios se sincronizan automáticamente con el almacenamiento en la nube de Adobe y están disponibles para su equipo en Workfront y Frame.io.
 
