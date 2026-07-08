@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 39111c76-ae29-4034-8277-ca293138911f
-source-git-commit: c2e1da665d483552b2b91c74768ce3b77457d268
+source-git-commit: a9688886f32cd41dd7d53dbf0a918f25fdd04a0b
 workflow-type: tm+mt
-source-wordcount: '941'
+source-wordcount: '932'
 ht-degree: 2%
 
 ---
@@ -37,7 +37,7 @@ Para obtener más información, vea [Crear un flujo de trabajo de aprobación de
 
 >[!NOTE]
 >
->Vista previa: N/DVersión rápida de producción: 8 de julio de 2026Producción para todos: 8 de julio de 2026Esta función solo está disponible para organizaciones en el paquete Workflow Ultimate, con el almacenamiento en la nube de Adobe habilitado.
+>Vista previa: N/DVersión rápida de producción: 8 de julio de 2026Producción para todos: 8 de julio de 2026Fuera del horarioEsta función solo está disponible para organizaciones en el paquete Workflow Ultimate, con el almacenamiento en la nube de Adobe habilitado.
 
 Adobe Cloud Drive ya está disponible para las organizaciones que cuentan con una versión de Workfront compatible con el almacenamiento en la nube de Adobe. Adobe Cloud Drive es una aplicación de escritorio que monta sus proyectos de almacenamiento en la nube de Adobe como una unidad en su equipo Mac o Windows, por lo que puede abrir, editar y guardar archivos en cualquier aplicación directamente desde Finder o el Explorador de archivos. Los cambios se sincronizan automáticamente con el almacenamiento en la nube de Adobe y están disponibles para su equipo en Workfront y Frame.io.
 
@@ -49,7 +49,7 @@ Para obtener más información, consulte [Información general sobre Adobe Cloud
 
 >[!NOTE]
 >
->Vista previa: N/DVersión rápida de producción: 15 de junio de 2026Producción para todos: 15 de junio de 2026Fuera del horario&rbrack;{type=Neutral}
+>Vista previa: N/DVersión rápida de producción: 15 de junio de 2026Producción para todos: 15 de junio de 2026Fuera del horario]{type=Neutral}
 
 La integración de Adobe Express y Workfront con Frame.io ofrece una revisión estructurada y una aprobación del contenido creado en Adobe Express. Los diseñadores pueden asignar una plantilla de flujo de trabajo de aprobación de Workfront a una plantilla Express para que, cuando se vuelva a mezclar la plantilla, se requiera una aprobación automáticamente antes de publicar el recurso, enrutándolo a través del flujo de trabajo de Workfront preconfigurado y del visualizador Frame.io.
 
