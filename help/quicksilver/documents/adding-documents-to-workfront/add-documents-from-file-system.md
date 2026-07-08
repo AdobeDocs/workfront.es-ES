@@ -19,9 +19,9 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+source-git-commit: 5e63d7e8c5c282cf4d0cc588b59733b2d790b457
 workflow-type: tm+mt
-source-wordcount: 1317
+source-wordcount: 1383
 ht-degree: 8%
 
 ---
@@ -184,6 +184,10 @@ Para agregar un documento:
 Si necesita información sobre cómo cargar nuevas versiones de un documento en Workfront, consulte [Cargar una nueva versión de un documento](../../documents/managing-documents/upload-new-document-version.md).
 
 En la sección Documentos se crea automáticamente una carpeta con el mismo nombre que el objeto en el que está cargando el documento y el documento se agrega a la carpeta.
+
+### Agregar documentos mediante Adobe Cloud Drive
+
+Si su organización utiliza el almacenamiento en la nube de Adobe, también puede agregar documentos desde su equipo de escritorio mediante Adobe Cloud Drive. Adobe Cloud Drive monta sus proyectos de almacenamiento en la nube de Adobe como una unidad en su equipo Mac o Windows. Los archivos guardados dentro de una carpeta de proyecto en la unidad se sincronizan automáticamente con Workfront. Para obtener más información, consulte [Información general sobre Adobe Cloud Drive](../../documents/adobe-cloud-drive/adobe-cloud-drive-overview.md).
 
 ## Seguridad de documentos para el almacenamiento en la nube de Adobe
 

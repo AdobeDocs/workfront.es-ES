@@ -3,9 +3,9 @@ user-guide-title: Guía de Workfront
 user-guide-description: Utilice los siguientes documentos, tutoriales y recursos adicionales para aprender a implementar y utilizar Adobe Workfront de forma eficaz en su organización.
 role: User
 feature-set: Workfront
-source-git-commit: a76a39fde984bece43cda9812c436d81f41eb989
+source-git-commit: 8fa3fbb299fef17fbd49978e74adef94c45bb000
 workflow-type: tm+mt
-source-wordcount: '14248'
+source-wordcount: '14272'
 ht-degree: 94%
 
 ---
@@ -1198,6 +1198,12 @@ ht-degree: 94%
       * [Organizar documentos](documents/organizing-documents/organize-documents.md)
       * [Crear carpetas de documentos](documents/organizing-documents/create-documents-folder.md)
       * [Crear y administrar carpetas inteligentes](documents/organizing-documents/create-manage-smart-folders.md)
+   * Adobe Cloud Drive {#adobe-cloud-drive}
+      * [Adobe Cloud Drive: índice de artículos](documents/adobe-cloud-drive/adobe-cloud-drive.md)
+      * [Información general sobre Adobe Cloud Drive](documents/adobe-cloud-drive/adobe-cloud-drive-overview.md)
+      * [Instalar Adobe Cloud Drive](documents/adobe-cloud-drive/install-adobe-cloud-drive.md)
+      * [Usar Adobe Cloud Drive](documents/adobe-cloud-drive/use-adobe-cloud-drive.md)
+      * [Solucionar problemas de Adobe Cloud Drive](documents/adobe-cloud-drive/troubleshoot-adobe-cloud-drive.md)
    * Integraciones de Workfront y Experience Manager Assets {#wf-aem-integrations}
       * [Integraciones de Workfront y Experience Manager Assets](documents/workfront-and-experience-manager-integrations/wf-experience-manager-integrations.md)
       * Conector mejorado de Workfront para Experience Manager {#wf-aem-enhanced-connector}
