@@ -162,7 +162,7 @@ Para obtener información sobre cómo trabajar con Adobe Cloud Drive, consulte [
 
 Si tiene preguntas sobre la licencia, problemas de acceso al proyecto o una configuración específica de la organización, póngase en contacto con el administrador de Workfront.
 
-Para compartir registros con la asistencia de Adobe, siga los pasos de [Ejecutar la herramienta de recopilación de registros de Adobe](https://helpx.adobe.com/creative-cloud/apps/troubleshoot/diagnostics-repair-tools/run-log-collector-tool.html).
+Para compartir registros con la asistencia de Adobe, siga los pasos de [Ejecutar la herramienta de recopilación de registros de Adobe](https://helpx.adobe.com/es/creative-cloud/apps/troubleshoot/diagnostics-repair-tools/run-log-collector-tool.html).
 
 ## Prácticas recomendadas
 
