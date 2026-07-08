@@ -10,18 +10,13 @@ exl-id: 16c564a9-abd7-4b07-be3e-9c823f40177d
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/YOO4BspMzbMr8iPoXRBKK65IbU5yfpiJndNuYvYF5SM
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
-  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 9d28f52ace4d443bdffc475baf79d482152d4157
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: c2fe0c6afbc9b536186bd473e95b3f82f144b06c
 workflow-type: tm+mt
-source-wordcount: 1004
+source-wordcount: 1061
 ht-degree: 1%
 
 ---
@@ -86,6 +81,10 @@ Para obtener más información sobre el nuevo modelo de permisos de documento, c
 En el nivel de proyecto, las carpetas generadas por el sistema muestran un objeto vinculado. La carpeta recibe automáticamente el mismo nombre que la tarea o el problema al que pertenece. Las carpetas vinculadas son el modo en que el sistema sabe qué tarea o problema debe ver la carpeta.
 
 Para obtener más información, consulte [Funcionamiento de los permisos de documentos](/help/quicksilver/review-and-approve-work/esm-access-permissions.md#how-document-permissions-work).
+
+#### Adobe Cloud Drive
+
+Adobe Cloud Drive es una aplicación de escritorio que monta sus proyectos de almacenamiento en la nube de Adobe como una unidad en su equipo Mac o Windows. Puede abrir, editar y guardar archivos en cualquier aplicación mientras que Adobe Cloud Drive mantiene su trabajo sincronizado con el almacenamiento en la nube de Adobe. Para obtener más información, consulte [Información general sobre Adobe Cloud Drive](/help/quicksilver/documents/adobe-cloud-drive/adobe-cloud-drive-overview.md).
 
 ## Objetos de Workfront
 

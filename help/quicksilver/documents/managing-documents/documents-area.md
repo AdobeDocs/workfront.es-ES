@@ -10,18 +10,14 @@ exl-id: 64612345-d1ce-41db-939b-3af30d1c6a51
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/IdrQfkprrzF-Jt-ZwlnVfvIO07B2ejvbOLhbAhPh8Lc
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: ea4de44f0669ca78eabe9f35f94f49fee2e5d016
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: c2fe0c6afbc9b536186bd473e95b3f82f144b06c
 workflow-type: tm+mt
-source-wordcount: 850
-ht-degree: 34%
+source-wordcount: 918
+ht-degree: 31%
 
 ---
 
@@ -123,6 +119,10 @@ Puede ver el historial de un documento en la nueva área Documentos. El historia
 ### Carpetas de nivel de sistema para permisos de documento
 
 Workfront crea automáticamente una carpeta de nivel de sistema cuando se carga el primer documento en una tarea o un problema. Estas carpetas heredan los permisos de la tarea o del problema y son visibles en el área de documentos de nivel de proyecto. Todos los documentos cargados en esa tarea o problema se almacenan en esa carpeta y heredan los permisos de ella. Esta es la forma principal en que se administran los permisos para los documentos en el área de Documentos nuevos. Para obtener más información, consulte [Permisos de objeto e información general de nivel de acceso para el modelo de almacenamiento en la nube de Adobe](/help/quicksilver/review-and-approve-work/esm-access-permissions.md#how-document-permissions-work).
+
+### Acceder a documentos desde el escritorio
+
+Si su organización utiliza el almacenamiento en la nube de Adobe, también puede acceder a sus documentos desde el escritorio de Mac o Windows mediante Adobe Cloud Drive. Adobe Cloud Drive monta sus proyectos de almacenamiento en la nube de Adobe como una unidad en su equipo, para que pueda abrir y editar archivos en cualquier aplicación mientras mantiene los cambios sincronizados con Workfront. Para obtener más información, consulte [Información general sobre Adobe Cloud Drive](/help/quicksilver/documents/adobe-cloud-drive/adobe-cloud-drive-overview.md).
 
 ## Consideraciones
 
