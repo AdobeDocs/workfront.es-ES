@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8ca50590-ef6a-44b1-a856-9821bdafbc1c
-source-git-commit: 8fa3fbb299fef17fbd49978e74adef94c45bb000
+source-git-commit: 3db125c4ff09e97519f9f6c756b4507a2447394a
 workflow-type: tm+mt
-source-wordcount: '2761'
+source-wordcount: '2822'
 ht-degree: 16%
 
 ---
@@ -222,17 +222,15 @@ Se celebran seminarios web en directo para cada versión trimestral, en los que 
             <td><p>15 de julio de 2026</p></td>
             <td><p>16 de julio de 2026</p></td>
         </tr>
-        <!--
         <tr>
             <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-documents.md" class="MCXref xref" xrefformat="{para}">Adobe Cloud Drive</a><p>[!BADGE Off schedule]{type=Neutral}</p><p>[!BADGE Workflow Ultimate]{type=Informative}</p>
-                <p>Adobe Cloud Drive is a desktop application that mounts your Adobe cloud storage projects as a drive on your Mac or Windows computer, so you can open, edit, and save files in any application directly from Finder or File Explorer.</p>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-documents.md" class="MCXref xref" xrefformat="{para}">Unidad de Adobe Cloud</a><p>[!BADGE Off schedule]{type=Neutral}</p><p>[!BADGE Workflow Ultimate]{type=Informative}</p>
+                <p>Adobe Cloud Drive es una aplicación de escritorio que monta sus proyectos de almacenamiento en la nube de Adobe como una unidad en su equipo Mac o Windows, por lo que puede abrir, editar y guardar archivos en cualquier aplicación directamente desde Finder o el Explorador de archivos.</p>
             </td>
-            <td><p>N/A</p></td>
-            <td><p>July 7, 2026</p></td>
-            <td><p>July 7, 2026</p></td>
+            <td><p>N/D</p></td>
+            <td><p>8 de julio de 2026</p></td>
+            <td><p>8 de julio de 2026</p></td>
         </tr>
-        -->
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-documents.md" class="MCXref xref" xrefformat="{para}">Solicitar aprobación en plantillas de Adobe Express con Workfront y Frame.io</a><p>[!BADGE Off schedule]{type=Neutral}</p>
                 <p>La integración de Adobe Express y Workfront con Frame.io ofrece una revisión estructurada y una aprobación del contenido creado en Adobe Express. Los diseñadores pueden asignar una plantilla de flujo de trabajo de aprobación de Workfront a una plantilla Express para que, cuando se vuelva a mezclar la plantilla, se requiera una aprobación automáticamente antes de publicar el recurso, enrutándolo a través del flujo de trabajo de Workfront preconfigurado y del visualizador Frame.io.</p>
