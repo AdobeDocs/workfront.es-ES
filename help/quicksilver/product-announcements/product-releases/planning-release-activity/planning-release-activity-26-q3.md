@@ -6,9 +6,9 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 63f9627ccda9080a9ce505963f9ee495ccfbd8f3
+source-git-commit: c3131cb38ac6f71cdd98149c8d49177d59b7accf
 workflow-type: tm+mt
-source-wordcount: '2848'
+source-wordcount: '2865'
 ht-degree: 6%
 
 ---
@@ -171,11 +171,16 @@ Para obtener más información, consulte [Introducción a la integración de Ado
 >
 >Vista previa: 1 de junio de 2026Versión rápida de producción: 11 de junio de 2026Producción para todos: 16 de julio de 2026
 
+
 Se ha añadido la pestaña Espacios de trabajo de muestra en el área de aterrizaje de Planning, donde puede ver un ejemplo de espacios de trabajo de prácticas recomendadas. Los espacios de trabajo no se pueden editar. Los administradores de Workspace pueden modificar las vistas en espacios de trabajo de ejemplo. La pestaña está visible para los usuarios de Standard y de System Administrator.
 
 Se recomienda ver los espacios de trabajo de ejemplo como ejemplos y utilizar el paquete de plantillas de varios espacios de trabajo para crear, editar y compartir espacios de trabajo resultantes como uso de esa plantilla.  El paquete de plantilla contiene los mismos espacios de trabajo que la pestaña Espacios de trabajo de ejemplo.
 
 Para obtener más información, vea [Información general sobre espacios de trabajo](/help/quicksilver/planning/architecture/workspaces-overview.md).
+
+>[!NOTE]
+>
+>La creación de espacios de trabajo a partir de paquetes de plantillas solo está disponible para organizaciones con paquetes de flujo de trabajo Prime o Ultimate.
 
 ## API de Workfront Planning versión 2
 
