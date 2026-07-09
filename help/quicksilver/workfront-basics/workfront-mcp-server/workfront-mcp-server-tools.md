@@ -5,9 +5,9 @@ title: Herramientas del servidor MCP de Adobe Workfront
 description: Lista de referencia de las herramientas disponibles a través del servidor MCP de Adobe Workfront, agrupadas por área de Workfront.
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: 67b774fd8f88c244fa6c1287d2dd8bb0c47f20a3
+source-git-commit: 588b4dac3acc411f63868bd603beba3312299830
 workflow-type: tm+mt
-source-wordcount: '1666'
+source-wordcount: '1765'
 ht-degree: 8%
 
 ---
@@ -107,6 +107,21 @@ Si la plataforma agéntica de IA puede encontrar elementos de Workfront pero no 
 | Buscar proyecto por nombre | `approvals_find_project_by_name` | Busca proyectos de Workfront por coincidencia de nombre parcial en todo el sistema. | Leer |
 | Obtener proyectos por propietario | `approvals_get_projects_by_owner` | Enumera proyectos de Workfront en los que el usuario que realiza la llamada es el propietario. | Leer |
 | Obtener región de Adobe | `approvals_get_adobe_region` | Devuelve el nombre de Adobe de una región de proveedor de la nube. | Leer |
+
+### Comentarios
+
+| Título | Nombre de herramienta | Qué hace | Acción |
+| --- | --- | --- | --- |
+| Comentarios de consulta | `comment-stream_query_comments` | Comentarios de consulta por ID de objeto, con paginación. | Leer |
+| Obtener comentario | `comment-stream_get_comment` | Obtenga un solo comentario por ID. | Leer |
+| Recuento de obtención de comentarios | `comment-stream_get_comments_count` | Obtenga el recuento total de comentarios de nivel superior de un objeto. | Leer |
+| Crear comentario | `comment-stream_create_comment` | Cree un nuevo comentario sobre un objeto. | Escritura |
+| Crear respuesta | `comment-stream_create_reply` | Crear una respuesta a un comentario existente. | Escritura |
+| Actualizar comentario | `comment-stream_update_comment` | Actualizar un comentario o una respuesta existentes. | Escritura |
+| Eliminar comentario | `comment-stream_delete_comment` | Eliminar un comentario por su ID. | Escritura |
+| Agregar reacción | `comment-stream_add_reaction` | Agregar una reacción (me gusta) a un comentario. | Escritura |
+| Eliminar reacción | `comment-stream_remove_reaction` | Eliminar una reacción (me gusta) de un comentario. | Escritura |
+
 
 <!--
 
