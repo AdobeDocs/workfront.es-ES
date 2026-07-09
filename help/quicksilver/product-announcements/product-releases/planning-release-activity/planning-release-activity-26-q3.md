@@ -6,9 +6,9 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 63f9627ccda9080a9ce505963f9ee495ccfbd8f3
+source-git-commit: c3131cb38ac6f71cdd98149c8d49177d59b7accf
 workflow-type: tm+mt
-source-wordcount: '2848'
+source-wordcount: '2865'
 ht-degree: 6%
 
 ---
@@ -33,7 +33,7 @@ Para obtener una lista de todas las características publicadas para Adobe Workf
 
 >[!IMPORTANT]
 >
->Vista previa y producción para todos los clientes: 16 de julio de 2026Fuera del horario&rbrack;{type=Neutral}
+>Vista previa y producción para todos los clientes: 16 de julio de 2026Fuera del horario]{type=Neutral}
 
 
 Esta versión incluye la administración de acceso automatizada y basada en derechos para los datos de Workfront Planning en Snowflake como parte de Workfront Data Connect.
@@ -155,7 +155,7 @@ Para obtener más información, consulte [Administrar la vista de tabla](/help/q
 
 >[!NOTE]
 >
->Vista previa y producción para todos los clientes: 5 de junio de 2026Disponible solo para clientes de Adobe Workfront Planning que también tienen Adobe GenStudio for Performance Marketing.Fuera del horario&rbrack;{type=Neutral}
+>Vista previa y producción para todos los clientes: 5 de junio de 2026Disponible solo para clientes de Adobe Workfront Planning que también tienen Adobe GenStudio for Performance Marketing.Fuera del horario]{type=Neutral}
 
 
 Para permitirle agregar marcas a sus campañas empezando por enviar una solicitud, ahora puede agregar el campo de registro Marcas conectadas a un formulario de solicitud de Planning.
@@ -171,17 +171,22 @@ Para obtener más información, consulte [Introducción a la integración de Ado
 >
 >Vista previa: 1 de junio de 2026Versión rápida de producción: 11 de junio de 2026Producción para todos: 16 de julio de 2026
 
+
 Se ha añadido la pestaña Espacios de trabajo de muestra en el área de aterrizaje de Planning, donde puede ver un ejemplo de espacios de trabajo de prácticas recomendadas. Los espacios de trabajo no se pueden editar. Los administradores de Workspace pueden modificar las vistas en espacios de trabajo de ejemplo. La pestaña está visible para los usuarios de Standard y de System Administrator.
 
 Se recomienda ver los espacios de trabajo de ejemplo como ejemplos y utilizar el paquete de plantillas de varios espacios de trabajo para crear, editar y compartir espacios de trabajo resultantes como uso de esa plantilla.  El paquete de plantilla contiene los mismos espacios de trabajo que la pestaña Espacios de trabajo de ejemplo.
 
 Para obtener más información, vea [Información general sobre espacios de trabajo](/help/quicksilver/planning/architecture/workspaces-overview.md).
 
+>[!NOTE]
+>
+>La creación de espacios de trabajo a partir de paquetes de plantillas solo está disponible para organizaciones con paquetes de flujo de trabajo Prime o Ultimate.
+
 ## API de Workfront Planning versión 2
 
 >[!NOTE]
 >
->Disponible para todos los clientes: 28 de mayo de 2026Fuera del horario&rbrack;{type=Neutral}
+>Disponible para todos los clientes: 28 de mayo de 2026Fuera del horario]{type=Neutral}
 
 La versión 2 de la API de Workfront Planning ya está disponible y amplía considerablemente las capacidades de la versión 1.
 
@@ -251,7 +256,7 @@ Para obtener más información, vea [Agregar tipos de registros existentes desde
 
 >[!NOTE]
 >
->Vista previa: 28 de mayo de 2026Versión rápida de producción: 11 de junio de 2026Producción para todos: 16 de julio de 2026En Beta&rbrack;{type=Neutral}
+>Vista previa: 28 de mayo de 2026Versión rápida de producción: 11 de junio de 2026Producción para todos: 16 de julio de 2026En Beta]{type=Neutral}
 
 Ahora puede utilizar Adobe Planning Designer con tecnología de IA para configurar sus espacios de trabajo y estructuras de datos con facilidad. Planning Designer admite desde la creación y configuración de espacios de trabajo hasta la definición de campos y fórmulas, la administración de registros, la revisión del historial de cambios y la creación de vistas personalizadas.
 
@@ -266,7 +271,7 @@ Para obtener más información, consulte [Introducción a Adobe Workfront Planni
 
 >[!NOTE]
 >
->Previsualización y producción para todos: 28 de mayo de 2026Disponible solo para clientes de Adobe Workfront Planning que también tienen Adobe GenStudio for Performance Marketing y Adobe Experience Manager.Fuera del horario&rbrack;{type=Neutral}
+>Previsualización y producción para todos: 28 de mayo de 2026Disponible solo para clientes de Adobe Workfront Planning que también tienen Adobe GenStudio for Performance Marketing y Adobe Experience Manager.Fuera del horario]{type=Neutral}
 
 Para mejorar la integridad de los datos, hemos lanzado una sincronización de metadatos fluida entre los tipos de registros de GenStudio for Performance Marketing y los AEM Assets cuando los AEM Assets están vinculados a tipos de registros de GenStudio en Workfront Planning.
 
@@ -282,7 +287,7 @@ Para obtener más información, consulte [Administrar el espacio de trabajo de G
 
 >[!NOTE]
 >
->Previsualización y producción para todos: 28 de mayo de 2026Disponible solo para clientes de Adobe Workfront Planning que también tienen Adobe GenStudio for Performance Marketing y Adobe Experience Manager.Fuera del horario&rbrack;{type=Neutral}
+>Previsualización y producción para todos: 28 de mayo de 2026Disponible solo para clientes de Adobe Workfront Planning que también tienen Adobe GenStudio for Performance Marketing y Adobe Experience Manager.Fuera del horario]{type=Neutral}
 
 Para mejorar la integridad de los datos, hemos lanzado una sincronización de metadatos fluida entre los tipos de registros de Planning en el espacio de trabajo de GenStudio y los fragmentos de contenido de AEM cuando los fragmentos de contenido están vinculados a campañas de GenStudio for Performance Marketing.
 
@@ -376,7 +381,7 @@ Para obtener más información, consulte [Enviar solicitudes de Adobe Workfront 
 
 >[!NOTE]
 >
->Vista previa y producción para todos los clientes: 14 de mayo de 2026Fuera del horario&rbrack;{type=Neutral}
+>Vista previa y producción para todos los clientes: 14 de mayo de 2026Fuera del horario]{type=Neutral}
 
 Para obtener una mejor visibilidad al trabajar con fragmentos de contenido de AEM conectados a registros de Workfront Planning, se ha agregado una ventana de vista previa que muestra información sobre los fragmentos en Workfront Planning.
 
@@ -388,7 +393,7 @@ Para obtener más información, consulte [Conectar registros](/help/quicksilver/
 
 >[!NOTE]
 >
->Vista previa y producción para todos los clientes: 14 de mayo de 2026Disponible solo para clientes de Adobe Workfront Planning que también tienen Adobe Experience Manager.Fuera del horario&rbrack;{type=Neutral}
+>Vista previa y producción para todos los clientes: 14 de mayo de 2026Disponible solo para clientes de Adobe Workfront Planning que también tienen Adobe Experience Manager.Fuera del horario]{type=Neutral}
 
 Ahora puede agregar los siguientes campos de búsqueda al conectar un tipo de registro de Planning a un fragmento de contenido de AEM:
 
