@@ -5,7 +5,7 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8ca50590-ef6a-44b1-a856-9821bdafbc1c
-source-git-commit: 25829e0ff77f2553411fdadb721bc41e4817ae90
+source-git-commit: 689f7f00502d41f22b5b2647ffaa30a3a1bd819f
 workflow-type: tm+mt
 source-wordcount: '2920'
 ht-degree: 15%
@@ -357,9 +357,9 @@ Se celebran seminarios web en directo para cada versión trimestral, en los que 
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-projects.md" class="MCXref xref" xrefformat="{para}">Convertir una tarea de almacenamiento heredada en un proyecto de almacenamiento en la nube de Adobe</a><p><p>[!BADGE Off schedule]{type=Neutral}</p></p>
                 <p>Si su organización utiliza el almacenamiento heredado de Workfront y el almacenamiento en la nube de Adobe, ahora puede convertir una tarea de almacenamiento heredado en un proyecto de almacenamiento en la nube de Adobe.</p>
             </td>
-            <td><p>11 de junio de 2026</p></td>
-            <td><p>12 de junio de 2026</p></td>
-            <td><p>12 de junio de 2026</p></td>
+            <td><p>9 de julio de 2026</p></td>
+            <td><p>13 de agosto de 2026</p></td>
+            <td><p>15 de octubre de 2026</p></td>
         </tr>
         <tr>
             <td>
