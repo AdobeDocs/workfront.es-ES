@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 39111c76-ae29-4034-8277-ca293138911f
-source-git-commit: a7a94a89b0d1f626658ef97f0f32a0e62e44da6b
+source-git-commit: 77a1b575b45f60e6fd61e6751ec1fec4537a5697
 workflow-type: tm+mt
-source-wordcount: '932'
+source-wordcount: '928'
 ht-degree: 2%
 
 ---
@@ -119,3 +119,4 @@ La página Información del cliente en la Configuración ahora incluye una nueva
 Los administradores de Workfront reciben automáticamente notificaciones por correo electrónico cuando el uso del almacenamiento alcanza el 75 %, el 85 % y el 100 % de la cuota.
 
 Para obtener más información, consulte [Comprobar límites de almacenamiento de documentos](/help/quicksilver/documents/managing-documents/check-document-storage.md).
+
