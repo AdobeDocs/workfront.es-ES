@@ -22,7 +22,7 @@ Para obtener una lista de todos los cambios disponibles en este punto del ciclo 
 
 >[!NOTE]
 >
->Vista previa y producción para todos los clientes: a partir del 7 de julio de 2026Fuera del horario]{type=Neutral}
+>Vista previa y producción para todos los clientes: a partir del 7 de julio de 2026Fuera del horario&rbrack;{type=Neutral}
 
 Actualmente estamos optimizando el archivado de comentarios para comentarios que tengan más de 1 año para todos los objetos de Workfront que muestran un área de Actualizaciones. Se trata de un esfuerzo interno que no debería afectar a su experiencia con el área de Actualizaciones. No hay cambios visuales en el área de Actualizaciones para ningún tipo de objeto ni cambios en la funcionalidad con esta actualización. Todos los comentarios permanecen visibles para todos los tipos de objetos.
 
