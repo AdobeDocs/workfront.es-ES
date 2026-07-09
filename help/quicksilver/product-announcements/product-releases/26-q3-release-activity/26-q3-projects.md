@@ -23,7 +23,7 @@ Para obtener una lista de todos los cambios disponibles en este punto del ciclo 
 
 >[!NOTE]
 >
->Vista previa: 9 de julio de 2026Producción para la versión rápida: 13 de agosto de 2026Producción para la versión trimestral: 15 de octubre de 2026Fuera del horario]{type=Neutral}
+>Vista previa: 9 de julio de 2026Producción para la versión rápida: 13 de agosto de 2026Producción para la versión trimestral: 15 de octubre de 2026Fuera del horario&rbrack;{type=Neutral}
 
 Si su organización utiliza el almacenamiento heredado de Workfront y el almacenamiento en la nube de Adobe, ahora puede convertir una tarea de almacenamiento heredado en un proyecto de almacenamiento en la nube de Adobe.Al hacerlo, los documentos y las aprobaciones de documentos permanecen en el objeto principal en lugar de transferirse al proyecto recién creado.
 
