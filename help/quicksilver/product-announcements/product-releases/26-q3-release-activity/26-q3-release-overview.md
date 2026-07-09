@@ -5,10 +5,10 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8ca50590-ef6a-44b1-a856-9821bdafbc1c
-source-git-commit: 68cbebcb62faceab2bfbbcb9024d3916c2ba84b6
+source-git-commit: a131344f390abd94383fae0b9cc318ef0ca79d3a
 workflow-type: tm+mt
-source-wordcount: '2824'
-ht-degree: 16%
+source-wordcount: '2920'
+ht-degree: 15%
 
 ---
 
@@ -522,6 +522,15 @@ Se celebran seminarios web en directo para cada versión trimestral, en los que 
             <td><strong>Vista previa</strong></td>
             <td><strong>Versión rápida</strong></td>
             <td><strong>Trimestralmente</strong></td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-other.md" class="MCXref xref" xrefformat="{para}">Optimización del archivado de comentarios</a><p>[!BADGE Off schedule]{type=Neutral}</p>
+                <p>Actualmente estamos optimizando el archivado de comentarios para comentarios que tengan más de 1 año para todos los objetos de Workfront que muestran un área de Actualizaciones. Se trata de un esfuerzo interno que no debería afectar a su experiencia con el área de Actualizaciones. No hay cambios visuales en el área de Actualizaciones para ningún tipo de objeto ni cambios en la funcionalidad con esta actualización. Todos los comentarios permanecen visibles para todos los tipos de objetos.</p>
+            </td>
+            <td><p>Despliegue gradual a partir del 7 de julio de 2026</p></td>
+            <td><p>Despliegue gradual a partir del 7 de julio de 2026</p></td>
+            <td><p>Despliegue gradual a partir del 7 de julio de 2026</p></td>
         </tr>
         <tr>
             <td>
