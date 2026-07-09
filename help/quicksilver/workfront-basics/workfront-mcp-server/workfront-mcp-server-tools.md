@@ -5,7 +5,7 @@ title: Herramientas del servidor MCP de Adobe Workfront
 description: Lista de referencia de las herramientas disponibles a través del servidor MCP de Adobe Workfront, agrupadas por área de Workfront.
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: 588b4dac3acc411f63868bd603beba3312299830
+source-git-commit: 2b8db72feb3cbe7baa19d2cb9c8894ce9a5e4e62
 workflow-type: tm+mt
 source-wordcount: '1765'
 ht-degree: 8%
@@ -107,21 +107,6 @@ Si la plataforma agéntica de IA puede encontrar elementos de Workfront pero no 
 | Buscar proyecto por nombre | `approvals_find_project_by_name` | Busca proyectos de Workfront por coincidencia de nombre parcial en todo el sistema. | Leer |
 | Obtener proyectos por propietario | `approvals_get_projects_by_owner` | Enumera proyectos de Workfront en los que el usuario que realiza la llamada es el propietario. | Leer |
 | Obtener región de Adobe | `approvals_get_adobe_region` | Devuelve el nombre de Adobe de una región de proveedor de la nube. | Leer |
-
-### Comentarios
-
-| Título | Nombre de herramienta | Qué hace | Acción |
-| --- | --- | --- | --- |
-| Comentarios de consulta | `comment-stream_query_comments` | Comentarios de consulta por ID de objeto, con paginación. | Leer |
-| Obtener comentario | `comment-stream_get_comment` | Obtenga un solo comentario por ID. | Leer |
-| Recuento de obtención de comentarios | `comment-stream_get_comments_count` | Obtenga el recuento total de comentarios de nivel superior de un objeto. | Leer |
-| Crear comentario | `comment-stream_create_comment` | Cree un nuevo comentario sobre un objeto. | Escritura |
-| Crear respuesta | `comment-stream_create_reply` | Crear una respuesta a un comentario existente. | Escritura |
-| Actualizar comentario | `comment-stream_update_comment` | Actualizar un comentario o una respuesta existentes. | Escritura |
-| Eliminar comentario | `comment-stream_delete_comment` | Eliminar un comentario por su ID. | Escritura |
-| Agregar reacción | `comment-stream_add_reaction` | Agregar una reacción (me gusta) a un comentario. | Escritura |
-| Eliminar reacción | `comment-stream_remove_reaction` | Eliminar una reacción (me gusta) de un comentario. | Escritura |
-
 
 <!--
 
@@ -237,6 +222,22 @@ Las herramientas de flujo de trabajo son las acciones de uso general que utiliza
 | Actualizar objeto | `workflow_update_any_object` | Actualiza los campos de un objeto de Workfront existente. | Escritura |
 | Eliminar objeto | `workflow_delete_any_object` | Elimina un objeto de Workfront por ID. Requiere confirmación explícita del usuario antes de realizar la acción. | Escritura |
 | Resolver nombres de campo | `workflow_resolve_field_names_any_object` | Convierte los nombres de campo o las etiquetas proporcionados por el usuario en los nombres de campo de la API de Workfront subyacentes para que la plataforma agéntica de IA pueda crear solicitudes precisas. | Leer |
+
+### Comentarios
+
+| Título | Nombre de herramienta | Qué hace | Acción |
+| --- | --- | --- | --- |
+| Comentarios de consulta | `comment-stream_query_comments` | Comentarios de consulta por ID de objeto, con paginación. | Leer |
+| Obtener comentario | `comment-stream_get_comment` | Obtenga un solo comentario por ID. | Leer |
+| Recuento de obtención de comentarios | `comment-stream_get_comments_count` | Obtenga el recuento total de comentarios de nivel superior de un objeto. | Leer |
+| Crear comentario | `comment-stream_create_comment` | Cree un nuevo comentario sobre un objeto. | Escritura |
+| Crear respuesta | `comment-stream_create_reply` | Crear una respuesta a un comentario existente. | Escritura |
+| Actualizar comentario | `comment-stream_update_comment` | Actualizar un comentario o una respuesta existentes. | Escritura |
+| Eliminar comentario | `comment-stream_delete_comment` | Eliminar un comentario por su ID. | Escritura |
+| Agregar reacción | `comment-stream_add_reaction` | Agregar una reacción (me gusta) a un comentario. | Escritura |
+| Eliminar reacción | `comment-stream_remove_reaction` | Eliminar una reacción (me gusta) de un comentario. | Escritura |
+
+
 
 ## Actualización de las herramientas
 
