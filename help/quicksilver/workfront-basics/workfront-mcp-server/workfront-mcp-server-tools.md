@@ -5,15 +5,17 @@ title: Herramientas del servidor MCP de Adobe Workfront
 description: Lista de referencia de las herramientas disponibles a través del servidor MCP de Adobe Workfront, agrupadas por área de Workfront.
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: 1b90f291995f636b1eecdf1af6a02fed7f01e9a4
+source-git-commit: 5592c1b93b5e44c732f92d626ed878d2c4647ceb
 workflow-type: tm+mt
-source-wordcount: '1768'
+source-wordcount: '1788'
 ht-degree: 8%
 
 ---
 
 
 # Herramientas del servidor MCP de Adobe Workfront
+
+<span class="preview">La información de esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa de espacio aislado.</span>
 
 Este artículo enumera las herramientas que expone el servidor MCP de [!DNL Adobe Workfront] a una plataforma independiente de IA conectada. La plataforma llama a estas herramientas en su nombre cuando le pide que busque, cree, actualice o elimine elementos de Workfront.
 
@@ -251,7 +253,6 @@ Cuando Adobe lanza una nueva versión del servidor MCP de Workfront, la platafor
 
 Estamos trabajando para agregar las siguientes herramientas al servidor MCP de Workfront en el futuro:
 
-* Comentarios
 * Tableros
 
 
