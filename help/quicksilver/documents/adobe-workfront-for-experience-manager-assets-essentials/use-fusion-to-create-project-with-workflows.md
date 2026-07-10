@@ -7,19 +7,14 @@ author: Becky
 feature: Digital Content and Documents, Workfront Integrations and Apps, Workfront Fusion
 exl-id: b8132d5e-234d-47f6-a09c-ca46018a2d77
 TQID: https://experienceleague.adobe.com/Hegf4kJc65Le5-PttBh6pLzyR8zvydUbbjidxrK0se0
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 9f74d7a567a77128b5d6d6cfa1d4a8d559998a0f
 workflow-type: tm+mt
-source-wordcount: 903
-ht-degree: 90%
+source-wordcount: 1040
+ht-degree: 81%
 
 ---
 
@@ -29,8 +24,7 @@ Si está creando un proyecto a través de Workfront Fusion y desea incluir flujo
 
 >[!NOTE]
 >
->Los flujos de trabajo solo están disponibles en una integración de Adobe Experience Manager as a Cloud Service. No están disponibles en integraciones con Adobe Experience Manager Assets Essentials.<br>
->Esta funcionalidad no está disponible en el área de Documentos nuevos.
+>Los flujos de trabajo solo están disponibles en una integración de Adobe Experience Manager as a Cloud Service. No están disponibles en integraciones con Adobe Experience Manager Assets Essentials.Esta funcionalidad no está disponible en la nueva área de Documentos.
 
 
 ## Requisitos de acceso
@@ -93,7 +87,7 @@ En Workfront Fusion, si desea crear un proyecto que incluya flujos de trabajo de
 1. Añada el módulo **Workfront** > **Acciones diversas** a su escenario.
 1. En el campo **Conexión**, seleccione la conexión de Workfront que se conecta a la cuenta que utilizará este módulo.
 
-   Para obtener instrucciones sobre cómo crear una conexión, consulte [Conectar [!DNL Workfront] con [!DNL Workfront Fusion]](https://experienceleague.adobe.com/es/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-modules#connect-workfront-to-workfront-fusion) en el artículo Módulos de Workfront.
+   Para obtener instrucciones sobre cómo crear una conexión, consulte [Conectar [!DNL Workfront] con [!DNL Workfront Fusion]](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-modules#connect-workfront-to-workfront-fusion) en el artículo Módulos de Workfront.
 
    Para obtener instrucciones sobre cómo crear el ID de cliente y el Secreto de cliente, deberá crear una conexión; consulte [Crear una aplicación de OAuth](#create-an-oauth-application) en este artículo.
 
@@ -175,4 +169,52 @@ Debe configurar una aplicación de OAuth en Workfront para la conexión de este 
 
 Utilizará este ID de cliente y este secreto de cliente al configurar la conexión del módulo en Fusion.
 
-Para obtener instrucciones sobre cómo crear una conexión, consulte [Conectar [!DNL Workfront] con [!DNL Workfront Fusion]](https://experienceleague.adobe.com/es/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-modules#connect-workfront-to-workfront-fusion) en el artículo Módulos de Workfront.
+Para obtener instrucciones sobre cómo crear una conexión, consulte [Conectar [!DNL Workfront] con [!DNL Workfront Fusion]](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-modules#connect-workfront-to-workfront-fusion) en el artículo Módulos de Workfront.
+
+## Resolución de problemas
+
+**Problema**: los formularios personalizados se adjuntan inesperadamente al proyecto creado por Fusion
+
+**Solución alternativa**:
+
+Mueva a `categoryID` fuera del JSON del proyecto avanzado y a `project_new.categoryID` (mediante el campo estructurado en la interfaz de usuario de Fusion).
+
+En concreto, cambie el asignador a:
+
+```
+// project_new — set just this one field via the structured UI
+{
+    "categoryID": "5d3a292300b69eb5d80c37e8ce6269d3"
+}
+```
+
+```
+// project (advanced JSON) — remove categoryID from here
+{
+    "aemNativeFolderTreeIDs": ["693c40280e09eb1bd4085a5e"],
+    "aemNativeFolderWorkflowEnabled": "true",
+    "name": "{{1.name}}",
+    "templateID": "{{if(...)}}",
+    "ownerID": "{{1.ownerID}}",
+    "sponsorID": "{{1.ownerID}}",
+    "priority": "2",
+    "programID": "{{ifempty(7.ID; null)}}",
+    "description": "test",
+    "portfolioID": "{{ifempty(8.ID; null)}}",
+    "scheduleMode": "S",
+    "completionType": "AUT"
+}
+```
+
+**Por qué funciona**:
+
+1. `isCtgyIDsGive`n ahora ve `project_new.categoryID = "5d3a292300b69eb5d80c37e8ce6269d3"` → devuelve el → verdadero `temp.isCtgyIDsGiven = true`
+2. El paso (`getAttachedAndAttachableCategoryID`s) se ha omitido; su condición es `!temp.isCtgyIDsGiven`
+3. En su lugar, se activa este paso: `ctgyIds = split(parameters.project_new.categoryID, ',')` → [&quot;5d3a292300b69eb5d80c37e8ce6269d3&quot;]
+4. `prepareMiscActionData` sigue usando el JSON del proyecto avanzado para todos los campos específicos de AEM (tiene prioridad sobre `project_new`) y, a continuación, superpone `objectCategories: [{ categoryID: "5d3a292300b69eb5d80c37e8ce6269d3" }]`, únicamente el formulario deseado y sin los inesperados
+5. Los pasos que copian los valores de los campos personalizados de OPTASK de origen en el nuevo proyecto siguen ejecutándose según lo esperado con `isCopyCustomData: true`
+
+Los campos de AEM (`aemNativeFolderTreeIDs`, `aemNativeFolderWorkflowEnabled`) permanecen en el campo avanzado sin que se vean afectados. Este proceso solo cambia donde se encuentra `categoryID`.
+
+
+
