@@ -5,15 +5,17 @@ title: Uso del servidor MCP de Adobe Workfront
 description: Utilice el servidor MCP de Adobe Workfront para buscar, crear, actualizar y administrar elementos de Workfront a través de una conversación en lenguaje natural en una plataforma agéntica de IA.
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: 267db684aa9b2b2a07c81394ba167017c89280f8
+source-git-commit: 5592c1b93b5e44c732f92d626ed878d2c4647ceb
 workflow-type: tm+mt
-source-wordcount: '1787'
+source-wordcount: '1896'
 ht-degree: 0%
 
 ---
 
 
 # Uso del servidor MCP de Adobe Workfront
+
+<span class="preview">La información de esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa de espacio aislado.</span>
 
 El servidor MCP [!DNL Adobe Workfront] le permite buscar, crear, actualizar y administrar elementos de Workfront solicitando una plataforma auténtica de IA en lenguaje natural. La plataforma decide qué acciones de Workfront llamar y gestiona la conversación con Workfront por usted.
 
@@ -209,8 +211,7 @@ está trabajando con.
 ### ¿La plataforma agéntica de IA me preguntará antes de cambiar o eliminar datos de Workfront?
 
 Eso depende de la plataforma de IA agéntica, no de Workfront. La mayoría de las plataformas
-le pedirá que confirme antes de ejecutar una acción, especialmente en el caso de eliminaciones.
-Antes de aprobar una solicitud, lea lo que la plataforma dice que está a punto de hacer:
+le pedirá que confirme antes de ejecutar una acción, especialmente en el caso de eliminaciones.Antes de aprobar una solicitud, lea lo que la plataforma dice que está a punto de hacer:
 los cambios se producen en Workfront del mismo modo que si se hicieran
 usted mismo en la interfaz.
 
@@ -242,8 +243,7 @@ aprobaciones, registros de Planning y mucho más.
 
 ### ¿Pueden otras personas ver mis conversaciones con la plataforma agéntica de IA?
 
-Workfront no almacena sus mensajes ni las respuestas de la plataforma agéntica de IA.
-Quienquiera que proporcione su plataforma agéntica de IA controla cómo sus conversaciones
+Workfront no almacena sus mensajes ni las respuestas de la plataforma agéntica de IA.Quienquiera que proporcione su plataforma agéntica de IA controla cómo sus conversaciones
 se almacenan o comparten. Consulte con su proveedor de plataforma agéntica de IA para
 detalles.
 

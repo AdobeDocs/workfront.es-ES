@@ -23,9 +23,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 71bea9d8e8a1987c5a1ee23d25402f784d2e22c8
 workflow-type: tm+mt
-source-wordcount: 1755
+source-wordcount: 1809
 ht-degree: 3%
 
 ---
@@ -189,11 +189,15 @@ Cuando cambia el estado de la tarea o del proyecto a un estado personalizado, el
 
 * El estado personalizado del proyecto o la tarea tiene el mismo código de tres letras que el estado personalizado del problema.
 
-Puede crear estados personalizados con la misma clave tanto para problemas como para proyectos o tareas. Cuando el proyecto o la tarea (como objeto de resolución) cambian al estado personalizado, el cambio también se refleja en el estado del problema. La clave de estado debe ser la misma para los estados de problema y proyecto o tarea.
+Tenga en cuenta lo siguiente:
 
-Por ejemplo, imagine que crea un proyecto de estado personalizado denominado Iniciado con el código LCD de tres letras, que equivale a Actual. A continuación, se crea un problema con un estado personalizado denominado Proyecto iniciado, también con el código de carta LCD, que equivale a En curso. Cuando marca el proyecto como Iniciado, el problema cambia automáticamente el estado a Proyecto Iniciado. Si el estado del problema solucionable se actualiza automáticamente cuando el estado de la configuración de cambios de objeto de resolución no estaba habilitado, el estado del problema cambiaría a En curso en su lugar.
+* Puede crear estados personalizados con la misma clave tanto para problemas como para proyectos o tareas. Cuando el proyecto o la tarea (como objeto de resolución) cambian al estado personalizado, el cambio también se refleja en el estado del problema. La clave de estado debe ser la misma para los estados de problema y proyecto o tarea.
 
-Para obtener más información sobre cómo crear un estado personalizado, vea [Crear o editar un estado](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
+  Por ejemplo, puede crear un estado personalizado de proyecto denominado Iniciado con el código de tres letras LCD, que equivale a Actual. A continuación, se crea un problema con un estado personalizado denominado Proyecto iniciado, también con el código de carta LCD, que equivale a En curso. Cuando marca el proyecto como Iniciado, el problema cambia automáticamente el estado a Proyecto Iniciado. Si el estado del problema solucionable se actualiza automáticamente cuando el estado de la configuración de cambios de objeto de resolución no estaba habilitado, el estado del problema cambiaría a En curso en su lugar.
+
+* Cuando un objeto de resolución se establece en un estado del sistema que se asigna a un estado Completo, el problema solucionable se establece en el estado predeterminado de su propio grupo para ese estado. La coincidencia de clave de estado de tres letras solo se aplica a la ruta de estado personalizada y no a los estados del sistema configurados por Workfront.
+
+  Para obtener más información sobre cómo crear un estado personalizado, vea [Crear o editar un estado](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
 
 ## Sincronizar el porcentaje completado de un objeto de resolución con el del objeto solucionable
 
