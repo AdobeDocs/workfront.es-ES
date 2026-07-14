@@ -41,7 +41,7 @@ Para obtener más información, consulte [Ver solicitudes enviadas](/help/quicks
 
 >[!NOTE]
 >
->Vista previa: 23 de abril de 2026Versión rápida de producción: 23 de abril de 2026Producción para todos: 23 de abril de 2026Fuera del horario]{type=Neutral}
+>Vista previa: 23 de abril de 2026Versión rápida de producción: 23 de abril de 2026Producción para todos: 23 de abril de 2026Fuera del horario&rbrack;{type=Neutral}
 
 Para ayudarle a organizar mejor su lista de solicitudes, hemos agregado las siguientes vistas predefinidas a la lista de solicitudes en el área de Solicitudes y al widget Mis solicitudes en Inicio:
 
