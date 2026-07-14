@@ -5,7 +5,7 @@ title: Herramientas del servidor MCP de Adobe Workfront
 description: Lista de referencia de las herramientas disponibles a través del servidor MCP de Adobe Workfront, agrupadas por área de Workfront.
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: 61c763939686179bd5299bdd386afb493e49ea49
+source-git-commit: 862ef1882f4a7a40ca142da7ddb98a8431681947
 workflow-type: tm+mt
 source-wordcount: '1949'
 ht-degree: 8%
@@ -223,7 +223,7 @@ Las herramientas de flujo de trabajo son las acciones de uso general que utiliza
 | Agregar reacción | `comment-stream_add_reaction` | Agregar una reacción (me gusta) a un comentario. | Escritura |
 | Eliminar reacción | `comment-stream_remove_reaction` | Eliminar una reacción (me gusta) de un comentario. | Escritura |
 
-## Herramientas de perspectivas
+### Herramientas de perspectivas
 
 Las herramientas de perspectivas recuperan información sobre los objetos de Workfront.
 
