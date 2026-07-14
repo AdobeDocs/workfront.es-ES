@@ -5,10 +5,10 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9d5fe72c-7af5-4699-8344-36cfdd3810d0
-source-git-commit: eb59acc816f0fd82330b60ddc9cd2f3aad851198
+source-git-commit: 6aec8f2f3dd6dd653361058712b9e7a251ec6a69
 workflow-type: tm+mt
-source-wordcount: '227'
-ht-degree: 9%
+source-wordcount: '322'
+ht-degree: 7%
 
 ---
 
@@ -18,19 +18,22 @@ Esta página describe las mejoras de solicitudes realizadas con la versión del 
 
 Para obtener una lista de todos los cambios disponibles en este punto del ciclo de la versión del tercer trimestre de 2026, consulte [Información general de la versión del tercer trimestre de 2026](/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-release-overview.md).
 
-## Introducción de nuevos estados de solicitud
+## La coincidencia de estados de solicitud entre la experiencia de solicitud heredada y la nueva
 
 >[!NOTE]
 >
->Vista previa: 27 de mayo de 2026>Versión rápida de producción: 11 de junio de 2026>Producción para todos: 16 de julio de 2026
+>Vista previa: 27 de mayo de 2026Versión rápida de producción: 11 de junio de 2026Producción para todos: 16 de julio de 2026
 
-Para obtener más contexto sobre el estado en el que se encuentran sus solicitudes, estamos introduciendo nuevos estados para las solicitudes. Los siguientes nuevos estados de solicitud ya están disponibles:
+Para obtener más contexto sobre el estado correcto en el que se encuentran sus solicitudes, estamos actualizando los estados de las solicitudes en la nueva experiencia de solicitud.
+
+Las solicitudes mostrarán el mismo estado en la experiencia de solicitud nueva y heredada para los siguientes estados:
 
 * Nuevo
 * En espera
-* Cancelado
 
-Se cambió el nombre del estado de Completado a Completado.
+Antes de esta actualización, si una solicitud estaba en los estados Nuevo o En espera en la lista de experiencia de solicitud heredada, se mostraba como En curso en la lista de experiencia de nueva solicitud. Ahora, los estados coinciden para las dos listas.
+
+Como parte de esta actualización, se ha cambiado el nombre del estado a Completado.
 
 Para obtener más información, consulte [Ver solicitudes enviadas](/help/quicksilver/manage-work/requests/create-requests/locate-submitted-requests.md).
 
@@ -38,7 +41,7 @@ Para obtener más información, consulte [Ver solicitudes enviadas](/help/quicks
 
 >[!NOTE]
 >
->Vista previa: 23 de abril de 2026>Versión rápida de producción: 23 de abril de 2026>Producción para todos: 23 de abril de 2026>[!BADGE Fuera de horario]{type=Neutral}
+>Vista previa: 23 de abril de 2026Versión rápida de producción: 23 de abril de 2026Producción para todos: 23 de abril de 2026Fuera del horario]{type=Neutral}
 
 Para ayudarle a organizar mejor su lista de solicitudes, hemos agregado las siguientes vistas predefinidas a la lista de solicitudes en el área de Solicitudes y al widget Mis solicitudes en Inicio:
 

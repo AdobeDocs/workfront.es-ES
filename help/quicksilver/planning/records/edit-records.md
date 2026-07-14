@@ -9,20 +9,14 @@ exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/yrm4kF5GdUGyOaR1AraNwLk3HHpEm1lEkT6r9HQsd4Q
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
-subfeature_v2:
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 873b65fb7f23d2e2b0598b56bb8893a7b87c1be1
 workflow-type: tm+mt
-source-wordcount: 3158
+source-wordcount: 3175
 ht-degree: 8%
 
 ---
@@ -202,7 +196,19 @@ Para obtener más información, consulte [Crear registros](/help/quicksilver/pla
 1. (Condicional) Haga clic en la ficha de una vista de tabla o haga clic en **+ Ver** para crear una vista de tabla. La vista de tabla debe ser la vista predeterminada, a menos que haya visto el tipo de registro en otro tipo de vista cuando accedió por última vez.
 
    Los registros asociados al tipo de registro seleccionado se muestran en la vista de tabla.
+
 1. (Opcional) Haga clic en el cuadro de búsqueda y agregue una palabra clave para buscar el registro que desea editar.
+
+   <!--
+    >[!TIP]
+    >
+    >You can use the following keyboard combination to open the global search box from any Workfront Planning page and search for records:
+    >
+    >* CTRL+K for Windows
+    >* ⌘+K for Mac
+    >
+    >![Global search box](assets/global-search-box.png)
+    -->
 
 1. Haga clic dentro de la fila de un registro para empezar a editar la información sobre el registro en línea.
 
@@ -279,8 +285,7 @@ Para obtener más información, consulte [Crear registros](/help/quicksilver/pla
 
    * **Ver** o <span class="preview">**Abrir en ficha nueva**</span>: Se abre la página de registro.
    * **Copiar vínculo**: para copiar un vínculo en la página del registro.
-   * **Editar miniatura**: Para agregar una miniatura a un registro.
-Para obtener más información, consulte [Agregar una miniatura a un registro](/help/quicksilver/planning/records/add-thumbnails-to-records.md).
+   * **Editar miniatura**: Para agregar una miniatura a un registro.Para obtener más información, consulte [Añadir una miniatura a un registro](/help/quicksilver/planning/records/add-thumbnails-to-records.md).
    * **Duplicado**: Esto crea un duplicado idéntico del registro.
    * **Insertar registro arriba/ Insertar registro abajo**: Agrega una fila nueva para que pueda agregar un registro nuevo. <span class="preview">Esto no es posible en el entorno de vista previa.</span>
    * **Eliminar**: Para eliminar el registro. Los registros eliminados se guardan en el cuadro Eliminados recientemente durante un máximo de 30 días.
