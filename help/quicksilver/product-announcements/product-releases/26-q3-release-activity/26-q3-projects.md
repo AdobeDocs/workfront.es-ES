@@ -4,7 +4,7 @@ description: Mejoras del proyecto del tercer trimestre de 2026
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 689f7f00502d41f22b5b2647ffaa30a3a1bd819f
+source-git-commit: f45c946e48b253018648c414915d53eca5a4de80
 workflow-type: tm+mt
 source-wordcount: '314'
 ht-degree: 5%
@@ -23,7 +23,7 @@ Para obtener una lista de todos los cambios disponibles en este punto del ciclo 
 
 >[!NOTE]
 >
->Vista previa: 9 de julio de 2026Producción para la versión rápida: 13 de agosto de 2026Producción para la versión trimestral: 15 de octubre de 2026Fuera del horario&rbrack;{type=Neutral}
+>Vista previa: 11 de junio de 2026Producción para la versión rápida: 11 de junio de 2026Producción para la versión trimestral: 11 de junio de 2026Fuera del horario]{type=Neutral}
 
 Si su organización utiliza el almacenamiento heredado de Workfront y el almacenamiento en la nube de Adobe, ahora puede convertir una tarea de almacenamiento heredado en un proyecto de almacenamiento en la nube de Adobe.Al hacerlo, los documentos y las aprobaciones de documentos permanecen en el objeto principal en lugar de transferirse al proyecto recién creado.
 
