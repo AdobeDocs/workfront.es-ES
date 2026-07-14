@@ -121,7 +121,7 @@ Para obtener más información, vea [Ver y administrar el historial de cambios](
 
 >[!NOTE]
 >
->Vista previa: 11 de junio de 2026Producción para todos: 11 de junio de 2026Fuera del horario]{type=Neutral}
+>Vista previa: 11 de junio de 2026Producción para todos: 11 de junio de 2026Fuera del horario&rbrack;{type=Neutral}
 
 Los administradores de Workfront ahora pueden convertir portafolios de almacenamiento heredado al almacenamiento en la nube de Adobe directamente desde Preferencias del sistema. Para convertir portafolios, selecciónelos en el nuevo campo Select portfolios to convert to enterprise storage y guarde la página.
 
