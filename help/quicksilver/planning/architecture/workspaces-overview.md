@@ -7,15 +7,12 @@ author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: b80d5ccf-4d22-49f2-89b6-bb9678a353c2
 TQID: https://experienceleague.adobe.com/Hh1Gh4ex1dLrPhsmqiLv3x5NAU0yKzIwcsV4hEogXTo
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: 4ac828444e49213cdc4e00a5f92e404899e2225d
 workflow-type: tm+mt
-source-wordcount: 516
-ht-degree: 60%
+source-wordcount: 608
+ht-degree: 51%
 
 ---
 
@@ -87,3 +84,24 @@ No longer the case - they match now:
 <!--make this live with the GA: * There is no limit for how many workspaces you can create in your environment. However, we recommend not to have too many workspaces, as they could become hard to manage and your workflows might be too fragmented.-->
 
 * Existen límites en cuanto a la cantidad de objetos de espacio de trabajo que se pueden crear en la instancia de Workfront Planning. Para obtener más información, consulte [Información general sobre limitaciones de objetos de Adobe Workfront Planning](/help/quicksilver/planning/general/limitations-overview.md).
+
+## Información general sobre la búsqueda global
+
+En la página de aterrizaje de Planning, puede utilizar el cuadro de búsqueda global para buscar los siguientes objetos de Planning:
+
+* Espacios de trabajo
+* Tipos de registro
+* Vistas
+
+![Cuadro de búsqueda global](assets/global-search-box.png)
+
+Tenga en cuenta lo siguiente sobre el uso de la búsqueda global:
+
+* Puede acceder a la búsqueda desde la página de aterrizaje de Planning o desde cualquier página de Planning pulsando la siguiente combinación de teclas:
+
+   * CTRL+K para Windows
+   * ⌘+K para Mac
+* Los últimos 7 resultados de cada objeto se muestran en el cuadro de búsqueda.
+* Puede realizar una búsqueda general o seleccionar un objeto y buscar en listas individuales.
+
+
