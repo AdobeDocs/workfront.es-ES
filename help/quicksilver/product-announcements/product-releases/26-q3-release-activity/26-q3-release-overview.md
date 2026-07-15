@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8ca50590-ef6a-44b1-a856-9821bdafbc1c
-source-git-commit: 689f7f00502d41f22b5b2647ffaa30a3a1bd819f
+source-git-commit: f45c946e48b253018648c414915d53eca5a4de80
 workflow-type: tm+mt
-source-wordcount: '2920'
+source-wordcount: '2919'
 ht-degree: 15%
 
 ---
@@ -357,9 +357,9 @@ Se celebran seminarios web en directo para cada versión trimestral, en los que 
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-projects.md" class="MCXref xref" xrefformat="{para}">Convertir una tarea de almacenamiento heredada en un proyecto de almacenamiento en la nube de Adobe</a><p><p>[!BADGE Off schedule]{type=Neutral}</p></p>
                 <p>Si su organización utiliza el almacenamiento heredado de Workfront y el almacenamiento en la nube de Adobe, ahora puede convertir una tarea de almacenamiento heredado en un proyecto de almacenamiento en la nube de Adobe.</p>
             </td>
-            <td><p>9 de julio de 2026</p></td>
-            <td><p>13 de agosto de 2026</p></td>
-            <td><p>15 de octubre de 2026</p></td>
+            <td><p>11 de junio de 2026</p></td>
+            <td><p>11 de junio de 2026</p></td>
+            <td><p>11 de junio de 2026</p></td>
         </tr>
         <tr>
             <td>
@@ -471,8 +471,8 @@ Se celebran seminarios web en directo para cada versión trimestral, en los que 
             <td><strong>Trimestralmente</strong></td>
         <tr>
             <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-requests.md" class="MCXref xref" xrefformat="{para}">Introduciendo nuevos estados de solicitud</a>
-                <p>Para obtener más contexto sobre el estado en el que se encuentran sus solicitudes, estamos introduciendo nuevos estados para las solicitudes: Nuevo, En espera y Cancelado. Se cambió el nombre del estado de Completado a Completado.</p>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-requests.md" class="MCXref xref" xrefformat="{para}">Estados de solicitud coincidentes entre la experiencia heredada y la nueva</a>
+                <p>Para obtener más contexto sobre el estado correcto en el que se encuentran sus solicitudes, estamos actualizando los estados de las solicitudes en la nueva experiencia de solicitud.</p>
             </td>
             <td><p>27 de mayo de 2026</p></td>
             <td><p>11 de junio de 2026</p></td>

@@ -4,9 +4,9 @@ description: Mejoras del administrador en el tercer trimestre de 2026
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: a9688886f32cd41dd7d53dbf0a918f25fdd04a0b
+source-git-commit: f45c946e48b253018648c414915d53eca5a4de80
 workflow-type: tm+mt
-source-wordcount: '1328'
+source-wordcount: '1334'
 ht-degree: 6%
 
 ---
@@ -121,7 +121,7 @@ Para obtener más información, vea [Ver y administrar el historial de cambios](
 
 >[!NOTE]
 >
->Vista previa: 11 de junio de 2026Producción para todos: 11 de junio de 2026
+>Vista previa: 11 de junio de 2026Producción para todos: 11 de junio de 2026Fuera del horario&rbrack;{type=Neutral}
 
 Los administradores de Workfront ahora pueden convertir portafolios de almacenamiento heredado al almacenamiento en la nube de Adobe directamente desde Preferencias del sistema. Para convertir portafolios, selecciónelos en el nuevo campo Select portfolios to convert to enterprise storage y guarde la página.
 
