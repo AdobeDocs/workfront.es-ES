@@ -21,16 +21,14 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: c58c4365016f8fe855003cdbbd457f95483d08bc
+source-git-commit: 8771d66f6b7ecae9ac439456822889d4fe438649
 workflow-type: tm+mt
-source-wordcount: 481
-ht-degree: 87%
+source-wordcount: 466
+ht-degree: 90%
 
 ---
 
 # Comprender la navegación de un usuario con licencia de [!UICONTROL Trabajo]
-
-{{highlighted-preview}}
 
 El [!UICONTROL Menú principal] cambia con el nivel de acceso que le asignó su administrador de [!DNL Adobe Workfront]. De forma predeterminada, solo se le otorga acceso a las áreas que incluyen la funcionalidad permitida por su nivel de acceso. Para comprender los componentes del diseño predeterminado de cada nivel de acceso, consulte [Acerca del diseño predeterminado [!DNL Adobe Workfront] &#x200B;](../../../administration-and-setup/customize-workfront/use-layout-templates/about-the-default-wf-layout.md).
 
@@ -68,11 +66,7 @@ Las siguientes áreas están incluidas en el diseño predeterminado de un [!UICO
 
 * **[!UICONTROL Tableros]**: trabaje con flexibilidad y colaboración con los integrantes del equipo mediante tableros compartidos que contengan columnas y tarjetas que reflejen el trabajo que desea realizar. Para obtener más información, consulte [Introducción a los tableros: índice de artículos](../../../agile/get-started-with-boards/get-started-with-boards.md).
 
-<span class="preview">Imagen de muestra en el entorno de vista previa:</span>
 ![Menú principal del trabajador](assets/worker-main-menu-070626.png)
-
-Imagen de muestra en el entorno de producción:
-![Menú principal del trabajador](assets/worker-main-menu-2026.png)
 
 ## Personalizar el [!UICONTROL menú principal] predeterminado
 

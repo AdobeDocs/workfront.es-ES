@@ -23,10 +23,10 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: ee260723331ddff4e8d89f7d9ca2b807835d6130
 workflow-type: tm+mt
-source-wordcount: 1018
-ht-degree: 6%
+source-wordcount: 1070
+ht-degree: 8%
 
 ---
 
@@ -63,15 +63,17 @@ Si una fila está ausente de la tabla de requisitos de acceso de un artículo de
   <tr> 
    <td role="rowheader">Licencia de Adobe Workfront</td> 
    <td> Las licencias de Adobe Workfront hacen referencia al conjunto de funciones de Workfront incluidas en la licencia asignada. Por ejemplo, un usuario puede tener una licencia que incluye marcar los elementos de trabajo como completos y registrar el tiempo, mientras que otro usuario tiene una licencia que solo le permite aprobar recursos o enviar solicitudes. <p> 
+   <p>Las licencias de Adobe Workfront pueden hacer referencia a los siguientes tipos de licencias:</p>
+   <ul><li>Licencias de Workfront Workflow</li>
+  <li>Licencias de Workfront Planning</li></ul>
+
+<p>Para saber qué licencia se le ha asignado, póngase en contacto con el administrador de Workfront.</p>
+   <p>Para obtener más información sobre las licencias, consulte:</p>
    <ul>
-   <li>Para saber qué licencia se le ha asignado, póngase en contacto con el administrador de Workfront.</li>
-   <li>Para obtener más información sobre las licencias, consulte:
-   <ul>
+   <li><a href="/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md">Creación y modificación de niveles de acceso personalizados</a></li>
    <li><a href="/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md" class="MCXref xref">Información general sobre nuevas licencias</a></li>
-   <li><a href="/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Información general de licencias</a></li></ul></li>
-   <li>Si tiene el nivel de acceso correcto y aún no tiene acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, vea <a href="/help/quicksilver/administration-and-setup/get-started-wf-administration/firewall-overview.md#view-your-organizations-cluster-and-workfront-package" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.
-   </ul>
-      </p> </td> 
+   <li><a href="/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Información general de licencias</a></li></ul>
+   <p>Si tiene el nivel de acceso correcto y aún no tiene acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, consulte <a href="/help/quicksilver/administration-and-setup/get-started-wf-administration/firewall-overview.md#view-your-organizations-cluster-and-workfront-package" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Producto</td> 

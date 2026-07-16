@@ -21,10 +21,10 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+source-git-commit: 9025c23900c031594d1a4b875826fc35f1d5bf6c
 workflow-type: tm+mt
-source-wordcount: 597
-ht-degree: 30%
+source-wordcount: 624
+ht-degree: 29%
 
 ---
 
@@ -175,7 +175,7 @@ Old:
   | Texto de una sola línea con formato de número | Número |
   | Texto de una sola línea con formato de moneda | Divisa |
   | Párrafo | Párrafo |
-  | Texto con formato | Párrafo |
+  | Texto enriquecido/Texto con formato | Párrafo |
   | Lista desplegable de selección única | Selección única |
   | Lista desplegable de selección múltiple | Selección múltiple |
   | Los filtros de escritura anticipada de usuario no son compatibles | Personas |

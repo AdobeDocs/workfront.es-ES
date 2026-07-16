@@ -20,10 +20,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+source-git-commit: 07a00836f60ce0bb4ee7fb0202c9458b0c1be406
 workflow-type: tm+mt
-source-wordcount: 747
-ht-degree: 14%
+source-wordcount: 770
+ht-degree: 15%
 
 ---
 
@@ -47,6 +47,13 @@ Puede agregar un formulario personalizado existente a cualquiera de los objetos 
 * Iteraciones
 * Gastos
 * Registros de facturación
+* Equipos
+
+Si está en el paquete Workflow Ultimate, puede adjuntar formularios personalizados a estos objetos adicionales:
+
+* Roles
+* Tarjetas de tarifas
+* Asignaciones
 
 Puede agregar un formulario personalizado solo a los tipos de objetos para los que se creó el formulario.
 

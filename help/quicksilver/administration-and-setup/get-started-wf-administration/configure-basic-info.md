@@ -23,7 +23,7 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 5fe8f3a46e3582a359b8d4641a7062b0590ea0b8
 workflow-type: tm+mt
 source-wordcount: 766
 ht-degree: 10%
@@ -31,8 +31,6 @@ ht-degree: 10%
 ---
 
 # Configurar la información básica del sistema
-
-{{highlighted-preview}}
 
 <!-- Audited: 2/2024 -->
 
@@ -84,7 +82,7 @@ Para acceder a la página Información del cliente:
    | Sección | Más información |
    |---------|-----------------|
    | **Información básica** | Para obtener información acerca de cómo configurar información básica en Workfront, vea [Configurar información básica](#configure-basic-info). |
-   | <span class="preview">**Información general sobre almacenamiento**</span> | <span class="preview">Para obtener información acerca de cómo comprobar el uso y la cuota del almacenamiento de documentos, vea [Comprobar los límites del almacenamiento de documentos](../../documents/managing-documents/check-document-storage.md).</span> |
+   | **Información general sobre almacenamiento** | Para obtener información acerca de cómo comprobar el uso y la cuota del almacenamiento de documentos, vea [Comprobar los límites del almacenamiento de documentos](../../documents/managing-documents/check-document-storage.md). |
    | **Configuración de clave API** | Para obtener información acerca de la configuración de claves API, consulte [Administrar claves API](../../administration-and-setup/manage-workfront/security/manage-api-keys.md). |
    | **Lista de permitidos IP** | Para obtener información acerca de cómo agregar direcciones IP a la lista de permitidos para que los usuarios tengan acceso a Workfront, consulte [Configuración de la lista de permitidos del firewall](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md). |
    | **Lista de permitidos por correo electrónico** | Para obtener información sobre cómo agregar correos electrónicos a la lista de permitidos, consulte [Configuración de la lista de permitidos por correo electrónico](/help/quicksilver/administration-and-setup/get-started-wf-administration/configure-your-email-allowlist.md). |

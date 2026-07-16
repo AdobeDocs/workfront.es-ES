@@ -20,10 +20,10 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 1eda36eb74aca2b731f2632eac3aae60e6b8ef9d
 workflow-type: tm+mt
-source-wordcount: 1359
-ht-degree: 69%
+source-wordcount: 1477
+ht-degree: 72%
 
 ---
 
@@ -75,14 +75,14 @@ En este ejemplo se muestra cómo llamar a la API de Workfront y rellenar una lis
 
 1. Abra el formulario personalizado.
 1. En el lado izquierdo de la pantalla, busque **Búsqueda externa** y arrástrela a una sección del lienzo.
-1. Escriba la **Etiqueta** y el **Nombre** para el campo.
+1. Escriba **Label** y **API Name** para el campo.
 1. Seleccione el **Formato** para el campo.
 1. Escriba la llamada de API en el campo **URL de API base**.
 
    * Utilice $$HOST para hacer referencia a la misma instancia de Workfront donde está el formulario personalizado.
    * Utilice $$QUERY para filtrar dinámicamente los resultados en función de los datos introducidos por el usuario.
 
-   **Ejemplo de llamada de API**
+   **Llamada de API de ejemplo**
    `$$HOST/attask/api/v15.0/project/search?status={DE:Status Query}&description=$$QUERY`
 
 1. Revise las **dependencias** para los campos a los que se hace referencia en la llamada de API.
@@ -120,7 +120,7 @@ Este ejemplo muestra cómo llamar a la API de Workfront y llevar los datos de un
 
 1. Abra el formulario personalizado.
 1. En el lado izquierdo de la pantalla, busque **Búsqueda externa** y arrástrela a una sección del lienzo.
-1. Escriba la **Etiqueta** y el **Nombre** para el campo.
+1. Escriba **Label** y **API Name** para el campo.
 1. Seleccione el **Formato** para el campo.
 1. Escriba la llamada de URL de API en el campo **URL de API básica**.
 
@@ -171,7 +171,7 @@ Este ejemplo muestra cómo llamar a una API de países (como <https://api.first.
 
 1. Abra el formulario personalizado.
 1. En el lado izquierdo de la pantalla, busque **Búsqueda externa** y arrástrela a una sección del lienzo.
-1. Escriba la **Etiqueta** y el **Nombre** para el campo.
+1. Escriba **Label** y **API Name** para el campo.
 1. Seleccione el **Formato** para el campo.
 1. Escriba la llamada de URL de API en el campo **URL de API básica**.
 
@@ -226,18 +226,18 @@ Lista todos los países: <https://api.first.org/data/v1/countries>
 
 Existen muchos otros casos de uso para crear una búsqueda externa.
 
-**Caso de uso:** Reemplace los campos de escritura anticipada, ya que pueden causar problemas con los informes.
-**Solución:** Use una llamada API a los objetos existentes en el sistema.
+**Caso de uso:** reemplace los campos de escritura anticipada, ya que pueden causar problemas con la creación de informes.
+**Solución:** use una llamada de API a los objetos existentes en el sistema.
 
 Ejemplo de URL de API base para plantillas, para reemplazar un campo de escritura anticipada:
 `$$HOST/attask/api/v17.0/tmpl/search?isActive=true&name_Sort=asc`
 
-**Caso de uso:** Cree campos desplegables con más características (por ejemplo, hay ajuste de línea en el campo de búsqueda externa).
-**Solución:** Use una llamada API a los objetos existentes del sistema o cree un nuevo objeto y use una llamada API a este objeto.
+**Caso de uso:** cree campos desplegables con más funciones (por ejemplo, hay salto de línea en el campo Búsqueda externa).
+**Solución:** use una llamada de API a los objetos existentes del sistema o cree un nuevo objeto y use una llamada de API a este objeto.
 
-**Caso de uso:** defina una forma para que los usuarios mantengan sus propios campos fuera del área de formularios personalizados. Configure el campo Búsqueda externa y puede proporcionar usuarios a los objetos que componen el campo. Esta opción es adecuada para equipos y campos de alto mantenimiento.
-**Solución:** Cree un nuevo objeto y use una llamada API a este objeto.
+**Caso de uso:** defina una forma para que los usuarios mantengan sus propios campos fuera del área de formularios personalizados. Configure el campo Búsqueda externa y puede proporcionar usuarios a los objetos que componen el campo. Esta opción es adecuada para campos y equipos de alto mantenimiento.
+**Solución:** cree un nuevo objeto y use una llamada de API a este objeto.
 
-**Caso de uso:** Integración con objetos fuera de Workfront. Por ejemplo, acceder a otro sistema para obtener el nombre de cada usuario, en lugar de estar restringido en un campo de escritura anticipada.
-**Solución:** Automatización Webhook/Fusion para conectarse a otros sistemas.
+**Caso de uso:** integración con objetos fuera de Workfront. Por ejemplo, acceder a otro sistema para obtener el nombre de cada usuario, en lugar de estar restringido en un campo de escritura anticipada.
+**Solución:** automatización de webhook/Fusion para conectarse a otros sistemas.
 

@@ -5,10 +5,10 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8ca50590-ef6a-44b1-a856-9821bdafbc1c
-source-git-commit: f45c946e48b253018648c414915d53eca5a4de80
+source-git-commit: 29d86cd2aa730d5bebe14fb2bd3cb1a59e00852a
 workflow-type: tm+mt
-source-wordcount: '2919'
-ht-degree: 15%
+source-wordcount: '3150'
+ht-degree: 14%
 
 ---
 
@@ -110,6 +110,15 @@ Se celebran seminarios web en directo para cada versión trimestral, en los que 
             <td><p>July 16, 2026</p></td>
         </tr>
         -->
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Nuevos campos de tipo de licencia para los niveles de acceso<p>[!BADGE Off schedule]{type=Neutral}</p></a>
+                <p>Hemos realizado los siguientes cambios en el campo del cuadro Nivel de acceso: <ul><li>Hemos cambiado el nombre del campo Tipo de licencia en el cuadro Nivel de acceso a Tipo de licencia de flujo de trabajo. No hay cambios en la funcionalidad al volver a etiquetar.  </li><li>Para los clientes que también han adquirido un paquete de Workfront Planning, se ha añadido un nuevo campo Tipo de licencia de planificación para ilustrar la licencia de un usuario en Workfront Planning. </li><ul></p>
+            </td>
+            <td><p>16 de julio de 2026</p></td>
+            <td><p>16 de julio de 2026</p></td>
+            <td><p>16 de julio de 2026</p></td>
+        </tr>
         <tr>
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">El campo de búsqueda interna reemplaza el tipo de campo de escritura anticipada</a>
@@ -597,6 +606,31 @@ El Visor de pruebas de escritorio se ha actualizado a desde la versión 2.1.54 a
 Esta actualización es para Mac y Windows.
 
 ## Anuncios
+
+### Adobe Workfront Planning como producto independiente
+
+>[!NOTE]
+>
+>Vista previa y producción para todos los clientes: a partir del 16 de julio de 2026
+>
+>[!BADGE Solo clientes nuevos]{type=Neutral}
+
+Ahora puede adquirir Adobe Workfront Planning de forma independiente, sin necesidad de una licencia de Workfront Workflow.
+
+Adobe Workfront Planning como producto independiente está diseñado para nuevos clientes y para equipos que necesitan funcionalidades de planificación de campañas y administración de metadatos sin el conjunto completo de funciones de flujo de trabajo.
+
+>[!IMPORTANT]
+>
+>Solo está disponible para clientes nuevos. Póngase en contacto con el representante de cuentas para obtener más información.
+
+Algunas de las funciones incluidas en Adobe Workfront Planning como producto independiente son las siguientes:
+
+* Funcionalidad completa de Workfront Planning, con la capacidad de crear y administrar espacios de trabajo, tipos de registros, registros, campos y vistas.
+* Capacidad para conectar registros, incluidas conexiones entre espacios de trabajo para paquetes de Prime y Ultimate.
+* Automatizaciones para crear registros de Planning.
+* Proceso de admisión mediante formularios de solicitud de Planning.
+
+Para obtener más información, consulte [Introducción a Adobe Workfront Planning como producto independiente](/help/quicksilver/planning/planning-sta/planning-sta-overview.md).
 
 ### Versión de API 22
 

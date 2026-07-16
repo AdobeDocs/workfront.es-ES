@@ -19,9 +19,9 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 07a00836f60ce0bb4ee7fb0202c9458b0c1be406
 workflow-type: tm+mt
-source-wordcount: 740
+source-wordcount: 745
 ht-degree: 6%
 
 ---
@@ -68,7 +68,7 @@ La lógica de validación se crea mediante fórmulas y puede hacer que la lógic
 
 Si el campo con la lógica aplicada cumple las condiciones de validación definidas cuando un usuario rellena el formulario personalizado, el campo se resalta y se muestra el mensaje de error.
 
-Puede aplicar lógica de validación a los siguientes tipos de campo: texto de una línea, párrafo, lista desplegable de selección única, lista desplegable de selección múltiple, búsqueda externa, escritura anticipada, fecha, grupo de casillas de verificación y botones de opción.
+Puede aplicar lógica de validación a los siguientes tipos de campo: texto de una línea, párrafo, lista desplegable de selección única, lista desplegable de selección múltiple, búsqueda externa, búsqueda interna, fecha, grupo de casillas de verificación y botones de opción.
 
 ### Solamente permitir que el propietario del proyecto seleccione &quot;Apurar&quot; SLA
 
@@ -134,9 +134,9 @@ Si un usuario que no es el propietario del proyecto intenta escribir en el campo
 
 ![Solo Claire Stevens puede editar este campo](assets/only-project-owner-can-edit.png)
 
-### Escribir con anticipación permite o rechaza valores basados en otros valores de campo
+### La búsqueda interna permite o rechaza valores basados en otros valores de campo
 
-En este ejemplo, un campo de escritura anticipada permite o rechaza dinámicamente valores basados en el valor introducido en otro campo del formulario.
+En este ejemplo, un campo de búsqueda interna permite o rechaza dinámicamente valores basados en el valor introducido en otro campo del formulario.
 
 Expresión de validación:
 
@@ -146,7 +146,7 @@ IF({DE:DV - Text - Budget}>"10000",
 )
 ```
 
-Si el valor del campo de presupuesto es superior a 10 000 $, solo se pueden seleccionar usuarios con la función de director en el tipo de delante, aunque no haya ningún filtro de función habilitado en la configuración de tipo de delante.
+Si el valor del campo de presupuesto es superior a 10 000 $, solo se pueden seleccionar usuarios con la función de director en la búsqueda interna, aunque no haya ningún filtro de función habilitado en la configuración de la búsqueda interna.
 
 ![El importe del presupuesto requiere la aprobación del director](assets/budget-director.png)
 

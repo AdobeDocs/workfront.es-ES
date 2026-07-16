@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: bf49db73-09f1-417e-836b-16c6062740d4
 last-update: 2026-04-01T18:23:03Z
 git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+source-git-commit: 009953346ae5ef29611101acaa08b4f9810cf9d8
 workflow-type: tm+mt
-source-wordcount: '1447'
+source-wordcount: '1498'
 ht-degree: 6%
 
 ---
@@ -33,7 +33,7 @@ Puede compartir un tipo de registro con otros usuarios para garantizar la colabo
 >[!IMPORTANT]
 >
 >Los usuarios con acceso a un espacio de trabajo obtienen automáticamente al menos permisos de visualización para todos los tipos de registros del espacio de trabajo.
->Compartir vistas no otorga permisos a los usuarios para los tipos de registro. Sólo los espacios de trabajo compartidos pueden conceder permisos de usuario a los tipos de registro.
+>Al compartir vistas, los usuarios no conceden permisos a los tipos de registro. Sólo los espacios de trabajo compartidos pueden conceder permisos de usuario a los tipos de registro.
 >
 >* Para obtener información general sobre cómo compartir objetos en Workfront Planning, consulte también [Información general sobre los permisos de uso compartido en Adobe Workfront Planning](/help/quicksilver/planning/access/sharing-permissions-overview.md).
 >* Para obtener más información, vea la sección [Consideraciones al compartir tipos de registros](#considerations-when-sharing-record-types) en este artículo.
@@ -56,9 +56,9 @@ Puede compartir un tipo de registro con otros usuarios para garantizar la colabo
 <tr> 
    <td role="rowheader"><p>Paquete de Adobe Workfront</p></td> 
    <td> 
-<p>Cualquier paquete de Workfront y Planning</p> 
+<p>Cualquier Workfront o flujo de trabajo con un paquete de Planning</p> 
 O
-<p>Cualquier paquete de flujo de trabajo y planificación</p> 
+<p>Cualquier Workfront Planning como paquete de producto independiente</p> 
  </tr>
 
 <tr> 

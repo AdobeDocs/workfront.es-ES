@@ -15,7 +15,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 8771d66f6b7ecae9ac439456822889d4fe438649
 workflow-type: tm+mt
 source-wordcount: 206
 ht-degree: 82%
@@ -55,7 +55,7 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
 
 ## Ver elementos recientes
 
-1. Haga clic en el icono **[!UICONTROL Recientes]** ![[!UICONTROL Recientes]](assets/recents-icon-40x43.png) en la esquina superior derecha de cualquier página.
+1. Haga clic en el icono **[!UICONTROL Recientes]** ![[!UICONTROL Recientes]](assets/recents-icon.png) en la esquina superior derecha de cualquier página.
 
    ![Lista de recientes](assets/recents-list.png)
 

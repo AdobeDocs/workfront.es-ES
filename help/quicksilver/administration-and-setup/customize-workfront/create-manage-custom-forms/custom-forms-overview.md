@@ -19,9 +19,9 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 07a00836f60ce0bb4ee7fb0202c9458b0c1be406
 workflow-type: tm+mt
-source-wordcount: 394
+source-wordcount: 395
 ht-degree: 24%
 
 ---
@@ -54,12 +54,12 @@ Puede agregar los siguientes tipos de campos personalizados a un formulario pers
 
 * Texto de línea única
 * Párrafo
-* Texto con formato
-* Lista desplegable de selección única
+* Texto enriquecido
+* Menú desplegable de selección única
 * Lista desplegable de selección múltiple
 * Búsqueda externa
+* Búsqueda interna
 * Referencia de campo nativo
-* Escritura anticipada
 * Conexión de campo de Planning
 * Calculado
 * Fecha
@@ -97,6 +97,7 @@ Los usuarios pueden adjuntar formularios personalizados a los siguientes tipos d
 * Iteración
 * Registro de facturación
 * Tarjeta de tarifas
+* Asignación
 
 Para obtener más información sobre cómo adjuntar formularios personalizados a objetos, vea [Agregar un formulario personalizado a un objeto](../../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md).
 

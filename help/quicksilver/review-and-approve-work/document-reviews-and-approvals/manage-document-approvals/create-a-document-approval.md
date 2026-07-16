@@ -20,16 +20,14 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 2fb0effe42a24898bb3389f72405a92f38ed5cc9
+source-git-commit: 632c8690acc30121fe72338326ec8ab58c0fd3a6
 workflow-type: tm+mt
-source-wordcount: 2758
+source-wordcount: 2231
 ht-degree: 5%
 
 ---
 
 # Crear un flujo de trabajo de aprobación de documentos
-
-{{highlighted-preview}}
 
 Puede solicitar la aprobación de otros usuarios o equipos para un documento en Adobe Workfront o solicitar que revisen un documento sin necesidad de aprobarlo.
 
@@ -73,54 +71,55 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
 
 +++
 
-## Cree un flujo de trabajo de aprobación en el área de documentos heredados de Producción
+<!--
 
-Si su organización está en el almacenamiento de Workfront, verá el área de documentos heredados al acceder a documentos en Workfront. Para obtener más información sobre el almacenamiento de Workfront, consulte [Diferencias entre el almacenamiento en la nube de Adobe y el almacenamiento de Workfront heredado](/help/quicksilver/review-and-approve-work/esm-overview.md#differences-between-adobe-cloud-storage-and-legacy-workfront-storage).
+## Create an approval workflow in the legacy documents area in Production
 
-Para crear un flujo de trabajo de aprobación:
+If your organization is on Workfront storage, you will see the legacy documents area when you access documents in Workfront. For more information about Workfront storage, see [Differences between Adobe cloud storage and legacy Workfront storage](/help/quicksilver/review-and-approve-work/esm-overview.md#differences-between-adobe-cloud-storage-and-legacy-workfront-storage).
 
-1. Vaya al proyecto, tarea o problema que contiene el documento y, a continuación, seleccione **Documentos** en el panel izquierdo.
+To create an approval workflow:
 
-1. Haga clic en el documento que necesita y se abrirá el panel Resumen del documento para ese documento.
+1. Go to the project, task, or issue that contains the document, then select **Documents** in the left panel.
 
-1. Seleccione la versión del documento para la que desea crear una aprobación en el menú desplegable de versión. La última versión está seleccionada de forma predeterminada.
+1. Click on the document you need and the Document Summary panel for that document opens.
 
-1. Desplácese hacia abajo hasta la sección **Aprobaciones** y haga clic en **Crear flujo de trabajo**.
+1. Select the version of the document you would like to create an approval for in the version dropdown. The latest version is selected by default.
+
+1. Scroll down to the **Approvals** section, then click **Create workflow**.
 
 
-1. Complete los siguientes detalles:
+1. Fill in the following details:
 
    <table>
    <tr>
-   <td><strong>Nombre de la fase</strong></td>
-   <td>Añada un nombre de fase. Puede cambiar el nombre por otro más descriptivo, como <em>Revisión inicial</em> o <em>Aprobación final</em>.</td>
+   <td><strong>Stage name</strong></td>
+   <td>Add a stage name. You can change the name to something more descriptive, such as <em>Initial Review</em> or <em>Final Approval</em>.</td>
    </tr>
    <tr>
-   <td><strong>Añadir nombres o correos electrónicos</strong></td>
-   <td>Empiece a escribir el nombre de un usuario o equipo que desee agregar como aprobador o revisor. Si solo tiene revisores, se les notificará y tendrán la opción de completar la revisión, pero no se requerirá ni se adoptará ninguna decisión.</td>
+   <td><strong>Add names or emails</strong></td>
+   <td>Begin typing a user or team name to add as an approver or reviewer. If you only have reviewers, they will be notified and have the option to complete the review but no decision will be required or made.</td>
    </tr>
    <tr>
-   <td><strong>Se requiere una decisión (opcional)</strong></td>
-   <td>La primera persona que toma una decisión completa la etapa.</td>
+   <td><strong>One decision required (optional)</strong></td>
+   <td>The first person who makes a decision completes the stage.</td>
    </tr>
    <tr>
-   <td><strong>Fecha de vencimiento (opcional)</strong></td>
-   <td>Establezca una fecha límite para la aprobación. Los usuarios y equipos reciben una notificación por correo electrónico 72 horas y, a continuación, 24 horas antes de la fecha de vencimiento especificada.</td>
+   <td><strong>Due date (optional)</strong></td>
+   <td>Set a due date for the approval. Users and teams are notified by email 72 hours, then 24 hours before the specified due date.</td>
    </tr>
    </table>
 
-1. (Opcional) Repita el paso anterior para agregar etapas adicionales según sea necesario.
+1. (Optional) Repeat the previous step to add additional stages as needed.
 
    >[!NOTE]
    >
-   >Si agrega varias fases, el flujo de trabajo de aprobación se ejecuta en el orden en que se enumeran las fases. Cuando se toman todas las decisiones necesarias, comienza la siguiente etapa y se bloquea la anterior.
+   >If you add multiple stages, the approval workflow proceeds in the order the stages are listed. When all required decisions are made, the next stage begins and the previous stage is locked.
 
-   ![Detalles del documento](assets/new-stage.png)
+   ![Document details](assets/new-stage.png)
 
+-->
 
-<div class="preview">
-
-## Cree un flujo de trabajo de aprobación en el área de documentos heredados en Vista previa
+## Creación de un flujo de trabajo de aprobación en el área de documentos heredados
 
 Si su organización está en el almacenamiento de Workfront, verá el área de documentos heredados al acceder a documentos en Workfront. Para obtener más información sobre el almacenamiento de Workfront, consulte [Diferencias entre el almacenamiento en la nube de Adobe y el almacenamiento de Workfront heredado](/help/quicksilver/review-and-approve-work/esm-overview.md#differences-between-adobe-cloud-storage-and-legacy-workfront-storage).
 
@@ -157,7 +156,8 @@ Para crear un flujo de trabajo de aprobación de una sola etapa:
    </tr>
    <tr>
    <td><strong>Añadir mensaje personalizado (opcional)</strong></td>
-   <td>Escriba un mensaje en el cuadro de texto <strong>Agregar mensaje personalizado</strong>. El mensaje aparece en la notificación de correo electrónico de aprobación y en la pestaña Aprobaciones de Workfront.<p>Nota: Si edita un mensaje personalizado después de crear el flujo de trabajo de aprobación, se envía una notificación actualizada por correo electrónico a todos los participantes existentes. Si agrega un participante más adelante, el mensaje personalizado se incluye en su notificación por correo electrónico.</p>
+   <td>Escriba un mensaje en el cuadro de texto <strong>Agregar mensaje personalizado</strong>. El mensaje aparece en la notificación de correo electrónico de aprobación y en la pestaña Aprobaciones de Workfront.
+   <p>Nota: Si edita un mensaje personalizado después de crear el flujo de trabajo de aprobación, se envía una notificación actualizada por correo electrónico a todos los participantes existentes. Si agrega un participante más adelante, el mensaje personalizado se incluye en su notificación por correo electrónico.</p>
    </td>
    </tr>
    </table>
@@ -225,54 +225,53 @@ Para crear un flujo de trabajo de aprobación avanzado:
 
 1. Haga clic en **Solicitar aprobación**.
 
-</div>
 
+<!--
 
-## Cree un flujo de trabajo de aprobación en el nuevo área de Documentos en Producción
+## Create an approval workflow in the new Documents area in Production
 
-Si su organización utiliza el almacenamiento en la nube de Adobe, verá la nueva área Documentos al acceder a documentos en Workfront. Para obtener más información sobre el almacenamiento en la nube de Adobe, consulte [Información general sobre el almacenamiento en la nube de Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
+If your organization uses Adobe cloud storage, you will see the new Documents area when you access documents in Workfront. For more information about Adobe cloud storage, see [Adobe cloud storage overview](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
-Para crear un flujo de trabajo de aprobación:
+To create an approval workflow:
 
-1. Vaya al proyecto, tarea o problema que contiene el documento y, a continuación, seleccione **Documentos** en el panel izquierdo.
+1. Go to the project, task, or issue that contains the document, then select **Documents** in the left panel.
 
-1. Haga clic en el documento y luego en el icono **Aprobaciones** que encontrará a la derecha de la página.
+1. Click on the document, then click the **Approvals** icon on the right side of the page.
 
-   ![Agregar aprobadores en el resumen del documento](assets/approvals-icon-new.png)
+   ![Add approvers in document summary](assets/approvals-icon-new.png)
 
-1. Haga clic en **Crear flujo de trabajo** y rellene los siguientes detalles:
+1. Click **Create workflow**, then fill in the following details:
 
    <table>
    <tr>
-   <td><strong>Nombre de la fase</strong></td>
-   <td>Añada un nombre de fase. Puede cambiar el nombre por otro más descriptivo, como <em>Revisión inicial</em> o <em>Aprobación final</em>.</td>
+   <td><strong>Stage name</strong></td>
+   <td>Add a stage name. You can change the name to something more descriptive, such as <em>Initial Review</em> or <em>Final Approval</em>.</td>
    </tr>
    <tr>
-   <td><strong>Añadir nombres o correos electrónicos</strong></td>
-   <td>Empiece a escribir el nombre de un usuario o equipo que desee agregar como aprobador o revisor. Si solo tiene revisores, se les notificará y tendrán la opción de completar la revisión, pero no se requerirá ni se adoptará ninguna decisión.</td>
+   <td><strong>Add names or emails</strong></td>
+   <td>Begin typing a user or team name to add as an approver or reviewer. If you only have reviewers, they will be notified and have the option to complete the review but no decision will be required or made.</td>
    </tr>
    <tr>
-   <td><strong>Se requiere una decisión (opcional)</strong></td>
-   <td>La primera persona que toma una decisión completa la etapa.</td>
+   <td><strong>One decision required (optional)</strong></td>
+   <td>The first person who makes a decision completes the stage.</td>
    </tr>
    <tr>
-   <td><strong>Fecha de vencimiento (opcional)</strong></td>
-   <td>Establezca una fecha límite para la aprobación. Los usuarios y equipos reciben una notificación por correo electrónico 72 horas y, a continuación, 24 horas antes de la fecha de vencimiento especificada.</td>
+   <td><strong>Due date (optional)</strong></td>
+   <td>Set a due date for the approval. Users and teams are notified by email 72 hours, then 24 hours before the specified due date.</td>
    </tr>
    </table>
 
-1. (Opcional) Repita el paso anterior para agregar etapas adicionales según sea necesario.
+1. (Optional) Repeat the previous step to add additional stages as needed.
 
    >[!NOTE]
    >
-   >Si agrega varias fases, el flujo de trabajo de aprobación se ejecuta en el orden en que se enumeran las fases. Cuando se toman todas las decisiones necesarias, comienza la siguiente etapa y se bloquea la anterior.
+   >If you add multiple stages, the approval workflow proceeds in the order the stages are listed. When all required decisions are made, the next stage begins and the previous stage is locked.
 
-   ![Detalles del documento](assets/new-stage.png)
+   ![Document details](assets/new-stage.png)
+   
+-->
 
-
-<div class="preview">
-
-## Crear un flujo de trabajo de aprobación en el área de nuevos documentos en Vista previa
+## Crear un flujo de trabajo de aprobación en la nueva área de documentos
 
 Si su organización utiliza el almacenamiento en la nube de Adobe, verá la nueva área Documentos al acceder a documentos en Workfront. Para obtener más información sobre el almacenamiento en la nube de Adobe, consulte [Información general sobre el almacenamiento en la nube de Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
@@ -384,10 +383,6 @@ Para crear un flujo de trabajo de aprobación avanzado:
 1. (Opcional) Para borrar todas las rutas y etapas y volver a empezar, haga clic en **Restablecer** en la parte superior derecha.
 
 1. Haga clic en **Solicitar aprobación**.
-
-</div>
-
-
 
 <!--
 ## Resubmit an approval on a new version

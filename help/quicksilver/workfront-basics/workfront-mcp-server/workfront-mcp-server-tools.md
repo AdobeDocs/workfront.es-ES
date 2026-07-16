@@ -5,17 +5,15 @@ title: Herramientas del servidor MCP de Adobe Workfront
 description: Lista de referencia de las herramientas disponibles a través del servidor MCP de Adobe Workfront, agrupadas por área de Workfront.
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: 862ef1882f4a7a40ca142da7ddb98a8431681947
+source-git-commit: e51ba55867fdf47034e8baef28c2e3f7e541dde9
 workflow-type: tm+mt
-source-wordcount: '1949'
+source-wordcount: '1964'
 ht-degree: 8%
 
 ---
 
 
 # Herramientas del servidor MCP de Adobe Workfront
-
-<span class="preview">La información de esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa de espacio aislado.</span>
 
 Este artículo enumera las herramientas que expone el servidor MCP de [!DNL Adobe Workfront] a una plataforma independiente de IA conectada. La plataforma llama a estas herramientas en su nombre cuando le pide que busque, cree, actualice o elimine elementos de Workfront.
 
@@ -50,6 +48,8 @@ Si la plataforma agéntica de IA puede encontrar elementos de Workfront pero no 
 | Obtener documento por ID de versión | `approvals_get_document_by_version_id` | Obtiene detalles del documento (nombre, tamaño, fecha de carga, cargador) para un ID de versión de documento conocido. | Leer |
 | Obtener documentos por proyecto | `approvals_get_documents_by_project` | Enumera los documentos de un proyecto de Workfront, con el ID de versión actual de cada documento. | Leer |
 | Resolver ámbito del documento | `approvals_resolve_document_scope` | Expande un proyecto o carpeta a la lista de identificadores de versión de documento que contiene. Admite ámbitos de proyecto, carpeta y carpeta por nombre. | Leer |
+| Buscar un documento | `approvals_find_document` | Buscar un documento por nombre de archivo o ID de versión del documento | Leer |
+| Obtener documentos por ámbito | approvals_get_documents_by_scope | Mostrar documento de lista dentro de un proyecto o carpeta. | Leer |
 
 <!--
 | List AEM-linked folders* | `approvals_list_aem_linked_folders` | Lists Workfront document folders that are linked to Adobe Experience Manager. | Read |
@@ -108,7 +108,7 @@ Si la plataforma agéntica de IA puede encontrar elementos de Workfront pero no 
 | Buscar equipo por nombre | `approvals_find_team_by_name` | Busca el ID de un equipo de Workfront por nombre (coincidencia parcial o parcial). | Leer |
 | Buscar proyecto por nombre | `approvals_find_project_by_name` | Busca proyectos de Workfront por coincidencia de nombre parcial en todo el sistema. | Leer |
 | Obtener proyectos por propietario | `approvals_get_projects_by_owner` | Enumera proyectos de Workfront en los que el usuario que realiza la llamada es el propietario. | Leer |
-| Obtener región de Adobe | `approvals_get_adobe_region` | Devuelve el nombre de Adobe de una región de proveedor de la nube. | Leer |
+| Encontrar proyectos | approvals_find_projects | Busque proyectos de Workfront, filtrados opcionalmente por su nombre o restringidos a proyectos que posea el usuario que realiza la llamada. | Leer |
 
 
 ## Herramientas de planificación
@@ -142,7 +142,7 @@ Si la plataforma agéntica de IA puede encontrar elementos de Workfront pero no 
 | Enumerar tipos de registros globales | `planning_list_global_record_types` | Enumera todos los tipos de registros definidos de forma centralizada (globales) visibles para el usuario actual. | Leer |
 | Enumerar tipos de registros globales agregables | `planning_list_addable_global_record_types` | Enumera los tipos de registros globales que se pueden agregar a un espacio de trabajo específico. | Leer |
 | Añadir tipo de registro global al espacio de trabajo | `planning_add_global_record_type_to_workspace` | Vincula un tipo de registro global a un espacio de trabajo especificado. | Escritura |
-| Quitar el tipo de registro global de Workspace | `planning_remove_global_record_type_from_workspace` | Desvincula un tipo de registro global de un espacio de trabajo; elimina todos sus registros de ese espacio de trabajo. | Escritura |
+| Quitar el tipo de registro global de Workspace | `planning_remove_global_record_type_from_ws` | Desvincula un tipo de registro global de un espacio de trabajo; elimina todos sus registros de ese espacio de trabajo. | Escritura |
 | Obtener espacios de trabajo de registro externos | `planning_get_external_record_workspaces` | Busca qué espacios de trabajo y tipos de registros están conectados a un registro externo específico. | Leer |
 | Obtener el uso compartido del tipo de registro | `planning_get_record_type_sharing` | Devuelve el uso compartido y los permisos para un tipo de registro específico. | Leer |
 | Modificar uso compartido de tipo de registro | `planning_modify_record_type_sharing` | Actualiza quién puede tener acceso a un tipo de registro y en qué nivel de permisos. | Escritura |

@@ -15,7 +15,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 8771d66f6b7ecae9ac439456822889d4fe438649
 workflow-type: tm+mt
 source-wordcount: 375
 ht-degree: 69%
@@ -72,7 +72,7 @@ Puede añadir elementos recientes o la página actual al menú [!UICONTROL Favor
 
 ### Añadir elementos recientes como favoritos
 
-1. Haga clic en el icono **[!UICONTROL Recientes]** ![Icono Recientes](assets/recents-icon-40x43.png) en la esquina superior derecha de cualquier página en la nueva experiencia [!DNL Adobe Workfront].
+1. Haga clic en el icono **[!UICONTROL Recientes]** ![Icono Recientes](assets/recents-icon.png) en la esquina superior derecha de cualquier página en la nueva experiencia [!DNL Adobe Workfront].
 1. Haga clic en la estrella en línea con el elemento que desee guardar como favorito. El elemento más reciente aparece en el menú **Favorites**.
 
    ![Marcar como favorito un elemento reciente](assets/recents-section.png)
@@ -86,7 +86,7 @@ Puede añadir elementos recientes o la página actual al menú [!UICONTROL Favor
 
    >[!NOTE]
    >
-   >Si hace clic en el icono **[!UICONTROL Favorites]** de un objeto que ya añadió como favorito, el objeto se eliminará del menú [!UICONTROL Favorites].\
+   >Si hace clic en el icono **[!UICONTROL Favorites]** de un objeto que ya añadió como favorito, el objeto se eliminará del menú [!UICONTROL Favorites].
    >![Quitar de favoritos](assets/nwe-remove-from-favorites-350x52.png)
 
 ## Quitar un elemento del menú [!UICONTROL Favorites]

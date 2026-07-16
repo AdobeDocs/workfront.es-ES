@@ -24,18 +24,16 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 61d733a9808850e780bfd74dbf3dcfb9d9d86282
+source-git-commit: 07a00836f60ce0bb4ee7fb0202c9458b0c1be406
 workflow-type: tm+mt
-source-wordcount: 8296
-ht-degree: 86%
+source-wordcount: 7795
+ht-degree: 81%
 
 ---
 
 # Crear un formulario personalizado
 
 <!-- Audited: 6/2025 -->
-
-{{preview-fast-release-general}}
 
 Puede diseñar un formulario personalizado con el diseñador de formularios en Adobe Workfront. Puede adjuntar formularios personalizados a diferentes objetos de Workfront para capturar datos sobre esos objetos.
 
@@ -77,7 +75,7 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
 1. Haga clic en **Nuevo formulario personalizado.**
 1. Seleccione a qué tipos de objetos desea adjuntar el formulario personalizado y, a continuación, haga clic en **Continuar**.
 
-   ![Elegir tipos de objetos](assets/new-custom-form-select-objects-032526.png)
+   ![Elegir tipos de objetos](assets/new-custom-form-select-objects-new-spectrum-icons.png)
 
    +++ Expanda para ver la lista de objetos que admiten formularios personalizados.
 
@@ -119,7 +117,7 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
    * [Añadir campos de búsqueda](#add-text-fields)
    * [Añadir campos calculados](#add-calculated-fields)
    * [Añadir botones de opción, grupos de casillas de verificación y menús desplegables](#add-radio-buttons-checkbox-groups-and-drop-downs)
-   * [Añadir campos de fecha y typeahead](#add-typeahead-and-date-fields)
+   * [Adición de campos de fecha](#add-date-fields)
    * [Añadir campos de búsqueda externa](#add-external-lookup-fields)
    * [Añadir imágenes, PDF y vídeos](#add-images-pdfs-and-videos)
    * [Añadir campos nativos de Workfront](#add-workfront-native-fields)
@@ -163,7 +161,7 @@ Los formularios personalizados están limitados a 500 campos. Un contador situad
   >
   >Evite utilizar caracteres especiales en esta etiqueta, ya que no se muestran correctamente en los informes.
 
-* Se requiere un nombre de API para cada campo. Este nombre es el modo en que el sistema identifica el campo personalizado cuando se agrega a varias áreas a través de Workfront, como informes, Página de inicio e interacciones de API. Cuando configura el campo o widget por primera vez y escribe la etiqueta, el campo Nombre / <span class="preview">campo Nombre de API</span> se rellena automáticamente para que coincida. Los campos Etiqueta y Nombre / <span class="preview">Nombre de API</span> no están sincronizados. Esto le proporciona la opción de cambiar la etiqueta que ven los usuarios sin tener que cambiar el nombre que ve el sistema.
+* Se requiere un nombre de API para cada campo. Este nombre es el modo en que el sistema identifica el campo personalizado cuando se agrega a varias áreas a través de Workfront, como informes, Página de inicio e interacciones de API. Cuando configura el campo o widget por primera vez y escribe la etiqueta, el campo Nombre de la API se rellena automáticamente para que coincida. Los campos Etiqueta y Nombre de API no están sincronizados. Esto le proporciona la opción de cambiar la etiqueta que ven los usuarios sin tener que cambiar el nombre que ve el sistema.
 
 * Cada nombre de API de campo personalizado debe ser único en la instancia de Workfront de su organización. De este modo, puede reutilizar uno que ya se haya creado para otro formulario personalizado.
 
@@ -171,7 +169,7 @@ Los formularios personalizados están limitados a 500 campos. Un contador situad
 
   Por ejemplo, si agrega el campo personalizado a un informe y posteriormente cambia el nombre de su API, Workfront no lo reconocerá en el informe y dejará de funcionar correctamente allí a menos que lo vuelva a agregar al informe con el nuevo nombre.
 
-* <span class="preview">Los nombres de API son de solo lectura de forma predeterminada. Para poder editar el nombre de la API, haz clic en el icono **Editar** junto al **Nombre de la API**. A continuación, escriba **confirmar** en el cuadro de confirmación y haga clic en **Cambiar nombre de campo**. </span>
+* Los nombres de API son de solo lectura de forma predeterminada. Para poder editar el nombre de la API, haz clic en el icono **Editar** junto al **Nombre de la API**. A continuación, escriba **confirmar** en el cuadro de confirmación y haga clic en **Cambiar nombre de campo**.
 
 * Se recomienda no escribir un nombre de API que ya se utilice en los campos integrados de Workfront.
 
@@ -199,19 +197,21 @@ Puede añadir varios campos de texto diferentes a un formulario personalizado.
 
 * **Campo de texto de línea única**: permite a los usuarios escribir una sola línea de texto en el campo.
 * **Campo de párrafo**: permite a los usuarios escribir varias líneas de texto en el campo.
-* <span class="preview">**Texto enriquecido**: Permite a los usuarios escribir varias líneas de texto en el campo y aplicarle formato de negrita, cursiva, subrayado, viñetas, numeración, subíndice y superíndice, hipervínculos, citas de bloque, encabezados y tablas. El límite de caracteres de 15.000 proporciona un gran espacio para texto y formato.</span>
-
-  <span class="preview">El tipo de campo Texto enriquecido reemplaza el texto por el tipo de campo de formato. Puede convertir rápidamente el texto existente con campos de formato en texto enriquecido haciendo clic en el botón **Convertir en texto enriquecido** en las opciones de campo de la derecha.</span>
-
-* **Campo de texto con formato**: permite a los usuarios escribir varias líneas de texto en el campo y aplicar al texto negrita, cursiva, subrayado, viñetas, numeración, hipervínculos y citas en bloque. Un límite de 15 000 caracteres permite texto y formato abundantes.
-
-  Este tipo de campo personalizado no se admite en filtros de listas e informes.
-
-  Para obtener información sobre cómo obtener acceso a este campo mediante la API, consulte [Almacenamiento de campo de texto enriquecido en la API](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/rich-text-field-storage-in-the-api.md).
+* **Texto enriquecido**: Permite a los usuarios escribir varias líneas de texto en el campo y aplicarle formato de negrita, cursiva, subrayado, viñetas, numeración, subíndice y superíndice, hipervínculos, citas de bloque, encabezados y tablas. Un límite de 15 000 caracteres proporciona un gran espacio para texto y formato.
 
   >[!NOTE]
   >
-  >Los campos de texto con formato no están disponibles para las aplicaciones móviles de Workfront (disponibles en próximas versiones).
+  >El tipo de campo Texto enriquecido reemplaza el tipo de campo Texto con formato. Puede convertir rápidamente el texto existente con campos de formato a texto enriquecido haciendo clic en el botón **Convertir en texto enriquecido** en las opciones de campo de la derecha.
+
+<!--
+
+* **Text field with formatting**: Allows users to type multiple lines of text in the field and format the text with bold, italics, underline, bullets, numbering, hyperlinks, and block quotes. A character limit of 15,000 allows for plenty of text and formatting.
+
+    This custom field type is not supported in filters on lists and reports.
+
+    For information about accessing this field through the API, see [Rich text field storage in the API](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/rich-text-field-storage-in-the-api.md).
+
+-->
 
 * **Texto descriptivo**: permite incluir instrucciones y vínculos a páginas fuera de Workfront.
 
@@ -223,9 +223,9 @@ Para añadir un campo de texto:
 
    * Texto de línea única
    * Párrafo
-   * <span class="preview">Texto enriquecido</span>
-   * Texto con formato
+   * Texto enriquecido
    * Texto descriptivo
+     <!--Text with formatting-->
 
    ![Arrastrar el campo a la sección](assets/drag-field-to-section.png)
 
@@ -244,8 +244,7 @@ Para añadir un campo de texto:
     <td><ul>
     <li>Texto de línea única</li>
     <li>Párrafo</li>
-    <li><span class="preview">Texto enriquecido</span></li>
-    <li>Texto con formato</li>
+    <li>Texto enriquecido</li>
     <li>Texto descriptivo</li>
     </ul></td>
     </tr>
@@ -256,31 +255,30 @@ Para añadir un campo de texto:
     <td><ul>
     <li>Texto de línea única</li>
     <li>Párrafo</li>
-    <li><span class="preview">Texto enriquecido</span></li>
-    <li>Texto con formato</li>
+    <li>Texto enriquecido</li>
     </ul></td>
     </tr>
     <tr>
-     <td>Nombre</td>
-    <td><p>(Obligatorio) Este nombre es con el que el sistema identifica el campo. Cuando configure el widget por primera vez y escriba la etiqueta, el campo Nombre se rellenará automáticamente para que coincida. Los campos Etiqueta y Nombre no están sincronizados. Esto le proporciona la opción de cambiar la etiqueta que ven los usuarios sin tener que cambiar el nombre que ve el sistema.</p>
+     <td>Nombre de la API</td>
+    <td><p>(Obligatorio) Este nombre es con el que el sistema identifica el campo. Cuando configura el widget por primera vez y escribe la etiqueta, el campo Nombre de la API se rellena automáticamente para que coincida. Los campos Etiqueta y Nombre de API no están sincronizados. Esto le proporciona la opción de cambiar la etiqueta que ven los usuarios sin tener que cambiar el nombre que ve el sistema.</p>
     <p>Para obtener más información, consulte <a href="design-a-form.md#notes-on-field-names-and-labels">Notas sobre nombres de campo y etiquetas</a>.</p>
     </td>
     <td><ul>
     <li>Texto de línea única</li>
     <li>Párrafo</li>
-    <li><span class="preview">Texto enriquecido</span></li>
-    <li>Texto con formato</li>
+    <li>Texto enriquecido</li>
     <li>Texto descriptivo</li>
     </ul></td>
     </tr>
     <tr>
     <td>Instrucciones</td>
-    <td>Escriba cualquier información adicional sobre el campo. Cuando los usuarios rellenan el formulario personalizado, pueden pasar el puntero por encima del icono del signo de interrogación para ver una ayuda contextual que contiene la información que escriba aquí.</td>
+    <td>Escriba cualquier información adicional sobre el campo. Cuando los usuarios rellenan el formulario personalizado, pueden pasar el puntero por encima del icono del signo de interrogación para ver una ayuda contextual que contiene la información que escriba aquí.
+    <img src="assets/instructions-form-designer.png">
+    </td>
     <td><ul>
     <li>Texto de línea única</li>
     <li>Párrafo</li>
-    <li><span class="preview">Texto enriquecido</span></li>
-    <li>Texto con formato</li>
+    <li>Texto enriquecido</li>
     </ul></td>
     </tr>
     <tr>
@@ -331,8 +329,7 @@ Para añadir un campo de texto:
      <td><ul>
      <li>Texto de línea única</li>
      <li>Párrafo</li>
-     <li><span class="preview">Texto enriquecido</span></li>
-     <li>Texto con formato</li>
+     <li>Texto enriquecido</li>
      <li>Texto descriptivo</li></ul></td>
     </tr>
     <tr> 
@@ -341,8 +338,7 @@ Para añadir un campo de texto:
     <td><ul>
     <li>Texto de línea única</li>
     <li>Párrafo</li>
-    <li><span class="preview">Texto enriquecido</span></li>
-    <li>Texto con formato</li>
+    <li>Texto enriquecido</li>
     </ul></td> 
     </tr> 
    </table>
@@ -415,8 +411,8 @@ Para añadir botones de opción, grupos de casillas de verificación y menús de
     </ul></td>
      </tr> 
      <tr> 
-    <td role="rowheader">Nombre</td> 
-     <td> <p>(Obligatorio) Este nombre es con el que el sistema identifica el campo. Cuando configure el widget por primera vez y escriba la etiqueta, el campo Nombre se rellenará automáticamente para que coincida. Los campos Etiqueta y Nombre no están sincronizados. Esto le proporciona la opción de cambiar la etiqueta que ven los usuarios sin tener que cambiar el nombre que ve el sistema.</p> 
+    <td role="rowheader">Nombre de la API</td> 
+     <td> <p>(Obligatorio) Este nombre es con el que el sistema identifica el campo. Cuando configura el widget por primera vez y escribe la etiqueta, el campo Nombre de la API se rellena automáticamente para que coincida. Los campos Etiqueta y Nombre de API no están sincronizados. Esto le proporciona la opción de cambiar la etiqueta que ven los usuarios sin tener que cambiar el nombre que ve el sistema.</p> 
     <p>Para obtener más información, consulte <a href="design-a-form.md#notes-on-field-names-and-labels">Notas sobre nombres de campo y etiquetas</a>.</p> </td>
      <td><ul>
     <li>Botones de opción</li>
@@ -540,125 +536,186 @@ Para añadir botones de opción, grupos de casillas de verificación y menús de
 
    Haga clic en **Guardar y Cerrar**.
 
-### Añadir campos de fecha y typeahead
+<!--
 
-Puede añadir campos de escritura anticipada y fecha a un formulario personalizado.
+### Add typeahead and date fields
 
-+++ Expanda para ver las descripciones de los campos disponibles.
+ You can add typeahead and date fields to a custom form.
 
-* **Escritura anticipada**: permite a los usuarios escribir el nombre de un objeto existente en Workfront. Aparece una lista de sugerencias cuando el usuario empieza a escribir. Este tipo de campo admite los siguientes objetos:
-   * Usuario
-   * Grupo
-   * Función
-   * Portafolio
-   * Programa
-   * Proyecto
-   * Equipo
-   * Plantilla
-   * Compañía
-* **Fecha**: muestra un calendario donde los usuarios pueden seleccionar una fecha y una hora.
++++ Expand to see descriptions of available fields.
+
+* **Typeahead**: Allows users to type the name of an object that exists in Workfront. A list of suggestions appears when the user starts typing. This field type supports the following objects:
+    * User
+    * Group
+    * Job Role
+    * Portfolio
+    * Program
+    * Project
+    * Team
+    * Template
+    * Company
+* **Date**: Displays a calendar where users can select a date and time.
 
 +++
 
-Para añadir los campos de fecha y escritura anticipada:
+To add typeahead and date fields:
 
-1. En la pestaña **Nuevo campo** situada en la parte izquierda de la pantalla, busque uno de los siguientes campos y arrástrelo a una sección del lienzo.
+1. In the **New field** tab on the left side of the screen, find one of the following fields and drag it to a section on the canvas.
 
-   * Escritura anticipada
-   * Fecha
+    * Typeahead
+    * Date
 
-   ![Arrastrar campo a sección](assets/drag-field-to-section.png)
+    ![Drag field to section](assets/drag-field-to-section.png)
 
-1. En el lado derecho de la pantalla, configure las opciones disponibles para el tipo de campo personalizado que va a añadir:
+1. On the right side of the screen, configure the options that are available for the type of custom field you are adding:
 
-   <table style="table-layout:auto"> 
+    <table style="table-layout:auto"> 
     <tbody> 
      <tr>
-    <td>Configuración de campo</td>
-    <td>Descripción</td>
-    <td>Disponible para </td>
+    <td>Field setting</td>
+    <td>Description</td>
+    <td>Available for </td>
     </tr>
      <tr> 
-      <td role="rowheader">Etiqueta</td> 
-      <td> <p>(Obligatorio) Escriba una etiqueta descriptiva para mostrar encima del campo personalizado. Puede cambiar la etiqueta en cualquier momento.</p> <p><b>Importante</b>: evite usar caracteres especiales en esta etiqueta, ya que no se muestran correctamente en los informes. Para obtener más información, consulte <a href="design-a-form.md#notes-on-field-names-and-labels">Notas sobre nombres de campo y etiquetas</a>.</p> </td> 
+      <td role="rowheader">Label</td> 
+      <td> <p>(Required) Type a descriptive label to display above the custom field. You can change the label at any time.</p> <p><b>Important</b>: Avoid using special characters in this label as they don't display correctly in reports. For more information, see <a href="design-a-form.md#notes-on-field-names-and-labels">Notes on field names and labels</a>.</p> </td> 
        <td><ul>
-    <li>Escritura anticipada</li>
-    <li>Fecha</li>
+    <li>Typeahead</li>
+    <li>Date</li>
     </ul></td>
      </tr> 
      <tr> 
-      <td role="rowheader">Nombre</td> 
-      <td> <p>(Obligatorio) Este nombre es con el que el sistema identifica el campo. Cuando configure el widget por primera vez y escriba la etiqueta, el campo Nombre se rellenará automáticamente para que coincida. Los campos Etiqueta y Nombre no están sincronizados. Esto le proporciona la opción de cambiar la etiqueta que ven los usuarios sin tener que cambiar el nombre que ve el sistema.</p> 
-      <p>Para obtener más información, consulte <a href="design-a-form.md#notes-on-field-names-and-labels">Notas sobre nombres de campo y etiquetas</a>.</p> </td>
+      <td role="rowheader">Name</td> 
+      <td> <p>(Required) This name is how the system identifies the field. When you are configuring the widget for the first time and you type the label, the Name field populates automatically to match it. The Label and Name fields are not synchronized. This gives you the option to change the label that your users see without having to change the name that the system sees.</p> 
+      <p>For more information, see <a href="design-a-form.md#notes-on-field-names-and-labels">Notes on field names and labels</a>.</p> </td>
     <td><ul>
-    <li>Escritura anticipada</li>
-    <li>Fecha</li>
+    <li>Typeahead</li>
+    <li>Date</li>
     </ul></td>
      </tr> 
      <tr> 
-      <td role="rowheader">Instrucciones</td> 
-      <td> <p>Escriba cualquier información adicional sobre el campo personalizado. Cuando los usuarios rellenan el formulario personalizado, pueden pasar el puntero por encima del icono del signo de interrogación para ver una ayuda contextual que contiene la información que escriba aquí.</p> 
+      <td role="rowheader">Instructions</td> 
+      <td> <p>Type any additional information about the custom field. When users fill out the custom form, they can hover over the question mark icon to view a tooltip containing the information you type here.</p> 
       <p> <img src="assets/instructions-form-designer.png"> </p>
       </td> 
          <td><ul>
-    <li>Escritura anticipada</li>
-    <li>Fecha</li>
+    <li>Typeahead</li>
+    <li>Date</li>
     </ul></td>
      </tr> 
      <tr> 
-      <td role="rowheader">Mostrar hora del día</td> 
-      <td>Seleccione esta opción si desea mostrar la hora del día junto con la fecha en el campo.</td> 
+      <td role="rowheader">Display Time of Day</td> 
+      <td>Select this option if you want to show the time of day along with the date in the field.</td> 
          <td><ul>
-    <li>Fecha</li>
+    <li>Date</li>
     </ul></td>
      </tr> 
      <tr> 
-      <td role="rowheader">Tipo de objeto referenciado</td> 
-      <td> <p>Seleccione el tipo de objeto que desea asociar al campo.</p> <p>Una vez que haya hecho clic en <b>Aplicar</b> o en <b>Guardar y cerrar</b>, no puede cambiar el tipo de objeto del campo.</p> <p><b>Nota</b>:   
+      <td role="rowheader">Referenced Object Type</td> 
+      <td> <p>Select the object type that you want to associate with the field.</p> <p>Once you have clicked <b>Apply</b> or <b>Save and Close</b>, you can't change the object type for the field.</p> <p><b>Note</b>:   
         <ul> 
-         <li>Si el administrador de Workfront personalizó el nombre para Portafolios, Programas o Proyectos en la interfaz de usuario de Workfront, será el nombre de Workfront predeterminado para el objeto el que aparezca en esta lista desplegable, no el nombre personalizado. Póngase en contacto con el administrador de Workfront si necesita ayuda sobre esto.<br></li> 
-         <li>Los siguientes tipos de objetos son compatibles con las aplicaciones móviles de Workfront para iOS y Android: usuario, compañía, grupo, función de trabajo, portafolio, programa, proyecto y plantilla.</li> 
+         <li>If your Workfront administrator customized the name for Portfolios, Programs, or Projects in the Workfront user interface, the default Workfront name for the object appears in this drop-down list, not the customized name. See your Workfront administrator if you need help with this.<br></li> 
+         <li>The following object types are supported in the iOS and Android Workfront Mobile Apps: User, Company, Group, Job Role, Portfolio, Program, Project, and Template.</li> 
         </ul> </p> </td> 
          <td><ul>
-    <li>Escritura anticipada</li>
+    <li>Typeahead</li>
     </ul></td>
      </tr>
      <tr>
-      <td role="rowheader">Añadir filtro</td>
-      <td><p>Añada un filtro para un tipo de objeto y limitar los objetos que los usuarios pueden elegir cuando utilizan el campo. </p> <p>Por ejemplo, puede limitar un campo para que los nombres de usuario solo se puedan seleccionar si cumplen los siguientes criterios:</p> 
+      <td role="rowheader">Add Filter</td>
+      <td><p>Add a filter for an object type to limit the objects users can choose when they are using the field. </p> <p>For example, you could limit a field so that usernames can be selected only if they meet the following criteria:</p> 
        <ul> 
-        <li>Pertenecen a uno o varios grupos especificados.</li> 
-        <li>Están asociados a una función o un título de trabajo especificados.</li> 
-        <li>Pertenecen al mismo grupo que la persona que utiliza el campo.</li> 
+        <li>They belong to a group or groups that you specify.</li> 
+        <li>They are associated with a role or job title you specify.</li> 
+        <li>They belong to the same group as the person using the field.</li> 
        </ul>
-       <p>Debe definir el filtro para el tipo de objeto que haya seleccionado mediante la sintaxis de modo de texto. Para obtener información acerca de cómo crear un filtro mediante el modo de texto, consulte <a href="/help/quicksilver/reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md">Editar un filtro mediante el modo de texto</a>.</p>
-       <p><b>Sugerencia:</b> Puede crear un informe para probar el filtro antes de añadirlo directamente al campo de escritura anticipada. Esto le ayudará a comprobar que el filtro devuelve los objetos correctos. A continuación, puede cambiar al modo de texto en el informe, copiar la instrucción de modo de texto y añadirla al filtro de escritura anticipada.</p>
-       <p><b>Nota</b>:
+       <p>You must define the filter for the object type you selected using Text Mode syntax. For information about creating a filter using Text Mode, see <a href="/help/quicksilver/reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md">Edit a filter using text mode</a>.</p>
+       <p><b>Tip:</b> You can create a report to test your filter before adding the filter directly to the typeahead field. This will help you verify that the filter returns the correct objects. Then you can switch to text mode in the report, copy the text mode statement, and add it to the typeahead filter.</p>
+       <p><b>Note</b>:
        <ul> 
-        <li>Si está editando un formulario personalizado existente, al añadir un filtro a un campo de escritura anticipada, no se elimina ningún objeto (fuera del ámbito del filtro) que los usuarios ya hayan añadido mediante el campo.</li> 
-        <li>Este filtro no está disponible en los dispositivos móviles. Si utiliza el filtro para un campo de escritura anticipada, el campo aparecerá en los dispositivos móviles de los usuarios no afectados por el filtro.</li> 
+        <li>If you are editing an existing custom form, adding a filter to a typeahead field does not remove any objects (outside the scope of the filter) that users have already added using the field.</li> 
+        <li>This filter is not available on mobile devices. If you use the filter for a typeahead field, the field will appear on users' mobile devices unaffected by the filter.</li> 
         </ul></p>
       </td>  
       <td>
        <ul>
-       <li>Escritura anticipada</li>
+       <li>Typeahead</li>
        </ul>
       </td>
      </tr>
      <tr>
-      <td>Activo</td>
-      <td><p>Esta opción está habilitada de forma predeterminada.<p><p>Cuando se establece un campo como Inactivo, se excluye de los informes, los filtros y las vistas y ya no está disponible en la biblioteca de campos de formularios personalizados.</p></td>
+      <td>Active</td>
+      <td><p>This option is turned on by default.<p><p>When you set a field as Inactive, it is excluded from reports, filters, and views, and is no longer available in the custom forms field library.</p></td>
       <td><ul>
-      <li>Escritura anticipada</li>
-      <li>Fecha</li></ul></td>
+      <li>Typeahead</li>
+      <li>Date</li></ul></td>
      </tr>
      <tr> 
-      <td role="rowheader">Cambiar un campo a obligatorio</td> 
-      <td>Seleccione esta opción si desea que el campo sea obligatorio para que el usuario complete el formulario personalizado. </td> 
+      <td role="rowheader">Make a required field</td> 
+      <td>Select this option if you want the field to be required in order for the user to complete the custom form. </td> 
        <td><ul>
-    <li>Escritura anticipada</li>
-    <li>Fecha</li>
+    <li>Typeahead</li>
+    <li>Date</li>
     </ul></td>
+     </tr> 
+    </tbody> 
+   </table>
+
+1. (Optional) Repeat the previous step to add any other fields or widgets. 
+
+    Or
+
+    To copy a field, hover over a field, and click the copy icon.
+
+    ![copy icon](assets/copy-field.png)
+
+1. To save your changes, click **Apply** and move on to another section to continue building your form.
+
+    Or
+
+    Click **Save and Close**.
+
+-->
+
+### Adición de campos de fecha
+
+Un campo de fecha muestra un calendario en el que los usuarios pueden seleccionar una fecha y una hora.
+
+Para agregar campos de fecha:
+
+1. En la ficha **Nuevo campo** de la parte izquierda de la pantalla, busque **Fecha** y arrástrela a una sección del lienzo.
+
+   ![Arrastrar campo a sección](assets/drag-field-to-section.png)
+
+1. En el lado derecho de la pantalla, configure las opciones para el campo personalizado:
+
+   <table style="table-layout:auto"> 
+    <col> 
+    <col> 
+    <tbody> 
+     <tr> 
+      <td role="rowheader">Etiqueta</td> 
+      <td> <p>(Obligatorio) Escriba una etiqueta descriptiva para mostrar encima del widget. Puede cambiar la etiqueta en cualquier momento.</p> <p><b>Importante</b>: evite usar caracteres especiales en esta etiqueta, ya que no se muestran correctamente en los informes. Para obtener más información, consulte <a href="design-a-form.md#notes-on-field-names-and-labels">Notas sobre nombres de campo y etiquetas</a>.</p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Nombre de la API</td> 
+      <td> <p>(Obligatorio) Este nombre es con el que el sistema identifica el campo. Cuando configura el widget por primera vez y escribe la etiqueta, el campo Nombre de la API se rellena automáticamente para que coincida. Los campos Etiqueta y Nombre de API no están sincronizados. Esto le proporciona la opción de cambiar la etiqueta que ven los usuarios sin tener que cambiar el nombre que ve el sistema.</p> <p>Para obtener más información, consulte <a href="design-a-form.md#notes-on-field-names-and-labels">Notas sobre nombres de campo y etiquetas</a>.</p> </td> 
+     </tr>
+     <tr> 
+      <td role="rowheader">Instrucciones</td> 
+      <td> <p>Escriba cualquier información adicional sobre el campo personalizado. Cuando los usuarios rellenan el formulario personalizado, pueden pasar el puntero por encima del icono del signo de interrogación para ver una ayuda contextual que contiene la información que escriba aquí.</p> </td> 
+     </tr>
+     <tr> 
+      <td role="rowheader">Mostrar hora del día</td>
+      <td><p>Seleccione esta opción si desea mostrar la hora del día junto con la fecha en el campo.</p></td>
+     </tr> 
+     <tr>
+      <td>Activo</td>
+      <td><p>Esta opción está habilitada de forma predeterminada.<p><p>Cuando se establece un campo como Inactivo, se excluye de los informes, los filtros y las vistas y ya no está disponible en la biblioteca de campos de formularios personalizados.</p></td>
+     </tr>
+     <tr> 
+      <td role="rowheader">Cambiar un campo a obligatorio</td>
+      <td><p>Seleccione esta opción si desea que el campo sea obligatorio para que el usuario complete el formulario personalizado.</p></td>
      </tr> 
     </tbody> 
    </table>
@@ -701,8 +758,8 @@ Para añadir una búsqueda externa, haga lo siguiente:
       <td> <p>(Obligatorio) Escriba una etiqueta descriptiva para mostrar encima del campo personalizado. Puede cambiar la etiqueta en cualquier momento.</p> <p><b>Importante</b>: evite usar caracteres especiales en esta etiqueta, ya que no se muestran correctamente en los informes. Para obtener más información, consulte <a href="design-a-form.md#notes-on-field-names-and-labels">Notas sobre nombres de campo y etiquetas</a>.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Nombre</td> 
-      <td> <p>(Obligatorio) Este nombre es con el que el sistema identifica el campo. Cuando configure el campo por primera vez y escriba la etiqueta, el campo Nombre se rellenará automáticamente para que coincida. Sin embargo, los campos Etiqueta y Nombre no están sincronizados, lo que le da la opción de cambiar la etiqueta que ven los usuarios sin tener que cambiar el nombre que ve el sistema.</p>
+      <td role="rowheader">Nombre de la API</td> 
+      <td> <p>(Obligatorio) Este nombre es con el que el sistema identifica el campo. Cuando configura el campo por primera vez y escribe la etiqueta, el campo Nombre de la API se rellena automáticamente para que coincida. Sin embargo, los campos Etiqueta y Nombre de API no están sincronizados, lo que le ofrece la opción de cambiar la etiqueta que ven los usuarios sin tener que cambiar el nombre que ve el sistema.</p>
       <p>Para obtener más información, consulte <a href="design-a-form.md#notes-on-field-names-and-labels">Notas sobre nombres de campo y etiquetas</a>.</p> </td>
      </tr> 
       <td role="rowheader">Instrucciones</td> 
@@ -748,14 +805,15 @@ Para añadir una búsqueda externa, haga lo siguiente:
      </tr>
      <tr> 
       <td role="rowheader">Ruta JSON</td>
-      <td><p>Escriba o pegue la ruta JSON para la API.</p> <p>Esta opción permite extraer datos del JSON devuelto por la URL de la API. Sirve para seleccionar qué valores dentro del JSON aparecerán en las opciones desplegables.</p><p>Por ejemplo, si la URL de la API devuelve JSON en el siguiente formato, puede utilizar "$.data[*].name" para seleccionar EE. UU. y Canadá como opciones desplegables:
+      <td><p>Escriba o pegue la ruta JSON para la API.</p> <p>Esta opción permite extraer datos del JSON devuelto por la URL de la API. Sirve para seleccionar qué valores dentro del JSON aparecerán en las opciones desplegables.</p><p>Por ejemplo, si la URL de la API devuelve JSON en el siguiente formato, puede utilizar "$.data[*].name" para seleccionar EE. UU. y Canadá como opciones desplegables:</br>
       <pre>
       &lbrace;
        datos: &lbrace;
          { name: "USA"},
          { name: "Canada"}
        &rbrace;
-      &rbrace;</pre>
+      &rbrace;
+      </pre>
       </p>
      <p>Para obtener más información sobre la ruta JSON y cómo asegurarse de que escribe la ruta JSON correcta, consulte <a href="https://jsonpath.com/">https://jsonpath.com/</a>.</p></td>
      </tr>
@@ -794,7 +852,7 @@ Para añadir una búsqueda externa, haga lo siguiente:
 >* Duración de espera entre reintentos: 500 ms
 >* Estados de respuesta esperados: 2xx
 
-<div class="preview">
+
 
 ### Adición de campos de búsqueda interna
 
@@ -828,8 +886,8 @@ Para agregar una búsqueda interna:
       <td> <p>(Obligatorio) Escriba una etiqueta descriptiva para mostrar encima del campo personalizado. Puede cambiar la etiqueta en cualquier momento.</p> <p><b>Importante</b>: evite usar caracteres especiales en esta etiqueta, ya que no se muestran correctamente en los informes. Para obtener más información, consulte <a href="design-a-form.md#notes-on-field-names-and-labels">Notas sobre nombres de campo y etiquetas</a>.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Nombre</td> 
-      <td> <p>(Obligatorio) Este nombre es con el que el sistema identifica el campo. Cuando configure el campo por primera vez y escriba la etiqueta, el campo Nombre se rellenará automáticamente para que coincida. Sin embargo, los campos Etiqueta y Nombre no están sincronizados, lo que le da la opción de cambiar la etiqueta que ven los usuarios sin tener que cambiar el nombre que ve el sistema.</p>
+      <td role="rowheader">Nombre de la API</td> 
+      <td> <p>(Obligatorio) Este nombre es con el que el sistema identifica el campo. Cuando configura el campo por primera vez y escribe la etiqueta, el campo Nombre de la API se rellena automáticamente para que coincida. Sin embargo, los campos Etiqueta y Nombre de API no están sincronizados, lo que le ofrece la opción de cambiar la etiqueta que ven los usuarios sin tener que cambiar el nombre que ve el sistema.</p>
       <p>Para obtener más información, consulte <a href="design-a-form.md#notes-on-field-names-and-labels">Notas sobre nombres de campo y etiquetas</a>.</p> </td>
      </tr> 
       <td role="rowheader">Instrucciones</td> 
@@ -881,8 +939,6 @@ Para agregar una búsqueda interna:
 
    Haga clic en **Guardar y Cerrar**.
 
-</div>
-
 ### Añadir imágenes, PDF y vídeos
 
 Puede añadir imágenes, PDF y vídeos a un formulario personalizado. Los usuarios que trabajen con el objeto al que está adjunto el formulario personalizado solo podrán ver la imagen, el PDF o el vídeo en las áreas siguientes:
@@ -932,8 +988,8 @@ Para añadir imágenes, PDF o vídeos:
       <td> <p>(Obligatorio) Escriba una etiqueta descriptiva para mostrar encima del widget. Puede cambiar la etiqueta en cualquier momento.</p> <p><b>Importante</b>: evite usar caracteres especiales en esta etiqueta, ya que no se muestran correctamente en los informes. Para obtener más información, consulte <a href="design-a-form.md#notes-on-field-names-and-labels">Notas sobre nombres de campo y etiquetas</a>.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Nombre</td> 
-      <td> <p>(Obligatorio) Este nombre es con el que el sistema identifica el widget. Cuando configure el widget por primera vez y escriba la etiqueta, el campo Nombre se rellenará automáticamente para que coincida. Los campos Etiqueta y Nombre no están sincronizados. Esto le proporciona la opción de cambiar la etiqueta que ven los usuarios sin tener que cambiar el nombre que ve el sistema.</p> <p>Para obtener más información, consulte <a href="design-a-form.md#notes-on-field-names-and-labels">Notas sobre nombres de campo y etiquetas</a>.</p> </td> 
+      <td role="rowheader">Nombre de la API</td> 
+      <td> <p>(Obligatorio) Este nombre es con el que el sistema identifica el widget. Cuando configura el widget por primera vez y escribe la etiqueta, el campo Nombre de la API se rellena automáticamente para que coincida. Los campos Etiqueta y Nombre de API no están sincronizados. Esto le proporciona la opción de cambiar la etiqueta que ven los usuarios sin tener que cambiar el nombre que ve el sistema.</p> <p>Para obtener más información, consulte <a href="design-a-form.md#notes-on-field-names-and-labels">Notas sobre nombres de campo y etiquetas</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">URL</td> 
@@ -1002,32 +1058,32 @@ Esta tabla enumera los campos nativos disponibles para objetos de Workfront espe
 
 | Nombre de campo | Proyecto | Tarea | Problema | Plantilla | Tarea de plantilla | Portafolio | Programa | Grupo |
 |--------------------------- |-------- |------- |------- |--------- |-------------- | --------- |-------- |------ |
-| <span class="preview"> beneficio real </span> | <span class="preview">✓ </span> |   |   |   |   |   |   |   |
+| Beneficio real | ✓ |   |   |   |   |   |   |   |
 | Fecha real de finalización | ✓ | ✓ | ✓ |   |   |   |   |   |
 | Duración real | ✓ |   |   |   |   |   |   |   |
 | Horas reales | ✓ |   | ✓ |   |   |   |   |   |
 | Fecha real de inicio | ✓ | ✓ | ✓ |   |   |   |   |   |
-| <span class="preview"> presupuesto </span> | <span class="preview">✓ </span> |   |   | <span class="preview"> ✓ </span> |   | <span class="preview"> ✓ </span> |   |   |
+| Presupuesto | ✓ |   |   | ✓ |   | ✓ |   |   |
 | Compañía | ✓ |   |   | ✓ |   |   |   |   |
 | Condición | ✓ | ✓ | ✓ |   |   |   |   |   |
 | Tipo de condición | ✓ |   |   | ✓ |   |   |   |   |
-| <span class="preview"> divisa </span> | <span class="preview"> ✓ </span> |   |   | <span class="preview"> ✓ </span> |   |   |   |   |
+| Moneda | ✓ |   |   | ✓ |   |   |   |   |
 | Descripción | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
 | Duración |   | ✓ |   |   | ✓ |   |   |   |
 | Tipo de duración |   | ✓ |   |   | ✓ |   |   |   |
 | Unidad de duración |   | ✓ |   |   | ✓ |   |   |   |
 | Introducido por | ✓ | ✓ | ✓ | ✓ | ✓ |   |   | ✓ |
 | Fecha de entrada | ✓ | ✓ | ✓ | ✓ | ✓ |   |   | ✓ |
-| <span class="preview"> Fecha de tipo de cambio </span> | <span class="preview"> ✓ </span> |   |   |   |   |   |   |   |
-| <span class="preview"> costo fijo </span> | <span class="preview"> ✓ </span> |   |   | <span class="preview"> ✓ </span> |   |   |   |   |
-| <span class="preview"> ingresos fijos </span> | <span class="preview"> ✓ </span> |   |   | <span class="preview"> ✓ </span> |   |   |   |   |
+| Fecha de tasa de cambio | ✓ |   |   |   |   |   |   |   |
+| Coste fijo | ✓ |   |   | ✓ |   |   |   |   |
+| Ingresos fijos | ✓ |   |   | ✓ |   |   |   |   |
 | Grupo | ✓ |   |   | ✓ |   | ✓ | ✓ |   |
 | Última actualización por | ✓ | ✓ | ✓ | ✓ | ✓ |   |   |   |
 | Fecha de la última actualización | ✓ | ✓ | ✓ | ✓ | ✓ |   |   |   |
 | Nombre | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
 | Propietario | ✓ |   |   | ✓ |   | ✓ | ✓ |   |
-| Método </span> del índice de rendimiento de <span class="preview"> | <span class="preview"> ✓ </span> |   |   | <span class="preview"> ✓ </span> |   |   |   |   |
-| <span class="preview"> beneficio planificado </span> | <span class="preview"> ✓ </span> |   |   | <span class="preview"> ✓ </span> |   |   |   |   |
+| Método de índice de rendimiento | ✓ |   |   | ✓ |   |   |   |   |
+| Beneficio planificado | ✓ |   |   | ✓ |   |   |   |   |
 | Fecha planificada de finalización | ✓ | ✓ | ✓ |   |   |   |   |   |
 | Duración planificada | ✓ |   |   | ✓ |   |   |   |   |
 | Horas planificadas | ✓ | ✓ | ✓ |   | ✓ |   |   |   |
@@ -1045,13 +1101,11 @@ Esta tabla enumera los campos nativos disponibles para objetos de Workfront espe
 | Estado | ✓ | ✓ |   |   |   |   |   |   |
 | Puntos de la historia |   | ✓ |   |   |   |   |   |   |
 | Plantilla | ✓ |   |   |   |   |   |   |   |
-| <span class="preview"> Costo total estimado </span> | <span class="preview"> ✓ </span> |   |   | <span class="preview"> ✓ </span> |   |   |   |   |
-| <span class="preview"> ingresos totales estimados </span> | <span class="preview"> ✓ </span> |   |   | <span class="preview"> ✓ </span> |   |   |   |   |
+| Costo total estimado | ✓ |   |   | ✓ |   |   |   |   |
+| Ingresos totales estimados | ✓ |   |   | ✓ |   |   |   |   |
 | URL | ✓ | ✓ |   | ✓ | ✓ |   |   |   |
 
 {style="table-layout:auto"}
-
-<div class="preview">
 
 Estos tipos de objetos de formulario personalizados adicionales también admiten referencias de campo nativas.
 
@@ -1060,8 +1114,6 @@ Estos tipos de objetos de formulario personalizados adicionales también admiten
 * Empresa: nombre, campos de grupo
 * Tarjeta de tarifas: campos Nombre, Descripción, Empresa, Grupo
 * Función del puesto: campos Nombre, Descripción
-
-</div>
 
 <!--
 Non-Labor Resource: Name, Description, Home Group, Non-labor Category, Non-labor Group, Unique Identifier fields
@@ -1087,8 +1139,8 @@ Staffing Plan Resource: Total Estimated Cost, Total Estimated Revenue fields
       <td> <p>(Obligatorio) Escriba una etiqueta descriptiva para mostrar encima del campo. Puede cambiar la etiqueta en cualquier momento.</p> <p><b>Importante</b>: evite usar caracteres especiales en esta etiqueta, ya que no se muestran correctamente en los informes. Para obtener más información, consulte <a href="design-a-form.md#notes-on-field-names-and-labels">Notas sobre nombres de campo y etiquetas</a>.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Nombre</td>
-      <td> <p>(Obligatorio) Este nombre es con el que el sistema identifica el campo. Cuando configure el campo por primera vez y escriba la etiqueta, el campo Nombre se rellenará automáticamente para que coincida. Los campos Etiqueta y Nombre no están sincronizados. Esto le proporciona la opción de cambiar la etiqueta que ven los usuarios sin tener que cambiar el nombre que ve el sistema.</p>
+      <td role="rowheader">Nombre de la API</td>
+      <td> <p>(Obligatorio) Este nombre es con el que el sistema identifica el campo. Cuando configura el campo por primera vez y escribe la etiqueta, el campo Nombre de la API se rellena automáticamente para que coincida. Los campos Etiqueta y Nombre de API no están sincronizados. Esto le proporciona la opción de cambiar la etiqueta que ven los usuarios sin tener que cambiar el nombre que ve el sistema.</p>
       <p>Para obtener más información, consulte <a href="design-a-form.md#notes-on-field-names-and-labels">Notas sobre nombres de campo y etiquetas</a>.</p></td> 
      </tr> 
      <tr> 
@@ -1107,12 +1159,12 @@ Staffing Plan Resource: Total Estimated Cost, Total Estimated Revenue fields
         <li>Están asociados a una función o un título de trabajo especificados.</li> 
         <li>Pertenecen al mismo grupo que la persona que utiliza el campo.</li> 
        </ul>
-       <p><span class="preview">Cuando existe un filtro del sistema en el campo, se aplica de forma predeterminada si no agrega un filtro personalizado. Un filtro personalizado anula el filtro del sistema.</span></p>
+       <p>Cuando existe un filtro del sistema en el campo, se aplica de forma predeterminada si no agrega un filtro personalizado. Un filtro personalizado anula el filtro del sistema.</p>
        <p>Debe definir el filtro para el campo de referencia que haya seleccionado mediante la sintaxis de modo de texto. Para obtener más información, vea <a href="/help/quicksilver/reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md">Editar un filtro mediante el modo de texto</a>.</p>
-       <p><span class="preview">Utilice la sintaxis de filtro dinámico para reducir la lista de elementos de este campo en función del valor de otro campo. Por ejemplo, cuando se usa <code>?portfolioID={portfolio}.{ID}</code> en un filtro de campo de proyecto y un campo nativo de Portfolio está en el formulario personalizado, el campo Proyecto muestra únicamente los proyectos que se encuentran en el portafolio seleccionado. Si el campo Portfolio se deja en blanco, todos los proyectos estarán disponibles en el campo Proyecto.</span></p>
+       <p>Utilice la sintaxis de filtro dinámico para reducir la lista de elementos de este campo en función del valor de otro campo. Por ejemplo, cuando se usa <code>?portfolioID={portfolio}.{ID}</code> en un filtro de campo de proyecto y un campo nativo de Portfolio está en el formulario personalizado, el campo Proyecto muestra únicamente los proyectos que se encuentran en el portafolio seleccionado. Si el campo Portfolio se deja en blanco, todos los proyectos estarán disponibles en el campo Proyecto.</p>
        <p><b>Nota</b>:
        <ul> 
-        <li>La opción de filtro solo está disponible cuando se hace referencia a un campo de escritura anticipada nativo, como Portafolio, Compañía o Propietario.</li>
+        <li>La opción de filtro solo está disponible cuando se hace referencia a un campo de escritura anticipada o de búsqueda interna nativo, como Portfolio, Empresa o Propietario.</li>
         <li>Si está editando un formulario personalizado existente, al añadir un filtro a un campo nativo no se elimina ningún objeto (fuera del ámbito del filtro) que los usuarios ya hayan añadido mediante el campo.</li> 
         <li>Este filtro no está disponible en los dispositivos móviles. Si utiliza el filtro para un campo nativo, el campo aparece en los dispositivos móviles de los usuarios no afectados por el filtro.</li> 
         </ul></p></td> 
@@ -1160,14 +1212,15 @@ Para añadir un archivo Adobe XD:
       <td> <p>(Obligatorio) Escriba una etiqueta descriptiva para mostrar encima del widget. Puede cambiar la etiqueta en cualquier momento.</p> <p><b>Importante</b>: evite usar caracteres especiales en esta etiqueta, ya que no se muestran correctamente en los informes. Para obtener más información, consulte <a href="design-a-form.md#notes-on-field-names-and-labels">Notas sobre nombres de campo y etiquetas</a>.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Nombre</td> 
-      <td> <p>(Obligatorio) Este nombre es con el que el sistema identifica el widget. Cuando configure el widget por primera vez y escriba la etiqueta, el campo Nombre se rellenará automáticamente para que coincida. Los campos Etiqueta y Nombre no están sincronizados. Esto le proporciona la opción de cambiar la etiqueta que ven los usuarios sin tener que cambiar el nombre que ve el sistema.</p>
+      <td role="rowheader">Nombre de la API</td> 
+      <td> <p>(Obligatorio) Este nombre es con el que el sistema identifica el widget. Cuando configura el widget por primera vez y escribe la etiqueta, el campo Nombre de la API se rellena automáticamente para que coincida. Los campos Etiqueta y Nombre de API no están sincronizados. Esto le proporciona la opción de cambiar la etiqueta que ven los usuarios sin tener que cambiar el nombre que ve el sistema.</p>
     <p>Para obtener más información, consulte <a href="design-a-form.md#notes-on-field-names-and-labels">Notas sobre nombres de campo y etiquetas</a>.</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader">URL</td> 
       <td> <p>(Obligatorio) Escriba o pegue un vínculo válido de prototipo de XD.</p> 
-      <p><b>Nota</b>: La configuración de Acceso al vínculo de la pestaña Compartir de Adobe XD debe establecerse en Cualquiera con el vínculo. De lo contrario, los usuarios no podrán ver el prototipo. </td> 
+      <p><b>Nota</b>: La configuración de Acceso al vínculo de la pestaña Compartir de Adobe XD debe establecerse en Cualquiera con el vínculo. De lo contrario, los usuarios no podrán ver el prototipo. 
+   </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Instrucciones</td> 
@@ -1234,8 +1287,8 @@ Para añadir un campo de conexión de Planning, haga lo siguiente:
       <p>Le recomendamos que elija una etiqueta que le ayude a identificar fácilmente de dónde proviene el registro de Planning. Añada información como el nombre del espacio de trabajo o el nombre del tipo de registro. </p>   </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Nombre</td>
-      <td> <p>(Obligatorio) El nombre es con el que el sistema identifica el campo. Cuando configure el campo por primera vez y escriba la etiqueta, el campo Nombre se rellenará automáticamente para que coincida. Los campos Etiqueta y Nombre no están sincronizados. Esto le proporciona la opción de cambiar la etiqueta que ven los usuarios sin tener que cambiar el nombre que ve el sistema.</p></td> 
+      <td role="rowheader">Nombre de la API</td>
+      <td> <p>(Obligatorio) El nombre es con el que el sistema identifica el campo. Cuando configura el campo por primera vez y escribe la etiqueta, el campo Nombre de la API se rellena automáticamente para que coincida. Los campos Etiqueta y Nombre de API no están sincronizados. Esto le proporciona la opción de cambiar la etiqueta que ven los usuarios sin tener que cambiar el nombre que ve el sistema.</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader">Instrucciones</td> 

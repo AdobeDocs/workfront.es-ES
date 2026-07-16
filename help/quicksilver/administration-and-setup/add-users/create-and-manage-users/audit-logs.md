@@ -19,9 +19,9 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 07a00836f60ce0bb4ee7fb0202c9458b0c1be406
 workflow-type: tm+mt
-source-wordcount: 1488
+source-wordcount: 1487
 ht-degree: 7%
 
 ---
@@ -184,7 +184,7 @@ El sistema genera una entrada de registro de auditoría de campo personalizado c
 
    * Cambia el tamaño del campo
 
-     Esto solo está disponible si el campo es de uno de los siguientes tipos: línea única, párrafo, texto con formato
+     Esto solo está disponible si el campo es de uno de los siguientes tipos: una sola línea, párrafo, texto enriquecido
 
    * Agrega, quita u oculta una opción de campo
    * Edita una etiqueta de opción de campo o un valor

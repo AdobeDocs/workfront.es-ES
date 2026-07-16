@@ -17,16 +17,14 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+source-git-commit: 09dff59503604894e61f2a62af7ae1c2e8a39068
 workflow-type: tm+mt
 source-wordcount: 491
-ht-degree: 17%
+ht-degree: 18%
 
 ---
 
 # Comprobar límites de almacenamiento de documentos
-
-{{highlighted-preview}}
 
 Aunque no hay restricciones en los tipos y tamaños de archivos individuales que los usuarios pueden cargar en la instancia de Workfront, su plan de Workfront incluye una cuota de almacenamiento total. Como administrador de Workfront, supervisa el uso y la cuota desde el área de Configuración en la página Información del cliente.
 
@@ -79,8 +77,6 @@ La cuota de almacenamiento se actualiza diariamente para mostrar el recuento má
 >
 >Este límite no se aplica a los documentos que vincule a Workfront desde cualquier otro proveedor de servicios de terceros (SharePoint, Google Drive, Webdam, Box, Dropbox o cualquier otro proveedor de administración de recursos de documentos).
 
-<div class="preview">
-
 ## Almacenamiento en la nube de Adobe
 
 
@@ -107,5 +103,3 @@ Las cifras de uso se actualizan regularmente para que vea un recuento actualizad
 ### Notificaciones por correo electrónico para administradores
 
 Cuando el uso supera el 75 %, el 90 % o el 100 % de la cuota de almacenamiento, Workfront envía una notificación por correo electrónico a los administradores del sistema.
-
-</div>

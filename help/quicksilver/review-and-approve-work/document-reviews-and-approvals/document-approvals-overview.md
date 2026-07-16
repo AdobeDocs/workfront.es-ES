@@ -18,18 +18,17 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 8fa3fbb299fef17fbd49978e74adef94c45bb000
+source-git-commit: 632c8690acc30121fe72338326ec8ab58c0fd3a6
 workflow-type: tm+mt
-source-wordcount: 4173
+source-wordcount: 4149
 ht-degree: 0%
 
 ---
 
 # Resumen de revisión y aprobación unificadas
 
-{{highlighted-preview}}
-
-La revisión y la aprobación unificadas reúnen Adobe Workfront y Adobe Frame.io en una única experiencia profundamente conectada: se eliminan las diferencias entre la administración de marketing, la revisión creativa y la entrega de contenido.Los coordinadores de proyectos administran el trabajo en Workfront mientras los creativos, los especialistas en marketing y las partes interesadas revisan y aprueban los recursos en el visor Frame.io de nivel profesional, todo sin mover archivos entre herramientas desconectadas.
+La revisión y la aprobación unificadas reúnen Adobe Workfront y Adobe Frame.io en una única experiencia profundamente conectada: se eliminan las diferencias entre la administración de marketing, la revisión creativa y la entrega de contenido.
+Los coordinadores de proyectos administran el trabajo en Workfront mientras los creativos, los especialistas en marketing y las partes interesadas revisan y aprueban los recursos en el visor Frame.io de nivel profesional, todo sin mover archivos entre herramientas desconectadas.
 
 ![Diagrama que muestra el flujo de trabajo unificado de revisión y aprobación, con coordinadores de proyecto que administran el trabajo en Workfront y revisores y aprobadores que proporcionan comentarios y toman decisiones en el visor Frame.io.](assets/Unified-Review-Approvals-Image.png)
 
@@ -288,13 +287,9 @@ Sí. Se puede asignar a un usuario varias fases dentro del mismo flujo de trabaj
 
 Sí. Se admiten flujos de trabajo de aprobación de varias etapas, lo que le permite enrutar los recursos a través de rondas secuenciales de revisión y aprobación con diferentes participantes en cada etapa.
 
-<div class="preview">
-
 **¿Puedo configurar rutas de revisión paralelas en un flujo de trabajo de aprobación?**
 
-Sí. En la vista previa, los flujos de trabajo de aprobación admiten rutas paralelas además de etapas secuenciales. Cada ruta se ejecuta de forma independiente y contiene una o más etapas secuenciales, por lo que las revisiones de diferentes rutas pueden producirse al mismo tiempo. Puede configurar hasta 30 rutas y 100 etapas en una sola aprobación. Las mismas opciones están disponibles en las plantillas de aprobación. Para obtener más información, vea [Crear un flujo de trabajo de aprobación de documentos](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md) y [Crear una plantilla de flujo de trabajo de aprobación para documentos](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md).
-
-</div>
+Sí. Los flujos de trabajo de aprobación admiten rutas paralelas además de etapas secuenciales. Cada ruta se ejecuta de forma independiente y contiene una o más etapas secuenciales, por lo que las revisiones de diferentes rutas pueden producirse al mismo tiempo. Puede configurar hasta 30 rutas y 100 etapas en una sola aprobación. Las mismas opciones están disponibles en las plantillas de aprobación. Para obtener más información, vea [Crear un flujo de trabajo de aprobación de documentos](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md) y [Crear una plantilla de flujo de trabajo de aprobación para documentos](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md).
 
 <!--
 **Can I modify the trigger for a later stage---for example, based on all approved versus the due date ending?**
@@ -322,9 +317,7 @@ Actualmente, las plantillas de aprobación admiten usuarios y equipos individual
 
 Sí. Los aprobadores y revisores reciben notificaciones por correo electrónico cuando se les asigna una revisión o aprobación. Los correos electrónicos de recordatorio automatizados también se envían 72 horas antes del plazo, 24 horas antes y dentro del propio plazo.
 
-En Producción, la capacidad de personalizar los mensajes de notificación por correo electrónico no está disponible actualmente, pero está en la hoja de ruta del producto.
-
-<span class="preview">En la vista previa, puede agregar un mensaje personalizado a cada fase de un flujo de trabajo de aprobación. El mensaje aparece en la notificación de correo electrónico de aprobación y en la pestaña Aprobaciones de Workfront. Puede utilizar el mismo mensaje para cada fase o un mensaje diferente por fase, y el mensaje puede incluir hasta 500 caracteres. Si edita un mensaje personalizado después de crear el flujo de trabajo de aprobación, se envía una notificación por correo electrónico actualizada a todos los participantes existentes. Si agrega un participante más adelante, el mensaje personalizado se incluye en su notificación por correo electrónico. Para obtener más información, vea [Crear un flujo de trabajo de aprobación de documentos](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md).</span>
+Puede agregar un mensaje personalizado a cada fase de un flujo de trabajo de aprobación. El mensaje aparece en la notificación de correo electrónico de aprobación y en la pestaña Aprobaciones de Workfront. Puede utilizar el mismo mensaje para cada fase o un mensaje diferente por fase, y el mensaje puede incluir hasta 500 caracteres. Si edita un mensaje personalizado después de crear el flujo de trabajo de aprobación, se envía una notificación por correo electrónico actualizada a todos los participantes existentes. Si agrega un participante más adelante, el mensaje personalizado se incluye en su notificación por correo electrónico. Para obtener más información, consulte [Crear un flujo de trabajo de aprobación de documentos](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md).
 
 <!--
 **Can I change the notification frequency for a unified approver or reviewer (for example, all comments, replies to my comments, or daily summaries)?**

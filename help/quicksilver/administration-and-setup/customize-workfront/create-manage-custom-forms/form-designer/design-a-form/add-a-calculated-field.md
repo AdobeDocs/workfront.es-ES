@@ -21,10 +21,10 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 1eda36eb74aca2b731f2632eac3aae60e6b8ef9d
 workflow-type: tm+mt
-source-wordcount: 2647
-ht-degree: 72%
+source-wordcount: 2721
+ht-degree: 74%
 
 ---
 
@@ -162,11 +162,11 @@ Para reutilizar un campo personalizado calculado existente:
     <tbody> 
      <tr> 
       <td role="rowheader">Etiqueta</td> 
-      <td>Escriba una etiqueta para el campo. Es lo que los usuarios verán cuando usen el formulario personalizado. Workfront, en los informes, hace referencia al campo <b>Nombre</b>, que se rellena automáticamente.</td> 
+      <td>Escriba una etiqueta para el campo. Es lo que los usuarios verán cuando usen el formulario personalizado. Workfront hace referencia al campo <b>Nombre de API</b>, que se rellena automáticamente, en los informes.</td> 
      </tr> 
      <tr> 
       <td role="rowheader" id="instructions">Instrucciones</td> 
-      <td> De forma predeterminada, la fórmula que cree para el campo se almacena aquí. Puede agregar texto para proporcionar información adicional sobre el campo y la fórmula que contiene. Esto puede resultar útil de dos maneras: 
+      <td> De forma predeterminada, la fórmula que cree para el campo se almacena aquí. Puede añadir texto para ofrecer información adicional sobre el campo y la fórmula que contiene. Esto puede resultar útil de dos maneras: 
        <ul> 
       <li><p>Como recordatorio de lo qué es la fórmula y cómo funciona. Resulta especialmente útil si piensa utilizar este campo personalizado calculado en varios formularios.</p> </li> 
       <li> <p>Como ayuda contextual, los usuarios pueden ver cuando pasan el puntero por encima del campo. Aquí puede añadir el texto que desee que vean en la ayuda contextual.</p> <p>Si no desea que vean la fórmula en la ayuda contextual, lo que puede resultar confuso para ellos, puede ocultarla.</li> 

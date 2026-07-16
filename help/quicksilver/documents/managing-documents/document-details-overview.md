@@ -14,7 +14,7 @@ product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 322583384e4397bf02d534c14db46020e409aa35
+source-git-commit: 5fe8f3a46e3582a359b8d4641a7062b0590ea0b8
 workflow-type: tm+mt
 source-wordcount: 474
 ht-degree: 23%
@@ -22,8 +22,6 @@ ht-degree: 23%
 ---
 
 # Información general de los detalles del documento
-
-{{highlighted-preview}}
 
 La página Detalles del documento permite ver, comunicar y administrar las propiedades de un documento adjunto a un objeto de Adobe Workfront.
 
@@ -112,8 +110,6 @@ Puede realizar las siguientes acciones con los documentos desde la página Detal
    ![Detalles del documento](assets/doc-details.png)
 
 
-<div class="preview">
-
 ### Ver Imprimir resumen en la nueva área Documentos
 
 Una vez que un documento tiene aprobación, puede abrir la página Frame.io Imprimir comentarios para ver la vista previa del recurso, los comentarios y las decisiones de aprobación en un formato imprimible.
@@ -130,5 +126,3 @@ Una vez que un documento tiene aprobación, puede abrir la página Frame.io Impr
 >
 >El vínculo Imprimir resumen solo aparece después de agregar una aprobación al documento.
 
-
-</div>

@@ -19,16 +19,14 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+source-git-commit: b0dd2c2c448c829b2ce1559ddc87880c9a47a68f
 workflow-type: tm+mt
-source-wordcount: 980
-ht-degree: 51%
+source-wordcount: 967
+ht-degree: 47%
 
 ---
 
 # Compartir un formulario personalizado
-
-{{preview-fast-release-general}}
 
 Puede configurar el acceso para un formulario personalizado con el fin de controlar quién (persona, función, grupo, equipo, empresa, perfil empresarial) puede verlo, compartirlo y editarlo.
 
@@ -64,9 +62,9 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
 
 De forma predeterminada, cuando crea un nuevo formulario personalizado y alguien lo adjunta a un objeto, cualquier usuario asignado al objeto puede ver y rellenar el formulario. Esto incluye a los usuarios con licencias de colaborador o solicitud y a los usuarios externos.
 
-Sin embargo, en un objeto en el que el formulario personalizado no esté adjunto, un usuario (incluso si tiene un nivel de acceso de planificador) no puede adjuntarlo desde el menú desplegable Formularios personalizados a menos que se cumpla una de las siguientes condiciones:
+Sin embargo, en un objeto en el que el formulario personalizado no esté adjunto, un usuario (incluso si tiene un nivel de acceso Estándar o Planificador) no puede adjuntarlo desde el menú desplegable Forms personalizado a menos que se cumpla una de las siguientes condiciones:
 
-* <span class="preview">Alguien compartió el formulario personalizado como &quot;Todos los usuarios del sistema pueden ver y adjuntar&quot;</span>
+* Alguien compartió el formulario personalizado como &quot;Todos los usuarios del sistema pueden verlo y adjuntarlo&quot;
 * Alguien compartió el formulario personalizado con el usuario o con su equipo, función de trabajo, grupo, empresa o perfil empresarial que concede al menos el permiso Ver con la opción Adjuntar a datos personalizados seleccionada
 * El usuario tiene una licencia estándar o de planificación y su nivel de acceso permite el acceso administrativo a los formularios personalizados
 
@@ -180,13 +178,9 @@ En lugar de dejar un formulario personalizado en el estado de uso compartido pre
    >
    >* Cuando se hace visible un formulario personalizado en todo el sistema, se permite a los usuarios ver y rellenar únicamente los objetos a los que están asignados, no adjuntarlos a otros objetos. Puede conceder la capacidad de adjuntar el formulario personalizado a objetos mediante la opción “Adjuntar a datos personalizados” que se explica en el paso 6.
    >* La mayoría de las organizaciones desea garantizar que todos los miembros del sistema puedan rellenar un formulario personalizado cuando se adjunta a objetos en los que trabajan y ver sus datos en los informes. Si esto es así para su organización, le recomendamos que utilice la opción **Todos los usuarios del sistema pueden verlo**.
-   >* <span class="preview">Si selecciona **Todos los usuarios del sistema pueden ver y adjuntar**, todos los usuarios podrán adjuntar el formulario a otros objetos.</span>
+   >* Si selecciona **Todos los usuarios del sistema pueden ver y adjuntar**, todos los usuarios podrán adjuntar el formulario a otros objetos.
    >
-   ><span class="preview">Imagen de muestra en el entorno de vista previa:</span>
    >![Compartir un formulario personalizado](assets/share-custom-forms-all-can-attach.png)
-   >   
-   >Imagen de muestra en el entorno de producción:
-   >![Compartir un formulario personalizado](assets/share-custom-form-in-designer.png)
    >   
    >Si le preocupa un formulario personalizado en el que los usuarios puedan introducir datos confidenciales cuando se adjuntan a determinados objetos, limitar el uso compartido de esos *objetos* podría ser más eficaz que limitar el acceso al propio formulario.
 

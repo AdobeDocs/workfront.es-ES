@@ -15,7 +15,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 90b8da58f534f9033b427f0ad09c15dba50c28c9
 workflow-type: tm+mt
 source-wordcount: 266
 ht-degree: 26%
@@ -78,7 +78,7 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
    | **Normal** | Normal es para los elementos de trabajo de rutina en los que trabajará una vez completados los elementos de prioridad Alta y Urgente. Esta es la opción predeterminada para tareas y problemas. |
    | **Bajo** | Bajo es para elementos de trabajo que no necesitan atención inmediata y que se pueden diferir hasta que se realicen todos los elementos de trabajo de prioridad superior. |
 
-   ![Mi enfoque](assets/my-focus-new.png)
+   ![Mi enfoque](assets/my-focus-060226.png)
 
    >[!TIP]
    >

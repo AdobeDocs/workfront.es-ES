@@ -3,7 +3,7 @@ title: Configurar el uso compartido para campos y widgets personalizados
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
-description: De forma predeterminada, cuando se añade un nuevo campo personalizado o widget a un formulario personalizado, cualquier usuario del sistema con acceso a los formularios personalizados puede editar las propiedades de ese elemento, como su etiqueta y nombre. Puede cambiar esto controlando con quién se puede compartir.
+description: De forma predeterminada, cuando se agrega un nuevo campo personalizado o widget a un formulario personalizado, cualquier persona en el sistema con acceso a los formularios personalizados puede editar las propiedades de ese elemento, como su etiqueta y el nombre de la API. Puede cambiar esto controlando con quién se puede compartir.
 author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
@@ -19,16 +19,16 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+source-git-commit: 1eda36eb74aca2b731f2632eac3aae60e6b8ef9d
 workflow-type: tm+mt
-source-wordcount: 744
-ht-degree: 66%
+source-wordcount: 746
+ht-degree: 56%
 
 ---
 
 # Configuración del uso compartido para campos y widgets personalizados
 
-De forma predeterminada, cuando se añade un nuevo campo personalizado o widget a un formulario personalizado, cualquier usuario del sistema con acceso a los formularios personalizados puede editar las propiedades de ese elemento, como su etiqueta y nombre. Puede cambiar esto controlando con quién se puede compartir.
+De forma predeterminada, cuando se agrega un nuevo campo personalizado o widget a un formulario personalizado, cualquier persona en el sistema con acceso a los formularios personalizados puede editar las propiedades de ese elemento, como su etiqueta y el nombre de la API. Puede cambiar esto controlando con quién se puede compartir.
 
 Para obtener información sobre los campos y widgets personalizados en los formularios personalizados, consulte [Crear un formulario personalizado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 

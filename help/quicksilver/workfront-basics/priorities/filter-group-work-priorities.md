@@ -17,7 +17,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 90b8da58f534f9033b427f0ad09c15dba50c28c9
 workflow-type: tm+mt
 source-wordcount: 663
 ht-degree: 14%
@@ -76,67 +76,68 @@ Puede filtrar las tareas y los problemas que se le hayan asignado.
 
 1. Haga clic en **Filtros** en la parte superior izquierda de la lista de trabajos.
 1. En la sección **Filtros estándar**, seleccione uno o más filtros para reducir los elementos de trabajo.
-   ![Filtro](assets/filter-new.png)
+   ![Filtro](assets/filter-060226.png)
 
-+++Amplíe para ver información detallada sobre los filtros disponibles
-<table>
-  <tbody>
-   <tr>
-   <th>Filtro</th>
-   <th>Descripción</th>
-   </tr>
-    <tr>
-      <td>Trabajando en ello</td>
-      <td>Muestra los elementos en los que está trabajando actualmente</td>
-    </tr>
-    <tr>
-      <td>Listo para comenzar</td>
-      <td>Muestra elementos con 
-      <ul>
-      <li>Sin predecesoras incompletas ni restricciones de tarea</li>
-      <p>y</p>
-      <li>La fecha planificada de inicio es anterior o inferior a dos semanas</li>
-      </ul>
-      </td>
-    </tr>
-    <tr>
-      <td>Sin preparar</td>
-      <td>Muestra elementos que tienen
-       <ul>
-      <li>Predecesoras incompletas o delimitaciones de tareas que impiden trabajar en el elemento</li></ul>
-      <p>o</p>
-      <ul>
-      <li>La fecha planificada de inicio es dentro de más de dos semanas</li>
-      </ul>
-       </td>
-    </tr>
-    <tr>
-      <td>Solicitud</td>
-      <td>Muestra los problemas en los que no ha empezado a trabajar</td>
-    </tr>
-      <td>Listo</td>
-      <td>Muestra el trabajo completado en las últimas dos semanas. Esta opción de filtro no incluye aprobaciones.</td>
-    </tr>
-    <tr>
-    <td>Proyecto</td>
-    <td>Muestra los proyectos que contienen tareas o problemas a los que se le ha asignado</td>
-    </tr>
-    <tr>
-    <td>Fecha de vencimiento</td>
-    <td>Muestra el trabajo por fecha planificada de finalización</td>
-    </tr>
-    <tr>
-    <td>Mi enfoque</td>
-    <td>Muestra tareas o problemas que tienen niveles de enfoque asignados. El usuario individual asigna y administra los niveles de enfoque.</td>
-    </tr>
-    <tr>
-    <td>Estado</td>
-    <td>Muestra tareas o problemas en estados nuevos, en curso y completos.</td>
-    </tr>
-  </tbody>
-</table>
+   +++Amplíe para ver información detallada sobre los filtros disponibles
+   <table>
+     <tbody>
+      <tr>
+      <th>Filtro</th>
+      <th>Descripción</th>
+      </tr>
+       <tr>
+         <td>Trabajando en ello</td>
+         <td>Muestra los elementos en los que está trabajando actualmente</td>
+       </tr>
+       <tr>
+         <td>Listo para comenzar</td>
+         <td>Muestra elementos con 
+         <ul>
+         <li>Sin predecesoras incompletas ni restricciones de tarea</li>
+         <p>y</p>
+         <li>La fecha planificada de inicio es anterior o inferior a dos semanas</li>
+         </ul>
+         </td>
+       </tr>
+       <tr>
+         <td>Sin preparar</td>
+         <td>Muestra elementos que tienen
+          <ul>
+         <li>Predecesoras incompletas o delimitaciones de tareas que impiden trabajar en el elemento</li></ul>
+         <p>o</p>
+         <ul>
+         <li>La fecha planificada de inicio es dentro de más de dos semanas</li>
+         </ul>
+          </td>
+       </tr>
+       <tr>
+         <td>Solicitud</td>
+         <td>Muestra los problemas en los que no ha empezado a trabajar</td>
+       </tr>
+       <tr>
+         <td>Listo</td>
+         <td>Muestra el trabajo completado en las últimas dos semanas. Esta opción de filtro no incluye aprobaciones.</td>
+       </tr>
+       <tr>
+          <td>Proyecto</td>
+          <td>Muestra los proyectos que contienen tareas o problemas a los que se le ha asignado</td>
+       </tr>
+       <tr>
+          <td>Fecha de vencimiento</td>
+          <td>Muestra el trabajo por fecha planificada de finalización</td>
+       </tr>
+       <tr>
+          <td>Mi enfoque</td>
+          <td>Muestra tareas o problemas que tienen niveles de enfoque asignados. El usuario individual asigna y administra los niveles de enfoque.</td>
+       </tr>
+       <tr>
+          <td>Estado</td>
+          <td>Muestra tareas o problemas en estados nuevos, en curso y completos.</td>
+       </tr>
+     </tbody>
+   </table>
 
-+++
+   +++
 
 1. (Opcional) Haga clic en **Volver al valor predeterminado** para restablecer su selección.
 
@@ -167,9 +168,9 @@ Utilice un lenguaje natural para filtrar rápidamente el trabajo.
 1. Haga clic en **Agrupación** en la parte superior izquierda de la lista de trabajos.
 1. Seleccione una agrupación para organizar la lista de trabajo.
 
-![Grupos](assets/groups-new.png)
+![Grupos](assets/groupings-060226.png)
 
-+++Expanda para ver información detallada sobre los grupos disponibles
++++ Expanda para ver información detallada sobre los grupos disponibles
 
 | Grupo | Descripción |
 |-----------|-------------|
