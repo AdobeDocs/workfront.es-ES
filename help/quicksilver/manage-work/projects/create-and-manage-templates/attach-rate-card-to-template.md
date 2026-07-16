@@ -6,16 +6,14 @@ title: Adjuntar una tarjeta de tarifa a una plantilla
 description: Al asignar una tarjeta de tasa a una plantilla, la tarjeta de tasa se adjunta a todos los proyectos creados a partir de la plantilla.
 author: Lisa
 feature: Work Management
-source-git-commit: ab0a089ddf33cc4c5342b11a54ab3af40641a50d
+source-git-commit: ace9a01e852e6d99ddc6f150c0ac34bd4ef44817
 workflow-type: tm+mt
-source-wordcount: '628'
+source-wordcount: '644'
 ht-degree: 10%
 
 ---
 
 # Adjuntar una tarjeta de tarifa a una plantilla
-
-{{highlighted-preview-article-level}}
 
 Al asignar una tarjeta de tasa a una plantilla, la tarjeta de tasa se adjunta a todos los proyectos creados a partir de la plantilla. La tarjeta de tarifa se convierte en la predeterminada en el proyecto, pero se puede anular si es necesario.
 
