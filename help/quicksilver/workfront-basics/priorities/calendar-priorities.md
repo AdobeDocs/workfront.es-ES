@@ -9,19 +9,14 @@ exl-id: d24ad7d1-3a88-479e-beaf-69f8264c9a6b
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/vEseGrhKdhmMJCdM0q0PwzR9Gqjdj42djlpc-NfFXaQ
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 90b8da58f534f9033b427f0ad09c15dba50c28c9
 workflow-type: tm+mt
-source-wordcount: 502
+source-wordcount: 523
 ht-degree: 17%
 
 ---
@@ -82,7 +77,9 @@ Prioridades muestra los elementos de trabajo que tiene asignados. No puede ver l
 {{step1-to-priorities}}
 
 1. Haga clic en el icono **Calendario** en la parte superior de la lista de trabajos.
+
    ![icono de calendario](assets/calendar-tab.png)
+
 1. Seleccione uno o varios filtros para reducir los elementos de trabajo.
 
    +++Amplíe para ver información detallada sobre los filtros disponibles
@@ -162,7 +159,9 @@ Prioridades muestra los elementos de trabajo que tiene asignados. No puede ver l
 {{step1-to-priorities}}
 
 1. Haga clic en el icono **Calendario** en la parte superior de la lista de trabajos.
+
    ![icono de calendario](assets/calendar-tab.png)
+
 1. Haga clic en el icono **Configuración** en la esquina derecha del calendario.
 
 1. En la ficha **Estilo de barra**, elija hasta 5 campos para mostrar en la barra de elementos de trabajo del calendario.
