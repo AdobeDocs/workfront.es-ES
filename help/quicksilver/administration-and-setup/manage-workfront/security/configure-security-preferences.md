@@ -11,25 +11,15 @@ exl-id: f92ceed7-b191-425b-9fff-1b0947f32db8
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/46D3BBajFk39FP-dMDk0SuSSGM5nYPKas11Bs159R9Y
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
-subfeature_v2:
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 1e6380b0422efdd98449ab1e74cadb4f330917f1
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b0dd2c2c448c829b2ce1559ddc87880c9a47a68f
 workflow-type: tm+mt
-source-wordcount: 1155
-ht-degree: 47%
+source-wordcount: 1218
+ht-degree: 48%
 
 ---
 
@@ -150,8 +140,8 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
       <td>Permite habilitar o deshabilitar la experiencia de lista de trabajo Prioridades para los usuarios. Los usuarios seguirán viendo los iconos de Prioridades en Workfront, pero no tendrán acceso a la funcionalidad. Para obtener más información acerca de Prioridades, vea <a href="/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md">Introducción a Prioridades</a>.</td> 
      </tr>
      <tr>
-      <td><span class="preview">Aplicar siempre los campos obligatorios en la edición por lotes</span></td>
-      <td><span class="preview"><p>Permite elegir si se fuerza a los usuarios a introducir información en los campos obligatorios al editar objetos por lotes.</p> <p>Si se selecciona esta opción, los campos obligatorios deben tener valores antes de guardarlos en el modo de edición por lotes. Si en el campo obligatorio falta un valor para al menos un objeto seleccionado en bloque, no se permite guardar.</p> <p>Cuando esta opción no está seleccionada, los campos obligatorios solo se aplican cuando un usuario modifica el campo. Si un campo no se modifica, se trata como opcional y no se valida.</p></span></td>
+      <td>Aplicar siempre los campos obligatorios en la edición por lotes</td>
+      <td><p>Permite elegir si se fuerza a los usuarios a introducir información en los campos obligatorios al editar objetos por lotes.</p> <p>Si se selecciona esta opción, los campos obligatorios deben tener valores antes de guardarlos en el modo de edición por lotes. Si en el campo obligatorio falta un valor para al menos un objeto seleccionado en bloque, no se permite guardar.</p> <p>Cuando esta opción no está seleccionada, los campos obligatorios solo se aplican cuando un usuario modifica el campo. Si un campo no se modifica, se trata como opcional y no se valida.</p></td>
      </tr>
      <tr> 
       <td role="rowheader">Preferencias de almacenamiento </td> 
@@ -163,7 +153,7 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
       <li><b>Seleccionar portafolios para convertirlos al almacenamiento en la nube de Adobe</b>: seleccione portafolios que desee convertir automáticamente del almacenamiento heredado de Workfront al almacenamiento en la nube de Adobe. Los portafolios se convierten al guardar las Preferencias del sistema.</li></ul>     
     Para obtener más información sobre el almacenamiento en la nube de Adobe, consulte <a href="/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md">Habilitar el almacenamiento en la nube de Adobe para su organización</a>.</td></tr>
     <tr> 
-      <td role="rowheader">Seleccione portafolios para convertirlos en almacenamiento en la nube de Adobe </td> 
+      <td role="rowheader">Seleccionar portafolios para convertir al almacenamiento en la nube de Adobe </td> 
       <td>Permite convertir portafolios de almacenamiento de Workfront heredados existentes al almacenamiento en la nube de Adobe. Para obtener más información, consulte <a href="/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/convert-portfolios-to-acs.md">Convertir portafolios heredados al almacenamiento en la nube de Adobe</a>.</td> 
      </tr>
      <tr> 
