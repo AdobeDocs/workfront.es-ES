@@ -9,18 +9,13 @@ exl-id: 94dfa36a-801a-4eef-bcf5-4a3fecc5a3d0
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/FvXVCMMz-PfaT-QAaMq0c5qUruR1MJoMv6etcrAstXA
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 009953346ae5ef29611101acaa08b4f9810cf9d8
 workflow-type: tm+mt
-source-wordcount: 567
+source-wordcount: 574
 ht-degree: 11%
 
 ---
@@ -68,9 +63,9 @@ Para obtener información sobre la concesión de permisos a vistas y espacios de
 <tr> 
    <td role="rowheader"><p>Paquete de Adobe Workfront</p></td> 
    <td> 
-<p>Cualquier paquete de Workfront y Planning</p> 
+<p>Cualquier Workfront o flujo de trabajo con un paquete de Planning</p> 
 O
-<p>Cualquier paquete de flujo de trabajo y planificación</p> 
+<p>Cualquier Workfront Planning como paquete de producto independiente</p> 
  </tr>
 
 <tr> 

@@ -3,10 +3,10 @@ user-guide-title: Guía de Workfront
 user-guide-description: Utilice los siguientes documentos, tutoriales y recursos adicionales para aprender a implementar y utilizar Adobe Workfront de forma eficaz en su organización.
 role: User
 feature-set: Workfront
-source-git-commit: cf5c324a5dd527d498b5ccc32e1eb81ab3ea638f
+source-git-commit: 5d8ac684791c11607947de1ea3d1309ee0dfcaab
 workflow-type: tm+mt
-source-wordcount: '14290'
-ht-degree: 94%
+source-wordcount: '14340'
+ht-degree: 93%
 
 ---
 
@@ -2272,9 +2272,13 @@ ht-degree: 94%
       * [Introducción a Adobe Workfront Planning y Adobe GenStudio para la integración de marketing de rendimiento](planning/planning-and-genstudio-integration/get-started-with-workfront-planning-and-genstudio-integration.md)
       * [Administrar el espacio de trabajo de GenStudio en Adobe Workfront Planning](planning/planning-and-genstudio-integration/manage-gen-studio-workspace-in-planning.md)
       * {hide-from-toc}[Promocionar un espacio de trabajo de Workfront Planning a GenStudio](planning/planning-and-genstudio-integration/promote-planning-workspace-to-genstudio.md)
-   * Adobe Workfront Planning por separado {#planning-standalone}
-      * {hide-from-toc}[Adobe Workfront Planning independiente: índice de artículo](planning/planning-sta/planning-sta-article-index.md)
-      * {hide-from-toc}[Introducción a Adobe Workfront Planning Standlone](planning/planning-sta/get-started-with-planning-sta.md)
+   * Adobe Workfront Planning como producto independiente {#planning-standalone}
+      * [Adobe Workfront Planning como producto independiente: índice de artículos](planning/planning-sta/planning-sta-article-index.md)
+      * [Introducción a Adobe Workfront Planning como producto independiente](planning/planning-sta/planning-sta-overview.md)
+      * [Acceso necesario para Adobe Workfront Planning como producto independiente](planning/planning-sta/access-needed-for-planning-sta.md)
+      * [Administre su instancia de Adobe Workfront Planning como producto independiente](planning/planning-sta/manage-planning-sta-instance.md)
+      * [Administrar usuarios en Adobe Workfront Planning como producto independiente](planning/planning-sta/manage-users-in-planning-sta.md)
+      * [Administrar equipos en Adobe Workfront Planning como producto independiente](planning/planning-sta/manage-teams-in-planning-sta.md)
 * Integraciones de Adobe Workfront {#adobe-workfront-integrations}
    * [Integraciones de Adobe Workfront](workfront-integrations-and-apps/workfront-integrations.md)
    * [Información general sobre las integraciones integradas de Adobe Workfront](workfront-integrations-and-apps/built-in-integrations-non-admin.md)
@@ -2617,7 +2621,7 @@ ht-degree: 94%
       * [Configure y utilice las aplicaciones OAuth 2 personalizadas de la organización mediante el flujo JWT](wf-api/api/oauth-app-jwt-flow.md)
       * [Configure y utilice las aplicaciones OAuth 2 personalizadas de su organización mediante el flujo PKCE](wf-api/api/oauth-app-pkce-flow.md)
       * [Obsolescencia de la API interna](wf-api/api/deprecation-api-internal.md)
-      * [Novedades de la versión 22 de la API](/help/quicksilver/wf-api/api/new-api-version-22.md)
+      * [Novedades de la versión 22](/help/quicksilver/wf-api/api/new-api-version-22.md) de la API
       * [Novedades de la versión 21 de la API](/help/quicksilver/wf-api/api/new-api-version-21.md)
       * [Novedades de la versión 20 de la API](/help/quicksilver/wf-api/api/new-api-version-20.md)
       * [Novedades de la versión 19 de la API](wf-api/api/new-api-version-19.md)
