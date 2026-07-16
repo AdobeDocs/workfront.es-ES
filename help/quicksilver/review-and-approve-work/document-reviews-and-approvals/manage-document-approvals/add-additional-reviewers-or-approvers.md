@@ -9,27 +9,19 @@ exl-id: f3d94dff-a855-44ae-9e85-1dcbc4d417a0
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/jo3N878hmvHRqo6kCepxPDk2-zlalLvqQbMjHHB8aGE
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 82530b9b87f6865ec294adcdc601443ee48dcbcf
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 632c8690acc30121fe72338326ec8ab58c0fd3a6
 workflow-type: tm+mt
-source-wordcount: 1130
-ht-degree: 9%
+source-wordcount: 746
+ht-degree: 13%
 
 ---
 
 # Agregar aprobadores o revisores adicionales a un flujo de trabajo de aprobación de documentos
-
-{{highlighted-preview}}
 
 Puede agregar aprobadores o revisores adicionales a un flujo de trabajo de aprobación de documentos que ya tenga aprobaciones pendientes.
 
@@ -73,33 +65,34 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
 
 
 
-## Agregar aprobadores o revisores adicionales en el área de documentos heredados en Producción
+<!--
+## Add additional approvers or reviewers in the legacy documents area in Production
 
-Si su organización está en el almacenamiento de Workfront, verá el área de documentos heredados al acceder a documentos en Workfront. Para obtener más información sobre el almacenamiento de Workfront, consulte [Diferencias entre el almacenamiento en la nube de Adobe y el almacenamiento de Workfront heredado](/help/quicksilver/review-and-approve-work/esm-overview.md#differences-between-adobe-cloud-storage-and-legacy-workfront-storage).
+If your organization is on Workfront storage, you will see the legacy documents area when you access documents in Workfront. For more information about Workfront storage, see [Differences between Adobe cloud storage and legacy Workfront storage](/help/quicksilver/review-and-approve-work/esm-overview.md#differences-between-adobe-cloud-storage-and-legacy-workfront-storage).
 
-Para agregar aprobadores o revisores adicionales desde el resumen de documento:
+To add additional approvers or reviewers from the Document Summary:
 
-1. Vaya al proyecto, tarea o problema que contiene el documento y, a continuación, seleccione **Documentos** en el panel izquierdo.
+1. Go to the project, task, or issue that contains the document, then select **Documents** in the left panel.
 
-1. Haga clic en el documento que necesita y se abrirá el panel Resumen del documento para ese documento.
+1. Click on the document you need and the Document Summary panel for that document will open.
 
-1. Seleccione la versión del documento a la que desea agregar un aprobador o revisor en el menú desplegable Versión. La última versión está seleccionada de forma predeterminada.
+1. Select the version of the document you would like to add an approver or reviewer to in the version drop-down menu. The latest version is selected by default.
 
-1. Desplácese hacia abajo hasta la sección **Aprobaciones** y haga clic en **Editar flujo de trabajo**.
+1. Scroll down to the **Approvals** section, then click **Edit workflow**.
 
-   ![editar flujo de trabajo de aprobación](assets/edit-approval-in-legacy.png)
+   ![edit approval workflow](assets/edit-approval-in-legacy.png)
 
-1. Busque el escenario en el que desea agregar aprobadores o revisores y, a continuación, agregue el nombre del usuario o correo electrónico en el cuadro de texto. También puede agregar todo un equipo si es necesario.
+1. Locate the stage you would like to add approvers or reviewers to, then add the user's name or email in the text box. You can also add an entire team if needed. 
 
-1. Una vez agregado el nombre, seleccione si es un aprobador o revisor.
+1. Once their name is added, choose if they are an approver or reviewer. 
 
-   ![lista desplegable de aprobadores o revisores](assets/choose-approver-or-reviewer.png)
+   ![approver or reviewer drop-down](assets/choose-approver-or-reviewer.png)
 
-1. Repita los pasos del 5 al 6 para agregar más aprobadores o revisores.Una vez guardado, los participantes añadidos reciben una notificación por correo electrónico que indica que se necesita su aprobación o revisión en el documento.
+1. Repeat steps 5-6 to add additional approvers or reviewers.
+ Once you save, the participants added receive an email notification that their approval or review is needed on the document.
+-->
 
-<div class="preview">
-
-## Agregar aprobadores o revisores adicionales en el área de documentos heredados en Vista previa
+## Agregar aprobadores o revisores adicionales en el área de documentos heredados
 
 Si su organización está en el almacenamiento de Workfront, verá el área de documentos heredados al acceder a documentos en Workfront. Para obtener más información sobre el almacenamiento de Workfront, consulte [Diferencias entre el almacenamiento en la nube de Adobe y el almacenamiento de Workfront heredado](/help/quicksilver/review-and-approve-work/esm-overview.md#differences-between-adobe-cloud-storage-and-legacy-workfront-storage).
 
@@ -128,33 +121,32 @@ Para agregar aprobadores o revisores adicionales desde el resumen de documento:
 >
 >Para reestructurar una aprobación en modo básico en una aprobación de varias etapas o rutas múltiples, haga clic en **Ir a avanzado** en la esquina superior derecha. Los participantes existentes se conservarán como Ruta 1, Fase 1. Después de guardar, no puede volver al modo Básico. Para obtener más información, consulte [Crear un flujo de trabajo de aprobación de documentos](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md).
 
-</div>
+<!--
+## Add additional approvers or reviewers in the new Documents area in Production
 
-## Agregar aprobadores o revisores adicionales en el área de Documentos nuevos de Producción
-
-Si su organización utiliza el almacenamiento en la nube de Adobe, verá la nueva área Documentos al acceder a documentos en Workfront. Para obtener más información sobre el almacenamiento en la nube de Adobe, consulte [Información general sobre el almacenamiento en la nube de Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
-
-
-1. Vaya al proyecto, tarea o problema que contiene el documento y, a continuación, seleccione **Documentos** en el panel izquierdo.
-
-1. Haga clic en el documento y luego en el icono **Aprobaciones** que encontrará a la derecha de la página.
-
-   ![Agregar aprobadores en el resumen del documento](assets/approvals-icon-new.png)
+If your organization uses Adobe cloud storage, you will see the new Documents area when you access documents in Workfront. For more information about Adobe cloud storage, see [Adobe cloud storage overview](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 
-1. Haga clic en **Editar flujo de trabajo**.
+1. Go to the project, task, or issue that contains the document, then select **Documents** in the left panel.
 
-1. Busque el escenario en el que desea agregar aprobadores o revisores y, a continuación, agregue el nombre del usuario o correo electrónico en el cuadro de texto. También puede agregar todo un equipo si es necesario.
+1. Click on the document, then click the **Approvals** icon on the right side of the page. 
 
-1. Una vez agregado el nombre, seleccione si es un aprobador o revisor.
+   ![Add approvers in document summary](assets/approvals-icon-new.png)
 
-   ![lista desplegable de aprobadores o revisores](assets/choose-approver-or-reviewer.png)
 
-1. Repita los pasos del 5 al 6 para agregar más aprobadores o revisores.Una vez guardado, los participantes añadidos reciben una notificación por correo electrónico que indica que se necesita su aprobación o revisión en el documento.
+1. Click **Edit workflow**.
 
-<div class="preview">
+1. Locate the stage you would like to add approvers or reviewers to, then add the user's name or email in the text box. You can also add an entire team if needed. 
 
-## Agregar aprobadores o revisores adicionales del Resumen del documento en el área de Documentos nuevos de la Vista previa
+1. Once their name is added, choose if they are an approver or reviewer. 
+
+   ![approver or reviewer drop-down](assets/choose-approver-or-reviewer.png)
+
+1. Repeat steps 5-6 to add additional approvers or reviewers.
+ Once you save, the participants added receive an email notification that their approval or review is needed on the document.
+-->
+
+## Agregar aprobadores o revisores adicionales del Resumen del documento en el área de nuevos documentos
 
 Si su organización utiliza el almacenamiento en la nube de Adobe, verá la nueva área Documentos al acceder a documentos en Workfront. Para obtener más información sobre el almacenamiento en la nube de Adobe, consulte [Información general sobre el almacenamiento en la nube de Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
@@ -182,5 +174,3 @@ Para agregar aprobadores o revisores adicionales desde el resumen de documento:
 >[!TIP]
 >
 >Para reestructurar una aprobación en modo básico en una aprobación de varias etapas o rutas múltiples, haga clic en **Ir a avanzado** en la esquina superior derecha. Los participantes existentes se conservarán como Ruta 1, Fase 1. Después de guardar, no puede volver al modo Básico. Para obtener más información, consulte [Crear un flujo de trabajo de aprobación de documentos](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md).
-
-</div>
