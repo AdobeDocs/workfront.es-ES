@@ -6,24 +6,18 @@ feature: Get Started with Workfront
 author: Courtney
 exl-id: c391dabc-8dc4-4c4b-b0fc-7ccc4244cb8a
 TQID: https://experienceleague.adobe.com/xXHYO3esg0zhwMvdpQEXitxMBnwWDLWEQvLhHeIhXkw
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0115873e8dc3f17ae11fe137bfb57f12e6b514db
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 8771d66f6b7ecae9ac439456822889d4fe438649
 workflow-type: tm+mt
-source-wordcount: 531
-ht-degree: 48%
+source-wordcount: 348
+ht-degree: 58%
 
 ---
 
 # Anclar páginas para personalizar el espacio de trabajo
-
-{{highlighted-preview}}
 
 <!-- Audited: 4/2025 -->
 
@@ -64,11 +58,7 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
 
 1. En la esquina superior izquierda de la página, haga clic en **[!UICONTROL Anclar página actual]**. Ahora se podrá acceder a la página anclada desde la parte superior de cualquier página de [!DNL Workfront].
 
-   <span class="preview">Imagen de muestra en el entorno de vista previa:
    ![Anclar página actual](assets/pin-current-page-button-2026.png)
-
-   Imagen de muestra en el entorno de producción:
-   ![Anclar página actual](assets/pin-current-page-button.png)
 
 ## Acceder a una página anclada
 
@@ -82,15 +72,9 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
 
    Si tiene muchas páginas ancladas, haga clic en el icono **[!UICONTROL Más]** ![Haga clic en el icono Más](assets/more-icon.png) para ver otras páginas ancladas.
 
-   <span class="preview">Imagen de muestra en el entorno de vista previa:
    ![Anclar página actual](assets/display-pinned-pages-2026.png)
 
-   Imagen de muestra en el entorno de producción:
-   ![Ver páginas ancladas adicionales](assets/display-pinned-pages.png)
-
    Se mostrará la página anclada.
-
-<div class="preview">
 
 ## Administrar anclajes
 
@@ -107,36 +91,35 @@ Puede cambiar el nombre, reordenar y quitar páginas ancladas en un solo lugar.
 
 1. Haga clic en **Cerrar** cuando haya terminado de editar anclajes.
 
-</div>
+<!--
+## Rename a pinned page
 
-## Cambiar el nombre de una página anclada
-
-1. Pase el ratón sobre la página anclada en la barra de navegación superior.
-1. Haga clic en el icono **Más** ![Más icono](assets/more-icon.png) que aparece junto al nombre del pin y seleccione **[!UICONTROL Cambiar nombre de pin]**.
+1. Hover over the pinned page in the top navigation.
+1. Click the **More** icon ![More icon](assets/more-icon.png) that appears next to the pin name and select **[!UICONTROL Rename pin]**.
 
    ![Rename pin](assets/pin-menu.png)
 
-1. Escriba el nuevo nombre de anclaje y haga clic en **Guardar**.
+1. Type the new pin name, then click **Save**.
 
    ![Click the check mark to rename pin](assets/rename-pin-dialog-box.png)
 
-## Reordenar páginas ancladas
+## Reorder pinned pages
 
-Puede reorganizar el orden en que aparecen las páginas ancladas.
+You can rearrange the order that pinned pages appear.
 
-1. Pase el ratón sobre la página anclada que quiera mover y luego haga clic en el icono **Más** ![Icono de más](assets/more-icon.png).
-1. Elige **Mover a la izquierda** o **Mover a la derecha** para mover tu pin.
-1. (Opcional) Elija **Mover al frente** para mover el pin a la posición más a la izquierda de la barra de pin.
+1. Hover over the pinned page you want to move, then click the **More** icon ![More icon](assets/more-icon.png).
+1. Choose **Move left** or **Move right** to move your pin. 
+1. (Optional) Choose **Move to front** to move your pin to the far-left position of the pin bar. 
 
-   ![mover anclajes](assets/pin-menu.png)
+   ![move pins](assets/pin-menu.png)
 
-   Los cambios se guardarán automáticamente y se recordarán la próxima vez que acceda a Workfront.
+   Your changes automatically save and are remembered the next time you access Workfront.
 
-## Quitar una página anclada
+## Remove a pinned page
 
-1. Haga clic en el icono **Más** ![](assets/more-icon.png) que está junto al anclaje que desea eliminar.
-1. Haga clic en **Quitar anclaje**. La página dejará de estar accesible desde la parte superior de cualquier página de [!DNL Workfront].
+1. Click the **More** icon ![](assets/more-icon.png) next to the pin you want to remove.
+1. Click **Remove pin**. The page is no longer accessible from the top of any page in [!DNL Workfront].
 
    ![Remove pin](assets/pin-menu.png)
-
+-->
 

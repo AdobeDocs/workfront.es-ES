@@ -1,8 +1,8 @@
 ---
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+source-git-commit: 8771d66f6b7ecae9ac439456822889d4fe438649
 workflow-type: tm+mt
-source-wordcount: '2236'
-ht-degree: 24%
+source-wordcount: '2258'
+ht-degree: 25%
 
 ---
 # Fragmentos
@@ -99,7 +99,7 @@ Add snippets within the section that the snippet is used. Snippets that are used
 
 ## Paso 1: Cómo configurar {#step-1-to-setup}
 
-1. Haga clic en el icono **[!UICONTROL Menú principal]** ![Menú principal](/help/_includes/assets/main-menu-icon-left-nav.png) en la esquina superior izquierda de Adobe Workfront y, a continuación, haga clic en **[!UICONTROL Configuración]** ![Icono de configuración](/help/_includes/assets/gear-icon-setup.png).
+1. Haga clic en el icono **[!UICONTROL Menú principal]** ![Menú principal](/help/_includes/assets/main-menu-icon-left-nav.png) en la esquina superior izquierda de Adobe Workfront y, a continuación, haga clic en **[!UICONTROL Configuración]** ![Icono de configuración](/help/_includes/assets/gear-icon-setup-2026.png).
 
 ## Diseñador de formularios a GA {#form-designer-default}
 
@@ -124,7 +124,7 @@ Puede asegurarse de que está asociando el grupo correcto con el equipo pasando 
 
 ## Paso 1: Llegada a los usuarios {#step-1-to-users}
 
-1. Haga clic en el icono **[!UICONTROL Menú principal]** ![Menú principal](/help/_includes/assets/main-menu-icon-left-nav.png) en la esquina superior izquierda de Adobe Workfront y, a continuación, haga clic en **[!UICONTROL Usuarios]** ![Icono de usuarios](/help/_includes/assets/users-icon-in-main-menu.png).
+1. Haga clic en el icono **[!UICONTROL Menú principal]** ![Menú principal](/help/_includes/assets/main-menu-icon-left-nav.png) en la esquina superior izquierda de Adobe Workfront y, a continuación, haga clic en **[!UICONTROL Usuarios]** ![Icono de usuarios](/help/_includes/assets/users-icon-in-main-menu-2026.png).
 
 
 <!-- Agile -->

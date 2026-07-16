@@ -7,26 +7,20 @@ author: Lisa and Courtney
 feature: Get Started with Workfront
 exl-id: c646b3d2-2eca-47ef-b181-9358cef03ed7
 TQID: https://experienceleague.adobe.com/JSuh2kxo-6XXc9DZVH15O6S4gOB8oPUKhRP7O9MYqeA
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: c58c4365016f8fe855003cdbbd457f95483d08bc
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 8771d66f6b7ecae9ac439456822889d4fe438649
 workflow-type: tm+mt
-source-wordcount: 381
-ht-degree: 20%
+source-wordcount: 364
+ht-degree: 21%
 
 ---
 
 # Comprenda la navegación de un usuario con licencia para [!UICONTROL Light]
 
-{{highlighted-preview}}
-
-El [!UICONTROL Menú principal] cambia con el nivel de acceso que le asignó su administrador [!DNL Adobe Workfront]. De forma predeterminada, solo se le otorga acceso a las áreas que incluyen la funcionalidad permitida por su nivel de acceso. Para comprender los componentes del diseño predeterminado de cada nivel de acceso, consulte [Acerca del diseño predeterminado [!DNL Adobe Workfront] &#x200B;](../../../administration-and-setup/customize-workfront/use-layout-templates/about-the-default-wf-layout.md).
+El [!UICONTROL Menú principal] cambia con el nivel de acceso que le asignó su administrador [!DNL Adobe Workfront]. De forma predeterminada, solo se le otorga acceso a las áreas que incluyen la funcionalidad permitida por su nivel de acceso. Para comprender los componentes del diseño predeterminado de cada nivel de acceso, consulte [Acerca del diseño predeterminado [!DNL Adobe Workfront] ](../../../administration-and-setup/customize-workfront/use-layout-templates/about-the-default-wf-layout.md).
 
 ## Comprenda el [!UICONTROL menú principal] predeterminado de un [!UICONTROL usuario básico]
 
@@ -45,11 +39,7 @@ El diseño predeterminado de [!UICONTROL usuario ligero] incluye las áreas sigu
 * **[!UICONTROL Tableros]**: trabaje con flexibilidad y colaboración con los integrantes del equipo mediante tableros compartidos que contienen columnas y tarjetas que reflejan el trabajo que desea realizar. Para obtener más información, consulte [Introducción a los tableros: índice de artículos](../../../agile/get-started-with-boards/get-started-with-boards.md).
 * **[!UICONTROL Prioridades]**: puede administrar y priorizar el trabajo rápidamente. Para obtener más información, consulte [Introducción a Prioridades](/help/quicksilver/workfront-basics/priorities/get-started-with-priorities.md).
 
-<span class="preview">Imagen de muestra en el entorno de vista previa:</span>
-![Menú principal predeterminado para usuarios ligeros](assets/light-user-main-menu-2026.png)
-
-Imagen de muestra en el entorno de producción:
-![Menú principal predeterminado de usuario ligero](assets/light-user-main-menu.png)
+![Menú principal predeterminado de usuario ligero](assets/light-user-main-menu-2026.png)
 
 ## Personalizar el [!UICONTROL menú principal] predeterminado
 

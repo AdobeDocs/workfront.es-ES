@@ -7,26 +7,20 @@ author: Courtney
 feature: Get Started with Workfront
 exl-id: 458631a2-d77d-46d6-8d6b-7008237e5154
 TQID: https://experienceleague.adobe.com/4fgMPIn0x6PWLmdi-iP9lt7skFKPiGMLOGGYYfCrhC8
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 2c815aa5a4873d2b6af79cee2183c502f05108b6
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 8771d66f6b7ecae9ac439456822889d4fe438649
 workflow-type: tm+mt
-source-wordcount: 711
-ht-degree: 56%
+source-wordcount: 697
+ht-degree: 57%
 
 ---
 
 # [!DNL Adobe Unified Experience] para [!DNL Workfront]
 
 <!--Audited: 10/2024-->
-
-{{highlighted-preview}}
 
 Acceder a [!DNL Workfront] a través de [!DNL Adobe CX Enterprise] le ofrece una experiencia unificada perfecta para administrar todas sus aplicaciones de [!DNL Adobe]. La Identity management única le proporciona un lugar para iniciar sesión, sin varias URL ni ID de inicio de sesión.
 
@@ -100,11 +94,7 @@ Use el icono [!UICONTROL Menú principal] ![Icono del menú principal](assets/ma
 * **Configuraciones de la plantilla de diseño**: para saber cómo un administrador de [!DNL Workfront] puede modificar el [!UICONTROL Menú principal] a partir de una plantilla de diseño, consulte [Personalizar el [!UICONTROL Menú principal] con una plantilla de diseño](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
 * **Tipo de licencia**: Para conocer las configuraciones predeterminadas de diferentes tipos de licencia, consulta [Comprender la navegación de un usuario con licencia [!UICONTROL Light]-License](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/reviewer-global-navigation-bar.md) o [Comprender la navegación de un usuario con licencia [!UICONTROL Work]-License](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/worker-global-navigation-bar.md).
 
-<span class="preview">Imagen de muestra en el entorno de vista previa:</span>
 ![Menú principal](assets/main-menu-options-2026.png)
-
-Imagen de muestra en el entorno de producción:
-![Menú principal](assets/main-menu-options-left-nav.png)
 
 ## Acceso a su perfil y preferencias
 
@@ -136,6 +126,6 @@ En caso de que la organización utilice una aplicación independiente para admin
 
 En caso de que [!DNL Adobe] administre la contraseña, cámbiela en la cuenta de Adobe.
 
-[Consulte este artículo para cambiar la contraseña de Adobe.](https://helpx.adobe.com/es/account/individual/sign-in-and-security/security-and-recovery/reset-adobe-password.html){target="_blank"}
+[Consulte este artículo para cambiar la contraseña de Adobe.](https://helpx.adobe.com/account/individual/sign-in-and-security/security-and-recovery/reset-adobe-password.html){target="_blank"}
 
 Para obtener más información sobre cómo cambiar la contraseña, póngase en contacto con el administrador.
