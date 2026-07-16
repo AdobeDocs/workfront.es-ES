@@ -9,22 +9,15 @@ exl-id: 6c35c313-d6ed-428b-b70d-2ea242da4e8f
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/chdwrI5WTrdmeuqsWI5WydiLLzcp5Rq-hDsILudO-P0
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
-subfeature_v2:
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
 workflow-type: tm+mt
-source-wordcount: 1098
-ht-degree: 42%
+source-wordcount: 1038
+ht-degree: 44%
 
 ---
 
@@ -32,10 +25,11 @@ ht-degree: 42%
 
 <!--leave the choice value information in yellow till January 2026-->
 
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">La información resaltada en esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa para todos los clientes. Después del lanzamiento en Vista previa, las mismas funciones también están disponibles mensualmente en el entorno de producción para los clientes que habilitaron lanzamientos rápidos. </span>
-
-<span class="preview">Para obtener información sobre las versiones rápidas, consulte [Habilitar o deshabilitar las versiones rápidas para su organización](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -152,8 +146,8 @@ Debe tener en cuenta lo siguiente antes de realizar cambios en la configuración
 * Sí puede editar la configuración de los siguientes elementos de campo después de guardar el campo:
 
    * El nombre o la descripción de cualquier campo
-   * Las opciones de un campo de selección única o múltiple <span class="preview"> y sus opciones predeterminadas</span>.
-   * <span class="preview">Las opciones predeterminadas de un campo Personas.</span>
+   * Las Opciones de un campo de selección única o de selección múltiple y sus opciones predeterminadas.
+   * Las opciones predeterminadas de un campo Personas.
    * La expresión de un campo de fórmula.
 
   >[!WARNING]
@@ -209,14 +203,10 @@ this is not yet true, but it might come later:
    >
    >* Al modificar las configuraciones de campo (opciones de campo o expresiones de fórmula), los registros que ya contienen información en los campos modificados actualizarán sus valores en tiempo real. No se muestran advertencias ni registros de auditoría para los cambios de valor activados por los cambios en la configuración del campo. Todos los usuarios que vean los campos verán inmediatamente los nuevos valores con las modificaciones.
 
-1. <span class="preview">(Condicional) Si el campo que está actualizando forma parte de un formulario de solicitud, se muestra el cuadro **Revisar cambios del campo** para indicar los formularios que se verán afectados por los cambios. Realice una de las siguientes acciones:</span>
-
-   <div class="preview">
+1. (Condicional) Si el campo que está actualizando forma parte de un formulario de solicitud, se muestra el cuadro **Revisar cambios del campo** para indicar los formularios a los que afectarán los cambios. Realice una de las siguientes acciones:
 
    * Haga clic en la flecha que señala a la derecha para mostrar los formularios afectados por el cambio y, a continuación, haga clic en el nombre del formulario para abrir el formulario en una nueva pestaña y decidir si desea mantener el campo en el formulario o realizar cambios adicionales en el formulario.
    * Haga clic en **Conservar cambios** para actualizar el campo en todas las áreas donde se muestre.
-
-   </div>
 
    La información de campo se actualiza para todos los que tengan acceso a la vista del espacio de trabajo.
 

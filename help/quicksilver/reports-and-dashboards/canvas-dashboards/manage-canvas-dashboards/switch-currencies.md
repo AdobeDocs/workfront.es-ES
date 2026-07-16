@@ -6,10 +6,10 @@ description: Puede utilizar los campos de moneda en un panel de lienzo.
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 207c24d3-2b69-4ea3-88d7-716a3cf33dd1
-source-git-commit: f465ac03e0ff91216d1ef934a1696127796645ba
+source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
 workflow-type: tm+mt
-source-wordcount: '677'
-ht-degree: 12%
+source-wordcount: '673'
+ht-degree: 11%
 
 ---
 
@@ -18,16 +18,18 @@ ht-degree: 12%
 >[!IMPORTANT]
 >
 >Actualmente, la función Paneles de lienzo solo está disponible para los usuarios que participan en la fase beta. Es posible que algunas partes de la función no estén completas o que no funcionen según lo previsto durante esta fase. Envíe cualquier comentario sobre su experiencia siguiendo las instrucciones de la sección [Proporcionar comentarios](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) del artículo Información general sobre la versión beta de los paneles de lienzo.<br>
->Si tiene comentarios acerca de un posible error o problema técnico, envíe un ticket al equipo de asistencia de Workfront. Para obtener más información, consulte [Póngase en contacto con Atención al cliente](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>
+>Si tiene comentarios acerca de un posible error o problema técnico, envíe un ticket al equipo de asistencia de Workfront. Para obtener más información, consulte [Contacto con el servicio de asistencia al cliente](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>
 >Tenga en cuenta que esta versión beta no está disponible en los siguientes proveedores de la nube:
 >
 >* Traer su propia clave para Amazon Web Service
 >* Azure
 >* Google Cloud Platform
 
-<span class="preview">La información resaltada en esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa para todos los clientes. Después del lanzamiento en Vista previa, las mismas funciones también están disponibles mensualmente en el entorno de producción para los clientes que habilitaron lanzamientos rápidos. </span>
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Para obtener información sobre las versiones rápidas, consulte [Habilitar o deshabilitar las versiones rápidas para su organización](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 ## Requisitos de acceso
 
@@ -143,19 +145,18 @@ En la tabla siguiente se describen las limitaciones cuando se definen monedas en
 <ul>
 <li>Usar campos de moneda nativa en informes de lienzo, gráfico, KPI y tabla</li>
 <li>Usar campos de moneda personalizados en informes de lienzo, gráfico y KPI</li>
+<li>Usar campos monetarios de Planning en un gráfico de lienzo, KPI e informes de tabla </li>
 </ul>
+<p><b>NOTA</b></p>
+Si un campo de divisa de Planning utiliza una divisa sin un tipo de cambio definido, el panel de lienzo puede mostrar un mensaje de error al.
 </td>
 <td>
 <ul>
 <li>Asigne una moneda predeterminada al tablero (al crearlo o al editarlo)</li>
 <li>Consulte y utilice la opción de moneda de nivel de panel</li>
 <li>Bloquear una moneda específica para verla en un gráfico de lienzo, KPI o informe de tabla</li>
-<li>Utilice los campos monetarios de Planning en un gráfico de lienzo, KPI e informes de tabla <span class="preview"> en el entorno de producción. Está disponible en el entorno de vista previa.</span></li>
+
 </ul>
-
-<p><b>NOTA</b></p>
-<span class="preview">Si un campo de divisa de Planning utiliza una divisa sin un tipo de cambio definido, el panel de lienzo podría mostrar un mensaje de error al.</span>
-
 </td> 
 </tr>
 </td> 
@@ -168,17 +169,19 @@ En la tabla siguiente se describen las limitaciones cuando se definen monedas en
   <li>Establezca una moneda predeterminada para el tablero (al crearlo o al editarlo)</li>
   <li>Consulte y utilice la opción de moneda de nivel de panel</li>
   <li>Bloquee una moneda específica para verla en un gráfico de lienzo, KPI o informe de tabla y, así, omita la preferencia de alternancia de moneda del panel</li>
+  <li>Usar campos monetarios de Planning en un gráfico de lienzo, KPI e informes de tabla </li>
 </ul>
+<p><b>NOTA</b></p>
+
+<p>Si un campo de divisa de Planning utiliza una divisa sin un tipo de cambio definido, el panel de lienzo puede mostrar un mensaje de error al.</p>
 </td>
 <td><ul>
   <li>Usar campos de moneda de datos personalizados en informes de lienzo, KPI y tabla</li>
-  <li>Utilice los campos monetarios de Planning en un gráfico de lienzo, KPI e informes de tabla <span class="preview"> en el entorno de producción. Está disponible en el entorno de vista previa.</span></li>
+
 </ul>
 
 
-<p><b>NOTA</b></p>
 
-<p><span class="preview">Si un campo de divisa de Planning utiliza una divisa sin un tipo de cambio definido, el panel de lienzo puede mostrar un mensaje de error al.</span></p>
 
 </td>
 </tr></table>

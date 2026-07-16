@@ -9,29 +9,24 @@ exl-id: 94dfa36a-801a-4eef-bcf5-4a3fecc5a3d0
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/FvXVCMMz-PfaT-QAaMq0c5qUruR1MJoMv6etcrAstXA
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 009953346ae5ef29611101acaa08b4f9810cf9d8
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
 workflow-type: tm+mt
-source-wordcount: 574
-ht-degree: 11%
+source-wordcount: 514
+ht-degree: 10%
 
 ---
 
 # Solicitar permisos para una vista o un espacio de trabajo
 
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">La información resaltada en esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa para todos los clientes. Después del lanzamiento en Vista previa, las mismas funciones también están disponibles mensualmente en el entorno de producción para los clientes que habilitaron lanzamientos rápidos. </span>
-
-<span class="preview">Para obtener información sobre las versiones rápidas, consulte [Habilitar o deshabilitar las versiones rápidas para su organización](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
-
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 <!-- 
 no longer needed: 
@@ -89,7 +84,7 @@ O
    <ul><li><p>Ver o administrar para una vista</p></li>
    <li><p>Ver, contribuir o administrar para un espacio de trabajo</p></li>
    <li><p>Ver, contribuir o administrar para un tipo de registro</p></li>
-   <li><p><span class="preview">Ver o administrar un registro</span></p></li>
+   <li><p>Ver o administrar un registro</p></li>
    </ul>  
    <p>Solo los usuarios con permisos de Administración de un espacio de trabajo y una vista pueden compartir una vista públicamente.</p></td> 
   </tr> 
@@ -175,9 +170,9 @@ Para obtener más información acerca de los requisitos de acceso de Workfront, 
 
 ## Solicitar permisos
 
-Solicitar permisos para una vista es similar a solicitar permisos para un área de trabajo, un tipo de registro o <span class="preview">un registro</span>.
+La solicitud de permisos a una vista es similar a la solicitud de permisos a un espacio de trabajo, un tipo de registro o un registro.
 
-Cuando alguien comparte con usted un vínculo a un área de trabajo, tipo de registro, <span class="preview">registro</span> o una vista a la que no tiene acceso:
+Cuando alguien comparte con usted un vínculo a un espacio de trabajo, un tipo de registro, un registro o una vista a los que no tiene acceso:
 
 1. Haga clic en el vínculo compartido con usted para la vista o el espacio de trabajo.
 
@@ -187,7 +182,7 @@ Cuando alguien comparte con usted un vínculo a un área de trabajo, tipo de reg
 
    >[!NOTE]
    >
-   >Si no tiene acceso a un tipo de registro o a <span class="preview">registro</span>, la página No tiene acceso a muestra que debe tener acceso al área de trabajo.
+   >Si no tiene acceso a un tipo de registro o registro, la página No tiene acceso a muestra que debe tener acceso al espacio de trabajo.
 
 
 1. (Condicional) Si el vínculo compartido es para una vista de un área de trabajo a la que tiene acceso, haga clic en **Abrir con vista existente**. Si tiene permisos para acceder al espacio de trabajo, la página de tipo de registro se abrirá en la vista predeterminada.

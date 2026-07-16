@@ -9,19 +9,14 @@ exl-id: c669217a-40e2-471f-951d-93157a34f1ee
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/c5iVodFoP9cUAVN63iu8B5-XoVihpNF3KbLdpMk7N9Q
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
 workflow-type: tm+mt
-source-wordcount: 847
-ht-degree: 4%
+source-wordcount: 787
+ht-degree: 3%
 
 ---
 
@@ -30,11 +25,12 @@ ht-degree: 4%
 
 <!--you might need to add something about notifications and emails?!-->
 
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">La información resaltada en esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa para todos los clientes. Después del lanzamiento en Vista previa, las mismas funciones también están disponibles mensualmente en el entorno de producción para los clientes que habilitaron lanzamientos rápidos. </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
-<span class="preview">Para obtener información sobre las versiones rápidas, consulte [Habilitar o deshabilitar las versiones rápidas para su organización](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
-
+-->
 
 Después de configurar y activar las automatizaciones en Adobe Workfront Planning, puede utilizarlas para crear objetos en Adobe Workfront o registros en Adobe Workfront Planning.
 
@@ -89,7 +85,7 @@ Puede crear los siguientes artículos utilizando automatizaciones en Workfront P
 <tr> 
    <td role="rowheader"><p>Permisos de objeto</p></td> 
    <td> <p>Los permisos de Contribute o superior para el espacio de trabajo y para el tipo de registro en el que desea crear objetos mediante automatizaciones existentes. </p>  
-   <p><span class="preview">Administre permisos para el registro para el que está ejecutando la automatización.</span></p>
+   <p>Administre permisos para el registro para el que está ejecutando la automatización.</p>
    <p>Administre permisos a objetos Workfront (portafolios) para agregar objetos secundarios (programas o proyectos).</p>
    <p>Los administradores del sistema tienen permisos de administración en todos los espacios de trabajo, incluidos los que no han creado</p>
    </td> 

@@ -9,20 +9,14 @@ exl-id: b977d5dd-8975-42c4-9968-a7ac357972e6
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/grtTc9KyoVJXzU27qkmFyJhY0mYtdSjz-Q1Pb-YqxLI
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
 workflow-type: tm+mt
-source-wordcount: 793
+source-wordcount: 765
 ht-degree: 5%
 
 ---
@@ -31,11 +25,11 @@ ht-degree: 5%
 
 {{planning-important-intro}}
 
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">La información de esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa para todos los clientes. Después del lanzamiento en Vista previa, las mismas funciones también están disponibles mensualmente en el entorno de producción para los clientes que habilitaron lanzamientos rápidos. </span>
-
-<span class="preview">Para obtener información sobre las versiones rápidas, consulte [Habilitar o deshabilitar las versiones rápidas para su organización](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
-
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 Como administrador de espacio de trabajo, puede agregar un tipo de registro que exista en otro espacio de trabajo a un espacio de trabajo que administre en Adobe Workfront Planning.
 
@@ -149,25 +143,25 @@ And
 1. Haga clic en **Continuar**.
 1. (Condicional) En el cuadro **Elija el tipo de registro**, haga clic en la tarjeta del tipo de registro que desee agregar desde un área de trabajo existente y, a continuación, haga clic en **Agregar**.
 
-   <span class="preview">Si está usando el entorno de vista previa, puede hacer clic para seleccionar varios tipos de registros y, a continuación, hacer clic en **Agregar**. Se muestran en la lista todos los tipos de registros globales de todos los espacios de trabajo donde están disponibles.</span>
+Si está usando el entorno de vista previa, puede hacer clic para seleccionar varios tipos de registros y luego hacer clic en **Agregar**. En la lista se muestran todos los tipos de registros globales de todos los espacios de trabajo donde están disponibles.
 
-   El tipo de registro se agrega al espacio de trabajo secundario que seleccionó y el icono **tipo de registro global** ![icono de registro global en el espacio de trabajo secundario](assets/global-icon-secondary-workspace.png) se muestra en la tarjeta del tipo de registro.
+El tipo de registro se agrega al espacio de trabajo secundario que seleccionó y el icono **tipo de registro global** ![icono de registro global en el espacio de trabajo secundario](assets/global-icon-secondary-workspace.png) se muestra en la tarjeta del tipo de registro.
 El icono de tipo de registro global incluye una flecha cuando se muestra en un tipo de registro del espacio de trabajo secundario para indicar que el tipo de registro se agregó desde un tipo de registro existente.
 
-   Ocurren lo siguiente:
+Ocurren lo siguiente:
 
-   * También se agrega la siguiente información desde el tipo de registro global existente:
+* También se agrega la siguiente información desde el tipo de registro global existente:
 
-      * Todos los campos originales
-      * Todas las conexiones de registros
-   * No se pueden ver los registros agregados desde el espacio de trabajo original del tipo de registro desde el espacio de trabajo secundario.
-   * Puede ver los registros agregados desde el espacio de trabajo original del tipo de registro en ese espacio de trabajo, sólo en el espacio de trabajo original, si tiene al menos permisos de Vista en ese espacio de trabajo.
-   * El campo **Workspace** de solo lectura se agrega a la nueva vista de tabla de tipo de registro. El campo muestra el espacio de trabajo donde se creó cada registro.
+   * Todos los campos originales
+   * Todas las conexiones de registros
+* No se pueden ver los registros agregados desde el espacio de trabajo original del tipo de registro desde el espacio de trabajo secundario.
+* Puede ver los registros agregados desde el espacio de trabajo original del tipo de registro en ese espacio de trabajo, sólo en el espacio de trabajo original, si tiene al menos permisos de Vista en ese espacio de trabajo.
+* El campo **Workspace** de solo lectura se agrega a la nueva vista de tabla de tipo de registro. El campo muestra el espacio de trabajo donde se creó cada registro.
 
-     >[!NOTE]
-     >
-     >No puede editar el aspecto, la configuración adicional ni los campos originales del nuevo tipo de registro. Sólo se puede editar el tipo de registro y todos sus campos y configuraciones originales desde el espacio de trabajo original.
-     >
+  >[!NOTE]
+  >
+  >No puede editar el aspecto, la configuración adicional ni los campos originales del nuevo tipo de registro. Sólo se puede editar el tipo de registro y todos sus campos y configuraciones originales desde el espacio de trabajo original.
+  >
 
 1. (Opcional) Pase el ratón sobre el icono de tipo de registro global ![Icono de registro global en el espacio de trabajo secundario](assets/global-icon-secondary-workspace.png) para ver el nombre del espacio de trabajo original desde el que se agregó el tipo de registro.
 1. (Opcional) Haga clic en y, a continuación, arrastre y suelte el tipo de registro recién añadido en cualquier sección del espacio de trabajo.

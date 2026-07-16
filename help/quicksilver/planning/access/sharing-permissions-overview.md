@@ -9,15 +9,12 @@ exl-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/eF7kBTsursbrsXr8Lo6ql6U5JBLQDvi6nw4JDpRxClw
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
 workflow-type: tm+mt
-source-wordcount: 1372
-ht-degree: 7%
+source-wordcount: 1287
+ht-degree: 6%
 
 ---
 
@@ -27,9 +24,11 @@ ht-degree: 7%
 
 # Información general sobre los permisos de uso compartido en Adobe Workfront Planning
 
-<span class="preview">La información resaltada en esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa para todos los clientes. Después del lanzamiento en Vista previa, las mismas funciones también están disponibles mensualmente en el entorno de producción para los clientes que habilitaron lanzamientos rápidos. </span>
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Para obtener información sobre las versiones rápidas, consulte [Habilitar o deshabilitar las versiones rápidas para su organización](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -61,8 +60,6 @@ Puede compartir manualmente los siguientes objetos en Workfront Planning:
 
   Para obtener más información, vea [Compartir tipos de registros](/help/quicksilver/planning/access/share-record-types.md).
 
-<div class="preview">
-
 * Registros
 
    * Puede compartir registros con personas de su organización.
@@ -71,7 +68,7 @@ Puede compartir manualmente los siguientes objetos en Workfront Planning:
 
   Para obtener más información, consulte [Compartir registros](/help/quicksilver/planning/access/share-records.md).
 
-</div>
+
 
 * Vistas
 
@@ -190,19 +187,19 @@ Se dan los siguientes escenarios:
 
 Los permisos de registro se heredan del tipo de registro, cuando se conceden permisos al espacio de trabajo y al tipo de registro, de forma predeterminada.
 
-En el entorno Producción, los siguientes son los niveles de permisos para registros:
+<!--
+In the Production environment, the following are the levels of permissions for records: 
 
 
-|        | Administrar | Aportar | Ver |
+|        | Manage | Contribute | View  |
 |--------|--------|------------|-------|
-| Crear | ✓ | ✓ |       |
-| Eliminar | ✓ | ✓ |       |
-| Editar | ✓ | ✓ |       |
-| Ver | ✓ | ✓ | ✓ |
+| Create | ✓      |     ✓       |       |
+| Delete | ✓      |     ✓       |       |
+| Edit   | ✓      |    ✓        |       |
+| View   | ✓      | ✓          | ✓     |
+-->
 
-<div class="preview">
-
-En el entorno de vista previa, los siguientes son los niveles de permisos para registros:
+Los siguientes son niveles de permisos para registros:
 
 |        | Administrar | Ver |
 |--------|--------|-------|
@@ -228,8 +225,6 @@ Se dan los siguientes escenarios:
 >[!NOTE]
 >
 >*Cuando se quitan permisos de un registro, los usuarios conservan los permisos de Vista en el espacio de trabajo y el tipo de registro, a menos que se quiten sus permisos del espacio de trabajo.
-
-</div>
 
 ### Permisos para registrar campos
 

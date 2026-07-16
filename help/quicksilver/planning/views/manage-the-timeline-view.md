@@ -9,30 +9,25 @@ exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/LLfVzbK4pCfwB24Hbf9hx0m-xKMVwuDGBP1l-Kxy6Oo
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a76a39fde984bece43cda9812c436d81f41eb989
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
 workflow-type: tm+mt
-source-wordcount: 4341
-ht-degree: 38%
+source-wordcount: 4300
+ht-degree: 39%
 
 ---
 
 # Administrar la vista de cronología
 
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">La información resaltada en esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa para todos los clientes. Después del lanzamiento en Vista previa, las mismas funciones también están disponibles mensualmente en el entorno de producción para los clientes que habilitaron lanzamientos rápidos. </span>
-
-<span class="preview">Para obtener información sobre las versiones rápidas, consulte [Habilitar o deshabilitar las versiones rápidas para su organización](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
-
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -268,7 +263,7 @@ Para administrar una vista de cronología:
 1. Actualice los siguientes elementos de vista como se describe en las subsecciones siguientes:
    * [Filtros](#add-filters)
    * [Agrupación](#add-grouping)
-   * &lbrack;Configuración
+   * [Configuración](#edit-the-timeline-view-settings)
      <!--* [Sort](#add-sort) not yet in timeline; also check the anchor and make sure it's correct-->
 
 ### Añadir filtros
@@ -378,21 +373,22 @@ Para agregar un filtro a una vista de cronología:
 1. Haga clic en los siguientes operadores a la izquierda para indicar cómo se unen y deben aplicarse las condiciones de filtro:
 
    * **AND**: se deben cumplir todas las condiciones especificadas.
-   * **OR**: se debe cumplir cualquiera de las condiciones especificadas.Esta es la opción predeterminada.
+   * **OR**: se debe cumplir cualquiera de las condiciones especificadas.
+Esta es la opción predeterminada.
 
 1. (Opcional) Agregue agrupaciones de filtros adicionales y únase a ellas con los operadores **AND** o **OR**.
 
-   La lista de registros se filtra automáticamente según los criterios de filtro.  
+   La lista de registros se filtra automáticamente según los criterios de filtro.  <!--at this time, you can't name and save the filter - but will this change?!-->
    <!-- asked on the task for the simple filters whether there is a limitation for how many statements a filter can have?!-->
 
 1. (Opcional) Haga clic en el icono **x** para quitar una condición de filtro.
-1. <span class="preview"> (opcional y condicional) Si agregó una estructura de desglose a la vista de cronología, expanda el tipo de registro en el siguiente menú desplegable y repita los mismos pasos que se describen arriba para agregar un filtro para un tipo de registro incluido en el desglose. </span>
+1. (Opcional y condicional) Si ha añadido una estructura de desglose a la vista de cronología, expanda el tipo de registro en el siguiente menú desplegable y repita los mismos pasos que se describen arriba para añadir un filtro a un tipo de registro incluido en el desglose.
 
-   <span class="preview"> Repetir para cada tipo de registro en el desglose.</span>
+   Repita el proceso para cada tipo de registro del desglose.
 
    ![Filtro de varios niveles con desglose para la vista de escala de tiempo](assets/multi-tiered-filters-with-breakdown-for-timeline-view.png)
 
-   <span class="preview">Solo puede filtrar tipos de registros de desglose desde la vista de escala de tiempo.</span>
+   Solo puede filtrar por tipos de registro de desglose desde la vista de cronología.
 1. (Opcional) Haga clic en **Filtros** o en cualquier otra parte de la página para cerrar el cuadro de filtros. <!--right now you cannot "clear all" for filters, but this might come later-->
 
 
@@ -405,7 +401,8 @@ Es posible agrupar registros por información similar al aplicar una agrupación
 Tenga en cuenta lo siguiente al trabajar con agrupaciones en la vista de cronología:
 
 * Es posible aplicar agrupaciones tanto en las vistas de tabla como de cronología. Las agrupaciones de la vista de tabla son independientes de las de la vista de cronología del mismo tipo de registro.
-* Se pueden aplicar 3 niveles de agrupación en una vista. Los registros se agrupan en el orden de agrupaciones que se seleccione.&lt;!—!—* Puede aplicar hasta 4 niveles de agrupación al utilizar la API. --comprobando este ahora-->
+* Se pueden aplicar 3 niveles de agrupación en una vista. Los registros se agrupan en el orden de agrupaciones que se seleccione.
+&lt;!—!—* Puede aplicar hasta 4 niveles de agrupación al utilizar la API. --comprobando este ahora-->
 * Las agrupaciones son únicas para la vista que se seleccione. Dos vistas de tabla del mismo tipo de registro pueden tener diferentes agrupaciones aplicadas. Dos usuarios que vean la misma vista de tabla verán la misma agrupación que se aplique en ese momento.
 * No se puede asignar un nombre a las agrupaciones que se generen para una vista de tabla.
 * Al quitar las agrupaciones, se quitarán de cualquier usuario que tenga acceso al mismo tipo de registro y que muestre la misma vista que usted.
@@ -443,9 +440,7 @@ Para añadir una agrupación en la vista de cronología:
 
 1. En el cuadro **Agrupar registros por**, arrastre y suelte las agrupaciones en el orden correcto.
 
-1. <span class="preview"> En el área **Diseño** del cuadro **Agrupar registros por**, seleccione una de las siguientes opciones:</span>
-
-   <div class="preview">
+1. En el área **Diseño** del cuadro **Agrupar registros por**, seleccione una de las siguientes opciones:
 
    * **Apiladas**: las agrupaciones se muestran sin una columna izquierda inmovilizada y se ajustan al ancho de las escalas de tiempo de sus elementos.
 
@@ -609,7 +604,8 @@ Tenga en cuenta lo siguiente al desglosar la cronología de los registros según
   Por ejemplo, las tareas están conectadas a proyectos en Workfront. Con la función Desglose, puede mostrar los proyectos que están conectados a campañas en Planning, pero no las tareas conectadas a proyectos en Workfront.
 
   Si desea mostrar tanto los portafolios como los proyectos en la vista de escala de tiempo de un tipo de registro de Workfront Planning, tanto los portafolios como los proyectos deben estar conectados al registro de Planning o a un registro conectado al registro de Planning cuya vista de escala de tiempo esté administrando.
-* No se pueden mostrar marcas de Adobe GenStudio conectadas a tipos de registros de Planning.Para obtener más información, consulte [Conectar tipos de registros](/help/quicksilver/planning/architecture/connect-record-types.md).
+* No se pueden mostrar marcas de Adobe GenStudio conectadas a tipos de registros de Planning.
+Para obtener más información, consulte [Conectar tipos de registros](/help/quicksilver/planning/architecture/connect-record-types.md).
 * Solo puede mostrar tipos de registro asociados con al menos dos campos de fecha.
 * Los campos de fecha para los tipos de registro que desea mostrar en la vista de escala de tiempo deben estar visibles en la vista de tabla del tipo de registro seleccionado, como campos de búsqueda.
 * Las fechas de inicio y finalización de los tipos de registro que desea mostrar en la vista de escala de tiempo deben estar en orden cronológico. Por ejemplo, si un registro tiene una fecha de inicio del 31 de enero y una fecha de finalización del 1 de enero, no se muestra en la vista de escala de tiempo. Para obtener más información, consulte la sección [Administrar una vista de escala de tiempo](#manage-a-timeline-view) en este artículo.
