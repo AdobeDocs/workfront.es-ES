@@ -3,7 +3,7 @@ user-guide-title: Guía de Workfront
 user-guide-description: Utilice los siguientes documentos, tutoriales y recursos adicionales para aprender a implementar y utilizar Adobe Workfront de forma eficaz en su organización.
 role: User
 feature-set: Workfront
-source-git-commit: 5d8ac684791c11607947de1ea3d1309ee0dfcaab
+source-git-commit: e359ae2ed97260e9325842f9726326866c6a815e
 workflow-type: tm+mt
 source-wordcount: '14340'
 ht-degree: 93%
@@ -2048,7 +2048,7 @@ ht-degree: 93%
          * [El nombre del documento ha cambiado después de la carga y contiene un carácter no válido](review-and-approve-work/proofing/tips-tricks-and-troubleshooting/document-to-proof-name.md)
          * [Revisar un PowerPoint con un vídeo incrustado](review-and-approve-work/proofing/tips-tricks-and-troubleshooting/powerpoint-with-video.md)
          * [Las versiones de prueba no se pueden descargar ni previsualizar cuando se añade una prueba interactiva como una nueva versión](/help/quicksilver/review-and-approve-work/proofing/tips-tricks-and-troubleshooting/static-and-web-proof-downloads.md)
-      * [La decisión del aprobador muestra un guion en el informe de aprobación de la prueba](review-and-approve-work/proofing/tips-tricks-and-troubleshooting/approver-decision-shows-hyphen.md)
+         * [La decisión del aprobador muestra un guion en el informe de aprobación de la prueba](review-and-approve-work/proofing/tips-tricks-and-troubleshooting/approver-decision-shows-hyphen.md)
    * Integraciones nativas {#native-integrations}
       * [Revisar y aprobar integraciones nativas: índice de artículos](/help/quicksilver/review-and-approve-work/native-integrations/review-approva-native-integrations-toc.md)
       * {hide-from-toc}[Introducción a la integración de GenStudio for Performance Marketing y Frame.io](/help/quicksilver/review-and-approve-work/native-integrations/genstudio/wf-frame-and-genstudio.md)
@@ -2621,7 +2621,7 @@ ht-degree: 93%
       * [Configure y utilice las aplicaciones OAuth 2 personalizadas de la organización mediante el flujo JWT](wf-api/api/oauth-app-jwt-flow.md)
       * [Configure y utilice las aplicaciones OAuth 2 personalizadas de su organización mediante el flujo PKCE](wf-api/api/oauth-app-pkce-flow.md)
       * [Obsolescencia de la API interna](wf-api/api/deprecation-api-internal.md)
-      * [Novedades de la versión 22 de la API](/help/quicksilver/wf-api/api/new-api-version-22.md)
+      * [Novedades de la versión 22](/help/quicksilver/wf-api/api/new-api-version-22.md) de la API
       * [Novedades de la versión 21 de la API](/help/quicksilver/wf-api/api/new-api-version-21.md)
       * [Novedades de la versión 20 de la API](/help/quicksilver/wf-api/api/new-api-version-20.md)
       * [Novedades de la versión 19 de la API](wf-api/api/new-api-version-19.md)

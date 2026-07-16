@@ -4,7 +4,7 @@ description: En este artículo se describe cómo administrar las preferencias y 
 author: Alina
 feature: Workfront Planning
 role: User, Admin
-source-git-commit: b186900d58f6a422c787cef881a4d06d6cd7feed
+source-git-commit: 697499fadf4d5d22292ededed381cb72e53fcae3
 workflow-type: tm+mt
 source-wordcount: '497'
 ht-degree: 7%
@@ -109,6 +109,4 @@ Le recomendamos que configure las preferencias del sistema durante la Workfront 
 Configurar las preferencias del sistema de Workfront Planning es similar a configurarlas en Workfront.
 
 Para obtener más información, consulte [Configurar las preferencias del sistema](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md).
-
-
 

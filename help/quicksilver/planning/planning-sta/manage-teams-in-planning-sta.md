@@ -5,7 +5,7 @@ author: Alina
 feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: b186900d58f6a422c787cef881a4d06d6cd7feed
+source-git-commit: 697499fadf4d5d22292ededed381cb72e53fcae3
 workflow-type: tm+mt
 source-wordcount: '389'
 ht-degree: 3%
@@ -78,4 +78,3 @@ Para obtener más información sobre el acceso necesario para Workfront como paq
    * Pase el ratón sobre el nombre del equipo en la lista y luego haga clic en el menú **Más** ![Menú más](assets/more-menu.png) > **Eliminar equipo**
    * Seleccione el equipo en la lista y luego haga clic en **Eliminar equipo** en la barra de herramientas azul en la parte inferior de la página
 1. Haga clic en **Sí, eliminarlo** para confirmarlo.
-
