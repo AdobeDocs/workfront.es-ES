@@ -20,20 +20,20 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
 workflow-type: tm+mt
-source-wordcount: 856
-ht-degree: 8%
+source-wordcount: 797
+ht-degree: 10%
 
 ---
 
 # Editar espacios de trabajo
 
+<!--
+<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">La información de esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa para todos los clientes. Después del lanzamiento en Vista previa, las mismas funciones también están disponibles mensualmente en el entorno de producción para los clientes que habilitaron lanzamientos rápidos. </span>
-
-<span class="preview">Para obtener información sobre las versiones rápidas, consulte [Habilitar o deshabilitar las versiones rápidas para su organización](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
-
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 
 {{planning-important-intro}}
@@ -164,8 +164,7 @@ Old:
 
    >[!NOTE]
    >
-   ><span class="preview">No puede editar los espacios de trabajo en la ficha **Espacios de trabajo de ejemplo**. Se recomienda utilizar el paquete de plantillas de varios espacios de trabajo para crear espacios de trabajo similares a los de la pestaña Espacio de trabajo de muestra y editar los suyos propios. Para obtener más información, vea [Crear espacios de trabajo](/help/quicksilver/planning/architecture/create-workspaces.md).</span>
-
+   >No puede editar los espacios de trabajo en la ficha **Espacios de trabajo de ejemplo**. Se recomienda utilizar el paquete de plantillas de varios espacios de trabajo para crear espacios de trabajo similares a los de la pestaña Espacio de trabajo de muestra y editar los suyos propios. Para obtener más información, consulte [Creación de espacios de trabajo](/help/quicksilver/planning/architecture/create-workspaces.md).
 1. (Opcional) Haga clic en **Mostrar todo** para mostrar espacios de trabajo adicionales. El vínculo **Mostrar todo** solo se muestra cuando tiene más de dos filas de tarjetas de área de trabajo.
 1. (Opcional) Haga clic en **Mostrar menos** para limitar el número de espacios de trabajo que se muestran en la pantalla.
 1. Para editar un espacio de trabajo, realice una de las siguientes acciones:

@@ -5,7 +5,7 @@ author: Alina
 feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: ee260723331ddff4e8d89f7d9ca2b807835d6130
+source-git-commit: 697499fadf4d5d22292ededed381cb72e53fcae3
 workflow-type: tm+mt
 source-wordcount: '389'
 ht-degree: 3%
@@ -20,6 +20,7 @@ ht-degree: 3%
 >La información de este artículo hace referencia a Adobe Workfront Planning, cuando se compra como producto independiente. Consulte este artículo cuando su empresa haya adquirido un paquete exclusivo de Adobe Workfront Planning y no un paquete de flujo de trabajo de Workfront.
 >
 >Para obtener información acerca de Adobe Workfront Planning cuando se adquiere junto con un paquete de Workfront, consulte [Introducción a Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
+>
 
 Puede administrar equipos en Adobe Workfront Planning como producto independiente de forma similar a como lo hace en Adobe Workfront, pero existen algunas limitaciones.
 
@@ -77,4 +78,3 @@ Para obtener más información sobre el acceso necesario para Workfront como paq
    * Pase el ratón sobre el nombre del equipo en la lista y luego haga clic en el menú **Más** ![Menú más](assets/more-menu.png) > **Eliminar equipo**
    * Seleccione el equipo en la lista y luego haga clic en **Eliminar equipo** en la barra de herramientas azul en la parte inferior de la página
 1. Haga clic en **Sí, eliminarlo** para confirmarlo.
-

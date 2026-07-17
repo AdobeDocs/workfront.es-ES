@@ -12,18 +12,20 @@ product_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 4ac828444e49213cdc4e00a5f92e404899e2225d
+source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
 workflow-type: tm+mt
-source-wordcount: 608
-ht-degree: 51%
+source-wordcount: 566
+ht-degree: 55%
 
 ---
 
 # Información general sobre espacios de trabajo
 
-<span class="preview">La información de esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa para todos los clientes. Después del lanzamiento en Vista previa, las mismas funciones también están disponibles mensualmente en el entorno de producción para los clientes que habilitaron lanzamientos rápidos. </span>
+<!--
+<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Para obtener información sobre las versiones rápidas, consulte [Habilitar o deshabilitar las versiones rápidas para su organización](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -53,11 +55,14 @@ Un espacio de trabajo es un conjunto de tipos de registros que utiliza una unida
 
    * **Espacios de trabajo en los que trabajo**: muestra los espacios de trabajo que ha creado o los que se han compartido con usted.
    * **Otros espacios de trabajo**: muestra todos los demás espacios de trabajo del sistema. Solo está disponible para administradores de sistemas.
-   * <span class="preview">**Espacios de trabajo de ejemplo**: muestra ejemplos integrados de espacios de trabajo de prácticas recomendadas. No puede editar los espacios de trabajo ni los tipos de registro, ni agregar registros o campos, pero puede agregar, editar y compartir vistas con otros usuarios.</span>
+   * **Espacios de trabajo de ejemplo**: muestra ejemplos integrados de espacios de trabajo de prácticas recomendadas. No puede editar los espacios de trabajo, tipos de registro ni agregar registros o campos, pero puede agregar, editar y compartir vistas con otros usuarios.
 
   >[!NOTE]
   >
-  ><span class="preview">Recomendamos no editar los espacios de trabajo de ejemplo, sino usarlos como referencia para crear los suyos propios. Utilice el paquete de plantillas de varios espacios de trabajo para crear espacios de trabajo idénticos a los mostrados en la pestaña Espacios de trabajo de ejemplo. Para obtener más información, consulte la sección &quot;Crear varios espacios de trabajo mediante un paquete de plantillas de varios espacios de trabajo de prácticas recomendadas&quot; en el artículo [Crear espacios de trabajo](/help/quicksilver/planning/architecture/create-workspaces.md). </span>
+  >No es recomendable editar los espacios de trabajo de ejemplo, sino utilizarlos como referencia para crear los suyos propios. Utilice el paquete de plantillas de varios espacios de trabajo para crear espacios de trabajo idénticos a los mostrados en la pestaña Espacios de trabajo de ejemplo.
+  >
+  >Solo los clientes que hayan adquirido un paquete de Prime o Ultimate Planning pueden ver la pestaña Espacios de trabajo de muestra.
+  >Para obtener más información, consulte la sección &quot;Crear varios espacios de trabajo mediante un paquete de plantillas de varios espacios de trabajo de prácticas recomendadas&quot; en el artículo [Crear espacios de trabajo](/help/quicksilver/planning/architecture/create-workspaces.md).
 
 <!--
 No longer the case - they match now: 

@@ -19,10 +19,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
 workflow-type: tm+mt
-source-wordcount: 1789
-ht-degree: 6%
+source-wordcount: 1777
+ht-degree: 5%
 
 ---
 
@@ -30,10 +30,11 @@ ht-degree: 6%
 
 # Administrar conexiones de registro desde objetos de Workfront
 
-<span class="preview">La información resaltada en esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa para todos los clientes. Después del lanzamiento en Vista previa, las mismas funciones también están disponibles mensualmente en el entorno de producción para los clientes que habilitaron lanzamientos rápidos. </span>
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Para obtener información acerca de las versiones rápidas, consulte [Habilitar o deshabilitar las versiones rápidas para su organización](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
-
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+-->
 
 {{planning-important-intro}}
 
@@ -80,7 +81,7 @@ Puede mostrar registros de Workfront Planning en Workfront en las siguientes ár
    <p>En Workfront Planning:</p>
    <ul><li>Ver permisos de un espacio de trabajo y tipo de registro para ver los registros conectados </li>
    O
-   <li> Permisos de contribución o superior para un espacio de trabajo y tipo de registro y <span class="preview">Administrar permisos para un registro</span> para conectar o desconectar registros</a></li></ul> 
+   <li> Permisos de contribución o superiores a un espacio de trabajo y tipo de registro y permisos de administración a un registro para conectar o desconectar registros</a></li></ul> 
    <p>Los administradores del sistema tienen permisos para todos los espacios de trabajo de Workfront Planning, incluidos los que no crearon</p> 
   </td>
   </tr>   

@@ -9,7 +9,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 73c78912e15a03bfd09c127e39d94bf5af42b8e2
+source-git-commit: e359ae2ed97260e9325842f9726326866c6a815e
 workflow-type: tm+mt
 source-wordcount: 287
 ht-degree: 0%
@@ -39,7 +39,6 @@ El guión es intencional. Indica que el sistema no está esperando a que el dest
 El campo Fecha de decisión aún muestra la fecha de la actividad de decisión más reciente del destinatario, pero su decisión ya no se cuenta en el informe.
 
 Para obtener información sobre cómo crear y usar el informe de aprobación de pruebas, consulte [Usar el informe de aprobación de pruebas](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/proof-approval-report.md).
-
 
 
 

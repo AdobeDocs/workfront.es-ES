@@ -38,10 +38,10 @@ topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 5606ecce47d871bfaaa7d0c7e305651e6eb9c15b
+source-git-commit: a63738805d62e2f71d55fe39f78d1f042ff72a15
 workflow-type: tm+mt
-source-wordcount: 21587
-ht-degree: 96%
+source-wordcount: 22011
+ht-degree: 97%
 
 ---
 
@@ -166,7 +166,7 @@ La siguiente tabla es una lista de los términos más utilizados en Adobe Workfr
       <!--
       Resource Estimates or a
       -->
-     Informe de proyecto (datos financieros) y agregue una agrupación de matriz para [!UICONTROL Fecha de asignación]. A continuación, agrupe los resultados semanalmente, mensualmente, trimestralmente o anualmente para obtener los datos más precisos.<br>Para obtener información sobre cómo crear una agrupación de matriz, vea el artículo <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/create-matrix-report.md" class="MCXref xref">Crear un informe de matriz</a>.</p> </li>
+     Informe de proyecto (datos financieros) y agregue una agrupación de matriz para [!UICONTROL Fecha de asignación]. A continuación, agrupe los resultados semanalmente, mensualmente, trimestralmente o anualmente para obtener los datos más precisos.<br>Para obtener información sobre cómo crear una agrupación de matriz, consulte el artículo <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/create-matrix-report.md" class="MCXref xref">Crear un informe de matriz</a>.</p> </li>
     </ul> <p>La información financiera se rellena en los informes de [!UICONTROL Project (Financial Data)] solo cuando los datos asociados a ella tienen menos de 5 años. Por ejemplo, si se asignó una función a una tarea en enero de 2015 y hoy es septiembre de 2021, un campo financiero como la [!UICONTROL Allocation Date] para la función no se rellena en el informe de [!UICONTROL Project (Financial Data)]. </p> 
     <div> 
      <p>Para un informe de [!UICONTROL Budgeted Hour]:</p> 
@@ -994,7 +994,7 @@ La siguiente tabla es una lista de los términos más utilizados en Adobe Workfr
    <td>Las carpetas se utilizan para organizar documentos o informes asociados a un objeto.</td> </tr>
   <tr>
   <td>[!UICONTROL FTE] (Full Time Equivalent)</td> 
-   <td>Equivalente a tiempo completo que indica la cantidad de tiempo que un recurso está disponible para trabajar. 
+   <td>El equivalente a jornada completa indica la cantidad de tiempo que un recurso está disponible para trabajar. 
    El campo [!UICONTROL FTE] se muestra en las áreas siguientes: 
   <ul>
    <li> Perfil del usuario, al editar o crear el usuario </li>
@@ -1233,7 +1233,7 @@ The designated full time equivalency for users. A full-time user should have 100
   </tr> 
   <tr> 
    <td>[!UICONTROL Last Condition Note]</td> 
-   <td> <p>Este campo muestra la última actualización introducida en un objeto por el propietario del objeto. Se trata de la actividad o interacción más reciente del propietario con un objeto.</p> <p>La columna [!DNL Last Condition Note] está vacía si se ha eliminado el texto de la nota de la última nota de un objeto. Cuando se introduce una nota nueva en el objeto, esta se convierte en la última nota y se vuelve a mostrar en la columna. </p> </td> 
+   <td> <p>Este campo muestra la última actualización introducida en un objeto por el propietario del objeto. Se trata de la actividad o interacción más reciente del propietario con un objeto.</p> <p>La columna [!DNL Last Condition Note] está vacía si se ha eliminado el texto de la nota de la última nota de un objeto. Cuando se introduce una nota nueva sobre el objeto, se convierte en la última nota y se vuelve a mostrar en la columna. </p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Last Finance Update Date]</td> 
@@ -1396,8 +1396,8 @@ The designated full time equivalency for users. A full-time user should have 100
  </tr> 
   <tr> 
    <td>[!UICONTROL New Number Value]</td> 
-   <td>En un informe de [!UICONTROL Entrada de cuaderno], se muestra el valor actualizado de un campo que reemplaza al valor de [!UICONTROL Número anterior].
-   Para obtener más información, consulte "[!UICONTROL Valor de número anterior]" en este artículo.</td> 
+   <td>En un informe de [!UICONTROL Journal Entry], se muestra el valor actualizado de un campo que reemplaza a [!UICONTROL Old Number Value].
+   Para obtener más información, consulte “[!UICONTROL Old Number Value]” en este artículo.</td> 
   </tr>
   <tr> 
    <td>[!UICONTROL Non-Billable Expense]</td> 
@@ -1433,7 +1433,7 @@ The designated full time equivalency for users. A full-time user should have 100
    <td>[!UICONTROL Número de elementos secundarios]</td> 
    <td> <p>En un informe de [!UICONTROL Project], es el número de tareas secundarias o subtareas que tiene una tarea. 
    <p><b>Sugerencia</b></p>
-   Puede agregar el cálculo <code>{numberOfChildren}</code> a un campo personalizado calculado en el formulario personalizado de la tarea para mostrar en un campo personalizado el número de elementos secundarios de la tarea. Para obtener más información, consulte <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md">Agregar un campo calculado a un formulario</a>. 
+   Puede agregar el cálculo <code>{numberOfChildren}</code> a un campo personalizado calculado en el formulario personalizado de la tarea para mostrar en un campo personalizado el número de elementos secundarios de la tarea. Para obtener más información, vea <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md">Agregar un campo calculado a un formulario</a>. 
     </td> 
   </tr> 
   <tr> 
@@ -1574,7 +1574,7 @@ The designated full time equivalency for users. A full-time user should have 100
  <tbody> 
   <tr> 
    <td>[!UICONTROL Parameter]</td> 
-   <td> <p>Un [!UICONTROL parámetro] es un campo personalizado. Puede crear un informe para todos los parámetros o campos personalizados del sistema. </p> </td> 
+   <td> <p>Un [!UICONTROL parameter] es un campo personalizado. Puede crear un informe para todos los parámetros o campos personalizados del sistema. </p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Parent]</td> 
@@ -1651,7 +1651,7 @@ The designated full time equivalency for users. A full-time user should have 100
   </tr> 
   <tr> 
    <td>[!UICONTROL Planned Cost]</td> 
-   <td> <p>Un total del [!UICONTROL Costo de mano de obra planificado] y el [!UICONTROL Costo de gasto planificado] del proyecto. Esto no incluye el [!UICONTROL Costo de riesgo planificado] en el proyecto.  </p> </td> 
+   <td> <p>Total del [!UICONTROL Planned Labor Cost] y el [!UICONTROL Planned Expense Cost] del proyecto. Esto no incluye el [!UICONTROL Planned Risk Cost] en el proyecto.  </p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Planned Date Alignment]</td> 
@@ -1665,7 +1665,7 @@ The designated full time equivalency for users. A full-time user should have 100
   </tr> 
   <tr> 
    <td>[!UICONTROL Planned Duration]</td> 
-   <td> <p>La [!UICONTROL Duración planificada] de una tarea suele ser la misma que la [!UICONTROL Duración] de la tarea. Representa la diferencia en días entre el [!UICONTROL Inicio planificado] y las [!UICONTROL Fechas planificadas de finalización] de la tarea. </p> <p>Cuando la tarea tiene un tipo de [!UICONTROL Duration] de [!UICONTROL Effort Driven], la [!UICONTROL Planned Duration] puede diferir de la [!UICONTROL Duration] de la tarea, en función de cuántos recursos le asigne. </p> <p>Por ejemplo, si una tarea con un tipo de [!UICONTROL Duración] de [!UICONTROL Condicionada por el esfuerzo] tiene una [!UICONTROL Duración] de 3 días y asigna un recurso con una programación a tiempo completo a la tarea, la [!UICONTROL Duración planificada] también tendrá 3 días. Si asigna tres recursos con una programación a tiempo completo a la misma tarea, la [!UICONTROL Duración] permanece 3 días, pero la [!UICONTROL Duración planificada] pasa a ser 1 día. La Duración planificada de  también cambia las fechas de inicio planificado de  y de finalización planificada de  de la tarea para reflejar la nueva Duración planificada de . Como resultado, la cronología del proyecto también se ve afectada. </p> <p>Para obtener más información acerca de la diferencia entre [!UICONTROL Duration] y [!UICONTROL Planned Duration] para las tareas, consulte el artículo <a href="../../../manage-work/tasks/task-information/planned-duration-vs-duration-for-tasks.md" class="MCXref xref">Diferencia entre [!UICONTROL Planned Duration] y [!UICONTROL Duration] para las tareas</a>.</p> <p>Los proyectos y problemas no tienen una [!UICONTROL Planned Duration]. </p> </td> 
+   <td> <p>La [!UICONTROL Planned Duration] de una tarea suele ser la misma que la [!UICONTROL Duration] de la tarea. Representa la diferencia en días entre el [!UICONTROL Planned Start] y las [!UICONTROL Planned Completion Dates] de la tarea. </p> <p>Cuando la tarea tiene un tipo de [!UICONTROL Duration] de [!UICONTROL Effort Driven], la [!UICONTROL Planned Duration] puede diferir de la [!UICONTROL Duration] de la tarea, en función de cuántos recursos le asigne. </p> <p>Por ejemplo, si una tarea con un tipo de [!UICONTROL Duration] de [!UICONTROL Effort Driven] tiene una [!UICONTROL Duration] de 3 días y asigna un recurso con una programación a tiempo completo sobre la tarea, la [!UICONTROL Planned Duration] también será de 3 días. Si asigna tres recursos con una programación a tiempo completo sobre la misma tarea, la [!UICONTROL Duration] sigue siendo de 3 días, pero la [!UICONTROL Planned Duration] pasa a ser de 1 día. La [!UICONTROL Planned Duration] también cambia las fechas de [!UICONTROL Planned Start] y [!UICONTROL Planned Completion] de la tarea para reflejar la nueva [!UICONTROL Planned Duration]. Como resultado, la cronología del proyecto también se ve afectada. </p> <p>Para obtener más información acerca de la diferencia entre [!UICONTROL Duration] y [!UICONTROL Planned Duration] para tareas, consulte el artículo <a href="../../../manage-work/tasks/task-information/planned-duration-vs-duration-for-tasks.md" class="MCXref xref">Diferencia entre [!UICONTROL Planned Duration] y [!UICONTROL Duration] para tareas</a>.</p> <p>Los proyectos y problemas no tienen una [!UICONTROL Planned Duration]. </p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Planned Duration Minutes]</td> 
@@ -1685,7 +1685,7 @@ The designated full time equivalency for users. A full-time user should have 100
    <td>[!UICONTROL Planned Hours]</td> 
    <td> <p>Este campo aparece en las áreas de [!UICONTROL projects], [!UICONTROL tasks] y problemas, informes de proyectos, tareas o problemas y herramientas de administración de recursos como [!UICONTROL Resource Planner], [!UICONTROL Workload Balancer] y el informe de [!UICONTROL Utilization]. </p> <p>Muestra el número de horas que el propietario del proyecto estima que cada tarea o problema debería tardar en completarse. En los proyectos, suele ser un resumen de las [!UICONTROL Planned Hours] de las tareas del proyecto. </p> <p>El campo [!UICONTROL Planned Hours] puede mostrar información diferente según el lugar desde el que se vea. Para obtener información sobre las horas planificadas, consulte <a href="../../../manage-work/tasks/task-information/planned-hours.md" class="MCXref xref">Información general de las horas planificadas</a>.</p> <p>Las horas planificadas se almacenan en minutos en la base de datos de [!DNL Workfront]. Cuando escriba cálculos utilizando este campo, asegúrese de que tiene en cuenta el hecho de que las horas se muestran como minutos.<br></p> <p>De forma predeterminada, las horas planificadas se distribuyen de forma equitativa para todos los días dentro de la duración de un elemento de trabajo y también de forma equitativa para todos los recursos asignados a la tarea. Los usuarios pueden actualizar el número diario de horas planificadas para un elemento de trabajo o las horas planificadas individuales para cada asignado.</p> <p>La actualización de este campo es diferente para los proyectos, las tareas y los problemas: </p> 
     <ul> 
-     <li> <p>Para los problemas, puede actualizar manualmente este campo. Las horas planificadas de problema no se agregan a las horas planificadas del proyecto. </p> <p><b>Sugerencia</b></p> <p>En un informe de problemas, uno de los campos [!UICONTROL Planned Hours] se reemplaza por el campo [!UICONTROL Work]. El campo muestra la cantidad de horas planificadas en el problema. Para obtener más información, consulte los campos "trabajo" o "[!UICONTROL Work]" en esta tabla. </p> </li> 
+     <li> <p>Para los problemas, puede actualizar manualmente este campo. Las horas planificadas de problemas no se añaden a las horas planificadas de los proyectos. </p> <p><b>Sugerencia</b></p> <p>En un informe de problemas, uno de los campos [!UICONTROL Planned Hours] se reemplaza por el campo [!UICONTROL Work]. El campo muestra la cantidad de horas planificadas en el problema. Para obtener más información, consulte los campos "trabajo" o "[!UICONTROL Work]" en esta tabla. </p> </li> 
     </ul> 
     <ul> 
      <li> <p>Para las tareas, puede actualizar manualmente este campo cuando el [!UICONTROL Duration Type] de la tarea sea [!UICONTROL Calculated Assignment] o [!UICONTROL Simple]. Este campo lo calcula [!DNL Workfront] cuando el [!UICONTROL Tipo de duración] de la tarea es [!UICONTROL Trabajo calculado] o [!UICONTROL Condicionado por el esfuerzo].<br>Para obtener información sobre [!UICONTROL Duración de la tarea], vea el artículo <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">Información general sobre la tarea [!UICONTROL Duración] y [!UICONTROL Tipo de duración]</a>.</p> </li> 
@@ -1903,11 +1903,11 @@ The designated full time equivalency for users. A full-time user should have 100
   </tr> 
   <tr> 
    <td>[!UICONTROL Rank]</td> 
-   <td> <p>En un informe de [!UICONTROL Nivel de acceso], puede indicar manualmente un [!UICONTROL Rango] del [!UICONTROL Nivel de acceso]. Esto le ayuda, como administrador de [!DNL Workfront], a identificar visualmente el nivel de complejidad asociado con cada nivel de acceso. Por ejemplo, puede proporcionar números menores para niveles de acceso más complejos ([!UICONTROL Plan]-level) y números mayores para niveles de acceso menos complejos ([!UICONTROL Requester]-level). No puede clasificar los niveles de acceso estándar. </p> </td> 
+   <td> <p>En un informe de [!UICONTROL Access Level] puede indicar manualmente un [!UICONTROL Rank] del [!UICONTROL Access Level]. Esto le ayuda, como administrador de [!DNL Workfront], a identificar visualmente el nivel de complejidad asociado a cada nivel de acceso. Por ejemplo, puede dar números más bajos para niveles de acceso más complejos (nivel de [!UICONTROL Plan]) y números más altos para niveles de acceso menos complejos (nivel de [!UICONTROL Requester]). No pueden clasificarse los niveles de acceso estándar. </p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Ready]</td> 
-   <td> <p>Este campo de un informe de tareas indica si una tarea de [!UICONTROL Agile] se ha marcado como [!UICONTROL Ready] en el registro de pendientes. Este indicador solo se aplica a las tareas de [!UICONTROL Agile], que son tareas asignadas a un equipo de [!UICONTROL Agile]. </p> </td> 
+   <td> <p>Este campo de un informe de tareas indica si una tarea de [!UICONTROL Agile] se ha marcado como [!UICONTROL Ready] en el registro de asuntos pendientes. Este indicador solo se aplica a las tareas de [!UICONTROL Agile], que son las tareas asignadas a un equipo de [!UICONTROL Agile]. </p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Record]</td> 
@@ -2171,7 +2171,7 @@ The designated full time equivalency for users. A full-time user should have 100
   </tr> 
   <tr> 
    <td>[!UICONTROL Source]</td> 
-   <td> <p>Indica el objeto principal de otro objeto. Por ejemplo, un documento adjunto a una tarea tiene el nombre de la tarea en el campo [!UICONTROL Source] de un informe o vista de [!UICONTROL Document]; un problema registrado en un proyecto tiene el nombre del proyecto en el campo [!UICONTROL Source] de un informe o vista de problema. </p> 
+   <td> <p>Indica el objeto principal de otro objeto. Por ejemplo, un documento adjunto a una tarea tiene el nombre de la tarea en el campo [!UICONTROL Source] de un informe o vista de [!UICONTROL Document]; un problema registrado en un proyecto tiene el nombre del proyecto en el campo [!UICONTROL Source] de un informe o vista del problema. </p> 
    <p>Los siguientes informes muestran una columna Source en la que puede ver información sobre el objeto principal:</p>
   <ul><li>Informes de problema</li>
     <li>Informes por hora</li>
@@ -2516,7 +2516,7 @@ The designated full time equivalency for users. A full-time user should have 100
   <tr>
   <td> <code>[!UICONTROL width]</code>
   </td>
-  <td> En un informe, cuando se utiliza la interfaz [!UICONTROL Text Mode], la línea de código en la que se puede especificar el ancho de cada columna en píxeles. Workfront proporciona una anchura sugerida para cada campo, aunque según el tipo de campo y el formato, puede que desee realizar ajustes. Debe utilizar la línea de código <code>[!UICONTROL usewidths=true]</code> adicional para aplicar el ancho especificado para la columna. 
+  <td> En un informe, cuando se utiliza la interfaz [!UICONTROL Text Mode], la línea de código en la que se puede especificar el ancho de cada columna en píxeles. Workfront proporciona una anchura sugerida para cada campo, aunque, según el tipo de campo y el formato, es posible que desee realizar ajustes. Debe utilizar la línea de código <code>[!UICONTROL usewidths=true]</code> adicional para aplicar el ancho especificado para la columna. 
   </td>
   </tr>
   <tr> 
@@ -2598,7 +2598,7 @@ The designated full time equivalency for users. A full-time user should have 100
    <p>El sistema utiliza este número para calcular la disponibilidad del usuario para el trabajo real relacionado con el proyecto. </p>
    <p> Las excepciones de horario y los días libres también pueden afectar a la capacidad del usuario. </p>
    <p>Para obtener más información acerca de cómo crear programaciones en Workfront, consulte <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md">Crear programación</a>. </p>
-    <p>Workfront calcula la disponibilidad de un usuario en función de las preferencias de administración de recursos del área [!UICONTROL Setup]. Para obtener más información, consulte <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md/">Configurar preferencias de administración de recursos</a>. </p> 
+    <p>Workfront calcula la disponibilidad de un usuario en función de las preferencias de administración de recursos del área [!UICONTROL Setup]. Para obtener más información, consulte <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md">Configurar preferencias de administración de recursos</a>. </p> 
    <p>Puede actualizar el [!UICONTROL Work Time] de un usuario cuando edite o cree el usuario. Para obtener más información, consulte <a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md">Editar el perfil de un usuario</a></p> 
    <b>SUGERENCIA</b> 
    <p>Establezca el valor de [!UICONTROL Work Time] en 1 para indicar que el usuario está disponible para el trabajo relacionado con el proyecto en su equivalente a tiempo completo.</p> 

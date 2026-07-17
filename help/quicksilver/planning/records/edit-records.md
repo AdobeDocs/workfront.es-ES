@@ -20,19 +20,20 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 873b65fb7f23d2e2b0598b56bb8893a7b87c1be1
+source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
 workflow-type: tm+mt
-source-wordcount: 3175
+source-wordcount: 3103
 ht-degree: 8%
 
 ---
 
 # Editar registros
 
-<span class="preview">La información resaltada en esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa para todos los clientes. Después del lanzamiento en Vista previa, las mismas funciones también están disponibles mensualmente en el entorno de producción para los clientes que habilitaron lanzamientos rápidos. </span>
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Para obtener información sobre las versiones rápidas, consulte [Habilitar o deshabilitar las versiones rápidas para su organización](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
-
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -72,7 +73,7 @@ Para obtener información sobre la creación de registros, consulte [Crear regis
   </tr> 
   <tr> 
    <td role="rowheader"><p>Permisos de objeto</p></td> 
-   <td>   <p>Permisos de contribución o superior para un espacio de trabajo, tipo de registro y <span class="preview">administrar permisos para un registro</span> </p>  
+   <td>   <p>Permisos de contribución o superiores para un espacio de trabajo, tipo de registro y administración de permisos para un registro</p>  
    <p>Los administradores del sistema tienen permisos para todos los espacios de trabajo, incluidos los que no crearon</p> </td> 
   </tr>   
 </tbody> 
@@ -245,7 +246,7 @@ Para obtener más información, consulte [Crear registros](/help/quicksilver/pla
 
    * Copie uno o varios valores existentes de un campo y péguelos en un campo del mismo tipo en otro registro
    * Haga clic en el encabezado de una columna para seleccionarla y copiarla. A continuación, haga clic en el encabezado de otra columna y pegue el contenido de la columna copiada. Las columnas deben contener tipos de campo similares.
-   * Con la tecla Mayús pulsada, haga clic en para seleccionar varias filas de una tabla, copie la información de las filas seleccionadas y, a continuación, haga clic en una fila diferente y pegue la información seleccionada en la nueva fila y en las filas siguientes. <span class="preview">Esto no es posible en el entorno de vista previa.</span>
+   * Con la tecla Mayús pulsada, haga clic en para seleccionar varias filas de una tabla, copie la información de las filas seleccionadas y, a continuación, haga clic en una fila diferente y pegue la información seleccionada en la nueva fila y en las filas siguientes. Esto no es posible en el entorno de vista previa.
    * Copie la información de una celda, seleccione varias celdas y pegue la misma información en varias celdas. Puede seleccionar varias celdas y pegar la misma información en varias celdas de filas y columnas adyacentes.
    * Seleccione la esquina inferior derecha de una celda existente que contiene la información que desea copiar y, a continuación, arrástrela y suéltela sobre las celdas adyacentes en las que desee pegar la misma información. Todas las celdas deben contener el mismo tipo de información.
 
@@ -253,15 +254,18 @@ Para obtener más información, consulte [Crear registros](/help/quicksilver/pla
 
    * Copie una o varias celdas de un origen externo (por ejemplo, un archivo de Excel) y péguelas en uno de los siguientes tipos de campos:
 
-      * Campos de conexión de Workfront Planning.
-
-        <span class="preview">Esto no es posible en el entorno de vista previa.</span>
       * Campos de personas. Solo se admiten campos con un valor.
       * Campos de texto.
       * Seleccione campos.
       * Campos de número, porcentaje y moneda.
 
-     No puede copiar información de un origen externo y pegarla en ningún otro tipo de campo, incluidos los campos de conexión de Workfront u otras aplicaciones.
+   No puede copiar información de un origen externo y pegarla en ningún otro tipo de campo, incluidos los campos de conexión de Workfront u otras aplicaciones.
+
+   <!--
+    * Workfront Planning connection fields.  
+        This is not possible in the Preview environment.
+    -->
+
 
    >[!NOTE]
    >
@@ -289,11 +293,12 @@ Para obtener más información, consulte [Crear registros](/help/quicksilver/pla
 
 1. (Opcional) Haga clic en el menú **Más** ![Más menú](assets/more-menu.png) que se encuentra a la derecha del nombre del registro y elija entre las siguientes opciones:
 
-   * **Ver** o <span class="preview">**Abrir en ficha nueva**</span>: Se abre la página de registro.
+   * **Ver** o **Abrir en ficha nueva**: Se abre la página de registro.
    * **Copiar vínculo**: para copiar un vínculo en la página del registro.
-   * **Editar miniatura**: Para agregar una miniatura a un registro.Para obtener más información, consulte [Añadir una miniatura a un registro](/help/quicksilver/planning/records/add-thumbnails-to-records.md).
+   * **Editar miniatura**: Para agregar una miniatura a un registro.
+Para obtener más información, consulte [Añadir una miniatura a un registro](/help/quicksilver/planning/records/add-thumbnails-to-records.md).
    * **Duplicado**: Esto crea un duplicado idéntico del registro.
-   * **Insertar registro arriba/ Insertar registro abajo**: Agrega una fila nueva para que pueda agregar un registro nuevo. <span class="preview">Esto no es posible en el entorno de vista previa.</span>
+   * **Insertar registro arriba/ Insertar registro abajo**: Agrega una fila nueva para que pueda agregar un registro nuevo. Esto no es posible en el entorno de vista previa.
    * **Eliminar**: Para eliminar el registro. Los registros eliminados se guardan en el cuadro Eliminados recientemente durante un máximo de 30 días.
 
 
@@ -352,8 +357,6 @@ Para obtener más información, consulte [Crear registros](/help/quicksilver/pla
 
    En la vista de tabla, haga clic en el icono **Abrir detalles** ![Abrir detalles en el campo de nombre de tabla](assets/open-details-icon-in-table-name-field.png) de la primera columna. La vista previa del registro se abrirá en la vista.
 
-   <!--update screenshot for new details views preview-->
-
    ![Cuadro de detalles](assets/details-box.png)
 
 1. (Opcional) Haga clic en el menú **Más** a la derecha del título del registro y, a continuación, haga clic en **Cambiar nombre**. Se actualiza el campo que se muestra como título del registro.
@@ -408,8 +411,6 @@ Para obtener más información, consulte [Crear registros](/help/quicksilver/pla
      ![Menú contextual para la fila de registros](assets/contextual-menu-for-record-row.png)
 
      Se abre la página de registro.
-
-     <!--update screenshot for new details views preview-->
 
      ![Página de detalles](assets/details-page.png)
 

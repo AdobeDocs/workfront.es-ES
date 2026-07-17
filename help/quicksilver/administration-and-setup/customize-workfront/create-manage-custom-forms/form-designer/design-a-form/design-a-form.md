@@ -24,10 +24,10 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 07a00836f60ce0bb4ee7fb0202c9458b0c1be406
+source-git-commit: 58d13b171ada1f43efe4bcca0c3847048a32e863
 workflow-type: tm+mt
-source-wordcount: 7795
-ht-degree: 81%
+source-wordcount: 7956
+ht-degree: 78%
 
 ---
 
@@ -1054,66 +1054,65 @@ Puede añadir campos nativos de Workfront a los formularios personalizados. Cuan
 
 +++ Expanda para ver la lista de campos nativos admitidos.
 
-Esta tabla enumera los campos nativos disponibles para objetos de Workfront específicos en un formulario personalizado.
+Esta lista muestra los campos nativos disponibles para los formularios personalizados y los tipos de objeto en los que puede utilizar cada campo.
 
-| Nombre de campo | Proyecto | Tarea | Problema | Plantilla | Tarea de plantilla | Portafolio | Programa | Grupo |
-|--------------------------- |-------- |------- |------- |--------- |-------------- | --------- |-------- |------ |
-| Beneficio real | ✓ |   |   |   |   |   |   |   |
-| Fecha real de finalización | ✓ | ✓ | ✓ |   |   |   |   |   |
-| Duración real | ✓ |   |   |   |   |   |   |   |
-| Horas reales | ✓ |   | ✓ |   |   |   |   |   |
-| Fecha real de inicio | ✓ | ✓ | ✓ |   |   |   |   |   |
-| Presupuesto | ✓ |   |   | ✓ |   | ✓ |   |   |
-| Compañía | ✓ |   |   | ✓ |   |   |   |   |
-| Condición | ✓ | ✓ | ✓ |   |   |   |   |   |
-| Tipo de condición | ✓ |   |   | ✓ |   |   |   |   |
-| Moneda | ✓ |   |   | ✓ |   |   |   |   |
-| Descripción | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
-| Duración |   | ✓ |   |   | ✓ |   |   |   |
-| Tipo de duración |   | ✓ |   |   | ✓ |   |   |   |
-| Unidad de duración |   | ✓ |   |   | ✓ |   |   |   |
-| Introducido por | ✓ | ✓ | ✓ | ✓ | ✓ |   |   | ✓ |
-| Fecha de entrada | ✓ | ✓ | ✓ | ✓ | ✓ |   |   | ✓ |
-| Fecha de tasa de cambio | ✓ |   |   |   |   |   |   |   |
-| Coste fijo | ✓ |   |   | ✓ |   |   |   |   |
-| Ingresos fijos | ✓ |   |   | ✓ |   |   |   |   |
-| Grupo | ✓ |   |   | ✓ |   | ✓ | ✓ |   |
-| Última actualización por | ✓ | ✓ | ✓ | ✓ | ✓ |   |   |   |
-| Fecha de la última actualización | ✓ | ✓ | ✓ | ✓ | ✓ |   |   |   |
-| Nombre | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
-| Propietario | ✓ |   |   | ✓ |   | ✓ | ✓ |   |
-| Método de índice de rendimiento | ✓ |   |   | ✓ |   |   |   |   |
-| Beneficio planificado | ✓ |   |   | ✓ |   |   |   |   |
-| Fecha planificada de finalización | ✓ | ✓ | ✓ |   |   |   |   |   |
-| Duración planificada | ✓ |   |   | ✓ |   |   |   |   |
-| Horas planificadas | ✓ | ✓ | ✓ |   | ✓ |   |   |   |
-| Fecha de inicio planificada | ✓ |   |   |   |   |   |   |   |
-| Portafolio | ✓ |   |   | ✓ |   |   | ✓ |   |
-| Prioridad | ✓ | ✓ | ✓ | ✓ | ✓ |   |   |   |
-| Programar | ✓ |   |   | ✓ |   |   |   |   |
-| Fecha proyectada de finalización | ✓ | ✓ |   |   |   |   |   |   |
-| Minutos de duración proyectada |   | ✓ |   |   |   |   |   |   |
-| Fecha proyectada de inicio | ✓ | ✓ |   |   |   |   |   |   |
-| Número de referencia | ✓ | ✓ | ✓ | ✓ | ✓ |   |   |   |
-| Modo de programación | ✓ |   |   | ✓ |   |   |   |   |
-| Gravedad |   |   | ✓ |   |   |   |   |   |
-| Patrocinador | ✓ |   |   | ✓ |   |   |   |   |
-| Estado | ✓ | ✓ |   |   |   |   |   |   |
-| Puntos de la historia |   | ✓ |   |   |   |   |   |   |
-| Plantilla | ✓ |   |   |   |   |   |   |   |
-| Costo total estimado | ✓ |   |   | ✓ |   |   |   |   |
-| Ingresos totales estimados | ✓ |   |   | ✓ |   |   |   |   |
-| URL | ✓ | ✓ |   | ✓ | ✓ |   |   |   |
-
-{style="table-layout:auto"}
-
-Estos tipos de objetos de formulario personalizados adicionales también admiten referencias de campo nativas.
-
-* Registro de facturación: campo Ingresos fijos
-* Documento: campos Nombre y Descripción
-* Empresa: nombre, campos de grupo
-* Tarjeta de tarifas: campos Nombre, Descripción, Empresa, Grupo
-* Función del puesto: campos Nombre, Descripción
+* **Beneficio real**: Proyecto
+* **Fecha real de finalización**: proyecto, tarea o problema
+* **Costo real**: proyecto, tarea o problema
+* **Duración real**: proyecto, tarea
+* **Horas reales**: proyecto, tarea o problema
+* **Fecha real de inicio**: proyecto, tarea o problema
+* **Presupuesto**: proyecto, plantilla, Portfolio
+* **Fecha de confirmación**: Tarea, problema
+* **Empresa**: proyecto, plantilla, tarjeta de tarifas
+* **Condición**: Proyecto, Tarea, Problema
+* **Tipo de condición**: Proyecto, Plantilla
+* **Creador de problema convertido**: Proyecto
+* **Moneda**: proyecto, plantilla
+* **Descripción**: proyecto, tarea, problema, plantilla, tarea de plantilla, Portfolio, programa, grupo, documento, tarjeta de tarifas, rol
+* **Duración**: Tarea, Tarea de plantilla
+* **Tipo de duración**: Tarea, Tarea de plantilla
+* **Unidad de duración**: Tarea, Tarea de plantilla
+* **Ingresado Por**: Proyecto, Tarea, Problema, Plantilla, Tarea De Plantilla, Grupo
+* **Fecha de entrada**: proyecto, tarea, problema, plantilla, tarea de plantilla, grupo
+* **Fecha de tipo de cambio**: Proyecto
+* **Costo fijo**: proyecto, plantilla
+* **Ingresos fijos**: proyecto, plantilla, registro de facturación
+* **Grupo**: proyecto, plantilla, Portfolio, programa, empresa, tarjeta de tarifas
+* **Tipo de problema**: Problema
+* **Iteración**: Tarea
+* **Última actualización por**: proyecto, tarea, problema, plantilla, tarea de plantilla
+* **Fecha de última actualización**: proyecto, tarea, problema, plantilla, tarea de plantilla
+* **Nombre**: proyecto, tarea, problema, plantilla, tarea de plantilla, Portfolio, programa, grupo, documento, compañía, tarjeta de tarifas, rol
+* **Propietario**: proyecto, plantilla, Portfolio, programa
+* **Método de índice de rendimiento**: proyecto, plantilla
+* **Beneficio Planificado**: Proyecto, Plantilla
+* **Fecha planificada de finalización**: proyecto, tarea, problema
+* **Duración planificada**: proyecto, plantilla
+* **Horas planificadas**: proyecto, tarea, problema, tarea de plantilla
+* **Fecha planificada de inicio**: proyecto, tarea o problema
+* **Portfolio**: proyecto, plantilla, programa
+* **Prioridad**: Proyecto, Tarea, Problema, Plantilla, Tarea de plantilla
+* **Programa**: proyecto, plantilla
+* **Fecha proyectada de finalización**: proyecto, tarea
+* **Minutos de duración proyectada**: Tarea
+* **Fecha proyectada de inicio**: proyecto, tarea
+* **Tema de cola**: Problema
+* **Preparación**: Tarea
+* **Número de referencia**: proyecto, tarea, problema, plantilla, tarea de plantilla
+* **Gerentes de recursos**: Proyecto
+* **Modo de horario**: Proyecto, Plantilla
+* **Gravedad**: Problema
+* **Patrocinador**: proyecto, plantilla
+* **Estado**: Proyecto, Tarea, Problema
+* **Puntos de la historia**: Tarea
+* **Restricción de tarea**: Tarea
+* **Plantilla**: Proyecto
+* **Esto Resuelve**: Proyecto, Tarea
+* **Costo total estimado**: proyecto, plantilla
+* **Ingresos totales estimados**: proyecto, plantilla
+* **URL**: proyecto, tarea, problema, plantilla, tarea de plantilla
+* **Esfuerzo de trabajo**: Tarea
 
 <!--
 Non-Labor Resource: Name, Description, Home Group, Non-labor Category, Non-labor Group, Unique Identifier fields

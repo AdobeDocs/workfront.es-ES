@@ -21,9 +21,9 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
 workflow-type: tm+mt
-source-wordcount: 5497
+source-wordcount: 5395
 ht-degree: 48%
 
 ---
@@ -44,11 +44,11 @@ Do we need this for FORMULAS: when we release permissions to RECORDS and we rele
 
 <!--information about choice values must stay in yellow till Jan 2026-->
 
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">La información resaltada en esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa para todos los clientes. Después del lanzamiento en Vista previa, las mismas funciones también están disponibles mensualmente en el entorno de producción para los clientes que habilitaron lanzamientos rápidos. </span>
-
-<span class="preview">Para obtener información sobre las versiones rápidas, consulte [Habilitar o deshabilitar las versiones rápidas para su organización](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
-
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -356,7 +356,7 @@ Puede utilizar un campo de selección múltiple para capturar información adici
    Haga clic en **Personalizado** para seleccionar un color personalizado mediante un selector de color o un código hexadecimal.
 1. Haga clic fuera del cuadro de color para cerrarlo.
 
-1. <span class="preview">En el campo **Opciones predeterminadas**, seleccione las opciones que desee mostrar en este campo de forma predeterminada. Puede elegir más de una opción. Los usuarios pueden quitar las opciones predeterminadas al actualizar este campo.</span>
+1. En el campo **Opciones predeterminadas**, seleccione las opciones que desee mostrar en este campo de forma predeterminada. Puede elegir más de una opción. Los usuarios pueden eliminar las opciones predeterminadas al actualizar este campo.
 
 1. Haga clic en **Crear**.
 
@@ -405,7 +405,7 @@ Los campos de selección única capturan información adicional en cualquier for
 
    Haga clic en **Personalizado** para seleccionar un color personalizado mediante un selector de color o un código hexadecimal.
 
-1. <span class="preview">En el campo **Opción predeterminada**, seleccione la opción que desee mostrar en este campo de forma predeterminada. Solo puede elegir una opción. Los usuarios pueden eliminar la opción predeterminada al actualizar este campo. </span>
+1. En el campo **Opción predeterminada**, seleccione la opción que desee mostrar en este campo de forma predeterminada. Solo puede elegir una opción. Los usuarios pueden eliminar la opción predeterminada al actualizar este campo.
 
 1. Haga clic fuera del cuadro de color para cerrarlo.
 1. Haga clic en **Crear**.
@@ -437,45 +437,21 @@ Puede utilizar un campo de fecha para capturar información adicional en formato
 
 
 1. Añada la siguiente información en la pestaña **Nuevo campo**:
+
    * **Nombre**: Nombre del campo tal como aparecerá en una tabla o en la página de registro. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
    * **Descripción**: información adicional sobre el campo. La descripción de un campo se muestra al pasar el ratón por encima de la columna del campo en una tabla o al hacer clic en el icono de información situado junto al nombre del campo en la página de detalles del registro.
-   * **Formato de fecha**: el tipo de formato de fecha que desea mostrar en este campo. <!--update this casing - submitted bug for it-->
-
-     Según el entorno en el que acceda a los campos, haga lo siguiente:
-
-      * En el entorno de producción:
-
-         * Seleccione entre los siguientes formatos:
-            * **Configuración regional**: coincide con la configuración regional del explorador.
-            * **Estándar**: 16/5/2023
-            * **Largo**: 16 de mayo de 2023
-            * **Europeo**: 16/5/2023
-            * **ISO**: 16-5-2023
+   * **Formato de fecha**: El tipo de formato de fecha que desea mostrar en este campo. <!--update this casing - submitted bug for it-->
+   * Seleccione entre los siguientes formatos:
+      * **Corto**: 9/6/26
+      * **Medium**: 9 de junio de 2026
+      * **Long** 9 de junio de 2026
       * **Incluir hora**: seleccione esta opción si desea incluir una marca de tiempo. De forma predeterminada, esta opción no está seleccionada. No se puede incluir un tiempo después de guardar el campo.
 
-        Seleccione entre las siguientes opciones:
+   * Seleccione entre las siguientes opciones:
 
-         * **24hr**: Por ejemplo: 18:00
-         * **12hr**: Por ejemplo: 6:00 PM
-
-     <div class="preview">
-
-      * En el entorno de vista previa:
-
-         * Seleccione entre los siguientes formatos:
-            * **Corto**: 9/6/26
-            * **Medium**: 9 de junio de 2026
-            * **Long** 9 de junio de 2026
-      * **Incluir hora**: seleccione esta opción si desea incluir una marca de tiempo. De forma predeterminada, esta opción no está seleccionada. No se puede incluir un tiempo después de guardar el campo.
-
-        Seleccione entre las siguientes opciones:
-
-         * **24hr**: Por ejemplo: 18:00
-         * **12hr**: Por ejemplo: 6:00 PM
-      * **Use la misma zona horaria para todos los colaboradores** y, a continuación, seleccione una **zona horaria** <!--(************** logged bug to change this to "Show the same time zone to all users" ****************)-->: seleccione esta opción si desea mostrar la misma marca de tiempo para todas las personas que vean el campo, independientemente de la zona horaria del usuario. La zona horaria seleccionada se añade al encabezado de columna de este campo.
-
-     </div>
-
+      * **24hr**: Por ejemplo: 18:00
+      * **12hr**: Por ejemplo: 6:00 PM
+      * **Mostrar la misma zona horaria a todos los usuarios** y, a continuación, seleccionar **Zona horaria**: seleccione esta opción si desea mostrar la misma marca de tiempo para todas las personas que vean el campo, independientemente de la zona horaria del usuario. La zona horaria seleccionada se añade al encabezado de columna de este campo.
 
 1. Haga clic en **Crear**.
 
@@ -696,15 +672,15 @@ Puede utilizar el tipo de campo Personas para agregar un usuario a un registro. 
    >
    >    Si selecciona Permitir varios valores y se almacenan varios usuarios en los registros a los que se adjunta el campo, ya no podrá anular la selección de la configuración en el futuro al editar este campo.
 
-1. <span class="preview">En el campo **Usuario predeterminado** o **Usuarios predeterminados**, seleccione los usuarios que desee mostrar en este campo de forma predeterminada. </span>
+1. En el campo **Usuario predeterminado** o **Usuarios predeterminados**, seleccione los usuarios que desee mostrar en este campo de forma predeterminada.
 
-   <span class="preview">Puede elegir más de un usuario si también seleccionó la opción **Permitir varios valores**. </span>
+   Puede elegir más de un usuario si también seleccionó la opción **Permitir varios valores**.
 
-   <span class="preview">Los usuarios pueden quitar los usuarios predeterminados a medida que actualizan este campo.</span>
+   Los usuarios pueden eliminar los usuarios predeterminados cuando actualicen este campo.
 
    >[!TIP]
    >
-   ><span class="preview">Al desactivar usuarios seleccionados como predeterminados en esta configuración, se conservan los nombres de los usuarios como predeterminados. No quita el usuario desactivado del valor del campo y no hay ninguna indicación para otros de que el usuario se haya desactivado.</span>
+   >Al desactivar usuarios seleccionados como predeterminados en esta configuración, se conservan los nombres de los usuarios como predeterminados. No quita el usuario desactivado del valor del campo y no hay indicación para otros de que el usuario haya sido desactivado.
 
 1. Haga clic en **Crear**.
 

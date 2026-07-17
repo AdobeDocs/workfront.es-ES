@@ -21,18 +21,20 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
 workflow-type: tm+mt
-source-wordcount: 1311
-ht-degree: 32%
+source-wordcount: 1252
+ht-degree: 34%
 
 ---
 
 # Crear espacios de trabajo
 
-<span class="preview">La información de esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa para todos los clientes. Después del lanzamiento en Vista previa, las mismas funciones también están disponibles mensualmente en el entorno de producción para los clientes que habilitaron lanzamientos rápidos. </span>
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Para obtener información sobre las versiones rápidas, consulte [Habilitar o deshabilitar las versiones rápidas para su organización](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -277,7 +279,6 @@ Las plantillas incluidas en el paquete contienen espacios de trabajo, tipos de r
 
       1. Después de abrir el cuadro **Vista previa** para cada plantilla de área de trabajo, haga clic en **Atrás** para volver al cuadro **Crear área de trabajo** o haga clic en **Usar plantillas** para usar las plantillas, incluidas las del paquete, y crear áreas de trabajo.
 
-   <div class="preview">
 
    * Haga clic en la ficha **Espacios de trabajo de ejemplo** y, a continuación, siga estos pasos:
 
@@ -289,8 +290,6 @@ Las plantillas incluidas en el paquete contienen espacios de trabajo, tipos de r
          >
          >Al hacer clic en una tarjeta de tipo de registro de una plantilla, se muestran los campos del tipo de registro en el panel derecho.
       1. Haga clic en **Usar plantillas**.
-
-   </div>
 
    Los 6 espacios de trabajo se crean y se muestran en las fichas **Espacios de trabajo en los que estoy** y **Todos los espacios de trabajo** para los administradores del sistema. Todos los usuarios con licencia estándar verán los espacios de trabajo en su área de espacios de trabajo después de que un administrador del sistema los cree y comparta los nuevos espacios de trabajo con ellos.
 
