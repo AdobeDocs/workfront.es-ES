@@ -1,7 +1,7 @@
 ---
-source-git-commit: b186900d58f6a422c787cef881a4d06d6cd7feed
+source-git-commit: 184cff4f2ebf8a1343d784936f10c902e350c134
 workflow-type: tm+mt
-source-wordcount: '2292'
+source-wordcount: '2293'
 ht-degree: 23%
 
 ---
@@ -297,7 +297,7 @@ Debe instalar el complemento correcto para la aplicación de Adobe Creative Clou
 >
 >La información de este artículo hace referencia a Adobe Workfront Planning, que su organización puede adquirir como paquete de Adobe Workfront o como producto independiente.
 >
->No todas las funcionalidades incluidas en el paquete de Planning están disponibles para Workfront Planning cuando se adquieren como producto independiente.
+>No todas las funcionalidades incluidas en el paquete de Planning están disponibles para Workfront Planning cuando se adquiere como producto independiente.
 >
 >Para obtener información general sobre Workfront Planning, consulte [Introducción a Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
 > 
