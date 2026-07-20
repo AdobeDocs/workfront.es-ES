@@ -9,20 +9,14 @@ exl-id: ba7a4b04-5faa-41b6-86d0-4d0ce946ad1e
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/YZRzcl8ymUo85jplCgKOx-qI83Gqa4CUI6saxfijtec
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a8e45498cd25caf846015dc5e695a6018727528f
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: e8216d44973c43f14ef615a6f8c4eb1cb05bd935
 workflow-type: tm+mt
-source-wordcount: 1434
+source-wordcount: 1496
 ht-degree: 7%
 
 ---
@@ -107,10 +101,16 @@ Como administrador del sistema, puede activar Planning Designer Beta para su org
    >
    >No es necesario aceptar el contrato de IA para utilizar Planning Designer en la versión beta.
 
-1. Active la configuración **Adhesión a AI Beta**.
-1. Active la configuración de **Planning Designer**.
+1. Active la configuración **Adherirse a las beta de IA** si no está habilitada.
+1. Active la configuración **Planning Designer** si no está habilitada.
 
-   ![Configuración de Planning Designer en Preferencias del sistema](assets/ai-preferences-with-planning-designer-beta.png)
+   ![Configuración de Planning Designer en Preferencias del sistema](assets/ai-preferences-with-planning-designer-unaccepted-agreement.png).
+
+   >[!TIP]
+   >
+   >Las opciones **Opt-in to AI Beta** y **Planning Designer** están activadas de forma predeterminada, pero debe aceptar el acuerdo de Beta para poder usar Planning Designer.
+
+1. (Condicional y obligatorio) Si no ha aceptado el Contrato de Beta, haga clic en **Revisar el Contrato de Beta** y lea el contrato; a continuación, haga clic en **Aceptar**.
 
 1. Haga clic en **Guardar**.
 
