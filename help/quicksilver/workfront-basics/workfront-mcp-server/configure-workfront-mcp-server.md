@@ -5,9 +5,9 @@ title: Configuración del servidor MCP de Adobe Workfront
 description: Configure su instancia de Workfront y su plataforma agéntica de IA para poder trabajar con Workfront a través de una conversación en lenguaje natural.
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: 269019dd8af4cda11e377164de83f0a7e9d7a458
+source-git-commit: 836431c7840647b8f412f848fe22d3e64cc42e44
 workflow-type: tm+mt
-source-wordcount: '1730'
+source-wordcount: '1588'
 ht-degree: 0%
 
 ---
@@ -156,12 +156,11 @@ Se abre la ventana del agente.
 1. En la barra de navegación superior, haz clic en **Herramientas** y luego haz clic en **Agregar una herramienta**.
 1. Seleccione el mosaico **Protocolo de contexto del modelo**.
 1. En el panel que aparece, escriba un nombre y una descripción para esta conexión.
-1. En el campo URL del servidor, introduzca la URL deseada:
+1. En el campo URL del servidor, introduzca la URL:
 
-   | Región | Dirección URL |
-   | --- | --- |
-   | EE. UU. | `https://mcp.workfront.adobe.com/mcp/v1/workfront` |
-   | UE | `https://mcp-eu.workfront.adobe.com/mcp/v1/workfront` |
+```
+https://mcp.workfront.adobe.com/mcp/v1/workfront`
+```
 
 1. Para Autorización, seleccione **OAuth 2.0**, luego seleccione **Detección dinámica**.
 1. Haga clic en **Crear** en la parte inferior del panel.
@@ -203,12 +202,6 @@ Para conectarse a una instancia de Workfront diferente:
 >[!NOTE]
 >
 >* Cerrar sesión por sí solo no cambia la instancia de Workfront. Debe desconectar y volver a conectar el conector.
->
->* La instancia de Workfront debe conectarse con el servidor MCP de la región de dicha instancia. Por ejemplo, una instancia de la UE debe conectarse al servidor MCP de la UE.
->
->   Al seleccionar una instancia, las instancias que no son compatibles con la región del servidor MCP aparecen atenuadas y no se puede conectar a ellas.
->
->   Para conectarse a una instancia que no sea compatible con la región del servidor MCP, configure una nueva conexión MCP con la dirección URL correcta para esa región.
 
 
 <!--
@@ -223,11 +216,8 @@ Para conectarse a una instancia de Workfront diferente:
 To set up the connection between Gemini and the Workfront MCP server, follow the instructions provided by Google for [connecting Gemini to external tools using MCP](https://docs.cloud.google.com/gemini/enterprise/docs/connectors/custom-mcp-server/set-up-custom-mcp-server). 
 
 When prompted for the MCP Server URL, enter the following URL for your Workfront MCP server:  
-
-   | Region | URL |
-   | --- | --- |
-   | US | `https://mcp.workfront.adobe.com/mcp/v1/workfront` |
-   | EU | `https://mcp-eu.workfront.adobe.com/mcp/v1/workfront` |
+   ```
+   https://mcp.workfront.adobe.com/mcp/v1/workfront|
    
 -->
 
@@ -271,7 +261,6 @@ What happens next
 | Error de autenticación o la conexión dejó de funcionar. | La sesión de autenticación ha caducado o hay un error de conexión. | Desconecte y vuelva a conectar el conector. |
 | Desea cambiar a una instancia de Workfront diferente. | Una sola conexión lo vincula a una instancia. | Desconectar, volver a conectar y autenticar en la nueva instancia. |
 | No puede conectarse a Workfront o verá un mensaje que indica que el acceso al servidor MCP está deshabilitado. | El administrador de Workfront ha desactivado el acceso al servidor MCP para su instancia. | Póngase en contacto con el administrador de Workfront y pídale que habilite el acceso al servidor MCP en Preferencias del sistema. |
-| La instancia de Workfront a la que desea conectarse aparece atenuada y aparece un mensaje que indica que no está disponible para conectarse en su región | El servidor MCP está configurado para una región (UE o EE. UU.) diferente a la de su instancia. | Configure el servidor MCP con la dirección URL de la región a la que está asignada la instancia de Workfront. |
 | La plataforma agéntica de IA puede encontrar sus elementos de Workfront, pero no puede crearlos, actualizarlos o eliminarlos. | El administrador de Workfront ha deshabilitado las acciones de escritura para el servidor MCP de Workfront. | Póngase en contacto con el administrador de Workfront y pídale que habilite acciones de escritura en Preferencias del sistema. |
 
 Para obtener información sobre la solución de problemas diaria después de conectarse (por ejemplo, si se trata de resultados antiguos o de un comportamiento inesperado), consulte [Usar el servidor MCP de Adobe Workfront](/help/quicksilver/workfront-basics/workfront-mcp-server/use-workfront-mcp-server.md).
