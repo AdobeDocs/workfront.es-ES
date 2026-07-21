@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8ca50590-ef6a-44b1-a856-9821bdafbc1c
-source-git-commit: 29d86cd2aa730d5bebe14fb2bd3cb1a59e00852a
+source-git-commit: 7df1d711b89cc69e354525c9eaea48abb6aec158
 workflow-type: tm+mt
-source-wordcount: '3150'
+source-wordcount: '3159'
 ht-degree: 14%
 
 ---
@@ -584,7 +584,10 @@ Las nuevas funciones de Workfront Fusion están disponibles en el entorno de pro
 New features in Workfront Planning are available in Production.
 -->
 
-Para obtener más información sobre las últimas funciones, consulte [Actividad de la versión del tercer trimestre de 2026 para Adobe Workfront Planning](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-26-q3.md).
+Para obtener más información sobre las últimas funciones, consulte:
+
+* [Actividad de la versión del cuarto trimestre de 2026 para Adobe Workfront Planning](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-26-q4.md).
+* [Actividad de la versión del tercer trimestre de 2026 para Adobe Workfront Planning](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-26-q3.md).
 
 
 ### Otras mejoras de Workfront

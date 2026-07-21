@@ -5,9 +5,9 @@ title: Configuración del servidor MCP de Adobe Workfront
 description: Configure su instancia de Workfront y su plataforma agéntica de IA para poder trabajar con Workfront a través de una conversación en lenguaje natural.
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: e9ddfa2847c44b0a92af3239a52d704d4a866dc8
+source-git-commit: 836431c7840647b8f412f848fe22d3e64cc42e44
 workflow-type: tm+mt
-source-wordcount: '1509'
+source-wordcount: '1588'
 ht-degree: 0%
 
 ---
@@ -144,6 +144,38 @@ ChatGPT admite asistentes creados por el usuario llamados GPT personalizados. Pu
 
 Para obtener más información acerca de los GPT personalizados, consulte la [documentación del usuario de ChatGPT](https://help.openai.com/en/articles/8554397-creating-and-editing-gpts) o pida ayuda a ChatGPT con los GPT personalizados.
 
+## Conectar Workfront a Copilot
+
+Para crear un agente de Copilot personalizado al que se pueda conectar el MCP de Workfront, utilice Copilot Studio.
+
+1. En Copilot Studio, haga clic en **Crear agente en blanco**.
+1. Asigne un nombre al agente y haga clic en **Crear**.
+Se abre la ventana del agente.
+
+1. En el campo **Instrucciones**, describa lo que desea que haga el agente. Incluya información como sus procesos y cómo utiliza Workfront. Recomendamos proporcionar una gran cantidad de detalles.
+1. En la barra de navegación superior, haz clic en **Herramientas** y luego haz clic en **Agregar una herramienta**.
+1. Seleccione el mosaico **Protocolo de contexto del modelo**.
+1. En el panel que aparece, escriba un nombre y una descripción para esta conexión.
+1. En el campo URL del servidor, introduzca la URL:
+
+```
+https://mcp.workfront.adobe.com/mcp/v1/workfront`
+```
+
+1. Para Autorización, seleccione **OAuth 2.0**, luego seleccione **Detección dinámica**.
+1. Haga clic en **Crear** en la parte inferior del panel.
+
+   La aplicación está registrada.
+
+1. Una vez registrada la aplicación, en el panel que aparece, haz clic en **No conectado**, luego haz clic en **Crear una nueva conexión** y, a continuación, haz clic en **Crear**.
+1. En el panel de inicio de sesión que aparece, inicie sesión en Workfront y, a continuación, seleccione **Continuar** cuando muestre qué instancia de Workfront desea utilizar.
+1. En el panel que muestra su servidor, haga clic en **Agregar y configurar**.
+
+   Ahora puede empezar a utilizar y configurar herramientas para su servidor MCP.
+1. Cuando haya configurado y probado una herramienta, haga clic en **Publicar**.
+
+   Es posible que no tenga permisos para publicar. Si este es el caso, póngase en contacto con el administrador de Copilot.
+
 ## Compruebe la conexión
 
 Para confirmar que la plataforma agéntica de IA está conectada a Workfront, pídale que enumere las acciones que el servidor MCP de Workfront pone a disposición. Por ejemplo:
@@ -170,12 +202,6 @@ Para conectarse a una instancia de Workfront diferente:
 >[!NOTE]
 >
 >* Cerrar sesión por sí solo no cambia la instancia de Workfront. Debe desconectar y volver a conectar el conector.
->
->* La instancia de Workfront debe conectarse con el servidor MCP de la región de dicha instancia. Por ejemplo, una instancia de la UE debe conectarse al servidor MCP de la UE.
->
->   Al seleccionar una instancia, las instancias que no son compatibles con la región del servidor MCP aparecen atenuadas y no se puede conectar a ellas.
->
->   Para conectarse a una instancia que no sea compatible con la región del servidor MCP, configure una nueva conexión MCP con la dirección URL correcta para esa región.
 
 
 <!--
@@ -190,11 +216,8 @@ Para conectarse a una instancia de Workfront diferente:
 To set up the connection between Gemini and the Workfront MCP server, follow the instructions provided by Google for [connecting Gemini to external tools using MCP](https://docs.cloud.google.com/gemini/enterprise/docs/connectors/custom-mcp-server/set-up-custom-mcp-server). 
 
 When prompted for the MCP Server URL, enter the following URL for your Workfront MCP server:  
-
-   | Region | URL |
-   | --- | --- |
-   | US | `https://mcp.workfront.adobe.com/mcp/v1/workfront` |
-   | EU | `https://mcp-eu.workfront.adobe.com/mcp/v1/workfront` |
+   ```
+   https://mcp.workfront.adobe.com/mcp/v1/workfront|
    
 -->
 
@@ -238,7 +261,6 @@ What happens next
 | Error de autenticación o la conexión dejó de funcionar. | La sesión de autenticación ha caducado o hay un error de conexión. | Desconecte y vuelva a conectar el conector. |
 | Desea cambiar a una instancia de Workfront diferente. | Una sola conexión lo vincula a una instancia. | Desconectar, volver a conectar y autenticar en la nueva instancia. |
 | No puede conectarse a Workfront o verá un mensaje que indica que el acceso al servidor MCP está deshabilitado. | El administrador de Workfront ha desactivado el acceso al servidor MCP para su instancia. | Póngase en contacto con el administrador de Workfront y pídale que habilite el acceso al servidor MCP en Preferencias del sistema. |
-| La instancia de Workfront a la que desea conectarse aparece atenuada y aparece un mensaje que indica que no está disponible para conectarse en su región | El servidor MCP está configurado para una región (UE o EE. UU.) diferente a la de su instancia. | Configure el servidor MCP con la dirección URL de la región a la que está asignada la instancia de Workfront. |
 | La plataforma agéntica de IA puede encontrar sus elementos de Workfront, pero no puede crearlos, actualizarlos o eliminarlos. | El administrador de Workfront ha deshabilitado las acciones de escritura para el servidor MCP de Workfront. | Póngase en contacto con el administrador de Workfront y pídale que habilite acciones de escritura en Preferencias del sistema. |
 
 Para obtener información sobre la solución de problemas diaria después de conectarse (por ejemplo, si se trata de resultados antiguos o de un comportamiento inesperado), consulte [Usar el servidor MCP de Adobe Workfront](/help/quicksilver/workfront-basics/workfront-mcp-server/use-workfront-mcp-server.md).

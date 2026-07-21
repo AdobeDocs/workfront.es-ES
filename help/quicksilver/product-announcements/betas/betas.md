@@ -11,9 +11,9 @@ product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 1c9433c854fe481060358caf3d280492ee71aeb6
+source-git-commit: a8e45498cd25caf846015dc5e695a6018727528f
 workflow-type: tm+mt
-source-wordcount: 174
+source-wordcount: 176
 ht-degree: 10%
 
 ---
@@ -38,12 +38,12 @@ Las siguientes funciones están disponibles actualmente en la versión beta:
 
 * Revisor de contenido de Workfront
 
-   * Las directrices de imágenes están actualmente en fase beta. El revisor de contenido utiliza las directrices de marca configuradas en Workfront para revisar el contenido y proporcionar comentarios a los creadores de contenido durante el proceso de revisión y aprobación.
-   * Las directrices de voz de marca están disponibles para su publicación general.
+  * Las directrices de imágenes están actualmente en fase beta. El revisor de contenido utiliza las directrices de marca configuradas en Workfront para revisar el contenido y proporcionar comentarios a los creadores de contenido durante el proceso de revisión y aprobación.
+  * Las directrices de voz de marca están disponibles para su publicación general.
 
   Para obtener más información, consulte [Introducción al Revisor de contenido de Workfront](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md).
 
-* Adobe Workfront Planning Designer está disponible en Cerrado Beta.
+* Adobe Workfront Planning Designer está disponible en versión beta para todos los clientes.
 
   Para obtener más información, consulte [Introducción a Adobe Workfront Planning Designer](/help/quicksilver/planning/general/planning-ai-designer.md).
 

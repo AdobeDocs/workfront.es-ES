@@ -20,9 +20,9 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 184cff4f2ebf8a1343d784936f10c902e350c134
+source-git-commit: e8216d44973c43f14ef615a6f8c4eb1cb05bd935
 workflow-type: tm+mt
-source-wordcount: 1386
+source-wordcount: 1496
 ht-degree: 7%
 
 ---
@@ -65,15 +65,20 @@ Para obtener información sobre Workfront Planning, consulte los siguientes art�
 <tr> 
    <td role="rowheader"><p>Paquetes de Adobe Workfront</p></td> 
    <td> 
-<p>Cualquier paquete de Workfront y Planning</p>
-<p>Cualquier paquete de flujo de trabajo y planificación</p>
+<p>Cualquier paquete de Workfront o de flujo de trabajo con un paquete de Planning</p>
+<p>Cualquier Planning como paquete de producto independiente</p>
    </td> </tr>
-
-</tr> 
+  </tr> 
   <tr> 
-   <td role="rowheader"><p>Licencia de Adobe Workfront</p></td> 
+   <td role="rowheader"><p>Licencia de Workfront</p></td> 
    <td><p>Estándar</p> 
-   <p>El administrador del sistema debe activar Planning Designer para su organización</p>
+   <p>Los administradores de Workfront deben habilitar Planning Designer para su organización</p>
+  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Licencia de planificación</p></td> 
+   <td><p>Estándar</p> 
+   <p>Los administradores de Workfront deben habilitar Planning Designer para su organización</p>
   </td> 
   </tr> 
   <tr> 
@@ -91,16 +96,27 @@ Para obtener más información acerca de los requisitos de acceso de Workfront, 
 
 ## Habilite Planning Designer para su organización
 
-Como administrador del sistema, puede activar Planning Beta para su organización. Después de activar esta configuración, todos los usuarios de la instancia de Workfront podrán ver las capacidades de Planning Designer en el área de Planning.
+Como administrador del sistema, puede activar Planning Designer Beta para su organización. Después de activar esta configuración, todos los usuarios de la instancia de Workfront podrán ver las capacidades de Planning Designer en el área de Planning.
 
-1. Inicie sesión como administrador de Workfront en Workfront.
+1. Inicie sesión como administrador de Workfront.
 1. Haga clic en el **icono del menú principal** ![Menú principal](assets/main-menu-shell.png) y, a continuación, haga clic en **Configurar**.
 1. Vaya a **Sistema** > **Preferencias** > **Preferencias de IA**.
-1. Activar **Habilitar IA**<!--and ensure you have a signed Gen AI Agreement with Adobe-->.
-   <!--1. Turn on the **Opt in to AI Beta** setting.-->
-1. Active la configuración de **Planning Designer**.
-   <!-- add new screenshot-->
-   ![Configuración de Planning Designer en Preferencias del sistema](assets/planning-designer-toggle-in-system-preferences.png)
+1. Activar **Habilitar IA**.
+
+   >[!NOTE]
+   >
+   >No es necesario aceptar el contrato de IA para utilizar Planning Designer en la versión beta.
+
+1. Active la configuración **Adherirse a las beta de IA** si no está habilitada.
+1. Active la configuración **Planning Designer** si no está habilitada.
+
+   ![Configuración de Planning Designer en Preferencias del sistema](assets/ai-preferences-with-planning-designer-unaccepted-agreement.png).
+
+   >[!TIP]
+   >
+   >Las opciones **Opt-in to AI Beta** y **Planning Designer** están activadas de forma predeterminada, pero debe aceptar el acuerdo de Beta para poder usar Planning Designer.
+
+1. (Condicional y obligatorio) Si no ha aceptado el Contrato de Beta, haga clic en **Revisar el Contrato de Beta** y lea el contrato; a continuación, haga clic en **Aceptar**.
 
 1. Haga clic en **Guardar**.
 
@@ -158,7 +174,7 @@ Los comentarios se envían a los equipos de ingeniería y producto.
 
 * No es necesario habilitar el acuerdo de IA para poder acceder a Planning Designer.
 
-<!--* You must sign the Beta agreement to access the Planning Designer.-->
+* Debe firmar el acuerdo de Beta para acceder a Planning Designer.
 
 <!--
 Sargis and Ashot  said these are not required: 
@@ -178,7 +194,7 @@ Sargis and Ashot  said these are not required:
 -->
 
 * El administrador de Workfront debe activar Planning Designer para su organización. Después de esto, Planning Designer está disponible para todos los usuarios de forma predeterminada.
-* Las acciones realizadas por Planning Designer también las puede realizar el Asistente de IA, cuando lo utiliza en el área de Planning, si su organización ha firmado el contrato de IA.
+* Si su organización ha firmado un acuerdo de IA, las acciones realizadas por Planning Designer también las puede realizar el asistente de IA cuando lo utilice en el área de Planning.
 * Las acciones que realiza el Asistente de IA en el área de Planning o las que realiza Planning Designer se encuentran en el contexto de los permisos de Workfront Planning y del nivel de acceso de Workfront.
 
   Para obtener más información, consulte los siguientes artículos:
@@ -202,7 +218,7 @@ Puede utilizar Planning Designer o el asistente de IA para realizar cualquiera d
 
 * Creación y configuración de espacios de trabajo
 
-<!--On March 2: * Edit workspaces-->
+* Editar espacios de trabajo
 
 * Crear tipos de registros, incluida la definición y adición de tipos de registros globales a espacios de trabajo
 
@@ -243,7 +259,7 @@ Puede crear o actualizar objetos en Workfront Planning mediante Planning Designe
 
    Se abre el área **Planificación**. <!--update screen shot when they change the name of the button-->
 
-   ![Diseñar con el botón de IA en la página Espacios de trabajo](assets/design-with-ai-button-on-workspaces-page.png)
+   ![Crear con el botón IA en la página Espacios de trabajo](assets/design-with-ai-button-on-workspaces-page.png)
 
 1. Haga clic en **Crear con IA** o haga clic en **Crear espacio de trabajo** y, a continuación, utilice la ventana de solicitud de la parte superior para indicar qué tipo de espacio de trabajo desea crear. <!--update this when they change it to Generate with AI-->
 
@@ -294,6 +310,6 @@ Puede crear o actualizar objetos en Workfront Planning mediante Planning Designe
 1. (Opcional) Para editar un espacio de trabajo, siga uno de estos procedimientos:
 
    * Abra el espacio de trabajo y realice cambios manualmente en él. Para obtener más información, consulte [Edición de espacios de trabajo](/help/quicksilver/planning/architecture/edit-workspaces.md).
-   * Haga clic en **Editar con IA**. Se abrirá Planning Designer. Repita los pasos anteriores para utilizar IA y realizar más cambios en el espacio de trabajo.
+   * Abra el área de trabajo y haga clic en **Editar con IA**. Se abrirá Planning Designer. Repita los pasos anteriores para utilizar IA y realizar más cambios en el espacio de trabajo.
 
 
