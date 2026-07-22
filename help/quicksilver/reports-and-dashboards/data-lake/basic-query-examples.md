@@ -10,16 +10,12 @@ exl-id: f2da081c-bdce-4012-9797-75be317079ef
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/flDonZVaLR3bTF2aZcY9iy2ZnWbfrdhctL7J8esvxng
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+source-git-commit: edee967a5c19d86fd471c4571a0b458f72bf370e
 workflow-type: tm+mt
-source-wordcount: 921
+source-wordcount: 2201
 ht-degree: 1%
 
 ---
@@ -84,13 +80,13 @@ Al consultar el objeto JSON `parametervalues`, se puede acceder a cada campo de 
 
 * `<data_type>` convierte el valor devuelto por el objeto JSON en un tipo de datos apropiado para el campo. Si se elige un tipo de datos incompatible para el valor que se devuelve, se producirá un error de no coincidencia de tipos de datos. Los tipos de datos posibles incluyen:
 
-   * `text`
-   * `varchar`
-   * `int`
-   * `float`
-   * `number(len,precision)` (por ejemplo, `Number(32,4)` devolvería 1234.0987)
-   * `date`
-   * `timestamp`
+  * `text`
+  * `varchar`
+  * `int`
+  * `float`
+  * `number(len,precision)` (por ejemplo, `Number(32,4)` devolvería 1234.0987)
+  * `date`
+  * `timestamp`
 
 * `<column_name>` es la etiqueta que crea para cada columna de datos personalizada.
 
@@ -195,6 +191,207 @@ Examinando la consulta de adentro hacia afuera: 
 >Para projects_event: 
 >`From projects_event p`>`Join <above query> c on c.projectid = p.projectid  `>`and c. status_begin_effective_timestamp = p begin_effective_timestamp`
 
+## Planning: consulta de tipo de registro único
+
+En este ejemplo se muestra cómo consultar los datos de Workfront Planning para un único tipo de registro almacenado en el lago de datos de Data Connect.
+
+### Escenario
+
+Su organización utiliza Workfront Planning para realizar el seguimiento de campañas. Cada registro de campaña incluye un nombre, un estado, una fecha de inicio, una fecha de finalización y un propietario. Desea extraer una lista de todas las campañas activas y sus detalles clave para utilizarla en un panel.
+
+* Los datos del tipo de registro de planificación se almacenan en la vista PLANNINGRECORD_CURRENT.
+* Cada fila representa un único registro y todos los valores de campo se almacenan en una columna JSON denominada FIELD_VALUES.
+* El tipo de registro se identifica mediante la columna RECORDTYPEID.
+* El espacio de trabajo del registro se identifica mediante la columna WORKSPACEID (o la columna WORKSPACENAME para un filtro legible en lenguaje natural).
+
+### Consulta
+
+```sql
+SELECT
+  recordid,
+  FIELD_VALUES:"Name"::text AS campaign_name,
+  FIELD_VALUES:"Status"::text AS campaign_status,
+  FIELD_VALUES:"Start Date"::date AS start_date,
+  FIELD_VALUES:"End Date"::date AS end_date,
+  FIELD_VALUES:"Owner"::text AS owner
+FROM PLANNINGRECORD_CURRENT
+WHERE WORKSPACEID = '<your_campaign_workspace_id>'
+AND RECORDTYPEID = '<your_campaign_record_type_id>'
+AND FIELD_VALUES:"Status"::text = 'Active'
+ORDER BY start_date ASC
+```
+
+### Respuesta
+
+La consulta anterior devuelve los siguientes datos:
+
+* **recordid**: ID de registro de Planning único para la campaña.
+* **campaign_name**: El nombre de la campaña, extraído del objeto JSON FIELD_VALUES.
+* **campaign_status**: El estado actual de la campaña.
+* **start_date**: la fecha de inicio de la campaña, convertida a un tipo de datos de fecha.
+* **end_date**: la fecha de finalización de la campaña, convertida a un tipo de datos de fecha.
+* **propietario**: El nombre del usuario o equipo asignado como propietario de la campaña.
+
+### Explicación
+
+Los registros de Planning en Data Connect comparten una sola estructura de tabla independientemente del tipo de registro. La columna RECORDTYPEID se utiliza para asignar el ámbito de la consulta a un tipo de registro específico; en este caso, Campaigns. Reemplace `<your_campaign_record_type_id>` por el identificador del tipo de registro que desea consultar, que se puede encontrar en la configuración del tipo de registro de Workfront Planning o consultando RECORDTYPE_CURRENT.
+
+Los valores de campo se almacenan como un objeto JSON en la columna FIELD_VALUES y se accede a ellos utilizando la misma sintaxis de notación de dos puntos utilizada para los datos de formulario personalizados:
+
+```
+<field_column>:"<field_name>"::<data_type> AS <alias>
+```
+
+Las referencias del nombre de campo deben coincidir exactamente con el nombre de campo definido en la configuración del campo de tipo de registro de Planning, incluidas las mayúsculas, el espaciado y los emoji.
+
+>[!NOTE]
+>
+>Los ID de tipo de registro de Planning se pueden encontrar en la dirección URL cuando se visualiza un tipo de registro en Workfront Planning. Es la ruta de la dirección URL que comienza con &quot;Rt...&quot;. Los tipos de registro también se pueden encontrar con la siguiente llamada SQL en Data Connect:
+>
+>
+>```sql
+>SELECT
+>ID AS recordtypeid,
+>DISPLAYNAME AS record_type_name,
+>WORKSPACEID
+>FROM RECORDTYPE_CURRENT
+>ORDER BY record_type_name ASC
+>```
+
+## Planning: consulta de tipos de registros conectados
+
+En este ejemplo se muestra cómo consultar datos en dos tipos de registros conectados de Planning: un tipo de registro principal y un tipo de registro al que está conectado.
+
+### Escenario
+
+Su organización conecta registros de Campaign con registros tácticos en Workfront Planning. Desea producir un informe que muestre cada campaña junto con los detalles clave de sus tácticas asociadas. Específicamente, quieren mostrar el nombre de la táctica, la prioridad estratégica y la asignación de presupuesto para que el liderazgo pueda revisar la actividad de la campaña organizada por táctica.
+
+En Data Connect, las conexiones entre los tipos de registros nativos de Planning se almacenan directamente en la columna FIELD_VALUES_RAW de PLANNINGRECORD_CURRENT. Para un campo de referencia denominado &quot;Tácticas&quot;, el valor es una matriz JSON de objetos de registro conectados, cada uno de los cuales contiene una propiedad id con el RECORDID del registro conectado. Utilice LATERAL FLATTEN de Snowflake para expandir esta matriz en filas y unirla al tipo de registro conectado.
+
+### Consulta
+
+```sql
+SELECT
+  c.RECORDID AS campaign_id,
+  c.FIELD_VALUES:"Name"::text AS campaign_name,
+  c.FIELD_VALUES:"Status"::text AS campaign_status,
+  t.FIELD_VALUES:"Name"::text AS tactic_name,
+  t.FIELD_VALUES:"Strategic Priority"::text AS strategic_priority,
+  t.FIELD_VALUES:"Budget Allocation"::float AS budget_allocation
+FROM PLANNINGRECORD_CURRENT c,
+INNER JOIN REFERENCE_CURRENT R 
+ON r.FROM_REFERENCEID = c.REFERENCE_IDS:"Tactics"::text
+INNER JOIN PLANNINGRECORD_CURRENT t
+-- Join to the Tactic record using the connected record ID from the array
+ON t.RECORDID = r.TO_RECORDID
+WHERE c.RECORDTYPEID = '<your_campaign_record_type_id>'
+ORDER BY tactic_name, campaign_name
+```
+
+### Respuesta
+
+La consulta anterior devuelve los siguientes datos:
+
+* **campaign_id**: ID de registro de Planning único para la campaña.
+* **campaign_name**: Nombre del registro de campaña.
+* **campaign_status**: El estado actual de la campaña.
+* **tactic_name**: Nombre del registro táctico conectado.
+* **priority_estratégica**: Valor del campo Prioridad estratégica del registro táctico conectado.
+* **budget_allocation**: El valor del campo Asignación de presupuesto del registro táctico conectado, convertido en flotante.
+
+### Explicación - KP modificado
+
+Las conexiones entre tipos de registros de Planning nativos se almacenan en una tabla de combinación REFERENCE_CURRENT.  La tabla de combinación REFERENCE_CURRENT se utiliza para las uniones entre RecordType.   Al unir entre RecordType, se debe utilizar el campo TO_RECORDID.
+
+La columna REFERENCE_ID de la vista PLANNINGRECORD contiene una lista de todos los campos REFERENCEID aplicables a ese registro de planificación. Puede acceder al ID utilizando la misma notación JSON como field_value.
+
+```
+<reference_ids>:"<reference_name>"::text
+```
+
+La vista REFERENCE_CURRENT contiene uno o más registros donde TO_RECORDID apunta a otros campos de `recordId` de planificación en las vistas de PLANNINGRECORD_*.
+
+Para unir otro campo REFERENCE a registros de planificación adicionales, se agregarían a la consulta anterior las vistas REFERENCE_CURRENT y PLANNINGRECORD_* del mismo modo.
+
+
+## Planning: tipo de registro unido a la consulta de datos del flujo de trabajo de Workfront
+
+En este ejemplo se muestra cómo unir un tipo de registro de Workfront Planning a un objeto de flujo de trabajo de Workfront nativo (en este caso, un proyecto) mediante la función de conexión nativa de Planning, que almacena referencias de objetos externos en la vista REFERENCE_CURRENT.
+
+### Escenario
+
+Su organización conecta registros de Campaign en Workfront Planning a Workfront Projects mediante la función de conexión nativa de Planning. Desea producir un informe combinado que muestre los detalles de la campaña junto con los datos de la ejecución en directo del proyecto vinculado, específicamente el porcentaje completado actual del proyecto, la fecha planificada de finalización y el propietario del proyecto asignado, de modo que los administradores de campaña puedan realizar un seguimiento del progreso de entrega sin salir del contexto de Planning Workspace.
+
+### Consulta
+
+```sql
+SELECT
+  c.RECORDID AS campaign_id,
+  c.FIELD_VALUES:"Name"::text AS campaign_name,
+  c.FIELD_VALUES:"Status"::text AS campaign_status,
+  conn.TO_EXTERNALID AS linked_project_id,
+  p.name AS project_name,
+  p.percentcomplete AS project_percent_complete,
+  p.plannedcompletiondate AS project_planned_completion,
+  p.ownerid AS project_owner_id,
+  u.name AS project_owner_name
+FROM WORKFRONT.PLANNING.PLANNINGRECORD_CURRENT c
+-- Join to the references table to find Workfront Project connections
+INNER JOIN WORKFRONT.PLANNING.REFERENCE_CURRENT conn
+ON conn.REFERENCE_ID = c.REFERENCE_IDS:"ProjectId"::text
+-- Join to the Workfront Projects table on the external ID
+INNER JOIN WORKFRONT.WF.PROJECTS_CURRENT p
+ON p.projectid = conn.TO_EXTERNALID
+-- Join to Users to resolve the project owner name
+LEFT JOIN WORKFRONT.WF.USERS_CURRENT u
+ON u.userid = p.ownerid
+WHERE c.RECORDTYPEID = '<your_campaign_record_type_id>'
+AND p.completiontype != 'CPL' -- Exclude completed projects
+ORDER BY campaign_name
+```
+
+### Respuesta
+
+La consulta anterior devuelve los siguientes datos:
+
+* **campaign_id**: ID de registro de Planning único para la campaña.
+* **campaign_name**: Nombre del registro de campaña.
+* **campaign_status**: El estado actual de la campaña, de Planning.
+* **linked_project_id**: El identificador de proyecto de Workfront de REFERENCE_CURRENT.TO_EXTERNALID, que identifica el proyecto de Workfront conectado.
+* **project_name**: El nombre de proyecto nativo de Workfront de PROJECTS_CURRENT.
+* **project_percent_complete**: el valor de porcentaje completado actual del proyecto.
+* **project_planning_completion**: La fecha planificada de finalización del proyecto de Workfront vinculado.
+* **project_owner_id**: el identificador de usuario de Workfront del propietario del proyecto.
+* **nombre_propietario_proyecto**: El nombre para mostrar del propietario del proyecto, resuelto uniéndose a USERS_CURRENT.
+
+### Explicación
+
+Las conexiones de un tipo de registro de Planning a un objeto de flujo de trabajo de Workfront nativo se almacenan en REFERENCE_CURRENT. Cada fila de esta vista representa un vínculo direccional: TO_EXTERNALID contiene el ID. del objeto de Workfront conectado. Las filas que representan conexiones de Workfront se identifican mediante `TO_EXTERNALCONNECTIONNAME = 'workfront'` y un valor TO_EXTERNALOBJECTNAME que corresponde al código de API del tipo de objeto de Workfront; por ejemplo, PROJ for Projects.
+
+La columna REFERENCE_ID de las tablas de PLANNINGRECORD contiene una lista de todos los campos REFERENCEID aplicables a ese registro.  Puede acceder al ID utilizando la misma notación JSON como field_value.\
+Un solo REFERENCE_ID en PLANNINGRECORD_CURRENT puede contener uno o más enlaces de referencia en la tabla REFERENCE_CURRENT que enlacen a objetos de un tipo de objeto específico en la tabla de Workfront.
+
+```
+<reference_ids>:"<reference_name>"::text
+```
+
+Tenga en cuenta que las vistas de Planning (PLANNINGRECORD_CURRENT, REFERENCE_CURRENT) residen en el esquema WORKFRONT.PLANNING, mientras que las vistas nativas de flujo de trabajo de Workfront (PROJECTS_CURRENT, USERS_CURRENT, etc.) residen en el esquema WORKFRONT.WF. Las uniones entre esquemas requieren nombres de tabla completos.
+
+La consulta realiza tres combinaciones:
+
+1. **Planning registra la tabla de referencias:** REFERENCE_CURRENT se unió el `TO_RECORDID = c.RECORDID` para buscar todas las conexiones que se originan de cada registro de Campaign. Los filtros de `TO_EXTERNALCONNECTIONNAME = 'workfront'` y `TO_EXTERNALOBJECTNAME = 'PROJ'` limitan los resultados a filas que representan específicamente conexiones a proyectos de Workfront.
+1. **Referencias de tabla a proyectos de Workfront:** TO_EXTERNALID contiene el ID de proyecto nativo de Workfront para el proyecto conectado. Se ha unido directamente a `PROJECTS_CURRENT.projectid` para recuperar los datos del proyecto activo.
+1. **Proyectos para usuarios:** Un LEFT JOIN to USERS_CURRENT resuelve la clave externa del identificador de propietario del proyecto en un nombre legible en lenguaje natural. Aquí se utiliza LEFT JOIN para que los proyectos sin propietario asignado se incluyan en los resultados.
+
+>[!NOTE]
+>
+>Al combinar con tablas externas a Planning, NO utilice el campo TO_RECORDID en la consulta.  No es necesario cuando se unen a tablas externas.
+>
+>Este patrón se puede aplicar a cualquier objeto de flujo de trabajo de Workfront al que Planning admita la conexión, como Proyectos, Portafolios o Programas, cambiando el filtro TO_EXTERNALOBJECTNAME por el código de API de objeto adecuado (por ejemplo, PUERTO para Portafolios o PRGM para Programas) y uniéndolo a la tabla WORKFRONT.WF correspondiente. Consulte el diccionario de datos de Workfront Data Connect para obtener los nombres de tabla y columna de ID correctos para cada tipo de objeto.
+
+Para unir otro campo REFERENCE a registros externos adicionales, se agregaría a la consulta anterior el mismo patrón de unión a REFERENCE_CURRENT y las vistas de flujo de trabajo de Workfront.
+
+Los valores de registros externos y planificados se pueden unir en la misma consulta uniendo varias veces a la tabla REFERENCE_CURRENT y utilizando el patrón de unión adecuado.
 
 
 <!--
