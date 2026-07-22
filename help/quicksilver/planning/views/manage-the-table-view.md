@@ -19,19 +19,20 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 1002d0ce293d00b70821e13da280c6f817c8eb9d
+source-git-commit: ce4f0de26be9a0b239c2464c97a3b47038be9108
 workflow-type: tm+mt
-source-wordcount: 6353
-ht-degree: 58%
+source-wordcount: 3684
+ht-degree: 54%
 
 ---
 
 # Administrar la vista de tabla
 
+<!--
+<span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>
 
-<span class="preview">La información resaltada en esta página hace referencia a funcionalidades que aún no están disponibles de forma general. Solo está disponible en el entorno de vista previa para todos los clientes. Después del lanzamiento en Vista previa, las mismas funciones también están disponibles mensualmente en el entorno de producción para los clientes que habilitaron lanzamientos rápidos. </span>
-
-<span class="preview">Para obtener información sobre las versiones rápidas, consulte [Habilitar o deshabilitar las versiones rápidas para su organización](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 
 {{planning-important-intro}}
@@ -157,472 +158,6 @@ Puede editar la información de los registros en la vista de tabla.
 Para obtener más información sobre la edición de registros en la vista de tabla, consulte [Editar registros](/help/quicksilver/planning/records/edit-records.md).
 
 ## Administrar una vista de tabla {#manage-a-table-view}
-
-<span class="preview">La administración de la vista de tabla es diferente según el entorno desde el que se accede a ella. </span>
-
-## Administrar la vista de tabla en el entorno de producción
-
-Al crear una vista de tabla, todos los registros del tipo seleccionado se muestran en una tabla. Cada fila es un registro único y cada columna es un campo de registro. Todos los campos y todos los registros se muestran de forma predeterminada.
-
-Para administrar una vista de tabla:
-
-1. Cree una vista de tabla, tal como se describe en el artículo [Administrar vistas de registros](/help/quicksilver/planning/views/manage-record-views.md).
-
-   ![Ejemplo de vista de tabla](assets/table-view-example.png)
-
-1. (Opcional) Haga clic en **Altura de la fila** y, a continuación, seleccione una de las siguientes opciones para modificar la altura de las filas de la tabla:
-   * Baja
-   * Estándar
-   * Media
-   * Alta
-
-1. (Opcional) Haga clic en el icono **Pantalla completa** ![Abrir icono de pantalla completa](assets/open-full-screen-icon.png) para abrir la vista en pantalla completa y, a continuación, en el icono **Salir de pantalla completa** ![Salir del icono de pantalla completa](assets/exit-full-screen-icon.png) o Escape del teclado para salir de la pantalla completa.
-
-1. Actualice los siguientes elementos de vista como se describe en las subsecciones siguientes:
-   * [Columnas (o campos)](#add-columns-or-fields)
-   * [Filas (o registros)](#add-rows-or-records)
-   * [Filtros](#add-filters)
-   * [Ordenar](#add-a-sort)
-   * [Agrupación](#add-groupings)
-   * [Colores de la fila](#add-row-colors)
-   * [Indicador de presencia en tiempo real](#enable-the-real-time-presence-indicator)
-
-
-### Añadir columnas (o campos) {#add-columns}
-
-Los encabezados de columna de una vista de tabla muestran los campos asociados a los registros de la vista. Los campos mostrados en la vista de tabla también se muestran en la sección Detalles de un registro.
-
-Para obtener más información, consulte [Editar registros](/help/quicksilver/planning/records/edit-records.md).
-
-<!--this is not available yet:You can display record fields (or columns) in both a table and a timeline view. However, the number of columns displayed in the table of the timeline view is limited and you cannot add columns in addition to those selected by default.-->
-
-Añadir columnas a una vista es idéntico a añadir campos a un tipo de registro.
-
-Puede añadir hasta 500 campos (o columnas) en una vista de tabla.
-
-1. Vaya a una página de tipo de registro y haga clic en una ficha de vista de tabla, o bien haga clic en **+ Vista** para añadir una nueva vista y, a continuación, elija **Tabla**.
-
-1. Empiece a añadir campos (o columnas), tal como se describe en el artículo [Crear campos](/help/quicksilver/planning/fields/create-fields.md).
-
-   Las columnas que añada serán visibles para todos los usuarios que tengan acceso al tipo de registro y se añadirán como campos nuevos en la página del registro.
-
-1. (Opcional) Haga clic en el icono **Campos** ![Icono de Campos](assets/fields-icon.png) en la barra de herramientas, busque un campo y, a continuación, anule la selección del botón de alternancia a la derecha del nombre del campo para ocultar el campo.
-
-1. Realice una de las siguientes acciones para reordenar las columnas de la tabla:
-
-   * Arrastre el encabezado de la columna y suéltelo en la posición deseada. La columna que ha movido se mostrará brevemente con un fondo azul hasta que realice otros ajustes en la tabla.
-
-   * Haga clic en **Campos** en la barra de herramientas de la tabla, arrastre y suelte los campos en el orden deseado y, a continuación, haga clic fuera del cuadro **Visibilidad y orden de los campos** para cerrarlo.
-
-     ![Campos configurando la barra de herramientas de la vista de tabla expandida](assets/fields-setting-table-view-toolbar-expanded.png)
-
-     >[!TIP]
-     >
-     >* El campo Nombre es siempre el primer campo de la vista de tabla, de forma predeterminada. Se considera un campo principal
-     >
-     >* No puede mover el campo Nombre a otra posición, a menos que designe otro como campo principal. Para obtener más información, continúe en el paso 4. <!--accurate?-->
-     >
-     >
-
-   * Reemplace el campo de la primera columna por otro cambiando el campo principal. Para obtener más información, continúe en el paso 4. <!--accurate?-->
-
-1. (Opcional) Pase el puntero por encima de un nombre de campo en el encabezado de columna de cualquier campo que no se muestre en la primera columna de la tabla, haga clic en la flecha hacia abajo situada a la derecha del nombre del campo y, a continuación, haga clic en **Establecer como campo principal**.
-
-   ![Establecer como opción de campo principal en la vista de tabla](assets/set-as-primary-field-option-table-view.png)
-
-1. Haga clic en **Establecer campo** para confirmar.
-
-   El campo se convertirá en un campo principal, lo que significa que se mostrará como la primera columna de la vista de tabla. El campo principal anterior se desplazará a la segunda columna.
-
-   Los campos principales se convierten en el título del registro y se muestran en el área de encabezado de la página del registro y en cualquier lugar donde se muestren los registros. Por ejemplo, el título del registro se muestra en los campos conectados y en todas las vistas. Para obtener más información acerca de los campos principales, consulte [Información general sobre el campo principal](/help/quicksilver/planning/fields/primary-field-overview.md).
-
-1. Haga clic en las líneas de separación de columnas, y arrástrelas y suéltelas en el lugar deseado para aumentar la anchura de las columnas.
-
-   >[!TIP]
-   >
-   >Los cambios que realice en la anchura y el orden de las columnas serán permanentes y visibles para todos los usuarios que tengan acceso al tipo de registro.
-
-1. Pase el puntero por encima del encabezado de la columna, haga clic en la flecha que apunta hacia abajo y, a continuación, en **Ocultar campo**
-
-   O
-
-   Haga clic en **Campos** en la barra de herramientas de la tabla y deshabilite el conmutador asociado a los campos (o columnas) que desee ocultar. Se mostrará el cuadro **Visibilidad y orden de los campos**.
-
-   >[!TIP]
-   >
-   >El número de campos ocultos se muestra a la izquierda del icono Campos de la barra de herramientas.
-   >
-   >De manera predeterminada, los campos ocultos no se muestran en el cuadro de vista previa **Detalles** del registro. Todos los campos se muestran en la página Detalles del registro. Para obtener más información, vea [Administrar el diseño de la página de registros](/help/quicksilver/planning/records/manage-the-record-page.md).
-
-
-1. Haga clic en el icono **Campos** y habilite la opción asociada a los campos que desea mostrar en las columnas de la tabla. Todos los campos se mostrarán de forma predeterminada.
-
-1. Haga lo siguiente para buscar rápidamente registros que coincidan con una palabra clave:
-
-   1. En el cuadro **Buscar** ![Icono de búsqueda](assets/search-icon.png) y empiece a escribir una palabra clave asociada a cualquier campo de un registro que se muestra en la pantalla. El número de coincidencias correctas se mostrará junto al elemento de búsqueda y el campo con la coincidencia correcta quedará resaltado.
-
-      ![Cuadro de búsqueda con contorno azul de resultados en la vista de tabla](assets/search-box-with-results-blue-outline-table-view.png)
-
-      Puede utilizar cualquier palabra o carácter especial que esté visible en la pantalla.
-
-      No se pueden utilizar palabras clave asociadas a campos que estén ocultos en la vista de tabla.
-
-   1. Pulse **Intro** en el teclado para ir al siguiente campo encontrado.
-
-   1. (Opcional) Si hay más de una coincidencia, haga clic en las flechas arriba y abajo situadas a la derecha de la palabra clave de búsqueda para encontrar todas las coincidencias de la tabla.
-
-   1. Haga clic en el icono **x** en el cuadro de búsqueda para borrar la palabra clave de búsqueda.
-
-
-### Añadir filas (o registros) {#add-rows}
-
-Las filas de una vista de tabla muestran registros individuales del tipo de registro seleccionado.
-
-Puede tener hasta 50 000 registros (o filas) para .
-
-1. Vaya a una página de tipo de registro y haga clic en una ficha de vista de tabla, o bien haga clic en **+ Vista** para añadir una nueva vista y, a continuación, elija **Tabla**.
-
-1. Empiece a añadir registros (o filas), tal como se describe en el artículo [Crear registros](/help/quicksilver/planning/records/create-records.md).
-
-   Los registros que añada a la vista de tabla se guardarán inmediatamente y serán visibles para todos los usuarios que tengan permisos de vista o superiores sobre el área de trabajo.
-
-   También se agrega una imagen en miniatura al registro.
-
-1. (Opcional) Haga clic en el menú **Más** ![Menú más](assets/more-menu.png) que hay a la derecha del nombre del registro y, a continuación, haga clic en **Editar miniatura** para agregar una nueva miniatura al nuevo registro.
-
-1. Haga clic en **Campos** en la parte superior de la tabla y, a continuación, seleccione la opción del campo **Miniatura** para mostrarlo a la izquierda del campo principal.
-
-   Para obtener más información, consulte [Añadir una miniatura a un registro](/help/quicksilver/planning/records/add-thumbnails-to-records.md).
-
-1. (Opcional) Seleccione uno o varios registros de una fila y, a continuación, arrastre y suelte el icono **controlador** ![icono de controlador](assets/handle-icon.png) a la izquierda del registro para reordenar las filas.
-
-   >[!NOTE]
-   >
-   >No se pueden reordenar filas si se aplica al menos una ordenación a la vista de tabla.
-   >
-   >Los cambios que realice en el orden de filas serán visibles para todos los usuarios que tengan acceso al tipo de registro
-
-<!-- this section below links from the timeline view; consider splitting them if they become different-->
-
-### Añadir filtros {#add-filters}
-
-Los filtros le ayudan a reducir la cantidad de información que se muestra en la pantalla.
-
-Tenga en cuenta lo siguiente cuando utilice filtros en la vista de tabla:
-
-<!-- this list is almost identical to the one for the table view - update both-->
-
-* Los filtros que cree para la vista de tabla funcionan de forma independiente de los filtros de la vista de cronología cuando se aplican al mismo tipo de registro.
-
-* Los filtros son exclusivos de la vista que seleccione. En dos vistas de tabla con el mismo tipo de registro se pueden aplicar diferentes filtros. Dos usuarios que consulten la misma vista de tabla verán el mismo filtro aplicado en ese momento.
-
-* No puede asignar un nombre a los filtros que genere y aplique a una vista de tabla.
-
-* Al quitar los filtros, se quitarán para todas las personas que tengan acceso al mismo tipo de registro que usted y utilicen la misma vista que utiliza.
-
-* Puede filtrar por campos de registro conectados o por campos de búsqueda.
-
-* Puede filtrar por campos de búsqueda que muestren varios valores.
-
-* Puede hacer referencia a un campo que esté situado a una distancia de hasta 4 niveles del tipo de registro actual. Por ejemplo, si va a crear un filtro para un tipo de registro de actividad y la actividad está conectada al tipo de registro de producto que está conectado al tipo de registro de campaña que está conectado a un proyecto de Workfront, puede hacer referencia al presupuesto del proyecto en el filtro que va a crear para el tipo de registro de actividad.
-
-Para añadir un filtro a una vista de tabla:
-
-1. Cree una vista de tabla para una página de tipo de registro, tal como se describe en el artículo [Administrar vistas de registros](/help/quicksilver/planning/views/manage-record-views.md).
-1. Seleccione una vista de tabla y luego haga clic en **Filtros** en la esquina superior derecha de la tabla.
-1. Haga clic en **Añadir condición** y añada la siguiente información:
-
-   * Busque un campo y selecciónelo cuando se muestre en la lista.
-
-   * **Seleccione una opción** (o un modificador de filtro) para definir qué tipo de condición debe cumplir el campo
-
-     En la tabla siguiente se muestran los modificadores disponibles para cada tipo de campo.
-
-     <table>
-        <thead>
-        <tr>
-            <th><b>Tipo de campo</b></th>
-            <th><b>Modificadores</b></th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr>
-            <td>Una sola línea, párrafo, fórmula </td>
-            <td><p>Contiene</p>
-            <p>No contiene</p>
-            <p>Es</p>
-            <p>No es</p>
-            <p>Está vacío</p>
-            <p>No está vacío</p></td>
-        </tr>
-        <tr><td>Selección única</td>
-            <td><p>Es</p>
-            <p>No es</p>
-            <p>Es cualquiera de</p>
-            <p>No es ninguno de</p>
-            <p>Está vacío</p>
-            <p>No está vacío</p></td>
-        </tr>
-        <tr>
-            <td>Selección múltiple, Personas</td>
-            <td><p>Tiene cualquiera de</p>
-            <p>Tiene todas de</p>
-            <p>Es exactamente</p>
-            <p>No tiene ninguno de</p>
-            <p>Está vacío</p>
-            <p>No está vacío</p></td>
-        </tr>
-        <tr>
-            <td>Número, Porcentaje, Moneda</td>
-            <td><p>=</p>
-            <p>≠</p>
-            <p> &lt; </p>
-            <p>&gt;</p>
-            <p>≤</p>
-            <p>≥</p>
-            <p>Está vacío</p>
-            <p>No está vacío</p></td>
-        </tr>
-        <tr>
-            <td>Fecha</td>
-            <td><p>Es</p>
-            <p>No es</p>
-            <p>Es después de</p>
-            <p>Es anterior a</p>
-            <p>Está entre</p><p>No está entre</p>
-            <p>Está vacío</p><p>No está vacío</p></td>
-        </tr>
-
-     <tr>
-            <td>Casilla de verificación</td>
-            <td><p>Es</p>
-        </tr>
-        </tbody>
-        </table>
-
-   * Seleccione un valor para el campo seleccionado.
-
-   ![Vista de tabla de IU de filtro](assets/filter-ui-table-view.png)
-
-   No hay límite en cuanto a las condiciones de filtrado que se pueden añadir.
-
-1. (Opcional) Haga clic en **Añadir condición** para añadir otra opción de filtrado y repita los pasos anteriores. El número de filtros aplicados se muestra a la izquierda del icono Filtros.
-1. Haga clic en los siguientes operadores para indicar cómo se unen y deberían aplicarse las condiciones de filtro:
-
-   * **AND**: se deben cumplir todas las condiciones especificadas.
-   * **OR**: se debe cumplir cualquiera de las condiciones especificadas. Esta es la opción predeterminada.
-
-   1. (Opcional) Agregue operadores **AND** o **OR** adicionales entre varias agrupaciones de condiciones.
-
-      ![Filtros de varios niveles en las vistas](assets/multi-tiered-filters-in-views.png)
-
-   La lista de registros se filtra automáticamente.  <!--at this time, you can't name and save the filter - but will this change?!-->
-   <!-- asked on the task for the simple filters whether there is a limitation for how many statements a filter can have?!-->
-
-1. (Opcional) Haga clic en el icono **x** para quitar una condición de filtro.
-1. (Opcional) Haga clic en **Filtros** para cerrar el cuadro de filtros. <!--right now you cannot "clear all" for filters, but this might come later-->
-
-### Añadir una ordenación {#sort-information}
-
-Al aplicar una ordenación, puede organizar la información en un orden determinado.
-
-Puede ordenar la siguiente información:
-
-* Todos los registros de una vista de tabla. <!--or timeline view. ***********verify this is the case for the timeline view*********************-->
-  <!--* All groupings. - this is not available yet-->
-
-Tenga en cuenta lo siguiente al ordenar registros en la vista de tabla:
-
-<!-- if this is available for the timeline view, update both when you update one-->
-
-* La ordenación es única para la vista que seleccione. En dos vistas de tabla con el mismo tipo de registro se pueden aplicar diferentes criterios de ordenación. Dos usuarios que consulten la misma vista de tabla verán el mismo orden que se aplica en ese momento.
-
-* No puede asignar un nombre a las ordenaciones que genere y aplique a una vista de tabla.
-
-* El orden creado se conservará cuando deje de navegar.
-
-* Puede ordenar por tantos campos como vea en la vista de tabla de un tipo de registro.
-
-* No puede ordenar por los campos de registro conectados, pero puede ordenar por los campos de búsqueda de tipos de registro conectados.
-
-* Al ordenar por los campos de búsqueda con varios valores (que no se hayan resumido con un agregador), se utiliza el primer valor para ordenar.
-
-* Cuando se quitan los criterios de ordenación, se quitan para cualquier usuario que tenga acceso al mismo tipo de registro que el suyo y utilice la misma vista que utiliza.
-
-* Puede hacer referencia a un campo que esté situado a una distancia de hasta 4 niveles del tipo de registro actual. Por ejemplo, si va a crear una ordenación para un tipo de registro de actividad y la actividad está conectada al tipo de registro de producto que está conectado al tipo de registro de campaña que está conectado a un proyecto de Workfront, puede hacer referencia al estado del proyecto en la ordenación que va a crear para el tipo de registro de actividad.
-
-Para ordenar registros <!--ungrouped (add this when sorting for groupings will be available-->, haga lo siguiente:
-
-1. Cree una vista de tabla, tal como se describe en el artículo [Administrar vistas de registros](/help/quicksilver/planning/views/manage-record-views.md).
-1. Haga clic en el icono **Ordenar** ![Icono Ordenar](assets/sort-icon.png) en la esquina superior derecha de la tabla
-
-   O
-
-   Pase el puntero por encima del nombre de una columna en la vista de tabla, haga clic en la flecha hacia abajo a la derecha del nombre del encabezado de la columna y, a continuación, haga clic en **Ordenar por este campo**. El campo se añade como una selección de ordenación en el icono de Ordenar de la esquina superior derecha de la vista de tabla.
-
-1. (Condicional) En el cuadro **Ordenar registros por**, haga clic en uno de los campos sugeridos o haga clic en **Elegir un campo diferente** y busque un campo diferente; a continuación, haga clic en él cuando se muestre en la lista.
-
-   El orden se aplicará automáticamente a la vista de tabla y los registros se mostrarán ordenados según los criterios seleccionados.
-
-   <!-- add a step that you can rearrange the sorting fields here, when this will be possible-->
-
-1. (Opcional) Haga clic en **Añadir condición** y repita los pasos anteriores para ordenar por campos adicionales.
-
-   El número de campos por el que está ordenando se muestra a la izquierda del icono de Ordenar en la esquina superior derecha de la barra de herramientas. Solo puede elegir campos que se muestran en las columnas de la vista de tabla.
-
-1. (Opcional) En el cuadro **Ordenar registros por**, haga clic en el icono **x** a la derecha de un campo de ordenación para quitar la ordenación
-
-   O
-
-   Haga clic en **Borrar todo** para quitar todos los campos de la ordenación.
-
-1. Haga clic fuera del cuadro **Ordenar registros por** para cerrarlo.
-
-   ![Ordenando en la vista de tabla](assets/sorting-in-table-view.png)
-
-   La información mostrada en la tabla se ordena según los criterios seleccionados.
-
-   Los campos seleccionados para la ordenación muestran un icono de ordenación seguido de un número que indica el orden de aplicación de la ordenación.
-
-### Añadir agrupaciones {#add-groupings}
-
-<!--this section exists in the timeline view too, but the display is slightly different, so I kept both steps; consider updating both sections if any updates to groupings are introduced-->
-
-Es posible agrupar registros por información similar al aplicar una agrupación a una vista.
-
-Tenga en cuenta lo siguiente:
-
-* Es posible aplicar agrupaciones tanto en las vistas de tabla como de cronología. Las agrupaciones de la vista de tabla son independientes de las de la vista de cronología del mismo tipo de registro.
-* Se pueden aplicar 3 niveles de agrupación en una vista. Los registros se agrupan en el orden de agrupaciones que seleccione.
-&lt;!—* Puede aplicar hasta 4 niveles de agrupación al utilizar la API. —comprobando este por ahora—>
-* Las agrupaciones son únicas para la vista que se seleccione. Dos vistas de tabla del mismo tipo de registro pueden tener diferentes agrupaciones aplicadas. Dos usuarios que vean la misma vista de tabla verán la misma agrupación que se aplique en ese momento.
-* No se puede asignar un nombre a las agrupaciones que se generen para una vista de tabla.
-* Al quitar las agrupaciones, se quitarán de cualquier usuario que tenga acceso al mismo tipo de registro y que muestre la misma vista que usted.
-* Es posible editar los registros enumerados bajo una agrupación.
-* Es posible agrupar por campos de registro conectados o campos de búsqueda.
-* Cuando se agrupan por campos de búsqueda con varios valores (que no se hayan resumido por un agregador), los registros se agruparán según cada combinación única de valores de campo.
-* Puede hacer referencia a un campo que esté situado a una distancia de hasta 4 niveles del tipo de registro actual. Por ejemplo, si se crea una agrupación para un tipo de registro de actividad y la actividad estuviera conectada al tipo de registro de producto, que está conectado al tipo de registro de campaña, y que está conectado a un proyecto de Workfront, se podrá hacer referencia al estado del proyecto en la agrupación que esté creando para el tipo de registro de actividad.
-* Las agrupaciones se muestran en el orden alfabético de sus valores.
-<!--checking into this: * You can apply up to 4 levels of grouping when using the API. -->
-<!-- checking also into this: * You cannot group by a Paragraph-type field.-->
-
-para añadir una agrupación:
-
-1. Cree una vista de cronología para un tipo de registro, tal y como se describe en el artículo [Administración de vistas de registros](/help/quicksilver/planning/views/manage-record-views.md).
-1. Haga clic en **Agrupación**, en la esquina superior derecha de la vista de tabla.
-
-   ![Vista de tabla de IU de agrupación con campos vinculados](assets/grouping-ui-table-view-with-linked-fields.png)
-
-1. Haga clic en uno de los campos sugeridos o en **Elegir un campo diferente**, busque uno y luego hágale clic cuando se muestre en la lista.
-
-   La agrupación se aplicará automáticamente a la tabla y los registros se mostrarán bajo la línea de separación de la agrupación.
-
-1. (Opcional) Haga clic en **Añadir condición** y repita los pasos anteriores para añadir hasta 3 agrupaciones.
-
-   El número de campos seleccionados para la agrupación se muestra junto al icono de Agrupación.
-
-   ![Agrupación aplicada en la vista de tabla](assets/grouping-applied-in-table-view.png)
-
-1. (Opcional) Dentro del cuadro **Agrupar registros por**, haga clic en el icono **x** a la derecha de un campo seleccionado para la agrupación para quitar la agrupación.
-
-1. Haga clic fuera del cuadro **Agrupar registros por** para cerrarlo.
-1. (Opcional) Haga clic en **+ Nuevo registro** al final de cualquier agrupación para añadir nuevos registros y, a continuación, actualice la página para añadir el nuevo registro a la agrupación adecuada. <!--this might need to be changed when they add the Refresh button on the toolbar of the table view-->
-
-1. Para expandir o contraer agrupaciones, siga uno de estos procedimientos:
-
-   1. Haga clic en el icono **Agrupación**, luego en **Expandir todo** o **Contraer todo**. Esto expande todas las agrupaciones y subagrupaciones de la vista de tabla.
-
-      ![Expandir y contraer todos los botones de la vista de tabla del cuadro de agrupación](assets/expand-collapse-all-buttons-on-grouping-box-table-view.png)
-
-   1. Haga clic con el botón secundario en cualquiera de los encabezados de agrupación de la vista de tabla y, a continuación, haga clic en una de las siguientes opciones:
-      * **Expandir grupo**
-      * **Contraer grupo**
-      * **Expandir todo**
-      * **Contraer todo**
-      * **Expandir subgrupos**
-      * **Contraer subgrupos**
-
-      Según el número de agrupaciones que aplique a la vista, es posible que algunas opciones no estén disponibles.
-
-<!--
- this is not available yet: 
-
-To sort grouped records: 
-
-1. Create a view, as described in [Create or edit record views](#create-or-edit-record-views). 
-1. ************************* add steps here for sorting grouped records****************
-
--->
-
-### Agregar colores de fila
-
-1. (Opcional) Haga clic en **Colores de fila** para definir las condiciones y elegir configurar diferentes colores para las filas de la tabla.
-
-1. Haga clic en **Agregar color**, luego busque un campo y selecciónelo cuando se muestre en la lista. Este es el campo cuyo valor desea determinar el color de una fila.
-
-   Por ejemplo, para mostrar campañas con el estado Activo en verde, seleccione **Estado** y, a continuación, elija un modificador y un valor para el campo.
-
-   ![Cuadro de colores de fila con estado Activo seleccionado y opción de color predeterminada](assets/row-colors-box-with-active-status-selected-default-color-choice.png)
-
-1. Haga clic en el menú desplegable del selector de color en la esquina superior izquierda de la condición seleccionada, para elegir el color de la condición y, a continuación, haga clic fuera del cuadro selector de color para cerrarlo.
-
-   ![Menú desplegable del selector de color en el cuadro Colores de fila resaltado](assets/drop-down-color-picker-menu-in-row-colors-box-highlighted.png)
-
-1. (Opcional) Haga clic en **Agregar condición** para agregar más campos y valores al primer conjunto de condiciones
-
-   O
-
-   Haga clic en **Agregar color** para agregar un nuevo conjunto de condiciones e identificar un nuevo color.
-
-   Por ejemplo, puede mostrar las campañas en un estado de Planning en amarillo definiendo un nuevo conjunto de condiciones.
-
-   ![Cuadro de colores de fila con colores personalizados de estado Activo y Planificación](assets/row-colors-box-with-active-and-planning-status-custom-colors.png)
-
-1. (Opcional) Active la opción **Aplicar a toda la fila** en la esquina superior derecha del cuadro Colores de fila. Toda la fila donde se cumple la condición se muestra automáticamente en el color seleccionado.
-
-   >[!NOTE]
-   >
-   >* Si la configuración Aplicar a toda la fila está desactivada, solo el lado izquierdo del campo Principal muestra un indicador de color estrecho con el color seleccionado. La configuración está desactivada de forma predeterminada.
-   >
-   >* No se pueden aplicar colores de fila a toda una fila si se ha seleccionado al menos una agrupación en la vista de tabla. El color de función solo se aplica a la izquierda de la celda del campo principal cuando se aplican agrupaciones a la tabla.
-
-1. Haga clic fuera del cuadro **Colores de fila** para cerrarlo. Los colores se aplican automáticamente.
-
-### Habilitar el indicador de presencia en tiempo real
-
-De forma predeterminada, los avatares de otros usuarios que están editando información de registro al mismo tiempo que se muestran en la esquina superior derecha de todas las vistas de registros.
-
-Al mostrar la vista de tabla, también puede ver qué campo está editando otro usuario en el momento en que está viendo el registro.
-
-1. Vaya a una página de tipo de registro y abra cualquier vista.
-1. (Condicional) Si hay otros usuarios editando al mismo tiempo los registros del tipo seleccionado, sus avatares se mostrarán en la esquina superior derecha de la vista.
-1. Haga clic en el menú desplegable situado junto a los avatares y active la configuración **Mostrar colaboradores**. La configuración está activada de forma predeterminada.
-
-   ![Mostrar colaboradores seleccionados](assets/show-collaborators-toggle-selected.png)
-
-   >[!TIP]
-   >
-   >Puede seleccionar la opción **Mostrar colaboradores** de cualquier vista. El campo editado actualmente por otros usuarios sólo se describe en la vista de tabla.
-
-1. (Condicional) Abra una vista de tabla y el campo que otra persona está editando activamente se resaltará en el color correspondiente al contorno de su avatar en la vista de tabla.
-
-   Si el color de resaltado del avatar es gris, el usuario dejó de editar activamente el registro hace más de 30 segundos.
-
-   ![Campo de tabla de indicadores en tiempo real y conexión de avatar](assets/real-time-indicator-table-field-and-avatar-connection.png)
-
-   <!--maybe include a screen shot after release if they update the UI text in this list of users-->
-
-1. (Opcional) Haga clic en el triángulo en la esquina superior derecha de la celda que contiene el campo editado por otros usuarios. Se muestra una lista de los usuarios que están editando el campo actualmente.
-
->[!TIP]
->
->Los indicadores de presencia en tiempo real muestran a los usuarios que están editando un campo en cualquier lugar de Workfront Planning. Esto incluye la vista de tabla o el área de detalles del registro.
-
-
-
-<div class="preview">
-
-## Administrar la vista de tabla en el entorno de vista previa
 
 <!--********** MAYBE THIS IS VALID ONLY WHEN WE REPLACE THE NAVIGATION ?????????*********-->
 
@@ -762,7 +297,7 @@ Puede añadir hasta 500 campos (o columnas) en una vista de tabla.
 
 ### Añadir filas (o registros) {#add-rows-1}
 
-Las filas de una vista de tabla muestran registros individuales del tipo de registro seleccionado.
+Las filas de una vista de tabla muestran registros individuales del tipo de registro seleccionado. Añadir filas es idéntico a crear registros.
 
 Puede tener hasta 50 000 registros (o filas) para un tipo de registro.
 
@@ -780,27 +315,133 @@ Puede tener hasta 50 000 registros (o filas) para un tipo de registro.
    Para obtener más información, consulte [Añadir una miniatura a un registro](/help/quicksilver/planning/records/add-thumbnails-to-records.md).
 
 <!--
-******************** NOT POSSIBLE NOW **********
-
-1. (Optional) Select one or multiple records in a row, then drag and drop the **handle** icon ![Handle icon](assets/handle-icon.png) to the left of the record to reorder the rows. 
-
-    >[!NOTE]
-    >
-    >You cannot reorder rows if you apply at least one sort to the table view. 
-    >
-    >The changes you make to the row order are visible to all users who access the record type
-
-
-******************** NOT POSSIBLE ABOVE **************
+For July 23: you might need to add some spacing below:
+1. <span class="preview">(Optional) Click **Fields** at the top of the table, then click **Color** to display the color of a record to the left of its primary field. Colors are assigned randomly by default for each new record. The **Color** setting is deselected by default.</span>
+1. <span class="preview"> (Optional and conditional) If you turned on the **Color** setting, click the color bar to the left of the record's primary field and select a color from the **Swatches** or **Custom** tabs, then click outside the box to close it. The color is applied immediately.</span>
+    <span class="preview">
+    ![Record color coding color picker box](assets/color-picker-for-record-color-coding.png)
+    </span>
 -->
 
 ### Añadir filtros {#add-filters-1}
 
 Los filtros le ayudan a reducir la cantidad de información que se muestra en la pantalla.
 
-Añadir filtros en la vista de tabla del entorno de vista previa es idéntico a añadir filtros en el entorno de producción.
+Los filtros le ayudan a reducir la cantidad de información que se muestra en la pantalla.
 
-Para obtener más información, consulte la sección [Agregar filtros](#add-filters) en este artículo.
+Tenga en cuenta lo siguiente cuando utilice filtros en la vista de tabla:
+
+<!-- this list is almost identical to the one for the table view - update both-->
+
+* Los filtros que cree para la vista de tabla funcionan de forma independiente de los filtros de la vista de cronología cuando se aplican al mismo tipo de registro.
+
+* Los filtros son exclusivos de la vista que seleccione. En dos vistas de tabla con el mismo tipo de registro se pueden aplicar diferentes filtros. Dos usuarios que consulten la misma vista de tabla verán el mismo filtro aplicado en ese momento.
+
+* No puede asignar un nombre a los filtros que genere y aplique a una vista de tabla.
+
+* Al quitar los filtros, se quitarán para todas las personas que tengan acceso al mismo tipo de registro que usted y utilicen la misma vista que utiliza.
+
+* Puede filtrar por campos de registro conectados o por campos de búsqueda.
+
+* Puede filtrar por campos de búsqueda que muestren varios valores.
+
+* Puede hacer referencia a un campo que esté situado a una distancia de hasta 4 niveles del tipo de registro actual. Por ejemplo, si va a crear un filtro para un tipo de registro de actividad y la actividad está conectada al tipo de registro de producto que está conectado al tipo de registro de campaña que está conectado a un proyecto de Workfront, puede hacer referencia al presupuesto del proyecto en el filtro que va a crear para el tipo de registro de actividad.
+
+Para añadir un filtro a una vista de tabla:
+
+1. Cree una vista de tabla para una página de tipo de registro, tal como se describe en el artículo [Administrar vistas de registros](/help/quicksilver/planning/views/manage-record-views.md).
+1. Seleccione una vista de tabla y luego haga clic en **Filtros** en la esquina superior derecha de la tabla.
+1. Haga clic en **Añadir condición** y añada la siguiente información:
+
+   * Busque un campo y selecciónelo cuando se muestre en la lista.
+
+   * **Seleccione una opción** (o un modificador de filtro) para definir qué tipo de condición debe cumplir el campo
+
+     En la tabla siguiente se muestran los modificadores disponibles para cada tipo de campo.
+
+     <table>
+        <thead>
+        <tr>
+            <th><b>Tipo de campo</b></th>
+            <th><b>Modificadores</b></th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>Una sola línea, párrafo, fórmula </td>
+            <td><p>Contiene</p>
+            <p>No contiene</p>
+            <p>Es</p>
+            <p>No es</p>
+            <p>Está vacío</p>
+            <p>No está vacío</p></td>
+        </tr>
+        <tr><td>Selección única</td>
+            <td><p>Es</p>
+            <p>No es</p>
+            <p>Es cualquiera de</p>
+            <p>No es ninguno de</p>
+            <p>Está vacío</p>
+            <p>No está vacío</p></td>
+        </tr>
+        <tr>
+            <td>Selección múltiple, Personas</td>
+            <td><p>Tiene cualquiera de</p>
+            <p>Tiene todas de</p>
+            <p>Es exactamente</p>
+            <p>No tiene ninguno de</p>
+            <p>Está vacío</p>
+            <p>No está vacío</p></td>
+        </tr>
+        <tr>
+            <td>Número, Porcentaje, Moneda</td>
+            <td><p>=</p>
+            <p>≠</p>
+            <p> &lt; </p>
+            <p>&gt;</p>
+            <p>≤</p>
+            <p>≥</p>
+            <p>Está vacío</p>
+            <p>No está vacío</p></td>
+        </tr>
+        <tr>
+            <td>Fecha</td>
+            <td><p>Es</p>
+            <p>No es</p>
+            <p>Es después de</p>
+            <p>Es anterior a</p>
+            <p>Está entre</p><p>No está entre</p>
+            <p>Está vacío</p><p>No está vacío</p></td>
+        </tr>
+
+     <tr>
+            <td>Casilla de verificación</td>
+            <td><p>Es</p>
+        </tr>
+        </tbody>
+        </table>
+
+   * Seleccione un valor para el campo seleccionado.
+
+   ![Vista de tabla de IU de filtro](assets/filter-ui-table-view.png)
+
+   No hay límite en cuanto a las condiciones de filtrado que se pueden añadir.
+
+1. (Opcional) Haga clic en **Añadir condición** para añadir otra opción de filtrado y repita los pasos anteriores. El número de filtros aplicados se muestra a la izquierda del icono Filtros.
+1. Haga clic en los siguientes operadores para indicar cómo se unen y deberían aplicarse las condiciones de filtro:
+
+   * **AND**: se deben cumplir todas las condiciones especificadas.
+   * **OR**: se debe cumplir cualquiera de las condiciones especificadas. Esta es la opción predeterminada.
+
+   1. (Opcional) Agregue operadores **AND** o **OR** adicionales entre varias agrupaciones de condiciones.
+
+      ![Filtros de varios niveles en las vistas](assets/multi-tiered-filters-in-views.png)
+
+   La lista de registros se filtra automáticamente.  <!--at this time, you can't name and save the filter - but will this change?!-->
+   <!-- asked on the task for the simple filters whether there is a limitation for how many statements a filter can have?!-->
+
+1. (Opcional) Haga clic en el icono **x** para quitar una condición de filtro.
+1. (Opcional) Haga clic en **Filtros** para cerrar el cuadro de filtros. <!--right now you cannot "clear all" for filters, but this might come later-->
 
 
 <!--***************** at production, paste here the information from the Production section above *******************-->
@@ -854,17 +495,17 @@ Para ordenar los registros, haga lo siguiente:
    Elija entre las siguientes opciones:
 
    * Campos de fecha:
-      * De más temprano a más reciente
-      * De más reciente a más reciente
+     * De más temprano a más reciente
+     * De más reciente a más reciente
    * Texto, párrafo, seleccionar campos, personas, ID de registro:
-      * Alfabéticamente de la A a la Z
-      * Invertir Z alfabético a A
+     * Alfabéticamente de la A a la Z
+     * Invertir Z alfabético a A
    * Campos de número, porcentaje y moneda:
-      * Ascendente de 0 a 9
-      * Descendente 9 a 0
+     * Ascendente de 0 a 9
+     * Descendente 9 a 0
    * Campos de casilla:
-      * Seleccionado primero
-      * Deseleccionado primero
+     * Seleccionado primero
+     * Deseleccionado primero
 
    El campo se agrega como una selección de orden en el icono **Sort** en la parte superior de la tabla.
 
@@ -992,15 +633,494 @@ De forma predeterminada, los avatares de otros usuarios que están editando info
 
 Al mostrar la vista de tabla, también puede ver qué campo está editando otro usuario en el momento en que está viendo el registro.
 
-Habilitar el indicador de presencia en tiempo real en la vista de tabla del entorno de vista previa es idéntico a habilitarlo en el entorno de producción.
+1. Vaya a una página de tipo de registro y abra cualquier vista.
+1. (Condicional) Si hay otros usuarios editando al mismo tiempo los registros del tipo seleccionado, sus avatares se mostrarán en la esquina superior derecha de la vista.
+1. Haga clic en el menú desplegable situado junto a los avatares y active la configuración **Mostrar colaboradores**. La configuración está activada de forma predeterminada.
 
-Para obtener más información, consulte la sección [Habilitar el indicador de presencia en tiempo real](#enable-the-real-time-presence-indicator) en este artículo.
+   ![Mostrar colaboradores seleccionados](assets/show-collaborators-toggle-selected.png)
+
+   >[!TIP]
+   >
+   >Puede seleccionar la opción **Mostrar colaboradores** de cualquier vista. El campo editado actualmente por otros usuarios sólo se describe en la vista de tabla.
+
+1. (Condicional) Abra una vista de tabla y el campo que otra persona está editando activamente se resaltará en el color correspondiente al contorno de su avatar en la vista de tabla.
+
+   Si el color de resaltado del avatar es gris, el usuario dejó de editar activamente el registro hace más de 30 segundos.
+
+   ![Campo de tabla de indicadores en tiempo real y conexión de avatar](assets/real-time-indicator-table-field-and-avatar-connection.png)
+
+   <!--maybe include a screen shot after release if they update the UI text in this list of users-->
+
+1. (Opcional) Haga clic en el triángulo en la esquina superior derecha de la celda que contiene el campo editado por otros usuarios. Se muestra una lista de los usuarios que están editando el campo actualmente.
+
+>[!TIP]
+>
+>Los indicadores de presencia en tiempo real muestran a los usuarios que están editando un campo en cualquier lugar de Workfront Planning. Esto incluye la vista de tabla o el área de detalles del registro.
 
 <!--*********** at production, paste here the information from the Production section above ****************-->
 
-</div>
+<!--
+Old information, before July 2026 when the table was replaced with the GTable/ list: 
+
+## Manage the table view in the Production environment
+
+When creating a table view, all records of the selected type display in a table. Each row is a unique record and each column is a record field. All fields and all records display by default. 
+
+To manage a table view: 
+
+1. Create a table view, as described in the article [Manage record views](/help/quicksilver/planning/views/manage-record-views.md).
+
+    ![Table view example](assets/table-view-example.png)
+
+1. (Optional) Click **Row height**, then select from the following options to modify the height of the table rows: 
+    * Short
+    * Standard
+    * Medium
+    * Tall 
+
+1. (Optional) Click the **Full screen** icon ![Open full screen icon](assets/open-full-screen-icon.png) to open the view in full screen, then the **Exit full screen** icon ![Exit full screen icon](assets/exit-full-screen-icon.png) or Escape on your keyboard to exit the full screen.
+
+1. Update the following view elements as described in the subsections below:
+    * [Columns (or fields)](#add-columns-or-fields)
+    * [Rows (or records)](#add-rows-or-records)
+    * [Filters](#add-filters) 
+    * [Sort](#add-a-sort) 
+    * [Grouping](#add-groupings)
+    * [Row colors](#add-row-colors)
+    * [Real-time presence indicator](#enable-the-real-time-presence-indicator)
 
 
+### Add columns (or fields) {#add-columns}
+
+The column headers of a table view display fields associated with the records in the view. Fields displayed in the table view also display in the Details section of a record. 
+
+For more information, see [Edit records](/help/quicksilver/planning/records/edit-records.md). 
+
+*************** this is not available yet:You can display record fields (or columns) in both a table and a timeline view. However, the number of columns displayed in the table of the timeline view is limited and you cannot add columns in addition to those selected by default.
+
+Adding columns to a view is identical to adding fields to a record type.  
+
+You can add up to 500 fields (or columns) in a table view. 
+
+1. Go to a record type page and click a table view tab, or click **+ View** to add a new view, then choose **Table**. 
+
+1. Start adding fields (or columns), as described in the article [Create fields](/help/quicksilver/planning/fields/create-fields.md). 
+
+    The columns you add are visible to all users who access the record type and are added as new fields on the record's page.
+
+1. (Optional) Click the **Fields** icon ![Fields icon](assets/fields-icon.png) in the toolbar, search for a field, then unselect the toggle to the right of the field name to hide the field. 
+   
+1. Do one of the following to reorder columns in the table:
+
+    * Grab the column header and drag and drop it in the desired position. The column you moved briefly displays with a blue background until you make other adjustments to the table. 
+
+    * Click **Fields** in the table's toolbar, then drag and drop the fields in the desired order, then click outside the **Fields visibility and order** box to close it.
+        
+        ![Fields setting table view toolbar expanded](assets/fields-setting-table-view-toolbar-expanded.png)
+
+        >[!TIP]
+        >
+        >* The Name field is always the first field in the table view, by default. This is considered a primary field. 
+        >
+        >* You cannot move the Name field to another position, unless you designate another field as the primary field. For more information, continue with Step 4. 
+        >
+        >
+ 
+    * Replace the field in the first column with another field by changing the primary field. For more information, continue to step 4. 
+
+1. (Optional) Hover over a field name in the column header of any field that does not display in the first column of the table, click the downward-pointing arrow to the right of the field name, then click **Set as primary field**. 
+    
+    ![Set as primary field option in table view](assets/set-as-primary-field-option-table-view.png)
+
+1. Click **Set field** to confirm. 
+
+    The field becomes a primary field which means it displays as the first column of the table view. The previous primary field moves to the second column.
+
+    Primary fields become the record's title and display in the header area of the record's page, and everywhere where the records display. For example, the record title displays in connected fields and all views. For more information about primary fields, see [Primary field overview](/help/quicksilver/planning/fields/primary-field-overview.md). 
+
+1. Click and drag the column separation lines and drop them in the desired spot to increase the width of the columns. 
+
+    >[!TIP]
+    >
+    >The changes you make to the column width and order are permanent and visible to all users who access the record type. 
+
+1. Hover over the column header, then click the downward-pointing arrow, then click **Hide field**
+
+    Or
+
+    Click **Fields** in the table toolbar and disable the toggle associated with the fields (or columns) you want to hide. The **Fields visibility and order** box displays.
+
+    >[!TIP]
+    >
+    >The number of hidden fields displays to the left of the Fields icon in the toolbar.
+    >
+    >By default, hidden fields do not display in the record's **Details** preview box. All fields display in the record's Details page. For information, see [Manage the record page layout](/help/quicksilver/planning/records/manage-the-record-page.md).
+
+
+1. Click the **Fields** icon and enable the toggle associated with the fields you want to display in the columns of the table. All fields display by default.
+
+1. Do the following to quickly find records that match a keyword:
+
+    1. In the **Search** box ![Search icon](assets/search-icon.png) and start typing a keyword associated with any field of a record that displays on the screen. The number of correct matches displays next to the search item and the field with the correct match is highlighted. 
+
+        ![Search box with results blue outline in table view](assets/search-box-with-results-blue-outline-table-view.png)
+
+        You can use any word or special character that is visible on the screen. 
+    
+        You cannot use keywords that are associated with fields that are hidden in the table view. 
+
+    1. Press **Enter** on your keyboard to go to the next found field. 
+
+    1. (Optional) If there is more than one match, click the up and down arrows to the right of the search keyword to find all the matches in the table. 
+
+    1. Click the **x** icon in the search box to clear the search keyword. 
+   
+
+### Add rows (or records) {#add-rows}
+
+The rows of a table view display individual records of the selected record type. 
+
+You can have up to 50,000 records (or rows) for . 
+
+1. Go to a record type page and click a table view tab, or click **+ View** to add a new view, then choose **Table**. 
+
+1. Start adding records (or rows), as described in the article [Create records](/help/quicksilver/planning/records/create-records.md). 
+
+    The records you add in the table view are saved immediately and are visible to all users who have View or higher permissions to the workspace. 
+
+    A thumbnail image is also added to the record.
+
+1. (Optional) Click the **More** menu ![More menu](assets/more-menu.png) to the right of the record name, then click **Edit thumbnail** to add a new thumbnail to the new record. 
+
+1. Click **Fields** at the top of the table, then select the toggle for the **Thumbnail** field to display it to the left of the primary field. 
+    
+    For information, see [Add a thumbnail to a record](/help/quicksilver/planning/records/add-thumbnails-to-records.md).
+
+1. (Optional) Select one or multiple records in a row, then drag and drop the **handle** icon ![Handle icon](assets/handle-icon.png) to the left of the record to reorder the rows. 
+
+    >[!NOTE]
+    >
+    >You cannot reorder rows if you apply at least one sort to the table view. 
+    >
+    >The changes you make to the row order are visible to all users who access the record type
+
+********* this section below links from the timeline view; consider splitting them if they become different
+
+### Add filters {#add-filters}
+
+Filters help you reduce the amount of information displayed on the screen.
+
+Consider the following when working with filters in the table view: 
+
+********** this list is almost identical to the one for the table view - update both
+
+* The filters you create for the table view work independently from the filters in the timeline view when applied to the same record type. 
+
+* The filters are unique to the view that you select. Two table views of the same record type can have different filters applied to them. Two users looking at the same table view see the same filter that is currently applied. 
+
+* You cannot name the filters you build and apply to a table view.
+
+* Removing filters removes them from anyone accessing the same record type as you and uses the same view as you use.
+
+* You can filter by connected record fields or lookup fields. 
+
+* You can filter by lookup fields that display multiple values. 
+
+* You can reference a field that is up to 4 levels away from the current record type. For example, if you are creating a filter for an Activity record type, and the Activity is connected to the Product record type which is connected to the Campaign record type which is connected to a Workfront Project, you can reference the project's Budget in the filter you are creating for the Activity record type. 
+
+To add a filter to a table view: 
+
+1. Create a table view for a record type page, as described in the article [Manage record views](/help/quicksilver/planning/views/manage-record-views.md). 
+1. Select a table view, then click **Filters** in the upper-right corner of the table.    
+1. Click **Add condition** and add the following information: 
+
+    * Search for a field and select it when it displays in the list.
+
+    * **Select an option** (or a filter modifier) to define what kind of condition the field must meet
+
+        The table below displays the available modifiers for each type of field.
+
+        <table>
+        <thead>
+        <tr>
+            <th><b>Field type</b></th>
+            <th><b>Modifiers</b></th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>Single-line, Paragraph, Formula </td>
+            <td><p>Contains</p>
+            <p>Does not contain</p>
+            <p>Is</p>
+            <p>Is not</p>
+            <p>Is empty</p>
+            <p>Is not empty</p></td>
+        </tr>
+        <tr><td>Single-select</td>
+            <td><p>Is</p>
+            <p>Is not</p>
+            <p>Is any of</p>
+            <p>Is none of</p>
+            <p>Is empty</p>
+            <p>Is not empty</p></td>
+        </tr>
+        <tr>
+            <td>Multi-select, People</td>
+            <td><p>Has any of</p>
+            <p>Has all of</p>
+            <p>Is exactly</p>
+            <p>Has none of</p>
+            <p>Is empty</p>
+            <p>Is not empty</p></td>
+        </tr>
+        <tr>
+            <td>Number, Percentage, Currency</td>
+            <td><p>=</p>
+            <p>≠</p>
+            <p> < </p>
+            <p>></p>
+            <p>≤</p>
+            <p>≥</p>
+            <p>Is empty</p>
+            <p>Is not empty</p></td>
+        </tr>
+        <tr>
+            <td>Date</td>
+            <td><p>Is</p>
+            <p>Is not</p>
+            <p>Is after</p>
+            <p>Is before</p>
+            <p>Is between</p><p>Is not between</p>
+            <p>Is empty</p><p>Is not empty</p></td>
+        </tr>
+
+        <tr>
+            <td>Checkbox</td>
+            <td><p>Is</p>
+        </tr>
+        </tbody>
+        </table> 
+
+    * Select a value for the field selected. 
+
+     ![Filter UI table view](assets/filter-ui-table-view.png)
+
+    There is no limit to how many filtering conditions you can add.
+
+1. (Optional) Click **Add condition** to add another filtering option and repeat the above steps. The number of filters applied displays to the left of the Filters icon. 
+1. Click the following operators to indicate how the filter conditions are joined and should be applied:
+
+    * **AND**: All specified conditions must be met. 
+    * **OR**: Any of the specified conditions must be met. This is the default option.
+
+    1. (Optional) Add additional **AND** or **OR** operators between multiple condition groupings.
+
+        ![Multi-tiered filters in views](assets/multi-tiered-filters-in-views.png)
+
+    The list of records is filtered automatically.  
+    ************at this time, you can't name and save the filter - but will this change?!
+    *********** asked on the task for the simple filters whether there is a limitation for how many statements a filter can have?!
+
+1. (Optional) Click the **x** icon to remove a filter condition.
+1. (Optional) Click **Filters** to close the filters box. ************right now you cannot "clear all" for filters, but this might come later
+
+### Add a sort {#sort-information} 
+
+By applying a sort, you can organize information in a given order. 
+
+You can sort the following information:
+
+* All records in a table view. *********or timeline view. ***********verify this is the case for the timeline view*********************
+*********** * All groupings. - this is not available yet
+
+Consider the following when sorting records in the table view: 
+
+******** if this is available for the timeline view, update both when you update one
+
+* Sorting is unique to the view that you select. Two table views of the same record type can have different sorting criteria applied to them. Two users looking at the same table view see the same sorting that is currently applied. 
+
+* You cannot name the sortings you build and apply to a table view.
+
+* The sorting you create is preserved when you navigate away.
+
+* You can sort by as many fields as you see displayed in the table view of a record type.
+
+* You cannot sort by connected record fields, but you can sort by lookup fields from connected record types. 
+
+* When you sort by lookup fields with multiple values (that have not been summarized by an aggregator), the first value is used for sorting. 
+
+* Removing sorting criteria removes them from anyone accessing the same record type as you and uses the same view as you use.
+
+* You can reference a field that is up to 4 levels away from the current record type. For example, if you are creating a sort for an Activity record type, and the Activity is connected to the Product record type which is connected to the Campaign record type which is connected to a Workfront Project, you can reference the project's Status in the sort you are creating for the Activity record type. 
+
+To sort *****ungrouped (add this when sorting for groupings will be available ************* records, do the following:
+
+1. Create a table view, as described in the article [Manage record views](/help/quicksilver/planning/views/manage-record-views.md).
+1. Click the **Sort** icon ![Sort icon](assets/sort-icon.png) in the upper-right corner of the table
+    
+    Or
+
+    Hover over the name of a column in the table view, click the downward-pointing arrow to the right of the column header name, then click **Sort by this field**. The field is added as a sorting selection in the Sort icon in the upper-right corner of the table view.
+
+1. (Conditional) In the **Sort records by** box, click one of the suggested fields, or click **Choose a different field** and search for a different field, then click it when it displays in the list. 
+
+    The sorting is applied automatically to the table view and records display sorted by your selected criteria. 
+
+    *********** add a step that you can rearrange the sorting fields here, when this will be possible
+    
+1. (Optional) Click **Add condition**, and repeat the above steps to sort by additional fields.  
+
+    The number of fields that you are sorting by displays to the left of the Sort icon in the upper-right corner of the toolbar. You can choose only fields that display in the columns of the table view.
+
+1. (Optional) In the **Sort records by** box, click the **x** icon to the right of a sorting field to remove the sort
+
+    Or
+
+    Click **Clear all** to remove all fields from the sort. 
+
+1. Click outside the **Sort records by** box to close it. 
+
+    ![Sorting in table view](assets/sorting-in-table-view.png)
+
+    The information displayed in the table is sorted according to your selected criteria. 
+    
+    The fields selected for the sort display a sorting icon followed by a number that indicates the order in which the sorting is applied. 
+
+### Add groupings {#add-groupings}
+
+***********  this section exists in the timeline view too, but the display is slightly different, so I kept both steps; consider updating both sections if any updates to groupings are introduced
+
+You can group records by similar information when applying  a grouping to a view.
+
+Consider the following:
+
+* You can apply groupings both in the table and timeline views. The groupings of the table view are independent from those in the timeline view of the same record type.
+* You can apply 3 levels of grouping in a view. The records are grouped in the order of groupings that you select. 
+*********** * You can apply up to 4 levels of grouping when using the API. ********** checking on this one for now********** 
+* The groupings are unique to the view that you select. Two table views of the same record type can have different groupings applied to them. Two users looking at the same table view see the same grouping that is currently applied. 
+* You cannot name the groupings you build for a table view.
+* Removing groupings removes them from anyone accessing the same record type as you and who displays the same view as you do. 
+* You can edit records listed under a grouping. 
+* You can group by connected record fields or lookup fields. 
+* When you group by lookup fields with multiple values (that have not been summarized by an aggregator), records are grouped by each unique combination of field values.  
+* You can reference a field that is up to 4 levels away from the current record type. For example, if you are creating a grouping for an Activity record type, and the Activity is connected to the Product record type which is connected to the Campaign record type which is connected to a Workfront Project, you can reference the project's Status in the grouping you are creating for the Activity record type. 
+* Groupings are listed in the alphabetical order of their values. 
+********** checking into this: * You can apply up to 4 levels of grouping when using the API. 
+*********** checking also into this: * You cannot group by a Paragraph-type field.
+
+To add a grouping:
+
+1. Create a timeline view for a record type, as described in the article [Manage record views](/help/quicksilver/planning/views/manage-record-views.md). 
+1. Click **Grouping** in the upper-right corner of the table view.
+
+    ![Grouping UI table view with linked fields](assets/grouping-ui-table-view-with-linked-fields.png)
+
+1. Click one of the suggested fields, or click **Choose a different field**, search for a different field, then click it when it displays in the list.
+
+    The grouping is applied automatically to the table and records display under the grouping separation line.
+    
+1. (Optional) Click **Add condition** and repeat the above steps to add up to 3 groupings. 
+
+    The number of fields selected for the grouping displays next to the Grouping icon. 
+
+    ![Grouping applied in table view](assets/grouping-applied-in-table-view.png)
+
+1. (Optional) Inside the **Group records by** box, click the **x** icon to the right of a field selected for the grouping to remove the grouping.  
+
+1. Click outside the **Group records by** box to close it. 
+1. (Optional) Click **+ New record** at the end of any grouping to add new records, then refresh your page to add the new record to the appropriate grouping. ********* this might need to be changed when they add the Refresh button on the toolbar of the table view
+
+1. To expand or collapse groupings, do one of the following:
+
+    1. Click the **Grouping** icon, then **Expand all**, or **Collapse all**. This expands all the groupings and subgroupings in the table view. 
+
+        ![Expand and collapse all buttons on grouping box table view](assets/expand-collapse-all-buttons-on-grouping-box-table-view.png)
+
+    1. Right-click any of the grouping headers in the table view, then click one of the following options:
+        * **Expand group**
+        * **Collapse group**
+        * **Expand all**
+        * **Collapse all**
+        * **Expand subgroups**
+        * **Collapse subgroups**
+
+        Depending on the number of groupings you apply to the view, some options might not be available.
+   
+************ ************
+ this is not available yet: 
+
+To sort grouped records: 
+
+1. Create a view, as described in [Create or edit record views](#create-or-edit-record-views). 
+1. ************************* add steps here for sorting grouped records****************
+
+
+### Add row colors
+
+1. (Optional) Click **Row colors** to define conditions and choose configure diferent colors for table rows.
+
+1. Click **Add color**, then search for a field then select it when it displays in the list. This is the field whose value you want to determine the color of a row.
+
+    For example, to display campaigns with a status of Active in green, select **Status**, then choose a modifier and a value for the field. 
+
+    ![Row colors box with Active status selected and default color choice](assets/row-colors-box-with-active-status-selected-default-color-choice.png)
+
+1. Click the drop-down menu for the color picker in the upper-left corner of the condition you selected, to pick the color for the condition, then click outside the color picker box to close it. 
+
+    ![Drop-down color picker menu in Row colors box highlighted](assets/drop-down-color-picker-menu-in-row-colors-box-highlighted.png)
+
+1. (Optional) Click **Add condition** to add more fields and values to the first set of conditions 
+
+    Or
+
+    Click **Add color** to add a new set of conditions and identify a new color. 
+    
+    For example, you can display campaigns in a Planning status in yellow by defining a new set of conditions. 
+
+    ![Row colors box with Active and Planning status custom colors](assets/row-colors-box-with-active-and-planning-status-custom-colors.png)
+
+1. (Optional) Turn on the **Apply to the entire row** setting in the upper-right corner of the Row colors box. The entire row where the condition is met automatically displays in the selected color. 
+
+    >[!NOTE]
+    >
+    >* If the Apply to the entire row setting is turned off, only the left side of the Primary field displays a narrow color indicator with the selected color. The setting is turned off by default.
+    >
+    >* You cannot apply row colors to an entire row when you have at least one grouping selected in the table view. The role color only applies to the left of the primary field cell when grouping are applied to the table. 
+
+1. Click outside the **Row colors** box to close it. The colors are applied automatically.
+
+### Enable the real-time presence indicator
+
+The avatars of other users who are editing record information at the same time as you display in the upper-right corner of all record views, by default.
+
+When you display the table view, you can also view which field another user is editing at the time you are viewing the record. 
+
+1. Go to a record type page and open any view.
+1. (Conditional) If there are other users editing the records of the selected type at the same time, their avatars display in the upper-right corner of the view. 
+1. Click the drop-down menu next to the avatars, the turn on the **Show collaborators** setting. The setting is on by default. 
+
+    ![Show collaborators toggle selected](assets/show-collaborators-toggle-selected.png)
+
+    >[!TIP]
+    >
+    >You can select the **Show collaborators** toggle from any view. The field currently edited by others is outlined only in the table view. 
+
+1. (Conditional) Open a table view, and the field which another person is actively editing is highlighted in the color corresponding to the outline of their avatar in the table view. 
+
+    If the highlight color of the avatar is gray, the user stopped actively editing the record more than 30 seconds ago. 
+
+    ![Real-time indicator table field and avatar connection](assets/real-time-indicator-table-field-and-avatar-connection.png)
+
+    **** maybe include a screen shot after release if they update the UI text in this list of users
+
+1. (Optional) Click the triangle in the upper-right corner of the cell that contains the field edited by others. A list of users currently editing the field displays.
+
+>[!TIP]
+>
+>Real-time presence indicators display users that are currently editing a field anywhere in Workfront Planning. This includes either the table view or the Details area of the record.
+
+-->
 
 
 

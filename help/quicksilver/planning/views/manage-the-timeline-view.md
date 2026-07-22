@@ -19,10 +19,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
+source-git-commit: cfc4bcf9d3956a50839a6da26fc98a645782bdc1
 workflow-type: tm+mt
-source-wordcount: 4300
-ht-degree: 39%
+source-wordcount: 4223
+ht-degree: 38%
 
 ---
 
@@ -154,14 +154,14 @@ Tenga en cuenta lo siguiente:
 
   Puede seleccionar los siguientes campos de fecha al crear una vista de cronología:
 
-   * Registrar fechas
-   * Registrar campos generados por el sistema: fecha de creación, fecha de la última modificación
-   * Buscar fechas de tipos de objeto o registro conectados (sólo cuando agregó un agregador para ellos cuando conectó los tipos de objeto o registro)
+  * Registrar fechas
+  * Registrar campos generados por el sistema: fecha de creación, fecha de la última modificación
+  * Buscar fechas de tipos de objeto o registro conectados (sólo cuando agregó un agregador para ellos cuando conectó los tipos de objeto o registro)
 * Según las fechas asociadas con los registros, es posible que algunos registros no se muestren en la vista de escala de tiempo en los siguientes casos:
 
-   * Cuando las fechas de inicio y finalización no tienen valores
-   * Cuando las fechas de inicio y finalización no tienen valor
-   * Cuando la fecha de inicio es posterior a la fecha de finalización
+  * Cuando las fechas de inicio y finalización no tienen valores
+  * Cuando las fechas de inicio y finalización no tienen valor
+  * Cuando la fecha de inicio es posterior a la fecha de finalización
 
 Para administrar una vista de cronología:
 
@@ -214,9 +214,9 @@ Para administrar una vista de cronología:
    * Haga clic en **Hoy** en la esquina superior derecha para centrar la cronología en la fecha de hoy.
    * Seleccione una de las siguientes opciones del menú desplegable lapso de tiempo para actualizar los incrementos de tiempo y actualizar la vista:
 
-      * **Year**: muestra trimestres y meses con indicación de año.
-      * **Trimestre**: muestra meses y semanas con indicación de trimestre.
-      * **Mes**: muestra semanas y días.
+     * **Year**: muestra trimestres y meses con indicación de año.
+     * **Trimestre**: muestra meses y semanas con indicación de trimestre.
+     * **Mes**: muestra semanas y días.
 
      >[!TIP]
      >
@@ -379,7 +379,7 @@ Para agregar un filtro a una vista de cronología:
 
    * **AND**: se deben cumplir todas las condiciones especificadas.
    * **OR**: se debe cumplir cualquiera de las condiciones especificadas.
-Esta es la opción predeterminada.
+     Esta es la opción predeterminada.
 
 1. (Opcional) Agregue agrupaciones de filtros adicionales y únase a ellas con los operadores **AND** o **OR**.
 
@@ -406,8 +406,8 @@ Es posible agrupar registros por información similar al aplicar una agrupación
 Tenga en cuenta lo siguiente al trabajar con agrupaciones en la vista de cronología:
 
 * Es posible aplicar agrupaciones tanto en las vistas de tabla como de cronología. Las agrupaciones de la vista de tabla son independientes de las de la vista de cronología del mismo tipo de registro.
-* Se pueden aplicar 3 niveles de agrupación en una vista. Los registros se agrupan en el orden de agrupaciones que se seleccione.
-&lt;!—!—* Puede aplicar hasta 4 niveles de agrupación al utilizar la API. --comprobando este ahora-->
+* Se pueden aplicar 3 niveles de agrupación en una vista. Los registros se agrupan en el orden de agrupaciones que seleccione.
+&lt;!—* Puede aplicar hasta 4 niveles de agrupación al utilizar la API. —comprobando este por ahora—>
 * Las agrupaciones son únicas para la vista que se seleccione. Dos vistas de tabla del mismo tipo de registro pueden tener diferentes agrupaciones aplicadas. Dos usuarios que vean la misma vista de tabla verán la misma agrupación que se aplique en ese momento.
 * No se puede asignar un nombre a las agrupaciones que se generen para una vista de tabla.
 * Al quitar las agrupaciones, se quitarán de cualquier usuario que tenga acceso al mismo tipo de registro y que muestre la misma vista que usted.
@@ -553,8 +553,16 @@ Actualice la configuración de la vista de cronología para indicar qué informa
      >
      >    * Puede hacer coincidir el color solo con los campos con opciones codificadas por colores. Por ejemplo, puede hacer coincidir el color con campos de Estado, o campos con opciones asociadas a colores.
      >    
-     >    * No se puede hacer coincidir el color con los campos de búsqueda de tipos de objeto o registro vinculados.
+     >    * No puede hacer coincidir el color con los registros conectados y sus campos de búsqueda.
 
+     <!--
+        For July 23: replace the note above with this note for the July 23 release:
+        >[!NOTE]
+        >
+        >* You can match the color only to fields with color-coded options. For example, you can match the color to Status fields, or fields with options associated with colors.
+        >    
+        >* In the Production environment, you cannot match the color to connected records or their lookup fields. <span class="preview">In the Preview environment, you can match the color to connected records, but not to their lookup fields. </span>     
+        -->
 
    Por ejemplo, los campos de selección múltiple o de selección única pueden tener opciones codificadas por colores.
 
@@ -570,6 +578,10 @@ Actualice la configuración de la vista de cronología para indicar qué informa
    * **Valores de campo**: el color de los registros coincide con el color de un campo que especifique. Continúe con el paso 10. <!--ensure this stays accurate-->
    * **Agrupación**: el color de los registros coincide con el color indicado para las agrupaciones. Esta opción aparece atenuada cuando no se han aplicado agrupaciones a la vista de cronología.
    * **Ninguno**: los registros se muestran en una barra blanca.
+
+   <!--
+    For July 23: add to the "None" bullet above this sentence: <span class="preview">The None option has been removed from the Preview environment.</span>
+    -->
 
 1. (Condicional) Si ha seleccionado **Valores de campo** para los colores de registro, seleccione un campo en el menú desplegable **Hacer coincidir el color del registro con**.
 
@@ -598,11 +610,11 @@ Tenga en cuenta lo siguiente al desglosar la cronología de los registros según
 * Puede mostrar registros u objetos conectados debajo de los registros del tipo de registro seleccionado en la vista de escala de tiempo.
 * Puede mostrar los registros conectados en la vista de la cronología únicamente cuando vea los registros en modo Estándar. No se puede utilizar la opción Desglose en el modo Compacto de la vista de línea de tiempo.
 * Puede mostrar lo siguiente en la vista de cronología mediante la función Desglose:
-   * Registros de Workfront Planning conectados al tipo de registro seleccionado.
-   * Tipos de objeto Workfront o Experience Manager conectados al tipo de registro seleccionado.
-   * Registros u objetos de Workfront Planning de otras aplicaciones conectadas a registros conectados al tipo de registro seleccionado.
+  * Registros de Workfront Planning conectados al tipo de registro seleccionado.
+  * Tipos de objeto Workfront o Experience Manager conectados al tipo de registro seleccionado.
+  * Registros u objetos de Workfront Planning de otras aplicaciones conectadas a registros conectados al tipo de registro seleccionado.
 
-     Por ejemplo, puede conectar campañas a portafolios. Además, puede conectar otro tipo de registro, productos, con proyectos, así como con campañas. Cuando genere la vista de la cronología de la campaña, puede desglosar las campañas por portafolios, productos y proyectos.
+    Por ejemplo, puede conectar campañas a portafolios. Además, puede conectar otro tipo de registro, productos, con proyectos, así como con campañas. Cuando genere la vista de la cronología de la campaña, puede desglosar las campañas por portafolios, productos y proyectos.
 
 * No se pueden mostrar tipos de objetos que sólo están conectados a objetos de Workfront en Workfront, pero que no están conectados a un tipo de registro de Workfront Planning. Sólo se pueden mostrar los tipos de objetos o registros conectados en Workfront Planning.
 
@@ -610,7 +622,7 @@ Tenga en cuenta lo siguiente al desglosar la cronología de los registros según
 
   Si desea mostrar tanto los portafolios como los proyectos en la vista de escala de tiempo de un tipo de registro de Workfront Planning, tanto los portafolios como los proyectos deben estar conectados al registro de Planning o a un registro conectado al registro de Planning cuya vista de escala de tiempo esté administrando.
 * No se pueden mostrar marcas de Adobe GenStudio conectadas a tipos de registros de Planning.
-Para obtener más información, consulte [Conectar tipos de registros](/help/quicksilver/planning/architecture/connect-record-types.md).
+Para obtener más información, vea [Conectar tipos de registros](/help/quicksilver/planning/architecture/connect-record-types.md).
 * Solo puede mostrar tipos de registro asociados con al menos dos campos de fecha.
 * Los campos de fecha para los tipos de registro que desea mostrar en la vista de escala de tiempo deben estar visibles en la vista de tabla del tipo de registro seleccionado, como campos de búsqueda.
 * Las fechas de inicio y finalización de los tipos de registro que desea mostrar en la vista de escala de tiempo deben estar en orden cronológico. Por ejemplo, si un registro tiene una fecha de inicio del 31 de enero y una fecha de finalización del 1 de enero, no se muestra en la vista de escala de tiempo. Para obtener más información, consulte la sección [Administrar una vista de escala de tiempo](#manage-a-timeline-view) en este artículo.

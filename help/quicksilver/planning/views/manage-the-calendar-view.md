@@ -19,7 +19,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+source-git-commit: cfc4bcf9d3956a50839a6da26fc98a645782bdc1
 workflow-type: tm+mt
 source-wordcount: 1763
 ht-degree: 44%
@@ -157,9 +157,9 @@ Tenga en cuenta lo siguiente:
   Puede seleccionar entre los campos de fecha de registro o los campos de fecha de búsqueda de los tipos de objeto o registro conectados.
 * Se dan los siguientes escenarios:
 
-   * Cuando las fechas de inicio y finalización no tienen valores, los registros no se muestran en el calendario.
-   * Cuando las fechas de inicio o finalización no tienen valor, el registro se muestra como un evento de un día.
-   * Cuando la fecha de inicio es posterior a la fecha de finalización, el registro no se muestra en el calendario.
+  * Cuando las fechas de inicio y finalización no tienen valores, los registros no se muestran en el calendario.
+  * Cuando las fechas de inicio o finalización no tienen valor, el registro se muestra como un evento de un día.
+  * Cuando la fecha de inicio es posterior a la fecha de finalización, el registro no se muestra en el calendario.
 
 Para administrar una vista de calendario:
 
@@ -176,12 +176,12 @@ Para administrar una vista de calendario:
    * Haga clic en **Hoy** en la esquina superior derecha para centrar el calendario en la fecha de hoy.
    * Seleccione una de las siguientes opciones del menú desplegable de lapso de tiempo para actualizar los incrementos de tiempo:
 
-      * **Mes**: los registros se muestran en un calendario mensual.
+     * **Mes**: los registros se muestran en un calendario mensual.
 
-      * **Semana**: los registros se muestran en las áreas siguientes:
+     * **Semana**: los registros se muestran en las áreas siguientes:
 
-         * Los registros que se extienden durante varios días se muestran en la parte superior del calendario.
-         * Registros que duran un día o menos y que se muestran en la mitad inferior de la vista de calendario. Si ha seleccionado mostrar la hora de las fechas de inicio y finalización, el registro se muestra a la hora adecuada dentro del día en que se produce.
+       * Los registros que se extienden durante varios días se muestran en la parte superior del calendario.
+       * Registros que duran un día o menos y que se muestran en la mitad inferior de la vista de calendario. Si ha seleccionado mostrar la hora de las fechas de inicio y finalización, el registro se muestra a la hora adecuada dentro del día en que se produce.
 
 1. (Opcional) Haga clic en el icono **Pantalla completa** ![Abrir icono de pantalla completa](assets/open-full-screen-icon.png) para abrir la vista en pantalla completa y, a continuación, en el icono **Salir de pantalla completa** ![Salir del icono de pantalla completa](assets/exit-full-screen-icon.png) o Escape del teclado para salir de la pantalla completa.
 
@@ -449,6 +449,15 @@ Actualice la configuración de vista de calendario para indicar qué informació
    Por ejemplo, los campos de selección múltiple o de selección única pueden tener opciones codificadas por colores.
 
    Si no tiene ningún campo con opciones codificadas por colores para el tipo de registro seleccionado, esta opción aparece atenuada.
+
+   <!--
+        For July 23: add this note after the last sentence here
+        >[!NOTE]
+        >
+        >* You can match the color only to fields with color-coded options. For example, you can match the color to Status fields, or fields with options associated with colors.
+        >    
+        >* In the Production environment, you cannot match the color to connected records or their lookup fields. <span class="preview">In the Preview environment, you can match the color to connected records, but not to their lookup fields. </span>     
+        -->
 
 
 1. Haga clic en **Guardar**.
