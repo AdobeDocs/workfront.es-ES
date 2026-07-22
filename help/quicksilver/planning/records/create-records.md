@@ -1,6 +1,6 @@
 ---
 title: Crear registros
-description: Al utilizar Adobe Workfront Planning, un registro es una instancia de un tipo de registro. Puede crear registros únicos para cada tipo de registro en Workfront Planning agregándolos manualmente a la vista de tabla, importándolos de una lista, duplicándolos o creándolos a medida que los conecta a otros registros.
+description: Al utilizar Adobe Workfront Planning, un registro es una instancia de un tipo de registro. Puede crear registros únicos para cada tipo de registro en Workfront Planning agregándolos manualmente a la vista de tabla, importándolos de una lista, duplicándolos o creándolos a medida que los conecta a otros registros. Cada registro puede asociarse con una miniatura, una imagen de portada y un color único.
 feature: Workfront Planning
 role: User, Admin
 author: Alina
@@ -9,20 +9,14 @@ exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/6kEg5JYAO9pilVnKb5eGZbhPeAdbt-g-8SMteodoqP8
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: d7831c8d233588bf2624ef23b2b524ed54aa5288
 workflow-type: tm+mt
-source-wordcount: 3224
+source-wordcount: 3239
 ht-degree: 20%
 
 ---
@@ -165,19 +159,30 @@ Old:
 
 * Dependiendo del espacio de trabajo desde el que se agreguen, los registros agregados a los tipos de registro globales son visibles para los siguientes tipos de usuarios:
 
-   * Los registros agregados al espacio de trabajo original de un tipo de registro global son visibles desde el espacio de trabajo original.
-   * Los registros agregados a un espacio de trabajo secundario de un tipo de registro global sólo son visibles desde el espacio de trabajo en el que se crearon y el espacio de trabajo original del tipo de registro global.
-Para obtener más información, vea [Información general sobre el tipo de registro entre espacios de trabajo](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md).
+  * Los registros agregados al espacio de trabajo original de un tipo de registro global son visibles desde el espacio de trabajo original.
+  * Los registros agregados a un espacio de trabajo secundario de un tipo de registro global sólo son visibles desde el espacio de trabajo en el que se crearon y el espacio de trabajo original del tipo de registro global.
+    Para obtener más información, vea [Información general sobre el tipo de registro entre espacios de trabajo](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md).
 
 * Según sus permisos en el espacio de trabajo y los tipos de registro, los usuarios pueden crear registros de las siguientes maneras:
 
-   * Los usuarios con permisos de visualización en el espacio de trabajo y tipo de registro solo pueden crear registros mediante el botón Solicitar registro de la página de tipo de registro.
-   * Los usuarios con permisos de Contribute y Manage para el espacio de trabajo y el tipo de registro pueden crear registros con el botón New record de la página de tipos de registros.
+  * Los usuarios con permisos de visualización en el espacio de trabajo y tipo de registro solo pueden crear registros mediante el botón Solicitar registro de la página de tipo de registro.
+  * Los usuarios con permisos de Contribute y Manage para el espacio de trabajo y el tipo de registro pueden crear registros con el botón New record de la página de tipos de registros.
 
   >[!IMPORTANT]
   >
   >Un administrador del espacio de trabajo debe crear un formulario de solicitud para el tipo de registro para que los usuarios con permisos de Vista puedan agregar registros mediante un formulario de solicitud. De lo contrario, los usuarios con permisos de visualización no podrán crear registros.
 
+<!--
+add this bullet for July 23 release:
+
+<div class="preview">
+
+* All records are automatically color-coded when they are created, regardless of the method you are using to create them. 
+
+    For more information, see the section [Color coding records](#color-coding-records) in this article. 
+
+</div>
+-->
 
 ## Crear registros con el botón Nuevo registro o Solicitar registro desde cualquier vista de tipo de registro
 
@@ -190,7 +195,7 @@ Para obtener más información, vea [Información general sobre el tipo de regis
 1. Haga clic en una tarjeta de tipo de registro. Para obtener información acerca de cómo crear un tipo de registro, consulte [Crear tipos de registros](/help/quicksilver/planning/architecture/create-record-types.md).
 
    La página de tipo de registro se abre en la vista a la que se accedió por última vez. De forma predeterminada, se abre una página de tipo de registro en la vista de tabla.
-Todos los registros del tipo seleccionado se muestran en la vista.
+   Todos los registros del tipo seleccionado se muestran en la vista.
 
 1. (Condicional) Desde cualquier vista, haga clic en una de las siguientes opciones en la esquina superior derecha de la pantalla, según los permisos de espacio de trabajo y tipo de registro:
 
@@ -207,9 +212,9 @@ Todos los registros del tipo seleccionado se muestran en la vista.
       * **Agregar manualmente**. Se abre el cuadro de vista previa del registro.\
         Agregue información sobre el registro, tal como se describe en la sección [Crear registros agregándolos en línea desde la vista de tabla de tipo de registro](#create-records-by-adding-them-inline-from-the-record-type-table-view) de este artículo, empezando por el paso 6. <!--insure this stays accurate-->
       * **Cargar desde archivo**
-Agregue registros, tal como se describe en el artículo [Cree registros importando información desde un archivo CSV o de Excel](/help/quicksilver/planning/records/import-file-to-create-records.md), a partir del paso 6. <!--ensure this stays accurate-->
+        Agregue registros, tal como se describe en el artículo [Cree registros importando información desde un archivo CSV o de Excel](/help/quicksilver/planning/records/import-file-to-create-records.md), a partir del paso 6. <!--ensure this stays accurate-->
       * **Enviar una solicitud**
-Se abre el formulario de solicitud del tipo de registro.
+        Se abre el formulario de solicitud del tipo de registro.
 
         Un administrador del espacio de trabajo debe crear un formulario de solicitud para poder agregar un registro mediante un formulario de solicitud.
 
@@ -272,7 +277,7 @@ Para obtener información acerca de cómo editar información de registro, consu
 1. Haga clic en una tarjeta de tipo de registro. Para obtener información acerca de cómo crear un tipo de registro, consulte [Crear tipos de registros](/help/quicksilver/planning/architecture/create-record-types.md).
 
    La página de tipo de registro se abre en la vista a la que se accedió por última vez. De forma predeterminada, se abre una página de tipo de registro en la vista de tabla.
-Los registros del tipo seleccionado se muestran en la vista.
+   Los registros del tipo seleccionado se muestran en la vista.
 
 1. (Condicional) Desde la vista de tabla, realice una de las siguientes acciones:
 
@@ -374,9 +379,9 @@ Para obtener información acerca de cómo crear una vista de escala de tiempo, v
 
      De forma predeterminada, los valores de fecha se preseleccionan en función de cómo se muestre la vista de cronología. Se dan los siguientes escenarios:
 
-      * Por **año**: las fechas de inicio y finalización del registro abarcan un mes.
-      * Por **trimestre**: las fechas de inicio y finalización del registro abarcan una semana.
-      * Por **mes**: las fechas de inicio y finalización del registro abarcan tres días.
+     * Por **año**: las fechas de inicio y finalización del registro abarcan un mes.
+     * Por **trimestre**: las fechas de inicio y finalización del registro abarcan una semana.
+     * Por **mes**: las fechas de inicio y finalización del registro abarcan tres días.
 
 1. (Opcional) Haga clic en uno de los iconos siguientes:
 
@@ -441,8 +446,8 @@ Para obtener información acerca de cómo crear una vista de calendario, vea [Ad
 
      De forma predeterminada, los valores de fecha se preseleccionan en función de cómo se muestre la vista de calendario. Se dan los siguientes escenarios:
 
-      * Por **mes**: las fechas de inicio y finalización del registro abarcan un día.
-      * Por **semana**: las fechas de inicio y finalización del registro abarcan dos días.
+     * Por **mes**: las fechas de inicio y finalización del registro abarcan un día.
+     * Por **semana**: las fechas de inicio y finalización del registro abarcan dos días.
 
 1. (Opcional) Haga clic en uno de los iconos siguientes:
 
@@ -524,8 +529,8 @@ Para crear registros al conectarlos desde otros registros:
 
    * Campo de conexión en las siguientes áreas de Workfront Planning:
 
-      * La vista de tabla
-      * Página de detalles o cuadro de vista previa de un registro
+     * La vista de tabla
+     * Página de detalles o cuadro de vista previa de un registro
 
    * Campo de conexión en la sección de planificación de un proyecto, portafolio o programa en Workfront.
 
@@ -534,7 +539,7 @@ Para crear registros al conectarlos desde otros registros:
 1. (Condicional) Si no encuentra un registro al intentar conectarlo, haga clic en **+ Agregar**
 
    O
-Empiece a escribir un nombre y luego haga clic en **+ Agregar**. El botón **+ Agregar** va seguido del nombre del tipo de registro al que se está conectando. Por ejemplo, &quot;Agregar marcas&quot; al agregar una marca a una campaña existente. El nombre que ha escrito también sigue al botón Agregar.
+   Empiece a escribir un nombre y luego haga clic en **+ Agregar**. El botón **+ Agregar** va seguido del nombre del tipo de registro al que se está conectando. Por ejemplo, &quot;Agregar marcas&quot; al agregar una marca a una campaña existente. El nombre que ha escrito también sigue al botón Agregar.
 
    ![Botón Agregar para crear registros resaltados en contexto](assets/add-button-to-create-records-in-context-highlighted.png)
 
@@ -584,5 +589,53 @@ Puede configurar y activar la automatización en la página del registro en Work
 
 Para obtener más información, vea [Crear objetos mediante automatizaciones de registros de Adobe Workfront Planning](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md).
 
+<!--
+For July 23
+Move to its own article after preview release in 07/2026:
 
+<div class="preview">
 
+## Color coding records
+
+All records are automatically associated with a color when they are created. 
+
+1. Create a record using one of the methods described in this article. 
+
+    The color is immediately applied to the new record in the following areas:
+
+    * As a bar, to the left of the record name or primary field in the table, timeline and calendar views. 
+    * As a circle, to the left of the record name in the record's **Details** page. 
+
+        For information, see [Manage the record page layout](/help/quicksilver/planning/records/manage-the-record-page.md).
+1. (Conditional) To view the color of a record, do one of the following: 
+    
+    * From the table view, click the **Fields** icon in the toolbar at the top of a list of records, then turn on the **Color** setting. A bar is added to the left of the record's primary field.
+
+        ![Table view record color bar](assets/table-record-color-bar.png)
+
+        For information, see [Manage the table view](/help/quicksilver/planning/views/manage-the-table-view.md).
+    * From the timeline view, click **Settings** > **Bar style**, then turn on the **Color** setting. A bar is added to the left margin of the record's bar, when you select to color code the bar by **Record**. 
+
+        ![Timeline view record color bar](assets/timeline-record-color-bar.png)
+
+        For information, see [Manage the timeline view](/help/quicksilver/planning/views/manage-the-timeline-view.md).
+    * From the calendar view, click **Settings** > **Bar style**, then turn on the **Color** setting. The record bar color matches the record color and a darker shade of the same color is added to the left margin of the record's bar, when you select to color code the bar by **Record**.
+    
+        ![Calendar view record color bar](assets/calendar-record-color-bar.png)
+
+        For information, see [Manage the calendar view](/help/quicksilver/planning/views/manage-the-calendar-view.md). 
+
+    The Color setting is turned off by default.
+
+1. To change the color associated with a record, do the following: 
+
+    1. From the table view, click the record color bar
+        Or 
+        From the record details preview or page, click the record color circle. 
+    1. Click the **Swatches** or the **Custom** tab to select a new color. 
+
+        Once selected, the new color is applied immediately. 
+
+</div>
+
+-->

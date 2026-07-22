@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 1c7e6973-6e9e-4c93-9d3b-89ed90df9d14
 last-update: 2026-04-01T18:23:03Z
 git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+source-git-commit: 614b25d3255b27f09f2624afd8691e08cfb7ddf4
 workflow-type: tm+mt
-source-wordcount: '1873'
+source-wordcount: '1813'
 ht-degree: 1%
 
 ---
@@ -24,16 +24,17 @@ although list views in Planning are very similar to Workfront enhanced lists, ke
 
 <!--If the List view in Project connected pages and request forms stays the same after GTable rolls out - keep this as the List view and change the Table view to "Table redesigned view" for now; keep it "the table view" there for later-->
 
-<span class="preview">La información resaltada en esta página hace referencia a funcionalidades que aún no están disponibles de forma general. Solo está disponible en el entorno de vista previa para todos los clientes. Después del lanzamiento en Vista previa, las mismas funciones también están disponibles mensualmente en el entorno de producción para los clientes que habilitaron lanzamientos rápidos. </span>
+<!--
+<span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Para obtener información sobre las versiones rápidas, consulte [Habilitar o deshabilitar las versiones rápidas para su organización](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
-
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
 Puede ver objetos en la vista de lista en las siguientes áreas de Workfront Planning:
 
-* Página de registros conectada para proyectos en el área de detalles de un registro <!--update screen shot for preview May 14 with Grouping icon and add the note at the top in yellow about preview-->
+* Página de registros conectada para proyectos en el área de detalles de un registro
 
   ![Proyectos en la página de registros conectados en la vista de lista](assets/projects-on-connected-records-page-list-view.png)
 
@@ -86,17 +87,17 @@ Para obtener más información acerca de los requisitos de acceso de Workfront, 
 
 * Tenga en cuenta lo siguiente para la vista de lista de páginas de registros conectados:
 
-   * Sólo se pueden ver proyectos en la vista de lista de la página de registros conectados de un registro. La vista de lista no está disponible para ningún otro tipo de objeto o registro de una página de registros conectada.
+  * Sólo se pueden ver proyectos en la vista de lista de la página de registros conectados de un registro. La vista de lista no está disponible para ningún otro tipo de objeto o registro de una página de registros conectada.
 
   Para obtener información acerca de cómo crear una página de registros conectados, vea [Agregar una página de registros conectados a un registro](/help/quicksilver/planning/records/add-a-connected-records-page-to-a-record.md).
-   * Para poder ver una vista de lista en una página de registros conectada de un registro, debe conectar los proyectos de Workfront con los tipos de registros de Planning. Para obtener más información, consulte [Conectar tipos de registros](/help/quicksilver/planning/architecture/connect-record-types.md).
-   * Puede crear varias vistas de lista para proyectos en la página de registros conectados de un registro.
+  * Para poder ver una vista de lista en una página de registros conectada de un registro, debe conectar los proyectos de Workfront con los tipos de registros de Planning. Para obtener más información, consulte [Conectar tipos de registros](/help/quicksilver/planning/architecture/connect-record-types.md).
+  * Puede crear varias vistas de lista para proyectos en la página de registros conectados de un registro.
 
 * Tenga en cuenta lo siguiente para la vista de lista de formularios de solicitud:
 
-   * No se pueden crear ni editar vistas de lista adicionales para formularios de solicitud de Planning. Workfront crea una vista de lista para los formularios de solicitud. <!--this will change-->
+  * No se pueden crear ni editar vistas de lista adicionales para formularios de solicitud de Planning. Workfront crea una vista de lista para los formularios de solicitud. <!--this will change-->
 
-     Para obtener información acerca de los formularios de solicitud, vea [Crear y administrar un formulario de solicitud en Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
+    Para obtener información acerca de los formularios de solicitud, vea [Crear y administrar un formulario de solicitud en Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
 * Dependiendo de dónde se muestre, no todas las vistas de lista tienen todos los elementos descritos en este artículo.
 
 ## Administración de una vista de lista {#manage-a-list-view}
@@ -186,10 +187,10 @@ Removed - more direct steps below:
       Se abre **Administrador de columnas**.
 
       Solo se pueden agregar campos existentes a la vista de lista.
-No se puede quitar el campo principal en la vista de lista que aparece en la primera columna.
+      No se puede quitar el campo principal en la vista de lista que aparece en la primera columna.
 
    1. Haga clic en el icono **Formato de celdas** ![Formato de celdas](assets/format-cells-icon.png). Se abre el cuadro **Formato**. <!--change the name of the box when they update it-->
-Haga lo siguiente:
+      Haga lo siguiente:
 
       1. Haga clic en **Agregar condición**.
       1. En la línea **If**, seleccione un campo, elija un valor de campo y agregue un modificador. Los modificadores cambian según el tipo de campo elegido.
@@ -223,8 +224,8 @@ Haga lo siguiente:
       1. Haga clic fuera del cuadro **Formato** para cerrarlo.
 
          Esto le devuelve a la vista de lista.
-El formato se aplica inmediatamente a la vista de lista.
-Hay un punto azul al lado del icono **Formato de celdas** para indicar que la vista tiene un formato especial aplicado.
+         El formato se aplica inmediatamente a la vista de lista.
+         Hay un punto azul al lado del icono **Formato de celdas** para indicar que la vista tiene un formato especial aplicado.
 
    1. (Opcional) Haga clic en el icono **Agrupación** ![Icono de agrupación](assets/grouping-icon.png) para agrupar los elementos de la lista por un campo común. Seleccione una de las opciones o utilice la barra de búsqueda para buscar un campo.
 
@@ -254,9 +255,9 @@ Hay un punto azul al lado del icono **Formato de celdas** para indicar que la vi
 
 1. (Condicional) Para los campos de tipo seleccionados, utilice las flechas del teclado para navegar por la lista de opciones y, a continuación, pulse la barra espaciadora para seleccionar la opción correcta.
 
-   <span class="preview">Use la línea **Buscar** en determinados tipos de campo para encontrar la opción correcta.</span>
+   Utilice la línea **Buscar** en determinados tipos de campo para encontrar la opción correcta.
 
-   <span class="preview">Puede agregar nuevas opciones directamente desde la celda de campo cuando no se encuentren resultados. Esta característica puede no estar disponible en todas las listas.</span>
+   Puede añadir nuevas opciones directamente desde la celda del campo cuando no se encuentren resultados. Es posible que esta función no esté disponible en todas las listas.
 
 1. Pase el ratón sobre el nombre de un elemento en la lista y haga clic en el menú **Más** [Menú más](assets/more-menu.png) y luego haga clic en **Ver** para abrir el elemento en otra pestaña
 
