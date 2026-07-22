@@ -21,10 +21,10 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: b4dd41a7-ccf8-4e9d-918e-acaab534a307
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: d0b0499c10d0e7b032eeceb0d200b4594414e475
 workflow-type: tm+mt
-source-wordcount: 1808
-ht-degree: 50%
+source-wordcount: 1857
+ht-degree: 49%
 
 ---
 
@@ -159,6 +159,10 @@ El mensaje aparece en el idioma localizado.
 >[!ENDSHADEBOX]
 
 Para obtener información sobre la localización personalizada, consulte [Configurar la localización personalizada](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-custom-localization.md).
+
+>[!NOTE]
+>
+>Las reglas de negocio se ejecutan una vez finalizado el proceso principal. En otras palabras, las reglas de negocio están pensadas para evitar acciones que aún no son gestionadas por el proceso principal. No anulan ni reemplazan las excepciones producidas durante la ejecución principal, sino que se ejecutan al final del proceso.
 
 ## Escenarios para la automatización de reglas de negocio
 
@@ -307,3 +311,4 @@ Para activar una regla empresarial:
 1. Seleccione la regla empresarial en la lista de reglas y haga clic en el icono Editar.
 1. Seleccione **Sí** en **Está activa**, en el diálogo de regla empresarial.
 1. Haga clic en **Guardar**.
+
