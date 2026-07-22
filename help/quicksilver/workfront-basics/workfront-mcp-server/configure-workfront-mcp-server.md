@@ -5,9 +5,9 @@ title: Configuración del servidor MCP de Adobe Workfront
 description: Configure su instancia de Workfront y su plataforma agéntica de IA para poder trabajar con Workfront a través de una conversación en lenguaje natural.
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: 836431c7840647b8f412f848fe22d3e64cc42e44
+source-git-commit: 881ec05a1b41b65339b3e90aef05762118093bdc
 workflow-type: tm+mt
-source-wordcount: '1588'
+source-wordcount: '1746'
 ht-degree: 0%
 
 ---
@@ -124,18 +124,45 @@ Para obtener más información acerca de las habilidades de [!DNL Claude], consu
 
 ## Conectar con ChatGPT
 
-1. Inicie sesión en [ChatGPT](https://chatgpt.com) con sus credenciales.
-1. En la esquina inferior izquierda, seleccione **su nombre** → **Configuración**.
-1. Seleccione **Aplicaciones** y, a continuación, habilite **Modo de desarrollador**.
-1. Seleccione el botón **Crear aplicación**.
-1. Asigne a la aplicación el nombre que desee (por ejemplo, &quot;Workfront&quot;) e introduzca la URL del servidor MCP:
+El procedimiento para conectar el servidor MCP de Workfront con ChatGPT difiere según si está usando ChatGPT Desktop o Codex, o ChatGPT en la web.
+
+### Conectar con el escritorio ChatGPT o el códice ChatGPT
+
+1. En ChatGPT, abra **Configuración**.
+1. Haga clic en **Complementos** en el panel de navegación izquierdo.
+1. Haga clic en **Agregar servidor** cerca de la esquina superior derecha de la ventana.
+1. Escriba un nombre para el servidor.
+1. Para el tipo, seleccione **HTTP transmisible**.
+1. Establezca la URL del servidor MCP:
 
    ```
    https://mcp.workfront.adobe.com/mcp/v1/workfront
    ```
 
-1. Asegúrese de que Autenticación está establecida en **OAuth** (establecida de forma predeterminada) y active la casilla de verificación de aceptación para continuar.
-1. Una vez creada la aplicación, aparece una ventana de inicio de sesión. Autentique con sus credenciales de Adobe ID. Asegúrese de seleccionar la instancia de Workfront que desee si pertenece a más de una.
+1. Haga clic en **Guardar**.
+1. En la lista que aparece, haga clic en **Autenticar** para el servidor MCP que está agregando.
+1. Inicie sesión en Workfront.
+1. En ChatGPT, en la lista de servidores MCP, asegúrese de que la opción a la derecha del nuevo servidor MCP permanezca activada.
+
+
+### Conectarse a ChatGPT en la web
+
+1. Inicie sesión en [ChatGPT](https://chatgpt.com) con sus credenciales.
+1. En la esquina inferior izquierda, selecciona tu nombre y, a continuación, selecciona **Configuración**.
+1. En el panel de navegación izquierdo, seleccione **Seguridad e inicio de sesión**.
+1. Vaya a la página de complementos de ChatGPT en https://chatgpt.com/plugins.
+1. Haga clic en el icono Más cerca de la parte superior derecha de la página Plugins.
+1. En el campo **Nombre**, escriba un nombre para el servidor MCP.
+1. En el campo **Conexión**, seleccione **URL del servidor** e introduzca la URL del servidor MCP:
+
+   ```
+   https://mcp.workfront.adobe.com/mcp/v1/workfront
+   ```
+
+1. Asegúrese de que Autenticación esté configurada en **OAuth** (de forma predeterminada).
+1. Lea el mensaje de riesgo y marque la casilla para mostrar que lo ha leído.
+1. Haga clic en **Crear**.
+1. Una vez creada la aplicación, aparece una ventana de inicio de sesión de Workfront. Autentique con sus credenciales de Adobe ID. Asegúrese de seleccionar la instancia de Workfront que desee si pertenece a más de una.
 
 
 ### Personalización del comportamiento de ChatGPT con GPT personalizados
