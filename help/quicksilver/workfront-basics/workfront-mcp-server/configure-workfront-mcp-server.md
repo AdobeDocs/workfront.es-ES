@@ -5,10 +5,10 @@ title: Configuración del servidor MCP de Adobe Workfront
 description: Configure su instancia de Workfront y su plataforma agéntica de IA para poder trabajar con Workfront a través de una conversación en lenguaje natural.
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: 881ec05a1b41b65339b3e90aef05762118093bdc
+source-git-commit: 6ee4dc992b62ce2602bab0b75d8a27fa6a01acc2
 workflow-type: tm+mt
-source-wordcount: '1746'
-ht-degree: 0%
+source-wordcount: '1935'
+ht-degree: 1%
 
 ---
 
@@ -59,7 +59,9 @@ El acceso al servidor MCP está cerrado por dos administradores independientes.
 
 Se conecta a Workfront una vez por cuenta de [!DNL Claude]. La conexión le autentica en una instancia de Workfront específica y permanecerá conectado hasta que decida desconectarse.
 
-
+* [Conéctese al escritorio Claude desde el directorio de conectores](#connect-to-claude-desktop-from-the-connectors-directory)
+* [Conectarse a Claude con una URL](#connect-to-claude-with-a-url)
+* [Personalizar el comportamiento de Claude con habilidades](#customize-claude-behavior-with-skills)
 
 ### Conéctese al escritorio Claude desde el directorio de conectores
 
@@ -125,6 +127,10 @@ Para obtener más información acerca de las habilidades de [!DNL Claude], consu
 ## Conectar con ChatGPT
 
 El procedimiento para conectar el servidor MCP de Workfront con ChatGPT difiere según si está usando ChatGPT Desktop o Codex, o ChatGPT en la web.
+
+* [Conectar con el escritorio ChatGPT o el códice ChatGPT](#connect-to-chatgpt-desktop-or-chatgpt-codex)
+* [Conectarse a ChatGPT en la web](#connect-to-chatgpt-on-the-web)
+* [Personalización del comportamiento de ChatGPT con GPT personalizados](#customize-chatgpt-behavior-with-custom-gpts)
 
 ### Conectar con el escritorio ChatGPT o el códice ChatGPT
 
@@ -202,6 +208,30 @@ https://mcp.workfront.adobe.com/mcp/v1/workfront`
 1. Cuando haya configurado y probado una herramienta, haga clic en **Publicar**.
 
    Es posible que no tenga permisos para publicar. Si este es el caso, póngase en contacto con el administrador de Copilot.
+
+## Conectar Workfront a una solución MCP personalizada
+
+Si está creando su propia aplicación o agente personalizado, puede conectarse directamente al servidor MCP de Workfront.
+
+Hay dos formas de conectarse:
+
+* [Conectar con un token de servicio a servicio](#connect-with-a-service-to-service-token)
+* [Conexión con OAuth](#connect-with-oauth)
+
+### Conectar con un token de servicio a servicio
+
+1. Cree una credencial de servicio con Adobe Developer Console. Para obtener más información, consulte [Autenticación de servidor a servidor](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/).
+1. Conéctese al servidor MCP de Workfront con la siguiente información:
+
+   * **URL**: `https://mcp.workfront.adobe.com/mcp/v1/workfront`
+   * **Encabezados**:
+
+     * `Authorization: Bearer <access_token>`
+     * `wf-url: <your_subdomain>.my.workfront.com` (obligatorio si sus credenciales tienen acceso a más de una instancia de Workfront, como Previsualización y Producción).
+
+### Conexión con OAuth
+
+La compatibilidad de autoservicio para integraciones de OAuth personalizadas aún no está disponible para Workfront.
 
 ## Compruebe la conexión
 
@@ -298,6 +328,10 @@ Para obtener información sobre la solución de problemas diaria después de con
 ## Preguntas frecuentes sobre la configuración
 
 +++ Amplíe para ver las preguntas más frecuentes sobre la configuración del servidor MCP de Workfront.
+
+* [¿Puedo conectarme a varias instancias de Workfront al mismo tiempo?](#can-i-connect-to-multiple-workfront-instances-at-the-same-time)
+* [¿Qué administrador habilita esto?](#which-administrator-enables-this)
+* [¿Puedo usar el servidor MCP de Workfront si mi instancia de Workfront no está habilitada en Adobe Identity Management System (IMS)?](#can-i-use-the-workfront-mcp-server-if-my-workfront-instance-isnt-enabled-on-adobe-identity-management-system-ims)
 
 ### ¿Puedo conectarme a varias instancias de Workfront al mismo tiempo?
 
