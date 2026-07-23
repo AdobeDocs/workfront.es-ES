@@ -5,10 +5,10 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8ca50590-ef6a-44b1-a856-9821bdafbc1c
-source-git-commit: 7df1d711b89cc69e354525c9eaea48abb6aec158
+source-git-commit: 62688ecf071774f0446e35035a3e0633e3094eae
 workflow-type: tm+mt
-source-wordcount: '3159'
-ht-degree: 14%
+source-wordcount: '3317'
+ht-degree: 13%
 
 ---
 
@@ -609,6 +609,16 @@ El Visor de pruebas de escritorio se ha actualizado a desde la versión 2.1.54 a
 Esta actualización es para Mac y Windows.
 
 ## Anuncios
+
+### La autenticación solo por contraseña para los usuarios del lector de Data Connect finaliza el 8 de agosto de 2026
+
+A partir del 8 de agosto de 2026, los usuarios de Workfront Data Connect/lector de Snowflake que se autentican con un inicio de sesión solo de contraseña dejarán de funcionar a menos que se haya habilitado la autenticación de varios factores (MFA). MFA no se puede agregar de forma retroactiva después de esta fecha: si se permite que un usuario lector caduque sin él, el acceso solo se puede restaurar creando un nuevo perfil de usuario.
+
+Si es administrador de Workfront y tiene usuarios de lector de Data Connect que aún no han habilitado MFA, notifique este cambio a los usuarios lo antes posible.
+
+Este cambio se anunció por primera vez en las notas de la versión de Workfront de abril de 2026 y este es el recordatorio final antes de la fecha límite. Asegúrese de que todos los usuarios de lectores afectados habiliten MFA antes del 8 de agosto de 2026 para evitar interrupciones en su acceso.
+
+Para obtener más información, consulte [Crear una cuenta de lector o una conexión para Snowflake](https://experienceleague.adobe.com/es/docs/workfront/using/reporting/data-lake/create-a-reader-account).
 
 ### Adobe Workfront Planning como producto independiente
 
