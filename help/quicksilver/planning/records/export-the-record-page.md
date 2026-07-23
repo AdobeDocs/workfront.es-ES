@@ -18,21 +18,22 @@ role_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a93c6c9faf26d5eab1c223bd4a2646af896bf97d
+source-git-commit: 614b25d3255b27f09f2624afd8691e08cfb7ddf4
 workflow-type: tm+mt
-source-wordcount: 441
-ht-degree: 22%
+source-wordcount: 362
+ht-degree: 13%
 
 ---
 
 # Exportar detalles de un registro
 
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers, or in the Production environment for customers who enabled fast releases.</span>
 
-<span class="preview">La información resaltada en esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa para todos los clientes o en el entorno de producción para los clientes que habilitaron versiones rápidas.</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
 
-<span class="preview">Para obtener información acerca de las versiones rápidas, consulte [Habilitar o deshabilitar las versiones rápidas para su organización](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
-
-Para colaborar de forma más eficaz con otras personas que no tengan una cuenta de Workfront, puede exportar la página de detalles de un registro a un archivo de Microsoft Word y compartirlo con ellas.
+To collaborate more efficiently with others that might not have a Workfront account, you can export a record's details page to a Microsoft Word file and share it with them. 
+-->
 
 ## Requisitos de acceso
 
@@ -60,7 +61,7 @@ Para colaborar de forma más eficaz con otras personas que no tengan una cuenta 
   </tr> 
   <tr> 
    <td role="rowheader"><p>Permisos de objeto</p></td> 
-   <td>   <p>Ver permisos superiores a un área de trabajo, tipo de registro y <span class="preview">registro</span> </p>  
+   <td>   <p>Ver permisos superiores a un espacio de trabajo, tipo de registro y registro</p>  
    <p>Los administradores del sistema tienen permisos para todos los espacios de trabajo, incluidos los que no crearon</p> </td> 
   </tr> 
   </tr>
@@ -139,8 +140,8 @@ Old:
 
 * Puede exportar los detalles de un registro a los siguientes formatos de archivo:
 
-   * .docx Word
-   * .pdf
+  * .docx Word
+  * .pdf
 
 * Sólo se puede exportar la ficha Detalles de la página o del área de vista previa de un registro.
 

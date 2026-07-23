@@ -20,10 +20,10 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: ab0d036ea3bbcdad2daaed6b09864272fd1beb11
+source-git-commit: 614b25d3255b27f09f2624afd8691e08cfb7ddf4
 workflow-type: tm+mt
-source-wordcount: 1010
-ht-degree: 14%
+source-wordcount: 1002
+ht-degree: 15%
 
 ---
 
@@ -108,12 +108,12 @@ Debe tener el siguiente acceso para utilizar Workfront Planning:
    <ul>
    <li><p>Ver o permisos superiores a espacios de trabajo, tipos de registros y vistas que no se han creado para acceder a ellos y a sus objetos.</p></li>
    <li><p>Conceder permisos de contribución o superiores a espacios de trabajo y tipos de registros que no haya creado para editarlos y crear, editar o eliminar tipos de registros.</p></li>
-   <li><p><span class="preview">Administrar permisos a registros para editarlos, compartirlos o eliminarlos.</p>
+   <li><p>Administrar permisos a registros para editarlos, compartirlos o eliminarlos.</p>
    <li><p>Permisos de contribución o superiores para vistas que no haya creado, para editarlas, eliminarlas y compartirlas</p>
    </li>
     <li><p>Los administradores de Planning pueden administrar espacios de trabajo que no hayan creado. </p></li>
     <li><p>Los administradores de Planning no pueden acceder a las vistas que no han creado. </p></li></ul>
-   <p>Para obtener información acerca de los permisos de uso compartido para objetos de Workfront Planning, consulte  
+   <p>Para obtener información acerca de los permisos de uso compartido para objetos de Workfront Planning, consulte 
    <a href="/help/quicksilver/planning/access/sharing-permissions-overview.md">Información general sobre los permisos de uso compartido en Adobe Workfront Planning</a> 
    </td>
    </tr>

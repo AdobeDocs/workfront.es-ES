@@ -19,7 +19,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: cfc4bcf9d3956a50839a6da26fc98a645782bdc1
+source-git-commit: 614b25d3255b27f09f2624afd8691e08cfb7ddf4
 workflow-type: tm+mt
 source-wordcount: 1763
 ht-degree: 44%
@@ -439,6 +439,10 @@ Actualice la configuración de vista de calendario para indicar qué informació
    * **Tipo de registro**: El color de las barras de registro del calendario coincide con el color del tipo de registro seleccionado. Esta es la opción predeterminada.
    * **Valores de campo**: el color de los registros coincide con el color de un campo que especifique.
    * **Ninguno**: los registros se muestran en una barra blanca.
+
+   <!--
+    For July 23: add to the "None" bullet above this sentence: <span class="preview">The None option has been removed from the Preview environment.</span>
+    -->
 
 1. (Condicional) Si ha seleccionado **Valores de campo** para los colores de registro, seleccione un campo en el menú desplegable **Hacer coincidir el color del registro con**.
 

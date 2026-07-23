@@ -20,9 +20,9 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+source-git-commit: 614b25d3255b27f09f2624afd8691e08cfb7ddf4
 workflow-type: tm+mt
-source-wordcount: 611
+source-wordcount: 614
 ht-degree: 18%
 
 ---
@@ -42,8 +42,8 @@ Puede recibir notificaciones por correo electrónico de Workfront Planning cuand
 * Alguien le etiqueta a usted o a sus equipos en un comentario de registro
 
   Para obtener información sobre cómo etiquetar a otras personas en un comentario de registro, consulte [Administrar comentarios de registro](/help/quicksilver/planning/records/manage-record-comments.md).
-* Alguien le pide permiso para obtener acceso a una vista, un área de trabajo o un tipo de registro <!--or <span class="preview">or a record</span>-->
-* Alguien confirma que se ha concedido su acceso a una vista, espacio de trabajo o tipo de registro <!--<span class="preview">or record</span> Isk confirmed that there is nno email for denying access but did not test-->
+* Alguien le pide permiso para acceder a una vista, un espacio de trabajo, un tipo de registro o un registro
+* Alguien confirma que se ha concedido su acceso a una vista, espacio de trabajo, tipo de registro o registro
 * Envía una solicitud de Workfront Planning. Para obtener más información, consulte [Crear y administrar un formulario de solicitud en Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md)
 * Alguien aprueba o rechaza una solicitud de Workfront Planning que usted haya enviado. Para obtener más información, consulte [Aprobar una solicitud en Adobe Workfront Planning](/help/quicksilver/planning/requests/approve-request.md)
 * El estado cambia a una solicitud de Workfront Planning que ha enviado.

@@ -20,18 +20,20 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+source-git-commit: 614b25d3255b27f09f2624afd8691e08cfb7ddf4
 workflow-type: tm+mt
-source-wordcount: 2013
-ht-degree: 34%
+source-wordcount: 1741
+ht-degree: 40%
 
 ---
 
 # Administrar el diseño de página de registro
 
-<span class="preview">La información resaltada en esta página hace referencia a funcionalidades que aún no están disponibles de forma general. Solo está disponible en el entorno de vista previa para todos los clientes. Después del lanzamiento en Vista previa, las mismas funciones también están disponibles mensualmente en el entorno de producción para los clientes que habilitaron lanzamientos rápidos. </span>
+<!--
+<span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Para obtener información sobre las versiones rápidas, consulte [Habilitar o deshabilitar las versiones rápidas para su organización](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -79,7 +81,7 @@ Para obtener más información, consulte los siguientes artículos:
   <tr>
    <td role="rowheader"><p>Permisos de objeto</p></td>
    <td>
-   <p>Permisos de contribución o superior para un espacio de trabajo y tipo de registro y <span class="preview">Administrar permisos para un registro</span> </p>  
+   <p>Permisos de contribución o superiores para un tipo de espacio de trabajo y registro y permisos de administración para un registro </p>  
    <p>Los administradores del sistema tienen permisos para todos los espacios de trabajo, incluidos los que no crearon</p> 
   </td>
   </tr>   
@@ -166,9 +168,9 @@ Old:
 
 * Los siguientes cambios afectan a todos los registros del mismo tipo y son visibles para todos los usuarios que acceden a esos registros:
 
-   * Reorganización de campos
-   * Añadir o quitar secciones
-   * Adición o eliminación de páginas de registros conectados
+  * Reorganización de campos
+  * Añadir o quitar secciones
+  * Adición o eliminación de páginas de registros conectados
 
 * Los cambios de visualización que realice en la vista previa del registro se pueden ver inmediatamente en la página de detalles del registro. Los cambios realizados en la página de registro también se pueden ver en el cuadro de vista previa del registro.
 
@@ -176,9 +178,9 @@ Old:
 
 * Puede agregar páginas adicionales de los siguientes tipos a la página de un registro:
 
-   * Página de registros conectados
+  * Página de registros conectados
 
-     Para obtener más información, consulte la sección [Agregar una página Registros conectados a un registro](#add-a-connected-records-page-to-a-record).
+    Para obtener más información, consulte la sección [Agregar una página Registros conectados a un registro](#add-a-connected-records-page-to-a-record).
 
 ## Añadir secciones a una vista previa o página de registro
 
@@ -208,13 +210,13 @@ Para añadir una sección a una vista previa o a una página del registro:
 
    En la vista de tabla, haga clic en el icono **Abrir detalles** ![Abrir detalles en el campo de nombre de tabla](assets/open-details-icon-in-table-name-field.png) de la primera columna.
 
-   <span class="preview">La vista previa del registro se abre en la vista.</span>
+   La vista previa del registro se abrirá en la vista.
 
    ![Cuadro de detalles](assets/details-box.png)
 
 1. (Opcional) Haga clic en el icono **Abrir en ficha nueva** ![Abrir detalles en un icono de ficha nueva](assets/open-details-in-a-new-tab-icon.png) en la esquina superior derecha de la vista previa del registro para abrir la página del registro en una ficha nueva.
 
-   <span class="preview">: se abre la página de registro. La ficha Detalles se abre de forma predeterminada.</span>
+   Se abre la página de registro. La pestaña Detalles se abre de forma predeterminada.
 
    ![Página de detalles](assets/details-page.png)
 
@@ -238,7 +240,7 @@ Para añadir una sección a una vista previa o a una página del registro:
      O
 
      Haga clic en **Bajar** para bajar la sección una posición.
-Todos los campos de la sección se mueven con la sección.
+     Todos los campos de la sección se mueven con la sección.
 
    * Haga clic en **Eliminar** para eliminar la sección. La sección se elimina y no se puede recuperar. Todos los usuarios que accedan a los registros de este tipo ya no verán la sección eliminada.
 
@@ -287,54 +289,46 @@ Ocurren lo siguiente:
 
    En la vista de tabla, haga clic en el icono **Abrir detalles** ![Abrir detalles en el campo de nombre de tabla](assets/open-details-icon-in-table-name-field.png) de la primera columna.
 
-   <span class="preview">La vista previa del registro se abre en la vista.</span>
+   La vista previa del registro se abrirá en la vista.
 
    ![Cuadro de detalles](assets/details-box.png)
 
-1. (Opcional y condicional) Si utiliza el entorno de producción, según los campos que desee mostrar en la página Detalles, realice una de las siguientes acciones:
-
-
-   * Seleccione la configuración **Mostrar todos los campos** para incluir todos los campos del registro en la página **Detalles**. Esta es la configuración predeterminada.
-   * Anule la selección del ajuste **Mostrar todos los campos** para excluir los campos del registro que están ocultos en la vista de tabla del registro de la página **Detalles**.
-
-     >[!TIP]
-     >
-     >* La configuración **Mostrar todos los campos** solo está disponible en el cuadro de vista previa de detalles del registro. No está disponible cuando la página Detalles del registro se abre en una ventana del explorador.
-     >* No se pueden agregar secciones a la página de un registro cuando se excluyen campos ocultos en el cuadro Vista previa de detalles.
-
-
-1. <span class="preview"> (opcional y condicional) Si utiliza el entorno de vista previa, el área de detalles se abrirá de forma predeterminada en la vista **Campos de vista de tabla seleccionados**. Esto muestra únicamente los campos visibles en la vista de tabla. </span>
-
-   >[!TIP]
-   >
-   > <span class="preview">La vista **Campos de vista de tabla seleccionados** solo está disponible cuando se ven registros en la vista de tabla de la página de vista previa de detalles del registro.
-   >Los **campos de vista de tabla seleccionados** no están disponibles para ninguna otra vista de tipo de registro ni para la página de detalles del registro que se abre en una ventana del explorador. </span>
-
-1. <span class="preview">(condicional) En el entorno de vista previa, continúe con lo siguiente:</span>
-
-   <div class="preview">
-
-   1. Para mostrar todos los campos, expanda el menú desplegable de vista de página y luego seleccione **Todos los campos**.
-   1. (Opcional) Haga clic en **Nuevos detalles** para agregar una nueva página y personalizarla. A continuación, haga lo siguiente:
-
-      1. En el cuadro **Crear vista**, agregue un nombre para la nueva vista de página de detalles y haga clic en **Crear**.
-      1. Pase el ratón sobre los campos de la vista y haga clic en el icono **Ocultar campo** ![Ocultar icono de campo](assets/hide-field-in-details-page-icon.png) que se encuentra a la izquierda de los campos para ocultar el campo.
-
+   <!--
+   1. (Optional and conditional) If you are using the Production environment, depending on which fields you want to display in the Details page, do one of the following:
+      * Select the **Show all fields** setting to include all the record's fields in the **Details** page. This is the default setting. 
+      * Deselect the **Show all fields** setting to exclude the record's fields that are hidden in the table view of the record from the **Details** page.
          >[!TIP]
          >
-         >* Las páginas personalizadas son visibles para todos los que acceden al registro.
-         >* La última vista de página que elija será la que se abra de forma predeterminada cuando abra otro registro del mismo tipo.
+         >* The **Show all fields** setting is available only in the record's Details preview box. It is not available when the record's Details page opens in a browser window.
+         >* You cannot add sections to a record's page when you exclude hidden fields in the Details preview box. 
+   1. (Optional and conditional) If you are using the Preview environment, the details area opens by default in the **Selected table view fields** view. This displays only the fields that are visible in the table view. 
+      >[!TIP]
+      >
+      >The **Selected table view fields** view is only available when you view records in the table view in the record's details preview page. 
+      >The **Selected table view fields** is not available for any other record type view or for the record's details page that opens in a browser window. 
+   -->
 
-      1. (Opcional) Haga clic en el icono de **Campos** ![Icono de Campos](assets/fields-icon.png) en la parte superior de la página de detalles y, a continuación, oculte o muestre los campos en la página Detalles.
 
-         >[!TIP]
-         >
-         >El icono **Campos** no está disponible cuando muestra la página de detalles en la **vista de tabla seleccionada** o en las vistas **Todos los campos**.
 
-      1. (Opcional) Para editar el nombre de una vista de página de detalles personalizada, pase el ratón sobre el nombre de la vista, haga clic en el icono **Más** ![Icono de más](assets/more-menu.png) y, a continuación, haga clic en **Editar**.
-      1. (Opcional) Para eliminar una vista de página de detalles personalizada, pase el ratón sobre el nombre de la vista, haga clic en el icono **Más** ![Icono de más](assets/more-menu.png), a continuación, haga clic en **Eliminar** y, por último, en **Eliminar** para confirmar. Las vistas de página de detalles eliminadas no se pueden recuperar.
+1. Para mostrar todos los campos, expanda el menú desplegable de vista de página y luego seleccione **Todos los campos**.
+1. (Opcional) Haga clic en **Nuevos detalles** para agregar una nueva página y personalizarla. A continuación, haga lo siguiente:
 
-   </div>
+   1. En el cuadro **Crear vista**, agregue un nombre para la nueva vista de página de detalles y haga clic en **Crear**.
+   1. Pase el ratón sobre los campos de la vista y haga clic en el icono **Ocultar campo** ![Ocultar icono de campo](assets/hide-field-in-details-page-icon.png) que se encuentra a la izquierda de los campos para ocultar el campo.
+
+      >[!TIP]
+      >
+      >* Las páginas personalizadas son visibles para todos los que acceden al registro.
+      >* La última vista de página que elija será la que se abra de forma predeterminada cuando abra otro registro del mismo tipo.
+
+   1. (Opcional) Haga clic en el icono de **Campos** ![Icono de Campos](assets/fields-icon.png) en la parte superior de la página de detalles y, a continuación, oculte o muestre los campos en la página Detalles.
+
+      >[!TIP]
+      >
+      >El icono **Campos** no está disponible cuando muestra la página de detalles en la **vista de tabla seleccionada** o en las vistas **Todos los campos**.
+
+   1. (Opcional) Para editar el nombre de una vista de página de detalles personalizada, pase el ratón sobre el nombre de la vista, haga clic en el icono **Más** ![Icono de más](assets/more-menu.png) y, a continuación, haga clic en **Editar**.
+   1. (Opcional) Para eliminar una vista de página de detalles personalizada, pase el ratón sobre el nombre de la vista, haga clic en el icono **Más** ![Icono de más](assets/more-menu.png), a continuación, haga clic en **Eliminar** y, por último, en **Eliminar** para confirmar. Las vistas de página de detalles eliminadas no se pueden recuperar.
 
 1. (Opcional) Si desea desplazarse a un registro conectado, haga clic en el nombre de ese registro en la ruta de exploración situada en la parte superior de la página de detalles.
 
@@ -346,7 +340,7 @@ Ocurren lo siguiente:
 
 1. (Opcional) Haga clic en el icono **Abrir en ficha nueva** ![Abrir cuadro de detalles en un icono de ficha nueva](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> en la esquina superior derecha de la vista previa del registro para abrir la página del registro en una ficha nueva.
 
-   <span class="preview">La página de registro **Detalles** se abre en una nueva pestaña.</span>
+   La página de registro **Detalles** se abre en una nueva pestaña.
 
    ![Página de detalles](assets/details-page.png)
 

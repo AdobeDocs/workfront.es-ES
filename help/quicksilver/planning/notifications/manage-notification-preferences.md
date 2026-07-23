@@ -19,9 +19,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+source-git-commit: 614b25d3255b27f09f2624afd8691e08cfb7ddf4
 workflow-type: tm+mt
-source-wordcount: 516
+source-wordcount: 522
 ht-degree: 31%
 
 ---
@@ -41,8 +41,8 @@ En este artículo se describe cómo administrar las notificaciones de Adobe Work
 Puede recibir notificaciones en la aplicación o por correo electrónico cuando se produzcan las siguientes acciones en Workfront Planning:
 
 * Alguien agrega usted o sus equipos a un comentario en la página de registro
-* Alguien pide permiso para tener acceso a una vista o a un área de trabajo <!--or <span class="preview">or a record</span>-->
-* Alguien le concede permiso para obtener acceso a una vista o a un área de trabajo <!--or <span class="preview">or a record</span> I could not test this but Isk confirmed-->
+* Alguien pide permiso para tener acceso a una vista, un área de trabajo o un registro
+* Alguien le concede permiso para acceder a una vista, un espacio de trabajo o un registro
 * Envía una solicitud de Workfront Planning.
 * Alguien aprueba o rechaza una solicitud de Workfront Planning que usted haya enviado.
 * El estado cambia a una solicitud de Workfront Planning que ha enviado.
@@ -162,8 +162,8 @@ Para obtener más información sobre las notificaciones de Workfront Planning, c
 * Para obtener información acerca de los comentarios en los registros, consulte [Administrar comentarios de registro](/help/quicksilver/planning/records/manage-record-comments.md).
 * Para obtener información sobre las notificaciones de aprobación, consulte los siguientes artículos:
 
-   * [Aprobar una solicitud en Adobe Workfront Planning](/help/quicksilver/planning/requests/approve-request.md)
-   * [Enviar solicitudes de Adobe Workfront Planning para crear registros](/help/quicksilver/planning/requests/submit-requests.md)
+  * [Aprobar una solicitud en Adobe Workfront Planning](/help/quicksilver/planning/requests/approve-request.md)
+  * [Enviar solicitudes de Adobe Workfront Planning para crear registros](/help/quicksilver/planning/requests/submit-requests.md)
 * Para obtener información sobre las notificaciones en la aplicación de Workfront Planning, consulte [Administrar notificaciones en la aplicación para Adobe Workfront Planning](/help/quicksilver/planning/notifications/manage-planning-in-app-notifications.md).
 * Para obtener información sobre las notificaciones por correo electrónico de Workfront Planning, consulte [Administrar notificaciones por correo electrónico para Adobe Workfront Planning](/help/quicksilver/planning/notifications/manage-planning-email-notifications.md).
 
@@ -188,10 +188,10 @@ Anule la selección de las notificaciones que quiera dejar de recibir.
    * **Menciones**: Recibes una notificación cuando alguien te etiqueta a ti o a tu equipo en un comentario en Workfront Planning
    * **Solicitudes**: recibe una notificación cuando alguien realiza una de las siguientes acciones:
 
-      * Solicita o concede permiso para un objeto de Workfront Planning
-      * Ha enviado una solicitud de Workfront Planning
-      * El estado de una solicitud de Workfront Planning que ha enviado cambios
-      * Solicita, concede o rechaza una aprobación para una solicitud de Workfront Planning
+     * Solicita o concede permiso para un objeto de Workfront Planning
+     * Ha enviado una solicitud de Workfront Planning
+     * El estado de una solicitud de Workfront Planning que ha enviado cambios
+     * Solicita, concede o rechaza una aprobación para una solicitud de Workfront Planning
 
    Para obtener más información sobre cómo administrar las notificaciones, consulte [Preferencias y notificaciones de la cuenta](https://experienceleague.adobe.com/es/docs/core-services/interface/features/account-preferences).
 
