@@ -9,18 +9,12 @@ author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 47092717-3895-40a3-9db1-0009638e2544
 TQID: https://experienceleague.adobe.com/tbPBGXTzfjmKuYgp32iFR6NsQCNf8sHZj4IH0zUXwt4
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 8f9a1a0c9967346771709371c49b4c0b50cb1059
 workflow-type: tm+mt
 source-wordcount: 875
 ht-degree: 94%
@@ -35,7 +29,7 @@ ht-degree: 94%
 
 ## ¿Cómo abro una nueva cuenta de [!DNL Workfront Proof]?
 
-Para abrir una cuenta nueva, vaya a la [página de registro de prueba](https://business.adobe.com/es/products/workfront/proofing-approvals.html) y abra una cuenta de prueba. Un miembro de nuestro equipo se pondrá en contacto con usted para ayudarle a empezar con [!DNL Workfront Proof].
+Para abrir una cuenta nueva, vaya a la [página de registro de prueba](https://business.adobe.com/products/workfront/proofing-approvals.html) y abra una cuenta de prueba. Un miembro de nuestro equipo se pondrá en contacto con usted para ayudarle a empezar con [!DNL Workfront Proof].
 
 Si ya conoce el sistema y desea suscribirse a un plan de pago, vaya a *[!UICONTROL Configuración]* *>* *[!UICONTROL Facturación]* y actualice su cuenta a uno de nuestros planes de pago.
 
@@ -90,3 +84,4 @@ Encontrará más información sobre la carpeta Papelera en el artículo [Restaur
 ## ¿Cómo puedo pagar mi suscripción a [!DNL Workfront Proof]?
 
 Las suscripciones mensuales se pagan únicamente con tarjeta de crédito. En las suscripciones anuales se puede elegir entre una tarjeta de crédito y una transferencia bancaria. <!--Visit the [Account Payment in [!DNL Workfront Proof]](../../../workfront-proof/wp-billingsettings/manage-your-billing/acct-payment-in-wp.md) help page for additional information.-->
+

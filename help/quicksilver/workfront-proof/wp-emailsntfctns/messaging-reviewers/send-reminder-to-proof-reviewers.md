@@ -8,15 +8,11 @@ author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 53abbd88-7915-4d74-9bda-d75c59663463
 TQID: https://experienceleague.adobe.com/eCJhedBSQgqT9i4784HdrUFM-N61zC8O3wPJvuvXlKQ
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 8f9a1a0c9967346771709371c49b4c0b50cb1059
 workflow-type: tm+mt
 source-wordcount: 437
 ht-degree: 78%
@@ -41,10 +37,10 @@ El correo electrónico de recordatorio predeterminado incluye la siguiente infor
 * Miniatura de la imagen de la prueba
 * Los siguientes detalles de la prueba:
 
-   * Nombre de revisión
-   * Número de versión
-   * Nombre de la carpeta (si corresponde)
-   * Lista de revisores y su progreso en la prueba
+  * Nombre de revisión
+  * Número de versión
+  * Nombre de la carpeta (si corresponde)
+  * Lista de revisores y su progreso en la prueba
 
 También puede recordar a otros que se han compartido varias pruebas con ellos. Para obtener más información, consulte [Recordar a un revisor las asignaciones de Workfront Proof](../../../workfront-proof/wp-emailsntfctns/messaging-reviewers/remind-reviewer-assignments-wp.md).
 
@@ -75,3 +71,4 @@ También puede recordar a otros que se han compartido varias pruebas con ellos. 
      El mensaje predeterminado recuerda a los revisores que se han añadido a la prueba e incluye su fecha límite.
 
    * Si desea crear su propio mensaje personalizado, escriba un **[!UICONTROL Asunto]** y el **[!UICONTROL Mensaje],** y, a continuación, haga clic en **[!UICONTROL Enviar].** Un correo electrónico de recordatorio personalizado contiene la misma información que el correo electrónico de recordatorio predeterminado, pero también incluye la línea de asunto personalizada y el mensaje personalizado en el cuerpo del correo electrónico.
+

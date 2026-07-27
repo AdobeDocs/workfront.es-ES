@@ -9,15 +9,11 @@ author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: a6bfe471-2032-4b74-8316-584f923e8651
 TQID: https://experienceleague.adobe.com/GmmKj5aqXNRDlKfo8BBcN7-6-jCtf2-8Dv4o2m1mPAY
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 8f9a1a0c9967346771709371c49b4c0b50cb1059
 workflow-type: tm+mt
 source-wordcount: 441
 ht-degree: 100%
@@ -66,3 +62,4 @@ Si no desea que este enlace aparezca en el correo electrónico del destinatario,
 
 1. Consulte [Configuración de notificaciones por correo electrónico en Workfront Proof](../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md) para obtener instrucciones más detalladas.
 1. Si las notificaciones por correo electrónico están deshabilitadas de forma predeterminada en [!UICONTROL Configuración de la cuenta], el creador o el propietario de la prueba no recibirá ningún correo electrónico de [!UICONTROL prueba realizada] o [!UICONTROL nueva prueba], aunque tenga esta opción habilitada en su configuración personal y la casilla de verificación [!UICONTROL Notificar a las personas por correo electrónico] esté seleccionada en la página [!UICONTROL Nueva prueba].
+
