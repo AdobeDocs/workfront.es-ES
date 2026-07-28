@@ -15,7 +15,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 8f9a1a0c9967346771709371c49b4c0b50cb1059
 workflow-type: tm+mt
 source-wordcount: 932
 ht-degree: 100%
@@ -85,3 +85,4 @@ Esta opción es útil si no desea que los clientes y los autónomos se vean en [
 * También puede administrar la función que se les asigna en la prueba, como [!UICONTROL Solo lectura], así como comunicarse por correo electrónico con ellos en relación con la prueba. Para obtener más información, consulte [Administrar funciones de prueba en  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md).
 * Si no quiere que el trabajador autónomo participe en el proceso de revisión, pero sí que se le notifique la decisión final, establecezca la función de prueba predeterminada dentro de su configuración de [!UICONTROL Dropzone] y una alerta por correo electrónico para todos los remitentes de [!UICONTROL Dropzone] en [Administrar funciones de prueba en  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md) y [Configurar las opciones de notificación por correo electrónico en  [!DNL Workfront Proof]](../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md), respectivamente. Para obtener más información, consulte [Alertas por correo electrónico,](https://support.workfront.com/hc/es-es/sections/115000911867-Email-alerts) [Administrar funciones de prueba en  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md) y [Configurar las opciones de notificación por correo electrónico en  [!DNL Workfront Proof]](../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md).
 * Si desea que su trabajador autónomo participe activamente en el proceso de revisión, puede ajustar su función de prueba y la configuración de alertas por correo electrónico según sea necesario, edite esto en línea en la página de detalles de la prueba. Para obtener más información sobre esa página, consulte [Administrar detalles de la prueba en  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md)
+

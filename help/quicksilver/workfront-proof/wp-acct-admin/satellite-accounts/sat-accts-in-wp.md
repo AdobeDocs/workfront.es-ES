@@ -18,7 +18,7 @@ role_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 8f9a1a0c9967346771709371c49b4c0b50cb1059
 workflow-type: tm+mt
 source-wordcount: 445
 ht-degree: 100%
@@ -69,3 +69,4 @@ Creando cuentas satélite para sus clientes.
 | Flujo de trabajo mejorado para su cliente | Puede adaptar el proceso de revisión para satisfacer las necesidades de un cliente específico |
 | Su cliente puede cargar pruebas desde la cuenta satélite y compartirlas con usted | Su cliente puede iniciar sus propias pruebas |
 | Todas las pruebas que se hayan compartido anteriormente con su cliente se mostrarán automáticamente en su cuenta | No es necesario volver a compartir las pruebas anteriores |
+

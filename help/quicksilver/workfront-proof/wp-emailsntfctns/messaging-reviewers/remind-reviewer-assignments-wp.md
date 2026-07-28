@@ -16,7 +16,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 8f9a1a0c9967346771709371c49b4c0b50cb1059
 workflow-type: tm+mt
 source-wordcount: 225
 ht-degree: 85%
@@ -45,5 +45,6 @@ El correo electrónico replicará el correo electrónico de notificación que se
 1. Haga clic en **[!UICONTROL Más]** > **[!UICONTROL Mensaje.]**
 
 1. En el cuadro **[!UICONTROL Enviar mensaje]** que aparece, escriba un **[!UICONTROL Título]** y **[!UICONTROL Mensaje],** y luego haga clic en **[!UICONTROL Enviar].** El contacto recibe un correo electrónico que contiene información y vínculos personales para todas las pruebas en un solo correo electrónico.
+
 
 

@@ -17,7 +17,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 8f9a1a0c9967346771709371c49b4c0b50cb1059
 workflow-type: tm+mt
 source-wordcount: 1127
 ht-degree: 1%
@@ -90,3 +90,4 @@ Si está enviando una prueba a un grupo de revisores, pero sólo necesita una pe
 ## ¿Puedo generar una lista de todos los comentarios realizados sobre una prueba?
 
 Sí, puede generar *[!UICONTROL Imprimir resumen]* de los comentarios que quedaron en la revisión. Este documento se puede generar para una sola versión o para todas las versiones que se compartieron con este revisor. Muestra una lista de todos los comentarios, marcas y decisiones que se tomaron en la prueba. Para obtener más información acerca de esta característica, visite [Imprimir y exportar comentarios en [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/print-and-export-comments.md).
+

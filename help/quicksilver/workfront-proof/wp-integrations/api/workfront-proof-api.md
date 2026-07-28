@@ -15,7 +15,7 @@ feature_v2:
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 8f9a1a0c9967346771709371c49b4c0b50cb1059
 workflow-type: tm+mt
 source-wordcount: 110
 ht-degree: 100%
@@ -31,3 +31,4 @@ ht-degree: 100%
 Si es un desarrollador con clientes a los que les podría resultar beneficioso tener integrados los procesos de revisión, colaboración y aprobación de documentos, puede incrustar fácilmente [!DNL Workfront Proof] en su aplicación. La API de [!DNL Workfront Proof] le permite habilitar esta funcionalidad y ahorrar cientos de horas de trabajo.
 
 Para obtener más información, consulte las páginas de ayuda de la API en http://api.proofhq.com/.
+

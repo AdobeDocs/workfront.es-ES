@@ -13,7 +13,7 @@ product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 8f9a1a0c9967346771709371c49b4c0b50cb1059
 workflow-type: tm+mt
 source-wordcount: 52
 ht-degree: 88%
@@ -32,3 +32,4 @@ Esta sección contiene los siguientes artículos:
 * [Revisión interna y externa en [!DNL Workfront Proof]](../../../workfront-proof/wp-getstarted/workflow-examples/internal-external-review.md)
 * [Trabajo con diseñadores y gerentes de proyectos en  [!DNL Workfront Proof]](../../../workfront-proof/wp-getstarted/workflow-examples/work-designers-project-managers.md)
 * [Trabajar con autónomos en  [!DNL Workfront Proof]](../../../workfront-proof/wp-getstarted/workflow-examples/work-freelancers.md)
+

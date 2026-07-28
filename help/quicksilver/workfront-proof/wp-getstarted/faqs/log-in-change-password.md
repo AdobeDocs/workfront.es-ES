@@ -18,7 +18,7 @@ role_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 8f9a1a0c9967346771709371c49b4c0b50cb1059
 workflow-type: tm+mt
 source-wordcount: 550
 ht-degree: 98%
@@ -87,3 +87,4 @@ Puede añadir varias direcciones de correo electrónico a su cuenta de [!DNL Wor
 1. En el correo electrónico de validación que reciba, haga clic en el vínculo de confirmación.\
    El cambio de correo electrónico se guarda en su perfil. Es posible que tenga que actualizar el explorador donde está viendo la página [!DNL Workfront Proof] [!UICONTROL Configuración personal] para ver que se ha confirmado como un correo electrónico de alias.
 1. (Opcional) Para hacer que la nueva dirección de correo electrónico sea su dirección de correo electrónico principal en [!DNL Workfront Proof], haga clic en el botón [!UICONTROL Más] (tres puntos) situado a la derecha de la dirección y, a continuación, haga clic en **[!UICONTROL Crear correo electrónico principal]** en el menú que aparece.
+
