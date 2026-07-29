@@ -19,20 +19,19 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: cfc4bcf9d3956a50839a6da26fc98a645782bdc1
+source-git-commit: e6551959a0f7bc6fb7de9c0b7d81aa5bc50f2980
 workflow-type: tm+mt
-source-wordcount: 4223
-ht-degree: 38%
+source-wordcount: 4315
+ht-degree: 37%
 
 ---
 
 # Administrar la vista de cronología
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">La información resaltada en esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa para todos los clientes. Después del lanzamiento en Vista previa, las mismas funciones también están disponibles mensualmente en el entorno de producción para los clientes que habilitaron lanzamientos rápidos. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+<span class="preview">Para obtener información sobre las versiones rápidas, consulte [Habilitar o deshabilitar las versiones rápidas para su organización](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
 
 {{planning-important-intro}}
 
@@ -549,20 +548,12 @@ Actualice la configuración de la vista de cronología para indicar qué informa
    * **Predeterminado (gris)**: el color de las agrupaciones está establecido en gris. Es la opción predeterminada.
    * **Valores de campo**: el color de las agrupaciones coincide con el color del campo por el que se agrupa.
 
-     >[!NOTE]
-     >
-     >    * Puede hacer coincidir el color solo con los campos con opciones codificadas por colores. Por ejemplo, puede hacer coincidir el color con campos de Estado, o campos con opciones asociadas a colores.
-     >    
-     >    * No puede hacer coincidir el color con los registros conectados y sus campos de búsqueda.
+   >[!NOTE]
+   >
+   >* Puede hacer coincidir el color solo con los campos con opciones codificadas por colores. Por ejemplo, puede hacer coincidir el color con campos de Estado, o campos con opciones asociadas a colores.
+   >    
+   >* En el entorno Producción, no se puede hacer coincidir el color con los registros conectados o sus campos de búsqueda. <span class="preview">En el entorno de vista previa, puede hacer coincidir el color con los registros conectados, pero no con sus campos de búsqueda. </span>
 
-     <!--
-        For July 23: replace the note above with this note for the July 23 release:
-        >[!NOTE]
-        >
-        >* You can match the color only to fields with color-coded options. For example, you can match the color to Status fields, or fields with options associated with colors.
-        >    
-        >* In the Production environment, you cannot match the color to connected records or their lookup fields. <span class="preview">In the Preview environment, you can match the color to connected records, but not to their lookup fields. </span>     
-        -->
 
    Por ejemplo, los campos de selección múltiple o de selección única pueden tener opciones codificadas por colores.
 
@@ -577,11 +568,7 @@ Actualice la configuración de la vista de cronología para indicar qué informa
    * **Tipo de registro**: el color de los registros coincide con el color del tipo de registro seleccionado. Esta es la opción predeterminada.
    * **Valores de campo**: el color de los registros coincide con el color de un campo que especifique. Continúe con el paso 10. <!--ensure this stays accurate-->
    * **Agrupación**: el color de los registros coincide con el color indicado para las agrupaciones. Esta opción aparece atenuada cuando no se han aplicado agrupaciones a la vista de cronología.
-   * **Ninguno**: los registros se muestran en una barra blanca.
-
-   <!--
-    For July 23: add to the "None" bullet above this sentence: <span class="preview">The None option has been removed from the Preview environment.</span>
-    -->
+   * **Ninguno**: los registros se muestran en una barra blanca. <span class="preview">Se ha quitado la opción Ninguno del entorno de vista previa.</span>
 
 1. (Condicional) Si ha seleccionado **Valores de campo** para los colores de registro, seleccione un campo en el menú desplegable **Hacer coincidir el color del registro con**.
 

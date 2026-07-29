@@ -20,20 +20,20 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
+source-git-commit: e6551959a0f7bc6fb7de9c0b7d81aa5bc50f2980
 workflow-type: tm+mt
-source-wordcount: 3103
+source-wordcount: 3223
 ht-degree: 8%
 
 ---
 
 # Editar registros
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+<span class="preview">La información resaltada en esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa para todos los clientes. Después del lanzamiento en Vista previa, las mismas funciones también están disponibles mensualmente en el entorno de producción para los clientes que habilitaron lanzamientos rápidos. </span>
+
+<span class="preview">Para obtener información sobre las versiones rápidas, consulte [Habilitar o deshabilitar las versiones rápidas para su organización](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
 
 {{planning-important-intro}}
 
@@ -145,17 +145,17 @@ Old:
 * Puede editar los registros que haya creado o los creados por otros usuarios si dispone de permisos para el espacio de trabajo.
 * Puede editar los campos de registro desde las siguientes áreas:
 
-   * Vista previa del registro en una vista de registros
-   * La página de detalles del registro
-   * En línea, en una vista de tabla.
-   * La vista de calendario y de escala de tiempo, al cambiar el tamaño o arrastrar y soltar los registros. Esto actualiza las fechas de los registros.
+  * Vista previa del registro en una vista de registros
+  * La página de detalles del registro
+  * En línea, en una vista de tabla.
+  * La vista de calendario y de escala de tiempo, al cambiar el tamaño o arrastrar y soltar los registros. Esto actualiza las fechas de los registros.
 
 * Cuando un usuario edita un registro en una vista, los cambios son visibles inmediatamente en todas las vistas y las páginas de registros para todos los demás usuarios.
 
 * Los siguientes tipos de campos se actualizan automáticamente y no se pueden editar sus valores manualmente:
-   * Campos vinculados de otros registros
-   * Campos de tipo fórmula
-   * Campos del sistema (Creado por, Fecha de creación, Última modificación por, Fecha de última modificación, Fecha de aprobación, Aprobado por , ID de registro)
+  * Campos vinculados de otros registros
+  * Campos de tipo fórmula
+  * Campos del sistema (Creado por, Fecha de creación, Última modificación por, Fecha de última modificación, Fecha de aprobación, Aprobado por , ID de registro)
 * Si los registros que muestra están vinculados a otros registros, la nueva información de los registros que está modificando se reflejará en los registros vinculados de todos los espacios de trabajo en los que esté vinculado ese registro.
 * No puede editar registros de forma masiva. <!--this will probably change-->
 * Las direcciones URL se reconocen como vínculos en tipos de campo de texto de una sola línea solo cuando comienzan con lo siguiente: http://, https://, ftp:// o www. .
@@ -167,8 +167,8 @@ Old:
 
   Para editar las fechas de los registros, consulte una de las siguientes secciones en este artículo:
 
-   * [Editar un registro en la vista de calendario de un tipo de registro](#edit-a-record-in-the-calendar-view-of-a-record-type)
-   * [Editar un registro en la vista de cronología de un tipo de registro](#edit-a-record-in-the-timeline-view-of-a-record-type)
+  * [Editar un registro en la vista de calendario de un tipo de registro](#edit-a-record-in-the-calendar-view-of-a-record-type)
+  * [Editar un registro en la vista de cronología de un tipo de registro](#edit-a-record-in-the-timeline-view-of-a-record-type)
 
 
 ## Editar registros
@@ -254,10 +254,10 @@ Para obtener más información, consulte [Crear registros](/help/quicksilver/pla
 
    * Copie una o varias celdas de un origen externo (por ejemplo, un archivo de Excel) y péguelas en uno de los siguientes tipos de campos:
 
-      * Campos de personas. Solo se admiten campos con un valor.
-      * Campos de texto.
-      * Seleccione campos.
-      * Campos de número, porcentaje y moneda.
+     * Campos de personas. Solo se admiten campos con un valor.
+     * Campos de texto.
+     * Seleccione campos.
+     * Campos de número, porcentaje y moneda.
 
    No puede copiar información de un origen externo y pegarla en ningún otro tipo de campo, incluidos los campos de conexión de Workfront u otras aplicaciones.
 
@@ -296,7 +296,7 @@ Para obtener más información, consulte [Crear registros](/help/quicksilver/pla
    * **Ver** o **Abrir en ficha nueva**: Se abre la página de registro.
    * **Copiar vínculo**: para copiar un vínculo en la página del registro.
    * **Editar miniatura**: Para agregar una miniatura a un registro.
-Para obtener más información, consulte [Añadir una miniatura a un registro](/help/quicksilver/planning/records/add-thumbnails-to-records.md).
+     Para obtener más información, consulte [Agregar una miniatura a un registro](/help/quicksilver/planning/records/add-thumbnails-to-records.md).
    * **Duplicado**: Esto crea un duplicado idéntico del registro.
    * **Insertar registro arriba/ Insertar registro abajo**: Agrega una fila nueva para que pueda agregar un registro nuevo. Esto no es posible en el entorno de vista previa.
    * **Eliminar**: Para eliminar el registro. Los registros eliminados se guardan en el cuadro Eliminados recientemente durante un máximo de 30 días.
@@ -372,6 +372,9 @@ Para obtener más información, consulte [Añadir una miniatura a un registro](/
    >  * Campos de búsqueda de otros registros creados conectando tipos de registros. Para obtener más información, consulte [Conectar tipos de registro](/help/quicksilver/planning/architecture/connect-record-types.md).
    >  * Campos de los siguientes tipos: Creado por, Fecha de creación, Última modificación por, Fecha de última modificación, Campos de fórmula.
 
+1. <span class="preview">(Opcional) Haga clic en el círculo de color a la izquierda del nombre del registro para cambiar el color del registro. </span>
+   <span class="preview">Los registros se asignan automáticamente a los colores cuando se crean. Haga clic en **Muestras** o en **Personalizadas** para seleccionar un nuevo color.</span>
+
 1. (Opcional) Haga clic en **Agregar portada** para agregar una imagen de portada al registro. Para obtener más información, vea [Agregar una imagen de portada a un registro](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md).
 
 1. (Opcional) Pase el ratón sobre el icono de la miniatura y luego haga clic en **Más** ![Menú más](assets/more-menu.png) > **Editar miniatura** para agregar una imagen en miniatura. Para obtener más información, consulte [Añadir una miniatura a un registro](/help/quicksilver/planning/records/add-thumbnails-to-records.md).
@@ -428,6 +431,11 @@ Para obtener más información, consulte [Añadir una miniatura a un registro](/
    >  * Campos de los siguientes tipos: Creado por, Fecha de creación, Última modificación por, Fecha de última modificación, Campos de fórmula.
 
 1. (Opcional) Haga clic en el icono de información a la derecha de cualquier campo que lo muestre para ver la descripción de un campo.
+1. <span class="preview">(Opcional) Haga clic en el círculo de color a la izquierda del nombre del registro para cambiar el color del registro. </span>
+   <span class="preview">Los registros se asignan automáticamente a los colores cuando se crean. Haga clic en **Muestras** o en **Personalizadas** para seleccionar un nuevo color.</span>
+
+   ![Cuadro selector de color para el cuadro de detalles de registro](assets/color-picker-box-for-record-color-in-details-page.png)
+
 1. (Opcional) Haga clic en **Agregar portada** para agregar una imagen de portada al registro
 
    O

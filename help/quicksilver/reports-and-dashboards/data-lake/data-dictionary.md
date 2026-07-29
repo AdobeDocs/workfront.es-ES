@@ -7,9 +7,9 @@ description: Esta página contiene información sobre la estructura y el conteni
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 57985404-554e-4289-b871-b02d3427aa5c
-source-git-commit: cfc4bcf9d3956a50839a6da26fc98a645782bdc1
+source-git-commit: 0666f0bee54821051a95354c38e775c02e935fa1
 workflow-type: tm+mt
-source-wordcount: '11896'
+source-wordcount: '11533'
 ht-degree: 8%
 
 ---
@@ -8898,194 +8898,114 @@ Contiene las definiciones actuales de todos los campos configurados en los tipos
         <td>Campo relacionado</td>
     </tr>
     <tr>
-        <td>"ID"</td>
-        <td>Varchar</td>
-        <td>El identificador único de la definición del campo. Clave principal de esta vista.</td>
-        <td>—</td>
-        <td>—</td>
-    </tr>
-    <tr>
-        <td>RECORDTYPEID</td>
-        <td>Varchar</td>
-        <td>El identificador único del tipo de registro al que pertenece este campo. Use con RECORDTYPE\_CURRENT para buscar detalles del tipo de registro.</td>
-        <td>RECORDTYPE\_CURRENT</td>
-        <td>ID</td>
-    </tr>
-    <tr>
-        <td>`DISPLAYNAME`</td>
-        <td>Varchar</td>
-        <td>El nombre para mostrar del campo como se muestra en la interfaz de Planning.</td>
-        <td>—</td>
-        <td>—</td>
-    </tr>
-    <tr>
-        <td>`ALIASNAME`</td>
+        <td>ALIASNAME</td>
         <td>Varchar</td>
         <td>Una versión en minúsculas y segura para URL del nombre para mostrar del campo, que se utiliza para la identificación en el sistema y el acceso a la API (por ejemplo, "Fecha de finalización" se convierte en "fecha_final", "Porcentaje completado" se convierte en "porcentaje_completado").</td>
         <td>—</td>
         <td>—</td>
     </tr>
     <tr>
-        <td>`DESCRIPTION`</td>
-        <td>Varchar</td>
-        <td>Una descripción proporcionada por el usuario del propósito del campo.</td>
-        <td>—</td>
-        <td>—</td>
-    </tr>
-    <tr>
-        <td>"FIELDTYPE"</td>
-        <td>Varchar</td>
-        <td>Tipo de datos o categoría del campo. Los valores posibles incluyen: "text", "long-text", "number", "percentage", "currency", "date", "boolean", "single-select", "multi-select", "reference", "lookup", "formula", "user", "created-at" y "created-by".</td>
-        <td>—</td>
-        <td>—</td>
-    </tr>
-    <tr>
-        <td>`HASERROR`</td>
-        <td>Varchar</td>
-        <td>Indica si el campo tiene actualmente un error de configuración o sincronización. Los valores son las cadenas "true" o "false". Un valor "true" significa que el campo está en estado de error y es posible que no devuelva los datos correctamente.</td>
-        <td>—</td>
-        <td>—</td>
-    </tr>
-    <tr>
-        <td>`LINKEDFIELD`</td>
-        <td>Variante</td>
-        <td>Un objeto JSON que contiene la definición de campo completa del campo de origen al que está vinculado este campo. Presente para tipos de campo "reference" y "lookup"; incluye propiedades como "alias", "displayName", "fieldType" y "createdAt". Nulo para campos no vinculados.</td>
-        <td>FIELD\_CURRENT</td>
-        <td>ID</td>
-    </tr>
-    <tr>
-        <td>`OPTIONS`</td>
-        <td>Variante</td>
-        <td>Una matriz JSON de objetos de elección para los campos "selección única" y "selección múltiple". Cada objeto de opción contiene color (una etiqueta de color con nombre), displayName (la etiqueta que se muestra en la interfaz de usuario) y name (el nombre de la API interna). Nulo para los tipos de campo no seleccionados.</td>
-        <td>—</td>
-        <td>—</td>
-    </tr>
-    <tr>
-        <td>`DATEOPTIONS`</td>
-        <td>Variante</td>
-        <td>Un objeto JSON que contiene la configuración de visualización específica de la fecha para los campos de fecha. Incluye dateFormat (por ejemplo, locale) y timeFormat (nulo si no se muestra la hora). Nulo para los tipos de campo que no son de fecha.</td>
-        <td>—</td>
-        <td>—</td>
-    </tr>
-    <tr>
-        <td>`FORMULAOPTIONS`</td>
-        <td>Variante</td>
-        <td>Un objeto JSON que contiene la configuración de fórmula para los campos formula. Incluye "formula" (la expresión de fórmula legible en lenguaje natural), "returnType" (por ejemplo, "PERCENTAGE", "NUMBER"), "numberOptions" (precisión, visualización) y "dateOptions". Nulo para los campos que no son de fórmula.</td>
-        <td>—</td>
-        <td>—</td>
-    </tr>
-    <tr>
-        <td>REFERENCEOPTIONS</td>
-        <td>Variante</td>
-        <td>Un objeto JSON que contiene la configuración de conexión para campos de referencia que se vinculan a otros tipos de registros de Planning. Incluye "backField" (la definición del campo de referencia inversa en el tipo de registro conectado) y "linkedRecordTypeId". Nulo para los campos que no son de referencia.</td>
-        <td>—</td>
-        <td>—</td>
-    </tr>
-    <tr>
-        <td>`LOOKUPOPTIONS`</td>
-        <td>Variante</td>
-        <td>Un objeto JSON que contiene la configuración de búsqueda para campos de búsqueda que extraen valores de un tipo de registro conectado. Incluye referenceFieldId (el ID del campo de referencia que impulsa la búsqueda), rollup (método de agregación, o null para no resumir) y sourceField (un objeto con el id del campo que se busca). Nulo para los campos que no son de búsqueda.</td>
-        <td>—</td>
-        <td>—</td>
-    </tr>
-    <tr>
-        <td>`NUMBEROPTIONS`</td>
-        <td>Variante</td>
-        <td>Un objeto JSON que contiene opciones de formato numérico para los campos "number", "percentage" y "currency". Incluye allowNegatives (booleano), currency (código de moneda o nulo), precision (decimales) y visualizationType (estilo de visualización o nulo para texto sin formato). Nulo para tipos de campo no numéricos.</td>
-        <td>—</td>
-        <td>—</td>
-    </tr>
-    <tr>
-        <td>"EXTERNALOPTIONS"</td>
-        <td>Variante</td>
-        <td>Objeto JSON que contiene la configuración de los campos conectados a sistemas externos fuera de Planning. Normalmente nulo para campos creados de forma nativa; se rellena para campos de tipos de registro conectados de forma externa.</td>
-        <td>—</td>
-        <td>—</td>
-    </tr>
-    <tr>
-        <td>`CREATEDAT`</td>
-        <td>Marca de tiempo\_NTZ</td>
-        <td>La marca de tiempo (sin zona horaria) de cuando se creó este campo.</td>
-        <td>—</td>
-        <td>—</td>
-    </tr>
-    <tr>
-        <td>"CREATEDBY"</td>
-        <td>Varchar</td>
-        <td>El identificador del usuario que creó este campo.</td>
-        <td>WF.USERS\_CURRENT</td>
-        <td>EAUTHUSERID</td>
-    </tr>
-    <tr>
-        <td>`UPDATEDAT`</td>
-        <td>Marca de tiempo\_NTZ</td>
-        <td>La marca de tiempo (sin zona horaria) de la última actualización de este campo.</td>
-        <td>—</td>
-        <td>—</td>
-    </tr>
-    <tr>
-        <td>`UPDATEDBY`</td>
-        <td>Varchar</td>
-        <td>El identificador del usuario que actualizó este campo por última vez.</td>
-        <td>WF.USERS\_CURRENT</td>
-        <td>EAUTHUSERID</td>
-    </tr>
-    <tr>
-        <td>`USERID`</td>
-        <td>Varchar</td>
-        <td>El identificador del usuario asociado con este campo, normalmente el propietario del campo.</td>
-        <td>WF.USERS\_CURRENT</td>
-        <td>EAUTHUSERID</td>
-    </tr>
-    <tr>
-        <td>`CREATED`</td>
+        <td>CREADO</td>
         <td>Número</td>
         <td>Un indicador que indica el último tipo de operación que afectó a este registro de campo. El valor 1 indica que el registro se creó en el ciclo de actualización de datos más reciente; 0 indica que no lo fue. Consulte CREATEDAT para ver la marca de tiempo de creación real.</td>
         <td>—</td>
         <td>—</td>
     </tr>
     <tr>
-        <td>`UPDATED`</td>
-        <td>Número</td>
-        <td>Un indicador que indica el último tipo de operación que afectó a este registro de campo. El valor 1 indica que el registro se actualizó en el ciclo de actualización de datos más reciente; 0 indica que no lo hizo. Consulte UPDATEDAT para ver la marca de tiempo real de la última actualización.</td>
+        <td>CREATEDAT</td>
+        <td>Marca de tiempo\_NTZ</td>
+        <td>La marca de tiempo (sin zona horaria) de cuando se creó este campo.</td>
         <td>—</td>
         <td>—</td>
     </tr>
     <tr>
-        <td>"ELIMINADO"</td>
+        <td>CREATEDBY</td>
+        <td>Varchar</td>
+        <td>El identificador del usuario que creó este campo.</td>
+        <td>WF.USERS\_CURRENT</td>
+        <td>EAUTHUSERID</td>
+    </tr>
+    <tr>
+        <td>DATEOPTIONS</td>
+        <td>Variante</td>
+        <td>Un objeto JSON que contiene la configuración de visualización específica de la fecha para los campos de fecha. Incluye dateFormat (por ejemplo, locale) y timeFormat (nulo si no se muestra la hora). Nulo para los tipos de campo que no son de fecha.</td>
+        <td>—</td>
+        <td>—</td>
+    </tr>
+    <tr>
+        <td>ELIMINADA</td>
         <td>Número</td>
         <td>Un indicador que indica si este campo se ha eliminado por software. El valor 1 indica eliminado; 0 indica activo.</td>
         <td>—</td>
         <td>—</td>
     </tr>
     <tr>
-        <td>"RESTAURADO"</td>
-        <td>Número</td>
-        <td>Un indicador que indica si este campo se restauró después de eliminarse de forma suave.</td>
-        <td>—</td>
-        <td>—</td>
-    </tr>
-    <tr>
-        <td>TRIGGEREDBYSERVICE</td>
+        <td>DESCRIPCIÓN</td>
         <td>Varchar</td>
-        <td>Nombre del servicio o integración que activó la última modificación de este registro de campo. El valor "Unknown" indica que no se pudo determinar el servicio de origen.</td>
+        <td>Una descripción proporcionada por el usuario del propósito del campo.</td>
         <td>—</td>
         <td>—</td>
     </tr>
     <tr>
-        <td>"ISFUSION"</td>
+        <td>DISPLAYNAME</td>
+        <td>Varchar</td>
+        <td>El nombre para mostrar del campo como se muestra en la interfaz de Planning.</td>
+        <td>—</td>
+        <td>—</td>
+    </tr>
+    <tr>
+        <td>DL_LOAD_TIMESTAMP</td>
+        <td>Marca de tiempo\_NTZ</td>
+        <td>Marca de tiempo del trabajo de actualización de datos que cargó este registro de campo por última vez en el lago de datos. Se actualiza después de cada ciclo de actualización de datos correcto.</td>
+        <td>—</td>
+        <td>—</td>
+    </tr>
+    <tr>
+        <td>EXTERNALOPTIONS</td>
+        <td>Variante</td>
+        <td>Objeto JSON que contiene la configuración de los campos conectados a sistemas externos fuera de Planning. Normalmente nulo para campos creados de forma nativa; se rellena para campos de tipos de registro conectados de forma externa.</td>
+        <td>—</td>
+        <td>—</td>
+    </tr>
+    <tr>
+        <td>FIELDTYPE</td>
+        <td>Varchar</td>
+        <td>Tipo de datos o categoría del campo. Los valores posibles incluyen: "text", "long-text", "number", "percentage", "currency", "date", "boolean", "single-select", "multi-select", "reference", "lookup", "formula", "user", "created-at" y "created-by".</td>
+        <td>—</td>
+        <td>—</td>
+    </tr>
+    <tr>
+        <td>FORMULAOPTIONS</td>
+        <td>Variante</td>
+        <td>Un objeto JSON que contiene la configuración de fórmula para los campos formula. Incluye "formula" (la expresión de fórmula legible en lenguaje natural), "returnType" (por ejemplo, "PERCENTAGE", "NUMBER"), "numberOptions" (precisión, visualización) y "dateOptions". Nulo para los campos que no son de fórmula.</td>
+        <td>—</td>
+        <td>—</td>
+    </tr>
+    <tr>
+        <td>HASERROR</td>
+        <td>Varchar</td>
+        <td>Indica si el campo tiene actualmente un error de configuración o sincronización. Los valores son las cadenas true o false. Un valor true significa que el campo está en estado de error y es posible que no devuelva los datos correctamente.</td>
+        <td>—</td>
+        <td>—</td>
+    </tr>
+    <tr>
+        <td>ID</td>
+        <td>Varchar</td>
+        <td>El identificador único de la definición del campo. Clave principal de esta vista.</td>
+        <td>—</td>
+        <td>—</td>
+    </tr>
+    <tr>
+        <td>DISFUSIÓN</td>
         <td>Booleano</td>
         <td>Un indicador que indica si este campo se creó o administró mediante una integración de Workfront Fusion. Un valor de "true" indica Fusion management; "false" o un valor vacío indica que es un campo creado de forma nativa.</td>
         <td>—</td>
         <td>—</td>
     </tr>
     <tr>
-        <td>"DL_LOAD_TIMESTAMP"</td>
-        <td>Marca de tiempo\_NTZ</td>
-        <td>Marca de tiempo del trabajo de actualización de datos que cargó este registro de campo por última vez en el lago de datos. Se actualiza después de cada ciclo de actualización de datos correcto.</td>
-        <td>—</td>
-        <td>—</td>
-    </tr>
+        <td>LINKEDFIELD</td>
+        <td>Variante</td>
+        <td>Un objeto JSON que contiene la definición de campo completa del campo de origen al que está vinculado este campo. Presente para tipos de campo "reference" y "lookup"; incluye propiedades como "alias", "displayName", "fieldType" y "createdAt". Nulo para no vinculado
 </table>
 
 ### PLANNINGRECORD\_CURRENT
@@ -9101,25 +9021,95 @@ Contiene el estado actual de todos los registros creados en Workfront Planning, 
         <td>Campo relacionado</td>
     </tr>
     <tr>
-        <td>"RECORDID"</td>
+        <td>CREADO</td>
+        <td>Número</td>
+        <td>Un indicador que indica el último tipo de operación que afectó a este registro. El valor 1 indica que el registro se creó en el ciclo de actualización de datos más reciente; 0 indica que no lo fue. Consulte CREATEDAT para ver la marca de tiempo de creación real.</td>
+        <td>—</td>
+        <td>—</td>
+    </tr>
+    <tr>
+        <td>CREATEDAT</td>
+        <td>Marca de tiempo\_NTZ</td>
+        <td>La marca de tiempo (sin zona horaria) de cuando se creó este registro.</td>
+        <td>—</td>
+        <td>—</td>
+    </tr>
+    <tr>
+        <td>CREATEDBY</td>
+        <td>Varchar</td>
+        <td>El identificador del usuario que creó este registro.</td>
+        <td>WF.USERS\_CURRENT</td>
+        <td>EAUTHUSERID</td>
+    </tr>
+    <tr>
+        <td>ELIMINADA</td>
+        <td>Número</td>
+        <td>Un indicador que indica si este registro se ha eliminado de forma suave. El valor 1 indica que el registro se elimina; 0 indica que está activo.</td>
+        <td>—</td>
+        <td>—</td>
+    </tr>
+    <tr>
+        <td>DL_LOAD_TIMESTAMP</td>
+        <td>Marca de tiempo\_NTZ</td>
+        <td>Marca de tiempo del trabajo de actualización de datos que cargó este registro por última vez en el lago de datos. Se actualiza después de cada ciclo de actualización de datos correcto.</td>
+        <td>—</td>
+        <td>—</td>
+    </tr>
+    <tr>
+        <td>FIELD_IDS</td>
+        <td>Variante</td>
+        <td>Un objeto JSON que asigna el nombre para mostrar de cada campo a su ID de campo (por ejemplo, `{"Status": "F69bc...", "End Date": "F69bc..."}`). Utilice esto para asignar nombres de campo legibles por humanos a los ID utilizados en FIELDID\_VALUES y FIELDID\_VALUES\_RAW.</td>
+        <td>—</td>
+        <td>—</td>
+    </tr>
+    <tr>
+        <td>FIELD_TYPES</td>
+        <td>Variante</td>
+        <td>Un objeto JSON que asigna el nombre para mostrar de cada campo a su cadena de tipo de campo (por ejemplo, text, number, date, single-select, reference, formula). Escrito por el nombre para mostrar del campo, coincidente con FIELD\_IDS.</td>
+        <td>—</td>
+        <td>—</td>
+    </tr>
+    <tr>
+        <td>FIELD_VALUES</td>
+        <td>Variante</td>
+        <td>Un objeto JSON que asigna el nombre para mostrar de cada campo a su valor de cadena con formato de visualización. Escrito por el nombre para mostrar del campo, coincidente con FIELD\_IDS.</td>
+        <td>—</td>
+        <td>—</td>
+    </tr>
+    <tr>
+        <td>FIELD_VALUES_RAW</td>
+        <td>Variante</td>
+        <td>Un objeto JSON que asigna el nombre para mostrar de cada campo a su valor sin procesar (sin formato). Para los campos de referencia, el valor es una matriz de objetos de registro conectados; para los campos de número y fórmula, es un valor numérico sin formato; para los campos de texto largo, es un objeto de contenido de texto enriquecido. Escrito por el nombre para mostrar del campo, coincidente con FIELD\_IDS.</td>
+        <td>—</td>
+        <td>—</td>
+    </tr>
+    <tr>
+        <td>FIELDID_FIELDID</td>
+        <td>Variante</td>
+        <td>Un objeto JSON que enumera todos los ID de campo presentes en este registro como una asignación automática (cada ID de campo se asigna a sí mismo). Utilice esto para enumerar qué campos se rellenan en un registro determinado o para hacer referencias cruzadas con FIELD\_CURRENT.</td>
+        <td>—</td>
+        <td>—</td>
+    </tr>
+    <tr>
+        <td>FIELDID_VALUES</td>
+        <td>Variante</td>
+        <td>Un objeto JSON que asigna cada ID de campo a su valor con formato de visualización. Para los tipos de campo simples, el valor es una cadena o un número; para los campos de texto largo, es un objeto que contiene las propiedades content (texto sin formato) y contentHTML (con formato HTML). Utilice FIELD\_IDS para buscar el nombre para mostrar de cada ID de campo.</td>
+        <td>—</td>
+        <td>—</td>
+    </tr>
+    <tr>
+        <td>FIELDID_VALUES_RAW</td>
+        <td>Variante</td>
+        <td>Un objeto JSON que asigna cada ID de campo a su valor sin procesar (sin formato). Para la mayoría de los tipos de campo, los valores son cadenas sin formato, números o marcas de tiempo de milisegundos de época. Los campos de texto largo devuelven el contenido de texto sin formato como una cadena. Utilice FIELD\_IDS para buscar el nombre para mostrar de cada ID de campo.</td>
+        <td>—</td>
+        <td>—</td>
+    </tr>
+    <tr>
+        <td>RECORDID</td>
         <td>Varchar</td>
         <td>Identificador único del registro de Planning. Clave principal de esta vista.</td>
         <td>WF.PLANNINGRECORDS\_CURRENT</td>
         <td>RECORDID</td>
-    </tr>
-    <tr>
-        <td>"WORKSPACEID"</td>
-        <td>Varchar</td>
-        <td>Identificador único del área de trabajo de Planning que contiene este registro.</td>
-        <td>WORKSPACE\_CURRENT</td>
-        <td>ID</td>
-    </tr>
-    <tr>
-        <td>"WORKSPACENAME"</td>
-        <td>Varchar</td>
-        <td>Nombre para mostrar del espacio de trabajo de Planning que contiene este registro.</td>
-        <td>—</td>
-        <td>—</td>
     </tr>
     <tr>
         <td>RECORDTYPEID</td>
@@ -9136,55 +9126,6 @@ Contiene el estado actual de todos los registros creados en Workfront Planning, 
         <td>—</td>
     </tr>
     <tr>
-        <td>`FIELD_IDS`</td>
-        <td>Variante</td>
-        <td>Un objeto JSON que asigna el nombre para mostrar de cada campo a su ID de campo (por ejemplo, `{"Status": "F69bc...", "End Date": "F69bc..."}`). Utilice esto para asignar nombres de campo legibles por humanos a los ID utilizados en FIELDID\_VALUES y FIELDID\_VALUES\_RAW.</td>
-        <td>—</td>
-        <td>—</td>
-    </tr>
-    <tr>
-        <td>`FIELD_VALUES_RAW`</td>
-        <td>Variante</td>
-        <td>Un objeto JSON que asigna el nombre para mostrar de cada campo a su valor sin procesar (sin formato). Para los campos de referencia, el valor es una matriz de objetos de registro conectados; para los campos de número y fórmula, es un valor numérico sin formato; para los campos de texto largo, es un objeto de contenido de texto enriquecido. Escrito por el nombre para mostrar del campo, coincidente con FIELD\_IDS.</td>
-        <td>—</td>
-        <td>—</td>
-    </tr>
-    <tr>
-        <td>`FIELD_VALUES`</td>
-        <td>Variante</td>
-        <td>Un objeto JSON que asigna el nombre para mostrar de cada campo a su valor de cadena con formato de visualización. Escrito por el nombre para mostrar del campo, coincidente con FIELD\_IDS.</td>
-        <td>—</td>
-        <td>—</td>
-    </tr>
-    <tr>
-        <td>`FIELD_TYPES`</td>
-        <td>Variante</td>
-        <td>Un objeto JSON que asigna el nombre para mostrar de cada campo a su cadena de tipo de campo (por ejemplo, text, number, date, single-select, reference, formula). Escrito por el nombre para mostrar del campo, coincidente con FIELD\_IDS.</td>
-        <td>—</td>
-        <td>—</td>
-    </tr>
-    <tr>
-        <td>`FIELDID_VALUES`</td>
-        <td>Variante</td>
-        <td>Un objeto JSON que asigna cada ID de campo a su valor con formato de visualización. Para los tipos de campo simples, el valor es una cadena o un número; para los campos de texto largo, es un objeto que contiene las propiedades content (texto sin formato) y contentHTML (con formato HTML). Utilice FIELD\_IDS para buscar el nombre para mostrar de cada ID de campo.</td>
-        <td>—</td>
-        <td>—</td>
-    </tr>
-    <tr>
-        <td>`FIELDID_VALUES_RAW`</td>
-        <td>Variante</td>
-        <td>Un objeto JSON que asigna cada ID de campo a su valor sin procesar (sin formato). Para la mayoría de los tipos de campo, los valores son cadenas sin formato, números o marcas de tiempo de milisegundos de época. Los campos de texto largo devuelven el contenido de texto sin formato como una cadena. Utilice FIELD\_IDS para buscar el nombre para mostrar de cada ID de campo.</td>
-        <td>—</td>
-        <td>—</td>
-    </tr>
-    <tr>
-        <td>`FIELDID_FIELDID`</td>
-        <td>Variante</td>
-        <td>Un objeto JSON que enumera todos los ID de campo presentes en este registro como una asignación automática (cada ID de campo se asigna a sí mismo). Utilice esto para enumerar qué campos se rellenan en un registro determinado o para hacer referencias cruzadas con FIELD\_CURRENT.</td>
-        <td>—</td>
-        <td>—</td>
-    </tr>
-    <tr>
         <td>REFERENCE_IDS</td>
         <td>Variante</td>
         <td>Un objeto JSON que asigna el nombre para mostrar de cada campo de referencia al ID del registro de conexión (por ejemplo, `{"Proyecto": "Ref8b471aa..."}`). Use junto con REFERENCE\_CURRENT para resolver los objetos externos conectados de este registro.</td>
@@ -9192,58 +9133,37 @@ Contiene el estado actual de todos los registros creados en Workfront Planning, 
         <td>—</td>
     </tr>
     <tr>
-        <td>`CREATED`</td>
-        <td>Número</td>
-        <td>Un indicador que indica el último tipo de operación que afectó a este registro. El valor 1 indica que el registro se creó en el ciclo de actualización de datos más reciente; 0 indica que no lo fue. Consulte CREATEDAT para ver la marca de tiempo de creación real.</td>
-        <td>—</td>
-        <td>—</td>
-    </tr>
-    <tr>
-        <td>`UPDATED`</td>
+        <td>ACTUALIZADO</td>
         <td>Número</td>
         <td>Un indicador que indica el último tipo de operación que afectó a este registro. El valor 1 indica que el registro se actualizó en el ciclo de actualización de datos más reciente; 0 indica que no lo hizo. Consulte UPDATEDAT para ver la marca de tiempo real de la última actualización.</td>
         <td>—</td>
         <td>—</td>
     </tr>
     <tr>
-        <td>"ELIMINADO"</td>
-        <td>Número</td>
-        <td>Un indicador que indica si este registro se ha eliminado de forma suave. El valor 1 indica que el registro se elimina; 0 indica que está activo.</td>
-        <td>—</td>
-        <td>—</td>
-    </tr>
-    <tr>
-        <td>`CREATEDAT`</td>
-        <td>Marca de tiempo\_NTZ</td>
-        <td>La marca de tiempo (sin zona horaria) de cuando se creó este registro.</td>
-        <td>—</td>
-        <td>—</td>
-    </tr>
-    <tr>
-        <td>"CREATEDBY"</td>
-        <td>Varchar</td>
-        <td>El identificador del usuario que creó este registro.</td>
-        <td>WF.USERS\_CURRENT</td>
-        <td>EAUTHUSERID</td>
-    </tr>
-    <tr>
-        <td>`UPDATEDAT`</td>
+        <td>UPDATEDAT</td>
         <td>Marca de tiempo\_NTZ</td>
         <td>La marca de tiempo (sin zona horaria) de la última vez que se actualizó este registro.</td>
         <td>—</td>
         <td>—</td>
     </tr>
     <tr>
-        <td>`UPDATEDBY`</td>
+        <td>ACTUALIZADO POR</td>
         <td>Varchar</td>
         <td>El identificador del usuario que actualizó este registro por última vez.</td>
         <td>WF.USERS\_CURRENT</td>
         <td>EAUTHUSERID</td>
     </tr>
     <tr>
-        <td>"DL_LOAD_TIMESTAMP"</td>
-        <td>Marca de tiempo\_NTZ</td>
-        <td>Marca de tiempo del trabajo de actualización de datos que cargó este registro por última vez en el lago de datos. Se actualiza después de cada ciclo de actualización de datos correcto.</td>
+        <td>WORKSPACEID</td>
+        <td>Varchar</td>
+        <td>Identificador único del área de trabajo de Planning que contiene este registro.</td>
+        <td>WORKSPACE\_CURRENT</td>
+        <td>ID</td>
+    </tr>
+    <tr>
+        <td>WORKSPACENAME</td>
+        <td>Varchar</td>
+        <td>Nombre para mostrar del espacio de trabajo de Planning que contiene este registro.</td>
         <td>—</td>
         <td>—</td>
     </tr>
@@ -9268,293 +9188,7 @@ Contiene las definiciones actuales de todos los tipos de registros configurados 
         <td></td>
     </tr>
     <tr>
-        <td>"ID"</td>
-        <td>Varchar</td>
-        <td>El identificador único del tipo de registro. Clave principal de esta vista.</td>
-        <td>—</td>
-        <td>—</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>`CREATED`</td>
-        <td>Número</td>
-        <td>Un indicador que indica el último tipo de operación que afectó a este tipo de registro. El valor 1 indica que el tipo de registro se creó en el ciclo de actualización de datos más reciente; 0 indica que no lo fue. Consulte CREATEDAT para ver la marca de tiempo de creación real.</td>
-        <td>—</td>
-        <td>—</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>`UPDATED`</td>
-        <td>Número</td>
-        <td>Un indicador que indica el último tipo de operación que afectó a este tipo de registro. El valor 1 indica que el tipo de registro se actualizó en el ciclo de actualización de datos más reciente; 0 indica que no lo hizo. Consulte UPDATEDAT para ver la marca de tiempo real de la última actualización.</td>
-        <td>—</td>
-        <td>—</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>"ELIMINADO"</td>
-        <td>Número</td>
-        <td>Un indicador que indica si este tipo de registro se ha eliminado por software. El valor 1 indica eliminado; 0 indica activo.</td>
-        <td>—</td>
-        <td>—</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>"DL_LOAD_TIMESTAMP"</td>
-        <td>Marca de tiempo\_NTZ</td>
-        <td>Marca de tiempo del trabajo de actualización de datos que cargó por última vez este tipo de registro en el lago de datos. Se actualiza después de cada ciclo de actualización de datos correcto.</td>
-        <td>—</td>
-        <td>—</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>"CREATEDBY"</td>
-        <td>Varchar</td>
-        <td>El identificador del usuario que creó este tipo de registro.</td>
-        <td>WF.USERS\_CURRENT</td>
-        <td>EAUTHUSERID</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>`CREATEDAT`</td>
-        <td>Marca de tiempo\_NTZ</td>
-        <td>La marca de tiempo (sin zona horaria) de cuando se creó este tipo de registro.</td>
-        <td>—</td>
-        <td>—</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>`UPDATEDBY`</td>
-        <td>Varchar</td>
-        <td>El identificador del usuario que actualizó este tipo de registro por última vez.</td>
-        <td>WF.USERS\_CURRENT</td>
-        <td>EAUTHUSERID</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>`UPDATEDAT`</td>
-        <td>Marca de tiempo\_NTZ</td>
-        <td>La marca de tiempo (sin zona horaria) de la última vez que se actualizó este tipo de registro.</td>
-        <td>—</td>
-        <td>—</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>`USERID`</td>
-        <td>Varchar</td>
-        <td>El identificador del usuario asociado con este tipo de registro, normalmente el propietario.</td>
-        <td>WF.USERS\_CURRENT</td>
-        <td>EAUTHUSERID</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>"WORKSPACEID"</td>
-        <td>Varchar</td>
-        <td>El identificador único del espacio de trabajo al que pertenece este tipo de registro. Use con WORKSPACE\_CURRENT para buscar los detalles del espacio de trabajo.</td>
-        <td>WORKSPACE\_CURRENT</td>
-        <td>ID</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>`DISPLAYNAME`</td>
-        <td>Varchar</td>
-        <td>El nombre para mostrar del tipo de registro como se muestra en la interfaz de Planning (por ejemplo, "Campaña", "Iniciativa").</td>
-        <td>—</td>
-        <td>—</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>`DESCRIPTION`</td>
-        <td>Varchar</td>
-        <td>Una descripción proporcionada por el usuario del propósito del tipo de registro.</td>
-        <td>—</td>
-        <td>—</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>`COLOR`</td>
-        <td>Varchar</td>
-        <td>Una etiqueta de color con nombre asociada a este tipo de registro en la interfaz de Planning (por ejemplo, azul, verde, púrpura, magenta, chartreuse, gris oscuro). No es un código hexadecimal.</td>
-        <td>—</td>
-        <td>—</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>`PERMISSION`</td>
-        <td>Varchar</td>
-        <td>El nivel de permiso configurado para el acceso a este tipo de registro (por ejemplo, "VIEW", "CONTRIBUTE", "MANAGE"). Puede estar vacío si no se establece ningún permiso personalizado.</td>
-        <td>—</td>
-        <td>—</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>`PRIMARYFIELDID`</td>
-        <td>Varchar</td>
-        <td>El identificador del campo designado como campo principal (título) para este tipo de registro. Clave externa de FIELD\_CURRENT.ID.</td>
-        <td>FIELD\_CURRENT</td>
-        <td>ID</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>`ISTAXONOMY`</td>
-        <td>Varchar</td>
-        <td>Indica si este tipo de registro está clasificado como un tipo de taxonomía, utilizado para organizar y categorizar otros registros. El valor true indica un tipo de taxonomía. Puede estar vacío para los tipos de registro que no son de taxonomía.</td>
-        <td>—</td>
-        <td>—</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>`PERMISSION`</td>
-        <td>Varchar</td>
-        <td>El nivel de permiso configurado para el acceso a este tipo de registro (por ejemplo, "VIEW", "CONTRIBUTE", "MANAGE"). Puede estar vacío si no se establece ningún permiso personalizado.</td>
-        <td>—</td>
-        <td>—</td>
-        <td></td>
-        <td>`PRIMARYFIELDID`</td>
-        <td>Varchar</td>
-        <td>El identificador del campo designado como campo principal (título) para este tipo de registro. Clave externa de FIELD\_CURRENT.ID.</td>
-        <td>FIELD\_CURRENT</td>
-        <td>ID</td>
-    </tr>
-    <tr>
-        <td>`ISTAXONOMY`</td>
-        <td>Varchar</td>
-        <td>Indica si este tipo de registro está clasificado como un tipo de taxonomía, utilizado para organizar y categorizar otros registros. El valor true indica un tipo de taxonomía. Puede estar vacío para los tipos de registro que no son de taxonomía.</td>
-        <td>—</td>
-        <td>—</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>`ISEXTERNAL`</td>
-        <td>Booleano</td>
-        <td>Un indicador que indica si este tipo de registro representa un tipo de objeto conectado externamente en lugar de un registro nativo de Planning.</td>
-        <td>—</td>
-        <td>—</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>"EXTERNALOPTIONS"</td>
-        <td>Variante</td>
-        <td>Un objeto JSON que contiene detalles de configuración para tipos de registros conectados a sistemas externos. Incluye connectionName (por ejemplo, workfront), objectName (el código de objeto de la API de Workfront, por ejemplo, PROJ) y fields (un mapa de alias de campo estándar a los ID de campo de Planning para los campos sincronizados). Nulo para los tipos de registro creados de forma nativa.</td>
-        <td>—</td>
-        <td>—</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>"RESTAURADO"</td>
-        <td>Número</td>
-        <td>Un indicador que indica si este tipo de registro se restauró después de eliminarse de forma suave.</td>
-        <td>—</td>
-        <td>—</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>`ALIAS`</td>
+        <td>ALIAS</td>
         <td>Varchar</td>
         <td>Un alias interno para el tipo de registro, utilizado para la identificación en el nivel de sistema y el acceso a API. Puede estar vacío para los tipos de registro a los que no se les ha asignado un alias.</td>
         <td>—</td>
@@ -9567,9 +9201,9 @@ Contiene las definiciones actuales de todos los tipos de registros configurados 
         <td></td>
     </tr>
     <tr>
-        <td>TRIGGEREDBYSERVICE</td>
+        <td>COLOR</td>
         <td>Varchar</td>
-        <td>El nombre del servicio o la integración que activó la última modificación de este tipo de registro. El valor "Unknown" indica que no se pudo determinar el servicio de origen.</td>
+        <td>Una etiqueta de color con nombre asociada a este tipo de registro en la interfaz de Planning (por ejemplo, azul, verde, púrpura, magenta, chartreuse, gris oscuro). No es un código hexadecimal.</td>
         <td>—</td>
         <td>—</td>
         <td></td>
@@ -9580,9 +9214,9 @@ Contiene las definiciones actuales de todos los tipos de registros configurados 
         <td></td>
     </tr>
     <tr>
-        <td>"ISFUSION"</td>
-        <td>Booleano</td>
-        <td>Un indicador que indica si este tipo de registro se creó o administró mediante una integración de Workfront Fusion. Un valor "true" indica Fusion management; "false" o un valor vacío indica que es un tipo de registro creado de forma nativa.</td>
+        <td>CREADO</td>
+        <td>Número</td>
+        <td>Un indicador que indica el último tipo de operación que afectó a este tipo de registro. El valor 1 indica que el tipo de registro se creó en el ciclo de actualización de datos más reciente; 0 indica que no lo fue. Consulte CREATEDAT para ver la marca de tiempo de creación real.</td>
         <td>—</td>
         <td>—</td>
         <td></td>
@@ -9593,7 +9227,20 @@ Contiene las definiciones actuales de todos los tipos de registros configurados 
         <td></td>
     </tr>
     <tr>
-        <td>`CREATEDAT`</td>
+        <td>CREADO</td>
+        <td>Número</td>
+        <td>Un indicador que indica el último tipo de operación que afectó a este registro de referencia. El valor 1 indica que la referencia se creó en el ciclo de actualización de datos más reciente; 0 indica que no lo fue.</td>
+        <td>—</td>
+        <td>—</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>CREATEDAT</td>
         <td>Marca de tiempo\_NTZ</td>
         <td>La marca de tiempo (sin zona horaria) de cuando se creó este tipo de registro.</td>
         <td>—</td>
@@ -9606,7 +9253,20 @@ Contiene las definiciones actuales de todos los tipos de registros configurados 
         <td></td>
     </tr>
     <tr>
-        <td>"CREATEDBY"</td>
+        <td>CREATEDAT</td>
+        <td>Marca de tiempo\_NTZ</td>
+        <td>La marca de tiempo (sin zona horaria) de cuando se creó este tipo de registro.</td>
+        <td>—</td>
+        <td>—</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>CREATEDBY</td>
         <td>Varchar</td>
         <td>El identificador del usuario que creó este tipo de registro.</td>
         <td>WF.USERS\_CURRENT</td>
@@ -9619,9 +9279,74 @@ Contiene las definiciones actuales de todos los tipos de registros configurados 
         <td></td>
     </tr>
     <tr>
-        <td>`UPDATEDAT`</td>
+        <td>CREATEDBY</td>
+        <td>Varchar</td>
+        <td>El identificador del usuario que creó este tipo de registro.</td>
+        <td>WF.USERS\_CURRENT</td>
+        <td>EAUTHUSERID</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>ELIMINADA</td>
+        <td>Número</td>
+        <td>Un indicador que indica si este tipo de registro se ha eliminado por software. El valor 1 indica eliminado; 0 indica activo.</td>
+        <td>—</td>
+        <td>—</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>ELIMINADA</td>
+        <td>Número</td>
+        <td>Un indicador que indica si esta conexión de referencia se ha eliminado por software. Un valor de 1 indica que se elimina la referencia; 0 indica que está activa.</td>
+        <td>—</td>
+        <td>—</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>DESCRIPCIÓN</td>
+        <td>Varchar</td>
+        <td>Una descripción proporcionada por el usuario del propósito del tipo de registro.</td>
+        <td>—</td>
+        <td>—</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>DISPLAYNAME</td>
+        <td>Varchar</td>
+        <td>El nombre para mostrar del tipo de registro como se muestra en la interfaz de Planning (por ejemplo, "Campaña", "Iniciativa").</td>
+        <td>—</td>
+        <td>—</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>DL_LOAD_TIMESTAMP</td>
         <td>Marca de tiempo\_NTZ</td>
-        <td>La marca de tiempo (sin zona horaria) de la última vez que se actualizó este tipo de registro.</td>
+        <td>Marca de tiempo del trabajo de actualización de datos que cargó por última vez este tipo de registro en el lago de datos. Se actualiza después de cada ciclo de actualización de datos correcto.</td>
         <td>—</td>
         <td>—</td>
         <td></td>
@@ -9632,48 +9357,9 @@ Contiene las definiciones actuales de todos los tipos de registros configurados 
         <td></td>
     </tr>
     <tr>
-        <td>`UPDATEDBY`</td>
-        <td>Varchar</td>
-        <td>El identificador del usuario que actualizó este tipo de registro por última vez.</td>
-        <td>WF.USERS\_CURRENT</td>
-        <td>EAUTHUSERID</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>`USERID`</td>
-        <td>Varchar</td>
-        <td>El identificador del usuario asociado con este tipo de registro, normalmente el propietario.</td>
-        <td>WF.USERS\_CURRENT</td>
-        <td>EAUTHUSERID</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>"TO_RECORDID"</td>
-        <td>Varchar</td>
-        <td>Identificador único del registro de Planning propietario de esta conexión de referencia. Clave externa de PLANNINGRECORD\_CURRENT.RECORDID.</td>
-        <td>PLANNINGRECORD\_CURRENT</td>
-        <td>RECORDID</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>`TO_EXTERNALID`</td>
-        <td>Varchar</td>
-        <td>El identificador único del objeto externo al que se hace referencia (por ejemplo, un ID de proyecto de Workfront, ID de tarea u otro ID de objeto conectado).</td>
+        <td>DL_LOAD_TIMESTAMP</td>
+        <td>Marca de tiempo\_NTZ</td>
+        <td>Marca de tiempo del trabajo de actualización de datos que cargó por última vez este registro de referencia en el lago de datos. Se actualiza después de cada ciclo de actualización de datos correcto.</td>
         <td>—</td>
         <td>—</td>
         <td></td>
@@ -9684,9 +9370,9 @@ Contiene las definiciones actuales de todos los tipos de registros configurados 
         <td></td>
     </tr>
     <tr>
-        <td>`TO_EXTERNALCONNECTIONNAME`</td>
-        <td>Varchar</td>
-        <td>Nombre de la conexión externa a través de la cual se conecta el objeto al que se hace referencia (por ejemplo, el nombre de la conexión de Workfront configurada en Planning).</td>
+        <td>EXTERNALOPTIONS</td>
+        <td>Variante</td>
+        <td>Un objeto JSON que contiene detalles de configuración para tipos de registros conectados a sistemas externos. Incluye connectionName (por ejemplo, workfront), objectName (el código de objeto de la API de Workfront, por ejemplo, PROJ) y fields (un mapa de alias de campo estándar a los ID de campo de Planning para los campos sincronizados). Nulo para los tipos de registro creados de forma nativa.</td>
         <td>—</td>
         <td>—</td>
         <td></td>
@@ -9697,11 +9383,102 @@ Contiene las definiciones actuales de todos los tipos de registros configurados 
         <td></td>
     </tr>
     <tr>
-        <td>`TO_EXTERNALOBJECTNAME`</td>
+        <td>ID</td>
         <td>Varchar</td>
-        <td>El código de objeto de la API de Workfront para el tipo de objeto externo al que se hace referencia (por ejemplo, "PROJ" para Project, "TASK" para Task, "PORT" para Portfolio). Utilice esto para determinar qué tabla de Workfront unir al buscar el objeto al que se hace referencia.</td>
+        <td>El identificador único del tipo de registro. Clave principal de esta vista.</td>
         <td>—</td>
         <td>—</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>ISEXTERNAL</td>
+        <td>Booleano</td>
+        <td>Un indicador que indica si este tipo de registro representa un tipo de objeto conectado externamente en lugar de un registro nativo de Planning.</td>
+        <td>—</td>
+        <td>—</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>DISFUSIÓN</td>
+        <td>Booleano</td>
+        <td>Un indicador que indica si este tipo de registro se creó o administró mediante una integración de Workfront Fusion. Un valor "true" indica Fusion management; "false" o un valor vacío indica que es un tipo de registro creado de forma nativa.</td>
+        <td>—</td>
+        <td>—</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>ISTAXONOMÍA</td>
+        <td>Varchar</td>
+        <td>Indica si este tipo de registro está clasificado como un tipo de taxonomía, utilizado para organizar y categorizar otros registros. El valor true indica un tipo de taxonomía. Puede estar vacío para los tipos de registro que no son de taxonomía.</td>
+        <td>—</td>
+        <td>—</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>ISTAXONOMÍA</td>
+        <td>Varchar</td>
+        <td>Indica si este tipo de registro está clasificado como un tipo de taxonomía, utilizado para organizar y categorizar otros registros. El valor true indica un tipo de taxonomía. Puede estar vacío para los tipos de registro que no son de taxonomía.</td>
+        <td>—</td>
+        <td>—</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>PERMISO</td>
+        <td>Varchar</td>
+        <td>El nivel de permiso configurado para el acceso a este tipo de registro (por ejemplo, "VIEW", "CONTRIBUTE", "MANAGE"). Puede estar vacío si no se establece ningún permiso personalizado.</td>
+        <td>—</td>
+        <td>—</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>PERMISO</td>
+        <td>Varchar</td>
+        <td>El nivel de permiso configurado para el acceso a este tipo de registro (por ejemplo, "VIEW", "CONTRIBUTE", "MANAGE"). Puede estar vacío si no se establece ningún permiso personalizado.</td>
+        <td>—</td>
+        <td>—</td>
+        <td></td>
+        <td>PRIMARYFIELDID</td>
+        <td>Varchar</td>
+        <td>El identificador del campo designado como campo principal (título) para este tipo de registro. Clave externa de FIELD\_CURRENT.ID.</td>
+        <td>FIELD\_CURRENT</td>
+        <td>ID</td>
+    </tr>
+    <tr>
+        <td>PRIMARYFIELDID</td>
+        <td>Varchar</td>
+        <td>El identificador del campo designado como campo principal (título) para este tipo de registro. Clave externa de FIELD\_CURRENT.ID.</td>
+        <td>FIELD\_CURRENT</td>
+        <td>ID</td>
         <td></td>
         <td></td>
         <td></td>
@@ -9723,7 +9500,7 @@ Contiene las definiciones actuales de todos los tipos de registros configurados 
         <td></td>
     </tr>
     <tr>
-        <td>"REFERENCEVALUE"</td>
+        <td>REFERENCEVALUE</td>
         <td>Varchar</td>
         <td>Nombre para mostrar del objeto externo al que se hace referencia en la última actualización de datos (por ejemplo, un nombre de proyecto de Workfront como "Beta" o "Proyecto de paneles de lienzo"). Este valor refleja el nombre del objeto en el momento de la actualización y puede quedar obsoleto si se cambia el nombre del objeto.</td>
         <td>—</td>
@@ -9736,9 +9513,9 @@ Contiene las definiciones actuales de todos los tipos de registros configurados 
         <td></td>
     </tr>
     <tr>
-        <td>`CREATED`</td>
+        <td>RESTAURADO</td>
         <td>Número</td>
-        <td>Un indicador que indica el último tipo de operación que afectó a este registro de referencia. El valor 1 indica que la referencia se creó en el ciclo de actualización de datos más reciente; 0 indica que no lo fue.</td>
+        <td>Un indicador que indica si este tipo de registro se restauró después de eliminarse de forma suave.</td>
         <td>—</td>
         <td>—</td>
         <td></td>
@@ -9749,7 +9526,85 @@ Contiene las definiciones actuales de todos los tipos de registros configurados 
         <td></td>
     </tr>
     <tr>
-        <td>`UPDATED`</td>
+        <td>TO_EXTERNALCONNECTIONNAME</td>
+        <td>Varchar</td>
+        <td>Nombre de la conexión externa a través de la cual se conecta el objeto al que se hace referencia (por ejemplo, el nombre de la conexión de Workfront configurada en Planning).</td>
+        <td>—</td>
+        <td>—</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>TO_EXTERNALID</td>
+        <td>Varchar</td>
+        <td>El identificador único del objeto externo al que se hace referencia (por ejemplo, un ID de proyecto de Workfront, ID de tarea u otro ID de objeto conectado).</td>
+        <td>—</td>
+        <td>—</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>TO_EXTERNALOBJECTNAME</td>
+        <td>Varchar</td>
+        <td>El código de objeto de la API de Workfront para el tipo de objeto externo al que se hace referencia (por ejemplo, "PROJ" para Project, "TASK" para Task, "PORT" para Portfolio). Utilice esto para determinar qué tabla de Workfront unir al buscar el objeto al que se hace referencia.</td>
+        <td>—</td>
+        <td>—</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>TO_RECORDID</td>
+        <td>Varchar</td>
+        <td>Identificador único del registro de Planning propietario de esta conexión de referencia. Clave externa de PLANNINGRECORD\_CURRENT.RECORDID.</td>
+        <td>PLANNINGRECORD\_CURRENT</td>
+        <td>RECORDID</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>TRIGGEREDBYSERVICE</td>
+        <td>Varchar</td>
+        <td>El nombre del servicio o la integración que activó la última modificación de este tipo de registro. El valor "Unknown" indica que no se pudo determinar el servicio de origen.</td>
+        <td>—</td>
+        <td>—</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>ACTUALIZADO</td>
+        <td>Número</td>
+        <td>Un indicador que indica el último tipo de operación que afectó a este tipo de registro. El valor 1 indica que el tipo de registro se actualizó en el ciclo de actualización de datos más reciente; 0 indica que no lo hizo. Consulte UPDATEDAT para ver la marca de tiempo real de la última actualización.</td>
+        <td>—</td>
+        <td>—</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>ACTUALIZADO</td>
         <td>Número</td>
         <td>Un indicador que indica el último tipo de operación que afectó a este registro de referencia. El valor 1 indica que la referencia se actualizó en el ciclo de actualización de datos más reciente; 0 indica que no lo hizo.</td>
         <td>—</td>
@@ -9762,9 +9617,9 @@ Contiene las definiciones actuales de todos los tipos de registros configurados 
         <td></td>
     </tr>
     <tr>
-        <td>"ELIMINADO"</td>
-        <td>Número</td>
-        <td>Un indicador que indica si esta conexión de referencia se ha eliminado por software. Un valor de 1 indica que se elimina la referencia; 0 indica que está activa.</td>
+        <td>UPDATEDAT</td>
+        <td>Marca de tiempo\_NTZ</td>
+        <td>La marca de tiempo (sin zona horaria) de la última vez que se actualizó este tipo de registro.</td>
         <td>—</td>
         <td>—</td>
         <td></td>
@@ -9775,11 +9630,76 @@ Contiene las definiciones actuales de todos los tipos de registros configurados 
         <td></td>
     </tr>
     <tr>
-        <td>"DL_LOAD_TIMESTAMP"</td>
+        <td>UPDATEDAT</td>
         <td>Marca de tiempo\_NTZ</td>
-        <td>Marca de tiempo del trabajo de actualización de datos que cargó por última vez este registro de referencia en el lago de datos. Se actualiza después de cada ciclo de actualización de datos correcto.</td>
+        <td>La marca de tiempo (sin zona horaria) de la última vez que se actualizó este tipo de registro.</td>
         <td>—</td>
         <td>—</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>ACTUALIZADO POR</td>
+        <td>Varchar</td>
+        <td>El identificador del usuario que actualizó este tipo de registro por última vez.</td>
+        <td>WF.USERS\_CURRENT</td>
+        <td>EAUTHUSERID</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>ACTUALIZADO POR</td>
+        <td>Varchar</td>
+        <td>El identificador del usuario que actualizó este tipo de registro por última vez.</td>
+        <td>WF.USERS\_CURRENT</td>
+        <td>EAUTHUSERID</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>USERID</td>
+        <td>Varchar</td>
+        <td>El identificador del usuario asociado con este tipo de registro, normalmente el propietario.</td>
+        <td>WF.USERS\_CURRENT</td>
+        <td>EAUTHUSERID</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>USERID</td>
+        <td>Varchar</td>
+        <td>El identificador del usuario asociado con este tipo de registro, normalmente el propietario.</td>
+        <td>WF.USERS\_CURRENT</td>
+        <td>EAUTHUSERID</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>WORKSPACEID</td>
+        <td>Varchar</td>
+        <td>El identificador único del espacio de trabajo al que pertenece este tipo de registro. Use con WORKSPACE\_CURRENT para buscar los detalles del espacio de trabajo.</td>
+        <td>WORKSPACE\_CURRENT</td>
+        <td>ID</td>
         <td></td>
         <td></td>
         <td></td>
@@ -9802,91 +9722,70 @@ Contiene las definiciones actuales de todos los espacios de trabajo de Workfront
         <td>Campo relacionado</td>
     </tr>
     <tr>
-        <td>"ID"</td>
-        <td>Varchar</td>
-        <td>Identificador único del espacio de trabajo de Planning. Clave principal de esta vista.</td>
-        <td>WF.WORKSPACES\_CURRENT</td>
-        <td>ID</td>
-    </tr>
-    <tr>
-        <td>`CREATED`</td>
+        <td>CREADO</td>
         <td>Número</td>
         <td>Un indicador que indica el último tipo de operación que afectó a este registro de espacio de trabajo. El valor 1 indica que el espacio de trabajo se creó en el ciclo de actualización de datos más reciente; 0 indica que no lo fue. Consulte CREATEDAT para ver la marca de tiempo de creación real.</td>
         <td>—</td>
         <td>—</td>
     </tr>
     <tr>
-        <td>`UPDATED`</td>
-        <td>Número</td>
-        <td>Un indicador que indica el último tipo de operación que afectó a este registro de espacio de trabajo. El valor 1 indica que el espacio de trabajo se ha actualizado en el ciclo de actualización de datos más reciente; 0 indica que no fue así. Consulte UPDATEDAT para ver la marca de tiempo real de la última actualización.</td>
-        <td>—</td>
-        <td>—</td>
-    </tr>
-    <tr>
-        <td>"ELIMINADO"</td>
-        <td>Número</td>
-        <td>Un indicador que indica si este espacio de trabajo se ha eliminado por software. El valor 1 indica eliminado; 0 indica activo.</td>
-        <td>—</td>
-        <td>—</td>
-    </tr>
-    <tr>
-        <td>"DL_LOAD_TIMESTAMP"</td>
-        <td>Marca de tiempo\_NTZ</td>
-        <td>Marca de tiempo del trabajo de actualización de datos que cargó por última vez este registro de espacio de trabajo en el lago de datos. Se actualiza después de cada ciclo de actualización de datos correcto.</td>
-        <td>—</td>
-        <td>—</td>
-    </tr>
-    <tr>
-        <td>"CREATEDBY"</td>
-        <td>Varchar</td>
-        <td>El identificador del usuario que creó este espacio de trabajo.</td>
-        <td>WF.USERS\_CURRENT</td>
-        <td>EAUTHUSERID</td>
-    </tr>
-    <tr>
-        <td>`CREATEDAT`</td>
+        <td>CREATEDAT</td>
         <td>Marca de tiempo\_NTZ</td>
         <td>La marca de tiempo (sin zona horaria) de cuando se creó este espacio de trabajo.</td>
         <td>—</td>
         <td>—</td>
     </tr>
     <tr>
-        <td>`UPDATEDBY`</td>
+        <td>CREATEDBY</td>
         <td>Varchar</td>
-        <td>El identificador del usuario que actualizó esta área de trabajo por última vez.</td>
+        <td>El identificador del usuario que creó este espacio de trabajo.</td>
         <td>WF.USERS\_CURRENT</td>
         <td>EAUTHUSERID</td>
     </tr>
     <tr>
-        <td>`UPDATEDAT`</td>
+        <td>ELIMINADA</td>
+        <td>Número</td>
+        <td>Un indicador que indica si este espacio de trabajo se ha eliminado por software. El valor 1 indica eliminado; 0 indica activo.</td>
+        <td>—</td>
+        <td>—</td>
+    </tr>
+    <tr>
+        <td>DL_LOAD_TIMESTAMP</td>
         <td>Marca de tiempo\_NTZ</td>
-        <td>La marca de tiempo (sin zona horaria) de la última vez que se actualizó este espacio de trabajo.</td>
+        <td>Marca de tiempo del trabajo de actualización de datos que cargó por última vez este registro de espacio de trabajo en el lago de datos. Se actualiza después de cada ciclo de actualización de datos correcto.</td>
         <td>—</td>
         <td>—</td>
     </tr>
     <tr>
-        <td>`USERID`</td>
+        <td>ID</td>
         <td>Varchar</td>
-        <td>Identificador del usuario asociado a este espacio de trabajo, que suele ser el propietario del espacio de trabajo.</td>
-        <td>WF.USERS\_CURRENT</td>
-        <td>EAUTHUSERID</td>
+        <td>Identificador único del espacio de trabajo de Planning. Clave principal de esta vista.</td>
+        <td>WF.WORKSPACES\_CURRENT</td>
+        <td>ID</td>
     </tr>
     <tr>
-        <td>`NAME`</td>
+        <td>DISFUSIÓN</td>
+        <td>Booleano</td>
+        <td>Un indicador que indica si este espacio de trabajo se creó o administró mediante una integración de Workfront Fusion. Un valor de "true" indica Fusion management; "false" o un valor vacío indica que se trata de un espacio de trabajo creado de forma nativa.</td>
+        <td>—</td>
+        <td>—</td>
+    </tr>
+    <tr>
+        <td>NOMBRE</td>
         <td>Varchar</td>
         <td>El nombre para mostrar del espacio de trabajo como se muestra en la interfaz de Planning.</td>
         <td>—</td>
         <td>—</td>
     </tr>
     <tr>
-        <td>`PARENTID`</td>
+        <td>PARENTID</td>
         <td>Varchar</td>
         <td>Identificador del espacio de trabajo principal si este espacio de trabajo está anidado en una jerarquía de espacio de trabajo. Vacío si este espacio de trabajo no tiene elemento principal (es decir, es un espacio de trabajo de nivel superior).</td>
         <td>WORKSPACE\_CURRENT</td>
         <td>ID</td>
     </tr>
     <tr>
-        <td>"RESTAURADO"</td>
+        <td>RESTAURADO</td>
         <td>Número</td>
         <td>Un indicador que indica si este espacio de trabajo se restauró después de eliminarse de forma suave.</td>
         <td>—</td>
@@ -9900,10 +9799,31 @@ Contiene las definiciones actuales de todos los espacios de trabajo de Workfront
         <td>—</td>
     </tr>
     <tr>
-        <td>"ISFUSION"</td>
-        <td>Booleano</td>
-        <td>Un indicador que indica si este espacio de trabajo se creó o administró mediante una integración de Workfront Fusion. Un valor de "true" indica Fusion management; "false" o un valor vacío indica que se trata de un espacio de trabajo creado de forma nativa.</td>
+        <td>ACTUALIZADO</td>
+        <td>Número</td>
+        <td>Un indicador que indica el último tipo de operación que afectó a este registro de espacio de trabajo. El valor 1 indica que el espacio de trabajo se ha actualizado en el ciclo de actualización de datos más reciente; 0 indica que no fue así. Consulte UPDATEDAT para ver la marca de tiempo real de la última actualización.</td>
         <td>—</td>
         <td>—</td>
+    </tr>
+    <tr>
+        <td>UPDATEDAT</td>
+        <td>Marca de tiempo\_NTZ</td>
+        <td>La marca de tiempo (sin zona horaria) de la última vez que se actualizó este espacio de trabajo.</td>
+        <td>—</td>
+        <td>—</td>
+    </tr>
+    <tr>
+        <td>ACTUALIZADO POR</td>
+        <td>Varchar</td>
+        <td>El identificador del usuario que actualizó esta área de trabajo por última vez.</td>
+        <td>WF.USERS\_CURRENT</td>
+        <td>EAUTHUSERID</td>
+    </tr>
+    <tr>
+        <td>USERID</td>
+        <td>Varchar</td>
+        <td>Identificador del usuario asociado a este espacio de trabajo, que suele ser el propietario del espacio de trabajo.</td>
+        <td>WF.USERS\_CURRENT</td>
+        <td>EAUTHUSERID</td>
     </tr>
 </table>

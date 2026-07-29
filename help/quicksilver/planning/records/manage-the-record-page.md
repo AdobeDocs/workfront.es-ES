@@ -20,7 +20,7 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 614b25d3255b27f09f2624afd8691e08cfb7ddf4
+source-git-commit: e6551959a0f7bc6fb7de9c0b7d81aa5bc50f2980
 workflow-type: tm+mt
 source-wordcount: 1741
 ht-degree: 40%
@@ -311,7 +311,7 @@ Ocurren lo siguiente:
 
 
 1. Para mostrar todos los campos, expanda el menú desplegable de vista de página y luego seleccione **Todos los campos**.
-1. (Opcional) Haga clic en **Nuevos detalles** para agregar una nueva página y personalizarla. A continuación, haga lo siguiente:
+1. (Opcional) Haga clic en **Nuevos detalles** para agregar una nueva página, personalizarla y, a continuación, haga lo siguiente:
 
    1. En el cuadro **Crear vista**, agregue un nombre para la nueva vista de página de detalles y haga clic en **Crear**.
    1. Pase el ratón sobre los campos de la vista y haga clic en el icono **Ocultar campo** ![Ocultar icono de campo](assets/hide-field-in-details-page-icon.png) que se encuentra a la izquierda de los campos para ocultar el campo.
