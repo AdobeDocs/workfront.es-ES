@@ -9,21 +9,14 @@ exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/y6gIjeP-4NXrR-itk9Ohr8h6LVutIN7AH0Kr1RJBfTA
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-  - id: fceb5125-bb41-419a-b0db-31958cb42f6c
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: ce22a157-dd2c-405f-b740-c2f204bb4c1aid: e147ce9d-7675-49bd-8a32-44f27d865560id: fceb5125-bb41-419a-b0db-31958cb42f6c
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 75779f9563462e3cbde044f9323e174a9a9a70ad
 workflow-type: tm+mt
-source-wordcount: 3164
+source-wordcount: 3225
 ht-degree: 14%
 
 ---
@@ -179,21 +172,21 @@ Old:
 
 * Puede agregar una actualización a proyectos, tareas y problemas desde las siguientes áreas de Workfront:
 
-   * Desde un objeto de Workfront, en la sección Actualizaciones (para proyectos, tareas y problemas)
-   * Desde el área de Inicio (para tareas y problemas)
+  * Desde un objeto de Workfront, en la sección Actualizaciones (para proyectos, tareas y problemas)
+  * Desde el área de Inicio (para tareas y problemas)
 
-     Para obtener más información, consulta [Administrar tu trabajo con el widget Mi trabajo](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-work-widget.md).
-   * En el panel Resumen, en las siguientes áreas (para tareas, problemas y documentos):
+    Para obtener más información, consulta [Administrar tu trabajo con el widget Mi trabajo](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-work-widget.md).
+  * En el panel Resumen, en las siguientes áreas (para tareas, problemas y documentos):
 
-      * Una lista de objetos
-      * Una hoja de horas
-      * Inicio
-      * Distribuidor de cargas de trabajo
+    * Una lista de objetos
+    * Una hoja de horas
+    * Inicio
+    * Distribuidor de cargas de trabajo
 
-     Para obtener más información, consulte los siguientes artículos:
+    Para obtener más información, consulte los siguientes artículos:
 
-      * [Información general sobre el resumen](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md)
-      * [Actualizar los elementos de trabajo en el distribuidor de cargas de trabajo mediante el resumen](/help/quicksilver/resource-mgmt/workload-balancer/update-items-in-summary-panel-in-workload-balancer.md)
+    * [Información general sobre el resumen](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md)
+    * [Actualizar los elementos de trabajo en el distribuidor de cargas de trabajo mediante el resumen](/help/quicksilver/resource-mgmt/workload-balancer/update-items-in-summary-panel-in-workload-balancer.md)
 
 <!--info for April 11: hide the section below: add an update to a work item-->
 
@@ -451,7 +444,6 @@ Puede mejorar los comentarios mediante Texto enriquecido o agregándole varios e
 
    >[!IMPORTANT]
    >
-   >
    >* No puede añadir imágenes a objetivos o tarjetas ad hoc en tableros.
    >
    >* El administrador de Workfront debe habilitar la adición de imágenes en la sección Actualizar preferencias de fuentes del área de Interfaz de Workfront para que pueda ver los iconos Imagen o Agregar datos adjuntos. Para obtener más información, consulte [Configurar preferencias para actualizaciones de usuarios](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-preferences-user-updates.md).
@@ -462,6 +454,8 @@ Puede mejorar los comentarios mediante Texto enriquecido o agregándole varios e
    >* Puede enviar una actualización con una imagen y sin texto.
    >* Cuando elimina un comentario que contiene una imagen, la imagen se quita de la sección Actualizaciones y del área Documentos. La imagen también se elimina del área Documentos cuando edita un comentario y elimina la imagen.
    >* Cuando alguien elimina una imagen adjunta a un comentario del área Documentos, también se elimina del comentario.
+   >* Si su organización utiliza el almacenamiento en la nube de Adobe como parte de la revisión y aprobación unificadas, su administrador de Workfront puede habilitar la misma preferencia para permitirle adjuntar imágenes a los comentarios. Se admiten todos los formatos de imagen estándar y las imágenes adjuntas se almacenan en el almacenamiento en la nube de Adobe.
+   >* No se puede acceder a las imágenes adjuntas a los comentarios de objetos que utilizan el almacenamiento en la nube de Adobe desde el visor Frame.io.
 
    <!--remove the statement above about legacy, when we remove the legacy environment.-->
 
@@ -657,10 +651,10 @@ La sección Actualizaciones de un objeto de Workfront muestra dos tipos de infor
 
   Los objetos siguientes no tienen actualizaciones generadas por el sistema:
 
-   * Equipo
-   * Plantilla
-   * Tarea de plantilla
-   * Tarjeta ad hoc en un tablero
+  * Equipo
+  * Plantilla
+  * Tarea de plantilla
+  * Tarjeta ad hoc en un tablero
 
 Para obtener más información sobre las actualizaciones de usuarios y sistemas y cómo se muestran en la sección Actualizaciones de los objetos de Workfront, consulte [Información general de la sección Actualizaciones](../updating-work-items-and-viewing-updates/updates-tab-overview.md).
 

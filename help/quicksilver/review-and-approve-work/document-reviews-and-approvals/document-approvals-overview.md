@@ -10,17 +10,13 @@ exl-id: 32cb95c2-8d12-492b-ad89-b38e2a337fc5
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/P-naBIVBoFQcBaL4Zgo0cEOTQ8eErxqr0MBmHTbec9E
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 632c8690acc30121fe72338326ec8ab58c0fd3a6
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 75779f9563462e3cbde044f9323e174a9a9a70ad
 workflow-type: tm+mt
-source-wordcount: 4149
+source-wordcount: 4230
 ht-degree: 0%
 
 ---
@@ -212,7 +208,7 @@ Para acceder a la revisión y aprobación unificadas, debe estar en una versión
 
 * Una vez que tenga una versión de Workfront compatible con el almacenamiento en la nube de Adobe, Adobe Professional Services configurará la integración para su organización.
 
-   * Si no está seguro de quién es su representante de cuentas de Adobe, puede ponerse en contacto con nosotros a través del portal de asistencia de Adobe o visitar Experience League para obtener opciones de contacto.
+  * Si no está seguro de quién es su representante de cuentas de Adobe, puede ponerse en contacto con nosotros a través del portal de asistencia de Adobe o visitar Experience League para obtener opciones de contacto.
 
 +++
 
@@ -360,6 +356,14 @@ Para obtener una lista completa de los tipos de archivo admitidos, consulte la d
 **¿Puedo compartir recursos externamente con partes interesadas que no tienen acceso a Workfront?**
 
 Sí. Assets se puede compartir externamente. Se notifica a los usuarios externos por correo electrónico y se les pedirá que creen un inicio de sesión de Frame.io para acceder al visor y participar en la revisión.
+
+**¿Puedo adjuntar imágenes a comentarios en un documento de Workfront?**
+
+Si su organización utiliza el almacenamiento en la nube de Adobe como parte de la revisión y aprobación unificadas, puede adjuntar archivos de imagen directamente a los comentarios de un documento. Las imágenes adjuntas se almacenan en el almacenamiento en la nube de Adobe y se admiten todos los formatos de archivo de imagen de tipo multimedia.
+
+Estos comentarios son nativos de Workfront y están separados de los comentarios del visor de Frame.io. No se puede acceder a las imágenes adjuntas a un comentario en Frame.io y, al adjuntar una imagen, no se agrega marcado al recurso ni se enruta para su aprobación. Los tipos de archivo que no son de imagen no se pueden adjuntar a un comentario.
+
+Para obtener más información, consulte [Trabajo de actualización](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 <!--
 **Before unified review and approval, is a reviewer just directed to a proof?**

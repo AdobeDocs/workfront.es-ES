@@ -11,18 +11,14 @@ exl-id: d6d18423-d13c-42e8-b8ee-43e6842b6481
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/67OfYPIrN7Tzciapa37YHviFI4uptaGgkWkMMREgw-k
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 75779f9563462e3cbde044f9323e174a9a9a70ad
 workflow-type: tm+mt
-source-wordcount: 271
-ht-degree: 80%
+source-wordcount: 291
+ht-degree: 73%
 
 ---
 
@@ -96,13 +92,13 @@ De forma predeterminada, los usuarios no pueden añadir imágenes en las actuali
 >
 >* Las imágenes guardadas en las actualizaciones se contabilizan en el límite de almacenamiento de documentos. Para obtener más información, consulte [Comprobar límites de almacenamiento de documentos](../../../documents/managing-documents/check-document-storage.md).
 >* Se puede acceder a las imágenes a través de la pestaña [!UICONTROL Actualizaciones] de un objeto y también están disponibles en el área de [!UICONTROL Documentos] en el [!UICONTROL Menú principal].
->
+>* Esta preferencia también determina si los usuarios pueden adjuntar imágenes a comentarios sobre objetos mediante el almacenamiento en la nube de Adobe. Las imágenes adjuntas se almacenan en el almacenamiento en la nube de Adobe.
 
 1. Haga clic en el icono **[!UICONTROL Menú principal]** ![Icono del menú principal](assets/main-menu-icon.png) en la esquina superior derecha de [!DNL Adobe Workfront] y, a continuación, haga clic en **[!UICONTROL Configurar]** ![Icono de configuración de engranajes](assets/gear-icon-settings.png).
 1. En el panel izquierdo, seleccione **[!UICONTROL Interfaz]** > **[!UICONTROL Actualizar fuentes]**.
 1. Seleccione la pestaña **[!UICONTROL Preferencias]**.
 
-   ![Preferencias de usuario para actualizar fuentes](assets/updatefeeds-preferences-350x137.png)
+<!--![User preferences for update feeds](assets/updatefeeds-preferences-350x137.png)-->
 
 1. Active la casilla de verificación **[!UICONTROL Permitir que los usuarios añadan imágenes en actualizaciones]**.
 1. Seleccione **[!UICONTROL Guardar]**.
