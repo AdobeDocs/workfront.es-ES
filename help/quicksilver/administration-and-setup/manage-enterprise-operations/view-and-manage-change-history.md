@@ -3,13 +3,13 @@ user-type: administrator
 product-area: system-administration;setup
 navigation-topic: configure-locations
 title: Historial de cambios
-description: El historial de cambios permite ver un registro de los cambios realizados en los objetos de Workfront.
-author: Lisa and Becky
+description: El historial de cambios permite ver un registro de los cambios realizados en los objetos Workfront
+author: Lisa
 feature: System Setup and Administration
 role: Admin
-source-git-commit: c58c4365016f8fe855003cdbbd457f95483d08bc
+source-git-commit: ba1843cf6be446a809f9526608a3ae3bef69c494
 workflow-type: tm+mt
-source-wordcount: '445'
+source-wordcount: '472'
 ht-degree: 7%
 
 ---
@@ -18,14 +18,18 @@ ht-degree: 7%
 
 Puede ver el historial de cambios, incluidos los registros de auditoría, en el área Seguimiento de cambios de Configuración.
 
-* **Registros de auditoría** son cambios activados por los usuarios.Para obtener más información sobre los registros de auditoría y el área de registros de auditoría, vea [Resumen de los registros de auditoría](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/audit-logs.md)
-* **Configuración** muestra qué campo se está rastreando para la lista Historial de cambios.Actualmente, la configuración solo está disponible como información y no se puede cambiar. La capacidad de cambiar los campos de los que se realiza un seguimiento estará disponible en un futuro próximo.
-* La lista Historial de cambios permite ver un registro de los cambios realizados en los objetos de Workfront, incluidos atributos como:
+* **Registros de auditoría** son cambios activados por los usuarios.
+Para obtener más información sobre los registros de auditoría y el área de registros de auditoría, consulte [Resumen de los registros de auditoría](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/audit-logs.md)
+* **Configuración** muestra qué campo se está rastreando para la lista Historial de cambios.
+Actualmente, la configuración solo está disponible como información y no se puede cambiar. La capacidad de cambiar los campos de los que se realiza un seguimiento estará disponible en un futuro próximo.
+* **Lista de historial de cambios** le permite ver un registro de los cambios realizados en los objetos de Workfront, incluidos atributos como:
 
-   * Objeto
-   * Tipo de objeto
-   * Tipo de cambio (operación)
-   * Source del cambio, como usuarios específicos, API, Workfront Fusion, AI LLM o el sistema de Workfront
+  * Objeto
+  * Tipo de objeto
+  * Tipo de cambio (operación)
+  * Source del cambio, como usuarios específicos, API, Workfront Fusion, AI LLM o el sistema de Workfront
+
+  <span class="preview">La actividad de flujo de trabajo de revisión y aprobación unificadas se rastrea en Historial de cambios, incluidos los participantes y las decisiones.</span>
 
 ## Requisitos de acceso
 
@@ -45,7 +49,7 @@ Puede ver el historial de cambios, incluidos los registros de auditoría, en el 
   </tr> 
   <tr> 
    <td>Configuraciones de nivel de acceso</td> 
-   <td>Debe ser administrador de Workfront para ver el historial de cambios</td> 
+   <td>Administrador del sistema</td> 
   </tr> 
  </tbody> 
 </table>
@@ -91,13 +95,23 @@ La lista Historial de cambios es una lista mejorada que incluye filtros, columna
 1. Para ajustar las fechas para las que se muestran cambios, haga clic en el selector de fechas y seleccione las nuevas fechas.
 
    Los cambios están disponibles durante los últimos 90 días.
-1. Para buscar un término específico, haga clic en la barra de búsqueda e introduzca el término. Los resultados se filtran a medida que escribe.
-1. (Opcional) Para filtrar por una columna, consulte [Filtrar elementos de una lista mejorada](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md#filter-items-in-an-enhanced-list) en el artículo Usar listas mejoradas.
-1. (Opcional) Para ocultar, mostrar o reordenar columnas, consulte [Personalizar columnas](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md#customize-columns) en el artículo Usar listas mejoradas.
-1. Para agregar o quitar columnas, vea [Agregar y quitar columnas con el Administrador de columnas](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md#add-and-remove-columns-with-the-column-manager) en el artículo Usar listas mejoradas.
-1. Para ajustar el alto de fila, vea [Cambiar el alto de fila en una vista](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md#change-the-row-height-in-a-view) en el artículo Usar listas mejoradas.
 
+1. Para buscar un término específico, haga clic en la barra de búsqueda e introduzca el término. Los resultados se resaltan en la lista a medida que escribe.
+1. (Opcional) Para filtrar por una columna, consulte [Filtrar elementos de una lista mejorada](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md#filter-items-in-an-enhanced-list) en el artículo [Usar listas mejoradas](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
+1. (Opcional) Para ocultar, mostrar o reordenar columnas, consulte [Personalizar columnas](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md#customize-columns) en el artículo [Usar listas mejoradas](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
+1. (Opcional) Para agregar o quitar columnas, consulte [Agregar y quitar columnas con el Administrador de columnas](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md#add-and-remove-columns-with-the-column-manager) en el artículo [Usar listas mejoradas](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
+1. (Opcional) Para ajustar el alto de fila, consulte [Cambiar el alto de fila en una vista](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md#change-the-row-height-in-a-view) en el artículo [Usar listas mejoradas](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
 
+## Exportar historial de cambios
+
+{{step-1-to-setup}}
+
+1. En el panel izquierdo, haga clic en **Seguimiento de cambios > Lista de historial de cambios**.
+1. Filtre la lista para mostrar los elementos que desea exportar.
+1. Haga clic en el icono **Exportar** ![Icono de exportar](assets/export-icon.png) y seleccione si desea guardar en formato XLSX o CSV.
+
+   Se abrirá el cuadro Guardar archivo y podrá guardar el archivo exportado en el equipo.
+   Termine de guardar el archivo exportado. Ahora puede encontrarlo en el equipo y compartirlo con otros usuarios.
 
 
 

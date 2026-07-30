@@ -10,17 +10,13 @@ exl-id: 32cb95c2-8d12-492b-ad89-b38e2a337fc5
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/P-naBIVBoFQcBaL4Zgo0cEOTQ8eErxqr0MBmHTbec9E
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 75779f9563462e3cbde044f9323e174a9a9a70ad
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 4d6be75a507438eee1f3887474b847c2bece85ff
 workflow-type: tm+mt
-source-wordcount: 4230
+source-wordcount: 4323
 ht-degree: 0%
 
 ---
@@ -96,6 +92,12 @@ El visor Frame.io es el visor predeterminado para todos los flujos de trabajo de
 Si su organización desea aprovechar las ventajas de la funcionalidad Frame.io adicional disponible con esta integración, como cargar recursos directamente en proyectos en Frame.io, puede adquirir una licencia de Frame.io Enterprise. Póngase en contacto con su representante de cuentas de Adobe para programar una demostración y explorar las ventajas de la solución Frame.io completa.
 
 La funcionalidad de revisión de Workfront no está disponible con esta integración.
+
+## Pista de auditoría completa
+
+<span class="preview">La revisión y aprobación unificadas incluyen un registro de auditoría completo que crea un seguimiento de control completo en Workfront y Frame.io. Los registros de seguimiento de cambios capturan las decisiones de aprobación realizadas en el visor Frame.io y en el ciclo vital del documento. Cada entrada de registro incluye atribución del sistema de origen (Workfront o Frame.io) junto con los campos de auditoría estándar de Workfront: fecha y hora, tipo de registro, nombre de usuario, acción y nombre de objeto. Los comentarios del visor Frame.io no se incluyen en los registros de auditoría.</span>
+
+<span class="preview">Los registros de seguimiento de cambios aparecen en el área de Configuración de Workfront y están disponibles para la exportación. Para obtener más información, vea [Ver y administrar el historial de cambios](/help/quicksilver/administration-and-setup/manage-enterprise-operations/view-and-manage-change-history.md).</span>
 
 ## Potente administración de proyectos en Workfront
 
