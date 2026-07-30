@@ -4,10 +4,10 @@ description: Esta página proporciona información sobre la funcionalidad que se
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: c7370c767ac521cea7e262ba9cca9270139fd056
+source-git-commit: 1d62b2942d99d027cb68df973b2ec700dd1fa377
 workflow-type: tm+mt
-source-wordcount: '1143'
-ht-degree: 17%
+source-wordcount: '1271'
+ht-degree: 16%
 
 ---
 
@@ -17,7 +17,7 @@ Esta página proporciona información sobre la funcionalidad que se incluye en l
 
 Las mejoras de esta página están disponibles en el entorno de vista previa. Esta página se actualizará con mejoras adicionales a medida que la versión del cuarto trimestre de 2026 se aproxime a su versión de producción planificada.
 
-Se celebran seminarios web en directo para cada versión trimestral, en los que se destacan las nuevas funciones y se proporciona información detallada. Para registrarse, visite la [página de eventos](https://experienceleague.adobe.com/es/events?filters=Workfront) y filtre por Workfront.
+Se celebran seminarios web en directo para cada versión trimestral, en los que se destacan las nuevas funciones y se proporciona información detallada. Para registrarse, visite la [página de eventos](https://experienceleague.adobe.com/en/events?filters=Workfront) y filtre por Workfront.
 
 >[!IMPORTANT]
 >
@@ -126,6 +126,33 @@ Se celebran seminarios web en directo para cada versión trimestral, en los que 
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Seguimiento de cambios para revisión y aprobación unificadas</a>
                 <p>La página Historial de Cambios ahora captura la actividad en los flujos de trabajo de revisión y aprobación unificados, lo que proporciona a los administradores un registro de control completo para las acciones de aprobación, fase y participante.</p>
+            </td>
+            <td><p>30 de julio de 2026</p></td>
+            <td><p>13 de agosto de 2026</p></td>
+            <td><p>15 de octubre de 2026</p></td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Defina una aplicación personalizada como una página de aterrizaje en la plantilla de diseño</a>
+                <p>Ahora puede establecer una aplicación personalizada como página de aterrizaje en una plantilla de diseño.</p>
+            </td>
+            <td><p>30 de julio de 2026</p></td>
+            <td><p>13 de agosto de 2026</p></td>
+            <td><p>15 de octubre de 2026</p></td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Configurar campos rastreados en el historial de cambios</a>
+                <p>Puede agregar campos que desee rastrear para un tipo concreto de objeto a través de Workfront. Cuando los usuarios cambian información en ese campo, el sistema registra la información sobre el cambio como una entrada en el historial de cambios.</p>
+            </td>
+            <td><p>30 de julio de 2026</p></td>
+            <td><p>13 de agosto de 2026</p></td>
+            <td><p>15 de octubre de 2026</p></td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Se ha agregado acceso administrativo al historial de cambios a los niveles de acceso</a>
+                <p>En el nivel de acceso Estándar, ahora puede definir si los usuarios con ese nivel deben tener acceso a la lista Historial de cambios.</p>
             </td>
             <td><p>30 de julio de 2026</p></td>
             <td><p>13 de agosto de 2026</p></td>
@@ -299,7 +326,7 @@ Si es administrador de Workfront y tiene usuarios de lector de Data Connect que 
 
 Este cambio se anunció por primera vez en las notas de la versión de Workfront de abril de 2026 y este es el recordatorio final antes de la fecha límite. Asegúrese de que todos los usuarios de lectores afectados habiliten MFA antes del 8 de agosto de 2026 para evitar interrupciones en su acceso.
 
-Para obtener más información, consulte [Crear una cuenta de lector o una conexión para Snowflake](https://experienceleague.adobe.com/es/docs/workfront/using/reporting/data-lake/create-a-reader-account).
+Para obtener más información, consulte [Crear una cuenta de lector o una conexión para Snowflake](https://experienceleague.adobe.com/en/docs/workfront/using/reporting/data-lake/create-a-reader-account).
 
 ### Actualizaciones de aprendizaje
 

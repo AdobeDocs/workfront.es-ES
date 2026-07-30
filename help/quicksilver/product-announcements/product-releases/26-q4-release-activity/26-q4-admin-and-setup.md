@@ -4,9 +4,9 @@ description: Mejoras del administrador del cuarto trimestre de 2026
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 1dd8ab20d11b2b4471308ac5402b31e20359a04c
+source-git-commit: 1d62b2942d99d027cb68df973b2ec700dd1fa377
 workflow-type: tm+mt
-source-wordcount: '604'
+source-wordcount: '830'
 ht-degree: 1%
 
 ---
@@ -84,3 +84,39 @@ Ahora se realiza un seguimiento de las acciones de aprobación, fase y participa
 Cada entrada incluye los campos rastreados estándar: fecha y hora, operación, nombre de usuario (o &quot;generado por el sistema&quot;) y nombre de objeto. Se capturan las actividades de MCP, incluido qué LLM (como Claude) realizó la actualización. No se incluyen los comentarios del visor de Frame.io.
 
 Para obtener más información, vea [Ver y administrar el historial de cambios](/help/quicksilver/administration-and-setup/manage-enterprise-operations/view-and-manage-change-history.md).
+
+## Defina una aplicación personalizada como una página de aterrizaje en la plantilla de diseño
+
+>[!NOTE]
+>
+>Vista previa: 30 de julio de 2026>Versión rápida de producción: 13 de agosto de 2026>Producción para todos: 15 de octubre de 2026
+
+Ahora puede establecer una aplicación personalizada como página de aterrizaje en una plantilla de diseño. Las aplicaciones personalizadas que ya se han añadido al menú principal están disponibles para su uso como página de aterrizaje.
+
+Las aplicaciones personalizadas deben crearse por separado antes de que estén disponibles como opciones del menú principal o de la página de aterrizaje.
+
+Para obtener más información, consulte [Personalizar la página de aterrizaje con una plantilla de diseño](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-landing-page.md) y [Crear aplicaciones personalizadas para Workfront con Adobe App Builder](/help/quicksilver/app-builder/app-builder.md).
+
+## Configurar campos rastreados en el historial de cambios
+
+>[!NOTE]
+>
+>Vista previa: 30 de julio de 2026>Versión rápida de producción: 13 de agosto de 2026>Producción para todos: 15 de octubre de 2026
+
+Puede agregar campos que desee rastrear para un tipo concreto de objeto a través de Workfront. Cuando los usuarios cambian información en ese campo, el sistema registra la información sobre el cambio como una entrada en el historial de cambios.
+
+Anteriormente, la pantalla Configuración para definir los campos rastreados era de solo vista.
+
+Para obtener más información, vea [Ver y administrar el historial de cambios](/help/quicksilver/administration-and-setup/manage-enterprise-operations/view-and-manage-change-history.md).
+
+## Acceso administrativo al historial de cambios agregado a los niveles de acceso
+
+>[!NOTE]
+>
+>Vista previa: 30 de julio de 2026>Versión rápida de producción: 13 de agosto de 2026>Producción para todos: 15 de octubre de 2026
+
+En el nivel de acceso Estándar, ahora puede definir si los usuarios con ese nivel deben tener acceso a la lista Historial de cambios. La opción **Cambiar historial** está disponible en la sección **Permitir acceso administrativo para** en el nivel de acceso.
+
+Para obtener más información, consulte [Conceder acceso administrativo a los usuarios a ciertas áreas](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md) y [Ver y administrar el historial de cambios](/help/quicksilver/administration-and-setup/manage-enterprise-operations/view-and-manage-change-history.md).
+
+
