@@ -11,14 +11,16 @@ role: Admin
 exl-id: 7f62de33-e544-4be9-8dcf-03a2e09e8a05
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: b6c2f0b8138948be7a6f9565503d05738c456857
+source-git-commit: 5c8c8bfdf9b02d8bcd19a291b65825d4b0883807
 workflow-type: tm+mt
-source-wordcount: '1458'
+source-wordcount: '1475'
 ht-degree: 1%
 
 ---
 
 # Resumen de perfiles empresariales
+
+{{highlighted-preview}}
 
 Los perfiles empresariales son un modelo de permisos mejorado que permite a clientes como las agencias administrar de forma eficaz el acceso de los usuarios y garantizar un control preciso de los permisos en el nivel de grupo. En un perfil empresarial, los usuarios tienen permisos distintos para objetos específicos del grupo. Los objetos adicionales también se pueden compartir directamente con el perfil empresarial.
 
@@ -30,6 +32,8 @@ El administrador del sistema de Workfront:
 * Actualiza el perfil de usuario con el grupo y el nivel de acceso para ese grupo (este es el perfil empresarial)
 * Define fechas en vigor para el perfil comercial según sea necesario
 * Asigna plantillas de diseño a los niveles de acceso
+
+<span class="preview">Los administradores de grupo también pueden crear, editar y eliminar perfiles de negocio, pero solo para los grupos que administran.</span>
 
 Cualquier usuario que tenga acceso para compartir objetos puede compartirlos con el perfil empresarial, y todos los usuarios con el perfil verán el objeto.
 
