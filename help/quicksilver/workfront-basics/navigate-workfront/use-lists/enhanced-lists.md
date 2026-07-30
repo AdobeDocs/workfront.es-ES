@@ -8,24 +8,21 @@ exl-id: 4c25ed54-b147-4fd3-8d00-6f1ba61bbd38
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/2h2QsF799S3w-QTA1sswerywOQvdO9uWZppf5Y-tZvk
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 8865d770518504ccc3eb50175dafeab66eba8563
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 01a67480d4dbaeaa03f3380d825676f7b6478ec0
 workflow-type: tm+mt
-source-wordcount: 3142
+source-wordcount: 3184
 ht-degree: 2%
 
 ---
 
 # Uso de listas mejoradas
+
+{{preview-fast-release-general}}
 
 Las listas mejoradas están disponibles en algunas áreas de Adobe Workfront. Estas listas utilizan un formato de tabla para mostrar los elementos de la lista, y tienen un aspecto diferente al de las listas estándar. También se mejora la administración de vistas, incluidos el filtrado, la agrupación, la administración de columnas y la búsqueda.
 
@@ -203,17 +200,20 @@ Para agregar y quitar columnas:
 
    <!-- Add info about Properties and KPIs when something gets released with those options -->
 
+1. <span class="preview">(Opcional) Para reordenar las columnas, pase el ratón sobre un nombre de columna en la sección **Seleccionado** y haga clic en el icono **Arrastrar** ![Icono de arrastrar](assets/drag-icon.png). Mueva las columnas verticalmente para ponerlas en orden.</span>
 1. Haga clic en **Guardar**.
 
    ![Administrador de columnas](assets/glist-column-manager.png)
 
    La lista actualiza las columnas según las opciones que haya realizado.
 
-### Cambiar el alto de fila en una vista
+## Personalizar filas
 
 >[!NOTE]
 >
 >No todas las listas mejoradas tienen todos los elementos descritos en esta sección.
+
+Para cambiar el alto de fila en una vista:
 
 1. Haga clic en el icono **Alto de fila** ![Icono de alto de fila](assets/row-height-icon.png) en una lista mejorada.
 
@@ -222,6 +222,14 @@ Para agregar y quitar columnas:
    * Estándar. Esta es la opción predeterminada.
    * Media
    * Alta
+
+Para cambiar el orden de las filas:
+
+1. Arrastre y suelte las filas en su orden preferido.
+
+   >[!NOTE]
+   >
+   >Si se ha aplicado una ordenación, no se puede cambiar el orden de filas manualmente.
 
 ## Actualizar elementos de lista mejorados
 
@@ -366,8 +374,8 @@ El formato condicional le ayuda a resaltar información importante en la vista e
 1. Haga clic fuera del cuadro **Formato** para cerrarlo.
 
    Esto le devuelve a la vista de lista.
-El formato se aplica inmediatamente a la vista de lista.
-Hay un punto azul al lado del icono **Formato de celdas** para indicar que la vista tiene un formato especial aplicado.
+   El formato se aplica inmediatamente a la vista de lista.
+   Hay un punto azul al lado del icono **Formato de celdas** para indicar que la vista tiene un formato especial aplicado.
 
 ### Filtrar elementos en una lista mejorada
 
