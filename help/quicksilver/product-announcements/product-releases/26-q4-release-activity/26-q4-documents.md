@@ -4,10 +4,10 @@ description: Mejoras en los documentos del cuarto trimestre de 2026
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 4b04780c710368bf1154661b14b7bf27364a19a5
+source-git-commit: c7370c767ac521cea7e262ba9cca9270139fd056
 workflow-type: tm+mt
-source-wordcount: '176'
-ht-degree: 10%
+source-wordcount: '266'
+ht-degree: 6%
 
 ---
 
@@ -29,20 +29,14 @@ Todos los formatos de imagen de tipo multimedia ahora son compatibles con las or
 
 Para obtener más información, consulte [Trabajo de actualización](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
-<!--
-
-## Link content and folders from Experience Manager Assets with Adobe cloud storage
+## Vinculación de contenido y carpetas desde Experience Manager Assets con Adobe Cloud Storage
 
 >[!NOTE]
 >
->Preview: July 30, 2026
->Production fast release: August 13, 2026
->Production for everyone: October 15, 2026
+>Vista previa: 30 de julio de 2026>Versión rápida de producción: 13 de agosto de 2026>Producción para todos: 15 de octubre de 2026
 
-If your organization uses Adobe cloud storage, you can link individual assets or entire folders from Experience Manager Assets to any Workfront object that supports documents. Linked content stays in sync automatically: changes made in Experience Manager Assets appear in Workfront, and you can pull in new asset versions without leaving Workfront.
+Si su organización utiliza el almacenamiento en la nube de Adobe, puede vincular recursos individuales o carpetas completas desde Experience Manager Assets a cualquier objeto de Workfront que admita documentos. El contenido vinculado se sincroniza automáticamente: los cambios realizados en Experience Manager Assets aparecen en Workfront y puede extraer nuevas versiones del recurso sin salir de Workfront.
 
-Linking is powered by Content Advisor, so you also get AI Search, smart suggestions, campaign brief analysis and more while selecting content.
+La vinculación cuenta con la tecnología del Asesor de contenido, por lo que también obtiene Búsqueda por IA, sugerencias inteligentes, análisis breves de campañas y mucho más al seleccionar contenido.
 
-For more information, see [Link content and folders from Experience Manager Assets with Adobe cloud storage](/help/quicksilver/review-and-approve-work/native-integrations/link-aem-assets-cloud-storage.md).
-
--->
+<!-- For more information, see [Link content and folders from Experience Manager Assets with Adobe cloud storage](/help/quicksilver/review-and-approve-work/native-integrations/link-aem-assets-cloud-storage.md). -->
