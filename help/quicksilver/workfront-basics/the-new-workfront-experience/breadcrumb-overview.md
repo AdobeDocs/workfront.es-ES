@@ -7,14 +7,12 @@ exl-id: c4103f8e-4c3f-4d4d-a0eb-628c60735ab7
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/VryLEVTqJFgAxlm-al5y0hqxVQ71zFPi8YG1oAlox8k
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8771d66f6b7ecae9ac439456822889d4fe438649
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 5b445284b2d7445ae2119c546244a45ac17d8c97
 workflow-type: tm+mt
-source-wordcount: 334
-ht-degree: 1%
+source-wordcount: 412
+ht-degree: 0%
 
 ---
 
@@ -84,3 +82,20 @@ Para obtener información acerca de los objetos principales de [!DNL Workfront],
    Se abre la página del objeto.
 
    Si está viendo un proyecto que está conectado a un objeto en Workfront Planning (por ejemplo, una campaña), puede cambiar entre los tipos de objeto de Planning y Workfront desde la ruta de exploración. Para obtener más información, consulte [Información general sobre jerarquía y ruta de exploración](/help/quicksilver/planning/architecture/hierarchy-and-breadcrumb-overview.md).
+
+<div class="preview">
+
+## Copiar el nombre y el vínculo de una ruta de exploración
+
+{{highlighted-preview}}
+
+Puede copiar el nombre de un objeto y vincularlos juntos en una acción desde la ruta de exploración.
+
+1. Pase el ratón sobre cualquier objeto de la ruta de exploración.
+1. Haga clic en el icono **[!UICONTROL Copiar vínculo]** que aparece junto al nombre del objeto.
+
+   ![Copiar icono de vínculo en una ruta de exploración](assets/copy-breadcrumbs.png)
+
+   El nombre del objeto y el vínculo se copian juntos. Al pegar la información copiada, aparece como un vínculo en el que se puede hacer clic con el nombre del objeto como texto del vínculo.
+
+</div>
