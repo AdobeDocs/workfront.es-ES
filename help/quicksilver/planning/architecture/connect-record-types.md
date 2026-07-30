@@ -9,22 +9,14 @@ exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/jyRdImgjr0238JzddL88QZYMyaX3E5zj65R8-s1VuMA
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
-subfeature_v2:
-  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e6551959a0f7bc6fb7de9c0b7d81aa5bc50f2980
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2: id: d87de1f9-8e24-4c4d-aa4c-a403075091a1id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 36e7e482a46a4991e9fae2d895e586e3ca08c476
 workflow-type: tm+mt
-source-wordcount: 3068
+source-wordcount: 3092
 ht-degree: 38%
 
 ---
@@ -90,14 +82,19 @@ Para ver un ejemplo de conexión de tipos de registros y registros, consulte [Ej
    <td> 
 <p>Para conectar tipos de registros desde el mismo espacio de trabajo: </p>
 <ul> 
-<li><p>Cualquier Workfront y cualquier paquete de Planning</p></li>
-<li><p>Cualquier flujo de trabajo y cualquier paquete de Planning</li></ul>
+<li><p>Cualquier paquete de flujo de trabajo o Workfront con cualquier paquete de Planning</p></li>
+<p>O</p>
+<li><p>Cualquier paquete de Planning cuando se adquiere como producto independiente</p></li>
+</ul>
 
 <p>Para conectar tipos de registros de diferentes espacios de trabajo:</p>
 
-<ul> 
-<li><p>Cualquier Workfront y cualquier paquete de Planning</p></li>
-<li><p>Cualquier flujo de trabajo y un paquete de Planning Prime o Ultimate</p></li></ul>
+<ul>
+
+<li><p>Cualquier flujo de trabajo y un paquete de Planning Prime o Ultimate</p></li>
+<p>O</p>
+<li><p>Cualquier paquete de Planning Prime o Ultimate que se adquiera como producto independiente</p></li>
+</ul>
 <p>Para obtener más información sobre lo que se incluye en cada paquete de Workfront Planning, póngase en contacto con su representante de cuentas de Workfront. </p> 
    </td> 
 <tr> 
@@ -108,7 +105,7 @@ Para ver un ejemplo de conexión de tipos de registros y registros, consulte [Ej
    <ul><li><p>Licencia de Adobe Experience Manager Assets e integración entre AEM Assets y Workfront para conectar recursos de AEM con tipos de registros de Planning.</p>
    <p>Para obtener más información, consulte <a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md">Adobe Workfront para Experience Manager Assets y Assets Essentials: índice de artículo</a>. </p></li>
    <li><p> Licencia de Adobe GenStudio for Performance Marketing para conectar tipos de registros con marcas de GenStudio</p>
-   <p>Para obtener más información, consulte <a href="https://experienceleague.adobe.com/es/docs/genstudio-for-performance-marketing/user-guide/get-started">Introducción a Adobe GenStudio for Performance Marketing</a>.</p></li></ul>
+   <p>Para obtener más información, consulte <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/get-started">Introducción a Adobe GenStudio for Performance Marketing</a>.</p></li></ul>
    </td> 
   </tr> 
   <tr> 
@@ -299,7 +296,15 @@ Old:
    * **Selección múltiple**: seleccione esta opción para permitir que un registro del tipo de registro actual se conecte con varios registros del tipo de registro de conexión.
    * **Selección única**: seleccione esta opción para permitir que un registro del tipo de registro actual se conecte con un registro del tipo de registro de conexión.
 
-1. Seleccione **Crear campo correspondiente en el tipo de registro vinculado**. Al seleccionarlo, se crea un campo de conexión en el tipo de registro al que se está conectando, además del campo de conexión agregado al tipo de registro actual. Esta opción está desactivada de forma predeterminada.
+1. Seleccione **Crear campo correspondiente en el tipo de registro vinculado** en la sección **Tipo de conexión** <!--<span class="preview">, when connecting all object types but not Planning record types</span>-->.
+
+   <!--
+    >[!TIP]
+    >
+    ><span class="preview">The **Connection type** section has been replaced by the **Connection settings** section when connecting Planning record types. </span>
+    -->
+
+   Al seleccionarlo, se crea un campo de conexión en el tipo de registro al que se está conectando, además del campo de conexión agregado al tipo de registro actual. Esta opción está desactivada de forma predeterminada.
 
    >[!TIP]
    >
@@ -311,7 +316,7 @@ Old:
    >   * No se ha creado ningún campo para los objetos de Workfront conectados a registros de Planning.
    >   * No se ha creado ningún campo para un tipo de registro de Planning cuando está conectado a un tipo de registro desde GenStudio Workspace.
 
-1. (Condicional) Si habilitó **Crear campo correspondiente en el tipo de registro vinculado**, elija entre las siguientes opciones para indicar cuántos registros se pueden conectar y desde los que se pueden conectar los usuarios:
+1. (Condicional) Si habilitó **Crear campo correspondiente en el tipo de registro vinculado** en la sección **Tipo de conexión**, elija entre las siguientes opciones para indicar cuántos registros pueden conectar y desde los que pueden conectarse los usuarios:
 
    * Muchos a muchos
    * Uno a muchos
@@ -334,7 +339,7 @@ Old:
 
    >[!NOTE]
    >
-   >El administrador de Workfront puede asignar campos de Workfront Planning a campos de Experience Manager Assets a través de la asignación de metadatos en Workfront. Para obtener más información, consulte [Configuración de la asignación de metadatos de recursos entre Adobe Workfront y Experience Manager Assets](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
+   >El administrador de Workfront puede asignar campos de Workfront Planning a campos de Experience Manager Assets a través de la asignación de metadatos en Workfront. Para obtener más información, consulte [Configuración de la asignación de metadatos de recursos entre Adobe Workfront y Experience Manager Assets](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
 
 
 1. (Opcional) Elija una de las siguientes opciones en el área **Grabar apariencia**:

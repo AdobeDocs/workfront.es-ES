@@ -3,9 +3,9 @@ user-guide-title: Guía de Workfront
 user-guide-description: Utilice los siguientes documentos, tutoriales y recursos adicionales para aprender a implementar y utilizar Adobe Workfront de forma eficaz en su organización.
 role: User
 feature-set: Workfront
-source-git-commit: 7df1d711b89cc69e354525c9eaea48abb6aec158
+source-git-commit: 36e7e482a46a4991e9fae2d895e586e3ca08c476
 workflow-type: tm+mt
-source-wordcount: '14349'
+source-wordcount: '14352'
 ht-degree: 93%
 
 ---
@@ -2198,6 +2198,7 @@ ht-degree: 93%
     * [Agregar tipos de registros existentes desde otro espacio de trabajo](planning/architecture/add-existing-record-types-from-another-workspace.md)
     * [Información general sobre conectar tipos de registro](planning/architecture/connect-record-types-overview.md)
     * [Conectar tipos de registro](planning/architecture/connect-record-types.md)
+    * {hide-from-toc}[Administrar conexiones dependientes](planning/architecture/manage-dependent-connections.md)
     * [Editar tipos de registro](planning/architecture/edit-record-types.md)
     * [Eliminar espacios de trabajo](planning/architecture/delete-workspaces.md)
     * [Editar espacios de trabajo](planning/architecture/edit-workspaces.md)
@@ -2622,7 +2623,7 @@ ht-degree: 93%
     * [Configure y utilice las aplicaciones OAuth 2 personalizadas de la organización mediante el flujo JWT](wf-api/api/oauth-app-jwt-flow.md)
     * [Configure y utilice las aplicaciones OAuth 2 personalizadas de su organización mediante el flujo PKCE](wf-api/api/oauth-app-pkce-flow.md)
     * [Obsolescencia de la API interna](wf-api/api/deprecation-api-internal.md)
-    * [Novedades de la versión 22 de la API](/help/quicksilver/wf-api/api/new-api-version-22.md)
+    * [Novedades de la versión 22](/help/quicksilver/wf-api/api/new-api-version-22.md) de la API
     * [Novedades de la versión 21 de la API](/help/quicksilver/wf-api/api/new-api-version-21.md)
     * [Novedades de la versión 20 de la API](/help/quicksilver/wf-api/api/new-api-version-20.md)
     * [Novedades de la versión 19 de la API](wf-api/api/new-api-version-19.md)
