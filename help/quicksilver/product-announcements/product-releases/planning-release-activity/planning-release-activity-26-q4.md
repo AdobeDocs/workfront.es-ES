@@ -6,9 +6,9 @@ author: Becky
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 223aa6944cb6a1e2b03f782673f6de89f2ffbab2
+source-git-commit: 6b8fc9e010c850625deb3927483f79da190e3f33
 workflow-type: tm+mt
-source-wordcount: '595'
+source-wordcount: '601'
 ht-degree: 3%
 
 ---
@@ -45,11 +45,9 @@ Esta actualización incluye las siguientes funciones:
 * Hemos agregado la nueva sección Configuración de conexión en la pestaña Nueva conexión, al conectar tipos de registro
 * Hemos añadido la opción Hacer esta conexión dependiente en la nueva sección
 
-<!--
 
-For information, see [Manage dependent connections](/help/quicksilver/planning/architecture/manage-dependent-connections.md).
+Para obtener más información, consulte [Administrar conexiones dependientes](/help/quicksilver/planning/architecture/manage-dependent-connections.md).
 
--->
 
 
 
