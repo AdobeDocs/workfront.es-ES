@@ -19,10 +19,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
+source-git-commit: 36e7e482a46a4991e9fae2d895e586e3ca08c476
 workflow-type: tm+mt
-source-wordcount: 798
-ht-degree: 61%
+source-wordcount: 807
+ht-degree: 58%
 
 ---
 
@@ -166,8 +166,8 @@ Old:
 
 * Puede añadir una actualización a los registros y revisar el historial de cambios desde las siguientes áreas de Workfront Planning:
 
-   * Desdes la página de detalles del registro.
-   * Desde una vista, en el cuadro de detalles del registro.
+  * Desdes la página de detalles del registro.
+  * Desde una vista, en el cuadro de detalles del registro.
 
 ### Administración de comentarios en registros
 
@@ -206,11 +206,23 @@ Se abre la página de tipo de registro y se muestran todos los registros de ese 
    >
    >No se pueden agregar imágenes a un comentario de registro.
 
-
 1. Continúe agregando comentarios al registro.
 
    Para obtener más información sobre cómo actualizar objetos, incluidos los registros de Workfront Planning, vea [Actualizar trabajo](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
+1. Haga clic en **Enviar** para registrar el comentario.
+
+   Los usuarios que etiquetó en el mensaje reciben notificaciones de que hay un mensaje nuevo.
+
+   <!--
+   <div class="preview">
+
+   Everyone with View permissions to the record type can see a **New comment** indicator in the table view for the record you added the comment to. 
+
+      ![New comment icon in table view](assets/new-comment-icon-in-table-view-highlighted.png)
+
+   </div>
+   -->
 1. (Opcional) Haga clic en el icono **Más** ![Menú más](assets/more-menu.png) en la esquina superior derecha del comentario y, a continuación, haga clic en **Eliminar** para eliminar el comentario.
 1. (Opcional) Haga clic en el icono **Ocultar comentarios** ![Ocultar comentarios](assets/hide-comments-icon.png) para cerrar el panel derecho.
 

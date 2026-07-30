@@ -20,14 +20,16 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 07a00836f60ce0bb4ee7fb0202c9458b0c1be406
+source-git-commit: f73a84c755dabfebdeb6cdd7b2ad59bc09a272f4
 workflow-type: tm+mt
-source-wordcount: 3613
-ht-degree: 28%
+source-wordcount: 3659
+ht-degree: 27%
 
 ---
 
 # Añadir reglas lógicas a formularios y campos personalizados
+
+{{preview-fast-release-general}}
 
 Las reglas lógicas permiten personalizar aún más los campos del formulario.
 
@@ -101,17 +103,17 @@ Para obtener información sobre los campos y widgets personalizados en los formu
 * No se puede aplicar la lógica de visualización u omisión para mostrar u ocultar las opciones de un campo de varias opciones. Por ejemplo, no puede restringir las opciones que se muestran para un campo Desplegable, un grupo de casillas de verificación o un campo de botón de opción en función de la lógica de visualización u omisión de otro campo.
 * Puede añadir lógica de visualización y lógica de omisión a un campo personalizado si se cumplen todas las condiciones siguientes en relación con el campo personalizado:
 
-   * Es un campo de opción múltiple (botones de opción, listas desplegables o casillas de verificación)
-   * Va precedido de un campo de opción múltiple
-   * Va seguido de otro campo personalizado
+  * Es un campo de opción múltiple (botones de opción, listas desplegables o casillas de verificación)
+  * Va precedido de un campo de opción múltiple
+  * Va seguido de otro campo personalizado
 
 * Al copiar formularios con lógica de visualización o lógica de omisión, la lógica se copia al nuevo formulario personalizado.
 * Al editar objetos de forma masiva, todos los campos personalizados se muestran en el cuadro Editar objetos, incluidos los campos omitidos u ocultos.
 * Tenga en cuenta lo siguiente al crear una regla de lógica de visualización para un formulario personalizado:
 
-   * De forma predeterminada, los campos personalizados no incluidos en una instrucción lógica de visualización se muestran en un formulario personalizado.
-   * Puede crear instrucciones lógicas de visualización de varios campos.
-   * Si todos los campos bajo una división de sección tienen lógica de visualización aplicada y todos están ocultos como resultado de la lógica, toda la sección se ocultará en el formulario personalizado.
+  * De forma predeterminada, los campos personalizados no incluidos en una instrucción lógica de visualización se muestran en un formulario personalizado.
+  * Puede crear instrucciones lógicas de visualización de varios campos.
+  * Si todos los campos bajo una división de sección tienen lógica de visualización aplicada y todos están ocultos como resultado de la lógica, toda la sección se ocultará en el formulario personalizado.
 
 ## Agregar lógica de visualización a un formulario personalizado
 
@@ -202,7 +204,9 @@ Con la siguiente condición, el campo KPI Vendido solo se vuelve visible cuando 
 
    >[!NOTE]
    >
-   >La lógica de visualización avanzada no se admite en el modo de vista previa del diseñador de formularios.
+   >En el entorno de producción, la lógica de visualización avanzada no se admite en el modo de vista previa del diseñador de formularios.
+   >
+   ><span class="preview">En el entorno de vista previa, todos los tipos de lógica están disponibles en el modo de vista previa.</span>
 
 ## Agregar lógica de omisión a un formulario personalizado
 
@@ -280,7 +284,9 @@ Cuando el formulario personalizado se adjunta a un proyecto y el estado del proy
 
    >[!NOTE]
    >
-   >La lógica de valor predeterminada no se admite en el modo de vista previa del diseñador de formularios.
+   >En el entorno de producción, la lógica de valores predeterminada no se admite en el modo de vista previa del diseñador de formularios.
+   >
+   ><span class="preview">En el entorno de vista previa, todos los tipos de lógica están disponibles en el modo de vista previa.</span>
 
 ## Agregar lógica de validación a un formulario personalizado
 
@@ -329,7 +335,9 @@ Para obtener más ejemplos de lógica de validación, consulte [Ejemplos de lóg
 
    >[!NOTE]
    >
-   >La lógica de validación no se admite en el modo de vista previa del diseñador de formularios.
+   >En el entorno de producción, la lógica de validación no se admite en el modo de vista previa del diseñador de formularios.
+   >
+   ><span class="preview">En el entorno de vista previa, todos los tipos de lógica están disponibles en el modo de vista previa.</span>
 
 ## Agregar lógica de formato a un formulario personalizado
 
@@ -392,7 +400,9 @@ IF(
 
    >[!NOTE]
    >
-   >La lógica de formato no se admite en el modo de vista previa del diseñador de formularios.
+   >En el entorno de producción, la lógica de formato no se admite en el modo de vista previa del diseñador de formularios.
+   >
+   ><span class="preview">En el entorno de vista previa, todos los tipos de lógica están disponibles en el modo de vista previa.</span>
 
 ## Agregar lógica de edición a un formulario personalizado
 
@@ -442,4 +452,7 @@ IF($$USER.{role}.{name}="Resource Manager", true)
 
    >[!NOTE]
    >
-   >La lógica de editabilidad no se admite en el modo de vista previa del diseñador de formularios.
+   >En el entorno de producción, la lógica de editabilidad no se admite en el modo de vista previa del diseñador de formularios.
+   >
+   ><span class="preview">En el entorno de vista previa, todos los tipos de lógica están disponibles en el modo de vista previa.</span>
+

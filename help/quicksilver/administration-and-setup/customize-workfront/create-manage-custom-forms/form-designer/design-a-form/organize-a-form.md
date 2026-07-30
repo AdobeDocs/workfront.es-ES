@@ -23,14 +23,16 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: f73a84c755dabfebdeb6cdd7b2ad59bc09a272f4
 workflow-type: tm+mt
-source-wordcount: 1356
+source-wordcount: 1372
 ht-degree: 9%
 
 ---
 
 # Organización y previsualización de un formulario
+
+{{preview-fast-release-general}}
 
 Puede organizar un formulario personalizado con el diseñador de formularios y obtener una vista previa del mismo para comprobar que está correctamente configurado.
 
@@ -191,6 +193,8 @@ En un formulario personalizado con un salto de sección configurado con el permi
 
    >[!NOTE]
    >
-   >La lógica avanzada no se admite en el modo de vista previa del diseñador de formularios.
+   >En el entorno de producción, la lógica avanzada no se admite en el modo de vista previa del diseñador de formularios.
+   >
+   ><span class="preview">En el entorno de vista previa, todos los tipos de lógica están disponibles en el modo de vista previa.</span>
 
 

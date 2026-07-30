@@ -24,10 +24,10 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 58d13b171ada1f43efe4bcca0c3847048a32e863
+source-git-commit: f73a84c755dabfebdeb6cdd7b2ad59bc09a272f4
 workflow-type: tm+mt
-source-wordcount: 7956
-ht-degree: 78%
+source-wordcount: 7922
+ht-degree: 77%
 
 ---
 
@@ -177,17 +177,17 @@ Los formularios personalizados están limitados a 500 campos. Un contador situad
 
 * Los siguientes caracteres especiales no son compatibles con las etiquetas de campos personalizados y los nombres de API.
 
-   * \t
-   * \n
-   * \r
-   * \f
-   * `[`
-   * `]`
-   * (
-   * )
-   * :
-   * `{`
-   * `}`
+  * \t
+  * \n
+  * \r
+  * \f
+  * `[`
+  * `]`
+  * (
+  * )
+  * :
+  * `{`
+  * `}`
 
 ### Añadir campos de búsqueda
 
@@ -227,7 +227,7 @@ Para añadir un campo de texto:
    * Texto descriptivo
      <!--Text with formatting-->
 
-   ![Arrastrar el campo a la sección](assets/drag-field-to-section.png)
+   ![Arrastrar campo a sección](assets/drag-field-to-section.png)
 
 1. En el lado derecho de la pantalla, configure las opciones disponibles para el tipo de campo personalizado que va a añadir:
 
@@ -272,7 +272,7 @@ Para añadir un campo de texto:
     </tr>
     <tr>
     <td>Instrucciones</td>
-    <td>Escriba cualquier información adicional sobre el campo. Cuando los usuarios rellenan el formulario personalizado, pueden pasar el puntero por encima del icono del signo de interrogación para ver una ayuda contextual que contiene la información que escriba aquí.
+    <td>Escriba cualquier información adicional sobre el campo. Cuando los usuarios rellenan el formulario personalizado, pueden situarse sobre el icono del signo de interrogación para ver una información de objeto que contenga la información que escriba aquí.
     <img src="assets/instructions-form-designer.png">
     </td>
     <td><ul>
@@ -805,10 +805,10 @@ Para añadir una búsqueda externa, haga lo siguiente:
      </tr>
      <tr> 
       <td role="rowheader">Ruta JSON</td>
-      <td><p>Escriba o pegue la ruta JSON para la API.</p> <p>Esta opción permite extraer datos del JSON devuelto por la URL de la API. Sirve para seleccionar qué valores dentro del JSON aparecerán en las opciones desplegables.</p><p>Por ejemplo, si la URL de la API devuelve JSON en el siguiente formato, puede utilizar "$.data[*].name" para seleccionar EE. UU. y Canadá como opciones desplegables:</br>
+      <td><p>Escriba o pegue la ruta JSON para la API.</p> <p>Esta opción permite extraer datos del JSON devuelto por la URL de la API. Sirve para seleccionar qué valores dentro del JSON aparecerán en las opciones desplegables.</p><p>Por ejemplo, si la dirección URL de la API devuelve JSON en el siguiente formato, puede usar “$.data[*].name” para seleccionar EE. UU. y Canadá como opciones desplegables:</br>
       <pre>
       &lbrace;
-       datos: &lbrace;
+       data: &lbrace;
          { name: "USA"},
          { name: "Canada"}
        &rbrace;
@@ -1050,7 +1050,7 @@ Para añadir imágenes, PDF o vídeos:
 
 ### Añadir campos nativos de Workfront
 
-Puede añadir campos nativos de Workfront a los formularios personalizados. Cuando el formulario personalizado se adjunta a un objeto, el campo se rellena a partir de los datos del objeto. Por ejemplo, el campo Descripción de un formulario personalizado adjunto a un proyecto extraerá la descripción del proyecto. (Puede que el campo muestre &quot;N/D&quot; si no hay datos disponibles).
+Puede añadir campos nativos de Workfront a los formularios personalizados. Cuando el formulario personalizado se adjunta a un objeto, el campo se rellena a partir de los datos del objeto. Por ejemplo, si el campo personalizado hace referencia al campo Descripción y se encuentra en un formulario personalizado adjunto a un proyecto, extrae la descripción del proyecto. (Puede que el campo muestre &quot;N/D&quot; si no hay datos disponibles).
 
 +++ Expanda para ver la lista de campos nativos admitidos.
 
@@ -1218,7 +1218,7 @@ Para añadir un archivo Adobe XD:
      <tr> 
       <td role="rowheader">URL</td> 
       <td> <p>(Obligatorio) Escriba o pegue un vínculo válido de prototipo de XD.</p> 
-      <p><b>Nota</b>: La configuración de Acceso al vínculo de la pestaña Compartir de Adobe XD debe establecerse en Cualquiera con el vínculo. De lo contrario, los usuarios no podrán ver el prototipo. 
+      <p><b>Nota</b>: la configuración de Acceso a vínculos en la ficha Compartir de Adobe XD debe establecerse en Cualquiera que tenga el vínculo. De lo contrario, los usuarios no podrán ver el prototipo. 
    </td> 
      </tr> 
      <tr> 

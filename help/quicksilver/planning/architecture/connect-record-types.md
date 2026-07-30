@@ -22,9 +22,9 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e6551959a0f7bc6fb7de9c0b7d81aa5bc50f2980
+source-git-commit: 36e7e482a46a4991e9fae2d895e586e3ca08c476
 workflow-type: tm+mt
-source-wordcount: 3068
+source-wordcount: 3092
 ht-degree: 38%
 
 ---
@@ -90,14 +90,19 @@ Para ver un ejemplo de conexión de tipos de registros y registros, consulte [Ej
    <td> 
 <p>Para conectar tipos de registros desde el mismo espacio de trabajo: </p>
 <ul> 
-<li><p>Cualquier Workfront y cualquier paquete de Planning</p></li>
-<li><p>Cualquier flujo de trabajo y cualquier paquete de Planning</li></ul>
+<li><p>Cualquier paquete de flujo de trabajo o Workfront con cualquier paquete de Planning</p></li>
+<p>O</p>
+<li><p>Cualquier paquete de Planning cuando se adquiere como producto independiente</p></li>
+</ul>
 
 <p>Para conectar tipos de registros de diferentes espacios de trabajo:</p>
 
-<ul> 
-<li><p>Cualquier Workfront y cualquier paquete de Planning</p></li>
-<li><p>Cualquier flujo de trabajo y un paquete de Planning Prime o Ultimate</p></li></ul>
+<ul>
+
+<li><p>Cualquier flujo de trabajo y un paquete de Planning Prime o Ultimate</p></li>
+<p>O</p>
+<li><p>Cualquier paquete de Planning Prime o Ultimate que se adquiera como producto independiente</p></li>
+</ul>
 <p>Para obtener más información sobre lo que se incluye en cada paquete de Workfront Planning, póngase en contacto con su representante de cuentas de Workfront. </p> 
    </td> 
 <tr> 
@@ -299,7 +304,15 @@ Old:
    * **Selección múltiple**: seleccione esta opción para permitir que un registro del tipo de registro actual se conecte con varios registros del tipo de registro de conexión.
    * **Selección única**: seleccione esta opción para permitir que un registro del tipo de registro actual se conecte con un registro del tipo de registro de conexión.
 
-1. Seleccione **Crear campo correspondiente en el tipo de registro vinculado**. Al seleccionarlo, se crea un campo de conexión en el tipo de registro al que se está conectando, además del campo de conexión agregado al tipo de registro actual. Esta opción está desactivada de forma predeterminada.
+1. Seleccione **Crear campo correspondiente en el tipo de registro vinculado** en la sección **Tipo de conexión** <!--<span class="preview">, when connecting all object types but not Planning record types</span>-->.
+
+   <!--
+    >[!TIP]
+    >
+    ><span class="preview">The **Connection type** section has been replaced by the **Connection settings** section when connecting Planning record types. </span>
+    -->
+
+   Al seleccionarlo, se crea un campo de conexión en el tipo de registro al que se está conectando, además del campo de conexión agregado al tipo de registro actual. Esta opción está desactivada de forma predeterminada.
 
    >[!TIP]
    >
@@ -311,7 +324,7 @@ Old:
    >   * No se ha creado ningún campo para los objetos de Workfront conectados a registros de Planning.
    >   * No se ha creado ningún campo para un tipo de registro de Planning cuando está conectado a un tipo de registro desde GenStudio Workspace.
 
-1. (Condicional) Si habilitó **Crear campo correspondiente en el tipo de registro vinculado**, elija entre las siguientes opciones para indicar cuántos registros se pueden conectar y desde los que se pueden conectar los usuarios:
+1. (Condicional) Si habilitó **Crear campo correspondiente en el tipo de registro vinculado** en la sección **Tipo de conexión**, elija entre las siguientes opciones para indicar cuántos registros pueden conectar y desde los que pueden conectarse los usuarios:
 
    * Muchos a muchos
    * Uno a muchos

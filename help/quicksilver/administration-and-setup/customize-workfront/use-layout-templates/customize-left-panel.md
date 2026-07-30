@@ -23,14 +23,16 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+source-git-commit: b3170f61af451136f8a2b0d7f196bfd379ed952a
 workflow-type: tm+mt
-source-wordcount: 1230
-ht-degree: 45%
+source-wordcount: 1247
+ht-degree: 44%
 
 ---
 
 # Personalizar el panel izquierdo con una plantilla de diseño
+
+{{preview-fast-release-general}}
 
 <!--Audited: 10/2024-->
 
@@ -38,6 +40,10 @@ En una plantilla de diseño, puede personalizar lo que los usuarios ven en el á
 
 Por ejemplo, puede determinar cuál de los siguientes elementos ven los usuarios en el panel izquierdo al ver un proyecto:
 
+<span class="preview">Imagen de muestra en el entorno de vista previa:</span>
+![Panel izquierdo de un proyecto](assets/left-panel-in-project-072326.png)
+
+Imagen de muestra en el entorno de producción:
 ![Panel izquierdo de un proyecto](assets/left-panel-in-project.png)
 
 >[!IMPORTANT]
@@ -149,7 +155,7 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
      </tr> 
      <tr> 
       <td>[!UICONTROL Projects]</td> 
-      <td>Proyectos <img src="assets/projects-in-main-menu.png"> en el menú principal de  <img src="assets/main-menu-icon-left-nav.png"></td> 
+      <td>Proyectos en el menú principal de  <img src="assets/main-menu-icon-left-nav.png"></td> 
       <td>[!UICONTROL Projects]</td> 
      </tr> 
      <tr> 

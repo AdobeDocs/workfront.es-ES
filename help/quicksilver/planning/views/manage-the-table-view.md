@@ -19,9 +19,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e6551959a0f7bc6fb7de9c0b7d81aa5bc50f2980
+source-git-commit: 36e7e482a46a4991e9fae2d895e586e3ca08c476
 workflow-type: tm+mt
-source-wordcount: 3910
+source-wordcount: 3912
 ht-degree: 51%
 
 ---
@@ -306,7 +306,15 @@ Puede tener hasta 50 000 registros (o filas) para un tipo de registro.
 
    Los registros que añada a la vista de tabla se guardarán inmediatamente y serán visibles para todos los usuarios que tengan permisos de vista o superiores sobre el área de trabajo.
 
-   También se agrega una imagen en miniatura predeterminada al nuevo registro.
+   También se agregarán al nuevo registro una imagen en miniatura predeterminada <span class="preview">y un color</span>.
+
+   <!--
+    >[!TIP]
+    >
+    ><span class="preview">When a record has unread comments, a **New comment** indicator displays in the upper-right corner of the record's primary field.</span>
+    >
+    >![New comment icon in table view](assets/new-comment-icon-in-table-view-highlighted.png)
+    -->
 
 1. (Opcional) Seleccione uno o varios registros o filas y, a continuación, arrastre y suelte el icono **controlador** ![Icono de controlador](assets/handle-icon.png) a la izquierda del registro para reordenar las filas.
 
