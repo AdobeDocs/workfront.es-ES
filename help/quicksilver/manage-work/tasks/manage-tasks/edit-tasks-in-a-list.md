@@ -24,7 +24,7 @@ role_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+source-git-commit: 9c592e336feb25253c18787c831adfc36da62ed1
 workflow-type: tm+mt
 source-wordcount: 2861
 ht-degree: 61%
@@ -116,36 +116,36 @@ Tenga en cuenta lo siguiente al editar tareas en una lista:
 
 * A diferencia de la necesidad de Administrar permisos para la tarea al editarla en el Cuadro de edición, puede editar una tarea en una lista solo con permisos de Contribuir para la tarea. Esto le permite editar la siguiente información limitada para la tarea:
 
-   * Descripción
-   * Estado
-   * Porcentaje completado
-   * Información de formulario personalizado
+  * Descripción
+  * Estado
+  * Porcentaje completado
+  * Información de formulario personalizado
 
-     >[!NOTE]
-     >
-     >Solo puede editar un campo personalizado de tarea en una lista si tiene permisos para actualizar el campo.
+    >[!NOTE]
+    >
+    >Solo puede editar un campo personalizado de tarea en una lista si tiene permisos para actualizar el campo.
 
-   * Registrar horas
-   * Modificar asignaciones
-   * Ver información financiera
-   * Añadir gastos, tareas o problemas
+  * Registrar horas
+  * Modificar asignaciones
+  * Ver información financiera
+  * Añadir gastos, tareas o problemas
 
 * Puede editar una tarea en las siguientes listas:
 
-   * La sección de tareas del proyecto
-   * La sección de subtareas del proyecto
-   * Un informe de tareas
+  * La sección de tareas del proyecto
+  * La sección de subtareas del proyecto
+  * Un informe de tareas
 
-     >[!NOTE]
-     >
-     >De forma predeterminada, Workfront guarda automáticamente los cambios realizados en las tareas en la sección Subtareas o en un informe de tareas.
+    >[!NOTE]
+    >
+    >De forma predeterminada, Workfront guarda automáticamente los cambios realizados en las tareas en la sección Subtareas o en un informe de tareas.
 
 * Puede controlar cuándo Workfront guarda los cambios realizados en las tareas de una lista definiendo el modo de planificación antes de empezar a editar las tareas.
 
   Puede decidir si Workfront guarda los cambios que realiza de la siguiente manera:
 
-   * Automáticamente, después de cada cambio
-   * Manualmente, solo después de hacer clic en Guardar.
+  * Automáticamente, después de cada cambio
+  * Manualmente, solo después de hacer clic en Guardar.
 
   Para obtener información acerca de cómo configurar cuándo Workfront guarda los cambios realizados en las tareas de una lista, consulte la sección [Modificar modo de plan antes de editar las tareas de una lista](#modify-plan-mode-before-editing-tasks-in-a-list) en este artículo.
 
@@ -269,9 +269,9 @@ Tenga en cuenta lo siguiente al guardar los cambios en una lista de tareas manua
 * No puede editar el proyecto. La opción para editar el proyecto está desactivada.
 * No se puede actualizar la información en el encabezado del proyecto. Solo puede hacer lo siguiente al guardar manualmente los cambios en la lista de tareas:
 
-   * Suscríbase al proyecto.
-   * Añada el proyecto a su lista de favoritos.
-   * Abra una tarea haciendo clic en su nombre en la lista.
+  * Suscríbase al proyecto.
+  * Añada el proyecto a su lista de favoritos.
+  * Abra una tarea haciendo clic en su nombre en la lista.
 
 * Edite las tareas de forma masiva. El icono Editar se desactiva al seleccionar varias tareas.
 * Workfront activa las notificaciones sobre los cambios realizados en las tareas solo después de guardar los cambios.
@@ -308,7 +308,7 @@ Para editar tareas de una lista al seleccionar la opción estándar Guardar de f
 
 1. Haga clic en **Aplicar**. Se muestra una configuración de la barra de herramientas con opciones para deshacer, rehacer y guardar los cambios.
 
-   ![Barra de herramientas para guardar manualmente](assets/undo,-redo,-save,-and-cancel-widget-for-task-list-350x65.png)
+   ![Barra de herramientas para guardar manualmente](assets/undo-redo-save-and-cancel-widget-for-task-list-350x65.png)
 
 1. Haga clic dentro de cualquier campo para el que tenga permisos para actualizar manualmente. El campo se vuelve editable y puede realizar los cambios.
 
@@ -408,21 +408,21 @@ Para editar tareas en una lista al utilizar la opción Guardar planificación de
 
    * Los menús desplegables Ver, Agrupar y Filtrar se eliminan y la vista se reemplaza por los campos siguientes:
 
-      * Número de tarea
-      * Nombre de la tarea
-      * Tipo de restricción
-      * Duración
-      * Fecha de inicio planificada
-      * Fecha planificada de finalización
-      * Predecesoras
-      * Asignaciones
-      * Estado
-      * Porcentaje completado
+     * Número de tarea
+     * Nombre de la tarea
+     * Tipo de restricción
+     * Duración
+     * Fecha de inicio planificada
+     * Fecha planificada de finalización
+     * Predecesoras
+     * Asignaciones
+     * Estado
+     * Porcentaje completado
 
    * Se eliminará el icono de vista de Agile.
    * Se muestra una configuración de la barra de herramientas con opciones para deshacer, rehacer y guardar los cambios.
 
-     ![Barra de herramientas para guardar manualmente](assets/undo,-redo,-save,-and-cancel-widget-for-task-list-350x65.png)
+     ![Barra de herramientas para guardar manualmente](assets/undo-redo-save-and-cancel-widget-for-task-list-350x65.png)
 
 1. Edite cualquier campo para el que tenga permisos para actualizar manualmente.
 
