@@ -3,17 +3,19 @@ content-type: overview
 navigation-topic: the-new-workfront-experience
 title: Navegación izquierda en  [!DNL Adobe Workfront]
 description: El panel de navegación izquierdo en  [!DNL Workfront]  facilita la navegación por el sistema.
-author: Lisa
+author: Courtney
 feature: Get Started with Workfront
 exl-id: 18aae496-b4ec-4056-a7f1-9600b5fb5421
-source-git-commit: 45dcff03d71c1a19ed8de8f76fa3d63788e30b44
+source-git-commit: 3d0cbbd0fe1cb1ec707df4cd50a3862fcf8767f3
 workflow-type: tm+mt
-source-wordcount: '1378'
-ht-degree: 83%
+source-wordcount: '1437'
+ht-degree: 78%
 
 ---
 
 # Navegación izquierda en [!DNL Adobe Workfront]
+
+{{preview-fast-release-general}}
 
 La mayoría de las áreas y objetos de WF utilizan un panel de navegación sencillo en el lado izquierdo de la pantalla. A continuación se indican las ventajas de la navegación del panel izquierdo:
 
@@ -80,7 +82,7 @@ El panel izquierdo está disponible para los siguientes objetos:
 >[!IMPORTANT]
 >
 >Si el panel izquierdo muestra solo una sección de forma predeterminada, como **[!UICONTROL Todos los proyectos]** en el área de **[!UICONTROL Proyectos]**, un administrador de [!DNL Workfront] debe agregar al menos un panel a esta área al crear una plantilla de diseño y asignarle a esa plantilla antes de que el panel izquierdo se muestre en esa área.
->Para obtener información sobre cómo un administrador de [!DNL Workfront] personaliza el panel izquierdo en una plantilla de diseño, consulte [Personalizar el panel izquierdo mediante una plantilla de diseño](../../administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md).
+>Para obtener información sobre cómo un administrador de [!DNL Workfront] personaliza el panel izquierdo en una plantilla de diseño, consulte [Personalizar el panel izquierdo con una plantilla de diseño](../../administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md).
 
 El panel izquierdo está disponible para las siguientes áreas:
 
@@ -89,7 +91,7 @@ El panel izquierdo está disponible para las siguientes áreas:
 * [Secciones predeterminadas en el área [!UICONTROL Recursos]](#default-sections-in-the-resourcing-area)
 * [Secciones predeterminadas en el área [!UICONTROL Proyectos]](#default-sections-in-the-projects-area)
 * [Secciones predeterminadas en el área [!UICONTROL Plantillas de horas]](#default-sections-in-the-timesheets-area)
-* [Secciones predeterminadas en el área  [!DNL Goals] &#x200B;](#default-sections-in-the-goals-area)
+* [Secciones predeterminadas en el área  [!DNL Goals] ](#default-sections-in-the-goals-area)
 
 ### Secciones predeterminadas en el área [!UICONTROL Paneles de control]
 
@@ -262,6 +264,10 @@ Para saber qué secciones están disponibles para áreas específicas, consulte 
 
    Debe tener permisos para editar el objeto antes de poder editar la información.
 
+   <span class="preview">Imagen de muestra en el entorno de vista previa:</span>
+   ![Secciones del panel izquierdo](assets/left-navigation-panel-072326.png)
+
+   Imagen de muestra en el entorno de producción:
    ![Secciones del panel izquierdo](assets/left-navigation-panel.png)
 
 1. (Opcional) Para agregar un vínculo rápido al panel, haga clic en **[!UICONTROL Agregar un panel]** en la parte inferior del panel izquierdo y, a continuación, haga lo siguiente:
@@ -272,12 +278,22 @@ Para saber qué secciones están disponibles para áreas específicas, consulte 
       >[!TIP]
       >
       >Debe generar el tablero antes de que aparezca en la lista.
+      >
+      >No todos los objetos permiten un tablero en el panel izquierdo. Para obtener información acerca de los objetos que admiten paneles, vea [Agregar un panel en el panel izquierdo de un objeto o área de Workfront](/help/quicksilver/workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/create-custom-tabs.md).
 
 1. (Opcional) Para quitar un vínculo rápido del panel, pase el ratón sobre el panel en el panel de navegación izquierdo y, a continuación, haga clic en el icono **Quitar** ![Quitar icono](assets/remove-dashboard-from-left.png) cuando aparezca.
 
-1. (Opcional) Para cambiar el orden de una sección en el panel izquierdo, haga clic en el icono **[!UICONTROL Arrastrar]** ![](assets/drag-icon.png) junto a una sección y arrástrela hacia arriba o hacia abajo.
+1. (Opcional) Para cambiar el orden de una sección en el panel izquierdo del entorno de producción, haga clic en el icono **[!UICONTROL Arrastrar]** ![Arrastrar icono](assets/drag-icon.png) junto a una sección y arrástrelo hacia arriba o hacia abajo.
 
    ![Arrastrar una sección](assets/drag-section.png)
+
+   <div class="preview">
+
+   Para cambiar el orden de una sección en el panel izquierdo del entorno de vista previa, haga clic en y arrastre la sección hacia arriba o hacia abajo hasta la posición correcta.
+
+   ![Arrastrar una sección](assets/click-drag-left-nav-section.png)
+
+   </div>
 
 1. (Opcional) Para cerrar el panel izquierdo, haga clic en el icono **[!UICONTROL Contraer]** ![](assets/left-panel-collapse-icon.png).
 
