@@ -19,9 +19,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 36e7e482a46a4991e9fae2d895e586e3ca08c476
+source-git-commit: 0a4b902b2ac586b2a893dea29abb90299bee1ec3
 workflow-type: tm+mt
-source-wordcount: 3912
+source-wordcount: 3939
 ht-degree: 51%
 
 ---
@@ -308,13 +308,11 @@ Puede tener hasta 50 000 registros (o filas) para un tipo de registro.
 
    También se agregarán al nuevo registro una imagen en miniatura predeterminada <span class="preview">y un color</span>.
 
-   <!--
-    >[!TIP]
-    >
-    ><span class="preview">When a record has unread comments, a **New comment** indicator displays in the upper-right corner of the record's primary field.</span>
-    >
-    >![New comment icon in table view](assets/new-comment-icon-in-table-view-highlighted.png)
-    -->
+   >[!TIP]
+   >
+   ><span class="preview">Cuando un registro tiene comentarios sin leer, aparece el indicador **Nuevo comentario** en la esquina superior derecha del campo principal del registro.</span>
+   >
+   >![Nuevo icono de comentario en la vista de tabla](assets/new-comment-icon-in-table-view-highlighted.png)
 
 1. (Opcional) Seleccione uno o varios registros o filas y, a continuación, arrastre y suelte el icono **controlador** ![Icono de controlador](assets/handle-icon.png) a la izquierda del registro para reordenar las filas.
 

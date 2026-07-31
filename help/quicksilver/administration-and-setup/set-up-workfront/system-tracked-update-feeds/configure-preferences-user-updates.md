@@ -19,10 +19,10 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 8468e4e9daa5000e721ee8fb78f45064ab105e28
 workflow-type: tm+mt
-source-wordcount: 271
-ht-degree: 80%
+source-wordcount: 291
+ht-degree: 73%
 
 ---
 
@@ -96,15 +96,16 @@ De forma predeterminada, los usuarios no pueden añadir imágenes en las actuali
 >
 >* Las imágenes guardadas en las actualizaciones se contabilizan en el límite de almacenamiento de documentos. Para obtener más información, consulte [Comprobar límites de almacenamiento de documentos](../../../documents/managing-documents/check-document-storage.md).
 >* Se puede acceder a las imágenes a través de la pestaña [!UICONTROL Actualizaciones] de un objeto y también están disponibles en el área de [!UICONTROL Documentos] en el [!UICONTROL Menú principal].
->
+>* Esta preferencia también determina si los usuarios pueden adjuntar imágenes a comentarios sobre objetos mediante el almacenamiento en la nube de Adobe. Las imágenes adjuntas se almacenan en el almacenamiento en la nube de Adobe.
 
 1. Haga clic en el icono **[!UICONTROL Menú principal]** ![Icono del menú principal](assets/main-menu-icon.png) en la esquina superior derecha de [!DNL Adobe Workfront] y, a continuación, haga clic en **[!UICONTROL Configurar]** ![Icono de configuración de engranajes](assets/gear-icon-settings.png).
 1. En el panel izquierdo, seleccione **[!UICONTROL Interfaz]** > **[!UICONTROL Actualizar fuentes]**.
 1. Seleccione la pestaña **[!UICONTROL Preferencias]**.
 
-   ![Preferencias de usuario para actualizar fuentes](assets/updatefeeds-preferences-350x137.png)
-
 1. Active la casilla de verificación **[!UICONTROL Permitir que los usuarios añadan imágenes en actualizaciones]**.
 1. Seleccione **[!UICONTROL Guardar]**.
 
    Cuando esta preferencia está habilitada, puede deshabilitarla en cualquier momento. Las imágenes que ya se hayan publicado en las actualizaciones permanecerán en el área de [!UICONTROL Actualizaciones] del objeto.
+
+
+<!--Note from Lisa: This image is old so I hid it. Was after step 3 (select the Prefs tab) but it broke the numbering when I commented it out. ![User preferences for update feeds](assets/updatefeeds-preferences-350x137.png)-->

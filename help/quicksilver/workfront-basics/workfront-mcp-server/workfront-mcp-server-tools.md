@@ -5,15 +5,17 @@ title: Herramientas del servidor MCP de Adobe Workfront
 description: Lista de referencia de las herramientas disponibles a través del servidor MCP de Adobe Workfront, agrupadas por área de Workfront.
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: 2d6b26b8ab5e58b72fc16db87518c98cdc0c4cb1
+source-git-commit: 53af04ed47a7741db5b3540bf9be706a4f45bca3
 workflow-type: tm+mt
-source-wordcount: '1992'
+source-wordcount: '2140'
 ht-degree: 8%
 
 ---
 
 
 # Herramientas del servidor MCP de Adobe Workfront
+
+{{preview-fast-release-general}}
 
 Este artículo enumera las herramientas que expone el servidor MCP de [!DNL Adobe Workfront] a una plataforma independiente de IA conectada. La plataforma llama a estas herramientas en su nombre cuando le pide que busque, cree, actualice o elimine elementos de Workfront.
 
@@ -66,10 +68,15 @@ Si la plataforma agéntica de IA puede encontrar elementos de Workfront pero no 
 
 | Título | Nombre de herramienta | Qué hace | Acción |
 | --- | --- | --- | --- |
-| Obtener información del flujo de trabajo de aprobación | `approvals_get_approval_info` | Devuelve el flujo de trabajo de aprobación actual (fases, participantes, estado) de una versión de documento. | Leer |
-| Crear o actualizar flujo de trabajo de aprobación | `approvals_create_or_update_approval_workflow` | Crea o actualiza las fases del flujo de trabajo de aprobación para una versión de documento. Admite dependencias de escenario lineales y paralelas (gráfico). | Escritura |
-| Crear aprobación a partir de plantilla | `approvals_create_approval_from_template` | Crea un flujo de trabajo de aprobación en un documento utilizando una plantilla existente. | Escritura |
+| Obtener información del flujo de trabajo de aprobación | `approvals_get_approval_info` | Devuelve el flujo de trabajo de aprobación actual (fases, participantes, estado) de una versión de documento. <span class="preview">Para aprobaciones con múltiples rutas, muestra cada ruta y sus fases.</span> | Leer |
+| Crear o actualizar flujo de trabajo de aprobación | `approvals_create_or_update_approval_workflow` | Crea o actualiza las fases del flujo de trabajo de aprobación para una versión de documento. <span class="preview">Admite un único seguimiento de fases o varias rutas de revisión paralelas.</span> | Escritura |
+| Crear aprobación a partir de plantilla | `approvals_create_approval_from_template` | Crea un flujo de trabajo de aprobación en un documento utilizando una plantilla existente, <span class="preview">incluidas las plantillas que definen varias rutas paralelas.</span> | Escritura |
 | Eliminar fase de aprobación | `approvals_delete_approval_stage` | Elimina una sola etapa de un flujo de trabajo de aprobación por nombre o posición. Solo se pueden eliminar las fases no iniciadas. | Escritura |
+| <span class="preview">Agregar ruta de acceso a aprobación</span> | <span class="preview">`approvals_add_path_to_approval`</span> | <span class="preview">Agrega una nueva ruta de acceso de revisión paralela a un flujo de trabajo de aprobación existente, por lo que se ejecutan varios seguimientos de revisión al mismo tiempo en una versión de documento.</span> | <span class="preview">Write</span> |
+| <span class="preview">Quitar ruta de acceso de la aprobación</span> | <span class="preview">`approvals_remove_path_from_approval`</span> | <span class="preview">Quita una ruta paralela de un flujo de trabajo de aprobación. No se puede quitar la primera ruta y las rutas que contienen etapas completadas o bloqueadas están protegidas.</span> | <span class="preview">Write</span> |
+| <span class="preview">Agregar fase a ruta</span> | <span class="preview">`approvals_add_stage_to_path`</span> | <span class="preview">Agrega una fase de revisión al final de una ruta de acceso específica dentro de un flujo de trabajo de aprobación paralelo.</span> | <span class="preview">Write</span> |
+| <span class="preview">Quitar etapa de la ruta</span> | <span class="preview">`approvals_remove_stage_from_path`</span> | <span class="preview">Elimina una etapa no iniciada de una ruta específica en un flujo de trabajo de aprobación en paralelo. Cada ruta de acceso debe mantener al menos un escenario.</span> | <span class="preview">Write</span> |
+| <span class="preview">Reordenar etapas en ruta</span> | <span class="preview">`approvals_reorder_stages_in_path`</span> | <span class="preview">Cambia el orden de las fases dentro de una sola ruta de un flujo de trabajo de aprobación paralelo.</span> | <span class="preview">Write</span> |
 
 <!--
 | Add and remove participants for an approval in bulk | `approvals_bulk_update_approval_participants`<br>`approvals__submit_bulk_update_approval_participants` | Adds or removes participants to or from multiple approvals at the same time. Currently, bulk updates can be applied only across a single project. Bulk updates across multiple projects will be available in the near future. | Write |

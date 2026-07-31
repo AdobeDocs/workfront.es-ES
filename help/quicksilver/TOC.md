@@ -3,9 +3,9 @@ user-guide-title: Guía de Workfront
 user-guide-description: Utilice los siguientes documentos, tutoriales y recursos adicionales para aprender a implementar y utilizar Adobe Workfront de forma eficaz en su organización.
 role: User
 feature-set: Workfront
-source-git-commit: 36e7e482a46a4991e9fae2d895e586e3ca08c476
+source-git-commit: 69d930d5fa6272329e3d7f99fdf78ccd823857df
 workflow-type: tm+mt
-source-wordcount: '14352'
+source-wordcount: '14396'
 ht-degree: 93%
 
 ---
@@ -19,6 +19,15 @@ ht-degree: 93%
     * [Información general de versiones del producto](product-announcements/product-releases/product-releases.md)
     * [Programación y proceso de la versión de Adobe Workfront](product-announcements/product-releases/workfront-release-schedule.md)
     * [Prepárese para una versión trimestral de Adobe Workfront](product-announcements/product-releases/release-readiness.md)
+    * Versión del cuarto trimestre de 2026 {#release-26-q4}
+      * [Resumen de la versión del cuarto trimestre de 2026](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-release-overview.md)
+      * [Mejoras de IA en el cuarto trimestre de 2026](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-ai.md)
+      * [Mejoras del administrador del cuarto trimestre de 2026](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-admin-and-setup.md)
+      * [Mejoras en los documentos del cuarto trimestre de 2026](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-documents.md)
+      * [Mejoras del proyecto del cuarto trimestre de 2026](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-projects.md)
+      * [Mejoras en los informes del cuarto trimestre de 2026](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-reports.md)
+      * [Mejoras en la administración de recursos del cuarto trimestre de 2026](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-resource-mgmt.md)
+      * [Cuarto trimestre de 2026 Otras mejoras](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-other.md)
     * Versión del tercer trimestre de 2026 {#release-26-q3}
       * [Información general sobre la versión del tercer trimestre de 2026](/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-release-overview.md)
       * [Mejoras de IA en el tercer trimestre de 2026](/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-ai.md)
@@ -2198,7 +2207,7 @@ ht-degree: 93%
     * [Agregar tipos de registros existentes desde otro espacio de trabajo](planning/architecture/add-existing-record-types-from-another-workspace.md)
     * [Información general sobre conectar tipos de registro](planning/architecture/connect-record-types-overview.md)
     * [Conectar tipos de registro](planning/architecture/connect-record-types.md)
-    * {hide-from-toc}[Administrar conexiones dependientes](planning/architecture/manage-dependent-connections.md)
+    * [Administrar conexiones dependientes](planning/architecture/manage-dependent-connections.md)
     * [Editar tipos de registro](planning/architecture/edit-record-types.md)
     * [Eliminar espacios de trabajo](planning/architecture/delete-workspaces.md)
     * [Editar espacios de trabajo](planning/architecture/edit-workspaces.md)
