@@ -3,9 +3,9 @@ user-guide-title: Guía de Workfront
 user-guide-description: Utilice los siguientes documentos, tutoriales y recursos adicionales para aprender a implementar y utilizar Adobe Workfront de forma eficaz en su organización.
 role: User
 feature-set: Workfront
-source-git-commit: 69d930d5fa6272329e3d7f99fdf78ccd823857df
+source-git-commit: 541f736ffb051e1a7d5e0a277e12353c40bf885c
 workflow-type: tm+mt
-source-wordcount: '14396'
+source-wordcount: '14399'
 ht-degree: 93%
 
 ---
@@ -1420,6 +1420,7 @@ ht-degree: 93%
       * [Asignar tareas](manage-work/tasks/assign-tasks/assign-tasks-1.md)
       * [Asignar tareas](manage-work/tasks/assign-tasks/assign-tasks.md)
       * [Crear asignaciones avanzadas](manage-work/tasks/assign-tasks/create-advanced-assignments.md)
+      * [Uso de colaboradores de tareas](manage-work/tasks/assign-tasks/use-task-collaborators.md)
       * [Información general sobre las asignaciones inteligentes](manage-work/tasks/assign-tasks/smart-assignments.md)
       * [Información general sobre la modificación de asignaciones de tareas](manage-work/tasks/assign-tasks/modify-task-assignments-overview.md)
       * [Modificar varias asignaciones de usuario en una lista de tareas](manage-work/tasks/assign-tasks/modify-multiple-assignments-in-task-list.md)
@@ -2632,7 +2633,7 @@ ht-degree: 93%
     * [Configure y utilice las aplicaciones OAuth 2 personalizadas de la organización mediante el flujo JWT](wf-api/api/oauth-app-jwt-flow.md)
     * [Configure y utilice las aplicaciones OAuth 2 personalizadas de su organización mediante el flujo PKCE](wf-api/api/oauth-app-pkce-flow.md)
     * [Obsolescencia de la API interna](wf-api/api/deprecation-api-internal.md)
-    * [Novedades de la versión 22 de la API](/help/quicksilver/wf-api/api/new-api-version-22.md)
+    * [Novedades de la versión 22](/help/quicksilver/wf-api/api/new-api-version-22.md) de la API
     * [Novedades de la versión 21 de la API](/help/quicksilver/wf-api/api/new-api-version-21.md)
     * [Novedades de la versión 20 de la API](/help/quicksilver/wf-api/api/new-api-version-20.md)
     * [Novedades de la versión 19 de la API](wf-api/api/new-api-version-19.md)

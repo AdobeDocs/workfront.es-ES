@@ -2,7 +2,7 @@
 product-area: projects;user-management
 navigation-topic: assign-tasks
 title: Asignar tareas
-description: Puede asignar tareas a usuarios, funciones o equipos para indicar quién es el responsable de completar las tareas. Puede asignar una tarea a varios recursos a la vez.
+description: Puede asignar tareas a usuarios, funciones, equipos o colaboradores de tareas para indicar quién es el responsable de completar las tareas. Puede asignar una tarea a varios recursos a la vez.
 author: Lisa
 feature: Work Management, Tasks
 role: User
@@ -10,22 +10,15 @@ exl-id: 611b136e-2c3f-4eac-9d75-e8c12e06148d
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/r3jT-ief9Sfqh7RgQRWJ77fgHR9tkgTBBuo-iEok9lE
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: b91c0848-76c4-4da4-8b81-3aade0518dd0
-  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a63738805d62e2f71d55fe39f78d1f042ff72a15
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b91c0848-76c4-4da4-8b81-3aade0518dd0id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: eebfa7db6b4aa256a47aa881ff151e3b84a21742
 workflow-type: tm+mt
-source-wordcount: 1623
-ht-degree: 85%
+source-wordcount: 1616
+ht-degree: 78%
 
 ---
 
@@ -45,7 +38,7 @@ For more information, see [Second Quarter 2026 release overview](/help/quicksilv
 </div>
 -->
 
-Puede asignar tareas a usuarios, funciones o equipos para indicar quién es el responsable de completar las tareas. Puede asignar una tarea a varios recursos a la vez.
+Puede asignar tareas a usuarios, roles, equipos o colaboradores de tareas para indicar quién es el responsable de completar las tareas. Puede asignar una tarea a varios recursos a la vez.
 
 >[!TIP]
 >
@@ -65,6 +58,7 @@ Además de este artículo, le recomendamos que lea los siguientes artículos par
 * [Información general sobre asignaciones inteligentes](../../../manage-work/tasks/assign-tasks/smart-assignments.md)
 * [Realizar asignaciones inteligentes](../../../manage-work/tasks/assign-tasks/make-smart-assignments.md)
 * [Crear asignaciones avanzadas](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md)
+* [Usar colaboradores de tareas](../../../manage-work/tasks/assign-tasks/use-task-collaborators.md)
 * [Modificar asignaciones de usuario en una lista de tareas](../../../manage-work/tasks/assign-tasks/modify-multiple-assignments-in-task-list.md)
 * [Editar tareas](../../../manage-work/tasks/manage-tasks/edit-tasks.md)
 * [Información general sobre la planificación de un proyecto](../../../manage-work/projects/planning-a-project/plan-project.md)
@@ -173,7 +167,7 @@ You cannot make a team be a Primary on a task/ issue. (Alina)
 
 1. Realice una de las siguientes acciones:
 
-   * Comience a escribir el nombre de un usuario, rol o equipo que desee asignar y, a continuación, haga clic en él cuando aparezca en la lista.
+   * Comience a escribir el nombre de un usuario, rol, equipo o colaborador de tareas que desee asignar y, a continuación, haga clic en él cuando aparezca en la lista.
 
      >[!TIP]
      >
@@ -202,7 +196,7 @@ Según el campo que esté visible en la vista, puede asignar las siguientes enti
 |---|---|
 | **Asignar a** | Asignar un usuario |
 | **Asignado** | Asignar un usuario |
-| **Asignaciones** | Asignar usuarios, funciones o equipos |
+| **Asignaciones** | Asignar usuarios, roles, equipos o colaboradores de tareas |
 
 Para asignar tareas de una lista:
 
@@ -220,7 +214,7 @@ Para asignar tareas de una lista:
 1. Para asignar tareas, realice una de las siguientes acciones:
 
    * Haga clic dentro de los campos **Asignado a** o **Asignado** y empiece a escribir el nombre de un usuario activo que desee asignar a la tarea; a continuación, haga clic en él cuando se muestre en la lista.
-   * Haga clic dentro del campo **Asignaciones** y empiece a escribir el nombre de un usuario, función o equipo activo que desee asignar a la tarea; a continuación, haga clic en él cuando se muestre en la lista.
+   * Haga clic dentro del campo **Asignaciones** y empiece a escribir el nombre de un usuario, rol, equipo o colaborador de tareas activo que desee asignar a la tarea; a continuación, haga clic en él cuando se muestre en la lista.
 
      >[!TIP]
      >
@@ -255,7 +249,7 @@ Para asignar tareas de una lista:
 
    Se abre el cuadro **Editar tareas**.
 
-1. En el área **Asignaciones**, empiece a escribir el nombre de los usuarios, equipos o roles en el campo **Buscar personas, roles o equipos** proporcionado y, a continuación, haga clic en ellos cuando se muestren en la lista
+1. En el área **Asignaciones**, empiece a escribir el nombre de los usuarios, equipos, roles o colaboradores de tareas en el campo **Buscar personas, roles o equipos** proporcionado y, a continuación, haga clic en ellos cuando se muestren en la lista
 
    >[!IMPORTANT]
    >
