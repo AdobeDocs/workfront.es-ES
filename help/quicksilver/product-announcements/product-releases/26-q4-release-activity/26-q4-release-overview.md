@@ -4,10 +4,10 @@ description: Esta página proporciona información sobre la funcionalidad que se
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 1d62b2942d99d027cb68df973b2ec700dd1fa377
+source-git-commit: 308cbff62c648ba47a1a714446cffef40e5b4991
 workflow-type: tm+mt
-source-wordcount: '1271'
-ht-degree: 16%
+source-wordcount: '1305'
+ht-degree: 15%
 
 ---
 
@@ -17,7 +17,7 @@ Esta página proporciona información sobre la funcionalidad que se incluye en l
 
 Las mejoras de esta página están disponibles en el entorno de vista previa. Esta página se actualizará con mejoras adicionales a medida que la versión del cuarto trimestre de 2026 se aproxime a su versión de producción planificada.
 
-Se celebran seminarios web en directo para cada versión trimestral, en los que se destacan las nuevas funciones y se proporciona información detallada. Para registrarse, visite la [página de eventos](https://experienceleague.adobe.com/es/events?filters=Workfront) y filtre por Workfront.
+Se celebran seminarios web en directo para cada versión trimestral, en los que se destacan las nuevas funciones y se proporciona información detallada. Para registrarse, visite la [página de eventos](https://experienceleague.adobe.com/en/events?filters=Workfront) y filtre por Workfront.
 
 >[!IMPORTANT]
 >
@@ -53,6 +53,15 @@ Se celebran seminarios web en directo para cada versión trimestral, en los que 
             <td><strong>Vista previa</strong></td>
             <td><strong>Versión rápida</strong></td>
             <td><strong>Trimestralmente</strong></td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-ai.md" class="MCXref xref" xrefformat="{para}">Asignar colaboradores de tareas de IA a tareas en Workfront</a>
+                <p>Los colaboradores de tareas son colaboradores de IA que pueden asignarse directamente a tareas para completar el trabajo de nivel de tarea.</p>
+            </td>
+            <td><p>31 de julio de 2026</p></td>
+            <td><p>13 de agosto de 2026</p></td>
+            <td><p>15 de octubre de 2026</p></td>
         </tr>
         <tr>
             <td>
@@ -326,7 +335,7 @@ Si es administrador de Workfront y tiene usuarios de lector de Data Connect que 
 
 Este cambio se anunció por primera vez en las notas de la versión de Workfront de abril de 2026 y este es el recordatorio final antes de la fecha límite. Asegúrese de que todos los usuarios de lectores afectados habiliten MFA antes del 8 de agosto de 2026 para evitar interrupciones en su acceso.
 
-Para obtener más información, consulte [Crear una cuenta de lector o una conexión para Snowflake](https://experienceleague.adobe.com/es/docs/workfront/using/reporting/data-lake/create-a-reader-account).
+Para obtener más información, consulte [Crear una cuenta de lector o una conexión para Snowflake](https://experienceleague.adobe.com/en/docs/workfront/using/reporting/data-lake/create-a-reader-account).
 
 ### Actualizaciones de aprendizaje
 
