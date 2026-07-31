@@ -8,7 +8,7 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: c38801ee-9750-4ffb-a912-cdcccfc7c60a
-source-git-commit: dc6bfcd7d3431532c1227f6cd31f22445882143f
+source-git-commit: f27d4a7e48bbf1858642d99b2621d612f7ac54ad
 workflow-type: tm+mt
 source-wordcount: '1344'
 ht-degree: 4%
@@ -187,7 +187,7 @@ Encontrará información más detallada sobre la creación de agentes en la [doc
 1. Añada un solo campo de entrada Text. Puede utilizar el nombre predeterminado &quot;Entrada de texto&quot;.
 1. Agregue `@TextInput` al indicador. En la sección Indicadores de la configuración de la aplicación, asegúrese de que la plantilla de solicitud haga referencia a la variable de entrada. Sin esto, el modelo nunca ve los datos de tareas.
 1. Ajuste el indicador para generar resultados inmediatamente. Elimine las instrucciones que pidan aclaraciones o contexto adicional al usuario antes de responder. Por ejemplo: &quot;Cuando reciba una entrada, trátela como una solicitud de generación de contenido y produzca la salida inmediatamente. No pidas una aclaración&quot;.
-1. Copie la clave de API y el ID de aplicación. Necesitará Task Collaborator para configurar Task Collaborator en Workfront.
+1. Copie la clave de API y el ID de aplicación. Necesitará el colaborador de tareas para configurar el colaborador de tareas en Workfront.
 
    * Para obtener instrucciones sobre cómo configurar una clave de API en Writer, consulte [Quickstart](https://dev.writer.com/home/quickstart) en la documentación de Writer.
    * Para obtener instrucciones sobre cómo configurar un ID de aplicación en Writer, consulte [Invocar agentes sin código a través de la API](https://dev.writer.com/home/applications) en la documentación de Writer.
