@@ -9,20 +9,14 @@ exl-id: 70fd3887-3871-45b5-9c21-f57da63662aa
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/v1IRcsFil5-ba26LoUX6IgD5gG-9h2344Tfs-qRvvPU
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 347c3e87fea0289616bf1a52779c07501a8ec69d
 workflow-type: tm+mt
-source-wordcount: 1101
+source-wordcount: 1134
 ht-degree: 27%
 
 ---
@@ -64,22 +58,33 @@ Para obtener más información sobre los tipos de registros, consulte [Informaci
    <td role="rowheader"><p>Paquete de Adobe Workfront</p></td> 
    <td> 
 <ul> 
-<li><p>Cualquier Workfront y cualquier paquete de Planning</p></li>
+<li><p>Cualquier paquete de Workfront o de flujo de trabajo con un paquete de Planning</p></li>
 O
-<li><p>Cualquier flujo de trabajo y cualquier paquete de Planning</p></li></ul>
+<li><p>Cualquier paquete de Planning cuando se adquiere como producto independiente</p></li></ul>
 
 <p>Para eliminar tipos de registros globales:</p>
 <ul><li><p>Cualquier paquete Workfront y un paquete Planning Plus</p></li>
 O
-<li><p>Cualquier flujo de trabajo y un paquete de Planning Prime o Ultimate</p></li></ul>
-
-<p>Para obtener más información sobre lo que se incluye en cada paquete de Workfront Planning, póngase en contacto con su representante de cuentas de Workfront. </p> 
+<li><p>Cualquier flujo de trabajo y un paquete de Planning Prime o Ultimate</p></li>
+O
+<li>Cualquier paquete de Planning cuando se adquiere como producto independiente</li>
+</ul>
    </td> 
   <tr> 
    <td role="rowheader"><p>Licencia de Adobe Workfront</p></td> 
-   <td><p>Estándar</p>
+   <td><p>Workflow Standard</p>
    </td> 
   </tr> 
+</tr> 
+   <td role="rowheader"><p>Licencia de planificación de Adobe</p></td> 
+   <td><p>Estándar de planificación</p>
+   </td> 
+  </tr>
+<tr> 
+   <td role="rowheader"><p>Configuración de nivel de acceso</p></td> 
+   <td> <p>Debe agregar un tipo de licencia de flujo de trabajo y de Planning al nivel de acceso cuando tenga un flujo de trabajo y un paquete de Planning a la vez</p>   
+</td> 
+  </tr>
   <tr> 
    <td role="rowheader"><p>Permisos de objeto</p></td> 
    <td>   <p>Administración de permisos en un espacio de trabajo</p>  
@@ -139,7 +144,7 @@ Old:
   </tr> 
   <tr> 
    <td role="rowheader"><p>Access level configuration</p></td> 
-   <td> <p>There are no access level controls for Adobe Workfront Planning</p>   
+   <td> <p>You must add both a Workflow and a Planning license type to the access level when you have both a Workflow and a Planning package</p>   
 </td> 
   </tr> 
 <tr> 
@@ -159,9 +164,9 @@ Old:
 * Únicamente se pueden eliminar los tipos de registro de espacios de trabajo para los que tenga permisos de administración.
 * Al eliminar los tipos de registro, se elimina la información siguiente asociada a ellos:
 
-   * Todos los registros de ese tipo.
-   * Todos los campos asociados al tipo de registro.
-   * Todas las vistas (incluidos filtros, agrupaciones y criterios de ordenación) del tipo de registro.
+  * Todos los registros de ese tipo.
+  * Todos los campos asociados al tipo de registro.
+  * Todas las vistas (incluidos filtros, agrupaciones y criterios de ordenación) del tipo de registro.
 * El tipo de registro se elimina de todos los usuarios que acceden al espacio de trabajo.
 * No se pueden recuperar los tipos de registros eliminados ni su información.
 * Se recomienda volver a crear los campos y los registros asociados al tipo de registro que desea eliminar en otro tipo de registro antes de eliminarlos.
@@ -244,7 +249,7 @@ Tenga en cuenta lo siguiente:
 
 * Al eliminar un tipo de registro global de un espacio de trabajo secundario, también se eliminan los siguientes elementos:
 
-   * Los registros añadidos desde el espacio de trabajo secundario se eliminan del espacio de trabajo secundario y del espacio de trabajo original, y no se pueden recuperar.
+  * Los registros añadidos desde el espacio de trabajo secundario se eliminan del espacio de trabajo secundario y del espacio de trabajo original, y no se pueden recuperar.
 
   <!--Coming later: * The fields added from the secondary workspace.-->
 

@@ -9,21 +9,15 @@ exl-id: 3f7a3667-8a9f-462a-b706-cf15850a0d1c
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/zW-UgmPeIG-6sjZZelIiYE3JDNvpqQxb-a81Ggau2nQ
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 347c3e87fea0289616bf1a52779c07501a8ec69d
 workflow-type: tm+mt
-source-wordcount: 626
-ht-degree: 42%
+source-wordcount: 621
+ht-degree: 43%
 
 ---
 
@@ -55,12 +49,19 @@ Puede eliminar los registros que ya no sean relevantes en Adobe Workfront Planni
 <tr> 
    <td role="rowheader"><p>Paquete de Adobe Workfront</p></td> 
    <td> 
-<p>Cualquier Workfront y cualquier paquete de Planning</p> <p>Cualquier flujo de trabajo y cualquier paquete de Planning</p>
-<p>Para obtener más información sobre lo que se incluye en cada paquete de Workfront Planning, póngase en contacto con su representante de cuentas de Workfront. </p> 
+<ul> 
+<li><p>Cualquier Workfront o flujo de trabajo con un paquete de Planning</p></li>
+O
+<li><p>Cualquier paquete de Planning cuando se adquiere como producto independiente</p></li></ul>
    </td> 
   <tr> 
    <td role="rowheader"><p>Licencia de Adobe Workfront</p></td> 
-   <td><p>Estándar</p>
+   <td><p>Workflow Standard</p>
+   </td> 
+  </tr> 
+<tr> 
+   <td role="rowheader"><p>Licencia de planificación de Adobe</p></td> 
+   <td><p>Estándar de planificación</p>
    </td> 
   </tr> 
   <tr> 
@@ -123,7 +124,7 @@ Old:
   </tr> 
   <tr> 
    <td role="rowheader"><p>Access level configuration</p></td> 
-   <td> <p>There are no access level controls for Adobe Workfront Planning</p>   
+   <td> <p>You must add both a Workflow and a Planning license type to the access level when you have both a Workflow and a Planning package</p>   
 </td> 
   </tr> 
 <tr> 
@@ -173,7 +174,7 @@ Puede eliminar un registro de las siguientes áreas:
 1. Haga clic en el menú **Más** ![Menú más](assets/more-menu.png) que se encuentra a la derecha del nombre del registro, luego haga clic en **Eliminar** y después en **Eliminar** de nuevo para confirmar.
 
    ![Más opciones de menú de la página de detalles del registro](assets/more-menu-options-from-record-details-page.png) <!--ensure the options have not changed or been renamed-->
-Se elimina el registro.
+   Se elimina el registro.
 1. (Opcional) Vaya a la vista de tabla de la página del registro y haga clic en el icono **Deshacer** ![Deshacer icono](assets/undo-icon.png) en la esquina superior derecha de la vista; a continuación, haga clic en **Eliminados recientemente** para recuperar los registros eliminados.
 
 Para obtener información acerca de cómo recuperar los registros eliminados, vea [Recuperar registros eliminados](/help/quicksilver/planning/records/restore-deleted-records.md).
@@ -208,8 +209,8 @@ Para obtener información acerca de cómo recuperar los registros eliminados, ve
    * Haga clic en el icono **Deshacer** ![Deshacer icono](assets/undo-icon.png) y, a continuación, **Eliminado(a) recientemente** para recuperar los registros eliminados. Para obtener información acerca de cómo recuperar los registros eliminados, vea [Recuperar registros eliminados](/help/quicksilver/planning/records/restore-deleted-records.md).
    * Utilice los siguientes métodos abreviados del teclado para deshacer o rehacer la eliminación de un registro:
 
-      * CTRL + Z (⌘ + Z para Mac) para deshacer la eliminación de un registro
-      * CTRL + Mayús + Z (⌘ + Mayús + Z para Mac) para rehacer la eliminación del registro
+     * CTRL + Z (⌘ + Z para Mac) para deshacer la eliminación de un registro
+     * CTRL + Mayús + Z (⌘ + Mayús + Z para Mac) para rehacer la eliminación del registro
 
 
 

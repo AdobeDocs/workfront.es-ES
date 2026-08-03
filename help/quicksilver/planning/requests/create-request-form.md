@@ -9,22 +9,14 @@ exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/j4ZFzyPot9XkML8u1-kmO6x4lRR3X2SGBwfthepmir0
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87effid: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 4378eb4b7272ac17b0fb6f2f2e77de2c0b272050
 workflow-type: tm+mt
-source-wordcount: 2948
+source-wordcount: 2968
 ht-degree: 5%
 
 ---
@@ -60,20 +52,28 @@ Para obtener información sobre cómo enviar una solicitud a un tipo de registro
 </col> 
 <tbody> 
 <tr> 
-   <td role="rowheader"><p>Paquetes de Adobe Workfront</p></td> 
+   <td role="rowheader"><p>Paquete de Adobe Workfront</p></td> 
    <td> 
-<p>Cualquier paquete Workfront y cualquier paquete Planning</p>
+<ul> 
+<li><p>Cualquier Workfront o flujo de trabajo con un paquete de Planning</p></li>
 O
-<p>Cualquier paquete de flujo de trabajo y cualquier paquete de Planning</p>
-<p>Para obtener más información sobre lo que se incluye en cada paquete de Workfront Planning, póngase en contacto con su representante de cuentas de Workfront.</p>
+<li><p>Cualquier paquete de Planning cuando se adquiere como producto independiente</p></li></ul>
    </td> </tr>
-
-</tr> 
   <tr> 
    <td role="rowheader"><p>Licencia de Adobe Workfront</p></td> 
-   <td><p>Estándar</p> 
-  </td> 
+   <td><p>Workflow Standard</p>
+   </td> 
   </tr> 
+<tr> 
+   <td role="rowheader"><p>Licencia de planificación de Adobe</p></td> 
+   <td><p>Estándar de planificación</p>
+   </td> 
+  </tr> 
+<tr> 
+   <td role="rowheader"><p>Configuración de nivel de acceso</p></td> 
+   <td> <p>Debe agregar un tipo de licencia de flujo de trabajo y de Planning al nivel de acceso cuando tenga un flujo de trabajo y un paquete de Planning a la vez</p>   
+</td> 
+  </tr>  
   <tr> 
    <td role="rowheader"><p>Permisos de objeto</p></td> 
    <td>   <p>Administrar permisos a un espacio de trabajo o tipo de registro</a> </p>  
@@ -94,27 +94,27 @@ Para obtener información sobre cómo enviar solicitudes de Workfront Planning, 
 
 * Las siguientes son limitaciones de la forma en que se muestran ciertos campos en los formularios de solicitud, los registros creados por un formulario de solicitud o en la página de detalles de la solicitud:
 
-   * No se pueden agregar campos de los siguientes tipos a un formulario de solicitud:
+  * No se pueden agregar campos de los siguientes tipos a un formulario de solicitud:
 
-      * Creado por, Última modificación por, Aprobado por
-      * Fecha de creación, Fecha de la última modificación, Fecha de aprobación
-      * ID de registro
-      * Campos de búsqueda de objetos Workfront
-      * Campos de búsqueda de registros conectados de Workfront Planning
+    * Creado por, Última modificación por, Aprobado por
+    * Fecha de creación, Fecha de la última modificación, Fecha de aprobación
+    * ID de registro
+    * Campos de búsqueda de objetos Workfront
+    * Campos de búsqueda de registros conectados de Workfront Planning
 
 * Las siguientes son diferencias entre la forma en que se muestran los formatos de campo en el generador de formularios de solicitud y el formato de los valores de los campos en el registro o en la página de detalles de la solicitud:
 
-   * Los campos Moneda, Número y Porcentaje se muestran como un campo de texto de una sola línea en el generador de formularios.
+  * Los campos Moneda, Número y Porcentaje se muestran como un campo de texto de una sola línea en el generador de formularios.
 
-     Sin embargo, el formato de campo se conserva y los valores de campo se muestran como moneda, números y porcentajes después de enviar la solicitud, en el tipo de registro y en la página de detalles de la solicitud.
+    Sin embargo, el formato de campo se conserva y los valores de campo se muestran como moneda, números y porcentajes después de enviar la solicitud, en el tipo de registro y en la página de detalles de la solicitud.
 
 * A continuación se describe cómo se muestran algunos valores de campo en los formularios de solicitud y en las páginas de detalles de solicitud:
 
-   * No se conserva el formato especial de los campos Moneda, Número y Porcentaje. Por ejemplo, la precisión decimal no se conserva para los valores de estos campos en estas áreas.
-   * Los valores del campo Personas se muestran como ID.
-   * Los campos de fórmula que no hacen referencia a otros campos o cálculos no muestran ningún valor. Por ejemplo, un campo con una fórmula `STRING` muestra un valor &quot;N/A&quot;.
-   * Los campos de fórmula que hacen referencia a los campos Moneda muestran los valores sin tener en cuenta los tipos de cambio.
-   * Los valores de los campos de párrafo muestran un valor &quot;N/A&quot; en el formulario de solicitud y muestran etiquetas html en lugar del texto con formato en la página de detalles de la solicitud.
+  * No se conserva el formato especial de los campos Moneda, Número y Porcentaje. Por ejemplo, la precisión decimal no se conserva para los valores de estos campos en estas áreas.
+  * Los valores del campo Personas se muestran como ID.
+  * Los campos de fórmula que no hacen referencia a otros campos o cálculos no muestran ningún valor. Por ejemplo, un campo con una fórmula `STRING` muestra un valor &quot;N/A&quot;.
+  * Los campos de fórmula que hacen referencia a los campos Moneda muestran los valores sin tener en cuenta los tipos de cambio.
+  * Los valores de los campos de párrafo muestran un valor &quot;N/A&quot; en el formulario de solicitud y muestran etiquetas html en lugar del texto con formato en la página de detalles de la solicitud.
 
 ## Creación de un formulario de solicitud
 

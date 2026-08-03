@@ -9,19 +9,14 @@ exl-id: d86cf3f9-cacc-4457-acb3-a5122ae91be8
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/-QH0K-HG7X7i6xwKxrBkXQzUbefI2-HI1RliZJMCIDU
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 4378eb4b7272ac17b0fb6f2f2e77de2c0b272050
 workflow-type: tm+mt
-source-wordcount: 1777
+source-wordcount: 1740
 ht-degree: 5%
 
 ---
@@ -59,19 +54,24 @@ Puede mostrar registros de Workfront Planning en Workfront en las siguientes ár
 <tr> 
    <td role="rowheader"><p>Paquete de Adobe Workfront</p></td> 
    <td> 
-<p>Cualquier Workfront y cualquier paquete de Planning</p>
-<p>Cualquier flujo de trabajo y cualquier paquete de Planning</p>
-<p>Para obtener más información sobre lo que se incluye en cada paquete de Workfront Planning, póngase en contacto con su representante de cuentas de Workfront. </p> 
+<p>Cualquier Workfront o flujo de trabajo con un paquete de Planning</p>
+O
+<p>Cualquier paquete de Planning cuando se adquiere como producto independiente</p>
    </td> 
   <tr> 
    <td role="rowheader"><p>Licencia de Adobe Workfront</p></td> 
-   <td><p>Estándar</p>
+   <td><p>Workflow Standard</p>
    </td> 
   </tr> 
+   <tr> 
+   <td role="rowheader"><p>Licencia de planificación de Adobe</p></td> 
+   <td><p>Estándar de planificación</p>
+   </td> 
+  </tr>
   <tr>
    <td role="rowheader"><p>Configuración de nivel de acceso</p></td>
-   <td> <p>Acceso de visualización o superior a Proyectos, Programas y Portafolios</p>  
-   <p>No hay ninguna configuración de nivel de acceso para Workfront Planning. </p>
+   <td><p>Debe agregar un tipo de licencia de flujo de trabajo y de Planning al nivel de acceso cuando tenga un flujo de trabajo y un paquete de Planning a la vez</p> 
+   <p>Acceso de visualización o superior a Proyectos, Programas y Portafolios</p> 
 </td>
   </tr>
 <tr>
@@ -185,8 +185,8 @@ Tenga en cuenta lo siguiente cuando vea los registros de Workfront Planning desd
 
   Para obtener más información, consulte los siguientes artículos:
 
-   * [Conectar tipos de registro](/help/quicksilver/planning/architecture/connect-record-types.md)
-   * [Conectar registros](/help/quicksilver/planning/records/connect-records.md)
+  * [Conectar tipos de registro](/help/quicksilver/planning/architecture/connect-record-types.md)
+  * [Conectar registros](/help/quicksilver/planning/records/connect-records.md)
 * Puede ver la sección de Planning desde un objeto de Workfront, incluso cuando no haya registros asociados al objeto de Workfront.
 * Un tipo de registro sólo se muestra en el área de Planning de un objeto Workfront cuando se habilita la opción Crear campo correspondiente en el tipo de registro vinculado al crear la conexión entre dos tipos de registro.
 
@@ -218,9 +218,9 @@ La página del objeto se abre en Workfront.
    La sección Planificación se muestra con la siguiente información:
 
    * Los registros conectados se muestran en tarjetas individuales que contienen la siguiente información:
-      * Nombre del registro
-      * La miniatura del registro
-      * Nombre del campo de registro conectado tal como se muestra en Workfront Planning.
+     * Nombre del registro
+     * La miniatura del registro
+     * Nombre del campo de registro conectado tal como se muestra en Workfront Planning.
    * Los registros se muestran bajo su respectivo espacio de trabajo y tipo de registro.
 
    ![Sección de planificación en el proyecto](assets/planning-section-on-project.png)
@@ -253,11 +253,11 @@ Puede controlar qué tipos de registros de Planning se muestran para el objeto d
 
 * El campo Conexión de Planning muestra registros de Planning después de establecer una conexión y cuando el campo está adjunto a formularios para los siguientes objetos de Workfront:
 
-   * Proyecto
-   * Portafolio
-   * Programa
-   * Grupo
-   * Compañía
+  * Proyecto
+  * Portafolio
+  * Programa
+  * Grupo
+  * Compañía
 
 Para obtener más información, consulte [Crear un formulario](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
@@ -267,8 +267,8 @@ Tenga en cuenta lo siguiente cuando vea los registros de Workfront Planning desd
 
 * Un campo de conexión de Planning se muestra de las siguientes maneras en el formulario personalizado de un objeto de Workfront, después de que los registros de Planning estén conectados al objeto de Workfront:
 
-   * Si sólo se selecciona el campo principal del registro conectado, el campo de conexión de Planning se muestra como un campo con varios valores, si la conexión permite vincular varios registros. Para obtener más información, consulte [Información general sobre los tipos de registros de Connect](/help/quicksilver/planning/architecture/connect-record-types-overview.md).
-   * Si el administrador del grupo o de Workfront agregó campos de búsqueda adicionales desde el registro conectado en el formulario personalizado, el campo Conexión de Planning se mostrará como una tabla. Se pueden seleccionar hasta 7 campos para el campo Planning connection. La vista de tabla es de solo lectura.
+  * Si sólo se selecciona el campo principal del registro conectado, el campo de conexión de Planning se muestra como un campo con varios valores, si la conexión permite vincular varios registros. Para obtener más información, consulte [Información general sobre los tipos de registros de Connect](/help/quicksilver/planning/architecture/connect-record-types-overview.md).
+  * Si el administrador del grupo o de Workfront agregó campos de búsqueda adicionales desde el registro conectado en el formulario personalizado, el campo Conexión de Planning se mostrará como una tabla. Se pueden seleccionar hasta 7 campos para el campo Planning connection. La vista de tabla es de solo lectura.
 
 * Sólo puede asociar un tipo de registro con un campo de conexión de Planning. No hay límite en cuanto a la cantidad de campos de conexión de Planning que tiene en un formulario.
 * Debe tener el acceso y los permisos correctos para el objeto, el registro y Workfront Planning para adjuntar un formulario personalizado con un campo personalizado de conexión de Planning a un objeto de Workfront.

@@ -5,10 +5,10 @@ author: Alina
 feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 4bce43b6edd473f55b323e1d878b6e131213e179
+source-git-commit: 4378eb4b7272ac17b0fb6f2f2e77de2c0b272050
 workflow-type: tm+mt
-source-wordcount: '256'
-ht-degree: 31%
+source-wordcount: '255'
+ht-degree: 30%
 
 ---
 
@@ -19,11 +19,12 @@ Puede ver la información de Adobe Workfront Planning en los informes al utiliza
 
 >[!IMPORTANT]
 >
->Actualmente, la función Paneles de lienzo solo está disponible para los usuarios que participan en la fase beta. Es posible que algunas partes de la función no estén completas o que no funcionen según lo previsto durante esta fase.La versión beta no está disponible en los siguientes proveedores de la nube:
+>Actualmente, la función Paneles de lienzo solo está disponible para los usuarios que participan en la fase beta. Es posible que algunas partes de la función no estén completas o que no funcionen según lo previsto durante esta fase.
+>La versión beta no está disponible en los siguientes proveedores de la nube:
 >
 >* Traer su propia clave para Amazon Web Service
 >* Azure
->* Google Cloud PlatformPara obtener más información, consulte [Administrar paneles de lienzo: índice de artículo](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/manage-canvas-dashboards.md).
+>* Google Cloud Platform> Para obtener más información, consulte [Administrar paneles de lienzo: índice de artículo](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/manage-canvas-dashboards.md).
 
 ## Requisitos de acceso
 
@@ -38,24 +39,33 @@ Puede ver la información de Adobe Workfront Planning en los informes al utiliza
 <tr> 
    <td role="rowheader"><p>Paquetes de Adobe Workfront</p></td> 
    <td> 
-<p>Cualquier paquete de flujo de trabajo o Workfront</p>
-<p>Cualquier paquete de Planning</p>
+<p>Cualquier Workfront o flujo de trabajo con un paquete de Planning</p>
+<p><b>NOTA</b></p>
+<p>Los informes no están disponibles para los clientes que compraron Workfront Planning como producto independiente</p>
    </td> </tr>
 
 </tr> 
   <tr> 
    <td role="rowheader"><p>Licencia de Adobe Workfront</p></td> 
-   <td><p>Estándar</p> 
+   <td><p>Workflow Standard</p> 
   </td> 
   </tr>
-   <tr> 
+ <tr> 
+   <td role="rowheader"><p>Licencia de planificación de Adobe</p></td> 
+   <td><p>Estándar de planificación</p> 
+  </td> 
+  </tr>
+
+<tr> 
    <td role="rowheader"><p>Configuraciones de nivel de acceso</p></td> 
    <td><p>Editar el acceso a Informes, Paneles de control y Calendarios</p>
   </td> 
   </tr>  
   <tr> 
    <td role="rowheader"><p>Permisos de objeto</p></td> 
-   <td><p>Ver permisos para un espacio de trabajo</a> </p>  
+   <td>
+   <p>Debe agregar un tipo de licencia de flujo de trabajo y de Planning al nivel de acceso cuando tenga un flujo de trabajo y un paquete de Planning a la vez</p>   
+   <p>Ver permisos para un espacio de trabajo</a> </p>  
    <p>Los administradores del sistema tienen permisos para todos los espacios de trabajo, incluidos los que no crearon</p>  
    </td> 
   </tr>  

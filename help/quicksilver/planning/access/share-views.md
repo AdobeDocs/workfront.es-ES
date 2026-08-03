@@ -9,21 +9,15 @@ exl-id: 673dd888-3135-48b0-8198-c8d6d6706ddf
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/PTCSU18oqb-nFiNWaJB57FgtBkNOpeN5yuLP3Rrp-08
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 009953346ae5ef29611101acaa08b4f9810cf9d8
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 347c3e87fea0289616bf1a52779c07501a8ec69d
 workflow-type: tm+mt
-source-wordcount: 1997
-ht-degree: 39%
+source-wordcount: 2015
+ht-degree: 38%
 
 ---
 
@@ -75,16 +69,20 @@ This article describes how you can share a view with others. For information abo
 <p>Cualquier Workfront o flujo de trabajo con un paquete de Planning</p> 
 O
 <p>Cualquier Workfront Planning como paquete de producto independiente</p> 
- </tr>
-
-<tr> 
+ </tr> 
+  <tr> 
    <td role="rowheader"><p>Licencia de Adobe Workfront</p></td> 
    <td><p>Cualquiera</p> 
   </td> 
   </tr> 
   <tr> 
+   <td role="rowheader"><p>Licencia de planificación de Adobe</p></td> 
+   <td><p>Cualquiera</p> 
+  </td> 
+  </tr> 
+  <tr> 
    <td role="rowheader"><p>Configuración de nivel de acceso</p></td> 
-   <td> <p>No hay controles de nivel de acceso para Adobe Workfront Planning</p>   
+   <td> <p>Debe agregar un tipo de licencia de flujo de trabajo y de Planning al nivel de acceso cuando tenga un flujo de trabajo y un paquete de Planning a la vez</p>   
 </td> 
   </tr> 
 <tr> 
@@ -150,7 +148,7 @@ Old:
   </tr> 
   <tr> 
    <td role="rowheader"><p>Access level configuration</p></td> 
-   <td> <p>There are no access level controls for Adobe Workfront Planning</p>   
+   <td> <p>You must add both a Workflow and a Planning license type to the access level when you have both a Workflow and a Planning package</p>   
 </td> 
   </tr> 
 <tr> 
@@ -167,10 +165,10 @@ Old:
 
 * Puede compartir una vista de las siguientes maneras:
 
-   * Internamente, con usuarios, grupos, equipos, empresas y funciones de Workfront
-   * Públicamente, con usuarios de fuera de Workfront
-   * Al copiar y luego compartir un vínculo a una vista
-   * Exportándolo a un archivo de Excel o CSV. Sólo se puede exportar la vista de tabla a un archivo. Para obtener más información, consulte [Administrar la vista de tabla](/help/quicksilver/planning/views/manage-the-table-view.md).
+  * Internamente, con usuarios, grupos, equipos, empresas y funciones de Workfront
+  * Públicamente, con usuarios de fuera de Workfront
+  * Al copiar y luego compartir un vínculo a una vista
+  * Exportándolo a un archivo de Excel o CSV. Sólo se puede exportar la vista de tabla a un archivo. Para obtener más información, consulte [Administrar la vista de tabla](/help/quicksilver/planning/views/manage-the-table-view.md).
 
 * Para obtener información general sobre cómo compartir objetos en Workfront Planning, consulte también [Información general sobre los permisos de uso compartido en Adobe Workfront Planning](/help/quicksilver/planning/access/sharing-permissions-overview.md).
 * Puede conceder permisos de visualización o administración para una vista a usuarios internos de Workfront.

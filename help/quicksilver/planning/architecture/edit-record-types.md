@@ -9,21 +9,15 @@ exl-id: 7d6de742-9657-4286-968c-1fc78ebbb94e
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/PNC5GvQItDhcmQ0TSup8vbJJ3uWn2k-v-lKBZJBhakw
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 347c3e87fea0289616bf1a52779c07501a8ec69d
 workflow-type: tm+mt
-source-wordcount: 611
-ht-degree: 32%
+source-wordcount: 648
+ht-degree: 31%
 
 ---
 
@@ -55,29 +49,37 @@ Los tipos de registro son los tipos de objetos de Adobe Workfront Planning. Pued
 <tr> 
    <td role="rowheader"><p>Paquete de Adobe Workfront</p></td> 
    <td> 
-<p>Cualquier paquete de Workfront y Planning</p>
-<p>Cualquier paquete de Workfront y Planning</p>
+<p>Cualquier Workfront o flujo de trabajo con un paquete de Planning</p>
+<p>Cualquier paquete de Planning cuando se adquiere como producto independiente</p>
 <p><b>NOTA</b></p>
 <p>Para configurar tipos de registros conectables: </p>
 <ul> 
 <li><p>Cualquier paquete Workfront y cualquier paquete Planning</p></li>
 O
-<li><p>Cualquier flujo de trabajo y un paquete de Planning Prime o Ultimate</p></li></ul>
-
+<li><p>Cualquier flujo de trabajo y un paquete de Planning Prime o Ultimate</p></li>
+O
+<li>Cualquier paquete de Planning Prime y Ultimate</li>
+</ul>
 
 <p>Para configurar tipos de registros globales:</p>
 
 <ul> 
-<li><p>Cualquier paquete Workfront y un paquete Planning Plus</p></li>
+<li><p>Cualquier paquete Workfront con un paquete Planning Plus</p></li>
 O
-<li><p>Cualquier flujo de trabajo y un paquete de Planning Prime o Ultimate</p></li></ul>
-<p>Para obtener más información sobre lo que se incluye en cada paquete de Workfront Planning, póngase en contacto con su representante de cuentas de Workfront. </p>
-
-</td> </tr>
+<li><p>Cualquier flujo de trabajo y un paquete de Planning Prime o Ultimate</p></li>
+O
+<li>Cualquier paquete de Planning cuando se adquiere como producto independiente</li>
+</ul>
+   </td> </tr>
   <tr> 
-   <td role="rowheader"><p>Licencia de Adobe Workfront</p></td> 
-   <td><p>Estándar</p>
-   </td> 
+   <td role="rowheader"><p>Licencias de Adobe Workfront y Planning</p></td> 
+   <td><p>Cualquiera</p> 
+  </td> 
+  </tr>  
+  <tr> 
+   <td role="rowheader"><p>Configuración de nivel de acceso</p></td> 
+   <td> <p>Debe agregar un tipo de licencia de flujo de trabajo y de Planning al nivel de acceso cuando tenga un flujo de trabajo y un paquete de Planning a la vez</p>   
+</td> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>Permisos de objeto</p></td> 
@@ -138,7 +140,7 @@ Old:
   </tr> 
   <tr> 
    <td role="rowheader"><p>Access level configuration</p></td> 
-   <td> <p>There are no access level controls for Adobe Workfront Planning</p>   
+   <td> <p>You must add both a Workflow and a Planning license type to the access level when you have both a Workflow and a Planning package</p>   
 </td> 
   </tr> 
 <tr> 
@@ -162,22 +164,22 @@ Old:
 1. Realice una de las siguientes acciones:
 
    * Pase el ratón sobre la tarjeta de un tipo de registro y haga clic en el menú **Más** ![Menú más](assets/more-menu.png) en la esquina superior derecha de la tarjeta de tipo de registro; a continuación, haga clic en **Editar** o **Configuración**
-O
+     O
    * Haga clic en una tarjeta de tipo de registro para abrir la página de tipo de registro, haga clic en el menú **Más** ![Menú más](assets/more-menu.png) a la derecha del nombre del tipo de registro y, a continuación, haga clic en **Editar** o en **Configuración**.
 
    ![Más opciones de menú de la tarjeta de tipo de registro con Configuración](assets/more-menu-options-from-record-type-card-with-settings-link.png)
 
 1. En el cuadro **Editar tipo de registro**, la ficha **Apariencia** se abre de forma predeterminada.
 
-   ![Editar ficha de apariencia del cuadro de tipo de registro &#x200B;](assets/edit-record-type-box-appearance-tab.png)
+   ![Editar ficha de apariencia del cuadro de tipo de registro ](assets/edit-record-type-box-appearance-tab.png)
 
    Actualice la siguiente información en la ficha **Apariencia**:
 
    * Edite el nombre del tipo de registro, si es necesario. <!--did they add a field label for this?-->
    * **Descripción**: edite o añada una descripción para el tipo de registro con más información al respecto.
    * Edite el color y la forma del icono asociado al tipo de registro. Haga lo siguiente:
-      * Seleccione un color para identificar el tipo de registro. Este es el color del icono de tipo de registro.
-      * Seleccione un icono de la lista o empiece a escribir el nombre de un icono para describir lo que representa y, a continuación, selecciónelo cuando se muestre. Este es el icono del tipo de registro. De forma predeterminada, se selecciona un icono de archivo.
+     * Seleccione un color para identificar el tipo de registro. Este es el color del icono de tipo de registro.
+     * Seleccione un icono de la lista o empiece a escribir el nombre de un icono para describir lo que representa y, a continuación, selecciónelo cuando se muestre. Este es el icono del tipo de registro. De forma predeterminada, se selecciona un icono de archivo.
 
 1. (Opcional y condicional) Si es administrador del sistema, haga clic en la ficha **Configuración del área de trabajo cruzada** y actualice la información sobre las capacidades del área de trabajo cruzada del tipo de registro.
 

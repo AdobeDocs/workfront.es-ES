@@ -9,22 +9,15 @@ exl-id: 5e0be9d9-efa5-4b16-bd56-f9c85bc57ced
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/Sch9ArKRfEiy9KYoo-wny1j4-WyWcpHW86CuWP-qEV0
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
-subfeature_v2:
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 347c3e87fea0289616bf1a52779c07501a8ec69d
 workflow-type: tm+mt
-source-wordcount: 1589
-ht-degree: 4%
+source-wordcount: 1616
+ht-degree: 5%
 
 ---
 
@@ -53,18 +46,18 @@ Tenga en cuenta lo siguiente al agregar una página Registros conectados a un re
 
 * Según el tipo de objeto o registro que se muestre en la página de registros conectados, se pueden mostrar con las siguientes vistas:
 
-   * Puede mostrar registros de Planning conectados en los siguientes tipos de vistas:
-      * Tabla
-      * Cronología
-      * Calendario
-   * Puede mostrar los proyectos de Workfront conectados en una vista de lista.
+  * Puede mostrar registros de Planning conectados en los siguientes tipos de vistas:
+    * Tabla
+    * Cronología
+    * Calendario
+  * Puede mostrar los proyectos de Workfront conectados en una vista de lista.
 
 * Puede agregar páginas Registros conectados para los siguientes tipos de registros u objetos conectados:
 
-   * Tipos de registros de Workfront Planning
-   * Proyectos Workfront
+  * Tipos de registros de Workfront Planning
+  * Proyectos Workfront
 
-     Puede ver los proyectos de Workfront conectados incluso cuando no tenga permisos para acceder a ellos en Workfront.
+    Puede ver los proyectos de Workfront conectados incluso cuando no tenga permisos para acceder a ellos en Workfront.
 
 ## Requisitos de acceso
 
@@ -82,10 +75,10 @@ Tenga en cuenta lo siguiente al agregar una página Registros conectados a un re
 <tr> 
    <td role="rowheader"><p>Paquete de Adobe Workfront</p></td> 
    <td> 
-<p>Cualquier Workfront y cualquier paquete de Planning</p>
-<p>Cualquier flujo de trabajo y cualquier paquete de Planning</p>
-<p>Para obtener más información sobre lo que se incluye en cada paquete de Workfront Planning, póngase en contacto con su representante de cuentas de Workfront. </p> 
-   </td> 
+<p>Cualquier Workfront o flujo de trabajo con un paquete de Planning</p>
+O
+<p>Cualquier paquete de Planning cuando se adquiere como producto independiente</p>
+</td> 
 <tr>
 <td> 
    <p> Productos adicionales</p> </td> 
@@ -94,14 +87,26 @@ Tenga en cuenta lo siguiente al agregar una página Registros conectados a un re
    <ul><li><p>Licencia de Adobe Experience Manager e integración entre Adobe Experience Manager y Workfront para conectar objetos de AEM con tipos de registros de Planning.</p>
    <p>Para obtener más información, consulte <a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md">Adobe Workfront para Experience Manager Assets y Assets Essentials: índice de artículo</a>. </p></li>
    <li><p> Licencia de Adobe GenStudio for Performance Marketing para conectar tipos de registros con marcas de GenStudio</p>
-   <p>Para obtener más información, consulte <a href="https://experienceleague.adobe.com/es/docs/genstudio-for-performance-marketing/user-guide/get-started">Introducción a Adobe GenStudio for Performance Marketing</a>.</p></li></ul>
-   </td> 
-  </tr>
+   <p>Para obtener más información, consulte <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/get-started">Introducción a Adobe GenStudio for Performance Marketing</a>.</p></li></ul>
 
-<tr> 
-   <td role="rowheader"><p>Licencia de Adobe Workfront</p></td> 
-   <td><p>Estándar</p>
+<p><b>NOTA</b></p>
+   Si ha adquirido un paquete de Planning como producto independiente, también debe adquirir un paquete de flujo de trabajo para conectar los tipos de registros de Planning con los tipos de objetos de Workfront</p>
    </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Licencia de Adobe Workfront</p></td> 
+   <td><p>Workflow Standard</p>
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Licencia de planificación de Adobe</p></td> 
+   <td><p>Estándar de planificación</p>
+   </td> 
+  </tr> 
+<tr> 
+   <td role="rowheader"><p>Configuración de nivel de acceso</p></td> 
+   <td> <p>Debe agregar un tipo de licencia de flujo de trabajo y de Planning al nivel de acceso cuando tenga un flujo de trabajo y un paquete de Planning a la vez</p>   
+</td> 
   </tr> 
   <tr>
    <td role="rowheader"><p>Permisos de objeto</p></td>
@@ -161,9 +166,9 @@ Primero debe conectar los tipos de registros con otros tipos de registros o proy
 1. (Condicional) Según el tipo de registros que muestre en la página de registros conectada, realice una de las siguientes acciones:
 
    * Administrar registros de Planning
-Para obtener más información, consulte la sección [Administrar la página de registros conectados para registros de Planning](#manage-the-connected-records-page-for-planning-records) en este artículo.
+     Para obtener más información, consulte la sección [Administrar la página de registros conectados para registros de Planning](#manage-the-connected-records-page-for-planning-records) en este artículo.
    * Administrar proyectos de Workfront
-Para obtener más información, consulte la sección [Administrar la página de registros conectados para proyectos de Workfront](#manage-the-connected-records-page-for-workfront-projects) en este artículo.
+     Para obtener más información, consulte la sección [Administrar la página de registros conectados para proyectos de Workfront](#manage-the-connected-records-page-for-workfront-projects) en este artículo.
 
 1. (Opcional) Haga doble clic en el nombre de la ficha **Página de registros conectados**
 
@@ -283,16 +288,16 @@ Los registros conectados al registro seleccionado se muestran en la vista de tab
    1. En el área **Tipo de vista**, seleccione uno de los siguientes tipos de vistas:
 
       * Tabla
-Para obtener más información, vea [Administrar la vista de tabla](/help/quicksilver/planning/views/manage-the-table-view.md)
+        Para obtener más información, vea [Administrar la vista de tabla](/help/quicksilver/planning/views/manage-the-table-view.md)
       * Cronología
-Para obtener más información, consulte [administrar la vista de cronología](/help/quicksilver/planning/views/manage-the-timeline-view.md).
+        Para obtener más información, consulte [administrar la vista de cronología](/help/quicksilver/planning/views/manage-the-timeline-view.md).
       * Calendario
-Para obtener más información, vea [Administrar la vista de calendario](/help/quicksilver/planning/views/manage-the-calendar-view.md).
+        Para obtener más información, vea [Administrar la vista de calendario](/help/quicksilver/planning/views/manage-the-calendar-view.md).
 
         Para obtener más información, consulte la sección [Administrar varias vistas desde la página de registros conectados](#manage-multiple-views-from-the-connected-records-page) en este artículo.
 
    1. Haga clic en **Crear**.
-Se añade una nueva vista al menú desplegable de vistas.
+      Se añade una nueva vista al menú desplegable de vistas.
 
    1. (Opcional) Pase el ratón sobre el nombre de una vista que haya creado, haga clic en el menú **Más** ![Menú más](assets/more-menu.png) y, a continuación, haga clic en una de las siguientes opciones:
 
@@ -303,7 +308,7 @@ Se añade una nueva vista al menú desplegable de vistas.
       * **Exportar**
 
       * **Eliminar**
-Para obtener más información, consulte [Eliminar vistas de registros](/help/quicksilver/planning/views/delete-record-views.md).
+        Para obtener más información, consulte [Eliminar vistas de registros](/help/quicksilver/planning/views/delete-record-views.md).
 
         ![Ver más en el menú de la página Registros conectados a proyectos](assets/view-more-menu-projects-connected-records-page.png)
 

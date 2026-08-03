@@ -9,22 +9,15 @@ exl-id: 604b84c1-4ec6-4d4a-b9f4-4223641ff2ea
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/LtHxTws4o0FI964-qOtFE-sbKaLGRQroBQvMD5fOUvY
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 347c3e87fea0289616bf1a52779c07501a8ec69d
 workflow-type: tm+mt
-source-wordcount: 1252
-ht-degree: 34%
+source-wordcount: 1279
+ht-degree: 33%
 
 ---
 
@@ -60,16 +53,28 @@ Para obtener información general acerca de los espacios de trabajo, consulte [I
 <tr> 
    <td role="rowheader"><p>Paquete de Adobe Workfront</p></td> 
    <td> 
-<p>Cualquier paquete de flujo de trabajo o Workfront</p> 
-<p>Cualquier paquete de Workfront Planning</p>
+<p>Cualquier paquete de Workfront o de flujo de trabajo con un paquete de Planning</p> 
+<p>Cualquier paquete de Planning cuando se compra como producto independiente</p>
+
+<p><b>NOTA</b></p>
 <p>Un paquete de Workfront Planning Prime o superior para crear varios espacios de trabajo a la vez</p>
-<p>Para obtener más información sobre lo que se incluye en cada paquete de Workfront Planning, póngase en contacto con su representante de cuentas de Workfront. </p> 
-   </td> 
+
+</td> 
   <tr> 
    <td role="rowheader"><p>Licencia de Adobe Workfront</p></td> 
-   <td><p>Estándar</p>
+   <td><p>Workflow Standard</p>
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Licencia de planificación de Adobe</p></td> 
+   <td><p>Estándar de planificación</p>
    <p>Administrador del sistema para crear varios espacios de trabajo al mismo tiempo mediante el paquete de plantillas de prácticas recomendadas</p>
    </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Configuración de nivel de acceso</p></td> 
+   <td> <p>Debe agregar un tipo de licencia de flujo de trabajo y de Planning al nivel de acceso cuando tenga un flujo de trabajo y un paquete de Planning a la vez</p>   
+</td> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>Permisos de objeto</p></td> 
@@ -131,7 +136,7 @@ Old:
   </tr> 
   <tr> 
    <td role="rowheader"><p>Access level configuration</p></td> 
-   <td> <p>There are no access level controls for Adobe Workfront Planning</p>   
+   <td> <p>You must add both a Workflow and a Planning license type to the access level when you have both a Workflow and a Planning package</p>   
 </td> 
   </tr> 
 <tr> 
@@ -261,35 +266,35 @@ Las plantillas incluidas en el paquete contienen espacios de trabajo, tipos de r
 
    * Haga clic en **Crear espacio de trabajo** y, a continuación, siga estos pasos:
 
-      1. Se muestra el cuadro Crear espacio de trabajo. Puede crear un espacio de trabajo desde cero o crearlo con una de las plantillas disponibles.
+     1. Se muestra el cuadro Crear espacio de trabajo. Puede crear un espacio de trabajo desde cero o crearlo con una de las plantillas disponibles.
 
-      1. Haga clic en **Revisar configuración del área de trabajo** en el área **Comenzar aquí (recomendado)**.
-      1. (Opcional) Haga clic en **Vista previa** dentro de cualquiera de las siguientes plantillas de área de trabajo predefinidas para abrir el cuadro Vista previa de cada plantilla:
+     1. Haga clic en **Revisar configuración del área de trabajo** en el área **Comenzar aquí (recomendado)**.
+     1. (Opcional) Haga clic en **Vista previa** dentro de cualquiera de las siguientes plantillas de área de trabajo predefinidas para abrir el cuadro Vista previa de cada plantilla:
 
-         * 1.Clasificaciones globales y taxonomías
+        * 1.Clasificaciones globales y taxonomías
 
-           La plantilla Clasificaciones globales y taxonomías incluye todos los tipos de registros y campos que le recomendamos que cree en su entorno para una implementación correcta de Workfront Planning.
+          La plantilla Clasificaciones globales y taxonomías incluye todos los tipos de registros y campos que le recomendamos que cree en su entorno para una implementación correcta de Workfront Planning.
 
-           Posteriormente, puede vincular o importar los tipos de registros de esta plantilla en otros espacios de trabajo que cree.
-         * 2.Fréscopa Marketing global
-         * 3.Fréscopa Social Marketing
-         * 4.Fréscopa Media &amp; PR
-         * 5.Eventos globales de Fréscopa
-         * 6.Fréscopa Executive Liderazgo de la empresa
+          Posteriormente, puede vincular o importar los tipos de registros de esta plantilla en otros espacios de trabajo que cree.
+        * 2.Fréscopa Marketing global
+        * 3.Fréscopa Social Marketing
+        * 4.Fréscopa Media &amp; PR
+        * 5.Eventos globales de Fréscopa
+        * 6.Fréscopa Executive Liderazgo de la empresa
 
-      1. Después de abrir el cuadro **Vista previa** para cada plantilla de área de trabajo, haga clic en **Atrás** para volver al cuadro **Crear área de trabajo** o haga clic en **Usar plantillas** para usar las plantillas, incluidas las del paquete, y crear áreas de trabajo.
+     1. Después de abrir el cuadro **Vista previa** para cada plantilla de área de trabajo, haga clic en **Atrás** para volver al cuadro **Crear área de trabajo** o haga clic en **Usar plantillas** para usar las plantillas, incluidas las del paquete, y crear áreas de trabajo.
 
 
    * Haga clic en la ficha **Espacios de trabajo de ejemplo** y, a continuación, siga estos pasos:
 
-      1. Haga clic en una de las plantillas del espacio de trabajo de la pestaña para revisar los tipos de registro y los campos de cada plantilla. Las plantillas de la ficha **Espacios de trabajo de ejemplo** son de solo lectura.
-      1. Haga clic en **Crear a partir de plantillas** en la esquina superior derecha de una plantilla.
-      1. (Opcional) Haga clic en **Vista previa** en cualquiera de las plantillas para ver los tipos de registros y sus campos.
+     1. Haga clic en una de las plantillas del espacio de trabajo de la pestaña para revisar los tipos de registro y los campos de cada plantilla. Las plantillas de la ficha **Espacios de trabajo de ejemplo** son de solo lectura.
+     1. Haga clic en **Crear a partir de plantillas** en la esquina superior derecha de una plantilla.
+     1. (Opcional) Haga clic en **Vista previa** en cualquiera de las plantillas para ver los tipos de registros y sus campos.
 
-         >[!TIP]
-         >
-         >Al hacer clic en una tarjeta de tipo de registro de una plantilla, se muestran los campos del tipo de registro en el panel derecho.
-      1. Haga clic en **Usar plantillas**.
+        >[!TIP]
+        >
+        >Al hacer clic en una tarjeta de tipo de registro de una plantilla, se muestran los campos del tipo de registro en el panel derecho.
+     1. Haga clic en **Usar plantillas**.
 
    Los 6 espacios de trabajo se crean y se muestran en las fichas **Espacios de trabajo en los que estoy** y **Todos los espacios de trabajo** para los administradores del sistema. Todos los usuarios con licencia estándar verán los espacios de trabajo en su área de espacios de trabajo después de que un administrador del sistema los cree y comparta los nuevos espacios de trabajo con ellos.
 
