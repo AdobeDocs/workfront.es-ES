@@ -94,7 +94,7 @@ O
    <ul><li><p>Licencia de Adobe Experience Manager e integración entre Adobe Experience Manager y Workfront para conectar objetos de AEM con tipos de registros de Planning.</p>
    <p>Para obtener más información, consulte <a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md">Adobe Workfront para Experience Manager Assets y Assets Essentials: índice de artículo</a>. </p></li>
    <li><p> Licencia de Adobe GenStudio for Performance Marketing para conectar tipos de registros con marcas de GenStudio</p>
-   <p>Para obtener más información, consulte <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/get-started">Introducción a Adobe GenStudio for Performance Marketing</a>.</p></li></ul>
+   <p>Para obtener más información, consulte <a href="https://experienceleague.adobe.com/es/docs/genstudio-for-performance-marketing/user-guide/get-started">Introducción a Adobe GenStudio for Performance Marketing</a>.</p></li></ul>
 
 <p><b>NOTA</b></p>
    Si ha adquirido un paquete de Planning como producto independiente, también debe adquirir un paquete de flujo de trabajo para conectar los tipos de registros de Planning con los tipos de objetos de Workfront</p>
