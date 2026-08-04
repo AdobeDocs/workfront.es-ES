@@ -10,20 +10,14 @@ exl-id: 0f4fd3a7-9578-4fda-b10f-9b4be147f1de
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/5nwapHAbb8wRWqen7a49QfpsAMLPZNEfJUJ2vm4R7SA
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87effid: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: d2576b0e5abc0c4c46de740f1ea510452351a959
 workflow-type: tm+mt
-source-wordcount: 775
-ht-degree: 4%
+source-wordcount: 960
+ht-degree: 3%
 
 ---
 
@@ -43,7 +37,7 @@ Cualquier usuario puede agregar el Revisor de contenido a una solicitud de revis
 
 * La instancia de Workfront debe tener habilitadas las aprobaciones unificadas.
 * Su organización debe tener GenStudio Foundation.
-   * El Revisor de contenido de Workfront proporciona la funcionalidad disponible en GenStudio Foundation para los flujos de trabajo de revisión y aprobación de recursos. No es necesario que acceda directamente a GenStudio Foundation para completar su trabajo. El acceso a la funcionalidad de GenStudio Foundation a través del Revisor de contenido se encuentra dentro de los términos del contrato de Workfront.
+  * El Revisor de contenido de Workfront proporciona la funcionalidad disponible en GenStudio Foundation para los flujos de trabajo de revisión y aprobación de recursos. No es necesario que acceda directamente a GenStudio Foundation para completar su trabajo. El acceso a la funcionalidad de GenStudio Foundation a través del Revisor de contenido se encuentra dentro de los términos del contrato de Workfront.
 * Adobe debe tener registrado un acuerdo de Adobe Gen AI.
 Para obtener más información sobre la firma del acuerdo, consulte [Firmar el acuerdo de Adobe Gen AI](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#sign-the-adobe-gen-ai-agreement).
 * El revisor de contenido no está disponible en entornos de espacio aislado.
@@ -83,12 +77,46 @@ Para configurar las directrices de marca, los administradores del sistema deben:
 Una vez que se ha configurado al menos una marca, los administradores de Workfront pueden empezar a crear revisores de contenido en el área de configuración. Puede crear varios revisores de contenido centrados en diferentes directrices:
 
 * **Imagen**: este revisor de contenido revisará el recurso en relación con las directrices de marca de imagen que configuró en Workfront. [!BADGE Beta]{type=Positive tooltip="Esta función se encuentra actualmente en fase beta."}
-   * Los administradores del sistema deben firmar el acuerdo beta para habilitar esta función.
+  * Los administradores del sistema deben firmar el acuerdo beta para habilitar esta función.
 * **Voz de marca**: el revisor de contenido revisará el recurso en relación con las directrices de voz de marca que configuró en Workfront.
 
 Los revisores de contenido se pueden asignar a plantillas de aprobación y a solicitudes de revisión y aprobación individuales.
 
 Para obtener más información, consulte [Configuración de colaboradores de IA](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md).
+
+## Qué evalúa el revisor de contenido {#what-content-reviewer-evaluates}
+
+El Revisor de contenido evalúa el contenido de forma diferente en función del tipo de directriz: Imagen o Voz de marca.
+
+### Imagen
+
+El revisor de contenido evalúa:
+
+* **Composición**: punto focal, fondo, recorte, marcos creativos
+* **Iluminación y estado de ánimo**: uso de luz, vitalidad, optimismo
+* **Diversidad e inclusión**: Representación de personas (raza, sexo, edad, capacidad)
+
+El revisor de contenido no evalúa:
+
+* **Uso del logotipo**: ubicación, espacio libre, tamaño, versión correcta del logotipo
+* **Paleta de color**: compatibilidad con el color de la marca, evitar colores no aprobados
+* **Tipografía**: Familia de fuentes, grosores, espaciado, alineación
+* **Estilo de ilustración**: coherencia con el enfoque de ilustración de la marca
+* **Accesibilidad**: compatibilidad con el contraste, legibilidad
+
+### Voz de marca
+
+El revisor de contenido evalúa:
+
+* **Tono de voz**: conversacional, claro, humano, alineado con la personalidad de la marca
+* **Jerga/formalidad**: evitar palabras de moda, elitismo o formalidad excesiva
+* **Mensajería**: ánimo, honestidad, posicionamiento responsable (por ejemplo, para temas de IA)
+
+El revisor de contenido no evalúa:
+
+* **Legal/cumplimiento**: uso de marcas comerciales, exenciones de responsabilidad legal y reglas de localización
+
+Para obtener instrucciones sobre cómo escribir directrices de marca que se alineen con lo que evalúa el Revisor de contenido, consulte [Crear y administrar marcas para el Revisor de contenido](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-a-brand.md).
 
 ## Agregar revisores de contenido para revisar y aprobar solicitudes
 

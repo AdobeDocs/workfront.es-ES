@@ -10,20 +10,14 @@ exl-id: b2788f3f-43d2-46f3-8502-bb833f8a0970
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/ezurCOB6dbk6JPL0eY33C9nR8lXVLMHl-SUTfAbVeTg
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: d2576b0e5abc0c4c46de740f1ea510452351a959
 workflow-type: tm+mt
-source-wordcount: 571
+source-wordcount: 627
 ht-degree: 7%
 
 ---
@@ -69,7 +63,7 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
 * La instancia de Workfront debe tener habilitadas las aprobaciones unificadas.
 
 * Su organización debe tener GenStudio Foundation.
-   * El Revisor de contenido de Workfront proporciona la funcionalidad disponible en GenStudio Foundation para los flujos de trabajo de revisión y aprobación de recursos. No es necesario que acceda directamente a GenStudio Foundation para completar su trabajo. El acceso a la funcionalidad de GenStudio Foundation a través del Revisor de contenido se encuentra dentro de los términos del contrato de Workfront.
+  * El Revisor de contenido de Workfront proporciona la funcionalidad disponible en GenStudio Foundation para los flujos de trabajo de revisión y aprobación de recursos. No es necesario que acceda directamente a GenStudio Foundation para completar su trabajo. El acceso a la funcionalidad de GenStudio Foundation a través del Revisor de contenido se encuentra dentro de los términos del contrato de Workfront.
 * Adobe debe tener registrado un acuerdo de Adobe Gen AI.
 Para obtener más información sobre la firma del acuerdo, consulte [Firmar el acuerdo de Adobe Gen AI](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#sign-the-adobe-gen-ai-agreement).
 
@@ -142,6 +136,8 @@ Para obtener más información sobre la firma del acuerdo, consulte [Firmar el a
 
 
 ## Prácticas recomendadas para escribir directrices de marca
+
+Antes de escribir las directrices, revise [lo que el revisor de contenido evalúa](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md#what-content-reviewer-evaluates) para los tipos de directrices de voz de marca y de imagen. No se puntuarán las directrices que no pertenezcan a estas áreas de evaluación.
 
 *  Escriba directrices de marca que describan criterios mensurables. El Revisor de contenido evalúa el contenido literalmente, por lo que las reglas objetivas producen puntuaciones más coherentes que las subjetivas.
 
