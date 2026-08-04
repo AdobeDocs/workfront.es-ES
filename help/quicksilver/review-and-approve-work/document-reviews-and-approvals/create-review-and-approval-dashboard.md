@@ -7,17 +7,13 @@ author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 48f8605b-c342-493b-96e7-f73248e34b35
 TQID: https://experienceleague.adobe.com/c8-TIFSw6jfjZq-S76dP7SSrf69EFAfjB-OPAJJdVOQ
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: e07d9346bc39e91b59ce82d56fdc8801e6d5b846
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 5cc67b0f991a02759e42ec9b9369ae8359ecc40c
 workflow-type: tm+mt
-source-wordcount: 2563
+source-wordcount: 2584
 ht-degree: 1%
 
 ---
@@ -41,8 +37,9 @@ Puede crear un tablero de informes en el área de Paneles de lienzo para mostrar
 1. Haga clic en **Nuevo panel de control**.
 1. Asigne un nombre al tablero.
 1. (Opcional) Añada una descripción.
+1. (Opcional) Si tiene varias monedas definidas en la instancia de Workfront, también puede seleccionar una moneda predeterminada para el panel.
 1. Haga clic en **Crear**.
-   ![agregar nombre y descripción de panel](assets/create-a-dashboard.png)
+   ![Agregar nombre y descripción de panel](assets/create-a-dashboard.png)
 
 Una vez creado un panel, puede empezar a agregar KPI, gráficos y tablas. Consulte las secciones siguientes para obtener más información:
 
