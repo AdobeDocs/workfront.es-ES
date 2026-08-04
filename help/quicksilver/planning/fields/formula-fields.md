@@ -16,7 +16,7 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+source-git-commit: 347c3e87fea0289616bf1a52779c07501a8ec69d
 workflow-type: tm+mt
 source-wordcount: 784
 ht-degree: 31%
@@ -129,7 +129,7 @@ Old:
   </tr> 
   <tr> 
    <td role="rowheader"><p>Access level configuration</p></td> 
-   <td> <p>There are no access level controls for Adobe Workfront Planning</p>   
+   <td> <p>You must add both a Workflow and a Planning license type to the access level when you have both a Workflow and a Planning package</p>   
 </td> 
   </tr> 
 <tr> 
@@ -153,21 +153,21 @@ Old:
 * Sólo puede hacer referencia a campos que se muestran en la vista de tabla de un tipo de registro o en la página de detalles del registro.
 * Puede definir el formato para el valor de un cálculo de fórmula eligiendo entre las siguientes opciones de formato:
 
-   * Texto
-   * Número
-   * Porcentaje
-   * Divisa
-   * Etiquetas
-   * Fecha
+  * Texto
+  * Número
+  * Porcentaje
+  * Divisa
+  * Etiquetas
+  * Fecha
 
   Para obtener más información, consulte la sección &quot;Fórmula&quot; en el artículo [Crear campos](/help/quicksilver/planning/fields/create-fields.md).
 * Puede hacer referencia a los campos de fórmula en las fórmulas nuevas. Una vez que el valor se actualiza en un campo al que se hace referencia en un campo de fórmula, todos los campos subsiguientes que hagan referencia a ese campo o a los campos de fórmula que contengan ese campo se actualizarán automáticamente.
 
 * Al actualizar un campo de fórmula o un campo que pueda afectarlo, una alerta le notifica el impacto del cambio. La alerta se muestra en los siguientes casos:
 
-   * Cuando se actualiza un campo de fórmula (sin incluir los cambios de nombre y descripción) cuando ese campo tiene campos de fórmula o búsqueda dependientes. La alerta muestra esos campos dependientes y le pregunta si desea continuar.
+  * Cuando se actualiza un campo de fórmula (sin incluir los cambios de nombre y descripción) cuando ese campo tiene campos de fórmula o búsqueda dependientes. La alerta muestra esos campos dependientes y le pregunta si desea continuar.
 
-   * Cuando se elimina un campo que se utiliza en una expresión de fórmula o como campo de búsqueda. La alerta muestra los campos de fórmula y búsqueda dependientes y le pregunta si desea continuar con la eliminación.
+  * Cuando se elimina un campo que se utiliza en una expresión de fórmula o como campo de búsqueda. La alerta muestra los campos de fórmula y búsqueda dependientes y le pregunta si desea continuar con la eliminación.
 
 ## Limitaciones de los campos de fórmula
 
@@ -178,13 +178,13 @@ Old:
 * La expresión de fórmula no puede superar los 50 000 caracteres.
 
 * Los campos de fórmula podrían mostrarse como `#ERROR!` en los siguientes casos:
-   * Cuando se elimina un campo utilizado en una fórmula.
-   * Cuando un campo utilizado en un campo de búsqueda agregado se muestra como `#ERROR!`.
+  * Cuando se elimina un campo utilizado en una fórmula.
+  * Cuando un campo utilizado en un campo de búsqueda agregado se muestra como `#ERROR!`.
 
-     Por ejemplo, si muestra un campo de búsqueda que contiene campos de fórmula de búsqueda agregados y uno de los campos de fórmula a los que se hace referencia se muestra como `#ERROR!`.
-   * Cuando un valor de fórmula no se puede mostrar en el formato seleccionado.
+    Por ejemplo, si muestra un campo de búsqueda que contiene campos de fórmula de búsqueda agregados y uno de los campos de fórmula a los que se hace referencia se muestra como `#ERROR!`.
+  * Cuando un valor de fórmula no se puede mostrar en el formato seleccionado.
 
-     Por ejemplo, si selecciono Número para el formato de un campo de fórmula y los campos utilizados en la fórmula son campos de texto que sólo muestran valores de texto no numéricos, el resultado de la fórmula se mostrará como `#ERROR!`, ya que no puede analizar el texto en un número.
+    Por ejemplo, si selecciono Número para el formato de un campo de fórmula y los campos utilizados en la fórmula son campos de texto que sólo muestran valores de texto no numéricos, el resultado de la fórmula se mostrará como `#ERROR!`, ya que no puede analizar el texto en un número.
 
 
 ## Fórmulas compatibles

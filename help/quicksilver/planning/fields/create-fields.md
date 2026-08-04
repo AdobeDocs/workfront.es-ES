@@ -21,9 +21,9 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
+source-git-commit: 347c3e87fea0289616bf1a52779c07501a8ec69d
 workflow-type: tm+mt
-source-wordcount: 5395
+source-wordcount: 5377
 ht-degree: 48%
 
 ---
@@ -84,16 +84,25 @@ Para obtener más información acerca de los campos de Workfront Planning, consu
    <td role="rowheader"><p>Paquete de Adobe Workfront</p></td> 
    <td> 
 <ul> 
-<li><p>Cualquier Workfront y cualquier paquete de Planning</p></li>
+<li><p>Cualquier Workfront o flujo de trabajo con un paquete de Planning</p></li>
 O
-<li><p>Cualquier flujo de trabajo y cualquier paquete de Planning</p></li></ul>
-<p>Para obtener más información sobre lo que se incluye en cada paquete de Workfront Planning, póngase en contacto con su representante de cuentas de Workfront. </p> 
+<li><p>Cualquier paquete de Planning cuando se adquiere como producto independiente</p></li></ul>
    </td> 
   <tr> 
    <td role="rowheader"><p>Licencia de Adobe Workfront</p></td> 
-   <td><p>Estándar</p>
+   <td><p>Workflow Standard</p>
    </td> 
   </tr> 
+<tr> 
+   <td role="rowheader"><p>Licencia de planificación de Adobe</p></td> 
+   <td><p>Estándar de planificación</p>
+   </td> 
+  </tr> 
+<tr> 
+   <td role="rowheader"><p>Configuración de nivel de acceso</p></td> 
+   <td> <p>Debe agregar un tipo de licencia de flujo de trabajo y de Planning al nivel de acceso cuando tenga un flujo de trabajo y un paquete de Planning a la vez</p>   
+</td> 
+  </tr>
   <tr> 
    <td role="rowheader"><p>Permisos de objeto</p></td> 
    <td>   <p>Administración de permisos en un espacio de trabajo</p>  
@@ -154,7 +163,7 @@ Old:
   </tr> 
   <tr> 
    <td role="rowheader"><p>Access level configuration</p></td> 
-   <td> <p>There are no access level controls for Adobe Workfront Planning</p>   
+   <td> <p>You must add both a Workflow and a Planning license type to the access level when you have both a Workflow and a Planning package</p>   
 </td> 
   </tr> 
 <tr> 
@@ -442,16 +451,16 @@ Puede utilizar un campo de fecha para capturar información adicional en formato
    * **Descripción**: información adicional sobre el campo. La descripción de un campo se muestra al pasar el ratón por encima de la columna del campo en una tabla o al hacer clic en el icono de información situado junto al nombre del campo en la página de detalles del registro.
    * **Formato de fecha**: El tipo de formato de fecha que desea mostrar en este campo. <!--update this casing - submitted bug for it-->
    * Seleccione entre los siguientes formatos:
-      * **Corto**: 9/6/26
-      * **Medium**: 9 de junio de 2026
-      * **Long** 9 de junio de 2026
-      * **Incluir hora**: seleccione esta opción si desea incluir una marca de tiempo. De forma predeterminada, esta opción no está seleccionada. No se puede incluir un tiempo después de guardar el campo.
+     * **Corto**: 9/6/26
+     * **Medium**: 9 de junio de 2026
+     * **Long** 9 de junio de 2026
+     * **Incluir hora**: seleccione esta opción si desea incluir una marca de tiempo. De forma predeterminada, esta opción no está seleccionada. No se puede incluir un tiempo después de guardar el campo.
 
    * Seleccione entre las siguientes opciones:
 
-      * **24hr**: Por ejemplo: 18:00
-      * **12hr**: Por ejemplo: 6:00 PM
-      * **Mostrar la misma zona horaria a todos los usuarios** y, a continuación, seleccionar **Zona horaria**: seleccione esta opción si desea mostrar la misma marca de tiempo para todas las personas que vean el campo, independientemente de la zona horaria del usuario. La zona horaria seleccionada se añade al encabezado de columna de este campo.
+     * **24hr**: Por ejemplo: 18:00
+     * **12hr**: Por ejemplo: 6:00 PM
+     * **Mostrar la misma zona horaria a todos los usuarios** y, a continuación, seleccionar **Zona horaria**: seleccione esta opción si desea mostrar la misma marca de tiempo para todas las personas que vean el campo, independientemente de la zona horaria del usuario. La zona horaria seleccionada se añade al encabezado de columna de este campo.
 
 1. Haga clic en **Crear**.
 
@@ -514,9 +523,9 @@ Los tipos de campo de porcentaje capturan información en un formato numérico s
      >Si selecciona Permitir números negativos y los valores negativos se almacenan en los registros a los que está adjunto el campo, ya no podrá anular la selección de la configuración en el futuro.
 
    * **Mostrar como**: en el menú desplegable, elija cómo desea que se muestren los valores de porcentaje en la vista de tabla. Seleccione entre las siguientes opciones:
-      * **Número**: el valor porcentual se muestra como un número seguido del signo de porcentaje.
-      * **Barra**: El valor porcentual se muestra como una barra junto al número de porcentaje. El color de relleno de la barra indica el valor porcentual. Esta es la selección predeterminada.
-      * **Círculo**: el valor porcentual se muestra como el contorno de un círculo junto al número porcentual. El color de relleno del contorno del círculo indica el valor porcentual.
+     * **Número**: el valor porcentual se muestra como un número seguido del signo de porcentaje.
+     * **Barra**: El valor porcentual se muestra como una barra junto al número de porcentaje. El color de relleno de la barra indica el valor porcentual. Esta es la selección predeterminada.
+     * **Círculo**: el valor porcentual se muestra como el contorno de un círculo junto al número porcentual. El color de relleno del contorno del círculo indica el valor porcentual.
 
    >[!NOTE]
    >
@@ -720,17 +729,17 @@ Puede utilizar el tipo de campo Fecha de creación para añadir la fecha en la q
    * **Descripción**: información adicional sobre el campo. La descripción de un campo se muestra al pasar el ratón por encima de la columna del campo en una tabla o al hacer clic en el icono de información situado junto al nombre del campo en la página de detalles del registro.
    * **Formato de fecha**: seleccione entre los siguientes formatos:
 
-      * **Configuración regional**: coincide con la configuración regional del explorador.
-      * **Estándar**: 16/5/2023
-      * **Largo**: 16 de mayo de 2023
-      * **Europeo**: 16/5/2023
-      * **ISO**: 16-5-2023
+     * **Configuración regional**: coincide con la configuración regional del explorador.
+     * **Estándar**: 16/5/2023
+     * **Largo**: 16 de mayo de 2023
+     * **Europeo**: 16/5/2023
+     * **ISO**: 16-5-2023
    * **Incluir hora**: seleccione esta opción si desea incluir una marca de tiempo. De forma predeterminada, esta opción no está seleccionada. No se puede incluir un tiempo después de guardar el campo.
 
      Seleccione entre las siguientes opciones:
 
-      * **24hr**: Por ejemplo: 18:00
-      * **12hr**: Por ejemplo: 6:00 PM
+     * **24hr**: Por ejemplo: 18:00
+     * **12hr**: Por ejemplo: 6:00 PM
 
 1. Haga clic en **Crear**.
 
@@ -769,17 +778,17 @@ Puede utilizar el tipo de campo Fecha de la última modificación para añadir l
    * **Descripción**: información adicional sobre el campo. La descripción de un campo se muestra al pasar el ratón por encima de la columna del campo en una tabla o al hacer clic en el icono de información situado junto al nombre del campo en la página de detalles del registro.
    * **Formato de fecha**: seleccione entre los siguientes formatos:
 
-      * **Configuración regional**: coincide con la configuración regional del explorador.
-      * **Estándar**: 16/5/2023
-      * **Largo**: 16 de mayo de 2023
-      * **Europeo**: 16/5/2023
-      * **ISO**: 16-5-2023
+     * **Configuración regional**: coincide con la configuración regional del explorador.
+     * **Estándar**: 16/5/2023
+     * **Largo**: 16 de mayo de 2023
+     * **Europeo**: 16/5/2023
+     * **ISO**: 16-5-2023
    * **Incluir hora**: seleccione esta opción si desea incluir una marca de tiempo. De forma predeterminada, esta opción no está seleccionada. No se puede incluir un tiempo después de guardar el campo.
 
      Seleccione entre las siguientes opciones:
 
-      * **24hr**: Por ejemplo: 18:00
-      * **12hr**: Por ejemplo: 6:00 PM
+     * **24hr**: Por ejemplo: 18:00
+     * **12hr**: Por ejemplo: 6:00 PM
 
 1. Haga clic en **Crear**.
 

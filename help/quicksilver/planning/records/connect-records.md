@@ -22,10 +22,10 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
+source-git-commit: 347c3e87fea0289616bf1a52779c07501a8ec69d
 workflow-type: tm+mt
-source-wordcount: 3723
-ht-degree: 34%
+source-wordcount: 3643
+ht-degree: 32%
 
 ---
 
@@ -59,27 +59,27 @@ Puede conectar lo siguiente:
 
   Puede conectar registros con objetos de los tipos que se indican a continuación desde las aplicaciones siguientes:
 
-   * Adobe Workfront
+  * Adobe Workfront
 
-      * Proyectos
-      * Portafolios
-      * Programas
-      * Compañías
-      * Grupos
+    * Proyectos
+    * Portafolios
+    * Programas
+    * Compañías
+    * Grupos
 
-   * Adobe Experience Manager
+  * Adobe Experience Manager
 
-      * Recursos
+    * Recursos
 
-        Puede conectar los siguientes tipos de recursos desde Workfront Planning:
+      Puede conectar los siguientes tipos de recursos desde Workfront Planning:
 
-         * Archivos de imágenes
-         * Carpetas
-      * Fragmentos de contenido
+      * Archivos de imágenes
+      * Carpetas
+    * Fragmentos de contenido
 
 * Adobe GenStudio for Performance Marketing
 
-   * Marcas
+  * Marcas
 
   <!--when you add more objects, fix the Access Requirements below which right now refer only to projects-->
 
@@ -112,17 +112,26 @@ Puede conectar lo siguiente:
    <p>Para obtener más información, consulte <a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md">Adobe Workfront para Experience Manager Assets y Assets Essentials: índice de artículo</a>. </p></li>
    <li><p> Licencia de Adobe GenStudio for Performance Marketing para conectar tipos de registros con marcas de GenStudio o para tener acceso al espacio de trabajo de GenStudio</p>
    <p>Para obtener más información, consulte <a href="https://experienceleague.adobe.com/es/docs/genstudio-for-performance-marketing/user-guide/get-started">Introducción a Adobe GenStudio for Performance Marketing</a>.</p></li></ul>
-   </td> 
+<p><b>NOTA</b></p>
+<p>Debe adquirir un paquete de flujo de trabajo de Workfront para conectar registros de Planning con objetos de Workfront. </p>
+
+</td> 
   </tr>   
 <tr> 
   <tr> 
    <td role="rowheader"><p>Licencia de Adobe Workfront</p></td> 
-   <td><p>Estándar</p>
+   <td><p>Workflow Standard</p>
    </td> 
   </tr> 
-   <tr> 
+<tr> 
+   <td role="rowheader"><p>Licencia de planificación de Adobe</p></td> 
+   <td><p>Estándar de planificación</p>
+   </td> 
+  </tr>
+
+<tr> 
    <td role="rowheader"><p>Configuración de nivel de acceso</p></td> 
-   <td> <p>No hay controles de nivel de acceso para Adobe Workfront Planning</p> 
+   <td> <p>Debe agregar un tipo de licencia de flujo de trabajo y de Planning al nivel de acceso cuando tenga un flujo de trabajo y un paquete de Planning a la vez</p> 
    <p>Acceso superior o de visualización para los tipos de objeto a los que desea conectarse en Workfront y AEM Assets. </p>  
 </td> 
   </tr>
@@ -214,15 +223,15 @@ Old:
 
 * Para conectar registros con otros registros u objetos, debe tener lo siguiente:
 
-   * Al menos un espacio de trabajo, tipo de registro y registro.
+  * Al menos un espacio de trabajo, tipo de registro y registro.
 
-     Para obtener más información, consulte los siguientes artículos:
+    Para obtener más información, consulte los siguientes artículos:
 
-      * [Crear espacios de trabajo](/help/quicksilver/planning/architecture/create-workspaces.md)
-      * [Crear tipos de registro](/help/quicksilver/planning/architecture/create-record-types.md)
-      * [Crear registros](/help/quicksilver/planning/records/create-records.md)
+    * [Crear espacios de trabajo](/help/quicksilver/planning/architecture/create-workspaces.md)
+    * [Crear tipos de registro](/help/quicksilver/planning/architecture/create-record-types.md)
+    * [Crear registros](/help/quicksilver/planning/records/create-records.md)
 
-   * Conexiones entre los tipos de registro o entre los tipos de registro y los objetos de otras aplicaciones. Para obtener más información, consulte [Conectar tipos de registros](/help/quicksilver/planning/architecture/connect-record-types.md).
+  * Conexiones entre los tipos de registro o entre los tipos de registro y los objetos de otras aplicaciones. Para obtener más información, consulte [Conectar tipos de registros](/help/quicksilver/planning/architecture/connect-record-types.md).
 
 * Puede conectar uno o varios registros u objetos entre sí. Esto depende del tipo de conexión seleccionado al conectar los tipos de registro u objeto. Para obtener más información, consulte [Información general sobre los tipos de registros de Connect](/help/quicksilver/planning/architecture/connect-record-types-overview.md).
 
@@ -305,7 +314,7 @@ Puede conectar registros de Workfront Planning en las siguientes áreas de un re
    >
    >* La información del campo de fecha de los objetos de Workfront se muestra en formato de 24 horas en Workfront Planning, independientemente de cómo se muestre en Workfront.
    >
-   >   Por ejemplo, si la fecha planificada de inicio de un proyecto se muestra como las 3:00 p.m. en Workfront, se mostrará como 15:00 en Workfront Planning en un campo de búsqueda importado.
+   >   Por ejemplo, si la fecha planificada de inicio de un proyecto se muestra a las 3:00 p.m. en Workfront, en un campo de búsqueda importado se mostrará a las 15:00 en Workfront Planning.
 
 1. (Opcional) Cierre la página de tipo de registro y vaya al espacio de trabajo seleccionado.
 1. Haga clic en la tarjeta del tipo de registro al que está vinculado.
@@ -423,8 +432,8 @@ Después de crear una conexión entre un tipo de registro y objetos de Adobe Exp
 
 >[!NOTE]
 >
->Se puede acceder a los registros de planificación y a sus campos desde Experience Manager Assets cuando el administrador de Workfront configura la asignación de metadatos mediante la integración entre Workfront y Adobe Experience Manager Assets. Para obtener más información, consulte [Configuración de la asignación de metadatos de recursos entre Adobe Workfront y Experience Manager Assets](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
->Al conectar registros del espacio de trabajo de GenStudio en Planning a objetos de AEM (recursos y fragmentos de contenido), la información de GenStudio se muestra automáticamente en los objetos de AEM en AEM. La información de AEM se muestra para los registros de GenStudio en los campos de búsqueda agregados cuando la conexión se realiza en Workfront Planning. Para obtener más información, consulte [Administrar el espacio de trabajo de GenStudio en Adobe Workfront Planning](/help/quicksilver/planning/planning-and-genstudio-integration/manage-gen-studio-workspace-in-planning.md).
+>Se puede acceder a los registros de Planning y a sus campos desde Experience Manager Assets cuando el administrador de Workfront configura la asignación de metadatos mediante la integración entre Workfront y Adobe Experience Manager Assets. Para obtener más información, consulte [Configuración de la asignación de metadatos de recursos entre Adobe Workfront y Experience Manager Assets](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
+>Al conectar registros desde el espacio de trabajo de GenStudio en Planning a objetos de AEM (recursos y fragmentos de contenido), la información de GenStudio se muestra automáticamente en los objetos de AEM en AEM. La información de AEM se muestra para los registros de GenStudio en los campos de búsqueda agregados cuando la conexión se realiza en Workfront Planning. Para obtener más información, consulte [Administrar el espacio de trabajo de GenStudio en Adobe Workfront Planning](/help/quicksilver/planning/planning-and-genstudio-integration/manage-gen-studio-workspace-in-planning.md).
 
 <!--
 metadata mapping is not available yet for content fragments - as of April 22, 2026. Syuzanna said the mapping is available just for GenS workspace, but checking again with her and Isk.
@@ -468,7 +477,7 @@ Para conectar registros con objetos de Adobe Experience Manager:
 
    >[!IMPORTANT]
    >
-   > Solo puede conectar recursos a los que tenga acceso para verlos en Experience Manager. Una vez conectados, todos los usuarios de Workfront Planning pueden ver los recursos en Workfront Planning, independientemente de su acceso en Experience Manager Assets.
+   > Solo puede conectar los recursos a los que tiene acceso para verlos en Experience Manager. Una vez conectado, todos los usuarios de Workfront Planning pueden ver los recursos en Workfront Planning, independientemente de su acceso en Experience Manager Assets.
    > Para obtener más información sobre el Asesor de contenido, consulte [Usar el Asesor de contenido para acceder al contenido de AEM en las aplicaciones de Adobe](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications){target="_blank"}.
 
 1. En la pestaña **Fragmentos de contenido**, seleccione los fragmentos de contenido que desee agregar al campo de registro vinculado.
@@ -602,14 +611,14 @@ Debe tener lo siguiente para conectar registros de Workfront Planning desde obje
 * Conexiones entre los tipos de registro y los tipos de objeto de Workfront que se establecen en Workfront Planning.
 * El administrador de Workfront o de grupo debe agregar cualquiera de las siguientes opciones a un tipo de objeto de Workfront:
 
-   * La sección Planificación muestra los proyectos, portafolios y programas de Workfront en la plantilla de diseño.
+  * La sección Planificación muestra los proyectos, portafolios y programas de Workfront en la plantilla de diseño.
 
-   * El campo personalizado Conexiones de Planning a un formulario personalizado para uno de los siguientes objetos:
+  * El campo personalizado Conexiones de Planning a un formulario personalizado para uno de los siguientes objetos:
 
-      * Proyecto
-      * Portafolio
-      * Programa
-      * Grupo
-      * Compañía
+    * Proyecto
+    * Portafolio
+    * Programa
+    * Grupo
+    * Compañía
 
   Para obtener más información, consulte [Administrar conexiones de registro desde objetos de Workfront](/help/quicksilver/planning/records/manage-records-in-planning-section.md).

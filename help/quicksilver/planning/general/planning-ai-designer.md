@@ -20,9 +20,9 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e8216d44973c43f14ef615a6f8c4eb1cb05bd935
+source-git-commit: 347c3e87fea0289616bf1a52779c07501a8ec69d
 workflow-type: tm+mt
-source-wordcount: 1496
+source-wordcount: 1528
 ht-degree: 7%
 
 ---
@@ -52,7 +52,7 @@ Para obtener información sobre Workfront Planning, consulte los siguientes art�
 * [Información general de acceso a Adobe Workfront Planning](/help/quicksilver/planning/access/access-overview.md)
 
 
-## Requisitos de acceso <!--edit theses??-->
+## Requisitos de acceso
 
 +++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo. 
 
@@ -66,20 +66,25 @@ Para obtener información sobre Workfront Planning, consulte los siguientes art�
    <td role="rowheader"><p>Paquetes de Adobe Workfront</p></td> 
    <td> 
 <p>Cualquier paquete de Workfront o de flujo de trabajo con un paquete de Planning</p>
-<p>Cualquier Planning como paquete de producto independiente</p>
+<p>Cualquier plan cuando se adquiere como producto independiente</p>
    </td> </tr>
   </tr> 
   <tr> 
-   <td role="rowheader"><p>Licencia de Workfront</p></td> 
-   <td><p>Estándar</p> 
+   <td role="rowheader"><p>Licencia de Adobe Workfront</p></td> 
+   <td><p>Workflow Standard</p> 
    <p>Los administradores de Workfront deben habilitar Planning Designer para su organización</p>
   </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>Licencia de planificación</p></td> 
-   <td><p>Estándar</p> 
+   <td><p>Estándar de planificación</p> 
    <p>Los administradores de Workfront deben habilitar Planning Designer para su organización</p>
   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Configuración de nivel de acceso</p></td> 
+   <td> <p>Debe agregar un tipo de licencia de flujo de trabajo y de Planning al nivel de acceso cuando tenga un flujo de trabajo y un paquete de Planning a la vez</p>   
+</td> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>Permisos de objeto</p></td> 

@@ -20,9 +20,9 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
+source-git-commit: 347c3e87fea0289616bf1a52779c07501a8ec69d
 workflow-type: tm+mt
-source-wordcount: 1683
+source-wordcount: 1693
 ht-degree: 7%
 
 ---
@@ -50,9 +50,9 @@ Puede compartir un registro de Adobe Workfront Planning de las siguientes manera
 
   Para obtener más información, consulte los siguientes artículos:
 
-   * [Compartir un espacio de trabajo](/help/quicksilver/planning/access/share-workspaces.md)
+  * [Compartir un espacio de trabajo](/help/quicksilver/planning/access/share-workspaces.md)
 
-   * [Compartir un tipo de registro](/help/quicksilver/planning/access/share-record-types.md)
+  * [Compartir un tipo de registro](/help/quicksilver/planning/access/share-record-types.md)
 
 * Compartir un registro individual o compartir varios registros de forma masiva mediante la opción **Compartir**.
 
@@ -79,21 +79,31 @@ at GA, check that the Workfront plans article linked below has Planning info
 <col> 
 </col> 
 <tbody> 
-    <tr> 
+    <tr>
+
 <tr> 
    <td role="rowheader"><p>Paquete de Adobe Workfront</p></td> 
    <td> 
 <p>Cualquier Workfront o flujo de trabajo con un paquete de Planning</p> 
 O
 <p>Cualquier Workfront Planning como paquete de producto independiente</p> 
- </tr>
-
-<tr> 
+ </tr> 
+  <tr> 
    <td role="rowheader"><p>Licencia de Adobe Workfront</p></td> 
    <td><p>Cualquiera</p> 
-   <p><b>NOTA</b></p>
-   <p>Solo se pueden conceder permisos de administración a los registros a las personas con una licencia Standard. Todas las demás licencias solo pueden tener permisos de visualización y la opción Administrar aparece atenuada para ellas.</p>
   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Licencia de planificación de Adobe</p></td> 
+   <td><p>Cualquiera</p> 
+<p><b>NOTA</b></p>
+   <p>Solo se pueden conceder permisos de administración a los registros a las personas con una licencia de Planning Standard. Todas las demás licencias solo pueden tener permisos de visualización y la opción Administrar aparece atenuada para ellas.</p>
+  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Configuración de nivel de acceso</p></td> 
+   <td> <p>Debe agregar un tipo de licencia de flujo de trabajo y de Planning al nivel de acceso cuando tenga un flujo de trabajo y un paquete de Planning a la vez</p>  
+</td> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>Permisos de objeto</p></td> 
@@ -119,14 +129,14 @@ maybe use the Share record types as example here and touch on the same points: h
 * Puede compartir registros con las siguientes entidades: personas, grupos, equipos, empresas o roles.
 * Existen las siguientes limitaciones:
 
-   * No puede compartir más de 100 registros a la vez.
-   * No se pueden compartir registros con más de 100 entidades.
+  * No puede compartir más de 100 registros a la vez.
+  * No se pueden compartir registros con más de 100 entidades.
 * Si restringe los permisos a un registro, los usuarios ya no verán ese registro y los valores de sus campos de búsqueda en ningún lugar del sistema donde se muestre ese registro.
 * Workfront comprueba los permisos de registro en conexiones de hasta 5 registros de profundidad, lo que garantiza que los usuarios solo vean los registros compartidos con ellos.
 * Puede conceder los siguientes niveles de permisos a un registro:
 
-   * Ver
-   * Administrar
+  * Ver
+  * Administrar
 * Cuando comparte un espacio de trabajo y un tipo de registro con los usuarios, también reciben los mismos permisos para los registros del espacio de trabajo de forma predeterminada.
 Cuando los usuarios tienen permisos de contribución para un espacio de trabajo o tipo de registro, reciben permisos de administración para los registros de ese tipo de registro.
 * Cuando se quita una entidad de un espacio de trabajo, todos los permisos de uso compartido se quitan de los tipos de registro y de todos los registros que contiene.
@@ -135,13 +145,13 @@ Cuando los usuarios tienen permisos de contribución para un espacio de trabajo 
   Si comparte un registro con alguien que no está en el área de trabajo, se agregará automáticamente al área de trabajo.
 * El acceso de un usuario al registro se determina mediante la combinación de las tres opciones siguientes:
 
-   * Sus permisos se heredan del tipo de registro y del espacio de trabajo
-   * Permisos agregados individualmente en el cuadro para compartir registros
-   * **Todos los usuarios del área de trabajo pueden ver**.
+  * Sus permisos se heredan del tipo de registro y del espacio de trabajo
+  * Permisos agregados individualmente en el cuadro para compartir registros
+  * **Todos los usuarios del área de trabajo pueden ver**.
 
-     Esto hace que todos los usuarios del espacio de trabajo puedan ver el registro
+    Esto hace que todos los usuarios del espacio de trabajo puedan ver el registro
 
-     <!--
+    <!--
       Cannot do this on a record: 
       * **Only invited people can access**: This is selected by default and allows restricting access to the record to specific people. 
       -->
@@ -150,8 +160,8 @@ Cuando los usuarios tienen permisos de contribución para un espacio de trabajo 
 
   Por ejemplo:
 
-   * Si tienen permisos de visualización en el tipo de registro, obtienen permisos de visualización en el registro
-   * Si tiene permisos de tipo Contribuir o Administrar en el tipo de registro, obtiene permisos de Administración en el registro
+  * Si tienen permisos de visualización en el tipo de registro, obtienen permisos de visualización en el registro
+  * Si tiene permisos de tipo Contribuir o Administrar en el tipo de registro, obtiene permisos de Administración en el registro
 
 * Cuando un usuario tiene permisos de Administrar o Contribuir en el espacio de trabajo y el tipo de registro y los añade a los permisos de registro, los permisos de Vista aparecen atenuados. Conservan los mismos permisos para el registro que para el tipo de registro y no se les pueden conceder permisos inferiores para el registro.
 

@@ -20,9 +20,9 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+source-git-commit: 347c3e87fea0289616bf1a52779c07501a8ec69d
 workflow-type: tm+mt
-source-wordcount: 837
+source-wordcount: 859
 ht-degree: 9%
 
 ---
@@ -52,19 +52,29 @@ Los tipos de registro son los tipos de objetos de Adobe Workfront Planning. En W
     <tr> 
 <tr> 
 </tr>   
-<tr> 
+tr&gt; 
    <td role="rowheader"><p>Paquete de Adobe Workfront</p></td> 
    <td> 
-<p>Cualquier Workfront y cualquier paquete de Planning</p>
+<ul> 
+<li><p>Cualquier Workfront o flujo de trabajo con un paquete de Planning</p></li>
 O
-<p>Cualquier flujo de trabajo y cualquier paquete de Planning</p>
-<p>Para obtener más información sobre lo que se incluye en cada paquete de Workfront Planning, póngase en contacto con su representante de cuentas de Workfront. </p> 
+<li><p>Cualquier paquete de Planning cuando se adquiere como producto independiente</p></li></ul>
    </td> 
   <tr> 
    <td role="rowheader"><p>Licencia de Adobe Workfront</p></td> 
-   <td><p>Estándar</p>
+   <td><p>Workflow Standard</p>
    </td> 
   </tr> 
+<tr> 
+   <td role="rowheader"><p>Licencia de planificación de Adobe</p></td> 
+   <td><p>Estándar de planificación</p>
+   </td> 
+  </tr> 
+<tr> 
+   <td role="rowheader"><p>Configuración de nivel de acceso</p></td> 
+   <td> <p>Debe agregar un tipo de licencia de flujo de trabajo y de Planning al nivel de acceso cuando tenga un flujo de trabajo y un paquete de Planning a la vez</p>   
+</td> 
+  </tr>  
   <tr> 
    <td role="rowheader"><p>Permisos de objeto</p></td> 
    <td>   <p>Administración de permisos en un espacio de trabajo</p>  
@@ -124,7 +134,7 @@ Old:
   </tr> 
   <tr> 
    <td role="rowheader"><p>Access level configuration</p></td> 
-   <td> <p>There are no access level controls for Adobe Workfront Planning</p>   
+   <td> <p>You must add both a Workflow and a Planning license type to the access level when you have both a Workflow and a Planning package</p>   
 </td> 
   </tr> 
 <tr> 
@@ -146,20 +156,20 @@ Old:
 * Los campos son únicos para sus respectivos tipos de registros.
 * Cada fila de cada hoja se convierte en un registro único asociado a su tipo de registro respectivo.
 * Cada hoja del archivo de Excel no debe superar lo siguiente:
-   * 25 000 filas
-   * 500 columnas
+  * 25 000 filas
+  * 500 columnas
 * El archivo no debe superar los 5 MB.
 * No se admiten hojas vacías.
 * No se admiten los campos de los siguientes tipos y no se pueden asignar a campos de la hoja de importación:
 
-   * Campos de conexión a Workfront, tipos de objetos de Adobe Experience Manager o marcas de GenStudio.
-   * Campos de búsqueda de registros de Planning conectados, Workfront, objetos de Adobe Experience Manager o marcas de GenStudio.
-   * Campos de fórmula
-   * Fecha de creación, Creado por
-   * Fecha de la última modificación, Última modificación por
-   * Fecha de aprobación, Aprobado por
-   * Personas
-   * ID de registro
+  * Campos de conexión a Workfront, tipos de objetos de Adobe Experience Manager o marcas de GenStudio.
+  * Campos de búsqueda de registros de Planning conectados, Workfront, objetos de Adobe Experience Manager o marcas de GenStudio.
+  * Campos de fórmula
+  * Fecha de creación, Creado por
+  * Fecha de la última modificación, Última modificación por
+  * Fecha de aprobación, Aprobado por
+  * Personas
+  * ID de registro
 
 Para importar tipos de registros mediante un archivo CSV o de Excel:
 

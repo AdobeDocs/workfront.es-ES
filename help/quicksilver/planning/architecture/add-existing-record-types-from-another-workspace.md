@@ -20,10 +20,10 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
+source-git-commit: 347c3e87fea0289616bf1a52779c07501a8ec69d
 workflow-type: tm+mt
-source-wordcount: 765
-ht-degree: 5%
+source-wordcount: 749
+ht-degree: 6%
 
 ---
 
@@ -56,7 +56,7 @@ Antes de agregar registros a un área de trabajo desde un tipo de registro globa
 <col> 
 </col> 
 <col> 
-</col> 
+</col>  
 <tbody> 
     <tr> 
 <tr> 
@@ -64,17 +64,27 @@ Antes de agregar registros a un área de trabajo desde un tipo de registro globa
 <tr> 
    <td role="rowheader"><p>Paquete de Adobe Workfront</p></td> 
    <td> 
-<ul><li><p>Cualquier paquete Workfront y un paquete Planning Plus</p></li>
+<p>Cualquier Workfront o flujo de trabajo con un paquete de Planning</p> 
 O
-<li><p>Cualquier flujo de trabajo y un paquete de Planning Prime o Ultimate</p></p></li></ul>
-<p>Para obtener más información sobre lo que se incluye en cada paquete de Workfront Planning, póngase en contacto con su representante de cuentas de Workfront. </p> 
-   </td> 
+<p>Cualquier Workfront Planning como paquete de producto independiente</p> 
+ </tr> 
   <tr> 
    <td role="rowheader"><p>Licencia de Adobe Workfront</p></td> 
-   <td><p>Estándar</p>
-   </td> 
+   <td><p>Workflow Standard</p> 
+  </td> 
   </tr> 
   <tr> 
+   <td role="rowheader"><p>Licencia de planificación de Adobe</p></td> 
+   <td><p>Estándar de planificación</p> 
+  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Configuración de nivel de acceso</p></td> 
+   <td> <p>Debe agregar un tipo de licencia de flujo de trabajo y de Planning al nivel de acceso cuando tenga un flujo de trabajo y un paquete de Planning a la vez</p>   
+</td> 
+  </tr>
+
+<tr> 
    <td role="rowheader"><p>Permisos de objeto</p></td> 
    <td>   <p>Administración de permisos en un espacio de trabajo</p>  
    <p>Los administradores del sistema tienen permisos para todos los espacios de trabajo, incluidos los que no crearon</p>  </td> 
@@ -158,8 +168,8 @@ Ocurren lo siguiente:
 
 * También se agrega la siguiente información desde el tipo de registro global existente:
 
-   * Todos los campos originales
-   * Todas las conexiones de registros
+  * Todos los campos originales
+  * Todas las conexiones de registros
 * No se pueden ver los registros agregados desde el espacio de trabajo original del tipo de registro desde el espacio de trabajo secundario.
 * Puede ver los registros agregados desde el espacio de trabajo original del tipo de registro en ese espacio de trabajo, sólo en el espacio de trabajo original, si tiene al menos permisos de Vista en ese espacio de trabajo.
 * El campo **Workspace** de solo lectura se agrega a la nueva vista de tabla de tipo de registro. El campo muestra el espacio de trabajo donde se creó cada registro.

@@ -18,7 +18,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 4d6be75a507438eee1f3887474b847c2bece85ff
+source-git-commit: 71bd341da0b506429ab25726ae3be82829034f9f
 workflow-type: tm+mt
 source-wordcount: 4323
 ht-degree: 0%
@@ -101,7 +101,7 @@ La funcionalidad de revisión de Workfront no está disponible con esta integrac
 
 <span class="preview">La revisión y aprobación unificadas incluyen un registro de auditoría completo que crea un seguimiento de control completo en Workfront y Frame.io. Los registros de seguimiento de cambios capturan las decisiones de aprobación realizadas en el visor Frame.io y en el ciclo vital del documento. Cada entrada de registro incluye atribución del sistema de origen (Workfront o Frame.io) junto con los campos de auditoría estándar de Workfront: fecha y hora, tipo de registro, nombre de usuario, acción y nombre de objeto. Los comentarios del visor Frame.io no se incluyen en los registros de auditoría.</span>
 
-<span class="preview">Los registros de seguimiento de cambios aparecen en el área de Configuración de Workfront y están disponibles para la exportación. Para obtener más información, vea [Ver y administrar el historial de cambios](/help/quicksilver/administration-and-setup/manage-enterprise-operations/view-and-manage-change-history.md).</span>
+<span class="preview">Los registros de seguimiento de cambios aparecen en el área de Configuración de Workfront y están disponibles para la exportación. Para obtener más información, vea [Ver y administrar el historial de cambios](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/view-and-manage-change-history.md).</span>
 
 ## Potente administración de proyectos en Workfront
 

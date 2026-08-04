@@ -20,10 +20,10 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+source-git-commit: 4378eb4b7272ac17b0fb6f2f2e77de2c0b272050
 workflow-type: tm+mt
-source-wordcount: 1360
-ht-degree: 40%
+source-wordcount: 1394
+ht-degree: 39%
 
 ---
 
@@ -67,8 +67,8 @@ Puede ver los registros en las vistas siguientes:
 
   Para obtener más información, consulte los siguientes artículos:
 
-   * [Agregar una página de Registros conectados a un registro](/help/quicksilver/planning/records/add-a-connected-records-page-to-a-record.md)
-   * [Administración de la vista de lista](/help/quicksilver/planning/views/manage-the-list-view.md)
+  * [Agregar una página de Registros conectados a un registro](/help/quicksilver/planning/records/add-a-connected-records-page-to-a-record.md)
+  * [Administración de la vista de lista](/help/quicksilver/planning/views/manage-the-list-view.md)
 
 En este artículo se describe la siguiente información sobre las vistas de registros:
 
@@ -99,15 +99,29 @@ Para obtener más información sobre la administración de vistas de registros d
 <tr> 
    <td role="rowheader"><p>Paquete de Adobe Workfront</p></td> 
    <td> 
-<p>Cualquier Workfront y cualquier paquete de Planning</p>
-<p>Cualquier flujo de trabajo y cualquier paquete de Planning</p>
-<p>Para obtener más información sobre lo que se incluye en cada paquete de Workfront Planning, póngase en contacto con su representante de cuentas de Workfront. </p> 
-   </td> 
-  <tr> 
+<ul> 
+<li><p>Cualquier Workfront o flujo de trabajo con un paquete de Planning</p></li>
+O
+<li><p>Cualquier paquete de Planning cuando se adquiere como producto independiente</p></li></ul>
+   </td> </tr>
+
+<tr> 
    <td role="rowheader"><p>Licencia de Adobe Workfront</p></td> 
-   <td><p> Estándar para crear y eliminar vistas</p>
-   <p>Colaborador o superior para actualizar los elementos de vista</p>
+   <td><p>Flujo de trabajo ligero o superior</p>
   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Licencia de planificación de Adobe</p></td> 
+   <td><p> Planning Standard para crear y eliminar vistas</p>
+   <p>Planning Contributor o superior para actualizar los elementos de vista</p>
+   <p><b>NOTA</b><p>
+   <p>No todos los clientes tienen licencias de Planning Contributor</p>
+  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Configuración de nivel de acceso</p></td> 
+   <td> <p>Debe agregar un tipo de licencia de flujo de trabajo y de Planning al nivel de acceso cuando tenga un flujo de trabajo y un paquete de Planning a la vez</p>   
+</td> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>Permisos de objeto</p></td> 
@@ -171,7 +185,7 @@ Old:
   </tr> 
   <tr> 
    <td role="rowheader"><p>Access level configuration</p></td> 
-   <td> <p>There are no access level controls for Adobe Workfront Planning</p>   
+   <td> <p>You must add both a Workflow and a Planning license type to the access level when you have both a Workflow and a Planning package</p>   
 </td> 
   </tr> 
 <tr> 
@@ -197,14 +211,14 @@ Old:
 * Cada usuario puede crear un máximo de 100 vistas. Puede mostrar más de 100 vistas para un tipo de registro, pero un usuario solo puede crear 100 vistas.
 * Aunque algunos elementos de vista se pueden aplicar a varias vistas del mismo registro, son únicos en cada vista de registro:
 
-   * Filtro
-   * Ordenar (para la vista de tabla)
-   * Colores de fila (para la vista de tabla)
-   * Campos (para la vista de tabla)
-   * Desglose (para la vista de cronología)
-   * Agrupación (para las vistas Tabla y Cronología)
-   * Apariencia de la barra (para las vistas de calendario y cronología)
-   * Altura de fila (para la tabla y la vista de calendario mensual)
+  * Filtro
+  * Ordenar (para la vista de tabla)
+  * Colores de fila (para la vista de tabla)
+  * Campos (para la vista de tabla)
+  * Desglose (para la vista de cronología)
+  * Agrupación (para las vistas Tabla y Cronología)
+  * Apariencia de la barra (para las vistas de calendario y cronología)
+  * Altura de fila (para la tabla y la vista de calendario mensual)
 
   Por ejemplo, al crear un filtro en una vista de tabla, los resultados del filtro sólo son visibles en la vista seleccionada (la vista de tabla) y no en todas las vistas asociadas al tipo de registro.
 

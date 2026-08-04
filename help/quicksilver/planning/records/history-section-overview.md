@@ -19,10 +19,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a93c6c9faf26d5eab1c223bd4a2646af896bf97d
+source-git-commit: 4378eb4b7272ac17b0fb6f2f2e77de2c0b272050
 workflow-type: tm+mt
-source-wordcount: 555
-ht-degree: 81%
+source-wordcount: 588
+ht-degree: 76%
 
 ---
 
@@ -59,13 +59,26 @@ El panel derecho de un registro muestra las siguientes secciones:
 <tr> 
    <td role="rowheader"><p>Paquete de Adobe Workfront</p></td> 
    <td> 
-<p>Cualquier Workfront y cualquier paquete de Planning</p> <p>Cualquier flujo de trabajo y cualquier paquete de Planning</p>
-<p>Para obtener más información sobre lo que se incluye en cada paquete de Workfront Planning, póngase en contacto con su representante de cuentas de Workfront. </p> 
+<p>Cualquier Workfront o flujo de trabajo y un paquete de Planning</p> 
+O
+<p>Cualquier paquete de Planning cuando se adquiere como producto independiente</p>
    </td> 
   <tr> 
    <td role="rowheader"><p>Licencia de Adobe Workfront</p></td> 
-   <td><p>Colaborador o superior</p>
+   <td><p>Flujos de trabajo ligeros o superiores</p>
    </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Licencia de planificación de Adobe</p></td> 
+   <td><p>Colaborador de Planning o superior</p>
+   <p><b>NOTA</b></p>
+   <p>No todos los clientes tienen una licencia de colaborador de Planning</p>
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Configuración de nivel de acceso</p></td> 
+   <td> <p>Debe agregar un tipo de licencia de flujo de trabajo y de Planning al nivel de acceso cuando tenga un flujo de trabajo y un paquete de Planning a la vez</p>   
+</td> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>Permisos de objeto</p></td> 
@@ -128,7 +141,7 @@ Old:
   </tr> 
   <tr> 
    <td role="rowheader"><p>Access level configuration</p></td> 
-   <td> <p>There are no access level controls for Adobe Workfront Planning</p>   
+   <td> <p>You must add both a Workflow and a Planning license type to the access level when you have both a Workflow and a Planning package</p>   
 </td> 
   </tr> 
 <tr> 
@@ -172,29 +185,29 @@ Puede revisar los cambios realizados en los campos de registro en la sección Hi
 
 * Workfront Planning registra la siguiente información en la sección Historial:
 
-   * Cualquier cambio de campo
+  * Cualquier cambio de campo
 
-   * Los valores antiguos y nuevos de los campos, cuando cambian los valores. Los valores antiguos se muestran en formato tachado.
+  * Los valores antiguos y nuevos de los campos, cuando cambian los valores. Los valores antiguos se muestran en formato tachado.
 
-   * El nombre completo del usuario que ha realizado el cambio
+  * El nombre completo del usuario que ha realizado el cambio
 
-   * Una marca de fecha y hora de cuando se produjo el cambio.
+  * Una marca de fecha y hora de cuando se produjo el cambio.
 
 * Los campos de los siguientes tipos siempre muestran el valor antiguo (en formato tachado) y el nuevo:
 
-   * Texto
-   * Párrafo
-   * Divisa
-   * Fecha
-   * Número
-   * Porcentaje
-   * Selección única
+  * Texto
+  * Párrafo
+  * Divisa
+  * Fecha
+  * Número
+  * Porcentaje
+  * Selección única
 
 * Los campos de los siguientes tipos muestran el valor antiguo en formato tachado solo si se ha quitado al menos uno de los valores múltiples:
 
-   * Selección múltiple
-   * Campos de registro vinculados
-   * Personas
+  * Selección múltiple
+  * Campos de registro vinculados
+  * Personas
 
   Si el cambio solo ha añadido valores al campo, el valor antiguo no se muestra y solo se muestra el nuevo valor de campo.
 
@@ -204,11 +217,11 @@ Puede revisar los cambios realizados en los campos de registro en la sección Hi
 
 * Los cambios en los campos de los siguientes tipos no se muestran en la sección Historial:
 
-   * Campos vinculados (de búsqueda)
-   * Fórmula
-   * Creado por
-   * Fecha de creación
-   * Última modificación realizada por
-   * Fecha de la última modificación
+  * Campos vinculados (de búsqueda)
+  * Fórmula
+  * Creado por
+  * Fecha de creación
+  * Última modificación realizada por
+  * Fecha de la última modificación
 
 * Si se quita un campo del sistema, las actualizaciones realizadas en ese campo permanecen en la sección Historial. No hay ninguna indicación de que el campo se haya quitado en la sección Historial de un registro.
