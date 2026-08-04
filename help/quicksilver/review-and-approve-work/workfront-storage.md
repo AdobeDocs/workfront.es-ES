@@ -6,9 +6,9 @@ description: Planifique el despliegue de Workfront en el almacenamiento en la nu
 author: Courtney
 feature: System Setup and Administration, Work Management, Digital Content and Documents
 role: Admin
-source-git-commit: 6bfa9fd95de0301fea5f15885cc1aafbb2d14dbb
+source-git-commit: 36a4c29fb3d5e3ff3bb3b4952076cdd4bdf5d1d6
 workflow-type: tm+mt
-source-wordcount: '2967'
+source-wordcount: '2936'
 ht-degree: 1%
 
 ---
@@ -21,14 +21,20 @@ El nuevo área Documentos, el visor Frame.io y otros comportamientos de almacena
 
 Este artículo está dirigido a los administradores de Workfront que se preparan para implementar Workfront en el almacenamiento en la nube de Adobe. Abarca las principales diferencias en los objetos de almacenamiento en la nube de Adobe, cómo elegir el tipo de despliegue y qué pensar antes de habilitar el almacenamiento en la nube de Adobe para los usuarios.
 
->[!IMPORTANT]
+>[!NOTE]
 >
 >* Debe contar con una versión de Workfront que admita el almacenamiento en la nube de Adobe. Si su organización aún no tiene una versión compatible, póngase en contacto con el representante de cuentas de Adobe.
->* Al pasar a una versión de Workfront compatible con el almacenamiento en la nube de Adobe, se mueven *todos* los flujos de trabajo de aprobación existentes de Aprobaciones de documentos heredados a Aprobaciones unificadas. Consulte [Aprobaciones unificadas se aplican independientemente del modelo de almacenamiento](#unified-approvals-applies-regardless-of-storage-model) para obtener más información.
 
 ## Las aprobaciones unificadas se aplican independientemente del modelo de almacenamiento
 
-Al pasar a una versión de Workfront compatible con el almacenamiento en la nube de Adobe, se mueven *todos* los flujos de trabajo de aprobación existentes de Aprobaciones de documentos heredados a Aprobaciones unificadas, para cada objeto, ya sea que permanezca en el almacenamiento de Workfront heredado o se mueva al almacenamiento en la nube de Adobe. Esto es diferente de las opciones de despliegue de almacenamiento descritas en [Elija cómo se despliega el almacenamiento en la nube de Adobe](#choose-how-adobe-cloud-storage-rolls-out): esas opciones controlan qué modelo de almacenamiento utilizan los nuevos objetos, no si los flujos de trabajo de aprobación pasan a Aprobaciones unificadas. No hay ningún grupo piloto ni opción gradual para este cambio; se aplica en toda la organización en cuanto dispone de una versión compatible.
+Al pasar a una versión de Workfront compatible con el almacenamiento en la nube de Adobe, se mueven *todos* los flujos de trabajo de aprobación existentes de Aprobaciones de documentos heredados a Aprobaciones unificadas, para cada objeto, ya sea que permanezca en el almacenamiento de Workfront heredado o se mueva al almacenamiento en la nube de Adobe.
+
+
+>[!IMPORTANT]
+>
+>Esto es diferente de las opciones de despliegue de almacenamiento descritas en [Elija cómo se despliega el almacenamiento en la nube de Adobe](#choose-how-adobe-cloud-storage-rolls-out): esas opciones controlan qué modelo de almacenamiento utilizan los nuevos objetos, no si los flujos de trabajo de aprobación pasan a Aprobaciones unificadas.<br>
+>No hay ningún grupo piloto ni opción gradual para este cambio; se aplica en toda la organización en cuanto dispone de una versión compatible.
+
 
 Antes de implementar el almacenamiento en la nube de Adobe, asegúrese de que las personas que administran las aprobaciones sepan qué esperar:
 
@@ -242,11 +248,13 @@ Usted decide cómo aparece el almacenamiento en la nube de Adobe para sus usuari
 
 Para obtener instrucciones paso a paso, consulte [Habilitar el almacenamiento en la nube de Adobe para su organización](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md).
 
+
+### Opciones de configuración
+
 * **Solo almacenamiento en la nube de Adobe**: Los nuevos proyectos usan el almacenamiento en la nube de Adobe de forma predeterminada. Los usuarios no pueden crear proyectos heredados.
 * **Almacenamiento en la nube de Adobe y almacenamiento heredado de Workfront**: Cuando los usuarios crean un proyecto, eligen entre almacenamiento en la nube de Adobe (con la etiqueta &quot;Nuevo proyecto&quot;) y almacenamiento heredado de Workfront (con la etiqueta &quot;Almacenamiento heredado&quot;).
 
   ![elegir un tipo de proyecto](assets/choose-project-type.png)
-
 
 
 >[!TIP]

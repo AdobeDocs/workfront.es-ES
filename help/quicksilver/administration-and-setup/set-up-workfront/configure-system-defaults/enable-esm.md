@@ -10,9 +10,9 @@ role: Admin
 exl-id: 48b581c7-a21a-45de-95c5-eafb0713b42e
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
+source-git-commit: 36a4c29fb3d5e3ff3bb3b4952076cdd4bdf5d1d6
 workflow-type: tm+mt
-source-wordcount: '459'
+source-wordcount: '462'
 ht-degree: 8%
 
 ---
@@ -74,11 +74,15 @@ Para habilitar el almacenamiento en la nube de Adobe para su organización:
    - **Organización completa**: esta opción aplica el proveedor de almacenamiento predeterminado a todo el entorno de Workfront. Cada vez que un usuario cree un nuevo proyecto, se utilizará el proveedor de almacenamiento predeterminado.
    - **Grupos específicos**: esta opción aplica el proveedor de almacenamiento predeterminado solamente a grupos específicos dentro de su organización. Cada vez que un usuario de los grupos especificados cree un nuevo proyecto, se utilizará el proveedor de almacenamiento predeterminado
 
+   ![grupos de preferencias de almacenamiento](assets/configure-storage-preference.png)
+
 1. Haga clic en **Guardar**.
 
    >[!NOTE]
    >
    >Los proyectos existentes mantienen el modelo de almacenamiento con el que se crearon. Por ejemplo, los proyectos que utilizan el almacenamiento en la nube de Adobe siguen utilizando el almacenamiento en la nube de Adobe después de cambiar la preferencia de almacenamiento predeterminada.
+
+
 
 ## Almacenamiento en la nube de Adobe en entornos de espacio aislado
 
