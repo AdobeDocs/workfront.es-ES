@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: c38801ee-9750-4ffb-a912-cdcccfc7c60a
-source-git-commit: f27d4a7e48bbf1858642d99b2621d612f7ac54ad
+source-git-commit: b4cc76f51dfd2a08ce8beb31ef6d2d91f55abbef
 workflow-type: tm+mt
-source-wordcount: '1344'
+source-wordcount: '1420'
 ht-degree: 4%
 
 ---
@@ -129,7 +129,7 @@ Para obtener una lista de prácticas recomendadas al crear un agente para que fu
    | Plataforma | Autenticación requerida |
    |---|---|
    | Copilot Studio | Secreto del canal web |
-   | Claude Managed Agents | Clave API antrópica<br>Id. de agente<br>Id. de entorno |
+   | Agentes gestionados de Claude | Clave API antrópica<br>Id. de agente<br>Id. de entorno |
    | Escritor | Clave de API <br>ID de aplicación |
 
 1. Haga clic en **Probar conexión**. Esto le permite saber si la conexión se ha configurado correctamente.
@@ -178,6 +178,10 @@ Puede encontrar útiles las siguientes prácticas recomendadas al crear un agent
 +++
 -->
 +++ Escritor
+
+>[!NOTE]
+>
+> Puede utilizar un agente de Writer como colaborador de tareas, pero los libros de reproducción de Writer no se pueden utilizar como colaboradores de tareas.
 
 Al crear un agente para utilizarlo como colaborador de tareas en Writer, recomendamos el siguiente flujo de trabajo.
 
