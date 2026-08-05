@@ -17,9 +17,9 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: d7df53ffd980b9a05856bb40472bbeebba5da84e
+source-git-commit: 66635b2edc78833ec2d08cef382b39b89238b565
 workflow-type: tm+mt
-source-wordcount: 1435
+source-wordcount: 1467
 ht-degree: 18%
 
 ---
@@ -145,6 +145,14 @@ Para vincular contenido:
       </tr>
    </tbody>
    </table>
+
+   >[!NOTE]
+   >
+   >El contenido recomendado en el Asesor de contenido utiliza datos de los siguientes elementos para determinar el contenido sugerido en Workfront:
+   >
+   >* Campos de nombre y descripción de objeto de Workfront
+   >* Campos de formulario personalizados marcados como obligatorios
+   >* Datos de documentos adjuntos
 
 
 ### Vincular una nueva versión de Experience Manager Assets con el Asesor de contenido

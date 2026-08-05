@@ -1,6 +1,6 @@
 ---
 title: Importar campos desde Adobe Workfront
-description: En Adobe Workfront Planning, puede crear campos personalizados para cada tipo de registro. A continuación, puede asociar el campo con los registros de Workfront Planning.
+description: En Adobe Workfront Planning, puede agregar campos existentes desde Adobe Workfront. A continuación, puede asociarlos a registros de Planning. No puede importar campos existentes de Workfront si su organización ha adquirido Planning como producto independiente.
 feature: Workfront Planning
 role: User, Admin
 author: Alina
@@ -21,10 +21,10 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 347c3e87fea0289616bf1a52779c07501a8ec69d
+source-git-commit: f8dfa5a4aec4541d885bcc45933488cd1fdefac4
 workflow-type: tm+mt
-source-wordcount: 622
-ht-degree: 29%
+source-wordcount: 640
+ht-degree: 24%
 
 ---
 
@@ -41,8 +41,11 @@ ht-degree: 29%
 
 {{planning-important-intro}}
 
-Puede importar copias de campos de Workfront existentes. Al importar campos desde Workfront, se crea una copia de cada campo para un tipo de registro de Workfront Planning.
+Puede importar copias de campos de Adobe Workfront existentes. Al importar campos desde Workfront, se crea una copia de cada campo para un tipo de registro de Workfront Planning.
 
+>[!IMPORTANT]
+>
+>La creación de campos mediante su importación desde Workfront no está disponible para los clientes que compraron Planning como producto independiente.
 
 ## Requisitos de acceso
 
@@ -59,11 +62,9 @@ Puede importar copias de campos de Workfront existentes. Al importar campos desd
 </tr>   
 <tr> 
    <td role="rowheader"><p>Paquete de Adobe Workfront</p></td> 
-   <td> 
-<ul> 
-<li><p>Cualquier Workfront o flujo de trabajo con un paquete de Planning</p></li>
-O
-<li><p>Cualquier paquete de Planning cuando se adquiere como producto independiente</p></li></ul>
+   <td>
+
+<p>Cualquier Workfront o flujo de trabajo con un paquete de Planning</p>
    </td> 
   <tr> 
    <td role="rowheader"><p>Licencia de Adobe Workfront</p></td> 
@@ -74,13 +75,9 @@ O
    <td role="rowheader"><p>Licencia de planificación de Adobe</p></td> 
    <td><p>Estándar de planificación</p>
    </td> 
-  </tr> 
+  </tr>
+
 <tr> 
-   <td role="rowheader"><p>Configuración de nivel de acceso</p></td> 
-   <td> <p>Debe agregar un tipo de licencia de flujo de trabajo y de Planning al nivel de acceso cuando tenga un flujo de trabajo y un paquete de Planning a la vez</p>   
-</td> 
-  </tr>  
-  <tr> 
    <td role="rowheader"><p>Permisos de objeto</p></td> 
    <td>   <p>Administración de permisos en un espacio de trabajo</p>  
    <p>Los administradores del sistema tienen permisos para todos los espacios de trabajo, incluidos los que no crearon</p>  </td> 

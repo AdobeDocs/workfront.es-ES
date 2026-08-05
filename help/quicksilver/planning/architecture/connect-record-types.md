@@ -22,10 +22,10 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 347c3e87fea0289616bf1a52779c07501a8ec69d
+source-git-commit: f8dfa5a4aec4541d885bcc45933488cd1fdefac4
 workflow-type: tm+mt
-source-wordcount: 3098
-ht-degree: 38%
+source-wordcount: 3121
+ht-degree: 37%
 
 ---
 
@@ -48,6 +48,10 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
 -->
 
 Puede conectar tipos de registros entre sí o conectar tipos de registros con tipos de objetos de otras aplicaciones.
+
+>[!IMPORTANT]
+>
+>Al conectar tipos de registros de Planning con tipos de objetos de otras aplicaciones, también debe tener una licencia y una cuenta para esas aplicaciones.
 
 La conexión de tipos de registros es útil cuando tiene varios tipos de objetos de trabajo que se afectan entre sí. Por ejemplo, puede trabajar con campañas, y cada una puede adaptarse a varias marcas. Para indicar esta relación, puede conectar campañas a marcas. Esto crea un campo de conexión para marcas en el registro de campaña.
 

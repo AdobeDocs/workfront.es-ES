@@ -4,9 +4,9 @@ navigation-topic: native-integrations
 title: Vinculación de contenido y carpetas desde Experience Manager Assets con Adobe Cloud Storage
 description: Si su organización utiliza el almacenamiento en la nube de Adobe, puede vincular contenido y carpetas de Experience Manager Assets a cualquier objeto de Adobe Workfront que admita documentos.
 author: Courtney
-source-git-commit: 805cc8dfaa17438eb1d454d00d5f7986540379b3
+source-git-commit: 66635b2edc78833ec2d08cef382b39b89238b565
 workflow-type: tm+mt
-source-wordcount: '913'
+source-wordcount: '945'
 ht-degree: 12%
 
 ---
@@ -125,6 +125,14 @@ Para vincular contenido:
       </tr>
    </tbody>
    </table>
+
+   >[!NOTE]
+   >
+   >El contenido recomendado en el Asesor de contenido utiliza datos de los siguientes elementos para determinar el contenido sugerido en Workfront:
+   >
+   >* Campos de nombre y descripción de objeto de Workfront
+   >* Campos de formulario personalizados marcados como obligatorios
+   >* Datos de documentos adjuntos
 
 <!--
 ### Link a new version from Experience Manager Assets

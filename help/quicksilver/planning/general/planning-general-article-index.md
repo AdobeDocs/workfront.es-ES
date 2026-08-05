@@ -14,10 +14,10 @@ product_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 4bce43b6edd473f55b323e1d878b6e131213e179
+source-git-commit: b5b73103671c4a478d7e3a5f4eeb9672bac62de4
 workflow-type: tm+mt
-source-wordcount: 187
-ht-degree: 89%
+source-wordcount: 191
+ht-degree: 87%
 
 ---
 
@@ -30,6 +30,7 @@ Como líder de operaciones de marketing, puede utilizar Adobe Workfront Planning
 Revise los siguientes artículos:
 
 * [Introducción a Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md)
+* [Resumen termonológico de Workfront Planning](/help/quicksilver/planning/general/planning-terminology.md)
 * [Información general sobre el asistente de IA de Adobe Workfront Planning](/help/quicksilver/planning/general/planning-ai-assistant-overview.md)
 * [Conceptos básicos de la API de Adobe Workfront Planning](/help/quicksilver/planning/general/planning-api-basics.md)
 * [Información general sobre las limitaciones de objetos de Adobe Workfront Planning](/help/quicksilver/planning/general/limitations-overview.md)

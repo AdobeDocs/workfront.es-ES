@@ -21,9 +21,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: d2576b0e5abc0c4c46de740f1ea510452351a959
 workflow-type: tm+mt
-source-wordcount: 571
+source-wordcount: 627
 ht-degree: 7%
 
 ---
@@ -69,7 +69,7 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
 * La instancia de Workfront debe tener habilitadas las aprobaciones unificadas.
 
 * Su organización debe tener GenStudio Foundation.
-   * El Revisor de contenido de Workfront proporciona la funcionalidad disponible en GenStudio Foundation para los flujos de trabajo de revisión y aprobación de recursos. No es necesario que acceda directamente a GenStudio Foundation para completar su trabajo. El acceso a la funcionalidad de GenStudio Foundation a través del Revisor de contenido se encuentra dentro de los términos del contrato de Workfront.
+  * El Revisor de contenido de Workfront proporciona la funcionalidad disponible en GenStudio Foundation para los flujos de trabajo de revisión y aprobación de recursos. No es necesario que acceda directamente a GenStudio Foundation para completar su trabajo. El acceso a la funcionalidad de GenStudio Foundation a través del Revisor de contenido se encuentra dentro de los términos del contrato de Workfront.
 * Adobe debe tener registrado un acuerdo de Adobe Gen AI.
 Para obtener más información sobre la firma del acuerdo, consulte [Firmar el acuerdo de Adobe Gen AI](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#sign-the-adobe-gen-ai-agreement).
 
@@ -142,6 +142,8 @@ Para obtener más información sobre la firma del acuerdo, consulte [Firmar el a
 
 
 ## Prácticas recomendadas para escribir directrices de marca
+
+Antes de escribir las directrices, revise [lo que el revisor de contenido evalúa](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md#what-content-reviewer-evaluates) para los tipos de directrices de voz de marca y de imagen. No se puntuarán las directrices que no pertenezcan a estas áreas de evaluación.
 
 *  Escriba directrices de marca que describan criterios mensurables. El Revisor de contenido evalúa el contenido literalmente, por lo que las reglas objetivas producen puntuaciones más coherentes que las subjetivas.
 

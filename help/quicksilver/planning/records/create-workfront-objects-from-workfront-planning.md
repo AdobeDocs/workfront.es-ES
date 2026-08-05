@@ -21,9 +21,9 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 347c3e87fea0289616bf1a52779c07501a8ec69d
+source-git-commit: f8dfa5a4aec4541d885bcc45933488cd1fdefac4
 workflow-type: tm+mt
-source-wordcount: 1340
+source-wordcount: 1364
 ht-degree: 6%
 
 ---
@@ -106,8 +106,16 @@ Para obtener información acerca de cómo conectar registros de Planning con obj
 <li><p>Cualquier Workfront o flujo de trabajo con un paquete de Planning</p></li>
 O
 <li><p>Cualquier paquete de Planning cuando se adquiere como producto independiente</p></li></ul>
+   </td>
+
+<tr> 
+   <td role="rowheader"><p>Producto</p></td> 
+   <td><p>Si su organización ha adquirido Workfront Planning como producto independiente, también debe adquirir un paquete de flujo de trabajo para crear objetos de Workfront a partir de Planning.</p>
    </td> 
-  <tr> 
+  </tr>
+
+
+<tr> 
    <td role="rowheader"><p>Licencia de Adobe Workfront</p></td> 
    <td><p>Workflow Standard</p>
    </td> 

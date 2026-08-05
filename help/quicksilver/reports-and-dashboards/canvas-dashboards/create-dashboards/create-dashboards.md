@@ -18,10 +18,10 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 5cc67b0f991a02759e42ec9b9369ae8359ecc40c
 workflow-type: tm+mt
-source-wordcount: 384
-ht-degree: 21%
+source-wordcount: 542
+ht-degree: 16%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 21%
 >[!IMPORTANT]
 >
 >Actualmente, la función Paneles de lienzo solo está disponible para los usuarios que participan en la fase beta. Es posible que algunas partes de la función no estén completas o que no funcionen según lo previsto durante esta fase. Envíe cualquier comentario sobre su experiencia siguiendo las instrucciones de la sección [Proporcionar comentarios](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) del artículo Información general sobre la versión beta de los paneles de lienzo.<br>
->Si tiene comentarios acerca de un posible error o problema técnico, envíe un ticket al equipo de asistencia de Workfront. Para obtener más información, consulte [Póngase en contacto con Atención al cliente](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>
+>Si tiene comentarios acerca de un posible error o problema técnico, envíe un ticket al equipo de asistencia de Workfront. Para obtener más información, consulte [Contacto con el servicio de asistencia al cliente](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>
 >Tenga en cuenta que esta versión beta no está disponible en los siguientes proveedores de la nube:
 >
 >* Traer su propia clave para Amazon Web Service
@@ -88,9 +88,7 @@ Los paneles de lienzo ofrecen una amplia variedad de opciones y configuraciones 
 
 1. Haga clic en **Nuevo panel** en la esquina superior derecha.
 
-1. En el cuadro **Crear tablero**,
-
-1. Especifique lo siguiente:
+1. En el cuadro **Crear tablero**, especifique lo siguiente:
 
    <table style="table-layout:auto">
     <col>
@@ -106,8 +104,9 @@ Los paneles de lienzo ofrecen una amplia variedad de opciones y configuraciones 
      </tr>
       <tr>
       <td role="rowheader"><strong>Divisa</strong></td>
-      <td>Seleccione el tipo de moneda predeterminado para el panel. <br>
-      <br>Los usuarios pueden alternar entre diferentes tipos de moneda al filtrar el panel. Para obtener más información, vea <a href="/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/filter-canvas-dashboard.md">Filtrar un panel por tipo de moneda</a>.</td>
+      <td><p>Seleccione el tipo de moneda predeterminado para el panel.</p>
+      <p>Puede alternar entre diferentes tipos de moneda al filtrar el panel. Para obtener más información, vea <a href="/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/filter-canvas-dashboard.md">Filtrar un panel por tipo de moneda</a>.</p>
+      <p><strong>Nota:</strong> Si solo tiene una moneda definida en la instancia de Workfront, no verá el campo Moneda al crear un panel.</p></td>
      </tr>
     </tbody>
    </table>
@@ -121,10 +120,10 @@ Una vez creado un tablero, el siguiente paso es agregarle los informes. Para ell
 Existen tres tipos de informes que puede crear en paneles de lienzo:
 
 * **KPI**: este informe muestra los datos del indicador clave de rendimiento como un número.
-Para obtener más información, consulte [Crear un informe de KPI](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-kpi-report.md).
+Para obtener más información, consulte [Generar un informe de KPI](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-kpi-report.md).
 
 * **Gráfico**: este informe muestra los datos en forma de gráfico de barras, columnas, líneas o circulares.
-Para obtener más información, consulte [Crear un informe de gráfico](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-chart-report.md).
+Para obtener más información, consulte [Generar un informe de gráfico](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-chart-report.md).
 
 * **Tabla**: este informe muestra los datos en formato de tabla.
 Para obtener más información, consulte [Generar un informe de tabla](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-table-report.md).

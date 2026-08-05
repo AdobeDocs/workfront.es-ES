@@ -19,9 +19,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 4378eb4b7272ac17b0fb6f2f2e77de2c0b272050
+source-git-commit: f8dfa5a4aec4541d885bcc45933488cd1fdefac4
 workflow-type: tm+mt
-source-wordcount: 711
+source-wordcount: 710
 ht-degree: 39%
 
 ---
@@ -94,7 +94,7 @@ O
    <td role="rowheader"><p>Licencia de planificación de Adobe</p></td> 
    <td><p>Colaborador de Planning o superior</p>
    <p><b>NOTA</b></p>
-   <p>No todos los clientes tienen una licencia de colaborador de Planning</p>
+   <p>No todos los clientes tienen licencias de Planning Contributor</p>
    </td> 
   </tr> 
   <tr> 
