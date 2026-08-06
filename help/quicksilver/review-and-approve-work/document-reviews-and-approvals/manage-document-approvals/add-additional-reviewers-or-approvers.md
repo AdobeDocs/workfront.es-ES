@@ -20,9 +20,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 632c8690acc30121fe72338326ec8ab58c0fd3a6
+source-git-commit: c9558f7de0e2f625c8426187436f2ea5cdeabb92
 workflow-type: tm+mt
-source-wordcount: 746
+source-wordcount: 745
 ht-degree: 13%
 
 ---
@@ -166,7 +166,7 @@ Para agregar aprobadores o revisores adicionales desde el resumen de documento:
 
 1. Haga clic en **Editar flujo de trabajo**. El cuadro de diálogo Solicitar aprobación se abre en el modo en el que se guardó por última vez la aprobación: Básico para aprobaciones de una sola etapa o Avanzado para aprobaciones de varias etapas y aprobaciones con rutas paralelas.
 
-1. Añada el usuario, equipo o correo electrónico:
+1. Añada el usuario o correo electrónico:
 
    * En el modo Básico, escriba el nombre o el correo electrónico en el campo **Agregar nombres o correos electrónicos**.
    * En el modo Avanzado, seleccione la ruta que contiene la etapa que desea actualizar y, a continuación, escriba el nombre o el correo electrónico en el campo **Agregar nombres o correos electrónicos** de la etapa.

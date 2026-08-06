@@ -20,9 +20,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 632c8690acc30121fe72338326ec8ab58c0fd3a6
+source-git-commit: c9558f7de0e2f625c8426187436f2ea5cdeabb92
 workflow-type: tm+mt
-source-wordcount: 2231
+source-wordcount: 2227
 ht-degree: 5%
 
 ---
@@ -71,53 +71,6 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
 
 +++
 
-<!--
-
-## Create an approval workflow in the legacy documents area in Production
-
-If your organization is on Workfront storage, you will see the legacy documents area when you access documents in Workfront. For more information about Workfront storage, see [Differences between Adobe cloud storage and legacy Workfront storage](/help/quicksilver/review-and-approve-work/esm-overview.md#differences-between-adobe-cloud-storage-and-legacy-workfront-storage).
-
-To create an approval workflow:
-
-1. Go to the project, task, or issue that contains the document, then select **Documents** in the left panel.
-
-1. Click on the document you need and the Document Summary panel for that document opens.
-
-1. Select the version of the document you would like to create an approval for in the version dropdown. The latest version is selected by default.
-
-1. Scroll down to the **Approvals** section, then click **Create workflow**.
-
-
-1. Fill in the following details:
-
-   <table>
-   <tr>
-   <td><strong>Stage name</strong></td>
-   <td>Add a stage name. You can change the name to something more descriptive, such as <em>Initial Review</em> or <em>Final Approval</em>.</td>
-   </tr>
-   <tr>
-   <td><strong>Add names or emails</strong></td>
-   <td>Begin typing a user or team name to add as an approver or reviewer. If you only have reviewers, they will be notified and have the option to complete the review but no decision will be required or made.</td>
-   </tr>
-   <tr>
-   <td><strong>One decision required (optional)</strong></td>
-   <td>The first person who makes a decision completes the stage.</td>
-   </tr>
-   <tr>
-   <td><strong>Due date (optional)</strong></td>
-   <td>Set a due date for the approval. Users and teams are notified by email 72 hours, then 24 hours before the specified due date.</td>
-   </tr>
-   </table>
-
-1. (Optional) Repeat the previous step to add additional stages as needed.
-
-   >[!NOTE]
-   >
-   >If you add multiple stages, the approval workflow proceeds in the order the stages are listed. When all required decisions are made, the next stage begins and the previous stage is locked.
-
-   ![Document details](assets/new-stage.png)
-
--->
 
 ## Creación de un flujo de trabajo de aprobación en el área de documentos heredados
 
@@ -226,51 +179,6 @@ Para crear un flujo de trabajo de aprobación avanzado:
 1. Haga clic en **Solicitar aprobación**.
 
 
-<!--
-
-## Create an approval workflow in the new Documents area in Production
-
-If your organization uses Adobe cloud storage, you will see the new Documents area when you access documents in Workfront. For more information about Adobe cloud storage, see [Adobe cloud storage overview](/help/quicksilver/review-and-approve-work/esm-overview.md).
-
-To create an approval workflow:
-
-1. Go to the project, task, or issue that contains the document, then select **Documents** in the left panel.
-
-1. Click on the document, then click the **Approvals** icon on the right side of the page.
-
-   ![Add approvers in document summary](assets/approvals-icon-new.png)
-
-1. Click **Create workflow**, then fill in the following details:
-
-   <table>
-   <tr>
-   <td><strong>Stage name</strong></td>
-   <td>Add a stage name. You can change the name to something more descriptive, such as <em>Initial Review</em> or <em>Final Approval</em>.</td>
-   </tr>
-   <tr>
-   <td><strong>Add names or emails</strong></td>
-   <td>Begin typing a user or team name to add as an approver or reviewer. If you only have reviewers, they will be notified and have the option to complete the review but no decision will be required or made.</td>
-   </tr>
-   <tr>
-   <td><strong>One decision required (optional)</strong></td>
-   <td>The first person who makes a decision completes the stage.</td>
-   </tr>
-   <tr>
-   <td><strong>Due date (optional)</strong></td>
-   <td>Set a due date for the approval. Users and teams are notified by email 72 hours, then 24 hours before the specified due date.</td>
-   </tr>
-   </table>
-
-1. (Optional) Repeat the previous step to add additional stages as needed.
-
-   >[!NOTE]
-   >
-   >If you add multiple stages, the approval workflow proceeds in the order the stages are listed. When all required decisions are made, the next stage begins and the previous stage is locked.
-
-   ![Document details](assets/new-stage.png)
-   
--->
-
 ## Crear un flujo de trabajo de aprobación en la nueva área de documentos
 
 Si su organización utiliza el almacenamiento en la nube de Adobe, verá la nueva área Documentos al acceder a documentos en Workfront. Para obtener más información sobre el almacenamiento en la nube de Adobe, consulte [Información general sobre el almacenamiento en la nube de Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
@@ -298,7 +206,7 @@ Para crear un flujo de trabajo de aprobación de una sola etapa:
    </tr>
    <tr>
    <td><strong>Añadir nombres o correos electrónicos</strong></td>
-   <td>Empiece a escribir el nombre de un usuario o equipo que desee agregar como aprobador o revisor. Si solo tiene revisores, se les notificará y tendrán la opción de completar la revisión, pero no se requerirá ni se adoptará ninguna decisión.</td>
+   <td>Empiece a escribir el nombre de usuario o el correo electrónico que desea agregar como aprobador o revisor. Si solo tiene revisores, se les notificará y tendrán la opción de completar la revisión, pero no se requerirá ni se adoptará ninguna decisión.</td>
    </tr>
    <tr>
    <td><strong>Solo se requiere una decisión (opcional)</strong></td>
@@ -306,7 +214,7 @@ Para crear un flujo de trabajo de aprobación de una sola etapa:
    </tr>
    <tr>
    <td><strong>Vence el (opcional)</strong></td>
-   <td>Establezca una fecha límite para la aprobación. Los usuarios y equipos reciben una notificación por correo electrónico 72 horas y, a continuación, 24 horas antes de la fecha de vencimiento especificada.</td>
+   <td>Establezca una fecha límite para la aprobación. Se notifica a los usuarios por correo electrónico 72 horas antes de la fecha de vencimiento especificada.</td>
    </tr>
    <tr>
    <td><strong>Añadir mensaje personalizado (opcional)</strong></td>
@@ -355,7 +263,7 @@ Para crear un flujo de trabajo de aprobación avanzado:
    </tr>
    <tr>
    <td><strong>Añadir nombres o correos electrónicos</strong></td>
-   <td>Empiece a escribir el nombre de un usuario o equipo que desee agregar como aprobador o revisor. Si solo tiene revisores, se les notificará y tendrán la opción de completar la revisión, pero no se requerirá ni se adoptará ninguna decisión.<p>Nota: Un revisor o aprobador solo puede asignarse a una fase abierta a la vez en el mismo recurso. Si se abren varias fases paralelas simultáneamente, no se puede agregar la misma persona a más de una.</p></td>
+   <td>Empiece a escribir el nombre de usuario o el correo electrónico que desea agregar como aprobador o revisor. Si solo tiene revisores, se les notificará y tendrán la opción de completar la revisión, pero no se requerirá ni se adoptará ninguna decisión.<p>Nota: Un revisor o aprobador solo puede asignarse a una fase abierta a la vez en el mismo recurso. Si se abren varias fases paralelas simultáneamente, no se puede agregar la misma persona a más de una.</p></td>
    </tr>
    <tr>
    <td><strong>Solo se requiere una decisión (opcional)</strong></td>
@@ -363,7 +271,7 @@ Para crear un flujo de trabajo de aprobación avanzado:
    </tr>
    <tr>
    <td><strong>Vence el (opcional)</strong></td>
-   <td>La primera etapa de cada ruta admite una fecha de vencimiento absoluta. Cada fase subsiguiente de la ruta admite una fecha de vencimiento relativa: el número de días a partir de la fecha en que se abre esa fase. Los usuarios y equipos reciben una notificación por correo electrónico 72 horas antes de la fecha de vencimiento.</td>
+   <td>La primera etapa de cada ruta admite una fecha de vencimiento absoluta. Cada fase subsiguiente de la ruta admite una fecha de vencimiento relativa: el número de días a partir de la fecha en que se abre esa fase. Se notifica a los usuarios por correo electrónico 72 horas, luego 24 horas antes de la fecha límite.</td>
    </tr>
    <tr>
    <td><strong>Añadir mensaje personalizado (opcional)</strong></td>
