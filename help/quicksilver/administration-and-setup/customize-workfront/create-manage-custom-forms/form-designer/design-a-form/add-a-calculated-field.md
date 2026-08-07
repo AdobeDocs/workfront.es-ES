@@ -9,22 +9,15 @@ feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 407aae49-4bc3-4364-a794-7e170a57a6d3
 TQID: https://experienceleague.adobe.com/MkpKnVckztNvRWKb2rSDUzt8fnJMWIGKG4sYUmuefig
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 1eda36eb74aca2b731f2632eac3aae60e6b8ef9d
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 0adab8ca6f39e819f1e9e2ac510897d7a14d54a1
 workflow-type: tm+mt
-source-wordcount: 2721
-ht-degree: 74%
+source-wordcount: 2734
+ht-degree: 72%
 
 ---
 
@@ -203,7 +196,7 @@ Para reutilizar un campo personalizado calculado existente:
 
 1. En el cuadro **Cálculo**, empiece a crear el cálculo:
    1. Haga clic en **Maximizar** para abrir el Editor de cálculos y generar el cálculo.
-Un cálculo suele comenzar con una expresión, seguida de paréntesis que contienen los campos a los que se desea hacer referencia cuando se adjunta el formulario personalizado a un objeto.
+      Un cálculo suele comenzar con una expresión, seguida de paréntesis que contienen los campos a los que se desea hacer referencia cuando se adjunta el formulario personalizado a un objeto.
 
       Cada campo debe estar comprendido entre corchetes. Cuando empiece a escribir el nombre de un campo, el sistema realiza sugerencias y puede seleccionar una para insertarla en el cálculo.
 
@@ -231,7 +224,7 @@ Un cálculo suele comenzar con una expresión, seguida de paréntesis que contie
 
         El sistema enumera todos los campos personalizados que puede elegir al escribir `DE:`.
 
-         * Si desea que el cálculo haga referencia a un campo que extraerá datos del objeto *parent* cuando el formulario personalizado esté adjunto a un objeto, debe anteponer el nombre del campo al tipo de objeto del objeto principal, también entre llaves.
+        * Si desea que el cálculo haga referencia a un campo que extraerá datos del objeto *parent* cuando el formulario personalizado esté adjunto a un objeto, debe anteponer el nombre del campo al tipo de objeto del objeto principal, también entre llaves.
 
         Por ejemplo, si el formulario personalizado está configurado para trabajar con tareas y desea que el campo calcule los ingresos reales del objeto principal cuando el formulario se adjunta a una tarea, debe indicar `Project` como el tipo de objeto del campo:
 
@@ -261,9 +254,13 @@ Un cálculo suele comenzar con una expresión, seguida de paréntesis que contie
 
         >[!NOTE]
         >
-        >La sintaxis de un campo de escritura anticipada es un poco diferente a la de otros tipos de campos porque necesita añadir `:name` al final.
+        >La sintaxis de un campo de búsqueda interna es un poco diferente a la de otros tipos de campos porque necesita agregar `:name` al final.
         >
-        >Por ejemplo, para hacer referencia a la opción seleccionada en un campo de escritura anticipada personalizado denominado &quot;Patrocinador ejecutivo&quot;, escribiría:
+        >Por ejemplo, para hacer referencia a la opción seleccionada en un campo de búsqueda interna personalizado denominado &quot;Patrocinador ejecutivo&quot;, escribiría:
+        >
+        >`{DE:Executive sponsor}.{name}`
+        >
+        >Para el mismo ejemplo, con un campo de escritura anticipada, escribiría:
         >
         >`{DE:Executive sponsor:name}`
 
@@ -299,13 +296,13 @@ Un cálculo suele comenzar con una expresión, seguida de paréntesis que contie
 
         Los campos personalizados calculados en un objeto se vuelven a calcular automáticamente cuando ocurren las siguientes cosas:
 
-         * Algo en el objeto cambia, como un cálculo diario de la cronología.
-         * Alguien edita otro campo al que se hace referencia mediante un campo personalizado calculado en el objeto.
-         * La expresión calculada está vacía y el campo contiene un valor; esto establece el valor en nulo.
+        * Algo en el objeto cambia, como un cálculo diario de la cronología.
+        * Alguien edita otro campo al que se hace referencia mediante un campo personalizado calculado en el objeto.
+        * La expresión calculada está vacía y el campo contiene un valor; esto establece el valor en nulo.
 
-           >[!NOTE]
-           >
-           ><div>En un formulario personalizado adjunto a un objeto, las instrucciones de fecha y hora de los campos personalizados calculados se calculan y guardan a partir de la hora universal coordinada (UTC), no mediante las configuraciones de zona horaria establecidas para la instancia de su organización y el perfil de usuario. Los cálculos de un formulario personalizado se generan en función de las zonas horarias individuales de cada usuario.</div>
+          >[!NOTE]
+          >
+          ><div>En un formulario personalizado adjunto a un objeto, las instrucciones de fecha y hora de los campos personalizados calculados se calculan y guardan a partir de la hora universal coordinada (UTC), no mediante las configuraciones de zona horaria establecidas para la instancia de su organización y el perfil de usuario. Los cálculos de un formulario personalizado se generan en función de las zonas horarias individuales de cada usuario.</div>
 
         +++
 
