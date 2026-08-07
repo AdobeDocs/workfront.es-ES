@@ -8,18 +8,22 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: c38e60dd-7fb2-4afc-976a-b0966398c162
-source-git-commit: d645aeb9d2d49432b49b6f2e2c4748f50075c42b
+source-git-commit: 22e8acb748ddc4768dc1724aaa2f515b863ab0cf
 workflow-type: tm+mt
-source-wordcount: '305'
-ht-degree: 13%
+source-wordcount: '346'
+ht-degree: 11%
 
 ---
 
 # Cambios en la tasa push de los proyectos
 
-Cuando se adjunta una tarjeta de tarifas a un proyecto <!--or a staffing plan-->, las tarifas de la tarjeta de tarifas aún se pueden ajustar. A continuación, si lo desea, puede insertar esas tasas en los proyectos a los que está adjunta la tarjeta de tasas. Si no inserta las nuevas tasas, las tasas originales permanecerán en el proyecto.
+Cuando se adjunta una tarjeta de tarifas a un proyecto<!--or a staffing plan-->, las tarifas de la tarjeta de tarifas aún se pueden ajustar. A continuación, si lo desea, puede insertar esas tasas en los proyectos a los que está adjunta la tarjeta de tasas. Si no inserta las nuevas tasas, las tasas originales permanecerán en el proyecto.
 <!-- and staffing plans -->
 <!-- or staffing plan -->
+
+>[!NOTE]
+>
+>Si una función de trabajo o una tarifa de facturación de usuario se sobrescriben manualmente en el nivel de proyecto, esa tarifa permanece en el proyecto cuando los cambios de la tarjeta de tarifas se insertan en el proyecto. Solo se actualizan las tarifas vinculadas a la tarjeta de tarifas.
 
 Para obtener información acerca de cómo adjuntar una tarjeta de tarifa a un proyecto, vea [Adjuntar una tarjeta de tarifa a un proyecto](/help/quicksilver/manage-work/projects/project-finances/attach-rate-card-to-project.md).
 
