@@ -24,9 +24,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: f73a84c755dabfebdeb6cdd7b2ad59bc09a272f4
+source-git-commit: 0adab8ca6f39e819f1e9e2ac510897d7a14d54a1
 workflow-type: tm+mt
-source-wordcount: 7922
+source-wordcount: 7962
 ht-degree: 77%
 
 ---
@@ -227,7 +227,7 @@ Para añadir un campo de texto:
    * Texto descriptivo
      <!--Text with formatting-->
 
-   ![Arrastrar campo a sección](assets/drag-field-to-section.png)
+   ![Arrastrar el campo a la sección](assets/drag-field-to-section.png)
 
 1. En el lado derecho de la pantalla, configure las opciones disponibles para el tipo de campo personalizado que va a añadir:
 
@@ -251,7 +251,7 @@ Para añadir un campo de texto:
     <tr>
     <td>Etiqueta</td>
     <td><p>(Obligatorio) Escriba una etiqueta descriptiva para mostrar encima del campo. Puede cambiar la etiqueta en cualquier momento.<p>
-    <p><b>Importante</b>: evite usar caracteres especiales en esta etiqueta, ya que no se muestran correctamente en los informes. Para obtener más información, consulte <a href="design-a-form.md#notes-on-field-names-and-labels">Notas sobre nombres de campo y etiquetas</a>.</p></td>
+    <p><b>Importante</b>: Evite usar caracteres especiales en esta etiqueta, ya que no se muestran correctamente en los informes. Para obtener más información, consulte <a href="design-a-form.md#notes-on-field-names-and-labels">Notas sobre nombres de campo y etiquetas</a>.</p></td>
     <td><ul>
     <li>Texto de línea única</li>
     <li>Párrafo</li>
@@ -272,7 +272,7 @@ Para añadir un campo de texto:
     </tr>
     <tr>
     <td>Instrucciones</td>
-    <td>Escriba cualquier información adicional sobre el campo. Cuando los usuarios rellenan el formulario personalizado, pueden situarse sobre el icono del signo de interrogación para ver una información de objeto que contenga la información que escriba aquí.
+    <td>Escriba cualquier información adicional sobre el campo. Cuando los usuarios rellenan el formulario personalizado, pueden pasar el puntero por encima del icono del signo de interrogación para ver una ayuda contextual que contiene la información que escriba aquí.
     <img src="assets/instructions-form-designer.png">
     </td>
     <td><ul>
@@ -402,7 +402,7 @@ Para añadir botones de opción, grupos de casillas de verificación y menús de
     </tr>
     <tr> 
      <td role="rowheader">Etiqueta</td> 
-     <td> <p>(Obligatorio) Escriba una etiqueta descriptiva para mostrar encima del campo personalizado. Puede cambiar la etiqueta en cualquier momento.</p> <p><b>Importante</b>: evite usar caracteres especiales en esta etiqueta, ya que no se muestran correctamente en los informes. Para obtener más información, consulte <a href="design-a-form.md#notes-on-field-names-and-labels">Notas sobre nombres de campo y etiquetas</a>.</p> </td> 
+     <td> <p>(Obligatorio) Escriba una etiqueta descriptiva para mostrar encima del campo personalizado. Puede cambiar la etiqueta en cualquier momento.</p> <p><b>Importante</b>: Evite usar caracteres especiales en esta etiqueta, ya que no se muestran correctamente en los informes. Para obtener más información, consulte <a href="design-a-form.md#notes-on-field-names-and-labels">Notas sobre nombres de campo y etiquetas</a>.</p> </td> 
      <td><ul>
     <li>Botones de opción</li>
     <li>Grupo de casillas de verificación</li>
@@ -695,7 +695,7 @@ Para agregar campos de fecha:
     <tbody> 
      <tr> 
       <td role="rowheader">Etiqueta</td> 
-      <td> <p>(Obligatorio) Escriba una etiqueta descriptiva para mostrar encima del widget. Puede cambiar la etiqueta en cualquier momento.</p> <p><b>Importante</b>: evite usar caracteres especiales en esta etiqueta, ya que no se muestran correctamente en los informes. Para obtener más información, consulte <a href="design-a-form.md#notes-on-field-names-and-labels">Notas sobre nombres de campo y etiquetas</a>.</p> </td> 
+      <td> <p>(Obligatorio) Escriba una etiqueta descriptiva para mostrar encima del widget. Puede cambiar la etiqueta en cualquier momento.</p> <p><b>Importante</b>: Evite usar caracteres especiales en esta etiqueta, ya que no se muestran correctamente en los informes. Para obtener más información, consulte <a href="design-a-form.md#notes-on-field-names-and-labels">Notas sobre nombres de campo y etiquetas</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Nombre de la API</td> 
@@ -755,7 +755,7 @@ Para añadir una búsqueda externa, haga lo siguiente:
     <tbody> 
      <tr> 
       <td role="rowheader">Etiqueta</td> 
-      <td> <p>(Obligatorio) Escriba una etiqueta descriptiva para mostrar encima del campo personalizado. Puede cambiar la etiqueta en cualquier momento.</p> <p><b>Importante</b>: evite usar caracteres especiales en esta etiqueta, ya que no se muestran correctamente en los informes. Para obtener más información, consulte <a href="design-a-form.md#notes-on-field-names-and-labels">Notas sobre nombres de campo y etiquetas</a>.</p> </td> 
+      <td> <p>(Obligatorio) Escriba una etiqueta descriptiva para mostrar encima del campo personalizado. Puede cambiar la etiqueta en cualquier momento.</p> <p><b>Importante</b>: Evite usar caracteres especiales en esta etiqueta, ya que no se muestran correctamente en los informes. Para obtener más información, consulte <a href="design-a-form.md#notes-on-field-names-and-labels">Notas sobre nombres de campo y etiquetas</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Nombre de la API</td> 
@@ -805,10 +805,10 @@ Para añadir una búsqueda externa, haga lo siguiente:
      </tr>
      <tr> 
       <td role="rowheader">Ruta JSON</td>
-      <td><p>Escriba o pegue la ruta JSON para la API.</p> <p>Esta opción permite extraer datos del JSON devuelto por la URL de la API. Sirve para seleccionar qué valores dentro del JSON aparecerán en las opciones desplegables.</p><p>Por ejemplo, si la dirección URL de la API devuelve JSON en el siguiente formato, puede usar “$.data[*].name” para seleccionar EE. UU. y Canadá como opciones desplegables:</br>
+      <td><p>Escriba o pegue la ruta JSON para la API.</p> <p>Esta opción permite extraer datos del JSON devuelto por la URL de la API. Sirve para seleccionar qué valores dentro del JSON aparecerán en las opciones desplegables.</p><p>Por ejemplo, si la URL de la API devuelve JSON en el siguiente formato, puede utilizar "$.data[*].name" para seleccionar EE. UU. y Canadá como opciones desplegables:</br>
       <pre>
       &lbrace;
-       data: &lbrace;
+       datos: &lbrace;
          { name: "USA"},
          { name: "Canada"}
        &rbrace;
@@ -883,7 +883,7 @@ Para agregar una búsqueda interna:
     <tbody> 
      <tr> 
       <td role="rowheader">Etiqueta</td> 
-      <td> <p>(Obligatorio) Escriba una etiqueta descriptiva para mostrar encima del campo personalizado. Puede cambiar la etiqueta en cualquier momento.</p> <p><b>Importante</b>: evite usar caracteres especiales en esta etiqueta, ya que no se muestran correctamente en los informes. Para obtener más información, consulte <a href="design-a-form.md#notes-on-field-names-and-labels">Notas sobre nombres de campo y etiquetas</a>.</p> </td> 
+      <td> <p>(Obligatorio) Escriba una etiqueta descriptiva para mostrar encima del campo personalizado. Puede cambiar la etiqueta en cualquier momento.</p> <p><b>Importante</b>: Evite usar caracteres especiales en esta etiqueta, ya que no se muestran correctamente en los informes. Para obtener más información, consulte <a href="design-a-form.md#notes-on-field-names-and-labels">Notas sobre nombres de campo y etiquetas</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Nombre de la API</td> 
@@ -985,7 +985,7 @@ Para añadir imágenes, PDF o vídeos:
      </tr> 
      <tr> 
       <td role="rowheader">Etiqueta</td> 
-      <td> <p>(Obligatorio) Escriba una etiqueta descriptiva para mostrar encima del widget. Puede cambiar la etiqueta en cualquier momento.</p> <p><b>Importante</b>: evite usar caracteres especiales en esta etiqueta, ya que no se muestran correctamente en los informes. Para obtener más información, consulte <a href="design-a-form.md#notes-on-field-names-and-labels">Notas sobre nombres de campo y etiquetas</a>.</p> </td> 
+      <td> <p>(Obligatorio) Escriba una etiqueta descriptiva para mostrar encima del widget. Puede cambiar la etiqueta en cualquier momento.</p> <p><b>Importante</b>: Evite usar caracteres especiales en esta etiqueta, ya que no se muestran correctamente en los informes. Para obtener más información, consulte <a href="design-a-form.md#notes-on-field-names-and-labels">Notas sobre nombres de campo y etiquetas</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Nombre de la API</td> 
@@ -1135,7 +1135,7 @@ Staffing Plan Resource: Total Estimated Cost, Total Estimated Revenue fields
      </tr> 
      <tr> 
       <td role="rowheader">Etiqueta</td> 
-      <td> <p>(Obligatorio) Escriba una etiqueta descriptiva para mostrar encima del campo. Puede cambiar la etiqueta en cualquier momento.</p> <p><b>Importante</b>: evite usar caracteres especiales en esta etiqueta, ya que no se muestran correctamente en los informes. Para obtener más información, consulte <a href="design-a-form.md#notes-on-field-names-and-labels">Notas sobre nombres de campo y etiquetas</a>.</p> </td> 
+      <td> <p>(Obligatorio) Escriba una etiqueta descriptiva para mostrar encima del campo. Puede cambiar la etiqueta en cualquier momento.</p> <p><b>Importante</b>: Evite usar caracteres especiales en esta etiqueta, ya que no se muestran correctamente en los informes. Para obtener más información, consulte <a href="design-a-form.md#notes-on-field-names-and-labels">Notas sobre nombres de campo y etiquetas</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Nombre de la API</td>
@@ -1163,7 +1163,7 @@ Staffing Plan Resource: Total Estimated Cost, Total Estimated Revenue fields
        <p>Utilice la sintaxis de filtro dinámico para reducir la lista de elementos de este campo en función del valor de otro campo. Por ejemplo, cuando se usa <code>?portfolioID={portfolio}.{ID}</code> en un filtro de campo de proyecto y un campo nativo de Portfolio está en el formulario personalizado, el campo Proyecto muestra únicamente los proyectos que se encuentran en el portafolio seleccionado. Si el campo Portfolio se deja en blanco, todos los proyectos estarán disponibles en el campo Proyecto.</p>
        <p><b>Nota</b>:
        <ul> 
-        <li>La opción de filtro solo está disponible cuando se hace referencia a un campo de escritura anticipada o de búsqueda interna nativo, como Portfolio, Empresa o Propietario.</li>
+        <li>La opción de filtro solo está disponible cuando se hace referencia a una búsqueda interna nativa o a un campo de escritura anticipada, como Portfolio, Empresa o Propietario.</li>
         <li>Si está editando un formulario personalizado existente, al añadir un filtro a un campo nativo no se elimina ningún objeto (fuera del ámbito del filtro) que los usuarios ya hayan añadido mediante el campo.</li> 
         <li>Este filtro no está disponible en los dispositivos móviles. Si utiliza el filtro para un campo nativo, el campo aparece en los dispositivos móviles de los usuarios no afectados por el filtro.</li> 
         </ul></p></td> 
@@ -1208,7 +1208,7 @@ Para añadir un archivo Adobe XD:
      </tr> 
      <tr> 
       <td role="rowheader">Etiqueta</td> 
-      <td> <p>(Obligatorio) Escriba una etiqueta descriptiva para mostrar encima del widget. Puede cambiar la etiqueta en cualquier momento.</p> <p><b>Importante</b>: evite usar caracteres especiales en esta etiqueta, ya que no se muestran correctamente en los informes. Para obtener más información, consulte <a href="design-a-form.md#notes-on-field-names-and-labels">Notas sobre nombres de campo y etiquetas</a>.</p> </td> 
+      <td> <p>(Obligatorio) Escriba una etiqueta descriptiva para mostrar encima del widget. Puede cambiar la etiqueta en cualquier momento.</p> <p><b>Importante</b>: Evite usar caracteres especiales en esta etiqueta, ya que no se muestran correctamente en los informes. Para obtener más información, consulte <a href="design-a-form.md#notes-on-field-names-and-labels">Notas sobre nombres de campo y etiquetas</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Nombre de la API</td> 
@@ -1218,7 +1218,7 @@ Para añadir un archivo Adobe XD:
      <tr> 
       <td role="rowheader">URL</td> 
       <td> <p>(Obligatorio) Escriba o pegue un vínculo válido de prototipo de XD.</p> 
-      <p><b>Nota</b>: la configuración de Acceso a vínculos en la ficha Compartir de Adobe XD debe establecerse en Cualquiera que tenga el vínculo. De lo contrario, los usuarios no podrán ver el prototipo. 
+      <p><b>Nota</b>: La configuración de Acceso al vínculo de la pestaña Compartir de Adobe XD debe establecerse en Cualquiera con el vínculo. De lo contrario, los usuarios no podrán ver el prototipo. 
    </td> 
      </tr> 
      <tr> 

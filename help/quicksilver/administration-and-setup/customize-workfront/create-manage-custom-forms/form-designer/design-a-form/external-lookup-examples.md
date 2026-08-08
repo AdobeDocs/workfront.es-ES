@@ -20,10 +20,10 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 1eda36eb74aca2b731f2632eac3aae60e6b8ef9d
+source-git-commit: 0adab8ca6f39e819f1e9e2ac510897d7a14d54a1
 workflow-type: tm+mt
-source-wordcount: 1477
-ht-degree: 72%
+source-wordcount: 1467
+ht-degree: 71%
 
 ---
 
@@ -178,7 +178,7 @@ Este ejemplo muestra cómo llamar a una API de países (como <https://api.first.
    * Puede añadir $$QUERY para implementar el filtrado de consultas para los usuarios finales.
 
    **Ejemplos**
-Lista todos los países: <https://api.first.org/data/v1/countries>
+   Lista todos los países: <https://api.first.org/data/v1/countries>
 
    Permite que el usuario busque cualquier país en el campo desplegable: <https://api.first.org/data/v1/countries?q=$$QUERY>
 
@@ -232,7 +232,7 @@ Existen muchos otros casos de uso para crear una búsqueda externa.
 Ejemplo de URL de API base para plantillas, para reemplazar un campo de escritura anticipada:
 `$$HOST/attask/api/v17.0/tmpl/search?isActive=true&name_Sort=asc`
 
-**Caso de uso:** cree campos desplegables con más funciones (por ejemplo, hay salto de línea en el campo Búsqueda externa).
+**Caso de uso:** Cree campos desplegables con más características (por ejemplo, hay ajuste de línea en el campo Búsqueda externa).
 **Solución:** use una llamada de API a los objetos existentes del sistema o cree un nuevo objeto y use una llamada de API a este objeto.
 
 **Caso de uso:** defina una forma para que los usuarios mantengan sus propios campos fuera del área de formularios personalizados. Configure el campo Búsqueda externa y puede proporcionar usuarios a los objetos que componen el campo. Esta opción es adecuada para campos y equipos de alto mantenimiento.

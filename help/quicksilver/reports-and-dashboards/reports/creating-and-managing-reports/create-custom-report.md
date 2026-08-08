@@ -19,9 +19,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 0adab8ca6f39e819f1e9e2ac510897d7a14d54a1
 workflow-type: tm+mt
-source-wordcount: 1824
+source-wordcount: 1823
 ht-degree: 93%
 
 ---
@@ -142,7 +142,7 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
 
    Para obtener más información sobre los campos que se ven en las columnas, consulte [Glosario de terminología de Adobe Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
 
-   ![Agregar tipo de columna](assets/nwe-add-column-typeahead-350x459.png)
+   ![Agregar columna](assets/nwe-add-column-typeahead-350x459.png)
 
 1. (Opcional) En el área **Configuración de columna**, seleccione **Ordenar por esta columna** para ordenar los valores de la columna en orden alfabético ascendente o descendente y, a continuación, indique si la lista debe utilizar esta columna como su primer orden.
 

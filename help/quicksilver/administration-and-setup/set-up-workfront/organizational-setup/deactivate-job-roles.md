@@ -22,10 +22,10 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 0adab8ca6f39e819f1e9e2ac510897d7a14d54a1
 workflow-type: tm+mt
-source-wordcount: 644
-ht-degree: 98%
+source-wordcount: 645
+ht-degree: 96%
 
 ---
 
@@ -34,8 +34,6 @@ ht-degree: 98%
 Como administrador o usurario de [!DNL Adobe Workfront] con acceso administrativo a las funciones, puede desactivar las que queden obsoletas en su sistema. Cuando desactiva una función en lugar de eliminarla, puede conservar la información histórica asociada a ella.
 
 También puede reactivar las funciones que se han desactivado anteriormente.
-
-## Requisitos de acceso
 
 ## Requisitos de acceso
 
@@ -78,7 +76,7 @@ Si desactiva una función, ya no se mostrará en las siguientes áreas:
   >Cuando se añade una función nueva a un usuario, no aparece una función desactivada. Pero continúa mostrándose en los campos [!UICONTROL Función principal] y [!UICONTROL Otras funciones] si el usuario estaba asociado con la función antes de que se desactivara.
 
 * Cuadro de diálogo [!UICONTROL Compartir] para objetos, incluida la asignación de plantillas de diseño
-* Campos de escritura anticipada en formularios personalizados
+* Búsqueda interna y campos de escritura anticipada en formularios personalizados
 * El campo [!UICONTROL Miembros del grupo] en [!UICONTROL Conjuntos de recursos]
 * El campo [!UICONTROL Función] de una pantalla de edición de [!UICONTROL Tarifa de facturación] cuando un usuario anula las tarifas de facturación de los proyectos
 * Cuadro de diálogo [!UICONTROL Añadir asignación al tablero Kanban] en un proyecto
@@ -114,8 +112,8 @@ Le recomendamos que haga lo siguiente antes de desactivar una función que no ut
 
   Para obtener información sobre la creación de procesos de aprobación y las reglas de enrutamiento, consulte los siguientes artículos:
 
-   * [Crear un proceso de aprobación para los elementos de trabajo](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md)
-   * [Crear reglas de enrutamiento](../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md)
+  * [Crear un proceso de aprobación para los elementos de trabajo](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md)
+  * [Crear reglas de enrutamiento](../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md)
 
 ## Desactivar una función
 
