@@ -5,26 +5,31 @@ title: Aptitudes disponibles para la instalación directa
 description: Workfront ofrece algunas habilidades que puede instalar directamente en su LLM.
 author: Becky
 feature: Get Started with Workfront
-source-git-commit: 20f5a513d8d33ecf8770f35bc73ee799a7de939e
+recommendations: noDisplay, noCatalog
+source-git-commit: 7fd4c07f2ea1e47e7abb7d3dd78638a6a01d0f47
 workflow-type: tm+mt
-source-wordcount: '188'
-ht-degree: 1%
+source-wordcount: '290'
+ht-degree: 0%
 
 ---
 
 
 # Aptitudes disponibles para la instalación directa
 
-Workfront ofrece algunas habilidades que puede instalar directamente en su LLM. Las habilidades guían cómo se utilizan esas herramientas para tareas específicas, con los pasos correctos ya integrados.
+Adobe Workfront ofrece algunas habilidades que puede instalar directamente en su LLM. Las habilidades guían cómo se utilizan esas herramientas para tareas específicas, con los pasos correctos ya integrados.
 
-Puede encontrar estas habilidades en el repositorio de GitHub de Adobe Skills.
+Puede encontrar estas habilidades como archivos en el repositorio de GitHub de Adobe Skills. Este repositorio contiene archivos para una variedad de productos de Adobe. Al descargar estos archivos y copiarlos en Claude, Claude puede utilizar las habilidades descritas en los archivos.
+
+Por ejemplo, las habilidades de arquitecto de soluciones de Planning permiten a Claude responder preguntas sobre Workfront Planning y realizar algunas acciones en él.
+
+No es necesario que llame a estas aptitudes ni las almacene en déclencheur después de copiarlas en la LLM. En su lugar, puede interactuar con su LLM como de costumbre, haciendo preguntas en lenguaje natural, y el LLM utiliza la información y las acciones descritas en la habilidad que son apropiadas para la conversación.
 
 >[!NOTE]
 >
 >Actualmente, estas habilidades solo están disponibles para Claude.
 >Para obtener instrucciones sobre cómo configurar Claude con Adobe, consulte [Introducción](https://developer.adobe.com/adobe-for-creativity/getting-started/) en la documentación de Adobe Developer.
 
-## Instale una aptitud del repositorio de GitHub de Workfront en Claude.
+## Instalar una aptitud del repositorio de GitHub de Workfront en Claude
 
 1. Vaya al [repositorio de habilidades de Adobe Workfront](https://github.com/adobe/skills/tree/main/plugins/workfront) en GitHub.
 1. Descargue la carpeta de aptitudes que desee utilizar.
