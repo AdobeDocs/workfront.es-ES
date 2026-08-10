@@ -4,10 +4,10 @@ content-type: reference
 description: Aprenda a utilizar los colaboradores de tareas y los colaboradores de IA que se pueden asignar a tareas de Workfront.
 author: Becky
 feature: Work Management, Tasks
-source-git-commit: 2070a27e18d768dd14ce4f5c681ab08669c81766
+source-git-commit: a05312fa1def1db593743e5e6d385da0b393d5d4
 workflow-type: tm+mt
-source-wordcount: '376'
-ht-degree: 8%
+source-wordcount: '653'
+ht-degree: 4%
 
 ---
 
@@ -69,8 +69,28 @@ Algunos flujos de trabajo de ejemplo pueden incluir:
 >* Al configurar un agente en Copilot Studio, debe establecer la seguridad en **Sin autenticación**.
 >* Para obtener información e instrucciones sobre cómo crear un colaborador de tareas en Workfront, consulte [Configuración de un colaborador de tareas](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md#configure-a-task-collaborator) en el artículo Configuración de colaboradores de IA.
 
+## Déclencheur de inicio de Task Collaborator
+
+Cuando se asigna un colaborador de tareas a una tarea, esta comienza a funcionar cuando se cumple cualquiera de las siguientes situaciones:
+
+* El colaborador de tareas está asignado a una tarea que está lista para iniciarse. (Por ejemplo, si la tarea tiene predecesoras, las predecesoras están completas).
+* El colaborador de tareas y un usuario se asignan a una tarea y el colaborador de tareas se asigna primero.
+* Una tarea a la que ya se ha asignado un colaborador de tareas está lista para iniciarse. (Por ejemplo, si la tarea tiene predecesoras, las predecesoras están completas).
+* Una tarea a la que ya se han asignado un colaborador de tareas y un usuario está lista para iniciarse. (Por ejemplo, si la tarea tiene predecesoras, las predecesoras están completas).
+* Se asignan un usuario y un colaborador de tareas a una tarea y se elimina el usuario.
+* Un usuario y un colaborador de tareas se asignan a una tarea y el colaborador de tareas se establece como el principal asignado a la tarea.
+
+Las siguientes situaciones no hacen que el colaborador de tareas comience a trabajar en la tarea:
+
+* Se asigna un colaborador de tareas a una tarea que ya tiene un usuario asignado.
+* Se @mentioned un colaborador de tareas en una tarea.
+* Se asigna un colaborador de tareas a una tarea que ya tiene un colaborador de tareas asignado. En este caso, sólo el primer colaborador de tareas asignado comienza a trabajar en la tarea.
+* Se asigna un colaborador de tareas a una tarea que no está lista para iniciarse. (Por ejemplo, si la tarea tiene predecesoras, las predecesoras aún no están completas).
+
 ## Asignar un colaborador de tareas a una tarea
 
 Los colaboradores de tareas se asignan a las tareas del mismo modo que se asignan a los usuarios.
+
+Cuando está buscando un colaborador de tareas en la lista de usuarios asignados disponibles, el nombre del colaborador de tareas es solo un nombre.
 
 Para obtener instrucciones, consulte [Asignar tareas](/help/quicksilver/manage-work/tasks/assign-tasks/assign-tasks.md).
