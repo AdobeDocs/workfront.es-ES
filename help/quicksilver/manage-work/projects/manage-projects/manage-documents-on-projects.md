@@ -152,7 +152,7 @@ This is not possible anymore:
 * No puede agregar un proyecto de almacenamiento en la nube de Adobe a una cartera de productos de almacenamiento heredados ni a un proyecto de almacenamiento heredado a una cartera de productos de Adobe.
 * El administrador puede convertir un catálogo de productos de almacenamiento heredado al almacenamiento en la nube de Adobe en el área Preferencias del sistema de Configuración. Todos los objetos secundarios (programas, proyectos y documentos) permanecen en el almacenamiento heredado. Los nuevos proyectos utilizarán el almacenamiento en la nube de Adobe. Los nuevos documentos añadidos al portafolio se seguirán almacenando en el almacenamiento heredado.
 Para obtener más información, consulte [Configurar las preferencias del sistema](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md).
-* <!-- this point also repeats for programs below-->Si un portafolio se convierte del almacenamiento heredado al almacenamiento en la nube de Adobe y el programa tiene almacenamiento heredado, un proyecto del programa también utilizará el almacenamiento heredado.
+* &#x200B;<!-- this point also repeats for programs below-->Si un portafolio se convierte del almacenamiento heredado al almacenamiento en la nube de Adobe y el programa tiene almacenamiento heredado, un proyecto del programa también utilizará el almacenamiento heredado.
 
   Ya no puede añadir proyectos de almacenamiento heredados existentes a esta cartera.
 
@@ -171,7 +171,7 @@ Tenga en cuenta lo siguiente al trabajar con programas:
 * No puede agregar un programa de almacenamiento en la nube de Adobe a una cartera de productos de almacenamiento heredados ni un programa heredado a una cartera de productos de almacenamiento en la nube de Adobe.
 * No puede crear un proyecto a partir de una plantilla de almacenamiento en la nube de Adobe en un programa de almacenamiento heredado.
 * Puede crear un proyecto a partir de una plantilla de almacenamiento heredada en un programa de almacenamiento en la nube de Adobe, pero los documentos y las carpetas de la plantilla no se agregan al nuevo proyecto. El proyecto recibe almacenamiento en la nube de Adobe.
-* <!-- this point also repeats for portfolios above-->Si un portafolio se convierte del almacenamiento heredado al almacenamiento en la nube de Adobe y el programa tiene almacenamiento heredado, un proyecto del programa también utilizará el almacenamiento heredado.
+* &#x200B;<!-- this point also repeats for portfolios above-->Si un portafolio se convierte del almacenamiento heredado al almacenamiento en la nube de Adobe y el programa tiene almacenamiento heredado, un proyecto del programa también utilizará el almacenamiento heredado.
 
   Ya no puede añadir proyectos de almacenamiento heredados existentes a esta cartera.
 
