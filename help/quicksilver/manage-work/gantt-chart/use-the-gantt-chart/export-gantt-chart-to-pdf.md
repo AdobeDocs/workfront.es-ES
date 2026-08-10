@@ -3,26 +3,20 @@ navigation-topic: use-the-gantt-chart
 title: Exportar el gráfico Gantt a PDF
 description: Puede exportar el diagrama de Gantt a una PDF. Después, puede imprimirlo o adjuntarlo a un correo electrónico para compartirlo con otros usuarios.
 author: Alina
+recommendations: noDisplay, noCatalog
 feature: Work Management
 exl-id: 91aad9e0-25c9-4eae-aa66-8aab763d3b76
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/VVD0wi1yc1tJLyu92tvJhfuT4UqcMVHS7T9OUMRJOmU
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: f70d54de9cf9269ef3edaac6204a4bd41770fecc
 workflow-type: tm+mt
-source-wordcount: 968
+source-wordcount: 983
 ht-degree: 40%
 
 ---
@@ -119,18 +113,18 @@ Old:
 
      Seleccione entre las siguientes opciones:
 
-      * Fechas reales
-      * Asignaciones
-      * Línea base
-      * Fecha de confirmación
-      * % Finalizado
-      * Ruta crítica
-      * Diamantes de hito
-      * Líneas de hito
-      * Predecesoras
-      * Estado de progreso
-      * Fechas planificadas (condicionales)
-      * Fechas proyectadas (condicionales)
+     * Fechas reales
+     * Asignaciones
+     * Línea base
+     * Fecha de confirmación
+     * % Finalizado
+     * Ruta crítica
+     * Diamantes de hito
+     * Líneas de hito
+     * Predecesoras
+     * Estado de progreso
+     * Fechas planificadas (condicionales)
+     * Fechas proyectadas (condicionales)
 
      Para obtener más información, consulte [Configure cómo se muestra la información en el [!UICONTROL gráfico Gantt]](../../../manage-work/gantt-chart/use-the-gantt-chart/configure-info-on-gantt-chart.md).
 
@@ -149,7 +143,7 @@ Old:
    Por ejemplo, si está viendo el [!UICONTROL gráfico Gantt] de un proyecto que contiene 50 tareas, pero desea mostrar solamente 10 tareas en el [!UICONTROL gráfico Gantt] exportado, seleccione las 10 tareas que desee mostrar.
 
 1. Haga clic en el icono de impresora ![Icono de impresora](assets/printer-icon.png) en la esquina superior derecha del gráfico Gantt.
-Aparece el cuadro de diálogo **[!UICONTROL Exportar a PDF]**.
+Se muestra el cuadro de diálogo **[!UICONTROL Exportar a PDF]**.
 
    ![Cuadro de diálogo Exportar a PDF](assets/exported-gantt-ui-350x225.png)
 
@@ -178,7 +172,7 @@ Aparece el cuadro de diálogo **[!UICONTROL Exportar a PDF]**.
 
 
 1. Si el PDF se imprimirá después de exportarlo a PDF, seleccione el tamaño de papel en el que desea imprimir en el menú desplegable **[!UICONTROL Tamaño de página]**.
-Puede seleccionar las siguientes opciones:
+Puede seleccionar entre las siguientes opciones:
 
    * **[!UICONTROL Carta]**
    * **[!UICONTROL Legal]**

@@ -4,24 +4,18 @@ navigation-topic: convert-issues
 title: Convertir un problema en un proyecto
 description: Si es necesario trabajar más para completar un problema después de enviarlo, puede convertir el problema en un proyecto en Adobe Workfront.
 author: Alina
+recommendations: noDisplay, noCatalog
 feature: Work Management
 exl-id: e3ba15a3-6169-466c-9912-32a8afdcc68d
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/mQINHJ0clh8RFxC67LR-L3djGlqKZNwOBwPGIGwZ-kQ
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
-  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: d87de1f9-8e24-4c4d-aa4c-a403075091a1id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: f70d54de9cf9269ef3edaac6204a4bd41770fecc
 workflow-type: tm+mt
 source-wordcount: 2167
 ht-degree: 79%
@@ -108,12 +102,12 @@ Old:
 
 * Hay un límite de procesamiento de 5 minutos al convertir un problema en un proyecto. Si el problema tiene un gran número de documentos adjuntos y no se convierte, es posible que tenga que eliminar algunos de los documentos e intentarlo de nuevo.
 * Cuando su organización utiliza el almacenamiento en la nube heredado de Workfront y Adobe para documentos, existen los siguientes escenarios al convertir un problema en un proyecto: <!--this info also duplicated in Document management overview for projects and related objects and Convert a task to a project-->
-   * Un problema de almacenamiento de Workfront heredado crea un proyecto de almacenamiento de Workfront heredado.
-   * Un problema de almacenamiento en la nube de Adobe crea un proyecto de almacenamiento en la nube de Adobe.
-   * El uso de una plantilla de almacenamiento de Workfront heredada para convertir un problema de almacenamiento en la nube de Adobe crea un proyecto de almacenamiento en la nube de Adobe.
-   * El uso de una plantilla de almacenamiento en la nube de Adobe para convertir un problema de almacenamiento de Workfront heredado crea un proyecto de almacenamiento de Workfront heredado.
+  * Un problema de almacenamiento de Workfront heredado crea un proyecto de almacenamiento de Workfront heredado.
+  * Un problema de almacenamiento en la nube de Adobe crea un proyecto de almacenamiento en la nube de Adobe.
+  * El uso de una plantilla de almacenamiento de Workfront heredada para convertir un problema de almacenamiento en la nube de Adobe crea un proyecto de almacenamiento en la nube de Adobe.
+  * El uso de una plantilla de almacenamiento en la nube de Adobe para convertir un problema de almacenamiento de Workfront heredado crea un proyecto de almacenamiento de Workfront heredado.
 
-     Para obtener más información, vea [Información general sobre la administración de documentos de proyectos y objetos relacionados](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
+    Para obtener más información, vea [Información general sobre la administración de documentos de proyectos y objetos relacionados](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
 
 ## Convertir un problema en un proyecto
 
