@@ -1,9 +1,9 @@
 ---
 name: update-for-release
 description: ""
-source-git-commit: 744be221844b2e24fb738cab5403f581a83b6c16
+source-git-commit: 524a24c1a143a82cdc017ea6266aa2ee5c7a7c0b
 workflow-type: tm+mt
-source-wordcount: '1443'
+source-wordcount: '1560'
 ht-degree: 0%
 
 ---
@@ -79,27 +79,29 @@ Para cada artículo de la lista confirmada por el usuario:
 4. **Agregue nuevos detalles en &quot;incluir siempre&quot; frente a &quot;listo para revisión&quot;.** Este es el paso más importante.
 
    - **Incluir siempre** (aplicar automáticamente, sin preguntar): comportamientos invisibles que el usuario no puede observar al interactuar con la interfaz de usuario. Ejemplos:
-      - Efectos adversos (por ejemplo, &quot;editar esto reenvía el correo electrónico a todos los participantes&quot;)
-      - Comportamiento entre otros objetos o eventos posteriores
-      - Requisitos previos y permisos
-      - Límites no mostrados en la IU de
-      - Cualquier cosa que el usuario solo pueda aprender del PRD, los documentos o el equipo del producto
+     - Efectos adversos (por ejemplo, &quot;editar esto reenvía el correo electrónico a todos los participantes&quot;)
+     - Comportamiento entre otros objetos o eventos posteriores
+     - Requisitos previos y permisos
+     - Límites no mostrados en la IU de
+     - Cualquier cosa que el usuario solo pueda aprender del PRD, los documentos o el equipo del producto
    - **Preparado para revisión** (presentado al usuario con `AskQuestion` como selección múltiple): hechos que el usuario puede ver en la pantalla mientras usa la característica. Ejemplos:
-      - Ya se muestra un contador de caracteres en la interfaz de usuario (por ejemplo: `0 / 500`)
-      - Estado expandido/contraído predeterminado de un campo
-      - Estado seleccionado predeterminado de una casilla de verificación visible
-      - Etiquetas de botón junto al campo
-      - Mensajes de validación que aparecen en línea
+     - Ya se muestra un contador de caracteres en la interfaz de usuario (por ejemplo: `0 / 500`)
+     - Estado expandido/contraído predeterminado de un campo
+     - Estado seleccionado predeterminado de una casilla de verificación visible
+     - Etiquetas de botón junto al campo
+     - Mensajes de validación que aparecen en línea
 
    Proporcione una justificación de una frase para cada elemento &quot;listo para revisión&quot; (&quot;Ayuda a los principiantes a planificar un mensaje más largo&quot;, &quot;Ayuda a los usuarios que no lo ven en etapas posteriores a ampliarlo&quot;). Incluya solo los elementos que elija el usuario. El principio predeterminado es &quot;si el usuario puede verlo en pantalla mientras realiza la tarea, no lo repita&quot;, pero el usuario recibe la llamada final.
 
-5. **Proponer ediciones.** Muestre fragmentos antes o después (o una descripción de estilo de comparación enfocada) del artículo que cubren: ubicación de fragmentos, cambios de nombre de encabezados, nuevo contenido de vista previa en la vista previa y ubicación, referencia de captura de pantalla y cualquier ajuste de `class="preview"` en línea.
+   **Al redactar las oraciones reales** para cualquier bloque, aplique `~/.cursor/skills/writing-quality/SKILL.md` reglas de voz y tono mientras escribe, una descripción sencilla de campo/comportamiento, no una entrada de registro de cambios (&quot;se ha eliminado&quot;, &quot;se ha agregado&quot;), y no reafirme una instrucción sin modificar solo para adjuntarle una nota de vista previa. Recórtelo bien la primera vez en lugar de corregir el tono en un pase posterior.
 
-6. **Espere una aprobación explícita** (&quot;está bien&quot;, &quot;aplicar&quot;, &quot;sí&quot;) antes de escribir el archivo.
+5. **Realice un pase final de calidad de escritura** en el texto borrador antes de mostrarlo. Esta es una red de seguridad, no la primera vez que se aplican estas reglas: captar cualquier paso 4 perdido (redundancia, tono, falta de coincidencia de voz con las filas adyacentes).
 
-7. **Validar.** Después de escribir, ejecute `ReadLints` en el archivo e informe de cualquier problema. Vuelva a leer la sección modificada para confirmar la estructura.
+6. **Proponer ediciones.** Muestre fragmentos antes o después (o una descripción de estilo de comparación enfocada) del artículo que cubren: ubicación de fragmentos, cambios de nombre de encabezados, nuevo contenido de vista previa en la vista previa y ubicación, referencia de captura de pantalla y cualquier ajuste de `class="preview"` en línea.
 
-8. **Diferir las ediciones en el nivel de prosa** a la habilidad **calidad de escritura**. No rehaga aquí la voz, el uso de mayúsculas y minúsculas, las reglas en negrita ni los patrones de vínculos: lea `~/.cursor/skills/writing-quality/SKILL.md` si se solicita un pase en prosa.
+7. **Espere una aprobación explícita** (&quot;está bien&quot;, &quot;aplicar&quot;, &quot;sí&quot;) antes de escribir el archivo.
+
+8. **Validar.** Después de escribir, ejecute `ReadLints` en el archivo e informe de cualquier problema. Vuelva a leer la sección modificada para confirmar la estructura.
 
 ### &#x200B;5. Después de cada artículo
 
@@ -177,10 +179,13 @@ Reglas:
 
 ## Comprobación de la calidad antes de presentar las ediciones
 
+Ejecute esta lista de comprobación completa para **cada** artículo de la sesión, incluidos los artículos secundarios en los que &quot;acaba de añadir una viñeta&quot;, no solo el primero/principal.
+
 - Fragmento de código aparece una vez, en su propia línea, después de H1, con líneas en blanco por encima y por debajo.
 - Los encabezados de sección existentes finalizan con `in Production`.
 - Los nuevos encabezados de sección finalizan con `in Preview` y la sección se encuentra dentro de `<div class="preview">`.
 - Las adiciones en línea están dentro de `<span class="preview">`.
+- La nueva prosa marcada como vista previa se lee como una descripción simple del campo/comportamiento, no como una entrada de registro de cambios, y no repite de forma redundante una instrucción sin cambios.
 - `ReadLints` está limpio en el archivo editado.
 - El artículo se lee correctamente en ambos estados (con el contenido de vista previa mostrado y oculto).
 
