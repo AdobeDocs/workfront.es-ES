@@ -1,9 +1,9 @@
 ---
 name: clean-el-traffic-csv
 description: Limpia una exportación de CSV de tráfico de Experience League/Adobe Analytics sin procesar a páginas solo de Workfront, ordenadas por Vistas de página. Se utiliza cuando el usuario proporciona un CSV de tráfico de páginas de Experience League (columnas como "URL genérica de página", "Visitantes únicos", "Visitas", "Vistas de página") y solicita limpiarlo, filtrarlo o procesarlo, o menciona las hojas de cálculo de "seguimiento de documentación" o "artículos más vistos".
-source-git-commit: 3c5f28f5656fec574cb1ca9d3853703b6b900fdb
+source-git-commit: e22d43e9962b2b00793577fd14ac00587e8a2a6d
 workflow-type: tm+mt
-source-wordcount: '765'
+source-wordcount: '876'
 ht-degree: 0%
 
 ---
@@ -11,7 +11,7 @@ ht-degree: 0%
 
 # Limpiar CSV del tráfico de Experience League
 
-Convierte una exportación sin procesar de tabla de forma libre de Adobe Analytics del tráfico de páginas de Experience League en un CSV limpio, solo de Workfront, deduplicado y ordenado por Vistas de página, sobrescribiendo el archivo original.
+Convierte una exportación sin procesar de tabla de forma libre de Adobe Analytics del tráfico de páginas de Experience League en un CSV limpio, solo para Workfront, deduplicado y ordenado por Vistas de página, sobrescribiendo el archivo original y también guardando una copia con fecha en el escritorio.
 
 ## Formas de entrada
 
@@ -48,7 +48,7 @@ Para cada fila de datos, compruebe si la dirección URL contiene la subcadena li
 
 Para cada fila superviviente, busque `/using` en la dirección URL y guarde solamente la parte del `/` que lo sigue en adelante (incluyendo), descartando todo lo anterior a `/using` e incluido.
 
-Ejemplo: `https://experienceleague.adobe.com/es/docs/workfront/using/home` → `/home`
+Ejemplo: `https://experienceleague.adobe.com/en/docs/workfront/using/home` → `/home`
 
 Si no se encuentra `/using` en la dirección URL de una fila de Workfront, deje esa dirección URL sin cambiar y márquela para el usuario en lugar de adivinar.
 
@@ -79,6 +79,18 @@ Orden de fila final: fila de intervalo de fechas → fila de encabezado → fila
 ### Paso 8: Guardar
 
 Sobrescriba el archivo de entrada original con el resultado limpiado.
+
+### Paso 9: guardar una copia con fecha en el escritorio (solo exportación sin procesar, si se capturó un intervalo de fecha en el paso 0)
+
+Cree una versión con nombre de archivo seguro del intervalo de fechas: elimine las comas y reemplace cualquiera de `\ / : * ? " < > |` por `-` (estos caracteres no son válidos en los nombres de archivo de Windows y podrían aparecer en un intervalo de fechas según la configuración regional o el formato de exportación).
+
+Guarde una copia adicional del CSV limpiado (el mismo contenido que en el paso 8) en el escritorio del usuario actual, con el nombre:
+
+`Documentation tracking report <filename-safe date range>.csv`
+
+Ejemplo: un intervalo capturado de `Apr 1, 2026 - Apr 30, 2026` se convierte en `Documentation tracking report Apr 1 2026 - Apr 30 2026.csv`.
+
+Omita este paso para un CSV ya limpio (forma 2) a menos que el usuario proporcione un intervalo de fechas por separado.
 
 ## Fuera de ámbito
 
@@ -157,6 +169,11 @@ $outLines += $newHeader
 $outLines += $sorted | ForEach-Object { "$($_.URL),$($_.UV),$($_.Visits),$($_.PV)" }
 
 Set-Content -Path $path -Value $outLines -Encoding UTF8
+
+# Step 9: also save a dated copy to the Desktop
+$safeDateRange = ($dateRange -replace ',', '') -replace '[\\/:*?"<>|]', '-'
+$desktopPath = Join-Path ([Environment]::GetFolderPath('Desktop')) "Documentation tracking report $safeDateRange.csv"
+Set-Content -Path $desktopPath -Value $outLines -Encoding UTF8
 ```
 
-Para un CSV ya limpio (forma de entrada 2), omita la lógica de reubicación del encabezado y el intervalo de fechas; simplemente ejecute los pasos 2-6 y 8 en el encabezado o las filas existentes tal cual.
+Para un CSV ya limpio (forma de entrada 2), omita la reubicación del encabezado, la lógica de intervalo de fechas y el paso 9: ejecute los pasos 2-6 y 8 en el encabezado o las filas existentes tal cual.
