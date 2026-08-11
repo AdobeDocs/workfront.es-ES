@@ -48,7 +48,7 @@ Para cada fila de datos, compruebe si la dirección URL contiene la subcadena li
 
 Para cada fila superviviente, busque `/using` en la dirección URL y guarde solamente la parte del `/` que lo sigue en adelante (incluyendo), descartando todo lo anterior a `/using` e incluido.
 
-Ejemplo: `https://experienceleague.adobe.com/en/docs/workfront/using/home` → `/home`
+Ejemplo: `https://experienceleague.adobe.com/es/docs/workfront/using/home` → `/home`
 
 Si no se encuentra `/using` en la dirección URL de una fila de Workfront, deje esa dirección URL sin cambiar y márquela para el usuario en lugar de adivinar.
 
