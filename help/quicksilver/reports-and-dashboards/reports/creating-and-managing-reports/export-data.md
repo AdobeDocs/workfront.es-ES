@@ -9,20 +9,14 @@ exl-id: 7fd45fa2-f5d2-411d-849e-cff5be420fbc
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/uQNAYGgSYY6--5tGVwmcr29NwFZKrp63QZTzNnvvp94
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: a91f865d-c69e-423f-aeff-28a3d6e8554d
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: a91f865d-c69e-423f-aeff-28a3d6e8554d
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 9b272b27e030332325bdd7f75b9f1b947bd6118d
 workflow-type: tm+mt
-source-wordcount: 2258
+source-wordcount: 2259
 ht-degree: 82%
 
 ---
@@ -105,6 +99,7 @@ La información se puede exportar en los siguientes formatos:
 * PDF (horizontal o vertical)
 * Excel
 * Excel (.xlsx)
+* CSV
 * Delimitado por tabulaciones
 
 >[!NOTE]
@@ -122,9 +117,9 @@ Existen varias limitaciones en la forma en que se muestran los informes en Workf
 * **50 000 celdas:** número máximo de celdas permitidas en la exportación de un informe para archivos de Excel.
 * **50.000 filas:** Número de filas de datos permitidas en una exportación de informe para archivos PDF y delimitados por tabuladores.
 
-   * Para archivos de Excel, este límite es de **65,000 filas**.
-   * Para archivos de Excel(.xlsx), este límite es de **100.000 filas**.
-   * Estos límites excluyen los encabezados de columna y las filas de las agrupaciones del informe. Por ejemplo, si tiene 6 agrupaciones en un informe y 50 000 filas de datos, el archivo exportado tendrá 50 000 filas.
+  * Para archivos de Excel, este límite es de **65,000 filas**.
+  * Para archivos de Excel(.xlsx), este límite es de **100.000 filas**.
+  * Estos límites excluyen los encabezados de columna y las filas de las agrupaciones del informe. Por ejemplo, si tiene 6 agrupaciones en un informe y 50 000 filas de datos, el archivo exportado tendrá 50 000 filas.
 
   >[!IMPORTANT]
   >
@@ -142,20 +137,20 @@ Existen varias limitaciones en la forma en que se muestran los informes en Workf
 
 * Estos límites se aplican a lo siguiente:
 
-   * Exportación manual de un informe.
-   * Un informe programado.
-   * Una exportación a través de una integración de API.
-   * Datos exportados mediante Kick-Start.
+  * Exportación manual de un informe.
+  * Un informe programado.
+  * Una exportación a través de una integración de API.
+  * Datos exportados mediante Kick-Start.
 
-     Para obtener más información sobre la exportación de datos mediante Kick-Starts, consulte [Exportar datos de Adobe Workfront a través de Kick-Starts](../../../administration-and-setup/manage-workfront/using-kick-starts/export-data-from-wf-via-kick-starts.md).
+    Para obtener más información sobre la exportación de datos mediante Kick-Starts, consulte [Exportar datos de Adobe Workfront a través de Kick-Starts](../../../administration-and-setup/manage-workfront/using-kick-starts/export-data-from-wf-via-kick-starts.md).
 
-     >[!NOTE]
-     >
-     >Puede exportar 50 000 filas en un archivo de KickStart, aunque solo puede exportar los datos a un archivo con formato de Excel.
+    >[!NOTE]
+    >
+    >Puede exportar 50 000 filas en un archivo de KickStart, aunque solo puede exportar los datos a un archivo con formato de Excel.
 
-   * Exportación de información de utilización para un proyecto.
+  * Exportación de información de utilización para un proyecto.
 
-     Para obtener más información sobre cómo exportar la información de utilización de un proyecto, consulte [Información general sobre el informe de utilización de recursos](../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md#exporting-utilization-information-for-a-project).
+    Para obtener más información sobre cómo exportar la información de utilización de un proyecto, consulte [Información general sobre el informe de utilización de recursos](../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md#exporting-utilization-information-for-a-project).
 
 * **Tamaño de archivo de 10 MB:** límite de tamaño de archivo para cualquier informe exportado programado para su envío. Si un archivo exportado adjunto a un correo electrónico supera los 5 MB, se enviará por correo electrónico un vínculo donde se pueda descargar el archivo en lugar del informe exportado adjunto.
 * **65 530 hipervínculos:** Excel ha impuesto este límite a los documentos que contienen más de 65 530 hipervínculos. Estos documentos no se pueden abrir cuando se exportan manualmente o cuando se envían en un informe enviado. Tenga en cuenta que un documento de Excel puede tener solo 200 filas de datos, pero si hay más de 65 530 vínculos dentro del documento, este no se abrirá. Este límite solo existe en archivos de Excel, no en los demás formatos admitidos.
@@ -240,13 +235,13 @@ Al exportar una lista de tareas o problemas, el **Nombre de archivo** puede ser 
 
 * Al exportar listas de tareas y problemas en un proyecto:
 
-   * *The_project_name_Exported_Tasks*(*en los formatos PDF, Excel, Excel (.xlsx) o delimitados por tabuladores)*
-   * *The_project_name_Exported_Issues*(*en los formatos PDF, Excel, Excel (.xlsx) o delimitados por tabuladores)*
+  * *The_project_name_Exported_Tasks*(*en los formatos PDF, Excel, Excel (.xlsx) o delimitados por tabuladores)*
+  * *The_project_name_Exported_Issues*(*en los formatos PDF, Excel, Excel (.xlsx) o delimitados por tabuladores)*
 
 * Al exportar listas de tareas y problemas en una tarea (subtareas):
 
-   * **The_project_name_the_task_name_Exported_Tasks**(*en los formatos PDF, Excel, Excel (.xlsx) o delimitados por tabuladores)*
-   * **The_project_name_the_task_name_Exported_Issues**(*en los formatos PDF, Excel, Excel (.xlsx) o delimitados por tabuladores)*
+  * **The_project_name_the_task_name_Exported_Tasks**(*en los formatos PDF, Excel, Excel (.xlsx) o delimitados por tabuladores)*
+  * **The_project_name_the_task_name_Exported_Issues**(*en los formatos PDF, Excel, Excel (.xlsx) o delimitados por tabuladores)*
 
 Al exportar una lista de cualquier otro objeto de un proyecto a un archivo PDF, el nombre de archivo del documento exportado indica el tipo de objetos que ha exportado.\
 Por ejemplo, el nombre de archivo puede ser:
