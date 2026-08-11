@@ -6,9 +6,9 @@ author: Becky
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 6b8fc9e010c850625deb3927483f79da190e3f33
+source-git-commit: 20f5a513d8d33ecf8770f35bc73ee799a7de939e
 workflow-type: tm+mt
-source-wordcount: '601'
+source-wordcount: '749'
 ht-degree: 3%
 
 ---
@@ -19,11 +19,29 @@ Este artículo describe las funciones que se lanzarán para Workfront Planning d
 
 Para obtener una lista de todas las características publicadas para Adobe Workfront Planning, consulte [Actividad de la versión de Adobe Workfront Planning: índice de artículo](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
 
+## Presentación de la aptitud de arquitecto de Workfront Planning Solution
+
+>[!NOTE]
+>
+>Vista previa: 10 de agosto de 2026
+>Producción: 10 de agosto de 2026
+
+Estamos poniendo a disposición una nueva aptitud, el arquitecto de soluciones de Workfront Planning, que aporta una orientación óptima y auténtica para Workfront Planning directamente en Claude. Justo en la interfaz de Claude, ahora puede hacer lo siguiente:
+
+* Configure un nuevo espacio de trabajo de Planning para que se ajuste a sus necesidades empresariales, con el servidor MCP de Workfront ejecutando la configuración en su entorno.
+* Auditar una configuración existente para detectar antipatrones a escala.
+* Comprobación del uso respecto a los límites recomendados.
+* Haga preguntas sobre Planning.
+
+Para obtener más información, consulte [Aptitudes disponibles para la instalación directa](/help/quicksilver/workfront-basics/workfront-mcp-server/direct-skills.md).
+
 ## Arrastrar y soltar filas en la vista de tabla
 
 >[!NOTE]
 >
->Vista previa: 30 de julio de 2026>Versión rápida de producción: 13 de agosto de 2026>Producción para todos: 15 de octubre de 2026
+>Vista previa: 30 de julio de 2026
+>Versión rápida de producción: 13 de agosto de 2026
+>Producción para todos: 15 de octubre de 2026
 
 Se ha mejorado visualmente la experiencia de arrastrar y soltar filas en la vista de tabla.
 
@@ -34,7 +52,9 @@ Para obtener más información, consulte [Administrar la vista de tabla](/help/q
 
 >[!NOTE]
 >
->Vista previa: 30 de julio de 2026>Versión rápida de producción: 13 de agosto de 2026>Producción para todos: 15 de octubre de 2026
+>Vista previa: 30 de julio de 2026
+>Versión rápida de producción: 13 de agosto de 2026
+>Producción para todos: 15 de octubre de 2026
 
 Los administradores de Workspace ahora pueden definir dependencias entre tipos de registros conectados. Por ejemplo, si se garantiza un campo de Región, solo se muestran los valores vinculados a la Información geográfica seleccionada. Esto se configura directamente en la configuración del campo de conexión: al agregar una conexión desde un tipo de registro geográfico a un tipo de registro dependiente (como Región), una nueva configuración permite a los administradores de espacio de trabajo marcarlo como dependiente del tipo de registro geográfico, utilizando las relaciones ya establecidas entre esos tipos de registro.
 
@@ -55,7 +75,9 @@ Para obtener más información, consulte [Administrar conexiones dependientes](/
 
 >[!NOTE]
 >
->Vista previa: 30 de julio de 2026>Versión rápida de producción: 13 de agosto de 2026>Producción para todos: 15 de octubre de 2026
+>Vista previa: 30 de julio de 2026
+>Versión rápida de producción: 13 de agosto de 2026
+>Producción para todos: 15 de octubre de 2026
 
 Se ha agregado un nuevo indicador que muestra cuándo hay comentarios no leídos en un registro. El indicador se muestra en la esquina superior derecha del campo principal del registro en la vista de tabla.
 
@@ -65,7 +87,9 @@ Para obtener más información, consulte [Administrar comentarios de registro](/
 
 >[!NOTE]
 > 
->Vista previa: 23 de julio de 2026>Versión rápida de producción: 13 de agosto de 2026>Producción para todos: 15 de octubre de 2026
+>Vista previa: 23 de julio de 2026
+>Versión rápida de producción: 13 de agosto de 2026
+>Producción para todos: 15 de octubre de 2026
 
 Los registros ahora admiten paletas de color personalizables que permiten actualizar los colores asignados automáticamente a los nuevos registros a colores estándar o personalizados.
 
@@ -87,7 +111,8 @@ Para obtener más información, consulte [Crear registros](/help/quicksilver/pla
 ## La planificación de Designer ahora requiere la aceptación del acuerdo de Beta
 
 >[!NOTE]
->Vista previa y producción para todos los clientes: 20 de julio de 2026>[!BADGE Programa inadecuado]{type=Neutral}
+>Vista previa y producción para todos los clientes: 20 de julio de 2026
+>[!BADGE Fuera del horario]{type=Neutral}
 
 La planificación de Designer ahora requiere un acuerdo de Beta aceptado para su uso. Su empresa no tiene que firmar un acuerdo de IA. Esto está disponible para todos los clientes.
 

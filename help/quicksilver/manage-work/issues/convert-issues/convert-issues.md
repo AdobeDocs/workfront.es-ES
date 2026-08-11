@@ -4,6 +4,7 @@ navigation-topic: convert-issues
 title: Información general sobre los problemas de conversión en Adobe Workfront
 description: Si es necesario trabajar más para completar un problema después de enviarlo, puede convertir el problema en un proyecto o en una tarea.
 author: Alina
+recommendations: noDisplay, noCatalog
 feature: Work Management
 topic: Collaboration
 role: User
@@ -25,10 +26,10 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: f70d54de9cf9269ef3edaac6204a4bd41770fecc
 workflow-type: tm+mt
-source-wordcount: 1531
-ht-degree: 89%
+source-wordcount: 1547
+ht-degree: 90%
 
 ---
 
@@ -50,8 +51,8 @@ Para obtener información acerca de cómo convertir problemas en proyectos, vea 
 * Workfront sobrescribe el objeto de resolución del problema cuando se convierte en una tarea o un proyecto. La nueva tarea o problema pasa a ser el nuevo objeto de resolución del problema después de la conversión.
 * Tenga en cuenta lo siguiente:
 
-   * Durante la conversión, es posible que se le pregunte si desea mantener el problema y su resolución asociados al proyecto o la tarea que está creando.
-   * Si mantiene el problema, el estado y el porcentaje completado del proyecto o la tarea actualizan automáticamente el estado y el porcentaje completado del problema cuando se producen cambios en el proyecto, la tarea o el problema, o cuando Workfront vuelve a calcular la cronología.
+  * Durante la conversión, es posible que se le pregunte si desea mantener el problema y su resolución asociados al proyecto o la tarea que está creando.
+  * Si mantiene el problema, el estado y el porcentaje completado del proyecto o la tarea actualizan automáticamente el estado y el porcentaje completado del problema cuando se producen cambios en el proyecto, la tarea o el problema, o cuando Workfront vuelve a calcular la cronología.
 
   >[!NOTE]
   >
@@ -65,11 +66,11 @@ Para obtener información acerca de cómo convertir problemas en proyectos, vea 
 * Al convertir un problema en un proyecto mediante una plantilla, la mayor parte de la información de la plantilla se transfiere al nuevo proyecto. Sin embargo, parte de la información del problema también se puede transferir al nuevo proyecto. Para obtener más información, consulte la sección [Información general sobre los campos de proyecto al convertir un problema en un proyecto mediante una plantilla](#overview-of-project-fields-when-converting-an-issue-to-a-project-using-a-template) en este artículo.
 * Al convertir un problema, no todos los documentos o su información se mueven al nuevo objeto en el que se convierte el problema. Los siguientes elementos se incluyen al convertir un problema que tiene documentos o vínculos a documentos adjuntos:
 
-   * Documento
-   * Vínculos de documentos a servicios de terceros, como Google Drive o SharePoint.
-   * Versiones
-   * Las revisiones solo se incluyen cuando la opción **Mantener el problema original y enlazar su solución a esta tarea** no está seleccionada.
-   * Las aprobaciones de documentos no se incluyen al convertir un problema que tiene documentos y vínculos a documentos adjuntos.
+  * Documento
+  * Vínculos de documentos a servicios de terceros, como Google Drive o SharePoint.
+  * Versiones
+  * Las revisiones solo se incluyen cuando la opción **Mantener el problema original y enlazar su solución a esta tarea** no está seleccionada.
+  * Las aprobaciones de documentos no se incluyen al convertir un problema que tiene documentos y vínculos a documentos adjuntos.
 * Al convertir un problema, existe un límite de procesamiento de 5 minutos. Si el problema tiene un gran número de documentos adjuntos y no se convierte, es posible que tenga que eliminar algunos de los documentos e intentarlo de nuevo.
 * Si ha decidido mantener el problema en la conversión y tiene documentos adjuntos, el documento y sus versiones se copian en el proyecto o en la tarea. Las pruebas y las aprobaciones de documentos no se copian en el proyecto ni en la tarea.
 * Si decide no mantener el problema en la conversión y tiene documentos adjuntos, el documento, sus versiones y las pruebas se transfieren al proyecto o a la tarea. Las aprobaciones de documentos no se transferirán al proyecto o a la tarea.
@@ -102,7 +103,7 @@ En la tabla siguiente se muestra información del proyecto y si se transfiere de
   <tr> 
    <td>Prioridad</td> 
    <td><p>Transferencias del problema.</p>
-   <p>Al utilizar una plantilla para el proyecto convertido, tiene la opción de cambiar manualmente la prioridad. Si decide no cambiarlo, la prioridad del problema se transfiere al proyecto. 
+   <p>Al utilizar una plantilla para el proyecto convertido, tiene la opción de cambiar manualmente la prioridad. Si decide no cambiarla, la prioridad del problema se transfiere al proyecto. 
     </td> 
   </tr> 
   <tr> 

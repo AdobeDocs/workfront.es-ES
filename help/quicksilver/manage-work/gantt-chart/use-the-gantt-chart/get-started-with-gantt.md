@@ -4,6 +4,7 @@ navigation-topic: use-the-gantt-chart
 title: Introducción al gráfico [!UICONTROL Gantt]
 description: Los diagramas de Gantt de Adobe Workfront proporcionan una representación visual de la cronología de una lista de tareas o proyectos.
 author: Alina
+recommendations: noDisplay, noCatalog
 feature: Work Management
 exl-id: 96c4e254-ebbe-41d8-a178-7a79ac0abbbd
 last-update: 2026-04-01T18:03:50.000Z
@@ -18,7 +19,7 @@ subfeature_v2:
   - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: f70d54de9cf9269ef3edaac6204a4bd41770fecc
 workflow-type: tm+mt
 source-wordcount: 538
 ht-degree: 8%
@@ -41,10 +42,10 @@ Aunque se ven y se sienten similares, la funcionalidad de cada uno es diferente.
 ## Consideraciones sobre el gráfico Gantt
 
 * Puede editar la información en el siguiente [!UICONTROL gráfico Gantt]:
-   * Una lista de tareas
+  * Una lista de tareas
 * No se puede editar la información en los siguientes [!UICONTROL diagramas de Gantt]:
-   * Una lista de tareas de plantilla
-   * Una lista de proyectos
+  * Una lista de tareas de plantilla
+  * Una lista de proyectos
 * No hay ninguna opción de [!UICONTROL gráfico Gantt] para una lista de plantillas.
 * Puede configurar la información que se muestra en la lista de tareas [!UICONTROL Diagrama de Gantt] y en la lista de proyectos [!UICONTROL Diagrama de Gantt].
 * No puede configurar los colores ni las fuentes en las que se muestra la información del [!UICONTROL gráfico Gantt].

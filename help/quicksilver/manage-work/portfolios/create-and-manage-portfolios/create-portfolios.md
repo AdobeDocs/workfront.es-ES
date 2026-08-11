@@ -21,10 +21,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+source-git-commit: f70d54de9cf9269ef3edaac6204a4bd41770fecc
 workflow-type: tm+mt
-source-wordcount: 890
-ht-degree: 58%
+source-wordcount: 902
+ht-degree: 57%
 
 ---
 
@@ -112,10 +112,10 @@ Puede crear portafolios en Workfront mediante uno de los métodos siguientes:
 
 * Agregue portafolios de Workfront Planning de las siguientes maneras:
 
-   * Al conectarlos desde un tipo de registro en Workfront Planning.
+  * Al conectarlos desde un tipo de registro en Workfront Planning.
 
   Para obtener información acerca de cómo crear portafolios agregándolos a registros, vea la sección &quot;Crear registros al conectarlos&quot; en el artículo [Crear registros](/help/quicksilver/planning/records/create-records.md).
-   * Uso de automatizaciones de Workfront Planning.
+  * Uso de automatizaciones de Workfront Planning.
 
   Para obtener más información, vea [Crear objetos mediante automatizaciones de registros de Adobe Workfront Planning](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md).
 
@@ -145,17 +145,19 @@ Puede crear portafolios en Workfront mediante uno de los métodos siguientes:
 
      Se crea un portafolio y su nombre predeterminado sigue los siguientes patrones, según el almacenamiento que utilice Workfront para los documentos:
 
-      * `Untitled Portfolio` para un portafolio de almacenamiento de Workfront heredado.
+     * `Untitled Portfolio` para un portafolio de almacenamiento de Workfront heredado.
 
-        Un portafolio de almacenamiento heredado de Workfront muestra un **almacenamiento heredado de Workfront** icono ![icono del portafolio de almacenamiento heredado](assets/legacy-storage-project-icon.png) junto a su nombre.
+       Un portafolio de almacenamiento heredado de Workfront muestra un **almacenamiento heredado de Workfront** icono ![icono del portafolio de almacenamiento heredado](assets/legacy-storage-project-icon.png) junto a su nombre.
 
-      * `Untitled Portfolio - < Month day, year hour.minute.second >` para un portafolio de almacenamiento en la nube de Adobe
+     * `Untitled Portfolio - < Month day, year hour.minute.second >` para un portafolio de almacenamiento en la nube de Adobe
 
-        >[!IMPORTANT]
-        >
-        >Los portafolios que utilizan el almacenamiento en la nube de Adobe deben tener nombres únicos.
+       >[!IMPORTANT]
+       >
+       >Los portafolios que utilizan el almacenamiento en la nube de Adobe deben tener nombres únicos.
 
      Para los portafolios de almacenamiento en la nube de Adobe, se crea automáticamente una nueva carpeta de documentos con el mismo nombre que el portafolio en el área Documentos.
+
+     Para obtener más información, vea [Información general sobre la administración de documentos de proyectos y objetos relacionados](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
 
 1. Reemplace el nombre del portafolio por un nuevo nombre en el encabezado del portafolio.
 

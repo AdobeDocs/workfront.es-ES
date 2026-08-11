@@ -5,6 +5,7 @@ navigation-topic: convert-issues
 title: Información general sobre la resolución y los objetos que se pueden resolver
 description: Un objeto solucionable es un problema cuya resolución está vinculada a un objeto de resolución. Un objeto de resolución es un proyecto, una tarea u otro problema.
 author: Alina
+recommendations: noDisplay, noCatalog
 feature: Work Management
 exl-id: 2ff034ec-6116-42af-a55f-1fb24fc12b2f
 last-update: 2026-04-01T18:03:50.000Z
@@ -23,7 +24,7 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 71bea9d8e8a1987c5a1ee23d25402f784d2e22c8
+source-git-commit: f70d54de9cf9269ef3edaac6204a4bd41770fecc
 workflow-type: tm+mt
 source-wordcount: 1809
 ht-degree: 3%

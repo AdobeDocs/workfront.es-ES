@@ -4,7 +4,8 @@ content-type: overview
 navigation-topic: delegate-work
 title: Información general sobre la delegación de trabajo
 description: Cuando planea estar fuera de la oficina por un corto período de tiempo, puede delegar temporalmente su trabajo a otros usuarios para asegurarse de que su ausencia no se convierta en un obstáculo para el trabajo que se está completando.
-author: Becky
+author: Alina
+recommendations: noDisplay, noCatalog
 feature: Work Management
 exl-id: aec2ce78-278f-48d2-af8c-e4e5b31ac856
 last-update: 2026-04-01T18:03:50.000Z
@@ -25,7 +26,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: f70d54de9cf9269ef3edaac6204a4bd41770fecc
 workflow-type: tm+mt
 source-wordcount: 906
 ht-degree: 90%
@@ -70,9 +71,9 @@ Tenga en cuenta lo siguiente al delegar tareas y problemas:
 * Solo puede delegar tareas y problemas desde el área de [!UICONTROL Inicio].
 * Al delegar trabajo, existen excepciones para los siguientes tipos de licencia:
 
-   * Puede delegar el trabajo a revisores o solicitantes, aunque [!DNL Workfront] no lo recomienda.
-   * Los revisores pueden delegar el trabajo a otras personas. No pueden ver elementos de trabajo en su área de [!UICONTROL Inicio]. Solo pueden ver las aprobaciones.
-   * Los solicitantes no pueden delegar el trabajo a otras personas. No pueden ver elementos de trabajo en su área de [!UICONTROL Inicio]
+  * Puede delegar el trabajo a revisores o solicitantes, aunque [!DNL Workfront] no lo recomienda.
+  * Los revisores pueden delegar el trabajo a otras personas. No pueden ver elementos de trabajo en su área de [!UICONTROL Inicio]. Solo pueden ver las aprobaciones.
+  * Los solicitantes no pueden delegar el trabajo a otras personas. No pueden ver elementos de trabajo en su área de [!UICONTROL Inicio]
 * Solo puede delegar las tareas y problemas que le hayan asignado. No puede delegar tareas y problemas asignados a otros usuarios, equipos o funciones.
 * Solo puede delegar tareas y problemas que no se hayan completado antes de la fecha de inicio de la delegación.
 * Si un elemento de trabajo se completa durante el lapso de tiempo de delegación, el elemento permanece en el área de inicio del delegado y del asignado durante 2 semanas antes de que [!DNL Workfront] lo elimine automáticamente.
