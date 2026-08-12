@@ -7,9 +7,9 @@ description: Como administrador de Adobe Workfront, puede configurar los colabor
 author: Becky
 feature: System Setup and Administration
 role: Admin
-source-git-commit: 560297cc7e4d7e4b4df5917c1710411454b4c9cb
+source-git-commit: cd2f35687330dc8662b52e930ee8a118c90b6c49
 workflow-type: tm+mt
-source-wordcount: '80'
+source-wordcount: '74'
 ht-degree: 5%
 
 ---
@@ -22,4 +22,4 @@ Los colaboradores de IA son agentes de IA que se pueden asignar a tareas del mis
 
 Vea cómo un colaborador de IA recoge y completa tareas en Workfront.
 
->[!VIDEO]&#x200B;((URL AQUÍ)/?quality=12&amp;learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3497105/?quality=12&learn=on)
