@@ -4,9 +4,9 @@ content-type: reference
 description: Aprenda a utilizar los colaboradores de tareas y los colaboradores de IA que se pueden asignar a tareas de Workfront.
 author: Becky
 feature: Work Management, Tasks
-source-git-commit: a05312fa1def1db593743e5e6d385da0b393d5d4
+source-git-commit: 72921e4a1cb9ca564a5c8b4a7a587e37f6a90cc5
 workflow-type: tm+mt
-source-wordcount: '653'
+source-wordcount: '684'
 ht-degree: 4%
 
 ---
@@ -75,8 +75,8 @@ Cuando se asigna un colaborador de tareas a una tarea, esta comienza a funcionar
 
 * El colaborador de tareas está asignado a una tarea que está lista para iniciarse. (Por ejemplo, si la tarea tiene predecesoras, las predecesoras están completas).
 * El colaborador de tareas y un usuario se asignan a una tarea y el colaborador de tareas se asigna primero.
-* Una tarea a la que ya se ha asignado un colaborador de tareas está lista para iniciarse. (Por ejemplo, si la tarea tiene predecesoras, las predecesoras están completas).
-* Una tarea a la que ya se han asignado un colaborador de tareas y un usuario está lista para iniciarse. (Por ejemplo, si la tarea tiene predecesoras, las predecesoras están completas).
+* Una tarea a la que ya se ha asignado un colaborador de tareas como está lista para iniciarse y el colaborador de tareas es el único o el principal asignado. (Por ejemplo, si la tarea tiene predecesoras, las predecesoras están completas).
+* Una tarea a la que ya se han asignado un colaborador de tareas y un usuario está lista para iniciarse y el colaborador de tareas se ha asignado primero o es el principal asignado. (Por ejemplo, si la tarea tiene predecesoras, las predecesoras están completas).
 * Se asignan un usuario y un colaborador de tareas a una tarea y se elimina el usuario.
 * Un usuario y un colaborador de tareas se asignan a una tarea y el colaborador de tareas se establece como el principal asignado a la tarea.
 
@@ -84,7 +84,7 @@ Las siguientes situaciones no hacen que el colaborador de tareas comience a trab
 
 * Se asigna un colaborador de tareas a una tarea que ya tiene un usuario asignado.
 * Se @mentioned un colaborador de tareas en una tarea.
-* Se asigna un colaborador de tareas a una tarea que ya tiene un colaborador de tareas asignado. En este caso, sólo el primer colaborador de tareas asignado comienza a trabajar en la tarea.
+* Se asigna un colaborador de tareas a una tarea que ya tiene un colaborador de tareas asignado. En este caso, el primer colaborador de tareas asignado ya habrá comenzado el trabajo y el segundo colaborador de tareas no hará nada.
 * Se asigna un colaborador de tareas a una tarea que no está lista para iniciarse. (Por ejemplo, si la tarea tiene predecesoras, las predecesoras aún no están completas).
 
 ## Asignar un colaborador de tareas a una tarea
