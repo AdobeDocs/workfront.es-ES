@@ -9,16 +9,12 @@ exl-id: aeedd871-dcd3-4fb3-bfc5-99db3e7c9296
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/G0zsfMcj1dSM-QN3lPprt8rPSoG1Wli4lWqDzMiG3c4
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 4313f348fb66d649ad25afb7f2fad2b533a912d6
 workflow-type: tm+mt
-source-wordcount: 1751
+source-wordcount: 1765
 ht-degree: 1%
 
 ---
@@ -105,31 +101,31 @@ El tipo de registro configurado para ser global tiene las siguientes propiedades
 
 * Puede realizar las siguientes acciones en el tipo de registro global desde su espacio de trabajo original:
 
-   * Edítela
+  * Edítela
 
-     La edición de un tipo de registro global incluye la edición de su aspecto, las funciones entre espacios de trabajo y todos los campos creados en el espacio de trabajo original.
-   * Compartirlo
+    La edición de un tipo de registro global incluye la edición de su aspecto, las funciones entre espacios de trabajo y todos los campos creados en el espacio de trabajo original.
+  * Compartirlo
 
-     Al compartir un tipo de registro, se agregan usuarios al espacio de trabajo y también se comparten los registros con esos usuarios.
-   * Eliminarlo
+    Al compartir un tipo de registro, se agregan usuarios al espacio de trabajo y también se comparten los registros con esos usuarios.
+  * Eliminarlo
 
-     Sólo se puede eliminar un tipo de registro global de su espacio de trabajo original después de eliminar todas las instancias de si de todos los espacios de trabajo secundarios en los que se agregó.
+    Sólo se puede eliminar un tipo de registro global de su espacio de trabajo original después de eliminar todas las instancias de si de todos los espacios de trabajo secundarios en los que se agregó.
 
-     Para obtener más información, vea [Eliminar tipos de registros](/help/quicksilver/planning/architecture/delete-record-types.md).
-   * Posibilidad de conexión desde otros espacios de trabajo
-   * Creación y administración de formularios de solicitud
-   * Creación y administración de automatizaciones
+    Para obtener más información, vea [Eliminar tipos de registros](/help/quicksilver/planning/architecture/delete-record-types.md).
+  * Posibilidad de conexión desde otros espacios de trabajo
+  * Creación y administración de formularios de solicitud
+  * Creación y administración de automatizaciones
 
 * Los siguientes registros se muestran en el espacio de trabajo principal de un tipo de registro global:
 
-   * Registros agregados desde el tipo de registro global en el espacio de trabajo principal
-   * Registros agregados a partir de tipos de registros globales en los espacios de trabajo secundarios donde se agregaron
+  * Registros agregados desde el tipo de registro global en el espacio de trabajo principal
+  * Registros agregados a partir de tipos de registros globales en los espacios de trabajo secundarios donde se agregaron
 
-     Los registros que agregue desde un espacio de trabajo secundario se acumulan y se muestran en el espacio de trabajo principal. Todos los miembros del espacio de trabajo principal original obtienen permisos de Vista para ellos y los registros sólo son visibles para ellos desde el espacio de trabajo principal, incluso cuando no tienen permisos para el espacio de trabajo secundario.
+    Los registros que agregue desde un espacio de trabajo secundario se acumulan y se muestran en el espacio de trabajo principal. Todos los miembros del espacio de trabajo principal original obtienen permisos de Vista para ellos y los registros sólo son visibles para ellos desde el espacio de trabajo principal, incluso cuando no tienen permisos para el espacio de trabajo secundario.
 * Existen los siguientes escenarios para qué tipo de permisos tiene en los registros mostrados en el espacio de trabajo principal, según desde dónde se agregaron:
 
-   * Tiene los mismos permisos para los registros creados en el espacio de trabajo principal que para el espacio de trabajo y para el tipo de registro global original.
-   * Tiene los mismos permisos para los registros creados en un espacio de trabajo secundario que para el espacio de trabajo secundario y para el tipo de registro global de ese espacio.
+  * Tiene los mismos permisos para los registros creados en el espacio de trabajo principal que para el espacio de trabajo y para el tipo de registro global original.
+  * Tiene los mismos permisos para los registros creados en un espacio de trabajo secundario que para el espacio de trabajo secundario y para el tipo de registro global de ese espacio.
 
   <!--
     Removed this as this was too confusing: 
@@ -159,23 +155,23 @@ El tipo de registro configurado para ser global tiene las siguientes propiedades
 
 * Los gestores de espacio de trabajo secundario pueden realizar las siguientes acciones adicionales en el tipo de registro añadido desde un tipo de registro global en un espacio de trabajo secundario:
 
-   * Elimínelo.
+  * Elimínelo.
 
-     Al eliminar el tipo de registro de un espacio de trabajo secundario, solo se elimina de este. Los registros y campos que se le han agregado desde el espacio de trabajo secundario también se eliminan del espacio secundario. Los registros añadidos en el espacio secundario permanecen en el espacio de trabajo principal. Esto no elimina el tipo de registro de su espacio de trabajo original ni de ningún otro espacio de trabajo secundario donde se haya agregado.
+    Al eliminar el tipo de registro de un espacio de trabajo secundario, solo se elimina de este. Los registros y campos que se le han agregado desde el espacio de trabajo secundario también se eliminan del espacio secundario. Los registros añadidos en el espacio secundario permanecen en el espacio de trabajo principal. Esto no elimina el tipo de registro de su espacio de trabajo original ni de ningún otro espacio de trabajo secundario donde se haya agregado.
 
-     Para obtener más información, vea [Eliminar tipos de registros](/help/quicksilver/planning/architecture/delete-record-types.md).
+    Para obtener más información, vea [Eliminar tipos de registros](/help/quicksilver/planning/architecture/delete-record-types.md).
 
-   * Compartirlo
+  * Compartirlo
 
-     Al compartir un tipo de registro global en un espacio de trabajo secundario, también se produce lo siguiente:
+    Al compartir un tipo de registro global en un espacio de trabajo secundario, también se produce lo siguiente:
 
-      * Los usuarios se añaden al espacio de trabajo con permisos de Vista.
-      * Los usuarios reciben los mismos permisos para todos los registros del tipo de registro global en el espacio de trabajo secundario.
-   * Comparta las vistas de los tipos de registros.
+    * Los usuarios se añaden al espacio de trabajo con permisos de Vista.
+    * Los usuarios reciben los mismos permisos para todos los registros del tipo de registro global en el espacio de trabajo secundario.
+  * Comparta las vistas de los tipos de registros.
 
-     No se puede compartir una vista públicamente desde un tipo de registro global en un espacio de trabajo secundario. Solo puede compartir vistas internamente desde un espacio de trabajo secundario. Puede compartir una vista interna y públicamente para un tipo de registro global en su espacio de trabajo original.
+    No se puede compartir una vista públicamente desde un tipo de registro global en un espacio de trabajo secundario. Solo puede compartir vistas internamente desde un espacio de trabajo secundario. Puede compartir una vista interna y públicamente para un tipo de registro global en su espacio de trabajo original.
 
-     Para obtener más información, consulte [Compartir vistas](/help/quicksilver/planning/access/share-views.md).
+    Para obtener más información, consulte [Compartir vistas](/help/quicksilver/planning/access/share-views.md).
 
 
 <!--
@@ -193,21 +189,26 @@ These two capabilities will come later - and edit some of the bullets below afte
 
 * Ningún usuario puede realizar las siguientes acciones en un tipo de registro global en un espacio de trabajo secundario:
 
-   * Edítela
+  * Edítela
 
-     No se puede editar su aspecto, sus funciones entre espacios de trabajo ni los campos añadidos desde el espacio de trabajo original.
-   * Creación y administración de formularios de solicitud
-   * Creación y administración de automatizaciones
+    No se puede editar su aspecto, sus funciones entre espacios de trabajo ni los campos añadidos desde el espacio de trabajo original.
+  * Creación y administración de automatizaciones
+  * Creación y administración de formularios de solicitud
+
+    <!--
+        <span class="preview">You can create records for a secondary record type using a request form from the secondary record type page or by specifically indicating which workspace the record should be saved to when filling out a request form created for the primary global record type and updating the Workspace field. 
+        For information, see [Submit Adobe Workfront Planning requests to create records](/help/quicksilver/planning/requests/submit-requests.md).</span>
+        -->
 
 * Los registros añadidos en un espacio de trabajo secundario son visibles desde los siguientes espacios de trabajo, cuando tiene permisos de Vista o superiores en estos espacios de trabajo:
 
-   * El lugar secundario donde se agregaron
-   * Espacio de trabajo principal original del tipo de registro global
+  * El lugar secundario donde se agregaron
+  * Espacio de trabajo principal original del tipo de registro global
 
 * Existen los siguientes escenarios para acceder a registros creados en espacios de trabajo secundarios:
 
-   * Si tiene permisos de Administración en el espacio de trabajo original y no tiene permisos en espacios de trabajo secundarios, puede ver los registros agregados desde los espacios de trabajo secundarios en el espacio de trabajo original, pero no puede administrarlos desde el espacio de trabajo original.
-   * Si tiene permisos de administración en los espacios de trabajo original y secundario, puede administrar los registros tanto del espacio de trabajo original del tipo de registro global como del espacio de trabajo secundario donde se agregaron.
+  * Si tiene permisos de Administración en el espacio de trabajo original y no tiene permisos en espacios de trabajo secundarios, puede ver los registros agregados desde los espacios de trabajo secundarios en el espacio de trabajo original, pero no puede administrarlos desde el espacio de trabajo original.
+  * Si tiene permisos de administración en los espacios de trabajo original y secundario, puede administrar los registros tanto del espacio de trabajo original del tipo de registro global como del espacio de trabajo secundario donde se agregaron.
   <!--
     not anymore: * You can view the records in additional secondary workspaces where the global record type is added only if you have View permissions to those workspaces
     -->
