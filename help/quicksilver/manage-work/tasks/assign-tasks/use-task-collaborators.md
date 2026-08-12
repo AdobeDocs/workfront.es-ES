@@ -4,10 +4,10 @@ content-type: reference
 description: Aprenda a utilizar los colaboradores de tareas y los colaboradores de IA que se pueden asignar a tareas de Workfront.
 author: Becky
 feature: Work Management, Tasks
-source-git-commit: 72921e4a1cb9ca564a5c8b4a7a587e37f6a90cc5
+source-git-commit: 294abde1460326cd43eb30ac1aac134882cd2ee3
 workflow-type: tm+mt
-source-wordcount: '684'
-ht-degree: 4%
+source-wordcount: '867'
+ht-degree: 3%
 
 ---
 
@@ -94,3 +94,19 @@ Los colaboradores de tareas se asignan a las tareas del mismo modo que se asigna
 Cuando está buscando un colaborador de tareas en la lista de usuarios asignados disponibles, el nombre del colaborador de tareas es solo un nombre.
 
 Para obtener instrucciones, consulte [Asignar tareas](/help/quicksilver/manage-work/tasks/assign-tasks/assign-tasks.md).
+
+## Solución de problemas de colaboradores de tareas
+
+Si el colaborador de tareas no devuelve una respuesta o salida, compruebe lo siguiente:
+
+* Asegúrese de que el agente esté publicado en el lado del proveedor de la plataforma de IA.
+* Asegúrese de que tiene suficientes créditos de IA con la plataforma de su agente.
+* Asegúrese de que la acción realizada en la tarea no requiera un nivel de acceso específico.
+* Si utiliza Copilot como proveedor de agentes, asegúrese de utilizar la configuración &quot;sin autenticación&quot;.
+* Si utiliza Copilot, asegúrese de que su agente está configurado en un entorno global. Actualmente, la funcionalidad de Task Collaborator no admite versiones regionales de Copilot Studio.
+* Asegúrese de que Collaborator es el principal usuario asignado a la tarea.
+* Asegúrese de que la tarea a la que está asignado el colaborador de tareas puede comenzar. Por ejemplo, compruebe que todas las tareas predecesoras de esa tarea estén completas.
+
+>[!TIP]
+>
+>También puede ir a la plataforma del proveedor de agentes y pedirle que realice la tarea dentro de la plataforma. Si el agente no puede realizar la tarea dentro de la plataforma, Task Collaborator también tendrá problemas en Workfront.
