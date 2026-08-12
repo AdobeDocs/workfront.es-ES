@@ -4,9 +4,9 @@ content-type: reference
 description: Aprenda a utilizar los colaboradores de tareas y los colaboradores de IA que se pueden asignar a tareas de Workfront.
 author: Becky
 feature: Work Management, Tasks
-source-git-commit: 294abde1460326cd43eb30ac1aac134882cd2ee3
+source-git-commit: 45e7f102c201e550f0bd759e4387b17a7aabc806
 workflow-type: tm+mt
-source-wordcount: '867'
+source-wordcount: '878'
 ht-degree: 3%
 
 ---
@@ -94,6 +94,10 @@ Los colaboradores de tareas se asignan a las tareas del mismo modo que se asigna
 Cuando está buscando un colaborador de tareas en la lista de usuarios asignados disponibles, el nombre del colaborador de tareas es solo un nombre.
 
 Para obtener instrucciones, consulte [Asignar tareas](/help/quicksilver/manage-work/tasks/assign-tasks/assign-tasks.md).
+
+>[!NOTE]
+>
+>Los colaboradores de tareas no pueden estar asignados para revisar o aprobar un documento.
 
 ## Solución de problemas de colaboradores de tareas
 
