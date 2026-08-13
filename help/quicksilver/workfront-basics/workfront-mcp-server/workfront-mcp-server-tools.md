@@ -5,9 +5,9 @@ title: Herramientas del servidor MCP de Adobe Workfront
 description: Lista de referencia de las herramientas disponibles a través del servidor MCP de Adobe Workfront, agrupadas por área de Workfront.
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: bea4b02589b7b4d88c86246ce489155e5921a508
+source-git-commit: bce4c4abfb75937424ff12271d85758e007bff6b
 workflow-type: tm+mt
-source-wordcount: '2633'
+source-wordcount: '2581'
 ht-degree: 7%
 
 ---
@@ -48,10 +48,10 @@ Si la plataforma agéntica de IA puede encontrar elementos de Workfront pero no 
 | --- | --- | --- | --- |
 | Buscar versión del documento por nombre | `approvals_find_document_version_by_name` | Busca el identificador de la versión actual de un documento por nombre de archivo. Admite coincidencias parciales. | Leer |
 | Obtener documento por ID de versión | `approvals_get_document_by_version_id` | Obtiene detalles del documento (nombre, tamaño, fecha de carga, cargador) para un ID de versión de documento conocido. | Leer |
-| Obtener documentos por proyecto | `approvals_get_documents_by_project` | Enumera los documentos de un proyecto de Workfront, con el ID de versión actual de cada documento. | Leer |
 | Resolver ámbito del documento | `approvals_resolve_document_scope` | Expande un proyecto o carpeta a la lista de identificadores de versión de documento que contiene. Admite ámbitos de proyecto, carpeta y carpeta por nombre. | Leer |
+| Obtener documentos por ámbito | `approvals_get_documents_by_scope` | Mostrar documento de lista dentro de un proyecto o carpeta. | Leer |
+| Enumerar carpetas vinculadas a AEM* | `approvals_list_aem_linked_folders` | Enumera las carpetas de documentos de Workfront vinculadas a Adobe Experience Manager. | Leer |
 | Buscar un documento | `approvals_find_document` | Buscar un documento por nombre de archivo o ID de versión del documento | Leer |
-| Obtener documentos por ámbito | approvals_get_documents_by_scope | Mostrar documento de lista dentro de un proyecto o carpeta. | Leer |
 | Enviar documentos a la carpeta AEM* | `approvals_send_documents_to_aem_folder` | Mueve uno o más documentos de Workfront a una carpeta vinculada a AEM. | Escritura |
 
 *Debe tener una integración nativa de [!DNL Adobe Experience Manager] configurada en la instancia de Workfront para utilizar estas herramientas. Para obtener más información, consulte [Información general sobre las integraciones de Adobe Experience Manager Assets](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/aem-asset-integrations.md).
@@ -110,13 +110,8 @@ Si la plataforma agéntica de IA puede encontrar elementos de Workfront pero no 
 
 | Título | Nombre de herramienta | Qué hace | Acción |
 | --- | --- | --- | --- |
-| Obtener usuario actual | `approvals_get_current_user` | Devuelve la identidad de Workfront del usuario que realiza la llamada, incluidos el nombre, el ID de usuario, el nombre del equipo de inicio y el ID del equipo de inicio. | Leer |
-| Buscar usuario por nombre | `approvals_find_user_by_name` | Busca el ID de un usuario de Workfront por nombre (coincidencia parcial o parcial). Devuelve el nombre, el ID, el correo electrónico, el título y la dirección URL del avatar. | Leer |
-| Buscar equipo por nombre | `approvals_find_team_by_name` | Busca el ID de un equipo de Workfront por nombre (coincidencia parcial o parcial). | Leer |
 | Buscar proyecto por nombre | `approvals_find_project_by_name` | Busca proyectos de Workfront por coincidencia de nombre parcial en todo el sistema. | Leer |
 | Obtener proyectos por propietario | `approvals_get_projects_by_owner` | Enumera proyectos de Workfront en los que el usuario que realiza la llamada es el propietario. | Leer |
-| Encontrar proyectos | approvals_find_projects | Busque proyectos de Workfront, filtrados opcionalmente por su nombre o restringidos a proyectos que posea el usuario que realiza la llamada. | Leer |
-
 
 ## Herramientas de planificación
 
@@ -299,6 +294,7 @@ Las herramientas de perspectivas recuperan información sobre los objetos de Wor
 | Buscar datos de Workfront | `insights_find_workfront_data` | Busque, filtre, cuente, ordene y agregue datos de Workfront. Esta es la herramienta principal de consulta e informe. | Leer |
 | Objeto de resumen | `insights_summarize_object` | Busque y resuma un solo objeto de Workfront por ID. | Leer |
 | Enumerar entidades | `insights_list_entities` | Enumerar todos los tipos de objetos de Workfront disponibles para la consulta. | Leer |
+| Buscar usuarios | `insights_search_users` | Busque personas en la instancia de Workfront por su nombre. Escriba un nombre completo o parcial y vuelva a la parte superior de los usuarios coincidentes. Opcionalmente, esto también puede incluir &quot;bots&quot; de colaborador de IA junto con usuarios habituales. | Leer |
 
 
 
