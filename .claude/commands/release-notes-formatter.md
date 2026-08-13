@@ -83,7 +83,7 @@ Reglas:
 >Production for everyone: {Month Day, Year}
 ```
 
-5. **Cuerpo**: Descripción de la función y después vínculo a la documentación de ayuda
+&#x200B;5. **Cuerpo**: Descripción de la función y después vínculo a la documentación de ayuda
 
 #### Páginas de información general
 
@@ -100,10 +100,10 @@ Reglas:
 * [Document enhancements](#document-enhancements)
 ```
 
-5. **H3 por área de producto** con tabla de características de HTML (consulte .claude/commands/_release-notes-formatter-reference.md#overview-feature-table)
+&#x200B;5. **H3 por área de producto** con tabla de características de HTML (consulte .claude/commands/_release-notes-formatter-reference.md#overview-feature-table)
    - Dentro de cada tabla, **las características más recientes primero**, la fila más reciente aparece en la parte superior de la tabla (después de la fila de encabezado)
 
-6. **Secciones finales** (H2): Notas de la versión para otras áreas, Actualizaciones del visor de revisión de escritorio, Anuncios, Versión de API, Actualizaciones de mantenimiento, Actualizaciones de formación
+&#x200B;6. **Secciones finales** (H2): Notas de la versión para otras áreas, Actualizaciones del visor de revisión de escritorio, Anuncios, Versión de API, Actualizaciones de mantenimiento, Actualizaciones de formación
 
 ### Paso 3: Validación de vínculos
 
@@ -194,12 +194,14 @@ Errores comunes que se deben evitar:
 - Olvidando agregar también el nuevo trimestre a la lista de pestañas del año actual.
 
 &lt;&lt;&lt;&lt;&lt;&lt;&lt; Actualizado en sentido ascendente
+
 ### Paso 8: Actualizar la página de índice de versiones del producto
 =======
+
 ### Paso 9: Actualizar la página de índice de versiones del producto
->>>>>>>>>>Cambios ocultos
+&#x200B;>>>>>>>>>>Cambios ocultos
 > 
-Siempre que cree una **página de información general del trimestre nuevo**, actualice también `help/quicksilver/product-announcements/product-releases/product-releases.md` con el mismo cambio:
+>Siempre que cree una **página de información general del trimestre nuevo**, actualice también `help/quicksilver/product-announcements/product-releases/product-releases.md` con el mismo cambio:
 
 - Busque el bloque `<p>Releases in {year}</p>` para el año actual en la columna &quot;Versiones de Workfront&quot;.
 - Agregue un(a) nuevo(a) `<li>` en la **parte superior** de la lista de ese año, enlazándolo a la página de información general del nuevo trimestre, en el mismo formato que las entradas existentes:
