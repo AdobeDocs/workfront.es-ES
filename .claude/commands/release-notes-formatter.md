@@ -1,10 +1,10 @@
 ---
 name: release-notes-formatter
 description: Dé formato y valide a las notas de la versión de Workfront para mantener la coherencia, una estructura correcta y una vinculación adecuada. Se utiliza solo para archivos de notas de versiones en directorios de versiones de productos o cuando el usuario menciona notas de versiones, versiones de productos o versiones trimestrales. No lo aplique a artículos de procedimientos o documentación general.
-source-git-commit: fa39320af72acf6d2ceaf201480baf78a07ae76e
+source-git-commit: dac869369d6d9ef32741aa0972ccf9cb25b2633c
 workflow-type: tm+mt
-source-wordcount: '1729'
-ht-degree: 3%
+source-wordcount: '2183'
+ht-degree: 2%
 
 ---
 
@@ -83,7 +83,7 @@ Reglas:
 >Production for everyone: {Month Day, Year}
 ```
 
-&#x200B;5. **Cuerpo**: Descripción de la función y después vínculo a la documentación de ayuda
+5. **Cuerpo**: Descripción de la función y después vínculo a la documentación de ayuda
 
 #### Páginas de información general
 
@@ -100,10 +100,10 @@ Reglas:
 * [Document enhancements](#document-enhancements)
 ```
 
-&#x200B;5. **H3 por área de producto** con tabla de características de HTML (consulte .claude/commands/_release-notes-formatter-reference.md#overview-feature-table)
+5. **H3 por área de producto** con tabla de características de HTML (consulte .claude/commands/_release-notes-formatter-reference.md#overview-feature-table)
    - Dentro de cada tabla, **las características más recientes primero**, la fila más reciente aparece en la parte superior de la tabla (después de la fila de encabezado)
 
-&#x200B;6. **Secciones finales** (H2): Notas de la versión para otras áreas, Actualizaciones del visor de revisión de escritorio, Anuncios, Versión de API, Actualizaciones de mantenimiento, Actualizaciones de formación
+6. **Secciones finales** (H2): Notas de la versión para otras áreas, Actualizaciones del visor de revisión de escritorio, Anuncios, Versión de API, Actualizaciones de mantenimiento, Actualizaciones de formación
 
 ### Paso 3: Validación de vínculos
 
@@ -135,7 +135,24 @@ Aplique estas correcciones al dar formato:
 | HTML en páginas de área de producto | Mantener como marcador (HTML solo sirve para tablas de información general) |
 | Falta `exl-id` | Déjelo fuera, no genere uno |
 
-### Paso 6: Actualizar el índice
+### Paso 6: Sincronizar la página de información general
+
+Siempre que agregues una **nueva característica** a una página de área de producto, agrega o actualiza una fila coincidente en la `{YY}-q{N}-release-overview.md` de ese trimestre con el mismo cambio. Una función que solo existe en la página del área de producto y no en la tabla de descripción general no se podrá ver desde el índice de descripción general de la versión.
+
+- Busque la sección H3 para ese área de producto (por ejemplo, `### Reporting enhancements`) y agregue una nueva fila `<tr>` en la **parte superior** de la tabla (después de la fila de encabezado), que coincida con el formato de fila existente (consulte .claude/commands/_release-notes-formatter-reference.md#overview-feature-table).
+- Las fechas de esta fila deben coincidir con el bloque `>[!NOTE]` de la página de área de producto para esa característica (Paso 4).
+- Si una función se reclasifica en una zona de producto diferente (por ejemplo, se mueve de Creación de informes a Administrador), mueva su fila a la sección H3 de la nueva área; no deje una copia antigua atrás en la anterior.
+- Las funciones solo de Planning no se añaden a las tablas de información general: Planning tiene su propia página de actividad de versión, vinculada una vez en &quot;Notas de la versión para otras áreas&quot; (no se necesita ninguna fila por función en ella).
+
+No toque la página de información general cuando una función ya tenga una fila allí y su contenido/fechas no hayan cambiado.
+
+Errores comunes que se deben evitar:
+
+- Añadir el H2 de una función a una página de área de producto sin agregar la fila correspondiente a la tabla de resumen.
+- Se ha dejado una fila de información general antigua en la sección de área de producto antigua después de mover contenido a la página de otra área.
+- Fechas de fila de información general que no coinciden con el bloque `>[!NOTE]` de la página de área de producto.
+
+### Paso 7: Actualizar el índice
 
 Siempre que cree una **nueva** página de nota de versión (información general o área de producto), agréguela a `help/quicksilver/TOC.md` con el mismo cambio. Las páginas que no estén en el índice no aparecerán en la navegación publicada, aunque los vínculos de la tabla de resumen apunten a ellas.
 
@@ -161,7 +178,7 @@ Errores comunes que se deben evitar:
 - Vínculo a una descripción general de trimestre diferente desde la nueva página de área de producto (paso 3).
 - Inserción de páginas de un nuevo trimestre bajo el encabezado del trimestre anterior.
 
-### Paso 7: Actualizar la página de inicio
+### Paso 8: Actualizar la página de inicio
 
 Siempre que cree una **página de información general del trimestre nuevo** (es decir, esta es la primera página de un trimestre nuevo, no solo una página de área de producto nueva agregada a un trimestre existente), actualice `help/quicksilver/home.md` con el mismo cambio:
 
@@ -175,6 +192,31 @@ Errores comunes que se deben evitar:
 
 - Crear una página de información general de un trimestre nuevo sin actualizar la ficha &quot;Última versión&quot; de `home.md` (seguirá apuntando al trimestre anterior).
 - Olvidando agregar también el nuevo trimestre a la lista de pestañas del año actual.
+
+&lt;&lt;&lt;&lt;&lt;&lt;&lt; Actualizado en sentido ascendente
+### Paso 8: Actualizar la página de índice de versiones del producto
+=======
+### Paso 9: Actualizar la página de índice de versiones del producto
+>>>>>>>>>>Cambios ocultos
+> 
+Siempre que cree una **página de información general del trimestre nuevo**, actualice también `help/quicksilver/product-announcements/product-releases/product-releases.md` con el mismo cambio:
+
+- Busque el bloque `<p>Releases in {year}</p>` para el año actual en la columna &quot;Versiones de Workfront&quot;.
+- Agregue un(a) nuevo(a) `<li>` en la **parte superior** de la lista de ese año, enlazándolo a la página de información general del nuevo trimestre, en el mismo formato que las entradas existentes:
+
+  ```html
+  <li><a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-release-overview.md" class="MCXref xref" xrefformat="{para}">Fourth Quarter 2026 release overview</a></li>
+  ```
+
+- Si existe la página de actividad de la versión de Planning de un trimestre nuevo (`planning-release-activity-{YY}-q{N}.md`), agregue también un elemento `<li>` coincidente en la parte superior de la columna &quot;Otras versiones de productos&quot; de la misma fila.
+- Si el año actual todavía no tiene ninguna fila (primer trimestre de un nuevo año), agregue un nuevo `<tr data-mc-conditions="">` por encima de la fila del año anterior, siguiendo la estructura de filas existente.
+
+No toque `product-releases.md` al agregar solamente una página de área de producto a un trimestre que ya tiene una página de información general en la lista.
+
+Errores comunes que se deben evitar:
+
+- Creando página de información general de un trimestre nuevo sin agregarlo a `product-releases.md` (la página seguirá mostrando solamente trimestres anteriores).
+- Adición del vínculo de información general pero olvido del vínculo correspondiente de la actividad de la versión de Planning.
 
 ## Convenciones de nomenclatura de archivos
 
@@ -247,6 +289,7 @@ Cuando revise un archivo de notas de la versión, compruebe:
 - [ Las características de ] se ordenan más recientes (tanto páginas de área de productos como tablas de información general)
 - [ ] Las nuevas páginas de notas de la versión se enumeran en `help/quicksilver/TOC.md` en el trimestre correcto, con la descripción general en primer lugar y las áreas de producto en orden alfabético (el otro en último lugar)
 - [ ] Si se creó la página de información general de un nuevo trimestre, `help/quicksilver/home.md` pestaña &quot;Última versión&quot; y la pestaña del año actual apuntan a ella
+- [ ] Si se creó la página de información general de un nuevo trimestre, `help/quicksilver/product-announcements/product-releases/product-releases.md` lo enumera en la parte superior de la lista &quot;Versiones de Workfront&quot; del año actual (además del vínculo de Planning, si existe)
 
 ## Recursos adicionales
 
