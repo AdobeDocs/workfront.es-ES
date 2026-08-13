@@ -4,16 +4,16 @@ content-type: reference
 description: Aprenda a utilizar los colaboradores de tareas y los colaboradores de IA que se pueden asignar a tareas de Workfront.
 author: Becky
 feature: Work Management, Tasks
-source-git-commit: 45e7f102c201e550f0bd759e4387b17a7aabc806
+source-git-commit: 1894bbb5ec7f44f93468c202fb9c07fa656a83cf
 workflow-type: tm+mt
-source-wordcount: '878'
+source-wordcount: '923'
 ht-degree: 3%
 
 ---
 
 # Uso de colaboradores de tareas
 
-{{highlighted-preview-article-level}}
+<span class="preview">La información de esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa para todos los clientes. Después del lanzamiento en Vista previa, las mismas funciones también están disponibles mensualmente en el entorno de producción para los clientes que habilitaron lanzamientos rápidos. </span>
 
 Los colaboradores de tareas son colaboradores de IA que se pueden asignar directamente a tareas de Workfront, además del colaborador de IA del tipo revisor existente que se utiliza para revisiones de documentos y recursos. Al igual que otros colaboradores de IA, los colaboradores de tareas se configuran en el área de Configuración y se asignan a tareas igual que un usuario.
 
