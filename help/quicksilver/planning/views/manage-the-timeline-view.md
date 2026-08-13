@@ -19,10 +19,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 4378eb4b7272ac17b0fb6f2f2e77de2c0b272050
+source-git-commit: 4313f348fb66d649ad25afb7f2fad2b533a912d6
 workflow-type: tm+mt
-source-wordcount: 4349
-ht-degree: 37%
+source-wordcount: 4418
+ht-degree: 38%
 
 ---
 
@@ -419,8 +419,8 @@ Es posible agrupar registros por información similar al aplicar una agrupación
 Tenga en cuenta lo siguiente al trabajar con agrupaciones en la vista de cronología:
 
 * Es posible aplicar agrupaciones tanto en las vistas de tabla como de cronología. Las agrupaciones de la vista de tabla son independientes de las de la vista de cronología del mismo tipo de registro.
-* Se pueden aplicar 3 niveles de agrupación en una vista. Los registros se agrupan en el orden de agrupaciones que seleccione.
-&lt;!—* Puede aplicar hasta 4 niveles de agrupación al utilizar la API. —comprobando este por ahora—>
+* Se pueden aplicar 3 niveles de agrupación en una vista. Los registros se agrupan en el orden de agrupaciones que se seleccione.
+&lt;!—!—* Puede aplicar hasta 4 niveles de agrupación al utilizar la API. --comprobando este ahora-->
 * Las agrupaciones son únicas para la vista que se seleccione. Dos vistas de tabla del mismo tipo de registro pueden tener diferentes agrupaciones aplicadas. Dos usuarios que vean la misma vista de tabla verán la misma agrupación que se aplique en ese momento.
 * No se puede asignar un nombre a las agrupaciones que se generen para una vista de tabla.
 * Al quitar las agrupaciones, se quitarán de cualquier usuario que tenga acceso al mismo tipo de registro y que muestre la misma vista que usted.
@@ -442,6 +442,7 @@ Para añadir una agrupación en la vista de cronología:
 1. Haga clic en uno de los campos sugeridos o haga clic en **Elija un campo diferente** y busque un campo diferente; a continuación, haga clic en él cuando se muestre en la lista.
 
    La agrupación se aplica automáticamente a la cronología y los registros se muestran dentro del cuadro de agrupación.
+1. (Opcional) Haga clic en **Agregar condición** para agregar hasta tres campos para agrupar por.
 1. (Opcional y condicional) Según el tipo de campo por el que haya seleccionado agrupar, seleccione una de las siguientes opciones de clasificación para ordenar las agrupaciones en orden ascendente o descendente:
 
    * **A -> Z** o **Z -> A** para Seleccionar campos, Campos de texto, Campos de párrafo, Registros u objetos conectados, Campos de personas
@@ -458,6 +459,7 @@ Para añadir una agrupación en la vista de cronología:
 
 1. En el cuadro **Agrupar registros por**, arrastre y suelte las agrupaciones en el orden correcto.
 
+
 1. En el área **Diseño** del cuadro **Agrupar registros por**, seleccione una de las siguientes opciones:
 
    * **Apiladas**: las agrupaciones se muestran sin una columna izquierda inmovilizada y se ajustan al ancho de las escalas de tiempo de sus elementos.
@@ -466,7 +468,9 @@ Para añadir una agrupación en la vista de cronología:
    * **Carretera de la piscina**: las agrupaciones se muestran con una columna de encabezado izquierdo congelada que enumera los elementos agrupados y las agrupaciones se ajustan a la anchura de la vista de escala de tiempo.
 
      ![Agrupación de calles en la vista de cronología](assets/swimlane-grouping-in-timeline-view.png)
-
+   <!--
+    1. <span class="preview">(Optional) Click the **Grouping** icon ![Grouping icon](assets/grouping-icon.png)  in the toolbar to open the **Group records by** box, then click **Expand all** to expand all the groupings, or **Collapse all** to collapse all the groupings and manually collapse only the ones you need. </span>
+    -->
 1. (Opcional) Dentro del cuadro **Agrupar registros por**, haga clic en el icono **x** a la derecha de un campo seleccionado para la agrupación para quitar la agrupación
 
    O
@@ -623,7 +627,7 @@ Tenga en cuenta lo siguiente al desglosar la cronología de los registros según
 
   Si desea mostrar tanto los portafolios como los proyectos en la vista de escala de tiempo de un tipo de registro de Workfront Planning, tanto los portafolios como los proyectos deben estar conectados al registro de Planning o a un registro conectado al registro de Planning cuya vista de escala de tiempo esté administrando.
 * No se pueden mostrar marcas de Adobe GenStudio conectadas a tipos de registros de Planning.
-Para obtener más información, vea [Conectar tipos de registros](/help/quicksilver/planning/architecture/connect-record-types.md).
+Para obtener más información, consulte [Conectar tipos de registros](/help/quicksilver/planning/architecture/connect-record-types.md).
 * Solo puede mostrar tipos de registro asociados con al menos dos campos de fecha.
 * Los campos de fecha para los tipos de registro que desea mostrar en la vista de escala de tiempo deben estar visibles en la vista de tabla del tipo de registro seleccionado, como campos de búsqueda.
 * Las fechas de inicio y finalización de los tipos de registro que desea mostrar en la vista de escala de tiempo deben estar en orden cronológico. Por ejemplo, si un registro tiene una fecha de inicio del 31 de enero y una fecha de finalización del 1 de enero, no se muestra en la vista de escala de tiempo. Para obtener más información, consulte la sección [Administrar una vista de escala de tiempo](#manage-a-timeline-view) en este artículo.
