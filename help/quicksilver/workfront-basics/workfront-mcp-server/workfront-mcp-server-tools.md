@@ -5,10 +5,10 @@ title: Herramientas del servidor MCP de Adobe Workfront
 description: Lista de referencia de las herramientas disponibles a través del servidor MCP de Adobe Workfront, agrupadas por área de Workfront.
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: 53af04ed47a7741db5b3540bf9be706a4f45bca3
+source-git-commit: bea4b02589b7b4d88c86246ce489155e5921a508
 workflow-type: tm+mt
-source-wordcount: '2140'
-ht-degree: 8%
+source-wordcount: '2633'
+ht-degree: 7%
 
 ---
 
@@ -52,16 +52,16 @@ Si la plataforma agéntica de IA puede encontrar elementos de Workfront pero no 
 | Resolver ámbito del documento | `approvals_resolve_document_scope` | Expande un proyecto o carpeta a la lista de identificadores de versión de documento que contiene. Admite ámbitos de proyecto, carpeta y carpeta por nombre. | Leer |
 | Buscar un documento | `approvals_find_document` | Buscar un documento por nombre de archivo o ID de versión del documento | Leer |
 | Obtener documentos por ámbito | approvals_get_documents_by_scope | Mostrar documento de lista dentro de un proyecto o carpeta. | Leer |
+| Enviar documentos a la carpeta AEM* | `approvals_send_documents_to_aem_folder` | Mueve uno o más documentos de Workfront a una carpeta vinculada a AEM. | Escritura |
+
+*Debe tener una integración nativa de [!DNL Adobe Experience Manager] configurada en la instancia de Workfront para utilizar estas herramientas. Para obtener más información, consulte [Información general sobre las integraciones de Adobe Experience Manager Assets](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/aem-asset-integrations.md).
+
+
+* El envío de documentos a una carpeta de AEM aún no es compatible con proyectos en Adobe Cloud Storage. Se espera compatibilidad en una versión futura.
+
 
 <!--
 | List AEM-linked folders* | `approvals_list_aem_linked_folders` | Lists Workfront document folders that are linked to Adobe Experience Manager. | Read |
-| Send documents to AEM folder* | `approvals_send_documents_to_aem_folder` | Moves one or more Workfront documents to an AEM-linked folder. | Write |
-
-*You must have a native [!DNL Adobe Experience Manager] integration configured in your Workfront instance to use these tools. For more information, see [Overview of Adobe Experience Manager Assets integrations](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/aem-asset-integrations.md).
-
-
-*Sending documents to an AEM folder is not yet supported for projects on Adobe cloud storage. Support is expected in a future release.
-
 -->
 
 ### Flujos de trabajo de aprobación
@@ -212,10 +212,64 @@ Las herramientas de flujo de trabajo son las acciones de uso general que utiliza
 | --- | --- | --- | --- |
 | Buscar objetos | `workflow_search_any_object` | Busca objetos de Workfront con parámetros de filtro, orden y paginación flexibles. | Leer |
 | Crear objeto | `workflow_create_any_object` | Crea un nuevo objeto de Workfront, como un proyecto, una tarea, un problema, una hora, una asignación, un programa o un portafolio. | Escritura |
-| Actualizar objeto | `workflow_update_any_object` | Actualiza los campos de un objeto de Workfront existente. | Escritura |
+| Actualizar objeto | `workflow_update_any_object` | Actualiza los campos de un objeto existente. También admite mover una tarea o un problema a otro proyecto, convertir una tarea o un problema en un nuevo proyecto (o un problema en una tarea) y establecer predecesoras de tareas (dependencias). | Escritura |
 | Eliminar objeto | `workflow_delete_any_object` | Elimina un objeto de Workfront por ID. Requiere confirmación explícita del usuario antes de realizar la acción. | Escritura |
 | Resolver nombres de campo | `workflow_resolve_field_names_any_object` | Convierte los nombres de campo o las etiquetas proporcionados por el usuario en los nombres de campo de la API de Workfront subyacentes para que la plataforma agéntica de IA pueda crear solicitudes precisas. | Leer |
 | Leer documentos de flujo de trabajo | `workflow_read_workflow_docs` | Carga la documentación del flujo de trabajo de Workfront, incluidas las guías de uso de herramientas y los libros de reproducción de operaciones específicas de objetos. Este es el primer paso necesario antes de realizar acciones de flujo de trabajo. | Leer |
+
+### Actualizar las capacidades de la herramienta Objeto
+
+La herramienta Actualizar objeto hace más que cambiar los valores de los campos. También puede reubicar el trabajo entre proyectos, promocionar elementos de trabajo en nuevos objetos y establecer dependencias entre tareas.
+
+#### Mover una tarea o un problema a otro proyecto
+
+Mover a los padres un elemento de trabajo en su lugar. El objeto mantiene su identidad y sus vínculos, pero se aloja en un proyecto o tarea principal diferente.
+
+>[!NOTE]
+>
+>Al establecer un campo de Project en una actualización de campo sin formato, no se mueve una tarea o un problema. En su lugar, utilice la capacidad de movimiento.
+
+* **Mover una tarea**: mueve la tarea a un proyecto de destino y, opcionalmente, a una tarea principal de destino.
+* **Mover un problema**: mueve el problema (solicitud) a un proyecto de destino.
+
+Ejemplos de peticiones de datos:
+
+* &quot;Mover la tarea *Mallas metálicas* al proyecto *Rediseño de la aplicación móvil*&quot;.
+* &quot;Mover esta solicitud al proyecto *Q4 Launch*&quot;.
+
+#### Convertir un problema o una tarea en un proyecto
+
+>[!NOTE]
+>
+>La conversión produce un nuevo objeto. El elemento de origen se consume en el proceso.
+
+* **Convertir una tarea en un proyecto**: crea un nuevo proyecto a partir de la tarea. Si lo desea, puede copiar los datos personalizados de la tarea y basar el nuevo proyecto en una plantilla de proyecto.
+* **Convertir un problema (solicitud) en un proyecto**: crea un nuevo proyecto a partir del problema. Si lo desea, puede copiar los datos personalizados del problema, copiar sus valores de campo nativo y aplicar una plantilla de proyecto.
+* **Convertir un problema (solicitud) en una tarea**: crea una tarea en un proyecto existente a partir del problema.
+
+Cada conversión devuelve el objeto recién creado, junto con un vínculo para que pueda abrirlo directamente en Workfront.
+
+Ejemplos de peticiones de datos:
+
+* &quot;Convierta la tarea *Actualización del sitio web* en un proyecto llamado *Actualización del sitio web 2026* con nuestra plantilla estándar&quot;.
+* &quot;Convierta esta solicitud en un proyecto y copie sus campos personalizados&quot;.
+
+#### Establecer predecesoras de tareas (dependencias)
+
+Puede definir los predecesores de una tarea. Las predecesoras admiten los siguientes tipos de dependencia, además del tiempo de retardo opcional:
+
+* **Finalizar-Inicio (FC)**: La tarea se inicia cuando finaliza su predecesora. (Predeterminado)
+* **Start-Start (SS)**: La tarea se inicia cuando se inicia su predecesora.
+* **Finalizar-Finalizar (FF)**: La tarea finaliza cuando finaliza su predecesora.
+* **Comienzo-fin (SF)**: La tarea finaliza cuando se inicia su predecesora.
+
+Puede agregar posposición (un retraso) o posible cliente (un retraso negativo) en días laborables, encadenar varias tareas predecesoras en una sola tarea y hacer referencia a una tarea en un proyecto diferente.
+
+Ejemplos de peticiones de datos:
+
+* &quot;Haga que *Development* comience después de que *Design* finalice&quot;.
+* &quot;Establezca el control de calidad *QA* para que comience cuando comience el *desarrollo*, con un retraso de dos días.&quot;
+* &quot;Agregar #3 de tareas y #5 de tareas como predecesoras de *Launch*.&quot;
 
 ### Comentarios
 
