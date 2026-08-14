@@ -9,19 +9,14 @@ exl-id: 5205c342-7f63-438e-97c8-e74f7dfecfd0
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/IICvipFI1uZkMpwcdiFM9K9pweav2TL8zu-GdDB73bU
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 53f6405b765424450cf929afc991278625bb33cb
 workflow-type: tm+mt
-source-wordcount: 987
-ht-degree: 50%
+source-wordcount: 1229
+ht-degree: 42%
 
 ---
 
@@ -30,7 +25,7 @@ ht-degree: 50%
 >[!IMPORTANT]
 >
 >Actualmente, la función Paneles de lienzo solo está disponible para los usuarios que participan en la fase beta. Es posible que algunas partes de la función no estén completas o que no funcionen según lo previsto durante esta fase. Envíe cualquier comentario sobre su experiencia siguiendo las instrucciones de la sección [Proporcionar comentarios](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) del artículo Información general sobre la versión beta de los paneles de lienzo.<br>
->Si tiene comentarios acerca de un posible error o problema técnico, envíe un ticket al equipo de asistencia de Workfront. Para obtener más información, consulte [Póngase en contacto con Atención al cliente](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>
+>Si tiene comentarios acerca de un posible error o problema técnico, envíe un ticket al equipo de asistencia de Workfront. Para obtener más información, consulte [Contacto con el servicio de asistencia al cliente](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>
 >Tenga en cuenta que esta versión beta no está disponible en los siguientes proveedores de la nube:
 >
 >* Traer su propia clave para Amazon Web Service
@@ -190,6 +185,18 @@ Las relaciones disponibles para columnas adicionales, opciones de filtro y atrib
 * Fases de aprobación de documento > Participantes en la fase de aprobación de documento
 
 Al utilizar cualquiera de las relaciones principal-secundario enumeradas anteriormente, verá una fila en la tabla para cada registro secundario conectado al objeto principal.
+
+### Excluir proyectos personales, tareas y usuarios de bots de los informes de paneles de lienzo
+
+>[!NOTE]
+>
+>Si un informe de paneles de lienzo devuelve más resultados de lo esperado en comparación con un informe clásico similar, es posible que se incluyan proyectos personales, tareas personales o usuarios de bots de forma predeterminada. Añada una condición de filtro para excluirlos.
+
+En los informes Proyecto y tarea de paneles de lienzo, el filtro `isPersonal` no se aplica automáticamente, por lo que los proyectos personales y las tareas personales se incluyen en los resultados de forma predeterminada. Para excluirlos, agregue una condición de filtro como `isPersonal=false`.
+
+Del mismo modo, los informes de usuario de los paneles de lienzo incluyen a todos los usuarios de forma predeterminada, incluidos los colaboradores de IA (usuarios de bots). Para excluir usuarios de bots, agregue una condición de filtro como `isBot=false`.
+
+Los informes clásicos de proyectos y tareas excluyen automáticamente los proyectos personales y las tareas personales, y los informes clásicos de usuarios excluyen automáticamente a los usuarios de bots. Para incluirlos en un informe clásico, agregue una condición de filtro como `isPersonal=true` (solo elementos personales) o `isPersonal_Mod=notnull` (elementos personales y no personales).
 
 ### Operadores de campo por tipo de campo
 
