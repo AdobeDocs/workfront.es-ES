@@ -10,17 +10,12 @@ exl-id: 31c48a50-5235-495c-8e46-0974ed98ede1
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/wpqLg8-2NszOeqT--4RxDP0pZEEnYyPW7UzQeqaLJIo
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 72ac73dc7ea9ec111a95288d361c554c6364ca93
 workflow-type: tm+mt
 source-wordcount: 1056
 ht-degree: 99%
@@ -45,7 +40,7 @@ Las preferencias de las plantillas de horas y las horas controlan lo que aparece
 
 Para obtener información acerca de cómo registrar tiempo en una plantilla de horas, consulte [Registrar el tiempo](../../timesheets/create-and-manage-timesheets/log-time.md).
 
-![Diseño de la plantilla de horas](assets/timesheet-layout-unshimmed.png)
+![Diseño de la plantilla de horas](assets/timesheet-layout-leftnav-updated.png)
 
 Las siguientes son las áreas de una plantilla de horas:
 
@@ -71,8 +66,8 @@ El encabezado de la plantilla de horas incluye la siguiente información:
 
 * El lapso de tiempo de la plantilla de horas.
 * El área de Acciones que incluye lo siguiente:
-   * Un icono de estrella para añadir las plantillas de horas a su lista de Favoritos.
-   * El icono Más con la opción Eliminar que le permite eliminar la plantilla de horas.
+  * Un icono de estrella para añadir las plantillas de horas a su lista de Favoritos.
+  * El icono Más con la opción Eliminar que le permite eliminar la plantilla de horas.
 * Nombre del propietario de la plantilla de horas.
 * Número total de horas registradas para los elementos mostrados en la plantilla de horas.
 * El número de horas extra. Esta es una entrada manual y solo está visible cuando la configuración **Horas extra** está habilitada en una plantilla de horas. Para obtener más información, consulte [Edición de la información de plantilla de horas](../create-and-manage-timesheets/edit-timesheets.md).

@@ -9,20 +9,14 @@ feature: System Setup and Administration
 role: Admin
 exl-id: e9b61da8-2eca-4d88-969b-ae337e402540
 TQID: https://experienceleague.adobe.com/UJTrVSvxhzjNAhbV6TkLv6XYDQeHSCT9KU-BZFVukGA
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 28369dd0d93b6dfce8ea867087938e0d849cf6f8
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 72ac73dc7ea9ec111a95288d361c554c6364ca93
 workflow-type: tm+mt
-source-wordcount: 851
-ht-degree: 17%
+source-wordcount: 847
+ht-degree: 18%
 
 ---
 
@@ -81,9 +75,6 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
 
 1. Empiece a trabajar en una plantilla de diseño, tal como se describe en [Crear y administrar plantillas de diseño](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
 1. Haga clic en la flecha abajo ![Flecha abajo](assets/down-arrow-blue.png) bajo **Personalizar lo que ven los usuarios** y, a continuación, haga clic en **Listas** en el menú desplegable que se muestra.
-
-   ![Personalizar lo que ven los usuarios](assets/customize-what-users-see-dropdown-on-pg-adobe-branding.png)
-
 1. Haga clic en la flecha abajo ![Flecha abajo](assets/down-arrow-blue.png) bajo **Seleccione una lista para personalizar** y, a continuación, seleccione el tipo de objeto Workfront para el que desea personalizar los controles de lista Filtrar, Ver y Agrupar.
 
    ![Seleccione una lista para personalizar](assets/select-a-list-to-customize-menu-on-pg-adobe-branding.png)
