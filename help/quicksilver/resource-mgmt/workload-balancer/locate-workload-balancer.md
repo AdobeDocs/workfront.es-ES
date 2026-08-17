@@ -10,21 +10,14 @@ exl-id: 88029c9d-b588-4d33-801a-04f49b12a6e8
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/MePbnMO9YHsyUXI3D0K2dMDeAAv3Rae-QKlXaS26aMk
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
-subfeature_v2:
-  - id: c33d85a1-be85-4290-854c-87408c10aa80
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2: id: c33d85a1-be85-4290-854c-87408c10aa80
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 97a09c592cc1e96f21334dc9f1592116ad10f3d2
 workflow-type: tm+mt
-source-wordcount: 849
+source-wordcount: 851
 ht-degree: 63%
 
 ---
@@ -99,7 +92,7 @@ Las secciones siguientes ilustran dónde puede acceder al Distribuidor de cargas
 
 1. Haga clic en **Distribuidor de cargas de trabajo** en el panel de la izquierda.
 
-   ![Distribuidor de cargas de trabajo](assets/nwe-balancer-global.png)
+   ![Distribuidor de cargas de trabajo](assets/wb-in-res-mgmt.png)
 
    El Distribuidor de cargas de trabajo muestra la siguiente información de forma predeterminada en el área de Recursos:
 
@@ -118,7 +111,7 @@ Se muestra la página de su equipo de inicio.
 
 1. Haga clic en **Distribuidor de cargas de trabajo** en el panel de la izquierda.
 
-   ![Distribuidor de cargas de trabajo para el equipo](assets/nwe-balancer-team-350x172.png)
+   ![Distribuidor de cargas de trabajo de un equipo](assets/wb-on-team.png)
 
    El Distribuidor de cargas de trabajo de un equipo muestra la siguiente información de forma predeterminada:
 
@@ -138,7 +131,7 @@ Se muestra la página de su equipo de inicio.
 
    Se muestra el Distribuidor de cargas de trabajo para el proyecto.
 
-   ![Distribuidor de cargas de trabajo para el proyecto](assets/nwe-balancer-project-350x152.png)
+   ![Distribuidor de cargas de trabajo de un proyecto](assets/wb-on-project.png)
 
    El Distribuidor de cargas de trabajo de un proyecto muestra lo siguiente a modo de información de forma predeterminada:
 
@@ -161,7 +154,7 @@ Todos los ajustes de visualización están disponibles para el Distribuidor de c
 
    Aparece el Distribuidor de cargas de trabajo para el usuario.
 
-   ![Distribuidor de cargas de trabajo para un usuario](assets/workload-balancer-user.png)
+   ![Distribuidor de cargas de trabajo de un usuario](assets/workload-balancer-user.png)
 
    El Distribuidor de cargas de trabajo de un usuario muestra lo siguiente a modo de información de forma predeterminada:
 
