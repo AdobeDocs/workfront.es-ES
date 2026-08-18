@@ -20,9 +20,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 72ac73dc7ea9ec111a95288d361c554c6364ca93
 workflow-type: tm+mt
-source-wordcount: 4087
+source-wordcount: 4246
 ht-degree: 84%
 
 ---
@@ -124,9 +124,8 @@ Para registrar el tiempo en una plantilla de horas:
 
 {{step1-click-main-menu}}
 
-1. Haga clic en [!UICONTROL **Plantillas de horas**]. La hoja de horas actual se muestra de forma predeterminada.
-   ![Plantilla de horas](assets/timesheet-redesigned-nwe.png)
-
+1. Haga clic en [!UICONTROL **Plantillas de horas**]. La plantilla de horas actual se muestra de forma predeterminada.
+   ![Plantilla de horas](assets/timesheet-layout-leftnav-updated.png)
 
 1. (Opcional) Haga clic en el icono de **pantalla completa** ![](assets/full-screen.png) para mostrar la plantilla de horas en modo de pantalla completa y, a continuación, haga clic en el icono de **salir de pantalla completa** ![](assets/exit-full-screen.png) para volver a la plantilla de horas.
 
@@ -154,8 +153,8 @@ Para registrar el tiempo en una plantilla de horas:
 1. (Condicional) Si añade 50 elementos o más al mismo tiempo, se mostrará un mensaje de confirmación con el número de elementos añadidos a la plantilla de horas.
 
    Haga clic en **Agregar todo** para agregar todos los elementos
-O
-Haga clic en **Cancelar** para detener la adición de los elementos seleccionados y, a continuación, en **Cancelar** para cerrar la lista de elementos.
+   O
+   Haga clic en **Cancelar** para detener la adición de los elementos seleccionados y, a continuación, en **Cancelar** para cerrar la lista de elementos.
 
    Las tareas y los problemas se enumeran con el nombre del proyecto.
 
@@ -288,7 +287,7 @@ Haga clic en **Cancelar** para detener la adición de los elementos seleccionado
 
 1. (Opcional) Haga clic en [!UICONTROL **Actualizaciones**] en el panel izquierdo y, a continuación, añada una actualización a la plantilla de horas. Para obtener más información sobre las actualizaciones de Workfront, consulte [Trabajo de actualización](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
-   ![enter-an-update-in-redesigned-timesheet-left-panel](assets/enter-an-update-in-redesigned-timesheet-left-panel.png)
+   ![enter-an-update-in-redesigned-timesheet-left-panel](assets/timesheet-updates-with-all-tab.png)
 
 1. (Opcional) Vuelva al área **Plantilla de horas** para cerrar o enviar la plantilla de horas.
 
@@ -486,7 +485,7 @@ Para registrar el tiempo en la sección Horas de un proyecto, tarea o problema:
 ### Panel de resumen
 
 Puede registrar tiempo para tareas y problemas en el Panel de resumen.
-Para obtener más información, consulte [Resumen](../../workfront-basics/the-new-workfront-experience/summary-overview.md).
+Para más información, consulte [Información general del resumen](../../workfront-basics/the-new-workfront-experience/summary-overview.md).
 
 ![](assets/summary-hour-log.png)
 
@@ -526,19 +525,19 @@ Según el tipo de entradas de hora que edite, los siguientes campos están dispo
 
 * Cuando edita las horas específicas del proyecto:
 
-   * El número de horas
-   * El Tipo De Hora. Solo puede cambiar el Tipo de hora a tipos específicos del proyecto.
-   * Asignación de rol. Puede cambiar la asignación de rol sólo si estaba habilitada en Configuración. Para obtener más información, consulte [Configurar la plantilla de horas y las preferencias de horas](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md)
-   * La descripción de la entrada de horas.
+  * El número de horas
+  * El Tipo De Hora. Solo puede cambiar el Tipo de hora a tipos específicos del proyecto.
+  * Asignación de rol. Puede cambiar la asignación de rol sólo si estaba habilitada en Configuración. Para obtener más información, consulte [Configurar la plantilla de horas y las preferencias de horas](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md)
+  * La descripción de la entrada de horas.
 
 
   ![](assets/edit-hour-box-project-hour-type.png)
 
 * Cuando edita las horas generales:
 
-   * Número de horas.
-   * El Tipo De Hora. Solo puede cambiar el Tipo de hora a tipos generales.
-   * La descripción de la entrada de horas.
+  * Número de horas.
+  * El Tipo De Hora. Solo puede cambiar el Tipo de hora a tipos generales.
+  * La descripción de la entrada de horas.
 
 >[!TIP]
 >
@@ -551,8 +550,8 @@ Según el tipo de entradas de hora que edite, los siguientes campos están dispo
 
 * Cuando edita una combinación de horas generales y específicas del proyecto, de forma masiva:
 
-   * Número de horas.
-   * La descripción de la entrada de horas.
+  * Número de horas.
+  * La descripción de la entrada de horas.
 
 >[!TIP]
 >
@@ -585,6 +584,6 @@ Para editar los tipos de horas en un informe o una lista de horas:
 1. Haga clic en **Guardar cambios**.
 
    Se actualiza la información de la entrada de horas.
-Si seleccionó más de una entrada de horas y modificó el campo Horas, se asigna la misma cantidad de horas a todas las entradas de horas seleccionadas. Las horas originales se reemplazan con el nuevo valor para todas las entradas de horas seleccionadas.
+   Si seleccionó más de una entrada de horas y modificó el campo Horas, se asigna la misma cantidad de horas a todas las entradas de horas seleccionadas. Las horas originales se reemplazan con el nuevo valor para todas las entradas de horas seleccionadas.
 
 

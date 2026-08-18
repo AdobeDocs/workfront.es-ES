@@ -22,9 +22,9 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 97a09c592cc1e96f21334dc9f1592116ad10f3d2
 workflow-type: tm+mt
-source-wordcount: 849
+source-wordcount: 851
 ht-degree: 63%
 
 ---
@@ -99,7 +99,7 @@ Las secciones siguientes ilustran dónde puede acceder al Distribuidor de cargas
 
 1. Haga clic en **Distribuidor de cargas de trabajo** en el panel de la izquierda.
 
-   ![Distribuidor de cargas de trabajo](assets/nwe-balancer-global.png)
+   ![Distribuidor de cargas de trabajo](assets/wb-in-res-mgmt.png)
 
    El Distribuidor de cargas de trabajo muestra la siguiente información de forma predeterminada en el área de Recursos:
 
@@ -118,7 +118,7 @@ Se muestra la página de su equipo de inicio.
 
 1. Haga clic en **Distribuidor de cargas de trabajo** en el panel de la izquierda.
 
-   ![Distribuidor de cargas de trabajo para el equipo](assets/nwe-balancer-team-350x172.png)
+   ![Distribuidor de cargas de trabajo de un equipo](assets/wb-on-team.png)
 
    El Distribuidor de cargas de trabajo de un equipo muestra la siguiente información de forma predeterminada:
 
@@ -138,7 +138,7 @@ Se muestra la página de su equipo de inicio.
 
    Se muestra el Distribuidor de cargas de trabajo para el proyecto.
 
-   ![Distribuidor de cargas de trabajo para el proyecto](assets/nwe-balancer-project-350x152.png)
+   ![Distribuidor de cargas de trabajo de un proyecto](assets/wb-on-project.png)
 
    El Distribuidor de cargas de trabajo de un proyecto muestra lo siguiente a modo de información de forma predeterminada:
 
@@ -161,7 +161,7 @@ Todos los ajustes de visualización están disponibles para el Distribuidor de c
 
    Aparece el Distribuidor de cargas de trabajo para el usuario.
 
-   ![Distribuidor de cargas de trabajo para un usuario](assets/workload-balancer-user.png)
+   ![Distribuidor de cargas de trabajo de un usuario](assets/workload-balancer-user.png)
 
    El Distribuidor de cargas de trabajo de un usuario muestra lo siguiente a modo de información de forma predeterminada:
 

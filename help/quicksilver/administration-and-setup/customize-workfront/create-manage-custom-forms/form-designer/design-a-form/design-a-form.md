@@ -24,10 +24,10 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0adab8ca6f39e819f1e9e2ac510897d7a14d54a1
+source-git-commit: ad46ecd012bf3b668396f5d05e2eb96017a43095
 workflow-type: tm+mt
-source-wordcount: 7962
-ht-degree: 77%
+source-wordcount: 8071
+ht-degree: 76%
 
 ---
 
@@ -852,8 +852,6 @@ Para añadir una búsqueda externa, haga lo siguiente:
 >* Duración de espera entre reintentos: 500 ms
 >* Estados de respuesta esperados: 2xx
 
-
-
 ### Adición de campos de búsqueda interna
 
 Un campo de búsqueda interna permite a los usuarios escribir el nombre de un objeto que existe en Workfront. Aparece una lista de sugerencias cuando el usuario empieza a escribir. Por ejemplo, si el usuario está escribiendo un nombre de usuario, aparecerá una lista de nombres coincidentes. El tipo de campo de búsqueda interna es compatible con los siguientes objetos:
@@ -871,6 +869,12 @@ Un campo de búsqueda interna permite a los usuarios escribir el nombre de un ob
 * Problema
 * Documento
 * Ubicación
+
+>[!NOTE]
+>
+>Los campos de escritura anticipada ya no están disponibles para agregarlos a los formularios personalizados. Puede convertir un tipo existente con antelación en una búsqueda interna haciendo clic en el botón de las opciones de campo a la derecha. Al realizar la conversión, los datos históricos permanecen en el campo y se utilizan del mismo modo en los informes.
+> 
+>Tenga en cuenta también que si se incluye un campo de escritura anticipada en un paquete de promoción de entorno, el campo se convierte automáticamente en una búsqueda interna cuando se produce la promoción. Para obtener más información sobre la promoción de entornos, consulte [Información general sobre cómo mover objetos entre entornos de Workfront (Promoción de entornos)](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md).
 
 Para agregar una búsqueda interna:
 

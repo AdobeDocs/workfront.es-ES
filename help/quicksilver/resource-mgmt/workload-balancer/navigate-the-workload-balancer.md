@@ -21,9 +21,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 97a09c592cc1e96f21334dc9f1592116ad10f3d2
 workflow-type: tm+mt
-source-wordcount: 4433
+source-wordcount: 4457
 ht-degree: 8%
 
 ---
@@ -83,8 +83,8 @@ Tenga en cuenta lo siguiente al ver el Distribuidor de cargas de trabajo:
 
 * El Distribuidor de cargas de trabajo muestra los elementos de trabajo en dos áreas independientes, según sus asignaciones. Los elementos de trabajo y los usuarios se muestran en las siguientes áreas:
 
-   * **Trabajo sin asignar**: elementos que no tienen asignaciones o que se asignan solamente a roles o equipos de trabajo.
-   * **Trabajo asignado**: elementos asignados al menos a un usuario. Los elementos asignados se muestran bajo el nombre del usuario asignado.
+  * **Trabajo sin asignar**: elementos que no tienen asignaciones o que se asignan solamente a roles o equipos de trabajo.
+  * **Trabajo asignado**: elementos asignados al menos a un usuario. Los elementos asignados se muestran bajo el nombre del usuario asignado.
 
   >[!NOTE]
   >
@@ -139,40 +139,40 @@ Para desplazarse por el Distribuidor de cargas de trabajo para varios proyectos:
 
 1. Haga clic en **Distribuidor de cargas de trabajo** en el panel de la izquierda.
 
-   ![Distribuidor de cargas de trabajo](assets/nwe-balancer-global.png)
+   ![Distribuidor de cargas de trabajo](assets/wb-in-res-mgmt.png)
 
    El Distribuidor de cargas de trabajo muestra información sobre la asignación de trabajo a partir de la semana actual en las dos áreas siguientes:
 
    * El área **Trabajo sin asignar** muestra los siguientes elementos de trabajo:
 
-      * Los elementos de trabajo (tareas y problemas) asignados a funciones, equipos o usuarios sin asignar se muestran después de aplicar los filtros.
-El área de Trabajo no asignado no muestra ningún elemento de trabajo de forma predeterminada. Se recomienda utilizar filtros para mostrar información relevante en esta área.
+     * Los elementos de trabajo (tareas y problemas) asignados a funciones, equipos o usuarios sin asignar se muestran después de aplicar los filtros.
+       El área de Trabajo no asignado no muestra ningún elemento de trabajo de forma predeterminada. Se recomienda utilizar filtros para mostrar información relevante en esta área.
 
-        Para obtener información sobre el uso de filtros, consulte [Información sobre filtros en el Distribuidor de cargas de trabajo](../workload-balancer/filter-information-workload-balancer.md).
+       Para obtener información sobre el uso de filtros, consulte [Información sobre filtros en el Distribuidor de cargas de trabajo](../workload-balancer/filter-information-workload-balancer.md).
 
-      * Las asignaciones de roles en elementos de trabajo solo se muestran cuando se activa la opción Mostrar asignaciones de roles. Para obtener más información, consulte la sección [Personalizar la vista](#customize-the-view) en este artículo.
+     * Las asignaciones de roles en elementos de trabajo solo se muestran cuando se activa la opción Mostrar asignaciones de roles. Para obtener más información, consulte la sección [Personalizar la vista](#customize-the-view) en este artículo.
 
-      * Los proyectos solo se muestran cuando se habilita la configuración Agrupar por proyecto. Para obtener más información, consulte la sección [Personalizar la vista](#customize-the-view) en este artículo.
+     * Los proyectos solo se muestran cuando se habilita la configuración Agrupar por proyecto. Para obtener más información, consulte la sección [Personalizar la vista](#customize-the-view) en este artículo.
 
    * El área **Trabajo asignado** muestra los siguientes elementos de trabajo:
 
-      * De forma predeterminada, todos los usuarios activos del sistema se muestran en esta área. Se recomienda utilizar filtros para limitar la cantidad de información en esta área. Si los usuarios están asignados a elementos, los elementos de trabajo también se muestran bajo su nombre.
+     * De forma predeterminada, todos los usuarios activos del sistema se muestran en esta área. Se recomienda utilizar filtros para limitar la cantidad de información en esta área. Si los usuarios están asignados a elementos, los elementos de trabajo también se muestran bajo su nombre.
 
-      * Las tareas y los problemas asignados al menos a un usuario se muestran bajo el nombre del usuario.
+     * Las tareas y los problemas asignados al menos a un usuario se muestran bajo el nombre del usuario.
 
-        Los elementos de trabajo bajo los nombres de los usuarios en el área Trabajo asignado se ordenan según los siguientes criterios, en este orden:
+       Los elementos de trabajo bajo los nombres de los usuarios en el área Trabajo asignado se ordenan según los siguientes criterios, en este orden:
 
-         1. Fecha planificada de inicio (la más antigua primero)
-         1. Fecha planificada de finalización (la más antigua primero)
-         1. Alfabético por proyecto (solo cuando los dos primeros criterios son idénticos para varios elementos de trabajo)
+       1. Fecha planificada de inicio (la más antigua primero)
+       1. Fecha planificada de finalización (la más antigua primero)
+       1. Alfabético por proyecto (solo cuando los dos primeros criterios son idénticos para varios elementos de trabajo)
 
-            >[!TIP]
-            >
-            >* Puede personalizar la ordenación del proyecto seleccionando una opción en la configuración Ordenar proyectos por.
-            >
-            >* Los proyectos solo se muestran cuando se habilita la configuración Agrupar por proyecto.
-            > 
-            >Para obtener información acerca de cómo personalizar la configuración, vea la sección [Personalizar la vista](#customize-the-view) en este artículo.
+          >[!TIP]
+          >
+          >* Puede personalizar la ordenación del proyecto seleccionando una opción en la configuración Ordenar proyectos por.
+          >
+          >* Los proyectos solo se muestran cuando se habilita la configuración Agrupar por proyecto.
+          > 
+          >Para obtener información acerca de cómo personalizar la configuración, vea la sección [Personalizar la vista](#customize-the-view) en este artículo.
 
 1. (Opcional) Haga clic en el icono **Filtro** ![Icono de filtro](assets/filter-icon.png) en el área de **Trabajo asignado** y, a continuación, seleccione el **Filtro predeterminado** en el área **Sugerido** del cuadro de filtro.
 
@@ -260,10 +260,10 @@ El área de Trabajo no asignado no muestra ningún elemento de trabajo de forma 
 
    * **Incluir horas de problemas**: cuando se selecciona esta opción, los problemas asignados a usuarios se muestran bajo el nombre del usuario en el área de Trabajo asignado y los problemas que no están asignados a usuarios se muestran en el área de Trabajo no asignado. Las horas planificadas de los problemas se contabilizan hacia las horas planificadas para el proyecto y para el usuario en el área de Trabajo asignado.
    * **Mostrar fechas proyectadas**: cuando se selecciona esta opción, se muestra la escala de tiempo proyectada de los elementos de trabajo además de la escala de tiempo planeada. Observe lo siguiente:
-      * La escala de tiempo proyectada del proyecto, las tareas y los problemas se muestra como una línea azul oscura encima de las barras de tareas, problemas y proyectos.
-      * La escala de tiempo proyectada que se encuentra fuera de la escala de tiempo planificada se muestra en azul claro, incluso cuando se actualiza el tema de color, como se describe a continuación.
-      * La escala de tiempo proyectada para los elementos que no tiene acceso a la vista se muestra en gris claro con una línea debajo.
-      * Cuando una tarea o un problema se completan antes de la fecha planificada de finalización de vencimiento, los números de asignación para los días restantes se tachan y no se contabilizan en la asignación del usuario. Esto solo se muestra cuando están activados tanto la configuración Mostrar fechas proyectadas como el icono Mostrar asignación.
+     * La escala de tiempo proyectada del proyecto, las tareas y los problemas se muestra como una línea azul oscura encima de las barras de tareas, problemas y proyectos.
+     * La escala de tiempo proyectada que se encuentra fuera de la escala de tiempo planificada se muestra en azul claro, incluso cuando se actualiza el tema de color, como se describe a continuación.
+     * La escala de tiempo proyectada para los elementos que no tiene acceso a la vista se muestra en gris claro con una línea debajo.
+     * Cuando una tarea o un problema se completan antes de la fecha planificada de finalización de vencimiento, los números de asignación para los días restantes se tachan y no se contabilizan en la asignación del usuario. Esto solo se muestra cuando están activados tanto la configuración Mostrar fechas proyectadas como el icono Mostrar asignación.
 
      >[!TIP]
      >
@@ -287,19 +287,19 @@ El área de Trabajo no asignado no muestra ningún elemento de trabajo de forma 
      >La configuración para seleccionar el tema de color no afecta al color de las barras de problemas. Los problemas siempre se muestran en una barra de color granate.
 
      Seleccione entre las siguientes opciones:
-      * **Predeterminado**: las barras de todos los proyectos y sus elementos de trabajo se muestran en azul.
-      * **Proyecto**: las barras asociadas a cada proyecto y sus tareas cambian según el nombre del proyecto. Todas las tareas que pertenecen al proyecto se muestran en barras que coinciden con el color del proyecto. Las barras de proyecto se muestran en un tono más claro para distinguirlas de las tareas. Las barras de proyecto también incluyen un icono de proyecto al elegir no mostrar las asignaciones.
-      * **Estado del proyecto**: las barras asociadas a cada proyecto y sus elementos de trabajo cambian al color del estado del proyecto.
+     * **Predeterminado**: las barras de todos los proyectos y sus elementos de trabajo se muestran en azul.
+     * **Proyecto**: las barras asociadas a cada proyecto y sus tareas cambian según el nombre del proyecto. Todas las tareas que pertenecen al proyecto se muestran en barras que coinciden con el color del proyecto. Las barras de proyecto se muestran en un tono más claro para distinguirlas de las tareas. Las barras de proyecto también incluyen un icono de proyecto al elegir no mostrar las asignaciones.
+     * **Estado del proyecto**: las barras asociadas a cada proyecto y sus elementos de trabajo cambian al color del estado del proyecto.
 
-        El estado del proyecto es el asociado al Grupo del proyecto. Si el grupo no tiene estados específicos del grupo, el color de las barras de elementos de trabajo es el del estado del proyecto en el sistema. Se muestran tanto los estados del sistema como los personalizados. Para obtener información acerca de los estados de grupo, vea [Crear o editar un estado de grupo](../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md).
+       El estado del proyecto es el asociado al Grupo del proyecto. Si el grupo no tiene estados específicos del grupo, el color de las barras de elementos de trabajo es el del estado del proyecto en el sistema. Se muestran tanto los estados del sistema como los personalizados. Para obtener información acerca de los estados de grupo, vea [Crear o editar un estado de grupo](../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md).
 
    * En la sección **Mostrar asignación de usuarios en**, seleccione una de las siguientes opciones:
-      * **Horas**: muestra el tiempo asignado como horas. Es la opción predeterminada.
-      * **Porcentaje**: muestra el tiempo asignado como porcentaje del tiempo total disponible
+     * **Horas**: muestra el tiempo asignado como horas. Es la opción predeterminada.
+     * **Porcentaje**: muestra el tiempo asignado como porcentaje del tiempo total disponible
    * En la sección **Preferencias de clasificación**, seleccione cómo desea que se ordenen los elementos en el Distribuidor de cargas de trabajo. Seleccione entre las siguientes opciones:
-      * **Ordenar usuarios por función principal**: los usuarios se muestran en el orden alfabético de sus funciones principales en el área de Trabajo asignado.
-      * **Ordenar usuarios alfabéticamente**: los usuarios se muestran en el orden alfabético de sus nombres en el área Trabajo asignado.
-      * **Ordenar proyectos por**: seleccione un campo de proyecto del menú desplegable para ordenar los proyectos alfabéticamente por ese campo en las áreas de Trabajo no asignado o asignado.
+     * **Ordenar usuarios por función principal**: los usuarios se muestran en el orden alfabético de sus funciones principales en el área de Trabajo asignado.
+     * **Ordenar usuarios alfabéticamente**: los usuarios se muestran en el orden alfabético de sus nombres en el área Trabajo asignado.
+     * **Ordenar proyectos por**: seleccione un campo de proyecto del menú desplegable para ordenar los proyectos alfabéticamente por ese campo en las áreas de Trabajo no asignado o asignado.
 
    >[!TIP]
    >
@@ -339,8 +339,8 @@ El área de Trabajo no asignado no muestra ningún elemento de trabajo de forma 
 
      También puede utilizar los siguientes métodos abreviados para asignar tareas o problemas:
 
-      * En Windows: CTRL + clic en la barra de tareas o problemas.
-      * En Mac: CMD + clic en la barra de tareas o problemas.
+     * En Windows: CTRL + clic en la barra de tareas o problemas.
+     * En Mac: CMD + clic en la barra de tareas o problemas.
 
      Para obtener más información sobre la asignación de elementos de trabajo a los usuarios en el Distribuidor de cargas de trabajo, consulte [Información general sobre la asignación de trabajo en el Distribuidor de cargas de trabajo](../workload-balancer/assign-work-in-workload-balancer.md).
 
@@ -432,7 +432,7 @@ La página de su equipo de inicio se muestra de forma predeterminada.
 
 1. Haga clic en **Distribuidor de cargas de trabajo** en el panel de la izquierda.
 
-   ![Distribuidor de cargas de trabajo de un equipo](assets/nwe-balancer-team-350x172.png)
+   ![Distribuidor de cargas de trabajo de un equipo](assets/wb-on-team.png)
 
    El Distribuidor de cargas de trabajo de un equipo muestra la siguiente información de forma predeterminada:
 
@@ -448,7 +448,7 @@ La página de su equipo de inicio se muestra de forma predeterminada.
 1. Haga clic en el nombre de un proyecto para abrir su página.
 1. Haga clic en **Distribuidor de cargas de trabajo** en el panel de la izquierda.
 
-   ![Distribuidor de cargas de trabajo de un proyecto](assets/nwe-balancer-project-350x152.png)
+   ![Distribuidor de cargas de trabajo de un proyecto](assets/wb-on-project.png)
 
    El Distribuidor de cargas de trabajo del proyecto muestra la siguiente información de forma predeterminada:
 
@@ -503,7 +503,7 @@ Puede acceder al Distribuidor de cargas de trabajo en su propio perfil de usuari
 
    Aparece el Distribuidor de cargas de trabajo para el usuario.
 
-   ![Distribuidor de cargas de trabajo para un usuario](assets/workload-balancer-user.png)
+   ![Distribuidor de cargas de trabajo de un usuario](assets/workload-balancer-user.png)
 
    El Distribuidor de cargas de trabajo de un usuario muestra lo siguiente a modo de información de forma predeterminada:
 
