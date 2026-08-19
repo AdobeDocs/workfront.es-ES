@@ -6,9 +6,9 @@ description: Planifique el despliegue de Workfront en el almacenamiento en la nu
 author: Courtney
 feature: System Setup and Administration, Work Management, Digital Content and Documents
 role: Admin
-source-git-commit: 36a4c29fb3d5e3ff3bb3b4952076cdd4bdf5d1d6
+source-git-commit: 719cce365a8279b46c849b92f0cd31c6bc4021a8
 workflow-type: tm+mt
-source-wordcount: '2936'
+source-wordcount: '2966'
 ht-degree: 1%
 
 ---
@@ -38,6 +38,7 @@ Al pasar a una versión de Workfront compatible con el almacenamiento en la nube
 
 Antes de implementar el almacenamiento en la nube de Adobe, asegúrese de que las personas que administran las aprobaciones sepan qué esperar:
 
+* **Qué sucede con las aprobaciones existentes** Los flujos de trabajo de aprobación heredados existentes se ven afectados por este cambio, esté en curso o se haya completado. Para obtener más información, consulte [Paso de aprobaciones de documentos heredados a aprobaciones unificadas](/help/quicksilver/review-and-approve-work/move-to-unified-approvals.md).
 * **Una nueva experiencia de aprobaciones** Los revisores y aprobadores pasan de la experiencia de aprobación de documentos heredados a las aprobaciones unificadas, lo que agrega aprobaciones de varias fases, rutas de revisión paralelas y mucho más. Para obtener más información, consulte los siguientes artículos:
 
   * [Introducción a la revisión y aprobación unificadas](/help/quicksilver/review-and-approve-work/get-started-with-unified-approvals.md)
