@@ -4,9 +4,9 @@ content-type: reference
 description: Aprenda a utilizar los colaboradores de tareas y los colaboradores de IA que se pueden asignar a tareas de Workfront.
 author: Becky
 feature: Work Management, Tasks
-source-git-commit: 73ca5de2dbc9ef698d3c8fa3098b783168c1c6b2
+source-git-commit: d56556791fad5d909a2878c42110fb552b719e2f
 workflow-type: tm+mt
-source-wordcount: '995'
+source-wordcount: '1027'
 ht-degree: 3%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 3%
 
 Los colaboradores de tareas son colaboradores de IA que se pueden asignar directamente a tareas de Workfront, además del colaborador de IA del tipo revisor existente que se utiliza para revisiones de documentos y recursos. Al igual que otros colaboradores de IA, los colaboradores de tareas se configuran en el área de Configuración y se asignan a tareas igual que un usuario.
 
-Los colaboradores de tareas se conectan a los agentes que ha configurado, como un servidor MCP.
+Los colaboradores de tareas se conectan a los agentes configurados en Copilot Studio, Claude o Writer.
 
 Para obtener información e instrucciones sobre cómo crear un colaborador de tareas en Workfront, consulte [Configuración de un colaborador de tareas](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md#configure-a-task-collaborator) en el artículo Configuración de colaboradores de IA.
 
@@ -63,6 +63,7 @@ Algunos flujos de trabajo de ejemplo pueden incluir:
 >[!NOTE]
 >
 >* Los detalles específicos sobre las responsabilidades y capacidades de un agente se configuran en la aplicación en la que se crea el agente, no en Workfront.
+>* No es necesario agregar el servidor MCP de Workfront al agente utilizado como colaborador de tareas y no es necesario conectarse para que funcione el colaborador de tareas.
 >* Actualmente, los colaboradores de tareas admiten agentes creados en Copilot Studio, Claude y Writer.ai.
 >* Al configurar un agente en Copilot Studio, debe establecer la seguridad en **Sin autenticación**.
 >* Para obtener información e instrucciones sobre cómo crear un colaborador de tareas en Workfront, consulte [Configuración de un colaborador de tareas](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md#configure-a-task-collaborator) en el artículo Configuración de colaboradores de IA.
