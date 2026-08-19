@@ -6,7 +6,7 @@ description: Comprenda qué sucede con los flujos de trabajo de aprobación de d
 author: Courtney
 feature: System Setup and Administration, Work Management, Digital Content and Documents
 role: Admin
-source-git-commit: b612a50b7445732f90b7de2a216f4bca499fd96b
+source-git-commit: 8f3c5ed32c6496a13703a5dce771a84462aa7f05
 workflow-type: tm+mt
 source-wordcount: '429'
 ht-degree: 3%
@@ -34,8 +34,6 @@ Al pasar a una versión de Workfront compatible con el almacenamiento en la nube
 | Revisión y marcado | Visualizador de revisiones | [Visualizador de revisiones](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/doc-approvals-and-proofing.md) en objetos de almacenamiento de Workfront heredados o el visualizador [Frame.io](/help/quicksilver/review-and-approve-work/workfront-storage.md#review-and-approval-viewer) en objetos de almacenamiento en la nube de Adobe |
 | Revisión asistida por IA | No disponible | Comprobaciones automáticas del cumplimiento de la marca con [Revisor de contenido](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md) |
 | Creación de informes | Informes heredados | Widgets de KPI de inicio y [paneles de lienzo](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-review-and-approval-dashboard.md) |
-
-
 
 ### ¿Qué les sucede a las aprobaciones en curso?
 
