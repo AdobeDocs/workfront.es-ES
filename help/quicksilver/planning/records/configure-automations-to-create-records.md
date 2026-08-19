@@ -18,9 +18,9 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 7c21ccc7fb345de3d227eb3dcf7f543670f486f8
+source-git-commit: 13c240ad1b51b30dd410a1bf8f49678375ab2e93
 workflow-type: tm+mt
-source-wordcount: 1884
+source-wordcount: 1900
 ht-degree: 5%
 
 ---
@@ -215,11 +215,11 @@ Se abre la página de detalles de automatización.
       >[!IMPORTANT]
       >
       >* El modificador de cada condición cambia según el tipo de campos seleccionado.
-      >* Cada condición puede aportar más de un filtro cuando un campo tiene varios valores seleccionados. El número total de filtros en las condiciones no puede superar los 5 y los grupos de filtros no se pueden anidar. Si la configuración supera este límite, se mostrará un error en línea en las condiciones y no podrá guardar la automatización hasta que reduzca el número de opciones o condiciones seleccionadas.
+      >* Cada condición puede hacer referencia a uno o varios valores. En todas las condiciones, puede hacer referencia a un máximo de 5 valores totales, independientemente de cuántas condiciones cree. Por ejemplo, una configuración con 3 condiciones que hacen referencia colectivamente a 6 valores supera el límite. Las condiciones no se pueden anidar. Si la configuración supera el límite de 5 valores, aparece un error en línea debajo de las condiciones y no puede guardar la automatización hasta que reduzca el número de valores a los que se hace referencia.
       >
       >   Si necesita más condiciones de las que el límite permite, divida el trabajo en dos automatizaciones independientes.
       >
-      >   Para obtener más información, consulte [Uso de grupos de filtros](/help/quicksilver/wf-api/general/event-subs-api.md#using-filter-groups) en *Suscripciones de eventos*.
+      >   Para obtener más información, consulte [Uso de grupos de filtros](/help/quicksilver/wf-api/general/event-subs-api.md#using-filter-groups) en el artículo Suscripciones de eventos.
 
 1. Actualice los campos siguientes en la sección **Acciones**: <!--submitted bugs for these fields - see if they need changing here-->
    * **Acciones**: seleccione la acción que desea que realice Workfront al activar la automatización. Este campo es obligatorio.
