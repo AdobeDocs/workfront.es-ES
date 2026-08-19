@@ -9,14 +9,11 @@ exl-id: de066d44-d214-47cc-8483-37c2623585ea
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/5fAVg3RVgnHdJraHxLwM-u4rrUwzou9wDzR6KUKW1xY
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: a1b1bc6013697405137110f4ce6fa329222f57e0
 workflow-type: tm+mt
-source-wordcount: 1042
+source-wordcount: 1051
 ht-degree: 0%
 
 ---
@@ -47,12 +44,12 @@ Las siguientes son ventajas de utilizar jerarquías en los espacios de trabajo:
 * Se pueden crear hasta cinco jerarquías para un espacio de trabajo.
 * Puede tener hasta 4 tipos de registros y objetos conectados en una jerarquía.
 * Sólo se pueden conectar los tipos de objeto siguientes en una jerarquía de espacio de trabajo:
-   * Tipos de registro que pertenecen al espacio de trabajo en el que está creando las jerarquías.
-   * Proyectos de Workfront. Los proyectos de Workfront no se pueden agregar como principales de otros tipos de registro. Siempre son el último tipo de objeto de una jerarquía.
+  * Tipos de registro que pertenecen al espacio de trabajo en el que está creando las jerarquías.
+  * Proyectos de Workfront. Los proyectos de Workfront no se pueden agregar como principales de otros tipos de registro. Siempre son el último tipo de objeto de una jerarquía.
 * No se pueden agregar los siguientes tipos de objeto en una jerarquía:
-   * Tipos de registro de otros espacios de trabajo, incluso cuando están configurados como tipos de registro conectables o globales. Puede agregar tipos de registros globales a jerarquías sólo cuando se hayan agregado al espacio de trabajo desde el que está creando la jerarquía.
-   * Todos los demás objetos de Workfront.
-   * Adobe Experience Manager Assets o fragmentos de contenido.
+  * Tipos de registro de otros espacios de trabajo, incluso cuando están configurados como tipos de registro conectables o globales. Puede agregar tipos de registros globales a jerarquías sólo cuando se hayan agregado al espacio de trabajo desde el que está creando la jerarquía.
+  * Todos los demás objetos de Workfront.
+  * Adobe Experience Manager Assets o fragmentos de contenido.
 * Las jerarquías pueden incluir tipos de registros de Planning y proyectos de Workfront al mismo tiempo.
 
   Por ejemplo, puede tener un tipo de registro de campaña con Tácticas de planificación y Proyectos de Workfront como elementos secundarios en la misma jerarquía de espacio de trabajo.
@@ -64,25 +61,25 @@ Las siguientes son ventajas de utilizar jerarquías en los espacios de trabajo:
 * No puede eliminar un campo de conexión si el tipo de registro al que se hace referencia en el campo forma parte de una jerarquía. Primero debe quitar el tipo de registro de la jerarquía o eliminar la jerarquía antes de poder eliminar el tipo de registro.
 * Puede eliminar un campo de búsqueda de un tipo de registro conectado. No se puede recuperar la información del campo.
 * Las siguientes son reglas para la configuración de jerarquías:
-   * Un tipo de registro solo puede tener un tipo de registro principal en un espacio de trabajo determinado.
+  * Un tipo de registro solo puede tener un tipo de registro principal en un espacio de trabajo determinado.
 
-     Por ejemplo, un tipo de registro Táctico no puede tener un tipo de registro Campaña y un tipo de registro Objetivo como elemento principal en el mismo espacio de trabajo.
-   * Un tipo de registro puede ser el principal en varias jerarquías.
+    Por ejemplo, un tipo de registro Táctico no puede tener un tipo de registro Campaña y un tipo de registro Objetivo como elemento principal en el mismo espacio de trabajo.
+  * Un tipo de registro puede ser el principal en varias jerarquías.
 
-     Por ejemplo, puede tener tres jerarquías diferentes en un espacio de trabajo, y cada una de ellas puede tener Campañas como tipo de registro principal.
-   * Un registro se puede conectar a varios registros principales del mismo tipo, cuando se conecta uno a varios o varios a varios tipos de registros.
+    Por ejemplo, puede tener tres jerarquías diferentes en un espacio de trabajo, y cada una de ellas puede tener Campañas como tipo de registro principal.
+  * Un registro se puede conectar a varios registros principales del mismo tipo, cuando se conecta uno a varios o varios a varios tipos de registros.
 
-     Por ejemplo, la táctica A puede pertenecer tanto a la Campaña X como a la Campaña Y.
-   * Un tipo de registro sólo puede conectarse a un tipo de registro secundario a la vez. Un tipo de registro secundario también puede ser primario para otro tipo de registro.
+    Por ejemplo, la táctica A puede pertenecer tanto a la Campaña X como a la Campaña Y.
+  * Un tipo de registro sólo puede conectarse a un tipo de registro secundario a la vez. Un tipo de registro secundario también puede ser primario para otro tipo de registro.
 
-     Por ejemplo, un tipo de registro de campaña puede ser el principal de otro tipo de registro en la misma jerarquía (Tácticas), y Tácticas a su vez puede ser el principal de Programas, que puede ser principal de Proyectos.
-   * Un tipo de registro no puede ser el principal de una jerarquía y el secundario de otra jerarquía del mismo espacio de trabajo.
-   * Los tipos de registros globales pueden aparecer en varios espacios de trabajo dentro de varias jerarquías, una vez añadidos a dichos espacios de trabajo.
+    Por ejemplo, un tipo de registro de campaña puede ser el principal de otro tipo de registro en la misma jerarquía (Tácticas), y Tácticas a su vez puede ser el principal de Programas, que puede ser principal de Proyectos.
+  * Un tipo de registro no puede ser el principal de una jerarquía y el secundario de otra jerarquía del mismo espacio de trabajo.
+  * Los tipos de registros globales pueden aparecer en varios espacios de trabajo dentro de varias jerarquías, una vez añadidos a dichos espacios de trabajo.
 
-     Por ejemplo, si una campaña es un tipo de registro global y forma parte de una jerarquía en Workspace 1, se puede agregar como un tipo de registro existente a Workspace 2 y puede formar parte de una jerarquía allí. Pero no puede formar parte de una jerarquía en Workspace 2 solo cuando se designa como tipo de registro global en Workspace 1, pero no se agrega a Workspace 2.
-   * Cuando los tipos de registro conectados forman parte de jerarquías, puede conectar un registro de un tipo de registro secundario a un máximo de 10 registros de un tipo de registro principal.
+    Por ejemplo, si una campaña es un tipo de registro global y forma parte de una jerarquía en Workspace 1, se puede agregar como un tipo de registro existente a Workspace 2 y puede formar parte de una jerarquía allí. Pero no puede formar parte de una jerarquía en Workspace 2 solo cuando se designa como tipo de registro global en Workspace 1, pero no se agrega a Workspace 2.
+  * Cuando los tipos de registro conectados forman parte de jerarquías, puede conectar un registro de un tipo de registro secundario a un máximo de 10 registros de un tipo de registro principal.
 
-     Por ejemplo, si crea una jerarquía entre Campañas como principal y Persona como registro secundario, puede conectar la misma persona hasta a 10 campañas.
+    Por ejemplo, si crea una jerarquía entre Campañas como principal y Persona como registro secundario, puede conectar la misma persona hasta a 10 campañas.
 
 ## Consideraciones al ver rutas
 
@@ -97,7 +94,7 @@ Tenga en cuenta lo siguiente:
 * Las rutas de exploración se muestran en el área de vista previa de un registro, así como en la página de detalles de los registros.
 * Si un tipo de registro forma parte de varias jerarquías, puede cambiar entre jerarquías desde la ruta de exploración del registro en la página del registro.
 * Si el tipo de registro de una jerarquía tiene varios registros, puede seleccionar registros de la ruta de exploración.
-* Las rutas de exploración funcionan en Workfront y Planning.
+* Las rutas de exploración funcionan en Workfront y Planning, si su empresa compró paquetes de Workfront y Planning.
 
   Por ejemplo, cuando se mira un proyecto que está conectado a campañas y tácticas de Planning, y también a portafolios y programas de Workfront, puede cambiar entre los tipos de objeto de Planning y Workfront de la ruta de exploración.
 

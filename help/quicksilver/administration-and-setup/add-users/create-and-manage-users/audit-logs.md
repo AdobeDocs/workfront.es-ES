@@ -9,17 +9,12 @@ feature: System Setup and Administration
 role: Admin
 exl-id: 6adb4146-42fd-4eda-b46f-c61d7ff71df6
 TQID: https://experienceleague.adobe.com/b8KE8bhRtjvjNMP7PITNODthh1ihA-RufLVZZFo427A
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 58d13b171ada1f43efe4bcca0c3847048a32e863
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: a1b1bc6013697405137110f4ce6fa329222f57e0
 workflow-type: tm+mt
 source-wordcount: 1485
 ht-degree: 7%
@@ -102,14 +97,14 @@ El sistema genera una entrada de registro de nivel de acceso cuando un usuario r
 * Elimina un nivel de acceso
 * Cambia un nivel de acceso:
 
-   * Modifica el tipo de licencia
-   * Cambia los permisos a Proyectos, Tareas, Problemas, Portafolios, Programas, Informes, Documentos, Usuarios o Plantillas
+  * Modifica el tipo de licencia
+  * Cambia los permisos a Proyectos, Tareas, Problemas, Portafolios, Programas, Informes, Documentos, Usuarios o Plantillas
 
-     >[!NOTE]
-     >
-     >El sistema no registra ningún cambio de permiso en los datos financieros o en los siguientes tipos de acceso: Ver y Editar.
-     >
-     >Por ejemplo, si un usuario cambia el tipo de acceso del Planificador de Ver a Editar, el sistema no muestra la información contenida en el menú desplegable Ajustar la configuración.
+    >[!NOTE]
+    >
+    >El sistema no registra ningún cambio de permiso en los datos financieros o en los siguientes tipos de acceso: Ver y Editar.
+    >
+    >Por ejemplo, si un usuario cambia el tipo de acceso del Planificador de Ver a Editar, el sistema no muestra la información contenida en el menú desplegable Ajustar la configuración.
 
 ### Perfiles de empresa
 
@@ -121,16 +116,16 @@ El sistema genera una entrada de registro de auditoría de perfil empresarial cu
 
 ### Reglas empresariales
 
-Las reglas de negocio solo están disponibles para los clientes que han adquirido un plan Ultimate Workfront. Para obtener más información, consulte [Crear y editar reglas empresariales](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/business-rules.md).
+Las reglas empresariales solo están disponibles para los clientes que han adquirido un paquete de Ultimate Workfront. Para obtener más información, consulte [Crear y editar reglas empresariales](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/business-rules.md).
 
 El sistema genera una entrada de registro de auditoría de regla de negocio cuando un usuario realiza una de las siguientes acciones:
 
 * Crea una regla de negocio
 * Edita una regla de negocio:
 
-   * Cambiarle el nombre
-   * Añade o elimina expresiones
-   * Cambia un déclencheur
+  * Cambiarle el nombre
+  * Añade o elimina expresiones
+  * Cambia un déclencheur
 
 * Elimina una regla de negocio
 
@@ -141,13 +136,13 @@ El sistema genera una entrada de registro de auditoría de la compañía cuando 
 * Crea una empresa
 * Cambia una compañía:
 
-   * Cambiarle el nombre
-   * Agrega o quita miembros
-   * Agrega, edita o elimina el valor en su campo Grupo
-   * Agrega o edita una tarifa de facturación de compañía para un rol
-   * Quita una tarifa de facturación de la compañía para un rol
-   * La establece como la compañía principal de la organización
-   * Adjunta o quita un formulario personalizado
+  * Cambiarle el nombre
+  * Agrega o quita miembros
+  * Agrega, edita o elimina el valor en su campo Grupo
+  * Agrega o edita una tarifa de facturación de compañía para un rol
+  * Quita una tarifa de facturación de la compañía para un rol
+  * La establece como la compañía principal de la organización
+  * Adjunta o quita un formulario personalizado
 
 * Elimina una compañía
 
@@ -160,11 +155,11 @@ El sistema genera una entrada de registro de auditoría de condiciones cuando un
 * Crea una condición
 * Cambia una condición:
 
-   * Cambia el nombre
-   * Cambia el color
-   * La establece como predeterminada
-   * Cambia o quita la descripción de la condición
-   * Oculta o muestra la condición
+  * Cambia el nombre
+  * Cambia el color
+  * La establece como predeterminada
+  * Cambia o quita la descripción de la condición
+  * Oculta o muestra la condición
 
 * Elimina una condición
 
@@ -177,21 +172,21 @@ El sistema genera una entrada de registro de auditoría de campo personalizado c
 * Crea un campo personalizado
 * Cambia un campo personalizado:
 
-   * Cambia el nombre, etiqueta, instrucciones o formato de la API
-   * Cambia el tipo de visualización
+  * Cambia el nombre, etiqueta, instrucciones o formato de la API
+  * Cambia el tipo de visualización
 
-     Esta opción solo está disponible si el campo es de uno de los siguientes tipos: línea única, párrafo, lista desplegable, casilla de verificación o botón de opción
+    Esta opción solo está disponible si el campo es de uno de los siguientes tipos: línea única, párrafo, lista desplegable, casilla de verificación o botón de opción
 
-   * Cambia el tamaño del campo
+  * Cambia el tamaño del campo
 
-     Esto solo está disponible si el campo es de uno de los siguientes tipos: una sola línea, párrafo, texto enriquecido
+    Esto solo está disponible si el campo es de uno de los siguientes tipos: una sola línea, párrafo, texto enriquecido
 
-   * Agrega, quita u oculta una opción de campo
-   * Edita una etiqueta de opción de campo o un valor
-   * Configura la opción de campo que se va a seleccionar o no seleccionar de forma predeterminada
-   * Configura un campo desplegable para permitir varias selecciones o una sola
-   * Configura un campo de fecha para mostrar o no la hora del día
-   * Edita el hipervínculo o cambia el valor en un campo de texto descriptivo
+  * Agrega, quita u oculta una opción de campo
+  * Edita una etiqueta de opción de campo o un valor
+  * Configura la opción de campo que se va a seleccionar o no seleccionar de forma predeterminada
+  * Configura un campo desplegable para permitir varias selecciones o una sola
+  * Configura un campo de fecha para mostrar o no la hora del día
+  * Edita el hipervínculo o cambia el valor en un campo de texto descriptivo
 
 * Elimina un campo personalizado
 * Comparte un campo personalizado
@@ -203,17 +198,17 @@ El sistema genera una entrada de registro de auditoría de Forms personalizada c
 * Crea un formulario personalizado
 * Cambia un formulario personalizado:
 
-   * Cambia el nombre o la descripción
-   * Activa o desactiva la opción
-   * Agrega o quita un campo o sección
-   * Para una sección personalizada, cambia una configuración en Configuración adicional
-   * Cambia un campo a obligatorio o no obligatorio
-   * Cambia un cálculo en un campo personalizado
-   * Oculta o muestra la fórmula asociada a un campo calculado en el texto de desplazamiento Instrucciones
-   * Activa o desactiva la actualización de cálculos anteriores
-   * Agrega o cambia la lógica del campo
+  * Cambia el nombre o la descripción
+  * Activa o desactiva la opción
+  * Agrega o quita un campo o sección
+  * Para una sección personalizada, cambia una configuración en Configuración adicional
+  * Cambia un campo a obligatorio o no obligatorio
+  * Cambia un cálculo en un campo personalizado
+  * Oculta o muestra la fórmula asociada a un campo calculado en el texto de desplazamiento Instrucciones
+  * Activa o desactiva la actualización de cálculos anteriores
+  * Agrega o cambia la lógica del campo
 
-     <!--   
+    <!--   
      <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><p>Adds or changes a filter for a typeahead field</p></li>   
      -->
 
@@ -237,9 +232,9 @@ El sistema genera una entrada de registro de auditoría de tasa de cambio cuando
 * Crea un tipo de cambio
 * Cambia un tipo de cambio:
 
-   * Agrega una moneda
-   * Cambia la tasa de la moneda
-   * Establece la moneda como la moneda base (predeterminada) para todos los proyectos e informes del sistema
+  * Agrega una moneda
+  * Cambia la tasa de la moneda
+  * Establece la moneda como la moneda base (predeterminada) para todos los proyectos e informes del sistema
 
 * Elimina una tasa de cambio
 
@@ -253,8 +248,8 @@ El sistema genera una entrada de registro de auditoría de grupo cuando un usuar
 * Elimina un grupo
 * Cambia un grupo:
 
-   * Agrega o quita usuarios
-   * Agrega o quita subgrupos
+  * Agrega o quita usuarios
+  * Agrega o quita subgrupos
 
 ### Roles {#job-role}
 
@@ -263,10 +258,10 @@ El sistema genera una entrada de registro de auditoría de funciones de trabajo 
 * Crea un rol
 * Cambia un rol:
 
-   * Cambia el nombre
-   * Agrega, cambia o quita la descripción
-   * Agrega, cambia o quita el costo por hora (costo/hora)
-   * Agrega, cambia o elimina la tarifa de facturación (factura/hora)
+  * Cambia el nombre
+  * Agrega, cambia o quita la descripción
+  * Agrega, cambia o quita el costo por hora (costo/hora)
+  * Agrega, cambia o elimina la tarifa de facturación (factura/hora)
 
 * Elimina un rol
 
@@ -299,11 +294,11 @@ El sistema genera una entrada de registro de auditoría de prioridad cuando un u
 * Crea una prioridad
 * Cambia una prioridad:
 
-   * Cambia el nombre
-   * Cambia el color
-   * La establece como predeterminada
-   * Agrega, cambia o quita la descripción de la prioridad
-   * Oculta o muestra la prioridad
+  * Cambia el nombre
+  * Cambia el color
+  * La establece como predeterminada
+  * Agrega, cambia o quita la descripción de la prioridad
+  * Oculta o muestra la prioridad
 
 * Elimina una prioridad
 
@@ -316,10 +311,10 @@ El sistema genera una entrada de registro de auditoría Preferencias del proyect
 * Crea un trimestre personalizado
 * Cambia una preferencia de proyecto:
 
-   * Lo bloquea o desbloquea
-   * Cambia una de sus configuraciones
-   * Lo habilita, deshabilita o edita
-   * Edita un cálculo de escala de tiempo
+  * Lo bloquea o desbloquea
+  * Cambia una de sus configuraciones
+  * Lo habilita, deshabilita o edita
+  * Edita un cálculo de escala de tiempo
 
 * Elimina un trimestre personalizado
 
@@ -332,11 +327,11 @@ El sistema genera una entrada de registro de auditoría de gravedad cuando un us
 * Crea una gravedad del problema
 * Cambia la gravedad de un problema:
 
-   * Cambia el nombre
-   * Cambia el color
-   * La establece como predeterminada
-   * Cambia o elimina la descripción de la gravedad
-   * Oculta o muestra la gravedad
+  * Cambia el nombre
+  * Cambia el color
+  * La establece como predeterminada
+  * Cambia o elimina la descripción de la gravedad
+  * Oculta o muestra la gravedad
 
 * Elimina una gravedad del problema
 
@@ -349,11 +344,11 @@ El sistema genera una entrada de registro de auditoría de estado cuando un usua
 * Crea un estado en el nivel de sistema o grupo
 * Cambia un estado en el sistema o en el nivel de grupo:
 
-   * Cambiarle el nombre
-   * Lo convierte en un estado predeterminado
-   * Lo bloquea o desbloquea
-   * Lo oculta o no lo oculta
-   * Cambia el color o la descripción
+  * Cambiarle el nombre
+  * Lo convierte en un estado predeterminado
+  * Lo bloquea o desbloquea
+  * Lo oculta o no lo oculta
+  * Cambia el color o la descripción
 
 * Elimina un estado en el sistema o en el nivel de grupo
 
