@@ -7,22 +7,15 @@ author: Lisa
 feature: Work Management
 exl-id: 147f5d55-a827-4cca-9ab0-afb03a4bcd5a
 TQID: https://experienceleague.adobe.com/ax957eBrqej3uH8M4mZkSuY-heCNGWTiiwbBZTcH7VE
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 8c7088d5d53b1519752e6ad0cd0caa79453e3d67
 workflow-type: tm+mt
-source-wordcount: 1282
-ht-degree: 82%
+source-wordcount: 1277
+ht-degree: 80%
 
 ---
 
@@ -81,7 +74,7 @@ Tenga en cuenta lo siguiente cuando visualice o edite información en el área F
 1. Haga clic en **Detalles del proyecto** en el panel izquierdo.
 1. Haga clic en el icono **Editar** ![Editar icono](assets/edit-icon.png) en la esquina superior derecha de la sección Detalles y, a continuación, haga clic en **Finanzas**.
 
-   ![Área de finanzas en la vista de detalles](assets/finance-area-in-details-view-only-nwe-350x188.png)
+   ![Área de finanzas en la vista de detalles](assets/finance-area-in-details-view.png)
 
    >[!NOTE]
    >
@@ -147,15 +140,15 @@ Tenga en cuenta lo siguiente cuando visualice o edite información en el área F
 
 ## Edición de la información financiera de un proyecto
 
-Como propietario de un proyecto, edite la información en la subpestaña Finanzas de un proyecto.
+Como propietario del proyecto, puede editar la información en el área Finanzas de un proyecto.
 
-Para editar la información de la subpestaña Finanzas del proyecto:
+Para editar información en el área de Project Finance:
 
-1. Vaya a un proyecto del que sea propietario.
+1. Vaya a un proyecto de su propiedad.
 
    >[!NOTE]
    >
-   >Necesita permisos de administración en el proyecto para realizar los siguientes pasos. También se recomienda que solo el propietario del proyecto realice cambios en la subpestaña Finanzas del proyecto.
+   >Necesita permisos de administración en el proyecto para realizar los siguientes pasos. También recomendamos que el propietario del proyecto sea el único que realice cambios en el área de Finanzas del proyecto.
 
 1. Haga clic en **Detalles del proyecto**, en el panel izquierdo.
 1. Haga clic en el icono **Editar** ![Editar icono](assets/edit-icon.png) en la esquina superior derecha de la sección Detalles y, a continuación, haga clic en **Finanzas**. Se abrirá el área Finanzas para editarla.
@@ -165,13 +158,11 @@ Para editar la información de la subpestaña Finanzas del proyecto:
    >
    >Los campos no estarán disponibles para la edición si Workfront los calculase automáticamente o si no tuviera permisos de edición sobre ellos.
 
-   ![Editar área financiera](assets/edit-finance-area-in-project-details-nwe-350x275.png)
-
 1. Actualice cualquiera de los campos siguientes.
 
    >[!NOTE]
    >
-   >Según la forma en que el administrador de Workfront configure la plantilla de diseño, los campos de la sección Detalles del proyecto podrían ser diferentes en su entorno. Para obtener más información, consulte [Personalización de la vista de detalles con una plantilla de diseño](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md).
+   >Según la forma en que el administrador de Workfront haya configurado la plantilla de diseño, los campos de la sección Detalles del proyecto podrían ser diferentes en su entorno. Para obtener más información, consulte [Personalización de la vista de detalles con una plantilla de diseño](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md).
 
    <table style="table-layout:auto"> 
     <col> 
