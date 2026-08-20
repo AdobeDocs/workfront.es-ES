@@ -3,9 +3,9 @@ user-guide-title: Guía de Workfront
 user-guide-description: Utilice los siguientes documentos, tutoriales y recursos adicionales para aprender a implementar y utilizar Adobe Workfront de forma eficaz en su organización.
 role: User
 feature-set: Workfront
-source-git-commit: 8ba03024e1c2ef0da755a6da3da13debb2f4e696
+source-git-commit: b9eb36bbe792919e975cf27c06524755a3ef550b
 workflow-type: tm+mt
-source-wordcount: '14417'
+source-wordcount: '14427'
 ht-degree: 93%
 
 ---
@@ -2069,6 +2069,7 @@ ht-degree: 93%
     * [Introducción a las revisión y Creative Cloud Express](/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/wf-proof-and-express.md)
     * [Introducción a la integración de revisión y GenStudio for Performance Marketing](/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/wf-proof-and-genstudio.md)
     * [Usar Adobe Experience Manager con la integración de Frame.io](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/use-aem-with-frame.md)
+    * [Vinculación de recursos de Experience Manager Assets con Adobe Cloud Storage](/help/quicksilver/review-and-approve-work/native-integrations/link-aem-assets-cloud-storage.md)
     * [Introducción a Adobe Express y Workfront con la integración de Frame.io](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/express-wf-frame.md)
   * Sugerencias, trucos y solución de problemas para aprobaciones {#ttt-approvals}
     * [Sugerencias, trucos y solución de problemas para aprobaciones: índice de artículos](review-and-approve-work/tips-tricks-troubleshooting-approvals/tips-tricks-troubleshooting-approvals.md)
@@ -2637,7 +2638,7 @@ ht-degree: 93%
     * [Configure y utilice las aplicaciones OAuth 2 personalizadas de la organización mediante el flujo JWT](wf-api/api/oauth-app-jwt-flow.md)
     * [Configure y utilice las aplicaciones OAuth 2 personalizadas de su organización mediante el flujo PKCE](wf-api/api/oauth-app-pkce-flow.md)
     * [Obsolescencia de la API interna](wf-api/api/deprecation-api-internal.md)
-    * [Novedades de la versión 22 de la API](/help/quicksilver/wf-api/api/new-api-version-22.md)
+    * [Novedades de la versión 22](/help/quicksilver/wf-api/api/new-api-version-22.md) de la API
     * [Novedades de la versión 21 de la API](/help/quicksilver/wf-api/api/new-api-version-21.md)
     * [Novedades de la versión 20 de la API](/help/quicksilver/wf-api/api/new-api-version-20.md)
     * [Novedades de la versión 19 de la API](wf-api/api/new-api-version-19.md)

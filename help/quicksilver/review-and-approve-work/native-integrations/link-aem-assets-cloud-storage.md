@@ -1,23 +1,23 @@
 ---
 product-area: documents;workfront-integrations
 navigation-topic: native-integrations
-title: Vinculación de contenido y carpetas desde Experience Manager Assets con Adobe Cloud Storage
-description: Si su organización utiliza el almacenamiento en la nube de Adobe, puede vincular contenido y carpetas de Experience Manager Assets a cualquier objeto de Adobe Workfront que admita documentos.
+title: Vinculación de recursos de Experience Manager Assets con Adobe Cloud Storage
+description: Si su organización utiliza el almacenamiento en la nube de Adobe, puede vincular recursos de Experience Manager Assets a cualquier objeto de Adobe Workfront que admita documentos.
 author: Courtney
-source-git-commit: 66635b2edc78833ec2d08cef382b39b89238b565
+source-git-commit: b9eb36bbe792919e975cf27c06524755a3ef550b
 workflow-type: tm+mt
-source-wordcount: '945'
+source-wordcount: '935'
 ht-degree: 12%
 
 ---
 
-# Vinculación de contenido y carpetas desde Experience Manager Assets con Adobe Cloud Storage
+# Vinculación de recursos de Experience Manager Assets con Adobe Cloud Storage
 
-Si su organización utiliza el almacenamiento en la nube de Adobe, puede vincular contenido y carpetas de Experience Manager Assets a Workfront. Una vez enlazado, puede ver y administrar el contenido en Workfront, y los cambios realizados en el contenido en Experience Manager Assets se reflejarán en Workfront.
+Si su organización utiliza el almacenamiento en la nube de Adobe, puede vincular recursos de Experience Manager Assets a Workfront. Una vez enlazados, puede ver y administrar los recursos en Workfront, y los cambios realizados en los recursos en Experience Manager Assets se reflejarán en Workfront.
 
 >[!IMPORTANT]
 >
->Si su organización rechaza firmar el acuerdo GenAI Rider, puede seguir utilizando el Asesor de contenido para elegir recursos y carpetas en Experience Manager Assets, pero no tendrá acceso a funciones con tecnología de IA, como Búsqueda por IA, sugerencias inteligentes o análisis de informes de campaña.
+>Si su organización rechaza firmar el acuerdo GenAI Rider, aún puede utilizar el Asesor de contenido para elegir recursos en Experience Manager Assets, pero no tendrá acceso a funciones con tecnología de IA, como Búsqueda por IA, sugerencias inteligentes o análisis de informes de campaña.
 
 ## Requisitos de acceso
 
@@ -66,7 +66,7 @@ Antes de empezar:
 
 * El administrador de Workfront debe configurar una integración de Experience Manager. Para obtener más información, consulte [Usar Adobe Experience Manager con la integración de Frame.io](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/use-aem-with-frame.md).
 
-* Para utilizar las sugerencias inteligentes o la funcionalidad de los informes de campaña, debe firmar un GenAI Rider. Para obtener más información, consulte [Usar el Asesor de contenido para obtener acceso al contenido de AEM en las aplicaciones de Adobe](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#content-advisor-ai-search).
+* Para utilizar las sugerencias inteligentes o la funcionalidad de los informes de campaña, debe firmar un GenAI Rider. Para obtener más información, consulte [Usar el Asesor de contenido para obtener acceso al contenido de AEM en las aplicaciones de Adobe](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#content-advisor-ai-search).
 
 ## Vincular contenido desde Experience Manager Assets
 
@@ -83,45 +83,45 @@ Para vincular contenido:
    <tbody>
       <tr>
          <td><strong>Buscar recursos mediante la Búsqueda por IA.</strong> Utilice búsquedas impulsadas por IA que entiendan el significado y la intención que hay detrás de las consultas, y que admitan varios idiomas, errores tipográficos y sinónimos.</td>
-         <td>Para obtener más información, consulte <a href="https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#content-advisor-ai-search">Búsqueda por IA para una detección de recursos más inteligente</a>.</td>
+         <td>Para obtener más información, consulte <a href="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#content-advisor-ai-search">Búsqueda por IA para una detección de recursos más inteligente</a>.</td>
       </tr>
       <tr>
          <td><strong>Ver sugerencias inteligentes basadas en el contexto y la intención.</strong> Descubra recursos que se alinean con sus necesidades de contenido mediante recomendaciones según el contexto desde la aplicación host de Adobe.</td>
-         <td>Para obtener más información, consulte <a href="https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#smart-suggestions-content-advisor">Sugerencias inteligentes basadas en el contexto y la intención</a>.</td>
+         <td>Para obtener más información, consulte <a href="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#smart-suggestions-content-advisor">Sugerencias inteligentes basadas en el contexto y la intención</a>.</td>
       </tr>
       <tr>
          <td><strong>Cargue un informe de campaña para descubrir los recursos relevantes.</strong> Cargue un documento de resumen de campaña de PDF, DOCX o TXT para que el Asesor de contenido pueda analizarlo y recomendar recursos relevantes.</td>
-         <td>Para obtener más información, consulte <a href="https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#campaign-briefs-content-advisor">Informes de Campaign para descubrir recursos relevantes</a>.</td>
+         <td>Para obtener más información, consulte <a href="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#campaign-briefs-content-advisor">Informes de Campaign para descubrir recursos relevantes</a>.</td>
       </tr>
       <tr>
          <td><strong>Ver y seleccionar representaciones de recursos de Dynamic Media.</strong> Explore representaciones optimizadas para canales, incluidos ajustes preestablecidos de imagen, recortes inteligentes y tipos de formato, y aplique modificadores de Dynamic Media para previsualizar los ajustes en tiempo real.</td>
-         <td>Para obtener más información, consulte <a href="https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#dynamic-media-renditions-content-advisor">Representaciones de recursos de Dynamic Media disponibles para usar</a>.</td>
+         <td>Para obtener más información, consulte <a href="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#dynamic-media-renditions-content-advisor">Representaciones de recursos de Dynamic Media disponibles para usar</a>.</td>
       </tr>
       <tr>
          <td><strong>Aplicar modificadores de Dynamic Media a las representaciones.</strong> Añada modificadores para transformar las representaciones de recursos en tiempo real y previsualizar los resultados antes de seleccionar una representación para la aplicación host.</td>
-         <td>Para obtener más información, consulte <a href="https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#dynamic-media-renditions-content-advisor">Representaciones de recursos de Dynamic Media disponibles para usar</a>.</td>
+         <td>Para obtener más información, consulte <a href="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#dynamic-media-renditions-content-advisor">Representaciones de recursos de Dynamic Media disponibles para usar</a>.</td>
       </tr>
       <!--
       <tr>
          <td><strong>Discover and browse Content Fragments.</strong> Search through Content Fragments, view live thumbnail previews, check status (Draft, Modified, or Published), and inspect detailed properties, references, and variations.</td>
-         <td>For more information, see <a href="https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#content-fragments-discovery-content-advisor">Discovery of Content Fragments</a>.</td>
+         <td>For more information, see <a href="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#content-fragments-discovery-content-advisor">Discovery of Content Fragments</a>.</td>
       </tr>
       -->
       <tr>
          <td><strong>Acceder a los metadatos del recurso.</strong> Revise las propiedades del recurso, como título, descripción, formato, tamaño y otras pestañas de metadatos (Producto, Campaña, Etiquetas) coherentes con la vista de Assets.</td>
-         <td>Para obtener más información, consulte <a href="https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#asset-metadata-content-advisor">Acceder a metadatos de recursos compatibles con la vista de Assets</a>.</td>
+         <td>Para obtener más información, consulte <a href="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#asset-metadata-content-advisor">Acceder a metadatos de recursos compatibles con la vista de Assets</a>.</td>
       </tr>
       <tr>
          <td><strong>Filtrar recursos mediante filtros predefinidos.</strong> Restrinja los resultados de los recursos mediante filtros como Tipo de archivo, Formato de archivo, Estado del recurso, Tamaño de archivo, Anchura de imagen, Altura de imagen, Fecha de modificación y Fecha de creación.</td>
-         <td>Para obtener más información, consulte <a href="https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#filters-content-advisor">Filtros de acceso compatibles con la vista de Assets</a>.</td>
+         <td>Para obtener más información, consulte <a href="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#filters-content-advisor">Filtros de acceso compatibles con la vista de Assets</a>.</td>
       </tr>
       <tr>
          <td><strong>Guardar y reutilizar búsquedas.</strong> Cree búsquedas guardadas especificando un término de búsqueda y opciones de filtro y, a continuación, vuelva a utilizarlas en Experience Manager Assets y otras aplicaciones de Adobe.</td>
-         <td>Para obtener más información, consulte <a href="https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#saved-searches-content-advisor">Acceder y reutilizar búsquedas recientes y guardadas</a>.</td>
+         <td>Para obtener más información, consulte <a href="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#saved-searches-content-advisor">Acceder y reutilizar búsquedas recientes y guardadas</a>.</td>
       </tr>
       <tr>
          <td><strong>Busque recursos en las colecciones y entre ellas.</strong> Busque recursos o colecciones en todas las colecciones, o bien limite la búsqueda a una colección específica.</td>
-         <td>Para obtener más información, consulte <a href="https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#search-collections-content-advisor">Buscar recursos en las colecciones y entre ellas</a>.</td>
+         <td>Para obtener más información, consulte <a href="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#search-collections-content-advisor">Buscar recursos en las colecciones y entre ellas</a>.</td>
       </tr>
    </tbody>
    </table>
