@@ -3,9 +3,9 @@ user-guide-title: Guía de Workfront
 user-guide-description: Utilice los siguientes documentos, tutoriales y recursos adicionales para aprender a implementar y utilizar Adobe Workfront de forma eficaz en su organización.
 role: User
 feature-set: Workfront
-source-git-commit: b9eb36bbe792919e975cf27c06524755a3ef550b
+source-git-commit: 3e5da889d33a67d9d80b2c978bb47510d49b8259
 workflow-type: tm+mt
-source-wordcount: '14427'
+source-wordcount: '14435'
 ht-degree: 93%
 
 ---
@@ -1931,6 +1931,7 @@ ht-degree: 93%
     * [Introducción al Revisor de contenido de Workfront](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md)
     * [información general sobre el almacenamiento en nube Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md)
     * [Permisos de objetos e información general del nivel de acceso para el modelo de almacenamiento en la nube de Adobe](/help/quicksilver/review-and-approve-work/esm-access-permissions.md)
+    * [Paso de aprobaciones de documentos heredados a aprobaciones unificadas](/help/quicksilver/review-and-approve-work/move-to-unified-approvals.md)
     * Configurar y administrar las aprobaciones de recursos y documentos {#manage-asset-review-and-approval}
       * [Configurar y administrar las aprobaciones unificadas: índice de artículos](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/set-up-and-manage-doc-asset-approvals-toc.md)
       * [Crear y administrar marcas para el Revisor de contenido](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-a-brand.md)
@@ -2638,7 +2639,7 @@ ht-degree: 93%
     * [Configure y utilice las aplicaciones OAuth 2 personalizadas de la organización mediante el flujo JWT](wf-api/api/oauth-app-jwt-flow.md)
     * [Configure y utilice las aplicaciones OAuth 2 personalizadas de su organización mediante el flujo PKCE](wf-api/api/oauth-app-pkce-flow.md)
     * [Obsolescencia de la API interna](wf-api/api/deprecation-api-internal.md)
-    * [Novedades de la versión 22 de la API](/help/quicksilver/wf-api/api/new-api-version-22.md)
+    * [Novedades de la versión 22](/help/quicksilver/wf-api/api/new-api-version-22.md) de la API
     * [Novedades de la versión 21 de la API](/help/quicksilver/wf-api/api/new-api-version-21.md)
     * [Novedades de la versión 20 de la API](/help/quicksilver/wf-api/api/new-api-version-20.md)
     * [Novedades de la versión 19 de la API](wf-api/api/new-api-version-19.md)
