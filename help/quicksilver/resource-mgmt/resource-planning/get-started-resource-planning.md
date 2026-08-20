@@ -8,19 +8,14 @@ author: Lisa
 feature: Resource Management
 exl-id: 0db9fbb3-4e94-47bd-b272-00b3ca4decaf
 TQID: https://experienceleague.adobe.com/a1BAY-ZUWgGlg96Cq7RKPbg3m-OfT-c106ttm2goj-k
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
-subfeature_v2:
-  - id: c33d85a1-be85-4290-854c-87408c10aa80
-  - id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2: id: c33d85a1-be85-4290-854c-87408c10aa80id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 6084af27550d2ad407ad6dff4a33b54039e7743b
 workflow-type: tm+mt
-source-wordcount: 561
-ht-degree: 90%
+source-wordcount: 559
+ht-degree: 82%
 
 ---
 
@@ -39,7 +34,7 @@ Puede utilizar las herramientas de gestión de recursos de Adobe Workfront para 
 
 Utilice las herramientas de planificación de recursos para administrar los roles, su disponibilidad y la asignación general a los proyectos en función de esta disponibilidad.
 
-La asignación general de usuarios a proyectos no los asigna a trabajo real (tareas y problemas). Es necesario asignar los recursos que se desean utilizar mediante el Distribuidor de cargas de trabajo.
+La asignación general de usuarios a proyectos no los asigna a trabajo real (tareas y problemas). Debe asignar los recursos que necesita para trabajar con el Distribuidor de cargas de trabajo.
 
 Para obtener más información sobre la programación de recursos en Workfront mediante el Distribuidor de cargas de trabajo, consulte [Información general sobre el Distribuidor de cargas de trabajo](../workload-balancer/overview-workload-balancer.md).
 
@@ -55,7 +50,7 @@ Para estimar el tiempo de los recursos de los proyectos a los que se planea la a
 
 * Para estimar las asignaciones de un solo proyecto: utilice el Planificador de recursos en el nivel de proyecto en el área de estimación de recursos del caso empresarial de un proyecto. Para obtener información acerca de cómo estimar los recursos de un proyecto, consulte el artículo [Recursos de estimación del caso empresarial](../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md).
 
-  Para administrar usuarios y organizarlos en grupos en función de aptitudes comunes o estructuras departamentales y, a continuación, administrar las asignaciones para los proyectos a los que estén asignados, es necesario crear conjuntos de recursos. Para obtener más información acerca de cómo crear conjuntos de recursos, consulte [Creación de conjuntos de recursos](../../resource-mgmt/resource-planning/resource-pools/create-resource-pools.md).
+  Para administrar usuarios, organizarlos en grupos basados en aptitudes comunes o en la estructura de departamentos y, a continuación, administrar sus asignaciones para los proyectos a los que están asignados, debe crear conjuntos de recursos. Para obtener más información acerca de cómo crear conjuntos de recursos, consulte [Creación de conjuntos de recursos](../../resource-mgmt/resource-planning/resource-pools/create-resource-pools.md).
 
   >[!TIP]
   >
@@ -69,9 +64,9 @@ Para estimar el tiempo de los recursos de los proyectos a los que se planea la a
 
 * Con el Planificador de recursos es posible hacer lo siguiente:
 
-   * Priorizar proyectos para decidir cuáles deberían recibir recursos en primer lugar. (Solo en el Planificador de recursos)
-   * Comprender la disponibilidad de los recursos en función de la programación de los usuarios.
-   * Presupuestar las asignaciones de horas, FTE o costes de los recursos (usuarios y funciones) de los proyectos a los que estén asignados.
+  * Priorizar proyectos para decidir cuáles deberían recibir recursos en primer lugar. (Solo en el Planificador de recursos)
+  * Comprender la disponibilidad de los recursos en función de la programación de los usuarios.
+  * Presupuestar las asignaciones de horas, FTE o costes de los recursos (usuarios y funciones) de los proyectos a los que estén asignados.
 
   Para obtener más información sobre cómo trabajar con el Planificador de recursos, consulte el artículo [Información general sobre el Planificador de recursos](../../resource-mgmt/resource-planning/get-started-resource-planner.md).
 

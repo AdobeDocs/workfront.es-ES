@@ -7,22 +7,15 @@ author: Lisa
 feature: Resource Management
 exl-id: 98779b67-b975-4501-8426-63e255b1d7df
 TQID: https://experienceleague.adobe.com/V48Ew1abmm8Qkf2qwpO-9aERwltZq-3L0l2EEsNa8do
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
-subfeature_v2:
-  - id: c33d85a1-be85-4290-854c-87408c10aa80
-  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2: id: c33d85a1-be85-4290-854c-87408c10aa80id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: db05d3b6f950a8d5c0e6e171acb7e480ca3c6c61
 workflow-type: tm+mt
-source-wordcount: 1051
-ht-degree: 86%
+source-wordcount: 1104
+ht-degree: 83%
 
 ---
 
@@ -30,7 +23,7 @@ ht-degree: 86%
 
 <!-- Audited: 5/2025 -->
 
-Como administrador de recursos, puede utilizar el Distribuidor de cargas de trabajo de Adobe Workfront para ver los elementos de trabajo que aún no se han asignado a los usuarios, así como asignarles estos elementos.
+Como administrador de recursos, puede utilizar el Distribuidor de cargas de trabajo de Adobe Workfront para ver los elementos de trabajo que aún no se han asignado a usuarios y Colaboradores de tareas, así como asignarles estos elementos.
 
 Para obtener información general sobre el Distribuidor de cargas de trabajo, consulte [Información general del Distribuidor de cargas de trabajo](../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
 
@@ -51,10 +44,10 @@ Workfront utiliza la siguiente información para calcular la capacidad del usuar
 
 * Preferencias de la administración de recursos El administrador de Workfront determina cómo se calcula el tiempo disponible para el sistema seleccionando la opción para utilizar una de las siguientes opciones en el área Administración de recursos de Configuración:
 
-   * El horario predeterminado del sistema Workfront y el EJC del usuario.
-   * El horario del usuario, tal como se indica en el área Perfil de usuario.
+  * El horario predeterminado del sistema Workfront y el EJC del usuario.
+  * El horario del usuario, tal como se indica en el área Perfil de usuario.
 
-     Calcula la disponibilidad diaria y semanal del usuario. Cualquier excepción de programación en la programación seleccionada se refleja en la capacidad del usuario en el Distribuidor de cargas de trabajo.
+    Calcula la disponibilidad diaria y semanal del usuario. Cualquier excepción de programación en la programación seleccionada se refleja en la capacidad del usuario en el Distribuidor de cargas de trabajo.
 
   Para obtener más información, consulte [Configurar las preferencias de administración de recursos](../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
 
@@ -172,9 +165,9 @@ Tenga en cuenta lo siguiente al asignar varios recursos a un elemento de trabajo
 * Las tareas o problemas suelen asignarse primero a uno o varios roles de trabajo o a un equipo. Cuando los proyectos están listos para iniciarse, es posible que también deban asignarse a usuarios.\
   Si se asigna una tarea o un problema a una o varias funciones y, a continuación, también se asigna un usuario, Adobe Workfront decide qué función se asocia al usuario adicional (si corresponde) según las siguientes reglas:
 
-   * Si solo hay una función asignada y coincide con la función principal del usuario, la tarea o el problema se asignan únicamente al usuario que desempeña su función principal.
-   * Si hay varias funciones asignadas y al menos una de las funciones coincide con las funciones secundarias del usuario, la tarea o el problema se asigna al usuario que desempeña una de sus otras funciones (que Workfront selecciona aleatoriamente si hay varias coincidencias), así como cualquier función adicional asignada.
-   * Si hay una o más funciones asignadas y no hay coincidencias con las funciones del usuario, la tarea o el problema se asignan tanto a la función o funciones como al usuario.
+  * Si solo hay una función asignada y coincide con la función principal del usuario, la tarea o el problema se asignan únicamente al usuario que desempeña su función principal.
+  * Si hay varias funciones asignadas y al menos una de las funciones coincide con las funciones secundarias del usuario, la tarea o el problema se asigna al usuario que desempeña una de sus otras funciones (que Workfront selecciona aleatoriamente si hay varias coincidencias), así como cualquier función adicional asignada.
+  * Si hay una o más funciones asignadas y no hay coincidencias con las funciones del usuario, la tarea o el problema se asignan tanto a la función o funciones como al usuario.
 
 * Si se asigna una tarea o un problema a un equipo y también se asigna un usuario, la tarea o el problema permanecen asignados tanto al equipo como al usuario.
 

@@ -7,27 +7,21 @@ author: Lisa
 feature: Resource Management
 exl-id: dfc73b58-482e-46c7-a8c2-46070ee617f9
 TQID: https://experienceleague.adobe.com/eO2UAKzj1TjLfpJKNZ5jewp-S3aNVgxucSUJdu7jaC0
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
-subfeature_v2:
-  - id: c33d85a1-be85-4290-854c-87408c10aa80
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2: id: c33d85a1-be85-4290-854c-87408c10aa80
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: db05d3b6f950a8d5c0e6e171acb7e480ca3c6c61
 workflow-type: tm+mt
-source-wordcount: 424
-ht-degree: 64%
+source-wordcount: 423
+ht-degree: 51%
 
 ---
 
 # Actualizar los elementos de trabajo en el distribuidor de cargas de trabajo mediante el resumen
 
-Puede usar el panel de resumen de una tarea o un problema para actualizar información importante para ese elemento. en el distribuidor de cargas de trabajo.
+Puede utilizar el panel Resumen de una tarea o un problema para actualizar información importante para ese elemento en el Distribuidor de cargas de trabajo.
 
 El panel Resumen está disponible para tareas y problemas tanto en las áreas de Trabajo asignado como en las no asignadas del Distribuidor de cargas de trabajo.
 
@@ -96,7 +90,7 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
 
    ![Panel de resumen](assets/summary-panel-task-wb-new-comments.png)
 
-1. Modifique una serie de campos del elemento de trabajo, introduzca una actualización o navegue desde aquí a otras áreas de Workfront para añadir documentos u otra información al elemento de trabajo.
+1. Modifique una serie de campos para el elemento de trabajo, introduzca una actualización o navegue desde aquí a otras áreas de Workfront para agregar documentos u otra información al elemento de trabajo.
 
    >[!CAUTION]
    >

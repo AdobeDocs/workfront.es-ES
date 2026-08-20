@@ -8,24 +8,15 @@ author: Lisa
 feature: Resource Management
 exl-id: 9398bd04-9df7-4b77-8361-fdb5bdce6829
 TQID: https://experienceleague.adobe.com/fMt1jY5l7jMYTHUeKNyCE-HJdDEH89xmLqG2UacvU7c
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
-subfeature_v2:
-  - id: c33d85a1-be85-4290-854c-87408c10aa80
-  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
-  - id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
-  - id: d3382524-5489-431b-bde9-271ab257bc37
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2: id: c33d85a1-be85-4290-854c-87408c10aa80id: ce22a157-dd2c-405f-b740-c2f204bb4c1aid: d1573eb8-a2e8-4a06-9526-9c3410bf4914id: d3382524-5489-431b-bde9-271ab257bc37
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: db05d3b6f950a8d5c0e6e171acb7e480ca3c6c61
 workflow-type: tm+mt
-source-wordcount: 1202
-ht-degree: 100%
+source-wordcount: 1256
+ht-degree: 92%
 
 ---
 
@@ -44,7 +35,7 @@ Una vez que los administradores de proyecto hayan planificado el trabajo en los 
 
 >[!IMPORTANT]
 >
->Puede utilizar el Distribuidor de cargas de trabajo para asignar trabajo real (tareas y problemas) a los usuarios.
+>Puede utilizar el Distribuidor de cargas de trabajo para asignar trabajo real (tareas y problemas) a usuarios y colaboradores de tareas.
 >
 >Debe utilizar el Planificador de recursos, y no el Distribuidor de cargas de trabajo, para calcular las asignaciones de funciones a sus proyectos en un nivel superior. Para obtener más información sobre el Planificador de recursos, consulte [Información general del Planificador de recursos](../../resource-mgmt/resource-planning/get-started-resource-planner.md).
 
@@ -114,28 +105,25 @@ Para obtener información sobre cómo crear y usar filtros en el Distribuidor de
 
 * Los usuarios cuya carga de trabajo desee administrar deben cumplir los siguientes criterios para que la información sobre su disponibilidad y aptitudes sea precisa:
 
-   * Tener los horarios y los roles asociados a su perfil.
+  * Tener los horarios y los roles asociados a su perfil.
 
-     Para obtener más información sobre cómo asociar horarios y roles a usuarios, consulte [Añadir usuarios](../../administration-and-setup/add-users/create-and-manage-users/add-users.md)
-   * Si un usuario no está asociado a un horario, el horario predeterminado de su sistema Workfront se asocia al usuario de forma predeterminada, a efectos de la gestión de recursos.
-   * Tener las excepciones de horario actualizadas en sus horarios.
+    Para obtener más información sobre cómo asociar horarios y roles a usuarios, consulte [Añadir usuarios](../../administration-and-setup/add-users/create-and-manage-users/add-users.md)
+  * Si un usuario no está asociado a un horario, el horario predeterminado de su sistema Workfront se asocia al usuario de forma predeterminada, a efectos de la gestión de recursos.
+  * Tener las excepciones de horario actualizadas en sus horarios.
 
-     Para obtener más información sobre la creación de programaciones, consulte [Crear programación](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)
+    Para obtener más información sobre la creación de programaciones, consulte [Crear programación](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)
 
-   * Tener actualizado su calendario de días libres en el perfil.
+  * Tener actualizado su calendario de días libres en el perfil.
 
-     Para obtener información sobre la actualización del calendario de días libres de un usuario, consulte [Configurar los días libres personales](../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md).
-
-     <!--   
-     <div data-mc-conditions="QuicksilverOrClassic.Draft mode">   
-     <p>(NOTE: Add another bullet for Costs, when this becomes available:</p>   
-     <p>If you want to budget your resources by Cost, you must associate Job Roles with Cost/ Hr. rates. The cost associated with Job Roles assigned to users in your Resource Pools is used to calculate the Budgeted Labor Cost and the Budgeted Cost of the project.For more information about associating job roles with rates, see the article Creating and Managing Job Roles in the new Adobe Workfront experience.For more information about calculating Budgeted Labor Cost, see the article Calculating Budgeted Labor Cost in the new Adobe Workfront experience.For more information about calculating Budgeted Cost, see the article Calculating Budgeted Cost in .) </p>   
-     </div>   
-     -->
+    Para obtener información sobre la actualización del calendario de días libres de un usuario, consulte [Configurar los días libres personales](../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md).
 
 * El administrador de Workfront debe determinar cómo calcula Workfront la disponibilidad del usuario. Puede decidir si Workfront utiliza el horario predeterminado del sistema o el horario del usuario para calcular el tiempo que el usuario está disponible para trabajar ajustando las preferencias de Administración de recursos en el área de Configuración de Workfront.
 
   Para obtener más información, consulte [Configurar las preferencias de administración de recursos](../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
+
+* Puede asignar trabajo a un colaborador de tareas de la misma manera que asigna trabajo a un usuario. Task Collaborator debe existir en Workfront para poder asignarse a tareas.
+
+  Para obtener información sobre cómo crear colaboradores de tareas, consulte [Configurar un colaborador de tareas](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md#configure-a-task-collaborator) en el artículo [Configurar colaboradores de IA](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md).
 
 ### Prácticas recomendadas para configurar tareas y problemas {#best-practices-for-setting-up-tasks-and-issues}
 
@@ -143,20 +131,19 @@ Asegúrese de que existe la siguiente configuración de tareas y problemas antes
 
 * Las tareas principales no están asignadas a usuarios o roles. Las tareas principales no se muestran en el Distribuidor de cargas de trabajo.
 * Las tareas y los problemas tienen un valor de horas planificadas mayor que cero.
-
-* Las tareas y los problemas tienen un valor de Duración mayor que cero.
+* Las tareas y los problemas tienen un valor mayor que cero para su duración.
 * Las fechas planificadas de los problemas se encuentran dentro de la cronología prevista del proyecto.
 
 ## Antes de empezar a utilizar el Distribuidor de cargas de trabajo
 
 * Lea los siguientes artículos antes de empezar a utilizar el Distribuidor de cargas de trabajo:
 
-   * En este artículo se explica cómo utilizar el Distribuidor de cargas de trabajo para realizar estas acciones: [Navegar por el Distribuidor de cargas de trabajo](../workload-balancer/navigate-the-workload-balancer.md).
+  * En este artículo se explica cómo utilizar el Distribuidor de cargas de trabajo para realizar estas acciones: [Navegar por el Distribuidor de cargas de trabajo](../workload-balancer/navigate-the-workload-balancer.md).
 
-   * En los siguientes artículos se explica cómo asignar trabajo y administrar asignaciones de usuarios:
+  * En los siguientes artículos se explica cómo asignar trabajo y administrar asignaciones de usuarios:
 
-      * [Información general sobre la asignación de trabajo en el Distribuidor de cargas de trabajo](../workload-balancer/assign-work-in-workload-balancer.md).
-      * [Administrar asignaciones de usuario en el Distribuidor de cargas de trabajo](../workload-balancer/manage-user-allocations-workload-balancer.md).
+    * [Información general sobre la asignación de trabajo en el Distribuidor de cargas de trabajo](../workload-balancer/assign-work-in-workload-balancer.md).
+    * [Administrar asignaciones de usuario en el Distribuidor de cargas de trabajo](../workload-balancer/manage-user-allocations-workload-balancer.md).
 
 * El Distribuidor de cargas de trabajo se puede encontrar en varias áreas diferentes de Workfront. Para obtener información sobre dónde puede encontrar el Distribuidor de cargas de trabajo, consulte [Buscar el Distribuidor de cargas de trabajo](../../resource-mgmt/workload-balancer/locate-workload-balancer.md).
 
