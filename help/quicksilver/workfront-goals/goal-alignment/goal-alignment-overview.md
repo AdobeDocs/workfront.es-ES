@@ -14,7 +14,7 @@ product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: a1b1bc6013697405137110f4ce6fa329222f57e0
 workflow-type: tm+mt
 source-wordcount: 755
 ht-degree: 93%
@@ -40,11 +40,11 @@ Old:
 >
 >* For the new plan and license structure:
 >
->   * The Ultimate Workfront plan 
+>   * The Ultimate Workfront package 
 >    
 >* For the current plan and license structure: 
 >
->   * A Pro or higher Workfront plan
+>   * A Pro or higher Workfront package
 >   * An Adobe Workfront Goals license in addition to a Workfront license.
 >
 >Contact your Workfront account manager to learn about a Workfront Goals license.    
@@ -69,8 +69,8 @@ Para obtener más información acerca de las prácticas recomendadas para alinea
 
 * Es necesario actualizar diferentes tipos de metas, según su función. Por ejemplo:
 
-   * Como colaborador individual, se le recomienda que contribuya con sus propias metas, que deberían estar alineadas con las metas de nivel de equipo, grupo y compañía. La actualización de sus propias metas debería actualizar el progreso de todas las demás metas principales.
-   * Como CEO o administrador empresarial, se le recomienda que contribuya a sus metas, así como que actualice las asignadas a equipos, grupos y la compañía.
+  * Como colaborador individual, se le recomienda que contribuya con sus propias metas, que deberían estar alineadas con las metas de nivel de equipo, grupo y compañía. La actualización de sus propias metas debería actualizar el progreso de todas las demás metas principales.
+  * Como CEO o administrador empresarial, se le recomienda que contribuya a sus metas, así como que actualice las asignadas a equipos, grupos y la compañía.
 
 ## Tipos de alineación de metas
 
