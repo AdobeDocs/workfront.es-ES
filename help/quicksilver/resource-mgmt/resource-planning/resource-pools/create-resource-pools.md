@@ -16,9 +16,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 6084af27550d2ad407ad6dff4a33b54039e7743b
 workflow-type: tm+mt
-source-wordcount: 515
+source-wordcount: 544
 ht-degree: 84%
 
 ---
@@ -89,7 +89,7 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
      </tr>
      <tr>
       <td role="rowheader"><strong>Miembros del conjunto</strong></td>
-      <td><p> Agregar usuarios al conjunto de recursos individualmente.<br>O <br>Para agregar una gran cantidad de usuarios al conjunto de recursos al mismo tiempo. Puede agregar una de las siguientes entidades asociadas con usuarios o una colección de usuarios:
+      <td><p> Añada usuarios al conjunto de recursos individualmente.<br>O <br>Agregue una gran cantidad de usuarios al conjunto de recursos al mismo tiempo. Es posible añadir una de las siguientes entidades asociadas con usuarios o colecciones de usuarios:
         <ul>
          <li><strong>Equipos</strong>: todos los miembros del equipo se añaden al conjunto de recursos.</li>
          <li><strong>Grupos</strong>: todos los miembros del grupo se añaden al conjunto de recursos.</li>

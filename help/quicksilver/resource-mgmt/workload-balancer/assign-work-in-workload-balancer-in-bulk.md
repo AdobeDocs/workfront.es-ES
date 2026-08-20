@@ -19,10 +19,10 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 154a30289097c946f072a606ce5dbc48a73cf1c5
+source-git-commit: db05d3b6f950a8d5c0e6e171acb7e480ca3c6c61
 workflow-type: tm+mt
-source-wordcount: 1226
-ht-degree: 64%
+source-wordcount: 1229
+ht-degree: 62%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 64%
 
 Puede asignar recursos a varias tareas y problemas de forma masiva mediante el Distribuidor de cargas de trabajo de Adobe Workfront.
 
-Para obtener información general acerca de cómo asignar trabajo a los usuarios mediante el Distribuidor de cargas de trabajo, consulte [Información general sobre la asignación de trabajo en el Distribuidor de cargas de trabajo](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
+Para obtener información general sobre cómo asignar trabajo a usuarios y colaboradores de tareas mediante el Distribuidor de cargas de trabajo, consulte [Información general sobre la asignación de trabajo en el Distribuidor de cargas de trabajo](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
 
 ## Requisitos de acceso
 
@@ -231,7 +231,6 @@ Cuando se anula la asignación de un usuario a todas sus asignaciones mediante a
 
 * El usuario especificado se elimina de todos los elementos de trabajo a los que está asignado.
 * Si el usuario para el que se ha anulado la asignación está asociado a funciones de trabajo, estas funciones de trabajo permanecen asignadas a los elementos de trabajo cuando se quita el usuario.
-
 * Si el usuario especificado está asignado a elementos de trabajo completados, el usuario permanece asignado a esos elementos de trabajo.
 
 Para obtener más información sobre las asignaciones y funciones de usuarios, consulte [Información general sobre la asignación de trabajo en el Distribuidor de cargas de trabajo](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).

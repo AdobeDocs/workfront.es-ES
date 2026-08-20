@@ -22,10 +22,10 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 347c3e87fea0289616bf1a52779c07501a8ec69d
+source-git-commit: 9e4b8593c559dd68f7c0948c58c3f796af1c22fd
 workflow-type: tm+mt
-source-wordcount: 3643
-ht-degree: 32%
+source-wordcount: 3743
+ht-degree: 33%
 
 ---
 
@@ -432,8 +432,8 @@ Después de crear una conexión entre un tipo de registro y objetos de Adobe Exp
 
 >[!NOTE]
 >
->Se puede acceder a los registros de Planning y a sus campos desde Experience Manager Assets cuando el administrador de Workfront configura la asignación de metadatos mediante la integración entre Workfront y Adobe Experience Manager Assets. Para obtener más información, consulte [Configuración de la asignación de metadatos de recursos entre Adobe Workfront y Experience Manager Assets](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
->Al conectar registros desde el espacio de trabajo de GenStudio en Planning a objetos de AEM (recursos y fragmentos de contenido), la información de GenStudio se muestra automáticamente en los objetos de AEM en AEM. La información de AEM se muestra para los registros de GenStudio en los campos de búsqueda agregados cuando la conexión se realiza en Workfront Planning. Para obtener más información, consulte [Administrar el espacio de trabajo de GenStudio en Adobe Workfront Planning](/help/quicksilver/planning/planning-and-genstudio-integration/manage-gen-studio-workspace-in-planning.md).
+>Se puede acceder a los registros de planificación y a sus campos desde Experience Manager Assets cuando el administrador de Workfront configura la asignación de metadatos mediante la integración entre Workfront y Adobe Experience Manager Assets. Para obtener más información, consulte [Configuración de la asignación de metadatos de recursos entre Adobe Workfront y Experience Manager Assets](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
+>Al conectar registros del espacio de trabajo de GenStudio en Planning a objetos de AEM (recursos y fragmentos de contenido), la información de GenStudio se muestra automáticamente en los objetos de AEM en AEM. La información de AEM se muestra para los registros de GenStudio en los campos de búsqueda agregados cuando la conexión se realiza en Workfront Planning. Para obtener más información, consulte [Administrar el espacio de trabajo de GenStudio en Adobe Workfront Planning](/help/quicksilver/planning/planning-and-genstudio-integration/manage-gen-studio-workspace-in-planning.md).
 
 <!--
 metadata mapping is not available yet for content fragments - as of April 22, 2026. Syuzanna said the mapping is available just for GenS workspace, but checking again with her and Isk.
@@ -477,7 +477,7 @@ Para conectar registros con objetos de Adobe Experience Manager:
 
    >[!IMPORTANT]
    >
-   > Solo puede conectar los recursos a los que tiene acceso para verlos en Experience Manager. Una vez conectado, todos los usuarios de Workfront Planning pueden ver los recursos en Workfront Planning, independientemente de su acceso en Experience Manager Assets.
+   > Solo puede conectar recursos a los que tenga acceso para verlos en Experience Manager. Una vez conectados, todos los usuarios de Workfront Planning pueden ver los recursos en Workfront Planning, independientemente de su acceso en Experience Manager Assets.
    > Para obtener más información sobre el Asesor de contenido, consulte [Usar el Asesor de contenido para acceder al contenido de AEM en las aplicaciones de Adobe](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications){target="_blank"}.
 
 1. En la pestaña **Fragmentos de contenido**, seleccione los fragmentos de contenido que desee agregar al campo de registro vinculado.
@@ -596,13 +596,17 @@ Los registros y objetos se agregan inmediatamente.
    >
    >Debe agregar registros conectados al registro actual para verlos en la página de registros conectados.
 
-1. Haga clic en **Conectar** en una lista de registros o en **Conectar registros** en una lista de proyectos para agregar o quitar registros o proyectos existentes.
+1. Haga clic en **Conectar registros** en la esquina superior derecha de la página de registros conectada para agregar o quitar registros o proyectos existentes.
 
-   ![Botón de conexión resaltado en la ficha de detalles del registro conectado](assets/connect-button-highlighted-in-connected-record-details-tab.png)
+   <!--
+    this is gone:
+    ![Connect button highlighted in connected record details tab](assets/connect-button-highlighted-in-connected-record-details-tab.png)
+    -->
 
    Para obtener más información, vea [Agregar la página Registros conectados a un registro](/help/quicksilver/planning/records/add-a-connected-records-page-to-a-record.md).
-1. Haga clic en **Nueva fila** en una lista de proyectos para crear un proyecto sin plantilla. Los nuevos proyectos se conectan automáticamente al registro actual.
 1. (Opcional) Si no encuentra un registro conectado, haga clic en **+ Agregar** para crearlo y conectarlo.
+1. Haga clic en **Nueva fila** para crear un registro. Los registros nuevos se conectan automáticamente al registro actual.
+
 
 ## Conexión de registros desde objetos de Workfront
 

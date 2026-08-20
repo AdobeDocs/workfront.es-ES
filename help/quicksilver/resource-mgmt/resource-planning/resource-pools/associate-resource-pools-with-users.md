@@ -16,10 +16,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 6084af27550d2ad407ad6dff4a33b54039e7743b
 workflow-type: tm+mt
-source-wordcount: 435
-ht-degree: 94%
+source-wordcount: 440
+ht-degree: 86%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 94%
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: The info about how to add resource pools to users, are duplicated from the articles listed in those sections (Creating Users, etc). I decided to keep the steps here because those articles are too long to rummage through for updating just this one field.)</p>
 -->
 
-Los conjuntos de recursos son colecciones de usuarios que le ayudan a administrar los recursos en Adobe Workfront.
+Los conjuntos de recursos son conjuntos de usuarios que le ayudan a administrar recursos en Adobe Workfront.
 
 Debe crear un conjunto de recursos para poder asociarlo a los usuarios.
 
@@ -77,11 +77,11 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
 
 {{step-1-to-users}}
 
-1. Marque la casilla junto al nombre de un usuario en la lista y luego haga clic en **Editar**.
+1. Seleccione la casilla de verificación situada junto al nombre de un usuario en la lista y, a continuación, haga clic en **Editar**.
 1. Haga clic en **Planificación de recursos**.
 1. Escriba el nombre de un conjunto de recursos que desee asociar con el usuario en el campo **Conjuntos de recursos** y, a continuación, selecciónelo en la lista cuando aparezca.\
    Puede asociar varios conjuntos de recursos a un usuario.\
-   ![add_resource_pool_to_user.png](assets/add-resource-pool-to-user-350x307.png)
+   ![Agregar conjunto de recursos al usuario](assets/add-resource-pool-to-user.png)
 
 1. Haga clic en **Guardar cambios**.
 

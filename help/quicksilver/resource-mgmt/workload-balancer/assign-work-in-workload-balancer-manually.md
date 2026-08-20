@@ -19,16 +19,16 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: db05d3b6f950a8d5c0e6e171acb7e480ca3c6c61
 workflow-type: tm+mt
-source-wordcount: 748
-ht-degree: 82%
+source-wordcount: 751
+ht-degree: 80%
 
 ---
 
 # Asignar trabajo manualmente mediante el Distribuidor de cargas de trabajo
 
-Puede asignar manualmente elementos de trabajo a los usuarios mediante el Distribuidor de cargas de trabajo de Adobe Workfront.
+Puede asignar manualmente elementos de trabajo a usuarios y colaboradores de tareas mediante el Distribuidor de cargas de trabajo de Adobe Workfront.
 
 Para obtener información general acerca de cómo asignar trabajo a los usuarios mediante el Distribuidor de cargas de trabajo, consulte [Información general sobre la asignación de trabajo en el Distribuidor de cargas de trabajo](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
 
