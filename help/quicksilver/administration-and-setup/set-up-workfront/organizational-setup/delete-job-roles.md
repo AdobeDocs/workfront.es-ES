@@ -17,9 +17,9 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 8c7088d5d53b1519752e6ad0cd0caa79453e3d67
 workflow-type: tm+mt
-source-wordcount: 354
+source-wordcount: 352
 ht-degree: 10%
 
 ---
@@ -29,8 +29,6 @@ ht-degree: 10%
 Puede eliminar los puestos que ya no utilice su organización. Le recomendamos que no elimine los roles si se han asociado con elementos de trabajo en el pasado.
 
 Para conservar toda la información histórica acerca de las asignaciones de trabajo, se recomienda desactivar roles, en lugar de eliminarlos cuando queden obsoletos. Para obtener información sobre cómo desactivar roles, consulte [Desactivar roles](../../../administration-and-setup/set-up-workfront/organizational-setup/deactivate-job-roles.md).
-
-## Requisitos de acceso
 
 ## Requisitos de acceso
 

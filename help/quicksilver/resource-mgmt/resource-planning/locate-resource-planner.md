@@ -19,10 +19,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 8c7088d5d53b1519752e6ad0cd0caa79453e3d67
 workflow-type: tm+mt
-source-wordcount: 461
-ht-degree: 92%
+source-wordcount: 455
+ht-degree: 88%
 
 ---
 
@@ -89,10 +89,10 @@ Para acceder a la sección Planificador del área de Recursos:
 
 Se muestra el Planificador de forma predeterminada.  Para obtener información sobre el presupuesto de recursos en el Planificador de recursos, consulte el artículo [Presupuesto de recursos en el Planificador de recursos mediante las vistas de proyecto y función](../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md).
 
-![Planificador de recursos predeterminado](assets/qs-resource-management-area-with-planner-as-default-350x152.png)
+![Planificador de recursos predeterminado](assets/default-resource-planner.png)
 
-1. Haga clic en **Conjuntos de recursos** en el panel izquierdo.
-Para obtener información sobre cómo crear conjuntos de recursos, consulte [Crear conjuntos de recursos](../../resource-mgmt/resource-planning/resource-pools/create-resource-pools.md).
+1. Haga clic en **Conjuntos de recursos** en el panel de navegación izquierdo.
+Para obtener información sobre la creación de conjuntos de recursos, consulte [Crear conjuntos de recursos](../../resource-mgmt/resource-planning/resource-pools/create-resource-pools.md).
 
 ### Utilizar el Planificador de recursos para un proyecto {#use-the-resource-planner-for-one-project}
 
@@ -105,8 +105,8 @@ Cuando se utiliza el Planificador de recursos para un proyecto, los números de 
 
    >[!TIP]
    >
-   >Solo puede añadir un conjunto de recursos en el área de Presupuestación de recursos del caso empresarial cuando el proyecto no tiene conjuntos de recursos asociados. Cuando el proyecto ya tiene un conjunto de recursos, los usuarios del grupo y sus funciones de trabajo se muestran en el área de Presupuestación de recursos de forma predeterminada.
+   >Solo puede agregar un conjunto de recursos en el área de Presupuestación de recursos del caso empresarial cuando el proyecto no tiene conjuntos de recursos asociados. <!--When the project already has a Resource Pool, the users in the pool and their job roles display in the Resource Budgeting area by default.-->
 
-   ![Presupuestación de recursos](assets/resource-budgeting-area-on-project-350x70.png)
+   ![Presupuestación de recursos](assets/resource-budgeting-area-on-project.png)
 
    Para obtener información sobre el presupuesto de recursos de un proyecto, consulte el artículo [Presupuesto de recursos en el caso comercial](../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md).

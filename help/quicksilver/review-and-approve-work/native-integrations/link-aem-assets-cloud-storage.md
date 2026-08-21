@@ -1,23 +1,23 @@
 ---
 product-area: documents;workfront-integrations
 navigation-topic: native-integrations
-title: Vinculación de contenido y carpetas desde Experience Manager Assets con Adobe Cloud Storage
-description: Si su organización utiliza el almacenamiento en la nube de Adobe, puede vincular contenido y carpetas de Experience Manager Assets a cualquier objeto de Adobe Workfront que admita documentos.
+title: Vinculación de recursos de Experience Manager Assets con Adobe Cloud Storage
+description: Si su organización utiliza el almacenamiento en la nube de Adobe, puede vincular recursos de Experience Manager Assets a cualquier objeto de Adobe Workfront que admita documentos.
 author: Courtney
-source-git-commit: 66635b2edc78833ec2d08cef382b39b89238b565
+source-git-commit: b9eb36bbe792919e975cf27c06524755a3ef550b
 workflow-type: tm+mt
-source-wordcount: '945'
+source-wordcount: '935'
 ht-degree: 12%
 
 ---
 
-# Vinculación de contenido y carpetas desde Experience Manager Assets con Adobe Cloud Storage
+# Vinculación de recursos de Experience Manager Assets con Adobe Cloud Storage
 
-Si su organización utiliza el almacenamiento en la nube de Adobe, puede vincular contenido y carpetas de Experience Manager Assets a Workfront. Una vez enlazado, puede ver y administrar el contenido en Workfront, y los cambios realizados en el contenido en Experience Manager Assets se reflejarán en Workfront.
+Si su organización utiliza el almacenamiento en la nube de Adobe, puede vincular recursos de Experience Manager Assets a Workfront. Una vez enlazados, puede ver y administrar los recursos en Workfront, y los cambios realizados en los recursos en Experience Manager Assets se reflejarán en Workfront.
 
 >[!IMPORTANT]
 >
->Si su organización rechaza firmar el acuerdo GenAI Rider, puede seguir utilizando el Asesor de contenido para elegir recursos y carpetas en Experience Manager Assets, pero no tendrá acceso a funciones con tecnología de IA, como Búsqueda por IA, sugerencias inteligentes o análisis de informes de campaña.
+>Si su organización rechaza firmar el acuerdo GenAI Rider, aún puede utilizar el Asesor de contenido para elegir recursos en Experience Manager Assets, pero no tendrá acceso a funciones con tecnología de IA, como Búsqueda por IA, sugerencias inteligentes o análisis de informes de campaña.
 
 ## Requisitos de acceso
 

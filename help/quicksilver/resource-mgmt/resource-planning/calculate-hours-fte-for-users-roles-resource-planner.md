@@ -20,7 +20,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 8c7088d5d53b1519752e6ad0cd0caa79453e3d67
 workflow-type: tm+mt
 source-wordcount: 1325
 ht-degree: 67%
@@ -60,7 +60,7 @@ El administrador de Workfront determina cómo se calcula el tiempo disponible pa
 * El horario predeterminado del sistema y el EJC del usuario.
 * El horario del usuario.
 
-![Configuración del sistema para los horarios de los usuarios](assets/setup-resource-mgmt.png)
+![Configuración del sistema para los horarios de los usuarios](assets/resource-management-preferences-section-in-setup.png)
 
 >[!NOTE]
 >
@@ -70,31 +70,31 @@ En función de cómo se configure esta opción, la disponibilidad de los usuario
 
 * **El horario predeterminado**: el horario predeterminado del sistema y EJC del usuario se utilizan para determinar las horas disponibles y el valor de EJC para el usuario en el Planificador de recursos. Se ignora la programación del usuario. En este caso:
 
-   * Las horas disponibles en el Planificador de recursos se calculan mediante la siguiente fórmula:
+  * Las horas disponibles en el Planificador de recursos se calculan mediante la siguiente fórmula:
 
-     `User Available Hours = Default Schedule Hours * User FTE value`
+    `User Available Hours = Default Schedule Hours * User FTE value`
 
-     Por ejemplo, si el horario predeterminado tiene 40 horas a la semana disponibles para trabajar y el EJC del usuario es 0,5, el usuario estará disponible para trabajar 20 horas a la semana en el Planificador de recursos.
+    Por ejemplo, si el horario predeterminado tiene 40 horas a la semana disponibles para trabajar y el EJC del usuario es 0,5, el usuario estará disponible para trabajar 20 horas a la semana en el Planificador de recursos.
 
-     Para obtener más información sobre las programaciones, incluido el horario predeterminado, consulte [Crear programación](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
+    Para obtener más información sobre las programaciones, incluido el horario predeterminado, consulte [Crear programación](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
 
-   * El valor de FTE disponible para el usuario en el Planificador de recursos es el mismo que el valor de FTE del usuario especificado en la configuración del usuario.
+  * El valor de FTE disponible para el usuario en el Planificador de recursos es el mismo que el valor de FTE del usuario especificado en la configuración del usuario.
 
-     Por ejemplo, si el EJC del usuario es 0,5 en la configuración de usuario, el EJC disponible del usuario es 0,5 en el Planificador de recursos. Para obtener más información sobre el valor de EJC del usuario tal como se muestra en la configuración del usuario, consulte [Editar el perfil de un usuario](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+    Por ejemplo, si el EJC del usuario es 0,5 en la configuración de usuario, el EJC disponible del usuario es 0,5 en el Planificador de recursos. Para obtener más información sobre el valor de EJC del usuario tal como se muestra en la configuración del usuario, consulte [Editar el perfil de un usuario](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
 * **El horario del usuario**: El horario del usuario se usa para determinar la disponibilidad del usuario en el Planificador de recursos. Se ignora el valor de FTE del usuario. En este caso:
 
-   * Las horas disponibles en el Planificador de recursos son las mismas que las horas de la programación del usuario.
+  * Las horas disponibles en el Planificador de recursos son las mismas que las horas de la programación del usuario.
 
-     Por ejemplo, si la programación del usuario tiene 40 horas a la semana disponibles para trabajar, el usuario puede trabajar durante 40 horas a la semana en el Planificador de recursos.
+    Por ejemplo, si la programación del usuario tiene 40 horas a la semana disponibles para trabajar, el usuario puede trabajar durante 40 horas a la semana en el Planificador de recursos.
 
-   * El valor de FTE disponible en el Planificador de recursos se calcula mediante la siguiente fórmula:
+  * El valor de FTE disponible en el Planificador de recursos se calcula mediante la siguiente fórmula:
 
-     `User Available FTE = Hours from the Schedule of the User/ Default Schedule Hours`
+    `User Available FTE = Hours from the Schedule of the User/ Default Schedule Hours`
 
-     Por ejemplo, si el horario del usuario tiene 20 horas disponibles para trabajar y el Horario predeterminado de Workfront tiene 40 horas disponibles para trabajar, el valor de FTE del usuario es 0,5.
+    Por ejemplo, si el horario del usuario tiene 20 horas disponibles para trabajar y el Horario predeterminado de Workfront tiene 40 horas disponibles para trabajar, el valor de FTE del usuario es 0,5.
 
-     Para obtener más información sobre las programaciones, incluido el horario predeterminado, consulte [Crear programación](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
+    Para obtener más información sobre las programaciones, incluido el horario predeterminado, consulte [Crear programación](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
 
 >[!NOTE]
 >
@@ -104,8 +104,9 @@ En función de cómo se configure esta opción, la disponibilidad de los usuario
 
 Primero, debe calcular la disponibilidad del usuario y, a continuación, puede calcular la disponibilidad de cada una de sus funciones.
 
-La disponibilidad de los roles en el Planificador de recursos tiene en cuenta la disponibilidad total del usuario y el porcentaje de disponibilidad de FTE asociado a cada rol del usuario.\
-![percent_of_fte_availability_at_the_user_level.png](assets/percent-of-fte-availability-at-the-user-level-350x144.png)
+La disponibilidad de los roles en el Planificador de recursos tiene en cuenta la disponibilidad total del usuario y el porcentaje de disponibilidad de FTE asociado a cada rol del usuario.
+
+![percent_of_fte_availability_at_the_user_level.png](assets/percent-of-fte-availability-at-the-user-level.png)
 
 Para obtener más información acerca de cómo asociar un valor de Porcentaje de disponibilidad de FTE con un rol de usuario, vea [Editar el perfil de un usuario](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 

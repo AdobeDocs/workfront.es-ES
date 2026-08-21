@@ -18,10 +18,10 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: e889906dd08bbd6e307c33aa10fc9349b5c92d9f
 workflow-type: tm+mt
-source-wordcount: 3146
-ht-degree: 95%
+source-wordcount: 3308
+ht-degree: 94%
 
 ---
 
@@ -118,13 +118,13 @@ El recurso de suscripción contiene los campos siguientes.
 
 * objId (opcional)
 
-   * **Cadena**: ID del objeto del objCode especificado para el que se activan los eventos. Si no se especifica este campo, el usuario recibe eventos para todos los objetos del tipo especificado.
+  * **Cadena**: ID del objeto del objCode especificado para el que se activan los eventos. Si no se especifica este campo, el usuario recibe eventos para todos los objetos del tipo especificado.
 
 * objCode (obligatorio)
 
-   * **Cadena**: objCode del objeto al que se está suscribiendo a cambios. Los valores posibles de objCode se enumeran en la tabla siguiente.
+  * **Cadena**: objCode del objeto al que se está suscribiendo a cambios. Los valores posibles de objCode se enumeran en la tabla siguiente.
 
-     <table style="table-layout:auto"> 
+    <table style="table-layout:auto"> 
       <col> 
       <col> 
       <thead> 
@@ -263,19 +263,23 @@ El recurso de suscripción contiene los campos siguientes.
 
 * eventType (obligatorio)
 
-   * **Cadena**: valor que representa el tipo de evento al que está suscrito el objeto. Los tipos de eventos disponibles incluyen:
+  * **Cadena**: valor que representa el tipo de evento al que está suscrito el objeto. Los tipos de eventos disponibles incluyen:
 
-      * CREATE
-      * ELIMINAR
-      * UPDATE
+    * CREATE
+    * ELIMINAR
+    * UPDATE
 
 * url (obligatorio)
 
-   * **Cadena**: dirección URL del punto final al que se envían las cargas útiles de evento de suscripción a través de HTTP.
+  * **Cadena**: dirección URL del punto final al que se envían las cargas útiles de evento de suscripción a través de HTTP.
 
-* authToken (obligatorio)
+* authToken (requerido al crear)
 
-   * **Cadena**: el token del portador de OAuth2 que se utiliza para la autenticación con la URL especificada en el campo “URL”.
+  * **Cadena**: el token del portador de OAuth2 que se utiliza para la autenticación con la URL especificada en el campo “URL”. La respuesta de creación de suscripción no incluye este campo, y cada respuesta posterior que lo incluya lo mostrará enmascarado (solo los últimos 4 caracteres). El valor completo nunca se devuelve después de enviarlo, por lo que le recomendamos que conserve una copia de lo que envía.
+
+>[!NOTE]
+>
+>`authToken` siempre está enmascarado en las respuestas y muestra como máximo los últimos 4 caracteres (por ejemplo: `****1234`). Si el token tiene 8 caracteres o menos, está completamente enmascarado en su lugar, por lo que el enmascaramiento nunca revela la mitad o más de un token corto. Esto se aplica a cada extremo que devuelve detalles de suscripción, incluido el extremo de lista obsoleto.
 
 ## Creación de solicitudes de API de suscripción a eventos
 
@@ -430,7 +434,7 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions
     "objCode": "PROJ",
     "url": "http://requestb.in/ua5hi2ua",
     "eventType": "UPDATE",
-    "authToken": "authTokenWorkfrontRocks1234_"
+    "authToken": "****234_"
     "subscription_url": {
         "url": "http://requestb.in/ua5hi2ua",
         "date_created": "2024-04-11T15:56:14.169489",
@@ -504,7 +508,7 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/<SUBSCRIPTI
     "objCode": "PROJ",
     "url": "http://requestb.in/ua5hi2ua",
     "eventType": "UPDATE",
-    "authToken": "authTokenWorkfrontRocks1234_"
+    "authToken": "****234_"
     "subscription_url": {
         "url": "http://requestb.in/ua5hi2ua",
         "date_created": "2024-04-11T15:56:14.169489",
@@ -631,10 +635,10 @@ Por ejemplo, una suscripción al evento **UPDATE - TASK** solo se puede establec
 * Cuando se asignan varias suscripciones de eventos a un único objeto, todas las suscripciones de eventos asociadas a ese objeto se pueden devolver a un único punto final. Esta práctica se puede utilizar como un sustituto equivalente del operador lógico **OR** que no se puede establecer mediante parámetros de filtro.
 * Los siguientes campos no son filtrables:
 
-   * DOCU.groups
-   * RECORD.data
-   * RECORD_TYPE.data
-   * RECORD_TYPE.fields
+  * DOCU.groups
+  * RECORD.data
+  * RECORD_TYPE.data
+  * RECORD_TYPE.fields
 
 ### Uso de operadores de comparación
 
@@ -860,13 +864,13 @@ Este filtro permite que los mensajes se transmitan solo si el campo especificado
 
 #### state
 
-Este conector hace que el filtro se aplique al nuevo estado o al antiguo estado del objeto que se creó o actualizó. Esto resulta útil cuando desea saber dónde se realizó un cambio de algo a otro.
+Este conector hace que el filtro se aplique al nuevo estado o al antiguo estado del objeto que se creó o actualizó. Esto resulta útil si desea saber dónde se realizó un cambio de alguna cosa a otra.
 `oldState` no es posible en CREATE `eventTypes`.
 
 >[!NOTE]
 >
->La suscripción siguiente con el filtro dado solo devolverá mensajes donde el nombre de la tarea contenga `again` en el `oldState`, lo que era antes de que se realizara una actualización en la tarea.
->Un caso de uso para esto sería encontrar los mensajes objCode que han cambiado de una cosa a otra. Por ejemplo, para averiguar todas las tareas que cambiaron de &quot;Buscar un nombre&quot; a &quot;Buscar un nombre de equipo&quot;
+>La suscripción siguiente con el filtro especificado solo devolverá mensajes donde el nombre de la tarea contenga `again` en `oldState`, tal como sucedía antes de que se realizara una actualización en la tarea.
+>Un caso de uso para esto sería encontrar los mensajes de objCode que han cambiado de una manera a otra. Por ejemplo, para averiguar todas las tareas que cambiaron de &quot;Investigar Algún nombre&quot; a &quot;Investigar TeamName Algún nombre&quot;
 
 ```
 {
@@ -1031,8 +1035,8 @@ El ejemplo anterior contiene los siguientes componentes:
    * `{ "type": "group", "connector": "OR", "filters": [ { "fieldName": "status", "fieldValue": "CUR", "comparison": "eq" }, { "fieldName": "priority", "fieldValue": "1", "comparison": "eq" } ] }`
    * Este grupo evalúa dos filtros internos:
 
-      * El primero comprueba si el estado de la tarea es igual a “CUR” (actual).
-      * El segundo comprueba si la prioridad es igual a “1” (prioridad alta).
+     * El primero comprueba si el estado de la tarea es igual a “CUR” (actual).
+     * El segundo comprueba si la prioridad es igual a “1” (prioridad alta).
    * Como el conector es “OR”, este grupo se cumplirá si alguna de las condiciones es verdadera.
 
 1. Conector de nivel superior (filterConnector: AND):
@@ -1370,7 +1374,7 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/list
                 "obj_code": "TASK",
                 "url": "http://test.test.net/test/1234",
                 "event_type": "UPDATE",
-                "auth_token": "auth_token"
+                "auth_token": "****oken"
                 },
                 {
                 "id": "750a636c-5628-48f5-ba26-26b7ce537ac2",
@@ -1379,7 +1383,7 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/list
                 "obj_code": "PROJ",
                 "url": "http://requestb.in/ua5hi2ua",
                 "event_type": "UPDATE",
-                "auth_token": "authTokenWorkfrontRocks1234_"
+                "auth_token": "****234_"
                 }                
                 ]
 ```

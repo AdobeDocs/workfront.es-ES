@@ -6,10 +6,10 @@ author: Becky
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: c34c4f351010980098b3efece8643a5f5620917f
+source-git-commit: 81eb918df24ec95f911d7c91268239503af434ee
 workflow-type: tm+mt
-source-wordcount: '971'
-ht-degree: 3%
+source-wordcount: '1072'
+ht-degree: 2%
 
 ---
 
@@ -18,6 +18,18 @@ ht-degree: 3%
 Este artículo describe las funciones que se lanzarán para Workfront Planning durante la versión del cuarto trimestre de 2026.
 
 Para obtener una lista de todas las características publicadas para Adobe Workfront Planning, consulte [Actividad de la versión de Adobe Workfront Planning: índice de artículo](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
+
+## Encabezados de columna actualizados para campos de registro conectados dependientes
+
+>[!NOTE]
+>
+>Vista previa: 20 de agosto de 2026
+>Versión rápida de producción: 17 de septiembre de 2026
+>Producción para todos: 15 de octubre de 2026
+
+Se han realizado mejoras visuales en los encabezados de columna de un campo de registro conectado dependiente en la vista de tabla.
+
+Para obtener más información, consulte [Administrar conexiones dependientes](/help/quicksilver/planning/architecture/manage-dependent-connections.md).
 
 ## Mejoras en la vista de tabla al arrastrar y soltar varias filas
 
@@ -63,22 +75,6 @@ Si el formulario de entrada incluye un campo de Workspace y un usuario seleccion
 
 Para obtener más información, consulte [Enviar solicitudes de Adobe Workfront Planning para crear registros](/help/quicksilver/planning/requests/submit-requests.md).
 
-<!--
-
-## Updated column headers for dependent connected record fields
-
->[!NOTE]
->
->Preview: August 13, 2026
->Production fast release: September 17, 2026
->Production for everyone: October 15, 2026
-
-We've made visual improvements to the column headers for a dependent connected record field in the table view.
-
-For information, see [Manage dependent connections](/help/quicksilver/planning/architecture/manage-dependent-connections.md).
-
--->
-
 ## Presentación de la aptitud de arquitecto de Workfront Planning Solution
 
 >[!NOTE]
@@ -86,12 +82,14 @@ For information, see [Manage dependent connections](/help/quicksilver/planning/a
 >Vista previa: 10 de agosto de 2026
 >Producción: 10 de agosto de 2026
 
-Estamos poniendo a disposición una nueva aptitud, el arquitecto de soluciones de Workfront Planning, que aporta una orientación óptima y auténtica para Workfront Planning directamente en Claude. Justo en la interfaz de Claude, ahora puede hacer lo siguiente:
+Estamos lanzando una nueva habilidad, el arquitecto de soluciones de Workfront Planning, que trae una orientación auténtica y de prácticas recomendadas para Workfront Planning directamente a Claude:
 
-* Configure un nuevo espacio de trabajo de Planning para que se ajuste a sus necesidades empresariales, con el servidor MCP de Workfront ejecutando la configuración en su entorno.
-* Auditar una configuración existente para detectar antipatrones a escala.
-* Comprobación del uso respecto a los límites recomendados.
-* Haga preguntas sobre Planning.
+* **Configure** nuevos espacios de trabajo de Planning para especificar, con el servidor MCP de Workfront ejecutando la configuración en su entorno.
+* **Auditoría** configuraciones existentes para antipatrones a escala.
+* **Comprobar el uso** con los límites recomendados (registros, conexiones, profundidad de jerarquía).
+* **Formule preguntas** sobre Planning anytime.
+
+Más allá de la configuración inicial, la aptitud admite la gobernanza continua al detectar la deriva de la configuración antes de que cause fricción, marcar los límites que se aproximan antes de que se conviertan en bloqueadores, aplicar estándares coherentes en todos los espacios de trabajo, independientemente de quién lo configure y dar a cualquier miembro del equipo respuestas precisas sin esperar a un especialista. En conjunto, esto cubre el ciclo de vida completo de la configuración correcta de un espacio de trabajo y lo mantiene así a medida que aumenta el uso.
 
 Para obtener más información, consulte [Aptitudes disponibles para la instalación directa](/help/quicksilver/workfront-basics/workfront-mcp-server/direct-skills.md).
 

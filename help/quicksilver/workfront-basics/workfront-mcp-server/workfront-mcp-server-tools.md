@@ -5,9 +5,9 @@ title: Herramientas del servidor MCP de Adobe Workfront
 description: Lista de referencia de las herramientas disponibles a través del servidor MCP de Adobe Workfront, agrupadas por área de Workfront.
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: 2de2dd8d79af0929f010cda304f8d1e008deb553
+source-git-commit: c52aa353d5b9856cc6c7de458596f0145fb2c6e0
 workflow-type: tm+mt
-source-wordcount: '2705'
+source-wordcount: '2721'
 ht-degree: 7%
 
 ---
@@ -110,8 +110,8 @@ Si la plataforma agéntica de IA puede encontrar elementos de Workfront pero no 
 
 | Título | Nombre de herramienta | Qué hace | Acción |
 | --- | --- | --- | --- |
-| Buscar proyecto por nombre | `approvals_find_project_by_name` | Busca proyectos de Workfront por coincidencia de nombre parcial en todo el sistema. | Leer |
-| Obtener proyectos por propietario | `approvals_get_projects_by_owner` | Enumera proyectos de Workfront en los que el usuario que realiza la llamada es el propietario. | Leer |
+| Buscar proyecto por nombre | `approvals_find_project_by_name` | Eliminado el 13 de agosto de 2026. Utilice `insights_find_id_by_name` en su lugar. Esta herramienta buscó proyectos de Workfront por coincidencia de nombre parcial en todo el sistema. | Leer |
+| Obtener proyectos por propietario | `approvals_get_projects_by_owner` | Eliminado el 13 de agosto de 2026. Utilice `insights_find_workfront_data` en su lugar. Esta herramienta enumeraba proyectos de Workfront en los que el usuario que realizaba la llamada era el propietario. | Leer |
 | Obtener usuario actual | `approvals_get_current_user` | Eliminado el 13 de agosto de 2026. Esta herramienta devolvió la identidad de Workfront del usuario que realizó la llamada, incluido el nombre, el ID de usuario, el nombre del equipo de inicio y el ID del equipo de inicio. Para una funcionalidad similar, consulta [Obtener usuario actual](#insights-tools) en Herramientas de perspectivas. | Leer |
 | Buscar usuario por nombre | `approvals_find_user_by_name` | Obsoleto. Utilice `insights_search_users` en su lugar. Esta herramienta buscó el ID de un usuario de Workfront por nombre (coincidencia parcial o difusa), nombre de remitente, ID, correo electrónico, título y URL de avatar. | Leer |
 | Buscar equipo por nombre | `approvals_find_team_by_name` | Obsoleto. Utilice `insights_find_id_by_name` en su lugar. Esta herramienta ha buscado el ID de un equipo de Workfront por su nombre (coincidencia parcial o difusa). | Leer |
