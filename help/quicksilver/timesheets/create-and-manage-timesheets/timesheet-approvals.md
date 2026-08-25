@@ -18,10 +18,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+source-git-commit: dbb2e1aee18e6435a79ee2071f0bd5ba84ce2af3
 workflow-type: tm+mt
-source-wordcount: 678
-ht-degree: 59%
+source-wordcount: 689
+ht-degree: 57%
 
 ---
 
@@ -95,17 +95,13 @@ Se abre el área **Plantillas de horas**.
 
    Seleccione el filtro **Mis aprobaciones de plantillas de horas** en la parte superior de la lista de plantillas de horas.
 
-   ![](assets/my-timesheet-approvals-my-timesheets-pills-on-timesheets-list-nwe-350x58.png)
+   ![Botones de filtro en Mis hojas de horas en la página Lista de hojas de horas](assets/my-timesheet-approvals-my-timesheets-pills-on-timesheets-list-nwe-350x58.png)
 
    >[!NOTE]
    >
-   >La opción Mis aprobaciones de hojas de horas no se muestra en la parte superior de la lista de hojas de horas ni en la lista de filtros si el administrador de Workfront o un administrador de grupo quitó el filtro Mis aprobaciones de hojas de horas de los controles de lista del área Configuración o de la plantilla Diseño.
-   >
-   >Para obtener más información, vea [Personalizar filtros, vistas y agrupaciones mediante una plantilla de diseño](../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
-   >   
-   >
+   >Las opciones Mis aprobaciones de hojas de horas y Mis hojas de horas no se muestran en la parte superior de la lista de hojas de horas ni en la lista de filtros si el administrador de Workfront o de un grupo ha eliminado esos filtros de los controles de lista en el área de Configuración o de la plantilla de diseño. Para obtener más información, consulte [Personalizar filtros, vistas y agrupaciones mediante una plantilla de diseño](../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md).
 
-1. (Opcional) Haga clic en el icono **buscar** ![](assets/search-icon.png) en la parte superior de la lista de plantilla de horas y escriba una palabra clave para buscar una plantilla de horas específica. Puede buscar un lapso de tiempo o el nombre de un propietario o aprobador.
+1. (Opcional) Haga clic en el icono **buscar** ![Icono de búsqueda](assets/search-icon.png) en la parte superior de la lista de hojas de horas y escriba una palabra clave para localizar una hoja de horas específica. Puede buscar un lapso de tiempo o el nombre de un propietario o aprobador.
 1. Haga clic en el lapso de tiempo de la plantilla de horas que desee aprobar. Se abre la plantilla de horas.
 
    >[!TIP]

@@ -6,9 +6,9 @@ description: El historial de cambios permite ver un registro de los cambios real
 author: Lisa
 feature: System Setup and Administration
 role: Admin
-source-git-commit: 100b900bd7419d78a3135358026ec5e27755fdeb
+source-git-commit: 1e06115eb5688271e2a6f4c8a41647eb644d8292
 workflow-type: tm+mt
-source-wordcount: '465'
+source-wordcount: '523'
 ht-degree: 6%
 
 ---
@@ -17,9 +17,9 @@ ht-degree: 6%
 
 {{preview-fast-release-general}}
 
-El historial de cambios le permite configurar y realizar un seguimiento de los cambios realizados en objetos y campos específicos de Adobe Workfront. La configuración flexible permite configurar qué objetos y campos exactamente desea rastrear.
+El historial de cambios permite al administrador del sistema configurar y realizar un seguimiento de los cambios realizados en los objetos y campos específicos de Adobe Workfront. La configuración flexible permite al administrador configurar qué objetos y campos se rastrean exactamente.
 
-El historial de cambios puede realizar un seguimiento de los siguientes tipos de datos definidos:
+El historial de cambios puede rastrear los siguientes tipos de datos definidos:
 
 * Actividad en el área de Configuración, como crear o eliminar un nivel de acceso o un rol
 * Actualizaciones de nivel de campo, como editar una descripción de proyecto o cambiar la plantilla de diseño de un usuario
@@ -35,6 +35,11 @@ En la lista Historial de cambios, puede ver el registro de cambios realizados en
 * Tipo de cambio (operación)
 * Fecha y hora del cambio
 * Source del cambio, como usuarios específicos, API, Workfront Fusion, AI LLM o el sistema de Workfront
+
+>[!NOTE]
+>
+>Al acceder al Historial de cambios, solo verá las marcas de revisión de los campos para los que tiene permisos de visualización.
+>Por ejemplo, si se realiza un seguimiento de los datos financieros en los proyectos y no se tiene acceso a ellos, no se verán los campos financieros en la Lista Historial de cambios.
 
 ## Requisitos de acceso
 
@@ -62,25 +67,6 @@ En la lista Historial de cambios, puede ver el registro de cambios realizados en
 Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
-
-<!--
-## View the Configuration area for change tracking
-
->[!NOTE]
->
->In the Production environment, Configuration is currently available only as information and cannot be changed. The ability to change which fields are tracked will be available in the near future.
-
-To view the types of changes that are tracked: 
-
-{{step-1-to-setup}}
-
-1. In the left panel, click **Change Tracking > Configuration**.
-   
-   Fields are displayed grouped by object type.
-
-1. To display fields under a specific object, click the dropdown arrow next to the object type.
--->
-
 
 ## Ver la lista Historial de cambios
 

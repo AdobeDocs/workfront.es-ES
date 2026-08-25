@@ -20,7 +20,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: dbb2e1aee18e6435a79ee2071f0bd5ba84ce2af3
 workflow-type: tm+mt
 source-wordcount: 1593
 ht-degree: 67%
@@ -69,14 +69,6 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
 +++
 
 ## Crear o editar un perfil de plantilla de horas
-
-<!--
-Old info: 
-<div style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<p style="color: #ff1493;">Alina drafted an Important note under this heading because Tracy/WorkEx said this is not working as designed - the changes WILL take effect the minute to make them for existing timesheets - see this issue - https://hub.workfront.com/issue/5dba59f600c401cca536567c368aa299/overview</p>
-<p style="color: #ff1493;">Important: The changes you make to an existing timesheet profile are not automatically applied to timesheets that have already been generated. The changes you make to a timesheet prile are applied only to the timesheets that are&nbsp;generated after the timesheet profiles changes are made. To&nbsp;apply your&nbsp;changes to the timesheet profile for the timesheets that are already generated, you must delete the existing timesheets and manually generate&nbsp;them.For more information about deleting and manually generating timesheets, see&nbsp;Delete and manually generating Timesheets.</p>
-</div>
--->
 
 >[!IMPORTANT]
 >
@@ -131,9 +123,9 @@ Old info:
 
      Utilice el menú desplegable para seleccionar el aprobador de la plantilla de horas (si se requiere un aprobador). Puede seleccionar entre las siguientes opciones:
 
-      * **Ninguno**: no es necesario aprobar la hoja de horas.
-      * **Su administrador**: este es el aprobador predeterminado, establecido por el sistema. En este caso, el usuario designado como su responsable aprueba la plantilla de horas cuando se envía para su aprobación.
-      * **Personas específicas**: puede designar a usuarios específicos, por su nombre, como aprobadores de hojas de horas. Puede tener varios aprobadores en una plantilla de horas. En este caso, una vez que uno de los aprobadores apruebe la plantilla de horas, esta se marcará como **Cerrada** y desaparecerá de la lista de aprobaciones de plantillas de horas de todos los aprobadores restantes.
+     * **Ninguno**: no es necesario aprobar la hoja de horas.
+     * **Su administrador**: este es el aprobador predeterminado, establecido por el sistema. En este caso, el usuario designado como su responsable aprueba la plantilla de horas cuando se envía para su aprobación.
+     * **Personas específicas**: puede designar a usuarios específicos, por su nombre, como aprobadores de hojas de horas. Puede tener varios aprobadores en una plantilla de horas. En este caso, una vez que uno de los aprobadores apruebe la plantilla de horas, esta se marcará como **Cerrada** y desaparecerá de la lista de aprobaciones de plantillas de horas de todos los aprobadores restantes.
 
    * **Puede editar el tiempo**: seleccione esta opción para permitir que los aprobadores editen las horas en la hoja de horas.
 
@@ -143,14 +135,14 @@ Old info:
 
      Cuando la opción **Restringir la edición de plantillas de horas a propietarios y administradores** está habilitada:
 
-      * Los aprobadores solo pueden aprobar y rechazar plantillas de horas, independientemente de si la opción Puede editar las horas está activada o no.
-      * Los administradores de propietarios de plantillas de horas solo pueden ver las plantillas de horas de sus informes directos.
+     * Los aprobadores solo pueden aprobar y rechazar plantillas de horas, independientemente de si la opción Puede editar las horas está activada o no.
+     * Los administradores de propietarios de plantillas de horas solo pueden ver las plantillas de horas de sus informes directos.
 
      Cuando la opción **Restringir la edición de plantillas de horas a propietarios y administradores** está deshabilitada:
 
-      * Cuando **Puede editar la hora** está habilitada, los aprobadores pueden enviar, reabrir o cerrar la hoja de horas y pueden editar la hora.
-      * Si **Puede editar la hora** está deshabilitada, los aprobadores no podrán enviar, volver a abrir ni cerrar la hoja de horas y no podrán editar la hora. Los aprobadores solo pueden aprobar o rechazar la plantilla de horas.
-      * Los administradores de los propietarios de las plantillas de horas pueden enviar, recuperar, volver a abrir y editar las plantillas de horas de sus informes directos.
+     * Cuando **Puede editar la hora** está habilitada, los aprobadores pueden enviar, reabrir o cerrar la hoja de horas y pueden editar la hora.
+     * Si **Puede editar la hora** está deshabilitada, los aprobadores no podrán enviar, volver a abrir ni cerrar la hoja de horas y no podrán editar la hora. Los aprobadores solo pueden aprobar o rechazar la plantilla de horas.
+     * Los administradores de los propietarios de las plantillas de horas pueden enviar, recuperar, volver a abrir y editar las plantillas de horas de sus informes directos.
 
      >[!NOTE]
      >

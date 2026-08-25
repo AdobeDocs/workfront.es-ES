@@ -20,10 +20,10 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 0a3a49ff0e6347e0a0b327fcd692d5e1d9598f08
 workflow-type: tm+mt
-source-wordcount: 751
-ht-degree: 93%
+source-wordcount: 757
+ht-degree: 76%
 
 ---
 
@@ -68,13 +68,13 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
 
 ## Editar plantillas de horas
 
-1. Haga clic en el icono **Menú principal** ![](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront y luego haga clic en **Plantillas de horas**.
+{{step1-to-timesheets}}
 
-   El filtro **Todas** está seleccionado de manera predeterminada, el cual muestra todas las plantillas de horas que tiene acceso para ver.
+El filtro **Todas** está seleccionado de manera predeterminada, el cual muestra todas las plantillas de horas que tiene acceso para ver.
 
-   ![](assets/timesheet-list-one-timesheet-selected-nwe-350x70.png)
+![Lista de hojas de horas con una hoja de horas seleccionada](assets/timesheet-list-one-timesheet-selected-nwe-350x70.png)
 
-1. (Opcional) Haga clic en el icono **buscar** ![](assets/search-icon.png), escriba una palabra clave y busque una plantilla de horas específica. Por ejemplo, puede buscar un lapso de tiempo o un nombre de propietario para una plantilla de horas.
+1. (Opcional) Haga clic en el icono **buscar** ![Icono de búsqueda](assets/search-icon.png), escriba una palabra clave y busque una hoja de horas específica. Por ejemplo, puede buscar un lapso de tiempo o un nombre de propietario para una plantilla de horas.
 
 1. (Opcional) Realice una de las siguientes acciones para actualizar el filtro en la lista de plantillas de horas:
 
@@ -86,21 +86,15 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
 
      Esto aplica los filtros Mis aprobaciones de plantillas de horas o Mis plantillas de horas a la lista de plantillas de horas.
 
-     ![](assets/my-timesheet-approvals-my-timesheets-pills-on-timesheets-list-nwe-350x58.png)
+     ![Botones de filtro en Mis hojas de horas en la página Lista de hojas de horas](assets/my-timesheet-approvals-my-timesheets-pills-on-timesheets-list-nwe-350x58.png)
 
-   * Haga clic en el icono de Filtro ![](assets/filter-nwepng.png) para aplicar un filtro diferente o crear uno nuevo. Para obtener información sobre cómo crear o actualizar filtros, consulte [Crear o editar filtros en Adobe Workfront](../../reports-and-dashboards/reports/reporting-elements/create-filters.md).
+   * Haga clic en el icono de filtro ![Icono de filtro](assets/filter-nwepng.png) para aplicar un filtro diferente o crear uno nuevo. Para obtener información sobre cómo crear o actualizar filtros, consulte [Crear o editar filtros en Adobe Workfront](../../reports-and-dashboards/reports/reporting-elements/create-filters.md).
 
    >[!NOTE]
    >
-   >Las opciones Mis aprobaciones de plantillas de horas y Mis plantillas de horas no se muestran en la parte superior de la lista de plantillas de horas ni en la lista de filtros si el administrador de Workfront o de un grupo ha eliminado estos filtros de los Controles de lista en el área Configuración o de la Plantilla de diseño. Para obtener más información, consulte los siguientes artículos:
-   >
-   >   
-   >   
-   >   * [Personalizar filtros, vistas y agrupaciones mediante una plantilla de diseño](../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
-   >   
-   >
+   >Las opciones Mis aprobaciones de hojas de horas y Mis hojas de horas no se muestran en la parte superior de la lista de hojas de horas ni en la lista de filtros si el administrador de Workfront o de un grupo ha eliminado esos filtros de los controles de lista en el área de Configuración o de la plantilla de diseño. Para obtener más información, consulte [Personalizar filtros, vistas y agrupaciones mediante una plantilla de diseño](../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md).
 
-1. (Opcional) Haga clic en los iconos **Ver** ![](assets/view-icon.png) o **Agrupar** ![](assets/grouping.png) para aplicar una vista o agrupación diferente o para crear una nueva.
+1. (Opcional) Haga clic en los iconos **Ver** ![Ver icono](assets/view-icon.png) o **Agrupar** ![Icono de agrupación](assets/grouping.png) para aplicar una vista o agrupación diferente o para crear una nueva.
 
    Para obtener información sobre la creación de filtros, vistas o agrupaciones, consulte los siguientes artículos:
 
@@ -108,7 +102,7 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
    * [Crear o editar vistas en Adobe Workfront](../../reports-and-dashboards/reports/reporting-elements/create-edit-views.md)
    * [Creación de agrupaciones en Adobe Workfront](../../reports-and-dashboards/reports/reporting-elements/create-groupings.md)
 
-1. Seleccione una o varias plantillas de horas y luego haga clic en el icono **Editar** ![](assets/edit-icon.png) en la parte superior de la lista de plantillas de horas.
+1. Seleccione una o varias hojas de horas y luego haga clic en el icono **Editar** ![Editar icono](assets/edit-icon.png) en la parte superior de la lista de hojas de horas.
 1. Consulte o especifique la siguiente información:
 
    <table style="table-layout:auto"> 
@@ -129,8 +123,8 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Estado</strong> </td> 
-      <td> Este es el estado de la hoja de horas.
-      Las siguientes son posibles opciones de estado de hoja de horas: 
+      <td> Este es el estado de la plantilla de horas.
+      Las siguientes son posibles opciones de estado de la plantilla de horas: 
       <ul><li><b>Abrir</b>: la plantilla de horas está abierta y las entradas de horas se pueden editar.</li>
       <li><b>Enviada</b>: la plantilla de horas se envía para su aprobación a los aprobadores designados.</li>
       <li><b>Rechazada</b>: la plantilla de horas no fue aprobada por los aprobadores y ahora está disponible nuevamente para que el usuario edite las entradas de tiempo.</li>
@@ -146,7 +140,7 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
       <td> <p>Seleccione esta opción si desea permitir que los aprobadores editen las horas en la plantilla de horas.</p> <p>Esta opción no está disponible si selecciona varias plantillas de horas. </p> </td> 
      </tr> 
      <tr data-mc-conditions=""> 
-      <td role="rowheader"><span style="font-weight: bold;">Horas extra</span> </td> 
+      <td role="rowheader"><strong>Horas extra</strong> </td> 
       <td> <p>Puede elegir ocultar el cuadro Horas extra en la plantilla de horas.</p> <p>Esta opción está desactivada de forma predeterminada.</p> </td> 
      </tr> 
     </tbody> 
