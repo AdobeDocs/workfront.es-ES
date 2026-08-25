@@ -3,10 +3,10 @@ user-guide-title: Guía de Workfront
 user-guide-description: Utilice los siguientes documentos, tutoriales y recursos adicionales para aprender a implementar y utilizar Adobe Workfront de forma eficaz en su organización.
 role: User
 feature-set: Workfront
-source-git-commit: e5a288dcac20be9176d1541d531edaf0d8c99a8c
+source-git-commit: d2c1bf01d27958151c7eeb2c4e5e6daca9eb97c3
 workflow-type: tm+mt
-source-wordcount: '14443'
-ht-degree: 93%
+source-wordcount: '14452'
+ht-degree: 92%
 
 ---
 
@@ -2210,6 +2210,7 @@ ht-degree: 93%
     * [Crear tipos de registro importando información desde un archivo CSV o de Excel](planning/architecture/import-file-to-create-record-types.md)
     * [Información general de tipos de registro entre espacios de trabajo](planning/architecture/cross-workspace-record-types-overview.md)
     * [Configuración de capacidades entre espacios de trabajo para tipos de registros](planning/architecture/configure-record-type-cross-workspace-capabilities.md)
+    * {hide-from-toc}[Configurar reglas empresariales de tipo de registro](planning/architecture/configure-business-rules.md)
     * [Configuración del área Configuración de un tipo de registro](planning/architecture/configure-record-type-settings.md)
     * [Agregar tipos de registros existentes desde otro espacio de trabajo](planning/architecture/add-existing-record-types-from-another-workspace.md)
     * [Información general sobre conectar tipos de registro](planning/architecture/connect-record-types-overview.md)
@@ -2239,6 +2240,7 @@ ht-degree: 93%
     * [Compartir tipos de registro](planning/access/share-record-types.md)
     * [Compartir vistas](planning/access/share-views.md)
     * [Compartir registros](planning/access/share-records.md)
+    * {hide-from-toc}[Compartir campos de Workfront Planning](planning/access/share-fields.md)
     * [Establecer permisos predeterminados para los registros](planning/access/set-default-record-permissions.md)
     * [Solicitar permisos para una vista o un espacio de trabajo](planning/access/request-permissions.md)
   * Registros de Adobe Workfront Planning {#adobe-workfront-planning-records}
@@ -2639,7 +2641,7 @@ ht-degree: 93%
     * [Configure y utilice las aplicaciones OAuth 2 personalizadas de la organización mediante el flujo JWT](wf-api/api/oauth-app-jwt-flow.md)
     * [Configure y utilice las aplicaciones OAuth 2 personalizadas de su organización mediante el flujo PKCE](wf-api/api/oauth-app-pkce-flow.md)
     * [Obsolescencia de la API interna](wf-api/api/deprecation-api-internal.md)
-    * [Novedades de la versión 22 de la API](/help/quicksilver/wf-api/api/new-api-version-22.md)
+    * [Novedades de la versión 22](/help/quicksilver/wf-api/api/new-api-version-22.md) de la API
     * [Novedades de la versión 21 de la API](/help/quicksilver/wf-api/api/new-api-version-21.md)
     * [Novedades de la versión 20 de la API](/help/quicksilver/wf-api/api/new-api-version-20.md)
     * [Novedades de la versión 19 de la API](wf-api/api/new-api-version-19.md)
