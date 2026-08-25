@@ -6,10 +6,10 @@ author: Becky
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 81eb918df24ec95f911d7c91268239503af434ee
+source-git-commit: 9b6b1157cf93418e8863f2e99ebe87414a23378d
 workflow-type: tm+mt
-source-wordcount: '1072'
-ht-degree: 2%
+source-wordcount: '1076'
+ht-degree: 3%
 
 ---
 
@@ -38,6 +38,7 @@ Para obtener más información, consulte [Administrar conexiones dependientes](/
 >Vista previa: 13 de agosto de 2026
 >Versión rápida de producción: 13 de agosto de 2026
 >Producción para todos: 15 de octubre de 2026
+>[!BADGE Fuera del horario]{type=Neutral}
 
 Hay nuevos indicadores visuales cuando arrastra y suelta varias filas en la vista de tabla. Un signo más destacado y un indicador de número ahora muestran cuántas filas se han seleccionado para la acción de arrastrar y soltar.
 

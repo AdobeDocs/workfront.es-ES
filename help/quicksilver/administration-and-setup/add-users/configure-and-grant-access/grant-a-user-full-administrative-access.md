@@ -20,10 +20,10 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+source-git-commit: 0f2e9311d94714a3561dfdd9807e4267513e0426
 workflow-type: tm+mt
-source-wordcount: 1558
-ht-degree: 82%
+source-wordcount: 1576
+ht-degree: 81%
 
 ---
 
@@ -358,6 +358,14 @@ Los usuarios con una licencia estándar o de planificación que pueden editar la
    <td>Sistema: preferencias</td> 
    <td>Acceso total</td> 
    <td>Sin acceso</td> 
+  <tr> 
+   <td>Seguimiento de cambios: Configuración</td> 
+   <td>Acceso total</td> 
+   <td>Sin acceso</td> 
+  <tr> 
+   <td>Seguimiento de cambios: Lista de historial de cambios</td> 
+   <td>Acceso total</td> 
+   <td>Acceso total</td> 
   </tr> 
  </tbody> 
 </table>
@@ -372,7 +380,7 @@ Los usuarios con una licencia estándar o de planificación que pueden editar la
   <tr> 
    <th>Área/objeto</th> 
    <th>Administrador de Workfront </th> 
-   <th>Usuario con licencia de planificación y algunos derechos administrativos</th> 
+   <th>Usuario con licencia Standard o Plan y algunos derechos administrativos</th> 
   </tr> 
  </thead> 
  <tbody> 
