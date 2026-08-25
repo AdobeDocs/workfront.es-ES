@@ -7,23 +7,15 @@ author: Lisa
 feature: Timesheets
 exl-id: 253e20c8-58f8-4b23-a769-b0e36557066a
 TQID: https://experienceleague.adobe.com/uxfkWowkcyC9zeX1vNaZaY-i3AFCHMngvflZ8-REnac
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
-  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87effid: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: dbb2e1aee18e6435a79ee2071f0bd5ba84ce2af3
 workflow-type: tm+mt
-source-wordcount: 845
-ht-degree: 37%
+source-wordcount: 828
+ht-degree: 25%
 
 ---
 
@@ -80,7 +72,7 @@ Para enviar una hoja de horas para su aprobación:
 1. Registrar tiempo, como se describe en [Registrar tiempo](../../timesheets/create-and-manage-timesheets/log-time.md).
 1. Haga clic en **Enviar para aprobación** para iniciar el proceso de aprobación de hojas de horas.
 
-   ![](assets/submit-for-approval-button-on-timesheet-nwe.png)
+   ![Botón Enviar para aprobación](assets/submit-for-approval-button-on-timesheet-nwe.png)
 
    El botón **Enviar para aprobación** se ha reemplazado por los botones **Aprobar**, **Rechazar** y **Recuperar**. El estado de la hoja de horas cambia a **Enviado**.
 
@@ -101,10 +93,11 @@ Sin estas notificaciones, puede obtener más información sobre el estado de las
 
 Para ver el estado de una plantilla de horas:
 
-1. Haga clic en el icono de **Menú principal** ![](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront.
-1. Haga clic en **Plantilla de horas**. El filtro **Todos** está seleccionado de manera predeterminada.
+{{step1-to-timesheets}}
 
-   ![](assets/timesheet-list-one-timesheet-selected-nwe-350x70.png)
+El filtro **Todos** está seleccionado de manera predeterminada.
+
+![Lista de hojas de horas con una hoja de horas seleccionada](assets/timesheet-list-one-timesheet-selected-nwe-350x70.png)
 
 1. (Opcional) Realice una de las siguientes acciones para actualizar el filtro en la lista de plantillas de horas:
 
@@ -116,19 +109,13 @@ Para ver el estado de una plantilla de horas:
 
      Esto es válido para los filtros Aprobaciones de Mis hojas de horas o de Mis hojas de horas a la lista de hojas de horas.
 
-     ![](assets/my-timesheet-approvals-my-timesheets-pills-on-timesheets-list-nwe-350x58.png)
+     ![Botones de filtro en Mis hojas de horas en la página Lista de hojas de horas](assets/my-timesheet-approvals-my-timesheets-pills-on-timesheets-list-nwe-350x58.png)
 
-   * Haga clic en el icono de Filtro ![](assets/filter-nwepng.png) para aplicar un filtro diferente o crear uno nuevo. Para obtener información sobre cómo crear o actualizar filtros, consulte [Crear o editar filtros en Adobe Workfront](../../reports-and-dashboards/reports/reporting-elements/create-filters.md).
+   * Haga clic en el icono de filtro ![Icono de filtro](assets/filter-nwepng.png) para aplicar un filtro diferente o crear uno nuevo. Para obtener información sobre cómo crear o actualizar filtros, consulte [Crear o editar filtros en Adobe Workfront](../../reports-and-dashboards/reports/reporting-elements/create-filters.md).
 
    >[!NOTE]
    >
-   >Las opciones Aprobaciones de Mis hojas de horas y Mis hojas de horas no se muestran en la parte superior de la lista de hojas de horas ni en la lista de filtros si su administrador de Workfront o su administrador de grupos ha eliminado los filtros Aprobaciones de Mis hojas de horas y Mis hojas de horas de Controles de Lista en el área Configuración o de la Plantilla de diseño. Para obtener más información, consulte los siguientes artículos:
-   >
-   >   
-   >   
-   >   * [Personalizar filtros, vistas y agrupaciones mediante una plantilla de diseño](../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
-   >   
-   >
+   >Las opciones Mis aprobaciones de hojas de horas y Mis hojas de horas no se muestran en la parte superior de la lista de hojas de horas ni en la lista de filtros si el administrador de Workfront o de un grupo ha eliminado esos filtros de los controles de lista en el área de Configuración o de la plantilla de diseño. Para obtener más información, consulte [Personalizar filtros, vistas y agrupaciones mediante una plantilla de diseño](../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md).
 
 1. (Condicional) Si seleccionó **Mis hojas de horas**, asegúrese de que se aplique la vista **Estándar** y observe la columna **Estado**.
 
@@ -167,10 +154,9 @@ Puede recuperar una hoja de horas que ya se haya enviado para su aprobación. So
 
 Para recuperar una hoja de horas:
 
-1. Haga clic en el icono **Menú principal** ![](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront.
+{{step1-to-timesheets}}
 
-1. Haga clic en **Plantilla de horas**.
-1. Haga clic en **Mis hojas de horas** en la esquina superior derecha de la pantalla o seleccione **Mis hojas de horas** del menú desplegable **Filtrar** ![](assets/filter-nwepng.png).
+1. Haga clic en **Mis hojas de horas** en la esquina superior derecha de la pantalla o seleccione **Mis hojas de horas** del menú desplegable **Filtrar** ![Icono de filtro](assets/filter-nwepng.png).
 1. Haga clic en el lapso de tiempo de una hoja de horas con un estado de **Enviado**.
 1. Haga clic en **Recuperar**.
 

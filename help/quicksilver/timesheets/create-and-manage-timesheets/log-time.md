@@ -10,20 +10,15 @@ exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/9X3rS1inVMen909T07aYLhn3tD1HiwKvzx-uSu8FVN4
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 72ac73dc7ea9ec111a95288d361c554c6364ca93
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: dbb2e1aee18e6435a79ee2071f0bd5ba84ce2af3
 workflow-type: tm+mt
-source-wordcount: 4246
-ht-degree: 84%
+source-wordcount: 4292
+ht-degree: 80%
 
 ---
 
@@ -122,12 +117,12 @@ Puede registrar el tiempo en los siguientes elementos de la plantilla de horas:
 
 Para registrar el tiempo en una plantilla de horas:
 
-{{step1-click-main-menu}}
+{{step1-to-timesheets}}
 
-1. Haga clic en [!UICONTROL **Plantillas de horas**]. La plantilla de horas actual se muestra de forma predeterminada.
-   ![Plantilla de horas](assets/timesheet-layout-leftnav-updated.png)
+La plantilla de horas actual se muestra de forma predeterminada.
+![Plantilla de horas](assets/timesheet-layout-leftnav-updated.png)
 
-1. (Opcional) Haga clic en el icono de **pantalla completa** ![](assets/full-screen.png) para mostrar la plantilla de horas en modo de pantalla completa y, a continuación, haga clic en el icono de **salir de pantalla completa** ![](assets/exit-full-screen.png) para volver a la plantilla de horas.
+1. (Opcional) Haga clic en el icono de **pantalla completa** ![icono de pantalla completa](assets/full-screen.png) para mostrar la hoja de horas en modo de pantalla completa y, a continuación, haga clic en el icono de **salir de pantalla completa** ![salir del icono de pantalla completa](assets/exit-full-screen.png) para regresar a la hoja de horas.
 
    <!-- drafted for the resize columns in timesheet story: 1. (optional) Click on the separator lines between weeks or between the time frame area and the work item area to resize the columns of the timesheet.-->
 
@@ -164,7 +159,7 @@ Para registrar el tiempo en una plantilla de horas:
 
    <!--(ensure this stays accurate)-->
 
-1. (Opcional) Haga clic en los iconos de **Contraer** ![](assets/collapse-icon.png) o **Expandir** ![](assets/expand-icon.png) que aparecen junto al nombre del proyecto para mostrar u ocultar la lista de tareas y problemas del proyecto.
+1. (Opcional) Haga clic en los iconos **Contraer** ![Contraer icono](assets/collapse-icon.png) o **Expandir** ![Expandir icono](assets/expand-icon.png) junto al nombre del proyecto para mostrar u ocultar la lista de tareas y problemas del proyecto.
 
 
    >[!TIP]
@@ -178,7 +173,7 @@ Para registrar el tiempo en una plantilla de horas:
    >     * Mayús + Opción + Flecha abajo para equipos Mac.
 
 
-1. (Opcional) Para fijar manualmente un elemento que se muestra automáticamente en la plantilla de horas, pase el puntero por encima del elemento y, a continuación, haga clic en el icono **fijar**![](assets/empty-pin-icon.png).
+1. (Opcional) Para fijar manualmente un elemento que se muestra automáticamente en la plantilla de horas, pase el ratón sobre el nombre del elemento y luego haga clic en el icono **fijar** ![Fijar icono](assets/empty-pin-icon.png).
 
    >[!TIP]
    >
@@ -186,7 +181,7 @@ Para registrar el tiempo en una plantilla de horas:
    >   * Opción + P para equipos Windows y Mac.
 
 
-1. (Opcional) Haga clic en el icono de búsqueda ![](assets/search-icon.png) y empiece a escribir una palabra clave para encontrar un proyecto, tarea o problema en la plantilla de horas.
+1. (Opcional) Haga clic en el icono de búsqueda ![Icono de búsqueda](assets/search-icon.png) y empiece a escribir una palabra clave para encontrar un proyecto, tarea o problema en la hoja de horas.
 
 1. (Condicional) Si el administrador de Workfront o de grupos ha habilitado la opción **Asignar funciones a las entradas de horas manualmente**, seleccione una función en el menú desplegable. La función especificada cuando se le asigna al elemento de trabajo se muestra de forma predeterminada. Si no se le asigna una función en el objeto, la función principal se muestra como predeterminada. Para obtener más información sobre esta configuración, consulte el artículo [Configurar las preferencias de plantilla de horas y horas](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
 
@@ -214,7 +209,7 @@ Para registrar el tiempo en una plantilla de horas:
    >
    >Considere la posibilidad de añadir una nueva línea para el elemento de trabajo para el que desea registrar tiempo adicional y seleccionar un nuevo tipo de hora, si desea mantener el tipo de hora desactivado asociado con el tiempo registrado anterior.
 
-1. Haga clic en el icono **eliminar** ![](assets/delete.png) que se encuentra junto a la función para quitarlo. También se elimina cualquier tiempo registrado para la función.
+1. Haga clic en el icono **eliminar** ![Eliminar icono](assets/delete.png) que está junto al rol para quitarlo. También se elimina cualquier tiempo registrado para la función.
 
    >[!TIP]
    >
@@ -249,7 +244,7 @@ Para registrar el tiempo en una plantilla de horas:
 
 1. (Opcional) Haga clic en **Comentario** para añadir un comentario a su entrada de horas.
 
-   ![](assets/commment-button-on-hour-log-redesigned-timesheet.png)
+   ![Botón Comentario en la hoja de horas rediseñada para el registro de horas](assets/commment-button-on-hour-log-redesigned-timesheet.png)
 
    >[!TIP]
    >
@@ -352,7 +347,7 @@ Además, para registrar el tiempo de un elemento en el widget Mi trabajo:
 1. Vaya al área de **Inicio**.
 1. Añada el widget **Mi trabajo** a su área de Inicio.
 1. (Opcional) Seleccione una tarea, un problema o una solicitud en una lista y, a continuación, haga clic en **Trabajar en ello**.
-1. Pase el puntero por encima de la tarea o el problema para el que quiera registrar tiempo y luego haga clic en el icono de **Registrar el tiempo**![](assets/log-time-icon-in-new-home.png), a la derecha de la información de la tarea.
+1. Pase el ratón sobre la tarea o el problema para el que quiera registrar el tiempo y luego haga clic en el icono **Registrar tiempo** ![Registrar tiempo](assets/log-time-icon-in-new-home.png), a la derecha de la información de la tarea.
 
    Se muestra el cuadro **Registrar tiempo**.
 
@@ -485,9 +480,9 @@ Para registrar el tiempo en la sección Horas de un proyecto, tarea o problema:
 ### Panel de resumen
 
 Puede registrar tiempo para tareas y problemas en el Panel de resumen.
-Para más información, consulte [Información general del resumen](../../workfront-basics/the-new-workfront-experience/summary-overview.md).
+Para obtener más información, consulte [Información general sobre el resumen](../../workfront-basics/the-new-workfront-experience/summary-overview.md).
 
-![](assets/summary-hour-log.png)
+![Panel de resumen](assets/summary-hour-log.png)
 
 ### Tableros {#boards}
 
@@ -531,7 +526,7 @@ Según el tipo de entradas de hora que edite, los siguientes campos están dispo
   * La descripción de la entrada de horas.
 
 
-  ![](assets/edit-hour-box-project-hour-type.png)
+  ![Cuadro de edición de horas del proyecto](assets/edit-hour-box-project-hour-type.png)
 
 * Cuando edita las horas generales:
 
@@ -545,7 +540,7 @@ Según el tipo de entradas de hora que edite, los siguientes campos están dispo
 
 <!--update the screen shot at production - we should not see the job role field for general hours-->
 
-![](assets/edit-hour-box-general-overhead-hour-type.png)
+![Cuadro de edición general de horas](assets/edit-hour-box-general-overhead-hour-type.png)
 
 
 * Cuando edita una combinación de horas generales y específicas del proyecto, de forma masiva:
@@ -561,13 +556,13 @@ Según el tipo de entradas de hora que edite, los siguientes campos están dispo
 
 <!--update the screen shot at production - we should not see the job role and the hour type fields for mixed hour types-->
 
-![](assets/edit-hour-box-mixed-hour-types-in-bulk.png)
+![Cuadro de edición mixto de horas](assets/edit-hour-box-mixed-hour-types-in-bulk.png)
 
 Para editar los tipos de horas en un informe o una lista de horas:
 
 1. Ir a una lista o informe de horas.
 1. Haga clic en el cuadro situado a la izquierda de una o varias entradas de hora para seleccionarlas.
-1. Haga clic en el **icono Editar** ![](assets/edit-icon.png) en la parte superior de la lista.
+1. Haga clic en el **icono Editar** ![Icono Editar](assets/edit-icon.png) en la parte superior de la lista.
 
    Se abre el cuadro **Editar hora** o **Editar horas**.
 1. Actualice cualquiera de los siguientes campos disponibles:
