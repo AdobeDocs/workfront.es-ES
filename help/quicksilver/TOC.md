@@ -3,10 +3,10 @@ user-guide-title: Guía de Workfront
 user-guide-description: Utilice los siguientes documentos, tutoriales y recursos adicionales para aprender a implementar y utilizar Adobe Workfront de forma eficaz en su organización.
 role: User
 feature-set: Workfront
-source-git-commit: 3e5da889d33a67d9d80b2c978bb47510d49b8259
+source-git-commit: d2c1bf01d27958151c7eeb2c4e5e6daca9eb97c3
 workflow-type: tm+mt
-source-wordcount: '14435'
-ht-degree: 93%
+source-wordcount: '14452'
+ht-degree: 92%
 
 ---
 
@@ -1843,7 +1843,7 @@ ht-degree: 93%
     * [Ejemplos de consultas de Workfront Data Connect](reports-and-dashboards/data-lake/basic-query-examples.md)
     * [Ver métricas de uso de Workfront Data Connect](reports-and-dashboards/data-lake/view-usage-metrics.md)
     * [Usar la vista de datos del historial de trabajos en Data Connect](/help/quicksilver/reports-and-dashboards/data-lake/use-the-job-history-data.md)
-    * [Usar la vista Supervisión de actualizaciones de datos en Data Connect](/help/quicksilver/reports-and-dashboards/data-lake/use-the-monitoring-data-refreshes-view.md)
+    * [Usar la vista Monitorización de actualizaciones de datos en Data Connect](/help/quicksilver/reports-and-dashboards/data-lake/use-the-monitoring-data-refreshes-view.md)
     * Consultas de análisis mejorado{#enhanced-analytics-queries}
       * [Consultas de análisis mejorado](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/enhanced-analytics-queries.md)
       * [Consultas de KPI](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/kpi-queries.md)
@@ -2210,6 +2210,7 @@ ht-degree: 93%
     * [Crear tipos de registro importando información desde un archivo CSV o de Excel](planning/architecture/import-file-to-create-record-types.md)
     * [Información general de tipos de registro entre espacios de trabajo](planning/architecture/cross-workspace-record-types-overview.md)
     * [Configuración de capacidades entre espacios de trabajo para tipos de registros](planning/architecture/configure-record-type-cross-workspace-capabilities.md)
+    * {hide-from-toc}[Configurar reglas empresariales de tipo de registro](planning/architecture/configure-business-rules.md)
     * [Configuración del área Configuración de un tipo de registro](planning/architecture/configure-record-type-settings.md)
     * [Agregar tipos de registros existentes desde otro espacio de trabajo](planning/architecture/add-existing-record-types-from-another-workspace.md)
     * [Información general sobre conectar tipos de registro](planning/architecture/connect-record-types-overview.md)
@@ -2239,6 +2240,7 @@ ht-degree: 93%
     * [Compartir tipos de registro](planning/access/share-record-types.md)
     * [Compartir vistas](planning/access/share-views.md)
     * [Compartir registros](planning/access/share-records.md)
+    * {hide-from-toc}[Compartir campos de Workfront Planning](planning/access/share-fields.md)
     * [Establecer permisos predeterminados para los registros](planning/access/set-default-record-permissions.md)
     * [Solicitar permisos para una vista o un espacio de trabajo](planning/access/request-permissions.md)
   * Registros de Adobe Workfront Planning {#adobe-workfront-planning-records}
@@ -2723,6 +2725,7 @@ ht-degree: 93%
   * [App Builder: índice de artículos](/help/quicksilver/app-builder/app-builder-toc.md)
   * [Adquirir e instalar aplicaciones desde Adobe Exchange](/help/quicksilver/app-builder/install-apps-on-exchange.md)
   * [Creación de aplicaciones personalizadas para Workfront con Adobe App Builder](/help/quicksilver/app-builder/app-builder.md)
+  * {hide-from-toc}[Cree aplicaciones de App Builder con aptitudes para el código Claude](/help/quicksilver/app-builder/build-apps-with-claude-code-skills.md)
 * {hide-from-toc}[Documento de prueba oculto](hidden-test.md)
 * {hide-from-toc}[Ocultar 2](hidden-test-2.md)
 

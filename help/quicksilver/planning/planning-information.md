@@ -26,10 +26,10 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
+source-git-commit: 2d26437c69b3c36366938952d426532934f55c52
 workflow-type: tm+mt
-source-wordcount: 675
-ht-degree: 77%
+source-wordcount: 722
+ht-degree: 72%
 
 ---
 
@@ -58,52 +58,52 @@ Las secciones siguientes contienen artículos que describen en detalle las funci
 
 * [Información de acceso y permiso: el índice del artículo](/help/quicksilver/planning/access/access-information.md) contiene la siguiente información:
 
-   * Licencias de Workfront y permisos de Planning
-   * Planificación de permisos de uso compartido
-   * Compartir vistas
-   * Compartir espacios de trabajo (registros y campos)
-   * Compartir tipos de registros (registros y campos)
-   * Compartir registros
+  * Licencias de Workfront y permisos de Planning
+  * Planificación de permisos de uso compartido
+  * Compartir vistas
+  * Compartir espacios de trabajo (registros y campos)
+  * Compartir tipos de registros (registros y campos)
+  * Compartir registros
 
 * [Arquitectura: el índice de artículos](/help/quicksilver/planning/architecture/architecture-information.md) contiene la siguiente información:
 
-   * Crear, editar y eliminar espacios de trabajo
-   * Crear, editar y eliminar tipos de registros
-   * Crear tipos de registros globales
-   * Conectar tipos de registros y ejemplos de tipos de registros de conexión
-   * Plantillas de espacio de trabajo
+  * Crear, editar y eliminar espacios de trabajo
+  * Crear, editar y eliminar tipos de registros
+  * Crear tipos de registros globales
+  * Conectar tipos de registros y ejemplos de tipos de registros de conexión
+  * Plantillas de espacio de trabajo
 
 * [Campos: el índice de artículos](/help/quicksilver/planning/fields/fields-information.md) contiene la siguiente información:
 
-   * Crear, editar y eliminar campos
-   * Campos de fórmula
-   * Campos principales
+  * Crear, editar y eliminar campos
+  * Campos de fórmula
+  * Campos principales
 
 * [Registros: el índice de artículos](/help/quicksilver/planning/records/records-information.md) contiene la siguiente información:
 
-   * Puede crear, editar y eliminar registros
-   * Conectar registros
-   * Añadir una imagen de portada o una miniatura a un registro
-   * Administrar el diseño de una página de registro
-   * Registrar comentarios y sección Historial
-   * Compartir registros
-   * Administrar registros de Workfront Planning desde Workfront
+  * Puede crear, editar y eliminar registros
+  * Conectar registros
+  * Añadir una imagen de portada o una miniatura a un registro
+  * Administrar el diseño de una página de registro
+  * Registrar comentarios y sección Historial
+  * Compartir registros
+  * Administrar registros de Workfront Planning desde Workfront
 
 * [Solicitudes de Adobe Workfront Planning: el índice de artículos](/help/quicksilver/planning/requests/requests-article-index.md) contiene la siguiente información:
 
-   * Cómo crear un formulario de solicitud para un tipo de registro.
-   * Cómo los usuarios pueden enviar una solicitud a un formulario de solicitud de tipo de registro y crear registros.
+  * Cómo crear un formulario de solicitud para un tipo de registro.
+  * Cómo los usuarios pueden enviar una solicitud a un formulario de solicitud de tipo de registro y crear registros.
 
 * [Vistas: el índice de artículos](/help/quicksilver/planning/views/views-information.md) contiene la siguiente información:
 
-   * Crear vistas de registros
-   * Administrar las vistas de tabla, cronologías y calendario
+  * Crear vistas de registros
+  * Administrar las vistas de tabla, cronologías y calendario
 
 * [Notificaciones: el índice de artículos](/help/quicksilver/planning/notifications/notifications-information.md) contiene la siguiente información:
 
-   * Administrar preferencias de las notificaciones
-   * Planificar notificaciones en la aplicación
-   * Bloquear las notificaciones por correo electrónico
+  * Administrar preferencias de las notificaciones
+  * Planificar notificaciones en la aplicación
+  * Bloquear las notificaciones por correo electrónico
 
 ## Funciones adicionales disponibles para Workfront Planning
 
@@ -112,6 +112,8 @@ Las secciones siguientes contienen artículos que describen en detalle las funci
 * [Módulos de Adobe Workfront Planning para Workfront Fusion](https://experienceleague.adobe.com/es/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-planning-modules): Con los módulos de Adobe Workfront Planning, puede activar un escenario cuando se produzcan eventos en Workfront Planning. También puede crear, leer, actualizar y eliminar registros, o realizar una llamada de API personalizada a su cuenta de Adobe Workfront Planning.
 
 * [Información general del Asistente de IA de Adobe Workfront Planning](/help/quicksilver/planning/general/planning-ai-assistant-overview.md): con el asistente de IA de Workfront Planning puede buscar registros o crear, actualizar y eliminar registros mediante comandos y dejar que el asistente haga el trabajo por usted.
+
+* [Usar el servidor MCP de Workfront para objetos de Planning](/help/quicksilver/workfront-basics/workfront-mcp-server/use-workfront-mcp-server.md): El servidor MCP de Adobe Workfront le permite buscar, crear, actualizar y administrar elementos de Workfront solicitando una plataforma auténtica de IA en lenguaje natural. La plataforma decide qué acciones de Workfront llamar y gestiona la conversación con Workfront por usted.
 
 * [Configurar automatizaciones de Adobe Workfront Planning](/help/quicksilver/planning/records/configure-automations-to-create-records.md): puede configurar automatizaciones en Adobe Workfront Planning que, cuando se activen, creen objetos en Workfront o registros en Workfront Planning cuando se activen a partir de un registro de Planning.
 
