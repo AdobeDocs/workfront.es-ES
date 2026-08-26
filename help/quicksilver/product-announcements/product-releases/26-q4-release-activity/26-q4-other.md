@@ -4,9 +4,9 @@ description: Otras mejoras durante el periodo de lanzamiento del cuarto trimestr
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 1dd8ab20d11b2b4471308ac5402b31e20359a04c
+source-git-commit: 723c5ce69f0e457dfd8e3d230e451a41b655603e
 workflow-type: tm+mt
-source-wordcount: '295'
+source-wordcount: '368'
 ht-degree: 6%
 
 ---
@@ -17,11 +17,23 @@ Esta página describe las mejoras realizadas con la versión del cuarto trimestr
 
 Para obtener una lista de todos los cambios disponibles en este punto del ciclo de la versión del cuarto trimestre de 2026, consulte [Información general de la versión del cuarto trimestre de 2026](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-release-overview.md).
 
+## Los metadatos de C2PA se conservan en los archivos
+
+>[!NOTE]
+>
+>Producción para todos: 26 de agosto de 2026
+
+Adobe Workfront conserva los metadatos de C2PA de los documentos que se cargan, almacenan y descargan, sin modificarlos.
+
+Para obtener más información, consulte [Metadatos de C2PA en Adobe Workfront](/help/quicksilver/documents/c2pa-metadata-overview.md).
+
 ## Actualización de la interfaz de los iconos del panel de navegación izquierdo
 
 >[!NOTE]
 >
->Vista previa: 30 de julio de 2026>Producción para todos: 13 de agosto de 2026>[!BADGE Fuera de horario]{type=Neutral}
+>Vista previa: 30 de julio de 2026
+>Producción para todos: 13 de agosto de 2026
+>[!BADGE Fuera del horario]{type=Neutral}
 
 Hemos actualizado el aspecto de los iconos del panel de navegación izquierdo de Workfront para proporcionar un diseño moderno y una experiencia coherente con otras aplicaciones de Adobe. No se ha cambiado ninguna funcionalidad.
 
@@ -33,7 +45,9 @@ Para obtener más información, consulte [Navegación izquierda en Adobe Workfro
 
 >[!NOTE]
 >
->Vista previa: 30 de julio de 2026>Versión rápida de producción: 13 de agosto de 2026>Producción para todos: 15 de octubre de 2026
+>Vista previa: 30 de julio de 2026
+>Versión rápida de producción: 13 de agosto de 2026
+>Producción para todos: 15 de octubre de 2026
 
 Se han realizado varias actualizaciones en las listas mejoradas:
 
@@ -46,7 +60,9 @@ Para obtener más información, consulte [Usar listas mejoradas](/help/quicksilv
 
 >[!NOTE]
 >
->Vista previa: 30 de julio de 2026>Versión rápida de producción: 13 de agosto de 2026>Producción para todos: 15 de octubre de 2026
+>Vista previa: 30 de julio de 2026
+>Versión rápida de producción: 13 de agosto de 2026
+>Producción para todos: 15 de octubre de 2026
 
 Cuando pasa el ratón sobre la ruta de exploración de un objeto, ahora puede copiar su nombre y vincular en una acción. Esto acelera el uso compartido de objetos en Slack, correo electrónico u otras herramientas, sin copiar el nombre y la dirección URL por separado.
 
