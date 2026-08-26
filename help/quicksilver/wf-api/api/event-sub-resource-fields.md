@@ -10,18 +10,13 @@ exl-id: 54859930-7619-4b93-8dff-29b10e43d6d5
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/hh29aBbro-DwPrAr8UQSO-0L-HFZAYiLC9bzmi7oKrs
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
-source-git-commit: 7c4ce7371666033fbb5c86193e75e7f79f46654c
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: d095671a-1355-40aa-8b5f-06c33c68080bid: f8667931-f646-4dd3-af2a-b9d0cb8098ad
+source-git-commit: 388af1150be6381f613fb69eb1cbef9c0872138e
 workflow-type: tm+mt
-source-wordcount: 1078
-ht-degree: 77%
+source-wordcount: 1184
+ht-degree: 76%
 
 ---
 
@@ -227,6 +222,11 @@ En la tabla siguiente se enumeran los campos disponibles para los recursos de su
   <tr> 
    <td> </td> 
    <td> </td> 
+   <td>realRequesterID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
    <td> realUserID </td> 
   </tr> 
   <tr> 
@@ -405,6 +405,46 @@ En la tabla siguiente se enumeran los campos disponibles para los recursos de su
    <td> </td> 
    <td>workRequired</td> 
   </tr> 
+  <tr> 
+   <td>Reserva</td> 
+   <td>RESERVA</td> 
+   <td>accessorIDs</td> 
+  </tr> 
+  <tr><td> </td><td> </td><td>actualCompletionDate</td></tr> 
+  <tr><td> </td><td> </td><td>actualCost</td></tr> 
+  <tr><td> </td><td> </td><td>actualHours</td></tr> 
+  <tr><td> </td><td> </td><td>actualRevenue</td></tr> 
+  <tr><td> </td><td> </td><td>actualStartDate</td></tr> 
+  <tr><td> </td><td> </td><td>categoryID</td></tr> 
+  <tr><td> </td><td> </td><td>customerID</td></tr> 
+  <tr><td> </td><td> </td><td>descripción</td></tr> 
+  <tr><td> </td><td> </td><td>enteredByID</td></tr> 
+  <tr><td> </td><td> </td><td>entryDate</td></tr> 
+  <tr><td> </td><td> </td><td>ID</td></tr> 
+  <tr><td> </td><td> </td><td>isBillable</td></tr> 
+  <tr><td> </td><td> </td><td>isClosed</td></tr> 
+  <tr><td> </td><td> </td><td>isOvertime</td></tr> 
+  <tr><td> </td><td> </td><td>lastUpdateDate</td></tr> 
+  <tr><td> </td><td> </td><td>lastUpdatedByID</td></tr> 
+  <tr><td> </td><td> </td><td>nlbrCategoryID</td></tr> 
+  <tr><td> </td><td> </td><td>nonLaborResourceID</td></tr> 
+  <tr><td> </td><td> </td><td>objCode</td></tr> 
+  <tr><td> </td><td> </td><td>overtimeRatio</td></tr> 
+  <tr><td> </td><td> </td><td>parameterValues</td></tr> 
+  <tr><td> </td><td> </td><td>plannedCompletionDate</td></tr> 
+  <tr><td> </td><td> </td><td>plannedCost</td></tr> 
+  <tr><td> </td><td> </td><td>plannedHours</td></tr> 
+  <tr><td> </td><td> </td><td>plannedRevenue</td></tr> 
+  <tr><td> </td><td> </td><td>plannedStartDate</td></tr> 
+  <tr><td> </td><td> </td><td>projectID</td></tr> 
+  <tr><td> </td><td> </td><td>referenceObjectName</td></tr> 
+  <tr><td> </td><td> </td><td>resourceAliasName</td></tr> 
+  <tr><td> </td><td> </td><td>securityRootID</td></tr> 
+  <tr><td> </td><td> </td><td>securityRootObjCode</td></tr> 
+  <tr><td> </td><td> </td><td>seriesID</td></tr> 
+  <tr><td> </td><td> </td><td>estado</td></tr> 
+  <tr><td> </td><td> </td><td>statusEquatesWith</td></tr> 
+  <tr><td> </td><td> </td><td>taskID</td></tr> 
   <tr> 
    <td>Compañía</td> 
    <td>CMPY</td> 
@@ -818,6 +858,11 @@ En la tabla siguiente se enumeran los campos disponibles para los recursos de su
    <td> </td> 
    <td> </td> 
    <td>proyecto: portfolioID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>proyecto:estado</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -1572,6 +1617,11 @@ En la tabla siguiente se enumeran los campos disponibles para los recursos de su
   <tr> 
    <td> </td> 
    <td> </td> 
+   <td>plannedStartDate</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
    <td>prioridad</td> 
   </tr> 
   <tr> 
@@ -1582,7 +1632,27 @@ En la tabla siguiente se enumeran los campos disponibles para los recursos de su
   <tr> 
    <td> </td> 
    <td> </td> 
+   <td>proyecto:idDePrograma</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>proyecto: portfolioID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>proyecto:estado</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
    <td>queueDefID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>queueTopicBreadcrumb</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -1669,6 +1739,49 @@ En la tabla siguiente se enumeran los campos disponibles para los recursos de su
    <td> </td> 
    <td>workflowAutomationID</td> 
   </tr> 
+  <tr> 
+   <td>Categoría no laboral</td> 
+   <td>NLBRCY</td> 
+   <td>categoryID</td> 
+  </tr> 
+  <tr><td> </td><td> </td><td>customerID</td></tr> 
+  <tr><td> </td><td> </td><td>descripción</td></tr> 
+  <tr><td> </td><td> </td><td>enteredByID</td></tr> 
+  <tr><td> </td><td> </td><td>entryDate</td></tr> 
+  <tr><td> </td><td> </td><td>ID</td></tr> 
+  <tr><td> </td><td> </td><td>isActive</td></tr> 
+  <tr><td> </td><td> </td><td>isBookable</td></tr> 
+  <tr><td> </td><td> </td><td>lastUpdateDate</td></tr> 
+  <tr><td> </td><td> </td><td>lastUpdatedByID</td></tr> 
+  <tr><td> </td><td> </td><td>measurementUnit</td></tr> 
+  <tr><td> </td><td> </td><td>name</td></tr> 
+  <tr><td> </td><td> </td><td>objCode</td></tr> 
+  <tr><td> </td><td> </td><td>parameterValues</td></tr> 
+  <tr><td> </td><td> </td><td>scheduleID</td></tr> 
+  <tr><td> </td><td> </td><td>uniqueIdentifier</td></tr> 
+  <tr> 
+   <td>Recurso no laboral</td> 
+   <td>NLBR</td> 
+   <td>avatarDate</td> 
+  </tr> 
+  <tr><td> </td><td> </td><td>avatarDownloadURL</td></tr> 
+  <tr><td> </td><td> </td><td>categoryID</td></tr> 
+  <tr><td> </td><td> </td><td>customerID</td></tr> 
+  <tr><td> </td><td> </td><td>descripción</td></tr> 
+  <tr><td> </td><td> </td><td>enteredByID</td></tr> 
+  <tr><td> </td><td> </td><td>entryDate</td></tr> 
+  <tr><td> </td><td> </td><td>homeGroupID</td></tr> 
+  <tr><td> </td><td> </td><td>ID</td></tr> 
+  <tr><td> </td><td> </td><td>isActive</td></tr> 
+  <tr><td> </td><td> </td><td>lastUpdateDate</td></tr> 
+  <tr><td> </td><td> </td><td>lastUpdatedByID</td></tr> 
+  <tr><td> </td><td> </td><td>measurementUnit</td></tr> 
+  <tr><td> </td><td> </td><td>name</td></tr> 
+  <tr><td> </td><td> </td><td>nlbrCategoryID</td></tr> 
+  <tr><td> </td><td> </td><td>objCode</td></tr> 
+  <tr><td> </td><td> </td><td>parameterValues</td></tr> 
+  <tr><td> </td><td> </td><td>scheduleID</td></tr> 
+  <tr><td> </td><td> </td><td>uniqueIdentifier</td></tr> 
   <tr> 
    <td>Nota</td> 
    <td>NOTA</td> 
@@ -1823,6 +1936,11 @@ En la tabla siguiente se enumeran los campos disponibles para los recursos de su
    <td> </td> 
    <td> </td> 
    <td>subject</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>etiquetas</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -2157,7 +2275,7 @@ En la tabla siguiente se enumeran los campos disponibles para los recursos de su
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>lastUpatedByID</td> 
+   <td>lastUpdatedByID</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -2188,6 +2306,11 @@ En la tabla siguiente se enumeran los campos disponibles para los recursos de su
    <td> </td> 
    <td> </td> 
    <td>plannedCompletionDate</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>plannedStartDate</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -3149,6 +3272,11 @@ En la tabla siguiente se enumeran los campos disponibles para los recursos de su
   <tr> 
    <td> </td> 
    <td> </td> 
+   <td>numberOfChildren</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
    <td>objCode</td> 
   </tr> 
   <tr> 
@@ -3165,6 +3293,11 @@ En la tabla siguiente se enumeran los campos disponibles para los recursos de su
    <td> </td> 
    <td> </td> 
    <td>plannedCompletionDate</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>plannedStartDate</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -3246,6 +3379,21 @@ En la tabla siguiente se enumeran los campos disponibles para los recursos de su
    <td> </td> 
    <td>workflowAutomationID</td> 
   </tr> 
+  <tr> 
+   <td>Equipo</td> 
+   <td>TEAMOB</td> 
+   <td>customerID</td> 
+  </tr> 
+  <tr><td> </td><td> </td><td>descripción</td></tr> 
+  <tr><td> </td><td> </td><td>entryDate</td></tr> 
+  <tr><td> </td><td> </td><td>groupID</td></tr> 
+  <tr><td> </td><td> </td><td>ID</td></tr> 
+  <tr><td> </td><td> </td><td>lastUpdateDate</td></tr> 
+  <tr><td> </td><td> </td><td>lastUpdatedByID</td></tr> 
+  <tr><td> </td><td> </td><td>name</td></tr> 
+  <tr><td> </td><td> </td><td>objCode</td></tr> 
+  <tr><td> </td><td> </td><td>ownerID</td></tr> 
+  <tr><td> </td><td> </td><td>parameterValues</td></tr> 
   <tr> 
    <td>Plantilla</td> 
    <td>TMPL</td> 
