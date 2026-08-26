@@ -7,18 +7,14 @@ author: Luke
 feature: Product Announcements
 exl-id: a9922e91-c58c-4c25-968c-ab70fa8d8916
 TQID: https://experienceleague.adobe.com/2bKYtYhiGw8dEAx07-yHofb-jxx-dLlP6IjuHsukRQA
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 3a1bfdf05bd64586fb4274995075031065a0b5da
 workflow-type: tm+mt
-source-wordcount: 244
-ht-degree: 4%
+source-wordcount: 240
+ht-degree: 5%
 
 ---
 
@@ -34,16 +30,19 @@ Los mensajes del Centro de anuncios son mensajes que Adobe Workfront envía a la
 
 Para cancelar la suscripción a la recepción de mensajes del Centro de anuncios:
 
-1. Haga clic en el icono numerado ![Icono de notificaciones](assets/notifications-icon-jewel.jpg) en la esquina superior derecha de Workfront para abrir la lista de notificaciones.
-1. Haga clic en **Todos los anuncios** en la parte inferior de la lista.
+1. Haga clic en el icono numerado en la esquina superior derecha de Workfront para abrir la lista de notificaciones y, a continuación, haga clic en **Todos los anuncios** en la parte inferior de la lista.
 
-   Aparecerá la página **Anuncios** con todos sus anuncios.
+   ![Icono de notificaciones](assets/notifications-icon-jewel.png)
 
-   ![Página de anuncios](assets/announcements-page-qs-350x210.png)
 
-1. Haga clic en **Configuración** en la esquina superior derecha de la página Anuncios y, a continuación, seleccione **Nuevas versiones** o **Formación**, según el tipo de anuncios que ya no desee recibir.
+1. Haga clic en **Configuración** en la esquina superior derecha de la página Anuncios,
 
-   ![Configuración del centro de anuncios](assets/announcementcenter-settings-350x187.png)
+   ![Página de anuncios](assets/ac-page.png)
+
+
+1. En el cuadro de diálogo **Configuración del Centro de anuncios**, anule la selección de la casilla de verificación del tipo de mensajes del Centro de anuncios desde los que desea cancelar la suscripción.
+
+   ![Configuración del centro de anuncios](assets/ac-settings.png)
 
 1. Haga clic en **Guardar configuración**.
 

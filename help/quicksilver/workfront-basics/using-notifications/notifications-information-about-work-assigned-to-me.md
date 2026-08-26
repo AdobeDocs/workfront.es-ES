@@ -7,15 +7,12 @@ author: Courtney
 feature: Get Started with Workfront
 exl-id: 5d7fdee8-cb5c-4ab8-bec3-beff9851b8f6
 TQID: https://experienceleague.adobe.com/OcJcSh-I9--ZGuigzsTnIOh5r9U55JRlLcj7gymp7wA
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 1135856bf97f6607ad57cf539bdff688b49bf476
 workflow-type: tm+mt
-source-wordcount: 2016
+source-wordcount: 2012
 ht-degree: 18%
 
 ---
@@ -59,7 +56,7 @@ Consulte también [Notificaciones de eventos](../../workfront-basics/using-notif
   -->
   <tr> 
    <td> <p><strong>Se aprueba o rechaza una tarea que finalizo</strong> </p> <p>El usuario a quien le han asignado la tarea recibe una notificación por correo electrónico cuando se aprueba o rechaza la tarea.</p> <p>Se envía una notificación solo si el estado del proyecto es Actual.</p> <p>Los usuarios con una licencia de [!UICONTROL Review] o [!UICONTROL Requestor] no reciben ninguna notificación.</p> <p>El asunto del mensaje de correo electrónico de notificación instantánea es: <em>[!UICONTROL Complete]: &lt;Nombre de tarea&gt; en &lt;Nombre de proyecto&gt;</em></p> <p> El asunto de la notificación de resumen diario es: <em> [!UICONTROL Resumen del trabajo asignado a usted] &lt;Fecha del resumen diario&gt; </em></p> </td> 
-   <td> Nombre de tarea<br>Nombre de proyecto<br>Número de referencia de tarea<br>Nombre del usuario que concedió la aprobación<br>Nuevo estado de la tarea<br>Fecha y hora en que se aprobó o rechazó la tarea<br>Estado de la tarea anterior<br><strong>[!UICONTROL Ver más detalles]</strong> button<br>*Nombre del proyecto<br>*Número de referencia del proyecto<br>*Número total de tareas aprobadas o rechazadas<br>*Nombre de tarea<br>*Nombre del usuario que aprobó o rechazó la tarea<br>*Decisión de aprobación ([!UICONTROL aprobada]/[Rechazado])<br>*Fecha del resumen diario<br></td> 
+   <td> Nombre de tarea<br>Nombre de proyecto<br>Número de referencia de tarea<br>Nombre del usuario que concedió la aprobación<br>Nuevo estado de la tarea<br>Fecha y hora en que se aprobó o rechazó la tarea<br>Estado de la tarea anterior<br><strong>[!UICONTROL Ver más detalles]</strong> button<br>*Nombre del proyecto<br>*Número de referencia del proyecto<br>*Número total de tareas aprobadas o rechazadas<br>*Nombre de tarea<br>*Nombre del usuario que aprobó o rechazó la tarea<br>*Decisión de aprobación ([!UICONTROL aprobada]/[!UICONTROL [Rechazado])<br>*Fecha del resumen diario<br></td> 
    <td><strong>Diariamente</strong> </td> 
   </tr> 
   <tr> 
@@ -68,18 +65,18 @@ Consulte también [Notificaciones de eventos](../../workfront-basics/using-notif
    <td><strong>Diariamente</strong> </td> 
   </tr>
   <tr data-mc-conditions=""> 
-   <td> <p><strong>Se han finalizado todas las tareas predecesoras de una tarea asignada a mi equipo</strong> </p> <p>El equipo asignado recibe una notificación por correo electrónico cuando una tarea predecesora de una de sus tareas se marca como completada.</p> <p>Los usuarios con una licencia de revisión o solicitante no reciben ninguna notificación.</p> <p>El asunto del correo electrónico de notificación instantánea es: <em>Tarea completada: &lt;Nombre&gt;</em></p> <p> El asunto de la notificación de resumen diario es: <em> Resumen del trabajo asignado a usted &lt;Fecha del resumen diario&gt; </em></p> </td> 
+   <td> <p><strong>Se han finalizado todas las tareas predecesoras de una tarea asignada a mi equipo</strong> </p> <p>El equipo asignado recibe una notificación por correo electrónico cuando una tarea predecesora de una de sus tareas se marca como completada.</p> <p>Los usuarios con una licencia externa no reciben una notificación.</p> <p>El asunto del correo electrónico de notificación instantánea es: <em>Tarea completada: &lt;Nombre&gt;</em></p> <p> El asunto de la notificación de resumen diario es: <em> Resumen del trabajo asignado a usted &lt;Fecha del resumen diario&gt; </em></p> </td> 
    <td> Nombre de tarea<br>Proyecto de tarea<br>Número de referencia de la tarea<br>Nombre del usuario que completó la tarea predecesora<br>Estado de la tarea predecesora<br>Fecha y hora en que se completó el predecesor<br>Estado anterior de la tarea predecesora<br><strong>Ver más detalles</strong> button<br>*Nombre del proyecto<br>*Número de referencia del proyecto<br>*Número total de tareas completadas<br>*Nombre de tarea<br>*Nombre del usuario que completó la tarea<br>*Fecha del resumen diario </td>
    <td><strong>Instantáneo</strong> </td> 
   </tr>
   <!--
   <tr data-mc-conditions=""> 
-   <td> <p><strong>All predecessors of a task assigned to my team are completed</strong> </p> <p>The assigned team receives an email notification when a predecessor of one of their tasks is marked complete.</p> <p>Users with a Review or Requestor license do not receive a notification.</p> <p>The subject of the instant notification email is: <em>Task Complete: &lt;Name&gt;</em></p> <p> The subject of the daily digest notification is: <em> Digest of Work Assigned to You &lt;Date of daily digest&gt; </em></p> </td> 
+   <td> <p><strong>All predecessors of a task assigned to my team are completed</strong> </p> <p>The assigned team receives an email notification when a predecessor of one of their tasks is marked complete.</p> <p>Users with an external license do not receive a notification.</p> <p>The subject of the instant notification email is: <em>Task Complete: &lt;Name&gt;</em></p> <p> The subject of the daily digest notification is: <em> Digest of Work Assigned to You &lt;Date of daily digest&gt; </em></p> </td> 
    <td> <p>Assigned by</p> <p>Task Name</p> <p>View button</p> <p>Parent tasks</p> <p>Assignees</p> <p>Task status</p> <p>Task description</p> <p>Task Reference Number</p> <p> <br>Completed predecessor tasks </p> <p>Name of the user who completed the predecessor task<br>Date when the predecessor was completed</p> <p>View button<br>Option to add to the daily digest<br></p> </td> 
    <td><strong>Instant</strong> </td> 
   </tr>
    <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-    <td> <p><strong>All predecessors of a task assigned to my team are completed</strong> </p> <p>The team assigned receives an email notification for each predecessor that is marked complete. </p> <p>Users with a Review or Requestor license do not receive a notification.</p> <p>The subject of the instant notification email is: <em>Complete: &lt;Task Name&gt;</em><br></p> <p> The subject of the daily digest notification is: <em> Digest of Work Assigned to You &lt;Date of daily digest&gt; </em></p> </td> 
+    <td> <p><strong>All predecessors of a task assigned to my team are completed</strong> </p> <p>The team assigned receives an email notification for each predecessor that is marked complete. </p> <p>Users with an external license do not receive a notification.</p> <p>The subject of the instant notification email is: <em>Complete: &lt;Task Name&gt;</em><br></p> <p> The subject of the daily digest notification is: <em> Digest of Work Assigned to You &lt;Date of daily digest&gt; </em></p> </td> 
     <td> Task Name<br>Task Project<br>Task Reference Number<br>Name of the user who completed the predecessor task<br>Status of the predecessor task<br>Date and Time when the predecessor was completed<br>Previous Status of the predecessor task<br><strong>See More Details</strong> button<br>*Project Name<br>*Project Reference Number<br>*Total number of tasks completed<br>*Task Name<br>*Name of the user who completed the task<br>*Date of daily digest </td> 
     <td><strong>Instant</strong> </td> 
    </tr>
@@ -91,7 +88,7 @@ Consulte también [Notificaciones de eventos](../../workfront-basics/using-notif
   </tr>
   <!--
    <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-    <td> <p><strong>All predecessors of my tasks are completed</strong> </p> <p>The task assignee receives an email notification for each predecessor that is completed.</p> <p>Users with a Review or Requestor license do not receive a notification.</p> <p>The subject of the instant notification email is: <em>Complete: &lt;Task Name&gt;</em><br></p> <p> The subject of the daily digest notification is: <em> Digest of Work Assigned to You &lt;Date of daily digest&gt; </em></p> </td> 
+    <td> <p><strong>All predecessors of my tasks are completed</strong> </p> <p>The task assignee receives an email notification for each predecessor that is completed.</p> <p>Users with an external license do not receive a notification.</p> <p>The subject of the instant notification email is: <em>Complete: &lt;Task Name&gt;</em><br></p> <p> The subject of the daily digest notification is: <em> Digest of Work Assigned to You &lt;Date of daily digest&gt; </em></p> </td> 
     <td> Task Name<br>Task Project<br>Task Reference Number<br>Name of the user who completed the predecessor task<br>Status of the predecessor task<br>Date and Time when the predecessor was completed<br>Previous Status of the predecessor task<br><strong>See More Details</strong> button<br>*Project Name<br>*Project Reference Number<br>*Total number of tasks completed<br>*Task Name<br>*Name of the user who completed the task<br>*Date of daily digest </td> 
     <td><strong>Instant</strong> </td> 
    </tr>
@@ -112,13 +109,13 @@ Consulte también [Notificaciones de eventos](../../workfront-basics/using-notif
    <td><strong>Diariamente</strong> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>Cambio de fecha límite de una tarea que tengo asignada</strong> </p> <p>El usuario asignado a la tarea recibe una notificación por correo electrónico cuando cambia la [!UICONTROL Fecha planificada de finalización] de la tarea, a menos que el usuario que cambió la fecha planificada de finalización también sea el usuario asignado a la tarea.</p> <p>Solo se envía una notificación si el estado del proyecto no es [!UICONTROL Planning].</p> <p>No se envía ninguna notificación con respecto a las tareas personales.</p> <p> Los usuarios con una licencia de revisión o solicitante no reciben ninguna notificación. </p> <p> El asunto del correo electrónico de notificación instantánea es: <em>[!UICONTROL La fecha de vencimiento se ha cambiado.]</em></p> <p> El asunto de la notificación de resumen diario es: <em> [!UICONTROL Resumen del trabajo asignado a usted] &lt;Fecha del resumen diario&gt; </em></p> </td> 
+   <td> <p><strong>Cambio de fecha límite de una tarea que tengo asignada</strong> </p> <p>El usuario asignado a la tarea recibe una notificación por correo electrónico cuando cambia la [!UICONTROL Fecha planificada de finalización] de la tarea, a menos que el usuario que cambió la fecha planificada de finalización también sea el usuario asignado a la tarea.</p> <p>Solo se envía una notificación si el estado del proyecto no es [!UICONTROL Planning].</p> <p>No se envía ninguna notificación con respecto a las tareas personales.</p> <p> Los usuarios con una licencia externa no reciben una notificación. </p> <p> El asunto del correo electrónico de notificación instantánea es: <em>[!UICONTROL La fecha de vencimiento se ha cambiado.]</em></p> <p> El asunto de la notificación de resumen diario es: <em> [!UICONTROL Resumen del trabajo asignado a usted] &lt;Fecha del resumen diario&gt; </em></p> </td> 
    <td> Nombre de tarea<br>Nombre de proyecto<br>Número de referencia de tarea<br>Nueva fecha de vencimiento ([!UICONTROL Fecha planificada de finalización])<br>Fecha y hora en que se cambió la fecha de vencimiento<br>Nombre del usuario que cambió la fecha de vencimiento<br>*Nombre del proyecto<br>*Número de referencia del proyecto<br>*Número total de tareas en las que cambió la fecha de vencimiento (fecha planificada de finalización)<br>*Nombre de tarea<br>*Nueva fecha planificada de finalización<br>*Nombre del usuario que cambió la fecha de vencimiento<br>*Fecha de resumen diario </td> 
    <td> <p><strong>Instantáneo</strong> </p> <p><strong>y diario</strong> </p> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>Cambia la fecha límite de un problema al que estoy asignado</strong> </p> <p>El usuario asignado del problema recibe una notificación por correo electrónico cuando cambia la fecha planificada de finalización de , a menos que el usuario que cambió la fecha planificada de finalización de  también sea el usuario asignado.</p> <p>Solo se envía una notificación si el estado del proyecto no es [!UICONTROL Planning].</p> <p>Los usuarios con una licencia de [!UICONTROL Review] o [!UICONTROL Requestor] no reciben ninguna notificación.</p> <p>El asunto del correo electrónico de notificación instantánea es: <em>[!UICONTROL La fecha de vencimiento se ha cambiado]</em></p> <p> </p> <p> El asunto de la notificación de resumen diario es: <em> [!UICONTROL Resumen del trabajo asignado a usted] &lt;Fecha del resumen diario&gt;</em></p> </td> 
-   <td> <p>Nombre del problema<br>Nombre del proyecto<br>Número de referencia del problema<br>Nueva fecha de vencimiento ([!UICONTROL Fecha planificada de finalización])<br>Fecha y hora en que se cambió la fecha de vencimiento<br>Nombre del usuario que cambió la fecha de vencimiento<br>*Nombre del proyecto<br>*Número de referencia del proyecto<br>*Número total de problemas en los que cambió la fecha de vencimiento ([!UICONTROL Fecha planificada de finalización])<br>*Nombre del problema<br>*Nueva fecha planificada de <br>*Nombre del usuario que cambió la fecha de vencimiento<br> el resumen diario<br></p> </td> 
+   <td> <p><strong>Cambia la fecha límite de un problema al que estoy asignado</strong> </p> <p>El usuario asignado del problema recibe una notificación por correo electrónico cuando cambia la fecha planificada de finalización de [!UICONTROL], a menos que el usuario que cambió la fecha planificada de finalización de [!UICONTROL] también sea el usuario asignado.</p> <p>Solo se envía una notificación si el estado del proyecto no es [!UICONTROL Planning].</p> <p>Los usuarios con una licencia de [!UICONTROL Review] o [!UICONTROL Requestor] no reciben ninguna notificación.</p> <p>El asunto del correo electrónico de notificación instantánea es: <em>[!UICONTROL La fecha de vencimiento se ha cambiado]</em></p> <p> </p> <p> El asunto de la notificación de resumen diario es: <em> [!UICONTROL Resumen del trabajo asignado a usted] &lt;Fecha del resumen diario&gt;</em></p> </td> 
+   <td> <p>Nombre del problema<br>Nombre del proyecto<br>Número de referencia del problema<br>Nueva fecha de vencimiento ([!UICONTROL Fecha planificada de finalización])<br>Fecha y hora en que se cambió la fecha de vencimiento<br>Nombre del usuario que cambió la fecha de vencimiento<br>*Nombre del proyecto<br>*Número de referencia del proyecto<br>*Número total de problemas en los que cambió la fecha de vencimiento ([!UICONTROL Fecha planificada de finalización])<br>*Nombre del problema<br>*Nueva fecha planificada de [!UICONTROL]<br>*Nombre del usuario que cambió la fecha de vencimiento<br> el resumen diario<br></p> </td> 
    <td> <p><strong>Instantáneo</strong> </p> <p><strong>y diario</strong> </p> </td> 
   </tr> 
   <tr> 
