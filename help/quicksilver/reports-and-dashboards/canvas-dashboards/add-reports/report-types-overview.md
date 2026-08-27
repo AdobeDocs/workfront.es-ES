@@ -11,10 +11,10 @@ hide: true
 exl-id: d593a9d5-6351-48ff-891d-cc1b727188bc
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 38bd7ce267efba60652825dd6185f8aa72023d79
+source-git-commit: aced2514a18895ff61514325ba08a2af6fe48212
 workflow-type: tm+mt
-source-wordcount: '110'
-ht-degree: 80%
+source-wordcount: '113'
+ht-degree: 77%
 
 ---
 
@@ -30,4 +30,5 @@ Hay varios informes diferentes que puede añadir a un panel de control de lienzo
 * Informes de gráficos (incluye gráficos de barras, de columnas, de líneas y circulares)
 * Informes de KPI
 * Informes de tabla
+* Informes de tabla dinámica
 * Informes de aprobaciones pendientes

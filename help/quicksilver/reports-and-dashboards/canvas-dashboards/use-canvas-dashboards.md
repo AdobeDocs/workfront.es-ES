@@ -10,15 +10,12 @@ exl-id: 25f045d9-a291-423d-81ee-6fbd2fb12607
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/iUA66WzGxCmngVNSHJ1hcm6o-5lyfKDk6gQK3AdXBG0
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 5fe8f3a46e3582a359b8d4641a7062b0590ea0b8
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: ece6404b8c1413667fdfea76c883ee2077dee8c7
 workflow-type: tm+mt
-source-wordcount: 570
+source-wordcount: 674
 ht-degree: 8%
 
 ---
@@ -105,6 +102,24 @@ Puede personalizar temporalmente los informes de tabla en los paneles. Estos cam
    >[!IMPORTANT]
    >
    >Estos cambios solo se aplican a la sesión actual y no afectan a la configuración original del informe. Para que estos cambios sean permanentes, debe editar el informe.
+
+<div class="preview">
+
+### Explorar en profundidad los datos de la tabla dinámica en Vista previa
+
+Puede hacer clic en un valor de un informe de tabla dinámica para explorar en profundidad y ver los registros individuales que componen ese valor agregado.
+
+{{step1-to-dashboards}}
+
+1. En el panel izquierdo, haga clic en **Paneles de control de lienzo**.
+1. Haga clic en el nombre de un tablero existente para abrirlo.
+   ![Abrir un tablero](assets/open-dashboard.png)
+1. Busque el informe de tabla dinámica que desee ver.
+1. Haga clic en un valor de la tabla dinámica para abrir la tabla desplegable.
+
+   La tabla de detalles muestra las columnas que el creador del informe configuró en Configuración de columna de desglose. Para obtener más información, consulte [Crear un informe de tabla dinámica en un panel de lienzo](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-pivot-table-report.md).
+
+</div>
 
 
 <!--

@@ -3,9 +3,9 @@ user-guide-title: Guía de Workfront
 user-guide-description: Utilice los siguientes documentos, tutoriales y recursos adicionales para aprender a implementar y utilizar Adobe Workfront de forma eficaz en su organización.
 role: User
 feature-set: Workfront
-source-git-commit: 467ae444ace2613b713ff2feb125e2471aa1b078
+source-git-commit: 14dd7192daab6bdb49ebb0964ef6e042fe7612f8
 workflow-type: tm+mt
-source-wordcount: '14457'
+source-wordcount: '14466'
 ht-degree: 92%
 
 ---
@@ -1624,6 +1624,7 @@ ht-degree: 92%
       * [Generar un informe de KPI en un panel de control de lienzo](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-kpi-report.md)
       * [Creación de un informe de gráfico en un panel de control de lienzo](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-chart-report.md)
       * [Generar un informe de tabla en un panel de control del lienzo](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-table-report.md)
+      * [Creación de un informe de tabla dinámica en un panel de lienzo](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-pivot-table-report.md)
     * Administrar paneles de lienzo {#manage-canvas-dashboards}
       * [Administrar paneles de lienzo: índice de artículos](reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/manage-canvas-dashboards.md)
       * [Compartir un panel de lienzo](reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/share-canvas-dashboard.md)
@@ -2642,7 +2643,7 @@ ht-degree: 92%
     * [Configure y utilice las aplicaciones OAuth 2 personalizadas de la organización mediante el flujo JWT](wf-api/api/oauth-app-jwt-flow.md)
     * [Configure y utilice las aplicaciones OAuth 2 personalizadas de su organización mediante el flujo PKCE](wf-api/api/oauth-app-pkce-flow.md)
     * [Obsolescencia de la API interna](wf-api/api/deprecation-api-internal.md)
-    * [Novedades de la versión 22 de la API](/help/quicksilver/wf-api/api/new-api-version-22.md)
+    * [Novedades de la versión 22](/help/quicksilver/wf-api/api/new-api-version-22.md) de la API
     * [Novedades de la versión 21 de la API](/help/quicksilver/wf-api/api/new-api-version-21.md)
     * [Novedades de la versión 20 de la API](/help/quicksilver/wf-api/api/new-api-version-20.md)
     * [Novedades de la versión 19 de la API](wf-api/api/new-api-version-19.md)
