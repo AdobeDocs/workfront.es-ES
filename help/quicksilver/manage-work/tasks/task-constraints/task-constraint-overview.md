@@ -8,23 +8,15 @@ author: Alina
 feature: Work Management
 exl-id: 91b0844b-95a3-4d18-9fdb-a907dd42e1bf
 TQID: https://experienceleague.adobe.com/R38RC6-vr-nRp4R7W4WDdJk2KkAuegb6yOfmNLdn7Dc
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: b91c0848-76c4-4da4-8b81-3aade0518dd0
-  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b91c0848-76c4-4da4-8b81-3aade0518dd0id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 31db7a4ef190793558bcb2fa10beb2585e1068e4
 workflow-type: tm+mt
-source-wordcount: 694
-ht-degree: 99%
+source-wordcount: 704
+ht-degree: 98%
 
 ---
 
@@ -38,6 +30,8 @@ Las restricciones de tarea determinan cuándo debe comenzar y finalizar una tare
 
 A medida que elabore el plan del proyecto, tomará decisiones sobre la secuencia y el lapso de tiempo de las tareas del proyecto. Las tareas pueden funcionar independientemente de cualquier secuencia de tareas, pero podrían afectar a la cronología del proyecto. Las restricciones de tareas permiten a un administrador de proyectos planificar cuándo pueden comenzar o finalizar determinadas tareas en un proyecto.
 
+Las restricciones de tareas se aplican de forma idéntica a las tareas de proyecto y a las tareas de plantilla.
+
 Según la delimitación que utilice, es posible que deba especificar una Fecha de inicio planificada, una Fecha planificada de finalización o ambas para la tarea.
 
 Los tipos de restricción que requieren fechas definidas afectan a las relaciones de predecesoras.
@@ -46,7 +40,9 @@ Los tipos de restricción que requieren fechas definidas afectan a las relacione
 >
 >Considere la posibilidad de utilizar un tipo de restricción que no requiera fechas específicas si utiliza relaciones de predecesoras entre tareas.
 
-En la tabla siguiente se muestra cada restricción y su abreviatura. Las abreviaturas se utilizan en listas de tareas y al crear archivos de importación de Kick-Start. Haga clic en el título vinculado de cada restricción de tarea para obtener más información sobre ese tipo de restricción.
+En la tabla siguiente se muestra cada restricción y su abreviatura.
+
+Las abreviaturas se utilizan en listas de tareas y al crear archivos de importación de Kick-Start. Haga clic en el título vinculado de cada restricción de tarea para obtener más información sobre ese tipo de restricción.
 
 <table border="1" cellspacing="15" cellpadding="1"> 
  <col> 
