@@ -5,7 +5,7 @@ title: Creación de un informe de tabla dinámica en un panel de lienzo
 description: Puede agregar un informe de tabla dinámica a un panel de lienzo para ver los totales agregados de los datos en formato de tabla.
 author: Courtney
 feature: Reports and Dashboards
-source-git-commit: 79d9eb9d3066cc83c1190d9732c64712917798aa
+source-git-commit: 58c5f4a08b2083d7350c19b6c1d8383fa0dbb124
 workflow-type: tm+mt
 source-wordcount: '1556'
 ht-degree: 9%
@@ -239,3 +239,4 @@ Una vez seleccionado el objeto de entidad base, la lista desplegable **Secciones
 Limitamos el acceso a la selección de objetos secundarios como segmentos de una tabla dinámica. Las opciones de segmentos pueden ser atributos del registro en sí o de otros registros relacionados que no representen una relación de 1:many o de varios:many.
 
 También limitamos el acceso a la referencia a cualquier atributo principal o secundario como métrica para reducir el potencial de recuento doble o resumen doble de valores, lo que conduce a una representación incorrecta de los datos reales.
+
