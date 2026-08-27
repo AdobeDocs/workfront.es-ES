@@ -16,9 +16,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 5fe8f3a46e3582a359b8d4641a7062b0590ea0b8
+source-git-commit: 58c5f4a08b2083d7350c19b6c1d8383fa0dbb124
 workflow-type: tm+mt
-source-wordcount: 570
+source-wordcount: 674
 ht-degree: 8%
 
 ---
@@ -106,6 +106,24 @@ Puede personalizar temporalmente los informes de tabla en los paneles. Estos cam
    >
    >Estos cambios solo se aplican a la sesión actual y no afectan a la configuración original del informe. Para que estos cambios sean permanentes, debe editar el informe.
 
+<div class="preview">
+
+### Explorar en profundidad los datos de la tabla dinámica en Vista previa
+
+Puede hacer clic en un valor de un informe de tabla dinámica para explorar en profundidad y ver los registros individuales que componen ese valor agregado.
+
+{{step1-to-dashboards}}
+
+1. En el panel izquierdo, haga clic en **Paneles de control de lienzo**.
+1. Haga clic en el nombre de un tablero existente para abrirlo.
+   ![Abrir un tablero](assets/open-dashboard.png)
+1. Busque el informe de tabla dinámica que desee ver.
+1. Haga clic en un valor de la tabla dinámica para abrir la tabla desplegable.
+
+   La tabla de detalles muestra las columnas que el creador del informe configuró en Configuración de columna de desglose. Para obtener más información, consulte [Crear un informe de tabla dinámica en un panel de lienzo](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-pivot-table-report.md).
+
+</div>
+
 
 <!--
 
@@ -157,3 +175,4 @@ De forma predeterminada, las agrupaciones se ordenan alfabética o cronológicam
 Puede hacer clic en un encabezado de columna para ordenar los datos de cada grupo. Al ordenar por un campo que es diferente del campo de agrupación, el orden de los grupos no cambia.
 
 Sin embargo, cuando se ordena por el mismo campo por el que se agrupa el informe, el orden de grupo puede cambiar. Por ejemplo, una agrupación basada en texto que normalmente ejecuta de A a Z puede cambiar a Z a A.
+

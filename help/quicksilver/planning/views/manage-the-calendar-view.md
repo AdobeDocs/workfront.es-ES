@@ -19,10 +19,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 4378eb4b7272ac17b0fb6f2f2e77de2c0b272050
+source-git-commit: 913081d2d8fc6ac2fbd5dd80ae1cc588d8ba7cbc
 workflow-type: tm+mt
-source-wordcount: 1917
-ht-degree: 43%
+source-wordcount: 2002
+ht-degree: 41%
 
 ---
 
@@ -192,6 +192,10 @@ Para administrar una vista de calendario:
 
        * Los registros que se extienden durante varios días se muestran en la parte superior del calendario.
        * Registros que duran un día o menos y que se muestran en la mitad inferior de la vista de calendario. Si ha seleccionado mostrar la hora de las fechas de inicio y finalización, el registro se muestra a la hora adecuada dentro del día en que se produce.
+
+         <span class="preview">El calendario muestra hasta 1000 registros en las semanas anterior, actual y siguiente para ambas áreas en la vista semanal.</span>
+
+1. <span class="preview"> (opcional y condicional) Haga clic en **Cargar más** en la parte inferior del calendario, si hay más de 1000 registros y algunos de ellos no se muestran de forma predeterminada, al ver el calendario por semana.</span>
 
 1. (Opcional) Haga clic en el icono **Pantalla completa** ![Abrir icono de pantalla completa](assets/open-full-screen-icon.png) para abrir la vista en pantalla completa y, a continuación, en el icono **Salir de pantalla completa** ![Salir del icono de pantalla completa](assets/exit-full-screen-icon.png) o Escape del teclado para salir de la pantalla completa.
 
@@ -448,7 +452,7 @@ Actualice la configuración de vista de calendario para indicar qué informació
 
    * **Tipo de registro**: El color de las barras de registro del calendario coincide con el color del tipo de registro seleccionado. Esta es la opción predeterminada.
    * **Valores de campo**: el color de los registros coincide con el color de un campo que especifique.
-   * **Ninguno**: los registros se muestran en una barra blanca. <span class="preview">Se ha quitado la opción Ninguno del entorno de vista previa.</span>
+   * **Ninguno**: los registros se muestran en una barra blanca. <span class="preview">La opción **Ninguno** se ha eliminado del entorno de vista previa.</span>
 
 
 

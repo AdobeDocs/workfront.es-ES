@@ -18,9 +18,9 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 8b161669c427c316ba28b814dfa7a6d095cd4309
+source-git-commit: 79d9eb9d3066cc83c1190d9732c64712917798aa
 workflow-type: tm+mt
-source-wordcount: 1864
+source-wordcount: 1971
 ht-degree: 10%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 10%
 >[!IMPORTANT]
 >
 >Actualmente, la función Paneles de lienzo solo está disponible para los usuarios que participan en la fase beta. Es posible que algunas partes de la función no estén completas o que no funcionen según lo previsto durante esta fase. Envíe cualquier comentario sobre su experiencia siguiendo las instrucciones de la sección [Proporcionar comentarios](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) del artículo Información general sobre la versión beta de los paneles de lienzo.<br>
->Si tiene comentarios acerca de un posible error o problema técnico, envíe un ticket al equipo de asistencia de Workfront. Para obtener más información, consulte [Póngase en contacto con Atención al cliente](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>
+>Si tiene comentarios acerca de un posible error o problema técnico, envíe un ticket al equipo de asistencia de Workfront. Para obtener más información, consulte [Contacto con el servicio de asistencia al cliente](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>
 >Tenga en cuenta que esta versión beta no está disponible en los siguientes proveedores de la nube:
 >
 >* Traer su propia clave para Amazon Web Service
@@ -78,7 +78,7 @@ Para obtener más información sobre esta tabla, consulte [Requisitos de acceso 
 
 ## Requisitos previos
 
-Debe crear un tablero para poder crear un informe de gráfico.
+Debe crear un tablero para poder crear un informe de gráfico. Para obtener más información, consulte [Crear un panel de lienzo](/help/quicksilver/reports-and-dashboards/canvas-dashboards/create-dashboards/create-dashboards.md).
 
 ## Creación de un informe de gráfico en un panel de control de lienzo
 
@@ -86,13 +86,9 @@ Hay muchas opciones de configuración disponibles para crear un informe de gráf
 
 {{step1-to-dashboards}}
 
-1. En el panel izquierdo, haga clic en **Paneles de control de lienzo**.
+1. En el panel izquierdo, haga clic en **Paneles de lienzo** y, a continuación, haga clic en el nombre del panel al que desee agregar el informe.
 
-1. Haga clic en **Nuevo panel** en la esquina superior derecha.
-
-1. En el cuadro **Crear tablero**, escriba el **Nombre** y la **Descripción** del tablero.
-
-1. Haga clic en **Crear**.
+1. Haga clic en **Agregar informe** en la esquina superior derecha de la página.
 
 1. En el cuadro **Agregar informe**, seleccione **Crear informe**.
 
@@ -212,13 +208,9 @@ En esta sección, veremos los pasos para crear un gráfico de columnas que muest
 
 {{step1-to-dashboards}}
 
-1. En el panel izquierdo, haga clic en **Paneles de control de lienzo**.
+1. En el panel izquierdo, haga clic en **Paneles de lienzo** y, a continuación, haga clic en el nombre del panel al que desee agregar el informe.
 
-1. Haga clic en **Nuevo panel** en la esquina superior derecha.
-
-1. En el cuadro **Crear tablero**, escriba el **Nombre** y la **Descripción** del tablero.
-
-1. Haga clic en **Crear**.
+1. Haga clic en **Agregar informe** en la esquina superior derecha de la página.
 
 1. En el cuadro **Agregar informe**, seleccione **Crear informe**.
 
@@ -310,7 +302,7 @@ Los usuarios con acceso de Vista o Edición en los datos financieros en su nivel
 * Los usuarios que sí ven los datos financieros se limitan a registros para los que ya tienen permiso de visualización (proyectos, tareas, problemas, etc.). No verán los valores financieros de los registros a los que no pueden acceder.
 * Los creadores de informes deben tener cuidado al incluir datos financieros en los paneles y tener en cuenta con quién los comparten para evitar el acceso no deseado.
 
-Se trata de un límite conocido y tenemos previsto abordarlo lo antes posible.
+Se trata de un límite conocido y tenemos previsto abordarlo en el futuro.
 
 ### Uso del selector de campos
 

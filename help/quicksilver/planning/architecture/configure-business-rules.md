@@ -5,10 +5,10 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: 159b845c7b755117197d18f8474c01d4b19d53b8
+source-git-commit: 914f1f8a25aa5b9e1045d2f940ed15061301c21b
 workflow-type: tm+mt
-source-wordcount: '249'
-ht-degree: 14%
+source-wordcount: '298'
+ht-degree: 12%
 
 ---
 
@@ -75,7 +75,10 @@ Para obtener más información acerca de los requisitos de acceso de Workfront, 
 
 ## Consideraciones al configurar reglas empresariales
 
-* Puede configurar reglas para cuándo se pueden editar o eliminar registros.
+* Puede configurar reglas para cuándo se pueden editar o eliminar los registros, según las condiciones que defina.
+
+  Por ejemplo, puede crear condiciones para requerir que ciertos campos tengan un valor. Si falta el valor en esos campos, los usuarios no pueden editar ni eliminar ese registro.
+* No se pueden agregar reglas de negocio a los tipos de registro global en sus espacios de trabajo primarios o secundarios.
 * No se pueden configurar reglas para cuándo se crean los registros. Todas las personas con permisos de administración en el tipo de registro pueden crear registros.
 * Puede crear una condición para la regla de negocio que haga referencia a todos los tipos de campo excepto a los siguientes:
   * Campos de fórmula
