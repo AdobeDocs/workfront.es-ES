@@ -91,7 +91,7 @@ Para obtener más información acerca de los requisitos de acceso de Workfront, 
 1. Haga clic en el menú **Más** ![Menú más](assets/more-menu.png) que se encuentra a la derecha del nombre del tipo de registro y, a continuación, haga clic en Reglas de negocio.
 
 
-*********** DE CLAUDE - MÁS ABAJO - DEBE EDITAR *******************
+**&#x200B;**&#x200B;**&#x200B;**&#x200B;*** DE CLAUDE - MÁS ABAJO - DEBE EDITAR &#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;***
 
 ## Configuración de reglas de negocio en Workfront Planning: Guía paso a paso
 
@@ -155,9 +155,9 @@ En otras palabras: &quot;Cuando el estado de un registro de materiales se cambia
 Puede agregar más de una regla para el mismo estado. Por ejemplo, es posible que necesite que la marca, el área terapéutica, la indicación y la fecha estimada de inicio se rellenen antes de que un registro pueda pasar a &quot;Listo para la ejecución&quot;; cada uno es su propia regla y todos se comprueban juntos.
 
 **¿Qué campos puede requerir?**
-- Campos de registro conectados (por ejemplo, un registro vinculado de marca o indicación): la regla se aprueba en cuanto se vincula al menos un registro.
-- Campos de texto estándar (una sola línea o párrafo): la regla se pasa una vez que haya algún valor.
-- Campos de fecha: la regla se pasa una vez que se ha establecido una fecha.
+&#x200B;- Campos de registro conectados (por ejemplo, un registro vinculado de marca o indicación): la regla se aprueba en cuanto se vincula al menos un registro.
+&#x200B;- Campos de texto estándar (una sola línea o párrafo): la regla se pasa una vez que haya algún valor.
+&#x200B;- Campos de fecha: la regla se pasa una vez que se ha establecido una fecha.
 
 **Lo que aún no puede usar:** los campos de fórmula y los campos de búsqueda no se admiten como destinos de regla en esta versión, ya que se calculan en segundo plano en lugar de ser rellenados directamente por una persona.
 
