@@ -17,7 +17,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+source-git-commit: 49f8e36099d38093210fe1caab88a478e3b5609b
 workflow-type: tm+mt
 source-wordcount: 368
 ht-degree: 98%
@@ -28,7 +28,6 @@ ht-degree: 98%
 
 El uso de subtareas en tarjetas permite establecer una relación principal-secundario entre tareas y crear una jerarquía de trabajo. Una subtarea que se añada a una tarjeta de un tablero de Workfront también se añadirá a la tarea en el proyecto de Workfront. Para obtener más información sobre las subtareas y tareas en el nivel de proyecto, consulte [Crear subtareas](/help/quicksilver/manage-work/tasks/create-tasks/create-subtasks.md).
 
-Las subtareas solo están disponibles en tarjetas conectadas, pero no en problemas. Para obtener información sobre las tarjetas conectadas, consulte [Usar tarjetas conectadas en los tableros](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
 
 ## Requisitos de acceso
 
@@ -57,6 +56,11 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
 +++
 
 ## Añadir una subtarea a una tarjeta
+
+>[!IMPORTANT]
+>
+>Las subtareas solo están disponibles en tarjetas conectadas, pero no en problemas. Para obtener información sobre las tarjetas conectadas, consulte [Usar tarjetas conectadas en los tableros](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
+
 
 {{step1-to-boards}}
 
