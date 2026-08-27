@@ -9,20 +9,15 @@ exl-id: 45b5be81-703c-45d5-a08c-60cb8ec5b103
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/r5i-iqQjF2cQtru6qxEAkrP6xkHGcAp7D8EYRav-7ls
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 4378eb4b7272ac17b0fb6f2f2e77de2c0b272050
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 913081d2d8fc6ac2fbd5dd80ae1cc588d8ba7cbc
 workflow-type: tm+mt
-source-wordcount: 1917
-ht-degree: 43%
+source-wordcount: 2002
+ht-degree: 41%
 
 ---
 
@@ -192,6 +187,10 @@ Para administrar una vista de calendario:
 
        * Los registros que se extienden durante varios días se muestran en la parte superior del calendario.
        * Registros que duran un día o menos y que se muestran en la mitad inferior de la vista de calendario. Si ha seleccionado mostrar la hora de las fechas de inicio y finalización, el registro se muestra a la hora adecuada dentro del día en que se produce.
+
+         <span class="preview">El calendario muestra hasta 1000 registros en las semanas anterior, actual y siguiente para ambas áreas en la vista semanal.</span>
+
+1. <span class="preview"> (opcional y condicional) Haga clic en **Cargar más** en la parte inferior del calendario, si hay más de 1000 registros y algunos de ellos no se muestran de forma predeterminada, al ver el calendario por semana.</span>
 
 1. (Opcional) Haga clic en el icono **Pantalla completa** ![Abrir icono de pantalla completa](assets/open-full-screen-icon.png) para abrir la vista en pantalla completa y, a continuación, en el icono **Salir de pantalla completa** ![Salir del icono de pantalla completa](assets/exit-full-screen-icon.png) o Escape del teclado para salir de la pantalla completa.
 
@@ -448,7 +447,7 @@ Actualice la configuración de vista de calendario para indicar qué informació
 
    * **Tipo de registro**: El color de las barras de registro del calendario coincide con el color del tipo de registro seleccionado. Esta es la opción predeterminada.
    * **Valores de campo**: el color de los registros coincide con el color de un campo que especifique.
-   * **Ninguno**: los registros se muestran en una barra blanca. <span class="preview">Se ha quitado la opción Ninguno del entorno de vista previa.</span>
+   * **Ninguno**: los registros se muestran en una barra blanca. <span class="preview">La opción **Ninguno** se ha eliminado del entorno de vista previa.</span>
 
 
 
