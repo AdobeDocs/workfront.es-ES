@@ -17,10 +17,10 @@ subfeature_v2:
   - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 31db7a4ef190793558bcb2fa10beb2585e1068e4
 workflow-type: tm+mt
-source-wordcount: 437
-ht-degree: 98%
+source-wordcount: 517
+ht-degree: 83%
 
 ---
 
@@ -35,19 +35,23 @@ Al utilizar la restricción Fechas fijas, tenga en cuenta lo siguiente:
 * Al seleccionar la restricción de tareas de Fechas fijas (FIXT), debe especificar la Fecha de inicio planificada y la Fecha planificada de finalización de la tarea. En este caso, se ignora la relación de predecesora de la tarea.
 * El campo Duración de la tarea no se puede editar al utilizar la restricción FFJS. La duración se calcula como la diferencia entre las fechas de inicio planificada y la fecha de finalización planificada de la tarea.
 * Si el Tipo de duración de la tarea se establece en Condicionada por el esfuerzo, el número de personas asignadas a la tarea también afectará a la duración de la tarea.
+* La delimitación Fechas fijas no tiene ningún efecto en una tarea con subtareas. Las tareas con subtareas siempre tienen sus propios valores de Comienzo planificado, Finalización planificada y Duración resumidos a partir de las fechas de comienzo de la subtarea más temprana y de finalización de la subtarea más reciente, independientemente de la restricción que se le haya aplicado. Debe asociar directamente la delimitación Fechas fijas con la subtarea que necesita la fecha fija. El elemento principal seguirá acumulándose automáticamente.
+
+Para obtener más información, vea también [Duración de la tarea y Tipo de duración](/help/quicksilver/manage-work/tasks/taskdurtn/task-duration-duration-type.md).
+
 * Cuando se mueve o copia una tarea con una restricción FFJS a otro proyecto, la restricción de la tarea o las fechas del proyecto pueden cambiar dependiendo de cuáles sean las fechas de restricción y cuáles las de inicio y finalización del proyecto. Se dan los siguientes escenarios:
 
-   * Cuando el proyecto de destino se programa desde el inicio:
+  * Cuando el proyecto de destino se programa desde el inicio:
 
-      * Cuando las fechas de restricción de la tarea son anteriores a la fecha de inicio del proyecto, la restricción de tarea cambia a Lo antes posible.
-      * Cuando una o ambas fechas de restricción de la tarea son posteriores a la fecha planificada de finalización del proyecto, la fecha planificada de finalización del proyecto cambia para coincidir con la fecha de restricción de finalización de la tarea.
+    * Cuando las fechas de restricción de la tarea son anteriores a la fecha de inicio del proyecto, la restricción de tarea cambia a Lo antes posible.
+    * Cuando una o ambas fechas de restricción de la tarea son posteriores a la fecha planificada de finalización del proyecto, la fecha planificada de finalización del proyecto cambia para coincidir con la fecha de restricción de finalización de la tarea.
 
-   * Cuando se programa el proyecto de destino a partir de la finalización:
+  * Cuando se programa el proyecto de destino a partir de la finalización:
 
-      * Cuando las fechas de restricción de la tarea son posteriores a la fecha de finalización del proyecto, la restricción de la tarea cambia a Lo más tarde posible.
-      * Cuando una o ambas fechas de restricción de la tarea son anteriores a la fecha de inicio planificada del proyecto, la fecha de inicio planificada del proyecto cambia para coincidir con la fecha de restricción de inicio de la tarea.
+    * Cuando las fechas de restricción de la tarea son posteriores a la fecha de finalización del proyecto, la restricción de la tarea cambia a Lo más tarde posible.
+    * Cuando una o ambas fechas de restricción de la tarea son anteriores a la fecha de inicio planificada del proyecto, la fecha de inicio planificada del proyecto cambia para coincidir con la fecha de restricción de inicio de la tarea.
 
-   * Independientemente de la programación del proyecto, cuando las fechas de restricción de la tarea se encuentran dentro de las fechas de inicio y finalización del proyecto, no hay cambios en las fechas de restricción de tarea o del proyecto.
+  * Independientemente de la programación del proyecto, cuando las fechas de restricción de la tarea se encuentran dentro de las fechas de inicio y finalización del proyecto, no hay cambios en las fechas de restricción de tarea o del proyecto.
 
   Para obtener más información acerca de cómo mover tareas, vea [Mover tareas](../../../manage-work/tasks/manage-tasks/move-tasks.md). Para obtener más información acerca de cómo copiar tareas, vea [Copiar y duplicar tareas](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md).
 

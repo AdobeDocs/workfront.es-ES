@@ -17,10 +17,10 @@ subfeature_v2:
   - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 31db7a4ef190793558bcb2fa10beb2585e1068e4
 workflow-type: tm+mt
-source-wordcount: 395
-ht-degree: 98%
+source-wordcount: 477
+ht-degree: 81%
 
 ---
 
@@ -41,19 +41,23 @@ Tenga en cuenta lo siguiente al programar una tarea con una restricción Debe fi
 * Las relaciones de tareas predecesoras no fuerzan la reprogramación de la tarea. Adobe Workfront básicamente ignora las relaciones de tareas predecesoras.
 * La tarea se muestra como **En riesgo** si las tareas predecesoras comienzan a retrasarse o llegan tarde.
 
+* La delimitación Debe finalizar el no tiene efecto en una tarea con subtareas. Las tareas con subtareas siempre tienen sus propios valores de Comienzo planificado, Finalización planificada y Duración resumidos a partir de las fechas de comienzo de la subtarea más temprana y de finalización de la subtarea más reciente, independientemente de la restricción que se le haya aplicado. Debe asociar directamente la delimitación Debe finalizar el con la subtarea que necesita la fecha fija. El elemento principal seguirá acumulándose automáticamente.
+
+Para obtener más información, vea también [Duración de la tarea y Tipo de duración](/help/quicksilver/manage-work/tasks/taskdurtn/task-duration-duration-type.md).
+
 * Cuando se mueve o copia una tarea con una restricción Debe finalizar el a otro proyecto, la restricción de la tarea o las fechas del proyecto pueden cambiar en función de cuáles sean las fechas de restricción y cuáles sean las fechas de inicio y finalización del proyecto. Se dan los siguientes escenarios:
 
-   * Cuando el proyecto de destino se programa desde el inicio:
+  * Cuando el proyecto de destino se programa desde el inicio:
 
-      * Cuando la fecha de restricción de tarea es anterior a la fecha de inicio planificada del proyecto, la restricción de tarea cambia a Lo antes posible.
-      * Cuando la fecha de restricción de tarea es posterior a la fecha planificada de finalización del proyecto, la fecha planificada de finalización del proyecto cambia para coincidir con la fecha de restricción de finalización de la tarea.
+    * Cuando la fecha de restricción de tarea es anterior a la fecha de inicio planificada del proyecto, la restricción de tarea cambia a Lo antes posible.
+    * Cuando la fecha de restricción de tarea es posterior a la fecha planificada de finalización del proyecto, la fecha planificada de finalización del proyecto cambia para coincidir con la fecha de restricción de finalización de la tarea.
 
-      * Cuando se programa el proyecto de destino a partir de la finalización:
+    * Cuando se programa el proyecto de destino a partir de la finalización:
 
-         * Cuando la fecha de restricción de tarea es posterior a la fecha de finalización del proyecto, la restricción de tarea cambia a Lo más tarde posible.
-         * Cuando la fecha de restricción de tarea es anterior a la fecha de inicio planificada del proyecto, la fecha de inicio planificada del proyecto cambia para coincidir con la fecha de restricción de inicio de la tarea.
+      * Cuando la fecha de restricción de tarea es posterior a la fecha de finalización del proyecto, la restricción de tarea cambia a Lo más tarde posible.
+      * Cuando la fecha de restricción de tarea es anterior a la fecha de inicio planificada del proyecto, la fecha de inicio planificada del proyecto cambia para coincidir con la fecha de restricción de inicio de la tarea.
 
-      * Independientemente de la programación del proyecto, cuando la fecha de restricción de tarea se encuentra dentro de las fechas de inicio y finalización del proyecto, no hay cambios en las fechas de restricción de tarea o del proyecto.
+    * Independientemente de la programación del proyecto, cuando la fecha de restricción de tarea se encuentra dentro de las fechas de inicio y finalización del proyecto, no hay cambios en las fechas de restricción de tarea o del proyecto.
 
   Para obtener información sobre cómo mover tareas, consulte [Mover tareas](../../../manage-work/tasks/manage-tasks/move-tasks.md). Para obtener más información acerca de cómo copiar tareas, vea [Copiar y duplicar tareas](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md).
 
