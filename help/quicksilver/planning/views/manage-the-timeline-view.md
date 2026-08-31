@@ -19,7 +19,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 913081d2d8fc6ac2fbd5dd80ae1cc588d8ba7cbc
+source-git-commit: 85c9f757134bc84e4b5038e4001f9a9fe1430f2a
 workflow-type: tm+mt
 source-wordcount: 4518
 ht-degree: 37%
@@ -234,6 +234,18 @@ Para administrar una vista de cronología:
      >[!TIP]
      >
      >La vista de cronología solo muestra las semanas fiscales según los trimestres clásicos. Si el administrador de Workfront activa Trimestres personalizados en el área de Configuración, la información de la semana no se muestra en la vista de cronología.
+
+     <!--
+        When we release custom weeks, replace the tip above with this:
+        >[!TIP]
+        >
+        >Depending on which environment you are using to access the timeline view, the following scenarios exist:
+        >
+        >* In the Production environment, the timeline view only displays fiscal weeks according to classic quarters. If your Workfront administrator turns on Custom Quarters in the Setup area, the week information does not display in the timeline view.
+        >
+        >* <span class="preview">In the Preview environment, the timeline view displays fiscal weeks according to classic quarters, by default. If your Workfront administrator turns on Custom Quarters and Custom weeks in the Setup area, the timeline view displays the custom quarters and weeks in the Quarter and Month displays. </span>
+        >
+        -->
 
 1. (Opcional) Haga clic en **Cambiar a la vista Compacta** para mostrar los registros cuyas fechas no se cruzan en la misma línea. <!--check to see if they updated the name of the setting here-->
 1. (Condicional) Si cambió el modo a **Compacto**, haga clic en **Cambiar a la vista Estándar** para mostrar los registros en líneas separadas. La opción **Standard** es la predeterminada.  <!--check to see if they updated the name of the setting here-->
