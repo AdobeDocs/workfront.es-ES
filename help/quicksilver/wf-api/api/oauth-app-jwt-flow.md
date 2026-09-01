@@ -8,23 +8,27 @@ feature: Workfront API
 role: Developer
 exl-id: 4bd56fe6-1f36-4c36-82cd-96de748ad680
 TQID: https://experienceleague.adobe.com/uxF82lsimZlGpWRe8BEt80-9wb0rnwz7uhBHCI8nAig
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 9ab8e110576ba47b5513441169a2f1e6c288d6d3
 workflow-type: tm+mt
-source-wordcount: 462
-ht-degree: 99%
+source-wordcount: 554
+ht-degree: 90%
 
 ---
 
 # Configure y utilice las aplicaciones OAuth 2 personalizadas de la organización mediante el flujo JWT
+
+>[!IMPORTANT]
+>
+>Las aplicaciones OAuth2 personalizadas están en proceso de desaprobación. Tenga en cuenta las siguientes fechas:
+>
+>* 1 de noviembre de 2026: ya no podrá crear nuevas aplicaciones OAuth2 personalizadas.
+>* 1 de febrero de 2027: Las aplicaciones OAuth2 personalizadas existentes dejarán de funcionar.
+>
+>Para obtener más información, consulte [Migrar de Workfront OAuth2 a Adobe Developer Console](/help/quicksilver/administration-and-setup/configure-integrations/migrate-oauth2-to-developer-console.md).
 
 Para integrarse con Workfront y permitir que la aplicación cliente se comunique con Workfront en nombre del usuario, debe hacer lo siguiente:
 
@@ -69,7 +73,7 @@ La siguiente tabla contiene información sobre los campos que pueden ser necesar
  <tbody> 
   <tr> 
    <td role="rowheader">exp</td> 
-   <td> <p>Requerido. El parámetro de caducidad es un parámetro obligatorio que mide la hora absoluta desde el 01/01/1970 GMT. Debe asegurarse de que la hora de caducidad sea posterior a la hora de emisión. Transcurrido este tiempo, el JWT deja de ser válido. </p> <p>Nota: recomendamos tener un token de corta duración (unos minutos) para que caduque poco después de cambiarlo por un token de acceso. Cada vez que se requiere un nuevo token de acceso, se firma e intercambia un JWT. Este es un enfoque más seguro. No recomendamos tókenes de mayor duración que se reutilicen para obtener tókenes de acceso según sea necesario.</p> </td> 
+   <td> <p>necesario. El parámetro de caducidad es un parámetro obligatorio que mide la hora absoluta desde el 01/01/1970 GMT. Es necesario asegurarse de que la hora de caducidad sea posterior a la hora de emisión. Transcurrido este tiempo, el JWT deja de ser válido. </p> <p>Nota: recomendamos tener un token de corta duración (unos minutos) para que caduque poco después de cambiarlo por un token de acceso. Cada vez que se requiere un nuevo token de acceso, se firma e intercambia un JWT. Este es un enfoque más seguro. No recomendamos tókenes de mayor duración que se reutilicen para obtener tókenes de acceso según sea necesario.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">iss</td> 
