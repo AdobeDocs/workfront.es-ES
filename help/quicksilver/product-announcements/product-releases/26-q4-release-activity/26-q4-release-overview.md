@@ -4,9 +4,9 @@ description: Esta página proporciona información sobre la funcionalidad que se
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 63bdc885983f60c316409c3bba400ad82d475a5f
+source-git-commit: 549e1bd0fd0910d8285552487115fdeaae5facc7
 workflow-type: tm+mt
-source-wordcount: '1501'
+source-wordcount: '1579'
 ht-degree: 14%
 
 ---
@@ -264,6 +264,24 @@ Se celebran seminarios web en directo para cada versión trimestral, en los que 
             <td><strong>Vista previa</strong></td>
             <td><strong>Versión rápida</strong></td>
             <td><strong>Trimestralmente</strong></td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-reports.md" class="MCXref xref" xrefformat="{para}">Campo de tipo de aprobación en paneles de lienzo</a><p>[!BADGE Off schedule]{type=Neutral}</p>
+                <p>La entidad Approval ahora incluye un campo Approval Type, que permite a los usuarios distinguir entre aprobaciones de prueba, aprobaciones de versión de documento, aprobaciones de admisión y otros tipos de aprobación.</p>
+            </td>
+            <td><p>N/D</p></td>
+            <td><p>N/D</p></td>
+            <td><p>28 de agosto de 2026</p></td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-reports.md" class="MCXref xref" xrefformat="{para}">Actualización de terminología de aprobación en paneles de lienzo</a><p>[!BADGE Off schedule]{type=Neutral}</p>
+                <p>Se ha cambiado el nombre de varios nombres de campo utilizados en paneles de lienzo para aprobaciones de documentos y trabajo para una mayor claridad.</p>
+            </td>
+            <td><p>N/D</p></td>
+            <td><p>N/D</p></td>
+            <td><p>28 de agosto de 2026</p></td>
         </tr>
         <tr>
             <td>

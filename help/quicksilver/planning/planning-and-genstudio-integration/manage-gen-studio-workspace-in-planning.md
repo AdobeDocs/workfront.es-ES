@@ -16,9 +16,9 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 347c3e87fea0289616bf1a52779c07501a8ec69d
+source-git-commit: 757cbfd2ae74da7a649bee4d93da862d986ee5a2
 workflow-type: tm+mt
-source-wordcount: 1794
+source-wordcount: 1855
 ht-degree: 5%
 
 ---
@@ -58,7 +58,7 @@ Para obtener información general acerca de la integración de GenStudio con Wor
 >[!IMPORTANT]
 >
 >Los pasos descritos en este artículo ilustran cómo se puede actualizar el espacio de trabajo de GenStudio desde Workfront Planning cuando se tiene permisos de administración.
-> No todas las funciones están disponibles si tiene permisos de contribución en el área de trabajo de GenStudio.
+> No todas las funciones están disponibles si tiene permisos de contribución en el espacio de trabajo de GenStudio.
 >
 >Si su empresa tiene varias instancias de Workfront, todos los usuarios obtienen permisos de contribución en el espacio de trabajo de GenStudio en Workfront Planning.
 
@@ -377,6 +377,17 @@ Se abrirá la página principal de Workfront Planning.
 
      Para obtener más información, consulte [Crear y administrar un formulario de solicitud en Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
 
+   <!--
+   <div class="preview">
+
+   * Business rules
+
+      You can configure record type business rules to define what conditions must be met before users are allowed to edit or delete records of that type. 
+
+      For information, see [Configure record type business rules](/help/quicksilver/planning/architecture/configure-business-rules.md).
+   </div>
+   -->
+
 1. Para compartir una vista o el tipo de registro, haga lo siguiente:
 
    * Haga clic en **Compartir** en la esquina superior derecha de la página de tipo de registro y, a continuación, haga clic en una de las siguientes opciones:
@@ -477,7 +488,7 @@ Se abrirá la página principal de Workfront Planning.
    1. (Condicional) En un recurso de AEM conectado en GenStudio Workspace, haga clic en el nombre del recurso y, a continuación, haga clic en el icono **Abrir en AEM** ![Abrir en AEM](assets/open-in-aem-icon.png) para abrir el recurso en AEM.
    1. Haga clic para seleccionar la pestaña **Campaign** en el panel derecho.
 
-      El nombre de la campaña conectada al recurso se muestra en el campo **Campaign**. Este es un campo de solo lectura.
+      El nombre de la campaña conectada al recurso se muestra en el campo **Campaign**. Este campo es de solo lectura.
       Si el recurso también está conectado a **Region**, **Persona**, **Product** o **Channel** en el área de trabajo de GenStudio en Planning, los campos respectivos de estos tipos de registros muestran sus nombres en la pestaña **Campaign** del recurso en modo de solo lectura.
    1. (Condicional) En un fragmento de contenido de AEM conectado en el espacio de trabajo de GenStudio en Planning, haga clic en el nombre del fragmento de contenido y, a continuación, haga clic en el icono **Abrir en AEM** ![Abrir en AEM](assets/open-in-aem-icon.png) para abrir el fragmento de contenido en AEM.
    1. Haga clic en el icono **Inicio** ![Icono de inicio en AEM](assets/home-icon-in-aem.png) para ir a una lista de fragmentos de contenido y, a continuación, haga clic en el icono **información** ![Icono de información en AEM](assets/info-icon-in-aem.png) a la derecha del nombre del fragmento de contenido.

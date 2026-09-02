@@ -1,14 +1,14 @@
 ---
 title: Configurar reglas de negocio de tipo de registro
-description: Puede configurar reglas empresariales de tipo de registro que definan cómo se administran los registros de ese tipo en Adobe Workfront Planning.
+description: Puede configurar reglas empresariales de tipo de registro que puedan aplicar determinadas acciones a los registros según los valores de los campos.
 feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: 85c9f757134bc84e4b5038e4001f9a9fe1430f2a
+source-git-commit: 757cbfd2ae74da7a649bee4d93da862d986ee5a2
 workflow-type: tm+mt
-source-wordcount: '358'
-ht-degree: 13%
+source-wordcount: '1038'
+ht-degree: 4%
 
 ---
 
@@ -23,12 +23,12 @@ ht-degree: 13%
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 -->
 
-Puede configurar reglas de negocio para los tipos de registros de Adobe Workfront Planning que definen cómo se administran los registros de ese tipo.
+Puede configurar reglas de negocio para los tipos de registro de Adobe Workfront Planning para indicar que determinados campos son necesarios antes de que se permita o impida una acción en un registro de ese tipo.
 
-Puede permitir las siguientes acciones en los registros si se cumplen las reglas de negocio definidas:
+Según la formulación de la regla, puede permitir las siguientes acciones en los registros si se cumplen las reglas empresariales definidas:
 
-* Edición de un registro
-* Eliminación de un registro
+* Editar o no editar un registro
+* Eliminar o no eliminar un registro
 
 ## Requisitos de acceso
 
@@ -80,25 +80,87 @@ Para obtener más información acerca de los requisitos de acceso de Workfront, 
 
 ## Consideraciones al configurar reglas empresariales
 
-* Puede configurar reglas que indiquen cuándo se pueden editar o eliminar los registros.
+* Las reglas empresariales adjuntan una condición a un cambio de campo o a una eliminación de registro. La regla solo entra en juego en un momento específico y deliberado: cuando un campo está a punto de cambiar a un valor de campo que configure en la regla.
 
-  Por ejemplo, puede crear condiciones para requerir que ciertos campos tengan un valor. Si falta el valor en esos campos, los usuarios no pueden editar ni eliminar ese registro.
+* Una regla tiene este aspecto en un lenguaje sencillo: &quot;Para poder editar este registro, el campo Resumen de campaña debe tener un valor&quot;.
+
+  Si el campo está vacío, la edición del registro se bloquea y el usuario recibe un mensaje claro que explica lo que debe abordar antes de continuar. Una vez que actualicen el campo requerido e inténtelo de nuevo, se permite el cambio.
+
+* Las reglas no bloquean la creación de registros. Los usuarios aún pueden crear registros, pero deben asegurarse de que los campos obligatorios no estén vacíos o contengan el valor especificado.
+* Las reglas no editan ni eliminan registros automáticamente. El cambio debe ser deliberado y activado por un usuario.
+* Las reglas no se aplican de forma retroactiva: los registros antiguos no se ven afectados. La comprobación de reglas sólo se ejecutará la próxima vez que alguien intente editar o eliminar un registro.
 * No se pueden agregar reglas de negocio a los tipos de registro global en sus espacios de trabajo primarios o secundarios.
-* No se pueden configurar reglas para cuándo se crean los registros. Todas las personas con permisos de administración en el tipo de registro pueden crear registros.
 * Puede crear una condición para la regla de negocio que haga referencia a todos los tipos de campo excepto a los siguientes:
   * Campos de fórmula
   * Campos de búsqueda
   * Campos de referencia
+* Las reglas se aplican a todos los que pueden editar o eliminar registros.
+* Puede tener más de una regla de negocio para un tipo de registro.  <!--Syuzanna is checking this because it should be just ONE rule per action: one per edit and one per delete - see this: https://workfront.slack.com/archives/C0BHWEUSJCU/p1788281638322049?thread_ts=1787924876.280359&cid=C0BHWEUSJCU-->
+
+  Todas las reglas se comprueban al mismo tiempo y el mensaje de error muestra todos los campos que faltan en una instrucción.
 
 ## Configurar reglas empresariales
 
-1. Vaya a un tipo de registro.
-1. Haga clic en el menú **Más** ![Menú más](assets/more-menu.png) que se encuentra a la derecha del nombre del tipo de registro y, a continuación, haga clic en **Reglas de negocio**.
+1. Vaya a una página de tipo de registro.
+1. Desde cualquier vista, haga clic en el menú **Más** ![Más menú](assets/more-menu.png) a la derecha del nombre del tipo de registro y, a continuación, haga clic en **Reglas de negocio**.
 
    Se abre la página Reglas de negocio.
 1. Haga clic en **Nueva regla empresarial**.
-1. En el cuadro Nueva regla de negocio, agregue un nombre para la regla de negocio en el primer campo disponible. Este campo es obligatorio
-1. (Opcional) Añada una descripción para definir la regla de negocio.
+1. En el cuadro de regla **Nuevo negocio**, agregue un nombre para la regla de negocio en el primer campo disponible. Este campo es obligatorio
+1. (Opcional) Agregue una descripción para definir la regla de negocio y haga clic en **Guardar**.
+1. En la sección **If** del formulario de configuración de regla de negocio, elija qué acciones desea restringir o permitir en función de una regla específica. Elija entre lo siguiente: <!--check UI text-->
+   * **Edición de registro**: los usuarios podrán editar o no el registro si se cumple la condición definida en esta regla.
+   * **Eliminación de registro**: Los usuarios podrán eliminar o no eliminar el registro si se cumple la condición definida en esta regla.
+     <!--add screen shot when UI text is final-->
+1. En el **campo Formula**, agregue la regla de negocio. Elija un operador para la regla en la sección **Expresiones de fórmula** del panel derecho.
+
+   Por ejemplo, puede elegir **IF** de la sección **Otros** campos, o empiece a escribir &quot;IF&quot; y luego haga clic en él cuando se muestre en la lista de sugerencias.
+
+   >[!TIP]
+   >
+   >Se recomienda seleccionar los campos y operadores de la lista de sugerencias para mantener la sintaxis correcta de la regla.
+1. Elija y el campo que desea hacer obligatorio para permitir que los registros de este tipo de registro se editen o eliminen.
+
+   Por ejemplo, puede escribir la siguiente instrucción para que el campo **Resumen de campaña** sea obligatorio:
+
+   ```
+      IF(ISBLANK({Campaign summary}),"Campaign summary is a required field. You cannot edit this record without a value for the Campaign summary.")
+   ```
+
+   >[!IMPORTANT]
+   >
+   >Se recomienda incluir en la fórmula de regla la siguiente información para facilitar a los usuarios la comprensión de cuándo no se permite una acción que intentan realizar en un registro:
+   >
+   >* Los campos exactos para los que está configurada la regla.
+   >* La consecuencia exacta si no se cumple la regla.
+
+   Hay indicadores en el campo **Fórmula** cuando un campo o una expresión son incorrectos.  <!--add screen shot?-->
+
+   En la sección **Then** de la regla de negocio, puede ver una explicación de lo que hace la regla.
+
+1. Haga clic en **Activar** para activar la regla para este tipo de registro y, a continuación, haga clic en **Guardar**.
+
+   Las reglas se aplican inmediatamente después de activarlas y todos los usuarios que tengan permisos para editar o eliminar registros en el tipo de registro seleccionado deben seguirlas.
+1. (Opcional y recomendada) Haga clic en la flecha hacia atrás situada a la izquierda de **Reglas de negocio** en el encabezado de página para mostrar la página de tipo de registro, ir a una vista de tabla o abrir la página de un registro; a continuación, intente editar o eliminar un registro para probar la regla que acaba de crear.
+
+## Administrar reglas empresariales
+
+Puede editar, eliminar o desactivar las reglas de negocio existentes.
+
+La edición de una regla existente no cambia los registros existentes. La regla editada solo se aplica a los registros existentes cuando alguien intenta editarlos o eliminarlos.
+
+1. Vuelva a la página de configuración de **Reglas de negocio** para el tipo de registro.
+1. Busque la regla que desee cambiar.
+1. Pase el ratón sobre el nombre de la regla y luego haga clic en el menú **Más** ![Menú más](assets/more-menu.png), a continuación, elija una de las siguientes opciones:
+
+   * **Editar**: Esto abre la página de configuración de regla de negocio y puede editar información sobre ella.
+   * **Desactivar**: <!--check this in the UI: right now, it says Disable--> Esto evitará que la regla se active, pero se conservará para el futuro.
+   * **Eliminar**: se elimina toda la información sobre la regla. Las reglas eliminadas no se pueden recuperar.
+
+   Las reglas editadas o la desactivación de reglas solo se aplican a registros futuros y no se aplican de forma retroactiva.
+
+   <!--add screen shot if UI is fixed with Deactivate-->
+
 
 <!--
 
@@ -117,18 +179,9 @@ If the field is empty, the status change is blocked and the person gets a clear 
 
 A few important things this is *not*:
 
-* **It doesn't block record creation.** People can still create a new record instantly and fill it in over time, exactly like today.
+* **It doesn't block record creation.** People can still create a new record instantly and fill it in over time, exactly like today. 
 * **It doesn't auto-fill anything or auto-change statuses.** A person always has to make the status change themselves.
 * **It doesn't retroactively flag old records.** Records that are already sitting in the target status aren't affected — the check only runs the next time someone tries to move a record *into* that status.
-
-
-
-### Before you start
-
-A couple of things need to be true before you can configure rules:
-
-1. **The feature has to be turned on for your organization.** This is done on Adobe's side (via a feature flag), not something you enable yourself. If you don't see the business rules section described below, check with your Adobe contact to confirm it's been enabled for your tenant.
-2. **You need admin or workspace-configurator permissions.** Regular planners can't create or edit rules — only people managing the workspace setup can.
 
 ### Step 1: Open the business rules configuration area
 
@@ -141,8 +194,6 @@ Business rules live alongside your other admin setup — you won't need to hunt 
 ### Step 2: Choose the record type
 
 Rules are configured per record type, so pick the one you want to add a rule to. For example, if you want to make sure every Materials record has key fields filled in before execution, select **Materials**.
-
-
 
 ### Step 3: Create a new rule
 
