@@ -9,19 +9,12 @@ feature: System Setup and Administration, Workfront Integrations and Apps, Digit
 role: Admin
 exl-id: cf5c4e3d-b45f-46cd-a938-22e412d1c491
 TQID: https://experienceleague.adobe.com/RUHFPYpCgZq0qAMGB8-Na2olK7uHVtViIcygLUiTkSo
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
-subfeature_v2:
-  - id: c4a58f26-aa43-4761-aafe-56f1e034d7d5
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 94f14afac621d7a0e41daceeb8eb7a5d2682f911
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2: id: c4a58f26-aa43-4761-aafe-56f1e034d7d5
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: bf611a79078eac9cf8f78a20ddc83079b36a7de5
 workflow-type: tm+mt
 source-wordcount: 1184
 ht-degree: 8%
@@ -208,7 +201,7 @@ Una vez creada la integración de documentos personalizada, puede ponerla a disp
 
    [!DNL Workfront] utiliza esta clave de API para realizar llamadas de API autorizadas al proveedor de documentos.
 
-1. <span class="preview">(Opcional) Para habilitar la compatibilidad con archivos de gran tamaño, seleccione **[!UICONTROL Habilitar la carga fragmentada para archivos de gran tamaño]** en la sección **[!UICONTROL Compatibilidad con archivos de gran tamaño]** y, a continuación, introduzca el tamaño máximo del fragmento, en MB, en el campo **[!UICONTROL Umbral de carga fragmentada (MB)]**. Este campo acepta valores de hasta 100 MB. Cuando se habilita, los archivos de más de 25 MB se cargan en fragmentos de este tamaño en lugar de en una sola solicitud.</span>
+1. (Opcional) <span class="preview">Para habilitar la compatibilidad con archivos de gran tamaño, seleccione **[!UICONTROL Habilitar la carga interrumpida para archivos de gran tamaño]** en la sección **[!UICONTROL Compatibilidad con archivos de gran tamaño]** y, a continuación, introduzca el tamaño máximo del fragmento, en MB, en el campo **[!UICONTROL Umbral de carga interrumpida (MB)]**. Este campo acepta valores de hasta 100 MB. Cuando se habilita, los archivos de más de 25 MB se cargan en fragmentos de este tamaño en lugar de en una sola solicitud.</span>
 
 1. Haga clic en **[!UICONTROL Guardar]** para crear la integración.
 
