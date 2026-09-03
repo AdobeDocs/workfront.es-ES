@@ -6,18 +6,13 @@ author: Jenny
 feature: Get Started with Workfront
 exl-id: e4d200c6-7f35-4919-96d3-2880a655ed62
 TQID: https://experienceleague.adobe.com/JKswbVxwKRxGdUpn7GlLRNwu7lDLxGOL3l-ZD4SffKE
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 0b736e536664ca458ec253f3b8274060bd58d56e
 workflow-type: tm+mt
-source-wordcount: 2065
+source-wordcount: 2100
 ht-degree: 4%
 
 ---
@@ -26,7 +21,8 @@ ht-degree: 4%
 
 >[!IMPORTANT]
 >
->Actualmente, la función Estado del proyecto solo está disponible para los usuarios que participan en la fase beta.
+>* A partir de septiembre de 2026, AI Assistant pasará a ser CX Coworker, una interfaz conversacional para realizar el trabajo. Para obtener información sobre CX Coworker, consulte [Información general de CX Coworker](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md).
+>* Actualmente, la función Estado del proyecto solo está disponible para los usuarios que participan en la fase beta.
 
 La función Project Health de Adobe Workfront utiliza la potencia de AI Assistant para ofrecerle instantáneamente una evaluación del rendimiento de sus proyectos, qué áreas necesitan su atención y cómo evitar problemas que pueden costarle tiempo y dinero.
 
@@ -328,7 +324,7 @@ Para generar una evaluación de estado del proyecto para un proyecto o programa:
 
    >[!NOTE]
    >
-   >Si está accediendo al Asistente de IA desde una página diferente de Workfront, puede escribir *¿Cuál es el estado del proyecto [NOMBRE DEL PROYECTO]?* o *¿Cuál es el estado del programa [NOMBRE DEL PROGRAMA]?* <br>
+   >Si accede al Asistente de IA desde una página diferente de Workfront, escriba *¿Cuál es el estado del proyecto [NOMBRE DEL PROYECTO]?* o *¿Cuál es el estado del programa [NOMBRE DEL PROGRAMA]?* <br>
    >Para obtener una lista completa de los mensajes actuales que puede escribir, consulte la sección [Lista de mensajes del Asistente de IA](#ai-assistant-prompts-list) en este artículo.
 
 1. Haga clic en el icono **Enviar** ![Enviar icono](assets/send-icon.png). La evaluación del estado del proyecto se genera y se muestra en el panel. Se muestra un distintivo en la parte superior de cada evaluación de estado del proyecto, que refleja la condición actual del proyecto.
