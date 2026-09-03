@@ -10,25 +10,15 @@ exl-id: 2df8522e-7eee-4440-be0f-f7483c5acdb0
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/LGLJV7JroMRc1SmwEjCRGnF5FRDuaH4k7oqpmGl11bI
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
-  - id: b91c0848-76c4-4da4-8b81-3aade0518dd0
-  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
-  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87effid: b91c0848-76c4-4da4-8b81-3aade0518dd0id: d87de1f9-8e24-4c4d-aa4c-a403075091a1id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: ab475d9e655250410ae6f1ee1ca458533cbea127
 workflow-type: tm+mt
-source-wordcount: 3074
-ht-degree: 67%
+source-wordcount: 3125
+ht-degree: 68%
 
 ---
 
@@ -39,13 +29,9 @@ ht-degree: 67%
 <!--take out production and preview references and new/ old experiences at release-->
 
 <!--
-<div class="preview"> 
+<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with a week from the Preview release.      
-
-For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
-
-</div>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 -->
 
 Después de crear una plantilla, puede editar la información de las tareas de plantilla. La información que actualiza en una tarea de plantilla se asocia a tareas de proyecto después de utilizar la plantilla para crear un proyecto o de adjuntar la plantilla a un proyecto.
@@ -150,10 +136,10 @@ Puede editar una tarea de plantilla mediante las áreas Editar tarea de plantill
       * Haga clic en el icono **Editar** ![Editar icono](assets/edit-icon.png) y, a continuación, seleccione una de las áreas siguientes o haga clic en **Editar todo** para editar la información de todas las áreas:
 
 
-         * Información general
-         * Formularios personalizados
-Los nombres de los formularios personalizados solo se muestran si hay formularios personalizados adjuntos a la tarea de plantilla.
-         * Finanzas
+        * Información general
+        * Formularios personalizados
+          Los nombres de los formularios personalizados solo se muestran si hay formularios personalizados adjuntos a la tarea de plantilla.
+        * Finanzas
 
         >[!TIP]
         >
@@ -411,7 +397,7 @@ Los nombres de los formularios personalizados solo se muestran si hay formulario
    <td> <p>Especifique el número de horas planificadas para la tarea, en horas. Esta es la cantidad de tiempo real que tardarían los usuarios asignados a la tarea en completarla. Solamente puede especificar el número de horas planificadas para una tarea cuando el tipo de duración está establecido en Asignación calculada. Para obtener más información sobre los tipos de duración, consulte <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">Información general de la duración de la tarea y tipos de duración</a>.</p> 
    <b>NOTA</b>
    <p>
-   Al crear tareas recurrentes, las horas planificadas son las de cada ocurrencia. Las horas planificadas de las tareas principales son el total de todas las horas planificadas de todas las ocurrencias. Para obtener información acerca de la creación de tareas recurrentes, vea <a href="../../../manage-work/tasks/create-tasks/create-recurring-tasks.md" class="MCXref xref">Crear tareas recurrentes</a>.
+   Al crear tareas recurrentes, las horas planificadas son las de cada ocurrencia. Las horas planificadas de las tareas principales son el total de todas las horas planificadas de todas las ocurrencias. Para obtener información acerca de la creación de tareas recurrentes, consulte <a href="../../../manage-work/tasks/create-tasks/create-recurring-tasks.md" class="MCXref xref">Crear tareas recurrentes</a>.
    </p>
 
    </td> 
@@ -505,13 +491,13 @@ También puede agregar formularios personalizados a las tareas futuras de un pro
 
 1. Seleccione el formulario o formularios personalizados que desee asociar a la tarea de plantilla.
 
-   Debe crear los formularios personalizados antes de que estén disponibles para seleccionarlos en este campo.
-En la lista solo se muestran los formularios personalizados activos.
+   Debe generar los formularios personalizados antes de que estén disponibles para seleccionarlos en este campo.
+   En la lista solo se muestran los formularios personalizados activos.
 
    Para obtener más información sobre la creación de formularios personalizados, consulte [Crear un formulario personalizado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
    Puede agregar hasta diez formularios personalizados a una tarea de plantilla.
-Los formularios se agregan automáticamente a las tareas creadas a partir de la plantilla.
+   Los formularios se añaden automáticamente a las tareas creadas a partir de la plantilla.
 1. (Condicional y opcional) Si adjuntó un formulario personalizado a la tarea de plantilla, edite los campos del formulario. Debe especificar todos los campos obligatorios antes de guardar la tarea de plantilla.
 
    >[!NOTE]

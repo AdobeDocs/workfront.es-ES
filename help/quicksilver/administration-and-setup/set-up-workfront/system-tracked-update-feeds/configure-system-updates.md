@@ -11,20 +11,15 @@ exl-id: 54fc3f77-57d1-47f1-8e16-73626a6733ec
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/xucBhD4dm4gA-BJt-mqb3Lstxgc5NFGd49rJhX1MGRk
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 4313f348fb66d649ad25afb7f2fad2b533a912d6
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: ab475d9e655250410ae6f1ee1ca458533cbea127
 workflow-type: tm+mt
-source-wordcount: 958
-ht-degree: 48%
+source-wordcount: 1032
+ht-degree: 45%
 
 ---
 
@@ -32,16 +27,10 @@ ht-degree: 48%
 
 <!-- Audited: 08/2025 -->
 
-<!--
 
-<div class="preview">
+<span class="preview">La información de esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa para todos los clientes. Después del lanzamiento en Vista previa, las mismas funciones también están disponibles mensualmente en el entorno de producción para los clientes que habilitaron lanzamientos rápidos. </span>
 
-The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release.     
-
-For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md). 
-
-</div>
--->
+<span class="preview">Para obtener información sobre las versiones rápidas, consulte [Habilitar o deshabilitar las versiones rápidas para su organización](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 [!DNL Adobe Workfront] genera actualizaciones automáticas del sistema en el área [!UICONTROL Actualizaciones] de un objeto para registrar los eventos siguientes:
 
@@ -270,6 +259,6 @@ Para configurar de qué acciones desea que [!DNL Workfront] realice un seguimien
 1. Seleccione la casilla de verificación de una acción para activarla o desactívela para desactivarla.
 1. Haga clic en **[!UICONTROL Guardar]**.
 
-   <!--<span class="preview">The **Save** button has been removed from the Preview environment and changes are saved automatically. </span>-->
+   <span class="preview">El botón **Guardar** se ha eliminado del entorno de vista previa y los cambios se guardan automáticamente. </span>
 
 

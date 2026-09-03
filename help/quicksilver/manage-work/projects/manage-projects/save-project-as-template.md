@@ -9,22 +9,15 @@ exl-id: 4b5dfe12-f984-47c6-8e19-78b549f19159
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/LtLVPYF-n-V6dSkEbc-oSwsX5QkEVeyYjHyZV-eZy4M
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
-  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: d87de1f9-8e24-4c4d-aa4c-a403075091a1id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: ab475d9e655250410ae6f1ee1ca458533cbea127
 workflow-type: tm+mt
-source-wordcount: 473
-ht-degree: 56%
+source-wordcount: 491
+ht-degree: 54%
 
 ---
 
@@ -37,13 +30,9 @@ ht-degree: 56%
 -->
 
 <!--
-<div class="preview">
+<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release.     
-
-For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md). 
-
-</div>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 -->
 
 Si decide que un proyecto se va a repetir en algún momento futuro, puede crear una plantilla a partir de ese proyecto existente. En adelante, puede volver a utilizar la plantilla para crear proyectos futuros que puedan contener información similar o que puedan compartir la misma cronología o asignaciones con el proyecto existente.
@@ -209,7 +198,7 @@ Saving a project as a template differs in the Production and the Preview environ
 1. Haga clic en **Forms personalizado** en el panel izquierdo para quitar o reordenar los formularios.
 
    Para reordenar los formularios, arrástrelos y suéltelos en el orden correcto.
-Para quitar un formulario, selecciónelo y haga clic en **Quitar**. Haga clic en **Cancelar** para quitar los formularios seleccionados.
+   Para quitar un formulario, selecciónelo y haga clic en **Quitar**. Haga clic en **Cancelar** para quitar los formularios seleccionados.
 
    ![Área de formularios personalizados en el cuadro Guardar como plantilla](assets/custom-forms-ara-in-save-as-template-box.png)
 

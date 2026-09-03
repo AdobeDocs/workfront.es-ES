@@ -8,7 +8,7 @@ feature: Workfront Scenario Planner
 exl-id: 74515723-3822-425a-aa9e-970af63f9189
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: a84a7fadd821ddb30c72a88335716bbabb5783b4
+source-git-commit: ab475d9e655250410ae6f1ee1ca458533cbea127
 workflow-type: tm+mt
 source-wordcount: '563'
 ht-degree: 69%
@@ -133,8 +133,7 @@ Se muestra una lista de planes.
 
    >[!TIP]
    >
-   ><span class="preview">También puede eliminar un plan de una lista seleccionándolo y luego haciendo clic en **Eliminar** en la parte inferior de la lista para eliminarlo.</span>
-
+   ><span class="preview">También puede eliminar un plan de una lista seleccionándolo y luego haciendo clic en **Eliminar** en la parte inferior de la lista para eliminarlo.</span> <!--move the tip as the main step when we release this??-->
 
    El plan se elimina y usted vuelve a la lista de planes.
 

@@ -4,22 +4,18 @@ product-area: system-administration
 navigation-topic: configure-system-defaults
 title: Crear cuadro de resultados
 description: Un cuadro de resultados mide en qué medida un proyecto se ajusta a los criterios previamente establecidos de un portafolio. Un cuadro de resultados suele reflejar la misión, los valores y las metas estratégicas de una organización.Los administradores de Portfolio suelen definir las preguntas y respuestas del cuadro de resultados para garantizar que sean significativas y valiosas durante la priorización y selección del proyecto. Un administrador de  [!DNL Adobe Workfront]  crea los cuadros de resultados en función de las recomendaciones de los administradores de portafolios.
-author: Becky
+author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 89c9b450-72a6-4b72-98d1-22956696543a
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/Moddac2gKcXbmssSrzrMMcxuj-7al8Md76Vkjw-CSoY
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a84a7fadd821ddb30c72a88335716bbabb5783b4
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: ab475d9e655250410ae6f1ee1ca458533cbea127
 workflow-type: tm+mt
 source-wordcount: 846
 ht-degree: 61%
@@ -128,7 +124,6 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
 1. Haga clic en **[!UICONTROL Guardar]**.
 
    Esto crea el cuadro de resultados y los jefes de proyecto ahora pueden adjuntarlo a su caso comercial del proyecto.
-
 
 
 1. <span class="preview">(Opcional) Para editar un cuadro de mandos, selecciónelo en la lista de cuadros de mandos y, a continuación, haga clic en **Editar** ![Editar cuadro de mandos](assets/edit-scorecard-icon.png) en la parte inferior de la lista. </span>
