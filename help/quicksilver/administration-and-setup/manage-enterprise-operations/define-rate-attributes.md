@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: d570ef6a-935f-4dd0-9c54-a480163ec9d8
-source-git-commit: 606ed09cef82c5cef853fea990b0d3a235534b84
+source-git-commit: d5694e2f94ded811e90b31f315896914ca31fc9f
 workflow-type: tm+mt
-source-wordcount: '1390'
+source-wordcount: '1385'
 ht-degree: 2%
 
 ---
@@ -18,6 +18,7 @@ ht-degree: 2%
 # Definir atributos de tasa
 
 Los atributos de tasa amplían la funcionalidad de tarjeta de tasa y tasas de Adobe Workfront al permitirle añadir dimensiones adicionales a las tasas más allá de la función de trabajo. Esto es crítico para las agencias y empresas donde las tasas varían no solo por rol sino también por factores como agencia, ubicación, marca, centro de costo u otros.
+
 Al combinar estos atributos, Workfront puede seleccionar automáticamente la tasa correcta para las asignaciones, lo que garantiza la precisión financiera y la coherencia en todos los proyectos.
 
 Los atributos de tasa están pensados para ser una configuración fundamental de una sola vez.
@@ -34,9 +35,9 @@ Los atributos de tasa se consideran una configuración única porque:
 * Las tasas, las asignaciones, los valores planificados y los valores reales dependen de los valores de atributo elegidos.
 * Cambiar atributos más adelante (cambiar el nombre, eliminar o reordenar) puede causar lo siguiente:
 
-   * Pérdida de vinculación entre tasas y atributos
-   * Tarifas no válidas o &quot;huérfanas&quot;
-   * Desalineación en facturación e informes
+  * Pérdida de vinculación entre tasas y atributos
+  * Tarifas no válidas o &quot;huérfanas&quot;
+  * Desalineación en facturación e informes
 
 Por estos motivos, los atributos deben diseñarse cuidadosamente durante la implementación inicial de Workfront y no cambiarse posteriormente.
 
@@ -63,8 +64,8 @@ Esto permite que la configuración duplique la estructura de su empresa y, al mi
 
 * Workfront admite hasta 5 niveles de atributos. El sistema siempre sigue la jerarquía de atributos y selecciona la coincidencia disponible más específica.
 
-   * 0 = tipo base genérico
-   * 1 - 5 = tasas progresivamente más específicas
+  * 0 = tipo base genérico
+  * 1 - 5 = tasas progresivamente más específicas
 
 * Puede cambiar el nombre de los atributos para que reflejen su negocio (Agencia, Marca, Mercado, Centro de costes, etc.).
 * La configuración es de una sola vez: si se cambian los atributos más adelante se corre el riesgo de dañar la integridad de los datos financieros.
@@ -187,13 +188,13 @@ Los filtros siempre deben configurarse en ambas direcciones. Si el atributo A ti
 
    * **Tipo de filtro**:
 
-      * Un filtro **Standard** aplica una condición universal al objeto de atributo. Por ejemplo, Ubicación > Está activo = Verdadero (solo se mostrarán las ubicaciones activas).
+     * Un filtro **Standard** aplica una condición universal al objeto de atributo. Por ejemplo, Ubicación > Está activo = Verdadero (solo se mostrarán las ubicaciones activas).
 
-        El filtro Estándar siempre se aplica, independientemente de si están seleccionados otros atributos.
+       El filtro Estándar siempre se aplica, independientemente de si están seleccionados otros atributos.
 
-      * Un filtro **Atributo** vincula un atributo con otro de la cadena. Por ejemplo, Ubicación > Referencia = Agencia (solo se mostrarán las ubicaciones vinculadas a la Agencia seleccionada).
+     * Un filtro **Atributo** vincula un atributo con otro de la cadena. Por ejemplo, Ubicación > Referencia = Agencia (solo se mostrarán las ubicaciones vinculadas a la Agencia seleccionada).
 
-        El filtro Attribute solo se aplica si el atributo al que se hace referencia tiene un valor. Por ejemplo, si se selecciona Agencia, solo se sugieren ubicaciones válidas. Si la Agencia está en blanco, se muestran todas las ubicaciones (pero pueden estar limitadas por los filtros estándar aplicados a la ubicación).
+       El filtro Attribute solo se aplica si el atributo al que se hace referencia tiene un valor. Por ejemplo, si se selecciona Agencia, solo se sugieren ubicaciones válidas. Si la Agencia está en blanco, se muestran todas las ubicaciones (pero pueden estar limitadas por los filtros estándar aplicados a la ubicación).
 
    * **Campo**: Campo directo del objeto de atributo, como Id. de ubicación o Indicador activo.
    * **Operador**: estas opciones dependen del tipo de campo seleccionado. Algunos ejemplos son Igual a, No es igual a, Está en blanco, Verdadero/Falso.

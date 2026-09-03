@@ -17,14 +17,16 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: d5694e2f94ded811e90b31f315896914ca31fc9f
 workflow-type: tm+mt
-source-wordcount: 222
-ht-degree: 21%
+source-wordcount: 256
+ht-degree: 18%
 
 ---
 
 # Eliminación de una condición personalizada
+
+{{preview-fast-release-general}}
 
 Puede eliminar una condición personalizada si ya no la necesita.
 
@@ -63,8 +65,9 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
 1. Haga clic en **Preferencias del proyecto** > **Condiciones**.
 
 1. Seleccione la ficha del tipo de objeto (**Proyecto**, **Tarea** o **Problema**) donde se encuentra la condición que desea eliminar.
+1. En el entorno Producción, haga clic en **Eliminar** junto al nombre de la condición que desee eliminar.
+   <span class="preview">En el entorno de vista previa, active la casilla de verificación situada junto al nombre de la condición que desea eliminar y haga clic en **Eliminar** en la barra de acciones de la parte inferior de la pantalla.</span>
 
-1. Haga clic en **Eliminar** junto al nombre de la condición que desee eliminar.
 1. En el cuadro **Eliminar condición** que aparece, seleccione una nueva condición en la lista desplegable para todos los proyectos, tareas o problemas que estaban utilizando la condición que está eliminando.
 
    Las condiciones personalizadas solo están disponibles en la lista desplegable si se equiparan con la misma condición integrada que la que está eliminando. Por ejemplo, si elimina una condición que es igual a En riesgo, solo se podrán seleccionar las condiciones personalizadas que también sean iguales a En riesgo.

@@ -18,9 +18,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 4313f348fb66d649ad25afb7f2fad2b533a912d6
+source-git-commit: ebf8d5ed1eb0b49315bbe10718c5065fcc871654
 workflow-type: tm+mt
-source-wordcount: 3202
+source-wordcount: 3318
 ht-degree: 2%
 
 ---
@@ -74,18 +74,31 @@ A continuación se muestran algunos tipos de listas de objetos de Workfront que 
 | --- | --- |
 | Prioridades | <ul><li>Inicio > seleccione el icono Prioridades en el menú de la izquierda</li><li>Menú principal > Prioridades</li></ul> |
 | Lista de solicitudes | <ul><li>Solicitudes (solo nueva experiencia)</li><li>Widget de Mis solicitudes en Inicio</li></ul> |
-| Listas de estados, prioridades, gravedades y tasas de cambio en Configuración | <ul><li>Configuración > Preferencias de proyecto > Estados</li><li>Configuración > Preferencias del proyecto > Prioridades</li><li>Configuración > Preferencias del proyecto > Gravedades</li><li>Configuración > Preferencias del proyecto > Tasas de cambio</li></ul> |
-| Lista de informes | Informes (**Use carpetas compartibles** debe estar activado) |
+| Listas de estados, prioridades, gravedades, <span class="preview">condiciones</span> y tasas de cambio en Configuración | <ul><li>Configuración > Preferencias de proyecto > Estados</li><li>Configuración > Preferencias del proyecto > Prioridades</li><li>Configuración > Preferencias del proyecto > Gravedades</li><li><span class="preview">Configuración > Preferencias de proyecto > Condiciones</span></li><li>Configuración > Preferencias del proyecto > Tasas de cambio</li></ul> |
+| <span class="preview">Listas de acciones y campos rastreados en las fuentes de actualización</span> | <ul><li><span class="preview">Configuración > Interfaz > Actualizar fuentes > Pestaña Campos rastreados</span></li> <li><span class="preview">Configuración > Interfaz > Actualizar fuentes > pestaña Acciones</span></li></ul> |
+| <span class="preview">Lista de cuadros de resultados</span> | <span class="preview">Configuración > Cuadros de resultados</span> |
+| <span class="preview">Lista de tipos de riesgos</span> | <span class="preview">Configuración > Tipos de riesgos</span> |
 | Lista de funciones y tarifas del puesto en una tarjeta de tarifas | Configuración > Tarjetas de tarifas > seleccione una tarjeta de tarifas > Funciones del puesto y tarifas |
+| <span class="preview">Lista de ubicaciones</span> | <span class="preview">Configuración > Ubicaciones</span> |
 | Lista de traducciones | Configuración > Localización |
+| <span class="preview">Listas de integraciones </span> | <ul><li><span class="preview">Configuración > Documentos > Integración de SharePoint</span></li><li><span class="preview">Configuración > Documentos > Integración personalizada</span></li></ul> |
+| Lista de informes | Informes (**Use carpetas compartibles** debe estar activado) |
 | Lista de instantáneas | Proyecto > Instantáneas |
 | Lista de medios para facturación | Proyecto > Recurso de facturación |
 | Nuevas asignaciones avanzadas en una tarea | Tarea > Asignaciones > Avanzadas |
+| <span class="preview">Vista de todas las versiones de un documento</span> | <span class="preview">Proyecto > Documentos > Detalles del documento > Todas las versiones</span> |
 | Vista de administración de tableros | Tableros > Vista de administración |
 | Documentos en el almacenamiento en la nube de Adobe | Proyecto, tarea, problema, portafolio, programa, plantilla, tarea de plantilla > Documentos |
+| <span class="preview">Listas de planes de escenario e iniciativas</span> | <span class="preview">Menú principal > Escenarios</span> |
+| <span class="preview">Listas de metas e indicadores de progreso</span> | <ul><li><span class="preview">Menú principal > Metas</span></li><li><span class="preview">Menú principal > Objetivos > Indicadores de progreso</span></li></ul> |
+
 <!--
-Add this BEFORE a list of reports in the table above:
-| <span class="preview">List of actions in the Update Feeds</span> | <span class="preview">Setup > Interface > Update Feeds > Actions tab</span> |
+
+Last bullet in "Lists of integrations" <li><span class="preview">Setup > Documents > Experience Manager Assets</span></li>
+
+Under Locations?
+| <span class="preview">Lists of timesheet profiles and hour types</span> | <span class="preview"><ul><li>Setup > Timesheets and Hours > Timesheet Profiles</li><li>Setup > Timesheets and Hours > Hour Types</li></ul></span> |
+
 -->
 
 ## Agregar elementos a una lista mejorada
@@ -164,9 +177,16 @@ En función de los objetos que visualice en una lista mejorada, puede ocultar, m
 
 1. Haga clic en **Columnas** sobre la lista.
 
+   Imagen de muestra en el entorno de producción:
    ![Ejemplo de columnas de visualización](assets/glist-display-move-columns.png)
 
+   <span class="preview">Imagen de muestra en el entorno de vista previa:</span>
+   ![Ejemplo de columnas de visualización](assets/display-columns-090126.png)
+
 1. Utilice las teclas de alternancia para mostrar u ocultar columnas de la lista.
+
+<span class="preview">Puede buscar una columna en el cuadro de búsqueda.</span>
+
 1. Para reordenar las columnas, haga clic en el icono **Arrastrar** ![Arrastrar icono](assets/drag-icon.png) y mueva una columna a la ubicación que desee. Al mover columnas, la lista cambia automáticamente.
 
    >[!NOTE]

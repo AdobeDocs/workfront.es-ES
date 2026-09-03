@@ -20,9 +20,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: dbb2e1aee18e6435a79ee2071f0bd5ba84ce2af3
+source-git-commit: bf52de7515f8bcb29649b22c1fe40d5a7e306018
 workflow-type: tm+mt
-source-wordcount: 1593
+source-wordcount: 1599
 ht-degree: 67%
 
 ---
@@ -76,13 +76,12 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
 
 {{step-1-to-setup}}
 
-1. Si crea o edita un perfil de hoja de horas para utilizarlo en todo el sistema, haga clic en **Hoja de horas y horas**.
+1. Para crear o editar un perfil de hoja de horas para usarlo en todo el sistema, haga clic en **Hoja de horas y horas > Perfiles de hoja de horas**.
 
    O
 
-   Si crea o edita un perfil de hoja de horas para un grupo, haga clic en **Grupos** y luego haga clic en el nombre del grupo.
+   Para crear o editar un perfil de hoja de horas para un grupo, haga clic en **Grupos**, haga clic en el nombre del grupo y, a continuación, haga clic en **Perfiles de hoja de horas** en el panel izquierdo.
 
-1. Haga clic en **Perfiles de plantilla de horas**.
 1. Para crear un perfil de hoja de horas, haz clic en **Nuevo perfil**.
 
    O
