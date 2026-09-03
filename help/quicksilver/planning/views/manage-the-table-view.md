@@ -9,25 +9,21 @@ exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/oajBrzqCNgufbSJPP0Wx8aI14d8VM7IFr-Hn1ed7Wks
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a1b1bc6013697405137110f4ce6fa329222f57e0
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 6f64c3e6ebb8407c38ad3a1d46b2fc63b534879e
 workflow-type: tm+mt
-source-wordcount: 4047
+source-wordcount: 4041
 ht-degree: 49%
 
 ---
 
 # Administrar la vista de tabla
 
+<!-- remove Production and Preview references at release-->
 
 <span class="preview">La información resaltada en esta página hace referencia a funcionalidades que aún no están disponibles de forma general. Solo está disponible en el entorno de vista previa para todos los clientes. Después del lanzamiento en Vista previa, las mismas funciones también están disponibles mensualmente en el entorno de producción para los clientes que habilitaron lanzamientos rápidos. </span>
 
@@ -190,7 +186,7 @@ De forma predeterminada, se muestra lo siguiente en una vista de tabla:
 <!--
 <div class="preview">
 
-* 500 records upload automaticall. Additional records display as you scroll the view. 
+* 500 records upload automatically. Additional records display as you scroll the view. 
 
 </div>
 -->
@@ -244,6 +240,8 @@ Puede añadir hasta 500 campos (o columnas) en una vista de tabla.
    * Arrastre el encabezado de la columna y suéltelo en la posición deseada. La columna que ha movido se mostrará brevemente con un fondo azul hasta que realice otros ajustes en la tabla.
 
    * Haga clic en **Campos** en la barra de herramientas de la tabla, arrastre y suelte los campos en el orden deseado y, a continuación, haga clic fuera del cuadro **Visibilidad y orden de los campos** para cerrarlo.
+
+     <!--update the screen shot without Thumbnail at Production release-->
 
      ![Campos configurando la barra de herramientas de la vista de tabla expandida](assets/fields-setting-table-view-toolbar-expanded.png)
 
@@ -360,26 +358,31 @@ Puede tener hasta 50 000 registros (o filas) para un tipo de registro.
    ><span class="preview">En la línea de arrastre y suelte, un indicador de número muestra el número de registros seleccionados, si hay más de uno. </span>
 
 1. (Opcional) Haga clic en el menú **Más** ![Menú más](assets/more-menu.png) que se encuentra a la derecha del registro y, a continuación, haga clic en **Editar miniatura** para editar la miniatura.
-1. Haga clic en **Campos** en la parte superior de la tabla y, a continuación, seleccione la opción del campo **Miniatura** para mostrarlo a la izquierda del campo principal. De forma predeterminada, no está seleccionado.
+1. Haga clic en **Campos** en la parte superior de la tabla en el entorno de producción
+
+   O
+
+   <span class="preview">Pase el ratón sobre el encabezado del campo principal</span> y, a continuación, seleccione la opción del campo **Miniatura** para mostrarlo a la izquierda del campo principal. De forma predeterminada, no está seleccionado.
 
    Para obtener más información, consulte [Añadir una miniatura a un registro](/help/quicksilver/planning/records/add-thumbnails-to-records.md).
 
-1. <span class="preview">(Opcional) Haga clic en **Campos** en la parte superior de la tabla y, a continuación, haga clic en **Color** para mostrar el color de un registro a la izquierda de su campo principal. Los colores se asignan aleatoriamente de forma predeterminada para cada nuevo registro. La opción **Color** no está seleccionada de forma predeterminada.</span>
+1. <span class="preview">Haga clic en **Campos** en la parte superior de la tabla</span>
+
+   O
+   <span class="preview">Pase el ratón sobre el encabezado del campo principal y, a continuación, seleccione la opción del campo **Color** para mostrarlo a la izquierda del campo principal. De forma predeterminada, no está seleccionada. </span>
 
 1. <span class="preview"> (opcional y condicional) Si activó la opción **Color**, haga clic en la barra de color a la izquierda del campo principal del registro, seleccione un color de las fichas **Muestras** o **Personalizadas** y, a continuación, haga clic fuera del cuadro para cerrarlo. El color se aplica inmediatamente.</span>
 
-   <div class="preview">
+<div class="preview">
 
-   ![Cuadro selector de color con codificación de color de registro](assets/color-picker-for-record-color-coding.png)
+![Cuadro selector de color con codificación de color de registro](assets/color-picker-for-record-color-coding.png)
 
-   Para obtener más información, consulte [Creación de registros](/help/quicksilver/planning/records/create-records.md).
+Para obtener más información, consulte [Creación de registros](/help/quicksilver/planning/records/create-records.md).
 
-   </div>
+</div>
 
 
 ### Añadir filtros {#add-filters-1}
-
-Los filtros le ayudan a reducir la cantidad de información que se muestra en la pantalla.
 
 Los filtros le ayudan a reducir la cantidad de información que se muestra en la pantalla.
 
@@ -589,7 +592,7 @@ Tenga en cuenta lo siguiente:
 
 * Es posible aplicar agrupaciones tanto en las vistas de tabla como de cronología. Las agrupaciones de la vista de tabla son independientes de las de la vista de cronología del mismo tipo de registro.
 * Se pueden aplicar 3 niveles de agrupación en una vista. Los registros se agrupan en el orden de agrupaciones que se seleccione.
-&lt;!—!—**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;*** * Puede aplicar hasta 4 niveles de agrupación al utilizar la API. —comprobando este por ahora &#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**—>
+&lt;!—!—*************** * Puede aplicar hasta 4 niveles de agrupación al utilizar la API. —comprobando este por ahora ******************—>
 * Las agrupaciones son únicas para la vista que se seleccione. Dos vistas de tabla del mismo tipo de registro pueden tener diferentes agrupaciones aplicadas. Dos usuarios que vean la misma vista de tabla verán la misma agrupación que se aplique en ese momento.
 * No se puede asignar un nombre a las agrupaciones que se generen para una vista de tabla.
 * Al quitar las agrupaciones, se quitarán de cualquier usuario que tenga acceso al mismo tipo de registro y que muestre la misma vista que usted.

@@ -8,14 +8,18 @@ feature: Workfront Scenario Planner
 exl-id: 74515723-3822-425a-aa9e-970af63f9189
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: a84a7fadd821ddb30c72a88335716bbabb5783b4
 workflow-type: tm+mt
-source-wordcount: '479'
-ht-degree: 82%
+source-wordcount: '563'
+ht-degree: 69%
 
 ---
 
 # Eliminar planes en el [!DNL Scenario Planner]
+
+<span class="preview">La información de esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa para todos los clientes. Después del lanzamiento en Vista previa, las mismas funciones también están disponibles mensualmente en el entorno de producción para los clientes que habilitaron lanzamientos rápidos. </span>
+
+<span class="preview">Para obtener información sobre las versiones rápidas, consulte [Habilitar o deshabilitar las versiones rápidas para su organización](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 Puede eliminar los planes que ha creado. No puede eliminar planes que se hayan compartido con usted.
 
@@ -126,6 +130,11 @@ Se muestra una lista de planes.
 
 1. Seleccione el nombre de un plan para abrirlo.
 1. Haga clic en el **[!UICONTROL menú Más]** ![menú Más](assets/more-menu.png) que se encuentra a la derecha del nombre del plan y luego haga clic en **[!UICONTROL Eliminar]** > **[!UICONTROL Sí, eliminarlo]**.
+
+   >[!TIP]
+   >
+   ><span class="preview">También puede eliminar un plan de una lista seleccionándolo y luego haciendo clic en **Eliminar** en la parte inferior de la lista para eliminarlo.</span>
+
 
    El plan se elimina y usted vuelve a la lista de planes.
 

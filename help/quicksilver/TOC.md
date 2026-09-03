@@ -3,7 +3,7 @@ user-guide-title: Guía de Workfront
 user-guide-description: Utilice los siguientes documentos, tutoriales y recursos adicionales para aprender a implementar y utilizar Adobe Workfront de forma eficaz en su organización.
 role: User
 feature-set: Workfront
-source-git-commit: cf7c7dd6276940be9cd49b7c255ab71656740f1f
+source-git-commit: 722c7a8b78495fb70c57a1e94eb2f49b357060b3
 workflow-type: tm+mt
 source-wordcount: '14480'
 ht-degree: 92%
@@ -2214,7 +2214,7 @@ ht-degree: 92%
     * [Crear tipos de registro importando información desde un archivo CSV o de Excel](planning/architecture/import-file-to-create-record-types.md)
     * [Información general de tipos de registro entre espacios de trabajo](planning/architecture/cross-workspace-record-types-overview.md)
     * [Configuración de capacidades entre espacios de trabajo para tipos de registros](planning/architecture/configure-record-type-cross-workspace-capabilities.md)
-    * {hide-from-toc}[Configurar reglas empresariales de tipo de registro](planning/architecture/configure-business-rules.md)
+    * [Configurar reglas empresariales de tipo de registro](planning/architecture/configure-business-rules.md)
     * [Configuración del área Configuración de un tipo de registro](planning/architecture/configure-record-type-settings.md)
     * [Agregar tipos de registros existentes desde otro espacio de trabajo](planning/architecture/add-existing-record-types-from-another-workspace.md)
     * [Información general sobre conectar tipos de registro](planning/architecture/connect-record-types-overview.md)
@@ -2645,7 +2645,7 @@ ht-degree: 92%
     * [Configure y utilice las aplicaciones OAuth 2 personalizadas de la organización mediante el flujo JWT](wf-api/api/oauth-app-jwt-flow.md)
     * [Configure y utilice las aplicaciones OAuth 2 personalizadas de su organización mediante el flujo PKCE](wf-api/api/oauth-app-pkce-flow.md)
     * [Obsolescencia de la API interna](wf-api/api/deprecation-api-internal.md)
-    * [Novedades de la versión 22 de la API](/help/quicksilver/wf-api/api/new-api-version-22.md)
+    * [Novedades de la versión 22](/help/quicksilver/wf-api/api/new-api-version-22.md) de la API
     * [Novedades de la versión 21 de la API](/help/quicksilver/wf-api/api/new-api-version-21.md)
     * [Novedades de la versión 20 de la API](/help/quicksilver/wf-api/api/new-api-version-20.md)
     * [Novedades de la versión 19 de la API](wf-api/api/new-api-version-19.md)

@@ -9,21 +9,15 @@ exl-id: ed1c4954-b338-4865-a7a9-5ba0192e7b37
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/y0YxGD8b6EflLQ2HyUM2I5Te-vwicjZmO3bsbXJx0LM
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 757cbfd2ae74da7a649bee4d93da862d986ee5a2
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 6f64c3e6ebb8407c38ad3a1d46b2fc63b534879e
 workflow-type: tm+mt
-source-wordcount: 1203
-ht-degree: 12%
+source-wordcount: 1271
+ht-degree: 13%
 
 ---
 
@@ -33,11 +27,11 @@ ht-degree: 12%
 
 # Crear tipos de registro
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+<span class="preview">La información resaltada en esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa para todos los clientes. Después del lanzamiento en Vista previa, las mismas funciones también están disponibles mensualmente en el entorno de producción para los clientes que habilitaron lanzamientos rápidos. </span>
+
+<span class="preview">Para obtener información sobre las versiones rápidas, consulte [Habilitar o deshabilitar las versiones rápidas para su organización](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
 
 {{planning-important-intro}}
 
@@ -293,18 +287,18 @@ Puede añadir manualmente tipos de registros en las secciones Tipos de registros
 
    Los cambios se guardan automáticamente.
 
-   Para obtener información adicional sobre cómo agregar registros, eliminar o editar tipos de registros, <!--<span class="preview">creating business rules</span>--> o actualizar la vista en la página de tipo de registro, vea los siguientes artículos:
+   Para obtener información adicional sobre cómo agregar registros, eliminar o editar tipos de registros, <span class="preview">crear reglas de negocio</span> o actualizar la vista en la página de tipo de registro, vea los siguientes artículos:
 
    * [Crear registros](/help/quicksilver/planning/records/create-records.md)
    * [Eliminar tipos de registro](/help/quicksilver/planning/architecture/delete-record-types.md)
    * [Editar tipos de registro](/help/quicksilver/planning/architecture/edit-record-types.md)
    * [Administrar vistas de registros](/help/quicksilver/planning/views/manage-record-views.md)
 
-   <!--  
-    <div class="preview">
-    * [Create record types business rules](/help/quicksilver/planning/architecture/configure-business-rules.md)
-    </div>
-    -->
+   <div class="preview">
+
+   * [Crear tipos de registro y reglas de negocio](/help/quicksilver/planning/architecture/configure-business-rules.md)
+
+   </div>
 
 ## Crear tipos de registros importando información desde un archivo CSV o de Excel
 
