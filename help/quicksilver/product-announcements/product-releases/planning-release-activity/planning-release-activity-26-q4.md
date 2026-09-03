@@ -6,9 +6,9 @@ author: Becky
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 7d94576b5841f3ce7b76714b835c592e095b003a
+source-git-commit: 3f0a939e9de6436117fcb8242449793dcef73205
 workflow-type: tm+mt
-source-wordcount: '1749'
+source-wordcount: '1770'
 ht-degree: 3%
 
 ---
@@ -28,6 +28,8 @@ Para obtener una lista de todas las características publicadas para Adobe Workf
 >Producción para todos: 15 de octubre de 2026
 
 Ahora puede administrar la visibilidad de las miniaturas y los colores de los registros al editar la columna del campo principal en la vista de tabla.
+
+Con esta actualización, la configuración de Miniatura y Color se eliminará del icono Campos de la barra de herramientas de la vista de tabla.
 
 Para obtener más información, consulte [Administrar la vista de tabla](/help/quicksilver/planning/views/manage-the-table-view.md).
 
