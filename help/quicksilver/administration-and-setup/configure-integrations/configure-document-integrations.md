@@ -9,26 +9,21 @@ feature: System Setup and Administration, Workfront Integrations and Apps, Digit
 role: Admin
 exl-id: cf5c4e3d-b45f-46cd-a938-22e412d1c491
 TQID: https://experienceleague.adobe.com/RUHFPYpCgZq0qAMGB8-Na2olK7uHVtViIcygLUiTkSo
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
-subfeature_v2:
-  - id: c4a58f26-aa43-4761-aafe-56f1e034d7d5
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2: id: c4a58f26-aa43-4761-aafe-56f1e034d7d5
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 94f14afac621d7a0e41daceeb8eb7a5d2682f911
 workflow-type: tm+mt
-source-wordcount: 1111
-ht-degree: 9%
+source-wordcount: 1184
+ht-degree: 8%
 
 ---
 
 # Configurar integraciones de documentos
+
+{{highlighted-preview}}
 
 <!-- Audited: 12/2023 -->
 
@@ -97,14 +92,14 @@ Puede configurar las siguientes integraciones para administrar documentos:
 
 * Proveedores de documentos de nube de terceros:
 
-   * [!DNL Box]
-   * [!DNL Dropbox]
-   * [!DNL Dropbox Business]
-   * [!DNL WebDAM]
-   * [!DNL Microsoft OneDrive]
-   * [!DNL Microsoft SharePoint]
-   * [!UICONTROL Unidad Google]
-   * Quip
+  * [!DNL Box]
+  * [!DNL Dropbox]
+  * [!DNL Dropbox Business]
+  * [!DNL WebDAM]
+  * [!DNL Microsoft OneDrive]
+  * [!DNL Microsoft SharePoint]
+  * [!UICONTROL Unidad Google]
+  * Quip
 
   >[!TIP]
   >
@@ -206,6 +201,8 @@ Una vez creada la integración de documentos personalizada, puede ponerla a disp
 
    [!DNL Workfront] utiliza esta clave de API para realizar llamadas de API autorizadas al proveedor de documentos.
 
+1. <span class="preview">(Opcional) Para habilitar la compatibilidad con archivos de gran tamaño, seleccione **[!UICONTROL Habilitar la carga fragmentada para archivos de gran tamaño]** en la sección **[!UICONTROL Compatibilidad con archivos de gran tamaño]** y, a continuación, introduzca el tamaño máximo del fragmento, en MB, en el campo **[!UICONTROL Umbral de carga fragmentada (MB)]**. Este campo acepta valores de hasta 100 MB. Cuando se habilita, los archivos de más de 25 MB se cargan en fragmentos de este tamaño en lugar de en una sola solicitud.</span>
+
 1. Haga clic en **[!UICONTROL Guardar]** para crear la integración.
 
 ## Uso de integraciones de documentos
@@ -266,9 +263,9 @@ Para configurar [!DNL Workfront] para enviar metadatos a [!DNL Workfront DAM]:
 ### Integración con Google Drive
 
 * Cuando se agrega una carpeta vinculada a Workfront, los archivos de la carpeta ya no se agregan automáticamente.
-   * Puede agregar la carpeta de Google a Workfront sin los archivos y, a continuación, agregar los archivos individuales a Workfront. Los archivos se agregan automáticamente a la carpeta Google en Workfront.
-O
-   * Puede crear una carpeta de documentos en Workfront y, a continuación, seleccionar todos los archivos de la carpeta de Google y agregarlos a la carpeta de Workfront.
+  * Puede agregar la carpeta de Google a Workfront sin los archivos y, a continuación, agregar los archivos individuales a Workfront. Los archivos se agregan automáticamente a la carpeta Google en Workfront.
+    O
+  * Puede crear una carpeta de documentos en Workfront y, a continuación, seleccionar todos los archivos de la carpeta de Google y agregarlos a la carpeta de Workfront.
 
 
 * La integración de documentos de Google Drive permite agregar archivos desde el área Mi unidad de Google Drive. No puede agregar carpetas o imágenes desde una unidad compartida. Más información sobre [Unidades compartidas de Google](https://support.google.com/a/users/answer/7212025?hl=en).
