@@ -4,10 +4,10 @@ description: Mejoras en los documentos del cuarto trimestre de 2026
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 63bdc885983f60c316409c3bba400ad82d475a5f
+source-git-commit: ee1fceee828c97db535ccc03c8b428940d6f7eed
 workflow-type: tm+mt
-source-wordcount: '303'
-ht-degree: 7%
+source-wordcount: '634'
+ht-degree: 3%
 
 ---
 
@@ -19,11 +19,39 @@ Para obtener una lista de todos los cambios disponibles en este punto del ciclo 
 
 <!--
 
+## Frame comment visibility in Workfront
+
+>[!NOTE]
+>
+>Preview: September 3, 2026
+>Production fast release: September 17, 2026
+>Production for everyone: October 15, 2026
+
+When an approval workflow is created for a document, users can leave comments and make annotations in the Frame.io viewer. These comments are not displayed in the Workfront Comments panel, but you can view them in the Frame.io viewer.
+
+Now, the Comments panel in Workfront displays a message letting you know when new comments are available in Frame.io.
+
+For more information, see [Add an update to a document](/help/quicksilver/documents/managing-documents/add-update-documents.md).
+
+-->
+
+## Acceso directo de prueba desde vínculos de correo electrónico de aprobación
+
+>[!NOTE]
+>
+>Vista previa: N/D
+>Versión rápida de producción: 17 de septiembre de 2026
+>Producción para todos: 15 de octubre de 2026
+
+Cuando un documento tiene una prueba adjunta, el vínculo &quot;Ir a revisión&quot; de los correos electrónicos de aprobación ahora abre el visor de pruebas directamente, para que los revisores y aprobadores puedan iniciar su revisión de inmediato. Si un documento no tiene prueba, el vínculo continúa abriendo la sección Aprobaciones del documento, como antes.
+
+<!--
+
 ## Add teams to approvals for objects using Adobe cloud storage
 
 >[!NOTE]
 >
->Preview: August 27, 2026
+>Preview: September 3, 2026
 >Production fast release: September 17, 2026
 >Production for everyone: October 15, 2026
 
@@ -35,9 +63,104 @@ You can now add a Workfront Team as an approver or reviewer on a document approv
 
 For more information, see:
 
-* [Create an approval workflow in the new Documents area](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md#create-an-approval-workflow-in-the-new-documents-area) in Create a document approval workflow
-* [Create an approval workflow in the legacy documents area](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md#create-an-approval-workflow-in-the-legacy-documents-area) in Create a document approval workflow
+* [Create an approval workflow in the new Documents area](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md#create-an-approval-workflow-in-the-new-documents-area)
+* [Create an approval workflow in the legacy documents area](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md#create-an-approval-workflow-in-the-legacy-documents-area)
 * [Create an approval workflow template for documents](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md)
+
+-->
+
+## Establecer un espacio de trabajo de Frame.io en plantillas de proyecto
+
+>[!NOTE]
+>
+>Vista previa: 3 de septiembre de 2026
+>Versión rápida de producción: 17 de septiembre de 2026
+>Producción para todos: 15 de octubre de 2026
+
+Si su organización utiliza el almacenamiento en la nube de Adobe y tiene una licencia de Frame.io Enterprise, ahora puede elegir un espacio de trabajo de Frame.io en Detalles del proyecto, en una plantilla de proyecto. Los proyectos creados a partir de la plantilla utilizan automáticamente el espacio de trabajo definido en la plantilla, por lo que los proyectos se dirigen al espacio de trabajo Frame.io deseado sin necesidad de realizar ninguna acción adicional al crear el proyecto.
+
+El nuevo campo enumera los espacios de trabajo de Frame.io a los que tiene permiso para asignar proyectos. El campo permanece editable en la plantilla en cualquier momento; los cambios se aplican únicamente a los proyectos creados después de la actualización, de modo que los proyectos existentes conservan su espacio de trabajo original.
+
+Una vez creado un proyecto a partir de la plantilla, su campo de espacio de trabajo Frame.io es de solo lectura y está vinculado al espacio de trabajo en Frame.io.
+
+Si no tiene una licencia empresarial de Frame.io, los proyectos seguirán yendo al espacio de trabajo predeterminado para Workfront.
+
+Para obtener más información, consulte [Editar plantillas de proyecto](/help/quicksilver/manage-work/projects/create-and-manage-templates/edit-templates.md) y [Administrar información en el área Información general del proyecto](/help/quicksilver/manage-work/projects/manage-projects/understand-project-overview-area.md).
+
+<!--
+
+## Consistent review and approval buttons across documents
+
+>[!NOTE]
+>
+>Preview: September 3, 2026
+>Production fast release: September 17, 2026
+>Production for everyone: October 15, 2026
+
+Review and approval buttons now look and work the same everywhere you review documents: My approvals widget in Home, Document summary panel, the Document Details page, and the document preview page.
+
+In addition to a new look and feel, some buttons have new names:
+
+| Previous name | New name |
+| --- | --- |
+| Open proof | Open viewer |
+| Review and approve | Make decision |
+| Complete my review | Complete review |
+| Open in Frame.io | Open viewer |
+
+For more information, see [Review and approve documents](/help/quicksilver/documents/review-and-approve-documents.md).
+
+-->
+
+## Mensaje personalizado en la línea de asunto del correo electrónico
+
+>[!NOTE]
+>
+>Vista previa: N/D
+>Versión rápida de producción: 17 de septiembre de 2026
+>Producción para todos: 15 de octubre de 2026
+
+Cuando se establece un mensaje personalizado en la aprobación de un documento, ese mensaje ahora también aparece en la línea de asunto del correo electrónico de solicitud de aprobación, precedido de la fecha de vencimiento cuando se establece una. Esto permite a los revisores ver qué necesita atención y por cuándo directamente desde su bandeja de entrada, sin abrir el correo electrónico.
+
+Para obtener más información, consulte [Crear un flujo de trabajo de aprobación de documentos](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md).
+
+<!--
+
+## Redesigned Versions panel in the new documents area
+
+>[!NOTE]
+>
+>Preview: September 3, 2026
+>Production fast release: September 17, 2026
+>Production for everyone: October 15, 2026
+
+If your organization uses Adobe cloud storage, the Versions panel in the new Documents area has a new design:
+
+* Versions are labeled V1, V2, and so on to drive consistency with Frame.io.
+* Each version shows its approval status, such as "Approved" or "Withdrawn", directly in the list.
+* The panel now lists only Version history — there's no longer a separate "latest file" entry at the top.
+
+Previously, versions were timestamped instead of numbered.
+
+For more information, see [Manage document versions](/help/quicksilver/documents/managing-documents/manage-document-versions.md).
+
+## Redesigned Approvals panel in the new documents area
+
+>[!NOTE]
+>
+>Preview: September 3, 2026
+>Production fast release: September 17, 2026
+>Production for everyone: October 15, 2026
+
+If your organization uses Adobe cloud storage, the Approvals panel in the new Documents area now shows approval history across versions:
+
+* The panel lists the approval workflow for every version that has one, not just the current version.
+* Withdrawn workflows stay in the list, so you can still review their prior decisions.
+* Expand any version to see its stages, approver decisions, decision rule, and due dates without leaving the panel.
+
+Previously, the Approvals panel only showed the current version's workflow.
+
+For more information, see [Create a document approval workflow](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md).
 
 -->
 

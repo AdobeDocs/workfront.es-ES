@@ -4,10 +4,10 @@ description: Mejoras en los informes del cuarto trimestre de 2026
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 63bdc885983f60c316409c3bba400ad82d475a5f
+source-git-commit: ee1fceee828c97db535ccc03c8b428940d6f7eed
 workflow-type: tm+mt
-source-wordcount: '487'
-ht-degree: 4%
+source-wordcount: '611'
+ht-degree: 8%
 
 ---
 
@@ -16,6 +16,58 @@ ht-degree: 4%
 Esta página describe las mejoras de los informes realizadas con la versión del cuarto trimestre de 2026 en el entorno de vista previa. Estas mejoras estarán disponibles en el entorno de producción, como se ha indicado.
 
 Para obtener una lista de todos los cambios disponibles en este punto del ciclo de la versión del cuarto trimestre de 2026, consulte [Información general de la versión del cuarto trimestre de 2026](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-release-overview.md).
+
+<!--
+
+## Duplicate dashboards in Canvas Dashboards
+
+>[!NOTE]
+>
+>Preview: September 3, 2026
+>Production fast release: September 17, 2026
+>Production for everyone: October 15, 2026
+
+You can now duplicate a Canvas Dashboard using the new **Duplicate dashboard** action. This action is available to any user whose access level grants edit or create rights to Dashboards, even if they only have view access to the specific dashboard being copied. Users without edit or create rights to Dashboards do not see this action.
+
+When you duplicate a dashboard, you can rename it, update its description and currency, and choose which widgets, dashboard filters, and dashboard prompts to carry over to the copy.
+
+Run as user configurations on widgets are only preserved if you are the designated user or a system administrator. Sharing preferences are not copied to the new dashboard, and a confirmation message with a link to the new dashboard displays once the copy is complete.
+
+Previously, there was no way to duplicate a dashboard; users had to rebuild dashboards from scratch to create audience-specific variations.
+
+For more information, see 
+
+-->
+
+## Campo Tipo de aprobación en paneles de lienzo
+
+>[!NOTE]
+>
+>Producción para todos: 28 de agosto de 2026
+>[!BADGE Fuera del horario]{type=Neutral}
+
+La entidad Approval ahora incluye un campo **Tipo de aprobación**, que permite a los usuarios distinguir entre aprobaciones de prueba, aprobaciones de versión de documento, aprobaciones de admisión y otros tipos de aprobación.
+
+## Actualización de terminología de aprobación en paneles de lienzo
+
+>[!NOTE]
+>
+>Producción para todos: 28 de agosto de 2026
+>[!BADGE Fuera del horario]{type=Neutral}
+
+Se ha cambiado el nombre de los siguientes campos utilizados en paneles de lienzo para aprobaciones de documentos y trabajos para una mayor claridad:
+
+| Nombre anterior | Nuevo nombre |
+| --- | --- |
+| Aprobación de documento | Aprobación |
+| Fase de aprobación del documento | Fase de aprobación |
+| Participante de la fase de aprobación del documento | Participante de fase de aprobación |
+| Proceso de aprobación | Proceso de aprobación de trabajo |
+| Fase de aprobación | Fase de aprobación de trabajo |
+| Estado de la aprobación | Estado de aprobador de trabajo |
+| Esperando aprobación | Esperando aprobación de trabajo |
+
+Este cambio no afecta al funcionamiento de los informes actuales.
 
 ## Informes de tabla dinámica en paneles de lienzo
 
