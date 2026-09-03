@@ -6,9 +6,9 @@ author: Becky
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: f2a7d09bbf25685395dc97f67bfde87a5d006aea
+source-git-commit: 3f0a939e9de6436117fcb8242449793dcef73205
 workflow-type: tm+mt
-source-wordcount: '1339'
+source-wordcount: '1770'
 ht-degree: 3%
 
 ---
@@ -18,6 +18,79 @@ ht-degree: 3%
 Este artículo describe las funciones que se lanzarán para Workfront Planning durante la versión del cuarto trimestre de 2026.
 
 Para obtener una lista de todas las características publicadas para Adobe Workfront Planning, consulte [Actividad de la versión de Adobe Workfront Planning: índice de artículo](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
+
+## Administrar la visibilidad de las miniaturas y los colores de los registros desde la columna del campo principal en la vista de tabla
+
+>[!NOTE]
+>
+>Vista previa: 3 de septiembre de 2026
+>Versión rápida de producción: 17 de septiembre de 2026
+>Producción para todos: 15 de octubre de 2026
+
+Ahora puede administrar la visibilidad de las miniaturas y los colores de los registros al editar la columna del campo principal en la vista de tabla.
+
+Con esta actualización, la configuración de Miniatura y Color se eliminará del icono Campos de la barra de herramientas de la vista de tabla.
+
+Para obtener más información, consulte [Administrar la vista de tabla](/help/quicksilver/planning/views/manage-the-table-view.md).
+
+## Crear reglas de negocio para los tipos de registro
+
+>[!NOTE]
+>
+>Vista previa: 3 de septiembre de 2026
+>Versión rápida de producción: 17 de septiembre de 2026
+>Producción para todos: 15 de octubre de 2026
+
+Como administrador del espacio de trabajo, ahora puede establecer reglas empresariales para los tipos de registro que posteriormente reflejarán cómo se administran los registros de ese tipo. Puede definir reglas que permitan a los usuarios editar o eliminar registros sólo cuando se cumplan determinadas condiciones o se rellenen determinados campos.
+
+Puede crear una condición para la regla de negocio que haga referencia a todos los tipos de campo excepto a los siguientes:
+
+* Campos de fórmula
+* Campos de búsqueda
+* Campos de referencia
+
+No se pueden agregar reglas de negocio a los tipos de registro globales.
+
+Para obtener más información, consulte [Configurar reglas de negocio de tipo de registro](/help/quicksilver/planning/architecture/configure-business-rules.md).
+
+>[!NOTE]
+>
+>Con esta actualización, también se han actualizado las siguientes opciones de menú del menú Más de un tipo de registro:
+>
+>* **Crear formularios de solicitud** y **Administrar formularios de solicitud** han cambiado a **Formularios de solicitud**
+>* **Administrar automatizaciones** ha cambiado a **Automaciones**
+
+## Introducción de semanas personalizadas para la vista de cronología
+
+>[!NOTE]
+>
+>Vista previa: 3 de septiembre de 2026
+>Versión rápida de producción: 17 de septiembre de 2026
+>Producción para todos: 15 de octubre de 2026
+
+Como administrador de Workfront, ahora puede configurar semanas personalizadas, además de trimestres personalizados. Las semanas y trimestres personalizados están visibles desde la vista de cronología de Workfront Planning. Workfront genera semanas secuenciales a partir de la semana 1 al principio del trimestre personalizado 1.
+
+Puede personalizar las etiquetas de semana que están visibles en la vista de cronología. Puede elegir un formato predefinido o introducir uno personalizado.
+
+Las semanas personalizadas no son visibles en Workfront. Solo están visibles en la vista de cronología de Workfront Planning.
+
+Para obtener más información, consulte [Habilitar trimestres personalizados](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md).
+
+## Filtra los campos de registro conectados dependientes
+
+>[!NOTE]
+>
+>Vista previa: 3 de septiembre de 2026
+>Versión rápida de producción: 17 de septiembre de 2026
+>Producción para todos: 15 de octubre de 2026
+
+Ahora puede filtrar por determinados tipos de registros que cumplen un criterio de filtro cuando agrega conexiones dependientes en Planning.
+
+En lugar de que todos los tipos de registros estén disponibles en campos conectados dependientes, solo se mostrarán aquellos que cumplan los criterios de filtrado.
+
+Para esta función, hemos agregado una nueva opción Reglas de filtrado de registros en la pestaña Nueva conexión al conectar tipos de registros.
+
+Para obtener más información, consulte [Administrar conexiones dependientes](/help/quicksilver/planning/architecture/manage-dependent-connections.md).
 
 ## Contraer y expandir todas las agrupaciones en la vista de cronología
 

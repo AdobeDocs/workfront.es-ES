@@ -20,9 +20,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: bf52de7515f8bcb29649b22c1fe40d5a7e306018
+source-git-commit: 8c08e110aeccdf6d6416fd1070fbcbd40fd46983
 workflow-type: tm+mt
-source-wordcount: 1599
+source-wordcount: 1597
 ht-degree: 67%
 
 ---
@@ -80,7 +80,7 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
 
    O
 
-   Para crear o editar un perfil de hoja de horas para un grupo, haga clic en **Grupos**, haga clic en el nombre del grupo y, a continuación, haga clic en **Perfiles de hoja de horas** en el panel izquierdo.
+   Para crear o editar un perfil de hoja de horas para un grupo, haga clic en **Grupos**, haga clic en el nombre del grupo y luego haga clic en **Perfiles de hoja de horas** en el panel izquierdo.
 
 1. Para crear un perfil de hoja de horas, haz clic en **Nuevo perfil**.
 

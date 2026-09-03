@@ -5,9 +5,9 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: 757cbfd2ae74da7a649bee4d93da862d986ee5a2
+source-git-commit: 6f64c3e6ebb8407c38ad3a1d46b2fc63b534879e
 workflow-type: tm+mt
-source-wordcount: '1038'
+source-wordcount: '1108'
 ht-degree: 4%
 
 ---
@@ -17,11 +17,9 @@ ht-degree: 4%
 
 {{planning-important-intro}}
 
-<!--
-<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">La información de esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa para todos los clientes. Después del lanzamiento en Vista previa, las mismas funciones también están disponibles mensualmente en el entorno de producción para los clientes que habilitaron lanzamientos rápidos. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+<span class="preview">Para obtener información sobre las versiones rápidas, consulte [Habilitar o deshabilitar las versiones rápidas para su organización](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 Puede configurar reglas de negocio para los tipos de registro de Adobe Workfront Planning para indicar que determinados campos son necesarios antes de que se permita o impida una acción en un registro de ese tipo.
 
@@ -95,7 +93,7 @@ Para obtener más información acerca de los requisitos de acceso de Workfront, 
   * Campos de búsqueda
   * Campos de referencia
 * Las reglas se aplican a todos los que pueden editar o eliminar registros.
-* Puede tener más de una regla de negocio para un tipo de registro.  <!--Syuzanna is checking this because it should be just ONE rule per action: one per edit and one per delete - see this: https://workfront.slack.com/archives/C0BHWEUSJCU/p1788281638322049?thread_ts=1787924876.280359&cid=C0BHWEUSJCU-->
+* Puede tener más de una regla de negocio para un tipo de registro.  <!--Syuzanna is checking this because it should be just ONE rule per action: one per edit and one per delete - see this: https://workfront.slack.com/archives/C0BHWEUSJCU/p1788281638322049?thread_ts=1787924876.280359&cid=C0BHWEUSJCU; I also logged a bug for this because it released with more than one per action - https://experience.adobe.com/#/@adobeinternalworkfront/so:hub-Hub/workfront/issue/6a99add600001e9aa90435ec181dec3e/overview-->
 
   Todas las reglas se comprueban al mismo tiempo y el mensaje de error muestra todos los campos que faltan en una instrucción.
 
@@ -104,10 +102,15 @@ Para obtener más información acerca de los requisitos de acceso de Workfront, 
 1. Vaya a una página de tipo de registro.
 1. Desde cualquier vista, haga clic en el menú **Más** ![Más menú](assets/more-menu.png) a la derecha del nombre del tipo de registro y, a continuación, haga clic en **Reglas de negocio**.
 
-   Se abre la página Reglas de negocio.
+   Se abre la página de tabla Reglas de negocio.
 1. Haga clic en **Nueva regla empresarial**.
 1. En el cuadro de regla **Nuevo negocio**, agregue un nombre para la regla de negocio en el primer campo disponible. Este campo es obligatorio
 1. (Opcional) Agregue una descripción para definir la regla de negocio y haga clic en **Guardar**.
+
+   Se abre el formulario Configuración de regla de negocio.
+
+   ![Formulario de configuración de regla de negocio](assets/business-rule-setup-form.png)
+
 1. En la sección **If** del formulario de configuración de regla de negocio, elija qué acciones desea restringir o permitir en función de una regla específica. Elija entre lo siguiente: <!--check UI text-->
    * **Edición de registro**: los usuarios podrán editar o no el registro si se cumple la condición definida en esta regla.
    * **Eliminación de registro**: Los usuarios podrán eliminar o no eliminar el registro si se cumple la condición definida en esta regla.
@@ -124,7 +127,7 @@ Para obtener más información acerca de los requisitos de acceso de Workfront, 
    Por ejemplo, puede escribir la siguiente instrucción para que el campo **Resumen de campaña** sea obligatorio:
 
    ```
-      IF(ISBLANK({Campaign summary}),"Campaign summary is a required field. You cannot edit this record without a value for the Campaign summary.")
+      IF(ISBLANK({Campaign summary}),"Campaign summary is a required field. You cannot edit this record without a value for the Campaign summary field.")
    ```
 
    >[!IMPORTANT]
@@ -149,7 +152,7 @@ Puede editar, eliminar o desactivar las reglas de negocio existentes.
 
 La edición de una regla existente no cambia los registros existentes. La regla editada solo se aplica a los registros existentes cuando alguien intenta editarlos o eliminarlos.
 
-1. Vuelva a la página de configuración de **Reglas de negocio** para el tipo de registro.
+1. Vuelva a la página de tabla **Reglas de negocio** para el tipo de registro.
 1. Busque la regla que desee cambiar.
 1. Pase el ratón sobre el nombre de la regla y luego haga clic en el menú **Más** ![Menú más](assets/more-menu.png), a continuación, elija una de las siguientes opciones:
 
@@ -159,8 +162,9 @@ La edición de una regla existente no cambia los registros existentes. La regla 
 
    Las reglas editadas o la desactivación de reglas solo se aplican a registros futuros y no se aplican de forma retroactiva.
 
-   <!--add screen shot if UI is fixed with Deactivate-->
+   <!--add NEW screen shot below if UI is fixed with Deactivate at release; it was fixed in devTest-->
 
+   <!--![Business rule more menu expanded](assets/business-rule-more-menu-in-table-expanded.png)-->
 
 <!--
 

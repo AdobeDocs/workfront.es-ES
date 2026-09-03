@@ -21,7 +21,7 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: ab475d9e655250410ae6f1ee1ca458533cbea127
 workflow-type: tm+mt
 source-wordcount: 1373
 ht-degree: 66%
@@ -35,13 +35,9 @@ ht-degree: 66%
 <!--remove Preview and Production mentions from the article when this comes out live-->
 
 <!--
-<div class="preview"> 
+<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with  a week from the Preview release.      
-
-For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
-
-</div>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 -->
 
 Puede aplicar la vista de Hito a una lista de proyectos o a un informe. Puede utilizar la vista de Hito para ver todos los hitos asociados con las tareas de los proyectos que está viendo.
@@ -123,9 +119,9 @@ Al aplicar la vista de hito a una lista de proyectos, estos se muestran en las s
 
   Workfront ordena los proyectos de la primera sección según los siguientes criterios, en este orden:
 
-   1. Identificador de la ruta de hitos. Puede ver el ID de ruta de hitos en un informe de ruta de hitos.
+  1. Identificador de la ruta de hitos. Puede ver el ID de ruta de hitos en un informe de ruta de hitos.
 
-   2. El campo seleccionado como el primer campo de ordenación para la lista de proyectos de la vista aplicada anteriormente a la lista de proyectos, antes de seleccionar la vista de hito.
+  2. El campo seleccionado como el primer campo de ordenación para la lista de proyectos de la vista aplicada anteriormente a la lista de proyectos, antes de seleccionar la vista de hito.
 
 * Los proyectos no asociados a una ruta de hitos se muestran a continuación, en la sección Sin asignar. Workfront ordena los proyectos de la sección Sin asignar por el campo seleccionado como primer campo de ordenación para la lista de proyectos de la vista aplicada anteriormente a la lista de proyectos, antes de seleccionar la vista de hito.
 
@@ -140,9 +136,9 @@ Cuando se visualiza una lista de proyectos o un informe de proyectos en la vista
 
   Si está viendo Fechas planificadas y también tiene acceso de Administración al proyecto, puede editar las siguientes fechas directamente desde la vista de Hito:
 
-   * **Fechas de inicio del proyecto:** Si un proyecto está programado a partir de la fecha de inicio, puede cambiar manualmente la fecha planificada de inicio del proyecto y, a continuación, se calcula la fecha planificada de finalización.
-   * **Fechas de finalización del proyecto:** Si un proyecto está programado a partir de la fecha planificada de finalización, puede cambiar manualmente la fecha planificada de finalización del proyecto y, a continuación, se calcula la fecha planificada de inicio.
-   * **Fechas de finalización de la tarea:** Puede actualizar manualmente la fecha planificada de finalización de las tareas directamente desde la vista Hito.
+  * **Fechas de inicio del proyecto:** Si un proyecto está programado a partir de la fecha de inicio, puede cambiar manualmente la fecha planificada de inicio del proyecto y, a continuación, se calcula la fecha planificada de finalización.
+  * **Fechas de finalización del proyecto:** Si un proyecto está programado a partir de la fecha planificada de finalización, puede cambiar manualmente la fecha planificada de finalización del proyecto y, a continuación, se calcula la fecha planificada de inicio.
+  * **Fechas de finalización de la tarea:** Puede actualizar manualmente la fecha planificada de finalización de las tareas directamente desde la vista Hito.
 
 * **Porcentaje completado:** muestra el porcentaje de finalización de cada tarea y proyecto.
 
@@ -152,10 +148,10 @@ Cuando se visualiza una lista de proyectos o un informe de proyectos en la vista
 
 * **Iconos de estado de progreso de la tarea:** Los siguientes son iconos que indican el estado de progreso de la tarea:
 
-   * Tiempo de activación: verde
-   * Detrás - amarillo
-   * En riesgo: azul
-   * Retrasado: rojo
+  * Tiempo de activación: verde
+  * Detrás - amarillo
+  * En riesgo: azul
+  * Retrasado: rojo
 
   <!--
    * In the Production environment, the following status icons display next to each project and task in the Milestone view: 
@@ -177,33 +173,33 @@ Cuando se visualiza una lista de proyectos o un informe de proyectos en la vista
 
 * **Sombreado de estado de tarea para tareas completadas**: después de marcar una tarea como Completada, el fondo de la tarea se sombrea en la vista de hito para indicar si la tarea se completó a tiempo o con retraso:
 
-   * **Sombreado rojo para la columna de tarea**: el fondo de una tarea es rojo cuando el estado de progreso es **Retrasado**.
+  * **Sombreado rojo para la columna de tarea**: el fondo de una tarea es rojo cuando el estado de progreso es **Retrasado**.
 
-   * **Sombreado verde para la columna de tarea**: el fondo de una tarea es verde cuando el estado de progreso es **A tiempo**.
+  * **Sombreado verde para la columna de tarea**: el fondo de una tarea es verde cuando el estado de progreso es **A tiempo**.
 
 * **Sombreado de estado del proyecto para las columnas de inicio y finalización del proyecto**:
 
-   * **Columna de inicio del proyecto**: el fondo de la columna de inicio del proyecto aparece en rojo o en verde sólo cuando se rellena la fecha de inicio real:
+  * **Columna de inicio del proyecto**: el fondo de la columna de inicio del proyecto aparece en rojo o en verde sólo cuando se rellena la fecha de inicio real:
 
-      * **Sombreado rojo para la columna Inicio del proyecto**: el fondo de la columna de inicio del proyecto es rojo cuando el estado del progreso del proyecto es **Retrasado**.
+    * **Sombreado rojo para la columna Inicio del proyecto**: el fondo de la columna de inicio del proyecto es rojo cuando el estado del progreso del proyecto es **Retrasado**.
 
-      * **Sombreado verde para la columna Inicio del proyecto**: el fondo de la columna Inicio del proyecto es verde cuando el estado del progreso del proyecto es **A tiempo**.
+    * **Sombreado verde para la columna Inicio del proyecto**: el fondo de la columna Inicio del proyecto es verde cuando el estado del progreso del proyecto es **A tiempo**.
 
-     >[!TIP]
-     >
-     >Debe ir a la página Detalles del proyecto para ver la fecha de inicio real del proyecto.
+    >[!TIP]
+    >
+    >Debe ir a la página Detalles del proyecto para ver la fecha de inicio real del proyecto.
 
-   * **Columna de finalización del proyecto**: el fondo de la columna Finalización del proyecto aparece en rojo o en verde cuando se rellena la fecha real de finalización:
+  * **Columna de finalización del proyecto**: el fondo de la columna Finalización del proyecto aparece en rojo o en verde cuando se rellena la fecha real de finalización:
 
-      * **Sombreado rojo para la columna de finalización del proyecto**: el fondo de la columna Finalización del proyecto aparece en rojo cuando el estado del progreso del proyecto es **Retrasado**.
+    * **Sombreado rojo para la columna de finalización del proyecto**: el fondo de la columna Finalización del proyecto aparece en rojo cuando el estado del progreso del proyecto es **Retrasado**.
 
-      * **Sombreado verde para la columna de finalización del proyecto**: el fondo de la columna Finalización del proyecto es verde cuando el estado de progreso del proyecto es **A tiempo**.
+    * **Sombreado verde para la columna de finalización del proyecto**: el fondo de la columna Finalización del proyecto es verde cuando el estado de progreso del proyecto es **A tiempo**.
 
-     >[!TIP]
-     >
-     >Debe ir a la página Detalles del proyecto para ver la fecha real de finalización del proyecto.
+    >[!TIP]
+    >
+    >Debe ir a la página Detalles del proyecto para ver la fecha real de finalización del proyecto.
 
-   * No se asigna ningún sombreado de color a las columnas Inicio y Finalización cuando las tareas tienen un estado de progreso de En riesgo o Retrasado.
+  * No se asigna ningún sombreado de color a las columnas Inicio y Finalización cuando las tareas tienen un estado de progreso de En riesgo o Retrasado.
 
   <!--add new screen shot for preview or production release; logged a bug as this is not happening in the new view - if at prod this is still missing, hide this screen shot-->
 
@@ -212,9 +208,9 @@ Cuando se visualiza una lista de proyectos o un informe de proyectos en la vista
 * **Nombre del proyecto**: el nombre del proyecto se muestra con un vínculo al proyecto.
 * **Icono de condición del proyecto**: los siguientes indicadores muestran la condición del proyecto:
 
-   * En Target: verde
-   * En riesgo - amarillo
-   * En problemas: rojo
+  * En Target: verde
+  * En riesgo - amarillo
+  * En problemas: rojo
 
   <!--
    * In the Production environment, an icon displays next to the project name, indicating the condition of the project. The Condition of the project might be one of the following:

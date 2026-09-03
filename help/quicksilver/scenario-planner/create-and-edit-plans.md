@@ -20,14 +20,19 @@ role_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: a84a7fadd821ddb30c72a88335716bbabb5783b4
 workflow-type: tm+mt
-source-wordcount: 2407
-ht-degree: 91%
+source-wordcount: 2467
+ht-degree: 87%
 
 ---
 
 # Creación y edición de planes en [!DNL Scenario Planner]
+
+<span class="preview">La información de esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa para todos los clientes. Después del lanzamiento en Vista previa, las mismas funciones también están disponibles mensualmente en el entorno de producción para los clientes que habilitaron lanzamientos rápidos. </span>
+
+<span class="preview">Para obtener información sobre las versiones rápidas, consulte [Habilitar o deshabilitar las versiones rápidas para su organización](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
 
 Puede crear planes como parte del uso de [!DNL Workfront Scenario Planner] al priorizar la estrategia de nivel superior de su compañía. Para obtener más información sobre los planes, consulte [Información general sobre los planes en [!DNL Scenario Planner]](../scenario-planner/plans-overview.md).
 
@@ -136,7 +141,7 @@ Para crear o editar un plan:
 
 Se muestra una lista de los planes existentes que ha creado en [!DNL Workfront Scenario Planner].
 
-1. (Opcional) Haga clic en el icono **[!UICONTROL Filtro]** ![Icono de filtro](assets/filter-icon-34x37.png)en la esquina superior derecha de la lista de planes y seleccione una de las siguientes opciones:
+1. (Opcional) Haga clic en el icono **[!UICONTROL Filtro]** ![Icono de filtro](assets/filter-icon-34x37.png), <span class="preview">o en el icono **Tabla** ![Icono de tabla](assets/table-icon.png)</span> en la parte superior de la lista y seleccione una de las siguientes opciones:
 
    | Filtro | Descripción |
    |---|---|
@@ -148,23 +153,13 @@ Se muestra una lista de los planes existentes que ha creado en [!DNL Workfront S
 
 1. (Opcional) Haga clic en el icono **[!UICONTROL Buscar]** ![Icono de búsqueda](assets/search-icon.png) para escribir una palabra clave y localizar rápidamente un plan en la lista.
 
-1. Haga clic en el nombre de un plan existente para editarlo y continuar con el paso 7.
-
-   <!--
-   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: is the step still accurate) </p>
-   -->
+1. Haga clic en el nombre de un plan existente para editarlo y continuar con el paso 7.<!--is the step still accurate)-->
 
    O
 
-   Haga clic en **[!UICONTROL Nuevo plan]** en la esquina superior izquierda para crear un plan y continuar con el paso 5.
+   Haga clic en **[!UICONTROL Nuevo plan]** en la esquina superior izquierda para crear un plan y continuar con el paso 5. <!--is the step still accurate-->
 
-   <!--
-   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: is the step still accurate)</p>
-   -->
-
-   ![Botón Nuevo plan](assets/new-plan-button.png)
-
-   Se muestra el cuadro [!UICONTROL Nuevo plan].
+   Se muestra la casilla [!UICONTROL **Nuevo plan**].
 
    ![Nuevo cuadro de plan](assets/new-plan-ui-adding-a-new-plan-350x306.png)
 
@@ -209,7 +204,7 @@ Se muestra una lista de los planes existentes que ha creado en [!DNL Workfront S
     </tbody> 
    </table>
 
-<!--for table above - how FTE is calcualted: NOTE: snippet below: this is per Ani; it does NOT look at the system FTE.) </p>-->
+   <!--for table above - how FTE is calcualted: NOTE: snippet below: this is per Ani; it does NOT look at the system FTE.) </p>-->
 
 1. (Condicional) Haga Clic En **[!UICONTROL Next]**.
 

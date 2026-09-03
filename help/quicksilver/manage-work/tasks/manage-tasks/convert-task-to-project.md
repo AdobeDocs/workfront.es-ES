@@ -23,23 +23,19 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 54590f8d98a26bf3a7ee7e5becb3c21a24ffeab5
+source-git-commit: ab475d9e655250410ae6f1ee1ca458533cbea127
 workflow-type: tm+mt
-source-wordcount: 1266
-ht-degree: 71%
+source-wordcount: 1278
+ht-degree: 73%
 
 ---
 
 # Convertir una tarea en un proyecto
 
 <!--
-<div class="preview"> 
+<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release.      
-
-For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
-
-</div>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 -->
 
 Cuando una tarea de un proyecto requiere un esfuerzo mayor en completarse que el planificado originalmente, puede convertirla en un proyecto.
@@ -111,16 +107,16 @@ Old:
 * Los documentos, las versiones de los documentos y las pruebas se mueven al nuevo proyecto.
 * Al convertir una tarea en un proyecto, existe un límite de procesamiento de 5 minutos. Si la tarea tiene un gran número de documentos adjuntos y no se puede convertir, es posible que tenga que eliminar algunos de los documentos e intentarlo de nuevo.
 * Cuando su organización utiliza el almacenamiento en la nube heredado de Workfront y Adobe para documentos, existen los siguientes escenarios al convertir una tarea en un proyecto: <!--this info also duplicated in Document management overview for projects and related objects and Convert an issue to a project-->
-   * Una tarea de almacenamiento de Workfront heredado crea un proyecto de almacenamiento de Workfront heredado.
-   * Una tarea de almacenamiento en la nube de Adobe crea un proyecto de almacenamiento en la nube de Adobe.
-   * Al usar una plantilla de almacenamiento de Workfront heredada para convertir una tarea de almacenamiento de nube de Adobe, se crea un proyecto de almacenamiento de nube de Adobe.
-   * El uso de una plantilla de almacenamiento en la nube de Adobe para convertir una tarea de almacenamiento de Workfront heredada crea un proyecto de almacenamiento en la nube de Adobe. Los documentos y sus aprobaciones permanecen en el proyecto actual.
+  * Una tarea de almacenamiento de Workfront heredado crea un proyecto de almacenamiento de Workfront heredado.
+  * Una tarea de almacenamiento en la nube de Adobe crea un proyecto de almacenamiento en la nube de Adobe.
+  * Al usar una plantilla de almacenamiento de Workfront heredada para convertir una tarea de almacenamiento de nube de Adobe, se crea un proyecto de almacenamiento de nube de Adobe.
+  * El uso de una plantilla de almacenamiento en la nube de Adobe para convertir una tarea de almacenamiento de Workfront heredada crea un proyecto de almacenamiento en la nube de Adobe. Los documentos y sus aprobaciones permanecen en el proyecto actual.
 
-     Para obtener más información, vea [Información general sobre la administración de documentos de proyectos y objetos relacionados](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
+    Para obtener más información, vea [Información general sobre la administración de documentos de proyectos y objetos relacionados](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
 
-     >[!TIP]
-     >
-     >Es posible que la instancia de Workfront no tenga acceso a ambos tipos de almacenamiento de documentos.
+    >[!TIP]
+    >
+    >Es posible que la instancia de Workfront no tenga acceso a ambos tipos de almacenamiento de documentos.
 
 
 * Se conservan el estado y el porcentaje completado de todas las subtareas y problemas.
@@ -163,7 +159,7 @@ Old:
     </tr> 
     <tr> 
     <td>Condición del proyecto</td> 
-    <td>Coincide con la preferencia predeterminada del sistema según lo determinado por el administrador de Workfront en el área de Configuración. Para obtener más información, vea <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/set-custom-condition-default-projects.md">Establecer una condición personalizada como predeterminada para los proyectos</a>
+    <td>Coincide con la preferencia predeterminada del sistema, según lo que determine el administrador de Workfront en el área de Configuración. Para obtener más información, consulte <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/set-custom-condition-default-projects.md">Establecer una condición personalizada como predeterminada para los proyectos</a>
     </td> 
     </tr> 
     <tr> 

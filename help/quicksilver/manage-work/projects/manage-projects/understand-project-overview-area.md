@@ -24,14 +24,16 @@ role_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: acbb78db2ce8c6c57fa10fe99f533d7dd7feea1b
 workflow-type: tm+mt
-source-wordcount: 1382
-ht-degree: 82%
+source-wordcount: 1429
+ht-degree: 81%
 
 ---
 
 # Administrar información en el área Información general del proyecto
+
+{{highlighted-preview}}
 
 <!--
 <p>(NOTE: some information in here is duplicated in Edit projects. If you need to update one of the fields in this area, do it in both places.)</p>
@@ -228,6 +230,7 @@ Old:
    | Fecha de última actualización | Fecha y hora en que se actualizó el proyecto por última vez. |
    | Última actualización por | El nombre del usuario que actualizó el proyecto. |
    | Plantilla |  |
+   | Espacio de trabajo de Frame.io | <span class="preview">El espacio de trabajo Frame.io se hereda de la plantilla utilizada para crearlo. No puede cambiar este campo después de crear el proyecto.</span> |
 
 
 1. Si su empresa ha adquirido una licencia adicional para el Planificador de escenarios de Adobe Workfront y el proyecto tiene información publicada de una iniciativa vinculada, revise la siguiente información de la iniciativa en el área Planificador de escenarios:

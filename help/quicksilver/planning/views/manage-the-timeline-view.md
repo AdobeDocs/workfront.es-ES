@@ -19,14 +19,16 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 85c9f757134bc84e4b5038e4001f9a9fe1430f2a
+source-git-commit: 6f64c3e6ebb8407c38ad3a1d46b2fc63b534879e
 workflow-type: tm+mt
-source-wordcount: 4518
-ht-degree: 37%
+source-wordcount: 4584
+ht-degree: 36%
 
 ---
 
 # Administrar la vista de cronología
+
+<!--remove Production and Preview references at release-->
 
 <span class="preview">La información resaltada en esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa para todos los clientes. Después del lanzamiento en Vista previa, las mismas funciones también están disponibles mensualmente en el entorno de producción para los clientes que habilitaron lanzamientos rápidos. </span>
 
@@ -233,19 +235,13 @@ Para administrar una vista de cronología:
 
      >[!TIP]
      >
-     >La vista de cronología solo muestra las semanas fiscales según los trimestres clásicos. Si el administrador de Workfront activa Trimestres personalizados en el área de Configuración, la información de la semana no se muestra en la vista de cronología.
+     >Dependiendo del entorno que utilice para acceder a la vista de cronología, existen los siguientes escenarios:
+     >
+     >* En el entorno de producción, la vista de cronología solo muestra semanas personalizadas según los trimestres clásicos. Si el administrador de Workfront activa Trimestres personalizados en el área de Configuración, la información de la semana no se muestra en la vista de cronología.
+     >
+     >* <span class="preview">En el entorno de vista previa, la vista de escala de tiempo muestra de forma predeterminada las semanas personalizadas según los trimestres clásicos. Si el administrador de Workfront activa Trimestres personalizados y Semanas personalizadas en el área de Configuración, la vista de cronología muestra los trimestres y semanas personalizados en las pantallas Trimestre y Mes. </span>
+     >
 
-     <!--
-        When we release custom weeks, replace the tip above with this:
-        >[!TIP]
-        >
-        >Depending on which environment you are using to access the timeline view, the following scenarios exist:
-        >
-        >* In the Production environment, the timeline view only displays fiscal weeks according to classic quarters. If your Workfront administrator turns on Custom Quarters in the Setup area, the week information does not display in the timeline view.
-        >
-        >* <span class="preview">In the Preview environment, the timeline view displays fiscal weeks according to classic quarters, by default. If your Workfront administrator turns on Custom Quarters and Custom weeks in the Setup area, the timeline view displays the custom quarters and weeks in the Quarter and Month displays. </span>
-        >
-        -->
 
 1. (Opcional) Haga clic en **Cambiar a la vista Compacta** para mostrar los registros cuyas fechas no se cruzan en la misma línea. <!--check to see if they updated the name of the setting here-->
 1. (Condicional) Si cambió el modo a **Compacto**, haga clic en **Cambiar a la vista Estándar** para mostrar los registros en líneas separadas. La opción **Standard** es la predeterminada.  <!--check to see if they updated the name of the setting here-->

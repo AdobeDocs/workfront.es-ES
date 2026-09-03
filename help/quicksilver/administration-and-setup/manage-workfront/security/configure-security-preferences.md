@@ -26,14 +26,16 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 7c9dfc68d8df73734df7b6db3f45e6b31e1f0bc4
+source-git-commit: 5477b925df1655014eb9db99cc92e7eeee4662b7
 workflow-type: tm+mt
-source-wordcount: 1155
-ht-degree: 48%
+source-wordcount: 1318
+ht-degree: 45%
 
 ---
 
 # Configurar preferencias del sistema
+
+{{highlighted-preview}}
 
 <!--
 DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.</p>
@@ -151,6 +153,10 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
       <td>Aplicar siempre los campos obligatorios en la edición por lotes</td>
       <td><p>Permite elegir si se fuerza a los usuarios a introducir información en los campos obligatorios al editar objetos por lotes.</p> <p>Si se selecciona esta opción, los campos obligatorios deben tener valores antes de guardarlos en el modo de edición por lotes. Si en el campo obligatorio falta un valor para al menos un objeto seleccionado en bloque, no se permite guardar.</p> <p>Cuando esta opción no está seleccionada, los campos obligatorios solo se aplican cuando un usuario modifica el campo. Si un campo no se modifica, se trata como opcional y no se valida.</p></td>
      </tr>
+     <tr>
+      <td role="rowheader"><span class="preview">Nivel de acceso para usuarios creados en Admin Console</span></td>
+      <td><span class="preview">Permite elegir un nivel de acceso predeterminado para asignarlo automáticamente a los usuarios creados en Workfront a través de Adobe Admin Console. Si no establece un valor predeterminado, estos usuarios seguirán recibiendo un nivel de acceso de Colaborador o Solicitante. Los niveles de acceso Administrador del sistema y Usuario externo no están disponibles como predeterminados y esta opción no está disponible para organizaciones que tienen Workfront Planning como producto independiente.<p><b>NOTA</b>: no puede eliminar un nivel de acceso mientras esté establecido como predeterminado. Para eliminar el nivel de acceso predeterminado, seleccione primero un nivel de acceso predeterminado diferente.</p></span></td>
+     </tr>
      <tr> 
       <td role="rowheader">Preferencias de almacenamiento </td> 
       <td>En esta sección puede habilitar las preferencias de nube de Adobe. Permite habilitar o deshabilitar el almacenamiento en la nube de Adobe para toda la organización o para grupos específicos. 
@@ -176,17 +182,17 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
       <td role="rowheader">Completado automático inteligente en formularios de solicitud </td> 
       <td>Permite habilitar la capacidad de rellenar automáticamente formularios de solicitud basados en datos de solicitudes anteriores. Para obtener más información acerca de la cumplimentación automática de formularios, vea <a href="/help/quicksilver/manage-work/requests/create-requests/autofill-suggestions-from-previous.md">Rellenar automáticamente una solicitud de datos anteriores</a>.</td> 
      </tr>
+     <tr> 
+      <td role="rowheader">Inclusión a las betas de IA </td> 
+      <td>Permite habilitar las funciones de IA que se encuentran actualmente en Beta. Si activa esta opción, puede seleccionar qué funciones de AI Beta desea habilitar. Para obtener más información acerca de cada función de AI Beta, haga clic en el icono de información situado junto a ella
     <tr> 
       <td role="rowheader">Diseñador de Planificación</td> 
       <td>Esto solo está disponible para los clientes que han adquirido un paquete de Workfront Planning. Activar esta configuración permite a los usuarios crear y editar espacios de trabajo con Planning Designer. Para obtener más información, consulte <a href="/help/quicksilver/planning/general/planning-ai-designer.md">Introducción a Adobe Workfront Planning Designer</a>.</td> 
-     </tr>
-     <tr> 
-      <td role="rowheader">Inclusión a las betas de IA </td> 
-      <td>Permite habilitar las funciones de IA que se encuentran actualmente en Beta. Si activa esta opción, puede seleccionar qué funciones de AI Beta desea habilitar. Para obtener más información acerca de cada función de AI Beta, haga clic en el icono de información situado junto a ella.</td> 
+     </tr>.</td> 
      </tr>
      <tr> 
       <td role="rowheader"><span class="preview">Herramientas MCP de solo lectura</span></td> 
-      <td><span class="preview">Permite que el servidor MCP de Workfront realice acciones de lectura en los datos de Workfront como, por ejemplo, buscar o enumerar proyectos, tareas u otros elementos. Esta opción está habilitada de forma predeterminada.<p>Para obtener más información sobre el servidor MCP de Workfront, consulte <a href="/help/quicksilver/workfront-basics/workfront-mcp-server/configure-workfront-mcp-server.md">Configuración del servidor MCP de Adobe Workfront</a>.</p></span></td> 
+      <td><span class="preview">Permite que el servidor MCP de Workfront realice acciones de lectura en los datos de Workfront, como buscar o enumerar proyectos, tareas u otros elementos. Esta opción está habilitada de forma predeterminada.<p>Para obtener más información sobre el servidor MCP de Workfront, consulte <a href="/help/quicksilver/workfront-basics/workfront-mcp-server/configure-workfront-mcp-server.md">Configuración del servidor MCP de Adobe Workfront</a>.</p></span></td> 
      </tr>
      <tr> 
       <td role="rowheader"><span class="preview">Herramientas MCP de escritura</span></td> 

@@ -18,9 +18,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: ebf8d5ed1eb0b49315bbe10718c5065fcc871654
+source-git-commit: 8c08e110aeccdf6d6416fd1070fbcbd40fd46983
 workflow-type: tm+mt
-source-wordcount: 3318
+source-wordcount: 3304
 ht-degree: 2%
 
 ---
@@ -90,7 +90,6 @@ A continuación se muestran algunos tipos de listas de objetos de Workfront que 
 | Vista de administración de tableros | Tableros > Vista de administración |
 | Documentos en el almacenamiento en la nube de Adobe | Proyecto, tarea, problema, portafolio, programa, plantilla, tarea de plantilla > Documentos |
 | <span class="preview">Listas de planes de escenario e iniciativas</span> | <span class="preview">Menú principal > Escenarios</span> |
-| <span class="preview">Listas de metas e indicadores de progreso</span> | <ul><li><span class="preview">Menú principal > Metas</span></li><li><span class="preview">Menú principal > Objetivos > Indicadores de progreso</span></li></ul> |
 
 <!--
 
@@ -98,6 +97,9 @@ Last bullet in "Lists of integrations" <li><span class="preview">Setup > Documen
 
 Under Locations?
 | <span class="preview">Lists of timesheet profiles and hour types</span> | <span class="preview"><ul><li>Setup > Timesheets and Hours > Timesheet Profiles</li><li>Setup > Timesheets and Hours > Hour Types</li></ul></span> |
+
+Last, under Scenario Planner
+| <span class="preview">Lists of goals and progress indicators</span> | <ul><li><span class="preview">Main Menu > Goals</span></li><li><span class="preview">Main Menu > Goals > Progress Indicators</span></li></ul> |
 
 -->
 
@@ -185,7 +187,7 @@ En función de los objetos que visualice en una lista mejorada, puede ocultar, m
 
 1. Utilice las teclas de alternancia para mostrar u ocultar columnas de la lista.
 
-<span class="preview">Puede buscar una columna en el cuadro de búsqueda.</span>
+   <span class="preview">Puede buscar una columna en el cuadro de búsqueda.</span>
 
 1. Para reordenar las columnas, haga clic en el icono **Arrastrar** ![Arrastrar icono](assets/drag-icon.png) y mueva una columna a la ubicación que desee. Al mover columnas, la lista cambia automáticamente.
 

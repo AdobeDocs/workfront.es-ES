@@ -4,7 +4,7 @@ product-area: system-administration
 navigation-topic: configure-system-defaults
 title: Crear cuadro de resultados
 description: Un cuadro de resultados mide en qué medida un proyecto se ajusta a los criterios previamente establecidos de un portafolio. Un cuadro de resultados suele reflejar la misión, los valores y las metas estratégicas de una organización.Los administradores de Portfolio suelen definir las preguntas y respuestas del cuadro de resultados para garantizar que sean significativas y valiosas durante la priorización y selección del proyecto. Un administrador de  [!DNL Adobe Workfront]  crea los cuadros de resultados en función de las recomendaciones de los administradores de portafolios.
-author: Becky
+author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 89c9b450-72a6-4b72-98d1-22956696543a
@@ -19,10 +19,10 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: ab475d9e655250410ae6f1ee1ca458533cbea127
 workflow-type: tm+mt
-source-wordcount: 722
-ht-degree: 69%
+source-wordcount: 846
+ht-degree: 61%
 
 ---
 
@@ -32,11 +32,12 @@ ht-degree: 69%
 
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.-->
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release. </span>   
 
-<span class="preview">For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md). </span>
--->
+<span class="preview">La información resaltada en esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa para todos los clientes. Después del lanzamiento en Vista previa, las mismas funciones también están disponibles mensualmente en el entorno de producción para los clientes que habilitaron lanzamientos rápidos. </span>
+
+<span class="preview">Para obtener información sobre las versiones rápidas, consulte [Habilitar o deshabilitar las versiones rápidas para su organización](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
+
 
 Un cuadro de resultados mide en qué medida un proyecto se ajusta a los criterios previamente establecidos de un portafolio. Un cuadro de resultados suele reflejar la misión, los valores y las metas estratégicas de una organización.
 
@@ -84,7 +85,7 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
 
 1. Haga clic en **[!UICONTROL Cuadros de resultados]** y luego haga clic en **[!UICONTROL Nuevo cuadro de resultados]**.
 
-   Se abre el cuadro de diálogo **Nueva tarjeta de puntuación**.
+   Se abre la casilla **Nueva tarjeta de puntuación**.
 
    ![Nuevo cuadro de mandos](assets/new-scorecard-350x173.png)
 
@@ -128,6 +129,11 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
 
    Esto crea el cuadro de resultados y los jefes de proyecto ahora pueden adjuntarlo a su caso comercial del proyecto.
 
+
+1. <span class="preview">(Opcional) Para editar un cuadro de mandos, selecciónelo en la lista de cuadros de mandos y, a continuación, haga clic en **Editar** ![Editar cuadro de mandos](assets/edit-scorecard-icon.png) en la parte inferior de la lista. </span>
+
+1. <span class="preview">(Opcional) Para eliminar un cuadro de mandos, selecciónelo en la lista de cuadros de mandos y, a continuación, haga clic en **Eliminar** ![Eliminar cuadro de mandos](assets/delete-scorecard-icon.png) en la parte inferior de la lista. </span>
+
 ## Copiar un informe de valoración existente
 
 Puede crear un informe de valoración copiando y editando uno existente.
@@ -135,11 +141,15 @@ Puede crear un informe de valoración copiando y editando uno existente.
 {{step-1-to-setup}}
 
 1. Haga clic en **[!UICONTROL Cuadros de resultados]** en el panel izquierdo.
-1. Seleccione un informe de valoración en la lista y, a continuación, haga clic en el icono **Copiar** ![Copiar icono de informe de valoración](assets/copy-scorecard-icon.png) que se encuentra en la parte superior de la lista.
+1. Seleccione un cuadro de mandos en la lista y, a continuación, haga clic en **Copiar** en la parte superior de la lista del cuadro de mandos <span class="preview"> o en **Copiar** ![Copiar icono del cuadro de mandos](assets/copy-scorecard-icon.png) en la parte inferior de la lista</span>.
 
-   Se abre la casilla **Copiar informe de valoración**.
+   Se abre el cuadro de resultados **Copiar**.
 
    ![Copiar cuadro de mandos](assets/copy-scorecard-box.png)
+
+   >[!TIP]
+   >
+   >El nombre del cuadro de resultados se muestra en el título del cuadro.
 
 1. Especifique la siguiente información:
 

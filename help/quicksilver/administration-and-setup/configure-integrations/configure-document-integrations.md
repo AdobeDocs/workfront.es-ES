@@ -21,14 +21,16 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: bf611a79078eac9cf8f78a20ddc83079b36a7de5
 workflow-type: tm+mt
-source-wordcount: 1111
-ht-degree: 9%
+source-wordcount: 1184
+ht-degree: 8%
 
 ---
 
 # Configurar integraciones de documentos
+
+{{highlighted-preview}}
 
 <!-- Audited: 12/2023 -->
 
@@ -97,14 +99,14 @@ Puede configurar las siguientes integraciones para administrar documentos:
 
 * Proveedores de documentos de nube de terceros:
 
-   * [!DNL Box]
-   * [!DNL Dropbox]
-   * [!DNL Dropbox Business]
-   * [!DNL WebDAM]
-   * [!DNL Microsoft OneDrive]
-   * [!DNL Microsoft SharePoint]
-   * [!UICONTROL Unidad Google]
-   * Quip
+  * [!DNL Box]
+  * [!DNL Dropbox]
+  * [!DNL Dropbox Business]
+  * [!DNL WebDAM]
+  * [!DNL Microsoft OneDrive]
+  * [!DNL Microsoft SharePoint]
+  * [!UICONTROL Unidad Google]
+  * Quip
 
   >[!TIP]
   >
@@ -206,6 +208,8 @@ Una vez creada la integración de documentos personalizada, puede ponerla a disp
 
    [!DNL Workfront] utiliza esta clave de API para realizar llamadas de API autorizadas al proveedor de documentos.
 
+1. (Opcional) <span class="preview">Para habilitar la compatibilidad con archivos de gran tamaño, seleccione **[!UICONTROL Habilitar la carga interrumpida para archivos de gran tamaño]** en la sección **[!UICONTROL Compatibilidad con archivos de gran tamaño]** y, a continuación, introduzca el tamaño máximo del fragmento, en MB, en el campo **[!UICONTROL Umbral de carga interrumpida (MB)]**. Este campo acepta valores de hasta 100 MB. Cuando se habilita, los archivos de más de 25 MB se cargan en fragmentos de este tamaño en lugar de en una sola solicitud.</span>
+
 1. Haga clic en **[!UICONTROL Guardar]** para crear la integración.
 
 ## Uso de integraciones de documentos
@@ -266,9 +270,9 @@ Para configurar [!DNL Workfront] para enviar metadatos a [!DNL Workfront DAM]:
 ### Integración con Google Drive
 
 * Cuando se agrega una carpeta vinculada a Workfront, los archivos de la carpeta ya no se agregan automáticamente.
-   * Puede agregar la carpeta de Google a Workfront sin los archivos y, a continuación, agregar los archivos individuales a Workfront. Los archivos se agregan automáticamente a la carpeta Google en Workfront.
-O
-   * Puede crear una carpeta de documentos en Workfront y, a continuación, seleccionar todos los archivos de la carpeta de Google y agregarlos a la carpeta de Workfront.
+  * Puede agregar la carpeta de Google a Workfront sin los archivos y, a continuación, agregar los archivos individuales a Workfront. Los archivos se agregan automáticamente a la carpeta Google en Workfront.
+    O
+  * Puede crear una carpeta de documentos en Workfront y, a continuación, seleccionar todos los archivos de la carpeta de Google y agregarlos a la carpeta de Workfront.
 
 
 * La integración de documentos de Google Drive permite agregar archivos desde el área Mi unidad de Google Drive. No puede agregar carpetas o imágenes desde una unidad compartida. Más información sobre [Unidades compartidas de Google](https://support.google.com/a/users/answer/7212025?hl=en).

@@ -20,14 +20,16 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: c9558f7de0e2f625c8426187436f2ea5cdeabb92
+source-git-commit: c637cfabefebf01868ae0dd020d95bcce50b38e2
 workflow-type: tm+mt
-source-wordcount: 2227
-ht-degree: 5%
+source-wordcount: 2662
+ht-degree: 4%
 
 ---
 
 # Crear un flujo de trabajo de aprobación de documentos
+
+{{highlighted-preview}}
 
 Puede solicitar la aprobación de otros usuarios o equipos para un documento en Adobe Workfront o solicitar que revisen un documento sin necesidad de aprobarlo.
 
@@ -99,6 +101,11 @@ Para crear un flujo de trabajo de aprobación de una sola etapa:
    <td><strong>Añadir nombres o correos electrónicos</strong></td>
    <td>Empiece a escribir el nombre de un usuario o equipo que desee agregar como aprobador o revisor. Si solo tiene revisores, se les notificará y tendrán la opción de completar la revisión, pero no se requerirá ni se adoptará ninguna decisión.</td>
    </tr>
+   <tr class="preview">
+   <td><span class="preview"><strong>Agregar personas o equipos en la vista previa</strong></span></td>
+   <td><span class="preview">Empiece a escribir el nombre de usuario, el equipo o la dirección de correo electrónico. El equipo se añade como un solo aprobador o revisión de forma predeterminada, pero puede elegir añadir a cada miembro del equipo como un participante individual. <br>
+   Nota: Si ya se ha agregado un usuario o pertenece a más de un equipo, se incluirá una vez.</span></td>
+   </tr>
    <tr>
    <td><strong>Solo se requiere una decisión (opcional)</strong></td>
    <td>La primera persona que toma una decisión completa la etapa.</td>
@@ -118,6 +125,10 @@ Para crear un flujo de trabajo de aprobación de una sola etapa:
 1. Haga clic en **Solicitar aprobación**.
 
    ![Solicitar aprobación en modo Básico](assets/request-approval-basic.jpeg)
+
+   <!-- 
+   preview screen![Request approval in Basic mode](assets/request-approval-basic-v2.png)
+   -->
 
 ### Creación de un flujo de trabajo de aprobación avanzado
 
@@ -152,6 +163,11 @@ Para crear un flujo de trabajo de aprobación avanzado:
    <td><strong>Añadir nombres o correos electrónicos</strong></td>
    <td>Empiece a escribir el nombre de un usuario o equipo que desee agregar como aprobador o revisor. Si solo tiene revisores, se les notificará y tendrán la opción de completar la revisión, pero no se requerirá ni se adoptará ninguna decisión.<p>Nota: Un revisor o aprobador solo puede asignarse a una fase abierta a la vez en el mismo recurso. Si se abren varias fases paralelas simultáneamente, no se puede agregar la misma persona a más de una.</p></td>
    </tr>
+   <tr class="preview">
+   <td><span class="preview"><strong>Agregar personas o equipos en la vista previa</strong></span></td>
+   <td><span class="preview">Empiece a escribir el nombre de usuario, el equipo o la dirección de correo electrónico. El equipo se añade como un solo aprobador o revisión de forma predeterminada, pero puede elegir añadir a cada miembro del equipo como un participante individual. <br>
+   Nota: Si ya se ha agregado un usuario o pertenece a más de un equipo, se incluirá una vez. Además, los participantes solo pueden asignarse a una fase abierta a la vez en el mismo recurso.</span></td>
+   </tr>
    <tr>
    <td><strong>Solo se requiere una decisión (opcional)</strong></td>
    <td>La primera persona que toma una decisión completa la etapa.</td>
@@ -173,6 +189,10 @@ Para crear un flujo de trabajo de aprobación avanzado:
 1. (Opcional) Para quitar una ruta, pase el ratón sobre la etiqueta de la ruta y haga clic en el icono de papelera. **La ruta de acceso 1** no se puede quitar y las rutas de acceso no se pueden reordenar. Otras rutas solo se pueden eliminar si no se ha bloqueado ni completado ninguna etapa dentro de la ruta.
 
    ![Modo avanzado con rutas paralelas](assets/request-approval-parallel-paths.jpeg)
+
+<!-- preview screen
+   ![Advanced mode with parallel paths](assets/parallel-path-v2.png)
+-->
 
 1. (Opcional) Para borrar todas las rutas y etapas y volver a empezar, haga clic en **Restablecer** en la parte superior derecha.
 
@@ -208,6 +228,11 @@ Para crear un flujo de trabajo de aprobación de una sola etapa:
    <td><strong>Añadir nombres o correos electrónicos</strong></td>
    <td>Empiece a escribir el nombre de usuario o el correo electrónico que desea agregar como aprobador o revisor. Si solo tiene revisores, se les notificará y tendrán la opción de completar la revisión, pero no se requerirá ni se adoptará ninguna decisión.</td>
    </tr>
+   <tr class="preview">
+   <td><span class="preview"><strong>Agregar personas o equipos en la vista previa</strong></span></td>
+   <td><span class="preview">Empiece a escribir el nombre de usuario, el equipo o la dirección de correo electrónico y, a continuación, elija si es un <strong>aprobador</strong> o <strong>revisor</strong>. Workfront agrega cada miembro activo de un equipo individualmente. <br>
+   Nota: Si ya se ha agregado un usuario o pertenece a más de un equipo, se incluirá una vez.</span></td>
+   </tr>
    <tr>
    <td><strong>Solo se requiere una decisión (opcional)</strong></td>
    <td>La primera persona que toma una decisión completa la etapa.</td>
@@ -225,6 +250,12 @@ Para crear un flujo de trabajo de aprobación de una sola etapa:
 1. Haga clic en **Solicitar aprobación**.
 
    ![Solicitar aprobación en modo Básico](assets/request-approval-basic.jpeg)
+
+   <!-- 
+   preview screen![Request approval in Basic mode](assets/request-approval-basic-v2.png)
+   -->
+
+
 
 >[!NOTE]
 >
@@ -265,6 +296,11 @@ Para crear un flujo de trabajo de aprobación avanzado:
    <td><strong>Añadir nombres o correos electrónicos</strong></td>
    <td>Empiece a escribir el nombre de usuario o el correo electrónico que desea agregar como aprobador o revisor. Si solo tiene revisores, se les notificará y tendrán la opción de completar la revisión, pero no se requerirá ni se adoptará ninguna decisión.<p>Nota: Un revisor o aprobador solo puede asignarse a una fase abierta a la vez en el mismo recurso. Si se abren varias fases paralelas simultáneamente, no se puede agregar la misma persona a más de una.</p></td>
    </tr>
+   <tr class="preview">
+   <td><span class="preview"><strong>Agregar personas o equipos en la vista previa</strong></span></td>
+   <td><span class="preview">Empiece a escribir el nombre de usuario, el equipo o la dirección de correo electrónico y, a continuación, elija si es un <strong>aprobador</strong> o <strong>revisor</strong>. Workfront agrega cada miembro activo de un equipo individualmente. <br>
+   Nota: Si ya se ha agregado un usuario o pertenece a más de un equipo, se incluirá una vez. Además, los participantes solo pueden asignarse a una fase abierta a la vez en el mismo recurso.</span></td>
+   </tr>
    <tr>
    <td><strong>Solo se requiere una decisión (opcional)</strong></td>
    <td>La primera persona que toma una decisión completa la etapa.</td>
@@ -288,9 +324,37 @@ Para crear un flujo de trabajo de aprobación avanzado:
 
    ![Modo avanzado con rutas paralelas](assets/request-approval-advanced.jpeg)
 
+   <!-- preview screen
+   ![Advanced mode with parallel paths](assets/parallel-path-v2.png)
+   -->
+
 1. (Opcional) Para borrar todas las rutas y etapas y volver a empezar, haga clic en **Restablecer** en la parte superior derecha.
 
 1. Haga clic en **Solicitar aprobación**.
+
+<div class="preview">
+
+## Ver los flujos de trabajo de aprobación de versiones anteriores en el área nueva de Documentos en Vista previa
+
+Si su organización utiliza el almacenamiento en la nube de Adobe, verá la nueva área Documentos al acceder a documentos en Workfront. Para obtener más información sobre el almacenamiento en la nube de Adobe, consulte [Información general sobre el almacenamiento en la nube de Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
+
+El panel Aprobaciones muestra únicamente las versiones del documento que tienen un flujo de trabajo de aprobación.
+
+Para ver los flujos de trabajo de aprobación de versiones anteriores:
+
+1. Vaya al proyecto, tarea o problema que contiene el documento y, a continuación, seleccione **Documentos** en el panel izquierdo.
+1. Haga clic en el documento y luego en el icono **Aprobaciones** que encontrará a la derecha de la página.
+
+   ![Agregar aprobadores en el resumen del documento](assets/approvals-icon-new.png)
+
+1. Haga clic en una versión para expandirla. Puede ver las fases, la decisión de cada aprobador, la regla de decisión de la fase (por ejemplo, si solo se requiere una decisión para completar la fase) y las fechas de vencimiento.
+1. Haga clic en otra versión para expandir su flujo de trabajo de aprobación sin salir del panel.
+
+   >[!NOTE]
+   >
+   >Si el flujo de trabajo de aprobación de una versión se ha retirado porque se ha solicitado la aprobación de una versión más reciente, permanece en la lista, contraído, por lo que aún puede revisar sus decisiones anteriores.
+
+</div>
 
 <!--
 ## Resubmit an approval on a new version

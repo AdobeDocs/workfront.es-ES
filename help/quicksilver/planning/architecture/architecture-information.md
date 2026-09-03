@@ -12,10 +12,10 @@ product_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 2d26437c69b3c36366938952d426532934f55c52
+source-git-commit: 6f64c3e6ebb8407c38ad3a1d46b2fc63b534879e
 workflow-type: tm+mt
-source-wordcount: 238
-ht-degree: 94%
+source-wordcount: 243
+ht-degree: 92%
 
 ---
 
@@ -47,16 +47,6 @@ Los artículos de las secciones siguientes describen cómo se pueden configurar 
 * [Información general de tipos de registro entre espacios de trabajo](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md)
 * [Configuración de capacidades entre espacios de trabajo para tipos de registros](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md)
 
-<!--
-
-<div class="preview">
-
-* [Configure record type business rules](/help/quicksilver/planning/architecture/configure-business-rules.md)
-
-</div>
-
--->
-
 * [Agregar tipos de registros existentes desde otro espacio de trabajo](/help/quicksilver/planning/architecture/add-existing-record-types-from-another-workspace.md)
 * [Configuración del área Configuración de un tipo de registro](/help/quicksilver/planning/architecture/configure-record-type-settings.md)
 * [Información general de jerarquía y ruta](/help/quicksilver/planning/architecture/hierarchy-and-breadcrumb-overview.md)
@@ -65,5 +55,6 @@ Los artículos de las secciones siguientes describen cómo se pueden configurar 
 <div class="preview">
 
 * [Administrar conexiones dependientes](/help/quicksilver/planning/architecture/manage-dependent-connections.md)
+* [Configurar reglas empresariales de tipo de registro](/help/quicksilver/planning/architecture/configure-business-rules.md)
 
 </div>

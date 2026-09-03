@@ -17,14 +17,16 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 94f14afac621d7a0e41daceeb8eb7a5d2682f911
 workflow-type: tm+mt
-source-wordcount: 346
-ht-degree: 86%
+source-wordcount: 409
+ht-degree: 70%
 
 ---
 
 # Registrar una integración de webhook
+
+{{highlighted-preview}}
 
 Los administradores de Adobe Workfront pueden añadir una integración de webhook para su empresa navegando hasta Configuración > Documentos > Integraciones personalizadas en Workfront. Desde la página Integración personalizada dentro de Configuración, los administradores pueden ver una lista de las integraciones de webhook de documentos existentes. Desde esta página, las integraciones se pueden añadir, editar, habilitar y deshabilitar.
 
@@ -56,7 +58,7 @@ Al añadir una integración, el administrador introduce valores en los campos si
   </tr> 
   <tr> 
    <td>Parámetros de solicitud</td> 
-   <td> <p>Valores opciones que se agregarán a querystring en cada llamada API. Por ejemplo: access_type </p> </td> 
+   <td> <p>Valores opcionales que se anexan a la cadena de consulta de cada llamada API. Por ejemplo, access_type=offline. </p> </td> 
   </tr> 
   <tr> 
    <td>Tipo de autenticación</td> 
@@ -85,6 +87,14 @@ Al añadir una integración, el administrador introduce valores en los campos si
   <tr> 
    <td>ApiKey</td> 
    <td> <p>(Solo ApiKey) Se utiliza para realizar llamadas de API autorizadas al proveedor de webhooks. Se trata de la clave API emitida por el proveedor de webhooks.</p> </td> 
+  </tr> 
+  <tr class="preview"> 
+   <td>Habilitar la carga interrumpida para archivos grandes</td> 
+   <td> <p>Seleccione esta casilla de verificación para habilitar las cargas de varias partes (fragmentadas) para archivos de más de 25 MB. Cuando no se selecciona, los archivos se cargan en una sola solicitud independientemente de su tamaño.</p> </td> 
+  </tr> 
+  <tr class="preview"> 
+   <td>Umbral de carga interrumpida (MB)</td> 
+   <td> <p>El tamaño máximo, en MB, de cada fragmento cuando se divide un archivo grande para la carga. Acepta valores de hasta 100 MB.</p> </td> 
   </tr> 
  </tbody> 
 </table>

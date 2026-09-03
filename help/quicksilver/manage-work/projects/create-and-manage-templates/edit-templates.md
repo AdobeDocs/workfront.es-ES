@@ -25,27 +25,25 @@ role_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 1e6380b0422efdd98449ab1e74cadb4f330917f1
+source-git-commit: 96cf04616582ac0208a9365d0f10f2403ebd317c
 workflow-type: tm+mt
-source-wordcount: 5111
-ht-degree: 83%
+source-wordcount: 5223
+ht-degree: 81%
 
 ---
 
 # Editar plantillas del proyecto
+
+{{highlighted-preview}}
 
 <!-- Audited: 7/2025 -->
 
 <!--The Resource Pools part also duplicates in the "Working with Resource Pools" article-->
 
 <!--
-<div class="preview"> 
+<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release.      
-
-For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
-
-</div> 
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 -->
 
@@ -253,6 +251,15 @@ Old:
       <tr> 
       <td role="rowheader"><strong>Compañía</strong></td> 
       <td><p>Especifique la Compañía que desee asociar con la plantilla. En la lista solo se muestran las compañías activas.</p></td> 
+      </tr> 
+      <tr>
+      <td role="rowheader"><span class="preview"><strong>Espacio de trabajo de Frame.io (condicional)</strong></span></td>
+      <td><span class="preview">
+      <p>En un proyecto de almacenamiento en la nube de Adobe, seleccione el espacio de trabajo de Frame.io que desee que utilicen los proyectos creados a partir de esta plantilla. Si su organización tiene varios espacios de trabajo Frame.io, esto determina en qué espacio de trabajo se crea el proyecto Frame.io vinculado.</p>
+      <p>La lista incluye únicamente los espacios de trabajo de Frame.io a los que tiene permiso para asignar proyectos. Espacio de trabajo predeterminado utilizado cuando no hay ningún espacio de trabajo seleccionado ni disponible.</p>
+      <p>Puede cambiar este campo en la plantilla en cualquier momento. Los cambios solo se aplican a los proyectos creados después del cambio; los proyectos ya creados a partir de la plantilla mantienen su espacio de trabajo Frame.io existente.</p>
+      <p>Nota: Debe tener Frame.io enterprise para utilizar el campo de espacio de trabajo Frame.io.</p>
+      </span></td>
       </tr> 
       <tr> 
       <td role="rowheader"><strong>Propietario de la plantilla</strong></td> 
@@ -772,8 +779,8 @@ La adición de los siguientes elementos a una plantilla es idéntica a su adici�
 
   Para obtener información sobre cómo agregar grupos de temas y temas de colas a un proyecto o plantilla, vea los siguientes artículos:
 
-   * [Crear grupos de temas](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-topic-groups.md)
-   * [Crear temas de la cola](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-queue-topics.md)
+  * [Crear grupos de temas](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-topic-groups.md)
+  * [Crear temas de la cola](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-queue-topics.md)
 
 Puede añadir los siguientes elementos a las tareas de la plantilla:
 

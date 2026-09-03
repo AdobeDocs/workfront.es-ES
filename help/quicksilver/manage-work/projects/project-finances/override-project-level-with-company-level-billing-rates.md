@@ -18,10 +18,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 8c08e110aeccdf6d6416fd1070fbcbd40fd46983
 workflow-type: tm+mt
-source-wordcount: 475
-ht-degree: 89%
+source-wordcount: 480
+ht-degree: 57%
 
 ---
 
@@ -66,21 +66,21 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
 
 +++
 
-## Habilitar la opción de anulación de tarifas de facturación a nivel de compañía
+## Active la opción de anulación Tarifas de facturación a nivel de compañía
 
-Si una compañía está asociada con un proyecto y esta opción está habilitada, los cambios realizados en las tarifas de facturación a nivel de compañía anulan las tarifas de facturación establecidas en el proyecto.
+Si una empresa está relacionada con un proyecto y esta opción está activada, los cambios hechos en las tarifas de facturación en la empresa anulan las tarifas establecidas en el proyecto.
 
 Cuando un usuario recalcula manualmente las finanzas del proyecto, se aplican todos los cambios realizados en las tarifas de facturación a nivel de compañía. Los cálculos de ingresos históricos también se anulan, a menos que estén marcados como facturados.
 
 1. Vaya a un proyecto.
 1. Haga clic en el menú **Más** ![Menú más](assets/qs-more-icon-on-an-object.png) junto al nombre del proyecto en el encabezado y, a continuación, haga clic en **Editar**.
-1. En la sección **Finanzas**, habilite **Permitir que las tarifas de facturación a nivel de compañía anulen las tarifas de facturación a nivel de proyecto**.
+1. En la sección **Finanzas**, seleccione **Permitir que las tarifas de facturación a nivel de compañía anulen las tarifas a nivel de proyecto**.
 
    >[!CAUTION]
    >
    >Al habilitar esta opción se anulan los cálculos de ingresos históricos a menos que estén marcados como facturados. Puede conservar los cálculos de ingresos históricos creando un registro de facturación. Para obtener más información, consulte el artículo [Crear registros de facturación](../../../manage-work/projects/project-finances/create-billing-records.md).
 
-1. Haga clic en **Guardar cambios**.
+1. Haga clic en **Guardar**.
 
 ## Actualizar las tarifas de facturación a nivel de compañía y aplicarlas a un proyecto
 
@@ -93,23 +93,24 @@ Después de habilitar la opción de anulación de tarifas de facturación a nive
 {{step-1-to-setup}}
 
 1. Haga clic en **Compañías**.
-1. Haga clic en el nombre de la compañía asociada al proyecto para el que habilitó la anulación de tarifas de facturación a nivel de compañía.
+1. Haga clic en el nombre de la empresa asociada al proyecto para el que activó la anulación de tarifas de facturación en la empresa.
 1. Haga clic en **Tarifas de facturación** en el panel de la izquierda.
-1. Actualice la **Tarifa de facturación de la compañía** y las fechas de inicio/finalización de una función existente y, a continuación, presione Intro.
+1. Seleccione la tasa de rol que desea actualizar y haga clic en el icono **Editar** ![Editar icono](assets/edit-icon.png).
 
-   Para añadir una nueva tarifa de facturación de la compañía con fecha efectiva, seleccione una tarifa de facturación de funciones y haga clic en **Editar**. Para obtener más información sobre las tarifas de facturación de la compañía con fecha efectiva, consulte [Anular tarifas de facturación de funciones a nivel de compañía](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/override-job-role-billing-rates-company-level.md).
+   Actualice la tarifa de facturación y las fechas en vigencia según sea necesario y haga clic en **Guardar**. Para obtener más información sobre las tarifas de facturación de la compañía con fecha efectiva, consulte [Anular tarifas de facturación de funciones a nivel de compañía](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/override-job-role-billing-rates-company-level.md).
 
 1. Para actualizar las tarifas de la compañía de uno o más proyectos, realice una de las siguientes acciones:
 
    * Varios proyectos:
 
-      1. Ir a una lista de proyectos.
-      1. Seleccione la casilla de verificación en línea con los proyectos que desee actualizar.
-      1. Haga clic en **Editar**.
-      1. En la sección Configuración, habilite la opción **Recalcular costes e ingresos**.
-      1. Haga clic en **Guardar cambios**.
+     1. Ir a una lista de proyectos.
+     1. Active las casillas de verificación de los proyectos que desee actualizar.
+     1. Haga clic en el menú **Más** ![Menú más](assets/qs-more-icon-on-an-object.png) en la parte superior de la lista y, a continuación, haga clic en **Recalcular finanzas**.
 
    * Un solo proyecto:
 
-      1. Vaya al proyecto para el que ha habilitado la opción de anulación de las tarifas de facturación a nivel de compañía.
-      1. Haga clic en el menú **Más** ![Menú más](assets/qs-more-icon-on-an-object.png) junto al nombre del proyecto en el encabezado y, a continuación, haga clic en **Volver a calcular finanzas**.
+     1. Vaya al proyecto para el que ha habilitado la opción de anulación de las tarifas de facturación a nivel de compañía.
+     1. Haga clic en el menú **Más** ![Menú más](assets/qs-more-icon-on-an-object.png) junto al nombre del proyecto en el encabezado y, a continuación, haga clic en **Volver a calcular finanzas**.
+
+     Para obtener más información sobre cómo recalcular las finanzas de uno o más proyectos, vea [Recalcular finanzas de proyectos](/help/quicksilver/manage-work/projects/project-finances/recalculate-project-finances.md).
+

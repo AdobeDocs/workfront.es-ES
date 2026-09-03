@@ -21,7 +21,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 5d51290f1181ea1abfc6ac918721e803da049790
+source-git-commit: bde3551443641024b87397e35064ebf4577179eb
 workflow-type: tm+mt
 source-wordcount: 1471
 ht-degree: 64%
@@ -239,6 +239,7 @@ Puede crear un proyecto desde el área Proyectos del menú principal o desde el 
    Edite los valores rellenados previamente para que coincidan mejor con el proyecto.
 
    Para obtener más información, consulte [Editar proyectos](../../../manage-work/projects/manage-projects/edit-projects.md).
+
 1. Haga clic en **Crear proyecto**.
 
    Todos los detalles definidos en la plantilla se asocian automáticamente al proyecto recién creado si no los ha cambiado en el paso anterior.
@@ -273,6 +274,7 @@ En lugar de empezar en el área de Proyectos, puede crear un proyecto a partir d
    Si un campo ya se ha rellenado en la plantilla, el campo ya se ha rellenado previamente en el cuadro **Nuevo proyecto**. Puede editar los valores rellenados previamente para que coincidan mejor con su proyecto.
 
    Para obtener más información, consulte [Editar proyectos](../../../manage-work/projects/manage-projects/edit-projects.md).
+
 
 1. Haga clic en **Crear proyecto**.
 
