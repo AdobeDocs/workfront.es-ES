@@ -7,17 +7,13 @@ author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 48f8605b-c342-493b-96e7-f73248e34b35
 TQID: https://experienceleague.adobe.com/c8-TIFSw6jfjZq-S76dP7SSrf69EFAfjB-OPAJJdVOQ
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 5cc67b0f991a02759e42ec9b9369ae8359ecc40c
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 3c25e6bf7cfa1e2ac25a83096d83a8eb0ef4a148
 workflow-type: tm+mt
-source-wordcount: 2584
+source-wordcount: 2771
 ht-degree: 1%
 
 ---
@@ -82,7 +78,7 @@ Para obtener más información, consulte [Generar un informe de KPI](/help/quick
 
    1. Haga clic en **Seleccionar campo**.
 
-   1. Busque y seleccione la carpeta **Aprobación de documento**.
+   1. Busque y seleccione la carpeta **Aprobación**.
 
    1. Seleccione **Estado**.
 
@@ -97,8 +93,16 @@ Para obtener más información, consulte [Generar un informe de KPI](/help/quick
    1. Haga clic en **Agregar condición**.
 
    1. Haga clic en el filtro de condición vacío, haga clic en **Elegir un campo** y, a continuación, elija **Estado**.
-   1. Deje el operador como **Equal** y, a continuación, escriba _pending review_ en el cuadro de texto.
-      ![ejemplo de filtro kpi pendiente](assets/pending-kpi-filter.png)
+   1. Deje el operador como **Equal** y, a continuación, elija **Revisión pendiente**.
+
+   1. Haga clic en **Agregar condición**.
+   1. Haga clic en el filtro de condición vacío, haga clic en **Elegir un campo** y, a continuación, elija **Tipo de aprobación**.
+   1. Deje el operador como **Equal** y, a continuación, seleccione **Document Version**.
+
+   ![ejemplo de filtro kpi pendiente](assets/pending-kpi-filter.png)
+
+
+
 1. Haz clic en **Guardar** en la esquina superior derecha de la pantalla.
 
 
@@ -124,7 +128,7 @@ Para obtener más información, consulte [Generar un informe de KPI](/help/quick
 
    1. Haga clic en **Seleccionar campo**.
 
-   1. Busque y seleccione la carpeta **Aprobación de documento**.
+   1. Busque y seleccione la carpeta **Aprobación**.
 
    1. Seleccione **Estado**.
 
@@ -147,8 +151,13 @@ Para obtener más información, consulte [Generar un informe de KPI](/help/quick
    1. Haga clic en **Agregar condición**.
    1. Haga clic en el filtro de condición vacío y luego haga clic en **Elegir un campo**.
    1. Seleccione **Estado**.
-   1. Cambie el operador a **No contiene** y, a continuación, escriba _aprobado_ en el cuadro de texto.
+   1. Cambie el operador a **No contiene** y, a continuación, elija **Aprobado**.
       ![ejemplo de filtro kpi vencido 2](assets/overdue-kpi-filter-2.png)
+
+   1. Haga clic en **Agregar condición**.
+   1. Haga clic en el filtro de condición vacío, haga clic en **Elegir un campo** y, a continuación, elija **Tipo de aprobación**.
+   1. Deje el operador como **Equal** y, a continuación, seleccione **Document Version**.
+
 1. Haz clic en **Guardar** en la esquina superior derecha de la pantalla.
 
 
@@ -175,7 +184,7 @@ Para obtener más información, consulte [Generar un informe de KPI](/help/quick
 
    1. Haga clic en **Seleccionar campo**.
 
-   1. Busque y seleccione la carpeta **Aprobación de documento**.
+   1. Busque y seleccione la carpeta **Aprobación**.
 
    1. Seleccione **Estado**.
 
@@ -193,14 +202,19 @@ Para obtener más información, consulte [Generar un informe de KPI](/help/quick
 
    1. Seleccione **Estado**.
 
-   1. Cambie el operador a **Contains** y escriba _approved_ en el cuadro de texto.
+   1. Cambie el operador a **Contains** y elija **Approved**.
       ![ejemplo de filtro kpi completado](assets/completed-kpi-filter.png)
    1. Haga clic en **Agregar condición**.
    1. Haga clic en **Y** para cambiarlo a **O**.
    1. Haga clic en el filtro de condición vacío y luego haga clic en **Elegir un campo**.
    1. Seleccione **Estado**.
-   1. Cambie el operador a **Equal** y, a continuación, escriba _review_ en el cuadro de texto.
+   1. Cambie el operador a **Equal** y, a continuación, elija **Revisado**.
       ![ejemplo de filtro kpi completado](assets/completed-kpi-filter-2.png)
+
+   1. Haga clic en **Agregar condición**.
+   1. Haga clic en el filtro de condición vacío, haga clic en **Elegir un campo** y, a continuación, elija **Tipo de aprobación**.
+   1. Deje el operador como **Equal** y, a continuación, seleccione **Document Version**.
+
 1. Haz clic en **Guardar** en la esquina superior derecha de la pantalla.
 
 #### Aprobaciones abandonadas
@@ -225,7 +239,7 @@ Para obtener más información, consulte [Generar un informe de KPI](/help/quick
 
    1. Haga clic en **Seleccionar campo**.
 
-   1. Busque y seleccione la carpeta **Fase de aprobación del documento**.
+   1. Busque y seleccione la carpeta **Fase de aprobación**.
 
    1. Seleccione **Plazo**.
 
@@ -243,7 +257,7 @@ Para obtener más información, consulte [Generar un informe de KPI](/help/quick
 
    1. Seleccione **Estado**.
 
-   1. Cambie el operador a **No contiene** y escriba _aprobado_ en el cuadro de texto.
+   1. Cambie el operador a **No contiene** y elija **Aprobado**.
       ![ejemplo de filtro kpi abandonado](assets/abandoned-kpi-filter.png)
    1. Haga clic en **Agregar condición**.
    1. Haga clic en el filtro de condición vacío y luego haga clic en **Elegir un campo**.
@@ -251,6 +265,11 @@ Para obtener más información, consulte [Generar un informe de KPI](/help/quick
    1. Cambie el operador a **Less Than** y luego cambie **Set relative date** a **ON**.
    1. Escriba _$$TODAY-2w_ en el cuadro de texto.
       ![ejemplo de filtro kpi abandonado](assets/abandoned-kpi-filter-2.png)
+
+   1. Haga clic en **Agregar condición**.
+   1. Haga clic en el filtro de condición vacío, haga clic en **Elegir un campo**, elija la **relación de aprobación** y, a continuación, en **Tipo de aprobación**.
+   1. Deje el operador como **Equal** y, a continuación, seleccione **Document Version**.
+
 1. Haz clic en **Guardar** en la esquina superior derecha de la pantalla.
 
 ### Gráficos
@@ -278,7 +297,7 @@ Para obtener más información, consulte [Generar un informe de KPI](/help/quick
 
    1. En el menú desplegable **Tipo de gráfico**, deje seleccionado **Barra**.
    1. En el menú desplegable **Tipo de barra**, deje seleccionado **Simple**.
-   1. Haga clic en **Actualizar campo** para el **eje inferior (X)** y, a continuación, seleccione **Aprobación de documento** > **Estado**.
+   1. Haga clic en **Actualizar campo** para el **eje inferior (X)**, luego seleccione **Aprobación** > **Estado**.
    1. Establezca **Aggregation type** en **Count**.
    1. Haga clic en **Actualizar campo** para el **eje izquierdo (Y)** y, a continuación, seleccione **Estado**.
 1. Siga los pasos a continuación para configurar la sección **Filter**:
@@ -288,6 +307,11 @@ Para obtener más información, consulte [Generar un informe de KPI](/help/quick
    1. Seleccione **Versión del documento** > **Versión**.
    1. Cambiar el operador a **No es nulo**.
       ![ejemplo de filtro](assets/approvals-by-decision-chart-filter.png)
+
+   1. Haga clic en **Agregar condición**.
+   1. Haga clic en el filtro de condición vacío, haga clic en **Elegir un campo** y, a continuación, elija **Tipo de aprobación**.
+   1. Deje el operador como **Equal** y, a continuación, seleccione **Document Version**.
+
 1. Haz clic en **Guardar** en la esquina superior derecha de la pantalla.
 
 
@@ -313,9 +337,9 @@ Para obtener más información, consulte [Generar un informe de KPI](/help/quick
 
    1. En el menú desplegable **Tipo de gráfico**, deje seleccionado **Barra**.
    1. En el menú desplegable **Tipo de barra**, deje seleccionado **Simple**.
-   1. Haga clic en **Actualizar campo** para el **eje inferior (X)** y, a continuación, seleccione **Aprobación de documento** > **Versión de documento** > **Versión**.
+   1. Haga clic en **Actualizar campo** para el **eje inferior (X)**, luego seleccione **Aprobación** > **Versión del documento** > **Versión**.
    1. Establezca **Aggregation type** en **Count**.
-   1. Haga clic en **Actualizar campo** para el **eje izquierdo (Y)** y, a continuación, seleccione **Aprobación de documento** > **Versión de documento** > **Documento** > **Nombre**.
+   1. Haga clic en **Actualizar campo** para el **eje izquierdo (Y)**, luego seleccione **Aprobación** > **Versión del documento** > **Documento** > **Nombre**.
 
 1. Siga los pasos a continuación para configurar la sección **Filter**:
    1. En el panel izquierdo, haga clic en el icono **Filtrar** ![icono de ficha de filtro](assets/filter-tab.png).
@@ -332,6 +356,11 @@ Para obtener más información, consulte [Generar un informe de KPI](/help/quick
    1. Cambie el operador a **Menor o igual que**, luego cambie **Establecer fecha relativa** a **ON**.
    1. Escriba _$$TODAYem_ en el cuadro de texto.
       ![Ejemplo de filtro de gráfico de revisiones](assets/revision-chart-filter-2.png)
+
+   1. Haga clic en **Agregar condición**.
+   1. Haga clic en el filtro de condición vacío, haga clic en **Elegir un campo** y, a continuación, elija **Tipo de aprobación**.
+   1. Deje el operador como **Equal** y, a continuación, seleccione **Document Version**.
+
 1. Haz clic en **Guardar** en la esquina superior derecha de la pantalla.
 
 ## Agregar información detallada de revisión y aprobación con tablas
@@ -360,7 +389,7 @@ Para obtener más información sobre cómo generar un informe de tabla, consulte
 
    1. En el panel izquierdo, haga clic en el icono **Columnas de tabla** ![Icono de columnas de tabla](assets/drilldown-column.png).
    1. Haga clic en **Agregar columna**.
-   1. Desplácese hacia abajo y seleccione **Aprobación de documento** > **Estado**.
+   1. Desplácese hacia abajo y seleccione **Aprobación** > **Estado**.
    1. Añada las siguientes columnas:
 
    <table>
@@ -378,19 +407,19 @@ Para obtener más información sobre cómo generar un informe de tabla, consulte
     </tr>
     <tr>
     <td><strong>Fecha límite</strong></td>
-    <td>Aprobación de documento &gt; Fases de aprobación &gt; Plazo</td>
+    <td>Aprobación &gt; Fases de aprobación &gt; Plazo</td>
     </tr>
     <tr>
     <td><strong>Solicitado por</strong></td>
-    <td>Aprobación de documento &gt; Fases de aprobación &gt; Participantes en la fase de aprobación* &gt; Solicitante &gt; escriba <em>Nombre</em> en el cuadro de búsqueda.</td>
+    <td>Aprobación &gt; Fases de aprobación &gt; Participantes en la fase de aprobación* &gt; Solicitante &gt; escriba <em>Nombre</em> en el cuadro de búsqueda.</td>
     </tr>
     <tr>
     <td><strong>Fecha de solicitud</strong></td>
-    <td>Aprobación de documento &gt; Fases de aprobación &gt; Participantes en la fase de aprobación* &gt; Creado en</td>
+    <td>Aprobación &gt; Fases de Aprobación &gt; Participantes de la Fase de Aprobación* &gt; Creado en</td>
     </tr>
     <tr>
     <td><strong>Aprobador</strong></td>
-    <td>Aprobación de documento &gt; Fases de aprobación &gt; Participantes en la fase de aprobación* &gt; Usuario participante &gt; escriba <em>Nombre</em> en el cuadro de búsqueda.</td>
+    <td>Aprobación &gt; Fases de aprobación &gt; Participantes en la fase de aprobación* &gt; Usuario participante &gt; escriba <em>Nombre</em> en el cuadro de búsqueda.</td>
     </tr>
     </table>
 
@@ -403,8 +432,14 @@ Para obtener más información sobre cómo generar un informe de tabla, consulte
    1. Haga clic en **Editar filtro** y luego en **Agregar condición**.
    1. Haga clic en el filtro de condición vacío y luego haga clic en **Elegir un campo**.
    1. Seleccione **Estado**.
-   1. Cambie el operador a **Equal** y, a continuación, escriba _pending approval_ en el cuadro de texto.
+   1. Cambie el operador a **Equal** y luego elija **Aprobación pendiente**.
       ![ejemplo de filtro de tabla de aprobación pendiente](assets/pending-approval-table-filter.png)
+
+
+   1. Haga clic en **Agregar condición**.
+   1. Haga clic en el filtro de condición vacío, haga clic en **Elegir un campo** y, a continuación, elija **Tipo de aprobación**.
+   1. Deje el operador como **Equal** y, a continuación, seleccione **Document Version**.
+
    1. (Opcional) Agregue filtros adicionales como se describe en la sección **Filtros opcionales** a continuación.
 1. Haz clic en **Guardar** en la esquina superior derecha de la pantalla.
 
@@ -456,7 +491,7 @@ Para ver información más específica según el caso de uso, puede añadir cond
 
    1. En el panel izquierdo, haga clic en el icono **Columnas de tabla** ![Icono de columnas de tabla](assets/drilldown-column.png).
    1. Haga clic en **Agregar columna**.
-   1. Desplácese hacia abajo y seleccione **Aprobaciones de documentos** > **Estado**.
+   1. Desplácese hacia abajo y seleccione **Aprobaciones** > **Estado**.
    1. Añada las siguientes columnas:
 
       <table>
@@ -474,19 +509,19 @@ Para ver información más específica según el caso de uso, puede añadir cond
         </tr>
         <tr>
         <td><strong>Fecha límite</strong></td>
-        <td>Documento &gt; Fases de aprobación &gt; Plazo</td>
+        <td>Aprobación &gt; Fases de aprobación &gt; Plazo</td>
         </tr>
         <tr>
         <td><strong>Solicitado por</strong></td>
-        <td>Documento &gt; Fases de aprobación &gt; Participantes en la fase de aprobación* &gt; Solicitante &gt; escriba <em>Nombre</em> en el cuadro de búsqueda.</td>
+        <td>Aprobación &gt; Fases de aprobación &gt; Participantes en la fase de aprobación* &gt; Solicitante &gt; escriba <em>Nombre</em> en el cuadro de búsqueda.</td>
         </tr>
         <tr>
         <td><strong>Fecha de solicitud</strong></td>
-        <td>Documento &gt; Fases de aprobación &gt; Participantes de la fase de aprobación* &gt; Creado en</td>
+        <td>Aprobación &gt; Fases de Aprobación &gt; Participantes de la Fase de Aprobación* &gt; Creado en</td>
         </tr>
         <tr>
         <td><strong>Aprobador</strong></td>
-        <td>Documento &gt; Fases de aprobación &gt; Participantes en la fase de aprobación* &gt; Usuario participante &gt; escriba <em>Nombre</em> en el cuadro de búsqueda.</td>
+        <td>Aprobación &gt; Fases de aprobación &gt; Participantes en la fase de aprobación* &gt; Usuario participante &gt; escriba <em>Nombre</em> en el cuadro de búsqueda.</td>
         </tr>
         </table>
 
@@ -536,5 +571,10 @@ Para ver información más específica según el caso de uso, puede añadir cond
    1. Seleccione **Fases de aprobación** > **Participantes en la fase de aprobación** > **Equipo de participantes** > escriba _Nombre_ en el cuadro de búsqueda.
    1. Cambie el operador a **Equal** y, a continuación, elija **Mis equipos predeterminados (Usuario con sesión iniciada)** o **Mis otros equipos (Usuario con sesión iniciada)** para mostrar los proyectos asignados a su equipo predeterminado o a otros equipos en los que esté.
       ![ejemplo de filtro de tabla de aprobación pendiente](assets/approvals-ive-submitted-filter.png)
+
+   1. Haga clic en **Agregar condición**.
+   1. Haga clic en el filtro de condición vacío, haga clic en **Elegir un campo**, a continuación, elija la relación de aprobación y, por último, el tipo de aprobación.
+   1. Deje el operador como **Equal** y, a continuación, seleccione Versión del documento.
+
 1. Haz clic en **Guardar** en la esquina superior derecha de la pantalla.
 +++
