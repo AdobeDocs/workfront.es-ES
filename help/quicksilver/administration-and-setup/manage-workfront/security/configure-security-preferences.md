@@ -11,29 +11,21 @@ exl-id: f92ceed7-b191-425b-9fff-1b0947f32db8
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/46D3BBajFk39FP-dMDk0SuSSGM5nYPKas11Bs159R9Y
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
-subfeature_v2:
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 7c9dfc68d8df73734df7b6db3f45e6b31e1f0bc4
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 19349c6eb433c45f6b9bc4dabe1001ef4b69bec1
 workflow-type: tm+mt
-source-wordcount: 1155
-ht-degree: 48%
+source-wordcount: 1318
+ht-degree: 45%
 
 ---
 
 # Configurar preferencias del sistema
+
+{{highlighted-preview}}
 
 <!--
 DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.</p>
@@ -150,6 +142,10 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
      <tr>
       <td>Aplicar siempre los campos obligatorios en la edición por lotes</td>
       <td><p>Permite elegir si se fuerza a los usuarios a introducir información en los campos obligatorios al editar objetos por lotes.</p> <p>Si se selecciona esta opción, los campos obligatorios deben tener valores antes de guardarlos en el modo de edición por lotes. Si en el campo obligatorio falta un valor para al menos un objeto seleccionado en bloque, no se permite guardar.</p> <p>Cuando esta opción no está seleccionada, los campos obligatorios solo se aplican cuando un usuario modifica el campo. Si un campo no se modifica, se trata como opcional y no se valida.</p></td>
+     </tr>
+     <tr>
+      <td role="rowheader"><span class="preview">Nivel de acceso para usuarios creados en Admin Console</span></td>
+      <td><span class="preview">Permite elegir un nivel de acceso predeterminado para asignarlo automáticamente a los usuarios creados en Workfront a través de Adobe Admin Console. Si no establece un valor predeterminado, estos usuarios seguirán recibiendo un nivel de acceso de Colaborador o Solicitante. Los niveles de acceso Administrador del sistema y Usuario externo no están disponibles como predeterminados y esta opción no está disponible para organizaciones que tienen Workfront Planning como producto independiente.<p><b>NOTA</b>: no puede eliminar un nivel de acceso mientras esté establecido como predeterminado. Para eliminar el nivel de acceso predeterminado, seleccione primero un nivel de acceso predeterminado diferente.</p></span></td>
      </tr>
      <tr> 
       <td role="rowheader">Preferencias de almacenamiento </td> 
