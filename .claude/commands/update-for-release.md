@@ -1,9 +1,9 @@
 ---
 name: update-for-release
 description: ""
-source-git-commit: 524a24c1a143a82cdc017ea6266aa2ee5c7a7c0b
+source-git-commit: 4c2305da7635694d9d7bc174b5837a0d57fb7ac0
 workflow-type: tm+mt
-source-wordcount: '1560'
+source-wordcount: '2009'
 ht-degree: 0%
 
 ---
@@ -70,9 +70,10 @@ Para cada artículo de la lista confirmada por el usuario:
 
 2. **Determine el patrón de resaltado.** Pregunte al usuario cuál se ajusta a este artículo (la respuesta puede diferir según el artículo):
 
-   - **Duplicación por sección**: anexe `in Production` al encabezado de sección existente. Agregue una nueva sección con `in Preview` anexado, dentro de `<div class="preview"> ... </div>`. Utilícelo cuando el nuevo comportamiento cambie el procedimiento de forma significativa: pasos adicionales, una nueva imagen, nuevas filas de tabla o una redacción diferente. Típico para procedimientos prácticos.
-   - **Ajuste por línea**: agregue las nuevas oraciones en línea dentro de la sección existente, dentro de `<span class="preview"> ... </span>`. Utilícelo cuando la adición sea una o dos frases que se ajusten de forma natural a un párrafo, celda de tabla o respuesta a preguntas frecuentes existente.
-   - **Mixto**: Algunas secciones del mismo artículo utilizan la duplicación por sección, mientras que otras utilizan el ajuste por línea. Aparezca esta opción cuando el artículo tenga secciones de procedimiento y secciones de estilo de preguntas frecuentes.
+   - **Duplicación por sección**: anexe `in Production` al encabezado de sección existente. Agregue una nueva sección con `in Preview` anexado, dentro de `<div class="preview"> ... </div>`. Utilícelo cuando el nuevo comportamiento cambie significativamente el propio procedimiento: pasos adicionales o reordenados, una nueva imagen o una redacción diferente de los pasos. Típico para procedimientos prácticos.
+   - **Duplicación por fila**: Para una descripción de campo basada en tabla en la que solo cambia una fila y el resto de la tabla o el procedimiento no se modifica, deje sin cambios la fila existente byte a byte y agregue un nuevo `<tr class="preview">` directamente después de ella. No teje frases nuevas en la fila original. Consulte &quot;Duplicación por fila&quot; en Reglas de contenido para ver las convenciones exactas.
+   - **Ajuste por línea**: agregue las nuevas oraciones en línea dentro de la sección existente, dentro de `<span class="preview"> ... </span>`. Utilícelo cuando la adición sea una o dos frases que se ajusten de forma natural a un párrafo existente o a una respuesta de preguntas frecuentes (no una fila de la tabla; utilice la duplicación por fila para ellas).
+   - **Mixto**: Algunas secciones del mismo artículo utilizan patrones diferentes para contenido diferente. Aparezca esta opción cuando el artículo combine tablas de procedimiento, secciones de estilo de preguntas frecuentes y párrafos sin formato.
 
 3. **Coloque el fragmento** en su propia línea inmediatamente después del encabezado H1, con una línea en blanco por encima y por debajo. El fragmento se sitúa **antes de** el párrafo de introducción.
 
@@ -153,6 +154,25 @@ Reglas:
 - **En línea (nivel de oración)**: ajuste `<span class="preview"> ... </span>` dentro del párrafo, celda de tabla o respuesta a preguntas frecuentes existente.
 - Nunca anide un(a) `<span class="preview">` dentro de un(a) `<div class="preview">`.
 
+### Duplicación por fila
+
+Para una descripción de campo basada en tabla donde solo cambia el *comportamiento* del campo (no el procedimiento adyacente):
+
+- No modifique nada el elemento `<tr>` existente; ahora representa el comportamiento actual/de producción. Nunca le insertes frases nuevas ni espacios.
+- Agregue una nueva fila directamente después de ella:
+
+  ```html
+  <tr class="preview">
+  <td><span class="preview"><strong>{new label} in preview</strong></span></td>
+  <td><span class="preview">{self-contained description}</span></td>
+  </tr>
+  ```
+
+- **Etiqueta**: no se limite a tomar la etiqueta del campo original y anexe `(in Preview)`. Escriba una etiqueta corta y natural para la nueva funcionalidad en sí (p. ej., la etiqueta original &quot;Agregar nombres o correos electrónicos&quot; → la nueva etiqueta &quot;Agregar personas o equipos&quot;), luego anexe `in preview` en minúsculas sin paréntesis: &quot;Agregar personas o equipos en la vista previa&quot;.
+- **Descripción**: escribe una nueva descripción de 1 a 3 frases solo del nuevo comportamiento, en la voz existente del artículo. No reutilice las frases de la fila original como base e inserte adiciones en ellas; la nueva fila debe leerse como una descripción completa e independiente por sí sola.
+- **Notas complementarias**: anexe un `<br>` salto de línea seguido de `Note:` en la línea siguiente, dentro del mismo `<span class="preview">`; no anide un `<p>Note: ...</p>`. Dado que la nueva fila se encuentra sola, reafirme brevemente aquí cualquier hecho relevante de la nota original de la fila en lugar de suponer que el lector también lo vio (por ejemplo, una restricción de modo avanzado de &quot;una etapa abierta a la vez&quot; que se aplica igualmente a la nueva fila).
+- **Múltiples variantes**: si el mismo campo se actualiza en más de un procedimiento en el mismo artículo (Básico frente a Avanzado, heredado frente a ESM, etc.) y el comportamiento subyacente difiere entre ellos (por ejemplo, el heredado mantiene una opción predeterminada mientras ESM siempre se expande), escriba cada fila para que coincida con el comportamiento real de la variante. No copie la redacción de una variante en la fila de otra.
+
 ### Ubicación del fragmento
 
 - La línea de fragmento va inmediatamente después de H1, con una línea en blanco por encima y por debajo.
@@ -164,6 +184,15 @@ Reglas:
 - Guarde las nuevas capturas de pantalla en la carpeta `assets/` del artículo con un nombre de archivo descriptivo en mayúsculas y minúsculas.
 - Haga referencia a la nueva captura de pantalla desde la nueva sección Vista previa. Si la captura de pantalla de una sección en producción ya no refleja la función con precisión, déjela en su lugar; sigue representando el comportamiento de producción hasta GA.
 - No fabrique nombres de archivo de captura de pantalla; si aún no se ha proporcionado ninguna captura de pantalla, pregunte al usuario.
+- **Marcador de posición para una captura de pantalla que aún no existe**: si el usuario desea continuar sin esperar el recurso, agregue un comentario de HTML directamente después de la referencia de captura de pantalla existente (producción), reutilizando ese nombre de archivo con un sufijo `-v2`:
+
+  ```html
+  <!--
+  preview screen![{same alt text}](assets/{existing-filename}-v2.png)
+  -->
+  ```
+
+  Intercambie la referencia real (y quite el comentario) una vez proporcionada la captura de pantalla.
 
 ### Notas y sugerencias
 
@@ -185,6 +214,8 @@ Ejecute esta lista de comprobación completa para **cada** artículo de la sesi�
 - Los encabezados de sección existentes finalizan con `in Production`.
 - Los nuevos encabezados de sección finalizan con `in Preview` y la sección se encuentra dentro de `<div class="preview">`.
 - Las adiciones en línea están dentro de `<span class="preview">`.
+- Duplicaciones por fila: el elemento `<tr>` original no cambia byte a byte; el nuevo elemento `<tr class="preview">` tiene ambas celdas agrupadas en `<span class="preview">`; la etiqueta es una etiqueta corta nueva + minúscula &quot;en vista previa&quot; (no la etiqueta original + &quot;(en vista previa)&quot;); cualquier nota complementaria utiliza `<br>` + `Note:` en línea, no un elemento `<p>` anidado.
+- Si el mismo campo aparece en más de una variante de procedimiento (Básico/Avanzado, heredado/ESM), la redacción de cada nueva fila coincide con el comportamiento real de esa variante en lugar de copiarse y pegarse desde otra variante.
 - La nueva prosa marcada como vista previa se lee como una descripción simple del campo/comportamiento, no como una entrada de registro de cambios, y no repite de forma redundante una instrucción sin cambios.
 - `ReadLints` está limpio en el archivo editado.
 - El artículo se lee correctamente en ambos estados (con el contenido de vista previa mostrado y oculto).
