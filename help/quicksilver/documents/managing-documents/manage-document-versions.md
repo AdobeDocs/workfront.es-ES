@@ -7,25 +7,22 @@ author: Courtney
 feature: Digital Content and Documents
 exl-id: 477153e4-847b-46ec-8107-72a7399c3767
 TQID: https://experienceleague.adobe.com/rCnj3Gx1SB3-UziuppQfifv2hJ6q3OjepNO9FcEEHEk
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: c83b252faf7791c51475c5b82ca03cb4ee29bfc0
 workflow-type: tm+mt
-source-wordcount: 634
-ht-degree: 10%
+source-wordcount: 1077
+ht-degree: 5%
 
 ---
 
 # Administrar versiones de documentos
 
 <!-- Audited: 5/2025 -->
+
+{{highlighted-preview}}
 
 Puede administrar varias versiones de un documento en Workfront.
 
@@ -70,7 +67,9 @@ Para obtener más información sobre esta tabla, consulte [Requisitos de acceso 
 
   Si necesita información sobre cómo cargar nuevas versiones de un documento en Workfront, consulte [Cargar una nueva versión de un documento](../../documents/managing-documents/upload-new-document-version.md).
 
-## Ver una lista de todas las versiones de un documento
+## Administrar versiones de documentos en el área de documentos heredados
+
+### Ver una lista de todas las versiones de un documento
 
 {{step1-to-documents}}
 
@@ -80,7 +79,7 @@ Para obtener más información sobre esta tabla, consulte [Requisitos de acceso 
 
 1. Desplácese hacia abajo hasta la sección **Versiones** para ver todas las versiones del documento.
 
-## Ver y administrar detalles de una versión anterior del documento
+### Ver y administrar detalles de una versión anterior del documento
 
 {{step1-to-documents}}
 
@@ -92,7 +91,7 @@ Para obtener más información sobre esta tabla, consulte [Requisitos de acceso 
 
    Además de ver los detalles de la versión, puede realizar cambios en la misma, como el nombre, los metadatos y la configuración de revisión (si se trata de una revisión de documento).
 
-## Descargar una sola versión del documento
+### Descargar una sola versión del documento
 
 {{step1-to-documents}}
 
@@ -104,7 +103,7 @@ Para obtener más información sobre esta tabla, consulte [Requisitos de acceso 
 
    ![Descargar un solo documento](assets/more-versions-350x143.png)
 
-## Descargar todas las versiones de un documento
+### Descargar todas las versiones de un documento
 
 {{step1-to-documents}}
 
@@ -114,7 +113,7 @@ Para obtener más información sobre esta tabla, consulte [Requisitos de acceso 
 
 1. Desplácese hacia abajo hasta la sección **Versiones** y, a continuación, haga clic en **Descargar todo**.
 
-## Eliminar una versión de documento
+### Eliminar una versión de documento
 
 Si carga una versión de un documento por error o ya no es necesaria, puede eliminar la versión y mantener el documento original.
 
@@ -149,3 +148,82 @@ Para eliminar una versión de documento:
    >* Si el documento está vinculado a una fuente externa, ese vínculo se elimina y el documento ya no es accesible a través de Workfront.
 
    ![Eliminar la versión del documento](assets/more-versions-350x143.png)
+
+<div class="preview">
+
+## Administrar versiones de documentos en el área de nuevos documentos en Vista previa
+
+Si su organización utiliza el almacenamiento en la nube de Adobe, verá la nueva área Documentos al acceder a documentos en Workfront. Para obtener más información sobre el almacenamiento en la nube de Adobe, consulte [Información general sobre el almacenamiento en la nube de Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
+
+Workfront numera cada versión en el orden en que se carga (por ejemplo, V1, V2, V3) para que coincida con los números de versión de Frame.io.
+
+### Ver una lista de todas las versiones de un documento
+
+{{step1-to-documents}}
+
+1. En la página **Documentos**, seleccione un documento de la lista.
+
+1. Haga clic en el icono **Versiones** ![Icono de versiones](assets/versions-icon.png) que se encuentra en el lado derecho de la página. El panel Versiones se abre y enumera todas las versiones del documento en Historial de versiones.
+
+   >[!NOTE]
+   >
+   >Si una versión tiene un flujo de trabajo de aprobación, su estado, como &quot;Aprobado&quot; o &quot;Retirado&quot;, aparece junto a ella. Las versiones sin flujo de trabajo de aprobación no muestran un estado.
+
+### Solicitar aprobación de una versión
+
+{{step1-to-documents}}
+
+1. En la página **Documentos**, seleccione un documento de la lista.
+1. Haga clic en el icono **Versiones** ![Icono de versiones](assets/versions-icon.png) que se encuentra en el lado derecho de la página.
+1. Haga clic en el menú **Más** junto a la versión y luego haga clic en **Solicitar aprobación**.
+1. Configure el flujo de trabajo de aprobación. Para obtener más información, consulte [Crear un flujo de trabajo de aprobación de documentos](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md).
+
+   >[!NOTE]
+   >
+   >Si una versión anterior ya tiene un flujo de trabajo de aprobación abierto, al solicitar la aprobación de esta versión, se retira. La versión anterior mantiene su número de versión y su historial de aprobación, pero su estado cambia a &quot;Retirado&quot;.
+
+### Ver y administrar detalles de una versión anterior del documento
+
+{{step1-to-documents}}
+
+1. En la página **Documentos**, seleccione un documento de la lista.
+1. Haga clic en el icono **Versiones** ![Icono de versiones](assets/versions-icon.png) que se encuentra en el lado derecho de la página.
+1. Haga clic en el menú **Más** junto a la versión y luego haga clic en **Ver detalles**.
+
+### Descargar una sola versión del documento
+
+{{step1-to-documents}}
+
+1. En la página **Documentos**, seleccione un documento de la lista.
+
+1. Haga clic en el icono **Versiones** ![Icono de versiones](assets/versions-icon.png) que se encuentra en el lado derecho de la página.
+
+1. Haga clic en el menú **Más** junto a la versión y, a continuación, haga clic en **Descargar**.
+
+### Descargar todas las versiones de un documento
+
+{{step1-to-documents}}
+
+1. En la página **Documentos**, seleccione un documento de la lista.
+
+1. Haga clic en el icono **Versiones** ![Icono de versiones](assets/versions-icon.png) que se encuentra en el lado derecho de la página.
+
+1. Haga clic en **Descargar todo** en la parte superior del panel Versiones.
+
+   ![descargar todas las versiones de un documento](assets/download-all-versions.png)
+
+### Eliminar una versión de documento
+
+{{step1-to-documents}}
+
+1. En la página **Documentos**, seleccione un documento de la lista.
+
+1. Haga clic en el icono **Versiones** ![Icono de versiones](assets/versions-icon.png) que se encuentra en el lado derecho de la página.
+
+1. Haga clic en el menú **Más** junto a la versión y, a continuación, haga clic en **Eliminar**.
+
+   >[!NOTE]
+   >
+   >Al eliminar una versión, no se modifican los números de las demás versiones. Por ejemplo, si elimina la versión 3 de un documento con las versiones de la V1 a la V5, las versiones restantes conservarán sus números originales y no habrá ninguna V3 posteriormente. La próxima versión que cargue se convertirá en la versión 6.
+
+</div>

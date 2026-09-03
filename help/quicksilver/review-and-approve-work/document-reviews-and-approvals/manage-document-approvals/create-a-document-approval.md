@@ -9,25 +9,21 @@ exl-id: a02699e1-3557-47f0-89b7-dbecb507a174
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/OoGv4oNg6GkKeo-zoVi5lSxtPK3UE64-EYW21Mz7GRA
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: c9558f7de0e2f625c8426187436f2ea5cdeabb92
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: c83b252faf7791c51475c5b82ca03cb4ee29bfc0
 workflow-type: tm+mt
-source-wordcount: 2227
+source-wordcount: 2406
 ht-degree: 5%
 
 ---
 
 # Crear un flujo de trabajo de aprobación de documentos
+
+{{highlighted-preview}}
 
 Puede solicitar la aprobación de otros usuarios o equipos para un documento en Adobe Workfront o solicitar que revisen un documento sin necesidad de aprobarlo.
 
@@ -291,6 +287,30 @@ Para crear un flujo de trabajo de aprobación avanzado:
 1. (Opcional) Para borrar todas las rutas y etapas y volver a empezar, haga clic en **Restablecer** en la parte superior derecha.
 
 1. Haga clic en **Solicitar aprobación**.
+
+<div class="preview">
+
+## Ver los flujos de trabajo de aprobación de versiones anteriores en el área nueva de Documentos en Vista previa
+
+Si su organización utiliza el almacenamiento en la nube de Adobe, verá la nueva área Documentos al acceder a documentos en Workfront. Para obtener más información sobre el almacenamiento en la nube de Adobe, consulte [Información general sobre el almacenamiento en la nube de Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
+
+El panel Aprobaciones muestra únicamente las versiones del documento que tienen un flujo de trabajo de aprobación.
+
+Para ver los flujos de trabajo de aprobación de versiones anteriores:
+
+1. Vaya al proyecto, tarea o problema que contiene el documento y, a continuación, seleccione **Documentos** en el panel izquierdo.
+1. Haga clic en el documento y luego en el icono **Aprobaciones** que encontrará a la derecha de la página.
+
+   ![Agregar aprobadores en el resumen del documento](assets/approvals-icon-new.png)
+
+1. Haga clic en una versión para expandirla. Puede ver las fases, la decisión de cada aprobador, la regla de decisión de la fase (por ejemplo, si solo se requiere una decisión para completar la fase) y las fechas de vencimiento.
+1. Haga clic en otra versión para expandir su flujo de trabajo de aprobación sin salir del panel.
+
+   >[!NOTE]
+   >
+   >Si el flujo de trabajo de aprobación de una versión se ha retirado porque se ha solicitado la aprobación de una versión más reciente, permanece en la lista, contraído, por lo que aún puede revisar sus decisiones anteriores.
+
+</div>
 
 <!--
 ## Resubmit an approval on a new version
