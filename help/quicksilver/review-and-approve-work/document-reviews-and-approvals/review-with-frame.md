@@ -10,21 +10,19 @@ exl-id: 3190ad18-180e-42e5-aa10-bdad74303d3d
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/0ZlRTte93Fl8omBRbQH5ZkA-pr533lkPA9QvWY3d5H4
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
-  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 0f42eb9e5d6723849e668e3cd29fad36d43294c3
 workflow-type: tm+mt
-source-wordcount: 540
-ht-degree: 9%
+source-wordcount: 626
+ht-degree: 8%
 
 ---
 
 # Revisión y aprobación con el visor Frame.io
+
+{{highlighted-preview}}
 
 Puede revisar y aprobar documentos en Workfront mediante el visor Frame.io.
 
@@ -87,7 +85,7 @@ Vaya a la página de inicio de Workfront, busque el widget Mis aprobaciones y ha
    >Es posible que tenga que agregar el widget Mis aprobaciones a la página de inicio. Para obtener más información, consulte [Agregar, editar o quitar widgets en Inicio](/help/quicksilver/workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md).
 
 1. En Frame.io, utilice las herramientas de comentarios para dejar comentarios o hacer preguntas.
-Los comentarios y el marcado de recursos solo son visibles en el visor de Frame.io. Los comentarios no se muestran en Workfront. Para obtener más información sobre el uso del visor Frame.io, consulte [Comentarios sobre el contenido](https://help.frame.io/en/articles/9105251-commenting-on-your-media).
+Los comentarios y el marcado de recursos solo son visibles en el visor de Frame.io. Los comentarios no se muestran en Workfront. <span class="preview">Sin embargo, el panel de comentarios del documento de Workfront muestra una llamada con un recuento de esos comentarios, cuando hay un recuento disponible, y un vínculo para abrir el visor Frame.io y leerlos.</span> Para obtener más información sobre el uso del visor Frame.io, consulte [Comentarios sobre el contenido](https://help.frame.io/en/articles/9105251-commenting-on-your-media).
 1. Una vez que esté satisfecho con el documento, vuelva a la página de detalles del documento en Workfront y marque la revisión como completada.
 
    ![Marcar revisión como completada](assets/mark-review-complete.png)
@@ -110,6 +108,12 @@ Vaya a la página de inicio de Workfront, busque el widget Mis aprobaciones y ha
 
 
 1. En Frame.io, utilice las herramientas de comentarios para dejar comentarios o hacer preguntas. Los comentarios y el marcado de recursos solo son visibles en el visor de Frame.io. Para obtener más información sobre el uso del visor Frame.io, consulte [Comentarios sobre el contenido](https://help.frame.io/en/articles/9105251-commenting-on-your-media).
+
+   >[!NOTE]
+   >
+   > <span class="preview">En la vista previa, el panel Comentarios de Workfront muestra un mensaje que le permite saber cuándo hay nuevos comentarios disponibles en Frame.io.</span>
+
+
 1. Una vez que esté satisfecho con el documento, puede elegir una de las siguientes decisiones en el visor de Frame.io:
 
    * **Aprobar**: el recurso no necesita cambios y está listo para usarse.
