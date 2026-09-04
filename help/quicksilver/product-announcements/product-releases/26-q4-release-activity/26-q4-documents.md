@@ -4,9 +4,9 @@ description: Mejoras en los documentos del cuarto trimestre de 2026
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 1b37b57f764d1579629e019c2025c809530124ea
+source-git-commit: 5e13c944ac485a6999dd0a788cfbb0f5d5169742
 workflow-type: tm+mt
-source-wordcount: '1012'
+source-wordcount: '1101'
 ht-degree: 3%
 
 ---
@@ -34,23 +34,19 @@ For more information, see [Manage approval templates](/help/quicksilver/review-a
 
 -->
 
-<!--
-
-## Frame comment visibility in Workfront
+## Visibilidad de comentarios de marco en Workfront
 
 >[!NOTE]
 >
->Preview: September 3, 2026
->Production fast release: September 17, 2026
->Production for everyone: October 15, 2026
+>Vista previa: 3 de septiembre de 2026
+>Versión rápida de producción: 17 de septiembre de 2026
+>Producción para todos: 15 de octubre de 2026
 
-When an approval workflow is created for a document, users can leave comments and make annotations in the Frame.io viewer. These comments are not displayed in the Workfront Comments panel, but you can view them in the Frame.io viewer.
+Cuando se crea un flujo de trabajo de aprobación para un documento, los usuarios pueden dejar comentarios y realizar anotaciones en el visor de Frame.io. Estos comentarios no se muestran en el panel Comentarios de Workfront, pero puede verlos en el visor de Frame.io.
 
-Now, the Comments panel in Workfront displays a message letting you know when new comments are available in Frame.io.
+Ahora, el panel Comentarios de Workfront muestra un mensaje que le permite saber cuándo hay nuevos comentarios disponibles en Frame.io.
 
-For more information, see [Add an update to a document](/help/quicksilver/documents/managing-documents/add-update-documents.md).
-
--->
+Para obtener más información, consulte [Añadir una actualización a un documento](/help/quicksilver/documents/managing-documents/add-update-documents.md).
 
 ## Acceso directo de prueba desde vínculos de correo electrónico de aprobación
 
