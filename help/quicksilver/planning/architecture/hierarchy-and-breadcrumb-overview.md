@@ -14,9 +14,9 @@ product_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: a1b1bc6013697405137110f4ce6fa329222f57e0
+source-git-commit: 11b6130de450054a853df6bea7d6374fffb095a6
 workflow-type: tm+mt
-source-wordcount: 1051
+source-wordcount: 1108
 ht-degree: 0%
 
 ---
@@ -83,6 +83,12 @@ Las siguientes son ventajas de utilizar jerarquías en los espacios de trabajo:
   * Cuando los tipos de registro conectados forman parte de jerarquías, puede conectar un registro de un tipo de registro secundario a un máximo de 10 registros de un tipo de registro principal.
 
     Por ejemplo, si crea una jerarquía entre Campañas como principal y Persona como registro secundario, puede conectar la misma persona hasta a 10 campañas.
+  * Si su organización compró un paquete de Adobe GenStudio for Performance Marketing, existen los siguientes escenarios:
+
+    * No se puede conectar a tipos de registros de GenStudio desde tipos de registros de Planning.
+    * Puede conectar tipos de registros de GenStudio en GenStudio Workspace.
+    * Puede conectar GenStudio Brands a los tipos de registro de GenStudio y a los tipos de registro de Planning.
+    * No puede incluir marcas GenStudio en una jerarquía.
 
 ## Consideraciones al ver rutas
 

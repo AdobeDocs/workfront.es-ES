@@ -21,7 +21,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: bde3551443641024b87397e35064ebf4577179eb
+source-git-commit: 11b6130de450054a853df6bea7d6374fffb095a6
 workflow-type: tm+mt
 source-wordcount: 1471
 ht-degree: 64%
@@ -195,7 +195,7 @@ Puede crear un proyecto desde el área Proyectos del menú principal o desde el 
       >
       >Para obtener más información, vea [Información general sobre la administración de documentos de proyectos y objetos relacionados](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
 
-   1. (Condicional y opcional) Si seleccionó una plantilla de almacenamiento heredada, seleccione la configuración Crear este proyecto en el almacenamiento en la nube de Adobe en la esquina inferior derecha del cuadro Nuevo proyecto. Esto creará un proyecto de almacenamiento en la nube de Adobe. Los documentos y las carpetas de documentos de la plantilla no se agregarán al proyecto.
+   1. (Condicional y opcional) Si seleccionó una plantilla de almacenamiento heredada, seleccione la opción **Crear este proyecto en el almacenamiento en la nube de Adobe** en la esquina inferior derecha del cuadro Nuevo proyecto. Esto creará un proyecto de almacenamiento en la nube de Adobe. Los documentos y las carpetas de documentos de la plantilla no se agregarán al proyecto.
 
    1. Revise los siguientes detalles de la plantilla a la derecha:
 
