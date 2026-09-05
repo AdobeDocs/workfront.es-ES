@@ -3,9 +3,9 @@ user-guide-title: Guía de Workfront
 user-guide-description: Utilice los siguientes documentos, tutoriales y recursos adicionales para aprender a implementar y utilizar Adobe Workfront de forma eficaz en su organización.
 role: User
 feature-set: Workfront
-source-git-commit: 5477b925df1655014eb9db99cc92e7eeee4662b7
+source-git-commit: 29141ebc3913ad66e05ee10e53dcaea646ca2526
 workflow-type: tm+mt
-source-wordcount: '14501'
+source-wordcount: '14505'
 ht-degree: 92%
 
 ---
@@ -1639,6 +1639,7 @@ ht-degree: 92%
       * [Uso de campos de moneda en paneles de lienzo](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/switch-currencies.md)
       * [Filtrar un panel de lienzo](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/filter-canvas-dashboard.md)
       * [Cambio del nombre o la descripción de un panel de lienzo](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/change-name-or-description-of-dashboard.md)
+      * [Duplicar un panel de lienzo](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/duplicate-a-canvas-dashboard.md)
       * [Eliminación de un panel de lienzo](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/delete-a-canvas-dashboard.md)
       * [Añadir un panel de lienzo a una plantilla de diseño](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/add-dashboard-to-layout-template.md)
     * Administrar informes {#manage-reports}

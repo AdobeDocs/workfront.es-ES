@@ -18,14 +18,16 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 71bd341da0b506429ab25726ae3be82829034f9f
+source-git-commit: 0f42eb9e5d6723849e668e3cd29fad36d43294c3
 workflow-type: tm+mt
-source-wordcount: 4323
+source-wordcount: 4442
 ht-degree: 0%
 
 ---
 
 # Resumen de revisión y aprobación unificadas
+
+{{highlighted-preview}}
 
 La revisión y la aprobación unificadas reúnen Adobe Workfront y Adobe Frame.io en una única experiencia profundamente conectada: se eliminan las diferencias entre la administración de marketing, la revisión creativa y la entrega de contenido.
 Los coordinadores de proyectos administran el trabajo en Workfront mientras los creativos, los especialistas en marketing y las partes interesadas revisan y aprueban los recursos en el visor Frame.io de nivel profesional, todo sin mover archivos entre herramientas desconectadas.
@@ -348,6 +350,18 @@ El visor Frame.io incluye un conjunto completo de herramientas de marcado visual
 **¿Aparecerán los comentarios realizados en el visor Frame.io en el proyecto Workfront?**
 
 Los comentarios y anotaciones permanecen dentro del visor de Frame.io para que conserven su contexto completo, incluidas las marcas de tiempo y las marcas visuales. Esto puede evolucionar en futuras versiones.
+
+<span class="preview">
+
+En la vista previa, el panel Comentarios de Workfront muestra un mensaje que le permite saber cuándo hay nuevos comentarios disponibles en Frame.io.</span>
+
+<div class="preview">
+
+**¿Quién puede ver el indicador de comentarios Frame.io en Workfront?**
+
+Solo los usuarios que ya pudieron ver esos comentarios en Frame.io pueden ver el indicador. Si tiene una licencia de Frame.io Enterprise, puede verla para cualquier comentario en el documento. Si no dispone de una licencia de Frame.io Enterprise, sólo la verá una vez que exista una aprobación para el documento. Las aprobaciones también hacen visibles para usted todos los comentarios anteriores sobre el documento.
+
+</div>
 
 **¿Es posible agregar comentarios a una versión descargada de un recurso (por ejemplo, un PDF)?**
 

@@ -17,14 +17,16 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+source-git-commit: fd9480e119e9ea8e638221d569e57b27ecd5a34d
 workflow-type: tm+mt
-source-wordcount: 513
-ht-degree: 62%
+source-wordcount: 631
+ht-degree: 56%
 
 ---
 
 # Añadir una actualización a un documento
+
+{{highlighted-preview}}
 
 <!--Audited: April, 2024-->
 
@@ -76,10 +78,10 @@ Si su organización está en un almacenamiento de Workfront heredado, verá el �
 1. Busque el documento que necesita y realice una de las siguientes acciones:
 
    * Haga clic en el documento de la lista, haga clic en el icono **Abrir resumen** ![Abrir icono de resumen](assets/qs-summary-in-new-toolbar-small.png) en la esquina superior derecha y, a continuación, agregue un nuevo comentario, o haga clic en **Responder** para agregar una respuesta a un comentario existente. Para obtener información sobre el resumen, consulte [Resumen de la información general de documentos](../../documents/managing-documents/summary-for-documents.md).
-   * Pase el ratón sobre el documento, haga clic en **Detalles del documento** y luego en **Actualizaciones** en el panel izquierdo.
-Para obtener más información sobre cómo agregar actualizaciones a objetos, consulte [Trabajo de actualización](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+   * Pase el puntero por encima del documento, haga clic en **Detalles del documento** y, a continuación, en **Actualizaciones** en el panel izquierdo.
+     Para obtener más información sobre cómo añadir actualizaciones a objetos, consulte [Actualizar trabajo](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
-   Las actualizaciones y respuestas se añaden al documento y a los objetos mejor situados. Para obtener más información, consulte [Información general sobre la sección Actualizar](../../workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
+   Las actualizaciones y respuestas se añaden al documento y a los objetos de mayor clasificación. Para obtener más información, consulte [Información general sobre la sección Actualizar](../../workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
 
 ### Añadir una respuesta a un comentario de revisión de un documento
@@ -101,3 +103,20 @@ Si su organización utiliza el almacenamiento en la nube de Adobe, verá la nuev
 1. Busque el documento que necesita y, a continuación, haga clic en el icono de comentario ![Icono de comentario](assets/new-doc-comment-icon.png) para abrir el panel Comentarios.
 1. Escriba su comentario en el cuadro de texto y haga clic en **Enviar**.
    ![Nuevo panel de comentarios del documento](assets/comments-new-doc.png)
+
+
+<div class="preview">
+
+### Indicador de comentario Frame.io en vista previa
+
+Cuando se crea un flujo de trabajo de aprobación para un documento, los usuarios pueden dejar comentarios y realizar anotaciones en el visor de Frame.io. Estos comentarios no se muestran en el panel Comentarios de Workfront, pero puede verlos en el visor de Frame.io.
+
+El panel Comentarios de Workfront muestra un mensaje que le permite saber cuándo hay nuevos comentarios disponibles en Frame.io.
+
+1. Haga clic en **Revisar comentarios** para abrir el documento en el visor Frame.io y ver los comentarios allí.
+
+>[!NOTE]
+>
+>* Si tiene una licencia de Frame.io Enterprise, puede ver los comentarios en el visor de Frame.io sin un flujo de trabajo de aprobación.
+
+</div>

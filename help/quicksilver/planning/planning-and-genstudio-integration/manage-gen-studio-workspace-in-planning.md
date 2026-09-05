@@ -16,9 +16,9 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 6f64c3e6ebb8407c38ad3a1d46b2fc63b534879e
+source-git-commit: 11b6130de450054a853df6bea7d6374fffb095a6
 workflow-type: tm+mt
-source-wordcount: 1955
+source-wordcount: 2022
 ht-degree: 5%
 
 ---
@@ -282,10 +282,10 @@ Old:
    </table>
 
 * La actualización de la configuración del espacio de trabajo, los tipos de registro, las vistas y los campos de un espacio de trabajo de GenStudio es idéntica a la actualización de un espacio de trabajo de Workfront Planning con sus elementos.
-<!--
-Is this just preview?? * You can build hierarchies for the record types in the GenStudio workspace. For more information, see [Create workspace hierarchies](/help/quicksilver/planning/architecture/create-workspace-hierarchies.md).
-* You cannot include GenStudio Brands in a hierarchy.
--->
+* Puede crear jerarquías para los tipos de registro en GenStudio Workspace.
+
+  Para obtener más información, vea [Crear jerarquías de área de trabajo](/help/quicksilver/planning/architecture/create-workspace-hierarchies.md).
+* Puede conectar un tipo de registro de GenStudio a GenStudio BRands, pero no puede incluir GenStudio Brands en una jerarquía.
 
 <!--
 ## Manage GenStudio workspace from Workfront Planning
@@ -500,26 +500,18 @@ Se abrirá la página principal de Workfront Planning.
    * Ordenar por él
    * Ocultar esto
    * Editar su configuración
+   * Eliminarlo
 
-   <!--* Delete it - not possible now, per Iskuhi; the link is there but it will generate an error-->
+     <!--GenStudio-native fields are note removed from GenStudio. -->
 
-   <!--GenStudio-native fields are note removed from GenStudio. -->
+     >[!NOTE]
+     >
+     >* Solo puede editar la configuración de un campo de GenStudio si tiene permisos de administración en GenStudio.
+     >* No se puede eliminar un campo de GenStudio.
 
-   >[!NOTE]
-   >
-   >* Solo puede editar la configuración de un campo de GenStudio si tiene permisos de administración en GenStudio.
-   >* No se puede eliminar un campo de GenStudio.
+## Creación de jerarquías del espacio de trabajo en GenStudio Workspace
 
-<!--
-Is this just Preview?? Or direct to Prod?? 
+Crear jerarquías en GenStudio Workspace es similar a crear jerarquías en cualquier espacio de trabajo.
 
-## Create workspace hierarchies in the GenStudio workspace
+Para obtener más información, vea [Crear jerarquías de área de trabajo](/help/quicksilver/planning/architecture/create-workspace-hierarchies.md)
 
-Creating hierarchies in the GenStudio workspace is similar to creating hierarchies in any workspace. 
-
->[!NOTE]
->
->You cannot add GenStudio Brands to a hierarchy in the GenStudio workspace.
-
-For information, see [Create workspace hierarchies](/help/quicksilver/planning/architecture/create-workspace-hierarchies.md)
--->
