@@ -4,9 +4,9 @@ description: Mejoras en los documentos del cuarto trimestre de 2026
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 5e13c944ac485a6999dd0a788cfbb0f5d5169742
+source-git-commit: 0336bef484214908f181b630f2d3298af5d10398
 workflow-type: tm+mt
-source-wordcount: '1101'
+source-wordcount: '1249'
 ht-degree: 3%
 
 ---
@@ -16,6 +16,25 @@ ht-degree: 3%
 Esta página describe las mejoras realizadas en los documentos con la versión del cuarto trimestre de 2026 en el entorno de vista previa. Estas mejoras estarán disponibles en el entorno de producción, como se ha indicado.
 
 Para obtener una lista de todos los cambios disponibles en este punto del ciclo de la versión del cuarto trimestre de 2026, consulte [Información general de la versión del cuarto trimestre de 2026](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-release-overview.md).
+
+## Controlar quién puede ver y utilizar plantillas de aprobación
+
+>[!NOTE]
+>
+>Vista previa: 30 de julio de 2026
+>Versión rápida de producción: 13 de agosto de 2026
+>Producción para todos: 15 de octubre de 2026
+
+Las plantillas de aprobación ahora son privadas de forma predeterminada. Anteriormente, cada solicitante de aprobación podía ver todas las plantillas del sistema, por lo que las listas de plantillas eran largas y difíciles de navegar. Ahora, una plantilla solo es visible para el usuario que la creó, a menos que el creador la comparta.
+
+Los creadores de plantillas pueden compartir una plantilla con usuarios específicos o con cualquier persona de su organización desde la lista Plantillas de aprobación de la configuración de Workfront. Al solicitar una aprobación, los usuarios solo ven las plantillas que han creado o que se han compartido con ellos.
+
+Este cambio se aplica tanto a las plantillas nuevas como a las existentes, y el acceso se aplica de forma coherente independientemente de cómo se solicite una plantilla.
+
+Para obtener más información, consulte:
+
+* [Compartir una plantilla](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md#share-a-template) en Crear una plantilla de flujo de trabajo de aprobación para documentos
+* [Crear un flujo de trabajo de aprobación de documentos](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)
 
 <!--
 
