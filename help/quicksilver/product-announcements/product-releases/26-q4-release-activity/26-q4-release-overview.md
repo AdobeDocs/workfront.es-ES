@@ -4,9 +4,9 @@ description: Esta página proporciona información sobre la funcionalidad que se
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 5e13c944ac485a6999dd0a788cfbb0f5d5169742
+source-git-commit: bc0b2d70878e754c8f4b0c2911d32e71b5d4c78d
 workflow-type: tm+mt
-source-wordcount: '2592'
+source-wordcount: '2709'
 ht-degree: 8%
 
 ---
@@ -17,7 +17,7 @@ Esta página proporciona información sobre la funcionalidad que se incluye en l
 
 Las mejoras de esta página están disponibles en el entorno de vista previa. Esta página se actualizará con mejoras adicionales a medida que la versión del cuarto trimestre de 2026 se aproxime a su versión de producción planificada.
 
-Se celebran seminarios web en directo para cada versión trimestral, en los que se destacan las nuevas funciones y se proporciona información detallada. Para registrarse, visite la [página de eventos](https://experienceleague.adobe.com/es/events?filters=Workfront) y filtre por Workfront.
+Se celebran seminarios web en directo para cada versión trimestral, en los que se destacan las nuevas funciones y se proporciona información detallada. Para registrarse, visite la [página de eventos](https://experienceleague.adobe.com/en/events?filters=Workfront) y filtre por Workfront.
 
 >[!IMPORTANT]
 >
@@ -242,6 +242,15 @@ Se celebran seminarios web en directo para cada versión trimestral, en los que 
     &lt;td>&lt;p>13 de agosto de 2026&lt;/p>&lt;/td>
     &lt;td>&lt;p>15 de octubre de 2026&lt;/p>&lt;/td>
     &lt;/tr>
+    &lt;tr>
+    &lt;td>
+    &lt;a href=&quot;/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-ai.md&quot; class=&quot;MCXref xref&quot; xrefformat=&quot;{para}&quot;>Nueva herramienta Compartir comentarios de Workfront Conector&lt;/a>
+    &lt;p>Una nueva herramienta de comentarios compartidos le permite informar sobre su Workfront y lo que ha sucedido durante ella, de modo que las herramientas de MCP de Workfront se puedan mejorar.&lt;/p>
+    &lt;/td>
+    &lt;td>&lt;p>3 de septiembre de 2026&lt;/p>&lt;/td>
+    &lt;td>&lt;p>17 de septiembre de 2026&lt;/p>&lt;/td>
+    &lt;td>&lt;p>15 de octubre 2026&lt;/p>&lt;/td>
+    &lt;/tr>
     &lt;/tbody>
 
     
@@ -443,17 +452,15 @@ Se celebran seminarios web en directo para cada versión trimestral, en los que 
             <td><strong>Versión rápida</strong></td>
             <td><strong>Trimestralmente</strong></td>
         </tr>
-<!--
         <tr>
             <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-reports.md" class="MCXref xref" xrefformat="{para}">Duplicate dashboards in Canvas Dashboards</a>
-                <p>You can now duplicate a Canvas Dashboard using the new Duplicate dashboard action, and choose what to carry over to the copy.</p>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-reports.md" class="MCXref xref" xrefformat="{para}">Copiar paneles en los paneles de lienzo</a>
+                <p>Ahora puede copiar un panel de lienzo con la nueva acción Copiar panel y elegir lo que desea transferir a la copia.</p>
             </td>
-            <td><p>September 3, 2026</p></td>
-            <td><p>September 17, 2026</p></td>
-            <td><p>October 15, 2026</p></td>
+            <td><p>3 de septiembre de 2026</p></td>
+            <td><p>17 de septiembre de 2026</p></td>
+            <td><p>15 de octubre de 2026</p></td>
         </tr>
--->
 
     &lt;tr>
     &lt;td>
@@ -466,7 +473,7 @@ Se celebran seminarios web en directo para cada versión trimestral, en los que 
     &lt;/tr>
     &lt;tr>
     &lt;td>
-    &lt;a href=&quot;/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-reports.md&quot; class=&quot;MCXref xrefformat=&quot;{para}&quot;>Actualización de Dashage> en la aprobación schedule&rbrack;{type=Neutral}&lt;/p>
+    &lt;a href=&quot;/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-reports.md&quot; class=&quot;MCXref xrefformat=&quot;{para}&quot;>Actualización de Dashage> en la aprobación schedule]{type=Neutral}&lt;/p>
     &lt;p>Se ha cambiado el nombre de varios nombres de campo utilizados en paneles de lienzo para aprobaciones de documentos y trabajo para una mayor claridad.&lt;/p>
     &lt;/td>
     &lt;td>&lt;p>N/A&lt;/p>&lt;/td>
@@ -617,7 +624,7 @@ Si es administrador de Workfront y tiene usuarios de lector de Data Connect que 
 
 Este cambio se anunció por primera vez en las notas de la versión de Workfront de abril de 2026 y este es el recordatorio final antes de la fecha límite. Asegúrese de que todos los usuarios de lectores afectados habiliten MFA antes del 8 de agosto de 2026 para evitar interrupciones en su acceso.
 
-Para obtener más información, consulte [Crear una cuenta de lector o una conexión para Snowflake](https://experienceleague.adobe.com/es/docs/workfront/using/reporting/data-lake/create-a-reader-account).
+Para obtener más información, consulte [Crear una cuenta de lector o una conexión para Snowflake](https://experienceleague.adobe.com/en/docs/workfront/using/reporting/data-lake/create-a-reader-account).
 
 ### Actualizaciones de aprendizaje
 

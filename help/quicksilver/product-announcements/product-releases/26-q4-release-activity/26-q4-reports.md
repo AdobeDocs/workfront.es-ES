@@ -4,10 +4,10 @@ description: Mejoras en los informes del cuarto trimestre de 2026
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: ee1fceee828c97db535ccc03c8b428940d6f7eed
+source-git-commit: bc0b2d70878e754c8f4b0c2911d32e71b5d4c78d
 workflow-type: tm+mt
-source-wordcount: '611'
-ht-degree: 8%
+source-wordcount: '783'
+ht-degree: 6%
 
 ---
 
@@ -17,27 +17,21 @@ Esta página describe las mejoras de los informes realizadas con la versión del
 
 Para obtener una lista de todos los cambios disponibles en este punto del ciclo de la versión del cuarto trimestre de 2026, consulte [Información general de la versión del cuarto trimestre de 2026](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-release-overview.md).
 
-<!--
-
-## Duplicate dashboards in Canvas Dashboards
+## Copia de paneles en paneles de lienzo
 
 >[!NOTE]
 >
->Preview: September 3, 2026
->Production fast release: September 17, 2026
->Production for everyone: October 15, 2026
+>Vista previa: 3 de septiembre de 2026
+>Versión rápida de producción: 17 de septiembre de 2026
+>Producción para todos: 15 de octubre de 2026
 
-You can now duplicate a Canvas Dashboard using the new **Duplicate dashboard** action. This action is available to any user whose access level grants edit or create rights to Dashboards, even if they only have view access to the specific dashboard being copied. Users without edit or create rights to Dashboards do not see this action.
+Ahora puede copiar un panel de lienzo usando la nueva acción **Copiar panel**. Esta acción está disponible para cualquier usuario cuyo nivel de acceso conceda derechos de edición o creación a los paneles, aunque solo tenga acceso de visualización al panel específico que se está copiando. Los usuarios sin derechos de edición o creación en los paneles no ven esta acción.
 
-When you duplicate a dashboard, you can rename it, update its description and currency, and choose which widgets, dashboard filters, and dashboard prompts to carry over to the copy.
+Al copiar un tablero, puede cambiarle el nombre, actualizar su descripción y su moneda y elegir qué widgets, filtros de tablero y peticiones de datos de tablero desea transferir a la copia.
 
-Run as user configurations on widgets are only preserved if you are the designated user or a system administrator. Sharing preferences are not copied to the new dashboard, and a confirmation message with a link to the new dashboard displays once the copy is complete.
+Las configuraciones de Ejecutar como usuario en widgets solo se conservan si es el usuario designado o un administrador del sistema. Las preferencias de uso compartido no se copian en el nuevo tablero, y se muestra un mensaje de confirmación con un vínculo al nuevo tablero una vez completada la copia.
 
-Previously, there was no way to duplicate a dashboard; users had to rebuild dashboards from scratch to create audience-specific variations.
-
-For more information, see 
-
--->
+Anteriormente, no había forma de copiar un tablero; los usuarios tenían que reconstruir los tableros desde cero para crear variaciones específicas para la audiencia.
 
 ## Campo Tipo de aprobación en paneles de lienzo
 
