@@ -9,21 +9,15 @@ exl-id: 15c0e519-0164-449d-84f3-470d0d4eb795
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/i0-G-8KxjFmKp0R4oFPsELMmD6cS06HFKRROeosApYM
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: d3382524-5489-431b-bde9-271ab257bc37
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a84a7fadd821ddb30c72a88335716bbabb5783b4
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: d3382524-5489-431b-bde9-271ab257bc37
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: a0ba955b089480c01b187e39ed5a8a8226b23ea7
 workflow-type: tm+mt
-source-wordcount: 2467
-ht-degree: 87%
+source-wordcount: 2462
+ht-degree: 88%
 
 ---
 
@@ -157,7 +151,7 @@ Se muestra una lista de los planes existentes que ha creado en [!DNL Workfront S
 
    O
 
-   Haga clic en **[!UICONTROL Nuevo plan]** en la esquina superior izquierda para crear un plan y continuar con el paso 5. <!--is the step still accurate-->
+   Haga clic en **[!UICONTROL Nuevo plan]** para crear un plan y continuar con el paso 5. <!--is the step still accurate-->
 
    Se muestra la casilla [!UICONTROL **Nuevo plan**].
 
