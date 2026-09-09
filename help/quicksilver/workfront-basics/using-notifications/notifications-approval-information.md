@@ -9,14 +9,12 @@ exl-id: e152913e-de7e-405f-af63-827a9b91e2ae
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/P2AOhU62RdYgN1vJCky27ZjE9X6VWmDfJF4E-5M-dgo
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 585b1e593cb59369ec933a138aa6927802c217ff
 workflow-type: tm+mt
-source-wordcount: 675
-ht-degree: 97%
+source-wordcount: 706
+ht-degree: 93%
 
 ---
 
@@ -69,7 +67,7 @@ Consulte también [Notificaciones de eventos](../../workfront-basics/using-notif
    <td><strong>Instantáneo</strong> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>Se aprobó mi plantilla de horas</strong> </p> <p>Cuando se apruebe la plantilla de horas, recibirá una notificación por correo electrónico.</p> <p>El asunto del correo electrónico de notificación instantánea es: <em>[!UICONTROL Timesheet Approved]: &lt;Timesheet Start Date&gt; - &lt;Timesheet End Date&gt;</em></p> <p> <p>Nota: No puede configurar esta notificación para un correo electrónico de resumen diario.</p> </p> </td> 
+   <td> <p><strong>Se aprobó mi plantilla de horas</strong> </p> <p>Cuando se apruebe la plantilla de horas, recibirá una notificación por correo electrónico.</p> <p>El asunto del correo electrónico de notificación instantánea es: <em>[!UICONTROL Timesheet Approved]: &lt;Timesheet Start Date&gt; - &lt;Timesheet End Date&gt;</em></p> <p> <p>Nota: No puede configurar esta notificación para un correo electrónico de resumen diario.</p> </p> <p> <p>Nota: Debe tener una licencia Standard para recibir esta notificación. Los usuarios con una licencia básica o inferior no reciben la notificación por correo electrónico de aprobación de la plantilla de horas, aunque esté habilitada.</p> </p> </td> 
    <td> Nombre del usuario que aprobó su plantilla de horas<br>Fecha y hora en que se aprobó la plantilla de horas<br>Estado de la plantilla de horas ([!UICONTROL Approved])<br>Fecha de inicio y fecha de finalización de la plantilla de horas<br>Total de horas registradas en la plantilla de horas<br>Horas extra registradas en la plantilla de horas </td> 
    <td><strong>Instantáneo</strong> </td> 
   </tr> 
