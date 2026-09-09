@@ -4,9 +4,9 @@ description: Esta página proporciona información sobre la funcionalidad que se
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 5e13c944ac485a6999dd0a788cfbb0f5d5169742
+source-git-commit: 939939c9b07d554f71705782e5f6265f48e5335d
 workflow-type: tm+mt
-source-wordcount: '2592'
+source-wordcount: '2869'
 ht-degree: 8%
 
 ---
@@ -242,6 +242,15 @@ Se celebran seminarios web en directo para cada versión trimestral, en los que 
     &lt;td>&lt;p>13 de agosto de 2026&lt;/p>&lt;/td>
     &lt;td>&lt;p>15 de octubre de 2026&lt;/p>&lt;/td>
     &lt;/tr>
+    &lt;tr>
+    &lt;td>
+    &lt;a href=&quot;/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-ai.md&quot; class=&quot;MCXref xref&quot; xrefformat=&quot;{para}&quot;>Nueva herramienta Compartir comentarios de Workfront Conector&lt;/a>
+    &lt;p>Una nueva herramienta de comentarios compartidos le permite informar sobre su Workfront y lo que ha sucedido durante ella, de modo que las herramientas de MCP de Workfront se puedan mejorar.&lt;/p>
+    &lt;/td>
+    &lt;td>&lt;p>3 de septiembre de 2026&lt;/p>&lt;/td>
+    &lt;td>&lt;p>17 de septiembre de 2026&lt;/p>&lt;/td>
+    &lt;td>&lt;p>15 de octubre 2026&lt;/p>&lt;/td>
+    &lt;/tr>
     &lt;/tbody>
 
     
@@ -259,17 +268,15 @@ Se celebran seminarios web en directo para cada versión trimestral, en los que 
             <td><strong>Versión rápida</strong></td>
             <td><strong>Trimestralmente</strong></td>
         </tr>
-<!--
         <tr>
             <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-documents.md" class="MCXref xref" xrefformat="{para}">System Administrators full access to approval templates</a><p>[!BADGE Off schedule]{type=Neutral}</p>
-                <p>System Administrators can now view, edit, delete, and bulk-delete every approval template in the account, regardless of who created or shared it.</p>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-documents.md" class="MCXref xref" xrefformat="{para}">Administradores del sistema con acceso completo a las plantillas de aprobación</a><p>[!BADGE Off schedule]{type=Neutral}</p>
+                <p>Los administradores del sistema ahora pueden ver, editar, eliminar y eliminar de forma masiva todas las plantillas de aprobación de la cuenta, independientemente de quién las haya creado o compartido.</p>
             </td>
-            <td><p>September 4, 2026</p></td>
-            <td><p>September 4, 2026</p></td>
-            <td><p>September 4, 2026</p></td>
+            <td><p>8 de septiembre de 2026</p></td>
+            <td><p>8 de septiembre de 2026</p></td>
+            <td><p>8 de septiembre de 2026</p></td>
         </tr>
--->
         <tr>
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-documents.md" class="MCXref xref" xrefformat="{para}">Visibilidad de comentarios de fotograma en Workfront</a>
@@ -342,6 +349,15 @@ Se celebran seminarios web en directo para cada versión trimestral, en los que 
             </td>
             <td><p>3 de septiembre de 2026</p></td>
             <td><p>17 de septiembre de 2026</p></td>
+            <td><p>15 de octubre de 2026</p></td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-documents.md" class="MCXref xref" xrefformat="{para}">Controlar quién puede ver y usar plantillas de aprobación</a>
+                <p>Las plantillas de aprobación ahora son privadas de forma predeterminada y los creadores pueden compartirlas con usuarios específicos o con todos los miembros de su organización.</p>
+            </td>
+            <td><p>30 de julio de 2026</p></td>
+            <td><p>13 de agosto de 2026</p></td>
             <td><p>15 de octubre de 2026</p></td>
         </tr>
         <tr>
@@ -443,17 +459,15 @@ Se celebran seminarios web en directo para cada versión trimestral, en los que 
             <td><strong>Versión rápida</strong></td>
             <td><strong>Trimestralmente</strong></td>
         </tr>
-<!--
         <tr>
             <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-reports.md" class="MCXref xref" xrefformat="{para}">Duplicate dashboards in Canvas Dashboards</a>
-                <p>You can now duplicate a Canvas Dashboard using the new Duplicate dashboard action, and choose what to carry over to the copy.</p>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-reports.md" class="MCXref xref" xrefformat="{para}">Copiar paneles en los paneles de lienzo</a>
+                <p>Ahora puede copiar un panel de lienzo con la nueva acción Copiar panel y elegir lo que desea transferir a la copia.</p>
             </td>
-            <td><p>September 3, 2026</p></td>
-            <td><p>September 17, 2026</p></td>
-            <td><p>October 15, 2026</p></td>
+            <td><p>3 de septiembre de 2026</p></td>
+            <td><p>17 de septiembre de 2026</p></td>
+            <td><p>15 de octubre de 2026</p></td>
         </tr>
--->
 
     &lt;tr>
     &lt;td>
@@ -606,6 +620,19 @@ Se celebran seminarios web en directo para cada versión trimestral, en los que 
 
 * [Actividad de la versión de Adobe Workfront Fusion](https://experienceleague.adobe.com/es/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
 * [Actividad de la versión del cuarto trimestre de 2026 de Adobe Workfront Planning](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-26-q4.md).
+
+## Actualizaciones del visor de revisión de escritorio
+
+### Versión 2.1.59
+
+Versión de producción para todos los clientes: 9 de septiembre de 2026
+
+El Visor de corrección de escritorio se ha actualizado a la versión 2.1.59. Esta actualización incluye los siguientes cambios:
+
+* El Visor de corrección de escritorio ya está disponible como compilación nativa para Mac con silicio de Apple.
+* Se ha actualizado el marco de aplicación subyacente (Electron) a una versión más reciente, que ofrece mejoras de rendimiento y seguridad.
+
+Para obtener información sobre cómo descargar y actualizar el Visor de corrección de escritorio, consulte [Actualizar el Visor de corrección de escritorio](/help/quicksilver/review-and-approve-work/proofing/use-the-desktop-proofing-viewer/update-the-desktop-proofing-viewer.md).
 
 ## Anuncios
 

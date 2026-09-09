@@ -17,7 +17,7 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 66635b2edc78833ec2d08cef382b39b89238b565
+source-git-commit: 5ba0b1d553d67beb5924eb9255880a7ba1728ad9
 workflow-type: tm+mt
 source-wordcount: 1467
 ht-degree: 18%
@@ -202,7 +202,7 @@ Para vincular una carpeta:
 
 ## Consideraciones
 
-* La funcionalidad del Asesor de contenido no está disponible para objetos que utilicen el almacenamiento en la nube de Adobe. Si su organización utiliza el almacenamiento en la nube de Adobe, aún puede vincular recursos y carpetas desde Experience Manager Assets o Assets Essentials, pero no tendrá acceso a las funciones del Asesor de contenido, como Búsqueda por IA, sugerencias inteligentes o representaciones de Dynamic Media. Para obtener más información, consulte [Vincular contenido y carpetas desde Experience Manager Assets con el almacenamiento en la nube de Adobe](/help/quicksilver/review-and-approve-work/native-integrations/link-aem-assets-cloud-storage.md).
+* La funcionalidad del Asesor de contenido no está disponible para objetos que utilicen el almacenamiento en la nube de Adobe. Si su organización utiliza el almacenamiento en la nube de Adobe, aún puede vincular recursos y carpetas desde Experience Manager Assets o Assets Essentials, pero no tendrá acceso a las funciones del Asesor de contenido, como Búsqueda por IA, sugerencias inteligentes o representaciones de Dynamic Media. Para obtener más información, consulte [Vincular contenido y carpetas desde Experience Manager Assets con el almacenamiento en la nube de Adobe](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/use-aem-with-frame.md#link-content-from-experience-manager-assets).
 
 * La funcionalidad de Asesor de contenido no está disponible para Assets Essentials. Para vincular recursos y carpetas desde Assets Essentials, consulte [Vincular recursos y carpetas desde Experience Manager Assets Essentials](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/link-to-aem-essentials.md).
 

@@ -3,9 +3,9 @@ user-guide-title: Guía de Workfront
 user-guide-description: Utilice los siguientes documentos, tutoriales y recursos adicionales para aprender a implementar y utilizar Adobe Workfront de forma eficaz en su organización.
 role: User
 feature-set: Workfront
-source-git-commit: 29141ebc3913ad66e05ee10e53dcaea646ca2526
+source-git-commit: 5ba0b1d553d67beb5924eb9255880a7ba1728ad9
 workflow-type: tm+mt
-source-wordcount: '14505'
+source-wordcount: '14499'
 ht-degree: 92%
 
 ---
@@ -254,17 +254,17 @@ ht-degree: 92%
       * [21.1 Mejoras en la integración](product-announcements/product-releases/21.1-release-activity/21-1-integration-enhancements.md)
       * [21.1 Mejoras en la aplicación móvil](product-announcements/product-releases/21.1-release-activity/21-1-mobile-enhancements.md)
       * [21.1 Otras mejoras](product-announcements/product-releases/21.1-release-activity/21-1-other-enhancements.md)
-    * Actividad de versión de Adobe Workfront Planning{#planning-release-activity}
-      * [Actividad de versión de Adobe Workfront Planning](product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)
+    * Actividad de versión de Planificación de Workfront de Adobe{#planning-release-activity}
+      * [Actividad de versión de Planificación de Workfront de Adobe](product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)
       * [Actividad de la versión del cuarto trimestre de 2026 para Adobe Workfront Planning](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-26-q4.md)
       * [Actividad de la versión del tercer trimestre de 2026 para Adobe Workfront Planning](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-26-q3.md)
       * [Actividad de la versión del segundo trimestre de 2026 para Adobe Workfront Planning](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-26-q2.md)
-      * [Actividad de la versión del primer trimestre de 2026 para Adobe Workfront Planning](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-26-q1.md)
-      * [Actividad de la versión del cuarto trimestre de 2025 para Adobe Workfront Planning](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q4.md)
-      * [Actividad de la versión del tercer trimestre de 2025 para Adobe Workfront Planning](product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q3.md)
-      * [Actividad de la versión del segundo trimestre de 2025 para Adobe Workfront Planning](product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q2.md)
-      * [Actividad de la versión del primer trimestre de 2025 para Adobe Workfront Planning](product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q1.md)
-      * [Actividad de la versión del cuarto trimestre de 2024 para Adobe Workfront Planning](product-announcements/product-releases/planning-release-activity/planning-release-activity-24-q4.md)
+      * [Actividad de la versión del primer trimestre de 2026 para Planificación de Workfront de Adobe](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-26-q1.md)
+      * [Actividad de la versión del cuarto trimestre de 2025 para Planificación de Workfront de Adobe](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q4.md)
+      * [Actividad de la versión del tercer trimestre de 2025 para Planificación de Workfront de Adobe](product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q3.md)
+      * [Actividad de la versión del segundo trimestre de 2025 para Planificación de Workfront de Adobe](product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q2.md)
+      * [Actividad de la versión del primer trimestre de 2025 para Planificación de Workfront de Adobe](product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q1.md)
+      * [Actividad de la versión del cuarto trimestre de 2024 para Planificación de Workfront de Adobe](product-announcements/product-releases/planning-release-activity/planning-release-activity-24-q4.md)
     * Actividad de la versión con disponibilidad limitada de Adobe Workfront{#limited-availability-release-activity}
       * {hide-from-toc}[Actividad de la versión de funciones de disponibilidad limitada de Adobe Workfront](/help/quicksilver/product-announcements/product-releases/limited-availability-release-activity/limited-availability-release-activity-article-index.md)
       * {hide-from-toc}[Actividad de la versión del primer trimestre de 2026 para las funciones de disponibilidad limitada de Adobe Workfront](/help/quicksilver/product-announcements/product-releases/limited-availability-release-activity/limited-availability-release-activity-26-q1.md)
@@ -1949,6 +1949,7 @@ ht-degree: 92%
       * [Añadir revisores o aprobadores adicionales a un recurso o un documento](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/add-additional-reviewers-or-approvers.md)
       * [Quitar aprobadores o revisores de un recurso o documento](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/remove-approvers-or-reviewers.md)
       * [Crear una plantilla de aprobación para recursos y documentos](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md)
+      * [Administración de plantillas de aprobación](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/manage-approval-templates.md)
       * [Usar las aprobaciones unificadas y la revisión de forma conjunta](review-and-approve-work/document-reviews-and-approvals/doc-approvals-and-proofing.md)
       * [Cargar una nueva versión del documento y solicitar una aprobación](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/upload-new-doc-version.md)
       * [Crear un panel de control de informes para revisión y aprobaciones](review-and-approve-work/document-reviews-and-approvals/create-review-and-approval-dashboard.md)
@@ -2079,8 +2080,7 @@ ht-degree: 92%
     * {hide-from-toc}[Introducción a la integración de GenStudio for Performance Marketing y Frame.io](/help/quicksilver/review-and-approve-work/native-integrations/genstudio/wf-frame-and-genstudio.md)
     * [Introducción a las revisión y Creative Cloud Express](/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/wf-proof-and-express.md)
     * [Introducción a la integración de revisión y GenStudio for Performance Marketing](/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/wf-proof-and-genstudio.md)
-    * [Usar Adobe Experience Manager con la integración de Frame.io](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/use-aem-with-frame.md)
-    * [Vinculación de recursos de Experience Manager Assets con Adobe Cloud Storage](/help/quicksilver/review-and-approve-work/native-integrations/link-aem-assets-cloud-storage.md)
+    * [Uso de Adobe Experience Manager con Workfront y almacenamiento en la nube de Adobe](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/use-aem-with-frame.md)
     * [Introducción a Adobe Express y Workfront con la integración de Frame.io](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/express-wf-frame.md)
   * Sugerencias, trucos y solución de problemas para aprobaciones {#ttt-approvals}
     * [Sugerencias, trucos y solución de problemas para aprobaciones: índice de artículos](review-and-approve-work/tips-tricks-troubleshooting-approvals/tips-tricks-troubleshooting-approvals.md)
@@ -2184,32 +2184,32 @@ ht-degree: 92%
     * [Personalizar la terminología de Adobe Workfront Goals](workfront-goals/workfront-goals-settings/customize-wf-goals-terminology.md)
     * [Compartir una meta en Workfront Goals](workfront-goals/workfront-goals-settings/share-a-goal.md)
     * [Habilitar notificaciones de Adobe Workfront Goals](workfront-goals/workfront-goals-settings/wf-goals-notifications.md)
-* Adobe Workfront Planning {#adobe-workfront-planning}
+* Planificación de Workfront de Adobe {#adobe-workfront-planning}
   * [Índice general de información y artículos para Adobe Workfront Planning](planning/planning-information.md)
-  * Información general de Adobe Workfront Planning {#adobe-workfront-planning-general-information}
-    * [Información general de Adobe Workfront Planning: índice de artículos](planning/general/planning-general-article-index.md)
-    * [Introducción a Adobe Workfront Planning](planning/general/planning-overview.md)
+  * Información general de Planificación de Workfront de Adobe {#adobe-workfront-planning-general-information}
+    * [Información general de Planificación de Workfront de Adobe: índice de artículos](planning/general/planning-general-article-index.md)
+    * [Introducción a Planificación de Workfront de Adobe](planning/general/planning-overview.md)
     * [Información general sobre terminología de Workfront Planning](planning/general/planning-terminology.md)
     * [Recomendaciones de implementación de Adobe Workfront Planning](planning/general/planning-best-practices.md)
-    * [Conceptos básicos de la API de Adobe Workfront Planning](planning/general/planning-api-basics.md)
-    * [Información general sobre el asistente de IA de Adobe Workfront Planning](planning/general/planning-ai-assistant-overview.md)
+    * [Conceptos básicos de la API de Planificación de Workfront de Adobe](planning/general/planning-api-basics.md)
+    * [Información general sobre el asistente de IA de Planificación de Workfront de Adobe](planning/general/planning-ai-assistant-overview.md)
     * [Introducción a Adobe Workfront Planning Designer](planning/general/planning-ai-designer.md)
-    * [Actividad de la versión de Adobe Workfront Planning para 2024](planning/general/release-activity.md)
-    * [Actividad de la versión de Adobe Workfront Planning para 2023](planning/general/release-activity-archives-2023.md)
-    * [Información general sobre las limitaciones de objetos de Adobe Workfront Planning](planning/general/limitations-overview.md)
-    * [Introducción a la prueba gratuita de Adobe Workfront Planning](planning/general/trial-workfront-planning.md)
+    * [Actividad de la versión de Planificación de Workfront de Adobe para 2024](planning/general/release-activity.md)
+    * [Actividad de la versión de Planificación de Workfront de Adobe para 2023](planning/general/release-activity-archives-2023.md)
+    * [Información general sobre las limitaciones de objetos de Planificación de Workfront de Adobe](planning/general/limitations-overview.md)
+    * [Introducción a la prueba gratuita de Planificación de Workfront de Adobe](planning/general/trial-workfront-planning.md)
   * Informes de Adobe Workfront Planning {#adobe-workfront-planning-reporting}
     * [Informes de Adobe Workfront Planning: índice de artículos](planning/reporting/reporting-in-planning-article-index.md)
     * [Ver información de Workfront Planning en informes](planning/reporting/planning-information-in-reports.md)
     * {hide-from-toc}[Workfront Data Connect para Workfront Planning](planning/reporting/planning-in-data-connect.md)
-  * Prácticas recomendadas para Adobe Workfront Planning {#adobe-workfront-planning-best-practices}
+  * Prácticas recomendadas para Planificación de Workfront de Adobe {#adobe-workfront-planning-best-practices}
     * [Prácticas recomendadas de Adobe Workfront: índice de artículos](planning/best-practices.md/best-practices-article-index.md)
     * [Despliegue su hogar estratégico: una plataforma de lanzamiento de 30 días](planning/best-practices.md/30-day-launchpad.md)
     * [Arquitecta tu éxito: modelando la jerarquía de tu campaña](planning/best-practices.md/model-campaign-hierarchy.md)
     * [Cree su calendario de marketing: sin cubiertas, solo claridad](planning/best-practices.md/marketing-calendar.md)
     * [Convierta su primera victoria en un impulso sostenible: un manual para escalado administrado](planning/best-practices.md/playbook-how-to-scale.md)
     * [Construya el puente: conectando la intención estratégica con los proyectos](planning/best-practices.md/the-bridge-connect-strategy-with-projects.md)
-  * Arquitectura de Adobe Workfront Planning {#adobe-workfront-planning-architecture}
+  * Arquitectura de Planificación de Workfront de Adobe {#adobe-workfront-planning-architecture}
     * [Arquitectura: índice de artículos](planning/architecture/architecture-information.md)
     * [Información general sobre espacios de trabajo](planning/architecture/workspaces-overview.md)
     * [Crear espacios de trabajo](planning/architecture/create-workspaces.md)
@@ -2232,7 +2232,7 @@ ht-degree: 92%
     * [Eliminar tipos de registro](planning/architecture/delete-record-types.md)
     * [Ejemplo de conexión de tipos de registro y registros](planning/architecture/example-connect-record-types-and-records.md)
     * [Lista de plantillas de Workspace](planning/architecture/workspace-templates.md)
-  * Campos de Adobe Workfront Planning {#adobe-workfront-planning-fields}
+  * Campos de Planificación de Workfront de Adobe {#adobe-workfront-planning-fields}
     * [Campos: índice de artículos](planning/fields/fields-information.md)
     * [Información general de campos](planning/fields/fields-overview.md)
     * [Crear campos](planning/fields/create-fields.md)
@@ -2241,11 +2241,11 @@ ht-degree: 92%
     * [Información general sobre campos de fórmula](planning/fields/formula-fields.md)
     * [Importar campos desde Adobe Workfront](planning/fields/import-fields-from-workfront.md)
     * [Información general sobre el campo principal](planning/fields/primary-field-overview.md)
-  * Acceso a Adobe Workfront Planning {#adobe-workfront-planning-access}
-    * [Información de acceso de Adobe Workfront Planning: índice de artículos](planning/access/access-information.md)
-    * [Información general de acceso a Adobe Workfront Planning](planning/access/access-overview.md)
-    * [Información general sobre los permisos de uso compartido en Adobe Workfront Planning](planning/access/sharing-permissions-overview.md)
-    * [Información general sobre el tipo de licencia al usar Adobe Workfront Planning](planning/access/license-type-overview.md)
+  * Acceso a Planificación de Workfront de Adobe {#adobe-workfront-planning-access}
+    * [Información de acceso de Planificación de Workfront de Adobe: índice de artículos](planning/access/access-information.md)
+    * [Información general de acceso a Planificación de Workfront de Adobe](planning/access/access-overview.md)
+    * [Información general sobre los permisos de uso compartido en Planificación de Workfront de Adobe](planning/access/sharing-permissions-overview.md)
+    * [Información general sobre el tipo de licencia al usar Planificación de Workfront de Adobe](planning/access/license-type-overview.md)
     * [Compartir espacios de trabajo](planning/access/share-workspaces.md)
     * [Compartir tipos de registro](planning/access/share-record-types.md)
     * [Compartir vistas](planning/access/share-views.md)
@@ -2253,7 +2253,7 @@ ht-degree: 92%
     * {hide-from-toc}[Compartir campos de Workfront Planning](planning/access/share-fields.md)
     * [Establecer permisos predeterminados para los registros](planning/access/set-default-record-permissions.md)
     * [Solicitar permisos para una vista o un espacio de trabajo](planning/access/request-permissions.md)
-  * Registros de Adobe Workfront Planning {#adobe-workfront-planning-records}
+  * Registros de Planificación de Workfront de Adobe {#adobe-workfront-planning-records}
     * [Registros: índice de artículos](planning/records/records-information.md)
     * [Crear registros](planning/records/create-records.md)
     * [Crear registros importando información desde un archivo CSV o de Excel](planning/records/import-file-to-create-records.md)
@@ -2273,17 +2273,17 @@ ht-degree: 92%
     * [Exportar detalles de un registro](planning/records/export-the-record-page.md)
     * [Exportar registros desde la vista de tabla](planning/records/export-records-from-the-table-view.md)
     * [Agregar una página de Registros conectados a un registro](planning/records/add-a-connected-records-page-to-a-record.md)
-    * [Cree objetos de Workfront desde Workfront Planning a medida que los conecta a registros](planning/records/create-workfront-objects-from-workfront-planning.md)
-    * [Configuración de automatizaciones de Adobe Workfront Planning](planning/records/configure-automations-to-create-records.md)
-    * [Creación de objetos mediante automatizaciones de registros de Workfront Planning](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md)
-  * Solicitudes de Adobe Workfront Planning {#adobe-workfront-planning-requests}
-    * [Solicitudes de Adobe Workfront Planning: índice de artículos](planning/requests/requests-article-index.md)
-    * [Crear y administrar un formulario de solicitud en Adobe Workfront Planning](planning/requests/create-request-form.md)
-    * [Enviar solicitudes de Adobe Workfront Planning para crear registros](planning/requests/submit-requests.md)
-    * [Cancelar la publicación de un formulario de solicitud en Adobe Workfront Planning](planning/requests/unpublish-request-form.md)
-    * [Agregar una aprobación a un formulario de solicitud en Adobe Workfront Planning](planning/requests/add-approval-to-request-form.md)
-    * [Aprobar una solicitud en Adobe Workfront Planning](planning/requests/approve-request.md)
-  * Vistas de Adobe Workfront Planning {#adobe-workfront-planning-views}
+    * [Cree objetos de Workfront desde Planificación de Workfront a medida que los conecta a registros](planning/records/create-workfront-objects-from-workfront-planning.md)
+    * [Configuración de automatizaciones de Planificación de Workfront de Adobe](planning/records/configure-automations-to-create-records.md)
+    * [Creación de objetos mediante automatizaciones de registros de Planificación de Workfront](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md)
+  * Solicitudes de Planificación de Workfront de Adobe {#adobe-workfront-planning-requests}
+    * [Solicitudes de Planificación de Workfront de Adobe: índice de artículos](planning/requests/requests-article-index.md)
+    * [Crear y administrar un formulario de solicitud en Planificación de Workfront de Adobe](planning/requests/create-request-form.md)
+    * [Enviar solicitudes de Planificación de Workfront de Adobe para crear registros](planning/requests/submit-requests.md)
+    * [Cancelar la publicación de un formulario de solicitud en Planificación de Workfront de Adobe](planning/requests/unpublish-request-form.md)
+    * [Agregar una aprobación a un formulario de solicitud en Planificación de Workfront de Adobe](planning/requests/add-approval-to-request-form.md)
+    * [Aprobar una solicitud en Planificación de Workfront de Adobe](planning/requests/approve-request.md)
+  * Vistas de Planificación de Workfront de Adobe {#adobe-workfront-planning-views}
     * [Vistas: índice de artículos](planning/views/views-information.md)
     * [Administrar vistas de registros](planning/views/manage-record-views.md)
     * [Administrar la vista de tabla](planning/views/manage-the-table-view.md)
@@ -2292,15 +2292,15 @@ ht-degree: 92%
     * [Administración de la vista de lista](planning/views/manage-the-list-view.md)
     * [Eliminar vistas de registro](planning/views/delete-record-views.md)
     * [Duplicar vistas de registros](planning/views/duplicate-record-views.md)
-  * Notificaciones de Adobe Workfront Planning {#adobe-workfront-planning-notifications}
+  * Notificaciones de Planificación de Workfront de Adobe {#adobe-workfront-planning-notifications}
     * [Notificaciones de Planificación de Adobe Workfront: Índice de artículos](planning/notifications/notifications-information.md)
-    * [Administrar las preferencias de las notificaciones para Adobe Workfront Planning](planning/notifications/manage-notification-preferences.md)
-    * [Administrar notificaciones por correo electrónico de Adobe Workfront Planning](planning/notifications/manage-planning-email-notifications.md)
+    * [Administrar las preferencias de las notificaciones para Planificación de Workfront de Adobe](planning/notifications/manage-notification-preferences.md)
+    * [Administrar notificaciones por correo electrónico de Planificación de Workfront de Adobe](planning/notifications/manage-planning-email-notifications.md)
     * [Administrar notificaciones en la aplicación de Planificación de Adobe Workfront](planning/notifications/manage-planning-in-app-notifications.md)
-  * Adobe Workfront Planning y Gen Studio para la integración de marketing de rendimiento {#planning-and-genstudio-integration}
-    * [Adobe Workfront Planning y Adobe GenStudio para la integración de marketing de rendimiento: índice de artículos](planning/planning-and-genstudio-integration/planning-and-genstudio-integration-article-index.md)
-    * [Introducción a Adobe Workfront Planning y Adobe GenStudio para la integración de marketing de rendimiento](planning/planning-and-genstudio-integration/get-started-with-workfront-planning-and-genstudio-integration.md)
-    * [Administrar el espacio de trabajo de GenStudio en Adobe Workfront Planning](planning/planning-and-genstudio-integration/manage-gen-studio-workspace-in-planning.md)
+  * Planificación de Workfront de Adobe y Gen Studio para la integración de marketing de rendimiento {#planning-and-genstudio-integration}
+    * [Planificación de Workfront de Adobe y Adobe GenStudio para la integración de marketing de rendimiento: índice de artículos](planning/planning-and-genstudio-integration/planning-and-genstudio-integration-article-index.md)
+    * [Introducción a Planificación de Workfront de Adobe y Adobe GenStudio para la integración de marketing de rendimiento](planning/planning-and-genstudio-integration/get-started-with-workfront-planning-and-genstudio-integration.md)
+    * [Administrar el espacio de trabajo de GenStudio en Planificación de Workfront de Adobe](planning/planning-and-genstudio-integration/manage-gen-studio-workspace-in-planning.md)
     * {hide-from-toc}[Promocionar un espacio de trabajo de Workfront Planning a GenStudio](planning/planning-and-genstudio-integration/promote-planning-workspace-to-genstudio.md)
   * Adobe Workfront Planning como producto independiente {#planning-standalone}
     * [Adobe Workfront Planning como producto independiente: índice de artículos](planning/planning-sta/planning-sta-article-index.md)

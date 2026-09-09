@@ -18,9 +18,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 0f42eb9e5d6723849e668e3cd29fad36d43294c3
+source-git-commit: 5ba0b1d553d67beb5924eb9255880a7ba1728ad9
 workflow-type: tm+mt
-source-wordcount: 4442
+source-wordcount: 4439
 ht-degree: 0%
 
 ---
@@ -511,7 +511,7 @@ Los usuarios pueden iniciar el visor de Frame.io directamente desde Workfront. T
 
 Sí. Una vez que un recurso completa el ciclo de revisión y aprobación, puede transferirlo a Adobe Experience Manager Assets para su almacenamiento y distribución finales. Esto conecta Workfront para la administración del trabajo, Frame.io para la revisión y AEM para la administración de recursos digitales en un supply chain de contenido unificado.
 
-Para obtener más información, vea [Usar Adobe Experience Manager con la integración Frame.io](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/use-aem-with-frame.md).
+Para obtener más información, consulte [Usar Adobe Experience Manager con Workfront y el almacenamiento en la nube de Adobe](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/use-aem-with-frame.md).
 
 **¿Cómo encaja la revisión y aprobación unificadas en Adobe GenStudio?**
 

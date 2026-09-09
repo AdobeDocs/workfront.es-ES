@@ -19,10 +19,10 @@ subfeature_v2:
   - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 75b5d93d97458a71d206a7701f8773d309eeb834
 workflow-type: tm+mt
-source-wordcount: 97
-ht-degree: 81%
+source-wordcount: 100
+ht-degree: 79%
 
 ---
 
@@ -35,6 +35,7 @@ Esta sección contiene los siguientes artículos:
 * [Añadir revisores o aprobadores adicionales a un recurso o un documento](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/add-additional-reviewers-or-approvers.md)
 * [Quitar aprobadores o revisores de un recurso o documento](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/remove-approvers-or-reviewers.md)
 * [Crear una plantilla de aprobación para recursos y documentos](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md)
+* [Administración de plantillas de aprobación](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/manage-approval-templates.md)
 * [Usar las aprobaciones unificadas y la revisión de forma conjunta](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/doc-approvals-and-proofing.md)
 * [Cargar una nueva versión del documento y solicitar una aprobación](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/upload-new-doc-version.md)
 * [Crear un panel de control de informes para revisión y aprobaciones](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-review-and-approval-dashboard.md)

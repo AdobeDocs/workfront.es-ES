@@ -20,9 +20,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: c637cfabefebf01868ae0dd020d95bcce50b38e2
+source-git-commit: 0336bef484214908f181b630f2d3298af5d10398
 workflow-type: tm+mt
-source-wordcount: 2662
+source-wordcount: 2878
 ht-degree: 4%
 
 ---
@@ -32,6 +32,8 @@ ht-degree: 4%
 {{highlighted-preview}}
 
 Puede solicitar la aprobación de otros usuarios o equipos para un documento en Adobe Workfront o solicitar que revisen un documento sin necesidad de aprobarlo.
+
+De forma predeterminada, una plantilla de aprobación solo es visible para su creador. A lo largo de este artículo, solo puede seleccionar las plantillas que ha creado o que se han compartido con usted. Para obtener más información, consulte [Compartir una plantilla](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/manage-approval-templates.md#share-a-template) en Administrar plantillas de aprobación.
 
 >[!IMPORTANT]
 >
@@ -95,7 +97,7 @@ Para crear un flujo de trabajo de aprobación de una sola etapa:
    <table>
    <tr>
    <td><strong>Usar una plantilla de aprobación (opcional)</strong></td>
-   <td>Seleccione una plantilla en el menú desplegable. Si la plantilla tiene una ruta y una fase, se aplica en modo Básico. Si la plantilla tiene más de una etapa o más de una ruta, el cuadro de diálogo cambia automáticamente al modo Avanzado y cualquier entrada introducida en el modo Básico se reemplaza por el contenido de la plantilla.</td>
+   <td>Seleccione una plantilla en el menú desplegable. El menú solo enumera las plantillas que ha creado o que se han compartido con usted, ya sea específicamente o con todos los miembros de su organización. Los administradores del sistema ven todas las plantillas de la cuenta aquí, independientemente de quién las creó o compartió. Si la plantilla tiene una ruta y una fase, se aplica en modo Básico. Si la plantilla tiene más de una etapa o más de una ruta, el cuadro de diálogo cambia automáticamente al modo Avanzado y cualquier entrada introducida en el modo Básico se reemplaza por el contenido de la plantilla.</td>
    </tr>
    <tr>
    <td><strong>Añadir nombres o correos electrónicos</strong></td>
@@ -151,6 +153,14 @@ Para crear un flujo de trabajo de aprobación avanzado:
    >[!TIP]
    >
    >Mientras está creando la aprobación, puede volver al modo Básico haciendo clic en **Ir a básico** en la parte superior derecha. Después de hacer clic en **Solicitar aprobación**, la opción **Ir a básico** ya no está disponible.
+
+1. (Opcional) Para aplicar una plantilla:
+
+   1. Activar o desactivar **Plantillas**.
+   1. Haga clic en el icono de filtro y, a continuación, seleccione **Todas**, **Mis plantillas** o **Compartidas conmigo** para reducir la lista.
+   1. Haga clic en una plantilla para aplicarla a la aprobación.
+
+   Los administradores del sistema ven todas las plantillas de la cuenta aquí, independientemente de quién las creó o compartió.
 
 1. Rellene los detalles de la fase 1 de la ruta 1:
 
@@ -222,7 +232,7 @@ Para crear un flujo de trabajo de aprobación de una sola etapa:
    <table>
    <tr>
    <td><strong>Usar una plantilla de aprobación (opcional)</strong></td>
-   <td>El campo de plantillas está contraído de forma predeterminada. Haga clic en el campo para expandirlo y, a continuación, seleccione una plantilla en el menú desplegable. Si la plantilla tiene una ruta y una fase, se aplica en modo Básico. Si la plantilla tiene más de una etapa o más de una ruta, el cuadro de diálogo cambia automáticamente al modo Avanzado y cualquier entrada introducida en el modo Básico se reemplaza por el contenido de la plantilla.</td>
+   <td>El campo de plantillas está contraído de forma predeterminada. Haga clic en el campo para expandirlo y, a continuación, seleccione una plantilla en el menú desplegable. El menú solo enumera las plantillas que ha creado o que se han compartido con usted, ya sea específicamente o con todos los miembros de su organización. Los administradores del sistema ven todas las plantillas de la cuenta aquí, independientemente de quién las creó o compartió. Si la plantilla tiene una ruta y una fase, se aplica en modo Básico. Si la plantilla tiene más de una etapa o más de una ruta, el cuadro de diálogo cambia automáticamente al modo Avanzado y cualquier entrada introducida en el modo Básico se reemplaza por el contenido de la plantilla.</td>
    </tr>
    <tr>
    <td><strong>Añadir nombres o correos electrónicos</strong></td>
@@ -284,6 +294,14 @@ Para crear un flujo de trabajo de aprobación avanzado:
    >[!TIP]
    >
    >Mientras está creando la aprobación, puede volver al modo Básico haciendo clic en **Ir a básico** en la parte superior derecha. Después de hacer clic en **Solicitar aprobación**, la opción **Ir a básico** ya no está disponible.
+
+1. (Opcional) Para aplicar una plantilla:
+
+   1. Activar o desactivar **Plantillas**.
+   1. Haga clic en el icono de filtro y, a continuación, seleccione **Todas**, **Mis plantillas** o **Compartidas conmigo** para reducir la lista.
+   1. Haga clic en una plantilla para aplicarla a la aprobación.
+
+   Los administradores del sistema ven todas las plantillas de la cuenta aquí, independientemente de quién las creó o compartió.
 
 1. Rellene los detalles de la fase 1 de la ruta 1:
 

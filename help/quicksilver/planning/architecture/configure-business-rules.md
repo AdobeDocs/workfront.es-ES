@@ -5,10 +5,10 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: cafe52c228520becb66e2fa9d8121127223a8f71
+source-git-commit: a0ba955b089480c01b187e39ed5a8a8226b23ea7
 workflow-type: tm+mt
-source-wordcount: '1094'
-ht-degree: 4%
+source-wordcount: '1164'
+ht-degree: 3%
 
 ---
 
@@ -51,7 +51,7 @@ O
    </td> </tr>
   <tr> 
    <td role="rowheader"><p>Licencia de Adobe Workfront</p></td> 
-   <td><p>Workflow Standard</p>
+   <td><p>Colaborador de flujo de trabajo o superior</p>
    </td> 
   </tr> 
 <tr> 
@@ -144,6 +144,7 @@ Para obtener más información acerca de los requisitos de acceso de Workfront, 
 1. Haga clic en **Activar** para activar la regla para este tipo de registro y, a continuación, haga clic en **Guardar**.
 
    Las reglas se aplican inmediatamente después de activarlas y todos los usuarios que tengan permisos para editar o eliminar registros en el tipo de registro seleccionado deben seguirlas.
+1. (Opcional) Haga clic en el menú **Más** ![](assets/more-menu.png) del nombre de la regla de negocio en el encabezado de página para abrir el cuadro **Detalles de la regla** y actualizar la información sobre la regla de negocio.
 1. (Opcional y recomendada) Haga clic en la flecha hacia atrás situada a la izquierda de **Reglas de negocio** en el encabezado de página para mostrar la página de tipo de registro, ir a una vista de tabla o abrir la página de un registro; a continuación, intente editar o eliminar un registro para probar la regla que acaba de crear.
 
 ## Administrar reglas empresariales
@@ -153,18 +154,22 @@ Puede editar, eliminar o desactivar las reglas de negocio existentes.
 La edición de una regla existente no cambia los registros existentes. La regla editada solo se aplica a los registros existentes cuando alguien intenta editarlos o eliminarlos.
 
 1. Vuelva a la página de tabla **Reglas de negocio** para el tipo de registro.
-1. Busque la regla que desee cambiar.
-1. Pase el ratón sobre el nombre de la regla y luego haga clic en el menú **Más** ![Menú más](assets/more-menu.png), a continuación, elija una de las siguientes opciones:
+1. Busque la regla que desee cambiar en la vista de tabla.
+1. Pase el ratón sobre el nombre de una regla activa y luego haga clic en el menú **Más** ![Menú más](assets/more-menu.png), a continuación, elija una de las siguientes opciones:
 
    * **Editar**: Esto abre la página de configuración de regla de negocio y puede editar información sobre ella.
-   * **Desactivar**: <!--check this in the UI: right now, it says Disable--> Esto evitará que la regla se active, pero se conservará para el futuro.
+   * **Desactivar**: esto impide que la regla se active, pero la preserva para el futuro. Es necesario.
    * **Eliminar**: se elimina toda la información sobre la regla. Las reglas eliminadas no se pueden recuperar.
 
+   ![Menú Más de reglas de negocios expandido](assets/business-rule-more-menu-in-table-expanded.png)
+
    Las reglas editadas o la desactivación de reglas solo se aplican a registros futuros y no se aplican de forma retroactiva.
+1. (Opcional y condicional) Pase el ratón sobre el nombre de una regla de negocio desactivada en la tabla y luego haga clic en **Más** > **Activar** para activar la regla.
 
-   <!--add NEW screen shot below if UI is fixed with Deactivate at release; it was fixed in devTest-->
+   La regla se activa.
 
-   <!--![Business rule more menu expanded](assets/business-rule-more-menu-in-table-expanded.png)-->
+
+
 
 <!--
 

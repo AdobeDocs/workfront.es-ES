@@ -20,18 +20,16 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: ec38b386a008c689946cb359d4714380dd8e5460
+source-git-commit: 0336bef484214908f181b630f2d3298af5d10398
 workflow-type: tm+mt
-source-wordcount: 757
-ht-degree: 13%
+source-wordcount: 800
+ht-degree: 12%
 
 ---
 
 # Creación de una plantilla de flujo de trabajo de aprobación para documentos
 
-{{highlighted-preview}}
-
-En el área Configuración de Workfront, los usuarios con una licencia Estándar pueden crear plantillas de aprobación reutilizables. Una vez creadas, las plantillas de aprobación se pueden aplicar a los recursos del área Documentos de un objeto.
+En el área Configuración de Workfront, los usuarios con una licencia Estándar pueden crear plantillas de aprobación reutilizables. Una plantilla solo es visible para el usuario que la creó, a menos que el creador la comparta con usuarios específicos o con todos los miembros de la organización. Una vez creadas, las plantillas de aprobación se pueden aplicar a los recursos del área Documentos de un objeto.
 
 >[!IMPORTANT]
 >
@@ -131,6 +129,10 @@ Para crear una plantilla de aprobación:
 1. Haga clic en **Guardar**.
 
 Una vez creada la plantilla, se puede aplicar a documentos del área Documentos de un objeto para iniciar el proceso formal de revisión y aprobación en Workfront.
+
+>[!NOTE]
+>
+>Las nuevas plantillas solo son visibles para usted. Para compartir, editar o eliminar una plantilla, consulte [Administrar plantillas de aprobación](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/manage-approval-templates.md).
 
 <!--
  Once a template is created, it can be applied to assets sent from Frame.io to begin the formal review and approval process in Workfront.

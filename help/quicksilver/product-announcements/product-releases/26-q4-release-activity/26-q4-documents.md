@@ -4,9 +4,9 @@ description: Mejoras en los documentos del cuarto trimestre de 2026
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 5e13c944ac485a6999dd0a788cfbb0f5d5169742
+source-git-commit: 37bfc284daa1056314a5e3b64822720a0dd21fc8
 workflow-type: tm+mt
-source-wordcount: '1101'
+source-wordcount: '1334'
 ht-degree: 3%
 
 ---
@@ -17,22 +17,37 @@ Esta página describe las mejoras realizadas en los documentos con la versión d
 
 Para obtener una lista de todos los cambios disponibles en este punto del ciclo de la versión del cuarto trimestre de 2026, consulte [Información general de la versión del cuarto trimestre de 2026](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-release-overview.md).
 
-<!--
-
-## System Administrators full access to approval templates
+## Controlar quién puede ver y utilizar plantillas de aprobación
 
 >[!NOTE]
 >
->Preview: September 4, 2026
->Production fast release: September 4, 2026
->Production for everyone: September 4, 2026
->[!BADGE Off schedule]{type=Neutral}
+>Vista previa: 30 de julio de 2026
+>Versión rápida de producción: 13 de agosto de 2026
+>Producción para todos: 15 de octubre de 2026
 
-System Administrators can now view, edit, delete, and bulk-delete every approval template in the account, regardless of who created or shared it. Previously, System Administrators were subject to the same sharing rules as other users, and could only see or manage templates they created or that were shared with them.
+Las plantillas de aprobación ahora son privadas de forma predeterminada. Anteriormente, cada solicitante de aprobación podía ver todas las plantillas del sistema, por lo que las listas de plantillas eran largas y difíciles de navegar. Ahora, una plantilla solo es visible para el usuario que la creó, a menos que el creador la comparta.
 
-For more information, see [Manage approval templates](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/manage-approval-templates.md).
+Los creadores de plantillas pueden compartir una plantilla con usuarios específicos o con cualquier persona de su organización desde la lista Plantillas de aprobación de la configuración de Workfront. Al solicitar una aprobación, los usuarios solo ven las plantillas que han creado o que se han compartido con ellos.
 
--->
+Este cambio se aplica tanto a las plantillas nuevas como a las existentes, y el acceso se aplica de forma coherente independientemente de cómo se solicite una plantilla.
+
+Para obtener más información, consulte:
+
+* [Compartir una plantilla](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md#share-a-template) en Crear una plantilla de flujo de trabajo de aprobación para documentos
+* [Crear un flujo de trabajo de aprobación de documentos](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)
+
+## Acceso completo de los administradores del sistema a las plantillas de aprobación
+
+>[!NOTE]
+>
+>Vista previa: 8 de septiembre de 2026
+>Versión rápida de producción: 8 de septiembre de 2026
+>Producción para todos: 8 de septiembre de 2026
+>[!BADGE Fuera del horario]{type=Neutral}
+
+Los administradores del sistema ahora pueden ver, editar, eliminar y eliminar de forma masiva todas las plantillas de aprobación de la cuenta, independientemente de quién las haya creado o compartido. Anteriormente, los administradores del sistema estaban sujetos a las mismas reglas de uso compartido que otros usuarios y solo podían ver o administrar las plantillas que creaban o que se compartían con ellos.
+
+Para obtener más información, consulte [Administrar plantillas de aprobación](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/manage-approval-templates.md).
 
 ## Visibilidad de comentarios de marco en Workfront
 
@@ -196,7 +211,7 @@ Si su organización utiliza el almacenamiento en la nube de Adobe, puede vincula
 
 La vinculación cuenta con la tecnología del Asesor de contenido, por lo que también obtiene Búsqueda por IA, sugerencias inteligentes, análisis breves de campañas y mucho más al seleccionar contenido.
 
-Para obtener más información, consulte [Vincular contenido de Experience Manager Assets con Adobe Cloud Storage](/help/quicksilver/review-and-approve-work/native-integrations/link-aem-assets-cloud-storage.md).
+Para obtener más información, consulte [Vincular contenido de Experience Manager Assets con Adobe Cloud Storage](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/use-aem-with-frame.md#link-content-from-experience-manager-assets).
 
 <!--
 

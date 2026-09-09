@@ -6,9 +6,9 @@ description: Puede vincular un recurso o una carpeta de Experience Manager Asset
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 0b93f6f6-cf4b-4077-a464-be7f19f7cd25
-source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
+source-git-commit: 5ba0b1d553d67beb5924eb9255880a7ba1728ad9
 workflow-type: tm+mt
-source-wordcount: '629'
+source-wordcount: '630'
 ht-degree: 51%
 
 ---
@@ -19,7 +19,7 @@ Puede vincular un recurso o una carpeta de Experience Manager Assets Essentials 
 
 Para vincular recursos y carpetas desde Experience Manager Assets mediante el Asesor de contenido, consulte [Vincular recursos y carpetas con el Asesor de contenido con tecnología Experience Manager Assets](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/link-to-aem.md).
 
-Si está en el almacenamiento en la nube de Adobe, consulte [Usar Adobe Experience Manager con la integración de Frame.io](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/use-aem-with-frame.md).
+Si está en el almacenamiento en la nube de Adobe, consulte [Uso de Adobe Experience Manager con el almacenamiento en la nube de Workfront y Adobe](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/use-aem-with-frame.md).
 
 
 ## Requisitos de acceso

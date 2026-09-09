@@ -5,9 +5,9 @@ title: Herramientas del servidor MCP de Adobe Workfront
 description: Lista de referencia de las herramientas disponibles a través del servidor MCP de Adobe Workfront, agrupadas por área de Workfront.
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: c52aa353d5b9856cc6c7de458596f0145fb2c6e0
+source-git-commit: 7d95c420db4566936f225daae7b82f61f757b4f5
 workflow-type: tm+mt
-source-wordcount: '2721'
+source-wordcount: '2785'
 ht-degree: 7%
 
 ---
@@ -300,6 +300,13 @@ Las herramientas de perspectivas recuperan información sobre los objetos de Wor
 | Enumerar entidades | `insights_list_entities` | Enumerar todos los tipos de objetos de Workfront disponibles para la consulta. | Leer |
 | Buscar usuarios | `insights_search_users` | Busque personas en la instancia de Workfront por su nombre. Escriba un nombre completo o parcial y vuelva a la parte superior de los usuarios coincidentes. Opcionalmente, esto también puede incluir &quot;bots&quot; de colaborador de IA junto con usuarios habituales. | Leer |
 
+## Herramientas de comentarios
+
+Las <span class="preview">herramientas de comentarios le permiten informar sobre su experiencia con el servidor MCP de Workfront directamente desde su plataforma independiente.</span>
+
+| Título | Nombre de herramienta | Qué hace | Acción |
+| --- | --- | --- | --- |
+| <span class="preview">Compartir comentarios</span> | <span class="preview">`share_feedback`</span> | <span class="preview">Registra la opinión de la que se informó y lo que ocurrió durante la conversación, para que se puedan mejorar las herramientas de MCP de Workfront. Solo se usa cuando se le pide explícitamente que comparta comentarios (por ejemplo, &quot;compartir comentarios&quot; o &quot;informar de un error&quot;).</span> | <span class="preview">Write</span> |
 
 
 
