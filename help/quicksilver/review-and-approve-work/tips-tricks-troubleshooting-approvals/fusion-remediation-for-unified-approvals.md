@@ -54,7 +54,7 @@ Revise cada escenario con respecto a la lógica empresarial específica para dec
 >
 >El conector Unified Review and Approvals de Adobe Workfront ya está disponible en Workfront Fusion. Se recomienda utilizar este conector para situaciones más sencillas y fiables al utilizar Fusion con el almacenamiento en la nube de Adobe.
 >
->Para obtener información e instrucciones, consulte [Módulos unificados de revisión y aprobaciones de Adobe Workfront](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-review-and-approvals-modules) en la documentación de Workfront Fusion.
+>Para obtener información e instrucciones, consulte [Módulos unificados de revisión y aprobaciones de Adobe Workfront](https://experienceleague.adobe.com/es/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-review-and-approvals-modules) en la documentación de Workfront Fusion.
 
 Utilice el siguiente método para planificar y ejecutar la remediación de Fusion:
 
