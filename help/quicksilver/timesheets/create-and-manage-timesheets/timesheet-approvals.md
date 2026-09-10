@@ -18,10 +18,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: dbb2e1aee18e6435a79ee2071f0bd5ba84ce2af3
+source-git-commit: 585b1e593cb59369ec933a138aa6927802c217ff
 workflow-type: tm+mt
-source-wordcount: 689
-ht-degree: 57%
+source-wordcount: 728
+ht-degree: 53%
 
 ---
 
@@ -80,6 +80,7 @@ Si se establece la siguiente configuración de notificación, el usuario que env
 
 * El administrador de Workfront ha habilitado la Aprobación de plantilla de horas para el usuario y el Rechazo de plantilla de horas para los controladores de eventos del usuario. Para obtener información acerca de cómo habilitar las notificaciones de eventos, vea [Tipos de notificaciones de eventos](../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md).
 * Se aprueba la hoja de horas Mi notificación personal está habilitada en la página de perfil del usuario. Para obtener más información, consulte [Modificar sus propias notificaciones por correo electrónico](/help/quicksilver/workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+* El usuario que ha enviado la plantilla de horas tiene una licencia estándar. Los usuarios con una licencia básica o inferior no reciben la notificación por correo electrónico de aprobación de la plantilla de horas, ni siquiera cuando la notificación personal Mi plantilla de horas está aprobada y habilitada en su perfil.
 
 ### Aprobar una hoja de horas desde el área Hojas de horas
 

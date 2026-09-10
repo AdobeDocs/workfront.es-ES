@@ -17,10 +17,10 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+source-git-commit: 3578c9c87c93aedd46f50fa660a54a73f5c574dc
 workflow-type: tm+mt
-source-wordcount: 620
-ht-degree: 86%
+source-wordcount: 683
+ht-degree: 88%
 
 ---
 
@@ -35,7 +35,7 @@ Conecte su trabajo a su contenido en Experience Manager Assets Essentials:
 >[!NOTE]
 >
 >También puede conectar varios repositorios de Experience Manager Assets a un entorno de Workfront o varios entornos de Workfront a un repositorio de Experience Manager Assets en los ID de organización. Siga las instrucciones de configuración de este artículo para cada integración que desee configurar.<br>
->Esta funcionalidad no está disponible en el área de Documentos nuevos.
+>Esta funcionalidad no está disponible en la nueva área de Documentos.
 
 ## Requisitos de acceso
 
@@ -86,7 +86,7 @@ Para obtener más información sobre esta tabla, consulte [Requisitos de acceso 
 
 {{step-1-to-setup}}
 
-1. Seleccione **Documentos** ![icono de documentos](assets/document-icon.png) en el panel izquierdo y, a continuación, seleccione **Integración de Experience Manager**.
+1. Seleccione **Documentos** ![icono de documentos](assets/document-icon.png) en el panel izquierdo y luego seleccione **Experience Manager Assets**.
 1. Seleccione **Añadir integración de Experience Manager**.
 1. Especifique lo siguiente:
 
@@ -100,7 +100,7 @@ Para obtener más información sobre esta tabla, consulte [Requisitos de acceso 
    <tr>
       <td><strong>URL de navegación</strong>
       </td>
-      <td>El sistema rellena automáticamente la URL de navegación. Esta URL se utiliza para vincular a la instancia de Assets Essentials de su organización desde el menú principal para acceder rápidamente.
+      <td>El sistema rellena automáticamente la URL de navegación. Esta URL se utiliza para establecer el vínculo a la instancia de Assets Essentials de su organización desde el menú principal para un acceso rápido.
       </td>
    </tr>
    <tr>

@@ -21,9 +21,9 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 862924a86a71d982098dff8143cb047cdb301806
 workflow-type: tm+mt
-source-wordcount: 1733
+source-wordcount: 1751
 ht-degree: 89%
 
 ---
@@ -105,7 +105,7 @@ Antes de comenzar,
 
 {{step-1-to-setup}}
 
-1. Seleccione **[!UICONTROL Documents]** en el panel izquierdo y, a continuación, seleccione **[!UICONTROL [!DNL Experience Manager]Integration]**.
+1. Seleccione **[!UICONTROL Documentos]** en el panel izquierdo, luego seleccione **[!UICONTROL [!DNL Experience Manager]Assets]**.
 
    >[!NOTE]
    >
@@ -114,7 +114,7 @@ Antes de comenzar,
 1. Seleccione **[!UICONTROL Add [!DNL Experience Manager] Integration]**.
 1. En el campo **[!UICONTROL Name]**, escriba el nombre que desea que los usuarios vean al interactuar con esta integración en Workfront y Experience Manager Assets.
 1. En el campo **[!UICONTROL Navigation URL]**, el sistema rellena automáticamente la URL de navegación. Esta URL de solo lectura se usa para vincular la instancia [!DNL Experience Manager] de su organización desde el [!UICONTROL Main Menu] para obtener acceso rápido.
-1. Elija un repositorio en el menú desplegable **[!UICONTROL [!DNL Experience Manager]repositorio de Assets]**. El sistema rellena automáticamente los repositorios de [!DNL Experience Manager] asociados con el identificador de organización al que está asignado el perfil de usuario.
+1. Elija un repositorio en el menú desplegable **[!UICONTROL [!DNL Experience Manager]Assets repository]**. El sistema rellena automáticamente los repositorios de [!DNL Experience Manager] asociados con el identificador de organización al que está asignado el perfil de usuario.
    ![Elija repositorio de Experience manager](assets/setup-information.png)
 
 1. Haga clic en **[!UICONTROL Guardar]** o continúe con la sección [Configurar metadatos (opcional)](#set-up-metadata-optional) de este artículo.
