@@ -181,10 +181,10 @@ Worth noting
 
 ## Recursos adicionales
 
-* [Planificación de Adobe Workfront Campaign](https://business.adobe.com/products/workfront/campaign-planning.html)
+* [Planificación de Adobe Workfront Campaign](https://business.adobe.com/es/products/workfront/campaign-planning.html)
 * [Documentación de Adobe Workfront Planning](/help/quicksilver/planning/planning-information.md)
-* [Información general de Adobe GenStudio](https://business.adobe.com/products/genstudio.html)
-* [Adobe Customer Journey Analytics](https://business.adobe.com/products/adobe-analytics/customer-journey-analytics.html)
+* [Información general de Adobe GenStudio](https://business.adobe.com/es/products/genstudio.html)
+* [Adobe Customer Journey Analytics](https://business.adobe.com/es/products/adobe-analytics/customer-journey-analytics.html)
 
 
 <!--
