@@ -4,9 +4,9 @@ description: Esta página proporciona información sobre la funcionalidad que se
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 807bafbd65f6f73593b0bb11345eb70cc763935c
+source-git-commit: f46a0da928dd02415eac0a3dd555783912c1e740
 workflow-type: tm+mt
-source-wordcount: '2906'
+source-wordcount: '2905'
 ht-degree: 8%
 
 ---
@@ -17,7 +17,7 @@ Esta página proporciona información sobre la funcionalidad que se incluye en l
 
 Las mejoras de esta página están disponibles en el entorno de vista previa. Esta página se actualizará con mejoras adicionales a medida que la versión del cuarto trimestre de 2026 se aproxime a su versión de producción planificada.
 
-Se celebran seminarios web en directo para cada versión trimestral, en los que se destacan las nuevas funciones y se proporciona información detallada. Para registrarse, visite la [página de eventos](https://experienceleague.adobe.com/es/events?filters=Workfront) y filtre por Workfront.
+Se celebran seminarios web en directo para cada versión trimestral, en los que se destacan las nuevas funciones y se proporciona información detallada. Para registrarse, visite la [página de eventos](https://experienceleague.adobe.com/en/events?filters=Workfront) y filtre por Workfront.
 
 >[!IMPORTANT]
 >
@@ -191,7 +191,7 @@ Se celebran seminarios web en directo para cada versión trimestral, en los que 
         <tr>
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-ai.md" class="MCXref xref" xrefformat="{para}">CX Coworker ya está disponible en Workfront</a>
-                <p>CX Coworker es una nueva interfaz conversacional para realizar el trabajo en sistemas Workfront y Adobe conectados, que sustituye al asistente de IA actual.</p>
+                <p>CX Coworker es una nueva interfaz conversacional para realizar el trabajo en Workfront y en los sistemas conectados de Adobe, que sustituye al asistente de IA actual.</p>
             </td>
             <td><p>3 de septiembre de 2026</p></td>
             <td><p>17 de septiembre de 2026</p></td>
@@ -277,10 +277,10 @@ Se celebran seminarios web en directo para cada versión trimestral, en los que 
         </tr>
         <tr>
             <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-documents.md" class="MCXref xref" xrefformat="{para}">Visibilidad de comentarios de fotograma en Workfront</a>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-documents.md" class="MCXref xref" xrefformat="{para}">Visibilidad del comentario Frame.io en Workfront</a>
                 <p>El panel Comentarios de Workfront ahora le permite saber cuándo hay nuevos comentarios disponibles en el visor de Frame.io.</p>
             </td>
-            <td><p>3 de septiembre de 2026</p></td>
+            <td><p>N/D</p></td>
             <td><p>17 de septiembre de 2026</p></td>
             <td><p>15 de octubre de 2026</p></td>
         </tr>
@@ -478,7 +478,7 @@ Se celebran seminarios web en directo para cada versión trimestral, en los que 
     &lt;/tr>
     &lt;tr>
     &lt;td>
-    &lt;a href=&quot;/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-reports.md&quot; class=&quot;MCXref xrefformat=&quot;{para}&quot;>Actualización de Dashage> en la aprobación schedule&rbrack;{type=Neutral}&lt;/p>
+    &lt;a href=&quot;/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-reports.md&quot; class=&quot;MCXref xrefformat=&quot;{para}&quot;>Actualización de Dashage> en la aprobación schedule]{type=Neutral}&lt;/p>
     &lt;p>Se ha cambiado el nombre de varios nombres de campo utilizados en paneles de lienzo para aprobaciones de documentos y trabajo para una mayor claridad.&lt;/p>
     &lt;/td>
     &lt;td>&lt;p>N/A&lt;/p>&lt;/td>
@@ -642,7 +642,7 @@ Si es administrador de Workfront y tiene usuarios de lector de Data Connect que 
 
 Este cambio se anunció por primera vez en las notas de la versión de Workfront de abril de 2026 y este es el recordatorio final antes de la fecha límite. Asegúrese de que todos los usuarios de lectores afectados habiliten MFA antes del 8 de agosto de 2026 para evitar interrupciones en su acceso.
 
-Para obtener más información, consulte [Crear una cuenta de lector o una conexión para Snowflake](https://experienceleague.adobe.com/es/docs/workfront/using/reporting/data-lake/create-a-reader-account).
+Para obtener más información, consulte [Crear una cuenta de lector o una conexión para Snowflake](https://experienceleague.adobe.com/en/docs/workfront/using/reporting/data-lake/create-a-reader-account).
 
 ### Actualizaciones de aprendizaje
 
