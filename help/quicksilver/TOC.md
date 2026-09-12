@@ -3,9 +3,9 @@ user-guide-title: Guía de Workfront
 user-guide-description: Utilice los siguientes documentos, tutoriales y recursos adicionales para aprender a implementar y utilizar Adobe Workfront de forma eficaz en su organización.
 role: User
 feature-set: Workfront
-source-git-commit: 5ba0b1d553d67beb5924eb9255880a7ba1728ad9
+source-git-commit: 02ea2cad43b1064e30a7356feaa194f98d448092
 workflow-type: tm+mt
-source-wordcount: '14499'
+source-wordcount: '14542'
 ht-degree: 92%
 
 ---
@@ -970,10 +970,10 @@ ht-degree: 92%
     * [Uso del servidor MCP de Adobe Workfront](/help/quicksilver/workfront-basics/workfront-mcp-server/use-workfront-mcp-server.md)
     * [Herramientas del servidor MCP de Adobe Workfront](/help/quicksilver/workfront-basics/workfront-mcp-server/workfront-mcp-server-tools.md)
     * [Aptitudes disponibles para la instalación directa](/help/quicksilver/workfront-basics/workfront-mcp-server/direct-skills.md)
-  * Coworker de CX en Workfront {#coworker-in-workfront}
+  * CX Coworker en Workfront {#coworker-in-workfront}
     * [CX Coworker en Workfront: índice de artículos](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-in-workfront.md)
     * [Información general de CX Coworker](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md)
-    * [Competencias de CX Coworker](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-skills.md)
+    * [Aptitudes de CX Coworker](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-skills.md)
     * [Uso de CX Coworker en Workfront](/help/quicksilver/workfront-basics/coworker-in-workfront/use-coworker-in-workfront.md)
   * Actualizar elementos de trabajo y ver actualizaciones {#update-work-items-view-updates}
     * [Actualizar elementos de trabajo y ver actualizaciones: índice de artículos](workfront-basics/updating-work-items-and-viewing-updates/update-work-items-and-view-updates.md)
@@ -2309,6 +2309,13 @@ ht-degree: 92%
     * [Administre su instancia de Adobe Workfront Planning como producto independiente](planning/planning-sta/manage-planning-sta-instance.md)
     * [Administrar usuarios en Adobe Workfront Planning como producto independiente](planning/planning-sta/manage-users-in-planning-sta.md)
     * [Administrar equipos en Adobe Workfront Planning como producto independiente](planning/planning-sta/manage-teams-in-planning-sta.md)
+  * {hide-from-toc}Espacio de ideación en Workfront Planning {#ideation}
+    * {hide-from-toc}[Espacio de ideas para Adobe Workfront Planning: índice de artículos](planning/ideation/planning-ideation-article-index.md)
+    * {hide-from-toc}[Introducción al espacio de ideación para Adobe Workfront Planning](planning/ideation/get-started-with-planning-ideation.md)
+    * {hide-from-toc}[Crear informes en el espacio de ideación](planning/ideation/create-briefs-in-ideation-space.md)
+    * {hide-from-toc}[Crear registros de Planning a partir de informes del espacio de ideación](planning/ideation/create-records-in-ideation-space-for-planning.md)
+    * {hide-from-toc}[Compartir un espacio de ideas con otros](planning/ideation/share-the-ideation-space.md)
+
 * Integraciones de Adobe Workfront {#adobe-workfront-integrations}
   * [Integraciones de Adobe Workfront](workfront-integrations-and-apps/workfront-integrations.md)
   * [Información general sobre las integraciones integradas de Adobe Workfront](workfront-integrations-and-apps/built-in-integrations-non-admin.md)

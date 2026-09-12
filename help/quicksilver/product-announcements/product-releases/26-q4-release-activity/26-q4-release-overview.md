@@ -4,9 +4,9 @@ description: Esta página proporciona información sobre la funcionalidad que se
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 807bafbd65f6f73593b0bb11345eb70cc763935c
+source-git-commit: f46a0da928dd02415eac0a3dd555783912c1e740
 workflow-type: tm+mt
-source-wordcount: '2906'
+source-wordcount: '2905'
 ht-degree: 8%
 
 ---
@@ -191,7 +191,7 @@ Se celebran seminarios web en directo para cada versión trimestral, en los que 
         <tr>
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-ai.md" class="MCXref xref" xrefformat="{para}">CX Coworker ya está disponible en Workfront</a>
-                <p>CX Coworker es una nueva interfaz conversacional para realizar el trabajo en sistemas Workfront y Adobe conectados, que sustituye al asistente de IA actual.</p>
+                <p>CX Coworker es una nueva interfaz conversacional para realizar el trabajo en Workfront y en los sistemas conectados de Adobe, que sustituye al asistente de IA actual.</p>
             </td>
             <td><p>3 de septiembre de 2026</p></td>
             <td><p>17 de septiembre de 2026</p></td>
@@ -277,10 +277,10 @@ Se celebran seminarios web en directo para cada versión trimestral, en los que 
         </tr>
         <tr>
             <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-documents.md" class="MCXref xref" xrefformat="{para}">Visibilidad de comentarios de fotograma en Workfront</a>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-documents.md" class="MCXref xref" xrefformat="{para}">Visibilidad del comentario Frame.io en Workfront</a>
                 <p>El panel Comentarios de Workfront ahora le permite saber cuándo hay nuevos comentarios disponibles en el visor de Frame.io.</p>
             </td>
-            <td><p>3 de septiembre de 2026</p></td>
+            <td><p>N/D</p></td>
             <td><p>17 de septiembre de 2026</p></td>
             <td><p>15 de octubre de 2026</p></td>
         </tr>

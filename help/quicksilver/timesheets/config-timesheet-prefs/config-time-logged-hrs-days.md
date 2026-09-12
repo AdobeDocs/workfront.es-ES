@@ -19,7 +19,7 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: dbb2e1aee18e6435a79ee2071f0bd5ba84ce2af3
+source-git-commit: 66c43904a7f5d937cba61b6e3da5adeb3a6c0c8c
 workflow-type: tm+mt
 source-wordcount: 434
 ht-degree: 19%
@@ -87,6 +87,6 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
    Tenga en cuenta lo siguiente al configurar esta opción:
 
    * Esta opción no está disponible al configurar para registrar el tiempo en horas.
-   * Esta opción solo se utiliza para registrar el tiempo. Esta opción no está relacionada con la opción **Programar** que también está disponible al editar un usuario. La opción **Schedule** se usa al calcular escalas de tiempo y en otras áreas de Workfront. (Para obtener más información sobre el uso de la opción **Programar**, consulte [Crear una programación](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).) 
+   * Esta opción solo se utiliza para registrar el tiempo. Esta opción no está relacionada con la opción **Programar** que también está disponible al editar un usuario. La opción **Schedule** se usa al calcular escalas de tiempo y en otras áreas de Workfront. Para obtener más información sobre el uso de la opción **Programar**, consulte [Crear una programación](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
 
 1. Haga clic en **Guardar cambios**.
