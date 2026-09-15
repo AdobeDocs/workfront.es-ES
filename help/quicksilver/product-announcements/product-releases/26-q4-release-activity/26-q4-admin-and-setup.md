@@ -4,13 +4,11 @@ description: Mejoras del administrador del cuarto trimestre de 2026
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: c3dc1aa9e48d45d2546561c2ac9412b008258e2d
+source-git-commit: 6fb4ffc73625485cf4f9b392020da94e938cf179
 workflow-type: tm+mt
-source-wordcount: '1267'
+source-wordcount: '1280'
 ht-degree: 1%
-
 ---
-
 # Mejoras del administrador del cuarto trimestre de 2026
 
 Esta página describe las mejoras realizadas por el administrador con la versión del cuarto trimestre de 2026 en el entorno de vista previa. Estas mejoras estarán disponibles en el entorno de producción, como se ha indicado.
@@ -74,6 +72,8 @@ Para obtener más información, consulte [Habilitar trimestres personalizados](/
 >Vista previa: 3 de septiembre de 2026
 >Versión rápida de producción: 17 de septiembre de 2026
 >Producción para todos: 15 de octubre de 2026
+>
+>Esta función se eliminó temporalmente del entorno de vista previa el 14 de septiembre de 2026.
 
 Al trabajar en una plantilla de diseño, ahora puede cambiar la posición de las aplicaciones personalizadas para que estén en cualquier orden con las opciones de menú predeterminadas de Workfront. Esto le permite colocar cada aplicación en el lugar más relevante.
 

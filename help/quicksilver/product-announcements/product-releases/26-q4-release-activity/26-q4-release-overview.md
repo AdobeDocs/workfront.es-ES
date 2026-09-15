@@ -4,13 +4,11 @@ description: Esta página proporciona información sobre la funcionalidad que se
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: f46a0da928dd02415eac0a3dd555783912c1e740
+source-git-commit: 6fb4ffc73625485cf4f9b392020da94e938cf179
 workflow-type: tm+mt
-source-wordcount: '2905'
+source-wordcount: '2919'
 ht-degree: 8%
-
 ---
-
 # Resumen de la versión del cuarto trimestre de 2026
 
 Esta página proporciona información sobre la funcionalidad que se incluye en la versión del cuarto trimestre de 2026 programada para octubre de 2026.
@@ -76,6 +74,7 @@ Se celebran seminarios web en directo para cada versión trimestral, en los que 
         <tr>
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Reordenar aplicaciones personalizadas en el menú principal</a>
+                <p><strong>NOTA:</strong> Esta característica se eliminó temporalmente del entorno de vista previa el 14 de septiembre de 2026.</p>
                 <p>Ahora puede cambiar la posición de las aplicaciones personalizadas en el menú principal de una plantilla de diseño en lugar de que aparezcan siempre en último lugar.</p>
             </td>
             <td><p>3 de septiembre de 2026</p></td>
