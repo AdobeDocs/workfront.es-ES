@@ -11,22 +11,26 @@ git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/jsEcIKopi-lJOSXQitDnufu3j0AmkWkPmCXtCR0V6nk
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 3eb7b5e0cca5245bc2fe8a733dcfd9a89c56d49f
+    internal-label: Administration
+source-git-commit: ff8ec4e7f5f9ffefcfc6eeea7e37443bcd1f55d2
 workflow-type: tm+mt
-source-wordcount: 800
+source-wordcount: '800'
 ht-degree: 12%
-
 ---
-
 # Creación de una plantilla de flujo de trabajo de aprobación para documentos
 
 En el área Configuración de Workfront, los usuarios con una licencia Estándar pueden crear plantillas de aprobación reutilizables. Una plantilla solo es visible para el usuario que la creó, a menos que el creador la comparta con usuarios específicos o con todos los miembros de la organización. Una vez creadas, las plantillas de aprobación se pueden aplicar a los recursos del área Documentos de un objeto.
@@ -74,6 +78,7 @@ Para crear una plantilla de aprobación:
 1. Haga clic en **Nueva plantilla** en el lado derecho de la página.
 
 1. Agregar **nombre de plantilla**.
+
 <!--
 This field has a character limit of 255.
 -->
@@ -110,8 +115,9 @@ This field has a character limit of 255.
 
    ![agregar una etapa](assets/add-stage.png)
 
-<!-- screen for preview
-    ![add a stage](assets/add-stage-v2.png)
+<!-- 
+screen for preview
+![add a stage](assets/add-stage-v2.png)
 -->
 
 
@@ -121,8 +127,9 @@ This field has a character limit of 255.
 
    ![agregar rutas paralelas](assets/add-path.png)
 
-<!-- screen for preview
-   ![add parallel paths](assets/add-path-v2.png)
+<!-- 
+screen for preview
+![add parallel paths](assets/add-path-v2.png)
 -->
 
 1. (Opcional) Para cambiar el nombre de una ruta, pase el ratón sobre la etiqueta de la ruta, haga clic en el icono de lápiz y, a continuación, escriba un nuevo nombre. Para quitar una ruta, pase el ratón sobre la etiqueta de la ruta y haga clic en el icono de papelera. **La ruta de acceso 1** no se puede quitar, y otras rutas de acceso solo se pueden quitar si no se ha bloqueado ni completado ninguna fase dentro de la ruta de acceso.
