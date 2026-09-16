@@ -11,22 +11,26 @@ git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/5tFfjJfCZzD-xA4YgFpz9V3jIVG2etiYJ-KAwPLI-Sk
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 79d9eb9d3066cc83c1190d9732c64712917798aa
+    internal-label: Administration
+source-git-commit: 375d62fc12af075c2224f979d3ef87cdffdf03ea
 workflow-type: tm+mt
-source-wordcount: 1406
+source-wordcount: '1347'
 ht-degree: 13%
-
 ---
-
 # Generar un informe de KPI en un panel de control de lienzo
 
 >[!IMPORTANT]
@@ -121,17 +125,9 @@ Hay muchas opciones de configuración disponibles para crear un informe de KPI. 
 
    1. En el menú desplegable **Tipo de agregación**, seleccione cómo se acumulan los datos para generar el resultado de KPI. Las opciones de este campo varían en función del tipo de campo seleccionado en el paso anterior.
 
-1. Siga los pasos a continuación para configurar la sección **Filter**:
+1. En el panel izquierdo, haga clic en el icono **Filtro** ![Icono de filtro](assets/filter-icon.png) y, a continuación, configure las condiciones que determinan qué datos se muestran.
 
-   1. En el panel izquierdo, haga clic en el icono **Filtro** ![Icono de filtro](assets/filter-icon.png).
-
-   1. Seleccione **Editar filtro**.
-
-   1. Haga clic en **Agregar condición** y, a continuación, especifique el campo por el que desea filtrar y el modificador que define qué tipo de condición debe cumplir el campo.
-
-   1. (Opcional) Haga clic en **Añadir grupo de filtros** para añadir otro conjunto de criterios de filtrado. El operador predeterminado entre los conjuntos es Y. Haga clic en el operador para cambiarlo a OR.
-
-      Para obtener más información sobre los filtros, consulte [Editar filtros de informe en un panel de lienzo](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/edit-report-filters.md).
+   Para obtener más información, consulte [Filtrar un informe en un panel de lienzo](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/filter-a-report.md).
 
 1. Siga los pasos a continuación para configurar la sección **Configuración de columna detallada**:
 
@@ -141,11 +137,9 @@ Hay muchas opciones de configuración disponibles para crear un informe de KPI. 
 
    1. Haga clic en **Agregar columna** y, a continuación, seleccione el campo que desee mostrar como columna en la tabla. Repita este proceso para cada columna que desee agregar.
 
-1. Siga los pasos a continuación para configurar la sección **Configuración del grupo de desglose**:
+1. En el panel izquierdo, haga clic en el icono **Configuración del grupo de desglose** ![Icono del grupo de desglose](assets/drilldown-group-icon.png) y, a continuación, agregue agrupaciones para la tabla de desglose.
 
-   1. En el panel izquierdo, haga clic en el icono **Configuración de grupo** ![Icono de grupo de desglose](assets/drilldown-group-icon.png).
-
-   1. Haga clic en el botón **Agregar agrupación** y, a continuación, seleccione el campo que desee crear como agrupación.
+   Para obtener más información, consulte [Configurar agrupaciones de desglose en informes de gráficos y KPI](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/group-report-data.md#configure-drilldown-groupings-in-chart-and-kpi-reports) en [Agrupar datos de informes en un panel de lienzo](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/group-report-data.md).
 
 1. Haga clic en **Guardar** para crear el informe y agregarlo al tablero.
 

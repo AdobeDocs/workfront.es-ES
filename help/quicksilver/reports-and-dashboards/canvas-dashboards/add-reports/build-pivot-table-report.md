@@ -5,13 +5,11 @@ title: Creación de un informe de tabla dinámica en un panel de lienzo
 description: Puede agregar un informe de tabla dinámica a un panel de lienzo para ver los totales agregados de los datos en formato de tabla.
 author: Courtney
 feature: Reports and Dashboards
-source-git-commit: 58c5f4a08b2083d7350c19b6c1d8383fa0dbb124
+source-git-commit: 375d62fc12af075c2224f979d3ef87cdffdf03ea
 workflow-type: tm+mt
-source-wordcount: '1556'
+source-wordcount: '1510'
 ht-degree: 9%
-
 ---
-
 # Creación de un informe de tabla dinámica en un panel de lienzo
 
 >[!IMPORTANT]
@@ -132,15 +130,9 @@ Hay muchas opciones de configuración disponibles para crear un informe de tabla
 
    1. Repita los dos pasos anteriores para añadir hasta dos segmentos.
 
-1. Siga los pasos a continuación para configurar la sección **Filter**:
+1. En el panel izquierdo, haga clic en el icono **Filtro** ![Icono de filtro](assets/filter-icon.png) y, a continuación, configure las condiciones que determinan qué datos se muestran.
 
-   1. En el panel izquierdo, haga clic en el icono **Filtro** ![Icono de filtro](assets/filter-icon.png).
-
-   1. Seleccione **Editar filtro**.
-
-   1. Haga clic en **Agregar condición** y, a continuación, especifique el campo por el que desea filtrar y el modificador que define qué tipo de condición debe cumplir el campo.
-
-   1. (Opcional) Haga clic en **Añadir grupo de filtros** para añadir otro conjunto de criterios de filtrado. El operador predeterminado entre los conjuntos es Y. Haga clic en el operador para cambiarlo a OR.
+   Para obtener más información, consulte [Filtrar un informe en un panel de lienzo](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/filter-a-report.md).
 
 1. Siga los pasos a continuación para configurar la sección **Configuración de columna detallada**:
 
