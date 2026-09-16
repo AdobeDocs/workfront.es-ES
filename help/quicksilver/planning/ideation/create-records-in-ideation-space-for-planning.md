@@ -3,13 +3,11 @@ title: Crear registros de planificación a partir de breves de espacio de ideas
 description: Con el Espacio de ideas, una nueva funcionalidad de Adobe Workfront Planning, puede convertir informes en registros de Planning. Los informes exportados crean registros nuevos o actualizan los existentes. Este artículo describe cómo se pueden crear o editar registros existentes de Planning mediante el espacio de ideación.
 role: User, Admin
 author: Alina
-source-git-commit: 02ea2cad43b1064e30a7356feaa194f98d448092
+source-git-commit: cf783443d618874e1241d91895bcc78d78db23df
 workflow-type: tm+mt
-source-wordcount: '1210'
+source-wordcount: '1166'
 ht-degree: 2%
-
 ---
-
 
 # Creación de registros de Planning a partir de informes del espacio de ideación
 
@@ -60,18 +58,17 @@ are there additional license restrictions or packages to be purchased to have ac
 <li><p>Cualquier Workfront o flujo de trabajo con un paquete de Planning</p></li>
 O
 <li><p>Cualquier paquete de Planning cuando se adquiere como producto independiente</p></li></ul>
-   </td>
-
-<tr> 
-   <td role="rowheader"><p>Productos adicionales</p></td> 
-   <td><ul>
-   <li><p>Adobe GenStudio for Performance Marketing</p></li>
-   <!--
-   <li><p>Adobe Customer Journey Analytics</p></li>
-   -->
-   </ul>
    </td> 
-  </tr> 
+    <!--
+    <tr> 
+    <td role="rowheader"><p>Additional products</p></td> 
+    <td><ul>
+    <li><p>Adobe GenStudio for Performance Marketing</p></li>
+    <li><p>Adobe Customer Journey Analytics</p></li>
+    </ul>
+    </td> 
+    </tr> 
+    -->
   <tr> 
    <td role="rowheader"><p>Licencia de Adobe Workflow</p></td> 
    <td><p>Estándar</p>
@@ -98,24 +95,26 @@ O
       <p>Permisos de editor en el espacio de ideación para crear informes</p>
    </td> 
   </tr>  
-   <tr> 
-   <td role="rowheader"><p>Funciones de usuario de Adobe GenStudio for Performance Marketing</p></td> 
-   <td><p><ul><li>Cualquier función de usuario de GenStudio para acceder a campañas, productos y personas</li>
-   <li>GenStudio System Manager para acceder a las activaciones <!--and Events--></li></ul>
-   Para obtener más información, consulte <a href="https://experienceleague.adobe.com/es/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">Funciones de usuario y permisos</a>. 
-   </p>
-  </td> 
-  </tr> 
+    <!--
+    <tr> 
+    <td role="rowheader"><p>Adobe GenStudio for Performance Marketing user roles</p></td> 
+    <td><p><ul><li>Any GenStudio user role to access Campaigns, Products, and Personas</li>
+    <li>GenStudio System Manager to access Activations and Events</li></ul>
+    For information, see <a href="https://experienceleague.adobe.com/es/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
+    </p>
+    </td> 
+    </tr> 
+    -->
 </tbody> 
 </table>
 
 Para obtener más información acerca de los requisitos de acceso de Workfront, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-+++  
++++   
 
 ## Consideraciones sobre el uso del espacio de ideación para crear registros
 
-* Solo puede iniciar el espacio de ideación desde Workfront Planning, a medida que crea o edita registros. El espacio de ideación no existe fuera de Workfront Planning.
+* Solo puede iniciar el espacio de ideación desde Workfront Planning o desde el menú principal de Workfront, a medida que crea o edita registros. El espacio de ideación no existe fuera de Workfront.
 * Para acceder al espacio de ideación, debe tener un espacio de trabajo y un tipo de registro en Workfront Planning.
 * Los registros nuevos siempre comienzan con contenido de marcador de posición, independientemente de cómo los cree.
 * Cuando se elimina un registro de Planning vinculado a un informe de ideación, el informe permanece en el espacio de ideación y su lienzo asociado en el espacio de ideación no se elimina.
@@ -151,7 +150,7 @@ Para obtener más información acerca de los requisitos de acceso de Workfront, 
 
    El registro se crea inmediatamente con texto de marcador de posición.
 
-1. (Opcional) Haga clic en **Usar informe existente** en el cuadro de mensaje para examinar y agregar un documento existente que el espacio de ideación utilizará para crear el informe y el registro futuro.
+1. (Opcional) Haga clic en **Usar informe existente** en el cuadro de mensaje para examinar y agregar un documento existente que el espacio de ideación utilizará para crear el informe y el registro futuro. <!--CORRECT THIS PART: this is possible ONLY when you launch Ideation from the Main Menu, not from a record-->
 
    ![Mensaje de información de ideación vacío](assets/empty-ideation-prompt.png)
 
@@ -225,7 +224,8 @@ No se pueden editar registros en lote en el espacio de ideación.
 
 
 
-<!-- this is from Claude, but rephrased and included most of this above: 
+<!-- 
+this is from Claude, but rephrased and included most of this above: 
 
 ## Step 5: Open the Workfront Planning Records panel
 

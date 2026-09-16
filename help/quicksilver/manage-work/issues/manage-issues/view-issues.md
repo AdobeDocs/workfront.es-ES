@@ -11,25 +11,32 @@ git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/F8JANtG9rzY6b-hLFTPQ28p8CVrsb3-lF-b97G4OnII
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
   - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
   - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+    internal-label: Projects
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: e793fdc87c17e777ce811b53b5f7bdb19b5cedf3
 workflow-type: tm+mt
-source-wordcount: 962
-ht-degree: 95%
-
+source-wordcount: '992'
+ht-degree: 89%
 ---
-
 # Ver problemas
 
 <!--Audited: 10/2025-->
@@ -105,11 +112,18 @@ Para ver los problemas de un proyecto, tarea o iteración:
 
 1. Abra un proyecto, tarea o iteración que contenga problemas y haga clic en **Problemas** en el panel izquierdo.
 
-1. Para mostrar todos los problemas, los problemas abiertos o los problemas cerrados, haz clic en cualquiera de los filtros que aparecen a continuación en el menú desplegable **Filtro**.
+   >[!NOTE]
+   >
+   >El número que aparece junto al vínculo de la sección Problemas representa el número de problemas abiertos (no resueltos) que se enumeran en la sección.
 
->[!TIP]
->
->La lista de filtros varía según lo que haya seleccionado el administrador del sistema o del grupo para mostrarla.
+
+1. Para mostrar los problemas abiertos o cerrados, haz clic en cualquiera de los filtros que aparecen a continuación en el menú desplegable **Filtro**.
+
+   >[!TIP]
+   >
+   >La lista de filtros varía según lo que haya seleccionado el administrador del sistema o del grupo para mostrarla.
+   >
+   >Al no aplicar ningún filtro a la lista de problemas, se muestran todos los problemas, independientemente de su estado.
 
 * **Abierto:** muestra los problemas que están abiertos.
 
@@ -118,7 +132,7 @@ Para ver los problemas de un proyecto, tarea o iteración:
   Para obtener información acerca de la resolución de objetos, consulte [Información general sobre la resolución y los objetos solucionables](../../../manage-work/issues/convert-issues/resolving-and-resolvable-objects.md).
 
 * **Completado:** muestra todos los problemas que tienen una fecha real de finalización.
-* **Todos** muestra todos los problemas.
+
 
 ## Comprensión de la información sobre problemas
 
@@ -143,11 +157,11 @@ Para acceder a un problema y ver información sobre él:
 
 * **Actualizaciones**: puede realizar las siguientes acciones:
 
-   * Comentar el problema o responder a un comentario existente.
-   * Registrar tiempo.
-   * Cambiar el estado del problema.
+  * Comentar el problema o responder a un comentario existente.
+  * Registrar tiempo.
+  * Cambiar el estado del problema.
 
-     Para obtener más información sobre cómo actualizar el trabajo en Workfront, consulte [Actualizar trabajo](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+    Para obtener más información sobre cómo actualizar el trabajo en Workfront, consulte [Actualizar trabajo](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 * **Documentos**: adjunte documentos al problema. Para obtener más información sobre la adición de documentos a Workfront, consulte [Añadir documentos a Adobe Workfront desde el sistema de archivos](../../../documents/adding-documents-to-workfront/add-documents-from-file-system.md).
 
@@ -157,32 +171,32 @@ Para acceder a un problema y ver información sobre él:
 
   Vea o edite los campos siguientes en el área **Información general**:
 
-   * **Nombre**
-   * **Ruta**: la ruta a través de la cual se registró el problema en el proyecto.
+  * **Nombre**
+  * **Ruta**: la ruta a través de la cual se registró el problema en el proyecto.
 
-     Si un problema se envió como solicitud en una cola de solicitudes, los nombres del proyecto, el grupo de temas y el tema de la cola se enumeran aquí. Este campo no se puede editar.
+    Si un problema se envió como solicitud en una cola de solicitudes, los nombres del proyecto, el grupo de temas y el tema de la cola se enumeran aquí. Este campo no se puede editar.
 
-     Para obtener más información sobre el envío de solicitudes, consulte [Crear y enviar solicitudes de Adobe Workfront](../../../manage-work/requests/create-requests/create-submit-requests.md).
+    Para obtener más información sobre el envío de solicitudes, consulte [Crear y enviar solicitudes de Adobe Workfront](../../../manage-work/requests/create-requests/create-submit-requests.md).
 
-   * **Descripción**
-   * **URL**: cualquier dirección web relacionada con el problema.
-   * **Prioridad**: un indicador visual que le permite priorizar los problemas.
-   * **Gravedad**: un indicador visual que indica la gravedad del problema que se describe en el problema.
-   * **Contacto principal**: el contacto principal predeterminado es el usuario que creó el problema. Este campo se puede editar.
-   * **Horas planificadas**: muestra la cantidad de tiempo que tardará una persona en completar el problema. El valor predeterminado es de 8 horas. Este campo se puede editar.
-   * **Horas reales**: muestra la cantidad de tiempo que se tardó en completar el problema. Es el tiempo real que alguien registra para el problema.
-   * **Fecha planificada de inicio**: la fecha de inicio de la planficación del problema. El valor predeterminado es la fecha y la hora de creación del problema.
-   * **Fecha de inicio real**: la fecha y la hora en que se cambió el estado del problema a En curso.
-   * **Fecha planificada de finalización**: la fecha planificada de finalización del problema.
-   * **Fecha de finalización real**: la fecha en la que se resuelve el problema. Este campo se rellena automáticamente cuando el estado del problema cambia a Cerrado o Resuelto, o se puede editar manualmente.
-   * **Coste real**: el coste basado en las horas reales registradas en el problema. Este campo no se puede editar. El coste real de un problema se calcula según la fórmula siguiente, donde la Tarifa de coste de usuario es la tarifa de coste asociada al registro del usuario en el momento del problema:
+  * **Descripción**
+  * **URL**: cualquier dirección web relacionada con el problema.
+  * **Prioridad**: un indicador visual que le permite priorizar los problemas.
+  * **Gravedad**: un indicador visual que indica la gravedad del problema que se describe en el problema.
+  * **Contacto principal**: el contacto principal predeterminado es el usuario que creó el problema. Este campo se puede editar.
+  * **Horas planificadas**: muestra la cantidad de tiempo que tardará una persona en completar el problema. El valor predeterminado es de 8 horas. Este campo se puede editar.
+  * **Horas reales**: muestra la cantidad de tiempo que se tardó en completar el problema. Es el tiempo real que alguien registra para el problema.
+  * **Fecha planificada de inicio**: la fecha de inicio de la planficación del problema. El valor predeterminado es la fecha y la hora de creación del problema.
+  * **Fecha de inicio real**: la fecha y la hora en que se cambió el estado del problema a En curso.
+  * **Fecha planificada de finalización**: la fecha planificada de finalización del problema.
+  * **Fecha de finalización real**: la fecha en la que se resuelve el problema. Este campo se rellena automáticamente cuando el estado del problema cambia a Cerrado o Resuelto, o se puede editar manualmente.
+  * **Coste real**: el coste basado en las horas reales registradas en el problema. Este campo no se puede editar. El coste real de un problema se calcula según la fórmula siguiente, donde la Tarifa de coste de usuario es la tarifa de coste asociada al registro del usuario en el momento del problema:
 
-     Coste real del problema = Horas registradas * Tarifa de coste de usuario
+    Coste real del problema = Horas registradas * Tarifa de coste de usuario
 
-   * **Introducido por**: es el usuario que creó el problema. Este campo no se puede editar.
-   * **Última actualización por**: es el usuario que actualizó por última vez cualquier campo del problema. Este campo no se puede editar.
+  * **Introducido por**: es el usuario que creó el problema. Este campo no se puede editar.
+  * **Última actualización por**: es el usuario que actualizó por última vez cualquier campo del problema. Este campo no se puede editar.
 
-     En el área **Formularios personalizados**, consulte y seleccione uno o varios formularios personalizados para asociarlos al problema.
+    En el área **Formularios personalizados**, consulte y seleccione uno o varios formularios personalizados para asociarlos al problema.
 
 * **Horas**: muestra una lista de entradas de horas sobre el problema.
 * **Aprobaciones:** muestra las rutas de aprobación asociadas al problema.

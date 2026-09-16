@@ -5,13 +5,11 @@ author: Alina
 feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 02ea2cad43b1064e30a7356feaa194f98d448092
+source-git-commit: c969193e25b0f79082a8aa05bc5b449380cfe146
 workflow-type: tm+mt
-source-wordcount: '1026'
-ht-degree: 1%
-
+source-wordcount: '1001'
+ht-degree: 0%
 ---
-
 
 # Introducción al espacio de ideación para Adobe Workfront Planning
 
@@ -19,7 +17,8 @@ ht-degree: 1%
 Should we add a new Feature to ExL for "Strategic Ideation"?
 -->
 
-<!--information in this article come from this document, in addition to my notes for this project up to August 31, 2026:
+<!--
+information in this article come from this document, in addition to my notes for this project up to August 31, 2026:
 
 https://adobe-my.sharepoint.com/:w:/r/personal/alinaw_adobe_com/_layouts/15/Doc.aspx?sourcedoc=%7B513DE769-B70B-4040-8C9E-6A9B8E3167BB%7D&file=getting-started-catalyze.docx&action=default&mobileredirect=true
 -->
@@ -31,42 +30,49 @@ https://adobe-my.sharepoint.com/:w:/r/personal/alinaw_adobe_com/_layouts/15/Doc.
 
 El espacio de ideación de Adobe es la capacidad de ideación estratégica basada en IA de Adobe, integrada directamente en Workfront Planning. Proporciona a los equipos de marketing un punto de partida estructurado y basado en datos para la estrategia de campaña, y reemplaza la investigación manual y las conjeturas por informes generados por IA basados en el historial de rendimiento real de una organización.
 
-Accesible solo desde Workfront Planning, el espacio de ideación se encuentra en la parte delantera del ciclo vital de la campaña, antes de la planificación, la producción y la entrega, y se alimenta directamente en el espacio de trabajo de Workfront Planning donde los equipos planifican y ejecutan su trabajo.
+Accesible solo desde Workfront Planning o el menú principal de Workfront, el espacio de ideación se encuentra en la parte delantera del ciclo vital de la campaña, antes de la planificación, la producción y la entrega, y se alimenta directamente en el espacio de trabajo de Workfront Planning donde los equipos planifican y ejecutan su trabajo.
 
 ## Disponibilidad del producto
 
 La cronología de la versión planificada para el Espacio de ideas que está sujeta a cambios incluye los siguientes hitos:
 
 * **Beta cerrado:** lanzado en julio de 2026 con un número reducido de clientes.
-* **Abrir Beta:** segmentado para septiembre de 2026. Será una oferta de inclusión, en la que los clientes deben activar y configurar la opción de forma activa, en lugar de excluirse de ella de forma activa.
+* **Abrir Beta:** segmentado para octubre de 2026. Será una oferta de inclusión, en la que los clientes deben activar y configurar la opción de forma activa, en lugar de excluirse de ella de forma activa.
 * **Disponibilidad general:** Segmentada para más adelante en el segundo semestre de 2026.
 
 ## Requisitos del producto
 
-Puede acceder al espacio de ideación si su organización y usted tienen acceso a los siguientes paquetes al mismo tiempo:
+Puede acceder al espacio de ideación si su organización y usted tienen acceso a los siguientes paquetes, según cuándo acceda al espacio de ideación:
 
-* Un paquete de flujo de trabajo de Adobe Workfront con un paquete de Workfront Planning
+* Durante la versión de Open Beta, debe tener lo siguiente:
 
-  O
+  * Un paquete de flujo de trabajo de Adobe Workfront con un paquete de Workfront Planning
 
-  Adobe Workfront Planning como producto independiente
+* Después del lanzamiento de General Availability, puede tener una de las siguientes opciones:
 
-  >[!NOTE]
-  >
-  >Solo se puede acceder al espacio de ideación desde Adobe Planning. No necesita un inicio de sesión independiente para acceder al espacio de ideación. Está disponible de inmediato si puede iniciar sesión en Workfront Planning.
+  * Un paquete de flujo de trabajo de Adobe Workfront con un paquete de Workfront Planning
+  * Adobe Workfront Planning como producto independiente
 
-* Adobe GenStudio for Performance Marketing
+>[!NOTE]
+>
+>Solo se puede acceder al espacio de ideación desde el menú principal de Adobe Workfront o desde Workfront Planning. No necesita un inicio de sesión independiente para acceder al espacio de ideación. Está disponible inmediatamente si puede iniciar sesión en Workfront.
+
+<!--not required anymore: * Adobe GenStudio for Performance Marketing-->
 
 <!-- only required for closed beta, see below: * Adobe Customer Journey Analytics-->
 
 Para obtener más información sobre el acceso necesario para usar el espacio de ideación, consulte [Acceso necesario para usar el espacio de ideación](/help/quicksilver/planning/ideation/access-needed-to-use-ideation-space.md).
 
-Además de los requisitos anteriores, también debe cumplir los siguientes criterios para participar en el programa Beta cerrado:
+<!--
+No longer required or recommended, per Et:
 
-* Tener una cuenta de Adobe Customer Journey Analytics (CJA) activa con el seguimiento de campañas
-* Tener campañas multicanal con un proceso de planificación repetible
-* Uso activo de Workfront Planning para operaciones de marketing
-* Tener al menos un estratega identificado o usuario de ideación que será el usuario principal del espacio de ideación
+In addition to above requirements, you must also meet the following criteria to participate in the Closed Beta program: 
+
+* Have an active Adobe Customer Journey Analytics (CJA) account with campaign tracking in place
+* Have multi-channel campaigns with a repeatable planning process
+* Actively use Workfront Planning for marketing operations
+* Have at least one identified strategist or ideation user who will be the primary Ideation space user
+-->
 
 ## Audiencia y casos de uso
 
@@ -117,7 +123,7 @@ Para obtener más información sobre el uso del espacio de ideación, consulte t
 
 ## Información general del espacio de ideación
 
-El espacio de ideación es una herramienta de ideación de marketing estratégica para que los especialistas en marketing de marca y de producto creen campañas más sólidas más rápido y con una mejor alineación de equipo. Basa las sugerencias de IA en el contexto de marketing real (informes anteriores, datos de rendimiento, perspectivas de audiencia, directrices de marca y recursos de campaña existentes) para que los resultados sean relevantes, no genéricos.
+El espacio de ideación es una herramienta de ideación de marketing estratégico y colaborativo para que los especialistas en marketing de marca y producto creen campañas más sólidas más rápido y con mejor alineación de equipo. Basa las sugerencias de IA en el contexto de marketing real (informes anteriores, datos de rendimiento, perspectivas de audiencia, directrices de marca y recursos de campaña existentes) para que los resultados sean relevantes, no genéricos.
 
 A continuación se muestran algunos ejemplos de cómo aprovechar al máximo su idea al crear informes:
 
@@ -142,7 +148,7 @@ El espacio de ideación también admite un modo de conversación de ida y vuelta
 
 Los usuarios pueden hacer preguntas de seguimiento y refinar una breve conversación en lugar de obtener un solo resultado de una sola toma.
 
-Cuando se vincula una información breve a una conexión de Workfront Planning activa, el colaborador evita sobrescribirla para que el plan subyacente permanezca intacto.
+Cuando se vincula una información breve a una conexión de Workfront Planning activa, el colaborador evita sobrescribirla para que el plan subyacente permanezca intacto. <!--Et to check on this, it might be overwritten. -->
 
 <!--
 **************** CONSIDER INCLUDING THIS INFORMATION FROM JESH BARLOW ABOUT COWORKER IN CATALYZE?? - https://adobecorpdev.slack.com/archives/C091C0Y735W/p1788917610365089?thread_ts=1788917251.550099&cid=C091C0Y735W
