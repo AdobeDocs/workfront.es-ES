@@ -11,32 +11,36 @@ git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/yk-q-wKrbIgyxw3WAz9un5HTNpwtdwFqaPFUQ6PzhT0
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
 subfeature_v2:
   - id: e147ce9d-7675-49bd-8a32-44f27d865560
+    internal-label: Get started
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 347c3e87fea0289616bf1a52779c07501a8ec69d
+    internal-label: Administration
+source-git-commit: d5f36e0c8dbd9749503de25b75e70bf18b1d187b
 workflow-type: tm+mt
-source-wordcount: 510
-ht-degree: 33%
-
+source-wordcount: '714'
+ht-degree: 30%
 ---
-
 # Duplicar registros
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
+<!--Remove Prod and Preview references-->
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+<span class="preview">La información resaltada en esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa para todos los clientes. Después del lanzamiento en Vista previa, las mismas funciones también están disponibles mensualmente en el entorno de producción para los clientes que habilitaron lanzamientos rápidos. </span>
+
+<span class="preview">Para obtener información sobre las versiones rápidas, consulte [Habilitar o deshabilitar las versiones rápidas para su organización](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
 
 {{planning-important-intro}}
 
-En Adobe Workfront Planning, un registro es una instancia de un tipo de registro.
+En Planificación de Workfront de Adobe, un registro es una instancia de un tipo de registro.
 
 Puede duplicar un registro existente en la vista de tabla. Se agrega una copia idéntica del registro existente a la página de tipo de registro.
 
@@ -178,6 +182,11 @@ Puede crear registros en la vista de tabla de una página de tipo de registro du
      ![Icono duplicado en la barra de herramientas de la vista de tabla](assets/duplicate-icon-in-toolbar-in-table-view.png)
 
    Debajo del registro original se crea un registro idéntico con un nombre idéntico. Todos los campos del nuevo registro se rellenan con la misma información que en el registro original.
+
+1. (Condicional) Si el registro que está duplicando está conectado a un registro de un tipo de conexión Uno a uno o Uno a varios, haga clic en uno de los siguientes, según el entorno que utilice:
+
+   * En el entorno Producción, haga clic en **Conectar** para quitar el registro conectado del registro original y agregarlo al registro duplicado, o haga clic en **Cancelar** si no desea continuar duplicando el registro.
+   * <span class="preview">En el entorno de vista previa, haga clic en **Conectarse al nuevo registro** si desea mover el registro conectado al nuevo registro, o haga clic en **Conservar en el original** si desea que el registro conectado permanezca en el original. El registro duplicado no tendrá un registro conectado en ese campo.</span>
 
 1. (Opcional) Comience a actualizar la información sobre el nuevo registro en los campos disponibles en la vista de tabla o haga clic en el registro y actualice la información en la vista previa o página del registro.
 
