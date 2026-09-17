@@ -6,9 +6,9 @@ author: Becky
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: e76aa2b0a9002abd644f82d99a001f8b1c0fff6e
+source-git-commit: 10d95f7fc71d72edd5cbb292af69a348b648b4ba
 workflow-type: tm+mt
-source-wordcount: '1773'
+source-wordcount: '2057'
 ht-degree: 3%
 ---
 # Actividad de la versión del cuarto trimestre de 2026 para Adobe Workfront Planning
@@ -16,6 +16,61 @@ ht-degree: 3%
 Este artículo describe las funciones que se lanzarán para Workfront Planning durante la versión del cuarto trimestre de 2026.
 
 Para obtener una lista de todas las características publicadas para Adobe Workfront Planning, consulte [Actividad de la versión de Adobe Workfront Planning: índice de artículo](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
+
+## CX Coworker ahora disponible en Workfront Planning
+
+>[!NOTE]
+>
+>Vista previa: 3 de septiembre de 2026
+>Versión rápida de producción: 17 de septiembre de 2026
+>Producción para todos: 15 de octubre de 2026
+
+CX Coworker ya está disponible en Workfront Planning. Ahora puede acceder a CX Coworker en un panel disponible en Workfront Planning.
+
+CX Coworker Chat es una interfaz conversacional para hacer el trabajo. Describa un objetivo en lenguaje sencillo y su Compañero de trabajo planificará el trabajo, lo ejecutará en Workfront Planning y en los sistemas Adobe conectados, validará los resultados y le devolverá el trabajo terminado para su aprobación.
+
+El compañero respeta los controles de acceso existentes en su organización, con acceso de solo lectura de forma predeterminada, y los administradores del sistema controlan cuándo los usuarios obtienen acceso de escritura.
+
+El compañero está reemplazando al asistente de IA actual como una forma más potente de realizar el trabajo. Los compañeros de trabajo forman parte del ecosistema de Adobe y no se limitan a Workfront Planning.
+
+>[!IMPORTANT]
+>
+>CX Coworker no está disponible actualmente para organizaciones de atención médica, finanzas u otros sectores con datos confidenciales. Estas organizaciones disponen de un asistente de IA.
+
+Para obtener más información, consulte [Información general de CX Coworker](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md).
+
+<!--
+
+## Removed the AI Assistant icon in the Details preview box in preparation for the CX Coworker launch
+
+>[!NOTE]
+>
+>Preview: September 16, 2026
+>Production fast release: September 17, 2026
+>Production for everyone: October 15, 2026
+>[!BADGE Off schedule]{type=Neutral}
+
+This change is available for customers who have the CX Coworker in Workfront.
+
+In preparation for the launch of the Adobe CX Coworker in Workfront, we have removed the AI Assistant icon from the Details preview page. The icon still exists on the Details page, when opened in full screen. Clicking it will open the CX Coworker.
+
+For information, see [CX Coworker in Workfront](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-in-workfront.md).
+
+-->
+
+## Se ha mejorado la experiencia al duplicar registros que tienen campos conectados con un tipo de conexión Uno a uno o Uno a varios
+
+>[!NOTE]
+>
+>Vista previa: 17 de septiembre de 2026
+>Versión rápida de producción: 14 de octubre de 2026
+>Producción para todos: 15 de octubre de 2026
+
+Ahora se pueden duplicar registros incluso cuando existen registros conectados uno a uno o uno a varios. Después de la duplicación, los usuarios pueden elegir mantener el registro conectado en el registro original o conectarlo al nuevo registro. Mantener activado el original es la opción predeterminada.
+
+El cuadro de diálogo de resolución de conflictos de conexión se ha actualizado para reflejar este nuevo comportamiento y proporcionar una mayor flexibilidad al administrar registros conectados.
+
+Para obtener más información, consulte [Registros duplicados](/help/quicksilver/planning/records/copy-or-duplicate-records.md).
 
 ## Administrar la visibilidad de las miniaturas y los colores de los registros desde la columna del campo principal en la vista de tabla
 

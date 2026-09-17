@@ -4,9 +4,9 @@ description: Esta página proporciona información sobre la funcionalidad que se
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 6fb4ffc73625485cf4f9b392020da94e938cf179
+source-git-commit: bc90d9bf6c793baafc600e87d8e36570ee8fb58f
 workflow-type: tm+mt
-source-wordcount: '2919'
+source-wordcount: '2962'
 ht-degree: 8%
 ---
 # Resumen de la versión del cuarto trimestre de 2026
@@ -15,7 +15,7 @@ Esta página proporciona información sobre la funcionalidad que se incluye en l
 
 Las mejoras de esta página están disponibles en el entorno de vista previa. Esta página se actualizará con mejoras adicionales a medida que la versión del cuarto trimestre de 2026 se aproxime a su versión de producción planificada.
 
-Se celebran seminarios web en directo para cada versión trimestral, en los que se destacan las nuevas funciones y se proporciona información detallada. Para registrarse, visite la [página de eventos](https://experienceleague.adobe.com/es/events?filters=Workfront) y filtre por Workfront.
+Se celebran seminarios web en directo para cada versión trimestral, en los que se destacan las nuevas funciones y se proporciona información detallada. Para registrarse, visite la [página de eventos](https://experienceleague.adobe.com/en/events?filters=Workfront) y filtre por Workfront.
 
 >[!IMPORTANT]
 >
@@ -477,7 +477,7 @@ Se celebran seminarios web en directo para cada versión trimestral, en los que 
     &lt;/tr>
     &lt;tr>
     &lt;td>
-    &lt;a href=&quot;/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-reports.md&quot; class=&quot;MCXref xrefformat=&quot;{para}&quot;>Actualización de Dashage> en la aprobación schedule&rbrack;{type=Neutral}&lt;/p>
+    &lt;a href=&quot;/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-reports.md&quot; class=&quot;MCXref xrefformat=&quot;{para}&quot;>Actualización de Dashage> en la aprobación schedule]{type=Neutral}&lt;/p>
     &lt;p>Se ha cambiado el nombre de varios nombres de campo utilizados en paneles de lienzo para aprobaciones de documentos y trabajo para una mayor claridad.&lt;/p>
     &lt;/td>
     &lt;td>&lt;p>N/A&lt;/p>&lt;/td>
@@ -620,14 +620,18 @@ Se celebran seminarios web en directo para cada versión trimestral, en los que 
 
 ## Actualizaciones del visor de revisión de escritorio
 
-### Versión 2.1.59
+### Versión 2.2.1
 
-Versión de producción para todos los clientes: 9 de septiembre de 2026
+Versión de producción para todos los clientes: 16 de septiembre de 2026
 
-El Visor de corrección de escritorio se ha actualizado a la versión 2.1.59. Esta actualización incluye los siguientes cambios:
+El Visor de corrección de escritorio se ha actualizado a la versión 2.2.1. Esta actualización incluye los siguientes cambios:
 
-* El Visor de corrección de escritorio ya está disponible como compilación nativa para Mac con silicio de Apple.
-* Se ha actualizado el marco de aplicación subyacente (Electron) a una versión más reciente, que ofrece mejoras de rendimiento y seguridad.
+* Ahora puede abrir pruebas desde cualquier entorno (producción, vista previa, zona protegida y otros) en el mismo visor, sin volver a instalarlas al cambiar.
+* Se ha resuelto un problema con la apertura de pruebas desde una dirección URL en regiones que no son de EE. UU.
+* El visor ahora conserva las 10 pruebas más recientes.
+* Se ha actualizado el logotipo de Workfront con la marca actual.
+* Se han añadido más detalles a la pantalla Acerca de Workfront Proof para acelerar la resolución de problemas.
+* Se ha actualizado el marco subyacente (Electron) para mejorar el rendimiento y la seguridad.
 
 Para obtener información sobre cómo descargar y actualizar el Visor de corrección de escritorio, consulte [Actualizar el Visor de corrección de escritorio](/help/quicksilver/review-and-approve-work/proofing/use-the-desktop-proofing-viewer/update-the-desktop-proofing-viewer.md).
 
@@ -641,7 +645,7 @@ Si es administrador de Workfront y tiene usuarios de lector de Data Connect que 
 
 Este cambio se anunció por primera vez en las notas de la versión de Workfront de abril de 2026 y este es el recordatorio final antes de la fecha límite. Asegúrese de que todos los usuarios de lectores afectados habiliten MFA antes del 8 de agosto de 2026 para evitar interrupciones en su acceso.
 
-Para obtener más información, consulte [Crear una cuenta de lector o una conexión para Snowflake](https://experienceleague.adobe.com/es/docs/workfront/using/reporting/data-lake/create-a-reader-account).
+Para obtener más información, consulte [Crear una cuenta de lector o una conexión para Snowflake](https://experienceleague.adobe.com/en/docs/workfront/using/reporting/data-lake/create-a-reader-account).
 
 ### Actualizaciones de aprendizaje
 
