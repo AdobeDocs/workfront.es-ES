@@ -5,13 +5,11 @@ author: Alina
 feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 2d26437c69b3c36366938952d426532934f55c52
+source-git-commit: b529b3aded4ab92015683a0ddccd152bc2cc798c
 workflow-type: tm+mt
-source-wordcount: '847'
-ht-degree: 3%
-
+source-wordcount: '1171'
+ht-degree: 4%
 ---
-
 
 # Compartir campos de Workfront Planning
 
@@ -80,62 +78,150 @@ Para obtener más información acerca de los requisitos de acceso de Workfront, 
 ## Consideraciones sobre el uso compartido de campos
 
 * Puede compartir campos con usuarios, funciones del puesto, grupos, equipos o empresas.
+* Solo puede compartir campos desde la vista de tabla de un tipo de registro.
+* No puede compartir los siguientes tipos de campos:
+
+  * Campos del sistema (por ejemplo, Creado por, ID de registro)
+  * Campos principales
+  * Campos de búsqueda. Siempre heredan los permisos de los campos de objeto de origen.
 * El acceso a un campo se obtiene combinando las siguientes configuraciones:
 
-  * **Permisos heredados**: de forma predeterminada, un campo hereda el mismo acceso que alguien tiene en el tipo de registro (los permisos de Ver tipo de registro proporcionan a un usuario permisos para ver los valores de los campos; los permisos de Contribuir o Administrar tipo de registro proporcionan a un usuario permisos para administrar los valores de los campos). Puede desactivar los permisos heredados y proporcionar a los usuarios un acceso al campo menor que el que tienen para el tipo de registro.
+  * **Permisos heredados**: De forma predeterminada, un campo hereda el mismo acceso que alguien tiene en el tipo de registro. Puede desactivar los permisos heredados y proporcionar a los usuarios un acceso al campo menor que el que tienen para el tipo de registro.
   * **Todos los usuarios del área de trabajo pueden ver** o **Sólo los invitados pueden tener acceso a la selección**. Puede permitir que todos los usuarios con permisos en el espacio de trabajo vean el campo o conceder permisos solo a entidades individuales.
 
   Si se aplican varias reglas a la misma persona, reciben el permiso más alto disponible de una de las reglas.
 
-* Solo los propietarios y administradores del espacio de trabajo pueden ajustar los permisos de los campos; los administradores del espacio de trabajo siempre conservan el acceso de Administración a todos los campos y esto no se puede reducir.
+* Según los permisos de tipo de registro, los usuarios pueden recibir los siguientes permisos de campo:
+
+  * Ver permisos de tipo de registro: otorga a un usuario permisos para ver valores de campo
+  * Los permisos de tipo Contribuir o Administrar registro otorgan a un usuario permisos para administrar valores de campo
+
+* Solo los propietarios y administradores del espacio de trabajo pueden ajustar los permisos de campo. Los administradores de Workspace siempre conservan el acceso de Administración a todos los campos y esto no se puede reducir.
 * El uso compartido de campos controla el acceso a los valores, no la configuración de los campos. Solo los administradores de espacio de trabajo pueden cambiar la configuración de un campo.
 * Agregar a alguien a la lista de uso compartido de un campo no les concede acceso de tipo de registro o de espacio de trabajo. Si no tienen ese acceso, un icono de advertencia indica que el permiso solo surtirá efecto una vez que se añadan al tipo de registro.
-* Los campos del sistema (por ejemplo, Creado por, Id. de registro) y los campos principales no pueden tener un uso compartido restringido.
-* Los campos restringidos se aplican en todas partes donde se muestra el campo. Esto incluye todas las vistas, páginas de detalles de registro, formularios de solicitud, conexiones y campos de búsqueda, paneles de lienzo, la API y las herramientas de MCP.
-* Los campos de búsqueda heredan los permisos de su campo de origen.
+* Los campos con permisos restringidos se aplican en todas partes donde se muestra el campo. Esto incluye todas las vistas, páginas de detalles de registro, formularios de solicitud, conexiones y campos de búsqueda, paneles de lienzo, la API y las herramientas de MCP.
 * Las vistas públicas siguen siendo totalmente visibles y de solo lectura para cualquier persona que pueda acceder a ellas.
-* Cuando se duplica un registro, los valores restringidos no se copian en los registros nuevos.
+  <!--Not sure if this is right - right now, it allows me to duplicate with the values in the new record - checking with Lilit: * When you duplicate a record, the restricted values are not copied to the new records.-->
 * Los cambios de valor de campo restringidos no se registran en el historial de un registro.
 * Los cambios de permisos para los campos no almacenan en déclencheur las notificaciones.
 * Para los tipos de registro globales, los permisos de campo se aplican a todos los espacios de trabajo secundarios y no se pueden ajustar localmente.
 
+<!--
+From Claude: 
+Additional permissions for fields - maybe add this to the Overview article for all of the sharing?? - help/quicksilver/planning/access/sharing-permissions-overview.md 
 
-De Claude:
-Permisos adicionales para campos: puede añadir esto al artículo Información general para todo el uso compartido?? - help/quicksilver/planning/access/sharing-permissions-overview.md
+Here's how record type / workspace access maps to field-level access in the document:
 
-Así se asigna el acceso de tipo de registro/espacio de trabajo al acceso de nivel de campo en el documento:
+Field permission levels (only two, plus none):
 
-Niveles de permiso de campo (solo dos, más ninguno):
+No Access – field is completely hidden
+View field values – can see the value, can't edit
+Manage field values – can view and edit
 
-Sin acceso: el campo está completamente oculto
-Ver valores de campo: puede ver el valor, no puede editarlo
-Administrar valores de campo: puede ver y editar
+Default inheritance from record type role
 
-Herencia predeterminada de la función de tipo de registro
+Record type / workspace access    Default field permission
+View    View field values
+Contribute    Manage field values
+Manage (workspace manager)    Manage field values (locked — cannot be reduced)
 
-Tipo de registro/acceso al espacio de trabajo Permiso de campo predeterminado
-Ver valores de campo de vista
-Contribute Administrar valores de campo
-Administrar (administrador del espacio de trabajo) Administrar valores de campo (bloqueado; no se puede reducir)
+So by default, a field simply mirrors whatever role someone has on the record type — Viewers get read-only, Contributors and Managers get edit rights. Workspace managers are a special case: whenever they're added to a field's sharing list, "Manage field values" is pre-selected and the "View field values" option is disabled, since their edit access can never be taken away.
 
-De forma predeterminada, un campo simplemente refleja la función que alguien tenga en el tipo de registro: los visualizadores son de solo lectura, los colaboradores y los administradores obtienen derechos de edición. Los administradores de Workspace son un caso especial: cada vez que se añaden a la lista de uso compartido de un campo, &quot;Administrar valores de campo&quot; está preseleccionada y la opción &quot;Ver valores de campo&quot; está desactivada, ya que su acceso de edición nunca se puede quitar.
+Wildcard (fallback) setting
+Separate from inheritance, each field has a wildcard default:
 
-Configuración de comodín (reserva)
-Independientemente de la herencia, cada campo tiene un comodín predeterminado:
+Everyone in the workspace can view (default)
+Only invited people can access
 
-Todos los usuarios del espacio de trabajo pueden ver (opción predeterminada)
-Solo pueden acceder las personas invitadas
+How the final permission is calculated
 
-Cálculo del permiso final
+If inherited permissions are enabled: a person's access = the highest of (inherited from record type, wildcard, individually granted permission).
+If inherited permissions are disabled: a person's access = the highest of (wildcard, individually granted permission) — record type role no longer factors in.
+If inheritance is disabled, wildcard is "Only invited people can access," and the person isn't individually added → they get No Access.
 
-Si los permisos heredados están habilitados: el acceso de una persona = el mayor de los permisos (heredado del tipo de registro, comodín, permiso concedido individualmente).
-Si los permisos heredados están deshabilitados: el acceso de una persona = el más alto de (comodín, permiso concedido individualmente) — la función de tipo de registro ya no tiene en cuenta los permisos.
-Si la herencia está deshabilitada, el comodín es &quot;Solo las personas invitadas pueden acceder&quot; y la persona no se agrega individualmente → no obtiene acceso.
+Other permission notes
 
-Otras notas de permisos
+Individually granting access to someone doesn't grant them workspace/record-type access — it just sits inactive (with a warning icon) until they're separately added to the workspace.
+For Global Record Types, field permissions are set once and apply to all secondary workspaces; secondary/team workspace managers cannot override them locally.
 
-Al conceder acceso individualmente a alguien, no se le concede acceso de tipo de registro o espacio de trabajo; simplemente permanece inactivo (con un icono de advertencia) hasta que se agrega por separado al espacio de trabajo.
-Para los tipos de registro global, los permisos de campo se establecen una vez y se aplican a todos los espacios de trabajo secundarios; los administradores de espacios de trabajo secundarios/de equipo no pueden anularlos localmente.
+-->
 
 ## Compartir campos
 
+Como administrador del espacio de trabajo, puede ajustar permisos a campos individuales.
+
+{{step1-to-planning}}
+
+1. Abra el espacio de trabajo y, a continuación, el tipo de registro cuyos campos desee compartir.
+
+1. En la vista de tabla, pase el ratón sobre el nombre del encabezado de columna de un campo, haga clic en el menú **Más** ![Menú más](assets/more-menu.png) y, a continuación, haga clic en **Compartir campo**.
+
+   Se abre el cuadro **Compartir**.
+
+1. (Opcional) En el área de **Conceder acceso**, la opción **Todos en el área de trabajo pueden ver** está seleccionada de forma predeterminada. Todos los usuarios que tienen **Ver** o permisos superiores en el área de trabajo y el tipo de registro tienen los mismos permisos en el campo.
+
+1. (Opcional) Haga clic en los avatares de los usuarios en la opción **Permisos heredados de** para ver los usuarios, equipos, grupos, empresas o roles de trabajo que heredan los permisos del área de trabajo.
+
+   Los permisos del usuario para el tipo de registro se muestran cuando expande los permisos heredados.
+
+   >[!TIP]
+   >
+   >No se pueden quitar entidades individuales de la lista de permisos heredados. Se muestran los usuarios de equipos, grupos, empresas o funciones del puesto en lugar de las entidades con las que estaban asociados cuando se compartió el espacio de trabajo y el tipo de registro con ellos.
+
+1. (Opcional y condicional) Si desea compartir el campo con entidades específicas y otorgarles un acceso al campo diferente al que ya tienen para el tipo de registro, haga lo siguiente:
+
+   1. Anule la selección de la opción **Activado** de **Permisos heredados**. Está seleccionada de forma predeterminada.
+
+      La opción cambia a **Desactivado**.
+
+      >[!TIP]
+      >
+      >Los administradores de Workspace siguen teniendo permisos de administración en el tipo de registro y el campo.
+
+   1. En el cuadro **Conceder acceso**, agregue los usuarios, equipos, grupos, empresas o roles de trabajo a los que desee conceder un nivel de permiso diferente del que tienen para el área de trabajo o el tipo de registro.
+
+      Cuando comparte un campo con un usuario, su función de trabajo principal y su correo electrónico también se muestran en el campo. Debe tener activada la configuración Ver información de contacto para el objeto Usuarios en su nivel de acceso para poder ver el correo electrónico del usuario.
+
+   1. Elija uno de los siguientes niveles de permisos:
+
+      * Ver valores de campo
+      * Administrar valores de campo
+
+      >[!IMPORTANT]
+      >
+      ><!-- * If users have Contribute or Manage permissions to the workspace and the record type, you can give them Manage permissions to the field. The View permission is dimmed.-->
+      >* No puede conceder a los usuarios un permiso inferior al campo si tienen Contribute o superior al tipo de registro.
+      >
+      >* No puede conceder permisos a usuarios que no están en el espacio de trabajo. Los usuarios que no tienen permisos de acceso al espacio de trabajo y tipo de registro no pueden acceder a ninguno de los campos. Podrán acceder a los campos cuando obtengan permisos para el espacio de trabajo y los tipos de registro.
+
+1. Haga clic en **Guardar**.
+
+   El campo ahora se comparte con otros usuarios.
+
+   <!--
+    Not possible for fields: 
+    The users you shared the field with receive both an in-app and email notification about having been given permissions to the field.
+    For information, see [Adobe Workfront Planning notifications: article index](/help/quicksilver/planning/notifications/notifications-information.md).
+    -->
+
+## Eliminación de permisos de un campo
+
+Puede quitar los permisos de los usuarios de un campo. Sin embargo, conservarán al menos los permisos de Vista en el espacio de trabajo y el tipo de registro, lo que también les otorga al menos permisos de Vista en el campo.
+
+Debe quitar su acceso al espacio de trabajo si desea que no tengan permisos para los tipos de registros o campos del espacio de trabajo.
+
+No puede quitar un usuario de los permisos heredados.
+
+{{step1-to-planning}}
+
+1. Abra el espacio de trabajo cuyos campos desee dejar de compartir y, a continuación, haga clic en una tarjeta de tipo de registro. Se abre la página de tipo de registro.
+1. En la vista de tabla, pase el ratón sobre el nombre del encabezado de columna de un campo, haga clic en el menú **Más** ![Menú más](assets/more-menu.png) y, a continuación, haga clic en **Compartir campo**.
+
+   Se abre el cuadro **Compartir**.
+1. Busque el usuario, grupo, equipo, empresa o función de trabajo cuyos permisos desee quitar, expanda el menú desplegable de permisos a la derecha de su nombre y, a continuación, haga clic en **Quitar**.
+
+1. Haga clic en **Guardar**.
+
+   Las personas ya no tienen los permisos indicados en el campo. Sin embargo, aún tienen permisos para el tipo de registro y el espacio de trabajo, a menos que también los quite de esos permisos.
+
+   No hay notificación para los usuarios que se han eliminado del acceso al campo de que ya no tienen estos permisos.
