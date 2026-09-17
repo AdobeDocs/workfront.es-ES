@@ -6,10 +6,10 @@ author: Becky
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 10d95f7fc71d72edd5cbb292af69a348b648b4ba
+source-git-commit: 43ad86656589b0a60bce9003d46dcb21bff12e3c
 workflow-type: tm+mt
-source-wordcount: '2057'
-ht-degree: 3%
+source-wordcount: '2210'
+ht-degree: 2%
 ---
 # Actividad de la versión del cuarto trimestre de 2026 para Adobe Workfront Planning
 
@@ -21,9 +21,9 @@ Para obtener una lista de todas las características publicadas para Adobe Workf
 
 >[!NOTE]
 >
->Vista previa: 3 de septiembre de 2026
->Versión rápida de producción: 17 de septiembre de 2026
->Producción para todos: 15 de octubre de 2026
+>Vista previa: Despliegue gradual a partir del 3 de septiembre de 2026
+>Versión rápida de producción: Despliegue gradual a partir del 17 de septiembre de 2026
+>Producción para todos: Despliegue gradual a partir del 15 de octubre de 2026
 
 CX Coworker ya está disponible en Workfront Planning. Ahora puede acceder a CX Coworker en un panel disponible en Workfront Planning.
 
@@ -35,28 +35,28 @@ El compañero está reemplazando al asistente de IA actual como una forma más p
 
 >[!IMPORTANT]
 >
->CX Coworker no está disponible actualmente para organizaciones de atención médica, finanzas u otros sectores con datos confidenciales. Estas organizaciones disponen de un asistente de IA.
+>CX Coworker no está disponible actualmente para organizaciones de atención médica, finanzas u otros sectores con datos confidenciales. El asistente de inteligencia artificial todavía está disponible para estas organizaciones.
 
 Para obtener más información, consulte [Información general de CX Coworker](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md).
 
-<!--
-
-## Removed the AI Assistant icon in the Details preview box in preparation for the CX Coworker launch
+## Se ha eliminado el icono Asistente de IA en el cuadro de vista previa de detalles como preparación para el lanzamiento de CX Coworker
 
 >[!NOTE]
 >
->Preview: September 16, 2026
->Production fast release: September 17, 2026
->Production for everyone: October 15, 2026
->[!BADGE Off schedule]{type=Neutral}
+>Vista previa: Despliegue gradual a partir del 16 de septiembre de 2026
+>Versión rápida de producción: Despliegue gradual a partir del 17 de septiembre de 2026
+>Producción para todos: Despliegue gradual a partir del 15 de octubre de 2026
+>[!BADGE Fuera del horario]{type=Neutral}
 
-This change is available for customers who have the CX Coworker in Workfront.
+Este cambio está disponible para los clientes que tienen CX Coworker en Workfront.
 
-In preparation for the launch of the Adobe CX Coworker in Workfront, we have removed the AI Assistant icon from the Details preview page. The icon still exists on the Details page, when opened in full screen. Clicking it will open the CX Coworker.
+Como preparación para el lanzamiento de Adobe CX Coworker en Workfront, hemos eliminado el icono Asistente de IA de la página de vista previa Detalles. El icono sigue existiendo en la página Detalles al abrirlo en pantalla completa. Al hacer clic en él, se abrirá CX Coworker.
 
-For information, see [CX Coworker in Workfront](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-in-workfront.md).
+>[!IMPORTANT]
+>
+>CX Coworker no está disponible actualmente para organizaciones de atención médica, finanzas u otros sectores con datos confidenciales. El asistente de inteligencia artificial todavía está disponible para estas organizaciones.
 
--->
+Para obtener más información, consulte [CX Coworker en Workfront](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-in-workfront.md).
 
 ## Se ha mejorado la experiencia al duplicar registros que tienen campos conectados con un tipo de conexión Uno a uno o Uno a varios
 
