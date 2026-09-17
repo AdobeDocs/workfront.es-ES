@@ -11,20 +11,23 @@ git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/9ZMHrzOvdpkdnbBapJ65HFLutu0lfYmSOCamto-AU0c
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 79d9eb9d3066cc83c1190d9732c64712917798aa
+    internal-label: Administration
+source-git-commit: 375d62fc12af075c2224f979d3ef87cdffdf03ea
 workflow-type: tm+mt
-source-wordcount: 1971
+source-wordcount: '1860'
 ht-degree: 10%
-
 ---
-
 # Creación de un informe de gráfico en un panel de control de lienzo
 
 >[!IMPORTANT]
@@ -175,12 +178,9 @@ Hay muchas opciones de configuración disponibles para crear un informe de gráf
 
 ### Filtros
 
-Siga los pasos a continuación para configurar la sección **Filter**:
+En el panel izquierdo, haga clic en el icono **Filtro** ![Icono de filtro](assets/filter-icon.png) y, a continuación, configure las condiciones que determinan qué datos se muestran.
 
-1. En el panel izquierdo, haga clic en el icono **Filtro**![&#x200B; Icono de filtro](assets/filter-icon.png).
-1. Seleccione **Editar filtro**.
-1. Haga clic en **Agregar condición** y, a continuación, especifique el campo por el que desea filtrar y el modificador que define qué tipo de condición debe cumplir el campo.
-1. (Opcional) Haga clic en **Añadir grupo de filtros** para añadir otro conjunto de criterios de filtrado. El operador predeterminado entre los conjuntos es Y. Haga clic en el operador para cambiarlo a OR.
+Para obtener más información, consulte [Filtrar un informe en un panel de lienzo](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/filter-a-report.md).
 
 ### Configuración de desglose
 
@@ -194,13 +194,11 @@ Siga los pasos a continuación para configurar la sección **Configuración de c
 
 ### Configuración del grupo de desglose
 
-Siga los pasos a continuación para configurar la sección **Configuración del grupo de desglose**:
+En el panel izquierdo, haga clic en el icono **Configuración de grupo de desglose** ![Configuración de grupo](assets/drilldown-group-icon.png) y, a continuación, agregue agrupaciones para la tabla de desglose.
 
-1. En el panel izquierdo, haga clic en el icono **Configuración de grupo** ![Configuración de grupo](assets/drilldown-group-icon.png).
+Para obtener más información, consulte [Configurar agrupaciones de desglose en informes de gráficos y KPI](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/group-report-data.md#configure-drilldown-groupings-in-chart-and-kpi-reports) en [Agrupar datos de informes en un panel de lienzo](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/group-report-data.md).
 
-1. Haga clic en el botón **Agregar agrupación** y, a continuación, seleccione el campo que desee crear como agrupación.
-
-1. Haga clic en **Guardar** para crear el informe y agregarlo al tablero.
+Haga clic en **Guardar** para crear el informe y agregarlo al tablero.
 
 ## Crear un ejemplo de informe de gráfico
 
@@ -266,7 +264,7 @@ En esta sección, veremos los pasos para crear un gráfico de columnas que muest
 
    1. Escriba *$$TODAY* en el campo del evaluador.
 
-      Para obtener más información sobre los caracteres comodín, consulte la sección Variables de filtro basadas en fecha en el artículo [Editar filtros de informe en un panel de lienzo](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/edit-report-filters.md).
+      Para obtener más información, consulte [Variables de filtro comodín basadas en fecha](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/filter-reference.md#date-based-wildcard-filter-variables) en [Referencia de filtro de informe para paneles de lienzo](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/filter-reference.md).
 
       ![Campo del evaluador](assets/add-condition.png)
 
@@ -326,10 +324,4 @@ Una vez seleccionado el objeto de entidad base, la lista desplegable **Secciones
 
 ### Referencia a objetos secundarios
 
-Las relaciones disponibles para columnas adicionales, opciones de filtro y atributos de agrupación generalmente se limitan a objetos superiores en la jerarquía de objetos de Workfront o tienen una sola selección en el objeto de entidad base del informe. Hay algunas excepciones a este respecto, que incluyen las siguientes:
-
-* Proyecto > Tareas
-* Aprobación de documento > Fases de aprobación de documento
-* Fases de aprobación de documento > Participantes en la fase de aprobación de documento
-
-Al utilizar cualquiera de las relaciones principal-secundario enumeradas anteriormente, verá una fila en la tabla para cada registro secundario conectado al objeto principal.
+Algunas relaciones principal-secundario están disponibles para columnas, filtros y agrupaciones. Para obtener más información, consulte [Referencia a objetos secundarios](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/filter-reference.md#referencing-children-objects) en [Referencia del filtro de informes para paneles de lienzo](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/filter-reference.md).

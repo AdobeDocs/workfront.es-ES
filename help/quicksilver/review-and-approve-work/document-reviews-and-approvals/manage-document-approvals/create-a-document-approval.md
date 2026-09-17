@@ -26,7 +26,7 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ff8ec4e7f5f9ffefcfc6eeea7e37443bcd1f55d2
+source-git-commit: bef848df8b263de89bfa90b7fec74b14734dfeff
 workflow-type: tm+mt
 source-wordcount: '2878'
 ht-degree: 4%
@@ -132,9 +132,9 @@ Para crear un flujo de trabajo de aprobación de una sola etapa:
 
    ![Solicitar aprobación en modo Básico](assets/request-approval-basic.jpeg)
 
-   <!-- 
-   preview screen![Request approval in Basic mode](assets/request-approval-basic-v2.png)
-   -->
+<!--
+preview screen![Request approval in Basic mode](assets/request-approval-basic-v2.png)
+-->
 
 ### Creación de un flujo de trabajo de aprobación avanzado
 
@@ -204,7 +204,7 @@ Para crear un flujo de trabajo de aprobación avanzado:
 
    ![Modo avanzado con rutas paralelas](assets/request-approval-parallel-paths.jpeg)
 
-<!-- 
+<!--
 preview screen
 ![Advanced mode with parallel paths](assets/parallel-path-v2.png)
 -->
@@ -266,9 +266,9 @@ Para crear un flujo de trabajo de aprobación de una sola etapa:
 
    ![Solicitar aprobación en modo Básico](assets/request-approval-basic.jpeg)
 
-   <!-- 
-   preview screen![Request approval in Basic mode](assets/request-approval-basic-v2.png)
-   -->
+<!--
+preview screen![Request approval in Basic mode](assets/request-approval-basic-v2.png)
+-->
 
 
 
@@ -347,10 +347,10 @@ Para crear un flujo de trabajo de aprobación avanzado:
 
    ![Modo avanzado con rutas paralelas](assets/request-approval-advanced.jpeg)
 
-   <!-- 
-   preview screen
-   ![Advanced mode with parallel paths](assets/parallel-path-v2.png)
-   -->
+<!--
+preview screen
+![Advanced mode with parallel paths](assets/parallel-path-v2.png)
+-->
 
 1. (Opcional) Para borrar todas las rutas y etapas y volver a empezar, haga clic en **Restablecer** en la parte superior derecha.
 

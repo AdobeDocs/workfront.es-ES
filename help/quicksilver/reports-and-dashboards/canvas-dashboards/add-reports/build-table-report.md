@@ -11,22 +11,26 @@ git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/Xcq8aeqqH-JPYtfmbcf1gld93O6N93O9j0wqohss7oQ
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 58c5f4a08b2083d7350c19b6c1d8383fa0dbb124
+    internal-label: Administration
+source-git-commit: 375d62fc12af075c2224f979d3ef87cdffdf03ea
 workflow-type: tm+mt
-source-wordcount: 1343
-ht-degree: 13%
-
+source-wordcount: '1208'
+ht-degree: 14%
 ---
-
 # Generar un informe de tabla en un panel de control del lienzo
 
 >[!IMPORTANT]
@@ -121,21 +125,13 @@ Hay muchas opciones de configuración disponibles para crear un informe de tabla
 
    1. Repita el paso anterior para cada columna que desee agregar.
 
-1. Siga los pasos a continuación para configurar la sección **Filter**:
+1. En el panel izquierdo, haga clic en el icono **Filtro** ![Icono de filtro](assets/filter-icon.png) y, a continuación, configure las condiciones que determinan qué datos se muestran.
 
-   1. En el panel izquierdo, haga clic en el icono **Filtro** ![Icono de filtro](assets/filter-icon.png).
+   Para obtener más información, consulte [Filtrar un informe en un panel de lienzo](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/filter-a-report.md).
 
-   1. Seleccione **Editar filtro**.
+1. En el panel izquierdo, haga clic en el icono **Configuración de grupo** ![Icono de configuración de grupo](assets/drilldown-group-icon.png) y, a continuación, agregue agrupaciones para organizar las filas del informe.
 
-   1. Haga clic en **Agregar condición** y, a continuación, especifique el campo por el que desea filtrar y el modificador que define qué tipo de condición debe cumplir el campo. La columna aparece en la sección de vista previa de la derecha.
-
-1. (Opcional) Haga clic en **Añadir grupo de filtros** para añadir otro conjunto de criterios de filtrado. El operador predeterminado entre los conjuntos es Y. Haga clic en el operador para cambiarlo a OR.
-
-1. Siga los pasos a continuación para configurar la sección **Configuración del grupo de desglose**:
-
-   1. En el panel izquierdo, haga clic en el icono **Configuración de grupo** ![Icono de configuración de grupo](assets/drilldown-group-icon.png).
-
-   1. Haga clic en el botón **Agregar agrupación** y, a continuación, seleccione el campo que desee crear como agrupación. La columna de agrupación aparece en la sección de vista previa de la derecha.
+   Para obtener más información, consulte [Agrupar datos de informe en un panel de lienzo](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/group-report-data.md).
 
 1. Haga clic en **Guardar** para crear el informe y agregarlo al tablero.
 
@@ -248,11 +244,5 @@ Una vez seleccionado el objeto de entidad base, la lista desplegable **Secciones
 
 ### Referencia a objetos secundarios
 
-Las relaciones disponibles para columnas adicionales, opciones de filtro y atributos de agrupación generalmente se limitan a objetos superiores en la jerarquía de objetos de Workfront o tienen una sola selección en el objeto de entidad base del informe. Hay algunas excepciones a este respecto, que incluyen las siguientes:
-
-* Proyecto > Tareas
-* Aprobación de documento > Fases de aprobación de documento
-* Fases de aprobación de documento > Participantes en la fase de aprobación de documento
-
-Al utilizar cualquiera de las relaciones principal-secundario enumeradas anteriormente, verá una fila en la tabla para cada registro secundario conectado al objeto principal.
+Algunas relaciones principal-secundario están disponibles para columnas, filtros y agrupaciones. Para obtener más información, consulte [Referencia a objetos secundarios](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/filter-reference.md#referencing-children-objects) en [Referencia del filtro de informes para paneles de lienzo](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/filter-reference.md).
 
