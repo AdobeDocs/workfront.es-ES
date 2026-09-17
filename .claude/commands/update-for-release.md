@@ -1,13 +1,6 @@
 ---
 name: update-for-release
-description: ""
-source-git-commit: 4c2305da7635694d9d7bc174b5837a0d57fb7ac0
-workflow-type: tm+mt
-source-wordcount: '2009'
-ht-degree: 0%
-
----
-
+description: 'Documente una nueva función de Workfront para una próxima versión: identifique los artículos de ayuda afectados, elija el fragmento de vista previa correcto, marque el nuevo contenido con resaltado de vista previa (por sección o por línea, según corresponda, por artículo) y muestre los detalles del nivel de interfaz de usuario del borde como peticiones de aprobación/rechazo explícitas antes de aplicar ediciones. Se utiliza cuando el usuario actualiza artículos de ayuda de Workfront para una función que se está enviando (generalmente Vista previa primero), menciona un PRD o una próxima versión, pregunta sobre el resaltado de la vista previa o desea ayuda para agregar secciones "en Vista previa" / "en producción" a artículos de procedimientos o de descripción general.'---
 
 # Actualización de la versión (Workfront)
 
@@ -94,9 +87,9 @@ Para cada artículo de la lista confirmada por el usuario:
 
    Proporcione una justificación de una frase para cada elemento &quot;listo para revisión&quot; (&quot;Ayuda a los principiantes a planificar un mensaje más largo&quot;, &quot;Ayuda a los usuarios que no lo ven en etapas posteriores a ampliarlo&quot;). Incluya solo los elementos que elija el usuario. El principio predeterminado es &quot;si el usuario puede verlo en pantalla mientras realiza la tarea, no lo repita&quot;, pero el usuario recibe la llamada final.
 
-   **Al redactar las oraciones reales** para cualquier bloque, aplique `~/.cursor/skills/writing-quality/SKILL.md` reglas de voz y tono mientras escribe, una descripción sencilla de campo/comportamiento, no una entrada de registro de cambios (&quot;se ha eliminado&quot;, &quot;se ha agregado&quot;), y no reafirme una instrucción sin modificar solo para adjuntarle una nota de vista previa. Recórtelo bien la primera vez en lugar de corregir el tono en un pase posterior.
+   **Antes de redactar las oraciones reales** para cualquier bloque, **invoque la aptitud `writing-quality` (herramienta de aptitudes)** y aplique sus reglas de voz y tono mientras escribe: una descripción sencilla de campo/comportamiento, no una entrada de registro de cambios (&quot;se ha eliminado&quot;, &quot;se ha agregado&quot;), y no vuelva a incluir una instrucción sin modificar para adjuntarle una nota de vista previa. Recórtelo bien la primera vez en lugar de corregir el tono en un pase posterior.
 
-5. **Realice un pase final de calidad de escritura** en el texto borrador antes de mostrarlo. Esta es una red de seguridad, no la primera vez que se aplican estas reglas: captar cualquier paso 4 perdido (redundancia, tono, falta de coincidencia de voz con las filas adyacentes).
+5. **Ejecute la aptitud `writing-quality` (herramienta de aptitudes) como un pase final** en el texto del borrador antes de mostrarla; necesaria para cada artículo, no opcional. Vuelve a captar cualquier paso 4 perdido (redundancia, tono, desajuste de voz con las filas adyacentes).
 
 6. **Proponer ediciones.** Muestre fragmentos antes o después (o una descripción de estilo de comparación enfocada) del artículo que cubren: ubicación de fragmentos, cambios de nombre de encabezados, nuevo contenido de vista previa en la vista previa y ubicación, referencia de captura de pantalla y cualquier ajuste de `class="preview"` en línea.
 
@@ -217,12 +210,18 @@ Ejecute esta lista de comprobación completa para **cada** artículo de la sesi�
 - Duplicaciones por fila: el elemento `<tr>` original no cambia byte a byte; el nuevo elemento `<tr class="preview">` tiene ambas celdas agrupadas en `<span class="preview">`; la etiqueta es una etiqueta corta nueva + minúscula &quot;en vista previa&quot; (no la etiqueta original + &quot;(en vista previa)&quot;); cualquier nota complementaria utiliza `<br>` + `Note:` en línea, no un elemento `<p>` anidado.
 - Si el mismo campo aparece en más de una variante de procedimiento (Básico/Avanzado, heredado/ESM), la redacción de cada nueva fila coincide con el comportamiento real de esa variante en lugar de copiarse y pegarse desde otra variante.
 - La nueva prosa marcada como vista previa se lee como una descripción simple del campo/comportamiento, no como una entrada de registro de cambios, y no repite de forma redundante una instrucción sin cambios.
+- La aptitud de `writing-quality` se invocó en la prosa del borrador de este artículo (ambos contenedores).
 - `ReadLints` está limpio en el archivo editado.
 - El artículo se lee correctamente en ambos estados (con el contenido de vista previa mostrado y oculto).
 
 ## Referencias
 
-- Estilo de documentación de Workfront: vea la aptitud de **calidad de escritura** en `~/.cursor/skills/writing-quality/SKILL.md`.
+- Estilo de documentación de Workfront: **invocar la aptitud `writing-quality`** mediante la herramienta de aptitudes (origen: `.cursor/skills/writing-quality/`).
 - Catálogo de fragmentos: `help/_includes/snippets.md` en el repositorio de docs.
 - Limpieza de GA (flujo de trabajo inverso): consulte la aptitud de **eliminar resaltado de vista previa** en `.cursor/skills/remove-preview-highlighting/SKILL.md`.
 - Adobe Wiki MCP para PRD: servidor `user-Adobe Wiki Confluence`, herramienta `get_wiki_content`.
+source-git-commit: 60f7b8b7fc731d649d4d10910b38acda1b1d6891
+workflow-type: tm+mt
+source-wordcount: 2118
+ht-degree: 0%
+---
