@@ -6,16 +6,71 @@ author: Becky
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: e76aa2b0a9002abd644f82d99a001f8b1c0fff6e
+source-git-commit: 43ad86656589b0a60bce9003d46dcb21bff12e3c
 workflow-type: tm+mt
-source-wordcount: '1773'
-ht-degree: 3%
+source-wordcount: '2210'
+ht-degree: 2%
 ---
 # Actividad de la versión del cuarto trimestre de 2026 para Adobe Workfront Planning
 
 Este artículo describe las funciones que se lanzarán para Workfront Planning durante la versión del cuarto trimestre de 2026.
 
 Para obtener una lista de todas las características publicadas para Adobe Workfront Planning, consulte [Actividad de la versión de Adobe Workfront Planning: índice de artículo](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
+
+## CX Coworker ahora disponible en Workfront Planning
+
+>[!NOTE]
+>
+>Vista previa: Despliegue gradual a partir del 3 de septiembre de 2026
+>Versión rápida de producción: Despliegue gradual a partir del 17 de septiembre de 2026
+>Producción para todos: Despliegue gradual a partir del 15 de octubre de 2026
+
+CX Coworker ya está disponible en Workfront Planning. Ahora puede acceder a CX Coworker en un panel disponible en Workfront Planning.
+
+CX Coworker Chat es una interfaz conversacional para hacer el trabajo. Describa un objetivo en lenguaje sencillo y su Compañero de trabajo planificará el trabajo, lo ejecutará en Workfront Planning y en los sistemas Adobe conectados, validará los resultados y le devolverá el trabajo terminado para su aprobación.
+
+El compañero respeta los controles de acceso existentes en su organización, con acceso de solo lectura de forma predeterminada, y los administradores del sistema controlan cuándo los usuarios obtienen acceso de escritura.
+
+El compañero está reemplazando al asistente de IA actual como una forma más potente de realizar el trabajo. Los compañeros de trabajo forman parte del ecosistema de Adobe y no se limitan a Workfront Planning.
+
+>[!IMPORTANT]
+>
+>CX Coworker no está disponible actualmente para organizaciones de atención médica, finanzas u otros sectores con datos confidenciales. El asistente de inteligencia artificial todavía está disponible para estas organizaciones.
+
+Para obtener más información, consulte [Información general de CX Coworker](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md).
+
+## Se ha eliminado el icono Asistente de IA en el cuadro de vista previa de detalles como preparación para el lanzamiento de CX Coworker
+
+>[!NOTE]
+>
+>Vista previa: Despliegue gradual a partir del 16 de septiembre de 2026
+>Versión rápida de producción: Despliegue gradual a partir del 17 de septiembre de 2026
+>Producción para todos: Despliegue gradual a partir del 15 de octubre de 2026
+>[!BADGE Fuera del horario]{type=Neutral}
+
+Este cambio está disponible para los clientes que tienen CX Coworker en Workfront.
+
+Como preparación para el lanzamiento de Adobe CX Coworker en Workfront, hemos eliminado el icono Asistente de IA de la página de vista previa Detalles. El icono sigue existiendo en la página Detalles al abrirlo en pantalla completa. Al hacer clic en él, se abrirá CX Coworker.
+
+>[!IMPORTANT]
+>
+>CX Coworker no está disponible actualmente para organizaciones de atención médica, finanzas u otros sectores con datos confidenciales. El asistente de inteligencia artificial todavía está disponible para estas organizaciones.
+
+Para obtener más información, consulte [CX Coworker en Workfront](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-in-workfront.md).
+
+## Se ha mejorado la experiencia al duplicar registros que tienen campos conectados con un tipo de conexión Uno a uno o Uno a varios
+
+>[!NOTE]
+>
+>Vista previa: 17 de septiembre de 2026
+>Versión rápida de producción: 14 de octubre de 2026
+>Producción para todos: 15 de octubre de 2026
+
+Ahora se pueden duplicar registros incluso cuando existen registros conectados uno a uno o uno a varios. Después de la duplicación, los usuarios pueden elegir mantener el registro conectado en el registro original o conectarlo al nuevo registro. Mantener activado el original es la opción predeterminada.
+
+El cuadro de diálogo de resolución de conflictos de conexión se ha actualizado para reflejar este nuevo comportamiento y proporcionar una mayor flexibilidad al administrar registros conectados.
+
+Para obtener más información, consulte [Registros duplicados](/help/quicksilver/planning/records/copy-or-duplicate-records.md).
 
 ## Administrar la visibilidad de las miniaturas y los colores de los registros desde la columna del campo principal en la vista de tabla
 

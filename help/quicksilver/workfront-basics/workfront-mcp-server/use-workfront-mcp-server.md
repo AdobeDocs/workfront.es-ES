@@ -5,13 +5,12 @@ title: Uso del servidor MCP de Adobe Workfront
 description: Utilice el servidor MCP de Adobe Workfront para buscar, crear, actualizar y administrar elementos de Workfront a través de una conversación en lenguaje natural en una plataforma agéntica de IA.
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: 836431c7840647b8f412f848fe22d3e64cc42e44
+source-git-commit: 191778aae452a4b849f3dac8c61bc6b4157d655b
 workflow-type: tm+mt
-source-wordcount: '1775'
+source-wordcount: '1982'
 ht-degree: 0%
 
 ---
-
 
 # Uso del servidor MCP de Adobe Workfront
 
@@ -138,6 +137,12 @@ Para obligar a la plataforma agéntica de IA a recuperar datos nuevos, pídala e
 
 * *Obtenga los datos más recientes de Workfront. No usar resultados en caché.*
 
+### Los datos de perspectivas son casi en tiempo real, no instantáneos
+
+Las herramientas de perspectivas que se utilizan para buscar, filtrar e informar sobre los datos de Workfront reflejan los cambios en tiempo casi real, con un service level agreement (SLA) de hasta 15 minutos aproximadamente. Si realiza un cambio en Workfront y pregunta inmediatamente sobre él, es posible que la respuesta no refleje ese cambio.
+
+Si necesita confirmar un cambio muy reciente, espere unos minutos y vuelva a preguntar o compruebe directamente en Workfront.
+
 ### Buscar actualizaciones en el servidor MCP de Workfront
 
 Es posible que desee actualizar periódicamente la conexión con el servidor MCP de Workfront para asegurarse de que dispone de las herramientas y funciones más recientes.
@@ -167,6 +172,7 @@ Workfront no controla cómo el proveedor de la plataforma agéntica de IA gestio
 | Problema | Causa probable | Corregir |
 | --- | --- | --- |
 | La plataforma agéntica de IA le proporciona información obsoleta. | La plataforma agéntica de IA está reutilizando datos de versiones anteriores de la conversación. | Solicite datos nuevos a Workfront. |
+| Los datos que acaba de cambiar en Workfront aún no se muestran. | Los datos de Insights son casi en tiempo real, con un SLA de hasta aproximadamente 15 minutos. | Espere unos minutos y vuelva a preguntar, o compruebe directamente en Workfront. |
 | La plataforma agéntica de IA devolvió datos de elementos de Workfront incorrectos. | La plataforma de inteligencia artificial eligió los elementos equivocados basándose en términos ambiguos. | Vuelva a preguntar con nombres, ID o filtros más específicos. |
 | Una actualización o eliminación no surtió efecto en Workfront. | El administrador de Workfront ha deshabilitado las acciones de escritura para el servidor MCP de Workfront o no tiene permiso para realizar la acción en el elemento específico. | Confirme con la plataforma agéntica de IA que se ejecutó la acción. A continuación, compruebe que las acciones de escritura estén habilitadas para el servidor MCP de Workfront y que tiene permiso para cambiar el elemento. |
 

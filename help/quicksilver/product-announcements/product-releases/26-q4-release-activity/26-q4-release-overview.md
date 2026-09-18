@@ -4,9 +4,9 @@ description: Esta página proporciona información sobre la funcionalidad que se
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 6fb4ffc73625485cf4f9b392020da94e938cf179
+source-git-commit: 43ad86656589b0a60bce9003d46dcb21bff12e3c
 workflow-type: tm+mt
-source-wordcount: '2919'
+source-wordcount: '2853'
 ht-degree: 8%
 ---
 # Resumen de la versión del cuarto trimestre de 2026
@@ -192,9 +192,9 @@ Se celebran seminarios web en directo para cada versión trimestral, en los que 
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-ai.md" class="MCXref xref" xrefformat="{para}">CX Coworker ya está disponible en Workfront</a>
                 <p>CX Coworker es una nueva interfaz conversacional para realizar el trabajo en Workfront y en los sistemas conectados de Adobe, que sustituye al asistente de IA actual.</p>
             </td>
-            <td><p>3 de septiembre de 2026</p></td>
-            <td><p>17 de septiembre de 2026</p></td>
-            <td><p>15 de octubre de 2026</p></td>
+            <td><p>Despliegue gradual a partir del 3 de septiembre de 2026</p></td>
+            <td><p>Despliegue gradual a partir del 17 de septiembre de 2026</p></td>
+            <td><p>Despliegue gradual a partir del 15 de octubre de 2026</p></td>
         </tr>
 
     &lt;tr>
@@ -618,18 +618,24 @@ Se celebran seminarios web en directo para cada versión trimestral, en los que 
 * [Actividad de la versión de Adobe Workfront Fusion](https://experienceleague.adobe.com/es/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
 * [Actividad de la versión del cuarto trimestre de 2026 de Adobe Workfront Planning](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-26-q4.md).
 
-## Actualizaciones del visor de revisión de escritorio
+<!--
+## Desktop proofing viewer updates
 
-### Versión 2.1.59
+### Version 2.2.1
 
-Versión de producción para todos los clientes: 9 de septiembre de 2026
+Production release for all customers: September 16, 2026
 
-El Visor de corrección de escritorio se ha actualizado a la versión 2.1.59. Esta actualización incluye los siguientes cambios:
+The Desktop Proofing Viewer has been updated to version 2.2.1. This update includes the following changes:
 
-* El Visor de corrección de escritorio ya está disponible como compilación nativa para Mac con silicio de Apple.
-* Se ha actualizado el marco de aplicación subyacente (Electron) a una versión más reciente, que ofrece mejoras de rendimiento y seguridad.
+* You can now open proofs from any environment (Production, Preview, Sandbox, and others) in the same viewer, without reinstalling when you switch.
+* Resolved an issue with opening proofs from a URL on non-US regions.
+* The viewer now keeps your 10 most recent proofs.
+* Updated the Workfront logo to the current branding.
+* Added more detail to the About Workfront Proof screen to speed up troubleshooting.
+* Updated the underlying framework (Electron) for performance and security improvements.
 
-Para obtener información sobre cómo descargar y actualizar el Visor de corrección de escritorio, consulte [Actualizar el Visor de corrección de escritorio](/help/quicksilver/review-and-approve-work/proofing/use-the-desktop-proofing-viewer/update-the-desktop-proofing-viewer.md).
+For information on downloading and updating the Desktop Proofing Viewer, see [Update the Desktop Proofing Viewer](/help/quicksilver/review-and-approve-work/proofing/use-the-desktop-proofing-viewer/update-the-desktop-proofing-viewer.md).
+-->
 
 ## Anuncios
 

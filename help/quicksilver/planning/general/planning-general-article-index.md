@@ -1,6 +1,6 @@
 ---
 title: 'Información general de Adobe Workfront Planning: Índice de artículos'
-description: Como líder de operaciones de marketing, puede utilizar Adobe Workfront Planning para organizar el trabajo en todo el ciclo de vida de marketing para todos sus equipos. Los artículos de esta sección describen conceptos generales sobre Workfront Planning, prácticas recomendadas sobre cómo implementarlo y le ofrecen una descripción general de algunas de las funciones disponibles actualmente.
+description: Como líder de operaciones de marketing, puede utilizar Planificación de Workfront de Adobe para organizar el trabajo en todo el ciclo de vida de marketing para todos sus equipos. Los artículos de esta sección describen conceptos generales sobre Planificación de Workfront, prácticas recomendadas sobre cómo implementarlo y le ofrecen una descripción general de algunas de las funciones disponibles actualmente.
 author: Alina
 feature: Workfront Planning
 role: User, Admin
@@ -11,34 +11,43 @@ git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/IPvYru6al05HMWf7jLZ1XuGWD8Eq2P6s22NamtxqA4w
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: b5b73103671c4a478d7e3a5f4eeb9672bac62de4
+    internal-label: Admin
+source-git-commit: b529b3aded4ab92015683a0ddccd152bc2cc798c
 workflow-type: tm+mt
-source-wordcount: 191
-ht-degree: 87%
-
+source-wordcount: '197'
+ht-degree: 84%
 ---
-
-# Información general de Adobe Workfront Planning: índice de artículos
+# Información general de Planificación de Workfront de Adobe: índice de artículos
 
 {{planning-important-intro}}
 
-Como líder de operaciones de marketing, puede utilizar Adobe Workfront Planning para organizar el trabajo en todo el ciclo de vida de marketing para todos sus equipos. Los artículos de esta sección describen conceptos generales sobre Workfront Planning, prácticas recomendadas sobre cómo implementarlo y le ofrecen una descripción general de algunas de las funciones disponibles actualmente.
+Como líder de operaciones de marketing, puede utilizar Planificación de Workfront de Adobe para organizar el trabajo en todo el ciclo de vida de marketing para todos sus equipos. Los artículos de esta sección describen conceptos generales sobre Planificación de Workfront, prácticas recomendadas sobre cómo implementarlo y le ofrecen una descripción general de algunas de las funciones disponibles actualmente.
 
 Revise los siguientes artículos:
 
-* [Introducción a Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md)
+* [Introducción a Planificación de Workfront de Adobe](/help/quicksilver/planning/general/planning-overview.md)
 * [Resumen termonológico de Workfront Planning](/help/quicksilver/planning/general/planning-terminology.md)
-* [Información general sobre el asistente de IA de Adobe Workfront Planning](/help/quicksilver/planning/general/planning-ai-assistant-overview.md)
-* [Conceptos básicos de la API de Adobe Workfront Planning](/help/quicksilver/planning/general/planning-api-basics.md)
-* [Información general sobre las limitaciones de objetos de Adobe Workfront Planning](/help/quicksilver/planning/general/limitations-overview.md)
-* [Actividad de la versión de Adobe Workfront Planning para 2024](/help/quicksilver/planning/general/release-activity.md)
-* [Actividad de la versión de Adobe Workfront Planning para 2023](/help/quicksilver/planning/general/release-activity-archives-2023.md)
-* [Información general sobre las limitaciones de objetos de Adobe Workfront Planning](/help/quicksilver/planning/general/limitations-overview.md)
+* [Información general sobre el asistente de IA de Planificación de Workfront de Adobe](/help/quicksilver/planning/general/planning-ai-assistant-overview.md)
+
+<div class="preview">
+
+* [Información general sobre Adobe Workfront Planning CX Coworker](/help/quicksilver/planning/general/planning-cx-coworker-overview.md)
+
+</div>
+
+* [Conceptos básicos de la API de Planificación de Workfront de Adobe](/help/quicksilver/planning/general/planning-api-basics.md)
+* [Información general sobre las limitaciones de objetos de Planificación de Workfront de Adobe](/help/quicksilver/planning/general/limitations-overview.md)
+* [Actividad de la versión de Planificación de Workfront de Adobe para 2024](/help/quicksilver/planning/general/release-activity.md)
+* [Actividad de la versión de Planificación de Workfront de Adobe para 2023](/help/quicksilver/planning/general/release-activity-archives-2023.md)
+* [Información general sobre las limitaciones de objetos de Planificación de Workfront de Adobe](/help/quicksilver/planning/general/limitations-overview.md)
 * [Recomendaciones de implementación de Adobe Workfront Planning](/help/quicksilver/planning/general/planning-best-practices.md)
 * [Introducción a Adobe Workfront Planning Designer](/help/quicksilver/planning/general/planning-ai-designer.md)
 * [Introducción a la prueba gratuita de Adobe Workfront Planning](/help/quicksilver/planning/general/trial-workfront-planning.md)
+
 
 
