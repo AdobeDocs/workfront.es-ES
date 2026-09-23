@@ -10,28 +10,38 @@ git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/Z2t6RQBsQZK6MNRd3w2gWEY8k9YU48Jsco7pev7papM
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 07a00836f60ce0bb4ee7fb0202c9458b0c1be406
+    internal-label: Administration
+source-git-commit: 4ee702aeded88e330ec456a0e6b5cf1813bfb64e
 workflow-type: tm+mt
-source-wordcount: 1495
-ht-degree: 10%
-
+source-wordcount: '1764'
+ht-degree: 8%
 ---
-
 # Utilice Rellenar formulario con tecnología de IA para rellenar una solicitud mediante mensajes o documentos
 
 >[!NOTE]
 >
 >Para utilizar esta funcionalidad, su organización debe cumplir los requisitos para utilizar Workfront AI Assistant. Para obtener más información, consulte [Requisitos previos para el asistente de IA](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#prerequisites-to-ai-assistant).
 
-Rellenar formularios de IA puede ayudarle a rellenar automáticamente los campos de solicitud en función de una solicitud que haya introducido. También puede rellenar campos basados en texto como correos electrónicos o documentos cargados. Puede aprobar o rechazar estas sugerencias antes de enviar la solicitud.
+Rellenar formularios de IA puede ayudarle a rellenar automáticamente los campos de solicitud en función de una solicitud que haya introducido. También puede rellenar campos basados en la siguiente información que agregue al mensaje:
+
+* Un correo electrónico
+* Documentos cargados
+* Un vínculo a un proyecto, tarea o problema.
+
+Puede aprobar o rechazar estas sugerencias antes de enviar la solicitud.
 
 Esta funcionalidad está disponible al crear una solicitud en el área Solicitudes de Workfront, tanto para solicitudes de Workfront como de Workfront Planning.
 
@@ -155,6 +165,7 @@ Para utilizar sugerencias basadas en un mensaje de texto pegado:
    >[!NOTE]
    >
    >Las sugerencias que no se hayan revisado se aceptarán automáticamente cuando envíe la solicitud.
+1. Haga clic en **Enviar** para enviar la solicitud.
 
 ### Ejemplos de mensajes de texto
 
@@ -342,6 +353,43 @@ Puede cargar un documento para aplicarlo a todo el formulario o a una sola secci
    >[!NOTE]
    >
    >Las sugerencias que no se hayan revisado se aceptarán automáticamente cuando envíe la solicitud.
+1. Haga clic en **Enviar** para enviar la solicitud.
+
+### Agregar un vínculo a otro objeto para rellenar automáticamente una solicitud
+
+Puede agregar un vínculo a un proyecto, tarea o problema existente para que se aplique a todo el formulario o a una sola sección del formulario.
+
+1. Vaya a un proyecto, tarea o problema cuya información desee incluir en una nueva solicitud y copie el vínculo del objeto de la línea de dirección del explorador al portapapeles.
+
+   El proyecto, la tarea o el problema deben estar en la misma instancia de Workfront que la solicitud.
+
+1. Comience a crear una solicitud.
+
+   Para obtener instrucciones, consulte [Crear y enviar solicitudes](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md).
+
+1. Para aplicar información de un objeto vinculado a todo el formulario, haga clic en el **icono de IA** ![icono de IA](assets/request-prompt-icon.png) debajo del nombre del formulario.
+
+   O
+
+   Para aplicar la información del objeto vinculado para una sola sección, haga clic en el **icono de IA** ![icono de IA](assets/request-prompt-icon.png) junto al nombre de la sección.
+
+1. Comience a añadir la solicitud y, a continuación, pegue el vínculo copiado del proyecto, tarea o problema en la ventana de solicitud.
+1. (Condicional) Haga clic en **Aplicar al formulario** o **Aplicar a la sección**.
+1. Haga clic en **Rellenar el formulario** o **Rellenar la sección**.
+
+   Workfront genera sugerencias para el formulario.
+1. Para cada sugerencia de campo, haga clic en los iconos **Aceptar sugerencia** o **Rechazar sugerencia** para ese campo.
+
+   ![Aceptar o rechazar sugerencia](assets/accept-reject-suggestion.png)
+
+   O
+
+   Seleccione **Aceptar todo** o **Rechazar todo** en la parte superior de la página para aceptar o rechazar todas las sugerencias.
+
+   >[!NOTE]
+   >
+   >Las sugerencias que no se hayan revisado se aceptarán automáticamente cuando envíe la solicitud.
+1. Haga clic en **Enviar** para enviar la solicitud.
 
 ## Resolución de problemas
 
