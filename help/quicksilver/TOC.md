@@ -3,7 +3,7 @@ user-guide-title: Guía de Workfront
 user-guide-description: Utilice los siguientes documentos, tutoriales y recursos adicionales para aprender a implementar y utilizar Adobe Workfront de forma eficaz en su organización.
 role: User
 feature-set: Workfront
-source-git-commit: 64a18dc29c447ca4703fb25102663952942790ca
+source-git-commit: 6f3bc007af7971e8c66fec24930ec12e6c96a915
 workflow-type: tm+mt
 source-wordcount: '14574'
 ht-degree: 92%
@@ -2253,7 +2253,7 @@ ht-degree: 92%
     * [Compartir tipos de registro](planning/access/share-record-types.md)
     * [Compartir vistas](planning/access/share-views.md)
     * [Compartir registros](planning/access/share-records.md)
-    * {hide-from-toc}[Compartir campos de Workfront Planning](planning/access/share-fields.md)
+    * [Compartir campos de Workfront Planning](planning/access/share-fields.md)
     * [Establecer permisos predeterminados para los registros](planning/access/set-default-record-permissions.md)
     * [Solicitar permisos para una vista o un espacio de trabajo](planning/access/request-permissions.md)
   * Registros de Planificación de Workfront de Adobe {#adobe-workfront-planning-records}
@@ -2661,7 +2661,7 @@ ht-degree: 92%
     * [Configure y utilice las aplicaciones OAuth 2 personalizadas de la organización mediante el flujo JWT](wf-api/api/oauth-app-jwt-flow.md)
     * [Configure y utilice las aplicaciones OAuth 2 personalizadas de su organización mediante el flujo PKCE](wf-api/api/oauth-app-pkce-flow.md)
     * [Obsolescencia de la API interna](wf-api/api/deprecation-api-internal.md)
-    * [Novedades de la versión 22 de la API](/help/quicksilver/wf-api/api/new-api-version-22.md)
+    * [Novedades de la versión 22](/help/quicksilver/wf-api/api/new-api-version-22.md) de la API
     * [Novedades de la versión 21 de la API](/help/quicksilver/wf-api/api/new-api-version-21.md)
     * [Novedades de la versión 20 de la API](/help/quicksilver/wf-api/api/new-api-version-20.md)
     * [Novedades de la versión 19 de la API](wf-api/api/new-api-version-19.md)
