@@ -3,9 +3,9 @@ user-guide-title: Guía de Workfront
 user-guide-description: Utilice los siguientes documentos, tutoriales y recursos adicionales para aprender a implementar y utilizar Adobe Workfront de forma eficaz en su organización.
 role: User
 feature-set: Workfront
-source-git-commit: b529b3aded4ab92015683a0ddccd152bc2cc798c
+source-git-commit: 64a18dc29c447ca4703fb25102663952942790ca
 workflow-type: tm+mt
-source-wordcount: '14569'
+source-wordcount: '14574'
 ht-degree: 92%
 ---
 # Guía de Workfront {#using}
@@ -19,12 +19,13 @@ ht-degree: 92%
     * [Prepárese para una versión trimestral de Adobe Workfront](product-announcements/product-releases/release-readiness.md)
     * Versión del cuarto trimestre de 2026 {#release-26-q4}
       * [Resumen de la versión del cuarto trimestre de 2026](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-release-overview.md)
-      * [Mejoras de IA en el cuarto trimestre de 2026](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-ai.md)
       * [Mejoras del administrador del cuarto trimestre de 2026](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-admin-and-setup.md)
+      * [Mejoras de IA en el cuarto trimestre de 2026](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-ai.md)
       * [Mejoras en los documentos del cuarto trimestre de 2026](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-documents.md)
       * [Mejoras de gestión financiera del cuarto trimestre de 2026](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-financial-management-enhancements.md)
       * [Mejoras del proyecto del cuarto trimestre de 2026](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-projects.md)
       * [Mejoras en los informes del cuarto trimestre de 2026](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-reports.md)
+      * [Cuarto trimestre de 2026 Solicitud de mejoras](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-requests.md)
       * [Mejoras en la administración de recursos del cuarto trimestre de 2026](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-resource-mgmt.md)
       * [Cuarto trimestre de 2026 Otras mejoras](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-other.md)
     * Versión del tercer trimestre de 2026 {#release-26-q3}
@@ -2660,7 +2661,7 @@ ht-degree: 92%
     * [Configure y utilice las aplicaciones OAuth 2 personalizadas de la organización mediante el flujo JWT](wf-api/api/oauth-app-jwt-flow.md)
     * [Configure y utilice las aplicaciones OAuth 2 personalizadas de su organización mediante el flujo PKCE](wf-api/api/oauth-app-pkce-flow.md)
     * [Obsolescencia de la API interna](wf-api/api/deprecation-api-internal.md)
-    * [Novedades de la versión 22 de la API](/help/quicksilver/wf-api/api/new-api-version-22.md)
+    * [Novedades de la versión 22](/help/quicksilver/wf-api/api/new-api-version-22.md) de la API
     * [Novedades de la versión 21 de la API](/help/quicksilver/wf-api/api/new-api-version-21.md)
     * [Novedades de la versión 20 de la API](/help/quicksilver/wf-api/api/new-api-version-20.md)
     * [Novedades de la versión 19 de la API](wf-api/api/new-api-version-19.md)
