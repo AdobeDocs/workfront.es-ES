@@ -13,20 +13,23 @@ git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/wph4vcZj6iJCRSWrh6CHLwRhspLqbV-HL0qoZEwV-OI
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
+    internal-label: Administration
+source-git-commit: 4ee702aeded88e330ec456a0e6b5cf1813bfb64e
 workflow-type: tm+mt
-source-wordcount: 1528
-ht-degree: 38%
-
+source-wordcount: '1550'
+ht-degree: 37%
 ---
-
 # Vista de solicitudes enviadas
 
 <!--
@@ -56,8 +59,9 @@ El área Solicitudes muestra las siguientes solicitudes, en función de cómo de
   >[!NOTE]
   >
   >* Solo puede ver sus propias solicitudes de borrador.
-  >* En la nueva experiencia solicitante, las solicitudes enviadas y los borradores se encuentran en la misma lista.
+  >* En la nueva experiencia de solicitud, las solicitudes enviadas y los borradores se encuentran en la misma lista.
   >* Los borradores creados en la experiencia heredada no se muestran en la nueva experiencia de solicitud.
+  >* En la nueva experiencia de solicitud, solo podrá ver las solicitudes antiguas de Workfront desde julio de 2025 hasta el día de hoy. <!--replace this bullet with this: In the Production environment, in the new request experience, you can see old Workfront requests only from July 2025 to the present day. <span class="preview">In the Preview environment, in the new request experience, you can see old Workfront requests only from 2023 to the present day. You can see all Workfront requests in the legacy experience.</span>-->
 
 ## Requisitos de acceso
 
@@ -166,8 +170,8 @@ Para ver las solicitudes que usted u otros usuarios han enviado en la nueva expe
    * **En revisión**: (solo en planeación) Esta solicitud tiene aprobadores y al menos un aprobador ha abierto la solicitud, pero no se ha tomado ninguna decisión. Este estado está codificado.
    * **Rechazada**: (Solo en Planning) Esta solicitud tiene aprobadores y ha sido rechazada. Esta solicitud no creará un registro. Este estado está codificado.
    * **En curso**:
-      * Solicitudes Workfront: la solicitud se ha convertido y el trabajo está en curso.
-      * Solicitudes de Workfront Planning: la finalización de la solicitud se asigna a un campo de Planning específico y el valor del campo aún no coincide con el valor de finalización.
+     * Solicitudes Workfront: la solicitud se ha convertido y el trabajo está en curso.
+     * Solicitudes de Workfront Planning: la finalización de la solicitud se asigna a un campo de Planning específico y el valor del campo aún no coincide con el valor de finalización.
    * **En espera**: esto está disponible para las solicitudes de Workfront. Los usuarios pueden configurarla manualmente.
    * **Completar**: se ha creado el registro de Planning que completa la solicitud. (Solo en Planning)
    <!--
