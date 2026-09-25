@@ -4,9 +4,9 @@ description: Esta página proporciona información sobre la funcionalidad que se
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: c72b03eca291790dbda954c316fbf19d7021379e
+source-git-commit: 19ac0dd5e22782ed5262deb096f24f0d18ccc2f1
 workflow-type: tm+mt
-source-wordcount: '2835'
+source-wordcount: '2877'
 ht-degree: 9%
 ---
 # Resumen de la versión del cuarto trimestre de 2026
@@ -563,17 +563,15 @@ Se celebran seminarios web en directo para cada versión trimestral, en los que 
             <td><strong>Versión rápida</strong></td>
             <td><strong>Trimestralmente</strong></td>
         </tr>
-<!--
         <tr>
             <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-requests.md" class="MCXref xref" xrefformat="{para}">View historical requests from up to 3 years in the new request experience</a>
-                <p>You can now access Workfront issue requests submitted up to 3 years before July 2025 from the new request experience.</p>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-requests.md" class="MCXref xref" xrefformat="{para}">Ver solicitudes históricas de hasta 3 años en la nueva experiencia de solicitud</a>
+                <p>Ahora puede acceder a las solicitudes de incidencias de Workfront enviadas hasta tres años antes de julio de 2025 desde la nueva experiencia de solicitud.</p>
             </td>
-            <td><p>September 24, 2026</p></td>
-            <td><p>October 14, 2026</p></td>
-            <td><p>October 15, 2026</p></td>
+            <td><p>24 de septiembre de 2026</p></td>
+            <td><p>14 de octubre de 2026</p></td>
+            <td><p>15 de octubre de 2026</p></td>
         </tr>
--->
         <tr>
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-requests.md" class="MCXref xref" xrefformat="{para}">AI Form Fill ahora extrae datos de registros a los que se hace referencia con un vínculo</a><p>[!BADGE Off schedule]{type=Neutral}</p>
