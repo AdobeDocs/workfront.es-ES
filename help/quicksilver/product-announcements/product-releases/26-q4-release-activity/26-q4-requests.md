@@ -4,10 +4,10 @@ description: Mejoras en las solicitudes del cuarto trimestre de 2026
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: d0feaa93676bdd96343454e419792f13a9eedaa0
+source-git-commit: 19ac0dd5e22782ed5262deb096f24f0d18ccc2f1
 workflow-type: tm+mt
-source-wordcount: '161'
-ht-degree: 9%
+source-wordcount: '227'
+ht-degree: 7%
 ---
 # Mejoras en las solicitudes del cuarto trimestre de 2026
 
@@ -15,21 +15,17 @@ Esta página describe las mejoras de solicitudes realizadas con la versión del 
 
 Para obtener una lista de todos los cambios disponibles en este punto del ciclo de la versión del cuarto trimestre de 2026, consulte [Información general de la versión del cuarto trimestre de 2026](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-release-overview.md).
 
-<!--
-
-## View historical requests from up to 3 years in the new request experience
+## Ver solicitudes históricas de hasta 3 años en la nueva experiencia de solicitud
 
 >[!NOTE]
 >
->Preview: September 24, 2026
->Production fast release: October 14, 2026
->Production for everyone: October 15, 2026
+>Vista previa: 24 de septiembre de 2026
+>Versión rápida de producción: 14 de octubre de 2026
+>Producción para todos: 15 de octubre de 2026
 
-You can now access Workfront issue requests submitted up to 3 years before July 2025 from the new request experience. Previously, you only had access to requests submitted after July 2025.
+Ahora puede acceder a las solicitudes de incidencias de Workfront enviadas hasta tres años antes de julio de 2025 desde la nueva experiencia de solicitud. Anteriormente, solo tenía acceso a las solicitudes enviadas después de julio de 2025.
 
-For information, see [View submitted requests](/help/quicksilver/manage-work/requests/create-requests/locate-submitted-requests.md).
-
--->
+Para obtener más información, consulte [Ver solicitudes enviadas](/help/quicksilver/manage-work/requests/create-requests/locate-submitted-requests.md).
 
 ## AI Form Fill ahora extrae datos de registros a los que se hace referencia con un vínculo
 
