@@ -6,9 +6,21 @@ author: Becky
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 19ac0dd5e22782ed5262deb096f24f0d18ccc2f1
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+source-git-commit: 3934b1b333f86c8c700617871bfaac23d2b19213
 workflow-type: tm+mt
-source-wordcount: '2785'
+source-wordcount: '2783'
 ht-degree: 2%
 ---
 # Actividad de la versión del cuarto trimestre de 2026 para Adobe Workfront Planning
@@ -21,7 +33,7 @@ Para obtener una lista de todas las características publicadas para Adobe Workf
 
 >[!NOTE]
 >
->Vista previa: 24 de septiembre de 2026
+>Vista previa: 25 de septiembre de 2026
 >Versión rápida de producción: 14 de octubre de 2026
 >Producción para todos: 15 de octubre de 2026
 
@@ -37,7 +49,7 @@ Para obtener más información, consulte [Compartir campos de Workfront Planning
 
 >[!NOTE]
 >
->Vista previa: 24 de septiembre de 2026
+>Vista previa: 25 de septiembre de 2026
 >Versión rápida de producción: 14 de octubre de 2026
 >Producción para todos: 15 de octubre de 2026
 
@@ -51,7 +63,7 @@ Para obtener más información, consulte [Compartir registros de Planning](/help
 
 >[!NOTE]
 >
->Vista previa: 24 de septiembre de 2026
+>Vista previa: 25 de septiembre de 2026
 >Versión rápida de producción: 14 de octubre de 2026
 >Producción para todos: 15 de octubre de 2026
 
@@ -63,7 +75,7 @@ Para obtener más información, consulte [Crear y administrar un formulario de s
 
 >[!NOTE]
 >
->Vista previa: 24 de septiembre de 2026
+>Vista previa: 25 de septiembre de 2026
 >Versión rápida de producción: 14 de octubre de 2026
 >Producción para todos: 15 de octubre de 2026
 
@@ -73,11 +85,11 @@ Además, ahora puede editar las opciones de un campo directamente desde el formu
 
 Para obtener más información, consulte [Crear formulario de solicitud](/help/quicksilver/planning/requests/create-request-form.md).
 
-## Configurar las capacidades de cada nivel de acceso por formulario de solicitud
+## Configurar permisos predeterminados para solicitantes en formularios de solicitud de Planning
 
 >[!NOTE]
 >
->Vista previa: 24 de septiembre de 2026
+>Vista previa: 25 de septiembre de 2026
 >Versión rápida de producción: 14 de octubre de 2026
 >Producción para todos: 15 de octubre de 2026
 
@@ -87,7 +99,7 @@ Los solicitantes pueden obtener los siguientes permisos para una solicitud que h
 
 Para obtener más información, consulte [Crear y administrar un formulario de solicitud en Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
 
-## AI Form Fill ahora extrae datos de registros a los que se hace referencia con un vínculo
+## AI Form Fill extrae datos de registros a los que se hace referencia con un vínculo
 
 >[!NOTE]
 >
@@ -98,7 +110,7 @@ Ahora, el relleno de formulario AI puede recuperar datos de campo directamente d
 
 Para obtener más información, consulte [Usar el rellenado de formulario con tecnología de IA para rellenar una solicitud mediante avisos o documentos](/help/quicksilver/manage-work/requests/create-requests/autofill-from-prompt-document.md).
 
-## CX Coworker ahora disponible en Workfront Planning
+## CX Coworker disponible en Workfront Planning
 
 >[!NOTE]
 >
@@ -120,7 +132,7 @@ El compañero está reemplazando al asistente de IA actual como una forma más p
 
 Para obtener más información, consulte [Información general de CX Coworker](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md).
 
-## Se ha eliminado el icono Asistente de IA en el cuadro de vista previa de detalles como preparación para el lanzamiento de CX Coworker
+## El icono del asistente de IA se ha eliminado del cuadro de vista previa de detalles de registro como preparación para el lanzamiento de CX Coworker
 
 >[!NOTE]
 >
@@ -194,7 +206,7 @@ Para obtener más información, consulte [Configurar reglas de negocio de tipo d
 >* **Crear formularios de solicitud** y **Administrar formularios de solicitud** han cambiado a **Formularios de solicitud**
 >* **Administrar automatizaciones** ha cambiado a **Automaciones**
 
-## Introducción de semanas personalizadas para la vista de cronología
+## Semanas personalizadas para la vista de cronología
 
 >[!NOTE]
 >
@@ -238,7 +250,7 @@ Las vistas de cronología ahora incluyen las opciones Contraer todo y Expandir t
 
 Para obtener más información, consulte [Administrar la vista de cronología](/help/quicksilver/planning/views/manage-the-timeline-view.md).
 
-## Ver nombres de grupos completos y cambiar el tamaño del panel de agrupación en la vista de cronología
+## Mostrar nombres de grupos completos y cambiar el tamaño del panel de agrupación en la vista de cronología
 
 >[!NOTE]
 >
@@ -331,7 +343,7 @@ Para obtener más información, consulte [Aptitudes disponibles para la instalac
 >Versión rápida de producción: 13 de agosto de 2026
 >Producción para todos: 15 de octubre de 2026
 
-Se ha mejorado visualmente la experiencia de arrastrar y soltar filas en la vista de tabla.
+Se ha mejorado visualmente la experiencia de arrastrar y soltar filas individuales en la vista de tabla.
 
 Para obtener más información, consulte [Administrar la vista de tabla](/help/quicksilver/planning/views/manage-the-table-view.md).
 
@@ -356,9 +368,6 @@ Esta actualización incluye las siguientes funciones:
 
 
 Para obtener más información, consulte [Administrar conexiones dependientes](/help/quicksilver/planning/architecture/manage-dependent-connections.md).
-
-
-
 
 ## Mostrar el nuevo indicador de comentario de un registro en la vista de tabla
 

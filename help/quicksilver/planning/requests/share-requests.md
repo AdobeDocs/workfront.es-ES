@@ -5,10 +5,24 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: 4ee702aeded88e330ec456a0e6b5cf1813bfb64e
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+subfeature_v2:
+  - id: eb361af2-3e4f-4a79-b5f3-7a344ac5794c
+    internal-label: Workfront Planning
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+source-git-commit: 3934b1b333f86c8c700617871bfaac23d2b19213
 workflow-type: tm+mt
-source-wordcount: '544'
-ht-degree: 6%
+source-wordcount: '592'
+ht-degree: 5%
 ---
 # Compartir solicitudes de Planning
 
@@ -86,6 +100,7 @@ Para obtener más información acerca de los requisitos de acceso de Workfront, 
 
 * Distintas personas y equipos pueden tener diferentes niveles de acceso en la misma solicitud.
 * Los permisos se pueden asignar a través de varias entidades. Si un usuario tiene permisos de contribución en una solicitud pero su grupo o función de trabajo tiene permisos de visualización, conserva el nivel más alto de permisos, que es de contribución.
+* Las solicitudes heredan los permisos del espacio de trabajo y del tipo de registro. No puede quitar ni editar permisos heredados para solicitudes de Planning.
 
 ## Compartir una solicitud
 
@@ -110,7 +125,14 @@ Asegúrese de utilizar la nueva experiencia de solicitud.
 1. (Opcional) Para cada nivel de permiso, haga clic en el icono de permiso granular y seleccione o anule la selección de cualquier permiso granular, como **Editar**, **Comentario**, **Compartir** o **Eliminar**.
 
    ![Permisos granulares en solicitudes](assets/granular-permissions-on-requests.png)
+1. (Opcional) Expanda la línea Permisos heredados para ver quién obtiene permisos del espacio de trabajo y el tipo de registro.
+
+   >[!TIP]
+   >
+   >No puede quitar ni editar permisos heredados para solicitudes de Planning.
+
 1. Haga clic en **Guardar**.
+
 
    La solicitud se comparte con las entidades seleccionadas.
 
