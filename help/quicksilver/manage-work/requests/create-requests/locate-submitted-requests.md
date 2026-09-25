@@ -25,10 +25,10 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4ee702aeded88e330ec456a0e6b5cf1813bfb64e
+source-git-commit: 3b3d455ded251b06084249cf9df12c1f112f05e9
 workflow-type: tm+mt
-source-wordcount: '1550'
-ht-degree: 37%
+source-wordcount: '1646'
+ht-degree: 36%
 ---
 # Vista de solicitudes enviadas
 
@@ -36,13 +36,11 @@ ht-degree: 37%
 Remove production and preview references at release
 -->
 
-<!--
+<span class="preview">La información resaltada en esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa para todos los clientes. Después del lanzamiento en Vista previa, las mismas funciones también están disponibles mensualmente en el entorno de producción para los clientes que habilitaron lanzamientos rápidos. </span>
 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">Para obtener información sobre las versiones rápidas, consulte [Habilitar o deshabilitar las versiones rápidas para su organización](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
--->
 
 Puede ver las solicitudes que usted u otra persona ha enviado, o las solicitudes que ha iniciado pero que nunca ha terminado de enviar. Las solicitudes no finalizadas se guardarán como borradores.
 
@@ -61,7 +59,7 @@ El área Solicitudes muestra las siguientes solicitudes, en función de cómo de
   >* Solo puede ver sus propias solicitudes de borrador.
   >* En la nueva experiencia de solicitud, las solicitudes enviadas y los borradores se encuentran en la misma lista.
   >* Los borradores creados en la experiencia heredada no se muestran en la nueva experiencia de solicitud.
-  >* En la nueva experiencia de solicitud, solo podrá ver las solicitudes antiguas de Workfront desde julio de 2025 hasta el día de hoy. <!--replace this bullet with this: In the Production environment, in the new request experience, you can see old Workfront requests only from July 2025 to the present day. <span class="preview">In the Preview environment, in the new request experience, you can see old Workfront requests only from 2023 to the present day. You can see all Workfront requests in the legacy experience.</span>-->
+  >* En el entorno de producción, en la nueva experiencia de solicitud, puede encontrar solicitudes de Workfront enviadas solo desde julio de 2025 hasta el día de hoy. <span class="preview">En el entorno de vista previa, en la nueva experiencia de solicitud, puede encontrar solicitudes de Workfront enviadas solamente desde 2023 hasta el día de hoy. Puede ver todas las solicitudes de Workfront en la experiencia heredada.</span>
 
 ## Requisitos de acceso
 
