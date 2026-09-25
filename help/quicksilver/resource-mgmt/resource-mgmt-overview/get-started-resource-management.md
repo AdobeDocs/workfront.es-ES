@@ -10,26 +10,34 @@ exl-id: b10ef503-60ea-4450-b63e-b2918e9bcc11
 TQID: https://experienceleague.adobe.com/0-mIGjSaSi9gxuJ0tIYCmmGbBrgXWESmG3OtYoLnsfw
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource Management
 subfeature_v2:
   - id: c33d85a1-be85-4290-854c-87408c10aa80
+    internal-label: Workload Balancer
   - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+    internal-label: Timesheets
   - id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
+    internal-label: Resource Planner
   - id: d3382524-5489-431b-bde9-271ab257bc37
+    internal-label: Workfront Scenario Planner
   - id: e147ce9d-7675-49bd-8a32-44f27d865560
+    internal-label: Get started
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0d4726c4aacc316063bb9a47b590165202ca3ac0
+    internal-label: Administration
+source-git-commit: bc354886dc8c2f1dae24513f1d74e800e19fb3ab
 workflow-type: tm+mt
-source-wordcount: 1227
+source-wordcount: '1227'
 ht-degree: 88%
-
 ---
-
 # Introducción a la Administración de recursos
 
 <!-- Audited: 12/2023 -->
@@ -64,7 +72,7 @@ Workfront tiene varios conjuntos de herramientas para administrar recursos. Cada
 
 * Para programar o asignar recursos a trabajo real (tareas y problemas), utilice la siguiente herramienta:
 
-  * **Distribuidor de cargas de trabajo**: pertenece a una etapa de nivel inferior de la administración de recursos, en la que puede asignar sus recursos al trabajo real (tareas y problemas) que estos deben completar según la cantidad de horas que sean necesarias para completarlos y la disponibilidad de estos. Con el Distribuidor de cargas de trabajo, puede asignar usuarios o colaboradores de tareas a trabajo real que no esté asignado o asignado a roles actualmente.
+  * **Distribuidor de cargas de trabajo**: pertenece a una etapa de nivel inferior de la administración de recursos, en la que puede asignar sus recursos al trabajo real (tareas y problemas) que estos deben completar según la cantidad de horas que sean necesarias para completarlos y la disponibilidad de estos. Con el Distribuidor de cargas de trabajo puede asignar usuarios o agentes de trabajo al trabajo real que no está asignado o asignado a roles actualmente.
 
     Para obtener información acerca del Distribuidor de cargas de trabajo de Workfront, consulte [El Distribuidor de cargas de trabajo: índice de artículos](../../resource-mgmt/workload-balancer/workload-balancer.md).
 
@@ -109,8 +117,8 @@ El proceso de administración de recursos en Workfront incluye las siguientes et
   * Roles\
     Para obtener más información sobre cómo crear fuciones, consulte el artículo [Crear y administrar fuciones](../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
 
-  * Colaboradores de tareas
-    Para obtener más información sobre cómo crear colaboradores de tareas, consulte [Configurar un colaborador de tareas](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md#configure-a-task-collaborator) en el artículo [Configurar colaboradores de IA](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md).
+  * Agentes de trabajo
+    Para obtener más información sobre la creación de agentes de trabajo, consulte [Configurar un agente de trabajo](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md#configure-a-work-agent) en el artículo [Configurar colaboradores de IA](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md).
 
   * Horarios\
     Para obtener más información acerca de cómo crear programaciones, vea el artículo [Crear una programación](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).

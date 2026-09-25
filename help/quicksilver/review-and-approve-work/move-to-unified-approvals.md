@@ -6,13 +6,27 @@ description: Comprenda qué sucede con los flujos de trabajo de aprobación de d
 author: Courtney
 feature: System Setup and Administration, Work Management, Digital Content and Documents
 role: Admin
-source-git-commit: 8f3c5ed32c6496a13703a5dce771a84462aa7f05
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+source-git-commit: bc354886dc8c2f1dae24513f1d74e800e19fb3ab
 workflow-type: tm+mt
 source-wordcount: '429'
 ht-degree: 3%
-
 ---
-
 # Paso de aprobaciones de documentos heredados a aprobaciones unificadas
 
 Al pasar a una versión de Workfront compatible con el almacenamiento en la nube de Adobe, su organización también pasa de las aprobaciones de documentos heredados a las aprobaciones unificadas. Este artículo proporciona información sobre la funcionalidad que estará disponible en las aprobaciones unificadas, así como recomendaciones para los administradores de Workfront que mueven usuarios fuera de las aprobaciones de documentos heredados.
@@ -32,7 +46,7 @@ Al pasar a una versión de Workfront compatible con el almacenamiento en la nube
 | Fases y rutas de aprobación | Una fase de aprobación, sin rutas paralelas | [Varias etapas de aprobación y rutas de revisión paralelas](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md) |
 | Plantillas de aprobación | Cada aprobación configurada desde cero | [Plantillas reutilizables](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md) disponibles en la instalación de Workfront |
 | Revisión y marcado | Visualizador de revisiones | [Visualizador de revisiones](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/doc-approvals-and-proofing.md) en objetos de almacenamiento de Workfront heredados o el visualizador [Frame.io](/help/quicksilver/review-and-approve-work/workfront-storage.md#review-and-approval-viewer) en objetos de almacenamiento en la nube de Adobe |
-| Revisión asistida por IA | No disponible | Comprobaciones automáticas del cumplimiento de la marca con [Revisor de contenido](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md) |
+| Revisión asistida por IA | No disponible | Comprobaciones automáticas del cumplimiento de la marca con [Revisor de IA](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md) |
 | Creación de informes | Informes heredados | Widgets de KPI de inicio y [paneles de lienzo](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-review-and-approval-dashboard.md) |
 
 ### ¿Qué les sucede a las aprobaciones en curso?
@@ -55,4 +69,4 @@ Las aprobaciones en vuelo creadas en aprobaciones de documentos heredadas seguir
 * [Revisión y aprobación con el visor Frame.io](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/review-with-frame.md)
 * [Usar las aprobaciones unificadas y la revisión de forma conjunta](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/doc-approvals-and-proofing.md)
 * [Información general del estado de decisión del documento](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/document-approval-status.md)
-* [Introducción al Revisor de contenido de Workfront](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md)
+* [Introducción al Revisor de IA de Workfront](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md)
