@@ -5,12 +5,14 @@ title: Creación de un informe de tabla dinámica en un panel de lienzo
 description: Puede agregar un informe de tabla dinámica a un panel de lienzo para ver los totales agregados de los datos en formato de tabla.
 author: Courtney
 feature: Reports and Dashboards
-source-git-commit: 375d62fc12af075c2224f979d3ef87cdffdf03ea
+source-git-commit: d318a3f44752e01494374472ea295fa22ec97fc8
 workflow-type: tm+mt
 source-wordcount: '1510'
 ht-degree: 9%
 ---
 # Creación de un informe de tabla dinámica en un panel de lienzo
+
+{{highlighted-preview-article-level}}
 
 >[!IMPORTANT]
 >

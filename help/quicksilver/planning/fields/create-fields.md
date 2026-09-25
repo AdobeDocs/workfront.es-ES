@@ -1,6 +1,6 @@
 ---
 title: Crear campos
-description: En Adobe Workfront Planning, puede crear campos personalizados para cada tipo de registro. A continuación, puede asociar el campo con los registros de Workfront Planning.
+description: En Planificación de Workfront de Adobe, puede crear campos personalizados para cada tipo de registro. A continuación, puede asociar el campo con los registros de Planificación de Workfront.
 feature: Workfront Planning
 role: User, Admin
 author: Alina
@@ -11,23 +11,28 @@ git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
 TQID: https://experienceleague.adobe.com/S5Cb-wdfeCKuogJgIlfVZ-J3rUn0ca0NG1-SSD2SPJA
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
 subfeature_v2:
   - id: e147ce9d-7675-49bd-8a32-44f27d865560
+    internal-label: Get started
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: f8dfa5a4aec4541d885bcc45933488cd1fdefac4
+    internal-label: Administration
+source-git-commit: adda394cd1896753d3b6688eed528f92738eedcf
 workflow-type: tm+mt
-source-wordcount: 5442
-ht-degree: 48%
-
+source-wordcount: '5561'
+ht-degree: 47%
 ---
-
 <!--
 Should the structure of this article be like this other one: https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/customize/custom-forms/custom-form-builder/use-the-custom-form-builder/add-a-custom-field-to-a-custom-form.html?lang=es ??
 -->
@@ -42,21 +47,18 @@ Do we need this for FORMULAS: when we release permissions to RECORDS and we rele
 
 # Crear campos
 
-<!--information about choice values must stay in yellow till Jan 2026-->
+<span class="preview">La información resaltada en esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa para todos los clientes. Después del lanzamiento en Vista previa, las mismas funciones también están disponibles mensualmente en el entorno de producción para los clientes que habilitaron lanzamientos rápidos. </span>
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">Para obtener información sobre las versiones rápidas, consulte [Habilitar o deshabilitar las versiones rápidas para su organización](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
 
 {{planning-important-intro}}
 
-En Adobe Workfront Planning, puede crear campos personalizados para los tipos de registro. A continuación, puede asociar los campos con los registros de Workfront Planning para mejorar la información de los registros.
+En Planificación de Workfront de Adobe, puede crear campos personalizados para los tipos de registro. A continuación, puede asociar los campos con los registros de Planificación de Workfront para mejorar la información de los registros.
 
 Debe crear tipos de registro antes de poder crear campos que se asocien a ellos. Para obtener más información, consulte [Crear tipos de registro](/help/quicksilver/planning/architecture/create-record-types.md).
 
-Puede crear campos de las siguientes maneras en Workfront Planning:
+Puede crear campos de las siguientes maneras en Planificación de Workfront:
 
 * [Desde cero](#create-fields-from-scratch)
 * [Conectando tipos de registro](#create-fields-by-connecting-record-types)
@@ -65,7 +67,7 @@ Puede crear campos de las siguientes maneras en Workfront Planning:
 * [Mediante la importación de tipos de registro mediante un archivo CSV o de Excel](#create-fields-when-importing-record-types-from-a-csv-or-excel-file)
 * [Mediante la importación de copias de campos de Workfront existentes](#create-fields-by-importing-them-from-workfront)
 
-Para obtener más información acerca de los campos de Workfront Planning, consulte [Información general sobre los campos](/help/quicksilver/planning/fields/fields-overview.md).
+Para obtener más información acerca de los campos de Planificación de Workfront, consulte [Información general sobre los campos](/help/quicksilver/planning/fields/fields-overview.md).
 
 ## Requisitos de acceso
 
@@ -193,7 +195,7 @@ Al crear un tipo de registro, también se crean de forma predeterminada varios c
 
 ## Creación de campos creando un espacio de trabajo a partir de una plantilla
 
-Adobe Workfront Planning crea campos para los tipos de registro al crear un espacio de trabajo a partir de una plantilla.
+Planificación de Workfront de Adobe crea campos para los tipos de registro al crear un espacio de trabajo a partir de una plantilla.
 
 Para obtener más información, consulte [Crear espacios de trabajo](/help/quicksilver/planning/architecture/create-workspaces.md).
 
@@ -295,6 +297,10 @@ Para obtener más información, consulte [Importar campos de Workfront](/help/qu
     -->
 
 1. Siga añadiendo cada campo, tal como se describe en las secciones siguientes.
+
+1. <span class="preview"> (opcional y condicional) Después de agregar un campo, pase el ratón sobre el nombre del campo en el encabezado de columna de la vista de tabla y haga clic en el menú desplegable **Más**; a continuación, **Compartir campo** para compartir el campo. </span>
+
+   </span>Para obtener más información, consulte [Compartir campos](/help/quicksilver/planning/access/share-fields.md). </span>
 
 ### Texto de línea única {#single-line-text}
 
@@ -613,7 +619,7 @@ Para obtener más información, consulte [Información general sobre campos de f
    >Recibirá un mensaje de advertencia al editar o crear un campo de fórmula que pueda causar una referencia circular a sí mismo o a campos compartidos. No se puede guardar un campo de fórmula que haga referencia a sí mismo o a elementos a los que se hace referencia en su cálculo.
 
 
-1. Añada los nombres de campo tal y como se muestran en Workfront Planning para hacer referencia a ellos en una fórmula.
+1. Añada los nombres de campo tal y como se muestran en Planificación de Workfront para hacer referencia a ellos en una fórmula.
 
    >[!NOTE]
    >
