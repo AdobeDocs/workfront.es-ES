@@ -5,10 +5,24 @@ author: Alina, Becky
 feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: b529b3aded4ab92015683a0ddccd152bc2cc798c
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+subfeature_v2:
+  - id: eb361af2-3e4f-4a79-b5f3-7a344ac5794c
+    internal-label: Workfront Planning
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+source-git-commit: 3934b1b333f86c8c700617871bfaac23d2b19213
 workflow-type: tm+mt
-source-wordcount: '1119'
-ht-degree: 17%
+source-wordcount: '1128'
+ht-degree: 16%
 ---
 
 # Información general sobre Adobe Workfront Planning CX Coworker
@@ -138,20 +152,19 @@ Puede localizar CX Coworker en las siguientes áreas de Workfront Planning:
 
 ## Acceda a CX Coworker en el área de planificación
 
-
 1. Inicie sesión en Workfront, luego haga clic en el icono **Menú principal** ![Menú principal de líneas](assets/lines-main-menu.png) en la esquina superior izquierda y, a continuación, haga clic en **Planificación**.
 
    Se abre el área de Planning.
 
-   Busque el **icono de IA** ![icono de IA](assets/ai-icon.png) en la esquina superior derecha de la página o continúe con los pasos a continuación.
+   Busque el icono **Coworker** ![Icono de Coworker](assets/coworker-icon.png) en la esquina superior derecha de la página o continúe con los pasos a continuación.
 
 1. Haga clic en una **tarjeta del espacio de trabajo**.
 
 1. Haga clic en **tarjeta de tipo de registro**.
 
-1. Haga clic en un **registro** para abrir la página **Detalles** del registro y, a continuación, haga clic en abrir en
+1. Haga clic en un **registro** para abrir la página **Detalles** del registro y, a continuación, haga clic en el icono **Abrir en ficha nueva** ![Abrir en ficha nueva](assets/open-workspace-on-new-tab-icon.png) .
 
-1. Haga clic en el **icono de CX Coworker** en la esquina superior derecha de la pantalla.
+1. Haga clic en el **icono de CX Coworker** ![icono de compañero](assets/coworker-icon.png) en la esquina superior derecha de la pantalla.
 
 1. En el espacio proporcionado, empiece a escribir comandos para CX Coworker y, a continuación, haga clic en Entrar cuando haya terminado.
 

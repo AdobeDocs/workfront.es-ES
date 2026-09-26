@@ -1,36 +1,44 @@
 ---
 product-area: documents
 navigation-topic: approvals
-title: Crear y administrar marcas para el Revisor de contenido
-description: Crear y administrar marcas para el Revisor de contenido
+title: Crear y administrar marcas para el Revisor de IA
+description: Crear y administrar marcas para el Revisor de IA
 author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: b2788f3f-43d2-46f3-8502-bb833f8a0970
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/ezurCOB6dbk6JPL0eY33C9nR8lXVLMHl-SUTfAbVeTg
+TQID: 'https://experienceleague.adobe.com/ezurCOB6dbk6JPL0eY33C9nR8lXVLMHl-SUTfAbVeTg'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: d2576b0e5abc0c4c46de740f1ea510452351a959
+    internal-label: Administration
+source-git-commit: bc354886dc8c2f1dae24513f1d74e800e19fb3ab
 workflow-type: tm+mt
-source-wordcount: 627
+source-wordcount: '627'
 ht-degree: 7%
-
 ---
+# Crear y administrar marcas para el Revisor de IA
 
-# Crear y administrar marcas para el Revisor de contenido
-
-El revisor de contenido utiliza directrices de marca para evaluar el contenido durante el proceso de revisión. Puede crear marcas en Workfront cargando archivos de PDF que contengan las directrices de marca o introduciendo manualmente elementos de marca.
+El revisor de IA utiliza directrices de marca para evaluar el contenido durante el proceso de revisión. Puede crear marcas en Workfront cargando archivos de PDF que contengan las directrices de marca o introduciendo manualmente elementos de marca.
 
 ## Requisitos de acceso
 
@@ -69,7 +77,7 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
 * La instancia de Workfront debe tener habilitadas las aprobaciones unificadas.
 
 * Su organización debe tener GenStudio Foundation.
-  * El Revisor de contenido de Workfront proporciona la funcionalidad disponible en GenStudio Foundation para los flujos de trabajo de revisión y aprobación de recursos. No es necesario que acceda directamente a GenStudio Foundation para completar su trabajo. El acceso a la funcionalidad de GenStudio Foundation a través del Revisor de contenido se encuentra dentro de los términos del contrato de Workfront.
+  * El revisor de IA de Workfront proporciona la funcionalidad disponible en GenStudio Foundation para los flujos de trabajo de revisión y aprobación de recursos. No es necesario que acceda directamente a GenStudio Foundation para completar su trabajo. El acceso a la funcionalidad de GenStudio Foundation a través de AI Reviewer se encuentra dentro de los términos de su contrato de Workfront.
 * Adobe debe tener registrado un acuerdo de Adobe Gen AI.
 Para obtener más información sobre la firma del acuerdo, consulte [Firmar el acuerdo de Adobe Gen AI](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#sign-the-adobe-gen-ai-agreement).
 
@@ -96,7 +104,7 @@ Para obtener más información sobre la firma del acuerdo, consulte [Firmar el a
    >
    >Las directrices se generan mediante los archivos y la tecnología de IA generativa y pueden ser inexactas. Revise las directrices extraídas para ver los detalles que faltan o son incorrectos y edítelas antes de publicar esta marca.
 
-1. Cuando termine, haga clic en **Publicar** para que la marca esté disponible para el Revisor de contenido.
+1. Cuando termine, haga clic en **Publicar** para que la marca esté disponible para el Revisor de IA.
 
 ## Crear una marca manualmente
 
@@ -138,14 +146,14 @@ Para obtener más información sobre la firma del acuerdo, consulte [Firmar el a
    ![agregar elementos de marca manualmente](assets/brand-elements.png)
 
 
-1. Cuando termine, haga clic en **Publicar** para que la marca esté disponible para el Revisor de contenido.
+1. Cuando termine, haga clic en **Publicar** para que la marca esté disponible para el Revisor de IA.
 
 
 ## Prácticas recomendadas para escribir directrices de marca
 
-Antes de escribir las directrices, revise [lo que el revisor de contenido evalúa](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md#what-content-reviewer-evaluates) para los tipos de directrices de voz de marca y de imagen. No se puntuarán las directrices que no pertenezcan a estas áreas de evaluación.
+Antes de escribir las directrices, revise [lo que el revisor de IA evalúa](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md#what-ai-reviewer-evaluates) para los tipos de directrices de voz de marca y de imagen. No se puntuarán las directrices que no pertenezcan a estas áreas de evaluación.
 
-*  Escriba directrices de marca que describan criterios mensurables. El Revisor de contenido evalúa el contenido literalmente, por lo que las reglas objetivas producen puntuaciones más coherentes que las subjetivas.
+*  Escriba directrices de marca que describan criterios mensurables. El revisor de IA evalúa el contenido literalmente, por lo que las reglas objetivas producen puntuaciones más coherentes que las subjetivas.
 
 * Busque palabras como &quot;evitar&quot;, &quot;mantener&quot; o &quot;asegurarse&quot; en las directrices. Estos suelen indicar una regla que puede ajustar. Reemplace la instrucción vaga por una lista específica de palabras, formatos o límites. Por ejemplo, reemplace &quot;evitar clichés comunes sobre el esquí&quot; por &quot;no use &#39;gnar&#39;, &#39;pow&#39; o &#39;shred&#39;&quot;.
 

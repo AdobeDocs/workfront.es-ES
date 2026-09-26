@@ -10,25 +10,32 @@ exl-id: 9398bd04-9df7-4b77-8361-fdb5bdce6829
 TQID: https://experienceleague.adobe.com/fMt1jY5l7jMYTHUeKNyCE-HJdDEH89xmLqG2UacvU7c
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource Management
 subfeature_v2:
   - id: c33d85a1-be85-4290-854c-87408c10aa80
+    internal-label: Workload Balancer
   - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+    internal-label: Timesheets
   - id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
+    internal-label: Resource Planner
   - id: d3382524-5489-431b-bde9-271ab257bc37
+    internal-label: Workfront Scenario Planner
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: db05d3b6f950a8d5c0e6e171acb7e480ca3c6c61
+    internal-label: Administration
+source-git-commit: bc354886dc8c2f1dae24513f1d74e800e19fb3ab
 workflow-type: tm+mt
-source-wordcount: 1256
+source-wordcount: '1256'
 ht-degree: 92%
-
 ---
-
 # Información general sobre el equilibrador de carga {#workload-balancer-overview}
 
 >[!CONTEXTUALHELP]
@@ -44,7 +51,7 @@ Una vez que los administradores de proyecto hayan planificado el trabajo en los 
 
 >[!IMPORTANT]
 >
->Puede utilizar el Distribuidor de cargas de trabajo para asignar trabajo real (tareas y problemas) a usuarios y colaboradores de tareas.
+>Puede utilizar el Distribuidor de cargas de trabajo para asignar trabajo real (tareas y problemas) a usuarios y agentes de trabajo.
 >
 >Debe utilizar el Planificador de recursos, y no el Distribuidor de cargas de trabajo, para calcular las asignaciones de funciones a sus proyectos en un nivel superior. Para obtener más información sobre el Planificador de recursos, consulte [Información general del Planificador de recursos](../../resource-mgmt/resource-planning/get-started-resource-planner.md).
 
@@ -130,9 +137,9 @@ Para obtener información sobre cómo crear y usar filtros en el Distribuidor de
 
   Para obtener más información, consulte [Configurar las preferencias de administración de recursos](../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
 
-* Puede asignar trabajo a un colaborador de tareas de la misma manera que asigna trabajo a un usuario. Task Collaborator debe existir en Workfront para poder asignarse a tareas.
+* Puede asignar trabajo a un agente de trabajo de la misma manera que asigna trabajo a un usuario. El agente de trabajo debe existir en Workfront para poder asignarse a tareas.
 
-  Para obtener información sobre cómo crear colaboradores de tareas, consulte [Configurar un colaborador de tareas](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md#configure-a-task-collaborator) en el artículo [Configurar colaboradores de IA](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md).
+  Para obtener información sobre cómo crear agentes de trabajo, consulte [Configurar un agente de trabajo](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md#configure-a-work-agent) en el artículo [Configurar colaboradores de IA](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md).
 
 ### Prácticas recomendadas para configurar tareas y problemas {#best-practices-for-setting-up-tasks-and-issues}
 

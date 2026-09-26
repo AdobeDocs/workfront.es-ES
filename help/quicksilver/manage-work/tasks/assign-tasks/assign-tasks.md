@@ -2,7 +2,7 @@
 product-area: projects;user-management
 navigation-topic: assign-tasks
 title: Asignar tareas
-description: Puede asignar tareas a usuarios, funciones, equipos o colaboradores de tareas para indicar quién es el responsable de completar las tareas. Puede asignar una tarea a varios recursos a la vez.
+description: Puede asignar tareas a usuarios, roles, equipos o agentes de trabajo para indicar quién es el responsable de completar las tareas. Puede asignar una tarea a varios recursos a la vez.
 author: Lisa
 feature: Work Management, Tasks
 role: User
@@ -12,23 +12,28 @@ git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/r3jT-ief9Sfqh7RgQRWJ77fgHR9tkgTBBuo-iEok9lE
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
 subfeature_v2:
   - id: b91c0848-76c4-4da4-8b81-3aade0518dd0
+    internal-label: Tasks
   - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+    internal-label: Projects
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a05312fa1def1db593743e5e6d385da0b393d5d4
+    internal-label: Administration
+source-git-commit: bc354886dc8c2f1dae24513f1d74e800e19fb3ab
 workflow-type: tm+mt
-source-wordcount: 1661
+source-wordcount: '1661'
 ht-degree: 79%
-
 ---
-
 # Asignar tareas
 
 <!--Audited: 10/2025-->
@@ -45,7 +50,7 @@ For more information, see [Second Quarter 2026 release overview](/help/quicksilv
 </div>
 -->
 
-Puede asignar tareas a usuarios, roles, equipos o colaboradores de tareas para indicar quién es el responsable de completar las tareas. Puede asignar una tarea a varios recursos a la vez.
+Puede asignar tareas a usuarios, roles, equipos o agentes de trabajo para indicar quién es el responsable de completar las tareas. Puede asignar una tarea a varios recursos a la vez.
 
 >[!TIP]
 >
@@ -65,7 +70,7 @@ Además de este artículo, le recomendamos que lea los siguientes artículos par
 * [Información general sobre asignaciones inteligentes](../../../manage-work/tasks/assign-tasks/smart-assignments.md)
 * [Realizar asignaciones inteligentes](../../../manage-work/tasks/assign-tasks/make-smart-assignments.md)
 * [Crear asignaciones avanzadas](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md)
-* [Usar colaboradores de tareas](../../../manage-work/tasks/assign-tasks/use-task-collaborators.md)
+* [Usar agentes de trabajo](../../../manage-work/tasks/assign-tasks/use-task-collaborators.md)
 * [Modificar asignaciones de usuario en una lista de tareas](../../../manage-work/tasks/assign-tasks/modify-multiple-assignments-in-task-list.md)
 * [Editar tareas](../../../manage-work/tasks/manage-tasks/edit-tasks.md)
 * [Información general sobre la planificación de un proyecto](../../../manage-work/projects/planning-a-project/plan-project.md)
@@ -174,11 +179,11 @@ You cannot make a team be a Primary on a task/ issue. (Alina)
 
 1. Realice una de las siguientes acciones:
 
-   * Comience a escribir el nombre de un usuario, rol, equipo o colaborador de tareas que desee asignar y, a continuación, haga clic en él cuando aparezca en la lista.
+   * Comience a escribir el nombre de un usuario, rol, equipo o agente de trabajo que desee asignar y, a continuación, haga clic en él cuando aparezca en la lista.
 
      >[!TIP]
      >
-     >* Al agregar un colaborador de tareas, el nombre del colaborador de tareas es solo un nombre. Los apellidos de los colaboradores de tareas están en blanco.
+     >* Al agregar un agente de trabajo, el nombre del agente de trabajo es solo un nombre. Los apellidos de los agentes de trabajo están en blanco.
      >* Al añadir una asignación de usuario, observe el avatar, la función principal del usuario o su dirección de correo electrónico para distinguir entre usuarios con nombres idénticos. Los usuarios deben estar asociados con al menos una función para verla a medida que los añade.
      >
      >   Debe tener habilitada la configuración Ver información de contacto en su nivel de acceso para que los usuarios vean los correos electrónicos de los usuarios. Para obtener más información, consulte [Conceder acceso a usuarios](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
@@ -204,7 +209,7 @@ Según el campo que esté visible en la vista, puede asignar las siguientes enti
 |---|---|
 | **Asignar a** | Asignar un usuario |
 | **Asignado** | Asignar un usuario |
-| **Asignaciones** | Asignar usuarios, roles, equipos o colaboradores de tareas |
+| **Asignaciones** | Asignar usuarios, roles, equipos o agentes de trabajo |
 
 Para asignar tareas de una lista:
 
@@ -222,7 +227,7 @@ Para asignar tareas de una lista:
 1. Para asignar tareas, realice una de las siguientes acciones:
 
    * Haga clic dentro de los campos **Asignado a** o **Asignado** y empiece a escribir el nombre de un usuario activo que desee asignar a la tarea; a continuación, haga clic en él cuando se muestre en la lista.
-   * Haga clic dentro del campo **Asignaciones** y empiece a escribir el nombre de un usuario, rol, equipo o colaborador de tareas activo que desee asignar a la tarea; a continuación, haga clic en él cuando se muestre en la lista.
+   * Haga clic dentro del campo **Asignaciones** y empiece a escribir el nombre de un usuario, rol, equipo o agente de trabajo activo que desee asignar a la tarea; a continuación, haga clic en él cuando se muestre en la lista.
 
      >[!TIP]
      >
@@ -257,7 +262,7 @@ Para asignar tareas de una lista:
 
    Se abre el cuadro **Editar tareas**.
 
-1. En el área **Asignaciones**, empiece a escribir el nombre de los usuarios, equipos, roles o colaboradores de tareas en el campo **Buscar personas, roles o equipos** proporcionado y, a continuación, haga clic en ellos cuando se muestren en la lista
+1. En el área **Asignaciones**, empiece a escribir el nombre de los usuarios, equipos, roles o agentes de trabajo en el campo **Buscar personas, roles o equipos** proporcionado y, a continuación, haga clic en ellos cuando se muestren en la lista
 
    >[!IMPORTANT]
    >
