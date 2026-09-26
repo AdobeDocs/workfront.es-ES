@@ -7,26 +7,33 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 0a8602aa-34c8-44d0-a102-9497d106f806
-TQID: https://experienceleague.adobe.com/0JlkGC-ZucJr8R-AIrVZULqKmRWNL1ZnTohl50PWMLs
+TQID: 'https://experienceleague.adobe.com/0JlkGC-ZucJr8R-AIrVZULqKmRWNL1ZnTohl50PWMLs'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
   - id: e147ce9d-7675-49bd-8a32-44f27d865560
+    internal-label: Get started
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 3190
+source-wordcount: '3190'
 ht-degree: 99%
-
 ---
-
 # Actividad de la versión 2018.2 de Beta 5
 
 Esta página describe todos los cambios más recientes disponibles en el entorno de vista previa con la versión 2018.2 de Beta 5. La funcionalidad está disponible en el entorno de vista previa desde el 1 de junio de 2018. Las mejoras de revisión incluidas en Beta 5 estarán disponibles en el entorno de vista previa el lunes, 4 de junio. Estará disponible en el entorno de producción en julio de 2018.
@@ -136,8 +143,8 @@ Las vistas de proyectos y funciones del Planificador de recursos ahora tienen la
 * Modo de pantalla completa.
 * Ahora, el rendimiento es más rápido y más eficiente.
 
-   * Nuevos límites en el número de proyectos, funciones y usuarios que se pueden mostrar.
-   * Carga diferida, para una carga más rápida de proyectos y funciones.
+  * Nuevos límites en el número de proyectos, funciones y usuarios que se pueden mostrar.
+  * Carga diferida, para una carga más rápida de proyectos y funciones.
 
 * Acceso rápido a proyectos y usuarios directamente desde el Planificador de recursos.
 * Capacidad de arrastrar y soltar más rápida en la vista de proyectos para priorizar sus proyectos.
@@ -168,7 +175,7 @@ Antes de esta mejora, se cambiaba proporcionalmente el tamaño de la columna con
 
 Para obtener información sobre cómo cambiar el tamaño de las columnas que se están reorganizando en las listas, consulte [Modificar el ancho y el orden de las columnas](../../../../reports-and-dashboards/reports/reporting-elements/modify-column-width-order.md).
 
-Para participar en nuestro programa de pruebas beta para las mejoras de la lista actual, vea [Nuevo estudio de listas.](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront?profile.language=es) (Se requiere inicio de sesión)
+Para participar en nuestro programa de pruebas beta para las mejoras de la lista actual, vea [Nuevo estudio de listas.](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront) (Se requiere inicio de sesión)
 
 ## Icono de compatibilidad con las nuevas listas de proyectos {#icon-support-for-the-new-project-lists}
 
@@ -266,10 +273,10 @@ Las siguientes mejoras estarán disponibles en la versión Beta de Android de la
 
   Con esta funcionalidad se han mejorado las siguientes áreas:
 
-   * Mi trabajo e Inicio
-   * Notificaciones
-   * Contactos
-   * Aprobaciones
+  * Mi trabajo e Inicio
+  * Notificaciones
+  * Contactos
+  * Aprobaciones
 
 * Nueva apariencia al ver la pestaña Detalles de un elemento
 

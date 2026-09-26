@@ -3,32 +3,38 @@ user-type: administrator
 product-area: system-administration;timesheets
 navigation-topic: configure-timesheets-and-schedules
 title: Crear programación
-description: Es posible definir las semanas laborables de los usuarios con horarios. Puede asociar un horario a un usuario o proyecto. Esto permite a [!DNL Workfront] calcular las escalas de tiempo y la disponibilidad del usuario.
+description: Es posible definir las semanas laborables de los usuarios con horarios. Puede asociar un horario a un usuario o proyecto. Esto permitirá que [!DNL Workfront] calcule las escalas de tiempo y la disponibilidad de los usuarios.
 author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: f7347ba6-68bf-45d8-b5d2-6136f3e696c9
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/oAJzByrdYR9Ok-KXarAB5q2nv39g2ytNUrFqZTruLSU
+TQID: 'https://experienceleague.adobe.com/oAJzByrdYR9Ok-KXarAB5q2nv39g2ytNUrFqZTruLSU'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
 subfeature_v2:
   - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+    internal-label: Timesheets
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 753
-ht-degree: 94%
-
+source-wordcount: '800'
+ht-degree: 99%
 ---
-
 # Crear programación
 
 <!--Audited: 01/2024-->
@@ -116,11 +122,11 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
        <p>Como administrador de grupos, podrá crear una programación solo si estuviera designada para un grupo o subgrupo para el que esté designado como administrador.</p>
        <p>En caso de administrar un solo grupo, ese grupo se selecciona en este campo de forma predeterminada.</p>
        <p>En caso de administrar varios grupos, es necesario seleccionar un grupo en este campo antes de guardar la programación.</p></li>
-       <li>Si es administrador de [!DNL Workfront] y está creando una programación, este campo es opcional. Cuando crea una programación sin asociarla a un grupo, se guarda como una programación de nivel de sistema y no puede ser administrada por un administrador de grupo de ningún grupo.
+       <li>En caso de tratarse de un administrador de [!DNL Workfront] y encontrarse creando una programación, este campo es opcional. Cuando crea una programación sin asociarla a un grupo, se guarda como una programación a nivel del sistema y no puede ser administrada por un administrador de grupos de ningún grupo.
        <p>Los programas asignados a cuentas o proyectos son visibles para todos los usuarios que pueden editar estos objetos. Esto es así tanto para las programaciones a nivel del sistema como para las de nivel de grupo.</p>
        </li>
        <p>Al especificar un grupo con acceso de administración para una programación, no se asigna la programación a los usuarios del grupo; solo permite a los administradores del grupo editar, eliminar y copiar la programación.</p>
-       <p>Los administradores de grupo no pueden editar, eliminar ni copiar programaciones de nivel de sistema. Para obtener más información, consulte <a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">Administradores de grupo</a>.
+       <p>Los administradores de grupos no pueden editar, eliminar ni copiar programaciones a nivel del sistema. Para obtener más información, consulte <a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">Administradores de grupos</a>.
      </td>
     </tr>
     <tr>
@@ -130,7 +136,7 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
     <tr>
      <td>[!UICONTROL Time Zone]</td>
      <td><p>Seleccione la zona horaria de la programación.</p>
-     <p>Si asocia la programación con un usuario, le recomendamos que la zona horaria de la programación coincida con la del usuario. Para obtener información acerca de las zonas horarias del usuario, vea <a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref">Editar el perfil de un usuario.
+     <p>Si asocia la programación a un usuario, le recomendamos que la zona horaria de la programación coincida con la del usuario. Para obtener información sobre las zonas horarias del usuario, consulte <a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref">Editar el perfil de un usuario.
      </td>
     </tr>
    </table>

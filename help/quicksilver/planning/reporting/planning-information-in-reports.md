@@ -5,13 +5,25 @@ author: Alina
 feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 4378eb4b7272ac17b0fb6f2f2e77de2c0b272050
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+subfeature_v2:
+  - id: eb361af2-3e4f-4a79-b5f3-7a344ac5794c
+    internal-label: Workfront Planning
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: '255'
-ht-degree: 30%
-
+source-wordcount: '302'
+ht-degree: 27%
 ---
-
 
 # Ver información de Workfront Planning en informes
 
@@ -24,7 +36,8 @@ Puede ver la información de Adobe Workfront Planning en los informes al utiliza
 >
 >* Traer su propia clave para Amazon Web Service
 >* Azure
->* Google Cloud Platform> Para obtener más información, consulte [Administrar paneles de lienzo: índice de artículo](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/manage-canvas-dashboards.md).
+>* Google Cloud Platform
+> Para obtener más información, consulte [Administrar paneles de lienzo: índice de artículo](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/manage-canvas-dashboards.md).
 
 ## Requisitos de acceso
 

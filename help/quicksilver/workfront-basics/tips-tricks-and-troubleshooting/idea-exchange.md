@@ -6,20 +6,24 @@ description: El [!UICONTROL Laboratorio de Innovación] permite a los usuarios a
 feature: Get Started with Workfront
 author: Becky
 exl-id: 4775ece1-2841-4acc-b3f0-66cd2783669f
-TQID: https://experienceleague.adobe.com/rtb0famKLxMSXQUT5AHUFqqMsp8S5-v83hTwN-IZ9uA
+TQID: 'https://experienceleague.adobe.com/rtb0famKLxMSXQUT5AHUFqqMsp8S5-v83hTwN-IZ9uA'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Troubleshooting
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 437
+source-wordcount: '437'
 ht-degree: 97%
-
 ---
-
 # El Laboratorio de Innovación
 
 El [!UICONTROL Laboratorio de Innovación] permite a los usuarios autenticados enviar, votar y discutir ideas con otros clientes.
@@ -32,7 +36,7 @@ Como usuario autenticado, puede hacer lo siguiente:
 
 Para votar una idea:
 
-1. Inicie sesión en la comunidad de [!DNL Adobe Workfront] en el sitio [!DNL Adobe Experience League] en la siguiente URL: [[!DNL Adobe Workfront] Comunidad de &#x200B;](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront?profile.language=es).
+1. Inicie sesión en la comunidad de [!DNL Adobe Workfront] en el sitio [!DNL Adobe Experience League] en la siguiente URL: [[!DNL Adobe Workfront] Comunidad de ](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront).
 
 1. Haga clic en la ficha **[!UICONTROL Ideas]**.
 
@@ -55,4 +59,4 @@ Una vez alcanzado el umbral crítico de 450 puntos, la idea tendrá uno de los s
 * **[!UICONTROL Delivered]:** se ha creado y entregado una solución. No se proporcionarán más actualizaciones y los comentarios se deshabilitarán.
 * **[!UICONTROL Archived]**: las ideas que alcancen la marca de 18 meses (desde la fecha de envío) y que tengan menos de 300 puntos se archivarán.
 
-Para comenzar o obtener más información, inicia sesión en [Laboratorio de innovación](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront?profile.language=es).
+Para comenzar o obtener más información, inicia sesión en [Laboratorio de innovación](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront).

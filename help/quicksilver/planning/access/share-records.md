@@ -8,25 +8,33 @@ recommendations: noDisplay, noCatalog
 exl-id: 9ffad1aa-3c96-40fa-9c62-7a3e00699f18
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/NTytTWD-zq3PVhXn4n-GHinvQxna1wfnAXjaeYBgTEY
+TQID: 'https://experienceleague.adobe.com/NTytTWD-zq3PVhXn4n-GHinvQxna1wfnAXjaeYBgTEY'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
 subfeature_v2:
   - id: e147ce9d-7675-49bd-8a32-44f27d865560
+    internal-label: Get started
+  - id: eb361af2-3e4f-4a79-b5f3-7a344ac5794c
+    internal-label: Workfront Planning
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 347c3e87fea0289616bf1a52779c07501a8ec69d
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1693
+source-wordcount: '1716'
 ht-degree: 7%
-
 ---
-
 <!--update metadata with real information at release-->
 
 # Compartir registros
@@ -40,7 +48,7 @@ ht-degree: 7%
 
 Puede ajustar los permisos de las personas a los registros individuales de un tipo de registro en Adobe Workfront Planning.
 
-Puede compartir un registro de Adobe Workfront Planning de las siguientes maneras:
+Puede compartir un registro de Planificación de Workfront de Adobe de las siguientes maneras:
 
 * Compartir un vínculo al registro.
 
@@ -267,7 +275,7 @@ Como administrador del espacio de trabajo, puede ajustar permisos a registros in
       >
       >* Si los usuarios tienen permisos de tipo Contribuir o Administrar en el espacio de trabajo y el tipo de registro, puede concederles permisos de Administración en el registro. El permiso Ver aparece atenuado.
       >* No puede conceder a los usuarios un permiso inferior al registro si tienen Contribute o superior al tipo de registro.
-      >Para obtener más información, consulte [Información general sobre los permisos de uso compartido en Adobe Workfront Planning](/help/quicksilver/planning/access/sharing-permissions-overview.md).
+      >Para obtener más información, consulte [Información general sobre los permisos de uso compartido en Planificación de Workfront de Adobe](/help/quicksilver/planning/access/sharing-permissions-overview.md).
       >* No puede conceder permisos a usuarios que no están en el espacio de trabajo. Los usuarios que no tienen permisos de acceso al espacio de trabajo y tipo de registro no pueden acceder a ninguno de los registros.
 
    <!--   

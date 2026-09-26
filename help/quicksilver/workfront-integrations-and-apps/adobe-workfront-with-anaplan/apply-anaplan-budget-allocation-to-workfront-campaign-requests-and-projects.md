@@ -1,30 +1,39 @@
 ---
 product-area: workfront-integrations;setup
 navigation-topic: adobe-workfront-with-anaplan
-title: 'Aplicar una asignación de presupuesto de [!DNL Anaplan] a una solicitud de campaña o a un proyecto de campaña [!DNL Adobe Workfront] '
+title: Aplicar una asignación de presupuesto de [!DNL Anaplan] a una solicitud de campaña o a un proyecto de campaña de [!DNL Adobe Workfront]
 description: Este escenario de integración sincroniza cualquier asignación de presupuesto que se haya realizado en [!DNL Anaplan] de nuevo en [!DNL Workfront]. El escenario extrae todas las partidas presupuestarias de campaña vinculadas y, a continuación, pasa el valor presupuestado al proyecto de Workfront vinculado si se ha modificado el valor del presupuesto.
 author: Becky
 feature: Workfront Integrations and Apps, Workfront Fusion
 exl-id: 8ae28911-fa18-459a-aa50-cfb347e70e61
-TQID: https://experienceleague.adobe.com/iN2SzXUL8Qa5J-TeFMtJeHFJeS3774TkD2xqtaA-DHE
+TQID: 'https://experienceleague.adobe.com/iN2SzXUL8Qa5J-TeFMtJeHFJeS3774TkD2xqtaA-DHE'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d8302c96-f652-4d09-896b-19a70bab02a5
+    internal-label: System configuration
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+  - id: a1f87682-0525-5459-aa06-3560bb4c3b2a
+    internal-label: Workfront Integrations and Apps
+  - id: c3a155b4-a54b-4a82-a3d2-c8f0f971673e
+    internal-label: Workfront Fusion
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 744
+source-wordcount: '744'
 ht-degree: 97%
-
 ---
-
 # Aplicar una asignación de presupuesto de [!DNL Anaplan] a una solicitud de campaña o a un proyecto de campaña de [!DNL Adobe Workfront]
 
 Este escenario de integración sincroniza cualquier asignación de presupuesto que se haya realizado en [!DNL Anaplan] de nuevo en [!DNL Workfront]. El escenario extrae todas las partidas presupuestarias de campaña vinculadas y, a continuación, pasa el valor presupuestado al proyecto de [!DNL Workfront] vinculado si se ha modificado el valor del presupuesto.
@@ -68,7 +77,7 @@ Este escenario de integración sincroniza cualquier asignación de presupuesto q
 
 Para obtener más información sobre el contenido de esta tabla, consulte [Requisitos de acceso en la documentación](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-Para obtener información sobre las licencias de Adobe Workfront Fusion, consulte [licencias de Adobe Workfront Fusion](https://experienceleague.adobe.com/es/docs/workfront-fusion/using/set-up-and-manage-fusion/licensing-and-operations-overviews/license-automation-vs-integration).
+Para obtener información sobre las licencias de Adobe Workfront Fusion, consulte [licencias de Adobe Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/set-up-and-manage-fusion/licensing-and-operations-overviews/license-automation-vs-integration).
 
 +++
 
@@ -94,12 +103,12 @@ Debe tener lo siguiente en [!DNL Anaplan] para utilizar este escenario:
 
   El módulo de la lista debe admitir la recepción de los atributos siguientes:
 
-   * Solicitud GUID de [!UICONTROL [!DNL Workfront]]
-   * GUID de proyecto de [!UICONTROL [!DNL Workfront]]
-   * [!UICONTROL Nombre de campaña]
-   * [!UICONTROL Fondos de mano de obra solicitados]
-   * [!UICONTROL Ingresos estimados]
-   * [!UICONTROL Marca]
+  * Solicitud GUID de [!UICONTROL [!DNL Workfront]]
+  * GUID de proyecto de [!UICONTROL [!DNL Workfront]]
+  * [!UICONTROL Nombre de campaña]
+  * [!UICONTROL Fondos de mano de obra solicitados]
+  * [!UICONTROL Ingresos estimados]
+  * [!UICONTROL Marca]
 
   Esta lista y el módulo deben almacenar detalles adicionales necesarios para la funcionalidad normal de [!DNL Anaplan], incluida la capacidad de establecer un presupuesto y comunicar que el elemento de la lista presupuestaria está listo para sincronizarse de nuevo con [!DNL Workfront].
 
@@ -107,19 +116,19 @@ Debe tener lo siguiente en [!DNL Anaplan] para utilizar este escenario:
 
   Esta vista debe contener las columnas siguientes, en este orden:
 
-   1. [!UICONTROL Nombre de elemento]
+  1. [!UICONTROL Nombre de elemento]
 
-   2. Solicitud GUID de [!UICONTROL [!DNL Workfront]]
+  2. Solicitud GUID de [!UICONTROL [!DNL Workfront]]
 
-   3. GUID de proyecto de [!UICONTROL [!DNL Workfront]]
+  3. GUID de proyecto de [!UICONTROL [!DNL Workfront]]
 
-   4. [!UICONTROL Nombre de campaña]
+  4. [!UICONTROL Nombre de campaña]
 
-   5. [!UICONTROL Presupuesto]
+  5. [!UICONTROL Presupuesto]
 
-   6. [!UICONTROL Ingresos estimados]
+  6. [!UICONTROL Ingresos estimados]
 
-   7. [!UICONTROL Marca]
+  7. [!UICONTROL Marca]
 
   La vista debe filtrarse para mostrar elementos que tengan un GUID de proyecto de [!UICONTROL [!DNL Workfront]] y algún indicador de que las asignaciones presupuestarias deben transmitirse a Workfront.
 
@@ -145,7 +154,7 @@ Complete los siguientes pasos para implementar este escenario de integración en
     </thead> 
     <tbody> 
      <tr> 
-      <td role="rowheader">[!UICONTROL [!DNL Anaplan] Workspace ID]</td> 
+      <td role="rowheader">[!UICONTROL [!DNL Anaplan] Workspace ID]</td> 
       <td>El ID de un espacio de trabajo de su cuenta de [!DNL Anaplan].</td> 
      </tr> 
      <tr> 
@@ -180,12 +189,12 @@ Complete los siguientes pasos para implementar este escenario de integración en
 
 Para completar el flujo de trabajo representado por esta plantilla, también debe implementar la siguiente plantilla adicional:
 
-* [[!UICONTROL Crear un elemento de lista de  [!DNL Anaplan]  a partir de una solicitud de campaña de  [!DNL Adobe Workfront] &#x200B;]](../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/create-an-anaplan-list-item-from-a-workfront-campaign-request.md)
+* [[!UICONTROL Crear un elemento de lista de  [!DNL Anaplan]  a partir de una solicitud de campaña de  [!DNL Adobe Workfront] ]](../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/create-an-anaplan-list-item-from-a-workfront-campaign-request.md)
 
 Otros escenarios para la optimización del gasto son:
 
-* [[!UICONTROL Enviar actualizaciones de proyecto de  [!DNL Adobe Workfront]  a un elemento de lista de  [!DNL Anaplan] &#x200B;]](../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/send-workfront-project-updates-to-anaplan-list-item.md)
+* [[!UICONTROL Enviar actualizaciones de proyecto de  [!DNL Adobe Workfront]  a un elemento de lista de  [!DNL Anaplan] ]](../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/send-workfront-project-updates-to-anaplan-list-item.md)
 
-* [[!UICONTROL Enviar actualizaciones de horas reales de  [!DNL Adobe Workfront]  a un elemento de lista de  [!DNL Anaplan] &#x200B;]](../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/send-workfront-project-actual-hours-updates-to-anaplan-list-item.md)
+* [[!UICONTROL Enviar actualizaciones de horas reales de  [!DNL Adobe Workfront]  a un elemento de lista de  [!DNL Anaplan] ]](../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/send-workfront-project-actual-hours-updates-to-anaplan-list-item.md)
 
-* [[!UICONTROL Enviar gastos de  [!DNL Adobe Workfront]  a un elemento de lista de  [!DNL Anaplan] &#x200B;]](../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/send-workfront-project-expenses-to-anaplan-list-item.md)
+* [[!UICONTROL Enviar gastos de  [!DNL Adobe Workfront]  a un elemento de lista de  [!DNL Anaplan] ]](../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/send-workfront-project-expenses-to-anaplan-list-item.md)

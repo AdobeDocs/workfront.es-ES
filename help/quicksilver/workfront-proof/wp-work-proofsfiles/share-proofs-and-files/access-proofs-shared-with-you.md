@@ -7,18 +7,26 @@ description: Cuando recibe un correo electrónico sobre una prueba, contiene una
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 901013f2-833f-4f6b-921c-eddd4f063247
-TQID: https://experienceleague.adobe.com/jJdQs2v-0xHMvwKyGerUrCJmOUCGtBBWzSCs3SstXf4
+TQID: 'https://experienceleague.adobe.com/jJdQs2v-0xHMvwKyGerUrCJmOUCGtBBWzSCs3SstXf4'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+    internal-label: Workfront Proof
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 363
+source-wordcount: '363'
 ht-degree: 100%
-
 ---
-
 # Acceso a una prueba compartida con usted
 
 >[!IMPORTANT]
@@ -40,9 +48,9 @@ Tenga en cuenta lo siguiente sobre las pruebas compartidas:
 * Si alguien comparte una URL de prueba con usted, puede acceder a la prueba tal como se describe en [[!UICONTROL Compartir la dirección URL pública en [!DNL Workfront Proof]]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-public-url.md)
 * Puede buscar cualquier prueba que se haya compartido con usted según los siguientes criterios:
 
-   * Nombre de revisión
-   * Descripción (mensaje asociado a una prueba)
-   * Nombre de etiqueta (consulte [Crear y administrar etiquetas en [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/create-and-manage-tags.md))
+  * Nombre de revisión
+  * Descripción (mensaje asociado a una prueba)
+  * Nombre de etiqueta (consulte [Crear y administrar etiquetas en [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/create-and-manage-tags.md))
 
 Para abrir una prueba desde un correo electrónico que haya recibido:
 

@@ -7,18 +7,21 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 67fc34dc-0722-4419-8254-0371ad5abfc3
-TQID: https://experienceleague.adobe.com/mbMDFBRO9-bIJdlxbJjy2nqsvkjnppOJsMqTltjQ2qM
+TQID: 'https://experienceleague.adobe.com/mbMDFBRO9-bIJdlxbJjy2nqsvkjnppOJsMqTltjQ2qM'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: 682536a8-4872-5ee6-a8a6-8012d713482c
+    internal-label: Workfront API
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Developer
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 769
-ht-degree: 32%
-
+source-wordcount: '777'
+ht-degree: 33%
 ---
-
 # Campos de texto enriquecido en la API de Adobe Workfront
 
 <!-- Audited: 5/2025 -->
@@ -102,7 +105,7 @@ Ejemplo: Este es el aspecto que podría tener el JS:
 
 Para guardar los siguientes valores de un campo de texto enriquecido mediante la API de Workfront:
 <pre>
-        Hola <strong>Mundo</strong>!!!
+        Hola <strong>a todos</strong>.
         Este es mi primer <strong>texto enriquecido</strong></pre>
 
 1. Construya un JSON que represente el valor del campo de texto enriquecido que está intentando capturar organizando cada línea de texto en un elemento de bloque en los bloques de la matriz.
@@ -127,4 +130,4 @@ Para guardar los siguientes valores de un campo de texto enriquecido mediante la
 1. Utilice el método stringify en el JSON descrito anteriormente para realizar una petición PUT y enviar actualizaciones.
 
    <!-- [Copy](javascript:void(0);) -->
-   <pre>&lt;OBJ Code>&lt;OBJ ID></pre>
+   <pre><OBJ Code><OBJ ID></pre>

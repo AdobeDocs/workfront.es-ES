@@ -6,13 +6,17 @@ title: Adjuntar una tarjeta de tarifa a una plantilla
 description: Al asignar una tarjeta de tasa a una plantilla, la tarjeta de tasa se adjunta a todos los proyectos creados a partir de la plantilla.
 author: Lisa
 feature: Work Management
-source-git-commit: ace9a01e852e6d99ddc6f150c0ac34bd4ef44817
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
 source-wordcount: '644'
 ht-degree: 10%
-
 ---
-
 # Adjuntar una tarjeta de tarifa a una plantilla
 
 Al asignar una tarjeta de tasa a una plantilla, la tarjeta de tasa se adjunta a todos los proyectos creados a partir de la plantilla. La tarjeta de tarifa se convierte en la predeterminada en el proyecto, pero se puede anular si es necesario.
@@ -71,7 +75,7 @@ El campo **Tarjeta de tarifa** debe estar habilitado para las plantillas de la p
 1. En la sección Template Details > Overview > Template association, seleccione una tarjeta de tarifa en el campo **Rate Card**.
 
    Solo las tarjetas de clasificación para las que tenga permisos están disponibles para elegir.
-Puede empezar a escribir el nombre de una tarjeta de tasa para reducir la lista de resultados.
+   Puede empezar a escribir el nombre de una tarjeta de tasa para reducir la lista de resultados.
 
    ![Seleccione una tarifa en la plantilla](assets/select-rate-card-on-template.png)
 

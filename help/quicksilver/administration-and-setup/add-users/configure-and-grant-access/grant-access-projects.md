@@ -10,22 +10,26 @@ role: Admin
 exl-id: ba6a9e68-68a1-4152-b024-cd39e06d556f
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/n5agZfPvUGpYt-X9kKxkkFeBFeiLJJkKAm-1xrXYI7A
+TQID: 'https://experienceleague.adobe.com/n5agZfPvUGpYt-X9kKxkkFeBFeiLJJkKAm-1xrXYI7A'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 678
+source-wordcount: '678'
 ht-degree: 75%
-
 ---
-
 # Conceder acceso a proyectos
 
 <!-- Audited: 12/2023 -->
@@ -79,7 +83,7 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
    >* Los usuarios con una licencia de revisión tienen derechos de visualización en los proyectos de problemas convertidos, pero sus derechos de visualización son limitados.
    >* Para obtener información sobre los permisos que los usuarios pueden conceder al compartir proyectos con otros, consulte [Compartir un proyecto en Adobe Workfront](../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md).
    >* Cuando se establece una configuración de nivel de acceso para un tipo determinado de objeto, esa configuración no afecta al acceso de los usuarios a los objetos con una clasificación inferior. Por ejemplo, puede restringir la eliminación de proyectos por parte de usuarios en su nivel de acceso, pero esto no les impide eliminar tareas, que tienen una clasificación inferior a la de los proyectos.Para obtener más información acerca de la jerarquía de objetos, vea la sección [Interdependencia y jerarquía de objetos](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#understanding-interdependency-and-hierarchy-of-objects) en el artículo [Comprender los objetos en Adobe Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
-   >* Un usuario cuyo nivel de acceso no permite el acceso a los datos financieros no puede conceder acceso que permitiría a otros ver los datos financieros. Esto incluye dar acceso a proyectos que mostrarían datos financieros o modificar un nivel de acceso para permitir la visualización de datos financieros.
+   * Un usuario cuyo nivel de acceso no permite el acceso a los datos financieros no puede conceder acceso que permitiría a otros ver los datos financieros. Esto incluye dar acceso a proyectos que mostrarían datos financieros o modificar un nivel de acceso para permitir la visualización de datos financieros.
 
 
 1. (Opcional) Haga clic en **establecer valores predeterminados de uso compartido** a la derecha de la opción Crear y, a continuación, **Agregar regla** para agregar una regla de uso compartido para nuevos proyectos.

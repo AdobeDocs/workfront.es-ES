@@ -5,15 +5,22 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 0639cb37-212c-46d5-bfe0-b524efc085d3
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: '206'
-ht-degree: 56%
-
+source-wordcount: '218'
+ht-degree: 59%
 ---
-
 # Mejoras en la administración de documentos del primer trimestre de 2025
 
 En esta página se describen todas las mejoras realizadas en la administración de documentos con la versión del primer trimestre de 2025 en el entorno de vista previa. Estas mejoras estarán disponibles en el entorno de producción con la versión del primer trimestre de 2025.

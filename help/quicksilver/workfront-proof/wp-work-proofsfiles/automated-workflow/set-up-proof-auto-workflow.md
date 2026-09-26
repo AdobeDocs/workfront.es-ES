@@ -2,25 +2,34 @@
 product-previous: workfront-proof
 product-area: documents
 navigation-topic: automated-workflow-workfront-proof
-title: Configurar una prueba con un flujo de trabajo automatizado en  [!DNL Workfront Proof]
+title: Configurar una revisión con un flujo de trabajo automatizado en [!DNL Workfront Proof]
 description: Esto repite la información que se encuentra en Configuración de pruebas en Workfront. Consolidar aquí o allá. Quizás mejor aquí.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 605569df-8e63-476d-a0cd-e73802042011
-TQID: https://experienceleague.adobe.com/H0iX2AA8WPbkiPDHagBRmnL6G2FQJmDFpaAdr3oEKOk
+TQID: 'https://experienceleague.adobe.com/H0iX2AA8WPbkiPDHagBRmnL6G2FQJmDFpaAdr3oEKOk'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+    internal-label: Workfront Proof
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Privacy
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1610
+source-wordcount: '1659'
 ht-degree: 5%
-
 ---
-
 # Configurar una revisión con un flujo de trabajo automatizado en [!DNL Workfront Proof]
 
 >[!IMPORTANT]
@@ -57,15 +66,15 @@ Puede añadir un flujo de trabajo automatizado a una prueba al cargar el documen
    * **[!UICONTROL Desde la activación de la fase]:** Seleccione el número de días laborables que se agregarán a la fecha de activación de la fase para establecer automáticamente un plazo en la prueba.
    * **[!UICONTROL Activar fase]:** Para cada fase del flujo de trabajo, puede decidir cuándo debe activarse. Para su primera etapa, están disponibles las siguientes opciones.
 
-      * Creación de revisión
-      * En una fecha y hora específicas
-      * Manualmente\
+     * Creación de revisión
+     * En una fecha y hora específicas
+     * Manualmente\
 
-        Hay opciones adicionales disponibles para las etapas siguientes. Estas opciones requieren una fase principal. Estos son:
-      * Después de alcanzar el plazo anterior
-      * Todas las decisiones se aprueban o aprueban con cambios
-      * Todas las decisiones se aprueban
-      * Se han tomado todas las decisiones
+       Hay opciones adicionales disponibles para las etapas siguientes. Estas opciones requieren una fase principal. Estos son:
+     * Después de alcanzar el plazo anterior
+     * Todas las decisiones se aprueban o aprueban con cambios
+     * Todas las decisiones se aprueban
+     * Se han tomado todas las decisiones
    * **[!UICONTROL Plazo calculado a partir de]:** La opción que seleccione en esta lista desplegable afecta a las opciones disponibles en el campo **[!UICONTROL Plazo]**.
 
    * **[!UICONTROL Creación de revisión]:** En el campo **[!UICONTROL Plazo]**, seleccione la fecha límite para la revisión.
@@ -124,26 +133,26 @@ Puede añadir una fase adicional a un flujo de trabajo que esté creando o modif
 * **[!UICONTROL Nombre de fase]**: aparece en el diagrama de flujo de trabajo y se incluye en las notificaciones por correo electrónico enviadas a los revisores.
 * **[!UICONTROL Activar fase]**: Para cada fase del flujo de trabajo, puede decidir cuándo se debe activar. Para su primera etapa, estarán disponibles las siguientes opciones:
 
-   * Creación de revisión
-   * En una fecha y hora específicas
-   * Manualmente
-   * Solo estas tres opciones están disponibles para la primera etapa. Las demás opciones estarán disponibles cuando añada una segunda fase; requieren que seleccione una fase principal.
-   * Una vez alcanzada la fecha límite anterior (requiere la selección de una fase principal)
-   * Todas las decisiones son Aprobadas o [!UICONTROL Aprobadas con cambios] (requiere la selección de una etapa principal)
-   * Todas las decisiones son Aprobadas (requiere seleccionar una etapa principal)
-   * Todas las decisiones se toman (requiere elegir una etapa principal)
+  * Creación de revisión
+  * En una fecha y hora específicas
+  * Manualmente
+  * Solo estas tres opciones están disponibles para la primera etapa. Las demás opciones estarán disponibles cuando añada una segunda fase; requieren que seleccione una fase principal.
+  * Una vez alcanzada la fecha límite anterior (requiere la selección de una fase principal)
+  * Todas las decisiones son Aprobadas o [!UICONTROL Aprobadas con cambios] (requiere la selección de una etapa principal)
+  * Todas las decisiones son Aprobadas (requiere seleccionar una etapa principal)
+  * Todas las decisiones se toman (requiere elegir una etapa principal)
 
 * **[!UICONTROL Plazo]:** Puede decidir cómo se debe calcular el plazo en cada fase de un flujo de trabajo. Las opciones son los siguientes:
 
-   * Desde la creación de la prueba: en el campo [!UICONTROL deadline] (9) puede seleccionar la fecha límite para la prueba.
-   * Desde la activación de la fase: en el menú desplegable [!UICONTROL deadline], seleccione el número de días hábiles que se agregarán a la fecha de activación de la fase para establecer automáticamente una fecha límite en la prueba.
+  * Desde la creación de la prueba: en el campo [!UICONTROL deadline] (9) puede seleccionar la fecha límite para la prueba.
+  * Desde la activación de la fase: en el menú desplegable [!UICONTROL deadline], seleccione el número de días hábiles que se agregarán a la fecha de activación de la fase para establecer automáticamente una fecha límite en la prueba.
 
 * **[!UICONTROL Bloquear]:** Hay varias opciones que determinan cuándo se puede bloquear una fase. Las opciones incluyen:
 
-   * Bloqueo manual
-   * Nunca
-   * Cuando comience la siguiente etapa
-   * Cuando se toman todas las decisiones
+  * Bloqueo manual
+  * Nunca
+  * Cuando comience la siguiente etapa
+  * Cuando se toman todas las decisiones
 
 **[!UICONTROL Responsable principal de la toma de decisiones]**: Usted establece el Responsable principal de la toma de decisiones en el escenario. Los responsables de la toma de decisiones disponibles aparecen en la lista solo después de agregar los revisores a la fase.
 
@@ -173,7 +182,7 @@ Puede añadir una fase adicional a un flujo de trabajo que esté creando o modif
 Puede convertir una prueba básica en Flujo de trabajo automatizado.
 
 1. Haga clic en **[!UICONTROL Convertir a flujo de trabajo automatizado]** en la página [!UICONTROL Detalles de la revisión].
-Una vez que la revisión se haya modificado a Flujo de trabajo automatizado, todas las etapas estarán activas, serán públicas y su opción [!UICONTROL Bloquear etapa] se establecerá en Manual de manera predeterminada. Todas las fases permanecen asignadas a los usuarios y a su configuración.
+Una vez que la revisión se haya vuelto a procesar en Flujo de trabajo automatizado, todas las etapas estarán activas, serán públicas y su opción [!UICONTROL Bloquear etapa] se establecerá en Manual de manera predeterminada. Todas las fases permanecen asignadas a los usuarios y a su configuración.
 
    * Activar fase se establece en Al crear la prueba en cada fase.
    * La opción Deadline calculated from se establece en Proof creation en cada fase.

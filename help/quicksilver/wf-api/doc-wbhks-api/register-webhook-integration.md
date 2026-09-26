@@ -8,22 +8,26 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 9a4f8dbe-967f-4a41-a42c-8e3acb604972
-TQID: https://experienceleague.adobe.com/gt9fGu286M-fya5XVuYfTMzJ0dHJT5J7f0uvctqbL0A
+TQID: 'https://experienceleague.adobe.com/gt9fGu286M-fya5XVuYfTMzJ0dHJT5J7f0uvctqbL0A'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+  - id: 682536a8-4872-5ee6-a8a6-8012d713482c
+    internal-label: Workfront API
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 94f14afac621d7a0e41daceeb8eb7a5d2682f911
+    internal-label: Metadata
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 409
-ht-degree: 70%
-
+source-wordcount: '409'
+ht-degree: 73%
 ---
-
 # Registrar una integración de webhook
 
 {{highlighted-preview}}
@@ -70,7 +74,7 @@ Al añadir una integración, el administrador introduce valores en los campos si
   </tr> 
   <tr> 
    <td>URL de punto final de token</td> 
-   <td> <p>(Solo para OAuth2) URL de API completa que sirve para recuperar tókenes de OAuth2. Esto lo aloja el proveedor de webhooks o el proveedor de documentos externo</p> </td> 
+   <td> <p>(Solo para OAuth2) URL de API completa que sirve para recuperar tokens de OAuth2. Esto lo aloja el proveedor de webhooks o el proveedor de documentos externo</p> </td> 
   </tr> 
   <tr> 
    <td>Id. de cliente</td> 
@@ -89,11 +93,11 @@ Al añadir una integración, el administrador introduce valores en los campos si
    <td> <p>(Solo ApiKey) Se utiliza para realizar llamadas de API autorizadas al proveedor de webhooks. Se trata de la clave API emitida por el proveedor de webhooks.</p> </td> 
   </tr> 
   <tr class="preview"> 
-   <td>Habilitar la carga interrumpida para archivos grandes</td> 
+   <td>Habilitar la carga fraccionada para archivos grandes</td> 
    <td> <p>Seleccione esta casilla de verificación para habilitar las cargas de varias partes (fragmentadas) para archivos de más de 25 MB. Cuando no se selecciona, los archivos se cargan en una sola solicitud independientemente de su tamaño.</p> </td> 
   </tr> 
   <tr class="preview"> 
-   <td>Umbral de carga interrumpida (MB)</td> 
+   <td>Umbral de carga fraccionada (MB)</td> 
    <td> <p>El tamaño máximo, en MB, de cada fragmento cuando se divide un archivo grande para la carga. Acepta valores de hasta 100 MB.</p> </td> 
   </tr> 
  </tbody> 

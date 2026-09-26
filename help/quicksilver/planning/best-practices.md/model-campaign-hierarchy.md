@@ -8,36 +8,48 @@ recommendations: noDisplay, noCatalog
 exl-id: 02e3b55f-9188-42bf-8d0b-c9fed86c63c4
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/iIXHucZmlY7CkbSWDWFO5XnHPvGylFrvt45QV90aFXQ
+TQID: 'https://experienceleague.adobe.com/iIXHucZmlY7CkbSWDWFO5XnHPvGylFrvt45QV90aFXQ'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+subfeature_v2:
+  - id: eb361af2-3e4f-4a79-b5f3-7a344ac5794c
+    internal-label: Workfront Planning
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Taxonomy
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1564
-ht-degree: 3%
-
+source-wordcount: '1572'
+ht-degree: 2%
 ---
-
 # Arquitectura de su éxito: modelado de la jerarquía de campañas
 
 <!--see the file again for additional comments from Seth and others-->
 
 >[!IMPORTANT]
 >
->La información de este artículo hace referencia a Adobe Workfront Planning, una funcionalidad adicional de Adobe Workfront.
+>La información de este artículo hace referencia a Planificación de Workfront de Adobe, una funcionalidad adicional de Adobe Workfront.
 >
 >Su organización debe tener un paquete de Workfront Planning Prime o superior para poder admitir las funciones recomendadas en este artículo.
 >
->Para obtener una lista de los requisitos para acceder a Workfront Planning, consulte [Información general sobre el acceso a Adobe Workfront Planning](/help/quicksilver/planning/access/access-overview.md).
+>Para obtener una lista de los requisitos para acceder a Planificación de Workfront, consulte [Información general sobre el acceso a Planificación de Workfront de Adobe](/help/quicksilver/planning/access/access-overview.md).
 > 
 >Para obtener información general sobre Workfront Planning, consulte [Introducción a Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
 
@@ -67,25 +79,25 @@ A continuación se indican los niveles de una implementación correcta de Planni
 
 * **Nivel 1: Campañas (Workfront Planning)**
 
-   * **Enfoque:** Defina los pilares estratégicos a largo plazo y las iniciativas anuales. Por ejemplo, defina una iniciativa para su organización llamada &quot;Conocimiento global de la marca del año fiscal 2026&quot;. Este es su enfoque para un lapso de tiempo determinado. Cree campañas para apoyar esta iniciativa.
+  * **Enfoque:** Defina los pilares estratégicos a largo plazo y las iniciativas anuales. Por ejemplo, defina una iniciativa para su organización llamada &quot;Conocimiento global de la marca del año fiscal 2026&quot;. Este es su enfoque para un lapso de tiempo determinado. Cree campañas para apoyar esta iniciativa.
 
-   * **Personas:** Las partes interesadas de este nivel pueden ser un Oficial de marketing, un Vicepresidente de marketing u otros posibles clientes estratégicos.
+  * **Personas:** Las partes interesadas de este nivel pueden ser un Oficial de marketing, un Vicepresidente de marketing u otros posibles clientes estratégicos.
 
   Para obtener más información, consulte [Creación de tipos de registros](/help/quicksilver/planning/architecture/create-record-types.md).
 
 * **Nivel 2: tácticas de canal (planificación de Workfront)**
 
-   * **Enfoque:** Defina los informes operativos que describen el &quot;qué&quot; para canales específicos. Esta es la última capa de la intención estratégica antes de que comience el trabajo. Por ejemplo, cree una táctica de &quot;bombardeo de medios sociales en el primer trimestre&quot;. A continuación, puede emparejarlo con sus campañas.
+  * **Enfoque:** Defina los informes operativos que describen el &quot;qué&quot; para canales específicos. Esta es la última capa de la intención estratégica antes de que comience el trabajo. Por ejemplo, cree una táctica de &quot;bombardeo de medios sociales en el primer trimestre&quot;. A continuación, puede emparejarlo con sus campañas.
 
-   * **Personas:** Las partes interesadas principales son un líder de operaciones de marketing, líderes de canal o administradores de campaña.
+  * **Personas:** Las partes interesadas principales son un líder de operaciones de marketing, líderes de canal o administradores de campaña.
 
 * **Nivel 3: Proyectos (Planning y Workfront)**
 
-   * **Enfoque:** Ejecute en las experiencias o actividades exactas que eventualmente logren su iniciativa. Algunos de los entregables son específicos, como publicaciones sociales, correos electrónicos o páginas web.
+  * **Enfoque:** Ejecute en las experiencias o actividades exactas que eventualmente logren su iniciativa. Algunos de los entregables son específicos, como publicaciones sociales, correos electrónicos o páginas web.
 
-   * **Implementación:** Puede crear Tácticas en Planning y vincularlas directamente a **Proyectos** en Workfront, donde las entregas individuales se administran como tareas y problemas.
+  * **Implementación:** Puede crear Tácticas en Planning y vincularlas directamente a **Proyectos** en Workfront, donde las entregas individuales se administran como tareas y problemas.
 
-   * **Persona:** Las principales partes interesadas aquí son creativos, colaboradores individuales, cualquier persona responsable de hacer el trabajo para apoyar la iniciativa.
+  * **Persona:** Las principales partes interesadas aquí son creativos, colaboradores individuales, cualquier persona responsable de hacer el trabajo para apoyar la iniciativa.
 
 ### Expansión estratégica: cómo añadir más niveles
 

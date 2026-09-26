@@ -4,18 +4,25 @@ content-type: tips-tricks-troubleshooting
 product-area: system-administration
 navigation-topic: tips-tricks-troubleshooting-setup-admin
 title: Guardar un archivo de encabezado de correo electrónico
-description: En ocasiones, el soporte técnico de  [!DNL Adobe Workfront] puede solicitar un archivo de encabezado de correo electrónico. Cada aplicación de correo electrónico tiene su propia forma de obtener este archivo. Estas son algunas instrucciones diferentes de la aplicación de correo electrónico para localizar y guardar el encabezado. [!DNL Outlook]
+description: En ocasiones, el soporte de [!DNL Adobe Workfront] puede solicitar un archivo de encabezado de correo electrónico. Cada aplicación de correo electrónico tiene su propia forma de obtener este archivo. Estas son algunas instrucciones diferentes de la aplicación de correo electrónico para localizar y guardar el encabezado. [!DNL Outlook]
 author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: ee048fc8-63cc-4905-b5e2-f5870bcc6cb2
-source-git-commit: c389b4829f16bf82a5851a597f5dd358d9c96999
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: '193'
-ht-degree: 0%
-
+source-wordcount: '197'
+ht-degree: 3%
 ---
-
 # Guardar un archivo de encabezado de correo electrónico
 
 En ocasiones, el soporte de [!DNL Adobe Workfront] puede solicitar un archivo de encabezado de correo electrónico. Cada aplicación de correo electrónico tiene su propia forma de obtener este archivo. Estas son algunas instrucciones diferentes de la aplicación de correo electrónico para localizar y guardar el encabezado.

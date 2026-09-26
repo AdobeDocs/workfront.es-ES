@@ -6,30 +6,43 @@ description: Los procesos de aprobación proporcionan la flexibilidad para crear
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 1071e456-f111-4c52-b13a-ac1113f69cec
-TQID: https://experienceleague.adobe.com/yAn-wNxLfDdPMOqoalYmuZjI5X8wu7RAkIIFbHj8OC0
+TQID: 'https://experienceleague.adobe.com/yAn-wNxLfDdPMOqoalYmuZjI5X8wu7RAkIIFbHj8OC0'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
   - id: b91c0848-76c4-4da4-8b81-3aade0518dd0
+    internal-label: Tasks
   - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+    internal-label: Timesheets
   - id: e147ce9d-7675-49bd-8a32-44f27d865560
+    internal-label: Get started
   - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+    internal-label: Projects
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 754
+source-wordcount: '754'
 ht-degree: 82%
-
 ---
-
 # Ver aprobaciones
 
 <span class="preview">La información resaltada en esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa de espacio aislado.</span>
@@ -82,9 +95,9 @@ Puede ver o administrar aprobaciones desde las siguientes áreas:
 
 * En el área de Inicio
 
-   * Todos los proyectos, tareas, problemas, hojas de horas, documentos, accesos y <span class="preview">solicitudes de Workfront Planning</span> que esperan su aprobación se muestran en el widget Mis aprobaciones en el área de Inicio.
-   * Las aprobaciones que usted mismo ha enviado también se muestran en el widget Mis aprobaciones del área de Inicio al elegir la opción de filtro Aprobaciones que he enviado. Para obtener más información, consulte la sección [Revisar el trabajo que envía para su aprobación en el área de Inicio](#review-work-you-submit-for-approval-in-the-home-area) de este artículo.
-   * Las aprobaciones se eliminan del widget Mis aprobaciones en el área de Inicio cuando el proyecto, tarea o problema asociado está marcado como Resuelto, En espera, Cerrado o Cancelado.
+  * Todos los proyectos, tareas, problemas, hojas de horas, documentos, accesos y <span class="preview">solicitudes de Workfront Planning</span> que esperan su aprobación se muestran en el widget Mis aprobaciones en el área de Inicio.
+  * Las aprobaciones que usted mismo ha enviado también se muestran en el widget Mis aprobaciones del área de Inicio al elegir la opción de filtro Aprobaciones que he enviado. Para obtener más información, consulte la sección [Revisar el trabajo que envía para su aprobación en el área de Inicio](#review-work-you-submit-for-approval-in-the-home-area) de este artículo.
+  * Las aprobaciones se eliminan del widget Mis aprobaciones en el área de Inicio cuando el proyecto, tarea o problema asociado está marcado como Resuelto, En espera, Cerrado o Cancelado.
 
   Para obtener información sobre cómo usar Inicio, consulte [Introducción a Inicio](../../workfront-basics/using-home/using-the-home-area/get-started-with-home.md).
 

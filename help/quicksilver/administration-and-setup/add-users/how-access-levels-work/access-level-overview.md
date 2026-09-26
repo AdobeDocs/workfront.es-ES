@@ -10,28 +10,37 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: d297d8a4-5a4e-418f-983a-19545aeb0668
-TQID: https://experienceleague.adobe.com/AaN6iuEnPjrGEJPcfRxPvNWj1RuF9L6OlgSiXMBKSpc
+TQID: 'https://experienceleague.adobe.com/AaN6iuEnPjrGEJPcfRxPvNWj1RuF9L6OlgSiXMBKSpc'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
   - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+    internal-label: Timesheets
   - id: d3382524-5489-431b-bde9-271ab257bc37
+    internal-label: Workfront Scenario Planner
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1748
+source-wordcount: '1776'
 ht-degree: 96%
-
 ---
-
 # Información general de los niveles de acceso
 
 >[!NOTE]
@@ -323,7 +332,8 @@ A continuación se muestran las opciones de acceso más altas disponibles para l
 >
 >A partir de la versión 24.7, los colaboradores tienen acceso de visualización a programas y portafolios de forma predeterminada.
 >
-> &#x200B;>Los colaboradores incorporados antes de la versión 24.7 seguirán sin tener acceso a Programas y portafolios de forma predeterminada. Puede actualizar su acceso para verlos manualmente si es necesario.
+> 
+>Los colaboradores incorporados antes de la versión 24.7 seguirán sin tener acceso a los programas y los portafolios de forma predeterminada. Puede actualizar su acceso para verlos manualmente si es necesario.
 
 ### Nivel de acceso de usuario externo
 
@@ -421,9 +431,9 @@ Un usuario puede conceder al destinatario cualquiera de los siguientes permisos 
 
 * **Visualización**: este nivel de permiso permite al destinatario compartir el objeto de una de las siguientes maneras:
 
-   * En todo el sistema para que todos los usuarios puedan verlo (no disponible para todos los objetos)
-   * Con usuarios externos sin licencia de Workfront (no disponible para todos los objetos)
-   * Con una dirección de correo electrónico (disponible solo para documentos y calendarios)
+  * En todo el sistema para que todos los usuarios puedan verlo (no disponible para todos los objetos)
+  * Con usuarios externos sin licencia de Workfront (no disponible para todos los objetos)
+  * Con una dirección de correo electrónico (disponible solo para documentos y calendarios)
 
 * **Contribución**: (no disponible para todos los objetos)
 * **Administración**: cuando alguien comparte un objeto, los derechos del destinatario sobre el objeto están determinados por una combinación del nivel de acceso del destinatario y los permisos para el objeto que concedió el que comparte. El grado más bajo de acceso disponible en esa combinación es lo que determina lo que el destinatario puede hacer con el objeto.

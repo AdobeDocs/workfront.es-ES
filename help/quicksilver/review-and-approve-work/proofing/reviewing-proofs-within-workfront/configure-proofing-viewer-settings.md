@@ -6,23 +6,31 @@ description: Puede establecer la configuración tanto para el Visor de revisión
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 3993cd67-90a9-4d7e-bbc0-7b9bd1057f54
-TQID: https://experienceleague.adobe.com/ly0FsjQ5yIjeDBpDewCHPOzFyTBnTucjageWgLzilg4
+TQID: 'https://experienceleague.adobe.com/ly0FsjQ5yIjeDBpDewCHPOzFyTBnTucjageWgLzilg4'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1358
+source-wordcount: '1358'
 ht-degree: 47%
-
 ---
-
 # Configurar ajustes del visor de corrección
 
 Puede configurar las siguientes opciones tanto para el Visor de revisión web como para el Visor de revisión de escritorio:
@@ -132,7 +140,7 @@ Para configurar el visor de revisiones:
        </tr> 
        <tr> 
         <td role="rowheader">Decisiones</td> 
-        <td>Workfront envía un correo electrónico al revisor únicamente cuando alguien toma una decisión.<p>Esto puede resultar útil para la persona que administra el proceso de aprobación (como un administrador de proyecto) y necesita supervisar el progreso de la prueba y ver qué usuarios han tomado su decisión.</p><p>No se le notificará su propia decisión a menos que seleccione una opción de confirmación por correo electrónico al enviar su decisión.</p></td> 
+        <td>Workfront envía un correo electrónico al revisor únicamente cuando alguien toma una decisión.<p>Esto puede resultar útil para la persona que administra el proceso de aprobación (como un administrador de proyecto) y necesita monitorizar el progreso de la prueba y ver qué usuarios han tomado su decisión.</p><p>No se le notificará su propia decisión a menos que seleccione una opción de confirmación por correo electrónico al enviar su decisión.</p></td> 
        </tr> 
        <tr> 
         <td role="rowheader">Decisión final</td> 
@@ -144,7 +152,7 @@ Para configurar el visor de revisiones:
        </tr> 
        <tr> 
         <td role="rowheader">Resumen diario</td> 
-        <td>Workfront envía un correo electrónico con todos los comentarios, respuestas y decisiones enumerados solo los días en que hay actividad aparte de la suya propia.<p>Esta alerta es una buena manera de ver un resumen del proyecto sin verse abrumado por múltiples actualizaciones a lo largo del día.</p><p>Un ejemplo de uso de este resumen es un jefe de departamento que desea supervisar el progreso general del proyecto.</p><p>Para obtener más información, consulte <a href="../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/manage-notifications-for-proof-comments.md" class="MCXref xref">Administrar notificaciones para comentarios y decisiones de la prueba</a>.</p></td> 
+        <td>Workfront envía un correo electrónico con todos los comentarios, respuestas y decisiones enumerados solo los días en que hay actividad aparte de la suya propia.<p>Esta alerta es una buena manera de ver un resumen del proyecto sin verse abrumado por múltiples actualizaciones a lo largo del día.</p><p>Un ejemplo de uso de este resumen es un jefe de departamento que desea monitorizar el progreso general del proyecto.</p><p>Para obtener más información, consulte <a href="../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/manage-notifications-for-proof-comments.md" class="MCXref xref">Administrar notificaciones para comentarios y decisiones de la prueba</a>.</p></td> 
        </tr> 
        <tr data-mc-conditions=""> 
         <td role="rowheader">No hay correo electrónico</td> 

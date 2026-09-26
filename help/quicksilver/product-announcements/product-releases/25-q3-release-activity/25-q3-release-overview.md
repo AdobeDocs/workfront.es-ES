@@ -7,31 +7,43 @@ recommendations: noDisplay, noCatalog
 exl-id: 9342f393-a404-44b4-aad6-2c4cf634dfd5
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/rj4ocwVEA4U-n72pbrSiwFzgazZ0UVKrSO7K9mrjUvY
+TQID: 'https://experienceleague.adobe.com/rj4ocwVEA4U-n72pbrSiwFzgazZ0UVKrSO7K9mrjUvY'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
 subfeature_v2:
   - id: a7ef0b24-c866-4849-a368-53678af2dfe5
+    internal-label: Adobe Workfront for Microsoft Teams
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
   - id: d3382524-5489-431b-bde9-271ab257bc37
+    internal-label: Workfront Scenario Planner
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 2030
+source-wordcount: '2048'
 ht-degree: 44%
-
 ---
-
 # Información general sobre la versión del tercer trimestre de 2025
 
 Esta página proporciona información sobre la funcionalidad que se incluye en la versión del tercer trimestre de 2025 programada para julio de 2025.
@@ -103,7 +115,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
     <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Nueva revisión e integración de GenStudio for Performance Marketing</a>
-            <p>Nos complace presentar una nueva integración entre Proofing y GenStudio for Performance Marketing. Con esta integración, puede 
+            <p>Nos complace presentar una nueva integración entre Proofing y GenStudio for Performance Marketing. Con esta integración, puede hacer lo siguiente 
             <ul>
             <li>Uso de plantillas de aprobación de Workfront para definir flujos de trabajo de aprobación
             </li>
@@ -373,9 +385,9 @@ Estamos actualizando la interfaz a través de Adobe Workfront para mejorar la ex
 
 Las nuevas funciones de Workfront Fusion están disponibles en el entorno de producción a un ritmo distinto a la de la programación de la versión estándar. Para obtener más información sobre las últimas funciones, consulte [Actividad de la versión de Adobe Workfront Fusion](https://experienceleague.adobe.com/es/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
 
-### Mejoras en Workfront Planning
+### Mejoras en Planificación de Workfront
 
-Las nuevas funciones de Workfront Planning están disponibles en el entorno de producción. Para obtener más información sobre las últimas funciones, consulte [Actividad de la versión del tercer trimestre de 2025 de Adobe Workfront Planning](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q3.md).
+Las nuevas funciones de Planificación de Workfront están disponibles en el entorno de producción. Para obtener más información sobre las últimas funciones, consulte [Actividad de la versión del tercer trimestre de 2025 de Adobe Workfront Planning](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q3.md).
 
 En este punto de la versión, no hay actualizaciones de lo siguiente:
 
@@ -393,11 +405,11 @@ La integración actualizada de Workfront ya está disponible y es totalmente com
 
 ### Workfront para Microsoft Outlook
 
-[Microsoft está en proceso de deshabilitar la compatibilidad con los tókenes heredados de Exchange Online](https://learn.microsoft.com/es-es/office/dev/add-ins/outlook/faq-nested-app-auth-outlook-legacy-tokens), que actualmente utilizan el complemento de Workfront Outlook para la autenticación. Este cambio de Microsoft ya ha comenzado a afectar a los clientes y seguirá implementándose por fases hasta octubre de 2025.
+[Microsoft está en proceso de deshabilitar la compatibilidad con los tokens heredados de Exchange Online](https://learn.microsoft.com/es-es/office/dev/add-ins/outlook/faq-nested-app-auth-outlook-legacy-tokens), que actualmente utilizan el complemento de Workfront Outlook para la autenticación. Este cambio de Microsoft ya ha comenzado a afectar a los clientes y seguirá implementándose por fases hasta octubre de 2025.
 
-* **Después de que Microsoft deshabilite completamente estos tókenes , la integración de Workfront para Microsoft Outlook dejará de funcionar.**
+* **Después de que Microsoft deshabilite completamente estos tokens , la integración de Workfront para Microsoft Outlook dejará de funcionar.**
 
-Como parte de este cambio, Microsoft ha tomado la decisión de cambiar la forma en que se vuelven a habilitar los tókenes. Después del **30 de junio de 2025**, los administradores ya no podrán volver a habilitar los tókenes ; solo el soporte de Microsoft podrá realizar excepciones. **El 1 de octubre de 2025, los tókenes heredados se desactivarán para todos los responsables. No se concederán excepciones.**
+Como parte de este cambio, Microsoft ha tomado la decisión de cambiar la forma en que se vuelven a habilitar los tokens. Después del **30 de junio de 2025**, los administradores ya no podrán volver a habilitar los tokens; solo el soporte de Microsoft podrá realizar excepciones. **El 1 de octubre de 2025, los tokens heredados se desactivarán para todos los responsables. No se concederán excepciones.**
 
 ### Versión 20 de la API
 

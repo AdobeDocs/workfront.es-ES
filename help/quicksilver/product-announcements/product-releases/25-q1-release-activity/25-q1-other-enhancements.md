@@ -7,22 +7,27 @@ recommendations: noDisplay, noCatalog
 exl-id: 67ec1535-d374-4133-9395-626fa7ae4072
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/1xzGCkOEJQ2on0MMA1tVZwbiPuli-8fR1JOKN79Pn6c
+TQID: 'https://experienceleague.adobe.com/1xzGCkOEJQ2on0MMA1tVZwbiPuli-8fR1JOKN79Pn6c'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 378
-ht-degree: 35%
-
+source-wordcount: '416'
+ht-degree: 32%
 ---
-
 # Otras mejoras durante el periodo de tiempo de la versión del primer trimestre de 2025
 
 Esta página describe las mejoras realizadas con la versión del primer trimestre de 2025 en el entorno de vista previa. Estas mejoras estarán disponibles en el entorno de producción, como se ha indicado.

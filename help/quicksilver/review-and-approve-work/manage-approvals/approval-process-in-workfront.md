@@ -7,26 +7,35 @@ description: Puede crear un proceso de aprobación y adjuntarlo a un objeto para
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: dd0822b6-80f1-4a2e-bf6a-0c425984f4d0
-TQID: https://experienceleague.adobe.com/zuT3F839KAE1NOQvnSEXjARik9fVfWJYg74lNQhr31Y
+TQID: 'https://experienceleague.adobe.com/zuT3F839KAE1NOQvnSEXjARik9fVfWJYg74lNQhr31Y'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
   - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+    internal-label: Projects
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1789
-ht-degree: 96%
-
+source-wordcount: '1816'
+ht-degree: 97%
 ---
-
 # Información general del proceso de aprobación
 
 <!-- Audited: 12/2023 -->
@@ -48,15 +57,15 @@ Si es administrador de Adobe Workfront o un usuario con acceso administrativo a 
 
 * **Un proceso de aprobación global de nivel de sistema**: los usuarios pueden adjuntar estos elementos a cualquiera de las siguientes opciones:
 
-   * Un proyecto, tarea o problema en la sección Aprobaciones
-   * En el cuadro Editar proyecto del área Proceso de aprobación predeterminado de la tarea
-   * En las secciones Detalles de cola o Tema de cola de un proyecto en las áreas Proceso de aprobación predeterminado. El proyecto debe estar habilitado como cola de solicitudes.
+  * Un proyecto, tarea o problema en la sección Aprobaciones
+  * En el cuadro Editar proyecto del área Proceso de aprobación predeterminado de la tarea
+  * En las secciones Detalles de cola o Tema de cola de un proyecto en las áreas Proceso de aprobación predeterminado. El proyecto debe estar habilitado como cola de solicitudes.
 
 * **Un proceso de aprobación global de nivel de grupo**: los usuarios pueden adjuntarlos a lo siguiente:
 
-   * Un proyecto, una tarea o un problema que pertenece al grupo asociado con el proceso de aprobación en la sección Aprobaciones
-   * En el cuadro Editar proyecto, en el área Proceso de aprobación predeterminado de la tarea para un proyecto que pertenece al grupo asociado al proceso de aprobación
-   * En las secciones Detalles de cola o Tema de cola de un proyecto en las áreas Proceso de aprobación predeterminado. El proyecto debe estar habilitado como cola de solicitudes y debe pertenecer al grupo asociado al proceso de aprobación.
+  * Un proyecto, una tarea o un problema que pertenece al grupo asociado con el proceso de aprobación en la sección Aprobaciones
+  * En el cuadro Editar proyecto, en el área Proceso de aprobación predeterminado de la tarea para un proyecto que pertenece al grupo asociado al proceso de aprobación
+  * En las secciones Detalles de cola o Tema de cola de un proyecto en las áreas Proceso de aprobación predeterminado. El proyecto debe estar habilitado como cola de solicitudes y debe pertenecer al grupo asociado al proceso de aprobación.
 
   Para obtener información sobre cómo crear un proceso de aprobación de nivel de sistema o de grupo, vea [Crear un proceso de aprobación para elementos de trabajo](../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
 
@@ -77,31 +86,33 @@ Para obtener información acerca de cómo crear un proceso de aprobación de niv
 * Debe crear el proyecto, la tarea, el problema, la plantilla o la tarea de plantilla antes de que el proceso de aprobación se pueda asociar a ellos.
 * Un proceso de aprobación siempre está asociado con dos cosas esenciales:
 
-   * Cada proceso de aprobación corresponde a un determinado estado de elemento de trabajo en el sistema de Workfront. Al cambiar el estado de un elemento de trabajo, una aprobación adjunta para ese estado requiere que el cambio de estado se confirme antes de que se pueda asignar el nuevo estado al elemento.
+  * Cada proceso de aprobación corresponde a un determinado estado de elemento de trabajo en el sistema de Workfront. Al cambiar el estado de un elemento de trabajo, una aprobación adjunta para ese estado requiere que el cambio de estado se confirme antes de que se pueda asignar el nuevo estado al elemento.
 
-     >[!TIP]
-     >
-     >
-     >   
-     >   
-     >   * Puede asociar una aprobación de nivel de grupo con un estado global o de nivel de grupo.
-     >   * No puede cambiar el estado de un elemento mediante un proceso de aprobación a un estado distinto del asociado al proceso de aprobación.
-     >   
-     >   
-     >     Por ejemplo, si tiene una aprobación de tarea asociada al estado En curso, la tarea cambia automáticamente su estado a En curso cuando se concede la aprobación. No puede cambiar automáticamente su estado a Completado ni a ningún otro estado que no esté asociado con la aprobación.
-     >   
-     >   
-     >* Las entidades asociadas a un proceso de aprobación pueden ser usuarios, funciones del puesto o equipos. En última instancia, los usuarios son los responsables de aceptar o rechazar la aprobación. Puede asignar aprobaciones a los usuarios que cumplan una determinada función en el proyecto. Por ejemplo, puede asignar una aprobación a un propietario del proyecto o patrocinador. Para obtener más información, vea [Crear un proceso de aprobación de elementos de trabajo](../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
+    >[!TIP]
+    >
+    >
+    >   
+    >   
+    >   * Puede asociar una aprobación de nivel de grupo con un estado global o de nivel de grupo.
+    >   * No puede cambiar el estado de un elemento mediante un proceso de aprobación a un estado distinto del asociado al proceso de aprobación.
+    >   
+    >   
+    >     Por ejemplo, si tiene una aprobación de tarea asociada al estado En curso, la tarea cambia automáticamente su estado a En curso cuando se concede la aprobación. No puede cambiar automáticamente su estado a Completado ni a ningún otro estado que no esté asociado con la aprobación.
+    >   
+    >   
+    >
 
-     Se dan los siguientes escenarios:
+  * Las entidades asociadas a un proceso de aprobación pueden ser usuarios, funciones del puesto o equipos. En última instancia, los usuarios son los responsables de aceptar o rechazar la aprobación. Puede asignar aprobaciones a los usuarios que cumplan una determinada función en el proyecto. Por ejemplo, puede asignar una aprobación a un propietario del proyecto o patrocinador. Para obtener más información, vea [Crear un proceso de aprobación de elementos de trabajo](../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
 
-      * Cuando asigna una aprobación a las funciones, cualquier usuario del equipo del proyecto que esté asociado con la función puede tomar una decisión sobre la aprobación. La función asociada con la aprobación puede ser la principal o cualquier otra.
+    Se dan los siguientes escenarios:
 
-        Para obtener información sobre el equipo del proyecto, vea [Información general del equipo del proyecto](../../manage-work/projects/planning-a-project/project-team-overview.md).
+    * Cuando asigna una aprobación a las funciones, cualquier usuario del equipo del proyecto que esté asociado con la función puede tomar una decisión sobre la aprobación. La función asociada con la aprobación puede ser la principal o cualquier otra.
 
-      * Al asignar una aprobación a un equipo, cualquier miembro de ese equipo puede tomar una decisión sobre la aprobación. El equipo asociado con la aprobación puede ser su equipo de inicio o cualquiera de sus otros equipos.
+      Para obtener información sobre el equipo del proyecto, vea [Información general del equipo del proyecto](../../manage-work/projects/planning-a-project/project-team-overview.md).
 
-        Para obtener información acerca de las funciones y equipos de un usuario, consulte [Editar el perfil de un usuario](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+    * Al asignar una aprobación a un equipo, cualquier miembro de ese equipo puede tomar una decisión sobre la aprobación. El equipo asociado con la aprobación puede ser su equipo de inicio o cualquiera de sus otros equipos.
+
+      Para obtener información acerca de las funciones y equipos de un usuario, consulte [Editar el perfil de un usuario](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
 * Al crear un elemento de trabajo, no se adjunta automáticamente un proceso de aprobación. Debe adjuntar uno manualmente si desea utilizarlo. Para obtener información acerca de cómo adjuntar un proceso de aprobación a un elemento, consulte [Asociar un proceso de aprobación nuevo o existente a un trabajo](../../review-and-approve-work/manage-approvals/associate-approval-with-work.md).
 * El administrador de Workfront o un usuario con acceso administrativo a los procesos de aprobación puede crear procesos de aprobación globales a nivel de sistema para utilizarlos en todo el sistema. Un administrador de grupo con acceso administrativo a los procesos de aprobación puede crear un proceso de aprobación global a nivel de grupo para uso exclusivo de un determinado grupo que gestione.

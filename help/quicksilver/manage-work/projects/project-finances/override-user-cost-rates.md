@@ -7,13 +7,17 @@ description: Este artículo describe cómo puede anular las tasas de costo de us
 author: Lisa
 feature: Work Management
 exl-id: ff1110fd-2d24-48a7-8000-712e551ca61a
-source-git-commit: e3d4ffe2d42f9de3000df0ba1a924ca36fea9248
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: '651'
+source-wordcount: '656'
 ht-degree: 13%
-
 ---
-
 # Anular las tasas de costo de usuario en el nivel de proyecto
 
 Puede especificar la tasa de costo de un usuario en un proyecto específico. Esta tasa de coste a nivel de proyecto anula la tasa de coste a nivel de sistema para este usuario. Workfront utiliza la tasa de coste a nivel de proyecto de la función de trabajo para calcular el coste, en lugar de utilizar la tasa de coste a nivel de sistema.
@@ -43,7 +47,7 @@ Para obtener más información sobre el cálculo de costos en el proyecto, vea [
    <td> <p>Acceso de edición a proyectos y datos financieros</p>
        <p><p>También debe tener uno de los siguientes:</p> 
         <ul> 
-          <li> <p>El nivel de acceso del administrador del sistema. </li> 
+          <li> <p>El nivel de acceso de administrador del sistema. </li> 
           <li> <p>Configuración de <b>usuarios</b> en su nivel de acceso configurado para el acceso de <b>Edición</b>, con <b>Crear</b> y al menos una de las dos opciones de <b>Administrador de usuarios</b> habilitadas en <b>Ajustar la configuración</b> <img src="assets/gear-icon-in-access-levels.png">. </p> <p>De estas dos opciones, si <b>Administrador de usuarios (usuarios de grupo)</b> está habilitado, debe ser administrador de grupo de un grupo al que pertenezca el usuario.</p> </li> 
     </ul></td> 
   </tr> 

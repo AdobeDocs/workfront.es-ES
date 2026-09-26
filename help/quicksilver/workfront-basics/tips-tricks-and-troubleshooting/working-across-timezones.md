@@ -2,32 +2,39 @@
 content-type: tips-tricks-troubleshooting
 navigation-topic: tips-tricks-and-troubleshooting-workfront-basics
 title: Trabajar en diferentes zonas horarias
-description: Puede resultar útil entender cómo  [!DNL Adobe Workfront]  usa las zonas horarias para calcular los campos de tiempo para objetos y la hora en otras áreas, como los correos electrónicos.
+description: Puede resultar útil comprender cómo utiliza [!DNL Adobe Workfront] las zonas horarias para calcular los campos de hora de los objetos y las horas en otras áreas, como los correos electrónicos.
 feature: Get Started with Workfront
 author: Becky
 exl-id: b6574165-a6dc-4694-a367-d98927abf1e3
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/6ns60P4-S7ZlUbhzB9R-5ZHhYDeFnBbiiQ-I7S-Wyjc
+TQID: 'https://experienceleague.adobe.com/6ns60P4-S7ZlUbhzB9R-5ZHhYDeFnBbiiQ-I7S-Wyjc'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 subfeature_v2:
   - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+    internal-label: Timesheets
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1253
-ht-degree: 71%
-
+source-wordcount: '1261'
+ht-degree: 69%
 ---
-
 # Trabajar en diferentes zonas horarias
 
 <!-- Audited: 2/2024 -->
@@ -97,13 +104,13 @@ La zona horaria del navegador debe configurarse para la ubicación en la que tra
   Si los usuarios de varias zonas horarias están asignados a un objeto, [!DNL Workfront] convierte las horas del objeto para todos los implicados, utilizando la zona horaria configurada en el explorador de cada usuario.
 
   **EJEMPLO**
-En la zona horaria estándar del Este (EST) en la que trabaja, establece una tarea para que comience a las 4:00 p.m. y la asigna a los usuarios que trabajan en la zona horaria estándar del Pacífico (PST). Para esos usuarios, la hora de inicio se muestra a las 1:00 p.m. Si se mostrara como las 4:00 p.m., empezarían a trabajar en él con tres horas de retraso.
+  En la zona horaria estándar del Este (EST) en la que trabaja, establece una tarea para que comience a las 4:00 p.m. y la asigna a los usuarios que trabajan en la zona horaria estándar del Pacífico (PST). Para estos usuarios, la hora de inicio se muestra como 1:00 p.m. Si se mostrara a las 4:00 p.m., empezarían a trabajar con tres horas de retraso.
 
   Si el creador del objeto no conoce la diferencia entre las zonas horarias de los usuarios asignados y no realiza los ajustes necesarios al establecer las horas del objeto, o si los usuarios asignados no conocen esa diferencia, puede ser difícil ajustar el tiempo correctamente mientras todos colaboran en el objeto.
 
   **EJEMPLO**
 
-  Configura una tarea de un día para que comience a las 9:00 AM EST, olvidando que algunos usuarios de la tarea trabajan en la zona PST. Para ellos, la hora de inicio es 6:00 AM. Debido a que no comenzarán a trabajar en él hasta las 9:00 de su hora (mediodía de su hora), la tarea comienza y finaliza con tres horas de retraso.
+  Configura una tarea de un día para que comience a las 9:00 AM EST, olvidando que algunos usuarios de la tarea trabajan en la zona PST. Para ellos, la hora de inicio es a las 6:00 AM. Debido a que no empezarán a trabajar en él hasta las 9:00 su hora (mediodía su hora), la tarea comienza y finaliza con tres horas de retraso.
 
 La configuración de la zona horaria difiere entre los exploradores. Para obtener más información, consulte la documentación de cada explorador o la información de ayuda.
 
@@ -126,20 +133,20 @@ Los administradores de [!DNL Workfront] crean horarios separados para cada zona 
 
   Si se asignan varios usuarios a una tarea, el sistema utiliza una de las siguientes opciones, según la configuración de las preferencias de proyecto de todo el sistema o del grupo:
 
-   * Zona horaria de la programación del propietario principal de la tarea
-   * Zona horaria de la programación del proyecto.
+  * Zona horaria de la programación del propietario principal de la tarea
+  * Zona horaria de la programación del proyecto.
 
   Si se asigna un usuario a una tarea, el sistema utiliza una de las siguientes opciones, según la configuración de las preferencias de proyecto de todo el sistema o del grupo:
 
-   * Zona horaria de la programación de la persona asignada a la tarea
-   * Zona horaria de la programación del proyecto.
+  * Zona horaria de la programación de la persona asignada a la tarea
+  * Zona horaria de la programación del proyecto.
 
   Esto puede hacer que las fechas de las tareas cambien.
 
 >[!BEGINSHADEBOX]
 
 **EJEMPLO:**
-Se asigna a un usuario de EST una tarea de un día programada para iniciarse a las 9:00 AM PST, que es mediodía EST. Como al usuario de EST le quedan solo 2 horas laborables por día, la fecha de finalización de la tarea se extiende unas 6 horas hasta el siguiente día laborable.
+Se asigna a un usuario de EST una tarea de un día programada para comenzar a las 9:00 AM PST, que es el mediodía EST. Como al usuario de EST le quedan solo 2 horas laborables por día, la fecha de finalización de la tarea se extiende unas 6 horas hasta el siguiente día laborable.
 
 
 >[!ENDSHADEBOX]

@@ -6,13 +6,20 @@ description: Las instantáneas de Adobe Workfront le permiten ver las diferencia
 author: Lisa
 feature: Work Management
 exl-id: 9ff84f9a-46bd-46e8-a58d-7dafbc333507
-source-git-commit: dc71072107ce80f6cb9033fcb17fe4ac74d5af18
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: '1278'
-ht-degree: 4%
-
+source-wordcount: '1282'
+ht-degree: 3%
 ---
-
 # Crear y ver instantáneas de proyectos
 
 Los jefes de proyecto a menudo necesitan comparar los datos pasados de un proyecto con el estado actual para tomar decisiones informadas y ver cómo sus proyectos han cambiado con el paso del tiempo.
@@ -52,7 +59,7 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
 
 ## Crear una instantánea
 
-1. Vaya a un proyecto. 
+1. Vaya a un proyecto.
 1. En el panel izquierdo, haga clic en **Instantáneas**.
 
    ![Instantáneas de un proyecto](assets/snapshot-list.png)

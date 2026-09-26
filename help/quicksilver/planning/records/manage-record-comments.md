@@ -1,6 +1,6 @@
 ---
 title: Administrar comentarios de registro
-description: Puede colaborar en registros de Adobe Workfront Planning añadiendo comentarios o respuestas en el panel derecho de un registro. También puede ver otros cambios realizados en el registro y registrados por el sistema en esta área.
+description: Puede colaborar en registros de Planificación de Workfront de Adobe añadiendo comentarios o respuestas en el panel derecho de un registro. También puede ver otros cambios realizados en el registro y registrados por el sistema en esta área.
 feature: Workfront Planning
 role: User
 author: Alina
@@ -8,24 +8,31 @@ recommendations: noDisplay, noCatalog
 exl-id: 215883a4-e882-438e-9c21-954c0b1d741b
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/uUnIDCZ1-906MSz5B8La-9cu0k4pabUarBuUE9t8zhw
+TQID: 'https://experienceleague.adobe.com/uUnIDCZ1-906MSz5B8La-9cu0k4pabUarBuUE9t8zhw'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
 subfeature_v2:
   - id: e147ce9d-7675-49bd-8a32-44f27d865560
+    internal-label: Get started
+  - id: eb361af2-3e4f-4a79-b5f3-7a344ac5794c
+    internal-label: Workfront Planning
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 4378eb4b7272ac17b0fb6f2f2e77de2c0b272050
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 931
-ht-degree: 52%
-
+source-wordcount: '944'
+ht-degree: 53%
 ---
-
 # Administrar comentarios de registros
 
 <span class="preview">La información resaltada en esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa para todos los clientes. Después del lanzamiento en Vista previa, las mismas funciones también están disponibles mensualmente en el entorno de producción para los clientes que habilitaron lanzamientos rápidos. </span>
@@ -34,7 +41,7 @@ ht-degree: 52%
 
 {{planning-important-intro}}
 
-Puede colaborar en registros de Adobe Workfront Planning añadiendo comentarios o respuestas en el panel derecho de un registro. También puede ver otros cambios realizados en el registro y registrados por el sistema en esta área.
+Puede colaborar en registros de Planificación de Workfront de Adobe añadiendo comentarios o respuestas en el panel derecho de un registro. También puede ver otros cambios realizados en el registro y registrados por el sistema en esta área.
 
 El panel derecho de un registro muestra las siguientes secciones:
 
@@ -161,21 +168,21 @@ Old:
 
 ## Consideraciones acerca de los comentarios en un registro
 
-* Puede añadir comentarios y respuestas a registros en Workfront Planning, en la sección Comentarios de un registro.
+* Puede añadir comentarios y respuestas a registros en Planificación de Workfront, en la sección Comentarios de un registro.
 
-* Los comentarios añadidos a los registros vinculados no se muestran en los registros desde los que está vinculando. Por ejemplo, si comenta un registro de producto de Workfront Planning vinculado a un registro de campaña, el comentario solo se muestra en el registro de producto de Workfront Planning y no en el registro de campaña desde el que está vinculando.
+* Los comentarios añadidos a los registros vinculados no se muestran en los registros desde los que está vinculando. Por ejemplo, si comenta un registro de producto de Planificación de Workfront vinculado a un registro de campaña, el comentario solo se muestra en el registro de producto de Planificación de Workfront y no en el registro de campaña desde el que está vinculando.
 
-* Puede añadir comentarios a los registros de Workfront Planning creados como resultado de una conexión entre un registro y un objeto de otra aplicación.
+* Puede añadir comentarios a los registros de Planificación de Workfront creados como resultado de una conexión entre un registro y un objeto de otra aplicación.
 
-  Por ejemplo, puede realizar comentarios en el registro de Project Workfront Planning después de conectar proyectos de Workfront con registros de Workfront Planning. Para obtener más información, consulte [Conectar registros](/help/quicksilver/planning/records/connect-records.md).
+  Por ejemplo, puede realizar comentarios en el registro de proyecto de Planificación de Workfront después de conectar proyectos de Workfront con registros de Planificación de Workfront. Para obtener más información, consulte [Conectar registros](/help/quicksilver/planning/records/connect-records.md).
 
-* Los comentarios añadidos a objetos vinculados en otras aplicaciones no se muestran en Workfront Planning y los comentarios añadidos a objetos vinculados en Workfront Planning no se muestran en otras aplicaciones.
+* Los comentarios añadidos a objetos vinculados en otras aplicaciones no se muestran en Planificación de Workfront y los comentarios añadidos a objetos vinculados en Planificación de Workfront no se muestran en otras aplicaciones.
 
-  Por ejemplo, los comentarios añadidos a proyectos en Workfront no se muestran en el mismo proyecto vinculado a una campaña en Workfront Planning y los comentarios añadidos al proyecto en el registro de Workfront Planning no se muestran en Workfront.
+  Por ejemplo, los comentarios añadidos a proyectos en Workfront no se muestran en el mismo proyecto vinculado a una campaña en Planificación de Workfront y los comentarios añadidos al proyecto en el registro de Planificación de Workfront no se muestran en Workfront.
 
 * Puede etiquetar usuarios o equipos para que llamen su atención sobre una actualización. Tanto los usuarios etiquetados de forma individual como los usuarios de los equipos etiquetados reciben una notificación dentro de la aplicación y un correo electrónico sobre la actualización.
 
-* Puede añadir una actualización a los registros y revisar el historial de cambios desde las siguientes áreas de Workfront Planning:
+* Puede añadir una actualización a los registros y revisar el historial de cambios desde las siguientes áreas de Planificación de Workfront:
 
   * Desdes la página de detalles del registro.
   * Desde una vista, en el cuadro de detalles del registro.

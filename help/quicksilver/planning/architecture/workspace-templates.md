@@ -8,19 +8,26 @@ recommendations: noDisplay, noCatalog
 exl-id: c4758b87-45dc-4ffd-b086-5e2e907bdf34
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/fo6vWjL0XWOPzrBDUC02ES9kgnzmlTGsi050JUfz3zk
+TQID: 'https://experienceleague.adobe.com/fo6vWjL0XWOPzrBDUC02ES9kgnzmlTGsi050JUfz3zk'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+subfeature_v2:
+  - id: eb361af2-3e4f-4a79-b5f3-7a344ac5794c
+    internal-label: Workfront Planning
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+    internal-label: Admin
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 958
+source-wordcount: '958'
 ht-degree: 9%
-
 ---
-
 # Lista de plantillas de Workspace
 
 {{planning-important-intro}}
@@ -35,8 +42,8 @@ En este artículo se describen las plantillas de espacio de trabajo disponibles 
 
 * Según el número de espacios de trabajo que cree al utilizar una plantilla de espacio de trabajo de Planning, puede utilizar los siguientes tipos de plantillas:
 
-   * Plantillas únicas: una plantilla crea un espacio de trabajo.
-   * Paquete de plantillas de varios espacios de trabajo: el paquete de plantillas crea 6 espacios de trabajo interconectados.
+  * Plantillas únicas: una plantilla crea un espacio de trabajo.
+  * Paquete de plantillas de varios espacios de trabajo: el paquete de plantillas crea 6 espacios de trabajo interconectados.
 * Cada plantilla viene con un conjunto de tipos de registros.
 
   Para obtener más información, vea [Información general sobre los tipos de registro](/help/quicksilver/planning/architecture/overview-of-record-types.md).
@@ -108,82 +115,82 @@ Las siguientes son plantillas de espacio de trabajo en Workfront Planning y los 
 
   La plantilla de Operations Initiative Studio incluye los siguientes tipos de registros y sus campos:
 
-   * Iniciativas
-   * Secuencias de trabajo
-   * Riesgos y problemas
-   * Decisiones
-   * Sistemas
-   * Equipos
+  * Iniciativas
+  * Secuencias de trabajo
+  * Riesgos y problemas
+  * Decisiones
+  * Sistemas
+  * Equipos
 * **Estudio de planificación de comunicaciones**: idea de configurar un centro de planificación de comunicaciones rápidamente. Comience duplicando el registro de plantilla de plan de comunicaciones largas o cortas y, a continuación, genere el despliegue añadiendo tácticas y rastreando puntos de comprobación de aprobación. Haga referencia a Audiencias, Mercados y Canales para generar informes, filtrar y reutilizar de forma coherente. Incluye registros de muestra y vistas de tabla, escala de tiempo y calendario listas para usar para que los equipos puedan explorar las características de Planning inmediatamente.
 
   La plantilla de Communications Planning Studio incluye los siguientes tipos de registros y sus campos:
 
-   * Comunicaciones
-   * Públicos
-   * Tácticas
-   * Puntos de comprobación de aprobación
-   * Canales
-   * Mercados
-   * Funciones de partes interesadas
+  * Comunicaciones
+  * Públicos
+  * Tácticas
+  * Puntos de comprobación de aprobación
+  * Canales
+  * Mercados
+  * Funciones de partes interesadas
 
 * **Básico: Administración de marketing**: ideal para organizaciones que establecen la base de un sistema de marketing básico. La plantilla incluye los siguientes tipos de registro y número de campos, incluidos los campos conectados a otros tipos de registro:
 
-   * Campaign
-   * Personas
-   * Marcas
-   * Productos
+  * Campaign
+  * Personas
+  * Marcas
+  * Productos
 
 * **Avanzado: Administración de marketing**: apropiado para equipos listos para explorar estrategias de marketing más matizadas. La plantilla incluye los siguientes tipos de registro y número de campos, incluidos los campos conectados a otros tipos de registro:
 
-   * Campañas
-   * Programas
-   * Regiones
-   * Fases de Recorrido del cliente
-   * Públicos
-   * Envíos específicos
-   * Marcas
+  * Campañas
+  * Programas
+  * Regiones
+  * Fases de Recorrido del cliente
+  * Públicos
+  * Envíos específicos
+  * Marcas
 
 * **Empresa: administración de mercadotecnia**: diseñado para organizaciones grandes o maduras con sistemas de mercadotecnia complejos. La plantilla incluye los siguientes tipos de registro y número de campos, incluidos los campos conectados a otros tipos de registro:
 
-   * Campañas
-   * Programas
-   * Tácticas
-   * Actividades
-   * Productos
-   * Envíos específicos
-   * Audiencias de Target
-   * Regiones
-   * Subregiones
-   * Socios
-   * Casos de uso
-   * Fases de Recorrido del cliente
+  * Campañas
+  * Programas
+  * Tácticas
+  * Actividades
+  * Productos
+  * Envíos específicos
+  * Audiencias de Target
+  * Regiones
+  * Subregiones
+  * Socios
+  * Casos de uso
+  * Fases de Recorrido del cliente
 
 * Gestión de ventas: puede crear un sistema de ventas completo que optimice su proceso de ventas y mejore la eficiencia. La plantilla incluye los siguientes tipos de registro y número de campos, incluidos los campos conectados a otros tipos de registro:
 
-   * Oportunidad
-   * Actividad
-   * Campaign
-   * Cuenta
-   * Posible cliente
-   * Contacto
-   * Región
-   * Industria
-   * Centro de compras
-   * Producto/ servicio
-   * Competencia
+  * Oportunidad
+  * Actividad
+  * Campaign
+  * Cuenta
+  * Posible cliente
+  * Contacto
+  * Región
+  * Industria
+  * Centro de compras
+  * Producto/ servicio
+  * Competencia
 
 
 * Administración de productos: puede crear un proceso de administración de productos eficiente y estructurado mediante esta plantilla. La plantilla incluye los siguientes tipos de registro y número de campos, incluidos los campos conectados a otros tipos de registro:
 
-   * Tema
-   * Iniciativa
-   * Épico
-   * Historia del usuario
-   * Cliente
-   * Sprint
-   * Equipo de productos
-   * Solicitudes de función
-   * Industria
+  * Tema
+  * Iniciativa
+  * Épico
+  * Historia del usuario
+  * Cliente
+  * Sprint
+  * Equipo de productos
+  * Solicitudes de función
+  * Industria
 
 ## Plantillas de espacio de trabajo de Planning de Workfront de varios espacios de trabajo
 
@@ -203,56 +210,56 @@ El paquete de plantillas de varios espacios de trabajo contiene las siguientes p
   >Utilizamos el nombre &quot;Fréscopa&quot; solo como ejemplo general de una empresa.
 
 
-   * Recorridos del cliente
-   * Países
-   * Canales
-   * Regiones
-   * Estados, provincias o prefecturas
-   * Idiomas
-   * Plataformas
-   * Tipos de experiencia
-   * Años
-   * Trimestres
-   * Estrategias de mensajería
-   * Audiencias de Target
-   * Personas
-   * Productos
-   * Marcas
-   * Categorías de productos
-   * Valores
-   * Visión y misión
-   * Pilares
-   * Indicadores clave de rendimiento
+  * Recorridos del cliente
+  * Países
+  * Canales
+  * Regiones
+  * Estados, provincias o prefecturas
+  * Idiomas
+  * Plataformas
+  * Tipos de experiencia
+  * Años
+  * Trimestres
+  * Estrategias de mensajería
+  * Audiencias de Target
+  * Personas
+  * Productos
+  * Marcas
+  * Categorías de productos
+  * Valores
+  * Visión y misión
+  * Pilares
+  * Indicadores clave de rendimiento
 
 * **2.Fréscopa Global Marketing**: Espacio de trabajo centralizado para administrar la estrategia y ejecución de marketing empresarial de Fréscopa. Agrupa campañas, contenido y métricas para impulsar el impacto de la marca.
 
-   * Campañas
-   * Tácticas de canal
-   * Experiencias
-   * Eventos
+  * Campañas
+  * Tácticas de canal
+  * Experiencias
+  * Eventos
 
 * **3.Marketing social de Fréscopa**: El espacio de trabajo dedicado para administrar la presencia y las campañas de medios sociales de Fréscopa. Centraliza la planificación, la publicación y el seguimiento del rendimiento en todas las plataformas sociales.
 
-   * Influenciadores
+  * Influenciadores
 
 * **4.Fréscopa Media &amp; PR**: Donde los equipos de Medios y PR coordinan actividades para apoyar los objetivos globales de Marketing.
 
-   * Reporteros
-   * Medios de comunicación
-   * Interacciones con medios
+  * Reporteros
+  * Medios de comunicación
+  * Interacciones con medios
 
 * **5.Eventos globales de Fréscopa**: Un lugar centralizado para planificar y rastrear eventos de Fréscopa en todas las regiones, países y unidades de negocio.
 
-   * Tipos de eventos
-   * Tipos de flujo de trabajo
-   * Altavoces
-   * Ubicaciones de eventos
-   * Tipo de audiencia de evento
+  * Tipos de eventos
+  * Tipos de flujo de trabajo
+  * Altavoces
+  * Ubicaciones de eventos
+  * Tipo de audiencia de evento
 
 * **6.Fréscopa Executive Company Leadership**: Espacio de trabajo centralizado para líderes estratégicos que interactúen con datos procesables como Objetivos y metas empresariales.
 
-   * Objetivos empresariales
-   * Objetivos del departamento
-   * Objetivos del equipo
-   * Resultados clave
+  * Objetivos empresariales
+  * Objetivos del departamento
+  * Objetivos del equipo
+  * Resultados clave
 

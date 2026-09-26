@@ -8,22 +8,29 @@ feature: Agile
 exl-id: b016fda1-789a-42b3-9f97-2c61c4ec0917
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/dOaVAx6iEbdP-hzSgKpS8drVTtmmhG-rjvZIsN19RH8
+TQID: 'https://experienceleague.adobe.com/dOaVAx6iEbdP-hzSgKpS8drVTtmmhG-rjvZIsN19RH8'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+subfeature_v2:
+  - id: be65ef36-43e4-48e1-a062-caa3778e15be
+    internal-label: Agile
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 568
-ht-degree: 81%
-
+source-wordcount: '601'
+ht-degree: 76%
 ---
-
 # Añadir usuarios a una iteración existente
 
 Puede añadir historias a una iteración de cualquiera de las siguientes maneras:
@@ -69,23 +76,23 @@ De manera predeterminada, cuando añade una tarea existente a una iteración, la
 
 * La tarea utiliza la fecha de inicio de la iteración cuando:
 
-   * El proyecto no tiene una [!UICONTROL fecha de inicio planificada] establecida.
-   * La [!UICONTROL fecha planificada de inicio] del proyecto es *antes de* o *en* la fecha de inicio de la iteración.
+  * El proyecto no tiene una [!UICONTROL fecha de inicio planificada] establecida.
+  * La [!UICONTROL fecha planificada de inicio] del proyecto es *antes de* o *en* la fecha de inicio de la iteración.
 
 * La tarea utiliza la [!UICONTROL fecha de inicio planificada] del proyecto cuando:
 
-   * La [!UICONTROL fecha planificada de inicio] del proyecto es *después* de la fecha de inicio de la iteración.
+  * La [!UICONTROL fecha planificada de inicio] del proyecto es *después* de la fecha de inicio de la iteración.
 
 ### [!UICONTROL Fecha planificada de finalización] de la tarea
 
 * La tarea utiliza la fecha de finalización de la iteración cuando:
 
-   * El proyecto no tiene [!UICONTROL fecha planificada de finalización] establecida.
-   * La [!UICONTROL fecha planificada de inicio] del proyecto es *antes o en* la fecha de inicio de la iteración o la [!UICONTROL fecha planificada de finalización] del proyecto es *antes o en* la fecha de finalización de la iteración.
+  * El proyecto no tiene [!UICONTROL fecha planificada de finalización] establecida.
+  * La [!UICONTROL fecha planificada de inicio] del proyecto es *antes o en* la fecha de inicio de la iteración o la [!UICONTROL fecha planificada de finalización] del proyecto es *antes o en* la fecha de finalización de la iteración.
 
 * La tarea utiliza la [!UICONTROL fecha planificada de finalización] del proyecto cuando:
 
-   * La [!UICONTROL fecha planificada de inicio] del proyecto es *después de* la fecha de inicio de la iteración y la [!UICONTROL fecha planificada de finalización] del proyecto es *después* de la fecha de finalización de la iteración.
+  * La [!UICONTROL fecha planificada de inicio] del proyecto es *después de* la fecha de inicio de la iteración y la [!UICONTROL fecha planificada de finalización] del proyecto es *después* de la fecha de finalización de la iteración.
 
 Puede configurar equipos de Scrum individuales para que utilicen las fechas del proyecto de forma predeterminada, en lugar de las fechas de iteración. Para obtener más información, consulte la sección [Configurar cómo se aplican las fechas al añadir elementos de trabajo a una iteración](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configure-how-dates-are-applied-when-adding-work-items-to-an-iteration) en el artículo [Configurar Scrum](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md).
 

@@ -7,18 +7,24 @@ description: La aplicación móvil de Adobe Workfront debe actualizarse en Apple
 author: Luke
 feature: Product Announcements
 exl-id: bcd61b1f-1566-404d-8c73-f05173b90a8d
-TQID: https://experienceleague.adobe.com/sE7pN79NbcvuQmZ6obdo63gF40IPvEkgg08-EUzUDPI
+TQID: 'https://experienceleague.adobe.com/sE7pN79NbcvuQmZ6obdo63gF40IPvEkgg08-EUzUDPI'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 320
-ht-degree: 80%
-
+source-wordcount: '375'
+ht-degree: 100%
 ---
-
 # Aplicación móvil actualizada para iOS y Android (principios de agosto de 2017)
 
 La aplicación móvil de Adobe Workfront debe actualizarse en Apple App Store y Google Play a principios de agosto de 2017. 
@@ -27,7 +33,7 @@ La actualización incluye las siguientes mejoras tanto para Android como para la
 
 ## Envían solicitudes
 
-A partir de la nueva versión de la aplicación móvil, podrá enviar solicitudes a colas de solicitudes desde su dispositivo móvil. Podrá acceder a las mismas colas de solicitudes a las que tiene acceso desde la aplicación web. 
+Con la nueva versión de la aplicación móvil, se podrán enviar solicitudes a colas de solicitudes desde su dispositivo móvil. Podrá acceder a las mismas colas de solicitudes a las que tiene acceso desde la aplicación web. 
 
 Puede enviar una solicitud, asignarla al recurso adecuado y actualizarla cuando esté fuera de casa. 
 
@@ -56,8 +62,8 @@ Para obtener más información sobre la edición de formularios personalizados e
 
 ## Visibilidad de aprobaciones de pruebas en la aplicación móvil
 
-Desde la nueva versión de la aplicación móvil, podrá aprobar pruebas de documentos en su dispositivo móvil. También recibirá una notificación en el área de Notificaciones cuando se le designe como Aprobador en una prueba. 
+Con la nueva versión de la aplicación móvil, podrá aprobar pruebas de documentos en su dispositivo móvil. También recibirá una notificación en el área de Notificaciones cuando se le designe como Aprobador en una prueba. 
 
-Antes de esta actualización, podía realizar aprobaciones de proyectos, tareas, problemas y documentos mediante la aplicación móvil. Necesitará una licencia de Proof HQ para aprobar pruebas de documentos en la aplicación móvil. 
+Antes de esta actualización, se podían realizar aprobaciones de proyectos, tareas, problemas y documentos mediante la aplicación móvil. Se necesitará una licencia de ProofHQ para aprobar pruebas de documentos en la aplicación móvil. 
 
 Para obtener más información sobre la revisión en Workfront, consulte la sección [Revisión](../../../review-and-approve-work/proofing/proofing.md). 

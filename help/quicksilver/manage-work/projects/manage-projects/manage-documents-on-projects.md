@@ -6,13 +6,20 @@ description: Dependiendo de si el administrador de Workfront elige la opción pr
 author: Alina
 feature: Work Management
 exl-id: 5623157e-946e-4475-9df3-b1888a2a0934
-source-git-commit: f70d54de9cf9269ef3edaac6204a4bd41770fecc
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
 source-wordcount: '2203'
 ht-degree: 0%
-
 ---
-
 # Información general sobre la administración de documentos para proyectos y objetos relacionados
 
 El administrador de Adobe Workfront puede definir el valor predeterminado de las preferencias de almacenamiento de su organización para indicar dónde se deben almacenar los documentos en Workfront.
@@ -152,7 +159,7 @@ This is not possible anymore:
 * No puede agregar un proyecto de almacenamiento en la nube de Adobe a una cartera de productos de almacenamiento heredados ni a un proyecto de almacenamiento heredado a una cartera de productos de Adobe.
 * El administrador puede convertir un catálogo de productos de almacenamiento heredado al almacenamiento en la nube de Adobe en el área Preferencias del sistema de Configuración. Todos los objetos secundarios (programas, proyectos y documentos) permanecen en el almacenamiento heredado. Los nuevos proyectos utilizarán el almacenamiento en la nube de Adobe. Los nuevos documentos añadidos al portafolio se seguirán almacenando en el almacenamiento heredado.
 Para obtener más información, consulte [Configurar las preferencias del sistema](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md).
-* &#x200B;<!-- this point also repeats for programs below-->Si un portafolio se convierte del almacenamiento heredado al almacenamiento en la nube de Adobe y el programa tiene almacenamiento heredado, un proyecto del programa también utilizará el almacenamiento heredado.
+* <!-- this point also repeats for programs below-->Si un portafolio se convierte del almacenamiento heredado al almacenamiento en la nube de Adobe y el programa tiene almacenamiento heredado, un proyecto del programa también utilizará el almacenamiento heredado.
 
   Ya no puede añadir proyectos de almacenamiento heredados existentes a esta cartera.
 
@@ -171,7 +178,7 @@ Tenga en cuenta lo siguiente al trabajar con programas:
 * No puede agregar un programa de almacenamiento en la nube de Adobe a una cartera de productos de almacenamiento heredados ni un programa heredado a una cartera de productos de almacenamiento en la nube de Adobe.
 * No puede crear un proyecto a partir de una plantilla de almacenamiento en la nube de Adobe en un programa de almacenamiento heredado.
 * Puede crear un proyecto a partir de una plantilla de almacenamiento heredada en un programa de almacenamiento en la nube de Adobe, pero los documentos y las carpetas de la plantilla no se agregan al nuevo proyecto. El proyecto recibe almacenamiento en la nube de Adobe.
-* &#x200B;<!-- this point also repeats for portfolios above-->Si un portafolio se convierte del almacenamiento heredado al almacenamiento en la nube de Adobe y el programa tiene almacenamiento heredado, un proyecto del programa también utilizará el almacenamiento heredado.
+* <!-- this point also repeats for portfolios above-->Si un portafolio se convierte del almacenamiento heredado al almacenamiento en la nube de Adobe y el programa tiene almacenamiento heredado, un proyecto del programa también utilizará el almacenamiento heredado.
 
   Ya no puede añadir proyectos de almacenamiento heredados existentes a esta cartera.
 

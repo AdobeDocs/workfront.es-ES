@@ -7,24 +7,29 @@ feature: Get Started with Workfront
 exl-id: e5f2408b-2c29-4257-8bdc-bf20880de265
 last-update: 2026-04-01T18:23:03.000Z
 git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
-TQID: https://experienceleague.adobe.com/8c5WRCNHRseRR3jcv2c-mPmE-D-zzfjMcxG0m4EjWVo
+TQID: 'https://experienceleague.adobe.com/8c5WRCNHRseRR3jcv2c-mPmE-D-zzfjMcxG0m4EjWVo'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 subfeature_v2:
   - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0b736e536664ca458ec253f3b8274060bd58d56e
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 886
+source-wordcount: '886'
 ht-degree: 94%
-
 ---
-
 # Asistente de IA en Workfront
 
 >[!IMPORTANT]
@@ -80,9 +85,9 @@ Para habilitar el Asistente de IA para su organización, se deben aplicar **toda
 
   Para obtener más información, consulte [Habilitar o deshabilitar el asistente de IA](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md).
 
-* El asistente de IA de Workfront Planning tiene funciones diferentes a las del asistente de IA de Workfront.
+* El asistente de IA de Planificación de Workfront tiene funciones diferentes a las del asistente de IA de Workfront.
 
-  Para obtener más información sobre el asistente de IA en Workfront Planning, consulte [Información general del asistente de IA de Adobe Workfront Planning](/help/quicksilver/planning/general/planning-ai-assistant-overview.md).
+  Para obtener más información sobre el asistente de IA en Planificación de Workfront, consulte [Información general del asistente de IA de Planificación de Workfront de Adobe](/help/quicksilver/planning/general/planning-ai-assistant-overview.md).
 
 * Actualmente, el asistente de IA solo está disponible en inglés.
 
@@ -127,7 +132,7 @@ El asistente de IA puede consultar los datos asociados con los siguientes tipos 
 * Problemas
 * Formularios personalizados
 * Usuarios
-* Registros de Workfront Planning
+* Registros de Planificación de Workfront
 
 
 ## Acceso al Asistente de IA
@@ -171,7 +176,7 @@ Al escribir la indicación, incluya la frase `using (keyword)`.
 | Palabra clave | Efecto |
 | --- | --- |
 | `workfront` | Interactúa con Workfront. |
-| `planning` | Interactúa con Workfront Planning. |
+| `planning` | Interactúa con Planificación de Workfront. |
 | `help` | Devuelve información de la documentación de Experience League. |
 | `formula` | Comprueba y devuelve fórmulas para utilizarlas en la planificación, configuración o formularios personalizados. |
 | `health` | Comprueba el estado del proyecto con el asesor del estado del proyecto. |
@@ -182,7 +187,7 @@ Al escribir la indicación, incluya la frase `using (keyword)`.
 > No todas las palabras clave están disponibles en todas las áreas.
 >
 >* La palabra clave `formula` solo está disponible en la planificación, en la configuración y en el creador de formularios personalizados.
->* La palabra clave `planning` solo está disponible desde Workfront Planning.
+>* La palabra clave `planning` solo está disponible desde Planificación de Workfront.
 
 
 

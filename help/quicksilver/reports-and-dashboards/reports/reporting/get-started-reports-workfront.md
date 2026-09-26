@@ -9,27 +9,35 @@ feature: Reports and Dashboards
 exl-id: 478512af-a47c-4488-878a-581e238e0064
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/36hlWb4SKgHqZCt70lm6rt7l2V-qzpisXj6HJJUf9XQ
+TQID: 'https://experienceleague.adobe.com/36hlWb4SKgHqZCt70lm6rt7l2V-qzpisXj6HJJUf9XQ'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c6dd2ac5-f5bd-4e59-9101-25b156918623
+    internal-label: Reports and dashboards
 subfeature_v2:
   - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
   - id: e147ce9d-7675-49bd-8a32-44f27d865560
+    internal-label: Get started
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 3259
-ht-degree: 93%
-
+source-wordcount: '3321'
+ht-degree: 94%
 ---
-
 # Introducción a los informes
 
 <!-- Audited: 12/2023 -->
@@ -193,7 +201,7 @@ La pestaña Detalles de un informe muestra el objeto de los informes y los atrib
 >[!IMPORTANT]
 >
 >La información de la pestaña Detalles puede mostrarse de forma diferente a la de la pestaña Gráfico en función de la zona horaria.\
->Por ejemplo, un usuario de California completó una tarea a las 9:30 p.m. PST del 12 de febrero. Cuando un usuario de Nueva York ve un informe que incluye la finalización de esta tarea, la fecha de finalización real se muestra como 13 de febrero tanto en la pestaña Detalles como en los detalles del gráfico porque se completó a las 12:30 am EST del 13 de febrero. Sin embargo, en el gráfico, se incluye en la agrupación del 12 de febrero hasta que expanda el elemento de gráfico.
+>Por ejemplo, un usuario de California completó una tarea a las 21:30 (PST) del 12 de febrero. Cuando un usuario de Nueva York ve un informe que incluye la finalización de esta tarea, la fecha de finalización real se muestra como 13 de febrero tanto en la pestaña Detalles como en los detalles del gráfico porque se completó a las 12:30 h EST del 13 de febrero. Sin embargo, en el gráfico, se incluye en la agrupación del 12 de febrero hasta que expanda el elemento de gráfico.
 
 ### Pestaña Resumen {#summary-tab}
 
@@ -222,7 +230,7 @@ Considere la posibilidad de incluir un gráfico en sus informes para presentar i
 >[!IMPORTANT]
 >
 >Al hacer clic en un elemento del gráfico, la información expandida puede mostrarse de forma diferente a la del gráfico en función de la zona horaria.\
->Por ejemplo, un usuario de California completó una tarea a las 9:30 p.m. PST del 12 de febrero. Cuando un usuario de Nueva York ve un informe que incluye la finalización de esta tarea, la fecha de finalización real se muestra como 13 de febrero tanto en la pestaña Detalles como en los detalles del gráfico porque se completó a las 12:30 am EST del 13 de febrero. Sin embargo, en el gráfico, se incluye en la agrupación del 12 de febrero hasta que expanda el elemento de gráfico.
+>Por ejemplo, un usuario de California completó una tarea a las 21:30 (PST) del 12 de febrero. Cuando un usuario de Nueva York ve un informe que incluye la finalización de esta tarea, la fecha de finalización real se muestra como 13 de febrero tanto en la pestaña Detalles como en los detalles del gráfico porque se completó a las 12:30 h EST del 13 de febrero. Sin embargo, en el gráfico, se incluye en la agrupación del 12 de febrero hasta que expanda el elemento de gráfico.
 
 Para obtener información acerca de cómo crear un informe con un gráfico, consulte el artículo [Añadir un gráfico a un informe](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-chart-report.md).
 
@@ -278,7 +286,7 @@ Para obtener información acerca de cómo crear y usar calendarios, consulte [In
 ## Uso de informes
 
 Después de crear informes y compartirlos con otros usuarios, puede realizar un seguimiento de la frecuencia con la que los usan.
-Para obtener información sobre el uso de los informes, incluida la frecuencia con la que se visualizan, el usuario y los paneles en los que se muestran, consulte el artículo [Resumen del uso de los informes](../../../reports-and-dashboards/reports/report-usage/report-usage-overview.md).
+Para obtener información sobre el uso de los informes, incluida la frecuencia con la que se visualizan, el usuario que los consulta y los paneles de control en los que se muestran, consulte el artículo [Información general del uso de los informes](../../../reports-and-dashboards/reports/report-usage/report-usage-overview.md).
 
 ## Términos comunes utilizados en referencia a los informes
 

@@ -2,28 +2,38 @@
 product-previous: workfront-proof
 product-area: documents;system-administration;user-
 navigation-topic: account-settings-workfront-proof
-title: 'Configurar el inicio de sesión único para los usuarios de  [!DNL Workfront Proof] '
-description: Si tiene el plan Select o Premium, puede proporcionar la capacidad de inicio de sesión único (SSO), que le permite usar el nombre de usuario y la contraseña existentes de su organización para acceder a su cuenta de  [!DNL Workfront Proof] .
+title: Configurar el inicio de sesión único para los usuarios de [!DNL Workfront Proof]
+description: Si tiene el plan Select o Premium, puede proporcionar la capacidad de inicio de sesión único (SSO), que le permite usar el nombre de usuario y la contraseña existentes de su organización para acceder a su cuenta de [!DNL Workfront Proof].
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 52ac1919-1821-424f-89f8-72865b236e4e
-TQID: https://experienceleague.adobe.com/OhvVg0L6uAWG9uGjqsoCbmBAyTsVl1dlhUv9FDCw0XA
+TQID: 'https://experienceleague.adobe.com/OhvVg0L6uAWG9uGjqsoCbmBAyTsVl1dlhUv9FDCw0XA'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+    internal-label: Workfront Proof
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1087
-ht-degree: 91%
-
+source-wordcount: '1340'
+ht-degree: 89%
 ---
-
 # Configurar el inicio de sesión único para los usuarios de [!DNL Workfront Proof]
 
 >[!IMPORTANT]
@@ -63,27 +73,27 @@ Como proveedor de servicio, hemos publicado nuestro ID de entidad aquí:
 Para configurar el SSO:
 
 1. Abra la pestaña **[!UICONTROL Inicio de sesión único]** (1).
-1. Escriba la **URL de SSO** (2).
-Este es el vínculo a su servidor SSO (por ejemplo, **https://sso.mycompany.com/opensso**).
+1. Introduzca la **URL de SSO** (2).
+Es el vínculo al servidor SSO (por ejemplo, **https://sso.mycompany.com/opensso**).
 
-1. Escriba la **URL de inicio de sesión** (3).
-Dirección URL que se invocará para redirigir a los usuarios al proveedor de identidad.
+1. Introduzca la **URL de inicio de sesión** (3).
+Es la URL que se invocará para redirigir a los usuarios al proveedor de identidad.
 
    No se trata de una URL real que se introduzca en el explorador, sino de un punto final que procesará la información que le enviemos para presentar la pantalla de inicio de sesión.
 
-1. Escriba la **URL de cierre de sesión** (4).
-Esta es la dirección URL a la que volverá después de cerrar la sesión, por ejemplo
+1. Introduzca la **URL de cierre de sesión** (4).
+Es la URL a la que volverá tras cerrar la sesión, por ejemplo
 
    **https://www.yourcompany.com/services/logout.asp**
 
 1. Introduzca la **huella digital del certificado** (5).
 1. Es la huella digital SHA1 del certificado SAML proporcionado por su proveedor de identidad SAML.
 1. Asegúrese de incluir la información de clave estableciéndola en el proveedor de identidad.
-1. Cambiar **SSO** a **[!UICONTROL Habilitado]** (6).
-Una vez habilitado el SSO, usted y los demás usuarios de su cuenta iniciarán sesión con su propio mecanismo de autenticación. Esto significa que cuando los usuarios accedan a la pantalla de inicio de sesión de la cuenta de [!DNL Workfront Proof] (por ejemplo, **yourcompany.proofhq.com/login**), se les solicitará la ventana de transferencia a su propia página de inicio de sesión de autenticación.
+1. Cambie **SSO** a **[!UICONTROL Habilitado]** (6).
+Una vez habilitado el SSO, usted y todos los usuarios de su cuenta iniciarán sesión mediante su propio mecanismo de autenticación. Esto significa que cuando los usuarios accedan a la pantalla de inicio de sesión de su cuenta de [!DNL Workfront Proof] (por ejemplo, **yourcompany.proofhq.com/login**), se les indicará la ventana de transferencia a su propia página de inicio de sesión de autenticación.
 
-1. (Opcional) Habilitar **Aprovisionar usuarios automáticamente** (7).
-Una vez habilitada esta opción, las cuentas de usuario se crearán automáticamente para las personas que no tengan sus propios perfiles de [!DNL Workfront Proof], pero que accedan a la cuenta de [!DNL Workfront Proof] con sus credenciales de inicio de sesión único. Esto solo se llevará a cabo cuando aún no se haya alcanzado el límite de usuarios en su cuenta.
+1. (Opcional) Habilite **Aprovisionar usuarios automáticamente** (7).
+Una vez habilitada esta opción, se crearán automáticamente cuentas de usuario para las personas que no tengan sus propios perfiles de [!DNL Workfront Proof], pero accederán a su cuenta de [!DNL Workfront Proof] mediante sus credenciales de inicio de sesión único. Esto solo se llevará a cabo cuando aún no se haya alcanzado el límite de usuarios en su cuenta.
 
 1. Los nuevos usuarios aprovisionados tendrán los permisos del perfil Admimistrador asignados de forma predeterminada. Si necesita más información, consulte [Perfiles de permisos de prueba en [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md).
 
@@ -103,9 +113,9 @@ El inicio de sesión único es una características de Select y Premium, por lo 
 1. ![Habilitando_SSO_-_Satellite_Account.png](assets/enabling-sso---satellite-account-350x266.png)
 Aquí tiene dos métodos (5) de configuración:
 
-1. **Heredado:** SSO con la configuración tomada de su cuenta de concentrador.
-Si un usuario accede a [!DNL Workfront Proof] a través de la **página de inicio de sesión predeterminada** ([https://business.adobe.com/es/products/workfront/proofing-approvals.html](https://business.adobe.com/es/products/workfront/proofing-approvals.html)), habrá **dos niveles de autorización**: primero se pide al usuario que inicie sesión con [!DNL Workfront Proof] datos de acceso (correo electrónico y contraseña); después, se transfiere al usuario a través de una ventana de SSO a la página de inicio de sesión de SSO.
-Por lo tanto, con el servicio SSO habilitado, recomendamos iniciar sesión a través de su propio subdominio/dominio [!DNL Workfront Proof].
+1. **Heredado:** SSO con la configuración tomada de su cuenta central.
+Si un usuario tiene acceso a [!DNL Workfront Proof] a través de la **página de inicio de sesión predeterminada** ([https://business.adobe.com/products/workfront/proofing-approvals.html](https://business.adobe.com/products/workfront/proofing-approvals.html)), habrá **dos niveles de autorización**: En primer lugar, se pide al usuario que inicie sesión con los datos de acceso de [!DNL Workfront Proof] (correo electrónico y contraseña); a continuación, se transfiere al usuario a través de una ventana de SSO a la página de inicio de sesión de SSO.
+Por lo tanto, con el servicio SSO habilitado, recomendamos iniciar sesión a través de su propio subdominio/dominio de [!DNL Workfront Proof].
 
    >[!NOTE]
    >
@@ -149,11 +159,11 @@ Si se ha elegido la configuración de SSO manual para una cuenta satélite (1), 
 
 1. Abra la pestaña **[!UICONTROL Inicio de sesión único]**.
 1. Asegúrese de que el dominio o subdominio de [!DNL Workfront Proof] (1) esté configurado y de que los usuarios accedan a su cuenta de [!DNL Workfront Proof] a través de este dominio o subdominio personalizado.
-   ![SAML_Subdomain.png](assets/saml-subdomain-350x150.png)
+   ![Subdominio_SAML.png](assets/saml-subdomain-350x150.png)
 Con el inicio de sesión único habilitado, la dirección URL de inicio de sesión de subdominio (por ejemplo, yourcompany.proofhq.com/login) muestra una pantalla de transferencia (2) que le lleva directamente a la página de inicio de sesión de SSO.
    ![SSO_login_page.png](assets/sso-login-page-350x164.png)
 
-1. Si un usuario tiene acceso a [!DNL Workfront Proof] a través de la **página de inicio de sesión predeterminada** ([https://business.adobe.com/es/products/workfront/proofing-approvals.html](https://business.adobe.com/es/products/workfront/proofing-approvals.html)), habrá **dos niveles de autorización**. Primero se le pide al usuario que inicie sesión usando los datos de acceso de [!DNL Workfront Proof] (correo electrónico y contraseña). A continuación, el usuario se transfiere a través de una ventana de SSO (2) a la página de inicio de sesión de SSO.\
+1. Si un usuario tiene acceso a [!DNL Workfront Proof] a través de la **página de inicio de sesión predeterminada** ([https://business.adobe.com/products/workfront/proofing-approvals.html](https://business.adobe.com/products/workfront/proofing-approvals.html)), habrá **dos niveles de autorización**. Primero se le pide al usuario que inicie sesión usando los datos de acceso de [!DNL Workfront Proof] (correo electrónico y contraseña). A continuación, el usuario se transfiere a través de una ventana de SSO (2) a la página de inicio de sesión de SSO.\
    Por lo tanto, con el servicio SSO habilitado, recomendamos iniciar sesión a través de su propio subdominio/dominio [!DNL Workfront Proof].
 
 1. En este momento, cuando el inicio de sesión único está habilitado en su cuenta de Workfront Proof, no podrá iniciar sesión en la aplicación de iPhone con esas credenciales.

@@ -3,30 +3,36 @@ user-type: administrator
 content-type: overview;how-to-procedural
 product-area: system-administration
 navigation-topic: workfront-testing-environments
-title: El  [!DNL Adobe Workfront] Entorno De Espacio Aislado De Actualización Personalizado
+title: El Entorno De Zona Protegida De Actualización Personalizada [!DNL Adobe Workfront]
 description: La zona protegida de actualización personalizada es un entorno en el que puede realizar pruebas y trabajar usando datos del entorno de producción. También es ideal para ejecutar cursos de formación y determinar la funcionalidad de la configuración.
 author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: e18c005b-e6ff-4a1e-a589-63132f3a8ad2
-TQID: https://experienceleague.adobe.com/0orzAcBft4J52M4nMDMxk6Kupagmn81V3qHB-M5YkvY
+TQID: 'https://experienceleague.adobe.com/0orzAcBft4J52M4nMDMxk6Kupagmn81V3qHB-M5YkvY'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 1f811e3467e8efa7c048bdc148792c4b6f03416c
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1828
+source-wordcount: '1829'
 ht-degree: 78%
-
 ---
-
 # El entorno de zona protegida de actualización personalizada de [!DNL Adobe Workfront]
 
 La zona protegida de actualización personalizada es un entorno en el que puede realizar pruebas y trabajar usando datos del entorno de producción. También es ideal para ejecutar cursos de formación y determinar la funcionalidad de la configuración.
@@ -253,8 +259,8 @@ Para el entorno de espacio aislado de actualización personalizado, el cálculo 
 
 * Las siguientes notificaciones no están disponibles para su uso en los entornos de la zona protegida de actualización personalizada:
 
-   * Notificaciones de recordatorio
-   * Notificaciones automáticas de recordatorio tardías o tempranas
+  * Notificaciones de recordatorio
+  * Notificaciones automáticas de recordatorio tardías o tempranas
 
 ### Nota sobre las reglas de negocio
 

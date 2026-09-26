@@ -1,24 +1,31 @@
 ---
 title: Ejemplo de conexión de tipos de registros y registros
-description: Este artículo describe un ejemplo de cómo crear una conexión entre un tipo de registro de Adobe Workfront Planning y un tipo de objeto de proyecto de Workfront. También se describe cómo conectar un registro de Workfront Planning con un proyecto individual.
+description: Este artículo describe un ejemplo de cómo crear una conexión entre un tipo de registro de Planificación de Workfront de Adobe y un tipo de objeto de proyecto de Workfront. También se describe cómo conectar un registro de Planificación de Workfront con un proyecto individual.
 feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 38509572-72a4-4fce-b3ec-2cb31bb4669a
-TQID: https://experienceleague.adobe.com/NIe7YaEVogtG4WVzWRhGA4QUf29Igy98-KlJD6OwDT8
+TQID: 'https://experienceleague.adobe.com/NIe7YaEVogtG4WVzWRhGA4QUf29Igy98-KlJD6OwDT8'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+subfeature_v2:
+  - id: eb361af2-3e4f-4a79-b5f3-7a344ac5794c
+    internal-label: Workfront Planning
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 11b6130de450054a853df6bea7d6374fffb095a6
+    internal-label: Admin
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 2188
+source-wordcount: '2188'
 ht-degree: 74%
-
 ---
-
 # Ejemplo de conexión de tipos de registro y registros
 
 <span class="preview">La información de esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa para todos los clientes. Después del lanzamiento en Vista previa, las mismas funciones también están disponibles mensualmente en el entorno de producción para los clientes que habilitaron lanzamientos rápidos. </span>
@@ -29,16 +36,16 @@ ht-degree: 74%
 
 Este artículo describe un ejemplo de lo siguiente:
 
-* Cómo crear una conexión entre dos tipos de registros de Workfront Planning y dos registros.
+* Cómo crear una conexión entre dos tipos de registros de Planificación de Workfront y dos registros.
 
-* Cómo crear una conexión entre un tipo de registro de Workfront Planning y un tipo de objeto de proyecto de Workfront, así como una conexión entre un registro y un proyecto.
+* Cómo crear una conexión entre un tipo de registro de Planificación de Workfront y un tipo de objeto de proyecto de Workfront, así como una conexión entre un registro y un proyecto.
 
 Para obtener más información, consulte los siguientes artículos:
 
 * [Conectar tipos de registro](/help/quicksilver/planning/architecture/connect-record-types.md)
 * [Conectar registros](/help/quicksilver/planning/records/connect-records.md)
 
-## Conectar dos tipos de registros de Workfront Planning y registros de Workfront Planning (ejemplo)
+## Conectar dos tipos de registros de Planificación de Workfront y registros de Planificación de Workfront (ejemplo)
 
 Por ejemplo, tiene un tipo de registro denominado Campaña como tipo de registro original.
 
@@ -156,7 +163,7 @@ Para ello:
 1. Para rellenar el campo **Campaña** desde la vista de tabla **Producto**, repita los pasos del 5 al 7 empezando por la vista de la tabla del tipo de registro de Producto y seleccione la información de campaña. Se actualizará también el campo Información del producto en la tabla del tipo de registro de Campaña. <!--ensure the step numbers remain correct-->
 
 
-## Conexión de un tipo de registro de Workfront Planning a un tipo de objeto de proyecto de Workfront y conexión de un registro a proyectos individuales
+## Conexión de un tipo de registro de Planificación de Workfront a un tipo de objeto de proyecto de Workfront y conexión de un registro a proyectos individuales
 
 >[!IMPORTANT]
 >
@@ -166,7 +173,7 @@ Por ejemplo, tiene un tipo de registro denominado Campaña como tipo de registro
 
 También tiene proyectos en Workfront con un campo llamado &quot;Ingresos planificados&quot;.
 
-Desea crear un campo de conexión en el tipo de registro de Campaña donde puede mostrar los valores del campo Ingresos planificados de los proyectos en Workfront que están conectados a campañas en Workfront Planning.
+Desea crear un campo de conexión en el tipo de registro de Campaña donde puede mostrar los valores del campo Ingresos planificados de los proyectos en Workfront que están conectados a campañas en Planificación de Workfront.
 
 Para ello:
 

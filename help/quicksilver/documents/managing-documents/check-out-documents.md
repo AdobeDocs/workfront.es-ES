@@ -8,30 +8,37 @@ feature: Digital Content and Documents
 exl-id: 15d9ea43-1cee-4cb1-9365-4374a291c090
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/kkWxK2NzQtSfeRqsd0vEB-2AUYFrO6WIU3A752w7kM4
+TQID: 'https://experienceleague.adobe.com/kkWxK2NzQtSfeRqsd0vEB-2AUYFrO6WIU3A752w7kM4'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 593
-ht-degree: 85%
-
+source-wordcount: '686'
+ht-degree: 86%
 ---
-
 # Extraer documentos
 
-Puede retirar un documento para evitar que otros usuarios lo eliminen o carguen una nueva versión. Sólo un usuario puede desproteger un documento a la vez. Puede retirar cualquier documento cargado en Adobe Workfront, así como documentos vinculados a proveedores de documentos de terceros (Box, Dropbox, Google Drive, Webdam, Workfront DAM, SharePoint o cualquier otro proveedor personalizado). 
+Puede extraer un documento para evitar que otros usuarios lo eliminen o carguen una nueva versión. Solo un usuario puede extraer un documento a la vez. Puede extraer cualquier documento cargado en Adobe Workfront, así como documentos vinculados a proveedores de documentos de terceros (Box, Dropbox, Google Drive, Webdam, Workfront DAM, SharePoint o cualquier otro proveedor personalizado). 
 
 >[!NOTE]
 >
->Esta funcionalidad no está disponible en el área de documentos nuevos.<br>
->Si su organización utiliza el almacenamiento en la nube de Adobe, verá el área de Documentos nuevos cuando acceda a documentos en Workfront. Para obtener más información sobre el almacenamiento en la nube de Adobe, consulte [Información general sobre el almacenamiento en la nube de Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
+>Esta funcionalidad no está disponible en la nueva área de Documentos.<br>
+>Si su organización utiliza el almacenamiento en la nube de Adobe, verá la nueva área Documentos al acceder a documentos en Workfront. Para obtener más información sobre el almacenamiento en la nube de Adobe, consulte [Información general sobre el almacenamiento en la nube de Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 ## Requisitos de acceso
 
@@ -109,7 +116,7 @@ Tenga en cuenta lo siguiente sobre los documentos extraídos:
 
   Para obtener información sobre la eliminación de usuarios, consulte [Eliminar usuarios](../../administration-and-setup/add-users/create-and-manage-users/delete-a-user.md).
 
-* Si el administrador de Workfront desactiva un usuario, todos los documentos que haya retirado permanecerán desprotegidos. Solo un administrador de Workfront puede volver a registrarlos. 
+* Si la persona con la función de administrador de Workfront desactiva un usuario, todos los documentos que ha desprotegido permanecerán desprotegidos. Solo una persona con la función de administrador de Workfront puede volver a protegerlos. 
 
 ## Proteger un documento
 

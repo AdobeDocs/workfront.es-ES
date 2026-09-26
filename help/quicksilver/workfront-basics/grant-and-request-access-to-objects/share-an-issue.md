@@ -6,22 +6,26 @@ description: El administrador de Adobe Workfront concede a los usuarios acceso p
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 91ee72e0-20a9-4b06-9f80-a343dd4fbe06
-TQID: https://experienceleague.adobe.com/APJfLfTk7gg-Tyi6wWhzLgXqFDnuRuv5hjKpr0IwwsU
+TQID: 'https://experienceleague.adobe.com/APJfLfTk7gg-Tyi6wWhzLgXqFDnuRuv5hjKpr0IwwsU'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1226
+source-wordcount: '1226'
 ht-degree: 22%
-
 ---
-
 # Compartir un problema
 
 El administrador de Adobe Workfront concede a los usuarios acceso para ver o editar problemas cuando asignan niveles de acceso. Para obtener más información sobre la concesión de acceso a los problemas, consulte [Conceder acceso a los problemas](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md).
@@ -76,9 +80,9 @@ Además de las consideraciones siguientes, consulte [Información general sobre 
 * Puede compartir problemas individualmente o puede compartir varios de ellos a la vez. Compartir problemas es idéntico a compartir otros elementos en Workfront. Para obtener más información sobre cómo compartir elementos en Workfront, consulte [Buscar un objeto](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md).
 * Puede conceder los siguientes permisos a un problema:
 
-   * Ver
-   * Aportar
-   * Administrar
+  * Ver
+  * Aportar
+  * Administrar
 
 * Cuando comparte un problema, todos los documentos adjuntos al problema heredan los mismos permisos.
 
@@ -91,27 +95,27 @@ Además de las consideraciones siguientes, consulte [Información general sobre 
 * Manualmente, lo que es similar a compartir cualquier otro objeto en Workfront.
 * Automáticamente, mediante una de las siguientes acciones:
 
-   * Especifique los permisos en cualquiera de los objetos principales del problema: proyecto, programa o portafolio. Los problemas heredan los permisos de sus objetos principales. Para obtener información acerca de cómo ver permisos heredados en objetos, consulte [Ver permisos heredados en objetos](../../workfront-basics/grant-and-request-access-to-objects/view-inherited-permissions-on-objects.md).
-   * Agregue entidades al Uso compartido de proyectos en una plantilla utilizada para crear el proyecto en el que se encuentra el problema. Para obtener información sobre cómo compartir proyectos desde plantillas, consulte [Compartir una plantilla](../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md).
+  * Especifique los permisos en cualquiera de los objetos principales del problema: proyecto, programa o portafolio. Los problemas heredan los permisos de sus objetos principales. Para obtener información acerca de cómo ver permisos heredados en objetos, consulte [Ver permisos heredados en objetos](../../workfront-basics/grant-and-request-access-to-objects/view-inherited-permissions-on-objects.md).
+  * Agregue entidades al Uso compartido de proyectos en una plantilla utilizada para crear el proyecto en el que se encuentra el problema. Para obtener información sobre cómo compartir proyectos desde plantillas, consulte [Compartir una plantilla](../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md).
 
-   * Especifique los permisos sobre todos los problemas de un proyecto al editarlo. Para obtener información sobre cómo administrar el acceso a problemas o solicitudes en el proyecto en función de los permisos de un usuario para el proyecto, consulte la sección [&#128279;](../../manage-work/projects/manage-projects/edit-projects.md#access) en el artículo [Editar proyectos](../../manage-work/projects/manage-projects/edit-projects.md).
+  * Especifique los permisos sobre todos los problemas de un proyecto al editarlo. Para obtener información sobre cómo administrar el acceso a problemas o solicitudes en el proyecto en función de los permisos de un usuario para el proyecto, consulte la sección [](../../manage-work/projects/manage-projects/edit-projects.md#access) en el artículo [Editar proyectos](../../manage-work/projects/manage-projects/edit-projects.md).
 
-     >[!TIP]
-     >
-     >Si no especifica los permisos de problema que desea que tengan los usuarios cuando se les asignen los problemas del proyecto, recibirán los mismos permisos que tienen en el proyecto de forma predeterminada.
+    >[!TIP]
+    >
+    >Si no especifica los permisos de problema que desea que tengan los usuarios cuando se les asignen los problemas del proyecto, recibirán los mismos permisos que tienen en el proyecto de forma predeterminada.
 
-   * Especifique los permisos que reciben los usuarios en los problemas que envían en una cola de solicitudes al crear una cola de solicitudes. Para obtener más información, consulte [Crear una cola de solicitudes](../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+  * Especifique los permisos que reciben los usuarios en los problemas que envían en una cola de solicitudes al crear una cola de solicitudes. Para obtener más información, consulte [Crear una cola de solicitudes](../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
-     >[!IMPORTANT]
-     >
-     >Los permisos se conceden de forma diferente en función de si el proyecto se publica o no como cola de solicitudes:
-     >
-     >   
-     >   
-     >   * Cuando un usuario envía una solicitud a un proyecto publicado como cola de solicitudes, los usuarios que son el Contacto principal y el Introducido por obtienen el permiso especificado.
-     >   * Cuando un usuario envía una solicitud a un proyecto que no se ha publicado como cola de solicitudes, el contacto principal (si es diferente al usuario introducido por) obtiene el permiso especificado y el usuario introducido por obtiene permisos de administración para el problema.
-     >   
-     >
+    >[!IMPORTANT]
+    >
+    >Los permisos se conceden de forma diferente en función de si el proyecto se publica o no como cola de solicitudes:
+    >
+    >   
+    >   
+    >   * Cuando un usuario envía una solicitud a un proyecto publicado como cola de solicitudes, los usuarios que son el Contacto principal y el Introducido por obtienen el permiso especificado.
+    >   * Cuando un usuario envía una solicitud a un proyecto que no se ha publicado como cola de solicitudes, el contacto principal (si es diferente al usuario introducido por) obtiene el permiso especificado y el usuario introducido por obtiene permisos de administración para el problema.
+    >   
+    >
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

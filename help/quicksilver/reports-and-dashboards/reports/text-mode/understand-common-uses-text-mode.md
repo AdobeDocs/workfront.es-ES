@@ -8,23 +8,28 @@ feature: Reports and Dashboards
 exl-id: 81512837-1ec4-4dbc-ace4-bdf08fe667ce
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/T-slclYoeq429jltWCDKC8tBKo9nblvtm8IL2ahTLzg
+TQID: 'https://experienceleague.adobe.com/T-slclYoeq429jltWCDKC8tBKo9nblvtm8IL2ahTLzg'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c6dd2ac5-f5bd-4e59-9101-25b156918623
+    internal-label: Reports and dashboards
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 763
+source-wordcount: '763'
 ht-degree: 94%
-
 ---
-
 # Información general de los usos comunes del modo de texto
 
 <!-- Audited: 1/2025 -->
@@ -50,9 +55,9 @@ Puede utilizar el modo de texto cuando desee lograr lo siguiente en Workfront:
   Para obtener más información sobre los campos personalizados calculados, consulte la sección [Usar modo de texto en campos personalizados calculados](#use-text-mode-in-calculated-custom-fields) en este artículo.
 * Mejorar los filtros, las vistas y las agrupaciones más allá de lo que sea posible en el generador de informes. Para obtener información sobre el uso del modo de texto para filtros, vistas y agrupaciones, consulte las secciones siguientes de este artículo:
 
-   * [Usar modo de texto en las vistas](#use-text-mode-in-views)
-   * [Usar modo de texto en los filtros](#use-text-mode-in-filters)
-   * [Uso del modo de texto en las agrupaciones](#use-text-mode-in-groupings)
+  * [Usar modo de texto en las vistas](#use-text-mode-in-views)
+  * [Usar modo de texto en los filtros](#use-text-mode-in-filters)
+  * [Uso del modo de texto en las agrupaciones](#use-text-mode-in-groupings)
 
 * Crear mensajes personalizados. Solo puede crear mensajes personalizados con el modo Texto.
 

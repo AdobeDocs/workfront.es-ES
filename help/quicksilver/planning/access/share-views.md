@@ -1,6 +1,6 @@
 ---
 title: Compartir vistas
-description: Puede compartir una vista con otros usuarios para garantizar la colaboración cuando se utiliza Adobe Workfront Planning.
+description: Puede compartir una vista con otros usuarios para garantizar la colaboración cuando se utiliza Planificación de Workfront de Adobe.
 author: Alina
 feature: Workfront Planning
 role: User, Admin
@@ -8,25 +8,33 @@ recommendations: noDisplay, noCatalog
 exl-id: 673dd888-3135-48b0-8198-c8d6d6706ddf
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/PTCSU18oqb-nFiNWaJB57FgtBkNOpeN5yuLP3Rrp-08
+TQID: 'https://experienceleague.adobe.com/PTCSU18oqb-nFiNWaJB57FgtBkNOpeN5yuLP3Rrp-08'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
 subfeature_v2:
   - id: e147ce9d-7675-49bd-8a32-44f27d865560
+    internal-label: Get started
+  - id: eb361af2-3e4f-4a79-b5f3-7a344ac5794c
+    internal-label: Workfront Planning
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 347c3e87fea0289616bf1a52779c07501a8ec69d
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 2015
+source-wordcount: '2016'
 ht-degree: 38%
-
 ---
-
 # Compartir vistas
 
 <!--
@@ -41,7 +49,7 @@ there are several mentions on how to share public links for global record types 
 
 {{planning-important-intro}}
 
-Puede compartir una vista con otros usuarios para garantizar la colaboración cuando se trabaja con registros en Adobe Workfront Planning.
+Puede compartir una vista con otros usuarios para garantizar la colaboración cuando se trabaja con registros en Planificación de Workfront de Adobe.
 
 >[!IMPORTANT]
 >
@@ -244,7 +252,7 @@ Puede compartir las vistas que ha creado o las vistas en las que tiene permiso d
    * Ver
    * Administrar
 
-     Para obtener información acerca de los niveles de permisos y las acciones que los usuarios pueden realizar en cada nivel, consulte [Información general sobre los permisos de uso compartido en Adobe Workfront Planning](/help/quicksilver/planning/access/sharing-permissions-overview.md).
+     Para obtener información acerca de los niveles de permisos y las acciones que los usuarios pueden realizar en cada nivel, consulte [Información general sobre los permisos de uso compartido en Planificación de Workfront de Adobe](/help/quicksilver/planning/access/sharing-permissions-overview.md).
 
      Los administradores del sistema siempre reciben permisos de administración para las vistas compartidas con ellos.
 
@@ -276,7 +284,7 @@ No se puede compartir una vista públicamente desde un tipo de registro global e
 >Solo los usuarios con permisos de administración para un espacio de trabajo pueden compartir las vistas del espacio de trabajo públicamente.
 
 
-Para compartir una vista públicamente en Workfront Planning:
+Para compartir una vista públicamente en Planificación de Workfront:
 
 {{step1-to-planning}}
 

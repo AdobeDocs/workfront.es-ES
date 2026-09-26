@@ -8,22 +8,26 @@ feature: People Teams and Groups
 exl-id: b6761188-8630-446e-bc70-70fe272881ce
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/Ic9ER5XDxsjuf2JB2zyEzH5uWrhxTVNDtbB9lADz-Lg
+TQID: 'https://experienceleague.adobe.com/Ic9ER5XDxsjuf2JB2zyEzH5uWrhxTVNDtbB9lADz-Lg'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: 254442ca-6997-5cfa-963e-f420870aea53
+    internal-label: People Teams and Groups
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 495
+source-wordcount: '495'
 ht-degree: 82%
-
 ---
-
 # Editar configuración de equipos
 
 Como administrador de [!DNL Adobe Workfront] o usuario con una licencia de [!UICONTROL Estándar], [!UICONTROL Plan] o [!UICONTROL Trabajo], puede editar [!UICONTROL Configuración del equipo].
@@ -95,8 +99,8 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
    * Cambie el botón [!UICONTROL Trabajar en ello] por el de [!UICONTROL Iniciar]. Para obtener más información sobre cómo configurar el botón [!UICONTROL Iniciar], consulte [Reemplazar el botón Trabajar en ello por un botón [!UICONTROL Iniciar]](../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md).
    * Personalizar el botón **[!UICONTROL Listo]**. Para obtener más información sobre cómo personalizar el botón [!UICONTROL Listo], consulte:
 
-      * [Configurar el botón [!UICONTROL Listo] para tareas](../../people-teams-and-groups/create-and-manage-teams/configure-the-done-button-for-tasks.md)
-      * [Configurar el botón [!UICONTROL Listo] para problemas](../../people-teams-and-groups/create-and-manage-teams/configure-the-done-button-for-issues.md)
+     * [Configurar el botón [!UICONTROL Listo] para tareas](../../people-teams-and-groups/create-and-manage-teams/configure-the-done-button-for-tasks.md)
+     * [Configurar el botón [!UICONTROL Listo] para problemas](../../people-teams-and-groups/create-and-manage-teams/configure-the-done-button-for-issues.md)
 
    * Adjuntar un formulario personalizado. Para obtener más información, vea [Agregar un formulario personalizado a un objeto](/help/quicksilver/workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md).
 

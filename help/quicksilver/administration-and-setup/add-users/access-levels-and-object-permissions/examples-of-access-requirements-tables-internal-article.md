@@ -3,14 +3,15 @@ title: 'Ejemplos de tablas de requisitos de acceso: artículo interno'
 description: Este es un artículo interno para que nuestro equipo mantenga un inventario de las tablas que usamos para los requisitos de acceso. Esto no debería publicarse.
 author: Alina
 hide: true
-hidefromtoc: true
-source-git-commit: 38bd7ce267efba60652825dd6185f8aa72023d79
+hidefromtoc: 'yes'
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
 source-wordcount: '1321'
 ht-degree: 47%
-
 ---
-
 
 # Ejemplos de tablas de requisitos de acceso: artículo interno
 
@@ -420,10 +421,10 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
  </tbody> 
 </table>
 
-Para obtener más información sobre el contenido de esta tabla, consulte [Requisitos de acceso en la documentación](https://experienceleague.adobe.com/es/docs/workfront-fusion/using/references/licenses-and-roles/access-level-requirements-in-documentation).
+Para obtener más información sobre el contenido de esta tabla, consulte [Requisitos de acceso en la documentación](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/licenses-and-roles/access-level-requirements-in-documentation).
 
 
-Para obtener información sobre las licencias de Adobe Workfront Fusion, consulte [licencias de Adobe Workfront Fusion](https://experienceleague.adobe.com/es/docs/workfront-fusion/using/set-up-and-manage-fusion/licensing-and-operations-overviews/license-automation-vs-integration).
+Para obtener información sobre las licencias de Adobe Workfront Fusion, consulte [licencias de Adobe Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/set-up-and-manage-fusion/licensing-and-operations-overviews/license-automation-vs-integration).
 
 ## Controles empresariales avanzados
 
@@ -438,7 +439,7 @@ Un artículo sobre administradores de grupos menciona el paquete en el que el cl
 * Flujo de trabajo Prime y superior
 * Workfront Prime y superior
 
-Consulte la [página de paquetes y precios de Adobe Workfront](https://business.adobe.com/es/products/workfront/pricing.html) para obtener más información sobre los paquetes.
+Consulte la [página de paquetes y precios de Adobe Workfront](https://business.adobe.com/products/workfront/pricing.html) para obtener más información sobre los paquetes.
 
 Controles empresariales avanzados:
 
@@ -483,9 +484,9 @@ Controles empresariales avanzados:
  </tbody> 
 </table>
 
-Para obtener más información sobre el contenido de esta tabla, consulte [Requisitos de acceso en la documentación](https://experienceleague.adobe.com/es/docs/workfront-fusion/using/references/licenses-and-roles/access-level-requirements-in-documentation).
+Para obtener más información sobre el contenido de esta tabla, consulte [Requisitos de acceso en la documentación](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/licenses-and-roles/access-level-requirements-in-documentation).
 
-Para obtener información sobre las licencias de Adobe Workfront Fusion, consulte [licencias de Adobe Workfront Fusion](https://experienceleague.adobe.com/es/docs/workfront-fusion/using/set-up-and-manage-fusion/licensing-and-operations-overviews/license-automation-vs-integration).
+Para obtener información sobre las licencias de Adobe Workfront Fusion, consulte [licencias de Adobe Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/set-up-and-manage-fusion/licensing-and-operations-overviews/license-automation-vs-integration).
 <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 

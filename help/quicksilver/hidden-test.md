@@ -3,16 +3,18 @@ title: Prueba oculta
 description: prueba oculta
 hide: true
 exl-id: b6b0f429-b619-4b8e-ab81-ad190dae5a0b
-TQID: https://experienceleague.adobe.com/RlziN8Iol78I68TviI3xYG3HmfsooyCM4jwapInCXpM
+TQID: 'https://experienceleague.adobe.com/RlziN8Iol78I68TviI3xYG3HmfsooyCM4jwapInCXpM'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-source-git-commit: 1fa2eeee7a4acba12ca57781023878dee50f7035
+    internal-label: Workfront
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 615
+source-wordcount: '616'
 ht-degree: 54%
-
 ---
-
 # Prueba oculta
 
 Archivo oculto utilizado para probar los tiempos de publicación en repositorios más grandes.
@@ -228,7 +230,7 @@ Expanda para ver los requisitos de acceso para la funcionalidad en este artícul
    <td> 
 <p>Cualquier paquete del flujo de trabajo de Adobe Workfront y cualquier paquete de Adobe Workfront Planning</p> 
    </td> </tr>
-<td role="rowheader"><p>Plataforma de Adobe Workfront (¿**&#x200B;** llamarlo, o simplemente hacer que forme parte del artículo vinculado en la parte inferior???**&#x200B;***)</p></td> 
+<td role="rowheader"><p>Plataforma de Adobe Workfront (¿**** llamarlo, o simplemente hacer que forme parte del artículo vinculado en la parte inferior???*****)</p></td> 
    <td> 
 <p>La instancia de Workfront de su organización debe incorporarse a Adobe Unified Experience para poder acceder a Workfront Planning.</p> 
 <p>Para obtener más información, consulte <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience para Workfront</a>. </p> 
@@ -242,7 +244,7 @@ Expanda para ver los requisitos de acceso para la funcionalidad en este artícul
   </tr> 
   <tr> 
    <td role="rowheader"><p>Configuración de nivel de acceso</p></td> 
-   <td> <p>No hay controles de nivel de acceso para Adobe Workfront Planning</p>   
+   <td> <p>No hay controles de nivel de acceso para Planificación de Workfront de Adobe</p>   
 </td> 
   </tr> 
 <tr> 

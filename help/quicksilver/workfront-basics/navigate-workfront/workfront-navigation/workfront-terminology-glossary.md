@@ -1,50 +1,72 @@
 ---
 content-type: reference
 navigation-topic: workfront-navigation
-title: 'Glosario de terminología de  [!DNL Adobe Workfront] '
-description: El [!DNL Adobe Workfront] glosario enumera términos de uso común en [!DNL Adobe Workfront]. You can use the glossary when you want to find the definition of concepts you see in the [!UICONTROL Workfront] interfaz, informes, o intenta comprender el significado de los [!DNL Workfront] conceptos definidos en la [!DNL Workfront] documentación.
+title: Glosario de terminología de [!DNL Adobe Workfront]
+description: En el glosario [!DNL Adobe Workfront] se enumeran los términos más utilizados en [!DNL Adobe Workfront]. Puede usar el glosario cuando desee encontrar la definición de conceptos que ve en la interfaz de [!UICONTROL Workfront], en los informes o cuando intente comprender el significado de los conceptos de [!DNL Workfront] definidos en la documentación de [!DNL Workfront].
 author: Alina
 feature: Get Started with Workfront
 exl-id: 758072b3-775e-4771-9ae9-da0b38580c93
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/Nwg9J4XQcWv8PsTyUu9iHRHGd5anfcDJT9FKGt5rwy8
+TQID: 'https://experienceleague.adobe.com/Nwg9J4XQcWv8PsTyUu9iHRHGd5anfcDJT9FKGt5rwy8'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
   - id: b91c0848-76c4-4da4-8b81-3aade0518dd0
+    internal-label: Tasks
   - id: be65ef36-43e4-48e1-a062-caa3778e15be
+    internal-label: Agile
   - id: c10f2e93-7a58-4212-aa24-684c265ebe76
+    internal-label: Requests
   - id: c33d85a1-be85-4290-854c-87408c10aa80
-  - id: c3a155b4-a54b-4a82-a3d2-c8f0f971673e
+    internal-label: Workload Balancer
   - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+    internal-label: Timesheets
   - id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
+    internal-label: Resource Planner
   - id: d3382524-5489-431b-bde9-271ab257bc37
+    internal-label: Workfront Scenario Planner
   - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
   - id: e147ce9d-7675-49bd-8a32-44f27d865560
+    internal-label: Get started
   - id: eb361af2-3e4f-4a79-b5f3-7a344ac5794c
+    internal-label: Workfront Planning
   - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+    internal-label: Projects
   - id: fceb5125-bb41-419a-b0db-31958cb42f6c
+    internal-label: Workfront Goals
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a63738805d62e2f71d55fe39f78d1f042ff72a15
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 22011
+source-wordcount: '22039'
 ht-degree: 97%
-
 ---
-
 # Glosario de terminología de [!DNL Adobe Workfront]
 
 <!--Audited: 04/2026-->
@@ -335,7 +357,7 @@ La siguiente tabla es una lista de los términos más utilizados en Adobe Workfr
   </tr> 
   <tr> 
    <td>[!UICONTROL Breakdown]</td> 
-   <td> <p>En Workfront Planning, puede mostrar los registros conectados en la vista de cronología de un registro mediante la función Desglose. </p>
+   <td> <p>En Planificación de Workfront, puede mostrar los registros conectados en la vista de cronología de un registro mediante la función Desglose. </p>
    <p>El desglose de registros por sus conexiones le permite ver las cronologías de otros registros conectados y comprender cómo pueden afectar al rendimiento y a los plazos de los registros. </p>
    <p>Los registros conectados se muestran anidados en su registro respectivo. </p>
    <p>Para obtener más información, consulte <a href="/help/quicksilver/planning/views/manage-the-timeline-view.md">administrar la vista de cronología</a>. </p>
@@ -390,7 +412,7 @@ La siguiente tabla es una lista de los términos más utilizados en Adobe Workfr
        </tr> 
        <tr> 
         <td>[!UICONTROL Bud. Hours]</td> 
-        <td> <p>Informe de [!UICONTROL Budgeted Hour]</p><p>El objeto [!UICONTROL Budgeted Hour] del informe de Hora presupuestada hace referencia a información relacionada con una herramienta de administración de recursos obsoleta. Solo el campo "[!UICONTROL . Hours]" en este informe hace referencia a las horas presupuestadas en el área de [!UICONTROL Resource Planner] o [!UICONTROL Resource Budgeting] del [!UICONTROL Business Case] del proyecto. </p> <p>Para obtener más información acerca de cómo crear un informe, consulte el artículo <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md" class="MCXref xref">Crear un informe personalizado</a>.</p> </td> 
+        <td> <p>Informe de [!UICONTROL Budgeted Hour]</p><p>El objeto [!UICONTROL Budgeted Hour] del informe de Hora presupuestada hace referencia a información relacionada con una herramienta de administración de recursos obsoleta. Solo el campo "[!UICONTROL. Hours]" en este informe hace referencia a las horas presupuestadas en el área de [!UICONTROL Resource Planner] o [!UICONTROL Resource Budgeting] del [!UICONTROL Business Case] del proyecto. </p> <p>Para obtener más información acerca de cómo crear un informe, consulte el artículo <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md" class="MCXref xref">Crear un informe personalizado</a>.</p> </td> 
        </tr> 
        <tr> 
         <td>[!UICONTROL Resource Planner Budgeted Hours] </td> 
@@ -514,7 +536,7 @@ La siguiente tabla es una lista de los términos más utilizados en Adobe Workfr
   <tr> 
    <td>[!UICONTROL Calendar]</td> 
    <td> <p>En Workfront, un informe de calendario es un informe dinámico en el que los usuarios pueden ver la fecha y otros detalles importantes de un evento, como la fecha de vencimiento, el estado del trabajo y el usuario al que se ha asignado el evento.</p> <p> Para obtener más información acerca de los informes de calendario, consulte <a href="../../../reports-and-dashboards/reports/calendars/calendar-reports-overview.md" class="MCXref xref">Información general sobre los informes de calendario</a>.</p>
-   <p> En Workfront Planning, una vista Calendario es un tipo de vista para un tipo de registro que muestra registros en un calendario. Debe tener una licencia adicional para acceder a Workfront Planning. </p>
+   <p> En Planificación de Workfront, una vista Calendario es un tipo de vista para un tipo de registro que muestra registros en un calendario. Debe tener una licencia adicional para acceder a Planificación de Workfront. </p>
     </td> 
   </tr> 
    <tr> 
@@ -660,27 +682,27 @@ La siguiente tabla es una lista de los términos más utilizados en Adobe Workfr
   </tr> 
   <tr> 
    <td>[!UICONTROL Connected record types]</td> 
-   <td> <p>En Workfront Planning, puede crear una conexión entre una de las siguientes opciones: </p>
+   <td> <p>En Planificación de Workfront, puede crear una conexión entre una de las siguientes opciones: </p>
    <ul>
    <li>Dos tipos de registro</li>
    <li>Un tipo de registro y un tipo de objeto de Workfront</li>
    <li>Un tipo de registro y un recurso de Adobe Experience Manager</li></ul>
    <p>La conexión de tipos de registro permite mostrar información de un registro o tipo de objeto en otro tipo de registro.</p>
    <p>Para obtener más información, consulte <a href="/help/quicksilver/planning/architecture/connect-record-types-overview.md">Información general sobre tipos de registro</a>.  </p>
-  <p>Workfront Planning requiere una licencia adicional. </p>
+  <p>Planificación de Workfront requiere una licencia adicional. </p>
  </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Connected records]</td> 
-   <td> <p>En Workfront Planning, después de conectar dos tipos de registros, puede conectar dos registros individuales de dichos tipos entre sí.  </p>
+   <td> <p>En Planificación de Workfront, después de conectar dos tipos de registros, puede conectar dos registros individuales de dichos tipos entre sí.  </p>
    <p>La conexión de registros permite mostrar información de un registro u objeto de otra aplicación en otro registro.</p>
    <p>Para obtener más información, consulte <a href="/help/quicksilver/planning/records/connected-records-overview.md">Información general de registros conectados</a>. </p>
-  <p>Workfront Planning requiere una licencia adicional. </p>
+  <p>Planificación de Workfront requiere una licencia adicional. </p>
   </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Connections]</td> 
-   <td> <p>En Workfront Planning, las conexiones pueden hacer referencia a tipos de registros conectados o a registros conectados. Workfront Planning requiere una licencia adicional.</p> </td> 
+   <td> <p>En Planificación de Workfront, las conexiones pueden hacer referencia a tipos de registros conectados o a registros conectados. Planificación de Workfront requiere una licencia adicional.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Constraint Date]</td> 
@@ -963,7 +985,7 @@ La siguiente tabla es una lista de los términos más utilizados en Adobe Workfr
    <p> Es importante utilizar el campo tal como aparece en la base de datos al escribir un informe en modo de texto, ver, filtrar o agrupar, o al crear un campo calculado.</p>
    <p>Para obtener más información, consulte <a href="../../../wf-api/general/api-explorer.md">Explorador de API</a> e <a href="../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md">Información general sobre el modo de texto</a>.</p>  
    <p>De forma predeterminada, Workfront incluye un conjunto de campos que definen tanto los objetos como su información. También puede crear campos personalizados para definir objetos, pero no puede crear objetos personalizados.</p> 
-   <p>En Workfront Planning, puede crear campos personalizados para todo tipo de registro. Los tipos de registros de Workfront incluyen un número muy limitado de campos. Debe crear todos los campos desde cero y asociarlos a tipos de registro. Para obtener más información, consulte <a href="/help/quicksilver/planning/fields/fields-overview.md">Información general de campo</a>. </p> <p>Workfront Planning requiere una licencia adicional. </p>   
+   <p>En Planificación de Workfront, puede crear campos personalizados para todo tipo de registro. Los tipos de registros de Workfront incluyen un número muy limitado de campos. Debe crear todos los campos desde cero y asociarlos a tipos de registro. Para obtener más información, consulte <a href="/help/quicksilver/planning/fields/fields-overview.md">Información general de campo</a>. </p> <p>Planificación de Workfront requiere una licencia adicional. </p>   
   </tr>
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Ad hoc"> 
    <td>[!UICONTROL Filter]</td> 
@@ -1324,10 +1346,10 @@ The designated full time equivalency for users. A full-time user should have 100
   </tr> 
   <tr> 
    <td>[!UICONTROL Lookup fields]</td> 
-   <td> <p>En Workfront Planning, después de establecer la conexión entre dos tipos de registro y vincular registros individuales, puede hacer referencia a los campos de los registros vinculados en el registro desde el que se conecta.</p>
+   <td> <p>En Planificación de Workfront, después de establecer la conexión entre dos tipos de registro y vincular registros individuales, puede hacer referencia a los campos de los registros vinculados en el registro desde el que se conecta.</p>
    <p>Por ejemplo, si conecta un tipo de registro Campaña con un tipo de objeto Proyecto de Workfront, puede mostrar el campo Presupuesto de los proyectos conectados en los registros de campaña. El campo de proyecto de Presupuesto es un campo de búsqueda de proyectos en una campaña.</p> <p>Los valores de los campos de búsqueda se rellenan automáticamente en los registros desde los que están conectados.</p>
    <p>Para obtener más información, consulte <a href="/help/quicksilver/planning/records/connected-records-overview.md">Información general de registros conectados</a>.</p>
-   <p>Workfront Planning requiere una licencia adicional.</p>
+   <p>Planificación de Workfront requiere una licencia adicional.</p>
     </td> 
   </tr> 
  </tbody> 
@@ -1911,17 +1933,17 @@ The designated full time equivalency for users. A full-time user should have 100
   </tr> 
   <tr> 
    <td>[!UICONTROL Record]</td> 
-   <td> <p>En Workfront Planning, un registro es una instancia única de un tipo de registro.</p>
+   <td> <p>En Planificación de Workfront, un registro es una instancia única de un tipo de registro.</p>
   <p>Después de añadir un tipo de registro a un espacio de trabajo, podrá empezar a añadir registros de ese tipo a la página del tipo de registro.</p>
   <p>Por ejemplo, “Campaña” podría ser un tipo de registro y “Campaña de verano para EMEA” un registro del tipo de registro Campaña.</p>
-  <p>Para obtener información sobre la creación de registros, consulte <a href="/help/quicksilver/planning/records/create-records.md">Crear registros</a>. </p> <p>Workfront Planning requiere una licencia adicional. </p></td> 
+  <p>Para obtener información sobre la creación de registros, consulte <a href="/help/quicksilver/planning/records/create-records.md">Crear registros</a>. </p> <p>Planificación de Workfront requiere una licencia adicional. </p></td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Record type]</td> 
-   <td> <p>El tipo de objeto de Workfront Planning.</p>
-  <p>A diferencia de Workfront, donde los tipos de objeto están predefinidos, en Workfront Planning es posible crear tipos de objeto propios.Los tipos de objetos de Workfront Planning se denominan tipos de registros.</p>
+   <td> <p>El tipo de objeto de Planificación de Workfront.</p>
+  <p>A diferencia de Workfront, donde los tipos de objeto están predefinidos, en Planificación de Workfront es posible crear tipos de objeto propios.Los tipos de objetos de Workfront Planning se denominan tipos de registros.</p>
   <p>Por ejemplo, en Workfront, los tipos de objeto Programa, Portafolios, Proyecto, Tarea o Problema ya están creados.</p>
-  <p>En Workfront Planning es posible crear cualquier tipo de registro que cumpla con los flujos de trabajo de la organización. Posteriormente, defina cómo se relacionarán los tipos de registro entre sí o las dependencias de formularios.</p> Para obtener información acerca de cómo crear tipos de registros, consulte <a href="/help/quicksilver/planning/architecture/create-record-types.md">Creación de tipos de registro</a>. </p> <p>Workfront Planning requiere una licencia adicional. </p></td> 
+  <p>En Planificación de Workfront es posible crear cualquier tipo de registro que cumpla con los flujos de trabajo de la organización. Posteriormente, defina cómo se relacionarán los tipos de registro entre sí o las dependencias de formularios.</p> Para obtener información acerca de cómo crear tipos de registros, consulte <a href="/help/quicksilver/planning/architecture/create-record-types.md">Creación de tipos de registro</a>. </p> <p>Planificación de Workfront requiere una licencia adicional. </p></td> 
   </tr> 
   <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
    <td>[!UICONTROL Recurrence Frequency]</td> 
@@ -2474,12 +2496,12 @@ The designated full time equivalency for users. A full-time user should have 100
    <td>[!UICONTROL View]</td> 
    <td> <p>Las vistas hacen referencia a un elemento de informes que le permite modificar las columnas de un informe o de una lista de objetos.</p> 
    <p> Ver también se refiere al derecho de un usuario a ver únicamente información sobre un objeto, según su nivel de acceso o a un nivel de compartición de permisos sobre ese objeto.</p> 
-   <p>En Workfront Planning, los registros se muestran en la página de tipo de registro en uno de los siguientes tipos de vista:</p>
+   <p>En Planificación de Workfront, los registros se muestran en la página de tipo de registro en uno de los siguientes tipos de vista:</p>
    <ul><li>Tabla</li>
    <li>Cronología</li>
    <li>Calendario</li></ul>
-   <p>En Workfront Planning, las vistas incluyen los filtros, agrupaciones, ordenación y otras opciones de configuración aplicadas a los registros de la pantalla.</p> <p>Para obtener más información, consulte <a href="/help/quicksilver/planning/views/manage-record-views.md">Administrar vistas de registros</a>.</p>   
-   <p>Workfront Planning requiere una licencia adicional.</p>
+   <p>En Planificación de Workfront, las vistas incluyen los filtros, agrupaciones, ordenación y otras opciones de configuración aplicadas a los registros de la pantalla.</p> <p>Para obtener más información, consulte <a href="/help/quicksilver/planning/views/manage-record-views.md">Administrar vistas de registros</a>.</p>   
+   <p>Planificación de Workfront requiere una licencia adicional.</p>
    </td> 
   </tr> 
   <tr> 
@@ -2619,8 +2641,8 @@ The designated full time equivalency for users. A full-time user should have 100
   </tr> 
   <tr> 
    <td>[!UICONTROL Workspace] </td> 
-   <td> <p>En Workfront Planning, un espacio de trabajo es una colección de tipos de registros que definen el ciclo de vida operativo de una organización determinada. Un espacio de trabajo es el marco de trabajo de una unidad organizativa.</p>
-   <p>Workfront Planning requiere una licencia adicional. </p>
+   <td> <p>En Planificación de Workfront, un espacio de trabajo es una colección de tipos de registros que definen el ciclo de vida operativo de una organización determinada. Un espacio de trabajo es el marco de trabajo de una unidad organizativa.</p>
+   <p>Planificación de Workfront requiere una licencia adicional. </p>
    <p>Para obtener más información, consulte <a href="/help/quicksilver/planning/architecture/create-workspaces.md">Crear espacios de trabajo</a>. </p> </td> 
   </tr> 
  </tbody> 

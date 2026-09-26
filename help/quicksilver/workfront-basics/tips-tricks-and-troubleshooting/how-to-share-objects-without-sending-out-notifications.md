@@ -6,23 +6,28 @@ description: Descubra cómo puede compartir objetos y evitar que se envíen noti
 author: Alina
 feature: Get Started with Workfront
 exl-id: 02106282-addb-4bdd-82d2-9da5a5f6a687
-TQID: https://experienceleague.adobe.com/zhNlFwg-1UuNKXxqIj-H62rGdewhbqKHLz4NbzkEqP8
+TQID: 'https://experienceleague.adobe.com/zhNlFwg-1UuNKXxqIj-H62rGdewhbqKHLz4NbzkEqP8'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 577
+source-wordcount: '577'
 ht-degree: 21%
-
 ---
-
 # Cómo compartir objetos sin generar notificaciones
 
 <!--Audited: 12/2024-->
@@ -35,12 +40,12 @@ Las personas reciben notificaciones por correo electrónico cuando se habilita l
 
 * Una o ambas de las siguientes Notificaciones de eventos están habilitadas en el sistema o en el nivel de grupo:
 
-   * Objeto compartido con usuario
-   * Objeto compartido con equipo está habilitado en el sistema o en el nivel de grupo.
+  * Objeto compartido con usuario
+  * Objeto compartido con equipo está habilitado en el sistema o en el nivel de grupo.
 * Una o ambas de las siguientes notificaciones por correo electrónico están habilitadas en el perfil del usuario:
 
-   * Alguien comparte un objeto conmigo
-   * Alguien comparte un objeto con mi equipo
+  * Alguien comparte un objeto conmigo
+  * Alguien comparte un objeto con mi equipo
 
 Si necesita compartir varios objetos con varias personas (de forma masiva), pero no desea que reciban notificaciones por correo electrónico sobre este cambio, haga lo siguiente:
 

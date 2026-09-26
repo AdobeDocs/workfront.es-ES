@@ -8,23 +8,31 @@ feature: Agile
 exl-id: 7509608e-96af-4601-80d4-791ee29046da
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/gt8WP9pWYnTzQ4cyQTzj31PuZ8yH9JpkVRYoReTEj6w
+TQID: 'https://experienceleague.adobe.com/gt8WP9pWYnTzQ4cyQTzj31PuZ8yH9JpkVRYoReTEj6w'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+subfeature_v2:
+  - id: be65ef36-43e4-48e1-a062-caa3778e15be
+    internal-label: Agile
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1727
+source-wordcount: '1727'
 ht-degree: 73%
-
 ---
-
 # Configurar [!UICONTROL Scrum]
 
 Puede crear un equipo Agile en [!DNL Adobe Workfront] tal como se describe en [Crear un equipo Agile](/help/quicksilver/agile/get-started-with-agile-in-workfront/create-an-agile-team.md). Al crear un equipo Agile, puede elegir la metodología que utiliza el equipo para completar su trabajo. Puede elegir entre las siguientes opciones:
@@ -204,11 +212,11 @@ Para cambiar el comportamiento de cómo se asignan los colores a las historias p
    * **[!UICONTROL Forma libre]**: todas las tarjetas se muestran en azul de forma predeterminada hasta que un usuario cambie el color manualmente, tal como se describe en [[!UICONTROL Categorizar historias por color] en el tablero Scrum](/help/quicksilver/agile/use-scrum-in-an-agile-team//scrum-board/categorize-stories-by-color.md).
    * **[!UICONTROL Prioridad]**: los colores están asociados con la prioridad de la historia, de la siguiente manera:
 
-      * Alta = Rojo
-      * Media = Amarillo
-      * Baja = Verde
+     * Alta = Rojo
+     * Media = Amarillo
+     * Baja = Verde
 
-        Si el administrador del sistema ha configurado prioridades personalizadas para su sistema [!DNL Workfront], la prioridad más alta es de color rojo, la segunda más alta es de color amarillo y la tercera más alta es de color verde.
+       Si el administrador del sistema ha configurado prioridades personalizadas para su sistema [!DNL Workfront], la prioridad más alta es de color rojo, la segunda más alta es de color amarillo y la tercera más alta es de color verde.
    * **[!UICONTROL Propietario de la tarea]**: todas las historias con el mismo usuario principal asignado son del mismo color. El usuario asignado principal es el usuario que se asignó por primera vez a la tarea.
 
 1. Haga clic en **[!UICONTROL Guardar cambios]**.

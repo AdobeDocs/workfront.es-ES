@@ -7,25 +7,31 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 99812ed3-a300-478e-973f-b957382d934b
-TQID: https://experienceleague.adobe.com/7-k8GZcbnM1UfLn-wl1bRWRvHrPjiljtvu8iUa3kLCw
+TQID: 'https://experienceleague.adobe.com/7-k8GZcbnM1UfLn-wl1bRWRvHrPjiljtvu8iUa3kLCw'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
 subfeature_v2:
   - id: e147ce9d-7675-49bd-8a32-44f27d865560
+    internal-label: Get started
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1363
-ht-degree: 99%
-
+source-wordcount: '1390'
+ht-degree: 100%
 ---
-
 # Actividad de la versión 2017.2 Beta 1
 
 Esta página describe todos los cambios disponibles en el entorno de vista previa con la versión 2017.2 Beta 1. La funcionalidad de esta página estaba disponible en el entorno de vista previa el 10 de mayo de 2017.
@@ -152,7 +158,7 @@ Para obtener más información sobre los nuevos conjuntos de recursos y cómo se
 
 Ahora, la lista del panel de control es más moderna y escalable.
 
-Anteriormente, esta funcionalidad solo estaba disponible para los usuarios inscritos en Acceso anticipado. Ahora está disponible para todos los usuarios en el entorno de vista previa. Se pondrá a disposición de todos los usuarios en el entorno de producción con la versión 2017.2. 
+Anteriormente, esta funcionalidad solo estaba disponible para los usuarios inscritos en el acceso anticipado. Ahora está disponible para todos los usuarios del entorno de vista previa. Se pondrá a disposición de todos los usuarios en el entorno de producción con la versión 2017.2. 
 
 Para obtener más información sobre los paneles de control, consulte [Crear un panel de control](../../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md).
 

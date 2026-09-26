@@ -10,19 +10,26 @@ role: User, Admin
 exl-id: 276b28f0-3955-4a0e-aa31-604b291f2f14
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/vQxq09j6G2hcey1yZqWXV4V2t-2ko76Bu4WnFAAGUQc
+TQID: 'https://experienceleague.adobe.com/vQxq09j6G2hcey1yZqWXV4V2t-2ko76Bu4WnFAAGUQc'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Admin
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1988
-ht-degree: 92%
-
+source-wordcount: '2063'
+ht-degree: 94%
 ---
-
 # Nueva actividad de lanzamiento de experiencia de comentarios
 
 <!--take the badge out when it comes to production GA for everyone-->
@@ -41,8 +48,8 @@ ht-degree: 92%
 >
 >El programa Beta de la nueva experiencia de comentarios comenzó en abril de 2023 y finalizó en octubre, con la versión de ese mes.
 > 
->Todas las funciones incluidas en la nueva experiencia de comentarios han estado disponibles para todos los clientes en el entorno de producción desde el 11 de abril de 2024.
->Para obtener más información, consulte [Nueva experiencia para comentar](../../betas/new-commenting-experience-beta/unified-commenting-experience.md).
+>Todas las funciones incluidas en la nueva experiencia de comentarios están disponibles para todos los clientes en el entorno de producción desde el 11 de abril de 2024.
+>Para obtener más información, consulte [Nueva experiencia de comentarios](../../betas/new-commenting-experience-beta/unified-commenting-experience.md).
 >
 
 ## Ubicación y cronología de lanzamiento de la nueva experiencia de comentarios
@@ -325,22 +332,22 @@ Disponible para la experiencia de comentarios beta y para las metas de Workfront
 
 La siguiente actualización de mantenimiento se publicó para los comentarios sobre problemas beta y para las metas:
 
-Editar imágenes adjuntas al editar un comentario. Para obtener más información, consulte la sección &quot;Actualización de mantenimiento el 27 de abril&quot; en el artículo &lt;a href=&quot;https://experienceleague.adobe.com/es/docs/workfront-known-issues/releases/current-updates#updates-in-april-2023%22%3EUpdates&quot; en abril de 2023</a>.
+Editar imágenes adjuntas al editar un comentario. Para obtener más información, consulte la sección &quot;Actualización de mantenimiento el 27 de abril&quot; en el artículo &lt;a href=&quot;https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates#updates-in-april-2023%22%3EUpdates&quot; en abril de 2023</a>.
 
 ### viernes, 20 de abril de 2023
 
 La siguiente actualización de mantenimiento se publicó para los comentarios sobre problemas beta y para las metas:
 
-Mantener las imágenes como borrador al alejarse de una actualización para ver las metas y los problemas en la experiencia de comentarios beta. Para obtener más información, consulte la sección &quot;Actualización de mantenimiento el 20 de abril&quot; en el artículo &lt;a href=&quot;https://experienceleague.adobe.com/es/docs/workfront-known-issues/releases/current-updates#updates-in-april-2023%22%3EUpdates&quot; de abril de 2023</a>.
+Mantener las imágenes como borrador al alejarse de una actualización para ver las metas y los problemas en la experiencia de comentarios beta. Para obtener más información, consulte la sección &quot;Actualización de mantenimiento el 20 de abril&quot; en el artículo &lt;a href=&quot;https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates#updates-in-april-2023%22%3EUpdates&quot; de abril de 2023</a>.
 
 ### martes, 17 de abril de 2023
 
 La siguiente actualización de mantenimiento se publicó para los comentarios sobre problemas beta y para las metas:
 
-Mostrar nuevos comentarios fuera del área de la pantalla visible en la sección Actualizaciones de problemas (nueva experiencia de comentarios beta) y Metas. Para obtener más información, consulte la sección &quot;Actualización de mantenimiento el 17 de abril&quot; en el artículo &lt;a href=&quot;https://experienceleague.adobe.com/es/docs/workfront-known-issues/releases/current-updates#updates-in-april-2023%22%3EUpdates&quot; de abril de 2023</a>.
+Mostrar nuevos comentarios fuera del área de la pantalla visible en la sección Actualizaciones de problemas (nueva experiencia de comentarios beta) y Metas. Para obtener más información, consulte la sección &quot;Actualización de mantenimiento el 17 de abril&quot; en el artículo &lt;a href=&quot;https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates#updates-in-april-2023%22%3EUpdates&quot; de abril de 2023</a>.
 
 
 ### Semana del 6 de abril de 2023
 
 La nueva experiencia de comentarios beta lanzada para problemas.
-Las mismas funciones que se lanzan para la versión beta de comentarios para los objetos de Workfront se lanzan al mismo tiempo para los objetivos de para todos los usuarios que tienen acceso a los objetivos de Workfront. Para obtener más información, consulte [Descripción general de la versión de 23.2](../../product-releases/23.2-release-activity/23-2-release-overview.md).
+Las mismas funciones que se lanzan para la versión beta de comentarios para los objetos de Workfront se lanzan al mismo tiempo para las metas de todos los usuarios que tienen acceso a Workfront Goals. Para obtener más información, consulte [Información general de la versión 23.2](../../product-releases/23.2-release-activity/23-2-release-overview.md).

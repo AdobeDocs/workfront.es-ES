@@ -6,22 +6,26 @@ description: Como administrador de Adobe Workfront, puede conceder a los usuario
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 19fb0de5-7db5-42a9-9f33-a4570acfeef8
-TQID: https://experienceleague.adobe.com/UdZkAKoT2k4LGePdElrTm1IlstQ1ayWesarebExA41E
+TQID: 'https://experienceleague.adobe.com/UdZkAKoT2k4LGePdElrTm1IlstQ1ayWesarebExA41E'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 596
+source-wordcount: '596'
 ht-degree: 26%
-
 ---
-
 # Compartir una plantilla
 
 Como administrador de Adobe Workfront, puede conceder a los usuarios acceso para ver o editar plantillas al asignarles su nivel de acceso. Un usuario debe tener una licencia estándar o de planificación para tener acceso a Editar plantillas.
@@ -42,18 +46,18 @@ Los permisos son específicos de un elemento de Workfront y definen qué accione
 * El creador de una plantilla y el Propietario de la plantilla tienen permisos de administración de la plantilla de forma predeterminada. Para obtener información sobre cómo designar a un usuario como propietario de la plantilla, consulte [Editar plantillas de proyecto](../../manage-work/projects/create-and-manage-templates/edit-templates.md).
 * Al compartir una plantilla, puede compartir lo siguiente:
 
-   * La plantilla
+  * La plantilla
 
-     Para obtener más información sobre cómo compartir una plantilla, vea [Compartir plantillas de proyecto](../../manage-work/projects/create-and-manage-templates/share-project-template.md).
+    Para obtener más información sobre cómo compartir una plantilla, vea [Compartir plantillas de proyecto](../../manage-work/projects/create-and-manage-templates/share-project-template.md).
 
-     Puede conceder los siguientes permisos a una plantilla:
+    Puede conceder los siguientes permisos a una plantilla:
 
-      * Ver
-      * Administrar
+    * Ver
+    * Administrar
 
-   * Los proyectos futuros que se crean con la plantilla. Puede conceder a los proyectos creados a partir de una plantilla los mismos niveles de permisos que a un proyecto individual.
+  * Los proyectos futuros que se crean con la plantilla. Puede conceder a los proyectos creados a partir de una plantilla los mismos niveles de permisos que a un proyecto individual.
 
-     Para obtener información acerca de cómo compartir un proyecto a partir de una plantilla en el nivel de plantilla, vea [Compartir plantillas de proyecto](../../manage-work/projects/create-and-manage-templates/share-project-template.md).
+    Para obtener información acerca de cómo compartir un proyecto a partir de una plantilla en el nivel de plantilla, vea [Compartir plantillas de proyecto](../../manage-work/projects/create-and-manage-templates/share-project-template.md).
 
 * Cuando comparte una plantilla o un proyecto creado a partir de la plantilla, los usuarios heredan los mismos permisos para todos los objetos secundarios asociados con la plantilla o el proyecto de forma predeterminada.
 

@@ -6,18 +6,21 @@ description: Puede elegir entre una serie de widgets para personalizar el conten
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 81f32dfe-cde0-4e61-a542-9b99a18a3953
-TQID: https://experienceleague.adobe.com/L9mVwCYmv2KOs2OKFlubf3MxjeRdthyE6prepRWebGc
+TQID: 'https://experienceleague.adobe.com/L9mVwCYmv2KOs2OKFlubf3MxjeRdthyE6prepRWebGc'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1123
+source-wordcount: '1123'
 ht-degree: 42%
-
 ---
-
 # Agregar, editar o quitar widgets en Inicio
 
 <!-- Audited: 4/2025 -->
@@ -124,9 +127,9 @@ Para agregar un widget:
 
    * **Mis aprobaciones**\
        Muestra todas las aprobaciones pendientes asignadas o delegadas, un botón para delegar aprobaciones y botones para tomar decisiones de aprobación directamente dentro del widget. Las aprobaciones se ordenan de la siguiente manera:
-      * Plazos de vencimiento
-      * Próximos plazos
-      * Elementos sin fecha límite
+     * Plazos de vencimiento
+     * Próximos plazos
+     * Elementos sin fecha límite
 
    * **Métricas de aprobación de documento**\
            Muestra dos gráficos con información sobre el tiempo medio de aprobación y las decisiones, así como vistas de lista de aprobaciones pendientes y vencidas. Debe tener [Aprobaciones unificadas](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md) habilitadas para usar este widget.

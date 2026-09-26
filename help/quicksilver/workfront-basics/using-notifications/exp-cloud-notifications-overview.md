@@ -6,20 +6,23 @@ author: Courtney
 feature: Get Started with Workfront
 hide: true
 exl-id: 5efa1912-e827-42ef-8001-4de63a63a6c4
-TQID: https://experienceleague.adobe.com/8zSlhpBj99ss5H0yhxu0sW2KJNGambIgd6ZZlASobkQ
+TQID: 'https://experienceleague.adobe.com/8zSlhpBj99ss5H0yhxu0sW2KJNGambIgd6ZZlASobkQ'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 694
+source-wordcount: '694'
 ht-degree: 0%
-
 ---
-
 # Resumen de notificaciones de Experience Cloud
 
 Las notificaciones de Adobe Workfront se están trasladando al sistema de notificaciones centralizado de Adobe, denominado Notificaciones de Experience Cloud. Todos los productos de experiencia digital utilizan este sistema de notificaciones.

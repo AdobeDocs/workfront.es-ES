@@ -1,6 +1,6 @@
 ---
 title: Actividad de la versión de Adobe Workfront Planning para 2023
-description: Actualmente, las funcionalidades de Adobe Workfront Planning están disponibles para determinados clientes de Workfront. Lea este artículo con frecuencia para obtener más información sobre las funciones lanzadas recientemente para las funciones de planificación.
+description: Actualmente, las funcionalidades de Planificación de Workfront de Adobe están disponibles para determinados clientes de Workfront. Lea este artículo con frecuencia para obtener más información sobre las funciones lanzadas recientemente para las funciones de planificación.
 author: Alina
 feature: Workfront Planning
 role: User, Admin
@@ -8,22 +8,30 @@ recommendations: noDisplay, noCatalog
 exl-id: 8a3830e8-0d9a-4ede-a1b6-b80dd4686bc6
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/pVAo3ZFNsUuJGI6GDOBCUWO6UkxQgWEif84qa79EXTk
+TQID: 'https://experienceleague.adobe.com/pVAo3ZFNsUuJGI6GDOBCUWO6UkxQgWEif84qa79EXTk'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+subfeature_v2:
+  - id: eb361af2-3e4f-4a79-b5f3-7a344ac5794c
+    internal-label: Workfront Planning
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Taxonomy
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 3059
+source-wordcount: '3065'
 ht-degree: 96%
-
 ---
-
-# Actividad de la versión de Adobe Workfront Planning para 2023
+# Actividad de la versión de Planificación de Workfront de Adobe para 2023
 
 <!--this article is linked to the WF Planning landing page - do not change URL or move it; send the team a new URL after we add the redirects for this page-->
 
@@ -77,13 +85,13 @@ La experiencia de comentarios para las capacidades de planificación coincide co
 
 Para obtener más información, consulte [Administrar comentarios de registro](/help/quicksilver/planning/records/manage-record-comments.md).
 
-### Conector de Workfront Planning para Adobe Workfront Fusion
+### Conector de Planificación de Workfront para Adobe Workfront Fusion
 
 Producción: 21 de diciembre de 2023
 
 >[!IMPORTANT]
 >
->Su organización debe comprar Adobe Workfront Fusion para poder crear conexiones con las funciones de Adobe Workfront Planning.
+>Su organización debe comprar Adobe Workfront Fusion para poder crear conexiones con las funciones de Planificación de Workfront de Adobe.
 >
 >Para obtener más información, consulte [Información general de Adobe Workfront Fusion](https://experienceleague.adobe.com/es/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
 
@@ -101,7 +109,7 @@ Ahora puede utilizar Adobe Workfront Fusion para conectarse a las funciones de p
 
 * Activar un escenario cuando se realiza un cambio en las capacidades de planificación
 
-Para obtener más información, consulte [Módulos de Adobe Workfront Planning](https://experienceleague.adobe.com/es/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-planning-modules).
+Para obtener más información, consulte [Módulos de Planificación de Workfront de Adobe](https://experienceleague.adobe.com/es/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-planning-modules).
 
 ## Semana del 11 de diciembre de 2023
 
@@ -119,11 +127,11 @@ Con esta mejora, observe lo siguiente:
 
 * Puede elegir cualquier campo de los siguientes tipos para que sea un campo principal y reemplazar el campo Nombre en la primera columna:
 
-   * Texto de línea única
+  * Texto de línea única
 
-   * Número
+  * Número
 
-   * Fórmula
+  * Fórmula
 
 * El campo principal de una vista de tabla siempre está inmovilizado y no se puede mover, a menos que establezca otro campo como campo principal.
 
@@ -141,11 +149,11 @@ Versión de producción: 21 de diciembre de 2023
 
 >[!IMPORTANT]
 >
->La instancia de Workfront de su organización debe incorporarse a Adobe Business Platform o Adobe Admin Console para poder conectar los registros de funcionalidades de Adobe Workfront Planning a Adobe Experience Manager Assets.
+>La instancia de Workfront de su organización debe incorporarse a Adobe Business Platform o Adobe Admin Console para poder conectar los registros de funcionalidades de Planificación de Workfront de Adobe a Adobe Experience Manager Assets.
 >
 >Si tiene preguntas sobre la incorporación a Adobe Admin Console, consulte las [Preguntas frecuentes sobre la experiencia unificada de Adobe](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md).
 
-Ahora puede establecer una conexión entre los tipos de registro de funcionalidades de Adobe Workfront Planning y Adobe Experience Manager Assets.
+Ahora puede establecer una conexión entre los tipos de registro de funcionalidades de Planificación de Workfront de Adobe y Adobe Experience Manager Assets.
 
 Después de establecer la conexión, esta actualización incluye la siguiente funcionalidad:
 
@@ -201,11 +209,11 @@ Tenga en cuenta lo siguiente:
 
 * No puede copiar y pegar valores de campo para los siguientes tipos de campo:
 
-   * Personas
+  * Personas
 
-   * Campos del sistema
+  * Campos del sistema
 
-   * Campos vinculados creados como resultado de la conexión de registros
+  * Campos vinculados creados como resultado de la conexión de registros
 
 Para obtener más información, consulte [Editar registros](/help/quicksilver/planning/records/edit-records.md).
 
@@ -225,7 +233,7 @@ Para obtener más información, consulte [Administrar la vista de tabla](/help/q
 
 Previsualización y producción: 30 de octubre de 2023
 
-Hemos introducido los siguientes tipos de campos para los registros de funcionalidades de Adobe Workfront Planning:
+Hemos introducido los siguientes tipos de campos para los registros de funcionalidades de Planificación de Workfront de Adobe:
 
 * Creado por
 
@@ -243,7 +251,7 @@ Para obtener más información, consulte [Crear campos](/help/quicksilver/planni
 
 Vista previa y producción: 31 de octubre de 2023
 
-Ahora puede abrir las páginas de objetos de Workfront desde las siguientes áreas de Workfront Planning:
+Ahora puede abrir las páginas de objetos de Workfront desde las siguientes áreas de Planificación de Workfront:
 
 * La vista de tabla del registro de objetos de Workfront vinculados de solo lectura
 
@@ -292,19 +300,19 @@ Las siguientes son opciones para los colores que puede elegir mostrar para las b
 
 * Las agrupaciones pueden coincidir con los colores siguientes:
 
-   * Gris (valor predeterminado)
+  * Gris (valor predeterminado)
 
-   * El color del campo por el que se agrupa
+  * El color del campo por el que se agrupa
 
 * Las barras pueden coincidir con los colores siguientes:
 
-   * El color del tipo de registro
+  * El color del tipo de registro
 
-   * El color del campo que seleccione
+  * El color del campo que seleccione
 
-   * El color de la agrupación
+  * El color de la agrupación
 
-   * Sin color (predeterminado)
+  * Sin color (predeterminado)
 
 Al hacer coincidir colores con un campo determinado, solo puede seleccionar campos con opciones codificadas por colores.
 
@@ -346,8 +354,8 @@ Tenga en cuenta lo siguiente:
 
   Para obtener más información, consulte los siguientes artículos:
 
-   * [Conectar tipos de registro](/help/quicksilver/planning/architecture/connect-record-types.md)
-   * [Conectar registros](/help/quicksilver/planning/records/connect-records.md)
+  * [Conectar tipos de registro](/help/quicksilver/planning/architecture/connect-record-types.md)
+  * [Conectar registros](/help/quicksilver/planning/records/connect-records.md)
 
 ### Compatibilidad con URL para campos de texto de una sola línea
 
@@ -369,7 +377,7 @@ Para obtener más información, consulte [Administrar la vista de tabla](/help/q
 
 ## Semana del 21 de agosto de 2023
 
-### Conexión de registros de funciones de Adobe Workfront Planning a programas y portafolios
+### Conexión de registros de funciones de Planificación de Workfront de Adobe a programas y portafolios
 
 Previsualización y producción: 24 de agosto de 2023
 
@@ -384,7 +392,7 @@ Ahora puede conectar un registro de funciones de planificación con programas y 
 Previsualización y producción: 24 de agosto de 2023
 
 Ahora puede ordenar registros en la vista de tabla de una página de tipo de registro.
-Ya están disponibles las siguientes funciones:
+Ya están disponibles las siguientes funcionalidades:
 
 * Ordenación a nivel de tabla, donde puede ordenar por varios campos al mismo tiempo.
 * Ordenación a nivel de columna o de campo, donde puede ordenar por un campo individual a la vez.
@@ -397,8 +405,8 @@ Hemos introducido las siguientes mejoras en la vista de cronología:
 
 * Ahora puede visualizar la vista de línea de tiempo en los modos siguientes:
 
-   * Estándar: muestra los registros en líneas independientes.
-   * Compacto: muestra los registros cuyas fechas no se cruzan en la misma línea.
+  * Estándar: muestra los registros en líneas independientes.
+  * Compacto: muestra los registros cuyas fechas no se cruzan en la misma línea.
 
 * Hemos cambiado el aspecto de las líneas de agrupación en la vista de la cronología para que se muestren encima de la cronología de los registros que contienen. Antes de esta mejora, las líneas de agrupación se mostraban en toda la longitud de la cronología
 
@@ -466,7 +474,7 @@ Ahora hemos introducido el requisito de que los nombres de campo de un tipo de r
 
 ## Semana del 5 de junio de 2023
 
-### Conexión de registros de funcionalidades de Adobe Workfront Planning con proyectos de Workfront
+### Conexión de registros de funcionalidades de Planificación de Workfront de Adobe con proyectos de Workfront
 
 Vista previa y producción: 5 de junio de 2023
 

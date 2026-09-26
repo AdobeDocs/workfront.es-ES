@@ -5,25 +5,31 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: a74d036b-e4fa-49e0-bb10-4baf379e1b1c
-TQID: https://experienceleague.adobe.com/IYlqpTdS-pJNpBaCeYywassuOaTQdaSZlctxd1J0NPA
+TQID: 'https://experienceleague.adobe.com/IYlqpTdS-pJNpBaCeYywassuOaTQdaSZlctxd1J0NPA'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
 subfeature_v2:
   - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 669
-ht-degree: 96%
-
+source-wordcount: '733'
+ht-degree: 100%
 ---
-
 # Mejoras del administrador en el primer trimestre de 2026
 
 Esta página describe las mejoras de administrador realizadas con la versión del primer trimestre de 2026 en el entorno de vista previa. Estas mejoras estarán disponibles en el entorno de producción, como se ha indicado.
@@ -34,7 +40,10 @@ Para obtener una lista de todos los cambios disponibles en este punto del ciclo 
 
 >[!NOTE]
 >
->Esta característica no está disponible temporalmente en el entorno de vista previa>Vista previa: 2 de diciembre de 2025>Versión rápida de producción: 14 de enero de 2026>Producción para todos: 15 de enero de 2026
+>Esta función no está disponible temporalmente en el entorno de vista previa
+>Vista previa: 2 de diciembre de 2025
+>Producción del lanzamiento rápido: 14 de enero de 2026
+>Producción para todos: 15 de enero de 2026
 
 
 Ahora puede habilitar o deshabilitar las prioridades para usuarios específicos en la plantilla de diseño. Si anteriormente tenía las prioridades deshabilitadas para su organización, permanecerán deshabilitadas en la plantilla de diseño con este cambio.
@@ -48,7 +57,9 @@ Para obtener más información, consulte [Personalizar el menú principal con un
 
 >[!NOTE]
 >
->Vista previa: 18 de diciembre de 2025>Versión rápida de producción: 14 de enero de 2026>Producción para todos: 15 de enero de 2026
+>Vista previa: 18 de diciembre de 2025
+>Producción del lanzamiento rápido: 14 de enero de 2026
+>Producción para todos: 15 de enero de 2026
 
 El mismo campo calculado puede tener diferentes fórmulas cuando se adjunta a diferentes formularios personalizados. Si dos o más formularios que contienen el mismo campo calculado están adjuntos a un objeto, las fórmulas deben ser idénticas en todos los formularios. No se permite editar la fórmula si el cambio podría provocar un conflicto.
 
@@ -61,7 +72,9 @@ Para obtener más información, consulte [Añadir campos calculados a un formula
 
 >[!NOTE]
 >
->Vista previa: 13 de noviembre de 2025>Versión rápida de producción: 13 de noviembre de 2025>Producción para todos: 13 de noviembre de 2025
+>Vista previa: 13 de noviembre de 2025
+>Producción de lanzamiento rápido: 13 de noviembre de 2025
+>Producción para todos: 13 de noviembre de 2025
 
 La fecha de entrada e ID de Introducido por ahora se guardan en formularios, campos y secciones personalizados. Puede utilizar estas opciones de datos en los informes como filtros, vistas o agrupaciones. Para mostrarlos en la lista de formularios, campos o secciones personalizados en la configuración, añada la fecha de entrada e Introducido por: Nombre como columnas en una vista nueva o existente.
 
@@ -73,7 +86,9 @@ La fecha de entrada e ID de Introducido por ahora se guardan en formularios, cam
 
 >[!NOTE]
 >
->Vista previa: 30 de octubre de 2025>Versión rápida de producción: 13 de noviembre de 2025>Producción para todos: 15 de enero de 2026
+>Vista previa: 30 de octubre de 2025
+>Producción de lanzamiento rápido: 13 de noviembre de 2025
+>Producción para todos: 15 de enero de 2026
 
 Para proporcionar más coherencia con otras áreas de la configuración, como el diseñador de formularios personalizados, los botones que ve al editar una plantilla de diseño han cambiado a **Aplicar**, **Guardar y cerrar** y **Cancelar**. La nueva opción, **Aplicar**, le permite guardar los cambios realizados en la plantilla de diseño y seguir editando. Anteriormente, las opciones disponibles eran **Guardar** y **Cancelar**.
 
@@ -83,7 +98,9 @@ Para obtener más información, consulte [Crear y administrar plantillas de dise
 
 >[!NOTE]
 >
->Vista previa: 30 de octubre de 2025>Versión rápida de producción: 13 de noviembre de 2025>Producción para todos: 15 de enero de 2026
+>Vista previa: 30 de octubre de 2025
+>Producción de lanzamiento rápido: 13 de noviembre de 2025
+>Producción para todos: 15 de enero de 2026
 
 Cuando hay un gran número de campos personalizados en el sistema, la administración de esos campos en formularios e informes personalizados puede resultar complicada. Ahora puede marcar los campos personalizados como inactivos con el nuevo indicador **Activo**. Este indicador está disponible al trabajar con un campo en un formulario personalizado o cuando se añade o edita un campo de la lista Campos.
 

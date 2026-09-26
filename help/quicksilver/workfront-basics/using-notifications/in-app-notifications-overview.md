@@ -6,18 +6,21 @@ description: 'En este artículo se enumeran las notificaciones en la aplicación
 author: Courtney
 feature: Get Started with Workfront
 exl-id: afc8cfe7-d9a7-458a-b437-bd4c75838cb0
-TQID: https://experienceleague.adobe.com/uR2GdykN4aZ6H0hV-4-nXD7Iv5oEF9XKdbGa1i9Oa2s
+TQID: 'https://experienceleague.adobe.com/uR2GdykN4aZ6H0hV-4-nXD7Iv5oEF9XKdbGa1i9Oa2s'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 837
+source-wordcount: '837'
 ht-degree: 32%
-
 ---
-
 # Información general sobre las notificaciones en la aplicación
 
 En este artículo se enumeran las notificaciones en la aplicación que puede recibir. Las notificaciones en la aplicación le mantienen informado sobre dos tipos de información: notificaciones de anuncios y notificaciones de elementos de trabajo. Están disponibles tanto desde la aplicación web como desde la aplicación móvil.
@@ -40,7 +43,7 @@ Notificación de ![[!UICONTROL anuncio]](assets/notification-list-announcement-3
 
 Para obtener información sobre la página [!UICONTROL Anuncios], consulte [Visualización y administración de notificaciones en la aplicación](../../workfront-basics/using-notifications/view-and-manage-in-app-notifications.md).
 
-## Notificaciones del [!UICONTROL &#x200B; elemento de trabajo]
+## Notificaciones del [!UICONTROL  elemento de trabajo]
 
 Al hacer clic en el icono numerado ![Icono de notificaciones](assets/notifications-icon-jewel.jpg) en la esquina superior derecha de [!DNL Workfront] para abrir la lista de notificaciones, se muestra la línea de asunto del mensaje del elemento de trabajo con un icono y una breve descripción para identificar de qué se trata. A continuación se enumeran los tipos de icono y descripción.
 
@@ -48,7 +51,7 @@ Al hacer clic en el icono numerado ![Icono de notificaciones](assets/notificatio
 
 >[!NOTE]
 >
->Las notificaciones dentro de la aplicación para actividades laborales no están vinculadas a las notificaciones por correo electrónico en [!DNL Workfront]. Para obtener más información, consulte notificaciones de [[!DNL Adobe Workfront] &#x200B;](../../workfront-basics/using-notifications/wf-notifications.md).
+>Las notificaciones dentro de la aplicación para actividades laborales no están vinculadas a las notificaciones por correo electrónico en [!DNL Workfront]. Para obtener más información, consulte notificaciones de [[!DNL Adobe Workfront] ](../../workfront-basics/using-notifications/wf-notifications.md).
 
 * [[!UICONTROL Rutas de aprobación]](#approvals)
 * [[!UICONTROL Solicitudes]](#requests)
@@ -103,9 +106,9 @@ Al hacer clic en el icono numerado ![Icono de notificaciones](assets/notificatio
 * ![Icono de problema](assets/issue.png) [!UICONTROL Problema asignado a] [nombre de equipo] - [nombre del asignador]
 * ![Tarea asignada a usted](assets/icon-taskassngdtoyou.png) [!UICONTROL Tarea asignada a] [nombre de equipo] - [nombre del asignador]
 
-   * Las notificaciones de asignación se envían únicamente cuando el estado del proyecto se establece en [!UICONTROL Actual] (o en un estado personalizado que sea equivalente a [!UICONTROL Actual]).
-   * No está previsto que a los solicitantes y revisores se les asigne trabajo. Por lo tanto, no se les notifica si se les asigna tareas y problemas.
-   * Si se asigna trabajo a sí mismo o a un equipo al que pertenece, no recibirá ninguna notificación.
+  * Las notificaciones de asignación se envían únicamente cuando el estado del proyecto se establece en [!UICONTROL Actual] (o en un estado personalizado que sea equivalente a [!UICONTROL Actual]).
+  * No está previsto que a los solicitantes y revisores se les asigne trabajo. Por lo tanto, no se les notifica si se les asigna tareas y problemas.
+  * Si se asigna trabajo a sí mismo o a un equipo al que pertenece, no recibirá ninguna notificación.
 
 ### [!UICONTROL Comentarios]
 

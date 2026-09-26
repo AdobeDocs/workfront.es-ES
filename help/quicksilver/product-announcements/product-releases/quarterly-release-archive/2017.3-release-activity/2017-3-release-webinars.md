@@ -7,23 +7,31 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 3fb7498a-585d-4692-9217-434eef38ad40
-TQID: https://experienceleague.adobe.com/FGBvFp-OolkU5IdUW2Xog2RmQyht1s41mta19WNx4bE
+TQID: 'https://experienceleague.adobe.com/FGBvFp-OolkU5IdUW2Xog2RmQyht1s41mta19WNx4bE'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Reporting
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 241
+source-wordcount: '242'
 ht-degree: 90%
-
 ---
-
 # Seminarios web de la versión 2017.3
 
 Estos seminarios web se centraron en la funcionalidad incluida en la versión 2017.3. 
@@ -57,7 +65,7 @@ Para su comodidad, el seminario web se divide en los siguientes temas:
 
 ## Versiones preliminares de septiembre de Workfront 2017.3 {#workfront-2017-3-september-preview-releases}
 
-El 26 de septiembre de 2017, el equipo de preparación para la versión de Workfront presentó el seminario web de versiones de vista previa de Workfront 2017.3 a las 9:00 AM MT. Este seminario web se centra en la nueva funcionalidad disponible en la vista previa durante septiembre.
+El seminario web de versiones de vista previa de septiembre de 2017.3 de Workfront fue presentado por el equipo de preparación para la versión de Workfront el 26 de septiembre de 2017 a las 9:00 a. m. MT. Este seminario web se centra en la nueva funcionalidad disponible en la vista previa durante septiembre.
 
 ## Seminario web de Workfront 2017.3 Beta 1 y Beta 2 {#workfront-2017-3-beta-1-and-beta-2-webinar}
 

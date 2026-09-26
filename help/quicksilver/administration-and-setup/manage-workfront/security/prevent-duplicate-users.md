@@ -8,24 +8,30 @@ author: Becky, Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 84d9a752-e894-42cf-9b40-375e35f02c97
-TQID: https://experienceleague.adobe.com/RSvNaBdgB5bZqkeD-KmlX1o54cUEdgi0Vtta9JWMTlw
+TQID: 'https://experienceleague.adobe.com/RSvNaBdgB5bZqkeD-KmlX1o54cUEdgi0Vtta9JWMTlw'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 568
+source-wordcount: '577'
 ht-degree: 8%
-
 ---
-
 # Evitar usuarios duplicados
 
 Al crear un nuevo usuario en Adobe Workfront, ya no puede utilizar una dirección de correo electrónico que ya esté utilizando otro usuario, aunque la dirección de correo electrónico varíe según las mayúsculas y minúsculas (por ejemplo, JohnDoe@example.com y johndoe@example.com). Además, para prepararse para futuras mejoras de autenticación, asegúrese de que todos los usuarios tengan direcciones de correo electrónico únicas en una instancia de Workfront.
@@ -107,8 +113,8 @@ Para corregir direcciones de correo electrónico duplicadas dentro de una instan
 
      Por ejemplo, John Doe puede tener una cuenta de usuario para su cuenta de uso diario y otra para utilizarla con fines de prueba:
 
-      * johndoe@workfront.com
-      * johndoe+reviewer@workfront.com
+     * johndoe@workfront.com
+     * johndoe+reviewer@workfront.com
 
    * Cambie el dominio para utilizar un dominio falso añadiendo el siguiente texto a la dirección de correo electrónico:
 
@@ -116,8 +122,8 @@ Para corregir direcciones de correo electrónico duplicadas dentro de una instan
 
      Por ejemplo, Juan García podría tener los siguientes dominios: (Estos deben ser únicos).
 
-      * johndoe@workfront.inactive
-      * johndoe@workfront.inactive2
+     * johndoe@workfront.inactive
+     * johndoe@workfront.inactive2
 
      Ya no puede iniciar sesión en estas cuentas porque los restablecimientos de contraseña requieren una dirección de correo electrónico válida. Solo se puede acceder a estas cuentas mediante la función Iniciar sesión como.
 

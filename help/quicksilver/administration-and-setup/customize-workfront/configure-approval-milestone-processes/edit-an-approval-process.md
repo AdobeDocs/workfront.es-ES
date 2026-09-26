@@ -10,25 +10,31 @@ role: Admin
 exl-id: 62aa8ac0-7e8a-4df6-b5d4-a32fa86a4597
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/Zfi1GowI6IVjCJaTHqxSoy25iq8GcUVGbA-a8RQlv7w
+TQID: 'https://experienceleague.adobe.com/Zfi1GowI6IVjCJaTHqxSoy25iq8GcUVGbA-a8RQlv7w'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 8e9dbe4c91058d104f494ab012ae54e04abf8cee
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1950
-ht-degree: 91%
-
+source-wordcount: '1970'
+ht-degree: 94%
 ---
-
 # Editar un proceso de aprobación
 
 <!--Audited: 08/2025-->
@@ -184,7 +190,7 @@ For this article, the old access was:
       <p>Este campo es obligatorio.</p>
       <p>No se puede seleccionar el mismo estado para varias rutas de proceso de aprobación.</p> <p>Los estados disponibles se basan en lo que se selecciona bajo la opción <b>Este proceso de aprobación puede ser utilizado por </b> (explicado en la tabla anterior):</p> 
       <ul> 
-      <li> Si se selecciona <b>Todos los grupos</b>, solo están disponibles los estados bloqueados a nivel del sistema. <!--Remove "locked" when story about using an unlocked status in approval processes goes to preview-->
+      <li> Si se selecciona <b>Todos los grupos</b>, solo estarán disponibles los estados bloqueados en todo el sistema. <!--Remove "locked" when story about using an unlocked status in approval processes goes to preview-->
       </li> 
       <li> <p>Si se selecciona un grupo específico, solo están disponibles los estados disponibles para ese grupo</p> </li> 
       </ul> <p>Para obtener información sobre cómo los procesos de aprobación funcionan con los estados, consulte la sección <a href="../../../review-and-approve-work/manage-approvals/approval-process-in-workfront.md#how2" class="MCXref xref">Cómo dependen los procesos de aprobación de los estados</a> en el artículo <a href="../../../review-and-approve-work/manage-approvals/approval-process-in-workfront.md" class="MCXref xref">Información general del proceso de aprobación</a>.</p> </td> 
@@ -211,7 +217,7 @@ For this article, the old access was:
       <p><b>IMPORTANTE</b>
       <ul> 
       <li> Cuando asigna una aprobación al patrocinador del proyecto y no se designa a nadie como patrocinador, la aprobación se reasigna al Propietario del Proyecto. Si no se designa a nadie como propietario del proyecto, la aprobación se asigna al administrador de Workfront. </li> 
-      <li> Cuando asigna una aprobación a un rol y la opción <b>Aprobador no debe estar en el equipo del proyecto</b> está deshabilitada, pero ningún rol del equipo del proyecto coincide con el rol de la aprobación, la aprobación se reasigna al Propietario del proyecto. Para obtener información acerca de la configuración de aprobación, consulte <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/establish-approval-settings.md" class="MCXref xref">Configurar la configuración de aprobación global</a>.
+      <li> Cuando asigna una aprobación a un rol y la opción <b>No se requiere que el aprobador esté en el equipo del proyecto</b> está deshabilitada, pero ningún rol en el equipo del proyecto coincide con el rol de la aprobación, la aprobación se reasigna al Propietario del Proyecto. Para obtener información sobre la configuración de aprobaciones, consulte <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/establish-approval-settings.md" class="MCXref xref">Configuración de la aprobación global</a>.
       </li> 
       <li>Cuando asigna una aprobación al Propietario del Proyecto y no se designa a nadie como propietario de un proyecto, la aprobación se reasigna al administrador principal de Workfront, tal como se indica en la sección de Información del Cliente en el área de Configuración. Para obtener más información, consulte <a href="../../../administration-and-setup/get-started-wf-administration/configure-basic-info.md" class="MCXref xref">Configurar información básica para el sistema</a>.</li> 
       <p><img src="assets/approval-create-add-users-nwe-350x304.png"></p> 
@@ -224,7 +230,7 @@ For this article, the old access was:
    </tr> 
      <tr> 
       <td role="rowheader">Solamente se requiere una decisión</td> 
-      <td>(Solo se muestra si agrega varios aprobadores a la fase) Seleccione esta opción si alguno de los aprobadores de la fase puede aprobar o rechazar el elemento de trabajo durante esta fase. Esta acción permite que el elemento de trabajo abandone el escenario.  
+      <td>(Se muestra solo si añadir varios aprobadores a la etapa) Seleccione esta opción si alguno de los aprobadores de la fase puede aprobar o rechazar el elemento de trabajo durante esta fase. Esta acción permite que el elemento de trabajo abandone el escenario.  
       <p>Cuando esta opción no está seleccionada, todos los aprobadores identificados deben aprobar o rechazar la fase (en cualquier orden) antes de que el elemento abandone la fase. Si cualquiera de los aprobadores rechaza la etapa, el proceso se interrumpe y comienza de nuevo para que se puedan realizar los cambios necesarios. A continuación, los aprobadores pueden aprobar o rechazar la fase una vez más.</p> 
       <p>Cuando se designa un equipo como aprobador, cualquier miembro del equipo puede conceder o rechazar una etapa.</p> 
       </td> 

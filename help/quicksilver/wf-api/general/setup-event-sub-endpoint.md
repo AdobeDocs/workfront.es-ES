@@ -7,18 +7,21 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 1b621b35-6c8b-4f6a-bcba-ed6cbfe83a8c
-TQID: https://experienceleague.adobe.com/rft0idTJddZkXvAcOymqXarAs1zTf77HttI6vuwCTlw
+TQID: 'https://experienceleague.adobe.com/rft0idTJddZkXvAcOymqXarAs1zTf77HttI6vuwCTlw'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: 682536a8-4872-5ee6-a8a6-8012d713482c
+    internal-label: Workfront API
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Developer
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 275
+source-wordcount: '275'
 ht-degree: 79%
-
 ---
-
 # Requisitos para el envío de suscripciones a eventos
 
 Los mensajes de suscripción de eventos son notificaciones que se pueden configurar para notificar a los usuarios cuando se producen determinados eventos. Para obtener más información sobre las suscripciones a eventos, consulte [Preguntas frecuentes - Suscripciones a eventos](../../wf-api/general/event-subs-faq.md).
@@ -37,7 +40,7 @@ Los puntos finales de servicio que consumen mensajes de suscripción de evento d
 
 * Si un proceso empresarial de larga duración se desencadena desde un mensaje de suscripción de evento, Workfront recomienda que
 
-   1. el punto final guarde la información del mensaje al recibirlo y responda inmediatamente con un estado de nivel 200.
-   1. Una vez que un puto final ha respondido a una solicitud de envío de suscripción de evento, se pueden procesar los mensajes guardados.
+  1. el punto final guarde la información del mensaje al recibirlo y responda inmediatamente con un estado de nivel 200.
+  1. Una vez que un puto final ha respondido a una solicitud de envío de suscripción de evento, se pueden procesar los mensajes guardados.
 
 * Los mensajes u objetos de suscripción de evento no pueden superar 1 MB.

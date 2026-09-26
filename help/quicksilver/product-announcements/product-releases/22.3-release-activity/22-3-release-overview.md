@@ -6,35 +6,51 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: bfc7ce9e-b715-47b7-bab7-2e3540d0da3e
-TQID: https://experienceleague.adobe.com/yhdEiiC-0I-M1m8xTKfqQa1BSsyf-kZOGDWtCKMhTyA
+TQID: 'https://experienceleague.adobe.com/yhdEiiC-0I-M1m8xTKfqQa1BSsyf-kZOGDWtCKMhTyA'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
   - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+    internal-label: Workfront Proof
   - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+    internal-label: Timesheets
   - id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
+    internal-label: Resource Planner
   - id: d1807669-3cb9-4c7d-8433-600aa390c92f
+    internal-label: Adobe Workfront for Creative Cloud Plugin
   - id: d3382524-5489-431b-bde9-271ab257bc37
+    internal-label: Workfront Scenario Planner
   - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
   - id: fceb5125-bb41-419a-b0db-31958cb42f6c
+    internal-label: Workfront Goals
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Security
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 3364
+source-wordcount: '3390'
 ht-degree: 99%
-
 ---
-
 # Información general de la versión 22.3
 
 Esta página proporciona información sobre la funcionalidad incluida en la versión 22.3. Todas las funciones enumeradas están disponibles en la nueva experiencia de Adobe Workfront. Algunas funciones también están disponibles en Adobe Workfront Classic; sin embargo, [Workfront Classic dejará de estar disponible en marzo de 2022](https://experienceleague.adobe.com/es/docs/workfront/using/home), y poco después, en julio de 2022, finalizará su vida útil.
@@ -320,7 +336,7 @@ Estas mejoras se incorporaron en el entorno de producción la semana del 11 de j
                         <a href="/help/quicksilver/product-announcements/product-releases/22.3-release-activity/22-3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Campañas de Workfront (Beta)</a> </p>
                         <p>Presentamos un nuevo objeto en Adobe Workfront que tiene el potencial de cambiar la forma en que administra el trabajo. </p>
                         <p>Workfront Campaigns permite organizar proyectos de diferentes portafolios y programas en un nuevo contenedor de trabajo.
-Las campañas se lanzaron a la versión preliminar beta con la versión 22.3 en julio de 2022. Para obtener más información, vea <a href="../../../product-announcements/product-releases/22.3-release-activity/22-3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">22.3 Mejoras en el proyecto</a> </p>
+Las campañas se lanzaron a la versión beta en vista previa con la versión 22.3 en julio de 2022. Para más información, consulte <a href="../../../product-announcements/product-releases/22.3-release-activity/22-3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Mejoras de proyecto en 22.3</a> </p>
 <p>Este nuevo contenedor evolucionará en futuras versiones para conectar objetos de trabajo que actualmente se administran en silos independientes.</p>
 
 </td>
@@ -373,7 +389,7 @@ Las campañas se lanzaron a la versión preliminar beta con la versión 22.3 en 
    <td> <p><strong>Entornos y fechas de lanzamiento</strong> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/22.3-release-activity/22-3-reporting-enhancements.md" class="MCXref xref" xrefformat="{para}">Eliminación y adición de campos de presupuestos de recursos en listas e informes
+   <td> <p><a href="../../../product-announcements/product-releases/22.3-release-activity/22-3-reporting-enhancements.md" class="MCXref xref" xrefformat="{para}">Eliminación y adición de campos de presupuestación de recursos en listas e informes
 </a> </p> <p>Para reflejar la información de presupuestos de recursos del Planificador de recursos, se ha agregado un nuevo campo Horas presupuestadas a las listas y los informes del Planificador de recursos. Se eliminaron varios campos de las listas e informes porque hacían referencia a herramientas obsoletas que se habían eliminado de Workfront en versiones anteriores.</p> 
    <td> <p><b>Disponible en estas fechas:</b> </p> 
     <ul> 

@@ -2,33 +2,39 @@
 product-area: workfront-integrations;projects
 keywords: google,doc,documento,hoja,diapositiva
 navigation-topic: workfront-for-g-suite
-title: Actualizar un objeto de  [!DNL Adobe Workfront]  desde Google Workspace
-description: Sin salir de Google Workspace, puede publicar una nueva actualización o una respuesta a una actualización existente en un objeto de  [!DNL Adobe Workfront] .
+title: Actualizar un objeto [!DNL Adobe Workfront] desde Google Workspace
+description: Sin salir de Google Workspace, puede publicar una nueva actualización o una respuesta a una actualización existente en un objeto [!DNL Adobe Workfront].
 author: Becky
 feature: Workfront Integrations and Apps
 recommendations: noDisplay, noCatalog
 exl-id: 8e3edfb6-6822-4970-aa59-5fe5ee97d3b2
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/Q5nd61B9ByBbSk4jmoNuR1S2gwepkS3w1dpTZlfsmNk
+TQID: 'https://experienceleague.adobe.com/Q5nd61B9ByBbSk4jmoNuR1S2gwepkS3w1dpTZlfsmNk'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+  - id: a1f87682-0525-5459-aa06-3560bb4c3b2a
+    internal-label: Workfront Integrations and Apps
 subfeature_v2:
   - id: bbf3fe51-0066-4980-9062-f8005585ee10
+    internal-label: Adobe Workfront for Google Workspace
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 195
-ht-degree: 40%
-
+source-wordcount: '197'
+ht-degree: 27%
 ---
-
 # Actualizar un objeto de [!DNL Adobe Workfront] desde [!DNL Google Workspace]
 
 >[!IMPORTANT]
@@ -43,7 +49,7 @@ ht-degree: 40%
 >
 >Para obtener información general sobre la automatización e integración de Workfront, consulte [Información general de Adobe Workfront Fusion](https://experienceleague.adobe.com/es/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
 >
->Para obtener información sobre las capacidades específicas de los módulos de integración y automatización de Workfront para Google Workspace, consulte [Módulos de Gmail](https://experienceleague.adobe.com/es/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/gmail-modules) y [Módulos de Google Calendar](https://experienceleague.adobe.com/es/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/google-calendar-modules).
+>Para obtener información sobre las capacidades específicas de los módulos de integración y automatización de Workfront para Google Workspace, consulte [Módulos de Gmail](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/gmail-modules) y [Módulos de Google Calendar](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/google-calendar-modules).
 
 <!--
 

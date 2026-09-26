@@ -8,23 +8,28 @@ feature: Reports and Dashboards
 exl-id: 9b58d68c-4b7b-4344-bde3-7c65e2e1aac8
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/ehiUNiyvlPNaJQkAYre2FG1dnT1aQvFt7ytQ1Cq271s
+TQID: 'https://experienceleague.adobe.com/ehiUNiyvlPNaJQkAYre2FG1dnT1aQvFt7ytQ1Cq271s'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c6dd2ac5-f5bd-4e59-9101-25b156918623
+    internal-label: Reports and dashboards
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 2735
+source-wordcount: '2746'
 ht-degree: 3%
-
 ---
-
 # Añadir un gráfico a un informe
 
 <!--Audited: 11/2024-->
@@ -133,9 +138,9 @@ Para agregar un gráfico de **columnas** al informe:
 
    * Haga clic en una de las siguientes opciones para seleccionar cómo se van a mostrar las columnas agrupadas:
 
-      * **Uno al lado del otro**
-      * **Apiladas**
-      * **Apiladas al 100%**
+     * **Uno al lado del otro**
+     * **Apiladas**
+     * **Apiladas al 100%**
 
    * Seleccione la agrupación que desee incluir en el gráfico en el menú desplegable **Agrupar datos por**.
    * (Opcional) Haga clic en **Colores personalizados** para personalizar los colores de las columnas.\
@@ -169,9 +174,9 @@ Para agregar un gráfico de **barras** al informe:
 
    * Haga clic en una de las siguientes opciones para seleccionar cómo se van a mostrar las barras agrupadas:
 
-      * **Uno al lado del otro**
-      * **Apiladas**
-      * **Apiladas al 100%**
+     * **Uno al lado del otro**
+     * **Apiladas**
+     * **Apiladas al 100%**
 
    * Seleccione cómo desea agrupar la información del gráfico en el menú desplegable **Agrupar datos por**.
    * (Opcional) Haga clic en **Colores personalizados** para personalizar los colores de las columnas.\
@@ -370,8 +375,8 @@ Tenga en cuenta las siguientes limitaciones al trabajar con gráficos:
 
 * Algunos elementos del gráfico no se pueden editar:
 
-   * No se puede cambiar el tipo de fuente ni el tamaño de los valores de cada elemento.
-   * No puede cambiar los nombres de los ejes en el gráfico.
+  * No se puede cambiar el tipo de fuente ni el tamaño de los valores de cada elemento.
+  * No puede cambiar los nombres de los ejes en el gráfico.
 
 * No se puede editar el pie de ilustración del gráfico.
 * Al utilizar campos calculados para las agrupaciones, no se puede hacer clic en los elementos del gráfico.

@@ -8,25 +8,31 @@ feature: Reports and Dashboards
 exl-id: 106f7c9d-46cc-46c5-ae34-93fd13a36c14
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/hjseZZVmNs0rGOgMauDWITarp8Vbdh-0iqyJeToR0g4
+TQID: 'https://experienceleague.adobe.com/hjseZZVmNs0rGOgMauDWITarp8Vbdh-0iqyJeToR0g4'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c6dd2ac5-f5bd-4e59-9101-25b156918623
+    internal-label: Reports and dashboards
 subfeature_v2:
   - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 2668
+source-wordcount: '2668'
 ht-degree: 97%
-
 ---
-
 # Creación de filtros complejos de modo de texto mediante instrucciones EXISTS
 
 <!-- Audited: 01/2025 -->
@@ -75,22 +81,22 @@ Tenga en cuenta lo siguiente al crear filtros que abarquen varios niveles en la 
 * Debe crear filtros complejos cuando desee hacer referencia a objetos que no están conectados directamente al objeto de filtro.
 * Debe utilizar una instrucción EXISTS para hacer lo siguiente:
 
-   * Crear filtros que abarquen varios niveles.
-   * Crear filtros que busquen los objetos que faltan.\
-     Por ejemplo, al crear un informe de usuario, puede filtrar por usuarios que no hayan registrado tiempo durante un período de tiempo determinado.
+  * Crear filtros que abarquen varios niveles.
+  * Crear filtros que busquen los objetos que faltan.\
+    Por ejemplo, al crear un informe de usuario, puede filtrar por usuarios que no hayan registrado tiempo durante un período de tiempo determinado.
 
 Tenga en cuenta las siguientes reglas al utilizar instrucciones EXISTS en un filtro:
 
 * Hay tres objetos a los que se puede hacer referencia en un filtro EXISTS:
 
-   * El objeto del filtro (objeto original).
-   * El objeto a cuyo campo desea hacer referencia (objeto de destino).
-   * El objeto que conecta los objetos de destino y original, en caso de que no estén conectados directamente entre sí (objeto de vinculación).
+  * El objeto del filtro (objeto original).
+  * El objeto a cuyo campo desea hacer referencia (objeto de destino).
+  * El objeto que conecta los objetos de destino y original, en caso de que no estén conectados directamente entre sí (objeto de vinculación).
 
 * Los filtros que utilizan EXISTS contienen dos instrucciones independientes vinculadas por un signo igual:
 
-   * La instrucción antes del signo igual hace referencia al objeto al que se hace referencia (el objeto de vinculación o el objeto de destino).
-   * La instrucción situada después del signo igual hace referencia al objeto desde el que hace referencia (el objeto original).
+  * La instrucción antes del signo igual hace referencia al objeto al que se hace referencia (el objeto de vinculación o el objeto de destino).
+  * La instrucción situada después del signo igual hace referencia al objeto desde el que hace referencia (el objeto original).
 
 * Debe utilizar el código de objeto del objeto de vinculación para conectar las instrucciones.\
   Puede encontrar el código de objeto de todos los objetos en el Explorador de API.\

@@ -2,28 +2,38 @@
 product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: email-alerts-workfront-proof
-title: Configurar las opciones de notificación por correo electrónico en  [!DNL Workfront Proof]
+title: Configurar las opciones de notificación por correo electrónico en [!DNL Workfront Proof]
 description: Las notificaciones por correo electrónico generadas desde Workfront Proof informan a los colaboradores sobre la actividad reciente en las pruebas, como comentarios, respuestas o decisiones.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: eb82c075-e275-46b7-ac2c-ed50367f53a7
-TQID: https://experienceleague.adobe.com/BGkemxbMeYw-pkWCR1NRMbuVbLZzYoB-m91cOLAwqwc
+TQID: 'https://experienceleague.adobe.com/BGkemxbMeYw-pkWCR1NRMbuVbLZzYoB-m91cOLAwqwc'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+    internal-label: Workfront Proof
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 8f9a1a0c9967346771709371c49b4c0b50cb1059
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 2072
+source-wordcount: '2072'
 ht-degree: 98%
-
 ---
-
 # Configurar las opciones de notificación por correo electrónico en [!DNL Workfront Proof]
 
 <!--Audited: 01/2024-->
@@ -110,7 +120,7 @@ Puede configurar las opciones de prueba para las pruebas que cree.
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Decisions]</td> 
-      <td>[!DNL Workfront] envía un correo electrónico al revisor únicamente cuando alguien toma una decisión.<p>Esto puede resultar útil para la persona que administra el proceso de aprobación (como un administrador de proyecto) y necesita supervisar el progreso de la prueba y ver qué usuarios han tomado su decisión.</p><p>No se le notificará su propia decisión a menos que seleccione una opción de confirmación por correo electrónico al enviar su decisión.</p></td> 
+      <td>[!DNL Workfront] envía un correo electrónico al revisor únicamente cuando alguien toma una decisión.<p>Esto puede resultar útil para la persona que administra el proceso de aprobación (como un administrador de proyecto) y necesita monitorizar el progreso de la prueba y ver qué usuarios han tomado su decisión.</p><p>No se le notificará su propia decisión a menos que seleccione una opción de confirmación por correo electrónico al enviar su decisión.</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Final decision]</td> 
@@ -122,7 +132,7 @@ Puede configurar las opciones de prueba para las pruebas que cree.
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Daily Summary]</td> 
-      <td>[!DNL Workfront] envía un correo electrónico con todos los comentarios, respuestas y decisiones enumerados solo los días en que hay actividad aparte de la suya propia.<p>Esta alerta es una buena manera de ver un resumen del proyecto sin verse abrumado por múltiples actualizaciones a lo largo del día.</p><p>Un ejemplo de uso de este resumen es un jefe de departamento que desea supervisar el progreso general del proyecto.</p><p>Para obtener más información, consulte <a href="../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/manage-notifications-for-proof-comments.md" class="MCXref xref">Administrar notificaciones para comentarios y decisiones sobre pruebas</a>.</p></td> 
+      <td>[!DNL Workfront] envía un correo electrónico con todos los comentarios, respuestas y decisiones enumerados solo los días en que hay actividad aparte de la suya propia.<p>Esta alerta es una buena manera de ver un resumen del proyecto sin verse abrumado por múltiples actualizaciones a lo largo del día.</p><p>Un ejemplo de uso de este resumen es un jefe de departamento que desea monitorizar el progreso general del proyecto.</p><p>Para obtener más información, consulte <a href="../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/manage-notifications-for-proof-comments.md" class="MCXref xref">Administrar notificaciones para comentarios y decisiones sobre pruebas</a>.</p></td> 
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader">[!UICONTROL No email]</td> 
@@ -204,7 +214,7 @@ Si es administrador de [!DNL Workfront Proof], puede establecer valores predeter
      </tr>
      <tr>
       <td role="rowheader">[!UICONTROL Decisions]</td>
-      <td>[!DNL Workfront] envía un correo electrónico al revisor únicamente cuando alguien toma una decisión.<p>Esto puede resultar útil para la persona que administra el proceso de aprobación (como un administrador de proyecto) y necesita supervisar el progreso de la prueba y ver qué usuarios han tomado su decisión.</p><p>No se le notificará su propia decisión a menos que seleccione una opción de confirmación por correo electrónico al enviar su decisión.</p></td>
+      <td>[!DNL Workfront] envía un correo electrónico al revisor únicamente cuando alguien toma una decisión.<p>Esto puede resultar útil para la persona que administra el proceso de aprobación (como un administrador de proyecto) y necesita monitorizar el progreso de la prueba y ver qué usuarios han tomado su decisión.</p><p>No se le notificará su propia decisión a menos que seleccione una opción de confirmación por correo electrónico al enviar su decisión.</p></td>
      </tr>
      <tr>
       <td role="rowheader">[!UICONTROL Final decision]</td>
@@ -216,7 +226,7 @@ Si es administrador de [!DNL Workfront Proof], puede establecer valores predeter
      </tr>
      <tr>
       <td role="rowheader">[!UICONTROL Daily Summary]</td>
-      <td>[!DNL Workfront] envía un correo electrónico con todos los comentarios, respuestas y decisiones enumerados solo los días en que hay actividad aparte de la suya propia.<p>Esta alerta es una buena manera de ver un resumen del proyecto sin verse abrumado por múltiples actualizaciones a lo largo del día.</p><p>Un ejemplo de uso de este resumen es un jefe de departamento que desea supervisar el progreso general del proyecto.</p><p>Para obtener más información, consulte <a href="../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/manage-notifications-for-proof-comments.md" class="MCXref xref">Administrar notificaciones para comentarios y decisiones sobre pruebas</a>.</p></td>
+      <td>[!DNL Workfront] envía un correo electrónico con todos los comentarios, respuestas y decisiones enumerados solo los días en que hay actividad aparte de la suya propia.<p>Esta alerta es una buena manera de ver un resumen del proyecto sin verse abrumado por múltiples actualizaciones a lo largo del día.</p><p>Un ejemplo de uso de este resumen es un jefe de departamento que desea monitorizar el progreso general del proyecto.</p><p>Para obtener más información, consulte <a href="../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/manage-notifications-for-proof-comments.md" class="MCXref xref">Administrar notificaciones para comentarios y decisiones sobre pruebas</a>.</p></td>
      </tr>
      <tr data-mc-conditions="">
       <td role="rowheader">[!UICONTROL No email]</td>

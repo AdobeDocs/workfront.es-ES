@@ -2,23 +2,31 @@
 product-previous: workfront-proof
 product-area: documents
 navigation-topic: manage-your-work-workfront-proof
-title: Ver el progreso y el estado de una prueba en  [!DNL Workfront Proof]
+title: Ver el progreso y el estado de una prueba en [!DNL Workfront Proof]
 description: Progreso de la revisión indica el trabajo realizado en una revisión desde el momento en que esta se envía a los destinatarios hasta el momento en que estos toman una decisión sobre ella.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 8fd85595-1403-490e-9d52-2ba5b01457b7
-TQID: https://experienceleague.adobe.com/RT6tZgY8-PP4bmiowZFQm1BK84Bd1CAguWcWRv9Hpqs
+TQID: 'https://experienceleague.adobe.com/RT6tZgY8-PP4bmiowZFQm1BK84Bd1CAguWcWRv9Hpqs'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+    internal-label: Workfront Proof
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1139
+source-wordcount: '1139'
 ht-degree: 98%
-
 ---
-
 # Ver el progreso y el estado de una prueba en [!DNL Workfront Proof]
 
 >[!IMPORTANT]
@@ -141,11 +149,11 @@ En el resumen, puede ver y editar los siguientes detalles de la prueba:
 * Plazo establecido para la fase (3)
 * Detalles del revisor:
 
-   * Número de comentarios y respuestas de cada revisor (4)
-   * Progreso de cada revisor (5)
-   * Decisión (si una decisión ha incluido firmas electrónicas, se mostrará un icono junto a la decisión que lo indique). (6)
-   * Función en la prueba (7)
-   * Configuración de alertas de correo electrónico (8)
+  * Número de comentarios y respuestas de cada revisor (4)
+  * Progreso de cada revisor (5)
+  * Decisión (si una decisión ha incluido firmas electrónicas, se mostrará un icono junto a la decisión que lo indique). (6)
+  * Función en la prueba (7)
+  * Configuración de alertas de correo electrónico (8)
 
 >[!NOTE]
 >

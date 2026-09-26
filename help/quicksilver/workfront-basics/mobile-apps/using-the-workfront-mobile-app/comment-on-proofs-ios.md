@@ -6,18 +6,21 @@ description: Puede revisar y resolver los comentarios existentes en una prueba y
 author: Lisa
 feature: Get Started with Workfront
 exl-id: c38f0d80-11e0-4d5a-9591-602543177fe6
-TQID: https://experienceleague.adobe.com/8-tgiBQim9V0-vqb8C8HITNXXfUuANwa7ohXTSkDDpQ
+TQID: 'https://experienceleague.adobe.com/8-tgiBQim9V0-vqb8C8HITNXXfUuANwa7ohXTSkDDpQ'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 817
+source-wordcount: '817'
 ht-degree: 95%
-
 ---
-
 # Comentario sobre pruebas en [!DNL iOS]
 
 Puede revisar y resolver los comentarios existentes en una prueba y añadir nuevos comentarios y anotaciones al documento de prueba.
@@ -58,7 +61,7 @@ En la lista [!UICONTROL comentario], puede realizar diferentes acciones, como re
    * Mantenga presionado un comentario individual para seleccionarlo.
    * Elija **[!UICONTROL Seleccionar]** en la parte superior derecha para mostrar una casilla de verificación junto a cada comentario. A continuación, pulse las casillas de verificación del comentario o elija **[!UICONTROL Seleccionar todo]** en la parte superior izquierda.
 
-1. Para resolver el comentario seleccionado, seleccione el icono![&#128279;](assets/mobile-resolvecomment-icon-30x30.png) [!UICONTROL Resolver comentario] en la barra de herramientas inferior.
+1. Para resolver el comentario seleccionado, seleccione el icono](assets/mobile-resolvecomment-icon-30x30.png) ![[!UICONTROL Resolver comentario] en la barra de herramientas inferior.
 
    Solo se puede resolver un comentario a la vez. El comentario se marca con un icono verde para mostrar que se ha resuelto.
 

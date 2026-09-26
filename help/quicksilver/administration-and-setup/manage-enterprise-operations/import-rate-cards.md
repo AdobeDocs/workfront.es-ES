@@ -7,13 +7,20 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: debe90e7-08c2-4385-96fb-8d349dec6741
-source-git-commit: aa774419e65e9e4a5785382d3cb2b22bdb0389c9
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
 source-wordcount: '1812'
 ht-degree: 3%
-
 ---
-
 # Importar tarjetas de tarifas desde una plantilla
 
 Puede utilizar un archivo de plantilla para crear las tarjetas de tarifas en Excel e importarlas en Adobe Workfront, en lugar de agregar todos los roles y tarifas manualmente.
@@ -76,39 +83,39 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
    * RTCRD: Definir las tarjetas de tasas (información básica)
    * RATE_RTCRD: Definir las tasas detalladas asociadas con cada tarjeta de tasas
 
-### Fill out the RTCRD (Rate Card Setup) tab
+### Rellene la ficha RTCRD (Configuración de tarjeta de tarifas)
 
-Create and list all of rate cards on this tab. Each row represents one rate card.
+Cree y enumere todas las tarjetas de tarifa en esta pestaña. Cada fila representa una tarjeta de tarifa.
 
-![RTCRD tab on rate card import template file](assets/rate-card-import-template-tab1.png)
+![Ficha RTCRD en el archivo de plantilla de importación de tarjeta de tarifas](assets/rate-card-import-template-tab1.png)
 
-1. Enter the information for a rate card on each row:
+1. Introduzca la información de una tarjeta de tarifa en cada fila:
 
-   * **Name** (required): The name of the rate card, such as &quot;Global Billing 2025.&quot;
+   * **Nombre** (obligatorio): El nombre de la tarjeta de tarifa, como &quot;Facturación global 2025&quot;.
 
-     This name is the main identifier for the rate card. Each rate card must have a unique name.
+     Este nombre es el identificador principal de la tarjeta de tarifas. Cada tarjeta de tarifa debe tener un nombre único.
 
-   * **Description** (optional): A free-form text description of the rate card. Use this to describe purpose, scope, or validity, for example, &quot;Applies to North American projects.&quot;
-   * **Company** (optional): This can be either the company name or the company ID. The import will recognize both.
+   * **Descripción** (opcional): una descripción de texto de forma libre de la tarjeta de tarifa. Use esto para describir el propósito, el ámbito o la validez, por ejemplo, &quot;Se aplica a los proyectos de Norteamérica&quot;.
+   * **Empresa** (opcional): puede ser el nombre de la empresa o el identificador de la empresa. La importación reconocerá ambos.
 
-     Example: Coffesta, or _68c0234e00000541dd8c0757723daa68_
+     Ejemplo: Coffesta o _68c0234e00000541dd8c0757723daa68_
 
-   * **Group** (optional): This can be either the group name or the group ID. The import will recognize both.
+   * **Grupo** (opcional): puede ser el nombre o el identificador del grupo. La importación reconocerá ambos.
 
-     Example: Marketing, or _68c0234e00000541dd8c0757723daa68_
+     Ejemplo: Marketing o _68c0234e00000541dd8c0757723daa68_
 
-   * **Custom fields** (optional): You can add additional columns with custom field names if your environment has specific requirements.
+   * **Campos personalizados** (opcional): puede agregar columnas adicionales con nombres de campo personalizados si su entorno tiene requisitos específicos.
 
    >[!NOTE]
    >
-   >* At minimum, you must enter the Name for each rate card.
-   >* Each rate card is automatically given a sequence number based on its row position. For example, the first rate card you define (in row 2) is sequence 1, the next is 2, and so on. These sequence numbers are used in the RATE_RTCRD tab to attach rates.
+   >* Como mínimo, debe introducir el nombre de cada tarjeta de tarifa.
+   >* A cada tarjeta de tarifa se le asigna automáticamente un número de secuencia en función de su posición de fila. Por ejemplo, la primera tarjeta de tasa que defina (en la fila 2) es la secuencia 1, la siguiente es 2, y así sucesivamente. Estos números de secuencia se utilizan en la ficha RATE_RTCRD para adjuntar tasas.
 
-### Fill out the RATE_RTCRD (Rates Setup) tab
+### Rellene la pestaña RATE_RTCRD (Configuración de tarifas)
 
-Define all the rates that belong to the rate cards on this tab.
+Defina todas las tasas que pertenecen a las tarjetas de tasas en esta pestaña.
 
-Every row on the tab defines one specific rate. You can create multiple rates under the same rate card by repeating the rate card sequence.
+Cada fila de la pestaña define una velocidad específica. Puede crear varias tasas en la misma tarjeta de tasa repitiendo la secuencia de la tarjeta de tasa.
 
 Asegúrese de que las fechas no se superponen a menos que sea el propósito.
 
@@ -150,38 +157,38 @@ Asegúrese de que las fechas no se superponen a menos que sea el propósito.
 
      Para obtener más información, consulte [Requisitos de formato de fecha](#date-formatting-requirements), más adelante.
 
-   * **Value** (optional): The numeric rate value, for example 150. El valor predeterminado es 0.
-   * **Currency** (optional): The currency for the rate, for example USD, EUR, GBP. The default is the system currency.
-   * **Locked** (optional): Indicates if the rate is locked. Valid values are True or False.
-   * **Attributes** (optional / custom): The last columns (Agency, Location, Cost Center, etc.) are Rate Attributes that differ by customer configuration. These are customizable fields and may vary per customer environment.
+   * **Valor** (opcional): Valor de velocidad numérico, por ejemplo 150. El valor predeterminado es 0.
+   * **Moneda** (opcional): La moneda de la tarifa, por ejemplo, USD, EUR, GBP. El valor predeterminado es la moneda del sistema.
+   * **Bloqueado** (opcional): indica si la velocidad está bloqueada. Los valores válidos son True o False.
+   * **Atributos** (opcional/personalizados): Las últimas columnas (Agencia, Ubicación, Centro de costos, etc.) son atributos de tasa que difieren según la configuración del cliente. Son campos personalizables que pueden variar según el entorno del cliente.
 
-     Example: Agency = &quot;1: Agency,&quot; Location = &quot;Chicago,&quot; Cost Center = &quot;22: Cost Center&quot;
+     Ejemplo: Agencia = &quot;1: Agencia&quot;, Ubicación = &quot;Chicago&quot;, Centro de coste = &quot;22: Centro de coste&quot;
 
-### Fill out the RSALS (Rate Card Alias) tab
+### Rellene la pestaña RSALS (alias de tarjeta de tarifas)
 
-Create and list all of the aliases on this tab. Each row represents one alias.
+Cree y enumere todos los alias de esta pestaña. Cada fila representa un alias.
 
-When the rate card is attached to a project, the alias appears on information such as placeholder assignments, expenses, and reports, instead of the internal job role name. Only one alias can exist for each job role and attribute combination within a single rate card.
+Cuando la tarjeta de tasas se adjunta a un proyecto, el alias aparece en información como asignaciones de marcador de posición, gastos e informes, en lugar del nombre de rol interno. Solo puede existir un alias para cada combinación de rol y atributo dentro de una sola tarjeta de tarifa.
 
-An alias is added to the system, but it is not connected to a job role based on the information on this tab.
+Se agrega un alias al sistema, pero no está conectado a un rol según la información de esta ficha.
 
-![RSALS tab on rate card import template file](assets/rsals-tab-rate-card-import.png)
+![Ficha RSALS en el archivo de plantilla de importación de tarjeta de tarifas](assets/rsals-tab-rate-card-import.png)
 
-1. Enter the name of an alias on each row.
+1. Introduzca el nombre de un alias en cada fila.
 
-   Only enter one alias name per row: a job role alias, a non-labor resource category alias, or an expense type alias.
+   Introduzca sólo un nombre de alias por fila: un alias de rol, un alias de categoría de recurso no laboral o un alias de tipo de gasto.
 
-### Fill out the RCRMET_RTCRD_RSALS (Rate Card Metadata) tab
+### Rellene la pestaña RCRMET_RTCRD_RSALS (Metadatos de tarjeta de tasa)
 
-On this tab you can define the connections between resources and aliases for a specific rate card.
+En esta pestaña puede definir las conexiones entre los recursos y los alias de una tarjeta de tarifa específica.
 
-![RCRMET_RTCRD_RSALS tab on rate card import template file](assets/rcrmet-tab-rate-card-import.png)
+![Ficha RCRMET_RTCRD_RSALS en el archivo de plantilla de importación de tarjeta de tarifa](assets/rcrmet-tab-rate-card-import.png)
 
-1. Enter the information on each row:
+1. Introduzca la información de cada fila:
 
-   * **Rate Card** (required): The name or the sequence number of the rate card that the resource and alias belong to. The rate card must be listed on the RTCRD tab.
+   * **Tarjeta de tarifa** (obligatorio): El nombre o el número de secuencia de la tarjeta de tarifa a la que pertenecen el recurso y el alias. La tarjeta de tarifas debe aparecer en la pestaña RTCRD.
 
-     For a sequence number: If the rate card was the first one you listed on the RTCRD tab (row 2), enter 1. Si era el segundo, escriba 2, y así sucesivamente.
+     Para un número de secuencia: si la tarjeta de tasa fue la primera que enumeró en la pestaña RTCRD (fila 2), introduzca 1. Si era el segundo, escriba 2, y así sucesivamente.
 
    * **Rol** (necesario si no se usan el tipo de gasto y la categoría de recursos no laborales): El rol al que está conectado el alias. Puede ser el nombre de la función o el ID de la función. La importación reconocerá ambos.
 
@@ -218,41 +225,41 @@ Seguir estos pasos evitará problemas innecesarios y garantizará una importaci�
 {{step-1-to-setup}}
 
 1. El panel de navegación izquierdo, haga clic en [!UICONTROL **Tarjetas de tarifas**].
-1. Click **New rate card**, then click **Import new rate cards**.
-1. Drag and drop your file into the dialog, or click **Select an Excel file** to browse to the file on your computer.
-1. Click **Start importing**.
+1. Haz clic en **Nueva tarjeta de tarifa** y luego haz clic en **Importar nuevas tarjetas de tarifa**.
+1. Arrastre y suelte el archivo en el cuadro de diálogo o haga clic en **Seleccionar un archivo de Excel** para buscar el archivo en el equipo.
+1. Haga clic en **Comenzar importación**.
 
-   If there are no issues with the file, then a confirmation message appears and the new rate cards appear in the list.
+   Si no hay problemas con el archivo, aparece un mensaje de confirmación y las nuevas tarjetas de tarifa aparecen en la lista.
 
-1. If the file contains issues, an error message appears. Click **See issues** to view the issues on a separate screen.
+1. Si el archivo contiene problemas, aparece un mensaje de error. Haga clic en **Ver problemas** para ver los problemas en una pantalla independiente.
 
-   You must correct the issues in the Excel file and import it again before the rate cards will exist in Workfront.
+   Debe corregir los problemas en el archivo de Excel e importarlo de nuevo antes de que las tarjetas de tarifas existan en Workfront.
 
-## Update existing rate cards
+## Actualizar tarjetas de tarifas existentes
 
-You can update the rates in your existing rate cards using the same Excel template and upload those changes to Workfront.
+Puede actualizar las tarifas en sus tarjetas de tarifas existentes utilizando la misma plantilla de Excel y cargar esos cambios en Workfront.
 
-Only the RATE_RTCRD (Rates Setup) tab is required for updating existing rates.
+Solo se necesita la pestaña RATE_RTCRD (Configuración de tarifas) para actualizar las tarifas existentes.
 
 >[!NOTE]
 >
->Uploading rates for an existing rate card overwrites all of the current job roles and rates on the rate card.
+>Al cargar las tarifas de una tarjeta de tarifas existente, se sobrescriben todas las funciones y tarifas del puesto actual en la tarjeta de tarifas.
 >
->For example, if you have 5 job roles with rates on the existing rate card and the Excel file has 1 job role, then the rate card will have 1 job role after you upload. To keep the other 5 job roles and their rates on the rate card, you must include them in the Excel file.
+>Por ejemplo, si tiene 5 funciones con tarifas en la tarjeta de tarifas existente y el archivo de Excel tiene 1 función de trabajo, la tarjeta de tarifas tendrá 1 función de trabajo después de la carga. Para mantener los otros 5 roles y sus tarifas en la tarjeta de tarifas, debe incluirlos en el archivo de Excel.
 
-To update existing rate cards:
+Para actualizar las tarjetas de tarifas existentes:
 
 {{step-1-to-setup}}
 
 1. El panel de navegación izquierdo, haga clic en [!UICONTROL **Tarjetas de tarifas**].
-1. Click **New rate card**, then click **Import rate card updates**.
-1. Drag and drop your file into the dialog, or click **Select an Excel file** to browse to the file on your computer.
-1. Click **Start importing**.
+1. Haz clic en **Nueva tarjeta de tarifas** y luego haz clic en **Importar actualizaciones de la tarjeta de tarifas**.
+1. Arrastre y suelte el archivo en el cuadro de diálogo o haga clic en **Seleccionar un archivo de Excel** para buscar el archivo en el equipo.
+1. Haga clic en **Comenzar importación**.
 
-   If there are no issues with the file, then a confirmation message appears and the new rate cards appear in the list.
+   Si no hay problemas con el archivo, aparece un mensaje de confirmación y las nuevas tarjetas de tarifa aparecen en la lista.
 
-1. If the file contains issues, an error message appears. Click **See issues** to view the issues on a separate screen.
+1. Si el archivo contiene problemas, aparece un mensaje de error. Haga clic en **Ver problemas** para ver los problemas en una pantalla independiente.
 
-   You must correct the issues in the Excel file and import it again before the rate card updates will exist in Workfront.
+   Debe corregir los problemas en el archivo de Excel e importarlo de nuevo antes de que las actualizaciones de la tarjeta de tarifas existan en Workfront.
 
 

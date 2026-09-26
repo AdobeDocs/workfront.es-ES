@@ -2,23 +2,31 @@
 product-previous: workfront-proof
 product-area: documents
 navigation-topic: manage-your-work-workfront-proof
-title: Administrar elementos en la página [!UICONTROL Views] de  [!DNL Workfront Proof]
+title: Administrar elementos en la página [!UICONTROL Vistas] de [!DNL Workfront Proof]
 description: La página [!UICONTROL Vistas] le permite ver todas las pruebas, archivos y carpetas y trabajar con ellos en un solo lugar.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 56556d16-9aab-4b0e-b08c-ac5f1703e082
-TQID: https://experienceleague.adobe.com/cEwm8LT22jENgN3OFGgqzGoMfrz8JSqIyHQGdYpiV04
+TQID: 'https://experienceleague.adobe.com/cEwm8LT22jENgN3OFGgqzGoMfrz8JSqIyHQGdYpiV04'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+    internal-label: Workfront Proof
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1544
+source-wordcount: '1544'
 ht-degree: 98%
-
 ---
-
 # Administrar elementos en la página [!UICONTROL Vistas] de [!DNL Workfront Proof]
 
 >[!IMPORTANT]
@@ -202,4 +210,4 @@ Si tiene los derechos de edición para hacerlo, puede mover pruebas, archivos y 
 1. Realice una de las siguientes acciones:
 
    * Para mover un elemento, haga clic en él y manténgalo pulsado, arrastrándolo y soltándolo en la carpeta en la que desea colocarlo.
-   * Para mover varios elementos al mismo tiempo, puede seleccionar las casillas de verificación a la izquierda de los elementos, hacer clic en **[!UICONTROL Mover a]**&#x200B;encima de la lista y, a continuación, seleccione la carpeta donde desee colocarlos o crear una nueva carpeta para ellos.
+   * Para mover varios elementos al mismo tiempo, puede seleccionar las casillas de verificación a la izquierda de los elementos, hacer clic en **[!UICONTROL Mover a]**encima de la lista y, a continuación, seleccione la carpeta donde desee colocarlos o crear una nueva carpeta para ellos.

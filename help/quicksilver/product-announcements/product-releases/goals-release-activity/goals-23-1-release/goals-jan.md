@@ -7,18 +7,26 @@ description: Esta página describe todas las mejoras realizadas con la versión 
 author: Courtney
 feature: Product Announcements, Workfront Goals
 exl-id: 30a8d125-f84c-4e1a-8e4c-d76da326c2ef
-TQID: https://experienceleague.adobe.com/-ilB35Fvr1FF937vPOfsw0UHkAVu98-VU39sX5W47iQ
+TQID: 'https://experienceleague.adobe.com/-ilB35Fvr1FF937vPOfsw0UHkAVu98-VU39sX5W47iQ'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
+  - id: fceb5125-bb41-419a-b0db-31958cb42f6c
+    internal-label: Workfront Goals
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 327
-ht-degree: 53%
-
+source-wordcount: '381'
+ht-degree: 62%
 ---
-
 # Actividad de la versión de Adobe Workfront Goals 23.1: semana del viernes, 05 de enero de 2023
 
 Esta página describe todas las mejoras realizadas con la versión 23.1 para Adobe Workfront Goals en el entorno de vista previa a principios de enero.
@@ -33,13 +41,13 @@ Para obtener una lista de todos los cambios disponibles en todas las áreas de W
 
 Para crear una experiencia más coherente con el resto de Workfront, así como para que sea más fácil ver sus metas y trabajar con ellas, hemos actualizado Workfront Goals. La apariencia de Workfront Goals ahora es más similar a otras áreas de Workfront.
 
-Ahora, áreas como el encabezado, las listas y las tarjetas de detalles le resultarán familiares y coherentes con su experiencia en Workfront.
-Los objetivos individuales se abren en su propia página y se han añadido las siguientes secciones en el panel izquierdo para facilitar la navegación y la actualización:
+En la actualidad, áreas como el encabezado, las listas y las tarjetas de detalles le resultarán familiares y coherentes con su experiencia en Workfront.
+Las metas individuales se abren en su propia página y se han añadido las siguientes secciones en el panel izquierdo para facilitar la navegación y la actualización:
 
 * **Detalles de la meta**: Detalles de la meta: vea información como la descripción de la meta, el progreso, las fechas y la información del objetivo principal. Para obtener más información, consulte [Editar metas en Adobe Workfront Goals](/help/quicksilver/workfront-goals/goal-management/edit-goals.md).
 * **Indicadores de progreso**: vea los indicadores de progreso en una lista. Puede editar estos indicadores en línea, abrir ventanas de edición o eliminar los indicadores de esta área. Para obtener más información, consulte [Editar resultados y actividades en Adobe Workfront Goals](/help/quicksilver/workfront-goals/results-and-activities/edit-results-and-activities.md).
-* **Actualizaciones**: hemos introducido una nueva experiencia de comentarios en la sección Actualizaciones de un objetivo que ahora muestra los comentarios del usuario y las notas de la actividad del sistema en dos pestañas independientes. Para obtener más información, consulte [Administrar comentarios sobre las metas en Adobe Workfront Goals](/help/quicksilver/workfront-goals/goal-management/manage-goal-comments.md).
-Compartir, editar, eliminar o copiar un objetivo es similar a la forma en que se realizan estas acciones para otros objetos en Workfront.
+* **Actualizaciones**: hemos introducido una nueva experiencia de comentarios en la sección Actualizaciones de un objetivo que ahora muestra los comentarios del usuario y las notas de la actividad del sistema en dos pestañas independientes. Para obtener más información, consulte [Administrar comentarios sobre metas en Adobe Workfront Goals](/help/quicksilver/workfront-goals/goal-management/manage-goal-comments.md).
+Compartir, editar, eliminar o copiar una meta es similar a la forma en que se realizan estas acciones para otros objetos en Workfront.
 
 >[!IMPORTANT]
 >

@@ -7,13 +7,22 @@ description: Introducción a la integración de Adobe Express y Frame.io
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 recommendations: noDisplay, noCatalog
-source-git-commit: 347eb022f68e00b13b3b517a1aaec9cd15f952c7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a1f87682-0525-5459-aa06-3560bb4c3b2a
+    internal-label: Workfront Integrations and Apps
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
 source-wordcount: '523'
 ht-degree: 8%
-
 ---
-
 
 # Introducción a Adobe Express y Workfront con la integración de Frame.io
 
@@ -80,7 +89,7 @@ Cuando se remezcla una plantilla Express, se requiere una aprobación antes de l
 
 Los usuarios deben tener una licencia de Workfront estándar para solicitar la aprobación de Adobe Express.
 
-Aprenda a [obtener aprobación de diseños](https://helpx.adobe.com/es/express/web/share-and-publish/share-and-collaborate/request-approval.html).
+Aprenda a [obtener aprobación de diseños](https://helpx.adobe.com/express/web/share-and-publish/share-and-collaborate/request-approval.html).
 
 
 ## Combinar plantillas rápidas y enviar para su revisión y aprobación
@@ -100,7 +109,7 @@ Al solicitar la aprobación de una plantilla Express remezclada, los usuarios pu
 
 Si no se selecciona ningún proyecto, el recurso se convertirá de forma predeterminada en un proyecto específico de Express.
 
-Para obtener más información, consulte [Enviar plantillas para su revisión y aprobación](https://helpx.adobe.com/es/express/web/invite-collaborate/request-approval.html).
+Para obtener más información, consulte [Enviar plantillas para su revisión y aprobación](https://helpx.adobe.com/express/web/invite-collaborate/request-approval.html).
 
 
 ## Revisar y aprobar archivos Express remezclados con Frame.io

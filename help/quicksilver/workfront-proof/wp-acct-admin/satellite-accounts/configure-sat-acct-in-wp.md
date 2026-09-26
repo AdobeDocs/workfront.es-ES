@@ -3,26 +3,35 @@ product-previous: workfront-proof
 product-area: documents;system-administration;setup
 navigation-topic: satellite-accounts
 title: Configuración de una cuenta satélite en [!DNL Workfront Proof]
-description: Las cuentas satélite son cuentas de pago que se configuran y administran desde una cuenta propia de  [!DNL Workfront] Proof. Para obtener más información, vea “Cuentas satélite en [!DNL Workfront] Proof.
+description: Las cuentas satélite son cuentas de pago que usted configura y administra desde su propia cuenta de revisión [!DNL Workfront]. Para obtener más información, consulte "Cuentas satélite en la revisión [!DNL Workfront]".
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 82c6dff3-6187-4145-951c-3f5312049b59
-TQID: https://experienceleague.adobe.com/5VqJBVuawpq6A8yRu-2MPwLIN3ZjB2LpCg5dkjVzUEE
+TQID: 'https://experienceleague.adobe.com/5VqJBVuawpq6A8yRu-2MPwLIN3ZjB2LpCg5dkjVzUEE'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+    internal-label: Workfront Proof
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 549
-ht-degree: 100%
-
+source-wordcount: '551'
+ht-degree: 95%
 ---
-
 # Configuración de una cuenta satélite en [!DNL Workfront Proof]
 
 >[!IMPORTANT]

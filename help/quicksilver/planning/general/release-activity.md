@@ -6,30 +6,42 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-TQID: https://experienceleague.adobe.com/WBBBWQN-XQSWhJMNOqhp2v7Ne2TlEQYXng6WiXbvlDg
+TQID: 'https://experienceleague.adobe.com/WBBBWQN-XQSWhJMNOqhp2v7Ne2TlEQYXng6WiXbvlDg'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
 subfeature_v2:
   - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
   - id: e147ce9d-7675-49bd-8a32-44f27d865560
+    internal-label: Get started
+  - id: eb361af2-3e4f-4a79-b5f3-7a344ac5794c
+    internal-label: Workfront Planning
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
   - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Taxonomy
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 7679
+source-wordcount: '7679'
 ht-degree: 10%
-
 ---
-
-# Actividad de la versión de Adobe Workfront Planning para 2024
+# Actividad de la versión de Planificación de Workfront de Adobe para 2024
 
 <!--this article is linked to the WF Planning landing page - do not change URL or move it; send the team a new URL after we add the redirects for this page-->
 
@@ -77,19 +89,19 @@ Hemos implementado nuevas limitaciones para los objetos de Workfront Planning, d
 
 * Workfront Planning le permite tener:
 
-   * Espacios de trabajo ilimitados
+  * Espacios de trabajo ilimitados
 
-   * 25.000 registros por espacio de trabajo
+  * 25.000 registros por espacio de trabajo
 
-   * 500 000 registros totales para su instancia
+  * 500 000 registros totales para su instancia
 
 * Workfront Planning Plus le permite tener:
 
-   * Espacios de trabajo ilimitados
+  * Espacios de trabajo ilimitados
 
-   * 500 000 registros por espacio de trabajo
+  * 500 000 registros por espacio de trabajo
 
-   * 2 millones de registros totales para su instancia.
+  * 2 millones de registros totales para su instancia.
 
 Para obtener más información, consulte [Resumen de la limitación de objetos de Adobe Workfront Planning](/help/quicksilver/planning/general/limitations-overview.md).
 
@@ -149,10 +161,10 @@ En esta actualización se incluyen las siguientes capacidades:
 
 * Según la configuración, el formulario de solicitud puede mostrar todos los campos del tipo de registro, excepto los campos de los siguientes tipos:
 
-   * Personas
-   * Campos conectados (incluye conexiones con recursos de Experience Manager)
-   * Campos de búsqueda conectados
-   * Fórmula
+  * Personas
+  * Campos conectados (incluye conexiones con recursos de Experience Manager)
+  * Campos de búsqueda conectados
+  * Fórmula
 
 Para obtener más información, consulte [Crear y administrar un formulario de solicitud en Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
 
@@ -165,7 +177,7 @@ Con el lanzamiento de la API pública de Workfront Planning, ahora puede hacer r
 Para obtener más información, consulte los siguientes artículos:
 
 * [Ejemplos del campo de búsqueda externa en un formulario personalizado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/external-lookup-examples.md)
-* [Conceptos básicos de la API de Adobe Workfront Planning](/help/quicksilver/planning/general/planning-api-basics.md)
+* [Conceptos básicos de la API de Planificación de Workfront de Adobe](/help/quicksilver/planning/general/planning-api-basics.md)
 
 ### Menú Nueva configuración en la vista Calendario
 
@@ -179,13 +191,13 @@ Hay una nueva opción de configuración con la que puede personalizar el aspecto
 
 * Cambie el color de las barras de registros o sus agrupaciones para que coincida con una de las siguientes opciones:
 
-   * El color del tipo de registro
+  * El color del tipo de registro
 
-   * El color del campo que seleccione
+  * El color del campo que seleccione
 
-   * El color de la agrupación
+  * El color de la agrupación
 
-   * Sin color (predeterminado)
+  * Sin color (predeterminado)
 
 Al hacer coincidir colores con un campo determinado, solo puede seleccionar campos con opciones codificadas por colores.
 
@@ -281,7 +293,7 @@ Por ejemplo, si conecta campañas de Workfront Planning con proyectos de Workfro
 
 En este momento, puede crear lo siguiente al conectar registros:
 
-* Registros de Workfront Planning
+* Registros de Planificación de Workfront
 * Proyectos Workfront sin plantilla
 * Portafolios Workfront
 
@@ -494,9 +506,9 @@ Esta actualización incluye las siguientes mejoras:
 
 * Se ha eliminado la plantilla de administración de marketing. Se han añadido las siguientes plantillas para la administración de marketing y se recomienda utilizar la adecuada en función de la complejidad de los flujos de trabajo:
 
-   * Básico: administración de marketing
-   * Administración avanzada de marketing
-   * Empresa: administración de marketing
+  * Básico: administración de marketing
+  * Administración avanzada de marketing
+  * Empresa: administración de marketing
 
 Para obtener más información, consulte los siguientes artículos:
 
@@ -622,9 +634,9 @@ Parte de la información de la página de aterrizaje incluye lo siguiente:
 
 * Si es administrador de Workfront, se muestran las siguientes pestañas:
 
-   * Mis espacios de trabajo: Muestra únicamente los espacios de trabajo que ha creado.
+  * Mis espacios de trabajo: Muestra únicamente los espacios de trabajo que ha creado.
 
-   * Otros espacios de trabajo: muestra los espacios de trabajo que ha creado o que se han compartido con usted.
+  * Otros espacios de trabajo: muestra los espacios de trabajo que ha creado o que se han compartido con usted.
 
 * Vínculos a la documentación y actividad de la versión para Workfront Planning
 
@@ -815,7 +827,7 @@ Producción: jueves, 08 de mayo de 2024
 
 Vista previa: pendiente de determinación
 
-Si es cliente de Adobe Unified Experience y alguien le agrega a un comentario en la página de registro, recibirá una notificación sobre el comentario en la aplicación y por correo electrónico. Puede administrar sus preferencias de notificación en el área Preferencias del perfil de Adobe Experience Cloud. Para obtener más información, consulte [Preferencias y notificaciones de la cuenta](https://experienceleague.adobe.com/es/docs/core-services/interface/features/account-preferences).
+Si es cliente de Adobe Unified Experience y alguien le agrega a un comentario en la página de registro, recibirá una notificación sobre el comentario en la aplicación y por correo electrónico. Puede administrar sus preferencias de notificación en el área Preferencias del perfil de Adobe Experience Cloud. Para obtener más información, consulte [Preferencias y notificaciones de la cuenta](https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences).
 
 Para obtener más información acerca de las notificaciones de planificación de Workfront, vea [Notificaciones de planificación de Adobe Workfront: Índice de artículos](/help/quicksilver/planning/notifications/notifications-information.md).
 

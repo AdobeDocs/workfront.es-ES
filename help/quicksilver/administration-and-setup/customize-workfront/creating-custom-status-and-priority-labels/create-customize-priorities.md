@@ -5,23 +5,28 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 6e7952cf-f07a-412b-9f9a-623cdba46849
-TQID: https://experienceleague.adobe.com/hnZPQ8LCzcfU9SyyK3-qoWlkYoXyk5Bxcx0-yprX1pw
+TQID: 'https://experienceleague.adobe.com/hnZPQ8LCzcfU9SyyK3-qoWlkYoXyk5Bxcx0-yprX1pw'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 725
+source-wordcount: '725'
 ht-degree: 47%
-
 ---
-
 # Crear y personalizar prioridades
 
 <!--
@@ -129,10 +134,10 @@ Además de las prioridades predeterminadas proporcionadas en Workfront, puede a�
 
      La prioridad predeterminada se indica con un icono ![Icono de prioridad predeterminado](assets/default-icon.png). Para elegir un nuevo valor predeterminado, siga uno de estos procedimientos:
 
-      * Seleccione la casilla de verificación situada junto al nombre de la prioridad y seleccione **Establecer como predeterminado** en la barra de acciones de la parte inferior de la pantalla.
-      * Pase el ratón sobre el nombre de prioridad y haga clic en el menú **Más** que aparece. A continuación, seleccione **Establecer como predeterminado**.
+     * Seleccione la casilla de verificación situada junto al nombre de la prioridad y seleccione **Establecer como predeterminado** en la barra de acciones de la parte inferior de la pantalla.
+     * Pase el ratón sobre el nombre de prioridad y haga clic en el menú **Más** que aparece. A continuación, seleccione **Establecer como predeterminado**.
 
-        La nueva prioridad predeterminada se etiqueta con el icono.
+       La nueva prioridad predeterminada se etiqueta con el icono.
 
    * **Descripción**: escriba una descripción para la prioridad para explicar su función.
    * **Ocultar opción**: selecciona **Sí** para ocultar una prioridad que ya no es necesaria.

@@ -1,24 +1,31 @@
 ---
 title: Información general sobre espacios de trabajo
-description: Un espacio de trabajo es un conjunto de tipos de registros que utiliza un equipo y que representa el ciclo de vida del trabajo del equipo. Puede personalizar por completo los espacios de trabajo en Adobe Workfront Planning para que coincidan con los flujos de trabajo de las unidades organizativas.
+description: Un espacio de trabajo es un conjunto de tipos de registros que utiliza un equipo y que representa el ciclo de vida del trabajo del equipo. Puede personalizar por completo los espacios de trabajo en Planificación de Workfront de Adobe para que coincidan con los flujos de trabajo de las unidades organizativas.
 feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: b80d5ccf-4d22-49f2-89b6-bb9678a353c2
-TQID: https://experienceleague.adobe.com/Hh1Gh4ex1dLrPhsmqiLv3x5NAU0yKzIwcsV4hEogXTo
+TQID: 'https://experienceleague.adobe.com/Hh1Gh4ex1dLrPhsmqiLv3x5NAU0yKzIwcsV4hEogXTo'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+subfeature_v2:
+  - id: eb361af2-3e4f-4a79-b5f3-7a344ac5794c
+    internal-label: Workfront Planning
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
+    internal-label: Admin
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 566
+source-wordcount: '566'
 ht-degree: 55%
-
 ---
-
 # Información general sobre espacios de trabajo
 
 <!--
@@ -29,7 +36,7 @@ ht-degree: 55%
 
 {{planning-important-intro}}
 
-Un espacio de trabajo es un conjunto de tipos de registros que utiliza una unidad organizativa y representa el ciclo de vida y los procesos de trabajo de la unidad. Puede personalizar por completo los espacios de trabajo en Adobe Workfront Planning.
+Un espacio de trabajo es un conjunto de tipos de registros que utiliza una unidad organizativa y representa el ciclo de vida y los procesos de trabajo de la unidad. Puede personalizar por completo los espacios de trabajo en Planificación de Workfront de Adobe.
 
 <!--update screenshot with production, it was broken at Preview-->
 
@@ -38,13 +45,13 @@ Un espacio de trabajo es un conjunto de tipos de registros que utiliza una unida
 ## Consideraciones sobre espacios de trabajo
 
 * Puede crear espacios de trabajo para unidades organizativas específicas dentro de su organización, de modo que coincidan con el modo único en que funciona cada unidad.
-* Workfront Planning no incluye espacios de trabajo preconfigurados. Debe crearlos de acuerdo con las necesidades de su organización.
+* Planificación de Workfront no incluye espacios de trabajo preconfigurados. Debe crearlos de acuerdo con las necesidades de su organización.
 * Puede crear espacios de trabajo de las siguientes maneras:
 
-   * Desde cero
-   * Mediante una plantilla. Las plantillas contienen un número preconfigurado de tipos de registro y sus campos.
-   * Uso de Planning Designer con tecnología de IA. Esta función se encuentra actualmente en Beta.
-   * Uso de un paquete de plantillas de varios espacios de trabajo.
+  * Desde cero
+  * Mediante una plantilla. Las plantillas contienen un número preconfigurado de tipos de registro y sus campos.
+  * Uso de Planning Designer con tecnología de IA. Esta función se encuentra actualmente en Beta.
+  * Uso de un paquete de plantillas de varios espacios de trabajo.
 
   Para obtener más información, consulte [Creación de espacios de trabajo](/help/quicksilver/planning/architecture/create-workspaces.md).
 
@@ -53,9 +60,9 @@ Un espacio de trabajo es un conjunto de tipos de registros que utiliza una unida
   Para obtener más información, vea [Información general sobre los tipos de registro](/help/quicksilver/planning/architecture/overview-of-record-types.md).
 * Los espacios de trabajo se muestran en las siguientes pestañas del área de Planning:
 
-   * **Espacios de trabajo en los que trabajo**: muestra los espacios de trabajo que ha creado o los que se han compartido con usted.
-   * **Otros espacios de trabajo**: muestra todos los demás espacios de trabajo del sistema. Solo está disponible para administradores de sistemas.
-   * **Espacios de trabajo de ejemplo**: muestra ejemplos integrados de espacios de trabajo de prácticas recomendadas. No puede editar los espacios de trabajo, tipos de registro ni agregar registros o campos, pero puede agregar, editar y compartir vistas con otros usuarios.
+  * **Espacios de trabajo en los que trabajo**: muestra los espacios de trabajo que ha creado o los que se han compartido con usted.
+  * **Otros espacios de trabajo**: muestra todos los demás espacios de trabajo del sistema. Solo está disponible para administradores de sistemas.
+  * **Espacios de trabajo de ejemplo**: muestra ejemplos integrados de espacios de trabajo de prácticas recomendadas. No puede editar los espacios de trabajo, tipos de registro ni agregar registros o campos, pero puede agregar, editar y compartir vistas con otros usuarios.
 
   >[!NOTE]
   >
@@ -91,7 +98,7 @@ No longer the case - they match now:
 
 <!--make this live with the GA: * There is no limit for how many workspaces you can create in your environment. However, we recommend not to have too many workspaces, as they could become hard to manage and your workflows might be too fragmented.-->
 
-* Existen límites en cuanto a la cantidad de objetos de espacio de trabajo que se pueden crear en la instancia de Workfront Planning. Para obtener más información, consulte [Información general sobre limitaciones de objetos de Adobe Workfront Planning](/help/quicksilver/planning/general/limitations-overview.md).
+* Existen límites en cuanto a la cantidad de objetos de espacio de trabajo que se pueden crear en la instancia de Planificación de Workfront. Para obtener más información, consulte [Información general sobre limitaciones de objetos de Planificación de Workfront de Adobe](/help/quicksilver/planning/general/limitations-overview.md).
 
 ## Información general sobre la búsqueda global
 
@@ -107,8 +114,8 @@ Tenga en cuenta lo siguiente sobre el uso de la búsqueda global:
 
 * Puede acceder a la búsqueda desde la página de aterrizaje de Planning o desde cualquier página de Planning pulsando la siguiente combinación de teclas:
 
-   * CTRL+K para Windows
-   * ⌘+K para Mac
+  * CTRL+K para Windows
+  * ⌘+K para Mac
 * Los últimos 7 resultados de cada objeto se muestran en el cuadro de búsqueda.
 * Puede realizar una búsqueda general o seleccionar un objeto y buscar en listas individuales.
 

@@ -5,32 +5,38 @@ product-area: system-administration;timesheets
 keywords: usuario, horario
 navigation-topic: configure-timesheets-and-schedules
 title: Información general sobre los horarios
-description: Puede definir la semana laboral mediante el uso de horarios. Puede asociar un horario a un usuario o proyecto. Esto permite a [!DNL Adobe Workfront]  calcular las cronologías y la disponibilidad del usuario. Para obtener instrucciones, consulte Crear un horario.
+description: Puede definir la semana laboral mediante el uso de horarios. Puede asociar un horario a un usuario o proyecto. Esto permitirá que [!DNL Adobe Workfront] calcule las escalas de tiempo y la disponibilidad de los usuarios. Para obtener instrucciones, consulte Crear un horario.
 author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 02350860-f997-4a76-8aec-c6c813d58e2d
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/RSCrGr2jt6lfVf03ixndpc-GUTxb-XNdiMZMZk0II4g
+TQID: 'https://experienceleague.adobe.com/RSCrGr2jt6lfVf03ixndpc-GUTxb-XNdiMZMZk0II4g'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
 subfeature_v2:
   - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+    internal-label: Timesheets
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 763
+source-wordcount: '763'
 ht-degree: 95%
-
 ---
-
 # Información general sobre los horarios
 
 <!-- Audited: 1/2024 -->
@@ -84,17 +90,17 @@ El orden en el que el sistema utiliza los horarios cuando existe más de uno es 
 
 * Cuando se asigna un usuario a una tarea, [!DNL Workfront] usa cualquiera de las siguientes programaciones, tal como se definen en el área de [!UICONTROL Preferencias del proyecto] de [!UICONTROL Configuración]:
 
-   * La programación del usuario asignado a la tarea
-   * Horario asociado al proyecto.
+  * La programación del usuario asignado a la tarea
+  * Horario asociado al proyecto.
 
-     Para obtener más información sobre los días libres personales, consulte [Configurar los días libres personales](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md).
+    Para obtener más información sobre los días libres personales, consulte [Configurar los días libres personales](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md).
 
 * Cuando se asignan varios usuarios a una tarea y los usuarios tienen horarios diferentes durante el lapso de tiempo de la tarea, [!DNL Workfront] usa uno de los siguientes horarios, tal como se define en el área [!UICONTROL Project Preferences] de [!UICONTROL Setup]:
 
-   * Horario del usuario designado como usuario asignado principal
-   * Horario asociado al proyecto.
+  * Horario del usuario designado como usuario asignado principal
+  * Horario asociado al proyecto.
 
-     Para obtener más información acerca de las preferencias de proyecto, consulte [Configurar las preferencias de proyecto de todo el sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+    Para obtener más información acerca de las preferencias de proyecto, consulte [Configurar las preferencias de proyecto de todo el sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
 * Si el usuario asignado a la tarea no tiene horario, o si la tarea se ha asignado solo a una función o un equipo, o no se ha asignado, [!DNL Workfront] usa el horario del proyecto para los cálculos de cronología.
 * Si el usuario asignado a la tarea no tiene horario, o si la tarea se ha asignado solo a un equipo o no se ha asignado, y el proyecto no tiene horario, [!DNL Workfront] usa el horario del sistema designado como horario predeterminado para los cálculos de cronología.

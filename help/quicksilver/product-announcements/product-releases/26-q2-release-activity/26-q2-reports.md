@@ -5,15 +5,22 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4bc2fee9-fa86-41c7-80e7-44bf3e8077d8
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 7686cd33a5c761dc57cb488ea49a4139665949d9
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: '872'
-ht-degree: 11%
-
+source-wordcount: '929'
+ht-degree: 5%
 ---
-
 # Mejoras en los informes del segundo trimestre de 2026
 
 Esta página describe las mejoras de los informes realizadas con la versión del segundo trimestre de 2026 en el entorno de vista previa. Estas mejoras estarán disponibles en el entorno de producción, como se ha indicado.
@@ -25,8 +32,8 @@ Para obtener una lista de todos los cambios disponibles en este punto del ciclo 
 >[!NOTE]
 >
 >Vista previa: 2 de abril de 2026
->Versión rápida de producción: jueves, 15 de abril de 2026
->Producción para todos: viernes, 16 de abril de 2026
+>Versión rápida de producción: 15 de abril de 2026
+>Producción para todos: 16 de abril de 2026
 
 Se ha agregado un campo booleano `currentVersion` al objeto Versión del documento para facilitar la identificación y generación de informes de la última versión de un documento.
 Con esta actualización:
@@ -36,8 +43,8 @@ Con esta actualización:
 
 * Cuando se carga una nueva versión:
 
-   * La nueva versión está marcada como `TRUE`
-   * Las versiones anteriores están marcadas como `FALSE`
+  * La nueva versión está marcada como `TRUE`
+  * Las versiones anteriores están marcadas como `FALSE`
 
 * Los informes pueden identificar de forma consistente las versiones actuales en los paneles de lienzo y los informes heredados
 
@@ -48,8 +55,8 @@ Los filtros existentes para los informes clásicos que usan `isCurrentVersion` o
 >[!NOTE]
 >
 >Vista previa: 3 de abril de 2026
->Versión rápida de producción: jueves, 15 de abril de 2026
->Producción para todos: viernes, 16 de abril de 2026
+>Versión rápida de producción: 15 de abril de 2026
+>Producción para todos: 16 de abril de 2026
 
 Workfront ahora incluye un nuevo tipo de envío de vínculo para los informes programados. En lugar de generar y adjuntar un archivo, esta opción envía un mensaje de correo electrónico con un vínculo directo al informe en Workfront, lo que permite a los destinatarios ver `{{$include }}` los datos más actuales en la aplicación.
 
@@ -64,8 +71,8 @@ Para obtener más información, consulte [Programar una entrega automática de i
 >[!NOTE]
 >
 >Vista previa: 2 de abril de 2026
->Versión rápida de producción: jueves, 15 de abril de 2026
->Producción para todos: viernes, 16 de abril de 2026
+>Versión rápida de producción: 15 de abril de 2026
+>Producción para todos: 16 de abril de 2026
 >
 >Paneles de lienzo se encuentra en la versión beta.
 
@@ -80,8 +87,8 @@ Para obtener más información, consulte [Crear un informe KPI en un panel de li
 >[!NOTE]
 >
 >Vista previa: 12 de marzo de 2026
->Versión rápida de producción: viernes, 12 de marzo de 2026
->Producción para todos: viernes, 16 de abril de 2026
+>Versión rápida de producción: 12 de marzo de 2026
+>Producción para todos: 16 de abril de 2026
 
 Ahora puede autenticarse en Data Connect usando claves RSA o conexiones de Tokens de acceso programático (PAT), lo que agrega alternativas más seguras y flexibles a las credenciales tradicionales de nombre de usuario y contraseña.
 
@@ -96,8 +103,8 @@ Estas nuevas opciones permiten a las organizaciones mantener conexiones estables
 >[!NOTE]
 >
 >Vista previa: 26 de febrero de 2026
->Versión rápida de producción: viernes, 12 de marzo de 2026
->Producción para todos: viernes, 16 de abril de 2026
+>Versión rápida de producción: 12 de marzo de 2026
+>Producción para todos: 16 de abril de 2026
 
 La etiqueta de campo personalizado ahora se muestra antes del nombre del campo y el objeto en las herramientas de creación de informes, lo que le ayuda a localizar los campos con mayor facilidad. Las etiquetas de campo también se muestran al definir filtros, vistas y agrupaciones en listas.
 
@@ -110,15 +117,15 @@ Para obtener más información, consulte [Crear un informe personalizado](/help/
 >[!NOTE]
 >
 >Vista previa: 26 de febrero de 2026
->Versión rápida de producción: viernes, 12 de marzo de 2026
->Producción para todos: viernes, 16 de abril de 2026
+>Versión rápida de producción: 12 de marzo de 2026
+>Producción para todos: 16 de abril de 2026
 
 Ahora puede organizar y compartir informes utilizando carpetas de informes que se pueden compartir. Esta nueva función ayuda a los equipos que administran grandes volúmenes de informes a mantener un control de acceso escalable y coherente:
 
 * **Crear estructuras de carpetas organizadas**: los administradores del sistema pueden crear carpetas de nivel superior y los usuarios con acceso de administración pueden crear subcarpetas de hasta 4 niveles de profundidad.
 * **Controles granulares de permisos**: Comparta carpetas con dos niveles de permisos:
-   * Ver: Los usuarios pueden abrir informes y compartir carpetas
-   * Administrar: los usuarios pueden editar los detalles de la carpeta, agregar o quitar elementos y recibir automáticamente acceso de administración a todos los informes de la carpeta
+  * Ver: Los usuarios pueden abrir informes y compartir carpetas
+  * Administrar: los usuarios pueden editar los detalles de la carpeta, agregar o quitar elementos y recibir automáticamente acceso de administración a todos los informes de la carpeta
 * **Permisos heredados**: los permisos se aplican en cascada desde las carpetas principales a todas las subcarpetas e informes del árbol de carpetas
 * **Experiencia de lista mejorada**: Cuando habilite carpetas compartibles, tendrá acceso a la experiencia de lista mejorada. Para obtener más información, consulte [Usar listas mejoradas](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
 
@@ -130,8 +137,8 @@ Para obtener más información, consulte [Usar carpetas de informes que se puede
 >[!NOTE]
 >
 >Vista previa: 26 de febrero de 2026
->Versión rápida de producción: viernes, 12 de marzo de 2026
->Producción para todos: viernes, 16 de abril de 2026
+>Versión rápida de producción: 12 de marzo de 2026
+>Producción para todos: 16 de abril de 2026
 
 >[!NOTE]
 >
@@ -139,6 +146,6 @@ Para obtener más información, consulte [Usar carpetas de informes que se puede
 
 Los gráficos que agrupan datos por fecha ahora muestran etiquetas de fecha más claras y legibles. Con esta actualización, las etiquetas de fecha se ajustan dinámicamente en función de la opción Agrupar por seleccionada, como día, semana, mes o año, lo que facilita la lectura e interpretación rápida de los gráficos:
 
-<table> <tbody> <tr> <td>Day</td> <td>Muestra la fecha completa. Ejemplo: 12/3/2026</td> </tr> <tr> <td>Semana</td> <td>Muestra una fecha de inicio de semana con formato. Por ejemplo, 8 de marzo de 2026</td> </tr> <tr> <td>Mes</td> <td>Muestra el mes y el año. Ejemplo de marzo de 2026</td> </tr> <tr> <td>Año</td> <td>Muestra solo el año. Ejemplo: 2026</td> </tr> </tbody> </table>
+<table> <tbody> <tr> <td>Día</td> <td>Muestra la fecha completa. Ejemplo: 12/3/2026</td> </tr> <tr> <td>Semana</td> <td>Muestra una fecha de inicio de semana con formato. Por ejemplo, 8 de marzo de 2026</td> </tr> <tr> <td>Mes</td> <td>Muestra el mes y el año. Ejemplo de marzo de 2026</td> </tr> <tr> <td>Year</td> <td>Muestra solo el año. Ejemplo: 2026</td> </tr> </tbody> </table>
 
 Anteriormente, las agrupaciones de gráficos siempre mostraban la fecha de inicio del período seleccionado en formato numérico.

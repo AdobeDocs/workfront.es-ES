@@ -9,18 +9,24 @@ feature: Workfront Goals
 exl-id: dc70dfac-2bdd-41ab-b316-0cd20f749423
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/tJoRYFhaVMF85CiVYna7eA8OLP34TONpZlesSWZeEBM
+TQID: 'https://experienceleague.adobe.com/tJoRYFhaVMF85CiVYna7eA8OLP34TONpZlesSWZeEBM'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: fceb5125-bb41-419a-b0db-31958cb42f6c
+    internal-label: Workfront Goals
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 794
+source-wordcount: '794'
 ht-degree: 95%
-
 ---
-
 # Información general sobre el estado de las metas en Adobe Workfront Goals
 
 <!--Audited: 4/2025-->
@@ -69,10 +75,10 @@ Old:
 * Al abrir una meta cerrada también se actualiza su progreso.
 * Ciertas acciones que realiza en una meta también actualizan su estado. Para obtener información sobre cómo actualizar los estados de objetivos, consulte los siguientes artículos:
 
-   * [Crear metas en Adobe Workfront Goals](../../workfront-goals/goal-management/create-goals.md)
-   * [Activar metas en Adobe Workfront Goals](../../workfront-goals/goal-management/activate-goals.md)
-   * [Eliminar y desactivar metas en Adobe Workfront Goals](../../workfront-goals/goal-management/delete-and-deactivate-goals.md)
-   * [Cerrar y volver a abrir metas en Adobe Workfront Goals](../../workfront-goals/goal-management/close-and-reopen-goals.md)
+  * [Crear metas en Adobe Workfront Goals](../../workfront-goals/goal-management/create-goals.md)
+  * [Activar metas en Adobe Workfront Goals](../../workfront-goals/goal-management/activate-goals.md)
+  * [Eliminar y desactivar metas en Adobe Workfront Goals](../../workfront-goals/goal-management/delete-and-deactivate-goals.md)
+  * [Cerrar y volver a abrir metas en Adobe Workfront Goals](../../workfront-goals/goal-management/close-and-reopen-goals.md)
 
 ## Información general sobre los estados de objetivos en Workfront Goals
 
@@ -96,8 +102,8 @@ Las metas pueden tener uno de los siguientes estados en Workfront Goals:
 * Las metas redactadas no contribuyen al cálculo del progreso de otras metas y no se tienen en cuenta en los gráficos.
 * Las metas en borrador se muestran en las siguientes áreas de Workfront Goals:
 
-   * Lista de metas
-   * Sección de alineación de metas (solo como un objetivo alineado)
+  * Lista de metas
+  * Sección de alineación de metas (solo como un objetivo alineado)
 
 
 >[!IMPORTANT]
@@ -111,9 +117,9 @@ Las metas pueden tener uno de los siguientes estados en Workfront Goals:
 * Las metas activas contribuyen al cálculo del progreso de otras metas y se tienen en cuenta en los gráficos.
 * Las metas activas se muestran en las siguientes áreas de Workfront Goals:
 
-   * Lista de metas
-   * Sección Alineación de metas
-   * El progreso de las metas activas se muestra en gráficos
+  * Lista de metas
+  * Sección Alineación de metas
+  * El progreso de las metas activas se muestra en gráficos
 
 * Puede volver a activar una meta cerrada o inactiva.
 
@@ -131,8 +137,8 @@ Las metas pueden tener uno de los siguientes estados en Workfront Goals:
 * Las metas inactivas tienen un historial de progreso porque en el pasado estaban activas, a diferencia de las metas esbozadas.
 * Las metas inactivas se muestran en las siguientes áreas de Workfront Goals:
 
-   * Lista de metas
-   * Sección Alineación de metas (solo como metas alineadas)
+  * Lista de metas
+  * Sección Alineación de metas (solo como metas alineadas)
 
 ### Cerrado {#closed}
 
@@ -148,6 +154,6 @@ Las metas pueden tener uno de los siguientes estados en Workfront Goals:
 * No se puede actualizar el progreso de una meta cerrada.
 * Las metas cerradas se muestran en la siguiente área de Workfront Goals:
 
-   * Lista de metas
-   * Sección Alineación de metas (solo como metas alineadas)
-   * La información de las metas cerradas también se tiene en cuenta en la sección Gráficos.
+  * Lista de metas
+  * Sección Alineación de metas (solo como metas alineadas)
+  * La información de las metas cerradas también se tiene en cuenta en la sección Gráficos.

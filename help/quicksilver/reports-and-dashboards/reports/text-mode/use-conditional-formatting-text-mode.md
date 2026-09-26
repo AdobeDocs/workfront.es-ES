@@ -8,23 +8,28 @@ feature: Reports and Dashboards
 exl-id: 48fc8450-35c6-4d59-89d3-0feffe662b25
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/9YTbzW6MnqD4EpNYObP4HEtbZw2r7eBwNdheE0qxsEo
+TQID: 'https://experienceleague.adobe.com/9YTbzW6MnqD4EpNYObP4HEtbZw2r7eBwNdheE0qxsEo'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c6dd2ac5-f5bd-4e59-9101-25b156918623
+    internal-label: Reports and dashboards
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1738
-ht-degree: 7%
-
+source-wordcount: '1834'
+ht-degree: 11%
 ---
-
 # Usar formato condicional en el modo de texto
 
 <!--Audited: 01/2025-->
@@ -408,9 +413,9 @@ Tenga en cuenta lo siguiente al agregar agregadores a una columna en modo de tex
 
 * Los valores de la columna deben tener un formato que se pueda resumir. Por ejemplo, deben tener uno de los siguientes formatos:
 
-   * Número
-   * Fecha
-   * Divisa
+  * Número
+  * Fecha
+  * Divisa
 
 * Puede agregar un agregador a una columna que muestre un cálculo. El valor agregado se muestra en la agrupación de la vista o el informe. Para obtener más información, vea [Agrupación: mostrar el resultado de agregar varios valores calculados en una agrupación](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-calculation-between-two-fields-aggregated-in-grouping.md).
 * Las líneas de código para la definición de la columna deben ser idénticas a las líneas de código que introducen el agregador y van precedidas de &quot;agregador&quot;. Por ejemplo, si tiene una columna en la que muestra las horas planificadas de un proyecto, el modo de texto de las líneas principales de la columna es el siguiente:

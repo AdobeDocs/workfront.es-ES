@@ -4,13 +4,20 @@ description: Mejoras del proyecto del tercer trimestre de 2026
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: f45c946e48b253018648c414915d53eca5a4de80
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
 source-wordcount: '314'
 ht-degree: 5%
-
 ---
-
 # Mejoras del proyecto del tercer trimestre de 2026
 
 Esta página describe las mejoras del proyecto realizadas con la versión del tercer trimestre de 2026 en el entorno de vista previa. Estas mejoras estarán disponibles en el entorno de producción, como se ha indicado.
@@ -23,9 +30,13 @@ Para obtener una lista de todos los cambios disponibles en este punto del ciclo 
 
 >[!NOTE]
 >
->Vista previa: 11 de junio de 2026Producción para la versión rápida: 11 de junio de 2026Producción para la versión trimestral: 11 de junio de 2026Fuera del horario&rbrack;{type=Neutral}
+>Vista previa: 11 de junio de 2026
+>Producción para la versión rápida: 11 de junio de 2026
+>Producción para la versión trimestral: 11 de junio de 2026
+>[!BADGE Fuera del horario]{type=Neutral}
 
-Si su organización utiliza el almacenamiento heredado de Workfront y el almacenamiento en la nube de Adobe, ahora puede convertir una tarea de almacenamiento heredado en un proyecto de almacenamiento en la nube de Adobe.Al hacerlo, los documentos y las aprobaciones de documentos permanecen en el objeto principal en lugar de transferirse al proyecto recién creado.
+Si su organización utiliza el almacenamiento heredado de Workfront y el almacenamiento en la nube de Adobe, ahora puede convertir una tarea de almacenamiento heredado en un proyecto de almacenamiento en la nube de Adobe.
+Al hacerlo, los documentos y las aprobaciones de documentos permanecen en el objeto principal en lugar de transferirse al proyecto recién creado.
 
 Anteriormente, las tareas solo se podían convertir en proyectos con el mismo tipo de almacenamiento.
 
@@ -39,7 +50,8 @@ Para obtener más información, vea [Convertir una tarea en un proyecto](/help/q
 
 >[!NOTE]
 >
->Vista previa: 11 de junio de 2026Producción para todos: 11 de junio de 2026
+>Vista previa: 11 de junio de 2026
+>Producción para todos: 11 de junio de 2026
 
 Si su organización utiliza el almacenamiento heredado de Workfront y el almacenamiento en la nube de Adobe, ahora puede utilizar una plantilla de almacenamiento heredado para crear un proyecto de almacenamiento en la nube de Adobe en los siguientes casos:
 

@@ -8,28 +8,39 @@ feature: Work Management, Digital Content and Documents
 exl-id: 01b76dd5-98cb-4f0d-97ff-7e665f843a9c
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/NaHz1Kof1NTCYBST3qhAy-K8BQZKvqOoI1VCEyA2yXM
+TQID: 'https://experienceleague.adobe.com/NaHz1Kof1NTCYBST3qhAy-K8BQZKvqOoI1VCEyA2yXM'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
   - id: c10f2e93-7a58-4212-aa24-684c265ebe76
+    internal-label: Requests
   - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+    internal-label: Timesheets
   - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+    internal-label: Projects
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1199
-ht-degree: 76%
-
+source-wordcount: '1203'
+ht-degree: 75%
 ---
-
 # Delegar solicitud de aprobación
 
 Puede delegar temporalmente el trabajo al que esté asignado mientras esté fuera de la oficina. Puede delegar asignaciones de tareas y problemas, o delegar solicitudes de aprobación. Este artículo describe cómo delegar solicitudes de aprobación. Para obtener información sobre la delegación de asignaciones de tareas y problemas, consulte [Delegar tareas y problemas](../../manage-work/delegate-work/how-to-delegate-work.md).
@@ -138,8 +149,8 @@ Para delegar aprobaciones a otro usuario:
    * **Fecha de inicio**: seleccione la fecha para que las aprobaciones comiencen a reenviarse. El reenvío comienza a las 12:00 a.m. en la fecha que seleccione.\
      La Fecha de inicio debe ser la fecha actual o una fecha futura.
    * **Fecha de finalización**: realice una de las siguientes acciones:
-      * Seleccione la fecha para que las aprobaciones dejen de reenviarse. El reenvío finaliza a las 11:59 p.m. en la fecha que usted seleccione.
-      * Seleccione **Sin fecha de finalización** para configurar Workfront para delegar aprobaciones indefinidamente.
+     * Seleccione la fecha para que las aprobaciones dejen de reenviarse. El reenvío finaliza a las 23:59 en la fecha que seleccione.
+     * Seleccione **Sin fecha de finalización** para configurar Workfront para delegar aprobaciones indefinidamente.
 
 1. Haga clic en **Guardar**.
 
@@ -158,8 +169,8 @@ Para delegar aprobaciones a otro usuario:
    * **Fecha de inicio**: seleccione la fecha para que las aprobaciones comiencen a reenviarse. El reenvío comienza a las 12:00 a.m. en la fecha que seleccione.\
      La Fecha de inicio debe ser la fecha actual o una fecha futura.
    * **Fecha de finalización**: realice una de las siguientes acciones:
-      * Seleccione la fecha para que las aprobaciones dejen de reenviarse. El reenvío finaliza a las 11:59 p.m. en la fecha que usted seleccione.
-      * Seleccione **Sin fecha de finalización** para configurar Workfront para delegar aprobaciones indefinidamente.
+     * Seleccione la fecha para que las aprobaciones dejen de reenviarse. El reenvío finaliza a las 23:59 en la fecha que seleccione.
+     * Seleccione **Sin fecha de finalización** para configurar Workfront para delegar aprobaciones indefinidamente.
 
 ## Actualización o detención de una delegación de aprobación {#update-or-stop-an-approval-delegation}
 

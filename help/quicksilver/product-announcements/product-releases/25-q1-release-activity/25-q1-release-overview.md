@@ -7,28 +7,37 @@ recommendations: noDisplay, noCatalog
 exl-id: 5bb898fa-d74e-4174-bc93-d8ffb8937680
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/TIFvtoOoxZYBnFZohXPvr44XvrdduZBKmfhpe0JO3Yw
+TQID: 'https://experienceleague.adobe.com/TIFvtoOoxZYBnFZohXPvr44XvrdduZBKmfhpe0JO3Yw'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
   - id: d3382524-5489-431b-bde9-271ab257bc37
+    internal-label: Workfront Scenario Planner
   - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
   - id: fceb5125-bb41-419a-b0db-31958cb42f6c
+    internal-label: Workfront Goals
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 2976
-ht-degree: 41%
-
+source-wordcount: '2976'
+ht-degree: 42%
 ---
-
 # Información general sobre la versión del primer trimestre de 2025
 
 En esta página se ofrece información sobre la funcionalidad incluida en la versión del primer trimestre de 2025. Se prevé que estas mejoras estén disponibles en el entorno de producción durante todo el trimestre.
@@ -79,7 +88,7 @@ En esta página se ofrece información sobre la funcionalidad incluida en la ver
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
            Ahora se admiten reglas de negocio para más objetos</a></p>
-           [!BADGE In production &#x200B;]{type=Informative}
+           [!BADGE In production ]{type=Informative}
             <p>Ahora puede crear reglas de negocio y aplicar la validación a estos objetos adicionales: compañía, iteración, categoría de recurso no laboral, rol, usuario, asignación, conjunto de recursos, tiempo libre, documento y hora.</p>
         </td>
         <td>
@@ -94,7 +103,7 @@ En esta página se ofrece información sobre la funcionalidad incluida en la ver
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
            Comparar objetos entre entornos para la promoción de entornos</a></p>
-           [!BADGE In production &#x200B;]{type=Informative}
+           [!BADGE In production ]{type=Informative}
             <p>Para facilitar la determinación de qué objeto debe incluirse en un paquete de promoción de entorno, se ha añadido la capacidad de comparar objetos entre entornos. A continuación, puede añadir objetos a un paquete directamente desde esta comparación.</p>
         </td>
         <td>
@@ -109,7 +118,7 @@ En esta página se ofrece información sobre la funcionalidad incluida en la ver
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
             Más objetos disponibles para la promoción del entorno</a></p>
-            [!BADGE In production &#x200B;]{type=Informative}
+            [!BADGE In production ]{type=Informative}
             <p>Para ampliar las capacidades de la funcionalidad de promoción del entorno, hemos agregado más objetos.</p>
         </td>
         <td>
@@ -124,7 +133,7 @@ En esta página se ofrece información sobre la funcionalidad incluida en la ver
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
             Impedir mover tareas cuando hay horas registradas</a></p>
-            [!BADGE In production &#x200B;]{type=Informative}
+            [!BADGE In production ]{type=Informative}
             <p>Debido a que mover tareas o problemas que han registrado horas a veces puede causar problemas de cumplimiento o auditoría, hemos agregado una preferencia en el área de Preferencias de tarea y problemas de la Configuración que le permite evitar que los usuarios muevan tareas y problemas si hay horas registradas en ellos.</p>
         </td>
         <td>
@@ -139,7 +148,7 @@ En esta página se ofrece información sobre la funcionalidad incluida en la ver
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
             Preferencia para utilizar la programación de proyecto o de usuario para tareas de asignación única</a></p>
-            [!BADGE In production &#x200B;]{type=Informative}
+            [!BADGE In production ]{type=Informative}
             <p>Como administrador de sistemas o de grupos, ahora tiene una nueva preferencia que indica si Workfront debe utilizar la programación del proyecto o la del usuario para calcular la escala de tiempo del proyecto cuando asigna un usuario a una tarea y tanto el proyecto como el usuario están asociados a una programación.</p>
         </td>
         <td>
@@ -155,7 +164,7 @@ En esta página se ofrece información sobre la funcionalidad incluida en la ver
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
             Las reglas empresariales ahora admiten hipervínculos</a></p>
-            [!BADGE In production &#x200B;]{type=Informative}
+            [!BADGE In production ]{type=Informative}
             <p>Ahora puede incluir hipervínculos en el mensaje de error personalizado de una regla de negocio para guiar al usuario sobre cómo modificar su acción dentro de la restricción de la regla. La URL estática podría vincularse a la documentación u otras páginas que resultarían útiles para el usuario.</p>
         </td>
         <td>
@@ -171,7 +180,7 @@ En esta página se ofrece información sobre la funcionalidad incluida en la ver
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
             Ya está disponible el filtrado en los campos de escritura anticipada nativos</a></p>
-            [!BADGE In production &#x200B;]{type=Informative}
+            [!BADGE In production ]{type=Informative}
             <p>Cuando se agrega una referencia de campo nativo a un formulario personalizado y hace referencia a un campo de escritura anticipada (como Portfolio, Empresa o Propietario), ahora está disponible una opción de filtro. El filtro permite limitar los objetos que los usuarios pueden elegir cuando utilizan el campo. Este filtro personalizado funciona igual que un filtro en un campo de escritura anticipada personalizado, utilizando el modo de texto para definir el filtro.</p>
         </td>
         <td>
@@ -187,7 +196,7 @@ En esta página se ofrece información sobre la funcionalidad incluida en la ver
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
             Icono "Mover a" añadido a los campos personalizados</a></p>
-            [!BADGE In production &#x200B;]{type=Informative}
+            [!BADGE In production ]{type=Informative}
             <p>Cuando un formulario personalizado contiene varias secciones con muchos campos, puede resultar difícil mover un campo de una sección a otra arrastrando y soltando. Se ha agregado un icono "mover a" a cada campo, que le permite seleccionar la sección en la que se coloca el campo.</p>
         </td>
         <td>
@@ -220,7 +229,7 @@ En esta página se ofrece información sobre la funcionalidad incluida en la ver
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-boards-enhancements.md" class="MCXref xref" xrefformat="{para}">
             Cambiar el propietario de un tablero</a></p>
-            [!BADGE In production &#x200B;]{type=Informative}
+            [!BADGE In production ]{type=Informative}
             <p>El creador de un tablero es el propietario de forma predeterminada. El propietario del tablero es la única persona que puede eliminar ese tablero o actualizar sus filtros en el panel Configurar.</p>
             <p>Se ha agregado funcionalidad para permitir que los administradores del sistema de Workfront cambien el propietario de un tablero. El propietario actual de un tablero también puede cambiar el propietario de ese tablero específico. Esta funcionalidad está disponible en tableros básicos, retrospectivos y Kanban, pero no en tableros dinámicos.</p>
         </td>
@@ -253,7 +262,7 @@ En esta página se ofrece información sobre la funcionalidad incluida en la ver
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">
             Editar varios documentos a la vez</a></p>
-            [!BADGE In production &#x200B;]{type=Informative}
+            [!BADGE In production ]{type=Informative}
             <p>Ahora puede editar varios documentos a la vez. Puede editar las descripciones y actualizar los formularios personalizados.</p>
         </td>
         <td>
@@ -269,7 +278,7 @@ En esta página se ofrece información sobre la funcionalidad incluida en la ver
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">
             Nuevo estado Retirado disponible para aprobaciones de versiones de documentos</a></p>
-            [!BADGE In production &#x200B;]{type=Informative}
+            [!BADGE In production ]{type=Informative}
             <p>Cuando se agrega una nueva versión a un documento con aprobaciones pendientes, la aprobación de la versión anterior ahora se mostrará como "Retirada", lo que indica que el proceso de aprobación anterior se ha cerrado debido a que se está agregando la nueva versión.</p>
         </td>
         <td>
@@ -303,7 +312,7 @@ En esta página se ofrece información sobre la funcionalidad incluida en la ver
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">
             Utilice los filtros inteligentes para encontrar su trabajo en Prioridades</a></p>
-            [!BADGE In production &#x200B;]{type=Informative}
+            [!BADGE In production ]{type=Informative}
             <p>Utilice un lenguaje natural para filtrar rápidamente el trabajo en la lista de trabajos de Prioridades. Puede escribir cosas como </p>
             <ul>
                 <li>Mostrarme las tareas atrasadas</li>
@@ -323,7 +332,7 @@ En esta página se ofrece información sobre la funcionalidad incluida en la ver
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">
             Ponerse al día con el trabajo en Prioridades</a></p>
-            [!BADGE In production &#x200B;]{type=Informative}
+            [!BADGE In production ]{type=Informative}
             <p>Puede usar Ponerme al día para ayudar a reducir el tiempo que se tarda en buscar información sobre proyectos activos.</p>
             <p>Con la tecnología del asistente de IA de Workfront, Catch me up resume las actualizaciones, los documentos cargados y otros cambios importantes sobre sus proyectos en los siguientes lapsos de tiempo: 24 horas, 3 días o 7 días.</p>
         </td>
@@ -341,7 +350,7 @@ En esta página se ofrece información sobre la funcionalidad incluida en la ver
             Ver los cambios en directo en la página Detalles en Prioridades</a></p>
             <p>Ahora puede ver actualizaciones en tiempo real en la página Detalles de una tarea o un problema. También puede ver si otros usuarios están viendo la página al mismo tiempo que usted con indicadores de presencia en tiempo real.</p>
         </td>
-        [!BADGE In production &#x200B;]{type=Informative}
+        [!BADGE In production ]{type=Informative}
         <td>
             <p><b>Disponible en estas fechas:</b></p>
             <ul>
@@ -354,7 +363,7 @@ En esta página se ofrece información sobre la funcionalidad incluida en la ver
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">
             Carga y visualización de documentos y pruebas en Prioridades</a></p>
-            [!BADGE In production &#x200B;]{type=Informative}
+            [!BADGE In production ]{type=Informative}
             <p>Ahora puede interactuar con documentos y pruebas para tareas y problemas de la lista de trabajo y el calendario. En la nueva pestaña Documentos, puede</p>
             <ul>
                 <li>Cargar un documento</li>
@@ -375,7 +384,7 @@ En esta página se ofrece información sobre la funcionalidad incluida en la ver
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">
             La vista de calendario ya está disponible en Prioridades</a></p>
-            [!BADGE In production &#x200B;]{type=Informative}
+            [!BADGE In production ]{type=Informative}
             <p>Puede realizar un seguimiento del trabajo con un calendario mensual claro y visual. Con el calendario de Prioridades, puede</p>
             <ul>
                 <li>Utilice los filtros para encontrar su trabajo</li>
@@ -396,7 +405,7 @@ En esta página se ofrece información sobre la funcionalidad incluida en la ver
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">
             Actualizaciones de la Lista de trabajos de prioridades</a></p>
-            [!BADGE In production &#x200B;]{type=Informative}
+            [!BADGE In production ]{type=Informative}
             <p>Hemos actualizado la Lista de trabajo de prioridades para mejorar las capacidades y alinearnos con otras áreas de la aplicación.</p>
         </td>
         <td>
@@ -411,7 +420,7 @@ En esta página se ofrece información sobre la funcionalidad incluida en la ver
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">
             Navegue hasta la página de detalles de un proyecto desde Prioridades</a></p>
-            [!BADGE In production &#x200B;]{type=Informative}
+            [!BADGE In production ]{type=Informative}
             <p>Ahora puede navegar directamente a un proyecto en Workfront desde la lista de trabajo Prioridades.</p>
         </td>
         <td>
@@ -426,7 +435,7 @@ En esta página se ofrece información sobre la funcionalidad incluida en la ver
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">
             Opciones actualizadas en la columna Mi enfoque en Prioridades</a></p>
-            [!BADGE In production &#x200B;]{type=Informative}
+            [!BADGE In production ]{type=Informative}
             <p>Hemos actualizado las opciones de la columna Mi enfoque para ayudarle a priorizar y ordenar su trabajo de forma más intuitiva. Las nuevas etiquetas incluyen</p>
             <ul>
                 <li>Urgente</li>
@@ -447,7 +456,7 @@ En esta página se ofrece información sobre la funcionalidad incluida en la ver
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">
             Ver detalles del proyecto en Prioridades</a></p>
-            [!BADGE In production &#x200B;]{type=Informative}
+            [!BADGE In production ]{type=Informative}
             <p>Ahora puede ver los detalles y comentarios del proyecto desde la lista de trabajo en Prioridades.</p>
         </td>
         <td>
@@ -480,7 +489,7 @@ En esta página se ofrece información sobre la funcionalidad incluida en la ver
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-project-enhancements.md" class="MCXref xref" xrefformat="{para}">
             Las asignaciones más relevantes se han eliminado de los entornos de Previsualización y Producción para versiones rápidas</a></p>
-            [!BADGE In production &#x200B;]{type=Informative}
+            [!BADGE In production ]{type=Informative}
             <p>Ahora se ha eliminado una funcionalidad que se encuentra en el entorno de vista previa desde diciembre de 2023 y en el entorno de producción de versión rápida desde marzo de 2024. Las funciones agregaron sugerencias de asignación inteligente más relevantes al asignar tareas.</p>
         </td>
         <td>
@@ -512,7 +521,7 @@ En esta página se ofrece información sobre la funcionalidad incluida en la ver
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-proofing-enhancements.md" class="MCXref xref" xrefformat="{para}">
             Actualización del Visor de corrección de escritorio</a></p>
-            [!BADGE In production &#x200B;]{type=Informative}
+            [!BADGE In production ]{type=Informative}
             <p>Hemos actualizado Desktop Viewer con la última versión de Electron 33.3.0 que utiliza Chromium 130.0.6723.152. </p>
             <p>Última versión: 2.1.44 </p>
         </td>
@@ -536,7 +545,7 @@ En esta página se ofrece información sobre la funcionalidad incluida en la ver
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-proofing-enhancements.md" class="MCXref xref" xrefformat="{para}">
             Nueva extensión de explorador para revisión interactiva disponible en versión beta</a></p>
-            [!BADGE In production &#x200B;]{type=Informative}
+            [!BADGE In production ]{type=Informative}
             <p>Presentamos una nueva extensión de explorador, la herramienta de revisión de Adobe Workfront, para reemplazar la extensión de explorador heredada para revisar el contenido ZIP interactivo. La nueva herramienta de revisión de Adobe Workfront admite la revisión del contenido ZIP en todos los exploradores comunes.</p>
             <p>La extensión del explorador heredado se eliminará el 28 de febrero de 2025.</p>
         </td>
@@ -569,7 +578,7 @@ En esta página se ofrece información sobre la funcionalidad incluida en la ver
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-report-and-dashboard-enhancements.md" class="MCXref xref" xrefformat="{para}">
             Nuevas entidades disponibles en Data Connect</a></p>
-            [!BADGE In production &#x200B;]{type=Informative}
+            [!BADGE In production ]{type=Informative}
             <p>Se ha añadido compatibilidad con varias entidades nuevas en Data Connect, incluidas algunas entidades específicas de agencias.</p>
         </td>
         <td>
@@ -584,7 +593,7 @@ En esta página se ofrece información sobre la funcionalidad incluida en la ver
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-report-and-dashboard-enhancements.md" class="MCXref xref" xrefformat="{para}">
             Límite de 25 informes, páginas externas o calendarios en los paneles</a></p>
-            [!BADGE In production &#x200B;]{type=Informative}
+            [!BADGE In production ]{type=Informative}
             <p>Para mantener el rendimiento del panel, se ha implementado un límite en el número total de informes, páginas externas o calendarios que se pueden colocar en un panel. Al crear un nuevo tablero, se puede agregar un máximo de 25 elementos.</p>
         </td>
         <td>
@@ -599,7 +608,7 @@ En esta página se ofrece información sobre la funcionalidad incluida en la ver
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-report-and-dashboard-enhancements.md" class="MCXref xref" xrefformat="{para}">
             Botón de creación de cuenta del lector por primera vez para Data Connect</a></p>
-            [!BADGE In production &#x200B;]{type=Informative}
+            [!BADGE In production ]{type=Informative}
             <p>A los administradores que acceden a Data Connect por primera vez se les presenta la opción de crear una nueva cuenta de lector de Snowflake haciendo clic en un solo botón. El proceso tarda unos minutos en completarse, pero no requiere ninguna acción adicional.</p>
         </td>
         <td>
@@ -655,7 +664,7 @@ En esta página se ofrece información sobre la funcionalidad incluida en la ver
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-other-enhancements.md" class="MCXref xref" xrefformat="{para}">
             Actualización de cómo se administran los recursos movidos o eliminados en las carpetas vinculadas</a></p>
-            [!BADGE In production &#x200B;]{type=Informative}
+            [!BADGE In production ]{type=Informative}
             <p>Hemos cambiado la forma en que se gestionan los recursos movidos y eliminados al utilizar la integración de Adobe Workfront con Experience Manager Assets y Assets Essentials:</p>
             <ul>
                 <li>Recursos eliminados: cuando se elimina un recurso dentro de una carpeta vinculada en Assets o Assets Essentials, el recurso eliminado se conservará en el área Documentos del proyecto.</li>
@@ -674,7 +683,7 @@ En esta página se ofrece información sobre la funcionalidad incluida en la ver
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-other-enhancements.md" class="MCXref xref" xrefformat="{para}">
             Las secciones de un formulario personalizado ahora se pueden contraer y expandir</a></p>
-            [!BADGE In production &#x200B;]{type=Informative}
+            [!BADGE In production ]{type=Informative}
             <p>Cuando se adjunta un formulario personalizado con varias secciones a un objeto, ahora puede contraer y expandir todas las secciones excepto la predeterminada en la parte superior del formulario. El administrador también puede ver esta funcionalidad al obtener una vista previa del formulario en el diseñador de formularios.</p>
         </td>
         <td>
@@ -690,7 +699,7 @@ En esta página se ofrece información sobre la funcionalidad incluida en la ver
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-other-enhancements.md" class="MCXref xref" xrefformat="{para}">
             El asistente de IA ahora puede trabajar con proyectos, tareas y problemas</a></p>
-            [!BADGE In production &#x200B;]{type=Informative}
+            [!BADGE In production ]{type=Informative}
             <p>Para facilitar la administración de los elementos de trabajo en Workfront, hemos actualizado el Asistente de IA para que funcione con proyectos, tareas y problemas. Ahora, el Asistente de IA puede localizar proyectos, tareas y problemas en función de los criterios especificados.</p>
         </td>
         <td>
@@ -739,9 +748,9 @@ The following functionality is soon to be removed from Workfront:
 
 Las nuevas funciones de Workfront Fusion están disponibles en el entorno de producción en una cadencia fuera de la programación de versiones del primer trimestre de 2025. Para obtener más información sobre las últimas funciones, consulte [Actividad de la versión de Adobe Workfront Fusion](https://experienceleague.adobe.com/es/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
 
-### Mejoras en Workfront Planning
+### Mejoras en Planificación de Workfront
 
-Las nuevas funciones de Workfront Planning están disponibles en el entorno de producción. Para obtener más información sobre las últimas funciones, consulte [Actividad de la versión del primer trimestre de 2025 de Adobe Workfront Planning](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q1.md).
+Las nuevas funciones de Planificación de Workfront están disponibles en el entorno de producción. Para obtener más información sobre las últimas funciones, consulte [Actividad de la versión del primer trimestre de 2025 de Adobe Workfront Planning](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q1.md).
 
 ### Mejoras en el Planificador de escenarios de Workfront
 

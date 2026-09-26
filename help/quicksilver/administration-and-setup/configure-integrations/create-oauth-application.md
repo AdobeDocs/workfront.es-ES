@@ -1,34 +1,43 @@
 ---
-title: Crear aplicaciones OAuth2 para  [!DNL Workfront] integraciones
+title: Crear aplicaciones OAuth2 para integraciones de [!DNL Workfront]
 user-type: administrator
 product-area: system-administration;workfront-integrations
 navigation-topic: administrator-integrations
-description: Como administrador de  [!DNL Adobe Workfront] , puede crear aplicaciones OAuth2 para su instancia de [!DNL Workfront], que permiten que otras aplicaciones accedan a Workfront. A continuación, los usuarios pueden dar permiso a esas otras aplicaciones para acceder a sus datos de Workfront. De este modo, puede integrar Workfront con las aplicaciones de su elección, incluidas sus propias aplicaciones internas.
+description: Como administrador de [!DNL Adobe Workfront], puede crear aplicaciones OAuth2 para la instancia de [!DNL Workfront], que permiten que otras aplicaciones tengan acceso a Workfront. A continuación, los usuarios pueden dar permiso a esas otras aplicaciones para acceder a sus datos de Workfront. De este modo, puede integrar Workfront con las aplicaciones de su elección, incluidas sus propias aplicaciones internas.
 author: Becky
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: e13c7dda-8945-47ad-b6d3-4d6a62b368f5
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/wMgemSCv9tLMKy9AdIW5HDpGFbYKNmrnV07PsjwA6-4
+TQID: 'https://experienceleague.adobe.com/wMgemSCv9tLMKy9AdIW5HDpGFbYKNmrnV07PsjwA6-4'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
+  - id: a1f87682-0525-5459-aa06-3560bb4c3b2a
+    internal-label: Workfront Integrations and Apps
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 9ab8e110576ba47b5513441169a2f1e6c288d6d3
+    internal-label: Privacy
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 2018
-ht-degree: 94%
-
+source-wordcount: '2020'
+ht-degree: 93%
 ---
-
 # Crear aplicaciones OAuth2 para integraciones de [!DNL Workfront]
 
 Como administrador de [!DNL Adobe Workfront], puede crear aplicaciones OAuth2 para la instancia de [!DNL Workfront], que permiten que otras aplicaciones tengan acceso a [!DNL Workfront]. Los usuarios pueden dar permiso a esas otras aplicaciones para acceder a sus datos de [!DNL Workfront]. De este modo, puede integrar con aplicaciones de su elección, incluidas las propias aplicaciones internas.
@@ -121,7 +130,7 @@ Al crear una aplicación OAuth2, elija el tipo de aplicación que mejor se adapt
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Aplicación web</p> </td> 
-   <td> <p>Ideal para aplicaciones del lado del servidor que administran credenciales y tókenes en el servidor</p> <p>Ejemplos:</p> 
+   <td> <p>Ideal para aplicaciones del lado del servidor que administran credenciales y tokens en el servidor</p> <p>Ejemplos:</p> 
     <ul> 
      <li> <p>[!DNL Go]</p> </li> 
      <li> <p>[!DNL Java]</p> </li> 
@@ -373,8 +382,8 @@ La configuración y el uso posteriores de la aplicación OAuth2 creada requieren
 1. ClientApp envía el token de acceso a [!DNL Workfront] junto con la solicitud de información específica.
 1. Dado que el token de acceso es correcto, [!DNL Workfront] envía la información a ClientApp.
 
-#### Actualización de tókenes de acceso
+#### Actualización de tokens de acceso
 
-Por motivos de seguridad, los tókenes de acceso vencen después de un corto período de tiempo. Para obtener nuevos tókenes de acceso sin tener que escribir credenciales cada vez, [!DNL OAuth2] utiliza tókenes de actualización. El cliente almacena los tókenes de actualización.
+Por motivos de seguridad, los tokens de acceso vencen después de un corto período de tiempo. Para obtener nuevos tokens de acceso sin tener que escribir credenciales cada vez, [!DNL OAuth2] utiliza tokens de actualización. El cliente almacena los tokens de actualización.
 
 El proceso para adquirir un token de actualización es el mismo que el procedimiento descrito en la sección [Autorización con un código de autorización y un token de acceso](#authorizing-with-an-authorization-code-and-access-token). La solicitud del código de autorización incluye el ámbito `offline_access`, que indica que la solicitud debe devolver un token de solicitud junto con el código de autorización.

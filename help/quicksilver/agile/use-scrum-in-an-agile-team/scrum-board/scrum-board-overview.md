@@ -9,18 +9,24 @@ feature: Agile
 exl-id: 584288bb-2d98-4b69-8deb-d3b8e54d328c
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/81TvqkH7xJse6JU-uoknd4PYHaCrKpc-aTLLgzOoNjw
+TQID: 'https://experienceleague.adobe.com/81TvqkH7xJse6JU-uoknd4PYHaCrKpc-aTLLgzOoNjw'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+subfeature_v2:
+  - id: be65ef36-43e4-48e1-a062-caa3778e15be
+    internal-label: Agile
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 810
+source-wordcount: '810'
 ht-degree: 51%
-
 ---
-
 # Información general del tablero de [!UICONTROL Scrum]
 
 <!-- Audited: 5/2025 -->
@@ -42,12 +48,12 @@ El tablero de historias consta de los siguientes elementos:
 
   En una iteración, esta columna aparece en el tablero de historias solo cuando una o varias historias del tablero de historias contienen al menos una subtarea que cumple los siguientes requisitos:
 
-   * Asignado al mismo equipo Agile que la tarea principal.
-   * Pertenece a la iteración.
+  * Asignado al mismo equipo Agile que la tarea principal.
+  * Pertenece a la iteración.
 
-     En un proyecto, esta columna aparece siempre que una tarea tiene al menos una subtarea.
+    En un proyecto, esta columna aparece siempre que una tarea tiene al menos una subtarea.
 
-     ![Columna de la historia principal](assets/agile-parentstory-swimlane.png)
+    ![Columna de la historia principal](assets/agile-parentstory-swimlane.png)
 
 * **Estados de la tarea**: indique el progreso de una historia en la iteración o proyecto en función de la columna de estado en la que se encuentre la historia.
 
@@ -57,8 +63,8 @@ El tablero de historias consta de los siguientes elementos:
 
   En una iteración, los diagramas de flujo aparecen en el tablero de historias solo cuando una historia del tablero contiene al menos una subtarea que cumple los siguientes requisitos:
 
-   * Asignado al mismo equipo Agile que la tarea principal.
-   * Pertenece a la iteración.
+  * Asignado al mismo equipo Agile que la tarea principal.
+  * Pertenece a la iteración.
 
   En un proyecto, los diagramas de flujo aparecen siempre que una tarea tiene al menos una subtarea o una tarea principal.
 

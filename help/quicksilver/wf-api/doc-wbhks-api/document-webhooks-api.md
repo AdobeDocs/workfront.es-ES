@@ -10,20 +10,24 @@ feature: Workfront API
 role: Developer
 recommendations: noDisplay, noCatalog
 exl-id: e946c988-6a97-4ef1-a381-4b3bd10ced99
-TQID: https://experienceleague.adobe.com/WeGN2l38bnmcv-9mzj7vEQoWgQl8Y7sRiE2Q9ftaMCE
+TQID: 'https://experienceleague.adobe.com/WeGN2l38bnmcv-9mzj7vEQoWgQl8Y7sRiE2Q9ftaMCE'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: 682536a8-4872-5ee6-a8a6-8012d713482c
+    internal-label: Workfront API
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Metadata
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 113
+source-wordcount: '113'
 ht-degree: 92%
-
 ---
-
 # API de webhooks de documentos: índice de artículos
 
 <!-- Audited: 5/2025 -->
@@ -33,7 +37,7 @@ Esta sección contiene los siguientes artículos:
 * [Información general sobre webhooks](../../wf-api/doc-wbhks-api/webhooks-overview.md)
 * [Registrar una integración de webhook](../../wf-api/doc-wbhks-api/register-webhook-integration.md)
 * [Autenticación para webhooks de documentos](../../wf-api/doc-wbhks-api/auth-for-docu-webhook.md)
-* [Obtener tókenes de OAuth2](../../wf-api/doc-wbhks-api/get-oath-token-webhooks.md)
+* [Obtener tokens de OAuth2](../../wf-api/doc-wbhks-api/get-oath-token-webhooks.md)
 * [Obtener metadatos de un archivo o carpeta](../../wf-api/doc-wbhks-api/get-metadata-file-folder.md)
 * [Obtener una lista de elementos del contenido de la carpeta](../../wf-api/doc-wbhks-api/get-list-folder-contents.md)
 * [Búsqueda mediante webhooks de documentos](../../wf-api/doc-wbhks-api/docu-webhook-search.md)

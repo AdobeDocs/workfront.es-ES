@@ -8,29 +8,34 @@ feature: Reports and Dashboards
 exl-id: 5cb03113-35b0-49aa-86ec-ec800cd3f4dc
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/Aujcry4UfvcMotGau6-o2cjiH1wdG5V4-ytBzgvu9aI
+TQID: 'https://experienceleague.adobe.com/Aujcry4UfvcMotGau6-o2cjiH1wdG5V4-ytBzgvu9aI'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c6dd2ac5-f5bd-4e59-9101-25b156918623
+    internal-label: Reports and dashboards
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 522
-ht-degree: 13%
-
+source-wordcount: '626'
+ht-degree: 14%
 ---
-
 # Compartir un panel de lienzo
 
 >[!IMPORTANT]
 >
 >Actualmente, la función Paneles de lienzo solo está disponible para los usuarios que participan en la fase beta. Es posible que algunas partes de la función no estén completas o que no funcionen según lo previsto durante esta fase. Envíe cualquier comentario sobre su experiencia siguiendo las instrucciones de la sección [Proporcionar comentarios](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) del artículo Información general sobre la versión beta de los paneles de lienzo.<br>
->Si tiene comentarios acerca de un posible error o problema técnico, envíe un ticket al equipo de asistencia de Workfront. Para obtener más información, consulte [Póngase en contacto con Atención al cliente](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>
+>Si tiene comentarios acerca de un posible error o problema técnico, envíe un ticket al equipo de asistencia de Workfront. Para obtener más información, consulte [Contacto con el servicio de asistencia al cliente](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>
 >Tenga en cuenta que esta versión beta no está disponible en los siguientes proveedores de la nube:
 >
 >* Traer su propia clave para Amazon Web Service
@@ -125,5 +130,5 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
    >[!NOTE]
    >
    > Pueden aplicarse preferencias de usuario individuales y exclusiones del sistema para las notificaciones por correo electrónico. <br>
-   > Las notificaciones solo se envían cuando se comparten directamente con un usuario. El uso compartido en grupos, roles, compañías y equipos no genera notificaciones por correo electrónico.<br>
+   > Las notificaciones solo se envían cuando se comparten directamente con un usuario. Al compartir con grupos, funciones, empresas y equipos, no se generan notificaciones por correo electrónico.<br>
    > Los permisos heredados de una plantilla de diseño no generan una notificación por correo electrónico sobre el acceso al panel.

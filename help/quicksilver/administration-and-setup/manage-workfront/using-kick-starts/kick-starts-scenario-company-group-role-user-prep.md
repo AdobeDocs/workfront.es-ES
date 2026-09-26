@@ -9,22 +9,26 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: b83e2e35-dd9d-4d98-b8d4-2f8718b3c6c1
-TQID: https://experienceleague.adobe.com/wgUZVPkh6AWQtmafLAcRFq0-P7lHtKuELUlOcCqpG0k
+TQID: 'https://experienceleague.adobe.com/wgUZVPkh6AWQtmafLAcRFq0-P7lHtKuELUlOcCqpG0k'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1214
+source-wordcount: '1214'
 ht-degree: 53%
-
 ---
-
 # Escenario de Kick-Starts: preparación de empresa, grupo, función y Kick-Starts de usuario
 
 Cuando comience a implementar Adobe Workfront, en lugar de introducir datos manualmente, puede importar la lista de clientes, los departamentos internos, las funciones del trabajo y la información del usuario.
@@ -312,4 +316,4 @@ En las tablas siguientes se muestran los usuarios que se van a importar y varios
 > 
 >Si su organización se ha migrado a Adobe Admin Console y un usuario no abandona el estado Desactivado y Pendiente de aprobación en unos minutos, puede añadir el lote de usuarios directamente a Adobe Admin Console.
 >
->Para obtener instrucciones, consulte [Administrar varios usuarios | Carga masiva de CSV](https://helpx.adobe.com/es/enterprise/using/bulk-upload-users.html) en la documentación de Adobe.
+>Para obtener instrucciones, consulte [Administrar varios usuarios | Carga masiva de CSV](https://helpx.adobe.com/enterprise/using/bulk-upload-users.html) en la documentación de Adobe.

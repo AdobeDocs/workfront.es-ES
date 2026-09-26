@@ -4,13 +4,20 @@ description: Otras mejoras durante el periodo de lanzamiento del cuarto trimestr
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: c3dc1aa9e48d45d2546561c2ac9412b008258e2d
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
 source-wordcount: '689'
 ht-degree: 3%
-
 ---
-
 # Otras mejoras durante el periodo de tiempo de la versión del cuarto trimestre de 2026
 
 Esta página describe las mejoras realizadas con la versión del cuarto trimestre de 2026 en el entorno de vista previa. Estas mejoras estarán disponibles en el entorno de producción, como se ha indicado.

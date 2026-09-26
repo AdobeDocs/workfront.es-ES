@@ -4,32 +4,40 @@ content-type: reference
 product-area: system-administration
 navigation-topic: tips-tricks-troubleshooting-setup-admin
 title: Objetos activos y desactivados
-description: Como administrador de  [!DNL Adobe Workfront] , puede activar o desactivar objetos dentro del sistema. Le recomendamos que no elimine nunca los objetos que se pueden desactivar. Simplemente debe desactivar el objeto para evitar su uso futuro y para quitarlo de los menús desplegables de otros objetos.
+description: Como administrador de [!DNL Adobe Workfront], puede activar o desactivar objetos dentro del sistema. Le recomendamos que no elimine nunca los objetos que se pueden desactivar. Simplemente debe desactivar el objeto para evitar su uso futuro y para quitarlo de los menús desplegables de otros objetos.
 author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: a0617270-e233-4ebe-a5ee-8df7a8a85823
-TQID: https://experienceleague.adobe.com/JRpv3D6jvXaCCi3GZJ--rGphpZ13AjMIDSP1jJL4UUs
+TQID: 'https://experienceleague.adobe.com/JRpv3D6jvXaCCi3GZJ--rGphpZ13AjMIDSP1jJL4UUs'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
   - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+    internal-label: Timesheets
   - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 760
+source-wordcount: '760'
 ht-degree: 90%
-
 ---
-
 # Objetos activos y desactivados
 
 Como administrador de [!DNL Adobe Workfront], puede activar o desactivar objetos dentro del sistema. Le recomendamos que no elimine nunca los objetos que se pueden desactivar. Simplemente debe desactivar el objeto para evitar su uso futuro y para quitarlo de los menús desplegables de otros objetos.
@@ -118,7 +126,7 @@ Para obtener información sobre cómo desactivar usuarios, consulte [Desactivar 
 >
 >Una vez que su organización se haya incorporado a [!DNL Adobe Business Platform], debe desactivar usuarios a través de [!UICONTROL Adobe Admin Console].
 >
->Para obtener instrucciones sobre cómo desactivar un usuario en [!UICONTROL Adobe Admin Console], consulta la sección “Eliminar usuarios” en el artículo [Administración de usuarios individualmente](https://helpx.adobe.com/es/enterprise/using/manage-users-individually.html?lang=es) o póngase en contacto con su administrador de [!UICONTROL Adobe Admin Console].
+>Para obtener instrucciones sobre cómo desactivar un usuario en [!UICONTROL Adobe Admin Console], consulta la sección “Eliminar usuarios” en el artículo [Administración de usuarios individualmente](https://helpx.adobe.com/enterprise/using/manage-users-individually.html?lang=es) o póngase en contacto con su administrador de [!UICONTROL Adobe Admin Console].
 >
 >Para obtener una lista de procedimientos que difieren según si su organización se ha incorporado a [!DNL Adobe Business Platform], vea [Diferencias de administración entre Adobe Workfront y Adobe Business Platform](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 

@@ -1,25 +1,29 @@
 ---
-title: Preguntas y prácticas recomendadas de CX Coworker
+title: Preguntas frecuentes y prácticas recomendadas de CX Coworker
 content-type: reference
 description: Conozca las prácticas recomendadas para utilizar Coworker en Workfront y vea una lista de ejemplos de mensajes.
 author: Becky
 feature: Get Started with Workfront
-source-git-commit: 01de260893e5bbf7a228479df2f3fc6a1337d31d
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
 source-wordcount: '2247'
 ht-degree: 2%
-
 ---
-
-# Preguntas y prácticas recomendadas de CX Coworker
+# Preguntas frecuentes y prácticas recomendadas de CX Coworker
 
 &lt;!—NO USE ESTO—En lugar de vincular al artículo de indicaciones de ejemplo de MCP, asegúrese de que esté actualizado con las últimas versiones de MCP—>
 
 >[!IMPORTANT]
 >
->CX Coworker no está disponible actualmente para organizaciones de atención médica, finanzas u otras industrias con datos confidenciales. Estas organizaciones disponen de un asistente de IA. Para obtener más información, consulte [Descripción general del Asistente de IA](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md).
+>CX Coworker no está disponible actualmente para organizaciones de atención médica, finanzas u otros sectores con datos confidenciales. Estas organizaciones disponen de un asistente de IA. Para obtener más información, consulte [Descripción general del Asistente de IA](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md).
 
-Con CX Coworker, puede utilizar lenguaje natural para interactuar con Workfront Workflow y Workfront Planning.
+Con CX Coworker, puede utilizar un lenguaje natural para interactuar con Workfront Workflow y Workfront Planning.
 
 Sus compañeros forman parte de Adobe Experience Cloud Agent Orchestrator.
 
@@ -83,13 +87,13 @@ Sin embargo, algunas acciones, como la eliminación de objetos, **no** se pueden
 
 ### Limitaciones de interacción/experiencia de usuario
 
-* Actualmente, CX Coworker no &quot;aprende&quot; a largo plazo del estilo o las preferencias de un usuario individual. Cada chat utiliza únicamente la conversación actual y el conocimiento del producto.
+* Actualmente, CX Coworker no &quot;aprende&quot; a largo plazo a partir del estilo o las preferencias de un usuario individual. Cada chat utiliza únicamente la conversación actual y el conocimiento del producto.
 * El contexto de conversación se mantiene dentro de una sola sesión de chat. Al abrir una página nueva o cerrar el asistente, se restablece el historial de conversaciones.
 * Si los procedimientos de aprobación se encuentran en una aplicación externa como Confluence o SharePoint y solo están vinculados a través de campos URL, el colaborador no recupera ni razona actualmente a través de esas páginas.
 
 ### Almacenamiento de datos / Claves gestionadas por el cliente
 
-* Como CX Coworker forma parte de Adobe Experience Platform Agent Orchestrator, los datos de sus interacciones con Coworker se almacenan en Adobe Experience Platform, no en Workfront. Por lo tanto, estos datos no están cubiertos por los acuerdos de Claves administradas por el cliente de Workfront (BYOK).
+* Como CX Coworker forma parte de Adobe Experience Platform Agent Orchestrator, los datos de sus interacciones con sus colaboradores se almacenan en Adobe Experience Platform, no en Workfront. Por lo tanto, estos datos no están cubiertos por los acuerdos de Claves administradas por el cliente de Workfront (BYOK).
 
 ## Aptitudes básicas de IA de uso general
 
@@ -151,7 +155,7 @@ For more information on using Smart Filters, see [Filter your work with Smart fi
 
 -->
 
-## Coworker de CX en Workfront
+## CX Coworker en Workfront
 
 * [Información del proyecto, la tarea y el problema](#project-task-and-issue-information)
 * [Administración de proyectos y trabajo](#project-and-work-management)

@@ -1,35 +1,40 @@
 ---
 product-area: user-management
 navigation-topic: manage-your-workfront-account
-title: Iniciar sesión en  [!DNL Adobe Workfront]
+title: Iniciar sesión en [!DNL Adobe Workfront]
 description: Lea este artículo para aprender a iniciar sesión en Workfront.
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 69297cca-6b28-47d6-a478-8ac2bc29b959
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/2YH5Y7yvmUdpuV-p5cnrVSmXBQTjix2pMyUP5o-WKpU
+TQID: 'https://experienceleague.adobe.com/2YH5Y7yvmUdpuV-p5cnrVSmXBQTjix2pMyUP5o-WKpU'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d8302c96-f652-4d09-896b-19a70bab02a5
+    internal-label: System configuration
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 222
+source-wordcount: '222'
 ht-degree: 32%
-
 ---
-
 # Iniciar sesión en [!DNL Adobe Workfront]
 
 <!--Audited: 2024-->
 
-Se utiliza un inicio de sesión para Workfront y todas las aplicaciones empresariales de Adobe CX.
+Se utiliza un inicio de sesión para Workfront y todas las aplicaciones de Adobe CX Enterprise.
 
 Para obtener más información, consulte [Interfaz y administración de CX Enterprise](https://experienceleague.adobe.com/es/docs/core-services/interface/experience-cloud).
 
@@ -41,9 +46,9 @@ Una vez que haya iniciado sesión en CX Enterprise, puede ver todas las organiza
 
 >[!NOTE]
 >
->La primera vez que inicia sesión en CX Enterprise, la organización toma como valor predeterminado la primera en la lista alfabética. La próxima vez que inicie sesión, la organización toma como valor predeterminado la última que visitó.
+>La primera vez que se inicia sesión en CX Enterprise, la organización toma como valor predeterminado la primera de la lista alfabética. La próxima vez que inicie sesión, la organización toma como valor predeterminado la última que visitó.
 
-[!DNL Workfront] aparece en la lista de productos de CX Enterprise a los que tiene acceso. Puede elegir [!DNL Workfront] en el menú de acceso rápido de la página de inicio de CX Enterprise o usar el conmutador de productos ![Conmutador de productos](assets/main-menu-icon.png) para cambiar las aplicaciones en cualquier momento.
+[!DNL Workfront] aparece en la lista de productos de CX Enterprise a los que tiene acceso. Puede elegir [!DNL Workfront] en el menú de acceso rápido de la página principal de CX Enterprise o usar el conmutador de productos ![Conmutador de productos](assets/main-menu-icon.png) para cambiar de aplicación en cualquier momento.
 
 ![Seleccione [!DNL Workfront] para acceder a la aplicación](assets/cx-enterprise-home-2026.png)
 

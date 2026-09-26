@@ -6,13 +6,22 @@ description: Puede crear elementos personales pendientes desde el área [!UICONT
 author: Courtney
 feature: Get Started with Workfront, Work Management
 exl-id: 247085a7-bb9e-4468-b496-d81e02f2de00
-source-git-commit: 29c82cd8265f3d05f4ae241c5c723a4ab09a6504
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
 source-wordcount: '394'
 ht-degree: 14%
-
 ---
-
 # Crear y administrar un elemento personal pendiente
 
 Puede crear un elemento personal de tareas pendientes en el widget de tareas pendientes del área [!UICONTROL Inicio]. Los elementos pendientes son tareas personales que crea usted mismo.
@@ -64,7 +73,8 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
 1. Escriba el nombre del elemento personal y haga clic en Entrar.
 1. (Opcional) Haga clic en el icono **Fecha** ![](assets/date-icon.png) para agregar una fecha límite para el elemento.
    ![](assets/my-work-to-dos.png)
-1. (Opcional) Cree un informe de tareas personales o un filtro. Para obtener información acerca de cómo crear un filtro de tareas personales, vea [Filtro: tarea personal](/help/quicksilver/reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-personal-tasks.md).Puede ver los elementos pendientes, así como los elementos pendientes de otros usuarios, en el informe de tareas personales.
+1. (Opcional) Cree un informe de tareas personales o un filtro. Para obtener información acerca de cómo crear un filtro de tareas personales, vea [Filtro: tarea personal](/help/quicksilver/reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-personal-tasks.md).
+Puede ver los elementos pendientes, así como los elementos pendientes de otros usuarios, en el informe de tareas personales.
 
 
 ## Administrar elementos pendientes

@@ -8,22 +8,26 @@ feature: People Teams and Groups
 exl-id: 55cc5562-13d5-4089-8937-f33d0cde3cac
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/WtxzO6dVznvS6Dch08s3x7QzNB94pRlVBRD9inx4A58
+TQID: 'https://experienceleague.adobe.com/WtxzO6dVznvS6Dch08s3x7QzNB94pRlVBRD9inx4A58'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: 254442ca-6997-5cfa-963e-f420870aea53
+    internal-label: People Teams and Groups
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 750
-ht-degree: 86%
-
+source-wordcount: '768'
+ht-degree: 88%
 ---
-
 # Configurar el botón [!UICONTROL Listo] para las tareas
 
 El botón [!UICONTROL Listo] puede establecer automáticamente el estado de una tarea o un problema. De manera predeterminada, [!UICONTROL Adobe Workfront] marca una tarea como [!UICONTROL Completada] cuando un usuario asignado hace clic en Marcar como hecho en su elemento de trabajo.
@@ -117,4 +121,4 @@ Para asociar usuarios a un equipo de inicio:
 
 1. Haga clic en **[!UICONTROL Guardar cambios]**.\
    Los usuarios que ha seleccionado ahora están asociados a un equipo de inicio.
-Cualquier configuración del equipo, incluidos los estados asociados con el botón [!UICONTROL Listo], ahora es visible para estos usuarios.
+   Cualquier configuración del equipo, incluidos los estados asociados con el botón [!UICONTROL Listo], ahora es visible para estos usuarios.

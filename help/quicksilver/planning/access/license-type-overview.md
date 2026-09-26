@@ -1,5 +1,5 @@
 ---
-title: Información general sobre el tipo de licencia al usar Adobe Workfront Planning
+title: Información general sobre el tipo de licencia al usar Planificación de Workfront de Adobe
 description: El acceso a Adobe Workfront Planning depende del tipo de licencia, además de los permisos para los objetos. No todos los usuarios de la organización tienen el mismo acceso y permisos para utilizar Adobe Workfront Planning. En este artículo se describen los niveles de acceso que los usuarios podrían tener a Adobe Workfront Planning.
 author: Alina
 feature: Workfront Planning
@@ -8,20 +8,27 @@ recommendations: noDisplay, noCatalog
 exl-id: 10dee6f9-06ff-435a-81a4-2125642fab59
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/2V2i9ZZOyQ6gShXK-QUKDeCZCxcrbYwb8-mn-9kQbc8
+TQID: 'https://experienceleague.adobe.com/2V2i9ZZOyQ6gShXK-QUKDeCZCxcrbYwb8-mn-9kQbc8'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+subfeature_v2:
+  - id: eb361af2-3e4f-4a79-b5f3-7a344ac5794c
+    internal-label: Workfront Planning
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: ab0d036ea3bbcdad2daaed6b09864272fd1beb11
+    internal-label: Admin
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 958
+source-wordcount: '958'
 ht-degree: 15%
-
 ---
-
-# Información general sobre el tipo de licencia al usar Adobe Workfront Planning
+# Información general sobre el tipo de licencia al usar Planificación de Workfront de Adobe
 
 <!--
 <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
@@ -47,7 +54,7 @@ El tipo de licencia de flujo de trabajo de Adobe Workfront funciona junto con el
 * Ver, contribuir o administrar espacios de trabajo, tipos de registros y registros.
 * Ver o administrar vistas.
 
-Para obtener información acerca de los permisos de los objetos en Workfront Planning, consulte [Información general sobre los permisos de uso compartido en Adobe Workfront Planning](/help/quicksilver/planning/access/sharing-permissions-overview.md).
+Para obtener información acerca de los permisos de los objetos en Planificación de Workfront, consulte [Información general sobre los permisos de uso compartido en Planificación de Workfront de Adobe](/help/quicksilver/planning/access/sharing-permissions-overview.md).
 
 Para obtener información sobre el acceso a Workfront Planning, consulte [Información general sobre el acceso a Adobe Planning](/help/quicksilver/planning/access/access-overview.md).
 

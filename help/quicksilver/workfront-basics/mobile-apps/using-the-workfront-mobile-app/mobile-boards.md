@@ -2,22 +2,25 @@
 product-previous: mobile
 navigation-topic: mobile-apps
 title: Tableros de Adobe Workfront para dispositivos móviles
-description: En la aplicación móvil de [!DNL Workfront] , puede ver todos los tableros que creó o a los que se añadió en la versión de escritorio de [!DNL Workfront].
+description: En la aplicación móvil [!DNL Workfront], puede ver todos los tableros que creó o a los que se añadió en la versión de escritorio de [!DNL Workfront].
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 34a009f6-6b4f-43ee-9689-2b9d1876db07
-TQID: https://experienceleague.adobe.com/ZwsNEdfQOIponHOPGKgux7II5ovrFo5glAq2lWXRHcE
+TQID: 'https://experienceleague.adobe.com/ZwsNEdfQOIponHOPGKgux7II5ovrFo5glAq2lWXRHcE'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1047
-ht-degree: 97%
-
+source-wordcount: '1074'
+ht-degree: 100%
 ---
-
 # [!DNL Adobe Workfront] [!UICONTROL Boards] para dispositivos móviles
 
 [!DNL Adobe Workfront] [!UICONTROL Los tableros] son herramientas flexibles que permiten la colaboración en equipo al proporcionar acceso a un tablero compartido que contiene columnas y tarjetas. Para obtener información adicional sobre tableros, consulte [Información general sobre tableros](/help/quicksilver/agile/boards-overview.md).
@@ -138,6 +141,6 @@ Cuando se aplican filtros, se muestra un indicador en el panel ![Filtro aplicado
 1. Escriba un término de búsqueda en el cuadro y seleccione [!UICONTROL **Listo**] o ![Icono Listo](assets/mobile-apply-icon-checkmark.png).
 
    Se muestran todas las tarjetas que contienen el término de búsqueda en el título.
-Seleccione la X para borrar la búsqueda.
+   Seleccione la X para borrar la búsqueda.
 
    ![Buscar tarjeta](assets/mobile-search-for-card.png)

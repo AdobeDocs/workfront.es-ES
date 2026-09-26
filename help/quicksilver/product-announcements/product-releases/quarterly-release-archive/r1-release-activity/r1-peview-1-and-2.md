@@ -7,25 +7,31 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 65219cf1-809f-4d8e-a858-01f7881064d7
-TQID: https://experienceleague.adobe.com/SjemPIUQMpaqkse8vDfjJWaVLtNtritW3M1lcIe6OaM
+TQID: 'https://experienceleague.adobe.com/SjemPIUQMpaqkse8vDfjJWaVLtNtritW3M1lcIe6OaM'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
   - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+    internal-label: Timesheets
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1024
-ht-degree: 91%
-
+source-wordcount: '1153'
+ht-degree: 100%
 ---
-
 # Vista previa 1 y 2 de R1
 
 Esta página describe todos los cambios disponibles en el entorno de vista previa con las versiones R1.1 y R1.2. La funcionalidad de esta página estaba disponible en el entorno de vista previa el 19 de enero de 2017.
@@ -71,13 +77,13 @@ Antes de este cambio, los proyectos, tareas y problemas cuya aprobación estaba 
 
 Ahora puede asignar plantillas de diseño a grupos.
 
-Antes de este cambio, podía asignar plantillas de diseño a usuarios, equipos y funciones del puesto. Al asignar una plantilla de diseño a grupos, se obtiene la clasificación más baja en la prioridad de asignación de plantillas de diseño. 
+Antes de este cambio, se podía asignar plantillas de diseño a usuarios, equipos y funciones. Al asignar una plantilla de diseño a grupos, se obtiene la clasificación más baja en la prioridad de asignación de plantillas de diseño. 
 
 Para obtener más información, consulte “Creación y administración de plantillas de diseño”.
 
 ## Cambios en las notificaciones de usuario de edición masiva
 
-La funcionalidad ha cambiado la edición por lotes de la configuración de las notificaciones por correo electrónico de los usuarios. Cuando selecciona varios usuarios para editar su configuración de correo electrónico de notificación, solo cambian las notificaciones específicas que está actualizando para todos los usuarios seleccionados. Todos los ajustes de notificación por correo electrónico sin modificar siguen siendo los mismos para todos los usuarios seleccionados, aunque sean diferentes de un usuario a otro. 
+La funcionalidad ha cambiado en torno a la edición de la configuración de las notificaciones de correo electrónico de los usuarios de forma masiva. Cuando se seleccionan varios usuarios para editar su configuración de correo electrónico de notificación, solo cambian las notificaciones específicas que está actualizando para todos los usuarios seleccionados. Toda la configuración de notificación por correo electrónico sin modificar sigue siendo la misma para todos los usuarios seleccionados, aunque sean diferentes de un usuario a otro. 
 
 Antes de este cambio, se guardaba la configuración de notificaciones por correo electrónico seleccionada y el resto de configuraciones de notificaciones sin modificar se anulaban al guardar los cambios. 
 
@@ -95,7 +101,7 @@ La apariencia de las siguientes notificaciones por correo electrónico se ha act
 * Aprobación pendiente (proyecto, tarea, problemas)
 * Cambio de estado en proyectos, tareas y problemas
 
-Recuerde actualizar la dirección de correo electrónico asociada a la cuenta para poder probar esta funcionalidad, ya que la Vista previa de espacio aislado borra las direcciones de correo electrónico de todos los usuarios.    Para obtener más información sobre las notificaciones por correo electrónico, consulte [Notificaciones de Adobe Workfront](../../../../workfront-basics/using-notifications/wf-notifications.md).  
+Recuerde actualizar la dirección de correo electrónico asociada a la cuenta para poder probar esta funcionalidad, ya que la zona protegida de previsualización borra las direcciones de correo electrónico de todos los usuarios.    Para obtener más información sobre las notificaciones por correo electrónico, consulte [Notificaciones de Adobe Workfront](../../../../workfront-basics/using-notifications/wf-notifications.md).  
 
 ## Nuevas opciones de resumen de correo electrónico para varias áreas de notificaciones
 
@@ -107,7 +113,7 @@ Se ha añadido la opción “Resumen diario” a las áreas de notificaciones si
 * Información sobre trabajo asignado a mí
 * Comunicación
 
-Para obtener más información, consulte [Notificaciones de Adobe Workfront](../../../../workfront-basics/using-notifications/wf-notifications.md). Recuerde actualizar la dirección de correo electrónico asociada a su cuenta para poder probar esta funcionalidad, ya que la Vista previa de espacio aislado borra las direcciones de correo electrónico de todos los usuarios. 
+Para obtener más información, consulte [Notificaciones de Adobe Workfront](../../../../workfront-basics/using-notifications/wf-notifications.md).  Recuerde actualizar la dirección de correo electrónico asociada a la cuenta para poder probar esta funcionalidad, ya que la zona protegida de previsualización borra las direcciones de correo electrónico de todos los usuarios. 
 
 ## Hacer público un grupo
 
@@ -135,7 +141,7 @@ Puede compartir la URL de un objeto en las siguientes aplicaciones:
 
 ## Ayuda contextual en la configuración
 
-Todas las áreas del menú Configuración se han actualizado con un icono Ayuda en la esquina superior derecha del área. Este icono proporciona un vínculo a un artículo del sitio de ayuda sobre esa área. Algunas secciones dentro de las áreas de Configuración también se han actualizado con el icono Ayuda. 
+Todas las áreas del menú Configuración se han actualizado con un icono de ayuda en la esquina superior derecha del área. Este icono proporciona un vínculo a un artículo del sitio de ayuda sobre esa área. Algunas secciones dentro de las áreas de Configuración también se han actualizado con el icono de ayuda. 
 
 ## Añadir tasas de gasto más precisas
 

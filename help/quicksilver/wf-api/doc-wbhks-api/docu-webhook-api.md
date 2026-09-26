@@ -8,26 +8,33 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 7ac2c6c8-1cb8-49df-8d63-a6b47ad02a13
-TQID: https://experienceleague.adobe.com/NK0eGTvWNVbv2KsNm1eBbSqAPmN6O4RdNTN1hY-cIVI
+TQID: 'https://experienceleague.adobe.com/NK0eGTvWNVbv2KsNm1eBbSqAPmN6O4RdNTN1hY-cIVI'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: b58ad82f-df6b-4b01-81a3-3a02ab9567a0
+    internal-label: APIs
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+  - id: 682536a8-4872-5ee6-a8a6-8012d713482c
+    internal-label: Workfront API
 subfeature_v2:
   - id: d6f15301-a604-47ff-897b-83a19659dedf
+    internal-label: Workfront Document Webhooks
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Implementation
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 3699
-ht-degree: 74%
-
+source-wordcount: '3700'
+ht-degree: 75%
 ---
-
 # API de webhooks de documentos
 
 <!-- Audited: 5/2025 -->
@@ -86,7 +93,7 @@ Al añadir una integración, el administrador introduce valores para los campos 
   </tr> 
   <tr> 
    <td>URL de punto final de token</td> 
-   <td> <p>(Solo para OAuth2) URL de API completa que sirve para recuperar tókenes de OAuth2. Esto lo aloja el proveedor de ganchos web o el proveedor de documentos externo.</p> </td> 
+   <td> <p>(Solo para OAuth2) URL de API completa que sirve para recuperar tokens de OAuth2. Esto lo aloja el proveedor de ganchos web o el proveedor de documentos externo.</p> </td> 
   </tr> 
   <tr> 
    <td>ID de cliente</td> 
@@ -905,7 +912,7 @@ GET /customAction
 
 Una cadena JSON que indica éxito o error, tal como se especifica en la sección Gestión de errores que viene a continuación. En caso de error (es decir, estado = &quot;error&quot;), Workfront mostrará el mensaje de error proporcionado al usuario.
 
-**Ejemplo:** https://sample.com/webhooks/customName?name=archive&documentId=5502082c003a4f30 ddec2fb2b739cb7c&amp;documentVersionId=54b598a700e2342d6971597a5df1a8d3
+**Ejemplo:** https://sample.com/webhooks/customName?name=archive&amp;documentId=5502082c003a4f30 ddec2fb2b739cb7c&amp;documentVersionId=54b598a700e2342d6971597a5df1a8d3
 
 respuesta
 
@@ -922,9 +929,9 @@ Pueden surgir problemas a la hora de procesar solicitudes de API. Esto debe gest
 
 * Incluye un código de error en el encabezado de la respuesta. Los códigos de error incluyen los siguientes:
 
-   * 403 - Prohibido. Indica que faltan los tókenes de solicitud o que no son válidos, o bien que las credenciales asociadas con los tókenes no tienen acceso al recurso especificado. Para los proveedores de webhook basados en OAuth, Workfront intentará recuperar nuevos tokens de acceso.
-   * 404 - No se encuentra. Indica que el archivo o la carpeta especificados no existen.
-   * 500 - Error de servidor interno. Cualquier otro tipo de error.
+  * 403 - Prohibido. Indica que faltan los tokens de solicitud o que no son válidos, o bien que las credenciales asociadas con los tokens no tienen acceso al recurso especificado. Para los proveedores de webhook basados en OAuth, Workfront intentará recuperar nuevos tokens de acceso.
+  * 404 - No se encuentra. Indica que el archivo o la carpeta especificados no existen.
+  * 500 - Error de servidor interno. Cualquier otro tipo de error.
 
 * Describe el error en el cuerpo de la respuesta con el siguiente formato:
 
@@ -1047,13 +1054,13 @@ Comprueba los siguientes puntos finales: URL de punto final del token
 
 * Versión 1.0 (Fecha de lanzamiento: mayo de 2015)
 
-   * Especificación inicial
+  * Especificación inicial
 
 * Versión 1.1 (Fecha de lanzamiento: junio de 2015)
 
-   * Se ha actualizado /uploadInit: se han añadido el ID de documento y el ID de versión de documento
+  * Se ha actualizado /uploadInit: se han añadido el ID de documento y el ID de versión de documento
 
 * Versión 1.2 (Fecha de lanzamiento: octubre de 2015)
 
-   * Se ha añadido /createFolder
+  * Se ha añadido /createFolder
 

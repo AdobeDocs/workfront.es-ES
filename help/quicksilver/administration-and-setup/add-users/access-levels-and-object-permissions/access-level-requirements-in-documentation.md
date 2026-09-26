@@ -9,27 +9,35 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 39ea0d53-ec31-4644-b772-cfe260b8e013
-TQID: https://experienceleague.adobe.com/DP4cAQiJdCpE59ppP-EvU3UcJomEd9TUxza6DIB1cDg
+TQID: 'https://experienceleague.adobe.com/DP4cAQiJdCpE59ppP-EvU3UcJomEd9TUxza6DIB1cDg'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
   - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+    internal-label: Timesheets
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: f8dfa5a4aec4541d885bcc45933488cd1fdefac4
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1184
+source-wordcount: '1184'
 ht-degree: 7%
-
 ---
-
 # Requisitos de acceso en la documentación de Workfront
 
 Los artículos de procedimientos de la documentación de Workfront contienen una tabla que explica los requisitos de acceso y permisos necesarios para ese procedimiento. Esta tabla de requisitos de acceso le permite comprender si puede realizar una determinada acción en Workfront o por qué no. Este artículo explica cada elemento de la tabla de requisitos de acceso y proporciona sugerencias para la resolución de problemas y vínculos a información más detallada.
@@ -58,7 +66,7 @@ Si una fila está ausente de la tabla de requisitos de acceso de un artículo de
   <p>Es posible que su organización haya adquirido un paquete de Workfront en una o más de estas áreas.</p>
   <p>Anteriormente, Workfront ofrecía los paquetes Workfront Select, Workfront Prime y Workfront Ultimate, sin distinguir entre Flujo de trabajo, Planificación, Automatización e Integración. Su organización puede estar en uno de estos paquetes heredados. 
    <ul><li>Para saber qué paquete de Adobe Workfront utiliza su organización, incluido si su organización se encuentra en el modelo de paquete actual o heredado, póngase en contacto con su administrador de Workfront.</li>
-   <li>Para obtener instrucciones sobre cómo un administrador de Workfront puede localizar el paquete de Workfront de su organización, consulte <a href="/help/quicksilver/administration-and-setup/get-started-wf-administration/firewall-overview.md#view-your-organizations-cluster-and-workfront-package" class="MCXref xref">Ver el clúster de su organización y el paquete de Workfront</a>.</li><li>Para obtener más información sobre los paquetes de Workfront, consulte <a href="https://business.adobe.com/es/products/workfront/pricing.html">Precios y empaquetado de Adobe Workfront</a>.</li></ul>
+   <li>Para obtener instrucciones sobre cómo un administrador de Workfront puede localizar el paquete de Workfront de su organización, consulte <a href="/help/quicksilver/administration-and-setup/get-started-wf-administration/firewall-overview.md#view-your-organizations-cluster-and-workfront-package" class="MCXref xref">Ver el clúster de su organización y el paquete de Workfront</a>.</li><li>Para obtener más información sobre los paquetes de Workfront, consulte <a href="https://business.adobe.com/products/workfront/pricing.html">Precios y empaquetado de Adobe Workfront</a>.</li></ul>
 
 Su organización puede adquirir un paquete de Workfront Planning en una de las siguientes ofertas:
 
@@ -122,7 +130,7 @@ La funcionalidad puede diferir entre las tres ofertas de Workfront Planning. Par
    <ul><li>El modelo de licencia actual se basa en el número de operaciones realizadas y no tiene limitaciones en las acciones que puede realizar una organización. </li>
    <li>Las licencias heredadas se basan en si los escenarios pueden conectarse a aplicaciones de terceros o si solo se utilizan para la automatización de Workfront. </li>
    </ul>
-   Para obtener información sobre las licencias de Fusion, consulte <a href="https://experienceleague.adobe.com/es/docs/workfront-fusion/using/set-up-and-manage-fusion/licensing-and-operations-overviews/license-automation-vs-integration" class="MCXref xref">Licencias de Workfront Fusion</a>.
+   Para obtener información sobre las licencias de Fusion, consulte <a href="https://experienceleague.adobe.com/en/docs/workfront-fusion/using/set-up-and-manage-fusion/licensing-and-operations-overviews/license-automation-vs-integration" class="MCXref xref">Licencias de Workfront Fusion</a>.
    </td> 
   </tr> 
  </tbody> 
