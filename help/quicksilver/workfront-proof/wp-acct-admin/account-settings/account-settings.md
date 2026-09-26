@@ -44,10 +44,10 @@ ht-degree: 64%
 
 Esta sección contiene los siguientes artículos:
 
-* [Administrar usuarios de  [!DNL Workfront Proof] ](../../../workfront-proof/wp-acct-admin/account-settings/manage-wp-users.md)
+* [Administrar usuarios de  [!DNL Workfront Proof] &#x200B;](../../../workfront-proof/wp-acct-admin/account-settings/manage-wp-users.md)
 * [Configurar el perfil de permiso de revisión de un usuario en  [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/config-user-pref-in-wp.md)
 * [Configurar perfiles personalizados en  [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/configure-custom-profiles.md)
-* [Configurar el inicio de sesión único para los usuarios de  [!DNL Workfront Proof] ](../../../workfront-proof/wp-acct-admin/account-settings/configure-sso-for-wp-users.md)
+* [Configurar el inicio de sesión único para los usuarios de  [!DNL Workfront Proof] &#x200B;](../../../workfront-proof/wp-acct-admin/account-settings/configure-sso-for-wp-users.md)
 * [Inicio de sesión único en  [!DNL Workfront Proof]: configuración de AD FS](../../../workfront-proof/wp-acct-admin/account-settings/sso-in-wp-adfs-configuration.md)
 * [Perfiles de permisos de revisión en  [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)
 * [Configuración de las opciones de decisión de aprobación en  [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/configure-approval-decision-in-wp.md)
@@ -57,5 +57,5 @@ Esta sección contiene los siguientes artículos:
 * [Ver registros de autenticación en  [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/view-auth-logs-in-wp.md)
 * [Ver y editar los detalles de la cuenta de  [!DNL Workfront Proof]  de su organización](../../../workfront-proof/wp-acct-admin/account-settings/view-edit-org-wp-acct-details.md)
 * [Ver el  [!DNL Workfront Proof] historial de cuentas de administrador de su organización](../../../workfront-proof/wp-acct-admin/account-settings/view-org-wp-acct-history.md)
-* [Comprobación del almacenamiento de  [!DNL Workfront Proof] ](../../../workfront-proof/wp-acct-admin/account-settings/check-workfront-proof-storage.md)
+* [Comprobación del almacenamiento de  [!DNL Workfront Proof] &#x200B;](../../../workfront-proof/wp-acct-admin/account-settings/check-workfront-proof-storage.md)
 * [Solicitar una nueva copia de seguridad de datos en  [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/request-new-data-backup-in-wp.md)

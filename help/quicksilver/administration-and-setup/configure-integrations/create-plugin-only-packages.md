@@ -60,7 +60,7 @@ Los usuarios pueden usar los complementos de [!UICONTROL [!DNL Adobe Workfront] 
 * Ver proyectos y tareas
 * y más
 
-Para obtener más información sobre los complementos de [!UICONTROL [!DNL Adobe Workfront] para [!DNL Creative Cloud]], consulte complemento de [[!DNL Adobe Workfront]  para aplicaciones de  [!DNL Creative Cloud] ](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-cc.md).
+Para obtener más información sobre los complementos de [!UICONTROL [!DNL Adobe Workfront] para [!DNL Creative Cloud]], consulte complemento de [[!DNL Adobe Workfront]  para aplicaciones de  [!DNL Creative Cloud] &#x200B;](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-cc.md).
 
 ## Creación de paquetes para complementos de [!UICONTROL [!DNL Adobe Workfront] para [!DNL Creative Cloud]]
 

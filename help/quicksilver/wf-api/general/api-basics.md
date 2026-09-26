@@ -527,7 +527,7 @@ Como se muestra en el ejemplo siguiente, puede utilizar el parámetro de solicit
 ### Realización de actualizaciones anidadas
 
 Algunos objetos tienen colecciones de propiedad privada que se pueden actualizar. Por ejemplo, en el siguiente ejemplo se muestra cómo sobrescribir las asignaciones existentes de una tarea determinada:
-<pre>PUT /attask/api/&lt;supported-version&gt;/task/4c7...?updates= <br>{<br> asignaciones: [ <br> { <br> assignedToID: "2222...54d0, <br> assignmentPercent: 50.0 <br> },{ <br> roleID: "1111...54d0"<br> } <br> ] <br></pre>
+<pre>PUT /attask/api/&lt;supported-version&gt;/task/4c7...?updates= <br>&lbrace;<br> asignaciones: [ <br> { <br> assignedToID: "2222...54d0, <br> assignmentPercent: 50.0 <br> },{ <br> roleID: "1111...54d0"<br> } <br> ] <br></pre>
 
 >[!NOTE]
 >
@@ -554,7 +554,7 @@ A continuación se muestra un ejemplo de cada tipo de acción: 
 
 En el siguiente ejemplo se muestra la sintaxis para compartir un proyecto con un equipo:
 <pre>PUT /attask/api/&lt;supported-version&gt;/project/123abcxxxxxxxxxxxxxxxxxxxxxxxx/share?accessorID=123abcxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</pre>Al editar un objeto, puede reemplazar todas las reglas de acceso de un objeto haciendo PUT y enviando actualizaciones similares al ejemplo siguiente:
-<pre>PUT /attask/api/&lt;supported-version&gt;/project/123abcxxxxxxxxxxxxxxxxxxxxxxx?method=PUT&amp;updates={accessRules:[{accessorID:'123abcxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</pre>El ejemplo siguiente muestra la sintaxis para mover una tarea de un proyecto a otro:
+<pre>PUT /attask/api/&lt;supported-version&gt;/project/123abcxxxxxxxxxxxxxxxxxxxxxxx?method=PUT&amp;updates=&lbrace;accessRules:&lbrack;&lbrace;accessorID:'123abcxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</pre>El ejemplo siguiente muestra la sintaxis para mover una tarea de un proyecto a otro:
 <pre>PUT /attask/api/&lt;supported-version&gt;/task/4c7.../move?projectID=5d8...</pre>
 
 ## Comportamiento de DELETE

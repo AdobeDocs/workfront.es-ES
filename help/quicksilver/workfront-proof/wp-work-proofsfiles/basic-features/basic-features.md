@@ -39,4 +39,4 @@ Esta sección contiene los siguientes artículos:
 * [El panel de control en  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/basic-features/dashboard.md)
 * [Diseño de página en la ficha Vistas en  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/basic-features/page-layout-view.md)
 * [Buscando [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/basic-features/search.md)
-* [Explicación de la pista de auditoría de actividad  [!DNL Workfront Proof] ](../../../workfront-proof/wp-work-proofsfiles/basic-features/activity-audit-trail.md)
+* [Explicación de la pista de auditoría de actividad  [!DNL Workfront Proof] &#x200B;](../../../workfront-proof/wp-work-proofsfiles/basic-features/activity-audit-trail.md)

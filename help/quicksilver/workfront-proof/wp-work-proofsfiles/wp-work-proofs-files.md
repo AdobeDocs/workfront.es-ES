@@ -49,4 +49,4 @@ Esta sección contiene las siguientes subsecciones:
   -->
 
 * [Revisión de pruebas en el Visor de corrección web](../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/review-proofs-in-wpv.md)
-* [[!UICONTROL Compartir pruebas y archivos ]](../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-proofs-and-files.md)
+* [[!UICONTROL Compartir pruebas y archivos &#x200B;]](../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-proofs-and-files.md)

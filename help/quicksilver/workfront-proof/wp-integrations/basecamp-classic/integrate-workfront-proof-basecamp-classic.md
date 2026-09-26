@@ -97,7 +97,7 @@ Después de configurar [Configuración de la cuenta](https://support.workfront.c
 >
 >Completar estos pasos es más fácil si tiene la sesión [!DNL Basecamp] abierta en una ventana del explorador y la sesión [!DNL Workfront Proof] abierta en otra ventana.
 
-* [Recuperando su token de API  [!DNL Basecamp] ](#retrieving-your-basecamp-api-token)
+* [Recuperando su token de API  [!DNL Basecamp] &#x200B;](#retrieving-your-basecamp-api-token)
 * [Agregando tu token de API  [!DNL Basecamp] a tu configuración personal](#adding-your-basecamp-api-token-to-your-personal-settings)
 
 ### Recuperando su token de API [!DNL Basecamp]
@@ -125,7 +125,7 @@ Para pegar el token de la API [!DNL Basecamp] en [!DNL Workfront Proof] [configu
    Un administrador debe habilitar primero la integración de [!DNL Basecamp Classic] para que pueda habilitar su configuración personal. Para obtener información sobre cómo configurar la integración, consulte [Habilitar la  [!DNL Basecamp] integración con [!DNL Workfront Proof]](#enabling-the-basecamp-integration-with-workfront-proof) en este artículo.
 
 1. En el cuadro Token de API [!DNL Basecamp] (2), pegue el token que acaba de copiar de su página [!DNL Basecamp] [!UICONTROL Mi información] en el campo (3).\
-   Para obtener información sobre cómo copiar el token de API [!DNL Basecamp], consulte [Recuperación del token de API [!DNL Basecamp] 3} en este artículo.](#retrieving-your-basecamp-api-token)
+   Para obtener información sobre cómo copiar el token de API [!DNL Basecamp], consulte [Recuperación del token de API [!DNL Basecamp] 3&rbrace; en este artículo.](#retrieving-your-basecamp-api-token)
 
 1. Haga clic en **[!UICONTROL Guardar]** (4).
 

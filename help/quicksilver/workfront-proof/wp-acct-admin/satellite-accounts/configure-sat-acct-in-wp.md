@@ -51,7 +51,7 @@ Cualquier administrador de facturación puede crear una cuenta satélite. Para o
 Para crear una cuenta satélite, haga lo siguiente:
 
 1. Vaya a la página [!UICONTROL Facturación].\
-   Para obtener más información acerca de la página de facturación, consulte [La página Facturación de  [!DNL Workfront Proof] ](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md).
+   Para obtener más información acerca de la página de facturación, consulte [La página Facturación de  [!DNL Workfront Proof] &#x200B;](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md).
 
 1. Haga clic en el botón **[!UICONTROL Nueva cuenta satélite]**. (1)
 
@@ -69,7 +69,7 @@ Para crear una cuenta satélite, haga lo siguiente:
 Después de configurar la cuenta satélite como se describe en [Creación de una cuenta satélite](#creating-a-satellite-account), debe actualizarla al plan deseado.
 
 1. Vaya a la página [!UICONTROL Facturación].\
-   Para obtener más información acerca de la página de facturación, consulte [La página Facturación de  [!DNL Workfront Proof] ](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md).
+   Para obtener más información acerca de la página de facturación, consulte [La página Facturación de  [!DNL Workfront Proof] &#x200B;](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md).
 
 1. En el menú desplegable **[!UICONTROL Sus cuentas]**, que se encuentra en la parte superior de la página (1), elija la cuenta satélite correspondiente.
 

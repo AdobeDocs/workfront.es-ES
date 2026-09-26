@@ -30,6 +30,6 @@ ht-degree: 58%
 
 Esta sección contiene las siguientes subsecciones:
 
-* [Usar la aplicación móvil de [!DNL Adobe Workfront] ](../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/use-the-mobile-app.md)
+* [Usar la aplicación móvil de [!DNL Adobe Workfront] &#x200B;](../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/use-the-mobile-app.md)
 * [Usar  [!DNL Adobe Workfront View]](../../workfront-basics/mobile-apps/using-workfront-view/use-workfront-view.md)
-* [Sugerencias, trucos y solución de problemas para las aplicaciones móviles de [!DNL Adobe Workfront] ](../../workfront-basics/mobile-apps/tips-tricks-and-troubleshooting/tips-tricks-and-troubleshooting-mobile.md)
+* [Sugerencias, trucos y solución de problemas para las aplicaciones móviles de [!DNL Adobe Workfront] &#x200B;](../../workfront-basics/mobile-apps/tips-tricks-and-troubleshooting/tips-tricks-and-troubleshooting-mobile.md)

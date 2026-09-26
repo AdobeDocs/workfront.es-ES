@@ -64,7 +64,7 @@ Cualquier administrador de [!DNL Workfont Proof] puede aceptar una solicitud de 
 
 1. Haga clic en **[!UICONTROL Configuración]** > **[!UICONTROL Configuración de la cuenta]** y, a continuación, abra la pestaña **[!UICONTROL Socios]**.
 
-1. Haga clic en **Aceptar**.****
+1. Haga clic en **Aceptar**.**&#x200B;**
 
 >[!NOTE]
 >
