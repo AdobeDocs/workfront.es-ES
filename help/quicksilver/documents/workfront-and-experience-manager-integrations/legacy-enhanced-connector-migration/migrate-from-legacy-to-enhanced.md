@@ -50,7 +50,7 @@ Para los clientes con Adobe Experience Manager Assets as a Cloud Service, la rut
 >
 > Para los partners que deseen certificar el conector mejorado, consulte el siguiente artículo: [Workfront para Experience Manager con conector mejorado Expert Series](https://experienceleague.adobe.com/en/docs/experience-manager-learn/assets/workfront/enhanced-connector/aem-experts-series/overview).
 
-Para implementar el conector mejorado, consulte [Configuración de Workfront para el conector mejorado de Experience Manager](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/integrations/workfront-connector-configure).
+Para implementar el conector mejorado, consulte [Configuración de Workfront para el conector mejorado de Experience Manager](https://experienceleague.adobe.com/es/docs/experience-manager-65/content/assets/integrations/workfront-connector-configure).
 
 
 ## Mover recursos existentes
