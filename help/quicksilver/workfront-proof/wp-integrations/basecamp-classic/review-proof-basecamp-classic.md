@@ -3,24 +3,32 @@ product-previous: workfront-proof
 product-area: documents;workfront-integrations
 navigation-topic: basecamp-classic
 title: Revisión de una prueba en Basecamp Classic
-description: Basecamp es una herramienta de gestión de proyectos en línea desarrollada por 37signals. Si usa Basecamp para la administración de proyectos, puede ofrecer a su equipo de proyectos herramientas de revisión y aprobación más completas con  [!DNL Workfront Proof].
+description: Basecamp es una herramienta de gestión de proyectos en línea desarrollada por 37signals. Si usa Basecamp para la administración de proyectos, puede ofrecer al equipo del proyecto herramientas de revisión y aprobación más completas con [!DNL Workfront Proof].
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: b14f33dc-e059-4ee2-a429-9f1852a2b9bb
-TQID: https://experienceleague.adobe.com/H4oPVQW1kV-6efM04x0lIa1mUOrGfskjfcSVo8t8O2I
+TQID: 'https://experienceleague.adobe.com/H4oPVQW1kV-6efM04x0lIa1mUOrGfskjfcSVo8t8O2I'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+    internal-label: Workfront Proof
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 864
-ht-degree: 99%
-
+source-wordcount: '864'
+ht-degree: 97%
 ---
-
 # Revisión de una prueba en [!DNL Basecamp] Classic
 
 >[!IMPORTANT]

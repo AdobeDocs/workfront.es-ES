@@ -5,13 +5,25 @@ author: Alina
 feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 697499fadf4d5d22292ededed381cb72e53fcae3
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+subfeature_v2:
+  - id: eb361af2-3e4f-4a79-b5f3-7a344ac5794c
+    internal-label: Workfront Planning
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
 source-wordcount: '921'
 ht-degree: 14%
-
 ---
-
 
 # Introducción a Adobe Workfront Planning como producto independiente
 
@@ -43,7 +55,7 @@ Este artículo contiene información general sobre Workfront Planning cuando su 
 
 Adobe Workfront Planning es un producto independiente de Adobe Workfront. El propósito de Workfront Planning es desbloquear la visibilidad completa de los detalles operativos de una organización y responder a preguntas comerciales críticas durante el ciclo de planificación de trabajo.
 
-Workfront Planning puede responder preguntas como las siguientes:
+Planificación de Workfront puede responder preguntas como las siguientes:
 
 * ¿Cuántas campañas se están ejecutando en EMEA en el cuarto trimestre?
 * ¿Hay superposiciones de público entre campañas simultáneas?
@@ -75,11 +87,11 @@ Las siguientes son funciones incluidas en Planning cuando se adquiere como produ
 
   Para obtener más información, consulte los siguientes artículos:
 
-   * [Crear espacios de trabajo](/help/quicksilver/planning/architecture/create-workspaces.md)
-   * [Crear tipos de registro](/help/quicksilver/planning/architecture/create-record-types.md)
-   * [Crear registros](/help/quicksilver/planning/records/create-records.md)
-   * [Crear campos](/help/quicksilver/planning/fields/create-fields.md)
-   * [Administrar vistas de registros](/help/quicksilver/planning/views/manage-record-views.md)
+  * [Crear espacios de trabajo](/help/quicksilver/planning/architecture/create-workspaces.md)
+  * [Crear tipos de registro](/help/quicksilver/planning/architecture/create-record-types.md)
+  * [Crear registros](/help/quicksilver/planning/records/create-records.md)
+  * [Crear campos](/help/quicksilver/planning/fields/create-fields.md)
+  * [Administrar vistas de registros](/help/quicksilver/planning/views/manage-record-views.md)
 * Creación de automatizaciones para generar registros de Planning
 
   Para obtener más información, consulte [Configuración de automatizaciones de Adobe Workfront Planning](/help/quicksilver/planning/records/configure-automations-to-create-records.md)
@@ -99,8 +111,8 @@ Las siguientes son funciones incluidas en Planning cuando se adquiere como produ
 
   Para obtener más información, consulte los siguientes artículos:
 
-   * [Administrar usuarios en Adobe Workfront Planning como producto independiente](/help/quicksilver/planning/planning-sta/manage-users-in-planning-sta.md)
-   * [Administrar equipos en Adobe Workfront Planning como producto independiente](/help/quicksilver/planning/planning-sta/manage-users-in-planning-sta.md)
+  * [Administrar usuarios en Adobe Workfront Planning como producto independiente](/help/quicksilver/planning/planning-sta/manage-users-in-planning-sta.md)
+  * [Administrar equipos en Adobe Workfront Planning como producto independiente](/help/quicksilver/planning/planning-sta/manage-users-in-planning-sta.md)
 
 * Acceder a los detalles de cliente y licencia en Configuración
 
@@ -125,13 +137,13 @@ Las siguientes son funcionalidades que no se incluyen en Planning cuando se adqu
 * Acceda a la opción de perfil de Workfront desde el menú principal de Adobe
 
 
-## Terminología de Workfront Planning
+## Terminología de Planificación de Workfront
 
 Workfront Planning incluye conceptos propietarios y terminología. Independientemente del paquete de Planning que haya adquirido su organización, la terminología es la misma.
 
-Familiarícese con los nuevos conceptos antes de comenzar a configurar Workfront Planning para su organización.
+Familiarícese con los nuevos conceptos antes de comenzar a configurar Planificación de Workfront para su organización.
 
-El marco de Workfront Planning es totalmente personalizable. Es posible crear todos los tipos de registros, sus atributos y cualquier campo asociado a ellos para adaptarlos a las necesidades exactas de su organización.
+El marco de Planificación de Workfront es totalmente personalizable. Es posible crear todos los tipos de registros, sus atributos y cualquier campo asociado a ellos para adaptarlos a las necesidades exactas de su organización.
 
 Para obtener más información, consulte la sección &quot;Terminología de Workfront Planning&quot; en el artículo [Introducción a Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
 

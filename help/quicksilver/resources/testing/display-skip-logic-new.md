@@ -2,13 +2,14 @@
 title: Agregar lógica de visualización y lógica de omisión a un formulario personalizado
 description: Agregar lógica de visualización y lógica de omisión a un formulario personalizado
 draft: Probably
-source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: '1475'
-ht-degree: 98%
-
+source-wordcount: '1491'
+ht-degree: 95%
 ---
-
 # Agregar lógica de visualización y lógica de omisión a un formulario personalizado
 
 Se pueden utilizar reglas inteligentes para hacer que un formulario personalizado sea dinámico y más relevante para los usuarios que lo rellenan. Cuando un usuario responde de una determinada manera a un campo de opción múltiple en un formulario, una regla inteligente le muestra lo que desea que vea a continuación, en función de esa respuesta.
@@ -36,7 +37,7 @@ Los tipos de campo de opción múltiple son desplegable, casillas de verificaci�
   En este caso, se puede agregar un campo de Texto descriptivo que remita al usuario al departamento de ventas. En el primer campo personalizado en que se pregunta qué tipo de contenido de marketing necesita el usuario, puede agregar una regla de lógica de omisión que muestre solo la línea de texto cuando un usuario seleccione el botón de opción de Documento técnico en el primer campo.
 
   Esto sería especialmente útil si se agregasen muchos otros campos acerca de logotipos, actualizaciones del sitio web o folletos que este usuario no necesitase ver.
-Se puede aplicar una regla de lógica de omisión solo a un campo personalizado, pero no a un widget o a una sección.
+  Se puede aplicar una regla de lógica de omisión solo a un campo personalizado, pero no a un widget o a una sección.
 
 
 ## Requisitos de acceso
@@ -133,7 +134,7 @@ Para obtener más información, siga trabajando en el formulario personalizado d
 
 1. Haga clic en **Formulario personalizado**.
 1. Haga clic en el nombre del formulario **Formulario personalizado de ejemplo: lógica de visualización de aprendizaje y lógica de omisión** que creó en los pasos anteriores para abrirlo y editarlo.
-1. Seleccione el campo desplegable que creó denominado *¿Qué tipo de sitio web necesita?*, añada las siguientes opciones al campo y haga clic en **Aplicar**:
+1. Seleccione el campo desplegable que creó denominado *¿Qué tipo de sitio web necesita?*, agregue las siguientes opciones al campo y, a continuación, haga clic en **Aplicar**:
 
    *Comercio electrónico*
 
@@ -141,7 +142,7 @@ Para obtener más información, siga trabajando en el formulario personalizado d
 
    *Abono*
 
-1. Abra la ficha **Agregar un campo** y cree un campo de **texto con formato** denominado *¿Cuál es el objetivo del sitio web?*, a continuación, haga clic en **Aplicar**.
+1. Abra la ficha **Agregar un campo**, cree un campo de **texto con formato** denominado *¿Cuál es el objetivo del sitio web?* y, a continuación, haga clic en **Aplicar**.
 
    En esta organización, el equipo de redacción técnica crea un sitio de documentación de Ayuda, no el departamento de marketing. Por lo tanto, no se necesita más información de un usuario que selecciona la documentación de Ayuda en el segundo campo. Crearemos una línea de texto (un campo de texto descriptivo) que les dirá que vean al equipo de escritura técnica en su lugar. Y usaremos una regla de lógica de omisión que lleva a ese usuario hasta esa línea de texto.
 

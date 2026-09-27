@@ -3,33 +3,40 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: organization-setup
 title: Crear y editar compañías
-description: Puede agregar compañías a  [!DNL Adobe Workfront] y usarlas para la planificación financiera, con fines de generación de informes, para definir permisos en torno a objetos y para mantener la información confidencial.
+description: Puede agregar compañías a [!DNL Adobe Workfront] y utilizarlas para la planificación financiera, la generación de informes, la definición de permisos sobre objetos y la confidencialidad de la información.
 author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: bb597032-3395-4c9a-b622-5c920ba55131
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/NUy63Nw1T8QndFvqkJKLIfY4Z5ECSSmbSuvfGzvbgEE
+TQID: 'https://experienceleague.adobe.com/NUy63Nw1T8QndFvqkJKLIfY4Z5ECSSmbSuvfGzvbgEE'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
 subfeature_v2:
   - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Privacy
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1469
+source-wordcount: '1470'
 ht-degree: 18%
-
 ---
-
 # Crear y editar empresas
 
 <!--Audited: 01/2024-->
@@ -88,15 +95,15 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
 * Como jefe de proyecto, puede identificar los recursos disponibles en la misma compañía.
 * Puede mantener la información privada entre empresas eligiendo una o todas las opciones de configuración siguientes:
 
-   * Los usuarios de la misma compañía pueden ver las solicitudes de los demás.
+  * Los usuarios de la misma compañía pueden ver las solicitudes de los demás.
 
-     Para obtener más información sobre cómo un administrador de [!DNL Workfront] puede conceder acceso similar a las solicitudes según la compañía de los usuarios, consulte la sección [Configurar las preferencias de tareas y problemas para todos en [!DNL Workfront]](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md#changing-task-and-issue-preferences) en el artículo [Configurar las preferencias de tareas y problemas en todo el sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
+    Para obtener más información sobre cómo un administrador de [!DNL Workfront] puede conceder acceso similar a las solicitudes según la compañía de los usuarios, consulte la sección [Configurar las preferencias de tareas y problemas para todos en [!DNL Workfront]](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md#changing-task-and-issue-preferences) en el artículo [Configurar las preferencias de tareas y problemas en todo el sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
 
-     Para obtener más información sobre cómo un administrador de grupo puede conceder acceso similar a las solicitudes según la compañía de los usuarios, vea [Configurar las preferencias de tareas y problemas para un grupo](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md).
+    Para obtener más información sobre cómo un administrador de grupo puede conceder acceso similar a las solicitudes según la compañía de los usuarios, vea [Configurar las preferencias de tareas y problemas para un grupo](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md).
 
-   * Los usuarios solo pueden ver las colas de solicitudes asociadas a sus empresas. Para obtener más información sobre cómo restringir la visibilidad de una cola de solicitudes, vea [Proporcionar acceso a las colas de solicitudes](../../../manage-work/requests/create-and-manage-request-queues/provide-access-to-request-queues.md).
-   * Puede restringir el acceso de los usuarios únicamente a los usuarios de su empresa o compañía y de la compañía principal. Para obtener información acerca de la funcionalidad principal de la compañía con respecto a la privacidad del usuario, vea [Crear o modificar niveles de acceso personalizados](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
-   * Los usuarios pueden restringir las actualizaciones que realizan en los elementos para que solo los usuarios de su compañía puedan verlos. Para obtener más información acerca de cómo hacer que una actualización sea privada para una compañía, vea [Trabajo de actualización](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+  * Los usuarios solo pueden ver las colas de solicitudes asociadas a sus empresas. Para obtener más información sobre cómo restringir la visibilidad de una cola de solicitudes, vea [Proporcionar acceso a las colas de solicitudes](../../../manage-work/requests/create-and-manage-request-queues/provide-access-to-request-queues.md).
+  * Puede restringir el acceso de los usuarios únicamente a los usuarios de su empresa o compañía y de la compañía principal. Para obtener información acerca de la funcionalidad principal de la compañía con respecto a la privacidad del usuario, vea [Crear o modificar niveles de acceso personalizados](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+  * Los usuarios pueden restringir las actualizaciones que realizan en los elementos para que solo los usuarios de su compañía puedan verlos. Para obtener más información acerca de cómo hacer que una actualización sea privada para una compañía, vea [Trabajo de actualización](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 ## Crear o editar una compañía en [!DNL Workfront] {#create-or-edit-a-company-in-workfront}
 

@@ -1,6 +1,6 @@
 ---
 title: Información general sobre campos de fórmula
-description: En Adobe Workfront Planning, puede crear campos de fórmula que utilicen funciones y campos existentes para calcular un nuevo valor personalizado.
+description: En Planificación de Workfront de Adobe, puede crear campos de fórmula que utilicen funciones y campos existentes para calcular un nuevo valor personalizado.
 feature: Workfront Planning
 role: User, Admin
 author: Alina
@@ -8,21 +8,29 @@ recommendations: noDisplay, noCatalog
 exl-id: 5027d611-916e-492d-9a44-841bdde11c94
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/bXHqOBB2iT-YWoWM7CSnOTl8EzFfJJH9PLrRIzwaKNw
+TQID: 'https://experienceleague.adobe.com/bXHqOBB2iT-YWoWM7CSnOTl8EzFfJJH9PLrRIzwaKNw'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+subfeature_v2:
+  - id: eb361af2-3e4f-4a79-b5f3-7a344ac5794c
+    internal-label: Workfront Planning
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 347c3e87fea0289616bf1a52779c07501a8ec69d
+    internal-label: Reporting
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 784
-ht-degree: 31%
-
+source-wordcount: '784'
+ht-degree: 32%
 ---
-
 # Información general sobre campos de fórmula
 
 <!--
@@ -33,7 +41,7 @@ ht-degree: 31%
 
 {{planning-important-intro}}
 
-Puede crear campos personalizados en Adobe Workfront Planning haciendo referencia a los campos existentes y conectándolos en un campo de tipo fórmula.
+Puede crear campos personalizados en Planificación de Workfront de Adobe haciendo referencia a los campos existentes y conectándolos en un campo de tipo fórmula.
 
 Los campos de fórmula generan un nuevo valor utilizando los valores existentes de otros campos en un tipo de registro y una función que indica cómo se deben calcular los valores existentes.
 
@@ -149,7 +157,7 @@ Old:
 * La referencia a los tipos de registros conectados o a sus campos de búsqueda en una fórmula depende de los permisos que tenga para los tipos de registros conectados. Si no tiene permisos para ver el tipo de registro, no puede hacer referencia a sus campos en una fórmula.
 * No puede cambiar el tipo de campo de un campo Fórmula después de guardarlo.
 * Puede actualizar el cálculo de un campo de fórmula después de guardarlo, y los resultados del cálculo se actualizan automáticamente para todos los registros del mismo tipo.
-* Debe añadir los campos a los que hace referencia en las fórmulas tal y como aparecen en la interfaz de Workfront Planning.
+* Debe añadir los campos a los que hace referencia en las fórmulas tal y como aparecen en la interfaz de Planificación de Workfront.
 * Sólo puede hacer referencia a campos que se muestran en la vista de tabla de un tipo de registro o en la página de detalles del registro.
 * Puede definir el formato para el valor de un cálculo de fórmula eligiendo entre las siguientes opciones de formato:
 

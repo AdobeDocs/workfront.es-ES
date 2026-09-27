@@ -8,35 +8,48 @@ recommendations: noDisplay, noCatalog
 exl-id: 54df36b3-01a3-4fd3-b2d3-64ffb2fe5918
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/9T0iHPXONMWUcVb03kMr-rmQ1hAvTxtLoDzlucqaK6A
+TQID: 'https://experienceleague.adobe.com/9T0iHPXONMWUcVb03kMr-rmQ1hAvTxtLoDzlucqaK6A'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+subfeature_v2:
+  - id: eb361af2-3e4f-4a79-b5f3-7a344ac5794c
+    internal-label: Workfront Planning
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Taxonomy
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 2611
+source-wordcount: '2611'
 ht-degree: 1%
-
 ---
-
 # Convierta su primera victoria en un impulso sostenible: un manual para escalado administrado
 
 >[!IMPORTANT]
 >
->La información de este artículo hace referencia a Adobe Workfront Planning, una funcionalidad adicional de Adobe Workfront.
+>La información de este artículo hace referencia a Planificación de Workfront de Adobe, una funcionalidad adicional de Adobe Workfront.
 >
 >Su organización debe tener un paquete de Workfront Planning Prime o superior para poder admitir las funciones recomendadas en este artículo.
 >
->Para obtener una lista de los requisitos para acceder a Workfront Planning, consulte [Información general sobre el acceso a Adobe Workfront Planning](/help/quicksilver/planning/access/access-overview.md).
+>Para obtener una lista de los requisitos para acceder a Planificación de Workfront, consulte [Información general sobre el acceso a Planificación de Workfront de Adobe](/help/quicksilver/planning/access/access-overview.md).
 > 
 >Para obtener información general sobre Workfront Planning, consulte [Introducción a Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
 
@@ -292,13 +305,13 @@ En las subsecciones siguientes puede encontrar ideas para los principales actore
 
 * **Funciones**:
 
-   * Gestiona el Workspace de taxonomía global.
+  * Gestiona el Workspace de taxonomía global.
 
-   * Facilita la vía de la madurez en el terreno mediante la promoción de los éxitos locales a las normas mundiales.
+  * Facilita la vía de la madurez en el terreno mediante la promoción de los éxitos locales a las normas mundiales.
 
-   * Mantiene las vistas de Workspace principal para la creación de informes ejecutivos.
+  * Mantiene las vistas de Workspace principal para la creación de informes ejecutivos.
 
-   * Dirige la auditoría semántica mensual en todos los espacios de trabajo.
+  * Dirige la auditoría semántica mensual en todos los espacios de trabajo.
 
 ### El campeón de radio (propietario del proceso de equipo)
 
@@ -306,13 +319,13 @@ En las subsecciones siguientes puede encontrar ideas para los principales actore
 
 * **Funciones**:
 
-   * Actúa como único punto de contacto para el equipo funcional.
+  * Actúa como único punto de contacto para el equipo funcional.
 
-   * Es propietario de la estructura del espacio de trabajo local y de los experimentos de campo personalizados.
+  * Es propietario de la estructura del espacio de trabajo local y de los experimentos de campo personalizados.
 
-   * Garantiza que el equipo utilice la puerta de enlace controlada Forms para la entrada de datos.
+  * Garantiza que el equipo utilice la puerta de enlace controlada Forms para la entrada de datos.
 
-   * Participa en el protocolo de enlace colaborativo durante la armonización.
+  * Participa en el protocolo de enlace colaborativo durante la armonización.
 
 ### El patrocinador ejecutivo (liderazgo de marketing)
 
@@ -320,11 +333,11 @@ En las subsecciones siguientes puede encontrar ideas para los principales actore
 
 * **Funciones**:
 
-   * Define las OKR de marketing empresarial en el espacio de trabajo de taxonomía global.
+  * Define las OKR de marketing empresarial en el espacio de trabajo de taxonomía global.
 
-   * Campeona el valor de Visibilidad Paso 1 a otros líderes.
+  * Campeona el valor de Visibilidad Paso 1 a otros líderes.
 
-   * Refuerza la asignación de recursos al 80/20 (valor sobre limpieza).
+  * Refuerza la asignación de recursos al 80/20 (valor sobre limpieza).
 
 ### El posible cliente de habilitación (Change Management)
 
@@ -332,11 +345,11 @@ En las subsecciones siguientes puede encontrar ideas para los principales actore
 
 * **Funciones**:
 
-   * Aloja puntos de contacto periódicos de Horario de oficina y Talleres de descubrimiento.
+  * Aloja puntos de contacto periódicos de Horario de oficina y Talleres de descubrimiento.
 
-   * Mantiene el escaparate interno de Historia de éxito.
+  * Mantiene el escaparate interno de Historia de éxito.
 
-   * Identifica los puntos de fricción técnica que debe resolver Enterprise Architect.
+  * Identifica los puntos de fricción técnica que debe resolver Enterprise Architect.
 
 ## &#x200B;10. Lista de comprobación para escalar el siguiente equipo
 

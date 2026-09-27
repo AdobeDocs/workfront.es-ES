@@ -3,28 +3,38 @@ content-type: tips-tricks-troubleshooting
 product-previous: workfront-proof
 product-area: documents
 navigation-topic: tips-tricks-and-troubleshooting-workfront-proof-tech-corner
-title: Solución de problemas,  [!DNL Workfront Proof] visor de corrección
+title: Solución de problemas - [!DNL Workfront Proof] visor de revisión
 description: Si el contenido de la revisión no se carga y solo puede ver un visor de revisiones vacío, lo más probable es que algo esté bloqueando esta acción localmente.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: ce463565-d21e-4dbc-8de8-78bcbf16fb2c
-TQID: https://experienceleague.adobe.com/M6KHW8gqdQPde-oeq2bv7eQlwwDnzWMjRFP3RaDKtPA
+TQID: 'https://experienceleague.adobe.com/M6KHW8gqdQPde-oeq2bv7eQlwwDnzWMjRFP3RaDKtPA'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+    internal-label: Workfront Proof
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Security
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 837
-ht-degree: 97%
-
+source-wordcount: '980'
+ht-degree: 100%
 ---
-
 # Solución de problemas - [!DNL Workfront Proof] visor de revisión
 
 <!-- Audited: 01/2024 -->
@@ -82,13 +92,13 @@ If there is some storage allocated, but you're working with the bigger proofs wi
 Si la revisión no se abre en ningún explorador del equipo, intente abrirla en otro equipo de su ubicación o fuera de ella. Esto le permitirá determinar si hay un problema en su equipo concreto o si se trata de un problema de la red local.
 Si su nivel de seguridad es mayor, es posible que las conexiones a [!DNL Workfront Proof] estén bloqueadas por:
 
-   * Su software AV local
-   * Su solución de seguridad de red
-   * Configuración de DNS, cortafuegos o proxy
-   * Estos son los ajustes que están fuera de nuestro control. Existen varias soluciones de seguridad disponibles y no podemos saber cuáles están implementadas en tu red ni cuáles pueden estar bloqueando conexiones a [!DNL Workfront Proof]. Tampoco es tarea de [!DNL Workfront Proof] decidir la configuración de seguridad interna. Si tiene problemas para abrir las pruebas en varias máquinas en su ubicación/red, te recomendamos que te pongas en contacto con su equipo de TI para que verifiquen la configuración de la red y autoricen o añadan el [!DNL Workfront Proof] a la lista de permitidos, si es necesario.
+  * Su software AV local
+  * Su solución de seguridad de red
+  * Configuración de DNS, cortafuegos o proxy
+  * Estos son los ajustes que están fuera de nuestro control. Existen varias soluciones de seguridad disponibles y no podemos saber cuáles están implementadas en tu red ni cuáles pueden estar bloqueando conexiones a [!DNL Workfront Proof]. Tampoco es tarea de [!DNL Workfront Proof] decidir la configuración de seguridad interna. Si tiene problemas para abrir las pruebas en varias máquinas en su ubicación/red, te recomendamos que te pongas en contacto con su equipo de TI para que verifiquen la configuración de la red y autoricen o añadan el [!DNL Workfront Proof] a la lista de permitidos, si es necesario.
 
 * ¿Se permiten las conexiones a [!DNL Workfront Proof] en su red?
-Dentro del visualizador de pruebas cargamos los mosaicos: fragmentos de las páginas. Si este contenido no se carga correctamente en su extremo, es posible que algunas conexiones a [!DNL Workfront Proof] estén bloqueadas en su red. Debe asegurarse de que todas las conexiones y todo el contenido de *.proofhq.com se añada a la lista de permitidos. Su equipo de TI debe poder ayudarle a verificar esto.
+Dentro del visor de corrección cargamos los mosaicos: fragmentos de las páginas. Si este contenido no se carga correctamente en su extremo, es posible que algunas conexiones a [!DNL Workfront Proof] estén bloqueadas en su red. Debe asegurarse de que todas las conexiones y todo el contenido de *.proofhq.com se añada a la lista de permitidos. Su equipo de TI debe poder ayudarle a verificar esto.
 
 ## Revisar complementos
 

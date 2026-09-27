@@ -8,21 +8,26 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 2c5727ee-bf8f-4664-a9b1-c5da356d94f5
-TQID: https://experienceleague.adobe.com/qLRbcWkbOxvBp5Xw1aCLjGZXHMtu2k70NgOonZsZ0lk
+TQID: 'https://experienceleague.adobe.com/qLRbcWkbOxvBp5Xw1aCLjGZXHMtu2k70NgOonZsZ0lk'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: 682536a8-4872-5ee6-a8a6-8012d713482c
+    internal-label: Workfront API
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Implementation
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 266
+source-wordcount: '266'
 ht-degree: 100%
-
 ---
-
 # Carga de archivos mediante webhooks de documentos
 
 La carga de un archivo a un proveedor de almacenamiento de documentos es un proceso de dos pasos que requiere dos puntos finales de API independientes. Adobe Workfront inicia el proceso de carga llamando a /uploadInit Este punto final devuelve un ID de documento que luego se pasa a /upload al cargar los bytes del documento. Según el sistema de almacenamiento de documentos subyacente, puede que sea necesario crear un documento de longitud cero y actualizar el contenido del documento más adelante.

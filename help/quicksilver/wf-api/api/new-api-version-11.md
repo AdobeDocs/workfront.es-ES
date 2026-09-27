@@ -9,22 +9,28 @@ role: Developer
 exl-id: b8826dc6-9791-49f6-923d-5a0c5392a8b0
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/jxT6mJm6ValA-MH9L0Xl-aE0Q5Oq-MxWdg-1NvGZ5EY
+TQID: 'https://experienceleague.adobe.com/jxT6mJm6ValA-MH9L0Xl-aE0Q5Oq-MxWdg-1NvGZ5EY'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: 682536a8-4872-5ee6-a8a6-8012d713482c
+    internal-label: Workfront API
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Customer experience
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 3231
-ht-degree: 93%
-
+source-wordcount: '3591'
+ht-degree: 100%
 ---
-
 # Novedades de la versión 11 de la API
 
 * [Recursos añadidos](#added-resources)
@@ -339,7 +345,7 @@ Si un usuario no tiene acceso a un objeto en Workfront que necesita, puede solic
    <td>Campos directos</td> 
    <td> 
     <ul> 
-     <li> <p style="font-weight: bold;">acción</p> <p>Se ha añadido el posible valor BUDGETING_INFORMATION. Esto permite a los usuarios con permiso editar prioridades y presupuestar horas en el planificador.  </p> </li> 
+     <li> <p style="font-weight: bold;">acción</p> <p>Se añadió el valor posible BUDGETING_INFORMATION. Esto permite a los usuarios con permisos editar prioridades y horas presupuestadas en el planificador.  </p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -431,7 +437,7 @@ Un objeto ApprovalPath es una rama dentro de un proceso de aprobación. Las ruta
    <td>Campos directos</td> 
    <td> 
     <ul> 
-     <li style="font-weight: bold;"> <p>durationUnit </p> <p style="font-weight: normal;">Se ha añadido el posible valor ET. Este valor representa la unidad de tiempo de los meses transcurridos, que hace referencia a meses sin tener en cuenta fines de semana o festivos.  </p> </li> 
+     <li style="font-weight: bold;"> <p>durationUnit </p> <p style="font-weight: normal;">Se ha añadido el posible valor ET. Este valor representa la unidad de tiempo de los meses transcurridos, que hace referencia a meses sin tener en cuenta fines de semana ni festivos.  </p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -449,7 +455,7 @@ Un objeto ApprovalProcess es una aprobación de varios pasos que puede asociarse
    <td>Campos directos</td> 
    <td> 
     <ul> 
-     <li style="font-weight: bold;"> <p>isActive</p> <p style="font-weight: normal;">Se ha añadido este campo, que es un parámetro booleano con un valor true si un objeto está activo y false si no lo está. Los objetos que se definen como Activos aparecen en menús desplegables y campos de escritura anticipada y pueden adjuntarse a otros objetos. Los objetos no definidos como Activos no son visibles en los menús desplegables ni en los campos de escritura anticipada para adjuntarlos a otros objetos.  </p> </li> 
+     <li style="font-weight: bold;"> <p>isActive</p> <p style="font-weight: normal;">Se ha añadido este campo, que es un parámetro booleano con un valor true si un objeto está activo; de lo contrario es false. Los objetos que se definen como Activos aparecen en menús desplegables y campos de escritura anticipada y pueden adjuntarse a otros objetos. Los objetos no definidos como activos no son visibles en los menús desplegables ni en los campos de escritura anticipada para adjuntarlos a otros objetos.  </p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -474,7 +480,7 @@ Un objeto de asignación representa la conexión entre un elemento de trabajo y 
    <td>Campos directos</td> 
    <td> 
     <ul> 
-     <li style="font-weight: bold;"> <p>workUnit </p> <p style="font-weight: normal;">Se ha añadido el posible valor ET. Este valor representa la unidad de tiempo de los meses transcurridos, que hace referencia a meses sin tener en cuenta fines de semana o festivos.  </p> </li> 
+     <li style="font-weight: bold;"> <p>workUnit </p> <p style="font-weight: normal;">Se ha añadido el posible valor ET. Este valor representa la unidad de tiempo de los meses transcurridos, que hace referencia a meses sin tener en cuenta fines de semana ni festivos.  </p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -492,7 +498,7 @@ Las líneas de base son instantáneas del aspecto que ha tenido el rendimiento d
    <td>Campos directos</td> 
    <td> 
     <ul> 
-     <li style="font-weight: bold;"> <p>durationUnit </p> <p style="font-weight: normal;">Se ha añadido el posible valor ET. Este valor representa la unidad de tiempo de los meses transcurridos, que hace referencia a meses sin tener en cuenta fines de semana o festivos.  </p> </li> 
+     <li style="font-weight: bold;"> <p>durationUnit </p> <p style="font-weight: normal;">Se ha añadido el posible valor ET. Este valor representa la unidad de tiempo de los meses transcurridos, que hace referencia a meses sin tener en cuenta fines de semana ni festivos.  </p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -510,7 +516,7 @@ Un objeto de categoría es un formulario personalizado. Se pueden generar inform
    <td>Campos directos</td> 
    <td> 
     <ul> 
-     <li style="font-weight: bold;"> <p>isActive</p> <p style="font-weight: normal;">Se ha añadido este campo, que es un parámetro booleano con un valor true si un objeto está activo y false si no lo está. Los objetos que se definen como Activos aparecen en menús desplegables y campos de escritura anticipada y pueden adjuntarse a otros objetos. Los objetos no definidos como Activos no son visibles en los menús desplegables ni en los campos de escritura anticipada para adjuntarlos a otros objetos.  </p> </li> 
+     <li style="font-weight: bold;"> <p>isActive</p> <p style="font-weight: normal;">Se ha añadido este campo, que es un parámetro booleano con un valor true si un objeto está activo; de lo contrario es false. Los objetos que se definen como Activos aparecen en menús desplegables y campos de escritura anticipada y pueden adjuntarse a otros objetos. Los objetos no definidos como activos no son visibles en los menús desplegables ni en los campos de escritura anticipada para adjuntarlos a otros objetos.  </p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -535,7 +541,7 @@ Un objeto de compañía representa a una organización formada por una colecció
    <td>Campos directos</td> 
    <td> 
     <ul> 
-     <li style="font-weight: bold;"> <p>isActive</p> <p style="font-weight: normal;">Se ha añadido este campo, que es un parámetro booleano con un valor true si un objeto está activo y false si no lo está. Los objetos que se definen como Activos aparecen en menús desplegables y campos de escritura anticipada y pueden adjuntarse a otros objetos. Los objetos no definidos como Activos no son visibles en los menús desplegables ni en los campos de escritura anticipada para adjuntarlos a otros objetos.  </p> </li> 
+     <li style="font-weight: bold;"> <p>isActive</p> <p style="font-weight: normal;">Se ha añadido este campo, que es un parámetro booleano con un valor true si un objeto está activo; de lo contrario es false. Los objetos que se definen como Activos aparecen en menús desplegables y campos de escritura anticipada y pueden adjuntarse a otros objetos. Los objetos no definidos como activos no son visibles en los menús desplegables ni en los campos de escritura anticipada para adjuntarlos a otros objetos.  </p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -747,7 +753,7 @@ Un hito es un marcador en una tarea que indica que es un punto clave en el proye
    <td>Campos directos</td> 
    <td> 
     <ul> 
-     <li style="font-weight: bold;"> <p>isActive</p> <p style="font-weight: normal;">Se ha añadido este campo, que es un parámetro booleano con un valor true si un objeto está activo y false si no lo está. Los objetos que se definen como Activos aparecen en menús desplegables y campos de escritura anticipada y pueden adjuntarse a otros objetos. Los objetos no definidos como Activos no son visibles en los menús desplegables ni en los campos de escritura anticipada para adjuntarlos a otros objetos.  </p> </li> 
+     <li style="font-weight: bold;"> <p>isActive</p> <p style="font-weight: normal;">Se ha añadido este campo, que es un parámetro booleano con un valor true si un objeto está activo; de lo contrario es false. Los objetos que se definen como Activos aparecen en menús desplegables y campos de escritura anticipada y pueden adjuntarse a otros objetos. Los objetos no definidos como activos no son visibles en los menús desplegables ni en los campos de escritura anticipada para adjuntarlos a otros objetos.  </p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -853,7 +859,7 @@ Un objeto Parameter es un campo personalizado.
    <td> 
     <ul> 
      <li style="font-weight: bold;"> <p>displayType</p> <p style="font-weight: normal;">Se ha añadido el posible valor TYAH (Typeahead).</p> </li> 
-     <li style="font-weight: bold;"> <p>refObjCode </p> <p style="font-weight: normal;">Este campo se ha añadido y hace referencia al código de objeto de un objeto al que se hace referencia. Los códigos de objeto de todos los objetos se encuentran en <a href="../../wf-api/general/api-explorer.md" class="MCXref xref">Explorador de API</a>.  </p> </li> 
+     <li style="font-weight: bold;"> <p>refObjCode </p> <p style="font-weight: normal;">Este campo fue añadido y se refiere al código de objeto de un objeto referenciado. Los códigos de objeto para todos los objetos se pueden encontrar en el <a href="../../wf-api/general/api-explorer.md" class="MCXref xref">Explorador de API</a>.  </p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -890,7 +896,7 @@ Un objeto Programa es un subconjunto dentro de un portafolio, donde proyectos si
    <td> 
     <ul> 
      <li style="font-weight: bold;"> <p>descripción</p> <p style="font-weight: normal;">Se ha añadido el validador MAX_LENGTH, que especifica que la longitud de la descripción no debe exceder los 4000 caracteres.</p> </li> 
-     <li style="font-weight: bold;"> <p>isActive</p> <p style="font-weight: normal;">Se ha añadido este campo, que es un parámetro booleano con un valor true si un objeto está activo y false si no lo está. Los objetos que se definen como Activos aparecen en menús desplegables y campos de escritura anticipada y pueden adjuntarse a otros objetos. Los objetos no definidos como Activos no son visibles en los menús desplegables ni en los campos de escritura anticipada para adjuntarlos a otros objetos.  </p> </li> 
+     <li style="font-weight: bold;"> <p>isActive</p> <p style="font-weight: normal;">Se ha añadido este campo, que es un parámetro booleano con un valor true si un objeto está activo; de lo contrario es false. Los objetos que se definen como Activos aparecen en menús desplegables y campos de escritura anticipada y pueden adjuntarse a otros objetos. Los objetos no definidos como activos no son visibles en los menús desplegables ni en los campos de escritura anticipada para adjuntarlos a otros objetos.  </p> </li> 
      <li style="font-weight: bold;"> <p>name </p> <p style="font-weight: normal;">Se ha añadido el validador MAX_LENGTH, que especifica que la longitud del nombre no debe exceder los 255 caracteres.  </p> </li> 
     </ul> </td> 
   </tr> 
@@ -1178,7 +1184,7 @@ Un objeto de plantilla representa un patrón para un proyecto. Los proyectos se 
    <td>Campos directos</td> 
    <td> 
     <ul> 
-     <li style="font-weight: bold;"> <p>isActive</p> <p style="font-weight: normal;">Se ha añadido este campo, que es un parámetro booleano con un valor true si un objeto está activo y false si no lo está. Los objetos que se definen como Activos aparecen en menús desplegables y campos de escritura anticipada y pueden adjuntarse a otros objetos. Los objetos no definidos como Activos no son visibles en los menús desplegables ni en los campos de escritura anticipada para adjuntarlos a otros objetos.  </p> </li> 
+     <li style="font-weight: bold;"> <p>isActive</p> <p style="font-weight: normal;">Se ha añadido este campo, que es un parámetro booleano con un valor true si un objeto está activo; de lo contrario es false. Los objetos que se definen como Activos aparecen en menús desplegables y campos de escritura anticipada y pueden adjuntarse a otros objetos. Los objetos no definidos como activos no son visibles en los menús desplegables ni en los campos de escritura anticipada para adjuntarlos a otros objetos.  </p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -1212,7 +1218,7 @@ Un objeto de plantilla representa un patrón para un proyecto. Los proyectos se 
    <td>Campos directos</td> 
    <td> 
     <ul> 
-     <li style="font-weight: bold;"> <p>workUnit</p> <p style="font-weight: normal;">Se ha añadido el posible valor ET. Este valor representa la unidad de tiempo de los meses transcurridos, que hace referencia a meses sin tener en cuenta fines de semana o festivos.  </p> </li> 
+     <li style="font-weight: bold;"> <p>workUnit</p> <p style="font-weight: normal;">Se ha añadido el posible valor ET. Este valor representa la unidad de tiempo de los meses transcurridos, que hace referencia a meses sin tener en cuenta fines de semana ni festivos.  </p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 

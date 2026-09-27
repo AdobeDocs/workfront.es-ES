@@ -6,15 +6,27 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: bf49db73-09f1-417e-836b-16c6062740d4
-last-update: 2026-04-01T18:23:03Z
+last-update: 2026-04-01T18:23:03.000Z
 git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
-source-git-commit: 347c3e87fea0289616bf1a52779c07501a8ec69d
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+subfeature_v2:
+  - id: eb361af2-3e4f-4a79-b5f3-7a344ac5794c
+    internal-label: Workfront Planning
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: '1485'
+source-wordcount: '1530'
 ht-degree: 6%
-
 ---
-
 
 <!-- take the Remove permissions section out, at the end - this is what Lilit said: Because of "Everyone in the workspace can view" wildcard, currently it's not possible to entirely remove access to a record type. Let's take out this section. -->
 
@@ -33,7 +45,7 @@ Puede compartir un tipo de registro con otros usuarios para garantizar la colabo
 >[!IMPORTANT]
 >
 >Los usuarios con acceso a un espacio de trabajo obtienen automáticamente al menos permisos de visualización para todos los tipos de registros del espacio de trabajo.
->Compartir vistas no otorga permisos a los usuarios para los tipos de registro. Sólo los espacios de trabajo compartidos pueden conceder permisos de usuario a los tipos de registro.
+>Al compartir vistas, los usuarios no conceden permisos a los tipos de registro. Sólo los espacios de trabajo compartidos pueden conceder permisos de usuario a los tipos de registro.
 >
 >* Para obtener información general sobre cómo compartir objetos en Workfront Planning, consulte también [Información general sobre los permisos de uso compartido en Adobe Workfront Planning](/help/quicksilver/planning/access/sharing-permissions-overview.md).
 >* Para obtener más información, vea la sección [Consideraciones al compartir tipos de registros](#considerations-when-sharing-record-types) en este artículo.
@@ -234,7 +246,7 @@ Puede ajustar los permisos a los tipos de registro individuales de un espacio de
    >* Nunca puede conceder a los usuarios permisos superiores a los que tienen en un espacio de trabajo.
    >* No puede conceder a los usuarios un permiso inferior al de Administrar a un tipo de registro si tienen permisos de Administración en el espacio de trabajo.
    >* Puede conceder a los usuarios un permiso inferior al tipo de registro si tienen permisos de contribución en el espacio de trabajo.
-   > Para obtener más información, consulte [Información general sobre los permisos de uso compartido en Adobe Workfront Planning](/help/quicksilver/planning/access/sharing-permissions-overview.md).
+   > Para obtener más información, consulte [Información general sobre los permisos de uso compartido en Planificación de Workfront de Adobe](/help/quicksilver/planning/access/sharing-permissions-overview.md).
    >* Cuando comparte un tipo de registro con un usuario, su función de trabajo principal y su correo electrónico también se muestran en el campo. Debe tener activada la configuración Ver información de contacto para el objeto Usuarios en su nivel de acceso para poder ver el correo electrónico del usuario.
 
 1. Para que los usuarios que no tengan permisos de acceso al área de trabajo puedan ver un tipo de registro, en el campo **Conceder acceso a esta vista**, empiece a escribir el nombre de un usuario, un grupo, un equipo, una empresa o un rol y, a continuación, haga clic en él cuando aparezca en la lista.

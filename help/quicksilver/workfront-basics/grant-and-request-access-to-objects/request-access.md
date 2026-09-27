@@ -6,26 +6,33 @@ description: La visibilidad de los objetos en Adobe Workfront depende del acceso
 author: Courtney
 feature: Get Started with Workfront
 exl-id: ad1c525c-42a8-4fb7-a2cd-7792e1c280ab
-TQID: https://experienceleague.adobe.com/PVwnZ-nB7hftkdmH-xs5YmuD4Iv13-EBAUfn-BuS-fw
+TQID: 'https://experienceleague.adobe.com/PVwnZ-nB7hftkdmH-xs5YmuD4Iv13-EBAUfn-BuS-fw'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 subfeature_v2:
   - id: d3382524-5489-431b-bde9-271ab257bc37
+    internal-label: Workfront Scenario Planner
   - id: fceb5125-bb41-419a-b0db-31958cb42f6c
+    internal-label: Workfront Goals
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1343
+source-wordcount: '1343'
 ht-degree: 65%
-
 ---
-
 # Solicitar acceso a objetos
 
 <!-- Audited: 4/2025 -->
@@ -38,7 +45,7 @@ La visibilidad de los objetos en Adobe Workfront depende del acceso a ese tipo d
 >
 >* Planes de Scenario Planner en Adobe Workfront Scenario Planner. Para obtener más información, consulte [Solicitar permisos para un plan en el Scenario Planner](../../scenario-planner/request-access-to-plan.md). Se requiere una licencia adicional.
 >
->* Vistas y espacios de trabajo en Workfront Planning. Para obtener más información, consulte [Información general sobre los permisos de uso compartido en Adobe Workfront Planning](/help/quicksilver/planning/access/sharing-permissions-overview.md). Se requiere una licencia adicional.
+>* Vistas y espacios de trabajo en Workfront Planning. Para obtener más información, consulte [Información general sobre los permisos de uso compartido en Planificación de Workfront de Adobe](/help/quicksilver/planning/access/sharing-permissions-overview.md). Se requiere una licencia adicional.
 
 
 El administrador de Workfront configura el acceso a un tipo de objeto en su nivel de acceso. Para obtener más información, consulte [Funcionamiento conjunto de los niveles de acceso y los permisos](../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md).

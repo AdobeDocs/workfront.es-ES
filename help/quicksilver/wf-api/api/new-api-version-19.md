@@ -7,18 +7,21 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 84909dea-7ce1-4ad3-90f5-9dbdb354eaa4
-TQID: https://experienceleague.adobe.com/5LLcfkvjzqNZ9tswEkV7lMgFxHS4qcVFJ9YMUI6JazY
+TQID: 'https://experienceleague.adobe.com/5LLcfkvjzqNZ9tswEkV7lMgFxHS4qcVFJ9YMUI6JazY'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: 682536a8-4872-5ee6-a8a6-8012d713482c
+    internal-label: Workfront API
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Developer
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 902
+source-wordcount: '980'
 ht-degree: 49%
-
 ---
-
 # Novedades de la versión 19 de la API
 
 Adobe Workfront publicó la versión 19 de la API el martes, 08 de abril de 2024. La versión 19 de la API incorpora los siguientes cambios con respecto a la versión 18.

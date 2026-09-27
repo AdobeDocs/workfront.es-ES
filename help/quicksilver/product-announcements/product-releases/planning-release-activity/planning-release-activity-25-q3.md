@@ -1,6 +1,6 @@
 ---
 content-type: release-notes
-title: Actividad de la versión del tercer trimestre de 2025 para Adobe Workfront Planning
+title: Actividad de la versión del tercer trimestre de 2025 para Planificación de Workfront de Adobe
 description: Esta es la actividad de lanzamiento del producto Adobe Workfront Planning para el tercer trimestre de 2025.
 author: Alina
 feature: Product Announcements
@@ -9,24 +9,30 @@ recommendations: noDisplay, noCatalog
 exl-id: 6761f5af-2501-4487-8114-2751f1e4fe69
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/R45hY-jNAlCSwIy-070BRL78-altmrnFIL1yNxxPrz8
+TQID: 'https://experienceleague.adobe.com/R45hY-jNAlCSwIy-070BRL78-altmrnFIL1yNxxPrz8'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 2290
+source-wordcount: '2416'
 ht-degree: 6%
-
 ---
-
-# Actividad de la versión del tercer trimestre de 2025 para Adobe Workfront Planning
+# Actividad de la versión del tercer trimestre de 2025 para Planificación de Workfront de Adobe
 
 Este artículo describe las funciones que se lanzarán para Workfront Planning durante la versión del tercer trimestre de 2025.
 
@@ -38,7 +44,9 @@ Para obtener una lista de todas las características publicadas para Adobe Workf
 
 >[!NOTE]
 >
->Vista previa: 10 de julio de 2025>Producción para todos: 10 de julio de 2025>[!BADGE Fuera del horario]{type=Neutral}
+>Vista previa: 10 de julio de 2025
+>Producción para todos: 10 de julio de 2025
+>[!BADGE Fuera del horario]{type=Neutral}
 
 
 Hemos actualizado la pestaña Configuración avanzada al crear o editar un tipo de registro.
@@ -54,7 +62,9 @@ Para obtener más información, vea [Crear tipos de registros](/help/quicksilver
 
 >[!NOTE]
 >
->Vista previa: 10 de julio de 2025>Producción para todos: 10 de julio de 2025>[!BADGE Fuera del horario]{type=Neutral}
+>Vista previa: 10 de julio de 2025
+>Producción para todos: 10 de julio de 2025
+>[!BADGE Fuera del horario]{type=Neutral}
 
 Ahora, cuando agregue un equipo a un comentario de registro en Workfront Planning, todos los miembros del equipo recibirán una notificación sobre el comentario tanto en la aplicación como por correo electrónico. Antes de esta mejora, solo se notificaba a los usuarios añadidos a los comentarios individualmente
 
@@ -64,7 +74,9 @@ Para obtener más información, vea Administrar comentarios de registro [Adminis
 
 >[!NOTE]
 >
->Vista previa: 10 de julio de 2025>Versión rápida de producción: 14 de agosto de 2025>Producción para todos: 16 de octubre de 2025
+>Vista previa: 10 de julio de 2025
+>Versión rápida de producción: 14 de agosto de 2025
+>Producción para todos: 16 de octubre de 2025
 
 
 Ahora, cuando tenga agrupaciones aplicadas a una vista de tabla, al agregar un registro a la tabla se rellenarán automáticamente los campos asociados con las agrupaciones a las que agregue el registro.
@@ -79,7 +91,8 @@ Para obtener más información, consulte [Crear registros](/help/quicksilver/pla
 
 >[!NOTE]
 >
->Vista previa: 9 de julio de 2025>Producción para todos: 17 de julio de 2025
+>Vista previa: 9 de julio de 2025
+>Producción para todos: 17 de julio de 2025
 
 Ahora puede compartir una vista y un tipo de registro desde el mismo botón de la página del tipo de registro. Antes de esta mejora, solo se podía compartir el tipo de registro desde el botón Compartir de la página de tipo de registro y una vista desde la pestaña de la vista.
 
@@ -116,11 +129,11 @@ Para que la experiencia al compartir un formulario de solicitud en Workfront Pla
 * Hemos separado el cuadro de diálogo Compartir formulario en uso compartido interno (seleccionar con quién compartir) y público (crear un vínculo compartido).
 * Ahora puede compartir formularios de solicitud con lo siguiente:
 
-   * Usuarios
-   * Equipos
-   * Grupos
-   * Compañías
-   * Roles
+  * Usuarios
+  * Equipos
+  * Grupos
+  * Compañías
+  * Roles
 
   Anteriormente, solo se podía compartir en función del acceso al espacio de trabajo o compartiendo un vínculo.
 * Se han eliminado los permisos heredados de los formularios de solicitud. Ahora, el formulario de solicitud se comparte únicamente con los que seleccione.
@@ -153,7 +166,8 @@ Para obtener más información, consulte [Administrar la vista de tabla](/help/q
 >[!NOTE]
 >
 >* Vista previa: viernes, 26 de junio de 2025
->* Producción para todos: 26 de junio de 2025>[!BADGE Fuera del horario]{type=Neutral}
+>* Producción para todos: 26 de junio de 2025
+>[!BADGE Fuera del horario]{type=Neutral}
 
 Ahora, al conectar tipos de registros e incluir un campo de fórmula como búsqueda, puede aplicar las funciones de agregado (SUM, AVERAGE, MIN, MAX, etc.) según el formato del campo de fórmula. Por ejemplo, si el campo de fórmula es numérico, puede utilizar funciones como SUMA o PROMEDIO; si el campo de fórmula tiene formato de texto, no se aplicarán funciones de agregado como SUMA.
 
@@ -188,7 +202,8 @@ Para obtener más información, consulte [Habilitar trimestres personalizados pa
 >[!NOTE]
 >
 >* Vista previa: viernes, 12 de junio de 2025
->* Producción para todos: 12 de junio de 2025>[!BADGE Fuera del horario]{type=Neutral}
+>* Producción para todos: 12 de junio de 2025
+>[!BADGE Fuera del horario]{type=Neutral}
 
 Hemos introducido una mejora que actualiza todos los campos de fórmula dependientes entre sí al mismo tiempo después de que un campo al que se hace referencia se actualice manualmente. Los campos de fórmula que están a 2, 3 o 4 campos del campo cuyo valor se cambia manualmente y que se hacen referencia entre sí ahora se actualizarán automáticamente al mismo tiempo.
 
@@ -201,7 +216,8 @@ Para obtener más información, vea [Información general sobre los campos de f�
 >[!NOTE]
 >
 >* Vista previa: sábado, 06 de junio de 2025
->* Producción para todos los clientes: 6 de junio de 2025>[!BADGE Fuera del horario]{type=Neutral}
+>* Producción para todos los clientes: 6 de junio de 2025
+>[!BADGE Fuera del horario]{type=Neutral}
 
 Se han agregado las siguientes expresiones a los campos de fórmula:
 
@@ -228,12 +244,12 @@ Hemos agregado la siguiente funcionalidad a una lista de solicitudes en la pesta
 * Introducido por columna para indicar la persona que agregó una solicitud
 * Filtra para limitar el número de solicitudes que ve en la pestaña Planificación. Puede filtrar la lista por los siguientes elementos:
 
-   * la Workspace desde la que se originó el formulario de solicitud
-   * el tipo de registro asociado al formulario de solicitud
-   * la fecha de entrada de la solicitud
-   * el nombre del formulario de solicitud
-   * el estado de las solicitudes
-   * el nombre de la persona que introdujo la solicitud.
+  * la Workspace desde la que se originó el formulario de solicitud
+  * el tipo de registro asociado al formulario de solicitud
+  * la fecha de entrada de la solicitud
+  * el nombre del formulario de solicitud
+  * el estado de las solicitudes
+  * el nombre de la persona que introdujo la solicitud.
 
 * Control Columns para ver u ocultar campos (o columnas) en la lista de solicitudes de Planning.
 

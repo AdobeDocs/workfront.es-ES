@@ -7,21 +7,29 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: cbe98ee2-f155-4d31-88c4-7f41b6f91eb2
-TQID: https://experienceleague.adobe.com/H5f7NknmUezFvDKRQJy4eDhvsnZIBjdyeneCqPh5Ico
+TQID: 'https://experienceleague.adobe.com/H5f7NknmUezFvDKRQJy4eDhvsnZIBjdyeneCqPh5Ico'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Troubleshooting
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1178
+source-wordcount: '1178'
 ht-degree: 100%
-
 ---
-
 # Actividad de la versión Beta 1 2018.2
 
 En esta página se describen todos los cambios disponibles más recientemente en el entorno de vista previa con la versión 2018.2 de Beta 1. La funcionalidad se publicó en el entorno de vista previa el 22 de marzo de 2018. Estará disponible en el entorno de producción en junio de 2018.
@@ -93,8 +101,8 @@ La vista de usuario del Planificador de recursos ahora incorpora las siguientes 
 * Modo de pantalla completa.
 * Ahora, el rendimiento es más rápido y más eficiente.
 
-   * Nuevos límites de número de usuarios, proyectos, funciones y tareas que se pueden mostrar.
-   * Carga diferida para una carga más rápida de los usuarios.
+  * Nuevos límites de número de usuarios, proyectos, funciones y tareas que se pueden mostrar.
+  * Carga diferida para una carga más rápida de los usuarios.
 
 La siguiente funcionalidad se ha deshabilitado temporalmente en el Planificador de recursos:
 

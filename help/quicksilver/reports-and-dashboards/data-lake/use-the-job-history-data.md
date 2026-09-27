@@ -9,21 +9,26 @@ recommendations: noDisplay, noCatalog
 exl-id: d658c3df-5fa5-4756-ac42-71d9aed481df
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/1jwPKGeQ9RB1ke1GsCMxrk7xRchFCCMADkuDtrRDEWw
+TQID: 'https://experienceleague.adobe.com/1jwPKGeQ9RB1ke1GsCMxrk7xRchFCCMADkuDtrRDEWw'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: c6dd2ac5-f5bd-4e59-9101-25b156918623
+    internal-label: Reports and dashboards
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Optimization
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 448
-ht-degree: 0%
-
+source-wordcount: '448'
+ht-degree: 1%
 ---
-
 # Uso de la vista Historial de trabajos en Data Connect
 
 En la vista Historial de trabajos, los administradores de Workfront pueden acceder a registros detallados de cada trabajo de actualización de datos. Estos registros proporcionan insight valioso en los trabajos que mantienen los datos actualizados y le ayudan a establecer marcos de tiempo ideales sobre cuándo ejecutar procesos y actualizar las visualizaciones empresariales.
@@ -58,7 +63,7 @@ A cada trabajo de Data Connect se le asigna un estado que indica si se ha realiz
         <td>El trabajo procesó correctamente cada actualización disponible y todas las actualizaciones de ese tipo de registro ahora se reflejan en el lago de datos.</td>
     </tr>
     <tr>
-        <td>Omitido</td>
+        <td>Omitida</td>
         <td>Se omitió el trabajo porque no había actualizaciones en cola para procesar para el tipo de registro.</td>
     </tr>
     <tr>

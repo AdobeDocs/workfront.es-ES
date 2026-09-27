@@ -7,28 +7,37 @@ recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/0Nu-Le3Lidn8TI-Eq-p9iAQR4IwM6QD2tZpDeV1gF2U
+TQID: 'https://experienceleague.adobe.com/0Nu-Le3Lidn8TI-Eq-p9iAQR4IwM6QD2tZpDeV1gF2U'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
   - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+    internal-label: Timesheets
   - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 9918
+source-wordcount: '9993'
 ht-degree: 2%
-
 ---
-
 # Modernización de interfaces
 
 Esta página lista las actualizaciones de la interfaz que estamos realizando a través de Adobe Workfront para mejorar la experiencia del usuario y unificarla con otras aplicaciones de Adobe. Estos cambios son principalmente visuales y no alterarán significativamente los flujos de trabajo, a menos que se indique lo contrario.
@@ -89,8 +98,8 @@ En esta actualización se incluyen los siguientes cambios:
 * Hay una nueva experiencia para asignar recursos a tareas de plantilla. La nueva experiencia ahora está disponible tanto al editar una tarea como al editar varias tareas de forma masiva. Los campos siguientes se han eliminado del cuadro Editar tareas:
 
 * Asignaciones
-   * Propietario o propietario de tarea
-   * Rol de asignado
+  * Propietario o propietario de tarea
+  * Rol de asignado
 
 Puede seguir encontrando los campos eliminados al realizar asignaciones avanzadas en tareas de plantilla.
 
@@ -115,9 +124,9 @@ En esta actualización se incluyen los siguientes cambios:
 
 * Hay una nueva experiencia para asignar recursos a tareas. Ahora está disponible tanto al editar una tarea como al editar varias tareas de forma masiva. Los campos siguientes se han eliminado del cuadro Editar tareas:
 
-   * Asignaciones
-   * Propietario o propietario de tarea
-   * Rol de asignado
+  * Asignaciones
+  * Propietario o propietario de tarea
+  * Rol de asignado
 
 Puede seguir encontrando los campos eliminados al realizar asignaciones avanzadas en tareas.
 
@@ -145,9 +154,9 @@ En esta actualización se incluyen los siguientes cambios:
 
 * Hay una nueva experiencia para asignar recursos a los problemas. Esto ya está disponible cuando se edita un problema o se editan varios problemas de forma masiva. Los siguientes campos se han eliminado del cuadro Editar problemas:
 
-   * Asignaciones
-   * Propietario o propietario del problema
-   * Rol de asignado
+  * Asignaciones
+  * Propietario o propietario del problema
+  * Rol de asignado
 
 Puede actualizar los campos eliminados al realizar asignaciones avanzadas en problemas.
 

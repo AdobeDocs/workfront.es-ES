@@ -6,18 +6,24 @@ description: Información general sobre la conciliación de asignaciones de recu
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 82cd9641-1213-436c-935a-2f04a0425e9c
-TQID: https://experienceleague.adobe.com/5f7nqfiPgToyiGZykzR61M0VKrqpWdu-Ge9vrYIb7Lo
+TQID: 'https://experienceleague.adobe.com/5f7nqfiPgToyiGZykzR61M0VKrqpWdu-Ge9vrYIb7Lo'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: d3382524-5489-431b-bde9-271ab257bc37
+    internal-label: Workfront Scenario Planner
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 526
+source-wordcount: '526'
 ht-degree: 98%
-
 ---
-
 # Información general sobre la conciliación de asignaciones de recursos entre proyectos e iniciativas
 
 <!--
@@ -34,8 +40,8 @@ Antes de comenzar, debe tener lo siguiente:
 * Asignaciones de las funciones requeridas para la iniciativa.
 * Tareas o problemas en el proyecto que tienen horas planificadas y están asignados a una de las siguientes opciones:
 
-   * Roles
-   * Usuarios asociados con funciones
+  * Roles
+  * Usuarios asociados con funciones
 
 ## Conectar proyectos e iniciativas
 
@@ -69,28 +75,28 @@ Ambos procesos crean una conexión entre los proyectos y sus iniciativas corresp
 
 * Puede ver la asignación de funciones de iniciativa en un proyecto vinculado en las siguientes áreas del proyecto:
 
-   * Sección [!DNL Scenario Planner] del área [!UICONTROL Detalles del proyecto] en un proyecto. Para obtener más información, consulte los siguientes artículos:
+  * Sección [!DNL Scenario Planner] del área [!UICONTROL Detalles del proyecto] en un proyecto. Para obtener más información, consulte los siguientes artículos:
 
-      * [Actualice o cree proyectos publicando iniciativas en  [!DNL Scenario Planner]](../scenario-planner/publish-scenarios-update-projects.md)
-      * [Administrar información en el área [!UICONTROL Información general] del proyecto](../manage-work/projects/manage-projects/understand-project-overview-area.md)
+    * [Actualice o cree proyectos publicando iniciativas en  [!DNL Scenario Planner]](../scenario-planner/publish-scenarios-update-projects.md)
+    * [Administrar información en el área [!UICONTROL Información general] del proyecto](../manage-work/projects/manage-projects/understand-project-overview-area.md)
 
-     >[!TIP]
-     >
-     >No puede ver información sobre la función desde el proyecto y la iniciativa en paralelo en la sección [!DNL Scenario Planner] de [!UICONTROL Detalles del proyecto].
+    >[!TIP]
+    >
+    >No puede ver información sobre la función desde el proyecto y la iniciativa en paralelo en la sección [!DNL Scenario Planner] de [!UICONTROL Detalles del proyecto].
 
-   * El panel [!UICONTROL Asignación de funciones] se encuentra en las siguientes áreas:
+  * El panel [!UICONTROL Asignación de funciones] se encuentra en las siguientes áreas:
 
-      * [!UICONTROL Distribuidor de cargas de trabajo] del proyecto
+    * [!UICONTROL Distribuidor de cargas de trabajo] del proyecto
 
-        Para obtener información sobre cómo ver y reconciliar las asignaciones de funciones entre la iniciativa y el proyecto vinculado en el [!UICONTROL Distribuidor de cargas de trabajo], consulte [Mostrar la asignación de funciones para proyectos e iniciativas en el [!UICONTROL Distribuidor de cargas de trabajo]](../scenario-planner/show-role-allocation-workload-balancer.md).
+      Para obtener información sobre cómo ver y reconciliar las asignaciones de funciones entre la iniciativa y el proyecto vinculado en el [!UICONTROL Distribuidor de cargas de trabajo], consulte [Mostrar la asignación de funciones para proyectos e iniciativas en el [!UICONTROL Distribuidor de cargas de trabajo]](../scenario-planner/show-role-allocation-workload-balancer.md).
 
-      * Sección [!UICONTROL Tareas]
+    * Sección [!UICONTROL Tareas]
 
-        Para obtener información acerca de cómo reconciliar las asignaciones de funciones entre la iniciativa y el proyecto vinculado en la sección [!UICONTROL Tareas], consulte [Mostrar asignación de funciones para proyectos e iniciativas en la lista de tareas](../scenario-planner/show-role-allocation-task-list-nwe.md).
+      Para obtener información acerca de cómo reconciliar las asignaciones de funciones entre la iniciativa y el proyecto vinculado en la sección [!UICONTROL Tareas], consulte [Mostrar asignación de funciones para proyectos e iniciativas en la lista de tareas](../scenario-planner/show-role-allocation-task-list-nwe.md).
 
-     >[!TIP]
-     >
-     >Puede ver la información sobre la función desde el proyecto y la iniciativa en paralelo en el panel [!UICONTROL Asignación de funciones].
+    >[!TIP]
+    >
+    >Puede ver la información sobre la función desde el proyecto y la iniciativa en paralelo en el panel [!UICONTROL Asignación de funciones].
 
 * No puede ver la asignación de funciones de un proyecto en una iniciativa vinculada. Para obtener más información, consulte [Importar proyectos a planes en [!DNL Scenario Planner]](../scenario-planner/import-projects-to-plans.md).
 

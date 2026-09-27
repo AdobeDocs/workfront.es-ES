@@ -1,6 +1,6 @@
 ---
 title: Información general sobre tipos de registros
-description: Los tipos de registro son los componentes de un espacio de trabajo de Adobe Workfront Planning.
+description: Los tipos de registro son los componentes de un espacio de trabajo de Planificación de Workfront de Adobe.
 feature: Workfront Planning
 role: User, Admin
 author: Alina
@@ -8,19 +8,26 @@ recommendations: noDisplay, noCatalog
 exl-id: 1de095b3-78d9-44df-a678-51f4238deb91
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/MuOE6NghGzhXKnkzBty7BSoQ3Nyo0PhkXCz7BHxpoXA
+TQID: 'https://experienceleague.adobe.com/MuOE6NghGzhXKnkzBty7BSoQ3Nyo0PhkXCz7BHxpoXA'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+subfeature_v2:
+  - id: eb361af2-3e4f-4a79-b5f3-7a344ac5794c
+    internal-label: Workfront Planning
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+    internal-label: Admin
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 353
+source-wordcount: '353'
 ht-degree: 47%
-
 ---
-
 # Información general de tipos de registro
 
 <!--
@@ -45,14 +52,14 @@ Para obtener más información acerca de los espacios de trabajo, consulte [Crea
 
 ## Información general de tipo de registro
 
-En Workfront Planning, puede crear tipos de registros personalizados que den respuesta a las necesidades de su organización.
+En Planificación de Workfront, puede crear tipos de registros personalizados que den respuesta a las necesidades de su organización.
 
 Para obtener información acerca de cómo crear tipos de registros, consulte [Creación de tipos de registro](/help/quicksilver/planning/architecture/create-record-types.md).
 
 * Al crear un espacio de trabajo a partir de una plantilla, los tipos de registros se crean en las siguientes secciones del espacio de trabajo:
 
-   * **Tipos de registros operativos**: tipos de registros que representan planes estratégicos, iniciativas o trabajo planificado. Por ejemplo, Campaña, Actividad, Táctica u Oportunidad son tipos de registros operativos.
-   * **Taxonomías**: tipos de registros que capturan atributos sobre un tipo de registro operativo. Por ejemplo, Región, Dirección y Público son taxonomías.
+  * **Tipos de registros operativos**: tipos de registros que representan planes estratégicos, iniciativas o trabajo planificado. Por ejemplo, Campaña, Actividad, Táctica u Oportunidad son tipos de registros operativos.
+  * **Taxonomías**: tipos de registros que capturan atributos sobre un tipo de registro operativo. Por ejemplo, Región, Dirección y Público son taxonomías.
 
   Puede cambiar el nombre de las secciones y los tipos de registro, eliminarlos o crear más.
 
@@ -63,8 +70,8 @@ Para obtener información acerca de cómo crear tipos de registros, consulte [Cr
   Para obtener información sobre las limitaciones de cuántos tipos de registros puede haber en un espacio de trabajo o una instancia de Workfront, consulte [Información general sobre las limitaciones de objetos de Adobe Workfront Planning](/help/quicksilver/planning/general/limitations-overview.md).
 * Para utilizar tipos de registros en más de un espacio de trabajo, puede designar los tipos de registros como globales o conectables.
 
-   * Los tipos de registros globales se pueden agregar como tipos de registros existentes a otros espacios de trabajo.
-   * Los tipos de registros conectables se pueden conectar a desde otros espacios de trabajo.
+  * Los tipos de registros globales se pueden agregar como tipos de registros existentes a otros espacios de trabajo.
+  * Los tipos de registros conectables se pueden conectar a desde otros espacios de trabajo.
 
   Para obtener más información, vea [Configurar las capacidades entre espacios de trabajo para los tipos de registro](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md).
 

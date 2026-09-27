@@ -2,25 +2,34 @@
 product-previous: workfront-proof
 product-area: documents
 navigation-topic: automated-workflow-workfront-proof
-title: Administrar una prueba configurada con un flujo de trabajo automatizado en  [!DNL Workfront Proof]
+title: Administrar una revisión configurada con un flujo de trabajo automatizado en [!DNL Workfront Proof]
 description: Puede realizar un seguimiento práctico del progreso de las pruebas de Flujo de trabajo automatizado en la sección Flujo de trabajo de la página Detalles de la prueba. Puede ver el trabajo realizado en cada etapa y modificar, agregar, iniciar y bloquear las etapas en la prueba.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 1d0ad905-f3fb-471a-8766-096b978cdf4e
-TQID: https://experienceleague.adobe.com/3leSASgnGumvy-osh9SgS57U6czt2CRQDYEe44pTlIU
+TQID: 'https://experienceleague.adobe.com/3leSASgnGumvy-osh9SgS57U6czt2CRQDYEe44pTlIU'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+    internal-label: Workfront Proof
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Privacy
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 688
-ht-degree: 14%
-
+source-wordcount: '688'
+ht-degree: 13%
 ---
-
 # Administrar una revisión configurada con un flujo de trabajo automatizado en [!DNL Workfront Proof]
 
 >[!IMPORTANT]

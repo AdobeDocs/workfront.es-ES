@@ -7,24 +7,29 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 2945e058-74dd-4cc3-9d6c-e5618ee7041c
-TQID: https://experienceleague.adobe.com/ISgHqMUiVKrpOFD68eLx7YInjxlNnCKjYOZzBUlpOQs
+TQID: 'https://experienceleague.adobe.com/ISgHqMUiVKrpOFD68eLx7YInjxlNnCKjYOZzBUlpOQs'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 836
+source-wordcount: '855'
 ht-degree: 15%
-
 ---
-
 # Vista previa 4 R1
 
 Esta página describe todos los cambios disponibles en el entorno de vista previa con la versión R1.4. La funcionalidad de esta página estaba disponible en el entorno de vista previa el jueves, 15 de febrero de 2017.
@@ -42,8 +47,8 @@ Al crear procesos de aprobación para aprobaciones de proyectos, tareas y proble
 
 * Se han eliminado las siguientes limitaciones preexistentes relacionadas con la modificación de los procesos de aprobación globales existentes:
 
-   * El proceso de aprobación modificado solo se refleja en objetos de todo el sistema en los que el proceso de aprobación aún no se ha iniciado o en los que no se ha modificado. Los objetos en los que el proceso de aprobación ya se ha iniciado o en los que se ha modificado no se actualizan con los cambios.
-   * No puede modificar el estado que determina cuándo se inicia la aprobación.
+  * El proceso de aprobación modificado solo se refleja en objetos de todo el sistema en los que el proceso de aprobación aún no se ha iniciado o en los que no se ha modificado. Los objetos en los que el proceso de aprobación ya se ha iniciado o en los que se ha modificado no se actualizan con los cambios.
+  * No puede modificar el estado que determina cuándo se inicia la aprobación.
 
 * Aspecto y presentación actualizados.
 

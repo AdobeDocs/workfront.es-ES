@@ -5,13 +5,20 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8ca50590-ef6a-44b1-a856-9821bdafbc1c
-source-git-commit: 4d6be75a507438eee1f3887474b847c2bece85ff
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
 source-wordcount: '3363'
 ht-degree: 13%
-
 ---
-
 # Información general sobre la versión del tercer trimestre de 2026
 
 Esta página proporciona información sobre la funcionalidad que se incluye en la versión del tercer trimestre de 2026 programada para julio de 2026.
@@ -576,7 +583,7 @@ Se celebran seminarios web en directo para cada versión trimestral, en los que 
 
 Las nuevas funciones de Workfront Fusion están disponibles en el entorno de producción a un ritmo distinto a la de la programación de la versión estándar. Para obtener más información sobre las últimas funciones, consulte [Actividad de la versión de Adobe Workfront Fusion](https://experienceleague.adobe.com/es/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
 
-### Mejoras en Workfront Planning
+### Mejoras en Planificación de Workfront
 
 <!--
 New features in Workfront Planning are available in Production.

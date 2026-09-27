@@ -6,23 +6,29 @@ description: Para mejorar nuestra infraestructura principal, pronto migraremos l
 author: Luke
 feature: Product Announcements
 exl-id: 77d43206-1db7-4075-a063-043f8c9f75ed
-TQID: https://experienceleague.adobe.com/I6EiM5bD37m-gC5wyB3DBaOscSTMX-18BpjogM1LcgU
+TQID: 'https://experienceleague.adobe.com/I6EiM5bD37m-gC5wyB3DBaOscSTMX-18BpjogM1LcgU'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 303
+source-wordcount: '303'
 ht-degree: 20%
-
 ---
-
 # Los clientes de los clústeres 1, 2 y 3 deben actualizar cualquier bloque de IP de lista de permitidos para evitar el bloqueo de los servicios de Adobe Workfront
 
 Para mejorar nuestra infraestructura principal, pronto migraremos los clientes de Adobe Workfront de los clústeres 01, 02 y 03 a la nube pública de AWS.

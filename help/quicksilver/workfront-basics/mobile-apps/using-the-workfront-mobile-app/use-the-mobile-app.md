@@ -1,24 +1,27 @@
 ---
 product-previous: mobile
 navigation-topic: mobile-apps
-title: 'Uso de la aplicación móvil de [!DNL Adobe Workfront] '
-description: Acelere la participación y optimice el trabajo para equipos e individuos en su organización a través de la aplicación móvil de [!DNL Adobe Workfront's] , disponible en cualquier dispositivo iOS o Android.
+title: Usar la aplicación móvil [!DNL Adobe Workfront]
+description: Acelere la participación y optimice el trabajo para equipos e individuos en su organización a través de la aplicación móvil de [!DNL Adobe Workfront's], disponible en cualquier dispositivo iOS o Android.
 author: Lisa
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 10419dc8-8e7b-40fb-91fe-0ddbd0a493c9
-TQID: https://experienceleague.adobe.com/JdDKLhr3DrbDCXrRBKuO5A7Qd1GO--J9Et998BbY6-A
+TQID: 'https://experienceleague.adobe.com/JdDKLhr3DrbDCXrRBKuO5A7Qd1GO--J9Et998BbY6-A'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 276
-ht-degree: 100%
-
+source-wordcount: '278'
+ht-degree: 98%
 ---
-
 # Uso de la aplicación móvil de [!DNL Adobe Workfront]: índice del artículo
 
 <!-- Audited: 2/2024 -->
@@ -54,17 +57,17 @@ En la aplicación móvil, puede completar elementos de trabajo y ver informació
 Para obtener más información sobre la aplicación móvil de [!DNL Adobe Workfront], consulte los siguientes artículos:
 
 * [[!DNL Adobe Workfront] para [!DNL Android]](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-android.md)
-* [Prueba de la beta de [!DNL Android] ](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/android-beta-tester.md)
+* [Prueba de la beta de [!DNL Android] &#x200B;](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/android-beta-tester.md)
 * [[!DNL Adobe Workfront] para [!DNL iOS]](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-ios.md)
-* [Prueba de la beta de [!DNL iOS] ](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/ios-beta-tester.md)
+* [Prueba de la beta de [!DNL iOS] &#x200B;](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/ios-beta-tester.md)
 * [Widgets del área [!UICONTROL Inicio]](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/home-area-widgets-mobile.md)
 * [Sección [!UICONTROL Mi trabajo] en la aplicación móvil](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/my-work-section-mobile.md)
 * [[!UICONTROL Tableros] de [!DNL Adobe Workfront] para móviles](/help/quicksilver/workfront-basics/mobile-apps/using-the-workfront-mobile-app/mobile-boards.md)
-* [Revisión y toma de decisiones sobre las pruebas en la aplicación móvil de [!DNL Adobe Workfront] ](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/work-with-proofs-in-mobile-app.md)
+* [Revisión y toma de decisiones sobre las pruebas en la aplicación móvil de [!DNL Adobe Workfront] &#x200B;](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/work-with-proofs-in-mobile-app.md)
 * [Comentarios en pruebas de [!DNL iOS]](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/comment-on-proofs-ios.md)
 * [Comentarios en pruebas de [!DNL Android]](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/comment-on-proofs-android.md)
-* [Uso compartido y descarga de pruebas en la aplicación móvil de [!DNL Adobe Workfront] ](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/share-proofs-mobile.md)
-* [Aprobaciones en la aplicación móvil de  [!DNL Adobe Workfront] ](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/approvals-in-mobile-app.md)
+* [Uso compartido y descarga de pruebas en la aplicación móvil de [!DNL Adobe Workfront] &#x200B;](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/share-proofs-mobile.md)
+* [Aprobaciones en la aplicación móvil de  [!DNL Adobe Workfront] &#x200B;](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/approvals-in-mobile-app.md)
 * [[!DNL Adobe Workfront] para [!DNL Mobile Device Management] (MDM)](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/wf-mdm.md)
 * [Configuración de [!DNL Adobe Workfront] para [!DNL MobileIron]](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/wf-mobileiron-configs.md)
 

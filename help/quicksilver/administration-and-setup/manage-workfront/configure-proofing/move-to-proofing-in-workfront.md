@@ -6,13 +6,14 @@ navigation-topic: configure-proofing-functionality
 title: Información general sobre Workfront Proof independiente a la corrección integrada en Workfront
 description: Si su organización cambia de la versión independiente de Workfront Proof al plan Workfront Pro, en el que Workfront Proof Premium está integrado con Workfront, algunas funciones de revisión no estarán disponibles.
 author: Courtney
-source-git-commit: 49d4de3455fc1156efc8a88e8d2bee329c375279
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
 source-wordcount: '460'
 ht-degree: 4%
-
 ---
-
 
 # Información general sobre Workfront Proof independiente a la corrección integrada en Workfront
 
@@ -45,28 +46,28 @@ Si su organización cambia de la versión independiente de Workfront Proof al pl
 * Capacidad para conectarse entre la nueva cuenta integrada y la cuenta de Workfront Proof.
 * Capacidad para ejecutar informes de Workfront Proof:
 
-   * Elementos a los que se accede recientemente
-   * Pruebas que administro con estado a tiempo, en riesgo y tardío
-   * Pruebas a la espera de mi decisión con estado puntual, en riesgo y tardío
-   * Pruebas que necesito revisar
-   * Pruebas activas
-   * Pruebas archivadas
-   * Pruebas bloqueadas
-   * Ir a la prueba directamente desde el informe
-   * Ir a Detalles de revisión directamente desde el informe
-   * Compartir revisión directamente desde el informe
-   * Prueba de mensaje directamente desde el informe
-   * Copiar revisión del informe
-   * Descargar original del informe
-   * Delegar propiedad desde el informe
-   * Compartir vínculos de revisión del informe
-   * Imprimir comentarios del informe
-   * Exportar Excel desde informe
-   * Bloquear pruebas en lote
-   * Resumen detallado junto con matriz de progreso del flujo de trabajo
-   * Activar pruebas de forma masiva
-   * Archivar pruebas de forma masiva
-   * Desarchivar pruebas por lotes
-   * Cambiar propietario de forma masiva
-   * Delegación de la propiedad en lote
+  * Elementos a los que se accede recientemente
+  * Pruebas que administro con estado a tiempo, en riesgo y tardío
+  * Pruebas a la espera de mi decisión con estado puntual, en riesgo y tardío
+  * Pruebas que necesito revisar
+  * Pruebas activas
+  * Pruebas archivadas
+  * Pruebas bloqueadas
+  * Ir a la prueba directamente desde el informe
+  * Ir a Detalles de revisión directamente desde el informe
+  * Compartir revisión directamente desde el informe
+  * Prueba de mensaje directamente desde el informe
+  * Copiar revisión del informe
+  * Descargar original del informe
+  * Delegar propiedad desde el informe
+  * Compartir vínculos de revisión del informe
+  * Imprimir comentarios del informe
+  * Exportar Excel desde informe
+  * Bloquear pruebas en lote
+  * Resumen detallado junto con matriz de progreso del flujo de trabajo
+  * Activar pruebas de forma masiva
+  * Archivar pruebas de forma masiva
+  * Desarchivar pruebas por lotes
+  * Cambiar propietario de forma masiva
+  * Delegación de la propiedad en lote
 

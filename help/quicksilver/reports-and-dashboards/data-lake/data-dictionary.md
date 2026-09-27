@@ -7,13 +7,20 @@ description: Esta página contiene información sobre la estructura y el conteni
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 57985404-554e-4289-b871-b02d3427aa5c
-source-git-commit: db297bb06ed50e668777bf5fb8e0f444b146a77a
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: c6dd2ac5-f5bd-4e59-9101-25b156918623
+    internal-label: Reports and dashboards
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
 source-wordcount: '11542'
 ht-degree: 8%
-
 ---
-
 # Diccionario de datos de Workfront Data Connect
 
 Esta página contiene información sobre la estructura y el contenido de los datos de Workfront Data Connect.
@@ -2404,7 +2411,7 @@ Disponibilidad limitada del cliente
     </tbody>
 </table>
 
-### Configuración del proveedor de documentos
+### Configuración de proveedor de documentos
 
 <table>
     <thead>
@@ -2418,8 +2425,8 @@ Disponibilidad limitada del cliente
       </thead>
       <tbody>
         <tr>
-            <td>Configuración del proveedor de documentos</td>
-            <td>Configuración del proveedor de documentos</td>
+            <td>Configuración de proveedor de documentos</td>
+            <td>Configuración de proveedor de documentos</td>
             <td>DOCCFG</td>
             <td>DocumentProviderConfig</td>
             <td>DOCPROVIDERCONFIG_CURRENT<br>DOCPROVIDERCONFIG_DAILY_HISTORY<br>DOCPROVIDERCONFIG_EVENT</td>
@@ -8660,7 +8667,7 @@ Disponibilidad limitada del cliente
     </tbody>
 </table>
 
-### Conjunto de roles de usuario
+### Conjunto de funciones del usuario
 
 <table>
     <thead>
@@ -8675,7 +8682,7 @@ Disponibilidad limitada del cliente
       <tbody>
         <tr>
             <td>UserRoleSet</td>
-            <td>Conjunto de roles de usuario</td>
+            <td>Conjunto de funciones del usuario</td>
             <td>URSET</td>
             <td>UserRoleSet</td>
             <td>USERROLESET_CURRENT<br>USERROLESET_DAILY_HISTORY<br>USERROLESET_EVENT</td>
@@ -8989,7 +8996,7 @@ Contiene las definiciones actuales de todos los campos configurados en los tipos
         <td>—</td>
     </tr>
     <tr>
-        <td>ID</td>
+        <td>Identidad</td>
         <td>Varchar</td>
         <td>El identificador único de la definición del campo. Clave principal de esta vista.</td>
         <td>—</td>
@@ -9116,7 +9123,7 @@ Contiene el estado actual de todos los registros creados en Workfront Planning, 
         <td>Varchar</td>
         <td>El identificador único del tipo de registro (por ejemplo, campaña, iniciativa) al que pertenece este registro.</td>
         <td>RECORDTYPE\_CURRENT</td>
-        <td>ID</td>
+        <td>Identidad</td>
     </tr>
     <tr>
         <td>RECORDTYPENAME</td>
@@ -9158,7 +9165,7 @@ Contiene el estado actual de todos los registros creados en Workfront Planning, 
         <td>Varchar</td>
         <td>Identificador único del área de trabajo de Planning que contiene este registro.</td>
         <td>WORKSPACE\_CURRENT</td>
-        <td>ID</td>
+        <td>Identidad</td>
     </tr>
     <tr>
         <td>WORKSPACENAME</td>
@@ -9252,7 +9259,7 @@ Contiene las definiciones actuales de todos los tipos de registros configurados 
         <td>—</td>
     </tr>
     <tr>
-        <td>ID</td>
+        <td>Identidad</td>
         <td>Varchar</td>
         <td>El identificador único del tipo de registro. Clave principal de esta vista.</td>
         <td>—</td>
@@ -9291,7 +9298,7 @@ Contiene las definiciones actuales de todos los tipos de registros configurados 
         <td>Varchar</td>
         <td>El identificador del campo designado como campo principal (título) para este tipo de registro. Clave externa de FIELD\_CURRENT.ID.</td>
         <td>FIELD\_CURRENT</td>
-        <td>ID</td>
+        <td>Identidad</td>
     </tr>
     <tr>
         <td>RESTAURADO</td>
@@ -9340,7 +9347,7 @@ Contiene las definiciones actuales de todos los tipos de registros configurados 
         <td>Varchar</td>
         <td>El identificador único del espacio de trabajo al que pertenece este tipo de registro. Use con WORKSPACE\_CURRENT para buscar los detalles del espacio de trabajo.</td>
         <td>WORKSPACE\_CURRENT</td>
-        <td>ID</td>
+        <td>Identidad</td>
     </tr>
 </table>
 
@@ -9382,7 +9389,7 @@ Contiene el estado actual de todas las conexiones de referencia de objetos cruza
         <td>Varchar</td>
         <td>El identificador único del tipo de registro de Planning asociado al registro propietario de esta referencia. Clave externa de PLANNINGRECORD\_CURRENT.RECORDTYPEID.</td>
         <td>RECORDTYPE\_CURRENT</td>
-        <td>ID</td>
+        <td>Identidad</td>
     </tr>
     <tr>
         <td>REFERENCEVALUE</td>
@@ -9476,11 +9483,11 @@ Contiene las definiciones actuales de todos los espacios de trabajo de Workfront
         <td>—</td>
     </tr>
     <tr>
-        <td>ID</td>
+        <td>Identidad</td>
         <td>Varchar</td>
         <td>Identificador único del espacio de trabajo de Planning. Clave principal de esta vista.</td>
         <td>WF.WORKSPACES\_CURRENT</td>
-        <td>ID</td>
+        <td>Identidad</td>
     </tr>
     <tr>
         <td>DISFUSIÓN</td>
@@ -9501,7 +9508,7 @@ Contiene las definiciones actuales de todos los espacios de trabajo de Workfront
         <td>Varchar</td>
         <td>Identificador del espacio de trabajo principal si este espacio de trabajo está anidado en una jerarquía de espacio de trabajo. Vacío si este espacio de trabajo no tiene elemento principal (es decir, es un espacio de trabajo de nivel superior).</td>
         <td>WORKSPACE\_CURRENT</td>
-        <td>ID</td>
+        <td>Identidad</td>
     </tr>
     <tr>
         <td>RESTAURADO</td>

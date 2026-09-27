@@ -2,33 +2,43 @@
 content-type: overview;reference
 navigation-topic: workfront-navigation
 title: Información general sobre los objetos de [!DNL Adobe Workfront]
-description: La información que se muestra en  [!DNL Adobe Workfront]  está representada por objetos que se almacenan en la base de datos  [!DNL Workfront] . Los objetos son los que generan la información en  [!DNL Workfront]. Obtenga más información acerca de estos objetos en este artículo.
+description: La información que se muestra en [!DNL Adobe Workfront] está representada por objetos almacenados en la base de datos [!DNL Workfront]. Los objetos son los que generan la información en [!DNL Workfront]. Obtenga más información acerca de estos objetos en este artículo.
 feature: Get Started with Workfront
 author: Alina
 exl-id: f324f198-5472-4cf2-a46e-7fc24605ca90
-TQID: https://experienceleague.adobe.com/CK2A3TGk-ojo-hg6IVEIjGUq-aUwLs2Im2ZrlE2od3M
+TQID: 'https://experienceleague.adobe.com/CK2A3TGk-ojo-hg6IVEIjGUq-aUwLs2Im2ZrlE2od3M'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
   - id: d3382524-5489-431b-bde9-271ab257bc37
+    internal-label: Workfront Scenario Planner
   - id: e147ce9d-7675-49bd-8a32-44f27d865560
+    internal-label: Get started
   - id: fceb5125-bb41-419a-b0db-31958cb42f6c
+    internal-label: Workfront Goals
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 2394
-ht-degree: 92%
-
+source-wordcount: '2464'
+ht-degree: 94%
 ---
-
 # Información general sobre los objetos de [!DNL Adobe Workfront]
 
 <!--Audited: 12/2023-->
@@ -256,8 +266,8 @@ Puede crear informes sobre los objetos siguientes al usar el generador de inform
 * [!UICONTROL Tarea de la línea de base]
 * [!UICONTROL Registro de facturación]
 * [!UICONTROL Horas presupuestadas]
-   * Son las [!UICONTROL horas presupuestadas], tal como aparecen en las herramientas de administración de recursos obsoletas más antiguas.
-   * El campo “Horas pres.” en el informe [!UICONTROL Horas presupuestadas] hace referencia a las horas presupuestadas para las funciones del [!UICONTROL Planificador de recursos]. Para obtener más información, consulte [Comprender [!UICONTROL el coste presupuestado de la mano de obra] y las [!UICONTROL Horas presupuestadas] para proyectos](../../../manage-work/projects/project-finances/budgeted-labor-cost.md).
+  * Son las [!UICONTROL horas presupuestadas], tal como aparecen en las herramientas de administración de recursos obsoletas más antiguas.
+  * El campo “Horas pres.” en el informe [!UICONTROL Horas presupuestadas] hace referencia a las horas presupuestadas para las funciones del [!UICONTROL Planificador de recursos]. Para obtener más información, consulte [Comprender [!UICONTROL el coste presupuestado de la mano de obra] y las [!UICONTROL Horas presupuestadas] para proyectos](../../../manage-work/projects/project-finances/budgeted-labor-cost.md).
 
 * [!UICONTROL Evento de calendario]
 * [!UICONTROL Compañía]
@@ -266,7 +276,7 @@ Puede crear informes sobre los objetos siguientes al usar el generador de inform
 * [!UICONTROL Documento]
 * [!UICONTROL Aprobación de documento]
 * [!UICONTROL Versión del documento]
-   * Puede ver información sobre la versión del documento, el documento con el que está asociada la versión, quién creó la versión y el usuario que creó la prueba en la versión del documento, si existe (Creador de revisiones).
+  * Puede ver información sobre la versión del documento, el documento con el que está asociada la versión, quién creó la versión y el usuario que creó la prueba en la versión del documento, si existe (Creador de revisiones).
 * [!UICONTROL Plantilla del correo electrónico]
 * [!UICONTROL Gasto]
 * [!UICONTROL Tipo de gasto]
@@ -274,44 +284,44 @@ Puede crear informes sobre los objetos siguientes al usar el generador de inform
 * [!UICONTROL Favorito]
 * [!UICONTROL Filtro]
 * [!UICONTROL Meta]
-   * Puede generar un informe para metas estratégicas o mostrar información relacionada con las metas en un informe de proyecto cuando los proyectos están asociados con metas como actividades de metas. Puede crear metas estratégicas y conectar proyectos con ellas solo si su organización ha adquirido una licencia de [!DNL Workfront Goals]. Para obtener información sobre [!DNL Workfront Goals], consulte [[!DNL Workfront Goals] descripción general](../../../workfront-goals/goal-management/wf-goals-overview.md). Para obtener información acerca de cómo conectar proyectos con metas estratégicas, consulte [Agregar proyectos a metas en Objetivos de Adobe Workfront](../../../workfront-goals/results-and-activities/connect-projects-to-goals-overview.md).
-* No puede informar sobre objetivos de proyecto asociados con [!UICONTROL Caso comercial]. Para obtener información sobre los objetivos del proyecto frente a los objetivos estratégicos, consulte [Glosario de  [!DNL Adobe Workfront] terminología](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
+  * Puede generar un informe para metas estratégicas o mostrar información relacionada con las metas en un informe de proyecto cuando los proyectos están asociados con metas como actividades de metas. Puede crear metas estratégicas y conectar proyectos con ellas solo si su organización ha adquirido una licencia de [!DNL Workfront Goals]. Para obtener información acerca de [!DNL Workfront Goals], consulte la información general de [[!DNL Workfront Goals] &#x200B;](../../../workfront-goals/goal-management/wf-goals-overview.md). Para obtener información acerca de cómo conectar proyectos con metas estratégicas, consulte [Añadir proyectos a metas en Adobe Workfront Goals](../../../workfront-goals/results-and-activities/connect-projects-to-goals-overview.md).
+    *No puede informar sobre metas de proyecto que estén asociadas con un [!UICONTROL Caso empresarial]. Para obtener información sobre los objetivos del proyecto frente a los objetivos estratégicos, consulte el [Glosario de [!DNL Adobe Workfront] terminología](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
 
 * [!UICONTROL Grupo]
 * [!UICONTROL Agrupación]
 * [!UICONTROL Tipo de hora]
 * [!UICONTROL Iniciativa]
-   * Puede generar un informe para las iniciativas que son los objetos secundarios de un plan solo si su compañía ha adquirido una licencia de [!DNL Workfront Scenario Planner]. Para obtener información acerca de las iniciativas, consulte [Información general sobre iniciativas en  [!DNL Workfront Scenario Planner]](../../../scenario-planner/initiatives-overview.md).
+  * Puede generar un informe para las iniciativas que son los objetos secundarios de un plan solo si su compañía ha adquirido una licencia de [!DNL Workfront Scenario Planner]. Para obtener información acerca de las iniciativas, consulte [Información general sobre iniciativas en  [!DNL Workfront Scenario Planner]](../../../scenario-planner/initiatives-overview.md).
 
 * Función del puesto de la iniciativa
-   * Puede generar un informe para las funciones asociadas con las iniciativas de un plan solo si su compañía ha adquirido una licencia de [!DNL Workfront Scenario Planner]. Para obtener información acerca de cómo crear iniciativas y asociarlas con funciones, consulte [Crear y editar iniciativas en [!DNL Workfront Scenario Planner]](../../../scenario-planner/create-and-edit-initiatives.md).
+  * Puede generar un informe para las funciones asociadas con las iniciativas de un plan solo si su compañía ha adquirido una licencia de [!DNL Workfront Scenario Planner]. Para obtener información acerca de cómo crear iniciativas y asociarlas con funciones, consulte [Crear y editar iniciativas en [!DNL Workfront Scenario Planner]](../../../scenario-planner/create-and-edit-initiatives.md).
 
 * [!UICONTROL Iteración]
 * [!UICONTROL Función]
 * [!UICONTROL Entrada de cuaderno]
-   * Puede informar sobre las actualizaciones del sistema rastreadas en el área de [!UICONTROL Actualizaciones] de objetos como tareas, proyectos, problemas, etc. Para obtener más información, consulte [Informe sobre el área de actualizaciones con un informe de entrada de diario](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-journal-entry-report.md).
+  * Puede informar sobre las actualizaciones del sistema rastreadas en el área de [!UICONTROL Actualizaciones] de objetos como tareas, proyectos, problemas, etc. Para obtener más información, consulte [Informe sobre el área de actualizaciones con un informe de entrada de diario](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-journal-entry-report.md).
 
 * [!UICONTROL Plantilla de diseño]
 * [!UICONTROL Hito]
 * [!UICONTROL Ruta de hitos]
 * [!UICONTROL Nota] o [!UICONTROL Actualizaciones]
-   * Puede informar sobre los comentarios añadidos por usuarios individuales.
+  * Puede informar sobre los comentarios añadidos por usuarios individuales.
 
 * [!UICONTROL Parámetro] (o [!UICONTROL Campo personalizado])
 * [!UICONTROL Grupo de parámetros] (o [!UICONTROL Salto de sección])
 * [!UICONTROL Portafolios]
 * [!UICONTROL Programa]
 * [!UICONTROL Proyecto (datos financieros)]
-   * La información financiera se rellena en los informes de [!UICONTROL Proyecto (datos financieros)] solamente cuando los datos asociados a ella tienen menos de 5 años. Por ejemplo, si se asignó una función a una tarea en enero de 2015 y hoy es septiembre de 2021, un campo financiero como [!UICONTROL Fecha de asignación] para la función no se rellena en el informe [!UICONTROL Proyecto (datos financieros)].
+  * La información financiera se rellena en los informes de [!UICONTROL Proyecto (datos financieros)] solamente cuando los datos asociados a ella tienen menos de 5 años. Por ejemplo, si se asignó una función a una tarea en enero de 2015 y hoy es septiembre de 2021, un campo financiero como [!UICONTROL Fecha de asignación] para la función no se rellena en el informe [!UICONTROL Proyecto (datos financieros)].
 
   >[!CAUTION]
   >
   >La ejecución de un informe de proyecto (datos financieros) realiza un nuevo cálculo de los datos financieros, que puede sobrescribir los datos financieros anteriores y puede tardar un tiempo considerable. Para obtener más información sobre las consecuencias del cálculo de datos financieros, consulte [Recalcular las finanzas de un proyecto](/help/quicksilver/manage-work/projects/project-finances/recalculate-project-finances.md).
 
 * [!UICONTROL Aprobación de revisión]
-   * Permite ver información diversa sobre la aprobación de la revisión, que incluye: la prueba que se envió para su aprobación, información sobre el [!UICONTROL aprobador], información sobre el solicitante (si el solicitante es un usuario con licencia de [!DNL Workfront]), información de la versión, el ID de la prueba y la fecha de creación de la prueba.\
-      Los informes de [!UICONTROL Aprobación de revisión] solo incluyen pruebas disponibles en las áreas de Mi trabajo de los usuarios en las que aún no se han tomado decisiones.\
-   * Se han asignado aprobaciones de revisión en [!DNL Workfront] tal como se describe en [Añadir usuarios a una prueba](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md#add) en [Compartir una prueba en [!DNL Adobe Workfront]](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md).
+  * Permite ver información diversa sobre la aprobación de la revisión, que incluye: la prueba que se envió para su aprobación, información sobre el [!UICONTROL aprobador], información sobre el solicitante (si el solicitante es un usuario con licencia de [!DNL Workfront]), información de la versión, el ID de la prueba y la fecha de creación de la prueba.\
+     Los informes de [!UICONTROL Aprobación de revisión] solo incluyen pruebas disponibles en las áreas de Mi trabajo de los usuarios en las que aún no se han tomado decisiones.\
+  * Se han asignado aprobaciones de revisión en [!DNL Workfront] tal como se describe en [Añadir usuarios a una prueba](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md#add) en [Compartir una prueba en [!DNL Adobe Workfront]](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md).
 
 * [!UICONTROL Cola]
 * [!UICONTROL Tema de la cola]
@@ -327,7 +337,7 @@ Puede crear informes sobre los objetos siguientes al usar el generador de inform
 * [!UICONTROL Plantilla]
 * [!UICONTROL Tarea de plantilla]
 * [!UICONTROL Días libres]
-   * Puede crear informes sobre los días libres personales de un usuario, tal como lo indique el usuario en su perfil.
+  * Puede crear informes sobre los días libres personales de un usuario, tal como lo indique el usuario en su perfil.
 
 * [!UICONTROL Plantilla de horas]
 * [!UICONTROL Perfil de plantilla de horas]
@@ -335,11 +345,11 @@ Puede crear informes sobre los objetos siguientes al usar el generador de inform
 * [!UICONTROL Aprobación del usuario]
 * [!UICONTROL Delegación de usuarios]
 
-   * Puede informar sobre los usuarios que se han delegado para realizar las tareas y los problemas de otros mientras están fuera de la oficina. Este informe muestra el usuario que está fuera de la oficina, así como el usuario que cumple con sus obligaciones mientras está fuera.
+  * Puede informar sobre los usuarios que se han delegado para realizar las tareas y los problemas de otros mientras están fuera de la oficina. Este informe muestra el usuario que está fuera de la oficina, así como el usuario que cumple con sus obligaciones mientras está fuera.
 
 * [!UICONTROL Decisiones de los usuarios]
 
-   * Puede crear informes sobre cuántas decisiones han tomado los usuarios en relación con las pruebas y los documentos en el mes actual.
+  * Puede crear informes sobre cuántas decisiones han tomado los usuarios en relación con las pruebas y los documentos en el mes actual.
 
 * [!UICONTROL Vista]
 * [!UICONTROL Elemento de trabajo] (esto genera un informe para las tareas y los problemas)

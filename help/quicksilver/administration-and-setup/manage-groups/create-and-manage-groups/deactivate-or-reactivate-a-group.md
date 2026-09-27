@@ -8,23 +8,30 @@ author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 99b81090-8d09-4130-a746-44ed1d76f971
-TQID: https://experienceleague.adobe.com/DSD8TkghWUd2ZDf8-kQYwnhDlpfCOrbOS83VZdzhJD0
+TQID: 'https://experienceleague.adobe.com/DSD8TkghWUd2ZDf8-kQYwnhDlpfCOrbOS83VZdzhJD0'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
+  - id: 254442ca-6997-5cfa-963e-f420870aea53
+    internal-label: People Teams and Groups
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 753
+source-wordcount: '753'
 ht-degree: 91%
-
 ---
-
 # Desactivar o reactivar un grupo
 
 Puede desactivar un grupo que administre y que ya no utilice.
@@ -99,16 +106,16 @@ Tenga en cuenta lo siguiente en relación con un grupo que desactive deshabilita
 
 * La desactivación de un grupo no cambia lo siguiente:
 
-   * Asociaciones del grupo a objetos. Los objetos asociados siguen funcionando como antes, sin ningún cambio.
+  * Asociaciones del grupo a objetos. Los objetos asociados siguen funcionando como antes, sin ningún cambio.
 
-     Por ejemplo, si un proyecto está asociado con un grupo que usted desactiva, el proyecto continúa utilizando las preferencias y los estados del grupo sin ningún cambio.
+    Por ejemplo, si un proyecto está asociado con un grupo que usted desactiva, el proyecto continúa utilizando las preferencias y los estados del grupo sin ningún cambio.
 
-   * Su capacidad para crear un nuevo objeto, como una aprobación, un equipo o una compañía, desde la página del grupo en la configuración. De forma predeterminada, el nuevo objeto está asociado al grupo inactivo.
-   * Su capacidad, como administrador, para encontrar el grupo en filtros y la creación de informes.
+  * Su capacidad para crear un nuevo objeto, como una aprobación, un equipo o una compañía, desde la página del grupo en la configuración. De forma predeterminada, el nuevo objeto está asociado al grupo inactivo.
+  * Su capacidad, como administrador, para encontrar el grupo en filtros y la creación de informes.
 
-     También puede encontrarlo en los campos de escritura anticipada de grupo en los que puede que desee administrar la configuración del grupo en el área de Configuración. Esto incluye las áreas Preferencias, Notificaciones de eventos y Licencias del sistema.
+    También puede encontrarlo en los campos de escritura anticipada de grupo en los que puede que desee administrar la configuración del grupo en el área de Configuración. Esto incluye las áreas Preferencias, Notificaciones de eventos y Licencias del sistema.
 
-     Por ejemplo, si va a Configuración > Preferencia del proyecto > Proyectos y borra el campo de escritura anticipada situado encima de las opciones, aún puede encontrar un grupo inactivo y configurar sus preferencias de proyecto.
+    Por ejemplo, si va a Configuración > Preferencia del proyecto > Proyectos y borra el campo de escritura anticipada situado encima de las opciones, aún puede encontrar un grupo inactivo y configurar sus preferencias de proyecto.
 
 ## Acerca de la reactivación de un subgrupo debajo de un grupo principal inactivo {#about-reactivating-a-subgroup-below-an-inactive-parent-group}
 

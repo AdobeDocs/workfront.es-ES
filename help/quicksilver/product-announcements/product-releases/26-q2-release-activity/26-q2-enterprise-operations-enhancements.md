@@ -5,13 +5,20 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 72130462-ae78-4b9b-ae18-848602d4a858
-source-git-commit: 540d56017dccf238d301e81085b62b5163b71103
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: '1366'
-ht-degree: 8%
-
+source-wordcount: '1381'
+ht-degree: 7%
 ---
-
 # Mejoras en operaciones empresariales del segundo trimestre de 2026
 
 Esta página describe las mejoras realizadas en Operaciones empresariales con la versión del segundo trimestre de 2026 en el entorno de vista previa. Estas mejoras estarán disponibles en el entorno de producción, como se ha indicado.
@@ -23,8 +30,8 @@ Para obtener una lista de todos los cambios disponibles en este punto del ciclo 
 >[!NOTE]
 >
 >Vista previa: 2 de abril de 2026
->Versión rápida de producción: jueves, 15 de abril de 2026
->Producción para todos: viernes, 16 de abril de 2026
+>Versión rápida de producción: 15 de abril de 2026
+>Producción para todos: 16 de abril de 2026
 
 Las funciones avanzadas de operaciones empresariales de Adobe Workfront son una forma unificada y escalable de administrar las finanzas, los proyectos y el acceso empresarial. Estas capacidades proporcionan la visibilidad y el control que las empresas necesitan para operar de manera rentable y eficiente.
 
@@ -36,7 +43,7 @@ Las funciones avanzadas de operaciones empresariales de Adobe Workfront son una 
 
 Pronostique, rastree y optimice sus finanzas con jerarquías de costos y tasas de facturación de varios niveles.
 
-[Vea un vídeo de demostración de 13 minutos de las características avanzadas de Financial Management.](https://video.tv.adobe.com/v/3483224/){target="_blank"}
+[Vea un vídeo de demostración de 13 minutos de las funciones avanzadas de gestión financiera.](https://video.tv.adobe.com/v/3483224/){target="_blank"}
 
 Entre las mejoras realizadas en la gestión financiera se incluyen:
 
@@ -86,7 +93,7 @@ Use **instantáneas de proyecto** para administrar proyectos de manera más efic
 
 Para obtener más información, consulte [Crear y ver instantáneas de proyectos](/help/quicksilver/manage-work/projects/create-projects/create-snapshots.md).
 
-[Ver una demostración en vídeo de las instantáneas del proyecto.](https://video.tv.adobe.com/v/3483249/){target="_blank"}
+[Vea un vídeo de demostración de las instantáneas del proyecto.](https://video.tv.adobe.com/v/3483249/){target="_blank"}
 
 >[!NOTE]
 >
@@ -99,7 +106,7 @@ Para obtener más información, consulte [Crear y ver instantáneas de proyectos
 
 Para obtener más información, consulte [Resumen de perfiles de negocio](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/business-profiles.md).
 
-[Ver un vídeo de demostración de perfiles empresariales.](https://video.tv.adobe.com/v/3483246/){target="_blank"}
+[Vea un vídeo de demostración de los perfiles empresariales.](https://video.tv.adobe.com/v/3483246/){target="_blank"}
 
 >[!NOTE]
 >
@@ -115,7 +122,7 @@ Además, los permisos para ver datos de coste y facturación se han separado de 
 
 La lógica avanzada de los formularios personalizados proporciona perspectivas más claras y una administración más precisa del proyecto y la financiación.
 
-[Vea un vídeo de demostración de las mejoras realizadas en los campos y los formularios personalizados.](https://video.tv.adobe.com/v/3483244/){target="_blank"}
+[Vea un vídeo de demostración de las mejoras de los campos y los formularios personalizados.](https://video.tv.adobe.com/v/3483244/){target="_blank"}
 
 Las mejoras en los formularios personalizados incluyen las siguientes:
 
@@ -128,9 +135,9 @@ Las mejoras en los formularios personalizados incluyen las siguientes:
   >Los nuevos tipos de lógica solo están disponibles para las organizaciones en los paquetes de flujo de trabajo Prime o Ultimate.
 
 * Mejoras en la interfaz del diseñador de formularios:
-   * El nombre del formulario ahora aparece en la parte superior izquierda del diseñador, lo que le permite ver el nombre en un formulario largo cuando se desplaza.
-   * Los tipos de objetos a los que se puede adjuntar el formulario se encuentran en una lista desplegable.
-   * Puede elegir mostrar u ocultar los indicadores lógicos de los campos para todos los tipos de lógica. Los tipos de lógica de visualización y omisión muestran indicadores para ambos campos afectados. Todos los demás tipos de lógica afectan a un campo.
+  * El nombre del formulario ahora aparece en la parte superior izquierda del diseñador, lo que le permite ver el nombre en un formulario largo cuando se desplaza.
+  * Los tipos de objetos a los que se puede adjuntar el formulario se encuentran en una lista desplegable.
+  * Puede elegir mostrar u ocultar los indicadores lógicos de los campos para todos los tipos de lógica. Los tipos de lógica de visualización y omisión muestran indicadores para ambos campos afectados. Todos los demás tipos de lógica afectan a un campo.
 
   Para obtener más información, consulte [Crear un formulario personalizado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
@@ -165,7 +172,7 @@ En las plantillas de diseño, puede personalizar los encabezados y los menús de
 
 Para obtener más información, consulte [Crear y administrar plantillas de diseño](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
 
-[Vea un vídeo de demostración de las mejoras de la plantilla de diseño.](https://video.tv.adobe.com/v/3483245/){target="_blank"}
+[Vea un vídeo de demostración de las mejoras en la plantilla de diseño.](https://video.tv.adobe.com/v/3483245/){target="_blank"}
 
 ### Localización personalizada
 
@@ -179,7 +186,7 @@ Por ejemplo, puede establecer la etiqueta &quot;Audiencia objetivo&quot; para qu
 
 Para obtener más información, consulte [Configurar la localización personalizada](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-custom-localization.md).
 
-[Ver un vídeo de demostración de la localización personalizada.](https://video.tv.adobe.com/v/3483248/){target="_blank"}
+[Vea un vídeo de demostración de la localización personalizada.](https://video.tv.adobe.com/v/3483248/){target="_blank"}
 
 ### Automatice las acciones con Business Rules
 

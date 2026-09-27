@@ -1,6 +1,6 @@
 ---
 title: Resumen de la sección Historial
-description: Puede revisar los cambios realizados en el registro y registrados por el sistema en el panel derecho de un registro en Adobe Workfront Planning.
+description: Puede revisar los cambios realizados en el registro y registrados por el sistema en el panel derecho de un registro en Planificación de Workfront de Adobe.
 feature: Workfront Planning
 role: User
 author: Alina
@@ -8,24 +8,31 @@ recommendations: noDisplay, noCatalog
 exl-id: 8258589f-a7c3-4d77-9abe-c99e9184bd21
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/mW--blSvQVx2QXVvVeV5NQfjPtO--UcKImNEvxFzbAs
+TQID: 'https://experienceleague.adobe.com/mW--blSvQVx2QXVvVeV5NQfjPtO--UcKImNEvxFzbAs'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
 subfeature_v2:
   - id: e147ce9d-7675-49bd-8a32-44f27d865560
+    internal-label: Get started
+  - id: eb361af2-3e4f-4a79-b5f3-7a344ac5794c
+    internal-label: Workfront Planning
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: f8dfa5a4aec4541d885bcc45933488cd1fdefac4
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 600
+source-wordcount: '600'
 ht-degree: 78%
-
 ---
-
 # Resumen de la sección Historial
 
 <!--
@@ -36,11 +43,11 @@ ht-degree: 78%
 
 {{planning-important-intro}}
 
-Puede colaborar en registros de Adobe Workfront Planning añadiendo comentarios o respuestas en el panel derecho de un registro. También puede ver otros cambios realizados en el registro y registrados por el sistema en esta área.
+Puede colaborar en registros de Planificación de Workfront de Adobe añadiendo comentarios o respuestas en el panel derecho de un registro. También puede ver otros cambios realizados en el registro y registrados por el sistema en esta área.
 
 El panel derecho de un registro muestra las siguientes secciones:
 
-* **Comentarios**: muestra comentarios y respuestas que los usuarios añaden a los registros. Para obtener más información sobre la administración de comentarios en los registros de Workfront Planning, consulte [Administrar comentarios de registro](/help/quicksilver/planning/records/manage-record-comments.md).
+* **Comentarios**: muestra comentarios y respuestas que los usuarios añaden a los registros. Para obtener más información sobre la administración de comentarios en los registros de Planificación de Workfront, consulte [Administrar comentarios de registro](/help/quicksilver/planning/records/manage-record-comments.md).
 * **Historial**: muestra los cambios registrados por el sistema que los usuarios realizan en los campos de registro.
 
 ## Requisitos de acceso
@@ -183,7 +190,7 @@ Puede revisar los cambios realizados en los campos de registro en la sección Hi
 
 ![Área de historial en comentarios](assets/history-area-in-comments.png)
 
-* Workfront Planning registra la siguiente información en la sección Historial:
+* Planificación de Workfront registra la siguiente información en la sección Historial:
 
   * Cualquier cambio de campo
 
@@ -213,7 +220,7 @@ Puede revisar los cambios realizados en los campos de registro en la sección Hi
 
 * Los campos de tipo casilla de verificación nunca muestran el valor antiguo en formato tachado. Si se edita el campo, solo se muestra el estado actual en el momento en que se realizó el cambio.
 
-  Para obtener más información sobre los campos de Workfront Planning, consulte [Crear campos](/help/quicksilver/planning/fields/create-fields.md).
+  Para obtener más información sobre los campos de Planificación de Workfront, consulte [Crear campos](/help/quicksilver/planning/fields/create-fields.md).
 
 * Los cambios en los campos de los siguientes tipos no se muestran en la sección Historial:
 

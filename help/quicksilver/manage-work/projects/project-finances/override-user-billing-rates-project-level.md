@@ -7,13 +7,17 @@ description: Este artículo describe cómo puede anular las tarifas de facturaci
 author: Lisa
 feature: Work Management
 exl-id: eb7dbb6f-a31c-4569-be54-9a151dcf4135
-source-git-commit: 39630b50384d710dadb1f48342113b74338a9104
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: '744'
-ht-degree: 16%
-
+source-wordcount: '749'
+ht-degree: 15%
 ---
-
 # Anular las tarifas de facturación del usuario en el nivel de proyecto
 
 Como jefe de proyecto, puede especificar cuál es la tasa de facturación de un usuario en un proyecto específico. Esta tarifa de facturación a nivel de proyecto anula la tarifa de facturación a nivel de sistema para este usuario. Workfront utiliza la tasa de facturación en el nivel de proyecto del usuario para calcular los ingresos, en lugar de utilizar la tasa de facturación en el nivel de sistema.
@@ -49,7 +53,7 @@ Para obtener más información acerca del cálculo de ingresos en el proyecto, v
    <td> <p>Acceso de edición a proyectos y datos financieros</p>
        <p><p>También debe tener uno de los siguientes:</p> 
         <ul> 
-          <li> <p>El nivel de acceso del administrador del sistema. </li> 
+          <li> <p>El nivel de acceso de administrador del sistema. </li> 
           <li> <p>Configuración de <b>usuarios</b> en su nivel de acceso configurado para el acceso de <b>Edición</b>, con <b>Crear</b> y al menos una de las dos opciones de <b>Administrador de usuarios</b> habilitadas en <b>Ajustar la configuración</b> <img src="assets/gear-icon-in-access-levels.png">. </p> <p>De estas dos opciones, si <b>Administrador de usuarios (usuarios de grupo)</b> está habilitado, debe ser administrador de grupo de un grupo al que pertenezca el usuario.</p> </li> 
     </ul></td> 
   </tr> 

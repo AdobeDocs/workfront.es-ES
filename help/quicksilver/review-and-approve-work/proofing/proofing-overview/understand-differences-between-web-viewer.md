@@ -7,23 +7,31 @@ description: Conozca las diferencias entre los visores de corrección web y de e
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 72ce147b-29c9-4c3b-a03c-2da0758bc178
-TQID: https://experienceleague.adobe.com/5wUR3OHvmgjQmRtvt85iax2gbY0rC0yWsLzuLULia3M
+TQID: 'https://experienceleague.adobe.com/5wUR3OHvmgjQmRtvt85iax2gbY0rC0yWsLzuLULia3M'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Security
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 872
+source-wordcount: '872'
 ht-degree: 94%
-
 ---
-
 # Diferencias entre el visor de corrección web y el visor de corrección de escritorio
 
 Adobe Workfront ofrece dos visores de corrección diferentes:
@@ -62,7 +70,7 @@ La siguiente lista puede ayudarle a comprender qué visor de corrección puede u
 
 ## Pruebas de vídeo
 
-| **Característica**  | **Visor de corrección web** | **Visor de revisiones de escritorio** |
+| **Característica**  | **Visor de revisión web** | **Visor de revisiones de escritorio** |
 |---|---|---|
 | Abrir pruebas de vídeo | ✓ | ✓&#42; |
 | Almacenamiento en búfer | ✓ | ✓&#42; |
@@ -81,7 +89,7 @@ La siguiente lista puede ayudarle a comprender qué visor de corrección puede u
 
 ## Pruebas interactivas
 
-| **Característica**  | **Visor de corrección web** | **Visor de corrección de escritorio** |
+| **Característica**  | **Visor de revisión web** | **Visor de corrección de escritorio** |
 |---|---|---|
 | Abra pruebas interactivas creadas a partir de contenido empaquetado en un archivo ZIP | ✓ | ✓ (recomendado) |
 | Abra una prueba interactiva creada a partir de una dirección URL | No compatible | ✓ |
@@ -379,7 +387,7 @@ La siguiente lista puede ayudarle a comprender qué visor de corrección puede u
 
 ## Minivisor
 
-| **Característica**  | **Visor de corrección web**  | **Visor de corrección de escritorio** |
+| **Característica**  | **Visor de revisión web**  | **Visor de corrección de escritorio** |
 |---|---|---|
 | Código incrustado | Planificado para futuras pruebas de vídeo estáticas y nativas | No compatible  |
 

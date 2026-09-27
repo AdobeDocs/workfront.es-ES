@@ -7,18 +7,21 @@ description: Algunos campos de Adobe Workfront limitan el número de caracteres 
 author: Alina
 feature: Get Started with Workfront
 exl-id: f09dadf4-24f2-46d9-85ae-6081731d917d
-TQID: https://experienceleague.adobe.com/5oa9RRT-VOFngI2UJncfwlVYfHXilftl8kpetBBY7-k
+TQID: 'https://experienceleague.adobe.com/5oa9RRT-VOFngI2UJncfwlVYfHXilftl8kpetBBY7-k'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 254
+source-wordcount: '254'
 ht-degree: 97%
-
 ---
-
 # Límites de caracteres de los campos
 
 Algunos campos de Adobe Workfront limitan el número de caracteres que se pueden incluir en el campo. Workfront indexa el contenido para que se pueda buscar más adelante. Se impone un límite de caracteres para garantizar un rendimiento de alta calidad del sistema de Workfront.

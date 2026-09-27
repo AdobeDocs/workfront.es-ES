@@ -5,25 +5,31 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9b8ec3eb-5327-4b5b-b7a9-80205b46b5e3
-TQID: https://experienceleague.adobe.com/SKiCAgc9DDftQxDXZc1vtqwZamb7lF0TfEuLQWEpJzo
+TQID: 'https://experienceleague.adobe.com/SKiCAgc9DDftQxDXZc1vtqwZamb7lF0TfEuLQWEpJzo'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
   - id: e147ce9d-7675-49bd-8a32-44f27d865560
+    internal-label: Get started
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 486
+source-wordcount: '486'
 ht-degree: 21%
-
 ---
-
 # Mejoras en la página de inicio en el cuarto trimestre de 2024
 
 En esta página se describen todas las mejoras en la página de inicio realizadas en la versión del cuarto trimestre de 2024 en el entorno de vista previa. Estas mejoras estarán disponibles en el entorno de producción, como se ha indicado.
@@ -77,9 +83,9 @@ Con este cambio, se verán afectadas las siguientes áreas:
 * Se cambiará el nombre del área de _espacio de trabajo principal_ a _hogar_.
 * Se cambiará el nombre del área _Inicio y Resumen_ a _Panel de resumen_. Las personalizaciones de esta área se seguirán aplicando al panel de resumen del nuevo Inicio. Para obtener más información, consulte [Personalizar inicio y resumen con una plantilla de diseño](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md).
 * Eliminaremos las siguientes pestañas del panel Inicio y Resumen:
-   * Proyectos
-   * Documentos
-   * Versiones de documento
+  * Proyectos
+  * Documentos
+  * Versiones de documento
 
 Nota: Las versiones del documento y del documento solo se aplican al directorio raíz heredado. No le permitían personalizar el Resumen en el área de Documentos.
 

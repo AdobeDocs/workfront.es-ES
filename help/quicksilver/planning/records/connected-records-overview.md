@@ -8,19 +8,26 @@ recommendations: noDisplay, noCatalog
 exl-id: be51023c-8e11-42e7-aa4f-34484c30eb03
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/hzuTw-VTbzYLjIRKmamPD8294nkfhxfo07pTwI59YkE
+TQID: 'https://experienceleague.adobe.com/hzuTw-VTbzYLjIRKmamPD8294nkfhxfo07pTwI59YkE'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+subfeature_v2:
+  - id: eb361af2-3e4f-4a79-b5f3-7a344ac5794c
+    internal-label: Workfront Planning
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+    internal-label: Admin
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 748
+source-wordcount: '748'
 ht-degree: 13%
-
 ---
-
 # Información general de registros conectados
 
 <!--
@@ -31,7 +38,7 @@ ht-degree: 13%
 
 {{planning-important-intro}}
 
-Puede conectar registros de Adobe Workfront Planning entre sí o a objetos de otras aplicaciones.
+Puede conectar registros de Planificación de Workfront de Adobe entre sí o a objetos de otras aplicaciones.
 
 En este artículo se describen las consideraciones que debe tener en cuenta al conectar registros en Workfront Planning.
 
@@ -76,14 +83,14 @@ Puede conectar manualmente registros a otros registros o a objetos de otra aplic
 
 * Puede conectar registros de Workfront Planning a objetos de Workfront, objetos de Experience Manager Assets o marcas de GenStudio en las siguientes áreas de un registro de Planning:
 
-   * Los campos de registro conectados en la vista de tabla de un tipo de registro en Planning.
-   * Los campos de registro conectados en la página de vista previa o detalles de un registro.
-   * La página de vista previa o de detalles del registro en la página Registros conectados de un registro.
+  * Los campos de registro conectados en la vista de tabla de un tipo de registro en Planning.
+  * Los campos de registro conectados en la página de vista previa o detalles de un registro.
+  * La página de vista previa o de detalles del registro en la página Registros conectados de un registro.
 
 * Puede conectar objetos de Workfront a registros de Workfront Planning en las siguientes áreas de Workfront:
 
-   * La sección Planificación de un objeto de Workfront.
-   * Campo de conexión de Planning en el formulario personalizado de un objeto Workfront.
+  * La sección Planificación de un objeto de Workfront.
+  * Campo de conexión de Planning en el formulario personalizado de un objeto Workfront.
 
   Para obtener más información, consulte [Administrar conexiones de registro desde objetos de Workfront](/help/quicksilver/planning/records/manage-records-in-planning-section.md).
 

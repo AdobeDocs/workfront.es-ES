@@ -7,25 +7,31 @@ description: La sección Actualizaciones de un objeto muestra los comentarios qu
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-TQID: https://experienceleague.adobe.com/NqVbeRxC-1ZOBHKNGLl8XRajN701qE2G5elE-fxDCkI
+TQID: 'https://experienceleague.adobe.com/NqVbeRxC-1ZOBHKNGLl8XRajN701qE2G5elE-fxDCkI'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 subfeature_v2:
   - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+    internal-label: Timesheets
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1206
+source-wordcount: '1206'
 ht-degree: 71%
-
 ---
-
 # Información general sobre la sección Actualizaciones
 
 <!-- Audited: 1/2024 -->
@@ -155,44 +161,44 @@ Existen diferencias entre la forma en que se muestran los comentarios y las actu
 
 * Los siguientes objetos tienen experiencias similares en las tres pestañas de la sección Actualizaciones:
 
-   * Proyectos
-   * Tareas
-   * Problemas
-   * Programas
-   * Portafolios
-   * Usuarios
-   * Hojas de horas
+  * Proyectos
+  * Tareas
+  * Problemas
+  * Programas
+  * Portafolios
+  * Usuarios
+  * Hojas de horas
 
 * Los objetos siguientes no tienen una ficha de actividad del sistema ni una ficha Todos, y la experiencia de la ficha Comentarios coincide con la de todos los demás objetos:
 
-   * Equipo
-   * Plantilla
-   * Tarea de plantilla
+  * Equipo
+  * Plantilla
+  * Tarea de plantilla
 
 * Los objetos siguientes no tienen una ficha de actividad del sistema o una ficha Todos y la experiencia en la ficha Comentarios difiere de la de todos los demás objetos:
 
-   * Iteraciones
-   * Tarjetas ad hoc en el área de Tableros
+  * Iteraciones
+  * Tarjetas ad hoc en el área de Tableros
 
-     Para obtener más información acerca de las actualizaciones en las tarjetas, consulte [Añadir una tarjeta ad hoc a un tablero](/help/quicksilver/agile/get-started-with-boards/add-card-to-board.md).
+    Para obtener más información acerca de las actualizaciones en las tarjetas, consulte [Añadir una tarjeta ad hoc a un tablero](/help/quicksilver/agile/get-started-with-boards/add-card-to-board.md).
 
 * Los objetos siguientes tienen una ficha de actividad System (Sistema) y no tienen una ficha All (Todos):
 
-   * Tarjetas conectadas en el área Tableros
+  * Tarjetas conectadas en el área Tableros
 
-     Para obtener más información, consulte [Usar tarjetas conectadas en tableros](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
+    Para obtener más información, consulte [Usar tarjetas conectadas en tableros](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
 
 * Los objetos siguientes tienen una ficha Historial que sustituye a la ficha Actividad del sistema:
 
-   * Registros en Workfront Planning
+  * Registros en Workfront Planning
 
-     Para obtener más información, consulte [Resumen de la sección de historial](/help/quicksilver/planning/records/history-section-overview.md).
+    Para obtener más información, consulte [Resumen de la sección de historial](/help/quicksilver/planning/records/history-section-overview.md).
 
 * Los objetos siguientes no tienen una pestaña Todos y la experiencia de la pestaña Comentarios coincide con la de la mayoría de los objetos:
 
-   * Metas
+  * Metas
 
-     Para obtener más información acerca de las actualizaciones sobre las metas, consulte [Administrar comentarios sobre las metas](/help/quicksilver/workfront-goals/goal-management/manage-goal-comments.md).
+    Para obtener más información acerca de las actualizaciones sobre las metas, consulte [Administrar comentarios sobre las metas](/help/quicksilver/workfront-goals/goal-management/manage-goal-comments.md).
 
 <!-- info for April 11: hide the entire section below: -->
 
@@ -324,19 +330,19 @@ Tenga en cuenta lo siguiente al ver las actualizaciones de usuarios y equipos:
 
 * La sección Actualizaciones para equipos se rellena con comentarios añadidos a los siguientes objetos:
 
-   * Usuarios
-   * Historias
-   * Hojas de horas
-   * Iteraciones
+  * Usuarios
+  * Historias
+  * Hojas de horas
+  * Iteraciones
 
 * La ficha Actualizaciones del sistema del área Actualizaciones para usuarios se rellena con actualizaciones de otros objetos. Las siguientes son actualizaciones que se muestran en la pestaña Actualizaciones del sistema del perfil del usuario, cuando se realiza el seguimiento de estos campos en el área Fuentes de actualizaciones de la configuración:
 
-   * Agregar, quitar y otras actualizaciones de documentos
-   * Adición, eliminación, adición en nombre de y otras actualizaciones de entradas de horas
-   * Actualizaciones en campos personalizados
-   * Actualizaciones de perfil de usuario (actualizaciones del avatar del usuario, número de móvil, campo Háblame acerca de, título)
-   * Adición, eliminación, cambio de nivel de acceso, cambios en los campos integrados del usuario
-   * Información financiera de tareas y proyectos.
+  * Agregar, quitar y otras actualizaciones de documentos
+  * Adición, eliminación, adición en nombre de y otras actualizaciones de entradas de horas
+  * Actualizaciones en campos personalizados
+  * Actualizaciones de perfil de usuario (actualizaciones del avatar del usuario, número de móvil, campo Háblame acerca de, título)
+  * Adición, eliminación, cambio de nivel de acceso, cambios en los campos integrados del usuario
+  * Información financiera de tareas y proyectos.
 
 ### Limitaciones al introducir comentarios en nombre de otro usuario
 

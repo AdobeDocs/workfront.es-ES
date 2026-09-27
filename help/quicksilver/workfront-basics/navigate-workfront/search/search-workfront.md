@@ -1,27 +1,32 @@
 ---
 navigation-topic: search
-title: Búsqueda en  [!DNL Adobe Workfront]
-description: Puede localizar fácilmente elementos en  [!DNL Adobe Workfront]  buscándolos cuando no pueda recordar su ubicación exacta.
+title: Buscar [!DNL Adobe Workfront]
+description: Puede localizar fácilmente elementos en [!DNL Adobe Workfront] buscándolos cuando no pueda recordar su ubicación exacta.
 feature: Get Started with Workfront
 author: Courtney
 exl-id: 7c856349-c79f-40d8-9c96-b32bfb6d5417
-TQID: https://experienceleague.adobe.com/3dFbIhQzzlEcbHdb3lO0R0-2eAZ2GkDmVo1g5i0z5gI
+TQID: 'https://experienceleague.adobe.com/3dFbIhQzzlEcbHdb3lO0R0-2eAZ2GkDmVo1g5i0z5gI'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1469
-ht-degree: 62%
-
+source-wordcount: '1523'
+ht-degree: 61%
 ---
-
 # Buscar [!DNL Adobe Workfront]
 
 <!-- Audited: 5/2025 -->
@@ -92,11 +97,11 @@ Los campos disponibles para la búsqueda se basan en el tipo de búsqueda: Bási
 
 * **Búsqueda básica**: al buscar objetos en una Búsqueda básica, [!DNL Workfront] busca texto que pueda contener palabras clave en los campos siguientes:
 
-   * Nombres de objeto
-   * Descripciones
-   * Campos de datos personalizados
-   * Actualizaciones
-   * Nombres de documentos (en búsquedas de documentos específicas y en una búsqueda básica)
+  * Nombres de objeto
+  * Descripciones
+  * Campos de datos personalizados
+  * Actualizaciones
+  * Nombres de documentos (en búsquedas de documentos específicas y en una búsqueda básica)
 
   Para obtener más información acerca de la búsqueda básica en [!DNL Workfront], vea la siguiente sección en este artículo: [Búsqueda básica](#basic-search).
 

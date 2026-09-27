@@ -6,18 +6,21 @@ description: Las siguientes notificaciones le avisan sobre las actividades que s
 author: Courtney
 feature: Get Started with Workfront
 exl-id: fd93a48b-ef09-4489-b93d-5328240ffed6
-TQID: https://experienceleague.adobe.com/hJWb3tzQP-84n8GB0I34kETVKlf-zKUVn2Hxa4pWKC0
+TQID: 'https://experienceleague.adobe.com/hJWb3tzQP-84n8GB0I34kETVKlf-zKUVn2Hxa4pWKC0'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 917
-ht-degree: 98%
-
+source-wordcount: '928'
+ht-degree: 100%
 ---
-
 # Notificaciones: Información diversa
 
 Las siguientes notificaciones le avisan sobre las actividades que se producen en un proyecto que patrocina.
@@ -68,7 +71,7 @@ Consulte también [Notificaciones de eventos](../../workfront-basics/using-notif
    <td><strong>Instantáneo</strong> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>Se añade a una persona de mi equipo a un proyecto</strong> </p> <p>Un administrador recibe una notificación por correo electrónico cuando se agrega uno de sus usuarios a un proyecto. Esta notificación se envía independientemente del estado del proyecto. </p> <p>Los usuarios con una licencia de [!UICONTROL Review] no reciben ninguna notificación.</p> <p>El asunto del correo electrónico es: <em>Asignación de proyecto: &lt;Nombre de usuario&gt;[&lt;Project GUID&gt;_ &lt;User GUID&gt;]</em></p> </td> 
+   <td> <p><strong>Se añade a una persona de mi equipo a un proyecto</strong> </p> <p>Un administrador recibe una notificación por correo electrónico cuando se añade uno de sus usuarios a un proyecto. Esta notificación se envía independientemente del estado del proyecto. </p> <p>Los usuarios con una licencia de [!UICONTROL Review] no reciben ninguna notificación.</p> <p>El asunto del correo electrónico es: <em>Asignación de proyecto: &lt;Nombre de usuario&gt;[&lt;Project GUID&gt;_ &lt;User GUID&gt;]</em></p> </td> 
    <td> <p>Nombre del proyecto<br>Nombre del portafolio<br>Número de referencia del proyecto<br>Nombre del usuario que añadió a la persona al proyecto<br>Nombre del usuario que se añadió al proyecto<br>[!UICONTROL Planned Start Date] del proyecto<br>[!UICONTROL Planned Completion Date] del proyecto<br>Porcentaje completado del proyecto<br>Nombres de otros en el proyecto<br>Estado del proyecto<br>Propietario del proyecto<br><strong>Botón [!UICONTROL See More Details]</strong><br><br><br></p> </td> 
    <td><strong>Instantáneo</strong> </td> 
   </tr> 

@@ -5,25 +5,31 @@ author: Lisa
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 5d8a0858-aa4a-4b5f-bbc4-7215e145b59a
-TQID: https://experienceleague.adobe.com/EaBgUmWMJByCS3QoH-GoOEheVUKihKNw17cgJnbkm9A
+TQID: 'https://experienceleague.adobe.com/EaBgUmWMJByCS3QoH-GoOEheVUKihKNw17cgJnbkm9A'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
 subfeature_v2:
   - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+    internal-label: Timesheets
   - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 326
-ht-degree: 92%
-
+source-wordcount: '383'
+ht-degree: 98%
 ---
-
 # 23.3 Mejoras del administrador
 
 Esta página describe todas las mejoras realizadas por el administrador en la versión 23.3. Estas mejoras estaban disponibles en el entorno de producción con la versión 23.3 de 20 y 21 de julio de 2023.
@@ -48,8 +54,8 @@ Para obtener más información, consulte [Configurar preferencias de plantilla d
 
 ## Los indicadores y las reglas de la lógica de visualización y la lógica de omisión se muestran en la versión beta del diseñador de formularios
 
-La versión beta pública del diseñador de formularios se volvió a habilitar en Vista previa y producción el 21 de julio de 2023. El nuevo diseñador de formularios tiene un nuevo espacio de trabajo de estilo lienzo que le permite ver los campos, el lienzo y la configuración de los campos al mismo tiempo.
-Además, cuando se abre un formulario personalizado en la versión beta de Forms Designer que contiene lógica de visualización u omisión creada en el generador de formularios heredado, ahora se puede ver la lógica:
+La versión beta pública del diseñador de formularios se volvió a habilitar en Previsualización y producción el 21 de julio de 2023. El nuevo diseñador de formularios tiene un nuevo espacio de trabajo de estilo lienzo que le permite ver los campos, el lienzo y la configuración de los campos al mismo tiempo.
+Además, cuando se abre un formulario personalizado en la versión beta del diseñador de formularios que contiene lógica de visualización o de omisión creada en el generador de formularios heredado, ahora se puede ver la lógica:
 
 * Los iconos de un campo en el lienzo del diseñador de formularios indican que la lógica está configurada en ese campo o que el campo se utiliza en reglas lógicas configuradas en otros campos.
 * Al seleccionar un campo con lógica aplicada, se muestran las reglas lógicas existentes en la configuración del campo.

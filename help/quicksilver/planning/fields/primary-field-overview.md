@@ -1,6 +1,6 @@
 ---
 title: Resumen del campo principal
-description: En la vista de tabla de un tipo de registro en Adobe Workfront Planning, puede designar un campo de texto, número o fórmula de una sola línea como campo principal. El campo principal se convierte en el título de los registros de ese tipo.
+description: En la vista de tabla de un tipo de registro en Planificación de Workfront de Adobe, puede designar un campo de texto, número o fórmula de una sola línea como campo principal. El campo principal se convierte en el título de los registros de ese tipo.
 feature: Workfront Planning
 role: User
 author: Alina
@@ -8,18 +8,24 @@ recommendations: noDisplay, noCatalog
 exl-id: fe3127ab-3f59-46a0-a747-9e9e1582265b
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/LAxXoG6cLqWJfEn5FQQDVQ7JO9-Fql0o56Q9qUIi2Gs
+TQID: 'https://experienceleague.adobe.com/LAxXoG6cLqWJfEn5FQQDVQ7JO9-Fql0o56Q9qUIi2Gs'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+subfeature_v2:
+  - id: eb361af2-3e4f-4a79-b5f3-7a344ac5794c
+    internal-label: Workfront Planning
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 307
+source-wordcount: '307'
 ht-degree: 88%
-
 ---
-
 # Información general sobre el campo principal
 
 <!--
@@ -30,7 +36,7 @@ ht-degree: 88%
 
 {{planning-important-intro}}
 
-El campo principal es el campo que se muestra en la primera columna de una vista de tabla de tipo de registro en Adobe Workfront Planning.
+El campo principal es el campo que se muestra en la primera columna de una vista de tabla de tipo de registro en Planificación de Workfront de Adobe.
 
 De forma predeterminada, el campo Nombre es el campo principal. Sin embargo, puede designar cualquier campo de los siguientes tipos como campo principal de los registros:
 
@@ -48,14 +54,14 @@ Para obtener información acerca de cómo designar un campo como campo principal
 
   >[!NOTE]
   >
-  >    Los nombres “campo principal” y “título de registro” son sinónimos en Workfront Planning. Se prefiere “campo principal” cuando se visualiza el registro en la vista de tabla.
+  >    Los nombres “campo principal” y “título de registro” son sinónimos en Planificación de Workfront. Se prefiere “campo principal” cuando se visualiza el registro en la vista de tabla.
 
 
 * El título de un registro se muestra en las áreas siguientes:
 
-   * El área de encabezado de la página y el cuadro de vista previa del registro
-   * Campos de registro conectados
-   * Vistas
+  * El área de encabezado de la página y el cuadro de vista previa del registro
+  * Campos de registro conectados
+  * Vistas
 * No se puede mover, ocultar ni eliminar el campo principal en la vista de tabla, a menos que se designe otro campo como campo principal.
 * El campo principal siempre está bloqueado y no forma parte del desplazamiento horizontal de la vista de tabla.
 * Cambiar el campo principal en la vista de tabla afecta a la vista de todos los demás usuarios que lo elijan.

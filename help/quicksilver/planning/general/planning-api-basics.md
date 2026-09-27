@@ -6,27 +6,36 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: afb58d04-fa75-4eb7-9c19-2a8c1748fbc2
-TQID: https://experienceleague.adobe.com/SGwYFV5aZJGwfUy7ejVTaOkn0v4Dt-HJLI5hDWKVhMo
+TQID: 'https://experienceleague.adobe.com/SGwYFV5aZJGwfUy7ejVTaOkn0v4Dt-HJLI5hDWKVhMo'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
 subfeature_v2:
   - id: e147ce9d-7675-49bd-8a32-44f27d865560
+    internal-label: Get started
+  - id: eb361af2-3e4f-4a79-b5f3-7a344ac5794c
+    internal-label: Workfront Planning
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 2232
+source-wordcount: '2232'
 ht-degree: 11%
-
 ---
-
-# Conceptos básicos de la API de Adobe Workfront Planning
+# Conceptos básicos de la API de Planificación de Workfront de Adobe
 
 {{planning-important-intro}}
 
@@ -225,7 +234,7 @@ Para ver ejemplos, consulte la [documentación para desarrolladores de API de Wo
 
 ### Uso de modificadores de búsqueda
 
-Workfront Planning admite los siguientes modificadores de búsqueda:
+Planificación de Workfront admite los siguientes modificadores de búsqueda:
 
 
 <table style="table-layout:auto"> 
@@ -447,8 +456,8 @@ Puede llamar a la API de Planning desde un campo de búsqueda externa en un form
 Para obtener más documentación relacionada con la API, consulte también los siguientes artículos:
 
 * Documentación y referencia para desarrolladores de la [API de Workfront Planning](https://developer.adobe.com/wf-planning)
-* [Introducción a Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md)
-* [Información general de acceso a Adobe Workfront Planning](/help/quicksilver/planning/access/access-overview.md)
+* [Introducción a Planificación de Workfront de Adobe](/help/quicksilver/planning/general/planning-overview.md)
+* [Información general de acceso a Planificación de Workfront de Adobe](/help/quicksilver/planning/access/access-overview.md)
 * [Crear aplicaciones de OAuth2 para integraciones de Workfront](/help/quicksilver/administration-and-setup/configure-integrations/create-oauth-application.md)
 
 <!--

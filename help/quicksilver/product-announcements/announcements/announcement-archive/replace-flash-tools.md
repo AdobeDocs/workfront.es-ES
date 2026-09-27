@@ -7,27 +7,37 @@ feature: Product Announcements
 exl-id: a0ca824d-aab8-4da2-97ed-0913a7f76d55
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/ZiRTszrV8GYwr0GIM523WXP7Qk6zfRRsMjVLJ3PZRZg
+TQID: 'https://experienceleague.adobe.com/ZiRTszrV8GYwr0GIM523WXP7Qk6zfRRsMjVLJ3PZRZg'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
 subfeature_v2:
   - id: c33d85a1-be85-4290-854c-87408c10aa80
+    internal-label: Workload Balancer
   - id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
+    internal-label: Resource Planner
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Security
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 2730
-ht-degree: 99%
-
+source-wordcount: '2730'
+ht-degree: 100%
 ---
-
 # Reemplazo de herramientas basadas en Flash en Adobe Workfront
 
 Hemos eliminado todas las herramientas basadas en Flash de Adobe Workfront Classic.
@@ -69,11 +79,11 @@ Para obtener información acerca de las herramientas de reemplazo, consulte [Her
 
 * La pestaña Planificación de recursos heredados del área Personas y todas las herramientas que contiene, que incluye lo siguiente:
 
-   * Administrador del presupuesto de recursos
-   * Planificador de capacidades
-   * Estimaciones de recursos
-   * Cuadrícula de recursos\
-     Para obtener más información, consulte [Planificación de recursos: índice de artículos](../../../resource-mgmt/resource-planning/resource-planning-overview.md).
+  * Administrador del presupuesto de recursos
+  * Planificador de capacidades
+  * Estimaciones de recursos
+  * Cuadrícula de recursos\
+    Para obtener más información, consulte [Planificación de recursos: índice de artículos](../../../resource-mgmt/resource-planning/resource-planning-overview.md).
 
 * El área Estimaciones de recursos heredados en el caso empresarial de un proyecto
 
@@ -102,14 +112,14 @@ Se han eliminado las siguientes funciones de creación de informes e informes:
 
 * Funciones de creación de informes eliminadas:
 
-   * La opción Cuadrícula de recursos en un informe de usuario
-   * La opción Gantt heredado en un proyecto o un informe de tarea\
-     Para obtener más información, consulte [Ver información en el gráfico Gantt](../../../manage-work/gantt-chart/use-the-gantt-chart/view-info-in-gantt.md).
+  * La opción Cuadrícula de recursos en un informe de usuario
+  * La opción Gantt heredado en un proyecto o un informe de tarea\
+    Para obtener más información, consulte [Ver información en el gráfico Gantt](../../../manage-work/gantt-chart/use-the-gantt-chart/view-info-in-gantt.md).
 
 * Informes eliminados:
 
-   * El informe del conjunto de recursos heredados
-   * El informe Estimaciones de recursos
+  * El informe del conjunto de recursos heredados
+  * El informe Estimaciones de recursos
 
   >[!NOTE]
   >
@@ -187,7 +197,7 @@ Salvo que se especifique lo contrario, todas las funciones heredadas se han sust
   </tr> 
   <tr> 
    <td> <p><strong>Estimaciones de recursos</strong> </p> <p>La ficha Estimaciones de recursos de cada conjunto de recursos heredados tenía el mismo propósito que el Administrador de presupuesto de recursos, solo que en el contexto de un conjunto de recursos heredados. Esta herramienta presentaba las mismas limitaciones que el Administrador de presupuesto de recursos y los Conjuntos de recursos heredados: datos inexactos e introducción manual de disponibilidad. </p> </td> 
-   <td> <p>Con el cálculo automático de la disponibilidad de los usuarios, las estimaciones de recursos han quedado obsoletas y se han eliminado.</p> <p>La herramienta se elimina en los conjuntos de recursos de legado y en las estimaciones de recursos de legado en el caso empresarial de un proyecto.
+   <td> <p>Con el cálculo automático de la disponibilidad de los usuarios, las estimaciones de recursos han quedado obsoletas y se han eliminado.</p> <p>La herramienta se elimina en los conjuntos de recursos heredados y en las estimaciones de recursos heredados en el caso empresarial de un proyecto.
    <!--
       <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
        The Legacy Resource Estimates area on the Business Case of the project remains there in View-only mode at this time. 

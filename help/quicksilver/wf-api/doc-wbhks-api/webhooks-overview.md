@@ -8,22 +8,26 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 30a3d0cb-51dc-4770-88be-36d8bf232b98
-TQID: https://experienceleague.adobe.com/5bBLva-jIjwc953MVjAnwo4y0nABq1N0HGDTIurXk40
+TQID: 'https://experienceleague.adobe.com/5bBLva-jIjwc953MVjAnwo4y0nABq1N0HGDTIurXk40'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+  - id: 682536a8-4872-5ee6-a8a6-8012d713482c
+    internal-label: Workfront API
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Implementation
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 193
-ht-degree: 91%
-
+source-wordcount: '220'
+ht-degree: 100%
 ---
-
 # Información general sobre webhooks
 
 Adobe Workfront Document Webhooks define un conjunto de puntos finales de API a través de los cuales Workfront realiza llamadas de API autorizadas a un proveedor de documentos externo. Esto permite a cualquier usuario crear un complemento de middleware para cualquier proveedor de almacenamiento de documentos.
@@ -40,7 +44,7 @@ La experiencia del usuario para integraciones basadas en webhooks será similar 
 
 **Implementación de referencia**
 
-Para ayudar a impulsar el desarrollo de una nueva implementación de webhooks, Workfront proporciona ejemplos de una implementación de referencia. Estos ejemplos se encuentran en [https://github.com/Workfront/webhooks-app](https://github.com/Workfront/webhooks-app). Los ejemplos están basados en Java y permiten a Workfront conectar documentos en un sistema de archivos de red. 
+Para ayudar a impulsar el desarrollo de una nueva implementación de webhooks, Workfront proporciona ejemplos de una implementación de referencia. Estos ejemplos pueden consultarse en [https://github.com/Workfront/webhooks-app](https://github.com/Workfront/webhooks-app). Los ejemplos están basados en Java y permiten a Workfront conectar documentos en un sistema de archivos de red. 
 
 >[!NOTE]
 >
@@ -56,8 +60,8 @@ Para ayudar a impulsar el desarrollo de una nueva implementación de webhooks, W
 
 * Próximas versiones (fecha de lanzamiento: por determinar):
 
-   * Añadido/Eliminar
-   * Añadido/nombre
-   * Añadido/serviceInfo
-   * Añadido/customAction
-   * Añadir paginación y parentId a /search
+  * Añadido/Eliminar
+  * Añadido/nombre
+  * Añadido/serviceInfo
+  * Añadido/customAction
+  * Añadir paginación y parentId a /search

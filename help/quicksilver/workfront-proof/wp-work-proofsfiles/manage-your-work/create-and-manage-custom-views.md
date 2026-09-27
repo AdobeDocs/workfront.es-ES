@@ -2,25 +2,34 @@
 product-previous: workfront-proof
 product-area: documents
 navigation-topic: manage-your-work-workfront-proof
-title: Crear y administrar vistas personalizadas en [!DNL Workfront Proof]
+title: Creación y administración de vistas personalizadas en [!DNL Workfront Proof]
 description: Es posible crear vistas personalizadas de los archivos y pruebas para enumerar los elementos que quiera de la forma en que desee que se muestren. También es posible exportar la información en vista personalizada como informe (en formato de archivo CSV con valores separados por comas).
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 7c6f3fdd-f767-4e8d-937a-1c7645aba55b
-TQID: https://experienceleague.adobe.com/QMQKw8XzYi2H-SA-paAka7w4fbJvQpitTxAwuJrjueA
+TQID: 'https://experienceleague.adobe.com/QMQKw8XzYi2H-SA-paAka7w4fbJvQpitTxAwuJrjueA'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+    internal-label: Workfront Proof
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Security
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 2482
+source-wordcount: '2482'
 ht-degree: 98%
-
 ---
-
 # Creación y administración de vistas personalizadas en [!DNL Workfront Proof]
 
 >[!IMPORTANT]
@@ -229,34 +238,34 @@ Para crear una vista personalizada:
 
      Si desea ver solo pruebas con cero comentarios, seleccione los siguientes valores:
 
-      * Campo: Comentarios
-      * Operador: Igual a
-      * Campo de valor: 0
+     * Campo: Comentarios
+     * Operador: Igual a
+     * Campo de valor: 0
 
      Si desea ver solamente las pruebas con dos o más comentarios, seleccione los siguientes valores:
 
-      * Campo: Comentarios
-      * Operador: Mayor o igual que
-      * Campo de valor: 2
+     * Campo: Comentarios
+     * Operador: Mayor o igual que
+     * Campo de valor: 2
 
      Si desea ver solo pruebas con entre 1 y 4 comentarios, seleccione los siguientes valores:
 
-      * Campo: Comentarios
-      * Operador: Entre
-      * Campo de valor (primer campo): 1
-      * Campo de valor (segundo campo): 4
+     * Campo: Comentarios
+     * Operador: Entre
+     * Campo de valor (primer campo): 1
+     * Campo de valor (segundo campo): 4
 
-        Puede cambiar sin problemas un filtro que haya añadido a su vista personalizada o eliminarlo haciendo clic en el icono de la cruz situado junto al filtro [!UICONTROL configurar] si es necesario.
+       Puede cambiar sin problemas un filtro que haya añadido a su vista personalizada o eliminarlo haciendo clic en el icono de la cruz situado junto al filtro [!UICONTROL configurar] si es necesario.
 
-        Dado que la lista Campo no se limita a las columnas que seleccionó en la pestaña [!UICONTROL Columnas], tenga cuidado al crear un filtro que incluya una columna que no seleccionó para su visualización en la vista personalizada. Por ejemplo, el siguiente filtro para la vista seleccionará todas las pruebas con un valor de contador de versiones igual o superior a 2:
+       Dado que la lista Campo no se limita a las columnas que seleccionó en la pestaña [!UICONTROL Columnas], tenga cuidado al crear un filtro que incluya una columna que no seleccionó para su visualización en la vista personalizada. Por ejemplo, el siguiente filtro para la vista seleccionará todas las pruebas con un valor de contador de versiones igual o superior a 2:
 
-         * Campo = Contador de versión
-         * Operador = Mayor o igual que
-         * Campo de valor = 2
+       * Campo = Contador de versión
+       * Operador = Mayor o igual que
+       * Campo de valor = 2
 
-           >[!NOTE]
-           >
-           >Puede cambiar sin problemas un filtro que haya añadido a su vista personalizada o eliminarlo haciendo clic en el icono de la cruz situado junto al filtro [!UICONTROL configurar] si es necesario.
+         >[!NOTE]
+         >
+         >Puede cambiar sin problemas un filtro que haya añadido a su vista personalizada o eliminarlo haciendo clic en el icono de la cruz situado junto al filtro [!UICONTROL configurar] si es necesario.
 
 
 

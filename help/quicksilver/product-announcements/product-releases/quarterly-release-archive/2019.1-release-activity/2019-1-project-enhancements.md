@@ -7,18 +7,24 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7b39082a-ab96-4e54-8f28-96629760715a
-TQID: https://experienceleague.adobe.com/cHyxMUlRSlpjq9pLWw-jBmewYCc7REao-zYdMQq861Y
+TQID: 'https://experienceleague.adobe.com/cHyxMUlRSlpjq9pLWw-jBmewYCc7REao-zYdMQq861Y'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1467
+source-wordcount: '1467'
 ht-degree: 100%
-
 ---
-
 # Mejoras del proyecto 2019.1
 
 En esta página se describen todas las mejoras del proyecto incluidas en la versión 2019.1. La funcionalidad está disponible actualmente en el entorno de vista previa. Estará disponible en el entorno de producción en .

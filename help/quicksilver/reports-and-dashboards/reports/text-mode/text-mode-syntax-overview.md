@@ -9,20 +9,24 @@ role: User
 exl-id: f24430e1-c5f7-4925-93df-0e956a03c863
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/6-AohxGDArrxGsV8LUHHc0cQQd4ZWoTHqO3DWKRagP4
+TQID: 'https://experienceleague.adobe.com/6-AohxGDArrxGsV8LUHHc0cQQd4ZWoTHqO3DWKRagP4'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: c6dd2ac5-f5bd-4e59-9101-25b156918623
+    internal-label: Reports and dashboards
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Reporting
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1864
+source-wordcount: '1864'
 ht-degree: 98%
-
 ---
-
 # Resumen de sintaxis de modo de texto
 
 <!--Audited: 1/2025-->
@@ -48,8 +52,8 @@ Las siguientes son directrices comunes al crear cualquier elemento de lista o in
 * Utilice siempre mayúsculas y minúsculas al hacer referencia a objetos o atributos en la base de datos de Workfront.
 * Tenga en cuenta la jerarquía de objetos en Workfront. Existen las siguientes diferencias entre vistas, filtros y agrupaciones:
 
-   * Puede mostrar en una vista un objeto que esté a tres objetos de distancia del objeto de informe o lista.
-   * No se puede hacer referencia a objetos que estén a más de 2 objetos de distancia del objeto principal en una agrupación, filtro o indicación personalizada.
+  * Puede mostrar en una vista un objeto que esté a tres objetos de distancia del objeto de informe o lista.
+  * No se puede hacer referencia a objetos que estén a más de 2 objetos de distancia del objeto principal en una agrupación, filtro o indicación personalizada.
 
   **Ejemplo:** Puede mostrar el nombre o GUID del Propietario de portafolio en una vista de tareas:
 
@@ -63,8 +67,8 @@ Las siguientes son directrices comunes al crear cualquier elemento de lista o in
 
   Para obtener información sobre la jerarquía de objetos en Workfront, consulte:
 
-   * [Comprender los objetos de Adobe Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)
-   * [Explorador de API](../../../wf-api/general/api-explorer.md)
+  * [Comprender los objetos de Adobe Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)
+  * [Explorador de API](../../../wf-api/general/api-explorer.md)
 
 * Utilice caracteres comodín siempre que sea posible para que los informes y las listas sean más dinámicos y evitar duplicarlos para distintos usuarios y cronologías similares.
 
@@ -96,15 +100,15 @@ Existen las siguientes similitudes entre la sintaxis de los conjuntos de element
 
   Para obtener información sobre las líneas clave de los códigos para vistas y agrupaciones al crearlos en modo texto, consulte:
 
-   * [Editar una vista usando el modo de texto](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-view.md)
-   * [Edición de una agrupación mediante el modo de texto](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-grouping.md)
+  * [Editar una vista usando el modo de texto](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-view.md)
+  * [Edición de una agrupación mediante el modo de texto](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-grouping.md)
 
 * Las líneas de código y sintaxis son similares para los filtros y las indicaciones personalizadas.
 
   Para obtener más información, consulte:
 
-   * [Editar un filtro mediante el modo de texto](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md)
-   * [Añadir una indicación a un informe](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md)
+  * [Editar un filtro mediante el modo de texto](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md)
+  * [Añadir una indicación a un informe](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md)
 
 ### Sintaxis para vistas y agrupaciones
 
@@ -197,22 +201,22 @@ Al hacer referencia a objetos de Workfront mediante una línea `valueexpression`
 
   **Ejemplo:** para mostrar el nombre de un proyecto concatenado con el nombre de la tarea en un informe de tareas, utilice las líneas siguientes:
 
-   * En una vista:
+  * En una vista:
 
-     `valueexpression=CONCAT({project}.{name},' - ',{name})`
+    `valueexpression=CONCAT({project}.{name},' - ',{name})`
 
-   * En una agrupación:
+  * En una agrupación:
 
-     `group.0.valueexpression=CONCAT({project}.{name},' - ',{name})`
+    `group.0.valueexpression=CONCAT({project}.{name},' - ',{name})`
 
   Para obtener información sobre cómo se hacen referencia los objetos en la base de datos de Workfront, consulte el [Explorador de API](../../../wf-api/general/api-explorer.md).
 
 * Al hacer referencia a un campo personalizado, utilice las siguientes reglas:
 
-   * Utilice el nombre del campo exactamente como aparece en la interfaz.
-   * Escriba “DE:” antes del nombre del campo.
-   * Escriba el campo entre corchetes dobles.
-   * Separe los campos relacionados con el objeto por puntos.
+  * Utilice el nombre del campo exactamente como aparece en la interfaz.
+  * Escriba “DE:” antes del nombre del campo.
+  * Escriba el campo entre corchetes dobles.
+  * Separe los campos relacionados con el objeto por puntos.
 
   **Ejemplo:** Para mostrar el campo personalizado del proyecto Detalles adicionales en una vista de tareas en una línea de expresión de valor, utilice la línea siguiente:
 
@@ -284,14 +288,14 @@ Puede utilizar los siguientes elementos para crear filtros y mensajes personaliz
 
 * Un conector de reglas que conecta varias reglas de filtro:
 
-   * Y
+  * Y
 
-     Este es el conector predeterminado entre reglas de filtro.
+    Este es el conector predeterminado entre reglas de filtro.
 
-   * O
+  * O
 
-     >[!TIP]
-     >
-     >Los conectores de reglas distinguen entre mayúsculas y minúsculas y siempre están en mayúsculas. &quot;AND&quot; se puede omitir en el modo de texto.
+    >[!TIP]
+    >
+    >Los conectores de reglas distinguen entre mayúsculas y minúsculas y siempre están en mayúsculas. &quot;AND&quot; se puede omitir en el modo de texto.
 
 * Comodines para hacer que los filtros sean más dinámicos y personalizarlos para el momento actual o para el usuario que ha iniciado sesión. Para obtener información sobre los comodines, consulte [Información general sobre las variables de filtro comodín](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).

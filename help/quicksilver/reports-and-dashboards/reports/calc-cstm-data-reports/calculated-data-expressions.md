@@ -9,26 +9,33 @@ feature: Reports and Dashboards
 exl-id: cfb3ace9-76c3-4006-878f-e2ad25ffa03b
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/a2yfues0ClR-ZnG1Vo5foOuzaw6d3yiGlU33DUt0Kx0
+TQID: 'https://experienceleague.adobe.com/a2yfues0ClR-ZnG1Vo5foOuzaw6d3yiGlU33DUt0Kx0'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c6dd2ac5-f5bd-4e59-9101-25b156918623
+    internal-label: Reports and dashboards
 subfeature_v2:
   - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 2553
+source-wordcount: '2553'
 ht-degree: 98%
-
 ---
-
 # Información general de expresiones de datos calculados
 
 <!--Audited: 12/2023-->
@@ -151,7 +158,7 @@ Puede crear un campo personalizado calculado de fecha y hora con las siguientes 
    <td> <p>Añade el número de horas a la fecha y tiene el siguiente formato:</p>
 
 <p><code>ADDHOUR(date, number)</code></p>
-   <p>Nota: Esta expresión no se admite en Workfront Planning.</p></td> 
+   <p>Nota: Esta expresión no se admite en Planificación de Workfront.</p></td> 
   </tr>
   <tr> 
    <td><strong>CLEARTIME</strong> </td> 
@@ -472,7 +479,7 @@ Puede crear un campo personalizado calculado que muestre un valor con formato de
    <p>Las opciones de color son $$POSITIVE, $$INFORMATIVE, $$NEGATIVE, $$NOTICE, y las demás opciones de formato son $$BOLD, $$ITALIC, $$UNDERLINE. Solo se permite una opción de color, junto con hasta tres opciones de formato más. Si no se especifica ninguna opción de color, se aplica el color predeterminado del sistema.</p>
    <p>La expresión tiene el siguiente formato:</p>
    <p><code>FORMAT($$POSITIVE, $$BOLD, $$ITALIC)</code></p>
-   <p>Nota: Esta expresión no se admite en Workfront Planning.</p></td> 
+   <p>Nota: Esta expresión no se admite en Planificación de Workfront.</p></td> 
   </tr>   
   <tr> 
    <td><strong>IF</strong> </td> 
@@ -591,7 +598,7 @@ Puede crear un campo personalizado calculado que muestre un valor con formato de
    <p>La expresión tiene el siguiente formato:</p>
    <p><code>SORTASCARRAY(array)</code></p>
    <p>Por ejemplo, ["-12,6", -13,0] se convierte en ["-12,6", "-13"].</p>
-   <p>Nota: Esta expresión no se admite en Workfront Planning.</p></td> 
+   <p>Nota: Esta expresión no se admite en Planificación de Workfront.</p></td> 
   </tr>
   <tr> 
    <td><strong>SORTDESCARRAY</strong> </td> 
@@ -599,7 +606,7 @@ Puede crear un campo personalizado calculado que muestre un valor con formato de
    <p>La expresión tiene el siguiente formato:</p>
    <p><code>SORTDESCARRAY(array)</code></p>
    <p>Por ejemplo, ["-12,6", -13,0] se convierte en ["-13", "-12,6"].</p>
-   <p>Nota: Esta expresión no se admite en Workfront Planning.</p></td> 
+   <p>Nota: Esta expresión no se admite en Planificación de Workfront.</p></td> 
   </tr>
   <tr> 
    <td><strong>STRING</strong> </td> 
@@ -628,7 +635,7 @@ Puede crear un campo personalizado calculado que muestre un valor con formato de
    <td> <p>Evalúa la expresión frente a una lista de valores y devuelve el resultado correspondiente al primer valor coincidente.</p>
    <p>La expresión tiene el siguiente formato:</p>
    <p><code>SWITCH(expression, value1, result1, [value2, result2], ...)</code></p>
-   <p>Esta expresión no se admite en Workfront Planning.</p></td> 
+   <p>Esta expresión no se admite en Planificación de Workfront.</p></td> 
   </tr>   
   <tr> 
    <td><strong>TRIM</strong> </td> 

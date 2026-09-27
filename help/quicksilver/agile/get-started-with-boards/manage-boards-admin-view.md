@@ -8,22 +8,29 @@ feature: Agile
 exl-id: 4a7f2f68-14d2-4532-8c76-2ba78b45deac
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/AGP-6nyqY6PfuSp08mk7Ud-5LX2yAd5EwsqJN4QEqzU
+TQID: 'https://experienceleague.adobe.com/AGP-6nyqY6PfuSp08mk7Ud-5LX2yAd5EwsqJN4QEqzU'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+subfeature_v2:
+  - id: be65ef36-43e4-48e1-a062-caa3778e15be
+    internal-label: Agile
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 604
+source-wordcount: '635'
 ht-degree: 9%
-
 ---
-
 # Administrar la vista de administración del tablero
 
 La vista Administrador de tableros contiene una lista de todos los tableros de su cuenta que los administradores del sistema pueden utilizar para obtener una instantánea rápida de los detalles generales de los tableros, incluyendo cuándo se actualizaron por última vez, cuántas tarjetas tiene cada uno y más.
@@ -84,7 +91,7 @@ Para obtener más información, consulte [Crear o editar un tablero](/help/quick
    1. (Opcional) Haga clic en el icono **Calendario** ![Icono de calendario](assets/calendar-icon.png) y, a continuación, seleccione un intervalo de fechas para filtrar por tableros que se modificaron por última vez dentro de ese intervalo de tiempo.
 
    1. (Opcional) En la sección **Plantilla**, seleccione el tipo de plantilla de placa por el que filtrará la lista. Puede seleccionar más de un tipo de plantilla.
-Para obtener más información sobre los tipos de plantillas de tablero, consulte [Crear o editar un tablero](/help/quicksilver/agile/get-started-with-boards/create-edit-board.md).
+      Para obtener más información acerca de los tipos de plantillas de tablero, vea [Crear o editar un tablero](/help/quicksilver/agile/get-started-with-boards/create-edit-board.md).
 
    1. (Opcional) En la sección **Está archivado**, seleccione si se mostrarán los tableros archivados o no archivados. Puede seleccionar más de una opción.
 

@@ -6,22 +6,29 @@ description: Para proporcionar una seguridad óptima, Adobe Workfront requiere q
 author: Luke
 feature: Product Announcements
 exl-id: 153668ae-0647-47fd-9153-ce45cd8c54ee
-TQID: https://experienceleague.adobe.com/23UVEvZitUFvhkTkgOnubLK76Lzl8QKiyz-R4svWcc8
+TQID: 'https://experienceleague.adobe.com/23UVEvZitUFvhkTkgOnubLK76Lzl8QKiyz-R4svWcc8'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Security
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 380
-ht-degree: 93%
-
+source-wordcount: '409'
+ht-degree: 100%
 ---
-
 # Se requiere TLS 1.2 en Adobe Workfront
 
 Para proporcionar una seguridad óptima, Adobe Workfront requiere que todas las conexiones del explorador e integraciones de API que dependan de TLS 1.0 o versiones anteriores se actualicen a TLS 1.2. En el entorno de vista previa, TLS 1.0 ya se deshabilitó.
@@ -38,7 +45,7 @@ Las conexiones del navegador y las integraciones de API que usen TLS 1.0 seguir�
 
 ## Las integraciones de Workfront que usaban TLS 1.0 se deshabilitaron (9 de enero de 2019)
 
-A partir del 9 de enero de 2019, todas las conexiones del explorador Workfront y las integraciones de la API que utilicen TLS 1.0 deben actualizarse para utilizar TLS 1.1 o posterior. Las conexiones del explorador y las integraciones de la API que siguen aprovechando TLS 1.0 (conexiones entrantes o salientes) ya no podrán comunicarse con la aplicación de Workfront después de este tiempo. 
+A partir del 9 de enero de 2019, todas las conexiones del explorador y las integraciones de API de Workfront que utilicen TLS 1.0 deberán actualizarse para usar TLS 1.1 o versiones posteriores. Las conexiones del explorador y las integraciones de API que sigan usando TLS 1.0 (conexiones entrantes o salientes) ya no podrán comunicarse con la aplicación de Workfront después de este tiempo. 
 
 ## TLS 1.1 se desactivará en el cuarto trimestre de 2019
 

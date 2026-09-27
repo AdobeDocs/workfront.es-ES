@@ -6,22 +6,26 @@ description: El administrador de Adobe Workfront puede otorgarle acceso para ver
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 45da15cb-8880-41f7-a0de-939882c1f154
-TQID: https://experienceleague.adobe.com/nxv12H-Og-oKAiNQgTmw6KbT-yw3xyIKvlqjwSKtgqQ
+TQID: 'https://experienceleague.adobe.com/nxv12H-Og-oKAiNQgTmw6KbT-yw3xyIKvlqjwSKtgqQ'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1172
+source-wordcount: '1172'
 ht-degree: 41%
-
 ---
-
 # Compartir una tarea
 
 El administrador de Adobe Workfront puede otorgarle acceso para ver o editar tareas cuando asignen niveles de acceso. Para obtener más información acerca de cómo conceder acceso a las tareas, vea [Conceder acceso a las tareas](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md).
@@ -74,9 +78,9 @@ Además de las consideraciones siguientes, consulte [Información general sobre 
 
 * Puede conceder los siguientes permisos a una tarea:
 
-   * Ver
-   * Administrar
-   * Aportar
+  * Ver
+  * Administrar
+  * Aportar
 * Cuando comparte una tarea, los usuarios heredan los mismos permisos en todos los objetos secundarios asociados a la tarea de forma predeterminada. Por ejemplo, heredan los mismos permisos en las tareas, problemas y documentos secundarios adjuntos a la tarea.\
   Para obtener más información acerca de la jerarquía de objetos en Workfront, vea [Explicación de los objetos en Adobe Workfront](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
 
@@ -93,10 +97,10 @@ Puede compartir una tarea de las siguientes maneras:
 
 * Automáticamente, haciendo lo siguiente:
 
-   * Especifique los permisos en cualquiera de los objetos principales de la tarea: proyecto, programa o portafolio. Las tareas heredan los permisos de sus objetos principales. Para obtener información acerca de cómo ver permisos heredados en objetos, vea [Ver permisos heredados en objetos](../../workfront-basics/grant-and-request-access-to-objects/view-inherited-permissions-on-objects.md).
-   * Añada entidades a Uso compartido de proyectos en una plantilla utilizada para crear el proyecto en el que se encuentra la tarea. Para obtener información sobre cómo compartir proyectos desde plantillas, vea [Compartir una plantilla](../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md).
+  * Especifique los permisos en cualquiera de los objetos principales de la tarea: proyecto, programa o portafolio. Las tareas heredan los permisos de sus objetos principales. Para obtener información acerca de cómo ver permisos heredados en objetos, vea [Ver permisos heredados en objetos](../../workfront-basics/grant-and-request-access-to-objects/view-inherited-permissions-on-objects.md).
+  * Añada entidades a Uso compartido de proyectos en una plantilla utilizada para crear el proyecto en el que se encuentra la tarea. Para obtener información sobre cómo compartir proyectos desde plantillas, vea [Compartir una plantilla](../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md).
 
-   * Especifique los permisos en todas las tareas de un proyecto cuando edite el proyecto.  Para obtener información sobre cómo administrar el acceso a las tareas del proyecto en función de los permisos de un usuario para el proyecto, consulte la sección [&#128279;](../../manage-work/projects/manage-projects/edit-projects.md#access) en el artículo [Editar proyectos](../../manage-work/projects/manage-projects/edit-projects.md).
+  * Especifique los permisos en todas las tareas de un proyecto cuando edite el proyecto.  Para obtener información sobre cómo administrar el acceso a las tareas del proyecto en función de los permisos de un usuario para el proyecto, consulte la sección [&#128279;](../../manage-work/projects/manage-projects/edit-projects.md#access) en el artículo [Editar proyectos](../../manage-work/projects/manage-projects/edit-projects.md).
 
   >[!TIP]
   >

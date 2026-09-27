@@ -8,22 +8,26 @@ feature: People Teams and Groups
 exl-id: 2e72854a-2d49-4665-b307-b88f660b141e
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/ZQT-PUcRNi1GlWSCM3BKiw3TCT-te2-MeE8YQKtKiBw
+TQID: 'https://experienceleague.adobe.com/ZQT-PUcRNi1GlWSCM3BKiw3TCT-te2-MeE8YQKtKiBw'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: 254442ca-6997-5cfa-963e-f420870aea53
+    internal-label: People Teams and Groups
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1164
-ht-degree: 93%
-
+source-wordcount: '1182'
+ht-degree: 94%
 ---
-
 # Configurar el botón [!UICONTROL Listo] para problemas
 
 El botón [!UICONTROL Listo] puede establecer automáticamente el estado de una tarea o un problema. De manera predeterminada, [!DNL Adobe Workfront] marca un problema como [!UICONTROL Resuelto] cuando un asignado hace clic en [!UICONTROL Listo] en su elemento de trabajo.
@@ -122,7 +126,7 @@ Para asociar usuarios a un equipo de inicio:
 
 1. Haga clic en **[!UICONTROL Guardar cambios]**.\
    Los usuarios que ha seleccionado ahora están asociados a un equipo de inicio.
-Cualquier configuración del equipo, incluidos los estados asociados con el botón [!UICONTROL Listo], ahora es visible para estos usuarios.
+   Cualquier configuración del equipo, incluidos los estados asociados con el botón [!UICONTROL Listo], ahora son visibles para estos usuarios.
 
 ## Configurar el botón [!UICONTROL Listo] cuando se haya eliminado el estado [!UICONTROL Resuelto]
 

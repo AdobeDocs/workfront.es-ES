@@ -1,23 +1,26 @@
 ---
 product-previous: mobile
 navigation-topic: use-the-workfront-mobile-app
-title: Configurar  [!DNL Adobe Workfront] para MobileIron
+title: Configurar [!DNL Adobe Workfront] para MobileIron
 description: En la aplicación de Adobe Workfront para MobileIron, admitimos configuraciones predeterminadas proporcionadas por MobileIron tanto para Android como para iOS.
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 294fd42d-89a8-44c2-a97c-95ea5dd876d4
-TQID: https://experienceleague.adobe.com/xjcpS1OWeVMi-vaSqehNuxg8-ry-Aue--nHY8Si1ZEU
+TQID: 'https://experienceleague.adobe.com/xjcpS1OWeVMi-vaSqehNuxg8-ry-Aue--nHY8Si1ZEU'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 258
-ht-degree: 100%
-
+source-wordcount: '259'
+ht-degree: 98%
 ---
-
 # Configurar [!DNL Adobe Workfront] para [!DNL MobileIron]
 
 En la aplicación Adobe Workfront para [!DNL MobileIron], admitimos configuraciones predeterminadas proporcionadas por [!DNL MobileIron] tanto para [!DNL Android] como para [!DNL iOS].

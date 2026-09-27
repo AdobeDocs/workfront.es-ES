@@ -2,29 +2,34 @@
 product-area: calendars
 navigation-topic: calendars-navigation-topic
 title: Compartir un informe de calendario
-description: Puede compartir un calendario con otros usuarios y ponerlo a disposición del público, permitiendo que alguien sin una licencia de  [!DNL Adobe Workfront]  lo vea.
+description: Puede compartir un calendario con otros usuarios y ponerlo a disposición del público, permitiendo que alguien sin una licencia de [!DNL Adobe Workfront] lo vea.
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 77eed0fe-2d47-40c4-a03d-590f7fa17dbe
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/stg5BuJJo-hPWoXl3E7QnO2RW2h7rwQ4Pptw5H2MGq4
+TQID: 'https://experienceleague.adobe.com/stg5BuJJo-hPWoXl3E7QnO2RW2h7rwQ4Pptw5H2MGq4'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c6dd2ac5-f5bd-4e59-9101-25b156918623
+    internal-label: Reports and dashboards
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 594
+source-wordcount: '594'
 ht-degree: 74%
-
 ---
-
 # Compartir un informe de calendario
 
 Puede compartir un calendario con otros usuarios y ponerlo a disposición del público, permitiendo que alguien sin una licencia de [!DNL Adobe Workfront] lo vea.
@@ -109,7 +114,7 @@ Puede hacer público un calendario y compartir un vínculo con personas que no t
 1. Haga clic en **[!UICONTROL Calendar Actions]** y, a continuación, haga clic en **[!UICONTROL Sharing]**.
 1. Haga clic en el menú **Más** junto al nombre del calendario.
    ![menú de calendario más](assets/more-menu-calendar.png)
-Haga clic en **Copiar vínculo público**.
+   Haga clic en **Copiar vínculo público**.
 1. Haga clic en **[!UICONTROL Guardar]**.
 
 ## Compartir un calendario con un vínculo privado

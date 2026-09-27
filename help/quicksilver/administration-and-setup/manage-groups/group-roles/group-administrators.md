@@ -9,25 +9,33 @@ author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 589cf9fb-f195-4b69-a240-3f73e6ca623e
-TQID: https://experienceleague.adobe.com/Ne32ZVtfFZjrw4kw-c-Tl-j7uEIVz-uBnb7-vxcVcjA
+TQID: 'https://experienceleague.adobe.com/Ne32ZVtfFZjrw4kw-c-Tl-j7uEIVz-uBnb7-vxcVcjA'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
+  - id: 254442ca-6997-5cfa-963e-f420870aea53
+    internal-label: People Teams and Groups
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
   - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+    internal-label: Timesheets
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1037
+source-wordcount: '1063'
 ht-degree: 19%
-
 ---
-
 # Administradores de grupos
 
 <!-- Audited: 12/2023 -->
@@ -59,9 +67,9 @@ Si es administrador de Workfront, le recomendamos que haga lo siguiente antes de
 * Determine si desea que los administradores de grupo puedan iniciar sesión como otros usuarios o restablecer las contraseñas de los usuarios de los grupos que administra. Se necesita acceso adicional para realizar estas tareas, como se explica a continuación en [Acceso necesario para los administradores del grupo](#access-needed-for-group-administrators).
 * Para mejorar la administración de usuarios, considere la posibilidad de asignar grupos o subgrupos en lugar de usuarios a los siguientes objetos:
 
-   * Plantillas de diseño
-   * Horarios
-   * Perfiles de plantillas de horas
+  * Plantillas de diseño
+  * Horarios
+  * Perfiles de plantillas de horas
 
 ## Acceso necesario para los administradores del grupo {#access-needed-for-group-administrators}
 
@@ -78,7 +86,7 @@ Se recomienda que los administradores de grupo tengan acceso de edición a los u
 >[!IMPORTANT]
 >
 >Los administradores de grupo deben tener un acceso mayor que los que administran; de lo contrario, no podrán ver ni modificar niveles de acceso menores.
->Para obtener instrucciones sobre cómo conceder este acceso, consulte [Crear o modificar niveles de acceso personalizados](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+>Para obtener instrucciones sobre cómo conceder este acceso, vea [Crear o modificar niveles de acceso personalizados](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
 Para un administrador de grupo que necesite asignar perfiles de plantilla de horas a usuarios de sus grupos y subgrupos, también recomendamos acceso administrativo a las plantillas de horas y a las horas. Para obtener instrucciones sobre cómo conceder este acceso, consulte [Conceder acceso administrativo a usuarios en ciertas áreas](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
 
@@ -130,8 +138,8 @@ Como administrador de grupos, puede llevar a cabo las tareas descritas a continu
 
 * Cuando la preferencia de un proyecto, una preferencia de tarea o problema o la preferencia de plantillas de horas y horas estén desbloqueadas para grupos en todo el sistema, edite esa preferencia para los grupos que administre. Estas preferencias afectan al comportamiento del proyecto, la tarea y el problema. Para obtener más información, consulte los artículos:
 
-   * [Configurar preferencias de proyecto para un grupo](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-project-preferences-group.md)
-   * [Configurar las preferencias de tareas y problemas de un grupo](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md)
+  * [Configurar preferencias de proyecto para un grupo](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-project-preferences-group.md)
+  * [Configurar las preferencias de tareas y problemas de un grupo](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md)
 
 * Cree y edite los estados de grupo de los grupos que administra. Para obtener más información, consulte [Crear o editar un estado de grupo](../../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md).
 * Configure una notificación de eventos para los grupos que administre. Esto solo se puede hacer después de que un administrador de Workfront desbloquee la capacidad de configurar notificaciones de eventos para grupos a través del sistema. Para obtener más información, vea [Ver y configurar notificaciones de eventos para un grupo](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-configure-event-notifications-group.md).

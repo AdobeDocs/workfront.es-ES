@@ -7,30 +7,41 @@ recommendations: noDisplay, noCatalog
 exl-id: ed348f44-eae1-4478-8425-6114f2b310ad
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/XpMJHQS6S5MemL-GKQETlWJy3PC2EaxvySQO1TvFVZQ
+TQID: 'https://experienceleague.adobe.com/XpMJHQS6S5MemL-GKQETlWJy3PC2EaxvySQO1TvFVZQ'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
 subfeature_v2:
   - id: a7ef0b24-c866-4849-a368-53678af2dfe5
+    internal-label: Adobe Workfront for Microsoft Teams
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
   - id: d3382524-5489-431b-bde9-271ab257bc37
+    internal-label: Workfront Scenario Planner
   - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 705031456bf63cdc25a56bd7faaf95b2501d63bb
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 3163
+source-wordcount: '3177'
 ht-degree: 98%
-
 ---
-
 # Información general de la versión del primer trimestre de 2026
 
 En esta página se ofrece información sobre la funcionalidad incluida en la versión del primer trimestre de 2026 prevista para enero de 2026.
@@ -470,7 +481,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-1-q1-requests.md" class="MCXref xref" xrefformat="{para}">Eliminar solicitudes enviadas en la nueva experiencia de solicitud</a>
-            <p>Para facilitar la organización y el desorden de sus solicitudes, hemos añadido la capacidad de eliminar solicitudes a la nueva experiencia de creación de solicitudes. Ahora puede eliminar las solicitudes que haya enviado. Los administradores de Workfront y de Workfront Planning Workspace también pueden eliminar solicitudes.</p>
+            <p>Para facilitar la organización y el desorden de sus solicitudes, hemos añadido la capacidad de eliminar solicitudes a la nueva experiencia de creación de solicitudes. Ahora puede eliminar las solicitudes que haya enviado. Los administradores de Workfront y de Planificación de Workfront Workspace también pueden eliminar solicitudes.</p>
         </td>
         <td>20 de noviembre de 2025</td>
         <td>14 de enero de 2026</td>
@@ -554,9 +565,9 @@ Estamos actualizando la interfaz a través de Adobe Workfront para mejorar la ex
 
 Las nuevas funciones de Workfront Fusion están disponibles en el entorno de producción a un ritmo distinto a la de la programación de la versión estándar. Para obtener más información sobre las últimas funciones, consulte [Actividad de la versión de Adobe Workfront Fusion](https://experienceleague.adobe.com/es/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
 
-### Mejoras en Workfront Planning
+### Mejoras en Planificación de Workfront
 
-Las nuevas funciones de Workfront Planning están disponibles en el entorno de producción. Para obtener más información sobre las últimas funciones, consulte [Actividad de la versión del primer trimestre de 2026 en Adobe Workfront Planning](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-26-q1.md).
+Las nuevas funciones de Planificación de Workfront están disponibles en el entorno de producción. Para obtener más información sobre las últimas funciones, consulte [Actividad de la versión del primer trimestre de 2026 en Planificación de Workfront de Adobe](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-26-q1.md).
 
 En este punto de la versión, no hay actualizaciones de lo siguiente:
 
@@ -610,11 +621,11 @@ La integración actualizada de Workfront ya está disponible y es totalmente com
 
 ### Workfront para Microsoft Outlook
 
-[Microsoft está en proceso de deshabilitar la compatibilidad con los tókenes heredados de Exchange Online](https://learn.microsoft.com/es-es/office/dev/add-ins/outlook/faq-nested-app-auth-outlook-legacy-tokens), que actualmente utilizan el complemento de Workfront Outlook para la autenticación. Este cambio de Microsoft ya ha comenzado a afectar a los clientes y seguirá implementándose por fases hasta octubre de 2025.
+[Microsoft está en proceso de deshabilitar la compatibilidad con los tokens heredados de Exchange Online](https://learn.microsoft.com/es-es/office/dev/add-ins/outlook/faq-nested-app-auth-outlook-legacy-tokens), que actualmente utilizan el complemento de Workfront Outlook para la autenticación. Este cambio de Microsoft ya ha comenzado a afectar a los clientes y seguirá implementándose por fases hasta octubre de 2025.
 
-* **Después de que Microsoft deshabilite completamente estos tókenes , la integración de Workfront para Microsoft Outlook dejará de funcionar.**
+* **Después de que Microsoft deshabilite completamente estos tokens , la integración de Workfront para Microsoft Outlook dejará de funcionar.**
 
-Como parte de este cambio, Microsoft ha tomado la decisión de cambiar la forma en que se vuelven a habilitar los tókenes. Después del **30 de junio de 2025**, los administradores ya no podrán volver a habilitar los tókenes ; solo el soporte de Microsoft podrá realizar excepciones. **El 1 de octubre de 2025, los tókenes heredados se desactivarán para todos los responsables. No se concederán excepciones.**
+Como parte de este cambio, Microsoft ha tomado la decisión de cambiar la forma en que se vuelven a habilitar los tokens. Después del **30 de junio de 2025**, los administradores ya no podrán volver a habilitar los tokens; solo el soporte de Microsoft podrá realizar excepciones. **El 1 de octubre de 2025, los tokens heredados se desactivarán para todos los responsables. No se concederán excepciones.**
 
 ### Otras transiciones de integración de Workfront
 
@@ -625,7 +636,7 @@ Para ofrecer integraciones más estables y escalables, estamos adoptando un enfo
 * Workfront para Salesforce.
 
 Recomendamos utilizar la automatización e integración de Workfront para las necesidades de integración de su organización con Google Workspace.
-Para obtener una descripción general de la automatización e integración de Workfront, consulte [Información general de Adobe Workfront Fusion](https://experienceleague.adobe.com/es/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
+Para obtener información general sobre la automatización e integración de Workfront, consulte [Información general de Adobe Workfront Fusion](https://experienceleague.adobe.com/es/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
 
 
 ### Actualizaciones de mantenimiento de Workfront

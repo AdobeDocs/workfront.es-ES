@@ -8,22 +8,26 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: ba1d9a9b-7a1f-498b-a6e5-c548a11ac87c
-TQID: https://experienceleague.adobe.com/lUBBvEEWEU-w0X2VbzPP34Int3VBE1tyV5aCdlloaFM
+TQID: 'https://experienceleague.adobe.com/lUBBvEEWEU-w0X2VbzPP34Int3VBE1tyV5aCdlloaFM'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 573
+source-wordcount: '573'
 ht-degree: 90%
-
 ---
-
 # Conceder acceso a documentos
 
 Como administrador de Adobe Workfront, puede utilizar un nivel de acceso para definir el acceso de un usuario a los documentos, tal como se explica en [Información general sobre los niveles de acceso](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
@@ -105,7 +109,7 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
    >
    >Cuando se establece una configuración de nivel de acceso para un tipo determinado de objeto, esa configuración no afecta al acceso de los usuarios a los objetos con una clasificación inferior. Por ejemplo, puede restringir la eliminación de proyectos en su nivel de acceso a los usuarios, pero esto no les impide eliminar documentos, que tienen una clasificación inferior a la de los proyectos.Para obtener más información acerca de la jerarquía de objetos, vea la sección [Interdependencia y jerarquía de objetos](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#understanding-interdependency-and-hierarchy-of-objects) en el artículo [Comprender los objetos en Adobe Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
 
-1. (Opcional) Para restringir los permisos heredados para documentos de objetos de mayor rango, haga clic en **Establecer restricciones adicionales** y, a continuación, seleccione **No heredar nunca el acceso a documentos de proyectos, tareas, problemas, etc**.
+1. (Opcional) Para restringir los permisos heredados para documentos de objetos de mayor clasificación, haga clic en **Establecer restricciones adicionales** y, a continuación, seleccione **No heredar nunca el acceso a documentos de proyectos, tareas, problemas, etc**.
 1. (Opcional) Para establecer la configuración de acceso para otros objetos y áreas en el nivel de acceso en el que esté trabajando, continúe con uno de los artículos citados en [Configurar el acceso a Adobe Workfront](../../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md), como [Conceder acceso a las tareas](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md) y [Conceder acceso a los datos financieros](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
 1. Cuando termine, haga clic en **Guardar**.
 

@@ -5,13 +5,20 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9d5fe72c-7af5-4699-8344-36cfdd3810d0
-source-git-commit: 6aec8f2f3dd6dd653361058712b9e7a251ec6a69
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
 source-wordcount: '322'
-ht-degree: 7%
-
+ht-degree: 8%
 ---
-
 # Mejoras en las solicitudes del tercer trimestre de 2026
 
 Esta página describe las mejoras de solicitudes realizadas con la versión del tercer trimestre de 2026 en el entorno de vista previa. Estas mejoras estarán disponibles en el entorno de producción, como se ha indicado.
@@ -22,7 +29,9 @@ Para obtener una lista de todos los cambios disponibles en este punto del ciclo 
 
 >[!NOTE]
 >
->Vista previa: 27 de mayo de 2026Versión rápida de producción: 11 de junio de 2026Producción para todos: 16 de julio de 2026
+>Vista previa: 27 de mayo de 2026
+>Versión rápida de producción: 11 de junio de 2026
+>Producción para todos: 16 de julio de 2026
 
 Para obtener más contexto sobre el estado correcto en el que se encuentran sus solicitudes, estamos actualizando los estados de las solicitudes en la nueva experiencia de solicitud.
 
@@ -41,7 +50,10 @@ Para obtener más información, consulte [Ver solicitudes enviadas](/help/quicks
 
 >[!NOTE]
 >
->Vista previa: 23 de abril de 2026Versión rápida de producción: 23 de abril de 2026Producción para todos: 23 de abril de 2026Fuera del horario&rbrack;{type=Neutral}
+>Vista previa: 23 de abril de 2026
+>Versión rápida de producción: 23 de abril de 2026
+>Producción para todos: 23 de abril de 2026
+>[!BADGE Fuera del horario]{type=Neutral}
 
 Para ayudarle a organizar mejor su lista de solicitudes, hemos agregado las siguientes vistas predefinidas a la lista de solicitudes en el área de Solicitudes y al widget Mis solicitudes en Inicio:
 

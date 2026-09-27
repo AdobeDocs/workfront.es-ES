@@ -7,18 +7,26 @@ description: Esta página ofrece información sobre la funcionalidad para los Ad
 author: Courtney
 feature: Product Announcements, Workfront Goals
 exl-id: d6a3e048-3f55-4954-9b65-f7f55c77d1a3
-TQID: https://experienceleague.adobe.com/AAXtDn2kVEUtnoYxpzsGQmpZpPtwCi82Tl8QIJbBOho
+TQID: 'https://experienceleague.adobe.com/AAXtDn2kVEUtnoYxpzsGQmpZpPtwCi82Tl8QIJbBOho'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
+  - id: fceb5125-bb41-419a-b0db-31958cb42f6c
+    internal-label: Workfront Goals
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 300
-ht-degree: 86%
-
+source-wordcount: '352'
+ht-degree: 100%
 ---
-
 # Adobe Workfront Goals con la versión 23.1
 
 Esta página proporciona información sobre la funcionalidad para Adobe Workfront Goals que se lanza al entorno de producción con la versión 23.1, que está programada para la semana del 16 de enero de 2023.
@@ -43,8 +51,8 @@ Para obtener una lista de todos los cambios disponibles en todas las áreas de W
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/goals-release-activity/goals-23-1-release/goals-jan.md">Actualizaciones en Workfront Goals</a></p>
                         <p>Para crear una experiencia más coherente con el resto de Workfront, así como para que sea más fácil ver sus metas y trabajar con ellas, hemos actualizado Workfront Goals. La apariencia de Workfront Goals ahora es más similar a otras áreas de Workfront. </p>
-                        <p>Ahora, áreas como el encabezado, las listas y las tarjetas de detalles le resultarán familiares y coherentes con su experiencia en Workfront.
-Los objetivos individuales se abren en su propia página y se han añadido las siguientes secciones en el panel izquierdo para facilitar la navegación y la actualización:</p>
+                        <p>En la actualidad, áreas como el encabezado, las listas y las tarjetas de detalles le resultarán familiares y coherentes con su experiencia en Workfront.
+Las metas individuales se abren en su propia página y se han añadido las siguientes secciones en el panel izquierdo para facilitar la navegación y la actualización:</p>
                         <ul>
                         <li><b>Detalles de la meta</b>: Detalles de la meta: vea información como la descripción de la meta, el progreso, las fechas y la información del objetivo principal.</li>
                         <li><b>Indicadores de progreso</b>: vea los indicadores de progreso en una lista. Puede editar estos indicadores en línea, abrir ventanas de edición o eliminar los indicadores de esta área.</li>
@@ -52,8 +60,8 @@ Los objetivos individuales se abren en su propia página y se han añadido las s
 Compartir, editar, eliminar o copiar una meta es similar a la forma en que se realizan estas acciones para otros objetos en Workfront.</li>    
                         </ul>
                         </p>
-                        <p>Compartir, editar, eliminar o copiar un objetivo es similar a la forma en que se realizan estas acciones para otros objetos en Workfront.
-Además, hemos introducido una nueva experiencia de comentarios en la sección Actualizaciones de un objetivo que ahora muestra los comentarios del usuario y las notas de actividad del sistema en dos pestañas independientes.</p>
+                        <p>Compartir, editar, eliminar o copiar una meta es similar a la forma en que se realizan estas acciones para otros objetos en Workfront.
+Además, hemos introducido una nueva experiencia de comentarios en la sección Actualizaciones de una meta que ahora muestra los comentarios del usuario y las notas de actividad del sistema en dos pestañas independientes.</p>
                         <p><b>IMPORTANTE</b>: con esta actualización, hemos eliminado las secciones Registrar e Impulso en el área Objetivos. </p>
                     </td>
                     <td><p><b>Disponible en estas fechas:</b></p>

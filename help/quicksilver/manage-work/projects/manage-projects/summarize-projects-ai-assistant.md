@@ -6,22 +6,26 @@ description: El encabezado del proyecto incluye un botón que utiliza el Ayudant
 author: Becky
 feature: Get Started with Workfront
 exl-id: e0ac2a50-a75b-4453-8edf-850b8de74327
-TQID: https://experienceleague.adobe.com/II1JXY--V38Wid7Cs3vvQW3Q9Rq9teIiK9cRAqoaZLM
+TQID: 'https://experienceleague.adobe.com/II1JXY--V38Wid7Cs3vvQW3Q9Rq9teIiK9cRAqoaZLM'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 357
+source-wordcount: '357'
 ht-degree: 17%
-
 ---
-
 # Resumir proyectos con el asistente de IA
 
 El asistente de IA de Workfront puede resumir los proyectos, lo que le permite comprender rápidamente la información del proyecto, como su propósito y estado, proporciona ejemplos de tareas que se han completado y que aún están pendientes, así como algunos detalles y notas adicionales.

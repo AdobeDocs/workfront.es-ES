@@ -1,18 +1,25 @@
 ---
 content-type: overview
 navigation-topic: the-new-workfront-experience
-title: Navegación izquierda en  [!DNL Adobe Workfront]
-description: El panel de navegación izquierdo en  [!DNL Workfront]  facilita la navegación por el sistema.
+title: Navegación izquierda en [!DNL Adobe Workfront]
+description: El panel de navegación izquierdo de [!DNL Workfront] facilita la navegación por el sistema.
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 18aae496-b4ec-4056-a7f1-9600b5fb5421
-source-git-commit: 5e2c674c3e0810bd4c6c57889ed659351a03b341
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: '1420'
+source-wordcount: '1421'
 ht-degree: 81%
-
 ---
-
 # Navegación izquierda en [!DNL Adobe Workfront]
 
 La mayoría de las áreas y objetos de WF utilizan un panel de navegación sencillo en el lado izquierdo de la pantalla. A continuación se indican las ventajas de la navegación del panel izquierdo:

@@ -4,13 +4,20 @@ description: Mejoras en la administración de recursos del cuarto trimestre de 2
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 1dd8ab20d11b2b4471308ac5402b31e20359a04c
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: '116'
-ht-degree: 20%
-
+source-wordcount: '132'
+ht-degree: 21%
 ---
-
 # Mejoras en la administración de recursos del cuarto trimestre de 2026
 
 Esta página describe las mejoras de Administración de recursos realizadas con la versión del cuarto trimestre de 2026 en el entorno de vista previa. Estas mejoras estarán disponibles en el entorno de producción, como se ha indicado.
@@ -21,7 +28,10 @@ Para obtener una lista de todos los cambios disponibles en este punto del ciclo 
 
 >[!NOTE]
 >
->Vista previa: 30 de julio de 2026>Versión rápida de la producción: 30 de julio de 2026>Producción para todos: 30 de julio de 2026>[!BADGE Fuera de horario]{type=Neutral}
+>Vista previa: 30 de julio de 2026
+>Versión rápida de producción: 30 de julio de 2026
+>Producción para todos: 30 de julio de 2026
+>[!BADGE Fuera del horario]{type=Neutral}
 
 En el cuadro de diálogo de asignación masiva del Distribuidor de cargas de trabajo, se ha cambiado el nombre de la acción **Reemplazar** a **Asignar** para describir mejor lo que hace la acción. No se ha cambiado ninguna funcionalidad.
 

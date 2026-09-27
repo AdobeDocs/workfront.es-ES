@@ -7,27 +7,35 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 880828f4-3908-4ef0-ab1f-774f8dee72b6
-TQID: https://experienceleague.adobe.com/4-7YnUZXtvacLjoO4Y8c61kJ-kzHnY6ck8xsaqmuTvs
+TQID: 'https://experienceleague.adobe.com/4-7YnUZXtvacLjoO4Y8c61kJ-kzHnY6ck8xsaqmuTvs'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 3709
-ht-degree: 88%
-
+source-wordcount: '3822'
+ht-degree: 91%
 ---
-
 # Actividad de la versión final de Beta 2017.3
 
 Esta página describe todos los cambios más recientes disponibles en el entorno de vista previa con la versión final de Beta 2017.3. La funcionalidad de esta página estaba disponible en el entorno de vista previa el 12 de septiembre de 2017. Estuvo disponible en el entorno de producción a principios de noviembre de 2017.
@@ -304,9 +312,9 @@ El visualizador de HTML incluye las siguientes funciones nuevas al revisar el co
 
 * Navegar por las pruebas a través de las miniaturas de prueba
 
-   * Identifique fácilmente la parte de la prueba que se está revisando. Esto es importante, especialmente cuando los usuarios trabajan con pruebas de mayor formato y páginas web largas, o en cualquier momento en que se necesita un nivel de zoom mayor para ver los detalles.
-   * Cambiar el nivel de zoom
-   * Panorámica del contenido
+  * Identifique fácilmente la parte de la prueba que se está revisando. Esto es importante, especialmente cuando los usuarios trabajan con pruebas de mayor formato y páginas web largas, o en cualquier momento en que se necesita un nivel de zoom mayor para ver los detalles.
+  * Cambiar el nivel de zoom
+  * Panorámica del contenido
 
 * Especifique valores personalizados en la herramienta Medición
 * Al anotar texto dentro de una revisión en el visor de revisiones en Workfront Proof, puedes incluir opciones para indicar que el texto debe estar en negrita, cursiva o subrayado.
@@ -464,8 +472,8 @@ Para obtener más información sobre cómo acceder a Workfront desde Slack, cons
 
 Hemos realizado las siguientes mejoras en el complemento de Workfront para Outlook 365:
 
-* Agregar una tarea o un problema a un proyecto en Workfront: ahora puede convertir un correo electrónico en una tarea o un problema en Workfront mediante el complemento de Outlook 365. En este proceso, puede especificar el proyecto al que desea agregar la tarea o el problema, así como un usuario asignado y una fecha de vencimiento. Antes de esta mejora, solo podía enviar una solicitud a una cola de solicitudes o agregar una tarea personal a su lista de Trabajando en desde Outlook 365. 
-* Conservar un vínculo a los objetos de Workfront en el correo electrónico original convertido en tareas, problemas o solicitudes: cuando se convierte un correo electrónico de Outlook 365 en una tarea, un problema o una solicitud, Outlook 365 conserva un vínculo a la tarea o el problema que se convirtió desde ese correo electrónico dentro del correo electrónico original. Antes de este cambio, no había ninguna indicación en Outlook de si un correo electrónico se había convertido en una tarea o se había enviado como solicitud. 
+* Añade una tarea o un problema a un proyecto en Workfront: Ahora puedes convertir un correo electrónico en una tarea o un problema en Workfront utilizando el complemento de Outlook 365. En este proceso, puedes especificar el proyecto al que deseas añadir la tarea o el problema, así como un responsable y una fecha de vencimiento. Antes de esta mejora, solo podías enviar una solicitud a una cola de solicitudes o añadir una tarea personal a tu lista de Tareas en Progreso desde Outlook 365. 
+* Preserva un enlace a los objetos de Workfront en el correo electrónico original convertido en tareas, problemas o solicitudes: Cuando conviertes un correo electrónico de Outlook 365 en una tarea, un problema o una solicitud, Outlook 365 preserva un enlace a la tarea o al problema que se convirtió a partir de ese correo dentro del correo electrónico original. Antes de este cambio, no había ninguna indicación en Outlook de si un correo electrónico había sido convertido en una tarea o enviado como solicitud. 
 
 ## Cambios de API {#api-changes}
 

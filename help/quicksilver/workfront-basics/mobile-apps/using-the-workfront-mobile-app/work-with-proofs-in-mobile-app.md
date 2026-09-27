@@ -1,23 +1,26 @@
 ---
 product-previous: mobile
 navigation-topic: use-the-workfront-mobile-app
-title: 'Revisar y tomar decisiones sobre las pruebas en la aplicación móvil de  [!DNL Adobe Workfront] '
+title: Revisar y tomar decisiones sobre pruebas en la aplicación móvil de [!DNL Adobe Workfront]
 description: Cuando se le asigna una prueba para su aprobación, aparece en la lista de aprobaciones de la aplicación móvil. Puede revisar la prueba directamente en la aplicación y tomar una decisión al respecto.
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 4ab8dfd0-0a1f-425d-9e05-8e8134ce930a
-TQID: https://experienceleague.adobe.com/50PA5RHzFX275EI4nPAZ-b9P8Xx0Ia9dlgB1JHAd6-s
+TQID: 'https://experienceleague.adobe.com/50PA5RHzFX275EI4nPAZ-b9P8Xx0Ia9dlgB1JHAd6-s'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 770
+source-wordcount: '770'
 ht-degree: 97%
-
 ---
-
 # Revisar y tomar decisiones sobre pruebas en la aplicación móvil de [!DNL Adobe Workfront]
 
 Cuando se le asigna una prueba para su aprobación, aparece en la lista de aprobaciones de la aplicación móvil. Puede revisar la prueba directamente en la aplicación y tomar una decisión al respecto. Para obtener información acerca de cómo revisar y aprobar pruebas en [!DNL Adobe Workfront], consulte [Revisar pruebas en [!DNL Adobe Workfront]](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-proofs-in-wf.md).

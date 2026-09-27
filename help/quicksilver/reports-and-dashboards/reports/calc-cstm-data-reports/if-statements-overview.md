@@ -9,20 +9,24 @@ feature: Reports and Dashboards
 exl-id: 090a85fd-fdbe-4507-8bad-ce8c29bf8fc9
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/VS98ehq5B16r2n9wwHhWUSgTR3gI-i9GgQYRtLKylz0
+TQID: 'https://experienceleague.adobe.com/VS98ehq5B16r2n9wwHhWUSgTR3gI-i9GgQYRtLKylz0'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: c6dd2ac5-f5bd-4e59-9101-25b156918623
+    internal-label: Reports and dashboards
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Reporting
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 932
+source-wordcount: '932'
 ht-degree: 100%
-
 ---
-
 # Información general sobre las instrucciones “IF”
 
 <!-- Audited: 1/2024 -->
@@ -42,9 +46,9 @@ Tenga en cuenta lo siguiente antes de crear una instrucción “IF”:
 
 * Puede crear instrucciones &quot;IF&quot; para los siguientes elementos de Workfront:
 
-   * Vistas
-   * Agrupaciones
-   * Campos personalizados calculados
+  * Vistas
+  * Agrupaciones
+  * Campos personalizados calculados
 
 * No es posible generar instrucciones “IF” para los filtros. Esto resulta en un error “¡Uy!” en Workfront.
 * El equipo de soporte no interviene en la generación de datos personalizados. Puede ponerse en contacto con el equipo de soporte cuando genere los campos o columnas personalizados y no vea los resultados deseados. Para obtener ayuda con la generación de una expresión, póngase en contacto con su administrador de cuentas para informarse sobre nuestras opciones de consultoría.
@@ -60,9 +64,9 @@ En Workfront, se pueden generar instrucciones “IF” con el siguiente formato:
 
 * **Condición** = Es la condición que debe cumplir la variable Workfront y constituye la base de esta ecuación. Todo lo que se puede especificar posteriormente en la ecuación depende de la condición. Para iniciar una ecuación, se pueden utilizar varias referencias, comparaciones o expresiones matemáticas. A continuación, se muestran algunos ejemplos de condiciones:
 
-   * Una fecha es posterior a otra en un objeto especificado.
-   * Un estado es igual a uno de los disponibles en un objeto especificado.
-   * El porcentaje completado de una tarea es menor o mayor que un determinado porcentaje.
+  * Una fecha es posterior a otra en un objeto especificado.
+  * Un estado es igual a uno de los disponibles en un objeto especificado.
+  * El porcentaje completado de una tarea es menor o mayor que un determinado porcentaje.
 
 * **Operador de condición** = es el operador que le ayuda a generar la condición de la instrucción “IF”. Por ejemplo, “es igual a” o “es mayor que” son operadores de condición. Para obtener una lista de los operadores de condición que se pueden usar en las instrucciones, consulte [Operadores de condición en expresiones personalizadas calculadas](../../../reports-and-dashboards/reports/calc-cstm-data-reports/condition-operators-calculated-custom-expressions.md).
 

@@ -6,23 +6,28 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 63aa5e45-e51d-4049-a5d9-18dfaaa79647
-TQID: https://experienceleague.adobe.com/R6wn9MEVWUTsVTJGktyPdOSrdWN6nb3jY4ldkEx5WPk
+TQID: 'https://experienceleague.adobe.com/R6wn9MEVWUTsVTJGktyPdOSrdWN6nb3jY4ldkEx5WPk'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 562
-ht-degree: 29%
-
+source-wordcount: '592'
+ht-degree: 31%
 ---
-
 # Cargar documentos y crear pruebas en Prioridades
 
 Puede cargar documentos y crear pruebas en Prioridades.
@@ -77,7 +82,7 @@ Puede cargar un documento en un elemento de trabajo desde la lista de trabajo o 
 1. En la lista de trabajo, pase el ratón sobre el nombre del trabajo y haga clic en **Icono de resumen** ![icono de resumen abierto](assets/summary-icon.png).
 1. Asegúrese de que se encuentra en la ficha **Tarea** o **Problemas** del panel de resumen.
 1. Haga clic en el icono **Cargar archivo** ![Cargar archivo](assets/upload-file-icon.png).
-1. Arrastre y suelte el archivo o utilice Cmd/Ctrl + V para pegar elementos desde el portapapeles
+1. Arrastre y suelte el archivo o utilice Cmd/Ctrl + V para pegar elementos desde el portapapeles
 o
 Haga clic en **Agregar archivos** para examinar archivos o importarlos de un proveedor de Document Cloud.
    ![Agregar archivos](assets/add-files.png)
@@ -96,7 +101,7 @@ Haga clic en **Agregar archivos** para examinar archivos o importarlos de un pro
 1. En la lista de trabajos, haga clic en el nombre del elemento de trabajo.
 1. Haga clic en la ficha **Documentos** en la parte superior de la pantalla.
 1. Haga clic en **Cargar documento** en la esquina superior derecha y, a continuación, seleccione **Documento**.
-1. Arrastre y suelte el archivo o utilice Cmd/Ctrl + V para pegar elementos desde el portapapeles
+1. Arrastre y suelte el archivo o utilice Cmd/Ctrl + V para pegar elementos desde el portapapeles
 o
 Haga clic en **Agregar archivos** para examinar archivos o importarlos de un proveedor de Document Cloud.
    ![Agregar archivos](assets/add-files.png)
@@ -160,7 +165,7 @@ Puede crear una prueba a partir de un documento desde la lista de trabajos o des
 1. Haga clic en la ficha **Documentos** en la parte superior de la pantalla.
 1. Haga clic en **Cargar documento** en la esquina superior derecha y, a continuación, seleccione **Revisión**.
 1. Cree una prueba como se describe en
-   [Crear una prueba avanzada con un flujo de trabajo básico](/help/quicksilver/review-and-approve-work/proofing/creating-proofs-within-workfront/configure-basic-proof-workflow.md)
+   [Crear una revisión avanzada con un flujo de trabajo básico](/help/quicksilver/review-and-approve-work/proofing/creating-proofs-within-workfront/configure-basic-proof-workflow.md)
    [Crear una prueba avanzada con un flujo de trabajo automatizado](/help/quicksilver/review-and-approve-work/proofing/creating-proofs-within-workfront/create-automated-proof-workflow.md)
 
 <!--

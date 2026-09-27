@@ -1,6 +1,6 @@
 ---
-title: Información general sobre las limitaciones de objetos de Adobe Workfront Planning
-description: Adobe Workfront Planning tiene límites en cuanto a la cantidad de objetos que se pueden crear en la instancia. Existen límites de objetos para mejorar el rendimiento del producto y la experiencia con Workfront Planning.
+title: Información general sobre las limitaciones de objetos de Planificación de Workfront de Adobe
+description: Planificación de Workfront de Adobe tiene límites en cuanto a la cantidad de objetos que se pueden crear en la instancia. Existen límites de objetos para mejorar el rendimiento del producto y la experiencia con Planificación de Workfront.
 author: Alina
 feature: Workfront Planning
 role: User, Admin
@@ -8,24 +8,32 @@ recommendations: noDisplay, noCatalog
 exl-id: 2a640cd5-f4a8-4ff3-81b6-32f85f6e4535
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/WmG-52JaTKD-0-bH2qKniwUBrpGyOKz5jJ3s9nwd12A
+TQID: 'https://experienceleague.adobe.com/WmG-52JaTKD-0-bH2qKniwUBrpGyOKz5jJ3s9nwd12A'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+subfeature_v2:
+  - id: eb361af2-3e4f-4a79-b5f3-7a344ac5794c
+    internal-label: Workfront Planning
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
-source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
+    internal-label: Taxonomy
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 478
+source-wordcount: '478'
 ht-degree: 37%
-
 ---
-
 <!--keep the 30 connection limit in yellow till Jan 2026-->
 
-# Información general sobre las limitaciones de objetos de Adobe Workfront Planning
+# Información general sobre las limitaciones de objetos de Planificación de Workfront de Adobe
 
 <!--
 <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases.</span>   
@@ -36,11 +44,11 @@ ht-degree: 37%
 {{planning-important-intro}}
 
 
-Adobe Workfront Planning tiene límites en cuanto a la cantidad de objetos que se pueden crear en la instancia. Existen límites de objetos para mejorar el rendimiento del producto y la experiencia con Workfront Planning.
+Planificación de Workfront de Adobe tiene límites en cuanto a la cantidad de objetos que se pueden crear en la instancia. Existen límites de objetos para mejorar el rendimiento del producto y la experiencia con Planificación de Workfront.
 
-En la tabla siguiente se muestran los límites de la cantidad de objetos que se pueden crear en Workfront Planning. Las limitaciones están sujetas a cambios.
+En la tabla siguiente se muestran los límites de la cantidad de objetos que se pueden crear en Planificación de Workfront. Las limitaciones están sujetas a cambios.
 
-| Objeto de Adobe Workfront Planning | Límite |
+| Objeto de Planificación de Workfront de Adobe | Límite |
 |-------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------:|
 | Número de espacios de trabajo de una instancia de Workfront | Ilimitado* |
 | Número de secciones de un espacio de trabajo | 50 |

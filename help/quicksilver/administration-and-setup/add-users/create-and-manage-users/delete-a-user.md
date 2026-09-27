@@ -8,24 +8,30 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: da57dea3-082b-4a86-ae13-5bf55401122e
-TQID: https://experienceleague.adobe.com/T5iSq2SOJEQrlvLNiQ5l69OncRMYvEs4uf6QosY9vq8
+TQID: 'https://experienceleague.adobe.com/T5iSq2SOJEQrlvLNiQ5l69OncRMYvEs4uf6QosY9vq8'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 835
+source-wordcount: '835'
 ht-degree: 83%
-
 ---
-
 # Eliminar usuarios
 
 <!--Remove me October 2026-->
@@ -96,17 +102,17 @@ Al desactivar un usuario, sucede lo siguiente:
 * Los objetos ya no se pueden compartir con el usuario.
 * Su asociación con los siguientes objetos permanece intacta:
 
-   * Tareas, problemas, proyectos, portafolios
-   * Paneles de control
+  * Tareas, problemas, proyectos, portafolios
+  * Paneles de control
 
-     >[!NOTE]
-     >
-     >Si desactiva un usuario y ya no puede ver los informes o tableros asociados con un usuario, es posible que deba actualizar el campo **Ejecutar este informe con los derechos de acceso de:**.\
-     >Para obtener más información, consulte [¿Por qué no puedo obtener acceso a un informe propiedad de un usuario desactivado?](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md#why) del artículo [Preguntas más frecuentes sobre informes](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md).
+    >[!NOTE]
+    >
+    >Si desactiva un usuario y ya no puede ver los informes o tableros asociados con un usuario, es posible que deba actualizar el campo **Ejecutar este informe con los derechos de acceso de:**.\
+    >Para obtener más información, consulte [¿Por qué no puedo obtener acceso a un informe propiedad de un usuario desactivado?](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md#why) del artículo [Preguntas más frecuentes sobre informes](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md).
 
-   * Documentos
-   * Actualizaciones
-   * Horas
+  * Documentos
+  * Actualizaciones
+  * Horas
 
 * Si el usuario tiene documentos desprotegidos, estos permanecen desprotegidos cuando se desactivan. Solo un administrador de Workfront puede volver a registrarlos. Para obtener más información acerca de cómo desproteger documentos, consulte [Desproteger documentos](../../../documents/managing-documents/check-out-documents.md).
 
@@ -119,8 +125,8 @@ Al eliminar un usuario, sucede lo siguiente:
 * Los objetos ya no se pueden compartir con el usuario.
 * Se elimina la asociación del usuario con los siguientes objetos:
 
-   * Tareas, problemas, proyectos, portafolios
-   * Paneles de control
+  * Tareas, problemas, proyectos, portafolios
+  * Paneles de control
 
   <!--
 
@@ -132,12 +138,12 @@ Al eliminar un usuario, sucede lo siguiente:
 
    -->
 
-   * Actualizaciones
-   * Horas
+  * Actualizaciones
+  * Horas
 
-     >[!NOTE]
-     >
-     >Estos objetos permanecen en Workfront, pero su propietario está ahora en blanco.
+    >[!NOTE]
+    >
+    >Estos objetos permanecen en Workfront, pero su propietario está ahora en blanco.
 
 * Si el usuario ha cargado algún documento en el área de documentos de la barra de navegación global, los documentos también se eliminan.
 * Si el usuario ha retirado los documentos que le pertenecen y los documentos se cargan en el área principal de Documentos (a la que se accede desde el menú principal), los documentos se eliminan con el usuario. Para obtener más información acerca de cómo desproteger documentos, consulte [Desproteger documentos](../../../documents/managing-documents/check-out-documents.md).

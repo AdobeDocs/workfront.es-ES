@@ -1,27 +1,31 @@
 ---
-title: Competencias de CX Coworker
+title: Aptitudes de CX Coworker
 content-type: reference
 description: Obtenga información acerca de las habilidades disponibles para el colaborador en Adobe Workfront.
 author: Becky
 feature: Get Started with Workfront
-source-git-commit: 01de260893e5bbf7a228479df2f3fc6a1337d31d
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
 source-wordcount: '252'
 ht-degree: 7%
-
 ---
-
-# Competencias de CX Coworker
+# Aptitudes de CX Coworker
 
 {{preview-fast-release-general}}
 
 >[!IMPORTANT]
 >
->CX Coworker no está disponible actualmente para organizaciones de atención médica, finanzas u otras industrias con datos confidenciales. Estas organizaciones disponen de un asistente de IA. Para obtener más información, consulte [Descripción general del Asistente de IA](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md).
+>CX Coworker no está disponible actualmente para organizaciones de atención médica, finanzas u otros sectores con datos confidenciales. Estas organizaciones disponen de un asistente de IA. Para obtener más información, consulte [Descripción general del Asistente de IA](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md).
 
-Este artículo enumera las aptitudes que actualmente están disponibles para CX Coworker en Workfront.
+Este artículo enumera las aptitudes que están disponibles actualmente para CX Coworker en Workfront.
 
-Las habilidades cubiertas por estas habilidades están disponibles en CX Coworker a través de la interfaz conversacional, y no es necesario llamar a estas habilidades directamente. Sin embargo, si desea llamar a las aptitudes directamente, puede hacerlo en el panel Compañero de trabajo escribiendo una barra `/` y el nombre de la aptitud.
+Las habilidades cubiertas por estas habilidades están disponibles en CX Coworker a través de la interfaz conversacional y no es necesario llamar a estas habilidades directamente. Sin embargo, si desea llamar a las aptitudes directamente, puede hacerlo en el panel Compañero de trabajo escribiendo una barra `/` y el nombre de la aptitud.
 
 Por ejemplo, consulte las indicaciones en el artículo [Usar el servidor MCP de Adobe Workfront](/help/quicksilver/workfront-basics/workfront-mcp-server/use-workfront-mcp-server.md).
 

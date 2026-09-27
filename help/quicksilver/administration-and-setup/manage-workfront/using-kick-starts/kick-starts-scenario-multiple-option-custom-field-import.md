@@ -9,25 +9,31 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 70f3dac7-f449-4dc8-9d7d-a5284b37f9ec
-TQID: https://experienceleague.adobe.com/VN48OQlXHrmfEYUZ2hOusWN-LE-U6BhXBvqprFOsczY
+TQID: 'https://experienceleague.adobe.com/VN48OQlXHrmfEYUZ2hOusWN-LE-U6BhXBvqprFOsczY'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
 subfeature_v2:
   - id: a91f865d-c69e-423f-aeff-28a3d6e8554d
+    internal-label: Data export
   - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 2136
-ht-degree: 89%
-
+source-wordcount: '2179'
+ht-degree: 91%
 ---
-
 # Caso de arranque: importar campos personalizados de varias opciones en Workfront
 
 Puedes importar campos personalizados con múltiples opciones en Adobe Workfront utilizando la funcionalidad de arranque.
@@ -183,19 +189,19 @@ Para rellenar la hoja de cálculo de Excel con información para los nuevos camp
    * **`ID`** = debe ser un número único para cada línea que represente un nuevo campo. Puede utilizar cualquier número que empiece por 1, siempre que cada nuevo campo tenga un número único.
    * **`setDataType`** = para cada línea que represente un nuevo campo, escriba el tipo de datos que admite el campo. El tipo de datos debe introducirse tal como aparecería en la base de datos. Seleccione entre los siguientes tipos de datos:
 
-      * **`NMBR`** para número
-      * **`CURC`** para moneda
-      * **`TEXT`** para texto
+     * **`NMBR`** para número
+     * **`CURC`** para moneda
+     * **`TEXT`** para texto
 
    * `**setDisplaySize**`= el tamaño de visualización (&#39;**setDisplaySize**&#39;) de cualquier campo personalizado de opciones múltiples siempre es 0.
    * **`setDisplayType`** = para cada línea que represente un nuevo campo, introduzca el tipo de visualización del campo. El tipo de visualización debe introducirse tal como aparecería en la base de datos.
 
      Para los campos personalizados de varias opciones, seleccione una de las siguientes opciones:
 
-      * **`MULT`** para Lista desplegable de selección múltiple
-      * **`SLCT`** para menú desplegable
-      * **`RDIO`** para botones de opción
-      * **`CHCK`** para casillas de verificación
+     * **`MULT`** para Lista desplegable de selección múltiple
+     * **`SLCT`** para menú desplegable
+     * **`RDIO`** para botones de opción
+     * **`CHCK`** para casillas de verificación
 
      >[!TIP]
      >
@@ -246,18 +252,18 @@ Para rellenar la hoja de cálculo de Excel con información para los nuevos camp
    Para averiguar el `ID` de un grupo, puede generar un informe de grupo y añadir el campo `ID` en la vista o bien desplazarse a un grupo y encontrar la URL del grupo. El ID de grupo aparecerá en la dirección URL de la página del grupo. Por ejemplo, si la URL del grupo es `https://companyName.my.workfront.com/group/575b000800467a6f66e747932c807464/members`, el identificador de grupo es `575b000800467a6f66e747932c807464`.
 
    * **`setCatObjCode`**= este es el código de objeto para el tipo de objeto para el que desea crear el formulario. Introduzca un código de las siguientes opciones:
-      * **`CMPY`** para compañía
-      * **`TASK`** para tarea
-      * **`PROJ`** para proyecto
-      * **`PORT`** para portafolio
-      * **`PRGM`** para programa
-      * **`USER`** para usuario
-      * **`DOCU`** para documento
-      * **`OPTASK`** para problema
-      * **`EXPNS`** para gasto
-      * **`ITRN`** para iteración
-      * **`BILL`** para registros de facturación
-      * **`GROUP`** para grupo
+     * **`CMPY`** para compañía
+     * **`TASK`** para tarea
+     * **`PROJ`** para proyecto
+     * **`PORT`** para portafolio
+     * **`PRGM`** para programa
+     * **`USER`** para usuario
+     * **`DOCU`** para documento
+     * **`OPTASK`** para problema
+     * **`EXPNS`** para gasto
+     * **`ITRN`** para iteración
+     * **`BILL`** para registros de facturación
+     * **`GROUP`** para grupo
 
      >[!NOTE]
      >
@@ -297,4 +303,4 @@ Después de realizar los pasos descritos en las secciones anteriores, continúe 
 
    * Elimine la información que se importó correctamente desde Workfront desde el área de formularios personalizados y, a continuación, realice la corrección que indica el mensaje de error.
    * Indique que un campo o formulario ya está en el sistema para los campos o formularios que ya se han importado y, a continuación, realice la corrección.
-Para indicar que un campo o un formulario personalizado ya se encuentra en Workfront, debe asegurarse de que el campo `inNew` esté marcado como `FALSE` en las hojas que contienen información sobre el formulario (`CTGY`) o el campo (`PARAM`) en la hoja de importación de inicio.
+     Para indicar que un campo o un formulario personalizado ya se encuentra en Workfront, debe asegurarse de que el campo `inNew` esté marcado como `FALSE` en las hojas que contienen información sobre el formulario (`CTGY`) o el campo (`PARAM`) en la hoja de importación de puesta en marcha.

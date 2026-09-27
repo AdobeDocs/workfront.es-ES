@@ -6,13 +6,14 @@ navigation-topic: use-the-desktop-proofing-viewer
 title: Solucionar errores de creación de pruebas
 description: El proceso de creación de pruebas incluye la importación y la generación de pruebas. A veces, al crear una prueba, es posible que no se importe un archivo o que no se genere la prueba después de importar el archivo.
 author: Courtney
-source-git-commit: de30bd970bda06c706e5156d5195e8568558e593
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
 source-wordcount: '417'
 ht-degree: 100%
-
 ---
-
 
 # Solucionar errores de creación de pruebas
 
@@ -47,11 +48,11 @@ El proceso de creación de pruebas incluye la importación y la generación de p
 
 * Al revisar los archivos del PDF, las razones del error de generación de revisiones incluyen:
 
-   * Las fuentes y las imágenes están vinculadas desde fuentes externas (como el sistema de archivos local)
+  * Las fuentes y las imágenes están vinculadas desde fuentes externas (como el sistema de archivos local)
 
-     Las fuentes y las imágenes deben incrustarse en el archivo del PDF para poder mostrarse en otro equipo o dentro de Workfront Proof.
+    Las fuentes y las imágenes deben incrustarse en el archivo del PDF para poder mostrarse en otro equipo o dentro de Workfront Proof.
 
-   * El archivo de PDF contiene capas vacías o campos transparentes o superpuestos.
+  * El archivo de PDF contiene capas vacías o campos transparentes o superpuestos.
 
-     Si no puede determinar qué capa u objeto es el causante, exporte el diseño/documento como un PDF optimizado (esto elimina todos los elementos no deseados).
+    Si no puede determinar qué capa u objeto es el causante, exporte el diseño/documento como un PDF optimizado (esto elimina todos los elementos no deseados).
 

@@ -7,25 +7,31 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: d4411916-7f58-4174-b9a5-f19cde181d8b
-TQID: https://experienceleague.adobe.com/F5gvecGlTsPmXloxVvvSufwrwaz7Vj5Pd2WUCKha7To
+TQID: 'https://experienceleague.adobe.com/F5gvecGlTsPmXloxVvvSufwrwaz7Vj5Pd2WUCKha7To'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
 subfeature_v2:
   - id: a7ef0b24-c866-4849-a368-53678af2dfe5
+    internal-label: Adobe Workfront for Microsoft Teams
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 862
+source-wordcount: '862'
 ht-degree: 100%
-
 ---
-
 # Versión final de Beta 2018.3
 
 Esta página describe todos los cambios disponibles más recientemente en el entorno de vista previa con la versión final de Beta 2018.3. La funcionalidad estará disponible en el entorno de vista previa el 10 de octubre de 2018. Está disponible en el entorno de producción desde noviembre de 2018.
@@ -128,10 +134,10 @@ Las siguientes funciones nuevas se estrenarán en las tiendas de aplicaciones de
 
   Ya es posible realizar las siguientes acciones manteniendo presionada la aplicación de Workfront en la pantalla de inicio:
 
-   * Buscar
-   * Acceso a las notificaciones
-   * Acceso al proyecto al que se accedió más recientemente 
-   * Acceso a la tarea o problema más reciente
+  * Buscar
+  * Acceso a las notificaciones
+  * Acceso al proyecto al que se accedió más recientemente 
+  * Acceso a la tarea o problema más reciente
 
 * Nuevas notificaciones de inserción e introducción de acciones desde las notificaciones de inserción
 
@@ -141,18 +147,18 @@ Las siguientes funciones nuevas se estrenarán en las tiendas de aplicaciones de
 
   Haga lo siguiente manteniendo pulsada una notificación de inserción, sin tener que ir a la aplicación o al elemento que la generó:
 
-   * Comentarios sobre un elemento
-   * Aceptar para trabajar en ello
-   * Tomar una decisión de aprobación
+  * Comentarios sobre un elemento
+  * Aceptar para trabajar en ello
+  * Tomar una decisión de aprobación
 
 * Compatibilidad con la orientación horizontal para dispositivos iOS
 
   Ya se admiten completamente las orientaciones horizontal y vertical, tanto en las aplicaciones móviles iOS como Android, excepto para los siguientes tamaños de iPhone:
 
-   * iPhone 5
-   * iPhone 5S
-   * iPhone SE\
-     Antes de esta mejora, la orientación horizontal solo era compatible con dispositivos Android.
+  * iPhone 5
+  * iPhone 5S
+  * iPhone SE\
+    Antes de esta mejora, la orientación horizontal solo era compatible con dispositivos Android.
 
 * Compatibilidad con plataformas iOS 12 y Android P
 * Compatibilidad con tabletas iOS y Android

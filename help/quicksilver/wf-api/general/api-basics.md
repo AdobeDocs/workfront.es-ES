@@ -7,34 +7,45 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: d8c27915-8e1b-4804-9ef8-3a2efd57caac
-TQID: https://experienceleague.adobe.com/ns4wVw0qHcgzPPrvLx--lnEAaXg2rcoNOBPMZpMth9M
+TQID: 'https://experienceleague.adobe.com/ns4wVw0qHcgzPPrvLx--lnEAaXg2rcoNOBPMZpMth9M'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: b58ad82f-df6b-4b01-81a3-3a02ab9567a0
+    internal-label: APIs
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+  - id: 682536a8-4872-5ee6-a8a6-8012d713482c
+    internal-label: Workfront API
 subfeature_v2:
   - id: bb1dd007-4a34-496d-9d3b-2278fdaadac1
+    internal-label: API Explorer
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b191c48f65bc489457112f8401654d1e4b66fabf
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 4561
+source-wordcount: '4561'
 ht-degree: 83%
-
 ---
-
 # Conceptos básicos de API
 
 >[!NOTE]
 >
->Los ejemplos de este artículo incluyen `<supported-version>`. Reemplace esto por la versión de la API de Workfront que desee utilizar.Para ver el programa de versiones y soporte de la API de Workfront, consulte [Versiones de API y horario de soporte](/help/quicksilver/wf-api/api/api-version-support-schedule.md).
+>Los ejemplos de este artículo incluyen `<supported-version>`. Reemplace esto por la versión de la API de Workfront que desee utilizar.
+>Para ver el programa de versiones y soporte de la API de Workfront, consulte [Versiones de API y horario de soporte](/help/quicksilver/wf-api/api/api-version-support-schedule.md).
 
 La meta de la API de Adobe Workfront es simplificar la creación de integraciones con Workfront mediante la introducción de una arquitectura REST-ful que funcione a través de HTTP. En este documento se da por hecho que está familiarizado con las respuestas de REST y JSON, y se describe el método que utiliza la API de Workfront.
 
@@ -319,7 +330,7 @@ a continuación, utilice la siguiente llamada de API con sus diferentes instrucc
 
 #### Uso de parámetros de filtro
 
-Un posible inconveniente del uso de parámetros de URL para los filtros de búsqueda es que Workfront analiza ciertos parámetros antes de comprobar si hay diferentes métodos de autenticación (por ejemplo: nombre de usuario, contraseña, apiKey o cookie). Cuando esto suceda, los parámetros no se utilizarán como filtros en la llamada.
+Un posible inconveniente del uso de parámetros de URL para los filtros de búsqueda es que Workfront analiza ciertos parámetros antes de comprobar si hay diferentes métodos de autenticación (por ejemplo: nombre de usuario, contraseña, apiKey o cookie). Cuando esto suceda, los parámetros no se utilizarán como filtros en la llamada. 
 
 Para evitar este problema, coloque estos valores en parámetros de filtro con formato JSON. Por ejemplo, si quisiera filtrar por el usuario usuariodeprueba, en lugar de utilizar 
 <pre>/attask/api/&lt;supported-version&gt;/user/search?username=testuser@workfront.com</pre>pase el parámetro de URL en un filtro, tal y como se muestra en el siguiente ejemplo:
@@ -455,7 +466,7 @@ Para garantizar un rendimiento óptimo, la siguiente tabla muestra las limitacio
 Para anular la limitación de la consulta Número predeterminado de resultados y permitir 200 resultados, incluya el filtro `$$LIMIT=200` en la consulta, tal y como se muestra en el ejemplo siguiente:
 <pre>GET /attask/api/&lt;supported-version&gt;/project/search?$$LIMIT=200</pre>
 
-Para garantizar la fiabilidad y el rendimiento de otros inquilinos del sistema, el límite máximo de resultados permitidos por consulta es de 2000 objetos. Si se intentase especificar un límite mayor, aparecerá un mensaje de error de `IllegalArgumentException`.
+Para garantizar la fiabilidad y el rendimiento de otros inquilinos del sistema, el límite máximo de resultados permitidos por consulta es de 2000 objetos. Si se intentase especificar un límite mayor, aparecerá un mensaje de error de `IllegalArgumentException`. 
 
 Por lo tanto, se recomienda considerar la posibilidad de utilizar respuestas paginadas para conjuntos de datos grandes. Para especificar qué primer resultado se devolverá, añada el filtro `$$FIRST`. Por ejemplo, la siguiente solicitud devuelve los resultados 201-250 de una consulta:
 <pre>GET /attask/api/&lt;supported-version&gt;/project/search?$$FIRST=200&amp;$$LIMIT=50</pre>

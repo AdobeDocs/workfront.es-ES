@@ -10,26 +10,33 @@ role: Admin
 exl-id: df10bc8f-b980-4c61-ae6d-bcea03103738
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/VMSiCJzYS7RU85BuD7t19pWwf0dKYBK2vFwzatTnpkg
+TQID: 'https://experienceleague.adobe.com/VMSiCJzYS7RU85BuD7t19pWwf0dKYBK2vFwzatTnpkg'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
 subfeature_v2:
   - id: c549503a-6440-4802-9525-ceb73a00feff
+    internal-label: Create and manage teams
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1791
-ht-degree: 98%
-
+source-wordcount: '1841'
+ht-degree: 96%
 ---
-
 # Configurar un modelo
 
 Puede configurar los detalles del modelo antes de instalarlo. Los tipos de modelo de plantilla de proyecto y estructura organizativa suelen requerir que se establezcan algunas preferencias y que se asignen algunas propiedades. Otros tipos de modelo no requerirán configuración y se instalarán tal cual. Para obtener más información sobre la instalación, consulte [Instalar un modelo](/help/quicksilver/administration-and-setup/blueprints/blueprints-install.md).
@@ -148,8 +155,8 @@ También puede designar la propiedad de la plantilla antes de instalar el modelo
    >[!INFO]
    >
    >**Ejemplo:** Las nuevas preferencias de problema de este modelo proporcionan cuatro temas de cola. El usuario selecciona uno de estos temas al crear un problema. (Dado que solo existe un grupo de temas, se aplica automáticamente y el usuario no tiene que seleccionarlo). Cuando el usuario completa y envía el problema, las reglas de enrutamiento determinan a qué rol o equipo de trabajo se asigna.
-   >![Sample new issue preferences](assets/Blueprints_IssuePrefsDetails.png)
-   >![Queue topics for new issue](assets/blueprints-newissueqtopicsexample-350x204.png)
+   >![Muestra nuevas preferencias de problema](assets/Blueprints_IssuePrefsDetails.png)
+   >![Temas de cola para el nuevo problema](assets/blueprints-newissueqtopicsexample-350x204.png)
    >![Issue routed to job role](assets/Blueprints_ProjectShowsIssueAssignment.png)
 
    >[!TIP]

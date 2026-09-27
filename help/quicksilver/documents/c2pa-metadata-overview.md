@@ -8,17 +8,23 @@ feature: Digital Content and Documents
 recommendations: noDisplay, noCatalog
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 3510218fb179a0852ad22abe2a753ccdb261205a
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 215
+source-wordcount: '215'
 ht-degree: 0%
-
 ---
-
 # Metadatos de C2PA en Adobe Workfront
 
 Los metadatos de C2PA son información segura y a prueba de manipulaciones que se transfiere con un fragmento de contenido. Cuando se utiliza IA generativa (GenAI) para crear o modificar un archivo de imagen, vídeo o audio, los metadatos de C2PA registran ese hecho para que cualquier persona que reciba el archivo pueda ver cómo se creó.

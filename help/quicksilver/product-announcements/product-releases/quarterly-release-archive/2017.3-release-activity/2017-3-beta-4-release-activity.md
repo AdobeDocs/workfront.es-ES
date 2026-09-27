@@ -7,27 +7,35 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: d6bb889c-a057-453f-8f80-761cfb1ad4a1
-TQID: https://experienceleague.adobe.com/JB7Mhf1RUya-cG9B1OJ-xuAW-y9aq-V2Jxa3Xpf7VFI
+TQID: 'https://experienceleague.adobe.com/JB7Mhf1RUya-cG9B1OJ-xuAW-y9aq-V2Jxa3Xpf7VFI'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
 subfeature_v2:
   - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+    internal-label: Workfront Proof
   - id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
+    internal-label: Resource Planner
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1625
-ht-degree: 96%
-
+source-wordcount: '1681'
+ht-degree: 98%
 ---
-
 # Actividad de la versión 2017.3 Beta 4
 
 Esta página describe todos los cambios más recientes disponibles en el entorno de vista previa con la versión 2017.3 Beta 4. La funcionalidad de esta página se lanzó en el entorno de vista previa la semana del 25 de septiembre de 2017. Estuvo disponible en el entorno de producción a principios de noviembre de 2017.
@@ -119,7 +127,7 @@ Para obtener más información sobre cómo actualizar el porcentaje de disponibi
 Ahora puede encontrar una nueva área en Configuración llamada Administración de recursos. En esta área, hemos introducido una configuración que le permite especificar cómo calcular la disponibilidad del usuario en el planificador de recursos. Se puede calcular mediante los métodos siguientes:
 
 * De forma manual: se utiliza el horario predeterminado del sistema, además del valor de FTE individual del usuario, para determinar la disponibilidad horaria del usuario en el planificador de recursos. Se ignora la programación del usuario.
-* Automáticamente: el Horario del usuario se utiliza para determinar la disponibilidad horaria del usuario en el Planificador de recursos. La disponibilidad de FTE se calcula según el Horario del usuario y el Horario predeterminado. Se ignora el valor de FTE del usuario. 
+* De forma automática: la programación del usuario se utiliza para determinar la disponibilidad horaria del usuario en el planificador de recursos. La disponibilidad de FTE se calcula según la programación del usuario y la programación predeterminada. Se ignora el valor de FTE del usuario. 
 
 Para obtener más información acerca de cómo configurar las preferencias de Administración de recursos para su sistema, consulte [Configurar las preferencias de Administración de recursos](../../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
 

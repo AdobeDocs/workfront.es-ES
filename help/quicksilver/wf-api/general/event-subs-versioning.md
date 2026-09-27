@@ -7,20 +7,24 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 151b9d0d-0dd6-4ece-9601-dda04356b436
-TQID: https://experienceleague.adobe.com/cJnPxNppHK0lh8A6GQKNoUCCBrRUKdMvU3ym6zdHCXo
+TQID: 'https://experienceleague.adobe.com/cJnPxNppHK0lh8A6GQKNoUCCBrRUKdMvU3ym6zdHCXo'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: 682536a8-4872-5ee6-a8a6-8012d713482c
+    internal-label: Workfront API
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Security
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1055
-ht-degree: 17%
-
+source-wordcount: '1326'
+ht-degree: 14%
 ---
-
 # Versiones de la suscripción a eventos
 
 Workfront tiene dos versiones de suscripciones a eventos. Este artículo describe las diferencias entre ellos.
@@ -108,7 +112,7 @@ Se han realizado los siguientes cambios para las suscripciones de evento Versió
    </td> 
    <td>Cuando se actualizó este objeto, el evento <code>UPDATE</code> a veces mostraba incorrectamente el cambio de los campos afectados de <code>null</code> a <code>ID value</code>.</td> 
    <td>Todos los eventos <code>UPDATE</code> muestran el valor correcto para los campos afectados.</td> 
-   <td>Ninguna. Si tiene un filtro en los campos afectados, recibirá un evento <code>UPDATE</code> solo si estos campos han cambiado realmente, no si ha cambiado algún otro valor.
+   <td>Ninguno. Si tiene un filtro en los campos afectados, recibirá un evento <code>UPDATE</code> solo si estos campos han cambiado realmente, no si ha cambiado algún otro valor.
    </td> 
   </tr> 
   <tr> 
@@ -120,7 +124,7 @@ Se han realizado los siguientes cambios para las suscripciones de evento Versió
    </td> 
    <td>Cuando se actualizaba cualquier valor de parámetro en este objeto, el evento <code>UPDATE</code> mostraba incorrectamente el cambio de campo afectado de <code>null</code> a <code>object id</code>. </td> 
    <td>Todos los eventos <code>UPDATE</code> muestran el valor correcto para los campos afectados.</td> 
-   <td>Ninguna. Si tiene un filtro en los campos afectados, recibirá un evento <code>UPDATE</code> solo si estos campos han cambiado realmente, no si ha cambiado algún otro valor.
+   <td>Ninguno. Si tiene un filtro en los campos afectados, recibirá un evento <code>UPDATE</code> solo si estos campos han cambiado realmente, no si ha cambiado algún otro valor.
   </tr> 
   <tr> 
   <td>
@@ -130,7 +134,7 @@ Se han realizado los siguientes cambios para las suscripciones de evento Versió
    </td> 
    <td>Cuando se eliminaba un documento, el evento <code>DELETE</code> mostraba incorrectamente el campo afectado como una matriz vacía en el estado antes.    </td> 
    <td>El evento <code>DELETE</code> muestra correctamente el campo afectado en el estado antes.</td> 
-   <td>Ninguna. El evento <code>DELETE</code> se enviará, pero ahora mostrará los datos correctos para el campo afectado. 
+   <td>Ninguno. El evento <code>DELETE</code> se enviará, pero ahora mostrará los datos correctos para el campo afectado. 
 </td> 
   </tr> 
   <tr> 
@@ -144,7 +148,7 @@ Se han realizado los siguientes cambios para las suscripciones de evento Versió
    </td> 
    <td>Cuando se actualizara este objeto, se enviarían dos eventos <code>UPDATE</code>. El primero no incluyó los campos afectados, mientras que el segundo sí lo hizo.</td> 
    <td>Todas las actualizaciones de campo, incluidos los campos afectados, están presentes en un único evento <code>UPDATE</code> y no se envía un segundo evento innecesario.     </td> 
-   <td>Ninguna. Si tiene un filtro en los campos afectados, los eventos se entregan en el primer evento. 
+   <td>Ninguno. Si tiene un filtro en los campos afectados, los eventos se entregan en el primer evento. 
 </td> 
   </tr> 
   <tr> 
@@ -157,7 +161,7 @@ Se han realizado los siguientes cambios para las suscripciones de evento Versió
    </td> 
    <td>Cuando se actualizaba cualquier valor de parámetro en un Expense, el evento <code>UPDATE</code> mostraba incorrectamente el cambio topReferenceObjCode de <code>EXPNS</code> a <code>PROJ</code> y el cambio de <code>referenceObjectName</code> de <code>null</code> a <code>string value of project name</code>.      </td> 
    <td>Todos los eventos <code>UPDATE</code> muestran el valor correcto para los campos afectados.</td> 
-   <td>Ninguna. Si tiene un filtro en los campos afectados, recibirá un evento <code>UPDATE</code> solo si estos campos han cambiado realmente, no si ha cambiado algún otro valor.
+   <td>Ninguno. Si tiene un filtro en los campos afectados, recibirá un evento <code>UPDATE</code> solo si estos campos han cambiado realmente, no si ha cambiado algún otro valor.
   </tr> 
   <tr> 
   <td>
@@ -199,7 +203,7 @@ Se han realizado los siguientes cambios para las suscripciones de evento Versió
    </td> 
    <td>Cuando se actualizaba cualquier valor de parámetro en este objeto, el evento <code>UPDATE</code> mostraba incorrectamente el cambio de campo afectado de <code>null</code> a <code>ID value</code>. </td> 
    <td>Todos los eventos <code>UPDATE</code> muestran el valor correcto para el campo afectado.</td> 
-   <td>Ninguna. Si tiene un filtro en el campo afectado, recibirá un evento <code>UPDATE</code> solo si ese campo ha cambiado realmente, no si ha cambiado algún otro valor de parámetro.
+   <td>Ninguno. Si tiene un filtro en el campo afectado, recibirá un evento <code>UPDATE</code> solo si ese campo ha cambiado realmente, no si ha cambiado algún otro valor de parámetro.
 </td> 
   </tr> 
   <tr> 
@@ -222,7 +226,7 @@ Se han realizado los siguientes cambios para las suscripciones de evento Versió
     </ul> 
    <td>Cuando se actualizaba cualquier valor de parámetro en este objeto, el evento <code>UPDATE</code> mostraba incorrectamente el cambio de campo afectado de <code>null</code> a <code>ID value</code>. </td> 
    <td>Todos los eventos <code>UPDATE</code> muestran el valor correcto para el campo afectado.</td> 
-   <td>Ninguna. Si tiene un filtro en el campo afectado, recibirá un evento <code>UPDATE</code> solo si ese campo ha cambiado realmente, no si ha cambiado algún otro valor de parámetro.
+   <td>Ninguno. Si tiene un filtro en el campo afectado, recibirá un evento <code>UPDATE</code> solo si ese campo ha cambiado realmente, no si ha cambiado algún otro valor de parámetro.
   </tr> 
   <tr> 
   <td>
@@ -232,7 +236,7 @@ Se han realizado los siguientes cambios para las suscripciones de evento Versió
    </td> 
    <td>Cuando se actualizó este objeto, el evento <code>UPDATE</code> a veces mostraba incorrectamente el cambio de los campos afectados de <code>null</code> a <code>ID value</code>.</td> 
    <td>Todos los eventos <code>UPDATE</code> muestran el valor correcto para el campo afectado.</td> 
-   <td>Ninguna. Si tiene un filtro en el campo afectado, recibirá un evento <code>UPDATE</code> solo si ese campo ha cambiado realmente, no si ha cambiado algún otro valor de parámetro.
+   <td>Ninguno. Si tiene un filtro en el campo afectado, recibirá un evento <code>UPDATE</code> solo si ese campo ha cambiado realmente, no si ha cambiado algún otro valor de parámetro.
   </tr> 
   <tr> 
    <th rowspan="2">TASK</th> 
@@ -243,7 +247,7 @@ Se han realizado los siguientes cambios para las suscripciones de evento Versió
    </td> 
    <td>Cuando se actualizaba cualquier valor de parámetro en este objeto, el evento <code>UPDATE</code> mostraba incorrectamente el cambio de campo afectado de <code>null</code> a <code>ID value</code>. </td> 
    <td>Todos los eventos <code>UPDATE</code> muestran el valor correcto para el campo afectado.</td> 
-   <td>Ninguna. Si tiene un filtro en el campo afectado, recibirá un evento <code>UPDATE</code> solo si ese campo ha cambiado realmente, no si ha cambiado algún otro valor de parámetro.
+   <td>Ninguno. Si tiene un filtro en el campo afectado, recibirá un evento <code>UPDATE</code> solo si ese campo ha cambiado realmente, no si ha cambiado algún otro valor de parámetro.
   </tr> 
   <tr> 
   <td>
@@ -253,7 +257,7 @@ Se han realizado los siguientes cambios para las suscripciones de evento Versió
    </td> 
    <td>Cuando se actualizó este objeto, el evento <code>UPDATE</code> a veces mostraba incorrectamente el cambio de los campos afectados de <code>null</code> a <code>ID value</code>.</td> 
    <td>Todos los eventos <code>UPDATE</code> muestran el valor correcto para el campo afectado.</td> 
-   <td>Ninguna. Si tiene un filtro en el campo afectado, recibirá un evento <code>UPDATE</code> solo si ese campo ha cambiado realmente, no si ha cambiado algún otro valor de parámetro.
+   <td>Ninguno. Si tiene un filtro en el campo afectado, recibirá un evento <code>UPDATE</code> solo si ese campo ha cambiado realmente, no si ha cambiado algún otro valor de parámetro.
  </tbody> 
 </table>
 

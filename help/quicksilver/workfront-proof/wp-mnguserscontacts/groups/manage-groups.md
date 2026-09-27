@@ -2,28 +2,38 @@
 product-previous: workfront-proof
 product-area: documents;system-administration;user-management
 navigation-topic: groups-workfront-proof
-title: Administrar grupos mediante  [!DNL Workfront Proof]
-description: Como administrador de  [!DNL Workfront Proof] , puede administrar sus grupos públicos y privados en la página Grupos.
+title: Administrar grupos mediante [!DNL Workfront Proof]
+description: Como administrador de [!DNL Workfront Proof], puede administrar sus grupos públicos y privados en la página Grupos.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: bb4cfe03-d2c8-47f5-8c5c-de5218935ab5
-TQID: https://experienceleague.adobe.com/LIZUQVXJnYbKZtmgZ6IhMJTv6Wo2AnFh8Y1M5bo6EfY
+TQID: 'https://experienceleague.adobe.com/LIZUQVXJnYbKZtmgZ6IhMJTv6Wo2AnFh8Y1M5bo6EfY'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+    internal-label: Workfront Proof
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Privacy
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 556
-ht-degree: 84%
-
+source-wordcount: '592'
+ht-degree: 96%
 ---
-
 # Administrar grupos mediante [!DNL Workfront Proof]
 
 >[!IMPORTANT]
@@ -35,7 +45,7 @@ Como administrador de [!DNL Workfront Proof], puede administrar sus grupos públ
 ## Abrir la página de grupos
 
 1. Haga clic en **[!UICONTROL Grupos]** en la barra lateral de navegación izquierda.
-En la página [!UICONTROL Grupos], puede:
+En la página [!UICONTROL Grupos], puede hacer lo siguiente:
 
    * Ver todos sus grupos públicos y privados.
    * Crear un nuevo grupo. Para obtener más información, consulte [Crear grupos de revisión mediante  [!DNL Workfront Proof]](../../../workfront-proof/wp-mnguserscontacts/groups/create-proofing-groups.md).
@@ -43,36 +53,36 @@ En la página [!UICONTROL Grupos], puede:
    * Filtrar y ordenar grupos.
    * Después de seleccionar uno o varios grupos, están disponibles las siguientes opciones adicionales:
 
-      * Añadir personas a los grupos seleccionados.
+     * Añadir personas a los grupos seleccionados.
 
-        ![Groups_page-add_people_btn.png](assets/groups-page-add-people-btn-30x29.png)
+       ![Groups_page-add_people_btn.png](assets/groups-page-add-people-btn-30x29.png)
 
-      * Convertir los grupos seleccionados en privados o públicos, tal como se describe en [Convertir en privados los grupos mediante [!DNL Workfront Proof]](../../../workfront-proof/wp-mnguserscontacts/groups/make-groups-private.md)
-      * Los grupos privados solo son visibles para sus creadores.
-      * Eliminar los grupos seleccionados.
+     * Convertir los grupos seleccionados en privados o públicos, tal como se describe en [Convertir en privados los grupos mediante [!DNL Workfront Proof]](../../../workfront-proof/wp-mnguserscontacts/groups/make-groups-private.md)
+     * Los grupos privados solo son visibles para sus creadores.
+     * Eliminar los grupos seleccionados.
 
-        ![Icono Eliminar](assets/trash-button.png)
+       ![Icono Eliminar](assets/trash-button.png)
    * También puede realizar acciones en grupos en cada grupo por separado desde su propio menú **[!UICONTROL Más]** (tres puntos):
 
      ![Menú Más](assets/more-button-small.png)
 
-      * Ver detalles de la prueba.
+     * Ver detalles de la prueba.
 
-        También puede ver los detalles del grupo haciendo clic en su nombre.
-      * Añadir personas
-      * Convertir un grupo en público/privado.
-      * Eliminar un grupo.
+       También puede ver los detalles del grupo haciendo clic en su nombre.
+     * Añadir personas
+     * Convertir un grupo en público/privado.
+     * Eliminar un grupo.
 
 
 ## Ordenar grupos
 
 Puede ordenar los grupos por nombre de grupo, estado de privacidad y descripción.
 
-1. Haga clic en el encabezado de columna por el que desee ordenar.
+1. Haga clic en el encabezado de columna por el que desea ordenar.
 O
 Seleccione una opción de ordenación en el menú Ordenar.
    ![Menú_Ordenar_páginas_grupos.png](assets/groups-page-sort-menu-350x80.png)
-El triángulo de un encabezado de columna indica el orden de clasificación. Si apunta hacia arriba, indica que el orden es ascendente; si apunta hacia abajo indica que el orden es descendente.
+   El triángulo de un encabezado de columna indica el orden de clasificación. Si apunta hacia arriba, indica que el orden es ascendente; si apunta hacia abajo indica que el orden es descendente.
 
 ## Filtrado de grupos
 
@@ -113,7 +123,7 @@ En la página que aparece, puede ver todas las personas que hay actualmente en e
 1. Active las casillas de verificación situadas junto al nombre o los nombres de los contactos que desee añadir a un grupo.
 1. Haga clic en el botón **[!UICONTROL Añadir al grupo]**.
    ![Agregar al grupo](assets/screenshot-2018-04-06-15-27-17.png)
-Aparece el cuadro de diálogo **[!UICONTROL Agregar al grupo]**.
+   Aparece el cuadro de diálogo **[!UICONTROL Agregar al grupo]**.
 
 1. En la sección **[!UICONTROL Personas]**:
 

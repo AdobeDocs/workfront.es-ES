@@ -5,20 +5,27 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 326ca4c6-f5d6-4060-9e2b-712d8bcd2ff1
-TQID: https://experienceleague.adobe.com/HR7S7Kj-JqPsJIx7fx9MCXomVrLJMGujYF3icuY4t-M
+TQID: 'https://experienceleague.adobe.com/HR7S7Kj-JqPsJIx7fx9MCXomVrLJMGujYF3icuY4t-M'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Reporting
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 878
-ht-degree: 94%
-
+source-wordcount: '1000'
+ht-degree: 99%
 ---
-
 # Mejoras en la creación de informes del primer trimestre de 2026
 
 Esta página describe todas las mejoras realizadas en la creación de informes con la versión del primer trimestre de 2026 en el entorno de vista previa. Estas mejoras estarán disponibles en el entorno de producción, como se ha indicado.
@@ -31,7 +38,9 @@ Para obtener una lista de todos los cambios disponibles en este punto del ciclo 
 
 >[!NOTE]
 >
->Vista previa: 18 de diciembre de 2025>Versión rápida de producción: 14 de enero de 2026>Producción para todos: 15 de enero de 2026
+>Vista previa: 18 de diciembre de 2025
+>Producción del lanzamiento rápido: 14 de enero de 2026
+>Producción para todos: 15 de enero de 2026
 
 Hemos realizado las siguientes actualizaciones para los campos de moneda nativa:
 
@@ -47,7 +56,9 @@ Hemos realizado las siguientes actualizaciones para los campos de moneda nativa:
 
 >[!NOTE]
 >
->Vista previa: 18 de diciembre de 2025>Versión rápida de producción: 14 de enero de 2026>Producción para todos: 15 de enero de 2026
+>Vista previa: 18 de diciembre de 2025
+>Producción del lanzamiento rápido: 14 de enero de 2026
+>Producción para todos: 15 de enero de 2026
 
 Hemos añadido una búsqueda rápida a los informes de tabla. Esta búsqueda funciona en todas las páginas, por lo que puede encontrar datos aunque no estén visibles actualmente.
 
@@ -56,7 +67,9 @@ Hemos añadido una búsqueda rápida a los informes de tabla. Esta búsqueda fun
 
 >[!NOTE]
 >
->Vista previa: 18 de diciembre de 2025>Versión rápida de producción: 14 de enero de 2026>Producción para todos: 15 de enero de 2026
+>Vista previa: 18 de diciembre de 2025
+>Producción del lanzamiento rápido: 14 de enero de 2026
+>Producción para todos: 15 de enero de 2026
 
 Hemos introducido la nueva opción Mostrar total que convierte los gráficos circulares en gráficos de anillo. Esta función permite a los usuarios mostrar un valor central que representa el total de todos los segmentos del gráfico.
 
@@ -72,7 +85,9 @@ Para obtener más información, consulte [Crear un informe de gráfico en un pan
 
 >[!NOTE]
 >
->Vista previa: 18 de diciembre de 2025>Versión rápida de producción: 14 de enero de 2026>Producción para todos: 15 de enero de 2026
+>Vista previa: 18 de diciembre de 2025
+>Producción del lanzamiento rápido: 14 de enero de 2026
+>Producción para todos: 15 de enero de 2026
 
 Hemos introducido dos nuevas opciones de configuración para los gráficos circulares:
 
@@ -85,7 +100,9 @@ Para obtener más información, consulte [Crear un informe de gráfico en un pan
 
 >[!NOTE]
 >
->Vista previa: 18 de diciembre de 2025>Versión rápida de producción: 14 de enero de 2026>Producción para todos: 15 de enero de 2026
+>Vista previa: 18 de diciembre de 2025
+>Producción del lanzamiento rápido: 14 de enero de 2026
+>Producción para todos: 15 de enero de 2026
 
 Hemos actualizado la barra de agrupación en los paneles de lienzo para mostrar el recuento de registros de la página actual y el recuento general de registros de la agrupación en todas las páginas.
 
@@ -97,7 +114,9 @@ Anteriormente, la barra de agrupación no proporcionaba esta información detall
 
 >[!NOTE]
 >
->Vista previa: 18 de diciembre de 2025>Versión rápida de producción: 14 de enero de 2026>Producción para todos: 15 de enero de 2026
+>Vista previa: 18 de diciembre de 2025
+>Producción del lanzamiento rápido: 14 de enero de 2026
+>Producción para todos: 15 de enero de 2026
 
 Ahora puede definir una línea de referencia en los gráficos de barras, columnas y líneas para establecer un objetivo o umbral para los cuatro informes basados en series.
 
@@ -109,7 +128,9 @@ Para obtener más información, consulte [Crear un informe de gráfico en un pan
 
 >[!NOTE]
 >
->Vista previa: 18 de diciembre de 2025>Versión rápida de producción: 14 de enero de 2026>Producción para todos: 15 de enero de 2026
+>Vista previa: 18 de diciembre de 2025
+>Producción del lanzamiento rápido: 14 de enero de 2026
+>Producción para todos: 15 de enero de 2026
 
 Ahora puede personalizar las etiquetas de eje en los informes de gráficos. Esta nueva función le permite introducir una etiqueta de eje de reemplazo para mostrar en lugar del objeto y la ruta de campo predeterminados. Además, puede optar por ocultar completamente las etiquetas de eje.
 
@@ -119,7 +140,9 @@ Para obtener más información, consulte [Crear un informe de gráfico en un pan
 
 >[!NOTE]
 >
->Versión de vista previa: 23 de octubre de 2025>Producción para todos los clientes: 23 de octubre de 2025>[!BADGE Programa fuera de horario]{type=Neutral}
+>Versión preliminar: 23 de octubre de 2025
+>Producción para todos los clientes: 23 de octubre de 2025
+>[!BADGE Fuera del horario]{type=Neutral}
 
 Ahora puede duplicar un informe de KPI, tabla o gráfico en un panel de lienzo una vez creado. Una vez duplicado, puede editar el informe según sea necesario antes de guardar.
 
@@ -127,7 +150,9 @@ Ahora puede duplicar un informe de KPI, tabla o gráfico en un panel de lienzo u
 
 >[!NOTE]
 >
->Vista previa: 6 de noviembre de 2025>Versión rápida de producción: 13 de noviembre de 2025>Producción para todos: 15 de enero de 2026
+>Vista previa: 6 de noviembre de 2025
+>Producción de lanzamiento rápido: 13 de noviembre de 2025
+>Producción para todos: 15 de enero de 2026
 
 Se han eliminado las siguientes opciones de campo que anteriormente estaban disponibles al aplicar un filtro a un informe:
 
@@ -148,7 +173,9 @@ Las siguientes opciones de campo están disponibles como alternativas:
 
 >[!NOTE]
 >
->Vista previa: 6 de noviembre de 2025>Versión rápida de producción: 13 de noviembre de 2025>Producción para todos: 15 de enero de 2026
+>Vista previa: 6 de noviembre de 2025
+>Producción de lanzamiento rápido: 13 de noviembre de 2025
+>Producción para todos: 15 de enero de 2026
 
 Para evitar retrasos en el tiempo de carga y mejorar el rendimiento general en los paneles de lienzo, hemos aplicado límites en la cantidad de componentes de panel que se pueden añadir a un panel:
 

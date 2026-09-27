@@ -2,29 +2,40 @@
 product-previous: workfront-proof
 product-area: documents;system-administration;user-
 navigation-topic: account-settings-workfront-proof
-title: 'Inicio de sesión único en  [!DNL Workfront Proof]: configuración de AD FS'
+title: 'Inicio de sesión único en [!DNL Workfront Proof]: configuración de AD FS'
 description: Si es administrador del servidor de AD, puede instalar y configurar AD FS.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 670422e9-5db8-4f06-baf8-1f9ce83873fe
-TQID: https://experienceleague.adobe.com/SsCChdvLwy-i48BkLL8xbm7e0gUOVUStR-0XxcT3uXs
+TQID: 'https://experienceleague.adobe.com/SsCChdvLwy-i48BkLL8xbm7e0gUOVUStR-0XxcT3uXs'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+    internal-label: Workfront Proof
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 769
+source-wordcount: '963'
 ht-degree: 86%
-
 ---
-
 # Inicio de sesión único en [!DNL Workfront Proof]: configuración de AD FS
 
 >[!IMPORTANT]
@@ -41,15 +52,15 @@ Si es administrador del servidor de AD, puede instalar y configurar AD FS.
 1. Si no desea exponer IIS en el servidor de AD a Internet (puertos 80 y 443 para HTTP y HTTPS), primero puede configurar un servidor de federación detrás del cortafuegos, a continuación, crear un segundo proxy de servidor de federación que pase solicitudes a través del cortafuegos al servidor de federación.
 1. Una vez completada la configuración de AD FS, seleccione **[!UICONTROL Iniciar el complemento Administración de AD FS 2.0]** y, a continuación, haga clic en **[!UICONTROL Finalizar]**. Una vez finalizado, la ventana Administración de AD FS 2.0 debería abrirse de inmediato. Si no, puede abrirlo desde **[!UICONTROL Inicio]** > **[!UICONTROL Herramientas administrativas]** > **[!UICONTROL Administración de AD FS 2.0]**. Esta es la aplicación de control principal de AD FS.
 
-1. Para comenzar, haga clic en Asistente para configuración del servidor de federación de AD FS 2.0.
+1. Para comenzar, haga clic en Asistente de configuración del servidor de federación de AD FS 2.0.
 Esto le ayudará a configurar AD FS y conectarlo a Internet a través de IIS y a AD.
 1. Si está configurando un nuevo servidor de AD FS, seleccione **[!UICONTROL Crear un nuevo Servicio de federación]**.
 1. Seleccione **[!UICONTROL Servidor de federación independiente]** (con fines de prueba y evaluación).
 
 1. Para obtener una alta disponibilidad y equilibrio de carga, haga clic en Nueva granja de servidores de federación.
 1. Especifique el nombre del Servicio de federación.
-De forma predeterminada, el asistente de configuración recupera el certificado SSL enlazado al sitio web predeterminado en IIS y utilizará el nombre de sujeto especificado allí. Si usa un certificado comodín, tendrá que escribir el nombre del Servicio de federación.
-Si no hay ningún certificado SSL configurado en IIS, el asistente para configuración buscará certificados válidos en el almacén de certificados del equipo local. Se muestran en la lista desplegable Certificado SSL. Si no se encuentran certificados, puede utilizar el Generador de certificados de servidor en IIS para crear uno.
+De forma predeterminada, el asistente de configuración recupera el certificado SSL enlazado al sitio web predeterminado en IIS y utilizará el nombre de sujeto especificado allí. Si usa un certificado comodín, tendrá que introducir el nombre del Servicio de federación.
+Si no hay ningún certificado SSL configurado en IIS, el asistente para configuración buscará certificados válidos en el almacén de certificados del equipo local. Estos se muestran en la lista desplegable Certificado SSL. Si no se encuentran certificados, puede utilizar el Generador de certificados de servidor en IIS para crear uno.
 
 1. Continúe con la configuración y haga clic en **[!UICONTROL Cerrar]** una vez que se haya completado.
 
@@ -72,7 +83,7 @@ El ID de entidad se encuentra en el archivo XML de metadatos de federación.
 1. Este vínculo se encuentra en el archivo XML de metadatos de federación.
    ![ProofHQ_configuration_03.png](assets/proofhq-configuration-03-350x90.png)
 
-1. En el cuadro **[!UICONTROL URL de cierre de sesión]**, escriba el vínculo y guarde.
+1. En el cuadro **[!UICONTROL URL de cierre de sesión]**, introduzca el vínculo y guarde.
 El siguiente es un ejemplo de URL de cierre de sesión:
 https://*&lt;adfs.your-company.com>*/adfs/ls/?wa=wsignout1.0
 

@@ -1,15 +1,19 @@
 ---
 title: Acceso necesario para la planificación de Adobe Workfront como producto independiente
 description: Este artículo describe las licencias, los niveles de acceso y las capacidades de usuario de Adobe Workfront Planning como producto independiente.
-last-update: 2026-04-01T18:02:40Z
+last-update: 2026-04-01T18:02:40.000Z
 git-commit-file: 8cc175490a6aa1db68b238edbdf9da9da7fbb258
-source-git-commit: 697499fadf4d5d22292ededed381cb72e53fcae3
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
 source-wordcount: '1037'
 ht-degree: 3%
-
 ---
-
 <!--
 
 Update metadata with this at release:
@@ -137,28 +141,28 @@ Un usuario con un nivel de acceso de administrador de Planning tiene las siguien
 
   Para obtener más información, consulte lo siguiente:
 
-   * [Administrar usuarios en Adobe Workfront Planning como producto independiente](/help/quicksilver/planning/planning-sta/manage-users-in-planning-sta.md)
-   * [Administrar equipos en Adobe Workfront Planning como producto independiente](/help/quicksilver/planning/planning-sta/manage-teams-in-planning-sta.md)
+  * [Administrar usuarios en Adobe Workfront Planning como producto independiente](/help/quicksilver/planning/planning-sta/manage-users-in-planning-sta.md)
+  * [Administrar equipos en Adobe Workfront Planning como producto independiente](/help/quicksilver/planning/planning-sta/manage-teams-in-planning-sta.md)
 * Puede enviar y administrar solicitudes.
 
   Para obtener más información, consulte [Solicitudes de Adobe Workfront Planning: índice de artículo](/help/quicksilver/planning/requests/requests-article-index.md).
 * Tiene las siguientes áreas en el menú principal:
 
-   * **Planning**: tiene capacidades completas para los objetos de Planning, para crearlos, eliminarlos, compartirlos y conectarlos.
-   * **Usuarios**: Puede agregar usuarios y editar sus perfiles.
-   * **Solicitudes**
-   * **Configurar**
+  * **Planning**: tiene capacidades completas para los objetos de Planning, para crearlos, eliminarlos, compartirlos y conectarlos.
+  * **Usuarios**: Puede agregar usuarios y editar sus perfiles.
+  * **Solicitudes**
+  * **Configurar**
 * Tiene las secciones siguientes en el área de Configuración:
 
-   * **Equipos**: puede agregar, quitar o editar equipos. La edición se limita al nombre del equipo, la descripción y los miembros; no hay controles de filtro, vista, agrupación o exportación disponibles.
-   * **Iniciar sesión como**: suplantar a otro usuario para solucionar problemas.
-   * **Trimestres personalizados**: configure los trimestres fiscales personalizados que aparecen en las vistas de escala de tiempo de Planning.
-   * Sistema
+  * **Equipos**: puede agregar, quitar o editar equipos. La edición se limita al nombre del equipo, la descripción y los miembros; no hay controles de filtro, vista, agrupación o exportación disponibles.
+  * **Iniciar sesión como**: suplantar a otro usuario para solucionar problemas.
+  * **Trimestres personalizados**: configure los trimestres fiscales personalizados que aparecen en las vistas de escala de tiempo de Planning.
+  * Sistema
 
 * Tiene las siguientes secciones en el área Sistema:
 
-   * **Información del cliente**: vea los detalles del cliente y de la organización.
-   * **Preferencias**: revise y configure las preferencias de nivel de sistema.
+  * **Información del cliente**: vea los detalles del cliente y de la organización.
+  * **Preferencias**: revise y configure las preferencias de nivel de sistema.
 
 ### Información general de navegación de Planning Standard
 
@@ -170,9 +174,9 @@ Un usuario con un nivel de acceso de Planning Standard tiene las siguientes capa
   Para obtener más información, consulte [Solicitudes de Adobe Workfront Planning: índice de artículo](/help/quicksilver/planning/requests/requests-article-index.md).
 * Los usuarios de Planning Standard pueden acceder a las siguientes áreas en el menú Principal:
 
-   * **Planificación**
-   * **Usuarios**: tienen acceso de solo vista a los usuarios. No pueden crear ni editar usuarios. <!--not sure if this is still true-->
-   * **Solicitudes**
+  * **Planificación**
+  * **Usuarios**: tienen acceso de solo vista a los usuarios. No pueden crear ni editar usuarios. <!--not sure if this is still true-->
+  * **Solicitudes**
 
 * No tiene acceso a la Configuración ni a ninguna de sus secciones.
 
@@ -186,8 +190,8 @@ Para asignar niveles de acceso a los usuarios, como administrador de Planning:
 
   Se dan los siguientes escenarios:
 
-   * Los usuarios agregados a la consola de Adobe como administradores reciben un nivel de acceso de administrador de Planning en Workfront Planning.
-   * Los usuarios agregados a la consola de Adobe como usuarios pueden tener asignado un nivel de acceso de Planning Standard en Workfront Planning. Este es el único acceso disponible para asignar a nuevos usuarios en Workfront Planning como producto independiente.
+  * Los usuarios agregados a la consola de Adobe como administradores reciben un nivel de acceso de administrador de Planning en Workfront Planning.
+  * Los usuarios agregados a la consola de Adobe como usuarios pueden tener asignado un nivel de acceso de Planning Standard en Workfront Planning. Este es el único acceso disponible para asignar a nuevos usuarios en Workfront Planning como producto independiente.
 
 Para obtener más información, consulte [Administrar usuarios](/help/quicksilver/planning/planning-sta/manage-users-in-planning-sta.md).
 

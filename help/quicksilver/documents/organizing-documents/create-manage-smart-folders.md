@@ -8,23 +8,31 @@ feature: Digital Content and Documents
 exl-id: 62dfc6b9-72a4-4dd5-acd7-42269cd99b1b
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/ffz85N0pBJKg08FSPZ-Q0NeIT8B3jJupvA2mbfgTLlM
+TQID: 'https://experienceleague.adobe.com/ffz85N0pBJKg08FSPZ-Q0NeIT8B3jJupvA2mbfgTLlM'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 525
-ht-degree: 18%
-
+source-wordcount: '565'
+ht-degree: 16%
 ---
-
 # Crear y administrar carpetas inteligentes
 
 Las carpetas inteligentes se utilizan para administrar documentos fuera de un proyecto, tarea o problema y se encuentran en el área principal Documentos en el menú principal Puede configurar una carpeta inteligente para filtrar recursos y mostrar solo los que sean importantes para usted, en lugar de buscar en todos los recursos.
@@ -33,8 +41,8 @@ Hay dos carpetas inteligentes disponibles de forma predeterminada la primera vez
 
 >[!NOTE]
 >
->Esta funcionalidad no está disponible en el área de documentos nuevos.<br>
->Si su organización utiliza el almacenamiento en la nube de Adobe, verá el área de Documentos nuevos cuando acceda a documentos en Workfront. Para obtener más información sobre el almacenamiento en la nube de Adobe, consulte [Información general sobre el almacenamiento en la nube de Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
+>Esta funcionalidad no está disponible en la nueva área de Documentos.<br>
+>Si su organización utiliza el almacenamiento en la nube de Adobe, verá la nueva área Documentos al acceder a documentos en Workfront. Para obtener más información sobre el almacenamiento en la nube de Adobe, consulte [Información general sobre el almacenamiento en la nube de Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 ## Requisitos de acceso
 

@@ -1,6 +1,6 @@
 ---
 title: 'Adobe Workfront: Planificación de recomendaciones para la implementación'
-description: Como líder de operaciones de marketing, puede utilizar Adobe Workfront Planning para organizar el trabajo en todo el ciclo de vida de marketing para todos sus equipos. Estas son algunas de las prácticas recomendadas que aconsejamos usar al comenzar a trabajar con Workfront Planning.
+description: Como líder de operaciones de marketing, puede utilizar Planificación de Workfront de Adobe para organizar el trabajo en todo el ciclo de vida de marketing para todos sus equipos. Estas son algunas de las prácticas recomendadas que aconsejamos usar al comenzar a trabajar con Planificación de Workfront.
 feature: Workfront Planning
 role: User, Admin
 author: Alina
@@ -8,22 +8,31 @@ recommendations: noDisplay, noCatalog
 exl-id: 6e039b80-e3bf-412c-8c86-8f801f5861e3
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/lmewrF5ro-lPmIija0YlTRC-iaFr939tRNT-JgMOg4w
+TQID: 'https://experienceleague.adobe.com/lmewrF5ro-lPmIija0YlTRC-iaFr939tRNT-JgMOg4w'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+subfeature_v2:
+  - id: eb361af2-3e4f-4a79-b5f3-7a344ac5794c
+    internal-label: Workfront Planning
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Security
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 3410
+source-wordcount: '3415'
 ht-degree: 4%
-
 ---
-
 <!--drafted because Kari Woolf will write something for Field Readiness instead, nothing for ExL, public-facing documentation-->
 
 # Recomendaciones de implementación de Adobe Workfront Planning
@@ -32,15 +41,15 @@ ht-degree: 4%
 
 >[!IMPORTANT]
 >
->La información de este artículo hace referencia a Adobe Workfront Planning, una funcionalidad adicional de Adobe Workfront.
+>La información de este artículo hace referencia a Planificación de Workfront de Adobe, una funcionalidad adicional de Adobe Workfront.
 >
->Para obtener una lista de los requisitos para acceder a Workfront Planning, consulte [Información general sobre el acceso a Adobe Workfront Planning](/help/quicksilver/planning/access/access-overview.md).
+>Para obtener una lista de los requisitos para acceder a Planificación de Workfront, consulte [Información general sobre el acceso a Planificación de Workfront de Adobe](/help/quicksilver/planning/access/access-overview.md).
 > 
 >Para obtener información general sobre Workfront Planning, consulte [Introducción a Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
 >
 >Para obtener más información, también recomendamos consultar los artículos de [Prácticas recomendadas de Adobe Workfront Planning: índice de artículos](/help/quicksilver/planning/best-practices.md/best-practices-article-index.md).
 
-Como líder de operaciones de marketing, puede utilizar Adobe Workfront Planning para organizar el trabajo en todo el ciclo de vida de marketing para todos sus equipos.
+Como líder de operaciones de marketing, puede utilizar Planificación de Workfront de Adobe para organizar el trabajo en todo el ciclo de vida de marketing para todos sus equipos.
 
 Este artículo documenta algunas preguntas frecuentes y prácticas recomendadas que recomendamos al comenzar con Workfront Planning.
 
@@ -59,12 +68,12 @@ Las siguientes son algunas de las preguntas más frecuentes sobre la configuraci
 * ✅ Empiece explorando nuestras plantillas de espacio de trabajo predefinidas para conocer ideas de casos de uso similares existentes. Utilice los tipos de registro predefinidos y los campos que se incluyan en una plantilla, o bien añada los suyos propios.
 * ✅ Identifique los casos de uso principales que desea resolver con Workfront Planning. Por ejemplo, la mayoría de las organizaciones quieren mejorar la visibilidad de las actividades estratégicas, lo que puede incluir la creación de un mejor &quot;Calendario de campaña&quot;. Por lo tanto, para ese caso de uso, le recomendamos empezar respondiendo a algunas preguntas:
 
-   * ¿Quién lo pide?
-   * ¿Cómo llaman a las cosas que quieren poner en el calendario?
-¿Campañas? ¿Tácticas? ¿Iniciativas? ¿Actividades? ¿Eventos?
-   * ¿Qué tipo de preguntas quieren responder con este calendario?
-   * ¿Tienen campañas superpuestas para la misma audiencia?
-   * ¿Cuál es el presupuesto para esa campaña, táctica, actividad o evento?
+  * ¿Quién lo pide?
+  * ¿Cómo llaman a las cosas que quieren poner en el calendario?
+    ¿Campañas? ¿Tácticas? ¿Iniciativas? ¿Actividades? ¿Eventos?
+  * ¿Qué tipo de preguntas quieren responder con este calendario?
+  * ¿Tienen campañas superpuestas para la misma audiencia?
+  * ¿Cuál es el presupuesto para esa campaña, táctica, actividad o evento?
 
   Las respuestas a estas preguntas dictarían lo que debe crear dentro de Workfront Planning.
 
@@ -210,9 +219,9 @@ Utilice la función de uso compartido para otorgar los permisos adecuados a otro
 
   Puede elegir entre los siguientes niveles de permisos:
 
-   * **Administrar**: Las personas pueden editar, eliminar y compartir el espacio de trabajo, los tipos de registros y editar, eliminar y crear registros.
-   * **Contribute**: los usuarios pueden crear, editar y eliminar registros.
-   * **Ver**: Las personas pueden ver registros.
+  * **Administrar**: Las personas pueden editar, eliminar y compartir el espacio de trabajo, los tipos de registros y editar, eliminar y crear registros.
+  * **Contribute**: los usuarios pueden crear, editar y eliminar registros.
+  * **Ver**: Las personas pueden ver registros.
 
 * ✅ Aunque muchos clientes sienten que concederían permisos de **Administrar** a los espacios de trabajo a la mayoría de las personas, no restrinja los permisos de **Administrar** a un grupo selecto de personas de confianza que no eliminarán accidentalmente un tipo de registro ni crearán campos y tipos de registros innecesarios. Pueden editar, compartir e incluso eliminar el espacio de trabajo. Este nivel de permisos les concede acceso administrativo completo a Workspace.
 
@@ -289,14 +298,14 @@ Puede crear un formulario de solicitud para cada tipo de registro cuando desee q
 
   Puede elegir entre las siguientes opciones de uso compartido:
 
-   * Para compartir internamente con usuarios de Workfront:
+  * Para compartir internamente con usuarios de Workfront:
 
-      * **Cualquier persona con acceso de visualización o superior al área de trabajo:** Permite que todos los usuarios con permisos de visualización o superiores puedan enviar una solicitud para crear un registro.
-      * **Cualquier persona con acceso de tipo Contribuir o superior al área de trabajo**: Restringe los envíos a los usuarios con permisos de tipo Contribuir o superior al área de trabajo.
-      * **Solo las personas invitadas pueden tener acceso**: Agregue personas, equipos, roles, grupos o empresas que puedan enviar solicitudes al formulario.
-   * Para compartir externamente con personas que no tienen una cuenta de Workfront:
-      * **Cree un vínculo público**, cópielo y compártalo con cualquier persona, incluso con personas que no tengan cuenta de Workfront: permite que cualquier persona que tenga el vínculo del formulario envíe una solicitud.
-      * **Fecha de caducidad del vínculo:** Asegúrese de establecer una fecha de caducidad para el vínculo público para mejorar la seguridad.
+    * **Cualquier persona con acceso de visualización o superior al área de trabajo:** Permite que todos los usuarios con permisos de visualización o superiores puedan enviar una solicitud para crear un registro.
+    * **Cualquier persona con acceso de tipo Contribuir o superior al área de trabajo**: Restringe los envíos a los usuarios con permisos de tipo Contribuir o superior al área de trabajo.
+    * **Solo las personas invitadas pueden tener acceso**: Agregue personas, equipos, roles, grupos o empresas que puedan enviar solicitudes al formulario.
+  * Para compartir externamente con personas que no tienen una cuenta de Workfront:
+    * **Cree un vínculo público**, cópielo y compártalo con cualquier persona, incluso con personas que no tengan cuenta de Workfront: permite que cualquier persona que tenga el vínculo del formulario envíe una solicitud.
+    * **Fecha de caducidad del vínculo:** Asegúrese de establecer una fecha de caducidad para el vínculo público para mejorar la seguridad.
 
 ### Prácticas recomendadas para administrar formularios de solicitud
 

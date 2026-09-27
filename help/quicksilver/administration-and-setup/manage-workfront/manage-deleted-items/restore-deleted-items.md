@@ -8,26 +8,33 @@ feature: System Setup and Administration
 author: Lisa
 role: Admin
 exl-id: e5b63652-ce16-44a9-a806-a41f19970ee1
-TQID: https://experienceleague.adobe.com/1IXsiNHxckJbTd30JCR3N4bEGOyAWfLRBdGj8dGsHnY
+TQID: 'https://experienceleague.adobe.com/1IXsiNHxckJbTd30JCR3N4bEGOyAWfLRBdGj8dGsHnY'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
   - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+    internal-label: Timesheets
   - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1029
+source-wordcount: '1029'
 ht-degree: 97%
-
 ---
-
 # Restaurar elementos eliminados
 
 <!--Audited: 12/2023-->
@@ -95,15 +102,15 @@ Al restaurar un proyecto, una tarea o un problema, junto con ellos se recupera l
 * Estados
 * Información financiera:
 
-   * Registros de facturación
-   * Tarifas de facturación
-   * Gastos
+  * Registros de facturación
+  * Tarifas de facturación
+  * Gastos
 
 * Información de cronología:
 
-   * Predecesoras
-   * Restricciones de tareas
-   * Tipo de duración
+  * Predecesoras
+  * Restricciones de tareas
+  * Tipo de duración
 
 * Líneas base
 
@@ -125,12 +132,12 @@ Al restaurar un proyecto, una tarea o un problema, junto con ellos se recupera l
 
   Tenga en cuenta lo siguiente a la hora de restaurar documentos y versiones de documentos:
 
-   * Los documentos que se eliminaron individualmente se pueden restaurar individualmente.
+  * Los documentos que se eliminaron individualmente se pueden restaurar individualmente.
 
-     Los documentos que se eliminaron junto con su proyecto, tarea o problema principal se recuperarán al restaurar el elemento principal, pero no se podrán restaurar de forma individual.
+    Los documentos que se eliminaron junto con su proyecto, tarea o problema principal se recuperarán al restaurar el elemento principal, pero no se podrán restaurar de forma individual.
 
-   * Todas las versiones de un documento o de una prueba de documento se restaurarán cuando se restaure el documento.\
-     Las versiones individuales de un documento o una prueba de documento que se eliminaron individualmente no se pueden recuperar.
+  * Todas las versiones de un documento o de una prueba de documento se restaurarán cuando se restaure el documento.\
+    Las versiones individuales de un documento o una prueba de documento que se eliminaron individualmente no se pueden recuperar.
 
 ## Información que no se recupera al restaurar un proyecto, tarea o problema
 
@@ -179,13 +186,13 @@ Al restaurar un proyecto, una tarea o un problema, la siguiente información aso
 
 * Después de restaurar un elemento:
 
-   * Aparece un mensaje para que sepa si se ha realizado correctamente.
+  * Aparece un mensaje para que sepa si se ha realizado correctamente.
 
-     También recibirá una notificación por correo electrónico. Si ha restaurado varios elementos, el correo electrónico los enumera.
+    También recibirá una notificación por correo electrónico. Si ha restaurado varios elementos, el correo electrónico los enumera.
 
-   * Aparece un comentario en el área de Actualizaciones del proyecto, tarea o problema y en la del objeto principal.
+  * Aparece un comentario en el área de Actualizaciones del proyecto, tarea o problema y en la del objeto principal.
 
-     Esto no sucede cuando se restaura un documento o una plantilla.
+    Esto no sucede cuando se restaura un documento o una plantilla.
 
 ## Pruebas restauradas
 

@@ -1,23 +1,26 @@
 ---
 product-previous: mobile
 navigation-topic: use-the-workfront-mobile-app
-title: 'Compartir y descargar pruebas en la aplicación móvil de  [!DNL Adobe Workfront] '
+title: Compartir y descargar pruebas en la aplicación móvil [!DNL Adobe Workfront]
 description: Puede compartir un documento de revisión con destinatarios internos y externos directamente desde la aplicación móvil. También puede descargar un documento de prueba en su dispositivo móvil.
 author: Lisa
 feature: Get Started with Workfront
 exl-id: a97ddd1e-1cae-49a8-b3a4-7c9850169179
-TQID: https://experienceleague.adobe.com/tr04xDTRvfDtXABpu-RdEwv-RJjCiQJ5ALNo6pzRaNk
+TQID: 'https://experienceleague.adobe.com/tr04xDTRvfDtXABpu-RdEwv-RJjCiQJ5ALNo6pzRaNk'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 597
+source-wordcount: '597'
 ht-degree: 95%
-
 ---
-
 # Compartir y descargar pruebas en la aplicación móvil [!DNL Adobe Workfront]
 
 Puede compartir un documento de revisión con destinatarios internos y externos directamente desde la aplicación móvil. También puede descargar un documento de prueba en su dispositivo móvil.

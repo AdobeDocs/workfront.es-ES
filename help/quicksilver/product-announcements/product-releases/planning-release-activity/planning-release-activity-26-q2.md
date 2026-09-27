@@ -9,18 +9,24 @@ recommendations: noDisplay, noCatalog
 exl-id: 79d4ad4a-1dd0-431e-92cd-582b5a1b7ec8
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/-YeUwYEIFG4Uj80hXLy6hXGqJVYfQMeW2DrNlS6zjRs
+TQID: 'https://experienceleague.adobe.com/-YeUwYEIFG4Uj80hXLy6hXGqJVYfQMeW2DrNlS6zjRs'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+    internal-label: Admin
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1933
+source-wordcount: '2280'
 ht-degree: 3%
-
 ---
-
 # Actividad de la versión del segundo trimestre de 2026 para Adobe Workfront Planning
 
 Este artículo describe las funciones que se lanzarán para Workfront Planning durante la versión del segundo trimestre de 2026.
@@ -34,7 +40,10 @@ Para obtener una lista de todas las características publicadas para Adobe Workf
 
 >[!NOTE]
 >
->Vista previa: 16 de abril de 2026>Versión rápida de producción: 16 de abril de 2026>Producción para todos: 16 de abril de 2026>[!BADGE Fuera de horario]{type=Neutral}
+>Vista previa: 16 de abril de 2026
+>Versión rápida de producción: 16 de abril de 2026
+>Producción para todos: 16 de abril de 2026
+>[!BADGE Fuera del horario]{type=Neutral}
 
 Ahora puede acceder al Asesor de contenido de Experience Manager en Workfront Planning. El Asesor de contenido le permite:
 
@@ -51,7 +60,9 @@ Para obtener más información sobre cómo obtener acceso al Asesor de contenido
 
 >[!NOTE]
 >
->Vista previa: 2 de abril de 2026>Versión rápida de producción: 15 de abril de 2026>Producción para todos: 16 de abril de 2026
+>Vista previa: 2 de abril de 2026
+>Versión rápida de producción: 15 de abril de 2026
+>Producción para todos: 16 de abril de 2026
 
 Se ha añadido una nueva configuración para ajustar el alto de la fila en la vista de lista.
 
@@ -63,7 +74,9 @@ Para obtener más información, consulte [Administrar la vista de lista](/help/q
 
 >[!NOTE]
 >
->Vista previa: 2 de abril de 2026>Versión rápida de producción: 15 de abril de 2026>Producción para todos: 16 de abril de 2026
+>Vista previa: 2 de abril de 2026
+>Versión rápida de producción: 15 de abril de 2026
+>Producción para todos: 16 de abril de 2026
 
 Para garantizar que los destinatarios siempre comprendan qué vista recibieron cuando abrieron un vínculo compartido públicamente a un tipo de registro, se ha agregado el nombre del tipo de registro a la página de vista compartida, además del icono de vista y el nombre de la vista.
 
@@ -73,7 +86,9 @@ Para obtener más información, consulte [Compartir vistas](/help/quicksilver/pl
 
 >[!NOTE]
 >
->Vista previa: 2 de abril de 2026>Versión rápida de producción: 15 de abril de 2026>Producción para todos: 16 de abril de 2026
+>Vista previa: 2 de abril de 2026
+>Versión rápida de producción: 15 de abril de 2026
+>Producción para todos: 16 de abril de 2026
 
 Para ayudarle a organizar mejor la información, hemos agregado la capacidad de agrupar elementos en la página Formularios de solicitud de un tipo de registro.
 
@@ -85,7 +100,9 @@ Para obtener más información, consulte [Administrar la vista de lista](/help/q
 
 >[!NOTE]
 >
->Vista previa: 2 de abril de 2026>Versión rápida de producción: 15 de abril de 2026>Producción para todos: 16 de abril de 2026
+>Vista previa: 2 de abril de 2026
+>Versión rápida de producción: 15 de abril de 2026
+>Producción para todos: 16 de abril de 2026
 
 Ahora puede expandir grupos, equipos, compañías y roles para ver sus miembros cuando comparta un área de trabajo o una vista con ellos. Antes de esta mejora, las listas de miembros estaban disponibles para estos objetos solo cuando se compartían tipos de registros.
 
@@ -95,7 +112,9 @@ Para obtener más información, vea [Compartir espacios de trabajo](/help/quicks
 
 >[!NOTE]
 >
->Vista previa: 2 de abril de 2026>Versión rápida de producción: 15 de abril de 2026>Producción para todos: 16 de abril de 2026
+>Vista previa: 2 de abril de 2026
+>Versión rápida de producción: 15 de abril de 2026
+>Producción para todos: 16 de abril de 2026
 
 Presentamos un paquete de plantillas para ayudarle a optimizar la implementación de Workfront Planning en su organización. Al instalar la plantilla del marco de prácticas recomendadas, puede crear hasta seis espacios de trabajo que contengan toda la información necesaria para empezar a mover la planificación estratégica en Workfront.
 
@@ -111,7 +130,9 @@ Para obtener más información, consulte [Creación de espacios de trabajo](/hel
 
 >[!NOTE]
 >
->Vista previa: 2 de abril de 2026>Versión rápida de producción: 15 de abril de 2026>Producción para todos: 16 de abril de 2026
+>Vista previa: 2 de abril de 2026
+>Versión rápida de producción: 15 de abril de 2026
+>Producción para todos: 16 de abril de 2026
 
 Ahora puede buscar espacios de trabajo, tipos de registro o vistas desde cualquier página de Workfront Planning mediante las siguientes combinaciones de teclas desde cualquier página de Planning:
 
@@ -126,7 +147,9 @@ Para obtener más información, consulte [Edición de espacios de trabajo](/help
 
 >[!NOTE]
 >
->Vista previa: 2 de abril de 2026>Versión rápida de producción: 15 de abril de 2026>Producción para todos: 16 de abril de 2026
+>Vista previa: 2 de abril de 2026
+>Versión rápida de producción: 15 de abril de 2026
+>Producción para todos: 16 de abril de 2026
 
 Ahora puede aplicar formato condicional adicional a una lista de proyectos de la página conectada de un registro.
 
@@ -146,7 +169,9 @@ Para obtener más información, consulte [Administrar la vista de lista](/help/q
 
 >[!NOTE]
 >
->Vista previa: 2 de abril de 2026>Versión rápida de producción: 15 de abril de 2026>Producción para todos: 16 de abril de 2026
+>Vista previa: 2 de abril de 2026
+>Versión rápida de producción: 15 de abril de 2026
+>Producción para todos: 16 de abril de 2026
 
 Se han agregado los siguientes nombres personalizados para un filtro de equipo, grupo, compañía y función en la vista de lista:
 
@@ -166,7 +191,9 @@ Para obtener más información, consulte [Administrar la vista de lista](/help/q
 
 >[!NOTE]
 >
->Vista previa: 26 de marzo de 2026>Versión rápida de producción: 15 de abril de 2026>Producción para todos: 16 de abril de 2026
+>Vista previa: 26 de marzo de 2026
+>Versión rápida de producción: 15 de abril de 2026
+>Producción para todos: 16 de abril de 2026
 
 Hemos rediseñado la forma en que se muestran las rutas de exploración en los tipos de registros y registros. Ahora, al hacer clic en Más en la línea de ruta de exploración, los nombres de los registros y objetos se muestran en varias líneas. Antes de esta mejora, al hacer clic en Más se mostraban los nombres de registros y objetos en los menús desplegables.
 
@@ -176,7 +203,9 @@ Para obtener más información, consulte [Información general sobre jerarquía 
 
 >[!NOTE]
 >
->Vista previa: 12 de marzo de 2026>Versión rápida de producción: 15 de abril de 2026>Producción para todos: 16 de abril de 2026
+>Vista previa: 12 de marzo de 2026
+>Versión rápida de producción: 15 de abril de 2026
+>Producción para todos: 16 de abril de 2026
 
 Se ha agregado un nuevo tipo de campo para el identificador de registro. Es un indicador alfanumérico generado por el sistema que identifica de forma exclusiva cada registro. El campo se muestra en cualquier vista de registro, así como en el área de detalles del registro.
 
@@ -187,7 +216,9 @@ Para obtener más información, consulte [Crear campos](/help/quicksilver/planni
 
 >[!NOTE]
 >
->Vista previa: 12 de marzo de 2026>Versión rápida de producción: 15 de abril de 2026>Producción para todos: 16 de abril de 2026
+>Vista previa: 12 de marzo de 2026
+>Versión rápida de producción: 15 de abril de 2026
+>Producción para todos: 16 de abril de 2026
 
 Ahora permitimos a los usuarios que no son administradores y que son administradores de espacio de trabajo hacer que un tipo de registro sea conectable desde espacios de trabajo específicos.
 
@@ -199,7 +230,9 @@ Para obtener más información, vea [Configurar las capacidades entre espacios d
 
 >[!NOTE]
 >
->Vista previa: 26 de febrero de 2026>Versión rápida de producción: 12 de marzo de 2026>Producción para todos: 16 de abril de 2026
+>Vista previa: 26 de febrero de 2026
+>Versión rápida de producción: 12 de marzo de 2026
+>Producción para todos: 16 de abril de 2026
 
 Ahora puede crear automáticamente registros de Planning u objetos de Workfront basados en un cambio de campo de registro mediante automatizaciones de Planning.
 
@@ -211,7 +244,9 @@ Para obtener más información, consulte [Configuración de automatizaciones de 
 
 >[!NOTE]
 >
->Vista previa: 26 de febrero de 2026>Versión rápida de producción: 12 de marzo de 2026>Producción para todos: 16 de abril de 2026
+>Vista previa: 26 de febrero de 2026
+>Versión rápida de producción: 12 de marzo de 2026
+>Producción para todos: 16 de abril de 2026
 
 Ahora solo permitimos que los administradores del sistema elijan entre las siguientes opciones al compartir un espacio de trabajo:
 
@@ -228,7 +263,9 @@ Para obtener más información, consulte Compartir espacios de trabajo (help/qui
 
 >[!NOTE]
 >
->Vista previa: 26 de febrero de 2026>Versión rápida de producción: 12 de marzo de 2026>Producción para todos: 16 de abril de 2026
+>Vista previa: 26 de febrero de 2026
+>Versión rápida de producción: 12 de marzo de 2026
+>Producción para todos: 16 de abril de 2026
 
 Ahora puede ordenar agrupaciones en la vista de cronología. Para obtener más información, consulte [administrar la vista de cronología](/help/quicksilver/planning/views/manage-the-timeline-view.md).
 
@@ -236,7 +273,9 @@ Ahora puede ordenar agrupaciones en la vista de cronología. Para obtener más i
 
 >[!NOTE]
 >
->Vista previa: 26 de febrero de 2026>Versión rápida de producción: 12 de marzo de 2026>Producción para todos: 16 de abril de 2026
+>Vista previa: 26 de febrero de 2026
+>Versión rápida de producción: 12 de marzo de 2026
+>Producción para todos: 16 de abril de 2026
 
 Ahora puede conectar campos de usuario de Workfront a tipos de registro de Workfront Planning agregando una nueva conexión entre un objeto de Workfront y un tipo de registro de Workfront Planning.
 
@@ -249,7 +288,9 @@ Para obtener más información, consulte [Conectar tipos de registro](/help/quic
 
 >[!NOTE]
 >
->Vista previa: 26 de febrero de 2026>Versión rápida de producción: 12 de marzo de 2026>Producción para todos: 16 de abril de 2026
+>Vista previa: 26 de febrero de 2026
+>Versión rápida de producción: 12 de marzo de 2026
+>Producción para todos: 16 de abril de 2026
 
 Ahora puede ver a los usuarios actualizando los campos de registro al mismo tiempo que hace clic en el indicador de presencia en tiempo real en la esquina superior derecha de una celda en la vista de tabla. Los usuarios que aparecen en la esquina superior derecha de la vista de tabla de registros son los que tienen abierta la misma vista.
 
@@ -262,7 +303,9 @@ Para obtener más información, consulte [Administrar la vista de tabla](/help/q
 
 >[!NOTE]
 >
->Vista previa: 26 de febrero de 2026>Versión rápida de producción: 12 de marzo de 2026>Producción para todos: 16 de abril de 2026
+>Vista previa: 26 de febrero de 2026
+>Versión rápida de producción: 12 de marzo de 2026
+>Producción para todos: 16 de abril de 2026
 
 Cuando comparte la vista de lista en la página de registros conectados de proyectos de un registro con permisos de Vista, el usuario con el que comparte la vista puede modificar los elementos de vista y esos cambios se guardan en las preferencias personales del usuario. Ahora tienen la opción de guardar una copia de la vista que incluye sus cambios o restablecer la vista compartida a su configuración original. Además, pueden compartir la vista copiada con otros usuarios.
 
@@ -274,7 +317,9 @@ Para obtener más información, consulte [Administrar la vista de lista](/help/q
 
 >[!NOTE]
 >
->Vista previa: 26 de febrero de 2026>Versión rápida de producción: 12 de marzo de 2026>Producción para todos: 16 de abril de 2026
+>Vista previa: 26 de febrero de 2026
+>Versión rápida de producción: 12 de marzo de 2026
+>Producción para todos: 16 de abril de 2026
 
 Ahora puede aplicar formato condicional a los proyectos de una vista de lista en la página Registros conectados de un registro. Esta funcionalidad no existía en la vista de lista antes de esta mejora.
 
@@ -284,7 +329,9 @@ Para obtener más información, consulte [Administrar vista de lista](/help/quic
 
 >[!NOTE]
 >
->Vista previa: 5 de febrero de 2026>Versión rápida de producción: 12 de marzo de 2026>Producción para todos: 16 de abril de 2026
+>Vista previa: 5 de febrero de 2026
+>Versión rápida de producción: 12 de marzo de 2026
+>Producción para todos: 16 de abril de 2026
 
 Hemos mejorado la visibilidad de los tipos de registros globales añadidos a un espacio de trabajo secundario desde un espacio de trabajo principal. Entre las mejoras se incluyen las siguientes:
 
@@ -298,7 +345,9 @@ Para obtener más información, vea [Agregar tipos de registros existentes desde
 
 >[!NOTE]
 >
->Vista previa: 29 de enero de 2026>Versión rápida de producción: 12 de febrero de 2026>Producción para todos: 16 de abril de 2026
+>Vista previa: 29 de enero de 2026
+>Versión rápida de producción: 12 de febrero de 2026
+>Producción para todos: 16 de abril de 2026
 
 Hemos introducido una configuración que le permite mostrar u ocultar campos de registro en el cuadro de vista previa Detalles de un registro, en función de los campos mostrados en la vista de tabla. 
 
@@ -310,7 +359,9 @@ Para obtener más información, vea [Administrar el diseño de la página de reg
 
 >[!NOTE]
 >
->Vista previa: 29 de enero de 2026>Versión rápida de producción: 12 de febrero de 2026>Producción para todos: 16 de abril de 2026
+>Vista previa: 29 de enero de 2026
+>Versión rápida de producción: 12 de febrero de 2026
+>Producción para todos: 16 de abril de 2026
 
 Ahora puede agregar el campo de conexión &quot;Solicitud original&quot; a un tipo de registro. Cuando se crea un registro enviando un formulario de solicitud de Planning, el nombre de la solicitud original rellena el campo Conexión de la solicitud original.
 
@@ -322,7 +373,9 @@ Para obtener más información, consulte [Conectar tipos de registros](/help/qui
 
 >[!NOTE]
 >
->Vista previa: 29 de enero de 2026>Versión rápida de producción: 12 de febrero de 2026>Producción para todos: 16 de abril de 2026
+>Vista previa: 29 de enero de 2026
+>Versión rápida de producción: 12 de febrero de 2026
+>Producción para todos: 16 de abril de 2026
 
 Para que las aprobaciones de solicitudes sean más dinámicas y flexibles, se ha añadido la capacidad de crear reglas de aprobación. Estas reglas permiten que las solicitudes se dirijan a diferentes aprobadores según los valores de campo de la solicitud.
 
@@ -336,7 +389,9 @@ Para obtener información e instrucciones, consulte [Agregar reglas de aprobaci�
 
 >[!NOTE]
 >
->Vista previa: 29 de enero de 2026>Versión rápida de producción: 12 de febrero de 2026>Producción para todos: 16 de abril de 2026
+>Vista previa: 29 de enero de 2026
+>Versión rápida de producción: 12 de febrero de 2026
+>Producción para todos: 16 de abril de 2026
 
 Se han eliminado los tipos de campo Fecha de aprobación y Aprobado por.
 La información existente en los campos Anterior Fecha de aprobación y Aprobado por se ha movido a los campos Fecha de aprobación de la solicitud original y Aprobado por.
@@ -347,7 +402,9 @@ Para obtener más información, consulte [Crear campos](/help/quicksilver/planni
 
 >[!NOTE]
 >
->Vista previa: 22 de enero de 2026>Versión rápida de producción: 12 de febrero de 2026>Producción para todos: 16 de abril de 2026
+>Vista previa: 22 de enero de 2026
+>Versión rápida de producción: 12 de febrero de 2026
+>Producción para todos: 16 de abril de 2026
 
 Ahora, el correo electrónico de un usuario se muestra cuando lo añade a las siguientes áreas:
 
@@ -364,7 +421,9 @@ Para obtener más información, consulte los siguientes artículos:
 
 >[!NOTE]
 >
->Vista previa: 14 de enero de 2026>Versión rápida de producción: 12 de febrero de 2026>Producción para todos: 16 de abril de 2026
+>Vista previa: 14 de enero de 2026
+>Versión rápida de producción: 12 de febrero de 2026
+>Producción para todos: 16 de abril de 2026
 
 Ahora puede agregar campos Personas a los campos de búsqueda al conectar dos tipos de registros de Planning.
 

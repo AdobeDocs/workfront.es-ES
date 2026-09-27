@@ -8,24 +8,30 @@ feature: Reports and Dashboards
 exl-id: 04b623b5-38b0-4c32-b54e-204f1d422e45
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/G45Rx-nLjiBMHF--VNCwEjUqHZwLk3qjEP9WifRC29A
+TQID: 'https://experienceleague.adobe.com/G45Rx-nLjiBMHF--VNCwEjUqHZwLk3qjEP9WifRC29A'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c6dd2ac5-f5bd-4e59-9101-25b156918623
+    internal-label: Reports and dashboards
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 989
-ht-degree: 81%
-
+source-wordcount: '1035'
+ht-degree: 83%
 ---
-
 # Incrustar una página web externa en un panel de control
 
 <!--Audited: 01/2025-->
@@ -41,8 +47,8 @@ Por ejemplo, si su organización tiene un repositorio de documentos basado en we
 >Para permitir la incrustación en un sitio web de su propiedad, trabaje con el administrador web para configurar **X-Frame-Options**. Para obtener más información, consulte [X-Frame-Options](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Frame-Options).
 >
 >
->* Las páginas de panel ya no se admiten como páginas externas incrustadas en los paneles. Aunque los tableros existentes no se modificarán automáticamente para eliminar estas páginas externas, cualquier modificación en un tablero que incluya una referencia de este tipo no podrá guardarse hasta que se elimine o cambie la referencia.
-> Específicamente, ya no se admiten los siguientes subdominios Workfront.com:
+>* Las páginas de panel de control ya no se admiten como páginas externas incrustadas en los paneles de control. Aunque los tableros existentes no se modificarán automáticamente para eliminar estas páginas externas, cualquier modificación en un panel de control que incluya una referencia de este tipo no podrá guardarse hasta que se elimine o cambie la referencia.
+> En concreto, los subdominios Workfront.com que ya no se admiten son los siguientes:
 >
 >     * /dashboards
 >     * /dashboard/:ID&#x200B;
@@ -136,17 +142,17 @@ O\
 
      Puede especificar los siguientes tipos de URL:
 
-      * Una URL https (cifrada) a una página web.\
-        Solo las páginas https (cifradas) se cargan con la URL.\
-        ![Agregar cuadro de diálogo de página externa](assets/add-external-page-dialog-qs-350x247.png)
+     * Una URL https (cifrada) a una página web.\
+       Solo las páginas https (cifradas) se cargan con la URL.\
+       ![Agregar cuadro de diálogo de página externa](assets/add-external-page-dialog-qs-350x247.png)
 
-      * Una URL de plantilla que contiene información de la sesión de un sitio web específico.\
-        Por ejemplo: *https://localhost/?session={!$$SESSION}*
-Debe haber iniciado sesión en el sitio web especificado para mostrar la página externa.\
-        Para obtener información sobre cómo obtener un SessionID de Workfront, consulte [Conceptos básicos sobre las API](../../../wf-api/general/api-basics.md).\
-        El administrador de Workfront puede configurar las preferencias del sistema de forma que no permita el uso de información de sesión en las páginas externas por motivos de seguridad. En este caso, la página externa no se carga en el panel de control.\
-        Para obtener más información acerca de las preferencias de seguridad del sistema, consulte [Configurar las preferencias de seguridad del sistema](../../../administration-and-setup/manage-workfront/security/configure-security-preferences.md).\
-        ![external_page_with_session_id_example.png](assets/external-page-with-session-id-example-350x134.png)
+     * Una URL de plantilla que contiene información de la sesión de un sitio web específico.\
+       Por ejemplo: *https://localhost/?session={!$$SESSION}*
+       Debe haber iniciado sesión en el sitio web especificado para mostrar la página externa.\
+       Para obtener información sobre cómo obtener un SessionID de Workfront, consulte [Conceptos básicos sobre las API](../../../wf-api/general/api-basics.md).\
+       El administrador de Workfront puede configurar las preferencias del sistema de forma que no permita el uso de información de sesión en las páginas externas por motivos de seguridad. En este caso, la página externa no se carga en el panel de control.\
+       Para obtener más información acerca de las preferencias de seguridad del sistema, consulte [Configurar las preferencias de seguridad del sistema](../../../administration-and-setup/manage-workfront/security/configure-security-preferences.md).\
+       ![external_page_with_session_id_example.png](assets/external-page-with-session-id-example-350x134.png)
 
      >[!WARNING]
      >

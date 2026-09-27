@@ -7,28 +7,37 @@ recommendations: noDisplay, noCatalog
 exl-id: 5bb898fa-d74e-4174-bc93-d8ffb8937680
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/TIFvtoOoxZYBnFZohXPvr44XvrdduZBKmfhpe0JO3Yw
+TQID: 'https://experienceleague.adobe.com/TIFvtoOoxZYBnFZohXPvr44XvrdduZBKmfhpe0JO3Yw'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
   - id: d3382524-5489-431b-bde9-271ab257bc37
+    internal-label: Workfront Scenario Planner
   - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
   - id: fceb5125-bb41-419a-b0db-31958cb42f6c
+    internal-label: Workfront Goals
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 2976
-ht-degree: 41%
-
+source-wordcount: '2976'
+ht-degree: 42%
 ---
-
 # Información general sobre la versión del primer trimestre de 2025
 
 En esta página se ofrece información sobre la funcionalidad incluida en la versión del primer trimestre de 2025. Se prevé que estas mejoras estén disponibles en el entorno de producción durante todo el trimestre.
@@ -739,9 +748,9 @@ The following functionality is soon to be removed from Workfront:
 
 Las nuevas funciones de Workfront Fusion están disponibles en el entorno de producción en una cadencia fuera de la programación de versiones del primer trimestre de 2025. Para obtener más información sobre las últimas funciones, consulte [Actividad de la versión de Adobe Workfront Fusion](https://experienceleague.adobe.com/es/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
 
-### Mejoras en Workfront Planning
+### Mejoras en Planificación de Workfront
 
-Las nuevas funciones de Workfront Planning están disponibles en el entorno de producción. Para obtener más información sobre las últimas funciones, consulte [Actividad de la versión del primer trimestre de 2025 de Adobe Workfront Planning](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q1.md).
+Las nuevas funciones de Planificación de Workfront están disponibles en el entorno de producción. Para obtener más información sobre las últimas funciones, consulte [Actividad de la versión del primer trimestre de 2025 de Adobe Workfront Planning](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q1.md).
 
 ### Mejoras en el Planificador de escenarios de Workfront
 

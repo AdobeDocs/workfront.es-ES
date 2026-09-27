@@ -7,22 +7,26 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: a6120939-5d76-4f46-a304-125de6b22502
-TQID: https://experienceleague.adobe.com/sNnNP1IaqwE6GWsUDIKqOABzWgeeKusV73Uyf8s67Mk
+TQID: 'https://experienceleague.adobe.com/sNnNP1IaqwE6GWsUDIKqOABzWgeeKusV73Uyf8s67Mk'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: 682536a8-4872-5ee6-a8a6-8012d713482c
+    internal-label: Workfront API
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 987
+source-wordcount: '987'
 ht-degree: 94%
-
 ---
-
 # Preguntas frecuentes: suscripciones a eventos
 
 <!--
@@ -70,16 +74,16 @@ Algunos de los siguientes escenarios podrían ser responsables:
 * Los cálculos de larga duración o los cálculos de cronología en grandes proyectos podrían estar causando un retraso en la publicación de mensajes para que los consuman las Suscripciones a eventos.
 * Es posible que la suscripción se haya deshabilitado.
 
-   * Tras un periodo de gracia de 100 mensajes, si una URL determinada (que podría estar asociada a una o más suscripciones) falla más del 70 % de las veces o si la URL falla en la entrega después de 2000 intentos consecutivos, no se intentará la entrega de todos los mensajes que coincidan con suscripciones con esa misma URL. En lugar de ello, esos mensajes se ponen inmediatamente en cola para un nuevo intento.
+  * Tras un periodo de gracia de 100 mensajes, si una URL determinada (que podría estar asociada a una o más suscripciones) falla más del 70 % de las veces o si la URL falla en la entrega después de 2000 intentos consecutivos, no se intentará la entrega de todos los mensajes que coincidan con suscripciones con esa misma URL. En lugar de ello, esos mensajes se ponen inmediatamente en cola para un nuevo intento.
 
-     Cada 10 minutos después de deshabilitar una URL, intentamos entregar el siguiente mensaje que llega para su procesamiento. Si ese mensaje se envía correctamente, volvemos a habilitar esa dirección URL y, posteriormente, todas las suscripciones coincidentes. Si ese mensaje no se envía, el temporizador de 10 minutos se restablece y lo intentamos de nuevo una vez caducado.
+    Cada 10 minutos después de deshabilitar una URL, intentamos entregar el siguiente mensaje que llega para su procesamiento. Si ese mensaje se envía correctamente, volvemos a habilitar esa dirección URL y, posteriormente, todas las suscripciones coincidentes. Si ese mensaje no se envía, el temporizador de 10 minutos se restablece y lo intentamos de nuevo una vez caducado.
 
-     Este comportamiento puede percibirse como incoherente o de retraso en las entregas, pero solo sigue nuestras políticas concernientes a la gestión de los mensajes de suscripción a eventos.
+    Este comportamiento puede percibirse como incoherente o de retraso en las entregas, pero solo sigue nuestras políticas concernientes a la gestión de los mensajes de suscripción a eventos.
 
-   * Una URL de suscripción a eventos se desactivará si se cumple cualquiera de las siguientes condiciones:
+  * Una URL de suscripción a eventos se desactivará si se cumple cualquiera de las siguientes condiciones:
 
-      * La URL de suscripción no se ha podido entregar durante 7 días y ha fallado al menos 2000 intentos de entrega consecutivos en las últimas 72 horas.
-      * La URL de suscripción no ha podido ofrecer 50 000 intentos consecutivos.
+    * La URL de suscripción no se ha podido entregar durante 7 días y ha fallado al menos 2000 intentos de entrega consecutivos en las últimas 72 horas.
+    * La URL de suscripción no ha podido ofrecer 50 000 intentos consecutivos.
 
 ## ¿Qué debo hacer si recibo un estado de respuesta 500 al intentar llamar a la API de suscripción a evento?
 

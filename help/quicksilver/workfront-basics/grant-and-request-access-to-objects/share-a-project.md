@@ -8,22 +8,26 @@ feature: Get Started with Workfront
 exl-id: eaeedff8-9114-40d9-8cd4-56996edc7dad
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/il3HJ8UUx-E0TBUBRiuPIIveR37flNDeFQ9gZJ8chqA
+TQID: 'https://experienceleague.adobe.com/il3HJ8UUx-E0TBUBRiuPIIveR37flNDeFQ9gZJ8chqA'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1530
-ht-degree: 56%
-
+source-wordcount: '1558'
+ht-degree: 57%
 ---
-
 # Compartir un proyecto
 
 <!-- Audited: 1/2024 -->
@@ -79,9 +83,9 @@ Además de las consideraciones siguientes, consulte [Información general sobre 
 * Puede compartir proyectos individualmente o puede compartir varios a la vez. Compartir proyectos es idéntico a compartir otros objetos. Para obtener más información sobre cómo compartir elementos en Workfront, consulte [Buscar un objeto](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md).
 * Puede conceder los siguientes permisos a un proyecto:
 
-   * Ver
-   * Administrar
-   * Aportar
+  * Ver
+  * Administrar
+  * Aportar
 
 * Al compartir un proyecto, todas las tareas, problemas y documentos heredan los mismos permisos, a menos que se especifique lo contrario.
 
@@ -104,25 +108,25 @@ Puede compartir un proyecto de las siguientes maneras:
 
 * Manualmente, mediante uno de los procedimientos siguientes:
 
-   * Añadiendo usuarios al equipo del proyecto. Cuando añade usuarios al equipo del proyecto, obtienen automáticamente permisos de visualización en el proyecto.\
-     Para obtener más información sobre cómo agregar usuarios a un equipo del proyecto, vea la sección Agregar usuarios a un equipo del proyecto en [Información general del equipo del proyecto](../../manage-work/projects/planning-a-project/project-team-overview.md).
-   * Compartiendo los proyectos de forma individual o de forma masiva mediante la opción **Compartir**.
+  * Añadiendo usuarios al equipo del proyecto. Cuando añade usuarios al equipo del proyecto, obtienen automáticamente permisos de visualización en el proyecto.\
+    Para obtener más información sobre cómo agregar usuarios a un equipo del proyecto, vea la sección Agregar usuarios a un equipo del proyecto en [Información general del equipo del proyecto](../../manage-work/projects/planning-a-project/project-team-overview.md).
+  * Compartiendo los proyectos de forma individual o de forma masiva mediante la opción **Compartir**.
 
 * Automáticamente, mediante uno de los procedimientos siguientes:
 
-   * Coloque un proyecto en un **Portafolio** o **Programa** que ya se haya compartido con otros. Los usuarios obtienen los mismos permisos en el proyecto que tienen para el portafolio o programa.\
-     Para obtener información sobre cómo añadir un proyecto a un **Portafolio**, consulte [Añadir proyectos a un portafolio](../../manage-work/portfolios/create-and-manage-portfolios/add-projects-to-portfolios.md).\
-     Para obtener información sobre cómo agregar un proyecto a un **programa**, consulte [Agregar un proyecto a un programa](../../manage-work/portfolios/create-and-manage-programs/add-project-to-program.md).
-Para obtener información acerca de cómo ver los permisos heredados en un objeto, vea [Ver permisos heredados en objetos](../../workfront-basics/grant-and-request-access-to-objects/view-inherited-permissions-on-objects.md).
+  * Coloque un proyecto en un **Portafolio** o **Programa** que ya se haya compartido con otros. Los usuarios obtienen los mismos permisos en el proyecto que tienen para el portafolio o programa.\
+    Para obtener información sobre cómo añadir un proyecto a un **Portafolio**, consulte [Añadir proyectos a un portafolio](../../manage-work/portfolios/create-and-manage-portfolios/add-projects-to-portfolios.md).\
+    Para obtener información sobre cómo agregar un proyecto a un **programa**, consulte [Agregar un proyecto a un programa](../../manage-work/portfolios/create-and-manage-programs/add-project-to-program.md).
+    Para obtener información sobre la visualización de los permisos heredados en un objeto, consulte [Ver permisos heredados en objetos](../../workfront-basics/grant-and-request-access-to-objects/view-inherited-permissions-on-objects.md).
 
-   * Añada entidades al uso compartido de proyectos en una plantilla que se utiliza para crear el proyecto. Para obtener información sobre cómo compartir proyectos desde plantillas, consulte [Compartir una plantilla](../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md).
-   * Defina la plantilla de acceso al proyecto.
+  * Añada entidades al uso compartido de proyectos en una plantilla que se utiliza para crear el proyecto. Para obtener información sobre cómo compartir proyectos desde plantillas, consulte [Compartir una plantilla](../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md).
+  * Defina la plantilla de acceso al proyecto.
 
-     >[!TIP]
-     >
-     >Al adjuntar o guardar una plantilla, puede borrar las reglas de uso compartido de proyectos de la plantilla.
+    >[!TIP]
+    >
+    >Al adjuntar o guardar una plantilla, puede borrar las reglas de uso compartido de proyectos de la plantilla.
 
-   * Edite un proyecto y defina la configuración **Cuando alguien recibe acceso a este proyecto**.  Para obtener más información, consulte [Editar proyectos](../../manage-work/projects/manage-projects/edit-projects.md).
+  * Edite un proyecto y defina la configuración **Cuando alguien recibe acceso a este proyecto**.  Para obtener más información, consulte [Editar proyectos](../../manage-work/projects/manage-projects/edit-projects.md).
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

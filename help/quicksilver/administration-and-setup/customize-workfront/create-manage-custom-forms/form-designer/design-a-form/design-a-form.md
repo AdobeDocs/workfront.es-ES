@@ -10,27 +10,35 @@ role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/9vmobOfSleqLF7HqRnOav5IB1l8C4WPLO0vyEJwmfiI
+TQID: 'https://experienceleague.adobe.com/9vmobOfSleqLF7HqRnOav5IB1l8C4WPLO0vyEJwmfiI'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
 subfeature_v2:
   - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
   - id: e147ce9d-7675-49bd-8a32-44f27d865560
+    internal-label: Get started
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: f491bb9e116067344d2b397cb4be5181b18e8ab4
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 8056
+source-wordcount: '8056'
 ht-degree: 76%
-
 ---
-
 # Crear un formulario personalizado
 
 <!-- Audited: 6/2025 -->
@@ -122,7 +130,7 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
    * [Añadir imágenes, PDF y vídeos](#add-images-pdfs-and-videos)
    * [Añadir campos nativos de Workfront](#add-workfront-native-fields)
    * [Añadir archivos Adobe XD](#add-adobe-xd-files)
-   * [Añadir campos de conexión de Planning](#add-planning-connection-fields)
+   * [Añadir campos de conexión de Planificación](#add-planning-connection-fields)
 
 ## Añadir campos nuevos o existentes al formulario personalizado
 
@@ -1251,29 +1259,29 @@ Para añadir un archivo Adobe XD:
 
    Haga clic en **guardar y cerrar**.
 
-### Añadir campos de conexión de Planning
+### Añadir campos de conexión de Planificación
 
 >[!IMPORTANT]
 >
->La información de esta sección hace referencia a Adobe Workfront Planning, una funcionalidad adicional de Adobe Workfront.
+>La información de esta sección hace referencia a Planificación de Workfront de Adobe, una funcionalidad adicional de Adobe Workfront.
 >
->Debe tener paquetes adicionales para acceder a Workfront Planning.
+>Debe tener paquetes adicionales para acceder a Planificación de Workfront.
 >
->Para obtener una lista completa de los requisitos para acceder a Workfront Planning, consulte [Información general sobre el acceso a Adobe Workfront Planning](/help/quicksilver/planning/access/access-overview.md).
+>Para obtener una lista completa de los requisitos para acceder a Planificación de Workfront, consulte [Información general sobre el acceso a Planificación de Workfront de Adobe](/help/quicksilver/planning/access/access-overview.md).
 > 
->Para obtener más información sobre Workfront Planning, consulte [Introducción a Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
+>Para obtener más información sobre Planificación de Workfront, consulte [Introducción a Planificación de Workfront de Adobe](/help/quicksilver/planning/general/planning-overview.md).
 
-Puede ver los registros conectados desde Workfront Planning en un campo personalizado de un objeto de Workfront añadiendo un campo personalizado de conexión de Planning al formulario personalizado de un objeto.
+Puede ver los registros conectados desde Planificación de Workfront en un campo personalizado de un objeto de Workfront añadiendo un campo personalizado de conexión de Planificación al formulario personalizado de un objeto.
 
-Puede añadir el campo de conexión de Planning a los formularios personalizados de todos los objetos. Sin embargo, los registros conectados solo se pueden mostrar en los formularios personalizados asociados a objetos de Workfront que se pueden conectar desde Workfront Planning.
+Puede añadir el campo de conexión de Planificación a los formularios personalizados de todos los objetos. Sin embargo, los registros conectados solo se pueden mostrar en los formularios personalizados asociados a objetos de Workfront que se pueden conectar desde Planificación de Workfront.
 
 >[!NOTE]
 >
->Los usuarios que ven información en el campo personalizado deben tener acceso a Workfront Planning y a los espacios de trabajo que contienen los tipos de registro conectados a objetos de Workfront.
+>Los usuarios que ven información en el campo personalizado deben tener acceso a Planificación de Workfront y a los espacios de trabajo que contienen los tipos de registro conectados a objetos de Workfront.
 
-Para añadir un campo de conexión de Planning, haga lo siguiente:
+Para añadir un campo de conexión de Planificación, haga lo siguiente:
 
-1. En la pestaña **Nuevo campo** situada en la parte izquierda de la pantalla, busque **Conexión de Planning** y arrástrelo a una sección del lienzo.
+1. En la pestaña **Nuevo campo** situada en la parte izquierda de la pantalla, busque **Conexión de Planificación** y arrástrelo a una sección del lienzo.
 1. En el lado derecho de la pantalla, configure las opciones para el campo personalizado:
 
    <table style="table-layout:auto"> 
@@ -1287,7 +1295,7 @@ Para añadir un campo de conexión de Planning, haga lo siguiente:
      <tr> 
       <td role="rowheader">Etiqueta</td> 
       <td> <p>(Obligatorio) Escriba una etiqueta descriptiva para mostrar encima del campo. Puede cambiar la etiqueta en cualquier momento.</p> <p><b>Importante</b>: Evite utilizar caracteres especiales en esta etiqueta.</p> 
-      <p>Le recomendamos que elija una etiqueta que le ayude a identificar fácilmente de dónde proviene el registro de Planning. Añada información como el nombre del espacio de trabajo o el nombre del tipo de registro. </p>   </td> 
+      <p>Le recomendamos que elija una etiqueta que le ayude a identificar fácilmente de dónde proviene el registro de Planificación. Añada información como el nombre del espacio de trabajo o el nombre del tipo de registro. </p>   </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Nombre de la API</td>
@@ -1301,7 +1309,7 @@ Para añadir un campo de conexión de Planning, haga lo siguiente:
      </tr> 
      <tr> 
       <td role="rowheader">Tipo de objeto</td> 
-      <td><p>(Obligatorio) Seleccione un tipo de objeto de Workfront conectado a un tipo de registro en Workfront Planning.</p>
+      <td><p>(Obligatorio) Seleccione un tipo de objeto de Workfront conectado a un tipo de registro en Planificación de Workfront.</p>
       Puede seleccionar entre los siguientes tipos de objetos:
       <ul><li> Proyecto</li>
       <li> Portafolio</li><li> Programar</li><li> Compañía</li><li> Grupo</li></ul>
@@ -1310,15 +1318,15 @@ Para añadir un campo de conexión de Planning, haga lo siguiente:
      </tr>
      <tr> 
       <td role="rowheader">Espacio de trabajo</td> 
-      <td> <p>(Obligatorio) Seleccione el espacio de trabajo de Planning de donde proceden los registros que desea mostrar en Workfront.</p> <p> Solo se muestran los espacios de trabajo conectados a los tipos de objeto seleccionados en el campo Tipo de objeto. </td> 
+      <td> <p>(Obligatorio) Seleccione el espacio de trabajo de Planificación de donde proceden los registros que desea mostrar en Workfront.</p> <p> Solo se muestran los espacios de trabajo conectados a los tipos de objeto seleccionados en el campo Tipo de objeto. </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Tipo de registro</td> 
-      <td><p>(Obligatorio) Seleccione el tipo de registro de Workfront Planning que tiene una conexión con el tipo de objeto de Workfront.</p><p>Solo se muestran los tipos de registro que tienen conexiones con el tipo de objeto seleccionado en el campo Tipo de objeto. </p></td> 
+      <td><p>(Obligatorio) Seleccione el tipo de registro de Planificación de Workfront que tiene una conexión con el tipo de objeto de Workfront.</p><p>Solo se muestran los tipos de registro que tienen conexiones con el tipo de objeto seleccionado en el campo Tipo de objeto. </p></td> 
      </tr>
      <tr> 
       <td role="rowheader">Campo de conexión</td> 
-      <td><p>(Obligatorio) Seleccione el campo de conexión entre el tipo de registro de Planning seleccionado que desea mostrar en los objetos de Workfront y el tipo de objeto de Workfront. </p> <p> <b>Nota</b>: Puede tener varios campos de conexión entre los mismos tipos de objeto y registro, pero solo puede seleccionar un campo.</p>  </td> 
+      <td><p>(Obligatorio) Seleccione el campo de conexión entre el tipo de registro de Planificación seleccionado que desea mostrar en los objetos de Workfront y el tipo de objeto de Workfront. </p> <p> <b>Nota</b>: Puede tener varios campos de conexión entre los mismos tipos de objeto y registro, pero solo puede seleccionar un campo.</p>  </td> 
      </tr>
 
 <tr> 
@@ -1347,9 +1355,9 @@ Para añadir un campo de conexión de Planning, haga lo siguiente:
 
    Haga clic en **guardar y cerrar**.
 
-   Ahora puede adjuntar el formulario a un objeto conectado desde Workfront Planning y realizar una de las siguientes acciones:
+   Ahora puede adjuntar el formulario a un objeto conectado desde Planificación de Workfront y realizar una de las siguientes acciones:
 
-   * Ver los tipos de registros de Workfront Planning conectados al objeto de Workfront, si los hay.
+   * Ver los tipos de registros de Planificación de Workfront conectados al objeto de Workfront, si los hay.
    * Conecte o desconecte registros del objeto de Workfront.
 
    Para obtener más información, consulte [Administrar conexiones de registro desde objetos de Workfront](/help/quicksilver/planning/records/manage-records-in-planning-section.md)

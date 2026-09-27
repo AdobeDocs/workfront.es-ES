@@ -8,13 +8,20 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: c38e60dd-7fb2-4afc-976a-b0966398c162
-source-git-commit: 22e8acb748ddc4768dc1724aaa2f515b863ab0cf
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
 source-wordcount: '346'
 ht-degree: 11%
-
 ---
-
 # Cambios en la tasa push de los proyectos
 
 Cuando se adjunta una tarjeta de tarifas a un proyecto<!--or a staffing plan-->, las tarifas de la tarjeta de tarifas aún se pueden ajustar. A continuación, si lo desea, puede insertar esas tasas en los proyectos a los que está adjunta la tarjeta de tasas. Si no inserta las nuevas tasas, las tasas originales permanecerán en el proyecto.

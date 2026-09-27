@@ -7,13 +7,20 @@ description: Adobe Workfront permite enviar rápida y fácilmente mensajes que n
 author: Becky
 feature: People Teams and Groups
 exl-id: 82a1c304-176a-48c5-809d-40663ee768b7
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: 254442ca-6997-5cfa-963e-f420870aea53
+    internal-label: People Teams and Groups
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: '563'
-ht-degree: 45%
-
+source-wordcount: '567'
+ht-degree: 46%
 ---
-
 # Envío de mensajes directos a otros usuarios
 
 [!DNL Adobe Workfront] le permite enviar rápida y fácilmente mensajes que no están relacionados con ningún elemento de trabajo directamente a otros usuarios de [!DNL Workfront]. Los mensajes enviados como se describe en esta sección aparecen en la ficha [!UICONTROL Actualizaciones] de la página de perfil del usuario y son visibles para todos los usuarios. Para obtener información adicional sobre las actualizaciones, consulte [Actualizar elementos de trabajo y ver actualizaciones: índice de artículos](../../workfront-basics/updating-work-items-and-viewing-updates/update-work-items-and-view-updates.md).
@@ -34,7 +41,7 @@ El usuario al que envía el mensaje recibe los siguientes tipos de notificacione
  <col> 
  <tbody> 
   <tr> 
-   <td>paquete de Adobe Workfront</td> 
+   <td>Paquete de Adobe Workfront</td> 
    <td><p>Cualquiera</p></td> 
   </tr> 
   <tr> 
@@ -74,7 +81,7 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
    >La configuración de [!UICONTROL **Privado para mi compañía**] solo está disponible cuando su perfil de Workfront está asociado con una compañía.
 
 1. Haga clic en **[!UICONTROL Actualizar].**
-El mensaje se publica en la parte superior de la lista de mensajes en la pestaña **[!UICONTROL Actualizaciones]** de la página de perfil del usuario.
+El mensaje se publica en la parte superior de la lista de mensajes en la ficha **[!UICONTROL Actualizaciones]** de la página de perfil del usuario.
 
 ## Enviar un mensaje a uno o varios usuarios desde la lista de usuarios
 

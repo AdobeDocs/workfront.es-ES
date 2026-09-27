@@ -9,23 +9,28 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: c095ce9d-b189-449b-bd13-2633837697ed
-TQID: https://experienceleague.adobe.com/--8-vO2RCBBbSZ2gfFl5RurpGviyK7sW6NauyoHKFhE
+TQID: 'https://experienceleague.adobe.com/--8-vO2RCBBbSZ2gfFl5RurpGviyK7sW6NauyoHKFhE'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1402
-ht-degree: 79%
-
+source-wordcount: '1505'
+ht-degree: 80%
 ---
-
 # Escenario de Kick-Starts: preparación sencilla de importación de proyectos y tareas
 
 Describe en detalle la configuración y los controles disponibles para una importación básica de proyectos y tareas mediante el método Kick-Start.
@@ -310,10 +315,10 @@ Escriba los nombres de cada proyecto en la columna setName.
 
 * **Establecer números de tarea**
 Introduzca valores en la columna setTaskNumber para controlar el orden en que aparecerán las tareas en el plan del proyecto.
-* **Proporcionar fechas del proyecto.**
+* **Proporcione fechas del proyecto.**
 Introduzca la fecha planificada de inicio de cada proyecto en la columna setPlannedStartDate.
 * **Establecer otros detalles necesarios.**
-Complete otros detalles, como una descripción o el estado actual, según sea necesario. Busque los ID de grupo de cada proyecto en la hoja Grupo de grupo y escríbalos en la columna setGroupID de los proyectos respectivos. Busque el ID de compañía de los proyectos en la hoja Compañía de CMPY y escríbalo en la columna setCompanyID. Busque el ID de usuario de cada propietario de proyecto en la hoja de usuario USUARIO y escríbalo en la columna setOwnerID. Busque el ID de usuario para cada patrocinador del proyecto en la hoja de usuario USUARIO y escríbalo en la columna setSponsorID.
+Complete otros detalles, como una descripción o el estado actual, según sea necesario. Busque los ID de grupo de cada proyecto en la hoja Grupo GROUP y escríbalos en la columna setGroupID de los proyectos respectivos. Busque el ID de compañía de los proyectos en la hoja Compañía CMPY y escríbalo en la columna setCompanyID. Busque el ID de usuario de cada propietario de proyecto en la hoja usuario USER y escríbalo en la columna setOwnerID. Busque el ID de usuario para cada patrocinador del proyecto en la hoja de usuario USER y escríbalo en la columna setSponsorID.
 
 ![Establecer valores](assets/im9.png)
 
@@ -380,11 +385,11 @@ Establezca la duración de cada tarea introduciendo el número de horas, días, 
 
   En este caso, la forma más sencilla de crear las tareas para los demás proyectos que está importando es copiar las tareas que acaba de definir y pegarlas a continuación, a partir de la fila 12. A continuación, hará lo siguiente:
 
-   1. Vuelva a numerar los valores en la columna ID.
-   1. Actualice la columna setProjectID al valor establecido para el proyecto siguiente.
-   1. Actualice los valores setParentID y setPredecessorString para reflejar los nuevos identificadores asignados a las tareas de este proyecto.
-   1. Actualice las asignaciones de tareas y el porcentaje completado.
-   1. Repita estos pasos para las tareas del proyecto siguiente.
+  1. Vuelva a numerar los valores en la columna ID.
+  1. Actualice la columna setProjectID al valor establecido para el proyecto siguiente.
+  1. Actualice los valores setParentID y setPredecessorString para reflejar los nuevos identificadores asignados a las tareas de este proyecto.
+  1. Actualice las asignaciones de tareas y el porcentaje completado.
+  1. Repita estos pasos para las tareas del proyecto siguiente.
 
 * **Importar el archivo de Excel**
 

@@ -7,13 +7,20 @@ description: Convierta los portafolios de almacenamiento de Workfront heredados 
 author: Courtney
 feature: System Setup and Administration
 role: Admin
-source-git-commit: 1e6380b0422efdd98449ab1e74cadb4f330917f1
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
 source-wordcount: '358'
 ht-degree: 11%
-
 ---
-
 # Conversión de portafolios heredados al almacenamiento en la nube de Adobe
 
 Como administrador de Workfront, puede convertir portafolios de almacenamiento de Workfront heredados existentes a almacenamiento en la nube de Adobe desde el área Preferencias de almacenamiento en Preferencias del sistema. Después de convertir un portafolio, se comporta como cualquier otro portafolio de almacenamiento en la nube de Adobe.
