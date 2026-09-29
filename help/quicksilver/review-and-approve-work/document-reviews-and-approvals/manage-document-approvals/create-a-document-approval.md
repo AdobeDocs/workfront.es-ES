@@ -30,7 +30,7 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 42b9fa8715c8fdb3936e754289d4102947f2d83b
 workflow-type: tm+mt
 source-wordcount: '2878'
 ht-degree: 4%
@@ -112,9 +112,9 @@ Para crear un flujo de trabajo de aprobación de una sola etapa:
    <td>Empiece a escribir el nombre de un usuario o equipo que desee agregar como aprobador o revisor. Si solo tiene revisores, se les notificará y tendrán la opción de completar la revisión, pero no se requerirá ni se adoptará ninguna decisión.</td>
    </tr>
    <tr class="preview">
-   <td><span class="preview"><strong>Agregar personas o equipos en la vista previa</strong></span></td>
-   <td><span class="preview">Empiece a escribir el nombre de usuario, el equipo o la dirección de correo electrónico. El equipo se añade como un solo aprobador o revisión de forma predeterminada, pero puede elegir añadir a cada miembro del equipo como un participante individual. <br>
-   Nota: Si ya se ha agregado un usuario o pertenece a más de un equipo, se incluirá una vez.</span></td>
+   <td><strong><span class="preview">Agregar personas o equipos en la vista previa</span></strong></td>
+   <td><span class="preview">Empiece a escribir el nombre de usuario, el equipo o la dirección de correo electrónico. El equipo se agrega como un solo aprobador o revisión de forma predeterminada, pero puede elegir agregar cada miembro del equipo como un participante individual.</span>
+   <p><span class="preview">Nota: Si ya se ha agregado un usuario o pertenece a más de un equipo, se incluirá una vez.</span></p></td>
    </tr>
    <tr>
    <td><strong>Solo se requiere una decisión (opcional)</strong></td>
@@ -182,9 +182,9 @@ Para crear un flujo de trabajo de aprobación avanzado:
    <td>Empiece a escribir el nombre de un usuario o equipo que desee agregar como aprobador o revisor. Si solo tiene revisores, se les notificará y tendrán la opción de completar la revisión, pero no se requerirá ni se adoptará ninguna decisión.<p>Nota: Un revisor o aprobador solo puede asignarse a una fase abierta a la vez en el mismo recurso. Si se abren varias fases paralelas simultáneamente, no se puede agregar la misma persona a más de una.</p></td>
    </tr>
    <tr class="preview">
-   <td><span class="preview"><strong>Agregar personas o equipos en la vista previa</strong></span></td>
-   <td><span class="preview">Empiece a escribir el nombre de usuario, el equipo o la dirección de correo electrónico. El equipo se añade como un solo aprobador o revisión de forma predeterminada, pero puede elegir añadir a cada miembro del equipo como un participante individual. <br>
-   Nota: Si ya se ha agregado un usuario o pertenece a más de un equipo, se incluirá una vez. Además, los participantes solo pueden asignarse a una fase abierta a la vez en el mismo recurso.</span></td>
+   <td><strong><span class="preview">Agregar personas o equipos en la vista previa</span></strong></td>
+   <td><span class="preview">Empiece a escribir el nombre de usuario, el equipo o la dirección de correo electrónico. El equipo se agrega como un solo aprobador o revisión de forma predeterminada, pero puede elegir agregar cada miembro del equipo como un participante individual.</span>
+   <p><span class="preview">Nota: Si ya se ha agregado un usuario o pertenece a más de un equipo, se incluirá una vez. Además, los participantes solo pueden asignarse a una fase abierta a la vez en el mismo recurso.</span></p></td>
    </tr>
    <tr>
    <td><strong>Solo se requiere una decisión (opcional)</strong></td>
@@ -248,9 +248,9 @@ Para crear un flujo de trabajo de aprobación de una sola etapa:
    <td>Empiece a escribir el nombre de usuario o el correo electrónico que desea agregar como aprobador o revisor. Si solo tiene revisores, se les notificará y tendrán la opción de completar la revisión, pero no se requerirá ni se adoptará ninguna decisión.</td>
    </tr>
    <tr class="preview">
-   <td><span class="preview"><strong>Agregar personas o equipos en la vista previa</strong></span></td>
-   <td><span class="preview">Empiece a escribir el nombre de usuario, el equipo o la dirección de correo electrónico y, a continuación, elija si es un <strong>aprobador</strong> o <strong>revisor</strong>. Workfront agrega cada miembro activo de un equipo individualmente. <br>
-   Nota: Si ya se ha agregado un usuario o pertenece a más de un equipo, se incluirá una vez.</span></td>
+   <td><strong><span class="preview">Agregar personas o equipos en la vista previa</span></strong></td>
+   <td><span class="preview">Empiece a escribir el nombre de usuario, el equipo o la dirección de correo electrónico y, a continuación, elija si es un <strong>Aprobador</strong> o <strong>Revisor</strong>. Workfront agrega cada miembro activo de un equipo individualmente.</span>
+   <p><span class="preview">Nota: Si ya se ha agregado un usuario o pertenece a más de un equipo, se incluirá una vez.</span></p></td>
    </tr>
    <tr>
    <td><strong>Solo se requiere una decisión (opcional)</strong></td>
@@ -324,9 +324,9 @@ Para crear un flujo de trabajo de aprobación avanzado:
    <td>Empiece a escribir el nombre de usuario o el correo electrónico que desea agregar como aprobador o revisor. Si solo tiene revisores, se les notificará y tendrán la opción de completar la revisión, pero no se requerirá ni se adoptará ninguna decisión.<p>Nota: Un revisor o aprobador solo puede asignarse a una fase abierta a la vez en el mismo recurso. Si se abren varias fases paralelas simultáneamente, no se puede agregar la misma persona a más de una.</p></td>
    </tr>
    <tr class="preview">
-   <td><span class="preview"><strong>Agregar personas o equipos en la vista previa</strong></span></td>
-   <td><span class="preview">Empiece a escribir el nombre de usuario, el equipo o la dirección de correo electrónico y, a continuación, elija si es un <strong>aprobador</strong> o <strong>revisor</strong>. Workfront agrega cada miembro activo de un equipo individualmente. <br>
-   Nota: Si ya se ha agregado un usuario o pertenece a más de un equipo, se incluirá una vez. Además, los participantes solo pueden asignarse a una fase abierta a la vez en el mismo recurso.</span></td>
+   <td><strong><span class="preview">Agregar personas o equipos en la vista previa</span></strong></td>
+   <td><span class="preview">Empiece a escribir el nombre de usuario, el equipo o la dirección de correo electrónico y, a continuación, elija si es un <strong>Aprobador</strong> o <strong>Revisor</strong>. Workfront agrega cada miembro activo de un equipo individualmente.</span>
+   <p><span class="preview">Nota: Si ya se ha agregado un usuario o pertenece a más de un equipo, se incluirá una vez. Además, los participantes solo pueden asignarse a una fase abierta a la vez en el mismo recurso.</span></p></td>
    </tr>
    <tr>
    <td><strong>Solo se requiere una decisión (opcional)</strong></td>
