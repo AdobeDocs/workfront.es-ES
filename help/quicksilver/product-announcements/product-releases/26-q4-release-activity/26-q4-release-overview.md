@@ -13,9 +13,9 @@ feature_v2:
 subfeature_v2:
   - id: a29813d3-f0cc-4b60-9396-13b558370803
     internal-label: Product announcements
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 1ee0f2de61c518fc608a03045339ac9c50afc7f9
 workflow-type: tm+mt
-source-wordcount: '2877'
+source-wordcount: '2863'
 ht-degree: 9%
 ---
 # Resumen de la versión del cuarto trimestre de 2026
@@ -24,7 +24,7 @@ Esta página proporciona información sobre la funcionalidad que se incluye en l
 
 Las mejoras de esta página están disponibles en el entorno de vista previa. Esta página se actualizará con mejoras adicionales a medida que la versión del cuarto trimestre de 2026 se aproxime a su versión de producción planificada.
 
-Se celebran seminarios web en directo para cada versión trimestral, en los que se destacan las nuevas funciones y se proporciona información detallada. Para registrarse, visite la [página de eventos](https://experienceleague.adobe.com/es/events?filters=Workfront) y filtre por Workfront.
+Se celebran seminarios web en directo para cada versión trimestral, en los que se destacan las nuevas funciones y se proporciona información detallada. Para registrarse, visite la [página de eventos](https://experienceleague.adobe.com/en/events?filters=Workfront) y filtre por Workfront.
 
 >[!IMPORTANT]
 >
@@ -707,11 +707,11 @@ Para obtener información sobre cómo descargar y actualizar el Visor de correcc
 
 ## Anuncios
 
-### Obsolescencia de los campos de facturación y de tarifa de coste heredados
+### Obsolescencia de los campos de facturación y tasa de coste heredados en las vistas de lista de funciones del puesto
 
 Con el tiempo, hemos introducido funcionalidades mejoradas de administración de tarifas y experiencias de función de trabajo dedicadas que proporcionan un enfoque más completo y escalable para mantener la información de tarifas. Como resultado, la administración de tasas se está moviendo hacia estas experiencias dedicadas en lugar de flujos de trabajo de administración basados en listas.
 
-Con la versión de enero de 2027, los campos heredados **Facturación por hora** y **Costo por hora** ya no estarán disponibles en la API de Workfront ni en las vistas de lista de usuarios y funciones, incluidas las configuraciones de filtro/vista/agrupación (referencias directas y columnas calculadas en modo de texto).
+Con la versión de enero de 2027, los campos heredados **Facturación por hora** y **Costo por hora** ya no estarán disponibles en la API de Workfront ni en las vistas de lista de funciones, incluidas las configuraciones de filtro/vista/agrupación (referencias directas y columnas calculadas en modo de texto).
 
 Como reemplazo en los informes, puede usar el código de modo de texto recomendado (use `costRates` o `billingRates` según sea necesario):
 
@@ -724,15 +724,14 @@ Como reemplazo en los informes, puede usar el código de modo de texto recomenda
     valueformat=HTML
     &quot;
 
-Para administrar y revisar las tasas, utilice las experiencias de administración de tasas dedicadas:
+Para administrar y revisar las tasas de funciones del puesto, utilice las experiencias de administración de tasas dedicadas:
 
-* Acceda a las tasas de usuario directamente desde el perfil de usuario.
 * Acceda y administre las tasas de funciones directamente desde la página Función del puesto > Tasas.
-* Utilice los informes de tasas para revisar, analizar e informar sobre la información de tasas entre usuarios y roles.
+* Utilice los informes de tasas para revisar, analizar e informar sobre la información de tasas en los roles.
 
-No se requiere ninguna acción para prepararse para el cambio. Sin embargo, los administradores que actualmente muestran los campos **Facturación por hora** y **Costo por hora** en las vistas de lista de usuarios o roles deben actualizar sus flujos de trabajo para utilizar las experiencias de administración de tarifas recomendadas descritas anteriormente.
+No se requiere ninguna acción para prepararse para el cambio. Sin embargo, los administradores que actualmente muestran los campos **Facturación por hora** y **Costo por hora** en las vistas de la lista de roles deben actualizar sus flujos de trabajo para utilizar las experiencias de administración de tarifas recomendadas descritas anteriormente.
 
-Para obtener información sobre los roles y las tarifas de usuario, consulte [Crear y administrar los roles](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md) y [Editar el perfil de un usuario](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+Para obtener información sobre las tasas de rol, consulte [Crear y administrar roles](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
 
 ### La autenticación solo por contraseña para los usuarios del lector de Data Connect finaliza el 8 de agosto de 2026
 
@@ -742,7 +741,7 @@ Si es administrador de Workfront y tiene usuarios de lector de Data Connect que 
 
 Este cambio se anunció por primera vez en las notas de la versión de Workfront de abril de 2026 y este es el recordatorio final antes de la fecha límite. Asegúrese de que todos los usuarios de lectores afectados habiliten MFA antes del 8 de agosto de 2026 para evitar interrupciones en su acceso.
 
-Para obtener más información, consulte [Crear una cuenta de lector o una conexión para Snowflake](https://experienceleague.adobe.com/es/docs/workfront/using/reporting/data-lake/create-a-reader-account).
+Para obtener más información, consulte [Crear una cuenta de lector o una conexión para Snowflake](https://experienceleague.adobe.com/en/docs/workfront/using/reporting/data-lake/create-a-reader-account).
 
 ### Actualizaciones de aprendizaje
 
