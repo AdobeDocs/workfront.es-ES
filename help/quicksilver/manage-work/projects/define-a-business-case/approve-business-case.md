@@ -27,7 +27,7 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 17e85ce107b36aa62d7efb23b113e48324057803
+source-git-commit: f894d1715579ab66cc5acb03ceaae5d70a203519
 workflow-type: tm+mt
 source-wordcount: '682'
 ht-degree: 19%
@@ -150,9 +150,9 @@ Para generar un informe para los proyectos que están pendientes de la aprobaci�
 
    El estado del proyecto se cambia a **Rechazado** si se rechaza el caso empresarial.
 
-   >[!NOTE]
-   >
-   >No hay notificaciones que avisen al usuario que envió la aprobación del caso empresarial sobre si su solicitud de proyecto se aprobó o rechazó.
+>[!NOTE]
+>
+>No hay notificaciones que avisen al usuario que envió la aprobación del caso empresarial sobre si su solicitud de proyecto se aprobó o rechazó.
 
 ## Aprobar el caso empresarial accediendo a los proyectos solicitados en un portafolio
 

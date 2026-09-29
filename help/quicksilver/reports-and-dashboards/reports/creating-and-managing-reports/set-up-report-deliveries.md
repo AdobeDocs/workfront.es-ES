@@ -28,12 +28,14 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 8b59974fbec3c7ec33b2920889717cac56a6c778
 workflow-type: tm+mt
-source-wordcount: '1538'
-ht-degree: 26%
+source-wordcount: '1636'
+ht-degree: 25%
 ---
 # Información general sobre la entrega de informes
+
+{{highlighted-preview}}
 
 <!-- Audited: 11/2024 -->
 
@@ -58,6 +60,7 @@ Tenga en cuenta lo siguiente al programar informes para su envío:
 
 * Puede programar hasta 10 envíos repetidos de informes para cualquier informe determinado.
 * Puede programar la entrega de un informe solamente si es usted el creador del informe. Si necesita enviar un informe que no ha creado, puede enviarlo de forma manual.
+* <span class="preview">En la vista previa, cada envío de informe programado debe tener una fecha de finalización definida. Si una entrega se estableció anteriormente como Nunca, Workfront establece automáticamente la fecha de finalización en 13 meses a partir de la siguiente fecha en que se envíe el informe.</span>
 
 ## Límites de exportación
 
@@ -146,6 +149,7 @@ Cuando envía un informe desde Workfront, el usuario recibe un correo electróni
 * [Marca](#branding)
 * [Formato](#formatting)
 * [Vínculos](#links)
+* [Avisos de caducidad del informe](#report-expiration-notices)
 
 ### Línea de asunto, nombre del archivo adjunto y título del informe {#subject-line-attachment-name-and-report-title}
 
@@ -197,6 +201,18 @@ Para obtener más información sobre cómo seleccionar la ficha predeterminada d
 Al enviar un informe desde Workfront al formato de PDF o Excel, los vínculos de trabajo que existan en el documento original permanecerán activos en el archivo enviado. Los vínculos pueden dirigir a cualquier objeto de Workfront que admita la vinculación.
 
 El nombre del informe que aparece en el mensaje de correo electrónico también es un vínculo.
+
+<div class="preview">
+
+### Avisos de caducidad del informe {#report-expiration-notices}
+
+En la vista previa, los correos electrónicos de informe enviados incluyen la fecha de caducidad del informe.
+
+Si la entrega se repite diariamente, el correo electrónico incluye una advertencia de caducidad en cada entrega una vez que la fecha de caducidad esté dentro de los 45 días.
+
+Si la entrega se repite semanalmente o mensualmente, el correo electrónico incluye una advertencia de caducidad durante los últimos cuatro envíos programados antes de la fecha de caducidad.
+
+</div>
 
 ## Informes sobre informes programados
 
