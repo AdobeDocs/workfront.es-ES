@@ -8,24 +8,30 @@ exl-id: 60abb054-5cb0-4dd6-9091-c9dcd635a630
 TQID: https://experienceleague.adobe.com/DCLPGdt9b-7jkg7ajSbaRJRO968yAdetzVvOXpNI9nc
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
   - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+    internal-label: Projects
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 17e85ce107b36aa62d7efb23b113e48324057803
 workflow-type: tm+mt
-source-wordcount: 682
+source-wordcount: '682'
 ht-degree: 19%
-
 ---
-
 # Aprobación de un caso empresarial
 
 <!--Audit: 6/2025-->
@@ -138,15 +144,15 @@ Para generar un informe para los proyectos que están pendientes de la aprobaci�
 1. Haga clic en **Caso empresarial** en el panel de la izquierda.
 1. Haga clic en **Aprobar** o **Rechazar** en el área Resumen de caso comercial para aprobar o rechazar el caso comercial.
 
-<!-- ![Business case](assets/business-case-summary-with-rp-information--1-.png) -->
+   <!-- ![Business case](assets/business-case-summary-with-rp-information--1-.png) -->
 
-El estado del proyecto cambia a **Aprobado** si se aprueba el caso comercial.
+   El estado del proyecto cambia a **Aprobado** si se aprueba el caso comercial.
 
-El estado del proyecto se cambia a **Rechazado** si se rechaza el caso empresarial.
+   El estado del proyecto se cambia a **Rechazado** si se rechaza el caso empresarial.
 
->[!NOTE]
->
->No hay notificaciones que avisen al usuario que envió la aprobación del caso empresarial sobre si su solicitud de proyecto se aprobó o rechazó.
+   >[!NOTE]
+   >
+   >No hay notificaciones que avisen al usuario que envió la aprobación del caso empresarial sobre si su solicitud de proyecto se aprobó o rechazó.
 
 ## Aprobar el caso empresarial accediendo a los proyectos solicitados en un portafolio
 
