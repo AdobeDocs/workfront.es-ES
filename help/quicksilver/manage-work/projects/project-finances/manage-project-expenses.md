@@ -9,23 +9,28 @@ exl-id: 80c41b08-3618-4d6e-8d07-1736b2f824ea
 TQID: https://experienceleague.adobe.com/b6lcN97EhJ4bD8w12SRE9TGLycM9Y8Si8ZSm8VBlHlA
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
 subfeature_v2:
   - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
   - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+    internal-label: Projects
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 43ed208abe51a7172c0143fa6f838362edd913db
 workflow-type: tm+mt
-source-wordcount: 499
-ht-degree: 41%
-
+source-wordcount: '543'
+ht-degree: 37%
 ---
-
 # Administrar gastos del proyecto
 
 <!-- Audited: 6/2025 -->
@@ -54,11 +59,11 @@ La cantidad total de los gastos de todas las tareas y proyectos que contribuye a
   </tr> 
   <tr> 
    <td>Configuraciones de nivel de acceso</td> 
-   <td>Acceso de edición a proyectos y datos financieros</td> 
+   <td>Editar acceso a proyectos y tareas</td> 
   </tr> 
   <tr> 
    <td>Permisos de objeto</td> 
-   <td>Aportar o permisos superiores al proyecto, con permisos para Ver o Editar finanzas generales</td> 
+   <td><p>Para agregar gastos y editar o eliminar los gastos que ha creado: Contribuya o tenga permisos superiores al proyecto o la tarea, con permisos para Agregar gastos.</p><p>Para ver, editar o eliminar los gastos agregados por otros usuarios: Administrar permisos para el proyecto o la tarea, con permisos para Ver tasas de costo (para ver) o Editar tasas de costo (para editar o eliminar).</p></td> 
   </tr> 
  </tbody> 
 </table>
@@ -97,7 +102,7 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
 
 ## Eliminar gastos
 
-1. Vaya al proyecto para el que desea eliminar un gasto.
+1. Vaya al proyecto o tarea para el que desea eliminar un gasto.
 1. Haga clic en **Gastos** en el panel izquierdo.
 1. Seleccione el gasto que desea eliminar y luego haga clic en el icono **Eliminar** ![Eliminar](assets/delete.png).
 1. En el diálogo **Eliminar gasto**, haga clic en **Sí, eliminarlo**.
