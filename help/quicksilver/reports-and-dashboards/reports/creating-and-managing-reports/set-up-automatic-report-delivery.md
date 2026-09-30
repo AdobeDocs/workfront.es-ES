@@ -27,12 +27,14 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: b55b05885b54620c11225648dd44c75891e388ab
 workflow-type: tm+mt
-source-wordcount: '1298'
-ht-degree: 64%
+source-wordcount: '1404'
+ht-degree: 59%
 ---
 # Programar una entrega automática de informes
+
+{{highlighted-preview}}
 
 <!-- Audited: 4/2025 -->
 
@@ -112,7 +114,7 @@ Para programar un informe para su envío automático:&#x200B;
     <tbody> 
      <tr> 
       <td role="rowheader"> <p>Enviar a</p> </td> 
-      <td> <p>Empiece escribiendo el nombre del usuario, grupo, equipo o rol al que desea enviar el informe y, a continuación, haga clic sobre el nombre cuando aparezca en la lista.</p> <p>O</p> <p>Introduzca la dirección de correo electrónico de una persona externa al sistema de Workfront a la que desea que tenga acceso al informe.</p> <p>Repita este proceso para enviar el informe a varios usuarios, grupos, equipos o roles.</p> <p>Nota:  <p>Tenga en cuenta lo siguiente al añadir destinatarios de envío de informes:</p> 
+      <td> <p>Empiece escribiendo el nombre del usuario, grupo, equipo o función al que desea enviar el informe y, a continuación, haga clic sobre el nombre cuando aparezca en la lista.</p> <p>O</p> <p>Introduzca la dirección de correo electrónico de una persona externa al sistema de Workfront a la que desea que tenga acceso al informe.</p> <p>Repita este proceso para enviar el informe a varios usuarios, grupos, equipos o roles.</p> <p>Nota:  <p>Tenga en cuenta lo siguiente al añadir destinatarios de envío de informes:</p> 
         <ul> 
          <li><p>Si su organización restringe las notificaciones de Workfront a dominios de correo electrónico específicos, es posible que solo pueda enviar informes a las direcciones de correo electrónico que aparecen en la lista de permitidos de correo electrónico.</p> <p>Por ejemplo, cuando un usuario se establece como destinatario del informe y tiene una dirección de correo electrónico anteriormente permitida y la lista de permitidos se actualiza para que ya no envíe correos electrónicos a ese dominio, el usuario ya no recibirá informes enviados.</p><p>Para obtener información sobre cómo un administrador de Workfront actualiza la lista de permitidos de correo electrónico, consulte la sección <a href="../../../administration-and-setup/get-started-wf-administration/configure-your-email-allowlist.md#configur" class="MCXref xref">Configuración la lista de permitidos por correo electrónico</a>.</p></li> 
          <li> <p>Añadir un gran número de usuarios como destinatarios puede provocar errores en la entrega. Si se producen errores en las entregas, se pueden programar varios envíos de informes con grupos de usuarios más pequeños.</p> </li> 
@@ -150,7 +152,7 @@ Para programar un informe para su envío automático:&#x200B;
      </tr> 
      <tr> 
       <td role="rowheader"> <p>Se repite</p> </td> 
-      <td> <p>Seleccione si el informe debe entregarse diaria, semanal, mensual o anualmente.</p> </td> 
+      <td> <p>Seleccione si el informe debe entregarse diaria, semanal, mensual o anualmente. <span class="preview">En Vista previa, seleccione si el informe debe entregarse diariamente, semanalmente o mensualmente.</span></p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>Se repite cada</p> </td> 
@@ -174,11 +176,15 @@ Para programar un informe para su envío automático:&#x200B;
      </tr> 
      <tr> 
       <td role="rowheader"> <p>Finaliza el</p> </td> 
-      <td>Seleccione la fecha de finalización de la entrega programada.</td> 
+      <td><p>Seleccione la fecha de finalización de la entrega programada.</p> <p class="preview">En Vista previa, seleccione una fecha para que finalice la entrega programada.</p> <p class="preview">Nota: La fecha de finalización no puede ser superior a 13 meses desde el día en que se crea o actualiza la regla de entrega.</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>Nunca</p> </td> 
-      <td>Seleccione <strong>Nunca</strong> si desea que la entrega programada dure indefinidamente.</td> 
+      <td><p>Seleccione <strong>Nunca</strong> si desea que la entrega programada dure indefinidamente.</p> <p class="preview">Esta opción ya no está disponible en los entornos de vista previa o de lanzamiento rápido.</p></td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader"><div class="preview"><p>Activo</p></div></td> 
+      <td><div class="preview"><p>Active esta opción para mantener este envío activo. Los nuevos envíos están activos de forma predeterminada.</p> <p>Cuando pasa la fecha <strong>Finaliza el </strong>, Workfront desactiva automáticamente esta opción y la deshabilita. Para reanudar el envío, actualice la fecha <strong>Finaliza el </strong> a una fecha futura y, a continuación, vuelva a activar la opción.</p></div></td> 
      </tr> 
     </tbody> 
    </table>
