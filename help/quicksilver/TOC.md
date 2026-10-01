@@ -3,9 +3,9 @@ user-guide-title: Guía de Workfront
 user-guide-description: Utilice los siguientes documentos, tutoriales y recursos adicionales para aprender a implementar y utilizar Adobe Workfront de forma eficaz en su organización.
 role: User
 feature-set: Workfront
-source-git-commit: bc354886dc8c2f1dae24513f1d74e800e19fb3ab
+source-git-commit: 3cf7495f827156fabac1214b38a104ed826d558c
 workflow-type: tm+mt
-source-wordcount: '14588'
+source-wordcount: '14593'
 ht-degree: 92%
 ---
 # Guía de Workfront {#using}
@@ -1324,6 +1324,7 @@ ht-degree: 92%
       * [Comprender las métricas del proyecto](manage-work/projects/manage-projects/project-metrics.md)
       * [Información general de los límites del proyecto](manage-work/projects/manage-projects/project-maximums.md)
       * [Resumir actualizaciones con el asistente de IA](/help/quicksilver/manage-work/projects/manage-projects/summarize-projects-ai-assistant.md)
+      * {hide-from-toc}[Usar el colaborador del coordinador del proyecto](/help/quicksilver/manage-work/projects/manage-projects/use-project-coordinator.md)
       * [Información general sobre la administración de documentos para proyectos y objetos relacionados](manage-work/projects/manage-projects/manage-documents-on-projects.md)
     * Crear y administrar plantillas de proyecto {#create-and-manage-project-templates}
       * [Crear y administrar plantillas de proyecto: índice de artículos](manage-work/projects/create-and-manage-templates/create-manage-templates.md)
@@ -1431,7 +1432,7 @@ ht-degree: 92%
       * [Asignar tareas](manage-work/tasks/assign-tasks/assign-tasks-1.md)
       * [Asignar tareas](manage-work/tasks/assign-tasks/assign-tasks.md)
       * [Crear asignaciones avanzadas](manage-work/tasks/assign-tasks/create-advanced-assignments.md)
-      * [Uso de colaboradores de tareas](manage-work/tasks/assign-tasks/use-task-collaborators.md)
+      * [Usar agentes de trabajo](manage-work/tasks/assign-tasks/use-task-collaborators.md)
       * [Información general sobre las asignaciones inteligentes](manage-work/tasks/assign-tasks/smart-assignments.md)
       * [Información general sobre la modificación de asignaciones de tareas](manage-work/tasks/assign-tasks/modify-task-assignments-overview.md)
       * [Modificar varias asignaciones de usuario en una lista de tareas](manage-work/tasks/assign-tasks/modify-multiple-assignments-in-task-list.md)
@@ -2663,7 +2664,7 @@ ht-degree: 92%
     * [Configure y utilice las aplicaciones OAuth 2 personalizadas de la organización mediante el flujo JWT](wf-api/api/oauth-app-jwt-flow.md)
     * [Configure y utilice las aplicaciones OAuth 2 personalizadas de su organización mediante el flujo PKCE](wf-api/api/oauth-app-pkce-flow.md)
     * [Obsolescencia de la API interna](wf-api/api/deprecation-api-internal.md)
-    * [Novedades de la versión 22 de la API](/help/quicksilver/wf-api/api/new-api-version-22.md)
+    * [Novedades de la versión 22](/help/quicksilver/wf-api/api/new-api-version-22.md) de la API
     * [Novedades de la versión 21 de la API](/help/quicksilver/wf-api/api/new-api-version-21.md)
     * [Novedades de la versión 20 de la API](/help/quicksilver/wf-api/api/new-api-version-20.md)
     * [Novedades de la versión 19 de la API](wf-api/api/new-api-version-19.md)
