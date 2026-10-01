@@ -28,10 +28,10 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 3e114bf3c8ab947437325eebfb8acd8931192d9a
+source-git-commit: cc47859cfb1dc1946050ba679b2678ccb9408223
 workflow-type: tm+mt
-source-wordcount: '4045'
-ht-degree: 49%
+source-wordcount: '3630'
+ht-degree: 52%
 ---
 # Administrar la vista de tabla
 
@@ -331,10 +331,10 @@ Puede añadir hasta 500 campos (o columnas) en una vista de tabla.
    * **MAX**: muestra el valor más alto de todas las celdas de la columna.
    * **AVG**: Muestra el valor promedio de todas las celdas de la columna.
 
-   <!-- 
+   <!--    
     <div class="preview"> 
 
-    * **NONE**: The values of the column are not aggregated. This is the default option. 
+    * **NONE**: The values of the column are not aggregated.This is the default option. 
     
     </div> 
     -->
@@ -398,69 +398,70 @@ At preview release, replace the last procedure step with this:
         * Record ID
     * Formula fields and look up fields have the aggregators that correspond to their field format. 
 
-    </div>
-    -->
+    </div> 
 
-### Añadir filas (o registros) {#add-rows-1}
+### Add rows (or records) {#add-rows-1}
 
-Las filas de una vista de tabla muestran registros individuales del tipo de registro seleccionado. Añadir filas es idéntico a crear registros.
+The rows of a table view display individual records of the selected record type. Adding rows is identical to creating records. 
 
-Puede tener hasta 50 000 registros (o filas) para un tipo de registro.
+You can have up to 50,000 records (or rows) for a record type. 
 
-1. Vaya a una página de tipo de registro y seleccione una vista de tabla, o haga clic en **+ Ver** para agregar una vista nueva y, a continuación, elija **Tabla**.
+1. Go to a record type page and select a table view, or click **+ View** to add a new view, then choose **Table**. 
 
-1. Empiece a añadir registros (o filas), tal como se describe en el artículo [Crear registros](/help/quicksilver/planning/records/create-records.md).
+1. Start adding records (or rows), as described in the article [Create records](/help/quicksilver/planning/records/create-records.md). 
 
-   Los registros que añada a la vista de tabla se guardarán inmediatamente y serán visibles para todos los usuarios que tengan permisos de vista o superiores sobre el área de trabajo.
+    The records you add in the table view are saved immediately and are visible to all users who have View or higher permissions to the workspace. 
 
-   También se agregarán al nuevo registro una imagen en miniatura predeterminada <span class="preview">y un color</span>.
+    A default thumbnail image <span class="preview">and color</span> are also added to the new record.
 
-   >[!TIP]
-   >
-   ><span class="preview">Cuando un registro tiene comentarios sin leer, aparece el indicador **Nuevo comentario** en la esquina superior derecha del campo principal del registro.</span>
-   >
-   >![Nuevo icono de comentario en la vista de tabla](assets/new-comment-icon-in-table-view-highlighted.png)
+    >[!TIP]
+    >
+    ><span class="preview">When a record has unread comments, a **New comment** indicator displays in the upper-right corner of the record's primary field.</span>
+    >
+    >![New comment icon in table view](assets/new-comment-icon-in-table-view-highlighted.png)
+    
+1. (Optional) Select one or multiple records or rows, then drag and drop the **handle** icon ![Handle icon](assets/handle-icon.png) to the left of the record to reorder the rows. 
 
-1. (Opcional) Seleccione uno o varios registros o filas y, a continuación, arrastre y suelte el icono **controlador** ![Icono de controlador](assets/handle-icon.png) a la izquierda del registro para reordenar las filas.
+    >[!NOTE]
+    >
+    >You cannot reorder rows if you apply at least one sort or grouping to the table view. 
+    >
+    >The changes you make to the row order are visible to all users who access the record type in the same view. 
+    >
+    ><span class="preview">In the drag and drop line, a number indicator displays the number of records selected, if more than one. </span>
 
-   >[!NOTE]
-   >
-   >No puede reordenar filas si aplica al menos una ordenación o agrupación a la vista de tabla.
-   >
-   >Los cambios realizados en el orden de filas son visibles para todos los usuarios que acceden al tipo de registro en la misma vista.
-   >
-   ><span class="preview">En la línea de arrastre y suelte, un indicador de número muestra el número de registros seleccionados, si hay más de uno. </span>
+1. (Optional) Click the **More** menu ![More menu](assets/more-menu.png) to the right of the record, then click **Edit thumbnail** to edit the thumbnail. 
+1. Click **Fields** at the top of the table in the Production environment
 
-1. (Opcional) Haga clic en el menú **Más** ![Menú más](assets/more-menu.png) que se encuentra a la derecha del registro y, a continuación, haga clic en **Editar miniatura** para editar la miniatura.
-1. Haga clic en **Campos** en la parte superior de la tabla en el entorno de producción
+    Or 
+    
+    <span class="preview">Hover over the primary field header</span>, then select the toggle for the **Thumbnail** field to display it to the left of the primary field. It is deselected by default. 
 
-   O
+    For information, see [Add a thumbnail to a record](/help/quicksilver/planning/records/add-thumbnails-to-records.md).
 
-   <span class="preview">Pase el ratón sobre el encabezado del campo principal</span> y, a continuación, seleccione la opción del campo **Miniatura** para mostrarlo a la izquierda del campo principal. De forma predeterminada, no está seleccionado.
+1. <span class="preview">Click **Fields** at the top of the table</span>
+   
+   Or 
+   <span class="preview">Hover over the primary field header, then select the toggle for the **Color** field to display it to the left of the primary field. It is deselected by default. </span>
 
-   Para obtener más información, consulte [Añadir una miniatura a un registro](/help/quicksilver/planning/records/add-thumbnails-to-records.md).
-
-1. <span class="preview">Haga clic en **Campos** en la parte superior de la tabla</span>
-
-   O
-   <span class="preview">Pase el ratón sobre el encabezado del campo principal y, a continuación, seleccione la opción del campo **Color** para mostrarlo a la izquierda del campo principal. De forma predeterminada, no está seleccionada. </span>
-
-1. <span class="preview"> (opcional y condicional) Si activó la opción **Color**, haga clic en la barra de color a la izquierda del campo principal del registro, seleccione un color de las fichas **Muestras** o **Personalizadas** y, a continuación, haga clic fuera del cuadro para cerrarlo. El color se aplica inmediatamente.</span>
+1. <span class="preview"> (Optional and conditional) If you turned on the **Color** setting, click the color bar to the left of the record's primary field and select a color from the **Swatches** or **Custom** tabs, then click outside the box to close it. The color is applied immediately.</span>
 
 <div class="preview">
 
-![Cuadro selector de color con codificación de color de registro](assets/color-picker-for-record-color-coding.png)
+![Record color coding color picker box](assets/color-picker-for-record-color-coding.png)
 
-Para obtener más información, consulte [Creación de registros](/help/quicksilver/planning/records/create-records.md).
+For more information, see [Create records](/help/quicksilver/planning/records/create-records.md).
 
 </div>
 
 
-### Añadir filtros {#add-filters-1}
+### Add filters {#add-filters-1}
 
-Los filtros le ayudan a reducir la cantidad de información que se muestra en la pantalla.
+Filters help you reduce the amount of information displayed on the screen.
 
-Tenga en cuenta lo siguiente cuando utilice filtros en la vista de tabla:
+Consider the following when working with filters in the table view: 
+
+-->
 
 <!-- this list is almost identical to the one for the table view - update both-->
 
@@ -666,7 +667,7 @@ Tenga en cuenta lo siguiente:
 
 * Es posible aplicar agrupaciones tanto en las vistas de tabla como de cronología. Las agrupaciones de la vista de tabla son independientes de las de la vista de cronología del mismo tipo de registro.
 * Se pueden aplicar 3 niveles de agrupación en una vista. Los registros se agrupan en el orden de agrupaciones que se seleccione.
-&lt;!—!—**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;*** * Puede aplicar hasta 4 niveles de agrupación al utilizar la API. —comprobando este por ahora &#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**—>
+&lt;!—!—*************** * Puede aplicar hasta 4 niveles de agrupación al utilizar la API. —comprobando este por ahora ******************—>
 * Las agrupaciones son únicas para la vista que se seleccione. Dos vistas de tabla del mismo tipo de registro pueden tener diferentes agrupaciones aplicadas. Dos usuarios que vean la misma vista de tabla verán la misma agrupación que se aplique en ese momento.
 * No se puede asignar un nombre a las agrupaciones que se generen para una vista de tabla.
 * Al quitar las agrupaciones, se quitarán de cualquier usuario que tenga acceso al mismo tipo de registro y que muestre la misma vista que usted.
