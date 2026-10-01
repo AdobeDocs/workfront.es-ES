@@ -32,13 +32,13 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 284f02c34a04b176c60f50443b9f03b789d8416d
 workflow-type: tm+mt
-source-wordcount: '5561'
-ht-degree: 47%
+source-wordcount: '5636'
+ht-degree: 46%
 ---
 <!--
-Should the structure of this article be like this other one: https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/customize/custom-forms/custom-form-builder/use-the-custom-form-builder/add-a-custom-field-to-a-custom-form.html?lang=es ??
+Should the structure of this article be like this other one: https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/customize/custom-forms/custom-form-builder/use-the-custom-form-builder/add-a-custom-field-to-a-custom-form.html?lang=en ??
 -->
 
 <!--
@@ -301,6 +301,17 @@ Para obtener más información, consulte [Importar campos de Workfront](/help/qu
     -->
 
 1. Siga añadiendo cada campo, tal como se describe en las secciones siguientes.
+1. (Opcional y condicional) Después de agregar un campo, pase el ratón sobre el nombre del campo en el encabezado de columna de la vista de tabla y haga clic en el menú desplegable **Más**; a continuación, seleccione **Editar campo** para editar el campo.
+
+   Para obtener más información, consulte [Editar campos](/help/quicksilver/planning/fields/edit-fields.md).
+1. (Opcional y condicional) Después de agregar un campo, pase el ratón sobre el nombre del campo en el encabezado de columna de la vista de tabla y haga clic en el menú desplegable **Más**, a continuación, **Eliminar** para eliminar el campo.
+
+   Para obtener más información, consulte [Eliminar campos](/help/quicksilver/planning/fields/delete-fields.md).
+<!--
+1. <span class="preview">(Optional and conditional) After you add a field, hover over the field name in the table view column header and click the **More** drop-down menu, then **Share field** to share the field. </span>
+
+    </span>For information, see [Share fields](/help/quicksilver/planning/access/share-fields.md). </span>
+-->
 
 1. <span class="preview"> (opcional y condicional) Después de agregar un campo, pase el ratón sobre el nombre del campo en el encabezado de columna de la vista de tabla y haga clic en el menú desplegable **Más**; a continuación, **Compartir campo** para compartir el campo. </span>
 
@@ -634,7 +645,7 @@ Para obtener más información, consulte [Información general sobre campos de f
    >
    >* Puede hacer referencia a un campo que esté hasta 4 campos (y objetos) fuera del tipo de registro actual. Por ejemplo, si está creando un campo de fórmula para un tipo de registro Actividad (1) y la actividad está conectada al tipo de registro Campaña (2) que está conectado a un proyecto Workfront (3), puede hacer referencia al campo Presupuesto del proyecto (4) en la fórmula que está creando para el tipo de registro Actividad.
    >
-   >![Se quitaron cuatro campos del presupuesto del proyecto de ejemplo de fórmula &#x200B;](assets/formula-example-project-budget-four-fields-removed.png)
+   >![Se quitaron cuatro campos del presupuesto del proyecto de ejemplo de fórmula ](assets/formula-example-project-budget-four-fields-removed.png)
    >
 
 1. (Opcional) Haga clic en **Maximizar** para abrir el cuadro Fórmula en un área más grande.
