@@ -18,9 +18,9 @@ subfeature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 3934b1b333f86c8c700617871bfaac23d2b19213
+source-git-commit: a51e0a56d4a45794b2d9d1097ec14ff46a6b3065
 workflow-type: tm+mt
-source-wordcount: '2783'
+source-wordcount: '3139'
 ht-degree: 2%
 ---
 # Actividad de la versión del cuarto trimestre de 2026 para Adobe Workfront Planning
@@ -28,6 +28,86 @@ ht-degree: 2%
 Este artículo describe las funciones que se lanzarán para Workfront Planning durante la versión del cuarto trimestre de 2026.
 
 Para obtener una lista de todas las características publicadas para Adobe Workfront Planning, consulte [Actividad de la versión de Adobe Workfront Planning: índice de artículo](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
+
+<!--
+
+## See the total record count in table views
+
+>[!NOTE]
+>
+>Preview: October 1, 2026
+>Production fast release: October 14, 2026
+>Production for everyone: October 15, 2026
+
+The table view now shows the total number of records, with no setup required, and the count updates automatically as you apply filters, search, or change the view.
+
+The record count always reflects your full filtered results, not just the rows on screen, and respects your permissions so you only count records you can access.
+
+For information, see [Manage the table view](/help/quicksilver/planning/views/manage-the-table-view.md).
+
+-->
+
+## Etiquetas de operador de filtro más claras para campos de varios valores
+
+>[!NOTE]
+>
+>Vista previa: 1 de octubre de 2026
+>Versión rápida de producción: 14 de octubre de 2026
+>Producción para todos: 15 de octubre de 2026
+
+Los operadores de filtros de varios valores en todas las vistas de Planning se han actualizado a &quot;Es cualquiera de&quot; y &quot;No es ninguno de&quot; en lugar de &quot;Tiene cualquiera de&quot; y &quot;No tiene ninguno de&quot;, lo que le ofrece una redacción más clara y coherente en los generadores de filtros de Workfront.
+
+Esta es una actualización solo de etiqueta. Los filtros existentes se migran automáticamente y siguen comportándose exactamente como antes.
+
+Los cambios son visibles en los filtros de todas las vistas de Planning. Para obtener más información, consulte [Administrar la vista de tabla](/help/quicksilver/planning/views/manage-the-table-view.md).
+
+## Adición de agregadores para campos no numéricos en la vista de tabla
+
+>[!NOTE]
+>
+>Vista previa: 1 de octubre de 2026
+>Versión rápida de producción: 14 de octubre de 2026
+>Producción para todos: 15 de octubre de 2026
+
+Hemos introducido acumuladores para tipos de campo adicionales en la vista de tabla. Antes de esta mejora, solo los campos relacionados con números mostraban acumuladores en la parte inferior de las columnas.
+
+Los acumuladores difieren según el tipo de campo:
+
+* Campos de texto, selección, casilla de verificación y personas: NINGUNO, VACÍO, NO VACÍO
+* Campos de fecha: NINGUNO, MAX, MÍN
+* Campos de fórmula: acumuladores correspondientes a su formato
+
+Se ha agregado NONE a los tipos de campo relacionados con números y NONE es el valor predeterminado para todos los tipos de campo.
+
+No se admiten los acumuladores para los siguientes campos del sistema: Creado por, Última modificación por e ID de registro.
+
+Para obtener más información, consulte [Administrar la vista de tabla](/help/quicksilver/planning/views/manage-the-table-view.md).
+
+## Cambiar el propietario de un espacio de trabajo
+
+>[!NOTE]
+>
+>Vista previa: 1 de octubre de 2026
+>Versión rápida de producción: 14 de octubre de 2026
+>Producción para todos: 15 de octubre de 2026
+
+Los creadores de Workspace están asignados como propietarios predeterminados. Con esta actualización, los administradores de espacio de trabajo pueden transferir la propiedad a otro usuario con licencia estándar desde el cuadro de diálogo de uso compartido.
+
+El nuevo propietario se resalta como propietario del espacio de trabajo en la lista de uso compartido y en el inicio de Planning, mientras que el propietario anterior conserva el acceso de Administración al espacio de trabajo.
+
+Para obtener más información, vea [Compartir espacios de trabajo](/help/quicksilver/planning/access/share-workspaces.md).
+
+## Ordenar registros y agrupaciones en la vista de escala de tiempo
+
+>[!NOTE]
+>
+>Vista previa: 1 de octubre de 2026
+>Versión rápida de producción: 14 de octubre de 2026
+>Producción para todos: 15 de octubre de 2026
+
+Ahora puede ordenar registros y agrupaciones en la vista de escala de tiempo. Antes de esta mejora, esta funcionalidad no estaba disponible.
+
+Para obtener más información, consulte [Administrar la vista de cronología](/help/quicksilver/planning/views/manage-the-timeline-view.md).
 
 ## Uso compartido de campos en Workfront Planning
 
