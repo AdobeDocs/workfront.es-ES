@@ -34,10 +34,10 @@ topic_v2:
     internal-label: Optimization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 66ec381c7f0dec9a382bd9a23e6691d38c5595e7
 workflow-type: tm+mt
-source-wordcount: '1230'
-ht-degree: 45%
+source-wordcount: '1259'
+ht-degree: 44%
 ---
 # Personalizar el panel izquierdo con una plantilla de diseño
 
@@ -112,7 +112,7 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
      <tr> 
       <td>[!UICONTROL Project]</td> 
       <td>El nombre de un proyecto</td> 
-      <td>[!UICONTROL Tareas], [!UICONTROL Detalles del proyecto], [!UICONTROL Caso comercial], [!UICONTROL Actualizaciones], [!UICONTROL Documentos], [!UICONTROL Problemas], [!UICONTROL Riesgos], [!UICONTROL Aprobaciones], [!UICONTROL Líneas bases], [!UICONTROL Tasas de facturación], [!UICONTROL Recurso de facturación], [!UICONTROL Registros de facturación], [!UICONTROL Gastos], [!UICONTROL Horas], [!UICONTROL Distribuidor de cargas], [!UICONTROL People], [!UICONTROL Utilización], [!UICONTROL Detalles de cola], [!UICONTROL Reglas de enrutamiento], [!UICONTROL Tema de cola], [!UICONTROL Grupo de temas], [!UICONTROL Métricas], [!UICONTROL Planificación]*, [!UICONTROL Aplicación personalizada]**</td> 
+      <td>[!UICONTROL Tareas], [!UICONTROL Detalles del proyecto], [!UICONTROL Caso comercial], [!UICONTROL Actualizaciones], [!UICONTROL Documentos], [!UICONTROL Problemas], [!UICONTROL Riesgos], [!UICONTROL Aprobaciones], [!UICONTROL Líneas bases], [!UICONTROL Tasas de facturación], [!UICONTROL Recurso de facturación], [!UICONTROL Registros de facturación], [!UICONTROL Gastos], [!UICONTROL Horas], [!UICONTROL Distribuidor de cargas], [!UICONTROL [!UICONTROL People], [!UICONTROL Utilización], [!UICONTROL Detalles de cola], [!UICONTROL Reglas de enrutamiento], [!UICONTROL Tema de cola], [!UICONTROL Grupo de temas], [!UICONTROL Métricas], [!UICONTROL Planificación]*, [!UICONTROL Aplicación personalizada]**</td> 
      </tr> 
      <tr> 
       <td>[!UICONTROL Task]</td> 
@@ -158,12 +158,12 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
      </tr> 
      <tr> 
       <td>[!UICONTROL Projects]</td> 
-      <td>Proyectos en el menú principal de  <img src="assets/main-menu-icon-left-nav.png"></td> 
+      <td>Proyectos en el menú principal de [!UICONTROL] <img src="assets/main-menu-icon-left-nav.png"></td> 
       <td>[!UICONTROL Projects]</td> 
      </tr> 
      <tr> 
       <td>[!UICONTROL Recursos]</td> 
-      <td>[!UICONTROL Recursos] en el menú principal de  <img src="assets/main-menu-icon-left-nav.png"></td> 
+      <td>[!UICONTROL Recursos] en el menú principal de [!UICONTROL] <img src="assets/main-menu-icon-left-nav.png"></td> 
       <td>[!UICONTROL Planificador] (no se puede ocultar), [!UICONTROL Distribuidor de cargas de trabajo], [!UICONTROL Utilización], [!UICONTROL Conjuntos de recursos]</td> 
      </tr> 
      <tr> 
@@ -237,6 +237,8 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
 
    * Haga clic en los iconos **Mostrar** ![Mostrar icono](assets/add-secondary-nav-item.png) o **Ocultar** ![Ocultar icono](assets/delete-secondary-nav-item.png) para mostrar u ocultar secciones en el panel izquierdo. No puede ocultar elementos que no tengan los iconos **Mostrar** o **Ocultar**.
 
+     Cada área o tipo de objeto debe tener al menos una sección en el panel izquierdo. Si todos los demás elementos están ocultos, no puede ocultar el último elemento restante.
+
    * Arrastre los elementos ![Icono de mover](assets/move-icon---dots.png) para cambiar su orden en el panel izquierdo.
 
    >[!NOTE]
@@ -247,7 +249,7 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
    >* [!UICONTROL Inicio]
    >* [!UICONTROL Marca]
    > 
-   >Para obtener información sobre cómo personalizar las áreas adicionales, consulte los siguientes artículos:
+   >Para obtener información sobre cómo personalizar estas áreas adicionales, consulte los siguientes artículos:
    >
    >* [Personalizar filtros, vistas y agrupaciones mediante una plantilla de diseño](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
    >* [Personalizar el [!UICONTROL panel de resumen] mediante una plantilla de diseño](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md)
