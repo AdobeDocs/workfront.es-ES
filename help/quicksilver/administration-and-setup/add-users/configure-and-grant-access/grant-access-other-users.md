@@ -20,9 +20,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 1dc0bdb90242129fc2097f029440efbcbd04b62c
 workflow-type: tm+mt
-source-wordcount: '900'
+source-wordcount: '912'
 ht-degree: 21%
 ---
 # Concesión de acceso a los usuarios
@@ -158,6 +158,10 @@ Puede administrar la información que los usuarios pueden ver y editar para otro
      <tr> 
       <td role="rowheader"><strong>Ver tarifas de costo</strong> </td> 
       <td> Permite a los usuarios ver las tasas de coste en los perfiles de usuario.</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader"><strong>Ver historial laboral</strong> </td> 
+      <td> Permite a los usuarios ver el historial laboral en los perfiles de usuario.</td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Ver finanzas generales</strong> </td> 

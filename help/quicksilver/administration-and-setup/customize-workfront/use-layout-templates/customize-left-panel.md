@@ -34,10 +34,10 @@ topic_v2:
     internal-label: Optimization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 66ec381c7f0dec9a382bd9a23e6691d38c5595e7
+source-git-commit: 1dc0bdb90242129fc2097f029440efbcbd04b62c
 workflow-type: tm+mt
-source-wordcount: '1259'
-ht-degree: 44%
+source-wordcount: '1262'
+ht-degree: 43%
 ---
 # Personalizar el panel izquierdo con una plantilla de diseño
 
@@ -112,7 +112,7 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
      <tr> 
       <td>[!UICONTROL Project]</td> 
       <td>El nombre de un proyecto</td> 
-      <td>[!UICONTROL Tareas], [!UICONTROL Detalles del proyecto], [!UICONTROL Caso comercial], [!UICONTROL Actualizaciones], [!UICONTROL Documentos], [!UICONTROL Problemas], [!UICONTROL Riesgos], [!UICONTROL Aprobaciones], [!UICONTROL Líneas bases], [!UICONTROL Tasas de facturación], [!UICONTROL Recurso de facturación], [!UICONTROL Registros de facturación], [!UICONTROL Gastos], [!UICONTROL Horas], [!UICONTROL Distribuidor de cargas], [!UICONTROL People], [!UICONTROL Utilización], [!UICONTROL Detalles de cola], [!UICONTROL Reglas de enrutamiento], [!UICONTROL Tema de cola], [!UICONTROL Grupo de temas], [!UICONTROL Métricas], [!UICONTROL Planificación]*, [!UICONTROL Aplicación personalizada]**</td> 
+      <td>[!UICONTROL Tareas], [!UICONTROL Detalles del proyecto], [!UICONTROL Caso comercial], [!UICONTROL Actualizaciones], [!UICONTROL Documentos], [!UICONTROL Problemas], [!UICONTROL Riesgos], [!UICONTROL Aprobaciones], [!UICONTROL Líneas bases], [!UICONTROL Tasas de facturación], [!UICONTROL Recurso de facturación], [!UICONTROL Registros de facturación], [!UICONTROL Gastos], [!UICONTROL Horas], [!UICONTROL Distribuidor de cargas], [!UICONTROL [!UICONTROL People], [!UICONTROL Utilización], [!UICONTROL Detalles de cola], [!UICONTROL Reglas de enrutamiento], [!UICONTROL Tema de cola], [!UICONTROL Grupo de temas], [!UICONTROL Métricas], [!UICONTROL Planificación]*, [!UICONTROL Aplicación personalizada]**</td> 
      </tr> 
      <tr> 
       <td>[!UICONTROL Task]</td> 
@@ -158,12 +158,12 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
      </tr> 
      <tr> 
       <td>[!UICONTROL Projects]</td> 
-      <td>Proyectos en el menú principal de  <img src="assets/main-menu-icon-left-nav.png"></td> 
+      <td>Proyectos en el menú principal de [!UICONTROL] <img src="assets/main-menu-icon-left-nav.png"></td> 
       <td>[!UICONTROL Projects]</td> 
      </tr> 
      <tr> 
       <td>[!UICONTROL Recursos]</td> 
-      <td>[!UICONTROL Recursos] en el menú principal de  <img src="assets/main-menu-icon-left-nav.png"></td> 
+      <td>[!UICONTROL Recursos] en el menú principal de [!UICONTROL] <img src="assets/main-menu-icon-left-nav.png"></td> 
       <td>[!UICONTROL Planificador] (no se puede ocultar), [!UICONTROL Distribuidor de cargas de trabajo], [!UICONTROL Utilización], [!UICONTROL Conjuntos de recursos]</td> 
      </tr> 
      <tr> 
@@ -199,7 +199,7 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
      <tr> 
        <td>[!UICONTROL Detalles del usuario]</td> 
        <td>El nombre de un usuario</td> 
-       <td>[!UICONTROL Detalles], [!UICONTROL Organigrama], [!UICONTROL Tiempo de espera], [!UICONTROL Forms personalizado], [!UICONTROL Perfiles de negocio], [!UICONTROL Actualizaciones], [!UICONTROL Distribuidor de cargas de trabajo]</td> 
+       <td>[!UICONTROL Detalles], [!UICONTROL Organigrama], [!UICONTROL Tiempo Libre], [!UICONTROL Personalizado Forms], [!UICONTROL Perfiles de Negocio], [!UICONTROL Actualizaciones], [!UICONTROL Distribuidor de cargas de trabajo], [!UICONTROL Historial Laboral]</td> 
      </tr>
      <tr> 
        <td>[!UICONTROL Tarjeta de velocidad]</td> 
