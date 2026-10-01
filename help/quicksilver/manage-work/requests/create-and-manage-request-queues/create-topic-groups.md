@@ -13,24 +13,31 @@ git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/7odH8kf-VPRXoOVlMEiX3dWFLTsDDuy-f4TJgHAUsk8
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
 subfeature_v2:
   - id: c10f2e93-7a58-4212-aa24-684c265ebe76
+    internal-label: Requests
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 82b937e507ef266f344b4c9f8d651ce12a39d88c
 workflow-type: tm+mt
-source-wordcount: 466
-ht-degree: 83%
-
+source-wordcount: '478'
+ht-degree: 81%
 ---
-
 # Crear grupos de temas
+
+{{highlighted-preview}}
 
 <!-- Audited: 2/2024 -->
 
@@ -106,4 +113,5 @@ Para crear un grupo de temas:
 1. Haga clic en **Guardar**.\
    Esto crea un nuevo grupo de temas en la cola de solicitudes. Ahora puede seleccionar categorías adicionales en el primer menú desplegable debajo de una cola de solicitudes.\
    Para obtener más información sobre cómo enviar solicitudes, consulte [Crear y enviar solicitudes de Adobe Workfront](../../../manage-work/requests/create-requests/create-submit-requests.md).
-1. Para editar un grupo de temas existente, seleccione el grupo de temas en la lista Grupos de temas y, a continuación, edite los detalles en la ventana que se abre. Haga clic en **Guardar** para guardar los cambios.
+
+1. Para editar un grupo de temas existente, selecciónelo en la lista Grupos de temas, <span class="preview">haga clic en **Editar** en la barra de acciones de la parte inferior de la pantalla</span> y, a continuación, edite los detalles en la ventana que se abre. Haga clic en **Guardar** para guardar los cambios.

@@ -34,10 +34,10 @@ topic_v2:
     internal-label: Optimization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 1dc0bdb90242129fc2097f029440efbcbd04b62c
 workflow-type: tm+mt
-source-wordcount: '1230'
-ht-degree: 45%
+source-wordcount: '1262'
+ht-degree: 43%
 ---
 # Personalizar el panel izquierdo con una plantilla de diseño
 
@@ -199,7 +199,7 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
      <tr> 
        <td>[!UICONTROL Detalles del usuario]</td> 
        <td>El nombre de un usuario</td> 
-       <td>[!UICONTROL Detalles], [!UICONTROL Organigrama], [!UICONTROL Tiempo de espera], [!UICONTROL Forms personalizado], [!UICONTROL Perfiles de negocio], [!UICONTROL Actualizaciones], [!UICONTROL Distribuidor de cargas de trabajo]</td> 
+       <td>[!UICONTROL Detalles], [!UICONTROL Organigrama], [!UICONTROL Tiempo Libre], [!UICONTROL Personalizado Forms], [!UICONTROL Perfiles de Negocio], [!UICONTROL Actualizaciones], [!UICONTROL Distribuidor de cargas de trabajo], [!UICONTROL Historial Laboral]</td> 
      </tr>
      <tr> 
        <td>[!UICONTROL Tarjeta de velocidad]</td> 
@@ -237,6 +237,8 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
 
    * Haga clic en los iconos **Mostrar** ![Mostrar icono](assets/add-secondary-nav-item.png) o **Ocultar** ![Ocultar icono](assets/delete-secondary-nav-item.png) para mostrar u ocultar secciones en el panel izquierdo. No puede ocultar elementos que no tengan los iconos **Mostrar** o **Ocultar**.
 
+     Cada área o tipo de objeto debe tener al menos una sección en el panel izquierdo. Si todos los demás elementos están ocultos, no puede ocultar el último elemento restante.
+
    * Arrastre los elementos ![Icono de mover](assets/move-icon---dots.png) para cambiar su orden en el panel izquierdo.
 
    >[!NOTE]
@@ -247,7 +249,7 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
    >* [!UICONTROL Inicio]
    >* [!UICONTROL Marca]
    > 
-   >Para obtener información sobre cómo personalizar las áreas adicionales, consulte los siguientes artículos:
+   >Para obtener información sobre cómo personalizar estas áreas adicionales, consulte los siguientes artículos:
    >
    >* [Personalizar filtros, vistas y agrupaciones mediante una plantilla de diseño](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
    >* [Personalizar el [!UICONTROL panel de resumen] mediante una plantilla de diseño](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md)

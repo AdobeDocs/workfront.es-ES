@@ -9,24 +9,31 @@ exl-id: 68774286-da24-409a-bbd8-eb18dfe75063
 TQID: https://experienceleague.adobe.com/BOZkyUl3TKCzpbjbLnUcMQZjM-1laW-TSsVptvBP-0U
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
 subfeature_v2:
   - id: b91c0848-76c4-4da4-8b81-3aade0518dd0
+    internal-label: Tasks
   - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+    internal-label: Projects
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: a98167536dec4cee61b0b310be0fcc8c9d06449c
 workflow-type: tm+mt
-source-wordcount: 422
-ht-degree: 44%
-
+source-wordcount: '446'
+ht-degree: 41%
 ---
-
 # Cree una relación de predecesoras mediante el área Predecesoras
+
+{{highlighted-preview}}
 
 <!-- Audited: 5/2025 -->
 
@@ -116,5 +123,6 @@ Para crear una tarea predecesora para una tarea de proyecto:
 1. Haga clic en **Guardar**.
 
 1. (Opcional) Para quitar un predecesor, selecciónelo de la lista de predecesores y luego haga clic en el icono **Quitar** ![Quitar icono](assets/remove-or-delete-icon.png).
+   <span class="preview">Para quitar un predecesor, selecciónelo en la lista de predecesores y haga clic en **Quitar** en la barra de acciones de la parte inferior de la pantalla.</span>
 
    La tarea predecesora se elimina de la lista. La tarea predecesora no se elimina de su proyecto.

@@ -34,12 +34,14 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 7a38b5250065c1f1570342ad2f6eef857ca8db6a
 workflow-type: tm+mt
-source-wordcount: '8056'
-ht-degree: 76%
+source-wordcount: '8284'
+ht-degree: 75%
 ---
 # Crear un formulario personalizado
+
+{{highlighted-preview}}
 
 <!-- Audited: 6/2025 -->
 
@@ -483,7 +485,8 @@ Para añadir botones de opción, grupos de casillas de verificación y menús de
     <li>Menú desplegable de selección única</li>
     <li>Menú desplegable de selección múltiple</li>
     </ul></td>
-    </tr> 
+    </tr>
+    <tr>
     <td role="rowheader">Opciones </td> 
     <td> 
     <p>Seleccione una de las siguientes opciones:</p> 
@@ -507,6 +510,36 @@ Para añadir botones de opción, grupos de casillas de verificación y menús de
     </ul>
     </td>
      </tr>
+    <tr>
+    <td role="rowheader"><span class="preview">Opciones</span></td> 
+    <td>
+    <div class="preview">
+    <p>Haga clic en <strong>Editar opciones</strong> para agregar o editar opciones para el campo.</p>
+    <p>Para agregar una nueva opción en el cuadro de diálogo Editar opciones:</p>
+    <ol>
+    <li><p>Haga clic en <strong>Nueva fila</strong> en la parte inferior de la tabla.</p> <p><b>Nota:</b> No hay límite para la cantidad de opciones que se pueden agregar.</p></li>
+    <li>Escriba <strong>Choice name</strong> y <strong>Choice value</strong>. Suelen ser los mismos, como el nombre y la etiqueta de la API del campo.</li>
+    <li>(Opcional) Seleccione <strong>Seleccionar de forma predeterminada</strong> para que la opción esté seleccionada de forma predeterminada en el campo.</li> 
+    </ol>
+    <p>Para realizar acciones adicionales:</p>
+    <ul>
+    <li>Para editar una opción existente, haga doble clic en el área que desee cambiar.</li>
+    <li> Para ocultar una opción en el campo, selecciónela y haga clic en <strong>Ocultar opción</strong> en la barra de acciones de la parte inferior de la pantalla. Las opciones ocultas siguen estando accesibles en los informes.</li> 
+    <li> <p>Para eliminar una opción del campo, selecciónela y haga clic en <strong>Quitar opción</strong> en la barra de acciones de la parte inferior de la pantalla.</p> <p><b>Advertencia</b>: Si tiene objetos actuales que utilizan esta opción, no la quite del campo. Su eliminación hará que se pierdan datos históricos. En su lugar, seleccione la opción para ocultarla, esto impedirá que los usuarios la seleccionen en el futuro.</p> </li> 
+    <li>Utilice el icono <strong>Arrastrar</strong> <img src="assets/drag-icon.png"> para ordenar las opciones manualmente.</li>
+    <li>Haga clic en <strong>Ordenar opciones A-Z</strong> para ordenar las opciones alfabéticamente en el campo.</li>
+    </ul>
+    <p>Haga clic en <strong>Guardar</strong> cuando haya terminado de editar las opciones.</p>
+    </div>
+    </td> 
+    <td><ul>
+    <li><span class="preview">Botones de opción</span></li>
+    <li><span class="preview">Grupo de casillas de verificación</span></li>
+    <li><span class="preview">Menú desplegable de selección única</span></li>
+    <li><span class="preview">Menú desplegable de selección múltiple</span></li>
+    </ul>
+    </td>
+    </tr> 
     <tr>
      <td>Activo</td>
      <td><p>Esta opción está habilitada de forma predeterminada.<p><p>Cuando se establece un campo como Inactivo, se excluye de los informes, los filtros y las vistas y ya no está disponible en la biblioteca de campos de formularios personalizados.</p></td>

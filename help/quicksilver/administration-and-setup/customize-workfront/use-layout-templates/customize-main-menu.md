@@ -32,12 +32,14 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 66ec381c7f0dec9a382bd9a23e6691d38c5595e7
 workflow-type: tm+mt
-source-wordcount: '682'
-ht-degree: 34%
+source-wordcount: '723'
+ht-degree: 32%
 ---
 # Personalizar el menú principal mediante una plantilla de diseño
+
+{{highlighted-preview}}
 
 <!--Audited: 01/2024-->
 
@@ -144,7 +146,7 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
      >
      > Las aplicaciones personalizadas deben crearse por separado antes de que estén disponibles como opciones del menú principal. Para obtener más información, consulte [Crear una aplicación personalizada para Workfront con Adobe App Builder](/help/quicksilver/app-builder/app-builder.md).
 
-1. Realice una de las siguientes acciones <!-- for the **Native** items-->:
+1. Realice una de las siguientes acciones para los **elementos nativos**:
 
    * Ocultar ![Ocultar icono](assets/remove-icon---x-in-circle.png) elementos que no desee mostrar en el menú principal.
    * Mostrar ![Mostrar icono](assets/add-icon-plus-in-circle.png) elementos que no desea mostrar en el menú principal.
@@ -152,7 +154,16 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
 
      >[!NOTE]
      >
-     >No puede cambiar el orden de los elementos del sistema. Estos elementos siempre se muestran en la parte inferior del menú principal cuando están activos.
+     >No puede cambiar el orden de los elementos del sistema. Estos elementos siempre se muestran en la parte inferior del menú principal cuando están activos. <!-- REMOVE THIS NOTE AT PROD RELEASE October 2026 -->
+
+<div class="preview">
+
+1. Realice una de las siguientes acciones para los **elementos del sistema**:
+
+   * Ocultar ![Ocultar icono](assets/remove-icon---x-in-circle.png) elementos que no desee mostrar en el menú principal.
+   * Mostrar ![Mostrar icono](assets/add-icon-plus-in-circle.png) elementos que no desea mostrar en el menú principal.
+
+</div>
 
 1. Haga clic en **Listo**.
 
@@ -166,17 +177,3 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
 
 Para obtener más información sobre las plantillas de diseño, consulte [Crear y administrar plantillas de diseño](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
 
-<!--
-
-MOVE TO LINE 151 or thereabouts:
-
-<div class="preview">
-
-1. Do any of the following for the **System** items:
-
-   * Hide ![Hide icon](assets/remove-icon---x-in-circle.png) items that you don't want to display on the Main Menu.
-   * Show ![Show icon](assets/add-icon-plus-in-circle.png) items that you do want to display on the Main Menu.
-
-</div>
-
--->

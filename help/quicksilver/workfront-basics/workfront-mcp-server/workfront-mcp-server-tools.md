@@ -11,9 +11,9 @@ product_v2:
 feature_v2:
   - id: c042179c-157b-516d-b27c-e3bf303e8567
     internal-label: Get Started with Workfront
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: d185ddbfe7e85f214181eb9a76ff83b775abace3
 workflow-type: tm+mt
-source-wordcount: '2811'
+source-wordcount: '3020'
 ht-degree: 7%
 ---
 
@@ -316,7 +316,22 @@ Las <span class="preview">herramientas de comentarios le permiten informar sobre
 | --- | --- | --- | --- |
 | <span class="preview">Compartir comentarios</span> | <span class="preview">`share_feedback`</span> | <span class="preview">Registra la opinión de la que se informó y lo que ocurrió durante la conversación, para que se puedan mejorar las herramientas de MCP de Workfront. Solo se usa cuando se le pide explícitamente que comparta comentarios (por ejemplo, &quot;compartir comentarios&quot; o &quot;informar de un error&quot;).</span> | <span class="preview">Write</span> |
 
+## Herramientas de informes
 
+Las herramientas de creación de informes le permiten crear y administrar paneles de lienzo a través del chat. Describa el informe que desea en un lenguaje sencillo y la plataforma agéntica de IA crea el tablero y los widgets con los datos de Workfront.
+
+
+### Paneles de control de lienzo
+
+| Título | Nombre de herramienta | Qué hace | Acción |
+| --- | --- | --- | --- |
+| Leer | `read` | Lee los datos de los informes en tres modos seleccionados por los ID pasados: enumera los tableros visibles para usted, obtiene la estructura de un único tablero o obtiene la configuración completa de un widget. | Leer |
+| Crear tablero | `create_dashboard` | Crea un nuevo tablero de informes vacío y lo devuelve, con un vínculo para abrirlo. | Escritura |
+| Actualizar panel | `update_dashboard` | Actualiza parcialmente los metadatos, el mensaje, el filtro y la ubicación por widget de un panel. Los campos omitidos se dejan sin cambios. | Escritura |
+| Crear widget | `create_widget` | Crea un widget y su configuración de informe en un panel. Una herramienta gestiona los tres tipos de widgets: gráfico, KPI y tabla. | Escritura |
+| Actualizar widget | `update_widget` | Actualiza parcialmente la configuración de un widget existente. El tipo de widget se infiere automáticamente, por lo que solo debe enviar los campos que desee cambiar. | Escritura |
+| Copiar objeto | `copy_object` | Copia todo un tablero, incluidos sus widgets, mensajes y filtros, en un tablero nuevo, o copia un solo widget en los tableros o entre ellos. | Escritura |
+| Eliminar objeto | `delete_object` | Elimina permanentemente un tablero de informes y todos sus widgets, o un solo widget. Esta acción no se puede deshacer. | Escritura |
 
 ## Actualización de las herramientas
 
@@ -329,5 +344,6 @@ Cuando Adobe lanza una nueva versión del servidor MCP de Workfront, la platafor
 Estamos trabajando para agregar las siguientes herramientas al servidor MCP de Workfront en el futuro:
 
 * Tableros
+
 
 
