@@ -26,10 +26,10 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 88ab250a262e9ca4a311fb1c88988a3747e6baeb
 workflow-type: tm+mt
-source-wordcount: '437'
-ht-degree: 22%
+source-wordcount: '498'
+ht-degree: 21%
 ---
 # Administrar las aprobaciones con el widget Mis aprobaciones
 
@@ -82,7 +82,14 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
 
 1. Haga clic en el **[!UICONTROL Menú principal]** ![icono del menú principal](assets/main-menu-icon.png) en la esquina superior derecha y, a continuación, haga clic en **[!UICONTROL Inicio]**.
 1. (Condicional) Haga clic en **Personalizar** para agregar el widget **Mis aprobaciones**.
-1. (Condicional) Haga clic en el menú desplegable **Filtro** y, a continuación, seleccione **Todos** para ver las aprobaciones que se le han asignado y delegado.
+1. (Opcional) Ajuste las opciones de filtro en el widget Mis aprobaciones para elegir qué aprobaciones mostrar. Estas son las opciones de filtro disponibles:
+
+   | Opción de filtro | Descripción |
+   |--------|-------------|
+   | Todas | Muestra todas las aprobaciones que le han sido asignadas, que le han delegado otros usuarios y que ha enviado. |
+   | Mis aprobaciones | Muestra las aprobaciones que tiene asignadas. Esta es la opción predeterminada. |
+   | Delegación de aprobaciones | Muestra las aprobaciones que le han delegado otros usuarios. |
+   | Aprobaciones que he enviado | Muestra las aprobaciones que ha enviado a otros usuarios. |
 
    >[!NOTE]
    >

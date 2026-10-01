@@ -12,24 +12,30 @@ git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/glxqYn2m92yNMfsneQ3DW0KALaPKruUgU8o-xjMA1CI
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
 subfeature_v2:
   - id: b91c0848-76c4-4da4-8b81-3aade0518dd0
+    internal-label: Tasks
   - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+    internal-label: Projects
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 246f2fe7a8f1b4c34ca6e3755bef488744acbcd6
 workflow-type: tm+mt
-source-wordcount: 1532
-ht-degree: 90%
-
+source-wordcount: '1490'
+ht-degree: 96%
 ---
-
 # Información general de esfuerzo laboral
 
 <!--Audited: 01/2024-->
@@ -54,20 +60,22 @@ Como administrador del proyecto, puede decidir cómo desea calcular la cantidad 
   </tr> 
   <tr> 
    <td role="rowheader">Esfuerzo de trabajo </td> 
-   <td> <p>Etiqueta manual que define si se necesita un esfuerzo diario pequeño, mediano o grande para completar una tarea.
-   &lt;!—!—
-
-    Se estima que el nivel de esfuerzo es un porcentaje del tiempo de trabajo diario. (NOTA: mantenga esta redacción. Vazgen dijo que no es necesario, pero que está esperando los comentarios de los usuarios)
-    
-    —>
-    &lt;/p> &lt;p>Considere lo siguiente sobre el esfuerzo de trabajo:&lt;/p>
-    &lt;ul>
-    &lt;li>Este campo solo está disponible para tareas con un tipo de duración simple. &lt;/li>
-    &lt;li>Puede habilitar el uso de esta etiqueta y definir el porcentaje de tiempo de trabajo asociado a ella en el nivel de proyecto. &lt;/li>
-    &lt;/ul> &lt;/td>
-</tr> 
+   <td> <p>Etiqueta manual que define si se necesita un esfuerzo diario pequeño, mediano o grande para completar una tarea.</p> <p>Tenga en cuenta lo siguiente sobre el esfuerzo laboral:</p>
+    <ul> 
+     <li>Este campo solo está disponible para tareas con un tipo de duración simple. </li> 
+     <li>Puede habilitar el uso de esta etiqueta y definir el porcentaje de tiempo de trabajo asociado a ella en el nivel de proyecto. </li> 
+    </ul> </td> 
+  </tr> 
  </tbody> 
 </table>
+
+<!--
+       
+       THIS GOES IN THE WORK EFFORT DEFINITION. Lisa moved it here because it was showing on the live site.
+       
+       The level of effort is estimated to be a percentage of the daily amount of working time. (NOTE: keep this drafted. Vazgen said it's not needed, but waiting for feedback from users)
+       
+-->
 
 Este artículo describe qué es el esfuerzo laboral y cómo debe utilizarlo al estimar la cantidad de trabajo para sus tareas.
 
