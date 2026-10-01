@@ -28,9 +28,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 284f02c34a04b176c60f50443b9f03b789d8416d
+source-git-commit: 3e114bf3c8ab947437325eebfb8acd8931192d9a
 workflow-type: tm+mt
-source-wordcount: '2002'
+source-wordcount: '2010'
 ht-degree: 41%
 ---
 # Administrar la vista de calendario
@@ -287,10 +287,10 @@ Para agregar un filtro a una vista de calendario:
         </tr>
         <tr>
             <td>Selección múltiple, Personas</td>
-            <td><p>Tiene cualquiera de</p> <!--or <span class="preview"><p>Is any of</p></span>-->
+            <td><p>Tiene cualquiera de</p> o <span class="preview"><p>Es cualquiera de</p></span>
             <p>Tiene todas de</p>
             <p>Es exactamente</p>
-            <p>No tiene ninguno de</p> <!--or <span class="preview"><p>Is any of</p></span>-->
+            <p>No tiene ninguno de</p> o <span class="preview"><p>Es cualquiera de</p></span>
             <p>Está vacío</p>
             <p>No está vacío</p></td>
         </tr>
