@@ -3,9 +3,9 @@ user-guide-title: Guía de Workfront
 user-guide-description: Utilice los siguientes documentos, tutoriales y recursos adicionales para aprender a implementar y utilizar Adobe Workfront de forma eficaz en su organización.
 role: User
 feature-set: Workfront
-source-git-commit: dc90b81e2781351d61f014ef7952ba71bdf55c92
+source-git-commit: 061e5919fddf0c892646d1f359052b35961359b4
 workflow-type: tm+mt
-source-wordcount: '14604'
+source-wordcount: '14626'
 ht-degree: 91%
 ---
 # Guía de Workfront {#using}
@@ -1225,6 +1225,10 @@ ht-degree: 91%
     * [Usar Adobe Cloud Drive](documents/adobe-cloud-drive/use-adobe-cloud-drive.md)
     * [Configurar y administrar Adobe Cloud Drive](/help/quicksilver/documents/adobe-cloud-drive/set-up-and-manage-adobe-cloud-drive.md)
     * [Solucionar problemas de Adobe Cloud Drive](documents/adobe-cloud-drive/troubleshoot-adobe-cloud-drive.md)
+  * Proyectos Adobe Creative Cloud {#adobe-creative-cloud-projects}
+    * [Proyectos Adobe Creative Cloud: índice de artículos](documents/adobe-creative-cloud-projects/adobe-creative-cloud-projects.md)
+    * [Resumen de proyectos de Adobe Creative Cloud](documents/adobe-creative-cloud-projects/adobe-creative-cloud-projects-overview.md)
+    * [Uso de documentos de Workfront en aplicaciones de Creative Cloud](documents/adobe-creative-cloud-projects/use-wf-documents-in-cc-apps.md)
   * Integraciones de Workfront y Experience Manager Assets {#wf-aem-integrations}
     * [Integraciones de Workfront y Experience Manager Assets](documents/workfront-and-experience-manager-integrations/wf-experience-manager-integrations.md)
     * Conector mejorado de Workfront para Experience Manager {#wf-aem-enhanced-connector}
@@ -2667,7 +2671,7 @@ ht-degree: 91%
     * [Configure y utilice las aplicaciones OAuth 2 personalizadas de la organización mediante el flujo JWT](wf-api/api/oauth-app-jwt-flow.md)
     * [Configure y utilice las aplicaciones OAuth 2 personalizadas de su organización mediante el flujo PKCE](wf-api/api/oauth-app-pkce-flow.md)
     * [Obsolescencia de la API interna](wf-api/api/deprecation-api-internal.md)
-    * [Novedades de la versión 22 de la API](/help/quicksilver/wf-api/api/new-api-version-22.md)
+    * [Novedades de la versión 22](/help/quicksilver/wf-api/api/new-api-version-22.md) de la API
     * [Novedades de la versión 21 de la API](/help/quicksilver/wf-api/api/new-api-version-21.md)
     * [Novedades de la versión 20 de la API](/help/quicksilver/wf-api/api/new-api-version-20.md)
     * [Novedades de la versión 19 de la API](wf-api/api/new-api-version-19.md)

@@ -29,16 +29,16 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
     internal-label: Metadata
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 061e5919fddf0c892646d1f359052b35961359b4
 workflow-type: tm+mt
-source-wordcount: '1061'
+source-wordcount: '1066'
 ht-degree: 1%
 ---
 # información general sobre el almacenamiento en nube Adobe
 
 El almacenamiento en la nube de Adobe es una solución de almacenamiento basada en la nube que sirve como repositorio central para los recursos de los productos empresariales de Adobe. La integración de Workfront y Frame.io se basa en el almacenamiento en la nube de Adobe, lo que permite una colaboración y administración de recursos fluidas entre estas plataformas.
 
-Esta opción de almacenamiento también allana el camino para futuras integraciones de la administración de recursos con otros productos de Adobe, como Adobe Creative Cloud.
+Esta opción de almacenamiento también permite integraciones de administración de recursos con otros productos de Adobe, incluidas las aplicaciones de Adobe Creative Cloud. Para obtener más información, consulte [Resumen de proyectos de Adobe Creative Cloud](/help/quicksilver/documents/adobe-creative-cloud-projects/adobe-creative-cloud-projects-overview.md).
 
 ## Características principales
 
