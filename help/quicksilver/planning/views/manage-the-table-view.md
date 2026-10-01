@@ -28,10 +28,10 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: e0951a7451bbf17dcca388eee841abddb1618a0b
+source-git-commit: f1a6727b3282e86f8f8b541173674450fbfe45dc
 workflow-type: tm+mt
-source-wordcount: '4233'
-ht-degree: 48%
+source-wordcount: '4228'
+ht-degree: 47%
 ---
 # Administrar la vista de tabla
 
@@ -329,22 +329,17 @@ Puede añadir hasta 500 campos (o columnas) en una vista de tabla.
 
    * Para los campos de número, moneda, porcentaje y fórmula con el formato de cualquiera de estos tipos de campo, expanda el menú desplegable de agregador en la parte inferior de las columnas y seleccione una de las siguientes opciones:
 
-     * **SUM**: muestra el total de todas las celdas de la columna. Esta es la selección predeterminada.
+     * **SUM**: muestra el total de todas las celdas de la columna.
      * **MIN**: muestra el valor más bajo de todas las celdas de la columna.
      * **MAX**: muestra el valor más alto de todas las celdas de la columna.
      * **AVG**: Muestra el valor promedio de todas las celdas de la columna.
-
-     <div class="preview">
-
-     * **NONE**: no se agregan los valores de la columna.Esta es la opción predeterminada.
-
-     </div>
+     * <span class="preview">**NONE**: no se agregan los valores de la columna. Esta es la opción predeterminada.</span>
 
    <div class="preview">
 
    * Para los campos de fecha, expanda el menú desplegable del agregador en la parte inferior de las columnas y seleccione una de las siguientes opciones:
 
-     * **NONE**: no se agregan los valores de la columna.Esta es la opción predeterminada.
+     * **NONE**: no se agregan los valores de la columna. Esta es la opción predeterminada.
      * **VACÍO**: muestra un recuento de los campos que no tienen valores.
      * **NO VACÍO**: muestra un recuento de los campos que tienen valores.
      * **MIN**: Muestra la fecha más temprana.
@@ -352,7 +347,7 @@ Puede añadir hasta 500 campos (o columnas) en una vista de tabla.
 
    * Para el texto, seleccione, booleano, Campos de personas, expanda el menú desplegable del acumulador en la parte inferior de las columnas y seleccione una de las siguientes opciones:
 
-     * **NONE**: no se agregan los valores de la columna.Esta es la opción predeterminada.
+     * **NONE**: no se agregan los valores de la columna. Esta es la opción predeterminada.
      * **VACÍO**: muestra un recuento de los campos que no tienen valores.
      * **NO VACÍO**: muestra un recuento de los campos que tienen valores.
 
@@ -668,7 +663,7 @@ Tenga en cuenta lo siguiente:
 
 * Es posible aplicar agrupaciones tanto en las vistas de tabla como de cronología. Las agrupaciones de la vista de tabla son independientes de las de la vista de cronología del mismo tipo de registro.
 * Se pueden aplicar 3 niveles de agrupación en una vista. Los registros se agrupan en el orden de agrupaciones que se seleccione.
-&lt;!—!—**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;*** * Puede aplicar hasta 4 niveles de agrupación al utilizar la API. —comprobando este por ahora &#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**—>
+&lt;!—!—*************** * Puede aplicar hasta 4 niveles de agrupación al utilizar la API. —comprobando este por ahora ******************—>
 * Las agrupaciones son únicas para la vista que se seleccione. Dos vistas de tabla del mismo tipo de registro pueden tener diferentes agrupaciones aplicadas. Dos usuarios que vean la misma vista de tabla verán la misma agrupación que se aplique en ese momento.
 * No se puede asignar un nombre a las agrupaciones que se generen para una vista de tabla.
 * Al quitar las agrupaciones, se quitarán de cualquier usuario que tenga acceso al mismo tipo de registro y que muestre la misma vista que usted.
