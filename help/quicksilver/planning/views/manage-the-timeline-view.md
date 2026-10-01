@@ -28,10 +28,10 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 04db74ea6f6c6743df6a82a97eb5e8ca88fcb92e
 workflow-type: tm+mt
-source-wordcount: '4584'
-ht-degree: 36%
+source-wordcount: '5015'
+ht-degree: 33%
 ---
 # Administrar la vista de cronología
 
@@ -192,11 +192,16 @@ Para administrar una vista de cronología:
 
    ![Ejemplo de vista de escala de tiempo](assets/timeline-view-example.png)
 
-   Los registros asociados al tipo de registro seleccionado se muestran como barras en una cronología y se ordenan en orden cronológico según su fecha de inicio de forma predeterminada.
+   Los registros asociados con el tipo de registro seleccionado se muestran como barras en una cronología y se ordenan automáticamente en orden cronológico de su Fecha de inicio, de forma predeterminada.
+
+   <!--
+    <span class="preview">First 500 records display by default. Additional records continue to display as you scroll the page.</span> 
+    -->
+   <!-- must check here to see if the timeline is not getting the same button at the bottom of the page that says "Load more" like the calendar view-->
 
    >[!TIP]
    >
-   >    La ordenación de los registros en la cronología no es visible en la vista compacta.
+   >    La ordenación automática de los registros de la cronología no es visible en la vista Compacta.
 
 1. (Condicional) Si el administrador ha habilitado trimestres personalizados y Workfront detecta problemas con la configuración de estos, es posible que reciba una advertencia al abrir la vista de cronología.
 
@@ -263,6 +268,14 @@ Para administrar una vista de cronología:
       Puede utilizar cualquier palabra o carácter especial que esté visible en la pantalla.
 
       No se pueden utilizar palabras clave asociadas a campos que no se muestran en la vista de cronología.
+
+      <!--
+        this might change at the release of table lazy loading:
+        >[!TIP]
+        >
+        ><span class="preview">Search only works for records that are currently loaded on the page. 500 records load by default. More records load, as you scroll. </span> 
+        -->
+      <!--see if additional records load after you click Load more - not sure what the functionality is here-->
 
    1. Pulse Intro en el teclado para ir al siguiente campo encontrado.
    1. (Opcional) Si hay más de una coincidencia, haga clic en las flechas arriba y abajo situadas a la derecha de la palabra clave de búsqueda para encontrar todas las coincidencias de la tabla.
@@ -361,10 +374,10 @@ Para agregar un filtro a una vista de cronología:
         </tr>
         <tr>
             <td>Selección múltiple, Personas</td>
-            <td><p>Tiene cualquiera de</p>
+            <td><p>Tiene cualquiera de</p> <!--or <span class="preview"><p>Is any of</p></span>-->
             <p>Tiene todas de</p>
             <p>Es exactamente</p>
-            <p>No tiene ninguno de</p>
+            <p>No tiene ninguno de</p> <!--or <span class="preview"><p>Is none of</p></span>-->
             <p>Está vacío</p>
             <p>No está vacío</p></td>
         </tr>
@@ -486,6 +499,16 @@ Para añadir una agrupación en la vista de cronología:
 
    Las agrupaciones se aplican inmediatamente.
 
+   <!--
+    <div class="preview">
+    *** Not sure which one will be released: 
+    500 records display by default. There might be more records that belong to the groupings visible on the screen that are not uploaded. Continue to scroll to upload all records. 
+
+    OR
+
+    500 records display by default. There might be more records that belong to the groupings visible on the screen that are not uploaded. Click **Load more** to load all records. 
+    </div>
+    -->
 1. <span class="preview">(Opcional) Haga clic en el icono **Agrupación** ![Icono de agrupación](assets/grouping-icon.png) en la barra de herramientas para abrir el cuadro **Agrupar registros por** y, a continuación, haga clic en **Expandir todo** para expandir todas las agrupaciones o **Contraer todo** para contraer todas las agrupaciones y contraer manualmente solo las que necesite. </span>
 1. <span class="preview"> (opcional y condicional) En la pantalla de la calle, arrastre y suelte el separador del panel izquierdo para ajustar su anchura. La anchura del panel de cada usuario se guarda entre sesiones, con una anchura predeterminada para los usuarios nuevos.</span>
 1. <span class="preview">(Opcional) Para nombres de agrupación largos, pase el ratón sobre la línea de una agrupación para ver el nombre completo de la agrupación en la información sobre herramientas.</span>
@@ -504,50 +527,50 @@ Para añadir una agrupación en la vista de cronología:
    >Cuando arrastra y suelta registros de una agrupación a otra, los campos seleccionados en la agrupación actualizan automáticamente los valores de los registros movidos.
 1. (Opcional) Haga clic en **Configuración** y, a continuación, en **Color** para añadir agrupaciones con códigos de color. Para obtener más información, consulte la sección [Editar la configuración de la vista de cronología](#edit-the-timeline-view-settings) en este artículo.
 
-<!--
-
 <div class="preview">
 
-### Add sort
+### Agregar orden
 
-You can sort records and groupings in the timeline view. 
+Puede ordenar registros y agrupaciones en la vista de escala de tiempo.
 
-Consider the following when working with record sorting in the timeline view: 
+Tenga en cuenta lo siguiente cuando trabaje con la ordenación de registros en la vista de cronología:
 
-* You can apply sorting both in the table and timeline views. The sorting of the table view is independent from that in the timeline view of the same record type.
-* You can apply 10 sorting conditions for records and as many sorting conditions as you have groupings in the timeline view (you can have up to 3 groupings conditions in the timeline view). 
+* Puede aplicar la ordenación en las vistas Tabla y Cronología. La ordenación de la vista de tabla es independiente de la vista de escala de tiempo del mismo tipo de registro.
+* Puede aplicar 10 condiciones de ordenación para los registros y tantas condiciones de ordenación como agrupaciones tenga en la vista de escala de tiempo (puede tener hasta 3 condiciones de agrupación en la vista de escala de tiempo).
 
-* The sortings are unique to the view that you select. Two timeline views of the same record type can have different sortings applied to them. Two users looking at the same timeline view see the same sorting that is currently applied. 
-* You cannot name the sorting you build for a timeline view.
-* Removing sorting removes it from anyone accessing the same record type as you and who displays the same view as you do. 
+* Las ordenaciones son únicas para la vista que seleccione. Dos vistas de escala de tiempo del mismo tipo de registro pueden tener diferentes ordenamientos aplicados. Dos usuarios que ven la misma vista de cronología ven el mismo orden que se aplica actualmente.
+* No puede asignar un nombre a la ordenación que genere para una vista de escala de tiempo.
+* Al quitar la ordenación, se quita de cualquier usuario que tenga acceso al mismo tipo de registro que usted y que muestre la misma vista que usted.
 
-* You can sort by connected record fields or lookup fields.  
+* Puede ordenar por campos de registro conectados o campos de búsqueda.
 
-To add a sort in the timeline view:
+Para agregar un orden en la vista de cronología:
 
-1. Create a timeline view for a record type, as described in the article [Manage record views](/help/quicksilver/planning/views/manage-record-views.md). 
-1. Click **Sort** in the view's toolbar. 
+1. Cree una vista de cronología para un tipo de registro, tal y como se describe en el artículo [Administración de vistas de registros](/help/quicksilver/planning/views/manage-record-views.md).
+1. Haga clic en **Ordenar** en la barra de herramientas de la vista.
 
-    The sorting box opens. 
+   Se abrirá el cuadro de orden.
 
-    ![Sort in timeline with grouping sort](assets/sort-in-timeline.png)
-1. From the drop-down menu, select **Sort records**, then either click a field listed in the **Start with a suggested field** list, or click **Choose a different field**, then search for field and click it when it displays in the list.
-1. Select the order you want the sorting to be applied (alphabetical, reverse descendent etc). The order a sorting is applied depends on the format of the field you selected. 
-1. (Optional) Click **Add condition** to add up to 10 conditions. 
-1. (Optional) Click **Clear all** to remove all conditions.
-1. From the drop-down menu in the upper-left corner of the sorting box, select **Sort groupings**. 
+   ![Ordenar en la cronología con orden de agrupación](assets/sort-in-timeline.png)
+1. En el menú desplegable, seleccione **Ordenar registros** y, a continuación, haga clic en un campo enumerado en la lista **Comenzar con un campo sugerido** o haga clic en **Elegir un campo diferente**; a continuación, busque un campo y haga clic en él cuando se muestre en la lista.
+1. Seleccione la dirección en la que desea aplicar la ordenación de registros (alfabético, descendente inverso, etc.). La dirección en la que se aplica un orden depende del formato del campo seleccionado.
+1. (Opcional) Haga clic en **Agregar condición** para agregar un máximo de 10 condiciones.
+1. (Opcional) Haga clic en **Borrar todo** para quitar todas las condiciones.
+1. En el menú desplegable de la esquina superior izquierda del cuadro de ordenación, seleccione **Ordenar agrupaciones**.
 
-    >[!TIP]
-    >
-    >If there are no groupings applied to the timeline view, the Sort groupings option is not available.
-1. To reorder the sorting order of the fields, click **Grouping** in the toolbar and reorder the groupings. Sorting field order also changes. 
-1. (Optional) To remove grouping sorting, remove the groupings from the timeline view. 
+   >[!TIP]
+   >
+   >Si no hay agrupaciones aplicadas a la vista de escala de tiempo, la opción **Ordenar agrupaciones** no está disponible.
+1. (Opcional) Seleccione la dirección en la que desea aplicar la ordenación de agrupación (alfabético, descendente inverso, etc.). La dirección en la que se aplica un orden depende del formato del campo seleccionado.
+1. (Condicional) Haga clic en **Restablecer todo** para restablecer la dirección de ordenación si la modificó a partir del valor predeterminado.
+1. Para reordenar el orden de los campos, haga clic en **Agrupación** en la barra de herramientas y reordene las agrupaciones. El orden de los campos de ordenación también cambia.
+1. (Opcional) Para quitar la ordenación de grupos, quite los grupos de la vista de escala de tiempo.
 
-    Sorting is applied immediately.
-1. Click anywhere on the page to close the sorting box. 
+   La ordenación se aplica inmediatamente.
+1. Haga clic en cualquier lugar de la página para cerrar el cuadro de ordenación.
 
 </div>
--->
+
 
 <!--this ("To remove grouping sorting, remove the groupings from the timeline view. ") might change at production - we have a button here called Reset all but right now it's not functioning - I logged a bug for this-->
 
