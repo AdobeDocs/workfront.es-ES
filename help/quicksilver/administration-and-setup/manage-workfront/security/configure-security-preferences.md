@@ -38,9 +38,9 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 2d1619fde79a80c016c7c963614fd4f7ba63035b
+source-git-commit: 69af10a8df4faf85df36f148c7d261eefefa951e
 workflow-type: tm+mt
-source-wordcount: '1539'
+source-wordcount: '1543'
 ht-degree: 39%
 ---
 # Configurar preferencias del sistema
@@ -244,7 +244,7 @@ Para agregar una dirección URL:
 
 >[!IMPORTANT]
 >
->Las URL de devolución de llamada deben coincidir exactamente. Workfront no admite la coincidencia de caracteres comodín o prefijo en las direcciones URL de devolución de llamada personalizadas.
+>Las URL de devolución de llamada deben coincidir exactamente, incluidos los parámetros de URL. Workfront no admite la coincidencia de caracteres comodín o prefijo en las direcciones URL de devolución de llamada personalizadas.
 
 +++
 
