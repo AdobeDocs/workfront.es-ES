@@ -30,9 +30,9 @@ topic_v2:
     internal-label: Optimization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 45491118778279522358f87c1c4185c4cf824829
 workflow-type: tm+mt
-source-wordcount: '579'
+source-wordcount: '575'
 ht-degree: 25%
 ---
 # Información general sobre paneles de control de lienzo
@@ -147,7 +147,5 @@ Para obtener información sobre las características que se agregan al panel de 
 * Informes de administración de recursos
 * Widgets adicionales de la pantalla Inicio
 * Envío de resúmenes de tableros
-* Copia de informes
-* Copia de paneles
 
 
