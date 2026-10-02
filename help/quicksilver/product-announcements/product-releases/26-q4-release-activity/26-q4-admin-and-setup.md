@@ -13,9 +13,9 @@ feature_v2:
 subfeature_v2:
   - id: a29813d3-f0cc-4b60-9396-13b558370803
     internal-label: Product announcements
-source-git-commit: 6fb8df06a03ba2189c16585ffb2844f484f4ca1d
+source-git-commit: 4dc9ef8ad7c6314d4c9c331ed25760ad0343d9ff
 workflow-type: tm+mt
-source-wordcount: '1666'
+source-wordcount: '1674'
 ht-degree: 1%
 ---
 # Mejoras del administrador del cuarto trimestre de 2026
@@ -95,7 +95,7 @@ Para facilitar la creación y administración de las suscripciones a eventos de 
 * Crear nuevas suscripciones a eventos, incluido el filtrado por los criterios especificados:
 * Eliminar suscripciones a eventos.
 
-<!--ADD LINK WHEN READY-->
+Para obtener más información, consulte [Configuración de suscripciones a eventos en Workfront](/help/quicksilver/administration-and-setup/manage-workfront/configure-event-subscriptions-in-workfront.md).
 
 
 ## Añadir URL de redireccionamiento autorizadas para integraciones de MCP
