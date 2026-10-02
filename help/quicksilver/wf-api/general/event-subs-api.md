@@ -26,9 +26,9 @@ topic_v2:
     internal-label: Customer experience
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
     internal-label: Security
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 5a44679115dcfda871e2fe40c0c8443649fc43cf
 workflow-type: tm+mt
-source-wordcount: '3545'
+source-wordcount: '3560'
 ht-degree: 88%
 ---
 # API de suscripción a eventos
@@ -42,6 +42,10 @@ ht-degree: 88%
 Cuando se produce una acción en un objeto de Adobe Workfront compatible con las suscripciones a eventos, puede configurar Workfront para que envíe una respuesta al punto final deseado. Esto significa que las aplicaciones de terceros pueden recibir actualizaciones de las interacciones de Workfront a través de la API de Workfront poco después de que se produzcan. En general, puede esperar recibir notificaciones de webhook en menos de 5 segundos desde que se registra el cambio de datos. De media, los clientes reciben notificaciones de webhook en menos de un segundo desde que se registra el cambio de datos.
 
 Dado que las suscripciones de eventos envían datos a otro servicio, se administran mediante comandos en lugar de a través de la aplicación de Workfront.
+
+>[!NOTE]
+>
+>Para trabajar con suscripciones a eventos dentro de la aplicación Workfront, consulte [Configuración de suscripciones a eventos en Workfront](/help/quicksilver/administration-and-setup/manage-workfront/configure-event-subscriptions-in-workfront.md).
 
 Para recibir cargas útiles de suscripciones a eventos a través del cortafuegos, debe añadir las siguientes direcciones IP a la lista de permitidos:
 
