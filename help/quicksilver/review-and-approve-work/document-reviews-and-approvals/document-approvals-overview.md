@@ -27,9 +27,9 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 061e5919fddf0c892646d1f359052b35961359b4
 workflow-type: tm+mt
-source-wordcount: '4439'
+source-wordcount: '4466'
 ht-degree: 0%
 ---
 # Resumen de revisión y aprobación unificadas
@@ -50,16 +50,18 @@ Los coordinadores de proyectos administran el trabajo en Workfront mientras los 
 
 ## Basado en el almacenamiento en la nube de Adobe
 
-La revisión y aprobación unificadas se basan en el almacenamiento en la nube de Adobe, una solución de almacenamiento basada en la nube que sirve como repositorio central de recursos en los productos empresariales de Adobe, incluidos Workfront y Frame.io. <!--, and Creative Cloud.-->
+La revisión y aprobación unificadas se basan en el almacenamiento en la nube de Adobe, una solución de almacenamiento basada en la nube que sirve como repositorio central de recursos en los productos empresariales de Adobe, incluidos Workfront, Frame.io y Creative Cloud.
 
 Las ventajas clave del almacenamiento en la nube de Adobe incluyen:
 
 * Capa de almacenamiento unificada para recursos creativos y de administración de trabajo
 * Permisos centralizados con el sistema Adobe Identity Management (IMS) para el control de acceso seguro
-* Visibilidad completa de recursos entre Workfront y Frame.io <!--, and Creative Cloud apps -->
+* Visibilidad completa de los recursos en las aplicaciones de Workfront, Frame.io y Creative Cloud
 * Almacenamiento escalable y administración de cuotas para las necesidades empresariales
 
 Para obtener más información, consulte [Información general sobre el almacenamiento en la nube de Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
+
+Las aplicaciones de Creative Cloud (Photoshop, Illustrator y InDesign) también pueden acceder directamente a los proyectos de Workfront. Para obtener más información, consulte [Resumen de proyectos de Adobe Creative Cloud](/help/quicksilver/documents/adobe-creative-cloud-projects/adobe-creative-cloud-projects-overview.md).
 
 ## Revisión y aprobación unificadas
 

@@ -26,9 +26,9 @@ topic_v2:
     internal-label: Metadata
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 061e5919fddf0c892646d1f359052b35961359b4
 workflow-type: tm+mt
-source-wordcount: '1077'
+source-wordcount: '1162'
 ht-degree: 5%
 ---
 # Administrar versiones de documentos
@@ -240,3 +240,11 @@ Workfront numera cada versión en el orden en que se carga (por ejemplo, V1, V2,
    >Al eliminar una versión, no se modifican los números de las demás versiones. Por ejemplo, si elimina la versión 3 de un documento con las versiones de la V1 a la V5, las versiones restantes conservarán sus números originales y no habrá ninguna V3 posteriormente. La próxima versión que cargue se convertirá en la versión 6.
 
 </div>
+
+### Ver el archivo actual durante una aprobación
+
+Si un documento es un archivo Creative Cloud (por ejemplo, un documento de la nube de Photoshop) y alguien lo edita mientras se realiza la aprobación, Workfront muestra una sección **Archivo actual** con un distintivo que indica que existen nuevas actualizaciones en el documento activo, independientemente de la versión que se esté aprobando.
+
+>[!IMPORTANT]
+>
+>**Pregunta abierta:** ¿La sección Archivo actual permanece visible de forma permanente una vez que aparece por primera vez o solo mientras haya actualizaciones sin revisar en el documento activo? Confirme con el producto antes de publicar.

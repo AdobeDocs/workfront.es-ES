@@ -30,9 +30,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 061e5919fddf0c892646d1f359052b35961359b4
 workflow-type: tm+mt
-source-wordcount: '798'
+source-wordcount: '853'
 ht-degree: 7%
 ---
 # Cargar una nueva versión del documento y solicitar una aprobación
@@ -216,6 +216,10 @@ Para agregar una nueva versión y solicitar aprobación:
 1. Haga clic en **Solicitar aprobación**.
 
    El flujo de trabajo de aprobación se inicia y los aprobadores reciben una notificación que les informa de que necesitan su aprobación en la nueva versión del documento. La versión anterior del documento está bloqueada y se retiran las aprobaciones pendientes de la versión anterior.
+
+>[!NOTE]
+>
+>Si el documento es un archivo de Creative Cloud (por ejemplo, un documento de Photoshop, Illustrator o InDesign Cloud), al crear una aprobación en él desde la aplicación de Creative Cloud se crea automáticamente una nueva versión en Workfront, lo mismo que al arrastrar y soltar una nueva versión aquí. Para obtener más información, consulte [Usar documentos de Workfront en aplicaciones de Creative Cloud](/help/quicksilver/documents/adobe-creative-cloud-projects/use-wf-documents-in-cc-apps.md).
 
 <!--
    <span class="preview">The previous version keeps its version number and its approval history, but its status changes to "Withdrawn". For more information about version numbers and status, see [Manage document versions](/help/quicksilver/documents/managing-documents/manage-document-versions.md#view-and-manage-document-versions-in-the-new-documents-area-in-preview).</span>

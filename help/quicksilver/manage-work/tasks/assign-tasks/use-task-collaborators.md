@@ -16,16 +16,24 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: ce3795d14390ccff1c66d7c6add34455c0ca4082
+source-git-commit: a4dfe29c0cf85f6029fd5f4398942c60bd3d6b5a
 workflow-type: tm+mt
-source-wordcount: '1024'
+source-wordcount: '1072'
 ht-degree: 3%
 ---
 # Usar agentes de trabajo
 
-Los agentes de trabajo son colaboradores de IA que se pueden asignar directamente a tareas de Workfront, además del revisor de IA existente que se utiliza para revisiones de documentos y recursos. Al igual que otros colaboradores de IA, los agentes de trabajo se configuran en el área de Configuración y se asignan a tareas igual que un usuario.
+{{preview-fast-release-general}}
 
-Los agentes de trabajo se conectan a los agentes configurados en Copilot Studio, Claude o Writer.
+Los agentes de trabajo son colaboradores de IA que pueden asignarse directamente a tareas y problemas de Workfront. Al igual que otros colaboradores de IA, los agentes de trabajo se configuran en el área de Configuración y se asignan a tareas igual que un usuario.
+
+Los agentes de trabajo se conectan a los agentes que ha configurado en Copilot Studio, Claude, Writer, <span class="preview">OpenAI o IBM. </span>
+
+>[!IMPORTANT]
+>
+>El escritor está desaprobando el uso de agentes. Los agentes de trabajo configurados con agentes de Writer no funcionarán después del 9 de octubre. 2026.
+>
+>Para obtener más información sobre la obsolescencia, consulte [Migración y obsolescencia de la biblioteca del agente](https://support.writer.com/articles/8335689949-migrating-no-code-agents) en la documentación de Writer.
 
 Para obtener información e instrucciones sobre cómo crear un agente de trabajo en Workfront, consulte [Configurar un agente de trabajo](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md#configure-a-work-agent) en el artículo Configurar colaboradores de IA.
 
@@ -58,7 +66,7 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
 
 ## Requisitos previos
 
-* Debe configurar un agente en Copilot, Claude o Writer.ai antes de poder utilizarlo como agente de trabajo.
+* Debe configurar un agente en Copilot, Claude, Writer.ai, OpenAI o IBM antes de poder utilizarlo como agente de trabajo en Workfront.
 
 ## Introducción al agente de trabajo
 
@@ -74,7 +82,7 @@ Algunos flujos de trabajo de ejemplo pueden incluir:
 >
 >* Los detalles específicos sobre las responsabilidades y capacidades de un agente se configuran en la aplicación en la que se crea el agente, no en Workfront.
 >* No es necesario agregar el servidor MCP de Workfront al agente utilizado como agente de trabajo y no es necesario conectarse para que funcione el agente de trabajo.
->* Actualmente, los agentes de trabajo son compatibles con los agentes creados en Copilot Studio, Claude y Writer.ai.
+>* Actualmente, los agentes de trabajo admiten agentes creados en Copilot Studio, Claude y Writer.ai, <span class="preview">OpenAI y IBM. </span>
 >* Al configurar un agente en Copilot Studio, debe establecer la seguridad en **Sin autenticación**.
 >* Para obtener información e instrucciones sobre cómo crear un agente de trabajo en Workfront, consulte [Configurar un agente de trabajo](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md#configure-a-work-agent) en el artículo Configurar colaboradores de IA.
 
@@ -86,6 +94,7 @@ Cuando un agente de trabajo comienza a trabajar en una tarea, lee automáticamen
 * Descripción de la tarea
 * Comentarios en el flujo de actualización de la tarea
 * Información de cualquier formulario personalizado adjunto a la tarea
+* <span class="preview"> documentos adjuntos</span>
 
 Esta información siempre se lee y no se puede configurar como ajuste de Workfront.
 
@@ -98,7 +107,9 @@ Esta información siempre se lee y no se puede configurar como ajuste de Workfro
 
 ## Déclencheur de inicio del agente de trabajo
 
-Cuando se asigna un agente de trabajo a una tarea, comienza a trabajar cuando se cumple cualquiera de las siguientes situaciones:
+Cuando se asigna un agente de trabajo a una tarea <span class="preview">o a un problema</span>, comienza a funcionar cuando se cumple cualquiera de las siguientes situaciones:
+
+<!--update wording to include issues when this goes to production-->
 
 * El agente de trabajo está asignado a una tarea que está lista para iniciarse. (Por ejemplo, si la tarea tiene predecesoras, las predecesoras están completas).
 * El agente de trabajo y un usuario se asignan a una tarea y el agente de trabajo se asigna primero.
@@ -114,9 +125,9 @@ Las siguientes situaciones no hacen que el agente de trabajo comience a trabajar
 * Se asigna un agente de trabajo a una tarea que ya tiene asignado un agente de trabajo. En este caso, el primer agente de trabajo asignado ya habrá comenzado el trabajo y el segundo agente de trabajo no hará nada.
 * Se asigna un agente de trabajo a una tarea que no está lista para iniciarse. (Por ejemplo, si la tarea tiene predecesoras, las predecesoras aún no están completas).
 
-## Asignar un agente de trabajo a una tarea
+## Asignar un agente de trabajo a una tarea <span class="preview">o problema</span>
 
-Los agentes de trabajo se asignan a las tareas del mismo modo que se asignan a los usuarios.
+Los agentes de trabajo se asignan a las tareas <span class="preview">o a los problemas</span> de la misma manera que se asignan los usuarios.
 
 Cuando esté buscando un agente de trabajo en la lista de usuarios asignados disponibles, el nombre del agente de trabajo es solo un nombre.
 

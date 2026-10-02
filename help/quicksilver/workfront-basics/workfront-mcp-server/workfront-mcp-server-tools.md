@@ -11,10 +11,10 @@ product_v2:
 feature_v2:
   - id: c042179c-157b-516d-b27c-e3bf303e8567
     internal-label: Get Started with Workfront
-source-git-commit: d185ddbfe7e85f214181eb9a76ff83b775abace3
+source-git-commit: ef85d371933c979faebd60bae49cb66936fd81e3
 workflow-type: tm+mt
-source-wordcount: '3020'
-ht-degree: 7%
+source-wordcount: '3093'
+ht-degree: 6%
 ---
 
 # Herramientas del servidor MCP de Adobe Workfront
@@ -50,6 +50,7 @@ Si la plataforma agéntica de IA puede encontrar elementos de Workfront pero no 
 
 | Título | Nombre de herramienta | Qué hace | Acción |
 | --- | --- | --- | --- |
+| Cargar documento en Workfront** | `upload_document_ui` | Permite cargar un archivo en un proyecto, tarea, problema, programa, portafolio o plantilla y, opcionalmente, en una carpeta. | Escritura |
 | Buscar versión del documento por nombre | `approvals_find_document_version_by_name` | Busca el identificador de la versión actual de un documento por nombre de archivo. Admite coincidencias parciales. | Leer |
 | Obtener documento por ID de versión | `approvals_get_document_by_version_id` | Obtiene detalles del documento (nombre, tamaño, fecha de carga, cargador) para un ID de versión de documento conocido. | Leer |
 | Resolver ámbito del documento | `approvals_resolve_document_scope` | Expande un proyecto o carpeta a la lista de identificadores de versión de documento que contiene. Admite ámbitos de proyecto, carpeta y carpeta por nombre. | Leer |
@@ -62,7 +63,7 @@ Si la plataforma agéntica de IA puede encontrar elementos de Workfront pero no 
 
 
 * El envío de documentos a una carpeta de AEM aún no es compatible con proyectos en Adobe Cloud Storage. Se espera compatibilidad en una versión futura.
-
+**Esta herramienta abre un panel de carga interactivo en el chat, por lo que solo funciona en herramientas compatibles con aplicaciones MCP. Actualmente, solo Claude es compatible con esta herramienta. Aparece en &quot;Herramientas interactivas&quot; en los permisos de la herramienta y solicita la aprobación de forma predeterminada.
 
 <!--
 | List AEM-linked folders* | `approvals_list_aem_linked_folders` | Lists Workfront document folders that are linked to Adobe Experience Manager. | Read |

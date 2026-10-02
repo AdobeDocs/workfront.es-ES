@@ -16,14 +16,18 @@ feature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 3cf7495f827156fabac1214b38a104ed826d558c
 workflow-type: tm+mt
-source-wordcount: '84'
+source-wordcount: '94'
 ht-degree: 4%
 ---
 # Colaboradores de IA
 
+{{preview-fast-release-general}}
+
 Los colaboradores de IA son agentes de IA que se pueden asignar a tareas del mismo modo que se asigna a una persona. Puede incluir colaboradores de IA en sus flujos de trabajo existentes, lo que permite que su equipo se centre en lo que más importa.
+
+Los tipos de colaborador de IA disponibles incluyen revisores de IA y agentes de trabajo.<!--<span class="preview">and Project Coordinators.</span>-->
 
 ## Colaboradores de IA en el trabajo
 

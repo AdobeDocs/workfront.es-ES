@@ -38,9 +38,9 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 69af10a8df4faf85df36f148c7d261eefefa951e
 workflow-type: tm+mt
-source-wordcount: '1533'
+source-wordcount: '1543'
 ht-degree: 39%
 ---
 # Configurar preferencias del sistema
@@ -226,7 +226,9 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
 
 <div class="preview">
 
-Las direcciones URL de redireccionamiento autorizadas le permiten conectar una plataforma agéntica de IA personalizada cuya URL de devolución de llamada de OAuth sea única para su organización, por ejemplo, una URL que contenga un ID de conexión o de inquilino. Para obtener más información sobre cuándo es necesario, consulte [Conectarse con OAuth](/help/quicksilver/workfront-basics/workfront-mcp-server/configure-workfront-mcp-server.md#connect-with-oauth) en [Configurar el servidor MCP de Adobe Workfront](/help/quicksilver/workfront-basics/workfront-mcp-server/configure-workfront-mcp-server.md).
+Las URL de redireccionamiento autorizadas le permiten conectar una plataforma agéntica de IA personalizada cuya URL de devolución de llamada de OAuth sea única para su organización, como una URL que contenga un ID de conexión o de inquilino.
+
+Para obtener más información sobre cuándo es posible que necesite una URL de redireccionamiento autorizada, consulte [Conectar con OAuth](/help/quicksilver/workfront-basics/workfront-mcp-server/configure-workfront-mcp-server.md#connect-with-oauth) en [Configuración del servidor MCP de Adobe Workfront](/help/quicksilver/workfront-basics/workfront-mcp-server/configure-workfront-mcp-server.md).
 
 +++ Amplíe para ver instrucciones paso a paso para administrar las direcciones URL de redireccionamiento autorizadas para MCP.
 
@@ -238,12 +240,11 @@ Para agregar una dirección URL:
 1. Escriba la llamada de retorno **URL**.
 1. Haga clic en **Add**.
 1. Haga clic en **Guardar**.
+1. Para quitar una dirección URL, abre **Administrar direcciones URL**, quita la entrada y haz clic en **Guardar**. Esto puede ser necesario cuando una integración asociada está retirada o comprometida.
 
 >[!IMPORTANT]
 >
->Las URL de devolución de llamada deben coincidir exactamente. Workfront no admite la coincidencia de caracteres comodín o prefijo en las direcciones URL de devolución de llamada personalizadas.
-
-Para quitar una dirección URL (por ejemplo, si la integración asociada está retirada o comprometida), abre **Administrar direcciones URL**, quita la entrada y haz clic en **Guardar**.
+>Las URL de devolución de llamada deben coincidir exactamente, incluidos los parámetros de URL. Workfront no admite la coincidencia de caracteres comodín o prefijo en las direcciones URL de devolución de llamada personalizadas.
 
 +++
 
