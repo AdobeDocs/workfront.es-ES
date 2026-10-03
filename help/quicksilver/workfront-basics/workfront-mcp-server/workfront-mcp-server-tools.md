@@ -11,9 +11,9 @@ product_v2:
 feature_v2:
   - id: c042179c-157b-516d-b27c-e3bf303e8567
     internal-label: Get Started with Workfront
-source-git-commit: ef85d371933c979faebd60bae49cb66936fd81e3
+source-git-commit: 1043dde02b6d66f9a0d041846b74184013989764
 workflow-type: tm+mt
-source-wordcount: '3093'
+source-wordcount: '3281'
 ht-degree: 6%
 ---
 
@@ -28,6 +28,19 @@ Para obtener información sobre cómo usar estas herramientas a través de una p
 >[!IMPORTANT]
 >
 >La plataforma agéntica de IA actúa en Workfront con la cuenta de Workfront, el nivel de acceso y los permisos de objeto. Una herramienta solo funciona si tiene el acceso correspondiente en Workfront. Adobe no se responsabiliza por los cambios que realice la plataforma agéntica de IA en sus datos de Workfront.
+
+## Cómo afectan las autorizaciones de productos a la lista de herramientas
+
+Las herramientas que aparecen en la plataforma agéntica de IA dependen de las autorizaciones de producto de Workfront de su organización.
+
+* Los clientes con licencia exclusiva para Workfront Planning ven Herramientas de Planning, pero no Herramientas de flujo de trabajo.
+* Los clientes con licencia solo para el flujo de trabajo de Workfront ven Herramientas de flujo de trabajo, pero no Herramientas de planificación.
+* Los clientes con licencia para Workfront Workflow y Workfront Planning ven ambos conjuntos de herramientas.
+* Las herramientas de perspectivas y contexto están disponibles para todos los clientes.
+
+Si su organización no tiene derecho a un área de producto, las herramientas relacionadas no aparecen en la lista de herramientas para esa conexión. Si una plataforma agéntica de IA intenta llamar a una herramienta que no está disponible para sus derechos, la solicitud se bloquea.
+
+Las siguientes tablas identifican el área de producto a la que pertenece cada herramienta.
 
 
 ## Leer y escribir acciones
@@ -45,6 +58,10 @@ El administrador de Workfront controla qué categorías de herramientas puede ut
 Si la plataforma agéntica de IA puede encontrar elementos de Workfront pero no puede crearlos, actualizarlos o eliminarlos, pídale al administrador de Workfront que habilite las acciones de escritura. Para obtener más información, consulte [Requisitos previos de administración](/help/quicksilver/workfront-basics/workfront-mcp-server/configure-workfront-mcp-server.md#admin-prerequisites) en *Configuración del servidor MCP de Adobe Workfront*.
 
 ## Herramientas de aprobaciones
+
+Requisito del producto: Todos los clientes
+
+Actualmente no existen limitaciones de derechos en las herramientas de aprobaciones.
 
 ### Documentos
 
@@ -123,6 +140,8 @@ Si la plataforma agéntica de IA puede encontrar elementos de Workfront pero no 
 | Encontrar proyectos | `approvals_find_projects` | Obsoleto. Utilice `insights_find_workfront_data` en su lugar. Esta herramienta buscó proyectos de Workfront, filtrados opcionalmente por nombre o restringidos a proyectos que posee el usuario que realiza la llamada. | Leer |
 
 ## Herramientas de planificación
+
+Requisito del producto: Workfront Planning
 
 >[!IMPORTANT]
 >
@@ -208,6 +227,8 @@ Si la plataforma agéntica de IA puede encontrar elementos de Workfront pero no 
 
 ## Herramientas de flujo de trabajo
 
+Requisitos del producto: Flujo de trabajo de Workfront
+
 Las herramientas de flujo de trabajo son las acciones de uso general que utiliza la plataforma agéntica de IA para trabajar con cualquier objeto de Workfront: proyectos, tareas, problemas, horas, asignaciones, programas, portafolios, etc.
 
 ### Objetos y campos
@@ -291,6 +312,8 @@ Ejemplos de peticiones de datos:
 
 ### Herramientas de perspectivas
 
+Requisito del producto: flujo de trabajo de Workfront o planificación de Workfront.
+
 Las herramientas de perspectivas recuperan información sobre los objetos de Workfront.
 
 >[!NOTE]
@@ -311,6 +334,8 @@ Las herramientas de perspectivas recuperan información sobre los objetos de Wor
 
 ## Herramientas de comentarios
 
+Requisito del producto: flujo de trabajo de Workfront o planificación de Workfront.
+
 Las <span class="preview">herramientas de comentarios le permiten informar sobre su experiencia con el servidor MCP de Workfront directamente desde su plataforma independiente.</span>
 
 | Título | Nombre de herramienta | Qué hace | Acción |
@@ -318,6 +343,8 @@ Las <span class="preview">herramientas de comentarios le permiten informar sobre
 | <span class="preview">Compartir comentarios</span> | <span class="preview">`share_feedback`</span> | <span class="preview">Registra la opinión de la que se informó y lo que ocurrió durante la conversación, para que se puedan mejorar las herramientas de MCP de Workfront. Solo se usa cuando se le pide explícitamente que comparta comentarios (por ejemplo, &quot;compartir comentarios&quot; o &quot;informar de un error&quot;).</span> | <span class="preview">Write</span> |
 
 ## Herramientas de informes
+
+Requisito del producto: Todos los clientes
 
 Las herramientas de creación de informes le permiten crear y administrar paneles de lienzo a través del chat. Describa el informe que desea en un lenguaje sencillo y la plataforma agéntica de IA crea el tablero y los widgets con los datos de Workfront.
 
@@ -336,7 +363,9 @@ Las herramientas de creación de informes le permiten crear y administrar panele
 
 ## Actualización de las herramientas
 
-Cuando Adobe lanza una nueva versión del servidor MCP de Workfront, la plataforma agéntica de IA utiliza el conjunto de herramientas actualizado automáticamente. No es necesario que vuelva a conectarse o cambie nada de su lado.
+Cuando Adobe lanza una nueva versión del servidor MCP de Workfront, la plataforma agéntica de IA utiliza el conjunto de herramientas actualizado automáticamente.
+
+La lista de herramientas se establece cuando se inicia la conexión. Si las autorizaciones de productos de su organización cambian, la lista de herramientas actualizada aparecerá la próxima vez que inicie una nueva conexión al servidor MCP de Workfront.
 
 
 

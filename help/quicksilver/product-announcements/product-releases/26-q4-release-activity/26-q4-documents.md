@@ -13,9 +13,9 @@ feature_v2:
 subfeature_v2:
   - id: a29813d3-f0cc-4b60-9396-13b558370803
     internal-label: Product announcements
-source-git-commit: deeb63ceccc28b8f376713d4a6fb6c103ab4e06b
+source-git-commit: c1c304ec49cb1b93e15358bee4a39e67abdec6d6
 workflow-type: tm+mt
-source-wordcount: '1617'
+source-wordcount: '1630'
 ht-degree: 3%
 ---
 # Mejoras en los documentos del cuarto trimestre de 2026
@@ -204,8 +204,8 @@ For more information, see [Review and approve documents](/help/quicksilver/docum
 >[!NOTE]
 >
 >Vista previa: N/D
->Versión rápida de producción: 17 de septiembre de 2026
 >Producción para todos: 15 de octubre de 2026
+>Esta función no se publicó en la versión rápida de producción del 17 de septiembre de 2026, tal como se planeó originalmente. Ahora estará disponible en el entorno de producción para todos el 15 de octubre de 2026.
 
 Cuando se establece un mensaje personalizado en la aprobación de un documento, ese mensaje ahora también aparece en la línea de asunto del correo electrónico de solicitud de aprobación, precedido de la fecha de vencimiento cuando se establece una. Esto permite a los revisores ver qué necesita atención y por cuándo directamente desde su bandeja de entrada, sin abrir el correo electrónico.
 

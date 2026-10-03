@@ -1,8 +1,8 @@
 ---
 product-area: Canvas Dashboards
 navigation-topic: report-types
-title: Generar un informe en un panel de lienzo
-description: Puede duplicar un informe en un panel de lienzo.
+title: Copia y movimiento de informes en paneles de lienzo
+description: Puede copiar o mover un informe entre paneles de lienzo.
 author: Courtney
 feature: Reports and Dashboards
 exl-id: e0f9d091-bb89-4c5b-a18d-b1e339084e67
@@ -25,12 +25,14 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 45491118778279522358f87c1c4185c4cf824829
 workflow-type: tm+mt
-source-wordcount: '367'
-ht-degree: 28%
+source-wordcount: '693'
+ht-degree: 15%
 ---
-# Generar un informe en un panel de lienzo
+# Copia y movimiento de informes en paneles de lienzo
+
+{{highlighted-preview}}
 
 >[!IMPORTANT]
 >
@@ -91,7 +93,7 @@ Debe agregar un informe a un panel para poder duplicarlo.
 
 Para obtener más información, consulte [Crear un panel de lienzo](/help/quicksilver/reports-and-dashboards/canvas-dashboards/create-dashboards/create-dashboards.md).
 
-## Duplicación de un informe
+## Duplicación de un informe en producción
 
 {{step1-to-dashboards}}
 
@@ -109,3 +111,53 @@ Para obtener más información, consulte [Crear un panel de lienzo](/help/quicks
    >Estas pestañas variarán según si ha duplicado un informe de KPI, tabla o gráfico.  Para obtener más información, consulte [Crear un informe KPI en un panel de lienzo](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-kpi-report.md), [Crear un informe de gráfico en un panel de lienzo](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-chart-report.md) y [Crear un informe de tabla en un panel de lienzo](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-table-report.md).
 
 1. Haga clic en **Guardar**. El informe duplicado aparecerá en el tablero.
+
+<div class="preview">
+
+## Copiar o mover un informe en vista previa
+
+Puede copiar un informe en el tablero actual, copiarlo en otro tablero o moverlo a otro tablero. Copiar crea un duplicado del informe en el destino; al moverlo, se reubica fuera del panel actual.
+
+>[!IMPORTANT]
+>
+>* Para copiar un informe, necesita permisos de administración en el panel de destino.
+>* Para mover un informe, necesita el acceso de Administración a los paneles de origen y destino.
+>* Si el informe tiene configurada una opción Ejecutar como usuario y usted no es administrador del sistema ni el usuario Ejecutar como, podrá copiarlo o moverlo, pero la opción Ejecutar como usuario se eliminará del informe resultante.
+
+
+Para copiar o mover un informe:
+
+{{step1-to-dashboards}}
+
+1. En el panel izquierdo, haga clic en **Paneles de control de lienzo**.
+1. Abra el tablero que contiene el informe.
+1. Haga clic en el icono **Más** ![Más botón](assets/more-icon.png) en la esquina superior derecha del informe y, a continuación, seleccione **Copiar informe**.
+
+   ![Copiar opción de informe](assets/copy-report-button.png)
+
+1. En el cuadro de diálogo **Copiar informe**, elija una de las siguientes opciones:
+
+   <table>
+   <tr>
+   <td><strong>Copiar</strong></td>
+   <td>Haga clic en <strong>Copiar</strong> en la parte inferior de la pantalla para copiar el informe. El tablero actual está seleccionado de forma predeterminada. Para copiar un informe, es necesario que tenga acceso de Administración al panel.</td>
+   </tr>
+   <tr>
+   <td><strong>Copiar y mover</strong></td>
+   <td>Seleccione un tablero de destino diferente para copiar el informe y moverlo a un tablero nuevo. El informe original permanece en el tablero actual.Para copiar y mover un informe, necesita el acceso de Administración al panel de destino. </td>
+   </tr>
+   <tr>
+   <td><strong>Mover</strong></td>
+   <td>Seleccione un tablero de destino diferente al que mover el informe. Esto reubica el informe en el panel de destino y lo elimina del panel actual. Para mover un informe, necesita el acceso de Administración a los paneles de origen y destino.</td>
+   </tr>
+   </table>
+
+   >[!NOTE]
+   >
+   >Si el informe tiene configurada la opción Ejecutar como usuario y usted no es administrador del sistema o no es el usuario que ha establecido la opción Ejecutar como usuario, podrá copiar o mover el informe. La opción Ejecutar como usuario se elimina del informe resultante.
+
+1. Haga clic en **Guardar**.
+
+   ![copiar y mover](assets/copy-and-move.png)
+
+</div>

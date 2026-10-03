@@ -13,7 +13,7 @@ feature_v2:
 subfeature_v2:
   - id: a29813d3-f0cc-4b60-9396-13b558370803
     internal-label: Product announcements
-source-git-commit: 650684e66eb10bf2afacd88038d06a88b3308df4
+source-git-commit: c1c304ec49cb1b93e15358bee4a39e67abdec6d6
 workflow-type: tm+mt
 source-wordcount: '3473'
 ht-degree: 8%
@@ -452,7 +452,7 @@ Se celebran seminarios web en directo para cada versión trimestral, en los que 
                 <p>Un mensaje personalizado configurado en la aprobación de un documento ahora también aparece en la línea de asunto del correo electrónico de solicitud de aprobación.</p>
             </td>
             <td><p>N/D</p></td>
-            <td><p>17 de septiembre de 2026</p></td>
+            <td><p>15 de octubre de 2026</p></td>
             <td><p>15 de octubre de 2026</p></td>
         </tr>
         <tr>
