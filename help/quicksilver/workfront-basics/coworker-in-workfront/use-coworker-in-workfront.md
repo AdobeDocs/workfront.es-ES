@@ -32,7 +32,7 @@ Al utilizar Compañero de trabajo en Workfront, puede trabajar con información 
 
 Como Coworker forma parte del ecosistema de Adobe CX Enterprise más amplio, puede utilizarlo para trabajar con información y objetos en otros productos de Adobe, ya sea en el carril derecho de Workfront o puede saltar de Workfront a la interfaz de CX Coworker de Adobe.
 
-Para obtener más información sobre el Compañero de trabajo y sus capacidades fuera de Workfront, consulte [Resumen de chat de Adobe CX Enterprise Coworker](https://experienceleague.adobe.com/en/docs/cx-enterprise-coworker/content/chat/overview).
+Para obtener más información sobre el Compañero de trabajo y sus capacidades fuera de Workfront, consulte [Resumen de chat de Adobe CX Enterprise Coworker](https://experienceleague.adobe.com/es/docs/cx-enterprise-coworker/content/chat/overview).
 
 
 ## Requisitos de acceso
