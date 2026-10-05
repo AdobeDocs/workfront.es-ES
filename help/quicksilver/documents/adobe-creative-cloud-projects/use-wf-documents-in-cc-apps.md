@@ -14,10 +14,10 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: deeb63ceccc28b8f376713d4a6fb6c103ab4e06b
+source-git-commit: e8e94a483c700dc00466ce7fa37f9ddaf3e86004
 workflow-type: tm+mt
-source-wordcount: '337'
-ht-degree: 7%
+source-wordcount: '608'
+ht-degree: 3%
 ---
 # Uso de documentos de Workfront en aplicaciones de Creative Cloud
 
@@ -77,11 +77,45 @@ Para acceder a un proyecto de Workfront en Photoshop, Illustrator o InDesign:
 >
 >Para editar un tipo de archivo que Photoshop, Illustrator o InDesign no puedan abrir, como un documento de Word o Excel, use Adobe Cloud Drive en su lugar. Para obtener más información, consulte [Información general sobre Adobe Cloud Drive](/help/quicksilver/documents/adobe-cloud-drive/adobe-cloud-drive-overview.md).
 
+## Guardar un nuevo documento en Workfront desde una aplicación de Creative Cloud
+
+1. Abra Photoshop, Illustrator o InDesign y cree un nuevo archivo.
+1. En el menú superior, seleccione **Archivo > Guardar como**.
+1. En el cuadro de diálogo **Guardar como**, seleccione **Guardar en documentos de la nube** y, a continuación, elija el proyecto de Workfront que necesite.
+
+   >[!NOTE]
+   >
+   >Al guardar un documento que ya se encuentra en el proyecto de Workfront, el cuadro de diálogo Guardar como no se abre. Puede seleccionar un proyecto de Workfront, guardarlo en una carpeta diferente o elegir un proyecto de Workfront diferente.
+
+
+   ![guardar nuevo documento en workfront](assets/save-new-to-wf.png)
+
+1. Elija una carpeta de documentos y haga clic en **Guardar**. Si no elige una carpeta, el documento se guarda en la carpeta raíz del proyecto.
+
+   ![elija una carpeta para guardar el nuevo documento en workfront](assets/save-to-folder.png)
+
 ## Solicitar una aprobación de un documento
 
 Puede agregar una aprobación de documento en Workfront a cualquier documento que haya cargado desde Photoshop, Illustrator o InDesign, o desde Adobe Cloud Drive, igual que cualquier otro documento. Para obtener más información, consulte [Crear un flujo de trabajo de aprobación de documentos](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md).
 
-<!--
-need to verify
-Creating an approval on a Creative Cloud document also creates a new version of the document. For more information, see [Manage document versions](/help/quicksilver/documents/managing-documents/manage-document-versions.md#view-the-current-file-during-an-approval).
--->
+
+
+## Administrar versiones de un documento en Workfront desde una aplicación de Creative Cloud
+
+Al guardar un documento de Photoshop, Illustrator o InDesign en Workfront, los cambios que guarde aparecerán en el archivo Actual en la pestaña Versiones y se marcarán con el distintivo &quot;Nuevos cambios&quot;.
+
+Puede solicitar una aprobación sobre el archivo actual en lugar de cargar una nueva versión del documento. Para obtener más información, consulte [Solicitar aprobación para el archivo actual](#request-approval-on-the-current-file).
+
+![archivo actual con nuevo distintivo de cambios](assets/current-file.png)
+
+### Solicitar aprobación para el archivo actual
+
+Para solicitar una aprobación sobre el archivo actual de un documento en Workfront:
+
+1. Vaya al proyecto de Workfront que contiene el documento sobre el que desea solicitar una aprobación.
+1. Abra el documento y vaya a la ficha **Versiones**.
+1. En el archivo Actual, haga clic en el menú **Más** y, a continuación, en **Solicitar aprobación**.
+1. En el cuadro de diálogo **Solicitar aprobación**, siga los pasos de [Crear un flujo de trabajo de aprobación de documento](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md) para crear la aprobación.
+
+   ![solicitar aprobación para el archivo actual](assets/request-update-on-current-file.png)
+
