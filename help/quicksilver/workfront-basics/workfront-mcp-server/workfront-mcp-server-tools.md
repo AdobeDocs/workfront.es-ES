@@ -11,9 +11,9 @@ product_v2:
 feature_v2:
   - id: c042179c-157b-516d-b27c-e3bf303e8567
     internal-label: Get Started with Workfront
-source-git-commit: 1043dde02b6d66f9a0d041846b74184013989764
+source-git-commit: 3a1a64a53cd3717840cd45d5792c1c16d2e40bde
 workflow-type: tm+mt
-source-wordcount: '3281'
+source-wordcount: '3349'
 ht-degree: 6%
 ---
 
@@ -369,11 +369,15 @@ La lista de herramientas se establece cuando se inicia la conexión. Si las auto
 
 
 
+## Telemetría por intención
+
+El servidor MCP de Workfront rastrea la intención del usuario para los clientes. Los datos por intención recopilados son genéricos para fines de telemetría y solo se recopilan por intención de un usuario en relación con el producto de Workfront. La telemetría por intención de solicitud solo se utiliza para mejorar las herramientas de MCP existentes a fin de proporcionar respuestas más precisas.
+
+Los usuarios pueden deshabilitar la recopilación de telemetría poniéndose en contacto con el servicio de atención al cliente para presentar una solicitud.
+
+
 ## Herramientas adicionales próximamente
 
 Estamos trabajando para agregar las siguientes herramientas al servidor MCP de Workfront en el futuro:
 
 * Tableros
-
-
-
