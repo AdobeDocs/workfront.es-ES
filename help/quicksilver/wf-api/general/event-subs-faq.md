@@ -22,10 +22,10 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 461daa394cf7b7e3481e35f1af8436492e47cc0f
 workflow-type: tm+mt
-source-wordcount: '987'
-ht-degree: 94%
+source-wordcount: '984'
+ht-degree: 92%
 ---
 # Preguntas frecuentes: suscripciones a eventos
 
@@ -82,7 +82,7 @@ Algunos de los siguientes escenarios podrían ser responsables:
 
   * Una URL de suscripción a eventos se desactivará si se cumple cualquiera de las siguientes condiciones:
 
-    * La URL de suscripción no se ha podido entregar durante 7 días y ha fallado al menos 2000 intentos de entrega consecutivos en las últimas 72 horas.
+    * La URL de suscripción no se ha podido entregar durante al menos 72 horas y ha fallado más de 2000 intentos de entrega consecutivos.
     * La URL de suscripción no ha podido ofrecer 50 000 intentos consecutivos.
 
 ## ¿Qué debo hacer si recibo un estado de respuesta 500 al intentar llamar a la API de suscripción a evento?
