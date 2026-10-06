@@ -33,7 +33,7 @@ role_v2:
 source-git-commit: bc354886dc8c2f1dae24513f1d74e800e19fb3ab
 workflow-type: tm+mt
 source-wordcount: '958'
-ht-degree: 3%
+ht-degree: 4%
 ---
 # Introducción al Revisor de IA de Workfront
 
@@ -62,7 +62,7 @@ Para obtener más información sobre la firma del acuerdo, consulte [Firmar el a
 >[!CONTEXTUALHELP]
 >id="wf_document_approvals_ai_supported_files"
 >title="Tipo de archivo no compatible"
->abstract="Este comprobador por IA no admite el tipo de archivo seleccionado. Cargue un tipo de archivo compatible o elimine el Revisor de IA para enviar la solicitud."
+>abstract="Este comprobador por IA no admite el tipo de archivo seleccionado. Cargue un tipo de archivo compatible o elimine el comprobador por IA para enviar la solicitud."
 
 El revisor de IA puede revisar los siguientes tipos de archivos:
 
