@@ -10,9 +10,9 @@ product_v2:
 feature_v2:
   - id: c042179c-157b-516d-b27c-e3bf303e8567
     internal-label: Get Started with Workfront
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 5a341c85166860ce88cbda7dff17efbadcafaddb
 workflow-type: tm+mt
-source-wordcount: '252'
+source-wordcount: '251'
 ht-degree: 7%
 ---
 # Aptitudes de CX Coworker
@@ -25,7 +25,7 @@ ht-degree: 7%
 
 Este artículo enumera las aptitudes que están disponibles actualmente para CX Coworker en Workfront.
 
-Las habilidades cubiertas por estas habilidades están disponibles en CX Coworker a través de la interfaz conversacional y no es necesario llamar a estas habilidades directamente. Sin embargo, si desea llamar a las aptitudes directamente, puede hacerlo en el panel Compañero de trabajo escribiendo una barra `/` y el nombre de la aptitud.
+Las habilidades cubiertas por estas habilidades están disponibles en Coworker a través de la interfaz conversacional, y no es necesario llamar a estas habilidades directamente. Sin embargo, si desea llamar a las aptitudes directamente, puede hacerlo en el panel Compañero de trabajo escribiendo una barra `/` y el nombre de la aptitud.
 
 Por ejemplo, consulte las indicaciones en el artículo [Usar el servidor MCP de Adobe Workfront](/help/quicksilver/workfront-basics/workfront-mcp-server/use-workfront-mcp-server.md).
 

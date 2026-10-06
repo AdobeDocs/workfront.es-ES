@@ -22,16 +22,16 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 5a341c85166860ce88cbda7dff17efbadcafaddb
 workflow-type: tm+mt
-source-wordcount: '2100'
+source-wordcount: '2099'
 ht-degree: 4%
 ---
 # Información general del estado del proyecto
 
 >[!IMPORTANT]
 >
->* A partir de septiembre de 2026, AI Assistant pasará a ser CX Coworker, una interfaz conversacional para realizar el trabajo. Para obtener información sobre CX Coworker, consulte [Información general de CX Coworker](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md).
+>* A partir de septiembre de 2026, AI Assistant pasará a ser CX Coworker, una interfaz conversacional para realizar el trabajo. Para obtener información sobre el compañero, consulte [Información general de CX Coworker](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md).
 >* Actualmente, la función Estado del proyecto solo está disponible para los usuarios que participan en la fase beta.
 
 La función Project Health de Adobe Workfront utiliza la potencia de AI Assistant para ofrecerle instantáneamente una evaluación del rendimiento de sus proyectos, qué áreas necesitan su atención y cómo evitar problemas que pueden costarle tiempo y dinero.

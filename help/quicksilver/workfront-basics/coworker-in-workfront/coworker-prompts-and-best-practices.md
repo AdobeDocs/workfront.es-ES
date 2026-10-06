@@ -10,9 +10,9 @@ product_v2:
 feature_v2:
   - id: c042179c-157b-516d-b27c-e3bf303e8567
     internal-label: Get Started with Workfront
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 5a341c85166860ce88cbda7dff17efbadcafaddb
 workflow-type: tm+mt
-source-wordcount: '2247'
+source-wordcount: '2237'
 ht-degree: 2%
 ---
 # Preguntas frecuentes y prácticas recomendadas de CX Coworker
@@ -73,7 +73,7 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
 
 ## Consideraciones
 
-Tenga en cuenta las siguientes restricciones al utilizar CX Coworker:
+Tenga en cuenta las siguientes restricciones al utilizar Coworker:
 
 ### Reversibilidad
 
@@ -87,13 +87,13 @@ Sin embargo, algunas acciones, como la eliminación de objetos, **no** se pueden
 
 ### Limitaciones de interacción/experiencia de usuario
 
-* Actualmente, CX Coworker no &quot;aprende&quot; a largo plazo a partir del estilo o las preferencias de un usuario individual. Cada chat utiliza únicamente la conversación actual y el conocimiento del producto.
+* Actualmente, los compañeros de trabajo no &quot;aprenden&quot; a largo plazo a partir del estilo o las preferencias de un usuario individual. Cada chat utiliza únicamente la conversación actual y el conocimiento del producto.
 * El contexto de conversación se mantiene dentro de una sola sesión de chat. Al abrir una página nueva o cerrar el asistente, se restablece el historial de conversaciones.
 * Si los procedimientos de aprobación se encuentran en una aplicación externa como Confluence o SharePoint y solo están vinculados a través de campos URL, el colaborador no recupera ni razona actualmente a través de esas páginas.
 
 ### Almacenamiento de datos / Claves gestionadas por el cliente
 
-* Como CX Coworker forma parte de Adobe Experience Platform Agent Orchestrator, los datos de sus interacciones con sus colaboradores se almacenan en Adobe Experience Platform, no en Workfront. Por lo tanto, estos datos no están cubiertos por los acuerdos de Claves administradas por el cliente de Workfront (BYOK).
+* Como el colaborador forma parte de Adobe Experience Platform Agent Orchestrator, los datos de sus interacciones con el colaborador se almacenan en Adobe Experience Platform, no en Workfront. Por lo tanto, estos datos no están cubiertos por los acuerdos de Claves administradas por el cliente de Workfront (BYOK).
 
 ## Aptitudes básicas de IA de uso general
 
@@ -107,7 +107,7 @@ Para obtener prácticas recomendadas y preguntas sobre estas habilidades de uso 
 
 ### Conocimiento del producto
 
-CX Coworker puede proporcionar instrucciones o información de referencia extraída de la documentación de Workfront.
+El compañero puede proporcionar instrucciones o información de referencia extraída de la documentación de Workfront.
 
 Para obtener más información sobre cómo extraer información de la documentación de Workfront, consulte [Obtener ayuda del Asistente de IA](/help/quicksilver/workfront-basics/ai-assistant/use-ai-to-retrieve-instructions.md).
 
@@ -115,7 +115,7 @@ Ejemplo: ¿Cómo cambio el tipo de duración de la tarea?
 
 ### Resumen de proyecto, tarea y problema
 
-CX Coworker puede resumir el proyecto, las tareas o los problemas <!--, or documents--> que se han cargado a Workfront.
+El compañero puede resumir el proyecto, las tareas o los problemas <!--, or documents--> que se han cargado a Workfront.
 
 Para obtener más información acerca de los resúmenes de proyectos, tareas y problemas, vea [Resumir con el Asistente para IA](/help/quicksilver/workfront-basics/ai-assistant/summarize-this.md).
 
@@ -125,7 +125,7 @@ Ejemplo: Resuma el proyecto llamado Campaña de otoño de 2026.
 
 ### Locate work items
 
-CX Coworker can find work items like projects, tasks, and issues
+Coworker can find work items like projects, tasks, and issues
 
 Example: Find all tasks assigned to me that are due this week.
 
@@ -155,7 +155,7 @@ For more information on using Smart Filters, see [Filter your work with Smart fi
 
 -->
 
-## CX Coworker en Workfront
+## Compañeros de trabajo en Workfront
 
 * [Información del proyecto, la tarea y el problema](#project-task-and-issue-information)
 * [Administración de proyectos y trabajo](#project-and-work-management)
@@ -163,7 +163,7 @@ For more information on using Smart Filters, see [Filter your work with Smart fi
 
 ### Información del proyecto, la tarea y el problema
 
-CX Coworker puede proporcionarle información sobre el proyecto, las tareas y los problemas, incluidos los resúmenes y el estado del proyecto.
+Los compañeros de trabajo pueden proporcionarle información sobre el proyecto, las tareas y los problemas, incluidos los resúmenes y el estado del proyecto.
 
 Consulte las solicitudes de ejemplo para la aprobación de documentos y recursos en las siguientes áreas:
 
@@ -202,7 +202,7 @@ Consulte las solicitudes de ejemplo para la aprobación de documentos y recursos
 
 ### Administración de proyectos y trabajo
 
-Puede utilizar CX Coworker para crear y administrar proyectos, incluidas tareas y asignaciones.
+Puede utilizar Compañero de trabajo para crear y administrar proyectos, incluidas tareas y asignaciones.
 
 Consulte las solicitudes de ejemplo para la administración de proyectos y trabajos en las siguientes áreas:
 
@@ -266,7 +266,7 @@ Puede crear, actualizar y eliminar asignaciones de usuarios o de funciones.
 
 ### Contenido y aprobaciones
 
-CX Coworker puede ayudar a administrar las aprobaciones de documentos y recursos en Workfront.
+Sus compañeros pueden ayudarle a administrar las aprobaciones de documentos y recursos en Workfront.
 
 Tenga en cuenta lo siguiente al trabajar con aprobaciones de documentos y recursos:
 
@@ -313,7 +313,7 @@ Consulte las solicitudes de ejemplo para la aprobación de documentos y recursos
 * Actualice la plantilla &quot;Creative Review&quot; eliminando a Rick Kuvec y añadiendo a Karen Sterling a la fase 2.
 
 
-## CX Coworker en Workfront Planning
+## Compañero de trabajo en Workfront Planning
 
 ### Trabajo con registros de Planning
 

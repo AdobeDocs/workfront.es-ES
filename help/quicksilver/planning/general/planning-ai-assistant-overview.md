@@ -32,9 +32,9 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 5a341c85166860ce88cbda7dff17efbadcafaddb
 workflow-type: tm+mt
-source-wordcount: '988'
+source-wordcount: '984'
 ht-degree: 50%
 ---
 # Información general sobre el asistente de IA de Planificación de Workfront de Adobe
@@ -59,7 +59,7 @@ Los comandos del usuario y la ejecución por parte de la IA de esos comandos fun
 
 ## Requisitos de acceso
 
-+++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo. 
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
 <table style="table-layout:auto"> 
 <col> 
@@ -160,7 +160,7 @@ Puede utilizar el asistente de IA para realizar las siguientes acciones en este 
 
 >[!NOTE]
 >
-><span class="preview">Si su organización ha recibido acceso a CX Coworker, la ubicación de CX Coworker es similar a la ubicación del Asistente para IA. Para obtener más información, consulte [Descripción general de Adobe Workfront Planning CX Coworker](/help/quicksilver/planning/general/planning-cx-coworker-overview.md).</span>
+><span class="preview">Si su organización ha recibido acceso a CX Coworker, la ubicación de Compañero de trabajo es similar a la ubicación del Asistente de IA. Para obtener más información, consulte [Descripción general de Adobe Workfront Planning CX Coworker](/help/quicksilver/planning/general/planning-cx-coworker-overview.md).</span>
 
 
 Puede localizar el asistente de IA en las siguientes áreas de Workfront Planning:
