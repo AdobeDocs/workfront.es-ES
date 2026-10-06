@@ -30,9 +30,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 3934b1b333f86c8c700617871bfaac23d2b19213
+source-git-commit: 5a341c85166860ce88cbda7dff17efbadcafaddb
 workflow-type: tm+mt
-source-wordcount: '1598'
+source-wordcount: '1639'
 ht-degree: 8%
 ---
 # Introducción a Adobe Workfront Planning Designer
@@ -55,7 +55,7 @@ ht-degree: 8%
 
 Puede utilizar Adobe Planning Designer con tecnología de IA para configurar sus espacios de trabajo y estructuras de datos con facilidad. Planning Designer admite desde la creación y configuración de espacios de trabajo hasta la definición de campos y fórmulas, la administración de registros, la revisión del historial de cambios y la creación de vistas personalizadas.
 
-Ya sea que se utilice directamente, a través del Asistente de IA, o <span class="preview"> el CX Coworker</span>, Planning Designer proporciona un entorno flexible y potente para generar y mantener información estructurada y conectada.
+Ya sea que se utilice directamente, a través del Asistente de IA, o <span class="preview"> CX Coworker</span>, Planning Designer proporciona un entorno flexible y potente para generar y mantener información estructurada y conectada.
 
 Para obtener información sobre Workfront Planning, consulte los siguientes artículos:
 
@@ -63,7 +63,7 @@ Para obtener información sobre Workfront Planning, consulte los siguientes art�
 * [Introducción a Planificación de Workfront de Adobe](/help/quicksilver/planning/general/planning-overview.md)
 * [Información general de acceso a Planificación de Workfront de Adobe](/help/quicksilver/planning/access/access-overview.md)
 
-Para obtener información sobre el Asistente de IA y CX Coworker en Planning, consulte los siguientes artículos:
+Para obtener información sobre el asistente de IA y el compañero de trabajo en Planning, consulte los siguientes artículos:
 
 * [Información general sobre el asistente de IA de Planificación de Workfront de Adobe](/help/quicksilver/planning/general/planning-ai-assistant-overview.md)
 * [Información general sobre Adobe Workfront Planning CX Coworker](/help/quicksilver/planning/general/planning-cx-coworker-overview.md)
@@ -215,15 +215,15 @@ Sargis and Ashot  said these are not required:
 -->
 
 * El administrador de Workfront debe activar Planning Designer para su organización. Después de esto, Planning Designer está disponible para todos los usuarios de forma predeterminada.
-* Si su organización ha firmado un acuerdo de IA, las acciones realizadas por Planning Designer también las puede realizar el Asistente de IA o <span class="preview">CX Coworker</span>, cuando lo utilice en el área de Planning.
-* Las acciones realizadas por el Asistente de IA o <span class="preview">el CX Coworker</span> en el área de Planning o las realizadas por el Designer de Planning se encuentran en el contexto de sus permisos de Workfront Planning y su nivel de acceso de Workfront.
+* Si su organización ha firmado un acuerdo de IA, las acciones realizadas por Planning Designer también las puede realizar el Asistente de IA o <span class="preview"> Compañero de trabajo</span>, cuando lo utilice en el área de Planning.
+* Las acciones realizadas por el Asistente de IA o <span class="preview">Compañero de trabajo</span> en el área de Planning o las realizadas por Planning Designer se encuentran en el contexto de sus permisos de Workfront Planning y su nivel de acceso de Workfront.
 
   Para obtener más información, consulte los siguientes artículos:
 
   * [Información general sobre los permisos de uso compartido en Planificación de Workfront de Adobe](/help/quicksilver/planning/access/sharing-permissions-overview.md)
   * [Información general sobre el tipo de licencia al usar Planificación de Workfront de Adobe](/help/quicksilver/planning/access/license-type-overview.md)
 
-* Los cambios realizados por el Asistente de IA, <span class="preview">CX Coworker</span> o Planning Designer en nombre del usuario se rastrean en el panel del historial del registro.
+* Los cambios realizados por el Asistente de IA, <span class="preview">Compañero de trabajo,</span> o Planning Designer en nombre del usuario se rastrearán en el panel del historial del registro.
 
 * Las acciones realizadas por el Designer de Planificación son permanentes y podrían ser irreversibles. Por ejemplo, no se puede deshacer la eliminación de un campo. Revise todas las acciones propuestas por Designer antes de aceptarlas.
 
@@ -235,7 +235,7 @@ Sargis and Ashot  said these are not required:
 
 ## Funcionalidad disponible actualmente para Planning Designer
 
-Puede usar Planning Designer o el asistente de IA o <span class="preview">CX Coworker</span> para realizar cualquiera de las siguientes acciones:
+Puede usar Planning Designer, el asistente de IA o <span class="preview">Coworker,</span> para realizar cualquiera de las siguientes acciones:
 
 * Creación y configuración de espacios de trabajo
 
@@ -274,7 +274,7 @@ Puede usar Planning Designer o el asistente de IA o <span class="preview">CX Cow
 
 ## Creación o actualización de objetos mediante Planning Designer
 
-Puede crear o actualizar objetos en Workfront Planning mediante Planning Designer, el asistente de IA o <span class="preview"> CX Coworker</span>, a menos que se especifique lo contrario.
+Puede crear o actualizar objetos en Workfront Planning mediante Planning Designer, el asistente de IA o <span class="preview"> compañero</span>, a menos que se especifique lo contrario.
 
 1. Inicie sesión en Workfront, luego haga clic en el icono **Menú principal** ![Menú principal de líneas](assets/lines-main-menu.png) en la esquina superior izquierda y, a continuación, haga clic en **Planificación**.
 
@@ -288,7 +288,7 @@ Puede crear o actualizar objetos en Workfront Planning mediante Planning Designe
 
    ![Ventana de Planning Designer](assets/planning-designer-window.png)
 
-1. En el espacio proporcionado, empiece a escribir las peticiones de datos para el Ayudante de IA <span class="preview"> en CX Coworker</span> y, a continuación, haga clic en Entrar cuando haya terminado.
+1. En el espacio proporcionado, empiece a escribir las peticiones de datos para el Ayudante de IA <span class="preview"> o el Compañero de trabajo </span> y, a continuación, haga clic en Entrar cuando haya terminado.
 
    <!--add screen shot-->
 
