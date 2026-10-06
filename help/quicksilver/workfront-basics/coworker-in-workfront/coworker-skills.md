@@ -1,5 +1,5 @@
 ---
-title: Aptitudes de CX Coworker
+title: Aptitudes de CX Enterprise Coworker
 content-type: reference
 description: Obtenga información acerca de las habilidades disponibles para el colaborador en Adobe Workfront.
 author: Becky
@@ -10,20 +10,20 @@ product_v2:
 feature_v2:
   - id: c042179c-157b-516d-b27c-e3bf303e8567
     internal-label: Get Started with Workfront
-source-git-commit: 5a341c85166860ce88cbda7dff17efbadcafaddb
+source-git-commit: 2b2e58c17bdcb7c28b11bf460bad24bc1e1eb642
 workflow-type: tm+mt
-source-wordcount: '251'
+source-wordcount: '255'
 ht-degree: 7%
 ---
-# Aptitudes de CX Coworker
+# Aptitudes de CX Enterprise Coworker
 
 {{preview-fast-release-general}}
 
 >[!IMPORTANT]
 >
->CX Coworker no está disponible actualmente para organizaciones de atención médica, finanzas u otros sectores con datos confidenciales. Estas organizaciones disponen de un asistente de IA. Para obtener más información, consulte [Descripción general del Asistente de IA](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md).
+>CX Enterprise Coworker no está disponible actualmente para organizaciones de atención médica, finanzas u otros sectores con datos confidenciales. Estas organizaciones disponen de un asistente de IA. Para obtener más información, consulte [Descripción general del Asistente de IA](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md).
 
-Este artículo enumera las aptitudes que están disponibles actualmente para CX Coworker en Workfront.
+Este artículo enumera las aptitudes que están disponibles actualmente para CX Enterprise Coworker en Workfront.
 
 Las habilidades cubiertas por estas habilidades están disponibles en Coworker a través de la interfaz conversacional, y no es necesario llamar a estas habilidades directamente. Sin embargo, si desea llamar a las aptitudes directamente, puede hacerlo en el panel Compañero de trabajo escribiendo una barra `/` y el nombre de la aptitud.
 

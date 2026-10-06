@@ -1,6 +1,6 @@
 ---
 title: Introducción a Adobe Workfront Planning Designer
-description: Puede utilizar Adobe Planning Designer con tecnología de IA para configurar sus espacios de trabajo y estructuras de datos con facilidad. Planning Designer admite desde la creación y configuración de espacios de trabajo hasta la definición de campos y fórmulas, la administración de registros, la revisión del historial de cambios y la creación de vistas personalizadas. Ya sea que se utilice directamente o a través del Asistente de IA o CX Coworker, Planning Designer proporciona un entorno flexible y potente para crear y mantener información estructurada y conectada.
+description: Puede utilizar Adobe Planning Designer con tecnología de IA para configurar sus espacios de trabajo y estructuras de datos con facilidad. Planning Designer admite desde la creación y configuración de espacios de trabajo hasta la definición de campos y fórmulas, la administración de registros, la revisión del historial de cambios y la creación de vistas personalizadas. Ya sea que se utilice directamente o a través del Asistente de IA o CX Enterprise Coworker, Planning Designer proporciona un entorno flexible y potente para crear y mantener información estructurada y conectada.
 recommendations: noDisplay, noCatalog
 author: Alina, Becky
 feature: Workfront Planning
@@ -30,9 +30,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 5a341c85166860ce88cbda7dff17efbadcafaddb
+source-git-commit: 2b2e58c17bdcb7c28b11bf460bad24bc1e1eb642
 workflow-type: tm+mt
-source-wordcount: '1639'
+source-wordcount: '1642'
 ht-degree: 8%
 ---
 # Introducción a Adobe Workfront Planning Designer
@@ -55,7 +55,7 @@ ht-degree: 8%
 
 Puede utilizar Adobe Planning Designer con tecnología de IA para configurar sus espacios de trabajo y estructuras de datos con facilidad. Planning Designer admite desde la creación y configuración de espacios de trabajo hasta la definición de campos y fórmulas, la administración de registros, la revisión del historial de cambios y la creación de vistas personalizadas.
 
-Ya sea que se utilice directamente, a través del Asistente de IA, o <span class="preview"> CX Coworker</span>, Planning Designer proporciona un entorno flexible y potente para generar y mantener información estructurada y conectada.
+Ya sea que se utilice directamente, a través del Asistente de IA, o <span class="preview"> CX Enterprise Coworker</span>, Planning Designer proporciona un entorno flexible y potente para generar y mantener información estructurada y conectada.
 
 Para obtener información sobre Workfront Planning, consulte los siguientes artículos:
 
@@ -66,7 +66,7 @@ Para obtener información sobre Workfront Planning, consulte los siguientes art�
 Para obtener información sobre el asistente de IA y el compañero de trabajo en Planning, consulte los siguientes artículos:
 
 * [Información general sobre el asistente de IA de Planificación de Workfront de Adobe](/help/quicksilver/planning/general/planning-ai-assistant-overview.md)
-* [Información general sobre Adobe Workfront Planning CX Coworker](/help/quicksilver/planning/general/planning-cx-coworker-overview.md)
+* [Información general sobre Adobe Workfront Planning CX Enterprise Coworker](/help/quicksilver/planning/general/planning-cx-coworker-overview.md)
 
 ## Requisitos de acceso
 
