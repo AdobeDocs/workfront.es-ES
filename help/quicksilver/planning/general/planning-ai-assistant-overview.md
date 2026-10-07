@@ -32,9 +32,9 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 5a341c85166860ce88cbda7dff17efbadcafaddb
+source-git-commit: 2b2e58c17bdcb7c28b11bf460bad24bc1e1eb642
 workflow-type: tm+mt
-source-wordcount: '984'
+source-wordcount: '988'
 ht-degree: 50%
 ---
 # Información general sobre el asistente de IA de Planificación de Workfront de Adobe
@@ -55,7 +55,7 @@ Los comandos del usuario y la ejecución por parte de la IA de esos comandos fun
 
 >[!IMPORTANT]
 >
-><span class="preview">En algunas organizaciones, el Asistente para IA fue reemplazado por CX Coworker. Para obtener más información, consulte [Descripción general de Adobe Workfront Planning CX Coworker](/help/quicksilver/planning/general/planning-cx-coworker-overview.md).</span>
+><span class="preview">En algunas organizaciones, el Asistente para IA fue reemplazado por CX Enterprise Coworker. Para obtener más información, consulte [Descripción general de Adobe Workfront Planning CX Enterprise Coworker](/help/quicksilver/planning/general/planning-cx-coworker-overview.md).</span>
 
 ## Requisitos de acceso
 
@@ -160,7 +160,7 @@ Puede utilizar el asistente de IA para realizar las siguientes acciones en este 
 
 >[!NOTE]
 >
-><span class="preview">Si su organización ha recibido acceso a CX Coworker, la ubicación de Compañero de trabajo es similar a la ubicación del Asistente de IA. Para obtener más información, consulte [Descripción general de Adobe Workfront Planning CX Coworker](/help/quicksilver/planning/general/planning-cx-coworker-overview.md).</span>
+><span class="preview">Si su organización ha recibido acceso a CX Enterprise Coworker, la ubicación de Compañero de trabajo es similar a la ubicación del Asistente de IA. Para obtener más información, consulte [Descripción general de Adobe Workfront Planning CX Enterprise Coworker](/help/quicksilver/planning/general/planning-cx-coworker-overview.md).</span>
 
 
 Puede localizar el asistente de IA en las siguientes áreas de Workfront Planning:

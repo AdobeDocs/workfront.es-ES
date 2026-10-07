@@ -2,10 +2,10 @@
 product-area: documents
 navigation-topic: approvals
 title: Creación de una aprobación agrupada
-description: Puede agrupar varios recursos en un único flujo de trabajo de aprobación para que se muevan por las mismas fases.
+description: Puede agrupar varios documentos en un único flujo de trabajo de aprobación para que se muevan por las mismas fases.
 author: Courtney
 feature: Work Management, Digital Content and Documents
-source-git-commit: f55042154ac3d93544c152b7b1ad26746a209772
+source-git-commit: 31bba5df6f491bfd048c1005ecd5330d3321e748
 workflow-type: tm+mt
 source-wordcount: '1173'
 ht-degree: 3%
@@ -15,7 +15,7 @@ ht-degree: 3%
 
 <span class="preview">La información de esta página no está disponible en el entorno de vista previa de espacio aislado porque la integración de Frame.io no está disponible allí. Esta funcionalidad estará disponible en los entornos de producción el 14 y 15 de octubre de 2026.</span>
 
-Una aprobación agrupada agrupa varios recursos en un solo flujo de trabajo de aprobación. Puede utilizar los modos Básico y Avanzado, varias etapas y rutas paralelas con aprobaciones agrupadas, igual que con las aprobaciones de un solo recurso.
+Una aprobación agrupada agrupa varios documentos en un solo flujo de trabajo de aprobación. Puede utilizar los modos Básico y Avanzado, varias fases y rutas paralelas con aprobaciones agrupadas, igual que con las aprobaciones de un solo documento.
 
 Las aprobaciones agrupadas solo están disponibles en la nueva área de Documentos, que aparece cuando su organización utiliza el almacenamiento en la nube de Adobe. Para obtener más información, consulte [Información general sobre el almacenamiento en la nube de Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
@@ -60,9 +60,9 @@ Para crear una aprobación agrupada de una sola etapa:
 
 1. Vaya al proyecto, tarea o problema que contiene los documentos y, a continuación, seleccione **Documentos** en el panel izquierdo.
 
-1. Haga clic en el primer recurso que desee incluir y, a continuación, pulse Mayús y haga clic en los recursos adicionales para seleccionar varios.
+1. Haga clic en el primer documento que desee incluir y, a continuación, pulse Mayús y haga clic en los documentos adicionales para seleccionar varios documentos.
 
-1. Con los recursos seleccionados, haga clic en **Solicitar aprobación** en el menú inferior. El cuadro de diálogo **Solicitar aprobación** se abre en el modo Básico.
+1. Con los documentos seleccionados, haga clic en **Solicitar aprobación** en el menú inferior. El cuadro de diálogo **Solicitar aprobación** se abre en el modo Básico.
 
    ![crear una aprobación agrupada](assets/requeset-grouped-approval.png)
 
@@ -92,7 +92,7 @@ Para crear una aprobación agrupada de una sola etapa:
    </tr>
    </table>
 
-1. (Opcional) Haga clic en la ficha **Documentos** para revisar los recursos incluidos en esta aprobación.
+1. (Opcional) Haga clic en la ficha **Documentos** para revisar los documentos incluidos en esta aprobación.
 
 1. Haga clic en **Solicitar aprobación**.
 
@@ -112,9 +112,9 @@ Para crear una aprobación agrupada avanzada:
 
 1. Vaya al proyecto, tarea o problema que contiene los documentos y, a continuación, seleccione **Documentos** en el panel izquierdo.
 
-1. Haga clic en el primer recurso que desee incluir y, a continuación, pulse Mayús y haga clic en los recursos adicionales para seleccionar varios.
+1. Haga clic en el primer documento que desee incluir y, a continuación, pulse Mayús y haga clic en los documentos adicionales para seleccionar varios documentos.
 
-1. Con los recursos seleccionados, haga clic en **Solicitar aprobación** en el menú inferior.
+1. Con los documentos seleccionados, haga clic en **Solicitar aprobación** en el menú inferior.
 
    ![crear una aprobación agrupada](assets/requeset-grouped-approval.png)
 
@@ -167,7 +167,7 @@ Para crear una aprobación agrupada avanzada:
 
 1. (Opcional) Para borrar todas las rutas y etapas y volver a empezar, haga clic en **Restablecer** en la esquina superior derecha.
 
-1. (Opcional) Haga clic en la ficha **Documentos** para revisar los recursos incluidos en esta aprobación.
+1. (Opcional) Haga clic en la ficha **Documentos** para revisar los documentos incluidos en esta aprobación.
 
 1. Haga clic en **Solicitar aprobación**.
 
@@ -194,4 +194,4 @@ To add an additional document to a grouped approval:
 ## Limitaciones conocidas
 
 * Actualmente, no se pueden agregar ni eliminar documentos de un flujo de trabajo de aprobación agrupado una vez creado. Esta funcionalidad está planificada para una versión futura.
-* Las aprobaciones agrupadas están limitadas temporalmente a 3 rutas y 25 recursos por grupo.
+* Las aprobaciones agrupadas están limitadas temporalmente a 3 rutas y 25 documentos por grupo.

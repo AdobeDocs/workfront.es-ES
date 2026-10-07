@@ -19,10 +19,10 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 5a341c85166860ce88cbda7dff17efbadcafaddb
+source-git-commit: 2b2e58c17bdcb7c28b11bf460bad24bc1e1eb642
 workflow-type: tm+mt
-source-wordcount: '1000'
-ht-degree: 1%
+source-wordcount: '1002'
+ht-degree: 0%
 ---
 
 # Introducción al espacio de ideación para Adobe Workfront Planning
@@ -155,9 +155,9 @@ A continuación se muestran algunos ejemplos de cómo aprovechar al máximo su i
   * **Verificar antes de finalizar**. Las respuestas generadas por IA pueden ser inexactas, así que siempre verifique **Fuentes** en una tarjeta y confírmela con las fuentes vinculadas antes de finalizar un registro.
   * **Mezclar tarjetas de IA con registros reales**. Arrastre y suelte los registros reales en el espacio de ideación.
 
-## Espacio de ideación disponible en Adobe CX Coworker
+## Espacio de ideación disponible en Adobe CX Enterprise Coworker
 
-El espacio de ideación también admite un modo de conversación de ida y vuelta a través de la CX Coworker de Adobe.
+El espacio de ideación también admite un modo de conversación de ida y vuelta a través de la CX Enterprise Coworker de Adobe.
 
 Los usuarios pueden hacer preguntas de seguimiento y refinar una breve conversación en lugar de obtener un solo resultado de una sola toma.
 
