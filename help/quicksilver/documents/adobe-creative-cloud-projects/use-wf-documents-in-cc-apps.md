@@ -14,9 +14,9 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: db6d682b43caf1d28779599495b931da5c80d126
+source-git-commit: 485b9a47cb2d5dee9dfbb77f3f6da76995df88ad
 workflow-type: tm+mt
-source-wordcount: '648'
+source-wordcount: '662'
 ht-degree: 3%
 ---
 # Uso de documentos de Workfront en aplicaciones de Creative Cloud
@@ -84,9 +84,9 @@ Puede guardar un archivo nuevo en Workfront o puede guardar una copia nueva de u
 Para guardar un nuevo documento en Workfront:
 
 1. Abra Photoshop, Illustrator o InDesign y cree un nuevo archivo.
-1. Si estás guardando un nuevo archivo, haz clic en **Guardar** en el menú superior.
-O
-Si está guardando una copia nueva de un archivo existente, haga clic en **Guardar como** en el menú superior.
+1. En el menú superior, realice una de las siguientes acciones:
+   * Para guardar un nuevo archivo, haz clic en **Guardar**.
+   * Para guardar una copia nueva de un archivo existente, haga clic en **Guardar como**.
 1. En el cuadro de diálogo **Guardar como**, seleccione **Guardar en documentos de la nube** y, a continuación, elija el proyecto de Workfront que necesite.
 
    >[!NOTE]
@@ -108,9 +108,9 @@ Puede agregar una aprobación de documento en Workfront a cualquier documento qu
 
 ## Administrar versiones de un documento en Workfront desde una aplicación de Creative Cloud
 
-Al guardar un documento de Photoshop, Illustrator o InDesign en Workfront, los cambios que guarde aparecerán en el archivo Actual en la pestaña Versiones y se marcarán con el distintivo &quot;Nuevos cambios&quot;.
+Al guardar un documento de Photoshop, Illustrator o InDesign en Workfront, los cambios que guarde aparecerán en el archivo Actual en la pestaña Versiones y se marcarán con el distintivo &quot;Nuevas actualizaciones&quot;.
 
-Puede solicitar una aprobación sobre el archivo actual en lugar de cargar una nueva versión del documento. Para obtener más información, consulte [Solicitar aprobación para el archivo actual](#request-approval-on-the-current-file).
+Puede solicitar una aprobación del archivo actual en lugar de cargar una nueva versión del documento. Para obtener más información, consulte [Solicitar aprobación para el archivo actual](#request-approval-on-the-current-file).
 
 ![archivo actual con nuevo distintivo de cambios](assets/current-file.png)
 
