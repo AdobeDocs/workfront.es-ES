@@ -32,9 +32,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: cf3b7277ff6e6f41a8c388358dfa3f26d1498b4c
 workflow-type: tm+mt
-source-wordcount: '3087'
+source-wordcount: '3110'
 ht-degree: 4%
 ---
 # Enviar solicitudes de Planificación de Workfront de Adobe para crear registros
@@ -220,6 +220,12 @@ Al activar esta configuración, los formularios de solicitud de Workfront Planni
    >El campo **Nombre** es único para su organización y podría mostrar una etiqueta diferente en su instancia de Workfront. El campo es el campo principal del registro.
 
 1. Actualice los campos restantes del formulario de solicitud. Los campos con un asterisco rojo son obligatorios.
+
+   >[!TIP]
+   >
+   >Los valores de los campos de registro conectados dependientes están limitados por las reglas de dependencia entre los registros. Para obtener más información, consulte [Administrar conexiones dependientes](/help/quicksilver/planning/architecture/manage-dependent-connections.md).
+
+
 1. (Condicional) Si su organización permite **Rellenar formulario** con tecnología de IA, puede cargar documentos cuando se le solicite. AI utiliza estos documentos para rellenar el formulario, y puede aceptar o rechazar las sugerencias de AI antes de enviar la solicitud.
 
 
