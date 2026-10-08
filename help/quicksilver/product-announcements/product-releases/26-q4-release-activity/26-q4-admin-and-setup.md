@@ -13,9 +13,9 @@ feature_v2:
 subfeature_v2:
   - id: a29813d3-f0cc-4b60-9396-13b558370803
     internal-label: Product announcements
-source-git-commit: 4dc9ef8ad7c6314d4c9c331ed25760ad0343d9ff
+source-git-commit: 28bc67576996051daa1e38c35e5dbe20c6aa0ebd
 workflow-type: tm+mt
-source-wordcount: '1674'
+source-wordcount: '1793'
 ht-degree: 1%
 ---
 # Mejoras del administrador del cuarto trimestre de 2026
@@ -23,6 +23,22 @@ ht-degree: 1%
 Esta página describe las mejoras realizadas por el administrador con la versión del cuarto trimestre de 2026 en el entorno de vista previa. Estas mejoras estarán disponibles en el entorno de producción, como se ha indicado.
 
 Para obtener una lista de todos los cambios disponibles en este punto del ciclo de la versión del cuarto trimestre de 2026, consulte [Información general de la versión del cuarto trimestre de 2026](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-release-overview.md).
+
+## Ver el historial laboral de un usuario
+
+>[!NOTE]
+>
+>Vista previa: 1 de octubre de 2026
+>Versión rápida de producción: 14 de octubre de 2026
+>Producción para todos: 15 de octubre de 2026
+
+Para ayudarle a rastrear cómo el rol laboral, la agencia, el centro de costos y las tarifas de facturación de un usuario han cambiado con el tiempo, hemos agregado Historial laboral.
+
+El historial laboral muestra una vista cronológica de estos detalles para uno o más usuarios. Cada línea representa un conjunto específico de valores y el intervalo de fechas durante el cual se aplicaron.
+
+Puede ver el historial laboral de varios usuarios o ver el historial completo de un solo usuario. Desde cualquier vista, puede filtrar los resultados, personalizar qué columnas mostrar y exportar los datos como un archivo CSV o XLSX.
+
+Para obtener más información, consulte [Ver el historial laboral de un usuario](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/view-employment-history.md).
 
 ## Uso de IA para generar una localización personalizada
 
@@ -73,7 +89,7 @@ Se han realizado varias mejoras en las plantillas de diseño:
 * Ahora puede cambiar la posición de las aplicaciones personalizadas para que estén en cualquier orden con las opciones de menú predeterminadas de Workfront. Esto le permite colocar cada aplicación en el lugar más relevante. Anteriormente, las aplicaciones personalizadas siempre eran los últimos elementos en las opciones del menú principal de la plantilla de diseño y no se podían cambiar de posición.
 * Ahora puede ocultar la página Detalles de un objeto del panel de navegación izquierdo. Un objeto debe tener al menos un elemento mostrado en el panel izquierdo. Si todos los demás elementos están ocultos, no puede ocultar el último elemento restante.
 
-Para obtener más información, consulte [Personalizar el menú principal con una plantilla de diseño](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md) y[Personalizar el panel izquierdo con una plantilla de diseño](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md).
+Para obtener más información, consulte [Personalizar el menú principal con una plantilla de diseño](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md) y [Personalizar el panel izquierdo con una plantilla de diseño](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md).
 
 ## Se ha mejorado la experiencia de actualización de las opciones de campo en el diseñador de formularios personalizados
 
