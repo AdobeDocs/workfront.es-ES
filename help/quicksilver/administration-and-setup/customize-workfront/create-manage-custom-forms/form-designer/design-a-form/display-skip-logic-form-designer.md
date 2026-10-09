@@ -28,9 +28,9 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 671c643d520235c3a5bef628cdb793ca2fffe78f
 workflow-type: tm+mt
-source-wordcount: '3693'
+source-wordcount: '3711'
 ht-degree: 27%
 ---
 # Añadir reglas lógicas a formularios y campos personalizados
@@ -120,6 +120,7 @@ Para obtener información sobre los campos y widgets personalizados en los formu
   * De forma predeterminada, los campos personalizados no incluidos en una instrucción lógica de visualización se muestran en un formulario personalizado.
   * Puede crear instrucciones lógicas de visualización de varios campos.
   * Si todos los campos bajo una división de sección tienen lógica de visualización aplicada y todos están ocultos como resultado de la lógica, toda la sección se ocultará en el formulario personalizado.
+  * Los campos ocultos por la lógica de visualización conservan sus valores y se siguen incluyendo en expresiones como CONCAT.
 
 ## Agregar lógica de visualización a un formulario personalizado
 

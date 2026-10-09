@@ -30,10 +30,10 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 76c6943ccbf51ec7860bdb4707bc3ed7c2374128
+source-git-commit: 671c643d520235c3a5bef628cdb793ca2fffe78f
 workflow-type: tm+mt
-source-wordcount: '2735'
-ht-degree: 71%
+source-wordcount: '2755'
+ht-degree: 70%
 ---
 # Añadir campos calculados a un formulario
 
@@ -356,7 +356,7 @@ Para reutilizar un campo personalizado calculado existente:
     <tbody> 
      <tr> 
       <td role="rowheader">Agregar lógica</td> 
-      <td>Puede agregar la lógica de visualización para determinar si el campo calculado se muestra, en función de al menos una opción que realice un usuario en un campo de opción múltiple anterior (Lista desplegable, Casillas de verificación o Botones de opción) al rellenar el formulario. Para obtener más información, consulte <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md">Agregar reglas lógicas a formularios y campos personalizados</a>. <p>Esto solo está disponible cuando al menos una casilla de verificación, un botón de opción o un campo desplegable preceden al campo personalizado calculado en el formulario. </p> <p>La lógica de omisión y otros tipos de lógica no están disponibles para los campos personalizados calculados.</p> </td> 
+      <td>Puede agregar la lógica de visualización para determinar si el campo calculado se muestra, en función de al menos una opción que realice un usuario en un campo de opción múltiple anterior (Lista desplegable, Casillas de verificación o Botones de opción) al rellenar el formulario. Para obtener más información, consulte <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md">Agregar reglas lógicas a formularios y campos personalizados</a>. <p>Esto solo está disponible cuando al menos una casilla de verificación, un botón de opción o un campo desplegable preceden al campo personalizado calculado en el formulario. </p> <p>La lógica de omisión y otros tipos de lógica no están disponibles para los campos personalizados calculados.</p> <p><b>Nota:</b> Los campos personalizados ocultos por la lógica de presentación conservan sus valores y aún se incluyen en expresiones como CONCAT.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Actualizar cálculos anteriores</td> 
