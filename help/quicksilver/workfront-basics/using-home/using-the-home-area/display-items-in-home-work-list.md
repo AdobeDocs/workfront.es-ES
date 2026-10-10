@@ -30,9 +30,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 5a761d5287c7eb5194c870e21d8c40c3fc87101f
 workflow-type: tm+mt
-source-wordcount: '1015'
+source-wordcount: '1048'
 ht-degree: 7%
 ---
 # Mostrar elementos en la [!UICONTROL lista de trabajo] del área [!UICONTROL Hogar]
@@ -120,7 +120,8 @@ Puede filtrar elementos en la [!UICONTROL Lista de trabajos] de un widget para v
 
 >[!NOTE]
 >
->Las opciones de filtro se almacenan en el explorador. Si utiliza el mismo explorador de forma constante en el mismo equipo (y no borra los datos del sitio), los filtros seleccionados no cambian. Si cambia de un navegador a otro o de un ordenador, los filtros vuelven a la opción predeterminada, que es la que no está seleccionada para todos los filtros.
+>Las opciones de filtro de la mayoría de los widgets se almacenan en el explorador. Si utiliza el mismo explorador de forma constante en el mismo equipo (y no borra los datos del sitio), los filtros seleccionados no cambian. Si cambia de un navegador a otro o de un ordenador, los filtros vuelven a la opción predeterminada, que es la que no está seleccionada para todos los filtros. <br>
+>El widget Mis aprobaciones no almacena las opciones de filtro en el explorador. El widget Mis aprobaciones siempre toma como valor predeterminado la opción de filtro Mis aprobaciones, que muestra las aprobaciones que se le han asignado.
 
 Para filtrar su trabajo:
 
