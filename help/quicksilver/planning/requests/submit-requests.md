@@ -32,9 +32,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: cf3b7277ff6e6f41a8c388358dfa3f26d1498b4c
+source-git-commit: e8682aad0e752979afe524f6d218730f1b00559c
 workflow-type: tm+mt
-source-wordcount: '3110'
+source-wordcount: '3249'
 ht-degree: 4%
 ---
 # Enviar solicitudes de Planificación de Workfront de Adobe para crear registros
@@ -223,10 +223,19 @@ Al activar esta configuración, los formularios de solicitud de Workfront Planni
 
    >[!TIP]
    >
-   >Los valores de los campos de registro conectados dependientes están limitados por las reglas de dependencia entre los registros. Para obtener más información, consulte [Administrar conexiones dependientes](/help/quicksilver/planning/architecture/manage-dependent-connections.md).
+   ><span class="preview">Los valores de los campos de registro conectados dependientes están limitados por las reglas de dependencia entre los registros. Para obtener más información, consulte [Administrar conexiones dependientes](/help/quicksilver/planning/architecture/manage-dependent-connections.md). </span>
+
+1. (Opcional y condicional) Haga clic en **Rellenar formulario** para que AI lo rellene por usted. Workfront rellena los campos del formulario en función de la información de solicitudes anteriores.
+
+   >[!TIP]
+   >
+   >Su organización debe permitir que **AI Form Fill** se encuentre en el área de Preferencias del sistema para poder usar la capacidad Rellenar formulario.
+   >
+   >Para obtener instrucciones, consulte [Usar el relleno de formulario con tecnología de IA para rellenar una solicitud mediante avisos o documentos](/help/quicksilver/manage-work/requests/create-requests/autofill-from-prompt-document.md).
 
 
-1. (Condicional) Si su organización permite **Rellenar formulario** con tecnología de IA, puede cargar documentos cuando se le solicite. AI utiliza estos documentos para rellenar el formulario, y puede aceptar o rechazar las sugerencias de AI antes de enviar la solicitud.
+
+1. (Condicional) Si su organización permite **Rellenar formulario AI**, puede cargar documentos como mensajes. AI utiliza estos documentos para rellenar el formulario, y puede aceptar o rechazar las sugerencias de AI antes de enviar la solicitud.
 
 
    Para obtener instrucciones, consulte [Usar el relleno de formulario con tecnología de IA para rellenar una solicitud mediante avisos o documentos](/help/quicksilver/manage-work/requests/create-requests/autofill-from-prompt-document.md).
@@ -345,7 +354,15 @@ Puede enviar una solicitud cuando agregue nuevos registros desde una página de 
    Se abrirá el formulario de solicitud.
 1. Comience a introducir toda la información en todos los campos disponibles
 
-   O haga clic en **Rellenar formulario** para que AI lo rellene por usted.
+   O haga clic en **Rellenar formulario** para que AI lo rellene por usted. Workfront rellena los campos del formulario en función de la información de solicitudes anteriores.
+
+   >[!TIP]
+   >
+   >Si su organización permite **rellenar formulario de IA** en el área de Preferencias del sistema, puede cargar los documentos como mensajes. AI utiliza estos documentos para rellenar el formulario, y puede aceptar o rechazar las sugerencias de AI antes de enviar la solicitud.
+   >
+   >Para obtener instrucciones, consulte [Usar el relleno de formulario con tecnología de IA para rellenar una solicitud mediante avisos o documentos](/help/quicksilver/manage-work/requests/create-requests/autofill-from-prompt-document.md).
+
+
 1. Haga clic en **Enviar solicitud**.
 
    Se envía la solicitud.
