@@ -22,10 +22,10 @@ subfeature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 77be87f54c8745b1cdab219d9d0c5f4ea48d86e4
 workflow-type: tm+mt
-source-wordcount: '634'
-ht-degree: 11%
+source-wordcount: '755'
+ht-degree: 9%
 ---
 # Restringir el acceso a datos financieros en campos personalizados
 
@@ -33,7 +33,7 @@ Al crear un campo personalizado, puede definir configuraciones opcionales para r
 
 Para obtener información sobre cómo crear un campo personalizado, consulte [Crear un formulario personalizado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
-Para obtener información acerca de los niveles de acceso, vea [Información general sobre los niveles de acceso](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md). Para obtener información acerca de los permisos de uso compartido y de, vea [Información general sobre los permisos de uso compartido en objetos](/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
+Para obtener información sobre cómo definir el acceso a los datos financieros mediante niveles de acceso y permisos, consulte [Conceder acceso a los datos financieros](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md) y [Compartir permisos financieros en un objeto](/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/share-financial-permissions-object.md).
 
 ## Requisitos de acceso
 
@@ -89,16 +89,27 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
    >
    >Para los campos calculados, se permite cualquier formato. Todos los demás tipos de campo deben usar el formato **Currency**; de lo contrario, el campo **Tipo de permiso Finance** no estará disponible.
 
-1. (Opcional) Solo para campos calculados, active la opción **Permiso automático** para permitir que los permisos financieros provengan automáticamente de los campos de la fórmula.
+1. (Opcional) Solo para campos calculados, active la opción **Permiso automático** para permitir que los permisos financieros se creen automáticamente a partir de los campos de la fórmula.
 
 1. Seleccione una opción para el **tipo de permiso Finanzas**.
 
-   Los usuarios deben tener este tipo de permiso de finanzas para poder ver o editar este campo personalizado en el formulario.
+   Esta configuración define el tipo de acceso y los permisos que los usuarios deben tener para poder ver o editar este campo personalizado en el formulario.
 
-   * **No se requieren permisos:** Todos los usuarios pueden ver este campo
-   * **General:** Los usuarios deben tener permisos para editar o ver Finanzas generales
-   * **Factura:** Los usuarios deben tener permisos para editar o ver las tarifas de facturación
-   * **Costo:** Los usuarios deben tener permisos para editar o ver las tasas de costo
+   * **No se requieren permisos:** Todos los usuarios pueden ver el campo, independientemente de su nivel de acceso y de los permisos de objeto.
+   * **General:** Los usuarios deben tener uno de estos elementos para ver el campo:
+
+     * Su nivel de acceso incluye el acceso de Visualización o Edición a Datos Financieros, con acceso habilitado para Finanzas generales.
+     * Sus permisos para el objeto donde se adjunta el formulario personalizado incluyen la visualización o edición de Finanzas generales.
+
+   * **Factura:** Los usuarios deben tener uno de estos elementos para ver el campo:
+
+     * Su nivel de acceso incluye el acceso de Visualización o Edición de Datos Financieros, con acceso habilitado para Tarifas de facturación.
+     * Sus permisos para el objeto donde se adjunta el formulario personalizado incluyen la visualización o edición de Tarifas de facturación.
+
+   * **Costo:** Los usuarios deben tener uno de estos para ver el campo:
+
+     * Su nivel de acceso incluye el acceso de Visualización o Edición a Datos Financieros, con acceso habilitado para Tasas de Coste.
+     * Sus permisos para el objeto donde se adjunta el formulario personalizado incluyen la visualización o edición de Tasas de coste.
 
    Para campos calculados:
 

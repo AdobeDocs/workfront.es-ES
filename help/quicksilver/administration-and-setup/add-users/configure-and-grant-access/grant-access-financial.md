@@ -25,10 +25,10 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 77be87f54c8745b1cdab219d9d0c5f4ea48d86e4
 workflow-type: tm+mt
-source-wordcount: '789'
-ht-degree: 84%
+source-wordcount: '831'
+ht-degree: 75%
 ---
 # Concesión de acceso a los datos financieros
 
@@ -121,10 +121,12 @@ If you make changes here, make them also in the "Grant access to" articles where
 * issue
 -->
 
-Cuando comparte cualquier objeto con otro usuario, los derechos del destinatario sobre él se determinan mediante una combinación de dos cosas:
+Cuando comparte cualquier objeto con otro usuario, los derechos del destinatario para ver o editar datos financieros sobre ese objeto están determinados por una combinación de dos cosas:
 
-* Los permisos que concede al destinatario para el objeto
-* Configuración del nivel de acceso del destinatario para el tipo de objeto
+* Los permisos que concede al destinatario para el objeto específico
+* Configuración del nivel de acceso del destinatario para el tipo del objeto y para los datos financieros
+
+El acceso a los campos financieros personalizados también se puede restringir en función de los permisos del usuario y la configuración del nivel de acceso. Para obtener más información, consulte [Restringir el acceso a datos financieros en campos personalizados](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/restrict-access-to-financial-data.md).
 
 ## Acceso a la información financiera por tipo de licencia
 
