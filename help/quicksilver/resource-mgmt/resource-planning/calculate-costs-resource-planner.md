@@ -6,25 +6,29 @@ description: Puede presupuestar sus recursos en el Planificador de recursos de A
 author: Lisa
 feature: Resource Management
 exl-id: 2f3ca8c2-51b3-4282-af8b-7f433365d386
-TQID: https://experienceleague.adobe.com/k8gK4CEKv7EatW5tFiS0ebNDQXfryINmjGi-hZVP2d4
+TQID: 'https://experienceleague.adobe.com/k8gK4CEKv7EatW5tFiS0ebNDQXfryINmjGi-hZVP2d4'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
 subfeature_v2:
   - id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
+    internal-label: Resource Planner
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 02a97fd6bb32c285e1bef5d614ea4ca713c83a40
 workflow-type: tm+mt
-source-wordcount: 1416
+source-wordcount: '1416'
 ht-degree: 94%
-
 ---
-
 # Calcular costes en el Planificador de recursos
 
 <!--
@@ -145,10 +149,10 @@ Aunque no es posible ver información sobre tareas en el Planificador de recurso
 * Tipo de asignación de la tarea.\
   Es posible dejar tareas sin asignar o asignarles las siguientes entidades:
 
-   * Un usuario (con o sin función)
-   * Una función
-   * Un equipo\
-     Una tarea asignada a un equipo se considera no asignada desde la perspectiva del Planificador de recursos.
+  * Un usuario (con o sin función)
+  * Una función
+  * Un equipo\
+    Una tarea asignada a un equipo se considera no asignada desde la perspectiva del Planificador de recursos.
 
 * **Tipo de coste** de las tareas del proyecto.\
   Para obtener más información sobre el tipo de coste de una tarea, consulte [Rastreo de costes](../../manage-work/projects/project-finances/track-costs.md).
@@ -165,99 +169,99 @@ Existen los siguientes escenarios al calcular el coste planificado de usuarios, 
 
 * Cuando **Tipo de costo** es **Usuario por hora** y no hay **ninguna asignación** en la tarea:
 
-   * **Coste planificado por función y usuario**:
+  * **Coste planificado por función y usuario**:
 
-     Los costes planificados por función y usuario serán de 0,00 $.
+    Los costes planificados por función y usuario serán de 0,00 $.
 
-   * **Coste planificado del proyecto**:
+  * **Coste planificado del proyecto**:
 
-     El coste planificado del proyecto será de 0,00 $.
+    El coste planificado del proyecto será de 0,00 $.
 
 * Cuando **Tipo de coste** sea **Usuario por hora** y haya una **asignación de usuario** en la tarea:
 
-   * **Coste planificado por función y usuario**:
+  * **Coste planificado por función y usuario**:
 
-     El coste planificado por usuario se calcula con la siguiente fórmula:
+    El coste planificado por usuario se calcula con la siguiente fórmula:
 
-     `User Planned Cost Rate = User Planned Hours * User Cost per Hour Rate`
+    `User Planned Cost Rate = User Planned Hours * User Cost per Hour Rate`
 
-     Si un usuario tuviera una tasa de coste en su perfil, esa tasa se utilizará para calcular el coste planificado. De lo contrario, se utilizará la tasa de coste por hora a nivel de sistema de su función principal.
+    Si un usuario tuviera una tasa de coste en su perfil, esa tasa se utilizará para calcular el coste planificado. De lo contrario, se utilizará la tasa de coste por hora a nivel de sistema de su función principal.
 
-     >[!NOTE]
-     >
-     >El usuario puede asignarse a la tarea con una de sus funciones secundarias, pero la tasa de la función principal se utilizará aquí en su lugar.
+    >[!NOTE]
+    >
+    >El usuario puede asignarse a la tarea con una de sus funciones secundarias, pero la tasa de la función principal se utilizará aquí en su lugar.
 
-     El coste planificado por función se calcula con la fórmula siguiente:
+    El coste planificado por función se calcula con la fórmula siguiente:
 
-     `Role Planned Cost = SUM(User Planned Cost)`
+    `Role Planned Cost = SUM(User Planned Cost)`
 
-   * **Coste planificado del proyecto**:
+  * **Coste planificado del proyecto**:
 
-     El coste planificado del proyecto será de 0,00 $.
+    El coste planificado del proyecto será de 0,00 $.
 
 * Cuando el **tipo de coste** sea **usuario por hora** y haya una **asignación de función** en la tarea:
 
-   * **Coste planificado por función y usuario**:
+  * **Coste planificado por función y usuario**:
 
-     El coste planificado por usuario será de 0,00 $.
+    El coste planificado por usuario será de 0,00 $.
 
-     El coste planificado por función se calcula con la fórmula siguiente:
+    El coste planificado por función se calcula con la fórmula siguiente:
 
-     `Role Planned Cost = Role Planned Hours * Role Cost per Hours`
+    `Role Planned Cost = Role Planned Hours * Role Cost per Hours`
 
-     La tasa de coste por hora a nivel de sistema de la función asignada a la tarea se utiliza para calcular el coste planificado.
+    La tasa de coste por hora a nivel de sistema de la función asignada a la tarea se utiliza para calcular el coste planificado.
 
-   * **Coste planificado del proyecto**:
+  * **Coste planificado del proyecto**:
 
-     El coste planificado del proyecto será de 0,00 $.
+    El coste planificado del proyecto será de 0,00 $.
 
 * Cuando el **Tipo de coste** sea **Función por hora** y no haya **ninguna asignación** en la tarea:
 
-   * **Costo planificado por función y usuario**:
+  * **Costo planificado por función y usuario**:
 
-     Los costes planificados por función y usuario serán de 0,00 $.
+    Los costes planificados por función y usuario serán de 0,00 $.
 
-   * **Coste planificado del proyecto**:
+  * **Coste planificado del proyecto**:
 
-     El coste planificado del proyecto será de 0,00 $.
+    El coste planificado del proyecto será de 0,00 $.
 
 * Cuando el **Tipo de coste** sea **Función por hora** y haya una **asignación de usuario** en la tarea:
 
-   * **Coste planificado por función y usuario**:
+  * **Coste planificado por función y usuario**:
 
-     El coste planificado por usuario será de 0,00 $.
+    El coste planificado por usuario será de 0,00 $.
 
-     El coste planificado por función se calcula con la fórmula siguiente:
+    El coste planificado por función se calcula con la fórmula siguiente:
 
-     `Role Planned Cost = Role Planned Hours * Role Cost per Hours`
+    `Role Planned Cost = Role Planned Hours * Role Cost per Hours`
 
-     Workfront busca la función que cumple el usuario en la tarea para calcular el coste planificado para la función.
+    Workfront busca la función que cumple el usuario en la tarea para calcular el coste planificado para la función.
 
-     Si el usuario no está asociado a ninguna función en la tarea, el coste planificado es de 0 USD.
+    Si el usuario no está asociado a ninguna función en la tarea, el coste planificado es de 0 USD.
 
-   * **Coste planificado del proyecto**:
+  * **Coste planificado del proyecto**:
 
-     El coste planificado del proyecto se calcula mediante la siguiente fórmula:
+    El coste planificado del proyecto se calcula mediante la siguiente fórmula:
 
-     `Project Planned Cost = SUM(Role Planned Costs)`
+    `Project Planned Cost = SUM(Role Planned Costs)`
 
 * Cuando el **Tipo de coste** sea **Función por hora** y haya una **asignación de función** en la tarea:
 
-   * **Coste planificado por función y usuario**:
+  * **Coste planificado por función y usuario**:
 
-     El coste planificado por usuario será de 0,00 $.
+    El coste planificado por usuario será de 0,00 $.
 
-     El coste planificado por función se calcula con la fórmula siguiente:
+    El coste planificado por función se calcula con la fórmula siguiente:
 
-     `Role Planned Cost = Role Planned Hours * Role Cost per Hours`
+    `Role Planned Cost = Role Planned Hours * Role Cost per Hours`
 
-     Workfront busca la función que cumple el usuario en la tarea para calcular el coste planificado para la función.
+    Workfront busca la función que cumple el usuario en la tarea para calcular el coste planificado para la función.
 
-   * **Coste planificado del proyecto**:
+  * **Coste planificado del proyecto**:
 
-     El coste planificado del proyecto se calcula mediante la siguiente fórmula:
+    El coste planificado del proyecto se calcula mediante la siguiente fórmula:
 
-     `Project Planned Cost = SUM(Role Planned Costs)`
+    `Project Planned Cost = SUM(Role Planned Costs)`
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(table below ideal but drafted because it does not display correctly in Markdown)</p>

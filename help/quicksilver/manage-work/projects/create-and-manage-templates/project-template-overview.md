@@ -6,29 +6,37 @@ description: Puede utilizar plantillas de proyecto para capturar la mayoría de 
 author: Alina
 feature: Work Management
 exl-id: cac7662f-f2ae-44f0-a0bb-1569c03d172e
-TQID: https://experienceleague.adobe.com/9RlRNqkZYIcLjI5-he3f2BMtoXj3R--8MQbVUFmRHqI
+TQID: 'https://experienceleague.adobe.com/9RlRNqkZYIcLjI5-he3f2BMtoXj3R--8MQbVUFmRHqI'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
   - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
   - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+    internal-label: Projects
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+    internal-label: Administration
+source-git-commit: 02a97fd6bb32c285e1bef5d614ea4ca713c83a40
 workflow-type: tm+mt
-source-wordcount: 702
+source-wordcount: '702'
 ht-degree: 85%
-
 ---
-
 # Información general sobre plantillas de proyecto
 
 <!-- Audited: 12/2023 -->
@@ -48,15 +56,15 @@ A continuación, se indican algunas de las ventajas del uso de plantillas para c
 * Resulta útil en la creación de informes sobre proyectos. Por ejemplo, es posible crear informes sobre proyectos que compartan la misma plantilla para comparar su progreso y mejorar la forma en que deberían completarse.
 * Además de definir la configuración futura del proyecto, es posible añadir la siguiente información para el mismo en una plantilla:
 
-   * Tareas
-   * Documentos
-   * Aprobaciones
-   * Detalles de la cola
-   * Temas de la cola
-   * Grupos de temas
-   * Reglas de enrutamiento
-   * Formularios personalizados
-   * Información sobre la compañía y grupo
+  * Tareas
+  * Documentos
+  * Aprobaciones
+  * Detalles de la cola
+  * Temas de la cola
+  * Grupos de temas
+  * Reglas de enrutamiento
+  * Formularios personalizados
+  * Información sobre la compañía y grupo
 
 ## Prácticas recomendadas para la creación de plantillas
 
@@ -71,8 +79,8 @@ Es necesario tener en cuenta lo siguiente al crear plantillas:
 
   Para obtener información sobre la duración, consulte los siguientes artículos:
 
-   * [Información general sobre la duración y el tipo de duración de la tarea](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md)
-   * [Información general sobre la duración de un proyecto](../../../manage-work/projects/planning-a-project/project-duration.md)
+  * [Información general sobre la duración y el tipo de duración de la tarea](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md)
+  * [Información general sobre la duración de un proyecto](../../../manage-work/projects/planning-a-project/project-duration.md)
 
   Para obtener información sobre las horas planificadas, consulte [Información general sobre horas planificadas](../../../manage-work/tasks/task-information/planned-hours.md).
 
@@ -89,8 +97,8 @@ Es necesario tener en cuenta lo siguiente al crear plantillas:
 
 * Decida qué almacenamiento de documentos desea utilizar para sus futuros proyectos. Algunas organizaciones tienen acceso a los siguientes tipos de almacenamiento de documentos:
 
-   * Almacenamiento de Workfront heredado
-   * Almacenamiento en la nube de Adobe
+  * Almacenamiento de Workfront heredado
+  * Almacenamiento en la nube de Adobe
 
   La adición de documentos varía en función del tipo de almacenamiento que elija. El tipo de almacenamiento que elija para las plantillas afectará al tipo de almacenamiento que heredarán los proyectos futuros.
 
@@ -98,8 +106,8 @@ Es necesario tener en cuenta lo siguiente al crear plantillas:
 
   Para obtener más información, consulte:
 
-   * [Crear una plantilla de proyecto](/help/quicksilver/manage-work/projects/create-and-manage-templates/create-template.md)
-   * [Información general sobre la administración de documentos para proyectos y objetos relacionados](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md)
+  * [Crear una plantilla de proyecto](/help/quicksilver/manage-work/projects/create-and-manage-templates/create-template.md)
+  * [Información general sobre la administración de documentos para proyectos y objetos relacionados](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md)
 
 ## Formas de crear plantillas
 

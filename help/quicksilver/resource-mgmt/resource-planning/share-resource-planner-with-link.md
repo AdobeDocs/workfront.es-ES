@@ -6,26 +6,31 @@ description: Adobe Workfront puede generar una URL única para la vista de usuar
 author: Lisa
 feature: Resource Management
 exl-id: feb2ec26-f1a6-4581-9e1d-be948a2170c3
-TQID: https://experienceleague.adobe.com/C6VONkwVFolewhXNwvuYv4WWMx6Ee5v6w9vEgFPgUow
+TQID: 'https://experienceleague.adobe.com/C6VONkwVFolewhXNwvuYv4WWMx6Ee5v6w9vEgFPgUow'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
 subfeature_v2:
   - id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
+    internal-label: Resource Planner
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 02a97fd6bb32c285e1bef5d614ea4ca713c83a40
 workflow-type: tm+mt
-source-wordcount: 649
+source-wordcount: '649'
 ht-degree: 90%
-
 ---
-
 # Compartir la vista de usuario del Planificador de recursos con un vínculo
 
 Adobe Workfront puede generar una URL única para la vista de usuario del planificador de recursos, que puedes incrustar en un panel de control como una página externa o abrirla por separado en una nueva pestaña del explorador. Esto resulta útil cuando se comparte la información del Planificador de recursos con usuarios que podrían no tener acceso directo al área de Recursos.
@@ -67,14 +72,14 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
 
 Tenga en cuenta lo siguiente al generar la URL única para la vista de usuario del planificador de recursos:
 
-* Solo puede obtener una URL única para la vista de usuario. La opción para generar la dirección URL no existe en las vistas de proyectos o roles.
+* Solo puede obtener una URL única para la vista de usuario. La opción para generar la dirección URL no existe en las vistas de proyectos o funciones.
 * Puede compartir la dirección URL con otros usuarios, incluidos los usuarios con licencia de Trabajo, Colaborador y Revisar.\
   Deben tener acceso para ver a otros usuarios con el fin de visualizar la información en el Planificador de Recursos desde la URL que compartas con ellos.
 * La siguiente información se guarda al compartir la dirección URL con otros usuarios:
 
-   * El tipo de períodos de tiempo (semana, mes, trimestre).
-   * Los filtros que aplique.
-   * El tipo de visualización (Horas o ETP).
+  * El tipo de períodos de tiempo (semana, mes, trimestre).
+  * Los filtros que aplique.
+  * El tipo de visualización (Horas o ETP).
 
 Para obtener una dirección URL única en la vista de usuario del Planificador de recursos y compartirla con otros usuarios:
 
@@ -112,11 +117,11 @@ Para obtener una dirección URL única en la vista de usuario del Planificador d
      </MadCap:conditionalText>   
      -->
 
-      1. Vaya a **Informes**>**Paneles de control**>**Nuevo panel de control**>**Añadir página externa.**
+     1. Vaya a **Informes**>**Paneles de control**>**Nuevo panel de control**>**Añadir página externa.**
 
-      1. Pegue el vínculo que ha copiado en el portapapeles en el campo **URL**.
-      1. Haga clic en **Guardar**, luego en **Guardar + Cerrar**.\
-         Esto incrusta la dirección URL en el panel de control y la vista de usuario del Planificador de recursos se muestra en un panel de control independiente.
+     1. Pegue el vínculo que ha copiado en el portapapeles en el campo **URL**.
+     1. Haga clic en **Guardar**, luego en **Guardar + Cerrar**.\
+        Esto incrusta la dirección URL en el panel de control y la vista de usuario del Planificador de recursos se muestra en un panel de control independiente.
 
 1. (Opcional) Si incrustaste la URL en un panel de control, considera añadirla a una plantilla de diseño o compartirla con otros usuarios que podrían no tener acceso al área de Gestión de Recursos.\
    Para obtener información sobre cómo añadir tableros a una plantilla de diseño, consulte [Crear y administrar plantillas de diseño](../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).\
