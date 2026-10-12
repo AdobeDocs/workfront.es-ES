@@ -38,10 +38,10 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: b449628309a82d7880612ea60dd5ee7de7f37e03
 workflow-type: tm+mt
-source-wordcount: '754'
-ht-degree: 82%
+source-wordcount: '772'
+ht-degree: 80%
 ---
 # Ver aprobaciones
 
@@ -97,7 +97,8 @@ Puede ver o administrar aprobaciones desde las siguientes áreas:
 
   * Todos los proyectos, tareas, problemas, hojas de horas, documentos, accesos y <span class="preview">solicitudes de Workfront Planning</span> que esperan su aprobación se muestran en el widget Mis aprobaciones en el área de Inicio.
   * Las aprobaciones que usted mismo ha enviado también se muestran en el widget Mis aprobaciones del área de Inicio al elegir la opción de filtro Aprobaciones que he enviado. Para obtener más información, consulte la sección [Revisar el trabajo que envía para su aprobación en el área de Inicio](#review-work-you-submit-for-approval-in-the-home-area) de este artículo.
-  * Las aprobaciones se eliminan del widget Mis aprobaciones en el área de Inicio cuando el proyecto, tarea o problema asociado está marcado como Resuelto, En espera, Cerrado o Cancelado.
+  * Las aprobaciones de trabajo se eliminan del widget Mis aprobaciones cuando el proyecto, tarea o problema se marca como Resuelto, En espera, Cerrado o Cancelado.
+  * Las aprobaciones unificadas de documentos y pruebas se eliminan del widget Mis aprobaciones cuando se completa o elimina el flujo de trabajo de documento o prueba.
 
   Para obtener información sobre cómo usar Inicio, consulte [Introducción a Inicio](../../workfront-basics/using-home/using-the-home-area/get-started-with-home.md).
 

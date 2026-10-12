@@ -26,10 +26,10 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 88ab250a262e9ca4a311fb1c88988a3747e6baeb
+source-git-commit: 2c62a1bacd6b2826f08e11a84f55e174cdd313c3
 workflow-type: tm+mt
-source-wordcount: '498'
-ht-degree: 21%
+source-wordcount: '523'
+ht-degree: 20%
 ---
 # Administrar las aprobaciones con el widget Mis aprobaciones
 
@@ -162,3 +162,7 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
    </table>
 
 Después de tomar una decisión, la aprobación se elimina del widget Mi aprobación.
+
+>[!NOTE]
+>
+>Las aprobaciones de trabajo también se pueden eliminar del widget Mis aprobaciones cuando el proyecto, la tarea o el problema están marcados como Resuelto, En espera, Cerrado o Cancelado.
