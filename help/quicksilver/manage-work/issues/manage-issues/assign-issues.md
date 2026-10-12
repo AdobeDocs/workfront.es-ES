@@ -2,7 +2,7 @@
 product-area: projects
 navigation-topic: manage-issues
 title: Asignar problemas
-description: Puede asignar problemas a usuarios, funciones y equipos para indicar quién es el responsable de completar los problemas. Para obtener información general sobre la asignación de problemas, consulte Información general sobre la modificación de asignaciones de problemas.
+description: Puede asignar problemas a usuarios, funciones, equipos y agentes de trabajo para indicar quién es el responsable de completar los problemas. Para obtener información general sobre la asignación de problemas, consulte Información general sobre la modificación de asignaciones de problemas.
 author: Lisa
 feature: Work Management
 role: User
@@ -12,23 +12,29 @@ git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/jJLBz6MVWaSCabnj-y8FKnqtQlT5PGRfZ9KZtrgOar8
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
 subfeature_v2:
   - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+    internal-label: Projects
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a63738805d62e2f71d55fe39f78d1f042ff72a15
+    internal-label: Administration
+source-git-commit: 0f99c6d23daa91bfd3080ead402f60abf8b18c42
 workflow-type: tm+mt
-source-wordcount: 1367
-ht-degree: 46%
-
+source-wordcount: '1380'
+ht-degree: 43%
 ---
-
 # Asignar problemas
+
+{{preview-fast-release-general}}
 
 <!--Audited: 10/2024-->
 
@@ -42,13 +48,13 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 </div>
 -->
 
-Puede asignar problemas a usuarios, funciones y equipos para indicar quién es el responsable de completar los problemas. Para obtener información general sobre la asignación de problemas, consulte [Información general sobre la modificación de asignaciones de problemas](../../../manage-work/issues/manage-issues/modify-issue-assignments-overview.md).
+Puede asignar problemas a usuarios, funciones, equipos o agentes de trabajo para indicar quién es el responsable de completar los problemas. Para obtener información general sobre la asignación de problemas, consulte [Información general sobre la modificación de asignaciones de problemas](../../../manage-work/issues/manage-issues/modify-issue-assignments-overview.md).
 
 >[!TIP]
 >
->Puede asignar varios usuarios, funciones o equipos. Solo puede asignar usuarios, funciones y equipos activos.
+>Puede asignar varios usuarios, roles, equipos o agentes de trabajo. Solo puede asignar usuarios activos, roles, equipos y agentes de trabajo.
 >
->Si un usuario, un rol o un equipo se han asignado antes de que se desactiven, permanecerán asignados al elemento de trabajo. En este caso, se recomienda lo siguiente:
+>Si un usuario, rol, equipo o agente de trabajo se asignó antes de desactivarse, permanece asignado al elemento de trabajo. En este caso, se recomienda lo siguiente:
 >
 >* Reasignar el elemento de trabajo a los recursos activos.
 >* Asocie los usuarios de un equipo desactivado a un equipo activo y reasigne el elemento de trabajo al equipo activo.
@@ -109,9 +115,9 @@ Tenga en cuenta lo siguiente al asignar varios recursos a un elemento de trabajo
 
   Si se asigna una tarea o un problema a una o varias funciones y, a continuación, también se asigna un usuario, Adobe Workfront decide qué función se asocia al usuario adicional (si corresponde) según las siguientes reglas:
 
-   * Si solo hay una función asignada y coincide con la función principal del usuario, la tarea o el problema se asignan únicamente al usuario que desempeña su función principal.
-   * Si hay varias funciones asignadas y al menos una de las funciones coincide con las funciones secundarias del usuario, la tarea o el problema se asigna al usuario que desempeña una de sus otras funciones (que Workfront selecciona aleatoriamente si hay varias coincidencias), así como cualquier función adicional asignada.
-   * Si hay una o más funciones asignadas y no hay coincidencias con las funciones del usuario, la tarea o el problema se asignan tanto a la función o funciones como al usuario.
+  * Si solo hay una función asignada y coincide con la función principal del usuario, la tarea o el problema se asignan únicamente al usuario que desempeña su función principal.
+  * Si hay varias funciones asignadas y al menos una de las funciones coincide con las funciones secundarias del usuario, la tarea o el problema se asigna al usuario que desempeña una de sus otras funciones (que Workfront selecciona aleatoriamente si hay varias coincidencias), así como cualquier función adicional asignada.
+  * Si hay una o más funciones asignadas y no hay coincidencias con las funciones del usuario, la tarea o el problema se asignan tanto a la función o funciones como al usuario.
 
 * Si se asigna una tarea o un problema a un equipo y también se asigna un usuario, la tarea o el problema permanecen asignados tanto al equipo como al usuario.
 
@@ -143,7 +149,7 @@ Tenga en cuenta lo siguiente al asignar varios recursos a un elemento de trabajo
 
 1. Realice una de las siguientes acciones:
 
-   * Comience a escribir el nombre del usuario, función o equipo que desea asignar y, a continuación, haga clic en él cuando aparezca en la lista.
+   * Comience a escribir el nombre de un usuario, rol, equipo o agente de trabajo que desee asignar y, a continuación, haga clic en él cuando aparezca en la lista.
 
      ![Búsqueda de asignaciones](assets/smart-assignments-issue-header.png)
 
@@ -192,7 +198,7 @@ Para asignar problemas en una lista:
 
      ![Asignado a campo](assets/assigned-to-field-task-list-nwe.png)
 
-   * Haga clic dentro del campo **Asignaciones** y empiece a escribir el nombre de un usuario, rol o equipo activo que desee asignar al problema; a continuación, haga clic en él cuando se muestre en la lista.
+   * Haga clic dentro del campo **Asignaciones** y empiece a escribir el nombre de un usuario, rol, equipo o agente de trabajo activo que desee asignar al problema; a continuación, haga clic en él cuando se muestre en la lista.
 
      ![Campo de asignaciones](assets/assignments-field-0825.png)
 

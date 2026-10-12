@@ -1,7 +1,7 @@
 ---
 title: Usar agentes de trabajo
 content-type: reference
-description: Aprenda a utilizar agentes de trabajo y colaboradores de IA que se pueden asignar a tareas de Workfront.
+description: Aprenda a utilizar agentes de trabajo y colaboradores de IA que se pueden asignar a tareas, problemas y solicitudes de Workfront.
 author: Becky
 feature: Work Management, Tasks
 product_v2:
@@ -16,16 +16,16 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: a4dfe29c0cf85f6029fd5f4398942c60bd3d6b5a
+source-git-commit: 0f99c6d23daa91bfd3080ead402f60abf8b18c42
 workflow-type: tm+mt
-source-wordcount: '1072'
+source-wordcount: '1085'
 ht-degree: 3%
 ---
 # Usar agentes de trabajo
 
 {{preview-fast-release-general}}
 
-Los agentes de trabajo son colaboradores de IA que pueden asignarse directamente a tareas y problemas de Workfront. Al igual que otros colaboradores de IA, los agentes de trabajo se configuran en el área de Configuración y se asignan a tareas igual que un usuario.
+Los agentes de trabajo son colaboradores de IA que pueden asignarse directamente a tareas, problemas y solicitudes de Workfront. Al igual que otros colaboradores de IA, los agentes de trabajo se configuran en el área de Configuración y se asignan a elementos de trabajo del mismo modo que un usuario.
 
 Los agentes de trabajo se conectan a los agentes que ha configurado en Copilot Studio, Claude, Writer, <span class="preview">OpenAI o IBM. </span>
 
@@ -125,13 +125,13 @@ Las siguientes situaciones no hacen que el agente de trabajo comience a trabajar
 * Se asigna un agente de trabajo a una tarea que ya tiene asignado un agente de trabajo. En este caso, el primer agente de trabajo asignado ya habrá comenzado el trabajo y el segundo agente de trabajo no hará nada.
 * Se asigna un agente de trabajo a una tarea que no está lista para iniciarse. (Por ejemplo, si la tarea tiene predecesoras, las predecesoras aún no están completas).
 
-## Asignar un agente de trabajo a una tarea <span class="preview">o problema</span>
+## Asignar un agente de trabajo a una tarea, problema o solicitud
 
-Los agentes de trabajo se asignan a las tareas <span class="preview">o a los problemas</span> de la misma manera que se asignan los usuarios.
+Los agentes de trabajo se asignan a tareas, problemas o solicitudes del mismo modo que se asignan a los usuarios.
 
 Cuando esté buscando un agente de trabajo en la lista de usuarios asignados disponibles, el nombre del agente de trabajo es solo un nombre.
 
-Para obtener instrucciones, consulte [Asignar tareas](/help/quicksilver/manage-work/tasks/assign-tasks/assign-tasks.md).
+Para obtener instrucciones, consulte [Asignar tareas](/help/quicksilver/manage-work/tasks/assign-tasks/assign-tasks.md) y [Administrar solicitudes de trabajo y equipo](/help/quicksilver/people-teams-and-groups/work-with-team-requests/manage-work-and-team-requests.md).
 
 >[!NOTE]
 >
