@@ -12,26 +12,34 @@ git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/u2Ifl47l4tOd-g-WC-8Io96xmV8ut4RLvwzxyFBwmeA
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
   - id: d3382524-5489-431b-bde9-271ab257bc37
+    internal-label: Workfront Scenario Planner
   - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
   - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+    internal-label: Projects
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 8f3c773d75c6765b540ecbb71372a16611dcdd02
 workflow-type: tm+mt
-source-wordcount: 755
+source-wordcount: '755'
 ht-degree: 59%
-
 ---
-
 # Copiar un proyecto
 
 <!--
@@ -162,76 +170,76 @@ Para copiar un proyecto, haga lo siguiente:
 
 
    <table style="table-layout:auto"> 
-    <col> 
-    <col> 
-    <tbody> 
-     <tr> 
+      <col> 
+      <col> 
+      <tbody> 
+      <tr> 
       <td role="rowheader">Seleccionar todo</td> 
       <td> <p>Selecciona todas las opciones y borra todos los campos y objetos enumerados del nuevo proyecto. </p>
 
    <p> Al anular la selección de esta opción, se anulan todos los elementos. </p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Asignaciones</td> 
-      <td>Quita todas las asignaciones de proyectos y tareas.</td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Progreso</td> 
-      <td>Quita el progreso de todas las tareas y las muestra como Nuevas. </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Datos personalizados</td> 
-      <td> <p>Elimina la información del formulario personalizado del proyecto, así como la información de los formularios personalizados asociados a los siguientes elementos:</p> 
-       <ul> 
-        <li>Tareas</li> 
-        <li>Gastos</li> 
-        <li> Documentos</li> 
-       </ul> 
-      <p>Los formularios personalizados permanecen adjuntos a las tareas, los gastos, los documentos y el proyecto, pero la información de los campos personalizados del formulario no se copia en el nuevo proyecto. </p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Documentos</td> 
-      <td> <p>Quita todo lo que hay en la ficha Documentos, incluidas las versiones de los documentos, los documentos vinculados y las carpetas.</p> <p>De forma predeterminada, las revisiones y aprobaciones de los documentos no se pueden copiar a otro proyecto. </p> </td> 
-     </tr> 
-     <tr> 
+      </tr> 
+      <tr> 
+        <td role="rowheader">Asignaciones</td> 
+        <td>Quita todas las asignaciones de proyectos y tareas.</td> 
+      </tr> 
+      <tr> 
+        <td role="rowheader">Progreso</td> 
+        <td>Quita el progreso de todas las tareas y las muestra como Nuevas. </td> 
+      </tr> 
+      <tr> 
+        <td role="rowheader">Datos personalizados</td> 
+        <td> <p>Elimina la información del formulario personalizado del proyecto, así como la información de los formularios personalizados asociados a los siguientes elementos:</p> 
+        <ul> 
+          <li>Tareas</li> 
+          <li>Gastos</li> 
+          <li> Documentos</li> 
+        </ul> 
+        <p>Los formularios personalizados permanecen adjuntos a las tareas, los gastos, los documentos y el proyecto, pero la información de los campos personalizados del formulario no se copia en el nuevo proyecto. </p> </td> 
+      </tr> 
+      <tr> 
+        <td role="rowheader">Documentos</td> 
+        <td> <p>Quita todo lo que hay en la ficha Documentos, incluidas las versiones de los documentos, los documentos vinculados y las carpetas.</p> <p>De forma predeterminada, las revisiones y aprobaciones de los documentos no se pueden copiar a otro proyecto. </p> </td> 
+      </tr> 
+      <tr> 
       <td role="rowheader">Todas las predecesoras</td> 
       <td> <p>Elimina todas las relaciones de las predecesoras entre las tareas del proyecto. </p> <p>
 
    Las predecesoras entre proyectos nunca se transfieren al nuevo proyecto, independientemente de si está seleccionado o no. </p> </td>
    </tr>
 
-<tr> 
-      <td role="rowheader">Horas presupuestadas</td> 
-      <td> <p>Elimina del proyecto copiado las horas presupuestadas en el área de Planificación de recursos del caso empresarial del proyecto.</p> 
-    <p>
-   Las horas presupuestadas con el Planificador de escenarios nunca se copian en el nuevo proyecto porque el nuevo proyecto no está vinculado a una iniciativa de dicho planificador. Para obtener más información, consulte <a href="../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-scenario-planner.md">Recursos presupuestarios en el caso empresarial con el Planificador de escenarios</a></p>
-   </tr></td>
-    <tr> 
-      <td role="rowheader">Información financiera</td> 
-      <td> <p>Elimina la información de las áreas siguientes: </p> 
-       <ul> 
-        <li>Subpestaña Finanzas del proyecto</li> 
-        <li> Beneficio planificado en el caso empresarial</li> 
-        <li>Información financiera de todas las tareas<br></li> 
-       </ul> <p>Para obtener más información acerca de la subficha Finanzas del proyecto, vea <a href="../../../manage-work/projects/project-finances/manage-project-finance-area.md" class="MCXref xref">Administrar información en el área Finanzas del proyecto</a>.</p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Proceso de aprobación</td> 
-      <td>Elimina todas las aprobaciones asociadas con las tareas o el proyecto. </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Notificaciones de recordatorio</td> 
-      <td> Elimina las notificaciones de recordatorio asociadas con las tareas o el proyecto. </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Gastos</td> 
-      <td>Elimina los gastos asociados con las tareas o el proyecto. </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Permisos</td> 
-      <td> Elimina los permisos a todos los usuarios de las tareas o del proyecto.</td> 
-     </tr> 
-    </tbody> 
-   </table>
+   <tr> 
+        <td role="rowheader">Horas presupuestadas</td> 
+        <td> <p>Elimina del proyecto copiado las horas presupuestadas en el área de Planificación de recursos del caso empresarial del proyecto.</p> 
+      <p>
+    Las horas presupuestadas con el Planificador de escenarios nunca se copian en el nuevo proyecto porque el nuevo proyecto no está vinculado a una iniciativa de dicho planificador. Para obtener más información, consulte <a href="../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-scenario-planner.md">Recursos presupuestarios en el caso empresarial con el Planificador de escenarios</a></p>
+    </tr></td>
+      <tr> 
+        <td role="rowheader">Información financiera</td> 
+        <td> <p>Elimina la información de las áreas siguientes: </p> 
+        <ul> 
+          <li>Subpestaña Finanzas del proyecto</li> 
+          <li> Beneficio planificado en el caso empresarial</li> 
+          <li>Información financiera de todas las tareas<br></li> 
+        </ul> <p>Para obtener más información acerca de la subficha Finanzas del proyecto, vea <a href="../../../manage-work/projects/project-finances/manage-project-finance-area.md" class="MCXref xref">Administrar información en el área Finanzas del proyecto</a>.</p> </td> 
+      </tr> 
+      <tr> 
+        <td role="rowheader">Proceso de aprobación</td> 
+        <td>Elimina todas las aprobaciones asociadas con las tareas o el proyecto. </td> 
+      </tr> 
+      <tr> 
+        <td role="rowheader">Notificaciones de recordatorio</td> 
+        <td> Elimina las notificaciones de recordatorio asociadas con las tareas o el proyecto. </td> 
+      </tr> 
+      <tr> 
+        <td role="rowheader">Gastos</td> 
+        <td>Elimina los gastos asociados con las tareas o el proyecto. </td> 
+      </tr> 
+      <tr> 
+        <td role="rowheader">Permisos</td> 
+        <td> Elimina los permisos a todos los usuarios de las tareas o del proyecto.</td> 
+      </tr> 
+      </tbody> 
+    </table>
 
 1. Haga clic en **Copiar proyecto**. Se crea el proyecto copiado.

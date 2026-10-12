@@ -10,23 +10,28 @@ exl-id: 857859fb-87ee-4397-b292-239ed9dc8281
 TQID: https://experienceleague.adobe.com/2YS0JaxRwYAAN5ZqNzPO7kGyQ876UlJ5b-X4MY4bT6c
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
 subfeature_v2:
   - id: b91c0848-76c4-4da4-8b81-3aade0518dd0
+    internal-label: Tasks
   - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+    internal-label: Projects
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 8f3c773d75c6765b540ecbb71372a16611dcdd02
 workflow-type: tm+mt
-source-wordcount: 492
+source-wordcount: '492'
 ht-degree: 42%
-
 ---
-
 # Información general sobre la restricción de tarea: no iniciar antes del
 
 Utilice la delimitación de tareas No comenzar antes del (ENVIAR) para programar el comienzo de una tarea después de la fecha especificada.
@@ -42,17 +47,17 @@ Tenga en cuenta lo siguiente al utilizar la restricción No comenzar antes de la
 * Si se programa el proyecto desde la fecha de finalización y la fecha de inicio predeterminada del sistema para una tarea nueva se establece en Hoy, la delimitación No comenzar antes del programa la tarea como lo haría con una tarea Lo más tarde posible.
 * Cuando se mueve o copia una tarea con una delimitación SNET a otro proyecto, la delimitación de la tarea o las fechas del proyecto pueden cambiar dependiendo de cuáles sean las fechas de delimitación y cuáles sean las fechas de inicio y finalización del proyecto. Se dan los siguientes escenarios:
 
-   * Cuando el proyecto de destino se programa desde el inicio:
+  * Cuando el proyecto de destino se programa desde el inicio:
 
-      * Cuando la fecha de restricción de tarea es anterior a la fecha de inicio planificada del proyecto, la restricción de tarea cambia a Lo antes posible.
-      * Cuando la fecha de restricción de tarea es posterior a la fecha planificada de finalización del proyecto, la fecha planificada de finalización del proyecto cambia para coincidir con la fecha de restricción de finalización de la tarea.
+    * Cuando la fecha de restricción de tarea es anterior a la fecha de inicio planificada del proyecto, la restricción de tarea cambia a Lo antes posible.
+    * Cuando la fecha de restricción de tarea es posterior a la fecha planificada de finalización del proyecto, la fecha planificada de finalización del proyecto cambia para coincidir con la fecha de restricción de finalización de la tarea.
 
-      * Cuando se programa el proyecto de destino a partir de la finalización:
+  * Cuando se programa el proyecto de destino a partir de la finalización:
 
-         * Cuando la fecha de restricción de tarea es posterior a la fecha de finalización del proyecto, la restricción de tarea cambia a Lo más tarde posible.
-         * Cuando la fecha de restricción de tarea es anterior a la fecha de inicio planificada del proyecto, la fecha de inicio planificada del proyecto cambia para coincidir con la fecha de restricción de inicio de la tarea.
+    * Cuando la fecha de restricción de tarea es posterior a la fecha de finalización del proyecto, la restricción de tarea cambia a Lo más tarde posible.
+    * Cuando la fecha de restricción de tarea es anterior a la fecha de inicio planificada del proyecto, la fecha de inicio planificada del proyecto cambia para coincidir con la fecha de restricción de inicio de la tarea.
 
-      * Independientemente de la programación del proyecto, cuando la fecha de restricción de tarea se encuentra dentro de las fechas de inicio y finalización del proyecto, no hay cambios en las fechas de restricción de tarea o del proyecto.
+  * Independientemente de la programación del proyecto, cuando la fecha de restricción de tarea se encuentra dentro de las fechas de inicio y finalización del proyecto, no hay cambios en las fechas de restricción de tarea o del proyecto.
 
   Para obtener información sobre cómo mover tareas, consulte [Mover tareas](../../../manage-work/tasks/manage-tasks/move-tasks.md). Para obtener más información acerca de cómo copiar tareas, vea [Copiar y duplicar tareas](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md).
 
