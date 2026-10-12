@@ -7,27 +7,33 @@ description: Ver las horas disponibles, planificadas y reales o FTE en el Planif
 author: LIsa
 feature: Resource Management
 exl-id: 6b532aa2-435f-4fda-b7ce-abe0a785638f
-TQID: https://experienceleague.adobe.com/usuiwhQ-2kexur4dNbkV1taPUhlGFlRHQfQ3OzcNUT8
+TQID: 'https://experienceleague.adobe.com/usuiwhQ-2kexur4dNbkV1taPUhlGFlRHQfQ3OzcNUT8'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
 subfeature_v2:
   - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+    internal-label: Timesheets
   - id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
+    internal-label: Resource Planner
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 02a97fd6bb32c285e1bef5d614ea4ca713c83a40
 workflow-type: tm+mt
-source-wordcount: 1741
+source-wordcount: '1741'
 ht-degree: 96%
-
 ---
-
 # Ver las horas disponibles, planificadas y reales o EJC en el Planificador de recursos al utilizar la vista de usuario
 
 <!--
@@ -43,8 +49,8 @@ Tenga en cuenta lo siguiente cuando visualice la información de horas o FTE en 
 * Puede ver las horas disponibles y planificadas o la información de FTE para usuarios, funciones y proyectos en todas las vistas del Planificador de recursos.
 * La siguiente información solo se puede ver en la vista de usuario:
 
-   * La diferencia entre la cantidad de horas planificadas o FTE y la cantidad de horas disponibles o FTE. A continuación, puede presupuestar la asignación de los usuarios según esta diferencia en las vistas Proyecto y Función.
-   * Las horas reales o FTE.
+  * La diferencia entre la cantidad de horas planificadas o FTE y la cantidad de horas disponibles o FTE. A continuación, puede presupuestar la asignación de los usuarios según esta diferencia en las vistas Proyecto y Función.
+  * Las horas reales o FTE.
 
 * Puede mostrar la diferencia entre el Usuario disponible y la cantidad de horas planificadas o FTE como un número o como un valor porcentual en la vista de usuario.
 * No puede mostrar la información en la vista de usuario por coste.
@@ -56,14 +62,14 @@ Tenga en cuenta lo siguiente cuando visualice la información de horas o FTE en 
 * Workfront rellena las horas reales con el tiempo real registrado en las tareas y problemas por los usuarios asignados a ellos. Esto incluye el tiempo registrado en un proyecto.
 * En la vista de usuario, puede hacer lo siguiente:
 
-   * Expandir cada usuario para mostrar una lista de los proyectos a los que esté asignado ese usuario.
+  * Expandir cada usuario para mostrar una lista de los proyectos a los que esté asignado ese usuario.
 
-     >[!NOTE]
-     >
-     >Solo se pueden expandir los usuarios asociados a los proyectos incluidos en los filtros.
+    >[!NOTE]
+    >
+    >Solo se pueden expandir los usuarios asociados a los proyectos incluidos en los filtros.
 
-   * Expandir cada proyecto para mostrar una lista de las funciones que el usuario puede desempeñar en esos proyectos.
-   * Expandir cada función para mostrar una lista de las tareas a las que está asignado el usuario de esa función.
+  * Expandir cada proyecto para mostrar una lista de las funciones que el usuario puede desempeñar en esos proyectos.
+  * Expandir cada función para mostrar una lista de las tareas a las que está asignado el usuario de esa función.
 
   Si los usuarios no tienen funciones asociadas, sus horas disponibles, planificadas y reales o FTE se enumeran en la sección **Sin función**.\
   Para obtener información sobre los campos y elementos que se muestran al aplicar la vista de usuario al Planificador de recursos, consulte la sección “Selección de proyecto/función/vista de usuario” en [Información general sobre la navegación del Planificador de recursos](../../resource-mgmt/resource-planning/resource-planner-navigation.md).
@@ -152,17 +158,17 @@ Tenga en cuenta lo siguiente al consultar las horas planificadas:
 
 * Las siguientes categorías de tareas se incluyen en el cálculo de las horas planificadas para cada recurso:
 
-   * tareas asignadas a usuarios en conjuntos de recursos, funciones o equipos en el proyecto.
+  * tareas asignadas a usuarios en conjuntos de recursos, funciones o equipos en el proyecto.
 
-     >[!TIP]
-     >
-     >Si las tareas se asignan a equipos, su asignación aparecerá en las secciones **Sin función** y **Sin usuario**. Puede ver las horas planificadas asociadas con los equipos, pero no puede presupuestarlas, ya que no hay funciones ni usuarios asociados a las tareas.
+    >[!TIP]
+    >
+    >Si las tareas se asignan a equipos, su asignación aparecerá en las secciones **Sin función** y **Sin usuario**. Puede ver las horas planificadas asociadas con los equipos, pero no puede presupuestarlas, ya que no hay funciones ni usuarios asociados a las tareas.
 
 * Las horas planificadas en el Planificador de recursos no incluyen las horas planificadas asociadas con lo siguiente:
 
-   * tareas principales
-   * tareas sin asignar
-   * problemas, cuando la configuración **Incluir horas de problemas** está deshabilitada.
+  * tareas principales
+  * tareas sin asignar
+  * problemas, cuando la configuración **Incluir horas de problemas** está deshabilitada.
 
 * Las horas planificadas no se muestran en el Planificador de recursos si la duración de la tarea o del problema es cero.
 * Las horas planificadas asociadas con los usuarios desactivados no se muestran.

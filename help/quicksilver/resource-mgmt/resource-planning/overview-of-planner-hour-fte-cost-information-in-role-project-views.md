@@ -7,27 +7,33 @@ description: Información general sobre horas, EJC y costes en las vistas Proyec
 author: Lisa
 feature: Resource Management
 exl-id: 76de1945-3f19-4c91-801c-07dc79e646ad
-TQID: https://experienceleague.adobe.com/xi553ymGC9ZqiMp5wueog3-wIqu072uVXeuXpsQbvIo
+TQID: 'https://experienceleague.adobe.com/xi553ymGC9ZqiMp5wueog3-wIqu072uVXeuXpsQbvIo'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
 subfeature_v2:
   - id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
+    internal-label: Resource Planner
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 02a97fd6bb32c285e1bef5d614ea4ca713c83a40
 workflow-type: tm+mt
-source-wordcount: 3089
+source-wordcount: '3089'
 ht-degree: 94%
-
 ---
-
 # Información general sobre horas, EJC y costes en las vistas Proyecto y Función del Planificador de recursos
 
 <!--
@@ -67,11 +73,11 @@ Tenga en cuenta lo siguiente al presupuestar recursos mediante el Planificador d
 
 * La presupuestación de asignaciones para los recursos en el Planificador de recursos se realiza de las siguientes maneras:
 
-   * Manualmente
+  * Manualmente
 
-     O
+    O
 
-   * Automáticamente, mediante las opciones de proyecto y función en las vistas **Ver por proyecto** y **Ver por función**.
+  * Automáticamente, mediante las opciones de proyecto y función en las vistas **Ver por proyecto** y **Ver por función**.
 
   Para obtener más información, consulte [Recursos de presupuesto en el Planificador de recursos mediante las vistas Proyecto y Función](../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md).
 
@@ -190,16 +196,16 @@ Tenga en cuenta lo siguiente al consultar las horas planificadas:
   De esta distribución se excluyen los días de fin de semana, las excepciones de programación y los días libres.
 * Las siguientes categorías de tareas se incluyen en el cálculo de las horas planificadas para cada recurso:
 
-   * tareas asignadas a usuarios en conjuntos de recursos, funciones o equipos en el proyecto\
-     Si las tareas se asignan a equipos, su asignación aparecerá en las secciones **Sin función** y **Sin usuario**. Puede ver las horas planificadas asociadas con los equipos, pero no puede presupuestarlas, ya que no hay funciones ni usuarios asociados a las tareas.
+  * tareas asignadas a usuarios en conjuntos de recursos, funciones o equipos en el proyecto\
+    Si las tareas se asignan a equipos, su asignación aparecerá en las secciones **Sin función** y **Sin usuario**. Puede ver las horas planificadas asociadas con los equipos, pero no puede presupuestarlas, ya que no hay funciones ni usuarios asociados a las tareas.
 
-   * tareas sin asignar
+  * tareas sin asignar
 
 * Las horas planificadas en el Planificador de recursos no incluyen las horas planificadas asociadas con lo siguiente:
 
-   * tareas principales
-   * tareas asignadas a usuarios sin conjuntos de recursos
-   * problemas, cuando la configuración **Incluir horas de problemas** está deshabilitada.
+  * tareas principales
+  * tareas asignadas a usuarios sin conjuntos de recursos
+  * problemas, cuando la configuración **Incluir horas de problemas** está deshabilitada.
 
 * Las horas planificadas no se muestran en el Planificador de recursos si la duración de la tarea es cero.
 * Las horas planificadas asociadas con los usuarios desactivados no se muestran.

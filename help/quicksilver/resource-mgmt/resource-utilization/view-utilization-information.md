@@ -8,25 +8,30 @@ feature: Resource Management
 exl-id: 785ee3e9-1b2d-4180-bc78-c41e71c5244d
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/5fqDtEMgNA2MD8W7VGBvmbxjCsKkVzkVWhxXsmOlHKM
+TQID: 'https://experienceleague.adobe.com/5fqDtEMgNA2MD8W7VGBvmbxjCsKkVzkVWhxXsmOlHKM'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 02a97fd6bb32c285e1bef5d614ea4ca713c83a40
 workflow-type: tm+mt
-source-wordcount: 6542
-ht-degree: 93%
-
+source-wordcount: '7192'
+ht-degree: 96%
 ---
-
 # Ver información sobre la utilización de recursos {#view-resource-utilization-information}
 
 >[!CONTEXTUALHELP]
@@ -151,7 +156,7 @@ La siguiente información está disponible en el informe Utilización cuando se 
    <td scope="col"><strong>Horas presupuestadas</strong> </td> 
    <td scope="col"> <p>Total de horas presupuestadas en los proyectos incluidos. Puede ver el total de horas presupuestadas para la duración global de los proyectos incluidos, o puede ver el total de horas presupuestadas solo para el intervalo de fecha especificado (puede especificar una semana o mes individual). </p> <p>Las horas presupuestadas se rellenan a partir de la información disponible en el área Presupuestación de recursos del caso empresarial o del Planificador de recursos<em>.</em></p> <p>Las horas presupuestadas aparecen en el informe Utilización en cualquiera de las siguientes filas:</p> 
     <ul> 
-     <li> Las horas presupuestadas se resumen por rol y por usuario individual en el informe Utilización, de la siguiente manera:<br><strong>Usuario individual:</strong> Las horas presupuestadas se resumen para cada usuario en el informe Utilización. Estas horas presupuestadas están asociadas con las tareas y problemas que se asignan al usuario en los proyectos incluidos. (Puede expandir la fila del rol correspondiente para ver una lista de usuarios con ese rol.)<br><strong>Rol del trabajo:</strong> Las horas presupuestadas se resumen por rol en el informe de utilización.<br>Las horas presupuestadas aparecen en un rol en particular como resultado de cualquiera de los siguientes escenarios:
+     <li> Las horas presupuestadas se resumen por función y por usuario individual en el informe Utilización, de la siguiente manera:<br><strong>Usuario individual:</strong> las horas presupuestadas se resumen para cada usuario en el informe Utilización. Estas horas presupuestadas están asociadas con las tareas y problemas que se han asignado al usuario en los proyectos incluidos. (Puede expandir la fila del rol correspondiente para ver una lista de usuarios con ese rol.)<br><strong>Rol:</strong> Las horas presupuestadas se resumen por rol en el informe de utilización.<br>Las horas presupuestadas aparecen en una función en particular como resultado de cualquiera de los siguientes escenarios:
      <ul>
      <li>La función se define como la función principal del usuario asignado a la tarea o al problema con el que están asociadas las horas presupuestadas. </li> 
        <li>Cuando se ve la información de utilización de un solo proyecto, se usa la función del usuario asignado a las horas, tanto si no hay asignación en la tarea o el problema, si se asigna a otro usuario sin ninguna asignación de función, si se asigna a otro usuario con una función diferente o si se asigna otro equipo.</li> 
@@ -167,7 +172,7 @@ La siguiente información está disponible en el informe Utilización cuando se 
    <td scope="col"><strong>Horas planificadas</strong> </td> 
    <td scope="col">
 <p>
-Horas planificadas en los proyectos incluidos asociados con las asignaciones de cada tarea y problema. Puede ver el total de horas planificadas de todas las asignaciones del proyecto durante la vida general de los proyectos incluidos o puede ver el total de horas planificadas sólo para el intervalo de fechas especificado (puede especificar una semana o mes concretos).
+Horas planificadas en los proyectos incluidos asociados a las asignaciones de cada tarea y problema. Se puede ver el total de horas planificadas de todas las asignaciones del proyecto correspondientes a toda la vida de los proyectos incluidos o bien el total de horas planificadas solo para el intervalo de fecha especificado (se puede especificar una semana o mes concretos).
 </p>
 <p>
 <strong>SUGERENCIA </strong>
@@ -196,7 +201,7 @@ Las horas planificadas aparecen en el informe de utilización en cualquiera de l
 
 <li><strong>Usuario individual</strong>: las horas planificadas se resumen para cada usuario en el informe de utilización. Estas horas planificadas están asociadas a las tareas y problemas a los que se ha asignado al usuario en los proyectos incluidos. (Puede expandir la fila de la función correspondiente para ver una lista de usuarios con esa función).
 
-<li><strong>Rol</strong>: las horas planificadas se resumen por rol en el informe de utilización de un solo proyecto.<br>Las horas planificadas aparecen en un rol en particular como resultado de cualquiera de los siguientes escenarios:  
+<li><strong>Función</strong>: las horas planificadas se resumen por función en el informe de utilización de un solo proyecto.<br>Las horas planificadas aparecen en una función en particular como resultado de cualquiera de los siguientes escenarios:  
 <ul>
 
 <li>La función se define como función principal del usuario asignado a la tarea o problema al que se han asociado las horas planificadas.
@@ -220,7 +225,7 @@ Las horas planificadas aparecen en el informe de utilización en cualquiera de l
 </li>  
 </ul>
 
-<li><strong>Horas sin asignar</strong>: las horas planificadas se muestran en el informe de utilización en la sección Horas sin asignar cuando las horas planificadas están asociadas a una tarea o un problema y no hay ningún usuario o rol asignado a la tarea o al problema. Esta sección aparece únicamente cuando hay horas en el proyecto que coinciden con esta descripción y cuando se visualiza el informe Utilización de un solo proyecto. <br>Para obtener más información sobre las horas planificadas, consulte <a href="../../manage-work/tasks/task-information/planned-hours.md">Resumen de las horas planificadas</a>.
+<li><strong>Horas sin asignar</strong>: las horas planificadas se muestran en el informe de utilización en la sección Horas sin asignar cuando las horas planificadas se han asociado a una tarea o problema que no tiene ningún usuario o función asignado. Esta sección aparece únicamente cuando hay horas en el proyecto que coinciden con esta descripción y cuando se visualiza el informe de utilización de un solo proyecto. <br>Para obtener más información sobre las horas planificadas, consulte <a href="../../manage-work/tasks/task-information/planned-hours.md">Información general sobre las horas planificadas</a>.
 </li> 
 </ul>
 </li> 
@@ -230,7 +235,7 @@ Las horas planificadas aparecen en el informe de utilización en cualquiera de l
    <td><strong>Horas reales</strong> </td> 
    <td> <p> Total de horas registradas en las tareas, problemas, <span> y en el proyecto </span> de los proyectos incluidos. Se puede ver el total de horas reales correspondientes a toda la vida de los proyectos incluidos o bien el total de horas reales solo para el intervalo de fecha especificado (se puede especificar una semana o mes individual). </p> <p><strong>Advertencia:</strong> El informe de utilización incluye las horas registradas en el proyecto, las tareas secundarias, los problemas y las tareas principales que tienen al menos una asignación. Sin embargo, no incluye las horas registradas en las tareas principales sin asignaciones. Se recomienda no utilizar tareas principales como tareas de trabajo y asignar solo tareas secundarias a los recursos. </p> <p>Las horas reales aparecen en el informe de utilización en cualquiera de las filas siguientes:</p> 
     <ul> 
-     <li> Las horas reales se resumen por rol y por usuario individual en el informe de utilización de un proyecto, de la siguiente manera:<br><strong>Usuario individual:</strong> Las horas reales se muestran en el informe de utilización en la fila del usuario que ha registrado las horas. (Puede expandir la fila del rol correspondiente para ver una lista de los usuarios con ese rol que han registrado horas.)<br><strong>Rol del trabajo:</strong> Las horas reales registradas por los usuarios asociados con esos roles se resumen en el informe de utilización en la fila del rol correspondiente.<br>Las horas reales aparecen en un rol en particular como resultado de cualquiera de los siguientes escenarios: 
+     <li> Las horas reales se resumen por función y por usuario individual en el informe de utilización de un proyecto, de la siguiente manera:<br><strong>Usuario individual:</strong> las horas reales se muestran en el informe de utilización en la fila del usuario que ha registrado las horas. (Puede expandir la fila del rol correspondiente para ver una lista de los usuarios con ese rol que han registrado horas.)<br><strong>Rol del trabajo:</strong> Las horas reales registradas por los usuarios asociados con esos roles se resumen en el informe de utilización en la fila del rol correspondiente.<br>Las horas reales aparecen en una función en particular como resultado de cualquiera de los siguientes escenarios: 
       <ul> 
        <li>La función se define como función principal del usuario que ha registrado las horas</li> 
        <li>No hay ninguna asignación en la tarea o problema</li> 
@@ -336,7 +341,7 @@ Para obtener información sobre los campos específicos y cómo los calcula Work
 
 A diferencia de otras áreas de Workfront, el informe Utilización calcula los ingresos planificados para las tareas de ingresos fijos dividiendo los ingresos fijos equitativamente por el número de horas planificadas en la tarea. </p> <p>Por ejemplo, una tarea tiene unos ingresos de 200 dólares. Si hay 4 horas planificadas en la tarea, cada hora sería 50 dólares. Esto se distribuye en el nivel de usuario y función. Esta distribución es exclusiva del informe Utilización.</p> <p><b>NOTA</b>
 
-Si tiene una tarea de ingresos fijos y no hay horas planificadas para la tarea, los ingresos no se mostrarán en el informe Utilización porque no hay forma de distribuirlos entre las horas. Si tiene horas planificadas en las tareas con ingresos fijos y ninguna asignación, los ingresos se mostrarán como ingresos sin asignar. </p> <p><strong>Función por hora:</strong> los ingresos de la tarea se calculan usando la tarifa de facturación establecida para un rol específico, multiplicada por el número de horas planificadas asociadas con ese rol. Workfront utiliza la fórmula siguiente:</p> <p><code>Ingresos planificados por rol por hora = SUMA (horas planificadas del rol en todas las tareas) * Tarifa de facturación del rol</code></p><p><b>NOTA:</b> La tarifa de facturación por hora de la fórmula tiene en cuenta cualquier cambio de la fecha en vigor de la tarifa.</p>   <p><strong>Usuario por hora:</strong> los ingresos de la tarea se calculan usando la tarifa de facturación establecida para un usuario específico, multiplicada por el número de horas planificadas asociadas con ese usuario. Workfront utiliza la fórmula siguiente:</p> <p><code>Ingresos planificados por usuario por hora = SUMA (horas planificadas de los usuarios en todas las tareas) * Tarifa de facturación de usuario</code> </p> <p><b>NOTA:</b> La tarifa de facturación por hora de la fórmula tiene en cuenta cualquier cambio de la fecha en vigor de la tarifa.</p> <p><b>Rol por hora más fijos o Usuario por hora más fijos</b> </p> <p><b>IMPORTANTE</b>
+Si tiene una tarea de ingresos fijos y no hay horas planificadas para la tarea, los ingresos no se mostrarán en el informe Utilización porque no hay forma de distribuirlos entre las horas. Si tiene horas planificadas en las tareas con ingresos fijos y ninguna asignación, los ingresos se mostrarán como ingresos sin asignar. </p> <p><strong>Función por hora:</strong> los ingresos de la tarea se calculan usando la tarifa de facturación establecida para un rol específico, multiplicada por el número de horas planificadas asociadas con ese rol. Workfront utiliza la fórmula siguiente:</p> <p><code>Ingresos planificados por función por hora = SUMA (horas planificadas de la función en todas las tareas) * Tarifa de facturación de la función</code></p><p><b>NOTA:</b> La tarifa de facturación por hora de la fórmula tiene en cuenta cualquier cambio de la fecha en vigor de la tarifa.</p>   <p><strong>Usuario por hora:</strong> los ingresos de la tarea se calculan usando la tarifa de facturación establecida para un usuario específico, multiplicada por el número de horas planificadas asociadas con ese usuario. Workfront utiliza la fórmula siguiente:</p> <p><code>Ingresos planificados por usuario por hora = SUMA (horas planificadas de los usuarios en todas las tareas) * Tarifa de facturación de usuario</code> </p> <p><b>NOTA:</b> La tarifa de facturación por hora de la fórmula tiene en cuenta cualquier cambio de la fecha en vigor de la tarifa.</p> <p><b>Función por hora más fijos o Usuario por hora más fijos</b> </p> <p><b>IMPORTANTE</b>
 
 A diferencia de otras áreas de Workfront, el informe Utilización calcula los ingresos planificados, dividiendo los ingresos fijos de forma uniforme por el número de horas planificadas de la tarea. </p> <p>Se dan los siguientes casos: </p>
 <ul>
@@ -459,37 +464,37 @@ Para realizar un seguimiento del progreso o el coste de uno o más proyectos con
 
    * Para ver la información de utilización de un solo proyecto:
 
-      1. Vaya a un proyecto cuya información de utilización desee ver y, a continuación, haga clic en **Utilización** en el panel izquierdo.
-      1. La información de utilización se muestra automáticamente cuando se visualiza un proyecto individual y no es necesario aplicar un filtro.\
-         Si desea filtrar el informe de utilización, puede aplicar un filtro y luego hacer clic en **Ejecutar**.\
-         Para obtener información sobre cómo filtrar el informe de utilización, consulte [Filtrar información de utilización](#filter-utilization-information) en este artículo.\
-         La información de utilización se muestra para usuarios y funciones individuales (los usuarios se agrupan dentro de su función asociada).
+     1. Vaya a un proyecto cuya información de utilización desee ver y, a continuación, haga clic en **Utilización** en el panel izquierdo.
+     1. La información de utilización se muestra automáticamente cuando se visualiza un proyecto individual y no es necesario aplicar un filtro.\
+        Si desea filtrar el informe de utilización, puede aplicar un filtro y luego hacer clic en **Ejecutar**.\
+        Para obtener información sobre cómo filtrar el informe de utilización, consulte [Filtrar información de utilización](#filter-utilization-information) en este artículo.\
+        La información de utilización se muestra para usuarios y funciones individuales (los usuarios se agrupan dentro de su función asociada).
 
    * Para ver la información de utilización de varios proyectos:
 
      {{step1-to-utilization-report}}
 
-      1. Aplique un filtro al informe Utilización y, a continuación, haga clic en **Ejecutar**.
-Debe especificar uno o varios proyectos en el filtro antes de ejecutar el informe de utilización. Para obtener información sobre cómo filtrar el informe de utilización, consulte [Filtrar información de utilización](#filter-utilization-information) en este artículo.\
-         La información de utilización se muestra para funciones y proyectos individuales (las funciones se agrupan dentro de su proyecto asociado).
+     1. Aplique un filtro al informe de utilización y, a continuación, haga clic en **Ejecutar**.
+        Debe especificar uno o varios proyectos en el filtro antes de ejecutar el informe de utilización. Para obtener información sobre cómo filtrar el informe de utilización, consulte [Filtrar información de utilización](#filter-utilization-information) en este artículo.\
+        La información de utilización se muestra para funciones y proyectos individuales (las funciones se agrupan dentro de su proyecto asociado).
 
    * Para ver la información de utilización de un programa:
 
      {{step1-to-utilization-report}}
 
-      1. Haga clic en **Mostrar** > **Programas**.
-      1. Aplique un filtro al informe de utilización y, a continuación, haga clic en **Ejecutar**.\
-         Debe especificar uno o más programas en el filtro antes de ejecutar el informe de utilización. Para obtener información sobre cómo filtrar el informe de utilización, consulte [Filtrar información de utilización](#filter-utilization-information) en este artículo.\
-         La información de utilización se muestra para proyectos y programas individuales (los proyectos se agrupan dentro de su programa asociado).
+     1. Haga clic en **Mostrar** > **Programas**.
+     1. Aplique un filtro al informe de utilización y, a continuación, haga clic en **Ejecutar**.\
+        Debe especificar uno o más programas en el filtro antes de ejecutar el informe de utilización. Para obtener información sobre cómo filtrar el informe de utilización, consulte [Filtrar información de utilización](#filter-utilization-information) en este artículo.\
+        La información de utilización se muestra para proyectos y programas individuales (los proyectos se agrupan dentro de su programa asociado).
 
    * Para consultar la información de utilización de un portafolio:
 
      {{step1-to-utilization-report}}
 
-      1. Haga clic en **Mostrar** > **Portafolios**.
-      1. Aplique un filtro al informe de utilización y, a continuación, haga clic en **Ejecutar**.\
-         Debe especificar uno o más portafolios en el filtro antes de ejecutar el informe de utilización. Para obtener información sobre cómo filtrar el informe de utilización, consulte [Filtrar información de utilización](#filter-utilization-information) en este artículo.\
-         La información de utilización se muestra para proyectos, programas y portafolios individuales (los proyectos se agrupan dentro de su programa asociado y los programas se agrupan dentro de su portafolio asociado).
+     1. Haga clic en **Mostrar** > **Portafolios**.
+     1. Aplique un filtro al informe de utilización y, a continuación, haga clic en **Ejecutar**.\
+        Debe especificar uno o más portafolios en el filtro antes de ejecutar el informe de utilización. Para obtener información sobre cómo filtrar el informe de utilización, consulte [Filtrar información de utilización](#filter-utilization-information) en este artículo.\
+        La información de utilización se muestra para proyectos, programas y portafolios individuales (los proyectos se agrupan dentro de su programa asociado y los programas se agrupan dentro de su portafolio asociado).
 
 1. En la esquina superior derecha del informe de utilización, haga clic en **Ver** y, a continuación, seleccione una de las siguientes opciones en el menú:
 
@@ -552,8 +557,8 @@ Para crear o modificar un filtro:
      Si ya ha designado portafolios, programas o proyectos en el filtro, el problema que especifique debe ser de uno de los portafolios, programas o proyectos ya incluidos en el filtro. Si no es así, los datos del problema no se incluyen en el informe de utilización.\
      La información de costes de los problemas no siempre se incluye en el informe de utilización. Para obtener más información sobre cuándo se incluye la información de costes de los problemas en el informe de utilización, consulte [Seguimiento del progreso, los costes y los ingresos con el informe de utilización](#track-progress-cost-and-revenue-with-the-utilization-report) en este artículo.
 
-   * **Roles:** Empiece a escribir el nombre del rol que desea que se represente en el informe de utilización y, a continuación, haga clic en el nombre cuando aparezca en la lista desplegable. Repita este proceso para incluir funciones adicionales.
-El Informe de utilización contiene información sólo sobre las funciones especificadas. Por ejemplo, una tarea contiene 10 horas reales. Seis de esas horas son de una función de Designer y cuatro de una función de desarrollador. Si filtra el Informe de utilización por función para Designer, las cuatro horas que proceden de la función Desarrollador se excluyen del informe.
+   * **Funciones:** escriba el nombre de la función que desea que se represente en el informe de utilización y, a continuación, haga clic en el nombre en la lista desplegable. Repita este proceso para incluir funciones adicionales.
+     El Informe de utilización contiene información solo sobre las funciones especificadas. Por ejemplo, una tarea contiene 10 horas reales. Seis de esas horas son de una función de Diseñador y cuatro de una función de Desarrollador. Si filtra el Informe de utilización por función para Diseñador, las cuatro horas que proceden de la función Desarrollador se excluyen del informe.
 
    * **Agregar regla de filtro:** haga clic en **Agregar regla de filtro**, haga clic en el campo de texto y empiece a escribir el nombre del campo por el que desea filtrar. Si el campo está disponible, se rellena para cada objeto donde se puede asociar. Haga clic en el nombre del campo para añadirlo al filtro.
 
@@ -567,20 +572,20 @@ El Informe de utilización contiene información sólo sobre las funciones espec
 1. Para crear un nuevo filtro, haga clic en **Guardar filtro**.\
    O\
    Para modificar un filtro existente, haga clic en la flecha situada junto al botón **Guardar filtro** y, a continuación, haga clic en **Guardar nuevo filtro**.
-En el campo **Nombre del filtro**, escriba un nombre para el filtro y haga clic en **Guardar**.
-El área Utilización se filtra con la información incluida en el filtro.
+   En el campo **Nombre del filtro**, escriba un nombre para el filtro y haga clic en **Guardar**.
+   El área Utilización se filtra con la información incluida en el filtro.
 
 ### Aplicar un filtro guardado {#apply-a-saved-filter}
 
-1. Abra el informe Utilización.
-Consulte [Seguimiento del progreso, los costes y los ingresos con el informe de utilización](#track-progress-cost-and-revenue-with-the-utilization-report) para hacerlo.
+1. Abra el informe de utilización.
+Consulte [Realizar un seguimiento del progreso, los costes y los ingresos con el informe de utilización](#track-progress-cost-and-revenue-with-the-utilization-report) para hacerlo.
 
 1. Haga clic en **Filtros guardados** y, a continuación, seleccione el filtro que desee aplicar en la lista desplegable.
 
 ### Duplicar un filtro {#duplicate-a-filter}
 
-1. Abra el informe Utilización.
-Consulte [Seguimiento del progreso, los costes y los ingresos con el informe de utilización](#track-progress-cost-and-revenue-with-the-utilization-report) para hacerlo.
+1. Abra el informe de utilización.
+Consulte [Realizar un seguimiento del progreso, los costes y los ingresos con el informe de utilización](#track-progress-cost-and-revenue-with-the-utilization-report) para hacerlo.
 
 1. Haga clic en **Filtros guardados**, pase el puntero por encima del filtro que quiere duplicar y haga clic en el icono **Duplicar**.
 
@@ -596,8 +601,8 @@ Al cambiar el nombre de un filtro, todos los usuarios de Workfront que tengan ac
 
 Para cambiar el nombre de un filtro, haga lo siguiente:
 
-1. Abra el informe Utilización.
-Consulte [Seguimiento del progreso, los costes y los ingresos con el informe de utilización](#track-progress-cost-and-revenue-with-the-utilization-report) para hacerlo.
+1. Abra el informe de utilización.
+Consulte [Realizar un seguimiento del progreso, los costes y los ingresos con el informe de utilización](#track-progress-cost-and-revenue-with-the-utilization-report) para hacerlo.
 
 1. Haga clic en **Filtros guardados**, pase el puntero por encima del filtro cuyo nombre desea cambiar y haga clic en el icono **Cambiar nombre**.
 
@@ -613,8 +618,8 @@ Al eliminar un filtro, este se elimina para todos los usuarios de Workfront que 
 
 Para eliminar un filtro, haga lo siguiente:
 
-1. Abra el informe Utilización.
-Consulte [Seguimiento del progreso, los costes y los ingresos con el informe de utilización](#track-progress-cost-and-revenue-with-the-utilization-report) para hacerlo.
+1. Abra el informe de utilización.
+Consulte [Realizar un seguimiento del progreso, los costes y los ingresos con el informe de utilización](#track-progress-cost-and-revenue-with-the-utilization-report) para hacerlo.
 
 1. Haga clic en **Filtros guardados**, pase el puntero por encima del filtro que quiere eliminar y haga clic en el icono **Eliminar**.
 
@@ -626,8 +631,8 @@ Consulte [Seguimiento del progreso, los costes y los ingresos con el informe de 
 
 Puede ajustar el intervalo de fechas para el que se muestra la información de utilización. Puede seleccionar una fecha pasada o futura. Nadie más podrá ver los cambios que realice.
 
-1. Abra el informe Utilización.
-Consulte [Seguimiento del progreso, los costes y los ingresos con el informe de utilización](#track-progress-cost-and-revenue-with-the-utilization-report) para hacerlo.
+1. Abra el informe de utilización.
+Consulte [Realizar un seguimiento del progreso, los costes y los ingresos con el informe de utilización](#track-progress-cost-and-revenue-with-the-utilization-report) para hacerlo.
 
 1. Haga clic en el intervalo de fecha que está junto al botón **Exportar**.
 
@@ -649,22 +654,22 @@ Cuando se ven en Microsoft Excel, los números negativos se muestran entre paré
 
 Para exportar información de utilización, haga lo siguiente:
 
-1. Abra el informe Utilización.
-Consulte [Seguimiento del progreso, los costes y los ingresos con el informe de utilización](#track-progress-cost-and-revenue-with-the-utilization-report) para hacerlo.
+1. Abra el informe de utilización.
+Consulte [Realizar un seguimiento del progreso, los costes y los ingresos con el informe de utilización](#track-progress-cost-and-revenue-with-the-utilization-report) para hacerlo.
 
 1. Haga clic en **Exportar** en la parte superior izquierda del informe.
 
 1. Seleccione entre las siguientes opciones:
 
    * **PDF:** exporta el informe en formato PDF. Este es el formato recomendado si planea imprimir el informe.\
-     Seleccione **Carta - Vertical**, **Carta - Horizontal** o **Otros tamaños** (proporciona opciones para exportar en Legal (8,5&quot; x 14&quot;), Libro mayor (11&quot; x 17&quot;) y A4).
-Según el sistema operativo que utilice, puede tener la opción de abrir o guardar el archivo. Abra el archivo con la aplicación asociada o guárdelo en el equipo.
+     Seleccione **Carta - Vertical**, **Carta - Horizontal** u **Otros tamaños** (proporciona opciones para exportar en Legal (8,5 x 14&quot;), Libro mayor (11 x 17&quot;) y A4).
+     Según el sistema operativo que utilice, puede tener la opción de abrir o guardar el archivo. Abra el archivo con la aplicación asociada o guárdelo en el equipo.
 
-   * **Excel:** Exporta el informe en formato XLSX. Este es el formato recomendado si planea analizar más a fondo los datos en Excel.
-Según el sistema operativo que utilice, puede tener la opción de abrir o guardar el archivo. Abra el archivo con la aplicación asociada o guárdelo en el equipo.
+   * **Excel:** exporta el informe en formato XLSX. Este es el formato recomendado si planea analizar más a fondo los datos en Excel.
+     Según el sistema operativo que utilice, puede tener la opción de abrir o guardar el archivo. Abra el archivo con la aplicación asociada o guárdelo en el equipo.
 
-   * **Delimitado por tabuladores:** Exporta el informe en formato TSV. Este es el formato recomendado si planea importar los datos en software de terceros para un análisis más amplio.
-Según el sistema operativo que utilice, puede tener la opción de abrir o guardar el archivo. Abra el archivo con la aplicación asociada o guárdelo en el equipo.
+   * **Delimitado por tabuladores:** exporta el informe en formato TSV. Este es el formato recomendado si planea importar los datos en software de terceros para un análisis más amplio.
+     Según el sistema operativo que utilice, puede tener la opción de abrir o guardar el archivo. Abra el archivo con la aplicación asociada o guárdelo en el equipo.
 
 1. Lea la información del artículo [Exportar datos](../../reports-and-dashboards/reports/creating-and-managing-reports/export-data.md) para saber cómo usar el archivo exportado.
 
@@ -672,8 +677,8 @@ Según el sistema operativo que utilice, puede tener la opción de abrir o guard
 
 Puede visualizar los datos del informe de utilización en una vista de gráfico.
 
-1. Abra el informe Utilización.
-Consulte [Seguimiento del progreso, los costes y los ingresos con el informe de utilización](#track-progress-cost-and-revenue-with-the-utilization-report) para hacerlo.
+1. Abra el informe de utilización.
+Consulte [Realizar un seguimiento del progreso, los costes y los ingresos con el informe de utilización](#track-progress-cost-and-revenue-with-the-utilization-report) para hacerlo.
 
 1. En la esquina superior derecha del informe de utilización, haga clic en el icono **Gráfico**.
 

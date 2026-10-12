@@ -8,25 +8,29 @@ feature: Resource Management
 exl-id: 9649e482-af24-4516-9a69-ef12b2f1d579
 last-update: 2026-04-01T18:23:03.000Z
 git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
-TQID: https://experienceleague.adobe.com/XyWVRXfAEOZppXJVTWL4jFX9UoB2s1uzXEebHrlY0xw
+TQID: 'https://experienceleague.adobe.com/XyWVRXfAEOZppXJVTWL4jFX9UoB2s1uzXEebHrlY0xw'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
 subfeature_v2:
   - id: c33d85a1-be85-4290-854c-87408c10aa80
+    internal-label: Workload Balancer
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 02a97fd6bb32c285e1bef5d614ea4ca713c83a40
 workflow-type: tm+mt
-source-wordcount: 2839
-ht-degree: 93%
-
+source-wordcount: '2870'
+ht-degree: 92%
 ---
-
 # Administrar asignaciones de usuario en el equilibrador de carga de trabajo
 
 <!-- Audited: 01/2024 -->
@@ -127,15 +131,15 @@ Tenga en cuenta lo siguiente a la hora de localizar asignaciones diarias, semana
   >
   >Si los días libres se marcaron después de que el usuario se asignara a un elemento de trabajo, debe recalcular la cronología del proyecto para mostrar la asignación desplazada. Para obtener más información, consulte [Recalcular cronologías de proyecto](../../manage-work/projects/manage-projects/recalculate-project-timeline.md).
 
-   * Cuando se asignan varios usuarios a una tarea y el usuario principal asignado tiene días libres programados, la cronología se desplaza (si las fechas no son fijas) y las horas planificadas de todos los usuarios asignados se redistribuyen a lo largo de la nueva duración de la tarea. Si la tarea tiene fechas fijas, la cronología no cambia debido a las horas libres y las horas se reasignan entre los días restantes.
-   * Si las asignaciones se realizan manualmente, las horas planificadas no se reasignan después de las horas libres.
+  * Cuando se asignan varios usuarios a una tarea y el usuario principal asignado tiene días libres programados, la cronología se desplaza (si las fechas no son fijas) y las horas planificadas de todos los usuarios asignados se redistribuyen a lo largo de la nueva duración de la tarea. Si la tarea tiene fechas fijas, la cronología no cambia debido a las horas libres y las horas se reasignan entre los días restantes.
+  * Si las asignaciones se realizan manualmente, las horas planificadas no se reasignan después de las horas libres.
 
 * Si hay varios usuarios asignados a la tarea, la cantidad de horas planificadas se distribuye equitativamente a cada usuario, en primer lugar, y luego equitativamente a cada día dentro de la duración de la tarea. Esta distribución se convierte en la asignación de cada usuario a la tarea.
 
   Por ejemplo, podrían darse los siguientes casos:
 
-   * Para una tarea de una duración de 2 días y con 10 horas planificadas asignadas a un usuario, la asignación diaria para el usuario es de 5 horas por día de forma predeterminada.
-   * Para una tarea de una duración de 2 días y con 10 horas planificadas asignadas a dos usuarios, la asignación diaria para cada usuario es de 2,5 horas por día de forma predeterminada.
+  * Para una tarea de una duración de 2 días y con 10 horas planificadas asignadas a un usuario, la asignación diaria para el usuario es de 5 horas por día de forma predeterminada.
+  * Para una tarea de una duración de 2 días y con 10 horas planificadas asignadas a dos usuarios, la asignación diaria para cada usuario es de 2,5 horas por día de forma predeterminada.
 
 * Si una tarea o incidencia finaliza antes de la fecha de finalización prevista, el número de horas asignadas para los días restantes se tacha y no cuenta para la asignación global del usuario. Esto solo se muestra cuando están habilitados tanto el icono Mostrar asignaciones como la configuración Mostrar fechas proyectadas. Para obtener más información sobre cómo habilitar la configuración en el Equilibrador de carga de trabajo, consulte [Navegar por el equilibrador de carga de trabajo](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
 
@@ -285,8 +289,8 @@ Esto es posible cuando existen las siguientes condiciones:
 
 * Tiene los permisos y el acceso correctos para administrar las horas planificadas desde el equilibrador de carga de trabajo. Entre ellos se incluyen los siguientes:
 
-   * Permisos de administración de las tareas.
-   * Acceso para actualizar las horas planificadas en el equilibrador de carga de trabajo en el área de Administración de recursos de su nivel de acceso.
+  * Permisos de administración de las tareas.
+  * Acceso para actualizar las horas planificadas en el equilibrador de carga de trabajo en el área de Administración de recursos de su nivel de acceso.
 
   Para obtener más información sobre el acceso necesario para usar el equilibrador de carga de trabajo, consulte la sección [Requisitos de acceso](#access-requirements) en este artículo.
 

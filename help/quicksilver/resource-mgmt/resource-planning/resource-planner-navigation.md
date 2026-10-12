@@ -7,25 +7,29 @@ description: Con el Planificador de recursos de Adobe Workfront puede comprender
 author: Lisa
 feature: Resource Management
 exl-id: 5a1be723-e3ac-443a-9c09-85e8839fcbef
-TQID: https://experienceleague.adobe.com/aDlEs3QYjcq5ycrGOI5X-T0GGvBngLiw1b-7i-WSeU4
+TQID: 'https://experienceleague.adobe.com/aDlEs3QYjcq5ycrGOI5X-T0GGvBngLiw1b-7i-WSeU4'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
 subfeature_v2:
   - id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
+    internal-label: Resource Planner
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 02a97fd6bb32c285e1bef5d614ea4ca713c83a40
 workflow-type: tm+mt
-source-wordcount: 2411
+source-wordcount: '2442'
 ht-degree: 7%
-
 ---
-
 # Información general de navegación del planificador de recursos
 
 <!-- Audited: 5/2025 -->
@@ -106,7 +110,7 @@ Para mostrar información precisa en el Planificador de recursos, debe cumplir u
 Para cambiar la vista en el Planificador de recursos, seleccione una de las siguientes vistas en el menú desplegable Ver por:
 
 * [Ver por proyecto](#view-by-project)
-* [Ver por rol](#view-by-role)
+* [Ver por función](#view-by-role)
 * [Ver por usuario](#view-by-user)
 
 ### Ver por proyecto {#view-by-project}
@@ -131,15 +135,15 @@ Tenga en cuenta lo siguiente al seleccionar la vista de proyecto en el Planifica
 
 * Puede ver la siguiente información de horas, ETC o costos en la vista Proyecto:
 
-   * Disponible
-   * Planificados
-   * Presupuestado
-   * Desviación
-   * Neto
+  * Disponible
+  * Planificados
+  * Presupuestado
+  * Desviación
+  * Neto
 
-     Para obtener más información, consulte [Recursos de presupuesto en el Planificador de recursos mediante las vistas Proyecto y Función](../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md).
+    Para obtener más información, consulte [Recursos de presupuesto en el Planificador de recursos mediante las vistas Proyecto y Función](../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md).
 
-### Ver por rol {#view-by-role}
+### Ver por función {#view-by-role}
 
 Tenga en cuenta lo siguiente al seleccionar la vista de rol en el Planificador de recursos:
 
@@ -152,13 +156,13 @@ Tenga en cuenta lo siguiente al seleccionar la vista de rol en el Planificador d
 * Cuando se aplica esta vista, las horas del proyecto, el valor de ETC o el costo se suman a las horas del rol, el valor de ETC o el costo.
 * Puede ver la siguiente información de horas, ETC o costos en la vista Rol:
 
-   * Disponible
-   * Planificados
-   * Presupuestado
-   * Desviación
-   * Neto
+  * Disponible
+  * Planificados
+  * Presupuestado
+  * Desviación
+  * Neto
 
-     Para obtener más información, consulte [Recursos de presupuesto en el Planificador de recursos mediante las vistas Proyecto y Función](../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md).
+    Para obtener más información, consulte [Recursos de presupuesto en el Planificador de recursos mediante las vistas Proyecto y Función](../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md).
 
 ### Ver por usuario {#view-by-user}
 
@@ -191,23 +195,23 @@ Tenga en cuenta lo siguiente al seleccionar la Vista de usuario en el Planificad
 
   Se dan los siguientes escenarios:
 
-   * Cuando no tiene permisos para ver los proyectos y las tareas o problemas asignados a los usuarios que se muestran en el Planificador de recursos, esos elementos se enumeran en las secciones Elementos inaccesibles. En este caso, estas secciones reemplazan a las secciones Proyecto o Tarea.
+  * Cuando no tiene permisos para ver los proyectos y las tareas o problemas asignados a los usuarios que se muestran en el Planificador de recursos, esos elementos se enumeran en las secciones Elementos inaccesibles. En este caso, estas secciones reemplazan a las secciones Proyecto o Tarea.
 
-   * Cuando no tiene permisos para ver los proyectos, pero tiene acceso para ver las tareas o problemas de los proyectos, los proyectos, las tareas y los problemas se enumeran con los nombres de los usuarios asignados a ellos.
-   * Cuando tiene permisos para ver los proyectos, pero no las tareas o problemas de los proyectos, se muestra el nombre del proyecto y las tareas y problemas se enumeran en la sección Elementos inaccesibles.
+  * Cuando no tiene permisos para ver los proyectos, pero tiene acceso para ver las tareas o problemas de los proyectos, los proyectos, las tareas y los problemas se enumeran con los nombres de los usuarios asignados a ellos.
+  * Cuando tiene permisos para ver los proyectos, pero no las tareas o problemas de los proyectos, se muestra el nombre del proyecto y las tareas y problemas se enumeran en la sección Elementos inaccesibles.
 
-     Para obtener más información, consulte [Información general sobre los permisos de uso compartido en objetos](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
+    Para obtener más información, consulte [Información general sobre los permisos de uso compartido en objetos](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
 
 
 * Puede ver la siguiente información de hora y FTE en la vista de usuario:
 
-   * Disponible
-   * Planificados
-   * Real
-   * Diferencia entre planificado y real
-   * Porcentaje de asignación planificada
+  * Disponible
+  * Planificados
+  * Real
+  * Diferencia entre planificado y real
+  * Porcentaje de asignación planificada
 
-     Para obtener más información, vea [Ver horas disponibles, planificadas y reales o FTE en el Planificador de recursos al usar la vista de usuario](../../resource-mgmt/resource-planning/view-hours-fte-user-view-resource-planner.md)
+    Para obtener más información, vea [Ver horas disponibles, planificadas y reales o FTE en el Planificador de recursos al usar la vista de usuario](../../resource-mgmt/resource-planning/view-hours-fte-user-view-resource-planner.md)
 
 ## Nombre del proyecto
 
@@ -259,9 +263,9 @@ En las Vistas de proyecto y de funciones, los usuarios podrían aparecer enumera
 * Su rol principal
 * Su rol secundario, en los siguientes escenarios:
 
-   * Si el rol secundario tiene un número válido para el porcentaje de disponibilidad de FTE en su perfil de usuario.
-   * Si el usuario está asignado a tareas en esas funciones.
-Para obtener más información sobre el porcentaje de disponibilidad de FTE para un rol, consulte [Editar el perfil de un usuario](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md) .
+  * Si el rol secundario tiene un número válido para el porcentaje de disponibilidad de FTE en su perfil de usuario.
+  * Si el usuario está asignado a tareas en esas funciones.
+    Para obtener más información sobre el porcentaje de disponibilidad de FTE para un rol, consulte [Editar el perfil de un usuario](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md) .
 
 ## Secciones Sin rol y Sin usuario
 
@@ -300,12 +304,12 @@ Desde aquí, puede habilitar una o ambas de las siguientes opciones de configura
 
   Tenga en cuenta lo siguiente al habilitar esta configuración:
 
-   * El nombre del usuario asignado a los problemas se muestra en la función de trabajo asociada a ellos en el problema. Puede especificar horas presupuestadas para el usuario y el rol en las vistas Proyecto y Rol.
-   * Los problemas que se asignan a los usuarios se enumeran con los nombres de los roles en la vista de usuario.
+  * El nombre del usuario asignado a los problemas se muestra en la función de trabajo asociada a ellos en el problema. Puede especificar horas presupuestadas para el usuario y el rol en las vistas Proyecto y Rol.
+  * Los problemas que se asignan a los usuarios se enumeran con los nombres de los roles en la vista de usuario.
 
-     >[!IMPORTANT]
-     >
-     >Cuando las fechas planificadas de inicio y finalización del problema están fuera de la cronología del proyecto, las horas planificadas del problema se muestran según las fechas del problema. Por ejemplo, si la escala de tiempo del proyecto es entre enero y marzo, pero la escala de tiempo de los problemas es en agosto, las horas planificadas para los problemas aparecerán en el período de tiempo de agosto.
+    >[!IMPORTANT]
+    >
+    >Cuando las fechas planificadas de inicio y finalización del problema están fuera de la cronología del proyecto, las horas planificadas del problema se muestran según las fechas del problema. Por ejemplo, si la escala de tiempo del proyecto es entre enero y marzo, pero la escala de tiempo de los problemas es en agosto, las horas planificadas para los problemas aparecerán en el período de tiempo de agosto.
 
 
 * **Mostrar prioridades de Portfolio**: muestra las prioridades de proyecto según el Portfolio al que estén asignadas.

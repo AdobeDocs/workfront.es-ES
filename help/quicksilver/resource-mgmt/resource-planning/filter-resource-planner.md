@@ -6,27 +6,33 @@ description: Mediante los filtros, puede modificar la información que se muestr
 author: Lisa
 feature: Resource Management
 exl-id: 7186cae5-1e16-421e-b26d-afb50aa7f6eb
-TQID: https://experienceleague.adobe.com/VA0bJYfRCQrZECzbiBOMjDD9Rpzf4ePG4EwQlowlhyI
+TQID: 'https://experienceleague.adobe.com/VA0bJYfRCQrZECzbiBOMjDD9Rpzf4ePG4EwQlowlhyI'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
 subfeature_v2:
   - id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
+    internal-label: Resource Planner
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 02a97fd6bb32c285e1bef5d614ea4ca713c83a40
 workflow-type: tm+mt
-source-wordcount: 2369
-ht-degree: 97%
-
+source-wordcount: '2381'
+ht-degree: 96%
 ---
-
 # Filtrar información en el Planificador de recursos
 
 <!--
@@ -84,9 +90,9 @@ Tenga en cuenta lo siguiente al utilizar filtros en el Planificador de recursos:
 * La aplicación de un filtro no cambia los datos de asignación y disponibilidad en el Planificador de recursos para proyectos, funciones o usuarios. Un filtro solo cambia el número de objetos que se ven en el Planificador de recursos.
 * El filtrado se aplica a todos los objetos que se muestran en el Planificador de recursos al mismo tiempo. Por ejemplo, si filtra por un usuario específico, el Planificador de recursos muestra solamente los resultados siguientes:
 
-   * Proyectos en los que ese usuario forme parte del conjunto de recursos (para las vistas Proyecto y Función) o tenga una asignación en el proyecto (para la vista Usuario)
-   * Funciones asociadas al usuario en esos proyectos\
-     No se muestran otras funciones o usuarios en los proyectos a los que está asociado el usuario.
+  * Proyectos en los que ese usuario forme parte del conjunto de recursos (para las vistas Proyecto y Función) o tenga una asignación en el proyecto (para la vista Usuario)
+  * Funciones asociadas al usuario en esos proyectos\
+    No se muestran otras funciones o usuarios en los proyectos a los que está asociado el usuario.
 
 ## Información general sobre el filtro predeterminado en el Planificador de recursos {#overview-of-the-default-filter-in-the-resource-planner}
 
@@ -96,9 +102,9 @@ Tenga en cuenta lo siguiente al utilizar el filtro predeterminado:
 
 * El filtro predeterminado recupera información solo de proyectos con lo siguiente:
 
-   * Una fecha planificada de finalización que es posterior a la primera fecha del mes actual
-   * Una fecha de inicio planificada que se produce antes del último día del cuarto mes a partir de la fecha actual
-   * Estado del proyecto = Actual o Planificación
+  * Una fecha planificada de finalización que es posterior a la primera fecha del mes actual
+  * Una fecha de inicio planificada que se produce antes del último día del cuarto mes a partir de la fecha actual
+  * Estado del proyecto = Actual o Planificación
 
   >[!IMPORTANT]
   >
