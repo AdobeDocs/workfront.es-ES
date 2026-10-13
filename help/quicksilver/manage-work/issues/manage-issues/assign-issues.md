@@ -27,7 +27,7 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 0f99c6d23daa91bfd3080ead402f60abf8b18c42
+source-git-commit: c1d154d2d6ce0cedbd61c2b311ad95ddf86c48f8
 workflow-type: tm+mt
 source-wordcount: '1380'
 ht-degree: 43%
@@ -48,13 +48,13 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 </div>
 -->
 
-Puede asignar problemas a usuarios, funciones, equipos o agentes de trabajo para indicar quién es el responsable de completar los problemas. Para obtener información general sobre la asignación de problemas, consulte [Información general sobre la modificación de asignaciones de problemas](../../../manage-work/issues/manage-issues/modify-issue-assignments-overview.md).
+Puede asignar problemas a usuarios, roles, equipos o <span class="preview">agentes de trabajo</span> para indicar quién es el responsable de completar los problemas. Para obtener información general sobre la asignación de problemas, consulte [Información general sobre la modificación de asignaciones de problemas](../../../manage-work/issues/manage-issues/modify-issue-assignments-overview.md).
 
 >[!TIP]
 >
->Puede asignar varios usuarios, roles, equipos o agentes de trabajo. Solo puede asignar usuarios activos, roles, equipos y agentes de trabajo.
+>Puede asignar varios usuarios, roles, equipos o agentes de trabajo</span>. <span class="preview">Solo puede asignar usuarios activos, roles, equipos, <span class="preview">y agentes de trabajo</span>.
 >
->Si un usuario, rol, equipo o agente de trabajo se asignó antes de desactivarse, permanece asignado al elemento de trabajo. En este caso, se recomienda lo siguiente:
+>Si se asignó un usuario, rol, equipo <span class="preview">o agente de trabajo</span> antes de que se desactivaran, permanecerán asignados al elemento de trabajo. En este caso, se recomienda lo siguiente:
 >
 >* Reasignar el elemento de trabajo a los recursos activos.
 >* Asocie los usuarios de un equipo desactivado a un equipo activo y reasigne el elemento de trabajo al equipo activo.
@@ -149,7 +149,7 @@ Tenga en cuenta lo siguiente al asignar varios recursos a un elemento de trabajo
 
 1. Realice una de las siguientes acciones:
 
-   * Comience a escribir el nombre de un usuario, rol, equipo o agente de trabajo que desee asignar y, a continuación, haga clic en él cuando aparezca en la lista.
+   * Empiece a escribir el nombre de un usuario, rol, equipo <span class="preview">o agente de trabajo</span> que desee asignar y, a continuación, haga clic en él cuando aparezca en la lista.
 
      ![Búsqueda de asignaciones](assets/smart-assignments-issue-header.png)
 
@@ -198,7 +198,7 @@ Para asignar problemas en una lista:
 
      ![Asignado a campo](assets/assigned-to-field-task-list-nwe.png)
 
-   * Haga clic dentro del campo **Asignaciones** y empiece a escribir el nombre de un usuario, rol, equipo o agente de trabajo activo que desee asignar al problema; a continuación, haga clic en él cuando se muestre en la lista.
+   * Haga clic dentro del campo **Asignaciones** y empiece a escribir el nombre de un usuario, rol, equipo <span class="preview">o agente de trabajo</span> activo que desee asignar al problema; a continuación, haga clic en él cuando se muestre en la lista.
 
      ![Campo de asignaciones](assets/assignments-field-0825.png)
 

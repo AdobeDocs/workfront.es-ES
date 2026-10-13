@@ -18,10 +18,10 @@ feature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 4e0576ab13efb4bbf127722be9b71c8abb8950c9
 workflow-type: tm+mt
-source-wordcount: '352'
-ht-degree: 40%
+source-wordcount: '376'
+ht-degree: 37%
 ---
 # Personalización del menú Más mediante una plantilla de diseño
 
@@ -75,5 +75,9 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
    * Haga clic en los iconos **Mostrar** ![Mostrar icono](assets/add-secondary-nav-item.png) o **Ocultar** ![Ocultar icono](assets/delete-secondary-nav-item.png) para mostrar u ocultar secciones en el panel izquierdo. No puede ocultar elementos que no tengan los iconos **Mostrar** o **Ocultar**.
 
    * Arrastre los elementos ![Icono de mover](assets/move-icon---dots.png) para cambiar su orden en el panel izquierdo.
+
+   >[!NOTE]
+   >
+   >Si oculta la opción **Compartir** en el menú Más para proyectos, tareas o problemas, el botón Compartir estará oculto en el encabezado del objeto.
 
 1. Haga clic en **Listo**.
