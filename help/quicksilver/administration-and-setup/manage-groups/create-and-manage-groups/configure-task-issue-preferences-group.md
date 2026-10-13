@@ -35,10 +35,10 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: d476486418e1fc550b019bf8e42a94b5add98a7f
 workflow-type: tm+mt
-source-wordcount: '2177'
-ht-degree: 84%
+source-wordcount: '2185'
+ht-degree: 82%
 ---
 # Configurar las preferencias de tareas y problemas de un grupo
 
@@ -165,7 +165,7 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
       <td> <p>La configuración de esta sección determina qué sucede durante el proceso de conversión de un problema a una tarea:</p> 
        <ul> 
         <li><strong>Conservar el problema original y vincular su resolución a la tarea</strong>: cuando esté convirtiendo el problema, permanecerá visible como problema hasta que se complete la tarea. El estado del problema cambiará automáticamente a Cerrado cuando se complete la tarea.</li> 
-        <li><strong>Permitir que el contacto principal tenga acceso a la tarea</strong>: otorga al contacto principal (creador del problema) acceso a la tarea para revisarla, realizar actualizaciones y mantenerse al corriente de su progreso</li> 
+        <li><strong>Permitir que el contacto principal tenga acceso a la tarea</strong>: otorga al contacto principal (creador del problema) acceso de visualización a la tarea para revisar la tarea, mantenerse informado de su progreso y realizar comentarios en la sección Actualizaciones de la tarea.</li> 
         <li> <p><strong>Permitir cambiar esta configuración durante la conversión</strong>: permite al usuario que está convirtiendo el problema cambiar estas opciones durante la conversión de un problema en una tarea.</p>
         <!--
           Screenshot when possible</p>

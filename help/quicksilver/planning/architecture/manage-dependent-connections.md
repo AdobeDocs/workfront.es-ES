@@ -17,9 +17,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: cf3b7277ff6e6f41a8c388358dfa3f26d1498b4c
+source-git-commit: d476486418e1fc550b019bf8e42a94b5add98a7f
 workflow-type: tm+mt
-source-wordcount: '1427'
+source-wordcount: '1406'
 ht-degree: 3%
 ---
 
@@ -79,7 +79,7 @@ Una vez configurado, cualquier tipo de registro que haga referencia a ambos camp
    <ul><li><p>Licencia de Adobe Experience Manager Assets e integración entre AEM Assets y Workfront para conectar recursos de AEM con tipos de registros de Planning.</p>
    <p>Para obtener más información, consulte <a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md">Adobe Workfront para Experience Manager Assets y Assets Essentials: índice de artículo</a>. </p></li>
    <li><p> Licencia de Adobe GenStudio for Performance Marketing para conectar tipos de registros con objetos y marcas de GenStudio</p>
-   <p>Para obtener más información, consulte <a href="https://experienceleague.adobe.com/es/docs/genstudio-for-performance-marketing/user-guide/get-started">Introducción a Adobe GenStudio for Performance Marketing</a>.</p></li></ul>
+   <p>Para obtener más información, consulte <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/get-started">Introducción a Adobe GenStudio for Performance Marketing</a>.</p></li></ul>
    </td> 
   </tr> 
   <tr> 
@@ -172,7 +172,7 @@ Sent a slack message to Norayr, Predator, Snowstorm, Armine for info for this se
      ![Información sobre herramientas de iconos dependientes en el encabezado de columna](assets/dependent-icon-tooltip-in-column-header.png)
 1. (Opcional) Haga clic en **Reglas de filtrado de registros** y seleccione los campos del tipo de registro al que se está conectando para limitar las opciones de los valores de ese campo. A continuación, haga clic en **Listo**.
 
-   Cuando los dos campos están presentes en un tercer tipo de registro, las opciones del tipo de registro de campo conectado estarán limitadas por el filtro que seleccione aquí.
+   Para obtener más información, consulte [Conectar tipos de registro](/help/quicksilver/planning/architecture/connect-record-types.md).
 1. (Opcional y recomendada) Vaya a un tercer tipo de registro y agregue el primer y el segundo tipo de registro como campos de registro conectados.
 
    ![Indicador de campo conectado dependiente en un tercer tipo de registro](assets/dependent-connected-field-indicator-on-a-third-record-type.png)
