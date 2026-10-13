@@ -19,9 +19,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 2b2e58c17bdcb7c28b11bf460bad24bc1e1eb642
+source-git-commit: a05d8d51a3a2595d0c2a75aa9f992e4f14b091fe
 workflow-type: tm+mt
-source-wordcount: '1085'
+source-wordcount: '1090'
 ht-degree: 17%
 ---
 
@@ -107,7 +107,7 @@ Para obtener más información acerca de los requisitos de acceso de Workfront, 
 
 * El compañero debe estar habilitado para su organización antes de que esté disponible para los usuarios de su empresa.
 
-  Para obtener más información, consulte [Información general de CX Enterprise Coworker](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md).
+  Para obtener más información, consulte [Información general sobre CX Enterprise Coworker en Workfront](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md).
 
 * Una vez que Workfront ha habilitado el agente para la instancia de Workfront, estará disponible para el administrador principal de Workfront y podrá habilitarlo para su organización. Para obtener más información, consulte [Configurar las preferencias del sistema](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md).
 
@@ -128,7 +128,7 @@ Para obtener más información acerca de los requisitos de acceso de Workfront, 
 
 ## Funcionalidad disponible actualmente para el compañero de trabajo
 
-Actualmente, el elemento Compañero está disponible en el área de Planificación de Workfront y utiliza un conjunto de aptitudes para acceder a la información de los objetos de Planificación y manipularla. Para obtener más información, consulte [Aptitudes de CX Enterprise Coworker](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-skills.md).
+Actualmente, el elemento Compañero está disponible en el área de Planificación de Workfront y utiliza un conjunto de aptitudes para acceder a la información de los objetos de Planificación y manipularla. Para obtener más información, consulte [Aptitudes de Workfront en CX Enterprise Coworker](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-skills.md).
 
 Puede utilizar Compañero de trabajo para realizar las siguientes acciones:
 
