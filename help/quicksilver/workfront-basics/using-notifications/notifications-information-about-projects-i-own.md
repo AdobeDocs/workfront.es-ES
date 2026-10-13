@@ -15,9 +15,9 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: f23ba23479facf21a382314b02a95cf18401f4b8
 workflow-type: tm+mt
-source-wordcount: '1636'
+source-wordcount: '1651'
 ht-degree: 100%
 ---
 # Notificaciones: información sobre proyectos de mi propiedad
@@ -49,7 +49,7 @@ Consulte también [Notificaciones de eventos](../../workfront-basics/using-notif
    <td><strong>Diariamente</strong> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>Se retrasa mi proyecto</strong> </p> <p>El propietario del proyecto recibe una notificación por correo electrónico cuando el proyecto se retrasa. Un proyecto se encuentra retrasado con respecto a la programación cuando el estado del progreso es “[!UICONTROL At Risk]”, “[!UICONTROL Behind]” o “[!UICONTROL Late]”.</p> <p>Una práctica recomendada consiste en mantener esta notificación activa. </p> <p>Los usuarios con una licencia de [!UICONTROL Review] no reciben ninguna notificación.</p> <p>El asunto del mensaje de correo electrónico de notificación instantánea es: <em>[!UICONTROL Project Progress Change]: &lt;Nombre del proyecto&gt;</em></p> <p> El asunto de la notificación de resumen diario es: <em> [!UICONTROL Digest of Projects You Own] &lt;Fecha del resumen diario&gt; </em></p> </td> 
+   <td> <p><strong>Se retrasa mi proyecto</strong> </p> <p>El propietario del proyecto recibe una notificación por correo electrónico cuando el proyecto se retrasa. Un proyecto se encuentra retrasado con respecto a la programación cuando el estado del progreso es “[!UICONTROL At Risk]”, “[!UICONTROL Behind]” o “[!UICONTROL Late]”. Solo se envía una notificación si el estado del proyecto es [!UICONTROL Current] o [!UICONTROL Planning].</p> <p>Una práctica recomendada consiste en mantener esta notificación activa. </p> <p>Los usuarios con una licencia de [!UICONTROL Review] no reciben ninguna notificación.</p> <p>El asunto del mensaje de correo electrónico de notificación instantánea es: <em>[!UICONTROL Project Progress Change]: &lt;Nombre del proyecto&gt;</em></p> <p> El asunto de la notificación de resumen diario es: <em> [!UICONTROL Digest of Projects You Own] &lt;Fecha del resumen diario&gt; </em></p> </td> 
    <td> <p>Nombre del proyecto<br>Nombre del portafolio<br>Número de referencia del proyecto<br>Estado del progreso del proyecto<br>[!UICONTROL Planned Start Date] del proyecto<br>[!UICONTROL Planned Completion Date] del proyecto<br>[!UICONTROL Projected Start Date] del proyecto<br>[!UICONTROL Projected Completion Date] del proyecto<br>Porcentaje completado del proyecto<br>Estado del proyecto<br>Propietario del proyecto<br>*Nombre del proyecto<br>*Número de referencia del proyecto<br>*Estado de progreso del proyecto<br>*Fecha del resumen diario<br></p> </td> 
    <td><strong>Diariamente</strong> </td> 
   </tr> 
