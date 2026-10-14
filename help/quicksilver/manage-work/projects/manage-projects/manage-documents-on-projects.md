@@ -15,9 +15,9 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: ccfa144db57972aa6a43f169964ea3c792d782bc
 workflow-type: tm+mt
-source-wordcount: '2203'
+source-wordcount: '2453'
 ht-degree: 0%
 ---
 # Información general sobre la administración de documentos para proyectos y objetos relacionados
@@ -138,6 +138,7 @@ Las siguientes secciones documentan cómo funciona el almacenamiento de document
 Tenga en cuenta lo siguiente al trabajar con proyectos:
 
 * Cuando crea un proyecto de almacenamiento en la nube de Adobe, Workfront crea una carpeta en la sección Documentos del proyecto en la que se guardan los documentos. El nombre de la carpeta es el mismo nombre que el proyecto. No puede eliminar la carpeta ni cambiarle el nombre manualmente. Se cambiará el nombre de la carpeta si cambia el nombre del proyecto para que coincida con el nuevo nombre del proyecto.
+* Al cambiar el nombre de un proyecto con el almacenamiento en la nube de Adobe, se cambia automáticamente el nombre de la carpeta del documento. Sin embargo, si hay un problema y no se puede alcanzar el almacenamiento en ese momento, el nuevo nombre se rechaza tanto para el proyecto como para la carpeta y los nombres antiguos se dejan sin cambiar. Puede intentar cambiar el nombre de nuevo después de un tiempo. <!--checking with Hui on issue 29532225 about which name is flipping back - the project or the folder or both-->
 * Al crear o mover un proyecto de almacenamiento en la nube de Adobe a un portafolio o programa de almacenamiento en la nube de Workfront heredado, el portafolio o programa se convierte automáticamente en un objeto de almacenamiento en la nube de Adobe, si el portafolio o programa no tiene documentos adjuntos antes de que se agregue el proyecto.
 * No puede crear un proyecto de almacenamiento de Workfront heredado para un portafolio o programa de almacenamiento en la nube de Adobe.
 * Al importar un proyecto desde MS Project, Workfront crea un proyecto de almacenamiento de Workfront heredado, incluso cuando el administrador de Workfront establece el almacenamiento en la nube de Adobe como predeterminado para el sistema.
@@ -150,6 +151,7 @@ Para obtener más información, consulte también la sección [Administración d
 Tenga en cuenta lo siguiente al trabajar con portafolios:
 
 * Cuando crea un portafolio de almacenamiento en la nube de Adobe, Workfront crea una carpeta en la sección Documentos del portafolio en la que se guardan los documentos. El nombre de la carpeta es el mismo nombre que el portafolio. No puede eliminar la carpeta ni cambiarle el nombre manualmente. Se cambiará el nombre de la carpeta si cambia el nombre del portafolio de modo que coincida con el nuevo nombre del portafolio.
+* Al cambiar el nombre de un portafolio con el almacenamiento en la nube de Adobe, se cambia automáticamente el nombre de la carpeta del documento. Sin embargo, si hay un problema y no se puede acceder al almacenamiento en ese momento, el nuevo nombre se rechaza tanto para el portafolio como para la carpeta y los nombres antiguos se dejan sin cambios. Puede intentar cambiar el nombre de nuevo después de un tiempo. <!--checking with Hui on issue 29532225 about which name is flipping back - the project or the folder or both-->
 
 <!--
 This is not possible anymore: 
@@ -159,7 +161,7 @@ This is not possible anymore:
 * No puede agregar un proyecto de almacenamiento en la nube de Adobe a una cartera de productos de almacenamiento heredados ni a un proyecto de almacenamiento heredado a una cartera de productos de Adobe.
 * El administrador puede convertir un catálogo de productos de almacenamiento heredado al almacenamiento en la nube de Adobe en el área Preferencias del sistema de Configuración. Todos los objetos secundarios (programas, proyectos y documentos) permanecen en el almacenamiento heredado. Los nuevos proyectos utilizarán el almacenamiento en la nube de Adobe. Los nuevos documentos añadidos al portafolio se seguirán almacenando en el almacenamiento heredado.
 Para obtener más información, consulte [Configurar las preferencias del sistema](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md).
-* &#x200B;<!-- this point also repeats for programs below-->Si un portafolio se convierte del almacenamiento heredado al almacenamiento en la nube de Adobe y el programa tiene almacenamiento heredado, un proyecto del programa también utilizará el almacenamiento heredado.
+* <!-- this point also repeats for programs below-->Si un portafolio se convierte del almacenamiento heredado al almacenamiento en la nube de Adobe y el programa tiene almacenamiento heredado, un proyecto del programa también utilizará el almacenamiento heredado.
 
   Ya no puede añadir proyectos de almacenamiento heredados existentes a esta cartera.
 
@@ -172,13 +174,14 @@ Para obtener más información, consulte [Configurar las preferencias del sistem
 Tenga en cuenta lo siguiente al trabajar con programas:
 
 * Cuando crea un programa de almacenamiento en la nube de Adobe, Workfront crea una carpeta en la sección Documentos del programa en la que se guardan los documentos. El nombre de la carpeta es el mismo que el nombre del programa. No puede eliminar la carpeta ni cambiarle el nombre manualmente. Si cambia el nombre del programa, se cambiará el nombre de la carpeta para que coincida con el nuevo nombre del programa.
+* Al cambiar el nombre de un programa con Adobe Cloud Storage, se cambia automáticamente el nombre de la carpeta del documento. Sin embargo, si hay un problema y no se puede alcanzar el almacenamiento en ese momento, el nuevo nombre se rechaza tanto para el programa como para la carpeta y los nombres antiguos se dejan sin cambios. Puede intentar cambiar el nombre de nuevo después de un tiempo. <!--checking with Hui on issue 29532225 about which name is flipping back - the project or the folder or both-->
 
 * No puede agregar un proyecto de almacenamiento de Workfront heredado a un programa de almacenamiento en la nube de Adobe.
 
 * No puede agregar un programa de almacenamiento en la nube de Adobe a una cartera de productos de almacenamiento heredados ni un programa heredado a una cartera de productos de almacenamiento en la nube de Adobe.
 * No puede crear un proyecto a partir de una plantilla de almacenamiento en la nube de Adobe en un programa de almacenamiento heredado.
 * Puede crear un proyecto a partir de una plantilla de almacenamiento heredada en un programa de almacenamiento en la nube de Adobe, pero los documentos y las carpetas de la plantilla no se agregan al nuevo proyecto. El proyecto recibe almacenamiento en la nube de Adobe.
-* &#x200B;<!-- this point also repeats for portfolios above-->Si un portafolio se convierte del almacenamiento heredado al almacenamiento en la nube de Adobe y el programa tiene almacenamiento heredado, un proyecto del programa también utilizará el almacenamiento heredado.
+* <!-- this point also repeats for portfolios above-->Si un portafolio se convierte del almacenamiento heredado al almacenamiento en la nube de Adobe y el programa tiene almacenamiento heredado, un proyecto del programa también utilizará el almacenamiento heredado.
 
   Ya no puede añadir proyectos de almacenamiento heredados existentes a esta cartera.
 
@@ -191,7 +194,8 @@ Tenga en cuenta lo siguiente al trabajar con tareas:
 
 * Las tareas heredan el tipo de almacenamiento de los proyectos.
 * Al cargar un documento en una tarea de un proyecto de almacenamiento en la nube de Adobe, Workfront crea automáticamente una carpeta en la sección Documentos de la tarea. El nombre de la carpeta es el mismo que la tarea.
-* Puede cambiar el nombre de la carpeta de documentos y eliminarla desde la tarea de almacenamiento en la nube de Adobe, que también elimina los documentos de la carpeta. Después de agregar nuevos documentos a la tarea, la carpeta se vuelve a crear automáticamente. Los documentos eliminados no vuelven a colocarse en la carpeta.
+* Al cambiar el nombre de la tarea, no se cambia a carpeta de documentos.
+* Puede eliminar la carpeta de documentos de la tarea de almacenamiento en la nube de Adobe, que también elimina los documentos de la carpeta. Después de agregar nuevos documentos a la tarea, la carpeta se vuelve a crear automáticamente. Los documentos eliminados no vuelven a colocarse en la carpeta.
 * En los proyectos de almacenamiento en la nube de Adobe, la carpeta de documentos de una tarea se muestra como una subcarpeta en la carpeta de documentos creada automáticamente para el proyecto.
 * No puede copiar ni mover una tarea de un proyecto de almacenamiento de Workfront heredado a uno de almacenamiento en la nube de Adobe. Lo contrario tampoco es posible.
 * Existen los siguientes escenarios al convertir una tarea en un proyecto: <!--this info also duplicated in Convert tasks to projects-->
@@ -207,7 +211,8 @@ Tenga en cuenta lo siguiente al trabajar con problemas:
 
 * Los problemas heredan el tipo de almacenamiento de los proyectos.
 * Cuando se carga un documento en un problema de un proyecto de almacenamiento en la nube de Adobe, Workfront crea automáticamente una carpeta en la sección Documentos del problema. El nombre de la carpeta es el mismo que el problema.
-* Puede cambiar el nombre de la carpeta de documentos y eliminarla del problema de almacenamiento en la nube de Adobe, que también elimina los documentos de la carpeta. Después de agregar nuevos documentos al problema, la carpeta se vuelve a crear automáticamente. Los documentos eliminados no vuelven a colocarse en la carpeta.
+* Al cambiar el nombre de un problema no se cambia el nombre de la carpeta del documento.
+* Puede eliminar la carpeta de documentos del problema de almacenamiento en la nube de Adobe, que también elimina los documentos de la carpeta. Después de agregar nuevos documentos al problema, la carpeta se vuelve a crear automáticamente. Los documentos eliminados no vuelven a colocarse en la carpeta.
 * En los proyectos de almacenamiento en la nube de Adobe, la carpeta de documentos de un problema se muestra como una subcarpeta en la carpeta de documentos creada automáticamente para el proyecto.
 * No puede copiar ni mover un problema de un proyecto de almacenamiento de Workfront heredado a uno de Adobe Cloud Storage. Lo contrario tampoco es posible.
 * Existen los siguientes escenarios al convertir un problema en un proyecto: <!--this info also duplicated in Convert an issue to a project-->
@@ -227,6 +232,7 @@ Tenga en cuenta lo siguiente al trabajar con problemas:
 Tenga en cuenta lo siguiente al trabajar con plantillas:
 
 * Cuando crea una plantilla de almacenamiento en la nube de Adobe, Workfront crea una carpeta en la sección Documentos de la plantilla en la que se guardan los documentos. El nombre de la carpeta es el mismo nombre que el programa. No puede eliminar la carpeta ni cambiarle el nombre manualmente. Si cambia el nombre de la plantilla, se cambiará el nombre de la carpeta para que coincida con el nuevo nombre de la plantilla.
+* Al cambiar el nombre de una plantilla con Adobe Cloud Storage, se cambia automáticamente el nombre de la carpeta del documento. Sin embargo, si hay un problema y no se puede acceder al almacenamiento en ese momento, el nuevo nombre se rechaza tanto para la plantilla como para la carpeta y los nombres antiguos se dejan sin cambiar. Puede intentar cambiar el nombre de nuevo después de un tiempo. <!--checking with Hui on issue 29532225 about which name is flipping back - the project or the folder or both-->
 * Puede utilizar una plantilla de almacenamiento de Workfront heredada para crear proyectos de almacenamiento de Workfront heredados; puede utilizar una plantilla de almacenamiento de nube de Adobe para crear un proyecto de almacenamiento de nube de Adobe.
 
 * Al crear proyectos utilizando plantillas de un portafolio o programa, existen los siguientes escenarios:
@@ -244,7 +250,8 @@ Tenga en cuenta lo siguiente al trabajar con tareas de plantilla:
 
 * Las tareas de plantilla heredan el tipo de almacenamiento de las plantillas.
 * Al cargar un documento en una tarea de plantilla en una plantilla de almacenamiento de la nube de Adobe, Workfront crea automáticamente una carpeta en la sección Documentos de la tarea de plantilla. El nombre de la carpeta es el mismo que el de la tarea de plantilla.
-* Puede cambiar el nombre de la carpeta de documentos y eliminarla desde la tarea de plantilla de Adobe Cloud Storage, que también elimina los documentos de la carpeta. Después de agregar nuevos documentos a la tarea de plantilla, la carpeta se vuelve a crear automáticamente. Los documentos eliminados no vuelven a colocarse en la carpeta.
+* Al cambiar el nombre de la tarea de plantilla no se cambia el nombre de la carpeta del documento.
+* Puede eliminar la carpeta de documentos de la tarea de plantilla de Adobe Cloud Storage, que también elimina los documentos de la carpeta. Después de agregar nuevos documentos a la tarea de plantilla, la carpeta se vuelve a crear automáticamente. Los documentos eliminados no vuelven a colocarse en la carpeta.
 * Para las plantillas de almacenamiento en la nube de Adobe, la carpeta de documentos de una tarea de plantilla se muestra como una subcarpeta en la carpeta de documentos creada automáticamente para la plantilla.
 * No puede copiar ni mover una tarea de plantilla de una plantilla de almacenamiento de Workfront heredada a una plantilla de almacenamiento en la nube de Adobe. Lo contrario tampoco es posible.
 
