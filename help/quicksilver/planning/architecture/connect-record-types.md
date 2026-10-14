@@ -34,10 +34,10 @@ topic_v2:
     internal-label: Metadata
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: d476486418e1fc550b019bf8e42a94b5add98a7f
 workflow-type: tm+mt
-source-wordcount: '3273'
-ht-degree: 35%
+source-wordcount: '3238'
+ht-degree: 36%
 ---
 <!--keep the 30 fields limit in yellow till Jan 2026; also the global record type cross-workspace capability information-->
 
@@ -314,15 +314,15 @@ Old:
    >Puede tener varias conexiones al mismo registro o tipo de objeto. Si no se edita el nombre del campo conectado, Workfront añade un número después del nombre del registro conectado para indicar el número de tipos de registros conectados con el mismo nombre.
 
 1. Actualice el campo **Descripción** agregando información sobre el campo de registro conectado. La descripción de un campo se muestra cuando se pasa el puntero por encima de la columna de campo de una tabla.
-1. (Condicional) Cuando conecte tipos de registros de dos espacios de trabajo diferentes, un tipo de registro y un objeto de recurso de Adobe Experience Manager o un tipo de registro y una marca de GenStudio, seleccione **Permitir varios registros**. Al seleccionarlo, indica que permite a los usuarios agregar varios registros cuando el campo de tipo de registro conectado aparece en los registros originales. Esta opción está seleccionada de forma predeterminada.
-
-   ![Nueva conexión con el tipo de registro de otro espacio de trabajo](assets/new-connection-allow-multiple-records-box.png)
-
-1. <span class="preview">Seleccione **Hacer esta conexión dependiente** para agregar dependencias entre este campo de conexión y el campo creado en el tipo de registro conectado. </span>
+   <!-- 
+    1. (Conditional) When you connect record types from two different workspaces, a record type and an Adobe Experience Manager asset object, or a record type and a GenStudio Brand, select the **Allow multiple records**. By selecting it, you indicate that you allow users to add multiple records when the connected record type field displays on the original records. This is selected by default.  
+        ![New connection to record type from another workspace](assets/new-connection-allow-multiple-records-box.png)
+    -->
+1. <span class="preview">(Opcional) Seleccione **Hacer esta conexión dependiente** para agregar dependencias entre este campo de conexión y el campo creado en el tipo de registro conectado. </span>
 
    <span class="preview">Para obtener más información, consulte [Administrar conexiones dependientes](/help/quicksilver/planning/architecture/manage-dependent-connections.md).</span>
 
-1. Seleccione **Crear campo correspondiente en el tipo de registro vinculado** en la sección **Tipo de conexión**.
+1. <span class="preview">(Opcional) Seleccione **Crear campo correspondiente en el tipo de registro vinculado** en la sección **Configuración de conexión**.</span>
 
    >[!TIP]
    >
@@ -339,17 +339,25 @@ Old:
    >* No se crea un campo de registro vinculado para los objetos de otra aplicación en sus respectivas aplicaciones. Por ejemplo:
    >   * No se ha creado ningún campo para los objetos de Workfront conectados a registros de Planning.
    >   * No se ha creado ningún campo para un tipo de registro de Planning cuando está conectado a un tipo de registro desde GenStudio Workspace.
-1. (Condicional) Cuando conecte tipos de registros del mismo espacio de trabajo o un tipo de registro de Planning con un tipo de objeto de Workfront, seleccione una de las siguientes opciones:
+1. Seleccione una de las siguientes opciones:
+
+   <div class="preview">
 
    * **Selección múltiple**: seleccione esta opción para permitir que un registro del tipo de registro actual se conecte con varios registros del tipo de registro de conexión.
    * **Selección única**: seleccione esta opción para permitir que un registro del tipo de registro actual se conecte con un registro del tipo de registro de conexión.
 
-1. (Condicional) Si habilitó **Crear campo correspondiente en el tipo de registro vinculado** en la sección **Tipo de conexión**, elija entre las siguientes opciones para indicar cuántos registros pueden conectar y desde los que pueden conectarse los usuarios:
+   </div>
+
+1. <span class="preview">(Condicional) Si habilitó **Crear campo correspondiente en el tipo de registro vinculado** en la sección **Tipo de conexión**, elija entre las siguientes opciones para indicar cuántos registros pueden conectar y desde:</span>
+
+   <div class="preview">
 
    * Muchos a muchos
    * Uno a muchos
    * Muchos a uno
    * Uno a uno
+
+   </div>
 
    Para obtener más información acerca de los tipos de conexión, vea [Información general sobre los tipos de registros conectados](/help/quicksilver/planning/architecture/connect-record-types-overview.md).
 
@@ -369,9 +377,6 @@ Old:
    >
    >El administrador de Workfront puede asignar campos de Planificación de Workfront a campos de Experience Manager Assets a través de la asignación de metadatos en Workfront. Para obtener más información, consulte [Configuración de la asignación de metadatos de recursos entre Adobe Workfront y Experience Manager Assets](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
 
-1. <span class="preview">(Opcional y condicional) Si seleccionó **Hacer dependiente esta conexión**, haga clic en **Reglas de filtrado de registros** para crear un filtro que limite los valores de los campos conectados cuando ambos campos de registro conectados se muestren en el mismo tipo de registro. </span>
-
-   <span class="preview">Para obtener más información, consulte [Administrar conexiones dependientes](/help/quicksilver/planning/architecture/manage-dependent-connections.md). </span>
 1. (Opcional) Elija una de las siguientes opciones en el área **Grabar apariencia**:
 
    * **Nombre e imagen**: tanto el nombre como la miniatura o el icono de los registros conectados se mostrarán en el campo de registro conectado. Esta es la opción predeterminada.
@@ -394,10 +399,12 @@ Old:
    >* La selección de una apariencia de registro no está disponible al seleccionar tipos de objeto desde Workfront.
    >
    >* Lo que seleccione en el área **Apariencia del registro** determina cómo se muestran los registros en las conexiones en todo el sistema, incluidas todas las vistas y páginas de detalles.
+1. <span class="preview"> (opcional y condicional) Cuando esté disponible, haga clic en **Reglas de filtrado de registros** para crear un filtro que limite las selecciones de los campos conectados en función de los valores definidos. </span>
+1. Seleccione **Seleccionar campos de búsqueda** o <span class="preview">haga clic en el menú **Campos de búsqueda**</span> para abrir el cuadro Agregar campos de búsqueda y elija y agregue campos del tipo de registro al que se está conectando.
 
-1. Seleccione **Seleccionar campos de búsqueda** o <span class="preview">haga clic en el menú **Campos de búsqueda**</span> para elegir y agregar campos del tipo de registro al que se está conectando.
+   Los campos de búsqueda son campos asociados al tipo de registro u objeto al que se está conectando. Al vincularlos, se muestra información del registro u objeto con el que se está vinculando en el registro desde el que se está vinculando.
 
-   Los campos de búsqueda son campos asociados al tipo de registro u objeto al que se está conectando. Al vincularlos, se muestra información del registro u objeto con el que se está vinculando en el registro desde el que se está vinculando. <!--No more: This is selected by default.-->
+   Consulte la información siguiente para agregar campos de búsqueda.
 
    >[!NOTE]
    >
@@ -412,9 +419,17 @@ Old:
    >
    >   Por ejemplo, si la fecha planificada de inicio de un proyecto se muestra a las 3:00 p.m. en Workfront, en un campo de búsqueda importado se mostrará a las 15:00 en Workfront Planning.
 
+1. <span class="preview">(Opcional) Haga clic en **Acceso al campo** para cambiar los permisos del campo conectado. Elija entre las siguientes opciones: </span>
+
+   <div class="preview">
+
+   * **Todas las personas con acceso al tipo de registro pueden ver**: Solo las personas que pueden tener acceso al tipo de registro pueden ver el campo. Esta es la configuración predeterminada.
+   * **Solo las personas seleccionadas pueden tener acceso**: Agregue usuarios, equipos, grupos, empresas o roles con los que desee compartir el campo.
+
+   </div>
 1. Haga clic en **Crear**.
 
-1. (Condicional) Si seleccionó la opción **Seleccionar campo de búsqueda**, se abrirá el cuadro **Añadir campos de búsqueda**.
+1. (Condicional) Si hizo clic en **Campos de búsqueda**, se abrirá el cuadro **Agregar campos de búsqueda**.
 
    Haga clic en el icono **+** para añadir campos desde el área **Campos no seleccionados**.
 
@@ -430,7 +445,7 @@ Old:
    >
    >    Todas las personas con permisos de visualización o superiores del espacio de trabajo pueden ver la información en los campos vinculados, independientemente de sus permisos o nivel de acceso en la aplicación de los tipos de objetos vinculados.
 
-1. (Opcional) Haga clic en **Omitir** para omitir la adición de campos desde el registro o el tipo de objeto vinculados. El nombre o el campo Principal del registro vinculado es el único campo visible en la vista de tabla del tipo de registro desde el que se conecta.
+1. (Opcional) Haga clic en **Omitir** para omitir la adición de campos desde el registro o el tipo de objeto vinculados. El nombre o el campo Principal del registro vinculado es el único campo visible en la vista de tabla del tipo de registro desde el que se conecta. <!--take this step out at production-->
 
 1. Elija un agregador para los campos de búsqueda que agregue.
 

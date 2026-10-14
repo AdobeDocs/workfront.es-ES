@@ -27,7 +27,7 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: d476486418e1fc550b019bf8e42a94b5add98a7f
 workflow-type: tm+mt
 source-wordcount: '1206'
 ht-degree: 71%
@@ -147,7 +147,19 @@ Depending on what objects you access the commenting experience for, you might fi
 
 La sección Actualizaciones muestra información en las siguientes pestañas:
 
-* **Comentarios**: muestra los comentarios realizados por los usuarios y las respuestas a dichos comentarios. Use la pestaña Comentarios para añadir nuevos comentarios o responder a los existentes. Para obtener información acerca de cómo actualizar objetos, consulte [Actualizar trabajo](../updating-work-items-and-viewing-updates/update-work.md).
+* **Comentarios**: muestra los comentarios realizados por los usuarios y las respuestas a dichos comentarios. Use la pestaña Comentarios para añadir nuevos comentarios o responder a los existentes.
+
+  <!--
+  <div class="preview">
+
+  * **Pinned threads**: Top-level comments that are pinned display under the Pinned threads section on the Comments tab. 
+
+    You can pin threads only on the Comments tab of objects that have an Updates section. You cannot pin threads in other areas of Workfront, like Boards, or Home. 
+
+  </div>
+  -->
+
+  Para obtener información acerca de cómo actualizar objetos, consulte [Actualizar trabajo](../updating-work-items-and-viewing-updates/update-work.md).
 * **Actividad del sistema**: muestra actualizaciones del sistema que son mensajes informativos que Workfront crea para registrar ciertos eventos en un objeto. Por ejemplo, los cambios de estado, nombre o campos personalizados se capturan con las actualizaciones del sistema. El administrador de grupos o de Workfront puede habilitar las actualizaciones del sistema para los objetos. Cualquier respuesta que se haya realizado a los registros de actividad del sistema en la experiencia de comentarios heredada se rellena en la pestaña de actividad del sistema como de solo lectura. Para obtener más información, consulte [Configurar actualizaciones del sistema](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
 * **Todos (solo lectura)**: muestra los comentarios del usuario y los comentarios de la actividad del sistema en un solo lugar. Esta es una pestaña de solo vista. No es posible responder a comentarios ni etiquetar a otros usuarios en comentarios existentes en la pestaña Todos. Para responder a un comentario específico, use el vínculo de la pestaña Todos a la pestaña Comentarios. Para obtener información acerca de cómo actualizar objetos, consulte [Actualizar un trabajo](../updating-work-items-and-viewing-updates/update-work.md).
 

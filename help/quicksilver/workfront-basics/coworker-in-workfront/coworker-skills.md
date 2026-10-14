@@ -1,5 +1,5 @@
 ---
-title: Aptitudes de CX Enterprise Coworker
+title: Aptitudes de Workfront en CX Enterprise Coworker
 content-type: reference
 description: Obtenga información acerca de las habilidades disponibles para el colaborador en Adobe Workfront.
 author: Becky
@@ -10,12 +10,12 @@ product_v2:
 feature_v2:
   - id: c042179c-157b-516d-b27c-e3bf303e8567
     internal-label: Get Started with Workfront
-source-git-commit: 2b2e58c17bdcb7c28b11bf460bad24bc1e1eb642
+source-git-commit: d72869cb62d06b24298004ba2c9482a153b8e5f7
 workflow-type: tm+mt
-source-wordcount: '255'
+source-wordcount: '259'
 ht-degree: 7%
 ---
-# Aptitudes de CX Enterprise Coworker
+# Aptitudes de Workfront en CX Enterprise Coworker
 
 {{preview-fast-release-general}}
 

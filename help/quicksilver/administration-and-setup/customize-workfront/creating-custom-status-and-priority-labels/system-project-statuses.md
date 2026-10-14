@@ -29,10 +29,10 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 8560eeda3684b849383dca0c1c4b729ad5b9db4d
 workflow-type: tm+mt
-source-wordcount: '1615'
-ht-degree: 99%
+source-wordcount: '1635'
+ht-degree: 97%
 ---
 # Información general sobre los estados de los proyectos del sistema
 
@@ -64,7 +64,7 @@ Workfront proporciona los siguientes estados de proyecto con la instancia de Ado
   <tr> 
    <td>Planificación (estado requerido)</td> 
    <td> <p>El administrador del proyecto está planificando la cronología del proyecto, la asignación de las tareas y las aprobaciones. El jefe de proyecto establece manualmente este estado en un proyecto.</p> <p><b>Sugerencia</p> <p> Le recomendamos que establezca el estado predeterminado de los nuevos proyectos en Workfront en Planificar. Como administrador de Workfront, puede cambiar el estado predeterminado de todos sus nuevos proyectos en el área de Proyectos de Preferencias de proyecto.</p> <p>Para obtener más información, consulte <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md">Configurar las preferencias de proyecto de todo el sistema</a>.</p></td> 
-   <td> <p>Los usuarios del equipo del proyecto pueden ver el proyecto en sus listas de proyectos de forma predeterminada (sin un filtro personalizado), en el área de Proyectos de Workfront. Las tareas y problemas que se les asignan en el proyecto no completan su Lista de trabajo. En la Lista de trabajos en Inicio solo se muestran las aprobaciones y los elementos de trabajo aceptados.</p> <p>No se envían notificaciones mientras un proyecto tenga este estado.</p> <p>Le recomendamos que realice todos los cambios que puedan activar una actualización de la escala de tiempo del proyecto o cualquier cambio en las tareas y asignaciones de problemas mientras el proyecto se encuentra en estado de Planificación. Esto minimiza la cantidad de notificaciones que reciben los usuarios.</p> <p>El sistema no calcula automáticamente la cronología del proyecto.</p> </td> 
+   <td> <p>Los usuarios del equipo del proyecto pueden ver el proyecto en sus listas de proyectos de forma predeterminada (sin un filtro personalizado), en el área de Proyectos de Workfront. Las tareas y problemas que se les asignan en el proyecto no completan su Lista de trabajo. En la Lista de trabajos en Inicio solo se muestran las aprobaciones y los elementos de trabajo aceptados.</p> <p>Cuando un proyecto se encuentra en estado de Planificación, algunas notificaciones sobre asignaciones, aprobaciones y actividad de problema se envían a los usuarios del equipo del proyecto, mientras que muchas notificaciones relacionadas con la cronología no se envían.</p> <p>Le recomendamos que realice todos los cambios que puedan activar una actualización de la escala de tiempo del proyecto o cualquier cambio en las tareas y asignaciones de problemas mientras el proyecto se encuentra en estado de Planificación. Esto minimiza la cantidad de notificaciones que reciben los usuarios.</p> <p>El sistema no calcula automáticamente la cronología del proyecto.</p> </td> 
   </tr> 
   <tr> 
    <td>Actual (estado obligatorio)</td> 
