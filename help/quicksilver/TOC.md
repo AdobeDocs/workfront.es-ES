@@ -3,9 +3,9 @@ user-guide-title: Guía de Workfront
 user-guide-description: Utilice los siguientes documentos, tutoriales y recursos adicionales para aprender a implementar y utilizar Adobe Workfront de forma eficaz en su organización.
 role: User
 feature-set: Workfront
-source-git-commit: a05d8d51a3a2595d0c2a75aa9f992e4f14b091fe
+source-git-commit: c61cdd05b9b7470a45b8706035992b12c5d34711
 workflow-type: tm+mt
-source-wordcount: '14642'
+source-wordcount: '14646'
 ht-degree: 91%
 ---
 # Guía de Workfront {#using}
@@ -547,6 +547,7 @@ ht-degree: 91%
       * [Ver y exportar registros de auditoría](administration-and-setup/add-users/create-and-manage-users/view-and-export-audit-logs.md)
       * [Ver y administrar el historial de cambios](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/view-and-manage-change-history.md)
       * [Configurar campos para realizar un seguimiento en el historial de cambios](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/configure-fields-in-change-history.md)
+      * [Ver historial laboral del usuario](administration-and-setup/add-users/create-and-manage-users/view-employment-history.md)
       * [Ver información de inicio de sesión de usuario](administration-and-setup/add-users/create-and-manage-users/view-user-login-info.md)
       * [Administrar usuarios en Adobe Admin Console](administration-and-setup/add-users/create-and-manage-users/admin-console.md)
       * [Resumen de perfiles empresariales](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/business-profiles.md)
@@ -2672,7 +2673,7 @@ ht-degree: 91%
     * [Configure y utilice las aplicaciones OAuth 2 personalizadas de la organización mediante el flujo JWT](wf-api/api/oauth-app-jwt-flow.md)
     * [Configure y utilice las aplicaciones OAuth 2 personalizadas de su organización mediante el flujo PKCE](wf-api/api/oauth-app-pkce-flow.md)
     * [Obsolescencia de la API interna](wf-api/api/deprecation-api-internal.md)
-    * [Novedades de la versión 22 de la API](/help/quicksilver/wf-api/api/new-api-version-22.md)
+    * [Novedades de la versión 22](/help/quicksilver/wf-api/api/new-api-version-22.md) de la API
     * [Novedades de la versión 21 de la API](/help/quicksilver/wf-api/api/new-api-version-21.md)
     * [Novedades de la versión 20 de la API](/help/quicksilver/wf-api/api/new-api-version-20.md)
     * [Novedades de la versión 19 de la API](wf-api/api/new-api-version-19.md)
