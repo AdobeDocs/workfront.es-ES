@@ -13,9 +13,9 @@ feature_v2:
 subfeature_v2:
   - id: a29813d3-f0cc-4b60-9396-13b558370803
     internal-label: Product announcements
-source-git-commit: d25795f93d0ba333d79e3850fc25c7f046cc2ab1
+source-git-commit: c459d95f58469fe3fe406963645bb7c58c8b1546
 workflow-type: tm+mt
-source-wordcount: '1108'
+source-wordcount: '1137'
 ht-degree: 2%
 ---
 # Otras mejoras durante el periodo de tiempo de la versión del cuarto trimestre de 2026
@@ -54,7 +54,7 @@ Para obtener más información, consulte [Usar listas mejoradas](/help/quicksilv
 
 Las siguientes listas de Workfront ahora utilizan el formato de lista mejorado:
 
-* Configuración > Correo electrónico > Notificaciones > Notificaciones de eventos y página Detalles del grupo > Notificaciones de eventos
+* Configuración > Correo electrónico > Notificaciones > Notificaciones de eventos y página Detalles del grupo > Notificaciones de eventos (Esta actualización se eliminó del entorno de vista previa el 14 de octubre y no formará parte de la versión trimestral. Estas listas se actualizarán más adelante).
 * Configuración > Documentos > Experience Manager Assets
 * Proyecto o plantilla > Temas de cola
 * Proyecto o plantilla > Grupos de temas
