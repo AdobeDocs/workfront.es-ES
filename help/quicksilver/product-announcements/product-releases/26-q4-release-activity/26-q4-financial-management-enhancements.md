@@ -13,7 +13,7 @@ feature_v2:
 subfeature_v2:
   - id: a29813d3-f0cc-4b60-9396-13b558370803
     internal-label: Product announcements
-source-git-commit: a500a7cf3f8f75f3961d6cb2e5a61599b4cd0177
+source-git-commit: 80e0ade22a2d40a1c0244ef8c11f9db37dd9661a
 workflow-type: tm+mt
 source-wordcount: '476'
 ht-degree: 2%
@@ -29,8 +29,8 @@ Para obtener una lista de todos los cambios disponibles en este punto del ciclo 
 >[!NOTE]
 >
 >Vista previa: 1 de octubre de 2026
->Versión rápida de producción: 16 de octubre de 2026
->Producción para todos: 16 de octubre de 2026
+>Versión rápida de producción: 22 de octubre de 2026
+>Producción para todos: 22 de octubre de 2026
 
 Se han realizado varias actualizaciones en la funcionalidad de tarifas de facturación en una plantilla de proyecto.
 
@@ -52,7 +52,7 @@ Para obtener más información, consulte [Editar plantillas de proyecto](/help/q
 >
 >Vista previa: 3 de septiembre de 2026
 >Versión rápida de producción: 17 de septiembre de 2026
->Producción para todos: 16 de octubre de 2026
+>Producción para todos: 22 de octubre de 2026
 
 Se han realizado varias actualizaciones en la funcionalidad de tarifas de facturación de la empresa.
 
@@ -76,7 +76,7 @@ Para obtener más información, consulte [Anular tarifas de facturación de rol 
 >
 >Vista previa: 3 de septiembre de 2026
 >Versión rápida de producción: 17 de septiembre de 2026
->Producción para todos: 16 de octubre de 2026
+>Producción para todos: 22 de octubre de 2026
 >Esta función solo está disponible para organizaciones en el paquete Workflow Ultimate.
 
 Al utilizar atributos de tasa como filtros en varias áreas de Workfront, como Asignaciones avanzadas, ahora se aplica una validación adicional al filtrado principal-secundario.

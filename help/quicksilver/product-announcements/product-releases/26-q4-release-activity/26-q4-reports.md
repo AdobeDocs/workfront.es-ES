@@ -13,7 +13,7 @@ feature_v2:
 subfeature_v2:
   - id: a29813d3-f0cc-4b60-9396-13b558370803
     internal-label: Product announcements
-source-git-commit: a500a7cf3f8f75f3961d6cb2e5a61599b4cd0177
+source-git-commit: 80e0ade22a2d40a1c0244ef8c11f9db37dd9661a
 workflow-type: tm+mt
 source-wordcount: '1434'
 ht-degree: 5%
@@ -29,8 +29,8 @@ Para obtener una lista de todos los cambios disponibles en este punto del ciclo 
 >[!NOTE]
 >
 >Vista previa: N/D
->Versión rápida de producción: 16 de octubre de 2026
->Producción para todos: 16 de octubre de 2026
+>Versión rápida de producción: 22 de octubre de 2026
+>Producción para todos: 22 de octubre de 2026
 
 Las instancias de Workfront en Google Cloud Platform (GCP) y Azure ahora pueden adherirse a la versión beta abierta de paneles de lienzo. Para obtener más información, consulte [Usar paneles de lienzo](/help/quicksilver/reports-and-dashboards/canvas-dashboards/use-canvas-dashboards.md).
 
@@ -39,8 +39,8 @@ Las instancias de Workfront en Google Cloud Platform (GCP) y Azure ahora pueden 
 >[!NOTE]
 >
 >Vista previa: N/D
->Versión rápida de producción: 16 de octubre de 2026
->Producción para todos: 16 de octubre de 2026
+>Versión rápida de producción: 22 de octubre de 2026
+>Producción para todos: 22 de octubre de 2026
 
 Ahora puede compartir los datos de Workfront Data Connect directamente con la cuenta de Snowflake de su organización registrando un anuncio privado. Este método de conexión utiliza la capacidad de listado privado de Snowflake para compartir datos de forma segura entre organizaciones sin exponerlos públicamente, y funciona en varias regiones y plataformas de alojamiento.
 
@@ -53,8 +53,8 @@ Para obtener más información, consulte [Registrar un anuncio privado para Work
 >[!NOTE]
 >
 >Vista previa: 1 de octubre de 2026
->Versión rápida de producción: 16 de octubre de 2026
->Producción para todos: 16 de octubre de 2026
+>Versión rápida de producción: 22 de octubre de 2026
+>Producción para todos: 22 de octubre de 2026
 
 Para facilitar el uso de paneles de lienzo, hemos agregado herramientas al MCP de Workfront. Ahora puede crear y administrar paneles de lienzo a través del chat y el panel y los widgets se crean para usted con sus datos de Workfront. Esto funciona con clientes de MCP como Claude y Cursor.
 
@@ -97,8 +97,8 @@ Para obtener más información, consulte [Usar paneles de lienzo](/help/quicksil
 >[!NOTE]
 >
 >Vista previa: 1 de octubre de 2026
->Versión rápida de producción: 16 de octubre de 2026
->Producción para todos: 16 de octubre de 2026
+>Versión rápida de producción: 22 de octubre de 2026
+>Producción para todos: 22 de octubre de 2026
 
 Ahora puede copiar un widget en el mismo tablero, en otro tablero al que tenga acceso de edición o en un tablero nuevo. También puede mover un widget a otro tablero al que tenga acceso de edición o a un tablero nuevo.
 
@@ -109,8 +109,8 @@ Al copiar un widget, ahora se abre un cuadro de diálogo en el que se selecciona
 >[!NOTE]
 >
 >Vista previa: 1 de octubre de 2026
->Versión rápida de producción: 16 de octubre de 2026
->Producción para todos: 16 de octubre de 2026
+>Versión rápida de producción: 22 de octubre de 2026
+>Producción para todos: 22 de octubre de 2026
 
 Cuando se crea un filtro en un panel de lienzo, ahora se puede filtrar por relaciones de colección, que son campos que se vinculan a un grupo de registros relacionados en lugar de a un único registro. Por ejemplo, puede filtrar el estado de las tareas que pertenecen a un proyecto para mostrar una lista de proyectos que tienen tareas en el estado &quot;Nuevo&quot;.
 
@@ -124,7 +124,7 @@ Para obtener más información, consulte [Referencia del filtro de informes para
 >
 >Vista previa: 3 de septiembre de 2026
 >Versión rápida de producción: 17 de septiembre de 2026
->Producción para todos: 16 de octubre de 2026
+>Producción para todos: 22 de octubre de 2026
 
 Ahora puede copiar un panel de lienzo usando la nueva acción **Copiar panel**. Esta acción está disponible para cualquier usuario cuyo nivel de acceso conceda derechos de edición o creación a los paneles, aunque solo tenga acceso de visualización al panel específico que se está copiando. Los usuarios sin derechos de edición o creación en los paneles no ven esta acción.
 
@@ -170,7 +170,7 @@ Este cambio no afecta al funcionamiento de los informes actuales.
 >
 >Vista previa: 27 de agosto de 2026
 >Versión rápida de producción: 17 de septiembre de 2026
->Producción para todos: 16 de octubre de 2026
+>Producción para todos: 22 de octubre de 2026
 
 El nuevo tipo de informe de tabla dinámica de los paneles de lienzo agrega datos con resúmenes precisos y completos. Puede crear métricas como recuentos, sumas y promedios directamente en el panel y, a continuación, explorar en profundidad los registros subyacentes detrás de cualquier total.
 
@@ -182,7 +182,7 @@ Para obtener más información, consulte [Crear un informe de tabla dinámica en
 >
 >Vista previa: 13 de agosto de 2026
 >Versión rápida de producción: 17 de septiembre de 2026
->Producción para todos: 16 de octubre de 2026
+>Producción para todos: 22 de octubre de 2026
 
 Los informes programados ahora requieren una fecha de finalización para evitar una entrega indefinida. Las programaciones que pasan su fecha de finalización se desactivan automáticamente.
 
@@ -196,7 +196,7 @@ Para obtener más información, consulte [Programar una entrega automática de i
 >
 >Vista previa: 30 de julio de 2026
 >Versión rápida de producción: 13 de agosto de 2026
->Producción para todos: 16 de octubre de 2026
+>Producción para todos: 22 de octubre de 2026
 
 Ahora puede agregar campos de referencia nativos a listas e informes en Workfront.
 
@@ -211,7 +211,7 @@ Para obtener información sobre cómo agregar campos a los informes, consulte [C
 >
 >Vista previa: 30 de julio de 2026
 >Versión rápida de producción: 13 de agosto de 2026
->Producción para todos: 16 de octubre de 2026
+>Producción para todos: 22 de octubre de 2026
 
 Ahora verá las opciones seleccionadas para campos personalizados de selección múltiple en un orden coherente y predecible en listas e informes heredados. El orden de los campos viene determinado por la forma en que se organizan los campos en el formulario personalizado.
 

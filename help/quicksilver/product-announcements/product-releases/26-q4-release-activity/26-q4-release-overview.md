@@ -13,9 +13,9 @@ feature_v2:
 subfeature_v2:
   - id: a29813d3-f0cc-4b60-9396-13b558370803
     internal-label: Product announcements
-source-git-commit: a500a7cf3f8f75f3961d6cb2e5a61599b4cd0177
+source-git-commit: 80e0ade22a2d40a1c0244ef8c11f9db37dd9661a
 workflow-type: tm+mt
-source-wordcount: '3601'
+source-wordcount: '3584'
 ht-degree: 8%
 ---
 # Resumen de la versión del cuarto trimestre de 2026
@@ -24,7 +24,7 @@ Esta página proporciona información sobre la funcionalidad que se incluye en l
 
 Las mejoras de esta página están disponibles en el entorno de vista previa. Esta página se actualizará con mejoras adicionales a medida que la versión del cuarto trimestre de 2026 se aproxime a su versión de producción planificada.
 
-Se celebran seminarios web en directo para cada versión trimestral, en los que se destacan las nuevas funciones y se proporciona información detallada. Para registrarse, visite la [página de eventos](https://experienceleague.adobe.com/es/events?filters=Workfront) y filtre por Workfront.
+Se celebran seminarios web en directo para cada versión trimestral, en los que se destacan las nuevas funciones y se proporciona información detallada. Para registrarse, visite la [página de eventos](https://experienceleague.adobe.com/en/events?filters=Workfront) y filtre por Workfront.
 
 >[!IMPORTANT]
 >
@@ -33,9 +33,9 @@ Se celebran seminarios web en directo para cada versión trimestral, en los que 
 >
 >| Versión mensual | Versión trimestral |
 >|----|----|
->| <ul><li>26.8 (13 de agosto de 2026)</li><li>26.9 (17 de septiembre de 2026)</li><li>26.10 (14 de octubre de 2026)</li></ul> | <ul><li>26.10 (16 de octubre de 2026)</li></ul> |
+>| <ul><li>26.8 (13 de agosto de 2026)</li><li>26.9 (17 de septiembre de 2026)</li><li>26.10 (14 de octubre de 2026)</li></ul> | <ul><li>26.10 (22 de octubre de 2026)</li></ul> |
 >
->* Tenga en cuenta que, para la versión final de cada trimestre (26.10 este trimestre), los usuarios con la programación de versiones rápidas recibirán la versión un día antes (14 de octubre de 2026).
+>* La versión 26.10 de (octubre de 2026) se ha trasladado al 22 de octubre de 2026.
 >
 >   Para obtener más información sobre el proceso de versiones rápidas, consulte [Habilitar o deshabilitar el proceso de versiones rápidas](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).
 >* En la versión de 26.10 (octubre de 2026), la última fecha en que las funciones pueden aparecer en el entorno de vista previa es el 1 de octubre.
@@ -69,8 +69,8 @@ Se celebran seminarios web en directo para cada versión trimestral, en los que 
                 <p>Los administradores de Workfront ahora pueden rastrear los cambios en el rol laboral, la agencia, el centro de costos y las tarifas de facturación de un usuario a lo largo del tiempo en una sola vista de Historial laboral que se puede filtrar.</p>
             </td>
             <td><p>1 de octubre de 2026</p></td>
-            <td><p>16 de octubre de 2026</p></td>
-            <td><p>16 de octubre de 2026</p></td>
+            <td><p>22 de octubre de 2026</p></td>
+            <td><p>22 de octubre de 2026</p></td>
         </tr>
         <tr>
             <td>
@@ -78,8 +78,8 @@ Se celebran seminarios web en directo para cada versión trimestral, en los que 
                 <p>Los administradores de Workfront ahora pueden utilizar IA para generar traducciones para texto de localización personalizado y revisar o ajustar los resultados antes de guardar.</p>
             </td>
             <td><p>1 de octubre de 2026</p></td>
-            <td><p>16 de octubre de 2026</p></td>
-            <td><p>16 de octubre de 2026</p></td>
+            <td><p>22 de octubre de 2026</p></td>
+            <td><p>22 de octubre de 2026</p></td>
         </tr>
         <tr>
             <td>
@@ -87,8 +87,8 @@ Se celebran seminarios web en directo para cada versión trimestral, en los que 
                 <p>Se han realizado varias mejoras en las plantillas de diseño, como ocultar o mostrar elementos en el menú principal, colocar la aplicación personalizada en el menú principal y ocultar Detalles en el menú de navegación izquierdo.</p>
             </td>
             <td><p>1 de octubre de 2026</p></td>
-            <td><p>16 de octubre de 2026</p></td>
-            <td><p>16 de octubre de 2026</p></td>
+            <td><p>22 de octubre de 2026</p></td>
+            <td><p>22 de octubre de 2026</p></td>
         </tr>
 <!--
         <tr>
@@ -97,8 +97,8 @@ Se celebran seminarios web en directo para cada versión trimestral, en los que 
                 <p>Administrators can now configure MCP Tools permissions by access level to control how Workfront data is used through the Workfront MCP.</p>
             </td>
             <td><p>October 1, 2026</p></td>
-            <td><p>October 16, 2026</p></td>
-            <td><p>October 16, 2026</p></td>
+            <td><p>October 22, 2026</p></td>
+            <td><p>October 22, 2026</p></td>
         </tr>
 -->
 <!--
@@ -108,8 +108,8 @@ Se celebran seminarios web en directo para cada versión trimestral, en los que 
                 <p>Several enhancements have been made to layout templates, including the ability to hide or display system items in the Main Menu, reposition custom applications, and hide an object's Details page from the left navigation panel.</p>
             </td>
             <td><p>October 1, 2026</p></td>
-            <td><p>October 16, 2026</p></td>
-            <td><p>October 16, 2026</p></td>
+            <td><p>October 22, 2026</p></td>
+            <td><p>October 22, 2026</p></td>
         </tr>
 -->        
         <tr>
@@ -118,8 +118,8 @@ Se celebran seminarios web en directo para cada versión trimestral, en los que 
                 <p>Para facilitar la creación y administración de las suscripciones a eventos de su organización, hemos agregado el área Suscripciones a eventos a Configuración.</p>
             </td>
             <td><p>1 de octubre de 2026</p></td>
-            <td><p>16 de octubre de 2026</p></td>
-            <td><p>16 de octubre de 2026</p></td>
+            <td><p>22 de octubre de 2026</p></td>
+            <td><p>22 de octubre de 2026</p></td>
         </tr>
         <tr>
             <td>
@@ -127,8 +127,8 @@ Se celebran seminarios web en directo para cada versión trimestral, en los que 
                 <p>Al trabajar con campos desplegables, botones de opción y casillas de verificación en el diseñador de formularios, ahora puede agregar, editar y eliminar opciones de campo en un solo cuadro de diálogo.</p>
             </td>
             <td><p>1 de octubre de 2026</p></td>
-            <td><p>16 de octubre de 2026</p></td>
-            <td><p>16 de octubre de 2026</p></td>
+            <td><p>22 de octubre de 2026</p></td>
+            <td><p>22 de octubre de 2026</p></td>
         </tr>
         <tr>
             <td>
@@ -136,8 +136,8 @@ Se celebran seminarios web en directo para cada versión trimestral, en los que 
                 <p>Los administradores de Workfront ahora pueden mantener una lista de permitidos de URL de devolución de llamada de OAuth de confianza, de modo que las plataformas agénticas de IA personalizadas pueden conectarse a servidores MCP de Workfront.</p>
             </td>
             <td><p>22 de septiembre de 2026</p></td>
-            <td><p>16 de octubre de 2026</p></td>
-            <td><p>16 de octubre de 2026</p></td>
+            <td><p>22 de octubre de 2026</p></td>
+            <td><p>22 de octubre de 2026</p></td>
         </tr>
         <tr>
             <td>
@@ -146,7 +146,7 @@ Se celebran seminarios web en directo para cada versión trimestral, en los que 
             </td>
             <td><p>3 de septiembre de 2026</p></td>
             <td><p>17 de septiembre de 2026</p></td>
-            <td><p>16 de octubre de 2026</p></td>
+            <td><p>22 de octubre de 2026</p></td>
         </tr>
         <tr>
             <td>
@@ -155,7 +155,7 @@ Se celebran seminarios web en directo para cada versión trimestral, en los que 
             </td>
             <td><p>3 de septiembre de 2026</p></td>
             <td><p>17 de septiembre de 2026</p></td>
-            <td><p>16 de octubre de 2026</p></td>
+            <td><p>22 de octubre de 2026</p></td>
         </tr>
         <tr>
             <td>
@@ -164,7 +164,7 @@ Se celebran seminarios web en directo para cada versión trimestral, en los que 
             </td>
             <td><p>3 de septiembre de 2026</p></td>
             <td><p>17 de septiembre de 2026</p></td>
-            <td><p>16 de octubre de 2026</p></td>
+            <td><p>22 de octubre de 2026</p></td>
         </tr>
 <!--
         <tr>
@@ -174,7 +174,7 @@ Se celebran seminarios web en directo para cada versión trimestral, en los que 
             </td>
             <td><p>August 20, 2026</p></td>
             <td><p>September 17, 2026</p></td>
-            <td><p>October 16, 2026</p></td>
+            <td><p>October 22, 2026</p></td>
         </tr>
 -->
         <tr>
@@ -184,7 +184,7 @@ Se celebran seminarios web en directo para cada versión trimestral, en los que 
             </td>
             <td><p>30 de julio de 2026</p></td>
             <td><p>13 de agosto de 2026</p></td>
-            <td><p>16 de octubre de 2026</p></td>
+            <td><p>22 de octubre de 2026</p></td>
         </tr>
         <tr>
             <td>
@@ -193,7 +193,7 @@ Se celebran seminarios web en directo para cada versión trimestral, en los que 
             </td>
             <td><p>30 de julio de 2026</p></td>
             <td><p>13 de agosto de 2026</p></td>
-            <td><p>16 de octubre de 2026</p></td>
+            <td><p>22 de octubre de 2026</p></td>
         </tr>
         <tr>
             <td>
@@ -202,7 +202,7 @@ Se celebran seminarios web en directo para cada versión trimestral, en los que 
             </td>
             <td><p>30 de julio de 2026</p></td>
             <td><p>13 de agosto de 2026</p></td>
-            <td><p>16 de octubre de 2026</p></td>
+            <td><p>22 de octubre de 2026</p></td>
         </tr>
         <tr>
             <td>
@@ -211,7 +211,7 @@ Se celebran seminarios web en directo para cada versión trimestral, en los que 
             </td>
             <td><p>30 de julio de 2026</p></td>
             <td><p>13 de agosto de 2026</p></td>
-            <td><p>16 de octubre de 2026</p></td>
+            <td><p>22 de octubre de 2026</p></td>
         </tr>
         <tr>
             <td>
@@ -220,7 +220,7 @@ Se celebran seminarios web en directo para cada versión trimestral, en los que 
             </td>
             <td><p>30 de julio de 2026</p></td>
             <td><p>13 de agosto de 2026</p></td>
-            <td><p>16 de octubre de 2026</p></td>
+            <td><p>22 de octubre de 2026</p></td>
         </tr>
         <tr>
             <td>
@@ -229,7 +229,7 @@ Se celebran seminarios web en directo para cada versión trimestral, en los que 
             </td>
             <td><p>30 de julio de 2026</p></td>
             <td><p>13 de agosto de 2026</p></td>
-            <td><p>16 de octubre de 2026</p></td>
+            <td><p>22 de octubre de 2026</p></td>
         </tr>
         <tr>
             <td>
@@ -238,7 +238,7 @@ Se celebran seminarios web en directo para cada versión trimestral, en los que 
             </td>
             <td><p>30 de julio de 2026</p></td>
             <td><p>13 de agosto de 2026</p></td>
-            <td><p>16 de octubre de 2026</p></td>
+            <td><p>22 de octubre de 2026</p></td>
         </tr>
         <tr>
             <td>
@@ -247,7 +247,7 @@ Se celebran seminarios web en directo para cada versión trimestral, en los que 
             </td>
             <td><p>30 de julio de 2026</p></td>
             <td><p>13 de agosto de 2026</p></td>
-            <td><p>16 de octubre de 2026</p></td>
+            <td><p>22 de octubre de 2026</p></td>
         </tr>
     </tbody>
 </table>
@@ -270,8 +270,8 @@ Se celebran seminarios web en directo para cada versión trimestral, en los que 
                 <p>Project Coordinators can monitor project status and send daily or weekly updates without requiring a separate custom agent setup.</p>
             </td>
             <td><p>October 1, 2026</p></td>
-            <td><p>October 16, 2026</p></td>
-            <td><p>October 16, 2026</p></td>
+            <td><p>October 22, 2026</p></td>
+            <td><p>October 22, 2026</p></td>
         </tr>
 -->        
         <tr>
@@ -280,8 +280,8 @@ Se celebran seminarios web en directo para cada versión trimestral, en los que 
                 <p>Los colaboradores de IA ahora pueden trabajar con agentes en tareas y problemas, utilizar el contexto del documento y publicar actualizaciones en tiempo real en el área de Actualizaciones.</p>
             </td>
             <td><p>1 de octubre de 2026</p></td>
-            <td><p>16 de octubre de 2026</p></td>
-            <td><p>16 de octubre de 2026</p></td>
+            <td><p>22 de octubre de 2026</p></td>
+            <td><p>22 de octubre de 2026</p></td>
         </tr>
         <tr>
             <td>
@@ -290,7 +290,7 @@ Se celebran seminarios web en directo para cada versión trimestral, en los que 
             </td>
             <td><p>Despliegue gradual a partir del 3 de septiembre de 2026</p></td>
             <td><p>Despliegue gradual a partir del 17 de septiembre de 2026</p></td>
-            <td><p>Despliegue gradual a partir del 16 de octubre de 2026</p></td>
+            <td><p>Despliegue gradual a partir del 22 de octubre de 2026</p></td>
         </tr>
         <tr>
             <td>
@@ -326,7 +326,7 @@ Se celebran seminarios web en directo para cada versión trimestral, en los que 
             </td>
             <td><p>30 de julio de 2026</p></td>
             <td><p>13 de agosto de 2026</p></td>
-            <td><p>16 de octubre de 2026</p></td>
+            <td><p>22 de octubre de 2026</p></td>
         </tr>
         <tr>
             <td>
@@ -335,7 +335,7 @@ Se celebran seminarios web en directo para cada versión trimestral, en los que 
             </td>
             <td><p>30 de julio de 2026</p></td>
             <td><p>13 de agosto de 2026</p></td>
-            <td><p>16 de octubre de 2026</p></td>
+            <td><p>22 de octubre de 2026</p></td>
         </tr>
         <tr>
             <td>
@@ -344,7 +344,7 @@ Se celebran seminarios web en directo para cada versión trimestral, en los que 
             </td>
             <td><p>3 de septiembre de 2026</p></td>
             <td><p>17 de septiembre de 2026</p></td>
-            <td><p>16 de octubre de 2026</p></td>
+            <td><p>22 de octubre de 2026</p></td>
         </tr>
     </tbody>
 </table>
@@ -376,8 +376,8 @@ Se celebran seminarios web en directo para cada versión trimestral, en los que 
                 <p>You can now delegate your unified document approvals to another user, who can approve, reject, or mark reviews complete on your behalf during the delegation period.</p>
             </td>
             <td><p>October 8, 2026</p></td>
-            <td><p>October 16, 2026</p></td>
-            <td><p>October 16, 2026</p></td>
+            <td><p>October 22, 2026</p></td>
+            <td><p>October 22, 2026</p></td>
         </tr>
 -->        
          <tr>
@@ -386,8 +386,8 @@ Se celebran seminarios web en directo para cada versión trimestral, en los que 
                 <p>Ahora puede agrupar varios documentos en un solo flujo de trabajo de aprobación para que se muevan juntos por las mismas fases.</p>
             </td>
             <td><p>Esta función no está disponible en el entorno de vista previa de espacio aislado porque la integración de Frame.io no está disponible allí.</p></td>
-            <td><p>16 de octubre de 2026</p></td>
-            <td><p>16 de octubre de 2026</p></td>
+            <td><p>22 de octubre de 2026</p></td>
+            <td><p>22 de octubre de 2026</p></td>
         </tr>
         <tr>
             <td>
@@ -395,8 +395,8 @@ Se celebran seminarios web en directo para cada versión trimestral, en los que 
                 <p>Ahora puede agregar un sitio web a Adobe Workfront como vínculo web en la nueva área Documentos y solicitar aprobación en la página web activa.</p>
             </td>
             <td><p>Esta función no está disponible en el entorno de vista previa de espacio aislado porque la integración de Frame.io no está disponible allí.</p></td>
-            <td><p>16 de octubre de 2026</p></td>
-            <td><p>16 de octubre de 2026</p></td>
+            <td><p>22 de octubre de 2026</p></td>
+            <td><p>22 de octubre de 2026</p></td>
         </tr>
         <tr>
             <td>
@@ -423,7 +423,7 @@ Se celebran seminarios web en directo para cada versión trimestral, en los que 
             </td>
             <td><p>N/D</p></td>
             <td><p>17 de septiembre de 2026</p></td>
-            <td><p>16 de octubre de 2026</p></td>
+            <td><p>22 de octubre de 2026</p></td>
         </tr>
         <tr>
             <td>
@@ -432,7 +432,7 @@ Se celebran seminarios web en directo para cada versión trimestral, en los que 
             </td>
             <td><p>N/D</p></td>
             <td><p>17 de septiembre de 2026</p></td>
-            <td><p>16 de octubre de 2026</p></td>
+            <td><p>22 de octubre de 2026</p></td>
         </tr>
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-documents.md" class="MCXref xref" xrefformat="{para}">Agregar equipos a aprobaciones de objetos mediante el almacenamiento en la nube de Adobe</a>
@@ -440,7 +440,7 @@ Se celebran seminarios web en directo para cada versión trimestral, en los que 
             </td>
             <td><p>3 de septiembre de 2026</p></td>
             <td><p>17 de septiembre de 2026</p></td>
-            <td><p>16 de octubre de 2026</p></td>
+            <td><p>22 de octubre de 2026</p></td>
         </tr>
         <tr>
             <td>
@@ -449,7 +449,7 @@ Se celebran seminarios web en directo para cada versión trimestral, en los que 
             </td>
             <td><p>3 de septiembre de 2026</p></td>
             <td><p>17 de septiembre de 2026</p></td>
-            <td><p>16 de octubre de 2026</p></td>
+            <td><p>22 de octubre de 2026</p></td>
         </tr>
 <!--
         <tr>
@@ -459,7 +459,7 @@ Se celebran seminarios web en directo para cada versión trimestral, en los que 
             </td>
             <td><p>September 3, 2026</p></td>
             <td><p>September 17, 2026</p></td>
-            <td><p>October 16, 2026</p></td>
+            <td><p>October 22, 2026</p></td>
         </tr>
 -->
         <tr>
@@ -468,8 +468,8 @@ Se celebran seminarios web en directo para cada versión trimestral, en los que 
                 <p>Un mensaje personalizado configurado en la aprobación de un documento ahora también aparece en la línea de asunto del correo electrónico de solicitud de aprobación.</p>
             </td>
             <td><p>N/D</p></td>
-            <td><p>16 de octubre de 2026</p></td>
-            <td><p>16 de octubre de 2026</p></td>
+            <td><p>22 de octubre de 2026</p></td>
+            <td><p>22 de octubre de 2026</p></td>
         </tr>
         <tr>
             <td>
@@ -478,7 +478,7 @@ Se celebran seminarios web en directo para cada versión trimestral, en los que 
             </td>
             <td><p>3 de septiembre de 2026</p></td>
             <td><p>17 de septiembre de 2026</p></td>
-            <td><p>16 de octubre de 2026</p></td>
+            <td><p>22 de octubre de 2026</p></td>
         </tr>
         <tr>
             <td>
@@ -487,7 +487,7 @@ Se celebran seminarios web en directo para cada versión trimestral, en los que 
             </td>
             <td><p>3 de septiembre de 2026</p></td>
             <td><p>17 de septiembre de 2026</p></td>
-            <td><p>16 de octubre de 2026</p></td>
+            <td><p>22 de octubre de 2026</p></td>
         </tr>
         <tr>
             <td>
@@ -496,7 +496,7 @@ Se celebran seminarios web en directo para cada versión trimestral, en los que 
             </td>
             <td><p>30 de julio de 2026</p></td>
             <td><p>13 de agosto de 2026</p></td>
-            <td><p>16 de octubre de 2026</p></td>
+            <td><p>22 de octubre de 2026</p></td>
         </tr>
         <tr>
             <td>
@@ -514,7 +514,7 @@ Se celebran seminarios web en directo para cada versión trimestral, en los que 
             </td>
             <td><p>30 de julio de 2026</p></td>
             <td><p>13 de agosto de 2026</p></td>
-            <td><p>16 de octubre de 2026</p></td>
+            <td><p>22 de octubre de 2026</p></td>
         </tr>
 <!--
         <tr>
@@ -524,7 +524,7 @@ Se celebran seminarios web en directo para cada versión trimestral, en los que 
             </td>
             <td><p>July 30, 2026</p></td>
             <td><p>August 13, 2026</p></td>
-            <td><p>October 16, 2026</p></td>
+            <td><p>October 22, 2026</p></td>
         </tr>
 -->
     </tbody>
@@ -547,8 +547,8 @@ Se celebran seminarios web en directo para cada versión trimestral, en los que 
                 <p>Las plantillas de proyecto ahora admiten mejoras de lista mejoradas y actualizaciones de atributos de tarifa para tarifas de facturación.</p>
             </td>
             <td><p>1 de octubre de 2026</p></td>
-            <td><p>16 de octubre de 2026</p></td>
-            <td><p>16 de octubre de 2026</p></td>
+            <td><p>22 de octubre de 2026</p></td>
+            <td><p>22 de octubre de 2026</p></td>
         </tr>    
         <tr>
             <td>
@@ -557,7 +557,7 @@ Se celebran seminarios web en directo para cada versión trimestral, en los que 
             </td>
             <td><p>3 de septiembre de 2026</p></td>
             <td><p>17 de septiembre de 2026</p></td>
-            <td><p>16 de octubre de 2026</p></td>
+            <td><p>22 de octubre de 2026</p></td>
         </tr>
         <tr>
             <td>
@@ -566,7 +566,7 @@ Se celebran seminarios web en directo para cada versión trimestral, en los que 
             </td>
             <td><p>3 de septiembre de 2026</p></td>
             <td><p>17 de septiembre de 2026</p></td>
-            <td><p>16 de octubre de 2026</p></td>
+            <td><p>22 de octubre de 2026</p></td>
         </tr>
     </tbody>
 </table>
@@ -589,7 +589,7 @@ Se celebran seminarios web en directo para cada versión trimestral, en los que 
             </td>
             <td><p>30 de julio de 2026</p></td>
             <td><p>13 de agosto de 2026</p></td>
-            <td><p>16 de octubre de 2026</p></td>
+            <td><p>22 de octubre de 2026</p></td>
         </tr>
     </tbody>
 </table>
@@ -611,8 +611,8 @@ Se celebran seminarios web en directo para cada versión trimestral, en los que 
                 <p>Las instancias de Workfront en Google Cloud Platform (GCP) y Azure ahora pueden adherirse a la versión beta abierta de paneles de lienzo.</p>
             </td>
             <td><p>N/D</p></td>
-            <td><p>16 de octubre de 2026</p></td>
-            <td><p>16 de octubre de 2026</p></td>
+            <td><p>22 de octubre de 2026</p></td>
+            <td><p>22 de octubre de 2026</p></td>
         </tr>
            <tr>
             <td>
@@ -620,8 +620,8 @@ Se celebran seminarios web en directo para cada versión trimestral, en los que 
                 <p>Ahora puede compartir los datos de Workfront Data Connect directamente con la cuenta de Snowflake de su organización registrando un anuncio privado. Este método de conexión utiliza la capacidad de listado privado de Snowflake para compartir datos de forma segura entre organizaciones sin exponerlos públicamente, y funciona en varias regiones y plataformas de alojamiento.</p>
             </td>
             <td><p>N/D</p></td>
-            <td><p>16 de octubre de 2026</p></td>
-            <td><p>16 de octubre de 2026</p></td>
+            <td><p>22 de octubre de 2026</p></td>
+            <td><p>22 de octubre de 2026</p></td>
         </tr>
         <tr>
             <td>
@@ -629,8 +629,8 @@ Se celebran seminarios web en directo para cada versión trimestral, en los que 
                 <p>Ahora puede crear y administrar paneles de lienzo a través de clientes de MCP como Claude y Cursor mediante peticiones de datos en lenguaje natural y acciones estructuradas de panel.</p>
             </td>
             <td><p>1 de octubre de 2026</p></td>
-            <td><p>16 de octubre de 2026</p></td>
-            <td><p>16 de octubre de 2026</p></td>
+            <td><p>22 de octubre de 2026</p></td>
+            <td><p>22 de octubre de 2026</p></td>
         </tr>
         <tr>
             <td>
@@ -638,8 +638,8 @@ Se celebran seminarios web en directo para cada versión trimestral, en los que 
                 <p>Ahora puede copiar un widget en el mismo tablero, en otro tablero al que tenga acceso de edición o en un tablero nuevo. También puede mover un widget a otro tablero al que tenga acceso de edición o a un tablero nuevo. </p>
             </td>
             <td><p>1 de octubre de 2026</p></td>
-            <td><p>16 de octubre de 2026</p></td>
-            <td><p>16 de octubre de 2026</p></td>
+            <td><p>22 de octubre de 2026</p></td>
+            <td><p>22 de octubre de 2026</p></td>
         </tr>
         <tr>
             <td>
@@ -647,8 +647,8 @@ Se celebran seminarios web en directo para cada versión trimestral, en los que 
                 <p>Ahora puede filtrar las relaciones de colección, que son campos que se vinculan a un grupo de registros relacionados en lugar de a un único registro.</p>
             </td>
             <td><p>1 de octubre de 2026</p></td>
-            <td><p>16 de octubre de 2026</p></td>
-            <td><p>16 de octubre de 2026</p></td>
+            <td><p>22 de octubre de 2026</p></td>
+            <td><p>22 de octubre de 2026</p></td>
         </tr>
         <tr>
             <td>
@@ -657,7 +657,7 @@ Se celebran seminarios web en directo para cada versión trimestral, en los que 
             </td>
             <td><p>3 de septiembre de 2026</p></td>
             <td><p>17 de septiembre de 2026</p></td>
-            <td><p>16 de octubre de 2026</p></td>
+            <td><p>22 de octubre de 2026</p></td>
         </tr>
         <tr>
             <td>
@@ -684,7 +684,7 @@ Se celebran seminarios web en directo para cada versión trimestral, en los que 
             </td>
             <td><p>27 de agosto de 2026</p></td>
             <td><p>17 de septiembre de 2026</p></td>
-            <td><p>16 de octubre de 2026</p></td>
+            <td><p>22 de octubre de 2026</p></td>
         </tr>
         <tr>
             <td>
@@ -693,7 +693,7 @@ Se celebran seminarios web en directo para cada versión trimestral, en los que 
             </td>
             <td><p>13 de agosto de 2026</p></td>
             <td><p>17 de septiembre de 2026</p></td>
-            <td><p>16 de octubre de 2026</p></td>
+            <td><p>22 de octubre de 2026</p></td>
         </tr>
         <tr>
             <td>
@@ -702,7 +702,7 @@ Se celebran seminarios web en directo para cada versión trimestral, en los que 
             </td>
             <td><p>30 de julio de 2026</p></td>
             <td><p>13 de agosto de 2026</p></td>
-            <td><p>16 de octubre de 2026</p></td>
+            <td><p>22 de octubre de 2026</p></td>
         </tr>
         <tr>
             <td>
@@ -711,7 +711,7 @@ Se celebran seminarios web en directo para cada versión trimestral, en los que 
             </td>
             <td><p>30 de julio de 2026</p></td>
             <td><p>13 de agosto de 2026</p></td>
-            <td><p>16 de octubre de 2026</p></td>
+            <td><p>22 de octubre de 2026</p></td>
         </tr>
     </tbody>
 </table>
@@ -733,8 +733,8 @@ Se celebran seminarios web en directo para cada versión trimestral, en los que 
                 <p>Ahora puede acceder a las solicitudes de incidencias de Workfront enviadas hasta tres años antes de julio de 2025 desde la nueva experiencia de solicitud.</p>
             </td>
             <td><p>24 de septiembre de 2026</p></td>
-            <td><p>16 de octubre de 2026</p></td>
-            <td><p>16 de octubre de 2026</p></td>
+            <td><p>22 de octubre de 2026</p></td>
+            <td><p>22 de octubre de 2026</p></td>
         </tr>
         <tr>
             <td>
@@ -787,8 +787,8 @@ Se celebran seminarios web en directo para cada versión trimestral, en los que 
                 <p>Ahora varias listas de Configuración, Proyectos, Plantillas y Tareas utilizan el formato de lista mejorado.</p>
             </td>
             <td><p>1 de octubre de 2026</p></td>
-            <td><p>16 de octubre de 2026</p></td>
-            <td><p>16 de octubre de 2026</p></td>
+            <td><p>22 de octubre de 2026</p></td>
+            <td><p>22 de octubre de 2026</p></td>
         </tr>
         <tr>
             <td>
@@ -796,8 +796,8 @@ Se celebran seminarios web en directo para cada versión trimestral, en los que 
                 <p>Se han realizado algunas mejoras en los filtros de lista y agrupaciones mejorados: los grupos se contraen de forma predeterminada y los operadores de filtro se han actualizado para aclarar las etiquetas.</p>
             </td>
             <td><p>1 de octubre de 2026</p></td>
-            <td><p>16 de octubre de 2026</p></td>
-            <td><p>16 de octubre de 2026</p></td>
+            <td><p>22 de octubre de 2026</p></td>
+            <td><p>22 de octubre de 2026</p></td>
         </tr>
         <tr>
             <td>
@@ -806,7 +806,7 @@ Se celebran seminarios web en directo para cada versión trimestral, en los que 
             </td>
             <td><p>3 de septiembre de 2026</p></td>
             <td><p>17 de septiembre de 2026</p></td>
-            <td><p>16 de octubre de 2026</p></td>
+            <td><p>22 de octubre de 2026</p></td>
         </tr>
         <tr>
             <td>
@@ -815,7 +815,7 @@ Se celebran seminarios web en directo para cada versión trimestral, en los que 
             </td>
             <td><p>3 de septiembre de 2026</p></td>
             <td><p>17 de septiembre de 2026</p></td>
-            <td><p>16 de octubre de 2026</p></td>
+            <td><p>22 de octubre de 2026</p></td>
         </tr>
            <tr>
             <td>
@@ -842,7 +842,7 @@ Se celebran seminarios web en directo para cada versión trimestral, en los que 
             </td>
             <td><p>30 de julio de 2026</p></td>
             <td><p>13 de agosto de 2026</p></td>
-            <td><p>16 de octubre de 2026</p></td>
+            <td><p>22 de octubre de 2026</p></td>
         </tr>
         <tr>
             <td>
@@ -851,7 +851,7 @@ Se celebran seminarios web en directo para cada versión trimestral, en los que 
             </td>
             <td><p>30 de julio de 2026</p></td>
             <td><p>13 de agosto de 2026</p></td>
-            <td><p>16 de octubre de 2026</p></td>
+            <td><p>22 de octubre de 2026</p></td>
         </tr>
     </tbody>
 </table>
@@ -914,7 +914,7 @@ Si es administrador de Workfront y tiene usuarios de lector de Data Connect que 
 
 Este cambio se anunció por primera vez en las notas de la versión de Workfront de abril de 2026 y este es el recordatorio final antes de la fecha límite. Asegúrese de que todos los usuarios de lectores afectados habiliten MFA antes del 8 de agosto de 2026 para evitar interrupciones en su acceso.
 
-Para obtener más información, consulte [Crear una cuenta de lector o una conexión para Snowflake](https://experienceleague.adobe.com/es/docs/workfront/using/reporting/data-lake/create-a-reader-account).
+Para obtener más información, consulte [Crear una cuenta de lector o una conexión para Snowflake](https://experienceleague.adobe.com/en/docs/workfront/using/reporting/data-lake/create-a-reader-account).
 
 ### Actualizaciones de aprendizaje
 

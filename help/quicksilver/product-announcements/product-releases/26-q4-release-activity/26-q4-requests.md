@@ -13,7 +13,7 @@ feature_v2:
 subfeature_v2:
   - id: a29813d3-f0cc-4b60-9396-13b558370803
     internal-label: Product announcements
-source-git-commit: a500a7cf3f8f75f3961d6cb2e5a61599b4cd0177
+source-git-commit: 80e0ade22a2d40a1c0244ef8c11f9db37dd9661a
 workflow-type: tm+mt
 source-wordcount: '227'
 ht-degree: 7%
@@ -29,8 +29,8 @@ Para obtener una lista de todos los cambios disponibles en este punto del ciclo 
 >[!NOTE]
 >
 >Vista previa: 24 de septiembre de 2026
->Versión rápida de producción: 16 de octubre de 2026
->Producción para todos: 16 de octubre de 2026
+>Versión rápida de producción: 22 de octubre de 2026
+>Producción para todos: 22 de octubre de 2026
 
 Ahora puede acceder a las solicitudes de incidencias de Workfront enviadas hasta tres años antes de julio de 2025 desde la nueva experiencia de solicitud. Anteriormente, solo tenía acceso a las solicitudes enviadas después de julio de 2025.
 
