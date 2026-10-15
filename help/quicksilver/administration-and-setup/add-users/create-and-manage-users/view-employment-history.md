@@ -7,7 +7,7 @@ description: Puede consultar el historial laboral de un usuario, incluidos los c
 author: Becky
 feature: System Setup and Administration
 role: Admin
-source-git-commit: f0560dc380160725c12d3f222e3fe7f3d8d32d63
+source-git-commit: 6a2e4dc7e4592c3930723fb42cec92c439332074
 workflow-type: tm+mt
 source-wordcount: '498'
 ht-degree: 0%
@@ -66,7 +66,5 @@ Puede ver el historial laboral desde la lista Usuarios o puede ver el historial 
 1. Para filtrar los resultados, haga clic en **Filtro** e introduzca el campo, el operador y el valor por el que desea filtrar. Los resultados se filtran automáticamente.
 1. Para agregar o quitar columnas, haga clic en el icono Agregar ![Icono Agregar](assets/add-column.png) a la derecha de la tabla y haga clic en el icono más situado junto a cada columna que desee agregar, o bien haga clic en el icono menos situado junto a cada columna que desee quitar de la vista.
 1. Para exportar el historial laboral, haga clic en **Exportar**. Puede exportar el historial laboral como archivo CSV o XLSX.
-
-
 
 

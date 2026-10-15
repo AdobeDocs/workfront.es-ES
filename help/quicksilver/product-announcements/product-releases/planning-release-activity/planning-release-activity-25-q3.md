@@ -27,7 +27,7 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: ccfa144db57972aa6a43f169964ea3c792d782bc
 workflow-type: tm+mt
 source-wordcount: '2416'
 ht-degree: 6%
@@ -115,6 +115,7 @@ To make the approval process more flexible, we've added the ability to add teams
 Previously, only individual users could be assigned as approvers. 
 
 For more information, see [Add an approval to a request form in Adobe Workfront Planning](/help/quicksilver/planning/requests/add-approval-to-request-form.md).
+
 -->
 
 ## Experiencia actualizada al compartir un formulario de solicitud
@@ -195,7 +196,7 @@ Puede configurar hasta 100 trimestres personalizados. Antes de esta actualizaci�
 
 No hay cambios en la experiencia del trimestre personalizado para los clientes que no han adquirido Workfront Planning.
 
-Para obtener más información, consulte [Habilitar trimestres personalizados para proyectos](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md).
+Para obtener más información, consulte [Habilitar trimestres y semanas personalizados](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md).
 
 ## Calcular todas las fórmulas dependientes al mismo tiempo
 
