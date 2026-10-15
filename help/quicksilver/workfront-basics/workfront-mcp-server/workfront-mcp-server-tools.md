@@ -11,9 +11,9 @@ product_v2:
 feature_v2:
   - id: c042179c-157b-516d-b27c-e3bf303e8567
     internal-label: Get Started with Workfront
-source-git-commit: 3a1a64a53cd3717840cd45d5792c1c16d2e40bde
+source-git-commit: 9bb1e7773748d9432656c0949ea37b1fcf054b0e
 workflow-type: tm+mt
-source-wordcount: '3349'
+source-wordcount: '3561'
 ht-degree: 6%
 ---
 
@@ -353,13 +353,20 @@ Las herramientas de creación de informes le permiten crear y administrar panele
 
 | Título | Nombre de herramienta | Qué hace | Acción |
 | --- | --- | --- | --- |
-| Leer | `read` | Lee los datos de los informes en tres modos seleccionados por los ID pasados: enumera los tableros visibles para usted, obtiene la estructura de un único tablero o obtiene la configuración completa de un widget. | Leer |
-| Crear tablero | `create_dashboard` | Crea un nuevo tablero de informes vacío y lo devuelve, con un vínculo para abrirlo. | Escritura |
-| Actualizar panel | `update_dashboard` | Actualiza parcialmente los metadatos, el mensaje, el filtro y la ubicación por widget de un panel. Los campos omitidos se dejan sin cambios. | Escritura |
-| Crear widget | `create_widget` | Crea un widget y su configuración de informe en un panel. Una herramienta gestiona los tres tipos de widgets: gráfico, KPI y tabla. | Escritura |
-| Actualizar widget | `update_widget` | Actualiza parcialmente la configuración de un widget existente. El tipo de widget se infiere automáticamente, por lo que solo debe enviar los campos que desee cambiar. | Escritura |
-| Copiar objeto | `copy_object` | Copia todo un tablero, incluidos sus widgets, mensajes y filtros, en un tablero nuevo, o copia un solo widget en los tableros o entre ellos. | Escritura |
-| Eliminar objeto | `delete_object` | Elimina permanentemente un tablero de informes y todos sus widgets, o un solo widget. Esta acción no se puede deshacer. | Escritura |
+| Paneles de lista | `reporting_relist_dashboards` | Enumera los paneles de informes visibles para usted. Admite los valores `view` `"my"`, `"shared"`, `"all"` y `"favorites"`. Devuelve solo metadatos de panel, incluida una URL para abrir cada panel. | Leer |
+| Obtener panel | `reporting_get_dashboard` | Obtiene un panel de lienzo por ID, incluidos metadatos, diseño, indicadores, filtros e ID de widget. Los datos del widget no están hidratados. | Leer |
+| Obtener widget | `reporting_get_widget` | Obtiene un elemento shell de widget y su configuración de contenido aplanado. Las referencias de campo se devuelven como `{id, label, dataType}` para que se puedan reutilizar directamente en las herramientas `reporting_update_*_widget`. Los tipos de contenido admitidos son Tabla, KPI y Varias series. | Leer |
+| Crear tablero | `reporting_create_dashboard` | Crea un tablero de informes vacío. Devuelve el tablero creado completo, incluido su ID, título, descripción, moneda, ID de creador, fecha de creación y colecciones de widgets, mensajes y filtros vacíos. | Escritura |
+| Actualizar panel | `reporting_update_dashboard` | Actualiza parcialmente el título, la descripción, la moneda, el aviso, el filtro y la configuración de diseño de un panel `ignoreDashboardFilters` y por widget. Los campos omitidos se dejan sin cambios y la solicitud y el filtro se sustituyen completamente cuando se proporcionan. | Escritura |
+| Crear widget de tabla | `reporting_create_table_widget` | Crea un widget de tabla y su configuración de informe en un panel. Devuelve el widget creado completo en la forma `get_widget` aplanada. | Escritura |
+| Actualizar widget de tabla | `reporting_update_table_widget` | Actualiza un widget de tabla existente y su configuración de informe. Reemplaza la configuración de tabla almacenada, incluidas las columnas, los contenedores, el límite de filas, el pie de ilustración, la descripción, la condición y la configuración de ejecutar como usuario. | Escritura |
+| Crear widget de KPI | `reporting_create_kpi_widget` | Crea un widget de KPI y su configuración de informe en un panel. Devuelve el widget creado completo en la forma `get_widget` aplanada. | Escritura |
+| Actualizar widget de KPI | `reporting_update_kpi_widget` | Actualiza un widget KPI existente y su configuración de informe. Se requieren `fieldId` y `aggregation`, y el informe subyacente se ha reemplazado por completo. | Escritura |
+| Crear widget de gráfico | `reporting_create_chart_widget` | Crea un widget de gráfico y su configuración de informe. Los tipos de gráficos admitidos son BAR, COLUMNA, LÍNEA y CIRCULAR, incluidas las variantes SIMPLES, MULTI_SERIES y APILADAS cuando se admiten. | Escritura |
+| Actualizar widget de gráfico | `reporting_update_chart_widget` | Actualiza un widget de gráfico existente y su configuración de informe. Se requieren `aggregationFieldId`, `aggregationType`, `groupByFields` y `chartType`, y el informe subyacente se ha reemplazado por completo. | Escritura |
+| Copiar widget | `reporting_copy_widget` | Copia un widget existente en el mismo tablero o en un tablero diferente, duplicando el widget y su configuración de informe. | Escritura |
+| Copiar panel de control | `reporting_copy_dashboard` | Copia un tablero en un tablero nuevo, incluidos sus widgets y las configuraciones de informes. Si lo desea, puede copiar solo un subconjunto de widgets y elegir si desea incluir el mensaje y el filtro. | Escritura |
+| Eliminar objeto | `reporting_delete_object` | Elimina permanentemente un tablero de informes y todos sus widgets, o un solo widget. Esta acción no se puede deshacer. | Escritura |
 
 ## Actualización de las herramientas
 
