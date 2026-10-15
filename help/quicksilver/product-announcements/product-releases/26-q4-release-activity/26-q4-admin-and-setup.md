@@ -13,7 +13,7 @@ feature_v2:
 subfeature_v2:
   - id: a29813d3-f0cc-4b60-9396-13b558370803
     internal-label: Product announcements
-source-git-commit: 6a2e4dc7e4592c3930723fb42cec92c439332074
+source-git-commit: 73607215c20da53c1a7f37fc74932537fbd44392
 workflow-type: tm+mt
 source-wordcount: '1793'
 ht-degree: 1%
@@ -29,8 +29,8 @@ Para obtener una lista de todos los cambios disponibles en este punto del ciclo 
 >[!NOTE]
 >
 >Vista previa: 1 de octubre de 2026
->Versión rápida de producción: 14 de octubre de 2026
->Producción para todos: 15 de octubre de 2026
+>Versión rápida de producción: 16 de octubre de 2026
+>Producción para todos: 16 de octubre de 2026
 
 Para ayudarle a rastrear cómo el rol laboral, la agencia, el centro de costos y las tarifas de facturación de un usuario han cambiado con el tiempo, hemos agregado Historial laboral.
 
@@ -45,8 +45,8 @@ Para obtener más información, consulte [Ver el historial laboral de un usuario
 >[!NOTE]
 >
 >Vista previa: 1 de octubre de 2026
->Versión rápida de producción: 14 de octubre de 2026
->Producción para todos: 15 de octubre de 2026
+>Versión rápida de producción: 16 de octubre de 2026
+>Producción para todos: 16 de octubre de 2026
 
 Para ayudarle a ahorrar tiempo en la traducción de términos personalizados y etiquetas de campo, hemos añadido la capacidad de generar traducciones de IA para la localización personalizada. Ahora, los administradores de Workfront pueden utilizar IA para generar traducciones de texto personalizado sin traducir o rellenar traducciones de idioma adicionales para un término localizado anteriormente y, a continuación, revisar y ajustar los resultados antes de guardar.
 
@@ -59,8 +59,8 @@ Para obtener más información, consulte [Configurar la localización personaliz
 >[!NOTE]
 >
 >Preview: October 1, 2026
->Production fast release: October 14, 2026
->Production for everyone: October 15, 2026
+>Production fast release: October 16, 2026
+>Production for everyone: October 16, 2026
 
 To make it easier to control secure access to Workfront data, we've added the ability for administrators to configure MCP Tools permissions by access level. Now, you can configure actions a given access level can take through the Workfront MCP.
 
@@ -80,8 +80,8 @@ For more information, see [Grant access to MCP Tools](help/quicksilver/administr
 >[!NOTE]
 >
 >Vista previa: 1 de octubre de 2026
->Versión rápida de producción: 14 de octubre de 2026
->Producción para todos: 15 de octubre de 2026
+>Versión rápida de producción: 16 de octubre de 2026
+>Producción para todos: 16 de octubre de 2026
 
 Se han realizado varias mejoras en las plantillas de diseño:
 
@@ -96,8 +96,8 @@ Para obtener más información, consulte [Personalizar el menú principal con un
 >[!NOTE]
 >
 >Vista previa: 1 de octubre de 2026
->Versión rápida de producción: 14 de octubre de 2026
->Producción para todos: 15 de octubre de 2026
+>Versión rápida de producción: 16 de octubre de 2026
+>Producción para todos: 16 de octubre de 2026
 
 Al trabajar con campos desplegables, botones de opción y casillas de verificación en el diseñador de formularios, ahora puede agregar, editar y eliminar opciones de campo en un solo cuadro de diálogo. Anteriormente, se agregaban y editaban las opciones en el panel derecho del diseñador y no había mucho espacio si se creaba una larga lista de opciones.
 
@@ -119,8 +119,8 @@ Para obtener más información, consulte [Configuración de suscripciones a even
 >[!NOTE]
 >
 >Vista previa: 22 de septiembre de 2026
->Versión rápida de producción: 14 de octubre de 2026
->Producción para todos: 15 de octubre de 2026
+>Versión rápida de producción: 16 de octubre de 2026
+>Producción para todos: 16 de octubre de 2026
 
 Para que los servidores MCP de Workfront sean más flexibles y personalizables para su organización, hemos agregado la capacidad de agregar direcciones URL de devolución de llamada de OAuth personalizadas. Los administradores de Workfront ahora pueden mantener la lista de permitidos de su propia organización de URL de devolución de llamada de OAuth de confianza para integraciones de MCP. Esto permite conectar plataformas agénticas de IA personalizadas cuya URL de devolución de llamada de OAuth sea única para su organización, más allá de las plataformas compatibles de forma nativa con Workfront.
 
@@ -134,7 +134,7 @@ Para obtener más información, consulte [Agregar o quitar una URL de redireccio
 >
 >Preview: August 20, 2026
 >Production fast release: September 17, 2026
->Production for everyone: October 15, 2026
+>Production for everyone: October 16, 2026
 
 The Actions list in the Update Feeds section of the Setup area has an updated look and feel.
 
@@ -154,7 +154,7 @@ For information, see [Configure system updates](/help/quicksilver/administration
 >
 >Vista previa: 3 de septiembre de 2026
 >Versión rápida de producción: 17 de septiembre de 2026
->Producción para todos: 15 de octubre de 2026
+>Producción para todos: 16 de octubre de 2026
 
 Ahora puede establecer un nivel de acceso predeterminado para los usuarios que se aprovisionan en Workfront a través de Adobe Admin Console. Un administrador de Workfront puede configurar este valor predeterminado en Preferencias del sistema.
 
@@ -168,7 +168,7 @@ Para obtener más información, consulte [Configurar las preferencias del sistem
 >
 >Vista previa: 3 de septiembre de 2026
 >Versión rápida de producción: 17 de septiembre de 2026
->Producción para todos: 15 de octubre de 2026
+>Producción para todos: 16 de octubre de 2026
 
 Si su organización ha adquirido un paquete de Planning, además de un paquete de flujo de trabajo, ahora puede configurar semanas personalizadas del mismo modo que lo hace con un administrador de Workfront.
 
@@ -182,7 +182,7 @@ Para obtener más información, consulte [Habilitar trimestres personalizados](/
 >
 >Vista previa: 3 de septiembre de 2026
 >Versión rápida de producción: 17 de septiembre de 2026
->Producción para todos: 15 de octubre de 2026
+>Producción para todos: 16 de octubre de 2026
 
 Las integraciones de documentos personalizadas ahora admiten cargas fraccionadas para archivos grandes. Cuando se habilita, los archivos de más de 25 MB se dividen en fragmentos más pequeños y se cargan en paralelo, lo que hace que las cargas de archivos grandes sean más rápidas y fiables. Los administradores pueden activar esta opción y establecer el tamaño máximo de fragmento (hasta 100 MB) por integración.
 
@@ -194,7 +194,7 @@ Para obtener más información, consulte [Configurar integraciones de documentos
 >
 >Vista previa: 30 de julio de 2026
 >Versión rápida de producción: 13 de agosto de 2026
->Producción para todos: 15 de octubre de 2026
+>Producción para todos: 16 de octubre de 2026
 
 Los administradores de grupos ahora pueden crear, editar y eliminar perfiles empresariales para los grupos que administran, sin necesidad de acceso de administrador del sistema. Esto proporciona a las organizaciones más flexibilidad para delegar la administración del perfil empresarial en el nivel de grupo.
 
@@ -206,7 +206,7 @@ Para obtener más información, vea [Ver y administrar perfiles de negocio](/hel
 >
 >Vista previa: 30 de julio de 2026
 >Versión rápida de producción: 13 de agosto de 2026
->Producción para todos: 15 de octubre de 2026
+>Producción para todos: 16 de octubre de 2026
 
 Ahora se admiten vistas para listas mejoradas en el sistema a través de una plantilla de diseño. Puede ocultar las vistas del sistema existentes, asignar una vista específica como vista predeterminada y agregar una vista personalizada a la lista de vistas del sistema.
 
@@ -220,7 +220,7 @@ Para obtener más información, consulte [Personalizar filtros, vistas y agrupac
 >
 >Vista previa: 30 de julio de 2026
 >Versión rápida de producción: 13 de agosto de 2026
->Producción para todos: 15 de octubre de 2026
+>Producción para todos: 16 de octubre de 2026
 
 Los cuadros de diálogo de edición masiva ahora permiten editar campos de búsqueda externos. Anteriormente esto no era posible.
 
@@ -236,7 +236,7 @@ Para obtener información sobre los campos de búsqueda externos, consulte [Crea
 >
 >Vista previa: 30 de julio de 2026
 >Versión rápida de producción: 13 de agosto de 2026
->Producción para todos: 15 de octubre de 2026
+>Producción para todos: 16 de octubre de 2026
 
 El modo de vista previa del diseñador de formularios personalizado ahora admite opciones de lógica avanzadas, incluida la lógica de visualización avanzada, la lógica de valor predeterminada, la lógica de validación, la lógica de formato y la lógica de editabilidad. Puede probar las fórmulas lógicas en la vista previa del formulario y ajustarlas según sea necesario en el generador de lógicas. También puede seleccionar un objeto de prueba (proyecto, tarea, problema, etc.) para obtener una vista previa del formulario con datos contextuales reales.
 
@@ -252,7 +252,7 @@ Para obtener más información, consulte [Agregar reglas lógicas a formularios 
 >
 >Vista previa: 30 de julio de 2026
 >Versión rápida de producción: 13 de agosto de 2026
->Producción para todos: 15 de octubre de 2026
+>Producción para todos: 16 de octubre de 2026
 
 La página Historial de cambios de Workfront ahora captura la actividad en los flujos de trabajo unificados de revisión y aprobación, lo que proporciona a los administradores un registro de control completo para los eventos de ciclo vital de revisión y documento.
 
@@ -272,7 +272,7 @@ Para obtener más información, vea [Ver y administrar el historial de cambios](
 >
 >Vista previa: 30 de julio de 2026
 >Versión rápida de producción: 13 de agosto de 2026
->Producción para todos: 15 de octubre de 2026
+>Producción para todos: 16 de octubre de 2026
 
 Ahora puede establecer una aplicación personalizada como página de aterrizaje en una plantilla de diseño. Las aplicaciones personalizadas que ya se han añadido al menú principal están disponibles para su uso como página de aterrizaje.
 
@@ -286,7 +286,7 @@ Para obtener más información, consulte [Personalizar la página de aterrizaje 
 >
 >Vista previa: 30 de julio de 2026
 >Versión rápida de producción: 13 de agosto de 2026
->Producción para todos: 15 de octubre de 2026
+>Producción para todos: 16 de octubre de 2026
 
 Puede agregar campos que desee rastrear para un tipo concreto de objeto a través de Workfront. Cuando los usuarios cambian información en ese campo, el sistema registra la información sobre el cambio como una entrada en el historial de cambios.
 
@@ -300,7 +300,7 @@ Para obtener más información, consulte [Configurar campos para realizar un seg
 >
 >Vista previa: 30 de julio de 2026
 >Versión rápida de producción: 13 de agosto de 2026
->Producción para todos: 15 de octubre de 2026
+>Producción para todos: 16 de octubre de 2026
 
 En el nivel de acceso Estándar, ahora puede definir si los usuarios con ese nivel deben tener acceso a la lista Historial de cambios. La opción **Cambiar historial** está disponible en la sección **Permitir acceso administrativo para** en el nivel de acceso.
 

@@ -13,7 +13,7 @@ feature_v2:
 subfeature_v2:
   - id: a29813d3-f0cc-4b60-9396-13b558370803
     internal-label: Product announcements
-source-git-commit: c459d95f58469fe3fe406963645bb7c58c8b1546
+source-git-commit: a500a7cf3f8f75f3961d6cb2e5a61599b4cd0177
 workflow-type: tm+mt
 source-wordcount: '1137'
 ht-degree: 2%
@@ -29,8 +29,8 @@ Para obtener una lista de todos los cambios disponibles en este punto del ciclo 
 >[!NOTE]
 >
 >Vista previa: 1 de octubre de 2026
->Versión rápida de producción: 14 de octubre de 2026
->Producción para todos: 15 de octubre de 2026
+>Versión rápida de producción: 16 de octubre de 2026
+>Producción para todos: 16 de octubre de 2026
 
 Se han realizado los siguientes cambios en los filtros de lista y agrupaciones mejorados:
 
@@ -49,8 +49,8 @@ Para obtener más información, consulte [Usar listas mejoradas](/help/quicksilv
 >[!NOTE]
 >
 >Vista previa: 1 de octubre de 2026
->Versión rápida de producción: 14 de octubre de 2026
->Producción para todos: 15 de octubre de 2026
+>Versión rápida de producción: 16 de octubre de 2026
+>Producción para todos: 16 de octubre de 2026
 
 Las siguientes listas de Workfront ahora utilizan el formato de lista mejorado:
 
@@ -83,7 +83,7 @@ Para obtener más información, consulte [Usar listas mejoradas](/help/quicksilv
 >
 >Vista previa: 3 de septiembre de 2026
 >Versión rápida de producción: 17 de septiembre de 2026
->Producción para todos: 15 de octubre de 2026
+>Producción para todos: 16 de octubre de 2026
 
 Ya están disponibles las siguientes actualizaciones en todas las listas mejoradas:
 
@@ -98,7 +98,7 @@ Para obtener más información, consulte [Usar listas mejoradas](/help/quicksilv
 >
 >Vista previa: 3 de septiembre de 2026
 >Versión rápida de producción: 17 de septiembre de 2026
->Producción para todos: 15 de octubre de 2026
+>Producción para todos: 16 de octubre de 2026
 
 Las siguientes listas de Workfront ahora utilizan el formato de lista mejorado:
 
@@ -159,7 +159,7 @@ Para obtener más información, consulte [Navegación izquierda en Adobe Workfro
 >
 >Vista previa: 30 de julio de 2026
 >Versión rápida de producción: 13 de agosto de 2026
->Producción para todos: 15 de octubre de 2026
+>Producción para todos: 16 de octubre de 2026
 
 Se han realizado varias actualizaciones en las listas mejoradas:
 
@@ -174,7 +174,7 @@ Para obtener más información, consulte [Usar listas mejoradas](/help/quicksilv
 >
 >Vista previa: 30 de julio de 2026
 >Versión rápida de producción: 13 de agosto de 2026
->Producción para todos: 15 de octubre de 2026
+>Producción para todos: 16 de octubre de 2026
 
 Cuando pasa el ratón sobre la ruta de exploración de un objeto, ahora puede copiar su nombre y vincular en una acción. Esto acelera el uso compartido de objetos en Slack, correo electrónico u otras herramientas, sin copiar el nombre y la dirección URL por separado.
 
