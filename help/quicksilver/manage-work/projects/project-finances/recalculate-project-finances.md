@@ -9,22 +9,26 @@ exl-id: 5a90c5a1-8b26-4b6f-b9ec-f446a2e94ff0
 TQID: https://experienceleague.adobe.com/b3urO3jsw7wxvdDhpYHZqgf01ewJi0LvulUaQHlCYWY
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
 subfeature_v2:
   - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+    internal-label: Projects
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 035783e301929fe2a26a9e7886276f49899b0e4a
 workflow-type: tm+mt
-source-wordcount: 1614
-ht-degree: 76%
-
+source-wordcount: '1753'
+ht-degree: 67%
 ---
-
 # Recalcular las finanzas de un proyecto
 
 Las finanzas se calculan en un proyecto a medida que se producen cambios en las horas registradas para el proyecto o en las tarias usadas para calcular costes e ingresos.
@@ -69,7 +73,7 @@ Las finanzas se calculan para los proyectos de las siguientes maneras:
 * Puede recalcular manualmente los costes e ingresos de un proyecto mediante la opción Recalcular finanzas en un proyecto.
 * Además, algunas acciones activan un nuevo cálculo automático.
 
-Cuando la tarifa de un usuario o un rol cambia mientras dura un proyecto, puede ocurrir lo siguiente:
+Cuando la tarifa de un usuario o una función cambia mientras dura un proyecto, puede ocurrir lo siguiente:
 
 * Cuando se realiza el cambio, la tarifa actualizada se utiliza a partir de ese momento, a medida que se registran las horas y se calcula la información financiera. Cambiar la tarifa no afecta a cómo se calcularon las cosas antes de realizar el cambio. Para todas las horas existentes registradas, se utiliza la tarifa antigua para calcular la información financiera.
 * Puede obligar a Adobe Workfront a utilizar la nueva tarifa de forma retroactiva para todas las horas registradas hasta el momento, utilizando la opción Recalcular finanzas. Esto obliga a Workfront a volver a calcular de forma retroactiva todas las horas introducidas anteriormente, los costes planificados y los ingresos de acuerdo con la información de la nueva tarifa.
@@ -125,7 +129,7 @@ Para obtener más información sobre cómo crear registros de facturación, cons
 
 #### Conservar ingresos del proyecto mediante el uso de varias anulaciones de la tarifa de facturación {#preserve-project-revenue-by-using-multiple-billing-rate-overrides}
 
-Cuando cambian las tarifas de facturación de funciones en el nivel de proyecto, puede conservar los ingresos existentes que ya se han calculado en el proyecto mediante el uso de varias anulaciones de tarifas de facturación que están bloqueadas dentro de un lapso de tiempo especificado.
+Cuando cambian las tarifas de facturación para los roles en el nivel de proyecto, puede conservar los ingresos existentes que ya se han calculado en el proyecto mediante el uso de varias anulaciones de tarifas de facturación, que están bloqueadas dentro de un marco de tiempo especificado.
 
 Para obtener más información sobre cómo usar varias anulaciones de tarifas de facturación, consulte [Información general sobre cómo anular tarifas de facturación y calcular ingresos en un proyecto](/help/quicksilver/manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md).
 
@@ -146,7 +150,7 @@ Las tarifas de coste pueden cambiar en los siguientes niveles:
 * Nivel de proyecto (para usuarios)
 Para obtener más información sobre cómo anular las tasas de costo de usuario, vea [Anular las tasas de costo de usuario en el nivel de proyecto](/help/quicksilver/manage-work/projects/project-finances/override-user-cost-rates.md).
 
-Cuando las tarifas de facturación cambian en cualquier nivel mencionado anteriormente, puede conservar los costes existentes que ya se han calculado en el proyecto bloqueando el tiempo registrado en el proyecto y calculado usando la tarifa antigua en un registro de facturación con un estado de Facturado. Para obtener más información sobre cómo crear registros de facturación, consulte [Crear registros de facturación](../../../manage-work/projects/project-finances/create-billing-records.md).
+Cuando las tarifas de costo cambian en cualquier nivel mencionado anteriormente, puede conservar los costos existentes que ya se han calculado en el proyecto bloqueando el tiempo registrado en el proyecto y calculado usando la tarifa antigua en un registro de facturación con un estado de Facturado. Para obtener más información sobre cómo crear registros de facturación, consulte [Crear registros de facturación](../../../manage-work/projects/project-finances/create-billing-records.md).
 
 También puede evitar utilizar la opción Recalcular finanzas manualmente si no desea crear un registro de facturación, tal como se describe en la sección [Recalcular manualmente las finanzas de un proyecto](#manually-recalculate-finances-for-a-project) en este artículo.
 
@@ -183,7 +187,7 @@ Puede recalcular las finanzas al mismo tiempo que las edita de forma masiva. Par
    Todos los costes e ingresos planificados del proyecto se recalculan con la información nueva.
 
    Debería recibir una confirmación en la parte superior del explorador de que las finanzas del proyecto se han recalculado correctamente.
-Los valores de coste existentes y algunos valores de ingresos que no se han bloqueado se actualizan para reflejar las nuevas tasas.
+   Los valores de coste existentes y algunos valores de ingresos que no se han bloqueado se actualizan para reflejar las nuevas tarifas.
 
 ## Recalcular finanzas manualmente de forma masiva{#manually-recalculate-finances-in-bulk}
 
@@ -217,9 +221,25 @@ Las siguientes acciones activan el recálculo financiero de los proyectos en Wor
 * Cambiar el estado de tarea
 * Mover una tarea con horas a otro proyecto
 * Cambio del estado del proyecto de Completo a Activo
+* Adición de un gasto facturable en el nivel de proyecto o tarea
 
 >[!NOTE]
 >
 >Al cambiar el estado del proyecto, solo se vuelven a calcular los valores planificados.
 
 También puede recalcular las finanzas manualmente en el menú **Más** ![Menú más](assets/qs-more-menu.png) en el nivel de proyecto, haciendo clic en **Recalcular finanzas**.
+
+### Cómo afectan los gastos al recálculo automático de finanzas
+
+Estos escenarios existen al agregar gastos a proyectos y tareas:
+
+* Al agregar un gasto no facturable a un proyecto, se actualizan los costos del proyecto, sin volver a calcular todas las finanzas.
+* Al agregar un gasto no facturable a una tarea, se vuelven a calcular los costos de esa tarea y los costos del proyecto. No se recalcularán otras tareas.
+* Agregar un gasto facturable en el nivel de proyecto o tarea déclencheur un recálculo financiero en el proyecto, incluidos los costos laborales y los ingresos.
+
+>[!NOTE]
+>
+>Cuando se guarda un importe planificado en el gasto, se actualiza el coste planificado. Cuando se guarda un importe real en el gasto, se actualiza el coste real.
+
+Para obtener más información sobre los gastos, consulte [Administrar gastos de proyecto](/help/quicksilver/manage-work/projects/project-finances/manage-project-expenses.md).
+
