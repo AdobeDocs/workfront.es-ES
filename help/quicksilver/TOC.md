@@ -3,9 +3,9 @@ user-guide-title: Guía de Workfront
 user-guide-description: Utilice los siguientes documentos, tutoriales y recursos adicionales para aprender a implementar y utilizar Adobe Workfront de forma eficaz en su organización.
 role: User
 feature-set: Workfront
-source-git-commit: 6264202c41efa103b143ecbfd8a6acba29020fc0
+source-git-commit: d6c8ce2904153bc2556e2026626993632d573bf0
 workflow-type: tm+mt
-source-wordcount: '14648'
+source-wordcount: '14674'
 ht-degree: 91%
 ---
 # Guía de Workfront {#using}
@@ -486,7 +486,6 @@ ht-degree: 91%
       * [Recálculos de cronología del proyecto](administration-and-setup/set-up-workfront/configure-system-defaults/configure-timeline-recalculations-projects.md)
       * [Habilitar trimestres y semanas personalizados](administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md)
       * [Habilitar o deshabilitar las versiones rápidas para su organización](administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)
-      * [Habilitar el almacenamiento en la nube de Adobe para su organización](administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md)
       * [Conversión de portafolios heredados al almacenamiento en la nube de Adobe](administration-and-setup/set-up-workfront/configure-system-defaults/convert-portfolios-to-acs.md)
       * [Crear y editar reglas empresariales](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/business-rules.md)
       * [Configuración de la localización personalizada](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-custom-localization.md)
@@ -1929,9 +1928,14 @@ ht-degree: 91%
   * [Revisar y aprobar el trabajo](review-and-approve-work/review-and-approve-work.md)
   * [Resumen de revisión y aprobación unificadas](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md)
   * [Introducción a la revisión y aprobación unificadas](/help/quicksilver/review-and-approve-work/get-started-with-unified-approvals.md)
-  * [Migración a Workfront en el almacenamiento en la nube de Adobe](/help/quicksilver/review-and-approve-work/workfront-storage.md)
   * [Información general sobre decisiones limitadas de documentos y de la revisión para usuarios que no han pagado](review-and-approve-work/proof-doc-decision-limits.md)
   * {hide-from-toc}[Configurar revisores de IA](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/set-up-ai-reviewer.md)
+  * Migración a Workfront en el almacenamiento en la nube de Adobe {#move-to-adobe-cloud-storage}
+    * [Migración a Workfront en el almacenamiento en la nube de Adobe](/help/quicksilver/review-and-approve-work/workfront-storage.md)
+    * [Diferencias en el almacenamiento en la nube de Adobe](/help/quicksilver/review-and-approve-work/adobe-cloud-storage-whats-different.md)
+    * [Planifique la implementación de Adobe Cloud Storage](/help/quicksilver/review-and-approve-work/plan-adobe-cloud-storage-rollout.md)
+    * [Habilitar el almacenamiento en la nube de Adobe para su organización](administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md)
+    * [Convertir objetos heredados al almacenamiento en la nube de Adobe](/help/quicksilver/review-and-approve-work/convert-objects-to-adobe-cloud-storage.md)
   * Aprobaciones de trabajo {#work-approvals}
     * [Aprobaciones de trabajo](review-and-approve-work/manage-approvals/manage-approvals.md)
     * [Información general del proceso de aprobación](review-and-approve-work/manage-approvals/approval-process-in-workfront.md)
@@ -2673,7 +2677,7 @@ ht-degree: 91%
     * [Configure y utilice las aplicaciones OAuth 2 personalizadas de la organización mediante el flujo JWT](wf-api/api/oauth-app-jwt-flow.md)
     * [Configure y utilice las aplicaciones OAuth 2 personalizadas de su organización mediante el flujo PKCE](wf-api/api/oauth-app-pkce-flow.md)
     * [Obsolescencia de la API interna](wf-api/api/deprecation-api-internal.md)
-    * [Novedades de la versión 22 de la API](/help/quicksilver/wf-api/api/new-api-version-22.md)
+    * [Novedades de la versión 22](/help/quicksilver/wf-api/api/new-api-version-22.md) de la API
     * [Novedades de la versión 21 de la API](/help/quicksilver/wf-api/api/new-api-version-21.md)
     * [Novedades de la versión 20 de la API](/help/quicksilver/wf-api/api/new-api-version-20.md)
     * [Novedades de la versión 19 de la API](wf-api/api/new-api-version-19.md)
