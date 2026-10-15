@@ -13,7 +13,7 @@ feature_v2:
 subfeature_v2:
   - id: a29813d3-f0cc-4b60-9396-13b558370803
     internal-label: Product announcements
-source-git-commit: 80e0ade22a2d40a1c0244ef8c11f9db37dd9661a
+source-git-commit: fd5df8f333ecc83ef87a753133a0ac46f04497db
 workflow-type: tm+mt
 source-wordcount: '3584'
 ht-degree: 8%
@@ -24,7 +24,7 @@ Esta página proporciona información sobre la funcionalidad que se incluye en l
 
 Las mejoras de esta página están disponibles en el entorno de vista previa. Esta página se actualizará con mejoras adicionales a medida que la versión del cuarto trimestre de 2026 se aproxime a su versión de producción planificada.
 
-Se celebran seminarios web en directo para cada versión trimestral, en los que se destacan las nuevas funciones y se proporciona información detallada. Para registrarse, visite la [página de eventos](https://experienceleague.adobe.com/es/events?filters=Workfront) y filtre por Workfront.
+Se celebran seminarios web en directo para cada versión trimestral, en los que se destacan las nuevas funciones y se proporciona información detallada. Para registrarse, visite la [página de eventos](https://experienceleague.adobe.com/en/events?filters=Workfront) y filtre por Workfront.
 
 >[!IMPORTANT]
 >
@@ -386,8 +386,8 @@ Se celebran seminarios web en directo para cada versión trimestral, en los que 
                 <p>Ahora puede agrupar varios documentos en un solo flujo de trabajo de aprobación para que se muevan juntos por las mismas fases.</p>
             </td>
             <td><p>Esta función no está disponible en el entorno de vista previa de espacio aislado porque la integración de Frame.io no está disponible allí.</p></td>
-            <td><p>22 de octubre de 2026</p></td>
-            <td><p>22 de octubre de 2026</p></td>
+            <td><p>15 de octubre de 2026</p></td>
+            <td><p>15 de octubre de 2026</p></td>
         </tr>
         <tr>
             <td>
@@ -395,8 +395,8 @@ Se celebran seminarios web en directo para cada versión trimestral, en los que 
                 <p>Ahora puede agregar un sitio web a Adobe Workfront como vínculo web en la nueva área Documentos y solicitar aprobación en la página web activa.</p>
             </td>
             <td><p>Esta función no está disponible en el entorno de vista previa de espacio aislado porque la integración de Frame.io no está disponible allí.</p></td>
-            <td><p>22 de octubre de 2026</p></td>
-            <td><p>22 de octubre de 2026</p></td>
+            <td><p>15 de octubre de 2026</p></td>
+            <td><p>15 de octubre de 2026</p></td>
         </tr>
         <tr>
             <td>
@@ -914,7 +914,7 @@ Si es administrador de Workfront y tiene usuarios de lector de Data Connect que 
 
 Este cambio se anunció por primera vez en las notas de la versión de Workfront de abril de 2026 y este es el recordatorio final antes de la fecha límite. Asegúrese de que todos los usuarios de lectores afectados habiliten MFA antes del 8 de agosto de 2026 para evitar interrupciones en su acceso.
 
-Para obtener más información, consulte [Crear una cuenta de lector o una conexión para Snowflake](https://experienceleague.adobe.com/es/docs/workfront/using/reporting/data-lake/create-a-reader-account).
+Para obtener más información, consulte [Crear una cuenta de lector o una conexión para Snowflake](https://experienceleague.adobe.com/en/docs/workfront/using/reporting/data-lake/create-a-reader-account).
 
 ### Actualizaciones de aprendizaje
 
