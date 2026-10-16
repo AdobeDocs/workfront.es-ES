@@ -31,10 +31,10 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 0b8e9664578fcd5526d445bd19ad4fbe62834839
 workflow-type: tm+mt
-source-wordcount: '1033'
-ht-degree: 93%
+source-wordcount: '1085'
+ht-degree: 89%
 ---
 # Métodos de integración de Adobe Workfront
 
@@ -58,7 +58,7 @@ Entre las ventajas de las integraciones integradas se pueden incluir las siguien
 >
 >Con [!DNL Workfront for Microsoft Teams integration], puede recibir notificaciones en [!DNL Microsoft Teams] sobre sus elementos de trabajo de [!DNL Workfront]. Sin salir de [!DNL Microsoft Teams], puede realizar acciones como aprobar, comentar o cambiar el estado de los elementos de trabajo. Cualquier cambio que realice en los elementos de trabajo desde [!DNL Microsoft Teams] también se reflejará en [!DNL Workfront].
 
-Para obtener más información sobre las integraciones integradas, incluida una lista de las integraciones integradas disponibles actualmente, consulte [[!DNL Adobe Workfront] Información general sobre integraciones integradas de &#x200B;](../workfront-integrations-and-apps/built-in-integrations-non-admin.md).
+Para obtener más información sobre las integraciones integradas, incluida una lista de las integraciones integradas disponibles actualmente, consulte [[!DNL Adobe Workfront] Información general sobre integraciones integradas de ](../workfront-integrations-and-apps/built-in-integrations-non-admin.md).
 
 ## Aplicaciones OAuth2 personalizadas
 
@@ -81,7 +81,11 @@ Entre las ventajas de crear una aplicación [!UICONTROL OAuth2] se pueden inclui
 * Configurar o usar una aplicación [!UICONTROL OAuth2] no requiere conocimientos técnicos adicionales, como estar familiarizado con la API de [!DNL Workfront].
 * Su organización puede utilizar software que no se ofrece como aplicación integrada de [!DNL Workfront]. Aún puede integrar este software con [!DNL Workfront] mediante una aplicación [!UICONTROL OAuth2], aunque el software pertenezca a su organización.
 
-Para obtener más información, consulte [Creación de aplicaciones OAuth2 para integraciones de Workfront](../administration-and-setup/configure-integrations/create-oauth-application.md).
+Se están retirando las aplicaciones OAuth2 personalizadas de Workfront. Las nuevas aplicaciones OAuth2 personalizadas ya no se pueden crear después del 1 de noviembre de 2026 y las aplicaciones OAuth2 personalizadas existentes dejan de funcionar el 1 de febrero de 2027.
+
+Para obtener información de migración, consulte [Migrar de Workfront OAuth2 a Adobe Developer Console](/help/quicksilver/administration-and-setup/configure-integrations/migrate-oauth2-to-developer-console.md).
+
+Para obtener instrucciones de autenticación para nuevas integraciones, consulte [descripción general de la autenticación de Adobe Developer Console](https://developer.adobe.com/developer-console/docs/guides/authentication/).
 
 ## API de [!DNL Workfront]
 
@@ -99,7 +103,7 @@ Entre las ventajas de usar la API de [!DNL Workfront] se pueden incluir las sigu
 >
 >**Ejemplo:**
 >
->La siguiente llamada a la API coloca un comentario en el flujo de actualización de la tarea con el ID especificado.
+>La siguiente llamada API coloca un comentario en el flujo de actualización de la tarea con el ID especificado.
 >
 >```
 >https://`<your domain>`.workfront.com/attask/api-internal/note?noteText=<text of comment>&noteObjCode=TASK&objID=<task ID>&apiKey=<your API key>
