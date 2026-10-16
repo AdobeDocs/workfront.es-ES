@@ -27,10 +27,10 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 868f8c0ad40f66244559a52bd8afd96b92bc3e54
+source-git-commit: a3c1ab8fc8012199d9863fc978cca7418fa0a2f5
 workflow-type: tm+mt
-source-wordcount: '525'
-ht-degree: 98%
+source-wordcount: '519'
+ht-degree: 96%
 ---
 # Información general de plantillas de horas
 
@@ -71,19 +71,19 @@ Para acceder a una plantilla de horas:
 
 {{step1-to-timesheets}}
 
-Todas sus plantillas de horas, así como otras plantillas de horas a las que tenga acceso, se muestran de forma predeterminada. Para obtener información sobre el diseño de la plantilla de horas en Adobe Workfront, consulte [Información general sobre el diseño de la plantilla de horas](../../timesheets/timesheets/timesheet-layout.md).
+De forma predeterminada, se muestran todas las hojas de horas, así como las hojas de horas a las que tiene acceso. Para obtener información sobre el diseño de la plantilla de horas en Adobe Workfront, consulte [Información general sobre el diseño de la plantilla de horas](../../timesheets/timesheets/timesheet-layout.md).
 
-![Lista de todas las hojas de horas](assets/all-timesheets-list-nwe-350x68.png)
+![Lista de todas las hojas de horas](assets/list-of-all-timesheets.png)
 
 1. Haga clic en una de las siguientes opciones, en la esquina superior derecha, para mostrar las plantillas de horas:
 
    * **Mis plantillas de horas**: para mostrar únicamente sus plantillas de horas.
 
-   ![Lista de Mis hojas de horas](assets/my-timesheets-list-various-statuses-nwe-350x60.png)
+   <!--![My Timesheets list](assets/my-timesheets-list-various-statuses-nwe-350x60.png)-->
 
    * **Mis aprobaciones de plantillas de horas**: para mostrar únicamente las plantillas de horas que usted apruebe.
 
-     ![Lista de hojas de horas que apruebo](assets/timesheets-i-approve-list-with0filters-new-nwe-350x61.png)
+   <!--![Timesheets I Approve list](assets/timesheets-i-approve-list-with0filters-new-nwe-350x61.png)-->
 
 
 1. (Opcional) Actualice la vista, el filtro y la agrupación en la parte superior de la lista de plantillas de horas. Para obtener más información, consulte [Elementos de creación de informes: filtros, vistas y agrupaciones](../../reports-and-dashboards/reports/reporting-elements/reporting-elements-overview.md).

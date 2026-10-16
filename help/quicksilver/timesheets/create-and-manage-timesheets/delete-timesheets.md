@@ -9,23 +9,28 @@ exl-id: c6a86c1b-8580-4896-8933-d4e2818e98ed
 TQID: https://experienceleague.adobe.com/kgFaOSFwNQIjArobJBWf5kT19pS8k0an1O05IIYxg9E
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
   - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+    internal-label: Timesheets
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0a3a49ff0e6347e0a0b327fcd692d5e1d9598f08
+    internal-label: Administration
+source-git-commit: 64bb9e6dba8976ba413ec9b58e926da931bba1c5
 workflow-type: tm+mt
-source-wordcount: 742
-ht-degree: 26%
-
+source-wordcount: '724'
+ht-degree: 22%
 ---
-
 # Eliminar plantillas de horas en Adobe Workfront
 
 Los cambios que realice en un perfil de hoja de horas no entrarán en vigor de inmediato en las hojas de horas existentes, como se explica en [Crear, editar y asignar perfiles de hoja de horas](../../timesheets/create-and-manage-timesheets/create-timesheet-profiles.md). Para que los cambios sean visibles en las plantillas de horas existentes, debe eliminar las que se hayan generado y generar nuevas. Esto solo se aplica a las hojas de horas que se han generado al asociar perfiles de hojas de horas con usuarios.
@@ -79,29 +84,27 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
 
 {{step1-to-timesheets}}
 
-El filtro **Todos** está seleccionado de manera predeterminada y muestra todas las hojas de horas que puede ver.
+De forma predeterminada, se muestran todas las hojas de horas a las que tiene acceso para ver.
 
-![Lista de hojas de horas con una hoja de horas seleccionada](assets/timesheet-list-one-timesheet-selected-nwe-350x70.png)
+![Lista de hojas de horas](assets/list-of-all-timesheets.png)
 
 1. (Opcional) Realice una de las siguientes acciones para actualizar el filtro en la lista de plantillas de horas:
 
-   * Seleccione **Aprobaciones de Mis plantillas de horas** en la esquina superior derecha de la página para ver solamente las plantillas de horas que usted apruebe
+   * Seleccione **Mis aprobaciones de hojas de horas** en la esquina superior derecha de la página para ver solamente las hojas de horas que usted apruebe,
 
      O
 
      Seleccione **Mis plantillas de horas** para ver solamente sus plantillas de horas.
 
-     Esto aplica los filtros Mis aprobaciones de plantillas de horas o Mis plantillas de horas a la lista de plantillas de horas.
+     Esto aplica los filtros **Mis aprobaciones de hojas de horas** o **Mi hoja de horas** a la lista de hojas de horas.
 
-     ![Botones de filtro en Mis hojas de horas en la página Lista de hojas de horas](assets/my-timesheet-approvals-my-timesheets-pills-on-timesheets-list-nwe-350x58.png)
-
-   * Haga clic en el icono de filtro ![Icono de filtro](assets/filter-nwepng.png) para aplicar un filtro diferente o crear uno nuevo. Para obtener información sobre cómo crear o actualizar filtros, consulte [Crear o editar filtros en Adobe Workfront](../../reports-and-dashboards/reports/reporting-elements/create-filters.md).
+   * Haga clic en el icono **Filtro** ![Icono de filtro](assets/filter-nwepng.png) para aplicar un filtro o crear uno nuevo. Para obtener información sobre cómo crear o actualizar filtros, consulte [Crear o editar filtros en Adobe Workfront](../../reports-and-dashboards/reports/reporting-elements/create-filters.md).
 
    >[!NOTE]
    >
    >Las opciones Mis aprobaciones de hojas de horas y Mis hojas de horas no se muestran en la parte superior de la lista de hojas de horas ni en la lista de filtros si el administrador de Workfront o de un grupo ha eliminado esos filtros de los controles de lista en el área de Configuración o de la plantilla de diseño. Para obtener más información, consulte [Personalizar filtros, vistas y agrupaciones mediante una plantilla de diseño](../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md).
 
-1. (Opcional) Haga clic en los iconos **Ver** ![Ver icono](assets/view-icon.png) o **Agrupar** ![Icono de agrupación](assets/grouping.png) para aplicar una vista o agrupación diferente o para crear una nueva.
+1. (Opcional) Haga clic en los iconos **Ver** ![Ver icono](assets/view-icon.png) o **Agrupar** ![Icono de agrupación](assets/grouping.png) para aplicar una vista o agrupación o para crear una nueva.
 
    Para obtener información sobre la creación de filtros, vistas o agrupaciones, consulte los siguientes artículos:
 
@@ -127,8 +130,8 @@ El filtro **Todos** está seleccionado de manera predeterminada y muestra todas 
 
 {{step1-to-timesheets}}
 
-1. Haga clic en la plantilla de horas que desee eliminar para abrirla.
-1. Haga clic en el icono [!UICONTROL **Más**] ![Icono de más](assets/more-icon.png) a la derecha del nombre de la hoja de horas y luego haga clic en **Eliminar**.
+1. Haga clic en el nombre de la hoja de horas que desee eliminar.
+1. En la hoja de horas, haga clic en el menú [!UICONTROL **Más**] ![Menú más](assets/more-icon.png) a la derecha del nombre de la hoja de horas y luego haga clic en **Eliminar**.
 
    ![Eliminar hoja de horas de la página de hoja de horas](assets/delete-timesheet-from-timesheet-page.png)
 1. Haga clic en [!UICONTROL **Eliminar**] para confirmar.

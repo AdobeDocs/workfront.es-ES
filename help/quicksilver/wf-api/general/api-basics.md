@@ -35,10 +35,10 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 0b8e9664578fcd5526d445bd19ad4fbe62834839
 workflow-type: tm+mt
-source-wordcount: '4561'
-ht-degree: 83%
+source-wordcount: '4407'
+ht-degree: 80%
 ---
 # Conceptos básicos de API
 
@@ -150,16 +150,18 @@ La API utiliza la misma autenticación basada en cookies que la IU web utiliza e
 
 >[!IMPORTANT]
 >
->Workfront ya no recomienda el uso del punto final ni de las claves API `/login`. En lugar de ello, utilice uno de los siguientes métodos de autenticación:
+>Workfront ya no recomienda utilizar claves API para nuevas integraciones. Utilice la autenticación de Adobe Developer Console en su lugar:
 >
->* Autenticación de servidor con JWT
->* Autenticación de usuario con OAuth2
+>* Autenticación de servidor a servidor
+>* Autenticación de usuario
 >
->Para obtener instrucciones sobre cómo configurar estos métodos de autenticación, consulte [Crear aplicaciones OAuth2 para integraciones de Workfront](../../administration-and-setup/configure-integrations/create-oauth-application.md)
+>Las claves de API siguen funcionando en este momento, pero Adobe recomienda planificar nuevas integraciones en torno a la autenticación de Adobe Developer Console.
 >
->Para obtener instrucciones sobre el uso de la autenticación de servidor en Workfront, consulte [Configuración y uso de las aplicaciones OAuth 2 personalizadas de su organización mediante el flujo JWT](../../wf-api/api/oauth-app-jwt-flow.md)
+>Se está retirando el servicio OAuth2 personalizado heredado de Workfront. Las nuevas aplicaciones OAuth2 personalizadas ya no se pueden crear después del 1 de noviembre de 2026 y las aplicaciones OAuth2 personalizadas existentes dejan de funcionar el 1 de febrero de 2027.
 >
->Para obtener instrucciones sobre el uso de la autenticación de usuarios en Workfront, consulte [Configuración y uso de las aplicaciones OAuth 2 personalizadas de su organización mediante el flujo del código de autorización](../../wf-api/api/oauth-app-code-token-flow.md)
+>Para obtener instrucciones de autenticación, consulte [descripción general de la autenticación de Adobe Developer Console](https://developer.adobe.com/developer-console/docs/guides/authentication/).
+>
+>Para obtener información de migración, consulte [Migrar de Workfront OAuth2 a Adobe Developer Console](/help/quicksilver/administration-and-setup/configure-integrations/migrate-oauth2-to-developer-console.md).
 
 >[!NOTE]
 >
@@ -167,53 +169,9 @@ La API utiliza la misma autenticación basada en cookies que la IU web utiliza e
 >
 >Para obtener una lista de procedimientos que difieren según si su organización se ha incorporado a Adobe Business Platform, consulte [Diferencias de administración entre Adobe Workfront y Adobe Business Platform](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
-Si utiliza un nombre de usuario y una contraseña válidos, puede utilizar la siguiente solicitud para obtener un ID de sesión:
+Los ejemplos heredados del extremo `/login` y el inicio de sesión basado en claves de API ya no deberían utilizarse en las nuevas integraciones.
 
-```
-POST /attask/api/<supported-version>/login?username=admin&password=user
-```
-
-Esto establece una cookie para autenticar solicitudes futuras, así como para devolver una respuesta JSON con el ID de sesión recién creado, el ID de usuario del usuario que ha iniciado sesión y otros atributos de sesión.
-
->[!NOTE]
->
->Si tiene un usuario de API designado que también sea administrador, Workfront le recomienda encarecidamente que utilice una clave de API para iniciar sesión.
-
-**Generación de una clave de API**
-
-Puede generar una clave de API al iniciar sesión en el sistema como ese usuario, tal como se muestra en el siguiente ejemplo:
-
-
-```
-PUT /attask/api/<supported-version>/user?action=generateApiKey&username= username&password=password&method=put
-```
-
-**Recuperación de una clave de API generada anteriormente**
-
-También puede recuperar una clave de API que se haya generado anteriormente para un usuario en particular ejecutando getApiKey:
-
-
-```
-PUT /attask/api/<supported-version>/user?action=getApiKey&username=user@email.com&password=userspassword&method=put
-```
-
-Puede utilizar este resultado para autenticar cualquier llamada de API añadiendo &quot;apiKey&quot; como el parámetro de solicitud con este valor en lugar de un ID de sesión o un nombre de usuario y contraseña. Esto es beneficioso desde el punto de vista de la seguridad.
-
-La siguiente solicitud es un ejemplo de recuperación de datos de un proyecto mediante apiKey:
-
-```
-GET /attask/api/<supported-version>/project/abc123xxxxx?apiKey=123abcxxxxxxxxx
-```
-
-**Invalidar una clave de API**
-
-Si el valor de apiKey se ha visto comprometido, puede ejecutar &quot;clearApiKey&quot; para invalidar la clave de API actual, tal como se muestra en el siguiente ejemplo:
-
-```
-GET /attask/api/<supported-version>/user?action=clearApiKey&username=user@email.com&password=userspassword&method=put
-```
-
-Una vez borrada, puede volver a ejecutar getApiKey para generar una nueva clave de API.
+Para obtener instrucciones de autenticación actuales, utilice la autenticación de Adobe Developer Console. Para obtener detalles de migración de aplicaciones OAuth2 de Workfront heredadas, consulte [Migrar de OAuth2 de Workfront a Adobe Developer Console](/help/quicksilver/administration-and-setup/configure-integrations/migrate-oauth2-to-developer-console.md).
 
 ### Cerrar sesión
 
@@ -316,7 +274,7 @@ En la tabla siguiente se enumeran algunos de los modificadores que puede utiliza
 
 Puede mejorar una búsqueda añadiendo un parámetro que incluya &quot;OR&quot;, así como un número, para indicar el nivel de un filtro o una serie de filtros.
 
-Una instrucción OR devuelve únicamente los registros de la llamada a la API que cumplen los criterios de filtrado de la instrucción OR. Los filtros no están implícitos en todos los niveles de instrucción OR.
+Una instrucción OR devuelve únicamente los registros de la llamada API que cumplen los criterios de filtrado de la instrucción OR. Los filtros no están implícitos en todos los niveles de instrucción OR.
 
 Por ejemplo, si desea filtrar por
 
@@ -324,7 +282,7 @@ Por ejemplo, si desea filtrar por
 * Tareas en un portafolio llamado “FixedAssets” AND asignadas a alguien con un nombre que contenga “Steve” OR
 * Tareas que tengan una tarea principal llamada “Tarea final”
 
-a continuación, utilice la siguiente llamada de API con sus diferentes instrucciones OR:
+a continuación, utilice la siguiente llamada API con sus diferentes instrucciones OR:
 <pre>GET /attask/api/&lt;supported-version&gt;/task/search?name=Planning<br>&amp;name_Mod=contains<br>&amp;OR:1:portfolio:name=FixedAssets<br>&amp;OR:1:portfolio:name_Mod=eq<br>&amp;OR:1:assignedTo:name=Steve<br>&amp;OR:1:assignedTo:name_Mod=cicontains<br>&amp;OR:2:parent:name=Final Task<br>&amp;OR:2:parent:name_Mod=eq
 </pre>
 
@@ -402,7 +360,7 @@ Es posible realizar una solicitud de informe donde solo se desee el acumulado de
 
 ### Ordenar los resultados de consulta en la API
 
-Puede ordenar los resultados por cualquier campo si anexa lo siguiente a la llamada de API:
+Puede ordenar los resultados por cualquier campo si anexa lo siguiente a la llamada API:
 
 &amp;entryDate_Sort=asc
 
@@ -564,11 +522,11 @@ DELETE elimina un objeto. En todos los casos, el URI puede incluir el parámetro
 
 ## Actualizaciones masivas
 
-Una instrucción de actualización en lote actualiza varios objetos al mismo tiempo dentro de una sola llamada de API. Una llamada de API en lote se crea de forma similar a una llamada de actualización normal, tal como se muestra en los ejemplos siguientes:
+Una instrucción de actualización en lote actualiza varios objetos al mismo tiempo dentro de una sola llamada API. Una llamada API en lote se crea de forma similar a una llamada de actualización normal, tal como se muestra en los ejemplos siguientes:
 <pre>PUT /attask/api/&lt;supported-version&gt;/proj?updates=[{"name":"Test_Project_1"},{"name":"Test_Project_2"}]&amp;method=POST&amp;apiKey=123ab-cxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</pre>o <pre>PUSH /attask/api/&lt;supported-version&gt;/proj?updates=[{"name":"Test_Project_1"},{"name":"Test_Project_2"}]&amp;method=POST&amp;apiKey=123ab-cxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</pre>que da como resultado un resultado similar al siguiente:
 <pre>data: [{<br>    ID: "53ff8d3d003b438b57a8a784df38f6b3",<br>    name: "Test_Project_1",<br>    objCode: "PROJ",<br>    percentComplete: 0,<br>    plannedCompletionDate: "2014-08-28T11:00:00:000-0400",<br>    plannedStartDate: "2014-08-28T11:00:00:000-0400",<br>    priority: 0,<br>    projectedCompletionDate: "2014-08-28T16:12:00:000-0400",<br>    status: "CUR"<br>},<br>{<br>    ID: "53ff8d49003b43a2562aa34eea3b6b10",<br>    name: "Test_Project_2",<br>    objCode: "PROJ",<br>    percentComplete: 0usi,<br>    plannedCompletionDate: "2014-08-28T11:00:00:000-0400",<br>    plannedStartDate: "2014-08-28T11:00:00:000-0400",<br>    priority: 0,<br>    projectedCompletionDate: "2014-08-28T16:12:00:000-0400",<br>    status: "CUR"<br>}]</pre>También puede realizar una actualización masiva similar a la siguiente:
 <pre>PUT /attask/api/&lt;supported-version&gt;/proj?Umethod=PUT&amp;updates=[{"ID":"123abcxxxxxxxxxxxxxxxxxxxxxxx","name":"Test_Project_1_ Editar"},{"ID":"123abcxxxxxxxxxxxxxxxxxxxxxxxxx","name":"Test_Project_2_Edit"}]&amp;apiKey=123abcxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</pre>que da como resultado un resultado similar al siguiente:
-<pre>data: [ {<br>     ID: "53ff8e15003b461d4560f7f65a440078",<br>     name: "Test_Project_1_Edit",<br>     objCode: "PROJ",<br>     percentComplete: 0,<br>     plannedCompletionDate: "2014-08-28T11:00:00:000-0400",<br>     plannedStartDate: "2014-08-28T11:00:00:000-0400",<br>     priority: 0,<br>     projectedCompletionDate: "2014-08-28T16:16:00:000-0400",<br>     status: "CUR"<br>},<br>{<br>    ID: "53ff8e19003b46238a58d303608de502",<br>    name: "Test_Project_2_Edit",<br>    objCode: "PROJ",<br>    percentComplete: 0,<br>    plannedCompletionDate: "2014-08-28T11:00:00:000-0400",<br>    plannedStartDate: "2014-08-28T11:00:00:000-0400",<br>    priority: 0,<br>    projectedCompletionDate: "2014-08-28T16:16:00:000-0400",<br>    status: "CUR"<br>}]</pre>Si desea que todas las operaciones se realicen en la misma transacción, añada "atomic=true" a la llamada de API por lotes como parámetro de solicitud. De este modo, si alguna de las operaciones falla, todas las operaciones se revierten.
+<pre>data: [ {<br>     ID: "53ff8e15003b461d4560f7f65a440078",<br>     name: "Test_Project_1_Edit",<br>     objCode: "PROJ",<br>     percentComplete: 0,<br>     plannedCompletionDate: "2014-08-28T11:00:00:000-0400",<br>     plannedStartDate: "2014-08-28T11:00:00:000-0400",<br>     priority: 0,<br>     projectedCompletionDate: "2014-08-28T16:16:00:000-0400",<br>     status: "CUR"<br>},<br>{<br>    ID: "53ff8e19003b46238a58d303608de502",<br>    name: "Test_Project_2_Edit",<br>    objCode: "PROJ",<br>    percentComplete: 0,<br>    plannedCompletionDate: "2014-08-28T11:00:00:000-0400",<br>    plannedStartDate: "2014-08-28T11:00:00:000-0400",<br>    priority: 0,<br>    projectedCompletionDate: "2014-08-28T16:16:00:000-0400",<br>    status: "CUR"<br>}]</pre>Si desea que todas las operaciones se realicen en la misma transacción, añada "atomic=true" a la llamada API por lotes como parámetro de solicitud. De este modo, si alguna de las operaciones falla, todas las operaciones se revierten.
 
 >[!NOTE]
 >
