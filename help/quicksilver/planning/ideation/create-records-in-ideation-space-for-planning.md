@@ -11,9 +11,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: e209f8e5ada29b1c488fcfe42c13c6c9523a26bd
+source-git-commit: b81918ef8da7c7a4eeb9797b65a5af964db93911
 workflow-type: tm+mt
-source-wordcount: '1172'
+source-wordcount: '916'
 ht-degree: 2%
 ---
 
@@ -112,7 +112,7 @@ Or
     <td role="rowheader"><p>Adobe GenStudio for Performance Marketing user roles</p></td> 
     <td><p><ul><li>Any GenStudio user role to access Campaigns, Products, and Personas</li>
     <li>GenStudio System Manager to access Activations and Events</li></ul>
-    For information, see <a href="https://experienceleague.adobe.com/es/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
+    For information, see <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
     </p>
     </td> 
     </tr> 
@@ -158,50 +158,40 @@ Para obtener más información acerca de los requisitos de acceso de Workfront, 
 
    ![Nuevo cuadro de registros con el botón Abrir espacio de ideación](assets/new-record-creation-picker-with-ideation.png)
 
-   El espacio de ideación se abre en una nueva pestaña con un mensaje vacío.
+   El espacio de ideación se abre en una nueva pestaña.
 
-   El registro se crea inmediatamente con texto de marcador de posición.
+   CX Coworker se abre en el panel derecho.
 
-1. (Opcional) Haga clic en **Usar informe existente** en el cuadro de mensaje para examinar y agregar un documento existente que el espacio de ideación utilizará para crear el informe y el registro futuro. <!--CORRECT THIS PART: this is possible ONLY when you launch Ideation from the Main Menu, not from a record-->
+   El registro se crea inmediatamente con un marcador de posición.
 
-   ![Mensaje de información de ideación vacío](assets/empty-ideation-prompt.png)
+   <!--
+    1. (Optional) Click the **Open previous canvases** icon ![Open existing briefs icon](assets/open-existing-briefs-icon.png) in the upper-right corner of the prompt box, to open existing briefs
+    -->
 
-1. (Opcional) Haga clic en el icono **Abrir lienzos anteriores** <!--accurate??--> ![Abrir el icono de los informes existentes](assets/open-existing-briefs-icon.png) en la esquina superior derecha del cuadro de mensaje para abrir los informes existentes
-
-1. En **¿En qué está trabajando?** , describa el tipo de registro que desea crear.
+1. Agregue una solicitud en el cuadro de diálogo **CX Coworker** y, a continuación, presione Entrar.
 
    Cuantos más detalles comparta, más útil será la información proporcionada por el espacio de ideación. Por ejemplo, escriba una descripción de la campaña que está planeando: &quot;campaña de vuelta al colegio para una agencia de marketing&quot;.
 
-1. Haga clic en **Comenzar a idear**.
+1. Continúe creando el informe de ideación como se describe en el artículo [Crear informes en el espacio de ideación](/help/quicksilver/planning/ideation/create-briefs-in-ideation-space.md).
 
-   El espacio de ideación funciona siguiendo los pasos siguientes mientras crea su idea: <!--check some of these in the UI - there might have been UI text changes-->
+   <!--
+    1. Click **Start ideating**.
+        The Ideation space works through the following steps while it builds your idea: 
+        1. Understand your goal and context
+        2. Review your space and selected materials
+        3. Gather evidence from documents, web, and data
+        4. Synthesize findings into a research summary
+        5. Create and refine cards with citations
+        During this process you'll see the Ideation space actively searching connected Workfront Planning data or information available on the web.
+        For example, it might search for existing programs, products, personas, or regions, as well as for similar concepts available online. 
+        When the ideation completes, the following things are added to the Ideation space:  
+        * A summary of the AI findings which is linked to several cards with detailed information about things to consider. The details cards display in a new section. A connector indicates which card section belongs to which summary.  
+        * A **Brief** file in the lower-left corner of the ideation space. The brief is a draft of the future record and it displays as a record's Details page. 
+        ![Ideation card with branches](assets/ideation-card-with-branched-off-additional-cards.png)      
+    1. Continue to add information to the ideation space to complete creating your brief. 
+    -->
 
-   1. Comprenda su objetivo y contexto
-   2. Revisar el espacio y los materiales seleccionados
-   3. Recopilar pruebas de documentos, sitios web y datos
-   4. Sintetizar los resultados en un resumen de investigación
-   5. Crear y refinar tarjetas con citas
-
-   Durante este proceso, verá el espacio de ideación buscando activamente los datos de Workfront Planning conectados o la información disponible en la web.
-
-   Por ejemplo, podría buscar programas, productos, personalidades o regiones existentes, así como conceptos similares disponibles en línea. <!--check on this with Et-->
-
-   Cuando la ideación termina, se añaden las siguientes cosas al espacio de ideación:
-
-   * Un resumen de los hallazgos de IA que está vinculado a varias tarjetas con información detallada sobre los aspectos a considerar. Las tarjetas de detalles se muestran en una nueva sección. Un conector indica qué sección de la tarjeta pertenece a qué resumen.
-
-   * Un archivo **Brief** en la esquina inferior izquierda del espacio de ideación. El informe es un borrador del registro futuro y se muestra como la página Detalles de un registro.
-
-   ![Tarjeta de ideas con ramas](assets/ideation-card-with-branched-off-additional-cards.png)
-
-1. Continúe añadiendo información al espacio de ideación para completar la creación de la descripción.
-
-1. (Condicional) Cuando finalice el informe, haga clic en la imagen de vista previa en la esquina inferior izquierda y, a continuación, haga clic en una de las siguientes opciones:
-
-   * **Exportar a archivo** para crear un archivo
-   * **Exportar a Workfront Planning** para crear un registro de Planning
-
-   Para obtener información acerca de cómo agregar elementos al informe y exportarlo, vea [Crear informes en el espacio de ideación](/help/quicksilver/planning/ideation/create-briefs-in-ideation-space.md).
+1. (Condicional) Cuando finalice el informe, haga clic en la imagen de vista previa en la esquina inferior izquierda y, a continuación, haga clic en **Exportar a Workfront Planning** para crear un registro de Planning.
 
    De este modo, se termina de crear el registro con la información adicional y se agrega al tipo de registro seleccionado originalmente.
 
@@ -213,7 +203,7 @@ No se pueden editar registros en lote en el espacio de ideación.
 
 1. Vaya a un registro existente en Workfront Planning y abra su página de detalles.
 
-1. Haga clic en **Abrir en el espacio de ideación**. Esto abre el espacio de ideación en una nueva pestaña.
+1. Haga clic en **Abrir en el espacio de ideación** ![](assets/open-in-ideation-space.png). Esto abre el espacio de ideación en una nueva pestaña.
 
    Si ya existe una ideación para el registro, se abre ese espacio.
 
@@ -221,19 +211,14 @@ No se pueden editar registros en lote en el espacio de ideación.
 
    >[!TIP]
    >
-   >La edición masiva de registros con el espacio de ideación no está disponible.
+   >No se pueden editar registros en lote mediante el espacio de ideación.
+1. Continúe editando el informe como se describe en la sección [Crear registros usando el espacio de ideación](#create-records-using-the-ideation-space) de este artículo.
 
    <!-- 
     I don't think these steps are still valid but the environment was not available to test: 
     - If a record is already linked to a Catalyze canvas, a link appears beneath the record title; clicking it opens the associated canvas.
     - If a linked canvas hasn't been exported/pushed back yet, the record shows a placeholder message ("This record has active Canvas...") even if the canvas itself has a real name in Catalyze.
     -->
-
-1. Continúe editando el informe como se describe en la sección [Crear registros usando el espacio de ideación](#create-records-using-the-ideation-space) de este artículo.
-
-
-
-
 
 
 <!--

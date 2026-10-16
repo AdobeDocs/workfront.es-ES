@@ -1,6 +1,6 @@
 ---
 title: Compartir un espacio de ideas con otros usuarios
-description: Adobe Workfront Planning ahora ofrece una capacidad adicional para idear antes de iniciar sus campañas. Aproveche el poder de la IA para crear y colaborar en ideas con otros antes de que se conviertan en registros de planificación.
+description: Adobe Workfront Planning ahora ofrece una capacidad adicional para idear antes de iniciar sus campañas. Puede compartir el espacio de ideación y sus respectivos informes con otros usuarios para mejorar la colaboración.
 author: Alina
 feature: Workfront Planning
 role: User, Admin
@@ -19,10 +19,10 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: b81918ef8da7c7a4eeb9797b65a5af964db93911
 workflow-type: tm+mt
-source-wordcount: '557'
-ht-degree: 6%
+source-wordcount: '591'
+ht-degree: 5%
 ---
 
 # Compartir un espacio de ideación con otros usuarios
@@ -39,15 +39,19 @@ ht-degree: 6%
 Some of this information is also duplicated in the section for Ideation space permissions in the Access needed to use Ideation space article
 -->
 
-Los permisos de registros de Workfront Planning se transfieren al espacio de ideación de un registro.
+Puede usar el Espacio de ideas de Adobe Workfront para crear informes para sus campañas y otros tipos de registros antes de iniciarlos. Esto invita a otros a intercambiar ideas y recopilar información para crear de forma colaborativa el informe antes de lanzar su trabajo.
 
-Además, puede conceder a otros usuarios permisos para utilizar el espacio de ideación y agregarle ideas.
+Puede compartir el espacio de ideación y sus respectivos informes con otros usuarios para mejorar la colaboración.
 
 Tenga en cuenta lo siguiente:
 
+* Los permisos de registros de Workfront Planning se transfieren al espacio de ideación de un registro.
+
+* Además, puede conceder a otros usuarios permisos para utilizar el espacio de ideación y agregarle ideas.
+
 * Los creadores de ideaciones siempre tienen permisos de edición en sus propias ideaciones.
 
-* Debe tener permisos de editor en un espacio de ideación para crear informes y exportarlos a otras aplicaciones.
+* Debe tener permisos de editor en un espacio de ideación para crear o contribuir a informes y exportarlos a otras aplicaciones.
 
 ## Requisitos de acceso
 
@@ -71,8 +75,12 @@ are there additional license restrictions or packages to be purchased to have ac
    <td> 
 <ul> 
 <li><p>Cualquier Workfront o flujo de trabajo con un paquete de Planning</p></li>
-O
-<li><p>Cualquier paquete de Planning cuando se adquiere como producto independiente</p></li></ul>
+<!--
+Not available right now: 
+Or
+<li><p>Any Planning package when purchased as a standalone product</p></li>
+-->
+</ul>
    </td> 
     <!--
     <tr> 
@@ -107,7 +115,7 @@ O
    <td> <p>Permisos de contribución o superiores al espacio de trabajo y tipo de registro donde desee agregar registros </p>
       <p>Los administradores del sistema tienen permisos para todos los espacios de trabajo, incluidos los que no crearon</p>
       <p>Ver permisos de objetos de Workfront para agregarlos a informes <!--not sure if this is available--></p>
-      <p>Permisos de editor en el espacio de ideación para crear informes</p>
+      <p>Permisos de editor en el espacio de ideación de un informe para crear informes</p>
    </td> 
   </tr>  
   <!--
@@ -115,7 +123,7 @@ O
     <td role="rowheader"><p>Adobe GenStudio for Performance Marketing user roles</p></td> 
     <td><p><ul><li>Any GenStudio user role to access Campaigns, Products, and Personas</li>
     <li>GenStudio System Manager to access Activations and Events</li></ul>
-    For information, see <a href="https://experienceleague.adobe.com/es/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
+    For information, see <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
     </p>
     </td> 
     </tr> 
@@ -129,15 +137,12 @@ Para obtener más información acerca de los requisitos de acceso de Workfront, 
 
 ## Compartir un espacio de ideación
 
-1. Acceda al espacio de ideación de un registro de Planning.
+1. Acceda al espacio de ideación.
 
-   Para obtener más información, consulte uno de los siguientes artículos:
+   Para obtener más información, consulte [Crear informes en el espacio de ideación](/help/quicksilver/planning/ideation/create-briefs-in-ideation-space.md).
 
-   * [Creación de registros de Planning a partir de informes del espacio de ideación](/help/quicksilver/planning/ideation/create-records-in-ideation-space-for-planning.md)
-   * [Creación de informes en el espacio de ideación](/help/quicksilver/planning/ideation/create-briefs-in-ideation-space.md)
-
-1. Haga clic en **Compartir** en la esquina superior derecha y, a continuación, haga clic en el icono de **Configuración** ![Icono de configuración](assets/setting-icon.png) en la esquina superior derecha del cuadro **Compartir documento**.
-1. En la lista Quién tiene acceso, elija una de las siguientes opciones:
+1. Haga clic en **Compartir** en la esquina superior derecha y, a continuación, haga clic en el icono de **Configuración** ![Icono de configuración](assets/setting-icon.png) en la esquina superior derecha del cuadro **Compartir documento**. <!--should this say "document"?-->
+1. En la lista **Quién tiene acceso**, elija una de las siguientes opciones:
 
    * **Solo las personas invitadas pueden tener acceso**
 
