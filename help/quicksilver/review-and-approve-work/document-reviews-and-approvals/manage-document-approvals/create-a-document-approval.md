@@ -30,16 +30,16 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: f11da983435265b00e7dd9993593bab28f6599a6
+source-git-commit: 5298faf95a89935356a94374246ec3b98b785fbb
 workflow-type: tm+mt
-source-wordcount: '2878'
+source-wordcount: '2881'
 ht-degree: 3%
 ---
 # Crear un flujo de trabajo de aprobación de documentos
 
 {{highlighted-preview}}
 
-Puede solicitar la aprobación de otros usuarios o equipos para un documento en Adobe Workfront o solicitar que revisen un documento sin necesidad de aprobarlo.
+Puede solicitar la aprobación de otros usuarios o equipos para un documento o un sitio web activo en Adobe Workfront, o solicitar que lo revisen sin necesidad de aprobarlo.
 
 De forma predeterminada, una plantilla de aprobación solo es visible para su creador. A lo largo de este artículo, solo puede seleccionar las plantillas que ha creado o que se han compartido con usted. Para obtener más información, consulte [Compartir una plantilla](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/manage-approval-templates.md#share-a-template) en Administrar plantillas de aprobación.
 
@@ -359,6 +359,7 @@ preview screen
 1. (Opcional) Para borrar todas las rutas y etapas y volver a empezar, haga clic en **Restablecer** en la parte superior derecha.
 
 1. Haga clic en **Solicitar aprobación**.
+
 
 <div class="preview">
 

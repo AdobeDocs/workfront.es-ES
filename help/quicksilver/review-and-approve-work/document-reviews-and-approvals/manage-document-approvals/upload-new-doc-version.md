@@ -30,13 +30,14 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 061e5919fddf0c892646d1f359052b35961359b4
+source-git-commit: 5298faf95a89935356a94374246ec3b98b785fbb
 workflow-type: tm+mt
 source-wordcount: '853'
 ht-degree: 7%
 ---
 # Cargar una nueva versión del documento y solicitar una aprobación
 
+{{highlighted-preview}}
 
 Si un documento está marcado como &quot;Necesita trabajo&quot; en una revisión anterior, puede cargar una nueva versión en el documento original e iniciar otra ronda de aprobaciones. Una vez cargada una nueva versión del documento, las versiones anteriores se bloquean.
 

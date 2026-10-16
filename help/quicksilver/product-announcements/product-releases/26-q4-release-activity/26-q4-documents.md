@@ -13,7 +13,7 @@ feature_v2:
 subfeature_v2:
   - id: a29813d3-f0cc-4b60-9396-13b558370803
     internal-label: Product announcements
-source-git-commit: fd5df8f333ecc83ef87a753133a0ac46f04497db
+source-git-commit: 419333f9f33ff06ed2ef4a8450f058ab74198587
 workflow-type: tm+mt
 source-wordcount: '1721'
 ht-degree: 3%
@@ -72,8 +72,8 @@ For more information, see [Delegate approval request](/help/quicksilver/review-a
 >[!NOTE]
 >
 >Vista previa: Esta función no está disponible en el entorno de vista previa de espacio aislado porque la integración de Frame.io no está disponible allí.
->Versión rápida de producción: 15 de octubre de 2026
->Producción para todos: 15 de octubre de 2026
+>Versión rápida de producción: 22 de octubre de 2026
+>Producción para todos: 22 de octubre de 2026
 
 Ahora puede agrupar varios documentos en un solo flujo de trabajo de aprobación para que se muevan juntos por las mismas fases.
 
