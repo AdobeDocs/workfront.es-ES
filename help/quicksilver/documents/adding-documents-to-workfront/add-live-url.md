@@ -11,9 +11,9 @@ role_v2:
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
     internal-label: Workfront
-source-git-commit: 5e37582fe161e1a4689c35773cb1b3f6ead5a859
+source-git-commit: 87fa240bc7d5694d475072b9787dca6f05702c3c
 workflow-type: tm+mt
-source-wordcount: '410'
+source-wordcount: '409'
 ht-degree: 9%
 ---
 # Adición de un vínculo web como documento
@@ -56,7 +56,7 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
 
 ## Adición de un vínculo web como documento
 
-Puede cargar una página web HTML en Workfront como vínculo web. Después de agregarlo, puede solicitar la aprobación en la página web activa del mismo modo que solicita la aprobación de un archivo cargado. Para obtener más información sobre cómo Frame.io administra los vínculos web, vea [Vínculos web Frame.io](https://support.frame.io/hc/en-us/articles/360041187574-Frame-io-Web-Links).
+Puede cargar una página web HTML en Workfront como vínculo web. Después de agregarlo, puede solicitar la aprobación en la página web activa del mismo modo que solicita la aprobación de un archivo cargado. Para obtener más información sobre cómo Frame.io administra los vínculos web, vea [Vínculos web Frame.io](https://help.frame.io/en/articles/12893213-html-review-for-frame-io).
 
 <!--
 >[!IMPORTANT]
