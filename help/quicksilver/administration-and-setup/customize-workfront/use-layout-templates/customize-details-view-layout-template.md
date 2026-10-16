@@ -26,7 +26,7 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 9b233bb7501b487a5220882902c47e7d933709ef
 workflow-type: tm+mt
 source-wordcount: '576'
 ht-degree: 70%
@@ -125,4 +125,3 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
    O
 
    Si ha terminado de personalizar, haga clic en **Guardar y cerrar**.
-

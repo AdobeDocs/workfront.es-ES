@@ -9,24 +9,30 @@ exl-id: e6cffe81-ab45-4c34-aafe-2f947f9a67fd
 TQID: https://experienceleague.adobe.com/--QshuygnTfcEJtt6-Tx-2QtNT-5p9TrTWaQTMBZNAg
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
   - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+    internal-label: Timesheets
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0a3a49ff0e6347e0a0b327fcd692d5e1d9598f08
+    internal-label: Administration
+source-git-commit: a3c1ab8fc8012199d9863fc978cca7418fa0a2f5
 workflow-type: tm+mt
-source-wordcount: 757
-ht-degree: 76%
-
+source-wordcount: '739'
+ht-degree: 69%
 ---
-
 # Editar información de la plantilla de horas
 
 Como usuario con acceso administrativo a las plantillas de horas, puede editar información sobre las existentes en Adobe Workfront. Por ejemplo, puede editar el Propietario, los Aprobadores o el lapso de tiempo de la plantilla de horas.
@@ -70,31 +76,29 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
 
 {{step1-to-timesheets}}
 
-El filtro **Todas** está seleccionado de manera predeterminada, el cual muestra todas las plantillas de horas que tiene acceso para ver.
+De forma predeterminada, se muestran todas las hojas de horas a las que tiene acceso para ver.
 
-![Lista de hojas de horas con una hoja de horas seleccionada](assets/timesheet-list-one-timesheet-selected-nwe-350x70.png)
+![Lista de hojas de horas](assets/list-of-all-timesheets.png)
 
-1. (Opcional) Haga clic en el icono **buscar** ![Icono de búsqueda](assets/search-icon.png), escriba una palabra clave y busque una hoja de horas específica. Por ejemplo, puede buscar un lapso de tiempo o un nombre de propietario para una plantilla de horas.
+1. (Opcional) Haga clic en el icono **buscar** ![Icono de búsqueda](assets/search-icon.png) y escriba una palabra clave para buscar una hoja de horas específica. Por ejemplo, puede buscar un lapso de tiempo o un nombre de propietario para una plantilla de horas.
 
 1. (Opcional) Realice una de las siguientes acciones para actualizar el filtro en la lista de plantillas de horas:
 
-   * Seleccione **Aprobaciones de Mis plantillas de horas** en la esquina superior derecha de la página para ver solamente las plantillas de horas que usted apruebe
+   * Seleccione **Mis aprobaciones de hojas de horas** en la esquina superior derecha de la página para ver solamente las hojas de horas que usted apruebe,
 
      O
 
      Seleccione **Mis plantillas de horas** para ver solamente sus plantillas de horas.
 
-     Esto aplica los filtros Mis aprobaciones de plantillas de horas o Mis plantillas de horas a la lista de plantillas de horas.
+     Esto aplica los filtros **Mis aprobaciones de hojas de horas** o **Mi hoja de horas** a la lista de hojas de horas.
 
-     ![Botones de filtro en Mis hojas de horas en la página Lista de hojas de horas](assets/my-timesheet-approvals-my-timesheets-pills-on-timesheets-list-nwe-350x58.png)
-
-   * Haga clic en el icono de filtro ![Icono de filtro](assets/filter-nwepng.png) para aplicar un filtro diferente o crear uno nuevo. Para obtener información sobre cómo crear o actualizar filtros, consulte [Crear o editar filtros en Adobe Workfront](../../reports-and-dashboards/reports/reporting-elements/create-filters.md).
+   * Haga clic en el icono **Filtro** ![Icono de filtro](assets/filter-nwepng.png) para aplicar un filtro o crear uno nuevo. Para obtener información sobre cómo crear o actualizar filtros, consulte [Crear o editar filtros en Adobe Workfront](../../reports-and-dashboards/reports/reporting-elements/create-filters.md).
 
    >[!NOTE]
    >
    >Las opciones Mis aprobaciones de hojas de horas y Mis hojas de horas no se muestran en la parte superior de la lista de hojas de horas ni en la lista de filtros si el administrador de Workfront o de un grupo ha eliminado esos filtros de los controles de lista en el área de Configuración o de la plantilla de diseño. Para obtener más información, consulte [Personalizar filtros, vistas y agrupaciones mediante una plantilla de diseño](../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md).
 
-1. (Opcional) Haga clic en los iconos **Ver** ![Ver icono](assets/view-icon.png) o **Agrupar** ![Icono de agrupación](assets/grouping.png) para aplicar una vista o agrupación diferente o para crear una nueva.
+1. (Opcional) Haga clic en los iconos **Ver** ![Ver icono](assets/view-icon.png) o **Agrupar** ![Icono de agrupación](assets/grouping.png) para aplicar una vista o agrupación o para crear una nueva.
 
    Para obtener información sobre la creación de filtros, vistas o agrupaciones, consulte los siguientes artículos:
 
@@ -103,47 +107,16 @@ El filtro **Todas** está seleccionado de manera predeterminada, el cual muestra
    * [Creación de agrupaciones en Adobe Workfront](../../reports-and-dashboards/reports/reporting-elements/create-groupings.md)
 
 1. Seleccione una o varias hojas de horas y luego haga clic en el icono **Editar** ![Editar icono](assets/edit-icon.png) en la parte superior de la lista de hojas de horas.
-1. Consulte o especifique la siguiente información:
+1. Consulte o introduzca la siguiente información:
 
-   <table style="table-layout:auto"> 
-    <col> 
-    <col> 
-    <tbody> 
-     <tr> 
-      <td role="rowheader"><strong>Propietario</strong> </td> 
-      <td> <p>Nombre del usuario para el que se creó la plantilla de horas. No puede editar este campo. </p> <p>El campo no se muestra al seleccionar varias plantillas de horas. </p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader"><strong>Fecha de inicio</strong> </td> 
-      <td>Esta la fecha de inicio de la plantilla de horas.</td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader"><strong>Fecha de finalización</strong> </td> 
-      <td> Esta es la fecha de finalización de la plantilla de horas.</td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader"><strong>Estado</strong> </td> 
-      <td> Este es el estado de la plantilla de horas.
-      Las siguientes son posibles opciones de estado de la plantilla de horas: 
-      <ul><li><b>Abrir</b>: la plantilla de horas está abierta y las entradas de horas se pueden editar.</li>
-      <li><b>Enviada</b>: la plantilla de horas se envía para su aprobación a los aprobadores designados.</li>
-      <li><b>Rechazada</b>: la plantilla de horas no fue aprobada por los aprobadores y ahora está disponible nuevamente para que el usuario edite las entradas de tiempo.</li>
-      <li><b>Cerrada</b>: la plantilla de horas está cerrada por el usuario o aprobada por el aprobador y, como resultado, ahora está cerrada. No se puede añadir tiempo a una plantilla de horas cerrada.</li>
-      </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader"><strong>Aprobadores</strong> </td> 
-      <td> <p>Los aprobadores son usuarios que aprueban la plantilla de horas de los usuarios asociados con ella. Solo los usuarios con acceso administrativo a las plantillas de horas pueden establecerse como aprobadores. </p> <p>Para obtener más información sobre los derechos administrativos de la plantilla de horas, consulte <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Conceder acceso administrativo a los usuarios a ciertas áreas</a>.</p> <p>Comience a introducir los nombres de los aprobadores de plantillas de horas y selecciónelos cuando aparezcan en la lista.</p> <p>Puede tener varios aprobadores en una plantilla de horas. En este caso, una vez que uno de los aprobadores aprueba la plantilla de horas, esta se marca como <strong>Cerrada</strong> y desaparece de la lista de aprobaciones de plantillas de horas de todos los aprobadores restantes.</p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader"><strong>Puede editar el tiempo</strong> </td> 
-      <td> <p>Seleccione esta opción si desea permitir que los aprobadores editen las horas en la plantilla de horas.</p> <p>Esta opción no está disponible si selecciona varias plantillas de horas. </p> </td> 
-     </tr> 
-     <tr data-mc-conditions=""> 
-      <td role="rowheader"><strong>Horas extra</strong> </td> 
-      <td> <p>Puede elegir ocultar el cuadro Horas extra en la plantilla de horas.</p> <p>Esta opción está desactivada de forma predeterminada.</p> </td> 
-     </tr> 
-    </tbody> 
-   </table>
+   | Nombre de campo | Descripción |
+   | --------- | ---------- |
+   | Propietario | <p>Nombre del usuario para el que se creó la plantilla de horas. No puede editar este campo.</p><p>Este campo no se muestra al seleccionar varias plantillas de horas.</p> |
+   | Fecha de inicio | Esta la fecha de inicio de la plantilla de horas. |
+   | Fecha de finalización | Esta es la fecha de finalización de la plantilla de horas. |
+   | Estado | <p>Este es el estado de la plantilla de horas. Las siguientes son posibles opciones de estado de la plantilla de horas:</p><ul><li>**Abrir**: la plantilla de horas está abierta y las entradas de horas se pueden editar.</li><li>**Enviada**: la plantilla de horas se envía para su aprobación a los aprobadores designados.</li><li>**Rechazada**: la plantilla de horas no fue aprobada por los aprobadores y ahora está disponible nuevamente para que el usuario edite las entradas de tiempo.</li><li>**Cerrada**: la plantilla de horas está cerrada por el usuario o aprobada por el aprobador y, como resultado, ahora está cerrada. No se puede añadir tiempo a una plantilla de horas cerrada.</li></ul> |
+   | Aprobadores | <p>Los aprobadores aprueban la plantilla de horas de los usuarios asociados con ella. Solo los usuarios con derechos administrativos de plantilla de horas pueden establecerse como aprobadores. Para obtener más información sobre los derechos administrativos sobre las plantillas de horas, consulte [Conceder a los usuarios acceso administrativo a determinadas áreas](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).</p> <p>Comience a introducir los nombres de los aprobadores de plantillas de horas y selecciónelos cuando aparezcan en la lista.</p> <p>Puede tener varios aprobadores en una plantilla de horas. En este caso, una vez que uno de los aprobadores apruebe la plantilla de horas, esta se marcará como **Cerrada** y desaparecerá de la lista de aprobaciones de plantillas de horas de todos los aprobadores restantes.</p> |
+   | Puede editar el tiempo | <p>Seleccione esta opción si desea permitir que los aprobadores editen las horas en la plantilla de horas.</p><p>Esta opción no está disponible si selecciona varias plantillas de horas.</p> |
+   | Horas extra | <p>Puede elegir ocultar el cuadro Horas extra en la plantilla de horas.</p><p>Esta opción está desactivada de forma predeterminada.</p> |
 
 1. Haga clic en **Guardar**.

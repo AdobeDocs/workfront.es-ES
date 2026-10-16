@@ -28,7 +28,7 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 9b233bb7501b487a5220882902c47e7d933709ef
 workflow-type: tm+mt
 source-wordcount: '1467'
 ht-degree: 71%
@@ -101,7 +101,7 @@ En este ejemplo se muestra cómo llamar a la API de Workfront y rellenar una lis
 
    Es muy probable que este sea **Get**.
 
-1. Escriba la **ruta JSON** para obtener los resultados de su llamada de API.
+1. Escriba la **ruta JSON** para obtener los resultados de su llamada API.
 
    **Ejemplo**
    `$.data[*].name`
@@ -112,7 +112,7 @@ En este ejemplo se muestra cómo llamar a la API de Workfront y rellenar una lis
 
 1. Haga clic en **Aplicar**.
 
-   ![Configuración de la llamada de API a Workfront en formulario personalizado](assets/external-lookup-to-workfront.png)
+   ![Configuración de la llamada API a Workfront en formulario personalizado](assets/external-lookup-to-workfront.png)
 
    Cuando se añade el formulario personalizado a un objeto de Workfront (en este ejemplo, un proyecto), tiene un aspecto similar a este.
 
@@ -141,7 +141,7 @@ Este ejemplo muestra cómo llamar a la API de Workfront y llevar los datos de un
 
    Es muy probable que este sea **Get**.
 
-1. Escriba la **ruta JSON** para obtener los resultados de su llamada de API.
+1. Escriba la **ruta JSON** para obtener los resultados de su llamada API.
 
    **Ejemplo**
    `$.data[*].parameterValues.["DE:Combo Colors"]`
@@ -203,7 +203,7 @@ Este ejemplo muestra cómo llamar a una API de países (como <https://api.first.
 
    Es muy probable que este sea **Get**.
 
-1. Escriba la **ruta JSON** para obtener los resultados de su llamada de API.
+1. Escriba la **ruta JSON** para obtener los resultados de su llamada API.
 
    Esta opción permite extraer datos del JSON devuelto por la URL de la API. Sirve para seleccionar qué valores dentro del JSON aparecerán en las opciones desplegables.
 
@@ -220,7 +220,7 @@ Este ejemplo muestra cómo llamar a una API de países (como <https://api.first.
 
 1. Haga clic en **Aplicar**.
 
-   ![Configuración de la llamada de API a la API pública en el formulario personalizado](assets/external-lookup-to-api-for-countries.png)
+   ![Configuración de la llamada API a la API pública en el formulario personalizado](assets/external-lookup-to-api-for-countries.png)
 
    Cuando se añade el formulario personalizado a un objeto de Workfront (en este ejemplo, un proyecto), tiene un aspecto similar a este.
 
@@ -233,17 +233,16 @@ Este ejemplo muestra cómo llamar a una API de países (como <https://api.first.
 Existen muchos otros casos de uso para crear una búsqueda externa.
 
 **Caso de uso:** reemplace los campos de escritura anticipada, ya que pueden causar problemas con la creación de informes.
-**Solución:** use una llamada de API a los objetos existentes en el sistema.
+**Solución:** use una llamada API a los objetos existentes en el sistema.
 
 Ejemplo de URL de API base para plantillas, para reemplazar un campo de escritura anticipada:
 `$$HOST/attask/api/v17.0/tmpl/search?isActive=true&name_Sort=asc`
 
 **Caso de uso:** Cree campos desplegables con más características (por ejemplo, hay ajuste de línea en el campo Búsqueda externa).
-**Solución:** use una llamada de API a los objetos existentes del sistema o cree un nuevo objeto y use una llamada de API a este objeto.
+**Solución:** use una llamada API a los objetos existentes del sistema o cree un nuevo objeto y use una llamada API a este objeto.
 
 **Caso de uso:** defina una forma para que los usuarios mantengan sus propios campos fuera del área de formularios personalizados. Configure el campo Búsqueda externa y puede proporcionar usuarios a los objetos que componen el campo. Esta opción es adecuada para campos y equipos de alto mantenimiento.
-**Solución:** cree un nuevo objeto y use una llamada de API a este objeto.
+**Solución:** cree un nuevo objeto y use una llamada API a este objeto.
 
 **Caso de uso:** integración con objetos fuera de Workfront. Por ejemplo, acceder a otro sistema para obtener el nombre de cada usuario, en lugar de estar restringido en un campo de escritura anticipada.
 **Solución:** automatización de webhook/Fusion para conectarse a otros sistemas.
-

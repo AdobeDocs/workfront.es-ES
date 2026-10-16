@@ -9,24 +9,30 @@ exl-id: 253e20c8-58f8-4b23-a769-b0e36557066a
 TQID: https://experienceleague.adobe.com/uxfkWowkcyC9zeX1vNaZaY-i3AFCHMngvflZ8-REnac
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
   - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+    internal-label: Timesheets
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: dbb2e1aee18e6435a79ee2071f0bd5ba84ce2af3
+    internal-label: Administration
+source-git-commit: 64bb9e6dba8976ba413ec9b58e926da931bba1c5
 workflow-type: tm+mt
-source-wordcount: 828
-ht-degree: 25%
-
+source-wordcount: '821'
+ht-degree: 20%
 ---
-
 # Enviar plantilla de horas para su aprobación
 
 <!--Audited: 8/2024-->
@@ -80,7 +86,7 @@ Para enviar una hoja de horas para su aprobación:
 1. Registrar tiempo, como se describe en [Registrar tiempo](../../timesheets/create-and-manage-timesheets/log-time.md).
 1. Haga clic en **Enviar para aprobación** para iniciar el proceso de aprobación de hojas de horas.
 
-   ![Botón Enviar para aprobación](assets/submit-for-approval-button-on-timesheet-nwe.png)
+   ![Botón Enviar para aprobación](assets/submit-for-approval-button-on-timesheet.png)
 
    El botón **Enviar para aprobación** se ha reemplazado por los botones **Aprobar**, **Rechazar** y **Recuperar**. El estado de la hoja de horas cambia a **Enviado**.
 
@@ -103,23 +109,21 @@ Para ver el estado de una plantilla de horas:
 
 {{step1-to-timesheets}}
 
-El filtro **Todos** está seleccionado de manera predeterminada.
+De forma predeterminada, se muestran todas las hojas de horas a las que tiene acceso para ver.
 
-![Lista de hojas de horas con una hoja de horas seleccionada](assets/timesheet-list-one-timesheet-selected-nwe-350x70.png)
+![Lista de hojas de horas](assets/list-of-all-timesheets.png)
 
 1. (Opcional) Realice una de las siguientes acciones para actualizar el filtro en la lista de plantillas de horas:
 
-   * Seleccione **Aprobaciones de Mis plantillas de horas** en la esquina superior derecha de la página para ver solamente las plantillas de horas que usted apruebe
+   * Seleccione **Mis aprobaciones de hojas de horas** en la esquina superior derecha de la página para ver solamente las hojas de horas que usted apruebe,
 
      O
 
      Seleccione **Mis plantillas de horas** para ver solamente sus plantillas de horas.
 
-     Esto es válido para los filtros Aprobaciones de Mis hojas de horas o de Mis hojas de horas a la lista de hojas de horas.
+     Esto aplica los filtros **Mis aprobaciones de hojas de horas** o **Mi hoja de horas** a la lista de hojas de horas.
 
-     ![Botones de filtro en Mis hojas de horas en la página Lista de hojas de horas](assets/my-timesheet-approvals-my-timesheets-pills-on-timesheets-list-nwe-350x58.png)
-
-   * Haga clic en el icono de filtro ![Icono de filtro](assets/filter-nwepng.png) para aplicar un filtro diferente o crear uno nuevo. Para obtener información sobre cómo crear o actualizar filtros, consulte [Crear o editar filtros en Adobe Workfront](../../reports-and-dashboards/reports/reporting-elements/create-filters.md).
+   * Haga clic en el icono **Filtro** ![Icono de filtro](assets/filter-nwepng.png) para aplicar un filtro o crear uno nuevo. Para obtener información sobre cómo crear o actualizar filtros, consulte [Crear o editar filtros en Adobe Workfront](../../reports-and-dashboards/reports/reporting-elements/create-filters.md).
 
    >[!NOTE]
    >
@@ -129,32 +133,12 @@ El filtro **Todos** está seleccionado de manera predeterminada.
 
    Las plantillas de horas pueden tener los siguientes estados:
 
-   <table style="table-layout:auto"> 
-    <col> 
-    <col> 
-    <tbody> 
-     <tr> 
-      <td role="rowheader">Abrir</td> 
-      <td> <p>Su hoja de horas está abierta actualmente y puede registrar las horas. </p> <p>Aparece una hoja de horas recuperada con el estado Abierto. Para obtener más información, consulte la sección <a href="#recall-a-timesheet" class="MCXref xref">Recuperar una hoja de horas</a> en este artículo. </p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Enviado</td> 
-      <td>Ha enviado su hoja de horas para su aprobación, pero aún no se ha aprobado. Puede recuperar una hoja de horas enviada para seguir editándola. Para obtener más información, consulte la sección <a href="#recall-a-timesheet" class="MCXref xref">Recuperar una hoja de horas</a> en este artículo. </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Cerrado</td> 
-      <td> <p>Se dan los siguientes escenarios:</p> 
-       <ul> 
-        <li> <p>Si la plantilla de horas no tiene aprobador, ha guardado el tiempo y lo ha cerrado.</p> </li> 
-        <li> <p>Si la hoja de horas tiene un aprobador, la ha enviado para su aprobación y se ha aprobado.</p> </li> 
-       </ul> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Rechazado</td> 
-      <td>Ha enviado la hoja de horas para su aprobación y el aprobador la ha rechazado.</td> 
-     </tr> 
-    </tbody> 
-   </table>
+   | Estado | Descripción |
+   | --------- | ---------- |
+   | Abrir | <p>Su hoja de horas está abierta actualmente y puede registrar las horas.</p><p>Aparece una hoja de horas recuperada con el estado Abierto. Para obtener más información, consulte la sección [Recuperar una hoja de horas](#recall-a-timesheet) en este artículo.</p> |
+   | Enviado | Ha enviado su hoja de horas para su aprobación, pero aún no se ha aprobado. Puede recuperar una hoja de horas enviada para seguir editándola. Para obtener más información, consulte la sección [Recuperar una hoja de horas](#recall-a-timesheet) en este artículo. |
+   | Cerrado | <p>Se dan los siguientes escenarios:</p><ul><li>Si la plantilla de horas no tiene aprobador, ha guardado el tiempo y lo ha cerrado.</li><li>Si la hoja de horas tiene un aprobador, la ha enviado para su aprobación y se ha aprobado.</li></ul> |
+   | Rechazado | Ha enviado la hoja de horas para su aprobación y el aprobador la ha rechazado. |
 
 ## Recuperar una hoja de horas {#recall-a-timesheet}
 
@@ -164,7 +148,7 @@ Para recuperar una hoja de horas:
 
 {{step1-to-timesheets}}
 
-1. Haga clic en **Mis hojas de horas** en la esquina superior derecha de la pantalla o seleccione **Mis hojas de horas** del menú desplegable **Filtrar** ![Icono de filtro](assets/filter-nwepng.png).
+1. Haga clic en **Mis hojas de horas** en la esquina superior derecha de la pantalla, o bien seleccione **Mis hojas de horas** del menú desplegable **Filtrar** ![Icono de filtro](assets/filter-nwepng.png).
 1. Haga clic en el lapso de tiempo de una hoja de horas con un estado de **Enviado**.
 1. Haga clic en **Recuperar**.
 
