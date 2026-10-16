@@ -1,302 +1,63 @@
 ---
+user-type: administrator
 product-area: documents
 navigation-topic: approvals
 title: Migración a Workfront en el almacenamiento en la nube de Adobe
-description: Planifique el despliegue de Workfront en el almacenamiento en la nube de Adobe. Descubra las diferencias entre los objetos de almacenamiento en la nube de Adobe, incluida la nueva área Documentos y la experiencia de revisión de Frame.io, y decida cómo se despliega el almacenamiento en la nube de Adobe en su entorno.
+description: Planifique su paso a Workfront en el almacenamiento en la nube de Adobe. Comprenda qué sucede cuando su organización está habilitada, qué diferencias hay en los objetos de almacenamiento en la nube de Adobe y cómo implementarlos en su propio tiempo.
 author: Courtney
 feature: System Setup and Administration, Work Management, Digital Content and Documents
 role: Admin
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-    internal-label: Workfront
-feature_v2:
-  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
-    internal-label: System Setup and Administration
-  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
-    internal-label: Work management
-  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
-    internal-label: Resource management
-subfeature_v2:
-  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
-    internal-label: Digital content and documents
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-    internal-label: Admin
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+recommendations: noDisplay, noCatalog
+source-git-commit: 7a21293ad984311b274fe6a7c79e081e9bc8b156
 workflow-type: tm+mt
-source-wordcount: '2966'
-ht-degree: 1%
+source-wordcount: '512'
+ht-degree: 0%
+
 ---
 # Migración a Workfront en el almacenamiento en la nube de Adobe
 
-El almacenamiento en la nube de Workfront en Adobe permite la experiencia de revisión y aprobación unificada completa: revisiones en el visor Frame.io, potentes flujos de trabajo de aprobación, visibilidad de recursos entre productos y mucho más.
+Workfront en el almacenamiento en la nube de Adobe proporciona una experiencia unificada completa de revisión y aprobación: revisiones en el visor Frame.io, potentes flujos de trabajo de aprobación, visibilidad de recursos entre productos y mucho más.
 
-El nuevo área Documentos, el visor Frame.io y otros comportamientos de almacenamiento en la nube de Adobe que se describen en este artículo solo se aplican a objetos que utilizan el almacenamiento en la nube de Adobe.
+Este artículo es el punto de partida para los administradores de Workfront que se trasladan al almacenamiento en la nube de Adobe. En él se explica qué sucede cuando se habilita el almacenamiento en la nube de Adobe, se detallan las diferencias y se proporcionan vínculos a artículos que ayudan a planificar e implementar el cambio.
 
-Este artículo está dirigido a los administradores de Workfront que se preparan para implementar Workfront en el almacenamiento en la nube de Adobe. Abarca las principales diferencias en los objetos de almacenamiento en la nube de Adobe, cómo elegir el tipo de despliegue y qué pensar antes de habilitar el almacenamiento en la nube de Adobe para los usuarios.
+## Usted decide cuándo se activa el almacenamiento en la nube de Adobe
 
->[!NOTE]
->
->* Debe contar con una versión de Workfront que admita el almacenamiento en la nube de Adobe. Si su organización aún no tiene una versión compatible, póngase en contacto con el representante de cuentas de Adobe.
+Nada sobre tu entorno de Workfront cambiará hasta que un administrador de Workfront habilite el almacenamiento en la nube de Adobe como la opción de almacenamiento predeterminada en **Configuración** > **Sistema** > **Preferencias**. Hasta entonces, los proyectos existentes y los nuevos que cree permanecerán en el almacenamiento heredado de Workfront y conservarán el servicio de aprobación que utiliza hoy en día.
 
-## Las aprobaciones unificadas se aplican independientemente del modelo de almacenamiento
+Cuando un administrador habilita el almacenamiento en la nube de Adobe como opción de almacenamiento predeterminada:
 
-Al pasar a una versión de Workfront compatible con el almacenamiento en la nube de Adobe, se mueven *todos* los flujos de trabajo de aprobación existentes de Aprobaciones de documentos heredados a Aprobaciones unificadas, para cada objeto, ya sea que permanezca en el almacenamiento de Workfront heredado o se mueva al almacenamiento en la nube de Adobe.
+* Los nuevos proyectos utilizan el almacenamiento en la nube de Adobe
+* Frame.io es el visor predeterminado
+* Las aprobaciones unificadas son el servicio de aprobación predeterminado
 
+Los proyectos existentes no cambian.
 
->[!IMPORTANT]
->
->Esto es diferente de las opciones de despliegue de almacenamiento descritas en [Elija cómo se despliega el almacenamiento en la nube de Adobe](#choose-how-adobe-cloud-storage-rolls-out): esas opciones controlan qué modelo de almacenamiento utilizan los nuevos objetos, no si los flujos de trabajo de aprobación pasan a Aprobaciones unificadas.<br>
->No hay ningún grupo piloto ni opción gradual para este cambio; se aplica en toda la organización en cuanto dispone de una versión compatible.
+Dado que controla el tiempo, puede probar la experiencia, actualizar los escenarios de Workfront Fusion y planificar los cambios de los informes antes de que alguien trabaje en ella. Para obtener instrucciones paso a paso, consulte [Habilitar el almacenamiento en la nube de Adobe para su organización](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md).
 
+## Cómo funcionan las aprobaciones en el almacenamiento en la nube de Adobe
 
-Antes de implementar el almacenamiento en la nube de Adobe, asegúrese de que las personas que administran las aprobaciones sepan qué esperar:
-
-* **Qué sucede con las aprobaciones existentes** Los flujos de trabajo de aprobación heredados existentes se ven afectados por este cambio, esté en curso o se haya completado. Para obtener más información, consulte [Paso de aprobaciones de documentos heredados a aprobaciones unificadas](/help/quicksilver/review-and-approve-work/move-to-unified-approvals.md).
-* **Una nueva experiencia de aprobaciones** Los revisores y aprobadores pasan de la experiencia de aprobación de documentos heredados a las aprobaciones unificadas, lo que agrega aprobaciones de varias fases, rutas de revisión paralelas y mucho más. Para obtener más información, consulte los siguientes artículos:
-
-  * [Introducción a la revisión y aprobación unificadas](/help/quicksilver/review-and-approve-work/get-started-with-unified-approvals.md)
-  * [Funcionalidad disponible para aprobaciones de documentos](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/asset-review-and-approval.md)
-* **Una nueva ubicación de informes** Los datos unificados del flujo de trabajo de aprobación y generación de informes se trasladan a los paneles de lienzo. Los informes de aprobación heredados existentes no se transfieren automáticamente. Para obtener más información, consulte [Crear un tablero de informes para revisión y aprobaciones](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-review-and-approval-dashboard.md).
-* **Posibles actualizaciones de escenarios de Fusion** Es posible que los escenarios de Fusion existentes creados en aprobaciones de documentos heredados deban editarse, reconstruirse o retirarse para trabajar con aprobaciones unificadas. Para obtener más información, consulte [Actualizar escenarios de Workfront Fusion para una revisión y aprobación unificadas](/help/quicksilver/review-and-approve-work/tips-tricks-troubleshooting-approvals/fusion-remediation-for-unified-approvals.md).
-
-## Comprender el almacenamiento heredado de Workfront y el almacenamiento en la nube de Adobe
-
-Una vez actualizado el contrato para incluir la nueva experiencia de revisión y aprobación unificadas, el entorno puede contener dos tipos de objetos: objetos en el almacenamiento heredado de Workfront (los objetos que tiene hoy) y objetos creados con el almacenamiento en la nube de Adobe. En un nivel superior, los dos modelos de almacenamiento difieren en dónde se almacenan los datos, qué productos de Adobe pueden verlos y qué funcionalidad está disponible:
-
-|  | Objeto en el almacenamiento heredado de Workfront | Objeto en el almacenamiento en la nube de Adobe |
-|---|---|---|
-| Servidor de almacenamiento | Solo Workfront | Almacenamiento en la nube de Adobe |
-| Visibilidad entre productos | Solo Workfront | Workfront, Frame.io y Creative Cloud |
-| Funcionalidad | Funcionalidad heredada | Nueva funcionalidad |
-
-Los objetos creados antes de habilitar el almacenamiento en la nube de Adobe en el área de Configuración permanecen en el almacenamiento heredado de Workfront. Los nuevos comportamientos descritos en este artículo se aplican únicamente a los objetos de almacenamiento en la nube de Adobe que usted y sus usuarios creen una vez habilitado el almacenamiento en la nube de Adobe.
-
-## Diferencias con el almacenamiento en la nube de Adobe
-
-El mayor cambio diario con el almacenamiento en la nube de Adobe es el nuevo área de Documentos y el visualizador Frame.io que alimenta la revisión y la aprobación dentro de ella. Existen otras diferencias que afectan a la forma en que se administran los objetos, documentos y revisiones.
-
-La siguiente tabla resume las principales diferencias al cambiar al almacenamiento en la nube de Adobe. Cada área de la tabla vincula a la sección detallada a continuación.
-
-| Área | ¿Qué hay de diferente? | Qué se debe saber |
-|---|---|---|
-| [El área de documentos nuevos](#the-new-documents-area) | Un área de Documentos unificada y rediseñada reemplaza al área de Documentos heredada. | No hay área de documentos global. Acceder a documentos desde un programa, portafolio, proyecto, tarea o problema. |
-| [Permisos de documentos](#document-permissions) | Los documentos heredan los permisos del proyecto, la tarea o el problema al que están vinculados. | No puede compartir ni establecer permisos en documentos individuales. Puede administrar todo el acceso a través del modal de uso compartido de objetos en Workfront, que se coloca en cascada en las carpetas de documentos generadas por el sistema. |
-| [Asignación de permisos de objeto](#object-permissions-mapping) | Los permisos Administrar y Contribuir de Workfront se asignan a Editar y compartir en Frame.io. Ver asignaciones de Solo comentario. | Los permisos se administran en Workfront. Tanto los usuarios de Administrar como los de Contribute obtienen la capacidad de compartir contenido externo en Frame.io. |
-| [Visor de revisión y aprobación](#review-and-approval-viewer) | El visor Frame.io reemplaza al visor de revisión de Workfront. | Incluido para todos los usuarios de Workfront, incluidos los usuarios externos asignados a una revisión o aprobación. Admite marcado, comentarios con marca de tiempo, historial de versiones, móvil, más de 40 formatos, archivos de hasta 500 GB. |
-| [Reglas de nomenclatura de objetos](#object-naming-rules) | Se aplican reglas de nomenclatura estrictas: nombres únicos dentro de un portafolio o proyecto, sin caracteres especiales, sin punto final ni espacio, límite de 255 caracteres. | Workfront cambia automáticamente el nombre de los objetos cuando surgen conflictos. Plantillas de auditoría que generan nuevos nombres y estructura de proyecto. |
-| [Portabilidad del objeto](#object-portability) | En la mayoría de los casos, solo se pueden mover, copiar y convertir objetos entre modelos de almacenamiento similares. | Puede convertir un objeto heredado al almacenamiento en la nube de Adobe en tres casos específicos. Los documentos y las carpetas de documentos no se mueven del almacenamiento heredado durante la conversión. |
-| [Funciones no disponibles](#capabilities-not-available-on-adobe-cloud-storage-objects) | Workfront Proof, el visualizador de documentos de Workfront, los documentos favoritos y los documentos de solicitud no forman parte de la experiencia. | Los objetos heredados conservan estas funciones. Workfront Proof no recibirá nuevas inversiones y se retirará en una versión futura. |
-| [Cuota de almacenamiento](#storage-quota) | El almacenamiento se agrupa para proyectos de Workfront heredados y proyectos de Adobe Cloud Storage. 60 GB por usuario con licencia. Sin tapa dura. | Los administradores del sistema pueden ver el uso del almacenamiento en la página Información del cliente en Configuración. |
-| [Límite anual de revisión de vídeo](#annual-video-review-cap) | Límite de nivel organizativo en solicitudes de revisión de vídeo al 10% de las licencias de usuario pagadas de Workfront (estándar y básica). | Una vez alcanzado, no hay nuevas revisiones de vídeo hasta el siguiente período anual. Notificaciones en la aplicación al 80 % y al 100 %. No se aplica a los clientes de Frame.io Enterprise. |
-| [Workfront Fusion](#workfront-fusion-on-adobe-cloud-storage-projects) | Los escenarios de Fusion existentes basados en pruebas no funcionan automáticamente con los proyectos de almacenamiento en la nube de Adobe. | Los escenarios de los proyectos heredados siguen funcionando. Cada escenario afectado recibe una de las tres rutas: editar, reconstruir o retirar. Nuevos conectores previstos para el tercer trimestre de 2026. |
-
-### La nueva área Documentos
-
-La nueva área Documentos es una experiencia de documentos unificada diseñada para el almacenamiento en la nube de Adobe. Simplifica la navegación, consolida la actividad de revisión y aprobación y es el punto de entrada para el visor Frame.io.
-
-El área de Documentos globales no forma parte de la nueva experiencia. En los proyectos de almacenamiento en la nube de Adobe, puede acceder a documentos desde un programa, portafolio, proyecto, tarea o problema.
-
-Para obtener más información, vea [El área Documentos](/help/quicksilver/documents/managing-documents/documents-area.md).
-
-### Permisos de documento
-
-Los permisos de documento son fundamentalmente diferentes en los proyectos de almacenamiento en la nube de Adobe:
-
-* No puede compartir ni establecer permisos en documentos individuales. En su lugar, los permisos se aplican a las carpetas de documentos generadas por el sistema que contienen los documentos.
-* Las carpetas de documentos generadas por el sistema heredan los permisos de su proyecto, tarea o problema principal.
-* Las subcarpetas heredan los permisos de la carpeta de documentos principal generada por el sistema.
-* Las subtareas no heredan permisos de las tareas principales. Debe ser agregado directamente a una subtarea para acceder a su carpeta de documentos generada por el sistema.
-
-
-Para obtener más información sobre cómo funcionan los permisos de documentos, consulte [Permisos de objetos e información general sobre el nivel de acceso para el modelo de almacenamiento en la nube de Adobe](/help/quicksilver/review-and-approve-work/esm-access-permissions.md#how-document-permissions-work).
-
-
-### Asignación de permisos de objeto
-
-Los permisos se establecen en Workfront y fluyen en una dirección hasta Frame.io. No puede invitar a usuarios a un proyecto de almacenamiento en la nube de Adobe en Frame.io ni modificar permisos de usuario en Frame.io.
-
->[!TIP]
->
->Capacite a los coordinadores de proyectos para que el acceso a Frame.io sea un reflejo descendente de los permisos de Workfront. Si una parte interesada informa de que no puede acceder a una revisión en un proyecto de almacenamiento en la nube de Adobe, la corrección se realiza en Workfront, no en Frame.io.
-
-La siguiente tabla asigna los permisos de objetos de Workfront a los permisos de Frame.io:
-
-| Permiso de Workfront | Permiso Frame.io |
-|---|---|
-| Administrar | Editar y compartir |
-| Aportar | Editar y compartir |
-| Ver | Solo comentario |
-
-Tanto Administrar como Contribuir asignan a **Editar y compartir** en Frame.io. A medida que revise los patrones de uso compartido para proyectos de almacenamiento en la nube de Adobe, considere si se ajusta a su modelo de gobernanza para que los colaboradores tengan las mismas capacidades del lado de la revisión que los administradores, incluido el uso compartido externo.
-
-Para obtener más información, consulte [Permisos de objeto e información general de nivel de acceso para el modelo de almacenamiento en la nube de Adobe](/help/quicksilver/review-and-approve-work/esm-access-permissions.md#permission-mapping-to-frameio).
-
-
-### Visor de revisión y aprobación
-
-En los objetos de almacenamiento en la nube de Adobe, el visor Frame.io es la superficie de revisión y aprobación en lugar de Workfront Proof. El visor Frame.io se incluye para todos los usuarios de Workfront sin coste adicional, incluidos los usuarios externos asignados a una revisión o aprobación.
-
-El visor Frame.io proporciona lo siguiente:
-
-* Herramientas de marcado y comentarios, incluido el dibujo a mano alzada y formas estándar como círculos, flechas y cuadrados
-* Comentarios con marca de tiempo con precisión de cuadro para revisiones de vídeo
-* Historial y comparación de versiones
-* Acceso móvil para revisiones y aprobaciones sobre la marcha
-* Compatibilidad con más de 40 formatos de archivo, incluidos todos los tipos comunes de vídeo, imagen, audio, PDF y Microsoft Office, con reproducción nativa para formatos de vídeo profesionales como ProRes, H.265 y DNxHD, y compatibilidad con archivos de hasta 500 GB
-
-
-### Reglas de nomenclatura de objetos
-
-El almacenamiento en la nube de Adobe aplica reglas estructurales y de nomenclatura estrictas para mantener la coherencia de la capa de almacenamiento en todos los productos de Adobe. Estas reglas se aplican a los objetos que crea en proyectos de almacenamiento en la nube de Adobe. Los proyectos heredados existentes mantienen sus nombres actuales.
-
-Las siguientes reglas se aplican a los proyectos de Adobe Cloud Storage:
-
-| Regla | Detalle |
-|---|---|
-| Nombres exclusivos de programas y proyectos | Los programas y proyectos no pueden tener el mismo nombre si pertenecen al mismo portafolio. |
-| Nombres de documento únicos | Los documentos no pueden tener el mismo nombre si pertenecen al mismo proyecto. Los nombres de los documentos deben ser únicos dentro del mismo elemento principal en la jerarquía de carpetas. |
-| Caracteres prohibidos | Los programas, portafolios, proyectos, plantillas, tareas, problemas, carpetas de documentos y documentos no pueden contener ninguno de los siguientes caracteres especiales: `\ / : * ? " \| < >` |
-| Caracteres finales | Los programas, portafolios, proyectos, plantillas, tareas, problemas y carpetas de documentos no pueden tener nombres que terminen con un punto o un espacio. |
-| Límite de longitud de nombre | Los nombres de objeto están limitados a 255 caracteres. |
-
-Si un nombre entra en conflicto con estas reglas, Workfront cambia automáticamente el nombre del objeto para resolver el conflicto.
-
->[!TIP]
->
->Si crea proyectos de almacenamiento en la nube de Adobe a partir de plantillas, revise las plantillas existentes para que los nombres y la estructura de proyecto que generan se ajusten a las reglas anteriores.
-
-
-### Portabilidad de objetos
-
-En la mayoría de los casos, puede mover, copiar y convertir objetos de Workfront entre modelos de almacenamiento similares. Por ejemplo, puede mover una tarea de un proyecto de almacenamiento en la nube de Adobe a otro proyecto de almacenamiento en la nube Adobe. En tres casos específicos, puede convertir un objeto de almacenamiento de Workfront heredado al almacenamiento en la nube de Adobe:
-
-* Convertir una tarea de almacenamiento de Workfront heredada en un proyecto de almacenamiento en la nube de Adobe
-* Conversión de una cartera de productos de almacenamiento de Workfront heredados en una cartera de productos de almacenamiento en la nube de Adobe
-* Crear un proyecto de almacenamiento en la nube de Adobe a partir de una plantilla de almacenamiento de Workfront heredada
+Los proyectos de almacenamiento en la nube de Adobe utilizan las aprobaciones unificadas de forma predeterminada, con revisión y aprobación en el visor de Frame.io. Los objetos que permanecen en el almacenamiento heredado de Workfront conservan el servicio de aprobación que ya utilizan: aprobaciones de documentos heredados o aprobaciones unificadas.
 
 >[!NOTE]
 >
->En los tres casos de conversión, los documentos y las carpetas de documentos no se mueven del almacenamiento heredado de Workfront al almacenamiento en la nube de Adobe. Los documentos que existen en el objeto heredado antes de la conversión permanecen en el almacenamiento heredado.
+>La configuración del almacenamiento en la nube de Adobe como predeterminado no cambia el servicio de aprobación que ya está en uso en los objetos de almacenamiento de Workfront heredados. Aprobaciones unificadas es la opción predeterminada solo para los nuevos objetos creados en el almacenamiento en la nube de Adobe.
 
-#### Convertir una tarea heredada en un proyecto de almacenamiento en la nube de Adobe
+Antes de implementar el almacenamiento en la nube de Adobe, asegúrese de que las personas que administran las aprobaciones sepan qué esperar. Para obtener más información, consulte [Paso de aprobaciones de documentos heredados a aprobaciones unificadas](/help/quicksilver/review-and-approve-work/move-to-unified-approvals.md).
 
-Para convertir una tarea de almacenamiento de Workfront heredada en un proyecto de almacenamiento en la nube de Adobe, utilice el flujo de conversión a proyecto existente en la tarea. Durante la conversión:
+## Planifique su mudanza
 
-* Las subtareas y los problemas se mueven al nuevo proyecto.
-* Los documentos adjuntos a la tarea y sus flujos de trabajo de aprobación permanecen en el proyecto original.
-* Se eliminan las aprobaciones de trabajo y los enlaces de objetos de resolución.
-* Se elimina la tarea original.
+Lea estos artículos en orden a medida que prepare lo siguiente:
 
-<!--
-For more information, see [Convert a task to a project](/help/quicksilver/manage-work/tasks/convert-tasks/convert-task-to-project.md).
--->
-
-#### Conversión de una cartera heredada en una cartera de almacenamiento en la nube de Adobe
-
-Un administrador de Workfront puede convertir una cartera de productos de almacenamiento de Workfront heredados en una cartera de productos de almacenamiento de nube de Adobe desde el área de Configuración. Después de la conversión:
-
-* Ya no puede mover proyectos de almacenamiento de Workfront heredados al portafolio.
-* Todos los proyectos nuevos creados en la cartera utilizan el almacenamiento en la nube de Adobe.
-* Frame.io es el visor de documentos en los proyectos de almacenamiento en la nube de Adobe del portafolio.
-* Los proyectos secundarios que utilizan almacenamiento de Workfront heredado permanecen en el almacenamiento heredado.
-* Los programas secundarios permanecen en el almacenamiento heredado.
-
-  >[!NOTE]
-  >
-  >Un programa secundario heredado se convierte automáticamente en almacenamiento en la nube de Adobe solo cuando alguien le agrega manualmente un proyecto de almacenamiento en la nube de Adobe.
-
-Para obtener más información, consulte [Convertir portafolios heredados al almacenamiento en la nube de Adobe](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/convert-portfolios-to-acs.md).
-
-#### Crear un proyecto de almacenamiento en la nube de Adobe a partir de una plantilla heredada
-
-Cuando crea un proyecto a partir de una plantilla de almacenamiento de Workfront heredada, la casilla de verificación **Crear este proyecto en Adobe Cloud Storage** del cuadro de diálogo de creación de proyectos determina el tipo de almacenamiento del nuevo proyecto. El comportamiento de la casilla de verificación depende de dónde cree el proyecto:
-
-* **Fuera de un portafolio**: la casilla de verificación está disponible y desactivada de forma predeterminada. Selecciónelo para crear el nuevo proyecto en el almacenamiento en la nube de Adobe.
-* **Dentro de un portafolio de almacenamiento en la nube de Adobe**: La casilla de verificación está seleccionada y bloqueada. El nuevo proyecto debe coincidir con el tipo de almacenamiento del portafolio.
-* **Dentro de un portafolio de almacenamiento de Workfront heredado**: La casilla de verificación no está disponible. El nuevo proyecto utiliza el almacenamiento heredado de Workfront.
-
-Para obtener más información, consulte [Crear proyectos](/help/quicksilver/manage-work/projects/create-projects/create-project.md).
-
-### Funciones no disponibles en los objetos de almacenamiento en la nube de Adobe
-
-Las siguientes funcionalidades no forman parte de los objetos de almacenamiento en la nube de Adobe:
-
-* Workfront Proof
-* Visualizador de documentos de Workfront
-* Documentos favoritos
-* Solicitar documentos
-
-Los proyectos heredados conservan el acceso a Workfront Proof y a las funciones de documentos heredadas enumeradas anteriormente. Workfront Proof no recibirá nuevas inversiones a partir de ahora y se retirará en una versión futura.
-
-### Cuota de almacenamiento
-
-El almacenamiento se agrupa para objetos de Workfront heredados y objetos de almacenamiento de Adobe Cloud. Cada usuario con licencia recibe 60 GB de almacenamiento. No hay un límite estricto en el uso del almacenamiento, pero los administradores de Workfront reciben notificaciones por correo electrónico cuando el uso alcanza el 75 %, el 90 % y el 100 % de la cuota.
-
-Los administradores del sistema pueden ir a **Configuración** > **Sistema** > **Información del cliente** para ver el uso y la cuota de almacenamiento actuales.
-
-Para obtener más información, consulte [Comprobar límites de almacenamiento de documentos](/help/quicksilver/documents/managing-documents/check-document-storage.md).
-
-
-### Límite anual de revisión de vídeo
-
-Hay un límite anual en las solicitudes de revisión de vídeo establecido en el 10% del total de licencias de usuario de Workfront pagadas de su organización (estándar y ligeras). Este límite se aplica en el nivel de organización.
-
-* Los administradores de Workfront reciben notificaciones en la aplicación cuando el uso alcanza el 80 % y el 100 % del límite.
-* Una vez alcanzado el límite, no puede crear nuevas solicitudes de revisión de vídeo hasta el siguiente periodo anual.
-* Este límite no se aplica a los clientes de Frame.io Enterprise. Si su organización revisa regularmente grandes volúmenes de contenido de vídeo, póngase en contacto con el representante de su cuenta de Adobe para obtener más información sobre las licencias de Frame.io Enterprise.
-
-Para obtener más información, consulte las Preguntas frecuentes sobre la revisión y aprobación de recursos y vídeos en [Resumen unificado de revisión y aprobación](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md).
-
-### Proyectos de almacenamiento en la nube de Workfront Fusion en Adobe
-
-Los escenarios de Workfront Fusion existentes basados en revisiones heredadas no funcionan automáticamente con los proyectos de Adobe Cloud Storage. Los módulos específicos de prueba, los ganchos web y los puntos de conexión de API tienen equivalentes directos en algunos casos y cambios significativos en otros. Los escenarios con ámbitos de proyectos heredados siguen funcionando como hoy en día.
-
-Se espera que los conectores Fusion con compatibilidad nativa para la revisión y aprobación unificadas estén disponibles en el tercer trimestre de 2026.
-
-Para obtener información detallada sobre el impacto en los tipos de escenarios comunes y cómo clasificar cada escenario como Editar, Reconstruir o Retirar según su funcionalidad, consulte [Actualizar escenarios de Workfront Fusion para una revisión y aprobación unificadas](/help/quicksilver/review-and-approve-work/tips-tricks-troubleshooting-approvals/fusion-remediation-for-unified-approvals.md).
-
-
-## Elija cómo se despliega el almacenamiento en la nube de Adobe
-
-Usted decide cómo aparece el almacenamiento en la nube de Adobe para sus usuarios. Existen dos configuraciones, y cualquiera de ellas se puede aplicar a toda la organización o a grupos específicos de Workfront.
-
-Para obtener instrucciones paso a paso, consulte [Habilitar el almacenamiento en la nube de Adobe para su organización](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md).
-
-
-### Opciones de configuración
-
-* **Solo almacenamiento en la nube de Adobe**: Los nuevos proyectos usan el almacenamiento en la nube de Adobe de forma predeterminada. Los usuarios no pueden crear proyectos heredados.
-* **Almacenamiento en la nube de Adobe y almacenamiento heredado de Workfront**: Cuando los usuarios crean un proyecto, eligen entre almacenamiento en la nube de Adobe (con la etiqueta &quot;Nuevo proyecto&quot;) y almacenamiento heredado de Workfront (con la etiqueta &quot;Almacenamiento heredado&quot;).
-
-  ![elegir un tipo de proyecto](assets/choose-project-type.png)
-
-
->[!TIP]
->
->Para poner el almacenamiento en la nube de Adobe delante de un equipo más pequeño primero, aplique cualquiera de las configuraciones a un solo grupo de Workfront. Esto permite ejecutar una prueba piloto de destino antes de desplegar de forma más amplia. Se recomienda comenzar con un despliegue a nivel de grupo para un ritmo controlado y luego expandirse a toda la organización una vez que el grupo piloto haya validado la experiencia.
-
-Los objetos existentes mantienen el modelo de almacenamiento con el que se crearon. Al cambiar la preferencia de almacenamiento predeterminada, no se cambia ningún objeto existente.
-
-## Planificación del despliegue
-
-Cada entorno de Workfront es diferente. Antes de habilitar el almacenamiento en la nube de Adobe para los usuarios, dedique un tiempo a planificar el aspecto de un despliegue correcto para su organización. Las sugerencias a continuación no son una lista de comprobación, sino un punto de partida para su propio plan.
-
-**1. Elija un grupo piloto.** Un despliegue con alcance de grupo le permite poner el almacenamiento en la nube de Adobe delante de un equipo más pequeño primero, recopilar comentarios y ajustar antes de un despliegue más amplio. Elija un grupo cuyos patrones de trabajo sean lo suficientemente representativos como para que aparezcan los problemas que desea conocer antes.
-
-**2. Comunicar el cambio a los usuarios finales.** El mayor cambio visible para los revisores, aprobadores y propietarios de proyectos es el nuevo área Documentos y el visor Frame.io, que permite la revisión y aprobación de proyectos de almacenamiento en la nube de Adobe. Planifique cómo introducirá estos elementos para que los usuarios sepan qué esperar cuando se encuentren con su primer proyecto de almacenamiento en la nube de Adobe. El artículo [Introducción a la revisión y aprobación unificadas](/help/quicksilver/review-and-approve-work/get-started-with-unified-approvals.md) es un punto de partida útil para el material de cara al usuario final.
-
-**3. Planifique la disponibilidad del conector de Workfront Fusion.** Se espera que los conectores Fusion con compatibilidad nativa para la revisión y aprobación unificadas estén disponibles en el tercer trimestre de 2026. Los escenarios de Fusion basados en pruebas existentes siguen funcionando en proyectos heredados. Antes de incluir equipos que dependan de esos escenarios en la versión piloto del almacenamiento en la nube de Adobe, decida si desea esperar los nuevos conectores, volver a compilar con la API actual o reemplazar esos escenarios con funciones nativas de revisión y aprobación unificadas.
-
-Para obtener información detallada sobre el impacto en los tipos de escenarios comunes y cómo clasificar cada escenario como Editar, Reconstruir o Retirar según su funcionalidad, consulte [Actualizar escenarios de Workfront Fusion para una revisión y aprobación unificadas](/help/quicksilver/review-and-approve-work/tips-tricks-troubleshooting-approvals/fusion-remediation-for-unified-approvals.md).
+* [Qué diferencias hay en el almacenamiento en la nube de Adobe](/help/quicksilver/review-and-approve-work/adobe-cloud-storage-whats-different.md): Las principales diferencias en los objetos de almacenamiento en la nube de Adobe, desde el nuevo área de Documentos y el visor Frame.io hasta las reglas de nomenclatura, la cuota de almacenamiento y Fusion.
+* [Planifique la implementación del almacenamiento en la nube de Adobe](/help/quicksilver/review-and-approve-work/plan-adobe-cloud-storage-rollout.md): Elija una configuración de implementación, realice una prueba piloto con un solo grupo y secuencie el trabajo de modo que sus usuarios no se sorprendan.
+* [Habilitar el almacenamiento en la nube de Adobe para su organización](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md): Pasos para establecer la opción de almacenamiento predeterminado para toda la organización o para grupos específicos.
+* [Convertir objetos heredados al almacenamiento en la nube de Adobe](/help/quicksilver/review-and-approve-work/convert-objects-to-adobe-cloud-storage.md): Los tres casos en los que puede convertir un objeto heredado al almacenamiento en la nube de Adobe y qué se mueve durante cada conversión.
 
 
 ## Artículos relacionados
 
 * [información general sobre el almacenamiento en nube Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md)
-* [Habilitar el almacenamiento en la nube de Adobe para su organización](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md)
 * [Resumen de revisión y aprobación unificadas](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md)
 * [Introducción a la revisión y aprobación unificadas](/help/quicksilver/review-and-approve-work/get-started-with-unified-approvals.md)
 * [El área Documentos](/help/quicksilver/documents/managing-documents/documents-area.md)
 * [Permisos de objetos e información general del nivel de acceso para el modelo de almacenamiento en la nube de Adobe](/help/quicksilver/review-and-approve-work/esm-access-permissions.md)
-

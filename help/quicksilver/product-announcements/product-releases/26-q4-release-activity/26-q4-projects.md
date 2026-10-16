@@ -13,7 +13,7 @@ feature_v2:
 subfeature_v2:
   - id: a29813d3-f0cc-4b60-9396-13b558370803
     internal-label: Product announcements
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 80e0ade22a2d40a1c0244ef8c11f9db37dd9661a
 workflow-type: tm+mt
 source-wordcount: '163'
 ht-degree: 7%
@@ -30,7 +30,7 @@ Para obtener una lista de todos los cambios disponibles en este punto del ciclo 
 >
 >Vista previa: 30 de julio de 2026
 >Versión rápida de producción: 13 de agosto de 2026
->Producción para todos: 15 de octubre de 2026
+>Producción para todos: 22 de octubre de 2026
 
 Cuando una plantilla contiene datos financieros, esos valores de campo se conservan cuando un usuario crea un proyecto a partir de la plantilla. El usuario debe tener acceso de visualización a los datos financieros para ver los campos financieros en los detalles del proyecto.
 

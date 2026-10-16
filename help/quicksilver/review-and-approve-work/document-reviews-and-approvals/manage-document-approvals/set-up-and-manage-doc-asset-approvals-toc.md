@@ -27,10 +27,10 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: f3b0b9985b2056ca71ce16aa81becb4723015472
+source-git-commit: 44231a55a0431783eb63dbf7070f013e8c06d350
 workflow-type: tm+mt
-source-wordcount: '104'
-ht-degree: 75%
+source-wordcount: '111'
+ht-degree: 71%
 ---
 # Configurar y administrar las aprobaciones unificadas: índice de artículos
 
@@ -39,10 +39,8 @@ Esta sección contiene los siguientes artículos:
 * [Crear y administrar marcas para el Revisor de IA](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-a-brand.md)
 * [Crear una solicitud de revisión o aprobación de documento](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)
 * [Creación de una aprobación agrupada](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-grouped-approval.md)
-<!--
-* [Review a grouped approval](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/review-a-grouped-approval.md)
-* [Manage grouped approvals](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/manage-grouped-approvals.md)
--->
+* [Revisión de una aprobación agrupada](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/review-a-grouped-approval.md)
+* [Administración de aprobaciones agrupadas](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/manage-grouped-approvals.md)
 * [Añadir revisores o aprobadores adicionales a un recurso o un documento](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/add-additional-reviewers-or-approvers.md)
 * [Quitar aprobadores o revisores de un recurso o documento](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/remove-approvers-or-reviewers.md)
 * [Crear una plantilla de aprobación para recursos y documentos](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md)

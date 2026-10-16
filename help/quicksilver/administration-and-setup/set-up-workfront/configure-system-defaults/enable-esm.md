@@ -7,30 +7,28 @@ description: Puede habilitar el almacenamiento en la nube de Adobe para que su o
 author: Courtney
 feature: System Setup and Administration
 role: Admin
-exl-id: 48b581c7-a21a-45de-95c5-eafb0713b42e
-last-update: 2026-04-01T18:03:50.000Z
-git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-    internal-label: Workfront
-feature_v2:
-  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
-    internal-label: System Setup and Administration
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-    internal-label: Admin
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 7a21293ad984311b274fe6a7c79e081e9bc8b156
 workflow-type: tm+mt
-source-wordcount: '462'
-ht-degree: 8%
+source-wordcount: '636'
+ht-degree: 6%
+
 ---
 # Habilitar el almacenamiento en la nube de Adobe para su organización
 
-el almacenamiento en la nube de Adobe es una solución de almacenamiento unificado para todos los productos de Adobe. Es una solución de almacenamiento basada en la nube que sirve como repositorio central para los recursos de los productos empresariales de Adobe.
+El almacenamiento en la nube de Adobe es una solución de almacenamiento unificada y basada en la nube que sirve como repositorio central para los recursos de los productos empresariales de Adobe. En este artículo se describe cómo habilitar el almacenamiento en la nube de Adobe como la opción de almacenamiento predeterminada para toda la organización o para grupos específicos.
 
-El almacenamiento en la nube de Adobe está habilitado de forma predeterminada para los clientes nuevos y se puede habilitar para los clientes existentes tras la renovación del contrato.
+Esta es la única acción que activa la nueva experiencia: una vez habilitada, los nuevos proyectos utilizan el almacenamiento en la nube de Adobe, que incluye el visor Frame.io y las aprobaciones unificadas. Nada cambia hasta que elija habilitar el almacenamiento en la nube de Adobe.
 
-Para obtener más información sobre el almacenamiento en la nube de Adobe, consulte [Información general sobre el almacenamiento en la nube de Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
+Dado que controla el tiempo, puede probar la experiencia, actualizar los escenarios de Workfront Fusion y planificar los cambios de los informes antes de que alguien trabaje en ella. Para obtener más información sobre las diferencias y cómo planificar la implementación, consulte [Mover a Workfront en el almacenamiento en la nube de Adobe](/help/quicksilver/review-and-approve-work/workfront-storage.md).
+
+## Funcionamiento de las aprobaciones con el almacenamiento en la nube de Adobe
+
+El almacenamiento en la nube de Adobe determina qué servicio de aprobación utiliza un proyecto. El paso a una versión de Workfront compatible con el almacenamiento en la nube de Adobe no cambia automáticamente toda su organización a Aprobaciones unificadas. En su lugar, el servicio de aprobación depende del modelo de almacenamiento de cada proyecto:
+
+* **Los proyectos de almacenamiento en la nube de Adobe** utilizan aprobaciones unificadas de forma predeterminada, con revisión y aprobación en el visor de Frame.io.
+* **Los proyectos de almacenamiento de Workfront heredados** conservan el servicio de aprobación que ya usan. Según su organización, podrían ser aprobaciones unificadas o aprobaciones de documentos heredados.
+
+Para obtener más información sobre la experiencia de revisión y aprobación del almacenamiento en la nube de Adobe, consulte [Mover a Workfront en el almacenamiento en la nube de Adobe](/help/quicksilver/review-and-approve-work/workfront-storage.md).
 
 ## Requisitos de acceso
 
@@ -78,10 +76,10 @@ Para habilitar el almacenamiento en la nube de Adobe para su organización:
 
 1. En el menú desplegable Se aplica a, elija una de las siguientes opciones:
 
-   - **Organización completa**: esta opción aplica el proveedor de almacenamiento predeterminado a todo el entorno de Workfront. Cada vez que un usuario cree un nuevo proyecto, se utilizará el proveedor de almacenamiento predeterminado.
-   - **Grupos específicos**: esta opción aplica el proveedor de almacenamiento predeterminado solamente a grupos específicos dentro de su organización. Cada vez que un usuario de los grupos especificados cree un nuevo proyecto, se utilizará el proveedor de almacenamiento predeterminado
+   * **Organización completa**: esta opción aplica el proveedor de almacenamiento predeterminado a todo el entorno de Workfront. Cada vez que un usuario cree un nuevo proyecto, se utilizará el proveedor de almacenamiento predeterminado.
+   * **Grupos específicos**: esta opción aplica el proveedor de almacenamiento predeterminado solamente a grupos específicos dentro de su organización. Cada vez que un usuario de los grupos especificados cree un nuevo proyecto, se utilizará el proveedor de almacenamiento predeterminado.
 
-   ![grupos de preferencias de almacenamiento](assets/configure-storage-preference.png)
+     ![grupos de preferencias de almacenamiento](assets/configure-storage-preference.png)
 
 1. Haga clic en **Guardar**.
 
