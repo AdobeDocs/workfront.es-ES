@@ -11,10 +11,10 @@ role_v2:
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
     internal-label: Workfront
-source-git-commit: 87fa240bc7d5694d475072b9787dca6f05702c3c
+source-git-commit: 85f0798c7956369e7b3c92a6c777414fa81511b6
 workflow-type: tm+mt
-source-wordcount: '409'
-ht-degree: 9%
+source-wordcount: '481'
+ht-degree: 8%
 ---
 # Adición de un vínculo web como documento
 
@@ -56,13 +56,16 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
 
 ## Adición de un vínculo web como documento
 
-Puede cargar una página web HTML en Workfront como vínculo web. Después de agregarlo, puede solicitar la aprobación en la página web activa del mismo modo que solicita la aprobación de un archivo cargado. Para obtener más información sobre cómo Frame.io administra los vínculos web, vea [Vínculos web Frame.io](https://help.frame.io/en/articles/12893213-html-review-for-frame-io).
+Puede cargar una página web HTML en Workfront como vínculo web. Después de agregarlo, puede solicitar la aprobación en la página web activa del mismo modo que solicita la aprobación de un archivo cargado. Para obtener más información sobre cómo Frame.io administra los vínculos web, consulte [Revisión de HTML para Frame.io](https://support.frame.io/hc/en-us/articles/360041187574-Frame-io-Web-Links).
 
-<!--
+
 >[!IMPORTANT]
 >
->A web page behind single sign-on or a login page can't be displayed for review.
--->
+>* Las direcciones URL son compatibles si el sitio permite incrustaciones de iFrame.
+>* Se admiten direcciones URL web privadas, pero es posible que ciertos flujos de autenticación no funcionen según la configuración del servidor.
+>* Las direcciones URL de YouTube y Figma no son compatibles actualmente.<br>
+>Para obtener más información, vea [Qué tipos de direcciones URL son compatibles con Frame.io](https://help.frame.io/en/articles/12893213-html-review-for-frame-io#:~:text=of%20the%20page.-,What%20types%20of%20URLs%20are%20supported%3F,-URLs%20are%20supported).
+
 
 Para añadir un vínculo web:
 
