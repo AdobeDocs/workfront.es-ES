@@ -17,9 +17,9 @@ feature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 4a27006cc4989fb1fed0eed5d7a4cef3a69af1d4
+source-git-commit: 18b3d84862352792e094738269e4307e2f6006bf
 workflow-type: tm+mt
-source-wordcount: '1347'
+source-wordcount: '1348'
 ht-degree: 3%
 ---
 # Configuración de colaboradores de IA
@@ -160,7 +160,7 @@ Para obtener una lista de prácticas recomendadas al crear un agente para trabaj
 1. En el área **Después de que el colaborador finalice su trabajo, puede**, activar las acciones que desea que realice el colaborador.
 
    * <span class="preview">Enviar notificación: el agente hace un comentario en el flujo de actualización, etiquetando al usuario que solicitó el trabajo, asignó al agente o es propietario del proyecto. </span>
-   * <span class="preview">Cargar un documento</span>
+   * <span class="preview">Cargar documentos basados en texto</span>
    * <span class="preview">Marcar tarea como completada</span>
    * Escribir campos de tarea: seleccione los formularios y campos en los que el agente puede escribir.
 
