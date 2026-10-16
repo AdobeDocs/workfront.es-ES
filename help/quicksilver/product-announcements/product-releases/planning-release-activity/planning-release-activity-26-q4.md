@@ -18,7 +18,7 @@ subfeature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 34b3f57d2339d13dd3b331b1c51e2bd0f9333843
+source-git-commit: b3d98796609ca5db35d11749eb0f1db39bd0feea
 workflow-type: tm+mt
 source-wordcount: '3259'
 ht-degree: 2%
@@ -66,7 +66,7 @@ Para obtener más información, consulte [Aptitudes de Workfront en CX Enterpris
 >[!NOTE]
 >
 >Preview: October 1, 2026
->Production fast release: October 14, 2026
+>Production fast release: October 22, 2026
 >Production for everyone: October 22, 2026
 
 The table view now shows the total number of records, with no setup required, and the count updates automatically as you apply filters, search, or change the view.
@@ -82,7 +82,7 @@ For information, see [Manage the table view](/help/quicksilver/planning/views/ma
 >[!NOTE]
 >
 >Vista previa: 1 de octubre de 2026
->Versión rápida de producción: 14 de octubre de 2026
+>Versión rápida de producción: 22 de octubre de 2026
 >Producción para todos: 22 de octubre de 2026
 
 Los operadores de filtros de varios valores en todas las vistas de Planning se han actualizado a &quot;Es cualquiera de&quot; y &quot;No es ninguno de&quot; en lugar de &quot;Tiene cualquiera de&quot; y &quot;No tiene ninguno de&quot;, lo que le ofrece una redacción más clara y coherente en los generadores de filtros de Workfront.
@@ -96,7 +96,7 @@ Los cambios son visibles en los filtros de todas las vistas de Planning. Para ob
 >[!NOTE]
 >
 >Vista previa: 1 de octubre de 2026
->Versión rápida de producción: 14 de octubre de 2026
+>Versión rápida de producción: 22 de octubre de 2026
 >Producción para todos: 22 de octubre de 2026
 
 Hemos introducido acumuladores para tipos de campo adicionales en la vista de tabla. Antes de esta mejora, solo los campos relacionados con números mostraban acumuladores en la parte inferior de las columnas.
@@ -118,7 +118,7 @@ Para obtener más información, consulte [Administrar la vista de tabla](/help/q
 >[!NOTE]
 >
 >Vista previa: 1 de octubre de 2026
->Versión rápida de producción: 14 de octubre de 2026
+>Versión rápida de producción: 22 de octubre de 2026
 >Producción para todos: 22 de octubre de 2026
 
 Los creadores de Workspace están asignados como propietarios predeterminados. Con esta actualización, los administradores de espacio de trabajo pueden transferir la propiedad a otro usuario con licencia estándar desde el cuadro de diálogo de uso compartido.
@@ -132,7 +132,7 @@ Para obtener más información, vea [Compartir espacios de trabajo](/help/quicks
 >[!NOTE]
 >
 >Vista previa: 1 de octubre de 2026
->Versión rápida de producción: 14 de octubre de 2026
+>Versión rápida de producción: 22 de octubre de 2026
 >Producción para todos: 22 de octubre de 2026
 
 Ahora puede ordenar registros y agrupaciones en la vista de escala de tiempo. Antes de esta mejora, esta funcionalidad no estaba disponible.
@@ -144,7 +144,7 @@ Para obtener más información, consulte [Administrar la vista de cronología](/
 >[!NOTE]
 >
 >Vista previa: 25 de septiembre de 2026
->Versión rápida de producción: 14 de octubre de 2026
+>Versión rápida de producción: 22 de octubre de 2026
 >Producción para todos: 22 de octubre de 2026
 
 Los administradores de Workspace ahora pueden controlar el acceso a campos individuales, lo que permite a usuarios y equipos específicos ver, editar o estar completamente restringidos de datos confidenciales dentro del mismo tipo de registro.
@@ -160,7 +160,7 @@ Para obtener más información, consulte [Compartir campos de Workfront Planning
 >[!NOTE]
 >
 >Vista previa: 25 de septiembre de 2026
->Versión rápida de producción: 14 de octubre de 2026
+>Versión rápida de producción: 22 de octubre de 2026
 >Producción para todos: 22 de octubre de 2026
 
 Ahora puede compartir una solicitud de Planning con otros usuarios del área Solicitudes en la nueva experiencia de solicitud.
@@ -174,7 +174,7 @@ Para obtener más información, consulte [Compartir registros de Planning](/help
 >[!NOTE]
 >
 >Vista previa: 25 de septiembre de 2026
->Versión rápida de producción: 14 de octubre de 2026
+>Versión rápida de producción: 22 de octubre de 2026
 >Producción para todos: 22 de octubre de 2026
 
 Los administradores de Workspace ahora pueden crear procesos de aprobación de una o varias etapas para cada formulario de solicitud de Planning, asignar uno o más aprobadores o equipos a cada etapa y reutilizar las plantillas de aprobación existentes para acelerar la configuración. Las solicitudes avanzan automáticamente una vez que todos los aprobadores necesarios de una fase las aprueban, y se notifica a cada aprobador cuando una solicitud llega a su fase. Los solicitantes y aprobadores pueden rastrear en qué fase se encuentra una solicitud y ver qué aprobaciones siguen pendientes.
@@ -186,7 +186,7 @@ Para obtener más información, consulte [Crear y administrar un formulario de s
 >[!NOTE]
 >
 >Vista previa: 25 de septiembre de 2026
->Versión rápida de producción: 14 de octubre de 2026
+>Versión rápida de producción: 22 de octubre de 2026
 >Producción para todos: 22 de octubre de 2026
 
 Ahora puede crear lógica de visualización avanzada en formularios de solicitud de Planning basados en valores de campos de conexión, de modo que los formularios se adapten a lo que seleccionan los solicitantes. Todos los campos de Planning, incluidos los campos de conexión, son compatibles al crear esta lógica.
@@ -200,7 +200,7 @@ Para obtener más información, consulte [Crear formulario de solicitud](/help/q
 >[!NOTE]
 >
 >Vista previa: 25 de septiembre de 2026
->Versión rápida de producción: 14 de octubre de 2026
+>Versión rápida de producción: 22 de octubre de 2026
 >Producción para todos: 22 de octubre de 2026
 
 Los administradores de Workfront y del espacio de trabajo ahora pueden indicar el nivel de permisos que recibe un solicitante en sus solicitudes cuando configuran el formulario de solicitud.
@@ -266,7 +266,7 @@ Para obtener más información, consulte [CX Enterprise Coworker en Workfront](/
 >[!NOTE]
 >
 >Vista previa: 17 de septiembre de 2026
->Versión rápida de producción: 14 de octubre de 2026
+>Versión rápida de producción: 22 de octubre de 2026
 >Producción para todos: 22 de octubre de 2026
 
 Ahora se pueden duplicar registros incluso cuando existen registros conectados uno a uno o uno a varios. Después de la duplicación, los usuarios pueden elegir mantener el registro conectado en el registro original o conectarlo al nuevo registro. Mantener activado el original es la opción predeterminada.
