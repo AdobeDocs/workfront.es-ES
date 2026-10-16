@@ -11,7 +11,7 @@ product_v2:
 feature_v2:
   - id: c042179c-157b-516d-b27c-e3bf303e8567
     internal-label: Get Started with Workfront
-source-git-commit: 1043dde02b6d66f9a0d041846b74184013989764
+source-git-commit: 64b421c1e1b00d37f55458b49510d9ca496f70e8
 workflow-type: tm+mt
 source-wordcount: '2383'
 ht-degree: 0%
@@ -85,7 +85,7 @@ Para buscar en Workfront elementos que coincidan con lo que está buscando, preg
 * *Asignarme todas las tareas asignadas a Joan Harris.*
 * *Mostrarme todos los problemas en el proyecto &quot;Rediseño del sitio web&quot; en la categoría &quot;Técnico&quot;.*
 
-### Crear nuevos elementos
+### Crear elementos
 
 Para crear proyectos, tareas u otros elementos de Workfront, haga lo siguiente:
 
@@ -134,9 +134,14 @@ Para administrar las aprobaciones de documentos y recursos, haga lo siguiente:
 
 Para administrar los registros de planificación, haga lo siguiente:
 
-* *Cree un nuevo registro de planificación denominado &quot;Plan de marketing del segundo trimestre&quot; para el equipo de marketing de marca.*
-* *Agregue una nueva tarea denominada &quot;Auditoría de medios sociales&quot; al registro de planificación.*
-* *Actualice la tarea &quot;Auditoría de medios sociales&quot; para que finalice el 18 de abril y asígnela al equipo creativo.*
+* *Cree un registro de planificación denominado &quot;Plan de marketing del segundo trimestre&quot; para el equipo de marketing de marca.*
+* *Agregue un nuevo proyecto llamado &quot;Auditoría de medios sociales&quot; al registro de planificación.*
+* *Actualice el proyecto &quot;Auditoría de medios sociales&quot; para que finalice el 18 de abril y asigne sus tareas al equipo de Creative.*
+<!--
+* *Create / update / fix a business rule*
+* *Add a validation rule to a business rule*
+* *List the business rules on record type "X"*
+-->
 
 ### Trabajo con flujo de trabajo
 
@@ -261,31 +266,22 @@ you undo an action, you can't undo it through the AI agentic platform either.
 
 ### ¿Por qué la plataforma agéntica de IA devolvió los elementos incorrectos de Workfront?
 
-La plataforma agéntica de IA selecciona elementos en función de las palabras utilizadas. Si su
-La solicitud es ambigua (por ejemplo, dos proyectos tienen nombres similares)
-podría elegir el equivocado. Vuelva a preguntar con nombres, ID, fechas más específicos,
-o filtros para reducir los resultados.
+La plataforma agéntica de IA selecciona elementos en función de las palabras utilizadas. Si la solicitud es ambigua (por ejemplo, dos proyectos tienen nombres similares), puede elegir el incorrecto. Vuelva a preguntar con nombres, ID, fechas o filtros más específicos para reducir los resultados.
 
 
 ### ¿Con qué elementos de Workfront puedo trabajar a través de una plataforma agéntica de IA?
 
-Cualquier elemento al que tenga acceso en Workfront a través de su nivel de acceso y
-permisos de objeto. Esto incluye proyectos, tareas, problemas, documentos,
-aprobaciones, registros de Planning y mucho más.
+Cualquier elemento al que tenga acceso en Workfront a través de su nivel de acceso y permisos de objeto. Esto incluye proyectos, tareas, problemas, documentos, aprobaciones, registros de Planning y más.
 
 ### ¿Pueden otras personas ver mis conversaciones con la plataforma agéntica de IA?
 
 Workfront no almacena sus mensajes ni las respuestas de la plataforma agéntica de IA.
-Quienquiera que proporcione su plataforma agéntica de IA controla cómo sus conversaciones
-se almacenan o comparten. Consulte con su proveedor de plataforma agéntica de IA para
-detalles.
+Quienquiera que proporcione su plataforma agéntica de IA controla cómo se almacenan o comparten sus conversaciones. Consulte con su proveedor de plataforma agéntica de IA para obtener más información.
 
 ### ¿Necesito saber la API de Workfront o qué herramienta MCP utilizar?
 
-No. La plataforma agéntica de IA traduce su solicitud en lenguaje natural a
-Seleccione las acciones y las herramientas de Workfront que más le convengan. Si usted es
-ya familiarizadas con la API de Workfront, las acciones le resultarán familiares,
-pero no es un requisito.
+No. La plataforma agéntica de IA traduce su solicitud en lenguaje natural en las acciones de Workfront correctas y elige las herramientas adecuadas para usted. Si usted es
+ya familiarizadas con la API de Workfront, las acciones le resultarán familiares, pero no es un requisito.
 
 ### ¿Mis datos de Workfront se envían al proveedor de la plataforma agéntica de IA o se almacenan en él?
 

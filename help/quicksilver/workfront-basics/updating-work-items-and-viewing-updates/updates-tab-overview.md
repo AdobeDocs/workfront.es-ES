@@ -27,23 +27,18 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: d476486418e1fc550b019bf8e42a94b5add98a7f
+source-git-commit: 64b421c1e1b00d37f55458b49510d9ca496f70e8
 workflow-type: tm+mt
-source-wordcount: '1206'
-ht-degree: 71%
+source-wordcount: '1313'
+ht-degree: 67%
 ---
 # Información general sobre la sección Actualizaciones
 
 <!-- Audited: 1/2024 -->
 
+<span class="preview">La información resaltada en esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa para todos los clientes. Después del lanzamiento en Vista previa, las mismas funciones también están disponibles mensualmente en el entorno de producción para los clientes que habilitaron lanzamientos rápidos. </span>
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers or in Production for customers who enabled fast releases. </span>
-
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
-
-<span class="preview">For information about the current release schedule, see [Second Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
--->
+<span class="preview">Para obtener información acerca de las versiones rápidas, consulte [Habilitar o deshabilitar las versiones rápidas para su organización](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
 
 La sección Actualizaciones de un objeto muestra los comentarios que los usuarios realizan sobre el objeto o las actualizaciones del sistema que realizan un seguimiento de los cambios del objeto.
 
@@ -149,17 +144,16 @@ La sección Actualizaciones muestra información en las siguientes pestañas:
 
 * **Comentarios**: muestra los comentarios realizados por los usuarios y las respuestas a dichos comentarios. Use la pestaña Comentarios para añadir nuevos comentarios o responder a los existentes.
 
-  <!--
   <div class="preview">
 
-  * **Pinned threads**: Top-level comments that are pinned display under the Pinned threads section on the Comments tab. 
+  * **Hilos anclados**: los comentarios de nivel superior que están anclados se muestran en la sección Hilos anclados de la pestaña Comentarios.
 
-    You can pin threads only on the Comments tab of objects that have an Updates section. You cannot pin threads in other areas of Workfront, like Boards, or Home. 
+    Solo se pueden anclar subprocesos en la ficha Comentarios de los objetos que tienen una sección Actualizaciones. No puede anclar subprocesos en otras áreas de Workfront, como Tableros o Página de inicio.
 
   </div>
-  -->
 
   Para obtener información acerca de cómo actualizar objetos, consulte [Actualizar trabajo](../updating-work-items-and-viewing-updates/update-work.md).
+
 * **Actividad del sistema**: muestra actualizaciones del sistema que son mensajes informativos que Workfront crea para registrar ciertos eventos en un objeto. Por ejemplo, los cambios de estado, nombre o campos personalizados se capturan con las actualizaciones del sistema. El administrador de grupos o de Workfront puede habilitar las actualizaciones del sistema para los objetos. Cualquier respuesta que se haya realizado a los registros de actividad del sistema en la experiencia de comentarios heredada se rellena en la pestaña de actividad del sistema como de solo lectura. Para obtener más información, consulte [Configurar actualizaciones del sistema](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
 * **Todos (solo lectura)**: muestra los comentarios del usuario y los comentarios de la actividad del sistema en un solo lugar. Esta es una pestaña de solo vista. No es posible responder a comentarios ni etiquetar a otros usuarios en comentarios existentes en la pestaña Todos. Para responder a un comentario específico, use el vínculo de la pestaña Todos a la pestaña Comentarios. Para obtener información acerca de cómo actualizar objetos, consulte [Actualizar un trabajo](../updating-work-items-and-viewing-updates/update-work.md).
 
