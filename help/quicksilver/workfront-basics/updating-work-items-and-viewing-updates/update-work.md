@@ -30,9 +30,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: d476486418e1fc550b019bf8e42a94b5add98a7f
+source-git-commit: 64b421c1e1b00d37f55458b49510d9ca496f70e8
 workflow-type: tm+mt
-source-wordcount: '3232'
+source-wordcount: '3436'
 ht-degree: 14%
 ---
 # Actualizar trabajo
@@ -40,11 +40,11 @@ ht-degree: 14%
 <!-- Audited: 4/2025 -->
 
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
--->
+<span class="preview">La información resaltada en esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa para todos los clientes. Después del lanzamiento en Vista previa, las mismas funciones también están disponibles mensualmente en el entorno de producción para los clientes que habilitaron lanzamientos rápidos. </span>
+
+<span class="preview">Para obtener información acerca de las versiones rápidas, consulte [Habilitar o deshabilitar las versiones rápidas para su organización](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+
 
 <!--info for April 11: hide the "Important" box below-->
 
@@ -623,28 +623,29 @@ The Quote Reply option copies the original comment to a new reply as a block quo
 1. Continue adding your update and click **Reply** to add the comment.
 -->
 
-<!--
 <div class="preview">
 
-## Pin comments
+## Fijar comentarios
 
-You can pin top-level comments to the top of the Comments tab. You cannot pin replies that are part of a thread. 
+Puede fijar los comentarios de nivel superior en la parte superior de la pestaña Comentarios. No puede fijar respuestas que formen parte de un subproceso.
 
-1. Go to an object that supports pinning comments, and click Updates in the left panel, then click the  **Comments** tab.
+1. Vaya a un objeto que admita la fijación de comentarios y haga clic en Actualizaciones en el panel izquierdo; a continuación, haga clic en la ficha **Comentarios**.
 
-   For information, see [Updates tab overview](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md). 
+   Para obtener más información, consulte [Información general sobre la ficha Actualizaciones](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
-1. Add a comment, or from an existing one, click the **More** menu ![More menu](assets/more-menu.png) to the right of the comment, click **Pin thread**. The comment and any existing replies are pinned to the top of the Comments tab. 
+1. Agregue un comentario o, a partir de uno existente, haga clic en el menú **Más** ![Menú más](assets/more-menu.png) a la derecha del comentario y, a continuación, haga clic en **Anclar subproceso**. El comentario y las respuestas existentes se anclarán en la parte superior de la pestaña Comentarios.
 
-   A new **Pinned threads** section is created at the top of the **Comments** tab. 
+   Se crea una nueva sección de **subprocesos anclados** en la parte superior de la pestaña **Comentarios**.
 
-   The number of pinned threads is listed in parentheses to the right of the section name. 
+   El número de hilos anclados se indica entre paréntesis a la derecha del nombre de la sección.
 
-1. (Optional) To unpin a thread, click the **Unpin** icon ![Unpin icon](assets/unpin-icon-comments.png) in the upper-right corner of the pinned comment. 
+   ![Hilos anclados en la sección Comentarios](assets/pin-thread-comments-areas-and-link.png)
+
+1. (Opcional) Para desanclar un hilo, haga clic en el icono **Desanclar** ![Desanclar icono](assets/unpin-icon-comments.png) en la esquina superior derecha del comentario anclado.
 
 </div>
 
--->
+
 
 ## Eliminar un comentario o una respuesta
 

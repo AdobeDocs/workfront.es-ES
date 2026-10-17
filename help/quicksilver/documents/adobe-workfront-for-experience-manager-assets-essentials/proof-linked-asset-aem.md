@@ -30,10 +30,10 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: f3b3d154728bbaec422e4786452bac4b9ba9a400
 workflow-type: tm+mt
-source-wordcount: '511'
-ht-degree: 70%
+source-wordcount: '513'
+ht-degree: 66%
 ---
 # Probar un recurso vinculado para Experience Manager Assets o Assets Essentials
 
@@ -101,7 +101,7 @@ Para crear una prueba:
 
    >[!NOTE]
    >
-   >Si tiene la opción **Generar pruebas automáticamente al cargar documentos** habilitada en su perfil de usuario, el sistema crea automáticamente una prueba simple.
+   >La configuración **Generar automáticamente revisiones al cargar documentos** no se aplica a los documentos de las carpetas vinculadas. Debe crear pruebas para esos documentos manualmente.
 
 1. Elija una de las siguientes opciones de la lista desplegable:
 

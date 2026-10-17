@@ -5,15 +5,15 @@ title: Revisión de una aprobación agrupada
 description: Puede revisar y tomar decisiones en todos los documentos de una aprobación agrupada desde el widget Mis aprobaciones en Inicio o en el visor Frame.io.
 author: Courtney
 feature: Work Management, Digital Content and Documents
-source-git-commit: 9459c6251b2576207e1766d94e6cb634f65f1f68
+source-git-commit: ccb3d004feca5373473a872b101a7acff11de77f
 workflow-type: tm+mt
-source-wordcount: '630'
+source-wordcount: '662'
 ht-degree: 11%
 ---
 
 # Revisión de una aprobación agrupada
 
-{{highlighted-preview-article-level}}
+<span class="preview">La información de esta página no está disponible en el entorno de vista previa de espacio aislado porque la integración de Frame.io no está disponible allí. Esta funcionalidad estará disponible en los entornos de producción el 22 de octubre de 2026.</span>
 
 Cuando se le asigna una aprobación agrupada, todos los documentos del grupo aparecen juntos para que pueda tomar una decisión sobre cada uno. Puede aprobar o solicitar cambios en cada documento a la vez, o tomar una decisión sobre cada documento individualmente.
 

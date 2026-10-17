@@ -26,10 +26,10 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 549753cc305825309c42861a9d38f95ab0aa9f11
 workflow-type: tm+mt
-source-wordcount: '626'
-ht-degree: 8%
+source-wordcount: '903'
+ht-degree: 5%
 ---
 # Revisión y aprobación con el visor Frame.io
 
@@ -82,6 +82,8 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
 ## Requisitos previos
 
 * Debe tener la integración de Workfront y Frame.io configurada en la instancia de Workfront. Para obtener más información, vea [Resumen de revisión y aprobación unificadas](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md#integration-requirements).
+* Para revisar un documento de vínculo web, necesitas instalar la extensión [Frame.io de Chrome](https://chromewebstore.google.com/detail/frameio/ppppcfnokinhahidobbfppdahipiejen). Si no está instalado, se le pedirá que lo descargue la primera vez que abra el visor Frame.io para un documento de vínculo web en Workfront.
+
 
 ## Revisar un documento
 
@@ -117,7 +119,6 @@ Vaya a la página de inicio de Workfront, busque el widget Mis aprobaciones y ha
    > 
    >Es posible que tenga que agregar el widget Mis aprobaciones a la página de inicio. Para obtener más información, consulte [Agregar, editar o quitar widgets en Inicio](/help/quicksilver/workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md).
 
-
 1. En Frame.io, utilice las herramientas de comentarios para dejar comentarios o hacer preguntas. Los comentarios y el marcado de recursos solo son visibles en el visor de Frame.io. Para obtener más información sobre el uso del visor Frame.io, consulte [Comentarios sobre el contenido](https://help.frame.io/en/articles/9105251-commenting-on-your-media).
 
    >[!NOTE]
@@ -136,6 +137,27 @@ Vaya a la página de inicio de Workfront, busque el widget Mis aprobaciones y ha
 
    ![Visor de fotogramas y decisión](assets/make-decision-frame.png)
 
+## Revisión de un vínculo web
 
+Si el documento es una URL web activa, puede revisar la página en el visor de Frame.io y dejar comentarios directamente en la página.
 
-<!--is document owner the correct term?-->
+1. Vaya a la notificación de correo electrónico de revisión y haga clic en **Ir a revisión**.
+o
+Vaya a la página de inicio de Workfront, busque el widget Mis aprobaciones y haga clic en **Abrir revisión**.
+
+   >[!NOTE]
+   > 
+   >Es posible que tenga que agregar el widget Mis aprobaciones a la página de inicio. Para obtener más información, consulte [Agregar, editar o quitar widgets en Inicio](/help/quicksilver/workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md).
+
+1. En Frame.io, abra el documento de vínculo web. Si se le solicita, instale la extensión de Chrome [Frame.io](https://chromewebstore.google.com/detail/frameio/ppppcfnokinhahidobbfppdahipiejen) para que pueda ver la página y capture el estado actual de la dirección URL.
+
+1. Utilice el visor para agregar comentarios, anotaciones, etc. directamente en la página.
+
+1. Una vez que haya terminado de revisar el documento de vínculo web, puede elegir una de las siguientes decisiones en el visor de Frame.io:
+
+   * **Aprobar**: el recurso no necesita cambios y está listo para usarse.
+   * **Necesita trabajo**: el recurso necesita cambios y no está listo para usarse. Una vez realizados los cambios especificados, el recurso debe cargarse como una nueva versión y pasar por otra ronda de aprobaciones. Para obtener más información, vea [Cargar una nueva versión del documento y solicitar la aprobación](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/upload-new-doc-version.md). <!--do they need to tell someone it was uploaded via comment tagging?-->
+
+   Una vez que tome una decisión, se notifica al propietario del documento por correo electrónico.
+
+Para obtener instrucciones detalladas sobre cómo ver y revisar las URL web activas, incluidas las URL admitidas, los requisitos de extensión del explorador y las opciones de comentarios, consulte [Revisión de HTML para Frame.io](https://help.frame.io/en/articles/12893213-html-review-for-frame-io).

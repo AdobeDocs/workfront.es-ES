@@ -10,10 +10,10 @@ product_v2:
 feature_v2:
   - id: c042179c-157b-516d-b27c-e3bf303e8567
     internal-label: Get Started with Workfront
-source-git-commit: d72869cb62d06b24298004ba2c9482a153b8e5f7
+source-git-commit: 64b421c1e1b00d37f55458b49510d9ca496f70e8
 workflow-type: tm+mt
-source-wordcount: '259'
-ht-degree: 7%
+source-wordcount: '270'
+ht-degree: 6%
 ---
 # Aptitudes de Workfront en CX Enterprise Coworker
 
@@ -59,6 +59,9 @@ Esta aptitud consulta y administra objetos de Workfront Planning como:
 * Campos
 * Vistas
 * Registros
+<!--
+* Business rules
+-->
 
 ### Administrar objetos de Workfront
 
@@ -75,13 +78,12 @@ Esta aptitud crea y actualiza proyectos, tareas, problemas, portafolios y progra
 
 Nombre: `query-workfront-data`
 
-Esta aptitud busca, enumera e informa sobre objetos de Workfront como:
+Esta aptitud busca, enumera e informa sobre objetos de Workfront. A continuación se muestran algunos ejemplos de estos objetos de Workfront, pero la lista no está completa:
 
 * Proyectos
 * Tareas
 * Problemas
 * Usuarios
 * Portafolios
-* y más
 
 

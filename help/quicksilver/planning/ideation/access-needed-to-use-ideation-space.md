@@ -19,9 +19,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: e209f8e5ada29b1c488fcfe42c13c6c9523a26bd
 workflow-type: tm+mt
-source-wordcount: '655'
+source-wordcount: '826'
 ht-degree: 0%
 ---
 
@@ -34,7 +34,9 @@ ht-degree: 0%
 
 {{planning-important-intro}}
 
-Adobe Workfront Planning ahora ofrece una capacidad adicional para idear antes de iniciar sus campañas. Aproveche la potencia de la IA para transformar datos e insumos directos en planes tangibles y proporcionar a los equipos un punto de partida informado en lugar de una página en blanco con espacio de ideación de Adobe.
+Adobe Workfront Planning ahora ofrece una capacidad adicional para idear antes de iniciar sus campañas.
+
+Al utilizar el espacio de ideas, puede aprovechar las capacidades de conversación de Adobe Enterprise CX Coworker para transformar datos y dirigir entradas en planes tangibles y proporcionar a los equipos un punto de partida informado en lugar de una página en blanco.
 
 Este artículo describe el acceso y los permisos que debe tener para acceder al espacio de ideación desde Workfront Planning.
 
@@ -42,10 +44,14 @@ Para obtener información general sobre el espacio de ideación, vea [Introducci
 
 ## Requisitos del producto
 
-
 El espacio de ideación no es un producto independiente, sino una capacidad adicional de Adobe Workfront Planning.
 
-Puede acceder al espacio de ideación si su organización y usted tienen acceso a los siguientes paquetes, según cuándo acceda al espacio de ideación:
+Puede acceder al espacio de ideación si su organización y usted tienen acceso a los siguientes productos:
+
+* Adobe Workfront con Workfront Planning
+* Enterprise CX Coworker
+
+Según el momento de acceder al espacio de ideación, debe tener acceso a los siguientes paquetes:
 
 * Durante la versión de Open Beta, debe tener lo siguiente:
 
@@ -56,11 +62,12 @@ Puede acceder al espacio de ideación si su organización y usted tienen acceso 
   * Un paquete de flujo de trabajo de Adobe Workfront con un paquete de Workfront Planning
   * Adobe Workfront Planning como producto independiente
 
-Para obtener información acerca de las fases de lanzamiento del espacio de ideación, vea [Introducción al espacio de ideación para Adobe Workfront Planning](/help/quicksilver/planning/ideation/get-started-with-planning-ideation.md).
-
 >[!NOTE]
 >
->Solo se puede acceder al espacio de ideación desde el menú principal de Adobe Workfront o desde Workfront Planning. No necesita un inicio de sesión independiente para acceder al espacio de ideación. Está disponible inmediatamente si puede iniciar sesión en Workfront.
+>Solo se puede acceder al espacio de ideación desde el menú principal de Workfront o desde Workfront Planning. No necesita un inicio de sesión independiente para acceder al espacio de ideación. Está disponible inmediatamente si puede iniciar sesión en Workfront.
+
+Para obtener información acerca de las fases de lanzamiento del espacio de ideación, vea [Introducción al espacio de ideación para Adobe Workfront Planning](/help/quicksilver/planning/ideation/get-started-with-planning-ideation.md).
+
 
 <!--
 No longer the case: 
@@ -82,23 +89,45 @@ Your organization must purchase a package for the following products to access t
 
 <!--only required for closed beta:* An Adobe Customer Journey Analytics license that includes campaign tracking-->
 
-## Requisitos de nivel de acceso de Workfront Planning
+## Requisitos del sistema y nivel de acceso
 
-El acceso al espacio de ideación está configurado en Workfront.
+El acceso al espacio de ideación se configura en Workfront activando una combinación de ajustes de nivel de sistema y de nivel de acceso.
 
-El nivel de acceso de Workfront debe incluir lo siguiente para acceder al espacio de ideación:
+Se requiere la siguiente configuración para acceder al espacio de ideación en Workfront:
+
+* Active la configuración de preferencias de Compañero de trabajo y MCP en el área Preferencias del sistema de la Configuración <!--check the UI because Becky was going to change it-->
+
+  Para obtener más información, consulte [Configurar las preferencias del sistema](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md).
+
+  >[!IMPORTANT]
+  >
+  >CX Enterprise Coworker no está disponible actualmente para organizaciones de atención médica, finanzas u otros sectores con datos confidenciales. Estas organizaciones disponen de un asistente de IA. Sin embargo, el espacio de ideación no está disponible para los clientes de Workfront que no tienen CX Coworker.
+
+* Anule la selección de la opción Deshabilitar espacio de ideación en la sección Establecer restricciones adicionales de su nivel de acceso.
+
+  >[!TIP]
+  >
+  >Como administrador de Workfront, puede limitar el acceso al espacio de ideación a determinados usuarios desmarcando la configuración Deshabilitar espacio de ideación en su nivel de acceso.
+
+  Para obtener más información, vea [Crear y modificar niveles de acceso personalizados](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+
+## Requisitos de licencia
+
+El nivel de acceso de Workfront debe incluir los siguientes tipos de licencia para acceder al espacio de ideación:
 
 * Una licencia de flujo de trabajo estándar, cuando su empresa compró un paquete de flujo de trabajo además de un paquete de Planning.
-* Una licencia de planificación estándar, cuando su empresa compró un flujo de trabajo y un paquete de planificación, o una licencia de planificación de Workfront como producto independiente.
-* La configuración Deshabilitar espacio de ideación en la sección Establecer restricción adicional de su nivel de acceso debe estar desseleccionada. <!--***********check the UI for this***********-->
+* Una licencia de planificación estándar, cuando su empresa compró una de las siguientes opciones:
 
-## Requisitos de permisos de Workfront Planning
+  * Un flujo de trabajo y un paquete de Planning, durante la versión beta abierta
+  * Un flujo de trabajo y un paquete de Planning o Workfront Planning como producto independiente, después de la disponibilidad general.
 
-Cada registro de Planning está conectado a un informe en el espacio de ideación.
+## Requisitos de permisos de Workfront
+
+Cuando se utiliza el espacio de ideación de Workfront Planning, cada registro de Planning se conecta a un resumen en el espacio de ideación.
 
 Los permisos breves del espacio de ideación se heredan de los permisos de registro de Workfront Planning. <!--not sure if this is right, because now you can share the ideation with others??-->
 
-Debe tener permisos de administración para un tipo de registro en Planning para crear registros o editar un registro en el espacio de ideación.
+Debe tener permisos de tipo Contribuir o superior para un tipo de registro en Planning para crear registros o editar un registro en el espacio de ideación.
 
 Los usuarios de Planning con permisos de Vista en registros pueden ver el espacio de ideación de un registro.
 
@@ -106,7 +135,7 @@ En la tabla siguiente se muestra la conexión entre los permisos de registros de
 
 | Permiso de nivel de registro de Planning | Permisos de nivel breve del espacio de ideación |
 |---|---|
-| Administración de permisos de un registro | Puede crear un resumen en el espacio de ideación del registro |
+| Aportar o permisos superiores a un registro | Puede crear un resumen en el espacio de ideación del registro |
 | Ver permisos de un registro | Puede leer el resumen de ese registro en el espacio de ideación, pero no puede modificarlo |
 
 ## Permisos del espacio de ideación

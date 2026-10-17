@@ -28,10 +28,10 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: b81918ef8da7c7a4eeb9797b65a5af964db93911
 workflow-type: tm+mt
-source-wordcount: '407'
-ht-degree: 17%
+source-wordcount: '419'
+ht-degree: 16%
 ---
 # Exportar detalles de un registro
 
@@ -167,6 +167,8 @@ Old:
 * Sólo se puede exportar la ficha Detalles de la página o del área de vista previa de un registro.
 
 * El archivo exportado conserva el diseño de la página de registro, incluidas las miniaturas y las imágenes de la portada.
+
+* No puede exportar una página de detalles personalizada, donde hay varios campos ocultos.
 
 ## Exportar detalles de un registro
 

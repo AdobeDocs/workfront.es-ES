@@ -26,10 +26,10 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: d4fb6d9113cf01ba92abf627fc64e4c10c9f2302
+source-git-commit: 0ab5dffb538623d0bfcb44b54fb33833594ac649
 workflow-type: tm+mt
-source-wordcount: '579'
-ht-degree: 95%
+source-wordcount: '574'
+ht-degree: 96%
 ---
 # Instalación del Visor de corrección de escritorio
 
@@ -79,7 +79,7 @@ Si no es así, puede seguir los pasos siguientes.
 1. Realice una de las siguientes acciones para descargar la aplicación:
 
    * Si está usando el entorno de producción, haga clic en [Descarga de producción de Mac para el Visor de corrección de escritorio.](https://app.proofhq.com/desktopviewer/mac)
-   * Si está usando el entorno de vista previa, haga clic en [Descarga de vista previa de Mac para el Visor de corrección de escritorio.](https://assets.preview.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Preview-2.1.44.pkg)
+   * Si está usando el entorno de vista previa, haga clic en [Descarga de vista previa de Mac para el Visor de corrección de escritorio.](https://app.preview.proofhq.com/desktopviewer/mac)
 
 1. Abra el archivo que acaba de descargar para iniciar la instalación.
 1. En el cuadro de instalación que aparece, haga clic en **Continuar** y, a continuación, en **Instalar**.

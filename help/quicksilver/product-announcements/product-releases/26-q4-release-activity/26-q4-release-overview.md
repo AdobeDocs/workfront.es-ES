@@ -13,9 +13,9 @@ feature_v2:
 subfeature_v2:
   - id: a29813d3-f0cc-4b60-9396-13b558370803
     internal-label: Product announcements
-source-git-commit: fd5df8f333ecc83ef87a753133a0ac46f04497db
+source-git-commit: b3d98796609ca5db35d11749eb0f1db39bd0feea
 workflow-type: tm+mt
-source-wordcount: '3584'
+source-wordcount: '3579'
 ht-degree: 8%
 ---
 # Resumen de la versión del cuarto trimestre de 2026
@@ -33,7 +33,7 @@ Se celebran seminarios web en directo para cada versión trimestral, en los que 
 >
 >| Versión mensual | Versión trimestral |
 >|----|----|
->| <ul><li>26.8 (13 de agosto de 2026)</li><li>26.9 (17 de septiembre de 2026)</li><li>26.10 (14 de octubre de 2026)</li></ul> | <ul><li>26.10 (22 de octubre de 2026)</li></ul> |
+>| <ul><li>26.8 (13 de agosto de 2026)</li><li>26.9 (17 de septiembre de 2026)</li><li>26.10 (22 de octubre de 2026)</li></ul> | <ul><li>26.10 (22 de octubre de 2026)</li></ul> |
 >
 >* La versión 26.10 de (octubre de 2026) se ha trasladado al 22 de octubre de 2026.
 >
@@ -382,12 +382,12 @@ Se celebran seminarios web en directo para cada versión trimestral, en los que 
 -->        
          <tr>
             <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-documents.md" class="MCXref xref" xrefformat="{para}">Agrupar varios documentos en un solo flujo de trabajo de aprobación</a><p>[!BADGE Off schedule]{type=Neutral}</p>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-documents.md" class="MCXref xref" xrefformat="{para}">Agrupar varios documentos en un solo flujo de trabajo de aprobación</a>
                 <p>Ahora puede agrupar varios documentos en un solo flujo de trabajo de aprobación para que se muevan juntos por las mismas fases.</p>
             </td>
             <td><p>Esta función no está disponible en el entorno de vista previa de espacio aislado porque la integración de Frame.io no está disponible allí.</p></td>
-            <td><p>15 de octubre de 2026</p></td>
-            <td><p>15 de octubre de 2026</p></td>
+            <td><p>22 de octubre de 2026</p></td>
+            <td><p>22 de octubre de 2026</p></td>
         </tr>
         <tr>
             <td>

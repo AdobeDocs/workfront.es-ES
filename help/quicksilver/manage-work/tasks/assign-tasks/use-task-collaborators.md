@@ -16,10 +16,10 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 4a27006cc4989fb1fed0eed5d7a4cef3a69af1d4
+source-git-commit: 18b3d84862352792e094738269e4307e2f6006bf
 workflow-type: tm+mt
-source-wordcount: '1080'
-ht-degree: 3%
+source-wordcount: '1143'
+ht-degree: 2%
 ---
 # Usar agentes de trabajo
 
@@ -74,7 +74,7 @@ Los agentes de trabajo son una forma de asignar agentes a tareas específicas en
 
 Algunos flujos de trabajo de ejemplo pueden incluir:
 
-* Detectar imágenes cargadas en una tarea, generar variaciones basadas en criterios determinados al agente y cargar las nuevas imágenes en la tarea.
+* Generar una copia a partir de los detalles de la tarea y los documentos adjuntos basados en texto y, a continuación, publicar la salida en el flujo de actualización o cargarla como un documento basado en texto.
 * Generar una copia a partir de una descripción de tarea, revisar la copia según las directrices configuradas en el agente y publicar una copia en el flujo de actualización.
 * Leer los detalles de un evento, identificar los detalles que faltan y publicar preguntas en el flujo de actualización sobre los detalles que faltan.
 
@@ -94,7 +94,8 @@ Cuando un agente de trabajo comienza a trabajar en una tarea, lee automáticamen
 * Descripción de la tarea
 * Comentarios en el flujo de actualización de la tarea
 * Información de cualquier formulario personalizado adjunto a la tarea
-* <span class="preview"> documentos adjuntos</span>
+* <span class="preview">Documentos adjuntos basados en texto, como archivos DOC y PDF</span>
+* <span class="preview">Campos de proyecto, si están configurados en la configuración del agente de trabajo</span>
 
 Esta información siempre se lee y no se puede configurar como ajuste de Workfront.
 
@@ -104,6 +105,14 @@ Esta información siempre se lee y no se puede configurar como ajuste de Workfro
 >
 >* Incluya cualquier información de fondo que desee que el agente utilice directamente en la descripción de la tarea o en un campo de formulario personalizado relevante.
 >* Asegúrese de que la tarea coincida con lo que el agente debe hacer. Por ejemplo, si su agente tiene instrucciones para traducir texto de inglés a francés, incluya el texto que desea traducir en la descripción de la tarea.
+
+## Acciones que puede realizar un agente de trabajo
+
+Según la configuración del agente de trabajo en Workfront, puede realizar las siguientes acciones una vez finalizado su trabajo:
+
+* Escribir campos de tarea, si están configurados
+* Cargar documentos basados en texto
+* Marcar la tarea como completada
 
 ## Déclencheur de inicio del agente de trabajo
 
