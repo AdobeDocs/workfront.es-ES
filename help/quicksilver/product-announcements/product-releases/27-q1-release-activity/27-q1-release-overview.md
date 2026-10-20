@@ -5,10 +5,10 @@ author: Courtney
 draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 58f437f05fd68d14ac96dae0449d8e67db816406
+source-git-commit: a8c35fd2f1059bd91de7d6d59db7e447ec6af6a9
 workflow-type: tm+mt
-source-wordcount: '334'
-ht-degree: 50%
+source-wordcount: '516'
+ht-degree: 30%
 ---
 
 # Información general sobre la versión del primer trimestre de 2027
@@ -58,7 +58,7 @@ Las mejoras de esta página están disponibles en el entorno de vista previa. Es
 ## Notas de la versión para otras áreas
 
 * [Actividad de la versión de Adobe Workfront Fusion](https://experienceleague.adobe.com/es/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
-* [Actividad de la versión de Adobe Workfront Planning](https://experienceleague.adobe.com/en/docs/workfront/using/workfront-planning/get-started/planning-overview).
+* [Actividad de la versión de Adobe Workfront Planning](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
 
 En este punto de la versión, no hay actualizaciones de lo siguiente:
 
@@ -66,9 +66,41 @@ En este punto de la versión, no hay actualizaciones de lo siguiente:
 * Revisión
 * Metas
 
-### Actualizaciones de mantenimiento de Workfront
+## Anuncios
 
-Para obtener información sobre las actualizaciones de mantenimiento realizadas durante la versión del primer trimestre de 2027, consulte [Actualizaciones de mantenimiento de Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=es).
+### Obsolescencia de los campos de facturación y tasa de coste heredados en las vistas de lista de funciones del puesto
+
+Con el tiempo, hemos introducido funcionalidades mejoradas de administración de tarifas y experiencias de función de trabajo dedicadas que proporcionan un enfoque más completo y escalable para mantener la información de tarifas. Como resultado, la administración de tasas se está moviendo hacia estas experiencias dedicadas en lugar de flujos de trabajo de administración basados en listas.
+
+Con la versión de enero de 2027, los campos heredados **Facturación por hora** y **Costo por hora** ya no estarán disponibles en la API de Workfront ni en las vistas de lista de funciones, incluidas las configuraciones de filtro/vista/agrupación (referencias directas y columnas calculadas en modo de texto).
+
+Como reemplazo en los informes, puede usar el código de modo de texto recomendado (use `costRates` o `billingRates` según sea necesario):
+
+    &quot;
+    displayname=Test
+    listdelimiter=&lt;br>
+    listmethod=nested(costRates).lists
+    type=iterate
+    valueexpression=CONCAT({startDate},&quot; - &quot;,{endDate},&quot;: &quot;,{value})
+    valueformat=HTML
+    &quot;
+
+Para administrar y revisar las tasas de funciones del puesto, utilice las experiencias de administración de tasas dedicadas:
+
+* Acceda y administre las tasas de funciones directamente desde la página Función del puesto > Tasas.
+* Utilice los informes de tasas para revisar, analizar e informar sobre la información de tasas en los roles.
+
+No se requiere ninguna acción para prepararse para el cambio. Sin embargo, los administradores que actualmente muestran los campos **Facturación por hora** y **Costo por hora** en las vistas de la lista de roles deben actualizar sus flujos de trabajo para utilizar las experiencias de administración de tarifas recomendadas descritas anteriormente.
+
+Para obtener información sobre las tasas de rol, consulte [Crear y administrar roles](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
+
+<!--
+
+### Workfront Maintenance Updates
+
+For information about the maintenance updates made during the First Quarter 2027 release, see [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=es).
+
+-->
 
 ### Actualizaciones de aprendizaje
 
