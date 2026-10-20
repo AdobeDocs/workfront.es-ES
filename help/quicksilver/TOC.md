@@ -3,9 +3,9 @@ user-guide-title: Guía de Workfront
 user-guide-description: Utilice los siguientes documentos, tutoriales y recursos adicionales para aprender a implementar y utilizar Adobe Workfront de forma eficaz en su organización.
 role: User
 feature-set: Workfront
-source-git-commit: 5298faf95a89935356a94374246ec3b98b785fbb
+source-git-commit: f0cde465a56d0cc936e8c886f4a120dec5fe5f73
 workflow-type: tm+mt
-source-wordcount: '14694'
+source-wordcount: '14700'
 ht-degree: 91%
 ---
 # Guía de Workfront {#using}
@@ -697,7 +697,9 @@ ht-degree: 91%
       * [Eliminación de una condición personalizada](administration-and-setup/customize-workfront/create-manage-custom-conditions/delete-custom-conditions.md)
   * Administrar Adobe Workfront {#manage-wf}
     * [Administrar Workfront](administration-and-setup/manage-workfront/manage-workfront.md)
-    * [Configuración de suscripciones a eventos en Workfront](administration-and-setup/manage-workfront/configure-event-subscriptions-in-workfront.md)
+    * Administrar suscripciones a eventos {#manage-event-subscriptions}
+      * [Administrar suscripciones a eventos](administration-and-setup/manage-workfront/manage-event-subscriptions/manage-event-subscriptions.md)
+      * [Configuración de suscripciones a eventos en Workfront](administration-and-setup/manage-workfront/manage-event-subscriptions/configure-event-subscriptions-in-workfront.md)
     * Configurar la funcionalidad de revisión {#configure-proofing}
       * [Configurar revisión](administration-and-setup/manage-workfront/configure-proofing/configuring-proofing-functionality.md)
       * [Configuración de prueba](administration-and-setup/manage-workfront/configure-proofing/configure-proofing-organization.md)
@@ -2681,7 +2683,7 @@ ht-degree: 91%
     * [Configure y utilice las aplicaciones OAuth 2 personalizadas de la organización mediante el flujo JWT](wf-api/api/oauth-app-jwt-flow.md)
     * [Configure y utilice las aplicaciones OAuth 2 personalizadas de su organización mediante el flujo PKCE](wf-api/api/oauth-app-pkce-flow.md)
     * [Obsolescencia de la API interna](wf-api/api/deprecation-api-internal.md)
-    * [Novedades de la versión 22 de la API](/help/quicksilver/wf-api/api/new-api-version-22.md)
+    * [Novedades de la versión 22](/help/quicksilver/wf-api/api/new-api-version-22.md) de la API
     * [Novedades de la versión 21 de la API](/help/quicksilver/wf-api/api/new-api-version-21.md)
     * [Novedades de la versión 20 de la API](/help/quicksilver/wf-api/api/new-api-version-20.md)
     * [Novedades de la versión 19 de la API](wf-api/api/new-api-version-19.md)

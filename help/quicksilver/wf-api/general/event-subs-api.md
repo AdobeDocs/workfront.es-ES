@@ -26,10 +26,10 @@ topic_v2:
     internal-label: Customer experience
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
     internal-label: Security
-source-git-commit: 5a44679115dcfda871e2fe40c0c8443649fc43cf
+source-git-commit: f0cde465a56d0cc936e8c886f4a120dec5fe5f73
 workflow-type: tm+mt
-source-wordcount: '3560'
-ht-degree: 88%
+source-wordcount: '3623'
+ht-degree: 85%
 ---
 # API de suscripción a eventos
 
@@ -45,7 +45,7 @@ Dado que las suscripciones de eventos envían datos a otro servicio, se administ
 
 >[!NOTE]
 >
->Para trabajar con suscripciones a eventos dentro de la aplicación Workfront, consulte [Configuración de suscripciones a eventos en Workfront](/help/quicksilver/administration-and-setup/manage-workfront/configure-event-subscriptions-in-workfront.md).
+>Para trabajar con suscripciones de eventos dentro de la aplicación Workfront, consulta [Configuración de suscripciones de eventos en Workfront](/help/quicksilver/administration-and-setup/manage-workfront/manage-event-subscriptions/configure-event-subscriptions-in-workfront.md) y [Administración de suscripciones de eventos como usuario no administrador](/help/quicksilver/wf-api/general/event-subs-non-admin.md).
 
 Para recibir cargas útiles de suscripciones a eventos a través del cortafuegos, debe añadir las siguientes direcciones IP a la lista de permitidos:
 
@@ -118,12 +118,14 @@ Las suscripciones a eventos admiten los siguientes objetos de Workfront.
 
 ## Autenticación de la suscripción a eventos
 
-Para crear, consultar o eliminar una suscripción a eventos, el usuario de Workfront necesita lo siguiente:
+Para crear, consultar o eliminar una suscripción de evento, el usuario de Workfront debe tener el acceso necesario a la función Suscripciones de evento y los permisos adecuados para la acción que se está realizando.
 
-* Se requiere un nivel de acceso de “Administrador del sistema” para utilizar las suscripciones a eventos.
-* Se requiere un encabezado `sessionID` para usar la API de suscripciones a eventos
+* Un usuario con el acceso requerido puede administrar suscripciones de evento en Workfront, pero solo dentro del ámbito permitido por sus permisos y la configuración del sistema.
+* Se requiere un encabezado `sessionID` para usar la API de suscripciones a eventos.
 
   Para obtener más información, consulte [Autenticación](api-basics.md#authentication) en [Conceptos básicos de la API](api-basics.md).
+
+Para obtener información sobre cómo administrar suscripciones de eventos en la aplicación Workfront cuando no es administrador de Workfront, consulte [Administrar suscripciones de eventos como usuario no administrador](/help/quicksilver/wf-api/general/event-subs-non-admin.md).
 
 ## Evitar sobrecargar suscripciones a eventos
 
