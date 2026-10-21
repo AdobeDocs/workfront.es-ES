@@ -4,14 +4,14 @@ content-type: how-to
 product-area: system-administration
 navigation-topic: manage-workfront
 title: Configuración de suscripciones a eventos en Workfront
-description: Como administrador de Adobe Workfront, puede crear, ver y eliminar suscripciones de eventos desde el área de Configuración para enviar eventos de Workfront a un extremo externo.
+description: Los administradores de Workfront pueden crear, ver y eliminar suscripciones de eventos desde la Configuración. Los usuarios con el acceso requerido también pueden administrar suscripciones de evento dentro del ámbito permitido por sus permisos y la configuración del sistema.
 feature: System Setup and Administration
 role: Admin
 author: Courtney
-source-git-commit: 5a44679115dcfda871e2fe40c0c8443649fc43cf
+source-git-commit: f0cde465a56d0cc936e8c886f4a120dec5fe5f73
 workflow-type: tm+mt
-source-wordcount: '385'
-ht-degree: 11%
+source-wordcount: '452'
+ht-degree: 8%
 ---
 
 # Configuración de suscripciones a eventos en Workfront
@@ -21,6 +21,8 @@ ht-degree: 11%
 Como administrador de Adobe Workfront, puede crear, ver y eliminar suscripciones de evento desde el área de Configuración. Las suscripciones a eventos envían información de eventos de Workfront a un extremo externo cuando se producen eventos especificados.
 
 Puede crear y eliminar suscripciones de evento en Workfront, pero no puede editar una suscripción existente. Si necesita cambiar una suscripción, elimínela y cree una nueva.
+
+Los usuarios que tengan el acceso requerido también pueden administrar suscripciones de evento en Workfront, pero solo dentro del ámbito permitido por sus permisos y la configuración del sistema. Para obtener más información, consulte [Administrar suscripciones a eventos como usuario no administrador](/help/quicksilver/wf-api/general/event-subs-non-admin.md).
 
 Para obtener más información acerca de las suscripciones a eventos, vea los artículos en [Suscripciones a eventos](/help/quicksilver/wf-api/api/event-subscriptions.md).
 
@@ -45,7 +47,10 @@ Para obtener más información acerca de las suscripciones a eventos, vea los ar
   </tr>
   <tr>
    <td role="rowheader">Configuraciones de nivel de acceso</td>
-   <td>Debe ser administrador de Workfront.</td>
+   <td>
+    <p>Debe tener el acceso adecuado para administrar suscripciones a eventos.</p>
+    <p>Los usuarios no administradores solo pueden tener acceso dentro del ámbito permitido por sus permisos y la configuración del sistema.</p>
+   </td>
   </tr>
  </tbody>
 </table>

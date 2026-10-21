@@ -23,10 +23,10 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: d4a9a8e4608e46eb9a2e16619bf1042de002cd12
 workflow-type: tm+mt
-source-wordcount: '579'
-ht-degree: 36%
+source-wordcount: '587'
+ht-degree: 35%
 ---
 # Conceder acceso a informes, tableros y calendarios
 
@@ -80,12 +80,15 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
 
    * **Create**
    * **Eliminar**
-   * **Ver informes integrados**: Es necesario seleccionarlo para ver los informes creados por Workfront.
    * **Compartir**
+
+   Las opciones que no están habilitadas de forma predeterminada son:
+
+   * **Ver informes integrados**: Es necesario seleccionarlo para ver los informes creados por Workfront.
    * **Compartir informes públicamente**: los informes se pueden compartir públicamente, compartiendo un vínculo público al informe con cualquier persona que no tenga una cuenta de Workfront. Esta opción debe estar seleccionada para permitir este nivel de uso compartido.
    * **Compartir en todo el sistema**: los informes se pueden compartir con todos los usuarios del sistema que tengan una licencia de Workfront. Esta opción debe estar seleccionada para permitir este nivel de uso compartido.
 
-     Para obtener información sobre cómo compartir informes, tableros y calendarios, vea [Compartir informes, tableros y calendarios](../../../workfront-basics/grant-and-request-access-to-objects/permissions-reports-dashboards-calendars.md).
+   Para obtener información sobre cómo compartir informes, tableros y calendarios, vea [Compartir informes, tableros y calendarios](../../../workfront-basics/grant-and-request-access-to-objects/permissions-reports-dashboards-calendars.md).
 
 1. (Opcional) Para establecer la configuración de acceso para otros objetos y áreas en el nivel de acceso en el que esté trabajando, continúe con uno de los artículos enumerados en [Configurar el acceso a Adobe Workfront](../../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md), como [Conceder acceso a las tareas](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md) y [Conceder acceso a los datos financieros](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
 1. Cuando termine, haga clic en **Guardar**.

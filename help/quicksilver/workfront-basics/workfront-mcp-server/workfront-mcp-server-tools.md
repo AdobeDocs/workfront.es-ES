@@ -11,9 +11,9 @@ product_v2:
 feature_v2:
   - id: c042179c-157b-516d-b27c-e3bf303e8567
     internal-label: Get Started with Workfront
-source-git-commit: 9bb1e7773748d9432656c0949ea37b1fcf054b0e
+source-git-commit: de155fd16a4750162a465cb5f2eac2d5f7ec6b7d
 workflow-type: tm+mt
-source-wordcount: '3561'
+source-wordcount: '3537'
 ht-degree: 6%
 ---
 
@@ -235,11 +235,11 @@ Las herramientas de flujo de trabajo son las acciones de uso general que utiliza
 
 | Título | Nombre de herramienta | Qué hace | Acción |
 | --- | --- | --- | --- |
-| Buscar objetos | `workflow_search_any_object` | Busca objetos de Workfront con parámetros de filtro, orden y paginación flexibles. | Leer |
+| Buscar objetos | `workflow_search_any_object` | Esta herramienta se ha desaprobado. | Leer |
 | Crear objeto | `workflow_create_any_object` | Crea un nuevo objeto de Workfront, como un proyecto, una tarea, un problema, una hora, una asignación, un programa o un portafolio. | Escritura |
 | Actualizar objeto | `workflow_update_any_object` | Actualiza los campos de un objeto existente. También admite mover una tarea o un problema a otro proyecto, convertir una tarea o un problema en un nuevo proyecto (o un problema en una tarea) y establecer predecesoras de tareas (dependencias). | Escritura |
 | Eliminar objeto | `workflow_delete_any_object` | Elimina un objeto de Workfront por ID. Requiere confirmación explícita del usuario antes de realizar la acción. | Escritura |
-| Resolver nombres de campo | `workflow_resolve_field_names_any_object` | Convierte los nombres de campo o las etiquetas proporcionados por el usuario en los nombres de campo de la API de Workfront subyacentes para que la plataforma agéntica de IA pueda crear solicitudes precisas. | Leer |
+| Resolver nombres de campo | `workflow_resolve_field_names_any_object` | Esta herramienta se ha desaprobado. | Leer |
 | Leer documentos de flujo de trabajo | `workflow_read_workflow_docs` | Carga la documentación del flujo de trabajo de Workfront, incluidas las guías de uso de herramientas y los libros de reproducción de operaciones específicas de objetos. Este es el primer paso necesario antes de realizar acciones de flujo de trabajo. | Leer |
 
 ### Actualizar las capacidades de la herramienta Objeto

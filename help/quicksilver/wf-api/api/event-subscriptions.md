@@ -17,10 +17,10 @@ feature_v2:
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer
-source-git-commit: 5a44679115dcfda871e2fe40c0c8443649fc43cf
+source-git-commit: f0cde465a56d0cc936e8c886f4a120dec5fe5f73
 workflow-type: tm+mt
-source-wordcount: '66'
-ht-degree: 77%
+source-wordcount: '83'
+ht-degree: 61%
 ---
 # Suscripciones a eventos
 
@@ -28,9 +28,10 @@ A continuación se muestran varios recursos sobre suscripciones a eventos en Ado
 
 >[!NOTE]
 >
->Para trabajar con suscripciones a eventos dentro de la aplicación Workfront, consulte [Configuración de suscripciones a eventos en Workfront](/help/quicksilver/administration-and-setup/manage-workfront/configure-event-subscriptions-in-workfront.md).
+>Para trabajar con suscripciones de eventos dentro de la aplicación Workfront, consulta [Configuración de suscripciones de eventos en Workfront](/help/quicksilver/administration-and-setup/manage-workfront/manage-event-subscriptions/configure-event-subscriptions-in-workfront.md) y [Administración de suscripciones de eventos como usuario no administrador](/help/quicksilver/wf-api/general/event-subs-non-admin.md).
 
 * [API de suscripción a eventos](../../wf-api/general/event-subs-api.md)
+* [Administración de suscripciones a eventos como usuario no administrador](../../wf-api/general/event-subs-non-admin.md)
 * [Prácticas recomendadas para la suscripción a eventos](../../wf-api/general/event-sub-best-practice.md)
 * [Requisitos para el envío de suscripciones a eventos](../../wf-api/general/setup-event-sub-endpoint.md)
 * [Campos de recursos de suscripción a eventos](../../wf-api/api/event-sub-resource-fields.md)

@@ -11,9 +11,9 @@ role_v2:
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
     internal-label: Workfront
-source-git-commit: 85f0798c7956369e7b3c92a6c777414fa81511b6
+source-git-commit: 05f148f2c28555e37fb415f606e314a5df564047
 workflow-type: tm+mt
-source-wordcount: '481'
+source-wordcount: '463'
 ht-degree: 8%
 ---
 # Adición de un vínculo web como documento
@@ -64,7 +64,7 @@ Puede cargar una página web HTML en Workfront como vínculo web. Después de ag
 >* Las direcciones URL son compatibles si el sitio permite incrustaciones de iFrame.
 >* Se admiten direcciones URL web privadas, pero es posible que ciertos flujos de autenticación no funcionen según la configuración del servidor.
 >* Las direcciones URL de YouTube y Figma no son compatibles actualmente.<br>
->Para obtener más información, vea [Qué tipos de direcciones URL son compatibles con Frame.io](https://help.frame.io/en/articles/12893213-html-review-for-frame-io#:~:text=of%20the%20page.-,What%20types%20of%20URLs%20are%20supported%3F,-URLs%20are%20supported).
+>Para obtener más información, consulte [Revisión de HTML para Frame.io](https://help.frame.io/en/articles/12893213-html-review-for-frame-io).
 
 
 Para añadir un vínculo web:
