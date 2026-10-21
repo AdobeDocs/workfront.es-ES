@@ -25,9 +25,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 98aa8dfa8ddb2c4b159e21c29d0385d5bdd7744a
+source-git-commit: e3f394fd4bb2767993df2714aed4aa06b312d48d
 workflow-type: tm+mt
-source-wordcount: '3374'
+source-wordcount: '3360'
 ht-degree: 2%
 ---
 # Uso de listas mejoradas
@@ -83,7 +83,6 @@ A continuación se muestran algunos tipos de listas de objetos de Workfront que 
 | <span class="preview">Listas de acciones y campos rastreados en las fuentes de actualización</span> | <ul><li><span class="preview">Configuración > Interfaz > Actualizar fuentes > Pestaña Campos rastreados</span></li> <li><span class="preview">Configuración > Interfaz > Actualizar fuentes > pestaña Acciones</span></li></ul> |
 | <span class="preview">Lista de cuadros de resultados</span> | <span class="preview">Configuración > Cuadros de resultados</span> |
 | <span class="preview">Lista de tipos de riesgos</span> | <span class="preview">Configuración > Tipos de riesgos</span> |
-| <span class="preview">Lista de notificaciones de eventos</span> | <ul><li><span class="preview">Configuración > Correo electrónico > Notificaciones > Notificaciones de eventos</span></li><li><span class="preview">Página de detalles del grupo > Notificaciones de eventos</span></li></ul> |
 | Lista de funciones y tarifas del puesto en una tarjeta de tarifas | Configuración > Tarjetas de tarifas > seleccione una tarjeta de tarifas > Funciones del puesto y tarifas |
 | <span class="preview">Lista de ubicaciones</span> | <span class="preview">Configuración > Ubicaciones</span> |
 | Lista de traducciones | Configuración > Localización |
@@ -104,6 +103,8 @@ A continuación se muestran algunos tipos de listas de objetos de Workfront que 
 
 Under integrations?
 | <span class="preview">List of layout templates</span> | <ul><li><span class="preview">Setup > Interface > Layout Templates</span></li><li><span class="preview">Group Detail page > Layout Templates</span></li></ul> |
+
+| <span class="preview">List of event notifications</span> | <ul><li><span class="preview">Setup > Email > Notifications > Event Notifications</span></li><li><span class="preview">Group Detail page > Event Notifications</span></li></ul> |
 
 Under Locations?
 | <span class="preview">Lists of timesheet profiles and hour types</span> | <span class="preview"><ul><li>Setup > Timesheets and Hours > Timesheet Profiles</li><li>Setup > Timesheets and Hours > Hour Types</li></ul></span> |
