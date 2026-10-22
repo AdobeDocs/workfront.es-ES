@@ -25,10 +25,10 @@ topic_v2:
     internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: a2fa27fa656dcc4a9799b20b734a7a0121470419
 workflow-type: tm+mt
 source-wordcount: '481'
-ht-degree: 78%
+ht-degree: 74%
 ---
 # Póngase en contacto con el servicio de atención al cliente
 
@@ -100,7 +100,7 @@ Puede enviar un ticket de asistencia técnica desde el portal de autoservicio de
 >Solo los contactos de asistencia autorizados (o los usuarios con derechos de asistencia) pueden enviar tickets de asistencia en línea.
 
 
-1. En el sitio web [[!DNL Experience League]](https://experienceleague.adobe.com/es), haga clic en **[!UICONTROL Asistencia técnica]** en la parte superior de la página.
+1. En el sitio web [[!DNL Experience League]](https://experienceleague.adobe.com), haga clic en **[!UICONTROL Asistencia técnica]** en la parte superior de la página.
 
    ![](assets/experience-league-top-navigation-with-support-highlighted.png)
 
@@ -142,7 +142,7 @@ Si tiene alguna pregunta o problema al enviar una solicitud, llame al equipo de 
 
 1. Vaya a la página **[!UICONTROL Mis casos]**. Esta página se abre cuando envía un caso o puede abrirla haciendo clic en **[!UICONTROL Mis casos]** en el panel de navegación izquierdo.
 
-1. (Opcional) Utilice las opciones de la parte superior de la página para filtrar por **Producto (solución [!DNL Experience Cloud])** o caso **[!UICONTROL Estado]** ([!UICONTROL Abierto] o Cerrado). También puede utilizar el cuadro de [!UICONTROL búsqueda] para buscar cualquier palabra clave que pertenezca a sus casos de asistencia técnica.
+1. (Opcional) Use las opciones de la parte superior de la página para filtrar por **Producto ([!DNL CX Enterprise] solución)** o caso **[!UICONTROL Estado]** ([!UICONTROL Abierto] o [!UICONTROL Cerrado]). También puede utilizar el cuadro de [!UICONTROL búsqueda] para buscar cualquier palabra clave que pertenezca a sus casos de asistencia técnica.
 
 1. (Opcional) Para ver más detalles sobre un caso, haga clic en **Número de caso** para acceder a él.
 
@@ -156,7 +156,7 @@ Si tiene alguna pregunta o problema al enviar una solicitud, llame al equipo de 
 
 
 <!--
-drafted: I took the information above from this blog post by Jon Chen (on September 13, 2022): https://experienceleaguecommunities.adobe.com/t5/workfront-blogs/how-to-submit-a-support-ticket-on-experience-league/ba-p/461737?profile.language=es)
+drafted: I took the information above from this blog post by Jon Chen (on September 13, 2022): https://experienceleaguecommunities.adobe.com/t5/workfront-blogs/how-to-submit-a-support-ticket-on-experience-league/ba-p/461737)
 
 - this is the information that was there before - pointing to WorkfrontOne: 
 

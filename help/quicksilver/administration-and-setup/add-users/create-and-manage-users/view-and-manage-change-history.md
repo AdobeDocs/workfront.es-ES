@@ -15,14 +15,12 @@ feature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: a41c8c19f14058571c027da1dc49041b060e4b65
 workflow-type: tm+mt
 source-wordcount: '523'
 ht-degree: 6%
 ---
 # Ver y administrar el historial de cambios
-
-{{preview-fast-release-general}}
 
 El historial de cambios permite al administrador del sistema configurar y realizar un seguimiento de los cambios realizados en los objetos y campos específicos de Adobe Workfront. La configuración flexible permite al administrador configurar qué objetos y campos se rastrean exactamente.
 
@@ -31,7 +29,7 @@ El historial de cambios puede rastrear los siguientes tipos de datos definidos:
 * Actividad en el área de Configuración, como crear o eliminar un nivel de acceso o un rol
 * Actualizaciones de nivel de campo, como editar una descripción de proyecto o cambiar la plantilla de diseño de un usuario
 * Actualizaciones de objetos, como actualizar el estado de un proyecto o adjuntar un formulario personalizado a una tarea
-* <span class="preview">Actividad de flujo de trabajo de revisión y aprobación unificadas, que incluye participantes y decisiones</span>
+* Actividad de flujo de trabajo de revisión y aprobación unificadas, que incluye participantes y decisiones
 
 Para obtener información sobre cómo definir qué objetos y campos se rastrean, vea [Configurar campos para rastrearlos en el historial de cambios](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/configure-fields-in-change-history.md).
 

@@ -30,10 +30,10 @@ topic_v2:
     internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: a2fa27fa656dcc4a9799b20b734a7a0121470419
 workflow-type: tm+mt
 source-wordcount: '1115'
-ht-degree: 88%
+ht-degree: 86%
 ---
 # Explicación de la migración de Workfront a Adobe Admin Console
 
@@ -106,7 +106,7 @@ Como administrador de perfiles de producto de Workfront (administrador del siste
 
 * **A medida que se migren los usuarios, recibirán un correo electrónico de Adobe que les notificará el cambio en la forma en que inician sesión en Workfront.** Se invitará a los usuarios a aceptar una invitación para iniciar sesión con Adobe Identity por primera vez, ya sea iniciando sesión con un Adobe ID existente o configurando un nuevo Adobe ID con la misma dirección de correo electrónico.
 
-  Para obtener más información sobre cómo iniciar sesión en Workfront con una Adobe ID, consulte [Iniciar sesión en Adobe Experience Cloud](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md#log-in-to-adobe-experience-cloud).
+  Para obtener información sobre cómo iniciar sesión en Workfront con un Adobe ID, consulte [Iniciar sesión en Adobe CX Enterprise](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md#log-in-to-adobe-cx-enterprise).
 
 ### Migración de usuarios completada
 

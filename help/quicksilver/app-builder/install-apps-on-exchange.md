@@ -7,24 +7,26 @@ exl-id: acbbd926-ca8f-4374-b1b3-297292b173bc
 TQID: https://experienceleague.adobe.com/Z48mL2K8rZ6YkPNAvfc3bnGNqjwpttBdwIgMECGzuxg
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Governance
+source-git-commit: a2fa27fa656dcc4a9799b20b734a7a0121470419
 workflow-type: tm+mt
-source-wordcount: 1301
+source-wordcount: '1301'
 ht-degree: 3%
-
 ---
-
 # Adquirir e instalar aplicaciones desde Adobe Exchange
 
 Ahora puede instalar aplicaciones creadas por socios para Workfront directamente desde Adobe Exchange. Esta capacidad conecta a los clientes con un ecosistema en crecimiento de socios de Adobe que ofrecen herramientas creadas específicamente para mejorar la productividad, optimizar las operaciones y ampliar la funcionalidad de Workfront. A través de Adobe Exchange, los clientes pueden descubrir e instalar aplicaciones que se integran perfectamente en Workfront mediante extensiones de interfaz de usuario.
 
-Adobe Exchange es el mercado central de aplicaciones, extensiones e integraciones de terceros en Adobe Experience Cloud, incluido Adobe Workfront. Para los clientes de Workfront, es el destino ideal para descubrir e instalar aplicaciones que mejoren la funcionalidad, optimicen los flujos de trabajo e integren sistemas externos.
+Adobe Exchange es el mercado central de aplicaciones, extensiones e integraciones de terceros en Adobe CX Enterprise, incluido Adobe Workfront. Para los clientes de Workfront, es el destino ideal para descubrir e instalar aplicaciones que mejoren la funcionalidad, optimicen los flujos de trabajo e integren sistemas externos.
 
 ## Aplicaciones de socio de Adobe
 
