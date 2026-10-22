@@ -5,15 +5,13 @@ title: Administración de aprobaciones agrupadas
 description: Puede añadir o quitar participantes y documentos en una aprobación agrupada sin interrumpir el flujo de trabajo del resto del grupo.
 author: Courtney
 feature: Work Management, Digital Content and Documents
-source-git-commit: ccb3d004feca5373473a872b101a7acff11de77f
+source-git-commit: e62ae215bcc7ea42701d6eb92cf43f531a6afc0d
 workflow-type: tm+mt
-source-wordcount: '1062'
+source-wordcount: '1030'
 ht-degree: 5%
 ---
 
 # Administración de aprobaciones agrupadas
-
-<span class="preview">La información de esta página no está disponible en el entorno de vista previa de espacio aislado porque la integración de Frame.io no está disponible allí. Esta funcionalidad estará disponible en los entornos de producción el 22 de octubre de 2026.</span>
 
 Una aprobación agrupada agrupa varios documentos en un solo flujo de trabajo de aprobación, por lo que todos los documentos se mueven por las mismas fases juntos en lugar de requerir una aprobación independiente por documento. Puede añadir o quitar participantes y documentos en una aprobación agrupada activa sin volver a crear el flujo de trabajo.
 
