@@ -25,24 +25,18 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 45491118778279522358f87c1c4185c4cf824829
+source-git-commit: 63ee9b3bd23d0715909018835adbc60739ab45c2
 workflow-type: tm+mt
-source-wordcount: '693'
-ht-degree: 15%
+source-wordcount: '539'
+ht-degree: 13%
 ---
 # Copia y movimiento de informes en paneles de lienzo
-
-{{highlighted-preview}}
 
 >[!IMPORTANT]
 >
 >Actualmente, la función Paneles de lienzo solo está disponible para los usuarios que participan en la fase beta. Es posible que algunas partes de la función no estén completas o que no funcionen según lo previsto durante esta fase. Envíe cualquier comentario sobre su experiencia siguiendo las instrucciones de la sección [Proporcionar comentarios](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) del artículo Información general sobre la versión beta de los paneles de lienzo.<br>
->Si tiene comentarios acerca de un posible error o problema técnico, envíe un ticket al equipo de asistencia de Workfront. Para obtener más información, consulte [Contacto con el servicio de asistencia al cliente](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>
->Tenga en cuenta que esta versión beta no está disponible en los siguientes proveedores de la nube:
->
->* Traer su propia clave para Amazon Web Service
->* Azure
->* Google Cloud Platform
+>Si tiene comentarios acerca de un posible error o problema técnico, envíe un ticket al equipo de asistencia de Workfront. Para obtener más información, consulte [Póngase en contacto con Atención al cliente](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>
+
 
 Puede duplicar un informe de KPI, tabla o gráfico en un panel de lienzo una vez creado. Una vez duplicado, puede editar el informe según sea necesario antes de guardar.
 
@@ -93,28 +87,8 @@ Debe agregar un informe a un panel para poder duplicarlo.
 
 Para obtener más información, consulte [Crear un panel de lienzo](/help/quicksilver/reports-and-dashboards/canvas-dashboards/create-dashboards/create-dashboards.md).
 
-## Duplicación de un informe en producción
 
-{{step1-to-dashboards}}
-
-1. En el panel izquierdo, haga clic en **Paneles de control de lienzo**.
-1. En la página **Paneles de lienzo**, haga clic en el icono de **Más** ![Más botón](assets/more-icon.png) en la esquina superior derecha del informe que desea duplicar y, a continuación, seleccione **Duplicado**.
-
-   ![Botón duplicado](assets/duplicate-button.png)
-
-1. (Opcional) En el cuadro **Configurar** que aparece, escriba un nuevo informe **Nombre** en la ficha **Detalles**.
-
-1. (Opcional) Realice los ajustes necesarios en las configuraciones utilizando las pestañas del lado izquierdo.
-
-   >[!NOTE]
-   >
-   >Estas pestañas variarán según si ha duplicado un informe de KPI, tabla o gráfico.  Para obtener más información, consulte [Crear un informe KPI en un panel de lienzo](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-kpi-report.md), [Crear un informe de gráfico en un panel de lienzo](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-chart-report.md) y [Crear un informe de tabla en un panel de lienzo](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-table-report.md).
-
-1. Haga clic en **Guardar**. El informe duplicado aparecerá en el tablero.
-
-<div class="preview">
-
-## Copiar o mover un informe en vista previa
+## Copiar o mover un informe
 
 Puede copiar un informe en el tablero actual, copiarlo en otro tablero o moverlo a otro tablero. Copiar crea un duplicado del informe en el destino; al moverlo, se reubica fuera del panel actual.
 
@@ -160,4 +134,3 @@ Para copiar o mover un informe:
 
    ![copiar y mover](assets/copy-and-move.png)
 
-</div>

@@ -30,10 +30,10 @@ topic_v2:
     internal-label: Optimization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 45491118778279522358f87c1c4185c4cf824829
+source-git-commit: f619f55cb5df1c0aabbf9bc9137b506e39882e1d
 workflow-type: tm+mt
-source-wordcount: '575'
-ht-degree: 25%
+source-wordcount: '550'
+ht-degree: 26%
 ---
 # Información general sobre paneles de control de lienzo
 
@@ -43,11 +43,7 @@ ht-degree: 25%
 >
 >Si tiene comentarios acerca de un posible error o problema técnico, envíe un ticket al equipo de asistencia de Workfront. Para obtener más información, consulte [Contacto con el servicio de asistencia al cliente](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).
 >
->Tenga en cuenta que esta versión beta no está disponible en los siguientes proveedores de la nube:
->
->* Traer su propia clave para Amazon Web Service
->* Azure
->* Google Cloud Platform
+
 
 Los paneles de lienzo le permiten visualizar fácilmente los datos de Adobe Workfront agregando tipos de informes a un lienzo que ofrece muchas opciones de diseño flexibles, como cambiar el tamaño, arrastrar y soltar, etc.
 
