@@ -7,16 +7,14 @@ title: Configuración de suscripciones a eventos en Workfront
 description: Los administradores de Workfront pueden crear, ver y eliminar suscripciones de eventos desde la Configuración. Los usuarios con el acceso requerido también pueden administrar suscripciones de evento dentro del ámbito permitido por sus permisos y la configuración del sistema.
 feature: System Setup and Administration
 role: Admin
-author: Courtney
-source-git-commit: f0cde465a56d0cc936e8c886f4a120dec5fe5f73
+author: Becky
+source-git-commit: 35d1ee552feec33f3f2ae17dff12601ab0d90951
 workflow-type: tm+mt
 source-wordcount: '452'
 ht-degree: 8%
 ---
 
 # Configuración de suscripciones a eventos en Workfront
-
-{{highlighted-preview-article-level}}
 
 Como administrador de Adobe Workfront, puede crear, ver y eliminar suscripciones de evento desde el área de Configuración. Las suscripciones a eventos envían información de eventos de Workfront a un extremo externo cuando se producen eventos especificados.
 

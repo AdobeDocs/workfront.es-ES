@@ -38,10 +38,10 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 02a97fd6bb32c285e1bef5d614ea4ca713c83a40
+source-git-commit: 35d1ee552feec33f3f2ae17dff12601ab0d90951
 workflow-type: tm+mt
-source-wordcount: '1360'
-ht-degree: 62%
+source-wordcount: '1300'
+ht-degree: 64%
 ---
 # Introducción a Planificación de Workfront de Adobe
 
@@ -53,10 +53,13 @@ this article is linked to the WF Planning landing page - do not change URL or mo
 
 <!--do not use the snippet for IMPORTANT as it links to this article-->
 
-<span class="preview">La información resaltada en esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa para todos los clientes. Después del lanzamiento en Vista previa, las mismas funciones también están disponibles mensualmente en el entorno de producción para los clientes que habilitaron lanzamientos rápidos. </span>
+<!--
 
-<span class="preview">Para obtener información sobre las versiones rápidas, consulte [Habilitar o deshabilitar las versiones rápidas para su organización](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
+-->
 
 >[!IMPORTANT]
 >
@@ -183,14 +186,8 @@ Para localizar Planificación de Workfront:
 * [Información general e índice de artículos de Adobe Workfront Planning](/help/quicksilver/planning/planning-information.md): Índice de todos los artículos que contienen documentación sobre Workfront Planning, agrupados por área de interés.
 * [Introducción a Adobe Workfront Planning como producto independiente](/help/quicksilver/planning/planning-sta/planning-sta-overview.md): Información general sobre Workfront Planning, cuando se compra como producto independiente.
 * [Información general del Asistente de IA de Planificación de Workfront de Adobe](/help/quicksilver/planning/general/planning-ai-assistant-overview.md): con el Asistente de IA de Planificación de Workfront puede buscar registros o crear, actualizar y eliminar registros mediante comandos y dejar que el asistente haga el trabajo por usted.
-
-<div class="preview">
-
 * [Información general sobre Adobe Workfront Planning CX Enterprise Coworker](/help/quicksilver/planning/general/planning-cx-coworker-overview.md): Una interfaz conversacional en la que se describe un objetivo en lenguaje sencillo y, a continuación, se planifica, ejecuta y valida el trabajo en Workfront Planning y en otros sistemas Adobe conectados antes de devolverlo para su aprobación. CX Enterprise Coworker preserva todo lo que hace AI Assistant hoy en día, a la vez que agrega capacidades integrales más potentes tanto en una nueva experiencia de pantalla completa como en el carril derecho de Workfront.
-
-</div>
-
-* [Módulos de Planificación de Workfront de Adobe para Workfront Fusion](https://experienceleague.adobe.com/es/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-planning-modules): Con los módulos de Planificación de Workfront de Adobe, puede activar un escenario cuando se produzcan eventos en Planificación de Workfront. También puede crear, leer, actualizar y eliminar registros, o realizar una llamada de API personalizada a su cuenta de Planificación de Workfront de Adobe. Debe adquirir una licencia adicional para tener acceso a Workfront Fusion.
+* [Módulos de Planificación de Workfront de Adobe para Workfront Fusion](https://experienceleague.adobe.com/es/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-planning-modules): Con los módulos de Planificación de Workfront de Adobe, puede activar un escenario cuando se produzcan eventos en Planificación de Workfront. También puede crear, leer, actualizar y eliminar registros, o realizar una llamada API personalizada a su cuenta de Planificación de Workfront de Adobe. Debe adquirir una licencia adicional para tener acceso a Workfront Fusion.
 
 * [Conceptos básicos de la API de Adobe Workfront Planning](/help/quicksilver/planning/general/planning-api-basics.md): la meta de la API de Adobe Workfront Planning es simplificar la creación de integraciones con Planning mediante la introducción de la arquitectura REST-ful que funcione a través de HTTP.
 

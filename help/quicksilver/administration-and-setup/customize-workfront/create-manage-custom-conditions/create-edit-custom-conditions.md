@@ -29,7 +29,7 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 00c44bda4c719c94bd974cca133a0d8faf47612a
+source-git-commit: 15838c63a3894675382b07de04e6e787ff683f9a
 workflow-type: tm+mt
 source-wordcount: '646'
 ht-degree: 8%
@@ -79,6 +79,7 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
    O
 
    Para editar una condición existente, seleccione la casilla de verificación situada junto al nombre de la condición que desea eliminar y haga clic en **Editar** en la barra de acciones de la parte inferior de la pantalla.
+
 
    ![Editar condición personalizada](assets/edit-conditions-082526.png)
 
