@@ -3,9 +3,9 @@ user-guide-title: Guía de Workfront
 user-guide-description: Utilice los siguientes documentos, tutoriales y recursos adicionales para aprender a implementar y utilizar Adobe Workfront de forma eficaz en su organización.
 role: User
 feature-set: Workfront
-source-git-commit: f0cde465a56d0cc936e8c886f4a120dec5fe5f73
+source-git-commit: 95ff5491c4fccc69a672d395ebd7573c0b905c9e
 workflow-type: tm+mt
-source-wordcount: '14700'
+source-wordcount: '14725'
 ht-degree: 91%
 ---
 # Guía de Workfront {#using}
@@ -19,6 +19,7 @@ ht-degree: 91%
     * [Prepárese para una versión trimestral de Adobe Workfront](product-announcements/product-releases/release-readiness.md)
     * Versión del primer trimestre de 2027 {#release-27-q1}
       * [Información general sobre la versión del primer trimestre de 2027](/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-release-overview.md)
+      * [Mejoras de IA en el primer trimestre de 2027](/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-ai.md)
       * [Mejoras del proyecto del primer trimestre de 2027](/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-projects.md)
     * Versión del cuarto trimestre de 2026 {#release-26-q4}
       * [Resumen de la versión del cuarto trimestre de 2026](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-release-overview.md)
@@ -258,6 +259,7 @@ ht-degree: 91%
       * [21.1 Otras mejoras](product-announcements/product-releases/21.1-release-activity/21-1-other-enhancements.md)
     * Actividad de versión de Planificación de Workfront de Adobe{#planning-release-activity}
       * [Actividad de versión de Planificación de Workfront de Adobe](product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)
+      * [Actividad de la versión del primer trimestre de 2027 para Adobe Workfront Planning](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-27-q1.md)
       * [Actividad de la versión del cuarto trimestre de 2026 para Adobe Workfront Planning](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-26-q4.md)
       * [Actividad de la versión del tercer trimestre de 2026 para Adobe Workfront Planning](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-26-q3.md)
       * [Actividad de la versión del segundo trimestre de 2026 para Adobe Workfront Planning](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-26-q2.md)
@@ -2326,7 +2328,7 @@ ht-degree: 91%
     * [Planificación de Workfront de Adobe y Adobe GenStudio para la integración de marketing de rendimiento: índice de artículos](planning/planning-and-genstudio-integration/planning-and-genstudio-integration-article-index.md)
     * [Introducción a Planificación de Workfront de Adobe y Adobe GenStudio para la integración de marketing de rendimiento](planning/planning-and-genstudio-integration/get-started-with-workfront-planning-and-genstudio-integration.md)
     * [Administrar el espacio de trabajo de GenStudio en Planificación de Workfront de Adobe](planning/planning-and-genstudio-integration/manage-gen-studio-workspace-in-planning.md)
-    * {hide-from-toc}[Promocionar un espacio de trabajo de Workfront Planning a GenStudio](planning/planning-and-genstudio-integration/promote-planning-workspace-to-genstudio.md)
+    * [Habilitar un espacio de trabajo de Workfront Planning en GenStudio for Performance Marketing](planning/planning-and-genstudio-integration/enable-planning-workspace-to-genstudio.md)
   * Adobe Workfront Planning como producto independiente {#planning-standalone}
     * [Adobe Workfront Planning como producto independiente: índice de artículos](planning/planning-sta/planning-sta-article-index.md)
     * [Introducción a Adobe Workfront Planning como producto independiente](planning/planning-sta/planning-sta-overview.md)
@@ -2715,6 +2717,7 @@ ht-degree: 91%
   * Suscripciones a eventos {#event-subscriptions}
     * [Suscripciones a eventos](wf-api/api/event-subscriptions.md)
     * [API de suscripción a eventos](wf-api/general/event-subs-api.md)
+    * [Administración de suscripciones a eventos como usuario no administrador](wf-api/general/event-subs-non-admin.md)
     * [Prácticas recomendadas para la suscripción a eventos](wf-api/general/event-sub-best-practice.md)
     * [Requisitos para el envío de suscripciones a eventos](wf-api/general/setup-event-sub-endpoint.md)
     * [Reintentos de suscripción a eventos](wf-api/api/event-sub-retries.md)

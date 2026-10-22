@@ -18,9 +18,9 @@ subfeature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: b3d98796609ca5db35d11749eb0f1db39bd0feea
+source-git-commit: a3f75cbd27f4e881e7a49a77675c55345aab95f9
 workflow-type: tm+mt
-source-wordcount: '3259'
+source-wordcount: '3425'
 ht-degree: 2%
 ---
 # Actividad de la versión del cuarto trimestre de 2026 para Adobe Workfront Planning
@@ -28,6 +28,32 @@ ht-degree: 2%
 Este artículo describe las funciones que se lanzarán para Workfront Planning durante la versión del cuarto trimestre de 2026.
 
 Para obtener una lista de todas las características publicadas para Adobe Workfront Planning, consulte [Actividad de la versión de Adobe Workfront Planning: índice de artículo](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
+
+## Habilitar espacios de trabajo de Planning en GenStudio for Performance Marketing
+
+>[!NOTE]
+>
+>Vista previa y producción: 21 de octubre de 2026
+>[!BADGE Fuera del horario]{type=Neutral}
+>Disponible solo para clientes con licencia de Adobe GenStudio for Performance Marketing
+
+Ahora puede habilitar un espacio de trabajo de Workfront Planning existente para utilizarlo en un plan de GenStudio for Performance Marketing, de modo que pueda reutilizar sus campañas, productos, personalidades y otros registros sin volver a crearlos.
+
+Con los proyectos de almacenamiento de GenStudio Adobe, puede asignar los tipos de registros y campos de Planning a los tipos de registros y campos de GenStudio Workspace y, a continuación, acceder a la información del espacio de trabajo de Planning en GenStudio desde el conmutador de proyectos.
+
+Para obtener más información, consulte [Habilitar un espacio de trabajo de Adobe Workfront Planning en GenStudio for Performance Marketing](/help/quicksilver/planning/planning-and-genstudio-integration/enable-planning-workspace-to-genstudio.md).
+
+## Tipos de activación creativa dinámica de Meta
+
+>[!NOTE]
+>
+>Vista previa y producción: 21 de octubre de 2026
+>[!BADGE Fuera del horario]{type=Neutral}
+>Disponible solo para clientes con licencia de Adobe GenStudio for Performance Marketing
+
+Workfront Planning ahora es compatible con los tipos de activación de imagen creativa dinámica y vídeo creativo dinámico para objetos de Meta Dynamic Creative. Estas opciones están disponibles en el campo Tipo del registro de activaciones, que desbloquea las activaciones de Meta Dynamic Creative Objects.
+
+Para obtener más información, consulte [Introducción a la integración de Adobe Workfront Planning y Adobe GenStudio for Performance Marketing](/help/quicksilver/planning/planning-and-genstudio-integration/get-started-with-workfront-planning-and-genstudio-integration.md).
 
 <!--
 

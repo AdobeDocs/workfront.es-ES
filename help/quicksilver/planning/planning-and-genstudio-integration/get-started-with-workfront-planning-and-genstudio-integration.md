@@ -29,9 +29,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: e209f8e5ada29b1c488fcfe42c13c6c9523a26bd
+source-git-commit: 3f3f144e9cc7d3e64ed8e367a83c7c849b2f43b2
 workflow-type: tm+mt
-source-wordcount: '2621'
+source-wordcount: '2638'
 ht-degree: 3%
 ---
 
@@ -39,6 +39,8 @@ ht-degree: 3%
 
 
 # Introducción a Planificación de Workfront de Adobe y Adobe GenStudio para la integración de marketing de rendimiento
+
+{{planning-important-intro}}
 
 <!--
 <span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
@@ -350,6 +352,7 @@ Tenga en cuenta lo siguiente al trabajar con activaciones:
 * Los registros de activaciones incluyen lo siguiente:
 
   * Campo de ID de seguimiento que almacena el valor resuelto de cada segmento de una fórmula de ID de seguimiento, junto con los errores.
+  * Un tipo de activación de imagen creativa dinámica y vídeo creativo dinámico para almacenar información de Meta Dynamic Creative Objects.
   * Una opción de estado &quot;Generando&quot; que indica que la generación del ID de seguimiento está en curso. El estado de activación vuelve a Borrador cuando la generación termina o falla. Las activaciones existentes no se ven afectadas.
 
 

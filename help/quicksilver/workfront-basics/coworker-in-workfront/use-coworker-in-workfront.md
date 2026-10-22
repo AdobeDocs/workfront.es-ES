@@ -10,7 +10,7 @@ product_v2:
 feature_v2:
   - id: c042179c-157b-516d-b27c-e3bf303e8567
     internal-label: Get Started with Workfront
-source-git-commit: a05d8d51a3a2595d0c2a75aa9f992e4f14b091fe
+source-git-commit: f97a3cd0ce05aa14b71eb252ddbb8c2cde94146a
 workflow-type: tm+mt
 source-wordcount: '610'
 ht-degree: 7%
@@ -68,7 +68,7 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
 
 ## Uso de compañeros de trabajo en Workfront
 
-1. En la parte superior de cualquier página de Workfront, haz clic en el ícono de Compañero de trabajo ![Icono de IA](assets/ai-icon.png).
+1. En la parte superior de cualquier página de Workfront, haz clic en el ícono de Compañero de trabajo ![Icono de Compañero de trabajo](assets/coworker-icon.png).
 1. Escriba su pregunta o indicación en el panel situado a la derecha de la pantalla.
 
 1. Si el Compañero de trabajo no le proporciona la respuesta que necesita, refine el mensaje e inténtelo de nuevo.
