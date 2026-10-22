@@ -32,21 +32,19 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: aebe95e634167571a64ed1ada94aded72a231136
 workflow-type: tm+mt
 source-wordcount: '446'
 ht-degree: 72%
 ---
 # Personalizar la página de destino con una plantilla de diseño
 
-{{preview-fast-release-general}}
-
 Como administrador de Adobe Workfront, puede utilizar una plantilla de diseño para especificar el área que desea que los usuarios vean cada vez que inician sesión en Workfront.
 
 Los usuarios pueden abrir una de las siguientes opciones:
 
 * Área de Workfront designada
-* Un tablero personalizado.
+* Un tablero personalizado
 
 Para obtener información sobre cómo crear plantillas de diseño, consulte [Crear y administrar plantillas de diseño](../use-layout-templates/create-and-manage-layout-templates.md).
 
@@ -114,11 +112,11 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
    * Usuarios
    * Modelos
    * Planificación
-   * <span class="preview">Aplicación personalizada</span>
+   * Aplicación personalizada
 
      >[!NOTE]
      >
-     ><span class="preview">Las aplicaciones personalizadas que ya se han agregado al menú principal están disponibles para usarlas como página de aterrizaje. Deben crearse por separado antes de que estén disponibles como opciones del menú principal o de la página de aterrizaje. Para obtener más información, consulte [Crear una aplicación personalizada para Workfront con Adobe App Builder](/help/quicksilver/app-builder/app-builder.md).</span>
+     >Las aplicaciones personalizadas que ya se han añadido al menú principal están disponibles para su uso como página de aterrizaje. Deben crearse por separado antes de que estén disponibles como opciones del menú principal o de la página de aterrizaje. Para obtener más información, consulte [Crear una aplicación personalizada para Workfront con Adobe App Builder](/help/quicksilver/app-builder/app-builder.md).
 
    >[!IMPORTANT]
    >
