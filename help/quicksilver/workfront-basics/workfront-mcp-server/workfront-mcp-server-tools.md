@@ -11,10 +11,10 @@ product_v2:
 feature_v2:
   - id: c042179c-157b-516d-b27c-e3bf303e8567
     internal-label: Get Started with Workfront
-source-git-commit: de155fd16a4750162a465cb5f2eac2d5f7ec6b7d
+source-git-commit: aa562305ecdd732b6202d90543878ea13195c800
 workflow-type: tm+mt
-source-wordcount: '3537'
-ht-degree: 6%
+source-wordcount: '3774'
+ht-degree: 5%
 ---
 
 # Herramientas del servidor MCP de Adobe Workfront
@@ -42,6 +42,51 @@ Si su organización no tiene derecho a un área de producto, las herramientas re
 
 Las siguientes tablas identifican el área de producto a la que pertenece cada herramienta.
 
+<div class="preview">
+
+<!--This section is for the 27.1 release-->
+
+## Conjuntos de herramientas en el servidor MCP de Workfront
+
+>[!IMPORTANT]
+>
+>Los conjuntos de herramientas se seleccionan al configurar la conexión con el servidor MCP de Workfront.
+>Para obtener información e instrucciones, consulte [Configuración del servidor MCP de Adobe Workfront](/help/quicksilver/workfront-basics/workfront-mcp-server/configure-workfront-mcp-server.md)
+
+Los conjuntos de herramientas permiten seleccionar las funciones de Workfront que necesita el cliente de IA en lugar de exponer el catálogo de MCP completo. Esto resulta útil para los clientes que cargan todas las definiciones de herramientas por adelantado, necesitan mantenerse dentro de los límites del recuento de herramientas o se benefician de una lista de herramientas más enfocada.
+
+Puede especificar conjuntos de herramientas agregando el parámetro de consulta `toolsets` a la dirección URL del servidor MCP de Workfront.
+
+>[!BEGINSHADEBOX]
+
+Ejemplo:
+
+```
+https://mcp.workfront.adobe.com/mcp/v1/workfront?toolsets=core,comment-stream
+```
+
+Este ejemplo expone las capacidades `core` y `comment-stream`. El grupo `core` se incluye automáticamente cada vez que se selecciona un subconjunto.
+
+>[!ENDSHADEBOX]
+
+Los conjuntos de herramientas disponibles incluyen:
+
+* `core`: conjunto de herramientas base de Workfront que se incluye automáticamente al seleccionar un subconjunto de conjuntos de herramientas.
+* `comment-stream`: herramientas para flujos de trabajo de comentarios y discusiones.
+* `planning`: herramientas para las funcionalidades de Workfront Planning.
+* `approvals`: herramientas para flujos de trabajo de aprobación.
+
+Para exponer el catálogo autorizado completo, omita el parámetro o use `toolsets=all`.
+
+Puede combinar grupos opcionales con comas, como `toolsets=core,planning,approvals`.
+
+La selección se aplica a las herramientas, los recursos y las plantillas de recursos, las solicitudes y las aplicaciones de MCP que aparecen en las herramientas de Workfront en su interfaz de usuario. Las instrucciones de servidor específicas del servidor siguen también la configuración seleccionada del conjunto de herramientas.
+
+Los conjuntos de herramientas no cambian los permisos. Se siguen aplicando los permisos de objeto y nivel de acceso de Workfront.
+
+Si desea que el cliente de IA acceda a un dominio diferente, actualice la configuración de conexión para seleccionar el conjunto de herramientas adecuado.
+
+</div>
 
 ## Leer y escribir acciones
 
