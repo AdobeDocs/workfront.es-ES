@@ -21,10 +21,10 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 3f3f144e9cc7d3e64ed8e367a83c7c849b2f43b2
 workflow-type: tm+mt
-source-wordcount: '116'
-ht-degree: 12%
+source-wordcount: '126'
+ht-degree: 11%
 ---
 # Integración de Adobe Workfront Planning y Adobe GenStudio for Performance Marketing: índice de artículos
 
@@ -34,4 +34,4 @@ Los artículos de esta sección describen la funcionalidad disponible para esta 
 
 * [Introducción a Planificación de Workfront de Adobe y Adobe GenStudio para la integración de marketing de rendimiento](/help/quicksilver/planning/planning-and-genstudio-integration/get-started-with-workfront-planning-and-genstudio-integration.md)
 * [Administrar GenStudio Workspace en Adobe Workfront Planning](/help/quicksilver/planning/planning-and-genstudio-integration/manage-gen-studio-workspace-in-planning.md)
-  <!--* [Promote Adobe Workfront Planning workspace to GenStudio](/help/quicksilver/planning/planning-and-genstudio-integration/promote-planning-workspace-to-genstudio.md)-->
+* [Habilite el espacio de trabajo de Adobe Workfront Planning en GenStudio for Performance Marketing](/help/quicksilver/planning/planning-and-genstudio-integration/enable-planning-workspace-to-genstudio.md)
