@@ -32,19 +32,20 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
 workflow-type: tm+mt
-source-wordcount: '2578'
-ht-degree: 8%
+source-wordcount: '2479'
+ht-degree: 7%
 ---
 <!--keep the 30 limit verbiage in yellow til Jan 2026-->
 
 # Información general de tipos de registros conectados
 
-<span class="preview">La información resaltada en esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa para todos los clientes. Después del lanzamiento en Vista previa, las mismas funciones también están disponibles mensualmente en el entorno de producción para los clientes que habilitaron lanzamientos rápidos. </span>
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Para obtener información acerca de las versiones rápidas, consulte [Habilitar o deshabilitar las versiones rápidas para su organización](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
-
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+-->
 
 {{planning-important-intro}}
 
@@ -167,7 +168,7 @@ Para obtener información acerca de los tipos de registros que conecta, vea [Con
     * No se puede acceder a los campos de registros de planificación desde objetos de Workfront.
     * Los registros de Planning están visibles desde la sección Planning del objeto Workfront. Para obtener más información, consulte [Administrar conexiones de registro desde objetos de Workfront](/help/quicksilver/planning/records/manage-records-in-planning-section.md).
     * Puede crear un campo personalizado de conexión de Planning y adjuntarlo al formulario personalizado de un objeto de Workfront. Para obtener más información, consulte [Crear un formulario personalizado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
-    * Se puede acceder a los campos de registro de planificación desde los recursos del Experience Manager cuando la persona con la función de administrador de Workfront configura la asignación de metadatos mediante la integración entre Workfront y Adobe Experience Manager Assets. Para obtener más información, consulte [Configuración de la asignación de metadatos de recursos entre Adobe Workfront y Experience Manager Assets](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping). <!--not sure if this is also possible for content fragments-->
+    * Se puede acceder a los campos de registro de planificación desde los recursos del Experience Manager cuando la persona con la función de administrador de Workfront configura la asignación de metadatos mediante la integración entre Workfront y Adobe Experience Manager Assets. Para obtener más información, consulte [Configuración de la asignación de metadatos de recursos entre Adobe Workfront y Experience Manager Assets](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping). <!--not sure if this is also possible for content fragments-->
     * No se puede acceder a los campos de registro de planificación desde Marcas en GenStudio for Performance Marketing.
 
   * **Cuando se agregan campos de búsqueda desde el registro u objeto al que se conecta**: además de crear un campo de registro vinculado, también puede conectarse a campos desde el registro conectado o el tipo de objeto que se denominan campos de búsqueda. Un campo vinculado (o de búsqueda) con información del registro al que se está conectando se muestra en el registro desde el que se está conectando.
@@ -210,18 +211,12 @@ Para obtener información acerca de los tipos de registros que conecta, vea [Con
     * Puede conectar marcas GenStudio desde tipos de registros de GenStudio y desde tipos de registros de Planning.
     * No puede incluir marcas GenStudio en una jerarquía.
 
-  <div class="preview">
-
   * Puede hacer que un campo de conexión dependa del campo conectado correspondiente del tipo de registro conectado. Cuando los dos campos se muestran en un tercer tipo de registro, las selecciones disponibles para un campo dependen de las selecciones del otro campo.
 
     Para obtener más información y consideraciones adicionales, consulte [Administrar conexiones dependientes](/help/quicksilver/planning/architecture/manage-dependent-connections.md).
 
-  </div>
 
-* Cuando se duplican registros con un registro conectado en un tipo de conexión Uno a uno o Uno a varios, se dan los siguientes casos:
-
-  * En el entorno Producción, el registro conectado se mueve al registro duplicado o debe quitarlo manualmente del original antes de duplicar el registro y, a continuación, agregarlo de nuevo.
-  * <span class="preview">En el entorno de vista previa, puede seleccionar si el registro conectado permanece en el registro original o se mueve al registro duplicado.</span>
+* Al duplicar registros con un registro conectado en un tipo de conexión Uno a uno o Uno a varios, puede seleccionar si el registro conectado permanece en el original o se mueve al registro duplicado.
 
   Para obtener más información, consulte [Registros duplicados](/help/quicksilver/planning/records/copy-or-duplicate-records.md).
 

@@ -30,18 +30,18 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
 workflow-type: tm+mt
-source-wordcount: '771'
+source-wordcount: '711'
 ht-degree: 28%
 ---
 # Editar tipos de registro
 
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">La información resaltada en esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa para todos los clientes. Después del lanzamiento en Vista previa, las mismas funciones también están disponibles mensualmente en el entorno de producción para los clientes que habilitaron lanzamientos rápidos. </span>
-
-<span class="preview">Para obtener información sobre las versiones rápidas, consulte [Habilitar o deshabilitar las versiones rápidas para su organización](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
-
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -185,7 +185,7 @@ Old:
 
 1. En el cuadro **Editar tipo de registro**, la ficha **Apariencia** se abre de forma predeterminada.
 
-   ![Editar ficha de apariencia del cuadro de tipo de registro &#x200B;](assets/edit-record-type-box-appearance-tab.png)
+   ![Editar ficha de apariencia del cuadro de tipo de registro ](assets/edit-record-type-box-appearance-tab.png)
 
    Actualice la siguiente información en la ficha **Apariencia**:
 
@@ -222,8 +222,7 @@ Old:
    >
    >![Cuadro de búsqueda global](assets/global-search-box.png)
 
-1. <span class="preview">(Opcional) Para agregar, editar, desactivar o eliminar reglas de negocio de tipo de registro, vaya a la página de tipo de registro y haga clic en el menú **Más** a la derecha del nombre del tipo de registro; a continuación, haga clic en **Reglas de negocio**. </span>
+1. (Opcional) Para agregar, editar, desactivar o eliminar reglas de negocio de tipo de registro, vaya a la página de tipo de registro y haga clic en el menú **Más** a la derecha del nombre del tipo de registro; a continuación, haga clic en **Reglas de negocio**.
+Las reglas de negocio son condiciones establecidas en el tipo de registro que definen cuándo se pueden editar o eliminar registros de ese tipo.
 
-   <span class="preview">Las reglas de negocio son condiciones establecidas en el tipo de registro que definen cuándo se pueden editar o eliminar registros de ese tipo. </span>
-
-   <span class="preview"> Para obtener más información, consulte [Crear tipos de registro y reglas de negocio](/help/quicksilver/planning/architecture/configure-business-rules.md).</span>
+   Para obtener más información, consulte [Crear tipos de registros y reglas de negocio](/help/quicksilver/planning/architecture/configure-business-rules.md).

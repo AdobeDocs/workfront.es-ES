@@ -26,10 +26,10 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
 workflow-type: tm+mt
-source-wordcount: '784'
-ht-degree: 32%
+source-wordcount: '782'
+ht-degree: 31%
 ---
 # Información general sobre campos de fórmula
 
@@ -203,13 +203,7 @@ Los campos de fórmula de Adobe Workfront Planning admiten la mayoría de las ex
 >
 >Las siguientes expresiones de Workfront no son compatibles con los campos de fórmula de Workfront Planning:
 >
-><!--* SORTASCARRAY-->
-><!--* SORTDESCARRAY-->
->* AÑADIR HORA
->* SWITCH
 >* FORMATO
-
-<!--remove the ones commented out when we go live to Preview and Prod, if they truly are added to Planning-->
 
 Para obtener una lista completa de expresiones de Workfront, consulte [Información general sobre expresiones de datos calculados](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
 

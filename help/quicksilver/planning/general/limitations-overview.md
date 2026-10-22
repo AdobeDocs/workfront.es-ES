@@ -26,10 +26,10 @@ role_v2:
 topic_v2:
   - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
     internal-label: Taxonomy
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
 workflow-type: tm+mt
-source-wordcount: '478'
-ht-degree: 37%
+source-wordcount: '500'
+ht-degree: 36%
 ---
 <!--keep the 30 connection limit in yellow till Jan 2026-->
 
@@ -67,6 +67,7 @@ En la tabla siguiente se muestran los límites de la cantidad de objetos que se 
 | Tamaño del archivo CSV de Excel que puede importar para crear tipos de registros | 5 MB |
 | Número de filas que puede importar en un archivo CSV o de Excel para crear tipos de registros | 25.000 |
 | Número de columnas que se pueden importar en un archivo CSV o de Excel para crear tipos de registros | 500 |
+| Número de filas que se pueden importar en un archivo CSV o de Excel con CX Enterprise Coworker para crear registros | más de 10.000 |
 | Número de campos de fórmula para un tipo de registro | 20 |
 | Número de campos de conexión para un tipo de registro | 30 |
 | Número de caracteres en una expresión de campo de fórmula | 50.000 |

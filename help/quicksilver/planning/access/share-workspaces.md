@@ -30,18 +30,20 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 284f02c34a04b176c60f50443b9f03b789d8416d
+source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
 workflow-type: tm+mt
-source-wordcount: '1210'
+source-wordcount: '1150'
 ht-degree: 12%
 ---
 # Compartir espacios de trabajo
 
+<!--
 
-<span class="preview">La información resaltada en esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa para todos los clientes. Después del lanzamiento en Vista previa, las mismas funciones también están disponibles mensualmente en el entorno de producción para los clientes que habilitaron lanzamientos rápidos. </span>
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Para obtener información sobre las versiones rápidas, consulte [Habilitar o deshabilitar las versiones rápidas para su organización](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
+-->
 
 {{planning-important-intro}}
 
@@ -173,11 +175,7 @@ Old:
 * Al compartir un espacio de trabajo, las vistas no se comparten. Debe compartir vistas por separado.
 * Los permisos de Workspace se muestran como Permisos heredados en los tipos de registro.
 
-<div class="preview">
-
 * Puede cambiar el propietario de un espacio de trabajo a un usuario activo con licencia estándar. No se puede convertir un grupo, un equipo, una empresa o un rol en el propietario de un espacio de trabajo.
-
-</div>
 
 
 &lt;!—!—consulte lo anterior en producción: ¿TIENE QUE reemplazarlo con un usuario ACTIVO?? O inactivo también está bien — no tenía un entorno—>
@@ -232,16 +230,11 @@ Para compartir un espacio de trabajo con otros usuarios:
 
      Para obtener información acerca de los niveles de permisos y las acciones que los usuarios pueden realizar en cada nivel, consulte [Información general sobre los permisos de uso compartido en Planificación de Workfront de Adobe](/help/quicksilver/planning/access/sharing-permissions-overview.md).
 
-   <div class="preview">
-
    * Propietario
 
      Solo puede hacer que otro usuario con licencia estándar y activo sea el propietario de un espacio de trabajo. El propietario original permanece en el espacio de trabajo con permisos de administración.
 
-   </div>
-
-1. <span class="preview">(Condicional) Si elige cambiar el Propietario del área de trabajo, haga clic en **Cambiar propietario** para confirmar.</span>
-
+1. (Condicional) Si elige cambiar el Propietario del área de trabajo, haga clic en **Cambiar propietario** para confirmar.
 
 1. Haga clic en **Copiar vínculo** para copiar un vínculo al área de trabajo en el portapapeles.
 1. Comparta el vínculo copiado con otros usuarios. Los usuarios que reciban el vínculo deben ser usuarios activos e iniciar sesión en Workfront para poder acceder al espacio de trabajo.

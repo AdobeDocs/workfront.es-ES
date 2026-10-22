@@ -23,10 +23,10 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 284f02c34a04b176c60f50443b9f03b789d8416d
+source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
 workflow-type: tm+mt
-source-wordcount: '1529'
-ht-degree: 7%
+source-wordcount: '1396'
+ht-degree: 6%
 ---
 <!--over time, this article should look like this one does: https://eperienceleague.adobe.com/docs/workfront/using/basics/grant-request-object-permissions/sharing-permissions-on-objects-overview.html?lang=en-->
 
@@ -34,11 +34,11 @@ ht-degree: 7%
 
 # Información general sobre los permisos de uso compartido en Planificación de Workfront de Adobe
 
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">La información resaltada en esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa para todos los clientes. Después del lanzamiento en Vista previa, las mismas funciones también están disponibles mensualmente en el entorno de producción para los clientes que habilitaron lanzamientos rápidos. </span>
-
-<span class="preview">Para obtener información sobre las versiones rápidas, consulte [Habilitar o deshabilitar las versiones rápidas para su organización](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
-
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -173,7 +173,7 @@ Los siguientes son los niveles de permisos para espacios de trabajo:
 | Ver | ✓ | ✓ | ✓ |
 
 
-<span class="preview">Además de los permisos descritos en la tabla anterior, también puede cambiar el propietario de un área de trabajo al compartirla. Para obtener más información, vea [Compartir espacios de trabajo](/help/quicksilver/planning/access/share-workspaces.md).</span>
+Además de los permisos descritos en la tabla anterior, también puede cambiar el propietario de un espacio de trabajo al compartirlo. Para obtener más información, vea [Compartir espacios de trabajo](/help/quicksilver/planning/access/share-workspaces.md).
 
 
 ### Permisos para tipos de registros
@@ -263,25 +263,22 @@ Se dan los siguientes escenarios:
 
 ### Permisos para registrar campos
 
+<!--
 
-#### Permisos para registrar campos en el entorno de producción
+#### Permissions to record fields in the Production environment
 
 
-Los permisos para editar la configuración de campo se heredan del tipo de registro, cuando se conceden permisos al espacio de trabajo y al tipo de registro.
+Permissions to edit field settings are inherited from the record type, when you grant permissions to the workspace and the record type.
 
-Los siguientes permisos hacen referencia a la configuración de los campos y no a los valores asociados a cada campo. Para editar valores de campo, debe tener permisos para editar registros.
+The following permissions refer to the fields settings and not to the values associated with each field. To edit field values you must have permissions to edit records. 
 
-|        | Administrar | Aportar | Ver |
+|        | Manage | Contribute | View  |
 |--------|--------|------------|-------|
-| Crear | ✓ |            |       |
-| Eliminar | ✓ |            |       |
-| Editar | ✓ |            |       |
-| Ver | ✓ | ✓ | ✓ |
-
-
-<div class="preview">
-
-#### Permisos para registrar campos en el entorno de vista previa
+| Create | ✓      |            |       |
+| Delete | ✓      |            |       |
+| Edit   | ✓      |            |       |
+| View   | ✓      | ✓          | ✓     |
+-->
 
 Los permisos para la configuración de campos se heredan del tipo de registro, cuando se conceden permisos al espacio de trabajo y al tipo de registro.
 
@@ -308,8 +305,6 @@ Puede conceder los siguientes permisos a los valores de campo compartiendo un ca
 | Ver | ✓ | ✓ |
 
 Los usuarios deben tener al menos permisos de visualización en el tipo de registro para acceder a los campos.
-
-</div>
 
 ### Permisos para vistas
 

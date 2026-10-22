@@ -28,16 +28,18 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
 workflow-type: tm+mt
-source-wordcount: '944'
-ht-degree: 53%
+source-wordcount: '884'
+ht-degree: 55%
 ---
 # Administrar comentarios de registros
 
-<span class="preview">La información resaltada en esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa para todos los clientes. Después del lanzamiento en Vista previa, las mismas funciones también están disponibles mensualmente en el entorno de producción para los clientes que habilitaron lanzamientos rápidos. </span>
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Para obtener información sobre las versiones rápidas, consulte [Habilitar o deshabilitar las versiones rápidas para su organización](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -232,13 +234,9 @@ Se abre la página de tipo de registro y se muestran todos los registros de ese 
 
    Los usuarios que etiquetó en el mensaje reciben notificaciones de que hay un mensaje nuevo.
 
-   <div class="preview">
-
    Todas las personas con permisos de visualización en el tipo de registro pueden ver el indicador **Nuevo comentario** en la vista de tabla del registro al que agregó el comentario.
 
    ![Nuevo icono de comentario en la vista de tabla](assets/new-comment-icon-in-table-view-highlighted.png)
-
-   </div>
 
 1. (Opcional) Haga clic en el icono **Más** ![Menú más](assets/more-menu.png) en la esquina superior derecha del comentario y, a continuación, haga clic en **Eliminar** para eliminar el comentario.
 1. (Opcional) Haga clic en el icono **Ocultar comentarios** ![Ocultar comentarios](assets/hide-comments-icon.png) para cerrar el panel derecho.
