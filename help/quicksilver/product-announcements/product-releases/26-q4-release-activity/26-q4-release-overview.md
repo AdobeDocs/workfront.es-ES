@@ -13,9 +13,9 @@ feature_v2:
 subfeature_v2:
   - id: a29813d3-f0cc-4b60-9396-13b558370803
     internal-label: Product announcements
-source-git-commit: cb6ded1c823c82a876e5e2729205b4b02c7035e2
+source-git-commit: 18e1d35b98b8c1afc6f9c1b14dba73d160b7e420
 workflow-type: tm+mt
-source-wordcount: '3622'
+source-wordcount: '3661'
 ht-degree: 8%
 ---
 # Resumen de la versión del cuarto trimestre de 2026
@@ -24,7 +24,7 @@ Esta página proporciona información sobre la funcionalidad que se incluye en l
 
 Las mejoras de esta página están disponibles en el entorno de vista previa. Esta página se actualizará con mejoras adicionales a medida que la versión del cuarto trimestre de 2026 se aproxime a su versión de producción planificada.
 
-Se celebran seminarios web en directo para cada versión trimestral, en los que se destacan las nuevas funciones y se proporciona información detallada. Para registrarse, visite la [página de eventos](https://experienceleague.adobe.com/es/events?filters=Workfront) y filtre por Workfront.
+Se celebran seminarios web en directo para cada versión trimestral, en los que se destacan las nuevas funciones y se proporciona información detallada. Para registrarse, visite la [página de eventos](https://experienceleague.adobe.com/en/events?filters=Workfront) y filtre por Workfront.
 
 >[!IMPORTANT]
 >
@@ -274,6 +274,15 @@ Se celebran seminarios web en directo para cada versión trimestral, en los que 
             <td><p>October 22, 2026</p></td>
         </tr>
 -->        
+       <tr>
+            <td>
+                <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-ai.md">Conjuntos de herramientas del servidor Workfront MCP</a></p>
+                <p>Ahora puede limitar el catálogo MCP de Workfront a conjuntos de herramientas específicos y filtrar la disponibilidad por derecho de producto, de modo que los clientes de IA solo accedan a las funcionalidades que necesitan.</p>
+            </td>
+            <td><p>22 de octubre de 2026</p></td>
+            <td><p>22 de octubre de 2026</p></td>
+            <td><p>22 de octubre de 2026</p></td>
+        </tr>
         <tr>
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-ai.md" class="MCXref xref" xrefformat="{para}">Actualizaciones para colaboradores de IA</a>
@@ -923,7 +932,7 @@ Si es administrador de Workfront y tiene usuarios de lector de Data Connect que 
 
 Este cambio se anunció por primera vez en las notas de la versión de Workfront de abril de 2026 y este es el recordatorio final antes de la fecha límite. Asegúrese de que todos los usuarios de lectores afectados habiliten MFA antes del 8 de agosto de 2026 para evitar interrupciones en su acceso.
 
-Para obtener más información, consulte [Crear una cuenta de lector o una conexión para Snowflake](https://experienceleague.adobe.com/es/docs/workfront/using/reporting/data-lake/create-a-reader-account).
+Para obtener más información, consulte [Crear una cuenta de lector o una conexión para Snowflake](https://experienceleague.adobe.com/en/docs/workfront/using/reporting/data-lake/create-a-reader-account).
 
 ### Actualizaciones de aprendizaje
 
