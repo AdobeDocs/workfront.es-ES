@@ -17,14 +17,12 @@ feature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 00c44bda4c719c94bd974cca133a0d8faf47612a
 workflow-type: tm+mt
-source-wordcount: '396'
-ht-degree: 27%
+source-wordcount: '318'
+ht-degree: 33%
 ---
 # Configurar ubicaciones
-
-{{preview-fast-release-general}}
 
 Puede configurar las ubicaciones predeterminadas disponibles para asignar como atributos a los roles en las tarjetas de tasas. Esto garantiza que las tarjetas de tarifas reflejen con precisión las tarifas de mercado en cada ubicación.
 
@@ -62,13 +60,10 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
 {{step-1-to-setup}}
 
 1. En el panel izquierdo, haga clic en [!UICONTROL **Ubicaciones**].
-1. En el entorno Producción, haga clic en [!UICONTROL **Agregar más ubicaciones**] al final de la lista.
-   <span class="preview">En el entorno de vista previa, haga clic en [!UICONTROL **Nueva fila**] en la parte inferior de la lista.</span>
-
+1. Haga clic en [!UICONTROL **Nueva fila**] al final de la lista.
 1. Introduzca el nombre de la ubicación y la descripción.
 1. Haga clic fuera de la fila para guardar la ubicación.
-1. Para eliminar una ubicación en el entorno Producción, selecciónela en la lista y haga clic en el icono **Eliminar** ![Eliminar icono](assets/delete.png).
-   <span class="preview">Para eliminar una ubicación en el entorno de vista previa, selecciónela en la lista y haga clic en [!UICONTROL **Eliminar**] en la barra de acciones de la parte inferior de la pantalla.</span>
+1. Para eliminar una ubicación, selecciónela en la lista y haga clic en [!UICONTROL **Eliminar**] en la barra de acciones de la parte inferior de la pantalla.
 
 >[!NOTE]
 >
@@ -85,18 +80,12 @@ Cada sububicación se puede agregar como atributo en una tarjeta de tasa de la m
 {{step-1-to-setup}}
 
 1. En el panel izquierdo, haga clic en [!UICONTROL **Ubicaciones**].
-1. En el entorno Producción, seleccione una ubicación existente en la lista y haga clic en [!UICONTROL **Agregar ubicación secundaria**].
-   <span class="preview">En el entorno de vista previa, seleccione una ubicación existente en la lista y haga clic en [!UICONTROL **Agregar ubicación secundaria**] en la barra de acciones de la parte inferior de la pantalla.</span>
-
+1. Seleccione una ubicación existente en la lista y haga clic en [!UICONTROL **Agregar ubicación secundaria**] en la barra de acciones de la parte inferior de la pantalla.
 1. Introduzca el nombre de la ubicación y la descripción.
 1. Haga clic fuera del área de entrada para guardar la ubicación.
 
    La sububicación tiene sangría debajo de la ubicación de nivel superior.
 
-   Imagen de muestra en el entorno de producción:
-   ![Ubicaciones y sububicaciones](assets/locations-sublocations.png)
-
-   <span class="preview">Imagen de muestra en el entorno de vista previa:</span>
    ![Ubicaciones y sububicaciones](assets/locations-sublocations-082526.png)
 
 

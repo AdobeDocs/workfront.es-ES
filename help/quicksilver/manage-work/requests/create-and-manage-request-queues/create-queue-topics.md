@@ -35,14 +35,12 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 82b937e507ef266f344b4c9f8d651ce12a39d88c
+source-git-commit: 00c44bda4c719c94bd974cca133a0d8faf47612a
 workflow-type: tm+mt
-source-wordcount: '1012'
-ht-degree: 71%
+source-wordcount: '991'
+ht-degree: 72%
 ---
 # Crear temas de la cola
-
-{{highlighted-preview}}
 
 <!-- Audited: 12/2023 -->
 
@@ -206,8 +204,7 @@ Para editar un tema de la cola existente:
 
 1. Vaya al proyecto o plantilla que contiene el tema de la cola que desea editar.
 1. Haga clic en **Temas de cola** en el panel izquierdo.
-1. Haga clic en el tema de la cola que desee editar.
-   <span class="preview">Seleccione la casilla de verificación situada junto al tema de la cola que desea editar y haga clic en **Editar** en la barra de acciones azul de la parte inferior de la pantalla.</span>
+1. Seleccione la casilla de verificación situada junto al tema de la cola que desee editar y haga clic en **Editar** en la barra de acciones azul de la parte inferior de la pantalla.
 
 Para obtener información acerca de las opciones de edición disponibles, vea [Crear un tema de cola](#create-a-queue-topic) en este artículo.
 
@@ -218,6 +215,5 @@ Puede eliminar uno o varios temas de la cola al mismo tiempo.
 1. Vaya al proyecto o plantilla que contiene el tema de la cola que desea eliminar.
 1. Haga clic en **Temas de cola** en el panel izquierdo.
 1. Haga clic en el cuadro situado junto al nombre de cada tema de la cola que desee eliminar. Aparecerá una marca de verificación en el cuadro.
-1. Haga clic en el icono **Eliminar** ![Eliminar icono](assets/delete-icon.png) en la parte superior de la página.
-   <span class="preview">Haga clic en **Eliminar** en la barra de acciones de la parte inferior de la pantalla.</span>
+1. Haga clic en **Eliminar** en la barra de acciones de la parte inferior de la pantalla.
 
