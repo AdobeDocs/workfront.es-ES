@@ -17,9 +17,9 @@ feature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 781aec7dbd13173fd601cfae366dd216cd0fa4f2
+source-git-commit: 1a1e8fab8f8ef5c0c9dae032ed0eb5b24c3f364d
 workflow-type: tm+mt
-source-wordcount: '1362'
+source-wordcount: '1393'
 ht-degree: 3%
 ---
 # Configuración de colaboradores de IA
@@ -129,6 +129,10 @@ Para obtener una lista de prácticas recomendadas al crear un agente para trabaj
 * [Prácticas recomendadas para crear un agente para un agente de trabajo](#best-practices-for-creating-an-agent-for-a-work-agent)
 
 ### Configuración de un agente de trabajo en Workfront
+
+>[!NOTE]
+>
+>Las licencias utilizadas por los agentes de trabajo no se facturan. Si su organización tiene 200 licencias de Workfront y crea un agente de trabajo, se utilizan 201 licencias, pero solo se facturan 200.
 
 {{step-1-to-setup}}
 
