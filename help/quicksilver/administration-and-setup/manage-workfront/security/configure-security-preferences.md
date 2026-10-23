@@ -38,14 +38,12 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 69af10a8df4faf85df36f148c7d261eefefa951e
+source-git-commit: a3cf3050da6355c2b0929b24e3bfe7035db76117
 workflow-type: tm+mt
 source-wordcount: '1543'
 ht-degree: 39%
 ---
 # Configurar preferencias del sistema
-
-{{highlighted-preview}}
 
 <!--
 DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.</p>
@@ -164,8 +162,8 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
       <td><p>Permite elegir si se fuerza a los usuarios a introducir información en los campos obligatorios al editar objetos por lotes.</p> <p>Si se selecciona esta opción, los campos obligatorios deben tener valores antes de guardarlos en el modo de edición por lotes. Si en el campo obligatorio falta un valor para al menos un objeto seleccionado en bloque, no se permite guardar.</p> <p>Cuando esta opción no está seleccionada, los campos obligatorios solo se aplican cuando un usuario modifica el campo. Si un campo no se modifica, se trata como opcional y no se valida.</p></td>
      </tr>
      <tr>
-      <td role="rowheader"><span class="preview">Nivel de acceso para usuarios creados en Admin Console</span></td>
-      <td><span class="preview">Permite elegir un nivel de acceso predeterminado para asignarlo automáticamente a los usuarios creados en Workfront a través de Adobe Admin Console. Si no establece un valor predeterminado, estos usuarios seguirán recibiendo un nivel de acceso de Colaborador o Solicitante. Los niveles de acceso Administrador del sistema y Usuario externo no están disponibles como predeterminados y esta opción no está disponible para organizaciones que tienen Workfront Planning como producto independiente.<p><b>NOTA</b>: no puede eliminar un nivel de acceso mientras esté establecido como predeterminado. Para eliminar el nivel de acceso predeterminado, seleccione primero un nivel de acceso predeterminado diferente.</p></span></td>
+      <td role="rowheader">Nivel de acceso para usuarios creados en Admin Console</td>
+      <td>Permite elegir un nivel de acceso predeterminado para asignarlo automáticamente a los usuarios creados en Workfront a través de Adobe Admin Console. Si no establece un valor predeterminado, estos usuarios seguirán recibiendo un nivel de acceso de Colaborador o Solicitante. Los niveles de acceso Administrador del sistema y Usuario externo no están disponibles como predeterminados y esta opción no está disponible para organizaciones que tienen Workfront Planning como producto independiente.<p><b>NOTA</b>: no puede eliminar un nivel de acceso mientras esté establecido como predeterminado. Para eliminar el nivel de acceso predeterminado, seleccione primero un nivel de acceso predeterminado diferente.</p></td>
      </tr>
      <tr> 
       <td role="rowheader">Preferencias de almacenamiento </td> 
@@ -201,16 +199,16 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
      </tr>.</td> 
      </tr>
      <tr> 
-      <td role="rowheader"><span class="preview">Herramientas MCP de solo lectura</span></td> 
-      <td><span class="preview">Permite que el servidor MCP de Workfront realice acciones de lectura en los datos de Workfront, como buscar o enumerar proyectos, tareas u otros elementos. Esta opción está habilitada de forma predeterminada.<p>Para obtener más información sobre el servidor MCP de Workfront, consulte <a href="/help/quicksilver/workfront-basics/workfront-mcp-server/configure-workfront-mcp-server.md">Configuración del servidor MCP de Adobe Workfront</a>.</p></span></td> 
+      <td role="rowheader">Herramientas MCP de solo lectura</td> 
+      <td>Permite que el servidor MCP de Workfront realice acciones de lectura en los datos de Workfront, como buscar o enumerar proyectos, tareas u otros elementos. Esta opción está habilitada de forma predeterminada.<p>Para obtener más información sobre el servidor MCP de Workfront, consulte <a href="/help/quicksilver/workfront-basics/workfront-mcp-server/configure-workfront-mcp-server.md">Configuración del servidor MCP de Adobe Workfront</a>.</p></td> 
      </tr>
      <tr> 
-      <td role="rowheader"><span class="preview">Herramientas MCP de escritura</span></td> 
-      <td><span class="preview">Permite que el servidor MCP de Workfront realice acciones de creación, actualización y eliminación en los datos de Workfront. Esta opción está desactivada de forma predeterminada.<p>Para obtener más información sobre el servidor MCP de Workfront, consulte <a href="/help/quicksilver/workfront-basics/workfront-mcp-server/configure-workfront-mcp-server.md">Configuración del servidor MCP de Adobe Workfront</a>.</p></span></td> 
+      <td role="rowheader">Herramientas MCP de escritura</td> 
+      <td>Permite que el servidor MCP de Workfront realice acciones de creación, actualización y eliminación en los datos de Workfront. Esta opción está desactivada de forma predeterminada.<p>Para obtener más información sobre el servidor MCP de Workfront, consulte <a href="/help/quicksilver/workfront-basics/workfront-mcp-server/configure-workfront-mcp-server.md">Configuración del servidor MCP de Adobe Workfront</a>.</p></td> 
      </tr>
      <tr> 
-      <td role="rowheader"><span class="preview">URL de redireccionamiento autorizadas</span></td> 
-      <td><span class="preview">Controla las direcciones URL de devolución de llamada (redireccionamiento) que pueden completar el inicio de sesión para los agentes de MCP de su organización que se conectan mediante plataformas agénticas de IA personalizadas.<p>Para obtener instrucciones sobre cómo agregar direcciones URL de redireccionamiento para servidores MCP, consulte <a href="#add-or-remove-an-authorized-redirect-url">Agregar o quitar una dirección URL de redireccionamiento autorizada</a> en este artículo.</p></span></td> 
+      <td role="rowheader">URL de redireccionamiento autorizadas</td> 
+      <td>Controla las direcciones URL de devolución de llamada (redireccionamiento) que pueden completar el inicio de sesión para los agentes de MCP de su organización que se conectan mediante plataformas agénticas de IA personalizadas.<p>Para obtener instrucciones sobre cómo agregar direcciones URL de redireccionamiento para servidores MCP, consulte <a href="#add-or-remove-an-authorized-redirect-url">Agregar o quitar una dirección URL de redireccionamiento autorizada</a> en este artículo.</p></td> 
      </tr>
      <tr> 
       <td role="rowheader">Entornos de prueba</td> 
@@ -223,8 +221,6 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
    Los cambios que ha guardado aquí afectan a la experiencia de todos los usuarios de Workfront y de cualquier persona que interactúe con el sistema como usuario externo.
 
 ## Adición o eliminación de una dirección URL de redireccionamiento autorizada
-
-<div class="preview">
 
 Las URL de redireccionamiento autorizadas le permiten conectar una plataforma agéntica de IA personalizada cuya URL de devolución de llamada de OAuth sea única para su organización, como una URL que contenga un ID de conexión o de inquilino.
 
@@ -248,4 +244,3 @@ Para agregar una dirección URL:
 
 +++
 
-</div>

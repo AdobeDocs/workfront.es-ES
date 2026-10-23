@@ -19,13 +19,15 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
 workflow-type: tm+mt
 source-wordcount: '302'
 ht-degree: 27%
 ---
 
 # Ver información de Workfront Planning en informes
+
+{{planning-important-intro}}
 
 Puede ver la información de Adobe Workfront Planning en los informes al utilizar el panel de lienzo.
 

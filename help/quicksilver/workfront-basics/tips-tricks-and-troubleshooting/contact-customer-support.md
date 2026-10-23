@@ -25,10 +25,10 @@ topic_v2:
     internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: a2fa27fa656dcc4a9799b20b734a7a0121470419
 workflow-type: tm+mt
 source-wordcount: '481'
-ht-degree: 78%
+ht-degree: 74%
 ---
 # Póngase en contacto con el servicio de atención al cliente
 
@@ -142,7 +142,7 @@ Si tiene alguna pregunta o problema al enviar una solicitud, llame al equipo de 
 
 1. Vaya a la página **[!UICONTROL Mis casos]**. Esta página se abre cuando envía un caso o puede abrirla haciendo clic en **[!UICONTROL Mis casos]** en el panel de navegación izquierdo.
 
-1. (Opcional) Utilice las opciones de la parte superior de la página para filtrar por **Producto (solución [!DNL Experience Cloud])** o caso **[!UICONTROL Estado]** ([!UICONTROL Abierto] o Cerrado). También puede utilizar el cuadro de [!UICONTROL búsqueda] para buscar cualquier palabra clave que pertenezca a sus casos de asistencia técnica.
+1. (Opcional) Use las opciones de la parte superior de la página para filtrar por **Producto ([!DNL CX Enterprise] solución)** o caso **[!UICONTROL Estado]** ([!UICONTROL Abierto] o [!UICONTROL Cerrado]). También puede utilizar el cuadro de [!UICONTROL búsqueda] para buscar cualquier palabra clave que pertenezca a sus casos de asistencia técnica.
 
 1. (Opcional) Para ver más detalles sobre un caso, haga clic en **Número de caso** para acceder a él.
 

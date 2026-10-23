@@ -19,13 +19,15 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
 workflow-type: tm+mt
 source-wordcount: '202'
 ht-degree: 16%
 ---
 
 # Conexión de datos de Workfront para Workfront Planning
+
+{{planning-important-intro}}
 
 Workfront Data Connect proporciona acceso a los datos de Workfront, incluso de Adobe Workfront Planning, mediante el uso de la tecnología de Snowflake, lo que le permite responder preguntas críticas para la empresa y medir el valor de sus procesos. Los clientes empresariales pueden analizar sus datos con herramientas de visualización de datos directamente desde un lago de datos de Workfront o exportar datos de Workfront a almacenes de datos propiedad del cliente.
 

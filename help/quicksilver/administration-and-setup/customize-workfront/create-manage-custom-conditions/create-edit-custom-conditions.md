@@ -29,14 +29,12 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 15838c63a3894675382b07de04e6e787ff683f9a
 workflow-type: tm+mt
-source-wordcount: '676'
+source-wordcount: '646'
 ht-degree: 8%
 ---
 # Crear o editar una condición personalizada
-
-{{preview-fast-release-general}}
 
 Como administrador de Adobe Workfront, puede crear o editar una condición personalizada para proyectos, tareas y problemas para que coincida con las necesidades de su organización.
 
@@ -80,15 +78,9 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
 
    O
 
-   Para editar una condición existente:
+   Para editar una condición existente, seleccione la casilla de verificación situada junto al nombre de la condición que desea eliminar y haga clic en **Editar** en la barra de acciones de la parte inferior de la pantalla.
 
-   * En el entorno Producción, haga clic en **Editar** junto al nombre de la condición.
-   * <span class="preview">En el entorno de vista previa, active la casilla de verificación situada junto al nombre de la condición que desea eliminar y haga clic en **Editar** en la barra de acciones de la parte inferior de la pantalla.</span>
 
-   Imagen de muestra en el entorno de producción:
-   ![Editar condición personalizada](assets/custom-conditions-0825.png)
-
-   <span class="preview">Imagen de muestra en el entorno de vista previa:</span>
    ![Editar condición personalizada](assets/edit-conditions-082526.png)
 
 1. Configure la condición personalizada con las siguientes opciones:

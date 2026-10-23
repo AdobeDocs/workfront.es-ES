@@ -28,16 +28,18 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 3e114bf3c8ab947437325eebfb8acd8931192d9a
+source-git-commit: 2dc0cd1ea81b1a71afd5c065bfe7007188e68375
 workflow-type: tm+mt
-source-wordcount: '2010'
-ht-degree: 41%
+source-wordcount: '1898'
+ht-degree: 42%
 ---
 # Administrar la vista de calendario
 
-<span class="preview">La información resaltada en esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa para todos los clientes. Después del lanzamiento en Vista previa, las mismas funciones también están disponibles mensualmente en el entorno de producción para los clientes que habilitaron lanzamientos rápidos. </span>
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Para obtener información sobre las versiones rápidas, consulte [Habilitar o deshabilitar las versiones rápidas para su organización](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -200,9 +202,9 @@ Para administrar una vista de calendario:
        * Los registros que se extienden durante varios días se muestran en la parte superior del calendario.
        * Registros que duran un día o menos y que se muestran en la mitad inferior de la vista de calendario. Si ha seleccionado mostrar la hora de las fechas de inicio y finalización, el registro se muestra a la hora adecuada dentro del día en que se produce.
 
-         <span class="preview">El calendario muestra hasta 1000 registros en las semanas anterior, actual y siguiente para ambas áreas en la vista semanal.</span>
+         El calendario muestra hasta 1000 registros en las semanas anterior, actual y siguiente para ambas áreas en la vista semanal.
 
-1. <span class="preview"> (opcional y condicional) Haga clic en **Cargar más** en la parte inferior del calendario, si hay más de 1000 registros y algunos de ellos no se muestran de forma predeterminada, al ver el calendario por semana.</span>
+1. (Opcional y condicional) Haga clic en **Cargar más** en la parte inferior del calendario, si hay más de 1000 registros y algunos de ellos no se muestran de forma predeterminada al ver el calendario por semana.
 
 1. (Opcional) Haga clic en el icono **Pantalla completa** ![Abrir icono de pantalla completa](assets/open-full-screen-icon.png) para abrir la vista en pantalla completa y, a continuación, en el icono **Salir de pantalla completa** ![Salir del icono de pantalla completa](assets/exit-full-screen-icon.png) o Escape del teclado para salir de la pantalla completa.
 
@@ -287,10 +289,10 @@ Para agregar un filtro a una vista de calendario:
         </tr>
         <tr>
             <td>Selección múltiple, Personas</td>
-            <td><p>Tiene cualquiera de</p> o <span class="preview"><p>Es cualquiera de</p></span>
+            <td><p>Es cualquiera de</p>
             <p>Tiene todas de</p>
             <p>Es exactamente</p>
-            <p>No tiene ninguno de</p> o <span class="preview"><p>Es cualquiera de</p></span>
+            <p>Es cualquiera de</p>
             <p>Está vacío</p>
             <p>No está vacío</p></td>
         </tr>
@@ -459,7 +461,11 @@ Actualice la configuración de vista de calendario para indicar qué informació
 
    * **Tipo de registro**: El color de las barras de registro del calendario coincide con el color del tipo de registro seleccionado. Esta es la opción predeterminada.
    * **Valores de campo**: el color de los registros coincide con el color de un campo que especifique.
-   * **Ninguno**: los registros se muestran en una barra blanca. <span class="preview">La opción **Ninguno** se ha eliminado del entorno de vista previa.</span>
+   * **Registro**: El color coincide con los colores de los registros.
+
+   <!-- 
+    * **None**: Records displays in a white bar. <span class="preview">The **None** option has been removed from the Preview environment.</span
+    -->
 
 
 
@@ -477,9 +483,7 @@ Actualice la configuración de vista de calendario para indicar qué informació
    >[!NOTE]
    >
    >* Puede hacer coincidir el color solo con los campos con opciones codificadas por colores. Por ejemplo, puede hacer coincidir el color con campos de Estado, o campos con opciones asociadas a colores.
-   >    
-   >* En el entorno Producción, no se puede hacer coincidir el color con los registros conectados o sus campos de búsqueda. <span class="preview">En el entorno de vista previa, puede hacer coincidir el color con los registros conectados, pero no con sus campos de búsqueda. </span>
-
+   >            
 
 1. Haga clic en **Guardar**.
 

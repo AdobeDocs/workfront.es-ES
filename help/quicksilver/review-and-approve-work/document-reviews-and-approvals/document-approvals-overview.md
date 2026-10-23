@@ -27,14 +27,12 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
-source-git-commit: 061e5919fddf0c892646d1f359052b35961359b4
+source-git-commit: ba1234b2e48d9dbed57c88ccc65221c65913b43b
 workflow-type: tm+mt
-source-wordcount: '4466'
+source-wordcount: '4464'
 ht-degree: 0%
 ---
 # Resumen de revisión y aprobación unificadas
-
-{{highlighted-preview}}
 
 La revisión y la aprobación unificadas reúnen Adobe Workfront y Adobe Frame.io en una única experiencia profundamente conectada: se eliminan las diferencias entre la administración de marketing, la revisión creativa y la entrega de contenido.
 Los coordinadores de proyectos administran el trabajo en Workfront mientras los creativos, los especialistas en marketing y las partes interesadas revisan y aprueban los recursos en el visor Frame.io de nivel profesional, todo sin mover archivos entre herramientas desconectadas.
@@ -110,9 +108,9 @@ La funcionalidad de revisión de Workfront no está disponible con esta integrac
 
 ## Pista de auditoría completa
 
-<span class="preview">La revisión y aprobación unificadas incluyen un registro de auditoría completo que crea un seguimiento de control completo en Workfront y Frame.io. Los registros de seguimiento de cambios capturan las decisiones de aprobación realizadas en el visor Frame.io y en el ciclo vital del documento. Cada entrada de registro incluye atribución del sistema de origen (Workfront o Frame.io) junto con los campos de auditoría estándar de Workfront: fecha y hora, tipo de registro, nombre de usuario, acción y nombre de objeto. Los comentarios del visor Frame.io no se incluyen en los registros de auditoría.</span>
+La revisión y aprobación unificadas incluyen un registro de auditoría completo que crea un seguimiento de gobernanza completo en Workfront y Frame.io. Los registros de seguimiento de cambios capturan las decisiones de aprobación realizadas en el visor Frame.io y en el ciclo vital del documento. Cada entrada de registro incluye atribución del sistema de origen (Workfront o Frame.io) junto con los campos de auditoría estándar de Workfront: fecha y hora, tipo de registro, nombre de usuario, acción y nombre de objeto. Los comentarios del visor Frame.io no se incluyen en los registros de auditoría.
 
-<span class="preview">Los registros de seguimiento de cambios aparecen en el área de Configuración de Workfront y están disponibles para la exportación. Para obtener más información, vea [Ver y administrar el historial de cambios](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/view-and-manage-change-history.md).</span>
+Los registros de seguimiento de cambios aparecen en el área de Configuración de Workfront y están disponibles para la exportación. Para obtener más información, vea [Ver y administrar el historial de cambios](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/view-and-manage-change-history.md).
 
 ## Potente administración de proyectos en Workfront
 
@@ -360,17 +358,11 @@ El visor Frame.io incluye un conjunto completo de herramientas de marcado visual
 
 Los comentarios y anotaciones permanecen dentro del visor de Frame.io para que conserven su contexto completo, incluidas las marcas de tiempo y las marcas visuales. Esto puede evolucionar en futuras versiones.
 
-<span class="preview">
-
-En la vista previa, el panel Comentarios de Workfront muestra un mensaje que le permite saber cuándo hay nuevos comentarios disponibles en Frame.io.</span>
-
-<div class="preview">
+El panel Comentarios de Workfront muestra un mensaje que le permite saber cuándo hay nuevos comentarios disponibles en Frame.io.
 
 **¿Quién puede ver el indicador de comentarios Frame.io en Workfront?**
 
 Solo los usuarios que ya pudieron ver esos comentarios en Frame.io pueden ver el indicador. Si tiene una licencia de Frame.io Enterprise, puede verla para cualquier comentario en el documento. Si no dispone de una licencia de Frame.io Enterprise, sólo la verá una vez que exista una aprobación para el documento. Las aprobaciones también hacen visibles para usted todos los comentarios anteriores sobre el documento.
-
-</div>
 
 **¿Es posible agregar comentarios a una versión descargada de un recurso (por ejemplo, un PDF)?**
 

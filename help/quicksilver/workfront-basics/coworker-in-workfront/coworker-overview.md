@@ -10,14 +10,12 @@ product_v2:
 feature_v2:
   - id: c042179c-157b-516d-b27c-e3bf303e8567
     internal-label: Get Started with Workfront
-source-git-commit: a05d8d51a3a2595d0c2a75aa9f992e4f14b091fe
+source-git-commit: 15838c63a3894675382b07de04e6e787ff683f9a
 workflow-type: tm+mt
 source-wordcount: '260'
 ht-degree: 0%
 ---
 # Información general sobre CX Enterprise Coworker en Workfront
-
-{{preview-fast-release-general}}
 
 >[!IMPORTANT]
 >
@@ -38,4 +36,5 @@ Para obtener más información sobre Coworker y sus funcionalidades, consulte [D
 Para ver las aptitudes disponibles en Colaborador en Workfront, consulte [Aptitudes de Workfront en CX Enterprise Coworker](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-skills.md).
 
 Por ejemplo, consulte las indicaciones en el artículo [Usar el servidor MCP de Adobe Workfront](/help/quicksilver/workfront-basics/workfront-mcp-server/use-workfront-mcp-server.md).
+
 

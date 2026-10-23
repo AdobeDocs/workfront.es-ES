@@ -26,16 +26,14 @@ topic_v2:
     internal-label: Metadata
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4ae4f25382ce72424e484336fb85df969f190921
+source-git-commit: 7badf4d57dfb120d4e36cfa27e489a54cfcd5fdb
 workflow-type: tm+mt
-source-wordcount: '1077'
+source-wordcount: '1130'
 ht-degree: 5%
 ---
 # Administrar versiones de documentos
 
 <!-- Audited: 5/2025 -->
-
-{{highlighted-preview}}
 
 Puede administrar varias versiones de un documento en Workfront.
 
@@ -162,9 +160,7 @@ Para eliminar una versión de documento:
 
    ![Eliminar la versión del documento](assets/more-versions-350x143.png)
 
-<div class="preview">
-
-## Administrar versiones de documentos en el área de nuevos documentos en Vista previa
+## Administrar versiones de documentos en el área de nuevos documentos
 
 Si su organización utiliza el almacenamiento en la nube de Adobe, verá la nueva área Documentos al acceder a documentos en Workfront. Para obtener más información sobre el almacenamiento en la nube de Adobe, consulte [Información general sobre el almacenamiento en la nube de Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
@@ -239,12 +235,6 @@ Workfront numera cada versión en el orden en que se carga (por ejemplo, V1, V2,
    >
    >Al eliminar una versión, no se modifican los números de las demás versiones. Por ejemplo, si elimina la versión 3 de un documento con las versiones de la V1 a la V5, las versiones restantes conservarán sus números originales y no habrá ninguna V3 posteriormente. La próxima versión que cargue se convertirá en la versión 6.
 
-</div>
+### Ver el archivo actual durante una aprobación
 
-<!--
-
-### View the current file during an approval
-
-If a document is a Creative Cloud file (for example, a Photoshop cloud document) and someone edits it while an approval is in progress, Workfront shows a **Current file** section with a badge indicating that new updates exist on the live document, separate from the version under approval.
-
--->
+Si un documento es un archivo Creative Cloud (por ejemplo, un documento de la nube de Photoshop) y alguien lo edita mientras se realiza la aprobación, Workfront muestra una sección **Archivo actual** con un distintivo que indica que existen nuevas actualizaciones en el documento activo, independientemente de la versión que se esté aprobando.

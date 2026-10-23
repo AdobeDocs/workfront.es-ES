@@ -3,6 +3,7 @@ title: Administre su instancia de Adobe Workfront Planning como producto indepen
 description: En este artículo se describe cómo administrar las preferencias y la información de los clientes para Adobe Workfront Planning cuando su organización ha adquirido es como un producto independiente.
 author: Alina
 feature: Workfront Planning
+recommendations: noDisplay, noCatalog
 role: User, Admin
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
@@ -18,7 +19,7 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: ccfa144db57972aa6a43f169964ea3c792d782bc
+source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
 workflow-type: tm+mt
 source-wordcount: '499'
 ht-degree: 7%

@@ -30,14 +30,12 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 82b937e507ef266f344b4c9f8d651ce12a39d88c
+source-git-commit: 00c44bda4c719c94bd974cca133a0d8faf47612a
 workflow-type: tm+mt
-source-wordcount: '478'
-ht-degree: 81%
+source-wordcount: '483'
+ht-degree: 80%
 ---
 # Crear grupos de temas
-
-{{highlighted-preview}}
 
 <!-- Audited: 2/2024 -->
 
@@ -114,4 +112,4 @@ Para crear un grupo de temas:
    Esto crea un nuevo grupo de temas en la cola de solicitudes. Ahora puede seleccionar categorías adicionales en el primer menú desplegable debajo de una cola de solicitudes.\
    Para obtener más información sobre cómo enviar solicitudes, consulte [Crear y enviar solicitudes de Adobe Workfront](../../../manage-work/requests/create-requests/create-submit-requests.md).
 
-1. Para editar un grupo de temas existente, selecciónelo en la lista Grupos de temas, <span class="preview">haga clic en **Editar** en la barra de acciones de la parte inferior de la pantalla</span> y, a continuación, edite los detalles en la ventana que se abre. Haga clic en **Guardar** para guardar los cambios.
+1. Para editar un grupo de temas existente, seleccione la casilla de verificación situada junto al grupo de temas en la lista Grupos de temas, haga clic en **Editar** en la barra de acciones de la parte inferior de la pantalla y, a continuación, edite los detalles en la ventana que se abre. Haga clic en **Guardar** para guardar los cambios.

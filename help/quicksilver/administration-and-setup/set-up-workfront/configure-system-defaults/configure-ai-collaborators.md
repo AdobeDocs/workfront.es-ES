@@ -17,14 +17,12 @@ feature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 18b3d84862352792e094738269e4307e2f6006bf
+source-git-commit: 781aec7dbd13173fd601cfae366dd216cd0fa4f2
 workflow-type: tm+mt
-source-wordcount: '1348'
+source-wordcount: '1362'
 ht-degree: 3%
 ---
 # Configuración de colaboradores de IA
-
-{{preview-fast-release-general}}
 
 Los colaboradores de IA son una forma de incorporar agentes de IA en sus proyectos, tareas y problemas. Puede configurar un colaborador de IA y, a continuación, asignarlo como lo haría con un usuario.
 
@@ -65,7 +63,7 @@ Los tipos de AI Collaborator disponibles incluyen:
   </tr> 
   <tr> 
    <td>Configuraciones de nivel de acceso</td> 
-   <td>[!UICONTROL Administrador del sistema] <span class="preview">o Administrador del grupo</span></td> 
+   <td>[!UICONTROL Administrador del sistema] o Administrador de grupo</span></td> 
   </tr> 
   </tbody> 
 </table>
@@ -144,7 +142,7 @@ Para obtener una lista de prácticas recomendadas al crear un agente para trabaj
 
    >[!NOTE]
    >
-   ><span class="preview">Si es administrador de un grupo, este campo solo muestra los grupos para los que es administrador. Los administradores de grupo deben seleccionar al menos un grupo.</span>
+   >Si es administrador de un grupo, este campo sólo muestra los grupos para los que es administrador. Los administradores de grupo deben seleccionar al menos un grupo.
 
 1. En el área **Elegir el origen del agente**, seleccione si desea conectar un agente creado en una plataforma común como Copilot o utilizar un agente personalizado.
 1. (Condicional) Si utiliza un agente de una plataforma común, introduzca los detalles de autenticación de la plataforma del agente:
@@ -153,16 +151,17 @@ Para obtener una lista de prácticas recomendadas al crear un agente para trabaj
    |---|---|
    | Copilot Studio | Secreto del canal web |
    | Agentes gestionados de Claude | Clave API antrópica<br>Id. de agente<br>Id. de entorno |
-   | <span class="preview">Agentes OpenAI</span> | <span class="preview">Clave de API <br>Id. de agente</span> |
-   | <span class="preview">Orquestación Watsonx de IBM</span> | <span class="preview">URL de servicio<br>Clave de API<br> ID de agente</span> |
+   | Agentes OpenAI | Clave de API <br>ID de agente |
+   | IBM watsonx Orchestrate | URL del servicio<br>Clave de API<br> ID del agente |
 
 1. Haga clic en **Probar conexión**. Esto le permite saber si la conexión se ha configurado correctamente.
 1. En el área **Después de que el colaborador finalice su trabajo, puede**, activar las acciones que desea que realice el colaborador.
 
-   * <span class="preview">Enviar notificación: el agente hace un comentario en el flujo de actualización, etiquetando al usuario que solicitó el trabajo, asignó al agente o es propietario del proyecto. </span>
-   * <span class="preview">Cargar documentos basados en texto</span>
-   * <span class="preview">Marcar tarea como completada</span>
+   * Enviar notificación: el agente realiza un comentario en el flujo de actualización, etiquetando al usuario que solicitó el trabajo, asignó al agente o es propietario del proyecto.
+   * Cargar documentos basados en texto
+   * Marcar tarea como completada
    * Escribir campos de tarea: seleccione los formularios y campos en los que el agente puede escribir.
+   * Escribir campos de proyecto: seleccione los formularios y campos en los que el agente puede escribir.
 
 1. Haga clic en **Guardar**.
 
@@ -282,7 +281,7 @@ Puede editar, copiar y eliminar colaboradores de IA existentes.
 
 >[!NOTE]
 >
-><span class="preview">Los administradores de grupo solo pueden ver e interactuar con los colaboradores de IA asociados con los grupos para los que son administradores. Si otros grupos también están asociados a un colaborador de IA determinado, un administrador de grupo puede verlo, pero no editarlo.</span>
+>Los administradores de grupos solo pueden ver e interactuar con los colaboradores de IA asociados con los grupos para los que son administradores. Si otros grupos también están asociados a un colaborador de IA determinado, un administrador de grupo puede verlo, pero no editarlo.
 
 {{step-1-to-setup}}
 

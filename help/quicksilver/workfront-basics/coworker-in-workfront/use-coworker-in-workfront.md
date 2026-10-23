@@ -10,14 +10,12 @@ product_v2:
 feature_v2:
   - id: c042179c-157b-516d-b27c-e3bf303e8567
     internal-label: Get Started with Workfront
-source-git-commit: f97a3cd0ce05aa14b71eb252ddbb8c2cde94146a
+source-git-commit: 18e1d35b98b8c1afc6f9c1b14dba73d160b7e420
 workflow-type: tm+mt
-source-wordcount: '610'
+source-wordcount: '609'
 ht-degree: 7%
 ---
 # Uso de CX Enterprise Coworker en Workfront
-
-{{preview-fast-release-general}}
 
 >[!IMPORTANT]
 >
@@ -76,7 +74,10 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
    Por ejemplo, consulte las indicaciones en el artículo [Usar el servidor MCP de Adobe Workfront](/help/quicksilver/workfront-basics/workfront-mcp-server/use-workfront-mcp-server.md).
 1. Utilice cualquiera de las acciones del cuadro de entrada de chat:
 
-   * **+ (Adjuntar)**: Abra el menú Adjuntar para agregar un archivo o un objeto de datos al mensaje.
+   * **+ (Adjuntar)**: abra el menú adjuntar para las siguientes funciones:
+     * Comandos
+     * Adjuntar archivo
+     * Hacer referencia a un objeto
    * **Modo de planificación**: pídale a Coworker Chat que proponga un plan paso a paso y que haga una pausa para su aprobación antes de que actúe. Desactívela para permitir que Coworker Chat actúe directamente.
    * **Vista de transcripción**: controla la cantidad de actividad interna de Coworker Chat que se muestra: Normal, Enfoque o Detallada.
    * **Micrófono**: dicta tu mensaje con la entrada de voz. Seleccione de nuevo para detener la grabación.

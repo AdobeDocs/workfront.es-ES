@@ -28,18 +28,20 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: f1a6727b3282e86f8f8b541173674450fbfe45dc
+source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
 workflow-type: tm+mt
-source-wordcount: '4228'
-ht-degree: 47%
+source-wordcount: '4138'
+ht-degree: 49%
 ---
 # Administrar la vista de tabla
 
 <!-- remove Production and Preview references at release-->
 
-<span class="preview">La información resaltada en esta página hace referencia a funcionalidades que aún no están disponibles de forma general. Solo está disponible en el entorno de vista previa para todos los clientes. Después del lanzamiento en Vista previa, las mismas funciones también están disponibles mensualmente en el entorno de producción para los clientes que habilitaron lanzamientos rápidos. </span>
+<!--
+<span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>
 
-<span class="preview">Para obtener información sobre las versiones rápidas, consulte [Habilitar o deshabilitar las versiones rápidas para su organización](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 
 {{planning-important-intro}}
@@ -207,7 +209,7 @@ Para administrar una vista de tabla:
 
 1. Cree una vista de tabla, tal como se describe en el artículo [Administrar vistas de registros](/help/quicksilver/planning/views/manage-record-views.md).
 
-   ![Ejemplo de vista de tabla](assets/table-view-example-g-list.png)
+   ![Ejemplo de vista de tabla](assets/table-view-example.png)
 
 1. (Opcional) Haga clic en **Altura de la fila** y, a continuación, seleccione una de las siguientes opciones para modificar la altura de las filas de la tabla:
    * Baja
@@ -333,9 +335,7 @@ Puede añadir hasta 500 campos (o columnas) en una vista de tabla.
      * **MIN**: muestra el valor más bajo de todas las celdas de la columna.
      * **MAX**: muestra el valor más alto de todas las celdas de la columna.
      * **AVG**: Muestra el valor promedio de todas las celdas de la columna.
-     * <span class="preview">**NONE**: no se agregan los valores de la columna. Esta es la opción predeterminada.</span>
-
-   <div class="preview">
+     * **NONE**: no se agregan los valores de la columna. Esta es la opción predeterminada.
 
    * Para los campos de fecha, expanda el menú desplegable del agregador en la parte inferior de las columnas y seleccione una de las siguientes opciones:
 
@@ -351,17 +351,12 @@ Puede añadir hasta 500 campos (o columnas) en una vista de tabla.
      * **VACÍO**: muestra un recuento de los campos que no tienen valores.
      * **NO VACÍO**: muestra un recuento de los campos que tienen valores.
 
-   </div>
-
    Tenga en cuenta lo siguiente al trabajar con agregadores:
 
    * La fila del agregador de la columna se bloquea cuando muestra valores y forma parte de la configuración de vista.
    * Como Administrador de vistas, puede elegir el agregador, que se compartirá con la vista cuando comparta la vista con otros usuarios.
    * Como visor, puede modificar el agregador, pero no se guarda con la vista.
    * Las vistas compartidas públicas se comparten con los acumuladores guardados, los cuales no se pueden modificar.
-
-   <div class="preview">
-
    * Los siguientes tipos de campo no tienen un agregador:
 
      * Creado por
@@ -369,7 +364,7 @@ Puede añadir hasta 500 campos (o columnas) en una vista de tabla.
      * ID de registro
    * Los campos de fórmula y los campos de búsqueda tienen los acumuladores que corresponden a su formato de campo.
 
-   </div>
+
 
 <!--
 
@@ -409,11 +404,11 @@ Puede tener hasta 50 000 registros (o filas) para un tipo de registro.
 
    Los registros que añada a la vista de tabla se guardarán inmediatamente y serán visibles para todos los usuarios que tengan permisos de vista o superiores sobre el área de trabajo.
 
-   También se agregarán al nuevo registro una imagen en miniatura predeterminada <span class="preview">y un color</span>.
+   También se agregan una imagen en miniatura y un color predeterminados al nuevo registro.
 
    >[!TIP]
    >
-   ><span class="preview">Cuando un registro tiene comentarios sin leer, aparece el indicador **Nuevo comentario** en la esquina superior derecha del campo principal del registro.</span>
+   >Cuando un registro tiene comentarios sin leer, aparece el indicador **Nuevo comentario** en la esquina superior derecha del campo principal del registro.
    >
    >![Nuevo icono de comentario en la vista de tabla](assets/new-comment-icon-in-table-view-highlighted.png)
 
@@ -425,32 +420,20 @@ Puede tener hasta 50 000 registros (o filas) para un tipo de registro.
    >
    >Los cambios realizados en el orden de filas son visibles para todos los usuarios que acceden al tipo de registro en la misma vista.
    >
-   ><span class="preview">En la línea de arrastre y suelte, un indicador de número muestra el número de registros seleccionados, si hay más de uno. </span>
+   >En la línea de arrastre y suelte, un indicador de número muestra el número de registros seleccionados, si hay más de uno.
 
 1. (Opcional) Haga clic en el menú **Más** ![Menú más](assets/more-menu.png) que se encuentra a la derecha del registro y, a continuación, haga clic en **Editar miniatura** para editar la miniatura.
-1. Haga clic en **Campos** en la parte superior de la tabla en el entorno de producción
-
-   O
-
-   <span class="preview">Pase el ratón sobre el encabezado del campo principal</span> y, a continuación, seleccione la opción del campo **Miniatura** para mostrarlo a la izquierda del campo principal. De forma predeterminada, no está seleccionado.
+1. Pase el ratón sobre el encabezado del campo principal y luego seleccione la opción del campo **Miniatura** para mostrarlo a la izquierda del campo principal. De forma predeterminada, no está seleccionado.
 
    Para obtener más información, consulte [Añadir una miniatura a un registro](/help/quicksilver/planning/records/add-thumbnails-to-records.md).
 
-1. <span class="preview">Haga clic en **Campos** en la parte superior de la tabla</span>
+1. Pase el ratón sobre el encabezado del campo principal y luego seleccione la opción del campo **Color** para mostrarlo a la izquierda del campo principal. De forma predeterminada, no está seleccionado.
 
-   O
-   <span class="preview">Pase el ratón sobre el encabezado del campo principal y, a continuación, seleccione la opción del campo **Color** para mostrarlo a la izquierda del campo principal. De forma predeterminada, no está seleccionada. </span>
-
-1. <span class="preview"> (opcional y condicional) Si activó la opción **Color**, haga clic en la barra de color a la izquierda del campo principal del registro, seleccione un color de las fichas **Muestras** o **Personalizadas** y, a continuación, haga clic fuera del cuadro para cerrarlo. El color se aplica inmediatamente.</span>
-
-<div class="preview">
+1. (Opcional y condicional) Si activó la configuración de **Color**, haga clic en la barra de color a la izquierda del campo principal del registro y seleccione un color de las fichas **Muestras** o **Personalizadas**; a continuación, haga clic fuera del cuadro para cerrarlo. El color se aplica inmediatamente.
 
 ![Cuadro selector de color con codificación de color de registro](assets/color-picker-for-record-color-coding.png)
 
 Para obtener más información, consulte [Creación de registros](/help/quicksilver/planning/records/create-records.md).
-
-</div>
-
 
 ### Añadir filtros {#add-filters-1}
 
@@ -514,10 +497,10 @@ Para añadir un filtro a una vista de tabla:
         </tr>
         <tr>
             <td>Selección múltiple, Personas</td>
-            <td><p>Tiene cualquiera de</p> o <span class="preview"><p>Es cualquiera de</p></span>
+            <td><p>Es cualquiera de</p>
             <p>Tiene todas de</p>
             <p>Es exactamente</p>
-            <p>No tiene ninguno de</p> o <span class="preview"><p>No es ninguno de</p></span>
+            <p>No es ninguno de</p>
             <p>Está vacío</p>
             <p>No está vacío</p></td>
         </tr>

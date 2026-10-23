@@ -32,9 +32,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 284f02c34a04b176c60f50443b9f03b789d8416d
+source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
 workflow-type: tm+mt
-source-wordcount: '5636'
+source-wordcount: '5576'
 ht-degree: 46%
 ---
 <!--
@@ -51,10 +51,11 @@ Do we need this for FORMULAS: when we release permissions to RECORDS and we rele
 
 # Crear campos
 
-<span class="preview">La información resaltada en esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa para todos los clientes. Después del lanzamiento en Vista previa, las mismas funciones también están disponibles mensualmente en el entorno de producción para los clientes que habilitaron lanzamientos rápidos. </span>
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Para obtener información sobre las versiones rápidas, consulte [Habilitar o deshabilitar las versiones rápidas para su organización](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
-
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -307,15 +308,10 @@ Para obtener más información, consulte [Importar campos de Workfront](/help/qu
 1. (Opcional y condicional) Después de agregar un campo, pase el ratón sobre el nombre del campo en el encabezado de columna de la vista de tabla y haga clic en el menú desplegable **Más**, a continuación, **Eliminar** para eliminar el campo.
 
    Para obtener más información, consulte [Eliminar campos](/help/quicksilver/planning/fields/delete-fields.md).
-<!--
-1. <span class="preview">(Optional and conditional) After you add a field, hover over the field name in the table view column header and click the **More** drop-down menu, then **Share field** to share the field. </span>
 
-    </span>For information, see [Share fields](/help/quicksilver/planning/access/share-fields.md). </span>
--->
+1. (Opcional y condicional) Después de agregar un campo, pase el ratón sobre el nombre del campo en el encabezado de columna de la vista de tabla y haga clic en el menú desplegable **Más**; a continuación, seleccione **Compartir campo** para compartir el campo.
 
-1. <span class="preview"> (opcional y condicional) Después de agregar un campo, pase el ratón sobre el nombre del campo en el encabezado de columna de la vista de tabla y haga clic en el menú desplegable **Más**; a continuación, **Compartir campo** para compartir el campo. </span>
-
-   </span>Para obtener más información, consulte [Compartir campos](/help/quicksilver/planning/access/share-fields.md). </span>
+   Para obtener más información, consulte [Compartir campos](/help/quicksilver/planning/access/share-fields.md).
 
 ### Texto de línea única {#single-line-text}
 

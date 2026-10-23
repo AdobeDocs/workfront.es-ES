@@ -26,14 +26,12 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: a98167536dec4cee61b0b310be0fcc8c9d06449c
+source-git-commit: 00c44bda4c719c94bd974cca133a0d8faf47612a
 workflow-type: tm+mt
-source-wordcount: '446'
-ht-degree: 41%
+source-wordcount: '428'
+ht-degree: 43%
 ---
 # Cree una relación de predecesoras mediante el área Predecesoras
-
-{{highlighted-preview}}
 
 <!-- Audited: 5/2025 -->
 
@@ -122,7 +120,6 @@ Para crear una tarea predecesora para una tarea de proyecto:
 
 1. Haga clic en **Guardar**.
 
-1. (Opcional) Para quitar un predecesor, selecciónelo de la lista de predecesores y luego haga clic en el icono **Quitar** ![Quitar icono](assets/remove-or-delete-icon.png).
-   <span class="preview">Para quitar un predecesor, selecciónelo en la lista de predecesores y haga clic en **Quitar** en la barra de acciones de la parte inferior de la pantalla.</span>
+1. (Opcional) Para quitar un predecesor, selecciónelo en la lista de predecesores y haga clic en **Quitar** en la barra de acciones de la parte inferior de la pantalla.
 
    La tarea predecesora se elimina de la lista. La tarea predecesora no se elimina de su proyecto.

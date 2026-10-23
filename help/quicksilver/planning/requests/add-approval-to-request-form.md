@@ -34,26 +34,26 @@ topic_v2:
     internal-label: Metadata
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
 workflow-type: tm+mt
-source-wordcount: '1171'
-ht-degree: 5%
+source-wordcount: '1141'
+ht-degree: 4%
 ---
 # Agregar una aprobación a un formulario de solicitud en Planificación de Workfront de Adobe
 
 <!--update the metadata with real information when making this available in TOC and in the left nav-->
 
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">La información resaltada en esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa para todos los clientes. Después del lanzamiento en Vista previa, las mismas funciones también están disponibles mensualmente en el entorno de producción para los clientes que habilitaron lanzamientos rápidos. </span>
-
-<span class="preview">Para obtener información sobre las versiones rápidas, consulte [Habilitar o deshabilitar las versiones rápidas para su organización](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
-
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
 Puede agregar un proceso de aprobación a un formulario de solicitud de Adobe Workfront Planning para iniciar una aprobación para cada solicitud enviada antes de crear un registro.
 
-<!--<span class="preview">Multiple stages are supported in the approval process. When all required decisions in a stage are made, the next stage begins and the new stage's approvers receive an email notification.</span>-->
+Se admiten varias fases en el proceso de aprobación. Cuando se toman todas las decisiones necesarias en una fase, comienza la siguiente fase y los aprobadores de la nueva fase reciben una notificación por correo electrónico.
 
 Este artículo describe cómo un administrador del espacio de trabajo puede agregar una aprobación a un formulario de solicitud asociado a un tipo de registro.
 
@@ -116,7 +116,7 @@ Para obtener más información acerca de los requisitos de acceso de Workfront, 
 * Cuando se requieren varios aprobadores, todos deben tomar una decisión antes de aprobar o rechazar la solicitud, a menos que la opción Only one decision is required esté habilitada.
 * Si un equipo se establece como aprobador, solo se necesita una decisión de un miembro de ese equipo.
 * Las aprobaciones son opcionales: si un formulario de solicitud no tiene aprobación adjunta, Workfront Planning crea el registro inmediatamente después del envío.
-* <span class="preview">Puede agregar una o más etapas a las aprobaciones.</span>
+* Puede añadir una o más etapas a las aprobaciones.
 
 ## Adición de reglas de aprobación a un formulario de solicitud
 
@@ -156,29 +156,29 @@ Para definir reglas de aprobación para un formulario de solicitud:
    >   * Si se cumple una regla personalizada, el valor predeterminado no se aplica al flujo de trabajo de solicitud y aprobación. Solo se aplican las reglas personalizadas coincidentes para las aprobaciones y se ignora la regla predeterminada.
    >   * Si se cumplen varias reglas personalizadas, se aplica la primera del orden. En este caso, la aprobación predeterminada no se aplica, si es que la hay.
 
-1. <span class="preview">(Opcional) Haga clic en **Agregar fase** para agregar otra fase a la aprobación.</span>
+1. (Opcional) Haga clic en **Agregar etapa** para agregar otra etapa a la aprobación.
 
 1. Haga clic en **Guardar** para guardar las reglas de aprobación.
 
-1. <span class="preview">(Opcional) Para agregar más etapas a la aprobación, haga lo siguiente:</span>
+1. (Opcional) Para añadir más fases a la aprobación, haga lo siguiente:
 
-   1. <span class="preview">Haga clic en **Agregar fase**.</span>
+   1. Haga clic en **Añadir fase**.
 
-      <span class="preview">Aparece el cuadro **Aprobación de varias etapas**. Si ya ha creado una acción de aprobación predeterminada, esos aprobadores se agregan automáticamente a la fase 1.</span>
+      Aparecerá el cuadro **Aprobación de varias etapas**. Si ya ha creado una acción de aprobación predeterminada, esos aprobadores se añaden automáticamente a la Fase 1.
 
-   1. <span class="preview">En el campo **Agregar personas o equipos**, agregue al menos un usuario o equipo que se establecerá como aprobador de la fase.</span>
-   1. <span class="preview">(Condicional y opcional) Si desea que el registro avance a la siguiente fase después de que cualquiera de los aprobadores lo haya aprobado, marque la casilla de verificación **Solo se requiere una decisión**. De lo contrario, todos los aprobadores deben decidir la aprobación antes de que la solicitud pase a la siguiente fase.</span>
-   1. <span class="preview">Haga clic en **Agregar fase** y repita desde el paso B para agregar más fases a la aprobación.</span>
+   1. En el campo **Agregar personas o equipos**, agregue al menos un usuario o equipo que se establecerá como aprobador de la fase.
+   1. (Condicional y opcional) Si desea que el registro avance a la siguiente fase después de que cualquiera de los aprobadores lo haya aprobado, marque la casilla de verificación **Solo se requiere una decisión**. De lo contrario, todos los aprobadores deben decidir la aprobación antes de que la solicitud pase a la siguiente fase.
+   1. Haga clic en **Agregar fase** y repita desde el paso B para agregar más fases a la aprobación.
 
-      <span class="preview">Cuando existen dos o más fases, puede hacer clic en el icono **Arrastrar** ![Arrastrar icono](assets/drag-icon.png) para arrastrarlas y soltarlas en orden.</span>
+      Cuando existan dos o más fases, puede hacer clic en el icono **Arrastrar** ![Arrastrar icono](assets/drag-icon.png) para arrastrarlas y soltarlas en orden.
 
-      <span class="preview">Haga clic en **Eliminar esta etapa** para eliminar una etapa de la aprobación, o haga clic en el icono **Eliminar** ![Eliminar icono](assets/delete.png) que está junto a un aprobador para eliminar al usuario o equipo de la lista de aprobadores de una etapa.</span>
+      Haga clic en **Eliminar esta etapa** para eliminar una etapa de la aprobación, o haga clic en el icono **Eliminar** ![Eliminar icono](assets/delete.png) que está junto a un aprobador para eliminar al usuario o equipo de la lista de aprobadores de una etapa.
 
       ![Cuadro de aprobación de varias etapas](assets/planning-request-multi-stage-approval-box.png)
 
-   1. <span class="preview">Cuando termine de crear el flujo de trabajo de aprobación, haga clic en **Guardar**.</span>
+   1. Cuando termine de crear el flujo de trabajo de aprobación, haga clic en **Guardar**.
 
-      <span class="preview">Puede editar o eliminar la aprobación de varias etapas desde la página Aprobaciones.</span>
+      Puede editar o eliminar la aprobación de varias etapas desde la página Aprobaciones.
 
 1. (Opcional) Haga clic en **Publicar** si nunca antes había compartido el formulario de solicitud.
 

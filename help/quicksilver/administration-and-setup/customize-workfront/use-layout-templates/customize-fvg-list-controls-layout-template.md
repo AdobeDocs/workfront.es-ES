@@ -27,14 +27,12 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 9b233bb7501b487a5220882902c47e7d933709ef
+source-git-commit: beb4990355a7445994309d242bdc195d6d3a847c
 workflow-type: tm+mt
 source-wordcount: '847'
 ht-degree: 18%
 ---
 # Personalización de filtros, vistas y agrupaciones mediante una plantilla de diseño
-
-{{preview-fast-release-general}}
 
 Como administrador de Adobe Workfront, puede utilizar una plantilla de diseño para especificar qué controles de lista aparecen en los menús desplegables Filtrar, Ver y Agrupar. Estos menús aparecen encima de las listas en Workfront, como la lista de tareas de un proyecto:
 
@@ -103,7 +101,7 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
    >   
    >  ![Botón Deshabilitar filtros](assets/disable-filter-pills.png)
 
-   <span class="preview">Algunas listas mejoradas están disponibles para elegir. Estas listas tienen la etiqueta &quot;Nueva experiencia&quot; junto a los controles de lista. Para obtener información sobre las listas mejoradas, consulte [Usar listas mejoradas](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).</span>
+   Algunas listas mejoradas están disponibles para elegir. Estas listas tienen la etiqueta &quot;Nueva experiencia&quot; junto a los controles de lista. Para obtener información sobre las listas mejoradas, consulte [Usar listas mejoradas](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
 
 1. (Opcional) Si desea cambiar el filtro, la vista o la agrupación predeterminados de la plantilla de diseño, pase el ratón sobre el filtro, la vista o la agrupación y, a continuación, haga clic en **Establecer como predeterminado**.
 

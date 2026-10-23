@@ -28,19 +28,20 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ccfa144db57972aa6a43f169964ea3c792d782bc
+source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
 workflow-type: tm+mt
-source-wordcount: '5027'
+source-wordcount: '4867'
 ht-degree: 33%
 ---
 # Administrar la vista de cronología
 
 <!--remove Production and Preview references at release-->
 
-<span class="preview">La información resaltada en esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa para todos los clientes. Después del lanzamiento en Vista previa, las mismas funciones también están disponibles mensualmente en el entorno de producción para los clientes que habilitaron lanzamientos rápidos. </span>
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Para obtener información sobre las versiones rápidas, consulte [Habilitar o deshabilitar las versiones rápidas para su organización](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
-
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -245,14 +246,10 @@ Para administrar una vista de cronología:
      * **Trimestre**: muestra meses y semanas con indicación de trimestre.
      * **Mes**: muestra semanas y días.
 
-     >[!TIP]
-     >
-     >Dependiendo del entorno que utilice para acceder a la vista de cronología, existen los siguientes escenarios:
-     >
-     >* En el entorno de producción, la vista de cronología solo muestra semanas personalizadas según los trimestres clásicos. Si el administrador de Workfront activa Trimestres personalizados en el área de Configuración, la información de la semana no se muestra en la vista de cronología.
-     >
-     >* <span class="preview">En el entorno de vista previa, la vista de escala de tiempo muestra de forma predeterminada las semanas personalizadas según los trimestres clásicos. Si el administrador de Workfront activa Trimestres personalizados y Semanas personalizadas en el área de Configuración, la vista de cronología muestra los trimestres y semanas personalizados en las pantallas Trimestre y Mes. </span>
-     >
+     La vista de cronología muestra de forma predeterminada las semanas personalizadas según los trimestres clásicos. Si el administrador de Workfront activa Trimestres personalizados y Semanas personalizadas en el área de Configuración, la vista de cronología muestra los trimestres y semanas personalizados en los modos Trimestre y Mes.
+
+     Para obtener más información, consulte [Habilitar trimestres y semanas personalizados](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md).
+
 
 
 1. (Opcional) Haga clic en **Cambiar a la vista Compacta** para mostrar los registros cuyas fechas no se cruzan en la misma línea. <!--check to see if they updated the name of the setting here-->
@@ -374,10 +371,10 @@ Para agregar un filtro a una vista de cronología:
         </tr>
         <tr>
             <td>Selección múltiple, Personas</td>
-            <td><p>Tiene cualquiera de</p> o <span class="preview"><p>Es cualquiera de</p></span>
+            <td><p>Es cualquiera de</p>
             <p>Tiene todas de</p>
             <p>Es exactamente</p>
-            <p>No tiene ninguno de</p> o <span class="preview"><p>No es ninguno de</p></span>
+            <p><p>No es ninguno de</p>
             <p>Está vacío</p>
             <p>No está vacío</p></td>
         </tr>
@@ -509,9 +506,9 @@ Para añadir una agrupación en la vista de cronología:
     500 records display by default. There might be more records that belong to the groupings visible on the screen that are not uploaded. Click **Load more** to load all records. 
     </div>
     -->
-1. <span class="preview">(Opcional) Haga clic en el icono **Agrupación** ![Icono de agrupación](assets/grouping-icon.png) en la barra de herramientas para abrir el cuadro **Agrupar registros por** y, a continuación, haga clic en **Expandir todo** para expandir todas las agrupaciones o **Contraer todo** para contraer todas las agrupaciones y contraer manualmente solo las que necesite. </span>
-1. <span class="preview"> (opcional y condicional) En la pantalla de la calle, arrastre y suelte el separador del panel izquierdo para ajustar su anchura. La anchura del panel de cada usuario se guarda entre sesiones, con una anchura predeterminada para los usuarios nuevos.</span>
-1. <span class="preview">(Opcional) Para nombres de agrupación largos, pase el ratón sobre la línea de una agrupación para ver el nombre completo de la agrupación en la información sobre herramientas.</span>
+1. (Opcional) Haga clic en el icono **Agrupación** ![Icono de agrupación](assets/grouping-icon.png) en la barra de herramientas para abrir el cuadro **Agrupar registros por** y, a continuación, haga clic en **Expandir todo** para expandir todas las agrupaciones o **Contraer todo** para contraer todas las agrupaciones y contraer manualmente solo las que necesite.
+1. (Opcional y condicional) En la pantalla de carril de baño, arrastre y suelte el separador del panel izquierdo para ajustar su anchura. La anchura del panel de cada usuario se guarda entre sesiones, con una anchura predeterminada para los usuarios nuevos.
+1. (Opcional) Para nombres de agrupación largos, pase el ratón sobre la línea de una agrupación para ver su nombre completo en la información sobre herramientas.
 
 1. (Opcional) Dentro del cuadro **Agrupar registros por**, haga clic en el icono **x** a la derecha de un campo seleccionado para la agrupación para quitar la agrupación
 
@@ -527,7 +524,6 @@ Para añadir una agrupación en la vista de cronología:
    >Cuando arrastra y suelta registros de una agrupación a otra, los campos seleccionados en la agrupación actualizan automáticamente los valores de los registros movidos.
 1. (Opcional) Haga clic en **Configuración** y, a continuación, en **Color** para añadir agrupaciones con códigos de color. Para obtener más información, consulte la sección [Editar la configuración de la vista de cronología](#edit-the-timeline-view-settings) en este artículo.
 
-<div class="preview">
 
 ### Agregar orden
 
@@ -568,12 +564,6 @@ Para agregar un orden en la vista de cronología:
 
    La ordenación se aplica inmediatamente.
 1. Haga clic en cualquier lugar de la página para cerrar el cuadro de ordenación.
-
-</div>
-
-
-<!--this ("To remove grouping sorting, remove the groupings from the timeline view. ") might change at production - we have a button here called Reset all but right now it's not functioning - I logged a bug for this-->
-
 
 ### Editar la configuración de la vista de cronología {#edit-the-timeline-view-settings}
 
@@ -652,10 +642,8 @@ Actualice la configuración de la vista de cronología para indicar qué informa
    >
    >* Puede hacer coincidir el color solo con los campos con opciones codificadas por colores. Por ejemplo, puede hacer coincidir el color con campos de Estado, o campos con opciones asociadas a colores.
    >    
-   >* En el entorno Producción, no se puede hacer coincidir el color con los registros conectados o sus campos de búsqueda. <span class="preview">En el entorno de vista previa, puede hacer coincidir el color con los registros conectados, pero no con sus campos de búsqueda. </span>
+   >* Puede hacer coincidir el color con los registros conectados, pero no con sus campos de búsqueda.
 
-
-   Por ejemplo, los campos de selección múltiple o de selección única pueden tener opciones codificadas por colores.
 
    Si agrupa por campos sin opciones codificadas por colores, el color de agrupación permanece gris.
 
@@ -667,8 +655,8 @@ Actualice la configuración de la vista de cronología para indicar qué informa
 
    * **Tipo de registro**: el color de los registros coincide con el color del tipo de registro seleccionado. Esta es la opción predeterminada.
    * **Valores de campo**: el color de los registros coincide con el color de un campo que especifique. Continúe con el paso 10. <!--ensure this stays accurate-->
+   * **Registro**: El color coincide con los colores de los registros.
    * **Agrupación**: el color de los registros coincide con el color indicado para las agrupaciones. Esta opción aparece atenuada cuando no se han aplicado agrupaciones a la vista de cronología.
-   * **Ninguno**: los registros se muestran en una barra blanca. <span class="preview">Se ha quitado la opción Ninguno del entorno de vista previa.</span>
 
 1. (Condicional) Si ha seleccionado **Valores de campo** para los colores de registro, seleccione un campo en el menú desplegable **Hacer coincidir el color del registro con**.
 

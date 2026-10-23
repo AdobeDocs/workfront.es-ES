@@ -25,14 +25,12 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: e3f394fd4bb2767993df2714aed4aa06b312d48d
+source-git-commit: 310f706e34a2b23007216361e8355637db4ccd73
 workflow-type: tm+mt
-source-wordcount: '3360'
+source-wordcount: '3345'
 ht-degree: 2%
 ---
 # Uso de listas mejoradas
-
-{{preview-fast-release-general}}
 
 Las listas mejoradas están disponibles en algunas áreas de Adobe Workfront. Estas listas utilizan un formato de tabla para mostrar los elementos de la lista, y tienen un aspecto diferente al de las listas estándar. También se mejora la administración de vistas, incluidos el filtrado, la agrupación, la administración de columnas y la búsqueda.
 
@@ -84,20 +82,20 @@ A continuación se muestran algunos tipos de listas de objetos de Workfront que 
 | <span class="preview">Lista de cuadros de resultados</span> | <span class="preview">Configuración > Cuadros de resultados</span> |
 | <span class="preview">Lista de tipos de riesgos</span> | <span class="preview">Configuración > Tipos de riesgos</span> |
 | Lista de funciones y tarifas del puesto en una tarjeta de tarifas | Configuración > Tarjetas de tarifas > seleccione una tarjeta de tarifas > Funciones del puesto y tarifas |
-| <span class="preview">Lista de ubicaciones</span> | <span class="preview">Configuración > Ubicaciones</span> |
+| Lista de ubicaciones | Configuración > Ubicaciones |
 | Lista de traducciones | Configuración > Localización |
-| <span class="preview">Listas de integraciones </span> | <ul><li><span class="preview">Configuración > Documentos > Integración de SharePoint</span></li><li><span class="preview">Configuración > Documentos > Integración personalizada</span></li><li><span class="preview">Configuración > Documentos > Experience Manager Assets</span></li></ul> |
+| Listas de integraciones | <ul><li>Configuración > Documentos > Integración de SharePoint</li><li>Configuración > Documentos > Integración personalizada</li><li>Configuración > Documentos > Experience Manager Assets</li></ul> |
 | Lista de informes | Menú principal > Informes (**Usar carpetas que se pueden compartir** debe estar activado) |
-| <span class="preview">Listas de temas de colas, grupos de temas y reglas de enrutamiento</span> | <ul><li><span class="preview">Proyecto o plantilla > Temas de cola</span></li><li><span class="preview">Proyecto o plantilla > Grupos de temas</span></li><li><span class="preview">Proyecto o plantilla > Reglas de enrutamiento</span></li></ul> |
+| Listas de temas de colas, grupos de temas y reglas de enrutamiento | <ul><li>Proyecto o plantilla > Temas de cola</li><li>Proyecto o plantilla > Grupos de temas</li><li>Proyecto o plantilla > Reglas de enrutamiento</li></ul> |
 | Lista de instantáneas | Proyecto > Instantáneas |
 | Lista de medios para facturación | Proyecto > Recurso de facturación |
-| <span class="preview">Lista de predecesoras</span> | <span class="preview">Configuración > Tarea o Tarea de plantilla > Predecesoras</span> |
+| Lista de predecesoras | Configuración > Tarea o Plantilla > Tarea > Predecesoras |
 | Nuevas asignaciones avanzadas en una tarea | Tarea > Asignaciones > Avanzadas |
-| <span class="preview">Vista de todas las versiones de un documento</span> | <span class="preview">Proyecto > Documentos > Detalles del documento > Todas las versiones</span> |
+| Vista de todas las versiones de un documento | Proyecto > Documentos > Detalles del documento > Todas las versiones |
 | Vista de administración de tableros | Tableros > Vista de administración |
 | Documentos en el almacenamiento en la nube de Adobe | Proyecto, tarea, problema, portafolio, programa, plantilla, tarea de plantilla > Documentos |
-| <span class="preview">Listas de planes de escenario e iniciativas</span> | <span class="preview">Menú principal > Escenarios</span> |
-| <span class="preview">Listas de metas e indicadores de progreso</span> | <ul><li><span class="preview">Menú principal > Metas</span></li><li><span class="preview">Menú principal > Objetivos > Indicadores de progreso</span></li></ul> |
+| Listas de planes de escenarios e iniciativas | Menú principal > Escenarios |
+| Listas de objetivos e indicadores de progreso | <ul><li>Menú principal > Metas</li><li>Menú principal > Objetivos > Indicadores de progreso</li></ul> |
 
 <!--
 
@@ -190,15 +188,11 @@ En función de los objetos que visualice en una lista mejorada, puede ocultar, m
 
 1. Haga clic en **Columnas** sobre la lista.
 
-   Imagen de muestra en el entorno de producción:
-   ![Ejemplo de columnas de visualización](assets/glist-display-move-columns.png)
-
-   <span class="preview">Imagen de muestra en el entorno de vista previa:</span>
    ![Ejemplo de columnas de visualización](assets/display-columns-090126.png)
 
 1. Utilice las teclas de alternancia para mostrar u ocultar columnas de la lista.
 
-   <span class="preview">Puede buscar una columna en el cuadro de búsqueda.</span>
+   Puede buscar una columna en el cuadro de búsqueda.
 
 1. Para reordenar las columnas, haga clic en el icono **Arrastrar** ![Arrastrar icono](assets/drag-icon.png) y mueva una columna a la ubicación que desee. Al mover columnas, la lista cambia automáticamente.
 
@@ -242,7 +236,7 @@ Para agregar y quitar columnas:
 
    <!-- Add info about Properties and KPIs when something gets released with those options -->
 
-1. <span class="preview">(Opcional) Para reordenar las columnas, pase el ratón sobre un nombre de columna en la sección **Seleccionado** y haga clic en el icono **Arrastrar** ![Icono de arrastrar](assets/drag-icon.png). Mueva las columnas verticalmente para ponerlas en orden.</span>
+1. (Opcional) Para reordenar las columnas, pase el ratón sobre un nombre de columna en la sección **Seleccionado** y haga clic en el icono **Arrastrar** ![Icono de arrastrar](assets/drag-icon.png). Mueva las columnas verticalmente para colocarlas en orden.
 1. Haga clic en **Guardar**.
 
    ![Administrador de columnas](assets/glist-column-manager.png)

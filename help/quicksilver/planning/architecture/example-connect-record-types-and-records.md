@@ -21,16 +21,18 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
 workflow-type: tm+mt
-source-wordcount: '2188'
-ht-degree: 74%
+source-wordcount: '2129'
+ht-degree: 76%
 ---
 # Ejemplo de conexión de tipos de registro y registros
 
-<span class="preview">La información de esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa para todos los clientes. Después del lanzamiento en Vista previa, las mismas funciones también están disponibles mensualmente en el entorno de producción para los clientes que habilitaron lanzamientos rápidos. </span>
+<!--
+<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Para obtener información sobre las versiones rápidas, consulte [Habilitar o deshabilitar las versiones rápidas para su organización](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -63,14 +65,10 @@ Para ello:
    * **Nombre**: asigne un nombre al nuevo campo. Por ejemplo, “Información del producto”. Es el nombre del campo de registro vinculado.
    * **Descripción**: añada una descripción para el nuevo campo. Por ejemplo, &quot;Estos son los productos con los que quiero que se asocien mis campañas&quot;. La descripción del campo se muestra al pasar el puntero por encima del campo en el encabezado de la columna.
 
-   <div class="preview">
-
    * **Hacer que esta conexión sea dependiente**: cuando está habilitada y los dos registros conectados se muestran en un tercer registro al mismo tiempo, las opciones para un tipo de registro dependen de las opciones para el otro.
 
      Para obtener más información, consulte [Administrar conexiones dependientes](/help/quicksilver/planning/architecture/manage-dependent-connections.md).
    * **Crear campo correspondiente en el tipo de registro vinculado**: cuando está habilitado, también se crea un campo de conexión en el tipo de registro al que está conectado (Product).
-
-   </div>
 
    * **Tipo de conexión**: seleccione una de las siguientes opciones:
      * **Muchos a muchos**: Los usuarios pueden conectar una campaña a varios productos y un producto a varias campañas.
@@ -87,13 +85,11 @@ Para ello:
      * **Nombre**: muestra solamente el nombre de los registros conectados.
      * **Imagen**: muestra solamente la miniatura o el icono de los registros conectados.
 
-     <div class="preview">
+     * **Color y nombre**: muestra solamente el color y el nombre de los registros conectados.
 
-     * **Color y nombre**: muestra solamente el color y el nombre de los registros conectados
+   * **Campos de búsqueda**: expanda esta opción para conectar también campos de búsqueda de los registros conectados.
 
-     </div>
-
-   * <span class="preview">**Campos de búsqueda**: expanda esta opción para conectar también campos de búsqueda de los registros conectados. </span>A continuación se abre el cuadro **Agregar campos de búsqueda** para que pueda vincular campos de producto con el tipo de registro de campaña. Puede hacer clic en **Omitir** para omitir este paso y añadir campos de producto más adelante.
+     El cuadro **Agregar campos de búsqueda** se abre a continuación para permitirle vincular campos de producto con el tipo de registro de campaña. Puede hacer clic en **Omitir** para omitir este paso y añadir campos de producto más adelante.
 
      ![Nueva conexión con tipo de registro de producto](assets/new-connection-with-product-record-type.png)
 

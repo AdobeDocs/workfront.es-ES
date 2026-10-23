@@ -32,14 +32,12 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: aebe95e634167571a64ed1ada94aded72a231136
 workflow-type: tm+mt
-source-wordcount: '1372'
+source-wordcount: '1345'
 ht-degree: 9%
 ---
 # Organización y previsualización de un formulario
-
-{{preview-fast-release-general}}
 
 Puede organizar un formulario personalizado con el diseñador de formularios y obtener una vista previa del mismo para comprobar que está correctamente configurado.
 
@@ -197,11 +195,4 @@ En un formulario personalizado con un salto de sección configurado con el permi
 1. Empiece a crear o editar un formulario personalizado y a agregar campos, tal como se describe en [Crear un formulario personalizado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 1. Haga clic en **Vista previa** en la esquina superior derecha para ver el aspecto que tendrá el formulario cuando se utilice y, a continuación, haga clic en **Finalizar vista previa** para regresar a la edición del formulario.
-
-   >[!NOTE]
-   >
-   >En el entorno de producción, la lógica avanzada no se admite en el modo de vista previa del diseñador de formularios.
-   >
-   ><span class="preview">En el entorno de vista previa, todos los tipos de lógica están disponibles en el modo de vista previa.</span>
-
 

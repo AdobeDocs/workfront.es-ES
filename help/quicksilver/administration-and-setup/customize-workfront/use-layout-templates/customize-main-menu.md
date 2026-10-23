@@ -32,14 +32,12 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 66ec381c7f0dec9a382bd9a23e6691d38c5595e7
+source-git-commit: 4ac506e9ab5af397523fe4fda10cafaeb858ce37
 workflow-type: tm+mt
-source-wordcount: '723'
-ht-degree: 32%
+source-wordcount: '700'
+ht-degree: 33%
 ---
 # Personalizar el menú principal mediante una plantilla de diseño
-
-{{highlighted-preview}}
 
 <!--Audited: 01/2024-->
 
@@ -152,18 +150,10 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
    * Mostrar ![Mostrar icono](assets/add-icon-plus-in-circle.png) elementos que no desea mostrar en el menú principal.
    * Arrastre ![Icono de arrastre](assets/move-icon---dots.png) elementos para cambiar su orden de visualización en el menú principal.
 
-     >[!NOTE]
-     >
-     >No puede cambiar el orden de los elementos del sistema. Estos elementos siempre se muestran en la parte inferior del menú principal cuando están activos. <!-- REMOVE THIS NOTE AT PROD RELEASE October 2026 -->
-
-<div class="preview">
-
 1. Realice una de las siguientes acciones para los **elementos del sistema**:
 
    * Ocultar ![Ocultar icono](assets/remove-icon---x-in-circle.png) elementos que no desee mostrar en el menú principal.
    * Mostrar ![Mostrar icono](assets/add-icon-plus-in-circle.png) elementos que no desea mostrar en el menú principal.
-
-</div>
 
 1. Haga clic en **Listo**.
 

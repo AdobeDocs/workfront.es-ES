@@ -23,14 +23,12 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: a41c8c19f14058571c027da1dc49041b060e4b65
 workflow-type: tm+mt
-source-wordcount: '857'
-ht-degree: 52%
+source-wordcount: '638'
+ht-degree: 43%
 ---
 # Anular tarifas de facturación de funciones a nivel de compañía
-
-{{preview-fast-release-general}}
 
 Cuando se crea una función, tiene la opción de seleccionar una tarifa de facturación por hora para dicha función. Puede crear varias tarifas de facturación por hora específicas de una compañía. Cada tarifa de facturación entra en vigor para un intervalo de fechas específico.
 
@@ -74,38 +72,8 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
 1. Busque la empresa donde se asigna la función.
 1. Haga clic en el nombre del usuario en la lista.
 1. Haga clic en **[!UICONTROL Tarifas de facturación]** en el panel de la izquierda.
-1. Haga clic en **[!UICONTROL Agregar tarifa de facturación] > [!UICONTROL Nueva tarifa de facturación]** o <span class="preview">**Agregar tarifa de facturación**</span>.
+1. Haga clic en **[!UICONTROL Agregar tarifa de facturación]**.
 1. En el cuadro de diálogo [!UICONTROL Nueva tarifa de facturación], seleccione una [!UICONTROL **Función**] para definir la tarifa de facturación.
-
-### En el entorno de producción:
-
-La [!UICONTROL **tarifa de facturación predeterminada**] muestra la tarifa en el nivel del sistema para esta función.
-
-![Nuevo cuadro de diálogo de tarifa de facturación](assets/date-effective-billing-rates-for-company.png)
-
-1. En el campo [!DNL **Tarifas de facturación 1**], introduzca la tarifa de facturación. A continuación, haga clic en [!UICONTROL **Guardar**] para anular la tarifa de facturación una vez.
-
-   O
-
-   Haga clic en [!UICONTROL **Añadir tarifa**] para añadir más tarifas de facturación con fechas de entrada en vigor.
-
-1. (Condicional) Si añade más de una tarifa de facturación, introduzca la siguiente información:
-
-   * **[!UICONTROL Tarifas de facturación 1], 2, etc.**: El valor de la tarifa de facturación para el período de tiempo.
-   * **[!UICONTROL Fecha de inicio]**: fecha en la que la tarifa entra en vigor.
-   * **[!UICONTROL Fecha de finalización]**: fecha en la que finaliza la tarifa.
-
-     La tarifa de facturación 1 no tendrá una fecha de inicio y la última tarifa de facturación no tendrá una fecha de finalización. Algunas fechas se añaden automáticamente. Por ejemplo, si la tarifa de facturación 1 no tiene una fecha de finalización y añade la tarifa de facturación 2 con una fecha de inicio del 1 de mayo de 2023, se añade la fecha de finalización del 30 de abril de 2023 a la tarifa de facturación 1 para que no existan lagunas.
-
-1. Haga clic en [!UICONTROL **Guardar**].
-
-   >[!NOTE]
-   >
-   >Las tarifas de funciones cambiadas en el proyecto solo afectarán a ese proyecto. Las tarifas cambiadas a nivel de compañía afectarán a todos los proyectos. Para obtener más información, consulte [Información general sobre cómo anular las tarifas de facturación y calcular los ingresos en un proyecto](/help/quicksilver/manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md).
-
-<div class="preview">
-
-### En el entorno de vista previa:
 
 1. Seleccione atributos para la tasa, como Agencia, Ubicación o Centro de Coste.
 
@@ -145,5 +113,35 @@ La [!UICONTROL **tarifa de facturación predeterminada**] muestra la tarifa en e
    >
    >Las tarifas de funciones cambiadas en el proyecto solo afectarán a ese proyecto. Las tarifas cambiadas a nivel de compañía afectarán a todos los proyectos que tengan la compañía asignada. Para obtener más información, consulte [Información general sobre cómo anular las tarifas de facturación y calcular los ingresos en un proyecto](/help/quicksilver/manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md).
 
-</div>
+
+
+
+<!--
+
+   The [!UICONTROL **Default Billing Rate**] displays the system-level rate for this job role.
+
+   ![New Billing Rate dialog](assets/date-effective-billing-rates-for-company.png)
+
+1. In the [!DNL **Billing Rates 1**] field, enter the billing rate. Then, click [!UICONTROL **Save**] to override the billing rate one time.
+
+   Or
+
+   Click [!UICONTROL **Add Rate**] to add more billing rates with effective dates.
+
+1. (Conditional) If you are adding more than one billing rate, enter the following information:
+
+   * **[!UICONTROL Billing Rates 1], 2, etc.**: The value of the billing rate for the time period.
+   * **[!UICONTROL Start Date]**: The date when the rate becomes effective.
+   * **[!UICONTROL End Date]**: The date when the rate ends.
+
+     Billing Rate 1 will not have a start date and the last billing rate will not have an end date. Some dates are added automatically. For example, if Billing Rate 1 does not have an end date, and you add Billing Rate 2 with a start date of May 1, 2023, an end date of April 30, 2023 is added to Billing Rate 1 so that no gaps exist.
+
+1. Click [!UICONTROL **Save**].
+
+   >[!NOTE]
+   >
+   >Job role rates changed on the project will only impact only that project. Rates changed at the company level will impact all projects. For more information, see [Overview of overriding billing rates and calculating revenue on a project](/help/quicksilver/manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md).
+
+-->
+
 

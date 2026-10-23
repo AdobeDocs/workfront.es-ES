@@ -28,14 +28,12 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 671c643d520235c3a5bef628cdb793ca2fffe78f
+source-git-commit: 039e2feb5b235023f23405bc17f098cf0872e294
 workflow-type: tm+mt
-source-wordcount: '3711'
-ht-degree: 27%
+source-wordcount: '3574'
+ht-degree: 28%
 ---
 # Añadir reglas lógicas a formularios y campos personalizados
-
-{{preview-fast-release-general}}
 
 Las reglas lógicas permiten personalizar aún más los campos del formulario.
 
@@ -209,12 +207,6 @@ Con la siguiente condición, el campo KPI Vendido solo se vuelve visible cuando 
 
    La lógica se aplica y los iconos lógicos se agregan al campo de destino y al campo de referencia en el diseñador de formularios.
 
-   >[!NOTE]
-   >
-   >En el entorno de producción, la lógica de visualización avanzada no se admite en el modo de vista previa del diseñador de formularios.
-   >
-   ><span class="preview">En el entorno de vista previa, todos los tipos de lógica están disponibles en el modo de vista previa.</span>
-
 ## Agregar lógica de omisión a un formulario personalizado
 
 La lógica de omisión define campos de formulario personalizados que se omiten cuando el usuario selecciona un valor específico en un campo de opción múltiple. Los campos omitidos están ocultos en el formulario. La lógica se aplica al campo de definición donde se realiza la selección, no a los campos que se omiten.
@@ -289,12 +281,6 @@ Cuando el formulario personalizado se adjunta a un proyecto y el estado del proy
 
    La lógica se aplica y los iconos lógicos se agregan al campo de destino y al campo de referencia en el diseñador de formularios.
 
-   >[!NOTE]
-   >
-   >En el entorno de producción, la lógica de valores predeterminada no se admite en el modo de vista previa del diseñador de formularios.
-   >
-   ><span class="preview">En el entorno de vista previa, todos los tipos de lógica están disponibles en el modo de vista previa.</span>
-
 ## Agregar lógica de validación a un formulario personalizado
 
 La lógica de validación se crea mediante fórmulas y puede hacer que la lógica sea tan simple o tan compleja como necesite. La validación se puede basar en los valores de otros campos o en el estado de los objetos, y puede proporcionar un mensaje de error para cuando falle la validación.
@@ -339,12 +325,6 @@ Para obtener más ejemplos de lógica de validación, consulte [Ejemplos de lóg
 1. Haga clic en **Aplicar**.
 
    La lógica se aplica y los iconos lógicos se agregan al campo de destino y al campo de referencia en el diseñador de formularios.
-
-   >[!NOTE]
-   >
-   >En el entorno de producción, la lógica de validación no se admite en el modo de vista previa del diseñador de formularios.
-   >
-   ><span class="preview">En el entorno de vista previa, todos los tipos de lógica están disponibles en el modo de vista previa.</span>
 
 ## Agregar lógica de formato a un formulario personalizado
 
@@ -405,12 +385,6 @@ IF(
 
    La lógica se aplica y los iconos lógicos se agregan al campo de destino y al campo de referencia en el diseñador de formularios.
 
-   >[!NOTE]
-   >
-   >En el entorno de producción, la lógica de formato no se admite en el modo de vista previa del diseñador de formularios.
-   >
-   ><span class="preview">En el entorno de vista previa, todos los tipos de lógica están disponibles en el modo de vista previa.</span>
-
 ## Agregar lógica de edición a un formulario personalizado
 
 La lógica de editabilidad determina si un campo de formulario personalizado se puede editar o si es de solo lectura. Esta lógica se crea mediante fórmulas y cuando el campo cumple las condiciones definidas, se puede establecer como editable o de solo lectura.
@@ -456,10 +430,4 @@ IF($$USER.{role}.{name}="Resource Manager", true)
 1. Haga clic en **Aplicar**.
 
    La lógica se aplica y los iconos lógicos se agregan al campo de destino y al campo de referencia en el diseñador de formularios.
-
-   >[!NOTE]
-   >
-   >En el entorno de producción, la lógica de editabilidad no se admite en el modo de vista previa del diseñador de formularios.
-   >
-   ><span class="preview">En el entorno de vista previa, todos los tipos de lógica están disponibles en el modo de vista previa.</span>
 

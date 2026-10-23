@@ -27,14 +27,12 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: b55b05885b54620c11225648dd44c75891e388ab
+source-git-commit: 3e9220d91f998644cd5b2a7e1ec83cdd903119af
 workflow-type: tm+mt
-source-wordcount: '1404'
+source-wordcount: '1355'
 ht-degree: 59%
 ---
 # Programar una entrega automática de informes
-
-{{highlighted-preview}}
 
 <!-- Audited: 4/2025 -->
 
@@ -152,7 +150,7 @@ Para programar un informe para su envío automático:&#x200B;
      </tr> 
      <tr> 
       <td role="rowheader"> <p>Se repite</p> </td> 
-      <td> <p>Seleccione si el informe debe entregarse diaria, semanal, mensual o anualmente. <span class="preview">En Vista previa, seleccione si el informe debe entregarse diariamente, semanalmente o mensualmente.</span></p> </td> 
+      <td> <p>Seleccione si el informe debe entregarse diariamente, semanalmente o mensualmente.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>Se repite cada</p> </td> 
@@ -176,15 +174,11 @@ Para programar un informe para su envío automático:&#x200B;
      </tr> 
      <tr> 
       <td role="rowheader"> <p>Finaliza el</p> </td> 
-      <td><p>Seleccione la fecha de finalización de la entrega programada.</p> <p class="preview">En Vista previa, seleccione una fecha para que finalice la entrega programada.</p> <p class="preview">Nota: La fecha de finalización no puede ser superior a 13 meses desde el día en que se crea o actualiza la regla de entrega.</p></td> 
+      <td><p>Seleccione la fecha de finalización de la entrega programada.</p> <p>Nota: La fecha de finalización no puede ser superior a 13 meses desde el día en que se crea o actualiza la regla de entrega.</p></td> 
      </tr> 
      <tr> 
-      <td role="rowheader"> <p>Nunca</p> </td> 
-      <td><p>Seleccione <strong>Nunca</strong> si desea que la entrega programada dure indefinidamente.</p> <p class="preview">Esta opción ya no está disponible en los entornos de vista previa o de lanzamiento rápido.</p></td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader"><div class="preview"><p>Activo</p></div></td> 
-      <td><div class="preview"><p>Active esta opción para mantener este envío activo. Los nuevos envíos están activos de forma predeterminada.</p> <p>Cuando pasa la fecha <strong>Finaliza el </strong>, Workfront desactiva automáticamente esta opción y la deshabilita. Para reanudar el envío, actualice la fecha <strong>Finaliza el </strong> a una fecha futura y, a continuación, vuelva a activar la opción.</p></div></td> 
+      <td role="rowheader"><p>Activo</p></td> 
+      <td><p>Active esta opción para mantener este envío activo. Los nuevos envíos están activos de forma predeterminada.</p> <p>Cuando pasa la fecha <strong>Finaliza el </strong>, Workfront desactiva automáticamente esta opción y la deshabilita. Para reanudar el envío, actualice la fecha <strong>Finaliza el </strong> a una fecha futura y, a continuación, vuelva a activar la opción.</p></td> 
      </tr> 
     </tbody> 
    </table>

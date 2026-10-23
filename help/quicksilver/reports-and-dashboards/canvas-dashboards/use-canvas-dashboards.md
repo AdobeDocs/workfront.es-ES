@@ -22,9 +22,9 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 63ee9b3bd23d0715909018835adbc60739ab45c2
 workflow-type: tm+mt
-source-wordcount: '674'
+source-wordcount: '647'
 ht-degree: 8%
 ---
 # Usar paneles de lienzo
@@ -34,12 +34,7 @@ ht-degree: 8%
 >Actualmente, la función Paneles de lienzo solo está disponible para los usuarios que participan en la fase beta. Es posible que algunas partes de la función no estén completas o que no funcionen según lo previsto durante esta fase. Envíe cualquier comentario sobre su experiencia siguiendo las instrucciones de la sección [Proporcionar comentarios](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) del artículo Información general sobre la versión beta de los paneles de lienzo.
 >
 >Si tiene comentarios acerca de un posible error o problema técnico, envíe un ticket al equipo de asistencia de Workfront. Para obtener más información, consulte [Contacto con el servicio de asistencia al cliente](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).
->
->Tenga en cuenta que esta versión beta no está disponible en los siguientes proveedores de la nube:
->
->* Traer su propia clave para Amazon Web Service
->* Azure
->* Google Cloud Platform
+
 
 Los paneles de lienzo le permiten visualizar los datos de Adobe Workfront añadiendo diferentes tipos de informes a un diseño de lienzo flexible. Este artículo proporciona información general sobre cómo utilizar paneles de lienzo de forma eficaz.
 
@@ -110,9 +105,9 @@ Puede personalizar temporalmente los informes de tabla en los paneles. Estos cam
    >
    >Estos cambios solo se aplican a la sesión actual y no afectan a la configuración original del informe. Para que estos cambios sean permanentes, debe editar el informe.
 
-<div class="preview">
 
-### Explorar en profundidad los datos de la tabla dinámica en Vista previa
+
+### Explorar en profundidad los datos de la tabla dinámica
 
 Puede hacer clic en un valor de un informe de tabla dinámica para explorar en profundidad y ver los registros individuales que componen ese valor agregado.
 
@@ -126,7 +121,7 @@ Puede hacer clic en un valor de un informe de tabla dinámica para explorar en p
 
    La tabla de detalles muestra las columnas que el creador del informe configuró en Configuración de columna de desglose. Para obtener más información, consulte [Crear un informe de tabla dinámica en un panel de lienzo](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-pivot-table-report.md).
 
-</div>
+
 
 
 <!--

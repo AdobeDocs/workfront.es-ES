@@ -5,10 +5,10 @@ author: Courtney
 draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 4af92ba2774dc7fea7f91df14d8c3cdc8e865025
+source-git-commit: 18e1d35b98b8c1afc6f9c1b14dba73d160b7e420
 workflow-type: tm+mt
-source-wordcount: '564'
-ht-degree: 28%
+source-wordcount: '516'
+ht-degree: 30%
 ---
 
 # Información general sobre la versión del primer trimestre de 2027
@@ -30,31 +30,8 @@ Las mejoras de esta página están disponibles en el entorno de vista previa. Es
 
 ## Mejoras de Adobe Workfront
 
-* [Mejoras de IA](#ai-enhancements)
 * [Mejoras en el proyecto](#project-enhancements)
 
-### Mejoras de IA
-
-<table>
-    <tbody>
-        <tr>
-            <td><strong>Característica</strong>
-            </td>
-            <td><strong>Vista previa</strong></td>
-            <td><strong>Versión rápida</strong></td>
-            <td><strong>Trimestralmente</strong></td>
-        </tr>
-        <tr>
-            <td>
-                <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-ai.md">Conjuntos de herramientas del servidor Workfront MCP</a></p>
-                <p>Ahora puede limitar el catálogo MCP de Workfront a conjuntos de herramientas específicos y filtrar la disponibilidad por derecho de producto, de modo que los clientes de IA solo accedan a las funcionalidades que necesitan.</p>
-            </td>
-            <td><p>21 de octubre de 2026</p></td>
-            <td><p>12 de noviembre de 2026</p></td>
-            <td><p>21 de enero de 2027</p></td>
-        </tr>
-    </tbody>
-</table>
 
 ### Mejoras en el proyecto
 

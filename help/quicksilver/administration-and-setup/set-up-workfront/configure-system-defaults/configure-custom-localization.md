@@ -16,16 +16,14 @@ feature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: b077c95d8bb795fcd7c0983c78b7533cb8167270
+source-git-commit: da04199570bf7317c4cee5254d8f1fc8a0746c6c
 workflow-type: tm+mt
 source-wordcount: '862'
 ht-degree: 18%
 ---
 # Configuración de la localización personalizada
 
-{{highlighted-preview}}
-
-La localización personalizada le permite <span class="preview"> usar AI</span> para definir términos y frases personalizados en diferentes idiomas. A continuación, Workfront muestra estos términos en el idioma establecido en la configuración de Adobe Identity Management (IMS) del usuario.
+La localización personalizada permite utilizar IA para definir términos y frases personalizados en distintos idiomas. A continuación, Workfront muestra estos términos en el idioma establecido en la configuración de Adobe Identity Management (IMS) del usuario.
 
 Por ejemplo, la etiqueta &quot;Audiencia objetivo&quot; se puede localizar con la palabra alemana &quot;Zielgruppe&quot;. Cualquier usuario con el alemán seleccionado como idioma principal del navegador ve la palabra &quot;Zielgruppe&quot; como una etiqueta para cualquier campo etiquetado como &quot;Audiencia objetivo&quot; en inglés.
 
@@ -92,8 +90,6 @@ Las traducciones se configuran en el área de Configuración.
 1. (Opcional) Para reordenar las columnas de idioma, haga clic en el encabezado de la columna que desee mover y arrástrela a la ubicación deseada.
 1. (Opcional) Para eliminar traducciones de un término, haga clic en la casilla de verificación que hay junto al término y, a continuación, haga clic en **Eliminar** en la barra azul de la parte inferior de la página.
 
-<div class="preview">
-
 ## Localizar texto personalizado sin traducir mediante traducciones de IA
 
 Puede utilizar IA para localizar texto personalizado. Selecciona el término y los idiomas, y puede aprobar las traducciones antes de que se apliquen.
@@ -149,5 +145,3 @@ Puede traducir un término previamente localizado a nuevos idiomas mediante IA o
 1. Haga clic en **Guardar**.
 1. (Opcional) Para eliminar todas las traducciones de un término, haga clic en la casilla de verificación que hay junto al término y, a continuación, haga clic en **Eliminar** en la barra azul de la parte inferior de la página.
 
-
-</div>
