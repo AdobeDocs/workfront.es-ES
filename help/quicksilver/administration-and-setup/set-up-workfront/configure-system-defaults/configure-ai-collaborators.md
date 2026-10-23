@@ -17,7 +17,7 @@ feature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 1a1e8fab8f8ef5c0c9dae032ed0eb5b24c3f364d
+source-git-commit: b411f277b245c51a0a1206d477530f432cccc99a
 workflow-type: tm+mt
 source-wordcount: '1393'
 ht-degree: 3%
@@ -123,16 +123,14 @@ Como los agentes de trabajo son agentes, sus acciones y capacidades se configura
 
 Los agentes de trabajo se pueden asignar a tareas o problemas.
 
+Las licencias utilizadas por los agentes de trabajo no se facturan. Si su organización tiene 200 licencias de Workfront y crea un agente de trabajo, se utilizan 201 licencias, pero solo se facturan 200.
+
 Para obtener una lista de prácticas recomendadas al crear un agente para trabajar como agente de trabajo, consulte [Prácticas recomendadas para crear un agente para un agente de trabajo](#best-practices-for-creating-an-agent-for-a-work-agent).
 
 * [Configuración de un agente de trabajo en Workfront](#configure-a-work-agent-in-workfront)
 * [Prácticas recomendadas para crear un agente para un agente de trabajo](#best-practices-for-creating-an-agent-for-a-work-agent)
 
 ### Configuración de un agente de trabajo en Workfront
-
->[!NOTE]
->
->Las licencias utilizadas por los agentes de trabajo no se facturan. Si su organización tiene 200 licencias de Workfront y crea un agente de trabajo, se utilizan 201 licencias, pero solo se facturan 200.
 
 {{step-1-to-setup}}
 
@@ -204,7 +202,6 @@ Puede encontrar útiles las siguientes prácticas recomendadas al crear un agent
 +++
 <!--
 +++ Copilot Studio
-
 
 
 +++
