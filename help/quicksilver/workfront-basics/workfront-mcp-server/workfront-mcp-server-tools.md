@@ -11,9 +11,9 @@ product_v2:
 feature_v2:
   - id: c042179c-157b-516d-b27c-e3bf303e8567
     internal-label: Get Started with Workfront
-source-git-commit: 29ff664c0ec62dc87c52052fac8b2b2183bf0841
+source-git-commit: 5f979207e0f29ec4279e2e170d87eb5162d6d678
 workflow-type: tm+mt
-source-wordcount: '3774'
+source-wordcount: '3777'
 ht-degree: 5%
 ---
 
@@ -71,6 +71,7 @@ Los conjuntos de herramientas disponibles incluyen:
 * `comment-stream`: herramientas para flujos de trabajo de comentarios y discusiones.
 * `planning`: herramientas para las funcionalidades de Workfront Planning.
 * `approvals`: herramientas para flujos de trabajo de aprobación.
+* `reporting`: herramientas para informes.
 
 Para exponer el catálogo autorizado completo, omita el parámetro o use `toolsets=all`.
 

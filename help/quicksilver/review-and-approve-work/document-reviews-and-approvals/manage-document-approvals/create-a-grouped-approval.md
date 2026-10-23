@@ -5,15 +5,13 @@ title: Creación de una aprobación agrupada
 description: Puede agrupar varios documentos en un único flujo de trabajo de aprobación para que se muevan por las mismas fases.
 author: Courtney
 feature: Work Management, Digital Content and Documents
-source-git-commit: ccb3d004feca5373473a872b101a7acff11de77f
+source-git-commit: 7badf4d57dfb120d4e36cfa27e489a54cfcd5fdb
 workflow-type: tm+mt
-source-wordcount: '1186'
+source-wordcount: '1154'
 ht-degree: 3%
 ---
 
 # Creación de una aprobación agrupada
-
-<span class="preview">La información de esta página no está disponible en el entorno de vista previa de espacio aislado porque la integración de Frame.io no está disponible allí. Esta funcionalidad estará disponible en los entornos de producción el 22 de octubre de 2026.</span>
 
 Una aprobación agrupada agrupa varios documentos en un solo flujo de trabajo de aprobación. Puede utilizar los modos Básico y Avanzado, varias fases y rutas paralelas con aprobaciones agrupadas, igual que con las aprobaciones de un solo documento.
 
