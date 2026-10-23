@@ -17,9 +17,9 @@ feature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: b411f277b245c51a0a1206d477530f432cccc99a
+source-git-commit: 3c7e8dc66a334d765e8648d0bbc2ca5fd09dbc32
 workflow-type: tm+mt
-source-wordcount: '1393'
+source-wordcount: '1424'
 ht-degree: 3%
 ---
 # Configuración de colaboradores de IA
@@ -37,6 +37,8 @@ Los tipos de AI Collaborator disponibles incluyen:
 * Agente de trabajo: cree un colaborador con una plataforma de IA estándar como Claude, OpenAI o Copilot y, a continuación, asigne al colaborador a una tarea o problema para completar los elementos de trabajo.
 
   Para obtener más información, vea [Usar agentes de trabajo](/help/quicksilver/manage-work/tasks/assign-tasks/use-task-collaborators.md).
+
+Las licencias utilizadas por los colaboradores de IA no se facturan. Si su organización tiene 200 licencias de Workfront y crea un colaborador de IA, se utilizan 201 licencias, pero solo se facturan 200.
 
 <!--
 * <span class="preview">Project Coordinator: An out-of-the-box collaborator that monitors project status and follows up on overdue tasks automatically, without needing to configure an external agent.</span>
