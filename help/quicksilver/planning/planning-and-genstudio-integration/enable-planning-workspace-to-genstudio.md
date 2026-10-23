@@ -45,7 +45,7 @@ Tenga en cuenta lo siguiente:
 * Debe tener acceso a Workfront Planning y a GenStudio for Performance Marketing.
 * Debe tener un proyecto de almacenamiento en la nube de Adobe para vincularlo al espacio de trabajo. Un administrador de organización puede crear uno en Adobe Admin Console.
 
-  Para obtener más información, consulte [Administrar almacenamiento de Adobe](https://helpx.adobe.com/business/enterprise/manage-storage-assets/manage-storage/manage-adobe-storage.html). <!--ensure this site still works-->
+  Para obtener más información, consulte [Administrar almacenamiento de Adobe](https://helpx.adobe.com/es/business/enterprise/manage-storage-assets/manage-storage/manage-adobe-storage.html). <!--ensure this site still works-->
 
 
 ## Habilitar un espacio de trabajo de Workfront Planning en GenStudio
