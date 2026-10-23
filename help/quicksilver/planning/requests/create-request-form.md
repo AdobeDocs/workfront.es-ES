@@ -297,7 +297,7 @@ Para configurar el formulario:
 1. (Condicional) Si ha seleccionado que la solicitud se marque como completada cuando se complete el objeto solicitado, seleccione el campo y el valor que indica cuándo se completa el objeto. Por ejemplo, puede seleccionar el campo Estado y el valor Completar para completar la solicitud cuando el estado del objeto creado se establece en Completar.
 
 1. Haga clic en **Permisos** en el panel izquierdo para configurar los permisos que tendrán los usuarios en las solicitudes enviadas mediante este formulario de forma predeterminada. Los permisos que concede aquí surtirán efecto de inmediato para solicitudes futuras y no afectarán a las solicitudes existentes.
-1. <!--<span class="preview">In the **Requestor access** section,</span>--> Seleccione el nivel de permiso para las solicitudes enviadas a este formulario para los usuarios que envían solicitudes mediante este formulario:
+1. &#x200B;<!--<span class="preview">In the **Requestor access** section,</span>--> Seleccione el nivel de permiso para las solicitudes enviadas a este formulario para los usuarios que envían solicitudes mediante este formulario:
 
    * **Ver**: todos los solicitantes pueden realizar comentarios en el formulario y compartirlo.
    * **Contribute**: todos los solicitantes pueden realizar comentarios en el formulario, compartirlo y editarlo.

@@ -101,7 +101,7 @@ Para obtener más información acerca de los requisitos de acceso de Workfront, 
 * Las reglas no bloquean la creación de registros. Los usuarios aún pueden crear registros, pero deben asegurarse de que los campos obligatorios no estén vacíos o contengan el valor especificado.
 * Las reglas no editan ni eliminan registros automáticamente. El cambio debe ser deliberado y activado por un usuario.
 * Las reglas no se aplican de forma retroactiva: los registros antiguos no se ven afectados. La comprobación de reglas sólo se ejecutará la próxima vez que alguien intente editar o eliminar un registro.
-* <!--In the Production environment,--> No se pueden agregar reglas de negocio a los tipos de registro global en sus espacios de trabajo primarios o secundarios.
+* &#x200B;<!--In the Production environment,--> No se pueden agregar reglas de negocio a los tipos de registro global en sus espacios de trabajo primarios o secundarios.
 
 <!--
 <div class="preview">
