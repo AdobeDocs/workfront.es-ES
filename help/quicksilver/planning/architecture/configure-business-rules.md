@@ -19,7 +19,7 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
+source-git-commit: 0bcb6ef2abbf3789339af27119422ef413cd6eef
 workflow-type: tm+mt
 source-wordcount: '1137'
 ht-degree: 3%
@@ -101,7 +101,19 @@ Para obtener más información acerca de los requisitos de acceso de Workfront, 
 * Las reglas no bloquean la creación de registros. Los usuarios aún pueden crear registros, pero deben asegurarse de que los campos obligatorios no estén vacíos o contengan el valor especificado.
 * Las reglas no editan ni eliminan registros automáticamente. El cambio debe ser deliberado y activado por un usuario.
 * Las reglas no se aplican de forma retroactiva: los registros antiguos no se ven afectados. La comprobación de reglas sólo se ejecutará la próxima vez que alguien intente editar o eliminar un registro.
-* No se pueden agregar reglas de negocio a los tipos de registro global en sus espacios de trabajo primarios o secundarios.
+* <!--In the Production environment,--> No se pueden agregar reglas de negocio a los tipos de registro global en sus espacios de trabajo primarios o secundarios.
+
+<!--
+<div class="preview">
+* In the Preview environment, you can add business rules to the following: 
+
+   * Global record types in their primary workspace. Rules created for global record types are visible in read-only mode from the secondary workspaces and they apply to all records of the same type in all workspaces. 
+   * Secondary record types, imported from other workspaces. Rules created for secondary record types are visible in read-only mode from the global record type and they apply to all records of the same type in all workspaces. 
+
+* Business rules in read-only mode can be edited only from their original workspaces. 
+</div>
+-->
+
 * Puede crear una condición para la regla de negocio que haga referencia a todos los tipos de campo excepto a los siguientes:
   * Campos de fórmula
   * Campos de búsqueda

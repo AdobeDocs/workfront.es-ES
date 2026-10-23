@@ -30,9 +30,9 @@ topic_v2:
     internal-label: Metadata
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 0bcb6ef2abbf3789339af27119422ef413cd6eef
 workflow-type: tm+mt
-source-wordcount: '1716'
+source-wordcount: '1735'
 ht-degree: 7%
 ---
 <!--update metadata with real information at release-->
@@ -234,7 +234,15 @@ Como administrador del espacio de trabajo, puede ajustar permisos a registros in
    >
    >No puede compartir permisos a registros que se agregan en diferentes espacios de trabajo. Cuando comparte registros de forma masiva, todos los registros deben crearse en el mismo espacio de trabajo.
 
-1. (Opcional) En el área **Que tiene acceso**, la opción **Todos los que están en el área de trabajo pueden ver** está seleccionada de forma predeterminada.  Todos los usuarios que tienen **View** o permisos superiores en el área de trabajo y el tipo de registro tienen los mismos permisos para el registro.
+1. (Opcional) La opción **Todos los usuarios del área de trabajo pueden ver** está seleccionada de forma predeterminada.  Todos los usuarios que tienen **View** o permisos superiores en el área de trabajo y el tipo de registro tienen los mismos permisos para el registro. No puede restringir permisos para todos los usuarios con acceso al espacio de trabajo.
+
+   <!--
+   Replace the point above with this at record-level permissions re-release: 
+   1. (Optional and conditional) In the Production environment, the **Everyone in the workspace can view** option is selected by default.  All users that have **View** or higher permissions to the workspace and record type have the same permissions to the record. You cannot restrict permissions for all users with access to the workspace.
+   1. <span class="preview">(Optional and conditional) In the Preview environment, expand the **Everyone in the workspace can view** drop-down menu (which is selected by default), and select **Only invited people can access**, then add the names of people, teams, roles, groups, or companies in the **Grant access to this record** box  and specify the level of access. </span>
+      <span class="preview">No one in the workspace will have access the record by default, and only the people you specify here will have access to the record. </span>
+      <span class="preview">Users you share a record with must have permissions to the workspace and the record type. </span>
+   -->
 
 1. (Opcional) Haga clic en los avatares de los usuarios en la opción **Permisos heredados de** para ver los usuarios, equipos, grupos, empresas o roles de trabajo que heredan los permisos del área de trabajo. <!--logged bug to move "Permissions" to lowercase-->
 
@@ -277,6 +285,7 @@ Como administrador del espacio de trabajo, puede ajustar permisos a registros in
       >* No puede conceder a los usuarios un permiso inferior al registro si tienen Contribute o superior al tipo de registro.
       >Para obtener más información, consulte [Información general sobre los permisos de uso compartido en Planificación de Workfront de Adobe](/help/quicksilver/planning/access/sharing-permissions-overview.md).
       >* No puede conceder permisos a usuarios que no están en el espacio de trabajo. Los usuarios que no tienen permisos de acceso al espacio de trabajo y tipo de registro no pueden acceder a ninguno de los registros.
+      >* Debe tener permisos de administración en un registro para compartirlo con otros.
 
    <!--   
    Not possible:

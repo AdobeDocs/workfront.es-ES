@@ -34,9 +34,9 @@ topic_v2:
     internal-label: Metadata
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
+source-git-commit: 0bcb6ef2abbf3789339af27119422ef413cd6eef
 workflow-type: tm+mt
-source-wordcount: '3176'
+source-wordcount: '3223'
 ht-degree: 6%
 ---
 # Crear y administrar un formulario de solicitud en Planificación de Workfront de Adobe
@@ -296,14 +296,14 @@ Para configurar el formulario:
 
 1. (Condicional) Si ha seleccionado que la solicitud se marque como completada cuando se complete el objeto solicitado, seleccione el campo y el valor que indica cuándo se completa el objeto. Por ejemplo, puede seleccionar el campo Estado y el valor Completar para completar la solicitud cuando el estado del objeto creado se establece en Completar.
 
-1. Haga clic en **Permisos** en el panel izquierdo.
-1. Seleccione el nivel de permiso para los usuarios que envían solicitudes mediante este formulario:
+1. Haga clic en **Permisos** en el panel izquierdo para configurar los permisos que tendrán los usuarios en las solicitudes enviadas mediante este formulario de forma predeterminada. Los permisos que concede aquí surtirán efecto de inmediato para solicitudes futuras y no afectarán a las solicitudes existentes.
+1. <!--<span class="preview">In the **Requestor access** section,</span>--> Seleccione el nivel de permiso para las solicitudes enviadas a este formulario para los usuarios que envían solicitudes mediante este formulario:
 
    * **Ver**: todos los solicitantes pueden realizar comentarios en el formulario y compartirlo.
    * **Contribute**: todos los solicitantes pueden realizar comentarios en el formulario, compartirlo y editarlo.
-   * **Administrar**: todos los solicitantes pueden realizar comentarios sobre el formulario, compartirlo, editarlo y eliminarlo.
+   * **Administrar**: todos los solicitantes pueden realizar comentarios sobre el formulario, compartirlo, editarlo y eliminarlo. Este es el permiso predeterminado.
 
-1. (Opcional) Anule la selección de cualquiera de los permisos granulares para cada nivel de permisos a fin de evitar que los solicitantes realicen las siguientes acciones:
+1. (Opcional) <!--<span class="preview">In the **Requestor access** section,</span>--> Anule la selección de cualquiera de los permisos granulares para cada nivel de permisos con el fin de evitar que los solicitantes realicen las siguientes acciones:
 
    * Comentario
    * Compartir
@@ -313,6 +313,28 @@ Para configurar el formulario:
    >[!TIP]
    >
    >El permiso granular que anule la selección aquí se atenuará al compartir la solicitud con esos usuarios desde la página de solicitud.
+
+   <!--
+   1. <span class="preview">In the **Additional access** section (*************check UI name, submitted a bug********), select the permission level to the requests submitted to this form for **Everyone in this workspace**: </span>
+      <div class="preview">
+      * **No access**: No users in the workspace can access requests submitted using this form. 
+      * **View**: Workspace users can comment on and share the form. This is the default permission. 
+      * **Contribute**: Workspace users can comment on, share, and edit the form.
+      * **Manage**: Workspace users can comment on, share, edit, and delete the form. 
+      </div>
+   1. <span class="preview">(Optional) In the **Additional access** section,</span>, deselect any of the granular permissions for each permission level to prevent workspace users to perform the following actions:</span>
+      <div class="preview">
+      * Comment
+      * Share
+      * Edit. Not available for View. 
+      * Delete. Not available for Contribute and View. 
+      </div>
+
+   1. <span class="preview"> In the **Search for people, groups, teams, roles and companies** field, start adding entities and grant them View, Contribute, or Manage permissions.</span> 
+      >[!TIP]
+      >
+      ><span class="preview">The granular permission you deselect here will be dimmed when sharing the request with those users from the request page.</span>
+   -->
 
 1. <span class="preview">Haga clic en **Rellenar formulario de IA** para configurar una solicitud personalizada al usar la funcionalidad **Rellenar formulario** al enviar solicitudes. </span>
 

@@ -3,7 +3,7 @@ user-guide-title: Guía de Workfront
 user-guide-description: Utilice los siguientes documentos, tutoriales y recursos adicionales para aprender a implementar y utilizar Adobe Workfront de forma eficaz en su organización.
 role: User
 feature-set: Workfront
-source-git-commit: 95ff5491c4fccc69a672d395ebd7573c0b905c9e
+source-git-commit: 0bcb6ef2abbf3789339af27119422ef413cd6eef
 workflow-type: tm+mt
 source-wordcount: '14725'
 ht-degree: 91%
@@ -2328,7 +2328,7 @@ ht-degree: 91%
     * [Planificación de Workfront de Adobe y Adobe GenStudio para la integración de marketing de rendimiento: índice de artículos](planning/planning-and-genstudio-integration/planning-and-genstudio-integration-article-index.md)
     * [Introducción a Planificación de Workfront de Adobe y Adobe GenStudio para la integración de marketing de rendimiento](planning/planning-and-genstudio-integration/get-started-with-workfront-planning-and-genstudio-integration.md)
     * [Administrar el espacio de trabajo de GenStudio en Planificación de Workfront de Adobe](planning/planning-and-genstudio-integration/manage-gen-studio-workspace-in-planning.md)
-    * [Habilitar un espacio de trabajo de Workfront Planning en GenStudio for Performance Marketing](planning/planning-and-genstudio-integration/enable-planning-workspace-to-genstudio.md)
+    * {hide-from-toc}[Habilitar un espacio de trabajo de Workfront Planning en GenStudio for Performance Marketing](planning/planning-and-genstudio-integration/enable-planning-workspace-to-genstudio.md)
   * Adobe Workfront Planning como producto independiente {#planning-standalone}
     * [Adobe Workfront Planning como producto independiente: índice de artículos](planning/planning-sta/planning-sta-article-index.md)
     * [Introducción a Adobe Workfront Planning como producto independiente](planning/planning-sta/planning-sta-overview.md)
@@ -2685,7 +2685,7 @@ ht-degree: 91%
     * [Configure y utilice las aplicaciones OAuth 2 personalizadas de la organización mediante el flujo JWT](wf-api/api/oauth-app-jwt-flow.md)
     * [Configure y utilice las aplicaciones OAuth 2 personalizadas de su organización mediante el flujo PKCE](wf-api/api/oauth-app-pkce-flow.md)
     * [Obsolescencia de la API interna](wf-api/api/deprecation-api-internal.md)
-    * [Novedades de la versión 22 de la API](/help/quicksilver/wf-api/api/new-api-version-22.md)
+    * [Novedades de la versión 22](/help/quicksilver/wf-api/api/new-api-version-22.md) de la API
     * [Novedades de la versión 21 de la API](/help/quicksilver/wf-api/api/new-api-version-21.md)
     * [Novedades de la versión 20 de la API](/help/quicksilver/wf-api/api/new-api-version-20.md)
     * [Novedades de la versión 19 de la API](wf-api/api/new-api-version-19.md)
