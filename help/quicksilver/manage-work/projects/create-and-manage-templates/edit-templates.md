@@ -11,30 +11,37 @@ git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/36z25D3UWtmRwiOqdPOc3DCFXQcvSJHK2RvtuqFOvVU
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
   - id: b91c0848-76c4-4da4-8b81-3aade0518dd0
+    internal-label: Tasks
   - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+    internal-label: Timesheets
   - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
   - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+    internal-label: Projects
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 96cf04616582ac0208a9365d0f10f2403ebd317c
+    internal-label: Administration
+source-git-commit: 3e9220d91f998644cd5b2a7e1ec83cdd903119af
 workflow-type: tm+mt
-source-wordcount: 5223
+source-wordcount: '5223'
 ht-degree: 81%
-
 ---
-
 # Editar plantillas del proyecto
-
-{{highlighted-preview}}
 
 <!-- Audited: 7/2025 -->
 
@@ -253,13 +260,13 @@ Old:
       <td><p>Especifique la Compañía que desee asociar con la plantilla. En la lista solo se muestran las compañías activas.</p></td> 
       </tr> 
       <tr>
-      <td role="rowheader"><span class="preview"><strong>Espacio de trabajo de Frame.io (condicional)</strong></span></td>
-      <td><span class="preview">
+      <td role="rowheader"><strong>Espacio de trabajo de Frame.io (condicional)</strong></td>
+      <td>
       <p>En un proyecto de almacenamiento en la nube de Adobe, seleccione el espacio de trabajo de Frame.io que desee que utilicen los proyectos creados a partir de esta plantilla. Si su organización tiene varios espacios de trabajo Frame.io, esto determina en qué espacio de trabajo se crea el proyecto Frame.io vinculado.</p>
       <p>La lista incluye únicamente los espacios de trabajo de Frame.io a los que tiene permiso para asignar proyectos. Espacio de trabajo predeterminado utilizado cuando no hay ningún espacio de trabajo seleccionado ni disponible.</p>
       <p>Puede cambiar este campo en la plantilla en cualquier momento. Los cambios solo se aplican a los proyectos creados después del cambio; los proyectos ya creados a partir de la plantilla mantienen su espacio de trabajo Frame.io existente.</p>
       <p>Nota: Debe tener Frame.io enterprise para utilizar el campo de espacio de trabajo Frame.io.</p>
-      </span></td>
+      </td>
       </tr> 
       <tr> 
       <td role="rowheader"><strong>Propietario de la plantilla</strong></td> 
