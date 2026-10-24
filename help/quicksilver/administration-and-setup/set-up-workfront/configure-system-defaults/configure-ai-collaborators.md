@@ -17,9 +17,9 @@ feature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 781aec7dbd13173fd601cfae366dd216cd0fa4f2
+source-git-commit: 3c7e8dc66a334d765e8648d0bbc2ca5fd09dbc32
 workflow-type: tm+mt
-source-wordcount: '1362'
+source-wordcount: '1424'
 ht-degree: 3%
 ---
 # Configuración de colaboradores de IA
@@ -37,6 +37,8 @@ Los tipos de AI Collaborator disponibles incluyen:
 * Agente de trabajo: cree un colaborador con una plataforma de IA estándar como Claude, OpenAI o Copilot y, a continuación, asigne al colaborador a una tarea o problema para completar los elementos de trabajo.
 
   Para obtener más información, vea [Usar agentes de trabajo](/help/quicksilver/manage-work/tasks/assign-tasks/use-task-collaborators.md).
+
+Las licencias utilizadas por los colaboradores de IA no se facturan. Si su organización tiene 200 licencias de Workfront y crea un colaborador de IA, se utilizan 201 licencias, pero solo se facturan 200.
 
 <!--
 * <span class="preview">Project Coordinator: An out-of-the-box collaborator that monitors project status and follows up on overdue tasks automatically, without needing to configure an external agent.</span>
@@ -123,6 +125,8 @@ Como los agentes de trabajo son agentes, sus acciones y capacidades se configura
 
 Los agentes de trabajo se pueden asignar a tareas o problemas.
 
+Las licencias utilizadas por los agentes de trabajo no se facturan. Si su organización tiene 200 licencias de Workfront y crea un agente de trabajo, se utilizan 201 licencias, pero solo se facturan 200.
+
 Para obtener una lista de prácticas recomendadas al crear un agente para trabajar como agente de trabajo, consulte [Prácticas recomendadas para crear un agente para un agente de trabajo](#best-practices-for-creating-an-agent-for-a-work-agent).
 
 * [Configuración de un agente de trabajo en Workfront](#configure-a-work-agent-in-workfront)
@@ -200,7 +204,6 @@ Puede encontrar útiles las siguientes prácticas recomendadas al crear un agent
 +++
 <!--
 +++ Copilot Studio
-
 
 
 +++

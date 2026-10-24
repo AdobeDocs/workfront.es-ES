@@ -28,9 +28,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
+source-git-commit: 0bcb6ef2abbf3789339af27119422ef413cd6eef
 workflow-type: tm+mt
-source-wordcount: '4867'
+source-wordcount: '4882'
 ht-degree: 33%
 ---
 # Administrar la vista de cronología
@@ -484,7 +484,6 @@ Para añadir una agrupación en la vista de cronología:
 
 1. En el cuadro **Agrupar registros por**, arrastre y suelte las agrupaciones en el orden correcto.
 
-
 1. En el área **Diseño** del cuadro **Agrupar registros por**, seleccione una de las siguientes opciones:
 
    * **Apiladas**: las agrupaciones se muestran sin una columna izquierda inmovilizada y se ajustan al ancho de las escalas de tiempo de sus elementos.
@@ -524,6 +523,11 @@ Para añadir una agrupación en la vista de cronología:
    >Cuando arrastra y suelta registros de una agrupación a otra, los campos seleccionados en la agrupación actualizan automáticamente los valores de los registros movidos.
 1. (Opcional) Haga clic en **Configuración** y, a continuación, en **Color** para añadir agrupaciones con códigos de color. Para obtener más información, consulte la sección [Editar la configuración de la vista de cronología](#edit-the-timeline-view-settings) en este artículo.
 
+<!--
+1. <span class="preview">(Optional) From either the **Swimlane** or **Stacked** arrangement, grab a grouping in the timeline view and drop it in another position.</span>
+
+    <span class="preview">This changes the grouping order and it changes the sorting of the grouping to **Custom**. For more information, see the section [Add sort](#add-sort) in this article.</span>
+-->
 
 ### Agregar orden
 
@@ -549,7 +553,17 @@ Para agregar un orden en la vista de cronología:
 
    ![Ordenar en la cronología con orden de agrupación](assets/sort-in-timeline.png)
 1. En el menú desplegable, seleccione **Ordenar registros** y, a continuación, haga clic en un campo enumerado en la lista **Comenzar con un campo sugerido** o haga clic en **Elegir un campo diferente**; a continuación, busque un campo y haga clic en él cuando se muestre en la lista.
-1. Seleccione la dirección en la que desea aplicar la ordenación de registros (alfabético, descendente inverso, etc.). La dirección en la que se aplica un orden depende del formato del campo seleccionado.
+1. Seleccione la dirección en la que desea aplicar la ordenación de registros (alfabético, descendente inverso, etc.).
+
+   Por ejemplo, la ordenación de un campo de texto podría ser A -> Z o Z -> A.
+
+   <!--
+    >[!TIP]
+    >
+    ><span class="preview">If the timeline view has groupings and you manually rearranged the groupings' order, the direction of the sort displays as **Custom**. </span>
+    -->
+
+   La dirección en la que se aplica un orden depende del formato del campo seleccionado.
 1. (Opcional) Haga clic en **Agregar condición** para agregar un máximo de 10 condiciones.
 1. (Opcional) Haga clic en **Borrar todo** para quitar todas las condiciones.
 1. En el menú desplegable de la esquina superior izquierda del cuadro de ordenación, seleccione **Ordenar agrupaciones**.

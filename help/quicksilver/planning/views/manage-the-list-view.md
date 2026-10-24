@@ -20,9 +20,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 0bcb6ef2abbf3789339af27119422ef413cd6eef
 workflow-type: tm+mt
-source-wordcount: '1881'
+source-wordcount: '1896'
 ht-degree: 1%
 ---
 
@@ -42,7 +42,7 @@ although list views in Planning are very similar to Workfront enhanced lists, ke
 
 {{planning-important-intro}}
 
-Puede ver objetos en la vista de lista en las siguientes áreas de Workfront Planning:
+Puede ver objetos en la vista de lista en Adobe Workfront Planning en las siguientes áreas:
 
 * Página de registros conectada para proyectos en el área de detalles de un registro
 
@@ -53,6 +53,8 @@ Puede ver objetos en la vista de lista en las siguientes áreas de Workfront Pla
   ![Solicitar formularios en la vista de lista](assets/request-forms-in-list-view.png)
 
 En este artículo se describe cómo desplazarse, crear o editar una vista de lista en Workfront Planning.
+
+Para obtener información sobre todas las demás vistas disponibles en Workfront Planning, consulte [Administrar vistas de registros](/help/quicksilver/planning/views/manage-record-views.md).
 
 ## Requisitos de acceso
 
