@@ -3,10 +3,10 @@ user-guide-title: Guía de Workfront
 user-guide-description: Utilice los siguientes documentos, tutoriales y recursos adicionales para aprender a implementar y utilizar Adobe Workfront de forma eficaz en su organización.
 role: User
 feature-set: Workfront
-source-git-commit: 0bcb6ef2abbf3789339af27119422ef413cd6eef
+source-git-commit: f56dd9bec282768b8cda59a39bca502c1a796070
 workflow-type: tm+mt
-source-wordcount: '14725'
-ht-degree: 91%
+source-wordcount: '14726'
+ht-degree: 90%
 ---
 # Guía de Workfront {#using}
 
@@ -599,14 +599,14 @@ ht-degree: 91%
       * [Concesión de acceso a Workfront Goals](administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md)
       * [Conceder acceso a los permisos de marca](administration-and-setup/add-users/configure-and-grant-access/grant-access-brands.md)
     * Inicio de sesión único en Workfront {#sso}
-      * [Inicio de sesión único: índice de artículos](administration-and-setup/add-users/single-sign-on/single-sign-on.md)
-      * [Información general sobre el inicio de sesión único](administration-and-setup/add-users/single-sign-on/sso-in-workfront.md)
-      * [Actualizar usuarios para el inicio de sesión único](administration-and-setup/add-users/single-sign-on/update-users-sso.md)
-      * [Configurar Workfront con SAML 2.0](administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2.md)
-      * [Actualizar metadatos de SAML 2.0 en el proveedor de identidad](administration-and-setup/add-users/single-sign-on/update-saml-2-metadata-ip.md)
-      * [Configurar Adobe Workfront con SAML 2.0 utilizando ADFS](administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2-adfs.md)
-      * [Habilitar Outlook para Workfront y SAML 2.0](administration-and-setup/add-users/single-sign-on/enable-outlook-for-use-w-wf-and-saml-2.md)
-      * [Desactivar inicio de sesión único](administration-and-setup/add-users/single-sign-on/deactivate-sso.md)
+      * {hide-from-toc}[Inicio de sesión único: índice de artículo](administration-and-setup/add-users/single-sign-on/single-sign-on.md)
+      * {hide-from-toc}[Información general sobre el inicio de sesión único](administration-and-setup/add-users/single-sign-on/sso-in-workfront.md)
+      * {hide-from-toc}[Actualizar usuarios para inicio de sesión único](administration-and-setup/add-users/single-sign-on/update-users-sso.md)
+      * {hide-from-toc}[Configurar Workfront con SAML 2.0](administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2.md)
+      * {hide-from-toc}[Actualizar metadatos de SAML 2.0 en el proveedor de identidad](administration-and-setup/add-users/single-sign-on/update-saml-2-metadata-ip.md)
+      * {hide-from-toc}[Configurar Adobe Workfront con SAML 2.0 usando ADFS](administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2-adfs.md)
+      * {hide-from-toc}[Habilitar Outlook para Workfront y SAML 2.0](administration-and-setup/add-users/single-sign-on/enable-outlook-for-use-w-wf-and-saml-2.md)
+      * {hide-from-toc}[Desactivar inicio de sesión único](administration-and-setup/add-users/single-sign-on/deactivate-sso.md)
     * Crear y administrar equipos {#create-manage-teams}
       * [Administrar equipos](administration-and-setup/add-users/create-and-manage-teams/create-and-manage-teams.md)
       * [Crear un equipo](administration-and-setup/add-users/create-and-manage-teams/create-a-team-from-setup.md)
@@ -859,9 +859,9 @@ ht-degree: 91%
     * [Acciones que se deben realizar después de instalar un modelo](administration-and-setup/blueprints/best-next-actions-after-install.md)
     * [Lista de modelos disponibles](administration-and-setup/blueprints/list-of-available-blueprints.md)
   * Administración en Adobe Admin Console {#admin-in-admin-console}
-    * [Administración de Workfront en Adobe Admin Console](administration-and-setup/adobe-admin-console/wf-admin-in-admin-console.md)
-    * [Prepararse para Adobe Admin Console](administration-and-setup/adobe-admin-console/prep-for-admin-console.md)
-    * [Explicación de la migración de Workfront a Adobe Admin Console](administration-and-setup/adobe-admin-console/understand-wf-migration-to-admin-console.md)
+    * {hide-from-toc}[Administración de Workfront en Adobe Admin Console](administration-and-setup/adobe-admin-console/wf-admin-in-admin-console.md)
+    * {hide-from-toc}[Prepararse para Adobe Admin Console](administration-and-setup/adobe-admin-console/prep-for-admin-console.md)
+    * {hide-from-toc}[Explicación de la migración de Workfront a Adobe Admin Console](administration-and-setup/adobe-admin-console/understand-wf-migration-to-admin-console.md)
   * Sugerencias, trucos y solución de problemas para la administración y la configuración {#admin-setup-tips}
     * [Sugerencias, trucos y solución de problemas](administration-and-setup/tips-tricks-and-troubleshooting/ttt-admin-setup.md)
     * [Los administradores de grupo deben tener un acceso mayor que los que administran](administration-and-setup/tips-tricks-and-troubleshooting/group-admin-access-level.md)
@@ -2685,7 +2685,7 @@ ht-degree: 91%
     * [Configure y utilice las aplicaciones OAuth 2 personalizadas de la organización mediante el flujo JWT](wf-api/api/oauth-app-jwt-flow.md)
     * [Configure y utilice las aplicaciones OAuth 2 personalizadas de su organización mediante el flujo PKCE](wf-api/api/oauth-app-pkce-flow.md)
     * [Obsolescencia de la API interna](wf-api/api/deprecation-api-internal.md)
-    * [Novedades de la versión 22 de la API](/help/quicksilver/wf-api/api/new-api-version-22.md)
+    * [Novedades de la versión 22](/help/quicksilver/wf-api/api/new-api-version-22.md) de la API
     * [Novedades de la versión 21 de la API](/help/quicksilver/wf-api/api/new-api-version-21.md)
     * [Novedades de la versión 20 de la API](/help/quicksilver/wf-api/api/new-api-version-20.md)
     * [Novedades de la versión 19 de la API](wf-api/api/new-api-version-19.md)

@@ -26,7 +26,7 @@ topic_v2:
     internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 3da69fe6ab5bdb843e17bd5ae2ffa985bf2b5cc4
 workflow-type: tm+mt
 source-wordcount: '1764'
 ht-degree: 8%
@@ -84,11 +84,6 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
 
 Para usar el relleno de formulario con tecnología de IA para rellenar una solicitud mediante un aviso o documento, se deben aplicar **todas** las siguientes opciones:
 
-<!--
-Remove me October 2026
-* Your organization must have migrated to Adobe IMS (Identity Management System)
-* The Adobe Unified Experience must be enabled
--->
 * Su organización debe tener un paquete Select, Prime o Ultimate Workfront o Workflow
 * Adobe debe tener un acuerdo firmado en el archivo de Adobe Gen AI
 

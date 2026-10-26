@@ -27,38 +27,26 @@ topic_v2:
     internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 6275fff5d615a8db678f16d99c38c96319a57155
 workflow-type: tm+mt
-source-wordcount: '835'
-ht-degree: 83%
+source-wordcount: '608'
+ht-degree: 77%
 ---
 # Eliminar usuarios
 
-<!--Remove me October 2026-->
-
 >[!IMPORTANT]
 >
->El procedimiento descrito en esta página se aplicó únicamente a las organizaciones que aún no se han incorporado a Adobe Business Platform. Si se le ha incorporado a Adobe Business Platform, debe eliminar usuarios en Adobe Admin Console.
+>El procedimiento descrito en esta página se aplicaba únicamente a las organizaciones que no se habían incorporado a Admin Console. Dado que su organización se ha incorporado a Adobe Admin Console, debe realizar esta acción a través de Adobe Admin Console.
 >
->**Debido a que todas las organizaciones se han incorporado a Adobe Admin Console, la información de esta página se eliminará en un futuro próximo.**
->
->Para obtener una lista de procedimientos que difieren según si su organización se ha incorporado a Adobe Business Platform, consulte [Diferencias de administración entre Adobe Workfront y Adobe Business Platform](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+>  Para obtener instrucciones sobre cómo eliminar un usuario en Adobe Admin Console, consulte la sección &quot;Eliminar usuarios de forma permanente&quot; en el artículo [Administrar usuarios de forma individual](https://helpx.adobe.com/enterprise/using/manage-users-individually.html?lang=es) o póngase en contacto con el administrador de Adobe Admin Console.
 
 Cuando un usuario abandona la organización, puede eliminarlo de Adobe Workfront.
+
+La eliminación de un usuario debe realizarse a través de Adobe Admin Console. Para obtener instrucciones, consulte la sección &quot;Eliminar usuarios permanentemente&quot; en el artículo [Administrar usuarios individualmente](https://helpx.adobe.com/enterprise/using/manage-users-individually.html?lang=es) o comuníquese con el administrador de Adobe Admin Console.
 
 >[!IMPORTANT]
 >
 >Al eliminar un usuario del sistema también se elimina la información asociada al usuario que quizás desee conservar. Se recomienda desactivar a los usuarios en lugar de eliminarlos. Para obtener más información, consulte [Desactivar o reactivar un usuario](../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md).
-<!--
->* The procedure described on this page applies only to organizations that have not yet been onboarded to the Admin Console. If your organization has been onboarded to the Adobe Admin Console, you must perform this action through the Adobe Admin Console.
->
->Deleting a user from the [!DNL Adobe Admin Console] deactivates the user in [!DNL Workfront], but does not delete them from [!DNL Workfront].
->
->  For instructions on deleting a user in the Adobe Admin Console, see the section "Permanently delete users" in the article [Manage users individually](https://helpx.adobe.com/es/enterprise/using/manage-users-individually.html) or contact your Adobe Admin Console Administrator.
->
->  For a list of procedures that differ based on whether your organization has been onboarded to the Adobe Admin Console, see [Administration differences between Adobe Workfront and Adobe Business Platform](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
->
--->
 
 ## Requisitos de acceso
 
@@ -78,11 +66,8 @@ Cuando un usuario abandona la organización, puede eliminarlo de Adobe Workfront
   </tr> 
   <tr> 
    <td>Configuraciones de nivel de acceso</td> 
-   <td> <p>Debe tener uno de los siguientes elementos:</p> 
-    <ul> 
-     <li> <p>El nivel de acceso de administrador del sistema. </li> 
-     <li> <p>Configuración de <b>usuarios</b> en su nivel de acceso configurado para el acceso de <b>Edición</b>, con <b>Crear</b> y al menos una de las dos opciones de <b>Administrador de usuarios</b> habilitadas en <b>Ajustar la configuración</b> <img src="assets/gear-icon-in-access-levels.png">. </p> <p>De estas dos opciones, si <b>Administrador de usuarios (usuarios de grupo)</b> está habilitado, debe ser administrador de grupo de un grupo al que pertenezca el usuario.</p> </li> 
-    </ul> </td> 
+   <td> <p>Debe ser administrador de Adobe Admin Console.</p> 
+    </td> 
   </tr> 
  </tbody> 
 </table>
@@ -128,7 +113,7 @@ Al eliminar un usuario, sucede lo siguiente:
   * Tareas, problemas, proyectos, portafolios
   * Paneles de control
 
-  <!--
+<!--
 
      >[!NOTE]
      >
@@ -136,33 +121,35 @@ Al eliminar un usuario, sucede lo siguiente:
      >
      >To learn more, see the [How do I access a dashboard that contains a report owned by a deleted user?](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md#how) section of the [Reports FAQs](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md) article.
 
-   -->
+-->
+* Actualizaciones
+* Horas
 
-  * Actualizaciones
-  * Horas
-
-    >[!NOTE]
-    >
-    >Estos objetos permanecen en Workfront, pero su propietario está ahora en blanco.
+  >[!NOTE]
+  >
+  >Estos objetos permanecen en Workfront, pero su propietario está ahora en blanco.
 
 * Si el usuario ha cargado algún documento en el área de documentos de la barra de navegación global, los documentos también se eliminan.
 * Si el usuario ha retirado los documentos que le pertenecen y los documentos se cargan en el área principal de Documentos (a la que se accede desde el menú principal), los documentos se eliminan con el usuario. Para obtener más información acerca de cómo desproteger documentos, consulte [Desproteger documentos](../../../documents/managing-documents/check-out-documents.md).
 
 Para obtener más información sobre cómo desactivar usuarios, consulte [Desactivar o reactivar un usuario](../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md).
 
-Puede eliminar usuarios de forma permanente de uno en uno, o bien puede eliminar varios usuarios de forma simultánea de forma permanente. Cuando elimine usuarios individuales, debe esperar a que se complete el proceso de eliminación antes de continuar con otras actividades en Workfront. El proceso de eliminar varios usuarios se ejecuta simultáneamente como un proceso en segundo plano, por lo que puede seguir utilizando Workfront a medida que se eliminan los usuarios.
 
-## Eliminar uno o más usuarios
+<!--
+
+## Delete one or more users
 
 {{step-1-to-users}}
 
-1. Seleccione al menos un usuario que desee eliminar, haga clic en el icono Más del menú ![Más](assets/more-icon.png) y, a continuación, haga clic en **Eliminar**.
-1. En el cuadro que aparece, haga clic en **Eliminar** para confirmar la eliminación.
+1. Select at least one user that you want to delete, click the More menu ![More icon](assets/more-icon.png), then click **Delete**.
+1. In the box that appears, click **Delete** to confirm the deletion.
 
-   El proceso de eliminación de usuarios se ejecuta como un proceso en segundo plano, por lo que puede seguir utilizando Workfront a medida que se eliminan los usuarios.
+   The process of deleting users runs as a background process, so you can continue using Workfront as the user or users are deleted.
 
-   Según el número de usuarios que esté eliminando, el proceso puede durar varios minutos o incluso varias horas.
+   Depending on the number of users you are deleting, the process can take several minutes or even a few hours.
 
-   Tras recibir en Workfront la confirmación de que los usuarios se han eliminado, es posible que siga viéndolos en el sistema hasta que el proceso de eliminación se complete en segundo plano.
+   After receiving the confirmation in Workfront that the users were deleted, you might continue to see them in the system until the deletion process is complete in the background.
 
-   Posteriormente, si descubre que uno o más usuarios no se han eliminado correctamente, intente eliminarlos de uno en uno.
+   At a later time, if you discover that one or more users were not successfully deleted, try to delete them one at a time.
+
+   -->

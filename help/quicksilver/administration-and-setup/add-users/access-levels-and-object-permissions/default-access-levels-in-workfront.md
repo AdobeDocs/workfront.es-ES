@@ -40,10 +40,10 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 715971cb207849034d77b26fabf3253283ae659f
 workflow-type: tm+mt
-source-wordcount: '1663'
-ht-degree: 89%
+source-wordcount: '1690'
+ht-degree: 87%
 ---
 # Niveles de acceso integrados (heredados)
 
@@ -104,7 +104,7 @@ Los usuarios con nivel de acceso de administrador del sistema pueden hacer de to
 
 También tienen acceso completo al área de Configuración, donde pueden cambiar cualquier configuración a nivel de sistema. Y pueden acceder a todas las áreas del menú principal ![icono del menú principal](assets/main-menu-icon.png) o del menú principal ![icono del menú principal](assets/main-menu-icon.png), si están disponibles.
 
-Para obtener más información, consulte [Conceder a un usuario acceso administrativo completo](../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md).
+La concesión de acceso de administrador a un usuario se realiza a través de Adobe Admin Console. Para obtener instrucciones, consulte la sección [Crear administradores de sistemas en Workfront con Adobe Admin Console](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md#create-system-administrators-in-workfront-with-the-adobe-admin-console). en el artículo Administrar usuarios en Adobe Admin Console.
 
 ## Nivel de acceso de planificador
 
