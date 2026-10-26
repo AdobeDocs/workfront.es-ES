@@ -9,7 +9,7 @@ feature: System Setup and Administration, Work Management, Digital Content and D
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: b4413742-c250-4110-9097-6d38842355a4
-source-git-commit: 7a21293ad984311b274fe6a7c79e081e9bc8b156
+source-git-commit: 2b5d95ed0a5c72062700bf026a18b8301e4be421
 workflow-type: tm+mt
 source-wordcount: '832'
 ht-degree: 0%
@@ -47,6 +47,12 @@ Cada entorno de Workfront es diferente. Antes de establecer el almacenamiento en
 ### Elija un grupo piloto
 
 Un despliegue con alcance de grupo le permite poner el almacenamiento en la nube de Adobe delante de un equipo más pequeño primero, recopilar comentarios y ajustar antes de un despliegue más amplio. Elija un grupo cuyos patrones de trabajo sean lo suficientemente representativos como para que aparezcan los problemas que desea conocer antes.
+
+<!--
+>[!IMPORTANT]
+>
+>Only members of the pilot group can convert an Adobe cloud storage object, such as a request or a task, into a project. Users outside the group, including Workfront administrators, see the error "User is not eligible for this operation."
+-->
 
 ### Haga la prueba antes de empezar
 
