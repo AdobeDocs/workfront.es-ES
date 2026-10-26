@@ -38,11 +38,11 @@ ht-degree: 77%
 >
 >El procedimiento descrito en esta página se aplicaba únicamente a las organizaciones que no se habían incorporado a Admin Console. Dado que su organización se ha incorporado a Adobe Admin Console, debe realizar esta acción a través de Adobe Admin Console.
 >
->  Para obtener instrucciones sobre cómo eliminar un usuario en Adobe Admin Console, consulte la sección &quot;Eliminar usuarios de forma permanente&quot; en el artículo [Administrar usuarios de forma individual](https://helpx.adobe.com/enterprise/using/manage-users-individually.html?lang=es) o póngase en contacto con el administrador de Adobe Admin Console.
+>  Para obtener instrucciones sobre cómo eliminar un usuario en Adobe Admin Console, consulte la sección &quot;Eliminar usuarios de forma permanente&quot; en el artículo [Administrar usuarios de forma individual](https://helpx.adobe.com/es/enterprise/using/manage-users-individually.html?lang=es) o póngase en contacto con el administrador de Adobe Admin Console.
 
 Cuando un usuario abandona la organización, puede eliminarlo de Adobe Workfront.
 
-La eliminación de un usuario debe realizarse a través de Adobe Admin Console. Para obtener instrucciones, consulte la sección &quot;Eliminar usuarios permanentemente&quot; en el artículo [Administrar usuarios individualmente](https://helpx.adobe.com/enterprise/using/manage-users-individually.html?lang=es) o comuníquese con el administrador de Adobe Admin Console.
+La eliminación de un usuario debe realizarse a través de Adobe Admin Console. Para obtener instrucciones, consulte la sección &quot;Eliminar usuarios permanentemente&quot; en el artículo [Administrar usuarios individualmente](https://helpx.adobe.com/es/enterprise/using/manage-users-individually.html?lang=es) o comuníquese con el administrador de Adobe Admin Console.
 
 >[!IMPORTANT]
 >
