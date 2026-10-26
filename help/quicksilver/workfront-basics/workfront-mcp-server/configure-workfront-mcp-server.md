@@ -11,9 +11,9 @@ product_v2:
 feature_v2:
   - id: c042179c-157b-516d-b27c-e3bf303e8567
     internal-label: Get Started with Workfront
-source-git-commit: e1ed15278689476313ad690a00803022d413418b
+source-git-commit: 5f19339cde475ed60c77e752af3ab61d55fa9401
 workflow-type: tm+mt
-source-wordcount: '2407'
+source-wordcount: '2423'
 ht-degree: 1%
 ---
 
@@ -197,12 +197,13 @@ Para obtener más información acerca de los GPT personalizados, consulte la [do
 
 ## Conectar Workfront a Copilot
 
-+++ Amplíe para ver instrucciones paso a paso para conectar Workfront a Copilot.
 
 * [Conexión de Workfront a Copilot con Copilot Studio](#connect-workfront-to-copilot-with-copilot-studio)
 * [Conectar Workfront a GitHub Copilot](#connect-workfront-to-github-copilot)
 
 ### Conexión de Workfront a Copilot con Copilot Studio
+
++++ Amplíe para ver instrucciones paso a paso para conectar Workfront a Copilot con Copilot Studio.
 
 Para crear un agente de Copilot personalizado al que se pueda conectar el MCP de Workfront, utilice Copilot Studio.
 
@@ -235,7 +236,13 @@ Se abre la ventana del agente.
 
    Es posible que no tenga permisos para publicar. Si este es el caso, póngase en contacto con el administrador de Copilot.
 
++++
+
+
 ### Conectar Workfront a GitHub Copilot
+
++++ Amplíe para ver instrucciones paso a paso para conectar Workfront a GitHub Copilot.
+
 
 1. En el copiloto de GitHub, ve a **Personalizar**.
 1. Haga clic en **Agregar** > **Servidor MCP**.
