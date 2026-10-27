@@ -21,10 +21,10 @@ subfeature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: f1a2e52fc5c832ebd94b32bb58e5faaee06cf3d6
 workflow-type: tm+mt
-source-wordcount: '104'
-ht-degree: 22%
+source-wordcount: '115'
+ht-degree: 20%
 ---
 # actividad de la versión de funciones de disponibilidad limitada de Adobe Workfront: índice de artículos
 
@@ -34,7 +34,7 @@ Este artículo contiene una lista de los artículos de actividades de la versió
 
 Para obtener información sobre la actividad actual de la versión de las funciones de disponibilidad limitada de Workfront, consulte el siguiente artículo:
 
-* [Actividad de la versión del cuarto trimestre de 2026 para funciones de disponibilidad limitada de Adobe Workfront](/help/quicksilver/product-announcements/product-releases/limited-availability-release-activity/limited-availability-release-activity-26-q4.md)
+* [Actividad de la versión del primer trimestre de 2027 para funciones de disponibilidad limitada de Adobe Workfront](/help/quicksilver/product-announcements/product-releases/limited-availability-release-activity/limited-availability-release-activity-27-q1.md)
 
 >[!ENDSHADEBOX]
 
@@ -45,3 +45,5 @@ Para obtener información acerca de versiones anteriores de funcionalidades, con
 * 2026
   * [Actividad de la versión del primer trimestre de 2026 para funciones con disponibilidad limitada de Adobe Workfront](/help/quicksilver/product-announcements/product-releases/limited-availability-release-activity/limited-availability-release-activity-26-q1.md)
   * [Actividad de la versión del segundo trimestre de 2026 para funciones con disponibilidad limitada de Adobe Workfront](/help/quicksilver/product-announcements/product-releases/limited-availability-release-activity/limited-availability-release-activity-26-q2.md)
+  * [Actividad de la versión del cuarto trimestre de 2026 para funciones de disponibilidad limitada de Adobe Workfront](/help/quicksilver/product-announcements/product-releases/limited-availability-release-activity/limited-availability-release-activity-26-q4.md)
+
