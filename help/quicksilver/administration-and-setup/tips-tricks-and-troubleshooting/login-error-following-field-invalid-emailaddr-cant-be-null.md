@@ -26,23 +26,31 @@ topic_v2:
     internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: e7123179a59cd7ed9c76f4718b3b8019854cbfe1
 workflow-type: tm+mt
-source-wordcount: '148'
-ht-degree: 4%
+source-wordcount: '77'
+ht-degree: 0%
 ---
 # Error de inicio de sesión: Los siguientes campos no son válidos: emailAddress no puede ser nulo
 
-## Problema
+>[!IMPORTANT]
+>
+>Dado que el inicio de sesión ahora se gestiona a través de Adobe IMS (Identity Management System), se ha eliminado la información de este artículo.
 
-Cuando intento iniciar sesión en [!DNL Adobe Workfront] con mi dirección URL (https://customerdomain.my.workfront.com), se me redirige al portal de inicio de sesión de SAML y después a [!DNL Workfront] con el siguiente error:
+<!--
 
-“Intentémoslo de nuevo. Los siguientes campos no son válidos: emailAddress no puede ser nulo&quot;.
+## Problem
 
-## Causa
+When I try to log into [!DNL Adobe Workfront] with my URL (https://customerdomain.my.workfront.com), I am redirected to the SAML login portal and then redirected back to [!DNL Workfront] with the following error:
 
-Este error se debe a un elemento incorrecto en el área Asignar atributos de usuario de la configuración de SAML 2.0. Para obtener más información sobre la asignación de atributos de usuario para SAML 2.0, consulte [Configuración de Adobe Workfront con SAML 2.0](../../administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2.md).
+"Let's try that again. The following fields are invalid: emailAddr cannot be null."
 
-## Solución
+## Cause
 
-Actualice la asignación de atributos para la dirección de correo electrónico y haga clic en **[!UICONTROL Guardar]**.
+This error is caused by an incorrect item in the Map User Attributes area of the SAML 2.0 configuration. For more information about mapping user attributes for SAML 2.0, see [Configure Adobe Workfront with SAML 2.0](../../administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2.md).
+
+## Solution
+
+Update the Attribute Mapping for the email address, and click **[!UICONTROL Save]**.
+
+-->

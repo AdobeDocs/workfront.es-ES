@@ -17,10 +17,10 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: aabc2873072fadbdaedb003fa3bc11b66626e570
 workflow-type: tm+mt
-source-wordcount: '121'
-ht-degree: 93%
+source-wordcount: '120'
+ht-degree: 92%
 ---
 # Navegar [!DNL Adobe Workfront]: índice de artículos
 
@@ -33,7 +33,7 @@ Esta sección contiene las siguientes subsecciones y artículos:
 * [Comprender los objetos de  [!DNL Adobe Workfront]](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)
 * [Glosario de  [!DNL Adobe Workfront] terminología](../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md)
 * [[!DNL Adobe Unified Experience] para [!DNL Workfront]](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md)
-* [Preguntas frecuentes sobre [!DNL Adobe Unified Experience]](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md)
+  <!--* [[!DNL Adobe Unified Experience] FAQ](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md)-->
 * [[!DNL Adobe Workfront] Buscar](../../workfront-basics/navigate-workfront/search/search.md)
 * [Recientes y favoritos en  [!DNL Adobe Workfront]](../../workfront-basics/navigate-workfront/recent-and-favorites/recent-and-favorites.md)
 * [Información general sobre la barra de navegación superior](../../workfront-basics/the-new-workfront-experience/global-navigation-overview.md)

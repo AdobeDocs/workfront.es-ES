@@ -32,7 +32,7 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: aabc2873072fadbdaedb003fa3bc11b66626e570
 workflow-type: tm+mt
 source-wordcount: '766'
 ht-degree: 10%
@@ -87,7 +87,7 @@ Para acceder a la página Información del cliente:
    Las secciones disponibles en el área Información del cliente son las siguientes:
 
    | Sección | Más información |
-   |---------|-----------------|
+   | --------- | ----------------- |
    | **Información básica** | Para obtener información acerca de cómo configurar información básica en Workfront, vea [Configurar información básica](#configure-basic-info). |
    | **Información general sobre almacenamiento** | Para obtener información acerca de cómo comprobar el uso y la cuota del almacenamiento de documentos, vea [Comprobar los límites del almacenamiento de documentos](../../documents/managing-documents/check-document-storage.md). |
    | **Configuración de clave API** | Para obtener información acerca de la configuración de claves API, consulte [Administrar claves API](../../administration-and-setup/manage-workfront/security/manage-api-keys.md). |

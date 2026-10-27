@@ -25,10 +25,10 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: e7123179a59cd7ed9c76f4718b3b8019854cbfe1
 workflow-type: tm+mt
-source-wordcount: '946'
-ht-degree: 13%
+source-wordcount: '98'
+ht-degree: 6%
 ---
 # Administrar las invitaciones por correo electrónico a los nuevos usuarios
 
@@ -38,120 +38,124 @@ ht-degree: 13%
 
 >[!IMPORTANT]
 >
->El procedimiento descrito en esta página se aplicaba únicamente a las organizaciones que aún no se habían incorporado a Admin Console. Si su organización se ha incorporado a Adobe Admin Console, debe llevar a cabo esta acción mediante Adobe Admin Console.
+>El procedimiento descrito en esta página se aplicaba únicamente a las organizaciones que aún no se habían incorporado a Admin Console. Dado que todas las organizaciones se han incorporado a Adobe Admin Console, los usuarios se agregan a través de Adobe Admin Console.
 >
->Para obtener una lista de procedimientos que difieren según si su organización se ha incorporado a Adobe Admin Console, consulte [Diferencias de administración entre Adobe Workfront y Adobe Business Platform](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+>Para obtener información e instrucciones, consulte [Crear usuarios en Workfront con Adobe Admin Console](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md) en el artículo Administrar usuarios en Adobe Admin Console.
 
-Como administrador de Adobe Workfront, puede agregar usuarios a Workfront y notificarles que han sido agregados mediante invitaciones por correo electrónico.
+<!--
 
-La invitación por correo electrónico permite a los nuevos usuarios seguir un vínculo en el que pueden elegir una contraseña para su cuenta de Workfront. Luego pueden terminar de configurar su cuenta.
+As an Adobe Workfront administrator, you can add users to Workfront and notify them that they have been added, by using email invitations.
 
-Para garantizar la seguridad de las nuevas cuentas, le recomendamos que utilice invitaciones por correo electrónico para los nuevos usuarios, de modo que puedan elegir su propia contraseña. También puede seleccionar una contraseña para un nuevo usuario al crear su cuenta. Para obtener más información sobre cómo agregar nuevos usuarios a Workfront, consulte [Agregar usuarios](../../../administration-and-setup/add-users/create-and-manage-users/add-users.md).
+The email invitation allows new users to follow a link where they can choose a password for their Workfront account. They can then finish setting up their account.
 
-Puede configurar los nuevos correos electrónicos de los usuarios para:
+To ensure the security of the new accounts, we recommend that you use email invitations for your new users, so they can choose their own password. Alternatively, you can also select a password for a new user when creating their account. For more information about adding new users to Workfront, see [Add users](../../../administration-and-setup/add-users/create-and-manage-users/add-users.md).
 
-* Cualquier nuevo usuario agregado a Workfront
-* Usuarios añadidos a Workfront con una licencia de solicitante
+You can configure the new user emails for:
 
-Todos los usuarios nuevos ven el mismo correo electrónico cuando se envía una invitación por correo electrónico.
+* Any new user added to Workfront
+* Users added to Workfront with a Requestor license
 
-Para obtener información sobre cómo recibir invitaciones por correo electrónico, consulte [Recibir invitaciones por correo electrónico y crear una contraseña para Adobe Workfront](../../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/receive-email-invitations.md).
+All new users see the same email when an email invitation is sent.
 
-## Requisitos de acceso
+For information about receiving email invitations, see [Receive email invitations and create a password for Adobe Workfront](../../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/receive-email-invitations.md).
 
-+++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
+## Access requirements
 
-Debe tener el siguiente acceso para realizar los pasos de este artículo:
++++ Expand to view access requirements for the functionality in this article.
+
+You must have the following access to perform the steps in this article:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Paquete de Adobe Workfront</td> 
-   <td>Cualquiera</td> 
+   <td role="rowheader">Adobe Workfront package</td> 
+   <td>Any</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licencia de Adobe Workfront</td> 
+   <td role="rowheader">Adobe Workfront license</td> 
    <td>
-   <p>Estándar</p>
+   <p>Standard</p>
    <p>Plan</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraciones de nivel de acceso</td> 
-   <td> <p>Administrador del sistema</p> </td> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>System administrator</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
 
 +++
 
-## Reenviar invitaciones por correo electrónico a usuarios no registrados existentes
+## Resend email invitations to existing unregistered users
 
-Las invitaciones por correo electrónico se generan en los siguientes casos:
+Email invitations are generated in the following scenarios:
 
-* Cuando crea un nuevo usuario y selecciona **Enviar un correo electrónico de invitación a esta persona** en el formulario **Nuevo usuario**. Para obtener más información sobre cómo crear usuarios nuevos, consulte [Añadir usuarios](../../../administration-and-setup/add-users/create-and-manage-users/add-users.md).
-* Cuando importa varios usuarios nuevos y selecciona la opción **Enviar invitación por correo electrónico a estas personas**. Para obtener más información sobre cómo importar varios usuarios nuevos, consulte [Importar usuarios](../../../administration-and-setup/add-users/create-and-manage-users/import-users.md).
-* Una vez creados los usuarios, puede generar manualmente las invitaciones a los usuarios que aún no hayan registrado su cuenta en Workfront y que no hayan establecido una contraseña de Workfront.\
-  Los usuarios que hayan creado una cuenta pero que aún no la hayan registrado se marcarán como **No registrado** en Workfront.
+* When you create a new user and you select the **Send an invite email to this person** on the **New User** form. For more information about creating new users, see [Add users](../../../administration-and-setup/add-users/create-and-manage-users/add-users.md).
+* When you import multiple new users and you select the **Send invite emails to these people** option. For more information about importing several new users, see [Import users](../../../administration-and-setup/add-users/create-and-manage-users/import-users.md).
+* After the users are created, you can manually generate the invitations to users who have not yet registered their account with Workfront, and they have not established a Workfront password.  
+  Users who have an account created but have not yet registered their account are marked as **Unregistered** in Workfront.
 
   >[!NOTE]
   >
-  >Si anula la selección del cuadro **Enviar una invitación por correo electrónico a esta persona** al crear el usuario, la invitación por correo electrónico no se podrá generar manualmente. El reenvío manual de las invitaciones por correo electrónico solo es posible para los usuarios a los que se les ha enviado la invitación por correo electrónico original cuando se creó su cuenta. Para obtener más información sobre cómo crear usuarios nuevos, consulte [Añadir usuarios](../../../administration-and-setup/add-users/create-and-manage-users/add-users.md).
+  >If you deselect the **Send an email invite to this person** box when you create the user, the email invitation cannot be generated manually. Resending the email invitations manually is only possible for users who have been sent the original email invitation when their account was created. For more information about creating new users, see [Add users](../../../administration-and-setup/add-users/create-and-manage-users/add-users.md).
 
-Para reenviar manualmente invitaciones por correo electrónico a usuarios no registrados existentes:
+To manually resend email invitations to existing unregistered users:
 
-{{step-1-to-users}}
+{{step-1-to-users}} 
 
-1. Seleccione al usuario que muestra la etiqueta **No registrado** después de su nombre.
+1. Select the user who shows the **Unregistered** label after their name.
 
-   ![No registrado](assets/unreg-user-qs-350x221.png)
+   ![Unregistered](assets/unreg-user-qs-350x221.png)
 
-1. Haga clic en el icono Más ![Más](assets/more-icon.png) y, a continuación, haga clic en **Recordar al usuario que se registre**.
+1. Click the More icon ![More icon](assets/more-icon.png), then click **Remind user to register**.
 
-   Se envía una invitación por correo electrónico al nuevo usuario con un nuevo vínculo que puede utilizar para crear su contraseña de Workfront.
+   An email invitation is sent to the new user with a new link they can use to create their Workfront password.
 
    >[!NOTE]
    >
-   >Si su organización se ha incorporado a Admin Console y agrega un usuario a través de Workfront, no tiene la opción de enviar una invitación por correo electrónico a los nuevos usuarios.
+   >If your organization has been onboarded to the Admin Console and you add a user through Workfront, you do not have the option to send an email invitation to new users.
    >
-   >Los nuevos usuarios de Adobe se añaden a Admin Console y Admin Console envía un correo electrónico para invitarlos a completar el proceso de registro. Todos los usuarios deben completar el proceso de registro para acceder a cualquier sistema de Adobe.
+   >New Adobe users are added to the Admin Console, and the Admin Console delivers an email to invite them to complete the registration process. All users must complete the registration process to access any Adobe system.
    >
-   >Para los usuarios de Adobe existentes, el usuario puede recibir o no un correo electrónico sobre la disponibilidad de Workfront. Esta es una preferencia que controla el administrador de Adobe del producto.
+   >For existing Adobe users, the user may or may not receive an email about Workfront being available. This is a preference controlled by the Adobe administrator for the product.
 
-## Configurar invitaciones por correo electrónico {#configure-email-invitations}
+## Configure email invitations {#configure-email-invitations}
 
-Como administrador de Workfront, puede configurar el mensaje que incluye con las invitaciones por correo electrónico para nuevos usuarios.
+As a Workfront administrator, you can configure the message you include with the email invitations for new users.
 
 {{step-1-to-setup}}
 
-1. En la lista de la izquierda, haga clic en **Correo electrónico** > **Invitaciones**.
+1. In the list on the left, click **Email** > **Invitations**.
 
-1. En la sección **Opciones generales**, realice cualquiera de las siguientes modificaciones:
+1. In the **General Options** section, make any of the following modifications:
 
    <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader"><strong>Desactivar vínculos de invitación después de... días</strong> </td> 
-      <td> <p>Elija la cantidad de tiempo después de la cual las invitaciones por correo electrónico ya no contienen un vínculo válido a Workfront. La cantidad predeterminada de días es 45.</p> </td> 
+      <td role="rowheader"><strong>Deactivate invitation links after ... days</strong> </td> 
+      <td> <p>Choose the amount of time after which the email invitations no longer contain a valid link to Workfront. The default amount of days is 45.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>Incluir un mensaje y/ o un término de servicio</strong> </td> 
-      <td> <p>Seleccione esta opción si desea modificar la invitación por correo electrónico de todos los usuarios nuevos agregados a Workfront. Esto no incluye a los usuarios con una licencia de solicitante.</p> 
+      <td role="rowheader"><strong>Include a message and/ or term of service</strong> </td> 
+      <td> <p>Select this option if you want to modify the email invitation for all new users added to Workfront. This does not include users with a Requestor license.</p> 
        <ul> 
-        <li><strong>Mensaje</strong>: si selecciona modificar la invitación por correo electrónico para todos los usuarios nuevos, especifique el texto que desea incluir en las invitaciones por correo electrónico como cuerpo del correo electrónico.</li> 
-        <li><strong>Términos y condiciones</strong>: si decide modificar la invitación por correo electrónico para todos los usuarios nuevos, especifique el texto que desea incluir en las invitaciones por correo electrónico como términos y condiciones.<br></li> 
-        <li><strong>Incluir un mensaje o un término de servicio para los usuarios del servicio de asistencia</strong>: seleccione esta opción si desea modificar la invitación por correo electrónico para todos los usuarios nuevos agregados a Workfront que tengan una licencia de solicitante.</li> 
-        <li><strong>Mensaje</strong>: si selecciona modificar la invitación por correo electrónico para todos los usuarios nuevos con una licencia de solicitante, especifique el texto que desea incluir en las invitaciones por correo electrónico como cuerpo del correo electrónico.</li> 
-        <li><strong>Términos y condiciones</strong>: Si decide modificar la invitación por correo electrónico para todos los usuarios nuevos con una licencia de solicitante, especifique el texto que desea incluir en las invitaciones por correo electrónico como términos y condiciones.<br></li> 
-        <li> <p>En la sección <strong>Vista previa de invitación</strong>, puedes ver una vista previa de tu invitación por correo electrónico. Si ha seleccionado incluir un mensaje personalizado en la invitación por correo electrónico, el mensaje personalizado se muestra en esta área.</p> <p> <img src="assets/email-invitation-for-all-users-preview-qs-350x190.png" style="width: 350;height: 190;"> </p> </li> 
+        <li><strong>Message</strong>: If you select to modify the email invitation for all new users, specify the text that you want to include in your email invitations as the email body.</li> 
+        <li><strong>Terms and Conditions</strong>: If you select to modify the email invitation for all new users, specify the text that you want to include in your email invitations as the terms and conditions.<br></li> 
+        <li><strong>Include a message and/or term of service for helpdesk users</strong>: Select this option if you want to modify the email invitation for all new users added to Workfront that have a Requestor license.</li> 
+        <li><strong>Message</strong>: If you select to modify the email invitation for all new users with a Requestor license, specify the text that you want to include in your email invitations as the email body.</li> 
+        <li><strong>Terms and Conditions</strong>: If you select to modify the email invitation for all new users with a Requestor license, specify the text that you want to include in your email invitations as the terms and conditions.<br></li> 
+        <li> <p>In the <strong>Invitation Preview</strong> section, you can see a preview of your email invitation. If you selected to include a customized message in your email invitation, the customized message shows in this area.</p> <p> <img src="assets/email-invitation-for-all-users-preview-qs-350x190.png" style="width: 350;height: 190;"> </p> </li> 
        </ul> </td> 
      </tr> 
     </tbody> 
    </table>
 
-1. Haga clic en **Guardar**.
+1. Click **Save**.
+-->
+

@@ -22,9 +22,9 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: a05d8d51a3a2595d0c2a75aa9f992e4f14b091fe
+source-git-commit: 3da69fe6ab5bdb843e17bd5ae2ffa985bf2b5cc4
 workflow-type: tm+mt
-source-wordcount: '2104'
+source-wordcount: '2092'
 ht-degree: 4%
 ---
 # Información general del estado del proyecto
@@ -93,9 +93,6 @@ Su organización debe tener habilitado el Asistente para IA para poder usar Proj
 
 Para habilitar el Asistente de IA y el Estado del proyecto para su organización, deben aplicarse todas las siguientes condiciones:
 
-<!--Remove me October 2026-->
-
-* Su organización debe haber migrado al sistema Identity Management de Adobe (IMS).
 * Su organización debe tener un paquete Workfront o Workflow Select, Prime o Ultimate.
 * La experiencia unificada de Adobe debe estar habilitada.
 * Adobe debe tener registrado un acuerdo de Adobe Gen AI.
