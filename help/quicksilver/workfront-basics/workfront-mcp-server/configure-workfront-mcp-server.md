@@ -11,7 +11,7 @@ product_v2:
 feature_v2:
   - id: c042179c-157b-516d-b27c-e3bf303e8567
     internal-label: Get Started with Workfront
-source-git-commit: 5f19339cde475ed60c77e752af3ab61d55fa9401
+source-git-commit: 96a3eac63c25b2a6cf7d4a10f0db05aab84c68e8
 workflow-type: tm+mt
 source-wordcount: '2423'
 ht-degree: 1%
@@ -43,10 +43,10 @@ https://mcp.workfront.adobe.com/mcp/v1/workfront
 >Para reducir el tamaño del catálogo MCP para los clientes que cargan todas las herramientas por adelantado, puede agregar el parámetro de consulta `toolsets` a la dirección URL del servidor MCP de Workfront. Por ejemplo:
 >
 >```
->https://mcp.workfront.adobe.com/mcp/v1/workfront?>toolsets=core,comment-stream
+>https://mcp.workfront.adobe.com/mcp/v1/workfront?toolsets=core,comment-stream
 >```
 >
->Para obtener más información sobre los conjuntos de herramientas, consulte [conjuntos de herramientas en el servidor MCP de Workfront](/help/quicksilver/workfront-basics/workfront-mcp-server/workfront-mcp-server-tools.md#toolsets-in-the-workfront-mcp-server) en el artículo Herramientas del servidor MCP de Adobe Workfront.
+>Para obtener más información sobre los conjuntos de herramientas, consulte [Conjuntos de herramientas en el servidor MCP de Workfront](/help/quicksilver/workfront-basics/workfront-mcp-server/workfront-mcp-server-tools.md#toolsets-in-the-workfront-mcp-server) en el artículo Herramientas del servidor MCP de Adobe Workfront.
 
 ## Requisitos previos
 
