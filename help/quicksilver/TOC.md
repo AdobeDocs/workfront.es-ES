@@ -3,9 +3,9 @@ user-guide-title: Guía de Workfront
 user-guide-description: Utilice los siguientes documentos, tutoriales y recursos adicionales para aprender a implementar y utilizar Adobe Workfront de forma eficaz en su organización.
 role: User
 feature-set: Workfront
-source-git-commit: f56dd9bec282768b8cda59a39bca502c1a796070
+source-git-commit: 9faae2fb12953fb12f2c86dacbab61c18a11f94a
 workflow-type: tm+mt
-source-wordcount: '14726'
+source-wordcount: '14736'
 ht-degree: 90%
 ---
 # Guía de Workfront {#using}
@@ -271,9 +271,10 @@ ht-degree: 90%
       * [Actividad de la versión del cuarto trimestre de 2024 para Planificación de Workfront de Adobe](product-announcements/product-releases/planning-release-activity/planning-release-activity-24-q4.md)
     * Actividad de la versión con disponibilidad limitada de Adobe Workfront{#limited-availability-release-activity}
       * {hide-from-toc}[Actividad de la versión de funciones de disponibilidad limitada de Adobe Workfront](/help/quicksilver/product-announcements/product-releases/limited-availability-release-activity/limited-availability-release-activity-article-index.md)
-      * {hide-from-toc}[Actividad de la versión del primer trimestre de 2026 para las funciones de disponibilidad limitada de Adobe Workfront](/help/quicksilver/product-announcements/product-releases/limited-availability-release-activity/limited-availability-release-activity-26-q1.md)
-      * {hide-from-toc}[Actividad de la versión del segundo trimestre de 2026 para las funciones de disponibilidad limitada de Adobe Workfront](/help/quicksilver/product-announcements/product-releases/limited-availability-release-activity/limited-availability-release-activity-26-q2.md)
+      * {hide-from-toc}[Actividad de la versión del primer trimestre de 2027 para las funciones de disponibilidad limitada de Adobe Workfront](/help/quicksilver/product-announcements/product-releases/limited-availability-release-activity/limited-availability-release-activity-27-q1.md)
       * {hide-from-toc}[Actividad de la versión del cuarto trimestre de 2026 para las funciones de disponibilidad limitada de Adobe Workfront](/help/quicksilver/product-announcements/product-releases/limited-availability-release-activity/limited-availability-release-activity-26-q4.md)
+      * {hide-from-toc}[Actividad de la versión del segundo trimestre de 2026 para las funciones de disponibilidad limitada de Adobe Workfront](/help/quicksilver/product-announcements/product-releases/limited-availability-release-activity/limited-availability-release-activity-26-q2.md)
+      * {hide-from-toc}[Actividad de la versión del primer trimestre de 2026 para las funciones de disponibilidad limitada de Adobe Workfront](/help/quicksilver/product-announcements/product-releases/limited-availability-release-activity/limited-availability-release-activity-26-q1.md)
     * Actividad de la versión del planificador de escenarios de Adobe Workfront {#scenario-planner-release}
       * [Actividad de la versión del planificador de escenarios de Adobe Workfront](product-announcements/product-releases/scenario-planner-release-activity/sp-release-activity.md)
       * [Planificador de escenarios de Adobe Workfront con la versión 21.3](product-announcements/product-releases/scenario-planner-release-activity/sp-release-21-3.md)
@@ -2685,7 +2686,7 @@ ht-degree: 90%
     * [Configure y utilice las aplicaciones OAuth 2 personalizadas de la organización mediante el flujo JWT](wf-api/api/oauth-app-jwt-flow.md)
     * [Configure y utilice las aplicaciones OAuth 2 personalizadas de su organización mediante el flujo PKCE](wf-api/api/oauth-app-pkce-flow.md)
     * [Obsolescencia de la API interna](wf-api/api/deprecation-api-internal.md)
-    * [Novedades de la versión 22 de la API](/help/quicksilver/wf-api/api/new-api-version-22.md)
+    * [Novedades de la versión 22](/help/quicksilver/wf-api/api/new-api-version-22.md) de la API
     * [Novedades de la versión 21 de la API](/help/quicksilver/wf-api/api/new-api-version-21.md)
     * [Novedades de la versión 20 de la API](/help/quicksilver/wf-api/api/new-api-version-20.md)
     * [Novedades de la versión 19 de la API](wf-api/api/new-api-version-19.md)
