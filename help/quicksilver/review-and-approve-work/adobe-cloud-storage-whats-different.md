@@ -6,9 +6,9 @@ description: Comprenda las principales diferencias en los objetos de almacenamie
 author: Courtney
 feature: System Setup and Administration, Work Management, Digital Content and Documents
 role: Admin
-source-git-commit: 2b5d95ed0a5c72062700bf026a18b8301e4be421
+source-git-commit: 120abd12533cfed2e5c7f8c2f849d34a26054dbb
 workflow-type: tm+mt
-source-wordcount: '1702'
+source-wordcount: '1714'
 ht-degree: 0%
 ---
 # Diferencias en el almacenamiento en la nube de Adobe
@@ -94,7 +94,7 @@ El visor Frame.io proporciona lo siguiente:
 * Herramientas de marcado y comentarios, incluido el dibujo a mano alzada y formas estándar como círculos, flechas y cuadrados
 * Comentarios con marca de tiempo con precisión de cuadro para revisiones de vídeo
 * Historial y comparación de versiones
-* Acceso móvil para revisiones y aprobaciones sobre la marcha
+* Acceso móvil para revisión y aprobación sobre la marcha con la aplicación [Frame.io de iOS](https://help.frame.io/en/collections/9679120-ios-app)
 * Compatibilidad con más de 40 formatos de archivo, incluidos todos los tipos comunes de vídeo, imagen, audio, PDF y Microsoft Office, con reproducción nativa para formatos de vídeo profesionales como ProRes, H.265 y DNxHD, y compatibilidad con archivos de hasta 500 GB
 
 ## Reglas de nomenclatura de objetos

@@ -27,9 +27,9 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
-source-git-commit: ba1234b2e48d9dbed57c88ccc65221c65913b43b
+source-git-commit: 120abd12533cfed2e5c7f8c2f849d34a26054dbb
 workflow-type: tm+mt
-source-wordcount: '4464'
+source-wordcount: '4476'
 ht-degree: 0%
 ---
 # Resumen de revisión y aprobación unificadas
@@ -82,7 +82,7 @@ Utilice el visor de Frame.io para revisar y aprobar recursos. El visor Frame.io 
 * Herramientas de marcado y comentarios
 * Historial y comparación de versiones
 * Comentarios con marca de tiempo para críticas de vídeo
-* Acceso móvil para revisiones y aprobaciones sobre la marcha
+* Acceso móvil para revisión y aprobación sobre la marcha con la aplicación [Frame.io de iOS](https://help.frame.io/en/collections/9679120-ios-app)
 
 Para obtener más información, consulte [Introducción a la revisión y aprobación unificadas](/help/quicksilver/review-and-approve-work/get-started-with-unified-approvals.md).
 
