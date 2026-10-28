@@ -11,9 +11,9 @@ product_v2:
 feature_v2:
   - id: c042179c-157b-516d-b27c-e3bf303e8567
     internal-label: Get Started with Workfront
-source-git-commit: 5f19339cde475ed60c77e752af3ab61d55fa9401
+source-git-commit: 20cb536b40af2dc7d3c5ddd1e3c08d6fbccb8466
 workflow-type: tm+mt
-source-wordcount: '2423'
+source-wordcount: '2484'
 ht-degree: 1%
 ---
 
@@ -43,10 +43,10 @@ https://mcp.workfront.adobe.com/mcp/v1/workfront
 >Para reducir el tamaño del catálogo MCP para los clientes que cargan todas las herramientas por adelantado, puede agregar el parámetro de consulta `toolsets` a la dirección URL del servidor MCP de Workfront. Por ejemplo:
 >
 >```
->https://mcp.workfront.adobe.com/mcp/v1/workfront?>toolsets=core,comment-stream
+>https://mcp.workfront.adobe.com/mcp/v1/workfront?toolsets=core,comment-stream
 >```
 >
->Para obtener más información sobre los conjuntos de herramientas, consulte [conjuntos de herramientas en el servidor MCP de Workfront](/help/quicksilver/workfront-basics/workfront-mcp-server/workfront-mcp-server-tools.md#toolsets-in-the-workfront-mcp-server) en el artículo Herramientas del servidor MCP de Adobe Workfront.
+>Para obtener más información sobre los conjuntos de herramientas, consulte [Conjuntos de herramientas en el servidor MCP de Workfront](/help/quicksilver/workfront-basics/workfront-mcp-server/workfront-mcp-server-tools.md#toolsets-in-the-workfront-mcp-server) en el artículo Herramientas del servidor MCP de Adobe Workfront.
 
 ## Requisitos previos
 
@@ -243,6 +243,30 @@ Se abre la ventana del agente.
 
 +++ Amplíe para ver instrucciones paso a paso para conectar Workfront a GitHub Copilot.
 
+>[!NOTE]
+>
+>Si GitHub Copilot indica que no se admite el registro de cliente dinámico o solicita un ID de cliente de OAuth, utilice la solución siguiente en lugar de la configuración HTTP estándar. Algunos clientes de GitHub Copilot MCP no admiten el flujo de detección dinámica utilizado en la configuración predeterminada.
+>
+>Para solucionar esto, configure el Copiloto de GitHub para iniciar el servidor MCP de Workfront a través de `mcp-remote` y establezca `NODE_OPTIONS=--use-system-ca`:
+>
+>```json
+>{
+>   "servers": {
+>       "wf-mcp": {
+>           "command": "npx.cmd",
+>           "args": [
+>               "-y",
+>               "mcp-remote",
+>               "https://mcp.workfront.adobe.com/mcp/v1/workfront"
+>           ],
+>           "env": {
+>               "NODE_OPTIONS": "--use-system-ca"
+>           }
+>       }
+>   }
+>}
+>```
+>
 
 1. En el copiloto de GitHub, ve a **Personalizar**.
 1. Haga clic en **Agregar** > **Servidor MCP**.
