@@ -25,9 +25,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: b9fd74c50d2d5d47514cb4f6b1893c5b2be9b404
+source-git-commit: 16e4d70d45e4f312d31f3cd491754820ef0c9b9d
 workflow-type: tm+mt
-source-wordcount: '3388'
+source-wordcount: '3531'
 ht-degree: 2%
 ---
 # Uso de listas mejoradas
@@ -249,6 +249,25 @@ Para agregar y quitar columnas:
 >[!NOTE]
 >
 >No todas las listas mejoradas tienen todos los elementos descritos en esta sección.
+
+Para ver el número total de elementos de una lista, siga uno de estos procedimientos:
+
+* En el entorno de producción:
+
+  1. Abra una lista mejorada.
+  1. Desplácese al final de la lista.
+
+     El número total de elementos, teniendo en cuenta los filtros aplicados, se muestra en la esquina inferior derecha de la lista.
+
+<div class="preview">
+
+* En el entorno de vista previa:
+
+  1. Abra una lista mejorada.
+  1. Cuando esté disponible, vea el número total de elementos a la izquierda del cuadro de búsqueda rápida, en la esquina superior derecha de la lista.
+  1. (Condicional) Si hay elementos que no se muestran en la pantalla de forma predeterminada, desplace la página para mostrar más.
+
+</div>
 
 Para cambiar el alto de fila en una vista:
 
@@ -516,7 +535,11 @@ Para ordenar columnas individuales:
 >
 >No todas las listas mejoradas tienen todos los elementos descritos en esta sección.
 
-1. Escriba la palabra clave por la que desee buscar en el cuadro Buscar de la esquina superior derecha de la lista. Los resultados se resaltan en la lista a medida que escribe.
+1. Escriba una palabra clave por la que desee buscar en el cuadro **Buscar** de la esquina superior derecha de la lista.
+
+   En el entorno Producción, los resultados se resaltan en la lista a medida que escribe.
+
+   <span class="preview">En el entorno de vista previa, la lista se filtra para mostrar solamente los elementos que coinciden con los criterios de búsqueda. El número total de registros a la izquierda del cuadro de búsqueda rápida se reemplaza por el número de elementos encontrados.</span>
 
    ![Término de búsqueda resaltado](assets/glist-search-highlighted.png)
 

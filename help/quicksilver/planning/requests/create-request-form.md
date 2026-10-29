@@ -34,7 +34,7 @@ topic_v2:
     internal-label: Metadata
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 0bcb6ef2abbf3789339af27119422ef413cd6eef
+source-git-commit: 16e4d70d45e4f312d31f3cd491754820ef0c9b9d
 workflow-type: tm+mt
 source-wordcount: '3223'
 ht-degree: 6%
@@ -297,7 +297,7 @@ Para configurar el formulario:
 1. (Condicional) Si ha seleccionado que la solicitud se marque como completada cuando se complete el objeto solicitado, seleccione el campo y el valor que indica cuándo se completa el objeto. Por ejemplo, puede seleccionar el campo Estado y el valor Completar para completar la solicitud cuando el estado del objeto creado se establece en Completar.
 
 1. Haga clic en **Permisos** en el panel izquierdo para configurar los permisos que tendrán los usuarios en las solicitudes enviadas mediante este formulario de forma predeterminada. Los permisos que concede aquí surtirán efecto de inmediato para solicitudes futuras y no afectarán a las solicitudes existentes.
-1. &#x200B;<!--<span class="preview">In the **Requestor access** section,</span>--> Seleccione el nivel de permiso para las solicitudes enviadas a este formulario para los usuarios que envían solicitudes mediante este formulario:
+1. <!--<span class="preview">In the **Requestor access** section,</span>--> Seleccione el nivel de permiso para las solicitudes enviadas a este formulario para los usuarios que envían solicitudes mediante este formulario:
 
    * **Ver**: todos los solicitantes pueden realizar comentarios en el formulario y compartirlo.
    * **Contribute**: todos los solicitantes pueden realizar comentarios en el formulario, compartirlo y editarlo.
@@ -329,7 +329,6 @@ Para configurar el formulario:
       * Edit. Not available for View. 
       * Delete. Not available for Contribute and View. 
       </div>
-
    1. <span class="preview"> In the **Search for people, groups, teams, roles and companies** field, start adding entities and grant them View, Contribute, or Manage permissions.</span> 
       >[!TIP]
       >

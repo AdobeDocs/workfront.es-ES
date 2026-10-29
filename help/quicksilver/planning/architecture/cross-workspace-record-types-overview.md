@@ -26,19 +26,19 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
     internal-label: Metadata
-source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
+source-git-commit: 16e4d70d45e4f312d31f3cd491754820ef0c9b9d
 workflow-type: tm+mt
-source-wordcount: '1831'
-ht-degree: 1%
+source-wordcount: '1948'
+ht-degree: 2%
 ---
 # Información general sobre el tipo de registro entre espacios de trabajo
 
-<!--
 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
--->
+<span class="preview">La información resaltada en esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa para todos los clientes. Después del lanzamiento en Vista previa, las mismas funciones también están disponibles mensualmente en el entorno de producción para los clientes que habilitaron lanzamientos rápidos. </span>
+
+<span class="preview">Para obtener información acerca de las versiones rápidas, consulte [Habilitar o deshabilitar las versiones rápidas para su organización](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+
 
 {{planning-important-intro}}
 
@@ -228,7 +228,15 @@ These two capabilities will come later - and edit some of the bullets below afte
 
 ### Acceso a las conexiones de un tipo de registro global
 
-Los tipos de registro conectados al tipo de registro global en el espacio de trabajo original se hacen visibles desde otros espacios de trabajo donde se agrega el tipo de registro global y están disponibles para conexiones desde los espacios de trabajo secundarios donde se agrega el tipo de registro global.
+* Los tipos de registro conectados al tipo de registro global en el espacio de trabajo original se hacen visibles desde otros espacios de trabajo donde se agrega el tipo de registro global y están disponibles para conexiones desde los espacios de trabajo secundarios donde se agrega el tipo de registro global.
+
+<div class="preview">
+
+* Cuando se agregan dos tipos de registros globales conectados a un espacio de trabajo secundario, puede desactivar la conectividad entre espacios de trabajo y seguir vinculando registros localmente.
+
+  Cada tipo de registro secundario muestra únicamente sus propios registros para ambos tipos de registro y pueden conectarlos entre sí. Ya no se muestran los registros del espacio de trabajo global ni de otros espacios de trabajo secundarios.
+
+</div>
 
 ### Acceso a la API de un tipo de registro global
 

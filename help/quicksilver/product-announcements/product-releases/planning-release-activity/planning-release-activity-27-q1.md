@@ -18,9 +18,9 @@ subfeature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 949503fecba92a7b8536b4af0b9c684e7f9e3300
+source-git-commit: 65b1e818b321dd396720fb791e49e8ae9eb7af92
 workflow-type: tm+mt
-source-wordcount: '1082'
+source-wordcount: '1191'
 ht-degree: 3%
 ---
 # Actividad de la versión del primer trimestre de 2027 para Adobe Workfront Planning
@@ -65,13 +65,15 @@ PLACEHOLDER: The release note field on the Workfront task points to an anchor st
 >Versión rápida de producción: 12 de noviembre de 2026
 >Producción para todos: 21 de enero de 2027
 
-Cuando se agregan dos tipos de registros globales conectados a un espacio de trabajo secundario, ahora puede desactivar la conectividad entre espacios de trabajo y seguir vinculando registros localmente. Cada espacio de trabajo secundario sólo ve sus propios registros para ambos tipos de registro y puede conectarlos entre sí. Ya no se muestran los registros del espacio de trabajo global ni de otros espacios de trabajo secundarios.
+Cuando se agregan dos tipos de registros globales conectados a un espacio de trabajo secundario, puede desactivar la conectividad entre espacios de trabajo y seguir vinculando registros localmente.
+
+Cada tipo de registro secundario muestra únicamente sus propios registros para ambos tipos de registro y pueden conectarlos entre sí. Ya no se muestran los registros del espacio de trabajo global ni de otros espacios de trabajo secundarios.
 
 Antes de esta mejora, si la conectividad entre espacios de trabajo se desactivaba para los tipos de registros globales conectados, los espacios de trabajo secundarios no podían vincular sus propios registros entre sí. Si estaba activado, los usuarios podían ver y vincular registros del espacio de trabajo global y de todos los demás espacios de trabajo secundarios.
 
 Para obtener más información, vea [Información general sobre el tipo de registro entre espacios de trabajo](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md).
 
-## Ver el recuento total de registros en las vistas de tabla
+## Ver el recuento total de registros en las vistas de tabla, escala de tiempo y lista
 
 >[!NOTE]
 >
@@ -79,7 +81,9 @@ Para obtener más información, vea [Información general sobre el tipo de regis
 >Versión rápida de producción: 12 de noviembre de 2026
 >Producción para todos: 21 de enero de 2027
 
-La vista de tabla ahora muestra el número total de registros y el recuento se actualiza automáticamente al aplicar filtros, buscar o cambiar la vista. El recuento de registros siempre refleja los resultados filtrados completos y respeta los permisos.
+Las vistas de tabla, cronología y lista ahora muestran el número total de registros y el recuento se actualiza automáticamente al aplicar filtros, buscar o cambiar la vista. El recuento de registros siempre refleja los resultados filtrados completos y respeta los permisos.
+
+El recuento de registros se muestra a la izquierda del cuadro de búsqueda rápida, en la esquina superior derecha de la tabla, la escala de tiempo o la vista de lista.
 
 Para obtener más información, consulte [Administrar la vista de tabla](/help/quicksilver/planning/views/manage-the-table-view.md).
 
@@ -197,8 +201,6 @@ For more information, see [Configure business rules](/help/quicksilver/planning/
 
 ## Rendimiento mejorado con la carga de datos incremental en las vistas de tabla y cronología
 
-<!-- NOTE FROM CSV: Must check with Lilit whether this will come to the timeline view in addition to the table (Lilit said yes; this was messaged before but pulled). The second bullet will change; check with Lilit first. -->
-
 >[!NOTE]
 >
 >Vista previa: 29 de octubre de 2026
@@ -207,8 +209,10 @@ For more information, see [Configure business rules](/help/quicksilver/planning/
 
 Para mejorar el rendimiento en un gran número de registros, hemos realizado las siguientes mejoras en las vistas de tabla y cronología:
 
-* La vista ahora carga los 500 primeros registros inicialmente, con registros adicionales cargados automáticamente a medida que se desplaza por lotes de 500.
-* La búsqueda rápida y la agrupación solo afectan a los registros cargados actualmente en la vista.
+* La vista de tabla ahora carga los 500 primeros registros inicialmente, con registros adicionales cargados automáticamente a medida que se desplaza por lotes de 500.
+* La vista de cronología tiene un comportamiento similar, pero carga 1000 registros a la vez con los siguientes 1000 cargados a medida que se desplaza.
+* La búsqueda rápida se aplica a todos los registros, no solo a los que se muestran en la vista actual. Se cargan más registros a medida que se desplaza por la escala de tiempo y por las vistas de tabla.
+* Al aplicar una búsqueda rápida en la vista de la escala de tiempo y haber más de 1000 elementos encontrados, puede hacer clic en Cargar más en la parte inferior de la escala de tiempo para mostrar más registros que coincidan con la búsqueda.
 
 Para obtener más información, vea [Administrar la vista de tabla](/help/quicksilver/planning/views/manage-the-table-view.md) y [Administrar la vista de escala de tiempo](/help/quicksilver/planning/views/manage-the-timeline-view.md).
 

@@ -28,20 +28,19 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
+source-git-commit: 16e4d70d45e4f312d31f3cd491754820ef0c9b9d
 workflow-type: tm+mt
-source-wordcount: '4138'
-ht-degree: 49%
+source-wordcount: '4353'
+ht-degree: 46%
 ---
 # Administrar la vista de tabla
 
 <!-- remove Production and Preview references at release-->
 
-<!--
-<span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>
+<span class="preview">La información resaltada en esta página hace referencia a funcionalidades que aún no están disponibles de forma general. Solo está disponible en el entorno de vista previa para todos los clientes. Después del lanzamiento en Vista previa, las mismas funciones también están disponibles mensualmente en el entorno de producción para los clientes que habilitaron lanzamientos rápidos. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+<span class="preview">Para obtener información sobre las versiones rápidas, consulte [Habilitar o deshabilitar las versiones rápidas para su organización](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
 
 
 {{planning-important-intro}}
@@ -195,15 +194,13 @@ En una vista de tabla, todos los registros del tipo de registro seleccionado se 
 
 De forma predeterminada, se muestra lo siguiente en una vista de tabla:
 
-* Todos los campos y todos los registros del tipo de registro seleccionado.
+* En el entorno Producción, todos los campos y todos los registros del tipo de registro seleccionado.
 
-<!--
 <div class="preview">
 
-* 500 records upload by default. Additional records display as you scroll the view. 
+* En el entorno de vista previa, se muestran 500 registros de forma predeterminada. Se muestran registros adicionales al desplazarse por la página.
 
 </div>
--->
 
 Para administrar una vista de tabla:
 
@@ -244,6 +241,10 @@ Puede añadir hasta 500 campos (o columnas) en una vista de tabla.
 1. Empiece a añadir campos (o columnas), tal como se describe en el artículo [Crear campos](/help/quicksilver/planning/fields/create-fields.md).
 
    Las columnas que añada serán visibles para todos los usuarios que tengan acceso al tipo de registro y se añadirán como campos nuevos en la página del registro.
+
+   En el entorno de producción, se añaden los campos recién añadidos y son visibles desde todas las vistas.
+
+   <span class="preview">En el entorno de vista previa, los campos recién agregados se agregan como campos ocultos en todas las vistas, excepto en la vista donde los está agregando. </span>
 
 1. (Opcional) Haga clic en el icono **Campos** ![Icono de Campos](assets/fields-icon.png) en la barra de herramientas, busque un campo y, a continuación, anule la selección del botón de alternancia a la derecha del nombre del campo para ocultar el campo.
 
@@ -301,11 +302,11 @@ Puede añadir hasta 500 campos (o columnas) en una vista de tabla.
    >De manera predeterminada, los campos ocultos no se muestran en el cuadro de vista previa **Detalles** del registro. Todos los campos se muestran en la página Detalles del registro. Para obtener más información, vea [Administrar el diseño de la página de registros](/help/quicksilver/planning/records/manage-the-record-page.md).
 
 
-1. Haga clic en el icono **Campos** y seleccione la opción asociada a los campos que desea mostrar en las columnas de la tabla. Todos los campos se mostrarán de forma predeterminada.
+1. Haga clic en el icono **Campos** y active la opción asociada a los campos que desee mostrar en las columnas de la tabla. Todos los campos se mostrarán de forma predeterminada.
 
 1. Haga lo siguiente para buscar rápidamente registros que coincidan con una palabra clave:
 
-   1. En el cuadro **Buscar** ![Icono de búsqueda](assets/search-icon.png), empiece a escribir una palabra clave asociada a cualquier campo de un registro que se muestra en la pantalla. El número de coincidencias correctas se mostrará junto al elemento de búsqueda y el campo con la coincidencia correcta quedará resaltado.
+   1. En el cuadro **Buscar** ![Icono de búsqueda](assets/search-icon.png), empiece a escribir una palabra clave asociada a cualquier campo de un registro que se muestra en la pantalla. El número de coincidencias correctas se mostrará junto al elemento de búsqueda y el campo con la coincidencia correcta quedará resaltado. <span class="preview">El número total de registros mostrados a la izquierda del cuadro de búsqueda se reemplaza por el número de registros encontrados en la búsqueda. La tabla se filtra para mostrar solo los elementos que coinciden con la búsqueda. </span>
 
       ![Cuadro de búsqueda con contorno azul de resultados en la vista de tabla](assets/search-box-with-results-blue-outline-g-table.png)
 
@@ -313,12 +314,10 @@ Puede añadir hasta 500 campos (o columnas) en una vista de tabla.
 
       No se pueden utilizar palabras clave asociadas a campos que estén ocultos en la vista de tabla.
 
-      <!--
-        this might change at the release of table lazy loading:
-        >[!TIP]
-        >
-        ><span class="preview">Search only works for records that are currently loaded on the page. 500 records load by default. More records load, as you scroll. </span> 
-        -->
+      >[!TIP]
+      >
+      ><span class="preview">La búsqueda rápida funciona para todos los registros, no solo para los que se muestran en la vista actual. Se cargan más registros a medida que se desplaza. </span>
+
 
    1. Pulse **Intro** en el teclado para ir al siguiente campo encontrado.
 
@@ -396,7 +395,7 @@ FROM LISA: This is the old section. I commented it out vs deleting.
 
 Las filas de una vista de tabla muestran registros individuales del tipo de registro seleccionado. Añadir filas es idéntico a crear registros.
 
-Puede tener hasta 50 000 registros (o filas) para un tipo de registro.
+Puede tener hasta 50 000 registros (o filas) para un tipo de registro. <span class="preview">De forma predeterminada, solo se muestran 500 filas. Más carga a medida que desplaza la página.</span>
 
 1. Vaya a una página de tipo de registro y seleccione una vista de tabla, o haga clic en **+ Ver** para agregar una vista nueva y, a continuación, elija **Tabla**.
 
@@ -411,6 +410,8 @@ Puede tener hasta 50 000 registros (o filas) para un tipo de registro.
    >Cuando un registro tiene comentarios sin leer, aparece el indicador **Nuevo comentario** en la esquina superior derecha del campo principal del registro.
    >
    >![Nuevo icono de comentario en la vista de tabla](assets/new-comment-icon-in-table-view-highlighted.png)
+
+   <span class="preview">El número total de registros se muestra a la izquierda del cuadro de búsqueda rápida, en la esquina superior derecha de la tabla.</span>
 
 1. (Opcional) Seleccione uno o varios registros o filas y, a continuación, arrastre y suelte el icono **controlador** ![Icono de controlador](assets/handle-icon.png) a la izquierda del registro para reordenar las filas.
 
@@ -646,7 +647,7 @@ Tenga en cuenta lo siguiente:
 
 * Es posible aplicar agrupaciones tanto en las vistas de tabla como de cronología. Las agrupaciones de la vista de tabla son independientes de las de la vista de cronología del mismo tipo de registro.
 * Se pueden aplicar 3 niveles de agrupación en una vista. Los registros se agrupan en el orden de agrupaciones que se seleccione.
-&lt;!—!—**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;*** * Puede aplicar hasta 4 niveles de agrupación al utilizar la API. —comprobando este por ahora &#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**—>
+&lt;!—!—*************** * Puede aplicar hasta 4 niveles de agrupación al utilizar la API. —comprobando este por ahora ******************—>
 * Las agrupaciones son únicas para la vista que se seleccione. Dos vistas de tabla del mismo tipo de registro pueden tener diferentes agrupaciones aplicadas. Dos usuarios que vean la misma vista de tabla verán la misma agrupación que se aplique en ese momento.
 * No se puede asignar un nombre a las agrupaciones que se generen para una vista de tabla.
 * Al quitar las agrupaciones, se quitarán de cualquier usuario que tenga acceso al mismo tipo de registro y que muestre la misma vista que usted.

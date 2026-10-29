@@ -26,10 +26,10 @@ role_v2:
 topic_v2:
   - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
     internal-label: Taxonomy
-source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
+source-git-commit: 16e4d70d45e4f312d31f3cd491754820ef0c9b9d
 workflow-type: tm+mt
-source-wordcount: '500'
-ht-degree: 36%
+source-wordcount: '538'
+ht-degree: 34%
 ---
 <!--keep the 30 connection limit in yellow till Jan 2026-->
 
@@ -77,6 +77,9 @@ En la tabla siguiente se muestran los límites de la cantidad de objetos que se 
 | Número de jerarquías en un espacio de trabajo | 5 |
 | Número de registros de un tipo de registro principal conectados a un registro de un tipo de registro secundario, dentro de una jerarquía | 10 |
 | Número de registros conectados a un registro en un tipo de conexión de selección múltiple, sin una jerarquía configurada entre los registros | 500 |
+| <span class="preview">Número de campos de búsqueda por tipo de registro</span> | 40 |
+| <span class="preview">Número de campos de búsqueda de texto largo por tipo de registro</span> | 5 |
+| <span class="preview">Número de caracteres en el valor de una sola celda de campo de búsqueda de texto largo (en la vista de tabla)</span> | 50 000 caracteres |
 
 * Recomendamos no tener demasiados espacios de trabajo, ya que podrían resultar difíciles de administrar y los flujos de trabajo podrían estar demasiado fragmentados.
 

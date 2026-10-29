@@ -28,20 +28,18 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 0bcb6ef2abbf3789339af27119422ef413cd6eef
+source-git-commit: 16e4d70d45e4f312d31f3cd491754820ef0c9b9d
 workflow-type: tm+mt
-source-wordcount: '4882'
-ht-degree: 33%
+source-wordcount: '5111'
+ht-degree: 32%
 ---
 # Administrar la vista de cronología
 
 <!--remove Production and Preview references at release-->
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">La información resaltada en esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa para todos los clientes. Después del lanzamiento en Vista previa, las mismas funciones también están disponibles mensualmente en el entorno de producción para los clientes que habilitaron lanzamientos rápidos. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+<span class="preview">Para obtener información sobre las versiones rápidas, consulte [Habilitar o deshabilitar las versiones rápidas para su organización](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{planning-important-intro}}
 
@@ -195,9 +193,10 @@ Para administrar una vista de cronología:
 
    Los registros asociados con el tipo de registro seleccionado se muestran como barras en una cronología y se ordenan automáticamente en orden cronológico de su Fecha de inicio, de forma predeterminada.
 
-   <!--
-    <span class="preview">First 500 records display by default. Additional records continue to display as you scroll the page.</span> 
-    -->
+   <span class="preview">Los primeros 1000 registros se muestran de forma predeterminada. Los registros adicionales seguirán mostrándose a medida que desplace la página, en lotes de 1000.</span>
+
+   <span class="preview">El número total de registros se muestra a la izquierda del cuadro de búsqueda rápida, en la esquina superior derecha de la tabla.</span>
+
    <!-- must check here to see if the timeline is not getting the same button at the bottom of the page that says "Load more" like the calendar view-->
 
    >[!TIP]
@@ -255,10 +254,13 @@ Para administrar una vista de cronología:
 1. (Opcional) Haga clic en **Cambiar a la vista Compacta** para mostrar los registros cuyas fechas no se cruzan en la misma línea. <!--check to see if they updated the name of the setting here-->
 1. (Condicional) Si cambió el modo a **Compacto**, haga clic en **Cambiar a la vista Estándar** para mostrar los registros en líneas separadas. La opción **Standard** es la predeterminada.  <!--check to see if they updated the name of the setting here-->
 
-
 1. Haga lo siguiente para buscar rápidamente registros que coincidan con una palabra clave:
 
-   1. Haga clic en el icono **Buscar** ![Icono de búsqueda](assets/search-icon.png) y empiece a escribir una palabra clave asociada a cualquier campo de un registro que se muestra en la pantalla. El número de coincidencias correctas se muestra junto al elemento de búsqueda y el registro con la coincidencia correcta se resalta.
+   1. Haga clic en el icono **Buscar** ![Icono de búsqueda](assets/search-icon.png) y empiece a escribir una palabra clave asociada a cualquier campo de un registro que se muestra en la pantalla.
+
+      El número de coincidencias correctas se muestra junto al elemento de búsqueda y el registro con la coincidencia correcta se resalta.
+
+      <span class="preview">El número total de registros mostrados a la izquierda del cuadro de búsqueda se reemplaza por el número de registros encontrados en la búsqueda. </span>
 
       ![Vista de cuadro de búsqueda y escala de tiempo de resultados](assets/search-box-and-results-timeline-view.png)
 
@@ -266,19 +268,15 @@ Para administrar una vista de cronología:
 
       No se pueden utilizar palabras clave asociadas a campos que no se muestran en la vista de cronología.
 
-      <!--
-        this might change at the release of table lazy loading:
-        >[!TIP]
-        >
-        ><span class="preview">Search only works for records that are currently loaded on the page. 500 records load by default. More records load, as you scroll. </span> 
-        -->
-      <!--see if additional records load after you click Load more - not sure what the functionality is here-->
+      >[!TIP]
+      >
+      ><span class="preview">La búsqueda rápida funciona para todos los registros y no solo para los que se muestran actualmente en la página. Se muestran 1000 registros de forma predeterminada. Haga clic en **Cargar más** para mostrar más registros encontrados en la búsqueda rápida. </span>
 
    1. Pulse Intro en el teclado para ir al siguiente campo encontrado.
    1. (Opcional) Si hay más de una coincidencia, haga clic en las flechas arriba y abajo situadas a la derecha de la palabra clave de búsqueda para encontrar todas las coincidencias de la tabla.
    1. Haga clic en el icono **x** en el cuadro de búsqueda para borrar la palabra clave de búsqueda.
 
-   1. (Opcional) Haga clic en el icono **Pantalla completa** ![Abrir icono de pantalla completa](assets/open-full-screen-icon.png) para abrir la vista en pantalla completa y, a continuación, en el icono **Salir de pantalla completa** ![Salir del icono de pantalla completa](assets/exit-full-screen-icon.png) o Escape del teclado para salir de la pantalla completa.
+1. (Opcional) Haga clic en el icono **Pantalla completa** ![Abrir icono de pantalla completa](assets/open-full-screen-icon.png) para abrir la vista en pantalla completa y, a continuación, en el icono **Salir de pantalla completa** ![Salir del icono de pantalla completa](assets/exit-full-screen-icon.png) o Escape del teclado para salir de la pantalla completa.
 
 1. (Opcional) Haga clic en **Desglose** para mostrar los registros conectados en la cronología.
 
@@ -523,11 +521,9 @@ Para añadir una agrupación en la vista de cronología:
    >Cuando arrastra y suelta registros de una agrupación a otra, los campos seleccionados en la agrupación actualizan automáticamente los valores de los registros movidos.
 1. (Opcional) Haga clic en **Configuración** y, a continuación, en **Color** para añadir agrupaciones con códigos de color. Para obtener más información, consulte la sección [Editar la configuración de la vista de cronología](#edit-the-timeline-view-settings) en este artículo.
 
-<!--
-1. <span class="preview">(Optional) From either the **Swimlane** or **Stacked** arrangement, grab a grouping in the timeline view and drop it in another position.</span>
+1. <span class="preview">(Opcional) Desde la disposición **Carretera de baño** o **Apilada**, coja una agrupación en la vista de cronología y suéltela en otra posición.</span>
 
-    <span class="preview">This changes the grouping order and it changes the sorting of the grouping to **Custom**. For more information, see the section [Add sort](#add-sort) in this article.</span>
--->
+   <span class="preview">Esto cambia el orden de agrupación y cambia la ordenación de la agrupación a **Personalizado**. Para obtener más información, consulte la sección [Agregar ordenación](#add-sort) en este artículo.</span>
 
 ### Agregar orden
 
@@ -557,11 +553,9 @@ Para agregar un orden en la vista de cronología:
 
    Por ejemplo, la ordenación de un campo de texto podría ser A -> Z o Z -> A.
 
-   <!--
-    >[!TIP]
-    >
-    ><span class="preview">If the timeline view has groupings and you manually rearranged the groupings' order, the direction of the sort displays as **Custom**. </span>
-    -->
+   >[!TIP]
+   >
+   ><span class="preview">Si la vista de escala de tiempo tiene agrupaciones y ha cambiado manualmente el orden de las agrupaciones, la dirección de la clasificación se mostrará como **Personalizada**. </span>
 
    La dirección en la que se aplica un orden depende del formato del campo seleccionado.
 1. (Opcional) Haga clic en **Agregar condición** para agregar un máximo de 10 condiciones.
