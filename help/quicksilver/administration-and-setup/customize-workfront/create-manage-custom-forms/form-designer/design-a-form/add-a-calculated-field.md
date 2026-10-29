@@ -30,12 +30,14 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 671c643d520235c3a5bef628cdb793ca2fffe78f
+source-git-commit: 4867969d04ee8f7317558ee0d31a1c707bdf57c0
 workflow-type: tm+mt
-source-wordcount: '2755'
-ht-degree: 70%
+source-wordcount: '2792'
+ht-degree: 69%
 ---
 # Añadir campos calculados a un formulario
+
+{{preview-fast-release-general}}
 
 <!-- Audited: 5/2025 -->
 
@@ -184,7 +186,11 @@ Para reutilizar un campo personalizado calculado existente:
       <td> <p>El formato en el que desea que se almacenen y muestren los resultados del campo.</p> <p>Si el campo se va a utilizar en cálculos matemáticos, utilice siempre un formato <strong>Número</strong> o <strong>Moneda</strong>. Si selecciona <strong>Número</strong> o <strong>Moneda</strong>, el sistema trunca automáticamente los números que comienzan por 0.</p> 
       <p><b>IMPORTANTE</b>: antes de elegir un formato, tenga en cuenta el formato correcto para el nuevo campo. El campo de formato no se puede editar después de guardar el formulario personalizado. Y seleccionar el formato incorrecto podría afectar a futuros cálculos y valores acumulados en las agrupaciones de informes y listas.</p>
       <p><strong>NOTA</strong>: los campos calculados con un formato <strong>Divisa</strong> no deben incluir comillas. (Por ejemplo, use 800,00 y no "800,00"). El uso de comillas puede tener consecuencias inesperadas debido a los matices del formato de idioma para los tipos de moneda.</p></td>
-     </tr> 
+     </tr>
+     <tr>
+      <td>Marcar como favorito</td>
+      <td><span class="preview">Seleccione esta opción para que el campo aparezca como un campo Sugerido al crear filtros, vistas y agrupaciones en listas e informes, y en la parte superior de la biblioteca de campos en el diseñador de formularios.</span></td>
+     </tr>
      <tr>
       <td>Activo</td>
       <td><p>Esta opción está habilitada de forma predeterminada.<p><p>Cuando se establece un campo como Inactivo, se excluye de los informes, los filtros y las vistas y ya no está disponible en la biblioteca de campos de formularios personalizados.</p></td>
