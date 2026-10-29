@@ -30,10 +30,10 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ba1234b2e48d9dbed57c88ccc65221c65913b43b
+source-git-commit: fdddfb692215fcd856b2a3702436aded69a7f0f6
 workflow-type: tm+mt
-source-wordcount: '2673'
-ht-degree: 3%
+source-wordcount: '2622'
+ht-degree: 4%
 ---
 # Crear un flujo de trabajo de aprobación de documentos
 
@@ -106,13 +106,9 @@ Para crear un flujo de trabajo de aprobación de una sola etapa:
    <td>Seleccione una plantilla en el menú desplegable. El menú solo enumera las plantillas que ha creado o que se han compartido con usted, ya sea específicamente o con todos los miembros de su organización. Los administradores del sistema ven todas las plantillas de la cuenta aquí, independientemente de quién las creó o compartió. Si la plantilla tiene una ruta y una fase, se aplica en modo Básico. Si la plantilla tiene más de una etapa o más de una ruta, el cuadro de diálogo cambia automáticamente al modo Avanzado y cualquier entrada introducida en el modo Básico se reemplaza por el contenido de la plantilla.</td>
    </tr>
    <tr>
-   <td><strong>Añadir nombres o correos electrónicos</strong></td>
-   <td>Empiece a escribir el nombre de un usuario o equipo que desee agregar como aprobador o revisor. Si solo tiene revisores, se les notificará y tendrán la opción de completar la revisión, pero no se requerirá ni se adoptará ninguna decisión.</td>
-   </tr>
-   <tr>
-   <td><strong><span class="preview">Agregar personas o equipos en la vista previa</span></strong></td>
-   <td><p><span class="preview">Empiece a escribir el nombre de usuario, el equipo o la dirección de correo electrónico. El equipo se añade como un solo aprobador o revisión de forma predeterminada, pero puede elegir añadir a cada miembro del equipo como un participante individual.</span></p>
-   <p><span class="preview">Nota: Si ya se ha agregado un usuario o pertenece a más de un equipo, se incluirá una vez.</span></p></td>
+   <td><strong>Añadir personas o equipos</strong></td>
+   <td><p>Empiece a escribir el nombre de usuario, el equipo o la dirección de correo electrónico. El equipo se añade como un solo aprobador o revisión de forma predeterminada, pero puede elegir añadir a cada miembro del equipo como un participante individual.</p>
+   <p>Nota: Si ya se ha agregado un usuario o pertenece a más de un equipo, se incluirá una vez.</p></td>
    </tr>
    <tr>
    <td><strong>Solo se requiere una decisión (opcional)</strong></td>
@@ -176,7 +172,7 @@ Para crear un flujo de trabajo de aprobación avanzado:
    <td>Las fases se denominan <em>Fase 1</em>, <em>Fase 2</em>, etc. de forma predeterminada. Cambie el nombre del escenario por otro más descriptivo, como <em>Revisión inicial</em> o <em>Aprobación final</em>.</td>
    </tr>
    <tr>
-   <td><strong>Agregar personas o equipos en la vista previa</strong></td>
+   <td><strong>Añadir personas o equipos</strong></td>
    <td><p>Empiece a escribir el nombre de usuario, el equipo o la dirección de correo electrónico. El equipo se añade como un solo aprobador o revisión de forma predeterminada, pero puede elegir añadir a cada miembro del equipo como un participante individual.</p>
    <p>Nota: Si ya se ha agregado un usuario o pertenece a más de un equipo, se incluirá una vez. Además, los participantes solo pueden asignarse a una fase abierta a la vez en el mismo recurso.</p></td>
    </tr>
@@ -200,12 +196,7 @@ Para crear un flujo de trabajo de aprobación avanzado:
 
 1. (Opcional) Para quitar una ruta, pase el ratón sobre la etiqueta de la ruta y haga clic en el icono de papelera. **La ruta de acceso 1** no se puede quitar y las rutas de acceso no se pueden reordenar. Otras rutas solo se pueden eliminar si no se ha bloqueado ni completado ninguna etapa dentro de la ruta.
 
-   ![Modo avanzado con rutas paralelas](assets/request-approval-parallel-paths.jpeg)
-
-<!--
-preview screen
-![Advanced mode with parallel paths](assets/parallel-path-v2.png)
--->
+   ![Modo avanzado con rutas paralelas](assets/parallel-path-v2.png)
 
 1. (Opcional) Para borrar todas las rutas y etapas y volver a empezar, haga clic en **Restablecer** en la parte superior derecha.
 
@@ -238,7 +229,7 @@ Para crear un flujo de trabajo de aprobación de una sola etapa:
    <td>El campo de plantillas está contraído de forma predeterminada. Haga clic en el campo para expandirlo y, a continuación, seleccione una plantilla en el menú desplegable. El menú solo enumera las plantillas que ha creado o que se han compartido con usted, ya sea específicamente o con todos los miembros de su organización. Los administradores del sistema ven todas las plantillas de la cuenta aquí, independientemente de quién las creó o compartió. Si la plantilla tiene una ruta y una fase, se aplica en modo Básico. Si la plantilla tiene más de una etapa o más de una ruta, el cuadro de diálogo cambia automáticamente al modo Avanzado y cualquier entrada introducida en el modo Básico se reemplaza por el contenido de la plantilla.</td>
    </tr>
    <tr>
-   <td><strong>Agregar personas o equipos en la vista previa</strong></td>
+   <td><strong>Añadir personas o equipos</strong></td>
    <td><p>Empiece a escribir el nombre de usuario, el equipo o la dirección de correo electrónico y, a continuación, elija si es un <strong>aprobador</strong> o <strong>revisor</strong>. Workfront agrega cada miembro activo de un equipo individualmente.</p>
    <p>Nota: Si ya se ha agregado un usuario o pertenece a más de un equipo, se incluirá una vez.</p></td>
    </tr>
@@ -258,11 +249,10 @@ Para crear un flujo de trabajo de aprobación de una sola etapa:
 
 1. Haga clic en **Solicitar aprobación**.
 
-   ![Solicitar aprobación en modo Básico](assets/request-approval-basic.jpeg)
+   ![Solicitar aprobación en modo Básico](assets/request-approval-basic-v2.png)
 
-<!--
-preview screen![Request approval in Basic mode](assets/request-approval-basic-v2.png)
--->
+
+
 
 
 
@@ -310,7 +300,7 @@ Para crear un flujo de trabajo de aprobación avanzado:
    <td>Las fases se denominan <em>Fase 1</em>, <em>Fase 2</em>, etc. de forma predeterminada. Cambie el nombre del escenario por otro más descriptivo, como <em>Revisión inicial</em> o <em>Aprobación final</em>.</td>
    </tr>
    <tr>
-   <td><strong>Agregar personas o equipos en la vista previa</strong></td>
+   <td><strong>Añadir personas o equipos</strong></td>
    <td><p>Empiece a escribir el nombre de usuario, el equipo o la dirección de correo electrónico y, a continuación, elija si es un <strong>aprobador</strong> o <strong>revisor</strong>. Workfront agrega cada miembro activo de un equipo individualmente.</p>
    <p>Nota: Si ya se ha agregado un usuario o pertenece a más de un equipo, se incluirá una vez. Además, los participantes solo pueden asignarse a una fase abierta a la vez en el mismo recurso.</p></td>
    </tr>
@@ -335,12 +325,11 @@ Para crear un flujo de trabajo de aprobación avanzado:
 
 1. (Opcional) Para quitar una ruta, pase el ratón sobre la etiqueta de la ruta y haga clic en el icono de papelera. **La ruta de acceso 1** no se puede quitar y las rutas de acceso no se pueden reordenar. Otras rutas solo se pueden eliminar si no se ha bloqueado ni completado ninguna etapa dentro de la ruta.
 
-   ![Modo avanzado con rutas paralelas](assets/request-approval-advanced.jpeg)
+   ![Modo avanzado con rutas paralelas](assets/parallel-path-v2.png)
 
-<!--
-preview screen
-![Advanced mode with parallel paths](assets/parallel-path-v2.png)
--->
+
+
+
 
 1. (Opcional) Para borrar todas las rutas y etapas y volver a empezar, haga clic en **Restablecer** en la parte superior derecha.
 
