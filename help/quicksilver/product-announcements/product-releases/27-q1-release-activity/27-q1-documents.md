@@ -4,9 +4,9 @@ description: Mejoras en los documentos del primer trimestre de 2027
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: cb4679716489be235d72b67aa660c6cb71536f04
+source-git-commit: 3357df4d9805b7a8252a79b070295a0b55a2cd42
 workflow-type: tm+mt
-source-wordcount: '211'
+source-wordcount: '204'
 ht-degree: 11%
 ---
 
@@ -36,11 +36,19 @@ For more information, see [Delegate approval request](/help/quicksilver/review-a
 
 ## Configurar notificaciones unificadas por correo electrónico de revisión y aprobación
 
+>[!IMPORTANT]
+>
+>Esta función no está disponible temporalmente en el entorno de vista previa.
+
+
+<!--
 >[!NOTE]
 >
->Vista previa: 29 de octubre de 2026
->Versión rápida de producción: 12 de noviembre de 2026
->Producción para todos: 21 de enero de 2027
+>Preview: October 29, 2026
+>Production fast release: November 12, 2026
+>Production for everyone: January 21, 2027
+
+-->
 
 Ahora puede configurar notificaciones de correo electrónico de revisión y aprobación unificadas. Workfront siempre ha enviado estos correos electrónicos, pero hasta ahora no se podían configurar. Ahora hay 18 notificaciones agrupadas como Aprobaciones unificadas y activas de forma predeterminada. Los administradores de Workfront pueden activarlos o desactivarlos para todos los usuarios en la configuración y los usuarios pueden administrarlos en sus perfiles.
 
