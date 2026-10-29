@@ -28,10 +28,10 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: d4a62afa30eb4727619e64ea2a98e639891a29af
 workflow-type: tm+mt
-source-wordcount: '940'
-ht-degree: 12%
+source-wordcount: '1117'
+ht-degree: 10%
 ---
 # Asignar usuarios a una plantilla de diseño
 
@@ -104,17 +104,28 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
 
 ## Prioridad de asignación de plantilla de diseño {#layout-template-assignment-priority}
 
-Usted y otros administradores de Workfront pueden asignar varias plantillas de diseño diferentes al mismo usuario de las cuatro formas siguientes:
+Usted y otros administradores de Workfront pueden asignar varias plantillas de diseño diferentes al mismo usuario de las siguientes maneras:
 
 * Para el usuario individual
 * A un rol particular que el usuario tiene
 * Para un equipo determinado el usuario está en
 * Para un grupo determinado en el que se encuentra el usuario
 * A un determinado nivel de acceso se asigna al usuario
+* A un perfil empresarial asignado al usuario
 
 Sin embargo, solo una plantilla de diseño es visible para el usuario en un momento determinado. La plantilla visible viene determinada por la siguiente jerarquía de prioridades:
 
-* **Usuario individual**: la plantilla de diseño asignada a la persona como usuario individual anula a todos los demás. Puede anular una asignación anterior realizada para un usuario individual realizando una nueva asignación; la más reciente tiene prioridad.
+* **Perfil empresarial**: los perfiles empresariales representan el nivel más alto de prioridad para una plantilla de diseño. Si el usuario tiene un perfil de negocio con plantillas de diseño asignadas a los niveles de acceso y se encuentra en una página específica del grupo (como un proyecto asociado a un grupo), todas las plantillas de diseño de perfil de negocio de ese grupo se combinarán con la plantilla de diseño asignada al usuario. Cuando el usuario no se encuentra en una página específica del grupo, todas las plantillas de diseño del perfil empresarial se combinan con la plantilla de diseño asignada al usuario.
+
+  Cuando se combinan plantillas de diseño para varios perfiles empresariales y niveles de acceso, se muestran todos los elementos de diseño disponibles. Si un elemento de menú se muestra en una plantilla pero está oculto en otra, se muestra. Solo se ocultan los elementos que están ocultos en todas las plantillas del perfil empresarial.
+
+  >[!NOTE]
+  >
+  >Los perfiles de negocio solo están disponibles para las organizaciones que tienen un paquete de Workflow Ultimate.
+
+  Para obtener más información, consulte [Resumen de perfiles de negocio](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/business-profiles.md)
+
+* **Usuario individual**: la plantilla de diseño asignada a la persona como usuario individual reemplaza a todas las demás, excepto a las plantillas de diseño que provienen de un perfil empresarial. Puede anular una asignación anterior realizada a un usuario individual realizando una nueva asignación; la más reciente tiene prioridad.
 * **Rol principal**: si a la persona no se le asigna una plantilla de diseño como usuario único, verá la plantilla asignada para su rol principal.
 
   El usuario solo puede ver la plantilla de diseño asignada a la función de trabajo principal de un usuario. Las plantillas asignadas a cualquier puesto secundario que tenga el usuario no son visibles.
@@ -127,7 +138,7 @@ Sin embargo, solo una plantilla de diseño es visible para el usuario en un mome
 
   El usuario solo puede ver la plantilla asignada al grupo de inicio de un usuario. Las plantillas asignadas a cualquiera de sus otros grupos no son visibles.
 
-* Nivel de acceso: si a la persona no se le asigna una plantilla de diseño como usuario individual, como usuario con una función de trabajo principal, como miembro de un equipo de inicio o como miembro de un grupo de inicio, verá la plantilla asignada a su nivel de acceso.
+* **Nivel de acceso**: si a la persona no se le asigna una plantilla de diseño como usuario individual, como usuario con una función de trabajo principal, como miembro de un equipo de inicio o como miembro de un grupo de inicio, verá la plantilla asignada a su nivel de acceso.
 
 ## Gran cantidad de usuarios asignados a una plantilla de diseño
 
