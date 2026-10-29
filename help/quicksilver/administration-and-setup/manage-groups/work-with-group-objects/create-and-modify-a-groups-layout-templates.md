@@ -26,10 +26,10 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 198d06b55407ebff9f5454ce75eb776601a51dbf
 workflow-type: tm+mt
-source-wordcount: '361'
-ht-degree: 72%
+source-wordcount: '377'
+ht-degree: 68%
 ---
 # Crear y modificar las plantillas de diseño de un grupo
 
@@ -88,9 +88,12 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
 
      Para obtener información sobre la copia de una plantilla de diseño para crear una nueva, consulte [Copiar una plantilla de diseño](../../../administration-and-setup/customize-workfront/use-layout-templates/copy-a-layout-template.md).
 
+     Para obtener información acerca de la barra de acciones y otras características de las listas mejoradas, vea [Usar listas mejoradas](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
+
    * Para editar una plantilla de diseño de grupo existente, selecciónela y haga clic en el icono **Editar** ![Editar icono](assets/edit-icon.png).
 
      Para obtener información sobre la edición de una plantilla de diseño, consulte [Crear y administrar plantillas de diseño](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
 
    * Para eliminar una o más plantillas de diseño, selecciónelas y haga clic en el icono **Eliminar** ![Eliminar icono](assets/delete.png).
    * Para exportar la lista de plantillas de diseño, haga clic en el icono **Exportar** ![Icono Exportar](assets/export-icon.png).
+

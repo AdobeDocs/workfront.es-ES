@@ -23,12 +23,14 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: c001918f8b5d59acee1211a5a655ac8b1a478744
 workflow-type: tm+mt
-source-wordcount: '304'
-ht-degree: 95%
+source-wordcount: '337'
+ht-degree: 78%
 ---
 # Copiar una plantilla de diseño
+
+{{preview-fast-release-general}}
 
 <!--Audited: 09/2024-->
 
@@ -74,12 +76,14 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
 
 1. En el panel izquierdo, haga clic en **Interfaz** > **Plantillas de diseño**.
 
-1. Haga clic en el nombre de la plantilla de diseño que desea modificar.
-1. Haga clic en el icono **Copiar** ![Copiar icono](assets/copy-icon.png).
+1. Seleccione la casilla de verificación situada junto a la plantilla de diseño que desee modificar.
+1. Haga clic en el icono **Copiar** ![Copiar icono](assets/copy-icon.png), <span class="preview">o haga clic en **Copiar** en la barra de acciones de la parte inferior de la pantalla.</span>
 
    Todas las configuraciones, excepto el nombre, la descripción y las asignaciones de usuario de la plantilla de diseño existente, se copian en la nueva plantilla.
 
-1. En la pantalla que aparece, escriba un nuevo **Nombre de plantilla de diseño** y (opcional) una **Descripción** para él.
+   Para obtener información acerca de la barra de acciones y otras características de las listas mejoradas, vea [Usar listas mejoradas](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
+
+1. En la pantalla que aparece, escriba un nuevo **nombre de plantilla de diseño** y (opcional) una **descripción** para él.
 
 1. Asigne la plantilla a los usuarios que la necesitan, tal como se describe en [Asignar usuarios a una plantilla de diseño](../../../administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md).
 1. (Opcional) Personalice la plantilla, tal como se describe en los siguientes artículos:
@@ -92,3 +96,6 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
    * [Personalizar la página de destino con una plantilla de diseño](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-landing-page.md)
    * [Personalizar filtros, vistas y agrupaciones con una plantilla de diseño](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
    * [Personalizar la terminología de la interfaz de usuario con una plantilla de diseño](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-terminology.md)
+
+1. Haga clic en **Crear**.
+

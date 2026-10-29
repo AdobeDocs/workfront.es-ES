@@ -34,12 +34,14 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4ac506e9ab5af397523fe4fda10cafaeb858ce37
+source-git-commit: 4867969d04ee8f7317558ee0d31a1c707bdf57c0
 workflow-type: tm+mt
-source-wordcount: '8130'
-ht-degree: 75%
+source-wordcount: '8508'
+ht-degree: 72%
 ---
 # Crear un formulario personalizado
+
+{{preview-fast-release-general}}
 
 <!-- Audited: 6/2025 -->
 
@@ -141,6 +143,11 @@ Los formularios personalizados están limitados a 500 campos. Un contador situad
 ### Reutilizar un campo o widget existente ya utilizado en otro formulario personalizado
 
 1. En la parte superior izquierda de la pantalla, haga clic en **Biblioteca de campos**.
+1. Busque el campo que desee añadir al formulario.
+
+   >[!TIP]
+   >
+   ><span class="preview">Los campos marcados como favoritos aparecen en la sección **Sugeridos** de la parte superior de la biblioteca de campos.</span>
 
 1. Arrastre y suelte el campo o widget deseado en el lienzo. Repita este paso para añadir otros campos o widgets.
 
@@ -332,6 +339,15 @@ Para añadir un campo de texto:
     <td><ul><li>Texto descriptivo</li></ul></td>
     </tr>
     <tr>
+     <td>Marcar como favorito</td>
+     <td><p><span class="preview">Seleccione esta opción para que el campo aparezca como un campo Sugerido al crear filtros, vistas y agrupaciones en listas e informes, y en la parte superior de la biblioteca de campos en el diseñador de formularios.</span></td>
+     <td><ul>
+     <li>Texto de línea única</li>
+     <li>Párrafo</li>
+     <li>Texto enriquecido</li>
+     <li>Texto descriptivo</li></ul></td>
+    </tr>
+    <tr>
      <td>Activo</td>
      <td><p>Esta opción está habilitada de forma predeterminada.<p><p>Cuando se establece un campo como Inactivo, se excluye de los informes, los filtros y las vistas y ya no está disponible en la biblioteca de campos de formularios personalizados.</p></td>
      <td><ul>
@@ -511,6 +527,15 @@ Para añadir botones de opción, grupos de casillas de verificación y menús de
     <li>Menú desplegable de selección múltiple</span></li>
     </ul>
     </td>
+    </tr>
+    <tr>
+     <td>Marcar como favorito</td>
+     <td><span class="preview">Seleccione esta opción para que el campo aparezca como un campo Sugerido al crear filtros, vistas y agrupaciones en listas e informes, y en la parte superior de la biblioteca de campos en el diseñador de formularios.</span></td>
+     <td><ul>
+     <li>Botones de opción</li>
+     <li>Grupo de casillas de verificación</li>
+     <li>Menú desplegable de selección única</li>
+     <li>Menú desplegable de selección múltiple</li></ul></td>
     </tr> 
     <tr>
      <td>Activo</td>
@@ -754,6 +779,10 @@ Para agregar campos de fecha:
       <td><p>Seleccione esta opción si desea mostrar la hora del día junto con la fecha en el campo.</p></td>
      </tr> 
      <tr>
+      <td>Marcar como favorito</td>
+      <td><span class="preview">Seleccione esta opción para que el campo aparezca como un campo Sugerido al crear filtros, vistas y agrupaciones en listas e informes, y en la parte superior de la biblioteca de campos en el diseñador de formularios.</span></td>
+     </tr>
+     <tr>
       <td>Activo</td>
       <td><p>Esta opción está habilitada de forma predeterminada.<p><p>Cuando se establece un campo como Inactivo, se excluye de los informes, los filtros y las vistas y ya no está disponible en la biblioteca de campos de formularios personalizados.</p></td>
      </tr>
@@ -870,6 +899,10 @@ Para añadir una búsqueda externa, haga lo siguiente:
       <td><p>Seleccione esta opción para permitir que el usuario seleccione más de un valor en la lista desplegable.</p></td>
      </tr>
      <tr>
+      <td>Marcar como favorito</td>
+      <td><span class="preview">Seleccione esta opción para que el campo aparezca como un campo Sugerido al crear filtros, vistas y agrupaciones en listas e informes, y en la parte superior de la biblioteca de campos en el diseñador de formularios.</span></td>
+     </tr>
+     <tr>
       <td>Activo</td>
       <td><p>Esta opción está habilitada de forma predeterminada.<p><p>Cuando se establece un campo como Inactivo, se excluye de los informes, los filtros y las vistas y ya no está disponible en la biblioteca de campos de formularios personalizados.</p></td>
      </tr>
@@ -971,6 +1004,10 @@ Para agregar una búsqueda interna:
       <td><p>Seleccione esta opción para permitir que el usuario seleccione más de un valor en la lista desplegable.</p></td>
      </tr>
      <tr>
+      <td>Marcar como favorito</td>
+      <td><span class="preview">Seleccione esta opción para que el campo aparezca como un campo Sugerido al crear filtros, vistas y agrupaciones en listas e informes, y en la parte superior de la biblioteca de campos en el diseñador de formularios.</span></td>
+     </tr>
+     <tr>
       <td>Activo</td>
       <td><p>Esta opción está habilitada de forma predeterminada.<p><p>Cuando se establece un campo como Inactivo, se excluye de los informes, los filtros y las vistas y ya no está disponible en la biblioteca de campos de formularios personalizados.</p></td>
      </tr>
@@ -1054,7 +1091,11 @@ Para añadir imágenes, PDF o vídeos:
      <tr> 
       <td role="rowheader">Instrucciones</td> 
       <td> <p>Escriba cualquier información adicional sobre el widget. Cuando los usuarios rellenan el formulario personalizado, pueden pasar el puntero por encima del icono del signo de interrogación para ver una ayuda contextual que contiene la información que escriba aquí.</p> </td> 
-     </tr> 
+     </tr>
+     <tr>
+      <td>Marcar como favorito</td>
+      <td><span class="preview">Seleccione esta opción para que el campo aparezca como un campo Sugerido al crear filtros, vistas y agrupaciones en listas e informes, y en la parte superior de la biblioteca de campos en el diseñador de formularios.</span></td>
+     </tr>
      <tr>
       <td>Activo</td>
       <td><p>Esta opción está habilitada de forma predeterminada.<p><p>Cuando se establece un campo como Inactivo, se excluye de los informes, los filtros y las vistas y ya no está disponible en la biblioteca de campos de formularios personalizados.</p></td>
@@ -1218,6 +1259,10 @@ Staffing Plan Resource: Total Estimated Cost, Total Estimated Revenue fields
       <td>
      </tr>
      <tr>
+      <td>Marcar como favorito</td>
+      <td><span class="preview">Seleccione esta opción para que el campo aparezca como un campo Sugerido al crear filtros, vistas y agrupaciones en listas e informes, y en la parte superior de la biblioteca de campos en el diseñador de formularios.</span></td>
+     </tr>
+     <tr>
       <td>Activo</td>
       <td><p>Esta opción está habilitada de forma predeterminada.<p><p>Cuando se establece un campo como Inactivo, se excluye de los informes, los filtros y las vistas y ya no está disponible en la biblioteca de campos de formularios personalizados.</p></td>
      </tr>
@@ -1273,6 +1318,10 @@ Para añadir un archivo Adobe XD:
       <td role="rowheader">Instrucciones</td> 
       <td> <p>Escriba cualquier información adicional sobre el widget. Cuando los usuarios rellenan el formulario personalizado, pueden pasar el puntero por encima del icono del signo de interrogación para ver una ayuda contextual que contiene la información que escriba aquí.
     <img src="assets/instructions-form-designer.png"></p> </td> 
+     </tr>
+     <tr>
+      <td>Marcar como favorito</td>
+      <td><span class="preview">Seleccione esta opción para que el campo aparezca como un campo Sugerido al crear filtros, vistas y agrupaciones en listas e informes, y en la parte superior de la biblioteca de campos en el diseñador de formularios.</span></td>
      </tr>
      <tr>
       <td>Activo</td>
@@ -1369,6 +1418,10 @@ Para añadir un campo de conexión de Planificación, haga lo siguiente:
       <td role="rowheader">Campos de tipo de registro</td> 
       <td><p>(Opcional) Seleccione hasta siete campos de búsqueda del tipo de registro conectado para mostrarlos en el formulario personalizado. El campo principal está seleccionado de forma predeterminada y no se puede editar. </p> <p> Los campos del registro conectado que seleccione se muestran en una vista de tabla del formulario personalizado. Cuando el formulario se adjunta a un objeto de Workfront, la vista de tabla es de solo lectura. </p>  
     <img src="assets/planning-connections-field-with-table-on-form-preview.png"></td> 
+     </tr>
+     <tr>
+      <td>Marcar como favorito</td>
+      <td><span class="preview">Seleccione esta opción para que el campo aparezca como un campo Sugerido al crear filtros, vistas y agrupaciones en listas e informes, y en la parte superior de la biblioteca de campos en el diseñador de formularios.</span></td>
      </tr>
      <tr>
       <td>Activo</td>

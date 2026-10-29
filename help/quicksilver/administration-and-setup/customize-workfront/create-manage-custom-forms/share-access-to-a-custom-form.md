@@ -26,12 +26,14 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ecee8b1aadd804a45ff0830e04e77981a3269cff
+source-git-commit: 7e4bfe51c25672d2695573786b1192709ba8f4da
 workflow-type: tm+mt
-source-wordcount: '967'
-ht-degree: 47%
+source-wordcount: '987'
+ht-degree: 46%
 ---
 # Compartir un formulario personalizado
+
+{{preview-fast-release-general}}
 
 Puede configurar el acceso para un formulario personalizado con el fin de controlar quién (persona, función, grupo, equipo, empresa, perfil empresarial) puede verlo, compartirlo y editarlo.
 
@@ -108,7 +110,8 @@ En lugar de dejar un formulario personalizado en el estado de uso compartido pre
       <td> <p>Esta opción solo está disponible para usuarios con una licencia estándar o de planificación. </p> <p>Además de poder añadir el formulario a los objetos a los que tienen acceso para editarlo, los usuarios también pueden editar completamente el formulario personalizado, lo que incluye la adición, edición y eliminación de campos.</p> <p>Haga clic en <strong>Ajustes avanzados</strong> para especificar si desea permitir lo siguiente:</p> 
        <ul> 
         <li> <p><strong>Adjuntar a datos personalizados</strong>: capacidad para adjuntar el formulario personalizado a proyectos, tareas y problemas para los que tienen acceso de administración</p> </li> 
-        <li><strong>Eliminar</strong>: elimina el formulario personalizado del sistema</li> 
+        <li><strong>Eliminar</strong>: elimina el formulario personalizado del sistema</li>
+        <li> <p><span class="preview"><strong>Quitar datos personalizados</strong>: capacidad para quitar el formulario personalizado de los proyectos, tareas y problemas para los que tienen acceso de administración</span></p> </li> 
         <li><strong>Compartir</strong>: comparte el formulario personalizado con otros usuarios del sistema</li> 
        </ul> </td> 
      </tr> 

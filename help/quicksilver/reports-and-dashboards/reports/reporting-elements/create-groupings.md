@@ -28,12 +28,14 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 4867969d04ee8f7317558ee0d31a1c707bdf57c0
 workflow-type: tm+mt
-source-wordcount: '447'
-ht-degree: 91%
+source-wordcount: '464'
+ht-degree: 88%
 ---
 # Creación de agrupaciones en Adobe Workfront
+
+{{preview-fast-release-general}}
 
 <!-- Audited: 11/2024 -->
 
@@ -92,6 +94,11 @@ Generador de interfaces para crear los lanzamientos de agrupación.
 1. En el área **Vista previa de la agrupación**, haga clic en **Agregar agrupación** para definir cómo desea que se organice la información del informe. A continuación, se muestra una vista previa del aspecto de la agrupación en el informe.
 
 1. Empiece a escribir el nombre del campo que representa la forma en que desea organizar la información en el informe y, a continuación, haga clic en él cuando aparezca en la lista desplegable.
+
+   >[!TIP]
+   >
+   ><span class="preview">Los campos personalizados marcados como favoritos aparecen en la sección **Sugeridos** de la parte superior de los resultados de búsqueda.</span>
+
 1. (Opcional y condicional) Cuando genere una agrupación en una lista actualizada, seleccione **Contraer esta agrupación de forma predeterminada** si desea que los resultados de la agrupación se muestren contraídos en lugar de expandidos. Esta configuración está deshabilitada de forma predeterminada y los resultados de la agrupación siempre se muestran en la lista expandida.
 
    Para obtener información acerca de listas actualizadas y heredadas, consulte la sección [Diferencia entre las listas actualizadas y heredadas](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md#updated) en el artículo [Introducción a las listas en Adobe Workfront](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).

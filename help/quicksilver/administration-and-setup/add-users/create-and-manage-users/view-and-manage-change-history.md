@@ -15,10 +15,10 @@ feature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: a41c8c19f14058571c027da1dc49041b060e4b65
+source-git-commit: 735544e2ce8702d03532a979ea8e31a7a0296d73
 workflow-type: tm+mt
-source-wordcount: '523'
-ht-degree: 6%
+source-wordcount: '545'
+ht-degree: 5%
 ---
 # Ver y administrar el historial de cambios
 
@@ -30,6 +30,7 @@ El historial de cambios puede rastrear los siguientes tipos de datos definidos:
 * Actualizaciones de nivel de campo, como editar una descripción de proyecto o cambiar la plantilla de diseño de un usuario
 * Actualizaciones de objetos, como actualizar el estado de un proyecto o adjuntar un formulario personalizado a una tarea
 * Actividad de flujo de trabajo de revisión y aprobación unificadas, que incluye participantes y decisiones
+* Actividad de paneles de lienzo, como quién creó, actualizó o eliminó un panel o informe, cuándo se realizaron las actualizaciones y qué cambió
 
 Para obtener información sobre cómo definir qué objetos y campos se rastrean, vea [Configurar campos para rastrearlos en el historial de cambios](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/configure-fields-in-change-history.md).
 

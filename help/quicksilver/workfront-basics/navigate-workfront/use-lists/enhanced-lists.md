@@ -25,12 +25,14 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 310f706e34a2b23007216361e8355637db4ccd73
+source-git-commit: b9fd74c50d2d5d47514cb4f6b1893c5b2be9b404
 workflow-type: tm+mt
-source-wordcount: '3345'
+source-wordcount: '3388'
 ht-degree: 2%
 ---
 # Uso de listas mejoradas
+
+{{preview-fast-release-general}}
 
 Las listas mejoradas están disponibles en algunas áreas de Adobe Workfront. Estas listas utilizan un formato de tabla para mostrar los elementos de la lista, y tienen un aspecto diferente al de las listas estándar. También se mejora la administración de vistas, incluidos el filtrado, la agrupación, la administración de columnas y la búsqueda.
 
@@ -77,14 +79,16 @@ A continuación se muestran algunos tipos de listas de objetos de Workfront que 
 | --- | --- |
 | Prioridades | <ul><li>Inicio > seleccione el icono Prioridades en el menú de la izquierda</li><li>Menú principal > Prioridades</li></ul> |
 | Lista de solicitudes | <ul><li>Menú principal > Solicitudes (solo nueva experiencia)</li><li>Widget de Mis solicitudes en Inicio</li></ul> |
-| Listas de estados, prioridades, gravedades, <span class="preview">condiciones</span> y tasas de cambio en Configuración | <ul><li>Configuración > Preferencias de proyecto > Estados</li><li>Configuración > Preferencias del proyecto > Prioridades</li><li>Configuración > Preferencias del proyecto > Gravedades</li><li><span class="preview">Configuración > Preferencias de proyecto > Condiciones</span></li><li>Configuración > Preferencias del proyecto > Tasas de cambio</li></ul> |
-| <span class="preview">Listas de acciones y campos rastreados en las fuentes de actualización</span> | <ul><li><span class="preview">Configuración > Interfaz > Actualizar fuentes > Pestaña Campos rastreados</span></li> <li><span class="preview">Configuración > Interfaz > Actualizar fuentes > pestaña Acciones</span></li></ul> |
-| <span class="preview">Lista de cuadros de resultados</span> | <span class="preview">Configuración > Cuadros de resultados</span> |
-| <span class="preview">Lista de tipos de riesgos</span> | <span class="preview">Configuración > Tipos de riesgos</span> |
+| Listas de estados, prioridades, gravedades, condiciones y tipos de cambio en Configuración | <ul><li>Configuración > Preferencias de proyecto > Estados</li><li>Configuración > Preferencias del proyecto > Prioridades</li><li>Configuración > Preferencias del proyecto > Gravedades</li><li>Configuración > Preferencias del proyecto > Condiciones</li><li>Configuración > Preferencias del proyecto > Tasas de cambio</li></ul> |
+| Listas de acciones y campos rastreados en las fuentes de actualización | <ul><li>Pestaña Configuración > Interfaz > Actualizar fuentes > Campos rastreados</li> <li>Pestaña Configuración > Interfaz > Actualizar fuentes > Acciones</li></ul> |
+| Lista de cuadros de resultados | Configuración > Cuadros de resultados |
+| Lista de tipos de riesgos | Configuración > Tipos de riesgos |
 | Lista de funciones y tarifas del puesto en una tarjeta de tarifas | Configuración > Tarjetas de tarifas > seleccione una tarjeta de tarifas > Funciones del puesto y tarifas |
 | Lista de ubicaciones | Configuración > Ubicaciones |
 | Lista de traducciones | Configuración > Localización |
 | Listas de integraciones | <ul><li>Configuración > Documentos > Integración de SharePoint</li><li>Configuración > Documentos > Integración personalizada</li><li>Configuración > Documentos > Experience Manager Assets</li></ul> |
+| <span class="preview">Lista de plantillas de diseño</span> | <span class="preview">Configuración > Interfaz > Plantillas de diseño</span> |
+| <span class="preview">Lista de notificaciones de eventos</span> | <ul><li><span class="preview">Configuración > Correo electrónico > Notificaciones > Notificaciones de eventos</span></li><li><span class="preview">Página de detalles del grupo > Notificaciones de eventos</span></li></ul> |
 | Lista de informes | Menú principal > Informes (**Usar carpetas que se pueden compartir** debe estar activado) |
 | Listas de temas de colas, grupos de temas y reglas de enrutamiento | <ul><li>Proyecto o plantilla > Temas de cola</li><li>Proyecto o plantilla > Grupos de temas</li><li>Proyecto o plantilla > Reglas de enrutamiento</li></ul> |
 | Lista de instantáneas | Proyecto > Instantáneas |
@@ -99,10 +103,7 @@ A continuación se muestran algunos tipos de listas de objetos de Workfront que 
 
 <!--
 
-Under integrations?
 | <span class="preview">List of layout templates</span> | <ul><li><span class="preview">Setup > Interface > Layout Templates</span></li><li><span class="preview">Group Detail page > Layout Templates</span></li></ul> |
-
-| <span class="preview">List of event notifications</span> | <ul><li><span class="preview">Setup > Email > Notifications > Event Notifications</span></li><li><span class="preview">Group Detail page > Event Notifications</span></li></ul> |
 
 Under Locations?
 | <span class="preview">Lists of timesheet profiles and hour types</span> | <span class="preview"><ul><li>Setup > Timesheets and Hours > Timesheet Profiles</li><li>Setup > Timesheets and Hours > Hour Types</li></ul></span> |
@@ -470,14 +471,18 @@ Workfront proporciona un número limitado de agrupaciones predefinidas y no pued
 
    ![Seleccionar una agrupación](assets/glist-grouping-choose-a-group-by.png)
 
-1. Haga clic en **Contraer todo** para mostrar la lista con todas las agrupaciones contraídas. La opción predeterminada es mostrar la lista con todas las agrupaciones expandidas.
+1. Haga clic en **Contraer todo** para mostrar la lista con todas las agrupaciones contraídas. La opción predeterminada es mostrar la lista con todas las agrupaciones expandidas.<!--Delete this line at January release-->
 1. Cuando se aplique la agrupación, puede volver a abrir las opciones de Agrupación para contraer o expandir todas las agrupaciones a la vez, cambiar la agrupación para agruparla por un campo diferente o borrar todas las agrupaciones.
 
-   ![Agrupación en listas mejoradas](assets/glist-group-by-due-date-priorities.png)
+   ![Agrupación en listas mejoradas](assets/glist-group-by-due-date-priorities.png)<!--Swap this out at January release to not show the collapse all button-->
 
    Aparece un indicador en el botón **Agrupación** cuando se aplica una agrupación a la lista.
 
    ![Indicador aplicado de agrupación](assets/glist-grouping-applied-indicator.png)
+
+   <span class="preview">Para contraer o expandir todas las agrupaciones de la lista, haga clic en la flecha situada junto al encabezado de la primera columna.</span>
+
+   <span class="preview">![Contraer todas las agrupaciones](assets/collapse-expand-all-groupings.png)</span>
 
 ### Ordenar en una lista mejorada
 

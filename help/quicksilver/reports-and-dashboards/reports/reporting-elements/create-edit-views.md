@@ -25,12 +25,14 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 4867969d04ee8f7317558ee0d31a1c707bdf57c0
 workflow-type: tm+mt
-source-wordcount: '891'
-ht-degree: 64%
+source-wordcount: '908'
+ht-degree: 63%
 ---
 # Creación o edición de vistas en Adobe Workfront
+
+{{preview-fast-release-general}}
 
 <!-- Audited: 11/2024 -->
 
@@ -94,6 +96,11 @@ Se muestra el cuadro de diálogo **Personalizar vista**.
 
    * Modifique el valor de cualquier columna haciendo clic en el título de la columna y seleccionando un nuevo campo.
    * Añada una columna haciendo clic en **Añadir columna**, empiece a escribir el nombre de la columna que desea añadir y, a continuación, haga clic en ella cuando aparezca en la lista desplegable.
+
+   >[!TIP]
+   >
+   ><span class="preview">Los campos personalizados marcados como favoritos aparecen en la sección **Sugeridos** de la parte superior de los resultados de búsqueda.</span>
+
    * Ajuste el orden en que aparecen las columnas arrastrando el título de la columna a una nueva ubicación.
 
    * En el área **Configuración de columna**, haga clic en **Resumir esta columna por** y elija cómo desea que se muestren los datos en la columna. Esta opción está disponible para los siguientes tipos de columna:
