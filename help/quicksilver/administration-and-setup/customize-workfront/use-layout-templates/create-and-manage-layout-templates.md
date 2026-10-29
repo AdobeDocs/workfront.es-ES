@@ -26,12 +26,14 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: c001918f8b5d59acee1211a5a655ac8b1a478744
 workflow-type: tm+mt
-source-wordcount: '513'
-ht-degree: 84%
+source-wordcount: '559'
+ht-degree: 75%
 ---
 # Crear y administrar plantillas de diseño
+
+{{preview-fast-release-general}}
 
 <!--Audited: 12/2023-->
 
@@ -100,9 +102,12 @@ Para obtener más información sobre las plantillas de diseño, consulte [Planti
 
 1. Haga clic en **Nueva plantilla de diseño**
 
-   O
+   Para editar una plantilla de diseño:
 
-   Haga clic en el nombre de la plantilla de diseño que desea modificar.
+   * Haga clic en el nombre de la plantilla de diseño que desee modificar o bien
+   * <span class="preview">Seleccione la casilla de verificación situada junto a la plantilla de diseño en la lista y haga clic en **Editar** en la barra de acciones de la parte inferior de la pantalla.</span>
+
+     Para obtener información acerca de la barra de acciones y otras características de las listas mejoradas, vea [Usar listas mejoradas](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
 
 1. Si está creando una nueva plantilla de diseño, escriba un **nombre de plantilla de diseño** y (opcional) una **descripción** para él.
 
