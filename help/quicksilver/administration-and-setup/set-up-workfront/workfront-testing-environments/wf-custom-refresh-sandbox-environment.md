@@ -28,14 +28,16 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 3da69fe6ab5bdb843e17bd5ae2ffa985bf2b5cc4
+source-git-commit: 29c11bcb8189bb3d5e9f57e1249ee58c9a206b87
 workflow-type: tm+mt
-source-wordcount: '1829'
-ht-degree: 78%
+source-wordcount: '1842'
+ht-degree: 77%
 ---
 # El entorno de zona protegida de actualización personalizada de [!DNL Adobe Workfront]
 
 La zona protegida de actualización personalizada es un entorno en el que puede realizar pruebas y trabajar usando datos del entorno de producción. También es ideal para ejecutar cursos de formación y determinar la funcionalidad de la configuración.
+
+
 
 >[!NOTE]
 >
@@ -132,6 +134,10 @@ Para acceder a su zona protegida de actualización personalizada:
    Las credenciales de la zona protegida de actualización personalizada son las mismas que las credenciales de producción, a menos que haya cambiado las credenciales de producción desde la última vez que actualizó la zona protegida de actualización personalizada. Los inicios de sesión solo se sincronizan cuando se produce una actualización. No se sincronizan automáticamente.
 
    La zona protegida de actualización personalizada muestra la versión y la fecha de la última actualización en el banner situado en la parte superior de la pantalla. Toda la información de producción está disponible y lista para trabajar con ella una vez completada la actualización.
+
+>[!IMPORTANT]
+>
+>Los datos de Planning en Paneles de lienzo solo son visibles para los administradores de [!DNL Workfront] en entornos de espacio aislado.
 
 ## Acceder a la zona protegida de actualización personalizada mediante una dirección URL {#access-the-custom-refresh-sandbox-using-a-url}
 
