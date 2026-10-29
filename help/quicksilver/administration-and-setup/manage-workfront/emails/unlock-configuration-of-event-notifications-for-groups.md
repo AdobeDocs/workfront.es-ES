@@ -23,10 +23,10 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: f1d448e36f36c37234920274474dc99d697a2379
 workflow-type: tm+mt
-source-wordcount: '553'
-ht-degree: 98%
+source-wordcount: '811'
+ht-degree: 85%
 ---
 # Desbloqueo o bloqueo de la configuración de notificaciones de eventos para todos los grupos
 
@@ -71,7 +71,7 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
 
 +++
 
-## Desbloquear o volver a bloquear la capacidad de configurar una notificación de eventos
+## Desbloquee o vuelva a bloquear la capacidad de configurar una notificación de evento en Producción
 
 >[!IMPORTANT]
 >
@@ -93,3 +93,32 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
 
    * Elimine **Notificaciones de eventos del sistema** en el cuadro de búsqueda situado encima de la lista de notificaciones, busque y seleccione el nombre del grupo de nivel superior para enumerar sus notificaciones y, a continuación, active o desactive las notificaciones desbloqueadas en la lista que se muestra.
    * Haga clic en **Grupos**, en el menú de la izquierda y, a continuación, haga clic en el nombre del grupo de nivel superior. Haga clic en **Notificaciones de eventos**, en el panel izquierdo y, a continuación, configure la notificación de eventos desbloqueados, tal y como se explica en [Ver y configurar notificaciones de eventos para un grupo](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-configure-event-notifications-group.md).
+
+
+<div class="preview">
+
+## Desbloquee o vuelva a bloquear la capacidad de configurar una notificación de evento en Producción
+
+>[!IMPORTANT]
+>
+>Al volver a bloquear una notificación, todos los grupos del sistema heredarán la notificación exactamente como se establezca. Esto anulará cualquier cambio que los administradores de grupo pudieran haber realizado en sus grupos, por lo que es aconsejable consultarles en primer lugar.
+
+{{step-1-to-setup}}
+
+1. Haga clic en **Correo electrónico** > **Notificaciones**.
+
+1. Asegúrese de que la pestaña **Notificaciones de eventos** esté abierta.
+
+
+1. Para desbloquear una notificación de un grupo, haz clic en el icono de candado ![Icono de candado](assets/lock-icon-100626.png) a la derecha de la notificación y selecciona **Desbloquear el acceso al grupo**. El icono de bloqueo ya no se muestra cuando la notificación está desbloqueada.
+
+1. Para bloquear una notificación para un grupo, seleccione el menú Más ![Menú Más](assets/more-icon.png) a la derecha de la notificación y haga clic en **Bloquear el acceso al grupo** en la barra de acciones de la parte inferior de la pantalla. El icono de candado ![Icono de candado](assets/lock-icon-100626.png) se muestra cuando la notificación está bloqueada.
+
+
+
+1. (Opcional) Si desea configurar la notificación de eventos para un grupo de nivel superior en lugar de dejar esta tarea al administrador del grupo, realice una de las siguientes acciones:
+
+   * Elimine **Notificaciones de eventos del sistema** en el cuadro de búsqueda situado encima de la lista de notificaciones, busque y seleccione el nombre del grupo de nivel superior para enumerar sus notificaciones y, a continuación, active o desactive las notificaciones desbloqueadas en la lista que se muestra.
+   * Haga clic en **Grupos**, en el menú de la izquierda y, a continuación, haga clic en el nombre del grupo de nivel superior. Haga clic en **Notificaciones de eventos**, en el panel izquierdo y, a continuación, configure la notificación de eventos desbloqueados, tal y como se explica en [Ver y configurar notificaciones de eventos para un grupo](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-configure-event-notifications-group.md).
+
+   </div>

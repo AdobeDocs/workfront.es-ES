@@ -26,10 +26,10 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: f1d448e36f36c37234920274474dc99d697a2379
 workflow-type: tm+mt
-source-wordcount: '533'
-ht-degree: 84%
+source-wordcount: '669'
+ht-degree: 70%
 ---
 # Ver y configurar notificaciones de eventos para un grupo
 
@@ -73,7 +73,7 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
 
 +++
 
-## Visualización y configuración de las notificaciones de eventos de un grupo
+## Ver y configurar las notificaciones de eventos de un grupo en Producción
 
 >[!TIP]
 >
@@ -108,3 +108,31 @@ This step (with substeps) is for functionality from a Sprint 3 2021 story that g
   For more information about customizing the email subject line of an event notification, see <a href="../../../administration-and-setup/manage-workfront/emails/custom-email-subjects-event-notification.md" class="MCXref xref">Customize email subjects for event notifications</a>. 
 -->
 
+
+
+
+<div class="preview">
+
+## Ver y configurar las notificaciones de eventos de un grupo en Vista previa
+
+>[!TIP]
+>
+>Si es administrador de Workfront y ya se encuentra en la página Notificaciones por correo electrónico (Configuración > Correo electrónico > Notificaciones), puede hacer lo siguiente y pasar al paso 6: Eliminar **Notificaciones de eventos del sistema** en el cuadro situado encima de la lista, empiece a escribir el nombre del grupo en el cuadro y, a continuación, haga clic en él cuando aparezca.
+
+{{step-1-to-setup}}
+
+1. En el panel izquierdo, haga clic en **Grupos** ![Grupos](assets/groups-icon.png).
+
+1. Haga clic en el nombre del grupo de nivel superior.
+1. En el menú de la izquierda, haga clic en **Notificaciones de eventos**.
+1. Haga clic en la columna **Activo** del evento y seleccione **Activo** para activarlo o **Inactivo** para desactivarlo.
+
+   >[!IMPORTANT]
+   >
+   >Los elementos con un icono de bloqueo no se pueden editar ni configurar para grupos.
+
+   ![Área de notificaciones en correos electrónicos de configuración](assets/group-event-notifications-g.png)
+
+   Para ver el estado de la notificación predeterminado de un evento, consulte [Notificaciones de eventos](../../../workfront-basics/using-notifications/event-notifications.md).
+
+</div>
