@@ -28,9 +28,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 16e4d70d45e4f312d31f3cd491754820ef0c9b9d
+source-git-commit: fb5bc6f0563c8009b4b4496ffceef621c89c660c
 workflow-type: tm+mt
-source-wordcount: '4353'
+source-wordcount: '4357'
 ht-degree: 46%
 ---
 # Administrar la vista de tabla
@@ -396,6 +396,7 @@ FROM LISA: This is the old section. I commented it out vs deleting.
 Las filas de una vista de tabla muestran registros individuales del tipo de registro seleccionado. Añadir filas es idéntico a crear registros.
 
 Puede tener hasta 50 000 registros (o filas) para un tipo de registro. <span class="preview">De forma predeterminada, solo se muestran 500 filas. Más carga a medida que desplaza la página.</span>
+<span class="preview">El número total de registros se muestra a la izquierda del cuadro de búsqueda rápida, en la esquina superior derecha de la tabla.</span>
 
 1. Vaya a una página de tipo de registro y seleccione una vista de tabla, o haga clic en **+ Ver** para agregar una vista nueva y, a continuación, elija **Tabla**.
 
@@ -411,7 +412,6 @@ Puede tener hasta 50 000 registros (o filas) para un tipo de registro. <span cla
    >
    >![Nuevo icono de comentario en la vista de tabla](assets/new-comment-icon-in-table-view-highlighted.png)
 
-   <span class="preview">El número total de registros se muestra a la izquierda del cuadro de búsqueda rápida, en la esquina superior derecha de la tabla.</span>
 
 1. (Opcional) Seleccione uno o varios registros o filas y, a continuación, arrastre y suelte el icono **controlador** ![Icono de controlador](assets/handle-icon.png) a la izquierda del registro para reordenar las filas.
 
@@ -647,7 +647,7 @@ Tenga en cuenta lo siguiente:
 
 * Es posible aplicar agrupaciones tanto en las vistas de tabla como de cronología. Las agrupaciones de la vista de tabla son independientes de las de la vista de cronología del mismo tipo de registro.
 * Se pueden aplicar 3 niveles de agrupación en una vista. Los registros se agrupan en el orden de agrupaciones que se seleccione.
-&lt;!—!—**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;*** * Puede aplicar hasta 4 niveles de agrupación al utilizar la API. —comprobando este por ahora &#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**—>
+&lt;!—!—*************** * Puede aplicar hasta 4 niveles de agrupación al utilizar la API. —comprobando este por ahora ******************—>
 * Las agrupaciones son únicas para la vista que se seleccione. Dos vistas de tabla del mismo tipo de registro pueden tener diferentes agrupaciones aplicadas. Dos usuarios que vean la misma vista de tabla verán la misma agrupación que se aplique en ese momento.
 * No se puede asignar un nombre a las agrupaciones que se generen para una vista de tabla.
 * Al quitar las agrupaciones, se quitarán de cualquier usuario que tenga acceso al mismo tipo de registro y que muestre la misma vista que usted.
