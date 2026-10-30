@@ -16,16 +16,20 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 781aec7dbd13173fd601cfae366dd216cd0fa4f2
+source-git-commit: 331746b2e3f0a5ce6cd0bb01e020d787d6ad951b
 workflow-type: tm+mt
-source-wordcount: '1143'
-ht-degree: 2%
+source-wordcount: '1230'
+ht-degree: 3%
 ---
 # Usar agentes de trabajo
 
+<span class="preview">La información resaltada en esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa para todos los clientes.</span>
+
 Los agentes de trabajo son colaboradores de IA que pueden asignarse directamente a tareas, problemas y solicitudes de Workfront. Al igual que otros colaboradores de IA, los agentes de trabajo se configuran en el área de Configuración y se asignan a elementos de trabajo del mismo modo que un usuario.
 
-Los agentes de trabajo se conectan a los agentes que ha configurado en Copilot Studio, Claude, OpenAI o IBM.
+<span class="preview">Puede usar un agente de trabajo nativo de Adobe listo para usar con tecnología de Adobe CX Coworker,</span> o un agente de trabajo conectado a una plataforma externa. Las capacidades disponibles y los requisitos de configuración dependen del origen del agente.
+
+<!-- BECKY CHECK ME: Why this changed: we added the Adobe Native origin to the usage article and need product confirmation on the final naming and on any @mention or follow-up reply trigger behavior that differs from the current external-agent guidance. -->
 
 >[!IMPORTANT]
 >
@@ -64,7 +68,9 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
 
 ## Requisitos previos
 
-* Debe configurar un agente en Copilot, Claude, OpenAI o IBM antes de poder utilizarlo como agente de trabajo en Workfront.
+* Un administrador debe configurar el agente de trabajo en Workfront para que pueda utilizarlo.
+* <span class="preview">Para un agente de trabajo nativo de Adobe, su organización debe tener habilitado Adobe CX Coworker.</span>
+* Para un agente de trabajo conectado a una plataforma externa, el agente también debe configurarse en esa plataforma.
 
 ## Introducción al agente de trabajo
 
@@ -116,21 +122,22 @@ Según la configuración del agente de trabajo en Workfront, puede realizar las 
 
 Cuando se asigna un agente de trabajo a una tarea o un problema, comienza a funcionar cuando se cumple cualquiera de las siguientes situaciones:
 
-<!--update wording to include issues when this goes to production-->
-
 * El agente de trabajo está asignado a una tarea que está lista para iniciarse. (Por ejemplo, si la tarea tiene predecesoras, las predecesoras están completas).
 * El agente de trabajo y un usuario se asignan a una tarea y el agente de trabajo se asigna primero.
 * Una tarea a la que ya se ha asignado un agente de trabajo como está lista para iniciarse y el agente de trabajo es el único o el principal asignado. (Por ejemplo, si la tarea tiene predecesoras, las predecesoras están completas).
 * Una tarea a la que ya se han asignado un agente de trabajo y un usuario está lista para iniciarse y el agente de trabajo se ha asignado primero o es el principal asignado. (Por ejemplo, si la tarea tiene predecesoras, las predecesoras están completas).
 * Se asignan un usuario y un agente de trabajo a una tarea y se elimina el usuario.
 * Un usuario y un agente de trabajo se asignan a una tarea y el agente de trabajo se establece como el principal asignado a la tarea.
+* <span class="preview">Se @mentioned un agente de trabajo nativo de Workfront en una tarea.
 
 Las siguientes situaciones no hacen que el agente de trabajo comience a trabajar en la tarea:
 
 * Se asigna un agente de trabajo a una tarea que ya tiene un usuario asignado.
-* Se @mentioned un agente de trabajo en una tarea.
+* <span class="preview">Se @mentioned un agente de trabajo en una tarea para un proveedor que no admite déclencheur de inicio.</span>
 * Se asigna un agente de trabajo a una tarea que ya tiene asignado un agente de trabajo. En este caso, el primer agente de trabajo asignado ya habrá comenzado el trabajo y el segundo agente de trabajo no hará nada.
 * Se asigna un agente de trabajo a una tarea que no está lista para iniciarse. (Por ejemplo, si la tarea tiene predecesoras, las predecesoras aún no están completas).
+
+<!-- BECKY CHECK ME: Why this changed: we updated the start-trigger wording to reflect Native vs external-agent differences; product still needs to confirm whether @mentions, follow-up replies, readiness rules, and primary-assignee conditions apply to Adobe Native the same way they do for external agents. -->
 
 ## Asignar un agente de trabajo a una tarea, problema o solicitud
 

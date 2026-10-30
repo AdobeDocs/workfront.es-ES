@@ -26,10 +26,10 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 29c11bcb8189bb3d5e9f57e1249ee58c9a206b87
 workflow-type: tm+mt
-source-wordcount: '1366'
-ht-degree: 87%
+source-wordcount: '1379'
+ht-degree: 86%
 ---
 # El entorno de vista previa de zona protegida de [!DNL Adobe Workfront]
 
@@ -83,6 +83,10 @@ Los datos fluyen unidireccionalmente, de Producción a Vista previa y no a la in
 La vista previa de zona protegida también permite que [!DNL Workfront] implemente nuevas características en un entorno seguro antes de que estén listas para implementarse en el entorno de producción. Puede probar las nuevas características y proporcionar comentarios de [!DNL Workfront] sobre su funcionalidad accediendo a la vista previa de zona protegida. Por este motivo, el código de la vista previa de zona protegida siempre va por delante del código de producción, aunque los datos se actualicen semanalmente.
 
 El entorno de vista previa es ideal para ejecutar cursos de formación, probar nuevas funciones y determinar la funcionalidad de la configuración.
+
+>[!IMPORTANT]
+>
+>Los datos de Planning en Paneles de lienzo solo son visibles para los administradores de [!DNL Workfront] en entornos de espacio aislado.
 
 >[!NOTE]
 >

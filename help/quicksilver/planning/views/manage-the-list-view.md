@@ -20,9 +20,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 0bcb6ef2abbf3789339af27119422ef413cd6eef
+source-git-commit: 16e4d70d45e4f312d31f3cd491754820ef0c9b9d
 workflow-type: tm+mt
-source-wordcount: '1896'
+source-wordcount: '2017'
 ht-degree: 1%
 ---
 
@@ -34,11 +34,9 @@ although list views in Planning are very similar to Workfront enhanced lists, ke
 
 <!--If the List view in Project connected pages and request forms stays the same after GTable rolls out - keep this as the List view and change the Table view to "Table redesigned view" for now; keep it "the table view" there for later-->
 
-<!--
-<span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">La información resaltada en esta página hace referencia a funcionalidades que aún no están disponibles de forma general. Solo está disponible en el entorno de vista previa para todos los clientes. Después del lanzamiento en Vista previa, las mismas funciones también están disponibles mensualmente en el entorno de producción para los clientes que habilitaron lanzamientos rápidos. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+<span class="preview">Para obtener información sobre las versiones rápidas, consulte [Habilitar o deshabilitar las versiones rápidas para su organización](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{planning-important-intro}}
 
@@ -165,6 +163,11 @@ Removed - more direct steps below:
    * Página de registros conectada para proyectos en el área de detalles de un registro
    * La página Formularios de solicitud de un tipo de registro
 
+   >[!TIP]
+   >
+   ><span class="preview">El número de elementos de la lista se muestra a la izquierda del cuadro de búsqueda rápida en la esquina superior derecha de la lista. El número refleja el número de elementos mostrados con los filtros aplicados a la lista. Los elementos que no tiene permisos para ver no se cuentan. </span>
+
+
 1. (Condicional) Cuando esté disponible, realice una de las siguientes acciones para modificar la vista de la lista:
 
    1. Expanda el menú de vistas desplegables en la esquina superior izquierda de la lista para seleccionar otra vista, o haga clic en **Nueva vista** y cree otra.
@@ -270,6 +273,8 @@ Removed - more direct steps below:
 1. (Opcional) Agregue una palabra clave al cuadro de búsqueda en la esquina superior derecha de la lista para buscar un elemento.
 
    Los elementos que coincidan con el término de búsqueda se resaltarán en la lista.
+
+   <span class="preview">La lista se ha filtrado para mostrar solamente los elementos que coinciden con la búsqueda. </span>
 
 1. (Opcional y condicional) En la página conectada de los proyectos <!--change projects to items here when more items will display in the Glist-->, para agregar más elementos a la lista y conectarlos automáticamente al registro seleccionado, realice una de las siguientes acciones:
 

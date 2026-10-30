@@ -3,9 +3,9 @@ user-guide-title: Guía de Workfront
 user-guide-description: Utilice los siguientes documentos, tutoriales y recursos adicionales para aprender a implementar y utilizar Adobe Workfront de forma eficaz en su organización.
 role: User
 feature-set: Workfront
-source-git-commit: 9faae2fb12953fb12f2c86dacbab61c18a11f94a
+source-git-commit: cb4679716489be235d72b67aa660c6cb71536f04
 workflow-type: tm+mt
-source-wordcount: '14736'
+source-wordcount: '14757'
 ht-degree: 90%
 ---
 # Guía de Workfront {#using}
@@ -19,8 +19,12 @@ ht-degree: 90%
     * [Prepárese para una versión trimestral de Adobe Workfront](product-announcements/product-releases/release-readiness.md)
     * Versión del primer trimestre de 2027 {#release-27-q1}
       * [Información general sobre la versión del primer trimestre de 2027](/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-release-overview.md)
+      * [Mejoras del administrador en el primer trimestre de 2027](/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-admin-and-setup.md)
       * [Mejoras de IA en el primer trimestre de 2027](/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-ai.md)
+      * [Mejoras en los documentos del primer trimestre de 2027](/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-documents.md)
+      * {hide-from-toc}[Mejoras de Financial Management en el primer trimestre de 2027](/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-financial-management-enhancements.md)
       * [Mejoras del proyecto del primer trimestre de 2027](/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-projects.md)
+      * [Primer trimestre de 2027 Otras mejoras](/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-other.md)
     * Versión del cuarto trimestre de 2026 {#release-26-q4}
       * [Resumen de la versión del cuarto trimestre de 2026](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-release-overview.md)
       * [Mejoras del administrador del cuarto trimestre de 2026](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-admin-and-setup.md)

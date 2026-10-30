@@ -32,9 +32,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
+source-git-commit: fb5bc6f0563c8009b4b4496ffceef621c89c660c
 workflow-type: tm+mt
-source-wordcount: '5576'
+source-wordcount: '5676'
 ht-degree: 46%
 ---
 <!--
@@ -51,11 +51,11 @@ Do we need this for FORMULAS: when we release permissions to RECORDS and we rele
 
 # Crear campos
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+<span class="preview">La información resaltada en esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa para todos los clientes. Después del lanzamiento en Vista previa, las mismas funciones también están disponibles mensualmente en el entorno de producción para los clientes que habilitaron lanzamientos rápidos. </span>
+
+<span class="preview">Para obtener información sobre las versiones rápidas, consulte [Habilitar o deshabilitar las versiones rápidas para su organización](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
 
 {{planning-important-intro}}
 
@@ -181,6 +181,14 @@ Old:
 </tbody> 
 </table>
 -->
+
+
+## Consideraciones sobre los campos de registro
+
+* Solo puede crear campos desde la vista de tabla.
+* En el entorno de producción, se añaden los campos recién añadidos y son visibles desde todas las vistas de tabla.
+
+  <span class="preview">En el entorno de vista previa, los campos recién agregados se agregan como campos ocultos en todas las vistas de tabla que los contienen. Los nuevos campos son visibles en la vista que se utiliza para agregarlos. </span>
 
 ## Creación de campos conectando tipos de registro
 

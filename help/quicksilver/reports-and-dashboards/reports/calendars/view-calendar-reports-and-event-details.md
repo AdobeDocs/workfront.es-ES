@@ -25,12 +25,14 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: fdddfb692215fcd856b2a3702436aded69a7f0f6
 workflow-type: tm+mt
-source-wordcount: '590'
-ht-degree: 66%
+source-wordcount: '648'
+ht-degree: 57%
 ---
 # Ver informes de calendario y detalles de eventos
+
+{{highlighted-preview}}
 
 Puede ver informes de calendario y detalles de eventos que haya creado o que se hayan compartido con usted en Adobe Workfront.
 
@@ -108,20 +110,26 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
 
 1. (Opcional) Si está viendo el calendario en las vistas **Mes** o **Semana**, puede cambiar la vista del calendario con las siguientes opciones:
 
-   <!--
-         * To include or exclude weekends:
-      1. On the **[!UICONTROL Calendar]** toolbar, click **[!UICONTROL Calendar Actions]**, then from the drop-down list select either **[!UICONTROL Show Weekend]** or **[!UICONTROL Hide Weekend]**.
-      -->
-
-   * Para cambiar rápidamente las fechas mostradas:
-
-     1. En la barra de herramientas **[!UICONTROL Calendario]**, haga clic en la flecha izquierda del indicador de fecha para retroceder en el calendario o en la flecha derecha para avanzar.
-
-        ![Haga clic en la flecha para cambiar la fecha](assets/click-arrows-to-change-dates-calendar-report.png)
-
-        Las fechas mostradas se ajustan mediante un intervalo basado en la vista de calendario actual. Por ejemplo, si está viendo el calendario en la vista **Semana**, el calendario mostrará una semana hacia adelante o una semana hacia atrás, según la flecha que seleccione.
-
-     1. (Opcional) Para volver al día actual, haga clic en [!UICONTROL **Hoy**].
+   <table style="table-layout:auto"> 
+    <col> 
+    </col> 
+    <col> 
+    </col> 
+    <tbody> 
+     <tr> 
+      <td role="rowheader">Excluir fines de semana al ver el calendario en la vista Mes</td> 
+      <td>En la esquina superior derecha del calendario, active o desactive <b>Mostrar fines de semana</b>.</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader"><span class="preview">Mostrar u ocultar las horas del día al ver el calendario en la vista <b>[!UICONTROL Week]</b></span></td> 
+      <td><span class="preview">En la esquina superior derecha del calendario, active o desactive <b>Mostrar horas</b>.</span></td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Para cambiar rápidamente las fechas mostradas</td> 
+      <td> <p>En la barra de herramientas <b>[!UICONTROL Calendario]</b>, haga clic en la flecha izquierda del indicador de fecha para retroceder en el calendario o en la flecha derecha para avanzar.</p> <p><img src="assets/click-arrows-to-change-dates-calendar-report.png" alt="Haga clic en la flecha para cambiar la fecha"></p> <p>Las fechas mostradas se ajustan mediante un intervalo basado en la vista de calendario actual. Por ejemplo, si está viendo el calendario en la vista <b>Semana</b>, el calendario mostrará una semana hacia adelante o una semana hacia atrás, según la flecha que seleccione.</p> <p>(Opcional) Para volver al día actual, haga clic en <b>[!UICONTROL Hoy]</b>.</p> </td> 
+     </tr> 
+    </tbody> 
+   </table>
 
 1. (Opcional) Para ocultar los eventos de un proyecto o agrupación de calendario vinculada al calendario, borre la agrupación de proyecto o calendario en la lista de proyectos.
    ![Ocultar eventos](assets/hide-events-for-project-or-cal-grouping.png)

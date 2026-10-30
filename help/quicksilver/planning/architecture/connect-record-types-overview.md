@@ -32,9 +32,9 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
+source-git-commit: 16e4d70d45e4f312d31f3cd491754820ef0c9b9d
 workflow-type: tm+mt
-source-wordcount: '2479'
+source-wordcount: '2583'
 ht-degree: 7%
 ---
 <!--keep the 30 limit verbiage in yellow til Jan 2026-->
@@ -201,6 +201,22 @@ Para obtener información acerca de los tipos de registros que conecta, vea [Con
       >La información del campo de fecha de los objetos de Workfront se muestra en formato de 24 horas en Workfront Planning, independientemente de cómo se muestre en Workfront.
       >
       >Por ejemplo, si la fecha planificada de inicio de un proyecto se muestra a las 3:00 p.m. en Workfront, en un campo de búsqueda importado se mostrará a las 15:00 en Workfront Planning.
+
+  <div class="preview">
+
+  * Existen las siguientes limitaciones al agregar campos de búsqueda:
+
+    * Puede tener hasta 40 campos de búsqueda por tipo de registro.
+
+    * Puede tener hasta 5 campos de búsqueda de texto largo por tipo de registro. Los campos de búsqueda conectados se contabilizan en el límite de su campo original.
+
+    * Puede tener hasta 50 000 caracteres en el valor de una sola celda de búsqueda de texto largo.
+
+      Si el contenido combinado de los valores de búsqueda supera este límite, los valores se muestran en orden de conexión hasta que se alcanza el límite.
+
+      Se omiten el primer valor que lo excedería y todos los valores posteriores. El campo de objeto conectado original nunca cambia.
+
+  </div>
 
   * Debe conectar tipos de registros para poder crear jerarquías en Workfront Planning. Cuando las conexiones de tipo de registro no existen, se crean automáticamente al crear una jerarquía. Para obtener más información, vea [Crear jerarquías de área de trabajo](/help/quicksilver/planning/architecture/create-workspace-hierarchies.md).
 

@@ -5,10 +5,10 @@ author: Courtney
 draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 3c6235a01af5a18a6ab4b2b80bbdea2c447009aa
+source-git-commit: 3357df4d9805b7a8252a79b070295a0b55a2cd42
 workflow-type: tm+mt
-source-wordcount: '641'
-ht-degree: 25%
+source-wordcount: '1099'
+ht-degree: 17%
 ---
 
 # Información general sobre la versión del primer trimestre de 2027
@@ -30,8 +30,147 @@ Las mejoras de esta página están disponibles en el entorno de vista previa. Es
 
 ## Mejoras de Adobe Workfront
 
+* [Mejoras en el administrador](#administrator-enhancements)
+* [Mejoras de IA](#ai-enhancements)
+* [Mejoras de documentos](#documents-enhancements)
+<!-- * [Financial Management enhancements](#financial-management-enhancements) -->
 * [Mejoras en el proyecto](#project-enhancements)
+* [Otras mejoras](#other-enhancements)
 
+### Mejoras en el administrador
+
+<table>
+    <tbody>
+        <tr>
+            <td><strong>Característica</strong>
+            </td>
+            <td><strong>Vista previa</strong></td>
+            <td><strong>Versión rápida</strong></td>
+            <td><strong>Trimestralmente</strong></td>
+        </tr>
+        <tr>
+            <td>
+                <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-admin-and-setup.md">Permisos para quitar un formulario personalizado adjunto</a></p>
+                <p>Al compartir un formulario personalizado, ahora puede establecer permisos para los usuarios con acceso de Administración para quitar el formulario de los objetos a los que está adjunto.</p>
+            </td>
+            <td><p>29 de octubre de 2026</p></td>
+            <td><p>12 de noviembre de 2026</p></td>
+            <td><p>21 de enero de 2027</p></td>
+        </tr>
+        <tr>
+            <td>
+                <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-admin-and-setup.md">Marcar un campo personalizado como favorito</a></p>
+                <p>Ahora puede marcar un campo personalizado como favorito para que aparezca en la parte superior de los campos disponibles cuando genere filtros, vistas y agrupaciones, y en la biblioteca de campos del diseñador de formularios.</p>
+            </td>
+            <td><p>29 de octubre de 2026</p></td>
+            <td><p>12 de noviembre de 2026</p></td>
+            <td><p>21 de enero de 2027</p></td>
+        </tr>
+        <tr>
+            <td>
+                <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-admin-and-setup.md">Cambiar historial ahora rastrea objetos de panel de lienzo</a></p>
+                <p>Historial de cambios ahora registra quién creó, actualizó o eliminó un informe o panel de lienzo, cuándo y qué cambió.</p>
+                <p>[!BADGE Off schedule]{type=Neutral}</p>
+            </td>
+            <td><p>29 de octubre de 2026</p></td>
+            <td><p>29 de octubre de 2026</p></td>
+            <td><p>29 de octubre de 2026</p></td>
+        </tr>
+    </tbody>
+</table>
+
+### Mejoras de IA
+
+<table>
+    <tbody>
+        <tr>
+            <td><strong>Característica</strong>
+            </td>
+            <td><strong>Vista previa</strong></td>
+            <td><strong>Versión rápida</strong></td>
+            <td><strong>Trimestralmente</strong></td>
+        </tr>
+        <tr>
+            <td>
+                <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-ai.md">Agentes de trabajo: compatibilidad con Adobe Native</a></p>
+                <p>Ahora puede crear un agente de trabajo que utilice Adobe CX Coworker sin configurar una plataforma externa ni introducir credenciales externas.</p>
+            </td>
+            <td><p>29 de octubre de 2026</p></td>
+            <td><p>12 de noviembre de 2026</p></td>
+            <td><p>21 de enero de 2027</p></td>
+        </tr>
+        <tr>
+            <td>
+                <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-ai.md">Algunos iconos se han eliminado de Adobe CX Enterprise Coworker en Workfront</a></p>
+                <p>Los iconos Configuración y Artefactos se eliminaron para simplificar Adobe CX Enterprise Coworker en Workfront.</p>
+            </td>
+            <td><p>29 de octubre de 2026</p></td>
+            <td><p>12 de noviembre de 2026</p></td>
+            <td><p>21 de enero de 2027</p></td>
+        </tr>
+    </tbody>
+</table>
+
+### Mejoras de documentos
+
+<table>
+    <tbody>
+        <tr>
+            <td><strong>Característica</strong>
+            </td>
+            <td><strong>Vista previa</strong></td>
+            <td><strong>Versión rápida</strong></td>
+            <td><strong>Trimestralmente</strong></td>
+        </tr>
+<!--
+        <tr>
+            <td>
+                <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-documents.md">Delegate unified document approvals</a></p>
+                <p>You can now delegate your unified document approvals to another user, who can approve, reject, or mark reviews complete on your behalf.</p>
+            </td>
+            <td><p>October 29, 2026</p></td>
+            <td><p>November 12, 2026</p></td>
+            <td><p>January 21, 2027</p></td>
+        </tr>
+-->
+        <tr>
+            <td>
+                <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-documents.md">Configurar notificaciones unificadas por correo electrónico de revisión y aprobación</a></p>
+                <p>Ahora puede configurar las 18 notificaciones de correo electrónico de revisión y aprobación unificadas, y sus líneas de asunto cambian ligeramente.</p>
+            </td>
+            <td> <p>Esta función no está disponible temporalmente en el entorno de vista previa.</p></td>
+            <td><p>12 de noviembre de 2026</p></td>
+            <td><p>21 de enero de 2027</p></td>
+        </tr>
+    </tbody>
+</table>
+
+<!--
+
+### Financial Management enhancements
+
+<table>
+    <tbody>
+        <tr>
+            <td><strong>Feature</strong>
+            </td>
+            <td><strong>Preview</strong></td>
+            <td><strong>Fast release</strong></td>
+            <td><strong>Quarterly</strong></td>
+        </tr>
+        <tr>
+            <td>
+                <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-financial-management-enhancements.md">Deactivate exchange rates</a></p>
+                <p>System administrators can now deactivate currencies from the list of exchange rates and activate them again later.</p>
+            </td>
+            <td><p>October 29, 2026</p></td>
+            <td><p>November 12, 2026</p></td>
+            <td><p>January 21, 2027</p></td>
+        </tr>
+    </tbody>
+</table>
+
+-->
 
 ### Mejoras en el proyecto
 
@@ -50,6 +189,76 @@ Las mejoras de esta página están disponibles en el entorno de vista previa. Es
                 <p>Ahora puede fijar los hilos más importantes en la parte superior del área de Actualizaciones en un proyecto, tarea, problema o solicitud para que la información clave permanezca visible para su equipo.</p>
             </td>
             <td><p>15 de octubre de 2026</p></td>
+            <td><p>12 de noviembre de 2026</p></td>
+            <td><p>21 de enero de 2027</p></td>
+        </tr>
+    </tbody>
+</table>
+
+### Otras mejoras
+
+<table>
+    <tbody>
+        <tr>
+            <td><strong>Característica</strong>
+            </td>
+            <td><strong>Vista previa</strong></td>
+            <td><strong>Versión rápida</strong></td>
+            <td><strong>Trimestralmente</strong></td>
+        </tr>
+        <tr>
+            <td>
+                <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-other.md">Ver el recuento total de registros en las listas mejoradas</a></p>
+                <p>La vista mejorada ahora muestra el número total de elementos y el recuento de actualizaciones a medida que filtra, busca o cambia la vista.</p>
+            </td>
+            <td><p>29 de octubre de 2026</p></td>
+            <td><p>12 de noviembre de 2026</p></td>
+            <td><p>21 de enero de 2027</p></td>
+        </tr>
+        <tr>
+            <td>
+                <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-other.md">Mejor visibilidad de los resultados de búsqueda rápida en las listas mejoradas</a></p>
+                <p>La búsqueda rápida en una lista mejorada ahora muestra solo los elementos que coinciden, en lugar de resaltar las coincidencias entre todos los elementos.</p>
+            </td>
+            <td><p>29 de octubre de 2026</p></td>
+            <td><p>12 de noviembre de 2026</p></td>
+            <td><p>21 de enero de 2027</p></td>
+        </tr>
+<!--
+        <tr>
+            <td>
+                <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-other.md">Add sections to organize enhanced views</a></p>
+                <p>You can now create sections in the View dropdown menu of an enhanced list to organize related views.</p>
+            </td>
+            <td><p>October 29, 2026</p></td>
+            <td><p>November 12, 2026</p></td>
+            <td><p>January 21, 2027</p></td>
+        </tr>
+-->
+        <tr>
+            <td>
+                <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-other.md">Actualizaciones en listas mejoradas</a></p>
+                <p>Ahora puede expandir o contraer todas las agrupaciones en una lista mejorada y ya no tiene que seleccionar un tipo de vista cuando solo hay uno disponible.</p>
+            </td>
+            <td><p>29 de octubre de 2026</p></td>
+            <td><p>12 de noviembre de 2026</p></td>
+            <td><p>21 de enero de 2027</p></td>
+        </tr>
+        <tr>
+            <td>
+                <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-other.md">Varias pantallas actualizadas a listas mejoradas</a></p>
+                <p>Las plantillas de diseño y las listas de notificaciones de eventos ahora utilizan el formato de lista mejorado.</p>
+            </td>
+            <td><p>29 de octubre de 2026</p></td>
+            <td><p>12 de noviembre de 2026</p></td>
+            <td><p>21 de enero de 2027</p></td>
+        </tr>
+        <tr>
+            <td>
+                <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-other.md">Mostrar u ocultar horas en el informe de calendario Vista de semana</a></p>
+                <p>Ahora puede mostrar u ocultar las horas del día en la vista Semana de un informe de calendario.</p>
+            </td>
+            <td><p>29 de octubre de 2026</p></td>
             <td><p>12 de noviembre de 2026</p></td>
             <td><p>21 de enero de 2027</p></td>
         </tr>

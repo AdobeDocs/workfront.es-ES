@@ -22,10 +22,10 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 461daa394cf7b7e3481e35f1af8436492e47cc0f
+source-git-commit: 7f5bcddadcd27c359a5ae872144f04b049949ca9
 workflow-type: tm+mt
-source-wordcount: '984'
-ht-degree: 92%
+source-wordcount: '1101'
+ht-degree: 82%
 ---
 # Preguntas frecuentes: suscripciones a eventos
 
@@ -96,6 +96,16 @@ Puede utilizar cualquier autenticación que utilice un token de portador. El cam
 ## ¿Cuánto tiempo debe transcurrir antes de recibir la carga útil de evento de las suscripciones a eventos de Workfront?
 
 En general, puede esperar recibir solicitudes de envío de eventos de suscripción de eventos en menos de 5 segundos desde que se registró el cambio de datos. En promedio, las notificaciones de los webhook se reciben en menos de 1 segundo desde el momento en que se realiza el cambio de datos. Sin embargo, el servicio puede recibir mensajes en cantidades tan grandes que también pueden tardar más tiempo.
+
+## ¿Puedo recibir el mismo evento más de una vez?
+
+Sí. Workfront utiliza la deduplicación para reducir los envíos de eventos duplicados, pero no garantiza un envío de una sola vez.
+
+Una vez que un extremo devuelve una respuesta HTTP correcta (2xx), Workfront registra temporalmente esa entrega y utiliza este registro para suprimir las entregas posteriores del mismo evento para la misma suscripción. Las entregas para suscripciones independientes se rastrean de forma independiente.
+
+Los duplicados aún se pueden producir, por ejemplo, cuando los intentos de envío se superponen, un extremo procesa un evento pero su respuesta no llega a Workfront o el registro de envío caduca o no está disponible.
+
+Diseñe su punto final para procesar envíos repetidos de forma segura (con idempotencia). Utilice el encabezado de solicitud `X-Event-ID` junto con `subscriptionId` de la carga útil para identificar envíos repetidos para una suscripción.
 
 ## Recursos adicionales
 

@@ -19,21 +19,20 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 0bcb6ef2abbf3789339af27119422ef413cd6eef
+source-git-commit: 16e4d70d45e4f312d31f3cd491754820ef0c9b9d
 workflow-type: tm+mt
-source-wordcount: '1137'
-ht-degree: 3%
+source-wordcount: '1291'
+ht-degree: 4%
 ---
 
 # Configurar reglas empresariales de tipo de registro
 
 {{planning-important-intro}}
 
-<!--
-<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">La información resaltada en esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa para todos los clientes. Después del lanzamiento en Vista previa, las mismas funciones también están disponibles mensualmente en el entorno de producción para los clientes que habilitaron lanzamientos rápidos. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+<span class="preview">Para obtener información sobre las versiones rápidas, consulte [Habilitar o deshabilitar las versiones rápidas para su organización](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
 
 Puede configurar reglas de negocio para los tipos de registro de Adobe Workfront Planning para indicar que determinados campos son necesarios antes de que se permita o impida una acción en un registro de ese tipo.
 
@@ -101,18 +100,18 @@ Para obtener más información acerca de los requisitos de acceso de Workfront, 
 * Las reglas no bloquean la creación de registros. Los usuarios aún pueden crear registros, pero deben asegurarse de que los campos obligatorios no estén vacíos o contengan el valor especificado.
 * Las reglas no editan ni eliminan registros automáticamente. El cambio debe ser deliberado y activado por un usuario.
 * Las reglas no se aplican de forma retroactiva: los registros antiguos no se ven afectados. La comprobación de reglas sólo se ejecutará la próxima vez que alguien intente editar o eliminar un registro.
-* &#x200B;<!--In the Production environment,--> No se pueden agregar reglas de negocio a los tipos de registro global en sus espacios de trabajo primarios o secundarios.
+* En el entorno Producción, no se pueden agregar reglas empresariales a los tipos de registros globales en sus espacios de trabajo primarios o secundarios.
 
-<!--
 <div class="preview">
-* In the Preview environment, you can add business rules to the following: 
 
-   * Global record types in their primary workspace. Rules created for global record types are visible in read-only mode from the secondary workspaces and they apply to all records of the same type in all workspaces. 
-   * Secondary record types, imported from other workspaces. Rules created for secondary record types are visible in read-only mode from the global record type and they apply to all records of the same type in all workspaces. 
+* En el entorno de vista previa, puede agregar reglas empresariales a lo siguiente:
 
-* Business rules in read-only mode can be edited only from their original workspaces. 
+  * Los tipos de registros globales en su espacio de trabajo principal. Las reglas creadas para los tipos de registro globales son visibles en modo de solo lectura desde los espacios de trabajo secundarios y se aplican a todos los registros del mismo tipo en todos los espacios de trabajo.
+  * Tipos de registros secundarios, importados de otros espacios de trabajo. Las reglas creadas para los tipos de registro secundarios son visibles en modo de solo lectura desde el tipo de registro global y se aplican a todos los registros del mismo tipo en todos los espacios de trabajo.
+
+* Las reglas empresariales en modo de solo lectura solo se pueden editar desde sus espacios de trabajo originales.
+
 </div>
--->
 
 * Puede crear una condición para la regla de negocio que haga referencia a todos los tipos de campo excepto a los siguientes:
   * Campos de fórmula
