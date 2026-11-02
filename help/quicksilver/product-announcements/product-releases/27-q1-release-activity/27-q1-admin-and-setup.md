@@ -4,10 +4,10 @@ description: Mejoras del administrador en el primer trimestre de 2027
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: cb4679716489be235d72b67aa660c6cb71536f04
+source-git-commit: 8f435f1c501822066f115b33c0d89727e72d57c1
 workflow-type: tm+mt
-source-wordcount: '316'
-ht-degree: 7%
+source-wordcount: '413'
+ht-degree: 5%
 ---
 
 # Mejoras del administrador en el primer trimestre de 2027
@@ -39,6 +39,20 @@ Para obtener más información, consulte [Compartir un formulario personalizado]
 Ahora puede marcar un campo personalizado como favorito, ya sea en la lista de campos o en el diseñador de formularios personalizados. Cuando trabaja en determinadas listas e informes (como listas de proyectos, tareas y problemas) y crea filtros, vistas y agrupaciones, los campos favoritos aparecen en la parte superior de la lista de campos disponibles en la sección Sugeridos.
 
 Los campos marcados como favoritos también aparecen en la parte superior de la biblioteca de campos en el diseñador de formularios.
+
+Para obtener más información, consulte [Crear un formulario personalizado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+
+## Valores verificados en campos personalizados al cambiar el formato
+
+>[!NOTE]
+>
+>Vista previa: 29 de octubre de 2026
+>Versión rápida de producción: 12 de noviembre de 2026
+>Producción para todos: 21 de enero de 2027
+
+El sistema ahora comprueba si hay valores incompatibles cuando cambia un formato de campo personalizado de texto existente a Número o Moneda.
+
+Si todos los valores existentes del campo son numéricos, el sistema simplemente actualiza el formato del campo. Sin embargo, si alguno de los valores existentes no es numérico, el sistema muestra un mensaje de advertencia indicando que los valores incompatibles se borrarán al guardar el campo.
 
 Para obtener más información, consulte [Crear un formulario personalizado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 

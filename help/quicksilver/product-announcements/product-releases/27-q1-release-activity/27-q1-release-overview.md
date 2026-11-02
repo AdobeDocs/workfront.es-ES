@@ -5,9 +5,9 @@ author: Courtney
 draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 3357df4d9805b7a8252a79b070295a0b55a2cd42
+source-git-commit: 8f435f1c501822066f115b33c0d89727e72d57c1
 workflow-type: tm+mt
-source-wordcount: '1099'
+source-wordcount: '1137'
 ht-degree: 17%
 ---
 
@@ -61,6 +61,15 @@ Las mejoras de esta página están disponibles en el entorno de vista previa. Es
             <td>
                 <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-admin-and-setup.md">Marcar un campo personalizado como favorito</a></p>
                 <p>Ahora puede marcar un campo personalizado como favorito para que aparezca en la parte superior de los campos disponibles cuando genere filtros, vistas y agrupaciones, y en la biblioteca de campos del diseñador de formularios.</p>
+            </td>
+            <td><p>29 de octubre de 2026</p></td>
+            <td><p>12 de noviembre de 2026</p></td>
+            <td><p>21 de enero de 2027</p></td>
+        </tr>
+        <tr>
+            <td>
+                <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-admin-and-setup.md">Valores verificados en campos personalizados al cambiar el formato</a></p>
+                <p>El sistema ahora comprueba si hay valores incompatibles cuando cambia un formato de campo personalizado de texto existente a Número o Moneda.</p>
             </td>
             <td><p>29 de octubre de 2026</p></td>
             <td><p>12 de noviembre de 2026</p></td>
@@ -291,7 +300,7 @@ El Visor de corrección de escritorio se ha actualizado a la versión 2.3.0. Est
 
 * Se ha actualizado el marco subyacente (Electron) a la última versión, que se ejecuta en la versión 156 de Chrome, para mejorar el rendimiento y la seguridad.
 
-Para obtener información sobre cómo descargar y actualizar el Visor de corrección de escritorio, consulte [Actualizar el Visor de corrección de escritorio](https://experienceleague.adobe.com/es/docs/workfront/using/review-and-approve-work/proofing/use-the-desktop-proofing-viewer/update-the-desktop-proofing-viewer).
+Para obtener información sobre cómo descargar y actualizar el Visor de corrección de escritorio, consulte [Actualizar el Visor de corrección de escritorio](https://experienceleague.adobe.com/en/docs/workfront/using/review-and-approve-work/proofing/use-the-desktop-proofing-viewer/update-the-desktop-proofing-viewer).
 
 ## Anuncios
 
@@ -325,7 +334,7 @@ Para obtener información sobre las tasas de rol, consulte [Crear y administrar 
 
 ### Workfront Maintenance Updates
 
-For information about the maintenance updates made during the First Quarter 2027 release, see [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=es).
+For information about the maintenance updates made during the First Quarter 2027 release, see [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 -->
 
