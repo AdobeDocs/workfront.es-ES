@@ -25,16 +25,17 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: d2f7cb46001ac260801ef28a0d0e936249cc1cfa
 workflow-type: tm+mt
-source-wordcount: '839'
-ht-degree: 41%
+source-wordcount: '938'
+ht-degree: 37%
 ---
 # Configuración de tipos de cambio
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">*** DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. **</p>
 -->
+
 
 Como administrador de Adobe Workfront, puede configurar tipos de cambio de divisa en Workfront. Esto incluye lo siguiente:
 
@@ -109,6 +110,14 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
 ## Establecer fechas en vigor para los tipos de cambio de una divisa
 
 Las fechas en vigor para los tipos de cambio de una divisa se configuran de modo que un valor de tipo de cambio termine en una fecha específica y comience otra tasa. El tipo de cambio de la fecha correcta se utiliza en los cálculos financieros.
+
+>[!NOTE]
+>
+>La configuración de tipos de cambio efectivos por fecha define qué tipo de cambio del sistema se aplica a una fecha determinada. Esto no significa que todos los cálculos financieros del proyecto utilicen un tipo de cambio diferente para cada día.
+>
+>Cuando la opción **Usar tipos de cambio con fecha efectiva del sistema** esté activada para un proyecto, los costos e ingresos planificados usan la tasa de cambio del sistema que está vigente en la **fecha de tipo de cambio** del proyecto. No utilizan automáticamente la tasa efectiva en cada día de trabajo planificado.
+>
+>Para obtener información acerca de cómo configurar un proyecto para que utilice tasas de cambio efectivas por fecha en el nivel del sistema, consulte [Editar proyectos](/help/quicksilver/manage-work/projects/manage-projects/edit-projects.md#finance).
 
 {{step-1-to-setup}}
 
