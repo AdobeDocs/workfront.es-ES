@@ -35,9 +35,9 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: d2f7cb46001ac260801ef28a0d0e936249cc1cfa
+source-git-commit: 4b5e1563a302c9b7f75e5df085d5c6c4c947db8e
 workflow-type: tm+mt
-source-wordcount: '8209'
+source-wordcount: '8244'
 ht-degree: 87%
 ---
 # Editar proyectos
@@ -454,10 +454,10 @@ Para editar campos en el área Finanzas:
     <tbody> 
      <tr>
       <td><strong>Usar tipos de cambio de fecha efectiva del sistema</strong></td>
-      <td><p>Cuando se selecciona esta opción, siempre se utilizan las tasas de cambio efectivas por fecha a nivel de sistema y no se permiten las anulaciones de tasas de cambio en el proyecto.</p><p>Para obtener más información sobre las tasas de cambio, consulte <a href="../../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md" class="MCXref xref">Configurar tasas de cambio</a>. </p></td> 
+      <td><p>Seleccione esta opción para utilizar siempre las tasas de cambio efectivas por fecha a nivel del sistema y evitar las anulaciones de tasas de cambio en el proyecto.</p><p>Para obtener más información sobre las tasas de cambio, consulte <a href="../../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md" class="MCXref xref">Configurar tasas de cambio</a>. </p></td> 
      </tr>
      <tr><td><strong>Fecha de tasa de cambio</strong></td>
-     <td><p>Cuando elija utilizar las tasas de cambio con fecha en vigor del sistema, debe seleccionar una fecha. Esta fecha se utiliza para definir los tipos de cambio de los costes e ingresos planificados.</p><p>Para el coste y los ingresos reales, se utiliza el tipo de cambio de la fecha en la que se registran las horas.</p></td>
+     <td><p>Al seleccionar la opción para utilizar los tipos de cambio con fecha en vigor del sistema, también debe seleccionar una fecha. Esta fecha se utiliza para definir los tipos de cambio de los costes e ingresos planificados.</p><p>Por ejemplo, si la fecha de tipo de cambio es el 12 de febrero, Workfront utiliza el tipo de cambio del sistema el 12 de febrero para las conversiones planificadas de divisas de costes e ingresos, incluso cuando el trabajo planificado se produce en otras fechas.</p><p>Para el coste y los ingresos reales, se utiliza el tipo de cambio de la fecha en la que se registran las horas.</p></td>
      </tr>
      <tr>
       <td><strong>Conservar información de tarifas de facturación del proyecto</strong></td>
