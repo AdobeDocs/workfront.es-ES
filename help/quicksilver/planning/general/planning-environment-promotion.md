@@ -5,7 +5,7 @@ author: Alina, Becky
 feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 046d6314c87d227891a89a1df7684ddef726d46a
+source-git-commit: 00706e8c7ed590cf112f4817da9740a970a4a4b3
 workflow-type: tm+mt
 source-wordcount: '1236'
 ht-degree: 4%
@@ -26,7 +26,7 @@ Not sure if this bit will ever be needed because this only exists when both Prev
 
 {{planning-important-intro}}
 
-<!--if Lilit says this is not for STA, break the intro and specify that-->
+<!--if Lilit says this is not for STA, break the intro and specify that; she is checking on this-->
 
 Puede copiar espacios de trabajo, tipos de registros, campos y vistas de Workfront Planning de un entorno de Workfront a otro mediante las funciones de promoción de entornos.
 
@@ -46,7 +46,7 @@ Utilizar la promoción del entorno con Planning es similar a usarlo para Workfro
   * Vistas
   * Jerarquías
   * Compartir la configuración de todos los objetos
-  * Automatizaciones
+  * Automatizaciones <!--this might not be part of it; Lilit is checking-->
   * Formularios de solicitud
   * Reglas empresariales
   * Objetos conectados

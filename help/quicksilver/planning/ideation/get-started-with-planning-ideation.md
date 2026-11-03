@@ -19,9 +19,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 64b421c1e1b00d37f55458b49510d9ca496f70e8
+source-git-commit: 00706e8c7ed590cf112f4817da9740a970a4a4b3
 workflow-type: tm+mt
-source-wordcount: '1296'
+source-wordcount: '1295'
 ht-degree: 0%
 ---
 
@@ -52,8 +52,8 @@ Los espacios de ideación aprovechan Enterprise CX Coworker para generar informe
 La cronología de la versión planificada para el Espacio de ideas que está sujeta a cambios incluye los siguientes hitos:
 
 * **Beta cerrado:** lanzado en julio de 2026 para un número reducido de clientes.
-* **Abrir Beta:** segmentado para noviembre de 2026. Será una oferta de inclusión, en la que los clientes deben activar y configurar la opción de forma activa, en lugar de excluirse de ella de forma activa.
-* **Disponibilidad general:** Segmentado para 2027.
+* **Abrir Beta:** con destino el 12 de noviembre de 2026. Esta es una oferta de inclusión en la que debe activar activamente la opción en lugar de excluirse de ella de forma activa.
+* **Disponibilidad general:** Segmentado para el 1 de febrero de 2027.
 
 ## Requisitos del producto
 
@@ -237,10 +237,10 @@ Worth noting
 
 ## Recursos adicionales
 
-* [Planificación de Adobe Workfront Campaign](https://business.adobe.com/es/products/workfront/campaign-planning.html)
+* [Planificación de Adobe Workfront Campaign](https://business.adobe.com/products/workfront/campaign-planning.html)
 * [Documentación de Adobe Workfront Planning](/help/quicksilver/planning/planning-information.md)
-* [Información general de Adobe GenStudio](https://business.adobe.com/es/products/genstudio.html)
-* [Adobe Customer Journey Analytics](https://business.adobe.com/es/products/adobe-analytics/customer-journey-analytics.html)
+* [Información general de Adobe GenStudio](https://business.adobe.com/products/genstudio.html)
+* [Adobe Customer Journey Analytics](https://business.adobe.com/products/adobe-analytics/customer-journey-analytics.html)
 
 
 <!--
