@@ -35,13 +35,11 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+source-git-commit: 4b5e1563a302c9b7f75e5df085d5c6c4c947db8e
 workflow-type: tm+mt
-source-wordcount: 7995
-ht-degree: 86%
-
+source-wordcount: '8244'
+ht-degree: 87%
 ---
-
 # Editar proyectos
 
 <!--Audited: 07/2024-->
@@ -146,8 +144,8 @@ Tenga en cuenta lo siguiente al editar proyectos:
 * Puede adjuntar documentos o plantillas a un proyecto que tenga el estado Completado, Inactivo o Pendiente de aprobación solo si el administrador de Workfront o un administrador de grupos han habilitado esta funcionalidad en el área Preferencias del proyecto. Para obtener información sobre cómo configurar las Preferencias de proyecto, consulte [Configurar las preferencias de proyecto de todo el sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 * Solo puede editar la siguiente información en un proyecto con estado Inactivo o Completado:
 
-   * Modificar los gastos existentes.
-   * Añadir, quitar o editar formularios personalizados.
+  * Modificar los gastos existentes.
+  * Añadir, quitar o editar formularios personalizados.
 
 ## Edición de un proyecto
 
@@ -310,7 +308,7 @@ Para obtener información sobre cómo crear un proyecto a partir de una plantill
       </tr> 
       <tr> 
       <td role="rowheader"><strong>Portafolio</strong></td> 
-      <td>Indique una Portfolio a la que pertenezca el proyecto. Primero debe crear una Portfolio, antes de que aparezca en la lista desplegable. Solo los portafolios activos pueden asociarse a un proyecto. Para obtener más información acerca de la creación de portafolios, vea <a href="../../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md" class="MCXref xref">Crear un portafolio </a>.
+      <td>Indique el Portafolio al que pertenece el proyecto. Para que un Portafolio aparezca en la lista desplegable, primero debe crearlo. Solo los portafolios activos pueden asociarse a un proyecto. Para obtener más información sobre la creación de portafolios, consulte <a href="../../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md" class="MCXref xref">Crear un portafolio </a>.
       <p><b>NOTAS</b></p>
       <ul>
       <li>Debe tener permisos de administración en el portafolio para poder añadirlo al proyecto o quitarlo de él.</li>
@@ -456,7 +454,10 @@ Para editar campos en el área Finanzas:
     <tbody> 
      <tr>
       <td><strong>Usar tipos de cambio de fecha efectiva del sistema</strong></td>
-      <td><p>Cuando se selecciona esta opción, siempre se utilizan las tasas de cambio efectivas por fecha a nivel de sistema y no se permiten las anulaciones de tasas de cambio en el proyecto.</p> <p>También debe seleccionar la <strong>Fecha de tasa de cambio</strong> desde la que se debe comenzar, cuando se seleccione la opción.</p></td> 
+      <td><p>Seleccione esta opción para utilizar siempre las tasas de cambio efectivas por fecha a nivel del sistema y evitar las anulaciones de tasas de cambio en el proyecto.</p><p>Para obtener más información sobre las tasas de cambio, consulte <a href="../../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md" class="MCXref xref">Configurar tasas de cambio</a>. </p></td> 
+     </tr>
+     <tr><td><strong>Fecha de tasa de cambio</strong></td>
+     <td><p>Al seleccionar la opción para utilizar los tipos de cambio con fecha en vigor del sistema, también debe seleccionar una fecha. Esta fecha se utiliza para definir los tipos de cambio de los costes e ingresos planificados.</p><p>Por ejemplo, si la fecha de tipo de cambio es el 12 de febrero, Workfront utiliza el tipo de cambio del sistema el 12 de febrero para las conversiones planificadas de divisas de costes e ingresos, incluso cuando el trabajo planificado se produce en otras fechas.</p><p>Para el coste y los ingresos reales, se utiliza el tipo de cambio de la fecha en la que se registran las horas.</p></td>
      </tr>
      <tr>
       <td><strong>Conservar información de tarifas de facturación del proyecto</strong></td>
@@ -542,7 +543,7 @@ Para editar campos en el área Finanzas:
        </tr> 
        <tr> 
        <td role="rowheader"><strong>Tipo de actualización</strong></td> 
-       <td> <p>Controla cuándo se guardan los cambios realizados en la escala de tiempo del proyecto en el proyecto o en las tareas principales. Por ejemplo, los siguientes cambios en el déclencheur del proyecto pueden actualizar la cronología del proyecto: 
+       <td> <p>Controla cuándo se guardan los cambios realizados en la cronología del proyecto en el proyecto o en las tareas principales. Por ejemplo, los siguientes cambios en el activador del proyecto pueden actualizar la cronología del proyecto: 
        <ul> 
        <li>Actualizar las fechas de las tareas</li> 
        <li>Cambiar relaciones de predecesoras de tareas</li> 
@@ -813,17 +814,17 @@ Tenga en cuenta lo siguiente al editar proyectos de forma masiva:
 
 * Además del indicador “Varios valores”, cuando las opciones seleccionadas son diferentes en al menos uno de los proyectos seleccionados, los campos que tienen varias opciones se muestran de una de las siguientes maneras:
 
-   * Los campos de casilla de verificación tienen una línea en lugar de una casilla de verificación para la opción que está marcada para algunos pero no para todos los proyectos seleccionados.
+  * Los campos de casilla de verificación tienen una línea en lugar de una casilla de verificación para la opción que está marcada para algunos pero no para todos los proyectos seleccionados.
 
-     ![Casillas de verificación de indicador de varios valores en el cuadro de edición masiva de proyectos](assets/multiple-values-indicator-check-boxes-bulk-edit-projects.png)
+    ![Casillas de verificación de indicador de varios valores en el cuadro de edición masiva de proyectos](assets/multiple-values-indicator-check-boxes-bulk-edit-projects.png)
 
-   * Los campos de tipo conmutador se muestran atenuados, con el conmutador en el centro para la opción que está habilitada para algunos pero no para todos los proyectos seleccionados.
+  * Los campos de tipo conmutador se muestran atenuados, con el conmutador en el centro para la opción que está habilitada para algunos pero no para todos los proyectos seleccionados.
 
   ![Varios valores resaltados en proyectos de edición masiva](assets/multiple-values-highlighted-bulk-edit-projects.png)
 
-   * Los campos del tipo de botón de opción que tienen algunas opciones seleccionadas, pero no todas, muestran todos los botones de opción como vacíos.
+  * Los campos del tipo de botón de opción que tienen algunas opciones seleccionadas, pero no todas, muestran todos los botones de opción como vacíos.
 
-     ![Botones de opción de indicador de varios valores editan masivamente el cuadro de proyecto](assets/multiple-values-indicator-radio-buttons-bulk-edit-projects.png)
+    ![Botones de opción de indicador de varios valores editan masivamente el cuadro de proyecto](assets/multiple-values-indicator-radio-buttons-bulk-edit-projects.png)
 
 * Cuando se actualiza una opción en un campo de varias opciones (por ejemplo, un campo que se muestra como un conjunto de opciones o casillas de verificación), todas las demás opciones deben coincidir entre los proyectos seleccionados.
 
@@ -843,7 +844,7 @@ Para editar proyectos de forma masiva:
 
 1. Seleccione varios proyectos en la lista.
 1. Haga clic en el icono **Editar** ![Editar icono](assets/edit-icon.png) en la parte superior de la lista.
-Se abre el cuadro de diálogo **Editar proyectos**.
+Se abrirá el cuadro de diálogo **Editar proyectos**.
 
    ![Editar proyectos en modal en lotes](assets/edit-projects-in-bulk-modal-unshimmed.png)
 
@@ -889,13 +890,13 @@ Según la forma en que el administrador de Workfront o el de grupos hayan modifi
 1. Haga clic en **Finanzas** para editar la información financiera de todos los proyectos seleccionados.
 Para obtener más información acerca de cómo editar el área de Finanzas, consulte la sección [Finanzas](#finance) en este artículo.
 1. Haga clic en **Configuración del proyecto** para editar la configuración de todos los proyectos seleccionados.
-Para obtener más información sobre cómo editar el área de Configuración del proyecto, consulte la sección [Configuración del proyecto](#project-settings) en este artículo.
+Para obtener más información acerca de cómo editar el área de Configuración del proyecto, vea la sección [Configuración del proyecto](#project-settings) en este artículo.
 1. Haga clic en **Configuración de tarea** para editar la configuración de tarea para todos los proyectos seleccionados.
 Para obtener más información acerca de cómo editar el área Configuración de tarea, consulte la sección [Configuración de tarea](#task-settings) en este artículo.
-1. Haga clic en **Configuración de problema** para editar la configuración de problema de todos los proyectos seleccionados.
-Para obtener más información acerca de cómo editar el área Configuración de problema, consulte la sección [Configuración de problema](#issue-settings) en este artículo.
+1. Haga clic en **Configuración de problema** para editar la configuración del problema de todos los proyectos seleccionados.
+Para obtener más información acerca de cómo editar el área Configuración del problema, consulte la sección [Configuración del problema](#issue-settings) en este artículo.
 1. Haga clic en **Acceso** para editar la configuración de acceso de todos los proyectos seleccionados.
-Para obtener más información acerca de cómo editar el área de acceso, consulte la sección [Acceso](#access) en este artículo.
+Para obtener más información acerca de cómo editar el área de acceso, vea la sección [Acceso](#access) en este artículo.
 1. Haga clic en **Comentario** y, a continuación, agregue un comentario en el espacio proporcionado. Workfront agrega el comentario en el área **Actualizaciones** de cada proyecto. Para obtener información sobre cómo actualizar el trabajo, vea [Actualizar trabajo](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 1. (Opcional) Para eliminar cualquier información que haya añadido en el cuadro Editar proyectos, pase el puntero por encima de un campo editado y, a continuación, haga clic en el icono de descartar **x** que hay en la parte superior derecha del campo.
 
