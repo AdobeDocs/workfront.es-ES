@@ -38,9 +38,9 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: a2fa27fa656dcc4a9799b20b734a7a0121470419
+source-git-commit: 4ea8bc003ce17978be5e5a6fd838012dfcfeae78
 workflow-type: tm+mt
-source-wordcount: '3385'
+source-wordcount: '3296'
 ht-degree: 5%
 ---
 # Configurar mis ajustes
@@ -421,10 +421,12 @@ Puede cambiar cualquiera de las siguientes opciones en esta subsección:
     &lt;/p> &lt;/td>
 </tr>
   --&gt; 
+  <!--
   <tr> 
-   <td role="rowheader"><strong>(Condicional) [!UICONTROL El usuario puede generar pruebas (... de ... licencias de revisión restantes)]</strong></td> 
-   <td>Este campo está disponible solamente si su compañía usa un paquete de [!DNL Workfront] heredado y compró el componente [!DNL Workfront Proof]. Cuando se selecciona, se le habilita como usuario de revisión. También muestra el número de licencias de revisión utilizadas en el sistema del número total de licencias de revisión adquiridas. Este campo es visible y editable solamente para los usuarios que también son administradores de [!DNL Workfront]. Para obtener más información acerca de las opciones de plan para la revisión en [!DNL Workfront], vea <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md">Acceso a la funcionalidad de revisión en [!DNL Workfront]</a>.</td>
+   <td role="rowheader"><strong>(Conditional) [!UICONTROL User can generate proofs (... out of ... proof licenses left)]</strong></td> 
+   <td>This field is available only if your company uses a legacy [!DNL Workfront] package and has purchased the [!DNL Workfront Proof] component. When it is selected, you are enabled as a proofing user. It also displays the number of proof licenses used in your system out of the total number of proof licenses purchased. This field is visible and editable only to users who are also [!DNL Workfront] administrators. For more information about the plan options for proofing in [!DNL Workfront], see <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md">Access to proofing functionality in [!DNL Workfront]</a>.</td>
   </tr> 
+  -->
   <tr> 
    <td role="rowheader"><strong>(Condicional) [!UICONTROL Perfil de permisos]</strong></td> 
    <td> <p>Este campo muestra el nivel de acceso que tiene en [!DNL Workfront Proof]. Solo está disponible si:</p> 
@@ -529,7 +531,7 @@ Utilice cualquiera de las siguientes opciones en esta sección:
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!UICONTROL FTE]</strong> </td> 
-   <td> <p>El número que especifique aquí se tiene en cuenta para calcular su disponibilidad según el horario predeterminado sólo cuando las [!UICONTROL Preferencias de administración de recursos] en el nivel del sistema están establecidas en <strong>[!UICONTROL Horario predeterminado]</strong>.</p> <p>Por ejemplo, si el valor de FTE es 0,5 y el horario predeterminado de  es 40 horas, puede trabajar durante 20 horas a la semana.</p> <p>Si las [!UICONTROL Preferencias de administración de recursos] en el nivel del sistema están establecidas en <strong>[!UICONTROL Horario del usuario]</strong>, el valor que especifique aquí se omitirá y podrá trabajar según lo especificado en su horario. En este caso, el valor de FTE para [!UICONTROL Resource Planner] se calcula mediante la fórmula siguiente: </p> <p><code style="font-style: normal;">[!UICONTROL User Available FTE] = [!UICONTROL Hours from the Schedule of the User/ Default Schedule Hours]</code> </p> <p>Para obtener más información sobre el cálculo de FTE de usuario, vea <a href="../../../resource-mgmt/resource-planning/calculate-hours-fte-for-users-roles-resource-planner.md" class="MCXref xref">Información general sobre el cálculo de horas y FTE para usuarios y roles en el Planificador de recursos</a>.</p> <p>Para obtener más información acerca de la creación de programaciones en [!DNL Workfront], vea <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref">Crear una programación</a>.</p> <p>Para obtener más información acerca de cómo configurar las preferencias de administración de recursos, vea <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md" class="MCXref xref">Configurar las preferencias de administración de recursos</a>.</p> </td> 
+   <td> <p>El número que especifique aquí se tiene en cuenta para calcular su disponibilidad según el horario predeterminado sólo cuando las [!UICONTROL Preferencias de administración de recursos] en el nivel del sistema están establecidas en <strong>[!UICONTROL Horario predeterminado]</strong>.</p> <p>Por ejemplo, si el valor de FTE es 0,5 y el horario predeterminado de [!UICONTROL] es 40 horas, puede trabajar durante 20 horas a la semana.</p> <p>Si las [!UICONTROL Preferencias de administración de recursos] en el nivel del sistema están establecidas en <strong>[!UICONTROL Horario del usuario]</strong>, el valor que especifique aquí se omitirá y podrá trabajar según lo especificado en su horario. En este caso, el valor de FTE para [!UICONTROL Resource Planner] se calcula mediante la fórmula siguiente: </p> <p><code style="font-style: normal;">[!UICONTROL User Available FTE] = [!UICONTROL Hours from the Schedule of the User/ Default Schedule Hours]</code> </p> <p>Para obtener más información sobre el cálculo de FTE de usuario, vea <a href="../../../resource-mgmt/resource-planning/calculate-hours-fte-for-users-roles-resource-planner.md" class="MCXref xref">Información general sobre el cálculo de horas y FTE para usuarios y roles en el Planificador de recursos</a>.</p> <p>Para obtener más información acerca de la creación de programaciones en [!DNL Workfront], vea <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref">Crear una programación</a>.</p> <p>Para obtener más información acerca de cómo configurar las preferencias de administración de recursos, vea <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md" class="MCXref xref">Configurar las preferencias de administración de recursos</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!UICONTROL Costo por hora]</strong> </td> 

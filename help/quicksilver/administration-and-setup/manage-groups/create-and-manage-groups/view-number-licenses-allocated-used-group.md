@@ -22,10 +22,10 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: cb0f538ff392ebff585fbdeeba3729d9b2247292
 workflow-type: tm+mt
-source-wordcount: '469'
-ht-degree: 90%
+source-wordcount: '476'
+ht-degree: 56%
 ---
 # Ver el número de licencias asignadas y utilizadas en un grupo
 
@@ -72,11 +72,16 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
 1. En el panel izquierdo, haga clic en **Grupos** ![Grupos](assets/groups-icon.png).
 
 1. Haga clic en el nombre del grupo.
-1. En la página que se muestra, en el área del encabezado cerca de la esquina superior derecha, vea el área de **Licencias en uso** para ver el número de licencias de **Plan** y **Trabajo** que se están usando actualmente.
+1. En la página que se muestra, en el área de encabezado cerca de la esquina superior derecha, vea el área de **Licencias en uso** para ver el número de licencias que se están usando actualmente.
 
-   Si está viendo un grupo de nivel superior y el administrador de Workfront ha definido un número máximo de cada tipo de licencia para el grupo, también se muestran estos números. Por ejemplo, en el grupo siguiente, un máximo de 10 usuarios pueden tener una licencia de planificación y un máximo de 15 pueden tener una licencia de trabajo:
+   Según el paquete de Workfront, las licencias pueden ser:
 
-   ![Licencias asignadas](assets/licenses-used-allocated.png)
+   * **Estándar** y **Claro**
+   * **Plan** y **Trabajo**
+
+   ![Licencias asignadas](assets/how-many-licenses-standard-light.png)
+
+   Si está viendo un grupo de nivel superior y el administrador de Workfront ha definido un número máximo de cada tipo de licencia para el grupo, estos números también se muestran como una proporción. Por ejemplo, 2/10 significa que se han asignado dos licencias de cada diez disponibles.
 
    Para obtener información sobre cómo un administrador de Workfront define un número máximo de licencias asignadas para un grupo, consulte la sección [Establecer el recuento máximo de licencias para un grupo de inicio](../../../administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md#set) en el artículo [Administrar licencias disponibles en el sistema](../../../administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md).
 
@@ -84,15 +89,14 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
    >
    >Si el grupo que está viendo es un subgrupo, solo puede ver el número de licencias que se están utilizando, no el número máximo de licencias asignadas para el grupo. Esto se debe a que los administradores de Workfront no definen un recuento máximo de licencias para un subgrupo.
    >
-   >![Licencias usadas en el subgrupo](assets/subgroup-used-licenses-only.png)
-   >
 
-1. Para obtener recuentos independientes de cada tipo de licencia que se use actualmente en el grupo (incluidas las de revisión y solicitud), haga clic en el área de texto que se encuentra directamente debajo de **Licencias en uso:**
+1. Para obtener recuentos independientes de cada tipo de licencia que se utiliza actualmente en el grupo (incluidas Revisar y Solicitar), haga clic en el área que muestra las licencias en uso.
 
-   ![Haga clic para ver más](assets/click-text-to-see-more.png)
+   El cuadro que aparece proporciona la misma información para todos los tipos de licencia de Workfront aplicables. Según el paquete de Workfront, podría ser:
 
-   El cuadro que aparece proporciona la misma información para los cuatro tipos de licencia de Workfront: Plan, Trabajo, Revisión y Solicitud. En la parte inferior del cuadro, puede ver el número total de licencias que utilizan los miembros de este grupo o uno de sus subgrupos:
+   * Estándar, Claro, Colaborador y Externo
+   * Planificar, trabajar, revisar y solicitar
 
-   ![Más información sobre la licencia](assets/more-license-info.png)
+   En la parte inferior del cuadro, puede ver el número total de licencias que utilizan los miembros de este grupo o uno de sus subgrupos.
 
    En el caso de las licencias de revisión y solicitud, la columna Máx. siempre muestra Ilimitado.
