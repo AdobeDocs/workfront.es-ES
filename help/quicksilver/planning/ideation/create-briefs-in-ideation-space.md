@@ -18,9 +18,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: e209f8e5ada29b1c488fcfe42c13c6c9523a26bd
+source-git-commit: 17607dd765bdd4892ddc455cee48ab45db1fcd6b
 workflow-type: tm+mt
-source-wordcount: '1621'
+source-wordcount: '1776'
 ht-degree: 2%
 ---
 
@@ -138,27 +138,36 @@ Para obtener más información acerca de los requisitos de acceso de Workfront, 
 
 Puede crear informes para crear o editar registros de Planning o para crear archivos que se pueden exportar a otras aplicaciones.
 
-1. Inicie sesión en Workfront con Planning donde se ha activado el compañero y realice una de las siguientes acciones:
+1. Inicie sesión en Workfront con Planning donde se ha activado Colaborador y realice una de las siguientes acciones para abrir el espacio de ideación por primera vez para crear informes:
 
-   * Vaya a **Menú principal** > **Espacio de ideación**
-   * Vaya a **Menú principal** > **Planificación** > haga clic en un área de trabajo > haga clic en un tipo de registro > **Nuevo registro** > **Iniciar el espacio de ideación**
-
-     Para obtener más información acerca de cómo crear registros con el espacio de ideación, vea [Crear registros de Planning a partir de los informes del espacio de ideación](/help/quicksilver/planning/ideation/create-records-in-ideation-space-for-planning.md).
-   * Vaya a **Menú principal** > **Planning** > haga clic en un área de trabajo > haga clic en un tipo de registro > haga clic en un registro existente > **Abrir en el espacio de ideación**
+   * Vaya al **Menú principal** ![Menú principal](assets/main-menu-lines.png) > **Espacio de ideación**
+   * Vaya a **Menú principal** ![Menú principal](assets/main-menu-lines.png) > **Planificación** > haga clic en un área de trabajo > haga clic en un tipo de registro > **Nuevo registro** > **Iniciar espacio de ideación**
 
    El Espacio de ideación se abre y una nueva ideación se titula de forma predeterminada con el siguiente formato:
 
    `catalyze-canvas-< number > - Month date, year at time` <!--submitted bug to change the default name to "Untitled ideation"-->
 
-   Si abre una ideación de un registro existente, el nombre de la ideación coincide con el nombre del registro.
+   Para obtener más información acerca de cómo crear registros con el espacio de ideación, vea [Crear registros de Planning a partir de los informes del espacio de ideación](/help/quicksilver/planning/ideation/create-records-in-ideation-space-for-planning.md).
 
-1. (Recomendado) Haga clic en el nombre de la ideación para cambiarlo.
+1. (Condicional) Para abrir una descripción existente en el espacio de ideación, inicie sesión en Workfront con Planning donde se haya activado el compañero y realice una de las siguientes acciones:
+
+   * Vaya a **Menú principal** ![Menú principal](assets/main-menu-lines.png) > **Planning** > haga clic en un área de trabajo > haga clic en un tipo de registro > haga clic en un registro existente > **Abrir en el espacio de ideación**
+
+     El nombre de ideación coincide con el nombre del registro.
+
+1. (Recomendado) Haga clic en el nombre de la ideación para cambiar el nombre, si lo ha abierto por primera vez.
 
 1. (Condicional y opcional) Para abrir otro espacio de ideación existente, haga clic en el menú desplegable situado a la derecha del nombre de la ideación, búsquela por su nombre y, a continuación, haga clic en la ideación cuando se muestre en la lista.
 
-1. Cuando se abre **Espacio de ideación**, el CX Coworker se abre a la derecha. Utilice el símbolo del sistema de Compañero de trabajo para describir el tipo de informe que desea crear.
+   El **espacio de ideación** se abre y el CX Coworker se abre a la derecha.
+1. Utilice el símbolo del sistema de Compañero de trabajo para describir el tipo de informe que desea crear.
 
    Por ejemplo, escriba &quot;Crear una campaña de regreso a la escuela para estudiantes de K-12 que se ejecute durante el mes de agosto, para padres y maestros en los Estados Unidos&quot;.  Para que la información sea lo más completa posible, indique la mayor cantidad de información disponible sobre qué tipo de campaña, cronología, partes interesadas, puntos de comprobación de aprobaciones y otros detalles.
+1. (Opcional) Haga clic en el icono **+** del cuadro Petición de datos a Coworker y adjunte información de las siguientes maneras:
+
+   * **Comandos**: Use un comando de la lista para solicitar contenido a Coworker.
+   * **Adjuntar archivo**: Adjunte un archivo al cuadro de mensaje para agregarlo o su información al espacio de ideación. Debe pedir a su compañero que cree tarjetas basadas en el archivo para posteriormente enviar las tarjetas al informe.
+   * **Hacer referencia a un objeto**: seleccione un objeto de la lista para hacer referencia a él en su ideación. El objeto debe existir en Workfront.
 
 1. Haga clic en Entrar.
 
@@ -171,6 +180,11 @@ Puede crear informes para crear o editar registros de Planning o para crear arch
 1. (Condicional) Cuando el Compañero de trabajo ofrezca crear tarjetas para la ideación, responda **Sí**.
 
    Las tarjetas se añaden al espacio de ideación y puede ver las fuentes de cada tarjeta y decidir cuál añadir a la información breve.
+
+   >[!TIP]
+   >
+   >No puede agregar archivos directamente al informe. Primero debe transferir la información del archivo a las tarjetas que puede enviar al informe.
+
 
 1. Haga clic en el icono **Buscar** ![Icono de búsqueda](assets/search-icon.png) para buscar elementos en el espacio de ideación y, a continuación, haga clic en cuando se muestre en la lista para navegar hasta él.
 
