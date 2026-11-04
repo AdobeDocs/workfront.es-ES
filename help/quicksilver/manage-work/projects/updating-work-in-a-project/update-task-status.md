@@ -28,13 +28,11 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 00706e8c7ed590cf112f4817da9740a970a4a4b3
 workflow-type: tm+mt
-source-wordcount: 636
+source-wordcount: '636'
 ht-degree: 68%
-
 ---
-
 # Actualizar el estado de una tarea
 
 <!--Audited: 10/2024-->
@@ -112,10 +110,19 @@ Old:
 
 * Cuando marca una tarea como Completada, el porcentaje completado de la tarea se actualiza al 100 %.
 * Existen los siguientes escenarios para las tareas principales:
-   * No se puede actualizar el estado de una tarea principal a Completo cuando el modo de finalización de resumen del proyecto está establecido en Automático y las subtareas no se han completado.
-   * Puede actualizar el estado de una tarea principal a Completado cuando el modo de finalización de resumen del proyecto esté establecido en Manual y las subtareas estén completadas o incompletas.
+  * No se puede actualizar el estado de una tarea principal a Completo cuando el modo de finalización de resumen del proyecto está establecido en Automático y las subtareas no se han completado.
+  * Puede actualizar el estado de una tarea principal a Completado cuando el modo de finalización de resumen del proyecto esté establecido en Manual y las subtareas estén completadas o incompletas.
 
   Para obtener más información, consulte [Editar proyectos](../manage-projects/edit-projects.md).
+
+<!--
+* If a task status is deleted or becomes unavailable, the Status of the task displays as Not applicable.  As a user with Manage permissions to the task, you can update the status to a different one, or ask a Workfront administrator to recreate the status or add a new one. 
+-->
+
+<!--
+IN THE ABOVE NOTE: ensure this is the status, because I asked for a change to "Not available"
+ALSO: see in the steps below for more commented out text. 
+-->
 
 ## Actualizar manualmente el estado de una tarea
 
@@ -152,6 +159,12 @@ Para actualizar manualmente el estado de la tarea en el encabezado de tarea:
    >[!IMPORTANT]
    >
    >  Solo las personas asignadas a tareas pueden actualizar la fecha de confirmación.
+
+<!--
+1. (Conditional) When the status of the task is **Not applicable**, click the warning sign next to the **Status** field, select a new status from the list, then click **Save**. (*****************VERIFY UI - I ASKED FOR "Not available)
+
+  If you don't see an acceptable status, ask your administrator to create one.
+-->
 
 <!--
 old functionality in old commenting: 
