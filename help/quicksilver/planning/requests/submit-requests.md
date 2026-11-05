@@ -32,9 +32,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 00706e8c7ed590cf112f4817da9740a970a4a4b3
+source-git-commit: bf5e862df3570b568d7eb03cbf9b44674cff19ed
 workflow-type: tm+mt
-source-wordcount: '3233'
+source-wordcount: '3288'
 ht-degree: 4%
 ---
 # Enviar solicitudes de Planificación de Workfront de Adobe para crear registros
@@ -219,7 +219,7 @@ Al activar esta configuración, los formularios de solicitud de Workfront Planni
    >
    >Los valores de los campos de registro conectados dependientes están limitados por las reglas de dependencia entre los registros. Para obtener más información, consulte [Administrar conexiones dependientes](/help/quicksilver/planning/architecture/manage-dependent-connections.md).
    >
-   ><!--<span class="preview">When there is a conflict in the selected values of a dependent field on the request form, you must resolve the conflict before you can save the form.</span>-->
+   ><span class="preview">Cuando hay un conflicto en los valores seleccionados de un campo dependiente en el formulario de solicitud, debe resolverlo antes de guardar el formulario.</span>
 
 1. (Opcional y condicional) Haga clic en **Rellenar formulario** para adjuntar un archivo y hacer que AI rellene el formulario con información incluida en el archivo. <!--Workfront fills in the fields on the form based on information from previous requests.-->
 
@@ -294,7 +294,7 @@ Al activar esta configuración, los formularios de solicitud de Workfront Planni
    >* La edición de una solicitud solo es posible cuando aún no se ha creado un registro y la solicitud está pendiente de aprobación.
    >* Algunos campos son de solo lectura y no se pueden editar.
    >* Ya no puede editar una solicitud después de crear un registro a partir de ella.
-   ><!--* <span class="preview">When there is a conflict in the selected values of a dependent field on the request, you must resolve the conflict before you can save the request.</span>-->
+   >* <span class="preview">Cuando hay un conflicto en los valores seleccionados de un campo dependiente en la solicitud, debe resolverlo antes de guardar la solicitud.</span>
 
 1. (Opcional) Después de editar la solicitud, haga clic en **Enviar cambios**.
 1. (Condicional) Si el formulario de solicitud no está asociado a una aprobación, o si la solicitud se ha aprobado, haga clic en el nombre de la solicitud y, a continuación, haga clic en el nombre del registro en el campo **Objeto creado**.

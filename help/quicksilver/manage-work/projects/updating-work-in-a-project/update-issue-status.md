@@ -30,10 +30,10 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 00706e8c7ed590cf112f4817da9740a970a4a4b3
+source-git-commit: bf5e862df3570b568d7eb03cbf9b44674cff19ed
 workflow-type: tm+mt
-source-wordcount: '641'
-ht-degree: 98%
+source-wordcount: '732'
+ht-degree: 86%
 ---
 # Actualizar el estado de un problema
 
@@ -124,16 +124,9 @@ Para obtener más información sobre los estados personalizados y los tipos de p
 * [Crear o editar un estado](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md)
 * [Crear problemas](../../../manage-work/issues/manage-issues/create-issues.md)
 
-<!--
-
 >[!NOTE]
 >
->If an issue status is deleted or becomes unavailable, the Status of the issue displays as Not applicable.  As a user with Manage permissions to the issue, you can update the status to a different one, or ask a Workfront administrator to recreate the status or add a new one. 
--->
-<!--
-IN THE ABOVE NOTE: ensure this is the status, because I asked for a change to "Not available"
-ALSO: see in the steps below for more commented out text. 
--->
+>Si se elimina un estado de problema o deja de estar disponible, el estado del problema se muestra como No disponible.  Como usuario con permisos de administración del problema, puede actualizar el estado a uno diferente o pedir a un administrador de Workfront que vuelva a crear el estado o agregue uno nuevo.
 
 
 Puede actualizar manualmente los estados de los problemas o dejar que Workfront los actualice automáticamente cuando se realicen determinadas acciones.
@@ -174,11 +167,10 @@ Para actualizar de forma manual el estado del problema en el encabezado del mism
    >
    >  Solo las personas asignadas al problema pueden actualizar la fecha de confirmación.
 
-<!--
-1. (Conditional) When the status of the issue is **Not applicable**, click the warning sign for the **Status** field, select a new status from the list, then click **Save**. (*****************VERIFY UI - I ASKED FOR "Not available)
+1. (Condicional) Cuando el estado del problema sea **_No disponible_**, haga clic en el signo de advertencia del campo **Estado**, seleccione un nuevo estado en la lista y, a continuación, haga clic en **Guardar**.
 
-  If you don't see an acceptable status, ask your administrator to create one.
--->
+Si no ve un estado aceptable, pídale al administrador que cree uno.
+
 
 <!--
 Old instructions, in old commenting: 

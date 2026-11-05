@@ -5,9 +5,9 @@ author: Courtney
 draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 8f435f1c501822066f115b33c0d89727e72d57c1
+source-git-commit: c2ff8f01bd660c91e249394e39820bfb5477b382
 workflow-type: tm+mt
-source-wordcount: '1137'
+source-wordcount: '1168'
 ht-degree: 17%
 ---
 
@@ -134,6 +134,28 @@ Las mejoras de esta página están disponibles en el entorno de vista previa. Es
 <!--
         <tr>
             <td>
+                <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-documents.md">Consistent review and approval buttons across documents</a></p>
+                <p>Review and approval buttons now look and work the same everywhere you review documents, and some buttons have new names.</p>
+            </td>
+            <td><p>November 5, 2026</p></td>
+            <td><p>December 17, 2026</p></td>
+            <td><p>January 21, 2027</p></td>
+        </tr>
+-->     
+<!--   
+        <tr>
+            <td>
+                <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-documents.md">Turn the Approved with changes decision on or off</a></p>
+                <p>System Administrators can now turn the "Approved with changes" decision on or off for document approvals.</p>
+            </td>
+            <td><p>November 5, 2026</p></td>
+            <td><p>December 17, 2026</p></td>
+            <td><p>January 21, 2027</p></td>
+        </tr>
+-->
+<!--
+        <tr>
+            <td>
                 <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-documents.md">Delegate unified document approvals</a></p>
                 <p>You can now delegate your unified document approvals to another user, who can approve, reject, or mark reviews complete on your behalf.</p>
             </td>
@@ -147,7 +169,7 @@ Las mejoras de esta página están disponibles en el entorno de vista previa. Es
                 <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-documents.md">Configurar notificaciones unificadas por correo electrónico de revisión y aprobación</a></p>
                 <p>Ahora puede configurar las 18 notificaciones de correo electrónico de revisión y aprobación unificadas, y sus líneas de asunto cambian ligeramente.</p>
             </td>
-            <td> <p>Esta función no está disponible temporalmente en el entorno de vista previa.</p></td>
+            <td> <p>5 de noviembre.</p></td>
             <td><p>12 de noviembre de 2026</p></td>
             <td><p>21 de enero de 2027</p></td>
         </tr>
@@ -194,6 +216,16 @@ Las mejoras de esta página están disponibles en el entorno de vista previa. Es
         </tr>
         <tr>
             <td>
+                <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-projects.md">Guía de estado no disponible</a></p>
+                <p>Cuando un problema, tarea o estado de proyecto guardado no está disponible, ahora una advertencia explica por qué y muestra el código de estado guardado.</p>
+                <p>[!BADGE Off schedule]{type=Neutral}</p>
+            </td>
+            <td><p>4 de noviembre de 2026</p></td>
+            <td><p>4 de noviembre de 2026</p></td>
+            <td><p>4 de noviembre de 2026</p></td>
+        </tr>
+        <tr>
+            <td>
                 <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-projects.md">Anclar subprocesos a la parte superior de las actualizaciones</a></p>
                 <p>Ahora puede fijar los hilos más importantes en la parte superior del área de Actualizaciones en un proyecto, tarea, problema o solicitud para que la información clave permanezca visible para su equipo.</p>
             </td>
@@ -215,6 +247,17 @@ Las mejoras de esta página están disponibles en el entorno de vista previa. Es
             <td><strong>Versión rápida</strong></td>
             <td><strong>Trimestralmente</strong></td>
         </tr>
+<!--
+        <tr>
+            <td>
+                <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-other.md">Enhanced list button and icon improvements</a></p>
+                <p>Button text and icons in all enhanced lists now match for a more consistent interface across Workfront.</p>
+            </td>
+            <td><p>November 5, 2026</p></td>
+            <td><p>December 17, 2026</p></td>
+            <td><p>January 21, 2027</p></td>
+        </tr>
+-->
         <tr>
             <td>
                 <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-other.md">Ver el recuento total de registros en las listas mejoradas</a></p>

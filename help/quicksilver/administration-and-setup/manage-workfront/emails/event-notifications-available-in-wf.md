@@ -30,16 +30,19 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 9803bd48a48eee4fc1df34e902b443f0306a63e5
 workflow-type: tm+mt
-source-wordcount: '5242'
-ht-degree: 99%
+source-wordcount: '5600'
+ht-degree: 94%
 ---
 # Tipos de notificaciones de eventos
 
 <!-- Audited: 1/2024 -->
 
+{{highlighted-preview}}
+
 Las notificaciones de eventos son correos electrónicos activados por varios tipos de eventos sobre objetos como proyectos, tareas y problemas, tal como se explica en [Notificaciones de eventos](../../../workfront-basics/using-notifications/event-notifications.md).
+
 
 Estas notificaciones se pueden configurar a nivel de sistema y de grupo:
 
@@ -98,7 +101,7 @@ Consulte también [Notificaciones: Se requiere una acción](../../../workfront-b
   <tr> 
    <td> <p>Problema</p> </td> 
    <td> <p>Asignación de un problema</p> </td> 
-   <td> <p>Persona a la que se ha asignado el problema</p> </td> 
+   <td> <p>Usuario al que se ha asignado el problema</p> </td> 
    <td> <p>Se me asigna un problema.</p> <p>La persona a la que se ha asignado el problema recibe una notificación por correo electrónico únicamente si el estado del proyecto es Actual y el del problema no es Cerrado o algo equivalente.</p> <p>Los usuarios con licencia básica, de colaborador, de revisión o de solicitud no reciben ninguna notificación.</p> </td> 
    <td> <p>Inactivo</p> </td> 
   </tr> 
@@ -106,7 +109,7 @@ Consulte también [Notificaciones: Se requiere una acción](../../../workfront-b
    <td> <p>Problema</p> </td> 
    <td> <p>Problema con aprobación pendiente</p> </td> 
    <td> <p>Aprobadores</p> </td> 
-   <td> <p>Necesito aprobar un problema.</p> <p>Los usuarios recibirán una notificación por correo electrónico para este evento dependiendo de si la opción “Cuando un proceso de aprobación incluye un rol, se requiere un aprobador en el equipo del proyecto” está habilitada, tal como se describe en <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/establish-approval-settings.md" class="MCXref xref">Configuración de la aprobación global</a>. </p> <p>Si esta opción está habilitada</strong>, se enviará una notificación por correo electrónico a todos los usuarios del sistema con la función de “aprobador”.</p> <p>Si esta opción está deshabilitada</strong>, únicamente los miembros del equipo del proyecto con el rol de “aprobador” recibirán una notificación por correo electrónico.</p> <p>Se envía una notificación si el proyecto se encuentra en estado de Planificación o Actual. </p> </td> 
+   <td> <p>Necesito aprobar un problema.</p> <p>Los usuarios recibirán una notificación por correo electrónico para este evento dependiendo de si la opción “Cuando un proceso de aprobación incluye una función, se requiere un aprobador en el equipo del proyecto” está habilitada, tal como se describe en <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/establish-approval-settings.md" class="MCXref xref">Configuración de la aprobación global</a>. </p> <p>Si esta opción está habilitada</strong>, se enviará una notificación por correo electrónico a todos los usuarios del sistema con la función de “aprobador”.</p> <p>Si esta opción está deshabilitada</strong>, únicamente los miembros del equipo del proyecto con el rol de “aprobador” recibirán una notificación por correo electrónico.</p> <p>Se envía una notificación si el proyecto se encuentra en estado de Planificación o Actual. </p> </td> 
    <td> <p>Inactivo</p> </td> 
   </tr> 
   <tr> 
@@ -957,3 +960,156 @@ Consulte también [Notificaciones: Delegación](../../../workfront-basics/using-
 | Tareas y problemas | Detener la delegación de tareas y problemas al asignado. | Asignado | Yo detengo la delegación de mis tareas y problemas (confirmación) | Activo (solo instantáneo) |
 | Tareas y problemas | Delegación de tarea y problema | Delegar | Alguien me delega sus tareas y problemas | Activo (solo instantáneo) |
 | Tareas y problemas | Detener delegación de tareas y problemas | Delegar | Alguien detiene la delegación de sus tareas y problemas en mí | Activo (solo instantáneo) |
+
+<div class="preview">
+
+## Aprobaciones unificadas
+
+
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <col> 
+ <col> 
+ <col> 
+ <thead> 
+  <tr> 
+   <th>Tipo de objeto</th> 
+   <th>Evento</th> 
+   <th>Destinatario</th> 
+   <th>Descripción</th> 
+   <th>Estado predeterminado</th> 
+  </tr> 
+ </thead> 
+ <tbody> 
+  <tr> 
+   <td> <p>Documento</p> </td> 
+   <td> <p>Añadido como aprobador o revisor</p> </td> 
+   <td> <p>Aprobador o revisor</p> </td> 
+   <td> <p>Se le agrega como aprobador o revisor en el momento de la aprobación de un documento.</p> </td> 
+   <td> <p>Activo</p> </td> 
+  </tr> 
+  <tr> 
+   <td> <p>Documento</p> </td> 
+   <td> <p>Eliminado como aprobador o revisor</p> </td> 
+   <td> <p>Aprobador o revisor</p> </td> 
+   <td> <p>Se le eliminará de la aprobación de un documento como aprobador o revisor.</p> </td> 
+   <td> <p>Activo</p> </td> 
+  </tr> 
+  <tr> 
+   <td> <p>Documento</p> </td> 
+   <td> <p>Función cambiada</p> </td> 
+   <td> <p>Aprobador o revisor</p> </td> 
+   <td> <p>Su función de aprobador o revisor cambia al aprobar un documento.</p> </td> 
+   <td> <p>Activo</p> </td> 
+  </tr> 
+  <tr> 
+   <td> <p>Documento</p> </td> 
+   <td> <p>Decisión tomada: aprobada</p> </td> 
+   <td> <p>Propietario de documento</p> </td> 
+   <td> <p>Un aprobador toma una decisión de Aprobado al aprobar un documento.</p> </td> 
+   <td> <p>Activo</p> </td> 
+  </tr> 
+  <tr> 
+   <td> <p>Documento</p> </td> 
+   <td> <p>Decisión tomada: aprobada con cambios</p> </td> 
+   <td> <p>Propietario de documento</p> </td> 
+   <td> <p>Un aprobador toma una decisión de Aprobado con cambios en una aprobación de documento.</p> </td> 
+   <td> <p>Activo</p> </td> 
+  </tr> 
+  <tr> 
+   <td> <p>Documento</p> </td> 
+   <td> <p>Decisión tomada: necesita trabajo</p> </td> 
+   <td> <p>Propietario de documento</p> </td> 
+   <td> <p>Un aprobador toma una decisión de Necesita trabajar en una aprobación de documento.</p> </td> 
+   <td> <p>Activo</p> </td> 
+  </tr> 
+  <tr> 
+   <td> <p>Documento</p> </td> 
+   <td> <p>Aprobación finalizada - Aprobada</p> </td> 
+   <td> <p>Propietario de documento</p> </td> 
+   <td> <p>La aprobación de un documento finaliza con una decisión final de Aprobado.</p> </td> 
+   <td> <p>Activo</p> </td> 
+  </tr> 
+  <tr> 
+   <td> <p>Documento</p> </td> 
+   <td> <p>Aprobación finalizada - Aprobada con cambios</p> </td> 
+   <td> <p>Propietario de documento</p> </td> 
+   <td> <p>La aprobación de un documento finaliza con una decisión final de Aprobado con cambios.</p> </td> 
+   <td> <p>Activo</p> </td> 
+  </tr> 
+  <tr> 
+   <td> <p>Documento</p> </td> 
+   <td> <p>Aprobación finalizada - Necesita trabajo</p> </td> 
+   <td> <p>Propietario de documento</p> </td> 
+   <td> <p>La aprobación de un documento finaliza con una decisión final de Necesidades de trabajo.</p> </td> 
+   <td> <p>Activo</p> </td> 
+  </tr> 
+  <tr> 
+   <td> <p>Documento</p> </td> 
+   <td> <p>Revisión finalizada</p> </td> 
+   <td> <p>Propietario de documento</p> </td> 
+   <td> <p>Un revisor finaliza la revisión de una aprobación de documento.</p> </td> 
+   <td> <p>Activo</p> </td> 
+  </tr> 
+  <tr> 
+   <td> <p>Documento</p> </td> 
+   <td> <p>Se han completado todas las revisiones</p> </td> 
+   <td> <p>Propietario de documento</p> </td> 
+   <td> <p>Todos los revisores completan su revisión cuando aprueban un documento.</p> </td> 
+   <td> <p>Activo</p> </td> 
+  </tr> 
+  <tr> 
+   <td> <p>Documento</p> </td> 
+   <td> <p>Se acerca la fecha límite</p> </td> 
+   <td> <p>Aprobador o revisor</p> </td> 
+   <td> <p>La aprobación de documento de la que forma parte se acerca a su fecha límite.</p> </td> 
+   <td> <p>Activo</p> </td> 
+  </tr> 
+  <tr> 
+   <td> <p>Documento</p> </td> 
+   <td> <p>Fecha límite superada</p> </td> 
+   <td> <p>Aprobador o revisor</p> </td> 
+   <td> <p>Una aprobación de documento de la que forma parte pasa su fecha límite sin una decisión final.</p> </td> 
+   <td> <p>Activo</p> </td> 
+  </tr> 
+  <tr> 
+   <td> <p>Documento</p> </td> 
+   <td> <p>Recordatorio: 24 horas</p> </td> 
+   <td> <p>Aprobador o revisor</p> </td> 
+   <td> <p>Le quedan 24 horas para revisar y aprobar el documento.</p> </td> 
+   <td> <p>Activo</p> </td> 
+  </tr> 
+  <tr> 
+   <td> <p>Documento</p> </td> 
+   <td> <p>Recordatorio: 72 horas</p> </td> 
+   <td> <p>Aprobador o revisor</p> </td> 
+   <td> <p>Le quedan 72 horas para revisar y aprobar el documento.</p> </td> 
+   <td> <p>Activo</p> </td> 
+  </tr> 
+  <tr> 
+   <td> <p>Documento</p> </td> 
+   <td> <p>Documentos añadidos o eliminados de una aprobación agrupada</p> </td> 
+   <td> <p>Aprobador o revisor</p> </td> 
+   <td> <p>Los documentos se agregan o eliminan de una aprobación de documento agrupada de la que forma parte.</p> </td> 
+   <td> <p>Activo</p> </td> 
+  </tr> 
+  <tr> 
+   <td> <p>Vídeo</p> </td> 
+   <td> <p>Se acerca el límite de aprobación de vídeos (80 %)</p> </td> 
+   <td> <p>Administrador del sistema/grupo</p> </td> 
+   <td> <p>Una aprobación de vídeo alcanza el 80 % del límite de aprobación de vídeo de su plan.</p> </td> 
+   <td> <p>Activo</p> </td> 
+  </tr> 
+  <tr> 
+   <td> <p>Vídeo</p> </td> 
+   <td> <p>Se ha alcanzado el límite de aprobación de vídeo</p> </td> 
+   <td> <p>Administrador del sistema/grupo</p> </td> 
+   <td> <p>Una aprobación de vídeo alcanza el límite de aprobación de vídeo de su plan.</p> </td> 
+   <td> <p>Activo</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+</div>

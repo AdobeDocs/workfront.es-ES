@@ -26,10 +26,10 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 0ab5dffb538623d0bfcb44b54fb33833594ac649
+source-git-commit: f1e77f9f6d479fe4317dbe2195fede0c4635757e
 workflow-type: tm+mt
-source-wordcount: '574'
-ht-degree: 96%
+source-wordcount: '570'
+ht-degree: 86%
 ---
 # Instalación del Visor de corrección de escritorio
 
@@ -78,8 +78,8 @@ Si no es así, puede seguir los pasos siguientes.
 
 1. Realice una de las siguientes acciones para descargar la aplicación:
 
-   * Si está usando el entorno de producción, haga clic en [Descarga de producción de Mac para el Visor de corrección de escritorio.](https://app.proofhq.com/desktopviewer/mac)
-   * Si está usando el entorno de vista previa, haga clic en [Descarga de vista previa de Mac para el Visor de corrección de escritorio.](https://app.preview.proofhq.com/desktopviewer/mac)
+   * Si está usando el entorno Producción, haga clic en [Descarga de producción para el Visor de corrección de escritorio.](https://us.my.workfront.com/proof/desktopviewer)
+   * Si está usando el entorno de vista previa, haga clic en [Vista previa descargada para el Visor de revisiones de escritorio.](https://us.preview.workfront.com/proof/desktopviewer)
 
 1. Abra el archivo que acaba de descargar para iniciar la instalación.
 1. En el cuadro de instalación que aparece, haga clic en **Continuar** y, a continuación, en **Instalar**.
@@ -102,8 +102,8 @@ Si el administrador de Workfront o Workfront Proof ha descargado la aplicación 
 
 1. Realice una de las siguientes acciones para descargar la aplicación:
 
-   * En el entorno de producción, haga clic en [Descarga de producción de Windows para el Visor de corrección de escritorio.](https://app.proofhq.com/desktopviewer/windows)
-   * En el entorno de vista previa, haga clic en [Descarga de vista previa de Windows para el Visor de corrección de escritorio](https://assets.preview.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Preview+Setup+2.1.44.exe)
+* Si está usando el entorno Producción, haga clic en [Descarga de producción para el Visor de corrección de escritorio.](https://us.my.workfront.com/proof/desktopviewer)
+* Si está usando el entorno de vista previa, haga clic en [Vista previa descargada para el Visor de revisiones de escritorio.](https://us.preview.workfront.com/proof/desktopviewer)
 
 1. Abra el archivo que acaba de descargar para iniciar la instalación.
 1. En el cuadro de instalación que aparece, abra el archivo que acaba de descargar para iniciar la instalación.
