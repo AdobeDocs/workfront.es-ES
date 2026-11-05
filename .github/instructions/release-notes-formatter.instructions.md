@@ -18,7 +18,7 @@ true, que incluye las plantillas y el calendario de versiones:
 
 ## Regla crítica: determine primero el trimestre doc
 
-> [!IMPORTANT]
+&#x200B;> [!IMPORTANT]
 > Nunca asigne una función a un trimestre doc usando matemáticas de trimestre calendario en su
 > Vista previa o fecha de producción. El trimestre del documento se basa en el **lanzamiento mensual**
 > la función se envía en, por la agrupación de calendario de versiones interna de Workfront, que
