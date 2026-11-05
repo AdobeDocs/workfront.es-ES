@@ -19,9 +19,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
+source-git-commit: 1eaa497ba7e446f7fdf978f369205f309bbe231f
 workflow-type: tm+mt
-source-wordcount: '1043'
+source-wordcount: '1088'
 ht-degree: 18%
 ---
 
@@ -42,6 +42,8 @@ CX Enterprise Coworker es una interfaz conversacional en la que se describe un o
 El compañero preserva todo lo que hace el asistente de IA hoy en día, a la vez que agrega funcionalidades integrales más potentes tanto en una nueva experiencia de pantalla completa como en el carril derecho de Workfront.
 
 Funciona dentro de los controles de acceso de nivel de producto existentes en su organización, por lo que los usuarios solo pueden realizar acciones para las que ya están permitidos en Workfront, con acceso de solo lectura de forma predeterminada y acceso de escritura controlado por los administradores de Workfront.
+
+Los compañeros de trabajo utilizan las capacidades del servidor MCP de Workfront para realizar acciones en su nombre. Para obtener más información, consulte [Aptitudes de Workfront en CX Enterprise Coworker](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-skills.md).
 
 >[!IMPORTANT]
 >
@@ -159,11 +161,11 @@ Puede localizar a un compañero en las siguientes áreas de Workfront Planning:
 
    Busque el icono **Coworker** ![Icono de Coworker](assets/coworker-icon.png) en la esquina superior derecha de la página o continúe con los pasos a continuación.
 
-1. Haga clic en una **tarjeta del espacio de trabajo**.
+1. Realice una de las siguientes acciones:
 
-1. Haga clic en **tarjeta de tipo de registro**.
-
-1. Haga clic en un **registro** para abrir la página **Detalles** del registro y, a continuación, haga clic en el icono **Abrir en ficha nueva** ![Abrir en ficha nueva](assets/open-workspace-on-new-tab-icon.png) .
+* Haga clic en una **tarjeta del espacio de trabajo**.
+* Haga clic en **tarjeta de tipo de registro**.
+* Haga clic en un **registro** para abrir la página **Detalles** del registro y, a continuación, haga clic en el icono **Abrir en ficha nueva** ![Abrir en ficha nueva](assets/open-workspace-on-new-tab-icon.png) .
 
 1. Haga clic en el **icono de compañero** ![icono de compañero](assets/coworker-icon.png) en la esquina superior derecha de la pantalla.
 
@@ -173,7 +175,9 @@ Puede localizar a un compañero en las siguientes áreas de Workfront Planning:
 
    Por ejemplo, puede escribir una de las siguientes opciones:
 
-   * Cree un nuevo registro de campaña llamado Rebajas de verano de 2026
+   * Cree un espacio de trabajo y asígnele el nombre &quot;Equipo de marketing&quot;.
+   * Cree un tipo de registro de campaña y de persona en esta área de trabajo.
+   * Cree un registro de campaña llamado Rebajas de verano de 2026
    * Actualice el campo de presupuesto en el registro Campaña de verano a 75 000 $
    * Elimine el registro de campaña denominado Promoción antigua
    * Restaurar la campaña que eliminé accidentalmente
