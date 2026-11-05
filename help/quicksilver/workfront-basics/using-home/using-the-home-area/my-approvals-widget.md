@@ -26,10 +26,10 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 2c62a1bacd6b2826f08e11a84f55e174cdd313c3
+source-git-commit: 2df240b7a3c04c34f37337532e5a94fc0b12769f
 workflow-type: tm+mt
-source-wordcount: '523'
-ht-degree: 20%
+source-wordcount: '757'
+ht-degree: 14%
 ---
 # Administrar las aprobaciones con el widget Mis aprobaciones
 
@@ -44,6 +44,10 @@ El widget Mis aprobaciones admite aprobaciones de los siguientes objetos de Work
 * Pruebas
 * Solicitudes de registro de planificación
 * Hojas de horas
+
+>[!NOTE]
+>
+>Si su organización utiliza el almacenamiento en la nube de Adobe, solo aparecerá en el widget una aprobación de documento cuando se comparta con usted el proyecto que contiene el documento.
 
 ## Requisitos de acceso
 
@@ -79,6 +83,7 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
 +++
 
 ## Aprobar trabajo desde el widget Mis aprobaciones
+
 
 1. Haga clic en el **[!UICONTROL Menú principal]** ![icono del menú principal](assets/main-menu-icon.png) en la esquina superior derecha y, a continuación, haga clic en **[!UICONTROL Inicio]**.
 1. (Condicional) Haga clic en **Personalizar** para agregar el widget **Mis aprobaciones**.
@@ -161,8 +166,25 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
    </tr>
    </table>
 
-Después de tomar una decisión, la aprobación se elimina del widget Mi aprobación.
+## Cuando se eliminen las aprobaciones del widget
 
->[!NOTE]
->
->Las aprobaciones de trabajo también se pueden eliminar del widget Mis aprobaciones cuando el proyecto, la tarea o el problema están marcados como Resuelto, En espera, Cerrado o Cancelado.
+Se elimina una aprobación del widget Mis aprobaciones después de tomar una decisión al respecto. Las aprobaciones también se eliminan en las siguientes situaciones:
+
+* **Aprobaciones de trabajo**: las aprobaciones de proyectos, tareas y problemas se eliminan del widget cuando el proyecto se encuentra en uno de los siguientes estados:
+  * Completar
+  * Inactivo
+  * En espera
+
+  >[!NOTE]
+  >
+  >Si un proyecto está pendiente de aprobación, aún se puede mostrar la aprobación del proyecto para sus aprobadores actuales, pero no se muestra ninguna aprobación de sus tareas y problemas.
+
+
+* **Aprobaciones de documentos heredadas**: las aprobaciones de documentos heredadas se quitan del widget en función del estado del objeto al que está directamente adjunto el documento, no en un objeto principal. La aprobación se elimina cuando el objeto se encuentra en uno de los siguientes estados:
+  * Proyecto: completo o muerto
+  * Tarea: completada
+  * Problema: Cerrado o un estado que equivale a Cerrado. Esto incluye Resuelto, No se resuelve, No se puede duplicar y Verificado completado.
+
+* **Aprobaciones unificadas**: las aprobaciones unificadas permanecen en el widget, independientemente del estado del proyecto, la tarea o el problema. Su visibilidad está controlada por el flujo de trabajo de aprobación y sus responsabilidades de aprobación pendientes, de modo que se puede eliminar una aprobación del widget antes de que se complete todo el flujo de trabajo.
+
+Los estados personalizados siguen su asignación Igual a, por lo que un estado que se equipare con cualquiera de los estados anteriores produce el mismo resultado. La aprobación puede permanecer pendiente en el objeto incluso cuando se elimina del widget. Para obtener más información acerca de los estados personalizados, vea [Crear o editar un estado](/help/quicksilver/administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
