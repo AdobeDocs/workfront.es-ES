@@ -16,7 +16,7 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 43aa6b279bef07ccc2c02beda018d138274d95f4
 workflow-type: tm+mt
 source-wordcount: '11542'
 ht-degree: 8%
@@ -27,11 +27,11 @@ Esta página contiene información sobre la estructura y el contenido de los dat
 
 >[!NOTE]
 >
->Los datos de Data Connect se actualizan cada 4 horas, por lo que es posible que los cambios recientes no se reflejen de inmediato.
+>Los datos de Data Connect se actualizan cada cuatro horas, por lo que es posible que los cambios recientes no se reflejen inmediatamente.
 
 ## Tipos de vista
 
-Existen varios tipos de vistas que puede utilizar en Data Connect para ver los datos de Workfront de una manera que le proporcione la mayor cantidad de insight.
+Existen varios tipos de vistas que puede utilizar en Data Connect para ver los datos de Workfront de una manera que proporcione la mayor cantidad de insight.
 
 * **Vista actual**
 
@@ -49,9 +49,9 @@ Existen varios tipos de vistas que puede utilizar en Data Connect para ver los d
 
 ## Diagramas de relación de entidad
 
-Los objetos de Workfront (y, por lo tanto, de su repositorio de datos de Data Connect) se definen no solo por sus valores individuales, sino también por sus relaciones con otros objetos.
+Los objetos de Workfront (y, por lo tanto, de su lago de datos de Data Connect) se definen no solo por sus valores individuales, sino por sus relaciones con otros objetos.
 
-Los siguientes diagramas de relación de entidades (ERD) proporcionan una asignación de alto nivel de relaciones de objetos en Data Connect para objetos principales de Workfront.
+Los siguientes diagramas de relación de entidades (ERD) proporcionan una asignación de alto nivel de relaciones de objetos en Data Connect para objetos Workfront principales.
 
 >[!IMPORTANT]
 >
@@ -116,7 +116,7 @@ La siguiente tabla correlaciona los nombres de objeto en Workfront (así como su
 
 >[!NOTE]
 >
->Se pueden añadir nuevos campos a las vistas de objetos sin previo aviso para satisfacer las cambiantes necesidades de datos de la aplicación de Workfront. Advertimos que no se deben utilizar consultas &quot;SELECT&quot; en las que el destinatario de datos descendentes no esté preparado para gestionar columnas adicionales a medida que se agregan.<br>
+>Se pueden añadir nuevos campos a las vistas de objetos sin previo aviso para satisfacer las cambiantes necesidades de datos de la aplicación de Workfront. Advertimos que no se deben utilizar consultas &quot;SELECT *&quot; en las que el destinatario de datos descendentes no esté preparado para gestionar columnas adicionales a medida que se agregan.<br>
 >Si es necesario cambiar el nombre de una columna o eliminarla, notificaremos estos cambios con antelación.
 
 ### Nivel de acceso
@@ -1715,15 +1715,15 @@ La siguiente tabla correlaciona los nombres de objeto en Workfront (así como su
 >
 >El tipo de registro se identifica mediante la propiedad `enumClass`. Los siguientes son los tipos esperados: <br>
 ><ul><li>CONDITION_OPTASK</li>
->&gt;<li>CONDITION_PROJ</li>
->&gt;<li>CONDITION_TASK</li>
->&gt;<li>PRIORITY_OPTASK</li>
->&gt;<li>PRIORITY_PROJ</li>
->&gt;<li>PRIORITY_TASK</li>
->&gt;<li>SEVERITY_OPTASK</li>
->&gt;<li>STATUS_OPTASK</li>
->&gt;<li>STATUS_PROJ</li>
->&gt;<li>STATUS_TASK</li></ul>
+&gt;<li>CONDITION_PROJ</li>
+&gt;<li>CONDITION_TASK</li>
+&gt;<li>PRIORITY_OPTASK</li>
+&gt;<li>PRIORITY_PROJ</li>
+&gt;<li>PRIORITY_TASK</li>
+&gt;<li>SEVERITY_OPTASK</li>
+&gt;<li>STATUS_OPTASK</li>
+&gt;<li>STATUS_PROJ</li>
+&gt;<li>STATUS_TASK</li></ul>
 
 
 ### Documento
@@ -6719,7 +6719,7 @@ Disponibilidad limitada del cliente
     </tbody>
 </table>
 
-### Rol de miembro del equipo
+### Función de miembro del equipo
 
 <table>
     <thead>
@@ -6733,10 +6733,10 @@ Disponibilidad limitada del cliente
       </thead>
       <tbody>
         <tr>
-            <td>Rol de miembro del equipo</td>
-            <td>Rol de miembro del equipo</td>
+            <td>Función de miembro del equipo</td>
+            <td>Función de miembro del equipo</td>
             <td>TEAMMR.</td>
-            <td>Rol de miembro del equipo</td>
+            <td>Función de miembro del equipo</td>
             <td>TEAMMEMBERROLES_CURRENT<br>TEAMMEMBERROLES_DAILY_HISTORY<br>TEAMMEMBERROLES_EVENT</td>
         </tr>
       </tbody>
@@ -8551,7 +8551,7 @@ Disponibilidad limitada del cliente
     </tbody>
 </table>
 
-### Rol de usuario
+### Función de usuario
 
 <table>
     <thead>
@@ -8565,10 +8565,10 @@ Disponibilidad limitada del cliente
       </thead>
       <tbody>
         <tr>
-            <td>Rol de usuario</td>
+            <td>Función de usuario</td>
             <td>Otras funciones</td>
             <td>USRROL</td>
-            <td>Rol de usuario</td>
+            <td>Función de usuario</td>
             <td>USERSROLES_CURRENT<br>USERSROLES_DAILY_HISTORY<br>USERSROLES_EVENT</td>
         </tr>
       </tbody>
