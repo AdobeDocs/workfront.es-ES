@@ -28,10 +28,10 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 00706e8c7ed590cf112f4817da9740a970a4a4b3
+source-git-commit: bf5e862df3570b568d7eb03cbf9b44674cff19ed
 workflow-type: tm+mt
-source-wordcount: '636'
-ht-degree: 68%
+source-wordcount: '728'
+ht-degree: 59%
 ---
 # Actualizar el estado de una tarea
 
@@ -115,14 +115,7 @@ Old:
 
   Para obtener más información, consulte [Editar proyectos](../manage-projects/edit-projects.md).
 
-<!--
-* If a task status is deleted or becomes unavailable, the Status of the task displays as Not applicable.  As a user with Manage permissions to the task, you can update the status to a different one, or ask a Workfront administrator to recreate the status or add a new one. 
--->
-
-<!--
-IN THE ABOVE NOTE: ensure this is the status, because I asked for a change to "Not available"
-ALSO: see in the steps below for more commented out text. 
--->
+* Si el estado de una tarea se elimina o deja de estar disponible, el estado de la tarea se muestra como No disponible.  Como usuario con permisos de Administración de la tarea, puede actualizar el estado a uno diferente o pedir a un administrador de Workfront que vuelva a crear el estado o añada uno nuevo.
 
 ## Actualizar manualmente el estado de una tarea
 
@@ -160,11 +153,10 @@ Para actualizar manualmente el estado de la tarea en el encabezado de tarea:
    >
    >  Solo las personas asignadas a tareas pueden actualizar la fecha de confirmación.
 
-<!--
-1. (Conditional) When the status of the task is **Not applicable**, click the warning sign next to the **Status** field, select a new status from the list, then click **Save**. (*****************VERIFY UI - I ASKED FOR "Not available)
+1. (Condicional) Cuando el estado de la tarea sea **_No disponible_**, haga clic en el signo de advertencia situado junto al campo **Estado**, seleccione un nuevo estado en la lista y, a continuación, haga clic en **Guardar**.
 
-  If you don't see an acceptable status, ask your administrator to create one.
--->
+Si no ve un estado aceptable, pídale al administrador que cree uno.
+
 
 <!--
 old functionality in old commenting: 
