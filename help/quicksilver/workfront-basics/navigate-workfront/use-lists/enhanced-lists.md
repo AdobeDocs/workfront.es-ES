@@ -25,9 +25,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 16e4d70d45e4f312d31f3cd491754820ef0c9b9d
+source-git-commit: 238371e2026eaf216c2b3b554f5fe9d8101263e4
 workflow-type: tm+mt
-source-wordcount: '3531'
+source-wordcount: '3611'
 ht-degree: 2%
 ---
 # Uso de listas mejoradas
@@ -149,6 +149,19 @@ En función de la lista mejorada que esté viendo, realice una de las siguientes
    >Tenga en cuenta que no todas las listas admiten todos los tipos de campos.
 
 ![Ejemplo de lista mejorada](assets/glist-exchange-rates.png)
+
+## Editar elementos en línea
+
+Algunas listas mejoradas permiten editar objetos en línea. Cuando se edita la información sobre los objetos mostrados en una lista, el objeto se actualiza inmediatamente.
+
+En la lista:
+
+1. Busque el elemento que desea editar y, a continuación, haga clic dentro de cualquier campo de la lista.
+1. Edite la información dentro de esta celda y, a continuación, pulse Entrar.
+1. Pulse Tab para desplazarse a la siguiente celda editable.
+1. Cuando termine de modificar todas las celdas, presione Entrar para guardar los cambios.
+
+![Editar lista mejorada en línea](assets/edit-enhanced-list-inline.png)
 
 ## Editar elementos mediante la barra de acciones
 
