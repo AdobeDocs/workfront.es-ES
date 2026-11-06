@@ -30,10 +30,10 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4784329bf6d1e8e1ba0c1061809bfcec3ab3873f
+source-git-commit: cda89e85b94d1669e33aa572dfd21cd9e594def9
 workflow-type: tm+mt
-source-wordcount: '494'
-ht-degree: 86%
+source-wordcount: '553'
+ht-degree: 76%
 ---
 # Crear reglas de enrutamiento
 
@@ -132,6 +132,10 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
 
    Este proceso solo define la regla de enrutamiento. Para asegurarse de que el problema se enrute cuando se envíe a la cola de solicitudes, debe seleccionar la regla de enrutamiento en la ficha **Detalles de cola** en **Ruta predeterminada**.
 
+   Para editar una regla de enrutamiento existente, haga clic en cualquier celda para agregar o cambiar la información. La regla de enrutamiento se actualiza automáticamente.
+   La lista de reglas de enrutamiento es una lista mejorada y puede tener una funcionalidad diferente a la de otras listas de Workfront. Para obtener más información acerca de las listas mejoradas, vea [Usar listas mejoradas](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
+
    Para obtener información sobre cómo agregar una ruta predeterminada a una cola de solicitudes, consulte [Crear una cola de solicitudes](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
    Si desea asociar varias reglas de enrutamiento a la cola de solicitudes, debe crear varios temas de cola y asociar cada uno de ellos con una regla de enrutamiento independiente. Para obtener más información acerca de cómo crear un tema de cola, consulte [Crear temas de cola](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
+
