@@ -10,10 +10,10 @@ product_v2:
 feature_v2:
   - id: c042179c-157b-516d-b27c-e3bf303e8567
     internal-label: Get Started with Workfront
-source-git-commit: 18e1d35b98b8c1afc6f9c1b14dba73d160b7e420
+source-git-commit: 4ce90527f9255cab318f64d6a489d0e81822bf4b
 workflow-type: tm+mt
-source-wordcount: '609'
-ht-degree: 7%
+source-wordcount: '552'
+ht-degree: 8%
 ---
 # Uso de CX Enterprise Coworker en Workfront
 
@@ -88,9 +88,6 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
 1. Para ver y administrar los chats anteriores, haz clic en el icono de chats ![Icono de chats](assets/ai-icon.png) en el panel Compañero de trabajo.
 
    Para obtener más información sobre chats, consulta [Administrar tus chats](https://experienceleague.adobe.com/es/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide#manage-your-chats) en la documentación de Adobe CX Enterprise Coworker.
-1. Para ver y administrar artefactos de chat, como listas de salida, haga clic en el icono de artefactos ![Icono de artefactos](assets/artifacts-icon.png).
-
-   Para obtener más información sobre los artefactos en Coworker, consulte [Artefactos](https://experienceleague.adobe.com/es/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide#artifacts) en la documentación de Adobe CX Enterprise Coworker.
-1. Para administrar la configuración de Coworker, haga clic en el icono Configuración ![Configuración](assets/coworker-settings-icon.png).
 1. Para expandir el panel Compañero de trabajo, haga clic en el icono Expandir ![Icono Expandir](assets/coworker-expand-icon.png).
 1. Para entrar a la interfaz de Adobe CX Enterprise Coworker, haga clic en el icono de aplicaciones ![Icono de aplicaciones](assets/apps-icon.png) en la esquina superior derecha de la página y seleccione Compañero de trabajo en la lista de aplicaciones disponibles.
+
