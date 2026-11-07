@@ -18,9 +18,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 1eaa497ba7e446f7fdf978f369205f309bbe231f
+source-git-commit: b19d0b1bcda5a4f0f2b6b2caf986e1e4dbc9773a
 workflow-type: tm+mt
-source-wordcount: '1851'
+source-wordcount: '1849'
 ht-degree: 2%
 ---
 
@@ -185,7 +185,7 @@ Puede crear informes para crear o editar registros de Planning o para crear arch
 
 1. (Condicional y opcional) Para abrir otro espacio de ideación existente, haga clic en el menú desplegable situado a la derecha del nombre de la ideación, búsquela por su nombre y, a continuación, haga clic en la ideación cuando se muestre en la lista.
 
-   El **espacio de ideación** se abre y el CX Coworker se abre a la derecha.
+   Se abre **el espacio de ideación** y el Compañero de trabajo se abre a la derecha.
 1. Utilice el símbolo del sistema de Compañero de trabajo para describir el tipo de informe que desea crear.
 
    Por ejemplo, escriba &quot;Crear una campaña de regreso a la escuela para estudiantes de K-12 que se ejecute durante el mes de agosto, para padres y maestros en los Estados Unidos&quot;.  Para que la información sea lo más completa posible, indique la mayor cantidad de información disponible sobre qué tipo de campaña, cronología, partes interesadas, puntos de comprobación de aprobaciones y otros detalles.
