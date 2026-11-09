@@ -17,16 +17,22 @@ feature_v2:
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: d37b33ba0d7f3abaecd7982bed165d5a30aa9c5d
 workflow-type: tm+mt
-source-wordcount: '777'
-ht-degree: 33%
+source-wordcount: '855'
+ht-degree: 30%
 ---
 # Campos de texto enriquecido en la API de Adobe Workfront
 
 <!-- Audited: 5/2025 -->
 
 Algunos objetos de Adobe Workfront permiten almacenar texto con formato de texto enriquecido. En la API de Workfront, el texto enriquecido se almacena como JSON mediante el marco de código abierto Draft.js.
+
+>[!NOTE]
+>
+>Los campos de texto enriquecido descritos en este artículo son los campos &quot;texto con formato&quot;. Este tipo de campo ya no está disponible para añadirse a nuevos campos, y los campos existentes deben convertirse al tipo de campo &quot;texto enriquecido&quot;.
+> 
+>Tenga en cuenta que los nuevos campos de texto enriquecido almacenan contenido como HTML, pero no almacenan ningún estilo que se haya aplicado en el editor de campos. La eliminación de la información de estilo del almacenamiento puede ayudar a evitar problemas inesperados de la interfaz de usuario y vulnerabilidades de seguridad.
 
 ## Ejemplo de información general
 
