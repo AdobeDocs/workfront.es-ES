@@ -51,13 +51,13 @@ Puede administrar las aprobaciones que se le hayan asignado o delegado desde el 
  </tbody> 
 </table>
 
-Las pruebas siguen un proceso de aprobación independiente. No puede aprobar una prueba a partir de un elemento de trabajo o de la aprobación de un documento. Para obtener información sobre cómo revisar y aprobar pruebas, consulte [Revisar y tomar decisiones sobre pruebas en la aplicación móvil de  [!DNL Adobe Workfront] ](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/work-with-proofs-in-mobile-app.md).
+Las pruebas siguen un proceso de aprobación independiente. No puede aprobar una prueba a partir de un elemento de trabajo o de la aprobación de un documento. Para obtener información sobre cómo revisar y aprobar pruebas, consulte [Revisar y tomar decisiones sobre pruebas en la aplicación móvil de  [!DNL Adobe Workfront] &#x200B;](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/work-with-proofs-in-mobile-app.md).
 
 ## Revisión de una aprobación
 
 1. Seleccione **[!UICONTROL Show all approvals]** en el área [!UICONTROL Approvals] de [!UICONTROL My Work].
 
-   Para obtener información sobre [!UICONTROL My Work] en la aplicación móvil, consulte la sección [[!UICONTROL My Work] en la aplicación móvil de ](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/my-work-section-mobile.md).
+   Para obtener información sobre [!UICONTROL My Work] en la aplicación móvil, consulte la sección [[!UICONTROL My Work] en la aplicación móvil de &#x200B;](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/my-work-section-mobile.md).
 
 1. Seleccione una aprobación en la lista.
 
