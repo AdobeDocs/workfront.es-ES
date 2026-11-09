@@ -16,12 +16,18 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: a59c8515addb7c665be4021d0906021c86bb1ee9
 workflow-type: tm+mt
-source-wordcount: '266'
-ht-degree: 100%
+source-wordcount: '290'
+ht-degree: 91%
 ---
 # Aprobaciones en la aplicación móvil de [!DNL Adobe Workfront]
+
+>[!IMPORTANT]
+>
+>La aplicación móvil de Workfront está en modo de mantenimiento y ya no está en proceso de nuevo desarrollo.
+> 
+>La aplicación móvil de Workfront no admite aprobaciones unificadas.
 
 Puede administrar las aprobaciones que se le hayan asignado o delegado desde el área [!UICONTROL Approvals] de la aplicación móvil de [!DNL Adobe Workfront]. Desde el área [!UICONTROL approvals], puede aprobar:
 
@@ -45,13 +51,13 @@ Puede administrar las aprobaciones que se le hayan asignado o delegado desde el 
  </tbody> 
 </table>
 
-Las pruebas siguen un proceso de aprobación independiente. No puede aprobar una prueba a partir de un elemento de trabajo o de la aprobación de un documento. Para obtener información sobre cómo revisar y aprobar pruebas, consulte [Revisar y tomar decisiones sobre pruebas en la aplicación móvil de  [!DNL Adobe Workfront] ](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/work-with-proofs-in-mobile-app.md).
+Las pruebas siguen un proceso de aprobación independiente. No puede aprobar una prueba a partir de un elemento de trabajo o de la aprobación de un documento. Para obtener información sobre cómo revisar y aprobar pruebas, consulte [Revisar y tomar decisiones sobre pruebas en la aplicación móvil de  [!DNL Adobe Workfront] &#x200B;](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/work-with-proofs-in-mobile-app.md).
 
 ## Revisión de una aprobación
 
 1. Seleccione **[!UICONTROL Show all approvals]** en el área [!UICONTROL Approvals] de [!UICONTROL My Work].
 
-   Para obtener información sobre [!UICONTROL My Work] en la aplicación móvil, consulte la sección [[!UICONTROL My Work] en la aplicación móvil de ](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/my-work-section-mobile.md).
+   Para obtener información sobre [!UICONTROL My Work] en la aplicación móvil, consulte la sección [[!UICONTROL My Work] en la aplicación móvil de &#x200B;](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/my-work-section-mobile.md).
 
 1. Seleccione una aprobación en la lista.
 

@@ -16,12 +16,14 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: a59c8515addb7c665be4021d0906021c86bb1ee9
 workflow-type: tm+mt
 source-wordcount: '770'
 ht-degree: 97%
 ---
 # Revisar y tomar decisiones sobre pruebas en la aplicación móvil de [!DNL Adobe Workfront]
+
+{{mobile-maintenance-mode}}
 
 Cuando se le asigna una prueba para su aprobación, aparece en la lista de aprobaciones de la aplicación móvil. Puede revisar la prueba directamente en la aplicación y tomar una decisión al respecto. Para obtener información acerca de cómo revisar y aprobar pruebas en [!DNL Adobe Workfront], consulte [Revisar pruebas en [!DNL Adobe Workfront]](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-proofs-in-wf.md).
 

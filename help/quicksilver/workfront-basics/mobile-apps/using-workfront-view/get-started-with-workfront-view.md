@@ -26,12 +26,14 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: a59c8515addb7c665be4021d0906021c86bb1ee9
 workflow-type: tm+mt
 source-wordcount: '290'
 ht-degree: 92%
 ---
 # Introducción a [!DNL Adobe Workfront View]
+
+{{mobile-maintenance-mode}}
 
 Puede realizar un seguimiento del progreso de sus proyectos cuando esté de viaje mediante la aplicación móvil [!DNL Adobe Workfront View].
 
