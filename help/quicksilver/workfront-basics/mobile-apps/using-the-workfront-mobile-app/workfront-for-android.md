@@ -20,12 +20,14 @@ role_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
     internal-label: Security
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: a59c8515addb7c665be4021d0906021c86bb1ee9
 workflow-type: tm+mt
 source-wordcount: '540'
 ht-degree: 75%
 ---
 # [!DNL Adobe Workfront] para [!DNL Android]
+
+{{mobile-maintenance-mode}}
 
 La aplicación de [!DNL Adobe Workfront] permite acceder al trabajo en cualquier dispositivo [!DNL Android]. Puede instalar y usar la aplicación móvil [!DNL Workfront] en teléfonos y tabletas con [!DNL Android] 5.0 o posterior.
 
