@@ -26,12 +26,18 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: d37b33ba0d7f3abaecd7982bed165d5a30aa9c5d
 workflow-type: tm+mt
-source-wordcount: '174'
-ht-degree: 95%
+source-wordcount: '252'
+ht-degree: 66%
 ---
 # Almacenamiento de campo de texto enriquecido en la API
+
+>[!NOTE]
+>
+>Los campos de texto enriquecido descritos en este artículo son los campos &quot;texto con formato&quot;. Este tipo de campo ya no está disponible para añadirse a nuevos campos, y los campos existentes deben convertirse al tipo de campo &quot;texto enriquecido&quot;.
+> 
+>Tenga en cuenta que los nuevos campos de texto enriquecido almacenan contenido como HTML, pero no almacenan ningún estilo que se haya aplicado en el editor de campos. La eliminación de la información de estilo del almacenamiento puede ayudar a evitar problemas inesperados de la interfaz de usuario y vulnerabilidades de seguridad.
 
 Si un objeto, como un proyecto, un problema o una tarea, contiene texto enriquecido, se almacena y se puede acceder a él como un valor de parámetro a través de la API de Workfront.
 
