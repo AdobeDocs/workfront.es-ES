@@ -27,16 +27,14 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 3ca7080a33a12d54644a8a2e0637856a53af5954
 workflow-type: tm+mt
-source-wordcount: '480'
+source-wordcount: '470'
 ht-degree: 98%
 ---
 # Configurar el registro de asuntos pendientes en un tablero de flujo de trabajo
 
->[!IMPORTANT]
->
->Las secuencias de trabajo solo están disponibles para un grupo específico de clientes.
+{{boards-workstreams}}
 
 Puede elegir mostrar una columna de registro de asuntos pendientes en un tablero de una secuencia de trabajo y definir una consulta para las tarjetas que se incorporan al registro de asuntos pendientes del tablero desde la lista de tarjetas de la secuencia de trabajo.
 

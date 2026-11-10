@@ -26,18 +26,16 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 3ca7080a33a12d54644a8a2e0637856a53af5954
 workflow-type: tm+mt
-source-wordcount: '818'
+source-wordcount: '808'
 ht-degree: 99%
 ---
 # Uso del panel de control Tableros
 
 <!-- Audited: 1/2024 -->
 
->[!IMPORTANT]
->
->Las secuencias de trabajo solo están disponibles para un grupo específico de clientes.
+{{boards-workstreams}}
 
 El panel de control de tableros muestra la lista de tableros y flujos de trabajo a los que tiene acceso, incluidos los tableros que ha creado y los tableros a los que se le ha añadido. Primero se muestran los tableros individuales a los que tiene acceso que no forman parte de un flujo de trabajo.
 

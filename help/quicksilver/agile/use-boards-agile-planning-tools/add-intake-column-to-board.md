@@ -31,7 +31,7 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 588af2e164efa31b092254726cf1506134e1ef69
 workflow-type: tm+mt
 source-wordcount: '1018'
 ht-degree: 69%
@@ -39,6 +39,8 @@ ht-degree: 69%
 # Añadir una columna de aceptación a un tablero
 
 <!-- Audited: 5/2025 -->
+
+{{boards-maintenance-mode}}
 
 Si lo desea, puede agregar una columna de entrada al tablero que recupere automáticamente las tareas y los problemas como tarjetas conectadas cuando se agreguen en [!DNL Workfront] según los filtros que defina. La columna de entrada puede servir de registro de asuntos pendientes para un equipo de Kanban, como ubicación de entrada para que un equipo de soporte vea los problemas a medida que se añaden a la cola de solicitudes o para cualquier otro fin.
 

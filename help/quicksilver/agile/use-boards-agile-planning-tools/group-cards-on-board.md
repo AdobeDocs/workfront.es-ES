@@ -27,12 +27,14 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 588af2e164efa31b092254726cf1506134e1ef69
 workflow-type: tm+mt
 source-wordcount: '317'
 ht-degree: 98%
 ---
 # Usar grupos en un tablero
+
+{{boards-maintenance-mode}}
 
 Puede agrupar las tarjetas por asignado o etiqueta en un tablero. Cuando se selecciona una opción de agrupación, las tarjetas aparecen en formato de diagrama de flujos. Las tarjetas sin asignar o las tarjetas sin etiquetas aparecen en un diagrama de flujos.
 

@@ -27,12 +27,14 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 588af2e164efa31b092254726cf1506134e1ef69
 workflow-type: tm+mt
 source-wordcount: '200'
 ht-degree: 97%
 ---
 # Notificaciones por correo electrónico sobre preferencias de tableros
+
+{{boards-maintenance-mode}}
 
 [!DNL Adobe Workfront] [!UICONTROL Boards] le envía un correo electrónico cuando se le ha añadido a un tablero y cuando se le ha asignado una tarjeta. Las notificaciones están activadas de forma predeterminada y puede seleccionar entre las preferencias de sus tableros qué correos electrónicos desea recibir.
 

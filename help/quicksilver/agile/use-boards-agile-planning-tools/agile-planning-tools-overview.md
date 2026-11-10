@@ -22,14 +22,16 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 3ca7080a33a12d54644a8a2e0637856a53af5954
 workflow-type: tm+mt
-source-wordcount: '193'
-ht-degree: 64%
+source-wordcount: '179'
+ht-degree: 62%
 ---
 # Información general sobre las herramientas de planificación de Agile: índice del artículo
 
 <!-- Audited: 5/2025 -->
+
+{{boards-workstreams}}
 
 A medida que crea un tablero utilizando tarjetas ad hoc y conectadas, puede aprovechar las herramientas de planificación Agile adicionales.
 
@@ -44,10 +46,6 @@ Entre las herramientas útiles para Scrum se incluyen:
 * Flujos de trabajo y tableros de iteraciones
 * Lista de tarjetas o registro de asuntos pendientes
 * Métricas de iteración
-
->[!IMPORTANT]
->
->Los flujos de trabajo y sus herramientas relacionadas solo están disponibles para un grupo específico de clientes.
 
 Puede utilizar cualquiera o todas estas herramientas de una manera que funcione para usted y su equipo, sin comprometerse con una metodología Agile específica.
 

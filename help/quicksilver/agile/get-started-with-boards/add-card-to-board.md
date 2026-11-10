@@ -28,12 +28,14 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 588af2e164efa31b092254726cf1506134e1ef69
 workflow-type: tm+mt
 source-wordcount: '873'
 ht-degree: 42%
 ---
 # Añadir una tarjeta ad hoc a un tablero
+
+{{boards-maintenance-mode}}
 
 Puede añadir rápidamente una tarjeta a un tablero y asignarla a un miembro del tablero. La tarjeta puede representar una tarea, un problema, una persona, un grupo o cualquier tipo de elemento que desee incluir en el tablero.
 
@@ -167,7 +169,7 @@ Puede añadir tarjetas ad hoc con un solo título para rellenar rápidamente el 
 
    O
 
-   Haga clic en el menú **[!UICONTROL Más]** ![[!UICONTROL menú Más &#x200B;]](assets/more-icon-spectrum.png) de la tarjeta y seleccione **[!UICONTROL Editar]**.
+   Haga clic en el menú **[!UICONTROL Más]** ![[!UICONTROL menú Más ]](assets/more-icon-spectrum.png) de la tarjeta y seleccione **[!UICONTROL Editar]**.
 
 1. En el cuadro [!UICONTROL Detalles de la tarjeta], actualice la información según sea necesario y haga clic en **[!UICONTROL Cerrar]** para volver al tablero.
 
