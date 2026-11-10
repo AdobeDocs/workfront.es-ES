@@ -23,10 +23,10 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 50554892bd22133114e33d2806bf238cfb72ae45
 workflow-type: tm+mt
-source-wordcount: '505'
-ht-degree: 43%
+source-wordcount: '483'
+ht-degree: 45%
 ---
 # Reordenar los estados de grupo y de nivel del sistema
 
@@ -145,7 +145,7 @@ De forma predeterminada, los estados se muestran en el siguiente orden:
 
 ## Reordenar estados para problemas
 
-1. Haga clic en el icono **Menú principal** ![Icono del menú principal](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront y, a continuación, haga clic en **Configurar** ![Icono de configuración de engranajes](assets/gear-icon-settings.png).
+{#step-1-to-setup}
 
 1. Haga clic en **Preferencias de proyecto > Estados.**
 1. (Condicional) Si va a reordenar los estados de un grupo, empiece a escribir el nombre del grupo en el cuadro de la esquina superior derecha y, a continuación, haga clic en el nombre cuando aparezca.

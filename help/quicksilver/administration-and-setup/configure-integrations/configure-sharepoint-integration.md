@@ -40,10 +40,10 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 781aec7dbd13173fd601cfae366dd216cd0fa4f2
+source-git-commit: fff5e72b80bf72d3da5648dcce2109c518beb741
 workflow-type: tm+mt
-source-wordcount: '1861'
-ht-degree: 8%
+source-wordcount: '1811'
+ht-degree: 4%
 ---
 # Configurar integración de [!DNL SharePoint]
 
@@ -146,7 +146,7 @@ Para enviar un documento a SharePoint:
 
 Para ver y administrar las integraciones de [!DNL SharePoint] de su organización:
 
-1. Haga clic en el icono **[!UICONTROL Main Menu]** ![Menú principal](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront o, si está disponible, haga clic en el icono **[!UICONTROL Main Menu]** ![Menú principal](/help/_includes/assets/main-menu-icon-left-nav.png) en la esquina superior izquierda y, a continuación, haga clic en **[!UICONTROL Setup]** ![Icono de Configuración](/help/_includes/assets/gear-icon-setup.png).
+1. Haga clic en el icono **[!UICONTROL Menú principal]** ![Menú principal](/help/_includes/assets/main-menu-icon-left-nav.png) en la esquina superior izquierda de Workfront y, a continuación, haga clic en **[!UICONTROL Configuración]** ![Icono de configuración](/help/_includes/assets/gear-icon-setup.png).
 1. Seleccione **[!UICONTROL Documentos]** en el panel de navegación izquierdo, luego seleccione **[!UICONTROL [!DNL SharePoint]Integración]**.
 
    Aparecerá una lista de las [!DNL SharePoint] integraciones de su organización.
@@ -171,7 +171,7 @@ La primera vez que un usuario agrega un documento a [!DNL Workfront] desde [!DNL
 Se solicitan los siguientes permisos:
 
 | Acceso | Motivo |
-|---|---|
+| --- | --- |
 | Tener acceso completo a sus archivos | Permite que [!DNL Workfront] acceda a los archivos de un usuario para vincular recursos. Cuando los documentos se envían de [!DNL Workfront] a [!DNL SharePoint], [!DNL Workfront] requiere acceso para crear el recurso. |
 | Leer elementos en todas las colecciones de sitios | Permite que [!DNL Workfront] lea recursos para habilitar la navegación del usuario. |
 | Editar o eliminar elementos en todas las colecciones de sitios | Permite que [!DNL Workfront] cree recursos en sitios y colecciones de sitios. Eliminar solo se utiliza cuando se limpia después de intentos de vínculo fallidos. |
@@ -209,9 +209,9 @@ La reconfiguración de la integración heredada de [!DNL SharePoint] permite a l
 > * La integración heredada [!DNL SharePoint] está etiquetada como &quot;[!DNL SharePoint]&quot;.
 > * La nueva integración de [!DNL SharePoint] está etiquetada como &quot;[!UICONTROL [!DNL SharePoint] (API de gráficos)]&quot;.
 
-1. Haga clic en el icono **[!UICONTROL Main Menu]** ![Menú principal](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront o, si está disponible, haga clic en el icono **[!UICONTROL Main Menu]** ![Menú principal](/help/_includes/assets/main-menu-icon-left-nav.png) en la esquina superior izquierda y, a continuación, haga clic en **[!UICONTROL Setup]** ![Icono de Configuración](/help/_includes/assets/gear-icon-setup.png).
+1. Haga clic en el icono **[!UICONTROL Menú principal]** ![Menú principal](/help/_includes/assets/main-menu-icon-left-nav.png) en la esquina superior izquierda de Workfront y, a continuación, haga clic en **[!UICONTROL Configuración]** ![Icono de configuración](/help/_includes/assets/gear-icon-setup.png).
 1. Seleccione **[!UICONTROL Documentos]** en el panel de navegación izquierdo y luego seleccione **[!UICONTROL Proveedores de nube]**.
-1. Asegúrese de que la opción **[!DNL SharePoint]** y la opción **[!UICONTROL [!DNL SharePoint] (API de gráficos)]** estén habilitadas.
+1. Asegúrese de que la opción **[!DNL SharePoint]** y la opción **[!UICONTROL [!DNL SharePoint](API de gráficos)]** estén habilitadas.
 1. Haga clic en **[!UICONTROL Guardar]**.
 1. Seleccione **[!UICONTROL Documentos]** en el panel de navegación izquierdo, luego seleccione **[!UICONTROL [!DNL SharePoint]Integración]**.
 1. Seleccione la marca de verificación de la izquierda de la lista para todas las integraciones existentes y luego seleccione **[!UICONTROL Deshabilitar]**.
@@ -235,7 +235,7 @@ El secreto de cliente de [!DNL SharePoint] caduca una vez al año. Para garantiz
 1. Genere un nuevo secreto de cliente como se describe en [Reemplace un secreto de cliente que caduque en un [!DNL SharePoint] complemento](https://docs.microsoft.com/en-us/sharepoint/dev/sp-add-ins/replace-an-expiring-client-secret-in-a-sharepoint-add-in#generate-a-new-secret).
 1. Copie este Secreto del cliente a una ubicación segura.
 1. Inicie sesión en [!DNL Workfront] como administrador.
-1. En Workfront, haga clic en el icono **[!UICONTROL Menú principal]** ![Menú principal](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront o (si está disponible), haga clic en el icono **[!UICONTROL Menú principal]** ![Menú principal](/help/_includes/assets/main-menu-icon-left-nav.png) en la esquina superior izquierda y, a continuación, haga clic en **[!UICONTROL Configurar]** ![Icono de configuración](/help/_includes/assets/gear-icon-setup.png).
+1. En Workfront, haga clic en el icono **[!UICONTROL Menú principal]** ![Menú principal](/help/_includes/assets/main-menu-icon-left-nav.png) en la esquina superior izquierda y, a continuación, haga clic en **[!UICONTROL Configuración]** ![Icono de configuración](/help/_includes/assets/gear-icon-setup.png).
 1. En el panel izquierdo, haga clic en **[!UICONTROL Documentos]** > Integración de **[!UICONTROL [!DNL SharePoint]]**.
 1. Haga clic en la integración de [!DNL SharePoint] que desee actualizar y luego haga clic en **[!UICONTROL Editar]**.
 1. Busque la sección **Información de conexión** en la ventana de edición y, a continuación, escriba el nuevo Secreto de cliente en el campo **[!UICONTROL Secreto de cliente de SharePoint]**.
