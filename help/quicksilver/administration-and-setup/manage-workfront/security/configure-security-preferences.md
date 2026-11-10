@@ -38,7 +38,7 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: a3cf3050da6355c2b0929b24e3bfe7035db76117
+source-git-commit: d00e08bb44ff533f6bbdbbe6f932a85533514269
 workflow-type: tm+mt
 source-wordcount: '1543'
 ht-degree: 39%
@@ -102,26 +102,26 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader"> <p>Permitir un proceso de publicación rápida</p> </td> 
-      <td>Permite habilitar versiones mensuales de Workfront para su organización en lugar de versiones trimestrales.</p><p>Para obtener más información sobre el proceso de publicación rápida, consulte <a href="/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md" class="MCXref xref">Habilitar o deshabilitar las publicaciones rápidas para su organización</a>.</p></td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader"> <p>Permitir una incrustación en Workfront en un iframe</p> </td> 
-      <td>Permite incrustar Workfront en un iframe.<p>Esta opción está desactivada de forma predeterminada.</p><p><b>IMPORTANTE</b>: si se muestra una aplicación basada en web en un iframe, la aplicación será susceptible a una vulnerabilidad de seguridad por secuestro de clics.</p></td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Permitir la autenticación SAML 2.0 en los complementos de Office 365</td> 
-      <td> <p>Le permite incrustar Workfront en un iframe solo para complementos de Office 365 cuando Workfront está integrado con una solución de inicio de sesión único de SAML 2.0. </p> <p>Esta opción está habilitada de forma predeterminada.</p> <p><b>NOTA</b>: Si habilita la opción anterior, <strong>Permitir incrustación de Workfront en un iframe</strong>, la opción <strong>Permitir autenticación SAML 2.0 en complementos de Office 365</strong> se habilitará y se atenuará.</p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Habilite el uso de la información de sesión al crear direcciones URL de páginas externas.</td> 
-      <td> <p>Permite a los usuarios utilizar la información de ID de sesión de un sitio al añadir una página externa a un panel de control.</p> <p>Esta opción no es segura y está desactivada de forma predeterminada. Se recomienda utilizar en su lugar OAuth para integraciones.</p> <p>Para obtener más información sobre cómo añadir páginas externas a un panel de control, consulte <a href="../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md" class="MCXref xref">Incrustar una página web externa en un panel de control</a>.</p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Permitir que los usuarios usen las aplicaciones móviles de Workfront</td> 
-      <td> <p>Permite a los usuarios acceder a las aplicaciones móviles (vista de Workfront para aplicaciones de iPad y de teléfonos móviles)</p> <p>Esta opción está habilitada de forma predeterminada. </p> <p>Para obtener información sobre la vista de Workfront, consulte <a href="../../../workfront-basics/mobile-apps/using-workfront-view/use-workfront-view.md" class="MCXref xref">Utilizar la vista de Adobe Workfront</a>. Para obtener más información acerca de las aplicaciones móviles, consulte <a href="../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/use-the-mobile-app.md" class="MCXref xref">Usar la aplicación móvil de Adobe Workfront: índice de artículos</a>.</p> </td> 
-     </tr> 
-     <tr> 
+         <td role="rowheader"> <p>Permitir un proceso de publicación rápida</p> </td> 
+         <td>Permite habilitar versiones mensuales de Workfront para su organización en lugar de versiones trimestrales.</p><p>Para obtener más información sobre el proceso de publicación rápida, consulte <a href="/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md" class="MCXref xref">Habilitar o deshabilitar las publicaciones rápidas para su organización</a>.</p></td> 
+        </tr> 
+        <tr> 
+         <td role="rowheader"> <p>Permitir una incrustación en Workfront en un iframe</p> </td> 
+         <td>Permite incrustar Workfront en un iframe.<p>Esta opción está desactivada de forma predeterminada.</p><p><b>IMPORTANTE</b>: si se muestra una aplicación basada en web en un iframe, la aplicación será susceptible a una vulnerabilidad de seguridad por secuestro de clics.</p></td> 
+        </tr> 
+        <tr> 
+         <td role="rowheader">Permitir la autenticación SAML 2.0 en los complementos de Office 365</td> 
+         <td> <p>Le permite incrustar Workfront en un iframe solo para complementos de Office 365 cuando Workfront está integrado con una solución de inicio de sesión único de SAML 2.0. </p> <p>Esta opción está habilitada de forma predeterminada.</p> <p><b>NOTA</b>: Si habilita la opción anterior, <strong>Permitir incrustación de Workfront en un iframe</strong>, la opción <strong>Permitir autenticación SAML 2.0 en complementos de Office 365</strong> se habilitará y se atenuará.</p> </td> 
+        </tr> 
+        <tr> 
+         <td role="rowheader">Habilite el uso de la información de sesión al crear direcciones URL de páginas externas.</td> 
+         <td> <p>Permite a los usuarios utilizar la información de ID de sesión de un sitio al añadir una página externa a un panel de control.</p> <p>Esta opción no es segura y está desactivada de forma predeterminada. Se recomienda utilizar en su lugar OAuth para integraciones.</p> <p>Para obtener más información sobre cómo añadir páginas externas a un panel de control, consulte <a href="../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md" class="MCXref xref">Incrustar una página web externa en un panel de control</a>.</p> </td> 
+        </tr> 
+        <tr> 
+         <td role="rowheader">Permitir que los usuarios usen las aplicaciones móviles de Workfront</td> 
+         <td> <p>Permite a los usuarios acceder a las aplicaciones móviles (vista de Workfront para aplicaciones de iPad y de teléfonos móviles)</p> <p>Esta opción está habilitada de forma predeterminada. </p> <p>Para obtener información sobre la vista de Workfront, consulte <a href="../../../workfront-basics/mobile-apps/using-workfront-view/use-workfront-view.md" class="MCXref xref">Utilizar la vista de Adobe Workfront</a>. Para obtener más información acerca de las aplicaciones móviles, consulte <a href="../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/use-the-mobile-app.md" class="MCXref xref">Usar la aplicación móvil de Adobe Workfront: índice de artículos</a>.</p> </td> 
+        </tr> 
+        <tr> 
       <td role="rowheader"> <p>Colaborar con usuarios sin cuentas Workfront mediante el uso de sus direcciones de correo electrónico.</p> </td> 
       <td>Permite a los usuarios de Workfront compartir ciertos elementos con usuarios sin cuenta de Workfront incluyendo su dirección de correo electrónico en lugar de su nombre. Los usuarios pueden compartir los siguientes elementos con usuarios externos mediante su dirección de correo electrónico:
        <ul>
@@ -196,7 +196,6 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
     <tr> 
       <td role="rowheader">Diseñador de Planificación</td> 
       <td>Esto solo está disponible para los clientes que han adquirido un paquete de Workfront Planning. Activar esta configuración permite a los usuarios crear y editar espacios de trabajo con Planning Designer. Para obtener más información, consulte <a href="/help/quicksilver/planning/general/planning-ai-designer.md">Introducción a Adobe Workfront Planning Designer</a>.</td> 
-     </tr>.</td> 
      </tr>
      <tr> 
       <td role="rowheader">Herramientas MCP de solo lectura</td> 

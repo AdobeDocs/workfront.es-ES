@@ -25,10 +25,10 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 04335eec43d9690e7dbc028c2066039ae28be432
 workflow-type: tm+mt
-source-wordcount: '664'
-ht-degree: 89%
+source-wordcount: '660'
+ht-degree: 85%
 ---
 # Usar un estado personalizado como estado predeterminado para un grupo
 
@@ -77,16 +77,16 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
 
 ## Estados de los problemas
 
-Si el estado personalizado es un estado de problema, deben habilitarse los cuatro tipos de problemas (informe de errores, solicitud de cambio, problema y solicitud). Por ejemplo, en el estado de problema que se muestra a continuación, el estado Reabierto no se puede utilizar como estado por defecto porque el tipo de problema Solicitud de cambio no está seleccionado:
+Si el estado personalizado es un estado de problema, deben habilitarse los cuatro tipos de problemas (informe de errores, solicitud de cambio, problema y solicitud). Por ejemplo, en el estado de problema que se muestra a continuación, la idea de estado no se puede utilizar como estado predeterminado porque el tipo de problema de orden de cambio no está seleccionado:
 
-![Todos los tipos de problemas habilitados](assets/all-4-issue-types-enabled.png)
+![Todos los tipos de problemas habilitados](assets/new-all-issue-types-enabled.png)
 
 ## Definir un estado personalizado como estado predeterminado para un grupo
 
 {{step-1-to-setup}}
 
 1. En el panel izquierdo, haga clic en **Grupos** ![Grupos](assets/groups-icon.png) y, a continuación, haga clic en el nombre del grupo en el que desea crear o personalizar estados.
-1. En el panel izquierdo, haga clic en **Estados** ![icono de configuración de engranaje](assets/gear-icon-settings.png).
+1. En el panel izquierdo, haga clic en **Estados** ![icono de estado](assets/status-icon.png).
 1. Abra la pestaña **Proyecto**, **Tareas** o **Problemas**, según el tipo de estado que desee establecer como estado predeterminado.
 1. Haga clic en **Establecer estados predeterminados** cerca de la esquina superior derecha.
 1. En el área desplegable que se muestra, junto al estado en el que desea establecer el estado predeterminado, seleccione el estado predeterminado que desee establecer.
@@ -122,4 +122,3 @@ Si oculta un estado predeterminado (habilitando la opción Ocultar estado), el s
 
 Si no hay ningún estado disponible del tipo equivalente, el tipo de estado se mostrará como **Oculto** y no estará disponible para los elementos de trabajo.
 
-![Ningún estado disponible](assets/when-hide-default-status-no-equivalent.png)
