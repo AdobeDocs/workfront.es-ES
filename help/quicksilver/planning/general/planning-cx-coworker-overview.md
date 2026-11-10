@@ -19,9 +19,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 1eaa497ba7e446f7fdf978f369205f309bbe231f
+source-git-commit: 215b8f1bf28e8df2b95c4f0519ffebcbcaa8df16
 workflow-type: tm+mt
-source-wordcount: '1088'
+source-wordcount: '1097'
 ht-degree: 18%
 ---
 
@@ -129,7 +129,7 @@ Para obtener más información acerca de los requisitos de acceso de Workfront, 
 
 * Al crear, actualizar o eliminar un objeto mediante Coworker, este muestra las acciones deseadas y solicita confirmación. A continuación, puede confirmar o cancelar las acciones.
 
-## Funcionalidad disponible actualmente para el compañero de trabajo
+## Funcionalidad disponible actualmente para el compañero en Workfront Planning
 
 Actualmente, el elemento Compañero está disponible en el área de Planificación de Workfront y utiliza un conjunto de aptitudes para acceder a la información de los objetos de Planificación y manipularla. Para obtener más información, consulte [Aptitudes de Workfront en CX Enterprise Coworker](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-skills.md).
 
@@ -137,14 +137,16 @@ Puede utilizar Compañero de trabajo para realizar las siguientes acciones:
 
 * Búsqueda de registros. Puede buscar por la información contenida en cualquier campo de registro.
 * Crear registros. Una vez creado el registro, se muestra un ID con un vínculo al nuevo registro. Puede especificar los campos que desea actualizar durante el proceso de creación, como fechas o descripciones.
-* Cree registros basados en un documento que haya cargado. Workfront admite los siguientes formatos de documento para el colaborador:
+* Cree registros basados en un documento que haya cargado. Workfront admite los siguientes formatos de documento para adjuntarlos a Coworker:
 
   PPTX, PDF, DOCX, XLSX, PPT, DOC, TXT y la mayoría de los formatos de imagen
 * Actualizar los campos de los registros que ve en la pantalla
 * Eliminar, duplicar o restaurar registros
 * Vincular registros a otros registros
 * Ver el historial de cambios de un registro
-* Importe 10 000 o más registros adjuntando un archivo de Excel al compañero.
+* Importe 10 000 o más registros adjuntando un archivo de Excel al compañero
+* Crear y administrar reglas empresariales
+
 
 ## Localice a un compañero en Workfront Planning
 

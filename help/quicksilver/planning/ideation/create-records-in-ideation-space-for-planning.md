@@ -11,9 +11,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 1eaa497ba7e446f7fdf978f369205f309bbe231f
+source-git-commit: 215b8f1bf28e8df2b95c4f0519ffebcbcaa8df16
 workflow-type: tm+mt
-source-wordcount: '991'
+source-wordcount: '993'
 ht-degree: 2%
 ---
 
@@ -36,12 +36,10 @@ THIS ARTICLE HAS 2 DRAFTS IN 2 SEPARATE AREAS FROM CLAUDE - THEY WERE CREATED AT
 
 <span class="preview">Para obtener más información, consulte [Introducción al espacio de ideación para Adobe Workfront Planning](/help/quicksilver/planning/ideation/get-started-with-planning-ideation.md).</span>
 
-<span class="preview">La información de esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible como parte del programa **Beta** del espacio de ideación. </span>\
-</span>
 
 >[!IMPORTANT]
 >
->La información de este artículo hace referencia a Adobe Workfront Planning. Su empresa debe adquirir un paquete de Planning adicional para acceder a Workfront Planning.
+>La información de este artículo hace referencia a la funcionalidad disponible solo para clientes de Workfront que también tienen Adobe Workfront Planning. Su empresa debe adquirir un paquete de Planning adicional.
 >
 >La funcionalidad que se describe aquí no está disponible si su organización ha adquirido Workfront Planning como producto independiente.
 >
@@ -84,29 +82,41 @@ are there additional license restrictions or packages to be purchased to have ac
 <tbody> 
     <tr> 
 <tr> 
-</tr>   
+</tr> 
+<tr> 
+   <td role="rowheader"><p>Requisitos del proveedor de nube</p></td> 
+   <td><p>AWS</p>
+   <p><b>NOTA:</b></p>
+   <p>No se admiten otros proveedores de nube</p>
+   </td> 
+  </tr>
 <tr> 
    <td role="rowheader"><p>Paquete de Adobe Workfront</p></td> 
    <td> 
 <ul> 
-<li><p>Cualquier Workfront o flujo de trabajo con un paquete de Planning</p></li>
+<li><p>Cualquier flujo de trabajo con un paquete de Planning</p></li>
 <!--
-Not available for beta:
+Add this at GA - not available in beta:
 Or
 <li><p>Any Planning package when purchased as a standalone product</p></li>
 -->
 </ul>
    </td> 
-    <!--
-    <tr> 
-    <td role="rowheader"><p>Additional products</p></td> 
-    <td><ul>
-    <li><p>Adobe GenStudio for Performance Marketing</p></li>
-    <li><p>Adobe Customer Journey Analytics</p></li>
-    </ul>
-    </td> 
-    </tr> 
-    -->
+<!--
+<tr> 
+<td role="rowheader"><p>Additional products</p></td> 
+<td><ul>
+<li><p>Adobe GenStudio for Performance Marketing</p></li>
+<li><p>Adobe Customer Journey Analytics</p></li>
+</ul>
+</td> 
+</tr> 
+-->
+<tr> 
+   <td role="rowheader"><p>Requisitos del sistema</p></td> 
+   <td><p>Los ajustes de preferencias de Compañero de trabajo y MCP en las Preferencias del sistema en el área de Configuración deben estar activados</p>
+   </td> 
+  </tr> 
   <tr> 
    <td role="rowheader"><p>Licencia de Adobe Workflow</p></td> 
    <td><p>Estándar</p>
@@ -116,20 +126,24 @@ Or
    <td role="rowheader"><p>Licencia de planificación de Adobe</p></td> 
    <td><p>Estándar</p>
    </td> 
-  </tr> 
+  </tr>  
 <tr> 
    <td role="rowheader"><p>Configuración de nivel de acceso</p></td> 
    <td> 
    <ul>
-   <li><p>Debe agregar un tipo de licencia de flujo de trabajo y de Planning al nivel de acceso cuando tenga un flujo de trabajo y un paquete de Planning a la vez</p>   </li>
+   <li><p>Debe agregar un tipo de licencia de flujo de trabajo y de Planning al nivel de acceso <!--when you have both a Workflow and a Planning package--></p>   </li>
    <li><p>La configuración Deshabilitar espacio de ideación en su nivel de acceso debe estar deseleccionada</p></li>
+   <li><p>Debe anular la selección de la configuración Deshabilitar el panel CX Coworker en Workfront en el nivel de acceso</p></li></ul>
 </td> 
   </tr>  
    <tr> 
    <td role="rowheader"><p>Permisos de objeto</p></td> 
    <td> <p>Permisos de contribución o superiores al espacio de trabajo y tipo de registro donde desee agregar registros </p>
       <p>Los administradores del sistema tienen permisos para todos los espacios de trabajo, incluidos los que no crearon</p>
-      <p>Ver permisos de objetos de Workfront para agregarlos a informes <!--not sure if this is available--></p>
+      <!--
+      not available right now:
+      <p>View permissions to Workfront objects to add them to briefs </p>
+      -->
       <p>Permisos de editor en el espacio de ideación para crear informes</p>
    </td> 
   </tr>  
@@ -138,7 +152,7 @@ Or
     <td role="rowheader"><p>Adobe GenStudio for Performance Marketing user roles</p></td> 
     <td><p><ul><li>Any GenStudio user role to access Campaigns, Products, and Personas</li>
     <li>GenStudio System Manager to access Activations and Events</li></ul>
-    For information, see <a href="https://experienceleague.adobe.com/es/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
+    For information, see <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
     </p>
     </td> 
     </tr> 
@@ -148,7 +162,7 @@ Or
 
 Para obtener más información acerca de los requisitos de acceso de Workfront, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-+++   
++++  
 
 ## Consideraciones sobre el uso del espacio de ideación para crear o editar registros de Planning
 
@@ -186,7 +200,7 @@ Para obtener más información acerca de los requisitos de acceso de Workfront, 
 
    El espacio de ideación se abre en una nueva pestaña.
 
-   CX Coworker se abre en el panel derecho.
+   El compañero se abre en el panel derecho.
 
    El registro se crea inmediatamente con un marcador de posición.
 
@@ -194,7 +208,7 @@ Para obtener más información acerca de los requisitos de acceso de Workfront, 
     1. (Optional) Click the **Open previous canvases** icon ![Open existing briefs icon](assets/open-existing-briefs-icon.png) in the upper-right corner of the prompt box, to open existing briefs
     -->
 
-1. Agregue una solicitud en el cuadro de diálogo **CX Coworker** y, a continuación, presione Entrar.
+1. Agregue una solicitud en el cuadro de diálogo **Colaborador** y, a continuación, presione Entrar.
 
    Cuantos más detalles comparta, más útil será la información proporcionada por el espacio de ideación. Por ejemplo, escriba una descripción de la campaña que está planeando: &quot;campaña de vuelta al colegio para una agencia de marketing&quot;.
 
