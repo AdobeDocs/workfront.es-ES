@@ -18,9 +18,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: b19d0b1bcda5a4f0f2b6b2caf986e1e4dbc9773a
+source-git-commit: 215b8f1bf28e8df2b95c4f0519ffebcbcaa8df16
 workflow-type: tm+mt
-source-wordcount: '1849'
+source-wordcount: '1899'
 ht-degree: 2%
 ---
 
@@ -32,12 +32,10 @@ ht-degree: 2%
 
 <span class="preview">Para obtener más información, consulte [Introducción al espacio de ideación para Adobe Workfront Planning](/help/quicksilver/planning/ideation/get-started-with-planning-ideation.md).</span>
 
-<span class="preview">La información de esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible como parte del programa **Beta** del espacio de ideación. </span>\
-</span>
 
 >[!IMPORTANT]
 >
->La información de este artículo hace referencia a Adobe Workfront Planning. Su empresa debe adquirir un paquete de Planning adicional para acceder a Workfront Planning.
+>La información de este artículo hace referencia a la funcionalidad disponible solo para clientes de Workfront que también tienen Adobe Workfront Planning. Su empresa debe adquirir un paquete de Planning adicional.
 >
 >La funcionalidad que se describe aquí no está disponible si su organización ha adquirido Workfront Planning como producto independiente.
 >
@@ -91,12 +89,19 @@ are there additional license restrictions or packages to be purchased to have ac
 <tbody> 
     <tr> 
 <tr> 
-</tr>   
+</tr> 
+<tr> 
+   <td role="rowheader"><p>Requisitos del proveedor de nube</p></td> 
+   <td><p>AWS</p>
+   <p><b>NOTA:</b></p>
+   <p>No se admiten otros proveedores de nube</p>
+   </td> 
+  </tr>
 <tr> 
    <td role="rowheader"><p>Paquete de Adobe Workfront</p></td> 
    <td> 
 <ul> 
-<li><p>Cualquier Workfront o flujo de trabajo con un paquete de Planning</p></li>
+<li><p>Cualquier flujo de trabajo con un paquete de Planning</p></li>
 <!--
 Add this at GA - not available in beta:
 Or
@@ -114,6 +119,11 @@ Or
 </td> 
 </tr> 
 -->
+<tr> 
+   <td role="rowheader"><p>Requisitos del sistema</p></td> 
+   <td><p>Los ajustes de preferencias de Compañero de trabajo y MCP en las Preferencias del sistema en el área de Configuración deben estar activados</p>
+   </td> 
+  </tr> 
   <tr> 
    <td role="rowheader"><p>Licencia de Adobe Workflow</p></td> 
    <td><p>Estándar</p>
@@ -128,8 +138,9 @@ Or
    <td role="rowheader"><p>Configuración de nivel de acceso</p></td> 
    <td> 
    <ul>
-   <li><p>Debe agregar un tipo de licencia de flujo de trabajo y de Planning al nivel de acceso cuando tenga un flujo de trabajo y un paquete de Planning a la vez</p>   </li>
+   <li><p>Debe agregar un tipo de licencia de flujo de trabajo y de Planning al nivel de acceso <!--when you have both a Workflow and a Planning package--></p>   </li>
    <li><p>La configuración Deshabilitar espacio de ideación en su nivel de acceso debe estar deseleccionada</p></li>
+   <li><p>Debe anular la selección de la configuración Deshabilitar el panel CX Coworker en Workfront en el nivel de acceso</p></li></ul>
 </td> 
   </tr>  
    <tr> 
@@ -300,25 +311,29 @@ Existen controles para el espacio de ideación que configuran lo que se ve en la
     -->
 1. Haga clic en **Guardar**.
 
-1. Haga clic en el icono desplegable **nivel de zoom** que hay a la izquierda del icono **Ayuda** o del icono **Ayuda** ![Icono de Ayuda](assets/more-information-icon.png) para seleccionar una opción o revisar los métodos abreviados de teclado que puede usar para desplazarse por el espacio de ideación o seleccionar un valor de zoom diferente.
+1. Haga clic en el menú desplegable **nivel de zoom** que hay a la izquierda del icono **Ayuda** ![Icono de Ayuda](assets/more-information-icon.png) para seleccionar una opción.
 
-   Elija entre los siguientes niveles de zoom:
+   Elija entre las siguientes opciones:
 
-   * Zoom al 100 %
-   * Zoom de 200%
-   * Ajustar al tamaño
+   * **Zoom para ajustar**
+   * **Acercar**
+   * **Alejar**
+   * Zoom de **50**, **100**, **150** o **200%**
+   * **Mostrar cuadrícula de puntos**: active la selección para mostrar la cuadrícula de puntos.
+   * **Recorrido del producto**: desactive la selección para no recibir sugerencias de guía mientras usa el espacio de ideación.
 
-   También puede utilizar uno de los siguientes métodos abreviados para desplazarse por la página:
+1. Haga clic en el icono **Ayuda** ![Icono de Ayuda](assets/more-information-icon.png) para revisar los métodos abreviados de teclado que puede usar para desplazarse por el espacio de ideación o seleccionar un valor de zoom diferente:
 
-   | Acción | Método abreviado |
-   | --- | --- |
-   | Acercar/alejar | Ctrl/⌘ + / − |
-   | Ajustar para ajustar/ajustar la selección | — |
-   | Zoom hasta el cursor | Ctrl/⌘ + desplazamiento |
-   | Panorámica del lienzo | Mantener espacio + arrastrar |
-   | Mostrar u ocultar cuadrícula de puntos | G |
-
-
+| Acción | Método abreviado |
+| --- | --- |
+| Acercar/alejar | Ctrl/⌘ + / − |
+| Zoom de 100% / | Ctrl/⌘ 1 / 1 |
+| Zoom de 200% / | Ctrl/⌘ 2 / 2 |
+| Ajustar al tamaño | Ctrl/⌘ 0 / 0 |
+| Ajustar al tamaño de la selección | Alt Ctrl 0 |
+| Zoom hasta el cursor | Desplazamiento Ctrl/⌘ |
+| Panorámica | Mantener arrastre de espacio |
+| Mostrar u ocultar cuadrícula de puntos | G |
 
 <!--
 
