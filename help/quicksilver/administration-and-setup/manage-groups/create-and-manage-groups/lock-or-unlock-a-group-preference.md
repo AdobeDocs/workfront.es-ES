@@ -25,10 +25,10 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: d702a6f8a9a8897b6d0271fe17d49d9d59bd6985
 workflow-type: tm+mt
-source-wordcount: '571'
-ht-degree: 87%
+source-wordcount: '570'
+ht-degree: 86%
 ---
 # Bloquear o desbloquear una preferencia de proyecto, tarea o problema para subgrupos
 
@@ -91,7 +91,7 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
 
 1. En el panel izquierdo, haga clic en **Grupos**.
 1. Haga clic en el nombre del grupo en el que desea bloquear o desbloquear una preferencia de proyecto.
-1. En el panel izquierdo, haga clic en **Preferencias del proyecto** o en **Preferencias de tareas y problemas**.
+1. A la izquierda, haga clic en **Preferencias de proyecto** o en **Preferencias de tareas y problemas**.
 
 1. En la página que aparece, realice una de las siguientes acciones para una preferencia desbloqueada en el sistema o para un grupo por encima del suyo:
 

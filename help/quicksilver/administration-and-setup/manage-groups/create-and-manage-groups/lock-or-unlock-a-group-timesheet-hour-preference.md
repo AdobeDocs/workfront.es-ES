@@ -28,9 +28,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: d702a6f8a9a8897b6d0271fe17d49d9d59bd6985
 workflow-type: tm+mt
-source-wordcount: '600'
+source-wordcount: '599'
 ht-degree: 51%
 ---
 # Bloquear o desbloquear una plantilla de horas de grupo y sus preferencias horarias
@@ -100,7 +100,7 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
 
 1. En el panel izquierdo, haga clic en **Grupos**.
 1. Haga clic en el nombre del grupo en el que desee bloquear o desbloquear una plantilla de horas y una preferencia de horas.
-1. En el panel izquierdo, haga clic en **Preferencias de horas y hojas de horas**.
+1. A la izquierda, haga clic en **Preferencias de horas y hojas de horas**.
 
 1. En la página que aparece, realice una de las acciones siguientes:
 
