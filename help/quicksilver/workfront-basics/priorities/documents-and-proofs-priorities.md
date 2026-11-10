@@ -23,10 +23,10 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: a10a7acd51fcbcd0f42ef1ca4ceedc6124459896
 workflow-type: tm+mt
-source-wordcount: '592'
-ht-degree: 31%
+source-wordcount: '706'
+ht-degree: 28%
 ---
 # Cargar documentos y crear pruebas en Prioridades
 
@@ -105,6 +105,28 @@ Haga clic en **Agregar archivos** para examinar archivos o importarlos de un pro
 o
 Haga clic en **Agregar archivos** para examinar archivos o importarlos de un proveedor de Document Cloud.
    ![Agregar archivos](assets/add-files.png)
+1. (Opcional) Añada un comentario.
+1. (Opcional) Añada más archivos.
+
+   >[!NOTE]
+   >
+   >Los archivos adicionales se cargan como documentos independientes.
+1. Haga clic en **Cargar**
+
+## Cargar un documento a un proyecto de almacenamiento en la nube de Adobe
+
+No puede cargar documentos directamente en una tarea o problema de un proyecto de almacenamiento en la nube de Adobe. En su lugar, cargue el documento en el proyecto desde la ficha **Proyecto**.
+
+{{step1-to-priorities}}
+
+1. En la lista de trabajo, pase el ratón sobre el nombre del trabajo y haga clic en el icono **Resumen** ![abrir icono de resumen](assets/summary-icon.png).
+1. En el panel de resumen, haga clic en la ficha **Proyecto**.
+1. Haga clic en el icono **Cargar archivo** ![Cargar archivo](assets/upload-file-icon.png).
+1. Arrastre y suelte el archivo o utilice Cmd/Ctrl + V para pegar elementos desde el portapapeles
+
+   o
+
+   Haga clic en **Agregar archivos** para examinar archivos o importarlos de un proveedor de Document Cloud.
 1. (Opcional) Añada un comentario.
 1. (Opcional) Añada más archivos.
 
