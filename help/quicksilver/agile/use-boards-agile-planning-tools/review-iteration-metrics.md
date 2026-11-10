@@ -27,16 +27,14 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 3ca7080a33a12d54644a8a2e0637856a53af5954
 workflow-type: tm+mt
-source-wordcount: '223'
+source-wordcount: '213'
 ht-degree: 98%
 ---
 # Revisar métricas de iteración
 
->[!IMPORTANT]
->
->Las secuencias de trabajo solo están disponibles para un grupo específico de clientes.
+{{boards-workstreams}}
 
 Las métricas están disponibles para cada iteración de una secuencia de trabajo, en el tablero del proceso de la iteración y en el panel de control.
 

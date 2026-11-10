@@ -28,16 +28,14 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 3ca7080a33a12d54644a8a2e0637856a53af5954
 workflow-type: tm+mt
-source-wordcount: '589'
-ht-degree: 11%
+source-wordcount: '579'
+ht-degree: 9%
 ---
 # Agregar tareas o problemas existentes al tablero [!DNL Workfront]
 
->[!IMPORTANT]
->
->Las secuencias de trabajo solo están disponibles para un grupo específico de clientes.
+{{boards-workstreams}}
 
 Puede agregar cualquier tarea o problema a un tablero o flujo de trabajo en [!DNL Adobe Workfront] desde una vista de lista o informe, o desde los detalles del objeto.
 

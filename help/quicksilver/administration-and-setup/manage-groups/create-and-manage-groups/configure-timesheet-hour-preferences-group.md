@@ -29,9 +29,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: d702a6f8a9a8897b6d0271fe17d49d9d59bd6985
 workflow-type: tm+mt
-source-wordcount: '1347'
+source-wordcount: '1351'
 ht-degree: 97%
 ---
 # Configurar las plantillas de horas y las preferencias de horas de un grupo
@@ -107,7 +107,7 @@ Tenga en cuenta la siguiente información sobre la configuración de una plantil
 1. En el panel izquierdo, haga clic en **Grupos** ![Grupos](assets/groups-icon.png).
 
 1. Haga clic en el nombre del grupo cuya hoja de horas o preferencias de horas desee configurar.
-1. En el panel izquierdo, haga clic en **Horas y plantillas de horas trabajadas**.
+1. En la página que se muestra, a la izquierda, haga clic en **Plantillas de horas y horas**.
 
 1. En la página que se muestra, en la sección **Preferencias generales**, configure cualquiera de las siguientes opciones:
 

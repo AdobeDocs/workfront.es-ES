@@ -26,12 +26,14 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 588af2e164efa31b092254726cf1506134e1ef69
 workflow-type: tm+mt
 source-wordcount: '509'
 ht-degree: 96%
 ---
 # Eliminar o archivar una tarjeta de un tablero
+
+{{boards-maintenance-mode}}
 
 Al eliminar una tarjeta ad hoc de un tablero, se elimina de forma permanente y no se puede restaurar. Las tarjetas conectadas se pueden volver a añadir manualmente a un tablero después de eliminarlas.
 

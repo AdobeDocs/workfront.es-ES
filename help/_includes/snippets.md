@@ -1,8 +1,8 @@
 ---
-source-git-commit: a59c8515addb7c665be4021d0906021c86bb1ee9
+source-git-commit: 3ca7080a33a12d54644a8a2e0637856a53af5954
 workflow-type: tm+mt
-source-wordcount: '2312'
-ht-degree: 23%
+source-wordcount: '2437'
+ht-degree: 22%
 ---
 # Fragmentos
 
@@ -131,6 +131,24 @@ Puede asegurarse de que está asociando el grupo correcto con el equipo pasando 
 ## Paso 1: Cómo llegar a tableros - {#step1-to-boards}
 
 1. Haga clic en el icono **[!UICONTROL Menú principal]** ![Menú principal](/help/_includes/assets/main-menu-icon-left-nav.png) en la esquina superior izquierda de Adobe Workfront y, a continuación, haga clic en **[!UICONTROL Tableros]**.
+
+## Tableros - modo de mantenimiento {#boards-maintenance-mode}
+
+>[!IMPORTANT]
+>
+>Los tableros de Workfront no se están desarrollando actualmente.
+
+## Tableros: flujos de trabajo no disponibles {#boards-workstreams}
+
+>[!IMPORTANT]
+>
+>Los tableros de Workfront no se están desarrollando actualmente.
+> 
+>La función Flujos de trabajo de Tableros estaba en desuso, pero sigue estando disponible para los clientes que ya la utilizaban.
+>
+>* Se recomienda dejar de utilizar flujos de trabajo porque ya no son compatibles.
+>* Si no tiene una pestaña Flujos de trabajo en el panel Tableros, no puede añadir flujos de trabajo.
+>* Si tiene acceso a flujos de trabajo, puede agregar nuevos flujos de trabajo y administrar los existentes. Si archiva o elimina un flujo de trabajo, no podrá recuperarlo. Si le queda un flujo de trabajo y lo archiva o elimina, los flujos de trabajo están completamente obsoletos para la instancia de Workfront y no puede agregar nuevos flujos de trabajo.
 
 <!-- Blueprints -->
 

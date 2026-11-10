@@ -38,7 +38,7 @@ topic_v2:
     internal-label: Optimization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: fff5e72b80bf72d3da5648dcce2109c518beb741
 workflow-type: tm+mt
 source-wordcount: '1447'
 ht-degree: 90%
@@ -61,7 +61,7 @@ También indica qué acciones pueden deshabilitar o habilitar los administradore
 ## Proyectos
 
 | Acción | Estándar | Ligero | Colaborador | Usuario externo |
-|------------------------------|----------|--------|-------------|---------------|
+| ------------------------------ | ---------- | -------- | ------------- | --------------- |
 | Crear | ✓&#42; |   |   |   |
 | Copiar | ✓&#42; |   |   |   |
 | Eliminar | ✓&#42; |   |   |   |
@@ -100,7 +100,7 @@ También indica qué acciones pueden deshabilitar o habilitar los administradore
 ## Tareas
 
 | Acción | Estándar | Ligero | Colaborador | Usuario externo |
-|--------------------------------|----------|--------|-------------|---------------|
+| -------------------------------- | ---------- | -------- | ------------- | --------------- |
 | Crear | ✓&#42; |   |   |   |
 | Eliminar | ✓&#42; |   |   |   |
 | Compartir | ✓&#42; |   |   |   |
@@ -132,7 +132,7 @@ También indica qué acciones pueden deshabilitar o habilitar los administradore
 ## Problemas
 
 | Acción | Estándar | Ligero | Colaborador | Usuario externo |
-|-------------------------------|----------|--------|-------------|---------------|
+| ------------------------------- | ---------- | -------- | ------------- | --------------- |
 | Crear | ✓&#42; | ✓&#42; | ✓&#42; |   |
 | Editar | ✓ | ✓ | ✓ |   |
 | Eliminar | ✓&#42; | ✓&#42; | ✓&#42; |   |
@@ -162,7 +162,7 @@ También indica qué acciones pueden deshabilitar o habilitar los administradore
 Solo los usuarios con una licencia estándar pueden tener acceso completo a los portafolios.
 
 | Acción | Estándar | Ligero | Colaborador | Usuario externo |
-|--------------------------|----------|--------|-------------|---------------|
+| -------------------------- | ---------- | -------- | ------------- | --------------- |
 | Crear | ✓&#42; |   |   |   |
 | Eliminar | ✓&#42; |   |   |   |
 | Compartir | ✓&#42; |   |   |   |
@@ -186,7 +186,7 @@ Solo los usuarios con una licencia estándar pueden tener acceso completo a los 
 Solo los usuarios con una licencia estándar pueden tener acceso completo a los programas.
 
 | Acción | Estándar | Ligero | Colaborador | Usuario externo |
-|------------------------------|----------|--------|-------------|---------------|
+| ------------------------------ | ---------- | -------- | ------------- | --------------- |
 | Crear | ✓&#42; |   |   |   |
 | Eliminar | ✓&#42; |   |   |   |
 | Compartir | ✓&#42; |   |   |   |
@@ -210,7 +210,7 @@ Solo los usuarios con una licencia estándar pueden tener acceso completo a los 
 Los usuarios con una licencia estándar pueden tener acceso completo a los informes. Todos los demás niveles de acceso tienen acceso de visualización a los informes.
 
 | Acción | Estándar | Ligero | Colaborador | Usuario externo |
-|--------------------------------------|----------|--------|-------------|---------------|
+| -------------------------------------- | ---------- | -------- | ------------- | --------------- |
 | Crear | ✓&#42; |   |   |   |
 | Eliminar | ✓&#42; |   |   |   |
 | Ver informes integrados | ✓&#42; |   |   |   |
@@ -232,7 +232,7 @@ Los usuarios con una licencia estándar pueden tener acceso completo a los infor
 ## Filtros, vistas y agrupaciones
 
 | Acción | Estándar | Ligero | Colaborador | Usuario externo |
-|-------------------|------------|---------|---------------|---------------|
+| ------------------- | ------------ | --------- | --------------- | --------------- |
 | Crear | ✓* | ✓* | ✓* |   |
 | Eliminar | ✓* | ✓* | ✓* |   |
 | Compartir | ✓* | ✓* | ✓* |   |
@@ -247,7 +247,7 @@ Los usuarios con una licencia estándar pueden tener acceso completo a los infor
 ## Documentos
 
 | Acción | Estándar | Ligero | Colaborador | Usuario externo |
-|--------------------------------|----------|--------|-------------|---------------|
+| -------------------------------- | ---------- | -------- | ------------- | --------------- |
 | Crear | ✓&#42; | ✓&#42; | ✓&#42; |   |
 | Eliminar (documentos y carpetas) | ✓&#42; | ✓&#42; | ✓&#42; |   |
 | Compartir | ✓&#42; | ✓&#42; | ✓&#42; |   |
@@ -284,7 +284,7 @@ Los usuarios con una licencia estándar pueden tener acceso completo a los infor
 Estas opciones están disponibles en el entorno de vista previa:
 
 | Acción | Estándar | Ligero | Colaborador | Usuario externo** |
-|----------------------------------------------------------------------------------------------------|----------|--------|-------------|-----------------|
+| ---------------------------------------------------------------------------------------------------- | ---------- | -------- | ------------- | ----------------- |
 | Crear | ✓* |   |   |   |
 | Eliminar | ✓* |   |   |   |
 | Editar tarifas de facturación | ✓* |   |   |   |
@@ -308,7 +308,7 @@ Estas opciones están disponibles en el entorno de vista previa:
 ## Roles
 
 | Acción | Estándar | Ligero | Colaborador | Usuario externo |
-|-------------------|------------|---------|---------------|---------------|
+| ------------------- | ------------ | --------- | --------------- | --------------- |
 | Ver | ✓ | ✓ | ✓ |   |
 | Editar | ✓ |   |   |   |
 | Crear | ✓* |   |   |   |
@@ -328,18 +328,18 @@ Estas opciones están disponibles en el entorno de vista previa:
 
 ## Companies
 
-|  Action           |  Standard  |  Light  |  Contributor  | External user |
-|-------------------|------------|---------|---------------|---------------|
-| View              | ✓          | ✓       | ✓             | &nbsp;        |
-| Edit              | ✓          | &nbsp;  | &nbsp;        | &nbsp;        |
-| Create            | ✓*         | &nbsp;  | &nbsp;        | &nbsp;        |
-| Delete            | ✓*         | &nbsp;  | &nbsp;        | &nbsp;        |
-| Edit Billing Rates | ✓*         | &nbsp;  | &nbsp;        | &nbsp;        |
-| Edit Cost Rates   | ✓*         | &nbsp;  | &nbsp;        | &nbsp;        |
-| Edit General Finance | ✓*      | &nbsp;  | &nbsp;        | &nbsp;        |
-| View Billing Rates | ✓         | &nbsp;  | &nbsp;        | &nbsp;        |
-| View Cost Rates    | ✓         | &nbsp;  | &nbsp;        | &nbsp;        |
-| View General Finance | ✓       | &nbsp;  | &nbsp;        | &nbsp;        |
+| Action | Standard | Light | Contributor | External user |
+|------------------- | ------------ | --------- | --------------- | ---------------|
+| View | ✓ | ✓ | ✓ | &nbsp; |
+| Edit | ✓ | &nbsp; | &nbsp; | &nbsp; |
+| Create | ✓* | &nbsp; | &nbsp; | &nbsp; |
+| Delete | ✓* | &nbsp; | &nbsp; | &nbsp; |
+| Edit Billing Rates | ✓* | &nbsp; | &nbsp; | &nbsp; |
+| Edit Cost Rates | ✓* | &nbsp; | &nbsp; | &nbsp; |
+| Edit General Finance | ✓* | &nbsp; | &nbsp; | &nbsp; |
+| View Billing Rates | ✓ | &nbsp; | &nbsp; | &nbsp; |
+| View Cost Rates | ✓ | &nbsp; | &nbsp; | &nbsp; |
+| View General Finance | ✓ | &nbsp; | &nbsp; | &nbsp; |
 
 {style="table-layout:auto"}
 
@@ -347,10 +347,10 @@ Estas opciones están disponibles en el entorno de vista previa:
 
 ## Groups
 
-|  Action           |  Standard  |  Light  |  Contributor  | External user |
-|-------------------|------------|---------|---------------|---------------|
-| Share             | ✓*         | &nbsp;  | &nbsp;        | &nbsp;        |
-| View              | ✓          | ✓       | ✓             | &nbsp;        |
+| Action | Standard | Light | Contributor | External user |
+|------------------- | ------------ | --------- | --------------- | ---------------|
+| Share | ✓* | &nbsp; | &nbsp; | &nbsp; |
+| View | ✓ | ✓ | ✓ | &nbsp; |
 
 {style="table-layout:auto"}
 
@@ -361,7 +361,7 @@ Estas opciones están disponibles en el entorno de vista previa:
 ## Equipos
 
 | Acción | Estándar | Ligero | Colaborador | Usuario externo* |
-|-----------------------------------------|-----------|------------|-------------|------------------|
+| ----------------------------------------- | ----------- | ------------ | ------------- | ------------------ |
 | Crear | ✓* |   |   |   |
 | Eliminar | ✓* |   |   |   |
 | Editar los equipos en los que están | ✓* |   |   |   |
@@ -376,7 +376,7 @@ Estas opciones están disponibles en el entorno de vista previa:
 ## Plantillas
 
 | Acción | Estándar | Ligero | Colaborador | Usuario externo |
-|-----------------------|----------|--------|-------------|---------------|
+| ----------------------- | ---------- | -------- | ------------- | --------------- |
 | Crear | ✓&#42; |   |   |   |
 | Eliminar | ✓&#42; |   |   |   |
 | Compartir | ✓&#42; |   |   |   |
@@ -394,7 +394,7 @@ Estas opciones están disponibles en el entorno de vista previa:
 Solo los usuarios con una licencia estándar pueden tener acceso completo a los datos financieros.
 
 | Acción | Estándar | Ligero | Colaborador | Usuario externo |
-|--------------------------------------------------------------|----------|--------|-------------|---------------|
+| -------------------------------------------------------------- | ---------- | -------- | ------------- | --------------- |
 | Editar tarifas de facturación | ✓&#42; |   |   |   |
 | Editar tarifas de coste | ✓&#42; |   |   |   |
 | Editar finanzas generales | ✓&#42; |   |   |   |
@@ -418,7 +418,7 @@ Solo los usuarios con una licencia estándar pueden tener acceso completo a los 
 Solo los usuarios con una licencia estándar pueden tener acceso completo a la administración de recursos. Otros tipos de licencia pueden tener acceso limitado o nulo a la administración de recursos en Workfront.
 
 | Acción | Estándar | Ligero | Colaborador | Usuario externo |
-|----------------------------------------------------------------|----------|--------|-------------|---------------|
+| ---------------------------------------------------------------- | ---------- | -------- | ------------- | --------------- |
 | Editar prioridades y horas presupuestadas en el Planificador | ✓&#42; |   |   |   |
 | Crear, editar y eliminar conjuntos de recursos&#42;&#42; | ✓&#42; |   |   |   |
 | Actualizar horas planificadas en el Distribuidor de cargas de trabajo&#42;&#42;&#42; | ✓&#42; |   |   |   |
@@ -439,7 +439,7 @@ Solo los usuarios con una licencia estándar pueden tener acceso completo a la a
 ## Área del Planificador de escenarios
 
 | Acción | Estándar | Ligero | Colaborador | Usuario externo |
-|-----------------------------------------------------------------------|----------|-------|-------------|---------------|
+| ----------------------------------------------------------------------- | ---------- | ------- | ------------- | --------------- |
 | Crear/editar planes e iniciativas existentes | ✓ | ✓ |   |   |
 | Añadir o editar información sobre funciones en planes e iniciativas&#42; | ✓ | ✓ |   |   |
 | Añadir o editar información sobre costes en planes e iniciativas&#42; | ✓ | ✓ |   |   |
@@ -460,7 +460,7 @@ Solo los usuarios con una licencia estándar pueden tener acceso completo a la a
 Solo los usuarios con una licencia Standard pueden tener acceso completo a las tarjetas de clasificación.
 
 | Acción | Estándar | Ligero | Colaborador | Usuario externo |
-|-------------------|------------|---------|---------------|---------------|
+| ------------------- | ------------ | --------- | --------------- | --------------- |
 | Ver | ✓ | ✓ |   |   |
 | Editar | ✓ |   |   |   |
 | Crear | ✓* |   |   |   |
@@ -476,7 +476,7 @@ Solo los usuarios con una licencia Standard pueden tener acceso completo a las t
 <!-- ask Alina about this section -->
 
 | Acciones | Ver | Editar |
-|---|---|---|
+| --- | --- | --- |
 | Crear |   | ✓ |
 | Editar/eliminar todas las metas |   | ✓ |
 | Ver Metas en el Menú principal | ✓ | ✓ |

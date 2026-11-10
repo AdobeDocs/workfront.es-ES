@@ -27,16 +27,14 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 3ca7080a33a12d54644a8a2e0637856a53af5954
 workflow-type: tm+mt
-source-wordcount: '929'
+source-wordcount: '919'
 ht-degree: 99%
 ---
 # Administrar flujos de trabajo
 
->[!IMPORTANT]
->
->Las secuencias de trabajo solo están disponibles para un grupo específico de clientes.
+{{boards-workstreams}}
 
 Un flujo de trabajo es un grupo configurable de tableros y tarjetas para colaborar en el trabajo. Los flujos de trabajo pueden incluir diferentes tipos de tableros creados a partir de plantillas y una lista de tarjetas de elementos de trabajo. En un flujo de trabajo, se puede realizar un seguimiento del trabajo en iteraciones o sprints.
 

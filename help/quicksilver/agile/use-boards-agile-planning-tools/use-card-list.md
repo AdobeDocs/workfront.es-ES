@@ -27,16 +27,14 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 3ca7080a33a12d54644a8a2e0637856a53af5954
 workflow-type: tm+mt
-source-wordcount: '625'
+source-wordcount: '618'
 ht-degree: 99%
 ---
 # Usar la lista de tarjetas
 
->[!IMPORTANT]
->
->Los flujos de trabajo no están disponibles para todos los clientes.
+{{boards-workstreams}}
 
 Puede crear una lista de tarjetas en un flujo de trabajo y añadir las tarjetas a las iteraciones.
 
