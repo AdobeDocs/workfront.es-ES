@@ -26,10 +26,10 @@ topic_v2:
     internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: d00e08bb44ff533f6bbdbbe6f932a85533514269
 workflow-type: tm+mt
-source-wordcount: '276'
-ht-degree: 83%
+source-wordcount: '260'
+ht-degree: 75%
 ---
 # Preguntas frecuentes sobre la promoción del entorno
 
@@ -47,7 +47,7 @@ Actualmente no se admite la promoción de entornos entre dominios. Debe promocio
 
 * Un administrador de Workfront puede localizar la licencia de su organización.
 
-  1. Haga clic en el icono **[!UICONTROL Menú principal]** ![Menú principal](/help/_includes/assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront o (si está disponible), haga clic en el icono **[!UICONTROL Menú principal]** ![Menú principal](/help/_includes/assets/main-menu-icon-left-nav.png) en la esquina superior izquierda y, a continuación, haga clic en **[!UICONTROL Configurar]** ![Icono de configuración](/help/_includes/assets/gear-icon-setup.png).
+  1. Haga clic en el icono **[!UICONTROL Menú principal]** ![Menú principal](/help/_includes/assets/main-menu-icon-left-nav.png) en la esquina superior izquierda de Workfront y, a continuación, haga clic en **[!UICONTROL Configuración]** ![Icono de configuración](/help/_includes/assets/gear-icon-setup.png).
   1. Haga clic en **Sistema** en el panel izquierdo.
   1. Para ver su plan de Workfront, seleccione **Licencias**.
 El plan se muestra cerca de la esquina superior derecha de la página.

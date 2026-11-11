@@ -6,10 +6,10 @@ author: Alina
 feature: Product Announcements
 role: User, Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: b19d0b1bcda5a4f0f2b6b2caf986e1e4dbc9773a
+source-git-commit: 98410f6d8632eb9842fdbcff88b52f4bc6a87b2e
 workflow-type: tm+mt
-source-wordcount: '1424'
-ht-degree: 0%
+source-wordcount: '2214'
+ht-degree: 1%
 ---
 # Programa beta de capacidades de organizaciones conectadas
 
@@ -98,37 +98,211 @@ La primera fase del programa beta le permite conectar las dos instancias y comen
 | **Solicitar aceptación** | Una vez que ambas partes están de acuerdo, el proveedor acepta la solicitud y el cliente puede ver que se ha aceptado. |
 | **Actualizaciones de estado redactadas por IA** | Cuando un solicitante solicita el estado en un comentario, el proveedor puede utilizar comandos de IA para generar de forma rápida y coherente un borrador de respuesta. <br> El borrador incluye información de los objetos conectados a la solicitud, como la fecha planificada de finalización, la condición y las horas registradas en Horas planificadas. <br> Es un resumen de la información más importante, no una exportación campo a campo. Una persona lo revisa y edita antes de enviar una respuesta al cliente. |
 
+## Participar en la versión beta
+
+Hable con el administrador del programa beta de Adobe para participar en la versión beta.
+
+### Lo que pedimos a los participantes
+
+* Únase a una llamada de comentarios semanal.
+
+* Reserve aproximadamente una hora por semana para realizar pruebas prácticas por su cuenta. Las sesiones de trabajo en directo en la llamada son una opción.
+
+* Llevar las perspectivas de ambos socios a las reuniones, siempre que sea posible.
+
+* Identifique los entornos de Workfront a los que conectarse y proporcione cuentas de administración para un pequeño número de ingenieros de Adobe para que puedan validar la conexión.
+
+### Lo que queremos aprender
+
+* ¿Es la duplicación de un objeto y la sincronización de solo los datos seleccionados el modelo de uso compartido correcto? ¿Es lo suficientemente flexible para cada lado?
+
+* ¿Es correcta la secuenciación de fases o debería llegar antes una capacidad posterior?
+
+* ¿Qué puntos de contacto faltan en la colaboración?
+
+* ¿Cómo deberían funcionar la asignación y la asignación de nombres de campo entre las dos instancias?
+
+  En la actualidad, el formulario y la solicitud son propiedad del cliente y el proveedor los ve de solo lectura con los nombres de campo del cliente.
+
+* ¿Qué necesita el departamento de TI para aprobar y administrar una conexión?
+
 ## Flujo de trabajo de extremo a extremo
 
-En esta sección se describe el flujo de trabajo de dos partes que participan en esta integración, después de conectar las instancias de Workfront de sus organizaciones respetadas.
+En esta sección se describe el flujo de trabajo para dos partes implicadas en esta integración.
 
 Estamos utilizando un flujo de trabajo de cliente y proveedor como ejemplos.
 
-### Flujo de trabajo del cliente
+El flujo de trabajo incluye los siguientes pasos:
 
-Como solicitante en la organización del cliente, puede hacer lo siguiente:
+1. [Creación de una conexión de instancia](#1-create-an-instance-connection)
+1. [Reconocimiento de la conexión](#2-acknowledge-the-connection)
+1. [Compartir un formulario de solicitud con la organización conectada](#3-share-a-request-form-with-the-connected-organization)
+1. [Envíe una solicitud](#4-submit-a-request)
+1. [Revise la solicitud y cree un proyecto](#5-review-the-request-and-create-a-project)
+1. [Colaboración en la conversación entre empresas](#6-collaborate-in-the-cross-company-conversation)
 
-1. Cree o pídale a un administrador que cree un formulario de solicitud, lo publique y lo comparta con la organización del proveedor conectado.
+### Antes de empezar
 
-2. Abra el formulario publicado en el área Solicitudes, introduzca una solicitud y adjunte los archivos necesarios.
+* Debe ser administrador del sistema con acceso completo al área **Setup** en ambos casos.
+* La instancia solicitante necesita el cliente único **GUID** de la instancia receptora.
+* El formulario que desee compartir debe publicarse.
 
-3. Revise cómo se asigna el contenido a los campos del formulario, y acéptelo y envíelo.
+### &#x200B;1. Creación de una conexión de instancia
 
-### Flujo de trabajo del proveedor
+Configure lo siguiente en la instancia solicitante (el cliente):
 
-Como administrador de trabajo en la organización del proveedor, haga lo siguiente:
+1. Inicie sesión en el entorno del cliente y vaya a **Configuración** > **Conexiones de instancia**. La página enumera todas las conexiones y está vacía si todavía no existe ninguna.
+1. Haga clic en **Crear conexión**.
+1. En el cuadro **Crear conexión**, agregue el **GUID de instancia de recepción**. Es un campo obligatorio.
+1. (Opcional) Establezca una **fecha de caducidad**. La conexión deja de funcionar después de esta fecha.
+1. Haga clic en **Crear conexión**.
 
-1. Reciba la solicitud en el área de Solicitudes como una copia de solo lectura.
+   La nueva conexión se muestra en la lista de conexiones con el estado **Pendiente**.
+1. Seleccione la nueva conexión para ver sus detalles.
 
-2. Discuta la solicitud a través de comentarios hasta que ambos lados estén alineados y luego acéptela.
+   >[!TIP]
+   >
+   >Una conexión pendiente no comparte nada. La instancia receptora debe reconocerlo primero.
 
-3. Convierta la solicitud en un proyecto, eligiendo el portafolio, el programa y la plantilla, si es necesario.
 
-4. Elija qué campos de proyecto se reflejan en la solicitud del cliente.
+### &#x200B;2. Reconocimiento de la conexión
 
-5. Responda a las preguntas de estado en los comentarios o genere una actualización de estado de borrador, revísela y publíquela en su solicitud. También se muestra en la solicitud original del cliente.
+Configure lo siguiente en la instancia receptora (el proveedor):
 
-   A partir de ese momento, la solicitud del lado del proveedor actúa como una réplica de la solicitud original del cliente, por lo que los comentarios y los datos acordados permanecen sincronizados.
+1. Inicie sesión en la instancia del proveedor y vaya a **Menú principal** > **Configuración** > **Conexiones de instancia**.
+1. Haga clic en el nombre para abrir la conexión desde la instancia receptora. Un banner muestra el siguiente mensaje: **Una instancia desea conectarse a la suya. Seleccione al menos un destinatario apto y, a continuación, confirme la conexión. No se comparte nada hasta que lo haga.**
+1. En **Destinatarios aptos**, abra la lista **Buscar grupos y usuarios** y elija quién puede recibir trabajo de la instancia solicitante. Puede elegir grupos y usuarios individuales. <!--asking Anna K if this should be teams and users, instead of groups; it's groups in the UI-->
+1. Haga clic en **Reconocer** para aceptar la conexión o haga clic en una de las siguientes opciones:
+
+   * **No permitir** rechazar la conexión.
+   * **Cerrar** para dejarlo pendiente.
+
+   Aparece el mensaje &quot;Cambios guardados&quot; y el estado de la conexión cambia a **Activo**. La lista ahora muestra los destinatarios aptos, la fecha de creación y la fecha de caducidad.
+
+   >[!TIP]
+   >
+   >**Reconocer** permanece atenuado hasta que elija al menos un destinatario elegible.
+
+### &#x200B;3. Compartir un formulario de solicitud de la organización solicitante
+
+Desde la instancia de Workfront del cliente:
+
+1. Vaya a **Menú principal** > **Solicitudes** y haga clic en **Formularios de solicitud**.
+1. Abra el formulario publicado que desee compartir.
+1. Haga clic en **Compartir**.
+
+   Observe las siguientes fichas dentro del cuadro **Compartir**:
+
+   * **Uso compartido interno**
+   * **Uso compartido público**
+   * **Organizaciones conectadas**
+1. Abra la ficha **Organizaciones conectadas**.
+1. En el campo **Organización**, seleccione la instancia del proveedor conectado.
+1. En el campo **Usuarios y grupos**, elija quién de esa organización puede usar el formulario. Agregar usuarios y grupos.
+1. Haga clic en **Guardar**.
+
+Un mensaje **Sus cambios se han guardado correctamente** confirma el uso compartido. <!--need to submit a UI text change - remove "successfully"-->
+
+### &#x200B;4. Envíe una solicitud
+
+Como usuario en la instancia del cliente, envíe una solicitud haciendo lo siguiente:
+
+1. Inicie sesión en la instancia de Workfront del cliente y vaya a **Menú principal** > **Solicitudes**.
+
+   La página **Enviar una nueva solicitud** enumera los formularios recientes, incluido el que acaba de compartir.
+
+   Una nota en la parte superior muestra **solicitud entre empresas: las solicitudes enviadas con este formulario son visibles para la organización conectada.**
+1. Rellene el formulario manualmente o use **Rellenar formulario** para que la inteligencia artificial lo haga por usted.
+1. (Opcional) Para utilizar Rellenar formulario, haga lo siguiente:
+
+   1. Haga clic en **Rellenar formulario**.
+   1. Describa su solicitud, pegue un correo electrónico relacionado o haga clic en **Adjuntar archivos** para cargar un archivo. AI encuentra los detalles relevantes y los aplica al formulario.
+   1. Haga clic en **Aplicar al formulario**. En la barra de progreso se muestra **Cómo rellenar el formulario** mientras se generan los valores de los campos.
+   1. Para omitir el paso de IA, haga clic en **Omitir**.
+1. Revise los valores generados y edite todo lo que necesite cambiar.
+1. Haga clic en **Enviar** para enviar la solicitud.
+
+   Aparece un mensaje **Solicitud enviada correctamente** con un vínculo **Ver su solicitud**.
+
+   La nueva solicitud se agrega a la lista de solicitudes con el nombre de formulario y un estado de **Nuevo**.
+
+   >[!TIP]
+   >
+   >Las respuestas de IA pueden ser inexactas. Compruebe siempre los valores rellenados antes de enviar.
+
+### &#x200B;5. Revise la solicitud y cree un proyecto
+
+1. Inicie sesión en la instancia de Workfront del proveedor y vaya a **Menú principal** > **Solicitudes**.
+
+La solicitud entrante se muestra en la lista.
+
+El **tipo** de la solicitud está marcado como **Externo: &lt; nombre de la instancia del cliente >**, lo que lo marca como proveniente de la organización conectada.
+
+1. Abra la solicitud. Aparece un distintivo **Compartido con: &lt; nombre de la instancia del cliente >** junto al título, y el panel de comentarios muestra el siguiente aviso de **conversación entre empresas**: **Esta conversación es visible para &lt; nombre de la organización del cliente >.**
+1. Revise la información de la solicitud y las respuestas del formulario.
+1. Haga clic en el menú **Más** a la derecha del nombre de la solicitud y, a continuación, **Crear objeto**.
+1. En el cuadro de diálogo **Crear objeto**, actualice los campos siguientes:
+   * **Acción**: seleccione una acción en el menú. Por ejemplo, **Crear un solo proyecto**
+   * **Plantilla de proyecto**: seleccione una plantilla disponible.
+   * **Propietario del proyecto**: agregue un propietario de proyecto.
+   * **Módulo**: elija un producto donde se mostrará el objeto. Si elige **Flujo de trabajo**, se crea un proyecto en la instancia de proveedor de Workfront.
+   * **Formularios personalizados**: adjunte formularios personalizados, si es necesario.
+   * **Portfolio** y **Programa**: Agregue portafolios o programas para el nuevo proyecto.
+1. Haga clic en **Crear**.
+
+   La solicitud en la instancia del proveedor ahora se vincula al nuevo proyecto, y el estado de la solicitud cambia a **En curso**. La instancia solicitante del cliente ve el cambio de estado en su propia copia de la solicitud.
+
+### &#x200B;6. Colaboración en la conversación entre empresas
+
+Los usuarios de ambas organizaciones pueden realizar comentarios en sus respectivas solicitudes. El banner de **Conversación entre empresas** es un recordatorio de que todo lo que se escriba aquí es visible para la otra organización.
+
+Realice una de las siguientes acciones:
+
+1. Para solicitar una actualización a la instancia del cliente:
+
+   1. Abra la solicitud y vaya al panel **Comentarios**.
+   1. Haga clic en **Nuevo comentario**, escriba el mensaje y haga clic en **Enviar**.
+
+1. Para actualizar la solicitud desde la instancia del proveedor:
+
+   1. Abra la solicitud. El nuevo comentario se resaltará con una etiqueta **New**.
+   1. Haga clic en **Responder**, escriba la respuesta y haga clic en **Enviar**.
+
+1. Para realizar un seguimiento desde la instancia del cliente:
+
+   1. Abra la solicitud. La respuesta del proveedor aparece debajo del comentario original.
+   1. Haga clic en **Me gusta** para confirmarlo o en **Agregar respuesta** para continuar con la conversación.
+
+
+
+
+<!--
+### Client's workflow
+
+As a requestor in the client's organization, you can do the following:  
+
+1. Create or ask an administrator to create a request form, publish it, and share it with the connected provider's organization.
+
+2. Open the published form from the Requests area, enter a prompt, and attach any files.
+
+3. Review how the content maps to the form fields, accept, and submit.
+
+### Provider's workflow
+
+As a work manager in the provider's organization, do the following: 
+
+1. Receive the request in your Requests area as a read-only copy.
+
+2. Discuss the request through comments until both sides are aligned, then accept it.
+
+3. Convert the request into a project, choosing the portfolio, program, and template, if needed.
+
+4. Choose which project fields are mirrored back to the client's request. 
+
+5. Answer status questions in comments, or generate a draft status update, review it, and publish to your request. It will also display on the client's original request. 
+
+    From that point on, the request on the provider's side acts as a replica of the client's original request, so comments and agreed-upon data stay in sync.
+-->
 
 ## Seguridad y gobernanza
 
@@ -193,33 +367,7 @@ Las fases siguientes describen nuestro plan de desarrollo y lanzamiento actual. 
 </tbody>
 </table>
 
-## Participar en la versión beta
 
-Hable con el administrador del programa beta de Adobe para participar en la versión beta.
-
-### Lo que pedimos a los participantes
-
-* Únase a una llamada de comentarios semanal.
-
-* Reserve aproximadamente una hora por semana para realizar pruebas prácticas por su cuenta. Las sesiones de trabajo en directo en la llamada son una opción.
-
-* Llevar las perspectivas de ambos socios a las reuniones, siempre que sea posible.
-
-* Identifique los entornos de Workfront a los que conectarse y proporcione cuentas de administración para un pequeño número de ingenieros de Adobe para que puedan validar la conexión.
-
-### Lo que queremos aprender
-
-* ¿Es la duplicación de un objeto y la sincronización de solo los datos seleccionados el modelo de uso compartido correcto? ¿Es lo suficientemente flexible para cada lado?
-
-* ¿Es correcta la secuenciación de fases o debería llegar antes una capacidad posterior?
-
-* ¿Qué puntos de contacto faltan en la colaboración?
-
-* ¿Cómo deberían funcionar la asignación y la asignación de nombres de campo entre las dos instancias?
-
-  En la actualidad, el formulario y la solicitud son propiedad del cliente y el proveedor los ve de solo lectura con los nombres de campo del cliente.
-
-* ¿Qué necesita el departamento de TI para aprobar y administrar una conexión?
 
 
 

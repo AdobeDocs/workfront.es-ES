@@ -28,13 +28,11 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 04335eec43d9690e7dbc028c2066039ae28be432
 workflow-type: tm+mt
-source-wordcount: 1068
-ht-degree: 48%
-
+source-wordcount: '1064'
+ht-degree: 47%
 ---
-
 # Crear y editar riesgos en proyectos
 
 <!--Audited: 06/2025-->
@@ -131,8 +129,6 @@ Puede crear y editar riesgos en la sección Riesgos de un proyecto o una plantil
 
 1. Vaya al proyecto para el que quiera crear riesgos.
 1. Haga clic en **Riesgos** en el panel izquierdo.
-
-   ![Sección Riesgos de la tarea](assets/risks-section-on-project-2022.png)
 
 1. Haga clic en **Agregar más riesgos** y cree riesgos editando en línea su información.
 
