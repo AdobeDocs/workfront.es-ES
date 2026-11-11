@@ -19,9 +19,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 215b8f1bf28e8df2b95c4f0519ffebcbcaa8df16
+source-git-commit: 82ebe4df89bd9db39629b36c31c0ae2a4e133838
 workflow-type: tm+mt
-source-wordcount: '1311'
+source-wordcount: '1352'
 ht-degree: 0%
 ---
 
@@ -97,29 +97,31 @@ Puede acceder al espacio de ideación si su organización y usted tienen acceso 
 
 * Proveedores de nube:
 
-  * AWS
+  * Amazon Web Service (AWS)
 
     Los proveedores de Azure y GCP no son compatibles.
 
 * Productos:
 
   * Adobe Workfront con Workfront Planning
-  * Adobe Enterprise CX Coworker para Workfront
+  * CX Enterprise Coworker en Workfront
 
     >[!IMPORTANT]
     >
-    >Adobe CX Enterprise Coworker no está disponible actualmente para organizaciones de atención médica, finanzas u otros sectores con datos confidenciales. El asistente de IA está disponible para estas organizaciones, pero el espacio de ideación no está disponible para los clientes de Workfront que no tienen Compañero de trabajo.
+    >CX Enterprise Coworker no está disponible actualmente para organizaciones de atención médica, finanzas u otros sectores con datos confidenciales. El asistente de IA está disponible para estas organizaciones, pero el espacio de ideación no está disponible para los clientes de Workfront que no tienen Compañero de trabajo.
 
-* Paquetes de Adobe:
+* Paquetes de Adobe: <!--Et wanted the Coworker added to these-->
 
   * Durante la versión de Open Beta (a partir del 12 de noviembre de 2026), debe tener lo siguiente:
 
-    * Un paquete de flujo de trabajo de Adobe Workfront con un paquete de Workfront Planning
+    * Un paquete de flujo de trabajo de Adobe Workfront con un paquete de Workfront Planning con Adobe CX Enterprise Coworker activado
 
   * Después del lanzamiento de Disponibilidad general (previsto para el 1 de febrero de 2027), puede tener una de las siguientes opciones:
 
     * Un paquete de flujo de trabajo de Adobe Workfront con un paquete de Workfront Planning
     * Adobe Workfront Planning como producto independiente
+
+    Ambos paquetes deben tener Adobe CX Enterprise Coworker activado
 
 
 
@@ -189,6 +191,7 @@ Ideation space works exclusively with the CX Enterprise Coworker for Workfront a
 
 A continuación se indican algunas de las funciones de Coworker cuando se utiliza en el espacio de ideación:
 
+* Realice análisis de alternativas para comparar diferentes temas de campañas, mensajes o probar su dirección estratégica
 * Carga de documentos o perspectivas sociales
 * Acceda al contenido web pertinente a la información que está creando
 * Definir un objetivo de campaña
@@ -211,7 +214,12 @@ Para obtener acceso al espacio de ideación:
 1. Compruebe que cumple los requisitos del producto tal como se describe en la sección [Requisitos del producto](#product-requirements) de este artículo.
 1. Póngase en contacto con el representante de su cuenta de Adobe para expresar interés en participar en el Beta cerrado o únase a Open Beta, cuando esté disponible.
 
-   Los administradores del sistema tienen acceso al espacio de ideación de forma predeterminada y no pueden eliminarlo cuando está disponible en Open Beta. Pueden activarlo para todos los demás usuarios.
+   Los administradores del sistema tienen acceso al espacio de ideación de forma predeterminada y no pueden eliminarlo cuando está disponible en Open Beta. Pueden activarlo todos los demás usuarios en cualquiera de los entornos siguientes:
+
+   * Producción
+   * Vista previa
+   * Zonas protegidas personalizadas
+
 1. (Recomendado) Identifique su primera campaña: una reciente para actualizar o una nueva iniciativa para crear desde cero.
 
 Para obtener más información sobre el uso del espacio de ideación, consulte también los siguientes artículos:

@@ -30,9 +30,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 64b421c1e1b00d37f55458b49510d9ca496f70e8
+source-git-commit: 82ebe4df89bd9db39629b36c31c0ae2a4e133838
 workflow-type: tm+mt
-source-wordcount: '3436'
+source-wordcount: '3504'
 ht-degree: 14%
 ---
 # Actualizar trabajo
@@ -625,15 +625,23 @@ The Quote Reply option copies the original comment to a new reply as a block quo
 
 <div class="preview">
 
-## Fijar comentarios
+## Fijar hilos de comentarios
 
-Puede fijar los comentarios de nivel superior en la parte superior de la pestaña Comentarios. No puede fijar respuestas que formen parte de un subproceso.
+Puede anclar hilos importantes a la parte superior de la pestaña Actualizaciones para separarlos del flujo de actualización en una sección de hilos anclados.
 
-1. Vaya a un objeto que admita la fijación de comentarios y haga clic en Actualizaciones en el panel izquierdo; a continuación, haga clic en la ficha **Comentarios**.
+Tenga en cuenta lo siguiente al anclar subprocesos:
+
+* Puede fijar los comentarios de nivel superior en la parte superior de la pestaña Comentarios. No puede fijar respuestas que formen parte de un subproceso.
+* Más tarde puede desanclar los hilos.
+* Cualquier persona con permisos para Ver un objeto con un área de Actualizaciones puede anclar o desanclar un subproceso.
+
+Para fijar un hilo de comentarios:
+
+1. Vaya a un objeto que tenga un área de **Actualizaciones**, haga clic en **Actualizaciones** en el panel izquierdo y, a continuación, haga clic en la ficha **Comentarios**.
 
    Para obtener más información, consulte [Información general sobre la ficha Actualizaciones](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
-1. Agregue un comentario o, a partir de uno existente, haga clic en el menú **Más** ![Menú más](assets/more-menu.png) a la derecha del comentario y, a continuación, haga clic en **Anclar subproceso**. El comentario y las respuestas existentes se anclarán en la parte superior de la pestaña Comentarios.
+1. Agregue un comentario o, a partir de uno existente, haga clic en el menú **Más** ![Menú más](assets/more-menu.png) a la derecha del comentario y, a continuación, haga clic en **Anclar subproceso**. El comentario y las respuestas existentes se anclan en la parte superior de la pestaña Comentarios para usted y todas las personas que puedan ver el objeto.
 
    Se crea una nueva sección de **subprocesos anclados** en la parte superior de la pestaña **Comentarios**.
 
@@ -645,7 +653,41 @@ Puede fijar los comentarios de nivel superior en la parte superior de la pestañ
 
 </div>
 
+<!--
+<div class="preview">
 
+## Resolve comment threads
+
+To save space and to make the Comments tab easier to navigate, you can resolve comment threads which hides them from the updates stream. 
+
+Consider the following when resolving comments: 
+
+* You can resolve comment threads, not individual comments. The capability exists for only for the first comment in a thread. 
+* Comments that are part of a resolved thread are read-only. 
+* You cannot edit, delete, reply to, like, or pin comments that are part of a resolved thread. 
+* You can display resolved comments or hide them for yourself.
+* You can unresolve threads which brings them back to the Updates stream with all capabilities.  
+
+To resolve comment threads: 
+
+1. Go to an object that has an **Updates** tab, and click **Updates** in the left panel, then click the  **Comments** tab.
+
+   For information, see [Updates tab overview](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md). 
+
+1. From the top comment of an existing thread, click the **More** menu ![More menu](assets/more-menu.png) to the right of the comment, then click **Resolve**. 
+
+   ************add a screen shot***************
+
+   The **Resolve comment** box opens to remind you that the comment will be hidden from the Updates area and you can no longer interact with it. 
+
+1. (Optional) Select the **Do not show this again** setting, if you don't want the warning to display every time you resolve comments. You cannot display the **Resolve comment** box again if you select this setting.
+1. Click **Resolve**.
+
+   The thread is resolved and all the comments in the thread are hidden from the **Updates** tab.
+1. (Optional) Click the filter in the upper-right corner of the Updates tab, then turn off the **Hide resolved comments** setting. Resolved threads are displayed on the Updates tab. This setting impacts only what you view. Other users could  keep the resolved comments hidden. 
+
+</div>
+-->
 
 ## Eliminar un comentario o una respuesta
 

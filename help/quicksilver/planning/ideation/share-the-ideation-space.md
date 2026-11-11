@@ -19,9 +19,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 215b8f1bf28e8df2b95c4f0519ffebcbcaa8df16
+source-git-commit: 82ebe4df89bd9db39629b36c31c0ae2a4e133838
 workflow-type: tm+mt
-source-wordcount: '667'
+source-wordcount: '675'
 ht-degree: 5%
 ---
 
@@ -96,9 +96,9 @@ are there additional license restrictions or packages to be purchased to have ac
 </tr> 
 <tr> 
    <td role="rowheader"><p>Requisitos del proveedor de nube</p></td> 
-   <td><p>AWS</p>
+   <td><p>Amazon Web Service (AWS)</p>
    <p><b>NOTA:</b></p>
-   <p>No se admiten otros proveedores de nube</p>
+   <p>No admitimos ningún otro proveedor de la nube.</p>
    </td> 
   </tr>
 <tr> 
@@ -192,7 +192,7 @@ Para obtener más información acerca de los requisitos de acceso de Workfront, 
      Todas las personas de la organización que tengan un flujo de trabajo y una licencia de Planning en su nivel de acceso pueden encontrar la idea y realizar comentarios al respecto.
    * **Cualquier persona que tenga el vínculo puede hacer comentarios**
 
-     Cualquier persona que comparta un vínculo a la idea puede realizar comentarios sobre él, incluidas las personas externas a la organización.
+     Cualquier persona con la que comparta un vínculo al lienzo de ideación podrá realizar comentarios sobre él, incluidas las personas externas a la organización.
 
 1. Haga clic en **Copiar vínculo** para generar un vínculo a la idea y compartirlo con otros usuarios. El vínculo se añadirá al portapapeles.
 1. Haga clic en la flecha hacia atrás del cuadro Configuración para volver al uso compartido.
@@ -200,11 +200,11 @@ Para obtener más información acerca de los requisitos de acceso de Workfront, 
 
    | Permiso del espacio de ideación | Competencias |
    |---|---|
-   | **Editor** | Puede editar, descargar y compartir el espacio de ideación |
-   | **Comentarista** | Puede ver el espacio de ideación y realizar comentarios en él |
-   | **Visor** | Puede ver el espacio de ideación |
+   | **Editor** | Puede editar, descargar y compartir el lienzo de ideación |
+   | **Comentarista** | Puede ver y comentar en el lienzo de ideación |
+   | **Visor** | Puede ver el lienzo de ideación |
 
-1. (Opcional) Incluya un mensaje con su asignación y luego haga clic en **Invitar**.
+1. (Opcional) Incluya un mensaje con su invitación para compartir y luego haga clic en **Invitar**.
 
    Los usuarios invitados reciben una notificación por correo electrónico sobre su asignación de permisos.
 

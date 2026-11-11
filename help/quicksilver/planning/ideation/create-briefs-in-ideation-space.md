@@ -18,9 +18,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 215b8f1bf28e8df2b95c4f0519ffebcbcaa8df16
+source-git-commit: 82ebe4df89bd9db39629b36c31c0ae2a4e133838
 workflow-type: tm+mt
-source-wordcount: '1899'
+source-wordcount: '2011'
 ht-degree: 2%
 ---
 
@@ -92,9 +92,9 @@ are there additional license restrictions or packages to be purchased to have ac
 </tr> 
 <tr> 
    <td role="rowheader"><p>Requisitos del proveedor de nube</p></td> 
-   <td><p>AWS</p>
+   <td><p>Amazon Web Service (AWS)</p>
    <p><b>NOTA:</b></p>
-   <p>No se admiten otros proveedores de nube</p>
+   <p>No admitimos ningún otro proveedor de la nube.</p>
    </td> 
   </tr>
 <tr> 
@@ -180,11 +180,13 @@ Puede crear informes para crear o editar registros de Planning o para crear arch
    * Vaya al **Menú principal** ![Menú principal](assets/main-menu-lines.png) > **Espacio de ideación**
    * Vaya a **Menú principal** ![Menú principal](assets/main-menu-lines.png) > **Planificación** > haga clic en un área de trabajo > haga clic en un tipo de registro > **Nuevo registro** > **Iniciar espacio de ideación**
 
-   El Espacio de ideación se abre y una nueva ideación se titula de forma predeterminada con el siguiente formato:
+1. Lea el contrato de versión beta y haga clic en **Aceptar**. Debe firmar el acuerdo para utilizar el espacio de ideación.
+
+   El lienzo Espacio de ideación se abre y una nueva ideación se titula de forma predeterminada después del siguiente formato:
 
    `catalyze-canvas-< number > - Month date, year at time` <!--submitted bug to change the default name to "Untitled ideation"-->
 
-   Para obtener más información acerca de cómo crear registros con el espacio de ideación, vea [Crear registros de Planning a partir de los informes del espacio de ideación](/help/quicksilver/planning/ideation/create-records-in-ideation-space-for-planning.md).
+   Para obtener más información acerca de cómo crear registros mediante el espacio de ideación, vea [Crear registros de Planning a partir de los informes del espacio de ideación](/help/quicksilver/planning/ideation/create-records-in-ideation-space-for-planning.md).
 
 1. (Condicional) Para abrir una descripción existente en el espacio de ideación, inicie sesión en Workfront con Planning donde se haya activado el compañero y realice una de las siguientes acciones:
 
@@ -203,7 +205,7 @@ Puede crear informes para crear o editar registros de Planning o para crear arch
 1. (Opcional) Haga clic en el icono **+** del cuadro Petición de datos a Coworker y adjunte información de las siguientes maneras:
 
    * **Comandos**: Use un comando de la lista para solicitar contenido a Coworker.
-   * **Adjuntar archivo**: Adjunte un archivo al cuadro de mensaje para agregarlo o su información al espacio de ideación. Debe pedir a su compañero que cree tarjetas basadas en el archivo para posteriormente enviar las tarjetas al informe.
+   * **Adjuntar archivo**: adjunte un archivo al cuadro de mensaje para agregarlo o su información al lienzo de ideación. Debe pedir a su compañero que cree tarjetas basadas en el archivo para posteriormente enviar las tarjetas al informe.
    * **Hacer referencia a un objeto**: seleccione un objeto de la lista para hacer referencia a él en su ideación. El objeto debe existir en Workfront.
 
 1. Haga clic en Entrar.
@@ -216,14 +218,14 @@ Puede crear informes para crear o editar registros de Planning o para crear arch
 
 1. (Condicional) Cuando el Compañero de trabajo ofrezca crear tarjetas para la ideación, responda **Sí**.
 
-   Las tarjetas se añaden al espacio de ideación y puede ver las fuentes de cada tarjeta y decidir cuál añadir a la información breve.
+   Las tarjetas se añaden al lienzo de ideación y puede ver las fuentes de cada tarjeta y decidir cuál añadir a la información breve.
 
    >[!TIP]
    >
    >No puede agregar archivos directamente al informe. Primero debe transferir la información del archivo a las tarjetas que puede enviar al informe.
 
 
-1. Haga clic en el icono **Buscar** ![Icono de búsqueda](assets/search-icon.png) para buscar elementos en el espacio de ideación y, a continuación, haga clic en cuando se muestre en la lista para navegar hasta él.
+1. Haga clic en el icono **Buscar** ![Icono de búsqueda](assets/search-icon.png) para buscar elementos en el lienzo de ideación y, a continuación, haga clic en cuando se muestre en la lista para navegar hasta él.
 
 1. (Opcional) Haga clic en **Fuentes** en la parte inferior de cada tarjeta para saber de dónde se recopiló la información.
 
@@ -233,7 +235,7 @@ Puede crear informes para crear o editar registros de Planning o para crear arch
 1. (Opcional) Haga clic en **Comentarios** ![Icono de comentario](assets/comments-icon.png) en la esquina superior derecha del espacio y **@** etiquete a otros para iniciar una lluvia de ideas dentro del espacio.
 
    Los usuarios recibirán una notificación por correo electrónico sobre la etiqueta.
-1. (Opcional) Haga clic en el icono **Filtro** ![](assets/filter-comments-icon.png) dentro de la tarjeta de comentarios para filtrar los comentarios según los siguientes criterios:
+1. (Opcional) Haga clic en el icono **Filtro** ![Icono de filtro](assets/filter-comments-icon.png) dentro de la tarjeta de comentarios para filtrar los comentarios según los siguientes criterios:
 
    * Revisores
    * Hora a la que se añadió el comentario
@@ -247,27 +249,31 @@ Puede crear informes para crear o editar registros de Planning o para crear arch
    Por ejemplo, las líneas de tiempo se agregan a los campos de tipo fecha y las descripciones a los campos de tipo párrafo.
 
 1. (Condicional) Haga clic en una tarjeta y, a continuación, haga clic en **Preguntar a AI a ...** para obtener ideas sobre el siguiente paso, antes de agregar la información al resumen. Las respuestas se encuentran en el contexto de la información de cada tarjeta.
-1. Haga clic en el icono **Agregar documentos** ![Agregar documentos](assets/add-documents-in-ideation-space.png) en la esquina superior izquierda del espacio de ideación para cargar documentos en el espacio. Puede agregar nuevos documentos o documentos que ya haya agregado al espacio anteriormente.
+1. Haga clic en el icono **Agregar documentos** ![Agregar documentos](assets/add-documents-in-ideation-space.png) en la esquina superior izquierda del lienzo Ideación para cargar documentos en el espacio. Puede agregar nuevos documentos o documentos que ya haya agregado al espacio anteriormente.
 
    >[!TIP]
    >
    >La configuración Documents debe estar activada para poder acceder a los documentos y cargarlos en el espacio.
-   >Para obtener más información, consulte la sección [Configurar el espacio de ideación](#configure-the-ideation-space) en este artículo.
+   >Para obtener más información, consulte la sección [Configurar el lienzo del espacio de ideación](#configure-the-ideation-space-canvas) en este artículo.
    > 
-1. Haga clic en el icono **Agregar tarjeta de taxonomía WF** ![Agregar desde Workfront Planning](assets/add-from-wf-planning-on-ideations-space.png) <!--asked to change this tooltip--> y seleccione un tipo de registro conectado y, a continuación, un registro de cada tipo para agregar la información de ese registro al tipo de registro seleccionado.
+1. Haga clic en el icono **Agregar registros de Workfront Connected Planning** ![Agregar registros de Workfront Connected Planning](assets/add-from-wf-planning-on-ideations-space.png) y seleccione un tipo de registro conectado y, a continuación, un registro de cada tipo para agregar la información de ese registro al tipo de registro seleccionado.
 
    Se creará una tarjeta para el registro seleccionado para añadirlo al espacio. El tipo de registro se muestra en la esquina superior izquierda de la tarjeta del registro.
 
    >[!TIP]
    >
-   >El icono **Agregar tarjeta de taxonomía WF** <!--check UI name--> no está disponible cuando se accede al espacio de ideación desde el menú Principal y el informe no está conectado a un registro de Planning.
+   >* El icono **Agregar registros de Planning conectados de Workfront** no está disponible cuando se accede al espacio de ideación desde el menú Principal y la información no está conectada a un registro de Planning.
+   >
+   >* Solo los registros de planificación conectados estarán disponibles para agregarlos al lienzo del espacio de ideación como contexto para su ideación. Cada tarjeta de registro conectada agregada al lienzo influirá en el tipo de contenido creado y utilizará ese contexto cuando corresponda durante su ideación.
+   >
+   >   Por ejemplo, si desea crear una campaña que debe aprovechar los tipos de registros existentes, agregue esos registros al lienzo.
 
 1. (Opcional) Haga clic en el menú **Más** ![Más menú](assets/more-menu.png) en la tarjeta de registro conectada y haga clic en **Ver en Workfront**.
 
    La página de detalles del registro se abre en otra ficha del explorador de Workfront Planning.
-1. (Opcional) Seleccione el marco de ideación o una tarjeta, haga clic en el icono **Eliminar** y, a continuación, haga clic en **Eliminar** para confirmar. La tarjeta se eliminará del espacio de ideación.
+1. (Opcional) Seleccione el marco de ideación o una tarjeta, haga clic en el icono **Eliminar** y, a continuación, haga clic en **Eliminar** para confirmar. La tarjeta se eliminará del lienzo del espacio de ideación.
 
-   Al eliminar las tarjetas correspondientes a un documento almacenado o a un registro, los elementos se quitan del espacio de ideación, pero permanecen en sus aplicaciones respectivas.
+   Al eliminar las tarjetas correspondientes a un documento almacenado o a un registro, los elementos se quitan del lienzo, pero permanecen en sus aplicaciones respectivas.
 
 1. (Opcional) Use el cuadro **Preguntar a su compañero(a) cualquier cosa** en la esquina inferior derecha en cualquier momento para refinar su idea.
 
@@ -277,7 +283,7 @@ Puede crear informes para crear o editar registros de Planning o para crear arch
 
    ![Copiar al icono de la barra de mensajes](assets/copy-to-prompt-bar-icon-highlighted.png)
 
-1. (Opcional) Haga clic en los iconos **Deshacer** o **Rehacer** ![Deshacer y rehacer](assets/undo-redo-icons.png) en la parte superior del espacio de ideación para cancelar o revertir una acción.
+1. (Opcional) Haga clic en los iconos **Deshacer** o **Rehacer** ![Deshacer y rehacer](assets/undo-redo-icons.png) de la parte superior del lienzo para cancelar o revertir una acción.
 1. Aleja para ver la imagen completa: tu objetivo original de la campaña, todas las tarjetas de concepto generadas por IA con citas, documentos adicionales, los registros reales de Workfront Planning que has extraído (productos, personalidades, etc.). La tarjeta de resumen **Brief** de la esquina inferior izquierda lo reúne todo.
 
 1. Haga clic en la imagen de vista previa breve en la esquina inferior izquierda, revise la información y, a continuación, haga clic en una de las siguientes opciones:
@@ -296,11 +302,13 @@ Puede crear informes para crear o editar registros de Planning o para crear arch
    Esto finaliza la creación del registro o del archivo con la información adicional. Si ha empezado desde un registro existente, la información del informe se agrega al registro. Si ha empezado con un registro nuevo, el registro se crea con la información del resumen.
 
    Para obtener más información acerca de la actualización de registros de Planning mediante informes, vea la sección &quot;ConsideracionesConsideraciones acerca del uso del espacio de ideación para crear registros&quot; en el artículo [Crear registros de Planning a partir de informes del espacio de ideación](/help/quicksilver/planning/ideation/create-records-in-ideation-space-for-planning.md).
+1. (Opcional) Haga clic en **Compartir** para compartir el lienzo de ideación con otros usuarios.
 
+   Para obtener más información, vea [Compartir un espacio de ideas con otros](/help/quicksilver/planning/ideation/share-the-ideation-space.md).
 
-## Configuración del espacio de ideación
+## Configuración del lienzo del espacio de ideación
 
-Existen controles para el espacio de ideación que configuran lo que se ve en la pantalla y le ayudan a desplazarse por el espacio.
+Existen controles para el espacio de ideación que configuran lo que se ve en la pantalla, así como que le ayudan a navegar por el lienzo.
 
 1. Haga clic en el icono **Configuración** ![Configuración](assets/setting-icon.png) para controlar de dónde extrae información AI y, a continuación, elija entre los siguientes **tipos de Source**:
 
@@ -322,7 +330,7 @@ Existen controles para el espacio de ideación que configuran lo que se ve en la
    * **Mostrar cuadrícula de puntos**: active la selección para mostrar la cuadrícula de puntos.
    * **Recorrido del producto**: desactive la selección para no recibir sugerencias de guía mientras usa el espacio de ideación.
 
-1. Haga clic en el icono **Ayuda** ![Icono de Ayuda](assets/more-information-icon.png) para revisar los métodos abreviados de teclado que puede usar para desplazarse por el espacio de ideación o seleccionar un valor de zoom diferente:
+1. Haga clic en el icono **Ayuda** ![Icono de Ayuda](assets/more-information-icon.png) para revisar los métodos abreviados de teclado que puede usar para navegar por el lienzo o seleccionar un valor de zoom diferente:
 
 | Acción | Método abreviado |
 | --- | --- |

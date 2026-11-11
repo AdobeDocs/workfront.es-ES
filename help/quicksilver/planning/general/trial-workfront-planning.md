@@ -30,9 +30,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
+source-git-commit: 82ebe4df89bd9db39629b36c31c0ae2a4e133838
 workflow-type: tm+mt
-source-wordcount: '2346'
+source-wordcount: '2348'
 ht-degree: 4%
 ---
 # Introducción a la prueba gratuita de Planificación de Workfront de Adobe
@@ -254,7 +254,7 @@ Puede revisar espacios de trabajo de Planning de ejemplo y sus objetos, así com
 1. (Condicional y obligatorio) Como administrador de Workfront, firme el acuerdo de prueba gratuita.
 
    Para obtener más información, consulte la sección [Inscribirse en la prueba gratuita de Adobe Workfront Planning](#enroll-in-the-adobe-workfront-planning-free-trial) en este artículo.
-1. (Condicional) Una vez que un administrador de Workfront haya firmado el acuerdo de prueba, haga clic en el icono **Menú principal** ![](assets/main-menu-shell.png) y, a continuación, haga clic en una de las siguientes opciones para obtener acceso al área de **Planning**:
+1. (Condicional) Una vez que un administrador de Workfront haya firmado el acuerdo de prueba, haga clic en el icono **Menú principal** ![Menú principal](assets/main-menu-shell.png) y, a continuación, haga clic en una de las siguientes opciones para obtener acceso al área **Planificación**:
 
    * **Planificación**. El icono muestra una etiqueta **Prueba** junto a él.
    * **Proyectos**, **Solicitudes**, **Calendarios** y después haga clic en **Explorar calendarios de campaña**

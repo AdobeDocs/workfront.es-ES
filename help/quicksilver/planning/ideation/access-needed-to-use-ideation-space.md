@@ -19,9 +19,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 215b8f1bf28e8df2b95c4f0519ffebcbcaa8df16
+source-git-commit: 82ebe4df89bd9db39629b36c31c0ae2a4e133838
 workflow-type: tm+mt
-source-wordcount: '931'
+source-wordcount: '969'
 ht-degree: 1%
 ---
 
@@ -71,7 +71,7 @@ Para obtener información general sobre el espacio de ideación, vea [Introducci
 
 >[!NOTE]
 >
->No necesita un inicio de sesión independiente para acceder al espacio de ideación. Está disponible de inmediato si puede iniciar sesión en Workfront si también tiene Workfront Planning.
+>No necesita un inicio de sesión independiente para acceder al espacio de ideación. Está disponible de inmediato si puede iniciar sesión en Workfront cuando también tiene Workfront Planning.
 >
 >Para obtener más información sobre el acceso necesario para usar el espacio de ideación, consulte [Acceso necesario para usar el espacio de ideación](/help/quicksilver/planning/ideation/access-needed-to-use-ideation-space.md).
 
@@ -79,9 +79,9 @@ Puede acceder al espacio de ideación si su organización y usted tienen acceso 
 
 * Proveedores de nube:
 
-  * AWS
+  * Amazon Web Service (AWS)
 
-    Los proveedores de Azure y GCP no son compatibles.
+    Los proveedores de Azure y GCP no son compatibles con el espacio de ideación.
 
 * Productos:
 
@@ -92,16 +92,20 @@ Puede acceder al espacio de ideación si su organización y usted tienen acceso 
     >
     >CX Enterprise Coworker no está disponible actualmente para organizaciones de atención médica, finanzas u otros sectores con datos confidenciales. El asistente de IA está disponible para estas organizaciones, pero el espacio de ideación no está disponible para los clientes de Workfront que no tienen Compañero de trabajo.
 
-* Paquetes de Adobe:
+* Paquetes de Adobe: <!--Et wanted the Coworker added to these-->
 
   * Durante la versión de Open Beta (a partir del 12 de noviembre de 2026), debe tener lo siguiente:
 
-    * Un paquete de flujo de trabajo de Adobe Workfront con un paquete de Workfront Planning
+    * Un paquete de flujo de trabajo de Adobe Workfront con un paquete de Workfront Planning con Adobe CX Enterprise Coworker activado
 
   * Después del lanzamiento de Disponibilidad general (previsto para el 1 de febrero de 2027), puede tener una de las siguientes opciones:
 
     * Un paquete de flujo de trabajo de Adobe Workfront con un paquete de Workfront Planning
     * Adobe Workfront Planning como producto independiente
+
+    Ambos paquetes deben tener Adobe CX Enterprise Coworker activado
+
+
 
 
 <!--
@@ -171,7 +175,7 @@ El nivel de acceso de Workfront debe incluir los siguientes tipos de licencia pa
 
 Cuando se utiliza el espacio de ideación de Workfront Planning, cada registro de Planning se conecta a un resumen en el espacio de ideación.
 
-Los permisos breves del espacio de ideación se heredan de los permisos de registro de Workfront Planning. <!--not sure if this is right, because now you can share the ideation with others??-->
+Los permisos breves del espacio de ideación se heredan de los permisos de registro de Workfront Planning.
 
 Debe tener permisos de contribución o superiores para un tipo de registro en Planning para crear registros o editar un registro en el espacio de ideación.
 
@@ -183,6 +187,8 @@ En la tabla siguiente se muestra la conexión entre los permisos de registros de
 |---|---|
 | Aportar o permisos superiores a un registro | Puede crear un resumen en el espacio de ideación del registro |
 | Ver permisos de un registro | Puede leer el resumen del registro en el espacio de ideación, pero no puede modificarlo |
+
+También puede compartir un lienzo de ideación con otros usuarios. Para obtener más información, consulte la siguiente sección en este artículo.
 
 ## Permisos del espacio de ideación
 
