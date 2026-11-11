@@ -11,9 +11,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 215b8f1bf28e8df2b95c4f0519ffebcbcaa8df16
+source-git-commit: 82ebe4df89bd9db39629b36c31c0ae2a4e133838
 workflow-type: tm+mt
-source-wordcount: '993'
+source-wordcount: '1026'
 ht-degree: 2%
 ---
 
@@ -85,9 +85,9 @@ are there additional license restrictions or packages to be purchased to have ac
 </tr> 
 <tr> 
    <td role="rowheader"><p>Requisitos del proveedor de nube</p></td> 
-   <td><p>AWS</p>
+   <td><p>Amazon Web Service (AWS)</p>
    <p><b>NOTA:</b></p>
-   <p>No se admiten otros proveedores de nube</p>
+   <p>No admitimos ningún otro proveedor de la nube.</p>
    </td> 
   </tr>
 <tr> 
@@ -152,7 +152,7 @@ Or
     <td role="rowheader"><p>Adobe GenStudio for Performance Marketing user roles</p></td> 
     <td><p><ul><li>Any GenStudio user role to access Campaigns, Products, and Personas</li>
     <li>GenStudio System Manager to access Activations and Events</li></ul>
-    For information, see <a href="https://experienceleague.adobe.com/es/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
+    For information, see <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
     </p>
     </td> 
     </tr> 
@@ -170,7 +170,7 @@ Para obtener más información acerca de los requisitos de acceso de Workfront, 
 * Para utilizar el espacio de ideación para crear o editar registros, debe tener un espacio de trabajo y un tipo de registro en Workfront Planning.
 * Los registros nuevos siempre comienzan con contenido de marcador de posición, independientemente de cómo los cree.
 * Cuando se elimina un registro de Planning vinculado a un informe de ideación, el informe permanece en el espacio de ideación y su espacio asociado no se elimina.
-* La sincronización de información solo se produce desde el Espacio de ideación a Workfront Planning. No hay sincronización inversa o automática de un registro de Planning al informe de espacio de ideación. <!--this might change?-->
+* La sincronización de información solo se produce desde el Espacio de ideación a Workfront Planning. No hay sincronización inversa o automática de un registro de Planning al informe de espacio de ideación. <!--this might change after beta?-->
 * Cuando se crean, editan o eliminan campos en Workfront Planning, se dan los siguientes escenarios:
 
   * Los nuevos campos creados en los registros vinculados a los informes de ideación se añaden diariamente a la información. Los nuevos campos aparecen vacíos en el resumen de ideación.
@@ -189,8 +189,8 @@ Para obtener más información acerca de los requisitos de acceso de Workfront, 
 1. Haga clic en la tarjeta de un tipo de registro al que pueda agregar registros.
 1. Realice una de las siguientes acciones para crear un registro:
 
-   * Desde cualquier vista de la página de tipo de registro, haz clic en **Nuevo registro** en la esquina superior derecha de la página y en el cuadro **Elige una forma de agregar tus registros**, haz clic en **Abrir el espacio de ideación** y, a continuación, haz clic en **Continuar**.
-   * Desplácese hasta la parte inferior de la tabla de registro y haga clic en **Nueva fila**; a continuación, haga clic en **Abrir el espacio de ideación**.
+   * Desde cualquier vista de la página de tipo de registro, haga clic en **Nuevo registro** en la esquina superior derecha de la página y, en el cuadro **Elija una forma de agregar los registros**, haga clic en **Iniciar espacio de ideación** y, a continuación, haga clic en **Continuar**.
+   * Desplácese hasta la parte inferior de la tabla de registro y haga clic en **Nueva fila**; a continuación, haga clic en **Iniciar espacio de ideación**.
 
      >[!TIP]
      >
@@ -198,11 +198,15 @@ Para obtener más información acerca de los requisitos de acceso de Workfront, 
 
    ![Nuevo cuadro de registros con el botón Abrir espacio de ideación](assets/new-record-creation-picker-with-ideation.png)
 
-   El espacio de ideación se abre en una nueva pestaña.
+1. Lea el contrato de versión beta y haga clic en **Aceptar**. Debe firmar el acuerdo para utilizar el espacio de ideación.
 
-   El compañero se abre en el panel derecho.
+   Ocurren lo siguiente:
 
-   El registro se crea inmediatamente con un marcador de posición.
+   * El lienzo del espacio de ideación se abre en una nueva pestaña.
+
+   * El compañero se abre en el panel derecho.
+
+   * El registro se crea inmediatamente con un marcador de posición.
 
    <!--
     1. (Optional) Click the **Open previous canvases** icon ![Open existing briefs icon](assets/open-existing-briefs-icon.png) in the upper-right corner of the prompt box, to open existing briefs
@@ -243,7 +247,7 @@ No se pueden editar registros en lote en el espacio de ideación.
 
 1. Vaya a un registro existente en Workfront Planning y abra su página de detalles.
 
-1. Haga clic en **Abrir en el espacio de ideación** ![](assets/open-in-ideation-space.png). Esto abre el espacio de ideación en una nueva pestaña.
+1. Haga clic en **Abrir en el espacio de ideación** en la esquina superior derecha de la página de detalles. Esto abre el espacio de ideación en una nueva pestaña.
 
    Si ya existe una ideación para el registro, se abre ese espacio.
 

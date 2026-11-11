@@ -5,9 +5,9 @@ author: Alina, Becky
 feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 1eaa497ba7e446f7fdf978f369205f309bbe231f
+source-git-commit: 82ebe4df89bd9db39629b36c31c0ae2a4e133838
 workflow-type: tm+mt
-source-wordcount: '1277'
+source-wordcount: '1377'
 ht-degree: 4%
 ---
 
@@ -49,7 +49,7 @@ Future - when they make it available in Planning: replace the above with this OR
 >
 -->
 
-Puede copiar espacios de trabajo, tipos de registros, campos y vistas de Workfront Planning de un entorno de Workfront a otro mediante las funciones de promoción de entornos.
+Puede copiar espacios de trabajo de Workfront Planning y sus objetos adicionales de un entorno de Workfront a otro mediante las funciones de promoción del entorno de Adobe Workfront.
 
 En lugar de reconstruir todo a mano, se monta la configuración en un paquete en el entorno de origen y se instala en el entorno de destino.
 
@@ -58,7 +58,7 @@ Utilizar la promoción del entorno con Planning es similar a usarlo para Workfro
 ## Consideraciones sobre el uso de Promoción de entornos con Planning
 
 * Debe ser administrador de Workfront para usar Promoción de entorno.
-* Se importan los siguientes elementos mediante la promoción del entorno:
+* Al copiar un espacio de trabajo en otro entorno, los siguientes objetos asociados a dicho espacio de trabajo también se importan mediante la promoción del entorno:
 
   * Espacios de trabajo
   * Secciones de Workspace
@@ -67,22 +67,34 @@ Utilizar la promoción del entorno con Planning es similar a usarlo para Workfro
   * Vistas
   * Jerarquías
   * Compartir la configuración de todos los objetos
-  * Automatizaciones <!--this might not be part of it; Lilit is checking-->
   * Formularios de solicitud
   * Reglas empresariales
   * Objetos conectados
-  * Objetos de los que depende el espacio de trabajo o con los que se comparten otros objetos, como grupos, equipos o roles. Se dan los siguientes escenarios:
+  * Objetos de los que depende el espacio de trabajo o con los que se comparten otros objetos, como grupos, equipos, roles, empresas y usuarios.
+
+    Se dan los siguientes escenarios:
 
     * Si ya existe un objeto con el mismo nombre en el entorno de destino, Workfront indica un conflicto y usted decide cómo manejarlo.
     * Si un equipo o un grupo con el que se comparte un objeto no existe en el entorno de destino, la promoción lo crea.
+  <!--* Automations -- this is not promoted, for now, per Lilit -->
 * Para cada objeto, puede hacer lo siguiente:
 
   * Créela como un objeto nuevo
   * Utilice el objeto existente pero créelo con un nombre nuevo
   * Sobrescribir un objeto existente. La sobrescritura reemplaza la configuración en el destino.
+* No se pueden exportar los objetos siguientes:
+
+  * Automatización que pertenece al espacio de trabajo que está copiando
+  * Registros
+  * Campos que no pertenecen a los espacios de trabajo exportados
+
+* Los tipos de registros conectados entre espacios de trabajo no se pueden promocionar, a menos que ya existan en el entorno de destino.
+
+  Se recomienda promocionar primero los espacios de trabajo que contienen los tipos de registro conectables entre espacios de trabajo y, después, promocionar los espacios de trabajo que hacen referencia a esos tipos de registro.
 
 * La instalación puede tardar unos minutos. Puede revertir una instalación desde la página de resultados si es necesario.
 * Se recomienda probar el proceso antes de continuar, cuando sea posible. Puede realizar la instalación en una zona protegida o un entorno de vista previa antes de promocionarlo a Producción.
+
 
 ## Requisitos de acceso
 
@@ -113,8 +125,7 @@ Utilizar la promoción del entorno con Planning es similar a usarlo para Workfro
   </tr> 
   <tr> 
    <td role="rowheader"><p>Configuración de nivel de acceso</p></td> 
-   <td> <p>Debe agregar un tipo de licencia de flujo de trabajo y de Planning al nivel de acceso cuando tenga un flujo de trabajo y un paquete de Planning a la vez</p>  
-   <p>Debe ser administrador del sistema</p> 
+   <td> <p>Debe ser administrador del sistema</p> 
 </td> 
   </tr> 
   <tr> 
@@ -143,7 +154,7 @@ Siga las instrucciones de las secciones siguientes para copiar una configuració
 
 ### Creación de un paquete en el entorno de origen
 
-1. Tenga un entorno de origen en el que la configuración deseada esté implementada.
+1. Vaya a un entorno de origen en el que tenga la configuración deseada.
 1. En el entorno de origen, haga clic en el **Menú principal** ![Menú principal](assets/main-menu-shell.png) y, a continuación, vaya a **Configuración** > **Sistema** > **Promoción del entorno**.
 La lista **Paquetes de configuración** muestra los paquetes existentes con su estado, entorno de origen y donde se implementaron.
 1. Haga clic en **Crear paquete**.
@@ -193,16 +204,28 @@ Antes de instalar el paquete en el entorno de destino, le recomendamos que lo pr
 1. En la página del paquete, después de verificarla, haga clic en **Instalar**.
 1. En la lista **Entorno de destino**, seleccione el entorno en el que implementar (por ejemplo, su entorno de producción) y haga clic en **Continuar**. El destino predeterminado es el entorno actual.
 1. En la página **Información del paquete**, confirme el entorno de origen y el entorno en el que está implementando.
-1. En la sección **Asignación de objetos**, expanda cada agrupación de objetos, como **Grupo** y **Espacio de trabajo de Planning**, para revisar los objetos.
+1. En la sección **Asignación de objetos**, expanda cada agrupación de objetos, como un **espacio de trabajo de Planning**, para revisar los objetos.
+
+   >[!TIP]
+   >
+   >Los grupos, equipos, roles, empresas y usuarios pueden mostrarse aquí si se comparte alguno de los objetos de Workspace con ellos.
+
 1. Para cada objeto, revise las columnas **Conflicto** y **Estado** y, a continuación, elija una **acción de implementación** de la lista. Elija entre las siguientes opciones:
 
+
    * **Crear nuevo**: Agrega el objeto al destino. Utilícelo cuando no se detecte ninguna colisión.
-   * **Usar existente**: asigna el objeto a uno que ya existe en el destino, como un grupo con el mismo nombre.
+   * **Usar existente**: asigna el objeto a uno que ya existe en el destino, como un área de trabajo con el mismo nombre.
    * **Crear con nuevo nombre**: Agrega el objeto con un nombre especificado.
    * **Sobrescribir**: reemplaza el objeto existente en el destino por el del paquete.
+
+   >[!TIP]
+   >
+   >Si el sistema no encuentra un espacio de trabajo con el mismo ID, intenta encontrar una coincidencia basada en el nombre del espacio de trabajo.
+
 1. (Opcional) Para cambiar varios objetos a la vez, seleccione sus casillas de verificación, elija una acción en la lista Acción de implementación en la parte superior del grupo y haga clic en Aplicar a los objetos seleccionados. Utilice los filtros encima de la lista, como Mostrar solo errores, para centrarse en objetos específicos.
 1. Resuelva los indicadores de error. Si selecciona **Usar** existente para un objeto, también debe seleccionar el objeto al que se asigna.  De lo contrario, el estado muestra un error y **Implementar** permanece no disponible.
 1. Haga clic en **Implementar** y luego en **Implementar** para confirmar.
+
 
    Workfront muestra una página de instalación con el mensaje **Este paquete se está instalando**. Esto puede tardar unos minutos.
 

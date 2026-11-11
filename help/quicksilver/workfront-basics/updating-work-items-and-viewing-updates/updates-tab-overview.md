@@ -27,10 +27,10 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 64b421c1e1b00d37f55458b49510d9ca496f70e8
+source-git-commit: 82ebe4df89bd9db39629b36c31c0ae2a4e133838
 workflow-type: tm+mt
-source-wordcount: '1313'
-ht-degree: 67%
+source-wordcount: '1391'
+ht-degree: 63%
 ---
 # Información general sobre la sección Actualizaciones
 
@@ -154,12 +154,22 @@ La sección Actualizaciones muestra información en las siguientes pestañas:
 
   Para obtener información acerca de cómo actualizar objetos, consulte [Actualizar trabajo](../updating-work-items-and-viewing-updates/update-work.md).
 
+  <!--<span class="preview">The **Comments** tab includes a filter that hides or displays resolved comments. For more information, see [Update work](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md). </span>-->
+
 * **Actividad del sistema**: muestra actualizaciones del sistema que son mensajes informativos que Workfront crea para registrar ciertos eventos en un objeto. Por ejemplo, los cambios de estado, nombre o campos personalizados se capturan con las actualizaciones del sistema. El administrador de grupos o de Workfront puede habilitar las actualizaciones del sistema para los objetos. Cualquier respuesta que se haya realizado a los registros de actividad del sistema en la experiencia de comentarios heredada se rellena en la pestaña de actividad del sistema como de solo lectura. Para obtener más información, consulte [Configurar actualizaciones del sistema](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
 * **Todos (solo lectura)**: muestra los comentarios del usuario y los comentarios de la actividad del sistema en un solo lugar. Esta es una pestaña de solo vista. No es posible responder a comentarios ni etiquetar a otros usuarios en comentarios existentes en la pestaña Todos. Para responder a un comentario específico, use el vínculo de la pestaña Todos a la pestaña Comentarios. Para obtener información acerca de cómo actualizar objetos, consulte [Actualizar un trabajo](../updating-work-items-and-viewing-updates/update-work.md).
 
   >[!NOTE]
   >
   >Las pestañas Comentarios y Actividad del sistema se actualizan en tiempo real. Es necesario actualizar la pestaña Todos para ver las actualizaciones más recientes.
+* **Resumir comentarios**: Esto abre el panel Asistente de IA o Compañero de trabajo a la derecha y proporciona un resumen generado por IA de todo el historial de actualizaciones del objeto.
+
+  >[!NOTE]
+  >
+  >Debe firmar el contrato de asistente de IA o habilitar las preferencias de colaborador y MCP en el área de configuración para usar la pestaña **Resumir comentarios**. Su organización puede tener el asistente de IA o CX Enterprise Coworker para Workfront.
+  >
+  >Para obtener más información, consulte [Asistente de IA en Workfront](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md) y [Información general sobre CX Enterprise Coworker en Workfront](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-in-workfront.md).
+
 
 ### Similitudes y diferencias entre las áreas de Actualizaciones de diferentes objetos
 

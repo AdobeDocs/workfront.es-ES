@@ -19,9 +19,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 16e4d70d45e4f312d31f3cd491754820ef0c9b9d
+source-git-commit: 82ebe4df89bd9db39629b36c31c0ae2a4e133838
 workflow-type: tm+mt
-source-wordcount: '1291'
+source-wordcount: '1302'
 ht-degree: 4%
 ---
 
@@ -187,7 +187,7 @@ Para obtener más información acerca de los requisitos de acceso de Workfront, 
 1. Haga clic en **Activar** para activar la regla para este tipo de registro y, a continuación, haga clic en **Guardar**.
 
    Las reglas se aplican inmediatamente después de activarlas y todos los usuarios que tengan permisos para editar o eliminar registros en el tipo de registro seleccionado deben seguirlas.
-1. (Opcional) Haga clic en el menú **Más** ![](assets/more-menu.png) del nombre de la regla de negocio en el encabezado de página para abrir el cuadro **Detalles de la regla** y actualizar la información sobre la regla de negocio.
+1. (Opcional) Haga clic en el menú **Más** ![Menú más](assets/more-menu.png) del nombre de la regla de negocio en el encabezado de página para abrir el cuadro **Detalles de la regla** y actualizar la información sobre la regla de negocio.
 1. (Opcional y recomendada) Haga clic en la flecha hacia atrás situada a la izquierda de **Reglas de negocio** en el encabezado de página para mostrar la página de tipo de registro, ir a una vista de tabla o abrir la página de un registro; a continuación, intente editar o eliminar un registro para probar la regla que acaba de crear.
 
 ## Administrar reglas empresariales
