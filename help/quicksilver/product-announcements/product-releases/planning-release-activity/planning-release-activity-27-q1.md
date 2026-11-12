@@ -18,16 +18,29 @@ subfeature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 943ec27eb6e355e8f86e680a23dbcb86c3822880
+source-git-commit: 0ec3841584258ef9e3b1434b921e54750814457a
 workflow-type: tm+mt
-source-wordcount: '1620'
-ht-degree: 2%
+source-wordcount: '1716'
+ht-degree: 3%
 ---
 # Actividad de la versión del primer trimestre de 2027 para Adobe Workfront Planning
 
 Este artículo describe las funciones que se lanzarán para Workfront Planning durante la versión del primer trimestre de 2027.
 
 Para obtener una lista de todas las características publicadas para Adobe Workfront Planning, consulte [Actividad de la versión de Adobe Workfront Planning: índice de artículo](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
+
+## Compartir una automatización de Planning
+
+>[!NOTE]
+>
+>Vista previa: 12 de noviembre de 2026
+>Versión rápida de producción: 12 de noviembre de 2026
+>Producción para todos: 12 de noviembre de 2026
+>[!BADGE Fuera del horario]{type=Neutral}
+
+Las nuevas automatizaciones de Workfront Planning ahora están disponibles únicamente para su propietario de forma predeterminada, en lugar de compartirse automáticamente con todos los usuarios del espacio de trabajo. Los propietarios pueden elegir quién obtiene acceso compartiendo la automatización con otros. Puede otorgar a otros usuarios un nivel de acceso de **Administrar**, **Editar** o **Ejecutar**. Las automatizaciones existentes permanecen compartidas con los usuarios de su espacio de trabajo, por lo que el acceso actual no se ve afectado.
+
+Para obtener más información, consulte [Configuración de automatizaciones de Workfront Planning](/help/quicksilver/planning/records/configure-automations-to-create-records.md).
 
 ## Promoción de entorno disponible para Workfront Planning
 
@@ -56,7 +69,7 @@ Para obtener más información, consulte [Usar promoción de entorno para Workfr
 >Vista previa: 12 de noviembre de 2026
 >Versión rápida de producción: 12 de noviembre de 2026
 >Producción para todos: 12 de noviembre de 2026
->[!BADGE Versión simultánea &#x200B;]{type=Neutral}
+>[!BADGE Versión simultánea ]{type=Neutral}
 
 >[!NOTE]
 >
