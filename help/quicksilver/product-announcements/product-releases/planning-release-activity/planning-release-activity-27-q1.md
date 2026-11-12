@@ -18,9 +18,9 @@ subfeature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: b14797ccd399444b86c4002cf8ff52f720154869
+source-git-commit: 943ec27eb6e355e8f86e680a23dbcb86c3822880
 workflow-type: tm+mt
-source-wordcount: '1614'
+source-wordcount: '1620'
 ht-degree: 2%
 ---
 # Actividad de la versión del primer trimestre de 2027 para Adobe Workfront Planning
@@ -33,10 +33,9 @@ Para obtener una lista de todas las características publicadas para Adobe Workf
 
 >[!NOTE]
 >
->Vista previa: 12 de noviembre de 2026
->Versión rápida de producción: 12 de noviembre de 2026
->Producción para todos: 12 de noviembre de 2026
->[!BADGE Versión simultánea &#x200B;]{type=Neutral}
+>Versión rápida de producción y zonas protegidas: 12 de noviembre de 2026
+>Producción, Previsualización, Zonas protegidas para todo el mundo: Se comunicará pronto
+>[!BADGE Fuera del horario]{type=Neutral}
 
 >[!NOTE]
 >
@@ -57,7 +56,7 @@ Para obtener más información, consulte [Usar promoción de entorno para Workfr
 >Vista previa: 12 de noviembre de 2026
 >Versión rápida de producción: 12 de noviembre de 2026
 >Producción para todos: 12 de noviembre de 2026
->[!BADGE Versión simultánea &#x200B;]{type=Neutral}
+>[!BADGE Versión simultánea ]{type=Neutral}
 
 >[!NOTE]
 >
