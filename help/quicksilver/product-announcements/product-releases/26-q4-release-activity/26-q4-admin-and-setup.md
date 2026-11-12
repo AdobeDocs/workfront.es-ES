@@ -13,9 +13,9 @@ feature_v2:
 subfeature_v2:
   - id: a29813d3-f0cc-4b60-9396-13b558370803
     internal-label: Product announcements
-source-git-commit: cb6ded1c823c82a876e5e2729205b4b02c7035e2
+source-git-commit: be4623920eb86efac831d92d741cd0a10251eed2
 workflow-type: tm+mt
-source-wordcount: '1793'
+source-wordcount: '1797'
 ht-degree: 1%
 ---
 # Mejoras del administrador del cuarto trimestre de 2026
@@ -194,6 +194,7 @@ Para obtener más información, consulte [Configurar integraciones de documentos
 >Vista previa: 30 de julio de 2026
 >Versión rápida de producción: 13 de agosto de 2026
 >Producción para todos: 22 de octubre de 2026
+>[!BADGE Flujo de trabajo Ultimate]{type=Informative}
 
 Los administradores de grupos ahora pueden crear, editar y eliminar perfiles empresariales para los grupos que administran, sin necesidad de acceso de administrador del sistema. Esto proporciona a las organizaciones más flexibilidad para delegar la administración del perfil empresarial en el nivel de grupo.
 
