@@ -26,10 +26,10 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: e7a61a71c731d3fdbf5551e55ceb5954749df8c6
 workflow-type: tm+mt
-source-wordcount: '745'
-ht-degree: 6%
+source-wordcount: '900'
+ht-degree: 5%
 ---
 # Ejemplos de lógica avanzada en formularios personalizados
 
@@ -198,3 +198,27 @@ IF({DE:DV - Override}!="Disable Validation"&&ARRAYLENGTH(ARRAY({DE:DV - Checkbox
 El usuario ve errores de validación si no selecciona el número correcto de opciones.
 
 ![Ejemplos de errores de validación](assets/min-max-selections.png)
+
+## La fórmula para validar el déclencheur solo cuando el campo está visible
+
+La lógica de validación siempre está activada, incluso si el campo no se muestra. Si un usuario interactúa con un campo que contiene lógica de validación y el campo se oculta posteriormente mediante lógica de visualización, el error de validación se producirá, incluso si el valor del campo se borró antes de que se ocultara el campo.
+
+Solución alternativa: utilice la misma condición de la regla de visualización en la fórmula de validación para asegurarse de que la validación se active solo cuando el campo esté visible.
+
+Por ejemplo, tiene dos campos, A y B.
+El campo B tiene una regla de visualización que lo hace visible solamente cuando el valor del campo A es `"show"`.
+
+El campo B también tiene la siguiente fórmula de validación:
+
+```
+IF({status} = 'PLN' && {DE:B} = 'Value1', 'field value is invalid')`
+```
+
+Para validar el campo B solo cuando está visible, puede incluir la condición de visualización en la fórmula de validación:
+
+```
+IF({status} = 'PLN' && {DE:B} = 'Value1' && {DE:A} = 'show', 'field value is invalid')
+```
+
+De este modo, el error de validación solo aparecerá cuando el campo A esté establecido en `"show"` y se cumplan las demás condiciones de validación.
+

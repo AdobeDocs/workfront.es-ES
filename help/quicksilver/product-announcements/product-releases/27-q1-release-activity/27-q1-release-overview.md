@@ -5,9 +5,9 @@ author: Courtney
 draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: a578d96ff128bff2f0edd13f6e44dff25926b651
+source-git-commit: 69e36133dc4aed70c7dd0275b57521e56f0db288
 workflow-type: tm+mt
-source-wordcount: '1542'
+source-wordcount: '1537'
 ht-degree: 13%
 ---
 
@@ -380,7 +380,7 @@ El Visor de corrección de escritorio se ha actualizado a la versión 2.3.0. Est
 
 * Se ha actualizado el marco subyacente (Electron) a la última versión, que se ejecuta en la versión 156 de Chrome, para mejorar el rendimiento y la seguridad.
 
-Para obtener información sobre cómo descargar y actualizar el Visor de corrección de escritorio, consulte [Actualizar el Visor de corrección de escritorio](https://experienceleague.adobe.com/es/docs/workfront/using/review-and-approve-work/proofing/use-the-desktop-proofing-viewer/update-the-desktop-proofing-viewer).
+Para obtener información sobre cómo descargar y actualizar el Visor de corrección de escritorio, consulte [Actualizar el Visor de corrección de escritorio](https://experienceleague.adobe.com/en/docs/workfront/using/review-and-approve-work/proofing/use-the-desktop-proofing-viewer/update-the-desktop-proofing-viewer).
 
 ## Anuncios
 
@@ -391,7 +391,7 @@ Para obtener información sobre cómo descargar y actualizar el Visor de correcc
 >Vista previa: 12 de noviembre de 2026
 >Versión rápida de producción: 12 de noviembre de 2026
 >Producción para todos: 12 de noviembre de 2026
->[!BADGE Versión simultánea &#x200B;]{type=Neutral}
+>[!BADGE Versión simultánea ]{type=Neutral}
 
 >[!NOTE]
 >
@@ -415,6 +415,11 @@ Con el tiempo, hemos introducido funcionalidades mejoradas de administración de
 
 Con la versión de enero de 2027, los campos heredados **Facturación por hora** y **Costo por hora** ya no estarán disponibles en la API de Workfront ni en las vistas de lista de funciones, incluidas las configuraciones de filtro/vista/agrupación (referencias directas y columnas calculadas en modo de texto).
 
+Aunque estos campos aún están disponibles hasta enero, es posible que no funcionen correctamente. Los administradores que actualmente muestran los campos **Facturación por hora** y **Costo por hora** en las vistas de la lista de roles de trabajo deben actualizar sus flujos de trabajo para usar las experiencias de administración de tarifas recomendadas para administrar y revisar las tarifas de roles:
+
+* Acceda y administre las tasas de funciones directamente desde la página Función del puesto > Tasas.
+* Utilice los informes de tasas para revisar, analizar e informar sobre la información de tasas en los roles.
+
 Como reemplazo en los informes, puede usar el código de modo de texto recomendado (use `costRates` o `billingRates` según sea necesario):
 
     &quot;
@@ -426,20 +431,13 @@ Como reemplazo en los informes, puede usar el código de modo de texto recomenda
     valueformat=HTML
     &quot;
 
-Para administrar y revisar las tasas de funciones del puesto, utilice las experiencias de administración de tasas dedicadas:
-
-* Acceda y administre las tasas de funciones directamente desde la página Función del puesto > Tasas.
-* Utilice los informes de tasas para revisar, analizar e informar sobre la información de tasas en los roles.
-
-No se requiere ninguna acción para prepararse para el cambio. Sin embargo, los administradores que actualmente muestran los campos **Facturación por hora** y **Costo por hora** en las vistas de la lista de roles deben actualizar sus flujos de trabajo para utilizar las experiencias de administración de tarifas recomendadas descritas anteriormente.
-
 Para obtener información sobre las tasas de rol, consulte [Crear y administrar roles](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
 
 <!--
 
 ### Workfront Maintenance Updates
 
-For information about the maintenance updates made during the First Quarter 2027 release, see [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=es).
+For information about the maintenance updates made during the First Quarter 2027 release, see [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 -->
 
