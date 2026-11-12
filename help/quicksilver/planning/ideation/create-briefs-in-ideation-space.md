@@ -18,9 +18,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 82ebe4df89bd9db39629b36c31c0ae2a4e133838
+source-git-commit: 8a97de33f637a5367cfdfbe5eb1cbd5512021856
 workflow-type: tm+mt
-source-wordcount: '2011'
+source-wordcount: '2052'
 ht-degree: 2%
 ---
 
@@ -159,7 +159,7 @@ Or
     <td role="rowheader"><p>Adobe GenStudio for Performance Marketing user roles</p></td> 
     <td><p><ul><li>Any GenStudio user role to access Campaigns, Products, and Personas</li>
     <li>GenStudio System Manager to access Activations and Events</li></ul>
-    For information, see <a href="https://experienceleague.adobe.com/es/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
+    For information, see <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
     </p>
     </td> 
     </tr> 
@@ -177,8 +177,17 @@ Puede crear informes para crear o editar registros de Planning o para crear arch
 
 1. Inicie sesión en Workfront con Planning donde se ha activado Colaborador y realice una de las siguientes acciones para abrir el espacio de ideación por primera vez para crear informes:
 
-   * Vaya al **Menú principal** ![Menú principal](assets/main-menu-lines.png) > **Espacio de ideación**
-   * Vaya a **Menú principal** ![Menú principal](assets/main-menu-lines.png) > **Planificación** > haga clic en un área de trabajo > haga clic en un tipo de registro > **Nuevo registro** > **Iniciar espacio de ideación**
+   * Vaya al **Menú principal** ![Menú principal](assets/main-menu-lines.png) > haga clic en **Espacio de ideas**
+
+     ![Espacio de ideación en el menú principal](assets/ideation-space-area-icon-in-main-menu.png)
+
+   * Vaya a **Menú principal** ![Menú principal](assets/main-menu-lines.png) > **Planning** > haga clic en un área de trabajo > haga clic en un tipo de registro > haga clic en **Nuevo registro** > haga clic en **Iniciar espacio de ideación**
+
+     ![Espacio de ideación en nuevo registro](assets/ideation-space-in-planning-new-record.png)
+
+   * Vaya a **Menú principal** ![Menú principal](assets/main-menu-lines.png) > **Planning** > haga clic en un área de trabajo > haga clic en un tipo de registro > haga clic en un registro existente > haga clic en **Abrir en el espacio de ideación**
+
+     ![Detalles del espacio de ideación en el registro](assets/ideation-space-button-in-details-page.png)
 
 1. Lea el contrato de versión beta y haga clic en **Aceptar**. Debe firmar el acuerdo para utilizar el espacio de ideación.
 

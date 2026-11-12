@@ -3,7 +3,7 @@ user-guide-title: Guía de Workfront
 user-guide-description: Utilice los siguientes documentos, tutoriales y recursos adicionales para aprender a implementar y utilizar Adobe Workfront de forma eficaz en su organización.
 role: User
 feature-set: Workfront
-source-git-commit: 82ebe4df89bd9db39629b36c31c0ae2a4e133838
+source-git-commit: 8a97de33f637a5367cfdfbe5eb1cbd5512021856
 workflow-type: tm+mt
 source-wordcount: '14776'
 ht-degree: 90%
@@ -2343,13 +2343,13 @@ ht-degree: 90%
     * [Administre su instancia de Adobe Workfront Planning como producto independiente](planning/planning-sta/manage-planning-sta-instance.md)
     * [Administrar usuarios en Adobe Workfront Planning como producto independiente](planning/planning-sta/manage-users-in-planning-sta.md)
     * [Administrar equipos en Adobe Workfront Planning como producto independiente](planning/planning-sta/manage-teams-in-planning-sta.md)
-  * {hide-from-toc}Espacio de ideación en Workfront Planning {#ideation}
-    * {hide-from-toc}[Espacio de ideas para Adobe Workfront Planning: índice de artículos](planning/ideation/planning-ideation-article-index.md)
-    * {hide-from-toc}[Introducción al espacio de ideación para Adobe Workfront Planning](planning/ideation/get-started-with-planning-ideation.md)
-    * {hide-from-toc}[Se necesita acceso para usar el espacio de ideación](planning/ideation/access-needed-to-use-ideation-space.md)
-    * {hide-from-toc}[Crear informes en el espacio de ideación](planning/ideation/create-briefs-in-ideation-space.md)
-    * {hide-from-toc}[Crear registros de Planning a partir de informes del espacio de ideación](planning/ideation/create-records-in-ideation-space-for-planning.md)
-    * {hide-from-toc}[Compartir un espacio de ideas con otros](planning/ideation/share-the-ideation-space.md)
+  * El espacio de ideación en Workfront Planning {#ideation}
+    * [Espacio de ideación para Adobe Workfront Planning: índice de artículos](planning/ideation/planning-ideation-article-index.md)
+    * [Introducción al espacio de ideación para Adobe Workfront Planning](planning/ideation/get-started-with-planning-ideation.md)
+    * [Acceso necesario para utilizar el espacio de ideación](planning/ideation/access-needed-to-use-ideation-space.md)
+    * [Creación de informes en el espacio de ideación](planning/ideation/create-briefs-in-ideation-space.md)
+    * [Creación de registros de Planning a partir de informes del espacio de ideación](planning/ideation/create-records-in-ideation-space-for-planning.md)
+    * [Compartir un espacio de ideación con otros usuarios](planning/ideation/share-the-ideation-space.md)
 
 * Integraciones de Adobe Workfront {#adobe-workfront-integrations}
   * [Integraciones de Adobe Workfront](workfront-integrations-and-apps/workfront-integrations.md)
@@ -2693,7 +2693,7 @@ ht-degree: 90%
     * [Configure y utilice las aplicaciones OAuth 2 personalizadas de la organización mediante el flujo JWT](wf-api/api/oauth-app-jwt-flow.md)
     * [Configure y utilice las aplicaciones OAuth 2 personalizadas de su organización mediante el flujo PKCE](wf-api/api/oauth-app-pkce-flow.md)
     * [Obsolescencia de la API interna](wf-api/api/deprecation-api-internal.md)
-    * [Novedades de la versión 22 de la API](/help/quicksilver/wf-api/api/new-api-version-22.md)
+    * [Novedades de la versión 22](/help/quicksilver/wf-api/api/new-api-version-22.md) de la API
     * [Novedades de la versión 21 de la API](/help/quicksilver/wf-api/api/new-api-version-21.md)
     * [Novedades de la versión 20 de la API](/help/quicksilver/wf-api/api/new-api-version-20.md)
     * [Novedades de la versión 19 de la API](wf-api/api/new-api-version-19.md)
