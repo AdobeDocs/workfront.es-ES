@@ -27,10 +27,10 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 82ebe4df89bd9db39629b36c31c0ae2a4e133838
+source-git-commit: 8789c5c75e104be60de42e76a8951e9380b112ef
 workflow-type: tm+mt
-source-wordcount: '1391'
-ht-degree: 63%
+source-wordcount: '1409'
+ht-degree: 62%
 ---
 # Información general sobre la sección Actualizaciones
 
@@ -154,7 +154,7 @@ La sección Actualizaciones muestra información en las siguientes pestañas:
 
   Para obtener información acerca de cómo actualizar objetos, consulte [Actualizar trabajo](../updating-work-items-and-viewing-updates/update-work.md).
 
-  <!--<span class="preview">The **Comments** tab includes a filter that hides or displays resolved comments. For more information, see [Update work](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md). </span>-->
+  <span class="preview">La ficha **Comentarios** incluye un filtro que oculta o muestra los comentarios resueltos. Para obtener más información, consulte [Trabajo de actualización](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md). </span>
 
 * **Actividad del sistema**: muestra actualizaciones del sistema que son mensajes informativos que Workfront crea para registrar ciertos eventos en un objeto. Por ejemplo, los cambios de estado, nombre o campos personalizados se capturan con las actualizaciones del sistema. El administrador de grupos o de Workfront puede habilitar las actualizaciones del sistema para los objetos. Cualquier respuesta que se haya realizado a los registros de actividad del sistema en la experiencia de comentarios heredada se rellena en la pestaña de actividad del sistema como de solo lectura. Para obtener más información, consulte [Configurar actualizaciones del sistema](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
 * **Todos (solo lectura)**: muestra los comentarios del usuario y los comentarios de la actividad del sistema en un solo lugar. Esta es una pestaña de solo vista. No es posible responder a comentarios ni etiquetar a otros usuarios en comentarios existentes en la pestaña Todos. Para responder a un comentario específico, use el vínculo de la pestaña Todos a la pestaña Comentarios. Para obtener información acerca de cómo actualizar objetos, consulte [Actualizar un trabajo](../updating-work-items-and-viewing-updates/update-work.md).

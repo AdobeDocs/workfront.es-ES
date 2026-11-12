@@ -3,7 +3,7 @@ user-guide-title: Guía de Workfront
 user-guide-description: Utilice los siguientes documentos, tutoriales y recursos adicionales para aprender a implementar y utilizar Adobe Workfront de forma eficaz en su organización.
 role: User
 feature-set: Workfront
-source-git-commit: 82ebe4df89bd9db39629b36c31c0ae2a4e133838
+source-git-commit: 4f3207d7f37c24eb2814a9c0d6442eb5c34a0440
 workflow-type: tm+mt
 source-wordcount: '14776'
 ht-degree: 90%
@@ -2225,7 +2225,7 @@ ht-degree: 90%
     * [Conceptos básicos de la API de Planificación de Workfront de Adobe](planning/general/planning-api-basics.md)
     * [Información general sobre el asistente de IA de Planificación de Workfront de Adobe](planning/general/planning-ai-assistant-overview.md)
     * [Información general sobre Adobe Workfront Planning CX Enterprise Coworker](planning/general/planning-cx-coworker-overview.md)
-    * {hide-from-toc}[Utilizar promoción de entorno para Adobe Workfront Planning](planning/general/planning-environment-promotion.md)
+    * [Utilizar la promoción de entorno para Adobe Workfront Planning](planning/general/planning-environment-promotion.md)
     * [Introducción a Adobe Workfront Planning Designer](planning/general/planning-ai-designer.md)
     * [Actividad de la versión de Planificación de Workfront de Adobe para 2024](planning/general/release-activity.md)
     * [Actividad de la versión de Planificación de Workfront de Adobe para 2023](planning/general/release-activity-archives-2023.md)
@@ -2343,13 +2343,13 @@ ht-degree: 90%
     * [Administre su instancia de Adobe Workfront Planning como producto independiente](planning/planning-sta/manage-planning-sta-instance.md)
     * [Administrar usuarios en Adobe Workfront Planning como producto independiente](planning/planning-sta/manage-users-in-planning-sta.md)
     * [Administrar equipos en Adobe Workfront Planning como producto independiente](planning/planning-sta/manage-teams-in-planning-sta.md)
-  * {hide-from-toc}Espacio de ideación en Workfront Planning {#ideation}
-    * {hide-from-toc}[Espacio de ideas para Adobe Workfront Planning: índice de artículos](planning/ideation/planning-ideation-article-index.md)
-    * {hide-from-toc}[Introducción al espacio de ideación para Adobe Workfront Planning](planning/ideation/get-started-with-planning-ideation.md)
-    * {hide-from-toc}[Se necesita acceso para usar el espacio de ideación](planning/ideation/access-needed-to-use-ideation-space.md)
-    * {hide-from-toc}[Crear informes en el espacio de ideación](planning/ideation/create-briefs-in-ideation-space.md)
-    * {hide-from-toc}[Crear registros de Planning a partir de informes del espacio de ideación](planning/ideation/create-records-in-ideation-space-for-planning.md)
-    * {hide-from-toc}[Compartir un espacio de ideas con otros](planning/ideation/share-the-ideation-space.md)
+  * El espacio de ideación en Workfront Planning {#ideation}
+    * [Espacio de ideación para Adobe Workfront Planning: índice de artículos](planning/ideation/planning-ideation-article-index.md)
+    * [Introducción al espacio de ideación para Adobe Workfront Planning](planning/ideation/get-started-with-planning-ideation.md)
+    * [Acceso necesario para utilizar el espacio de ideación](planning/ideation/access-needed-to-use-ideation-space.md)
+    * [Creación de informes en el espacio de ideación](planning/ideation/create-briefs-in-ideation-space.md)
+    * [Creación de registros de Planning a partir de informes del espacio de ideación](planning/ideation/create-records-in-ideation-space-for-planning.md)
+    * [Compartir un espacio de ideación con otros usuarios](planning/ideation/share-the-ideation-space.md)
 
 * Integraciones de Adobe Workfront {#adobe-workfront-integrations}
   * [Integraciones de Adobe Workfront](workfront-integrations-and-apps/workfront-integrations.md)
