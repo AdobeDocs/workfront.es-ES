@@ -1,13 +1,11 @@
 ---
 name: release-notes-formatter
 description: Dé formato y valide a las notas de la versión de Workfront para mantener la coherencia, una estructura correcta y una vinculación adecuada. Se utiliza solo para archivos de notas de versiones en directorios de versiones de productos o cuando el usuario menciona notas de versiones, versiones de productos o versiones trimestrales. No lo aplique a artículos de procedimientos o documentación general.
-source-git-commit: dac869369d6d9ef32741aa0972ccf9cb25b2633c
+source-git-commit: 58f795a32a915d49ca16c08c92235c47d3088327
 workflow-type: tm+mt
-source-wordcount: '2183'
+source-wordcount: '2336'
 ht-degree: 2%
-
 ---
-
 
 # Formato de notas de versión
 
@@ -83,7 +81,7 @@ Reglas:
 >Production for everyone: {Month Day, Year}
 ```
 
-&#x200B;5. **Cuerpo**: Descripción de la función y después vínculo a la documentación de ayuda
+5. **Cuerpo**: Descripción de la función y después vínculo a la documentación de ayuda
 
 #### Páginas de información general
 
@@ -91,7 +89,7 @@ Reglas:
 
 2. **Párrafo de introducción** con mes de lanzamiento programado
 
-3. **`>[!IMPORTANT]`bloque** con tabla de programación de versiones
+3. **`>[!IMPORTANT]`bloque** con tabla de programación de versiones, seguido de la leyenda de distintivo que describe los distintivos de versión simultánea y de programación desactivada (consulte la plantilla de página de información general en el archivo de referencia)
 
 4. **H2`Adobe Workfront enhancements`** con lista con viñetas de vínculos de anclaje:
 
@@ -100,10 +98,13 @@ Reglas:
 * [Document enhancements](#document-enhancements)
 ```
 
-&#x200B;5. **H3 por área de producto** con tabla de características de HTML (consulte .claude/commands/_release-notes-formatter-reference.md#overview-feature-table)
-   - Dentro de cada tabla, **las características más recientes primero**, la fila más reciente aparece en la parte superior de la tabla (después de la fila de encabezado)
+- Si una sección de área de producto está comentada, elimine su vínculo de esta lista por completo. No comentar el vínculo.
 
-&#x200B;6. **Secciones finales** (H2): Notas de la versión para otras áreas, Actualizaciones del visor de revisión de escritorio, Anuncios, Versión de API, Actualizaciones de mantenimiento, Actualizaciones de formación
+5. **H3 por área de producto** con tabla de características de HTML (consulte .claude/commands/_release-notes-formatter-reference.md#overview-feature-table)
+   - Dentro de cada tabla, **las características más recientes primero**, la fila más reciente aparece en la parte superior de la tabla (después de la fila de encabezado)
+     : si una característica tiene un distintivo (`[!BADGE Off schedule]{type=Neutral}` o `[!BADGE Concurrent release]{type=Neutral}`), póngala en su propio `<p>` directamente debajo del párrafo del vínculo de característica, antes del párrafo de descripción.
+
+6. **Secciones finales** (H2): Notas de la versión para otras áreas, Actualizaciones del visor de revisión de escritorio, Anuncios, Versión de API, Actualizaciones de mantenimiento, Actualizaciones de formación
 
 ### Paso 3: Validación de vínculos
 
@@ -134,6 +135,8 @@ Aplique estas correcciones al dar formato:
 | Espacios adicionales en las líneas de llamada | Recortar espacio final |
 | HTML en páginas de área de producto | Mantener como marcador (HTML solo sirve para tablas de información general) |
 | Falta `exl-id` | Déjelo fuera, no genere uno |
+| Insignia colocada después de la descripción en una tabla de información general | Moverlo a su propio(a) `<p>` directamente debajo del enlace de características |
+| Vínculo de mini índice a una sección comentada | Quitar el vínculo de la lista; no lo comente |
 
 ### Paso 6: Sincronizar la página de información general
 
@@ -193,15 +196,9 @@ Errores comunes que se deben evitar:
 - Crear una página de información general de un trimestre nuevo sin actualizar la ficha &quot;Última versión&quot; de `home.md` (seguirá apuntando al trimestre anterior).
 - Olvidando agregar también el nuevo trimestre a la lista de pestañas del año actual.
 
-&lt;&lt;&lt;&lt;&lt;&lt;&lt; Actualizado en sentido ascendente
-
-### Paso 8: Actualizar la página de índice de versiones del producto
-=======
-
 ### Paso 9: Actualizar la página de índice de versiones del producto
-&#x200B;>>>>>>>>>>Cambios ocultos
-> 
->Siempre que cree una **página de información general del trimestre nuevo**, actualice también `help/quicksilver/product-announcements/product-releases/product-releases.md` con el mismo cambio:
+
+Siempre que cree una **página de información general del trimestre nuevo**, actualice también `help/quicksilver/product-announcements/product-releases/product-releases.md` con el mismo cambio:
 
 - Busque el bloque `<p>Releases in {year}</p>` para el año actual en la columna &quot;Versiones de Workfront&quot;.
 - Agregue un(a) nuevo(a) `<li>` en la **parte superior** de la lista de ese año, enlazándolo a la página de información general del nuevo trimestre, en el mismo formato que las entradas existentes:
@@ -288,6 +285,9 @@ Cuando revise un archivo de notas de la versión, compruebe:
 - [ ] Las filas de la tabla de características de la descripción general coinciden con el contenido de página del área de producto
 - [ ] No hay vínculos internos rotos
 - [ ] vínculos de anclaje en la descripción general coinciden con los ID de sección H3
+- [ ]: la mini tabla de contenido de información general no tiene vínculos a secciones comentadas y los distintivos se encuentran directamente debajo del vínculo de característica
+- [ ] El bloque de información general `>[!IMPORTANT]` incluye la leyenda de distintivo y en él se describen todos los distintivos utilizados en una tabla
+- [ ]: cada tabla de mejoras de la descripción general que no tiene comentarios tiene un vínculo coincidente en la mini TDC, por lo que no se pierden las secciones que se agregan cuando no están comentadas
 - [ Las características de ] se ordenan más recientes (tanto páginas de área de productos como tablas de información general)
 - [ ] Las nuevas páginas de notas de la versión se enumeran en `help/quicksilver/TOC.md` en el trimestre correcto, con la descripción general en primer lugar y las áreas de producto en orden alfabético (el otro en último lugar)
 - [ ] Si se creó la página de información general de un nuevo trimestre, `help/quicksilver/home.md` pestaña &quot;Última versión&quot; y la pestaña del año actual apuntan a ella

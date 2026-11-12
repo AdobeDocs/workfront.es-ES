@@ -1,9 +1,8 @@
 ---
-source-git-commit: 5d515c5ae4c79a4183f3c583bc267fea6e398644
+source-git-commit: 58f795a32a915d49ca16c08c92235c47d3088327
 workflow-type: tm+mt
-source-wordcount: '285'
+source-wordcount: '308'
 ht-degree: 0%
-
 ---
 # Plantillas de referencia de notas de versión
 
@@ -11,7 +10,7 @@ Plantillas detalladas para cada tipo de página de nota de versión. Se basan en
 `help/quicksilver/product-announcements/product-releases/release-note-templates/` y
 el formato real utilizado en las últimas versiones trimestrales.
 
-&#x200B;---
+---
 
 ## Plantilla de página de área de producto
 
@@ -57,17 +56,15 @@ For more information, see [Help article title](/help/quicksilver/path/to/article
   >Production fast release: {date}
   >Production for everyone: {date}
   ```
-
 - Si una función se ha eliminado temporalmente, añada una línea después de la fecha:
 
   ```
   >
   >This feature has been temporarily removed from the Production environment on {date}.
   ```
-
 - Los vínculos de ayuda utilizan rutas absolutas que comienzan por `/help/quicksilver/`
 
-&#x200B;---
+---
 
 ## Plantilla de página de información general
 
@@ -98,6 +95,13 @@ The enhancements on this page are available in the Preview environment. This pag
 >Note that for the final release of each quarter ({VV}.{M} this quarter), users on the fast release schedule will receive the release one day early ({Month Day, Year}).
 >
 >For more information on the fast release process, see [Enable or disable the fast release process](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).
+>
+>Features that do not follow this schedule display one of the following badges:
+>
+>* [!BADGE Concurrent release]{type=Neutral}
+>   These features are released concurrently to Preview and Production environments due to technical situations, such as the release schedules of other Adobe products that are part of the feature.
+>* [!BADGE Off schedule]{type=Neutral}
+>   These features are released outside of the standard Workfront release schedule.
 
 ## Adobe Workfront enhancements
 
@@ -144,9 +148,9 @@ Cada sección del área de producto H3 contiene una tabla de HTML. Utilice esta 
 - Celda de característica: etiqueta `<a>` con `class="MCXref xref" xrefformat="{para}"` seguida de descripción `<p>`
 - Los vínculos `href` a la página de área de producto (no es un anclaje específico)
 - Celdas de fecha: agrupadas en `<p>` etiquetas
-- Para los elementos no programados, agregue `<p>[!BADGE Off schedule]{type=Neutral}</p>` después del vínculo
-- Se acepta `<p></p>` vacío después del vínculo cuando no se necesita un distintivo
-- Mantener la sangría de HTML coherente con los archivos existentes
+- Para los elementos no programados, agregue `<p>[!BADGE Off schedule]{type=Neutral}</p>` como su propio párrafo directamente debajo del párrafo de vínculo, antes del párrafo de descripción
+- Para los elementos lanzados simultáneamente a Previsualización y Producción, agregue `<p>[!BADGE Concurrent release]{type=Neutral}</p>` en la misma posición
+- Vacíe `<p></p>` después de que el vínculo sea aceptable cuando no se necesite ningún distintivo. Mantenga la sangría de HTML coherente con los archivos existentes
 
 ### Información general Secciones finales
 
@@ -157,7 +161,7 @@ Después de todas las tablas de área de producto:
 
 ### Workfront Fusion enhancements
 
-New features in Workfront Fusion are available in Production at a cadence outside of the standard release schedule. For more information about the latest features, see [Adobe Workfront Fusion release activity](https://experienceleague.adobe.com/es/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
+New features in Workfront Fusion are available in Production at a cadence outside of the standard release schedule. For more information about the latest features, see [Adobe Workfront Fusion release activity](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
 
 ### Workfront Planning enhancements
 
@@ -183,14 +187,14 @@ There are no updates for the following at this point in the release:
 
 ### Workfront Maintenance Updates
 
-For information about the maintenance updates made during the {Written Quarter} {Year} release, see [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=es).
+For information about the maintenance updates made during the {Written Quarter} {Year} release, see [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 ### Training updates
 
-Explore the latest updates made to learning programs, learning paths, videos, and guides for each Adobe Workfront product release. For more information, see the "What's New" section of the [Workfront Tutorials page](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html?lang=es).
+Explore the latest updates made to learning programs, learning paths, videos, and guides for each Adobe Workfront product release. For more information, see the "What's New" section of the [Workfront Tutorials page](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html).
 ```
 
-&#x200B;---
+---
 
 ## Plantilla de página de aspecto
 
@@ -219,7 +223,7 @@ For a list of all changes available with the {Written Quarter} {Year} release, s
 Description of the look-and-feel change.
 ```
 
-&#x200B;---
+---
 
 ## Formatos de llamada de fecha
 
@@ -249,7 +253,7 @@ Description of the look-and-feel change.
 >Preview release: February 9, 2023; Planned Production release: February 23, 2023
 ```
 
-&#x200B;---
+---
 
 ## Incoherencias conocidas a tener en cuenta
 
