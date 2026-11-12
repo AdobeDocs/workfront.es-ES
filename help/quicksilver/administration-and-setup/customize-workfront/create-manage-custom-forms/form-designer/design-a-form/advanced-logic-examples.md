@@ -26,7 +26,7 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: e7a61a71c731d3fdbf5551e55ceb5954749df8c6
+source-git-commit: 1bbc850f5cb2086b85582f1ba80b072397b27e50
 workflow-type: tm+mt
 source-wordcount: '900'
 ht-degree: 5%
@@ -199,7 +199,7 @@ El usuario ve errores de validación si no selecciona el número correcto de opc
 
 ![Ejemplos de errores de validación](assets/min-max-selections.png)
 
-## La fórmula para validar el déclencheur solo cuando el campo está visible
+### La fórmula para validar el déclencheur solo cuando el campo está visible
 
 La lógica de validación siempre está activada, incluso si el campo no se muestra. Si un usuario interactúa con un campo que contiene lógica de validación y el campo se oculta posteriormente mediante lógica de visualización, el error de validación se producirá, incluso si el valor del campo se borró antes de que se ocultara el campo.
 
