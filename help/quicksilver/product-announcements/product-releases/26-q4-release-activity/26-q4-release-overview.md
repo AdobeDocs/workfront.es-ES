@@ -13,7 +13,7 @@ feature_v2:
 subfeature_v2:
   - id: a29813d3-f0cc-4b60-9396-13b558370803
     internal-label: Product announcements
-source-git-commit: 63811ae159e365898db47bcf54705c41f72b2746
+source-git-commit: 31d0e371eb6da0d39d5b8b0354e756e79b2dfd8e
 workflow-type: tm+mt
 source-wordcount: '3631'
 ht-degree: 8%
@@ -180,6 +180,7 @@ Se celebran seminarios web en directo para cada versión trimestral, en los que 
         <tr>
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Los administradores del grupo pueden administrar perfiles de negocio</a>
+                <p>[!BADGE Workflow Ultimate]{type=Informative}</p>
                 <p>Los administradores de grupos ahora pueden crear, editar y eliminar perfiles empresariales para los grupos que administran, sin necesidad de acceso de administrador del sistema.</p>
             </td>
             <td><p>30 de julio de 2026</p></td>
@@ -617,7 +618,7 @@ Se celebran seminarios web en directo para cada versión trimestral, en los que 
            <tr>
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-reports.md" class="MCXref xref" xrefformat="{para}">Registrar un anuncio privado de Snowflake para Workfront Data Connect</a>
-                <p>Ahora puede compartir los datos de Workfront Data Connect directamente con la cuenta de Snowflake de su organización registrando un anuncio privado. Este método de conexión utiliza la capacidad de listado privado de Snowflake para compartir datos de forma segura entre organizaciones sin exponerlos públicamente, y funciona en varias regiones y plataformas de alojamiento.</p>
+                <p>Ahora puede compartir sus datos de Workfront Data Connect directamente con la cuenta de Snowflake de su organización registrando un anuncio privado. Este método de conexión utiliza la capacidad de listado privado de Snowflake para compartir datos de forma segura entre organizaciones sin exponerlos públicamente, y funciona en varias regiones y plataformas de alojamiento.</p>
             </td>
             <td><p>N/D</p></td>
             <td><p>22 de octubre de 2026</p></td>
@@ -895,6 +896,11 @@ Con el tiempo, hemos introducido funcionalidades mejoradas de administración de
 
 Con la versión de enero de 2027, los campos heredados **Facturación por hora** y **Costo por hora** ya no estarán disponibles en la API de Workfront ni en las vistas de lista de funciones, incluidas las configuraciones de filtro/vista/agrupación (referencias directas y columnas calculadas en modo de texto).
 
+Aunque estos campos aún están disponibles hasta enero, es posible que no funcionen correctamente. Los administradores que actualmente muestran los campos **Facturación por hora** y **Costo por hora** en las vistas de la lista de roles de trabajo deben actualizar sus flujos de trabajo para usar las experiencias de administración de tarifas recomendadas para administrar y revisar las tarifas de roles:
+
+* Acceda y administre las tasas de funciones directamente desde la página Función del puesto > Tasas.
+* Utilice los informes de tasas para revisar, analizar e informar sobre la información de tasas en los roles.
+
 Como reemplazo en los informes, puede usar el código de modo de texto recomendado (use `costRates` o `billingRates` según sea necesario):
 
     &quot;
@@ -906,20 +912,13 @@ Como reemplazo en los informes, puede usar el código de modo de texto recomenda
     valueformat=HTML
     &quot;
 
-Para administrar y revisar las tasas de funciones del puesto, utilice las experiencias de administración de tasas dedicadas:
-
-* Acceda y administre las tasas de funciones directamente desde la página Función del puesto > Tasas.
-* Utilice los informes de tasas para revisar, analizar e informar sobre la información de tasas en los roles.
-
-No se requiere ninguna acción para prepararse para el cambio. Sin embargo, los administradores que actualmente muestran los campos **Facturación por hora** y **Costo por hora** en las vistas de la lista de roles deben actualizar sus flujos de trabajo para utilizar las experiencias de administración de tarifas recomendadas descritas anteriormente.
-
 Para obtener información sobre las tasas de rol, consulte [Crear y administrar roles](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
 
-### La autenticación solo por contraseña para los usuarios del lector de Data Connect finaliza el 8 de agosto de 2026
+### La autenticación solo de contraseña para usuarios de Data Connect Reader finaliza el 8 de agosto de 2026
 
-A partir del 8 de agosto de 2026, los usuarios de Workfront Data Connect/lector de Snowflake que se autentican con un inicio de sesión solo de contraseña dejarán de funcionar a menos que se haya habilitado la autenticación de varios factores (MFA). MFA no se puede agregar de forma retroactiva después de esta fecha: si se permite que un usuario lector caduque sin él, el acceso solo se puede restaurar creando un nuevo perfil de usuario.
+A partir del 8 de agosto de 2026, los usuarios de Workfront Data Connect/Snowflake Reader que se autentican con un inicio de sesión solo de contraseña dejarán de funcionar a menos que se haya habilitado la autenticación de varios factores (MFA). MFA no se puede agregar de forma retroactiva después de esta fecha: si se permite que un usuario lector caduque sin él, el acceso solo se puede restaurar creando un nuevo perfil de usuario.
 
-Si es administrador de Workfront y tiene usuarios de lector de Data Connect que aún no han habilitado MFA, notifique este cambio a los usuarios lo antes posible.
+Si es administrador de Workfront y tiene usuarios de Data Connect Reader que aún no han habilitado MFA, notifique este cambio a los usuarios lo antes posible.
 
 Este cambio se anunció por primera vez en las notas de la versión de Workfront de abril de 2026 y este es el recordatorio final antes de la fecha límite. Asegúrese de que todos los usuarios de lectores afectados habiliten MFA antes del 8 de agosto de 2026 para evitar interrupciones en su acceso.
 

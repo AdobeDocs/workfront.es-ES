@@ -4,10 +4,10 @@ description: Mejoras del proyecto del primer trimestre de 2027
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 7090c156fa1ec635e5c673fb9b0e140ee6bd0d15
+source-git-commit: a578d96ff128bff2f0edd13f6e44dff25926b651
 workflow-type: tm+mt
-source-wordcount: '251'
-ht-degree: 8%
+source-wordcount: '355'
+ht-degree: 7%
 ---
 
 # Mejoras del proyecto del primer trimestre de 2027
@@ -15,6 +15,22 @@ ht-degree: 8%
 Esta página describe las mejoras del proyecto realizadas con la versión del primer trimestre de 2027 en el entorno de vista previa. Estas mejoras estarán disponibles en el entorno de producción, como se ha indicado.
 
 Para obtener una lista de todos los cambios disponibles en este punto del ciclo de la versión del primer trimestre de 2027, consulte [Información general de la versión del primer trimestre de 2027](/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-release-overview.md).
+
+## Resolver hilos de comentarios
+
+>[!NOTE]
+>
+>Vista previa: 12 de noviembre de 2026
+>Versión rápida de producción: 17 de diciembre de 2026
+>Producción para todos: 21 de enero de 2027
+
+Ahora puede resolver un hilo de comentarios para un objeto al que tiene acceso Ver, desde el menú Más del mensaje superior en el área Actualizaciones. Esto lo oculta del flujo de comentarios para todos los espectadores. Puede cancelar la resolución más tarde para recuperarla.
+
+Los hilos resueltos son de solo lectura, por lo que no puede editarlos, eliminarlos, responder ni reaccionar ante ellos hasta que no se resuelvan.
+
+Puede utilizar un filtro para mostrar los hilos resueltos en la pestaña Actualizaciones.
+
+Para obtener más información, consulte [Trabajo de actualización](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 ## Guía de estado no disponible
 

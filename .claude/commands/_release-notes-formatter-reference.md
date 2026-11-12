@@ -1,9 +1,8 @@
 ---
-source-git-commit: 5d515c5ae4c79a4183f3c583bc267fea6e398644
+source-git-commit: 58f795a32a915d49ca16c08c92235c47d3088327
 workflow-type: tm+mt
-source-wordcount: '285'
+source-wordcount: '308'
 ht-degree: 0%
-
 ---
 # Plantillas de referencia de notas de versión
 
@@ -98,6 +97,13 @@ The enhancements on this page are available in the Preview environment. This pag
 >Note that for the final release of each quarter ({VV}.{M} this quarter), users on the fast release schedule will receive the release one day early ({Month Day, Year}).
 >
 >For more information on the fast release process, see [Enable or disable the fast release process](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).
+>
+>Features that do not follow this schedule display one of the following badges:
+>
+>* [!BADGE Concurrent release]{type=Neutral}
+>   These features are released concurrently to Preview and Production environments due to technical situations, such as the release schedules of other Adobe products that are part of the feature.
+>* [!BADGE Off schedule]{type=Neutral}
+>   These features are released outside of the standard Workfront release schedule.
 
 ## Adobe Workfront enhancements
 
@@ -144,9 +150,9 @@ Cada sección del área de producto H3 contiene una tabla de HTML. Utilice esta 
 - Celda de característica: etiqueta `<a>` con `class="MCXref xref" xrefformat="{para}"` seguida de descripción `<p>`
 - Los vínculos `href` a la página de área de producto (no es un anclaje específico)
 - Celdas de fecha: agrupadas en `<p>` etiquetas
-- Para los elementos no programados, agregue `<p>[!BADGE Off schedule]{type=Neutral}</p>` después del vínculo
-- Se acepta `<p></p>` vacío después del vínculo cuando no se necesita un distintivo
-- Mantener la sangría de HTML coherente con los archivos existentes
+- Para los elementos no programados, agregue `<p>[!BADGE Off schedule]{type=Neutral}</p>` como su propio párrafo directamente debajo del párrafo de vínculo, antes del párrafo de descripción
+- Para los elementos lanzados simultáneamente a Previsualización y Producción, agregue `<p>[!BADGE Concurrent release]{type=Neutral}</p>` en la misma posición
+- Vacíe `<p></p>` después de que el vínculo sea aceptable cuando no se necesite ningún distintivo. Mantenga la sangría de HTML coherente con los archivos existentes
 
 ### Información general Secciones finales
 
