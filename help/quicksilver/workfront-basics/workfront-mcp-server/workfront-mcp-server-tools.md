@@ -11,9 +11,9 @@ product_v2:
 feature_v2:
   - id: c042179c-157b-516d-b27c-e3bf303e8567
     internal-label: Get Started with Workfront
-source-git-commit: 5f979207e0f29ec4279e2e170d87eb5162d6d678
+source-git-commit: e748c67cff6d8ca3fd58063e48d5eec7003c1626
 workflow-type: tm+mt
-source-wordcount: '3777'
+source-wordcount: '3931'
 ht-degree: 5%
 ---
 
@@ -387,10 +387,28 @@ Las <span class="preview">herramientas de comentarios le permiten informar sobre
 
 Requisito del producto: Todos los clientes
 
-Las herramientas de creación de informes le permiten crear y administrar paneles de lienzo a través del chat. Describa el informe que desea en un lenguaje sencillo y la plataforma agéntica de IA crea el tablero y los widgets con los datos de Workfront.
+### Tableros
+
+| Título | Nombre de herramienta | Qué hace | Acción |
+| --- | --- | --- | --- |
+| Obtener tablero | `boards_get_board` | Obtiene datos del tablero en distintos niveles de detalle. | Leer |
+| Obtener tarjeta | `boards_get_card` | Obtiene una sola tarjeta por ID de tarjeta y por ID de tarjeta. | Leer |
+| Crear tarjeta | `boards_create_card` | Crea una nueva tarjeta en un tablero de una columna determinada. | Escritura |
+| Actualizar tarjeta | `boards_update_card` | Actualiza una tarjeta, incluidos los campos escalares, los movimientos, el estado del archivo, las etiquetas, los miembros o la desconexión de Workfront. | Escritura |
+| Conectar tarjeta | `boards_connect_card` | Crea una tarea o un problema de Workfront y lo vincula a una tarjeta. | Escritura |
+| Crear etiqueta de tablero | `boards_create_board_tag` | Crea una etiqueta nueva en el catálogo de etiquetas de un tablero. | Escritura |
+| Crear elemento de lista de comprobación | `boards_create_checklist_item` | Agrega un elemento de lista de comprobación o una subtarea a una tarjeta. | Escritura |
+| Actualizar elemento de lista de comprobación | `boards_update_checklist_item` | Actualiza el nombre, la descripción, la fecha de vencimiento, el estado o la estimación de un elemento de la lista de comprobación. | Escritura |
+| Eliminar elemento de lista de comprobación | `boards_delete_checklist_item` | Elimina un elemento de lista de comprobación de su tarjeta principal. | Escritura |
+| Crear columna | `boards_create_column` | Añade una nueva columna sin formato a un tablero. | Escritura |
+| Actualizar columna | `boards_update_column` | Cambia el nombre de una columna del tablero. | Escritura |
+| Eliminar columna | `boards_delete_column` | Elimina una columna del tablero, moviendo primero las tarjetas si es necesario. | Escritura |
+| Crear tablero | `boards_create_board` | Crea un nuevo tablero básico, opcionalmente dentro de un espacio de trabajo. | Escritura |
 
 
 ### Paneles de control de lienzo
+
+Las herramientas de paneles de lienzo le permiten crear y administrar paneles de lienzo a través del chat. Describa el informe que desea en un lenguaje sencillo y la plataforma agéntica de IA crea el tablero y los widgets con los datos de Workfront.
 
 | Título | Nombre de herramienta | Qué hace | Acción |
 | --- | --- | --- | --- |
@@ -424,8 +442,3 @@ El servidor MCP de Workfront rastrea la intención del usuario para los clientes
 Los usuarios pueden deshabilitar la recopilación de telemetría poniéndose en contacto con el servicio de atención al cliente para presentar una solicitud.
 
 
-## Herramientas adicionales próximamente
-
-Estamos trabajando para agregar las siguientes herramientas al servidor MCP de Workfront en el futuro:
-
-* Tableros
