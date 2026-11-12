@@ -23,7 +23,7 @@ Para obtener una lista de todos los cambios disponibles en este punto del ciclo 
 >Vista previa: 12 de noviembre de 2026
 >Versión rápida de producción: 12 de noviembre de 2026
 >Producción para todos: 12 de noviembre de 2026
->[!BADGE Versión simultánea ]{type=Neutral}
+>[!BADGE Versión simultánea &#x200B;]{type=Neutral}
 
 >[!NOTE]
 >

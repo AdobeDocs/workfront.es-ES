@@ -36,7 +36,7 @@ Para obtener una lista de todas las características publicadas para Adobe Workf
 >Vista previa: 12 de noviembre de 2026
 >Versión rápida de producción: 12 de noviembre de 2026
 >Producción para todos: 12 de noviembre de 2026
->[!BADGE Versión simultánea ]{type=Neutral}
+>[!BADGE Versión simultánea &#x200B;]{type=Neutral}
 
 >[!NOTE]
 >
@@ -57,7 +57,7 @@ Para obtener más información, consulte [Usar promoción de entorno para Workfr
 >Vista previa: 12 de noviembre de 2026
 >Versión rápida de producción: 12 de noviembre de 2026
 >Producción para todos: 12 de noviembre de 2026
->[!BADGE Versión simultánea ]{type=Neutral}
+>[!BADGE Versión simultánea &#x200B;]{type=Neutral}
 
 >[!NOTE]
 >
