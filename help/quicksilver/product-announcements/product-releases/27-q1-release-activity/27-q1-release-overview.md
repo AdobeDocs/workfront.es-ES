@@ -5,9 +5,9 @@ author: Courtney
 draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 943ec27eb6e355e8f86e680a23dbcb86c3822880
+source-git-commit: 0ea55dca0d6ac19d484741b3418e1238ac68c44e
 workflow-type: tm+mt
-source-wordcount: '1539'
+source-wordcount: '1537'
 ht-degree: 13%
 ---
 
@@ -60,9 +60,9 @@ Las mejoras de esta página están disponibles en el entorno de vista previa. Es
                 <p>[!BADGE Off schedule]{type=Neutral}</p>
                 <p>Los administradores de Workfront ahora pueden promocionar los espacios de trabajo de Workfront Planning y sus objetos de un entorno a otro.</p>
             </td>
-            <td><p>Para ser comunicado pronto</p></td>
+            <td><p>17 de diciembre de 2026</p></td>
             <td><p>12 de noviembre de 2026</p></td>
-            <td><p>Para ser comunicado pronto</p></td>
+            <td><p>17 de diciembre de 2026</p></td>
         </tr>
         <tr>
             <td>
