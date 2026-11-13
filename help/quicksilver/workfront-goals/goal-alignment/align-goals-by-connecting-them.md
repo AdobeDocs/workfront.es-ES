@@ -24,13 +24,11 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 8f8f4e7962bfde525470842caecd49f03b758b29
 workflow-type: tm+mt
-source-wordcount: 717
+source-wordcount: '729'
 ht-degree: 88%
-
 ---
-
 # Alinear metas conectándolas en Adobe Workfront Goals
 
 <!--Audited P&P only: 10/2025-->
@@ -41,15 +39,16 @@ Cuando todos los de su organización tienen sus metas alineadas con las de su or
 
 Existen dos métodos para conectar metas en Adobe Workfront Goals:
 
-* Puede crear alineación entre metas conectándolas entre sí.
+* Puede crear alineación entre metas conectándolas entre sí. Este artículo describe este enfoque.
 
-* Puede alinear manualmente dos metas o puede convertir los resultados y las actividades de una meta existente a otra. El resultado o actividad convertido se transforma en la meta secundaria de la meta original.
+* También puede alinear dos metas convirtiendo los resultados y las actividades de una meta existente en otra meta. El resultado o actividad convertido se transforma en la meta secundaria de la meta original.
+
+  Para obtener información sobre cómo alinear metas convirtiendo resultados y actividades en metas, consulte [Alinear metas convirtiendo resultados y actividades en metas](../../workfront-goals/goal-alignment/align-goals-by-converting-results-activities.md).
 
 >[!IMPORTANT]
 >
 >Una meta puede tener un total de 1000 indicadores de progreso.
 
-En este artículo se describe cómo puede alinear metas conectándolas entre sí. Para obtener información sobre cómo alinear metas convirtiendo resultados y actividades en metas, consulte [Alinear metas convirtiendo resultados y actividades en metas](../../workfront-goals/goal-alignment/align-goals-by-converting-results-activities.md).
 
 ## Requisitos de acceso
 
@@ -214,8 +213,8 @@ Aligning goals by connecting them differs depending on what environment you use.
 1. Haga clic en **Guardar cambios**.
 
    La meta con la que comenzó (Meta 2) ahora es la meta secundaria de la meta principal con la que la alineó (Meta 1).\
-   Las metas alineadas se muestran conectadas en la sección Alineación de metas con la meta 2 como secundaria a la meta 1.
-La meta secundaria se muestra en la sección Indicadores de progreso de la meta principal a medida que su progreso actualiza el progreso de la meta principal.
+   Las metas alineadas se muestran conectadas en la sección Alineación de metas con la Meta 2 como secundaria de la Meta 1.
+   La meta secundaria se muestra en la sección Indicadores de progreso de la meta principal a medida que su progreso actualiza el progreso de la meta principal.
 
    ![Tarjetas alineadas](assets/goal-1-and-2-aligned-cards-350x427.png)
 
