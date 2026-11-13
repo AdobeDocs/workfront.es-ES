@@ -41,8 +41,8 @@ Esta sección contiene artículos para los siguientes entornos y capacidades:
 
 ## Entornos de prueba
 
-* [El entorno de vista previa de zona protegida de  [!DNL Adobe Workfront] ](../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md)
-* [El entorno de espacio aislado de actualización personalizado de  [!DNL Adobe Workfront] ](../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-custom-refresh-sandbox-environment.md)
+* [El entorno de vista previa de zona protegida de  [!DNL Adobe Workfront] &#x200B;](../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md)
+* [El entorno de espacio aislado de actualización personalizado de  [!DNL Adobe Workfront] &#x200B;](../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-custom-refresh-sandbox-environment.md)
 
 ## Promoción del entorno
 
@@ -51,7 +51,7 @@ Esta sección contiene artículos para los siguientes entornos y capacidades:
 * [Instalación de un paquete de promoción del entorno](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-install-package.md)
 * [Restablecer un paquete de promoción de entorno](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-rollback.md)
 * [Comparar objetos entre entornos](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-compare.md)
-* [Mover objetos entre entornos de  [!DNL Workfront]  mediante la API de promoción del entorno de  [!DNL Workfront] ](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion.md)
+* [Mover objetos entre entornos de  [!DNL Workfront]  mediante la API de promoción del entorno de  [!DNL Workfront] &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion.md)
 * [Preguntas frecuentes sobre la promoción del entorno](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-faq.md)
 * [Solución de problemas de la promoción del entorno](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-troubleshooting.md)
 * [Utilizar la promoción de entorno para Adobe Workfront Planning](/help/quicksilver/planning/general/planning-environment-promotion.md)
