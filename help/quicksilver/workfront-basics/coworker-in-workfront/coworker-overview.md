@@ -10,9 +10,9 @@ product_v2:
 feature_v2:
   - id: c042179c-157b-516d-b27c-e3bf303e8567
     internal-label: Get Started with Workfront
-source-git-commit: 15838c63a3894675382b07de04e6e787ff683f9a
+source-git-commit: 58aec1c9c7dc45c5ecb6ad5d070a4e34b29c458c
 workflow-type: tm+mt
-source-wordcount: '260'
+source-wordcount: '311'
 ht-degree: 0%
 ---
 # Información general sobre CX Enterprise Coworker en Workfront
@@ -29,12 +29,17 @@ Sus compañeros respetan los controles de acceso existentes a nivel de Workfront
 
 Los compañeros de trabajo forman parte del ecosistema de Adobe y no se limitan a Workfront.
 
-Para obtener información sobre cómo usar Coworker en Workfront, consulte [Usar CX Enterprise Coworker en Workfront](/help/quicksilver/workfront-basics/coworker-in-workfront/use-coworker-in-workfront.md).
-
 Para obtener más información sobre Coworker y sus funcionalidades, consulte [Descripción general de Adobe CX Enterprise Coworker Chat](https://experienceleague.adobe.com/es/docs/coworker/content/chat/overview).
+
+Para obtener información sobre cómo usar Coworker en Workfront, consulte [Usar CX Enterprise Coworker en Workfront](/help/quicksilver/workfront-basics/coworker-in-workfront/use-coworker-in-workfront.md).
 
 Para ver las aptitudes disponibles en Colaborador en Workfront, consulte [Aptitudes de Workfront en CX Enterprise Coworker](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-skills.md).
 
-Por ejemplo, consulte las indicaciones en el artículo [Usar el servidor MCP de Adobe Workfront](/help/quicksilver/workfront-basics/workfront-mcp-server/use-workfront-mcp-server.md).
+Por ejemplo, le pide ayuda para Trabajador en Workfront; consulte las solicitudes del artículo [Usar el servidor MCP de Adobe Workfront](/help/quicksilver/workfront-basics/workfront-mcp-server/use-workfront-mcp-server.md).
+
+CX Enterprise Coworker en Workfront también está disponible para las siguientes funciones de Workfront:
+
+* Planificación de Workfront. Para obtener más información, consulte [Descripción general de Adobe Workfront Planning CX Enterprise Coworker](/help/quicksilver/planning/general/planning-cx-coworker-overview.md)
+* Espacio de ideación en Workfront Planning. Se encuentra en la versión beta. Para obtener más información, consulte [Introducción al espacio de ideas para Adobe Workfront Planning](/help/quicksilver/planning/ideation/get-started-with-planning-ideation.md)
 
 

@@ -28,10 +28,10 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
+source-git-commit: 58aec1c9c7dc45c5ecb6ad5d070a4e34b29c458c
 workflow-type: tm+mt
-source-wordcount: '797'
-ht-degree: 2%
+source-wordcount: '853'
+ht-degree: 1%
 ---
 # Creación de objetos mediante automatizaciones de registros de Adobe Workfront Planning
 
@@ -110,6 +110,8 @@ O
    <p>Administre permisos para el registro para el que está ejecutando la automatización.</p>
    <p>Administre permisos a objetos Workfront (portafolios) para agregar objetos secundarios (programas o proyectos).</p>
    <p>Los administradores del sistema tienen permisos de administración en todos los espacios de trabajo, incluidos los que no han creado</p>
+   <p>Los creadores de automatización tienen permisos de administración para sus propias automatizaciones</p>
+   <p>Necesita permisos de edición o superiores para editar la automatización y permisos de ejecución para ejecutarla</p>
    </td> 
   </tr> 
 </tbody> 
@@ -198,6 +200,8 @@ Old:
 * Cuando su organización utiliza el almacenamiento en la nube heredado de Workfront y Adobe, los elementos creados automáticamente desde Planning se crean mediante el almacenamiento predeterminado seleccionado por el administrador de Workfront en el área de Configuración.
 
   Para obtener información sobre cómo habilitar el almacenamiento en la nube de Adobe en su entorno, consulte [Habilitar el almacenamiento en la nube de Adobe para su organización](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md).
+
+* Debe tener al menos permisos de ejecución en una automatización para poder ejecutarla. Para obtener más información, consulte [Configuración de automatizaciones de Adobe Workfront Planning para crear registros](/help/quicksilver/planning/records/configure-automations-to-create-records.md).
 
 <!--hide this for now; they are trying to remove this limitation: * The automation adds additional objects only in the Many to many or One to many connection type fields. In the all other cases, the automation creates the object, but it does not connect it to the original record from which the automation is triggered.-->
 

@@ -10,10 +10,10 @@ product_v2:
 feature_v2:
   - id: c042179c-157b-516d-b27c-e3bf303e8567
     internal-label: Get Started with Workfront
-source-git-commit: 215b8f1bf28e8df2b95c4f0519ffebcbcaa8df16
+source-git-commit: 58aec1c9c7dc45c5ecb6ad5d070a4e34b29c458c
 workflow-type: tm+mt
-source-wordcount: '274'
-ht-degree: 6%
+source-wordcount: '486'
+ht-degree: 3%
 ---
 # Aptitudes de Workfront en CX Enterprise Coworker
 
@@ -59,19 +59,27 @@ Esta aptitud consulta y administra objetos de Workfront Planning como:
 * Registros
 * Reglas empresariales
 
-<!--
+### Aptitudes de espacio de ideación (beta)
 
-### Ideation space skills
+>[!NOTE]
+>
+>El espacio de ideación está disponible actualmente en versión beta como una capacidad adicional de Workfront Planning.
+>
+>Para obtener más información sobre el espacio de ideación, vea [Introducción al espacio de ideación para Adobe Workfront Planning](/help/quicksilver/planning/ideation/get-started-with-planning-ideation.md).
 
-Coworker has a variety of skills to work with Workfront Planning Ideation space. These cover actions such as:
+El espacio de ideación es la capacidad de ideación estratégica basada en IA de Adobe, integrada directamente en Workfront Planning. Proporciona a los equipos de marketing un punto de partida estructurado y basado en datos para la estrategia de campaña, y reemplaza la investigación manual y las conjeturas por informes generados por IA basados en el historial de rendimiento real de una organización.
 
-* Thing 1
-* Thing 2
-* Other thing
+Su compañero tiene diversas habilidades para trabajar con el espacio de Workfront Planning Ideation. Estas cubren acciones como las siguientes:
 
-For more information about Ideation space, see [Get started with Ideation space for Adobe Workfront Planning ](/help/quicksilver/planning/ideation/get-started-with-planning-ideation.md).
+<!--list duplicated in: help/quicksilver/workfront-basics/coworker-in-workfront/coworker-prompts-and-best-practices.md-->
 
--->
+* Ideación de la campaña: crea una idea y genera tarjetas de ideas en el lienzo para campañas y otros temas, utilizando los documentos de origen adjuntos y otras fuentes. Este es el principal punto de partida para la ideación.
+* Conversación de la campaña: trabaje con las ideas de la campaña de forma conversacional en la aplicación del espacio de ideación.
+* Información de la campaña: cree y perfeccione una información de campaña estructurada, con protecciones para mantenerla completa y en curso.
+* Preguntas y respuestas sobre documentos: haga preguntas en relación con los documentos que ha adjuntado a la sesión de ideación.
+* Investigación: incorpore la investigación para informar su idea en el lienzo.
+* Indicadores de inicio: obtenga sugerencias para iniciar o expandir su idea.
+* Abrir lienzo: inicie o salte a un lienzo del espacio de ideas (utilizado al comenzar desde un chat normal fuera de la aplicación).
 
 ## Aptitudes de Workfront
 

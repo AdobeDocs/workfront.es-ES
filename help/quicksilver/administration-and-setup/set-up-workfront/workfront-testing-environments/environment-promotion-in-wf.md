@@ -31,10 +31,10 @@ topic_v2:
     internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 00706e8c7ed590cf112f4817da9740a970a4a4b3
+source-git-commit: 58aec1c9c7dc45c5ecb6ad5d070a4e34b29c458c
 workflow-type: tm+mt
-source-wordcount: '943'
-ht-degree: 96%
+source-wordcount: '1041'
+ht-degree: 87%
 ---
 # Descripción general del movimiento de objetos entre entornos de Workfront (Promoción del entorno)
 
@@ -64,9 +64,8 @@ Dado que la promoción del entorno se ocupa de la configuración de objetos, no 
 * [Objetos de datos personalizados](#custom-data-objects)
 * [Objetos de organización](#organization-objects)
 * [Otros objetos de configuración](#other-configuration-objects)
-<!--
-* [Workfront Planning objects](#workfront-planning-objects)
--->
+* [Objetos de Workfront Planning](#workfront-planning-objects)
+
 
 ### Objetos de trabajo
 
@@ -139,25 +138,24 @@ Dado que la promoción del entorno se ocupa de la configuración de objetos, no 
 
 -->
 
-<!--
 
-**** Automations might not be part of this
-**** Planning STA might not be supported - Lilit is checking on this
-
-## Workfront Planning objects
+## Objetos de Workfront Planning
 
 >[!IMPORTANT]
 >
->Workfront Planning objects are available only to customers who have purchased a Planning package in addition to a Workfront package or as a standalone product.
+>Los objetos de Planning de Workfront solo están disponibles para los clientes que han adquirido un paquete de Planning además de un paquete de Workfront.
+>
+>La promoción de entorno no está disponible para los clientes que compraron Workfront Planning como producto independiente.
 
-| Promotable object | Included promotable linked objects |
+| Objeto promocionable | Objetos vinculados promocionales incluidos |
 | --- | --- |
-| Workspaces | Workspace sections |
-| Record types | Connected record types <br> Fields <br> Views <br> Hierarchies <br> Automations <br> Request forms  |
-| Sharing for all objects |  |
-| Additional objects that imported objects depend on| Groups <br> Teams <br> Job roles |
--->
+| Espacios de trabajo | Secciones de Workspace |
+| Tipos de registro | Tipos de registros conectados* <br> Campos <br> Vistas <br> Jerarquías <br> Formularios de solicitud |
+| Compartir para todos los objetos | Grupos <br> Equipos <br> Funciones del puesto <br> Usuarios <br>Compañías |
 
+*Solo los tipos de registros conectados que pertenecen a los espacios de trabajo importados se transferirán al entorno de destino.
+
+Para obtener más información, consulte [Usar promoción de entorno para Adobe Workfront Planning](/help/quicksilver/planning/general/planning-environment-promotion.md).
 
 ## Estados de promoción del entorno
 
