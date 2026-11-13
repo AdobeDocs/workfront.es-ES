@@ -5,9 +5,9 @@ author: Courtney
 draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 943ec27eb6e355e8f86e680a23dbcb86c3822880
+source-git-commit: 0ea55dca0d6ac19d484741b3418e1238ac68c44e
 workflow-type: tm+mt
-source-wordcount: '1539'
+source-wordcount: '1537'
 ht-degree: 13%
 ---
 
@@ -60,9 +60,9 @@ Las mejoras de esta página están disponibles en el entorno de vista previa. Es
                 <p>[!BADGE Off schedule]{type=Neutral}</p>
                 <p>Los administradores de Workfront ahora pueden promocionar los espacios de trabajo de Workfront Planning y sus objetos de un entorno a otro.</p>
             </td>
-            <td><p>Para ser comunicado pronto</p></td>
+            <td><p>17 de diciembre de 2026</p></td>
             <td><p>12 de noviembre de 2026</p></td>
-            <td><p>Para ser comunicado pronto</p></td>
+            <td><p>17 de diciembre de 2026</p></td>
         </tr>
         <tr>
             <td>
@@ -380,7 +380,7 @@ El Visor de corrección de escritorio se ha actualizado a la versión 2.3.0. Est
 
 * Se ha actualizado el marco subyacente (Electron) a la última versión, que se ejecuta en la versión 156 de Chrome, para mejorar el rendimiento y la seguridad.
 
-Para obtener información sobre cómo descargar y actualizar el Visor de corrección de escritorio, consulte [Actualizar el Visor de corrección de escritorio](https://experienceleague.adobe.com/es/docs/workfront/using/review-and-approve-work/proofing/use-the-desktop-proofing-viewer/update-the-desktop-proofing-viewer).
+Para obtener información sobre cómo descargar y actualizar el Visor de corrección de escritorio, consulte [Actualizar el Visor de corrección de escritorio](https://experienceleague.adobe.com/en/docs/workfront/using/review-and-approve-work/proofing/use-the-desktop-proofing-viewer/update-the-desktop-proofing-viewer).
 
 ## Anuncios
 
@@ -391,7 +391,7 @@ Para obtener información sobre cómo descargar y actualizar el Visor de correcc
 >Vista previa: 12 de noviembre de 2026
 >Versión rápida de producción: 12 de noviembre de 2026
 >Producción para todos: 12 de noviembre de 2026
->[!BADGE Versión simultánea &#x200B;]{type=Neutral}
+>[!BADGE Versión simultánea ]{type=Neutral}
 
 >[!NOTE]
 >
@@ -437,7 +437,7 @@ Para obtener información sobre las tasas de rol, consulte [Crear y administrar 
 
 ### Workfront Maintenance Updates
 
-For information about the maintenance updates made during the First Quarter 2027 release, see [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=es).
+For information about the maintenance updates made during the First Quarter 2027 release, see [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 -->
 

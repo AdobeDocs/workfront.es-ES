@@ -4,9 +4,9 @@ description: Mejoras del administrador en el primer trimestre de 2027
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 943ec27eb6e355e8f86e680a23dbcb86c3822880
+source-git-commit: 0ea55dca0d6ac19d484741b3418e1238ac68c44e
 workflow-type: tm+mt
-source-wordcount: '555'
+source-wordcount: '554'
 ht-degree: 5%
 ---
 
@@ -21,7 +21,7 @@ Para obtener una lista de todos los cambios disponibles en este punto del ciclo 
 >[!NOTE]
 >
 >Versión rápida de producción y zonas protegidas: 12 de noviembre de 2026
->Producción, Previsualización, Zonas protegidas para todo el mundo: Se comunicará pronto
+>Producción, previsualización, zonas protegidas para todos: 17 de diciembre de 2026
 >[!BADGE Fuera del horario]{type=Neutral}
 
 >[!NOTE]
