@@ -6,9 +6,9 @@ author: Alina
 feature: Product Announcements
 role: User, Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 98410f6d8632eb9842fdbcff88b52f4bc6a87b2e
+source-git-commit: 8f8f4e7962bfde525470842caecd49f03b758b29
 workflow-type: tm+mt
-source-wordcount: '2214'
+source-wordcount: '2241'
 ht-degree: 1%
 ---
 # Programa beta de capacidades de organizaciones conectadas
@@ -224,11 +224,13 @@ Como usuario en la instancia del cliente, envíe una solicitud haciendo lo sigui
 
    Aparece un mensaje **Solicitud enviada correctamente** con un vínculo **Ver su solicitud**.
 
-   La nueva solicitud se agrega a la lista de solicitudes con el nombre de formulario y un estado de **Nuevo**.
+   La nueva solicitud se agrega a la lista de solicitudes con el nombre de formulario y un estado de **New** tanto en la instancia del cliente como en la del proveedor.
 
    >[!TIP]
    >
    >Las respuestas de IA pueden ser inexactas. Compruebe siempre los valores rellenados antes de enviar.
+
+   La solicitud creada es de solo lectura en la instancia del proveedor.
 
 ### &#x200B;5. Revise la solicitud y cree un proyecto
 
@@ -250,7 +252,7 @@ El **tipo** de la solicitud está marcado como **Externo: &lt; nombre de la inst
    * **Portfolio** y **Programa**: Agregue portafolios o programas para el nuevo proyecto.
 1. Haga clic en **Crear**.
 
-   La solicitud en la instancia del proveedor ahora se vincula al nuevo proyecto, y el estado de la solicitud cambia a **En curso**. La instancia solicitante del cliente ve el cambio de estado en su propia copia de la solicitud.
+   La solicitud en la instancia del proveedor ahora se vincula al nuevo proyecto, y el estado de la solicitud cambia a **En curso**, si el proyecto está en estado Actual. La instancia solicitante del cliente ve el cambio de estado en su propia copia de la solicitud.
 
 ### &#x200B;6. Colaboración en la conversación entre empresas
 
