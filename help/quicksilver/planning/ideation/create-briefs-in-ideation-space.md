@@ -159,7 +159,7 @@ Or
     <td role="rowheader"><p>Adobe GenStudio for Performance Marketing user roles</p></td> 
     <td><p><ul><li>Any GenStudio user role to access Campaigns, Products, and Personas</li>
     <li>GenStudio System Manager to access Activations and Events</li></ul>
-    For information, see <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
+    For information, see <a href="https://experienceleague.adobe.com/es/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
     </p>
     </td> 
     </tr> 
@@ -235,7 +235,7 @@ Puede crear informes para crear o editar registros de Planning o para crear arch
 
 1. (Opcional) Haga clic en el icono **Chats** ![Icono de Chats](assets/chats-icon-coworker.png) en la esquina superior derecha del panel Compañero de trabajo y, a continuación, haga clic en **Nuevo chat** para abrir un nuevo mensaje o haga clic en uno de los chats anteriores de la lista para regresar a uno más antiguo.
 
-   Para obtener más información sobre chats, consulta [Administrar tus chats](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide#manage-your-chats) en la documentación de Adobe CX Enterprise Coworker.
+   Para obtener más información sobre chats, consulta [Administrar tus chats](https://experienceleague.adobe.com/es/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide#manage-your-chats) en la documentación de Adobe CX Enterprise Coworker.
 
 1. Haga clic en el icono **Buscar** ![Icono de búsqueda](assets/search-icon.png) para buscar elementos en el lienzo de ideación y, a continuación, haga clic en cuando se muestre en la lista para navegar hasta él.
 

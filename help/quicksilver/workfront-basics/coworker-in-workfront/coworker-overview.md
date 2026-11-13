@@ -29,7 +29,7 @@ Sus compañeros respetan los controles de acceso existentes a nivel de Workfront
 
 Los compañeros de trabajo forman parte del ecosistema de Adobe y no se limitan a Workfront.
 
-Para obtener más información sobre Coworker y sus funcionalidades, consulte [Descripción general de Adobe CX Enterprise Coworker Chat](https://experienceleague.adobe.com/en/docs/coworker/content/chat/overview).
+Para obtener más información sobre Coworker y sus funcionalidades, consulte [Descripción general de Adobe CX Enterprise Coworker Chat](https://experienceleague.adobe.com/es/docs/coworker/content/chat/overview).
 
 Para obtener información sobre cómo usar Coworker en Workfront, consulte [Usar CX Enterprise Coworker en Workfront](/help/quicksilver/workfront-basics/coworker-in-workfront/use-coworker-in-workfront.md).
 
