@@ -10,9 +10,9 @@ product_v2:
 feature_v2:
   - id: c042179c-157b-516d-b27c-e3bf303e8567
     internal-label: Get Started with Workfront
-source-git-commit: 2b2e58c17bdcb7c28b11bf460bad24bc1e1eb642
+source-git-commit: 58aec1c9c7dc45c5ecb6ad5d070a4e34b29c458c
 workflow-type: tm+mt
-source-wordcount: '2241'
+source-wordcount: '2366'
 ht-degree: 2%
 ---
 # Preguntas frecuentes y prácticas recomendadas de CX Enterprise Coworker
@@ -355,7 +355,7 @@ Consulte las solicitudes de ejemplo para la aprobación de documentos y recursos
 * ¿Puede mostrar quién modificó este proyecto y qué cambió?
 * Necesito ver todas las actualizaciones realizadas en este registro en la última semana
 
-### Uso de System Designer en Workfront Planning
+### Uso de Planning Designer en Workfront Planning
 
 * [Creación y configuración de espacios de trabajo](#create-and-configure-workspaces)
 * [Definición de tipos de registros](#define-record-types)
@@ -386,3 +386,15 @@ Consulte las solicitudes de ejemplo para la aprobación de documentos y recursos
 * Crear una vista de cronología en Planning para ver mi programación de campaña por fechas de inicio y finalización
 * Agregar una nueva vista de tabla a Mis iniciativas de planificación que filtre solamente el estado activo
 * Duplique la vista Campañas activas de Planning y modifique la ordenación.
+
+### Compañero en Espacio de ideación para Workfront Planning (beta)
+
+<!--duplicated in help/quicksilver/workfront-basics/coworker-in-workfront/coworker-skills.md-->
+
+* Ideación de la campaña: crea una idea y genera tarjetas de ideas en el lienzo para campañas y otros temas, utilizando los documentos de origen adjuntos y otras fuentes. Este es el principal punto de partida para la ideación.
+* Conversación de la campaña: trabaje con las ideas de la campaña de forma conversacional en la aplicación del espacio de ideación.
+* Información de la campaña: cree y perfeccione una información de campaña estructurada, con protecciones para mantenerla completa y en curso.
+* Preguntas y respuestas sobre documentos: haga preguntas en relación con los documentos que ha adjuntado a la sesión de ideación.
+* Investigación: incorpore la investigación para informar su idea en el lienzo.
+* Indicadores de inicio: obtenga sugerencias para iniciar o expandir su idea.
+* Abrir lienzo: inicie o salte a un lienzo del espacio de ideas (utilizado al comenzar desde un chat normal fuera de la aplicación).

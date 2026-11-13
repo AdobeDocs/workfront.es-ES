@@ -28,9 +28,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
+source-git-commit: 7eb2aeed3e711e36b1f735e75075a10291cd551a
 workflow-type: tm+mt
-source-wordcount: '1900'
+source-wordcount: '2146'
 ht-degree: 5%
 ---
 # Configuración de automatizaciones de Planificación de Workfront de Adobe
@@ -102,6 +102,8 @@ O
    <td role="rowheader"><p>Permisos de objeto</p></td> 
    <td> <p>Administre permisos al espacio de trabajo y al tipo de registro donde desee crear automatizaciones. </p>
    <p>Los administradores del sistema tienen permisos de administración en todos los espacios de trabajo, incluidos los que no han creado</p>
+   <p>Los creadores de automatización tienen permisos de administración para sus propias automatizaciones</p>
+   <p>Necesita permisos de edición o superiores para editar la automatización y permisos de ejecución para ejecutarla</p>
    </td> 
   </tr>  
 </tbody> 
@@ -361,3 +363,79 @@ Se abre la página de detalles de automatización.
    * Haga clic en **Eliminar** para eliminar la automatización. Una automatización eliminada no se puede recuperar.
 
      Los registros creados con una automatización eliminada permanecen conectados al registro seleccionado originalmente.
+
+## Compartir automatizaciones
+
+Como creador de una automatización, tiene permisos de administración de forma predeterminada.
+
+Además, puede compartirlo con otros usuarios o equipos.
+
+Los usuarios que forman parte del espacio de trabajo no obtienen permisos para las automatizaciones del espacio de trabajo de forma predeterminada. Debe compartir específicamente una automatización con ellos.
+
+1. Vaya al tipo de registro cuyas automatizaciones desee compartir.
+1. Haga clic en el menú **Más** a la derecha del nombre del tipo de registro y, a continuación, haga clic en **Automatizaciones**.
+
+   Se abre una lista de automatizaciones.
+1. (Condicional) Si no hay automatizaciones en la lista, cree una, tal como se describe en la sección [Configuración de una automatización en Workfront Planning](#configure-an-automation-in-workfront-planning) de este artículo.
+1. En la lista de automatizaciones, haga clic en el menú **Más** a la derecha del nombre de la automatización y, a continuación, haga clic en **Compartir**.
+1. En el cuadro para compartir, empiece a escribir el nombre de los usuarios o equipos con los que desea compartir. <!--checking with Mikayel if the other entities are not available for sharing for automations-->
+1. Elija entre los siguientes niveles de permisos de uso compartido:
+
+   | Nivel de permisos | Acciones permitidas |
+   | --- | --- |
+   | **Administrar** | Puede eliminar, editar, iniciar y ver la automatización |
+   | **Editar** | Puede editar, iniciar y ver la automatización |
+   | **Ejecutar** | Puede iniciar y ver la automatización |
+
+1. Para cambiar los permisos de un usuario existente, abra el mismo cuadro de diálogo y seleccione un nivel de permisos diferente en el menú desplegable situado junto a su nombre, o haga clic en Quitar para revocar todos los accesos.
+1. Haga clic en **Guardar** para guardar los cambios que se están compartiendo.
+
+
+<!--checking this with Mikayel Aleksanyan to be sure-->
+
+
+<!-- 
+original info sent in slack from Mikayel: 
+Update the [Workfront Planning automations documentation](https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-planning/adobe-workfront-planning-records/configure-automations-to-create-records) to explain the change from automatic sharing to explicit, owner-controlled sharing.
+
+Feature overview
+
+Previously, newly created automations were automatically shared with everyone in the Workfront Planning workspace. Now, a new automation is available only to its owner by default. The owner must manually share it with other users to grant them access.
+
+This change gives owners control over who can access their automations and what access level each user receives.
+
+What the documentation should cover
+
+1. Default visibility and sharing
+
+* Previously, a newly created automation was available to everyone in its Workfront Planning workspace by default.
+* With the new permission system, a newly created automation is available only to its creator/owner by default.
+* Owners must explicitly share new automations with other users to grant them access; workspace membership alone does not grant access to a new automation.
+* Owners can use the **Share** action to grant access to other users in the same organization. In the automations list, open the automation's **More options (···)** menu next to its name, then select **Share**.
+* Sharing grants access to an automation; it does not transfer ownership.
+
+1. Automation access levels
+
+The sharing dialog offers the following access levels, with these descriptions:
+
+| Access level | Allowed actions |
+| --- | --- |
+| **Manage** | Can delete, edit, start, and view |
+| **Edit** | Can edit, start, and view |
+| **Run** | Can start and view |
+
+The automation creator is listed as **Owner**. **Remove** is an action for removing a user's access, not an access level.
+
+1. How to share and update access
+
+1. In the automations list, open the automation's **More options (···)** menu and select **Share**.
+1. In the **Share [automation name]** dialog, use **Add people** to select the users to share with.
+1. Use the access-level dropdown next to a user to assign **Manage**, **Edit**, or **Run**.
+1. Click **Save** to save the sharing changes.
+
+To change an existing user's access, open the same dialog and select a different access level from the dropdown next to their name. To revoke access, select **Remove**. Click **Save** to save the changes.
+
+1. Existing automations
+
+* At the introduction of the new permission system, existing automations were shared with users in their respective Workfront Planning workspaces to preserve existing access.
+-->
