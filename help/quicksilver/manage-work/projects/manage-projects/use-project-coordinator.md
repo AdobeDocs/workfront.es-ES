@@ -4,10 +4,10 @@ content-type: reference
 description: Aprenda a utilizar el Coordinador de proyectos, un colaborador de IA incorporado que supervisa el estado del proyecto y realiza un seguimiento de las tareas vencidas.
 author: Becky
 feature: Work Management, Projects
-source-git-commit: a4dfe29c0cf85f6029fd5f4398942c60bd3d6b5a
+source-git-commit: 13403cc11448a0611ad0996ed21e1745277e9c05
 workflow-type: tm+mt
-source-wordcount: '351'
-ht-degree: 7%
+source-wordcount: '513'
+ht-degree: 8%
 
 ---
 # Utilizar el colaborador del coordinador del proyecto
@@ -40,7 +40,7 @@ Para obtener información sobre los colaboradores de IA en general, consulte [Co
   </tr> 
   <tr> 
    <td>Permisos de objeto</td> 
-   <td>Debe tener permiso de administración en los proyectos para asignar un coordinador de productos.</td> 
+   <td>Debe tener permiso de administración en los proyectos para asignar un coordinador de proyectos.</td> 
   </tr>
   </tbody> 
 </table>
@@ -51,21 +51,30 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
 
 ## Resumen del coordinador del proyecto
 
-El coordinador del proyecto es un administrador de proyectos virtual (VPM) que supervisa el proyecto y ayuda a mantener el trabajo en curso de forma proactiva. Cuando se asigna como propietario de un proyecto, hace lo siguiente:
+El coordinador del proyecto supervisa el proyecto y ayuda a que el trabajo siga su curso. Cuando se asigna a un proyecto, envía actualizaciones de proyecto según una programación configurada por el administrador. Las actualizaciones pueden incluir:
 
-* Revisa el estado del proyecto e identifica las tareas vencidas y estancadas
-* Envía solicitudes de actualización de estado a los propietarios de tareas
-* Indica información incompleta en campos nativos y formularios personalizados
-* Supervisa los documentos en busca de problemas de aprobación, formularios ausentes o inactividad
-* Registra las dependencias y los indicadores de las tareas cuando las predecesoras ponen en riesgo a los dependientes
-* Publica actualizaciones y seguimientos en el flujo de actualización del proyecto
-* Mantiene informado al propietario del proyecto de los problemas del proyecto
+* Resumen del progreso
+* Estado del proyecto
+* Tareas o aprobaciones vencidas o en riesgo
+* Faltan campos o asignaciones
 
-El comportamiento es configurable, incluidas las acciones que realiza el colaborador y la frecuencia con la que comprueba el estado del proyecto.
+El coordinador del proyecto también puede realizar comentarios sobre el proyecto y sus tareas.
+
+El administrador configura la frecuencia con la que se envían las actualizaciones, la hora a la que se envían y quién las recibe.
+
+También puede ejecutar el Coordinador de proyectos bajo demanda mencionándolo en una actualización del proyecto. El coordinador del proyecto se ejecuta cuando se menciona, aunque no esté programado para ejecutarse en ese momento.
+
+>[!NOTE]
+>
+>El comportamiento del coordinador del proyecto puede cambiar antes de la disponibilidad general.
 
 ## Agregar el coordinador del proyecto a un proyecto
 
-El campo Coordinador de proyectos aparece de forma predeterminada en el encabezado del proyecto. Para asignar un coordinador de proyecto a un proyecto:
+Un administrador debe crear primero el Coordinador de proyectos y agregar el campo **Coordinador de proyectos** al encabezado del proyecto en la plantilla de diseño. Luego aparece el campo en el encabezado del proyecto.
+
+Para obtener más información, consulte [Personalización de los encabezados de los objetos mediante una plantilla de diseño](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md).
+
+Para asignar un coordinador de proyecto a un proyecto:
 
 1. Vaya al proyecto para el que desea asignar un coordinador de proyecto.
 1. En el encabezado del proyecto, haga clic en el campo **Coordinador del proyecto**.
@@ -74,6 +83,23 @@ El campo Coordinador de proyectos aparece de forma predeterminada en el encabeza
    La ventana muestra una descripción del coordinador del proyecto seleccionado, así como las acciones que realiza el coordinador del proyecto.
 1. Haga clic en **Aplicar**.
 
+## Ejecute el coordinador del proyecto mencionándolo
+
+Además de las actualizaciones programadas, puede almacenar en déclencheur al coordinador del proyecto en cualquier momento @mentioning en una actualización del proyecto. El coordinador del proyecto se ejecuta en cuanto se menciona, aunque no esté programado para ejecutarse en ese momento.
+
+Para mencionar al Coordinador del Proyecto:
+
+1. Vaya al proyecto que tiene asignado el coordinador del proyecto.
+1. Abra el área **Actualizaciones** del proyecto.
+1. En el campo de actualización, escriba **@** y seleccione el Coordinador del proyecto.
+1. Añada el mensaje y, a continuación, publique la actualización.
+
+   El coordinador del proyecto ejecuta y publica su respuesta.
+
+>[!NOTE]
+>
+>Se debe asignar al proyecto el coordinador del proyecto antes de que pueda almacenarlo en déclencheur con un @mention.
+
 ## Configuración del coordinador del proyecto
 
-Para obtener instrucciones sobre cómo configurar el coordinador del proyecto, consulte [Configurar el coordinador del proyecto](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md#configure-the-project-coordinator) en el artículo Configurar colaboradores de IA.
+Para obtener instrucciones sobre cómo configurar el coordinador del proyecto, consulte [Configurar el coordinador del proyecto](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md#configure-a-project-coordinator) en el artículo Configurar colaboradores de IA.
