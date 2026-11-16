@@ -37,7 +37,7 @@ Debe tener lo siguiente:
 * Acceso a Workfront Planning y GenStudio for Performance Marketing.
 * Un proyecto de Adobe Cloud Storage para vincular al espacio de trabajo. Un administrador de organización puede crear uno en Adobe Admin Console.
 
-  Para obtener más información, consulte [Administrar almacenamiento de Adobe](https://helpx.adobe.com/business/enterprise/manage-storage-assets/manage-storage/manage-adobe-storage.html). <!--ensure this site still works-->
+  Para obtener más información, consulte [Administrar almacenamiento de Adobe](https://helpx.adobe.com/es/business/enterprise/manage-storage-assets/manage-storage/manage-adobe-storage.html). <!--ensure this site still works-->
 
 ## Requisitos de acceso
 
@@ -73,7 +73,7 @@ O
    <td> 
    <p> Debe crear proyectos de Adobe Storage Cloud en Adobe Admin Console </p>
 
-<p>Para obtener más información, consulte <a href="https://helpx.adobe.com/business/enterprise/manage-storage-assets/manage-storage/projects-in-business-storage.html#project-policies">Administrar proyectos</a>
+<p>Para obtener más información, consulte <a href="https://helpx.adobe.com/es/business/enterprise/manage-storage-assets/manage-storage/projects-in-business-storage.html#project-policies">Administrar proyectos</a>
 
 </td> 
   </tr>
@@ -99,7 +99,7 @@ O
    <td role="rowheader"><p>Funciones de usuario de Adobe GenStudio for Performance Marketing</p></td> 
    <td><p><ul><li>Cualquier función de usuario de GenStudio si necesita acceder a Campañas, Productos y Personas</li>
    <li>GenStudio System Manager si necesita acceder a las activaciones <!--and Events--></li></ul>
-   Para obtener más información, consulte <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">Funciones de usuario y permisos</a>. 
+   Para obtener más información, consulte <a href="https://experienceleague.adobe.com/es/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">Funciones de usuario y permisos</a>. 
    </p>
   </td> 
   </tr>   
