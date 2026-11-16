@@ -28,10 +28,10 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 29c11bcb8189bb3d5e9f57e1249ee58c9a206b87
+source-git-commit: f23589e5184ea27347a18084984c6c31939e4090
 workflow-type: tm+mt
-source-wordcount: '1842'
-ht-degree: 77%
+source-wordcount: '1917'
+ht-degree: 75%
 ---
 # El entorno de zona protegida de actualización personalizada de [!DNL Adobe Workfront]
 
@@ -108,6 +108,12 @@ If you are a Workfront Goals customer, Workfront Goals data does not transfer to
 ## Almacenamiento en la nube de Adobe en la zona protegida de actualización personalizada
 
 El almacenamiento en la nube de Adobe está disponible en la zona protegida de actualización personalizada para que pueda probarlo antes de habilitarlo en producción. Sin embargo, el visor Frame.io no está disponible en entornos de zona protegida, por lo que la experiencia completa de revisión y aprobación unificadas debe validarse en producción.
+
+>[!IMPORTANT]
+>
+>Al actualizar la zona protegida de actualización personalizada desde la producción, no se copian datos del almacenamiento en la nube de Adobe en la zona protegida. Los proyectos de almacenamiento en la nube de Adobe, sus documentos y los datos asociados no se incluyen en la actualización. Este es el comportamiento esperado. Los proyectos y documentos de almacenamiento de Workfront heredados siguen copiándose en la zona protegida de la forma habitual.
+>
+>Para probar el almacenamiento en la nube de Adobe en la zona protegida de actualización personalizada, cree nuevos proyectos de almacenamiento en la nube de Adobe y cargue documentos directamente en ese entorno.
 
 Después de actualizar a una versión de Workfront que admita el almacenamiento en la nube de Adobe, debe actualizar la zona protegida de actualización personalizada para acceder a la funcionalidad de almacenamiento en la nube de Adobe en la zona protegida. Una vez completada la actualización, puede empezar a probar el almacenamiento en la nube de Adobe. Para obtener más información, consulte [Habilitar el almacenamiento en la nube de Adobe para su organización](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md).
 

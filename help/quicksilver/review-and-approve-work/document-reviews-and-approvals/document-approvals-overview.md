@@ -27,9 +27,9 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
-source-git-commit: 120abd12533cfed2e5c7f8c2f849d34a26054dbb
+source-git-commit: f23589e5184ea27347a18084984c6c31939e4090
 workflow-type: tm+mt
-source-wordcount: '4476'
+source-wordcount: '4571'
 ht-degree: 0%
 ---
 # Resumen de revisión y aprobación unificadas
@@ -580,6 +580,10 @@ Puede trabajar con el equipo de su cuenta de Adobe para determinar la cantidad a
 Parcialmente. Los flujos de trabajo de aprobación se pueden probar en un entorno de zona protegida de Workfront. Sin embargo, la experiencia del visor Frame.io no está disponible en la zona protegida. La prueba de la propia superficie de revisión requiere un entorno de producción.
 
 Para limitar la exposición durante el despliegue, puede habilitar la revisión y aprobación unificadas para un grupo específico dentro del entorno de producción de Workfront. Esto le permite ejecutar una prueba piloto de destino con un conjunto de usuarios más pequeño antes de implementarla de forma más amplia.
+
+**¿Por qué no aparecen mis proyectos y documentos de almacenamiento en la nube de Adobe en la zona protegida después de una actualización?**
+
+Este es el comportamiento esperado. Cuando se actualiza una zona protegida desde la producción, no se copian en ella datos del almacenamiento en la nube de Adobe. Los proyectos de almacenamiento en la nube de Adobe, sus documentos y los datos asociados no se incluyen en la actualización. Los proyectos y documentos de almacenamiento de Workfront heredados siguen copiándose en la zona protegida de la forma habitual. Para probar el almacenamiento en la nube de Adobe en una zona protegida, cree nuevos proyectos de almacenamiento en la nube de Adobe y cargue documentos directamente en ese entorno. Para obtener más información, consulte [Información general sobre el almacenamiento en la nube de Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 <!--
 **How should we test future quarterly releases involving unified review and approval if the Frame.io viewer is not available in sandbox?**

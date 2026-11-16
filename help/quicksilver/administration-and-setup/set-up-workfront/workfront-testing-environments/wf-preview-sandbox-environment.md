@@ -26,10 +26,10 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 29c11bcb8189bb3d5e9f57e1249ee58c9a206b87
+source-git-commit: f23589e5184ea27347a18084984c6c31939e4090
 workflow-type: tm+mt
-source-wordcount: '1379'
-ht-degree: 86%
+source-wordcount: '1509'
+ht-degree: 79%
 ---
 # El entorno de vista previa de zona protegida de [!DNL Adobe Workfront]
 
@@ -83,6 +83,18 @@ Los datos fluyen unidireccionalmente, de Producción a Vista previa y no a la in
 La vista previa de zona protegida también permite que [!DNL Workfront] implemente nuevas características en un entorno seguro antes de que estén listas para implementarse en el entorno de producción. Puede probar las nuevas características y proporcionar comentarios de [!DNL Workfront] sobre su funcionalidad accediendo a la vista previa de zona protegida. Por este motivo, el código de la vista previa de zona protegida siempre va por delante del código de producción, aunque los datos se actualicen semanalmente.
 
 El entorno de vista previa es ideal para ejecutar cursos de formación, probar nuevas funciones y determinar la funcionalidad de la configuración.
+
+## Almacenamiento en la nube de Adobe en la zona protegida de vista previa
+
+El almacenamiento en la nube de Adobe está disponible en la zona protegida de vista previa para que pueda probarlo antes de habilitarlo en producción. Sin embargo, el visor Frame.io no está disponible en entornos de zona protegida, por lo que la experiencia completa de revisión y aprobación unificadas debe validarse en producción.
+
+>[!IMPORTANT]
+>
+>Cuando se actualiza la zona protegida de vista previa desde la producción, no se copian datos del almacenamiento en la nube de Adobe en la zona protegida. Los proyectos de almacenamiento en la nube de Adobe, sus documentos y los datos asociados no se incluyen en la actualización. Este es el comportamiento esperado. Los proyectos y documentos de almacenamiento de Workfront heredados siguen copiándose en la zona protegida de la forma habitual.
+>
+>Para probar el almacenamiento en la nube de Adobe en la zona protegida de vista previa, cree nuevos proyectos de almacenamiento en la nube de Adobe y cargue documentos directamente en ese entorno.
+
+Para obtener más información, consulte [Información general sobre el almacenamiento en la nube de Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 >[!IMPORTANT]
 >

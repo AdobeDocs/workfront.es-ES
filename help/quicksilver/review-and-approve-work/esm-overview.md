@@ -29,9 +29,9 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
     internal-label: Metadata
-source-git-commit: 061e5919fddf0c892646d1f359052b35961359b4
+source-git-commit: f23589e5184ea27347a18084984c6c31939e4090
 workflow-type: tm+mt
-source-wordcount: '1066'
+source-wordcount: '1147'
 ht-degree: 1%
 ---
 # información general sobre el almacenamiento en nube Adobe
@@ -138,6 +138,12 @@ Para obtener información sobre cómo habilitar el almacenamiento en la nube de 
 ## Almacenamiento en la nube de Adobe en entornos de espacio aislado
 
 El almacenamiento en la nube de Adobe está disponible en [!DNL Workfront] entornos de espacio aislado, por lo que puede probarlo antes de habilitarlo en producción. Sin embargo, el visor Frame.io no está disponible en la zona protegida, por lo que la experiencia completa de revisión y aprobación unificadas debe validarse en la producción.
+
+>[!IMPORTANT]
+>
+>Cuando se actualiza una zona protegida desde la producción, no se copian en ella datos del almacenamiento en la nube de Adobe. Los proyectos de almacenamiento en la nube de Adobe, sus documentos y los datos asociados no se incluyen en la actualización. Este es el comportamiento esperado y el resultado de la arquitectura del almacenamiento en la nube de Adobe. Los proyectos y documentos de almacenamiento de Workfront heredados siguen copiándose en la zona protegida de la forma habitual.
+>
+>Para probar el almacenamiento en la nube de Adobe en una zona protegida, cree nuevos proyectos de almacenamiento en la nube de Adobe y cargue documentos directamente en ese entorno.
 
 Si tiene una zona protegida de actualización personalizada, debe actualizarla después de actualizar a una versión de Workfront que admita el almacenamiento en la nube de Adobe para acceder a la funcionalidad de almacenamiento en la nube de Adobe en la zona protegida. Para obtener más información, consulte [El [!DNL Adobe Workfront] entorno de espacio aislado de actualización personalizado](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/wf-custom-refresh-sandbox-environment.md).
 
