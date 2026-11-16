@@ -28,10 +28,10 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7eb2aeed3e711e36b1f735e75075a10291cd551a
+source-git-commit: 36a875994b811a2830b4bd2fa037748285c67bc2
 workflow-type: tm+mt
-source-wordcount: '2146'
-ht-degree: 5%
+source-wordcount: '2454'
+ht-degree: 4%
 ---
 # Configuración de automatizaciones de Planificación de Workfront de Adobe
 
@@ -237,9 +237,10 @@ Se abre la página de detalles de automatización.
    * **Acciones**: seleccione la acción que desea que realice Workfront al activar la automatización. Este campo es obligatorio.
      Seleccione una de las siguientes acciones:
 
-     * Crear varios proyectos
+     * Creación de un proyecto con un flujo de trabajo de AEM
      * Crear un proyecto único
-     * Crear proyecto
+     * Crear varios proyectos
+     * Creación de varios registros
      * Crear registro
      * Crear programa
      * Crear portafolio
@@ -250,6 +251,12 @@ Se abre la página de detalles de automatización.
      >Una vez guardada la automatización, ya no puede cambiar la acción seleccionada en este campo.
 
 1. (Condicional) Según la acción seleccionada, actualice los campos siguientes:
+
+   * **Crear un proyecto con un flujo de trabajo de AEM**:
+     * **Campo conectado donde se crea el proyecto**: este es el campo conectado donde se mostrará el nuevo proyecto. Este campo es obligatorio.
+     * **Plantilla de proyecto**: seleccione una plantilla de proyecto que Workfront usará para crear el proyecto.
+     * **Crear carpetas vinculadas**: Active esta opción si desea crear carpetas vinculadas para el proyecto.
+
 
    * **Crear un solo proyecto**: <!--replace to the left: Create a single project-->
      * **Campo conectado donde se crea el proyecto**: este es el campo conectado donde se mostrará el nuevo proyecto. Este campo es obligatorio.
@@ -284,9 +291,38 @@ Se abre la página de detalles de automatización.
 
        * **Campo del tipo de registro conectado donde se mostrará el registro actual**: Este es el campo conectado del tipo de registro seleccionado para la acción donde se mostrará el registro actual.
 
-       Por ejemplo, si está creando una automatización para que las campañas conecten registros de producto desde, este es el campo conectado del tipo de registro de producto desde donde se mostrarán las campañas, después de crear los productos con la automatización.
+         Por ejemplo, si está creando una automatización para que las campañas conecten registros de producto desde, este es el campo conectado del tipo de registro de producto desde donde se mostrarán las campañas, después de crear los productos con la automatización.
 
-       Este campo es obligatorio.
+         Este campo es obligatorio.
+
+       <!--submitted a change in functionality and UI text for this - revise??-->
+                                                                                 En el área **Asignar campos**, actualice la siguiente información:
+
+       * **Transferir de**: seleccione campos del tipo de registro para el que se creó la automatización para asignarlos a los campos del tipo de registro conectado.
+       * **Transferir a**: seleccione campos del registro recién creado que se rellenarán con información del registro desde el que está ejecutando la automatización.
+
+       >[!TIP]
+       >
+       >* Los tipos de campo del tipo de registro original deben coincidir con los tipos de campo del tipo de registro recién creado.
+       >* Si no elige ningún campo, los nombres de los registros nuevos serán **Registro sin título**.
+
+
+   * **Crear varios registros**:
+     * **Tipo de registro**: seleccione el tipo de registro que desea crear.
+
+       Se muestra la subsección **Configuración**. Actualice los campos siguientes en la subsección **Configuración**:
+
+       * **Campo del tipo de registro conectado donde se mostrará el registro actual**: Este es el campo conectado del tipo de registro seleccionado para la acción donde se mostrará el registro actual.
+
+         Por ejemplo, si está creando una automatización para que las campañas conecten registros de producto desde, este es el campo conectado del tipo de registro de producto desde donde se mostrarán las campañas, después de crear los productos con la automatización.
+
+         Este campo es obligatorio.
+
+       * **Campo cuyas opciones crearán nuevos registros:**
+
+         Este es el campo desde el que se crean los nuevos registros.
+
+         Por ejemplo, si un registro de planificación tiene un campo que representa tres regiones, como Reino Unido, UE y Estados Unidos, al seleccionar ese campo se crean tres registros nuevos, uno para cada opción.
 
        <!--submitted a change in functionality and UI text for this - revise??-->
                                                                                  En el área **Asignar campos**, actualice la siguiente información:
@@ -396,7 +432,7 @@ Los usuarios que forman parte del espacio de trabajo no obtienen permisos para l
 
 <!-- 
 original info sent in slack from Mikayel: 
-Update the [Workfront Planning automations documentation](https://experienceleague.adobe.com/es/docs/workfront/using/adobe-workfront-planning/adobe-workfront-planning-records/configure-automations-to-create-records) to explain the change from automatic sharing to explicit, owner-controlled sharing.
+Update the [Workfront Planning automations documentation](https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-planning/adobe-workfront-planning-records/configure-automations-to-create-records) to explain the change from automatic sharing to explicit, owner-controlled sharing.
 
 Feature overview
 
