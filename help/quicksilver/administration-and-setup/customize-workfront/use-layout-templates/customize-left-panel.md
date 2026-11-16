@@ -34,9 +34,9 @@ topic_v2:
     internal-label: Optimization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 1dc0bdb90242129fc2097f029440efbcbd04b62c
+source-git-commit: d8cde4790120ba508fc1745ff720964f00e45082
 workflow-type: tm+mt
-source-wordcount: '1262'
+source-wordcount: '1256'
 ht-degree: 43%
 ---
 # Personalizar el panel izquierdo con una plantilla de diseño
@@ -112,7 +112,7 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
      <tr> 
       <td>[!UICONTROL Project]</td> 
       <td>El nombre de un proyecto</td> 
-      <td>[!UICONTROL Tareas], [!UICONTROL Detalles del proyecto], [!UICONTROL Caso comercial], [!UICONTROL Actualizaciones], [!UICONTROL Documentos], [!UICONTROL Problemas], [!UICONTROL Riesgos], [!UICONTROL Aprobaciones], [!UICONTROL Líneas bases], [!UICONTROL Tasas de facturación], [!UICONTROL Recurso de facturación], [!UICONTROL Registros de facturación], [!UICONTROL Gastos], [!UICONTROL Horas], [!UICONTROL Distribuidor de cargas], [!UICONTROL People], [!UICONTROL Utilización], [!UICONTROL Detalles de cola], [!UICONTROL Reglas de enrutamiento], [!UICONTROL Tema de cola], [!UICONTROL Grupo de temas], [!UICONTROL Métricas], [!UICONTROL Planificación]*, [!UICONTROL Aplicación personalizada]**</td> 
+      <td>[!UICONTROL Tareas], [!UICONTROL Detalles del proyecto], [!UICONTROL Caso comercial], [!UICONTROL Actualizaciones], [!UICONTROL Documentos], [!UICONTROL Problemas], [!UICONTROL Riesgos], [!UICONTROL Aprobaciones], [!UICONTROL Líneas bases], [!UICONTROL Tasas de facturación], [!UICONTROL Recurso de facturación], [!UICONTROL Registros de facturación], [!UICONTROL Gastos], [!UICONTROL Horas], [!UICONTROL Distribuidor de cargas], [!UICONTROL [!UICONTROL People], [!UICONTROL Utilización], [!UICONTROL Detalles de cola], [!UICONTROL Reglas de enrutamiento], [!UICONTROL Tema de cola], [!UICONTROL Grupo de temas], [!UICONTROL Métricas], [!UICONTROL Planificación]*, [!UICONTROL Aplicación personalizada]**</td> 
      </tr> 
      <tr> 
       <td>[!UICONTROL Task]</td> 
@@ -158,12 +158,12 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
      </tr> 
      <tr> 
       <td>[!UICONTROL Projects]</td> 
-      <td>Proyectos en el menú principal de  <img src="assets/main-menu-icon-left-nav.png"></td> 
+      <td>Proyectos en el menú principal de [!UICONTROL] <img src="assets/main-menu-icon-left-nav.png"></td> 
       <td>[!UICONTROL Projects]</td> 
      </tr> 
      <tr> 
       <td>[!UICONTROL Recursos]</td> 
-      <td>[!UICONTROL Recursos] en el menú principal de  <img src="assets/main-menu-icon-left-nav.png"></td> 
+      <td>[!UICONTROL Recursos] en el menú principal de [!UICONTROL] <img src="assets/main-menu-icon-left-nav.png"></td> 
       <td>[!UICONTROL Planificador] (no se puede ocultar), [!UICONTROL Distribuidor de cargas de trabajo], [!UICONTROL Utilización], [!UICONTROL Conjuntos de recursos]</td> 
      </tr> 
      <tr> 
@@ -247,14 +247,12 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
    >* [!UICONTROL Listas]
    >* [!UICONTROL Panel de resumen]
    >* [!UICONTROL Inicio]
-   >* [!UICONTROL Marca]
    > 
    >Para obtener información sobre cómo personalizar estas áreas adicionales, consulte los siguientes artículos:
    >
    >* [Personalizar filtros, vistas y agrupaciones mediante una plantilla de diseño](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
    >* [Personalizar el [!UICONTROL panel de resumen] mediante una plantilla de diseño](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md)
    >* [Personalizar página de inicio mediante una plantilla de diseño](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-new-home-layout-template.md)
-   >* [Personalización de la marca Adobe  [!DNL Workfront]  usando una plantilla de diseño](../../../administration-and-setup/customize-workfront/use-layout-templates/brand-wf-using-a-layout-template.md)
 
 
 1. (Opcional) Si desea agregar un elemento del panel izquierdo que se vincule a uno de los paneles de su organización, haga clic en **[!UICONTROL Agregar panel]**, escriba el **[!UICONTROL nombre del vínculo rápido]** para el elemento y, a continuación, elija el panel.

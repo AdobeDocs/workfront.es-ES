@@ -31,10 +31,10 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: d8cde4790120ba508fc1745ff720964f00e45082
 workflow-type: tm+mt
-source-wordcount: '1532'
-ht-degree: 50%
+source-wordcount: '1523'
+ht-degree: 51%
 ---
 # 20.3 Otras mejoras
 
@@ -129,7 +129,7 @@ Ahora también hay un vínculo de Detalles del usuario que muestra la siguiente 
 
 Ahora puede utilizar una plantilla de diseño para cambiar los logotipos en el área de navegación superior y en el menú principal para grupos, equipos, funciones y usuarios específicos que tengan su propia marca.
 
-Para obtener más información, consulte [Crear una marca para su instancia de Adobe Workfront](../../../administration-and-setup/customize-workfront/brand-workfront/brand-your-workfront-instance.md).
+<!--For more information, see [Brand your Adobe Workfront instance](../../../administration-and-setup/customize-workfront/brand-workfront/brand-your-workfront-instance.md).-->
 
 ## Los administradores de grupo pueden crear y administrar procesos de aprobación
 
