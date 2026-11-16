@@ -18,9 +18,9 @@ subfeature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 0ec3841584258ef9e3b1434b921e54750814457a
+source-git-commit: 36a875994b811a2830b4bd2fa037748285c67bc2
 workflow-type: tm+mt
-source-wordcount: '1716'
+source-wordcount: '1856'
 ht-degree: 3%
 ---
 # Actividad de la versión del primer trimestre de 2027 para Adobe Workfront Planning
@@ -29,13 +29,27 @@ Este artículo describe las funciones que se lanzarán para Workfront Planning d
 
 Para obtener una lista de todas las características publicadas para Adobe Workfront Planning, consulte [Actividad de la versión de Adobe Workfront Planning: índice de artículo](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
 
-## Compartir una automatización de Planning
+## Nuevas plantillas de Workfront: cree un proyecto con el flujo de trabajo de AEM y cree varios registros
 
 >[!NOTE]
 >
 >Vista previa: 12 de noviembre de 2026
 >Versión rápida de producción: 12 de noviembre de 2026
 >Producción para todos: 12 de noviembre de 2026
+>[!BADGE Fuera del horario]{type=Neutral}
+
+Hay dos nuevas plantillas de automatización disponibles en Workfront Fusion.
+
+* **Crear proyecto con flujo de trabajo de AEM:** Crea un proyecto a partir de una plantilla de proyecto y, opcionalmente, crea las carpetas vinculadas de AEM que están configuradas para la plantilla de proyecto y las vincula al nuevo proyecto.
+* **Crear varios registros:** Crea uno o más registros en un tipo de registro, con un registro nuevo para cada opción en un campo de selección múltiple o conectado en el registro actual. Cada nuevo registro se vincula de nuevo al registro actual y se asignan los campos que se copian a los registros nuevos.
+
+Para obtener más información, consulte [Configuración de automatizaciones de Workfront Planning](/help/quicksilver/planning/records/configure-automations-to-create-records.md).
+
+## Compartir una automatización de Planning
+
+>[!NOTE]
+>
+>Esta función se ha eliminado temporalmente de todos los entornos y se habilitará en un momento futuro.
 >[!BADGE Fuera del horario]{type=Neutral}
 
 Las nuevas automatizaciones de Workfront Planning ahora están disponibles únicamente para su propietario de forma predeterminada, en lugar de compartirse automáticamente con todos los usuarios del espacio de trabajo. Los propietarios pueden elegir quién obtiene acceso compartiendo la automatización con otros. Puede otorgar a otros usuarios un nivel de acceso de **Administrar**, **Editar** o **Ejecutar**. Las automatizaciones existentes permanecen compartidas con los usuarios de su espacio de trabajo, por lo que el acceso actual no se ve afectado.

@@ -25,10 +25,10 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: d8cde4790120ba508fc1745ff720964f00e45082
 workflow-type: tm+mt
-source-wordcount: '204'
-ht-degree: 69%
+source-wordcount: '197'
+ht-degree: 68%
 ---
 # Plantillas de diseño: índice de artículos
 
@@ -40,7 +40,6 @@ Interfaz de Workfront para los usuarios.
 En los siguientes artículos se describe cómo personalizar la interfaz de Workfront mediante plantillas de diseño:
 
 * [Acerca del diseño predeterminado de Adobe Workfront](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/about-the-default-wf-layout.md)
-* [Personalización de marca en Adobe Workfront mediante una plantilla de diseño](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/brand-wf-using-a-layout-template.md)
 * [Personalizar el menú principal mediante una plantilla de diseño](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md)
 * [Personalización de los encabezados de los objetos mediante una plantilla de diseño](../../customize-workfront/use-layout-templates/customize-object-headers.md)
 * [Personalizar el panel izquierdo con una plantilla de diseño](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md)

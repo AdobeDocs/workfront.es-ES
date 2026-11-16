@@ -28,9 +28,9 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 3e9220d91f998644cd5b2a7e1ec83cdd903119af
+source-git-commit: d8cde4790120ba508fc1745ff720964f00e45082
 workflow-type: tm+mt
-source-wordcount: '1634'
+source-wordcount: '1582'
 ht-degree: 25%
 ---
 # Información general sobre la entrega de informes
@@ -175,13 +175,15 @@ La marca de tiempo incluye:
 * Hora
 * Zona horaria cuando se envió el informe
 
-### Personalización de marca {#branding}
+<!--
+### Branding {#branding}
 
-Si el administrador de Workfront ha añadido una personalización de la marca a la instancia de Workfront, los informes enviados en formato .pdf también incluyen el logotipo personalizado.
+If your Workfront administrator has added customized branding to your Workfront instance, the reports sent in .pdf format also include your personalized logo.
 
-Los informes enviados en todos los demás formatos no se pueden personalizar con su logotipo.
+Reports sent in all other formats cannot be personalized with your logo.
 
-Para obtener más información sobre cómo personalizar la marca de la instancia de Workfront, consulte el artículo [Crear una marca para la instancia de Adobe Workfront](../../../administration-and-setup/customize-workfront/brand-workfront/brand-your-workfront-instance.md).
+For more information about branding your Workfront instance, see the article [Brand your Adobe Workfront instance](../../../administration-and-setup/customize-workfront/brand-workfront/brand-your-workfront-instance.md).
+-->
 
 ### Formato {#formatting}
 

@@ -25,9 +25,9 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: d8cde4790120ba508fc1745ff720964f00e45082
 workflow-type: tm+mt
-source-wordcount: '460'
+source-wordcount: '431'
 ht-degree: 98%
 ---
 # Imprimir un panel de control
@@ -95,7 +95,7 @@ En el archivo del panel de control impreso o exportado se incluye la siguiente i
 * Títulos del informe
 * Marca de tiempo del último momento en el que se generó el informe
 * Todos los objetos del panel de control, incluidas las vistas de lista, las páginas web externas, los informes y los calendarios
-* El logotipo de su empresa, si su administrador de Workfront lo ha personalizado en la barra de navegación global. Para obtener más información sobre cómo personalizar la marca del sitio de Workfront, consulte [Marcar instancia de Adobe Workfront](../../../administration-and-setup/customize-workfront/brand-workfront/brand-your-workfront-instance.md).
+  <!--* Your company's logo, if your Workfront administrator has customized it in your Global Navigation Bar. For more information about branding the Workfront site, see [Brand your Adobe Workfront instance](../../../administration-and-setup/customize-workfront/brand-workfront/brand-your-workfront-instance.md). NOTE FROM LISA: Branding is no longer available and the article this links to was deprecated.-->
 
 ### ¿Qué no se muestra? {#what-is-not-displayed}
 
