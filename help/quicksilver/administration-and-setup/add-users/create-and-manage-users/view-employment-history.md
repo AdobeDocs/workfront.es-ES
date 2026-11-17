@@ -7,9 +7,9 @@ description: Puede consultar el historial laboral de un usuario, incluidos los c
 author: Becky
 feature: System Setup and Administration
 role: Admin
-source-git-commit: 6a2e4dc7e4592c3930723fb42cec92c439332074
+source-git-commit: aa83e1036d82d5db7a0e22a40fdb8472ff329143
 workflow-type: tm+mt
-source-wordcount: '498'
+source-wordcount: '511'
 ht-degree: 0%
 ---
 # Ver historial laboral del usuario
@@ -37,6 +37,10 @@ Karen Sterling es directora ejecutiva desde que fue contratada el 3 de marzo de 
 ## Ver historial laboral
 
 Puede ver el historial laboral desde la lista Usuarios o puede ver el historial total de un solo usuario en su página Usuario.
+
+>[!NOTE]
+>
+>En este momento, el historial laboral del usuario no tiene en cuenta la fecha de inicio de un usuario.
 
 ### Ver el historial laboral desde la lista Usuarios
 
