@@ -1,8 +1,8 @@
 ---
-source-git-commit: f366d51780b787e0f37412d558b210897d764e5e
+source-git-commit: 5140045592af9e4ec618671e172b5986ec5a0ff7
 workflow-type: tm+mt
-source-wordcount: '2437'
-ht-degree: 22%
+source-wordcount: '2461'
+ht-degree: 21%
 ---
 # Fragmentos
 
@@ -233,6 +233,12 @@ Debe instalar el complemento correcto para la aplicación de Adobe Creative Clou
 * Illustrator
 * Premiere Pro
 * After Effects
+
+## Solo almacenamiento heredado del complemento CC {#cc-plugin-legacy-only}
+
+>[!IMPORTANT]
+>
+>El complemento [!DNL Adobe Workfront] para [!DNL Creative Cloud] solo funciona con proyectos en almacenamiento de Workfront heredado. No admite proyectos en el almacenamiento en la nube de Adobe.
 
 ## Ajuste de la configuración de prueba automatizada {#adjust-proof-settings}
 
