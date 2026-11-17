@@ -30,7 +30,7 @@ role_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: b2e4857478a0604bc83ef570c4e47576e2369907
 workflow-type: tm+mt
 source-wordcount: '162'
 ht-degree: 90%
@@ -38,6 +38,8 @@ ht-degree: 90%
 # Complemento de [!DNL Adobe Workfront] para aplicaciones de [!DNL Creative Cloud]
 
 <!--Audited: 12/2023-->
+
+{{cc-plugin-legacy-only}}
 
 Puede usar el complemento de [!DNL Adobe Workfront] para [!DNL Creative Cloud] para
 
@@ -47,7 +49,7 @@ Puede usar el complemento de [!DNL Adobe Workfront] para [!DNL Creative Cloud] p
 * Ver proyectos y tareas
 * y más
 
-[Ver un vídeo de información general sobre la funcionalidad disponible en el complemento de  [!DNL Adobe Workfront] para [!DNL Creative Cloud] &#x200B;](https://video.tv.adobe.com/v/3418801/){target=_blank}.
+[Ver un vídeo de información general sobre la funcionalidad disponible en el complemento de  [!DNL Adobe Workfront] para [!DNL Creative Cloud] ](https://video.tv.adobe.com/v/3418801/){target=_blank}.
 
 ## Instalación y uso del complemento
 
@@ -57,9 +59,9 @@ El complemento [!DNL Adobe Workfront] para [!DNL Creative Cloud] está disponibl
 
 Para obtener información sobre cómo utilizar e instalar el complemento, consulte los siguientes recursos:
 
-* [Instalar el complemento de  [!DNL Adobe Workfront] para aplicaciones de  [!DNL Creative Cloud] &#x200B;](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-toc.md)
-* [Administrar el trabajo con el complemento  [!DNL Adobe Workfront] para aplicaciones de  [!DNL Creative Cloud] &#x200B;](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-manage-work-toc.md)
-* [Cargar documentos y pruebas con el complemento  [!DNL Adobe Workfront] para aplicaciones de  [!DNL Creative Cloud] &#x200B;](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-docs-proofs-toc.md)
+* [Instalar el complemento de  [!DNL Adobe Workfront] para aplicaciones de  [!DNL Creative Cloud] ](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-toc.md)
+* [Administrar el trabajo con el complemento  [!DNL Adobe Workfront] para aplicaciones de  [!DNL Creative Cloud] ](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-manage-work-toc.md)
+* [Cargar documentos y pruebas con el complemento  [!DNL Adobe Workfront] para aplicaciones de  [!DNL Creative Cloud] ](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-docs-proofs-toc.md)
 * [Tutorial de vídeo: Usar  [!DNL Adobe Workfront] complementos para [!DNL Creative Cloud]](https://experienceleague.adobe.com/es/docs/workfront-learn/tutorials-workfront/integrations/adobe-creative-cloud/use-adobe-workfront-extensions-for-creative-cloud)
 * [Tutorial de vídeo: Creación y administración de paquetes, implementación de actualizaciones y solución de problemas de errores de instalación](https://www.youtube.com/watch?v=zzvXNLIBzrc)
 
