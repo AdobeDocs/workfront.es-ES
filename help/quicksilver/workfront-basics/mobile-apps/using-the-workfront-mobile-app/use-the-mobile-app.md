@@ -17,9 +17,9 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: a59c8515addb7c665be4021d0906021c86bb1ee9
+source-git-commit: cc5be188176b9ed605d057b2ab06adbdb3706a41
 workflow-type: tm+mt
-source-wordcount: '278'
+source-wordcount: '277'
 ht-degree: 98%
 ---
 # Uso de la aplicación móvil de [!DNL Adobe Workfront]: índice del artículo
@@ -71,5 +71,4 @@ Para obtener más información sobre la aplicación móvil de [!DNL Adobe Workfr
 * [Uso compartido y descarga de pruebas en la aplicación móvil de [!DNL Adobe Workfront] &#x200B;](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/share-proofs-mobile.md)
 * [Aprobaciones en la aplicación móvil de  [!DNL Adobe Workfront] &#x200B;](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/approvals-in-mobile-app.md)
 * [[!DNL Adobe Workfront] para [!DNL Mobile Device Management] (MDM)](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/wf-mdm.md)
-* [Configuración de [!DNL Adobe Workfront] para [!DNL MobileIron]](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/wf-mobileiron-configs.md)
 
