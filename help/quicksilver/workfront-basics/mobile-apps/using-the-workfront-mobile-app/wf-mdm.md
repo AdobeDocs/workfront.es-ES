@@ -20,25 +20,27 @@ role_v2:
 topic_v2:
   - id: c18d9e03-ac7d-4811-9c92-3e92ddc70ade
     internal-label: Mobile experience
-source-git-commit: a59c8515addb7c665be4021d0906021c86bb1ee9
+source-git-commit: cc5be188176b9ed605d057b2ab06adbdb3706a41
 workflow-type: tm+mt
-source-wordcount: '119'
-ht-degree: 52%
+source-wordcount: '95'
+ht-degree: 24%
 ---
 # [!DNL Adobe Workfront] para [!DNL Mobile Device Management] (MDM)
 
 {{mobile-maintenance-mode}}
 
-Adobe [!DNL Workfront] se ha asociado con algunas plataformas [!DNL Mobile Device Management] (MDM) para proporcionar a las organizaciones una experiencia móvil más segura y controlada. La aplicación móvil [!DNL Workfront] está disponible en las siguientes plataformas de administración de dispositivos móviles:
+Adobe [!DNL Workfront] se ha asociado con las plataformas [!DNL Mobile Device Management] (MDM) para proporcionar a las organizaciones una experiencia móvil más segura y controlada. La aplicación móvil [!DNL Workfront] está disponible en las siguientes plataformas de administración de dispositivos móviles:
 
+<!--
 ## MobileIron
 
-Consulte la documentación de ayuda de [!DNL MobileIron] para instalar la aplicación móvil [!DNL Workfront] desde su plataforma:
+See [!DNL MobileIron]'s help documentation to install the [!DNL Workfront] mobile app from their platform:
 
 * iOS
 * Android
 
-Para obtener información sobre la configuración de [!DNL Workfront] para [!DNL MobileIron], consulte [Configurar  [!DNL Adobe Workfront]  para  [!DNL MobileIron]](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/wf-mobileiron-configs.md).
+For information on configuring [!DNL Workfront] for [!DNL MobileIron], see [Configure [!DNL Adobe Workfront] for [!DNL MobileIron]](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/wf-mobileiron-configs.md).
+-->
 
 ## Intune
 
@@ -48,5 +50,3 @@ La aplicación móvil de Workfront ya está disponible en la tienda de aplicacio
 * Android
 
 La instancia de Workfront debe estar en Adobe Identity Management System (IMS).
-
-<!--remove this note October 2026-->
