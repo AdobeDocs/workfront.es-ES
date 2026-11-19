@@ -32,13 +32,11 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acbb78db2ce8c6c57fa10fe99f533d7dd7feea1b
+source-git-commit: 95af5acdd910c0cbafd019dfe9f5397331d7370b
 workflow-type: tm+mt
-source-wordcount: 1429
-ht-degree: 81%
-
+source-wordcount: '1466'
+ht-degree: 79%
 ---
-
 # Administrar información en el área Información general del proyecto
 
 {{highlighted-preview}}
@@ -183,7 +181,8 @@ Old:
      </tr> 
      <tr> 
       <td role="rowheader">Programa</td> 
-      <td>El programa asociado al portafolio del proyecto. Debe crear el programa para poder añadirlo a un proyecto. </td> 
+      <td></p>El programa asociado con el portafolio del proyecto. Debe crear el programa para poder añadirlo a un proyecto.</p>
+      <p> Cuando un portafolio tiene más de 20 programas activos, el campo Programa de la Información general de un proyecto muestra solo los 20 primeros programas en orden alfabético. Al escribir parte de un nombre, se encuentra cualquier programa activo del portafolio. </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Grupo</td> 

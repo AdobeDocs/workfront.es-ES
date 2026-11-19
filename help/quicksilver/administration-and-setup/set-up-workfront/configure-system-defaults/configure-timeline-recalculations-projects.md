@@ -23,10 +23,10 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 95af5acdd910c0cbafd019dfe9f5397331d7370b
 workflow-type: tm+mt
-source-wordcount: '456'
-ht-degree: 91%
+source-wordcount: '487'
+ht-degree: 85%
 ---
 # Configurar el recálculo de cronología para proyectos
 
@@ -67,6 +67,11 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
 ## Configurar recálculos automáticos
 
 Como administrador de [!DNL Adobe Workfront], puede configurar cuándo [!DNL Workfront] recalcula automáticamente las cronologías del proyecto. [!DNL Workfront] puede recalcular las cronologías del proyecto cada noche o cuando cambie el ámbito del proyecto, o ambas.
+
+>[!NOTE]
+>
+>Para garantizar un rendimiento óptimo, las escalas de tiempo no se recalculan automáticamente en proyectos con tareas que tengan una duración de más de 1000 días. Debe recalcular manualmente las escalas de tiempo en estos proyectos.
+
 
 {{step-1-to-setup}}
 
