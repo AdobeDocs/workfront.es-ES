@@ -77,7 +77,7 @@ Tenga en cuenta lo siguiente:
 
 * Debe tener permisos de editor en un espacio de ideación para crear o contribuir a informes y exportarlos a otras aplicaciones.
 
-* 
+* &#x200B;
   * Compartir solo controla quién puede acceder al lienzo de ideación y colaborar en él. Las actualizaciones de registros solo se producen cuando alguien exporta la información a Workfront Planning.
 
 ## Requisitos de acceso
