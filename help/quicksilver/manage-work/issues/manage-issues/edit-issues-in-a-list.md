@@ -32,13 +32,11 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+source-git-commit: 769a19f560ba582ef696eb48c144baf41b373c5f
 workflow-type: tm+mt
-source-wordcount: 909
+source-wordcount: '910'
 ht-degree: 18%
-
 ---
-
 # Editar problemas en una lista
 
 <!--Audited: 10/2025-->
@@ -132,8 +130,8 @@ Tenga en cuenta lo siguiente al editar problemas en una lista:
 * Puede editar cualquier campo de problema que se muestre en la lista y que tenga permisos para actualizar.
 * Puede editar un problema en las siguientes listas:
 
-   * La sección Problemas de un proyecto o de una tarea
-   * Un informe de problemas
+  * La sección Problemas de un proyecto o de una tarea
+  * Un informe de problemas
 
 Para editar en línea un problema:
 
@@ -181,9 +179,22 @@ Puede editar un problema de una lista mediante el Panel de resumen.
    | Horas ![Registrar tiempo](assets/log-time-icon-in-summary.png) | Haga clic para registrar horas. |
    | Icono de aprobaciones ![Approvals](assets/approvals-icon-in-summary.png) | Haga clic en para añadir aprobaciones de problema. |
 
-   * Si su organización utiliza el almacenamiento en la nube de Adobe para documentos, no puede agregar documentos a los problemas de almacenamiento en la nube de Adobe en el Panel de resumen.
+<!--
+uncomment for prod
 
-   Para obtener más información, vea [Información general sobre la administración de documentos de proyectos y objetos relacionados](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
+   | Icon  |Action |
+   |---|---|
+   | Updates ![Updates icon](assets/updates.png) |Click **New comment** to add an update to the issue. |
+   | Documents* ![Documents icon](assets/documents.png) |Click **Click here to add** to add documents to the issue. |
+   | Details ![Details icon](assets/details.png) |Click to update information about the issue. |
+   | Hours ![Log time](assets/log-time.png)  |Click to log hours. |
+   | Approvals ![Approvals icon](assets/approvals.png)  |Click to add issue approvals.  |
+
+-->
+
+* Si su organización utiliza el almacenamiento en la nube de Adobe para documentos, no puede agregar documentos a los problemas de almacenamiento en la nube de Adobe en el Panel de resumen.
+
+Para obtener más información, vea [Información general sobre la administración de documentos de proyectos y objetos relacionados](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
 
 
 1. (Opcional) Vuelva a hacer clic en el icono **Abrir resumen** o en el icono **X** en la parte superior derecha del resumen para cerrar el panel y editar el problema en línea.

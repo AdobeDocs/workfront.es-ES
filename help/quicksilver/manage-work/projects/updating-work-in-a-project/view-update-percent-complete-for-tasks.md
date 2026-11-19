@@ -30,14 +30,14 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 900be426cec2556c4c035124fc1c3bd094896340
 workflow-type: tm+mt
-source-wordcount: 692
+source-wordcount: '700'
 ht-degree: 45%
-
 ---
-
 # Ver y actualizar el porcentaje completado de las tareas
+
+{{highlighted-preview}}
 
 <!--Audited: 05/2025-->
 
@@ -130,11 +130,15 @@ Puede actualizar el porcentaje completado de una tarea en cualquiera de las sigu
 
 * **En el panel de resumen de una tarea**: puede actualizar el porcentaje completado de una tarea en la parte superior del panel Resumen al ver la tarea en las siguientes áreas:
 
-   * Lista de tareas o informes
-   * Plantilla de horas
-   * Distribuidor de cargas de trabajo
+  * Lista de tareas o informes
+  * Plantilla de horas
+  * Distribuidor de cargas de trabajo
 
   ![Porcentaje de actualización resaltado en el resumen de la tarea](assets/update-percent-complete-in-task-summary-highlighted.png)
+
+  <span class="preview">En vista previa:
+  ![Porcentaje de actualización en la tarea Resumen resaltado](assets/percent-complete-summary.png)
+  </span>
 
   Para obtener más información, consulte [Información general sobre el resumen](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md)
 
@@ -147,8 +151,8 @@ Puede actualizar el porcentaje completado de una tarea en cualquiera de las sigu
 * Cuando marca una tarea como 100% completada, el estado de la tarea se actualiza a Completada. El estado de un problema se actualiza a Cerrado.
 * Al completar una tarea, también se actualiza el porcentaje completado del elemento principal y del proyecto.
 * Los siguientes escenarios existen para tareas y proyectos principales:
-   * No se puede actualizar el porcentaje completado de una tarea principal al 100 % cuando el modo de finalización de resumen del proyecto se haya establecido en Automático y las subtareas no se hayan completado.
-   * Puede actualizar el porcentaje completado de una tarea principal o de un proyecto al 100% cuando el modo de finalización de resumen del proyecto esté establecido en Manual y las subtareas estén completadas o incompletas.
+  * No se puede actualizar el porcentaje completado de una tarea principal al 100 % cuando el modo de finalización de resumen del proyecto se haya establecido en Automático y las subtareas no se hayan completado.
+  * Puede actualizar el porcentaje completado de una tarea principal o de un proyecto al 100% cuando el modo de finalización de resumen del proyecto esté establecido en Manual y las subtareas estén completadas o incompletas.
 
   Para obtener más información, consulte [Editar proyectos](../manage-projects/edit-projects.md).
 

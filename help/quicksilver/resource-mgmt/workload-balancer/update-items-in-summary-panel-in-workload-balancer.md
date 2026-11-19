@@ -24,10 +24,10 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 02a97fd6bb32c285e1bef5d614ea4ca713c83a40
+source-git-commit: 3dea3d85473b359d2178921ba019038df04c3005
 workflow-type: tm+mt
-source-wordcount: '423'
-ht-degree: 51%
+source-wordcount: '427'
+ht-degree: 50%
 ---
 # Actualizar los elementos de trabajo en el distribuidor de cargas de trabajo mediante el resumen
 
@@ -99,6 +99,10 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
    Se abre a la derecha el panel Resumen.
 
    ![Panel de resumen](assets/summary-panel-task-wb-new-comments.png)
+
+   <span class="preview">En vista previa:
+   ![Panel de resumen](assets/summary-panel.png)
+   </span>
 
 1. Modifique una serie de campos para el elemento de trabajo, introduzca una actualización o navegue desde aquí a otras áreas de Workfront para agregar documentos u otra información al elemento de trabajo.
 

@@ -17,20 +17,14 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 900be426cec2556c4c035124fc1c3bd094896340
 workflow-type: tm+mt
-source-wordcount: '915'
-ht-degree: 83%
+source-wordcount: '947'
+ht-degree: 70%
 ---
 # Información general sobre el [!UICONTROL resumen]
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers or in Production for customers who enabled fast releases. </span>
-
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
-
-<span class="preview">For information about the current release schedule, see [Second Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
--->
+{{highlighted-preview}}
 
 Puede usar el panel [!UICONTROL Resumen] para revisar y actualizar la información del elemento de trabajo directamente desde una lista de tareas, problemas, documentos o desde otras áreas de [!DNL Adobe Workfront] que muestran tareas y problemas.
 
@@ -119,19 +113,15 @@ Para obtener información sobre cómo acceder al [!UICONTROL Resumen] para docum
 ## Ver el panel [!UICONTROL Resumen] en una lista de tareas o problemas
 
 1. Vaya a una tarea o problema y seleccione un elemento de la lista.
-1. Haga clic en el icono **[!UICONTROL Resumen]** ![Resumen en la nueva barra de herramientas](assets/qs-summary-in-new-toolbar-small.png)
-
-   o
-
-   Haga clic en el icono **[!UICONTROL Abrir resumen]** ![Abrir resumen con texto](assets/open-summary-with-text-nwe.png) en la sección [!UICONTROL Enviados] del área [!UICONTROL Solicitudes].
-
-   Después de abrir el Resumen, permanece abierto a medida que hace clic en otras tareas o problemas o los selecciona y permanece abierto hasta que lo cierra manualmente.
+1. Haga clic en el icono **[!UICONTROL Abrir resumen]** ![Resumen en la nueva barra de herramientas](assets/qs-summary-in-new-toolbar-small.png). Después de abrir el Resumen, permanece abierto a medida que hace clic en otras tareas o problemas o los selecciona y permanece abierto hasta que lo cierra manualmente.
 
    >[!TIP]
    >
    >Solo puede seleccionar una tarea o un problema a la vez para ver sus detalles en el panel [!UICONTROL Resumen].
 
    ![Panel de resumen](assets/summary-panel-for-task-new-comments.png)
+
+   <!--![Summary panel](assets/summary-panel.png)-->
 
 1. (Opcional) Para cerrar el panel [!UICONTROL Resumen], siga uno de estos procedimientos:
 
@@ -155,37 +145,58 @@ Cuando arrastra y suelta la burbuja en el panel Resumen, el porcentaje completad
 
 ![Porcentaje completado en el panel de resumen](assets/summary-overview-percent-complete.png)
 
+<span class="preview">En vista previa:
+![Porcentaje completado en el panel de resumen](assets/percent-complete.png)
+</span>
+
 ## [!UICONTROL Actualizaciones]
 
-Utilice la sección [!UICONTROL Actualizaciones] del [!UICONTROL Resumen] para ver las actualizaciones recientes y hacer actualizaciones sobre la tarea o problema que haya seleccionado. Haga clic en **[!UICONTROL Ver todo]** para ir directamente a la pestaña [!UICONTROL Actualizaciones] de la tarea.
+Use la ficha [!UICONTROL Actualizaciones] de [!UICONTROL Resumen] para ver las actualizaciones recientes y realizar actualizaciones sobre la tarea o el problema que seleccionó. Haga clic en **[!UICONTROL Ver todo]** para ir directamente a la pestaña [!UICONTROL Actualizaciones] de la tarea.
 
 ![Actualiza la sección en el panel de resumen](assets/summary-updates-section.png)
 
+<span class="preview">En vista previa:
+![Actualiza la sección en el Panel de resumen](assets/updates.png)
+</span>
+
 ## [!UICONTROL Documentos]
 
-Use la sección [!UICONTROL Documentos] del [!UICONTROL Resumen] para ver los documentos adjuntos a la tarea o al problema que seleccionó. Haga clic en la miniatura para abrir una vista previa del documento. Para ir directamente a la ficha [!UICONTROL Documentos] en la tarea o problema, haga clic en el título **[!UICONTROL Documentos]**.
+Use la ficha [!UICONTROL Documentos] de [!UICONTROL Resumen] para ver los documentos adjuntos a la tarea o al problema que seleccionó. Haga clic en la miniatura para abrir una vista previa del documento. Para ir directamente a la ficha [!UICONTROL Documentos] en la tarea o problema, haga clic en el título **[!UICONTROL Documentos]**.
 
 ![Sección de documentos en el panel de resumen](assets/summary-documents-section.png)
 
+<span class="preview">En vista previa:
+![Sección Documentos en el Panel de resumen](assets/documents.png)
+</span>
+
+
 ## [!UICONTROL Detalles]
 
-Utilice la sección [!UICONTROL Detalles] del [!UICONTROL Resumen] para ver los detalles de alto nivel del elemento de trabajo, realizar asignaciones o añadir fechas de inicio. Haga clic en **[!UICONTROL Ver todo]** para ir directamente a la ficha [!UICONTROL Detalles] de la tarea o problema.
-
-
+Use la ficha [!UICONTROL Detalles] de [!UICONTROL Resumen] para ver detalles de elementos de trabajo de alto nivel, realizar asignaciones o agregar fechas de inicio. Haga clic en **[!UICONTROL Ver todo]** para ir directamente a la ficha [!UICONTROL Detalles] de la tarea o problema.
 
 ![Sección de detalles en el panel de resumen](assets/summary-details-section.png)
 
+<span class="preview">En vista previa:
+![Sección Detalles en el panel Resumen](assets/details.png)
+</span>
+
 ## [!UICONTROL Subtareas]
 
-Esta sección solo está disponible para las tareas. Use la sección [!UICONTROL Subtareas] del [!UICONTROL Resumen] para ver las subtareas [!UICONTROL Nuevas], [!UICONTROL En curso] y [!UICONTROL Cerradas] de la tarea que haya seleccionado. Haga clic en el menú desplegable **[!UICONTROL Estado]** para cambiar de estado. Para ir directamente a la pestaña [!UICONTROL Subtareas] en la tarea, haga clic en el título **[!UICONTROL Subtareas]**.
+Esta sección solo está disponible para las tareas. Use la ficha [!UICONTROL Subtareas] de [!UICONTROL Resumen] para ver las subtareas [!UICONTROL Nuevas], [!UICONTROL En curso] y [!UICONTROL Cerradas] de la tarea seleccionada. Haga clic en el menú desplegable **[!UICONTROL Estado]** para cambiar de estado. Para ir directamente a la pestaña [!UICONTROL Subtareas] en la tarea, haga clic en el título **[!UICONTROL Subtareas]**.
 
 Si no ha añadido ninguna subtarea a la tarea, haga clic en **[!UICONTROL Añadir una aquí]** para ir directamente a la ficha [!UICONTROL Subtareas] de la tarea.
 
 ![Sección de subtareas en el panel de resumen](assets/summary-subtasks-section.png)
 
+<span class="preview">En vista previa:
+
+![Sección de subtareas en el panel de resumen](assets/subtask.png)
+
+</span>
+
 ## [!UICONTROL Horas]
 
-Utilice la sección [!UICONTROL Horas] del [!UICONTROL Resumen] para registrar horas en la tarea o el problema que haya seleccionado. Haga clic en **[!UICONTROL Registrar hora]** e introduzca sus horas. Para ir directamente a la ficha Horas en la tarea o problema, haga clic en el título **[!UICONTROL Horas]**.
+Use la ficha [!UICONTROL Horas] de [!UICONTROL Resumen] para registrar horas en la tarea o el problema que seleccionó. Haga clic en **[!UICONTROL Registrar hora]** e introduzca sus horas. Para ir directamente a la ficha Horas en la tarea o problema, haga clic en el título **[!UICONTROL Horas]**.
 
 El recuento de horas en el [!UICONTROL Resumen] muestra las horas que registra. Otros usuarios tendrán diferentes recuentos totales de horas en el [!UICONTROL Resumen], según la hora a la que inicien sesión en la tarea.
 
@@ -193,10 +204,20 @@ Si no hay [!UICONTROL horas] planificadas en la tarea o problema y ha registrado
 
 ![Sección de horas en el panel de resumen](assets/summary-hours-section.png)
 
+<span class="preview">En vista previa:
+
+![Sección de horas en el panel de resumen](assets/hours.png)
+
+</span>
+
 ## Aprobaciones
 
-Utilice la sección [!UICONTROL Aprobaciones] del [!UICONTROL Resumen] para ver las aprobaciones adjuntas a la tarea o problema que haya seleccionado. Si no ha añadido ninguna aprobación, seleccione una aprobación existente en el menú desplegable o haga clic en **[!UICONTROL Crear proceso de aprobación de un solo uso]** para ir directamente a la pestaña [!UICONTROL Aprobaciones] en la tarea o problema.
+Use la pestaña [!UICONTROL Aprobaciones] de [!UICONTROL Resumen] para ver las aprobaciones adjuntas a la tarea o al problema que seleccionó. Si no ha añadido ninguna aprobación, seleccione una aprobación existente en el menú desplegable o haga clic en **[!UICONTROL Crear proceso de aprobación de un solo uso]** para ir directamente a la pestaña [!UICONTROL Aprobaciones] en la tarea o problema.
 
 Para ir directamente a la pestaña [!UICONTROL Aprobaciones] en la tarea o problema, haga clic en el título **[!UICONTROL Aprobaciones]**.
 
 ![Sección de aprobaciones en el panel de resumen](assets/summary-approvals-section.png)
+
+<span class="preview">En vista previa:
+![Sección de aprobaciones en el panel de resumen](assets/approval.png)
+</span>
