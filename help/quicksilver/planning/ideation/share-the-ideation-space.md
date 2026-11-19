@@ -19,9 +19,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 82ebe4df89bd9db39629b36c31c0ae2a4e133838
+source-git-commit: 4beee4cb9c4d0f3f2ef037621d508868229ba25e
 workflow-type: tm+mt
-source-wordcount: '675'
+source-wordcount: '700'
 ht-degree: 5%
 ---
 
@@ -76,6 +76,9 @@ Tenga en cuenta lo siguiente:
 * Los creadores de ideaciones siempre tienen permisos de edición en sus propias ideaciones.
 
 * Debe tener permisos de editor en un espacio de ideación para crear o contribuir a informes y exportarlos a otras aplicaciones.
+
+* &#x200B;
+  * Compartir solo controla quién puede acceder al lienzo de ideación y colaborar en él. Las actualizaciones de registros solo se producen cuando alguien exporta la información a Workfront Planning.
 
 ## Requisitos de acceso
 

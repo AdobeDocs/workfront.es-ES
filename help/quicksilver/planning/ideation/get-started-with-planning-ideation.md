@@ -19,10 +19,10 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 8a97de33f637a5367cfdfbe5eb1cbd5512021856
+source-git-commit: 4beee4cb9c4d0f3f2ef037621d508868229ba25e
 workflow-type: tm+mt
-source-wordcount: '1442'
-ht-degree: 0%
+source-wordcount: '1540'
+ht-degree: 1%
 ---
 
 # Introducción al espacio de ideación para Adobe Workfront Planning
@@ -174,7 +174,16 @@ Para obtener acceso al espacio de ideación:
 
 ## Busque el espacio de ideación
 
-Una vez que se haya asegurado de tener acceso a los productos, paquetes, sistema y nivel de acceso adecuados configurados, podrá localizar el espacio de ideación en las siguientes áreas de Workfront:
+Una vez que se haya asegurado de tener acceso a los productos, paquetes y al sistema adecuados y a los niveles de acceso configurados, podrá localizar el espacio de ideación en varias áreas de Workfront y Workfront Planning.
+
+>[!TIP]
+>
+>No se puede quitar el área del espacio de ideación del menú Principal mediante una plantilla de diseño.
+>
+>Para obtener más información sobre cómo bloquear el acceso de un usuario al espacio de ideación, consulte [Acceso necesario para utilizar el espacio de ideación](/help/quicksilver/planning/ideation/access-needed-to-use-ideation-space.md).
+>
+
+Acceda al espacio de ideación en las siguientes áreas de Workfront:
 
 * En el menú principal de Workfront, abra el área Espacio de ideación
 
@@ -188,11 +197,16 @@ Una vez que se haya asegurado de tener acceso a los productos, paquetes, sistema
 
   ![Espacio de ideación en la página de detalles del registro](assets/ideation-space-button-in-details-page.png)
 
+>[!IMPORTANT]
+>
+>El punto desde el que se inicia el espacio de ideación determina la estructura breve. Se dan los siguientes escenarios:
+>
+>* Cuando se inicia desde el botón Nuevo registro en Planning, el informe contiene los mismos campos que el tipo de registro con el que se comienza.
+>
+>* Cuando se inicia desde un registro existente de Planning, el informe contiene los mismos campos con los mismos valores que el registro.
+>
+>* Al iniciarlo desde el menú principal de Workfront, la información breve contiene campos e información de los archivos que se cargan en el lienzo.
 
->[!TIP]
->
->No se puede quitar el área del espacio de ideación del menú Principal mediante una plantilla de diseño. Para obtener más información sobre cómo bloquear el acceso de un usuario al espacio de ideación, consulte [Acceso necesario para utilizar el espacio de ideación](/help/quicksilver/planning/ideation/access-needed-to-use-ideation-space.md).
->
 
 ## Espacio de ideación y Adobe CX Enterprise Coworker
 

@@ -18,9 +18,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 58aec1c9c7dc45c5ecb6ad5d070a4e34b29c458c
+source-git-commit: 95af5acdd910c0cbafd019dfe9f5397331d7370b
 workflow-type: tm+mt
-source-wordcount: '2125'
+source-wordcount: '2224'
 ht-degree: 2%
 ---
 
@@ -189,6 +189,16 @@ Puede crear informes para crear o editar registros de Planning o para crear arch
 
      ![Detalles del espacio de ideación en el registro](assets/ideation-space-button-in-details-page.png)
 
+     >[!IMPORTANT]
+     >
+     >El punto desde el que se inicia el espacio de ideación determina la estructura breve. Se dan los siguientes escenarios:
+     >
+     >* Cuando se inicia desde el botón Nuevo registro en Planning, el informe contiene los mismos campos que el tipo de registro con el que se comienza.
+     >
+     >* Cuando se inicia desde un registro existente de Planning, el informe contiene los mismos campos con los mismos valores que el registro.
+     >
+     >* Al iniciarlo desde el menú principal de Workfront, la información breve contiene campos e información de los archivos que se cargan en el lienzo.
+
 1. Lea el contrato de versión beta y haga clic en **Aceptar**. Debe firmar el acuerdo para utilizar el espacio de ideación.
 
    El lienzo Espacio de ideación se abre y una nueva ideación se titula de forma predeterminada después del siguiente formato:
@@ -244,10 +254,16 @@ Puede crear informes para crear o editar registros de Planning o para crear arch
    La información se puede importar desde Workfront Planning o desde la Web.
 
    También puede hacer clic en el icono **Fuentes** ![Icono de fuentes](assets/sources-icon.png) en la esquina superior derecha del espacio para mostrar una lista de fuentes para todas las tarjetas del espacio.
-1. (Opcional) Haga clic en **Comentarios** ![Icono de comentario](assets/comments-icon.png) en la esquina superior derecha del espacio y **@** etiquete a otros para iniciar una lluvia de ideas dentro del espacio.
+1. (Opcional) Haga clic en **Comentarios** ![Icono de comentario](assets/comments-icon.png) en la esquina superior derecha del lienzo y **@** etiquete a otros para iniciar una lluvia de ideas dentro del espacio.
 
    Los usuarios recibirán una notificación por correo electrónico sobre la etiqueta.
+
+   >[!TIP]
+   >
+   >Puede agregar comentarios para una tarjeta o un conjunto de tarjetas.
+
 1. (Opcional) Haga clic en el icono **Filtro** ![Icono de filtro](assets/filter-comments-icon.png) dentro de la tarjeta de comentarios para filtrar los comentarios según los siguientes criterios:
+
 
    * Revisores
    * Hora a la que se añadió el comentario
