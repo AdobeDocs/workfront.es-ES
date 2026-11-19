@@ -27,9 +27,9 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
     internal-label: Metadata
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 3eb5040e7f756f9827ad0a8780fbf7199bc68443
 workflow-type: tm+mt
-source-wordcount: '918'
+source-wordcount: '924'
 ht-degree: 31%
 ---
 # El área Documentos
@@ -65,6 +65,11 @@ Si la revisión está configurada para el documento, la sección Detalles incluy
 Puede hacer clic en el encabezado Detalles para ir al área completa Detalles del documento cuando necesite toda la información sobre un documento.
 
 ![Área de documentos](assets/documents-area-v2-350x199.png)
+
+<span class="preview">En vista previa:
+![Panel de resumen del área de documentos](assets/legacy-document-summary.png)
+</span>
+
 
 Para obtener información sobre el resumen, consulte [Resumen de la información general de documentos](../../documents/managing-documents/summary-for-documents.md).
 

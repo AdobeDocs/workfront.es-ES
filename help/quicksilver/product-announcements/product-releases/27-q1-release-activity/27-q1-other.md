@@ -4,10 +4,10 @@ description: Otras mejoras durante el lapso de tiempo del primer trimestre de 20
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 7090c156fa1ec635e5c673fb9b0e140ee6bd0d15
+source-git-commit: 654328db7759fdbcf472017936b565ce17f10a54
 workflow-type: tm+mt
-source-wordcount: '632'
-ht-degree: 1%
+source-wordcount: '704'
+ht-degree: 3%
 ---
 
 # Otras mejoras durante el periodo de tiempo de la versión del primer trimestre de 2027
@@ -15,6 +15,21 @@ ht-degree: 1%
 Esta página describe las mejoras realizadas con la versión del primer trimestre de 2027 en el entorno de vista previa. Estas mejoras estarán disponibles en el entorno de producción, como se ha indicado.
 
 Para obtener una lista de todos los cambios disponibles en este punto del ciclo de la versión del primer trimestre de 2027, consulte [Información general de la versión del primer trimestre de 2027](/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-release-overview.md).
+
+## Apariencia actualizada del panel de resumen para tareas, problemas y documentos
+
+>[!NOTE]
+>
+>Vista previa: 19 de noviembre de 2026
+>Versión rápida de producción: 17 de diciembre de 2026
+>Producción para todos: 21 de enero de 2027
+
+El Panel de resumen para tareas, problemas y documentos tiene una apariencia actualizada para coincidir con otros estilos de Workfront. La información y los campos ahora están organizados en pestañas independientes dentro del panel Resumen.
+
+Para obtener más información, consulte:
+
+* [Información general sobre el resumen](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md)
+* [Resumen de la información general de documentos](/help/quicksilver/documents/managing-documents/summary-for-documents.md)
 
 <!--
 

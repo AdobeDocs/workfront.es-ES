@@ -5,9 +5,9 @@ author: Courtney
 draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: ac384fb96e24d3c0ea825cb212262966dbd5b7d2
+source-git-commit: 654328db7759fdbcf472017936b565ce17f10a54
 workflow-type: tm+mt
-source-wordcount: '1568'
+source-wordcount: '1655'
 ht-degree: 13%
 ---
 
@@ -38,6 +38,7 @@ Las mejoras de esta página están disponibles en el entorno de vista previa. Es
 ## Mejoras de Adobe Workfront
 
 * [Mejoras en el administrador](#administrator-enhancements)
+* [Mejoras de Agile](#agile-enhancements)
 * [Mejoras de IA](#ai-enhancements)
 * [Mejoras de documentos](#documents-enhancements)
 * [Mejoras en el proyecto](#project-enhancements)
@@ -100,6 +101,29 @@ Las mejoras de esta página están disponibles en el entorno de vista previa. Es
             <td><p>29 de octubre de 2026</p></td>
             <td><p>29 de octubre de 2026</p></td>
             <td><p>29 de octubre de 2026</p></td>
+        </tr>
+    </tbody>
+</table>
+
+### Mejoras de Agile
+
+<table>
+    <tbody>
+        <tr>
+            <td><strong>Característica</strong>
+            </td>
+            <td><strong>Vista previa</strong></td>
+            <td><strong>Versión rápida</strong></td>
+            <td><strong>Trimestralmente</strong></td>
+        </tr>
+        <tr>
+            <td>
+                <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-agile.md">Apariencia actualizada para editar campos en tarjetas Agile</a></p>
+                <p>Los campos que utiliza para editar tarjetas Agile tienen una apariencia actualizada para coincidir con otros estilos en Workfront.</p>
+            </td>
+            <td><p>19 de noviembre de 2026</p></td>
+            <td><p>17 de diciembre de 2026</p></td>
+            <td><p>21 de enero de 2027</p></td>
         </tr>
     </tbody>
 </table>
@@ -281,6 +305,15 @@ Las mejoras de esta página están disponibles en el entorno de vista previa. Es
             <td><strong>Vista previa</strong></td>
             <td><strong>Versión rápida</strong></td>
             <td><strong>Trimestralmente</strong></td>
+        </tr>
+        <tr>
+            <td>
+                <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-other.md">Apariencia actualizada del panel de resumen para tareas, problemas y documentos</a></p>
+                <p>El panel Resumen tiene un aspecto actualizado, con información y campos organizados en pestañas independientes.</p>
+            </td>
+            <td><p>19 de noviembre de 2026</p></td>
+            <td><p>17 de diciembre de 2026</p></td>
+            <td><p>21 de enero de 2027</p></td>
         </tr>
 <!--
         <tr>

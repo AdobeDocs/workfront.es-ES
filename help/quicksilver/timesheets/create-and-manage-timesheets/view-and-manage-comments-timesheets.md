@@ -22,13 +22,11 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: dbb2e1aee18e6435a79ee2071f0bd5ba84ce2af3
+source-git-commit: 3dea3d85473b359d2178921ba019038df04c3005
 workflow-type: tm+mt
-source-wordcount: 831
+source-wordcount: '831'
 ht-degree: 17%
-
 ---
-
 # Ver y administrar comentarios en una plantilla de horas
 
 <!-- Audited: April, 2024-->
@@ -175,7 +173,7 @@ Solo puede realizar comentarios sobre las tareas y los problemas de una plantill
 
 1. Vaya a la hoja de horas donde quiera hacer un comentario y haga clic en [!UICONTROL **Hoja de horas**] en el panel izquierdo.
 1. Haga clic en la fila de una tarea o un problema y, a continuación, haga clic en [!UICONTROL **Abrir resumen**].
-1. Empiece a escribir una actualización en el área [!UICONTROL **Actualizaciones**] del Panel de resumen y, a continuación, haga clic en [!UICONTROL **Enviar**].
+1. Empiece a escribir una actualización en la ficha [!UICONTROL **Actualizaciones**] del Panel de resumen y, a continuación, haga clic en [!UICONTROL **Enviar**].
 La actualización se muestra en la sección Actualizaciones de la tarea y el problema.
 1. (Opcional) Haga clic en [!UICONTROL **Cerrar resumen**] para cerrar el Panel de resumen.
 

@@ -32,12 +32,14 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 900be426cec2556c4c035124fc1c3bd094896340
 workflow-type: tm+mt
-source-wordcount: '843'
-ht-degree: 29%
+source-wordcount: '818'
+ht-degree: 28%
 ---
 # Actualizar o editar un elemento de trabajo en el área [!UICONTROL Inicio]
+
+{{highlighted-preview}}
 
 <!--Audited: 04/2024-->
 
@@ -178,7 +180,5 @@ Puede editar cualquier campo de cualquier elemento de trabajo al que tenga acces
 1. Pase el ratón sobre el elemento de trabajo y luego haga clic en el icono **Resumen**.
    ![Abrir resumen](assets/open-summary-new-home.png)
 
-1. En el panel Resumen, pase el ratón sobre el campo que desee editar.
-Si tiene derechos para editar el campo, este se resalta al pasar el puntero por encima.
-1. Haga clic en el campo que desee editar y, a continuación, realice la actualización deseada.
+1. En el panel Resumen, haga clic en el campo que desee editar y, a continuación, realice la actualización que desee.
 1. Haga clic fuera del campo para guardar los cambios.
