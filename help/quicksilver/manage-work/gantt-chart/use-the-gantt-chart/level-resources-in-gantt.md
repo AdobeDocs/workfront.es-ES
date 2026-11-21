@@ -27,9 +27,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 95af5acdd910c0cbafd019dfe9f5397331d7370b
+source-git-commit: 11d5c57468270943e5b8a9fecf3b65af507e2c75
 workflow-type: tm+mt
-source-wordcount: '641'
+source-wordcount: '642'
 ht-degree: 84%
 ---
 # Nivelar recursos en el [!UICONTROL gráfico Gantt]
@@ -120,7 +120,7 @@ Tenga en cuenta lo siguiente al redistribuir recursos en un proyecto:
   ![Modo de nivelación de recursos](assets/resource-leveling-mode-350x177.png)
 
 * Como propietario del proyecto o usuario asignado de la tarea, puede introducir un retraso de redistribución para una tarea para indicar que es sumamente probable que la tarea pueda necesitar tiempo adicional. Para obtener información acerca de cómo añadir un retraso de redistribución a una tarea, consulte [Actualizar el retraso de redistribución de tareas](../../../manage-work/tasks/task-information/task-leveling-delay.md).
-* Para garantizar un rendimiento óptimo, la redistribución de recursos no funciona para tareas que tienen una duración superior a 1000 días.
+* Para garantizar un rendimiento óptimo, los recursos de las tareas que tienen una duración superior a 1000 días no se pueden redistribuir automáticamente.
 
 ## Aplicar redistribución de recursos en el [!UICONTROL gráfico Gantt]
 
