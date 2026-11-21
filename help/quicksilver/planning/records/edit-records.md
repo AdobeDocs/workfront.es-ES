@@ -30,18 +30,18 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 284f02c34a04b176c60f50443b9f03b789d8416d
+source-git-commit: 11d5c57468270943e5b8a9fecf3b65af507e2c75
 workflow-type: tm+mt
-source-wordcount: '3235'
+source-wordcount: '3174'
 ht-degree: 8%
 ---
 # Editar registros
 
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">La información resaltada en esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa para todos los clientes. Después del lanzamiento en Vista previa, las mismas funciones también están disponibles mensualmente en el entorno de producción para los clientes que habilitaron lanzamientos rápidos. </span>
-
-<span class="preview">Para obtener información sobre las versiones rápidas, consulte [Habilitar o deshabilitar las versiones rápidas para su organización](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
-
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -173,7 +173,7 @@ Old:
   * Campos del sistema (Creado por, Fecha de creación, Última modificación por, Fecha de última modificación, Fecha de aprobación, Aprobado por , ID de registro)
 * Si los registros que muestra están vinculados a otros registros, la nueva información de los registros que está modificando se reflejará en los registros vinculados de todos los espacios de trabajo en los que esté vinculado ese registro.
 * No puede editar registros de forma masiva. <!--this will probably change-->
-* Las direcciones URL se reconocen como vínculos en tipos de campo de texto de una sola línea solo cuando comienzan con lo siguiente: http://, https://, ftp:// o www. .
+* Las direcciones URL se reconocen como vínculos en tipos de campos de texto de una sola línea solo cuando comienzan con lo siguiente: http://, https://, ftp:// o <www>. .
 * Puede agregar una imagen de portada a cada registro. La imagen es única para cada registro y no se aplica a todos los registros del mismo tiempo. Para obtener más información, vea [Agregar una imagen de portada a un registro](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md).
 * Puede editar el orden de los campos en la página de detalles de un registro. Para obtener más información, consulte [Administrar el diseño de la página de registros](/help/quicksilver/planning/records/manage-the-record-page.md).
 * Puede editar las fechas de inicio y finalización de un registro cambiando el tamaño o la posición de los registros en las vistas de calendario y cronología.
@@ -389,8 +389,8 @@ Para obtener más información, consulte [Crear registros](/help/quicksilver/pla
    >  * Campos de búsqueda de otros registros creados conectando tipos de registros. Para obtener más información, consulte [Conectar tipos de registro](/help/quicksilver/planning/architecture/connect-record-types.md).
    >  * Campos de los siguientes tipos: Creado por, Fecha de creación, Última modificación por, Fecha de última modificación, Campos de fórmula.
 
-1. <span class="preview">(Opcional) Haga clic en el círculo de color a la izquierda del nombre del registro para cambiar el color del registro. </span>
-   <span class="preview">Los registros se asignan automáticamente a los colores cuando se crean. Haga clic en **Muestras** o en **Personalizadas** para seleccionar un nuevo color.</span>
+1. (Opcional) Haga clic en el círculo de color a la izquierda del nombre del registro para cambiar el color del registro.
+A los registros se les asignan colores automáticamente cuando se crean. Haga clic en **Muestras** o en **Personalizadas** para seleccionar un nuevo color.
 
 1. (Opcional) Haga clic en **Agregar portada** para agregar una imagen de portada al registro. Para obtener más información, vea [Agregar una imagen de portada a un registro](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md).
 
@@ -448,8 +448,8 @@ Para obtener más información, consulte [Crear registros](/help/quicksilver/pla
    >  * Campos de los siguientes tipos: Creado por, Fecha de creación, Última modificación por, Fecha de última modificación, Campos de fórmula.
 
 1. (Opcional) Haga clic en el icono de información a la derecha de cualquier campo que lo muestre para ver la descripción de un campo.
-1. <span class="preview">(Opcional) Haga clic en el círculo de color a la izquierda del nombre del registro para cambiar el color del registro. </span>
-   <span class="preview">Los registros se asignan automáticamente a los colores cuando se crean. Haga clic en **Muestras** o en **Personalizadas** para seleccionar un nuevo color.</span>
+1. (Opcional) Haga clic en el círculo de color a la izquierda del nombre del registro para cambiar el color del registro.
+A los registros se les asignan colores automáticamente cuando se crean. Haga clic en **Muestras** o en **Personalizadas** para seleccionar un nuevo color.
 
    ![Cuadro selector de color para el cuadro de detalles de registro](assets/color-picker-box-for-record-color-in-details-page.png)
 

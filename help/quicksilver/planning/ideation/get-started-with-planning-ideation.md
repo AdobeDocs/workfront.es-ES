@@ -19,7 +19,7 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 4beee4cb9c4d0f3f2ef037621d508868229ba25e
+source-git-commit: 11d5c57468270943e5b8a9fecf3b65af507e2c75
 workflow-type: tm+mt
 source-wordcount: '1540'
 ht-degree: 1%
@@ -214,7 +214,7 @@ El espacio de ideación utiliza Adobe CX Enterprise Coworker como interfaz de me
 
 Los usuarios pueden hacer preguntas de seguimiento y refinar una breve conversación en lugar de obtener un solo resultado de una sola toma.
 
-Cuando se vincula una información breve a un registro activo de Workfront Planning, el colaborador evita sobrescribirla para que el plan subyacente permanezca intacto. El registro solo se anula al exportar la información a Workfront Planning.
+Cuando se vincula una información breve a un registro activo de Workfront Planning, el colaborador evita sobrescribirla para que el plan subyacente permanezca intacto. El registro solo se sobrescribe al exportar la información a Workfront Planning.
 
 <!--
 Previous intro but oped for the more direct one above: 
@@ -323,10 +323,10 @@ Worth noting
 <!--
 ## Additional resources
 
-* [Adobe Workfront Campaign Planning](https://business.adobe.com/es/products/workfront/campaign-planning.html)
+* [Adobe Workfront Campaign Planning](https://business.adobe.com/products/workfront/campaign-planning.html)
 * [Adobe Workfront Planning documentation](/help/quicksilver/planning/planning-information.md)
-* [Adobe GenStudio Overview](https://business.adobe.com/es/products/genstudio.html)
-* [Adobe Customer Journey Analytics](https://business.adobe.com/es/products/adobe-analytics/customer-journey-analytics.html)
+* [Adobe GenStudio Overview](https://business.adobe.com/products/genstudio.html)
+* [Adobe Customer Journey Analytics](https://business.adobe.com/products/adobe-analytics/customer-journey-analytics.html)
 
 -->
 
