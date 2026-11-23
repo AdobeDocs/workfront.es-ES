@@ -16,10 +16,10 @@ feature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 13403cc11448a0611ad0996ed21e1745277e9c05
+source-git-commit: 71c1855166c2f950509cc8b7dc63792eabb6de16
 workflow-type: tm+mt
-source-wordcount: '167'
-ht-degree: 10%
+source-wordcount: '183'
+ht-degree: 9%
 ---
 # Colaboradores de IA
 
@@ -29,7 +29,7 @@ Los colaboradores de IA son agentes de IA que se pueden asignar a tareas del mis
 
 Los tipos de colaborador de IA disponibles incluyen Revisor de IA, Agentes de trabajo<span class="preview"> y Coordinadores de proyecto</span>.
 
-Para los agentes de trabajo, puede conectar un agente desde una plataforma externa compatible <span class="preview"> o, si su organización tiene Adobe CX Coworker habilitado, seleccione Adobe Native para utilizar un agente listo para usar con Adobe CX Coworker. La opción Adobe Native no requiere credenciales de plataforma externa.</span>
+Para los agentes de trabajo, puede conectar un agente desde una plataforma externa compatible <span class="preview"> o, si su organización tiene Adobe CX Coworker habilitado, seleccione Adobe Native para utilizar CX Enterprise Coworker Collaborator o un colaborador de IA creado previamente, como Intake Coordinator. La opción Adobe Native no requiere credenciales de plataforma externa. Para obtener una lista de opciones, consulte [Configurar colaboradores de IA pregenerados](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-prebuilt-ai-collaborators.md).</span>
 
 ## Colaboradores de IA en el trabajo
 
