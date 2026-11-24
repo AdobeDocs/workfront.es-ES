@@ -20,9 +20,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 16e4d70d45e4f312d31f3cd491754820ef0c9b9d
+source-git-commit: 311e830b96b3b2529301f1b8350037928512d411
 workflow-type: tm+mt
-source-wordcount: '2017'
+source-wordcount: '2096'
 ht-degree: 1%
 ---
 
@@ -172,14 +172,22 @@ Removed - more direct steps below:
 
    1. Expanda el menú de vistas desplegables en la esquina superior izquierda de la lista para seleccionar otra vista, o haga clic en **Nueva vista** y cree otra.
 
+      Las vistas se muestran en una de las secciones siguientes:
+
+      * **Vistas del sistema**, creadas por Workfront.
+      * **Vistas compartidas**, compartidas con usted por otros usuarios.
+      * **Mis vistas**, creadas por usted.
+
       >[!TIP]
       >
       >Las vistas se comparten en todo el sistema. Si crea una vista Proyectos para un tipo de registro, puede verla en otros tipos de registro que muestran proyectos conectados.
 
    1. Pase el ratón sobre el nombre de una vista existente y haga clic en el menú **Más** ![Menú más](assets/more-menu.png); a continuación, haga clic en una de las siguientes opciones:
       * **Cambiar nombre**, para asignar un nuevo nombre a la vista
-      * **Compartir**, para compartir la vista con otros
+      * **Compartir**, para compartir la vista con otros. Cuando alguien comparte una vista con usted, esta se muestra en el área de **Vistas compartidas** del menú desplegable de vistas.
       * **Eliminar**, para eliminar la vista.
+      * **Copie con preferencias** <span class="preview"><!--or **Copy with my changes**</span>-->, para copiar la vista con los cambios realizados en lugar de copiar la vista original que se compartió con usted. Esto solo está disponible en Vistas del sistema y Vistas compartidas.
+        <!--* <span class="preview">**Copy**, to copy the view</span>-->
 
       >[!NOTE]
       >
@@ -193,17 +201,31 @@ Removed - more direct steps below:
 
       >[!TIP]
       >
-      >Para aplicar un filtro personalizado, seleccione una de las siguientes opciones para un valor de campo:
+      >* Para aplicar un filtro personalizado, seleccione una de las siguientes opciones para un valor de campo:
       >
-      >* **Yo (usuario conectado)** para hacer referencia al usuario conectado en los campos que hacen referencia a los usuarios.
+      >   * **Yo (usuario conectado)** para hacer referencia al usuario conectado en los campos que hacen referencia a los usuarios.
       >
-      >* **Mis equipos** o **Mi equipo de inicio** para hacer referencia a sus equipos en campos que hacen referencia a equipos.
+      >   * **Mis equipos** o **Mi equipo de inicio** para hacer referencia a sus equipos en campos que hacen referencia a equipos.
       >
-      >* **Mis grupos** o **Mi grupo de inicio** para hacer referencia a sus grupos en campos que hacen referencia a grupos.
+      >   * **Mis grupos** o **Mi grupo de inicio** para hacer referencia a sus grupos en campos que hacen referencia a grupos.
       >
-      >* **Mi compañía** para hacer referencia a su compañía en campos que hacen referencia a compañías.
+      >   * **Mi compañía** para hacer referencia a su compañía en campos que hacen referencia a compañías.
       > 
-      >* **Mis roles** o **Mi rol principal** para hacer referencia a sus roles en los campos que hacen referencia a los roles.
+      >   * **Mis roles** o **Mi rol principal** para hacer referencia a sus roles en los campos que hacen referencia a los roles.
+      <!--
+        >* <span class="preview">When you filter by date, you can apply relative dates to make the filter more flexible. The results update every time the view loads without having to modify the filter. Choose from the following relative dates: </span>
+        >
+        >    <div class="preview">
+        >
+        >   * **Is today**
+        >   * **Is yesterday**
+        >   * **Is tomorrow**
+        >   * **Is this month**
+        >   * **Is last month**
+        >   * **Is next month**
+        >
+        >  </div>
+        -->
 
    1. Haga clic en el icono **Columnas** ![Icono de columnas](assets/columns-icon.png) para seleccionar qué columnas mostrar u ocultar en la vista.
    1. Pase el ratón sobre el nombre de una columna, haga clic en la flecha hacia abajo situada a la izquierda del nombre de la columna y, a continuación, haga clic en una de las siguientes opciones:
