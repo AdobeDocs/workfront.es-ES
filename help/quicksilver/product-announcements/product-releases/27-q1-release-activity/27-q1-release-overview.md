@@ -5,9 +5,9 @@ author: Courtney
 draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: fe229b1cc5608a4a5ac999fbcaeb1a8c1607bc42
+source-git-commit: ee344fe88ba7e4fb78a6d80ccbfe5cfa1ecbec47
 workflow-type: tm+mt
-source-wordcount: '1708'
+source-wordcount: '1718'
 ht-degree: 12%
 ---
 
@@ -142,11 +142,12 @@ Las mejoras de esta página están disponibles en el entorno de vista previa. Es
         <tr>
             <td>
                 <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-ai.md">Configuración del colaborador de IA creado previamente por el coordinador de admisión</a></p>
+                <p>[!BADGE Versión simultánea]{type=Neutral}</p>
                 <p>Los administradores ahora pueden configurar el coordinador de admisión, un colaborador de IA creado previamente, como un agente de trabajo que comprueba los problemas para ver si falta información, si no está clara o si es incoherente.</p>
             </td>
-            <td><p>22 de noviembre de 2026</p></td>
-            <td><p>17 de diciembre de 2026</p></td>
-            <td><p>21 de enero de 2027</p></td>
+            <td><p>12 de noviembre de 2026</p></td>
+            <td><p>12 de noviembre de 2026</p></td>
+            <td><p>12 de noviembre de 2026</p></td>
         </tr>
         <tr>
             <td>
@@ -161,11 +162,12 @@ Las mejoras de esta página están disponibles en el entorno de vista previa. Es
         <tr>
             <td>
                 <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-ai.md">Agentes de trabajo: compatibilidad con Adobe Native</a></p>
+                <p>[!BADGE Versión simultánea]{type=Neutral}</p>
                 <p>Ahora puede crear un agente de trabajo que utilice CX Enterprise Coworker collaborative, un agente de CX Enterprise Coworker con tecnología de Adobe Agent Orchestrator, sin configurar una plataforma externa ni introducir credenciales externas.</p>
             </td>
-            <td><p>29 de octubre de 2026</p></td>
             <td><p>12 de noviembre de 2026</p></td>
-            <td><p>21 de enero de 2027</p></td>
+            <td><p>12 de noviembre de 2026</p></td>
+            <td><p>12 de noviembre de 2026</p></td>
         </tr>
         <tr>
             <td>
@@ -432,7 +434,7 @@ El Visor de corrección de escritorio se ha actualizado a la versión 2.3.0. Est
 
 * Se ha actualizado el marco subyacente (Electron) a la última versión, que se ejecuta en la versión 156 de Chrome, para mejorar el rendimiento y la seguridad.
 
-Para obtener información sobre cómo descargar y actualizar el Visor de corrección de escritorio, consulte [Actualizar el Visor de corrección de escritorio](https://experienceleague.adobe.com/es/docs/workfront/using/review-and-approve-work/proofing/use-the-desktop-proofing-viewer/update-the-desktop-proofing-viewer).
+Para obtener información sobre cómo descargar y actualizar el Visor de corrección de escritorio, consulte [Actualizar el Visor de corrección de escritorio](https://experienceleague.adobe.com/en/docs/workfront/using/review-and-approve-work/proofing/use-the-desktop-proofing-viewer/update-the-desktop-proofing-viewer).
 
 ## Anuncios
 
@@ -443,7 +445,7 @@ Para obtener información sobre cómo descargar y actualizar el Visor de correcc
 >Vista previa: 12 de noviembre de 2026
 >Versión rápida de producción: 12 de noviembre de 2026
 >Producción para todos: 12 de noviembre de 2026
->[!BADGE Versión simultánea &#x200B;]{type=Neutral}
+>[!BADGE Versión simultánea ]{type=Neutral}
 
 >[!NOTE]
 >
@@ -489,7 +491,7 @@ Para obtener información sobre las tasas de rol, consulte [Crear y administrar 
 
 ### Workfront Maintenance Updates
 
-For information about the maintenance updates made during the First Quarter 2027 release, see [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=es).
+For information about the maintenance updates made during the First Quarter 2027 release, see [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 -->
 

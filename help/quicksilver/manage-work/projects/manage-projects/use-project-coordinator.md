@@ -4,15 +4,13 @@ content-type: reference
 description: Aprenda a utilizar el Coordinador de proyectos, un colaborador de IA incorporado que supervisa el estado del proyecto y realiza un seguimiento de las tareas vencidas.
 author: Becky
 feature: Work Management, Projects
-source-git-commit: 13403cc11448a0611ad0996ed21e1745277e9c05
+source-git-commit: ee344fe88ba7e4fb78a6d80ccbfe5cfa1ecbec47
 workflow-type: tm+mt
 source-wordcount: '513'
 ht-degree: 8%
 
 ---
 # Utilizar el colaborador del coordinador del proyecto
-
-{{highlighted-preview-article-level}}
 
 El coordinador del proyecto es un colaborador de IA incorporado que supervisa el proyecto y notifica a las partes interesadas la información importante sobre el estado.
 
