@@ -5,9 +5,9 @@ author: Courtney
 draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: ee344fe88ba7e4fb78a6d80ccbfe5cfa1ecbec47
+source-git-commit: fa8f434c22cccb4d6a9bed2318f0553c6defb812
 workflow-type: tm+mt
-source-wordcount: '1718'
+source-wordcount: '1766'
 ht-degree: 12%
 ---
 
@@ -191,6 +191,17 @@ Las mejoras de esta página están disponibles en el entorno de vista previa. Es
             <td><strong>Vista previa</strong></td>
             <td><strong>Versión rápida</strong></td>
             <td><strong>Trimestralmente</strong></td>
+        </tr>
+        <tr>
+            <td>
+                <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-documents.md">Nuevas funciones en Adobe Cloud Drive v1.2.0</a></p>
+                <p>[!BADGE Versión simultánea]{type=Neutral}</p>
+                <p>[!BADGE Workflow Ultimate]{type=Informative}</p>
+                <p>Adobe Cloud Drive v1.2.0 incluye la carga directa, la pausa y reanudación de la sincronización, el historial de versiones, la administración del almacenamiento local, la actividad de sincronización y la opción Abrir en Workfront.</p>
+            </td>
+            <td><p>25 de noviembre de 2026</p></td>
+            <td><p>25 de noviembre de 2026</p></td>
+            <td><p>25 de noviembre de 2026</p></td>
         </tr>
 <!--
         <tr>
@@ -434,7 +445,7 @@ El Visor de corrección de escritorio se ha actualizado a la versión 2.3.0. Est
 
 * Se ha actualizado el marco subyacente (Electron) a la última versión, que se ejecuta en la versión 156 de Chrome, para mejorar el rendimiento y la seguridad.
 
-Para obtener información sobre cómo descargar y actualizar el Visor de corrección de escritorio, consulte [Actualizar el Visor de corrección de escritorio](https://experienceleague.adobe.com/es/docs/workfront/using/review-and-approve-work/proofing/use-the-desktop-proofing-viewer/update-the-desktop-proofing-viewer).
+Para obtener información sobre cómo descargar y actualizar el Visor de corrección de escritorio, consulte [Actualizar el Visor de corrección de escritorio](https://experienceleague.adobe.com/en/docs/workfront/using/review-and-approve-work/proofing/use-the-desktop-proofing-viewer/update-the-desktop-proofing-viewer).
 
 ## Anuncios
 
@@ -445,7 +456,7 @@ Para obtener información sobre cómo descargar y actualizar el Visor de correcc
 >Vista previa: 12 de noviembre de 2026
 >Versión rápida de producción: 12 de noviembre de 2026
 >Producción para todos: 12 de noviembre de 2026
->[!BADGE Versión simultánea &#x200B;]{type=Neutral}
+>[!BADGE Versión simultánea ]{type=Neutral}
 
 >[!NOTE]
 >
@@ -491,7 +502,7 @@ Para obtener información sobre las tasas de rol, consulte [Crear y administrar 
 
 ### Workfront Maintenance Updates
 
-For information about the maintenance updates made during the First Quarter 2027 release, see [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=es).
+For information about the maintenance updates made during the First Quarter 2027 release, see [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 -->
 
