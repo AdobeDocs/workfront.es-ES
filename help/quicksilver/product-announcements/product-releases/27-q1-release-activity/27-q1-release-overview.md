@@ -5,9 +5,9 @@ author: Courtney
 draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: ee344fe88ba7e4fb78a6d80ccbfe5cfa1ecbec47
+source-git-commit: fa8f434c22cccb4d6a9bed2318f0553c6defb812
 workflow-type: tm+mt
-source-wordcount: '1718'
+source-wordcount: '1766'
 ht-degree: 12%
 ---
 
@@ -191,6 +191,17 @@ Las mejoras de esta página están disponibles en el entorno de vista previa. Es
             <td><strong>Vista previa</strong></td>
             <td><strong>Versión rápida</strong></td>
             <td><strong>Trimestralmente</strong></td>
+        </tr>
+        <tr>
+            <td>
+                <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-documents.md">Nuevas funciones en Adobe Cloud Drive v1.2.0</a></p>
+                <p>[!BADGE Versión simultánea]{type=Neutral}</p>
+                <p>[!BADGE Workflow Ultimate]{type=Informative}</p>
+                <p>Adobe Cloud Drive v1.2.0 incluye la carga directa, la pausa y reanudación de la sincronización, el historial de versiones, la administración del almacenamiento local, la actividad de sincronización y la opción Abrir en Workfront.</p>
+            </td>
+            <td><p>25 de noviembre de 2026</p></td>
+            <td><p>25 de noviembre de 2026</p></td>
+            <td><p>25 de noviembre de 2026</p></td>
         </tr>
 <!--
         <tr>

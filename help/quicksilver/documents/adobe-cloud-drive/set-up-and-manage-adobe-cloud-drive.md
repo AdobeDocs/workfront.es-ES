@@ -22,10 +22,10 @@ subfeature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 686609dc5a220316ee2d39fd815d152dda43d03c
 workflow-type: tm+mt
-source-wordcount: '3139'
-ht-degree: 2%
+source-wordcount: '3206'
+ht-degree: 1%
 ---
 # Configure y administre Adobe Cloud Drive para su organización
 
@@ -222,9 +222,13 @@ Para crear el paquete en Adobe Admin Console:
    ![Elija el paso de las aplicaciones en el asistente de paquetes](assets/choose-apps-step-in-wizard.png)
 
 1. Haga clic en **Siguiente**.
-1. En el paso **Opciones**, haga clic en **Siguiente** sin seleccionar ninguna opción.
+1. En el paso **Opciones**, haga clic en **Deshabilitar actualización para usuarios finales** para evitar que los usuarios actualicen la aplicación ellos mismos, o haga clic en **Siguiente** sin seleccionar ninguna opción.
 
-   Esta configuración se aplica a las aplicaciones de escritorio de Creative Cloud y no se aplica a Adobe Cloud Drive.
+   <!-- Courtney check me: Removed the old sentence saying Options settings don't apply to Adobe Cloud Drive, which contradicted the Disable update for end-users option. Added the note Pulkit requested. Confirm wording, and whether the note duplicates step text above. -->
+
+   >[!NOTE]
+   >
+   >Para evitar que los usuarios finales actualicen la aplicación ellos mismos, seleccione **Deshabilitar la actualización para usuarios finales** en el paso **Opciones**. Otras configuraciones de este paso se aplican a las aplicaciones de escritorio de Creative Cloud y no se aplican a Adobe Cloud Drive.
 
    ![Pasos de opciones en el asistente para paquetes](assets/options-step-in-wizard.png)
 
@@ -238,6 +242,10 @@ Para crear el paquete en Adobe Admin Console:
    ![Paquete en estado de preparación](assets/package-is-preparing.png)
 
 1. Haga clic en **Descargar** y guarde el archivo del paquete en la ubicación que haya elegido.
+
+   >[!NOTE]
+   >
+   >El vínculo de descarga de paquetes y la utilidad de descarga caducan tres días después de la creación del paquete. Sin embargo, el archivo .pkg o .zip descargado no caduca y se puede utilizar para la instalación más adelante.
 
 ### Método B: descarga directa de autoservicio desde Distribución de software
 
