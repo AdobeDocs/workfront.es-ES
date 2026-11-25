@@ -18,9 +18,9 @@ subfeature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 5e482e130c58018d83ab8ea4ba7f219931b47bf4
+source-git-commit: 311e830b96b3b2529301f1b8350037928512d411
 workflow-type: tm+mt
-source-wordcount: '3413'
+source-wordcount: '3412'
 ht-degree: 2%
 ---
 # Actividad de la versión del cuarto trimestre de 2026 para Adobe Workfront Planning
@@ -418,7 +418,7 @@ Ahora se puede cambiar el tamaño del panel izquierdo de agrupación en la panta
 
 Para obtener más información, consulte [administrar la vista de cronología](/help/quicksilver/planning/views/manage-the-timeline-view.md).
 
-## Se ha mejorado el rendimiento del calendario para grandes conjuntos de registros en la vista de semana
+## Rendimiento mejorado con carga de datos incremental en la vista de calendario
 
 >[!NOTE]
 >

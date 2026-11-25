@@ -32,7 +32,7 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: fb5bc6f0563c8009b4b4496ffceef621c89c660c
+source-git-commit: f1a19ac5c3f8ca548a1bf203c34118c0bfb30550
 workflow-type: tm+mt
 source-wordcount: '5676'
 ht-degree: 46%
@@ -332,6 +332,10 @@ Los campos de texto de una sola línea capturan información alfanumérica limit
 1. Añada la siguiente información en la pestaña **Nuevo campo**:
    * **Nombre**: El nombre del campo, tal como aparecerá en una tabla o en la página Detalles del registro. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
    * **Descripción**: información adicional sobre el campo. La descripción de un campo se muestra cuando pasa el ratón sobre el encabezado de columna del campo en una tabla o cuando hace clic en el icono de información situado junto al nombre del campo en la página de detalles del registro.
+
+   <!--
+    * <span class="preview">**Make this field's values unique for all records**: Activate this setting if you want the field values for all record of this type to be unique. For example, if this field stores a unique text identifier like Serial code, the code must be unique for each record. If the field is imported in a secondary record space of a global record type, the field restriction applies in the secondary workspace as well. However, the values are restricted only for records that belong to the same workspace. As you create or edit records, any duplicate values are highlighted with a warning. The warning applies for all records, regardless how you create or edit them (manually, through importing them, using  request form, or using the Workfront MCP server). </span>
+    -->
 1. Haga clic en **Crear**.
 
    El nuevo campo de una sola línea se añade como una columna al tipo de registro y sus valores se pueden asociar con registros.
@@ -514,6 +518,9 @@ Los tipos de campo numéricos capturan información en formato numérico.
 
    * **Nombre**: Nombre del campo tal como aparecerá en una tabla o en la página de registro.
    * **Descripción**: información adicional sobre el campo. La descripción de un campo se muestra al pasar el ratón por encima de la columna del campo en una tabla o al hacer clic en el icono de información situado junto al nombre del campo en la página de detalles del registro.
+   <!--
+    * <span class="preview">**Make this field's values unique for all records**: Activate this setting if you want the field values for all record of this type to be unique. For example, if this field stores a unique number identifier like Serial number, the number must be unique for each record. If the field is imported in a secondary record space of a global record type, the field restriction applies in the secondary workspace as well. However, the values are restricted only for records that belong to the same workspace. As you create or edit records, any duplicate values are highlighted with a warning. The warning applies for all records, regardless how you create or edit them (manually, through importing them, using  request form, or using the Workfront MCP server). </span>
+    -->
    * **Precisión**: el número de decimales que desee registrar para el campo. Se pueden mostrar hasta 6 decimales.
    * **Permitir números negativos**: seleccione esta opción si desea permitir números negativos en este campo. Esta opción está desactivada de forma predeterminada.
 

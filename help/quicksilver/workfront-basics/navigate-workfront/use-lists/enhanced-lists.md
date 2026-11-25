@@ -25,9 +25,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 238371e2026eaf216c2b3b554f5fe9d8101263e4
+source-git-commit: 311e830b96b3b2529301f1b8350037928512d411
 workflow-type: tm+mt
-source-wordcount: '3611'
+source-wordcount: '3609'
 ht-degree: 2%
 ---
 # Uso de listas mejoradas
@@ -98,8 +98,15 @@ A continuación se muestran algunos tipos de listas de objetos de Workfront que 
 | Vista de todas las versiones de un documento | Proyecto > Documentos > Detalles del documento > Todas las versiones |
 | Vista de administración de tableros | Tableros > Vista de administración |
 | Documentos en el almacenamiento en la nube de Adobe | Proyecto, tarea, problema, portafolio, programa, plantilla, tarea de plantilla > Documentos |
-| Listas de planes de escenarios e iniciativas | Menú principal > Escenarios |
+| Listas de planes de escenario <!--and initiatives--> | Menú principal > Escenarios |
 | Listas de objetivos e indicadores de progreso | <ul><li>Menú principal > Metas</li><li>Menú principal > Objetivos > Indicadores de progreso</li></ul> |
+
+
+<!--
+| List of expense types | Setup > Expense Types |
+| List of rate cards | Setup > Rate Cards |
+-->
+
 
 <!--
 
@@ -372,7 +379,7 @@ Para compartir una vista:
 
 Cuando se comparte con usted una vista para la que no tiene permiso de edición, puede copiarla y guardarla con un nombre nuevo. Primero debe realizar cambios en la vista para poder copiarla.
 
-1. En el menú desplegable Vistas, pase el ratón sobre la vista de **Vistas compartidas** en la que modificó la configuración de y que desea copiar. Haga clic en el menú **Más** ![Menú más](assets/more-icon.png) y luego en **Copiar con preferencias**.
+1. En el menú desplegable Vistas, pase el ratón sobre la vista de **Vistas compartidas** en la que modificó la configuración de y que desea copiar. Haga clic en el menú **Más** ![Menú más](assets/more-icon.png) y luego en **Copiar con preferencias** <!--<span class="preview">or **Copy with my changes**</span>-->.
 
    Se crea una nueva vista automáticamente. El nombre de la vista copiada sigue el siguiente patrón: `Original view name (copy)`y se muestra en la sección de vistas **Mis vistas**.
 
@@ -380,7 +387,7 @@ Cuando se comparte con usted una vista para la que no tiene permiso de edición,
 
    >[!NOTE]
    >
-   >La opción **Copiar con preferencias** solo está disponible si ha realizado cambios en una vista que se compartió con usted.
+   >La opción **Copiar con preferencias** <!--<span class="preview">or **Copy with my changes**</span>--> solo está disponible si ha realizado cambios en una vista que se compartió con usted.
 
 ### Restablecer una vista
 
@@ -458,6 +465,26 @@ Los filtros le ayudan a reducir la cantidad de información que se muestra en la
 1. En el cuadro Filtro, haga clic en **Agregar condición**.
 1. Seleccione un campo por el que filtrar.
 1. Seleccione un modificador de filtro, como &quot;Es cualquiera de&quot;, &quot;No es ninguno de&quot;, &quot;Es anterior a&quot; o &quot;Es posterior a&quot;. Las opciones del modificador son diferentes según el tipo de campo por el que esté filtrando.
+
+   <!--
+
+   >[!TIP]
+   >
+   >   <span class="preview">When you filter by date, you can apply relative dates to make the filter more flexible. The results update every time the view loads without having to modify the filter. Choose from the following relative dates: </span>
+   >
+   >    <div class="preview">
+   >
+   >   * **Is today**
+   >   * **Is yesterday**
+   >   * **Is tomorrow**
+   >   * **Is this month**
+   >   * **Is last month**
+   >   * **Is next month**
+   >
+   >  </div>
+
+   -->
+
 1. Seleccione el valor o los valores del campo. Según el tipo de campo por el que filtre, se le puede pedir que seleccione el elemento de una lista, lo busque o utilice un calendario para seleccionar un intervalo de fechas.
 
    ![Filtrar en listas mejoradas](assets/glist-filter-with-options.png)
