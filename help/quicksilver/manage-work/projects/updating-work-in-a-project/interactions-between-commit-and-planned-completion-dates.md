@@ -24,13 +24,11 @@ role_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: f826fcc29be7293fe13b40d8e55e2d412341b615
 workflow-type: tm+mt
-source-wordcount: 422
-ht-degree: 97%
-
+source-wordcount: '438'
+ht-degree: 90%
 ---
-
 # Interacciones entre la fecha de confirmación y la fecha planificada de finalización
 
 <!--
@@ -73,7 +71,8 @@ El usuario asignado que trabaja en la tarea o el problema puede actualizar manua
 >
 >Solo el usuario asignado puede actualizar la fecha de confirmación de una tarea o problema.
 
-El usuario asignado que cambia la fecha de compromiso no cambia automáticamente la fecha planificada de finalización. Lo contrario también es cierto: al cambiar la fecha planificada de finalización, no cambiará la fecha de confirmación.
+
+El usuario asignado de la tarea o del problema que cambia la fecha de confirmación no cambia automáticamente la fecha planificada de finalización. Lo contrario también es cierto: al cambiar la fecha planificada de finalización, no cambiará la fecha de confirmación. La Fecha proyectada de finalización también cambia cuando el usuario asignado actualiza la Fecha de confirmación.
 
 Cuando cambia la fecha de confirmación, el propietario del proyecto recibe una notificación a través de Workfront en la aplicación de que se ha producido este cambio.
 

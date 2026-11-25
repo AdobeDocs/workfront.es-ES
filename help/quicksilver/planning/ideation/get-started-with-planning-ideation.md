@@ -19,9 +19,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 11d5c57468270943e5b8a9fecf3b65af507e2c75
+source-git-commit: f826fcc29be7293fe13b40d8e55e2d412341b615
 workflow-type: tm+mt
-source-wordcount: '1540'
+source-wordcount: '1588'
 ht-degree: 1%
 ---
 
@@ -169,6 +169,11 @@ Para obtener acceso al espacio de ideación:
    * [Acceso necesario para utilizar el espacio de ideación](/help/quicksilver/planning/ideation/access-needed-to-use-ideation-space.md)
    * [Creación de registros de Planning a partir de informes del espacio de ideación](/help/quicksilver/planning/ideation/create-records-in-ideation-space-for-planning.md)
    * [Crear informes en el espacio de ideación](/help/quicksilver/planning/ideation/create-briefs-in-ideation-space.md)
+1. Acepte el acuerdo de Beta.
+
+   Esto es un requisito durante el programa beta. No puede utilizar el espacio de ideación sin aceptar los términos del programa beta.
+
+   Al aceptar el acuerdo, lo hace por su usuario y no por la organización. Cada usuario debe aceptar el acuerdo individualmente.
 
 1. (Recomendado) Identifique su primera campaña: una reciente para actualizar o una nueva iniciativa para crear desde cero.
 
@@ -323,10 +328,10 @@ Worth noting
 <!--
 ## Additional resources
 
-* [Adobe Workfront Campaign Planning](https://business.adobe.com/es/products/workfront/campaign-planning.html)
+* [Adobe Workfront Campaign Planning](https://business.adobe.com/products/workfront/campaign-planning.html)
 * [Adobe Workfront Planning documentation](/help/quicksilver/planning/planning-information.md)
-* [Adobe GenStudio Overview](https://business.adobe.com/es/products/genstudio.html)
-* [Adobe Customer Journey Analytics](https://business.adobe.com/es/products/adobe-analytics/customer-journey-analytics.html)
+* [Adobe GenStudio Overview](https://business.adobe.com/products/genstudio.html)
+* [Adobe Customer Journey Analytics](https://business.adobe.com/products/adobe-analytics/customer-journey-analytics.html)
 
 -->
 
