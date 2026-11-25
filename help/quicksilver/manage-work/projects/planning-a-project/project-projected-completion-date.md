@@ -29,13 +29,11 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 962b08d0dfbc06a69f82559a10876fdab60167f4
 workflow-type: tm+mt
-source-wordcount: 869
-ht-degree: 96%
-
+source-wordcount: '885'
+ht-degree: 91%
 ---
-
 # Información general sobre la fecha proyectada de finalización de proyectos, tareas y problemas
 
 <!-- Audited: 11/2025 -->
@@ -93,14 +91,14 @@ Los criterios utilizados para determinar la fecha proyectada de finalización di
 
 * **Tareas:** la fecha proyectada de finalización de las tareas se determina según los siguientes criterios:
 
-   * **Actualizaciones de progreso realizadas en la tarea por la persona asignada a la tarea:** las actualizaciones de progreso incluyen cambios en el porcentaje completado y en el estado de la tarea.
-   * **Fecha de confirmación:** si el usuario asignado a la tarea especifica una fecha de confirmación, la fecha proyectada de finalización cambiará para coincidir con la fecha de confirmación.
+  * **Actualizaciones de progreso realizadas en la tarea por la persona asignada a la tarea:** las actualizaciones de progreso incluyen cambios en el porcentaje completado y en el estado de la tarea.
+  * **Fecha de confirmación:** si el usuario asignado a la tarea especifica una fecha de confirmación, la fecha proyectada de finalización cambiará para coincidir con la fecha de confirmación. Esto no cambia la fecha planificada de finalización del problema.
 
-     Para obtener más información sobre las fechas de confirmación, consulte el artículo [Información general sobre la fecha de confirmación](../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md).
+    Para obtener más información sobre las fechas de confirmación, consulte el artículo [Información general sobre la fecha de confirmación](../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md).
 
-   * **Predecesoras:** si no hay retrasos en las tareas predecesoras, la fecha proyectada de finalización debe coincidir con la fecha planificada de finalización. A medida que se producen retrasos, las tareas dependientes muestran una fecha proyectada de finalización mayor que la fecha planificada de finalización.
+  * **Predecesoras:** si no hay retrasos en las tareas predecesoras, la fecha proyectada de finalización debe coincidir con la fecha planificada de finalización. A medida que se producen retrasos, las tareas dependientes muestran una fecha proyectada de finalización mayor que la fecha planificada de finalización.
 
-     Para obtener más información sobre la fecha planificada de finalización de las tareas, consulte [Información general sobre la fecha planificada de finalización de la tarea](../../../manage-work/tasks/task-information/task-planned-completion-date.md).
+    Para obtener más información sobre la fecha planificada de finalización de las tareas, consulte [Información general sobre la fecha planificada de finalización de la tarea](../../../manage-work/tasks/task-information/task-planned-completion-date.md).
 
   >[!IMPORTANT]
   >
@@ -111,7 +109,9 @@ Los criterios utilizados para determinar la fecha proyectada de finalización di
 
 * **Problemas:** la fecha proyectada de finalización del problema se establece inicialmente para que coincida con la fecha planificada de finalización del problema.
 
-  Si la persona asignada al problema especifica una fecha de confirmación, tanto la fecha de finalización prevista como la fecha planificada de finalización cambian para coincidir con la fecha de confirmación.
+  Si el usuario asignado del problema especifica una fecha de compromiso, la fecha de finalización prevista cambia para coincidir con la fecha de compromiso. Esto no cambia la fecha planificada de finalización del problema.
+
+  <!--Old statement - retired on Nov 25, 2026: If the issue assignee specifies a commit date, both the Projected Completion Date and the Planned Completion Date changes to match the Commit Date. This does not change the Planned Completion Date of the issue.-->
 
   Para obtener más información sobre las fechas de confirmación, consulte el artículo [Información general sobre la fecha de confirmación](../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md).
 

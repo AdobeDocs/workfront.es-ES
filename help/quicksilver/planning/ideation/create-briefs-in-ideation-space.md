@@ -18,9 +18,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 95af5acdd910c0cbafd019dfe9f5397331d7370b
+source-git-commit: f826fcc29be7293fe13b40d8e55e2d412341b615
 workflow-type: tm+mt
-source-wordcount: '2224'
+source-wordcount: '2386'
 ht-degree: 2%
 ---
 
@@ -179,15 +179,23 @@ Puede crear informes para crear o editar registros de Planning o para crear arch
 
    * Vaya al **Menú principal** ![Menú principal](assets/main-menu-lines.png) > haga clic en **Espacio de ideas**
 
+     Se abre el área **Página principal del espacio de ideas**.
+
      ![Espacio de ideación en el menú principal](assets/ideation-space-area-icon-in-main-menu.png)
 
    * Vaya a **Menú principal** ![Menú principal](assets/main-menu-lines.png) > **Planning** > haga clic en un área de trabajo > haga clic en un tipo de registro > haga clic en **Nuevo registro** > haga clic en **Iniciar espacio de ideación**
+
+     Se abre un nuevo lienzo conectado inmediatamente a un nuevo registro.
 
      ![Espacio de ideación en nuevo registro](assets/ideation-space-in-planning-new-record.png)
 
    * Vaya a **Menú principal** ![Menú principal](assets/main-menu-lines.png) > **Planning** > haga clic en un área de trabajo > haga clic en un tipo de registro > haga clic en un registro existente > haga clic en **Abrir en el espacio de ideación**
 
+     Se abre el lienzo conectado al registro seleccionado.
+
      ![Detalles del espacio de ideación en el registro](assets/ideation-space-button-in-details-page.png)
+
+     Para obtener más información acerca de cómo crear registros de Planning mediante el espacio de ideación, vea [Crear registros de Planning a partir de informes del espacio de ideación](/help/quicksilver/planning/ideation/create-records-in-ideation-space-for-planning.md).
 
      >[!IMPORTANT]
      >
@@ -200,24 +208,39 @@ Puede crear informes para crear o editar registros de Planning o para crear arch
      >* Al iniciarlo desde el menú principal de Workfront, la información breve contiene campos e información de los archivos que se cargan en el lienzo.
 
 1. Lea el contrato de versión beta y haga clic en **Aceptar**. Debe firmar el acuerdo para utilizar el espacio de ideación.
+1. (Condicional) Si ha accedido al espacio de ideación desde el **Menú principal** y ha abierto el área de la **Página principal del espacio de ideación**, siga uno de estos procedimientos para abrir un lienzo de ideación:
 
-   El lienzo Espacio de ideación se abre y una nueva ideación se titula de forma predeterminada después del siguiente formato:
+   * Haga clic en un lienzo abierto recientemente en la parte superior de la página para abrirlo
+   * Haga clic en **Iniciar un lienzo nuevo** para abrir un lienzo nuevo y comenzar a crear un informe de ideación
 
-   `catalyze-canvas-< number > - Month date, year at time` <!--submitted bug to change the default name to "Untitled ideation"-->
+     El lienzo del espacio de ideación se abre y la nueva ideación se titula automáticamente después del siguiente formato:
 
-   Para obtener más información acerca de cómo crear registros mediante el espacio de ideación, vea [Crear registros de Planning a partir de los informes del espacio de ideación](/help/quicksilver/planning/ideation/create-records-in-ideation-space-for-planning.md).
+     `Untitled ideation - Month date, year at time`
 
-1. (Condicional) Para abrir una descripción existente en el espacio de ideación, inicie sesión en Workfront con Planning donde se haya activado el compañero y realice una de las siguientes acciones:
+     ![Lienzo de ideación vacío con informe minimizado y compañero](assets/empty-ideation-space-with-brief-minimized.png)
+   * Busque lienzos existentes en la esquina superior derecha de la lista **Todos los lienzos** y, a continuación, haga clic en ellos cuando aparezcan en la lista
 
-   * Vaya a **Menú principal** ![Menú principal](assets/main-menu-lines.png) > **Planning** > haga clic en un área de trabajo > haga clic en un tipo de registro > haga clic en un registro existente > **Abrir en el espacio de ideación**
+     ![Área residencial del espacio de ideación](assets/ideation-space-home-area.png)
 
-     El nombre de ideación coincide con el nombre del registro.
+     >[!TIP]
+     >
+     >No todos los lienzos del área de Inicio del espacio de ideación están conectados a registros de Planning.
+
+1. (Opcional) En el área **Todos los lienzos**, realice una de las siguientes acciones:
+
+   * Haga clic en **Actualizar** ![Actualizar icono](assets/refresh-icon.png) para renovar la lista de todos los lienzos disponibles.
+   * Haga clic en el **icono de tarjeta** ![icono de tarjeta](assets/card-icon.png) para mostrar los lienzos disponibles como tarjetas.
+   * Haga clic en el **icono de lista** ![icono de lista](assets/list-icon.png) para mostrar los lienzos disponibles en una vista de lista.
+1. (Opcional) Desde un lienzo abierto, haga clic en el icono **Inicio** ![Icono de inicio del espacio de ideación](assets/ideation-space-home-icon.png) en el área superior izquierda de la pantalla para regresar al área **Inicio del espacio de ideación**.
+
+   >[!TIP]
+   >
+   >El icono del espacio de ideación Inicio ![Icono del espacio de ideación Inicio](assets/ideation-space-home-icon.png) está disponible dentro de cualquier lienzo, incluso cuando lo ha abierto desde Workfront Planning.
 
 1. (Recomendado) Haga clic en el nombre de la ideación para cambiar el nombre, si lo ha abierto por primera vez.
 
-1. (Condicional y opcional) Para abrir otro espacio de ideación existente, haga clic en el menú desplegable situado a la derecha del nombre de la ideación, búsquela por su nombre y, a continuación, haga clic en la ideación cuando se muestre en la lista.
+1. (Condicional y opcional) Para abrir otro lienzo existente, haga clic en el menú desplegable a la derecha del nombre de la ideación, búsquelo por su nombre y, a continuación, haga clic en la ideación cuando se muestre en la lista.
 
-   Se abre **el espacio de ideación** y el Compañero de trabajo se abre a la derecha.
 1. Utilice el símbolo del sistema de Compañero de trabajo para describir el tipo de informe que desea crear.
 
    Por ejemplo, escriba &quot;Crear una campaña de regreso a la escuela para estudiantes de K-12 que se ejecute durante el mes de agosto, para padres y maestros en los Estados Unidos&quot;.  Para que la información sea lo más completa posible, indique la mayor cantidad de información disponible sobre qué tipo de campaña, cronología, partes interesadas, puntos de comprobación de aprobaciones y otros detalles.

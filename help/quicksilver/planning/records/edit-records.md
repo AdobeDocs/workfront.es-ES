@@ -30,7 +30,7 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 311e830b96b3b2529301f1b8350037928512d411
+source-git-commit: f826fcc29be7293fe13b40d8e55e2d412341b615
 workflow-type: tm+mt
 source-wordcount: '3174'
 ht-degree: 8%
@@ -261,7 +261,13 @@ Para obtener más información, consulte [Crear registros](/help/quicksilver/pla
    * Agregar una lista con viñetas
    * Añadir una lista numerada
 
+   <!--update screen shot at release of new rich test box and move it below the next step-->
+
    ![Barra de herramientas de texto enriquecido en el campo de párrafo](assets/rich-text-toolbar-on-paragraph-field.png)
+
+   <!--
+    1. <span class="preview">(Optional) Click the **Expand** icon ![Expand icon](assets/expand-icon.png) in the upper-right corner of the rich-text editing box to enlarge it, add your changes, then click **Save**.</span>
+    -->
 
 1. (Opcional) Haga doble clic en un campo de registro conectado para agregar registros u objetos conectados a otro registro. Para obtener más información, consulte [Conectar registros](/help/quicksilver/planning/records/connect-records.md).
 1. Presione **Enter** en el teclado o haga clic fuera de una fila para guardar los cambios. Los cambios se guardan automáticamente. Un indicador **Guardado** aparece brevemente en la esquina superior derecha de la vista de tabla para mostrar que los cambios se han guardado.

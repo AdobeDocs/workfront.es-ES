@@ -6,9 +6,9 @@ description: Como administrador de Adobe Workfront, puede configurar los colabor
 author: Becky
 feature: System Setup and Administration
 role: Admin
-source-git-commit: ee344fe88ba7e4fb78a6d80ccbfe5cfa1ecbec47
+source-git-commit: c95c5a71a2706d4ddbf3e53a579b348bd072a04e
 workflow-type: tm+mt
-source-wordcount: '357'
+source-wordcount: '377'
 ht-degree: 8%
 ---
 # Configuración de colaboradores de IA pregenerados
@@ -71,6 +71,10 @@ Para obtener más información, consulte [Información general sobre CX Enterpri
 ### Coordinador de admisión {#intake-coordinator}
 
 El coordinador de admisión comprueba los detalles, los formularios personalizados y los archivos adjuntos de las solicitudes en busca de información que falte, que no sea clara o incoherente. Publica comentarios o realiza cambios con la aprobación del usuario.
+
+>[!NOTE]
+>
+>Puede asignar el coordinador de admisión a una regla de enrutamiento cuando se cree la regla, pero no puede asignarla posteriormente.
 
 <!--
 ### Context Carrier {#context-carrier}

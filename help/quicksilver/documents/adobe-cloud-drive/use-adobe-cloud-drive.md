@@ -21,7 +21,7 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: c16dc2b8b508f71767999aec7029664f5d31f23f
+source-git-commit: 19e1a78a32429ddba173583bf56af8acc5d72eb0
 workflow-type: tm+mt
 source-wordcount: '3955'
 ht-degree: 1%
@@ -504,3 +504,4 @@ Adobe Cloud Drive utiliza una estrategia de duplicación para los conflictos:
 >* Comuníquese con los integrantes del equipo para saber quién está editando qué archivos.
 >* Guardar con frecuencia para que los cambios se sincronicen rápidamente.
 >* Cierre los archivos cuando termine de editar.
+

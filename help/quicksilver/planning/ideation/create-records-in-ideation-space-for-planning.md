@@ -11,9 +11,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 11d5c57468270943e5b8a9fecf3b65af507e2c75
+source-git-commit: f826fcc29be7293fe13b40d8e55e2d412341b615
 workflow-type: tm+mt
-source-wordcount: '1161'
+source-wordcount: '1212'
 ht-degree: 2%
 ---
 
@@ -200,6 +200,11 @@ Para obtener más información acerca de los requisitos de acceso de Workfront, 
 
    ![Nuevo cuadro de registros con el botón Abrir espacio de ideación](assets/new-record-creation-picker-with-ideation.png)
 
+   >[!TIP]
+   >
+   >También puede acceder al espacio de ideación para crear registros desde el menú principal de Workfront. Para obtener más información, consulte [Crear informes en el espacio de ideación](/help/quicksilver/planning/ideation/create-briefs-in-ideation-space.md).
+
+
 1. Lea el contrato de versión beta y haga clic en **Aceptar**. Debe firmar el acuerdo para utilizar el espacio de ideación.
 
    Ocurren lo siguiente:
@@ -216,6 +221,7 @@ Para obtener más información acerca de los requisitos de acceso de Workfront, 
     1. (Optional) Click the **Open previous canvases** icon ![Open existing briefs icon](assets/open-existing-briefs-icon.png) in the upper-right corner of the prompt box, to open existing briefs
     -->
 
+1. (Opcional) Haga clic en el icono **Inicio** ![Icono de inicio del espacio de ideación](assets/ideation-space-home-icon.png) en la esquina superior izquierda del lienzo para abrir el área **Inicio del espacio de ideación** y acceder a otro lienzo.
 1. (Opcional) Pase el ratón sobre la etiqueta **Workfront Planning** en la esquina superior derecha del lienzo del espacio de ideación para ver el nombre del tipo de registro, el área de trabajo para la que está creando un registro y el número de versión de la información breve que está creando.
 
    ![Etiqueta de información de tipo de registro y espacio de trabajo de Workfront Planning dentro del lienzo](assets/workfront-planning-with-ercord-type-and-workspace-name-tag-inside-canvas.png)
